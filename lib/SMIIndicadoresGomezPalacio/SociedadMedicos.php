@@ -24,7 +24,15 @@ class SociedadMedicos extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-<h4>Descripción</h4>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgvejxudq">
+    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
+    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane" id="descripcion">
+      <h4>Descripción</h4>
 Médicos en contacto con pacientes por cada diez mil personas.
 
 <h4>Información recopilada</h4>
@@ -123,12 +131,19 @@ Médicos en contacto con pacientes por cada diez mil personas.
 <h4>Observaciones</h4>
 Dirección General de Información en Salud (DGIS). Base de datos de recursos (infraestructura, materiales y humanos) de la Secretaría de Salud y los Servicios Estatales de Salud 2001-2009: [Sistema Nacional de Información en Salud](http://www.sinais.salud.gob.mx) (SINAIS). México: Secretaría de Salud. Consulta: 01 abril 2014.
 
-<h4>Gráfica</h4>
+    </div>
+    <div class="tab-pane" id="grafica">
+      <h4>Gráfica</h4>
 
-<div id="Morrisjiquspno" class="grafica"></div>
+<div id="Morrisjqxulwtd" class="grafica"></div>
 
 
-<h4>En otras regiones</h4>
+    </div>
+    <div class="tab-pane" id="mapa">
+              <div id="LeafLetmnxuxlyo" class="mapa"></div>
+    </div>
+    <div class="tab-pane active" id="otras_regiones">
+      <h4>En otras regiones</h4>
 
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -530,12 +545,20 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
 </table>
 
 
+    </div>
+  </div>
 FINAL;
         $this->javascript  = <<<FINAL
-  // GRAFICA MORRIS
-  if (typeof varMorrisjiquspno === 'undefined') {
-    varMorrisjiquspno = Morris.Line({
-      element: 'Morrisjiquspno',
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasgvejxudq a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasgvejxudq a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisjqxulwtd === 'undefined') {
+    varMorrisjqxulwtd = Morris.Line({
+      element: 'Morrisjqxulwtd',
       data: [{ fecha: '2001-12-31', dato: 3.7000 },{ fecha: '2002-12-31', dato: 4.0000 },{ fecha: '2003-12-31', dato: 4.1000 },{ fecha: '2004-12-31', dato: 4.3000 },{ fecha: '2005-12-31', dato: 4.3000 },{ fecha: '2006-12-31', dato: 3.9000 },{ fecha: '2007-12-31', dato: 4.2000 },{ fecha: '2008-12-31', dato: 5.1000 },{ fecha: '2009-12-31', dato: 5.3000 },{ fecha: '2010-12-31', dato: 4.9000 },{ fecha: '2011-12-31', dato: 4.4000 },{ fecha: '2012-12-31', dato: 4.5000 },{ fecha: '2013-12-31', dato: 4.2000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -545,6 +568,79 @@ FINAL;
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+});
+// LENGUETA
+$('#Lenguetasgvejxudq a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapmnxuxlyo;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapmnxuxlyo() {
+    // Nuevo Mapa
+    mapmnxuxlyo = new L.Map('LeafLetmnxuxlyo');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapmnxuxlyo.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapmnxuxlyo.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapmnxuxlyo);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapmnxuxlyo === 'undefined') {
+    varinitmapmnxuxlyo = initmapmnxuxlyo();
+  };
+});
 FINAL;
     } // constructor
 

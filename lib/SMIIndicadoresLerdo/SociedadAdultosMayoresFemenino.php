@@ -24,7 +24,15 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Grupos Vulnerables, Género';
         $this->categorias  = array('Grupos Vulnerables', 'Género');
         $this->contenido   = <<<FINAL
-<h4>Descripción</h4>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasltltezvz">
+    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
+    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane" id="descripcion">
+      <h4>Descripción</h4>
 Población estimada a mediados de año de personas de 65 años y más de sexo femenino.
 
 <h4>Información recopilada</h4>
@@ -104,12 +112,19 @@ Población estimada a mediados de año de personas de 65 años y más de sexo fe
 
 
 
-<h4>Gráfica</h4>
+    </div>
+    <div class="tab-pane" id="grafica">
+      <h4>Gráfica</h4>
 
-<div id="Morrisefeewdfl" class="grafica"></div>
+<div id="Morrismbmismkm" class="grafica"></div>
 
 
-<h4>En otras regiones</h4>
+    </div>
+    <div class="tab-pane" id="mapa">
+              <div id="LeafLetgiwvgani" class="mapa"></div>
+    </div>
+    <div class="tab-pane active" id="otras_regiones">
+      <h4>En otras regiones</h4>
 
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -616,12 +631,20 @@ Población estimada a mediados de año de personas de 65 años y más de sexo fe
 </table>
 
 
+    </div>
+  </div>
 FINAL;
         $this->javascript  = <<<FINAL
-  // GRAFICA MORRIS
-  if (typeof varMorrisefeewdfl === 'undefined') {
-    varMorrisefeewdfl = Morris.Line({
-      element: 'Morrisefeewdfl',
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasltltezvz a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasltltezvz a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrismbmismkm === 'undefined') {
+    varMorrismbmismkm = Morris.Line({
+      element: 'Morrismbmismkm',
       data: [{ fecha: '2011-06-30', dato: 4448 },{ fecha: '2012-06-30', dato: 4608 },{ fecha: '2013-06-30', dato: 4775 },{ fecha: '2014-06-30', dato: 4950 },{ fecha: '2015-06-30', dato: 5133 },{ fecha: '2016-06-30', dato: 5325 },{ fecha: '2017-06-30', dato: 5527 },{ fecha: '2018-06-30', dato: 5739 },{ fecha: '2019-06-30', dato: 5961 },{ fecha: '2020-06-30', dato: 6195 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -631,6 +654,79 @@ FINAL;
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+});
+// LENGUETA
+$('#Lenguetasltltezvz a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapgiwvgani;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapgiwvgani() {
+    // Nuevo Mapa
+    mapgiwvgani = new L.Map('LeafLetgiwvgani');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapgiwvgani.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapgiwvgani.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapgiwvgani);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapgiwvgani === 'undefined') {
+    varinitmapgiwvgani = initmapgiwvgani();
+  };
+});
 FINAL;
     } // constructor
 

@@ -24,7 +24,15 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashpeotfmk">
+    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
+    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane" id="descripcion">
+      
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -89,12 +97,19 @@ El promedio nacional de los ingresos totales por municipio es de:
 
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
 
-<h4>Gráfica</h4>
+    </div>
+    <div class="tab-pane" id="grafica">
+      <h4>Gráfica</h4>
 
-<div id="Morrisyuyqglqt" class="grafica"></div>
+<div id="Morriskuebwkge" class="grafica"></div>
 
 
-<h4>En otras regiones</h4>
+    </div>
+    <div class="tab-pane" id="mapa">
+              <div id="LeafLetevjcpugb" class="mapa"></div>
+    </div>
+    <div class="tab-pane active" id="otras_regiones">
+      <h4>En otras regiones</h4>
 
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -286,12 +301,20 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 </table>
 
 
+    </div>
+  </div>
 FINAL;
         $this->javascript  = <<<FINAL
-  // GRAFICA MORRIS
-  if (typeof varMorrisyuyqglqt === 'undefined') {
-    varMorrisyuyqglqt = Morris.Line({
-      element: 'Morrisyuyqglqt',
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetashpeotfmk a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetashpeotfmk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorriskuebwkge === 'undefined') {
+    varMorriskuebwkge = Morris.Line({
+      element: 'Morriskuebwkge',
       data: [{ fecha: '2007-12-31', dato: 2389268767.00 },{ fecha: '2008-12-31', dato: 3054640385.00 },{ fecha: '2009-12-31', dato: 3147856470.00 },{ fecha: '2010-12-31', dato: 3037346224.00 },{ fecha: '2011-12-31', dato: 3391664429.00 },{ fecha: '2012-12-31', dato: 3504184566.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -301,6 +324,79 @@ FINAL;
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+});
+// LENGUETA
+$('#Lenguetashpeotfmk a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapevjcpugb;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapevjcpugb() {
+    // Nuevo Mapa
+    mapevjcpugb = new L.Map('LeafLetevjcpugb');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapevjcpugb.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapevjcpugb.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapevjcpugb);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapevjcpugb === 'undefined') {
+    varinitmapevjcpugb = initmapevjcpugb();
+  };
+});
 FINAL;
     } // constructor
 

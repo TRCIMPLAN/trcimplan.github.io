@@ -193,6 +193,7 @@ FINAL;
             }
             $a[] = '  <link href="css/bootstrap.min.css" rel="stylesheet">';
             $a[] = '  <link href="css/morris.css" rel="stylesheet">';
+            $a[] = '  <link href="css/leaflet.css" rel="stylesheet">';
             $a[] = '  <link href="css/cms.css" rel="stylesheet">';
         } else {
             if ($this->favicon != '') {
@@ -203,6 +204,7 @@ FINAL;
             }
             $a[] = '  <link href="../css/bootstrap.min.css" rel="stylesheet">';
             $a[] = '  <link href="../css/morris.css" rel="stylesheet">';
+            $a[] = '  <link href="../css/leaflet.css" rel="stylesheet">';
             $a[] = '  <link href="../css/cms.css" rel="stylesheet">';
         }
         $a[] = '  <!-- SOPORTE PARA IE8 -->';
@@ -221,6 +223,11 @@ FINAL;
             if ($this->encabezado != '') {
                 $a[] = $this->encabezado;
             }
+            if ($this->titulo == '') {
+                $a[] = "  <h1>{$this->sitio_titulo}</h1>";
+            } else {
+                $a[] = "  <h1>{$this->titulo}</h1>";
+            }
             $a[] = $this->contenido;
             $a[] = '      </div>';
             $a[] = '      <div class="col-md-3">';
@@ -232,6 +239,11 @@ FINAL;
         } else {
             if ($this->encabezado != '') {
                 $a[] = $this->encabezado;
+            }
+            if ($this->titulo == '') {
+                $a[] = "  <h1>{$this->sitio_titulo}</h1>";
+            } else {
+                $a[] = "  <h1>{$this->titulo}</h1>";
             }
             $a[] = $this->contenido;
         }
@@ -250,16 +262,20 @@ FINAL;
             $a[] = '  <script src="js/bootstrap.min.js"></script>';
             $a[] = '  <script src="js/raphael-min.js"></script>';
             $a[] = '  <script src="js/morris.min.js"></script>';
+            $a[] = '  <script src="js/leaflet.js"></script>';
             $a[] = '  <script src="js/google-analytics.js"></script>';
         } else {
             $a[] = '  <script src="../js/jquery.min.js"></script>';
             $a[] = '  <script src="../js/bootstrap.min.js"></script>';
             $a[] = '  <script src="../js/raphael-min.js"></script>';
             $a[] = '  <script src="../js/morris.min.js"></script>';
+            $a[] = '  <script src="../js/leaflet.js"></script>';
             $a[] = '  <script src="../js/google-analytics.js"></script>';
         }
-        if ($this->javascript != '') {
+        if (trim($this->javascript) != '') {
+            $a[] = '<script>';
             $a[] = $this->javascript;
+            $a[] = '</script>';
         }
         $a[] = '</body>';
         $a[] = '</html>';

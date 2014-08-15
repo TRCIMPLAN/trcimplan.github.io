@@ -32,6 +32,7 @@
   <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón S.M.I.">
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
   <link href="../css/cms.css" rel="stylesheet">
   <!-- SOPORTE PARA IE8 -->
   <!--[if lt IE 9]>
@@ -60,7 +61,16 @@
 </nav>
 <div id="contenido">
   <div class="container">
-<h4>Descripción</h4>
+  <h1>Índice de Gini en Torreón</h1>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetassmrjafst">
+    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
+    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane" id="descripcion">
+      <h4>Descripción</h4>
 Indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad.
 
 <h4>Información recopilada</h4>
@@ -90,8 +100,15 @@ El índice de Ginni a nivel nacional es de: 0.472
 
 Datos obtenidos de [CONEVAL](http://www.coneval.gob.mx/Paginas/principal.aspx)
 
-
-<h4>En otras regiones</h4>
+    </div>
+    <div class="tab-pane" id="grafica">
+      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+    </div>
+    <div class="tab-pane" id="mapa">
+              <div id="LeafLetnvrjsajr" class="mapa"></div>
+    </div>
+    <div class="tab-pane active" id="otras_regiones">
+      <h4>En otras regiones</h4>
 
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -136,6 +153,8 @@ Datos obtenidos de [CONEVAL](http://www.coneval.gob.mx/Paginas/principal.aspx)
 </table>
 
 
+    </div>
+  </div>
   </div>
 </div>
 <div id="inferior">
@@ -158,6 +177,85 @@ Datos obtenidos de [CONEVAL](http://www.coneval.gob.mx/Paginas/principal.aspx)
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
+  <script src="../js/leaflet.js"></script>
   <script src="../js/google-analytics.js"></script>
+<script>
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetassmrjafst a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetassmrjafst a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapnvrjsajr;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapnvrjsajr() {
+    // Nuevo Mapa
+    mapnvrjsajr = new L.Map('LeafLetnvrjsajr');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapnvrjsajr.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapnvrjsajr.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapnvrjsajr);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapnvrjsajr === 'undefined') {
+    varinitmapnvrjsajr = initmapnvrjsajr();
+  };
+});
+</script>
 </body>
 </html>

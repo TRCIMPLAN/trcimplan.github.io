@@ -24,7 +24,15 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \Base\Publicacio
         $this->claves      = 'Torreón, Grupos Vulnerables, Delincuencia';
         $this->categorias  = array('Grupos Vulnerables', 'Delincuencia');
         $this->contenido   = <<<FINAL
-<h4>Descripción</h4>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasaskrocvc">
+    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
+    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane" id="descripcion">
+      <h4>Descripción</h4>
 Menores de edad que han perdido a padre o madre a causa de agresión (homicidio).
 
 <h4>Información recopilada</h4>
@@ -75,18 +83,33 @@ Menores de edad que han perdido a padre o madre a causa de agresión (homicidio)
 <h4>Observaciones</h4>
 Elaboración propia en base a las defunciones registradas en [SINAIS](http://www.sinais.salud.gob.mx)
 
-<h4>Gráfica</h4>
+    </div>
+    <div class="tab-pane" id="grafica">
+      <h4>Gráfica</h4>
 
-<div id="Morristnarcxsp" class="grafica"></div>
+<div id="Morrisrjoguxqj" class="grafica"></div>
 
 
-
+    </div>
+    <div class="tab-pane" id="mapa">
+              <div id="LeafLetdfqtaaky" class="mapa"></div>
+    </div>
+    <div class="tab-pane active" id="otras_regiones">
+      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+    </div>
+  </div>
 FINAL;
         $this->javascript  = <<<FINAL
-  // GRAFICA MORRIS
-  if (typeof varMorristnarcxsp === 'undefined') {
-    varMorristnarcxsp = Morris.Line({
-      element: 'Morristnarcxsp',
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasaskrocvc a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasaskrocvc a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisrjoguxqj === 'undefined') {
+    varMorrisrjoguxqj = Morris.Line({
+      element: 'Morrisrjoguxqj',
       data: [{ fecha: '2008-12-31', dato: 544 },{ fecha: '2009-12-31', dato: 597 },{ fecha: '2010-12-31', dato: 753 },{ fecha: '2011-12-31', dato: 858 },{ fecha: '2012-12-31', dato: 1253 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -96,6 +119,79 @@ FINAL;
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+});
+// LENGUETA
+$('#Lenguetasaskrocvc a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapdfqtaaky;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapdfqtaaky() {
+    // Nuevo Mapa
+    mapdfqtaaky = new L.Map('LeafLetdfqtaaky');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapdfqtaaky.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapdfqtaaky.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapdfqtaaky);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapdfqtaaky === 'undefined') {
+    varinitmapdfqtaaky = initmapdfqtaaky();
+  };
+});
 FINAL;
     } // constructor
 

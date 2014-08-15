@@ -24,7 +24,15 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
         $this->claves      = 'Torreón, Competitividad';
         $this->categorias  = array('Competitividad');
         $this->contenido   = <<<FINAL
-<h4>Descripción</h4>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashlcotmjb">
+    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
+    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane" id="descripcion">
+      <h4>Descripción</h4>
 El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.
 
 <h4>Información recopilada</h4>
@@ -50,8 +58,15 @@ El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Institut
 
 
 
-
-<h4>En otras regiones</h4>
+    </div>
+    <div class="tab-pane" id="grafica">
+      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+    </div>
+    <div class="tab-pane" id="mapa">
+              <div id="LeafLetuytkmuxr" class="mapa"></div>
+    </div>
+    <div class="tab-pane active" id="otras_regiones">
+      <h4>En otras regiones</h4>
 
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -96,8 +111,87 @@ El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Institut
 </table>
 
 
+    </div>
+  </div>
 FINAL;
-        $this->javascript  = '';
+        $this->javascript  = <<<FINAL
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetashlcotmjb a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetashlcotmjb a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapuytkmuxr;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapuytkmuxr() {
+    // Nuevo Mapa
+    mapuytkmuxr = new L.Map('LeafLetuytkmuxr');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapuytkmuxr.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapuytkmuxr.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapuytkmuxr);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapuytkmuxr === 'undefined') {
+    varinitmapuytkmuxr = initmapuytkmuxr();
+  };
+});
+FINAL;
     } // constructor
 
 } // Clase EconomiaIndiceDeCompetitividadUrbana
