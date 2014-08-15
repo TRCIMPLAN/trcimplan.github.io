@@ -54,10 +54,8 @@ class PlantillaHTML extends \Configuracion\PlantillaHTMLConfig {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '<nav class="navbar" role="navigation" id="menu-principal">';
-        $a[] = '  <div class="container">';
         $a[] = '    <div class="navbar-header">';
-        $a[] = '      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-principal-collapse">';
+        $a[] = '      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">';
         $a[] = '        <span class="sr-only">Toggle navigation</span>';
         $a[] = '        <span class="icon-bar"></span>';
         $a[] = '        <span class="icon-bar"></span>';
@@ -65,24 +63,102 @@ class PlantillaHTML extends \Configuracion\PlantillaHTMLConfig {
         $a[] = '      </button>';
         if ($this->menu_principal_logo != '') {
             if ($this->en_raiz) {
-                $a[] = "      <a class=\"navbar-brand\" href=\"{$this->sitio_url}\"><img class=\"navbar-brand-img\" src=\"{$this->menu_principal_logo}\"></a>";
+                $a[] = "      <a class=\"navbar-brand\" href=\"index.html\"><img class=\"navbar-brand-img\" src=\"{$this->menu_principal_logo}\"></a>";
             } else {
-                $a[] = "      <a class=\"navbar-brand\" href=\"{$this->sitio_url}\"><img class=\"navbar-brand-img\" src=\"../{$this->menu_principal_logo}\"></a>";
+                $a[] = "      <a class=\"navbar-brand\" href=\"../index.html\"><img class=\"navbar-brand-img\" src=\"../{$this->menu_principal_logo}\"></a>";
             }
         } else {
-            $a[] = "      <a class=\"navbar-brand\" href=\"{$this->sitio_url}\">{$this->sitio_titulo}</a>";
+            if ($this->en_raiz) {
+                $a[] = "      <a class=\"navbar-brand\" href=\"index.html\">{$this->sitio_titulo}</a>";
+            } else {
+                $a[] = "      <a class=\"navbar-brand\" href=\"../index.html\">{$this->sitio_titulo}</a>";
+            }
         }
         $a[] = '    </div>';
-        $a[] = '    <div class="navbar-collapse collapse" id="menu-principal-collapse">';
-        $a[] = '      <ul class="nav navbar-nav navbar-right">';
-        $a[] = '        <li><a href="rss.xml">RSS</a></li>';
-        $a[] = '      </ul>';
-        $a[] = '    </div>';
-        $a[] = '  </div>';
-        $a[] = '</nav>';
+        $a[] = '    <ul class="nav navbar-nav navbar-right">';
+        $a[] = '      <li><a href="rss.xml">RSS</a></li>';
+        $a[] = '    </ul>';
         // Entregar
         return implode("\n", $a);
     } // menu_principal_html
+
+    /**
+     * Menu Izquierdo HTML
+     *
+     * @return string Código HTML
+     */
+    protected function menu_izquierdo_html() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+/*
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+ */
+
+/* Un nivel
+                        <li>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        </li>
+ */
+
+/* Dos niveles
+                        <li>
+                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="flot.html">Flot Charts</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Morris.js Charts</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+ */
+
+/* Tres niveles
+                        <li>
+                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Second Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Second Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level <span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                    </ul>
+                                    <!-- /.nav-third-level -->
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+ */
+
+/*
+                    </ul>
+                </div>
+            </div>
+ */
+        // Entregar
+        return implode("\n", $a);
+    } // menu_izquierdo_html
 
     /**
      * Encabezado HTML
@@ -142,22 +218,21 @@ class PlantillaHTML extends \Configuracion\PlantillaHTMLConfig {
         Instituto Municipal de Planeación y Competitividad de Torreón.
         Todos los Derechos Reservados. © 2014.
 
-        Este sistema fue programado por el Staff del IMPLAN usando Software Libre.
+        Este sitio web fue elaborado por personal del IMPLAN Torreón usando Software Libre.
+
+        Descargue y colabore por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN/trcimplan.github.io
+
         Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
-           CMS de Movimiento Libre  http://cms.movimientolibre.com/
-           Twitter Bootstrap        http://getbootstrap.com/
-           Morris.js                http://www.oesmith.co.uk/morris.js/
-           GitHub                   http://github.com/
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
 
      ======================================================================================== -->
 FINAL;
         $a[] = '<head>';
         $a[] = '  <meta charset="utf-8">';
-        if ($this->titulo == '') {
-            $a[] = "  <title>{$this->sitio_titulo}</title>";
-        } else {
-            $a[] = "  <title>{$this->titulo} - {$this->sitio_titulo}</title>";
-        }
         $a[] = '  <meta http-equiv="X-UA-Compatible" content="IE=edge">';
         $a[] = '  <meta name="viewport" content="width=device-width, initial-scale=1.0">';
         if ($this->descripcion != '') {
@@ -184,6 +259,11 @@ FINAL;
             }
             $a[] = sprintf('  <meta name="og:url" content="%s/%s">', $this->sitio_url, $this->ruta);
         }
+        if ($this->titulo == '') {
+            $a[] = "  <title>{$this->sitio_titulo}</title>";
+        } else {
+            $a[] = "  <title>{$this->titulo} - {$this->sitio_titulo}</title>";
+        }
         if ($this->en_raiz) {
             if ($this->favicon != '') {
                 $a[] = "  <link href=\"{$this->favicon}\" rel=\"shortcut icon\" type=\"image/x-icon\">";
@@ -194,7 +274,9 @@ FINAL;
             $a[] = '  <link href="css/bootstrap.min.css" rel="stylesheet">';
             $a[] = '  <link href="css/morris.css" rel="stylesheet">';
             $a[] = '  <link href="css/leaflet.css" rel="stylesheet">';
-            $a[] = '  <link href="css/cms.css" rel="stylesheet">';
+            $a[] = '  <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">';
+            $a[] = '  <link href="css/sb-admin-2.css" rel="stylesheet">';
+            $a[] = '  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">';
         } else {
             if ($this->favicon != '') {
                 $a[] = "  <link href=\"../{$this->favicon}\" rel=\"shortcut icon\" type=\"image/x-icon\">";
@@ -205,16 +287,25 @@ FINAL;
             $a[] = '  <link href="../css/bootstrap.min.css" rel="stylesheet">';
             $a[] = '  <link href="../css/morris.css" rel="stylesheet">';
             $a[] = '  <link href="../css/leaflet.css" rel="stylesheet">';
-            $a[] = '  <link href="../css/cms.css" rel="stylesheet">';
+            $a[] = '  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">';
+            $a[] = '  <link href="../css/sb-admin-2.css" rel="stylesheet">';
+            $a[] = '  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">';
         }
-        $a[] = '  <!-- SOPORTE PARA IE8 -->';
+        $a[] = '  <!-- SOPORTE PARA IE -->';
         $a[] = '  <!--[if lt IE 9]>';
         $a[] = '  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>';
         $a[] = '  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>';
         $a[] = '  <![endif]-->';
         $a[] = '</head>';
+/* */
         $a[] = '<body>';
+        $a[] = '<div id="wrapper">';
+/* */
+        $a[] = '<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">';
         $a[] = $this->menu_principal_html();
+        $a[] = $this->menu_izquierdo_html();
+        $a[] = '</nav>';
+/* */
         $a[] = '<div id="contenido">';
         $a[] = '  <div class="container">';
         if ($this->contenido_secundario != '') {
@@ -277,7 +368,10 @@ FINAL;
             $a[] = $this->javascript;
             $a[] = '</script>';
         }
+/* */
+        $a[] = '</div>';
         $a[] = '</body>';
+/* */
         $a[] = '</html>';
         // Entregar
         return implode("\n", $a);

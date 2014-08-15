@@ -35,6 +35,21 @@ class PlantillaHTMLConfig {
     public $pie                 = '<p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>';
     public $en_raiz             = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
     public $para_compartir      = true;  // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
+    public $menu_principal;
+    public $menu_secundario;
+
+    /**
+     * Constructor
+     */
+    public function __construct() {
+        $menu_principal  = new \Base\MenuPrincipal();
+        $menu_principal->agregar_opcion();
+        $menu_principal->agregar_opcion_sub();
+        $menu_secundario = new \Base\MenuIzquierdo();
+        $menu_principal->agregar_opcion();
+        $menu_principal->agregar_opcion_sub();
+        $menu_principal->agregar_opcion_sub_sub();
+    } // constructor
 
 } // Clase PlantillaHTMLConfig
 
