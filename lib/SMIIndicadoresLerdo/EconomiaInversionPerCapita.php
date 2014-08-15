@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaInversionPerCapita
@@ -18,7 +18,7 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Inversión Per cápita en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-inversion-per-capita';
         $this->descripcion = 'Gasto en obras públicas y acciones sociales entre población total.';
         $this->claves      = 'Lerdo, Macroeconomía, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morristfctuoqr" class="grafica"></div>
+<div id="Morrislecybiqm" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -283,9 +283,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorristfctuoqr === 'undefined') {
-    varMorristfctuoqr = Morris.Line({
-      element: 'Morristfctuoqr',
+  if (typeof varMorrislecybiqm === 'undefined') {
+    varMorrislecybiqm = Morris.Line({
+      element: 'Morrislecybiqm',
       data: [{ fecha: '2007-12-31', dato: 212.34 },{ fecha: '2008-12-31', dato: 325.00 },{ fecha: '2009-12-31', dato: 218.82 },{ fecha: '2010-12-31', dato: 195.81 },{ fecha: '2011-12-31', dato: 426.48 },{ fecha: '2012-12-31', dato: 451.59 }],
       xkey: 'fecha',
       ykeys: ['dato'],

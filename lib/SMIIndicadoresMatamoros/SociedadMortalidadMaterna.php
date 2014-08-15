@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadMortalidadMaterna
@@ -18,7 +18,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad Materna en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-mortalidad-materna';
         $this->descripcion = 'Defunciones maternas por cada cien mil partos.';
         $this->claves      = 'Matamoros, Salud, Género';

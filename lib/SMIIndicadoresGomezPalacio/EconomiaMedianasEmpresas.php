@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaMedianasEmpresas
@@ -18,7 +18,7 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Medianas Empresas en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-medianas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean de 51 a 250 personas.';
         $this->claves      = 'Gómez Palacio, Empresas';
@@ -61,7 +61,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morriseisdbguo" class="grafica"></div>
+<div id="Morrisafqgauxx" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -182,9 +182,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriseisdbguo === 'undefined') {
-    varMorriseisdbguo = Morris.Line({
-      element: 'Morriseisdbguo',
+  if (typeof varMorrisafqgauxx === 'undefined') {
+    varMorrisafqgauxx = Morris.Line({
+      element: 'Morrisafqgauxx',
       data: [{ fecha: '2013-12-31', dato: 2.5200 },{ fecha: '2014-07-31', dato: 2.3600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

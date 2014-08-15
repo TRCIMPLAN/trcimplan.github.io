@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaProduccionBrutaTotalPerCapita
@@ -18,7 +18,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Producción Bruta Total Per Cápita en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-produccion-bruta-total-per-capita';
         $this->descripcion = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total.';
         $this->claves      = 'Torreón, Macroeconomía, Finanzas Públicas';
@@ -79,7 +79,7 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisqnijnfga" class="grafica"></div>
+<div id="Morrisqdyrwgls" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisqnijnfga === 'undefined') {
-    varMorrisqnijnfga = Morris.Line({
-      element: 'Morrisqnijnfga',
+  if (typeof varMorrisqdyrwgls === 'undefined') {
+    varMorrisqdyrwgls = Morris.Line({
+      element: 'Morrisqdyrwgls',
       data: [{ fecha: '1998-12-31', dato: 57746.33 },{ fecha: '2003-12-31', dato: 101715.94 },{ fecha: '2008-12-31', dato: 197853.91 }],
       xkey: 'fecha',
       ykeys: ['dato'],

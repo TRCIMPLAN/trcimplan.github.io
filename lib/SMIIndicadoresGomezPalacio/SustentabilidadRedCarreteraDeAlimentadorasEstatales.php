@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SustentabilidadRedCarreteraDeAlimentadorasEstatales
@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraDeAlimentadorasEstatales extends \Base\Publicac
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera de Alimentadoras Estatales en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-red-carretera-de-alimentadoras-estatales';
         $this->descripcion = 'Red carretera de alimentadoras estatales.';
         $this->claves      = 'Gómez Palacio, Infraestructura';

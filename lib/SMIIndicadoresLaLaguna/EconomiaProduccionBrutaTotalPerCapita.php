@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaProduccionBrutaTotalPerCapita
@@ -18,7 +18,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Producción Bruta Total Per Cápita en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-produccion-bruta-total-per-capita';
         $this->descripcion = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total.';
         $this->claves      = 'La Laguna, Macroeconomía, Finanzas Públicas';
@@ -79,7 +79,7 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisvyounjkz" class="grafica"></div>
+<div id="Morrisdqjuglll" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisvyounjkz === 'undefined') {
-    varMorrisvyounjkz = Morris.Line({
-      element: 'Morrisvyounjkz',
+  if (typeof varMorrisdqjuglll === 'undefined') {
+    varMorrisdqjuglll = Morris.Line({
+      element: 'Morrisdqjuglll',
       data: [{ fecha: '1998-12-31', dato: 49506.05 },{ fecha: '2003-12-31', dato: 88356.17 },{ fecha: '2008-12-31', dato: 149559.46 }],
       xkey: 'fecha',
       ykeys: ['dato'],

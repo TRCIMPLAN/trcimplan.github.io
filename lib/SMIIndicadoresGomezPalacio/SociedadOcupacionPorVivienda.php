@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadOcupacionPorVivienda
@@ -18,7 +18,7 @@ class SociedadOcupacionPorVivienda extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ocupación por Vivienda en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-ocupacion-por-vivienda';
         $this->descripcion = 'Promedio de ocupantes por vivienda.';
         $this->claves      = 'Gómez Palacio, Vivienda';

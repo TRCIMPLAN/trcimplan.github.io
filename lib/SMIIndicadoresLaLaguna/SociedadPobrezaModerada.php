@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadPobrezaModerada
@@ -18,7 +18,7 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pobreza Moderada en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-pobreza-moderada';
         $this->descripcion = 'Porcentaje de la población en situación de pobreza moderada.';
         $this->claves      = 'La Laguna, Bienestar';

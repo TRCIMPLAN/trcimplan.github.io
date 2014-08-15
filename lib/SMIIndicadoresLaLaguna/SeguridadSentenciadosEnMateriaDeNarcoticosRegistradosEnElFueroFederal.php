@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SeguridadSentenciadosEnMateriaDeNarcoticosRegistradosEnElFueroFederal
@@ -18,7 +18,7 @@ class SeguridadSentenciadosEnMateriaDeNarcoticosRegistradosEnElFueroFederal exte
      */
     public function __construct() {
         $this->nombre      = 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal';
         $this->descripcion = '';
         $this->claves      = 'La Laguna, Delincuencia';

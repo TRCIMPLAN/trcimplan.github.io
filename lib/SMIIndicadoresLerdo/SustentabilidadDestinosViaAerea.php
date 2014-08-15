@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadDestinosViaAerea
@@ -18,7 +18,7 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Destinos Vía Aérea en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-destinos-via-aerea';
         $this->descripcion = 'Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.';
         $this->claves      = 'Lerdo, Movilidad';

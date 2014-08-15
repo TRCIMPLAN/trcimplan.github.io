@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SeguridadAccidentesVialesFatales
@@ -18,7 +18,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Accidentes Viales Fatales en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-accidentes-viales-fatales';
         $this->descripcion = 'Cantidad de accidentes viales fatales por año.';
         $this->claves      = 'La Laguna, Vialidad';

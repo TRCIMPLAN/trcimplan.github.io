@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase GobiernoIndiceDeInformacionPresupuestal
@@ -18,7 +18,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'índice de Información Presupuestal en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'gobierno-indice-de-informacion-presupuestal';
         $this->descripcion = 'Cumplimiento sobre total de criterios';
         $this->claves      = 'Torreón, Transparencia';

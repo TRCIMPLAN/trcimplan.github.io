@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadMaternidadAdolescente
@@ -18,7 +18,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Maternidad Adolescente en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-maternidad-adolescente';
         $this->descripcion = '';
         $this->claves      = 'Gómez Palacio, Género';

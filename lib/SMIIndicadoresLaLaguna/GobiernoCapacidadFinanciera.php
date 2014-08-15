@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase GobiernoCapacidadFinanciera
@@ -18,7 +18,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Capacidad Financiera en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'gobierno-capacidad-financiera';
         $this->descripcion = 'Ingresos propios entre gastos corrientes.';
         $this->claves      = 'La Laguna, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrisuflyaxxg" class="grafica"></div>
+<div id="Morrisidgmsgpz" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -297,9 +297,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisuflyaxxg === 'undefined') {
-    varMorrisuflyaxxg = Morris.Line({
-      element: 'Morrisuflyaxxg',
+  if (typeof varMorrisidgmsgpz === 'undefined') {
+    varMorrisidgmsgpz = Morris.Line({
+      element: 'Morrisidgmsgpz',
       data: [{ fecha: '2007-12-31', dato: 62.9900 },{ fecha: '2008-12-31', dato: 60.9700 },{ fecha: '2009-12-31', dato: 69.2000 },{ fecha: '2010-12-31', dato: 52.6000 },{ fecha: '2011-12-31', dato: 55.8000 },{ fecha: '2012-12-31', dato: 66.5000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

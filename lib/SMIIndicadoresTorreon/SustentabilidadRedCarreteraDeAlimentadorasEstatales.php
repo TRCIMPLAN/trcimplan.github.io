@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadRedCarreteraDeAlimentadorasEstatales
@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraDeAlimentadorasEstatales extends \Base\Publicac
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera de Alimentadoras Estatales en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-red-carretera-de-alimentadoras-estatales';
         $this->descripcion = 'Red carretera de alimentadoras estatales.';
         $this->claves      = 'Torreón, Infraestructura';

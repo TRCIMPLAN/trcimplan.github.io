@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaDesocupadosComoPorcentajeDeLaPea
@@ -18,7 +18,7 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Desocupados como porcentaje de la PEA en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-desocupados-como-porcentaje-de-la-pea';
         $this->descripcion = 'Número total de desempleados entre la Población económicamente activa';
         $this->claves      = 'Torreón, Empleo';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 <h4>Gráfica</h4>
 
-<div id="Morristeuigrjc" class="grafica"></div>
+<div id="Morrisnpgebxib" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -178,9 +178,9 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorristeuigrjc === 'undefined') {
-    varMorristeuigrjc = Morris.Line({
-      element: 'Morristeuigrjc',
+  if (typeof varMorrisnpgebxib === 'undefined') {
+    varMorrisnpgebxib = Morris.Line({
+      element: 'Morrisnpgebxib',
       data: [{ fecha: '1989-12-31', dato: 2.6600 },{ fecha: '1999-12-31', dato: 1.0400 },{ fecha: '2009-12-31', dato: 7.4600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

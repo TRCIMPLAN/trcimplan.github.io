@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaPersonalOcupadoEnElComercio
@@ -18,7 +18,7 @@ class EconomiaPersonalOcupadoEnElComercio extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Personal Ocupado en el Comercio en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-personal-ocupado-en-el-comercio';
         $this->descripcion = 'Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.';
         $this->claves      = 'La Laguna, Empleo, Mercados';
@@ -65,7 +65,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrislzwfekjd" class="grafica"></div>
+<div id="Morrisevofijae" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrislzwfekjd === 'undefined') {
-    varMorrislzwfekjd = Morris.Line({
-      element: 'Morrislzwfekjd',
+  if (typeof varMorrisevofijae === 'undefined') {
+    varMorrisevofijae = Morris.Line({
+      element: 'Morrisevofijae',
       data: [{ fecha: '1998-12-31', dato: 22.5000 },{ fecha: '2003-12-31', dato: 25.4000 },{ fecha: '2008-12-31', dato: 28.0342 }],
       xkey: 'fecha',
       ykeys: ['dato'],

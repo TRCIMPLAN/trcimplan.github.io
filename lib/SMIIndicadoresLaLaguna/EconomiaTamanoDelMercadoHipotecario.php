@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaTamanoDelMercadoHipotecario
@@ -18,7 +18,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tamaño del Mercado Hipotecario en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-tamano-del-mercado-hipotecario';
         $this->descripcion = 'Créditos dispuestos marginalmente durante el año indicado.';
         $this->claves      = 'La Laguna, Mercados';
@@ -79,7 +79,7 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisjhenrorg" class="grafica"></div>
+<div id="Morrisgarojrtd" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -242,9 +242,9 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisjhenrorg === 'undefined') {
-    varMorrisjhenrorg = Morris.Line({
-      element: 'Morrisjhenrorg',
+  if (typeof varMorrisgarojrtd === 'undefined') {
+    varMorrisgarojrtd = Morris.Line({
+      element: 'Morrisgarojrtd',
       data: [{ fecha: '2010-12-31', dato: 1548 },{ fecha: '2011-12-31', dato: 2755 },{ fecha: '2012-12-31', dato: 3124 },{ fecha: '2013-12-31', dato: 2915 },{ fecha: '2014-03-31', dato: 401 }],
       xkey: 'fecha',
       ykeys: ['dato'],

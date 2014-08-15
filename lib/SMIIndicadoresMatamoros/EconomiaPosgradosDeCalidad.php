@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaPosgradosDeCalidad
@@ -18,7 +18,7 @@ class EconomiaPosgradosDeCalidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Posgrados de Calidad en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-posgrados-de-calidad';
         $this->descripcion = 'Programas aceptados por CONACYT como posgrados de calidad';
         $this->claves      = 'Matamoros, Educación, Innovación';

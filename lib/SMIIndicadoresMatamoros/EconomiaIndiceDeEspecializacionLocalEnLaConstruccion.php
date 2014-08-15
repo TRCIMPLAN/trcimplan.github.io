@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaIndiceDeEspecializacionLocalEnLaConstruccion
@@ -18,7 +18,7 @@ class EconomiaIndiceDeEspecializacionLocalEnLaConstruccion extends \Base\Publica
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en la Construcción en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-la-construccion';
         $this->descripcion = 'Producción bruta total de la actividad económica de construcción entre la producción bruta total.';
         $this->claves      = 'Matamoros, Mercados';

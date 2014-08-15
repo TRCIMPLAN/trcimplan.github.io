@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadPobrezaExtrema
@@ -18,7 +18,7 @@ class SociedadPobrezaExtrema extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pobreza Extrema en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-pobreza-extrema';
         $this->descripcion = 'Porcentaje de la población en situación de pobreza extrema.';
         $this->claves      = 'La Laguna, Bienestar';

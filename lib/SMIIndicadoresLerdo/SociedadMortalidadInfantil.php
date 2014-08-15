@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadMortalidadInfantil
@@ -18,7 +18,7 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad Infantil en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-mortalidad-infantil';
         $this->descripcion = 'Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos';
         $this->claves      = 'Lerdo, Salud';

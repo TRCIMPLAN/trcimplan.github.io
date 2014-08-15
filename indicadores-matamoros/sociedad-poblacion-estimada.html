@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue programado por el Staff del IMPLAN usando Software Libre.
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           CMS de Movimiento Libre  http://cms.movimientolibre.com/
+           Twitter Bootstrap        http://getbootstrap.com/
+           Morris.js                http://www.oesmith.co.uk/morris.js/
+           GitHub                   http://github.com/
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <title>Población Estimada en Matamoros - IMPLAN Torreón S.M.I.</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Población estimada a mitad de año.">
+  <meta name="author" content="TrcIMPLAN">
+  <meta name="keywords" content="Matamoros, Población">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Población Estimada en Matamoros">
+  <meta name="twitter:description" content="Población estimada a mitad de año.">
+  <meta name="twitter:url" content="http://trcimplan.github.io/indicadores-matamoros/sociedad-poblacion-estimada.html">
+  <meta name="og:title" content="Población Estimada en Matamoros">
+  <meta name="og:description" content="Población estimada a mitad de año.">
+  <meta name="og:url" content="http://trcimplan.github.io/indicadores-matamoros/sociedad-poblacion-estimada.html">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón S.M.I.">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/cms.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE8 -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav class="navbar" role="navigation" id="menu-principal">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-principal-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://trcimplan.github.io"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo.png"></a>
+    </div>
+    <div class="navbar-collapse collapse" id="menu-principal-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="rss.xml">RSS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="contenido">
+  <div class="container">
+<h4>Descripción</h4>
+Población estimada a mitad de año.
+
+<h4>Información recopilada</h4>
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="centrado">30/06/2011</td>
+<td class="derecha">109,264</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/06/2012</td>
+<td class="derecha">110,244</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/06/2013</td>
+<td class="derecha">111,305</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/06/2014</td>
+<td class="derecha">112,434</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/06/2015</td>
+<td class="derecha">113,612</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/06/2016</td>
+<td class="derecha">114,829</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/06/2017</td>
+<td class="derecha">116,078</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/06/2018</td>
+<td class="derecha">117,349</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/06/2019</td>
+<td class="derecha">118,631</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/06/2020</td>
+<td class="derecha">119,919</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<b>Unidad:</b> Cantidad.
+
+<h4>Observaciones</h4>
+Estimaciones de CONAPO en base a INEGI.
+
+<h4>Gráfica</h4>
+
+<div id="Morrisndpevhuu" class="grafica"></div>
+
+
+<h4>En otras regiones</h4>
+
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Región</th>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Torreón</td>
+<td>2011-06-30</td>
+<td class="derecha">656,988</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2012-06-30</td>
+<td class="derecha">666,226</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2013-06-30</td>
+<td class="derecha">675,210</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-06-30</td>
+<td class="derecha">683,914</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2015-06-30</td>
+<td class="derecha">692,386</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2016-06-30</td>
+<td class="derecha">700,656</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2017-06-30</td>
+<td class="derecha">708,755</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2018-06-30</td>
+<td class="derecha">716,672</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2019-06-30</td>
+<td class="derecha">724,386</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2020-06-30</td>
+<td class="derecha">731,902</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2011-06-30</td>
+<td class="derecha">339,355</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2012-06-30</td>
+<td class="derecha">343,135</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2013-06-30</td>
+<td class="derecha">346,836</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2014-06-30</td>
+<td class="derecha">350,513</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2015-06-30</td>
+<td class="derecha">354,123</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2016-06-30</td>
+<td class="derecha">357,664</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2017-06-30</td>
+<td class="derecha">361,144</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2018-06-30</td>
+<td class="derecha">364,540</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2019-06-30</td>
+<td class="derecha">367,828</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2020-06-30</td>
+<td class="derecha">371,002</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2011-06-30</td>
+<td class="derecha">146,164</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2012-06-30</td>
+<td class="derecha">147,985</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2013-06-30</td>
+<td class="derecha">149,721</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2014-06-30</td>
+<td class="derecha">151,409</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2015-06-30</td>
+<td class="derecha">153,040</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2016-06-30</td>
+<td class="derecha">154,621</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2017-06-30</td>
+<td class="derecha">156,161</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2018-06-30</td>
+<td class="derecha">157,655</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2019-06-30</td>
+<td class="derecha">159,094</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2020-06-30</td>
+<td class="derecha">160,479</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2011-06-30</td>
+<td class="derecha">1,251,771</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2012-06-30</td>
+<td class="derecha">1,267,630</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2013-06-30</td>
+<td class="derecha">1,283,072</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2014-06-30</td>
+<td class="derecha">1,298,270</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2015-06-30</td>
+<td class="derecha">1,313,161</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2016-06-30</td>
+<td class="derecha">1,327,769</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2017-06-30</td>
+<td class="derecha">1,342,139</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2018-06-30</td>
+<td class="derecha">1,356,216</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2019-06-30</td>
+<td class="derecha">1,369,939</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2020-06-30</td>
+<td class="derecha">1,383,303</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2011-06-30</td>
+<td class="derecha">2,818,077</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2012-06-30</td>
+<td class="derecha">2,854,334</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2013-06-30</td>
+<td class="derecha">2,890,108</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2014-06-30</td>
+<td class="derecha">2,925,594</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2015-06-30</td>
+<td class="derecha">2,960,681</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2016-06-30</td>
+<td class="derecha">2,995,374</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2017-06-30</td>
+<td class="derecha">3,029,740</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2018-06-30</td>
+<td class="derecha">3,063,662</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2019-06-30</td>
+<td class="derecha">3,097,014</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2020-06-30</td>
+<td class="derecha">3,129,782</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2011-06-30</td>
+<td class="derecha">1,690,418</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2012-06-30</td>
+<td class="derecha">1,709,741</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2013-06-30</td>
+<td class="derecha">1,728,429</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2014-06-30</td>
+<td class="derecha">1,746,809</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2015-06-30</td>
+<td class="derecha">1,764,726</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2016-06-30</td>
+<td class="derecha">1,782,205</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2017-06-30</td>
+<td class="derecha">1,799,320</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2018-06-30</td>
+<td class="derecha">1,815,966</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2019-06-30</td>
+<td class="derecha">1,832,043</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2020-06-30</td>
+<td class="derecha">1,847,547</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2011-06-30</td>
+<td class="derecha">115,682,868</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2012-06-30</td>
+<td class="derecha">117,053,750</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2013-06-30</td>
+<td class="derecha">118,395,054</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2014-06-30</td>
+<td class="derecha">119,713,203</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2015-06-30</td>
+<td class="derecha">121,005,815</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2016-06-30</td>
+<td class="derecha">122,273,473</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2017-06-30</td>
+<td class="derecha">123,518,270</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2018-06-30</td>
+<td class="derecha">124,737,789</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2019-06-30</td>
+<td class="derecha">125,929,439</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2020-06-30</td>
+<td class="derecha">127,091,642</td>
+<td>CONAPO</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+  </div>
+</div>
+<div id="inferior">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <a href="http://trcimplan.github.io"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón S.M.I."></a>
+      </div>
+      <div class="col-md-3">
+      </div>
+    </div>
+  </div>
+</div>
+<footer id="pie">
+ <div class="container">
+<p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+  </div>
+</footer>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/raphael-min.js"></script>
+  <script src="../js/morris.min.js"></script>
+  <script src="../js/google-analytics.js"></script>
+  // GRAFICA MORRIS
+  if (typeof varMorrisndpevhuu === 'undefined') {
+    varMorrisndpevhuu = Morris.Line({
+      element: 'Morrisndpevhuu',
+      data: [{ fecha: '2011-06-30', dato: 109264 },{ fecha: '2012-06-30', dato: 110244 },{ fecha: '2013-06-30', dato: 111305 },{ fecha: '2014-06-30', dato: 112434 },{ fecha: '2015-06-30', dato: 113612 },{ fecha: '2016-06-30', dato: 114829 },{ fecha: '2017-06-30', dato: 116078 },{ fecha: '2018-06-30', dato: 117349 },{ fecha: '2019-06-30', dato: 118631 },{ fecha: '2020-06-30', dato: 119919 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+</body>
+</html>

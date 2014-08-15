@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaTamanoDelMercadoHipotecario
@@ -18,7 +18,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tamaño del Mercado Hipotecario en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-tamano-del-mercado-hipotecario';
         $this->descripcion = 'Créditos dispuestos marginalmente durante el año indicado.';
         $this->claves      = 'Lerdo, Mercados';
@@ -79,7 +79,7 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisehzicfgw" class="grafica"></div>
+<div id="Morrisfzqlxnpe" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -242,9 +242,9 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisehzicfgw === 'undefined') {
-    varMorrisehzicfgw = Morris.Line({
-      element: 'Morrisehzicfgw',
+  if (typeof varMorrisfzqlxnpe === 'undefined') {
+    varMorrisfzqlxnpe = Morris.Line({
+      element: 'Morrisfzqlxnpe',
       data: [{ fecha: '2010-12-31', dato: 76 },{ fecha: '2011-12-31', dato: 179 },{ fecha: '2012-12-31', dato: 340 },{ fecha: '2013-12-31', dato: 379 },{ fecha: '2014-03-31', dato: 27 }],
       xkey: 'fecha',
       ykeys: ['dato'],

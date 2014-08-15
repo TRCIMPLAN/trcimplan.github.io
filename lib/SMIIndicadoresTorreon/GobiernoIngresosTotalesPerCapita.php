@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase GobiernoIngresosTotalesPerCapita
@@ -18,7 +18,7 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos Totales Per Cápita en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'gobierno-ingresos-totales-per-capita';
         $this->descripcion = 'Ingresos totales del municipio entre el total de la población.';
         $this->claves      = 'Torreón, Finanzas Públicas';
@@ -98,7 +98,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrisytuumsvc" class="grafica"></div>
+<div id="Morrisdylykegx" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -289,9 +289,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisytuumsvc === 'undefined') {
-    varMorrisytuumsvc = Morris.Line({
-      element: 'Morrisytuumsvc',
+  if (typeof varMorrisdylykegx === 'undefined') {
+    varMorrisdylykegx = Morris.Line({
+      element: 'Morrisdylykegx',
       data: [{ fecha: '2007-12-31', dato: 2312.71 },{ fecha: '2008-12-31', dato: 2713.59 },{ fecha: '2009-12-31', dato: 2467.92 },{ fecha: '2010-12-31', dato: 2858.83 },{ fecha: '2011-12-31', dato: 2921.67 },{ fecha: '2012-12-31', dato: 2753.40 },{ fecha: '2013-12-31', dato: 2821.23 }],
       xkey: 'fecha',
       ykeys: ['dato'],

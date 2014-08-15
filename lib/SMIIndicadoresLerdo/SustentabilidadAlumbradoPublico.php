@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadAlumbradoPublico
@@ -18,7 +18,7 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Alumbrado Público en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-alumbrado-publico';
         $this->descripcion = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
         $this->claves      = 'Lerdo, Servicios Públicos';

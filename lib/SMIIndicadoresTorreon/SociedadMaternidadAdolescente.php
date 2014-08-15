@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadMaternidadAdolescente
@@ -18,7 +18,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Maternidad Adolescente en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-maternidad-adolescente';
         $this->descripcion = '';
         $this->claves      = 'Torreón, Género';

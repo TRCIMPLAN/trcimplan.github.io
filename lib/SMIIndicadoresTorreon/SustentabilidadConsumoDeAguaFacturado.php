@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadConsumoDeAguaFacturado
@@ -18,7 +18,7 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Consumo de Agua Facturado en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-consumo-de-agua-facturado';
         $this->descripcion = 'Consumo anual de agua por persona expresado en metros cúbicos.';
         $this->claves      = 'Torreón, Recursos Naturales';
@@ -71,16 +71,16 @@ Total facturado dividido entre la población.
 
 <h4>Gráfica</h4>
 
-<div id="Morrissthixzcs" class="grafica"></div>
+<div id="Morriscjonbozi" class="grafica"></div>
 
 
 
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrissthixzcs === 'undefined') {
-    varMorrissthixzcs = Morris.Line({
-      element: 'Morrissthixzcs',
+  if (typeof varMorriscjonbozi === 'undefined') {
+    varMorriscjonbozi = Morris.Line({
+      element: 'Morriscjonbozi',
       data: [{ fecha: '2010-12-31', dato: 47.7700 },{ fecha: '2011-12-31', dato: 46.7500 },{ fecha: '2012-12-31', dato: 44.5700 },{ fecha: '2013-12-31', dato: 41.9900 }],
       xkey: 'fecha',
       ykeys: ['dato'],

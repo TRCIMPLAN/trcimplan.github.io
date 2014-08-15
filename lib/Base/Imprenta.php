@@ -31,16 +31,6 @@ class Imprenta extends \Configuracion\ImprentaConfig {
     public $mensajes = array();
 
     /**
-     * Validar directorio destino
-     */
-    protected function validar_directorio_destino() {
-        $this->mensajes[] = "Validando que exista {$this->destino_directorio}.";
-        if (!is_dir($this->destino_directorio)) {
-            throw new \Exception("Error en Imprenta: No existe el directorio del sitio web {$this->destino_directorio}");
-        }
-    } // validar_directorio_destino
-
-    /**
      * Eliminar un directorio y sus archivos
      *
      * @param string Ruta al directorio a eliminar
@@ -50,18 +40,16 @@ class Imprenta extends \Configuracion\ImprentaConfig {
         if (trim($in_ruta) == '') {
             throw new \Exception("Error en Imprenta, eliminar_directorio: Parámetro vacio.");
         }
-        // DETERMINAR DIRECTORIO
-        $dir = sprintf('%s/%s', $this->sitio_web_directorio, $in_ruta);
         // ACUMULAR MENSAJE
-        $this->mensajes[] = "Eliminando directorio $dir...";
+        $this->mensajes[] = "Eliminando directorio $in_ruta...";
         // SI EXISTE ELIMINA LOS ARCHIVO Y ELIMINA EL DIRECTORIO
-        if (is_dir($dir)) {
-            array_map('unlink', glob("{$dir}/*"));
-            if (rmdir($dir) === false) {
-                throw new \Exception("Error en Imprenta, eliminar_directorio: No se pudo eliminar $dir.");
+        if (is_dir($in_ruta)) {
+            array_map('unlink', glob("$in_ruta/*"));
+            if (rmdir($in_ruta) === false) {
+                throw new \Exception("Error en Imprenta, eliminar_directorio: No se pudo eliminar $in_ruta.");
             }
         } else {
-            $this->mensajes[] = "  No existe $dir. Por lo que no hice nada.";
+            $this->mensajes[] = "  No existe $in_ruta. Por lo que no hice nada.";
         }
     } // eliminar_directorio
 
@@ -75,12 +63,10 @@ class Imprenta extends \Configuracion\ImprentaConfig {
         if (trim($in_ruta) == '') {
             throw new \Exception("Error en Imprenta, crear_directorio: Parámetro vacio.");
         }
-        // DETERMINAR DIRECTORIO
-        $dir = sprintf('%s/%s', $this->sitio_web_directorio, $in_ruta);
         // SI NO EXISTE LO CREA
-        if (!is_dir($dir)) {
-            if (mkdir($dir, 0755) === false) {
-                throw new \Exception("Error en Imprenta, crear_directorio: No se pudo crear el directorio $dir");
+        if (!is_dir($in_ruta)) {
+            if (mkdir($in_ruta, 0755) === false) {
+                throw new \Exception("Error en Imprenta, crear_directorio: No se pudo crear el directorio $in_ruta");
             }
         }
     } // crear_directorio
@@ -100,8 +86,7 @@ class Imprenta extends \Configuracion\ImprentaConfig {
             throw new \Exception("Error en Imprenta, crear_archivo: Parámetro vacío, el contenido.");
         }
         // GRABAR
-        $archivo   = sprintf('%s/%s', $this->sitio_web_directorio, $in_ruta);
-        $apuntador = fopen($archivo, 'w');
+        $apuntador = fopen($in_ruta, 'w');
         if ($apuntador === false) {
             throw new \Exception("Error en Imprenta, crear_archivo: No se puede crear $archivo");
         }

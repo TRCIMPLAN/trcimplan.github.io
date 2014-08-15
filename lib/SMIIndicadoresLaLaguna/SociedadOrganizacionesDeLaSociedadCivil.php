@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadOrganizacionesDeLaSociedadCivil
@@ -18,7 +18,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Organizaciones de la Sociedad Civil en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-organizaciones-de-la-sociedad-civil';
         $this->descripcion = 'Organizaciones de la sociedad civil por cada cien mil habitantes.';
         $this->claves      = 'La Laguna, Participación Ciudadana, Gobierno';

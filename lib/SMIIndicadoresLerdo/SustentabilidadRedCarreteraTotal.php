@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadRedCarreteraTotal
@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera Total en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-red-carretera-total';
         $this->descripcion = '';
         $this->claves      = 'Lerdo, Infraestructura';

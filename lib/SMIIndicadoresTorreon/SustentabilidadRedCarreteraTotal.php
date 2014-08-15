@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadRedCarreteraTotal
@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera Total en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-red-carretera-total';
         $this->descripcion = '';
         $this->claves      = 'Torreón, Infraestructura';

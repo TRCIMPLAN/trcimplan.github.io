@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase GobiernoCompetenciaElectoralVotosTotales
@@ -18,7 +18,7 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Competencia Electoral Votos Totales en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'gobierno-competencia-electoral-votos-totales';
         $this->descripcion = '';
         $this->claves      = 'Torreón, Participación Ciudadana';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadEstimacionDeMenoresHuerfanosPorAgresiones
@@ -18,7 +18,7 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \Base\Publicacio
      */
     public function __construct() {
         $this->nombre      = 'Estimación de Menores Huérfanos por Agresiones en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-estimacion-de-menores-huerfanos-por-agresiones';
         $this->descripcion = 'Menores de edad que han perdido a padre o madre a causa de agresión (homicidio).';
         $this->claves      = 'Torreón, Grupos Vulnerables, Delincuencia';
@@ -77,16 +77,16 @@ Elaboración propia en base a las defunciones registradas en [SINAIS](http://www
 
 <h4>Gráfica</h4>
 
-<div id="Morriskoliakvt" class="grafica"></div>
+<div id="Morristnarcxsp" class="grafica"></div>
 
 
 
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriskoliakvt === 'undefined') {
-    varMorriskoliakvt = Morris.Line({
-      element: 'Morriskoliakvt',
+  if (typeof varMorristnarcxsp === 'undefined') {
+    varMorristnarcxsp = Morris.Line({
+      element: 'Morristnarcxsp',
       data: [{ fecha: '2008-12-31', dato: 544 },{ fecha: '2009-12-31', dato: 597 },{ fecha: '2010-12-31', dato: 753 },{ fecha: '2011-12-31', dato: 858 },{ fecha: '2012-12-31', dato: 1253 }],
       xkey: 'fecha',
       ykeys: ['dato'],

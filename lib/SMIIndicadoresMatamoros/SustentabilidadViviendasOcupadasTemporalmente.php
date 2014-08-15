@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadViviendasOcupadasTemporalmente
@@ -18,7 +18,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Ocupadas Temporalmente en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-viviendas-ocupadas-temporalmente';
         $this->descripcion = 'Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.';
         $this->claves      = 'Matamoros, Vivienda, Movilidad';

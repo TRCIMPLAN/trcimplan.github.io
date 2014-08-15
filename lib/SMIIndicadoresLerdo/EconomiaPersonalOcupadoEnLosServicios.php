@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaPersonalOcupadoEnLosServicios
@@ -18,7 +18,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Personal Ocupado en los Servicios en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-personal-ocupado-en-los-servicios';
         $this->descripcion = 'Personal ocupado en las actividades de servicios entre personal ocupado total.';
         $this->claves      = 'Lerdo, Empleo, Mercados';
@@ -65,7 +65,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morriserqgytdo" class="grafica"></div>
+<div id="Morrisrienhemd" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriserqgytdo === 'undefined') {
-    varMorriserqgytdo = Morris.Line({
-      element: 'Morriserqgytdo',
+  if (typeof varMorrisrienhemd === 'undefined') {
+    varMorrisrienhemd = Morris.Line({
+      element: 'Morrisrienhemd',
       data: [{ fecha: '1998-12-31', dato: 20.9500 },{ fecha: '2003-12-31', dato: 12.8400 },{ fecha: '2008-12-31', dato: 24.2010 }],
       xkey: 'fecha',
       ykeys: ['dato'],

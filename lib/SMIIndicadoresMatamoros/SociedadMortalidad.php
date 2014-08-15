@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadMortalidad
@@ -18,7 +18,7 @@ class SociedadMortalidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-mortalidad';
         $this->descripcion = 'Tasa de Mortalidad. Número de muertes por cada mil habitantes.';
         $this->claves      = 'Matamoros, Salud';

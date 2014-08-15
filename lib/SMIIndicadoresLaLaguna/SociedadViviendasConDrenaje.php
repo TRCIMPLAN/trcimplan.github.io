@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadViviendasConDrenaje
@@ -18,7 +18,7 @@ class SociedadViviendasConDrenaje extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Drenaje en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-viviendas-con-drenaje';
         $this->descripcion = 'Porcentaje de viviendas habitadas que disponen de drenaje.';
         $this->claves      = 'La Laguna, Vivienda';

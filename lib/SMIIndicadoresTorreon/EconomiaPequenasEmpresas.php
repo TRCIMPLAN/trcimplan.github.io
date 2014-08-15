@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaPequenasEmpresas
@@ -18,7 +18,7 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pequeñas Empresas en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-pequenas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean entre 11 y 50 empleados.';
         $this->claves      = 'Torreón, Empresas';
@@ -61,7 +61,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morristtidxroo" class="grafica"></div>
+<div id="Morrisjgordhmj" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -182,9 +182,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorristtidxroo === 'undefined') {
-    varMorristtidxroo = Morris.Line({
-      element: 'Morristtidxroo',
+  if (typeof varMorrisjgordhmj === 'undefined') {
+    varMorrisjgordhmj = Morris.Line({
+      element: 'Morrisjgordhmj',
       data: [{ fecha: '2013-12-31', dato: 8.6600 },{ fecha: '2014-07-31', dato: 7.6500 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -91,9 +91,9 @@ class PlantillaHTML extends \Configuracion\PlantillaHTMLConfig {
      */
     public function encabezado_html() {
         if ($this->en_raiz) {
-            return '<a href="index.html"><img class="img-responsive img-encabezado" src="imagenes/encabezado-smi2.jpg"></a>'
+            return '<a href="index.html"><img class="img-responsive img-encabezado" src="imagenes/encabezado-smi2.jpg"></a>';
         } else {
-            return '<a href="../index.html"><img class="img-responsive img-encabezado" src="../imagenes/encabezado-smi2.jpg"></a>'
+            return '<a href="../index.html"><img class="img-responsive img-encabezado" src="../imagenes/encabezado-smi2.jpg"></a>';
         }
     } // encabezado_html
 

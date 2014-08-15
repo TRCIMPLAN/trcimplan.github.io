@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadPorcentajeDeAccidentesVialesFatales
@@ -18,7 +18,7 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Porcentaje de Accidentes Viales Fatales en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-porcentaje-de-accidentes-viales-fatales';
         $this->descripcion = 'Porcentaje de accidentes fatales entre accidentes viales totales';
         $this->claves      = 'Lerdo, Vialidad';

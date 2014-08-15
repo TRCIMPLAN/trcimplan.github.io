@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase GobiernoCompetenciaElectoralVotosTotales
@@ -18,7 +18,7 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Competencia Electoral Votos Totales en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'gobierno-competencia-electoral-votos-totales';
         $this->descripcion = '';
         $this->claves      = 'Gómez Palacio, Participación Ciudadana';

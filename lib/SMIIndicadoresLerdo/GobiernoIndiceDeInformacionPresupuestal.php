@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase GobiernoIndiceDeInformacionPresupuestal
@@ -18,7 +18,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'índice de Información Presupuestal en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-indice-de-informacion-presupuestal';
         $this->descripcion = 'Cumplimiento sobre total de criterios';
         $this->claves      = 'Lerdo, Transparencia';

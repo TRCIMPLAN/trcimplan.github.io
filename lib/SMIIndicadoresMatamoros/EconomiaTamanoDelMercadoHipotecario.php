@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaTamanoDelMercadoHipotecario
@@ -18,7 +18,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tamaño del Mercado Hipotecario en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-tamano-del-mercado-hipotecario';
         $this->descripcion = 'Créditos dispuestos marginalmente durante el año indicado.';
         $this->claves      = 'Matamoros, Mercados';
@@ -79,7 +79,7 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisfvyztsbp" class="grafica"></div>
+<div id="Morrisfsvjorqx" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -242,9 +242,9 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisfvyztsbp === 'undefined') {
-    varMorrisfvyztsbp = Morris.Line({
-      element: 'Morrisfvyztsbp',
+  if (typeof varMorrisfsvjorqx === 'undefined') {
+    varMorrisfsvjorqx = Morris.Line({
+      element: 'Morrisfsvjorqx',
       data: [{ fecha: '2010-12-31', dato: 15 },{ fecha: '2011-12-31', dato: 152 },{ fecha: '2012-12-31', dato: 189 },{ fecha: '2013-12-31', dato: 39 },{ fecha: '2014-03-31', dato: 5 }],
       xkey: 'fecha',
       ykeys: ['dato'],

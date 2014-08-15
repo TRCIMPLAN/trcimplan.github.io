@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera
@@ -18,7 +18,7 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \Base
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en Industria Manufacturera en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-industria-manufacturera';
         $this->descripcion = 'Producción bruta total de la industria manufacturera entre la producción bruta total.';
         $this->claves      = 'Torreón, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrismwmgvtxa" class="grafica"></div>
+<div id="Morriscqnenvgs" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -185,9 +185,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrismwmgvtxa === 'undefined') {
-    varMorrismwmgvtxa = Morris.Line({
-      element: 'Morrismwmgvtxa',
+  if (typeof varMorriscqnenvgs === 'undefined') {
+    varMorriscqnenvgs = Morris.Line({
+      element: 'Morriscqnenvgs',
       data: [{ fecha: '1998-12-31', dato: 59.3400 },{ fecha: '2003-12-31', dato: 57.8600 },{ fecha: '2008-12-31', dato: 76.0600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

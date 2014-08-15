@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadViviendasConComputadora
@@ -18,7 +18,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Computadora en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-viviendas-con-computadora';
         $this->descripcion = 'Porcentaje de viviendas habitadas con computadora.';
         $this->claves      = 'Lerdo, Vivienda';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadPorcentajeDeAccidentesVialesFatales
@@ -18,7 +18,7 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Porcentaje de Accidentes Viales Fatales en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-porcentaje-de-accidentes-viales-fatales';
         $this->descripcion = 'Porcentaje de accidentes fatales entre accidentes viales totales';
         $this->claves      = 'Torreón, Vialidad';

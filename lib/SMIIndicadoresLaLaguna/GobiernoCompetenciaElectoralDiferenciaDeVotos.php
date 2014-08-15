@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase GobiernoCompetenciaElectoralDiferenciaDeVotos
@@ -18,7 +18,7 @@ class GobiernoCompetenciaElectoralDiferenciaDeVotos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Competencia Electoral Diferencia de Votos en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'gobierno-competencia-electoral-diferencia-de-votos';
         $this->descripcion = 'Diferencia de votos entre primer y segundo lugar en la elección federal.';
         $this->claves      = 'La Laguna, Participación Ciudadana';

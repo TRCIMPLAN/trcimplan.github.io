@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaInversionPerCapita
@@ -18,7 +18,7 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Inversión Per cápita en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-inversion-per-capita';
         $this->descripcion = 'Gasto en obras públicas y acciones sociales entre población total.';
         $this->claves      = 'Matamoros, Macroeconomía, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrisagfeylvk" class="grafica"></div>
+<div id="Morrisodxuctmc" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -283,9 +283,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisagfeylvk === 'undefined') {
-    varMorrisagfeylvk = Morris.Line({
-      element: 'Morrisagfeylvk',
+  if (typeof varMorrisodxuctmc === 'undefined') {
+    varMorrisodxuctmc = Morris.Line({
+      element: 'Morrisodxuctmc',
       data: [{ fecha: '2007-12-31', dato: 304.33 },{ fecha: '2008-12-31', dato: 396.24 },{ fecha: '2009-12-31', dato: 627.35 },{ fecha: '2010-12-31', dato: 405.29 },{ fecha: '2011-12-31', dato: 327.41 },{ fecha: '2012-12-31', dato: 44.62 }],
       xkey: 'fecha',
       ykeys: ['dato'],

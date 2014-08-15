@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaPersonalOcupadoEnLaIndustriaManufacturera
@@ -18,7 +18,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \Base\Publicacio
      */
     public function __construct() {
         $this->nombre      = 'Personal Ocupado en la Industria Manufacturera en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-personal-ocupado-en-la-industria-manufacturera';
         $this->descripcion = 'Personal ocupado en la Industria manufacturera entre el personal ocupado total.';
         $this->claves      = 'La Laguna, Empleo, Mercados';
@@ -65,7 +65,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisofucmcoa" class="grafica"></div>
+<div id="Morrisuuhandka" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisofucmcoa === 'undefined') {
-    varMorrisofucmcoa = Morris.Line({
-      element: 'Morrisofucmcoa',
+  if (typeof varMorrisuuhandka === 'undefined') {
+    varMorrisuuhandka = Morris.Line({
+      element: 'Morrisuuhandka',
       data: [{ fecha: '1998-12-31', dato: 38.1000 },{ fecha: '2003-12-31', dato: 38.1000 },{ fecha: '2008-12-31', dato: 28.5940 }],
       xkey: 'fecha',
       ykeys: ['dato'],

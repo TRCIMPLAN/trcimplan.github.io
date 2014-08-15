@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadSentenciadosEnMateriaDeNarcoticosRegistradosEnElFueroFederal
@@ -18,7 +18,7 @@ class SeguridadSentenciadosEnMateriaDeNarcoticosRegistradosEnElFueroFederal exte
      */
     public function __construct() {
         $this->nombre      = 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal';
         $this->descripcion = '';
         $this->claves      = 'Torreón, Delincuencia';

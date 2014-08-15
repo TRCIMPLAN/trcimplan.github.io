@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaIndiceDeEspecializacionLocalEnComercio
@@ -18,7 +18,7 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en Comercio en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-comercio';
         $this->descripcion = 'Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.';
         $this->claves      = 'Torreón, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrismqcumzuw" class="grafica"></div>
+<div id="Morrisulllunji" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -185,9 +185,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrismqcumzuw === 'undefined') {
-    varMorrismqcumzuw = Morris.Line({
-      element: 'Morrismqcumzuw',
+  if (typeof varMorrisulllunji === 'undefined') {
+    varMorrisulllunji = Morris.Line({
+      element: 'Morrisulllunji',
       data: [{ fecha: '1998-12-31', dato: 0.3592 },{ fecha: '2003-12-31', dato: 14.8700 },{ fecha: '2008-12-31', dato: 7.4500 }],
       xkey: 'fecha',
       ykeys: ['dato'],

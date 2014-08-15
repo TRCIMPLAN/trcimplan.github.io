@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadMaternidadAdolescente
@@ -18,7 +18,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Maternidad Adolescente en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-maternidad-adolescente';
         $this->descripcion = '';
         $this->claves      = 'Lerdo, Género';

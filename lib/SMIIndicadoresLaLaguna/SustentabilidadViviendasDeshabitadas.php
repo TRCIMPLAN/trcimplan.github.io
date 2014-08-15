@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SustentabilidadViviendasDeshabitadas
@@ -18,7 +18,7 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Deshabitadas en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-viviendas-deshabitadas';
         $this->descripcion = 'Viviendas deshabitadas con respecto al total de viviendas totales.';
         $this->claves      = 'La Laguna, Vivienda';

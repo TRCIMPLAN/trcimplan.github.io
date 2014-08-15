@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadRezagoAlimentario
@@ -18,7 +18,7 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Rezago Alimentario en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-rezago-alimentario';
         $this->descripcion = 'Personas que presenten un grado de inseguridad alimentaria moderado o severo.';
         $this->claves      = 'Lerdo, Grupos Vulnerables, Bienestar';

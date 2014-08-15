@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase GobiernoCumplimientoEnInformacionPublicaMinina
@@ -18,7 +18,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Cumplimiento en información pública mínina en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'gobierno-cumplimiento-en-informacion-publica-minina';
         $this->descripcion = 'Cumplimiento sobre total de obligaciones';
         $this->claves      = 'Gómez Palacio, Transparencia';

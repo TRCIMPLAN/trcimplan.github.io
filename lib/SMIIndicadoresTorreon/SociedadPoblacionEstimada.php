@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadPoblacionEstimada
@@ -18,7 +18,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Población Estimada en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-poblacion-estimada';
         $this->descripcion = 'Población estimada a mitad de año.';
         $this->claves      = 'Torreón, Población';
@@ -107,7 +107,7 @@ Estimaciones de CONAPO en base a INEGI.
 
 <h4>Gráfica</h4>
 
-<div id="Morrisidkjogcj" class="grafica"></div>
+<div id="Morriseycgvuvb" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -620,9 +620,9 @@ Estimaciones de CONAPO en base a INEGI.
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisidkjogcj === 'undefined') {
-    varMorrisidkjogcj = Morris.Line({
-      element: 'Morrisidkjogcj',
+  if (typeof varMorriseycgvuvb === 'undefined') {
+    varMorriseycgvuvb = Morris.Line({
+      element: 'Morriseycgvuvb',
       data: [{ fecha: '2011-06-30', dato: 656988 },{ fecha: '2012-06-30', dato: 666226 },{ fecha: '2013-06-30', dato: 675210 },{ fecha: '2014-06-30', dato: 683914 },{ fecha: '2015-06-30', dato: 692386 },{ fecha: '2016-06-30', dato: 700656 },{ fecha: '2017-06-30', dato: 708755 },{ fecha: '2018-06-30', dato: 716672 },{ fecha: '2019-06-30', dato: 724386 },{ fecha: '2020-06-30', dato: 731902 }],
       xkey: 'fecha',
       ykeys: ['dato'],

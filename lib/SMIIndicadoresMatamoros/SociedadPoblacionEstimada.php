@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadPoblacionEstimada
@@ -18,7 +18,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Población Estimada en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-poblacion-estimada';
         $this->descripcion = 'Población estimada a mitad de año.';
         $this->claves      = 'Matamoros, Población';
@@ -107,7 +107,7 @@ Estimaciones de CONAPO en base a INEGI.
 
 <h4>Gráfica</h4>
 
-<div id="Morrisjcicmycj" class="grafica"></div>
+<div id="Morrisndpevhuu" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -620,9 +620,9 @@ Estimaciones de CONAPO en base a INEGI.
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisjcicmycj === 'undefined') {
-    varMorrisjcicmycj = Morris.Line({
-      element: 'Morrisjcicmycj',
+  if (typeof varMorrisndpevhuu === 'undefined') {
+    varMorrisndpevhuu = Morris.Line({
+      element: 'Morrisndpevhuu',
       data: [{ fecha: '2011-06-30', dato: 109264 },{ fecha: '2012-06-30', dato: 110244 },{ fecha: '2013-06-30', dato: 111305 },{ fecha: '2014-06-30', dato: 112434 },{ fecha: '2015-06-30', dato: 113612 },{ fecha: '2016-06-30', dato: 114829 },{ fecha: '2017-06-30', dato: 116078 },{ fecha: '2018-06-30', dato: 117349 },{ fecha: '2019-06-30', dato: 118631 },{ fecha: '2020-06-30', dato: 119919 }],
       xkey: 'fecha',
       ykeys: ['dato'],

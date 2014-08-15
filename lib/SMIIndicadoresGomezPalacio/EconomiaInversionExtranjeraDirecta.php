@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaInversionExtranjeraDirecta
@@ -18,7 +18,7 @@ class EconomiaInversionExtranjeraDirecta extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Inversión Extranjera Directa en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-inversion-extranjera-directa';
         $this->descripcion = 'Promedio de inversión entre 2008 y 2012.';
         $this->claves      = 'Gómez Palacio, Macroeconomía';

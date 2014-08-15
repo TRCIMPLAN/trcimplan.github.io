@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadRedCarreteraTotal
@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera Total en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-red-carretera-total';
         $this->descripcion = '';
         $this->claves      = 'Matamoros, Infraestructura';

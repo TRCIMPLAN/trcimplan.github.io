@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadMotorizacion
@@ -18,7 +18,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Motorización en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-motorizacion';
         $this->descripcion = 'Vehículos automotores registrados en circulación.';
         $this->claves      = 'Lerdo, Recursos Naturales, Movilidad, Vialidad';

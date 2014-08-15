@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadMotorizacion
@@ -18,7 +18,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Motorización en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-motorizacion';
         $this->descripcion = 'Vehículos automotores registrados en circulación.';
         $this->claves      = 'Matamoros, Recursos Naturales, Movilidad, Vialidad';

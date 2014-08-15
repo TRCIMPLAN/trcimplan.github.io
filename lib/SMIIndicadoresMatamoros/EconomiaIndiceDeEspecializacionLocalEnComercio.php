@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaIndiceDeEspecializacionLocalEnComercio
@@ -18,7 +18,7 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en Comercio en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-comercio';
         $this->descripcion = 'Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.';
         $this->claves      = 'Matamoros, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrismoctxkce" class="grafica"></div>
+<div id="Morriszkadeujl" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -185,9 +185,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrismoctxkce === 'undefined') {
-    varMorrismoctxkce = Morris.Line({
-      element: 'Morrismoctxkce',
+  if (typeof varMorriszkadeujl === 'undefined') {
+    varMorriszkadeujl = Morris.Line({
+      element: 'Morriszkadeujl',
       data: [{ fecha: '1998-12-31', dato: 38.9400 },{ fecha: '2003-12-31', dato: 32.2300 },{ fecha: '2008-12-31', dato: 17.5400 }],
       xkey: 'fecha',
       ykeys: ['dato'],

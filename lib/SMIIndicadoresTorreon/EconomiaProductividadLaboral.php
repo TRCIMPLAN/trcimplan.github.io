@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaProductividadLaboral
@@ -18,7 +18,7 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Productividad Laboral en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-productividad-laboral';
         $this->descripcion = 'PIB sin petróleo / PEA.';
         $this->claves      = 'Torreón, Macroeconomía, Empleo';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaIndiceDeGini
@@ -18,7 +18,7 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Gini en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-indice-de-gini';
         $this->descripcion = 'Indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad.';
         $this->claves      = 'Lerdo';

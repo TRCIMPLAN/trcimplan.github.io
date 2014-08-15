@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaMicroempresas
@@ -18,7 +18,7 @@ class EconomiaMicroempresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Microempresas en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-microempresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean de 0 a 10 personas.';
         $this->claves      = 'Matamoros, Empresas';
@@ -61,7 +61,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisengejuph" class="grafica"></div>
+<div id="Morrisrdpeqcrg" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -182,9 +182,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisengejuph === 'undefined') {
-    varMorrisengejuph = Morris.Line({
-      element: 'Morrisengejuph',
+  if (typeof varMorrisrdpeqcrg === 'undefined') {
+    varMorrisrdpeqcrg = Morris.Line({
+      element: 'Morrisrdpeqcrg',
       data: [{ fecha: '2013-12-31', dato: 93.9800 },{ fecha: '2014-07-31', dato: 95.3800 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase GobiernoParticipacionElectoral
@@ -18,7 +18,7 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Participación Electoral en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'gobierno-participacion-electoral';
         $this->descripcion = 'Porcentaje de personas que emitieron su voto.';
         $this->claves      = 'Torreón, Participación Ciudadana';

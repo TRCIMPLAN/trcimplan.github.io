@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaPermisoDeConstruccion
@@ -18,7 +18,7 @@ class EconomiaPermisoDeConstruccion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Permiso de Construcción en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-permiso-de-construccion';
         $this->descripcion = 'Número de días necesarios para conseguir un permiso de construcción.';
         $this->claves      = 'Torreón, Empresas';
@@ -66,16 +66,16 @@ Costo (% de ingreso per cápita) = 40,6</td>
 
 <h4>Gráfica</h4>
 
-<div id="Morrisfuirtzxw" class="grafica"></div>
+<div id="Morrisjtbyatht" class="grafica"></div>
 
 
 
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisfuirtzxw === 'undefined') {
-    varMorrisfuirtzxw = Morris.Line({
-      element: 'Morrisfuirtzxw',
+  if (typeof varMorrisjtbyatht === 'undefined') {
+    varMorrisjtbyatht = Morris.Line({
+      element: 'Morrisjtbyatht',
       data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 }],
       xkey: 'fecha',
       ykeys: ['dato'],

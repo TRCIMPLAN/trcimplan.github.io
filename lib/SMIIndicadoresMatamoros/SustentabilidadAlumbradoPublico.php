@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadAlumbradoPublico
@@ -18,7 +18,7 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Alumbrado Público en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-alumbrado-publico';
         $this->descripcion = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
         $this->claves      = 'Matamoros, Servicios Públicos';

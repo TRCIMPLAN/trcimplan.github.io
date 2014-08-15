@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaInversionPerCapita
@@ -18,7 +18,7 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Inversión Per cápita en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-inversion-per-capita';
         $this->descripcion = 'Gasto en obras públicas y acciones sociales entre población total.';
         $this->claves      = 'Gómez Palacio, Macroeconomía, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrisgcddprmt" class="grafica"></div>
+<div id="Morrisbtxrsvuk" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -283,9 +283,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisgcddprmt === 'undefined') {
-    varMorrisgcddprmt = Morris.Line({
-      element: 'Morrisgcddprmt',
+  if (typeof varMorrisbtxrsvuk === 'undefined') {
+    varMorrisbtxrsvuk = Morris.Line({
+      element: 'Morrisbtxrsvuk',
       data: [{ fecha: '2007-12-31', dato: 621.87 },{ fecha: '2008-12-31', dato: 805.66 },{ fecha: '2009-12-31', dato: 526.88 },{ fecha: '2010-12-31', dato: 474.34 },{ fecha: '2011-12-31', dato: 431.05 },{ fecha: '2012-12-31', dato: 640.48 }],
       xkey: 'fecha',
       ykeys: ['dato'],

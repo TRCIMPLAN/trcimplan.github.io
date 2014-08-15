@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaTotalDeEmpresas
@@ -18,7 +18,7 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Total de Empresas en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-total-de-empresas';
         $this->descripcion = '';
         $this->claves      = 'Lerdo, Empresas';
@@ -59,7 +59,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisaewgntcs" class="grafica"></div>
+<div id="Morrisjynrdhiv" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -180,9 +180,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisaewgntcs === 'undefined') {
-    varMorrisaewgntcs = Morris.Line({
-      element: 'Morrisaewgntcs',
+  if (typeof varMorrisjynrdhiv === 'undefined') {
+    varMorrisjynrdhiv = Morris.Line({
+      element: 'Morrisjynrdhiv',
       data: [{ fecha: '2013-12-31', dato: 158 },{ fecha: '2014-07-31', dato: 178 }],
       xkey: 'fecha',
       ykeys: ['dato'],

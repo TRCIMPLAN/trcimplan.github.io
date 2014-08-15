@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadViviendasConInternet
@@ -18,7 +18,7 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Internet en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-viviendas-con-internet';
         $this->descripcion = 'Porcentaje de viviendas habitadas con internet.';
         $this->claves      = 'Matamoros, Vivienda';

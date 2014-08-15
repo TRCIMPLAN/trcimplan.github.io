@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaGrandesEmpresas
@@ -18,14 +18,14 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Grandes Empresas en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-grandes-empresas';
-        $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados';
+        $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
         $this->claves      = 'Gómez Palacio, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
 <h4>Descripción</h4>
-Porcentaje del total de empresas que cuentan con más de 250 empleados
+Porcentaje del total de empresas que cuentan con más de 250 empleados.
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -52,7 +52,7 @@ Porcentaje del total de empresas que cuentan con más de 250 empleados
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad de Empresas.
+<b>Unidad:</b> Porcentaje.
 
 <h4>Observaciones</h4>
 A nivel nacional, el 0.63% de las empresas son grandes.
@@ -61,7 +61,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisawksipsy" class="grafica"></div>
+<div id="Morrisdciyqzyc" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -182,9 +182,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisawksipsy === 'undefined') {
-    varMorrisawksipsy = Morris.Line({
-      element: 'Morrisawksipsy',
+  if (typeof varMorrisdciyqzyc === 'undefined') {
+    varMorrisdciyqzyc = Morris.Line({
+      element: 'Morrisdciyqzyc',
       data: [{ fecha: '2013-12-31', dato: 0.4100 },{ fecha: '2014-07-31', dato: 0.9800 }],
       xkey: 'fecha',
       ykeys: ['dato'],

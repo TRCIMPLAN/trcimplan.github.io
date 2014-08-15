@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadPobrezaModerada
@@ -18,7 +18,7 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pobreza Moderada en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-pobreza-moderada';
         $this->descripcion = 'Porcentaje de la población en situación de pobreza moderada.';
         $this->claves      = 'Gómez Palacio, Bienestar';

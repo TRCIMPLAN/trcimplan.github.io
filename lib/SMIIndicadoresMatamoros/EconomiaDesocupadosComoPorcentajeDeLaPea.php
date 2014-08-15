@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaDesocupadosComoPorcentajeDeLaPea
@@ -18,7 +18,7 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Desocupados como porcentaje de la PEA en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-desocupados-como-porcentaje-de-la-pea';
         $this->descripcion = 'Número total de desempleados entre la Población económicamente activa';
         $this->claves      = 'Matamoros, Empleo';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 <h4>Gráfica</h4>
 
-<div id="Morrisxeeygcyw" class="grafica"></div>
+<div id="Morrisgacmgyws" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -178,9 +178,9 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisxeeygcyw === 'undefined') {
-    varMorrisxeeygcyw = Morris.Line({
-      element: 'Morrisxeeygcyw',
+  if (typeof varMorrisgacmgyws === 'undefined') {
+    varMorrisgacmgyws = Morris.Line({
+      element: 'Morrisgacmgyws',
       data: [{ fecha: '1989-12-31', dato: 3.3200 },{ fecha: '1999-12-31', dato: 1.1800 },{ fecha: '2009-12-31', dato: 6.0700 }],
       xkey: 'fecha',
       ykeys: ['dato'],

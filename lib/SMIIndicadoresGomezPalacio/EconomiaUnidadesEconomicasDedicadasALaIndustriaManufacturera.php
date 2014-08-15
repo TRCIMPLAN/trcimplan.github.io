@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera
@@ -18,7 +18,7 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
      */
     public function __construct() {
         $this->nombre      = 'Unidades Económicas Dedicadas a la Industria Manufacturera en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-unidades-economicas-dedicadas-a-la-industria-manufacturera';
         $this->descripcion = 'Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.';
         $this->claves      = 'Gómez Palacio, Empresas, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisuxupukge" class="grafica"></div>
+<div id="Morrisnbonhofu" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -234,9 +234,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisuxupukge === 'undefined') {
-    varMorrisuxupukge = Morris.Line({
-      element: 'Morrisuxupukge',
+  if (typeof varMorrisnbonhofu === 'undefined') {
+    varMorrisnbonhofu = Morris.Line({
+      element: 'Morrisnbonhofu',
       data: [{ fecha: '1998-12-31', dato: 13.6800 },{ fecha: '2003-12-31', dato: 10.6200 },{ fecha: '2008-12-31', dato: 10.4500 },{ fecha: '2013-10-31', dato: 8.8400 }],
       xkey: 'fecha',
       ykeys: ['dato'],

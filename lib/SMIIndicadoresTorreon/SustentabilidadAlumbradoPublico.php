@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadAlumbradoPublico
@@ -18,7 +18,7 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Alumbrado Público en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-alumbrado-publico';
         $this->descripcion = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
         $this->claves      = 'Torreón, Servicios Públicos';

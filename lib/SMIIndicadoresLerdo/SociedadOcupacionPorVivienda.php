@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadOcupacionPorVivienda
@@ -18,7 +18,7 @@ class SociedadOcupacionPorVivienda extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ocupación por Vivienda en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-ocupacion-por-vivienda';
         $this->descripcion = 'Promedio de ocupantes por vivienda.';
         $this->claves      = 'Lerdo, Vivienda';

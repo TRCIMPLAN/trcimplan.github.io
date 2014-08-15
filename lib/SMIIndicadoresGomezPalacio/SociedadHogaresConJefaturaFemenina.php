@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadHogaresConJefaturaFemenina
@@ -18,7 +18,7 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Hogares con Jefatura Femenina en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-hogares-con-jefatura-femenina';
         $this->descripcion = 'Porcentaje de hogares con jefatura femenina.';
         $this->claves      = 'Gómez Palacio, Género';

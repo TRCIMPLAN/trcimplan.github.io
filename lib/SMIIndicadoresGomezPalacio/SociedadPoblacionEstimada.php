@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadPoblacionEstimada
@@ -18,7 +18,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Población Estimada en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-poblacion-estimada';
         $this->descripcion = 'Población estimada a mitad de año.';
         $this->claves      = 'Gómez Palacio, Población';
@@ -107,7 +107,7 @@ Estimaciones de CONAPO en base a INEGI.
 
 <h4>Gráfica</h4>
 
-<div id="Morrischtcaolx" class="grafica"></div>
+<div id="Morrisgpkacozx" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -620,9 +620,9 @@ Estimaciones de CONAPO en base a INEGI.
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrischtcaolx === 'undefined') {
-    varMorrischtcaolx = Morris.Line({
-      element: 'Morrischtcaolx',
+  if (typeof varMorrisgpkacozx === 'undefined') {
+    varMorrisgpkacozx = Morris.Line({
+      element: 'Morrisgpkacozx',
       data: [{ fecha: '2011-06-30', dato: 339355 },{ fecha: '2012-06-30', dato: 343135 },{ fecha: '2013-06-30', dato: 346836 },{ fecha: '2014-06-30', dato: 350513 },{ fecha: '2015-06-30', dato: 354123 },{ fecha: '2016-06-30', dato: 357664 },{ fecha: '2017-06-30', dato: 361144 },{ fecha: '2018-06-30', dato: 364540 },{ fecha: '2019-06-30', dato: 367828 },{ fecha: '2020-06-30', dato: 371002 }],
       xkey: 'fecha',
       ykeys: ['dato'],

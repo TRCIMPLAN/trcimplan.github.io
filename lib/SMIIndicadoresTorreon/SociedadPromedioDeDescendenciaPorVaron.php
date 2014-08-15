@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadPromedioDeDescendenciaPorVaron
@@ -18,7 +18,7 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Promedio de Descendencia por Varón en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-promedio-de-descendencia-por-varon';
         $this->descripcion = 'Calcula el promedio estimado de hijos por cada varón.';
         $this->claves      = 'Torreón, Población';
@@ -77,16 +77,16 @@ Estimación propia en base al dato de Ocupación por Vivienda
 
 <h4>Gráfica</h4>
 
-<div id="Morrismqzmwlxn" class="grafica"></div>
+<div id="Morrislitjpgkj" class="grafica"></div>
 
 
 
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrismqzmwlxn === 'undefined') {
-    varMorrismqzmwlxn = Morris.Line({
-      element: 'Morrismqzmwlxn',
+  if (typeof varMorrislitjpgkj === 'undefined') {
+    varMorrislitjpgkj = Morris.Line({
+      element: 'Morrislitjpgkj',
       data: [{ fecha: '2008-12-31', dato: 1.8100 },{ fecha: '2009-12-31', dato: 1.7700 },{ fecha: '2010-12-31', dato: 1.7200 },{ fecha: '2011-12-31', dato: 1.6900 },{ fecha: '2012-12-31', dato: 1.6600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

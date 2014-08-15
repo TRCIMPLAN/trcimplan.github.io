@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadViviendasConAguaDeLaRedPublica
@@ -18,7 +18,7 @@ class SociedadViviendasConAguaDeLaRedPublica extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Agua de la Red Pública en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-viviendas-con-agua-de-la-red-publica';
         $this->descripcion = 'Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.';
         $this->claves      = 'Matamoros, Vivienda';

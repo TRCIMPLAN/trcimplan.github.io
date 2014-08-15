@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SustentabilidadAlumbradoPublico
@@ -18,7 +18,7 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Alumbrado Público en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-alumbrado-publico';
         $this->descripcion = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
         $this->claves      = 'La Laguna, Servicios Públicos';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaTotalDeEmpresas
@@ -18,7 +18,7 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Total de Empresas en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-total-de-empresas';
         $this->descripcion = '';
         $this->claves      = 'Torreón, Empresas';
@@ -59,7 +59,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisstqdpvtg" class="grafica"></div>
+<div id="Morrisjgiaekbu" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -180,9 +180,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisstqdpvtg === 'undefined') {
-    varMorrisstqdpvtg = Morris.Line({
-      element: 'Morrisstqdpvtg',
+  if (typeof varMorrisjgiaekbu === 'undefined') {
+    varMorrisjgiaekbu = Morris.Line({
+      element: 'Morrisjgiaekbu',
       data: [{ fecha: '2013-12-31', dato: 6671 },{ fecha: '2014-07-31', dato: 7402 }],
       xkey: 'fecha',
       ykeys: ['dato'],

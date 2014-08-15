@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SustentabilidadAlumbradoPublico
@@ -18,7 +18,7 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Alumbrado Público en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-alumbrado-publico';
         $this->descripcion = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
         $this->claves      = 'Gómez Palacio, Servicios Públicos';

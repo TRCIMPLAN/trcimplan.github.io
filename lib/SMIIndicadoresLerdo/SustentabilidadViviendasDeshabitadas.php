@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadViviendasDeshabitadas
@@ -18,7 +18,7 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Deshabitadas en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-viviendas-deshabitadas';
         $this->descripcion = 'Viviendas deshabitadas con respecto al total de viviendas totales.';
         $this->claves      = 'Lerdo, Vivienda';

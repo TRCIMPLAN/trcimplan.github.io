@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadHomicidios
@@ -18,7 +18,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Homicidios en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-homicidios';
         $this->descripcion = 'Número de homicidios durante el primer trimestre de 2014';
         $this->claves      = 'Torreón, Delincuencia, Seguridad';

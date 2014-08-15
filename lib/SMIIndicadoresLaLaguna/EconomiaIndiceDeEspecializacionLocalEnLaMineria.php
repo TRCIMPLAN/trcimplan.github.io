@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaIndiceDeEspecializacionLocalEnLaMineria
@@ -18,7 +18,7 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en la Minería en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-la-mineria';
         $this->descripcion = 'Producción bruta total de la actividad económica de minería entre la producción bruta total.';
         $this->claves      = 'La Laguna, Mercados';

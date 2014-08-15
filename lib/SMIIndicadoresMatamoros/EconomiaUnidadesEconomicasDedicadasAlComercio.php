@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaUnidadesEconomicasDedicadasAlComercio
@@ -18,7 +18,7 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Unidades Económicas Dedicadas al Comercio en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-unidades-economicas-dedicadas-al-comercio';
         $this->descripcion = 'Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.';
         $this->claves      = 'Matamoros, Empresas, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisoxqhpswg" class="grafica"></div>
+<div id="Morrisvtqgqziw" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -234,9 +234,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisoxqhpswg === 'undefined') {
-    varMorrisoxqhpswg = Morris.Line({
-      element: 'Morrisoxqhpswg',
+  if (typeof varMorrisvtqgqziw === 'undefined') {
+    varMorrisvtqgqziw = Morris.Line({
+      element: 'Morrisvtqgqziw',
       data: [{ fecha: '1998-12-31', dato: 64.3500 },{ fecha: '2003-12-31', dato: 64.4300 },{ fecha: '2008-12-31', dato: 57.4200 },{ fecha: '2013-10-31', dato: 51.2700 }],
       xkey: 'fecha',
       ykeys: ['dato'],

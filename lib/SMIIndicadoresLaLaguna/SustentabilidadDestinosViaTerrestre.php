@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SustentabilidadDestinosViaTerrestre
@@ -18,7 +18,7 @@ class SustentabilidadDestinosViaTerrestre extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Destinos Vía Terrestre en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-destinos-via-terrestre';
         $this->descripcion = 'Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio';
         $this->claves      = 'La Laguna, Movilidad';

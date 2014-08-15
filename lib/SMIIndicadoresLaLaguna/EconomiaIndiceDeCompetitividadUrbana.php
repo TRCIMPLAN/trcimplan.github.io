@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaIndiceDeCompetitividadUrbana
@@ -18,7 +18,7 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Competitividad Urbana en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-indice-de-competitividad-urbana';
         $this->descripcion = 'El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.';
         $this->claves      = 'La Laguna, Competitividad';

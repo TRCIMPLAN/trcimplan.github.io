@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadUniversidades
@@ -18,7 +18,7 @@ class SociedadUniversidades extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Universidades en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-universidades';
         $this->descripcion = 'Planteles de Instituciones de Educación Superior.';
         $this->claves      = 'Matamoros, Educación';

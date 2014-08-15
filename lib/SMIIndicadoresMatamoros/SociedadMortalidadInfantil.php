@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadMortalidadInfantil
@@ -18,7 +18,7 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad Infantil en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-mortalidad-infantil';
         $this->descripcion = 'Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos';
         $this->claves      = 'Matamoros, Salud';

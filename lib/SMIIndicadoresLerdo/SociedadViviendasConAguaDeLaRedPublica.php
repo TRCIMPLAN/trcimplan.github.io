@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadViviendasConAguaDeLaRedPublica
@@ -18,7 +18,7 @@ class SociedadViviendasConAguaDeLaRedPublica extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Agua de la Red Pública en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-viviendas-con-agua-de-la-red-publica';
         $this->descripcion = 'Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.';
         $this->claves      = 'Lerdo, Vivienda';

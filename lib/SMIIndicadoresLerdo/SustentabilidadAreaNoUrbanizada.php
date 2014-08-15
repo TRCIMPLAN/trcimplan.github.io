@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadAreaNoUrbanizada
@@ -18,7 +18,7 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Área No Urbanizada en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-area-no-urbanizada';
         $this->descripcion = 'Área total de localidades no urbanizadas sobre la superficie municipal.';
         $this->claves      = 'Lerdo, Recursos Naturales';

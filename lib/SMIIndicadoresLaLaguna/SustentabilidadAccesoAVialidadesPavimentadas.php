@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SustentabilidadAccesoAVialidadesPavimentadas
@@ -18,7 +18,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Acceso a Vialidades Pavimentadas en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-acceso-a-vialidades-pavimentadas';
         $this->descripcion = 'Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.';
         $this->claves      = 'La Laguna, Movilidad, Vialidad';

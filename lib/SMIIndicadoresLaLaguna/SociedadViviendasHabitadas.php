@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadViviendasHabitadas
@@ -18,7 +18,7 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Habitadas en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-viviendas-habitadas';
         $this->descripcion = '';
         $this->claves      = 'La Laguna, Vivienda';

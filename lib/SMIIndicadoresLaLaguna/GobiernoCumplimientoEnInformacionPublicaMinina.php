@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase GobiernoCumplimientoEnInformacionPublicaMinina
@@ -18,7 +18,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Cumplimiento en información pública mínina en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'gobierno-cumplimiento-en-informacion-publica-minina';
         $this->descripcion = 'Cumplimiento sobre total de obligaciones';
         $this->claves      = 'La Laguna, Transparencia';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SustentabilidadSobreexplotacionDelAcuifero
@@ -18,7 +18,7 @@ class SustentabilidadSobreexplotacionDelAcuifero extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Sobreexplotación del Acuífero en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-sobreexplotacion-del-acuifero';
         $this->descripcion = '';
         $this->claves      = 'Gómez Palacio, Recursos Naturales';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaGrandesEmpresas
@@ -18,14 +18,14 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Grandes Empresas en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-grandes-empresas';
-        $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados';
+        $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
         $this->claves      = 'La Laguna, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
 <h4>Descripción</h4>
-Porcentaje del total de empresas que cuentan con más de 250 empleados
+Porcentaje del total de empresas que cuentan con más de 250 empleados.
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -52,7 +52,7 @@ Porcentaje del total de empresas que cuentan con más de 250 empleados
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad de Empresas.
+<b>Unidad:</b> Porcentaje.
 
 <h4>Observaciones</h4>
 A nivel nacional, el 0.63% de las empresas son grandes.
@@ -61,7 +61,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrishomtnodd" class="grafica"></div>
+<div id="Morrisdpsywmtw" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -182,9 +182,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrishomtnodd === 'undefined') {
-    varMorrishomtnodd = Morris.Line({
-      element: 'Morrishomtnodd',
+  if (typeof varMorrisdpsywmtw === 'undefined') {
+    varMorrisdpsywmtw = Morris.Line({
+      element: 'Morrisdpsywmtw',
       data: [{ fecha: '2013-12-31', dato: 0.5300 },{ fecha: '2014-07-31', dato: 1.0700 }],
       xkey: 'fecha',
       ykeys: ['dato'],

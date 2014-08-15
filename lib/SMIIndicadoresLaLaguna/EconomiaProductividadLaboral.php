@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaProductividadLaboral
@@ -18,7 +18,7 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Productividad Laboral en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-productividad-laboral';
         $this->descripcion = 'PIB sin petróleo / PEA.';
         $this->claves      = 'La Laguna, Macroeconomía, Empleo';

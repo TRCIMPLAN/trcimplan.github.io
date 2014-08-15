@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadRezagoAlimentario
@@ -18,7 +18,7 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Rezago Alimentario en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-rezago-alimentario';
         $this->descripcion = 'Personas que presenten un grado de inseguridad alimentaria moderado o severo.';
         $this->claves      = 'Gómez Palacio, Grupos Vulnerables, Bienestar';

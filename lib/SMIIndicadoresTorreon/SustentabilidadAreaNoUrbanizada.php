@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadAreaNoUrbanizada
@@ -18,7 +18,7 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Área No Urbanizada en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-area-no-urbanizada';
         $this->descripcion = 'Área total de localidades no urbanizadas sobre la superficie municipal.';
         $this->claves      = 'Torreón, Recursos Naturales';

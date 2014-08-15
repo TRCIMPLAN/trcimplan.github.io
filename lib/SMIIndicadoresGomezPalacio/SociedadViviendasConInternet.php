@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadViviendasConInternet
@@ -18,7 +18,7 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Internet en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-viviendas-con-internet';
         $this->descripcion = 'Porcentaje de viviendas habitadas con internet.';
         $this->claves      = 'Gómez Palacio, Vivienda';

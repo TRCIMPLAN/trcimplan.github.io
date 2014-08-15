@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadCantidadDePolicias
@@ -18,7 +18,7 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Cantidad de Policías en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-cantidad-de-policias';
         $this->descripcion = 'Cantidad total de policías en el municipio.';
         $this->claves      = 'Torreón, Seguridad';

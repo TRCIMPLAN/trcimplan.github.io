@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadMortalidad
@@ -18,7 +18,7 @@ class SociedadMortalidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-mortalidad';
         $this->descripcion = 'Tasa de Mortalidad. Número de muertes por cada mil habitantes.';
         $this->claves      = 'La Laguna, Salud';

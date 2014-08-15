@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase GobiernoCompetenciaElectoralVotosTotales
@@ -18,7 +18,7 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Competencia Electoral Votos Totales en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-competencia-electoral-votos-totales';
         $this->descripcion = '';
         $this->claves      = 'Lerdo, Participación Ciudadana';

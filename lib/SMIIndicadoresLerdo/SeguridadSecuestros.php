@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadSecuestros
@@ -18,7 +18,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Secuestros en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-secuestros';
         $this->descripcion = 'Cantidad de secuestros en el primer trimestre de 2014';
         $this->claves      = 'Lerdo, Delincuencia, Seguridad';

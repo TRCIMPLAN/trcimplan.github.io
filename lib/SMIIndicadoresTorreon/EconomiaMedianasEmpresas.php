@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaMedianasEmpresas
@@ -18,7 +18,7 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Medianas Empresas en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-medianas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean de 51 a 250 personas.';
         $this->claves      = 'Torreón, Empresas';
@@ -61,7 +61,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisdmokdymz" class="grafica"></div>
+<div id="Morrissdunqewt" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -182,9 +182,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisdmokdymz === 'undefined') {
-    varMorrisdmokdymz = Morris.Line({
-      element: 'Morrisdmokdymz',
+  if (typeof varMorrissdunqewt === 'undefined') {
+    varMorrissdunqewt = Morris.Line({
+      element: 'Morrissdunqewt',
       data: [{ fecha: '2013-12-31', dato: 2.1400 },{ fecha: '2014-07-31', dato: 1.5700 }],
       xkey: 'fecha',
       ykeys: ['dato'],

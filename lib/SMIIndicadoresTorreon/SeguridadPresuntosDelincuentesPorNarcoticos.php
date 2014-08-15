@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadPresuntosDelincuentesPorNarcoticos
@@ -18,7 +18,7 @@ class SeguridadPresuntosDelincuentesPorNarcoticos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Presuntos Delincuentes por Narcóticos en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-presuntos-delincuentes-por-narcoticos';
         $this->descripcion = 'Presuntos delincuentes por delitos en materia de narcóticos registrados en los juzgados del fuero federal.';
         $this->claves      = 'Torreón, Delincuencia';

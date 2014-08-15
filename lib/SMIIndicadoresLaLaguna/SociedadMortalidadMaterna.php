@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadMortalidadMaterna
@@ -18,7 +18,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad Materna en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-mortalidad-materna';
         $this->descripcion = 'Defunciones maternas por cada cien mil partos.';
         $this->claves      = 'La Laguna, Salud, Género';

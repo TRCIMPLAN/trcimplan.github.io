@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaPequenasEmpresas
@@ -18,7 +18,7 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pequeñas Empresas en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-pequenas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean entre 11 y 50 empleados.';
         $this->claves      = 'La Laguna, Empresas';
@@ -61,7 +61,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisfjmsypvq" class="grafica"></div>
+<div id="Morrisofvgqqbr" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -182,9 +182,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisfjmsypvq === 'undefined') {
-    varMorrisfjmsypvq = Morris.Line({
-      element: 'Morrisfjmsypvq',
+  if (typeof varMorrisofvgqqbr === 'undefined') {
+    varMorrisofvgqqbr = Morris.Line({
+      element: 'Morrisofvgqqbr',
       data: [{ fecha: '2013-12-31', dato: 8.6800 },{ fecha: '2014-07-31', dato: 7.5400 }],
       xkey: 'fecha',
       ykeys: ['dato'],

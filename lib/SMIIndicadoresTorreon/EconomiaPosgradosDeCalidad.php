@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaPosgradosDeCalidad
@@ -18,7 +18,7 @@ class EconomiaPosgradosDeCalidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Posgrados de Calidad en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-posgrados-de-calidad';
         $this->descripcion = 'Programas aceptados por CONACYT como posgrados de calidad';
         $this->claves      = 'Torreón, Educación, Innovación';

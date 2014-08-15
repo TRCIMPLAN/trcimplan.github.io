@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadRoboDeVehiculos
@@ -18,7 +18,7 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robo de Vehículos en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-robo-de-vehiculos';
         $this->descripcion = 'Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014';
         $this->claves      = 'Lerdo, Delincuencia, Seguridad';

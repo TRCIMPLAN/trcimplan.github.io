@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase GobiernoCompetenciaElectoralVotosTotales
@@ -18,7 +18,7 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Competencia Electoral Votos Totales en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'gobierno-competencia-electoral-votos-totales';
         $this->descripcion = '';
         $this->claves      = 'La Laguna, Participación Ciudadana';

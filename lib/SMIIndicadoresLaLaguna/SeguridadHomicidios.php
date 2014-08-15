@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SeguridadHomicidios
@@ -18,7 +18,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Homicidios en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-homicidios';
         $this->descripcion = 'Número de homicidios durante el primer trimestre de 2014';
         $this->claves      = 'La Laguna, Delincuencia, Seguridad';

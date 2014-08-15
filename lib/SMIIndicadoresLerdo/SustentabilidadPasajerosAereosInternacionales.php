@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadPasajerosAereosInternacionales
@@ -18,7 +18,7 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pasajeros Aéreos Internacionales en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-internacionales';
         $this->descripcion = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
         $this->claves      = 'Lerdo, Movilidad';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadMotorizacion
@@ -18,7 +18,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Motorización en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-motorizacion';
         $this->descripcion = 'Vehículos automotores registrados en circulación.';
         $this->claves      = 'Torreón, Recursos Naturales, Movilidad, Vialidad';

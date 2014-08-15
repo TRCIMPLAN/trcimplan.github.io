@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadMortalidadMaterna
@@ -18,7 +18,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad Materna en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-mortalidad-materna';
         $this->descripcion = 'Defunciones maternas por cada cien mil partos.';
         $this->claves      = 'Lerdo, Salud, Género';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadVolumenTratadoDeAguasResiduales
@@ -18,7 +18,7 @@ class SustentabilidadVolumenTratadoDeAguasResiduales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Volumen Tratado de Aguas Residuales en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-volumen-tratado-de-aguas-residuales';
         $this->descripcion = '';
         $this->claves      = 'Torreón, Recursos Naturales';

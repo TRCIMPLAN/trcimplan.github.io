@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaInversionPerCapita
@@ -18,7 +18,7 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Inversión Per cápita en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-inversion-per-capita';
         $this->descripcion = 'Gasto en obras públicas y acciones sociales entre población total.';
         $this->claves      = 'Torreón, Macroeconomía, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrisqnftmzrf" class="grafica"></div>
+<div id="Morrisgbgsohrj" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -283,9 +283,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisqnftmzrf === 'undefined') {
-    varMorrisqnftmzrf = Morris.Line({
-      element: 'Morrisqnftmzrf',
+  if (typeof varMorrisgbgsohrj === 'undefined') {
+    varMorrisgbgsohrj = Morris.Line({
+      element: 'Morrisgbgsohrj',
       data: [{ fecha: '2007-12-31', dato: 604.26 },{ fecha: '2008-12-31', dato: 767.48 },{ fecha: '2009-12-31', dato: 497.90 },{ fecha: '2010-12-31', dato: 236.57 },{ fecha: '2011-12-31', dato: 529.86 },{ fecha: '2012-12-31', dato: 348.09 }],
       xkey: 'fecha',
       ykeys: ['dato'],

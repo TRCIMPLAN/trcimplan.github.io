@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadViviendasConEnergiaElectrica
@@ -18,7 +18,7 @@ class SociedadViviendasConEnergiaElectrica extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Energía Eléctrica en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-viviendas-con-energia-electrica';
         $this->descripcion = 'Porcentaje de viviendas con acceso a energía eléctrica';
         $this->claves      = 'La Laguna, Vivienda';

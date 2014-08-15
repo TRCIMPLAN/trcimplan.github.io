@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SeguridadDelitos
@@ -18,7 +18,7 @@ class SeguridadDelitos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Delitos en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-delitos';
         $this->descripcion = 'Total de delitos cometidos en el segundo trimestre 2014';
         $this->claves      = 'La Laguna, Delincuencia, Seguridad';

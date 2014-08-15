@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadEspaciosCulturales
@@ -18,7 +18,7 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Espacios Culturales en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-espacios-culturales';
         $this->descripcion = 'Espacios culturales físicamente delimitados.';
         $this->claves      = 'La Laguna, Educación, Cultura';

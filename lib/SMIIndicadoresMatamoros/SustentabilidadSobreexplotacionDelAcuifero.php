@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadSobreexplotacionDelAcuifero
@@ -18,7 +18,7 @@ class SustentabilidadSobreexplotacionDelAcuifero extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Sobreexplotación del Acuífero en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-sobreexplotacion-del-acuifero';
         $this->descripcion = '';
         $this->claves      = 'Matamoros, Recursos Naturales';

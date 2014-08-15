@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SeguridadRoboDeVehiculos
@@ -18,7 +18,7 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robo de Vehículos en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-robo-de-vehiculos';
         $this->descripcion = 'Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014';
         $this->claves      = 'Gómez Palacio, Delincuencia, Seguridad';

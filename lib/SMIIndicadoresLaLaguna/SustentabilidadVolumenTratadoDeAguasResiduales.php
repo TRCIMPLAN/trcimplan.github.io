@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SustentabilidadVolumenTratadoDeAguasResiduales
@@ -18,7 +18,7 @@ class SustentabilidadVolumenTratadoDeAguasResiduales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Volumen Tratado de Aguas Residuales en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-volumen-tratado-de-aguas-residuales';
         $this->descripcion = '';
         $this->claves      = 'La Laguna, Recursos Naturales';

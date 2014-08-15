@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SeguridadTasaDeSecuestro
@@ -18,7 +18,7 @@ class SeguridadTasaDeSecuestro extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tasa de Secuestro en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-tasa-de-secuestro';
         $this->descripcion = 'Homicidios por habitantes por 100 mil';
         $this->claves      = 'Matamoros, Delincuencia, Seguridad';

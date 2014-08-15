@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadViviendasConEnergiaElectrica
@@ -18,7 +18,7 @@ class SociedadViviendasConEnergiaElectrica extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Energía Eléctrica en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-viviendas-con-energia-electrica';
         $this->descripcion = 'Porcentaje de viviendas con acceso a energía eléctrica';
         $this->claves      = 'Torreón, Vivienda';

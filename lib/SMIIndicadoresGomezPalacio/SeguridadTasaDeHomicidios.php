@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SeguridadTasaDeHomicidios
@@ -18,7 +18,7 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tasa de Homicidios en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-tasa-de-homicidios';
         $this->descripcion = 'Número de homicidios por cada 100 mil habitantes.';
         $this->claves      = 'Gómez Palacio, Delincuencia, Seguridad';

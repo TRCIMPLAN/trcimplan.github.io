@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaTotalDeEmpresas
@@ -18,7 +18,7 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Total de Empresas en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-total-de-empresas';
         $this->descripcion = '';
         $this->claves      = 'La Laguna, Empresas';
@@ -59,7 +59,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisulignxgv" class="grafica"></div>
+<div id="Morrislaezdozc" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -180,9 +180,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisulignxgv === 'undefined') {
-    varMorrisulignxgv = Morris.Line({
-      element: 'Morrisulignxgv',
+  if (typeof varMorrislaezdozc === 'undefined') {
+    varMorrislaezdozc = Morris.Line({
+      element: 'Morrislaezdozc',
       data: [{ fecha: '2013-12-31', dato: 8937 },{ fecha: '2014-07-31', dato: 9785 }],
       xkey: 'fecha',
       ykeys: ['dato'],

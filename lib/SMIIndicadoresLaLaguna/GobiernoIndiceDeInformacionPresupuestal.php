@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase GobiernoIndiceDeInformacionPresupuestal
@@ -18,7 +18,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'índice de Información Presupuestal en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'gobierno-indice-de-informacion-presupuestal';
         $this->descripcion = 'Cumplimiento sobre total de criterios';
         $this->claves      = 'La Laguna, Transparencia';

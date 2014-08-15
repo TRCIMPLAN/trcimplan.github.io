@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadViviendasHabitadas
@@ -18,7 +18,7 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Habitadas en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-viviendas-habitadas';
         $this->descripcion = '';
         $this->claves      = 'Torreón, Vivienda';

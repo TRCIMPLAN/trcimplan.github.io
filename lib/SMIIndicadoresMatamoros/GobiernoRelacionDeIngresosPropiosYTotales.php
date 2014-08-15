@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase GobiernoRelacionDeIngresosPropiosYTotales
@@ -18,7 +18,7 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Relación de Ingresos Propios y Totales en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'gobierno-relacion-de-ingresos-propios-y-totales';
         $this->descripcion = 'Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.';
         $this->claves      = 'Matamoros, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrisgobbltiw" class="grafica"></div>
+<div id="Morriszhbxvbkl" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -290,9 +290,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisgobbltiw === 'undefined') {
-    varMorrisgobbltiw = Morris.Line({
-      element: 'Morrisgobbltiw',
+  if (typeof varMorriszhbxvbkl === 'undefined') {
+    varMorriszhbxvbkl = Morris.Line({
+      element: 'Morriszhbxvbkl',
       data: [{ fecha: '2007-12-31', dato: 12.2200 },{ fecha: '2008-12-31', dato: 9.3000 },{ fecha: '2009-12-31', dato: 12.2700 },{ fecha: '2010-12-31', dato: 7.8200 },{ fecha: '2011-12-31', dato: 8.7200 },{ fecha: '2012-12-31', dato: 17.4700 }],
       xkey: 'fecha',
       ykeys: ['dato'],

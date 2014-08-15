@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaTotalDeEmpresas
@@ -18,7 +18,7 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Total de Empresas en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-total-de-empresas';
         $this->descripcion = '';
         $this->claves      = 'Gómez Palacio, Empresas';
@@ -59,7 +59,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisniahiyed" class="grafica"></div>
+<div id="Morrisbuoselqc" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -180,9 +180,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisniahiyed === 'undefined') {
-    varMorrisniahiyed = Morris.Line({
-      element: 'Morrisniahiyed',
+  if (typeof varMorrisbuoselqc === 'undefined') {
+    varMorrisbuoselqc = Morris.Line({
+      element: 'Morrisbuoselqc',
       data: [{ fecha: '2013-12-31', dato: 1942 },{ fecha: '2014-07-31', dato: 2032 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadDestinosViaAerea
@@ -18,7 +18,7 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Destinos Vía Aérea en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-destinos-via-aerea';
         $this->descripcion = 'Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.';
         $this->claves      = 'Matamoros, Movilidad';

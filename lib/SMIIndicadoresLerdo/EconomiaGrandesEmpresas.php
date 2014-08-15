@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaGrandesEmpresas
@@ -18,14 +18,14 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Grandes Empresas en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-grandes-empresas';
-        $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados';
+        $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
         $this->claves      = 'Lerdo, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
 <h4>Descripción</h4>
-Porcentaje del total de empresas que cuentan con más de 250 empleados
+Porcentaje del total de empresas que cuentan con más de 250 empleados.
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -52,7 +52,7 @@ Porcentaje del total de empresas que cuentan con más de 250 empleados
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad de Empresas.
+<b>Unidad:</b> Porcentaje.
 
 <h4>Observaciones</h4>
 A nivel nacional, el 0.63% de las empresas son grandes.

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadEspaciosCulturales
@@ -18,7 +18,7 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Espacios Culturales en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-espacios-culturales';
         $this->descripcion = 'Espacios culturales físicamente delimitados.';
         $this->claves      = 'Lerdo, Educación, Cultura';

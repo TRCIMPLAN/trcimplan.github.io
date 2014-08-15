@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadTasaDeSecuestro
@@ -18,7 +18,7 @@ class SeguridadTasaDeSecuestro extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tasa de Secuestro en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-tasa-de-secuestro';
         $this->descripcion = 'Homicidios por habitantes por 100 mil';
         $this->claves      = 'Torreón, Delincuencia, Seguridad';

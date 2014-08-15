@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadPobrezaModerada
@@ -18,7 +18,7 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pobreza Moderada en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-pobreza-moderada';
         $this->descripcion = 'Porcentaje de la población en situación de pobreza moderada.';
         $this->claves      = 'Lerdo, Bienestar';

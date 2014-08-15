@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadHogaresConJefaturaFemenina
@@ -18,7 +18,7 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Hogares con Jefatura Femenina en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-hogares-con-jefatura-femenina';
         $this->descripcion = 'Porcentaje de hogares con jefatura femenina.';
         $this->claves      = 'Matamoros, Género';

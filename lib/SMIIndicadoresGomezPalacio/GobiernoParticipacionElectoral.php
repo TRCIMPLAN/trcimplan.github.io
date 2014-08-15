@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase GobiernoParticipacionElectoral
@@ -18,7 +18,7 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Participación Electoral en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'gobierno-participacion-electoral';
         $this->descripcion = 'Porcentaje de personas que emitieron su voto.';
         $this->claves      = 'Gómez Palacio, Participación Ciudadana';

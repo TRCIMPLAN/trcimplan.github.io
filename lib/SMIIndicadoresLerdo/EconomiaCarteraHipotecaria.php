@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaCarteraHipotecaria
@@ -18,7 +18,7 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Cartera Hipotecaria en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-cartera-hipotecaria';
         $this->descripcion = 'Monto de créditos otorgados a la fecha indicada.';
         $this->claves      = 'Lerdo, Mercados';
@@ -40,31 +40,31 @@ Monto de créditos otorgados a la fecha indicada.
 <tbody>
 <tr>
 <td class="centrado">31/12/2010</td>
-<td class="derecha">231,743,194.0000</td>
+<td class="derecha">$ 231,743,194.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td class="centrado">31/12/2011</td>
-<td class="derecha">240,598,550.0000</td>
+<td class="derecha">$ 240,598,550.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td class="centrado">31/12/2012</td>
-<td class="derecha">261,966,994.0000</td>
+<td class="derecha">$ 261,966,994.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td class="centrado">31/12/2013</td>
-<td class="derecha">319,887,703.0000</td>
+<td class="derecha">$ 319,887,703.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td class="centrado">31/03/2014</td>
-<td class="derecha">334,888,287.0000</td>
+<td class="derecha">$ 334,888,287.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td>Dato trimestral</td>
 </tr>
@@ -79,7 +79,7 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisxfhxgguj" class="grafica"></div>
+<div id="Morrisopmwwisg" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -98,140 +98,140 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 <tr>
 <td>Torreón</td>
 <td>2010-12-31</td>
-<td class="derecha">3,479,653,828.0000</td>
+<td class="derecha">$ 3,479,653,828.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Torreón</td>
 <td>2011-12-31</td>
-<td class="derecha">3,741,316,668.0000</td>
+<td class="derecha">$ 3,741,316,668.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Torreón</td>
 <td>2012-12-31</td>
-<td class="derecha">4,027,766,032.0000</td>
+<td class="derecha">$ 4,027,766,032.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Torreón</td>
 <td>2013-12-31</td>
-<td class="derecha">4,476,538,920.0000</td>
+<td class="derecha">$ 4,476,538,920.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Torreón</td>
 <td>2014-03-31</td>
-<td class="derecha">4,664,619,926.0000</td>
+<td class="derecha">$ 4,664,619,926.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td>Dato trimestral</td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
 <td>2010-12-31</td>
-<td class="derecha">428,193,681.0000</td>
+<td class="derecha">$ 428,193,681.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
 <td>2011-12-31</td>
-<td class="derecha">487,730,197.0000</td>
+<td class="derecha">$ 487,730,197.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
 <td>2012-12-31</td>
-<td class="derecha">549,445,038.0000</td>
+<td class="derecha">$ 549,445,038.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
 <td>2013-12-31</td>
-<td class="derecha">588,858,276.0000</td>
+<td class="derecha">$ 588,858,276.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
 <td>2014-03-31</td>
-<td class="derecha">614,765,352.0000</td>
+<td class="derecha">$ 614,765,352.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td>Dato trimestral</td>
 </tr>
 <tr>
 <td>Matamoros</td>
 <td>2010-12-31</td>
-<td class="derecha">66,279,954.0000</td>
+<td class="derecha">$ 66,279,954.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Matamoros</td>
 <td>2011-12-31</td>
-<td class="derecha">59,324,405.0000</td>
+<td class="derecha">$ 59,324,405.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Matamoros</td>
 <td>2012-12-31</td>
-<td class="derecha">57,375,581.0000</td>
+<td class="derecha">$ 57,375,581.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Matamoros</td>
 <td>2013-12-31</td>
-<td class="derecha">56,877,995.0000</td>
+<td class="derecha">$ 56,877,995.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Matamoros</td>
 <td>2014-03-31</td>
-<td class="derecha">57,702,472.0000</td>
+<td class="derecha">$ 57,702,472.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td>Dato trimestral</td>
 </tr>
 <tr>
 <td>La Laguna</td>
 <td>2010-12-31</td>
-<td class="derecha">4,205,870,657.0000</td>
+<td class="derecha">$ 4,205,870,657.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
 <td>2011-12-31</td>
-<td class="derecha">4,528,969,820.0000</td>
+<td class="derecha">$ 4,528,969,820.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
 <td>2012-12-31</td>
-<td class="derecha">4,896,553,645.0000</td>
+<td class="derecha">$ 4,896,553,645.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
 <td>2013-12-31</td>
-<td class="derecha">5,442,162,894.0000</td>
+<td class="derecha">$ 5,442,162,894.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
 <td>2014-03-31</td>
-<td class="derecha">5,671,976,037.0000</td>
+<td class="derecha">$ 5,671,976,037.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td>Dato trimestral</td>
 </tr>
@@ -242,10 +242,10 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisxfhxgguj === 'undefined') {
-    varMorrisxfhxgguj = Morris.Line({
-      element: 'Morrisxfhxgguj',
-      data: [{ fecha: '2010-12-31', dato: 231743194.0000 },{ fecha: '2011-12-31', dato: 240598550.0000 },{ fecha: '2012-12-31', dato: 261966994.0000 },{ fecha: '2013-12-31', dato: 319887703.0000 },{ fecha: '2014-03-31', dato: 334888287.0000 }],
+  if (typeof varMorrisopmwwisg === 'undefined') {
+    varMorrisopmwwisg = Morris.Line({
+      element: 'Morrisopmwwisg',
+      data: [{ fecha: '2010-12-31', dato: 231743194.00 },{ fecha: '2011-12-31', dato: 240598550.00 },{ fecha: '2012-12-31', dato: 261966994.00 },{ fecha: '2013-12-31', dato: 319887703.00 },{ fecha: '2014-03-31', dato: 334888287.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

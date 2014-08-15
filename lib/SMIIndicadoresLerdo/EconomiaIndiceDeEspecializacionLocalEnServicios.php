@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaIndiceDeEspecializacionLocalEnServicios
@@ -18,7 +18,7 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \Base\Publicacion 
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en Servicios en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-servicios';
         $this->descripcion = 'Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.';
         $this->claves      = 'Lerdo, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrissrxhyibl" class="grafica"></div>
+<div id="Morrisdwiinowl" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -185,9 +185,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrissrxhyibl === 'undefined') {
-    varMorrissrxhyibl = Morris.Line({
-      element: 'Morrissrxhyibl',
+  if (typeof varMorrisdwiinowl === 'undefined') {
+    varMorrisdwiinowl = Morris.Line({
+      element: 'Morrisdwiinowl',
       data: [{ fecha: '1998-12-31', dato: 17.2300 },{ fecha: '2003-12-31', dato: 6.3000 },{ fecha: '2008-12-31', dato: 8.5600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

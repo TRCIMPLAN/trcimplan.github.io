@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadRedDeTransportePublico
@@ -18,7 +18,7 @@ class SustentabilidadRedDeTransportePublico extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red de Transporte Público en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-red-de-transporte-publico';
         $this->descripcion = 'Extensión de la red de transporte público en Kilómetros totales.';
         $this->claves      = 'Torreón, Servicios Públicos';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SustentabilidadMotorizacion
@@ -18,7 +18,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Motorización en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-motorizacion';
         $this->descripcion = 'Vehículos automotores registrados en circulación.';
         $this->claves      = 'La Laguna, Recursos Naturales, Movilidad, Vialidad';

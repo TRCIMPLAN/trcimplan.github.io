@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaProduccionBrutaTotalPerCapita
@@ -18,7 +18,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Producción Bruta Total Per Cápita en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-produccion-bruta-total-per-capita';
         $this->descripcion = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total.';
         $this->claves      = 'Gómez Palacio, Macroeconomía, Finanzas Públicas';
@@ -79,7 +79,7 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morriskfvnpxwb" class="grafica"></div>
+<div id="Morrismwfreqyg" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriskfvnpxwb === 'undefined') {
-    varMorriskfvnpxwb = Morris.Line({
-      element: 'Morriskfvnpxwb',
+  if (typeof varMorrismwfreqyg === 'undefined') {
+    varMorrismwfreqyg = Morris.Line({
+      element: 'Morrismwfreqyg',
       data: [{ fecha: '1998-12-31', dato: 64469.91 },{ fecha: '2003-12-31', dato: 117603.88 },{ fecha: '2008-12-31', dato: 157032.38 }],
       xkey: 'fecha',
       ykeys: ['dato'],

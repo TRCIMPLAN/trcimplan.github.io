@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadCamasCensables
@@ -18,7 +18,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Camas Censables en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-camas-censables';
         $this->descripcion = '';
         $this->claves      = 'Torreón, Salud';
@@ -130,7 +130,7 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
 
 <h4>Gráfica</h4>
 
-<div id="Morriserubgfyp" class="grafica"></div>
+<div id="Morrisbpbrzpnq" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -783,9 +783,9 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriserubgfyp === 'undefined') {
-    varMorriserubgfyp = Morris.Line({
-      element: 'Morriserubgfyp',
+  if (typeof varMorrisbpbrzpnq === 'undefined') {
+    varMorrisbpbrzpnq = Morris.Line({
+      element: 'Morrisbpbrzpnq',
       data: [{ fecha: '2001-12-31', dato: 42 },{ fecha: '2002-12-31', dato: 42 },{ fecha: '2003-12-31', dato: 72 },{ fecha: '2004-12-31', dato: 42 },{ fecha: '2005-12-31', dato: 42 },{ fecha: '2006-12-31', dato: 51 },{ fecha: '2007-12-31', dato: 48 },{ fecha: '2008-12-31', dato: 51 },{ fecha: '2009-12-31', dato: 51 },{ fecha: '2010-12-31', dato: 51 },{ fecha: '2011-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 51 },{ fecha: '2013-12-31', dato: 51 }],
       xkey: 'fecha',
       ykeys: ['dato'],

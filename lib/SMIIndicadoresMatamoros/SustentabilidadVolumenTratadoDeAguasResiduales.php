@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadVolumenTratadoDeAguasResiduales
@@ -18,7 +18,7 @@ class SustentabilidadVolumenTratadoDeAguasResiduales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Volumen Tratado de Aguas Residuales en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-volumen-tratado-de-aguas-residuales';
         $this->descripcion = '';
         $this->claves      = 'Matamoros, Recursos Naturales';

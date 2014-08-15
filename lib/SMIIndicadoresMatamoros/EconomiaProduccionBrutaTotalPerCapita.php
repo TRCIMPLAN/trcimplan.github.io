@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaProduccionBrutaTotalPerCapita
@@ -18,7 +18,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Producción Bruta Total Per Cápita en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-produccion-bruta-total-per-capita';
         $this->descripcion = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total.';
         $this->claves      = 'Matamoros, Macroeconomía, Finanzas Públicas';
@@ -79,7 +79,7 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morriszxwwcyuo" class="grafica"></div>
+<div id="Morrisrykslwic" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriszxwwcyuo === 'undefined') {
-    varMorriszxwwcyuo = Morris.Line({
-      element: 'Morriszxwwcyuo',
+  if (typeof varMorrisrykslwic === 'undefined') {
+    varMorrisrykslwic = Morris.Line({
+      element: 'Morrisrykslwic',
       data: [{ fecha: '1998-12-31', dato: 3080.72 },{ fecha: '2003-12-31', dato: 6803.48 },{ fecha: '2008-12-31', dato: 15373.03 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadViviendasQueDisponenDeRetrete
@@ -18,7 +18,7 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas que Disponen de Retrete en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-viviendas-que-disponen-de-retrete';
         $this->descripcion = 'Porcentaje de viviendas habitadas que disponen de retrete.';
         $this->claves      = 'Lerdo, Vivienda, Salud';

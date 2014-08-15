@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadDelitos
@@ -18,7 +18,7 @@ class SeguridadDelitos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Delitos en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-delitos';
         $this->descripcion = 'Total de delitos cometidos en el segundo trimestre 2014';
         $this->claves      = 'Lerdo, Delincuencia, Seguridad';
@@ -64,7 +64,7 @@ Total de delitos cometidos en el segundo trimestre 2014
 
 <h4>Gráfica</h4>
 
-<div id="Morrishruckhpu" class="grafica"></div>
+<div id="Morrisojwsfsmq" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -157,9 +157,9 @@ Total de delitos cometidos en el segundo trimestre 2014
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrishruckhpu === 'undefined') {
-    varMorrishruckhpu = Morris.Line({
-      element: 'Morrishruckhpu',
+  if (typeof varMorrisojwsfsmq === 'undefined') {
+    varMorrisojwsfsmq = Morris.Line({
+      element: 'Morrisojwsfsmq',
       data: [{ fecha: '2014-01-31', dato: 66 },{ fecha: '2014-02-28', dato: 66 },{ fecha: '2014-06-30', dato: 180 }],
       xkey: 'fecha',
       ykeys: ['dato'],

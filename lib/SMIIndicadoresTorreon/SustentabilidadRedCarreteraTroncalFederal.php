@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadRedCarreteraTroncalFederal
@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera Troncal Federal en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-red-carretera-troncal-federal';
         $this->descripcion = '';
         $this->claves      = 'Torreón, Infraestructura';

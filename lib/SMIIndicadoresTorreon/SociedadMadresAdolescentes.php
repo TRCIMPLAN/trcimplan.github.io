@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadMadresAdolescentes
@@ -18,7 +18,7 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Madres Adolescentes en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-madres-adolescentes';
         $this->descripcion = 'Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad';
         $this->claves      = 'Torreón, Grupos Vulnerables, Género';
@@ -83,16 +83,16 @@ Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema 
 
 <h4>Gráfica</h4>
 
-<div id="Morrisrhvuperu" class="grafica"></div>
+<div id="Morristwyfkszm" class="grafica"></div>
 
 
 
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisrhvuperu === 'undefined') {
-    varMorrisrhvuperu = Morris.Line({
-      element: 'Morrisrhvuperu',
+  if (typeof varMorristwyfkszm === 'undefined') {
+    varMorristwyfkszm = Morris.Line({
+      element: 'Morristwyfkszm',
       data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
       xkey: 'fecha',
       ykeys: ['dato'],

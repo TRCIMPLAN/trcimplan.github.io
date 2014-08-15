@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SeguridadRoboDeVehiculos
@@ -18,7 +18,7 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robo de Vehículos en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-robo-de-vehiculos';
         $this->descripcion = 'Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014';
         $this->claves      = 'La Laguna, Delincuencia, Seguridad';

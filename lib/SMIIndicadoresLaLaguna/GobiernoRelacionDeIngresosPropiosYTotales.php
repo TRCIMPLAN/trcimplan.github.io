@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase GobiernoRelacionDeIngresosPropiosYTotales
@@ -18,7 +18,7 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Relación de Ingresos Propios y Totales en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'gobierno-relacion-de-ingresos-propios-y-totales';
         $this->descripcion = 'Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.';
         $this->claves      = 'La Laguna, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrisltwlrtsk" class="grafica"></div>
+<div id="Morrisszilgxkr" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -290,9 +290,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisltwlrtsk === 'undefined') {
-    varMorrisltwlrtsk = Morris.Line({
-      element: 'Morrisltwlrtsk',
+  if (typeof varMorrisszilgxkr === 'undefined') {
+    varMorrisszilgxkr = Morris.Line({
+      element: 'Morrisszilgxkr',
       data: [{ fecha: '2007-12-31', dato: 33.5900 },{ fecha: '2008-12-31', dato: 30.0800 },{ fecha: '2009-12-31', dato: 36.4200 },{ fecha: '2010-12-31', dato: 28.8200 },{ fecha: '2011-12-31', dato: 32.9500 },{ fecha: '2012-12-31', dato: 39.9600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

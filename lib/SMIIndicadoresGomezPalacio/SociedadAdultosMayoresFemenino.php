@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadAdultosMayoresFemenino
@@ -18,7 +18,7 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Adultos Mayores Femenino en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-adultos-mayores-femenino';
         $this->descripcion = 'Población estimada a mediados de año de personas de 65 años y más de sexo femenino.';
         $this->claves      = 'Gómez Palacio, Grupos Vulnerables, Género';
@@ -106,7 +106,7 @@ Población estimada a mediados de año de personas de 65 años y más de sexo fe
 
 <h4>Gráfica</h4>
 
-<div id="Morrisxozlasui" class="grafica"></div>
+<div id="Morriswqbvuney" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -619,9 +619,9 @@ Población estimada a mediados de año de personas de 65 años y más de sexo fe
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisxozlasui === 'undefined') {
-    varMorrisxozlasui = Morris.Line({
-      element: 'Morrisxozlasui',
+  if (typeof varMorriswqbvuney === 'undefined') {
+    varMorriswqbvuney = Morris.Line({
+      element: 'Morriswqbvuney',
       data: [{ fecha: '2011-06-30', dato: 9694 },{ fecha: '2012-06-30', dato: 10058 },{ fecha: '2013-06-30', dato: 10447 },{ fecha: '2014-06-30', dato: 10863 },{ fecha: '2015-06-30', dato: 11308 },{ fecha: '2016-06-30', dato: 11784 },{ fecha: '2017-06-30', dato: 12292 },{ fecha: '2018-06-30', dato: 12829 },{ fecha: '2019-06-30', dato: 13397 },{ fecha: '2020-06-30', dato: 13994 }],
       xkey: 'fecha',
       ykeys: ['dato'],

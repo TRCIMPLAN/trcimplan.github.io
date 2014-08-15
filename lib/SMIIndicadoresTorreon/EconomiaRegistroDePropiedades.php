@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaRegistroDePropiedades
@@ -18,7 +18,7 @@ class EconomiaRegistroDePropiedades extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Registro de Propiedades en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-registro-de-propiedades';
         $this->descripcion = 'Días que toma el trámite para el registro de una propiedad.';
         $this->claves      = 'Torreón, Empresas';
@@ -76,16 +76,16 @@ Costo (% del valor de la propiedad) = 4,5</td>
 
 <h4>Gráfica</h4>
 
-<div id="Morrisrnqcghxq" class="grafica"></div>
+<div id="Morrishsgmwnmk" class="grafica"></div>
 
 
 
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisrnqcghxq === 'undefined') {
-    varMorrisrnqcghxq = Morris.Line({
-      element: 'Morrisrnqcghxq',
+  if (typeof varMorrishsgmwnmk === 'undefined') {
+    varMorrishsgmwnmk = Morris.Line({
+      element: 'Morrishsgmwnmk',
       data: [{ fecha: '2007-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 33 },{ fecha: '2013-10-31', dato: 28 }],
       xkey: 'fecha',
       ykeys: ['dato'],

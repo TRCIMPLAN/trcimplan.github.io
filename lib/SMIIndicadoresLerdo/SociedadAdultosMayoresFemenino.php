@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadAdultosMayoresFemenino
@@ -18,7 +18,7 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Adultos Mayores Femenino en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-adultos-mayores-femenino';
         $this->descripcion = 'Población estimada a mediados de año de personas de 65 años y más de sexo femenino.';
         $this->claves      = 'Lerdo, Grupos Vulnerables, Género';
@@ -106,7 +106,7 @@ Población estimada a mediados de año de personas de 65 años y más de sexo fe
 
 <h4>Gráfica</h4>
 
-<div id="Morriszozhrfjy" class="grafica"></div>
+<div id="Morrisefeewdfl" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -619,9 +619,9 @@ Población estimada a mediados de año de personas de 65 años y más de sexo fe
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriszozhrfjy === 'undefined') {
-    varMorriszozhrfjy = Morris.Line({
-      element: 'Morriszozhrfjy',
+  if (typeof varMorrisefeewdfl === 'undefined') {
+    varMorrisefeewdfl = Morris.Line({
+      element: 'Morrisefeewdfl',
       data: [{ fecha: '2011-06-30', dato: 4448 },{ fecha: '2012-06-30', dato: 4608 },{ fecha: '2013-06-30', dato: 4775 },{ fecha: '2014-06-30', dato: 4950 },{ fecha: '2015-06-30', dato: 5133 },{ fecha: '2016-06-30', dato: 5325 },{ fecha: '2017-06-30', dato: 5527 },{ fecha: '2018-06-30', dato: 5739 },{ fecha: '2019-06-30', dato: 5961 },{ fecha: '2020-06-30', dato: 6195 }],
       xkey: 'fecha',
       ykeys: ['dato'],

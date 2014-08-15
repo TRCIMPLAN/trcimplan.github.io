@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase GobiernoIndiceDeGobiernoElectronicoMunicipal
@@ -18,7 +18,7 @@ class GobiernoIndiceDeGobiernoElectronicoMunicipal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Gobierno Electrónico Municipal en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'gobierno-indice-de-gobierno-electronico-municipal';
         $this->descripcion = 'índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.';
         $this->claves      = 'Torreón, Gobierno Digital';

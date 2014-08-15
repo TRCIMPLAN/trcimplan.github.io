@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase GobiernoCumplimientoEnInformacionPublicaMinina
@@ -18,7 +18,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Cumplimiento en información pública mínina en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-cumplimiento-en-informacion-publica-minina';
         $this->descripcion = 'Cumplimiento sobre total de obligaciones';
         $this->claves      = 'Lerdo, Transparencia';

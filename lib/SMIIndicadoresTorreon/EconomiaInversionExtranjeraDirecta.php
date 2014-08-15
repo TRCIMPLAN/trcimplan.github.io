@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaInversionExtranjeraDirecta
@@ -18,7 +18,7 @@ class EconomiaInversionExtranjeraDirecta extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Inversión Extranjera Directa en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-inversion-extranjera-directa';
         $this->descripcion = 'Promedio de inversión entre 2008 y 2012.';
         $this->claves      = 'Torreón, Macroeconomía';

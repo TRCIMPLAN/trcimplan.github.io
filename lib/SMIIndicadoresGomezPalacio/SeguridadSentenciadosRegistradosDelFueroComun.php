@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SeguridadSentenciadosRegistradosDelFueroComun
@@ -18,7 +18,7 @@ class SeguridadSentenciadosRegistradosDelFueroComun extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Sentenciados Registrados del Fuero Común en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-sentenciados-registrados-del-fuero-comun';
         $this->descripcion = 'Cantidad de sentenciados registrados en los juzgados de primera instancia del fuero común por año.';
         $this->claves      = 'Gómez Palacio, Delincuencia';

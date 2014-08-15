@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadViviendasConComputadora
@@ -18,7 +18,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Computadora en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-viviendas-con-computadora';
         $this->descripcion = 'Porcentaje de viviendas habitadas con computadora.';
         $this->claves      = 'Torreón, Vivienda';

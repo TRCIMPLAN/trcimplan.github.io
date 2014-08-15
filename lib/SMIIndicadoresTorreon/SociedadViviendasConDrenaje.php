@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadViviendasConDrenaje
@@ -18,7 +18,7 @@ class SociedadViviendasConDrenaje extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Drenaje en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-viviendas-con-drenaje';
         $this->descripcion = 'Porcentaje de viviendas habitadas que disponen de drenaje.';
         $this->claves      = 'Torreón, Vivienda';

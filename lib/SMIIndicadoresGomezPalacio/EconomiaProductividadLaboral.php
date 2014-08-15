@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaProductividadLaboral
@@ -18,7 +18,7 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Productividad Laboral en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-productividad-laboral';
         $this->descripcion = 'PIB sin petróleo / PEA.';
         $this->claves      = 'Gómez Palacio, Macroeconomía, Empleo';

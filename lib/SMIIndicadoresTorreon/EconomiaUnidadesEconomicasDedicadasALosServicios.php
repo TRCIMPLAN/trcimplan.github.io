@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaUnidadesEconomicasDedicadasALosServicios
@@ -18,7 +18,7 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \Base\Publicacion
      */
     public function __construct() {
         $this->nombre      = 'Unidades Económicas Dedicadas a los Servicios en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-unidades-economicas-dedicadas-a-los-servicios';
         $this->descripcion = 'Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.';
         $this->claves      = 'Torreón, Empresas, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisevzkvlkn" class="grafica"></div>
+<div id="Morristkkyumti" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -234,9 +234,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisevzkvlkn === 'undefined') {
-    varMorrisevzkvlkn = Morris.Line({
-      element: 'Morrisevzkvlkn',
+  if (typeof varMorristkkyumti === 'undefined') {
+    varMorristkkyumti = Morris.Line({
+      element: 'Morristkkyumti',
       data: [{ fecha: '1998-12-31', dato: 39.9200 },{ fecha: '2003-12-31', dato: 40.2600 },{ fecha: '2008-12-31', dato: 42.8600 },{ fecha: '2013-10-31', dato: 44.9200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

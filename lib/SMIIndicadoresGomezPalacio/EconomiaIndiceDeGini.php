@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaIndiceDeGini
@@ -18,7 +18,7 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Gini en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-indice-de-gini';
         $this->descripcion = 'Indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad.';
         $this->claves      = 'Gómez Palacio';

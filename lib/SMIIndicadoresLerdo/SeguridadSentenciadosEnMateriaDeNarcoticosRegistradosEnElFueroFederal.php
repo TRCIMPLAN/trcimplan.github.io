@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadSentenciadosEnMateriaDeNarcoticosRegistradosEnElFueroFederal
@@ -18,7 +18,7 @@ class SeguridadSentenciadosEnMateriaDeNarcoticosRegistradosEnElFueroFederal exte
      */
     public function __construct() {
         $this->nombre      = 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal';
         $this->descripcion = '';
         $this->claves      = 'Lerdo, Delincuencia';

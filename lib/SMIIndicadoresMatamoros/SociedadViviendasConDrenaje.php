@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadViviendasConDrenaje
@@ -18,7 +18,7 @@ class SociedadViviendasConDrenaje extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Drenaje en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-viviendas-con-drenaje';
         $this->descripcion = 'Porcentaje de viviendas habitadas que disponen de drenaje.';
         $this->claves      = 'Matamoros, Vivienda';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadViviendasConInternet
@@ -18,7 +18,7 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Internet en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-viviendas-con-internet';
         $this->descripcion = 'Porcentaje de viviendas habitadas con internet.';
         $this->claves      = 'Lerdo, Vivienda';

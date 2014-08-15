@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadHogaresConJefaturaFemenina
@@ -18,7 +18,7 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Hogares con Jefatura Femenina en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-hogares-con-jefatura-femenina';
         $this->descripcion = 'Porcentaje de hogares con jefatura femenina.';
         $this->claves      = 'Torreón, Género';

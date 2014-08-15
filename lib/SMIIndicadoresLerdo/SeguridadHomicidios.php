@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadHomicidios
@@ -18,7 +18,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Homicidios en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-homicidios';
         $this->descripcion = 'Número de homicidios durante el primer trimestre de 2014';
         $this->claves      = 'Lerdo, Delincuencia, Seguridad';

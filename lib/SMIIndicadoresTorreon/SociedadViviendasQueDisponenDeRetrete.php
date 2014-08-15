@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadViviendasQueDisponenDeRetrete
@@ -18,7 +18,7 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas que Disponen de Retrete en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-viviendas-que-disponen-de-retrete';
         $this->descripcion = 'Porcentaje de viviendas habitadas que disponen de retrete.';
         $this->claves      = 'Torreón, Vivienda, Salud';

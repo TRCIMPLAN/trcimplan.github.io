@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SustentabilidadSobreexplotacionDelAcuifero
@@ -18,7 +18,7 @@ class SustentabilidadSobreexplotacionDelAcuifero extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Sobreexplotación del Acuífero en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-sobreexplotacion-del-acuifero';
         $this->descripcion = '';
         $this->claves      = 'La Laguna, Recursos Naturales';

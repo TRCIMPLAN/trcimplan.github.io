@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaPersonalOcupadoEnLaIndustriaManufacturera
@@ -18,7 +18,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \Base\Publicacio
      */
     public function __construct() {
         $this->nombre      = 'Personal Ocupado en la Industria Manufacturera en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-personal-ocupado-en-la-industria-manufacturera';
         $this->descripcion = 'Personal ocupado en la Industria manufacturera entre el personal ocupado total.';
         $this->claves      = 'Gómez Palacio, Empleo, Mercados';
@@ -65,7 +65,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisiofjuzyw" class="grafica"></div>
+<div id="Morriszvlzqjwy" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisiofjuzyw === 'undefined') {
-    varMorrisiofjuzyw = Morris.Line({
-      element: 'Morrisiofjuzyw',
+  if (typeof varMorriszvlzqjwy === 'undefined') {
+    varMorriszvlzqjwy = Morris.Line({
+      element: 'Morriszvlzqjwy',
       data: [{ fecha: '1998-12-31', dato: 42.5300 },{ fecha: '2003-12-31', dato: 42.2500 },{ fecha: '2008-12-31', dato: 32.0975 }],
       xkey: 'fecha',
       ykeys: ['dato'],

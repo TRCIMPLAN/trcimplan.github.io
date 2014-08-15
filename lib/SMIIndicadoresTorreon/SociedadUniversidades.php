@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadUniversidades
@@ -18,7 +18,7 @@ class SociedadUniversidades extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Universidades en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-universidades';
         $this->descripcion = 'Planteles de Instituciones de Educación Superior.';
         $this->claves      = 'Torreón, Educación';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SeguridadSentenciadosEnMateriaDeNarcoticosRegistradosEnElFueroFederal
@@ -18,7 +18,7 @@ class SeguridadSentenciadosEnMateriaDeNarcoticosRegistradosEnElFueroFederal exte
      */
     public function __construct() {
         $this->nombre      = 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal';
         $this->descripcion = '';
         $this->claves      = 'Matamoros, Delincuencia';

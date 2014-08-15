@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaInversionExtranjeraDirecta
@@ -18,7 +18,7 @@ class EconomiaInversionExtranjeraDirecta extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Inversión Extranjera Directa en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-inversion-extranjera-directa';
         $this->descripcion = 'Promedio de inversión entre 2008 y 2012.';
         $this->claves      = 'Lerdo, Macroeconomía';

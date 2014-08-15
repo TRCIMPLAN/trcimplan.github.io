@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase GobiernoIngresosTotalesPerCapita
@@ -18,7 +18,7 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos Totales Per Cápita en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'gobierno-ingresos-totales-per-capita';
         $this->descripcion = 'Ingresos totales del municipio entre el total de la población.';
         $this->claves      = 'Matamoros, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morriszsvfohuw" class="grafica"></div>
+<div id="Morrisaigvejkg" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -290,9 +290,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriszsvfohuw === 'undefined') {
-    varMorriszsvfohuw = Morris.Line({
-      element: 'Morriszsvfohuw',
+  if (typeof varMorrisaigvejkg === 'undefined') {
+    varMorrisaigvejkg = Morris.Line({
+      element: 'Morrisaigvejkg',
       data: [{ fecha: '2007-12-31', dato: 1155.87 },{ fecha: '2008-12-31', dato: 1717.79 },{ fecha: '2009-12-31', dato: 1623.19 },{ fecha: '2010-12-31', dato: 1399.66 },{ fecha: '2011-12-31', dato: 1418.38 },{ fecha: '2012-12-31', dato: 1594.68 }],
       xkey: 'fecha',
       ykeys: ['dato'],

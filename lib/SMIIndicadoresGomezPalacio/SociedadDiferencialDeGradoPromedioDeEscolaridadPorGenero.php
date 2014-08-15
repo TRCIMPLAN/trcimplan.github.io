@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadDiferencialDeGradoPromedioDeEscolaridadPorGenero
@@ -18,7 +18,7 @@ class SociedadDiferencialDeGradoPromedioDeEscolaridadPorGenero extends \Base\Pub
      */
     public function __construct() {
         $this->nombre      = 'Diferencial de Grado Promedio de Escolaridad por Género en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero';
         $this->descripcion = 'Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.';
         $this->claves      = 'Gómez Palacio, Género, Educación';

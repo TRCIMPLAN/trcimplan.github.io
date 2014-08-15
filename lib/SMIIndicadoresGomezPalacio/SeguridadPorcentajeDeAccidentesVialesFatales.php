@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SeguridadPorcentajeDeAccidentesVialesFatales
@@ -18,7 +18,7 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Porcentaje de Accidentes Viales Fatales en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-porcentaje-de-accidentes-viales-fatales';
         $this->descripcion = 'Porcentaje de accidentes fatales entre accidentes viales totales';
         $this->claves      = 'Gómez Palacio, Vialidad';

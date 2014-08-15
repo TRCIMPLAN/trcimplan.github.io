@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaPequenasEmpresas
@@ -18,7 +18,7 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pequeñas Empresas en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-pequenas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean entre 11 y 50 empleados.';
         $this->claves      = 'Lerdo, Empresas';
@@ -61,7 +61,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisqgbnrnnl" class="grafica"></div>
+<div id="Morriswihjxdui" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -182,9 +182,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisqgbnrnnl === 'undefined') {
-    varMorrisqgbnrnnl = Morris.Line({
-      element: 'Morrisqgbnrnnl',
+  if (typeof varMorriswihjxdui === 'undefined') {
+    varMorriswihjxdui = Morris.Line({
+      element: 'Morriswihjxdui',
       data: [{ fecha: '2013-12-31', dato: 6.9600 },{ fecha: '2014-07-31', dato: 5.6200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

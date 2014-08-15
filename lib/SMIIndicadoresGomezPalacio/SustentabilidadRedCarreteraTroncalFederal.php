@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SustentabilidadRedCarreteraTroncalFederal
@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera Troncal Federal en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-red-carretera-troncal-federal';
         $this->descripcion = '';
         $this->claves      = 'Gómez Palacio, Infraestructura';

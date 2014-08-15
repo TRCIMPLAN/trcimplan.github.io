@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadDestinosViaAerea
@@ -18,7 +18,7 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Destinos Vía Aérea en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-destinos-via-aerea';
         $this->descripcion = 'Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.';
         $this->claves      = 'Torreón, Movilidad';

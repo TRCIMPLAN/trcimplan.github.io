@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadAccidentesVialesFatales
@@ -18,7 +18,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Accidentes Viales Fatales en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-accidentes-viales-fatales';
         $this->descripcion = 'Cantidad de accidentes viales fatales por año.';
         $this->claves      = 'Lerdo, Vialidad';

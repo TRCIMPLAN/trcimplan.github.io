@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase GobiernoParticipacionElectoral
@@ -18,7 +18,7 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Participación Electoral en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'gobierno-participacion-electoral';
         $this->descripcion = 'Porcentaje de personas que emitieron su voto.';
         $this->claves      = 'Matamoros, Participación Ciudadana';

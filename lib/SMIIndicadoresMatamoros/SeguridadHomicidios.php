@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SeguridadHomicidios
@@ -18,7 +18,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Homicidios en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-homicidios';
         $this->descripcion = 'Número de homicidios durante el primer trimestre de 2014';
         $this->claves      = 'Matamoros, Delincuencia, Seguridad';

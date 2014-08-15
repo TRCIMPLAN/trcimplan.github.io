@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadViviendasOcupadasTemporalmente
@@ -18,7 +18,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Ocupadas Temporalmente en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-viviendas-ocupadas-temporalmente';
         $this->descripcion = 'Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.';
         $this->claves      = 'Torreón, Vivienda, Movilidad';

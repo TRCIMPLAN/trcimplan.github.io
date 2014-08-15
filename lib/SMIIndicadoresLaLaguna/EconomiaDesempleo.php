@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaDesempleo
@@ -18,7 +18,7 @@ class EconomiaDesempleo extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Desempleo en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-desempleo';
         $this->descripcion = 'Cantidad de personas desempleadas.';
         $this->claves      = 'La Laguna, Empleo';
@@ -72,7 +72,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 <h4>Gráfica</h4>
 
-<div id="Morrisktprsklr" class="grafica"></div>
+<div id="Morrismjtfsyns" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -179,9 +179,9 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisktprsklr === 'undefined') {
-    varMorrisktprsklr = Morris.Line({
-      element: 'Morrisktprsklr',
+  if (typeof varMorrismjtfsyns === 'undefined') {
+    varMorrismjtfsyns = Morris.Line({
+      element: 'Morrismjtfsyns',
       data: [{ fecha: '1989-12-31', dato: 7688 },{ fecha: '1999-12-31', dato: 3854 },{ fecha: '2009-12-31', dato: 35416 }],
       xkey: 'fecha',
       ykeys: ['dato'],

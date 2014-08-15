@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SeguridadPorcentajeDeAccidentesVialesFatales
@@ -18,7 +18,7 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Porcentaje de Accidentes Viales Fatales en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-porcentaje-de-accidentes-viales-fatales';
         $this->descripcion = 'Porcentaje de accidentes fatales entre accidentes viales totales';
         $this->claves      = 'La Laguna, Vialidad';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadTasaDeRoboDeVehiculos
@@ -18,7 +18,7 @@ class SeguridadTasaDeRoboDeVehiculos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tasa de Robo de VehÍculos en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-tasa-de-robo-de-vehiculos';
         $this->descripcion = 'Cantidad de robos de vehículos por cada 100 mil habitantes.';
         $this->claves      = 'Torreón, Delincuencia, Seguridad';

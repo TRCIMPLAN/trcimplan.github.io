@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadAccesoAVialidadesPavimentadas
@@ -18,7 +18,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Acceso a Vialidades Pavimentadas en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-acceso-a-vialidades-pavimentadas';
         $this->descripcion = 'Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.';
         $this->claves      = 'Torreón, Movilidad, Vialidad';

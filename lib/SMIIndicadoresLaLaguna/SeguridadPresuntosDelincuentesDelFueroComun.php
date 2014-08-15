@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SeguridadPresuntosDelincuentesDelFueroComun
@@ -18,7 +18,7 @@ class SeguridadPresuntosDelincuentesDelFueroComun extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Presuntos Delincuentes del Fuero Común en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-presuntos-delincuentes-del-fuero-comun';
         $this->descripcion = 'Cantidad de presuntos delincuentes registrados en los juzgados de primera instancia del fuero común por año.';
         $this->claves      = 'La Laguna, Delincuencia';

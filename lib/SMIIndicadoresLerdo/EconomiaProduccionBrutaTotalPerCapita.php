@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaProduccionBrutaTotalPerCapita
@@ -18,7 +18,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Producción Bruta Total Per Cápita en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-produccion-bruta-total-per-capita';
         $this->descripcion = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total.';
         $this->claves      = 'Lerdo, Macroeconomía, Finanzas Públicas';
@@ -79,7 +79,7 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morriszebrspcm" class="grafica"></div>
+<div id="Morrismumkyhsg" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriszebrspcm === 'undefined') {
-    varMorriszebrspcm = Morris.Line({
-      element: 'Morriszebrspcm',
+  if (typeof varMorrismumkyhsg === 'undefined') {
+    varMorrismumkyhsg = Morris.Line({
+      element: 'Morrismumkyhsg',
       data: [{ fecha: '1998-12-31', dato: 12093.88 },{ fecha: '2003-12-31', dato: 21705.57 },{ fecha: '2008-12-31', dato: 16746.04 }],
       xkey: 'fecha',
       ykeys: ['dato'],

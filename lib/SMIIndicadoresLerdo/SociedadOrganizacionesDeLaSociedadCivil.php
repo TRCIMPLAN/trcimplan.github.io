@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadOrganizacionesDeLaSociedadCivil
@@ -18,7 +18,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Organizaciones de la Sociedad Civil en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-organizaciones-de-la-sociedad-civil';
         $this->descripcion = 'Organizaciones de la sociedad civil por cada cien mil habitantes.';
         $this->claves      = 'Lerdo, Participación Ciudadana, Gobierno';

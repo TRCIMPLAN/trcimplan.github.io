@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadOcupacionPorVivienda
@@ -18,7 +18,7 @@ class SociedadOcupacionPorVivienda extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ocupación por Vivienda en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-ocupacion-por-vivienda';
         $this->descripcion = 'Promedio de ocupantes por vivienda.';
         $this->claves      = 'Torreón, Vivienda';

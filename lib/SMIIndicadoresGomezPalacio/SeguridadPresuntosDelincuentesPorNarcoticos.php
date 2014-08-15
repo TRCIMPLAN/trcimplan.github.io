@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SeguridadPresuntosDelincuentesPorNarcoticos
@@ -18,7 +18,7 @@ class SeguridadPresuntosDelincuentesPorNarcoticos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Presuntos Delincuentes por Narcóticos en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-presuntos-delincuentes-por-narcoticos';
         $this->descripcion = 'Presuntos delincuentes por delitos en materia de narcóticos registrados en los juzgados del fuero federal.';
         $this->claves      = 'Gómez Palacio, Delincuencia';

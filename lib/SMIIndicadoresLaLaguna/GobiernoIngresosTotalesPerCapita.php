@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase GobiernoIngresosTotalesPerCapita
@@ -18,7 +18,7 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos Totales Per Cápita en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'gobierno-ingresos-totales-per-capita';
         $this->descripcion = 'Ingresos totales del municipio entre el total de la población.';
         $this->claves      = 'La Laguna, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morriswakcjzhq" class="grafica"></div>
+<div id="Morrispfolnosv" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -290,9 +290,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriswakcjzhq === 'undefined') {
-    varMorriswakcjzhq = Morris.Line({
-      element: 'Morriswakcjzhq',
+  if (typeof varMorrispfolnosv === 'undefined') {
+    varMorrispfolnosv = Morris.Line({
+      element: 'Morrispfolnosv',
       data: [{ fecha: '2007-12-31', dato: 2069.57 },{ fecha: '2008-12-31', dato: 2595.45 },{ fecha: '2009-12-31', dato: 2623.62 },{ fecha: '2010-12-31', dato: 2498.19 },{ fecha: '2011-12-31', dato: 2735.96 },{ fecha: '2012-12-31', dato: 2772.32 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadDelitos
@@ -18,7 +18,7 @@ class SeguridadDelitos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Delitos en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-delitos';
         $this->descripcion = 'Total de delitos cometidos en el segundo trimestre 2014';
         $this->claves      = 'Torreón, Delincuencia, Seguridad';
@@ -64,7 +64,7 @@ Total de delitos cometidos en el segundo trimestre 2014
 
 <h4>Gráfica</h4>
 
-<div id="Morrisuviwxpkw" class="grafica"></div>
+<div id="Morrisjmvhqknv" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -157,9 +157,9 @@ Total de delitos cometidos en el segundo trimestre 2014
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisuviwxpkw === 'undefined') {
-    varMorrisuviwxpkw = Morris.Line({
-      element: 'Morrisuviwxpkw',
+  if (typeof varMorrisjmvhqknv === 'undefined') {
+    varMorrisjmvhqknv = Morris.Line({
+      element: 'Morrisjmvhqknv',
       data: [{ fecha: '2014-01-31', dato: 934 },{ fecha: '2014-02-28', dato: 841 },{ fecha: '2014-06-30', dato: 2542 }],
       xkey: 'fecha',
       ykeys: ['dato'],

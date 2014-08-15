@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadCamasCensables
@@ -18,7 +18,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Camas Censables en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-camas-censables';
         $this->descripcion = '';
         $this->claves      = 'Gómez Palacio, Salud';
@@ -118,7 +118,7 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
 
 <h4>Gráfica</h4>
 
-<div id="Morriscklbfwup" class="grafica"></div>
+<div id="Morriskybfqjek" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -785,9 +785,9 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriscklbfwup === 'undefined') {
-    varMorriscklbfwup = Morris.Line({
-      element: 'Morriscklbfwup',
+  if (typeof varMorriskybfqjek === 'undefined') {
+    varMorriskybfqjek = Morris.Line({
+      element: 'Morriskybfqjek',
       data: [{ fecha: '2001-12-31', dato: 72 },{ fecha: '2002-12-31', dato: 72 },{ fecha: '2004-12-31', dato: 74 },{ fecha: '2005-12-31', dato: 74 },{ fecha: '2006-12-31', dato: 72 },{ fecha: '2007-12-31', dato: 75 },{ fecha: '2008-12-31', dato: 64 },{ fecha: '2009-12-31', dato: 64 },{ fecha: '2010-12-31', dato: 72 },{ fecha: '2011-12-31', dato: 72 },{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-12-31', dato: 74 }],
       xkey: 'fecha',
       ykeys: ['dato'],

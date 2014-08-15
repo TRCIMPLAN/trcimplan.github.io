@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase GobiernoCompetenciaElectoralVotosTotales
@@ -18,7 +18,7 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Competencia Electoral Votos Totales en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'gobierno-competencia-electoral-votos-totales';
         $this->descripcion = '';
         $this->claves      = 'Matamoros, Participación Ciudadana';

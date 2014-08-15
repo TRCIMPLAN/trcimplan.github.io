@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase GobiernoCapacidadFinanciera
@@ -18,7 +18,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Capacidad Financiera en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'gobierno-capacidad-financiera';
         $this->descripcion = 'Ingresos propios entre gastos corrientes.';
         $this->claves      = 'Matamoros, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morriswcamvxsh" class="grafica"></div>
+<div id="Morriscqxuxnan" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -297,9 +297,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriswcamvxsh === 'undefined') {
-    varMorriswcamvxsh = Morris.Line({
-      element: 'Morriswcamvxsh',
+  if (typeof varMorriscqxuxnan === 'undefined') {
+    varMorriscqxuxnan = Morris.Line({
+      element: 'Morriscqxuxnan',
       data: [{ fecha: '2007-12-31', dato: 21.6800 },{ fecha: '2008-12-31', dato: 20.2700 },{ fecha: '2009-12-31', dato: 23.2500 },{ fecha: '2010-12-31', dato: 14.0000 },{ fecha: '2011-12-31', dato: 14.1100 },{ fecha: '2012-12-31', dato: 29.4500 }],
       xkey: 'fecha',
       ykeys: ['dato'],

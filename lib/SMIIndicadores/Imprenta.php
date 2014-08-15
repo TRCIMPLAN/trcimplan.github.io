@@ -44,8 +44,6 @@ class Imprenta extends \Base\Imprenta {
                 $this->mensajes[] = "  No existe el directorio $directorio.";
                 continue;
             }
-            // Cambiarse al directorio
-            //chdir($dir);
             // Obtener los archivos PHP
             $archivos = glob("$directorio/*.php");
             if ($archivos === false) {
@@ -53,7 +51,7 @@ class Imprenta extends \Base\Imprenta {
                 continue;
             }
             if (count($archivos) == 0) {
-                $this->mensajes[] = "  No hay archivos php en el directorio $dir.";
+                $this->mensajes[] = "  No hay archivos PHP en el directorio $dir.";
                 continue;
             }
             // Bucle en los archivos encontrados
@@ -73,8 +71,8 @@ class Imprenta extends \Base\Imprenta {
                 $plantilla->contenido   = $indicador->contenido;
                 $plantilla->javascript  = $indicador->javascript;
                 // Escribir el archivo HTML
-                //~ $this->crear_directorio($dir);                      // Puede causar una excepción
-                //~ $this->crear_archivo($destino, $plantilla->html()); // Puede causar una excepción
+                $this->crear_directorio($indicador->directorio);    // Puede causar una excepción
+                $this->crear_archivo($destino, $plantilla->html()); // Puede causar una excepción
                 // Mensaje
                 $this->mensajes[] = "  Listo $destino";
             } // Bucle en los archivos encontrados

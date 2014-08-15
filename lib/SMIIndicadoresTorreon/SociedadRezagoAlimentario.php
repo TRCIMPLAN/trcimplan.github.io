@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadRezagoAlimentario
@@ -18,7 +18,7 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Rezago Alimentario en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-rezago-alimentario';
         $this->descripcion = 'Personas que presenten un grado de inseguridad alimentaria moderado o severo.';
         $this->claves      = 'Torreón, Grupos Vulnerables, Bienestar';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadUniversidades
@@ -18,7 +18,7 @@ class SociedadUniversidades extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Universidades en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-universidades';
         $this->descripcion = 'Planteles de Instituciones de Educación Superior.';
         $this->claves      = 'Lerdo, Educación';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SustentabilidadAccesoAVialidadesPavimentadas
@@ -18,7 +18,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Acceso a Vialidades Pavimentadas en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-acceso-a-vialidades-pavimentadas';
         $this->descripcion = 'Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.';
         $this->claves      = 'Gómez Palacio, Movilidad, Vialidad';

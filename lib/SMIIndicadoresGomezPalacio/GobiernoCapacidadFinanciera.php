@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase GobiernoCapacidadFinanciera
@@ -18,7 +18,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Capacidad Financiera en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'gobierno-capacidad-financiera';
         $this->descripcion = 'Ingresos propios entre gastos corrientes.';
         $this->claves      = 'Gómez Palacio, Finanzas Públicas';
@@ -98,7 +98,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrisvvmfehcv" class="grafica"></div>
+<div id="Morrisibvmmmoz" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -296,9 +296,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisvvmfehcv === 'undefined') {
-    varMorrisvvmfehcv = Morris.Line({
-      element: 'Morrisvvmfehcv',
+  if (typeof varMorrisibvmmmoz === 'undefined') {
+    varMorrisibvmmmoz = Morris.Line({
+      element: 'Morrisibvmmmoz',
       data: [{ fecha: '2007-12-31', dato: 51.1900 },{ fecha: '2008-12-31', dato: 52.8900 },{ fecha: '2009-12-31', dato: 74.4600 },{ fecha: '2010-12-31', dato: 47.4000 },{ fecha: '2011-12-31', dato: 69.5700 },{ fecha: '2012-12-31', dato: 74.2600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

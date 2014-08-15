@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SeguridadSecuestros
@@ -18,7 +18,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Secuestros en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-secuestros';
         $this->descripcion = 'Cantidad de secuestros en el primer trimestre de 2014';
         $this->claves      = 'Matamoros, Delincuencia, Seguridad';

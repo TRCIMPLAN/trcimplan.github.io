@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaDesempleo
@@ -18,7 +18,7 @@ class EconomiaDesempleo extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Desempleo en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-desempleo';
         $this->descripcion = 'Cantidad de personas desempleadas.';
         $this->claves      = 'Matamoros, Empleo';
@@ -72,7 +72,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 <h4>Gráfica</h4>
 
-<div id="Morrisivrqawok" class="grafica"></div>
+<div id="Morrisacihoisw" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -179,9 +179,9 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisivrqawok === 'undefined') {
-    varMorrisivrqawok = Morris.Line({
-      element: 'Morrisivrqawok',
+  if (typeof varMorrisacihoisw === 'undefined') {
+    varMorrisacihoisw = Morris.Line({
+      element: 'Morrisacihoisw',
       data: [{ fecha: '1989-12-31', dato: 774 },{ fecha: '1999-12-31', dato: 378 },{ fecha: '2009-12-31', dato: 2380 }],
       xkey: 'fecha',
       ykeys: ['dato'],

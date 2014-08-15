@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SeguridadAccidentesVialesFatales
@@ -18,7 +18,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Accidentes Viales Fatales en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-accidentes-viales-fatales';
         $this->descripcion = 'Cantidad de accidentes viales fatales por año.';
         $this->claves      = 'Matamoros, Vialidad';

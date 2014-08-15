@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase GobiernoIngresosPorCobroDeServicios
@@ -18,7 +18,7 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos por Cobro de Servicios en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'gobierno-ingresos-por-cobro-de-servicios';
         $this->descripcion = 'Ingresos recaudados por el municipio por cobro de servicios';
         $this->claves      = 'Gómez Palacio, Finanzas Públicas';
@@ -82,7 +82,7 @@ Ingresos recaudados por el municipio por cobro de servicios
 
 <h4>Gráfica</h4>
 
-<div id="Morrisadwlnmsj" class="grafica"></div>
+<div id="Morrisndmvsspc" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -280,9 +280,9 @@ Ingresos recaudados por el municipio por cobro de servicios
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisadwlnmsj === 'undefined') {
-    varMorrisadwlnmsj = Morris.Line({
-      element: 'Morrisadwlnmsj',
+  if (typeof varMorrisndmvsspc === 'undefined') {
+    varMorrisndmvsspc = Morris.Line({
+      element: 'Morrisndmvsspc',
       data: [{ fecha: '2007-12-31', dato: 171558852.00 },{ fecha: '2008-12-31', dato: 260603974.00 },{ fecha: '2009-12-31', dato: 446425780.00 },{ fecha: '2010-12-31', dato: 218261225.00 },{ fecha: '2011-12-31', dato: 473049020.00 },{ fecha: '2012-12-31', dato: 523339253.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaProductividadLaboral
@@ -18,7 +18,7 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Productividad Laboral en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-productividad-laboral';
         $this->descripcion = 'PIB sin petróleo / PEA.';
         $this->claves      = 'Matamoros, Macroeconomía, Empleo';

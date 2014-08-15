@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadMortalidadMaterna
@@ -18,7 +18,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad Materna en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-mortalidad-materna';
         $this->descripcion = 'Defunciones maternas por cada cien mil partos.';
         $this->claves      = 'Torreón, Salud, Género';

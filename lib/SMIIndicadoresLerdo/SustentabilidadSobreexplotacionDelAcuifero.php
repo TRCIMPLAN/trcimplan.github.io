@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadSobreexplotacionDelAcuifero
@@ -18,7 +18,7 @@ class SustentabilidadSobreexplotacionDelAcuifero extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Sobreexplotación del Acuífero en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-sobreexplotacion-del-acuifero';
         $this->descripcion = '';
         $this->claves      = 'Lerdo, Recursos Naturales';

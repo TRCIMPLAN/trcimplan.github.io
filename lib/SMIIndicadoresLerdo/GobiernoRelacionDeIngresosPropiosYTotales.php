@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase GobiernoRelacionDeIngresosPropiosYTotales
@@ -18,7 +18,7 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Relación de Ingresos Propios y Totales en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-relacion-de-ingresos-propios-y-totales';
         $this->descripcion = 'Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.';
         $this->claves      = 'Lerdo, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrisgilsxkru" class="grafica"></div>
+<div id="Morrisozgtjfpg" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -290,9 +290,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisgilsxkru === 'undefined') {
-    varMorrisgilsxkru = Morris.Line({
-      element: 'Morrisgilsxkru',
+  if (typeof varMorrisozgtjfpg === 'undefined') {
+    varMorrisozgtjfpg = Morris.Line({
+      element: 'Morrisozgtjfpg',
       data: [{ fecha: '2007-12-31', dato: 17.0000 },{ fecha: '2008-12-31', dato: 17.3100 },{ fecha: '2009-12-31', dato: 25.9600 },{ fecha: '2010-12-31', dato: 17.9700 },{ fecha: '2011-12-31', dato: 16.2900 },{ fecha: '2012-12-31', dato: 15.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

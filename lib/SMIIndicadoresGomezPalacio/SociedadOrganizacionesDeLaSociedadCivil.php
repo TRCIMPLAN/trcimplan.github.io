@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadOrganizacionesDeLaSociedadCivil
@@ -18,7 +18,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Organizaciones de la Sociedad Civil en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-organizaciones-de-la-sociedad-civil';
         $this->descripcion = 'Organizaciones de la sociedad civil por cada cien mil habitantes.';
         $this->claves      = 'Gómez Palacio, Participación Ciudadana, Gobierno';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaTamanoDelMercadoHipotecario
@@ -18,7 +18,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tamaño del Mercado Hipotecario en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-tamano-del-mercado-hipotecario';
         $this->descripcion = 'Créditos dispuestos marginalmente durante el año indicado.';
         $this->claves      = 'Torreón, Mercados';
@@ -79,7 +79,7 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 <h4>Gráfica</h4>
 
-<div id="Morriswfohfzmz" class="grafica"></div>
+<div id="Morrissudcczvq" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -242,9 +242,9 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriswfohfzmz === 'undefined') {
-    varMorriswfohfzmz = Morris.Line({
-      element: 'Morriswfohfzmz',
+  if (typeof varMorrissudcczvq === 'undefined') {
+    varMorrissudcczvq = Morris.Line({
+      element: 'Morrissudcczvq',
       data: [{ fecha: '2010-12-31', dato: 1269 },{ fecha: '2011-12-31', dato: 1755 },{ fecha: '2012-12-31', dato: 1565 },{ fecha: '2013-12-31', dato: 1549 },{ fecha: '2014-03-31', dato: 284 }],
       xkey: 'fecha',
       ykeys: ['dato'],

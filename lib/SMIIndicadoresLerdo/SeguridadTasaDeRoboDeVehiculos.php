@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadTasaDeRoboDeVehiculos
@@ -18,7 +18,7 @@ class SeguridadTasaDeRoboDeVehiculos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tasa de Robo de VehÍculos en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-tasa-de-robo-de-vehiculos';
         $this->descripcion = 'Cantidad de robos de vehículos por cada 100 mil habitantes.';
         $this->claves      = 'Lerdo, Delincuencia, Seguridad';

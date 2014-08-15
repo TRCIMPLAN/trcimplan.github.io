@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadViviendasConInternet
@@ -18,7 +18,7 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Internet en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-viviendas-con-internet';
         $this->descripcion = 'Porcentaje de viviendas habitadas con internet.';
         $this->claves      = 'La Laguna, Vivienda';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SustentabilidadVolumenTratadoDeAguasResiduales
@@ -18,7 +18,7 @@ class SustentabilidadVolumenTratadoDeAguasResiduales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Volumen Tratado de Aguas Residuales en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-volumen-tratado-de-aguas-residuales';
         $this->descripcion = '';
         $this->claves      = 'Gómez Palacio, Recursos Naturales';

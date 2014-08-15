@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SeguridadHomicidios
@@ -18,7 +18,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Homicidios en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-homicidios';
         $this->descripcion = 'Número de homicidios durante el primer trimestre de 2014';
         $this->claves      = 'Gómez Palacio, Delincuencia, Seguridad';

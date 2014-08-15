@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaUnidadesEconomicasDedicadasAlComercio
@@ -18,7 +18,7 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Unidades Económicas Dedicadas al Comercio en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-unidades-economicas-dedicadas-al-comercio';
         $this->descripcion = 'Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.';
         $this->claves      = 'Lerdo, Empresas, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisnkcqqimq" class="grafica"></div>
+<div id="Morrisqopowivc" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -234,9 +234,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisnkcqqimq === 'undefined') {
-    varMorrisnkcqqimq = Morris.Line({
-      element: 'Morrisnkcqqimq',
+  if (typeof varMorrisqopowivc === 'undefined') {
+    varMorrisqopowivc = Morris.Line({
+      element: 'Morrisqopowivc',
       data: [{ fecha: '1998-12-31', dato: 52.6500 },{ fecha: '2003-12-31', dato: 55.3200 },{ fecha: '2008-12-31', dato: 53.3200 },{ fecha: '2013-10-31', dato: 48.6700 }],
       xkey: 'fecha',
       ykeys: ['dato'],

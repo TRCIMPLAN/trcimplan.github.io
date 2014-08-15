@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase GobiernoCapacidadFinanciera
@@ -18,7 +18,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Capacidad Financiera en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-capacidad-financiera';
         $this->descripcion = 'Ingresos propios entre gastos corrientes.';
         $this->claves      = 'Lerdo, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morristdcjmozz" class="grafica"></div>
+<div id="Morrisbxbefjzv" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -297,9 +297,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorristdcjmozz === 'undefined') {
-    varMorristdcjmozz = Morris.Line({
-      element: 'Morristdcjmozz',
+  if (typeof varMorrisbxbefjzv === 'undefined') {
+    varMorrisbxbefjzv = Morris.Line({
+      element: 'Morrisbxbefjzv',
       data: [{ fecha: '2007-12-31', dato: 25.5200 },{ fecha: '2008-12-31', dato: 27.7100 },{ fecha: '2009-12-31', dato: 46.3000 },{ fecha: '2010-12-31', dato: 24.1400 },{ fecha: '2011-12-31', dato: 26.0300 },{ fecha: '2012-12-31', dato: 23.7600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

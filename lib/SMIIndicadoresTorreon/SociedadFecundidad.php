@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadFecundidad
@@ -18,7 +18,7 @@ class SociedadFecundidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Fecundidad en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-fecundidad';
         $this->descripcion = 'Tasa de fecundidad.';
         $this->claves      = 'Torreón, Género, Población';
@@ -76,16 +76,16 @@ Tasa de fecundidad.
 
 <h4>Gráfica</h4>
 
-<div id="Morrisvfnqzgll" class="grafica"></div>
+<div id="Morrisfrmrxhnb" class="grafica"></div>
 
 
 
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisvfnqzgll === 'undefined') {
-    varMorrisvfnqzgll = Morris.Line({
-      element: 'Morrisvfnqzgll',
+  if (typeof varMorrisfrmrxhnb === 'undefined') {
+    varMorrisfrmrxhnb = Morris.Line({
+      element: 'Morrisfrmrxhnb',
       data: [{ fecha: '2008-12-31', dato: 2.2000 },{ fecha: '2009-12-31', dato: 2.1700 },{ fecha: '2010-12-31', dato: 2.1400 },{ fecha: '2011-12-31', dato: 2.1400 },{ fecha: '2012-12-31', dato: 2.1300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

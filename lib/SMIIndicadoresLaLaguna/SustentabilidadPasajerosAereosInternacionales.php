@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SustentabilidadPasajerosAereosInternacionales
@@ -18,7 +18,7 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pasajeros Aéreos Internacionales en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-internacionales';
         $this->descripcion = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
         $this->claves      = 'La Laguna, Movilidad';
@@ -113,7 +113,7 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
 
 <h4>Gráfica</h4>
 
-<div id="Morrisiqrldjzj" class="grafica"></div>
+<div id="Morrisgvofwdww" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -227,9 +227,9 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisiqrldjzj === 'undefined') {
-    varMorrisiqrldjzj = Morris.Line({
-      element: 'Morrisiqrldjzj',
+  if (typeof varMorrisgvofwdww === 'undefined') {
+    varMorrisgvofwdww = Morris.Line({
+      element: 'Morrisgvofwdww',
       data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 }],
       xkey: 'fecha',
       ykeys: ['dato'],

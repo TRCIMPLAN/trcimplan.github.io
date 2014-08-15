@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SustentabilidadViviendasDeshabitadas
@@ -18,7 +18,7 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Deshabitadas en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-viviendas-deshabitadas';
         $this->descripcion = 'Viviendas deshabitadas con respecto al total de viviendas totales.';
         $this->claves      = 'Torreón, Vivienda';

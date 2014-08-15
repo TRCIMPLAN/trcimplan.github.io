@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SeguridadTasaDeRoboDeVehiculos
@@ -18,7 +18,7 @@ class SeguridadTasaDeRoboDeVehiculos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tasa de Robo de VehÍculos en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-tasa-de-robo-de-vehiculos';
         $this->descripcion = 'Cantidad de robos de vehículos por cada 100 mil habitantes.';
         $this->claves      = 'La Laguna, Delincuencia, Seguridad';

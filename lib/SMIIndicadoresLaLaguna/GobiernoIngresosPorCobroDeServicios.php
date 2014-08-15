@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase GobiernoIngresosPorCobroDeServicios
@@ -18,7 +18,7 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos por Cobro de Servicios en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'gobierno-ingresos-por-cobro-de-servicios';
         $this->descripcion = 'Ingresos recaudados por el municipio por cobro de servicios';
         $this->claves      = 'La Laguna, Finanzas Públicas';
@@ -82,7 +82,7 @@ Ingresos recaudados por el municipio por cobro de servicios
 
 <h4>Gráfica</h4>
 
-<div id="Morriskzdcdfhx" class="grafica"></div>
+<div id="Morrislytodqux" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -280,9 +280,9 @@ Ingresos recaudados por el municipio por cobro de servicios
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriskzdcdfhx === 'undefined') {
-    varMorriskzdcdfhx = Morris.Line({
-      element: 'Morriskzdcdfhx',
+  if (typeof varMorrislytodqux === 'undefined') {
+    varMorrislytodqux = Morris.Line({
+      element: 'Morrislytodqux',
       data: [{ fecha: '2007-12-31', dato: 802586435.00 },{ fecha: '2008-12-31', dato: 918927218.00 },{ fecha: '2009-12-31', dato: 1146616790.00 },{ fecha: '2010-12-31', dato: 875399694.00 },{ fecha: '2011-12-31', dato: 1117567078.00 },{ fecha: '2012-12-31', dato: 1400461048.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

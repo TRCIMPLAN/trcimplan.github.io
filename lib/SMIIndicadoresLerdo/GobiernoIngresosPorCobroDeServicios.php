@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase GobiernoIngresosPorCobroDeServicios
@@ -18,7 +18,7 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos por Cobro de Servicios en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-ingresos-por-cobro-de-servicios';
         $this->descripcion = 'Ingresos recaudados por el municipio por cobro de servicios';
         $this->claves      = 'Lerdo, Finanzas Públicas';
@@ -82,7 +82,7 @@ Ingresos recaudados por el municipio por cobro de servicios
 
 <h4>Gráfica</h4>
 
-<div id="Morriswacuidgb" class="grafica"></div>
+<div id="Morrisxitpevvu" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -280,9 +280,9 @@ Ingresos recaudados por el municipio por cobro de servicios
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriswacuidgb === 'undefined') {
-    varMorriswacuidgb = Morris.Line({
-      element: 'Morriswacuidgb',
+  if (typeof varMorrisxitpevvu === 'undefined') {
+    varMorrisxitpevvu = Morris.Line({
+      element: 'Morrisxitpevvu',
       data: [{ fecha: '2007-12-31', dato: 41128483.00 },{ fecha: '2008-12-31', dato: 45464319.00 },{ fecha: '2009-12-31', dato: 80006719.00 },{ fecha: '2010-12-31', dato: 50216153.00 },{ fecha: '2011-12-31', dato: 52824557.00 },{ fecha: '2012-12-31', dato: 54082713.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

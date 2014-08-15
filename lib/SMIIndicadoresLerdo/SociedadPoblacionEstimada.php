@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadPoblacionEstimada
@@ -18,7 +18,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Población Estimada en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-poblacion-estimada';
         $this->descripcion = 'Población estimada a mitad de año.';
         $this->claves      = 'Lerdo, Población';
@@ -107,7 +107,7 @@ Estimaciones de CONAPO en base a INEGI.
 
 <h4>Gráfica</h4>
 
-<div id="Morrisqxhidrgr" class="grafica"></div>
+<div id="Morrislaoidutg" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -620,9 +620,9 @@ Estimaciones de CONAPO en base a INEGI.
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisqxhidrgr === 'undefined') {
-    varMorrisqxhidrgr = Morris.Line({
-      element: 'Morrisqxhidrgr',
+  if (typeof varMorrislaoidutg === 'undefined') {
+    varMorrislaoidutg = Morris.Line({
+      element: 'Morrislaoidutg',
       data: [{ fecha: '2011-06-30', dato: 146164 },{ fecha: '2012-06-30', dato: 147985 },{ fecha: '2013-06-30', dato: 149721 },{ fecha: '2014-06-30', dato: 151409 },{ fecha: '2015-06-30', dato: 153040 },{ fecha: '2016-06-30', dato: 154621 },{ fecha: '2017-06-30', dato: 156161 },{ fecha: '2018-06-30', dato: 157655 },{ fecha: '2019-06-30', dato: 159094 },{ fecha: '2020-06-30', dato: 160479 }],
       xkey: 'fecha',
       ykeys: ['dato'],

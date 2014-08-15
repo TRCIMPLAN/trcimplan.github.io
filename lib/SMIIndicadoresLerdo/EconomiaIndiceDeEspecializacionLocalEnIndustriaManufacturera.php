@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera
@@ -18,7 +18,7 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \Base
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en Industria Manufacturera en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-industria-manufacturera';
         $this->descripcion = 'Producción bruta total de la industria manufacturera entre la producción bruta total.';
         $this->claves      = 'Lerdo, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisrrvcstoz" class="grafica"></div>
+<div id="Morrisixpefikl" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -185,9 +185,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisrrvcstoz === 'undefined') {
-    varMorrisrrvcstoz = Morris.Line({
-      element: 'Morrisrrvcstoz',
+  if (typeof varMorrisixpefikl === 'undefined') {
+    varMorrisixpefikl = Morris.Line({
+      element: 'Morrisixpefikl',
       data: [{ fecha: '1998-12-31', dato: 59.2500 },{ fecha: '2003-12-31', dato: 75.8500 },{ fecha: '2008-12-31', dato: 53.9400 }],
       xkey: 'fecha',
       ykeys: ['dato'],

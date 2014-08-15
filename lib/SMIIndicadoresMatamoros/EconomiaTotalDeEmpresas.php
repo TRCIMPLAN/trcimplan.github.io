@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaTotalDeEmpresas
@@ -18,7 +18,7 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Total de Empresas en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-total-de-empresas';
         $this->descripcion = '';
         $this->claves      = 'Matamoros, Empresas';
@@ -59,7 +59,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisqtrwhjhi" class="grafica"></div>
+<div id="Morrissgoirgqg" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -180,9 +180,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisqtrwhjhi === 'undefined') {
-    varMorrisqtrwhjhi = Morris.Line({
-      element: 'Morrisqtrwhjhi',
+  if (typeof varMorrissgoirgqg === 'undefined') {
+    varMorrissgoirgqg = Morris.Line({
+      element: 'Morrissgoirgqg',
       data: [{ fecha: '2013-12-31', dato: 166 },{ fecha: '2014-07-31', dato: 173 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaDesocupadosComoPorcentajeDeLaPea
@@ -18,7 +18,7 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Desocupados como porcentaje de la PEA en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-desocupados-como-porcentaje-de-la-pea';
         $this->descripcion = 'Número total de desempleados entre la Población económicamente activa';
         $this->claves      = 'La Laguna, Empleo';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 <h4>Gráfica</h4>
 
-<div id="Morrisxgyyafgj" class="grafica"></div>
+<div id="Morrisytdvazao" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -178,9 +178,9 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisxgyyafgj === 'undefined') {
-    varMorrisxgyyafgj = Morris.Line({
-      element: 'Morrisxgyyafgj',
+  if (typeof varMorrisytdvazao === 'undefined') {
+    varMorrisytdvazao = Morris.Line({
+      element: 'Morrisytdvazao',
       data: [{ fecha: '1989-12-31', dato: 2.8100 },{ fecha: '1999-12-31', dato: 1.0300 },{ fecha: '2009-12-31', dato: 7.4300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SustentabilidadRedCarreteraTotal
@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera Total en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-red-carretera-total';
         $this->descripcion = '';
         $this->claves      = 'Gómez Palacio, Infraestructura';

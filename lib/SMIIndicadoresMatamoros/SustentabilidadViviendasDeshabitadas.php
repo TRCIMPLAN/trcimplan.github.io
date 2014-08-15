@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadViviendasDeshabitadas
@@ -18,7 +18,7 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Deshabitadas en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-viviendas-deshabitadas';
         $this->descripcion = 'Viviendas deshabitadas con respecto al total de viviendas totales.';
         $this->claves      = 'Matamoros, Vivienda';

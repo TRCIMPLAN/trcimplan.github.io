@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaMedianasEmpresas
@@ -18,7 +18,7 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Medianas Empresas en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-medianas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean de 51 a 250 personas.';
         $this->claves      = 'Lerdo, Empresas';
@@ -61,7 +61,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morristypafkkx" class="grafica"></div>
+<div id="Morrisyjadclwk" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -182,9 +182,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorristypafkkx === 'undefined') {
-    varMorristypafkkx = Morris.Line({
-      element: 'Morristypafkkx',
+  if (typeof varMorrisyjadclwk === 'undefined') {
+    varMorrisyjadclwk = Morris.Line({
+      element: 'Morrisyjadclwk',
       data: [{ fecha: '2013-12-31', dato: 3.1600 },{ fecha: '2014-07-31', dato: 1.6900 }],
       xkey: 'fecha',
       ykeys: ['dato'],

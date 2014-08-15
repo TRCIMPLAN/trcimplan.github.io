@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase GobiernoRelacionDeIngresosPropiosYTotales
@@ -18,7 +18,7 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Relación de Ingresos Propios y Totales en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'gobierno-relacion-de-ingresos-propios-y-totales';
         $this->descripcion = 'Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.';
         $this->claves      = 'Gómez Palacio, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrishfolmqhp" class="grafica"></div>
+<div id="Morrisehurtjqh" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -290,9 +290,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrishfolmqhp === 'undefined') {
-    varMorrishfolmqhp = Morris.Line({
-      element: 'Morrishfolmqhp',
+  if (typeof varMorrisehurtjqh === 'undefined') {
+    varMorrisehurtjqh = Morris.Line({
+      element: 'Morrisehurtjqh',
       data: [{ fecha: '2007-12-31', dato: 27.0800 },{ fecha: '2008-12-31', dato: 27.7300 },{ fecha: '2009-12-31', dato: 40.1200 },{ fecha: '2010-12-31', dato: 28.0000 },{ fecha: '2011-12-31', dato: 47.1700 },{ fecha: '2012-12-31', dato: 46.4200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera
@@ -18,7 +18,7 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \Base
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en Industria Manufacturera en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-industria-manufacturera';
         $this->descripcion = 'Producción bruta total de la industria manufacturera entre la producción bruta total.';
         $this->claves      = 'Gómez Palacio, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisgxdbhkfx" class="grafica"></div>
+<div id="Morrisxmqhfath" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -185,9 +185,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisgxdbhkfx === 'undefined') {
-    varMorrisgxdbhkfx = Morris.Line({
-      element: 'Morrisgxdbhkfx',
+  if (typeof varMorrisxmqhfath === 'undefined') {
+    varMorrisxmqhfath = Morris.Line({
+      element: 'Morrisxmqhfath',
       data: [{ fecha: '1998-12-31', dato: 75.6000 },{ fecha: '2003-12-31', dato: 59.7300 },{ fecha: '2008-12-31', dato: 60.2300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

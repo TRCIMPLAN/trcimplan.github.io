@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaTrabajadoresAsegurados
@@ -18,7 +18,7 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Trabajadores Asegurados en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-trabajadores-asegurados';
         $this->descripcion = 'Evolución del empleo medida en trabajadores asegurados por el IMSS.';
         $this->claves      = 'Torreón, Empleo';
@@ -85,16 +85,16 @@ Datos obtenidos de [IMSS](http://201.144.108.20/imssdigital/conoce/estadisticas/
 
 <h4>Gráfica</h4>
 
-<div id="Morrisjbpwhwwz" class="grafica"></div>
+<div id="Morrisnamjgxco" class="grafica"></div>
 
 
 
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisjbpwhwwz === 'undefined') {
-    varMorrisjbpwhwwz = Morris.Line({
-      element: 'Morrisjbpwhwwz',
+  if (typeof varMorrisnamjgxco === 'undefined') {
+    varMorrisnamjgxco = Morris.Line({
+      element: 'Morrisnamjgxco',
       data: [{ fecha: '2007-12-31', dato: 171936 },{ fecha: '2008-12-31', dato: 164258 },{ fecha: '2009-12-31', dato: 157898 },{ fecha: '2010-12-31', dato: 168723 },{ fecha: '2011-12-31', dato: 176045 },{ fecha: '2012-12-31', dato: 184407 }],
       xkey: 'fecha',
       ykeys: ['dato'],

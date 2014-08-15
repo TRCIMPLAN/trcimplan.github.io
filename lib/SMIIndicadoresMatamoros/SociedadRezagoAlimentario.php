@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadRezagoAlimentario
@@ -18,7 +18,7 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Rezago Alimentario en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-rezago-alimentario';
         $this->descripcion = 'Personas que presenten un grado de inseguridad alimentaria moderado o severo.';
         $this->claves      = 'Matamoros, Grupos Vulnerables, Bienestar';

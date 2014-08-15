@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadAdultosMayoresMasculino
@@ -18,7 +18,7 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Adultos Mayores Masculino en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-adultos-mayores-masculino';
         $this->descripcion = 'Población estimada a mediados de año de personas de 65 años y más de sexo masculino';
         $this->claves      = 'La Laguna, Grupos Vulnerables';
@@ -106,7 +106,7 @@ Población estimada a mediados de año de personas de 65 años y más de sexo ma
 
 <h4>Gráfica</h4>
 
-<div id="Morrisrweucmsn" class="grafica"></div>
+<div id="Morrisfjityaor" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -619,9 +619,9 @@ Población estimada a mediados de año de personas de 65 años y más de sexo ma
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisrweucmsn === 'undefined') {
-    varMorrisrweucmsn = Morris.Line({
-      element: 'Morrisrweucmsn',
+  if (typeof varMorrisfjityaor === 'undefined') {
+    varMorrisfjityaor = Morris.Line({
+      element: 'Morrisfjityaor',
       data: [{ fecha: '2011-06-30', dato: 33494 },{ fecha: '2012-06-30', dato: 34770 },{ fecha: '2013-06-30', dato: 36117 },{ fecha: '2014-06-30', dato: 37538 },{ fecha: '2015-06-30', dato: 39033 },{ fecha: '2016-06-30', dato: 40603 },{ fecha: '2017-06-30', dato: 42247 },{ fecha: '2018-06-30', dato: 43959 },{ fecha: '2019-06-30', dato: 45732 },{ fecha: '2020-06-30', dato: 47559 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SustentabilidadViviendasOcupadasTemporalmente
@@ -18,7 +18,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Ocupadas Temporalmente en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-viviendas-ocupadas-temporalmente';
         $this->descripcion = 'Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.';
         $this->claves      = 'La Laguna, Vivienda, Movilidad';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadPresuntosDelincuentesPorNarcoticos
@@ -18,7 +18,7 @@ class SeguridadPresuntosDelincuentesPorNarcoticos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Presuntos Delincuentes por Narcóticos en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-presuntos-delincuentes-por-narcoticos';
         $this->descripcion = 'Presuntos delincuentes por delitos en materia de narcóticos registrados en los juzgados del fuero federal.';
         $this->claves      = 'Lerdo, Delincuencia';

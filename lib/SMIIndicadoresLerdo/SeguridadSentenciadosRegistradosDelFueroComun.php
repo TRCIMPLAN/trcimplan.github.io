@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadSentenciadosRegistradosDelFueroComun
@@ -18,7 +18,7 @@ class SeguridadSentenciadosRegistradosDelFueroComun extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Sentenciados Registrados del Fuero Común en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-sentenciados-registrados-del-fuero-comun';
         $this->descripcion = 'Cantidad de sentenciados registrados en los juzgados de primera instancia del fuero común por año.';
         $this->claves      = 'Lerdo, Delincuencia';

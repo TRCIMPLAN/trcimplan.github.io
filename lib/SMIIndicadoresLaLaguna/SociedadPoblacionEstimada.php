@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadPoblacionEstimada
@@ -18,7 +18,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Población Estimada en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-poblacion-estimada';
         $this->descripcion = 'Población estimada a mitad de año.';
         $this->claves      = 'La Laguna, Población';
@@ -107,7 +107,7 @@ Estimaciones de CONAPO en base a INEGI.
 
 <h4>Gráfica</h4>
 
-<div id="Morrissoskfmmw" class="grafica"></div>
+<div id="Morrisipbqpwnv" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -620,9 +620,9 @@ Estimaciones de CONAPO en base a INEGI.
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrissoskfmmw === 'undefined') {
-    varMorrissoskfmmw = Morris.Line({
-      element: 'Morrissoskfmmw',
+  if (typeof varMorrisipbqpwnv === 'undefined') {
+    varMorrisipbqpwnv = Morris.Line({
+      element: 'Morrisipbqpwnv',
       data: [{ fecha: '2011-06-30', dato: 1251771 },{ fecha: '2012-06-30', dato: 1267630 },{ fecha: '2013-06-30', dato: 1283072 },{ fecha: '2014-06-30', dato: 1298270 },{ fecha: '2015-06-30', dato: 1313161 },{ fecha: '2016-06-30', dato: 1327769 },{ fecha: '2017-06-30', dato: 1342139 },{ fecha: '2018-06-30', dato: 1356216 },{ fecha: '2019-06-30', dato: 1369939 },{ fecha: '2020-06-30', dato: 1383303 }],
       xkey: 'fecha',
       ykeys: ['dato'],

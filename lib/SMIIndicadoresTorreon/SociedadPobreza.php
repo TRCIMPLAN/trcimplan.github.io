@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadPobreza
@@ -18,7 +18,7 @@ class SociedadPobreza extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pobreza en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-pobreza';
         $this->descripcion = 'Porcentaje de la población en situación de pobreza.';
         $this->claves      = 'Torreón, Bienestar';

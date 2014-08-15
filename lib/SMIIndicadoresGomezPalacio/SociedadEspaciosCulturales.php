@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadEspaciosCulturales
@@ -18,7 +18,7 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Espacios Culturales en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-espacios-culturales';
         $this->descripcion = 'Espacios culturales físicamente delimitados.';
         $this->claves      = 'Gómez Palacio, Educación, Cultura';

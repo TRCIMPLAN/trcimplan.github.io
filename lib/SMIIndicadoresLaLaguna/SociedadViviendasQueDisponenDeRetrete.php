@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadViviendasQueDisponenDeRetrete
@@ -18,7 +18,7 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas que Disponen de Retrete en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-viviendas-que-disponen-de-retrete';
         $this->descripcion = 'Porcentaje de viviendas habitadas que disponen de retrete.';
         $this->claves      = 'La Laguna, Vivienda, Salud';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaPersonalOcupadoEnElComercio
@@ -18,7 +18,7 @@ class EconomiaPersonalOcupadoEnElComercio extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Personal Ocupado en el Comercio en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-personal-ocupado-en-el-comercio';
         $this->descripcion = 'Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.';
         $this->claves      = 'Torreón, Empleo, Mercados';
@@ -65,7 +65,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrismmgqktqv" class="grafica"></div>
+<div id="Morriswbhnfehz" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrismmgqktqv === 'undefined') {
-    varMorrismmgqktqv = Morris.Line({
-      element: 'Morrismmgqktqv',
+  if (typeof varMorriswbhnfehz === 'undefined') {
+    varMorriswbhnfehz = Morris.Line({
+      element: 'Morriswbhnfehz',
       data: [{ fecha: '1998-12-31', dato: 26.1400 },{ fecha: '2003-12-31', dato: 27.4800 },{ fecha: '2008-12-31', dato: 27.6529 }],
       xkey: 'fecha',
       ykeys: ['dato'],

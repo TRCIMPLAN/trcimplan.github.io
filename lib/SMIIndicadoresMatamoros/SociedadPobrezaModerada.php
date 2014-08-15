@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadPobrezaModerada
@@ -18,7 +18,7 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pobreza Moderada en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-pobreza-moderada';
         $this->descripcion = 'Porcentaje de la población en situación de pobreza moderada.';
         $this->claves      = 'Matamoros, Bienestar';

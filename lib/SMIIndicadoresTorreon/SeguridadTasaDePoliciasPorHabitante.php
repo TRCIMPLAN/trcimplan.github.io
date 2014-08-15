@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadTasaDePoliciasPorHabitante
@@ -18,7 +18,7 @@ class SeguridadTasaDePoliciasPorHabitante extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tasa de Policías por Habitante en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-tasa-de-policias-por-habitante';
         $this->descripcion = 'Cantidad de policías por cada mil habitantes.';
         $this->claves      = 'Torreón, Seguridad';

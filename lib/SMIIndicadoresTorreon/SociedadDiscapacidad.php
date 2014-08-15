@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadDiscapacidad
@@ -18,7 +18,7 @@ class SociedadDiscapacidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Discapacidad en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-discapacidad';
         $this->descripcion = 'Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)';
         $this->claves      = 'Torreón, Grupos Vulnerables';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadOrganizacionesDeLaSociedadCivil
@@ -18,7 +18,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Organizaciones de la Sociedad Civil en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-organizaciones-de-la-sociedad-civil';
         $this->descripcion = 'Organizaciones de la sociedad civil por cada cien mil habitantes.';
         $this->claves      = 'Torreón, Participación Ciudadana, Gobierno';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadEspaciosCulturales
@@ -18,7 +18,7 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Espacios Culturales en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-espacios-culturales';
         $this->descripcion = 'Espacios culturales físicamente delimitados.';
         $this->claves      = 'Matamoros, Educación, Cultura';

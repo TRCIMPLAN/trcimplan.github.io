@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase GobiernoIngresosTotales
@@ -18,7 +18,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos Totales en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'gobierno-ingresos-totales';
         $this->descripcion = '';
         $this->claves      = 'Matamoros, Finanzas Públicas';
@@ -91,7 +91,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrislubjedol" class="grafica"></div>
+<div id="Morrisrlmhkvdb" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -289,9 +289,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrislubjedol === 'undefined') {
-    varMorrislubjedol = Morris.Line({
-      element: 'Morrislubjedol',
+  if (typeof varMorrisrlmhkvdb === 'undefined') {
+    varMorrisrlmhkvdb = Morris.Line({
+      element: 'Morrisrlmhkvdb',
       data: [{ fecha: '2007-12-31', dato: 118848281.00 },{ fecha: '2008-12-31', dato: 179363074.00 },{ fecha: '2009-12-31', dato: 172111514.00 },{ fecha: '2010-12-31', dato: 149987909.00 },{ fecha: '2011-12-31', dato: 154367205.00 },{ fecha: '2012-12-31', dato: 176265107.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera
@@ -18,7 +18,7 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \Base
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en Industria Manufacturera en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-industria-manufacturera';
         $this->descripcion = 'Producción bruta total de la industria manufacturera entre la producción bruta total.';
         $this->claves      = 'Matamoros, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrishvejgvlo" class="grafica"></div>
+<div id="Morristcjonnmn" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -185,9 +185,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrishvejgvlo === 'undefined') {
-    varMorrishvejgvlo = Morris.Line({
-      element: 'Morrishvejgvlo',
+  if (typeof varMorristcjonnmn === 'undefined') {
+    varMorristcjonnmn = Morris.Line({
+      element: 'Morristcjonnmn',
       data: [{ fecha: '1998-12-31', dato: 34.7900 },{ fecha: '2003-12-31', dato: 26.8000 },{ fecha: '2008-12-31', dato: 58.7200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

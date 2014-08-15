@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadViviendasConDrenaje
@@ -18,7 +18,7 @@ class SociedadViviendasConDrenaje extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Drenaje en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-viviendas-con-drenaje';
         $this->descripcion = 'Porcentaje de viviendas habitadas que disponen de drenaje.';
         $this->claves      = 'Gómez Palacio, Vivienda';

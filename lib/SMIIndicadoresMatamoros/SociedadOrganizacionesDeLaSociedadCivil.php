@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadOrganizacionesDeLaSociedadCivil
@@ -18,7 +18,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Organizaciones de la Sociedad Civil en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-organizaciones-de-la-sociedad-civil';
         $this->descripcion = 'Organizaciones de la sociedad civil por cada cien mil habitantes.';
         $this->claves      = 'Matamoros, Participación Ciudadana, Gobierno';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaMedianasEmpresas
@@ -18,7 +18,7 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Medianas Empresas en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-medianas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean de 51 a 250 personas.';
         $this->claves      = 'Matamoros, Empresas';
@@ -61,7 +61,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 <h4>Gráfica</h4>
 
-<div id="Morrisjydpgivp" class="grafica"></div>
+<div id="Morrisenfjhpub" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -182,9 +182,9 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisjydpgivp === 'undefined') {
-    varMorrisjydpgivp = Morris.Line({
-      element: 'Morrisjydpgivp',
+  if (typeof varMorrisenfjhpub === 'undefined') {
+    varMorrisenfjhpub = Morris.Line({
+      element: 'Morrisenfjhpub',
       data: [{ fecha: '2013-12-31', dato: 3.0100 },{ fecha: '2014-07-31', dato: 1.7300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

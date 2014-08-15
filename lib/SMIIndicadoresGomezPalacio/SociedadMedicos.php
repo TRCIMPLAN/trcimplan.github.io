@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadMedicos
@@ -18,7 +18,7 @@ class SociedadMedicos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Médicos en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-medicos';
         $this->descripcion = 'Médicos en contacto con pacientes por cada diez mil personas.';
         $this->claves      = 'Gómez Palacio, Salud';
@@ -125,7 +125,7 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
 
 <h4>Gráfica</h4>
 
-<div id="Morrisgpwtjoih" class="grafica"></div>
+<div id="Morrisjiquspno" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -533,9 +533,9 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisgpwtjoih === 'undefined') {
-    varMorrisgpwtjoih = Morris.Line({
-      element: 'Morrisgpwtjoih',
+  if (typeof varMorrisjiquspno === 'undefined') {
+    varMorrisjiquspno = Morris.Line({
+      element: 'Morrisjiquspno',
       data: [{ fecha: '2001-12-31', dato: 3.7000 },{ fecha: '2002-12-31', dato: 4.0000 },{ fecha: '2003-12-31', dato: 4.1000 },{ fecha: '2004-12-31', dato: 4.3000 },{ fecha: '2005-12-31', dato: 4.3000 },{ fecha: '2006-12-31', dato: 3.9000 },{ fecha: '2007-12-31', dato: 4.2000 },{ fecha: '2008-12-31', dato: 5.1000 },{ fecha: '2009-12-31', dato: 5.3000 },{ fecha: '2010-12-31', dato: 4.9000 },{ fecha: '2011-12-31', dato: 4.4000 },{ fecha: '2012-12-31', dato: 4.5000 },{ fecha: '2013-12-31', dato: 4.2000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

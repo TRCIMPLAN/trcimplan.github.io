@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadAdultosMayores
@@ -18,7 +18,7 @@ class SociedadAdultosMayores extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Adultos Mayores en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-adultos-mayores';
         $this->descripcion = 'Población estimada a mediados de año de personas de 65 años y más';
         $this->claves      = 'Matamoros, Grupos Vulnerables';
@@ -106,7 +106,7 @@ Población estimada a mediados de año de personas de 65 años y más
 
 <h4>Gráfica</h4>
 
-<div id="Morrisnasbinyz" class="grafica"></div>
+<div id="Morrisopuylxal" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -619,9 +619,9 @@ Población estimada a mediados de año de personas de 65 años y más
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisnasbinyz === 'undefined') {
-    varMorrisnasbinyz = Morris.Line({
-      element: 'Morrisnasbinyz',
+  if (typeof varMorrisopuylxal === 'undefined') {
+    varMorrisopuylxal = Morris.Line({
+      element: 'Morrisopuylxal',
       data: [{ fecha: '2011-06-30', dato: 6692 },{ fecha: '2012-06-30', dato: 6935 },{ fecha: '2013-06-30', dato: 7186 },{ fecha: '2014-06-30', dato: 7447 },{ fecha: '2015-06-30', dato: 7718 },{ fecha: '2016-06-30', dato: 7999 },{ fecha: '2017-06-30', dato: 8288 },{ fecha: '2018-06-30', dato: 8586 },{ fecha: '2019-06-30', dato: 8889 },{ fecha: '2020-06-30', dato: 9196 }],
       xkey: 'fecha',
       ykeys: ['dato'],

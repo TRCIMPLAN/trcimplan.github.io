@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadRedCarreteraDeAlimentadorasEstatales
@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraDeAlimentadorasEstatales extends \Base\Publicac
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera de Alimentadoras Estatales en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-red-carretera-de-alimentadoras-estatales';
         $this->descripcion = 'Red carretera de alimentadoras estatales.';
         $this->claves      = 'Matamoros, Infraestructura';

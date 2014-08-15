@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaAperturaDeNegocio
@@ -18,7 +18,7 @@ class EconomiaAperturaDeNegocio extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Apertura de Negocio en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-apertura-de-negocio';
         $this->descripcion = 'Número de días necesarios para el trámite de apertura de un negocio.';
         $this->claves      = 'Torreón, Empresas, Doing Bussines';

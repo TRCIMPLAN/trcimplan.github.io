@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaIndiceDeEspecializacionLocalEnServicios
@@ -18,7 +18,7 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \Base\Publicacion 
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en Servicios en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-servicios';
         $this->descripcion = 'Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.';
         $this->claves      = 'La Laguna, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisglsmrdcf" class="grafica"></div>
+<div id="Morrisgslgrlvu" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -185,9 +185,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisglsmrdcf === 'undefined') {
-    varMorrisglsmrdcf = Morris.Line({
-      element: 'Morrisglsmrdcf',
+  if (typeof varMorrisgslgrlvu === 'undefined') {
+    varMorrisgslgrlvu = Morris.Line({
+      element: 'Morrisgslgrlvu',
       data: [{ fecha: '1998-12-31', dato: 11.9700 },{ fecha: '2003-12-31', dato: 12.7500 },{ fecha: '2008-12-31', dato: 7.1500 }],
       xkey: 'fecha',
       ykeys: ['dato'],

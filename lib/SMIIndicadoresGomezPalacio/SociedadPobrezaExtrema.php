@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadPobrezaExtrema
@@ -18,7 +18,7 @@ class SociedadPobrezaExtrema extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pobreza Extrema en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-pobreza-extrema';
         $this->descripcion = 'Porcentaje de la población en situación de pobreza extrema.';
         $this->claves      = 'Gómez Palacio, Bienestar';

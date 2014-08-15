@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadAccidentesViales
@@ -18,7 +18,7 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Accidentes Viales en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-accidentes-viales';
         $this->descripcion = 'Cantidad de accidentes viales por año.';
         $this->claves      = 'Torreón, Vialidad';

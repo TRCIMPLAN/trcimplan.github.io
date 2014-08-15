@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SeguridadSecuestros
@@ -18,7 +18,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Secuestros en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-secuestros';
         $this->descripcion = 'Cantidad de secuestros en el primer trimestre de 2014';
         $this->claves      = 'La Laguna, Delincuencia, Seguridad';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadMortalidadInfantil
@@ -18,7 +18,7 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad Infantil en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-mortalidad-infantil';
         $this->descripcion = 'Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos';
         $this->claves      = 'Gómez Palacio, Salud';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase GobiernoIndiceDeInformacionPresupuestal
@@ -18,7 +18,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'índice de Información Presupuestal en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'gobierno-indice-de-informacion-presupuestal';
         $this->descripcion = 'Cumplimiento sobre total de criterios';
         $this->claves      = 'Gómez Palacio, Transparencia';

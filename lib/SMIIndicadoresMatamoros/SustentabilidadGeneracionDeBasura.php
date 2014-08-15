@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadGeneracionDeBasura
@@ -18,7 +18,7 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Generación de Basura en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-generacion-de-basura';
         $this->descripcion = 'Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.';
         $this->claves      = 'Matamoros, Recursos Naturales';

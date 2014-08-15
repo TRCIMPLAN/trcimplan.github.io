@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadVolumenTratadoDeAguasResiduales
@@ -18,7 +18,7 @@ class SustentabilidadVolumenTratadoDeAguasResiduales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Volumen Tratado de Aguas Residuales en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-volumen-tratado-de-aguas-residuales';
         $this->descripcion = '';
         $this->claves      = 'Lerdo, Recursos Naturales';

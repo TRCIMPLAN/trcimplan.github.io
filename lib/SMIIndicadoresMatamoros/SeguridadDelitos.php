@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SeguridadDelitos
@@ -18,7 +18,7 @@ class SeguridadDelitos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Delitos en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-delitos';
         $this->descripcion = 'Total de delitos cometidos en el segundo trimestre 2014';
         $this->claves      = 'Matamoros, Delincuencia, Seguridad';
@@ -64,7 +64,7 @@ Total de delitos cometidos en el segundo trimestre 2014
 
 <h4>Gráfica</h4>
 
-<div id="Morrisokgtnufm" class="grafica"></div>
+<div id="Morrisnyixvddn" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -157,9 +157,9 @@ Total de delitos cometidos en el segundo trimestre 2014
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisokgtnufm === 'undefined') {
-    varMorrisokgtnufm = Morris.Line({
-      element: 'Morrisokgtnufm',
+  if (typeof varMorrisnyixvddn === 'undefined') {
+    varMorrisnyixvddn = Morris.Line({
+      element: 'Morrisnyixvddn',
       data: [{ fecha: '2014-01-31', dato: 69 },{ fecha: '2014-02-28', dato: 65 },{ fecha: '2014-06-30', dato: 230 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadEspaciosCulturales
@@ -18,7 +18,7 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Espacios Culturales en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-espacios-culturales';
         $this->descripcion = 'Espacios culturales físicamente delimitados.';
         $this->claves      = 'Torreón, Educación, Cultura';

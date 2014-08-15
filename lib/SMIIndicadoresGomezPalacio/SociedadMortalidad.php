@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadMortalidad
@@ -18,7 +18,7 @@ class SociedadMortalidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-mortalidad';
         $this->descripcion = 'Tasa de Mortalidad. Número de muertes por cada mil habitantes.';
         $this->claves      = 'Gómez Palacio, Salud';

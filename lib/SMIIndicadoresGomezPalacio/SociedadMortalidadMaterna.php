@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SociedadMortalidadMaterna
@@ -18,7 +18,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad Materna en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-mortalidad-materna';
         $this->descripcion = 'Defunciones maternas por cada cien mil partos.';
         $this->claves      = 'Gómez Palacio, Salud, Género';

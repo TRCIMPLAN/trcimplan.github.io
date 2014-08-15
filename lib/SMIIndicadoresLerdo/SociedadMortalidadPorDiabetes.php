@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadMortalidadPorDiabetes
@@ -18,7 +18,7 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad por Diabetes en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-mortalidad-por-diabetes';
         $this->descripcion = 'Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.';
         $this->claves      = 'Lerdo, Salud';

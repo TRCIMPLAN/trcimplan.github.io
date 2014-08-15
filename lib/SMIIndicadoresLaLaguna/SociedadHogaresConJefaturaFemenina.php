@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadHogaresConJefaturaFemenina
@@ -18,7 +18,7 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Hogares con Jefatura Femenina en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-hogares-con-jefatura-femenina';
         $this->descripcion = 'Porcentaje de hogares con jefatura femenina.';
         $this->claves      = 'La Laguna, Género';

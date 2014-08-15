@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase GobiernoCapacidadFinanciera
@@ -18,7 +18,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Capacidad Financiera en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'gobierno-capacidad-financiera';
         $this->descripcion = 'Ingresos propios entre gastos corrientes.';
         $this->claves      = 'Torreón, Finanzas Públicas';
@@ -98,7 +98,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morriswphtaizn" class="grafica"></div>
+<div id="Morrismfrtduit" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -296,9 +296,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriswphtaizn === 'undefined') {
-    varMorriswphtaizn = Morris.Line({
-      element: 'Morriswphtaizn',
+  if (typeof varMorrismfrtduit === 'undefined') {
+    varMorrismfrtduit = Morris.Line({
+      element: 'Morrismfrtduit',
       data: [{ fecha: '2007-12-31', dato: 80.9500 },{ fecha: '2008-12-31', dato: 77.6100 },{ fecha: '2009-12-31', dato: 75.4600 },{ fecha: '2010-12-31', dato: 65.2700 },{ fecha: '2011-12-31', dato: 56.4500 },{ fecha: '2012-12-31', dato: 74.1000 },{ fecha: '2013-12-31', dato: 74.2200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

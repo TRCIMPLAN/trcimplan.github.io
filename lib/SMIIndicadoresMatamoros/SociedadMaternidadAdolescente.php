@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadMaternidadAdolescente
@@ -18,7 +18,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Maternidad Adolescente en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-maternidad-adolescente';
         $this->descripcion = '';
         $this->claves      = 'Matamoros, Género';

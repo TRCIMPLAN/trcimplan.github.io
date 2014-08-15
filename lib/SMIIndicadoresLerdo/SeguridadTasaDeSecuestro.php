@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SeguridadTasaDeSecuestro
@@ -18,7 +18,7 @@ class SeguridadTasaDeSecuestro extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tasa de Secuestro en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-tasa-de-secuestro';
         $this->descripcion = 'Homicidios por habitantes por 100 mil';
         $this->claves      = 'Lerdo, Delincuencia, Seguridad';

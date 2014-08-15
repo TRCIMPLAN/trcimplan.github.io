@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SustentabilidadAccesoAVialidadesPavimentadas
@@ -18,7 +18,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Acceso a Vialidades Pavimentadas en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-acceso-a-vialidades-pavimentadas';
         $this->descripcion = 'Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.';
         $this->claves      = 'Matamoros, Movilidad, Vialidad';

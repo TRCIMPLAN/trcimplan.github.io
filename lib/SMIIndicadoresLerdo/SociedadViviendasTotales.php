@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadViviendasTotales
@@ -18,7 +18,7 @@ class SociedadViviendasTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Totales en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-viviendas-totales';
         $this->descripcion = '';
         $this->claves      = 'Lerdo, Vivienda';

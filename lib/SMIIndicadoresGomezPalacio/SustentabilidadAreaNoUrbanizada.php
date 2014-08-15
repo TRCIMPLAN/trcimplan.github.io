@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SustentabilidadAreaNoUrbanizada
@@ -18,7 +18,7 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Área No Urbanizada en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-area-no-urbanizada';
         $this->descripcion = 'Área total de localidades no urbanizadas sobre la superficie municipal.';
         $this->claves      = 'Gómez Palacio, Recursos Naturales';

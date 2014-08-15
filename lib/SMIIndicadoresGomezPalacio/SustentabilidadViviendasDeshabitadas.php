@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SustentabilidadViviendasDeshabitadas
@@ -18,7 +18,7 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Deshabitadas en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-viviendas-deshabitadas';
         $this->descripcion = 'Viviendas deshabitadas con respecto al total de viviendas totales.';
         $this->claves      = 'Gómez Palacio, Vivienda';

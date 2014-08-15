@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadDestinosViaTerrestre
@@ -18,7 +18,7 @@ class SustentabilidadDestinosViaTerrestre extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Destinos Vía Terrestre en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-destinos-via-terrestre';
         $this->descripcion = 'Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio';
         $this->claves      = 'Lerdo, Movilidad';

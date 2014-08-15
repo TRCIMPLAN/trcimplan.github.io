@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SeguridadAccidentesViales
@@ -18,7 +18,7 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Accidentes Viales en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-accidentes-viales';
         $this->descripcion = 'Cantidad de accidentes viales por año.';
         $this->claves      = 'Gómez Palacio, Vialidad';

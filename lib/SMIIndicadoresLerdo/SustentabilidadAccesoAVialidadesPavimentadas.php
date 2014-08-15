@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SustentabilidadAccesoAVialidadesPavimentadas
@@ -18,7 +18,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Acceso a Vialidades Pavimentadas en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-acceso-a-vialidades-pavimentadas';
         $this->descripcion = 'Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.';
         $this->claves      = 'Lerdo, Movilidad, Vialidad';

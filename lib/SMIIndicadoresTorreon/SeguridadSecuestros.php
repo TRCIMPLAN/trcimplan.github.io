@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadSecuestros
@@ -18,7 +18,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Secuestros en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-secuestros';
         $this->descripcion = 'Cantidad de secuestros en el primer trimestre de 2014';
         $this->claves      = 'Torreón, Delincuencia, Seguridad';

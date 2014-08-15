@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase EconomiaProductividadLaboral
@@ -18,7 +18,7 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Productividad Laboral en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-productividad-laboral';
         $this->descripcion = 'PIB sin petróleo / PEA.';
         $this->claves      = 'Lerdo, Macroeconomía, Empleo';

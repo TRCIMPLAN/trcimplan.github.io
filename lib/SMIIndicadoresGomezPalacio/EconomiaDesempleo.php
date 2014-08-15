@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase EconomiaDesempleo
@@ -18,7 +18,7 @@ class EconomiaDesempleo extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Desempleo en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-desempleo';
         $this->descripcion = 'Cantidad de personas desempleadas.';
         $this->claves      = 'Gómez Palacio, Empleo';
@@ -72,7 +72,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 <h4>Gráfica</h4>
 
-<div id="Morrisdnvzytnr" class="grafica"></div>
+<div id="Morriskcizjsjm" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -179,9 +179,9 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisdnvzytnr === 'undefined') {
-    varMorrisdnvzytnr = Morris.Line({
-      element: 'Morrisdnvzytnr',
+  if (typeof varMorriskcizjsjm === 'undefined') {
+    varMorriskcizjsjm = Morris.Line({
+      element: 'Morriskcizjsjm',
       data: [{ fecha: '1989-12-31', dato: 2050 },{ fecha: '1999-12-31', dato: 981 },{ fecha: '2009-12-31', dato: 9705 }],
       xkey: 'fecha',
       ykeys: ['dato'],

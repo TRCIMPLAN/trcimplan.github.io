@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaInversionPerCapita
@@ -18,7 +18,7 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Inversión Per cápita en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-inversion-per-capita';
         $this->descripcion = 'Gasto en obras públicas y acciones sociales entre población total.';
         $this->claves      = 'La Laguna, Macroeconomía, Finanzas Públicas';
@@ -92,7 +92,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morrissvefufne" class="grafica"></div>
+<div id="Morrisaotxamuu" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -283,9 +283,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrissvefufne === 'undefined') {
-    varMorrissvefufne = Morris.Line({
-      element: 'Morrissvefufne',
+  if (typeof varMorrisaotxamuu === 'undefined') {
+    varMorrisaotxamuu = Morris.Line({
+      element: 'Morrisaotxamuu',
       data: [{ fecha: '2007-12-31', dato: 536.81 },{ fecha: '2008-12-31', dato: 693.53 },{ fecha: '2009-12-31', dato: 484.79 },{ fecha: '2010-12-31', dato: 310.85 },{ fecha: '2011-12-31', dato: 473.54 },{ fecha: '2012-12-31', dato: 411.88 }],
       xkey: 'fecha',
       ykeys: ['dato'],

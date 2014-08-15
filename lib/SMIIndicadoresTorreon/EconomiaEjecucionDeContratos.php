@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaEjecucionDeContratos
@@ -18,7 +18,7 @@ class EconomiaEjecucionDeContratos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ejecución de Contratos en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-ejecucion-de-contratos';
         $this->descripcion = 'Días transcurridos para la ejecución de un contrato.';
         $this->claves      = 'Torreón, Empresas';
@@ -76,16 +76,16 @@ Costo (% de cantidad demandada) = 27,9</td>
 
 <h4>Gráfica</h4>
 
-<div id="Morrisvmezcwve" class="grafica"></div>
+<div id="Morrisfbznpcqg" class="grafica"></div>
 
 
 
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisvmezcwve === 'undefined') {
-    varMorrisvmezcwve = Morris.Line({
-      element: 'Morrisvmezcwve',
+  if (typeof varMorrisfbznpcqg === 'undefined') {
+    varMorrisfbznpcqg = Morris.Line({
+      element: 'Morrisfbznpcqg',
       data: [{ fecha: '2007-12-31', dato: 386 },{ fecha: '2012-12-31', dato: 270 },{ fecha: '2013-10-31', dato: 270 }],
       xkey: 'fecha',
       ykeys: ['dato'],

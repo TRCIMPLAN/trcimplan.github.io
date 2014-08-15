@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase EconomiaUnidadesEconomicasDedicadasAlComercio
@@ -18,7 +18,7 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Unidades Económicas Dedicadas al Comercio en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-unidades-economicas-dedicadas-al-comercio';
         $this->descripcion = 'Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.';
         $this->claves      = 'La Laguna, Empresas, Mercados';
@@ -71,7 +71,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisoqdgeumy" class="grafica"></div>
+<div id="Morrisuhabslmz" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -234,9 +234,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisoqdgeumy === 'undefined') {
-    varMorrisoqdgeumy = Morris.Line({
-      element: 'Morrisoqdgeumy',
+  if (typeof varMorrisuhabslmz === 'undefined') {
+    varMorrisuhabslmz = Morris.Line({
+      element: 'Morrisuhabslmz',
       data: [{ fecha: '1998-12-31', dato: 48.8300 },{ fecha: '2003-12-31', dato: 49.8400 },{ fecha: '2008-12-31', dato: 47.6100 },{ fecha: '2013-10-31', dato: 44.2800 }],
       xkey: 'fecha',
       ykeys: ['dato'],

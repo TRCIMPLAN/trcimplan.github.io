@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadViviendasQueDisponenDeRetrete
@@ -18,7 +18,7 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas que Disponen de Retrete en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-viviendas-que-disponen-de-retrete';
         $this->descripcion = 'Porcentaje de viviendas habitadas que disponen de retrete.';
         $this->claves      = 'Matamoros, Vivienda, Salud';

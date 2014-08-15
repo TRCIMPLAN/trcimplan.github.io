@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
  * Clase SeguridadDelitos
@@ -18,7 +18,7 @@ class SeguridadDelitos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Delitos en Gómez Palacio';
-        $this->directorio  = 'lib/SMIIndicadoresGomezPalacio';
+        $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-delitos';
         $this->descripcion = 'Total de delitos cometidos en el segundo trimestre 2014';
         $this->claves      = 'Gómez Palacio, Delincuencia, Seguridad';
@@ -64,7 +64,7 @@ Total de delitos cometidos en el segundo trimestre 2014
 
 <h4>Gráfica</h4>
 
-<div id="Morrisxblnyvls" class="grafica"></div>
+<div id="Morrisndcfvriy" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -157,9 +157,9 @@ Total de delitos cometidos en el segundo trimestre 2014
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisxblnyvls === 'undefined') {
-    varMorrisxblnyvls = Morris.Line({
-      element: 'Morrisxblnyvls',
+  if (typeof varMorrisndcfvriy === 'undefined') {
+    varMorrisndcfvriy = Morris.Line({
+      element: 'Morrisndcfvriy',
       data: [{ fecha: '2014-01-31', dato: 363 },{ fecha: '2014-02-28', dato: 307 },{ fecha: '2014-06-30', dato: 986 }],
       xkey: 'fecha',
       ykeys: ['dato'],

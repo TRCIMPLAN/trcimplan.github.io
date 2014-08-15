@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase EconomiaDesempleo
@@ -18,7 +18,7 @@ class EconomiaDesempleo extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Desempleo en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-desempleo';
         $this->descripcion = 'Cantidad de personas desempleadas.';
         $this->claves      = 'Torreón, Empleo';
@@ -72,7 +72,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 <h4>Gráfica</h4>
 
-<div id="Morrisbneudytx" class="grafica"></div>
+<div id="Morrismhkmqjby" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -179,9 +179,9 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisbneudytx === 'undefined') {
-    varMorrisbneudytx = Morris.Line({
-      element: 'Morrisbneudytx',
+  if (typeof varMorrismhkmqjby === 'undefined') {
+    varMorrismhkmqjby = Morris.Line({
+      element: 'Morrismhkmqjby',
       data: [{ fecha: '1989-12-31', dato: 4043 },{ fecha: '1999-12-31', dato: 2135 },{ fecha: '2009-12-31', dato: 19536 }],
       xkey: 'fecha',
       ykeys: ['dato'],

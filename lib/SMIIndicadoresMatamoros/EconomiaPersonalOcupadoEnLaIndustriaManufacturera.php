@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase EconomiaPersonalOcupadoEnLaIndustriaManufacturera
@@ -18,7 +18,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \Base\Publicacio
      */
     public function __construct() {
         $this->nombre      = 'Personal Ocupado en la Industria Manufacturera en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-personal-ocupado-en-la-industria-manufacturera';
         $this->descripcion = 'Personal ocupado en la Industria manufacturera entre el personal ocupado total.';
         $this->claves      = 'Matamoros, Empleo, Mercados';
@@ -65,7 +65,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 <h4>Gráfica</h4>
 
-<div id="Morrisvxscgnrk" class="grafica"></div>
+<div id="Morrisjbqqqksh" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrisvxscgnrk === 'undefined') {
-    varMorrisvxscgnrk = Morris.Line({
-      element: 'Morrisvxscgnrk',
+  if (typeof varMorrisjbqqqksh === 'undefined') {
+    varMorrisjbqqqksh = Morris.Line({
+      element: 'Morrisjbqqqksh',
       data: [{ fecha: '1998-12-31', dato: 37.8100 },{ fecha: '2003-12-31', dato: 28.7800 },{ fecha: '2008-12-31', dato: 41.5338 }],
       xkey: 'fecha',
       ykeys: ['dato'],

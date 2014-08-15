@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SeguridadPresuntosDelincuentesDelFueroFederal
@@ -18,7 +18,7 @@ class SeguridadPresuntosDelincuentesDelFueroFederal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Presuntos Delincuentes del Fuero Federal en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-presuntos-delincuentes-del-fuero-federal';
         $this->descripcion = 'Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero federal';
         $this->claves      = 'Torreón, Delincuencia';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadMortalidad
@@ -18,7 +18,7 @@ class SociedadMortalidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-mortalidad';
         $this->descripcion = 'Tasa de Mortalidad. Número de muertes por cada mil habitantes.';
         $this->claves      = 'Torreón, Salud';

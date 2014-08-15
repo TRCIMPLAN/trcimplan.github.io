@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase GobiernoRelacionDeIngresosPropiosYTotales
@@ -18,7 +18,7 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Relación de Ingresos Propios y Totales en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'gobierno-relacion-de-ingresos-propios-y-totales';
         $this->descripcion = 'Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.';
         $this->claves      = 'Torreón, Finanzas Públicas';
@@ -98,7 +98,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 <h4>Gráfica</h4>
 
-<div id="Morriszrsazsnx" class="grafica"></div>
+<div id="Morrisjyrmszgw" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -289,9 +289,9 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriszrsazsnx === 'undefined') {
-    varMorriszrsazsnx = Morris.Line({
-      element: 'Morriszrsazsnx',
+  if (typeof varMorrisjyrmszgw === 'undefined') {
+    varMorrisjyrmszgw = Morris.Line({
+      element: 'Morrisjyrmszgw',
       data: [{ fecha: '2007-12-31', dato: 41.2400 },{ fecha: '2008-12-31', dato: 35.6300 },{ fecha: '2009-12-31', dato: 38.5200 },{ fecha: '2010-12-31', dato: 32.5400 },{ fecha: '2011-12-31', dato: 30.2600 },{ fecha: '2012-12-31', dato: 43.0500 },{ fecha: '2013-12-31', dato: 43.9900 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SustentabilidadPasajerosAereosTotales
@@ -18,7 +18,7 @@ class SustentabilidadPasajerosAereosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pasajeros Aéreos Totales en La Laguna';
-        $this->directorio  = 'lib/SMIIndicadoresLaLaguna';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-totales';
         $this->descripcion = 'Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.';
         $this->claves      = 'La Laguna, Movilidad';

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresLerdo;
+namespace SMIIndicadoresLerdo;
 
 /**
  * Clase SociedadMedicos
@@ -18,7 +18,7 @@ class SociedadMedicos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Médicos en Lerdo';
-        $this->directorio  = 'lib/SMIIndicadoresLerdo';
+        $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-medicos';
         $this->descripcion = 'Médicos en contacto con pacientes por cada diez mil personas.';
         $this->claves      = 'Lerdo, Salud';
@@ -125,7 +125,7 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
 
 <h4>Gráfica</h4>
 
-<div id="Morriskbptacyz" class="grafica"></div>
+<div id="Morrishyhgfgwj" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -533,9 +533,9 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorriskbptacyz === 'undefined') {
-    varMorriskbptacyz = Morris.Line({
-      element: 'Morriskbptacyz',
+  if (typeof varMorrishyhgfgwj === 'undefined') {
+    varMorrishyhgfgwj = Morris.Line({
+      element: 'Morrishyhgfgwj',
       data: [{ fecha: '2001-12-31', dato: 5.1000 },{ fecha: '2002-12-31', dato: 5.8000 },{ fecha: '2003-12-31', dato: 5.5000 },{ fecha: '2004-12-31', dato: 5.4000 },{ fecha: '2005-12-31', dato: 5.3000 },{ fecha: '2006-12-31', dato: 4.8000 },{ fecha: '2007-12-31', dato: 6.0000 },{ fecha: '2008-12-31', dato: 5.6000 },{ fecha: '2009-12-31', dato: 5.8000 },{ fecha: '2010-12-31', dato: 6.4000 },{ fecha: '2011-12-31', dato: 6.2000 },{ fecha: '2012-12-31', dato: 6.4000 },{ fecha: '2013-12-31', dato: 6.6000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresMatamoros;
+namespace SMIIndicadoresMatamoros;
 
 /**
  * Clase SociedadViviendasTotales
@@ -18,7 +18,7 @@ class SociedadViviendasTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Totales en Matamoros';
-        $this->directorio  = 'lib/SMIIndicadoresMatamoros';
+        $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-viviendas-totales';
         $this->descripcion = '';
         $this->claves      = 'Matamoros, Vivienda';

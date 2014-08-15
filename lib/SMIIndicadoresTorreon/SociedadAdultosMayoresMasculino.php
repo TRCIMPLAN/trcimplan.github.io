@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace lib/SMIIndicadoresTorreon;
+namespace SMIIndicadoresTorreon;
 
 /**
  * Clase SociedadAdultosMayoresMasculino
@@ -18,7 +18,7 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Adultos Mayores Masculino en Torreón';
-        $this->directorio  = 'lib/SMIIndicadoresTorreon';
+        $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-adultos-mayores-masculino';
         $this->descripcion = 'Población estimada a mediados de año de personas de 65 años y más de sexo masculino';
         $this->claves      = 'Torreón, Grupos Vulnerables';
@@ -106,7 +106,7 @@ Población estimada a mediados de año de personas de 65 años y más de sexo ma
 
 <h4>Gráfica</h4>
 
-<div id="Morrislkvkciix" class="grafica"></div>
+<div id="Morrisemixlotu" class="grafica"></div>
 
 
 <h4>En otras regiones</h4>
@@ -619,9 +619,9 @@ Población estimada a mediados de año de personas de 65 años y más de sexo ma
 FINAL;
         $this->javascript  = <<<FINAL
   // GRAFICA MORRIS
-  if (typeof varMorrislkvkciix === 'undefined') {
-    varMorrislkvkciix = Morris.Line({
-      element: 'Morrislkvkciix',
+  if (typeof varMorrisemixlotu === 'undefined') {
+    varMorrisemixlotu = Morris.Line({
+      element: 'Morrisemixlotu',
       data: [{ fecha: '2011-06-30', dato: 17498 },{ fecha: '2012-06-30', dato: 18233 },{ fecha: '2013-06-30', dato: 19010 },{ fecha: '2014-06-30', dato: 19829 },{ fecha: '2015-06-30', dato: 20691 },{ fecha: '2016-06-30', dato: 21594 },{ fecha: '2017-06-30', dato: 22537 },{ fecha: '2018-06-30', dato: 23517 },{ fecha: '2019-06-30', dato: 24531 },{ fecha: '2020-06-30', dato: 25576 }],
       xkey: 'fecha',
       ykeys: ['dato'],
