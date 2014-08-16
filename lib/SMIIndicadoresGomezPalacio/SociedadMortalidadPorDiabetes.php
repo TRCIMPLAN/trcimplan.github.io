@@ -24,7 +24,7 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetassxmcrukd">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasfaofzquy">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +63,7 @@ Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetruwpdcqt" class="mapa"></div>
+              <div id="LeafLetinxpobzl" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -138,12 +138,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetassxmcrukd a:first').tab('show')
+  $('#Lenguetasfaofzquy a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetassxmcrukd a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfaofzquy a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapruwpdcqt;
+  var mapinxpobzl;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -160,17 +160,17 @@ $('#Lenguetassxmcrukd a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapruwpdcqt() {
+  function initmapinxpobzl() {
     // Nuevo Mapa
-    mapruwpdcqt = new L.Map('LeafLetruwpdcqt');
+    mapinxpobzl = new L.Map('LeafLetinxpobzl');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapruwpdcqt.setView(new L.LatLng(25.54, -103.44), 12);
+    mapinxpobzl.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapruwpdcqt.addLayer(osm);
+    mapinxpobzl.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -203,13 +203,13 @@ $('#Lenguetassxmcrukd a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapruwpdcqt);
+    }).addTo(mapinxpobzl);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapruwpdcqt === 'undefined') {
-    varinitmapruwpdcqt = initmapruwpdcqt();
+  if (typeof varinitmapinxpobzl === 'undefined') {
+    varinitmapinxpobzl = initmapinxpobzl();
   };
 });
 FINAL;

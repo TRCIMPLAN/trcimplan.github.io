@@ -24,7 +24,7 @@ class SociedadMortalidad extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasjobsemhi">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdrmikbln">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +64,7 @@ Fuente Registros Administrativos INEGI, con estimaciones de población de CONAPO
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetjyavekkx" class="mapa"></div>
+              <div id="LeafLetocljxdtp" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -139,12 +139,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasjobsemhi a:first').tab('show')
+  $('#Lenguetasdrmikbln a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasjobsemhi a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdrmikbln a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapjyavekkx;
+  var mapocljxdtp;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -161,17 +161,17 @@ $('#Lenguetasjobsemhi a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapjyavekkx() {
+  function initmapocljxdtp() {
     // Nuevo Mapa
-    mapjyavekkx = new L.Map('LeafLetjyavekkx');
+    mapocljxdtp = new L.Map('LeafLetocljxdtp');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapjyavekkx.setView(new L.LatLng(25.54, -103.44), 12);
+    mapocljxdtp.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapjyavekkx.addLayer(osm);
+    mapocljxdtp.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -204,13 +204,13 @@ $('#Lenguetasjobsemhi a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapjyavekkx);
+    }).addTo(mapocljxdtp);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapjyavekkx === 'undefined') {
-    varinitmapjyavekkx = initmapjyavekkx();
+  if (typeof varinitmapocljxdtp === 'undefined') {
+    varinitmapocljxdtp = initmapocljxdtp();
   };
 });
 FINAL;

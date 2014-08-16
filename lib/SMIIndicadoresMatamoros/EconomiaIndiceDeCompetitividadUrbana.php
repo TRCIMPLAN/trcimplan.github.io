@@ -24,7 +24,7 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Competitividad';
         $this->categorias  = array('Competitividad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaszzzvggih">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdoabhfpm">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +63,7 @@ El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Institut
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetnjewliwy" class="mapa"></div>
+              <div id="LeafLetwqexcxyf" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -117,12 +117,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaszzzvggih a:first').tab('show')
+  $('#Lenguetasdoabhfpm a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaszzzvggih a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdoabhfpm a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapnjewliwy;
+  var mapwqexcxyf;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +139,17 @@ $('#Lenguetaszzzvggih a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapnjewliwy() {
+  function initmapwqexcxyf() {
     // Nuevo Mapa
-    mapnjewliwy = new L.Map('LeafLetnjewliwy');
+    mapwqexcxyf = new L.Map('LeafLetwqexcxyf');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapnjewliwy.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwqexcxyf.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapnjewliwy.addLayer(osm);
+    mapwqexcxyf.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +182,13 @@ $('#Lenguetaszzzvggih a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapnjewliwy);
+    }).addTo(mapwqexcxyf);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapnjewliwy === 'undefined') {
-    varinitmapnjewliwy = initmapnjewliwy();
+  if (typeof varinitmapwqexcxyf === 'undefined') {
+    varinitmapwqexcxyf = initmapwqexcxyf();
   };
 });
 FINAL;

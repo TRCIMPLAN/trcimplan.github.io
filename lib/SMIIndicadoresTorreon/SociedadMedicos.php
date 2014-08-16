@@ -24,7 +24,7 @@ class SociedadMedicos extends \Base\Publicacion {
         $this->claves      = 'Torreón, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnszetwhe">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspezkcejz">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -135,12 +135,12 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morriszlankmpn" class="grafica"></div>
+<div id="Morriswtbdugmw" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetvjmdgtyi" class="mapa"></div>
+              <div id="LeafLetvbwyhfcr" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -551,14 +551,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnszetwhe a:first').tab('show')
+  $('#Lenguetaspezkcejz a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnszetwhe a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspezkcejz a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriszlankmpn === 'undefined') {
-    varMorriszlankmpn = Morris.Line({
-      element: 'Morriszlankmpn',
+  if (typeof varMorriswtbdugmw === 'undefined') {
+    varMorriswtbdugmw = Morris.Line({
+      element: 'Morriswtbdugmw',
       data: [{ fecha: '2001-12-31', dato: 2.2000 },{ fecha: '2002-12-31', dato: 1.7000 },{ fecha: '2003-12-31', dato: 1.8000 },{ fecha: '2004-12-31', dato: 1.7000 },{ fecha: '2005-12-31', dato: 1.3000 },{ fecha: '2006-12-31', dato: 1.9000 },{ fecha: '2007-12-31', dato: 2.5000 },{ fecha: '2008-12-31', dato: 2.5000 },{ fecha: '2009-12-31', dato: 2.6000 },{ fecha: '2010-12-31', dato: 2.7000 },{ fecha: '2011-12-31', dato: 2.5000 },{ fecha: '2012-12-31', dato: 2.5000 },{ fecha: '2013-12-31', dato: 2.5000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -570,9 +570,9 @@ $('#Lenguetasnszetwhe a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasnszetwhe a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspezkcejz a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapvjmdgtyi;
+  var mapvbwyhfcr;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -589,17 +589,17 @@ $('#Lenguetasnszetwhe a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapvjmdgtyi() {
+  function initmapvbwyhfcr() {
     // Nuevo Mapa
-    mapvjmdgtyi = new L.Map('LeafLetvjmdgtyi');
+    mapvbwyhfcr = new L.Map('LeafLetvbwyhfcr');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapvjmdgtyi.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvbwyhfcr.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapvjmdgtyi.addLayer(osm);
+    mapvbwyhfcr.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -632,13 +632,13 @@ $('#Lenguetasnszetwhe a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapvjmdgtyi);
+    }).addTo(mapvbwyhfcr);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapvjmdgtyi === 'undefined') {
-    varinitmapvjmdgtyi = initmapvjmdgtyi();
+  if (typeof varinitmapvbwyhfcr === 'undefined') {
+    varinitmapvbwyhfcr = initmapvbwyhfcr();
   };
 });
 FINAL;

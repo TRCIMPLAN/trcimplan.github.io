@@ -5,17 +5,20 @@
         Instituto Municipal de Planeación y Competitividad de Torreón.
         Todos los Derechos Reservados. © 2014.
 
-        Este sistema fue programado por el Staff del IMPLAN usando Software Libre.
+        Este sitio web fue elaborado por personal del IMPLAN Torreón usando Software Libre.
+
+        Descargue y colabore por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN/trcimplan.github.io
+
         Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
-           CMS de Movimiento Libre  http://cms.movimientolibre.com/
-           Twitter Bootstrap        http://getbootstrap.com/
-           Morris.js                http://www.oesmith.co.uk/morris.js/
-           GitHub                   http://github.com/
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
 
      ======================================================================================== -->
 <head>
   <meta charset="utf-8">
-  <title>Inversión Extranjera Directa en Lerdo - IMPLAN Torreón S.M.I.</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Promedio de inversión entre 2008 y 2012.">
@@ -28,41 +31,42 @@
   <meta name="og:title" content="Inversión Extranjera Directa en Lerdo">
   <meta name="og:description" content="Promedio de inversión entre 2008 y 2012.">
   <meta name="og:url" content="http://trcimplan.github.io/indicadores-lerdo/economia-inversion-extranjera-directa.html">
+  <title>Inversión Extranjera Directa en Lerdo - IMPLAN Torreón S.M.I.</title>
   <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón S.M.I.">
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/morris.css" rel="stylesheet">
   <link href="../css/leaflet.css" rel="stylesheet">
-  <link href="../css/cms.css" rel="stylesheet">
-  <!-- SOPORTE PARA IE8 -->
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
   <![endif]-->
 </head>
 <body>
-<nav class="navbar" role="navigation" id="menu-principal">
-  <div class="container">
+<div id="wrapper">
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-principal-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://trcimplan.github.io"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo.png"></a>
+      <a class="navbar-brand" href="../index.html"></a>
     </div>
-    <div class="navbar-collapse collapse" id="menu-principal-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="rss.xml">RSS</a></li>
-      </ul>
-    </div>
-  </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="rss.xml">RSS</a></li>
+    </ul>
 </nav>
 <div id="contenido">
   <div class="container">
   <h1>Inversión Extranjera Directa en Lerdo</h1>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdvjtvjod">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetastztqhvoj">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -105,7 +109,7 @@ y [Secretaría de Economía](http://www.economia.gob.mx/comunidad-negocios/compe
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetgpzdnluo" class="mapa"></div>
+              <div id="LeafLetjdrvieqi" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -189,12 +193,12 @@ y [Secretaría de Economía](http://www.economia.gob.mx/comunidad-negocios/compe
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdvjtvjod a:first').tab('show')
+  $('#Lenguetastztqhvoj a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasdvjtvjod a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetastztqhvoj a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapgpzdnluo;
+  var mapjdrvieqi;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -211,17 +215,17 @@ $('#Lenguetasdvjtvjod a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapgpzdnluo() {
+  function initmapjdrvieqi() {
     // Nuevo Mapa
-    mapgpzdnluo = new L.Map('LeafLetgpzdnluo');
+    mapjdrvieqi = new L.Map('LeafLetjdrvieqi');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapgpzdnluo.setView(new L.LatLng(25.54, -103.44), 12);
+    mapjdrvieqi.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapgpzdnluo.addLayer(osm);
+    mapjdrvieqi.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -254,15 +258,16 @@ $('#Lenguetasdvjtvjod a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapgpzdnluo);
+    }).addTo(mapjdrvieqi);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapgpzdnluo === 'undefined') {
-    varinitmapgpzdnluo = initmapgpzdnluo();
+  if (typeof varinitmapjdrvieqi === 'undefined') {
+    varinitmapjdrvieqi = initmapjdrvieqi();
   };
 });
 </script>
+</div>
 </body>
 </html>

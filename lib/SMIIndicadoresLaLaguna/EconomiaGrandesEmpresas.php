@@ -20,11 +20,11 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
         $this->nombre      = 'Grandes Empresas en La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-grandes-empresas';
-        $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados';
+        $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
         $this->claves      = 'La Laguna, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetascrzaycir">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaseetpuskn">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -33,7 +33,7 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
   <div class="tab-content">
     <div class="tab-pane" id="descripcion">
       <h4>Descripción</h4>
-Porcentaje del total de empresas que cuentan con más de 250 empleados
+Porcentaje del total de empresas que cuentan con más de 250 empleados.
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -60,7 +60,7 @@ Porcentaje del total de empresas que cuentan con más de 250 empleados
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad de Empresas.
+<b>Unidad:</b> Porcentaje.
 
 <h4>Observaciones</h4>
 A nivel nacional, el 0.63% de las empresas son grandes.
@@ -71,12 +71,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisiohidsyx" class="grafica"></div>
+<div id="Morrisguezpblc" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetxveadntc" class="mapa"></div>
+              <div id="LeafLetsaxqgxwr" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +200,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetascrzaycir a:first').tab('show')
+  $('#Lenguetaseetpuskn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetascrzaycir a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaseetpuskn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisiohidsyx === 'undefined') {
-    varMorrisiohidsyx = Morris.Line({
-      element: 'Morrisiohidsyx',
+  if (typeof varMorrisguezpblc === 'undefined') {
+    varMorrisguezpblc = Morris.Line({
+      element: 'Morrisguezpblc',
       data: [{ fecha: '2013-12-31', dato: 0.5300 },{ fecha: '2014-07-31', dato: 1.0700 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -219,9 +219,9 @@ $('#Lenguetascrzaycir a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetascrzaycir a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaseetpuskn a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapxveadntc;
+  var mapsaxqgxwr;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -238,17 +238,17 @@ $('#Lenguetascrzaycir a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapxveadntc() {
+  function initmapsaxqgxwr() {
     // Nuevo Mapa
-    mapxveadntc = new L.Map('LeafLetxveadntc');
+    mapsaxqgxwr = new L.Map('LeafLetsaxqgxwr');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapxveadntc.setView(new L.LatLng(25.54, -103.44), 12);
+    mapsaxqgxwr.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapxveadntc.addLayer(osm);
+    mapsaxqgxwr.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -281,13 +281,13 @@ $('#Lenguetascrzaycir a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapxveadntc);
+    }).addTo(mapsaxqgxwr);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapxveadntc === 'undefined') {
-    varinitmapxveadntc = initmapxveadntc();
+  if (typeof varinitmapsaxqgxwr === 'undefined') {
+    varinitmapsaxqgxwr = initmapsaxqgxwr();
   };
 });
 FINAL;

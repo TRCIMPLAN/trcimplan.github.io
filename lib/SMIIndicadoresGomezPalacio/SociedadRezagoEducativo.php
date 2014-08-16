@@ -26,7 +26,7 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
         $this->claves      = 'Gómez Palacio, Educación, Grupos Vulnerables';
         $this->categorias  = array('Educación', 'Grupos Vulnerables');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetastbvnqyel">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetassdchozjv">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -68,7 +68,7 @@ Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetefjkacdy" class="mapa"></div>
+              <div id="LeafLetsbtvmjrt" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -115,12 +115,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetastbvnqyel a:first').tab('show')
+  $('#Lenguetassdchozjv a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetastbvnqyel a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetassdchozjv a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapefjkacdy;
+  var mapsbtvmjrt;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -137,17 +137,17 @@ $('#Lenguetastbvnqyel a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapefjkacdy() {
+  function initmapsbtvmjrt() {
     // Nuevo Mapa
-    mapefjkacdy = new L.Map('LeafLetefjkacdy');
+    mapsbtvmjrt = new L.Map('LeafLetsbtvmjrt');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapefjkacdy.setView(new L.LatLng(25.54, -103.44), 12);
+    mapsbtvmjrt.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapefjkacdy.addLayer(osm);
+    mapsbtvmjrt.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -180,13 +180,13 @@ $('#Lenguetastbvnqyel a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapefjkacdy);
+    }).addTo(mapsbtvmjrt);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapefjkacdy === 'undefined') {
-    varinitmapefjkacdy = initmapefjkacdy();
+  if (typeof varinitmapsbtvmjrt === 'undefined') {
+    varinitmapsbtvmjrt = initmapsbtvmjrt();
   };
 });
 FINAL;

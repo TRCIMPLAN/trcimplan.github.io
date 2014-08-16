@@ -24,7 +24,7 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrursixue">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasweywavgw">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +63,7 @@ El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones U
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetgyozokni" class="mapa"></div>
+              <div id="LeafLetjmobbtwj" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +110,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrursixue a:first').tab('show')
+  $('#Lenguetasweywavgw a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasrursixue a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasweywavgw a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapgyozokni;
+  var mapjmobbtwj;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +132,17 @@ $('#Lenguetasrursixue a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapgyozokni() {
+  function initmapjmobbtwj() {
     // Nuevo Mapa
-    mapgyozokni = new L.Map('LeafLetgyozokni');
+    mapjmobbtwj = new L.Map('LeafLetjmobbtwj');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapgyozokni.setView(new L.LatLng(25.54, -103.44), 12);
+    mapjmobbtwj.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapgyozokni.addLayer(osm);
+    mapjmobbtwj.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +175,13 @@ $('#Lenguetasrursixue a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapgyozokni);
+    }).addTo(mapjmobbtwj);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapgyozokni === 'undefined') {
-    varinitmapgyozokni = initmapgyozokni();
+  if (typeof varinitmapjmobbtwj === 'undefined') {
+    varinitmapjmobbtwj = initmapjmobbtwj();
   };
 });
 FINAL;

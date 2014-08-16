@@ -24,7 +24,7 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Grupos Vulnerables, Bienestar';
         $this->categorias  = array('Grupos Vulnerables', 'Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasijpafwfb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasilurejuk">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +64,7 @@ Consulta la [BasedeDatos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetuxsybrgc" class="mapa"></div>
+              <div id="LeafLethzlmgzku" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -111,12 +111,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasijpafwfb a:first').tab('show')
+  $('#Lenguetasilurejuk a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasijpafwfb a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasilurejuk a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapuxsybrgc;
+  var maphzlmgzku;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -133,17 +133,17 @@ $('#Lenguetasijpafwfb a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapuxsybrgc() {
+  function initmaphzlmgzku() {
     // Nuevo Mapa
-    mapuxsybrgc = new L.Map('LeafLetuxsybrgc');
+    maphzlmgzku = new L.Map('LeafLethzlmgzku');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapuxsybrgc.setView(new L.LatLng(25.54, -103.44), 12);
+    maphzlmgzku.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapuxsybrgc.addLayer(osm);
+    maphzlmgzku.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -176,13 +176,13 @@ $('#Lenguetasijpafwfb a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapuxsybrgc);
+    }).addTo(maphzlmgzku);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapuxsybrgc === 'undefined') {
-    varinitmapuxsybrgc = initmapuxsybrgc();
+  if (typeof varinitmaphzlmgzku === 'undefined') {
+    varinitmaphzlmgzku = initmaphzlmgzku();
   };
 });
 FINAL;

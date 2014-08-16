@@ -24,7 +24,7 @@ class EconomiaInversionExtranjeraDirecta extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Macroeconomía';
         $this->categorias  = array('Macroeconomía');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaszlfacepz">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasivswvhzq">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -67,7 +67,7 @@ y [Secretaría de Economía](http://www.economia.gob.mx/comunidad-negocios/compe
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetnkjpbsim" class="mapa"></div>
+              <div id="LeafLettoxhumys" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -128,12 +128,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaszlfacepz a:first').tab('show')
+  $('#Lenguetasivswvhzq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaszlfacepz a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasivswvhzq a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapnkjpbsim;
+  var maptoxhumys;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -150,17 +150,17 @@ $('#Lenguetaszlfacepz a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapnkjpbsim() {
+  function initmaptoxhumys() {
     // Nuevo Mapa
-    mapnkjpbsim = new L.Map('LeafLetnkjpbsim');
+    maptoxhumys = new L.Map('LeafLettoxhumys');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapnkjpbsim.setView(new L.LatLng(25.54, -103.44), 12);
+    maptoxhumys.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapnkjpbsim.addLayer(osm);
+    maptoxhumys.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -193,13 +193,13 @@ $('#Lenguetaszlfacepz a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapnkjpbsim);
+    }).addTo(maptoxhumys);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapnkjpbsim === 'undefined') {
-    varinitmapnkjpbsim = initmapnkjpbsim();
+  if (typeof varinitmaptoxhumys === 'undefined') {
+    varinitmaptoxhumys = initmaptoxhumys();
   };
 });
 FINAL;

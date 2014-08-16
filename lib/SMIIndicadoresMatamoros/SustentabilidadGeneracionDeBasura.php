@@ -24,7 +24,7 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasaukaqspf">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasnhyqpejr">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +64,7 @@ Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.asp
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetxiilyrbo" class="mapa"></div>
+              <div id="LeafLetokjejodn" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -139,12 +139,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasaukaqspf a:first').tab('show')
+  $('#Lenguetasnhyqpejr a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasaukaqspf a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnhyqpejr a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapxiilyrbo;
+  var mapokjejodn;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -161,17 +161,17 @@ $('#Lenguetasaukaqspf a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapxiilyrbo() {
+  function initmapokjejodn() {
     // Nuevo Mapa
-    mapxiilyrbo = new L.Map('LeafLetxiilyrbo');
+    mapokjejodn = new L.Map('LeafLetokjejodn');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapxiilyrbo.setView(new L.LatLng(25.54, -103.44), 12);
+    mapokjejodn.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapxiilyrbo.addLayer(osm);
+    mapokjejodn.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -204,13 +204,13 @@ $('#Lenguetasaukaqspf a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapxiilyrbo);
+    }).addTo(mapokjejodn);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapxiilyrbo === 'undefined') {
-    varinitmapxiilyrbo = initmapxiilyrbo();
+  if (typeof varinitmapokjejodn === 'undefined') {
+    varinitmapokjejodn = initmapokjejodn();
   };
 });
 FINAL;

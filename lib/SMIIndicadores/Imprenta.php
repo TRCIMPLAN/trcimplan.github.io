@@ -36,33 +36,39 @@ class Imprenta extends \Base\Imprenta {
      * @return string Mensajes para la terminal
      */
     public function imprimir() {
+        // Preparar el menu principal
+        $menu_principal = new \Base\MenuPrincipal();
+        // Preparar la plantilla
+        $plantilla                 = new \Base\Plantilla();
+        $plantilla->menu_principal = $menu_principal;
         // Bucle en los directorios
         foreach ($this->indicadores_directorios as $dir) {
+            // Directorio de donde tomar los archivos
             $directorio = "lib/$dir";
-            // Si no existe el directorio en turno
+            // Si no existe
             if (!is_dir($directorio)) {
                 $this->mensajes[] = "  No existe el directorio $directorio.";
                 continue;
             }
-            // Obtener los archivos PHP
+            // Obtener el listado con los archivos PHP
             $archivos = glob("$directorio/*.php");
             if ($archivos === false) {
-                $this->mensajes[] = "  Falló la obtención de archivos PHP en el directorio $dir.";
+                $this->mensajes[] = "  Falló la obtención de archivos PHP en el directorio $directorio.";
                 continue;
             }
             if (count($archivos) == 0) {
-                $this->mensajes[] = "  No hay archivos PHP en el directorio $dir.";
+                $this->mensajes[] = "  No hay archivos PHP en el directorio $directorio.";
                 continue;
             }
             // Bucle en los archivos encontrados
             foreach ($archivos as $archivo) {
-                // Definir la instancia con el indicador
+                // Definir la ruta a la clase
                 $clase_ruta = $dir.'\\'.basename($archivo, '.php');
+                // Definir la instancia de la publicación con el Indicador
                 $indicador  = new $clase_ruta();
-                // Definir la ruta de destino
-                $destino = "{$indicador->directorio}/{$indicador->archivo}.html";
-                // Definir la instancia con la clase
-                $plantilla              = new \Base\PlantillaHTML();
+                // Definir la ruta de destino (archvo HTML)
+                $destino    = "{$indicador->directorio}/{$indicador->archivo}.html";
+                // Pasar propiedades del Indicador a la Plantilla
                 $plantilla->titulo      = $indicador->nombre;
                 $plantilla->autor       = $indicador->autor;
                 $plantilla->descripcion = $indicador->descripcion;
@@ -73,7 +79,7 @@ class Imprenta extends \Base\Imprenta {
                 // Escribir el archivo HTML
                 $this->crear_directorio($indicador->directorio);    // Puede causar una excepción
                 $this->crear_archivo($destino, $plantilla->html()); // Puede causar una excepción
-                // Mensaje
+                // Agregar mensaje
                 $this->mensajes[] = "  Listo $destino";
             } // Bucle en los archivos encontrados
         } // Bucle en los directorios

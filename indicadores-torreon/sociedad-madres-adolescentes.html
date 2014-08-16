@@ -5,17 +5,20 @@
         Instituto Municipal de Planeación y Competitividad de Torreón.
         Todos los Derechos Reservados. © 2014.
 
-        Este sistema fue programado por el Staff del IMPLAN usando Software Libre.
+        Este sitio web fue elaborado por personal del IMPLAN Torreón usando Software Libre.
+
+        Descargue y colabore por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN/trcimplan.github.io
+
         Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
-           CMS de Movimiento Libre  http://cms.movimientolibre.com/
-           Twitter Bootstrap        http://getbootstrap.com/
-           Morris.js                http://www.oesmith.co.uk/morris.js/
-           GitHub                   http://github.com/
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
 
      ======================================================================================== -->
 <head>
   <meta charset="utf-8">
-  <title>Madres Adolescentes en Torreón - IMPLAN Torreón S.M.I.</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad">
@@ -28,41 +31,42 @@
   <meta name="og:title" content="Madres Adolescentes en Torreón">
   <meta name="og:description" content="Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad">
   <meta name="og:url" content="http://trcimplan.github.io/indicadores-torreon/sociedad-madres-adolescentes.html">
+  <title>Madres Adolescentes en Torreón - IMPLAN Torreón S.M.I.</title>
   <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón S.M.I.">
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/morris.css" rel="stylesheet">
   <link href="../css/leaflet.css" rel="stylesheet">
-  <link href="../css/cms.css" rel="stylesheet">
-  <!-- SOPORTE PARA IE8 -->
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
   <![endif]-->
 </head>
 <body>
-<nav class="navbar" role="navigation" id="menu-principal">
-  <div class="container">
+<div id="wrapper">
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-principal-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://trcimplan.github.io"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo.png"></a>
+      <a class="navbar-brand" href="../index.html"></a>
     </div>
-    <div class="navbar-collapse collapse" id="menu-principal-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="rss.xml">RSS</a></li>
-      </ul>
-    </div>
-  </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="rss.xml">RSS</a></li>
+    </ul>
 </nav>
 <div id="contenido">
   <div class="container">
   <h1>Madres Adolescentes en Torreón</h1>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvieebscn">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetascopzdfjd">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -131,12 +135,12 @@ Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema 
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morriswjitzwuw" class="grafica"></div>
+<div id="Morriseyfgublh" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetaptgupls" class="mapa"></div>
+              <div id="LeafLetifuhgbei" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
@@ -169,14 +173,14 @@ Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema 
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvieebscn a:first').tab('show')
+  $('#Lenguetascopzdfjd a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvieebscn a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetascopzdfjd a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriswjitzwuw === 'undefined') {
-    varMorriswjitzwuw = Morris.Line({
-      element: 'Morriswjitzwuw',
+  if (typeof varMorriseyfgublh === 'undefined') {
+    varMorriseyfgublh = Morris.Line({
+      element: 'Morriseyfgublh',
       data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -188,9 +192,9 @@ $('#Lenguetasvieebscn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasvieebscn a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetascopzdfjd a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapaptgupls;
+  var mapifuhgbei;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -207,17 +211,17 @@ $('#Lenguetasvieebscn a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapaptgupls() {
+  function initmapifuhgbei() {
     // Nuevo Mapa
-    mapaptgupls = new L.Map('LeafLetaptgupls');
+    mapifuhgbei = new L.Map('LeafLetifuhgbei');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapaptgupls.setView(new L.LatLng(25.54, -103.44), 12);
+    mapifuhgbei.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapaptgupls.addLayer(osm);
+    mapifuhgbei.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -250,15 +254,16 @@ $('#Lenguetasvieebscn a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapaptgupls);
+    }).addTo(mapifuhgbei);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapaptgupls === 'undefined') {
-    varinitmapaptgupls = initmapaptgupls();
+  if (typeof varinitmapifuhgbei === 'undefined') {
+    varinitmapifuhgbei = initmapifuhgbei();
   };
 });
 </script>
+</div>
 </body>
 </html>

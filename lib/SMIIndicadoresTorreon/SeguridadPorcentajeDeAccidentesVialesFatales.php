@@ -24,7 +24,7 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \Base\Publicacion {
         $this->claves      = 'Torreón, Vialidad';
         $this->categorias  = array('Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasboepdayc">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasitlevfmi">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +63,7 @@ Porcentaje de accidentes fatales entre accidentes viales totales
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrpmlswnf" class="mapa"></div>
+              <div id="LeafLetccjanjjs" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -117,12 +117,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasboepdayc a:first').tab('show')
+  $('#Lenguetasitlevfmi a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasboepdayc a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasitlevfmi a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprpmlswnf;
+  var mapccjanjjs;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +139,17 @@ $('#Lenguetasboepdayc a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprpmlswnf() {
+  function initmapccjanjjs() {
     // Nuevo Mapa
-    maprpmlswnf = new L.Map('LeafLetrpmlswnf');
+    mapccjanjjs = new L.Map('LeafLetccjanjjs');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprpmlswnf.setView(new L.LatLng(25.54, -103.44), 12);
+    mapccjanjjs.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprpmlswnf.addLayer(osm);
+    mapccjanjjs.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +182,13 @@ $('#Lenguetasboepdayc a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprpmlswnf);
+    }).addTo(mapccjanjjs);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprpmlswnf === 'undefined') {
-    varinitmaprpmlswnf = initmaprpmlswnf();
+  if (typeof varinitmapccjanjjs === 'undefined') {
+    varinitmapccjanjjs = initmapccjanjjs();
   };
 });
 FINAL;

@@ -24,7 +24,7 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasxememwan">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasosmeuvlc">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -48,31 +48,31 @@ Monto de créditos otorgados a la fecha indicada.
 <tbody>
 <tr>
 <td class="centrado">31/12/2010</td>
-<td class="derecha">66,279,954.0000</td>
+<td class="derecha">$ 66,279,954.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td class="centrado">31/12/2011</td>
-<td class="derecha">59,324,405.0000</td>
+<td class="derecha">$ 59,324,405.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td class="centrado">31/12/2012</td>
-<td class="derecha">57,375,581.0000</td>
+<td class="derecha">$ 57,375,581.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td class="centrado">31/12/2013</td>
-<td class="derecha">56,877,995.0000</td>
+<td class="derecha">$ 56,877,995.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td class="centrado">31/03/2014</td>
-<td class="derecha">57,702,472.0000</td>
+<td class="derecha">$ 57,702,472.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td>Dato trimestral</td>
 </tr>
@@ -89,12 +89,12 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisynlrdlbm" class="grafica"></div>
+<div id="Morriswkjfpbeo" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetiercoqij" class="mapa"></div>
+              <div id="LeafLetqygfmida" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -113,140 +113,140 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 <tr>
 <td>Torreón</td>
 <td>2010-12-31</td>
-<td class="derecha">3,479,653,828.0000</td>
+<td class="derecha">$ 3,479,653,828.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Torreón</td>
 <td>2011-12-31</td>
-<td class="derecha">3,741,316,668.0000</td>
+<td class="derecha">$ 3,741,316,668.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Torreón</td>
 <td>2012-12-31</td>
-<td class="derecha">4,027,766,032.0000</td>
+<td class="derecha">$ 4,027,766,032.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Torreón</td>
 <td>2013-12-31</td>
-<td class="derecha">4,476,538,920.0000</td>
+<td class="derecha">$ 4,476,538,920.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Torreón</td>
 <td>2014-03-31</td>
-<td class="derecha">4,664,619,926.0000</td>
+<td class="derecha">$ 4,664,619,926.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td>Dato trimestral</td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
 <td>2010-12-31</td>
-<td class="derecha">428,193,681.0000</td>
+<td class="derecha">$ 428,193,681.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
 <td>2011-12-31</td>
-<td class="derecha">487,730,197.0000</td>
+<td class="derecha">$ 487,730,197.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
 <td>2012-12-31</td>
-<td class="derecha">549,445,038.0000</td>
+<td class="derecha">$ 549,445,038.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
 <td>2013-12-31</td>
-<td class="derecha">588,858,276.0000</td>
+<td class="derecha">$ 588,858,276.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
 <td>2014-03-31</td>
-<td class="derecha">614,765,352.0000</td>
+<td class="derecha">$ 614,765,352.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td>Dato trimestral</td>
 </tr>
 <tr>
 <td>Lerdo</td>
 <td>2010-12-31</td>
-<td class="derecha">231,743,194.0000</td>
+<td class="derecha">$ 231,743,194.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Lerdo</td>
 <td>2011-12-31</td>
-<td class="derecha">240,598,550.0000</td>
+<td class="derecha">$ 240,598,550.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Lerdo</td>
 <td>2012-12-31</td>
-<td class="derecha">261,966,994.0000</td>
+<td class="derecha">$ 261,966,994.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Lerdo</td>
 <td>2013-12-31</td>
-<td class="derecha">319,887,703.0000</td>
+<td class="derecha">$ 319,887,703.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>Lerdo</td>
 <td>2014-03-31</td>
-<td class="derecha">334,888,287.0000</td>
+<td class="derecha">$ 334,888,287.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td>Dato trimestral</td>
 </tr>
 <tr>
 <td>La Laguna</td>
 <td>2010-12-31</td>
-<td class="derecha">4,205,870,657.0000</td>
+<td class="derecha">$ 4,205,870,657.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
 <td>2011-12-31</td>
-<td class="derecha">4,528,969,820.0000</td>
+<td class="derecha">$ 4,528,969,820.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
 <td>2012-12-31</td>
-<td class="derecha">4,896,553,645.0000</td>
+<td class="derecha">$ 4,896,553,645.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
 <td>2013-12-31</td>
-<td class="derecha">5,442,162,894.0000</td>
+<td class="derecha">$ 5,442,162,894.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
 <td>2014-03-31</td>
-<td class="derecha">5,671,976,037.0000</td>
+<td class="derecha">$ 5,671,976,037.00</td>
 <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
 <td>Dato trimestral</td>
 </tr>
@@ -260,15 +260,15 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasxememwan a:first').tab('show')
+  $('#Lenguetasosmeuvlc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasxememwan a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasosmeuvlc a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisynlrdlbm === 'undefined') {
-    varMorrisynlrdlbm = Morris.Line({
-      element: 'Morrisynlrdlbm',
-      data: [{ fecha: '2010-12-31', dato: 66279954.0000 },{ fecha: '2011-12-31', dato: 59324405.0000 },{ fecha: '2012-12-31', dato: 57375581.0000 },{ fecha: '2013-12-31', dato: 56877995.0000 },{ fecha: '2014-03-31', dato: 57702472.0000 }],
+  if (typeof varMorriswkjfpbeo === 'undefined') {
+    varMorriswkjfpbeo = Morris.Line({
+      element: 'Morriswkjfpbeo',
+      data: [{ fecha: '2010-12-31', dato: 66279954.00 },{ fecha: '2011-12-31', dato: 59324405.00 },{ fecha: '2012-12-31', dato: 57375581.00 },{ fecha: '2013-12-31', dato: 56877995.00 },{ fecha: '2014-03-31', dato: 57702472.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -279,9 +279,9 @@ $('#Lenguetasxememwan a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasxememwan a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasosmeuvlc a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapiercoqij;
+  var mapqygfmida;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -298,17 +298,17 @@ $('#Lenguetasxememwan a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapiercoqij() {
+  function initmapqygfmida() {
     // Nuevo Mapa
-    mapiercoqij = new L.Map('LeafLetiercoqij');
+    mapqygfmida = new L.Map('LeafLetqygfmida');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapiercoqij.setView(new L.LatLng(25.54, -103.44), 12);
+    mapqygfmida.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapiercoqij.addLayer(osm);
+    mapqygfmida.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -341,13 +341,13 @@ $('#Lenguetasxememwan a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapiercoqij);
+    }).addTo(mapqygfmida);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapiercoqij === 'undefined') {
-    varinitmapiercoqij = initmapiercoqij();
+  if (typeof varinitmapqygfmida === 'undefined') {
+    varinitmapqygfmida = initmapqygfmida();
   };
 });
 FINAL;

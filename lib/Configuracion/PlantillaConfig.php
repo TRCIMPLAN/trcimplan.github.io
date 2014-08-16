@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - SMI PlantillaHTML Config
+ * SMIbeta - Plantilla Config
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *
@@ -23,9 +23,9 @@
 namespace Configuracion;
 
 /**
- * Clase PlantillaHTMLConfig
+ * Clase PlantillaConfig
  */
-class PlantillaHTMLConfig {
+class PlantillaConfig {
 
     public $sitio_titulo        = 'IMPLAN Torreón S.M.I.';
     public $sitio_url           = 'http://trcimplan.github.io';
@@ -33,24 +33,12 @@ class PlantillaHTMLConfig {
     public $favicon             = 'imagenes/favicon.png';
     public $menu_principal_logo = 'imagenes/implan-barra-logo.png';
     public $pie                 = '<p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>';
+    public $propio_css          = 'css/trcimplan.css';
     public $en_raiz             = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
     public $para_compartir      = true;  // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
-    public $menu_principal;
-    public $menu_secundario;
+    public $menu_principal;              // Instancia de \Base\MenuPrincipal
+    public $menu_secundario;             // Instancia de \Base\MenuIzquierdo
 
-    /**
-     * Constructor
-     */
-    public function __construct() {
-        $menu_principal  = new \Base\MenuPrincipal();
-        $menu_principal->agregar_opcion();
-        $menu_principal->agregar_opcion_sub();
-        $menu_secundario = new \Base\MenuIzquierdo();
-        $menu_principal->agregar_opcion();
-        $menu_principal->agregar_opcion_sub();
-        $menu_principal->agregar_opcion_sub_sub();
-    } // constructor
-
-} // Clase PlantillaHTMLConfig
+} // Clase PlantillaConfig
 
 ?>
