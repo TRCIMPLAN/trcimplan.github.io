@@ -191,24 +191,24 @@ FINAL;
         $a[] = '  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>';
         $a[] = '  <![endif]-->';
         $a[] = '</head>';
-/* */
         $a[] = '<body>';
+/* */
         $a[] = '<div id="wrapper">';
 /* */
-        $a[] = '<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">';
+        $a[] = '  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">';
         if (is_object($this->menu_principal)) {
             $a[] = $this->menu_principal->html();
         }
         if (is_object($this->menu_izquierdo)) {
             $a[] = $this->menu_izquierdo->html();
         }
-        $a[] = '</nav>';
+        $a[] = '  </nav>';
 /* */
-        $a[] = '<div id="contenido">';
-        $a[] = '  <div class="container">';
+        $a[] = '  <div id="page-wrapper" style="min-height:459px;">';
+        $a[] = '    <div class="row">';
         if ($this->contenido_secundario != '') {
-            $a[] = '    <div class="row">';
-            $a[] = '      <div class="col-md-9">';
+          //$a[] = '    <div class="row">';
+          //$a[] = '      <div class="col-md-9">';
             if ($this->encabezado != '') {
                 $a[] = $this->encabezado;
             }
@@ -218,13 +218,13 @@ FINAL;
                 $a[] = "  <h1>{$this->titulo}</h1>";
             }
             $a[] = $this->contenido;
-            $a[] = '      </div>';
-            $a[] = '      <div class="col-md-3">';
+          //$a[] = '      </div>';
+          //$a[] = '      <div class="col-md-3">';
             $a[] = '        <aside>';
             $a[] = $this->contenido_secundario;
             $a[] = '        </aside>';
-            $a[] = '      </div>';
-            $a[] = '    </div>';
+          //$a[] = '      </div>';
+          //$a[] = '    </div>';
         } else {
             if ($this->encabezado != '') {
                 $a[] = $this->encabezado;
@@ -236,16 +236,15 @@ FINAL;
             }
             $a[] = $this->contenido;
         }
-        $a[] = '  </div>';
-        $a[] = '</div>';
         $a[] = $this->inferior_html();
         if ($this->pie != '') {
-            $a[] = '<footer id="pie">';
-            $a[] = ' <div class="container">';
+            $a[] = '      <div id="pie">';
             $a[] = $this->pie;
-            $a[] = '  </div>';
-            $a[] = '</footer>';
+            $a[] = '      </div>';
         }
+        $a[] = '    </div>'; // row
+        $a[] = '  </div>';   // page-wrapper
+        $a[] = '</div>'; // wrapper
         if ($this->en_raiz) {
             $a[] = '  <script src="js/jquery.min.js"></script>';
             $a[] = '  <script src="js/bootstrap.min.js"></script>';
@@ -266,10 +265,7 @@ FINAL;
             $a[] = $this->javascript;
             $a[] = '</script>';
         }
-/* */
-        $a[] = '</div>';
         $a[] = '</body>';
-/* */
         $a[] = '</html>';
         // Entregar
         return implode("\n", $a)."\n";

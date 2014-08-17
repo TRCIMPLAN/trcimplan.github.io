@@ -38,9 +38,12 @@ class Imprenta extends \Base\Imprenta {
     public function imprimir() {
         // Preparar el menu principal
         $menu_principal = new \Base\MenuPrincipal();
+        // Preparar el menu izquierdo
+        $menu_izquierdo = new \Base\MenuIzquierdo();
         // Preparar la plantilla
         $plantilla                 = new \Base\Plantilla();
         $plantilla->menu_principal = $menu_principal;
+        $plantilla->menu_izquierdo = $menu_izquierdo;
         // Bucle en los directorios
         foreach ($this->indicadores_directorios as $dir) {
             // Directorio de donde tomar los archivos

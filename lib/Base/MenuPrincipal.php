@@ -25,9 +25,10 @@ namespace Base;
 /**
  * Clase MenuPrincipal
  */
-class MenuPrincipal {
+class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
 
-    public $menu_principal_logo;
+    // public $sitio_titulo;
+    // public $menu_principal_logo;
     public $en_raiz = false;
 
     /**
@@ -40,6 +41,7 @@ class MenuPrincipal {
         $a = array();
         // Acumular
         $a[] = '    <div class="navbar-header">';
+        // Navbar-Toggle
         $a[] = '      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">';
         $a[] = '        <span class="sr-only">Toggle navigation</span>';
         $a[] = '        <span class="icon-bar"></span>';
@@ -60,12 +62,45 @@ class MenuPrincipal {
             }
         }
         $a[] = '    </div>';
-        $a[] = '    <ul class="nav navbar-nav navbar-right">';
-        $a[] = '      <li><a href="rss.xml">RSS</a></li>';
+        // Navbar
+        $a[] = '    <ul class="nav navbar-top-links">';
+        $a[] = '      <li class="dropdown">';
+        $a[] = '        <a class="dropdown-toggle" data-toggle="dropdown" href="#">';
+        $a[] = '          Institucional <i class="fa fa-caret-down"></i>';
+        $a[] = '        </a>';
+        $a[] = '        <ul class="dropdown-menu dropdown-user">';
+        $a[] = '          <li><a href="#">Visión / Misión</a></li>';
+        $a[] = '          <li><a href="#">Mensaje del Director</a></li>';
+        $a[] = '          <li><a href="#">Quienes Somos</a></li>';
+        $a[] = '          <li><a href="#">Estructura Orgánica</a></li>';
+        $a[] = '          <li><a href="#">Reglamentos</a></li>';
+        $a[] = '          <li><a href="#">Información Finaciera</a></li>';
+        $a[] = '        </ul>';
+        $a[] = '      </li>';
         $a[] = '    </ul>';
+        // Navbar-Right
+     // $a[] = '    <ul class="nav navbar-top-links navbar-right">';
+     // $a[] = '      <li><a href="rss.xml">RSS</a></li>';
+     // $a[] = '    </ul>';
         // Entregar
         return implode("\n", $a);
     } // html
+
+/*
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a></li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a></li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+ */
 
 } // Clase MenuPrincipal
 

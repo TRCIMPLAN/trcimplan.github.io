@@ -1,0 +1,63 @@
+<?php
+/*
+ * SMIbeta - Menu Principal Config
+ *
+ * Copyright (C) 2014 Guillermo Valdés Lozano
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+// NAMESPACE
+namespace Configuracion;
+
+/**
+ * Clase MenuPrincipalConfig
+ */
+class MenuPrincipalConfig {
+
+    public $sitio_titulo        = 'IMPLAN Torreón';
+    public $menu_principal_logo = 'imagenes/implan-barra-logo.png';
+
+    /**
+     * Constructor
+     */
+    public function __construct() {
+        $this->menu_principal_opciones = array(
+            'Institucional' => array(
+                'Visión / Misión'       => 'institucional/vision-mision.html',
+                'Mensaje del Director'  => 'institucional/mensaje-del-director.html',
+                'Quienes Somos'         => 'institucional/quienes-somos.html',
+                'Estructura Orgánica'   => 'institucional/estructura-organica.html',
+                'Reglamentos'           => 'institucional/reglamentos.html',
+                'Información Finaciera' => 'institucional/informacion-financiera.html'),
+            'Proyectos' => array(
+                'Sistema Metropolitano de Indicadores' => 'servicios/indicadores.html',
+                'Sistema de Información Geográfica'    => 'servicios/sig.html',
+                'Banco Municipal de Proyectos'         => 'servicios/banco-de-proyectos.html',
+                'Cartera de Proyectos'                 => 'servicios/proyectos.html'),
+            'Interacción' => array(
+                'Blog'    => 'interaccion/blog.html',
+                'Eventos' => 'interaccion/eventos.html'),
+            'Consejo Directivo' => array(
+                'Consejo Directivo'       => 'consejo-directivo/consejeros.html',
+                'Agenda'                  => 'consejo-directivo/agenda.html',
+                'Agenda Comités Técnicos' => 'consejo-directivo/agenda-comites-tecnicos.html'),
+            'Contacto'       => 'contacto.html',
+            'Sala de Prensa' => 'sala-de-prensa.html');
+    } // constructor
+
+} // Clase MenuPrincipalConfig
+
+?>

@@ -2,6 +2,45 @@
  * trcimplan.css
  */
 
+/*
+ * Global
+ */
+body {
+    background-color:#524B48;
+    font-family:"Liberation Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:14px;
+    line-height:1.2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:"Liberation Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:bold;
+}
+a,
+a:active,
+a:visited { text-decoration:none; color:#e2007e; }
+a:hover,
+a:focus   { text-decoration:none; color:#000; }
+
+/*
+ * Menús
+ */
+.navbar-default {
+    background-color:#524B48;
+    border-bottom:2px solid #ff7500;
+    color:#FFF;
+}
+.navbar-default a         { color:#FFF; font-weight:bold; }
+.navbar-default a:hover,
+.navbar-default a:focus   { color:#FF7500; }
+.navbar-default a:active,
+.navbar-default a:visited { color:#FFF; }
+
+/* Contenido */
 .mapa {
     height:500px;
     margin-top:8px;

@@ -29,11 +29,13 @@ class MenuIzquierdo {
 
     public $en_raiz = false;
 
-    /**
-     * Constructor
-     */
-    public function __construct() {
-    } // constructor
+    protected function rama($etiqueta, $url) {
+        if ($this->en_raiz) {
+            return "      <li>\n        <a href=\"$url\"><i class=\"fa fa-dashboard fa-fw\"></i> $etiqueta</a>\n      </li>";
+        } else {
+            return "      <li>\n        <a href=\"../$url\"><i class=\"fa fa-dashboard fa-fw\"></i> $etiqueta</a>\n      </li>";
+        }
+    } // rama
 
     /**
      * HTML
@@ -44,17 +46,22 @@ class MenuIzquierdo {
         // En este arreglo acumularemos la entrega
         $a = array();
         // Acumular
-        $a[] = "";
+        $a[] = '<div class="navbar-default sidebar" role="navigation">';
+        $a[] = '  <div class="sidebar-nav navbar-collapse">';
+        $a[] = '    <ul class="nav" id="side-menu">';
+
+        $a[] = $this->rama('Torreón',       'indicadores-torreon/');
+        $a[] = $this->rama('Gómez Palacio', 'indicadores-gomez-palacio/');
+        $a[] = $this->rama('Lerdo',         'indicadores-lerdo/');
+        $a[] = $this->rama('Matamoros',     'indicadores-matamoros/');
+        $a[] = $this->rama('La Laguna',     'indicadores-la-laguna/');
+
+        $a[] = '    </ul>';
+        $a[] = '  </div>';
+        $a[] = '</div>';
         // Entregar
         return implode("\n", $a);
     } // html
-
-        // Acumular
-/*
-            <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav" id="side-menu">
- */
 
 /* Un nivel
                         <li>
@@ -73,7 +80,6 @@ class MenuIzquierdo {
                                     <a href="morris.html">Morris.js Charts</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
                         </li>
  */
 
@@ -103,18 +109,11 @@ class MenuIzquierdo {
                                             <a href="#">Third Level Item</a>
                                         </li>
                                     </ul>
-                                    <!-- /.nav-third-level -->
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
                         </li>
  */
 
-/*
-                    </ul>
-                </div>
-            </div>
- */
 
 } // Clase MenuIzquierdo
 

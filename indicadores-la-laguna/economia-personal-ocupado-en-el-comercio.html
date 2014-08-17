@@ -31,9 +31,9 @@
   <meta name="og:title" content="Personal Ocupado en el Comercio en La Laguna">
   <meta name="og:description" content="Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.">
   <meta name="og:url" content="http://trcimplan.github.io/indicadores-la-laguna/economia-personal-ocupado-en-el-comercio.html">
-  <title>Personal Ocupado en el Comercio en La Laguna - IMPLAN Torreón S.M.I.</title>
+  <title>Personal Ocupado en el Comercio en La Laguna - IMPLAN Torreón</title>
   <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón S.M.I.">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/morris.css" rel="stylesheet">
   <link href="../css/leaflet.css" rel="stylesheet">
@@ -49,7 +49,7 @@
 </head>
 <body>
 <div id="wrapper">
-<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -57,14 +57,47 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../index.html"></a>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo.png" alt="IMPLAN Torreón"></a>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="rss.xml">RSS</a></li>
+    <ul class="nav navbar-top-links">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Institucional <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="#">Visión / Misión</a></li>
+          <li><a href="#">Mensaje del Director</a></li>
+          <li><a href="#">Quienes Somos</a></li>
+          <li><a href="#">Estructura Orgánica</a></li>
+          <li><a href="#">Reglamentos</a></li>
+          <li><a href="#">Información Finaciera</a></li>
+        </ul>
+      </li>
     </ul>
-</nav>
-<div id="contenido">
-  <div class="container">
+<div class="navbar-default sidebar" role="navigation">
+  <div class="sidebar-nav navbar-collapse">
+    <ul class="nav" id="side-menu">
+      <li>
+        <a href="../indicadores-torreon/"><i class="fa fa-dashboard fa-fw"></i> Torreón</a>
+      </li>
+      <li>
+        <a href="../indicadores-gomez-palacio/"><i class="fa fa-dashboard fa-fw"></i> Gómez Palacio</a>
+      </li>
+      <li>
+        <a href="../indicadores-lerdo/"><i class="fa fa-dashboard fa-fw"></i> Lerdo</a>
+      </li>
+      <li>
+        <a href="../indicadores-matamoros/"><i class="fa fa-dashboard fa-fw"></i> Matamoros</a>
+      </li>
+      <li>
+        <a href="../indicadores-la-laguna/"><i class="fa fa-dashboard fa-fw"></i> La Laguna</a>
+      </li>
+    </ul>
+  </div>
+</div>
+  </nav>
+  <div id="page-wrapper" style="min-height:459px;">
+    <div class="row">
   <h1>Personal Ocupado en el Comercio en La Laguna</h1>
   <ul class="nav nav-tabs lenguetas" id="Lenguetassxxatdlf">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
@@ -249,24 +282,23 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
     </div>
   </div>
-  </div>
-</div>
 <div id="inferior">
   <div class="container">
     <div class="row">
       <div class="col-md-9">
-        <a href="http://trcimplan.github.io"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón S.M.I."></a>
+        <a href="http://trcimplan.github.io"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
       </div>
       <div class="col-md-3">
       </div>
     </div>
   </div>
 </div>
-<footer id="pie">
- <div class="container">
+      <div id="pie">
 <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+      </div>
+    </div>
   </div>
-</footer>
+</div>
   <script src="../js/jquery.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/raphael-min.js"></script>
@@ -367,6 +399,5 @@ $('#Lenguetassxxatdlf a[href="#mapa"]').on('shown.bs.tab', function (e) {
   };
 });
 </script>
-</div>
 </body>
 </html>
