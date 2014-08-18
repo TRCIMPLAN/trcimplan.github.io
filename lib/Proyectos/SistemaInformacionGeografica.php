@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Proyectos Sistema de Información Geográfica
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -31,13 +31,25 @@ class SistemaInformacionGeografica extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = '';
-        $this->directorio  = '';
-        $this->archivo     = '';
-        $this->descripcion = '.';
+        $this->nombre      = 'Sistema de Información Geográfica';
+        $this->directorio  = 'proyectos';
+        $this->archivo     = 'sig';
+        $this->descripcion = 'Pendiente.';
         $this->claves      = '';
-        $this->categorias  = array('');
+        $this->categorias  = array('Proyectos');
+        $this->encabezado  = '<img class="img-responsive" src="sig/encabezado.jpg">';
         $this->contenido   = <<<FINAL
+<p>Un Sistema de Información Geográfica (SIG) más que una importante herramienta tecnológica es una estructura de personas y equipos computacionales dedicados a la recopilación, procesamiento, almacenamiento y análisis de datos con información valiosa para una adecuada toma de decisiones.</p>
+
+<p>La base de datos integrada al SIG, permitirá representar visualmente variables muy diversas (estadísticas, infraestructura, equipamiento, programas, proyectos) de distintas fuentes (imágenes de satélite, INEGI, CONEVAL, IMCO, IMPLAN y dependencias municipales) generando mapas de análisis, temáticos o informativos con datos de utilidad que permitan impulsar la competitividad de la ciudad y la zona metropolitana mediante la planeación a corto, mediano y largo plazo.</p>
+
+<p>La principal característica de este sistema es que está diseñado para ser una herramienta que permita el acceso a la ciudadanía como medio de consulta de información de la situación del municipio y de la zona metropolitana.</p>
+
+<p><img class="img-responsive" src="sig/gis-01-relieve.jpg" alt="GIS Relieve"></p>
+
+<p><img class="img-responsive" src="sig/gis-02-poligonos-pobreza.jpg" alt="GIS Poligonos Pobreza"></p>
+
+<p><img class="img-responsive" src="sig/gis-03-poligonos-cruzados.jpg" alt="GIS Polígonos Cruzados"></p>
 FINAL;
         $this->javascript  = <<<FINAL
 FINAL;

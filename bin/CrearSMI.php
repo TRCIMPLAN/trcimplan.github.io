@@ -38,7 +38,7 @@ $menu_principal = new \Base\MenuPrincipal();
 // Preparar el menu izquierdo
 $menu_izquierdo = new \Base\MenuIzquierdo();
 // Preparar la plantilla
-$plantilla                 = new \Base\Plantilla();
+$plantilla                 = new \Base\PlantillaMenuIzquierdo();
 $plantilla->menu_principal = $menu_principal;
 $plantilla->menu_izquierdo = $menu_izquierdo;
 // Preparar impresor

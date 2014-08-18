@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Institucional Reglamentos
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -36,8 +36,11 @@ class Reglamentos extends \Base\Publicacion {
         $this->archivo     = 'reglamentos';
         $this->descripcion = 'Pendiente.';
         $this->claves      = 'Pendiente';
-        $this->categorias  = array('Pendiente');
+        $this->categorias  = array('Institucional');
+        $this->encabezado  = '<img class="img-responsive" src="reglamentos/encabezado.jpg">';
         $this->contenido   = <<<FINAL
+<p style="text-align: center;"><a href="reglamentos/trcimplan-reglamento.pdf"><img src="reglamentos/icono-descargar.png" alt="Descargar"></a><br>
+Descargue el <a title="Reglamento del IMPLAN Torreón" href="reglamentos/trcimplan-reglamento.pdf">Reglamento del IMPLAN Torreón</a>.</p>
 FINAL;
         $this->javascript  = <<<FINAL
 FINAL;

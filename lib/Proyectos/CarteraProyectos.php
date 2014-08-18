@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Proyectos Cartera de Proyectos
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -31,12 +31,13 @@ class CarteraProyectos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = '';
-        $this->directorio  = '';
-        $this->archivo     = '';
-        $this->descripcion = '.';
-        $this->claves      = '';
-        $this->categorias  = array('');
+        $this->nombre      = 'Cartera de Proyectos';
+        $this->directorio  = 'proyectos';
+        $this->archivo     = 'cartera-proyectos';
+        $this->descripcion = 'Pendiente.';
+        $this->claves      = 'IMPLAN, Torreon, Proyectos, Cartera';
+        $this->categorias  = array('Proyectos');
+        $this->encabezado  = '<img class="img-responsive" src="cartera-proyectos/encabezado.jpg">';
         $this->contenido   = <<<FINAL
 FINAL;
         $this->javascript  = <<<FINAL

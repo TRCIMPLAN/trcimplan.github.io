@@ -32,62 +32,39 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     // public $rss;
     // public $favicon;
     // public $menu_principal_logo;
-    // public $pie;
     // public $propio_css;
     // public $en_raiz;
     // public $para_compartir;
-    // public $menu_principal;
-    // public $menu_secundario;
-    public $titulo;               // Título de la página
-    public $autor;                // Persona que sea la autora
-    public $descripcion;          // Descripción del sitio o la página
-    public $claves;               // Claves que ayuden a los buscadores
-    public $ruta;                 // Ruta relativa a la pagina HTML con la publicación para_compartir
-    public $imagen_previa;        // Ruta relativa a la imagen a usar para_compartir
-    public $contenido;            // Código HTML con el contenido
-    public $contenido_secundario; // Código HTML que crea una segunda columna más delgada del lado derecho
-    public $javascript;           // Código Javascript
+    // public $mensaje_oculto;
+    // public $pie;
+    public $titulo;         // Título de la página
+    public $autor;          // Persona que sea la autora
+    public $descripcion;    // Descripción del sitio o la página
+    public $claves;         // Claves que ayuden a los buscadores
+    public $ruta;           // Ruta relativa a la pagina HTML con la publicación para_compartir
+    public $imagen_previa;  // Ruta relativa a la imagen a usar para_compartir
+    public $menu_principal; // Instancia de \Base\MenuPrincipal
+    public $encabezado;     // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior
+    public $contenido;      // Código HTML con el contenido
+    public $javascript;     // Código Javascript
 
     /**
-     * Encabezado HTML
-     *
-     * @return string Código HTML
+     * Inferior
      */
-    public function encabezado_html() {
-        if ($this->en_raiz) {
-            return '<a href="index.html"><img class="img-responsive img-encabezado" src="imagenes/encabezado-smi2.jpg"></a>';
-        } else {
-            return '<a href="../index.html"><img class="img-responsive img-encabezado" src="../imagenes/encabezado-smi2.jpg"></a>';
-        }
-    } // encabezado_html
-
-    /**
-     * Inferior HTML
-     *
-     * @return string Código HTML
-     */
-    public function inferior_html() {
+    protected function inferior() {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '<div id="inferior">';
-        $a[] = '  <div class="container">';
-        $a[] = '    <div class="row">';
-        $a[] = '      <div class="col-md-9">';
+        $a[] = '    <div class="row inferior">';
         if ($this->en_raiz) {
             $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
         } else {
             $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"../imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
         }
-        $a[] = '      </div>';
-        $a[] = '      <div class="col-md-3">';
-        $a[] = '      </div>';
-        $a[] = '    </div>';
-        $a[] = '  </div>';
-        $a[] = '</div>';
+        $a[] = '    </div>'; // row inferior
         // Entregar
         return implode("\n", $a);
-    } // inferior_html
+    } // inferior
 
     /**
      * HTML
@@ -100,25 +77,9 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // Acumular
         $a[] = '<!DOCTYPE html>';
         $a[] = '<html lang="es">';
-        $a[] = <<<FINAL
-<!-- ========================================================================================
-
-        Instituto Municipal de Planeación y Competitividad de Torreón.
-        Todos los Derechos Reservados. © 2014.
-
-        Este sitio web fue elaborado por personal del IMPLAN Torreón usando Software Libre.
-
-        Descargue y colabore por medio de GitHub:
-           GitHub             https://github.com/TRCIMPLAN/trcimplan.github.io
-
-        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
-           Twitter Bootstrap  http://getbootstrap.com
-           StartBootStrap     http://startbootstrap.com
-           Morris.js          http://www.oesmith.co.uk/morris.js
-           LeafLet            http://leafletjs.com
-
-     ======================================================================================== -->
-FINAL;
+        if ($this->mensaje_oculto != '') {
+            $a[] = $this->mensaje_oculto;
+        }
         $a[] = '<head>';
         $a[] = '  <meta charset="utf-8">';
         $a[] = '  <meta http-equiv="X-UA-Compatible" content="IE=edge">';
@@ -191,10 +152,10 @@ FINAL;
         $a[] = '  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>';
         $a[] = '  <![endif]-->';
         $a[] = '</head>';
+        // Body Inicia
         $a[] = '<body>';
-/* */
         $a[] = '<div id="wrapper">';
-/* */
+        // Menús Inicia
         $a[] = '  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">';
         if (is_object($this->menu_principal)) {
             $a[] = $this->menu_principal->html();
@@ -203,69 +164,38 @@ FINAL;
             $a[] = $this->menu_izquierdo->html();
         }
         $a[] = '  </nav>';
-/* */
-        $a[] = '  <div id="page-wrapper" style="min-height:459px;">';
-        $a[] = '    <div class="row">';
-        if ($this->contenido_secundario != '') {
-          //$a[] = '    <div class="row">';
-          //$a[] = '      <div class="col-md-9">';
-            if ($this->encabezado != '') {
-                $a[] = $this->encabezado;
-            }
-            if ($this->titulo == '') {
-                $a[] = "  <h1>{$this->sitio_titulo}</h1>";
-            } else {
-                $a[] = "  <h1>{$this->titulo}</h1>";
-            }
-            $a[] = $this->contenido;
-          //$a[] = '      </div>';
-          //$a[] = '      <div class="col-md-3">';
-            $a[] = '        <aside>';
-            $a[] = $this->contenido_secundario;
-            $a[] = '        </aside>';
-          //$a[] = '      </div>';
-          //$a[] = '    </div>';
-        } else {
-            if ($this->encabezado != '') {
-                $a[] = $this->encabezado;
-            }
-            if ($this->titulo == '') {
-                $a[] = "  <h1>{$this->sitio_titulo}</h1>";
-            } else {
-                $a[] = "  <h1>{$this->titulo}</h1>";
-            }
-            $a[] = $this->contenido;
-        }
-        $a[] = $this->inferior_html();
-        if ($this->pie != '') {
-            $a[] = '      <div id="pie">';
-            $a[] = $this->pie;
-            $a[] = '      </div>';
-        }
-        $a[] = '    </div>'; // row
-        $a[] = '  </div>';   // page-wrapper
+        // Menús Termina
+        // Contenido Inicia
+        $a[] = $this->elaborar_contenido();
+        // Contenido Termina
         $a[] = '</div>'; // wrapper
+        $a[] = '<div id="pie">';
+        $a[] = $this->pie;
+        $a[] = '</div>';
+        // Javascript Inicia
         if ($this->en_raiz) {
-            $a[] = '  <script src="js/jquery.min.js"></script>';
-            $a[] = '  <script src="js/bootstrap.min.js"></script>';
-            $a[] = '  <script src="js/raphael-min.js"></script>';
-            $a[] = '  <script src="js/morris.min.js"></script>';
-            $a[] = '  <script src="js/leaflet.js"></script>';
-            $a[] = '  <script src="js/google-analytics.js"></script>';
+            $a[] = '<script src="js/jquery.min.js"></script>';
+            $a[] = '<script src="js/bootstrap.min.js"></script>';
+            $a[] = '<script src="js/raphael-min.js"></script>';
+            $a[] = '<script src="js/morris.min.js"></script>';
+            $a[] = '<script src="js/leaflet.js"></script>';
+            $a[] = '<script src="js/google-analytics.js"></script>';
         } else {
-            $a[] = '  <script src="../js/jquery.min.js"></script>';
-            $a[] = '  <script src="../js/bootstrap.min.js"></script>';
-            $a[] = '  <script src="../js/raphael-min.js"></script>';
-            $a[] = '  <script src="../js/morris.min.js"></script>';
-            $a[] = '  <script src="../js/leaflet.js"></script>';
-            $a[] = '  <script src="../js/google-analytics.js"></script>';
+            $a[] = '<script src="../js/jquery.min.js"></script>';
+            $a[] = '<script src="../js/bootstrap.min.js"></script>';
+            $a[] = '<script src="../js/raphael-min.js"></script>';
+            $a[] = '<script src="../js/morris.min.js"></script>';
+            $a[] = '<script src="../js/leaflet.js"></script>';
+            $a[] = '<script src="../js/google-analytics.js"></script>';
         }
         if (trim($this->javascript) != '') {
             $a[] = '<script>';
             $a[] = $this->javascript;
             $a[] = '</script>';
         }
+        // Javascript Termina
         $a[] = '</body>';
+        // Body Termina
         $a[] = '</html>';
         // Entregar
         return implode("\n", $a)."\n";

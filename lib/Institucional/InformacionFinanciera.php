@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Institucional Información Financiera
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -34,10 +34,12 @@ class InformacionFinanciera extends \Base\Publicacion {
         $this->nombre      = 'Información Financiera';
         $this->directorio  = 'institucional';
         $this->archivo     = 'informacion-financiera';
-        $this->descripcion = 'Pendiente.';
-        $this->claves      = 'Pendiente';
-        $this->categorias  = array('Pendiente');
+        $this->descripcion = 'Respecto al avance de Gestión Financiera del IMPLAN Torreón.';
+        $this->claves      = 'IMPLAN, Torreon, Gestion, Financiera';
+        $this->categorias  = array('Institucional');
+        $this->encabezado  = '';
         $this->contenido   = <<<FINAL
+<p>Respecto al avance de Gestión Financiera del primer y segundo trimestre del presente año, actualmente el Instituto Municipal de Planeación y Competitividad de Torreón se encuentra en proceso de descentralización de la Administración Municipal de Torreón, de tal forma que aún no genera información financiera propia.</p>
 FINAL;
         $this->javascript  = <<<FINAL
 FINAL;

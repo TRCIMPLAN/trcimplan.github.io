@@ -31,7 +31,7 @@ class Imprenta {
     public $mensajes = array();
 
     /**
-     * Eliminar un directorio y sus archivos
+     * Eliminar un directorio y todos sus archivos
      *
      * @param string Ruta al directorio a eliminar
      */
@@ -79,7 +79,7 @@ class Imprenta {
      * @param string Ruta al archivo a crear
      * @param mixed  Texto o arreglo con el contenido
      */
-    protected function crear_archivo($ruta, $contenido) {
+    public function crear_archivo($ruta, $contenido) {
         // Validar parámetros
         if (trim($ruta) == '') {
             throw new ImprentaExceptionValidacion("Error en Imprenta, crear_archivo: Parámetro vacío, la ruta.");
@@ -102,13 +102,15 @@ class Imprenta {
         fclose($apuntador);
         // Agregar mensaje
         $this->mensajes[] = "  Listo {$ruta}";
+        // Entregar mensaje
+        return "  Listo {$ruta}";
     } // crear_archivo
 
     /**
      * Recolectar Clases
      *
-     * @param  string Ruta relativa al directorio donde se van a buscar archivos PHP
-     * @return array  Arreglo con las rutas a las clases
+     * @param  string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
+     * @return array  Arreglo con textos de la forma Directorio\Clase
      */
     protected function recolectar_clases($dir) {
         // Validar parámetro
@@ -142,31 +144,30 @@ class Imprenta {
     /**
      * Imprimir
      *
-     * @param  string Ruta al directorio donde estén las clases como archivos PHP
+     * @param  string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
      * @return string Mensajes para la terminal
      */
-    public function imprimir($directorio) {
+    public function imprimir($dir) {
         // Validar que la plantilla esté definida
         if (!is_object($this->plantilla)) {
             throw new ImprentaExceptionValidacion("Error en Imprenta, imprimir_directorio: No está definida la plantilla.");
         }
         // Bucle con las clases recolectadas
-        foreach ($this->recolectar_clases($directorio) as $clase) { // Puede causar una excepción
+        foreach ($this->recolectar_clases($dir) as $clase) { // Puede causar una excepción
             // Definir instancia
             $publicacion = new $clase();
-            // Definir la ruta de destino (archivo HTML)
-            $destino = "{$publicacion->directorio}/{$publicacion->archivo}.html";
             // Pasar propiedades del Indicador a la Plantilla
             $this->plantilla->titulo      = $publicacion->nombre;
             $this->plantilla->autor       = $publicacion->autor;
             $this->plantilla->descripcion = $publicacion->descripcion;
             $this->plantilla->claves      = $publicacion->claves;
-            $this->plantilla->ruta        = $destino;
+            $this->plantilla->ruta        = "{$publicacion->directorio}/{$publicacion->archivo}.html";
+            $this->plantilla->encabezado  = $publicacion->encabezado;
             $this->plantilla->contenido   = $publicacion->contenido;
             $this->plantilla->javascript  = $publicacion->javascript;
             // Escribir el archivo HTML
-            $this->crear_directorio($publicacion->directorio);  // Puede causar una excepción
-            $this->crear_archivo($destino, $this->plantilla->html()); // Puede causar una excepción
+            $this->crear_directorio($publicacion->directorio);                      // Puede causar una excepción
+            $this->crear_archivo($this->plantilla->ruta, $this->plantilla->html()); // Puede causar una excepción
         }
         // Entregar mensajes
         return implode("\n", $this->mensajes);

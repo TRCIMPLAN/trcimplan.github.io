@@ -30,7 +30,7 @@ class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
     // public $sitio_titulo;
     // public $menu_principal_logo;
     // public $menu_principal_opciones;
-    public $en_raiz = false;
+    public $en_raiz = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
 
     /**
      * Opción
@@ -42,7 +42,11 @@ class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
         $a = array();
         // Acumular
         $a[] = '      <li>';
-        $a[] = "        <a href=\"$url\">$etiqueta</a>";
+        if ($this->en_raiz) {
+            $a[] = "        <a href=\"$url\">$etiqueta</a>";
+        } else {
+            $a[] = "        <a href=\"../$url\">$etiqueta</a>";
+        }
         $a[] = '      </li>';
         // Entregar
         return implode("\n", $a);
@@ -63,7 +67,11 @@ class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
         $a[] = '        </a>';
         $a[] = '        <ul class="dropdown-menu dropdown-user">';
         foreach ($opciones as $eti => $url) {
-            $a[] = "          <li><a href=\"$url\">$eti</a></li>";
+            if ($this->en_raiz) {
+                $a[] = "          <li><a href=\"$url\">$eti</a></li>";
+            } else {
+                $a[] = "          <li><a href=\"../$url\">$eti</a></li>";
+            }
         }
         $a[] = '        </ul>';
         $a[] = '      </li>';

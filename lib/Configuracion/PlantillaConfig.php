@@ -28,16 +28,33 @@ namespace Configuracion;
 class PlantillaConfig {
 
     public $sitio_titulo        = 'IMPLAN Torreón';
-    public $sitio_url           = 'http://trcimplan.github.io';
+    public $sitio_url           = 'http://trcimplan.gob.mx';
     public $rss                 = 'rss.xml';
     public $favicon             = 'imagenes/favicon.png';
     public $menu_principal_logo = 'imagenes/implan-barra-logo.png';
-    public $pie                 = '<p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>';
     public $propio_css          = 'css/trcimplan.css';
     public $en_raiz             = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
     public $para_compartir      = true;  // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
-    public $menu_principal;              // Instancia de \Base\MenuPrincipal
-    public $menu_secundario;             // Instancia de \Base\MenuIzquierdo
+    public $mensaje_oculto      = <<<FINAL
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sitio web fue elaborado por personal del IMPLAN Torreón usando Software Libre.
+
+        Descargue y colabore por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+FINAL;
+    public $pie                 = '      <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>';
 
 } // Clase PlantillaConfig
 

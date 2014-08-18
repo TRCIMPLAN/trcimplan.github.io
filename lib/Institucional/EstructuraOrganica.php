@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Institucional Estructura Orgánica
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -34,10 +34,30 @@ class EstructuraOrganica extends \Base\Publicacion {
         $this->nombre      = 'Estructura Orgánica';
         $this->directorio  = 'institucional';
         $this->archivo     = 'estructura-organica';
-        $this->descripcion = 'Pendiente.';
-        $this->claves      = 'Pendiente';
-        $this->categorias  = array('Pendiente');
+        $this->descripcion = 'La Estructura Orgánica del IMPLAN Torréon está formada por el Consejo Directivo, los Comités Técnicos, el Director General Ejecutivo y el Cuerpo Técnico.';
+        $this->claves      = 'IMPLAN, Torreon, Estructura, Organica, Consejo, Comites, Tecnicos, Director, Cuerpo';
+        $this->categorias  = array('Institucional');
+        $this->encabezado  = '<img class="img-responsive" src="estructura-organica/encabezado.jpg">';
         $this->contenido   = <<<FINAL
+<p><img class="img-responsive" src="estructura-organica/estructura-organica.png" alt="Estructura Orgánica"></p>
+
+<h3>Consejo Directivo</h3>
+
+<p>Órgano representativo de la ciudadanía y el gobierno municipal para concertar los planes y la visión de ciudad a largo plazo.</p>
+
+<h3>Comités Técnicos</h3>
+
+<p>Grupos de trabajo plurales para temas específicos donde convergen ciudadanos, académicos, funcionarios y equipo técnico del instituto.</p>
+
+<h3>Director General Ejecutivo</h3>
+
+<p>Un miembro de la sociedad que enlaza y encausa la visión ciudadana y el conocimiento técnico.</p>
+
+<h3>Cuerpo Técnico</h3>
+
+<p>Personal altamente capacitado para instrumentar la investigación, planeación y proyectos estratégicos.</p>
+
+<p><img class="img-responsive" src="estructura-organica/estructura-cuerpo-tecnico.png" alt="Cuerpo Técnico"></p>
 FINAL;
         $this->javascript  = <<<FINAL
 FINAL;

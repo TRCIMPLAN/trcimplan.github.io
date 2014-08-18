@@ -1,397 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+<!-- ========================================================================================
 
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sitio web fue elaborado por personal del IMPLAN Torreón usando Software Libre.
+
+        Descargue y colabore por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- MetisMenu CSS -->
-    <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/sb-admin-2.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/">
+  <meta name="og:title" content="">
+  <meta name="og:description" content="">
+  <meta name="og:url" content="http://trcimplan.gob.mx/">
+  <title>IMPLAN Torreón</title>
+  <link href="imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/morris.css" rel="stylesheet">
+  <link href="css/leaflet.css" rel="stylesheet">
+  <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
 </head>
-
 <body>
-
-    <div id="wrapper">
-
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
-            </div>
-            <!-- /.navbar-header -->
-
-            <ul class="nav navbar-top-links navbar-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-messages">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong>John Smith</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
-                                    </span>
-                                </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong>John Smith</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
-                                    </span>
-                                </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong>John Smith</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
-                                    </span>
-                                </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>Read All Messages</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-messages -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-tasks fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-tasks">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 1</strong>
-                                        <span class="pull-right text-muted">40% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                            <span class="sr-only">40% Complete (success)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 2</strong>
-                                        <span class="pull-right text-muted">20% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                            <span class="sr-only">20% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 3</strong>
-                                        <span class="pull-right text-muted">60% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            <span class="sr-only">60% Complete (warning)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 4</strong>
-                                        <span class="pull-right text-muted">80% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                            <span class="sr-only">80% Complete (danger)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>See All Tasks</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-tasks -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-alerts">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
-                                    <span class="pull-right text-muted small">12 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-tasks fa-fw"></i> New Task
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>See All Alerts</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-alerts -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                </li>
-                <!-- /.dropdown -->
-            </ul>
-            <!-- /.navbar-top-links -->
-
-            <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav" id="side-menu">
-                        <li class="sidebar-search">
-                            <div class="input-group custom-search-form">
-                                <input type="text" class="form-control" placeholder="Search...">
-                                <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </span>
-                            </div>
-                            <!-- /input-group -->
-                        </li>
-                        <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="flot.html">Flot Charts</a>
-                                </li>
-                                <li>
-                                    <a href="morris.html">Morris.js Charts</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
-                        </li>
-                        <li>
-                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="panels-wells.html">Panels and Wells</a>
-                                </li>
-                                <li>
-                                    <a href="buttons.html">Buttons</a>
-                                </li>
-                                <li>
-                                    <a href="notifications.html">Notifications</a>
-                                </li>
-                                <li>
-                                    <a href="typography.html">Typography</a>
-                                </li>
-                                <li>
-                                    <a href="grid.html">Grid</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="#">Second Level Item</a>
-                                </li>
-                                <li>
-                                    <a href="#">Second Level Item</a>
-                                </li>
-                                <li>
-                                    <a href="#">Third Level <span class="fa arrow"></span></a>
-                                    <ul class="nav nav-third-level">
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                    </ul>
-                                    <!-- /.nav-third-level -->
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li class="active">
-                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a class="active" href="blank.html">Blank Page</a>
-                                </li>
-                                <li>
-                                    <a href="login.html">Login Page</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.sidebar-collapse -->
-            </div>
-            <!-- /.navbar-static-side -->
-        </nav>
-
-        <!-- Page Content -->
-        <div id="page-wrapper">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Blank</h1>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /#page-wrapper -->
-
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img class="navbar-brand-img" src="imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
     </div>
-    <!-- /#wrapper -->
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/sb-admin-2.js"></script>
-
+    <ul class="nav navbar-top-links">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Institucional <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="institucional/vision-mision.html">Visión / Misión</a></li>
+          <li><a href="institucional/mensaje-del-director.html">Mensaje del Director</a></li>
+          <li><a href="institucional/quienes-somos.html">Quienes Somos</a></li>
+          <li><a href="institucional/estructura-organica.html">Estructura Orgánica</a></li>
+          <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0">Transparencia</a></li>
+          <li><a href="institucional/reglamentos.html">Reglamentos</a></li>
+          <li><a href="institucional/informacion-financiera.html">Información Finaciera</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Servicios <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="proyectos/smi.html">Sistema Metropolitano de Indicadores</a></li>
+          <li><a href="proyectos/sig.html">Sistema de Información Geográfica</a></li>
+          <li><a href="proyectos/banco-municipal-proyectos.html">Banco Municipal de Proyectos</a></li>
+          <li><a href="proyectos/cartera-proyectos.html">Cartera de Proyectos</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Interacción <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="blog/index.html">Blog</a></li>
+          <li><a href="eventos/index.html">Eventos</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Consejo Directivo <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="consejo-directivo/index.html">Consejo Directivo</a></li>
+          <li><a href="consejo-directivo/agenda.html">Agenda Consejo Directivo</a></li>
+          <li><a href="consejo-directivo/agenda-comites-tecnicos.html">Agenda Comités Técnicos</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="contacto/index.html">Contacto</a>
+      </li>
+      <li>
+        <a href="sala-de-prensa/index.html">Sala de Prensa</a>
+      </li>
+    </ul>
+  </nav>
+<div id="carrusel">
+  <div class="container">
+    <div class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carrusel" data-slide-to="0" class="active"></li>
+        <li data-target="#carrusel" data-slide-to="1"></li>
+        <li data-target="#carrusel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="imagenes/carrusel-smi.jpg" alt="Sistema Metropolitano de Indicadores">
+        </div>
+        <div class="item">
+          <img src="imagenes/carrusel-sig.jpg" alt="Sistema de Información Geográfica">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carrusel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#carrusel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+  </div>
+</div>
+<!-- DESTACADO INICIA -->
+<div id="destacado">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <!-- DESTACADO IZQUIERDA INICIA -->
+          <div class="col-md-6">
+            <a href="proyectos/smi.html"><img class="img-responsive destacado-izquierda" src="imagenes/destacado-boton-smi.jpg" alt="Sistema Metropolitano de Indicadores"></a>
+            <a href="proyectos/sig.html"><img class="img-responsive destacado-izquierda" src="imagenes/destacado-boton-sig.jpg" alt="Sistema de Información Geográfica"></a>
+          </div>
+          <!-- DESTACADO IZQUIERDA TERMINA -->
+          <!-- DESTACADO CENTRAL INICIA -->
+          <div class="col-md-6">
+            <div class="media">
+              <a class="pull-left" href="blog/movilidad-laboral-cotidiana-en-la-zml.html"></a>
+              <div class="media-body">
+                <h4><a href="blog/movilidad-laboral-cotidiana-en-la-zml.html">Movilidad laboral cotidiana en la ZML</a></h4>
+                <p>En una zona metropolitana en donde los límites municipales son divisiones imaginarias, en términos prácticos, para las necesidades de la población el traslado de [&hellip;]</p>
+                <p class="pull-left autor-fecha">Lic. Luis A. Gutiérrez Arizpe.</p>
+                <p class="pull-right autor-fecha"><a href="blog/movilidad-laboral-cotidiana-en-la-zml.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="text-center"><button type="button" class="btn boton" onclick="javascript:location.href='blog/index.html'">Todas las publicaciones</button></div>
+          </div>
+          <!-- DESTACADO CENTRAL TERMINA -->
+        </div>
+        <!-- BARRA ROSA INICIA -->
+        <div class="barra-rosa">
+          <div class="barra-rosa-block">
+            <div class="barra-rosa-vinculo">
+              <a href="institucional/reglamentos.html"><img class="img-responsive" src="imagenes/promocion-planes-reglamentos.png" alt="Reglamentos">REGLAMENTOS</a>
+            </div>
+          </div>
+          <div class="barra-rosa-block">
+            <div class="barra-rosa-vinculo">
+              <a href="proyectos/sig.html"><img class="img-responsive" src="imagenes/promocion-sig.png" alt="SIG">SIG</a>
+            </div>
+          </div>
+          <div class="barra-rosa-block">
+            <div class="barra-rosa-vinculo">
+              <a href="proyectos/smi.html"><img class="img-responsive" src="imagenes/promocion-indicadores.png" alt="Indicadores">INDICADORES</a>
+            </div>
+          </div>
+          <div class="barra-rosa-block">
+            <div class="barra-rosa-vinculo">
+              <a href="proyectos/banco-proyectos.html"><img class="img-responsive" src="imagenes/promocion-proyectos.png" alt="Proyectos">BANCO DE PROYECTOS</a>
+            </div>
+          </div>
+          <div class="barra-rosa-block">
+            <div class="barra-rosa-vinculo">
+              <a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><img class="img-responsive" src="imagenes/promocion-transparencia.png" alt="Transparencia">TRANSPARENCIA</a>
+            </div>
+          </div>
+        </div>
+        <!-- BARRA ROSA TERMINA -->
+      </div>
+      <!-- DESTACADO DERECHA INICIA -->
+      <div class="col-md-3">
+        <a href="blog/metropoli-del-conocimiento.html"><img class="img-responsive destacado-derecha" src="imagenes/metropoli-del-conocimiento.jpg" alt="Metropoli del Conocimiento"></a>
+        <a href="proyectos/smi.html"><img class="img-responsive destacado-derecha" src="imagenes/indicador-osc-400x400.jpg" alt="Torreón cuenta con 324 Organizaciones de la Sociedad Civil" /></a>
+      </div>
+      <!-- DESTACADO DERECHA TERMINA -->
+    </div>
+  </div>
+</div>
+</div>
+<div id="pie">
+      <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/raphael-min.js"></script>
+<script src="js/morris.min.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/google-analytics.js"></script>
 </body>
-
 </html>
-

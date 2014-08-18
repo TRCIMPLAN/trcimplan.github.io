@@ -34,10 +34,18 @@ class VisionMision extends \Base\Publicacion {
         $this->nombre      = 'Visión / Misión';
         $this->directorio  = 'institucional';
         $this->archivo     = 'vision-mision';
-        $this->descripcion = 'Pendiente.';
-        $this->claves      = 'Pendiente';
-        $this->categorias  = array('Pendiente');
+        $this->descripcion = 'La Visión y la Misión del IMPLAN Torreón.';
+        $this->claves      = 'IMPLAN, Torreon, Vision, Mision';
+        $this->categorias  = array('Institucional');
+        $this->encabezado  = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
         $this->contenido   = <<<FINAL
+<h3>Visión</h3>
+
+<p>Ser una institución líder en materia de planeación estratégica, reconocida a nivel internacional por su efectividad como organismo facilitador del desarrollo sustentable y competitivo de la metrópoli.</p>
+
+<h3>Misión</h3>
+
+<p>Planear estratégicamente con un enfoque sistémico e integral el desarrollo sustentable y competitivo de la región a largo plazo, a través de procesos participativos entre los diferentes sectores de la población y gobierno, con el fin de mejorar la calidad de vida de sus habitantes.</p>
 FINAL;
         $this->javascript  = <<<FINAL
 FINAL;

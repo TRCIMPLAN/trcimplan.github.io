@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sitio web fue elaborado por personal del IMPLAN Torreón usando Software Libre.
+
+        Descargue y colabore por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pendiente.">
+  <meta name="author" content="TrcIMPLAN">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sistema de Información Geográfica">
+  <meta name="twitter:description" content="Pendiente.">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/proyectos/sig.html">
+  <meta name="og:title" content="Sistema de Información Geográfica">
+  <meta name="og:description" content="Pendiente.">
+  <meta name="og:url" content="http://trcimplan.gob.mx/proyectos/sig.html">
+  <title>Sistema de Información Geográfica - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+    <ul class="nav navbar-top-links">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Institucional <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../institucional/vision-mision.html">Visión / Misión</a></li>
+          <li><a href="../institucional/mensaje-del-director.html">Mensaje del Director</a></li>
+          <li><a href="../institucional/quienes-somos.html">Quienes Somos</a></li>
+          <li><a href="../institucional/estructura-organica.html">Estructura Orgánica</a></li>
+          <li><a href="../http://www.icai.org.mx/ipmn/Principal.php?sujeto=0">Transparencia</a></li>
+          <li><a href="../institucional/reglamentos.html">Reglamentos</a></li>
+          <li><a href="../institucional/informacion-financiera.html">Información Finaciera</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Servicios <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../proyectos/smi.html">Sistema Metropolitano de Indicadores</a></li>
+          <li><a href="../proyectos/sig.html">Sistema de Información Geográfica</a></li>
+          <li><a href="../proyectos/banco-municipal-proyectos.html">Banco Municipal de Proyectos</a></li>
+          <li><a href="../proyectos/cartera-proyectos.html">Cartera de Proyectos</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Interacción <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="../eventos/index.html">Eventos</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Consejo Directivo <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../consejo-directivo/index.html">Consejo Directivo</a></li>
+          <li><a href="../consejo-directivo/agenda.html">Agenda Consejo Directivo</a></li>
+          <li><a href="../consejo-directivo/agenda-comites-tecnicos.html">Agenda Comités Técnicos</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="../contacto/index.html">Contacto</a>
+      </li>
+      <li>
+        <a href="../sala-de-prensa/index.html">Sala de Prensa</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="page-full" style="min-height:459px;">
+    <div class="row contenido">
+<img class="img-responsive" src="sig/encabezado.jpg">
+<p>Un Sistema de Información Geográfica (SIG) más que una importante herramienta tecnológica es una estructura de personas y equipos computacionales dedicados a la recopilación, procesamiento, almacenamiento y análisis de datos con información valiosa para una adecuada toma de decisiones.</p>
+
+<p>La base de datos integrada al SIG, permitirá representar visualmente variables muy diversas (estadísticas, infraestructura, equipamiento, programas, proyectos) de distintas fuentes (imágenes de satélite, INEGI, CONEVAL, IMCO, IMPLAN y dependencias municipales) generando mapas de análisis, temáticos o informativos con datos de utilidad que permitan impulsar la competitividad de la ciudad y la zona metropolitana mediante la planeación a corto, mediano y largo plazo.</p>
+
+<p>La principal característica de este sistema es que está diseñado para ser una herramienta que permita el acceso a la ciudadanía como medio de consulta de información de la situación del municipio y de la zona metropolitana.</p>
+
+<p><img class="img-responsive" src="sig/gis-01-relieve.jpg" alt="GIS Relieve"></p>
+
+<p><img class="img-responsive" src="sig/gis-02-poligonos-pobreza.jpg" alt="GIS Poligonos Pobreza"></p>
+
+<p><img class="img-responsive" src="sig/gis-03-poligonos-cruzados.jpg" alt="GIS Polígonos Cruzados"></p>
+    </div>
+    <div class="row inferior">
+        <a href="http://trcimplan.gob.mx"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+    </div>
+  </div>
+</div>
+<div id="pie">
+      <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/google-analytics.js"></script>
+</body>
+</html>

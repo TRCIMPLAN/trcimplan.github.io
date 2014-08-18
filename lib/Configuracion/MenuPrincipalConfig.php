@@ -28,20 +28,21 @@ namespace Configuracion;
 class MenuPrincipalConfig {
 
     public $sitio_titulo            = 'IMPLAN Torreón';
-    public $menu_principal_logo     = 'imagenes/implan-barra-logo.png';
+    public $menu_principal_logo     = 'imagenes/implan-barra-logo-chico.png';
     public $menu_principal_opciones = array(
         'Institucional' => array(
             'Visión / Misión'       => 'institucional/vision-mision.html',
             'Mensaje del Director'  => 'institucional/mensaje-del-director.html',
             'Quienes Somos'         => 'institucional/quienes-somos.html',
             'Estructura Orgánica'   => 'institucional/estructura-organica.html',
+            'Transparencia'         => 'http://www.icai.org.mx/ipmn/Principal.php?sujeto=0',
             'Reglamentos'           => 'institucional/reglamentos.html',
             'Información Finaciera' => 'institucional/informacion-financiera.html'),
         'Servicios' => array(
-            'Sistema Metropolitano de Indicadores' => 'servicios/indicadores.html',
-            'Sistema de Información Geográfica'    => 'servicios/sig.html',
-            'Banco Municipal de Proyectos'         => 'servicios/banco-de-proyectos.html',
-            'Cartera de Proyectos'                 => 'servicios/proyectos.html'),
+            'Sistema Metropolitano de Indicadores' => 'proyectos/smi.html',
+            'Sistema de Información Geográfica'    => 'proyectos/sig.html',
+            'Banco Municipal de Proyectos'         => 'proyectos/banco-municipal-proyectos.html',
+            'Cartera de Proyectos'                 => 'proyectos/cartera-proyectos.html'),
         'Interacción' => array(
             'Blog'    => 'blog/index.html',
             'Eventos' => 'eventos/index.html'),
@@ -50,7 +51,7 @@ class MenuPrincipalConfig {
             'Agenda Consejo Directivo' => 'consejo-directivo/agenda.html',
             'Agenda Comités Técnicos'  => 'consejo-directivo/agenda-comites-tecnicos.html'),
         'Contacto'       => 'contacto/index.html',
-        'Sala de Prensa' => 'sala-de-prensa/index..html');
+        'Sala de Prensa' => 'sala-de-prensa/index.html');
 
 } // Clase MenuPrincipalConfig
 

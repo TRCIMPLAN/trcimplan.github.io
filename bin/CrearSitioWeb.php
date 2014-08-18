@@ -36,13 +36,13 @@ require_once('lib/Base/Funciones.php');
 // Preparar el menu principal
 $menu_principal = new \Base\MenuPrincipal();
 // Preparar la plantilla
-$plantilla                 = new \Base\Plantilla();
+$plantilla                 = new \Base\PlantillaCompleta();
 $plantilla->menu_principal = $menu_principal;
 // Preparar impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla;
 
-// Imprimir directorio Institucional
+// Imprimir Institucional
 try {
     echo $impresor->imprimir('Institucional')."\n";
 } catch (\Exception $e) {
@@ -51,9 +51,25 @@ try {
     exit($E_FATAL);
 }
 
-// Imprimir directorio Proyectos
+// Imprimir Proyectos
 try {
     echo $impresor->imprimir('Proyectos')."\n";
+} catch (\Exception $e) {
+    echo implode("\n", $impresor->mensajes)."\n";
+    echo "$soy ".$e->getMessage()."\n";
+    exit($E_FATAL);
+}
+
+// Para la página inicial, poner Menu Principal en_raiz
+$menu_principal->en_raiz   = true;
+// Preparar la plantilla
+$plantilla                 = new \Base\PlantillaInicial();
+$plantilla->en_raiz        = true;
+$plantilla->menu_principal = $menu_principal;
+// Preparar impresor
+$impresor = new \Base\Imprenta();
+try {
+    echo $impresor->crear_archivo('index.html', $plantilla->html())."\n";
 } catch (\Exception $e) {
     echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
