@@ -25,7 +25,7 @@ namespace Base;
 /**
  * Clase Imprenta
  */
-class Imprenta extends \Configuracion\ImprentaConfig {
+class Imprenta {
 
     public $plantilla;
     public $mensajes = array();
@@ -35,21 +35,21 @@ class Imprenta extends \Configuracion\ImprentaConfig {
      *
      * @param string Ruta al directorio a eliminar
      */
-    protected function eliminar_directorio($in_ruta) {
+    protected function eliminar_directorio($ruta) {
         // Validar parámetro
-        if (trim($in_ruta) == '') {
+        if (trim($ruta) == '') {
             throw new ImprentaExceptionValidacion("Error en Imprenta, eliminar_directorio: Parámetro vacio.");
         }
         // Mensaje
-        $this->mensajes[] = "  Eliminando directorio $in_ruta...";
+        $this->mensajes[] = "  Eliminando directorio $ruta...";
         // Si existe elimina los archivos que haya en éste
-        if (is_dir($in_ruta)) {
-            array_map('unlink', glob("$in_ruta/*"));
-            if (rmdir($in_ruta) === false) {
-                throw new ImprentaExceptionValidacion("Error en Imprenta, eliminar_directorio: No se pudo eliminar $in_ruta.");
+        if (is_dir($ruta)) {
+            array_map('unlink', glob("$ruta/*"));
+            if (rmdir($ruta) === false) {
+                throw new ImprentaExceptionFallo("Error en Imprenta, eliminar_directorio: No se pudo eliminar $ruta.");
             }
         } else {
-            $this->mensajes[] = "  No existe $in_ruta. Por lo que no hice nada.";
+            $this->mensajes[] = "  No existe $ruta. Por lo que no hice nada.";
         }
     } // eliminar_directorio
 
@@ -58,17 +58,17 @@ class Imprenta extends \Configuracion\ImprentaConfig {
      *
      * @param string Ruta al directorio a crear
      */
-    protected function crear_directorio($in_ruta) {
+    protected function crear_directorio($ruta) {
         // Validar parámetro
-        if (trim($in_ruta) == '') {
+        if (trim($ruta) == '') {
             throw new ImprentaExceptionValidacion("Error en Imprenta, crear_directorio: Parámetro vacio.");
         }
         // Si no existe el directorio, lo crea
-        if (!is_dir($in_ruta)) {
-            if (mkdir($in_ruta, 0755) === false) {
-                throw new ImprentaExceptionValidacion("Error en Imprenta, crear_directorio: No se pudo crear el directorio $in_ruta");
+        if (!is_dir($ruta)) {
+            if (mkdir($ruta, 0755) === false) {
+                throw new ImprentaExceptionFallo("Error en Imprenta, crear_directorio: No se pudo crear el directorio $ruta");
             } else {
-                $this->mensajes[] = "  Creado el directorio $in_ruta...";
+                $this->mensajes[] = "  Creado el directorio $ruta...";
             }
         }
     } // crear_directorio
@@ -79,27 +79,29 @@ class Imprenta extends \Configuracion\ImprentaConfig {
      * @param string Ruta al archivo a crear
      * @param mixed  Texto o arreglo con el contenido
      */
-    protected function crear_archivo($in_ruta, $in_contenido) {
+    protected function crear_archivo($ruta, $contenido) {
         // Validar parámetros
-        if (trim($in_ruta) == '') {
+        if (trim($ruta) == '') {
             throw new ImprentaExceptionValidacion("Error en Imprenta, crear_archivo: Parámetro vacío, la ruta.");
         }
-        if (trim($in_contenido) == '') {
+        if (trim($contenido) == '') {
             throw new ImprentaExceptionValidacion("Error en Imprenta, crear_archivo: Parámetro vacío, el contenido.");
         }
         // Crear archivo
-        $apuntador = fopen($in_ruta, 'w');
+        $apuntador = fopen($ruta, 'w');
         if ($apuntador === false) {
-            throw new ImprentaExceptionValidacion("Error en Imprenta, crear_archivo: No se puede crear $archivo");
+            throw new ImprentaExceptionFallo("Error en Imprenta, crear_archivo: No se puede crear $archivo");
         }
-        if (is_string($in_contenido)) {
-            fwrite($apuntador, $in_contenido);
-        } elseif (is_array($in_contenido)) {
-            foreach ($in_contenido as $linea) {
-                fwrite($apuntador, $in_contenido);
+        if (is_string($contenido)) {
+            fwrite($apuntador, $contenido);
+        } elseif (is_array($contenido)) {
+            foreach ($contenido as $linea) {
+                fwrite($apuntador, $contenido);
             }
         }
         fclose($apuntador);
+        // Agregar mensaje
+        $this->mensajes[] = "  Listo {$ruta}";
     } // crear_archivo
 
     /**
@@ -122,7 +124,7 @@ class Imprenta extends \Configuracion\ImprentaConfig {
         // Obtener el listado con los archivos PHP
         $archivos = glob("$directorio/*.php");
         if ($archivos === false) {
-            throw new ImprentaExceptionValidacion("  Falló la obtención de archivos PHP en el directorio $directorio.");
+            throw new ImprentaExceptionFallo("  Falló la obtención de archivos PHP en el directorio $directorio.");
         }
         if (count($archivos) == 0) {
             throw new ImprentaExceptionVacio("  No hay archivos PHP en el directorio $directorio.");
@@ -143,9 +145,31 @@ class Imprenta extends \Configuracion\ImprentaConfig {
      * @param  string Ruta al directorio donde estén las clases como archivos PHP
      * @return string Mensajes para la terminal
      */
-    public function imprimir_directorio() {
+    public function imprimir($directorio) {
         // Validar que la plantilla esté definida
+        if (!is_object($this->plantilla)) {
+            throw new ImprentaExceptionValidacion("Error en Imprenta, imprimir_directorio: No está definida la plantilla.");
+        }
+        // Bucle con las clases recolectadas
+        foreach ($this->recolectar_clases($directorio) as $clase) { // Puede causar una excepción
+            // Definir instancia
+            $publicacion = new $clase();
+            // Definir la ruta de destino (archivo HTML)
+            $destino = "{$publicacion->directorio}/{$publicacion->archivo}.html";
+            // Pasar propiedades del Indicador a la Plantilla
+            $this->plantilla->titulo      = $publicacion->nombre;
+            $this->plantilla->autor       = $publicacion->autor;
+            $this->plantilla->descripcion = $publicacion->descripcion;
+            $this->plantilla->claves      = $publicacion->claves;
+            $this->plantilla->ruta        = $destino;
+            $this->plantilla->contenido   = $publicacion->contenido;
+            $this->plantilla->javascript  = $publicacion->javascript;
+            // Escribir el archivo HTML
+            $this->crear_directorio($publicacion->directorio);  // Puede causar una excepción
+            $this->crear_archivo($destino, $this->plantilla->html()); // Puede causar una excepción
+        }
         // Entregar mensajes
+        return implode("\n", $this->mensajes);
     } // imprimir
 
 } // Clase Imprenta

@@ -31,12 +31,12 @@ class EstructuraOrganica extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = '';
-        $this->directorio  = '';
-        $this->archivo     = '';
-        $this->descripcion = '.';
-        $this->claves      = '';
-        $this->categorias  = array('');
+        $this->nombre      = 'Estructura Orgánica';
+        $this->directorio  = 'institucional';
+        $this->archivo     = 'estructura-organica';
+        $this->descripcion = 'Pendiente.';
+        $this->claves      = 'Pendiente';
+        $this->categorias  = array('Pendiente');
         $this->contenido   = <<<FINAL
 FINAL;
         $this->javascript  = <<<FINAL

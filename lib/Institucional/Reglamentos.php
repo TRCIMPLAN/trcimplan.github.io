@@ -31,12 +31,12 @@ class Reglamentos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = '';
-        $this->directorio  = '';
-        $this->archivo     = '';
-        $this->descripcion = '.';
-        $this->claves      = '';
-        $this->categorias  = array('');
+        $this->nombre      = 'Reglamentos';
+        $this->directorio  = 'institucional';
+        $this->archivo     = 'reglamentos';
+        $this->descripcion = 'Pendiente.';
+        $this->claves      = 'Pendiente';
+        $this->categorias  = array('Pendiente');
         $this->contenido   = <<<FINAL
 FINAL;
         $this->javascript  = <<<FINAL

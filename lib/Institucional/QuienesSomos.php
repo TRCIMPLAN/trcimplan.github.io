@@ -31,12 +31,12 @@ class QuienesSomos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = '';
-        $this->directorio  = '';
-        $this->archivo     = '';
-        $this->descripcion = '.';
-        $this->claves      = '';
-        $this->categorias  = array('');
+        $this->nombre      = 'Quienes Somos';
+        $this->directorio  = 'institucional';
+        $this->archivo     = 'quienes-somos';
+        $this->descripcion = 'Pendiente.';
+        $this->claves      = 'Pendiente';
+        $this->categorias  = array('Pendiente');
         $this->contenido   = <<<FINAL
 FINAL;
         $this->javascript  = <<<FINAL

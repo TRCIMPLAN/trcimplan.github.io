@@ -33,18 +33,29 @@ $E_FATAL=99;
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
-// Definir la Plantilla
+// Preparar el menu principal
+$menu_principal = new \Base\MenuPrincipal();
+// Preparar la plantilla
+$plantilla                 = new \Base\Plantilla();
+$plantilla->menu_principal = $menu_principal;
+// Preparar impresor
+$impresor            = new \Base\Imprenta();
+$impresor->plantilla = $plantilla;
 
 // Imprimir directorio Institucional
+try {
+    echo $impresor->imprimir('Institucional')."\n";
+} catch (\Exception $e) {
+    echo implode("\n", $impresor->mensajes)."\n";
+    echo "$soy ".$e->getMessage()."\n";
+    exit($E_FATAL);
+}
 
 // Imprimir directorio Proyectos
-
-// Proceso principal
-$instancia = new \DIRECTORIO\CLASE();
 try {
-    echo $instancia->metodo()."\n";
+    echo $impresor->imprimir('Proyectos')."\n";
 } catch (\Exception $e) {
-    echo implode("\n", $instancia->mensajes)."\n";
+    echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }

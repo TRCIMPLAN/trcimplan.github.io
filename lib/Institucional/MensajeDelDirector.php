@@ -31,12 +31,12 @@ class MensajeDelDirector extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = '';
-        $this->directorio  = '';
-        $this->archivo     = '';
-        $this->descripcion = '.';
-        $this->claves      = '';
-        $this->categorias  = array('');
+        $this->nombre      = 'Mensaje del Director';
+        $this->directorio  = 'institucional';
+        $this->archivo     = 'mensaje-del-director';
+        $this->descripcion = 'Pendiente.';
+        $this->claves      = 'Pendiente';
+        $this->categorias  = array('Pendiente');
         $this->contenido   = <<<FINAL
 FINAL;
         $this->javascript  = <<<FINAL

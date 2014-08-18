@@ -33,12 +33,27 @@ $E_FATAL=99;
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
+// Preparar el menu principal
+$menu_principal = new \Base\MenuPrincipal();
+// Preparar el menu izquierdo
+$menu_izquierdo = new \Base\MenuIzquierdo();
+// Preparar la plantilla
+$plantilla                 = new \Base\Plantilla();
+$plantilla->menu_principal = $menu_principal;
+$plantilla->menu_izquierdo = $menu_izquierdo;
+// Preparar impresor
+$impresor            = new \Base\Imprenta();
+$impresor->plantilla = $plantilla;
+
 // Crear SMI Indicadores
-$imprenta_indicadores = new \SMIIndicadores\Imprenta();
 try {
-    echo $imprenta_indicadores->imprimir()."\n";
+    echo $impresor->imprimir('SMIIndicadoresTorreon')."\n";
+    echo $impresor->imprimir('SMIIndicadoresGomezPalacio')."\n";
+    echo $impresor->imprimir('SMIIndicadoresLerdo')."\n";
+    echo $impresor->imprimir('SMIIndicadoresMatamoros')."\n";
+    echo $impresor->imprimir('SMIIndicadoresLaLaguna')."\n";
 } catch (\Exception $e) {
-    echo implode("\n", $imprenta_indicadores->mensajes)."\n";
+    echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }

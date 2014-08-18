@@ -31,12 +31,12 @@ class InformacionFinanciera extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = '';
-        $this->directorio  = '';
-        $this->archivo     = '';
-        $this->descripcion = '.';
-        $this->claves      = '';
-        $this->categorias  = array('');
+        $this->nombre      = 'Información Financiera';
+        $this->directorio  = 'institucional';
+        $this->archivo     = 'informacion-financiera';
+        $this->descripcion = 'Pendiente.';
+        $this->claves      = 'Pendiente';
+        $this->categorias  = array('Pendiente');
         $this->contenido   = <<<FINAL
 FINAL;
         $this->javascript  = <<<FINAL

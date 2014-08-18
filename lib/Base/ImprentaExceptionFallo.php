@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - Configuración Imprenta Config
+ * SMIbeta - Base Imprenta Exception Fallo
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2014 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,13 +20,13 @@
  */
 
 // Namespace
-namespace Configuracion;
+namespace Base;
 
 /**
- * Clase ImprentaConfig
+ * Clase ImprentaExceptionFallo
  */
-class ImprentaConfig {
+class ImprentaExceptionFallo extends \Exception {
 
-} // Clase ImprentaConfig
+} // Clase ImprentaExceptionFallo
 
 ?>
