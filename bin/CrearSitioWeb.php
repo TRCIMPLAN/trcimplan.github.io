@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 /*
- * SMIbeta - SMI Crear Sitio Web
+ * SMIbeta - Crear Sitio Web
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *
@@ -33,17 +33,21 @@ $E_FATAL=99;
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
-// Crear SMI Indicadores
-$imprenta_indicadores = new \SMIIndicadores\Imprenta();
+// Definir la Plantilla
+
+// Imprimir directorio Institucional
+
+// Imprimir directorio Proyectos
+
+// Proceso principal
+$instancia = new \DIRECTORIO\CLASE();
 try {
-    echo $imprenta_indicadores->imprimir()."\n";
+    echo $instancia->metodo()."\n";
 } catch (\Exception $e) {
-    echo implode("\n", $imprenta_indicadores->mensajes)."\n";
+    echo implode("\n", $instancia->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }
-
-// Crear SMI Matrices
 
 // Mensaje de término
 echo "$soy Programa terminado.\n";

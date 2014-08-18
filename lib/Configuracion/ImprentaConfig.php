@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - SMI Imprenta Config
+ * SMIbeta - Configuración Imprenta Config
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2014 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,20 +19,13 @@
  *
  */
 
-// NAMESPACE
+// Namespace
 namespace Configuracion;
 
 /**
  * Clase ImprentaConfig
  */
 class ImprentaConfig {
-
-    public $indicadores_directorios = array(
-        'SMIIndicadoresTorreon',
-        'SMIIndicadoresGomezPalacio',
-        'SMIIndicadoresLerdo',
-        'SMIIndicadoresMatamoros',
-        'SMIIndicadoresLaLaguna');
 
 } // Clase ImprentaConfig
 

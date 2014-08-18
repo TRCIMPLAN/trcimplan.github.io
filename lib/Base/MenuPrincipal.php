@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - Menu Principal
+ * SMIbeta - Base Menu Principal
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2014 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@
  *
  */
 
-// NAMESPACE
+// Namespace
 namespace Base;
 
 /**
@@ -29,7 +29,47 @@ class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
 
     // public $sitio_titulo;
     // public $menu_principal_logo;
+    // public $menu_principal_opciones;
     public $en_raiz = false;
+
+    /**
+     * Opción
+     *
+     * @return string Código HTML
+     */
+    protected function opcion($etiqueta, $url) {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+        $a[] = '      <li>';
+        $a[] = "        <a href=\"$url\">$etiqueta</a>";
+        $a[] = '      </li>';
+        // Entregar
+        return implode("\n", $a);
+    } // opcion
+
+    /**
+     * Opción con despliegue
+     *
+     * @return string Código HTML
+     */
+    protected function opcion_despliegue($etiqueta, $opciones) {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+        $a[] = '      <li class="dropdown">';
+        $a[] = '        <a class="dropdown-toggle" data-toggle="dropdown" href="#">';
+        $a[] = "          $etiqueta <i class=\"fa fa-caret-down\"></i>";
+        $a[] = '        </a>';
+        $a[] = '        <ul class="dropdown-menu dropdown-user">';
+        foreach ($opciones as $eti => $url) {
+            $a[] = "          <li><a href=\"$url\">$eti</a></li>";
+        }
+        $a[] = '        </ul>';
+        $a[] = '      </li>';
+        // Entregar
+        return implode("\n", $a);
+    } // opcion_despliegue
 
     /**
      * HTML
@@ -64,43 +104,21 @@ class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
         $a[] = '    </div>';
         // Navbar
         $a[] = '    <ul class="nav navbar-top-links">';
-        $a[] = '      <li class="dropdown">';
-        $a[] = '        <a class="dropdown-toggle" data-toggle="dropdown" href="#">';
-        $a[] = '          Institucional <i class="fa fa-caret-down"></i>';
-        $a[] = '        </a>';
-        $a[] = '        <ul class="dropdown-menu dropdown-user">';
-        $a[] = '          <li><a href="#">Visión / Misión</a></li>';
-        $a[] = '          <li><a href="#">Mensaje del Director</a></li>';
-        $a[] = '          <li><a href="#">Quienes Somos</a></li>';
-        $a[] = '          <li><a href="#">Estructura Orgánica</a></li>';
-        $a[] = '          <li><a href="#">Reglamentos</a></li>';
-        $a[] = '          <li><a href="#">Información Finaciera</a></li>';
-        $a[] = '        </ul>';
-        $a[] = '      </li>';
+        foreach ($this->menu_principal_opciones as $etiqueta => $parametros) {
+            if (is_array($parametros)) {
+                $a[] = $this->opcion_despliegue($etiqueta, $parametros);
+            } else {
+                $a[] = $this->opcion($etiqueta, $parametros);
+            }
+        }
         $a[] = '    </ul>';
         // Navbar-Right
-     // $a[] = '    <ul class="nav navbar-top-links navbar-right">';
-     // $a[] = '      <li><a href="rss.xml">RSS</a></li>';
-     // $a[] = '    </ul>';
+    //  $a[] = '    <ul class="nav navbar-top-links navbar-right">';
+    //  $a[] = '      <li><a href="rss.xml">RSS</a></li>';
+    //  $a[] = '    </ul>';
         // Entregar
         return implode("\n", $a);
     } // html
-
-/*
-            <ul class="nav navbar-top-links navbar-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a></li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a></li>
-                        <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
-                    </ul>
-                </li>
-            </ul>
- */
 
 } // Clase MenuPrincipal
 

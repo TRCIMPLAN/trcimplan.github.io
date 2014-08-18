@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - Menu Principal Config
+ * SMIbeta - Configuración Menu Principal Config
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2014 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@
  *
  */
 
-// NAMESPACE
+// Namespace
 namespace Configuracion;
 
 /**
@@ -27,36 +27,30 @@ namespace Configuracion;
  */
 class MenuPrincipalConfig {
 
-    public $sitio_titulo        = 'IMPLAN Torreón';
-    public $menu_principal_logo = 'imagenes/implan-barra-logo.png';
-
-    /**
-     * Constructor
-     */
-    public function __construct() {
-        $this->menu_principal_opciones = array(
-            'Institucional' => array(
-                'Visión / Misión'       => 'institucional/vision-mision.html',
-                'Mensaje del Director'  => 'institucional/mensaje-del-director.html',
-                'Quienes Somos'         => 'institucional/quienes-somos.html',
-                'Estructura Orgánica'   => 'institucional/estructura-organica.html',
-                'Reglamentos'           => 'institucional/reglamentos.html',
-                'Información Finaciera' => 'institucional/informacion-financiera.html'),
-            'Proyectos' => array(
-                'Sistema Metropolitano de Indicadores' => 'servicios/indicadores.html',
-                'Sistema de Información Geográfica'    => 'servicios/sig.html',
-                'Banco Municipal de Proyectos'         => 'servicios/banco-de-proyectos.html',
-                'Cartera de Proyectos'                 => 'servicios/proyectos.html'),
-            'Interacción' => array(
-                'Blog'    => 'interaccion/blog.html',
-                'Eventos' => 'interaccion/eventos.html'),
-            'Consejo Directivo' => array(
-                'Consejo Directivo'       => 'consejo-directivo/consejeros.html',
-                'Agenda'                  => 'consejo-directivo/agenda.html',
-                'Agenda Comités Técnicos' => 'consejo-directivo/agenda-comites-tecnicos.html'),
-            'Contacto'       => 'contacto.html',
-            'Sala de Prensa' => 'sala-de-prensa.html');
-    } // constructor
+    public $sitio_titulo            = 'IMPLAN Torreón';
+    public $menu_principal_logo     = 'imagenes/implan-barra-logo.png';
+    public $menu_principal_opciones = array(
+        'Institucional' => array(
+            'Visión / Misión'       => 'institucional/vision-mision.html',
+            'Mensaje del Director'  => 'institucional/mensaje-del-director.html',
+            'Quienes Somos'         => 'institucional/quienes-somos.html',
+            'Estructura Orgánica'   => 'institucional/estructura-organica.html',
+            'Reglamentos'           => 'institucional/reglamentos.html',
+            'Información Finaciera' => 'institucional/informacion-financiera.html'),
+        'Servicios' => array(
+            'Sistema Metropolitano de Indicadores' => 'servicios/indicadores.html',
+            'Sistema de Información Geográfica'    => 'servicios/sig.html',
+            'Banco Municipal de Proyectos'         => 'servicios/banco-de-proyectos.html',
+            'Cartera de Proyectos'                 => 'servicios/proyectos.html'),
+        'Interacción' => array(
+            'Blog'    => 'blog/index.html',
+            'Eventos' => 'eventos/index.html'),
+        'Consejo Directivo' => array(
+            'Consejo Directivo'        => 'consejo-directivo/index.html',
+            'Agenda Consejo Directivo' => 'consejo-directivo/agenda.html',
+            'Agenda Comités Técnicos'  => 'consejo-directivo/agenda-comites-tecnicos.html'),
+        'Contacto'       => 'contacto/index.html',
+        'Sala de Prensa' => 'sala-de-prensa/index..html');
 
 } // Clase MenuPrincipalConfig
 

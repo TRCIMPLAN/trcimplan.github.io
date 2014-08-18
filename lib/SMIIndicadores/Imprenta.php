@@ -27,8 +27,13 @@ namespace SMIIndicadores;
  */
 class Imprenta extends \Base\Imprenta {
 
-    // public $indicadores_directorios;
     // public $mensajes;
+    public $indicadores_directorios = array(
+        'SMIIndicadoresTorreon',
+        'SMIIndicadoresGomezPalacio',
+        'SMIIndicadoresLerdo',
+        'SMIIndicadoresMatamoros',
+        'SMIIndicadoresLaLaguna');
 
     /**
      * Imprimir
@@ -69,7 +74,7 @@ class Imprenta extends \Base\Imprenta {
                 $clase_ruta = $dir.'\\'.basename($archivo, '.php');
                 // Definir la instancia de la publicación con el Indicador
                 $indicador  = new $clase_ruta();
-                // Definir la ruta de destino (archvo HTML)
+                // Definir la ruta de destino (archivo HTML)
                 $destino    = "{$indicador->directorio}/{$indicador->archivo}.html";
                 // Pasar propiedades del Indicador a la Plantilla
                 $plantilla->titulo      = $indicador->nombre;
