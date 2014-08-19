@@ -38,6 +38,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $imagen_previa;        // Ruta relativa a un archivo de imagen para la vista previa a compartir en redes sociales
     public $claves;               // Claves que ayuden a los buscadores
     public $categorias = array(); // Arreglo con las categorías de la publicación.
+    public $encabezado;           // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
     public $contenido;            // Contenido de la publicación. Puede tener una línea con <!-- break --> para separar la parte breve.
     public $javascript;           // Código Javascript. Debe estar aparte para ponerlo al final de la página.
     public $en_raiz = false;      // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.

@@ -22,11 +22,11 @@
  * Global
  */
 body {
-    background-color:#524B48;
     font-family:"Liberation Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:14px;
     line-height:1.2;
     padding-bottom:16px;
+    background-color:#524B48;
 }
 h1,
 h2,
@@ -37,11 +37,11 @@ h6 {
     font-family:"Liberation Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight:bold;
 }
-a,
+a         { text-decoration:none; color:#E2007E; }
 a:active,
-a:visited { text-decoration:none; color:#e2007e; }
+a:visited { text-decoration:none; color:#E2007E; }
 a:hover,
-a:focus   { text-decoration:none; color:#000; }
+a:focus   { text-decoration:none; color:#AA005F; }
 
 /*
  * Menús
@@ -51,11 +51,59 @@ a:focus   { text-decoration:none; color:#000; }
     border-bottom:2px solid #ff7500;
     color:#FFF;
 }
-.navbar-default a         { color:#FFF; font-weight:bold; }
-.navbar-default a:hover,
-.navbar-default a:focus   { color:#FF7500; }
-.navbar-default a:active,
-.navbar-default a:visited { color:#FFF; }
+/* Menu principal */
+.navbar-top-links a         { color:#FFF; font-weight:bold; }
+.navbar-top-links a:hover,
+.navbar-top-links a:focus   { color:#FFF; }
+.navbar-top-links a:active,
+.navbar-top-links a:visited { color:#FFF; }
+
+.navbar-top-links a.dropdown-toggle         { color:#FFF; background-color:#524B48; }
+.navbar-top-links a.dropdown-toggle:hover,
+.navbar-top-links a.dropdown-toggle:focus   { color:#FFF; background-color:#746B67; }
+.navbar-top-links a.dropdown-toggle:active,
+.navbar-top-links a.dropdown-toggle:visited { color:#FFF; background-color:#524B48; }
+
+.dropdown-menu {
+    color:#FFF;
+    background-color:transparent;
+    background-image:url("../imagenes/menu-principal-fondo-transparente.png");
+}
+.dropdown-menu a {
+    color:#FFF;
+    background-color:transparent;
+    font-weight:bold;
+    font-size:12px;
+}
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+    color:#FFF;
+    background-image:url("../imagenes/menu-principal-fondo-transparente-hover.png");
+}
+.dropdown-menu a:active,
+.dropdown-menu a:visited {
+    color:#FFF;
+}
+.dropdown-menu > li > a         { color:#FFF; }
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus   { color:#FFF; }
+.dropdown-menu > li > a:active,
+.dropdown-menu > li > a:visited { color:#FFF; }
+
+/* Menú principal/izquierdo opción */
+.nav > li > a         { color:#FFF; background-color:#524B48; }
+.nav > li > a:hover,
+.nav > li > a:focus   { color:#FFF; background-color:#746B67; }
+.nav > li > a:active,
+.nav > li > a:visited { color:#FFF; background-color:#524B48; }
+
+/* Menú principal opción desplegada
+.nav .open > a          { background-color:#524B48; }
+.nav .open > a:hover,
+.nav .open > a:focus:   { background-color:#746B67; }
+.nav .open > a:active,
+.nav .open > a:visited: { background-color:#524B48; }
+*/
 
 /*
  * Contenido
@@ -90,6 +138,85 @@ a:focus   { text-decoration:none; color:#000; }
     font-weight:normal;
 }
 .inferior-logo { padding:4px; }
+
+/*
+ * Página Inicial
+ */
+/* Carrusel */
+#carrusel .container {
+    padding-left:0;
+    padding-right:0;
+}
+#carrusel .carousel-inner > .item > img {
+    width:100%;
+    height:420px;
+}
+/* Destacado */
+#destacado {
+    margin:0;
+    padding:0;
+}
+#destacado .container {
+    background-color:#FFF;
+    padding-top:12px;
+}
+#destacado a { text-decoration:none; font-weight:bold; }
+.destacado-izquierda {
+    margin-top:0;
+    margin-bottom:8px;
+}
+#destacado .thumbnail {
+    border:0;
+}
+#destacado h4 {
+    margin-top:0;
+    font-size:14px;
+    font-weight:bold;
+}
+#destacado p {
+    font-size:12px;
+}
+#destacado .media {
+    margin-top:0;
+    padding-top:0;
+    padding-bottom:4px;
+    margin-bottom:8px;
+}
+#destacado .boton {
+    margin:2px 4px 8px 4px;
+    background-color:#DDD;
+    border:solid 1px #AAA;
+}
+.destacado-derecha {
+    margin-top:0;
+    margin-bottom:8px;
+}
+.barra-rosa {
+    margin:0;
+    padding:0;
+    background-color:#e2007e;
+    color:#000;
+    background-image:url("../imagenes/triangulo.png");
+    background-repeat:no-repeat;
+    background-position:center top;
+    width:100%;
+    height:100px;
+}
+.barra-rosa-block {
+    float:left;
+    width:20%;
+}
+.barra-rosa-vinculo {
+    padding-top:12px;
+    padding-bottom:4px;
+    text-align:center;
+    font-size:11px;
+}
+.barra-rosa-vinculo a         { color:#FFB2CB; text-decoration:none; font-weight:bold; }
+.barra-rosa-vinculo a:active,
+.barra-rosa-vinculo a:visited { color:#FFB2CB; }
+.barra-rosa-vinculo a:hover,
+.barra-rosa-vinculo a:focus   { color:#FFF; }
 
 /*
  * Pie

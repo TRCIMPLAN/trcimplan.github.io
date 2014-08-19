@@ -41,10 +41,11 @@ class PlantillaConfig {
         Instituto Municipal de Planeación y Competitividad de Torreón.
         Todos los Derechos Reservados. © 2014.
 
-        Este sitio web fue elaborado por personal del IMPLAN Torreón usando Software Libre.
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
 
-        Descargue y colabore por medio de GitHub:
-           GitHub             https://github.com/TRCIMPLAN/trcimplan.github.io
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
 
         Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
            Twitter Bootstrap  http://getbootstrap.com
@@ -54,7 +55,7 @@ class PlantillaConfig {
 
      ======================================================================================== -->
 FINAL;
-    public $pie                 = '      <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>';
+    public $pie                 = '  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>';
 
 } // Clase PlantillaConfig
 

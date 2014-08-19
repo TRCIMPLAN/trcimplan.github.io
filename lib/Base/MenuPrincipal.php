@@ -42,7 +42,10 @@ class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
         $a = array();
         // Acumular
         $a[] = '      <li>';
-        if ($this->en_raiz) {
+        // Si el URL es absoluto
+        if ((strpos($url, 'http://') === 0) || (strpos($url, 'https://') === 0) || (strpos($url, '/') === 0)) {
+            $a[] = "        <a href=\"$url\">$etiqueta</a>";
+        } elseif ($this->en_raiz) {
             $a[] = "        <a href=\"$url\">$etiqueta</a>";
         } else {
             $a[] = "        <a href=\"../$url\">$etiqueta</a>";
@@ -67,7 +70,9 @@ class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
         $a[] = '        </a>';
         $a[] = '        <ul class="dropdown-menu dropdown-user">';
         foreach ($opciones as $eti => $url) {
-            if ($this->en_raiz) {
+            if ((strpos($url, 'http://') === 0) || (strpos($url, 'https://') === 0) || (strpos($url, '/') === 0)) {
+                $a[] = "          <li><a href=\"$url\">$eti</a></li>";
+            } elseif ($this->en_raiz) {
                 $a[] = "          <li><a href=\"$url\">$eti</a></li>";
             } else {
                 $a[] = "          <li><a href=\"../$url\">$eti</a></li>";

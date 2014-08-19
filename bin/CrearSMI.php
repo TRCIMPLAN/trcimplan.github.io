@@ -47,11 +47,12 @@ $impresor->plantilla = $plantilla;
 
 // Crear SMI Indicadores
 try {
-    echo $impresor->imprimir('SMIIndicadoresTorreon')."\n";
-    echo $impresor->imprimir('SMIIndicadoresGomezPalacio')."\n";
-    echo $impresor->imprimir('SMIIndicadoresLerdo')."\n";
-    echo $impresor->imprimir('SMIIndicadoresMatamoros')."\n";
-    echo $impresor->imprimir('SMIIndicadoresLaLaguna')."\n";
+    $impresor->agregar_directorio_publicaciones('SMIIndicadoresTorreon');
+    $impresor->agregar_directorio_publicaciones('SMIIndicadoresGomezPalacio');
+    $impresor->agregar_directorio_publicaciones('SMIIndicadoresLerdo');
+    $impresor->agregar_directorio_publicaciones('SMIIndicadoresMatamoros');
+    $impresor->agregar_directorio_publicaciones('SMIIndicadoresLaLaguna');
+    echo $impresor->imprimir()."\n";
 } catch (\Exception $e) {
     echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";

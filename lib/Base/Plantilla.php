@@ -41,8 +41,9 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public $autor;          // Persona que sea la autora
     public $descripcion;    // Descripción del sitio o la página
     public $claves;         // Claves que ayuden a los buscadores
-    public $ruta;           // Ruta relativa a la pagina HTML con la publicación para_compartir
-    public $imagen_previa;  // Ruta relativa a la imagen a usar para_compartir
+    public $directorio;     // Directorio donde se guardará el archivo HTML
+    public $ruta;           // Ruta relativa a la pagina HTML
+    public $imagen_previa;  // Ruta relativa a la imagen
     public $menu_principal; // Instancia de \Base\MenuPrincipal
     public $encabezado;     // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior
     public $contenido;      // Código HTML con el contenido

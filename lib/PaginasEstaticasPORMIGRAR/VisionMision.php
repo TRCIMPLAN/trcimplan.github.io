@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Configuración Publicación Config
+ * SMIbeta - Institucional Visión/Misión
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -20,18 +20,30 @@
  */
 
 // Namespace
-namespace Configuracion;
+namespace Institucional;
 
 /**
- * Clase PublicacionConfig
+ * Clase VisionMision
  */
-class PublicacionConfig {
+class VisionMision extends \Base\Publicacion {
 
-    public $fecha                     = '1980-01-01';           // La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
-    public $autor                     = 'TrcIMPLAN';            // El nombre o apodo a quien se le atribuye
-    public $aparece_en_pagina_inicial = true;                   // Verdadero si va aparecer en la página de inicio.
-    public $imagen_previa             = '/imagenes/implan.jpg'; // Ruta a un archivo de imagen para la vista previa en redes sociales
+    /**
+     * Constructor
+     */
+    public function __construct() {
+        $this->nombre      = '';
+        $this->directorio  = '';
+        $this->archivo     = '';
+        $this->descripcion = '';
+        $this->claves      = '';
+        $this->categorias  = array();
+        $this->encabezado  = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
+        $this->contenido   = <<<FINAL
+FINAL;
+        $this->javascript  = <<<FINAL
+FINAL;
+    } // constructor
 
-} // Clase PublicacionConfig
+} // Clase VisionMision
 
 ?>

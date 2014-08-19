@@ -32,15 +32,15 @@ class MenuPrincipalConfig {
     public $menu_principal_opciones = array(
         'Institucional' => array(
             'Visión / Misión'       => 'institucional/vision-mision.html',
-            'Mensaje del Director'  => 'institucional/mensaje-del-director.html',
+            'Mensaje del Director'  => 'institucional/mensaje-director.html',
             'Quienes Somos'         => 'institucional/quienes-somos.html',
             'Estructura Orgánica'   => 'institucional/estructura-organica.html',
             'Transparencia'         => 'http://www.icai.org.mx/ipmn/Principal.php?sujeto=0',
             'Reglamentos'           => 'institucional/reglamentos.html',
             'Información Finaciera' => 'institucional/informacion-financiera.html'),
         'Servicios' => array(
-            'Sistema Metropolitano de Indicadores' => 'proyectos/smi.html',
-            'Sistema de Información Geográfica'    => 'proyectos/sig.html',
+            'Sistema Metropolitano de Indicadores' => 'smi/index.html',
+            'Sistema de Información Geográfica'    => 'sig/index.html',
             'Banco Municipal de Proyectos'         => 'proyectos/banco-municipal-proyectos.html',
             'Cartera de Proyectos'                 => 'proyectos/cartera-proyectos.html'),
         'Interacción' => array(

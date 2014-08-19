@@ -27,8 +27,9 @@ namespace Base;
  */
 class Imprenta {
 
-    public $plantilla;
-    public $mensajes = array();
+    public $plantilla;                  // Instancia de Plantilla
+    public $mensajes = array();         // Arreglo con mensajes para la terminal
+    protected $publicaciones = array(); // Arreglo con instancias de Publicacion
 
     /**
      * Eliminar un directorio y todos sus archivos
@@ -49,7 +50,7 @@ class Imprenta {
                 throw new ImprentaExceptionFallo("Error en Imprenta, eliminar_directorio: No se pudo eliminar $ruta.");
             }
         } else {
-            $this->mensajes[] = "  No existe $ruta. Por lo que no hice nada.";
+            // $this->mensajes[] = "  Nada que eliminar, porque no existe $ruta.";
         }
     } // eliminar_directorio
 
@@ -70,6 +71,8 @@ class Imprenta {
             } else {
                 $this->mensajes[] = "  Creado el directorio $ruta...";
             }
+        } else {
+            // $this->mensajes[] = "  Nada que crear, porque ya existe el directorio $ruta.";
         }
     } // crear_directorio
 
@@ -79,7 +82,7 @@ class Imprenta {
      * @param string Ruta al archivo a crear
      * @param mixed  Texto o arreglo con el contenido
      */
-    public function crear_archivo($ruta, $contenido) {
+    protected function crear_archivo($ruta, $contenido) {
         // Validar parámetros
         if (trim($ruta) == '') {
             throw new ImprentaExceptionValidacion("Error en Imprenta, crear_archivo: Parámetro vacío, la ruta.");
@@ -142,32 +145,50 @@ class Imprenta {
     } // recolectar_clases
 
     /**
+     * Agregar Directorio
+     *
+     * @param string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
+     */
+    public function agregar_directorio_publicaciones($dir) {
+        // Bucle con las clases recolectadas
+        foreach ($this->recolectar_clases($dir) as $clase) { // Puede causar una excepción
+            // Agregar instancia
+            $this->publicaciones[] = new $clase();
+        }
+    } // agregar_directorio
+
+    /**
      * Imprimir
      *
-     * @param  string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
      * @return string Mensajes para la terminal
      */
-    public function imprimir($dir) {
+    public function imprimir() {
         // Validar que la plantilla esté definida
         if (!is_object($this->plantilla)) {
             throw new ImprentaExceptionValidacion("Error en Imprenta, imprimir_directorio: No está definida la plantilla.");
         }
-        // Bucle con las clases recolectadas
-        foreach ($this->recolectar_clases($dir) as $clase) { // Puede causar una excepción
-            // Definir instancia
-            $publicacion = new $clase();
-            // Pasar propiedades del Indicador a la Plantilla
-            $this->plantilla->titulo      = $publicacion->nombre;
-            $this->plantilla->autor       = $publicacion->autor;
-            $this->plantilla->descripcion = $publicacion->descripcion;
-            $this->plantilla->claves      = $publicacion->claves;
-            $this->plantilla->ruta        = "{$publicacion->directorio}/{$publicacion->archivo}.html";
-            $this->plantilla->encabezado  = $publicacion->encabezado;
-            $this->plantilla->contenido   = $publicacion->contenido;
-            $this->plantilla->javascript  = $publicacion->javascript;
-            // Escribir el archivo HTML
-            $this->crear_directorio($publicacion->directorio);                      // Puede causar una excepción
+        // Si no hay publicaciones
+        if (count($this->publicaciones) == 0) {
+            // Entonces se imprime la Plantilla
+            $this->crear_directorio($this->plantilla->directorio);                  // Puede causar una excepción
             $this->crear_archivo($this->plantilla->ruta, $this->plantilla->html()); // Puede causar una excepción
+        } else {
+            // Bucle con las publicaciones
+            foreach ($this->publicaciones as $publicacion) {
+                // Pasar propiedades del Indicador a la Plantilla
+                $this->plantilla->titulo      = $publicacion->nombre;
+                $this->plantilla->autor       = $publicacion->autor;
+                $this->plantilla->descripcion = $publicacion->descripcion;
+                $this->plantilla->claves      = $publicacion->claves;
+                $this->plantilla->directorio  = $publicacion->directorio;
+                $this->plantilla->ruta        = "{$publicacion->directorio}/{$publicacion->archivo}.html";
+                $this->plantilla->encabezado  = $publicacion->encabezado;
+                $this->plantilla->contenido   = $publicacion->contenido;
+                $this->plantilla->javascript  = $publicacion->javascript;
+                // Escribir el archivo HTML
+                $this->crear_directorio($this->plantilla->directorio);                  // Puede causar una excepción
+                $this->crear_archivo($this->plantilla->ruta, $this->plantilla->html()); // Puede causar una excepción
+            }
         }
         // Entregar mensajes
         return implode("\n", $this->mensajes);
