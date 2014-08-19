@@ -41,6 +41,7 @@ class PlantillaMenuIzquierdo extends Plantilla {
     // public $autor;
     // public $descripcion;
     // public $claves;
+    // public $directorio;
     // public $ruta;
     // public $imagen_previa;
     // public $menu_principal;
@@ -57,7 +58,7 @@ class PlantillaMenuIzquierdo extends Plantilla {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '  <div id="page-wrapper" style="min-height:459px;">';
+        $a[] = '  <div id="page-wrapper">'; // style="min-height:459px;"
         $a[] = '    <div class="row contenido">';
         if ($this->encabezado != '') {
             $a[] = $this->encabezado;

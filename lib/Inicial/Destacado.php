@@ -44,8 +44,8 @@ class Destacado {
         $a[] = '        <div class="row">';
         $a[] = '          <!-- DESTACADO IZQUIERDA INICIA -->';
         $a[] = '          <div class="col-md-6">';
-        $a[] = '            <a href="proyectos/smi.html"><img class="img-responsive destacado-izquierda" src="imagenes/destacado-boton-smi.jpg" alt="Sistema Metropolitano de Indicadores"></a>';
-        $a[] = '            <a href="proyectos/sig.html"><img class="img-responsive destacado-izquierda" src="imagenes/destacado-boton-sig.jpg" alt="Sistema de Información Geográfica"></a>';
+        $a[] = '            <a href="smi/index.html"><img class="img-responsive destacado-izquierda" src="imagenes/destacado-boton-smi.jpg" alt="Sistema Metropolitano de Indicadores"></a>';
+        $a[] = '            <a href="sig/index.html"><img class="img-responsive destacado-izquierda" src="imagenes/destacado-boton-sig.jpg" alt="Sistema de Información Geográfica"></a>';
         $a[] = '          </div>';
         $a[] = '          <!-- DESTACADO IZQUIERDA TERMINA -->';
         $a[] = '          <!-- DESTACADO CENTRAL INICIA -->';

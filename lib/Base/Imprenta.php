@@ -153,8 +153,12 @@ class Imprenta {
         // Bucle con las clases recolectadas
         foreach ($this->recolectar_clases($dir) as $clase) { // Puede causar una excepción
             // Agregar instancia
-            $this->publicaciones[] = new $clase();
+            $instancias = new $clase();
         }
+        // Acumular
+        $this->publicaciones = array_merge($this->publicaciones, $instancias);
+        // Entregar
+        return $instancias;
     } // agregar_directorio
 
     /**

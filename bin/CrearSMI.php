@@ -44,14 +44,43 @@ $plantilla->menu_izquierdo = $menu_izquierdo;
 // Preparar impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla;
-
 // Crear SMI Indicadores
 try {
-    $impresor->agregar_directorio_publicaciones('SMIIndicadoresTorreon');
-    $impresor->agregar_directorio_publicaciones('SMIIndicadoresGomezPalacio');
-    $impresor->agregar_directorio_publicaciones('SMIIndicadoresLerdo');
-    $impresor->agregar_directorio_publicaciones('SMIIndicadoresMatamoros');
-    $impresor->agregar_directorio_publicaciones('SMIIndicadoresLaLaguna');
+    // Al agregar los directorios con las publicaciones se reciben arreglos con las instancias de las publicaciones
+    $indicadores_torreon       = $impresor->agregar_directorio_publicaciones('SMIIndicadoresTorreon');
+    $indicadores_gomez_palacio = $impresor->agregar_directorio_publicaciones('SMIIndicadoresGomezPalacio');
+    $indicadores_lerdo         = $impresor->agregar_directorio_publicaciones('SMIIndicadoresLerdo');
+    $indicadores_matamoros     = $impresor->agregar_directorio_publicaciones('SMIIndicadoresMatamoros');
+    $indicadores_la_laguna     = $impresor->agregar_directorio_publicaciones('SMIIndicadoresLaLaguna');
+    echo $impresor->imprimir()."\n";
+} catch (\Exception $e) {
+    echo implode("\n", $impresor->mensajes)."\n";
+    echo "$soy ".$e->getMessage()."\n";
+    exit($E_FATAL);
+}
+unset($impresor);
+
+// Preparar impresor
+$impresor            = new \Base\Imprenta();
+$impresor->plantilla = $plantilla;
+
+// Preparar la publicación de la página de inicio del SMI
+$publicacion = new \SMI\Inicial();
+// Copiar las propiedades a la plantilla
+$plantilla->titulo      = $publicacion->nombre;
+$plantilla->autor       = $publicacion->autor;
+$plantilla->descripcion = $publicacion->descripcion;
+$plantilla->claves      = $publicacion->claves;
+$plantilla->directorio  = $publicacion->directorio;
+$plantilla->ruta        = "{$publicacion->directorio}/{$publicacion->archivo}.html";
+$plantilla->encabezado  = $publicacion->encabezado;
+$plantilla->contenido   = $publicacion->contenido;
+$plantilla->javascript  = $publicacion->javascript;
+// Preparar impresor
+$impresor            = new \Base\Imprenta();
+$impresor->plantilla = $plantilla;
+// Crear página de inicio del SMI
+try {
     echo $impresor->imprimir()."\n";
 } catch (\Exception $e) {
     echo implode("\n", $impresor->mensajes)."\n";

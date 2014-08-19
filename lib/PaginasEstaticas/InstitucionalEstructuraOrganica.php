@@ -40,7 +40,7 @@ class InstitucionalEstructuraOrganica extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon, Estructura, Organica, Consejo, Comites, Tecnicos, Director, Cuerpo';
      // $this->imagen_previa = '/imagenes/implan.jpg';
         $this->categorias    = array('Institucional');
-        $this->encabezado    = '<img class="img-responsive" src="estructura-organica/encabezado.jpg">';
+        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="estructura-organica/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <p><img class="img-responsive" src="estructura-organica/estructura-organica.png" alt="Estructura Orgánica"></p>
 

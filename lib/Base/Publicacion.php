@@ -45,20 +45,69 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $en_otro = false;      // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
 
     /**
-     * Breve Raíz HTML
+     * URL
      *
-     * @return string Código HTML
+     * @return string URL para enlazar, segun las banderas en_raiz y en_otro
      */
-    public function breve_raiz_html() {
-    } // breve_raiz_html
+    public function url() {
+        if ($this->en_raiz) {
+            // Es verdadero
+            return "{$this->directorio}/{$this->archivo}.html";
+        } else {
+            // Es falso en_raiz
+            if ($this->otro) {
+                return "../{$this->directorio}/{$this->archivo}.html";
+            } else {
+                return "{$this->archivo}.html";
+            }
+        }
+    } // url
 
     /**
-     * Breve Otro HTML
+     * Breve HTML
      *
      * @return string Código HTML
      */
-    public function breve_otro_html() {
-    } // breve_otro_html
+    public function breve_html() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+        $a[] = '            <div class="media breve">';
+        if ($this->imagen_previa != '') {
+            $a[] = '              <a class="pull-left" href="'.$this->url()."\"><img src=\"{$this->imagen_previa}\" class=\"breve-imagen\"></a>";
+        }
+        $a[] = '              <div class="media-body">';
+        $a[] = '                <h4><a href="'.$this->url()."\">{$this->nombre}</a></h4>";
+        $a[] = "                <p>{$this->descripcion}</p>";
+        $a[] = "                <p class=\"pull-left autor\">{$this->autor}</p>";
+        $a[] = '                <p class="pull-right leer-mas"><a href="'.$this->url().'">Leer más</a></p>';
+        $a[] = '              </div>';
+        $a[] = '            </div>';
+        // Entregar
+        return implode("\n", $a);
+    } // breve_html
+
+    /**
+     * Corto HTML
+     *
+     * @return string Código HTML
+     */
+    public function corto_html() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+        $a[] = '            <div class="media corto">';
+        if ($this->imagen_previa != '') {
+            $a[] = '              <a class="pull-left" href="'.$this->url()."\"><img src=\"{$this->imagen_previa}\" class=\"corto-imagen\"></a>";
+        }
+        $a[] = '              <div class="media-body">';
+        $a[] = '                <h4><a href="'.$this->url()."\">{$this->nombre}</a></h4>";
+        $a[] = "                <p>{$this->descripcion}</p>";
+        $a[] = '              </div>';
+        $a[] = '            </div>';
+        // Entregar
+        return implode("\n", $a);
+    } // corto_html
 
     /**
      * HTML

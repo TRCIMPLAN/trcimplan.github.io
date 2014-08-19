@@ -54,9 +54,9 @@ class ProyectosBancoMunicipalProyectos extends \Base\Publicacion {
   <li>Interopera con el Sistema de Evaluación y Seguimiento de Proyectos.</li>
   <li>Recopila y clasifica la información referente a cada proyecto.</li>
   <li>Procesar la información en entregables útiles para la toma de decisiones como estadísticas, reportes, mapas, cédulas de evaluación, etc. Resguarda la información a lo largo del tiempo (fomenta la memoria institucional).</li>
-</ul></div>
+</ul>
 
-<p><img src="banco-municipal-proyectos/logo-sesp.png" alt="SESP"></center></p>
+<p><img src="banco-municipal-proyectos/logo-sesp.png" alt="SESP"></p>
 
 <p><strong>¿Qué es el SESP?</strong> El Sistema de Evaluación y Seguimiento de Proyectos es un conjunto articulado de métodos y herramientas que facilitan la formulación, priorización, evaluación y seguimiento de los proyectos de inversión. Aportando los criterios al BMPI para la clasificación, recopilación e inventariado de proyectos.</p>
 

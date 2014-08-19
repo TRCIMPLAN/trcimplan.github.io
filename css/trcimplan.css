@@ -108,13 +108,16 @@ a:focus   { text-decoration:none; color:#AA005F; }
 /*
  * Contenido
  */
-#page-full {
-    position:inherit;
-    margin:0;
-    padding:0 30px;
+.contenido {
+    padding-left:16px;
+    padding-right:16px;
 }
-#page-full .contenido {
-    padding:15px 15px 0 15px;
+.encabezado-imagen {
+    margin-top:8px;
+    padding-bottom:8px;
+    margin-bottom:12px;
+    border-bottom:2px solid #CCC;
+    width:100%;
 }
 .contenido {
     background-color:#FFF;
@@ -130,8 +133,7 @@ a:focus   { text-decoration:none; color:#AA005F; }
     border-radius:4px;
 }
 .inferior {
-    margin:0;
-    padding:16px 0 16px 0;
+    padding:16px;
     background-color:#524B48;
     color:#888;
     font-size:12px;

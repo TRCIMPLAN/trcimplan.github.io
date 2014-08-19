@@ -40,7 +40,7 @@ class InstitucionalReglamentos extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon';
      // $this->imagen_previa = '/imagenes/implan.jpg';
         $this->categorias    = array();
-        $this->encabezado    = '<img class="img-responsive" src="reglamentos/encabezado.jpg">';
+        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="reglamentos/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <p style="text-align: center;"><a href="reglamentos/trcimplan-reglamento.pdf"><img src="reglamentos/icono-descargar.png" alt="Descargar"></a><br>
 Descargue el <a title="Reglamento del IMPLAN Torreón" href="reglamentos/trcimplan-reglamento.pdf">Reglamento del IMPLAN Torreón</a>.</p>

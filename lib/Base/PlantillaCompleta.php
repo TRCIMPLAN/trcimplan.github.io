@@ -41,6 +41,7 @@ class PlantillaCompleta extends Plantilla {
     // public $autor;
     // public $descripcion;
     // public $claves;
+    // public $directorio;
     // public $ruta;
     // public $imagen_previa;
     // public $menu_principal;
@@ -57,8 +58,9 @@ class PlantillaCompleta extends Plantilla {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '  <div id="page-full" style="min-height:459px;">';
-        $a[] = '    <div class="row contenido">';
+        $a[] = '  <div id="page-complete">';
+        $a[] = '    <div class="container">';
+        $a[] = '      <div class="row contenido">';
         if ($this->encabezado != '') {
             $a[] = $this->encabezado;
         } else {
@@ -69,9 +71,10 @@ class PlantillaCompleta extends Plantilla {
             }
         }
         $a[] = $this->contenido;
-        $a[] = '    </div>'; // row contenido
+        $a[] = '      </div>'; // row contenido
         $a[] = $this->inferior();
-        $a[] = '  </div>';   // page-full
+        $a[] = '    </div>';   // container
+        $a[] = '  </div>';     // page-complete
         // Entregar
         return implode("\n", $a);
     } // elaborar_contenido

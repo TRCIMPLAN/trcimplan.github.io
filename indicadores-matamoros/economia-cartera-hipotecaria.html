@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Monto de créditos otorgados a la fecha indicada.">
+  <meta name="author" content="TrcIMPLAN">
+  <meta name="keywords" content="Matamoros, Mercados">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cartera Hipotecaria en Matamoros">
+  <meta name="twitter:description" content="Monto de créditos otorgados a la fecha indicada.">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/indicadores-matamoros/economia-cartera-hipotecaria.html">
+  <meta name="og:title" content="Cartera Hipotecaria en Matamoros">
+  <meta name="og:description" content="Monto de créditos otorgados a la fecha indicada.">
+  <meta name="og:url" content="http://trcimplan.gob.mx/indicadores-matamoros/economia-cartera-hipotecaria.html">
+  <title>Cartera Hipotecaria en Matamoros - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+    <ul class="nav navbar-top-links">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Institucional <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../institucional/vision-mision.html">Visión / Misión</a></li>
+          <li><a href="../institucional/mensaje-director.html">Mensaje del Director</a></li>
+          <li><a href="../institucional/quienes-somos.html">Quienes Somos</a></li>
+          <li><a href="../institucional/estructura-organica.html">Estructura Orgánica</a></li>
+          <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0">Transparencia</a></li>
+          <li><a href="../institucional/reglamentos.html">Reglamentos</a></li>
+          <li><a href="../institucional/informacion-financiera.html">Información Finaciera</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Servicios <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../smi/index.html">Sistema Metropolitano de Indicadores</a></li>
+          <li><a href="../sig/index.html">Sistema de Información Geográfica</a></li>
+          <li><a href="../proyectos/banco-municipal-proyectos.html">Banco Municipal de Proyectos</a></li>
+          <li><a href="../proyectos/cartera-proyectos.html">Cartera de Proyectos</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Interacción <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="../eventos/index.html">Eventos</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Consejo Directivo <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../consejo-directivo/index.html">Consejo Directivo</a></li>
+          <li><a href="../consejo-directivo/agenda.html">Agenda Consejo Directivo</a></li>
+          <li><a href="../consejo-directivo/agenda-comites-tecnicos.html">Agenda Comités Técnicos</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="../contacto/index.html">Contacto</a>
+      </li>
+      <li>
+        <a href="../sala-de-prensa/index.html">Sala de Prensa</a>
+      </li>
+    </ul>
+<div class="navbar-default sidebar" role="navigation">
+  <div class="sidebar-nav navbar-collapse">
+    <ul class="nav" id="side-menu">
+      <li>
+        <a href="../indicadores-torreon/"><i class="fa fa-dashboard fa-fw"></i> Torreón</a>
+      </li>
+      <li>
+        <a href="../indicadores-gomez-palacio/"><i class="fa fa-dashboard fa-fw"></i> Gómez Palacio</a>
+      </li>
+      <li>
+        <a href="../indicadores-lerdo/"><i class="fa fa-dashboard fa-fw"></i> Lerdo</a>
+      </li>
+      <li>
+        <a href="../indicadores-matamoros/"><i class="fa fa-dashboard fa-fw"></i> Matamoros</a>
+      </li>
+      <li>
+        <a href="../indicadores-la-laguna/"><i class="fa fa-dashboard fa-fw"></i> La Laguna</a>
+      </li>
+    </ul>
+  </div>
+</div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row contenido">
+  <h1>Cartera Hipotecaria en Matamoros</h1>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasosmeuvlc">
+    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
+    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane" id="descripcion">
+      <h4>Descripción</h4>
+Monto de créditos otorgados a la fecha indicada.
+
+<h4>Información recopilada</h4>
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="centrado">31/12/2010</td>
+<td class="derecha">$ 66,279,954.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">31/12/2011</td>
+<td class="derecha">$ 59,324,405.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">31/12/2012</td>
+<td class="derecha">$ 57,375,581.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">31/12/2013</td>
+<td class="derecha">$ 56,877,995.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">31/03/2014</td>
+<td class="derecha">$ 57,702,472.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td>Dato trimestral</td>
+</tr>
+</tbody>
+</table>
+<b>Unidad:</b> Pesos.
+
+<h4>Observaciones</h4>
+La cartera hipotecaria de La Laguna representa el 1.69% de la cartera nacional. 
+
+Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx)
+
+    </div>
+    <div class="tab-pane" id="grafica">
+      <h4>Gráfica</h4>
+
+<div id="Morriswkjfpbeo" class="grafica"></div>
+
+
+    </div>
+    <div class="tab-pane" id="mapa">
+              <div id="LeafLetqygfmida" class="mapa"></div>
+    </div>
+    <div class="tab-pane active" id="otras_regiones">
+      <h4>En otras regiones</h4>
+
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Región</th>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Torreón</td>
+<td>2010-12-31</td>
+<td class="derecha">$ 3,479,653,828.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2011-12-31</td>
+<td class="derecha">$ 3,741,316,668.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2012-12-31</td>
+<td class="derecha">$ 4,027,766,032.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2013-12-31</td>
+<td class="derecha">$ 4,476,538,920.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-03-31</td>
+<td class="derecha">$ 4,664,619,926.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td>Dato trimestral</td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2010-12-31</td>
+<td class="derecha">$ 428,193,681.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2011-12-31</td>
+<td class="derecha">$ 487,730,197.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2012-12-31</td>
+<td class="derecha">$ 549,445,038.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2013-12-31</td>
+<td class="derecha">$ 588,858,276.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2014-03-31</td>
+<td class="derecha">$ 614,765,352.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td>Dato trimestral</td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2010-12-31</td>
+<td class="derecha">$ 231,743,194.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2011-12-31</td>
+<td class="derecha">$ 240,598,550.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2012-12-31</td>
+<td class="derecha">$ 261,966,994.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2013-12-31</td>
+<td class="derecha">$ 319,887,703.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2014-03-31</td>
+<td class="derecha">$ 334,888,287.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td>Dato trimestral</td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2010-12-31</td>
+<td class="derecha">$ 4,205,870,657.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2011-12-31</td>
+<td class="derecha">$ 4,528,969,820.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2012-12-31</td>
+<td class="derecha">$ 4,896,553,645.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2013-12-31</td>
+<td class="derecha">$ 5,442,162,894.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2014-03-31</td>
+<td class="derecha">$ 5,671,976,037.00</td>
+<td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
+<td>Dato trimestral</td>
+</tr>
+</tbody>
+</table>
+
+
+    </div>
+  </div>
+    </div>
+    <div class="row inferior">
+        <a href="http://trcimplan.gob.mx"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/google-analytics.js"></script>
+<script>
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasosmeuvlc a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasosmeuvlc a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorriswkjfpbeo === 'undefined') {
+    varMorriswkjfpbeo = Morris.Line({
+      element: 'Morriswkjfpbeo',
+      data: [{ fecha: '2010-12-31', dato: 66279954.00 },{ fecha: '2011-12-31', dato: 59324405.00 },{ fecha: '2012-12-31', dato: 57375581.00 },{ fecha: '2013-12-31', dato: 56877995.00 },{ fecha: '2014-03-31', dato: 57702472.00 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasosmeuvlc a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapqygfmida;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapqygfmida() {
+    // Nuevo Mapa
+    mapqygfmida = new L.Map('LeafLetqygfmida');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapqygfmida.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapqygfmida.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapqygfmida);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapqygfmida === 'undefined') {
+    varinitmapqygfmida = initmapqygfmida();
+  };
+});
+</script>
+</body>
+</html>
