@@ -30,19 +30,21 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     // public $fecha;
     // public $autor;
     // public $aparece_en_pagina_inicial;
-    public $nombre;               // Título completo de la publicación
-    public $nombre_menu;          // Un título corto para el menú, si se omite, se copia el nombre
-    public $directorio;           // Directorio donde está guardada la publicación completa
-    public $archivo;              // El nombre del archivo para la publicación
-    public $descripcion;          // Descripción del sitio o la página
-    public $imagen_previa;        // Ruta relativa a un archivo de imagen para la vista previa a compartir en redes sociales
-    public $claves;               // Claves que ayuden a los buscadores
-    public $categorias = array(); // Arreglo con las categorías de la publicación.
-    public $encabezado;           // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
-    public $contenido;            // Contenido de la publicación. Puede tener una línea con <!-- break --> para separar la parte breve.
-    public $javascript;           // Código Javascript. Debe estar aparte para ponerlo al final de la página.
-    public $en_raiz = false;      // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
-    public $en_otro = false;      // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
+    // public $imagen_previa;
+    public $nombre;                      // Título completo de la publicación
+    public $nombre_menu;                 // Un título corto para el menú, si se omite, se copia el nombre
+    public $directorio;                  // Directorio donde está guardada la publicación completa
+    public $archivo;                     // El nombre del archivo para la publicación
+    public $descripcion;                 // Descripción del sitio o la página
+    public $imagen_previa;               // Ruta relativa a un archivo de imagen para la vista previa a compartir en redes sociales
+    public $claves;                      // Claves que ayuden a los buscadores
+    public $categorias        = array(); // Arreglo con las categorías de la publicación.
+    public $encabezado;                  // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
+    public $contenido;                   // Contenido de la publicación. Puede tener una línea con <!-- break --> para separar la parte breve.
+    public $javascript;                  // Código Javascript. Debe estar aparte para ponerlo al final de la página.
+    public $en_raiz           = false;   // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
+    public $en_otro           = false;   // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
+    protected $html_ejecutado = false;   // Bandera para saber si ya se ejecutó
 
     /**
      * URL
@@ -62,72 +64,6 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             }
         }
     } // url
-
-    /**
-     * Breve HTML
-     *
-     * @return string Código HTML
-     */
-    public function breve_html() {
-        // Acumularemos la entrega en este arreglo
-        $a = array();
-        // Acumular
-        $a[] = '            <div class="media breve">';
-        if ($this->imagen_previa != '') {
-            $a[] = '              <a class="pull-left" href="'.$this->url()."\"><img src=\"{$this->imagen_previa}\" class=\"breve-imagen\"></a>";
-        }
-        $a[] = '              <div class="media-body">';
-        $a[] = '                <h4><a href="'.$this->url()."\">{$this->nombre}</a></h4>";
-        $a[] = "                <p>{$this->descripcion}</p>";
-        $a[] = "                <p class=\"pull-left autor\">{$this->autor}</p>";
-        $a[] = '                <p class="pull-right leer-mas"><a href="'.$this->url().'">Leer más</a></p>';
-        $a[] = '              </div>';
-        $a[] = '            </div>';
-        // Entregar
-        return implode("\n", $a);
-    } // breve_html
-
-    /**
-     * Corto HTML
-     *
-     * @return string Código HTML
-     */
-    public function corto_html() {
-        // Acumularemos la entrega en este arreglo
-        $a = array();
-        // Acumular
-        $a[] = '            <div class="media corto">';
-        if ($this->imagen_previa != '') {
-            $a[] = '              <a class="pull-left" href="'.$this->url()."\"><img src=\"{$this->imagen_previa}\" class=\"corto-imagen\"></a>";
-        }
-        $a[] = '              <div class="media-body">';
-        $a[] = '                <h4><a href="'.$this->url()."\">{$this->nombre}</a></h4>";
-        $a[] = "                <p>{$this->descripcion}</p>";
-        $a[] = '              </div>';
-        $a[] = '            </div>';
-        // Entregar
-        return implode("\n", $a);
-    } // corto_html
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Acumularemos la entrega en este arreglo
-        $a = array();
-        // Acumular
-        $a[] = '<article>';
-        $a[] = '  <header>';
-        $a[] = "    <h1>{$this->nombre}</h1>";
-        $a[] = "    <p class=\"autor-fecha\">Por {$this->autor}, {$this->fecha}</p>";
-        $a[] = '  </header>';
-        $a[] = $this->contenido;
-        $a[] = '</article>';
-        // Entregar
-        return implode("\n", $a);
-    } // html
 
 } // Clase Publicacion
 

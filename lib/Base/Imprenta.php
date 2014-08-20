@@ -147,13 +147,16 @@ class Imprenta {
     /**
      * Agregar Directorio
      *
-     * @param string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
+     * @param  string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
+     * @return array  Arreglo con las instancias de Publicaciones
      */
     public function agregar_directorio_publicaciones($dir) {
+        // Acumularemos las instancias en este arreglo
+        $instancias = array();
         // Bucle con las clases recolectadas
         foreach ($this->recolectar_clases($dir) as $clase) { // Puede causar una excepción
             // Agregar instancia
-            $instancias = new $clase();
+            $instancias[] = new $clase();
         }
         // Acumular
         $this->publicaciones = array_merge($this->publicaciones, $instancias);
@@ -179,16 +182,8 @@ class Imprenta {
         } else {
             // Bucle con las publicaciones
             foreach ($this->publicaciones as $publicacion) {
-                // Pasar propiedades del Indicador a la Plantilla
-                $this->plantilla->titulo      = $publicacion->nombre;
-                $this->plantilla->autor       = $publicacion->autor;
-                $this->plantilla->descripcion = $publicacion->descripcion;
-                $this->plantilla->claves      = $publicacion->claves;
-                $this->plantilla->directorio  = $publicacion->directorio;
-                $this->plantilla->ruta        = "{$publicacion->directorio}/{$publicacion->archivo}.html";
-                $this->plantilla->encabezado  = $publicacion->encabezado;
-                $this->plantilla->contenido   = $publicacion->contenido;
-                $this->plantilla->javascript  = $publicacion->javascript;
+                // Incorporar publicación a la plantilla
+                $this->plantilla->incorporar_publicacion($publicacion);
                 // Escribir el archivo HTML
                 $this->crear_directorio($this->plantilla->directorio);                  // Puede causar una excepción
                 $this->crear_archivo($this->plantilla->ruta, $this->plantilla->html()); // Puede causar una excepción

@@ -54,25 +54,43 @@ class PlantillaInicial extends \Base\Plantilla {
      */
     public function __construct() {
         // Valores por defecto de estas propiedades
-        $this->en_raiz     = true;
-        $this->titulo      = $this->sitio_titulo;
-        $this->autor       = 'TrcIMPLAN';
-        $this->descripcion = 'El IMPLAN Torreón es el Órgano Técnico Descentralizado de la Administración Pública Municipal que coordina los procesos de Planeación Estratégica y Ordenamiento Territorial para el desarrollo de la Región.';
-        $this->claves      = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna';
-        $this->directorio  = '.';
-        $this->ruta        = "index.html";
-        // Definir el menú principal
-        $menu_principal          = new \Base\MenuPrincipal();
-        $menu_principal->en_raiz = true;
-        $this->menu_principal    = $menu_principal;
+        $this->en_raiz       = true;
+        $this->titulo        = $this->sitio_titulo;
+        $this->autor         = 'TrcIMPLAN';
+        $this->descripcion   = 'El IMPLAN Torreón es el Órgano Técnico Descentralizado de la Administración Pública Municipal que coordina los procesos de Planeación Estratégica y Ordenamiento Territorial para el desarrollo de la Región.';
+        $this->claves        = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna';
+        $this->directorio    = '.';
+        $this->ruta          = "index.html";
+        $this->imagen_previa = '/imagenes/implan.jpg';
+        $this->encabezado    = '';
+        $this->contenido     = '';
+        $this->javascript    = '';
     } // constructor
 
     /**
-     * Elaborar Contenido
+     * Inferior
+     */
+    protected function inferior() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+        $a[] = '    <div class="row inferior">';
+        if ($this->en_raiz) {
+            $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
+        } else {
+            $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"../imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
+        }
+        $a[] = '    </div>'; // row inferior
+        // Entregar
+        return implode("\n", $a);
+    } // inferior
+
+    /**
+     * HTML
      *
      * @return string Código HTML
      */
-    protected function elaborar_contenido() {
+    public function html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Definir el contenido
@@ -81,9 +99,11 @@ class PlantillaInicial extends \Base\Plantilla {
         $destacado = new Destacado();
         $a[]       = $destacado->html();
         $a[]       = $this->inferior();
-        // Entregar
-        return implode("\n", $a);
-    } // elaborar_contenido
+        // Definir contenido
+        $this->contenido = implode("\n", $a);
+        // Ejecutar padre
+        return parent::html();
+    } // html
 
 } // Clase PlantillaInicial
 

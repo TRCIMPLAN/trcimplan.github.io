@@ -33,15 +33,17 @@ $E_FATAL=99;
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
-// Preparar el menu principal
+/**
+ * Páginas Estáticas
+ */
+// Cargar el menu principal
 $menu_principal = new \Base\MenuPrincipal();
-// Preparar la plantilla
+// Cargar la plantilla completa
 $plantilla                 = new \Base\PlantillaCompleta();
 $plantilla->menu_principal = $menu_principal;
-// Preparar impresor
+// Cargar el impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla;
-
 // Imprimir
 try {
     $impresor->agregar_directorio_publicaciones('PaginasEstaticas');
@@ -51,14 +53,22 @@ try {
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }
+unset($menu_principal);
+unset($plantilla);
 unset($impresor);
 
-// Preparar la plantilla para la Página Inicial
-$plantilla_inicial = new \Inicial\PlantillaInicial();
-// Preparar NUEVO impresor
+/**
+ * Página Inicial
+ */
+// Cargar el menu principal
+$menu_principal          = new \Base\MenuPrincipal();
+$menu_principal->en_raiz = true;
+// Cargar la plantilla para la Página Inicial
+$plantilla_inicial                 = new \Inicial\PlantillaInicial();
+$plantilla_inicial->menu_principal = $menu_principal;
+// Cargar el impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla_inicial;
-
 // Imprimir
 try {
     echo $impresor->imprimir()."\n";

@@ -27,25 +27,50 @@ namespace SMI;
  */
 class IndicadoresTorreon extends \Base\Publicacion {
 
+    public $publicaciones = array(); // Arreglo con instancias de Publicacion generado por Imprenta
+
     /**
      * Constructor
      */
     public function __construct() {
         $this->fecha         = '2014-08-19';
-        $this->nombre        = '';
-        $this->nombre_menu   = '';
-        $this->directorio    = '';
-        $this->archivo       = '';
-        $this->descripcion   = '.';
-        $this->claves        = 'IMPLAN, Torreon';
+        $this->nombre        = 'Indicadores Torreón';
+        $this->nombre_menu   = 'Indicadores Torreón';
+        $this->directorio    = 'indicadores-torreon';
+        $this->archivo       = 'index';
+        $this->descripcion   = 'IMPLAN Torreón, Sistema Metropolitano de Indicadores. Indicadores de Torreón.';
+        $this->claves        = 'IMPLAN, Torreon, Indicadores';
      // $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->categorias    = array();
+        $this->categorias    = array('Indicadores', 'Torreón');
      // $this->encabezado    = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+     // $this->contenido     = '';
+     // $this->javascript    = '';
     } // constructor
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Validar
+        if (!is_array($this->publicaciones)) {
+            throw new \Exception("Error en IndicadoresTorreon: La propiedad publicaciones es incorrecta.");
+        }
+        if (count($this->publicaciones) == 0) {
+            throw new \Exception("Error en IndicadoresTorreon: El arreglo publicaciones no tiene datos.");
+        }
+        // Acumularemos el contenido en este arreglo
+        $a = array();
+        // Bucle con las Publicaciones
+        foreach ($this->publicaciones as $publicacion) {
+            $a[] = $publicacion->corto_html();
+        }
+        // Definir contenido
+        $this->contenido = implode("\n", $a)."\n<!-- IndicadoresTorreon:html() -->\n";
+        // Ejecutar padre
+        return parent::html();
+    } // html
 
 } // Clase IndicadoresTorreon
 

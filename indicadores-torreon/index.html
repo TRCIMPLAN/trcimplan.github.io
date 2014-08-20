@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Listado de Indicadores de Torreón. IMPLAN Torreón, Sistema Metropolitano de Indicadores.">
+  <meta name="author" content="TrcIMPLAN">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sistema Metropolitano de Indicadores: Torreón">
+  <meta name="twitter:description" content="Listado de Indicadores de Torreón. IMPLAN Torreón, Sistema Metropolitano de Indicadores.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx//imagenes/implan.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/indicadores-torreon/index.html">
+  <meta name="og:title" content="Sistema Metropolitano de Indicadores: Torreón">
+  <meta name="og:description" content="Listado de Indicadores de Torreón. IMPLAN Torreón, Sistema Metropolitano de Indicadores.">
+  <meta name="og:image" content="http://trcimplan.gob.mx//imagenes/implan.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/indicadores-torreon/index.html">
+  <title>Sistema Metropolitano de Indicadores: Torreón - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+    <ul class="nav navbar-top-links">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Institucional <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../institucional/vision-mision.html">Visión / Misión</a></li>
+          <li><a href="../institucional/mensaje-director.html">Mensaje del Director</a></li>
+          <li><a href="../institucional/quienes-somos.html">Quienes Somos</a></li>
+          <li><a href="../institucional/estructura-organica.html">Estructura Orgánica</a></li>
+          <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0">Transparencia</a></li>
+          <li><a href="../institucional/reglamentos.html">Reglamentos</a></li>
+          <li><a href="../institucional/informacion-financiera.html">Información Finaciera</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Servicios <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../smi/index.html">Sistema Metropolitano de Indicadores</a></li>
+          <li><a href="../sig/index.html">Sistema de Información Geográfica</a></li>
+          <li><a href="../proyectos/banco-municipal-proyectos.html">Banco Municipal de Proyectos</a></li>
+          <li><a href="../proyectos/cartera-proyectos.html">Cartera de Proyectos</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Interacción <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="../eventos/index.html">Eventos</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          Consejo Directivo <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="../consejo-directivo/index.html">Consejo Directivo</a></li>
+          <li><a href="../consejo-directivo/agenda.html">Agenda Consejo Directivo</a></li>
+          <li><a href="../consejo-directivo/agenda-comites-tecnicos.html">Agenda Comités Técnicos</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="../contacto/index.html">Contacto</a>
+      </li>
+      <li>
+        <a href="../sala-de-prensa/index.html">Sala de Prensa</a>
+      </li>
+    </ul>
+<div class="navbar-default sidebar" role="navigation">
+  <div class="sidebar-nav navbar-collapse">
+    <ul class="nav" id="side-menu">
+      <li>
+        <a href="../indicadores-torreon/"><i class="fa fa-dashboard fa-fw"></i> Torreón</a>
+      </li>
+      <li>
+        <a href="../indicadores-gomez-palacio/"><i class="fa fa-dashboard fa-fw"></i> Gómez Palacio</a>
+      </li>
+      <li>
+        <a href="../indicadores-lerdo/"><i class="fa fa-dashboard fa-fw"></i> Lerdo</a>
+      </li>
+      <li>
+        <a href="../indicadores-matamoros/"><i class="fa fa-dashboard fa-fw"></i> Matamoros</a>
+      </li>
+      <li>
+        <a href="../indicadores-la-laguna/"><i class="fa fa-dashboard fa-fw"></i> La Laguna</a>
+      </li>
+    </ul>
+  </div>
+</div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row contenido">
+  <h1>Sistema Metropolitano de Indicadores: Torreón</h1>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-apertura-de-negocio.html">Apertura de Negocio en Torreón</a></h4>
+                <p>Número de días necesarios para el trámite de apertura de un negocio.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-apertura-de-negocio.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-cartera-hipotecaria.html">Cartera Hipotecaria en Torreón</a></h4>
+                <p>Monto de créditos otorgados a la fecha indicada.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-cartera-hipotecaria.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-desempleo.html">Desempleo en Torreón</a></h4>
+                <p>Cantidad de personas desempleadas.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-desempleo.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-desocupados-como-porcentaje-de-la-pea.html">Desocupados como porcentaje de la PEA en Torreón</a></h4>
+                <p>Número total de desempleados entre la Población económicamente activa</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-desocupados-como-porcentaje-de-la-pea.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-ejecucion-de-contratos.html">Ejecución de Contratos en Torreón</a></h4>
+                <p>Días transcurridos para la ejecución de un contrato.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-ejecucion-de-contratos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-grandes-empresas.html">Grandes Empresas en Torreón</a></h4>
+                <p>Porcentaje del total de empresas que cuentan con más de 250 empleados.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-grandes-empresas.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en Torreón</a></h4>
+                <p>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-indice-de-competitividad-urbana.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-indice-de-especializacion-local-en-comercio.html">Índice de Especialización Local en Comercio en Torreón</a></h4>
+                <p>Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-indice-de-especializacion-local-en-comercio.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-indice-de-especializacion-local-en-industria-manufacturera.html">Índice de Especialización Local en Industria Manufacturera en Torreón</a></h4>
+                <p>Producción bruta total de la industria manufacturera entre la producción bruta total.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-indice-de-especializacion-local-en-industria-manufacturera.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-indice-de-especializacion-local-en-la-construccion.html">Índice de Especialización Local en la Construcción en Torreón</a></h4>
+                <p>Producción bruta total de la actividad económica de construcción entre la producción bruta total.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-indice-de-especializacion-local-en-la-construccion.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-indice-de-especializacion-local-en-la-mineria.html">Índice de Especialización Local en la Minería en Torreón</a></h4>
+                <p>Producción bruta total de la actividad económica de minería entre la producción bruta total.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-indice-de-especializacion-local-en-la-mineria.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-indice-de-especializacion-local-en-servicios.html">Índice de Especialización Local en Servicios en Torreón</a></h4>
+                <p>Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-indice-de-especializacion-local-en-servicios.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-indice-de-gini.html">Índice de Gini en Torreón</a></h4>
+                <p>Indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-indice-de-gini.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-inversion-extranjera-directa.html">Inversión Extranjera Directa en Torreón</a></h4>
+                <p>Promedio de inversión entre 2008 y 2012.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-inversion-extranjera-directa.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-inversion-per-capita.html">Inversión Per cápita en Torreón</a></h4>
+                <p>Gasto en obras públicas y acciones sociales entre población total.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-inversion-per-capita.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-medianas-empresas.html">Medianas Empresas en Torreón</a></h4>
+                <p>Porcentaje del total de empresas que emplean de 51 a 250 personas.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-medianas-empresas.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-microempresas.html">Microempresas en Torreón</a></h4>
+                <p>Porcentaje del total de empresas que emplean de 0 a 10 personas.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-microempresas.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-obtencion-de-credito---creacion-de-garantias.html">Obtención de crédito - Creación de garantías en Torreón</a></h4>
+                <p>Días transcurridos en el proceso de obtención de un crédito.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-obtencion-de-credito---creacion-de-garantias.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-pequenas-empresas.html">Pequeñas Empresas en Torreón</a></h4>
+                <p>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-pequenas-empresas.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-permiso-de-construccion.html">Permiso de Construcción en Torreón</a></h4>
+                <p>Número de días necesarios para conseguir un permiso de construcción.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-permiso-de-construccion.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Torreón</a></h4>
+                <p>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-personal-ocupado-en-el-comercio.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Torreón</a></h4>
+                <p>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-personal-ocupado-en-la-industria-manufacturera.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Torreón</a></h4>
+                <p>Personal ocupado en las actividades de servicios entre personal ocupado total.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-personal-ocupado-en-los-servicios.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-posgrados-de-calidad.html">Posgrados de Calidad en Torreón</a></h4>
+                <p>Programas aceptados por CONACYT como posgrados de calidad</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-posgrados-de-calidad.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Torreón</a></h4>
+                <p>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-produccion-bruta-total-per-capita.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-productividad-laboral.html">Productividad Laboral en Torreón</a></h4>
+                <p>PIB sin petróleo / PEA.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-productividad-laboral.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-registro-de-propiedades.html">Registro de Propiedades en Torreón</a></h4>
+                <p>Días que toma el trámite para el registro de una propiedad.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-registro-de-propiedades.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Torreón</a></h4>
+                <p>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Torreón</a></h4>
+                <p>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-tamano-del-mercado-hipotecario.html">Tamaño del Mercado Hipotecario en Torreón</a></h4>
+                <p>Créditos dispuestos marginalmente durante el año indicado.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-tamano-del-mercado-hipotecario.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-total-de-empresas.html">Total de Empresas en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-total-de-empresas.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-trabajadores-asegurados.html">Trabajadores Asegurados en Torreón</a></h4>
+                <p>Evolución del empleo medida en trabajadores asegurados por el IMSS.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-trabajadores-asegurados.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Torreón</a></h4>
+                <p>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Torreón</a></h4>
+                <p>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-unidades-economicas-dedicadas-a-los-servicios.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Torreón</a></h4>
+                <p>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="economia-unidades-economicas-dedicadas-al-comercio.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-capacidad-financiera.html">Capacidad Financiera en Torreón</a></h4>
+                <p>Ingresos propios entre gastos corrientes.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-capacidad-financiera.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-competencia-electoral.html">Competencia Electoral en Torreón</a></h4>
+                <p>Diferencia entre los dos candidatos con más votación entre el total de votos.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-competencia-electoral.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Torreón</a></h4>
+                <p>Diferencia de votos entre primer y segundo lugar en la elección federal.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-competencia-electoral-diferencia-de-votos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-competencia-electoral-votos-totales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en información pública mínina en Torreón</a></h4>
+                <p>Cumplimiento sobre total de obligaciones</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-cumplimiento-en-informacion-publica-minina.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en Torreón</a></h4>
+                <p>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-indice-de-gobierno-electronico-municipal.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en Torreón</a></h4>
+                <p>Cumplimiento sobre total de criterios</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-indice-de-informacion-presupuestal.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en Torreón</a></h4>
+                <p>Ingresos recaudados por el municipio por cobro de servicios</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-ingresos-por-cobro-de-servicios.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-ingresos-totales.html">Ingresos Totales en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-ingresos-totales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Torreón</a></h4>
+                <p>Ingresos totales del municipio entre el total de la población.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-ingresos-totales-per-capita.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-participacion-electoral.html">Participación Electoral en Torreón</a></h4>
+                <p>Porcentaje de personas que emitieron su voto.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-participacion-electoral.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="gobierno-relacion-de-ingresos-propios-y-totales.html">Relación de Ingresos Propios y Totales en Torreón</a></h4>
+                <p>Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="gobierno-relacion-de-ingresos-propios-y-totales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-accidentes-viales.html">Accidentes Viales en Torreón</a></h4>
+                <p>Cantidad de accidentes viales por año.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-accidentes-viales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Torreón</a></h4>
+                <p>Cantidad de accidentes viales fatales por año.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-accidentes-viales-fatales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-cantidad-de-policias.html">Cantidad de Policías en Torreón</a></h4>
+                <p>Cantidad total de policías en el municipio.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-cantidad-de-policias.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-delitos.html">Delitos en Torreón</a></h4>
+                <p>Total de delitos cometidos en el segundo trimestre 2014</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-delitos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-homicidios.html">Homicidios en Torreón</a></h4>
+                <p>Número de homicidios durante el primer trimestre de 2014</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-homicidios.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Torreón</a></h4>
+                <p>Porcentaje de accidentes fatales entre accidentes viales totales</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-porcentaje-de-accidentes-viales-fatales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-presuntos-delincuentes-del-fuero-comun.html">Presuntos Delincuentes del Fuero Común en Torreón</a></h4>
+                <p>Cantidad de presuntos delincuentes registrados en los juzgados de primera instancia del fuero común por año.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-presuntos-delincuentes-del-fuero-comun.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-presuntos-delincuentes-del-fuero-federal.html">Presuntos Delincuentes del Fuero Federal en Torreón</a></h4>
+                <p>Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero federal</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-presuntos-delincuentes-del-fuero-federal.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-presuntos-delincuentes-por-narcoticos.html">Presuntos Delincuentes por Narcóticos en Torreón</a></h4>
+                <p>Presuntos delincuentes por delitos en materia de narcóticos registrados en los juzgados del fuero federal.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-presuntos-delincuentes-por-narcoticos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-robo-de-vehiculos.html">Robo de Vehículos en Torreón</a></h4>
+                <p>Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-robo-de-vehiculos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-secuestros.html">Secuestros en Torreón</a></h4>
+                <p>Cantidad de secuestros en el primer trimestre de 2014</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-secuestros.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-sentenciados-registrados-del-fuero-comun.html">Sentenciados Registrados del Fuero Común en Torreón</a></h4>
+                <p>Cantidad de sentenciados registrados en los juzgados de primera instancia del fuero común por año.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-sentenciados-registrados-del-fuero-comun.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-sentenciados-registrados-del-fuero-federal.html">Sentenciados Registrados del Fuero Federal en Torreón</a></h4>
+                <p>Sentenciados registrados en los juzgados de primera instancia en materia penal del fuero federal</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-sentenciados-registrados-del-fuero-federal.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-tasa-de-delitos.html">Tasa de Delitos en Torreón</a></h4>
+                <p>Delitos por cada 100 mil habitantes</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-tasa-de-delitos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-tasa-de-homicidios.html">Tasa de Homicidios en Torreón</a></h4>
+                <p>Número de homicidios por cada 100 mil habitantes.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-tasa-de-homicidios.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-tasa-de-policias-por-habitante.html">Tasa de Policías por Habitante en Torreón</a></h4>
+                <p>Cantidad de policías por cada mil habitantes.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-tasa-de-policias-por-habitante.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Torreón</a></h4>
+                <p>Cantidad de robos de vehículos por cada 100 mil habitantes.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-tasa-de-robo-de-vehiculos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="seguridad-tasa-de-secuestro.html">Tasa de Secuestro en Torreón</a></h4>
+                <p>Homicidios por habitantes por 100 mil</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="seguridad-tasa-de-secuestro.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-adultos-mayores.html">Adultos Mayores en Torreón</a></h4>
+                <p>Población estimada a mediados de año de personas de 65 años y más</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-adultos-mayores.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Torreón</a></h4>
+                <p>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-adultos-mayores-femenino.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino en Torreón</a></h4>
+                <p>Población estimada a mediados de año de personas de 65 años y más de sexo masculino</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-adultos-mayores-masculino.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en Torreón</a></h4>
+                <p>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-alumnos-con-perfil-cientifico-matematico.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en Torreón</a></h4>
+                <p>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-alumnos-con-perfil-gramatico-espanol.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-camas-censables.html">Camas Censables en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-camas-censables.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></h4>
+                <p>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-discapacidad.html">Discapacidad en Torreón</a></h4>
+                <p>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-discapacidad.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-espacios-culturales.html">Espacios Culturales en Torreón</a></h4>
+                <p>Espacios culturales físicamente delimitados.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-espacios-culturales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-estimacion-de-menores-huerfanos-por-agresiones.html">Estimación de Menores Huérfanos por Agresiones en Torreón</a></h4>
+                <p>Menores de edad que han perdido a padre o madre a causa de agresión (homicidio).</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-estimacion-de-menores-huerfanos-por-agresiones.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-fecundidad.html">Fecundidad en Torreón</a></h4>
+                <p>Tasa de fecundidad.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-fecundidad.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Torreón</a></h4>
+                <p>Porcentaje de hogares con jefatura femenina.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-hogares-con-jefatura-femenina.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-indice-de-desarrollo-humano--idh-.html">Índice de Desarrollo Humano (IDH) en Torreón</a></h4>
+                <p>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-indice-de-desarrollo-humano--idh-.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-madres-adolescentes.html">Madres Adolescentes en Torreón</a></h4>
+                <p>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-madres-adolescentes.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-maternidad-adolescente.html">Maternidad Adolescente en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-maternidad-adolescente.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-medicos.html">Médicos en Torreón</a></h4>
+                <p>Médicos en contacto con pacientes por cada diez mil personas.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-medicos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-mortalidad.html">Mortalidad en Torreón</a></h4>
+                <p>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-mortalidad.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-mortalidad-infantil.html">Mortalidad Infantil en Torreón</a></h4>
+                <p>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-mortalidad-infantil.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-mortalidad-materna.html">Mortalidad Materna en Torreón</a></h4>
+                <p>Defunciones maternas por cada cien mil partos.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-mortalidad-materna.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Torreón</a></h4>
+                <p>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-mortalidad-por-diabetes.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Torreón</a></h4>
+                <p>Promedio de ocupantes por vivienda.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-ocupacion-por-vivienda.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Torreón</a></h4>
+                <p>Organizaciones de la sociedad civil por cada cien mil habitantes.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-organizaciones-de-la-sociedad-civil.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-poblacion-estimada.html">Población Estimada en Torreón</a></h4>
+                <p>Población estimada a mitad de año.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-poblacion-estimada.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-pobreza.html">Pobreza en Torreón</a></h4>
+                <p>Porcentaje de la población en situación de pobreza.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-pobreza.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-pobreza-extrema.html">Pobreza Extrema en Torreón</a></h4>
+                <p>Porcentaje de la población en situación de pobreza extrema.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-pobreza-extrema.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-pobreza-moderada.html">Pobreza Moderada en Torreón</a></h4>
+                <p>Porcentaje de la población en situación de pobreza moderada.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-pobreza-moderada.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-promedio-de-descendencia-por-varon.html">Promedio de Descendencia por Varón en Torreón</a></h4>
+                <p>Calcula el promedio estimado de hijos por cada varón.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-promedio-de-descendencia-por-varon.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-rezago-alimentario.html">Rezago Alimentario en Torreón</a></h4>
+                <p>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-rezago-alimentario.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-rezago-educativo.html">Rezago Educativo en Torreón</a></h4>
+                <p>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
+Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
+Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-rezago-educativo.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-universidades.html">Universidades en Torreón</a></h4>
+                <p>Planteles de Instituciones de Educación Superior.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-universidades.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Torreón</a></h4>
+                <p>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-viviendas-con-agua-de-la-red-publica.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Torreón</a></h4>
+                <p>Porcentaje de viviendas habitadas con computadora.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-viviendas-con-computadora.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Torreón</a></h4>
+                <p>Porcentaje de viviendas habitadas que disponen de drenaje.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-viviendas-con-drenaje.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Torreón</a></h4>
+                <p>Porcentaje de viviendas con acceso a energía eléctrica</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-viviendas-con-energia-electrica.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-viviendas-con-internet.html">Viviendas con Internet en Torreón</a></h4>
+                <p>Porcentaje de viviendas habitadas con internet.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-viviendas-con-internet.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-viviendas-habitadas.html">Viviendas Habitadas en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-viviendas-habitadas.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Torreón</a></h4>
+                <p>Porcentaje de viviendas habitadas que disponen de retrete.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-viviendas-que-disponen-de-retrete.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sociedad-viviendas-totales.html">Viviendas Totales en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sociedad-viviendas-totales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Torreón</a></h4>
+                <p>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-acceso-a-vialidades-pavimentadas.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-alumbrado-publico.html">Alumbrado Público en Torreón</a></h4>
+                <p>Porcentaje de viviendas sin acceso a alumbrado público en su manzana</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-alumbrado-publico.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Torreón</a></h4>
+                <p>Área total de localidades no urbanizadas sobre la superficie municipal.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-area-no-urbanizada.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-consumo-de-agua-facturado.html">Consumo de Agua Facturado en Torreón</a></h4>
+                <p>Consumo anual de agua por persona expresado en metros cúbicos.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-consumo-de-agua-facturado.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Torreón</a></h4>
+                <p>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-destinos-via-aerea.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Torreón</a></h4>
+                <p>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-destinos-via-terrestre.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-generacion-de-basura.html">Generación de Basura en Torreón</a></h4>
+                <p>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-generacion-de-basura.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-motorizacion.html">Motorización en Torreón</a></h4>
+                <p>Vehículos automotores registrados en circulación.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-motorizacion.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-pasajeros-aereos-internacionales.html">Pasajeros Aéreos Internacionales en Torreón</a></h4>
+                <p>Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-pasajeros-aereos-internacionales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-pasajeros-aereos-totales.html">Pasajeros Aéreos Totales en Torreón</a></h4>
+                <p>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-pasajeros-aereos-totales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en Torreón</a></h4>
+                <p>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html">Población que Trabaja en su PROPIO Municipio en Torreón</a></h4>
+                <p>Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Torreón</a></h4>
+                <p>Red carretera de alimentadoras estatales.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-red-carretera-total.html">Red Carretera Total en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-red-carretera-total.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-red-carretera-troncal-federal.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-red-de-transporte-publico.html">Red de Transporte Público en Torreón</a></h4>
+                <p>Extensión de la red de transporte público en Kilómetros totales.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-red-de-transporte-publico.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-sobreexplotacion-del-acuifero.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Torreón</a></h4>
+                <p>Viviendas deshabitadas con respecto al total de viviendas totales.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-viviendas-deshabitadas.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Torreón</a></h4>
+                <p>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-viviendas-ocupadas-temporalmente.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="sustentabilidad-volumen-tratado-de-aguas-residuales.html">Volumen Tratado de Aguas Residuales en Torreón</a></h4>
+                <p></p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="sustentabilidad-volumen-tratado-de-aguas-residuales.html">Leer más</a></p>
+              </div>
+            </div>
+    </div>
+    <div class="row inferior">
+        <a href="http://trcimplan.gob.mx"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/google-analytics.js"></script>
+</body>
+</html>

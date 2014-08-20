@@ -33,53 +33,71 @@ $E_FATAL=99;
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
-// Preparar el menu principal
+// Cargar el menu principal
 $menu_principal = new \Base\MenuPrincipal();
-// Preparar el menu izquierdo
+// Cargar el menu izquierdo
 $menu_izquierdo = new \Base\MenuIzquierdo();
-// Preparar la plantilla
+
+/**
+ * SMI Indicadores
+ */
+// Cargar la plantilla, copiar los menús
 $plantilla                 = new \Base\PlantillaMenuIzquierdo();
 $plantilla->menu_principal = $menu_principal;
 $plantilla->menu_izquierdo = $menu_izquierdo;
-// Preparar impresor
+// Cargar impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla;
-// Crear SMI Indicadores
+// Imprimir
 try {
     // Al agregar los directorios con las publicaciones se reciben arreglos con las instancias de las publicaciones
-    $indicadores_torreon       = $impresor->agregar_directorio_publicaciones('SMIIndicadoresTorreon');
-    $indicadores_gomez_palacio = $impresor->agregar_directorio_publicaciones('SMIIndicadoresGomezPalacio');
-    $indicadores_lerdo         = $impresor->agregar_directorio_publicaciones('SMIIndicadoresLerdo');
-    $indicadores_matamoros     = $impresor->agregar_directorio_publicaciones('SMIIndicadoresMatamoros');
-    $indicadores_la_laguna     = $impresor->agregar_directorio_publicaciones('SMIIndicadoresLaLaguna');
+    $indicadores_torreon_pubs       = $impresor->agregar_directorio_publicaciones('SMIIndicadoresTorreon');
+    $indicadores_gomez_palacio_pubs = $impresor->agregar_directorio_publicaciones('SMIIndicadoresGomezPalacio');
+    $indicadores_lerdo_pubs         = $impresor->agregar_directorio_publicaciones('SMIIndicadoresLerdo');
+    $indicadores_matamoros_pubs     = $impresor->agregar_directorio_publicaciones('SMIIndicadoresMatamoros');
+    $indicadores_la_laguna_pubs     = $impresor->agregar_directorio_publicaciones('SMIIndicadoresLaLaguna');
     echo $impresor->imprimir()."\n";
 } catch (\Exception $e) {
     echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }
+unset($plantilla);
 unset($impresor);
 
-// Preparar impresor
+/**
+ * SMI Indices
+ */
+// Cargar la Plantilla Indicadores Torreón, copiar los menús y el arreglo con sus publicaciones
+$plantilla_indicadores_torreon                 = new \SMI\PlantillaIndicadoresTorreon();
+$plantilla_indicadores_torreon->menu_principal = $menu_principal;
+$plantilla_indicadores_torreon->menu_izquierdo = $menu_izquierdo;
+$plantilla_indicadores_torreon->publicaciones  = $indicadores_torreon_pubs;
+// Cargar impresor
 $impresor            = new \Base\Imprenta();
-$impresor->plantilla = $plantilla;
+$impresor->plantilla = $plantilla_indicadores_torreon;
+// Imprimir
+try {
+    echo $impresor->imprimir()."\n";
+} catch (\Exception $e) {
+    echo implode("\n", $impresor->mensajes)."\n";
+    echo "$soy ".$e->getMessage()."\n";
+    exit($E_FATAL);
+}
+unset($plantilla_indicadores_torreon);
+unset($impresor);
 
-// Preparar la publicación de la página de inicio del SMI
-$publicacion = new \SMI\Inicial();
-// Copiar las propiedades a la plantilla
-$plantilla->titulo      = $publicacion->nombre;
-$plantilla->autor       = $publicacion->autor;
-$plantilla->descripcion = $publicacion->descripcion;
-$plantilla->claves      = $publicacion->claves;
-$plantilla->directorio  = $publicacion->directorio;
-$plantilla->ruta        = "{$publicacion->directorio}/{$publicacion->archivo}.html";
-$plantilla->encabezado  = $publicacion->encabezado;
-$plantilla->contenido   = $publicacion->contenido;
-$plantilla->javascript  = $publicacion->javascript;
-// Preparar impresor
+/**
+ * SMI Página Inicial
+ */
+// Cargar la Plantilla Inicial, copiar los menús
+$plantilla_inicial                 = new \SMI\PlantillaInicial();
+$plantilla_inicial->menu_principal = $menu_principal;
+$plantilla_inicial->menu_izquierdo = $menu_izquierdo;
+// Cargar impresor
 $impresor            = new \Base\Imprenta();
-$impresor->plantilla = $plantilla;
-// Crear página de inicio del SMI
+$impresor->plantilla = $plantilla_inicial;
+// Imprimir
 try {
     echo $impresor->imprimir()."\n";
 } catch (\Exception $e) {

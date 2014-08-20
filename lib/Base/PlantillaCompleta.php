@@ -50,11 +50,29 @@ class PlantillaCompleta extends Plantilla {
     // public $javascript;
 
     /**
-     * Elaborar Contenido
+     * Inferior
+     */
+    protected function inferior() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+        $a[] = '    <div class="row inferior">';
+        if ($this->en_raiz) {
+            $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
+        } else {
+            $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"../imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
+        }
+        $a[] = '    </div>'; // row inferior
+        // Entregar
+        return implode("\n", $a);
+    } // inferior
+
+    /**
+     * HTML
      *
      * @return string Código HTML
      */
-    protected function elaborar_contenido() {
+    public function html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
@@ -75,9 +93,11 @@ class PlantillaCompleta extends Plantilla {
         $a[] = $this->inferior();
         $a[] = '    </div>';   // container
         $a[] = '  </div>';     // page-complete
-        // Entregar
-        return implode("\n", $a);
-    } // elaborar_contenido
+        // Redefinir contenido
+        $this->contenido = implode("\n", $a);
+        // Ejecutar método del padre
+        return parent::html();
+    } // html
 
 } // Clase PlantillaCompleta
 

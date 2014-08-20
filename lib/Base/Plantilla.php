@@ -50,37 +50,42 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public $javascript;     // Código Javascript
 
     /**
-     * Inferior
+     * Incorporar Publicacion
+     *
+     * @param mixed Instancia de Publicacion
      */
-    protected function inferior() {
-        // Acumularemos la entrega en este arreglo
-        $a = array();
-        // Acumular
-        $a[] = '    <div class="row inferior">';
-        if ($this->en_raiz) {
-            $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
-        } else {
-            $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"../imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
+    public function incorporar_publicacion($publicacion) {
+        // Validar
+        if (!is_object($publicacion)) {
+            throw new \Exception("Error en Plantilla, incorporar_publicacion: No es una instancia.");
         }
-        $a[] = '    </div>'; // row inferior
-        // Entregar
-        return implode("\n", $a);
-    } // inferior
+        if (!($publicacion instanceof Publicacion)) {
+            throw new \Exception("Error en Plantilla, incorporar_publicacion: No es instancia de Publicacion.");
+        }
+        // Esta publicación ocupará la página completa
+        $completo        = new Completo($publicacion);
+        $this->contenido = $completo->html();
+        // Definir las demás propiedades
+        $this->titulo        = $publicacion->nombre;
+        $this->autor         = $publicacion->autor;
+        $this->descripcion   = $publicacion->descripcion;
+        $this->claves        = $publicacion->claves;
+        $this->directorio    = $publicacion->directorio;
+        $this->ruta          = "{$publicacion->directorio}/{$publicacion->archivo}.html";
+        $this->imagen_previa = $publicacion->imagen_previa;
+        $this->encabezado    = $publicacion->encabezado;
+        $this->javascript    = $publicacion->javascript;
+    } // incorporar_publicacion
 
     /**
-     * HTML
+     * Cabezera
      *
      * @return string Código HTML
      */
-    public function html() {
+    protected function cabezera() {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '<!DOCTYPE html>';
-        $a[] = '<html lang="es">';
-        if ($this->mensaje_oculto != '') {
-            $a[] = $this->mensaje_oculto;
-        }
         $a[] = '<head>';
         $a[] = '  <meta charset="utf-8">';
         $a[] = '  <meta http-equiv="X-UA-Compatible" content="IE=edge">';
@@ -153,27 +158,19 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a[] = '  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>';
         $a[] = '  <![endif]-->';
         $a[] = '</head>';
-        // Body Inicia
-        $a[] = '<body>';
-        $a[] = '<div id="wrapper">';
-        // Menús Inicia
-        $a[] = '  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">';
-        if (is_object($this->menu_principal)) {
-            $a[] = $this->menu_principal->html();
-        }
-        if (is_object($this->menu_izquierdo)) {
-            $a[] = $this->menu_izquierdo->html();
-        }
-        $a[] = '  </nav>';
-        // Menús Termina
-        // Contenido Inicia
-        $a[] = $this->elaborar_contenido();
-        // Contenido Termina
-        $a[] = '</div>'; // wrapper
-        $a[] = '<div id="pie">';
-        $a[] = $this->pie;
-        $a[] = '</div>';
-        // Javascript Inicia
+        // Entregar
+        return implode("\n", $a);
+    } // cabezera
+
+    /**
+     * Scripts
+     *
+     * @return string Código HTML
+     */
+    protected function scripts() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
         if ($this->en_raiz) {
             $a[] = '<script src="js/jquery.min.js"></script>';
             $a[] = '<script src="js/bootstrap.min.js"></script>';
@@ -194,9 +191,48 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = $this->javascript;
             $a[] = '</script>';
         }
-        // Javascript Termina
+        // Entregar
+        return implode("\n", $a);
+    } // scripts
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+        $a[] = '<!DOCTYPE html>';
+        $a[] = '<html lang="es">';
+        if ($this->mensaje_oculto != '') {
+            $a[] = $this->mensaje_oculto;
+        }
+        $a[] = $this->cabezera();
+        $a[] = '<body>';
+        $a[] = '<div id="wrapper">';
+        $a[] = '  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">';
+        if (is_object($this->menu_principal)) {
+            $a[] = $this->menu_principal->html();
+        }
+        if (is_object($this->menu_izquierdo)) {
+            $a[] = $this->menu_izquierdo->html();
+        }
+        $a[] = '  </nav>';
+        if (is_string($this->contenido) && (trim($this->contenido) != '')) {
+            $a[] = $this->contenido;
+        } else {
+            $a[] = "<b>No hay contenido para esta página.</b>";
+        }
+        $a[] = '</div>'; // wrapper
+        if (is_string($this->pie) && (trim($this->pie) != '')) {
+            $a[] = '<div id="pie">';
+            $a[] = $this->pie;
+            $a[] = '</div>';
+        }
+        $a[] = $this->scripts();
         $a[] = '</body>';
-        // Body Termina
         $a[] = '</html>';
         // Entregar
         return implode("\n", $a)."\n";

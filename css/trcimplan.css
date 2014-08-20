@@ -111,6 +111,8 @@ a:focus   { text-decoration:none; color:#AA005F; }
 .contenido {
     padding-left:16px;
     padding-right:16px;
+    background-color:#FFF;
+    color:#222;
 }
 .encabezado-imagen {
     margin-top:8px;
@@ -119,9 +121,9 @@ a:focus   { text-decoration:none; color:#AA005F; }
     border-bottom:2px solid #CCC;
     width:100%;
 }
-.contenido {
-    background-color:#FFF;
-    color:#222;
+.autor-fecha {
+    color:#888;
+    font-size:10px;
 }
 .mapa {
     height:500px;

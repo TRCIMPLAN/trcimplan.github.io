@@ -40,7 +40,7 @@ class ProyectosCarteraProyectos extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon, Proyectos, Cartera';
      // $this->imagen_previa = '/imagenes/implan.jpg';
         $this->categorias    = array('Proyectos');
-     // $this->encabezado    = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
+        $this->encabezado    = '<img class="img-responsive" src="cartera-proyectos/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <p>Pendiente.</p>
 FINAL;

@@ -40,7 +40,7 @@ class ProyectosBancoMunicipalProyectos extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon, Banco, Proyectos';
      // $this->imagen_previa = '/imagenes/implan.jpg';
         $this->categorias    = array('Proyectos');
-     // $this->encabezado    = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
+        $this->encabezado    = '<img class="img-responsive" src="banco-municipal-proyectos/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <p>El Instituto Municipal de Planeación y Competitividad, a través de la Dirección de Proyectos Estratégicos, tiene como objetivos gestionar, evaluar y dar seguimiento a los proyectos derivados del Plan Estratégico de Ciudad del IMPLAN, así como promover la participación ciudadana, a través del acompañamiento y mejora de aquellos ideas y proyectos formulados por la sociedad. Para aportar al logro de este objetivo, el IMPLAN desarrolla dos instrumentos que apoyen los procesos de planeación, inversión y ejecución de los proyectos promoviendo la eficiencia, eficacia y equidad de los mismos.</p>
 
