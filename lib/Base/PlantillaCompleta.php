@@ -77,7 +77,9 @@ class PlantillaCompleta extends Plantilla {
         $a[] = '    </div>';   // container
         $a[] = '  </div>';     // page-complete
         // Redefinir contenido
-        $this->contenido = implode("\n", $a);
+        $this->contenido    = implode("\n", $a);
+        // Acumular el Javascript del Mapa Inferior
+        $this->javascript[] = $this->mapa_inferior->javascript();
         // Ejecutar método del padre
         return parent::html();
     } // html

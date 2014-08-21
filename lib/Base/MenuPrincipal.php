@@ -28,8 +28,8 @@ namespace Base;
 class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
 
     // public $sitio_titulo;
-    // public $menu_principal_logo;
-    // public $menu_principal_opciones;
+    // public $logotipo;
+    // public $opciones;
     public $en_raiz = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
 
     /**
@@ -101,11 +101,11 @@ class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
         $a[] = '        <span class="icon-bar"></span>';
         $a[] = '        <span class="icon-bar"></span>';
         $a[] = '      </button>';
-        if ($this->menu_principal_logo != '') {
+        if ($this->logotipo != '') {
             if ($this->en_raiz) {
-                $a[] = "      <a class=\"navbar-brand\" href=\"index.html\"><img class=\"navbar-brand-img\" src=\"{$this->menu_principal_logo}\" alt=\"{$this->sitio_titulo}\"></a>";
+                $a[] = "      <a class=\"navbar-brand\" href=\"index.html\"><img class=\"navbar-brand-img\" src=\"{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
             } else {
-                $a[] = "      <a class=\"navbar-brand\" href=\"../index.html\"><img class=\"navbar-brand-img\" src=\"../{$this->menu_principal_logo}\" alt=\"{$this->sitio_titulo}\"></a>";
+                $a[] = "      <a class=\"navbar-brand\" href=\"../index.html\"><img class=\"navbar-brand-img\" src=\"../{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
             }
         } else {
             if ($this->en_raiz) {
@@ -117,7 +117,7 @@ class MenuPrincipal extends \Configuracion\MenuPrincipalConfig {
         $a[] = '    </div>';
         // Navbar
         $a[] = '    <ul class="nav navbar-top-links">';
-        foreach ($this->menu_principal_opciones as $etiqueta => $parametros) {
+        foreach ($this->opciones as $etiqueta => $parametros) {
             if (is_array($parametros)) {
                 $a[] = $this->opcion_despliegue($etiqueta, $parametros);
             } else {

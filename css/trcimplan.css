@@ -125,6 +125,9 @@ a:focus   { text-decoration:none; color:#AA005F; }
     color:#888;
     font-size:10px;
 }
+.contenido-imagen {
+    padding:24px;
+}
 .mapa {
     height:500px;
     margin-top:8px;
@@ -241,3 +244,73 @@ a:focus   { text-decoration:none; color:#AA005F; }
 #pie a:active,
 #pie a:visited { color:#DDD; }
 #pie p { margin:4px; }
+
+/**
+ * Responsivo
+ */
+@media only screen and (max-width: 1200px) {
+    #carrusel .carousel-inner > .item > img {
+        height:352px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #carrusel .carousel-inner > .item > img {
+        height:260px;
+    }
+    .inferior-logo {
+        margin-top:4px;
+        margin-bottom:4px;
+    }
+    .inferior-mapa {
+        margin-top:4px;
+        margin-bottom:4px;
+        border-right:none;
+        height:auto;
+    }
+}
+@media only screen and (max-width: 640px) {
+    #carrusel .carousel-inner > .item > img {
+        height:190px;
+    }
+    .inferior-logo {
+        width:400px;
+        margin-top:4px;
+        margin-bottom:2px;
+    }
+    .inferior-mapa {
+        margin-top:4px;
+        margin-bottom:4px;
+        border-right:none;
+        height:auto;
+    }
+    .contenido-imagen {
+        padding:16px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #carrusel .carousel-inner > .item > img {
+        height:150px;
+    }
+    .inferior-logo {
+        width:200px;
+        margin-top:2px;
+        margin-bottom:2px;
+    }
+    .inferior-mapa {
+        margin-top:4px;
+        margin-bottom:4px;
+        border-right:none;
+        height:auto;
+    }
+    .contenido-imagen {
+        padding:8px;
+    }
+}
+
+/* Make Navigation Toggle on Desktop Hover
+@media only screen and (min-width : 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+*/

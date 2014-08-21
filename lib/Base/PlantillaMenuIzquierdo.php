@@ -76,6 +76,8 @@ class PlantillaMenuIzquierdo extends Plantilla {
         $a[] = '  </div>';   // page-wrapper
         // Redefinir contenido
         $this->contenido = implode("\n", $a);
+        // Acumular el Javascript del Mapa Inferior
+        $this->javascript[] = $this->mapa_inferior->javascript();
         // Ejecutar método del padre
         return parent::html();
     } // elaborar_contenido

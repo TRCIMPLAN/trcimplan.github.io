@@ -27,9 +27,9 @@ namespace Configuracion;
  */
 class MenuPrincipalConfig {
 
-    public $sitio_titulo            = 'IMPLAN Torreón';
-    public $menu_principal_logo     = 'imagenes/implan-barra-logo-chico.png';
-    public $menu_principal_opciones = array(
+    public $sitio_titulo = 'IMPLAN Torreón';
+    public $logotipo     = 'imagenes/implan-barra-logo-chico.png';
+    public $opciones     = array(
         'Institucional' => array(
             'Visión / Misión'       => 'institucional/vision-mision.html',
             'Mensaje del Director'  => 'institucional/mensaje-director.html',

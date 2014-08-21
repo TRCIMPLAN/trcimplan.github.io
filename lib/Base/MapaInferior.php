@@ -25,7 +25,7 @@ namespace Base;
 /**
  * Clase MapaInferior
  */
-class MapaInferior {
+class MapaInferior extends \Configuracion\MapaInferiorConfig {
 
     // public $sitio_titulo;
     // public $logotipo;
@@ -52,6 +52,83 @@ class MapaInferior {
         return implode("\n", $a);
     } // html
 
+    /**
+     * Javascript
+     *
+     * @return string Código javascript
+     */
+    public function javascript() {
+        return '';
+    } // javascript
+
 } // Clase MapaInferior
+
+/*
+<!-- INFERIOR INICIA -->
+<div id="inferior">
+    <div class="container">
+        <div class="row">
+
+            <!-- MAPA DEL SITIO INICIA -->
+            <div class="col-md-9">
+                <a href="http://trcimplan.mx/"><img class="inferior-logo" src="http://trcimplan.mx/wp-content/themes/implan/img/implan-barra-mediano.png" alt="IMPLAN"></a></br>
+                <div class="row">
+                    <div class="col-md-3 inferior-mapa">
+                      INSTITUCIONAL
+                      <ul>
+                        <li><a href="http://trcimplan.mx/institucional/vision-mision/">VISIÓN / MISIÓN</a></li>
+                        <li><a href="http://trcimplan.mx/institucional/mensaje-del-director/">MENSAJE DEL DIRECTOR</a></li>
+                        <li><a href="http://trcimplan.mx/institucional/quienes-somos/">QUIENES SOMOS</a></li>
+                        <li><a href="http://trcimplan.mx/institucional/estructura-organica/">ESTRUCTURA ORGÁNICA</a></li>
+                        <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank">TRANSPARENCIA</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 inferior-mapa">
+                      SERVICIOS
+                      <ul>
+                        <li><a href="http://trcimplan.mx/servicios/reglamentos/">REGLAMENTOS</a></li>
+                        <li><a href="http://trcimplan.mx/servicios/indicadores/">INDICADORES</a></li>
+                        <li><a href="http://trcimplan.mx/servicios/sig/">SISTEMA DE INFORMACIÓN GEOGRÁFICA</a></li>
+                        <li><a href="http://trcimplan.mx/servicios/banco-de-proyectos/">BANCO MUNICIPAL DE PROYECTOS DE INVERSIÓN</a></li>
+                        <li><a href="http://trcimplan.mx/servicios/sesp/">SISTEMA DE EVALUACIÓN Y SEGUIMIENTO DE PROYECTOS</a></li>
+                        <li><a href="http://trcimplan.mx/category/proyectos/">PROYECTOS</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-2 inferior-mapa">
+                      INTERACCIÓN
+                      <ul>
+                        <li><a href="http://trcimplan.mx/category/blog/">BLOG</a></li>
+                        <li><a href="http://trcimplan.mx/category/eventos/">EVENTOS</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-2 inferior-mapa">
+                      <a href="http://trcimplan.mx/consejo/">CONSEJO DIRECTIVO</a>
+                      <a href="http://trcimplan.mx/consejo/agenda-consejo-directivo/">AGENDA CONSEJO DIRECTIVO</a>
+                      <a href="http://trcimplan.mx/consejo/agenda-comites-tecnicos/">AGENDA COMITÉS TÉCNICOS</a>
+                    </div>
+                    <div class="col-md-2 inferior-mapa inferior-mapa-ultimo">
+                      <a href="http://trcimplan.mx/contacto/">CONTACTO</a>
+                      <br>
+                      <a href="http://trcimplan.mx/category/prensa/">SALA DE PRENSA</a>
+                    </div>
+                </div>
+            </div>
+            <!-- MAPA DEL SITIO TERMINA -->
+
+            <!-- TWITTER INICIA -->
+            <div class="col-md-3">
+                <a class="twitter-timeline" height="340px" href="https://twitter.com/trcimplan" data-chrome="nofooter" data-widget-id="455819492145127424">Tweets por @trcimplan</a>
+            </div>
+            <!-- TWITTER TERMINA -->
+
+        </div>
+    </div>
+</div>
+<!-- INFERIOR TERMINA -->
+*/
+
+/* JAVASCRIPT
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+ */
 
 ?>
