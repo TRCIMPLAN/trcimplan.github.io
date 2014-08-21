@@ -188,14 +188,16 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '<script src="../js/google-analytics.js"></script>';
         }
         if (is_array($this->javascript)) {
-            $a[] = '<script>';
+            $b = array();
             foreach ($this->javascript as $js) {
                 if (trim($js) != '') {
-                    $a[] = $js;
+                    $b[] = $js;
                 }
             }
-            $a[] = '</script>';
-        } elseif (trim($this->javascript) != '') {
+            if (count($b) > 0) {
+                $a[] = "<script>\n".implode("\n", $b)."\n</script>";
+            }
+        } elseif (is_string($this->javascript) && (trim($this->javascript) != '')) {
             $a[] = '<script>';
             $a[] = $this->javascript;
             $a[] = '</script>';

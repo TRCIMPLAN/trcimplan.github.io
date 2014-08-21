@@ -56,10 +56,50 @@ try {
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }
-unset($menu_principal);
-unset($mapa_inferior);
 unset($plantilla);
 unset($impresor);
+
+/**
+ * Eventos
+ */
+// Cargar la plantilla completa
+$plantilla                 = new \Base\PlantillaCompleta();
+$plantilla->menu_principal = $menu_principal;
+$plantilla->mapa_inferior  = $mapa_inferior;
+// Cargar el impresor
+$impresor            = new \Base\Imprenta();
+$impresor->plantilla = $plantilla;
+// Imprimir
+try {
+    $eventos = $impresor->agregar_directorio_publicaciones('Eventos');
+    echo $impresor->imprimir()."\n";
+} catch (\Exception $e) {
+    echo implode("\n", $impresor->mensajes)."\n";
+    echo "$soy ".$e->getMessage()."\n";
+    exit($E_FATAL);
+}
+unset($plantilla);
+unset($impresor);
+// Cargar plantilla inicial de eventos
+$plantilla                 = new \Eventos\PlantillaInicial();
+$plantilla->menu_principal = $menu_principal;
+$plantilla->mapa_inferior  = $mapa_inferior;
+$plantilla->publicaciones  = $eventos;
+// Cargar el impresor
+$impresor            = new \Base\Imprenta();
+$impresor->plantilla = $plantilla;
+// Imprimir
+try {
+    echo $impresor->imprimir()."\n";
+} catch (\Exception $e) {
+    echo implode("\n", $impresor->mensajes)."\n";
+    echo "$soy ".$e->getMessage()."\n";
+    exit($E_FATAL);
+}
+unset($plantilla);
+unset($impresor);
+unset($menu_principal);
+unset($mapa_inferior);
 
 /**
  * Página Inicial

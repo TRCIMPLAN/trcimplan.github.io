@@ -123,10 +123,14 @@ a:focus   { text-decoration:none; color:#AA005F; }
 }
 .autor-fecha {
     color:#888;
-    font-size:10px;
+    font-size:11px;
 }
 .contenido-imagen {
     padding:24px;
+}
+.autor {
+    color:#888;
+    font-size:11px;
 }
 .mapa {
     height:500px;

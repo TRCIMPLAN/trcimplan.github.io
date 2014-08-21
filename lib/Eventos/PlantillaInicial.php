@@ -27,6 +27,8 @@ namespace Eventos;
  */
 class PlantillaInicial extends \Base\PlantillaCompleta {
 
+    public $publicaciones = array(); // Arreglo con instancias de Publicacion generado por Imprenta
+
     /**
      * Constructor
      */
@@ -39,10 +41,35 @@ class PlantillaInicial extends \Base\PlantillaCompleta {
         $this->ruta          = "{$this->directorio}/index.html";
         $this->imagen_previa = '/imagenes/implan.jpg';
         $this->encabezado    = '';
-        $this->contenido     = <<<FINAL
-FINAL;
+        $this->contenido     = '';
         $this->javascript    = '';
     } // constructor
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Validar
+        if (!is_array($this->publicaciones)) {
+            throw new \Exception("Error en \Eventos\PlantillaInicial: La propiedad publicaciones es incorrecta.");
+        }
+        if (count($this->publicaciones) == 0) {
+            throw new \Exception("Error en \Eventos\PlantillaInicial: El arreglo publicaciones no tiene datos.");
+        }
+        // Acumularemos el contenido en este arreglo
+        $a = array();
+        // Bucle con las Publicaciones
+        foreach ($this->publicaciones as $publicacion) {
+            $breve = new \Base\Breve($publicacion);
+            $a[]   = $breve->html();
+        }
+        // Definir contenido
+        $this->contenido = implode("\n", $a);
+        // Ejecutar padre
+        return parent::html();
+    } // html
 
 } // Clase PlantillaInicial
 

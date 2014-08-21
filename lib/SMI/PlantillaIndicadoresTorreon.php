@@ -53,10 +53,10 @@ class PlantillaIndicadoresTorreon extends \Base\PlantillaMenuIzquierdo {
     public function html() {
         // Validar
         if (!is_array($this->publicaciones)) {
-            throw new \Exception("Error en IndicadoresTorreon: La propiedad publicaciones es incorrecta.");
+            throw new \Exception("Error en \SMI\IndicadoresTorreon: La propiedad publicaciones es incorrecta.");
         }
         if (count($this->publicaciones) == 0) {
-            throw new \Exception("Error en IndicadoresTorreon: El arreglo publicaciones no tiene datos.");
+            throw new \Exception("Error en \SMI\IndicadoresTorreon: El arreglo publicaciones no tiene datos.");
         }
         // Acumularemos el contenido en este arreglo
         $a = array();
