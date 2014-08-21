@@ -28,8 +28,9 @@ namespace Base;
 class Imprenta {
 
     public $plantilla;                  // Instancia de Plantilla
-    public $mensajes = array();         // Arreglo con mensajes para la terminal
+    public $mensajes         = array(); // Arreglo con mensajes para la terminal
     protected $publicaciones = array(); // Arreglo con instancias de Publicacion
+    protected $plantillas    = array(); // Arreglo con instancias de Plantillas
 
     /**
      * Eliminar un directorio y todos sus archivos
@@ -145,7 +146,7 @@ class Imprenta {
     } // recolectar_clases
 
     /**
-     * Agregar Directorio
+     * Agregar Directorio con Publicaciones
      *
      * @param  string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
      * @return array  Arreglo con las instancias de Publicaciones
@@ -155,14 +156,39 @@ class Imprenta {
         $instancias = array();
         // Bucle con las clases recolectadas
         foreach ($this->recolectar_clases($dir) as $clase) { // Puede causar una excepción
-            // Agregar instancia
-            $instancias[] = new $clase();
+            // Cargar
+            $publicacion = new $clase();
+            // Si es instancia de Publicacion, se acumula
+            if ($publicacion instanceof Publicacion) {
+                $instancias[] = $publicacion;
+            }
         }
         // Acumular
         $this->publicaciones = array_merge($this->publicaciones, $instancias);
         // Entregar
         return $instancias;
     } // agregar_directorio
+
+    /**
+     * Agregar Directorio con Plantillas
+     *
+     * @param string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
+     */
+    public function agregar_directorio_plantillas($dir) {
+        // Acumularemos las instancias en este arreglo
+        $instancias = array();
+        // Bucle con las clases recolectadas
+        foreach ($this->recolectar_clases($dir) as $clase) { // Puede causar una excepción
+            // Cargar
+            $plantilla = new $clase();
+            // Si es instancia de Plantilla, se acumula
+            if ($plantilla instanceof Plantilla) {
+                $instancias[] = $plantilla;
+            }
+        }
+        // Acumular
+        $this->plantillas = array_merge($this->plantillas, $instancias);
+    } // agregar_directorio_plantillas
 
     /**
      * Imprimir
@@ -174,13 +200,8 @@ class Imprenta {
         if (!is_object($this->plantilla)) {
             throw new ImprentaExceptionValidacion("Error en Imprenta, imprimir_directorio: No está definida la plantilla.");
         }
-        // Si no hay publicaciones
-        if (count($this->publicaciones) == 0) {
-            // Entonces se imprime la Plantilla
-            $this->crear_directorio($this->plantilla->directorio);                  // Puede causar una excepción
-            $this->crear_archivo($this->plantilla->ruta, $this->plantilla->html()); // Puede causar una excepción
-        } else {
-            // Bucle con las publicaciones
+        // Si hay datos en el arreglo Publicaciones
+        if (count($this->publicaciones) > 0) {
             foreach ($this->publicaciones as $publicacion) {
                 // Incorporar publicación a la plantilla
                 $this->plantilla->incorporar_publicacion($publicacion);
@@ -188,6 +209,20 @@ class Imprenta {
                 $this->crear_directorio($this->plantilla->directorio);                  // Puede causar una excepción
                 $this->crear_archivo($this->plantilla->ruta, $this->plantilla->html()); // Puede causar una excepción
             }
+        }
+        // Si hay datos en el arreglo Plantillas
+        if (count($this->plantillas) > 0) {
+            foreach ($this->plantillas as $plantilla) {
+                // Escribir el archivo HTML
+                $this->crear_directorio($plantilla->directorio);            // Puede causar una excepción
+                $this->crear_archivo($plantilla->ruta, $plantilla->html()); // Puede causar una excepción
+            }
+        }
+        // Si NO hubo Publicaciones NI Plantillas, se imprime la Plantilla
+        if ((count($this->publicaciones) == 0) && (count($this->plantillas) == 0)) {
+            // Entonces se imprime la Plantilla
+            $this->crear_directorio($this->plantilla->directorio);                  // Puede causar una excepción
+            $this->crear_archivo($this->plantilla->ruta, $this->plantilla->html()); // Puede causar una excepción
         }
         // Entregar mensajes
         return implode("\n", $this->mensajes);

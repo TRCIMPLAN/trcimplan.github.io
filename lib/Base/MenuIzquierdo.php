@@ -49,13 +49,13 @@ class MenuIzquierdo {
         $a[] = '<div class="navbar-default sidebar" role="navigation">';
         $a[] = '  <div class="sidebar-nav navbar-collapse">';
         $a[] = '    <ul class="nav" id="side-menu">';
-
+        // PENDIENTE mandar a Config
         $a[] = $this->rama('Torreón',       'indicadores-torreon/');
         $a[] = $this->rama('Gómez Palacio', 'indicadores-gomez-palacio/');
         $a[] = $this->rama('Lerdo',         'indicadores-lerdo/');
         $a[] = $this->rama('Matamoros',     'indicadores-matamoros/');
         $a[] = $this->rama('La Laguna',     'indicadores-la-laguna/');
-
+        //
         $a[] = '    </ul>';
         $a[] = '  </div>';
         $a[] = '</div>';

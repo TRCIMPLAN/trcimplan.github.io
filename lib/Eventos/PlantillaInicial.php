@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - Institucional Visión/Misión
+ * SMIbeta - Eventos Plantilla Eventos
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2014 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,30 +20,30 @@
  */
 
 // Namespace
-namespace Institucional;
+namespace Eventos;
 
 /**
- * Clase VisionMision
+ * Clase PlantillaInicial
  */
-class VisionMision extends \Base\Publicacion {
+class PlantillaInicial extends \Base\PlantillaCompleta {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = '';
-        $this->directorio  = '';
-        $this->archivo     = '';
-        $this->descripcion = '';
-        $this->claves      = '';
-        $this->categorias  = array();
-        $this->encabezado  = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
-        $this->contenido   = <<<FINAL
+        $this->titulo        = 'Eventos';
+        $this->autor         = 'TrcIMPLAN';
+        $this->descripcion   = 'IMPLAN Torreón, Eventos.';
+        $this->claves        = 'IMPLAN, Torreon, Eventos';
+        $this->directorio    = 'eventos';
+        $this->ruta          = "{$this->directorio}/index.html";
+        $this->imagen_previa = '/imagenes/implan.jpg';
+        $this->encabezado    = '';
+        $this->contenido     = <<<FINAL
 FINAL;
-        $this->javascript  = <<<FINAL
-FINAL;
+        $this->javascript    = '';
     } // constructor
 
-} // Clase VisionMision
+} // Clase PlantillaInicial
 
 ?>

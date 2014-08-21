@@ -27,27 +27,6 @@ namespace SMI;
  */
 class PlantillaIndicadoresTorreon extends \Base\PlantillaMenuIzquierdo {
 
-    // public $sitio_titulo;
-    // public $sitio_url;
-    // public $rss;
-    // public $favicon;
-    // public $menu_principal_logo;
-    // public $propio_css;
-    // public $en_raiz;
-    // public $para_compartir;
-    // public $mensaje_oculto;
-    // public $pie;
-    // public $titulo;
-    // public $autor;
-    // public $descripcion;
-    // public $claves;
-    // public $directorio;
-    // public $ruta;
-    // public $imagen_previa;
-    // public $menu_principal;
-    // public $encabezado;
-    // public $contenido;
-    // public $javascript;
     public $publicaciones = array(); // Arreglo con instancias de Publicacion generado por Imprenta
 
     /**

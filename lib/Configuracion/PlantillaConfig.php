@@ -33,8 +33,9 @@ class PlantillaConfig {
     public $favicon             = 'imagenes/favicon.png';
     public $menu_principal_logo = 'imagenes/implan-barra-logo.png';
     public $propio_css          = 'css/trcimplan.css';
-    public $en_raiz             = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
-    public $para_compartir      = true;  // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
+    public $en_raiz             = false;       // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
+    public $para_compartir      = true;        // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
+    public $autor               = 'TrcIMPLAN'; // Autor por defecto
     public $mensaje_oculto      = <<<FINAL
 <!-- ========================================================================================
 

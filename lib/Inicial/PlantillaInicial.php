@@ -27,28 +27,6 @@ namespace Inicial;
  */
 class PlantillaInicial extends \Base\Plantilla {
 
-    // public $sitio_titulo;
-    // public $sitio_url;
-    // public $rss;
-    // public $favicon;
-    // public $menu_principal_logo;
-    // public $propio_css;
-    // public $en_raiz;
-    // public $para_compartir;
-    // public $mensaje_oculto;
-    // public $pie;
-    // public $titulo;
-    // public $autor;
-    // public $descripcion;
-    // public $claves;
-    // public $directorio;
-    // public $ruta;
-    // public $imagen_previa;
-    // public $menu_principal;
-    // public $encabezado;
-    // public $contenido;
-    // public $javascript;
-
     /**
      * Constructor
      */
@@ -68,24 +46,6 @@ class PlantillaInicial extends \Base\Plantilla {
     } // constructor
 
     /**
-     * Inferior
-     */
-    protected function inferior() {
-        // Acumularemos la entrega en este arreglo
-        $a = array();
-        // Acumular
-        $a[] = '    <div class="row inferior">';
-        if ($this->en_raiz) {
-            $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
-        } else {
-            $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"../imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
-        }
-        $a[] = '    </div>'; // row inferior
-        // Entregar
-        return implode("\n", $a);
-    } // inferior
-
-    /**
      * HTML
      *
      * @return string Código HTML
@@ -94,11 +54,12 @@ class PlantillaInicial extends \Base\Plantilla {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Definir el contenido
-        $carrusel  = new Carrusel();
-        $a[]       = $carrusel->html();
-        $destacado = new Destacado();
-        $a[]       = $destacado->html();
-        $a[]       = $this->inferior();
+        $carrusel      = new Carrusel();
+        $a[]           = $carrusel->html();
+        $destacado     = new Destacado();
+        $a[]           = $destacado->html();
+        $mapa_inferior = new \Base\MapaInferior();
+        $a[]           = $mapa_inferior->html();
         // Definir contenido
         $this->contenido = implode("\n", $a);
         // Ejecutar padre

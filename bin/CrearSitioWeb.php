@@ -38,9 +38,12 @@ require_once('lib/Base/Funciones.php');
  */
 // Cargar el menu principal
 $menu_principal = new \Base\MenuPrincipal();
+// Cargar el mapa inferior
+$mapa_inferior  = new \Base\MapaInferior();
 // Cargar la plantilla completa
 $plantilla                 = new \Base\PlantillaCompleta();
 $plantilla->menu_principal = $menu_principal;
+$plantilla->mapa_inferior  = $mapa_inferior;
 // Cargar el impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla;
@@ -54,6 +57,7 @@ try {
     exit($E_FATAL);
 }
 unset($menu_principal);
+unset($mapa_inferior);
 unset($plantilla);
 unset($impresor);
 
@@ -63,9 +67,13 @@ unset($impresor);
 // Cargar el menu principal
 $menu_principal          = new \Base\MenuPrincipal();
 $menu_principal->en_raiz = true;
+// Cargar el mapa inferior
+$mapa_inferior          = new \Base\MapaInferior();
+$mapa_inferior->en_raiz = true;
 // Cargar la plantilla para la Página Inicial
 $plantilla_inicial                 = new \Inicial\PlantillaInicial();
 $plantilla_inicial->menu_principal = $menu_principal;
+$plantilla_inicial->mapa_inferior  = $mapa_inferior;
 // Cargar el impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla_inicial;

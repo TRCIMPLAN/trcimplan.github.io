@@ -23,12 +23,27 @@
 namespace SalaDePrensa;
 
 /**
- * Clase PlantillaSalaDePrensa
+ * Clase PlantillaInicial
  */
-class PlantillaSalaDePrensa {
+class PlantillaInicial extends \Base\PlantillaCompleta {
 
+    /**
+     * Constructor
+     */
+    public function __construct() {
+        $this->titulo        = 'Sala de Prensa';
+        $this->autor         = 'TrcIMPLAN';
+        $this->descripcion   = 'IMPLAN Torreón, Sala de Prensa.';
+        $this->claves        = 'IMPLAN, Torreon, Prensa, Comunicados';
+        $this->directorio    = 'sala-prensa';
+        $this->ruta          = "{$this->directorio}/index.html";
+        $this->imagen_previa = '/imagenes/implan.jpg';
+        $this->encabezado    = '';
+        $this->contenido     = <<<FINAL
+FINAL;
+        $this->javascript    = '';
+    } // constructor
 
-
-} // Clase PlantillaSalaDePrensa
+} // Clase PlantillaInicial
 
 ?>

@@ -37,6 +37,8 @@ require_once('lib/Base/Funciones.php');
 $menu_principal = new \Base\MenuPrincipal();
 // Cargar el menu izquierdo
 $menu_izquierdo = new \Base\MenuIzquierdo();
+// Cargar el mapa inferior
+$mapa_inferior  = new \Base\MapaInferior();
 
 /**
  * SMI Indicadores
@@ -45,6 +47,7 @@ $menu_izquierdo = new \Base\MenuIzquierdo();
 $plantilla                 = new \Base\PlantillaMenuIzquierdo();
 $plantilla->menu_principal = $menu_principal;
 $plantilla->menu_izquierdo = $menu_izquierdo;
+$plantilla->mapa_inferior  = $mapa_inferior;
 // Cargar impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla;
@@ -72,6 +75,7 @@ unset($impresor);
 $plantilla_indicadores_torreon                 = new \SMI\PlantillaIndicadoresTorreon();
 $plantilla_indicadores_torreon->menu_principal = $menu_principal;
 $plantilla_indicadores_torreon->menu_izquierdo = $menu_izquierdo;
+$plantilla_indicadores_torreon->mapa_inferior  = $mapa_inferior;
 $plantilla_indicadores_torreon->publicaciones  = $indicadores_torreon_pubs;
 // Cargar impresor
 $impresor            = new \Base\Imprenta();
@@ -94,6 +98,7 @@ unset($impresor);
 $plantilla_inicial                 = new \SMI\PlantillaInicial();
 $plantilla_inicial->menu_principal = $menu_principal;
 $plantilla_inicial->menu_izquierdo = $menu_izquierdo;
+$plantilla_inicial->mapa_inferior  = $mapa_inferior;
 // Cargar impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla_inicial;

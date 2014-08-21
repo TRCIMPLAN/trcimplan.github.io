@@ -35,37 +35,20 @@ class PlantillaMenuIzquierdo extends Plantilla {
     // public $propio_css;
     // public $en_raiz;
     // public $para_compartir;
+    // public $autor;
     // public $mensaje_oculto;
     // public $pie;
     // public $titulo;
-    // public $autor;
     // public $descripcion;
     // public $claves;
     // public $directorio;
     // public $ruta;
     // public $imagen_previa;
     // public $menu_principal;
+    // public $mapa_inferior;
     // public $encabezado;
     // public $contenido;
     // public $javascript;
-
-    /**
-     * Inferior
-     */
-    protected function inferior() {
-        // Acumularemos la entrega en este arreglo
-        $a = array();
-        // Acumular
-        $a[] = '    <div class="row inferior">';
-        if ($this->en_raiz) {
-            $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
-        } else {
-            $a[] = "        <a href=\"{$this->sitio_url}\"><img class=\"inferior-logo\" src=\"../imagenes/implan-barra-mediano.png\" alt=\"{$this->sitio_titulo}\"></a>";
-        }
-        $a[] = '    </div>'; // row inferior
-        // Entregar
-        return implode("\n", $a);
-    } // inferior
 
     /**
      * HTML
@@ -89,7 +72,7 @@ class PlantillaMenuIzquierdo extends Plantilla {
         }
         $a[] = $this->contenido;
         $a[] = '    </div>'; // row contenido
-        $a[] = $this->inferior();
+        $a[] = $this->mapa_inferior->html();
         $a[] = '  </div>';   // page-wrapper
         // Redefinir contenido
         $this->contenido = implode("\n", $a);

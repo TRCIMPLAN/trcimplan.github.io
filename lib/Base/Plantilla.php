@@ -35,16 +35,17 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     // public $propio_css;
     // public $en_raiz;
     // public $para_compartir;
+    // public $autor;
     // public $mensaje_oculto;
     // public $pie;
     public $titulo;         // Título de la página
-    public $autor;          // Persona que sea la autora
     public $descripcion;    // Descripción del sitio o la página
     public $claves;         // Claves que ayuden a los buscadores
     public $directorio;     // Directorio donde se guardará el archivo HTML
     public $ruta;           // Ruta relativa a la pagina HTML
     public $imagen_previa;  // Ruta relativa a la imagen
     public $menu_principal; // Instancia de \Base\MenuPrincipal
+    public $mapa_inferior;  // Instancia de \Base\MapaInferior
     public $encabezado;     // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior
     public $contenido;      // Código HTML con el contenido
     public $javascript;     // Código Javascript

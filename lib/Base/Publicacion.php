@@ -36,7 +36,6 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $directorio;                  // Directorio donde está guardada la publicación completa
     public $archivo;                     // El nombre del archivo para la publicación
     public $descripcion;                 // Descripción del sitio o la página
-    public $imagen_previa;               // Ruta relativa a un archivo de imagen para la vista previa a compartir en redes sociales
     public $claves;                      // Claves que ayuden a los buscadores
     public $categorias        = array(); // Arreglo con las categorías de la publicación.
     public $encabezado;                  // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
