@@ -40,9 +40,6 @@ class PlantillaIndicadoresTorreon extends \Base\PlantillaMenuIzquierdo {
         $this->directorio    = 'indicadores-torreon';
         $this->ruta          = "{$this->directorio}/index.html";
         $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->encabezado    = ''; // <img class="img-responsive" src="vision-mision/encabezado.jpg">
-        $this->contenido     = '';
-        $this->javascript    = '';
     } // constructor
 
     /**

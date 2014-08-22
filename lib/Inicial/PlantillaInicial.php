@@ -40,9 +40,6 @@ class PlantillaInicial extends \Base\Plantilla {
         $this->directorio    = '.';
         $this->ruta          = "index.html";
         $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->encabezado    = '';
-        $this->contenido     = '';
-        $this->javascript    = '';
     } // constructor
 
     /**

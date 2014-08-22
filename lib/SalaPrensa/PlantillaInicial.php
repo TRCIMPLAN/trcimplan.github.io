@@ -20,7 +20,7 @@
  */
 
 // Namespace
-namespace SalaDePrensa;
+namespace SalaPrensa;
 
 /**
  * Clase PlantillaInicial

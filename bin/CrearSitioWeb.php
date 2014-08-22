@@ -98,12 +98,12 @@ try {
 }
 unset($plantilla);
 unset($impresor);
-unset($menu_principal);
-unset($mapa_inferior);
 
 /**
  * Página Inicial
  */
+unset($menu_principal);
+unset($mapa_inferior);
 // Cargar el menu principal
 $menu_principal          = new \Base\MenuPrincipal();
 $menu_principal->en_raiz = true;
