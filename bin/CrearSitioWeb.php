@@ -37,13 +37,13 @@ require_once('lib/Base/Funciones.php');
  * Páginas Estáticas
  */
 // Cargar el menu principal
-$menu_principal = new \Base\MenuPrincipal();
+$navegacion    = new \Base\Navegacion();
 // Cargar el mapa inferior
-$mapa_inferior  = new \Base\MapaInferior();
+$mapa_inferior = new \Base\MapaInferior();
 // Cargar la plantilla completa
-$plantilla                 = new \Base\PlantillaCompleta();
-$plantilla->menu_principal = $menu_principal;
-$plantilla->mapa_inferior  = $mapa_inferior;
+$plantilla                = new \Base\Plantilla();
+$plantilla->navegacion    = $navegacion;
+$plantilla->mapa_inferior = $mapa_inferior;
 // Cargar el impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla;
@@ -63,9 +63,9 @@ unset($impresor);
  * Eventos
  */
 // Cargar la plantilla completa
-$plantilla                 = new \Base\PlantillaCompleta();
-$plantilla->menu_principal = $menu_principal;
-$plantilla->mapa_inferior  = $mapa_inferior;
+$plantilla                = new \Base\Plantilla();
+$plantilla->navegacion    = $navegacion;
+$plantilla->mapa_inferior = $mapa_inferior;
 // Cargar el impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla;
@@ -81,10 +81,10 @@ try {
 unset($plantilla);
 unset($impresor);
 // Cargar plantilla inicial de eventos
-$plantilla                 = new \Eventos\PlantillaInicial();
-$plantilla->menu_principal = $menu_principal;
-$plantilla->mapa_inferior  = $mapa_inferior;
-$plantilla->publicaciones  = $eventos;
+$plantilla                = new \Eventos\PlantillaInicial();
+$plantilla->navegacion    = $navegacion;
+$plantilla->mapa_inferior = $mapa_inferior;
+$plantilla->publicaciones = $eventos;
 // Cargar el impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla;
@@ -102,18 +102,18 @@ unset($impresor);
 /**
  * Página Inicial
  */
-unset($menu_principal);
+unset($navegacion);
 unset($mapa_inferior);
 // Cargar el menu principal
-$menu_principal          = new \Base\MenuPrincipal();
-$menu_principal->en_raiz = true;
+$navegacion          = new \Base\Navegacion();
+$navegacion->en_raiz = true;
 // Cargar el mapa inferior
 $mapa_inferior          = new \Base\MapaInferior();
 $mapa_inferior->en_raiz = true;
 // Cargar la plantilla para la Página Inicial
-$plantilla_inicial                 = new \Inicial\PlantillaInicial();
-$plantilla_inicial->menu_principal = $menu_principal;
-$plantilla_inicial->mapa_inferior  = $mapa_inferior;
+$plantilla_inicial                = new \Inicial\PlantillaInicial();
+$plantilla_inicial->navegacion    = $navegacion;
+$plantilla_inicial->mapa_inferior = $mapa_inferior;
 // Cargar el impresor
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = $plantilla_inicial;

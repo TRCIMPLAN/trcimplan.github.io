@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - Configuración Menu Principal Config
+ * SMIbeta - DESCRIPCION
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2014 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,13 +23,13 @@
 namespace Configuracion;
 
 /**
- * Clase MenuPrincipalConfig
+ * Clase Navegacion
  */
-class MenuPrincipalConfig {
+class Navegacion {
 
-    public $sitio_titulo = 'IMPLAN Torreón';
-    public $logotipo     = 'imagenes/implan-barra-logo-chico.png';
-    public $opciones     = array(
+    protected $sitio_titulo = 'IMPLAN Torreón';
+    protected $logotipo     = 'imagenes/implan-barra-logo-chico.png';
+    protected $opciones     = array(
         'Institucional' => array(
             'Visión / Misión'       => 'institucional/vision-mision.html',
             'Mensaje del Director'  => 'institucional/mensaje-director.html',
@@ -53,6 +53,6 @@ class MenuPrincipalConfig {
         'Contacto'       => 'contacto/index.html',
         'Sala de Prensa' => 'sala-de-prensa/index.html');
 
-} // Clase MenuPrincipalConfig
+} // Clase Navegacion
 
 ?>

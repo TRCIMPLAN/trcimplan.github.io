@@ -27,29 +27,6 @@ namespace Base;
  */
 class PlantillaCompleta extends Plantilla {
 
-    // public $sitio_titulo;
-    // public $sitio_url;
-    // public $rss;
-    // public $favicon;
-    // public $menu_principal_logo;
-    // public $propio_css;
-    // public $en_raiz;
-    // public $para_compartir;
-    // public $autor;
-    // public $mensaje_oculto;
-    // public $pie;
-    // public $titulo;
-    // public $descripcion;
-    // public $claves;
-    // public $directorio;
-    // public $ruta;
-    // public $imagen_previa;
-    // public $menu_principal;
-    // public $mapa_inferior;
-    // public $encabezado;
-    // public $contenido;
-    // public $javascript;
-
     /**
      * HTML
      *

@@ -44,7 +44,7 @@ $mapa_inferior  = new \Base\MapaInferior();
  * SMI Indicadores
  */
 // Cargar la plantilla, copiar los menús
-$plantilla                 = new \Base\PlantillaMenuIzquierdo();
+$plantilla                 = new \Base\Plantilla();
 $plantilla->menu_principal = $menu_principal;
 $plantilla->menu_izquierdo = $menu_izquierdo;
 $plantilla->mapa_inferior  = $mapa_inferior;

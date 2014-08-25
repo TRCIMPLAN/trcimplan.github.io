@@ -25,7 +25,7 @@ namespace SIG;
 /**
  * Clase PlantillaInicial
  */
-class PlantillaInicial extends \Base\PlantillaCompleta {
+class PlantillaInicial extends \Base\Plantilla {
 
     /**
      * Constructor

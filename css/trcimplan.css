@@ -271,6 +271,9 @@ a:focus   { text-decoration:none; color:#AA005F; }
         border-right:none;
         height:auto;
     }
+    .contenido-imagen {
+        padding:16px;
+    }
 }
 @media only screen and (max-width: 640px) {
     #carrusel .carousel-inner > .item > img {
@@ -288,7 +291,7 @@ a:focus   { text-decoration:none; color:#AA005F; }
         height:auto;
     }
     .contenido-imagen {
-        padding:16px;
+        padding:8px;
     }
 }
 @media only screen and (max-width: 500px) {
@@ -307,7 +310,7 @@ a:focus   { text-decoration:none; color:#AA005F; }
         height:auto;
     }
     .contenido-imagen {
-        padding:8px;
+        padding:4px;
     }
 }
 

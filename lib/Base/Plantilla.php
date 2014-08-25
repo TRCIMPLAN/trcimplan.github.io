@@ -43,11 +43,10 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public $directorio;           // Directorio donde se guardará el archivo HTML
     public $ruta;                 // Ruta relativa a la pagina HTML
     public $imagen_previa;        // Ruta relativa a la imagen
-    public $menu_principal;       // Instancia de \Base\MenuPrincipal
-    public $menu_izquierdo;       // Instancia de \Base\MenuIzquierdo
-    public $mapa_inferior;        // Instancia de \Base\MapaInferior
+    public $navegacion;           // Instancia de \Base\Navegacion
     public $encabezado;           // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior
     public $contenido;            // Código HTML con el contenido
+    public $mapa_inferior;        // Instancia de \Base\MapaInferior
     public $javascript = array(); // Arreglo que acumula el código Javascript a poner al final de la página
 
     /**
@@ -178,14 +177,18 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '<script src="js/raphael-min.js"></script>';
             $a[] = '<script src="js/morris.min.js"></script>';
             $a[] = '<script src="js/leaflet.js"></script>';
-            $a[] = '<script src="js/google-analytics.js"></script>';
+            $a[] = '<script src="js/plugins/metisMenu/metisMenu.min.js"></script>';
+            $a[] = '<script src="js/sb-admin-2.js"></script>';
+            //$a[] = '<script src="js/google-analytics.js"></script>';
         } else {
             $a[] = '<script src="../js/jquery.min.js"></script>';
             $a[] = '<script src="../js/bootstrap.min.js"></script>';
             $a[] = '<script src="../js/raphael-min.js"></script>';
             $a[] = '<script src="../js/morris.min.js"></script>';
             $a[] = '<script src="../js/leaflet.js"></script>';
-            $a[] = '<script src="../js/google-analytics.js"></script>';
+            $a[] = '<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>';
+            $a[] = '<script src="../js/sb-admin-2.js"></script>';
+            //$a[] = '<script src="../js/google-analytics.js"></script>';
         }
         if (is_array($this->javascript)) {
             $b = array();
@@ -212,6 +215,19 @@ class Plantilla extends \Configuracion\PlantillaConfig {
      * @return string Código HTML
      */
     public function html() {
+        // Validar
+        if (!is_object($this->navegacion)) {
+            throw new \Exception("Error en Plantilla, html: La propiedad navegacion es incorrecto.");
+        }
+        if (!($this->navegacion instanceof Navegacion)) {
+            throw new \Exception("Error en Plantilla, html: La propiedad navegacion no es instancia de Navegacion.");
+        }
+        if (!is_object($this->mapa_inferior)) {
+            throw new \Exception("Error en Plantilla, html: La propiedad mapa_inferior es incorrecto.");
+        }
+        if (!($this->mapa_inferior instanceof MapaInferior)) {
+            throw new \Exception("Error en Plantilla, html: La propiedad mapa_inferior no es instancia de MapaInferior.");
+        }
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
@@ -223,19 +239,30 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a[] = $this->cabezera();
         $a[] = '<body>';
         $a[] = '<div id="wrapper">';
-        $a[] = '  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">';
-        if (is_object($this->menu_principal)) {
-            $a[] = $this->menu_principal->html();
+        $a[] = $this->navegacion->html();
+        // Contenido inicia
+        $a[] = '  <div id="page-wrapper">';
+        $a[] = '    <div class="row">';
+        $a[] = '      <div class="col-lg-12">';
+        if ($this->encabezado != '') {
+            $a[] = $this->encabezado;
+        } else {
+            if ($this->titulo == '') {
+                $a[] = "        <h1 class=\"page-header\">{$this->sitio_titulo}</h1>";
+            } else {
+                $a[] = "        <h1 class=\"page-header\">{$this->titulo}</h1>";
+            }
         }
-        if (is_object($this->menu_izquierdo)) {
-            $a[] = $this->menu_izquierdo->html();
-        }
-        $a[] = '  </nav>';
         if (is_string($this->contenido) && (trim($this->contenido) != '')) {
             $a[] = $this->contenido;
         } else {
             $a[] = "<b>No hay contenido para esta página.</b>";
         }
+        $a[] = '      </div>'; // row contenido
+        $a[] = '    </div>';   // row contenido
+        $a[] = $this->mapa_inferior->html();
+        $a[] = '  </div>';     // page-wrapper
+        // Contenido termina
         $a[] = '</div>'; // wrapper
         if (is_string($this->pie) && (trim($this->pie) != '')) {
             $a[] = '<div id="pie">';

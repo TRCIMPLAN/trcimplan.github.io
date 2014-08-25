@@ -25,7 +25,7 @@ namespace SMI;
 /**
  * Clase PlantillaInicial
  */
-class PlantillaInicial extends \Base\PlantillaMenuIzquierdo {
+class PlantillaInicial extends \Base\Plantilla {
 
     /**
      * Constructor

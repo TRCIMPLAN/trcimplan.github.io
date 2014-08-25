@@ -25,7 +25,7 @@ namespace SMI;
 /**
  * Clase PlantillaIndicadoresTorreon
  */
-class PlantillaIndicadoresTorreon extends \Base\PlantillaMenuIzquierdo {
+class PlantillaIndicadoresTorreon extends \Base\Plantilla {
 
     public $publicaciones = array(); // Arreglo con instancias de Publicacion generado por Imprenta
 
