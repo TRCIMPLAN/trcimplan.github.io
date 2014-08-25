@@ -33,7 +33,7 @@ class PrimeraSesionOrdinaria extends \Base\Publicacion {
     public function __construct() {
         $this->fecha         = '2014-04-18';
         $this->nombre        = 'Primera Sesión Ordinaria';
-        $this->nombre_menu   = 'Primera Sesión Ordinaria';
+        $this->nombre_menu   = 'Eventos';
         $this->directorio    = 'eventos';
         $this->archivo       = 'primera-sesion-ordinaria';
         $this->descripcion   = 'Primera Reunión Ordinaria del Consejo Directivo del Instituto Municipal de Planeación y Competitividad de Torreón.';

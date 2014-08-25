@@ -31,13 +31,13 @@ class Navegacion {
     protected $logotipo     = 'imagenes/implan-barra-logo-chico.png';
     protected $opciones     = array(
         'Institucional' => array(
-            'Visión / Misión'       => 'institucional/vision-mision.html',
-            'Mensaje del Director'  => 'institucional/mensaje-director.html',
-            'Quienes Somos'         => 'institucional/quienes-somos.html',
-            'Estructura Orgánica'   => 'institucional/estructura-organica.html',
-            'Transparencia'         => 'http://www.icai.org.mx/ipmn/Principal.php?sujeto=0',
-            'Reglamentos'           => 'institucional/reglamentos.html',
-            'Información Finaciera' => 'institucional/informacion-financiera.html'),
+            'Visión / Misión'        => 'institucional/vision-mision.html',
+            'Mensaje del Director'   => 'institucional/mensaje-director.html',
+            'Quienes Somos'          => 'institucional/quienes-somos.html',
+            'Estructura Orgánica'    => 'institucional/estructura-organica.html',
+            'Transparencia'          => 'http://www.icai.org.mx/ipmn/Principal.php?sujeto=0',
+            'Reglamentos'            => 'institucional/reglamentos.html',
+            'Información Financiera' => 'institucional/informacion-financiera.html'),
         'Servicios' => array(
             'Sistema Metropolitano de Indicadores' => 'smi/index.html',
             'Sistema de Información Geográfica'    => 'sig/index.html',
@@ -47,11 +47,11 @@ class Navegacion {
             'Blog'    => 'blog/index.html',
             'Eventos' => 'eventos/index.html'),
         'Consejo Directivo' => array(
-            'Consejo Directivo'        => 'consejo-directivo/index.html',
-            'Agenda Consejo Directivo' => 'consejo-directivo/agenda.html',
-            'Agenda Comités Técnicos'  => 'consejo-directivo/agenda-comites-tecnicos.html'),
-        'Contacto'       => 'contacto/index.html',
-        'Sala de Prensa' => 'sala-de-prensa/index.html');
+            'Consejo Directivo' => 'consejo-directivo/index.html',
+            'Agenda'            => 'consejo-directivo/agenda.html',
+            'Comités Técnicos'  => 'consejo-directivo/comites-tecnicos-agenda.html'),
+        'Sala de Prensa' => 'sala-de-prensa/index.html',
+        'Contacto'       => 'contacto/index.html');
 
 } // Clase Navegacion
 

@@ -34,8 +34,8 @@ class Completo {
      *
      * @param mixed Instancia de Publicacion
      */
-    public function __construct($in_publicacion=false) {
-        $this->publicacion = $in_publicacion;
+    public function __construct($publicacion) {
+        $this->publicacion = $publicacion;
     } // constructor
 
     /**
@@ -46,10 +46,10 @@ class Completo {
     public function html() {
         // Validar
         if (!is_object($this->publicacion)) {
-            throw new \Exception("Error en Plantilla, incorporar_publicacion: No es una instancia.");
+            throw new \Exception("Error en Completo, html: La propiedad publicacion no es una instancia.");
         }
         if (!($this->publicacion instanceof Publicacion)) {
-            throw new \Exception("Error en Plantilla, incorporar_publicacion: No es instancia de Publicacion.");
+            throw new \Exception("Error en Completo, html: La propiedad publicacion no es instancia de Publicacion.");
         }
         // Acumularemos la entrega en este arreglo
         $a = array();
@@ -57,9 +57,12 @@ class Completo {
         $a[] = '<article>';
         $a[] = '  <header>';
         if ($this->publicacion->encabezado != '') {
+            $a[] = $this->publicacion->encabezado;
+            if ($this->publicacion->nombre != '') {
+                $a[] = "    <h1 style=\"display:none;\">{$this->publicacion->nombre}</h1>";
+            }
+        } elseif ($this->publicacion->nombre != '') {
             $a[] = "    <h1>{$this->publicacion->nombre}</h1>";
-        } else {
-            $a[] = "    <h1 style=\"display:none;\">{$this->publicacion->nombre}</h1>";
         }
         $a[] = "    <p class=\"autor-fecha\">Por {$this->publicacion->autor}, {$this->publicacion->fecha}</p>";
         $a[] = '  </header>';

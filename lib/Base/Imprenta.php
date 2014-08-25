@@ -105,9 +105,9 @@ class Imprenta {
         }
         fclose($apuntador);
         // Agregar mensaje
-        $this->mensajes[] = "  Listo {$ruta}";
+        $this->mensajes[] = "  Listo $ruta";
         // Entregar mensaje
-        return "  Listo {$ruta}";
+        return "  Listo $ruta";
     } // crear_archivo
 
     /**
@@ -161,6 +161,8 @@ class Imprenta {
             // Si es instancia de Publicacion, se acumula
             if ($publicacion instanceof Publicacion) {
                 $instancias[] = $publicacion;
+            } else {
+                $this->mensajes[] = "  Omití $clase porque no es una publicación.";
             }
         }
         // Acumular
@@ -198,7 +200,10 @@ class Imprenta {
     public function imprimir() {
         // Validar que la plantilla esté definida
         if (!is_object($this->plantilla)) {
-            throw new ImprentaExceptionValidacion("Error en Imprenta, imprimir_directorio: No está definida la plantilla.");
+            throw new ImprentaExceptionValidacion("Error en Imprenta, imprimir: La propiedad plantilla no es una instancia.");
+        }
+        if (!($this->plantilla instanceof Plantilla)) {
+            throw new ImprentaExceptionValidacion("Error en Imprenta, imprimir: La propiedad plantilla no es instancia de Plantilla.");
         }
         // Si hay datos en el arreglo Publicaciones
         if (count($this->publicaciones) > 0) {

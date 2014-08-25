@@ -30,6 +30,7 @@ class Navegacion extends \Configuracion\Navegacion {
     // protected $sitio_titulo;
     // protected $logotipo;
     // protected $opciones;
+    public $opcion_activa;   // Etiqueta de opciones en la que está
     public $en_raiz = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
 
     /**
@@ -139,17 +140,30 @@ class Navegacion extends \Configuracion\Navegacion {
         foreach ($this->opciones as $etiqueta => $parametros) {
             if (is_array($parametros)) {
                 // Dos niveles
-                $a[] = '        <li>';
-                $a[] = '          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> '.$etiqueta.'<span class="fa arrow"></span></a>';
+                $icono = '<i class="fa fa-bar-chart-o fa-fw"></i>';
+                if (array_key_exists($this->opcion_activa, $parametros)) {
+                    $a[] = '        <li class="active">';
+                } else {
+                    $a[] = '        <li>';
+                }
+                $a[] = "          <a href=\"#\">$icono $etiqueta<span class=\"fa arrow\"></span></a>";
                 $a[] = '          <ul class="nav nav-second-level">';
                 foreach ($parametros as $e => $u) {
-                    $a[] = '            <li>'.$this->vinculo($e, $u).'</li>';
+                    if ($this->opcion_activa == $e) {
+                        $a[] = '            <li class="active">'.$this->vinculo($e, $u).'</li>';
+                    } else {
+                        $a[] = '            <li>'.$this->vinculo($e, $u).'</li>';
+                    }
                 }
                 $a[] = '          </ul>';
                 $a[] = '        </li>';
             } else {
                 // Un nivel
-                $a[] = '        <li>'.$this->vinculo($etiqueta, $parametros).'</li>';
+                if ($this->opcion_activa == $etiqueta) {
+                    $a[] = '        <li class="active">'.$this->vinculo($etiqueta, $parametros).'</li>';
+                } else {
+                    $a[] = '        <li>'.$this->vinculo($etiqueta, $parametros).'</li>';
+                }
             }
         }
         // Cerrar
@@ -171,7 +185,7 @@ class Navegacion extends \Configuracion\Navegacion {
         // Acumular
         $a[] = '  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">';
         $a[] = $this->navegacion_encabezado();
-        $a[] = $this->menu_superior();
+     // $a[] = $this->menu_superior();
         $a[] = $this->menu_izquierdo();
         $a[] = '  </nav>';
         // Entregar

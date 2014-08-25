@@ -44,7 +44,6 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public $ruta;                 // Ruta relativa a la pagina HTML
     public $imagen_previa;        // Ruta relativa a la imagen
     public $navegacion;           // Instancia de \Base\Navegacion
-    public $encabezado;           // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior
     public $contenido;            // Código HTML con el contenido
     public $mapa_inferior;        // Instancia de \Base\MapaInferior
     public $javascript = array(); // Arreglo que acumula el código Javascript a poner al final de la página
@@ -62,9 +61,17 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         if (!($publicacion instanceof Publicacion)) {
             throw new \Exception("Error en Plantilla, incorporar_publicacion: No es instancia de Publicacion.");
         }
+        if (!is_object($this->navegacion)) {
+            throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad navegacion no es una instancia.");
+        }
+        if (!($this->navegacion instanceof Navegacion)) {
+            throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad navegacion no es instancia de Navegacion.");
+        }
         // Esta publicación ocupará la página completa
         $completo        = new Completo($publicacion);
         $this->contenido = $completo->html();
+        // En navegacion, para que el menú indique la opción activa
+        $this->navegacion->opcion_activa = $publicacion->nombre_menu;
         // Definir las demás propiedades
         $this->titulo        = $publicacion->nombre;
         $this->autor         = $publicacion->autor;
@@ -73,7 +80,6 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $this->directorio    = $publicacion->directorio;
         $this->ruta          = "{$publicacion->directorio}/{$publicacion->archivo}.html";
         $this->imagen_previa = $publicacion->imagen_previa;
-        $this->encabezado    = $publicacion->encabezado;
         $this->javascript[]  = $publicacion->javascript;
     } // incorporar_publicacion
 
@@ -217,13 +223,13 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public function html() {
         // Validar
         if (!is_object($this->navegacion)) {
-            throw new \Exception("Error en Plantilla, html: La propiedad navegacion es incorrecto.");
+            throw new \Exception("Error en Plantilla, html: La propiedad navegacion no es una instancia.");
         }
         if (!($this->navegacion instanceof Navegacion)) {
             throw new \Exception("Error en Plantilla, html: La propiedad navegacion no es instancia de Navegacion.");
         }
         if (!is_object($this->mapa_inferior)) {
-            throw new \Exception("Error en Plantilla, html: La propiedad mapa_inferior es incorrecto.");
+            throw new \Exception("Error en Plantilla, html: La propiedad mapa_inferior no es una instancia.");
         }
         if (!($this->mapa_inferior instanceof MapaInferior)) {
             throw new \Exception("Error en Plantilla, html: La propiedad mapa_inferior no es instancia de MapaInferior.");
@@ -244,21 +250,12 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a[] = '  <div id="page-wrapper">';
         $a[] = '    <div class="row">';
         $a[] = '      <div class="col-lg-12">';
-        if ($this->encabezado != '') {
-            $a[] = $this->encabezado;
-        } else {
-            if ($this->titulo == '') {
-                $a[] = "        <h1 class=\"page-header\">{$this->sitio_titulo}</h1>";
-            } else {
-                $a[] = "        <h1 class=\"page-header\">{$this->titulo}</h1>";
-            }
-        }
         if (is_string($this->contenido) && (trim($this->contenido) != '')) {
             $a[] = $this->contenido;
         } else {
             $a[] = "<b>No hay contenido para esta página.</b>";
         }
-        $a[] = '      </div>'; // row contenido
+        $a[] = '      </div>'; // col-lg-12
         $a[] = '    </div>';   // row contenido
         $a[] = $this->mapa_inferior->html();
         $a[] = '  </div>';     // page-wrapper

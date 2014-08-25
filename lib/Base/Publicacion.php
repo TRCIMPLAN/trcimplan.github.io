@@ -32,7 +32,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     // public $aparece_en_pagina_inicial;
     // public $imagen_previa;
     public $nombre;                      // Título completo de la publicación
-    public $nombre_menu;                 // Un título corto para el menú, si se omite, se copia el nombre
+    public $nombre_menu;                 // Un título corto para el menú. Debe coincidir con la etiqueta usada en \Configuracion\Navegacion
     public $directorio;                  // Directorio donde está guardada la publicación completa
     public $archivo;                     // El nombre del archivo para la publicación
     public $descripcion;                 // Descripción del sitio o la página
