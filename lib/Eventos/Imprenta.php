@@ -25,51 +25,32 @@ namespace Eventos;
 /**
  * Clase Imprenta
  */
-class Imprenta extends \Base\Imprenta {
+class Imprenta extends \Base\ImprentaPublicaciones {
 
     // public $plantilla;
     // public $mensajes;
     // protected $publicaciones;
     // protected $plantillas;
-    protected $publicaciones_directorio = 'Eventos';
-    protected $titulo                   = 'Eventos';
-    protected $descripcion              = 'Eventos del IMPLAN Torreón.';
-    protected $claves                   = 'IMPLAN, Torreon, Eventos';
-    protected $directorio               = 'eventos';
-    protected $ruta                     = 'eventos/index.html';
-    protected $nombre_menu              = 'Eventos'; // Definir la opción activa en navegación
+    // protected $publicaciones_directorio; // Nombre del directorio dentro de lib que contiene los archivos con las publicaciones
+    // protected $titulo;                   // Título a usar en la página con el índice
+    // protected $descripcion;              // Descripción a usar en la página con el índice
+    // protected $claves;                   // Claves a usar en la página con el índice
+    // protected $directorio;               // Nombre del directorio en la raíz del sitio
+    // protected $ruta;                     // Ruta al archivo HTML para el índice, por ejemplo 'eventos/index.html'
+    // protected $nombre_menu;              // Etiqueta del menú que pondrá como opción activa
 
     /**
-     * Imprimir
-     *
-     * @return string Mensajes para la terminal
+     * Constructor
      */
-    public function imprimir() {
-        // Cargar la plantilla para publicaciones
-        $this->plantilla                = new \Base\Plantilla();
-        $this->plantilla->navegacion    = new \Base\Navegacion();
-        $this->plantilla->mapa_inferior = new \Base\MapaInferior();
-        // Imprimir las publicaciones
-        $eventos = $this->agregar_directorio_publicaciones($this->publicaciones_directorio);
-        parent::imprimir();
-        // Dejar en blanco la propiedad publicaciones, para volver a imprimir
-        $this->publicaciones = null;
-        // Cargar el índice con las publicaciones
-        $indice         = new \Base\Indice($eventos);
-        $indice->titulo = $this->titulo;
-        // Cargar la plantilla para índice
-        $this->plantilla->titulo                    = $this->titulo;
-        $this->plantilla->descripcion               = $this->descripcion;
-        $this->plantilla->claves                    = $this->claves;
-        $this->plantilla->directorio                = $this->directorio;
-        $this->plantilla->ruta                      = $this->ruta;
-        $this->plantilla->navegacion->opcion_activa = $this->nombre_menu;
-        $this->plantilla->contenido                 = $indice->html();
-        // Imprimir el index.html
-        parent::imprimir();
-        // Entregar mensajes
-        return implode("\n", $this->mensajes);
-    } // imprimir
+    public function __construct() {
+        $this->publicaciones_directorio = 'Eventos';
+        $this->titulo                   = 'Eventos';
+        $this->descripcion              = 'Eventos del IMPLAN Torreón.';
+        $this->claves                   = 'IMPLAN, Torreon, Eventos';
+        $this->directorio               = 'eventos';
+        $this->ruta                     = 'eventos/index.html';
+        $this->nombre_menu              = 'Eventos';
+    } // constructor
 
 } // Clase Imprenta
 

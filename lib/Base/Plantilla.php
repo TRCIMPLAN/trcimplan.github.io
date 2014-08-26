@@ -249,7 +249,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // Contenido inicia
         $a[] = '  <div id="page-wrapper">';
         $a[] = '    <div class="row">';
-        $a[] = '      <div class="col-lg-12">';
+        $a[] = '      <div class="cuerpo">'; // col-lg-12
         if (is_string($this->contenido) && (trim($this->contenido) != '')) {
             $a[] = $this->contenido;
         } else {

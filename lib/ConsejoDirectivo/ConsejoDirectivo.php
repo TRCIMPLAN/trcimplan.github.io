@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Consejo Directivo Inicial
+ * SMIbeta - Consejo Directivo
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -23,9 +23,9 @@
 namespace ConsejoDirectivo;
 
 /**
- * Clase Inicial
+ * Clase ConsejoDirectivo
  */
-class Inicial extends \Base\Publicacion {
+class ConsejoDirectivo extends \Base\Publicacion {
 
     /**
      * Constructor
@@ -35,14 +35,14 @@ class Inicial extends \Base\Publicacion {
         $this->nombre        = 'Consejo Directivo';
         $this->nombre_menu   = 'Consejo Directivo';
         $this->directorio    = 'consejo-directivo';
-        $this->archivo       = 'index';
+        $this->archivo       = 'consejo-directivo';
         $this->descripcion   = 'El Consejo Directivo del IMPLAN Torreón.';
         $this->claves        = 'IMPLAN, Torreon, Consejo, Directivo';
-     // $this->imagen_previa = '/imagenes/implan.jpg';
+     // $this->imagen_previa = 'directorio/imagen-previa.jpg';
         $this->categorias    = array('Consejo Directivo');
-     // $this->encabezado    = '<img class="img-responsive" src="consejo-directivo/encabezado.jpg">';
+     // $this->encabezado    = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<p><img class="img-responsive" src="consejo-directivo/mesa.jpg" alt="Consejo Directivo"></p>
+<p><img class="img-responsive contenido-imagen" src="consejo-directivo/mesa.jpg" alt="Consejo Directivo"></p>
 
 <h4>El <strong>Consejo Directivo</strong> está conformado de la siguiente manera:</h4>
 
@@ -150,6 +150,6 @@ class Inicial extends \Base\Publicacion {
 FINAL;
     } // constructor
 
-} // Clase Inicial
+} // Clase ConsejoDirectivo
 
 ?>

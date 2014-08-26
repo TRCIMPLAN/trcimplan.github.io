@@ -30,16 +30,10 @@ $E_FATAL=99;
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
-// Cargar la plantilla
-$plantilla                = new \Base\Plantilla();
-$plantilla->navegacion    = new \Base\Navegacion();
-$plantilla->mapa_inferior = new \Base\MapaInferior();
 // Cargar el impresor
-$impresor            = new \Base\Imprenta();
-$impresor->plantilla = $plantilla;
+$impresor = new \Institucional\Imprenta();
 // Imprimir
 try {
-    $impresor->agregar_directorio_publicaciones('Institucional');
     echo $impresor->imprimir()."\n";
 } catch (\Exception $e) {
     echo implode("\n", $impresor->mensajes)."\n";

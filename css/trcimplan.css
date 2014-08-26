@@ -25,7 +25,7 @@ body {
     font-family:"Liberation Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:14px;
     line-height:1.2;
-    padding-bottom:16px;
+    padding-bottom:24px;
     background-color:#524B48;
 }
 h1,
@@ -57,13 +57,11 @@ a:focus   { text-decoration:none; color:#AA005F; }
 .navbar-top-links a:focus   { color:#FFF; }
 .navbar-top-links a:active,
 .navbar-top-links a:visited { color:#FFF; }
-
 .navbar-top-links a.dropdown-toggle         { color:#FFF; background-color:#524B48; }
 .navbar-top-links a.dropdown-toggle:hover,
 .navbar-top-links a.dropdown-toggle:focus   { color:#FFF; background-color:#746B67; }
 .navbar-top-links a.dropdown-toggle:active,
 .navbar-top-links a.dropdown-toggle:visited { color:#FFF; background-color:#524B48; }
-
 .dropdown-menu {
     color:#FFF;
     background-color:transparent;
@@ -89,14 +87,12 @@ a:focus   { text-decoration:none; color:#AA005F; }
 .dropdown-menu > li > a:focus   { color:#FFF; }
 .dropdown-menu > li > a:active,
 .dropdown-menu > li > a:visited { color:#FFF; }
-
 /* Menú principal/izquierdo opción */
 .nav > li > a         { color:#FFF; background-color:#524B48; }
 .nav > li > a:hover,
 .nav > li > a:focus   { color:#FFF; background-color:#746B67; }
 .nav > li > a:active,
 .nav > li > a:visited { color:#FFF; background-color:#524B48; }
-
 /* Menú principal opción desplegada
 .nav .open > a          { background-color:#524B48; }
 .nav .open > a:hover,
@@ -106,12 +102,21 @@ a:focus   { text-decoration:none; color:#AA005F; }
 */
 
 /*
+ * Page Wrapper
+ */
+#page-wrapper {
+    background-color:#3D3D3D;
+}
+
+/*
  * Contenido
  */
-.contenido {
-    padding-left:16px;
-    padding-right:16px;
+.cuerpo {
     background-color:#FFF;
+    padding:8px;
+}
+.contenido {
+    padding-bottom:12px;
     color:#222;
 }
 .encabezado-imagen {
@@ -128,6 +133,10 @@ a:focus   { text-decoration:none; color:#AA005F; }
 .contenido-imagen {
     padding:24px;
 }
+.contenido-imagen-previa {
+    padding:0 24px 12px 0;
+    float:left;
+}
 .autor {
     color:#888;
     font-size:11px;
@@ -142,11 +151,8 @@ a:focus   { text-decoration:none; color:#AA005F; }
     border-radius:4px;
 }
 .inferior {
-    padding:16px;
     background-color:#524B48;
-    color:#888;
-    font-size:12px;
-    font-weight:normal;
+    padding:8px;
 }
 .inferior-logo { padding:4px; }
 
@@ -235,7 +241,7 @@ a:focus   { text-decoration:none; color:#AA005F; }
 #pie {
     background-color:#1b1e25;
     color:#DDD;
-    font-size:12px;
+    font-size:10px;
     position:fixed;
     bottom:0;
     left:0;

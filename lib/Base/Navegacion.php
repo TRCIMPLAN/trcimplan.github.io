@@ -47,7 +47,7 @@ class Navegacion extends \Configuracion\Navegacion {
         $icono = '<i class="fa fa-dashboard fa-fw"></i>';
         // Si el URL es absoluto
         if ((strpos($url, 'http://') === 0) || (strpos($url, 'https://') === 0) || (strpos($url, '/') === 0)) {
-            return "<a href=\"$url\">$icono $etiqueta</a>";
+            return "<a href=\"$url\" target=\"_blank\">$icono $etiqueta</a>";
         } elseif ($this->en_raiz) {
             return "<a href=\"$url\">$icono $etiqueta</a>";    // Relativo desde la raíz
         } else {

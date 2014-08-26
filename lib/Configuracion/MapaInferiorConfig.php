@@ -47,10 +47,10 @@ class MapaInferiorConfig {
             'Blog'    => 'blog/index.html',
             'Eventos' => 'eventos/index.html'),
         'Consejo Directivo' => array(
-            'Consejo Directivo' => 'consejo-directivo/index.html',
+            'Consejo Directivo' => 'consejo-directivo/consejo-directivo.html',
             'Agenda'            => 'consejo-directivo/agenda.html',
             'Comités Técnicos'  => 'consejo-directivo/comites-tecnicos-agenda.html'),
-        'Sala de Prensa' => 'sala-de-prensa/index.html',
+        'Sala de Prensa' => 'sala-prensa/index.html',
         'Contacto'       => 'contacto/index.html');
 
 } // Clase MapaInferiorConfig

@@ -41,13 +41,15 @@ class MapaInferior extends \Configuracion\MapaInferiorConfig {
         // En este arreglo acumularemos la entrega
         $a = array();
         // Acumular
-        $a[] = '    <div class="row inferior">';
+        $a[] = '    <div class="row">';
+        $a[] = '      <div class="inferior">';
         if ($this->en_raiz) {
-            $a[] = "        <a href=\"index.html\"><img class=\"inferior-logo\" src=\"{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
+            $a[] = "          <a href=\"index.html\"><img class=\"inferior-logo\" src=\"{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
         } else {
-            $a[] = "        <a href=\"../index.html\"><img class=\"inferior-logo\" src=\"../{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
+            $a[] = "          <a href=\"../index.html\"><img class=\"inferior-logo\" src=\"../{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
         }
-        $a[] = '    </div>'; // row inferior
+        $a[] = '      </div>'; // inferior
+        $a[] = '    </div>'; // row
         // Entregar
         return implode("\n", $a);
     } // html

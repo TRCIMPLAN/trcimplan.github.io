@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Publicaciones sobre investigación y otros temas.">
+  <meta name="author" content="Lic. Eduardo Holguín Zehfuss">
+  <meta name="keywords" content="IMPLAN, Torreon, Blog">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blog">
+  <meta name="twitter:description" content="Publicaciones sobre investigación y otros temas.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/que-vuelva-la-region-de-los-grandes-esfuerzos/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/index.html">
+  <meta name="og:title" content="Blog">
+  <meta name="og:description" content="Publicaciones sobre investigación y otros temas.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/que-vuelva-la-region-de-los-grandes-esfuerzos/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/index.html">
+  <title>Blog - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-dashboard fa-fw"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-dashboard fa-fw"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-dashboard fa-fw"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-dashboard fa-fw"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-dashboard fa-fw"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-dashboard fa-fw"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-dashboard fa-fw"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Servicios<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/index.html"><i class="fa fa-dashboard fa-fw"></i> Sistema Metropolitano de Indicadores</a></li>
+            <li><a href="../sig/index.html"><i class="fa fa-dashboard fa-fw"></i> Sistema de Información Geográfica</a></li>
+            <li><a href="../proyectos/banco-municipal-proyectos.html"><i class="fa fa-dashboard fa-fw"></i> Banco Municipal de Proyectos</a></li>
+            <li><a href="../proyectos/cartera-proyectos.html"><i class="fa fa-dashboard fa-fw"></i> Cartera de Proyectos</a></li>
+          </ul>
+        </li>
+        <li class="active">
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Interacción<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li class="active"><a href="../blog/index.html"><i class="fa fa-dashboard fa-fw"></i> Blog</a></li>
+            <li><a href="../eventos/index.html"><i class="fa fa-dashboard fa-fw"></i> Eventos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Consejo Directivo<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../consejo-directivo/consejo-directivo.html"><i class="fa fa-dashboard fa-fw"></i> Consejo Directivo</a></li>
+            <li><a href="../consejo-directivo/agenda.html"><i class="fa fa-dashboard fa-fw"></i> Agenda</a></li>
+            <li><a href="../consejo-directivo/comites-tecnicos-agenda.html"><i class="fa fa-dashboard fa-fw"></i> Comités Técnicos</a></li>
+          </ul>
+        </li>
+        <li><a href="../sala-prensa/index.html"><i class="fa fa-dashboard fa-fw"></i> Sala de Prensa</a></li>
+        <li><a href="../contacto/index.html"><i class="fa fa-dashboard fa-fw"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+    <h1>Blog</h1>
+            <div class="media breve">
+              <a class="pull-left" href="equidad-economica-torreon.html"><img src="equidad-economica-torreon/imagen-previa.jpg" class="breve-imagen"></a>
+              <div class="media-body">
+                <h4><a href="equidad-economica-torreon.html">Equidad Económica en Torreón</a></h4>
+                <p>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</p>
+                <p class="pull-left autor">Lic. Alicia Valdez Ibarra</p>
+                <p class="pull-right leer-mas"><a href="equidad-economica-torreon.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="hacia-donde-debe-dirigirse-torreon.html"><img src="hacia-donde-debe-dirigirse-torreon/imagen-previa.jpg" class="breve-imagen"></a>
+              <div class="media-body">
+                <h4><a href="hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></h4>
+                <p>¿En realidad generan más valor las actividades tecnológicas y de servicios?</p>
+                <p class="pull-left autor">Lic. Alicia Valdez Ibarra</p>
+                <p class="pull-right leer-mas"><a href="hacia-donde-debe-dirigirse-torreon.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="que-vuelva-la-region-de-los-grandes-esfuerzos.html"><img src="que-vuelva-la-region-de-los-grandes-esfuerzos/imagen-previa.jpg" class="breve-imagen"></a>
+              <div class="media-body">
+                <h4><a href="que-vuelva-la-region-de-los-grandes-esfuerzos.html">Que vuelva la región de los grandes esfuerzos</a></h4>
+                <p>La Calificadora Internacional Moodys elevó por primera vez la nota soberana de México a la categoría A3 gracias a las reformas estructurales.</p>
+                <p class="pull-left autor">Lic. Eduardo Holguín Zehfuss</p>
+                <p class="pull-right leer-mas"><a href="que-vuelva-la-region-de-los-grandes-esfuerzos.html">Leer más</a></p>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+</body>
+</html>

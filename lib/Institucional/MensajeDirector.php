@@ -42,7 +42,7 @@ class MensajeDirector extends \Base\Publicacion {
         $this->categorias    = array('Institucional');
         $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="mensaje-director/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<span class="contenido-imagen" style="float:left"><img src="mensaje-director/eduardo-olguin.jpg" alt="Eduardo Olguín"></span>
+<span class="contenido-imagen-previa"><img src="mensaje-director/eduardo-olguin.jpg" alt="Eduardo Olguín"></span>
 
 <p>Ciudadano, ciudadana:</p>
 

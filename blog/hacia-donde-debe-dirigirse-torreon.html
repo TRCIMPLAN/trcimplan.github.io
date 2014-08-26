@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="¿En realidad generan más valor las actividades tecnológicas y de servicios?">
+  <meta name="author" content="Lic. Alicia Valdez Ibarra">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hacia dónde debe dirigirse Torreón">
+  <meta name="twitter:description" content="¿En realidad generan más valor las actividades tecnológicas y de servicios?">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/hacia-donde-debe-dirigirse-torreon/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/hacia-donde-debe-dirigirse-torreon.html">
+  <meta name="og:title" content="Hacia dónde debe dirigirse Torreón">
+  <meta name="og:description" content="¿En realidad generan más valor las actividades tecnológicas y de servicios?">
+  <meta name="og:image" content="http://trcimplan.gob.mx/hacia-donde-debe-dirigirse-torreon/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/hacia-donde-debe-dirigirse-torreon.html">
+  <title>Hacia dónde debe dirigirse Torreón - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-dashboard fa-fw"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-dashboard fa-fw"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-dashboard fa-fw"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-dashboard fa-fw"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-dashboard fa-fw"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-dashboard fa-fw"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-dashboard fa-fw"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Servicios<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/index.html"><i class="fa fa-dashboard fa-fw"></i> Sistema Metropolitano de Indicadores</a></li>
+            <li><a href="../sig/index.html"><i class="fa fa-dashboard fa-fw"></i> Sistema de Información Geográfica</a></li>
+            <li><a href="../proyectos/banco-municipal-proyectos.html"><i class="fa fa-dashboard fa-fw"></i> Banco Municipal de Proyectos</a></li>
+            <li><a href="../proyectos/cartera-proyectos.html"><i class="fa fa-dashboard fa-fw"></i> Cartera de Proyectos</a></li>
+          </ul>
+        </li>
+        <li class="active">
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Interacción<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li class="active"><a href="../blog/index.html"><i class="fa fa-dashboard fa-fw"></i> Blog</a></li>
+            <li><a href="../eventos/index.html"><i class="fa fa-dashboard fa-fw"></i> Eventos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Consejo Directivo<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../consejo-directivo/consejo-directivo.html"><i class="fa fa-dashboard fa-fw"></i> Consejo Directivo</a></li>
+            <li><a href="../consejo-directivo/agenda.html"><i class="fa fa-dashboard fa-fw"></i> Agenda</a></li>
+            <li><a href="../consejo-directivo/comites-tecnicos-agenda.html"><i class="fa fa-dashboard fa-fw"></i> Comités Técnicos</a></li>
+          </ul>
+        </li>
+        <li><a href="../sala-prensa/index.html"><i class="fa fa-dashboard fa-fw"></i> Sala de Prensa</a></li>
+        <li><a href="../contacto/index.html"><i class="fa fa-dashboard fa-fw"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+<article>
+  <header>
+    <h1>Hacia dónde debe dirigirse Torreón</h1>
+    <p class="autor-fecha">Por Lic. Alicia Valdez Ibarra, 2014-04-16</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="hacia-donde-debe-dirigirse-torreon/indicadores.jpg"></span>
+
+<p>Con ayuda de la tecnología, la economía se ha mantenido en constante cambio a través del tiempo. El primer gran cambio fue con la revolución industrial en el siglo XVIII, ya que permitió la transición de una economía basada en actividades primarias como la agricultura y la extracción a una basada en la transformación, lo cual aporta mucho mayor valor a la economía. Fue entonces que las grandes potencias comenzaron a modernizarse, y a dejar atrás a otros países basados aun en la agricultura.</p>
+
+<p>Hoy en día, los productos y servicios tecnológicos y de conocimiento han superado a la manufactura en la creación de valor, por lo que cada vez más países basan sus economías en productos y servicios tecnológicos de alto valor agregado. De hecho, en 2011 la mayoría de los países de la OCDE ya obtenía el 60% de su valor agregado bruto en actividades económicas de servicios. En contraste, en 2009 la economía de México aún generaba el 58.10% de su valor agregado a partir de actividades económicas de extracción y manufactura. El dato es preocupante, pues a este paso no podremos cerrar la brecha que nos separa de los países desarrollados, al contrario, seguiremos sirviéndoles de peldaño con la exportación de productos intermedios de poco valor y la importación de productos finales generadores de valor para las potencias.</p>
+
+<p>Ya en este contexto, analizando al municipio de Torreón encontramos que la contribución de los servicios a la economía es muy pequeña en comparación con la industria manufacturera, lo cual nos indica que Torreón, al igual que México, aun basa su economía en el sector secundario. Los porcentajes de participación en el valor agregado de Torreón así como la distribución del empleo por actividad económica para el último año censal aparecen abajo en los gráficos A y B:</p>
+
+<h3>Gráfico A</h3>
+
+<p><img class="img-responsive contenido-imagen" src="hacia-donde-debe-dirigirse-torreon/01-valor-agregado-censal-bruto.png" alt="Valor Agregado Censal Bruto"><br>
+Fuente: INEGI. Censos Económicos 2009.</p>
+
+<h3>Gráfico B</h3>
+
+<p><img class="img-responsive contenido-imagen" src="hacia-donde-debe-dirigirse-torreon/02-personal-ocupado-total.png" alt="Personal Ocupado Total"><br>
+Fuente: INEGI. Censos Económicos 2009.</p>
+
+<p>Como se observa en el gráfico A, la industria manufacturera aportó en 2009 el 63% del valor agregado del municipio, mientras que los servicios, en conjunto, aportaron 15%. Además, como es de esperarse, la mayoría de los empleos son también generados por ésta, dando empleo al 26% del personal ocupado. Por otro lado, el comercio al por menor y el conjunto de servicios emplean al 21 y 30 por ciento del personal, respectivamente.</p>
+
+<p>Sin embargo, aun cuando la Industria genera un gran número de empleos, eso no significa que brinde los mejores salarios y oportunidades para el personal. Un estudio realizado por FOMEC en 2012 revela que el personal mejor pagado en La Laguna es el perteneciente al área de investigación y desarrollo, seguido por el área de las TICs (Tecnologías de Información y Comunicación) con salarios promedio de $ 25,968.42 y $ 21,127.78 mensuales respectivamente. En contraste, el salario recibido por el personal del área industrial es de tan sólo $ 14, 540.06. Esta diferencia en las retribuciones es una muestra de cómo se traduce el valor en la sociedad.</p>
+
+<p>¿En realidad generan más valor las actividades tecnológicas y de servicios?</p>
+
+<p>Según datos del último censo económico realizado por INEGI, de la producción bruta total de servicios profesionales, científicos y técnicos en el país, el 56.67% es valor agregado, en cambio el valor generado por la manufactura representa sólo un 30.36% de su producción. Además, la inversión total realizada en las actividades económicas de servicios es menor a la realizada en la manufactura y presenta un mejor rendimiento: por cada peso invertido en la industria manufacturera, se obtienen aproximadamente 12.51 pesos en valor agregado, contra 33.49 obtenidos por un peso invertido en la actividad económica de servicios profesionales, científicos y técnicos.</p>
+
+<p>En cuanto al municipio de Torreón, los sectores de mayor valor agregado son también los pertenecientes al sector terciario, más específicamente las actividades de servicios educativos, servicios culturales y servicios profesionales y técnicos, los cuales, cabe resaltar, pertenecen a la nueva economía del conocimiento. En el diagrama de dispersión mostrado abajo, se encuentran las actividades económicas del municipio, ubicadas según su rentabilidad y su valor agregado como porcentaje de su producción.</p>
+
+<p><img class="img-responsive contenido-imagen" src="hacia-donde-debe-dirigirse-torreon/03-valor-agregado-de-las-actividades-economicas-en-torreon.png" alt="Valor Agregado de las Actividades Económicas en Torreón"><br>
+Fuente: INEGI. Censos Económicos 2009.</p>
+
+<p>En el eje horizontal de la gráfica se mide la “rentabilidad” de las actividades económicas, en otras palabras, indica cuántos pesos se generan por cada peso invertido en la actividad económica correspondiente. Por ejemplo, en el caso de Torreón, los servicios profesionales, científicos y técnicos son los más rentables, pues por cada peso invertido en ellos se obtienen 70 pesos de valor agregado. Por su parte, el eje vertical nos indica el porcentaje de valor generado por cada actividad económica con respecto a su producción bruta total: en este caso los servicios educativos tienen el primer lugar en generación de valor, al añadir a la economía el 74% del valor de su producción.</p>
+
+<p>Cabe resaltar la ubicación que ocupan en la gráfica las actividades primarias y secundarias como la agricultura, la construcción y la manufactura, siendo las que aportan menor valor agregado; la minería, por otro lado, se separa un poco del resto, aportando como valor casi el 40% de su producción.</p>
+
+<p>La intención de mostrar la rentabilidad de las actividades no es abandonar la agricultura y la transformación para dedicarnos enteramente al comercio y los servicios, sino el añadir a estas actividades procesos de innovación que de verdad enriquezcan a nuestra sociedad, y para lograrlo, necesitamos invertir en tecnología, centros de investigación y desarrollo, educación y cultura, pues si nuestros profesionistas y técnicos no están preparados con los conocimientos y habilidades que una economía competitiva necesita, nunca podremos estar a la altura de las ciudades globalmente competitivas y peor aún si generamos el capital humano más no las condiciones para que se desarrollen en nuestra ciudad.</p>
+</article>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+</body>
+</html>

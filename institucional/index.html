@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Información institucional del IMPLAN Torreón.">
+  <meta name="author" content="TrcIMPLAN">
+  <meta name="keywords" content="IMPLAN, Torreon, Institucional">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Institucional">
+  <meta name="twitter:description" content="Información institucional del IMPLAN Torreón.">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/institucional/index.html">
+  <meta name="og:title" content="Institucional">
+  <meta name="og:description" content="Información institucional del IMPLAN Torreón.">
+  <meta name="og:url" content="http://trcimplan.gob.mx/institucional/index.html">
+  <title>Institucional - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-dashboard fa-fw"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-dashboard fa-fw"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-dashboard fa-fw"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-dashboard fa-fw"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-dashboard fa-fw"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-dashboard fa-fw"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-dashboard fa-fw"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Servicios<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/index.html"><i class="fa fa-dashboard fa-fw"></i> Sistema Metropolitano de Indicadores</a></li>
+            <li><a href="../sig/index.html"><i class="fa fa-dashboard fa-fw"></i> Sistema de Información Geográfica</a></li>
+            <li><a href="../proyectos/banco-municipal-proyectos.html"><i class="fa fa-dashboard fa-fw"></i> Banco Municipal de Proyectos</a></li>
+            <li><a href="../proyectos/cartera-proyectos.html"><i class="fa fa-dashboard fa-fw"></i> Cartera de Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Interacción<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../blog/index.html"><i class="fa fa-dashboard fa-fw"></i> Blog</a></li>
+            <li><a href="../eventos/index.html"><i class="fa fa-dashboard fa-fw"></i> Eventos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Consejo Directivo<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../consejo-directivo/consejo-directivo.html"><i class="fa fa-dashboard fa-fw"></i> Consejo Directivo</a></li>
+            <li><a href="../consejo-directivo/agenda.html"><i class="fa fa-dashboard fa-fw"></i> Agenda</a></li>
+            <li><a href="../consejo-directivo/comites-tecnicos-agenda.html"><i class="fa fa-dashboard fa-fw"></i> Comités Técnicos</a></li>
+          </ul>
+        </li>
+        <li><a href="../sala-prensa/index.html"><i class="fa fa-dashboard fa-fw"></i> Sala de Prensa</a></li>
+        <li><a href="../contacto/index.html"><i class="fa fa-dashboard fa-fw"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+    <h1>Institucional</h1>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="estructura-organica.html">Estructura Orgánica</a></h4>
+                <p>La Estructura Orgánica del IMPLAN Torréon está formada por el Consejo Directivo, los Comités Técnicos, el Director General Ejecutivo y el Cuerpo Técnico.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="estructura-organica.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="informacion-financiera.html">Información Financiera</a></h4>
+                <p>Respecto al avance de Gestión Financiera del IMPLAN Torreón.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="informacion-financiera.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="mensaje-director.html">Mensaje del Director</a></h4>
+                <p>Mensaje del Director General Ejecutivo del IMPLAN Torreón Lic. Eduardo Olguín.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="mensaje-director.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="quienes-somos.html">Quienes Somos</a></h4>
+                <p>Los integrantes del IMPLAN Torreón.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="quienes-somos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="reglamentos.html">Reglamentos</a></h4>
+                <p>El reglamento del IMPLAN Torreón.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="reglamentos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <div class="media-body">
+                <h4><a href="vision-mision.html">Visión / Misión</a></h4>
+                <p>La Visión y la Misión del IMPLAN Torreón.</p>
+                <p class="pull-left autor">TrcIMPLAN</p>
+                <p class="pull-right leer-mas"><a href="vision-mision.html">Leer más</a></p>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+</body>
+</html>

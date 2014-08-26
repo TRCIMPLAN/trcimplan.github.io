@@ -27,10 +27,10 @@ namespace Configuracion;
  */
 class PublicacionConfig {
 
-    public $fecha                     = '1980-01-01';           // La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
-    public $autor                     = 'TrcIMPLAN';            // El nombre o apodo a quien se le atribuye
-    public $aparece_en_pagina_inicial = true;                   // Verdadero si va aparecer en la página de inicio.
-    public $imagen_previa             = '/imagenes/implan.jpg'; // Ruta a un archivo de imagen para la vista previa en redes sociales
+    public $fecha                     = '1980-01-01'; // La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
+    public $autor                     = 'TrcIMPLAN';  // El nombre o apodo a quien se le atribuye
+    public $aparece_en_pagina_inicial = true;         // Verdadero si va aparecer en la página de inicio
+    public $imagen_previa             = '';           // Ruta relativa a un archivo de imagen para la vista previa
 
 } // Clase PublicacionConfig
 
