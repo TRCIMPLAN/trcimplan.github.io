@@ -37,7 +37,7 @@ class Carrusel {
         $a = array();
         // Acumular
         $a[] = '<div id="carrusel">';
-        $a[] = '  <div class="container">';
+        //~ $a[] = '  <div class="container">';
         $a[] = '    <div class="carousel slide" data-ride="carousel">';
         $a[] = '      <ol class="carousel-indicators">';
         $a[] = '        <li data-target="#carrusel" data-slide-to="0" class="active"></li>';
@@ -55,7 +55,7 @@ class Carrusel {
         $a[] = '      <a class="left carousel-control" href="#carrusel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>';
         $a[] = '      <a class="right carousel-control" href="#carrusel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>';
         $a[] = '    </div>';
-        $a[] = '  </div>';
+        //~ $a[] = '  </div>';
         $a[] = '</div>';
         // Entregar
         return implode("\n", $a);

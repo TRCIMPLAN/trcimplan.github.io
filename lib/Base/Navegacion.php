@@ -30,30 +30,9 @@ class Navegacion extends \Configuracion\Navegacion {
     // protected $sitio_titulo;
     // protected $logotipo;
     // protected $opciones;
+    // protected $iconos;
     public $opcion_activa;   // Etiqueta de opciones en la que está
     public $en_raiz = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
-
-    /**
-     * Vinculo
-     *
-     * De acuerdo a cómo empieza el URL y a la bandera en_raiz, crea el vínculo correcto
-     *
-     * @param  string Etiqueta
-     * @param  string URL
-     * @return string Código HTML
-     */
-    protected function vinculo($etiqueta, $url) {
-        // Icono, pendiente que sea dinámico
-        $icono = '<i class="fa fa-dashboard fa-fw"></i>';
-        // Si el URL es absoluto
-        if ((strpos($url, 'http://') === 0) || (strpos($url, 'https://') === 0) || (strpos($url, '/') === 0)) {
-            return "<a href=\"$url\" target=\"_blank\">$icono $etiqueta</a>";
-        } elseif ($this->en_raiz) {
-            return "<a href=\"$url\">$icono $etiqueta</a>";    // Relativo desde la raíz
-        } else {
-            return "<a href=\"../$url\">$icono $etiqueta</a>"; // Relativo desde otro directorio
-        }
-    } // vinculos
 
     /**
      * Navegación Encabezado
@@ -116,6 +95,32 @@ class Navegacion extends \Configuracion\Navegacion {
     } // menu_superior
 
     /**
+     * Vinculo
+     *
+     * De acuerdo a cómo empieza el URL y a la bandera en_raiz, crea el vínculo correcto
+     *
+     * @param  string Etiqueta
+     * @param  string URL
+     * @return string Código HTML
+     */
+    protected function vinculo($etiqueta, $url) {
+        // Icono
+        if (array_key_exists($etiqueta, $this->iconos)) {
+            $icono = "<i class=\"{$this->iconos[$etiqueta]}\"></i>";
+        } else {
+            $icono = "<i class=\"fa fa-folder-o\"></i>";
+        }
+        // Si el URL es absoluto
+        if ((strpos($url, 'http://') === 0) || (strpos($url, 'https://') === 0) || (strpos($url, '/') === 0)) {
+            return "<a href=\"$url\" target=\"_blank\">$icono $etiqueta</a>";
+        } elseif ($this->en_raiz) {
+            return "<a href=\"$url\">$icono $etiqueta</a>";    // Relativo desde la raíz
+        } else {
+            return "<a href=\"../$url\">$icono $etiqueta</a>"; // Relativo desde otro directorio
+        }
+    } // vinculos
+
+    /**
      * Menu Izquierdo
      *
      * @return string Código HTML
@@ -139,8 +144,13 @@ class Navegacion extends \Configuracion\Navegacion {
         // Bucle por las opciones
         foreach ($this->opciones as $etiqueta => $parametros) {
             if (is_array($parametros)) {
+                // Icono
+                if (array_key_exists($etiqueta, $this->iconos)) {
+                    $icono = "<i class=\"{$this->iconos[$etiqueta]}\"></i>";
+                } else {
+                    $icono = "<i class=\"fa fa-folder-o\"></i>";
+                }
                 // Dos niveles
-                $icono = '<i class="fa fa-bar-chart-o fa-fw"></i>';
                 if (array_key_exists($this->opcion_activa, $parametros)) {
                     $a[] = '        <li class="active">';
                 } else {

@@ -137,7 +137,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '  <link href="css/leaflet.css" rel="stylesheet">';
             $a[] = '  <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">';
             $a[] = '  <link href="css/sb-admin-2.css" rel="stylesheet">';
-            $a[] = '  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">';
+            $a[] = '  <link href="css/font-awesome.min.css" rel="stylesheet">';
             if ($this->propio_css != '') {
                 $a[] = "  <link href=\"{$this->propio_css}\" rel=\"stylesheet\">";
             }
@@ -153,7 +153,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '  <link href="../css/leaflet.css" rel="stylesheet">';
             $a[] = '  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">';
             $a[] = '  <link href="../css/sb-admin-2.css" rel="stylesheet">';
-            $a[] = '  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">';
+            $a[] = '  <link href="../css/font-awesome.min.css" rel="stylesheet">';
             if ($this->propio_css != '') {
                 $a[] = "  <link href=\"../{$this->propio_css}\" rel=\"stylesheet\">";
             }

@@ -30,14 +30,6 @@ class Navegacion {
     protected $sitio_titulo = 'IMPLAN Torreón';
     protected $logotipo     = 'imagenes/implan-barra-logo-chico.png';
     protected $opciones     = array(
-        'Institucional' => array(
-            'Visión / Misión'        => 'institucional/vision-mision.html',
-            'Mensaje del Director'   => 'institucional/mensaje-director.html',
-            'Quienes Somos'          => 'institucional/quienes-somos.html',
-            'Estructura Orgánica'    => 'institucional/estructura-organica.html',
-            'Transparencia'          => 'http://www.icai.org.mx/ipmn/Principal.php?sujeto=0',
-            'Reglamentos'            => 'institucional/reglamentos.html',
-            'Información Financiera' => 'institucional/informacion-financiera.html'),
         'Blog' => 'blog/index.html',
         'S. M. de Indicadores' => array(
             'Introducción'  => 'smi/index.html',
@@ -54,14 +46,31 @@ class Navegacion {
         'Banco M. de Proyectos' => array(
             'B.M.P.'               => 'proyectos/banco-municipal-proyectos.html',
             'Cartera de Proyectos' => 'proyectos/cartera-proyectos.html'),
-        'Comunicados' => array(
-            'Eventos'        => 'eventos/index.html',
-            'Sala de Prensa' => 'sala-prensa/index.html'),
+        'Institucional' => array(
+            'Visión / Misión'        => 'institucional/vision-mision.html',
+            'Mensaje del Director'   => 'institucional/mensaje-director.html',
+            'Quienes Somos'          => 'institucional/quienes-somos.html',
+            'Estructura Orgánica'    => 'institucional/estructura-organica.html',
+            'Transparencia'          => 'http://www.icai.org.mx/ipmn/Principal.php?sujeto=0',
+            'Reglamentos'            => 'institucional/reglamentos.html',
+            'Información Financiera' => 'institucional/informacion-financiera.html'),
         'Consejo Directivo' => array(
             'Consejo Directivo' => 'consejo-directivo/consejo-directivo.html',
             'Agenda'            => 'consejo-directivo/agenda.html',
             'Comités Técnicos'  => 'consejo-directivo/comites-tecnicos-agenda.html'),
-        'Contacto'       => 'contacto/contacto.html');
+        'Comunicados' => array(
+            'Eventos'        => 'eventos/index.html',
+            'Sala de Prensa' => 'sala-prensa/index.html'),
+        'Contacto' => 'contacto/contacto.html');
+    protected $iconos = array(
+        'Blog'                  => 'fa fa-file-text-o',
+        'S. M. de Indicadores'  => 'fa fa-bar-chart',
+        'S. de I. Geográfica'   => 'fa fa-map-marker',
+        'Banco M. de Proyectos' => 'fa fa-paper-plane-o',
+        'Institucional'         => 'fa fa-university',
+        'Consejo Directivo'     => 'fa fa-users',
+        'Comunicados'           => 'fa fa-volume-up',
+        'Contacto'              => 'fa fa-phone');
 
 } // Clase Navegacion
 

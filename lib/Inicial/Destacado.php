@@ -38,7 +38,7 @@ class Destacado {
         // Acumular
         $a[] = '<!-- DESTACADO INICIA -->';
         $a[] = '<div id="destacado">';
-        $a[] = '  <div class="container">';
+        //~ $a[] = '  <div class="container">';
         $a[] = '    <div class="row">';
         $a[] = '      <div class="col-md-9">';
         $a[] = '        <div class="row">';
@@ -103,7 +103,7 @@ class Destacado {
         $a[] = '      </div>';
         $a[] = '      <!-- DESTACADO DERECHA TERMINA -->';
         $a[] = '    </div>';
-        $a[] = '  </div>';
+        //~ $a[] = '  </div>';
         $a[] = '</div>';
         // Entregar
         return implode("\n", $a);
