@@ -44,12 +44,12 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         $this->publicaciones_directorio = 'Blog';
-        $this->titulo                   = 'Blog';
+        $this->titulo                   = 'Análisis Publicados';
         $this->descripcion              = 'Publicaciones sobre investigación y otros temas.';
         $this->claves                   = 'IMPLAN, Torreon, Blog';
         $this->directorio               = 'blog';
         $this->ruta                     = 'blog/index.html';
-        $this->nombre_menu              = 'Blog';
+        $this->nombre_menu              = 'Análisis Publicados';
     } // constructor
 
 } // Clase Imprenta

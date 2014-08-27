@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Base Imprenta Exception Fallo
+ * SMIbeta - Imprenta Exception Fallo
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

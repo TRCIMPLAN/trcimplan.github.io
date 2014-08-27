@@ -34,7 +34,7 @@ class HaciaDondeDebeDirigirseTorreon extends \Base\Publicacion {
         $this->fecha         = '2014-04-16';
         $this->autor         = 'Lic. Alicia Valdez Ibarra';
         $this->nombre        = 'Hacia dónde debe dirigirse Torreón';
-        $this->nombre_menu   = 'Blog';
+        $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
         $this->archivo       = 'hacia-donde-debe-dirigirse-torreon';
         $this->descripcion   = '¿En realidad generan más valor las actividades tecnológicas y de servicios?';

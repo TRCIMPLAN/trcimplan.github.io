@@ -1,0 +1,3004 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TrcIMPLAN">
+  <meta name="keywords" content="Lerdo, Participación Ciudadana">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Competencia Electoral Votos Totales en Lerdo">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html">
+  <meta name="og:title" content="Competencia Electoral Votos Totales en Lerdo">
+  <meta name="og:description" content="">
+  <meta name="og:url" content="http://trcimplan.gob.mx/indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html">
+  <title>Competencia Electoral Votos Totales en Lerdo - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart"></i> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li><a href="../indicadores-torreon/"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li><a href="../indicadores-gomez-palacio/"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
+            <li><a href="../indicadores-lerdo/"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
+            <li><a href="../indicadores-matamoros/"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
+            <li><a href="../indicadores-la-laguna/"><i class="fa fa-table"></i> Indicadores La Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-map-marker"></i> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><i class="fa fa-file-text-o"></i> Introduccion al SIG</a></li>
+            <li><a href="../sig/instrucciones.html"><i class="fa fa-file-text-o"></i> Abrir el SIG</a></li>
+            <li><a href="../sig/pmd.html"><i class="fa fa-file-text-o"></i> Plan M. de Desarrollo</a></li>
+            <li><a href="../sig/alumbrado.html"><i class="fa fa-file-text-o"></i> Alumbrado Público</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-paper-plane-o"></i> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><i class="fa fa-file-text-o"></i> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-university"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-file-text-o"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-file-text-o"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-file-text-o"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-file-text-o"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-file-text-o"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-file-text-o"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-file-text-o"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-users"></i> Consejo Directivo<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../consejo-directivo/integrantes.html"><i class="fa fa-file-text-o"></i> Integrantes</a></li>
+            <li><a href="../consejo-directivo/agenda.html"><i class="fa fa-file-text-o"></i> Agenda</a></li>
+            <li><a href="../consejo-directivo/comites-tecnicos.html"><i class="fa fa-file-text-o"></i> Comités Técnicos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-volume-up"></i> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><i class="fa fa-folder-o"></i> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><i class="fa fa-folder-o"></i> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../contacto/contacto.html"><i class="fa fa-phone"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+<article>
+  <header>
+    <h1>Competencia Electoral Votos Totales en Lerdo</h1>
+    <p class="autor-fecha">Por TrcIMPLAN, 1980-01-01</p>
+  </header>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszwfhnmzs">
+    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
+    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane" id="descripcion">
+      
+
+<h4>Información recopilada</h4>
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="centrado">01/07/2012</td>
+<td class="derecha">56,517</td>
+<td>INE-IEPCC</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<b>Unidad:</b> Cantidad.
+
+
+
+    </div>
+    <div class="tab-pane" id="grafica">
+      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+    </div>
+    <div class="tab-pane" id="mapa">
+              <div id="LeafLetehlezrzv" class="mapa"></div>
+    </div>
+    <div class="tab-pane active" id="otras_regiones">
+      <h4>En otras regiones</h4>
+
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Región</th>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Torreón</td>
+<td>2012-07-01</td>
+<td class="derecha">246,044</td>
+<td>INE-IEPCC</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2012-07-01</td>
+<td class="derecha">120,131</td>
+<td>INE-IEPCC</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2012-07-01</td>
+<td class="derecha">48,093</td>
+<td>INE-IEPCC</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2012-07-01</td>
+<td class="derecha">479,785</td>
+<td>INE-IEPCC</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+    </div>
+  </div>
+</article>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetastaariztl a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetastaariztl a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisocvaumts === 'undefined') {
+    varMorrisocvaumts = Morris.Line({
+      element: 'Morrisocvaumts',
+      data: [{ fecha: '2010-12-31', dato: 231743194.00 },{ fecha: '2011-12-31', dato: 240598550.00 },{ fecha: '2012-12-31', dato: 261966994.00 },{ fecha: '2013-12-31', dato: 319887703.00 },{ fecha: '2014-03-31', dato: 334888287.00 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetastaariztl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var maptcyvompn;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmaptcyvompn() {
+    // Nuevo Mapa
+    maptcyvompn = new L.Map('LeafLettcyvompn');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    maptcyvompn.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    maptcyvompn.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(maptcyvompn);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmaptcyvompn === 'undefined') {
+    varinitmaptcyvompn = initmaptcyvompn();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetaskqnydcmx a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetaskqnydcmx a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisqhqlydqn === 'undefined') {
+    varMorrisqhqlydqn = Morris.Line({
+      element: 'Morrisqhqlydqn',
+      data: [{ fecha: '1989-12-31', dato: 821 },{ fecha: '1999-12-31', dato: 360 },{ fecha: '2009-12-31', dato: 3795 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetaskqnydcmx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapflnayhsr;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapflnayhsr() {
+    // Nuevo Mapa
+    mapflnayhsr = new L.Map('LeafLetflnayhsr');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapflnayhsr.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapflnayhsr.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapflnayhsr);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapflnayhsr === 'undefined') {
+    varinitmapflnayhsr = initmapflnayhsr();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasrqyqyqhi a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasrqyqyqhi a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisdmommixc === 'undefined') {
+    varMorrisdmommixc = Morris.Line({
+      element: 'Morrisdmommixc',
+      data: [{ fecha: '1989-12-31', dato: 2.9900 },{ fecha: '1999-12-31', dato: 0.9400 },{ fecha: '2009-12-31', dato: 7.4100 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasrqyqyqhi a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapqoopsfcy;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapqoopsfcy() {
+    // Nuevo Mapa
+    mapqoopsfcy = new L.Map('LeafLetqoopsfcy');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapqoopsfcy.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapqoopsfcy.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapqoopsfcy);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapqoopsfcy === 'undefined') {
+    varinitmapqoopsfcy = initmapqoopsfcy();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasgxosgmvw a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasgxosgmvw a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var maphvhlytic;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmaphvhlytic() {
+    // Nuevo Mapa
+    maphvhlytic = new L.Map('LeafLethvhlytic');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    maphvhlytic.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    maphvhlytic.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(maphvhlytic);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmaphvhlytic === 'undefined') {
+    varinitmaphvhlytic = initmaphvhlytic();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasfpwegemn a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasfpwegemn a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapbkltporg;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapbkltporg() {
+    // Nuevo Mapa
+    mapbkltporg = new L.Map('LeafLetbkltporg');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapbkltporg.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapbkltporg.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapbkltporg);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapbkltporg === 'undefined') {
+    varinitmapbkltporg = initmapbkltporg();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasstwhiooo a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasstwhiooo a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisatzynhat === 'undefined') {
+    varMorrisatzynhat = Morris.Line({
+      element: 'Morrisatzynhat',
+      data: [{ fecha: '1998-12-31', dato: 13.1700 },{ fecha: '2003-12-31', dato: 6.8700 },{ fecha: '2008-12-31', dato: 14.7200 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasstwhiooo a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapfpmlcihd;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapfpmlcihd() {
+    // Nuevo Mapa
+    mapfpmlcihd = new L.Map('LeafLetfpmlcihd');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapfpmlcihd.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapfpmlcihd.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapfpmlcihd);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapfpmlcihd === 'undefined') {
+    varinitmapfpmlcihd = initmapfpmlcihd();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasfsvhadls a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasfsvhadls a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorriselskqeyq === 'undefined') {
+    varMorriselskqeyq = Morris.Line({
+      element: 'Morriselskqeyq',
+      data: [{ fecha: '1998-12-31', dato: 59.2500 },{ fecha: '2003-12-31', dato: 75.8500 },{ fecha: '2008-12-31', dato: 53.9400 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasfsvhadls a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapyxpmfpgk;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapyxpmfpgk() {
+    // Nuevo Mapa
+    mapyxpmfpgk = new L.Map('LeafLetyxpmfpgk');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapyxpmfpgk.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapyxpmfpgk.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapyxpmfpgk);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapyxpmfpgk === 'undefined') {
+    varinitmapyxpmfpgk = initmapyxpmfpgk();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetaszmlpqkgp a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetaszmlpqkgp a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapxiafwota;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapxiafwota() {
+    // Nuevo Mapa
+    mapxiafwota = new L.Map('LeafLetxiafwota');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapxiafwota.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapxiafwota.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapxiafwota);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapxiafwota === 'undefined') {
+    varinitmapxiafwota = initmapxiafwota();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasauybxkuu a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasauybxkuu a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapivcoliyq;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapivcoliyq() {
+    // Nuevo Mapa
+    mapivcoliyq = new L.Map('LeafLetivcoliyq');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapivcoliyq.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapivcoliyq.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapivcoliyq);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapivcoliyq === 'undefined') {
+    varinitmapivcoliyq = initmapivcoliyq();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasaoilxhcx a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasaoilxhcx a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrissuaoitpi === 'undefined') {
+    varMorrissuaoitpi = Morris.Line({
+      element: 'Morrissuaoitpi',
+      data: [{ fecha: '1998-12-31', dato: 17.2300 },{ fecha: '2003-12-31', dato: 6.3000 },{ fecha: '2008-12-31', dato: 8.5600 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasaoilxhcx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapfbywmemu;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapfbywmemu() {
+    // Nuevo Mapa
+    mapfbywmemu = new L.Map('LeafLetfbywmemu');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapfbywmemu.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapfbywmemu.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapfbywmemu);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapfbywmemu === 'undefined') {
+    varinitmapfbywmemu = initmapfbywmemu();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasnuswoieu a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasnuswoieu a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapbazzktud;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapbazzktud() {
+    // Nuevo Mapa
+    mapbazzktud = new L.Map('LeafLetbazzktud');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapbazzktud.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapbazzktud.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapbazzktud);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapbazzktud === 'undefined') {
+    varinitmapbazzktud = initmapbazzktud();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetastztqhvoj a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetastztqhvoj a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapjdrvieqi;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapjdrvieqi() {
+    // Nuevo Mapa
+    mapjdrvieqi = new L.Map('LeafLetjdrvieqi');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapjdrvieqi.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapjdrvieqi.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapjdrvieqi);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapjdrvieqi === 'undefined') {
+    varinitmapjdrvieqi = initmapjdrvieqi();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasyxqgbhou a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasyxqgbhou a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorriswnihgcku === 'undefined') {
+    varMorriswnihgcku = Morris.Line({
+      element: 'Morriswnihgcku',
+      data: [{ fecha: '2007-12-31', dato: 212.34 },{ fecha: '2008-12-31', dato: 325.00 },{ fecha: '2009-12-31', dato: 218.82 },{ fecha: '2010-12-31', dato: 195.81 },{ fecha: '2011-12-31', dato: 426.48 },{ fecha: '2012-12-31', dato: 451.59 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasyxqgbhou a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapxdqllvgu;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapxdqllvgu() {
+    // Nuevo Mapa
+    mapxdqllvgu = new L.Map('LeafLetxdqllvgu');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapxdqllvgu.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapxdqllvgu.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapxdqllvgu);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapxdqllvgu === 'undefined') {
+    varinitmapxdqllvgu = initmapxdqllvgu();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetaswdshzycx a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetaswdshzycx a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrishiloezxb === 'undefined') {
+    varMorrishiloezxb = Morris.Line({
+      element: 'Morrishiloezxb',
+      data: [{ fecha: '2013-12-31', dato: 3.1600 },{ fecha: '2014-07-31', dato: 1.6900 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetaswdshzycx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapmgitjtng;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapmgitjtng() {
+    // Nuevo Mapa
+    mapmgitjtng = new L.Map('LeafLetmgitjtng');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapmgitjtng.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapmgitjtng.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapmgitjtng);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapmgitjtng === 'undefined') {
+    varinitmapmgitjtng = initmapmgitjtng();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasaqjjjwqg a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasaqjjjwqg a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisvtexbtsi === 'undefined') {
+    varMorrisvtexbtsi = Morris.Line({
+      element: 'Morrisvtexbtsi',
+      data: [{ fecha: '2013-12-31', dato: 89.8700 },{ fecha: '2014-07-31', dato: 92.7000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasaqjjjwqg a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapbdwgcuhp;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapbdwgcuhp() {
+    // Nuevo Mapa
+    mapbdwgcuhp = new L.Map('LeafLetbdwgcuhp');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapbdwgcuhp.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapbdwgcuhp.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapbdwgcuhp);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapbdwgcuhp === 'undefined') {
+    varinitmapbdwgcuhp = initmapbdwgcuhp();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetaswrczlkom a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetaswrczlkom a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisaiozgrxc === 'undefined') {
+    varMorrisaiozgrxc = Morris.Line({
+      element: 'Morrisaiozgrxc',
+      data: [{ fecha: '2013-12-31', dato: 6.9600 },{ fecha: '2014-07-31', dato: 5.6200 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetaswrczlkom a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapkbamvsuw;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapkbamvsuw() {
+    // Nuevo Mapa
+    mapkbamvsuw = new L.Map('LeafLetkbamvsuw');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapkbamvsuw.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapkbamvsuw.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapkbamvsuw);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapkbamvsuw === 'undefined') {
+    varinitmapkbamvsuw = initmapkbamvsuw();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasvftqyonv a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasvftqyonv a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisaywjunqv === 'undefined') {
+    varMorrisaywjunqv = Morris.Line({
+      element: 'Morrisaywjunqv',
+      data: [{ fecha: '1998-12-31', dato: 15.5100 },{ fecha: '2003-12-31', dato: 16.3100 },{ fecha: '2008-12-31', dato: 31.0701 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasvftqyonv a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapvfvcwtfh;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapvfvcwtfh() {
+    // Nuevo Mapa
+    mapvfvcwtfh = new L.Map('LeafLetvfvcwtfh');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapvfvcwtfh.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapvfvcwtfh.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapvfvcwtfh);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapvfvcwtfh === 'undefined') {
+    varinitmapvfvcwtfh = initmapvfvcwtfh();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasgsmdmrkh a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasgsmdmrkh a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisfqurajea === 'undefined') {
+    varMorrisfqurajea = Morris.Line({
+      element: 'Morrisfqurajea',
+      data: [{ fecha: '1998-12-31', dato: 59.0100 },{ fecha: '2003-12-31', dato: 64.2400 },{ fecha: '2008-12-31', dato: 37.6371 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasgsmdmrkh a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var maphakbnbxj;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmaphakbnbxj() {
+    // Nuevo Mapa
+    maphakbnbxj = new L.Map('LeafLethakbnbxj');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    maphakbnbxj.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    maphakbnbxj.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(maphakbnbxj);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmaphakbnbxj === 'undefined') {
+    varinitmaphakbnbxj = initmaphakbnbxj();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasuldimars a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasuldimars a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisxexwskrx === 'undefined') {
+    varMorrisxexwskrx = Morris.Line({
+      element: 'Morrisxexwskrx',
+      data: [{ fecha: '1998-12-31', dato: 20.9500 },{ fecha: '2003-12-31', dato: 12.8400 },{ fecha: '2008-12-31', dato: 24.2010 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasuldimars a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapalpautbb;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapalpautbb() {
+    // Nuevo Mapa
+    mapalpautbb = new L.Map('LeafLetalpautbb');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapalpautbb.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapalpautbb.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapalpautbb);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapalpautbb === 'undefined') {
+    varinitmapalpautbb = initmapalpautbb();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasqqwlkxme a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasqqwlkxme a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorristdvfugns === 'undefined') {
+    varMorristdvfugns = Morris.Line({
+      element: 'Morristdvfugns',
+      data: [{ fecha: '1998-12-31', dato: 12093.88 },{ fecha: '2003-12-31', dato: 21705.57 },{ fecha: '2008-12-31', dato: 16746.04 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasqqwlkxme a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapkkodufbv;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapkkodufbv() {
+    // Nuevo Mapa
+    mapkkodufbv = new L.Map('LeafLetkkodufbv');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapkkodufbv.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapkkodufbv.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapkkodufbv);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapkkodufbv === 'undefined') {
+    varinitmapkkodufbv = initmapkkodufbv();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetashkqcqdub a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetashkqcqdub a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapjpmvqdok;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapjpmvqdok() {
+    // Nuevo Mapa
+    mapjpmvqdok = new L.Map('LeafLetjpmvqdok');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapjpmvqdok.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapjpmvqdok.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapjpmvqdok);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapjpmvqdok === 'undefined') {
+    varinitmapjpmvqdok = initmapjpmvqdok();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetaswaqgyclh a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetaswaqgyclh a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapnieiogef;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapnieiogef() {
+    // Nuevo Mapa
+    mapnieiogef = new L.Map('LeafLetnieiogef');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapnieiogef.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapnieiogef.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapnieiogef);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapnieiogef === 'undefined') {
+    varinitmapnieiogef = initmapnieiogef();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasbjksmeta a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasbjksmeta a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapsxciarti;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapsxciarti() {
+    // Nuevo Mapa
+    mapsxciarti = new L.Map('LeafLetsxciarti');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapsxciarti.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapsxciarti.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapsxciarti);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapsxciarti === 'undefined') {
+    varinitmapsxciarti = initmapsxciarti();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasqvbrmuao a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasqvbrmuao a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisnyjcenhb === 'undefined') {
+    varMorrisnyjcenhb = Morris.Line({
+      element: 'Morrisnyjcenhb',
+      data: [{ fecha: '2010-12-31', dato: 76 },{ fecha: '2011-12-31', dato: 179 },{ fecha: '2012-12-31', dato: 340 },{ fecha: '2013-12-31', dato: 379 },{ fecha: '2014-03-31', dato: 27 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasqvbrmuao a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapnximatts;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapnximatts() {
+    // Nuevo Mapa
+    mapnximatts = new L.Map('LeafLetnximatts');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapnximatts.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapnximatts.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapnximatts);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapnximatts === 'undefined') {
+    varinitmapnximatts = initmapnximatts();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetaskonligdy a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetaskonligdy a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisekgqpard === 'undefined') {
+    varMorrisekgqpard = Morris.Line({
+      element: 'Morrisekgqpard',
+      data: [{ fecha: '2013-12-31', dato: 158 },{ fecha: '2014-07-31', dato: 178 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetaskonligdy a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapzafennfb;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapzafennfb() {
+    // Nuevo Mapa
+    mapzafennfb = new L.Map('LeafLetzafennfb');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapzafennfb.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapzafennfb.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapzafennfb);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapzafennfb === 'undefined') {
+    varinitmapzafennfb = initmapzafennfb();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasmanantcy a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasmanantcy a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorriscfqpaqde === 'undefined') {
+    varMorriscfqpaqde = Morris.Line({
+      element: 'Morriscfqpaqde',
+      data: [{ fecha: '1998-12-31', dato: 12.7900 },{ fecha: '2003-12-31', dato: 10.8700 },{ fecha: '2008-12-31', dato: 9.9000 },{ fecha: '2013-10-31', dato: 8.5200 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasmanantcy a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapbkvqkmuj;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapbkvqkmuj() {
+    // Nuevo Mapa
+    mapbkvqkmuj = new L.Map('LeafLetbkvqkmuj');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapbkvqkmuj.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapbkvqkmuj.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapbkvqkmuj);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapbkvqkmuj === 'undefined') {
+    varinitmapbkvqkmuj = initmapbkvqkmuj();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasvudrncpp a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasvudrncpp a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisjktwdvul === 'undefined') {
+    varMorrisjktwdvul = Morris.Line({
+      element: 'Morrisjktwdvul',
+      data: [{ fecha: '1998-12-31', dato: 32.6700 },{ fecha: '2003-12-31', dato: 32.1000 },{ fecha: '2008-12-31', dato: 36.3400 },{ fecha: '2013-10-31', dato: 39.2300 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasvudrncpp a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var maplebhrpgk;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmaplebhrpgk() {
+    // Nuevo Mapa
+    maplebhrpgk = new L.Map('LeafLetlebhrpgk');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    maplebhrpgk.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    maplebhrpgk.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(maplebhrpgk);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmaplebhrpgk === 'undefined') {
+    varinitmaplebhrpgk = initmaplebhrpgk();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasctongjws a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasctongjws a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrishpjpwnoy === 'undefined') {
+    varMorrishpjpwnoy = Morris.Line({
+      element: 'Morrishpjpwnoy',
+      data: [{ fecha: '1998-12-31', dato: 52.6500 },{ fecha: '2003-12-31', dato: 55.3200 },{ fecha: '2008-12-31', dato: 53.3200 },{ fecha: '2013-10-31', dato: 48.6700 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasctongjws a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var maptfotwsyx;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmaptfotwsyx() {
+    // Nuevo Mapa
+    maptfotwsyx = new L.Map('LeafLettfotwsyx');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    maptfotwsyx.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    maptfotwsyx.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(maptfotwsyx);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmaptfotwsyx === 'undefined') {
+    varinitmaptfotwsyx = initmaptfotwsyx();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetasrzbjpitk a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetasrzbjpitk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisvecbnzuw === 'undefined') {
+    varMorrisvecbnzuw = Morris.Line({
+      element: 'Morrisvecbnzuw',
+      data: [{ fecha: '2007-12-31', dato: 25.5200 },{ fecha: '2008-12-31', dato: 27.7100 },{ fecha: '2009-12-31', dato: 46.3000 },{ fecha: '2010-12-31', dato: 24.1400 },{ fecha: '2011-12-31', dato: 26.0300 },{ fecha: '2012-12-31', dato: 23.7600 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasrzbjpitk a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapjotnjnyu;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapjotnjnyu() {
+    // Nuevo Mapa
+    mapjotnjnyu = new L.Map('LeafLetjotnjnyu');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapjotnjnyu.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapjotnjnyu.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapjotnjnyu);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapjotnjnyu === 'undefined') {
+    varinitmapjotnjnyu = initmapjotnjnyu();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetaswiwjhrgr a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetaswiwjhrgr a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapcxcpzsfv;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapcxcpzsfv() {
+    // Nuevo Mapa
+    mapcxcpzsfv = new L.Map('LeafLetcxcpzsfv');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapcxcpzsfv.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapcxcpzsfv.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapcxcpzsfv);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapcxcpzsfv === 'undefined') {
+    varinitmapcxcpzsfv = initmapcxcpzsfv();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetaselntthev a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetaselntthev a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapfzfoneje;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapfzfoneje() {
+    // Nuevo Mapa
+    mapfzfoneje = new L.Map('LeafLetfzfoneje');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapfzfoneje.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapfzfoneje.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapfzfoneje);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapfzfoneje === 'undefined') {
+    varinitmapfzfoneje = initmapfzfoneje();
+  };
+});
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#Lenguetaszwfhnmzs a:first').tab('show')
+});
+// LENGUETA
+$('#Lenguetaszwfhnmzs a[href="#mapa"]').on('shown.bs.tab', function (e) {
+  // Mapa
+  var mapehlezrzv;
+  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
+  var circuloParque = {
+    "radius": 8,
+    "fillColor": "#2BFF2B",
+    "color": "#000",
+    "weight": 1,
+    "opacity": 1,
+    "fillOpacity": 0.7
+  };
+  // Función para Pop-Ups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+      layer.bindPopup(feature.properties.popupContent);
+    }
+  };
+  // Función para el mapa
+  function initmapehlezrzv() {
+    // Nuevo Mapa
+    mapehlezrzv = new L.Map('LeafLetehlezrzv');
+    // Capa con el mapa
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
+    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
+    // Definir coordenadas del centro del mapa y el nivel de zoom
+    mapehlezrzv.setView(new L.LatLng(25.54, -103.44), 12);
+    // Agregar capa con el mapa
+    mapehlezrzv.addLayer(osm);
+    // ARREGLO CON LOS GEOPUNTOS
+    var geoPuntos = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
+          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
+          "id": 1
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
+          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
+          "id": 2
+        },
+        {
+          "type": "Feature",
+          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
+          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
+          "id": 3
+        }
+      ]
+    };
+    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
+    L.geoJson(geoPuntos, {
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        switch (feature.properties.name) {
+          case 'Parque': return L.circleMarker(latlng, circuloParque);
+        }
+      }
+    }).addTo(mapehlezrzv);
+    // Entregar
+    return true;
+  };
+  // Ejecutar el mapa
+  if (typeof varinitmapehlezrzv === 'undefined') {
+    varinitmapehlezrzv = initmapehlezrzv();
+  };
+});
+</script>
+</body>
+</html>

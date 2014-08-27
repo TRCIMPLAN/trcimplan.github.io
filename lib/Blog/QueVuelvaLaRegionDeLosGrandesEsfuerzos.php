@@ -34,7 +34,7 @@ class QueVuelvaLaRegionDeLosGrandesEsfuerzos extends \Base\Publicacion {
         $this->fecha         = '2014-02-25';
         $this->autor         = 'Lic. Eduardo Holguín Zehfuss';
         $this->nombre        = 'Que vuelva la región de los grandes esfuerzos';
-        $this->nombre_menu   = 'Blog';
+        $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
         $this->archivo       = 'que-vuelva-la-region-de-los-grandes-esfuerzos';
         $this->descripcion   = 'La Calificadora Internacional Moodys elevó por primera vez la nota soberana de México a la categoría A3 gracias a las reformas estructurales.';

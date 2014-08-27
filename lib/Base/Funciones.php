@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Base Funciones
+ * SMIbeta - Funciones
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

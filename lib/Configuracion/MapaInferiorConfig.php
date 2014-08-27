@@ -30,24 +30,24 @@ class MapaInferiorConfig {
     public $sitio_titulo = 'IMPLAN Torreón';
     public $logotipo     = 'imagenes/implan-barra-mediano.png';
     protected $opciones  = array(
-        'Blog'              => 'blog/index.html',
-        'S.M.I.'            => 'smi/introduccion.html',
-        'S.I.G.'            => 'sig/introduccion.html',
-        'B.M.P.I.'          => 'proyectos/introduccion.html',
-        'Institucional'     => 'institucional/index.html',
-        'Consejo Directivo' => 'consejo-directivo/consejo-directivo.html',
-        'Eventos'           => 'eventos/index.html',
-        'Sala de Prensa'    => 'sala-prensa/index.html',
-        'Contacto'          => 'contacto/contacto.html');
+        'Análisis Publicados' => 'blog/index.html',
+        'SMI'                 => 'smi/introduccion.html',
+        'SIG'                 => 'sig/introduccion.html',
+        'BMPI'                => 'proyectos/introduccion.html',
+        'Institucional'       => 'institucional/index.html',
+        'Consejo Directivo'   => 'consejo-directivo/consejo-directivo.html',
+        'Eventos'             => 'eventos/index.html',
+        'Sala de Prensa'      => 'sala-prensa/index.html',
+        'Contacto'            => 'contacto/contacto.html');
     protected $iconos = array(
-        'Blog'              => 'fa fa-file-text-o',
-        'S.M.I.'            => 'fa fa-bar-chart',
-        'S.I.G.'            => 'fa fa-map-marker',
-        'B.M.P.I.'          => 'fa fa-paper-plane-o',
-        'Institucional'     => 'fa fa-university',
-        'Consejo Directivo' => 'fa fa-users',
-        'Comunicados'       => 'fa fa-volume-up',
-        'Contacto'          => 'fa fa-phone');
+        'Análisis Publicados' => 'fa fa-lightbulb-o',
+        'SMI'                 => 'fa fa-bar-chart',
+        'SIG'                 => 'fa fa-map-marker',
+        'BMPI'                => 'fa fa-paper-plane-o',
+        'Institucional'       => 'fa fa-university',
+        'Consejo Directivo'   => 'fa fa-users',
+        'Comunicados'         => 'fa fa-volume-up',
+        'Contacto'            => 'fa fa-phone');
 
 } // Clase MapaInferiorConfig
 

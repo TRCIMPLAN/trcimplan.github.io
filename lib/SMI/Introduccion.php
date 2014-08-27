@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - SMI Introducción
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

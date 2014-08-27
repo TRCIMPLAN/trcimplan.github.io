@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Base Imprenta Exception Validación
+ * SMIbeta - Imprenta Exception Validación
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

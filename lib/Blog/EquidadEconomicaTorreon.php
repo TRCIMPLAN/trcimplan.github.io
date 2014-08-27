@@ -34,7 +34,7 @@ class EquidadEconomicaTorreon extends \Base\Publicacion {
         $this->fecha         = '2014-04-03';
         $this->autor         = 'Lic. Alicia Valdez Ibarra';
         $this->nombre        = 'Equidad Económica en Torreón';
-        $this->nombre_menu   = 'Blog';
+        $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
         $this->archivo       = 'equidad-economica-torreon';
         $this->descripcion   = 'Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.';

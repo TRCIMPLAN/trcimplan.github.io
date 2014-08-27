@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Base Plantilla
+ * SMIbeta - Plantilla
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

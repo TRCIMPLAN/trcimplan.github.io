@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Navegación
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *
@@ -108,7 +108,7 @@ class Navegacion extends \Configuracion\Navegacion {
         if (array_key_exists($etiqueta, $this->iconos)) {
             $icono = "<i class=\"{$this->iconos[$etiqueta]}\"></i>";
         } else {
-            $icono = "<i class=\"fa fa-folder-o\"></i>";
+            $icono = "<i class=\"fa fa-file-text-o\"></i>";
         }
         // Si el URL es absoluto
         if ((strpos($url, 'http://') === 0) || (strpos($url, 'https://') === 0) || (strpos($url, '/') === 0)) {
@@ -148,7 +148,7 @@ class Navegacion extends \Configuracion\Navegacion {
                 if (array_key_exists($etiqueta, $this->iconos)) {
                     $icono = "<i class=\"{$this->iconos[$etiqueta]}\"></i>";
                 } else {
-                    $icono = "<i class=\"fa fa-folder-o\"></i>";
+                    $icono = "<i class=\"fa fa-file-text-o\"></i>";
                 }
                 // Dos niveles
                 if (array_key_exists($this->opcion_activa, $parametros)) {

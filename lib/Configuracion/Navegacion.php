@@ -30,15 +30,14 @@ class Navegacion {
     protected $sitio_titulo = 'IMPLAN Torreón';
     protected $logotipo     = 'imagenes/implan-barra-logo-chico.png';
     protected $opciones     = array(
-        'Blog' => 'blog/index.html',
+        'Análisis Publicados' => 'blog/index.html',
         'Indicadores' => array(
             'Introducción al SMI'       => 'smi/introduccion.html',
             'Indicadores Torreón'       => 'indicadores-torreon/',
             'Indicadores Gómez Palacio' => 'indicadores-gomez-palacio/',
             'Indicadores Lerdo'         => 'indicadores-lerdo/',
             'Indicadores Matamoros'     => 'indicadores-matamoros/',
-            'Indicadores La Laguna'     => 'indicadores-la-laguna/',
-            'Categorías'                => 'smi-categorias/'),
+            'Indicadores La Laguna'     => 'indicadores-la-laguna/'),
         'Información Geográfica' => array(
             'Introduccion al SIG'   => 'sig/introduccion.html',
             'Abrir el SIG'          => 'sig/instrucciones.html',
@@ -64,14 +63,21 @@ class Navegacion {
             'Sala de Prensa' => 'sala-prensa/index.html'),
         'Contacto' => 'contacto/contacto.html');
     protected $iconos = array(
-        'Blog'                   => 'fa fa-file-text-o',
-        'Indicadores'            => 'fa fa-bar-chart',
-        'Información Geográfica' => 'fa fa-map-marker',
-        'Banco de Proyectos'     => 'fa fa-paper-plane-o',
-        'Institucional'          => 'fa fa-university',
-        'Consejo Directivo'      => 'fa fa-users',
-        'Comunicados'            => 'fa fa-volume-up',
-        'Contacto'               => 'fa fa-phone');
+        'Análisis Publicados'       => 'fa fa-lightbulb-o',
+        'Indicadores'               => 'fa fa-bar-chart',
+        'Indicadores Torreón'       => 'fa fa-table',
+        'Indicadores Gómez Palacio' => 'fa fa-table',
+        'Indicadores Lerdo'         => 'fa fa-table',
+        'Indicadores Matamoros'     => 'fa fa-table',
+        'Indicadores La Laguna'     => 'fa fa-table',
+        'Información Geográfica'    => 'fa fa-map-marker',
+        'Banco de Proyectos'        => 'fa fa-paper-plane-o',
+        'Institucional'             => 'fa fa-university',
+        'Consejo Directivo'         => 'fa fa-users',
+        'Comunicados'               => 'fa fa-volume-up',
+        'Eventos'                   => 'fa fa-folder-o',
+        'Sala de Prensa'            => 'fa fa-folder-o',
+        'Contacto'                  => 'fa fa-phone');
 
 } // Clase Navegacion
 
