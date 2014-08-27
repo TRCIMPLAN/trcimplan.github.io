@@ -32,6 +32,7 @@ class QuienesSomos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->fecha         = '2014-05-01';
+     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Quienes Somos';
         $this->nombre_menu   = 'Quienes Somos';
         $this->directorio    = 'institucional';

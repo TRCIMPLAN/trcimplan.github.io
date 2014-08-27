@@ -32,6 +32,7 @@ class EstructuraOrganica extends \Base\Publicacion {
      */
     public function __construct() {
         $this->fecha         = '2014-05-01';
+     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Estructura Orgánica';
         $this->nombre_menu   = 'Estructura Orgánica';
         $this->directorio    = 'institucional';

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Proyectos Banco Municipal de Proyectos
+ * SMIbeta - Proyectos Introducción
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -20,31 +20,32 @@
  */
 
 // Namespace
-namespace PaginasEstaticas;
+namespace Proyectos;
 
 /**
- * Clase ProyectosBancoMunicipalProyectos
+ * Clase Introduccion
  */
-class ProyectosBancoMunicipalProyectos extends \Base\Publicacion {
+class Introduccion extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         $this->fecha         = '2014-05-01';
+     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Banco Municipal de Proyectos';
-        $this->nombre_menu   = 'BMPI';
+        $this->nombre_menu   = 'Introducción al BMPI';
         $this->directorio    = 'proyectos';
-        $this->archivo       = 'banco-municipal-proyectos';
-        $this->descripcion   = 'El IMPLAN Torreón gestiona, evalua y da seguimiento a los proyectos del Plan Estratégico de la Ciudad y de los ciudadanos.';
-        $this->claves        = 'IMPLAN, Torreon, Banco, Proyectos';
-     // $this->imagen_previa = '/imagenes/implan.jpg';
+        $this->archivo       = 'introduccion';
+        $this->descripcion   = 'El BMPI es un instrumento dinámico de gestión pública, orientado a consolidar una cultura municipal de formulación (preparación), planeación, seguimiento y evaluación de programas y proyectos de inversión, por medio de sus componentes y funciones.';
+        $this->claves        = 'IMPLAN, Torreon, Banco, Proyectos, BMPI';
+     // $this->imagen_previa = 'directorio/imagen-previa.jpg';
         $this->categorias    = array('Proyectos');
-        $this->encabezado    = '<img class="img-responsive" src="banco-municipal-proyectos/encabezado.jpg">';
+        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <p>El Instituto Municipal de Planeación y Competitividad, a través de la Dirección de Proyectos Estratégicos, tiene como objetivos gestionar, evaluar y dar seguimiento a los proyectos derivados del Plan Estratégico de Ciudad del IMPLAN, así como promover la participación ciudadana, a través del acompañamiento y mejora de aquellos ideas y proyectos formulados por la sociedad. Para aportar al logro de este objetivo, el IMPLAN desarrolla dos instrumentos que apoyen los procesos de planeación, inversión y ejecución de los proyectos promoviendo la eficiencia, eficacia y equidad de los mismos.</p>
 
-<p><img src="banco-municipal-proyectos/logo-bmpi.png" alt="BMPI"></p>
+<p><img src="introduccion/logo-bmpi.png" alt="BMPI"></p>
 
 <p><strong>¿Qué es el BMPI?</strong> El BMPI es un instrumento dinámico de gestión pública, orientado a consolidar una cultura municipal de formulación (preparación), planeación, seguimiento y evaluación de programas y proyectos de inversión, por medio de sus componentes y funciones.</p>
 
@@ -56,7 +57,7 @@ class ProyectosBancoMunicipalProyectos extends \Base\Publicacion {
   <li>Procesar la información en entregables útiles para la toma de decisiones como estadísticas, reportes, mapas, cédulas de evaluación, etc. Resguarda la información a lo largo del tiempo (fomenta la memoria institucional).</li>
 </ul>
 
-<p><img src="banco-municipal-proyectos/logo-sesp.png" alt="SESP"></p>
+<p><img src="introduccion/logo-sesp.png" alt="SESP"></p>
 
 <p><strong>¿Qué es el SESP?</strong> El Sistema de Evaluación y Seguimiento de Proyectos es un conjunto articulado de métodos y herramientas que facilitan la formulación, priorización, evaluación y seguimiento de los proyectos de inversión. Aportando los criterios al BMPI para la clasificación, recopilación e inventariado de proyectos.</p>
 
@@ -83,10 +84,12 @@ class ProyectosBancoMunicipalProyectos extends \Base\Publicacion {
   <li>Una vez registrado el proyecto, espera respuesta del sistema.</li>
 </ol>
 
-<p><img class="img-responsive" src="banco-municipal-proyectos/proyecto-ciudadano-infografia.png" alt="Infografía Proyecto Ciudadano"></p>
+<p><img class="img-responsive" src="introduccion/proyecto-ciudadano-infografia.png" alt="Infografía Proyecto Ciudadano"></p>
+FINAL;
+        $this->javascript    = <<<FINAL
 FINAL;
     } // constructor
 
-} // Clase ProyectosBancoMunicipalProyectos
+} // Clase Introduccion
 
 ?>

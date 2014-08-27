@@ -32,6 +32,7 @@ class MensajeDirector extends \Base\Publicacion {
      */
     public function __construct() {
         $this->fecha         = '2014-01-05';
+     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Mensaje del Director';
         $this->nombre_menu   = 'Mensaje del Director';
         $this->directorio    = 'institucional';

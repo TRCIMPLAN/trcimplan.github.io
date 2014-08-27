@@ -23,25 +23,26 @@
 namespace SMI;
 
 /**
- * Clase PlantillaInicial
+ * Clase Introduccion
  */
-class PlantillaInicial extends \Base\Plantilla {
+class Introduccion extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->titulo        = 'Sistema Metropolitano de Indicadores';
-        $this->autor         = 'TrcIMPLAN';
-        $this->descripcion   = 'IMPLAN Torreón, Sistema Metropolitano de Indicadores.';
-        $this->claves        = 'IMPLAN, Torreon, Indicadores';
+        $this->fecha         = '2014-05-15';
+    //  $this->autor         = 'TrcIMPLAN';
+        $this->nombre        = 'Sistema Metropolitano de Indicadores';
+        $this->nombre_menu   = 'Introducción al SMI';
         $this->directorio    = 'smi';
-        $this->ruta          = "{$this->directorio}/index.html";
-        $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->encabezado    = '<img class="img-responsive" src="smi/encabezado.jpg">';
+        $this->archivo       = 'introduccion';
+        $this->descripcion   = 'Introducción al Sistema Metropolitano de Indicadores del IMPLAN Torreón.';
+        $this->claves        = 'IMPLAN, Torreon, Indicadores, Gomez Palacio, Lerdo, Matamoros, La Laguna';
+    //  $this->imagen_previa = 'smi/imagen-previa.jpg';
+        $this->categorias    = array('Blog');
+        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<h4>SMI Torreón</h4>
-
 <p>Es un banco de información sobre los temas de interés de nuestra ciudad y su zona metropolitana, para conocer el estado de distintos fenómenos comparables en el tiempo, pero también con otras ciudades y con estándares internacionales.</p>
 
 <h4>¿Por ejemplo?</h4>
@@ -72,9 +73,10 @@ class PlantillaInicial extends \Base\Plantilla {
 
 <p>El sistema se compondrá de cuantos indicadores con información verificable se puedan contruir. Su primer publicación consta de 96 indicadores, sin embargo se irán sumando constantemente otros indicadores ya concentrados como los 60 indicadores del Índice de Competitividad Urbana (ICU) 2012 del IMCO y próximamente los 30 nuevos indicadores que contendrá el ICU 2014. Así mismo se irán complementando las series históricas y proyecciones de los indicadores publicados. El SMI podrá ir creciendo, incorporando todos los indicadores que nos puedan ser útiles y con información verificable, estructurándola de forma amigable para convertirla en conocimiento para el desarrollo y bienestar de nuestra ciudad y su zona metropolitana.</p>
 FINAL;
-        $this->javascript    = '';
+        $this->javascript    = <<<FINAL
+FINAL;
     } // constructor
 
-} // Clase PlantillaInicial
+} // Clase Introduccion
 
 ?>

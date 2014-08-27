@@ -31,13 +31,18 @@ class Contacto extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Contacto';
-        $this->directorio  = 'contacto';
-        $this->archivo     = 'contacto';
-        $this->descripcion = 'Redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';
-        $this->claves      = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
-        $this->categorias  = array('Contacto');
-        $this->contenido   = <<<FINAL
+        $this->fecha         = '2014-05-01';
+     // $this->autor         = 'TrcIMPLAN';
+        $this->nombre        = 'Contacto';
+     // $this->nombre_menu   = 'Etiqueta en Navegacion';
+        $this->directorio    = 'contacto';
+        $this->archivo       = 'contacto';
+        $this->descripcion   = 'Redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';
+        $this->claves        = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
+     // $this->imagen_previa = 'directorio/imagen-previa.jpg';
+        $this->categorias    = array('Contacto');
+     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
+        $this->contenido     = <<<FINAL
 <h4>Redes sociales</h4>
 
 <ul>

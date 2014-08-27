@@ -32,6 +32,7 @@ class Reglamentos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->fecha         = '2014-05-01';
+     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Reglamentos';
         $this->nombre_menu   = 'Reglamentos';
         $this->directorio    = 'institucional';

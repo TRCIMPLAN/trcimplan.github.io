@@ -32,6 +32,7 @@ class Agenda extends \Base\Publicacion {
      */
     public function __construct() {
         $this->fecha         = '2014-05-01';
+     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Agenda del Consejo Directivo';
         $this->nombre_menu   = 'Agenda';
         $this->directorio    = 'consejo-directivo';
@@ -40,7 +41,7 @@ class Agenda extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon';
      // $this->imagen_previa = '/imagenes/implan.jpg';
         $this->categorias    = array('Consejo Directivo');
-     // $this->encabezado    = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
+     // $this->encabezado    = '<img class="img-responsive" src="agenda/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <p>Agenda por confirmar.</p>
 FINAL;

@@ -32,6 +32,7 @@ class PresentacionSMI extends \Base\Publicacion {
      */
     public function __construct() {
         $this->fecha         = '2014-05-21';
+     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Presentación del Sistema Metropolitano de Indicadores';
         $this->nombre_menu   = 'Sala de Prensa';
         $this->directorio    = 'sala-prensa';
@@ -40,6 +41,7 @@ class PresentacionSMI extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'presentacion-smi/imagen-previa.jpg';
         $this->categorias    = array('Indicadores', 'Sesiones');
+     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><a href="presentacion-smi/presentacion-smi.jpg"><img src="presentacion-smi/presentacion-smi.jpg"></a></span>
 

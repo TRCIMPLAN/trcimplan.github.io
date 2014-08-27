@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Consejo Directivo
+ * SMIbeta - Consejo Directivo Integrantes
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -23,21 +23,22 @@
 namespace ConsejoDirectivo;
 
 /**
- * Clase ConsejoDirectivo
+ * Clase Integrantes
  */
-class ConsejoDirectivo extends \Base\Publicacion {
+class Integrantes extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         $this->fecha         = '2014-05-01';
-        $this->nombre        = 'Consejo Directivo';
-        $this->nombre_menu   = 'Consejo Directivo';
+     // $this->autor         = 'TrcIMPLAN';
+        $this->nombre        = 'Integrantes del Consejo Directivo';
+        $this->nombre_menu   = 'Integrantes';
         $this->directorio    = 'consejo-directivo';
-        $this->archivo       = 'consejo-directivo';
-        $this->descripcion   = 'El Consejo Directivo del IMPLAN Torreón.';
-        $this->claves        = 'IMPLAN, Torreon, Consejo, Directivo';
+        $this->archivo       = 'integrantes';
+        $this->descripcion   = 'Los Integrantes del Consejo Directivo del IMPLAN Torreón.';
+        $this->claves        = 'IMPLAN, Torreon, Consejo, Directivo, Integrantes';
      // $this->imagen_previa = 'directorio/imagen-previa.jpg';
         $this->categorias    = array('Consejo Directivo');
      // $this->encabezado    = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
@@ -150,6 +151,6 @@ class ConsejoDirectivo extends \Base\Publicacion {
 FINAL;
     } // constructor
 
-} // Clase ConsejoDirectivo
+} // Clase Integrantes
 
 ?>

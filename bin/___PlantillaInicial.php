@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Proyectos Cartera de Proyectos
+ * SMIbeta - DESCRIPCION
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -20,32 +20,30 @@
  */
 
 // Namespace
-namespace PaginasEstaticas;
+namespace SMI;
 
 /**
- * Clase ProyectosCarteraProyectos
+ * Clase PlantillaInicial
  */
-class ProyectosCarteraProyectos extends \Base\Publicacion {
+class PlantillaInicial extends \Base\Plantilla {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-01';
-        $this->nombre        = 'Cartera de Proyectos';
-        $this->nombre_menu   = 'Cartera de Proyectos';
-        $this->directorio    = 'proyectos';
-        $this->archivo       = 'cartera-proyectos';
-        $this->descripcion   = 'El conjunto de proyecto que monitorea el IMPLAN Torreón.';
-        $this->claves        = 'IMPLAN, Torreon, Proyectos, Cartera';
-     // $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->categorias    = array('Proyectos');
-        $this->encabezado    = '<img class="img-responsive" src="cartera-proyectos/encabezado.jpg">';
+        $this->titulo        = 'Sistema Metropolitano de Indicadores';
+        $this->autor         = 'TrcIMPLAN';
+        $this->descripcion   = 'IMPLAN Torreón, Sistema Metropolitano de Indicadores.';
+        $this->claves        = 'IMPLAN, Torreon, Indicadores';
+        $this->directorio    = 'smi';
+        $this->ruta          = "{$this->directorio}/index.html";
+        $this->imagen_previa = '/imagenes/implan.jpg';
+        $this->encabezado    = '<img class="img-responsive" src="smi/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<p>Pendiente.</p>
 FINAL;
+        $this->javascript    = '';
     } // constructor
 
-} // Clase ProyectosCarteraProyectos
+} // Clase PlantillaInicial
 
 ?>

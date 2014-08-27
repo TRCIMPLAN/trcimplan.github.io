@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - SIG Plantilla Inicial
+ * SMIbeta - DESCRIPCION
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2014 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,22 +23,25 @@
 namespace SIG;
 
 /**
- * Clase PlantillaInicial
+ * Clase Introduccion
  */
-class PlantillaInicial extends \Base\Plantilla {
+class Introduccion extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->titulo        = 'Sistema de Información Geográfica';
-        $this->autor         = 'TrcIMPLAN';
-        $this->descripcion   = 'IMPLAN Torreón, Sistema de Información Geográfica.';
-        $this->claves        = 'IMPLAN, Torreon, SIG, GIS';
+        $this->fecha         = '2014-08-01';
+    //  $this->autor         = 'TrcIMPLAN';
+        $this->nombre        = 'Sistema de Información Geográfica';
+        $this->nombre_menu   = 'Introduccion al SIG';
         $this->directorio    = 'sig';
-        $this->ruta          = "{$this->directorio}/index.html";
-        $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->encabezado    = '<img class="img-responsive" src="sig/encabezado.jpg">';
+        $this->archivo       = 'introduccion';
+        $this->descripcion   = 'Sistema de Información Geográfica del IMPLAN Torreón.';
+        $this->claves        = 'IMPLAN, Torreon, Informacion, Geografica, SIG, GIS';
+    //  $this->imagen_previa = 'directorio/imagen-previa.jpg';
+        $this->categorias    = array('SIG');
+        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <p>Un Sistema de Información Geográfica (SIG) más que una importante herramienta tecnológica es una estructura de personas y equipos computacionales dedicados a la recopilación, procesamiento, almacenamiento y análisis de datos con información valiosa para una adecuada toma de decisiones.</p>
 
@@ -46,15 +49,16 @@ class PlantillaInicial extends \Base\Plantilla {
 
 <p>La principal característica de este sistema es que está diseñado para ser una herramienta que permita el acceso a la ciudadanía como medio de consulta de información de la situación del municipio y de la zona metropolitana.</p>
 
-<p><img class="img-responsive" src="sig/gis-01-relieve.jpg" alt="GIS Relieve"></p>
+<p><img class="img-responsive contenido-imagen" src="introduccion/gis-01-relieve.jpg" alt="GIS Relieve"></p>
 
-<p><img class="img-responsive" src="sig/gis-02-poligonos-pobreza.jpg" alt="GIS Poligonos Pobreza"></p>
+<p><img class="img-responsive contenido-imagen" src="introduccion/gis-02-poligonos-pobreza.jpg" alt="GIS Poligonos Pobreza"></p>
 
-<p><img class="img-responsive" src="sig/gis-03-poligonos-cruzados.jpg" alt="GIS Polígonos Cruzados"></p>
+<p><img class="img-responsive contenido-imagen" src="introduccion/gis-03-poligonos-cruzados.jpg" alt="GIS Polígonos Cruzados"></p>
 FINAL;
-        $this->javascript    = '';
+        $this->javascript    = <<<FINAL
+FINAL;
     } // constructor
 
-} // Clase PlantillaInicial
+} // Clase Introduccion
 
 ?>

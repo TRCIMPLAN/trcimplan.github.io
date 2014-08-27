@@ -32,6 +32,7 @@ class PrimeraSesionOrdinaria extends \Base\Publicacion {
      */
     public function __construct() {
         $this->fecha         = '2014-04-18';
+     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Primera Sesión Ordinaria';
         $this->nombre_menu   = 'Eventos';
         $this->directorio    = 'eventos';
@@ -40,6 +41,7 @@ class PrimeraSesionOrdinaria extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon, Sesion, Reunion, Ordinaria';
         $this->imagen_previa = 'primera-sesion-ordinaria/imagen-previa.jpg';
         $this->categorias    = array('Sesiones');
+     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><a href="primera-sesion-ordinaria/primera-sesion-ordinaria.jpg"><img src="primera-sesion-ordinaria/primera-sesion-ordinaria-400x400.jpg"></a></span>
 

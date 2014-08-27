@@ -30,14 +30,17 @@ $E_FATAL=99;
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
-// Clases de Imprenta
+// En este arreglo están las rutas a las clases Imprenta
 $clases = array(
-    '\Contacto\Imprenta',
-    '\Institucional\Imprenta',
-    '\ConsejoDirectivo\Imprenta',
-    '\Eventos\Imprenta',
     '\Blog\Imprenta',
-    '\SalaPrensa\Imprenta');
+    '\ConsejoDirectivo\Imprenta',
+    '\Contacto\Imprenta',
+    '\Eventos\Imprenta',
+    '\Institucional\Imprenta',
+    '\Proyectos\Imprenta',
+    '\SalaPrensa\Imprenta',
+    '\SIG\Imprenta',
+    '\SMI\Imprenta');
 // Imprimir
 try {
     foreach ($clases as $clase) {
@@ -50,7 +53,7 @@ try {
     exit($E_FATAL);
 }
 
-// Página inicial
+// Cargar la página inicial
 $impresor            = new \Base\Imprenta();
 $impresor->plantilla = new \Inicial\PaginaInicial();
 // Imprimir

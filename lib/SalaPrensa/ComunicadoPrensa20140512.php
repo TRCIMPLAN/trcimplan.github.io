@@ -41,6 +41,7 @@ class ComunicadoPrensa20140512 extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'comunicado-prensa-2014-05-12/imagen-previa.png';
         $this->categorias    = array('Sala de Prensa');
+     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="comunicado-prensa-2014-05-12/implan.png"></span>
 

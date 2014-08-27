@@ -32,6 +32,7 @@ class InformacionFinanciera extends \Base\Publicacion {
      */
     public function __construct() {
         $this->fecha         = '2014-08-01';
+     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Información Financiera';
         $this->nombre_menu   = 'Información Financiera';
         $this->directorio    = 'institucional';

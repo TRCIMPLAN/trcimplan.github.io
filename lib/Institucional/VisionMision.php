@@ -32,6 +32,7 @@ class VisionMision extends \Base\Publicacion {
      */
     public function __construct() {
         $this->fecha         = '2014-05-01';
+     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Visión / Misión';
         $this->nombre_menu   = 'Visión / Misión';
         $this->directorio    = 'institucional';
