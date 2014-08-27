@@ -38,20 +38,30 @@ class Navegacion {
             'Transparencia'          => 'http://www.icai.org.mx/ipmn/Principal.php?sujeto=0',
             'Reglamentos'            => 'institucional/reglamentos.html',
             'Información Financiera' => 'institucional/informacion-financiera.html'),
-        'Servicios' => array(
-            'Sistema Metropolitano de Indicadores' => 'smi/index.html',
-            'Sistema de Información Geográfica'    => 'sig/index.html',
-            'Banco Municipal de Proyectos'         => 'proyectos/banco-municipal-proyectos.html',
-            'Cartera de Proyectos'                 => 'proyectos/cartera-proyectos.html'),
-        'Interacción' => array(
-            'Blog'    => 'blog/index.html',
-            'Eventos' => 'eventos/index.html'),
+        'Blog' => 'blog/index.html',
+        'S. M. de Indicadores' => array(
+            'Introducción'  => 'smi/index.html',
+            'Torreón'       => 'indicadores-torreon/',
+            'Gómez Palacio' => 'indicadores-gomez-palacio/',
+            'Lerdo'         => 'indicadores-lerdo/',
+            'Matamoros'     => 'indicadores-matamoros/',
+            'La Laguna'     => 'indicadores-la-laguna/',
+            'Categorías'    => 'smi-categorias/'),
+        'S. de I. Geográfica' => array(
+            'Instrucciones S.I.G.'    => 'sig/index.html',
+            'Plan Mun. de Desarrollo' => 'sig/pmd.html',
+            'Alumbrado'               => 'sig/alumbrado.html'),
+        'Banco M. de Proyectos' => array(
+            'B.M.P.'               => 'proyectos/banco-municipal-proyectos.html',
+            'Cartera de Proyectos' => 'proyectos/cartera-proyectos.html'),
+        'Comunicados' => array(
+            'Eventos'        => 'eventos/index.html',
+            'Sala de Prensa' => 'sala-prensa/index.html'),
         'Consejo Directivo' => array(
             'Consejo Directivo' => 'consejo-directivo/consejo-directivo.html',
             'Agenda'            => 'consejo-directivo/agenda.html',
             'Comités Técnicos'  => 'consejo-directivo/comites-tecnicos-agenda.html'),
-        'Sala de Prensa' => 'sala-prensa/index.html',
-        'Contacto'       => 'contacto/index.html');
+        'Contacto'       => 'contacto/contacto.html');
 
 } // Clase Navegacion
 

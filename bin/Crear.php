@@ -32,6 +32,7 @@ require_once('lib/Base/Funciones.php');
 
 // Clases de Imprenta
 $clases = array(
+    '\Contacto\Imprenta',
     '\Institucional\Imprenta',
     '\ConsejoDirectivo\Imprenta',
     '\Eventos\Imprenta',
