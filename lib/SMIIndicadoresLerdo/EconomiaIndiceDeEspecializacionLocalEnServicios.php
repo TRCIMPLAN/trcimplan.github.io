@@ -18,13 +18,14 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \Base\Publicacion 
      */
     public function __construct() {
         $this->nombre      = 'Índice de Especialización Local en Servicios en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-indice-de-especializacion-local-en-servicios';
         $this->descripcion = 'Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.';
         $this->claves      = 'Lerdo, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasaoilxhcx">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasrlsskthf">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -81,12 +82,12 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrissuaoitpi" class="grafica"></div>
+<div id="Morrisuestcmat" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetfbywmemu" class="mapa"></div>
+              <div id="LeafLetuslmbppc" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -203,14 +204,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasaoilxhcx a:first').tab('show')
+  $('#Lenguetasrlsskthf a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasaoilxhcx a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasrlsskthf a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrissuaoitpi === 'undefined') {
-    varMorrissuaoitpi = Morris.Line({
-      element: 'Morrissuaoitpi',
+  if (typeof varMorrisuestcmat === 'undefined') {
+    varMorrisuestcmat = Morris.Line({
+      element: 'Morrisuestcmat',
       data: [{ fecha: '1998-12-31', dato: 17.2300 },{ fecha: '2003-12-31', dato: 6.3000 },{ fecha: '2008-12-31', dato: 8.5600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -222,9 +223,9 @@ $('#Lenguetasaoilxhcx a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasaoilxhcx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasrlsskthf a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapfbywmemu;
+  var mapuslmbppc;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -241,17 +242,17 @@ $('#Lenguetasaoilxhcx a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapfbywmemu() {
+  function initmapuslmbppc() {
     // Nuevo Mapa
-    mapfbywmemu = new L.Map('LeafLetfbywmemu');
+    mapuslmbppc = new L.Map('LeafLetuslmbppc');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapfbywmemu.setView(new L.LatLng(25.54, -103.44), 12);
+    mapuslmbppc.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapfbywmemu.addLayer(osm);
+    mapuslmbppc.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -284,13 +285,13 @@ $('#Lenguetasaoilxhcx a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapfbywmemu);
+    }).addTo(mapuslmbppc);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapfbywmemu === 'undefined') {
-    varinitmapfbywmemu = initmapfbywmemu();
+  if (typeof varinitmapuslmbppc === 'undefined') {
+    varinitmapuslmbppc = initmapuslmbppc();
   };
 });
 FINAL;

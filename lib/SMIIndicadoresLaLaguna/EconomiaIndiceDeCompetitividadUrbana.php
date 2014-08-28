@@ -18,13 +18,14 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Competitividad Urbana en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-indice-de-competitividad-urbana';
         $this->descripcion = 'El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.';
         $this->claves      = 'La Laguna, Competitividad';
         $this->categorias  = array('Competitividad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdgwsiiva">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasudbjlqot">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +64,7 @@ El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Institut
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetedjppibw" class="mapa"></div>
+              <div id="LeafLetjeqvrkjx" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -117,12 +118,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdgwsiiva a:first').tab('show')
+  $('#Lenguetasudbjlqot a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasdgwsiiva a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasudbjlqot a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapedjppibw;
+  var mapjeqvrkjx;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +140,17 @@ $('#Lenguetasdgwsiiva a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapedjppibw() {
+  function initmapjeqvrkjx() {
     // Nuevo Mapa
-    mapedjppibw = new L.Map('LeafLetedjppibw');
+    mapjeqvrkjx = new L.Map('LeafLetjeqvrkjx');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapedjppibw.setView(new L.LatLng(25.54, -103.44), 12);
+    mapjeqvrkjx.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapedjppibw.addLayer(osm);
+    mapjeqvrkjx.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +183,13 @@ $('#Lenguetasdgwsiiva a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapedjppibw);
+    }).addTo(mapjeqvrkjx);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapedjppibw === 'undefined') {
-    varinitmapedjppibw = initmapedjppibw();
+  if (typeof varinitmapjeqvrkjx === 'undefined') {
+    varinitmapjeqvrkjx = initmapjeqvrkjx();
   };
 });
 FINAL;

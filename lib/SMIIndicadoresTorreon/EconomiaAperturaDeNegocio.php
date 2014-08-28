@@ -18,13 +18,14 @@ class EconomiaAperturaDeNegocio extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Apertura de Negocio en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-apertura-de-negocio';
         $this->descripcion = 'Número de días necesarios para el trámite de apertura de un negocio.';
         $this->claves      = 'Torreón, Empresas, Doing Bussines';
         $this->categorias  = array('Empresas', 'Doing Bussines');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasobfrolkv">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgjbhbuck">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -89,7 +90,7 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrfywzzgk" class="mapa"></div>
+              <div id="LeafLetmnfxqxgj" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
@@ -99,12 +100,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasobfrolkv a:first').tab('show')
+  $('#Lenguetasgjbhbuck a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasobfrolkv a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasgjbhbuck a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprfywzzgk;
+  var mapmnfxqxgj;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -121,17 +122,17 @@ $('#Lenguetasobfrolkv a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprfywzzgk() {
+  function initmapmnfxqxgj() {
     // Nuevo Mapa
-    maprfywzzgk = new L.Map('LeafLetrfywzzgk');
+    mapmnfxqxgj = new L.Map('LeafLetmnfxqxgj');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprfywzzgk.setView(new L.LatLng(25.54, -103.44), 12);
+    mapmnfxqxgj.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprfywzzgk.addLayer(osm);
+    mapmnfxqxgj.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -164,13 +165,13 @@ $('#Lenguetasobfrolkv a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprfywzzgk);
+    }).addTo(mapmnfxqxgj);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprfywzzgk === 'undefined') {
-    varinitmaprfywzzgk = initmaprfywzzgk();
+  if (typeof varinitmapmnfxqxgj === 'undefined') {
+    varinitmapmnfxqxgj = initmapmnfxqxgj();
   };
 });
 FINAL;

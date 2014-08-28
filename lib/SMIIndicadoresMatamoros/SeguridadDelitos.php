@@ -18,13 +18,14 @@ class SeguridadDelitos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Delitos en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-delitos';
         $this->descripcion = 'Total de delitos cometidos en el segundo trimestre 2014';
         $this->claves      = 'Matamoros, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasredbbris">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasauqfulii">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -74,12 +75,12 @@ Total de delitos cometidos en el segundo trimestre 2014
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morristyawpikb" class="grafica"></div>
+<div id="Morrisllsftsrv" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLethbqdqwdp" class="mapa"></div>
+              <div id="LeafLetpuhhmbxg" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -175,14 +176,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasredbbris a:first').tab('show')
+  $('#Lenguetasauqfulii a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasredbbris a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasauqfulii a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristyawpikb === 'undefined') {
-    varMorristyawpikb = Morris.Line({
-      element: 'Morristyawpikb',
+  if (typeof varMorrisllsftsrv === 'undefined') {
+    varMorrisllsftsrv = Morris.Line({
+      element: 'Morrisllsftsrv',
       data: [{ fecha: '2014-01-31', dato: 69 },{ fecha: '2014-02-28', dato: 65 },{ fecha: '2014-06-30', dato: 230 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -194,9 +195,9 @@ $('#Lenguetasredbbris a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasredbbris a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasauqfulii a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maphbqdqwdp;
+  var mappuhhmbxg;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -213,17 +214,17 @@ $('#Lenguetasredbbris a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaphbqdqwdp() {
+  function initmappuhhmbxg() {
     // Nuevo Mapa
-    maphbqdqwdp = new L.Map('LeafLethbqdqwdp');
+    mappuhhmbxg = new L.Map('LeafLetpuhhmbxg');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maphbqdqwdp.setView(new L.LatLng(25.54, -103.44), 12);
+    mappuhhmbxg.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maphbqdqwdp.addLayer(osm);
+    mappuhhmbxg.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -256,13 +257,13 @@ $('#Lenguetasredbbris a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maphbqdqwdp);
+    }).addTo(mappuhhmbxg);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaphbqdqwdp === 'undefined') {
-    varinitmaphbqdqwdp = initmaphbqdqwdp();
+  if (typeof varinitmappuhhmbxg === 'undefined') {
+    varinitmappuhhmbxg = initmappuhhmbxg();
   };
 });
 FINAL;

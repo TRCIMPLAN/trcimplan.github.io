@@ -18,13 +18,14 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos por Cobro de Servicios en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-ingresos-por-cobro-de-servicios';
         $this->descripcion = 'Ingresos recaudados por el municipio por cobro de servicios';
         $this->claves      = 'Lerdo, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasaeyhzypl">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbjsyxicn">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -92,12 +93,12 @@ Ingresos recaudados por el municipio por cobro de servicios
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisvxgofugj" class="grafica"></div>
+<div id="Morriszpzbcgxv" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetohavgjnk" class="mapa"></div>
+              <div id="LeafLettnhdsxaf" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -298,14 +299,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasaeyhzypl a:first').tab('show')
+  $('#Lenguetasbjsyxicn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasaeyhzypl a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbjsyxicn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisvxgofugj === 'undefined') {
-    varMorrisvxgofugj = Morris.Line({
-      element: 'Morrisvxgofugj',
+  if (typeof varMorriszpzbcgxv === 'undefined') {
+    varMorriszpzbcgxv = Morris.Line({
+      element: 'Morriszpzbcgxv',
       data: [{ fecha: '2007-12-31', dato: 41128483.00 },{ fecha: '2008-12-31', dato: 45464319.00 },{ fecha: '2009-12-31', dato: 80006719.00 },{ fecha: '2010-12-31', dato: 50216153.00 },{ fecha: '2011-12-31', dato: 52824557.00 },{ fecha: '2012-12-31', dato: 54082713.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -317,9 +318,9 @@ $('#Lenguetasaeyhzypl a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasaeyhzypl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbjsyxicn a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapohavgjnk;
+  var maptnhdsxaf;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -336,17 +337,17 @@ $('#Lenguetasaeyhzypl a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapohavgjnk() {
+  function initmaptnhdsxaf() {
     // Nuevo Mapa
-    mapohavgjnk = new L.Map('LeafLetohavgjnk');
+    maptnhdsxaf = new L.Map('LeafLettnhdsxaf');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapohavgjnk.setView(new L.LatLng(25.54, -103.44), 12);
+    maptnhdsxaf.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapohavgjnk.addLayer(osm);
+    maptnhdsxaf.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -379,13 +380,13 @@ $('#Lenguetasaeyhzypl a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapohavgjnk);
+    }).addTo(maptnhdsxaf);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapohavgjnk === 'undefined') {
-    varinitmapohavgjnk = initmapohavgjnk();
+  if (typeof varinitmaptnhdsxaf === 'undefined') {
+    varinitmaptnhdsxaf = initmaptnhdsxaf();
   };
 });
 FINAL;

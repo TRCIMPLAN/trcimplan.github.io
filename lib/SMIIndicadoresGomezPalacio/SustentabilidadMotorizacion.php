@@ -18,13 +18,14 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Motorización en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-motorizacion';
         $this->descripcion = 'Vehículos automotores registrados en circulación.';
         $this->claves      = 'Gómez Palacio, Recursos Naturales, Movilidad, Vialidad';
         $this->categorias  = array('Recursos Naturales', 'Movilidad', 'Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaswqxcvvrs">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasoltxwscj">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +65,7 @@ Vehículos automotores registrados en circulación.
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetequhlxrb" class="mapa"></div>
+              <div id="LeafLetgmlvxkmx" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -139,12 +140,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaswqxcvvrs a:first').tab('show')
+  $('#Lenguetasoltxwscj a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaswqxcvvrs a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasoltxwscj a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapequhlxrb;
+  var mapgmlvxkmx;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -161,17 +162,17 @@ $('#Lenguetaswqxcvvrs a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapequhlxrb() {
+  function initmapgmlvxkmx() {
     // Nuevo Mapa
-    mapequhlxrb = new L.Map('LeafLetequhlxrb');
+    mapgmlvxkmx = new L.Map('LeafLetgmlvxkmx');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapequhlxrb.setView(new L.LatLng(25.54, -103.44), 12);
+    mapgmlvxkmx.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapequhlxrb.addLayer(osm);
+    mapgmlvxkmx.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -204,13 +205,13 @@ $('#Lenguetaswqxcvvrs a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapequhlxrb);
+    }).addTo(mapgmlvxkmx);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapequhlxrb === 'undefined') {
-    varinitmapequhlxrb = initmapequhlxrb();
+  if (typeof varinitmapgmlvxkmx === 'undefined') {
+    varinitmapgmlvxkmx = initmapgmlvxkmx();
   };
 });
 FINAL;

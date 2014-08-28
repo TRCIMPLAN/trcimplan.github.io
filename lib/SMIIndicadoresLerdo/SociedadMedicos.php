@@ -18,13 +18,14 @@ class SociedadMedicos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Médicos en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-medicos';
         $this->descripcion = 'Médicos en contacto con pacientes por cada diez mil personas.';
         $this->claves      = 'Lerdo, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasummakfxe">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdbuyhoxf">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -135,12 +136,12 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisjoiakejx" class="grafica"></div>
+<div id="Morrisrtqezpks" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetngfxguze" class="mapa"></div>
+              <div id="LeafLetdwkjffpw" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -551,14 +552,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasummakfxe a:first').tab('show')
+  $('#Lenguetasdbuyhoxf a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasummakfxe a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdbuyhoxf a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisjoiakejx === 'undefined') {
-    varMorrisjoiakejx = Morris.Line({
-      element: 'Morrisjoiakejx',
+  if (typeof varMorrisrtqezpks === 'undefined') {
+    varMorrisrtqezpks = Morris.Line({
+      element: 'Morrisrtqezpks',
       data: [{ fecha: '2001-12-31', dato: 5.1000 },{ fecha: '2002-12-31', dato: 5.8000 },{ fecha: '2003-12-31', dato: 5.5000 },{ fecha: '2004-12-31', dato: 5.4000 },{ fecha: '2005-12-31', dato: 5.3000 },{ fecha: '2006-12-31', dato: 4.8000 },{ fecha: '2007-12-31', dato: 6.0000 },{ fecha: '2008-12-31', dato: 5.6000 },{ fecha: '2009-12-31', dato: 5.8000 },{ fecha: '2010-12-31', dato: 6.4000 },{ fecha: '2011-12-31', dato: 6.2000 },{ fecha: '2012-12-31', dato: 6.4000 },{ fecha: '2013-12-31', dato: 6.6000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -570,9 +571,9 @@ $('#Lenguetasummakfxe a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasummakfxe a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdbuyhoxf a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapngfxguze;
+  var mapdwkjffpw;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -589,17 +590,17 @@ $('#Lenguetasummakfxe a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapngfxguze() {
+  function initmapdwkjffpw() {
     // Nuevo Mapa
-    mapngfxguze = new L.Map('LeafLetngfxguze');
+    mapdwkjffpw = new L.Map('LeafLetdwkjffpw');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapngfxguze.setView(new L.LatLng(25.54, -103.44), 12);
+    mapdwkjffpw.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapngfxguze.addLayer(osm);
+    mapdwkjffpw.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -632,13 +633,13 @@ $('#Lenguetasummakfxe a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapngfxguze);
+    }).addTo(mapdwkjffpw);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapngfxguze === 'undefined') {
-    varinitmapngfxguze = initmapngfxguze();
+  if (typeof varinitmapdwkjffpw === 'undefined') {
+    varinitmapdwkjffpw = initmapdwkjffpw();
   };
 });
 FINAL;

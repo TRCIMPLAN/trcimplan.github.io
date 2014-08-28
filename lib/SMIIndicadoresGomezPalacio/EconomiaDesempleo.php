@@ -18,13 +18,14 @@ class EconomiaDesempleo extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Desempleo en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-desempleo';
         $this->descripcion = 'Cantidad de personas desempleadas.';
         $this->claves      = 'Gómez Palacio, Empleo';
         $this->categorias  = array('Empleo');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasuzazguuq">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspngzvhaw">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -47,19 +48,19 @@ Cantidad de personas desempleadas.
 </thead>
 <tbody>
 <tr>
-<td class="centrado">31/12/1989</td>
+<td class="centrado">12/03/1990</td>
 <td class="derecha">2,050</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
-<td class="centrado">31/12/1999</td>
+<td class="centrado">14/02/2000</td>
 <td class="derecha">981</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
-<td class="centrado">31/12/2009</td>
+<td class="centrado">25/06/2010</td>
 <td class="derecha">9,705</td>
 <td>INEGI</td>
 <td></td>
@@ -82,12 +83,12 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisytoteped" class="grafica"></div>
+<div id="Morrisqujyjyxu" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetvwqjurru" class="mapa"></div>
+              <div id="LeafLetkvbrwumh" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -105,84 +106,84 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 <tbody>
 <tr>
 <td>Torreón</td>
-<td>1989-12-31</td>
+<td>1990-03-12</td>
 <td class="derecha">4,043</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>Torreón</td>
-<td>1999-12-31</td>
+<td>2000-02-14</td>
 <td class="derecha">2,135</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>Torreón</td>
-<td>2009-12-31</td>
+<td>2010-06-25</td>
 <td class="derecha">19,536</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>Lerdo</td>
-<td>1989-12-31</td>
+<td>1990-03-12</td>
 <td class="derecha">821</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>Lerdo</td>
-<td>1999-12-31</td>
+<td>2000-02-14</td>
 <td class="derecha">360</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>Lerdo</td>
-<td>2009-12-31</td>
+<td>2010-06-25</td>
 <td class="derecha">3,795</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>Matamoros</td>
-<td>1989-12-31</td>
+<td>1990-03-12</td>
 <td class="derecha">774</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>Matamoros</td>
-<td>1999-12-31</td>
+<td>2000-02-14</td>
 <td class="derecha">378</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>Matamoros</td>
-<td>2009-12-31</td>
+<td>2010-06-25</td>
 <td class="derecha">2,380</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
-<td>1989-12-31</td>
+<td>1990-03-12</td>
 <td class="derecha">7,688</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
-<td>1999-12-31</td>
+<td>2000-02-14</td>
 <td class="derecha">3,854</td>
 <td>INEGI</td>
 <td></td>
 </tr>
 <tr>
 <td>La Laguna</td>
-<td>2009-12-31</td>
+<td>2010-06-25</td>
 <td class="derecha">35,416</td>
 <td>INEGI</td>
 <td></td>
@@ -197,15 +198,15 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasuzazguuq a:first').tab('show')
+  $('#Lenguetaspngzvhaw a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasuzazguuq a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspngzvhaw a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisytoteped === 'undefined') {
-    varMorrisytoteped = Morris.Line({
-      element: 'Morrisytoteped',
-      data: [{ fecha: '1989-12-31', dato: 2050 },{ fecha: '1999-12-31', dato: 981 },{ fecha: '2009-12-31', dato: 9705 }],
+  if (typeof varMorrisqujyjyxu === 'undefined') {
+    varMorrisqujyjyxu = Morris.Line({
+      element: 'Morrisqujyjyxu',
+      data: [{ fecha: '1990-03-12', dato: 2050 },{ fecha: '2000-02-14', dato: 981 },{ fecha: '2010-06-25', dato: 9705 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -216,9 +217,9 @@ $('#Lenguetasuzazguuq a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasuzazguuq a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspngzvhaw a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapvwqjurru;
+  var mapkvbrwumh;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -235,17 +236,17 @@ $('#Lenguetasuzazguuq a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapvwqjurru() {
+  function initmapkvbrwumh() {
     // Nuevo Mapa
-    mapvwqjurru = new L.Map('LeafLetvwqjurru');
+    mapkvbrwumh = new L.Map('LeafLetkvbrwumh');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapvwqjurru.setView(new L.LatLng(25.54, -103.44), 12);
+    mapkvbrwumh.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapvwqjurru.addLayer(osm);
+    mapkvbrwumh.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -278,13 +279,13 @@ $('#Lenguetasuzazguuq a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapvwqjurru);
+    }).addTo(mapkvbrwumh);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapvwqjurru === 'undefined') {
-    varinitmapvwqjurru = initmapvwqjurru();
+  if (typeof varinitmapkvbrwumh === 'undefined') {
+    varinitmapkvbrwumh = initmapkvbrwumh();
   };
 });
 FINAL;

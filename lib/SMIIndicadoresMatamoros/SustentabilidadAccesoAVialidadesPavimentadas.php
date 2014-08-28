@@ -18,13 +18,14 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Acceso a Vialidades Pavimentadas en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-acceso-a-vialidades-pavimentadas';
         $this->descripcion = 'Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.';
         $this->claves      = 'Matamoros, Movilidad, Vialidad';
         $this->categorias  = array('Movilidad', 'Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasewderjsf">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdlhptjpq">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +65,7 @@ Censo de Población y Vivienda 2010. Consulta las [Bases de Datos](http://www.in
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetpjpqjomq" class="mapa"></div>
+              <div id="LeafLetpymmixfp" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -118,12 +119,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasewderjsf a:first').tab('show')
+  $('#Lenguetasdlhptjpq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasewderjsf a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdlhptjpq a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mappjpqjomq;
+  var mappymmixfp;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -140,17 +141,17 @@ $('#Lenguetasewderjsf a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmappjpqjomq() {
+  function initmappymmixfp() {
     // Nuevo Mapa
-    mappjpqjomq = new L.Map('LeafLetpjpqjomq');
+    mappymmixfp = new L.Map('LeafLetpymmixfp');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mappjpqjomq.setView(new L.LatLng(25.54, -103.44), 12);
+    mappymmixfp.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mappjpqjomq.addLayer(osm);
+    mappymmixfp.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -183,13 +184,13 @@ $('#Lenguetasewderjsf a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mappjpqjomq);
+    }).addTo(mappymmixfp);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmappjpqjomq === 'undefined') {
-    varinitmappjpqjomq = initmappjpqjomq();
+  if (typeof varinitmappymmixfp === 'undefined') {
+    varinitmappymmixfp = initmappymmixfp();
   };
 });
 FINAL;

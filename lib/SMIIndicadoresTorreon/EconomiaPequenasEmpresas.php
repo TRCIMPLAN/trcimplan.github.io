@@ -18,13 +18,14 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pequeñas Empresas en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-pequenas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean entre 11 y 50 empleados.';
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaskuwqikzp">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasnquxzcac">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -71,12 +72,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisrvykgvfh" class="grafica"></div>
+<div id="Morriscgxllube" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetpaspsjvb" class="mapa"></div>
+              <div id="LeafLetaoddtgkl" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +201,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaskuwqikzp a:first').tab('show')
+  $('#Lenguetasnquxzcac a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaskuwqikzp a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnquxzcac a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrvykgvfh === 'undefined') {
-    varMorrisrvykgvfh = Morris.Line({
-      element: 'Morrisrvykgvfh',
+  if (typeof varMorriscgxllube === 'undefined') {
+    varMorriscgxllube = Morris.Line({
+      element: 'Morriscgxllube',
       data: [{ fecha: '2013-12-31', dato: 8.6600 },{ fecha: '2014-07-31', dato: 7.6500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -219,9 +220,9 @@ $('#Lenguetaskuwqikzp a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaskuwqikzp a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnquxzcac a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mappaspsjvb;
+  var mapaoddtgkl;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -238,17 +239,17 @@ $('#Lenguetaskuwqikzp a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmappaspsjvb() {
+  function initmapaoddtgkl() {
     // Nuevo Mapa
-    mappaspsjvb = new L.Map('LeafLetpaspsjvb');
+    mapaoddtgkl = new L.Map('LeafLetaoddtgkl');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mappaspsjvb.setView(new L.LatLng(25.54, -103.44), 12);
+    mapaoddtgkl.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mappaspsjvb.addLayer(osm);
+    mapaoddtgkl.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -281,13 +282,13 @@ $('#Lenguetaskuwqikzp a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mappaspsjvb);
+    }).addTo(mapaoddtgkl);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmappaspsjvb === 'undefined') {
-    varinitmappaspsjvb = initmappaspsjvb();
+  if (typeof varinitmapaoddtgkl === 'undefined') {
+    varinitmapaoddtgkl = initmapaoddtgkl();
   };
 });
 FINAL;

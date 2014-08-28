@@ -18,13 +18,14 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos Totales en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'gobierno-ingresos-totales';
-        $this->descripcion = '';
+        $this->descripcion = 'Ingresos totales por municipio.';
         $this->claves      = 'Matamoros, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaszigchqvo">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasqrjmqfbl">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -32,7 +33,8 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="descripcion">
-      
+      <h4>Descripción</h4>
+Ingresos totales por municipio.
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -101,12 +103,12 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morriskxtsyfej" class="grafica"></div>
+<div id="Morrisecviryxx" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLethfzmkpuc" class="mapa"></div>
+              <div id="LeafLetvkhlmvsd" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -307,14 +309,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaszigchqvo a:first').tab('show')
+  $('#Lenguetasqrjmqfbl a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaszigchqvo a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasqrjmqfbl a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskxtsyfej === 'undefined') {
-    varMorriskxtsyfej = Morris.Line({
-      element: 'Morriskxtsyfej',
+  if (typeof varMorrisecviryxx === 'undefined') {
+    varMorrisecviryxx = Morris.Line({
+      element: 'Morrisecviryxx',
       data: [{ fecha: '2007-12-31', dato: 118848281.00 },{ fecha: '2008-12-31', dato: 179363074.00 },{ fecha: '2009-12-31', dato: 172111514.00 },{ fecha: '2010-12-31', dato: 149987909.00 },{ fecha: '2011-12-31', dato: 154367205.00 },{ fecha: '2012-12-31', dato: 176265107.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -326,9 +328,9 @@ $('#Lenguetaszigchqvo a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaszigchqvo a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasqrjmqfbl a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maphfzmkpuc;
+  var mapvkhlmvsd;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -345,17 +347,17 @@ $('#Lenguetaszigchqvo a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaphfzmkpuc() {
+  function initmapvkhlmvsd() {
     // Nuevo Mapa
-    maphfzmkpuc = new L.Map('LeafLethfzmkpuc');
+    mapvkhlmvsd = new L.Map('LeafLetvkhlmvsd');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maphfzmkpuc.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvkhlmvsd.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maphfzmkpuc.addLayer(osm);
+    mapvkhlmvsd.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -388,13 +390,13 @@ $('#Lenguetaszigchqvo a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maphfzmkpuc);
+    }).addTo(mapvkhlmvsd);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaphfzmkpuc === 'undefined') {
-    varinitmaphfzmkpuc = initmaphfzmkpuc();
+  if (typeof varinitmapvkhlmvsd === 'undefined') {
+    varinitmapvkhlmvsd = initmapvkhlmvsd();
   };
 });
 FINAL;

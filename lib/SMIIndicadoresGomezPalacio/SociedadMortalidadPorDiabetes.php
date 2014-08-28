@@ -18,13 +18,14 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad por Diabetes en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-mortalidad-por-diabetes';
         $this->descripcion = 'Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.';
         $this->claves      = 'Gómez Palacio, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfaofzquy">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasivhasshh">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +64,7 @@ Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetinxpobzl" class="mapa"></div>
+              <div id="LeafLetxsgadxuf" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -138,12 +139,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfaofzquy a:first').tab('show')
+  $('#Lenguetasivhasshh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasfaofzquy a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasivhasshh a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapinxpobzl;
+  var mapxsgadxuf;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -160,17 +161,17 @@ $('#Lenguetasfaofzquy a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapinxpobzl() {
+  function initmapxsgadxuf() {
     // Nuevo Mapa
-    mapinxpobzl = new L.Map('LeafLetinxpobzl');
+    mapxsgadxuf = new L.Map('LeafLetxsgadxuf');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapinxpobzl.setView(new L.LatLng(25.54, -103.44), 12);
+    mapxsgadxuf.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapinxpobzl.addLayer(osm);
+    mapxsgadxuf.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -203,13 +204,13 @@ $('#Lenguetasfaofzquy a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapinxpobzl);
+    }).addTo(mapxsgadxuf);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapinxpobzl === 'undefined') {
-    varinitmapinxpobzl = initmapinxpobzl();
+  if (typeof varinitmapxsgadxuf === 'undefined') {
+    varinitmapxsgadxuf = initmapxsgadxuf();
   };
 });
 FINAL;

@@ -18,13 +18,14 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pequeñas Empresas en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-pequenas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean entre 11 y 50 empleados.';
         $this->claves      = 'Lerdo, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaswrczlkom">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasztdwiwuq">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -71,12 +72,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisaiozgrxc" class="grafica"></div>
+<div id="Morriselxcuasj" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetkbamvsuw" class="mapa"></div>
+              <div id="LeafLetmemcmpob" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +201,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaswrczlkom a:first').tab('show')
+  $('#Lenguetasztdwiwuq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaswrczlkom a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasztdwiwuq a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisaiozgrxc === 'undefined') {
-    varMorrisaiozgrxc = Morris.Line({
-      element: 'Morrisaiozgrxc',
+  if (typeof varMorriselxcuasj === 'undefined') {
+    varMorriselxcuasj = Morris.Line({
+      element: 'Morriselxcuasj',
       data: [{ fecha: '2013-12-31', dato: 6.9600 },{ fecha: '2014-07-31', dato: 5.6200 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -219,9 +220,9 @@ $('#Lenguetaswrczlkom a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaswrczlkom a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasztdwiwuq a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapkbamvsuw;
+  var mapmemcmpob;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -238,17 +239,17 @@ $('#Lenguetaswrczlkom a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapkbamvsuw() {
+  function initmapmemcmpob() {
     // Nuevo Mapa
-    mapkbamvsuw = new L.Map('LeafLetkbamvsuw');
+    mapmemcmpob = new L.Map('LeafLetmemcmpob');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapkbamvsuw.setView(new L.LatLng(25.54, -103.44), 12);
+    mapmemcmpob.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapkbamvsuw.addLayer(osm);
+    mapmemcmpob.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -281,13 +282,13 @@ $('#Lenguetaswrczlkom a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapkbamvsuw);
+    }).addTo(mapmemcmpob);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapkbamvsuw === 'undefined') {
-    varinitmapkbamvsuw = initmapkbamvsuw();
+  if (typeof varinitmapmemcmpob === 'undefined') {
+    varinitmapmemcmpob = initmapmemcmpob();
   };
 });
 FINAL;

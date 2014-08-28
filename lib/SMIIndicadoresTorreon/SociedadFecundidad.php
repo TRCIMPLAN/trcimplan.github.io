@@ -18,13 +18,14 @@ class SociedadFecundidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Fecundidad en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-fecundidad';
         $this->descripcion = 'Tasa de fecundidad.';
         $this->claves      = 'Torreón, Género, Población';
         $this->categorias  = array('Género', 'Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmmnrxtix">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszyhshtxa">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -86,12 +87,12 @@ Tasa de fecundidad.
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisdpmobrhs" class="grafica"></div>
+<div id="Morrislqlmgfdz" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetyaumevek" class="mapa"></div>
+              <div id="LeafLetxjsepksb" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
@@ -101,14 +102,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmmnrxtix a:first').tab('show')
+  $('#Lenguetaszyhshtxa a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasmmnrxtix a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszyhshtxa a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisdpmobrhs === 'undefined') {
-    varMorrisdpmobrhs = Morris.Line({
-      element: 'Morrisdpmobrhs',
+  if (typeof varMorrislqlmgfdz === 'undefined') {
+    varMorrislqlmgfdz = Morris.Line({
+      element: 'Morrislqlmgfdz',
       data: [{ fecha: '2008-12-31', dato: 2.2000 },{ fecha: '2009-12-31', dato: 2.1700 },{ fecha: '2010-12-31', dato: 2.1400 },{ fecha: '2011-12-31', dato: 2.1400 },{ fecha: '2012-12-31', dato: 2.1300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -120,9 +121,9 @@ $('#Lenguetasmmnrxtix a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasmmnrxtix a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszyhshtxa a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapyaumevek;
+  var mapxjsepksb;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +140,17 @@ $('#Lenguetasmmnrxtix a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapyaumevek() {
+  function initmapxjsepksb() {
     // Nuevo Mapa
-    mapyaumevek = new L.Map('LeafLetyaumevek');
+    mapxjsepksb = new L.Map('LeafLetxjsepksb');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapyaumevek.setView(new L.LatLng(25.54, -103.44), 12);
+    mapxjsepksb.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapyaumevek.addLayer(osm);
+    mapxjsepksb.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +183,13 @@ $('#Lenguetasmmnrxtix a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapyaumevek);
+    }).addTo(mapxjsepksb);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapyaumevek === 'undefined') {
-    varinitmapyaumevek = initmapyaumevek();
+  if (typeof varinitmapxjsepksb === 'undefined') {
+    varinitmapxjsepksb = initmapxjsepksb();
   };
 });
 FINAL;

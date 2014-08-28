@@ -18,13 +18,14 @@ class SeguridadPresuntosDelincuentesPorNarcoticos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Presuntos Delincuentes por Narcóticos en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-presuntos-delincuentes-por-narcoticos';
         $this->descripcion = 'Presuntos delincuentes por delitos en materia de narcóticos registrados en los juzgados del fuero federal.';
         $this->claves      = 'Torreón, Delincuencia';
         $this->categorias  = array('Delincuencia');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasihgntmth">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaseiskrtcz">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +64,7 @@ Presuntos delincuentes por delitos en materia de narcóticos registrados en los 
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbsknxrty" class="mapa"></div>
+              <div id="LeafLetdhfxpwuw" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -117,12 +118,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasihgntmth a:first').tab('show')
+  $('#Lenguetaseiskrtcz a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasihgntmth a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaseiskrtcz a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbsknxrty;
+  var mapdhfxpwuw;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +140,17 @@ $('#Lenguetasihgntmth a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbsknxrty() {
+  function initmapdhfxpwuw() {
     // Nuevo Mapa
-    mapbsknxrty = new L.Map('LeafLetbsknxrty');
+    mapdhfxpwuw = new L.Map('LeafLetdhfxpwuw');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbsknxrty.setView(new L.LatLng(25.54, -103.44), 12);
+    mapdhfxpwuw.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbsknxrty.addLayer(osm);
+    mapdhfxpwuw.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +183,13 @@ $('#Lenguetasihgntmth a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbsknxrty);
+    }).addTo(mapdhfxpwuw);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbsknxrty === 'undefined') {
-    varinitmapbsknxrty = initmapbsknxrty();
+  if (typeof varinitmapdhfxpwuw === 'undefined') {
+    varinitmapdhfxpwuw = initmapdhfxpwuw();
   };
 });
 FINAL;

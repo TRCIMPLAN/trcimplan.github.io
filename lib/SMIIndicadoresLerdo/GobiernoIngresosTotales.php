@@ -18,13 +18,14 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos Totales en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-ingresos-totales';
-        $this->descripcion = '';
+        $this->descripcion = 'Ingresos totales por municipio.';
         $this->claves      = 'Lerdo, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasizapjoak">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasddsxcnhv">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -32,7 +33,8 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="descripcion">
-      
+      <h4>Descripción</h4>
+Ingresos totales por municipio.
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -101,12 +103,12 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrishsxblmpg" class="grafica"></div>
+<div id="Morrismhnmatdc" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetkvupqbzf" class="mapa"></div>
+              <div id="LeafLethcgpxcbj" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -307,14 +309,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasizapjoak a:first').tab('show')
+  $('#Lenguetasddsxcnhv a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasizapjoak a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasddsxcnhv a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrishsxblmpg === 'undefined') {
-    varMorrishsxblmpg = Morris.Line({
-      element: 'Morrishsxblmpg',
+  if (typeof varMorrismhnmatdc === 'undefined') {
+    varMorrismhnmatdc = Morris.Line({
+      element: 'Morrismhnmatdc',
       data: [{ fecha: '2007-12-31', dato: 241931931.00 },{ fecha: '2008-12-31', dato: 262644851.00 },{ fecha: '2009-12-31', dato: 308171837.00 },{ fecha: '2010-12-31', dato: 279317865.00 },{ fecha: '2011-12-31', dato: 324230289.00 },{ fecha: '2012-12-31', dato: 360393013.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -326,9 +328,9 @@ $('#Lenguetasizapjoak a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasizapjoak a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasddsxcnhv a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapkvupqbzf;
+  var maphcgpxcbj;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -345,17 +347,17 @@ $('#Lenguetasizapjoak a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapkvupqbzf() {
+  function initmaphcgpxcbj() {
     // Nuevo Mapa
-    mapkvupqbzf = new L.Map('LeafLetkvupqbzf');
+    maphcgpxcbj = new L.Map('LeafLethcgpxcbj');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapkvupqbzf.setView(new L.LatLng(25.54, -103.44), 12);
+    maphcgpxcbj.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapkvupqbzf.addLayer(osm);
+    maphcgpxcbj.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -388,13 +390,13 @@ $('#Lenguetasizapjoak a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapkvupqbzf);
+    }).addTo(maphcgpxcbj);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapkvupqbzf === 'undefined') {
-    varinitmapkvupqbzf = initmapkvupqbzf();
+  if (typeof varinitmaphcgpxcbj === 'undefined') {
+    varinitmaphcgpxcbj = initmaphcgpxcbj();
   };
 });
 FINAL;

@@ -18,13 +18,14 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Inversión Per cápita en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-inversion-per-capita';
         $this->descripcion = 'Gasto en obras públicas y acciones sociales entre población total.';
         $this->claves      = 'La Laguna, Macroeconomía, Finanzas Públicas';
         $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaslpmngfng">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasfpxssemz">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -102,12 +103,12 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrishxpgsxdw" class="grafica"></div>
+<div id="Morrisikxewfjr" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetzhrdtvhr" class="mapa"></div>
+              <div id="LeafLetwvjxygmr" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -301,14 +302,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaslpmngfng a:first').tab('show')
+  $('#Lenguetasfpxssemz a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaslpmngfng a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfpxssemz a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrishxpgsxdw === 'undefined') {
-    varMorrishxpgsxdw = Morris.Line({
-      element: 'Morrishxpgsxdw',
+  if (typeof varMorrisikxewfjr === 'undefined') {
+    varMorrisikxewfjr = Morris.Line({
+      element: 'Morrisikxewfjr',
       data: [{ fecha: '2007-12-31', dato: 536.81 },{ fecha: '2008-12-31', dato: 693.53 },{ fecha: '2009-12-31', dato: 484.79 },{ fecha: '2010-12-31', dato: 310.85 },{ fecha: '2011-12-31', dato: 473.54 },{ fecha: '2012-12-31', dato: 411.88 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -320,9 +321,9 @@ $('#Lenguetaslpmngfng a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaslpmngfng a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfpxssemz a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapzhrdtvhr;
+  var mapwvjxygmr;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -339,17 +340,17 @@ $('#Lenguetaslpmngfng a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapzhrdtvhr() {
+  function initmapwvjxygmr() {
     // Nuevo Mapa
-    mapzhrdtvhr = new L.Map('LeafLetzhrdtvhr');
+    mapwvjxygmr = new L.Map('LeafLetwvjxygmr');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapzhrdtvhr.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwvjxygmr.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapzhrdtvhr.addLayer(osm);
+    mapwvjxygmr.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -382,13 +383,13 @@ $('#Lenguetaslpmngfng a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapzhrdtvhr);
+    }).addTo(mapwvjxygmr);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapzhrdtvhr === 'undefined') {
-    varinitmapzhrdtvhr = initmapzhrdtvhr();
+  if (typeof varinitmapwvjxygmr === 'undefined') {
+    varinitmapwvjxygmr = initmapwvjxygmr();
   };
 });
 FINAL;

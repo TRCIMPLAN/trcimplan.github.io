@@ -18,13 +18,14 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Adultos Mayores Masculino en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-adultos-mayores-masculino';
         $this->descripcion = 'Población estimada a mediados de año de personas de 65 años y más de sexo masculino';
         $this->claves      = 'Gómez Palacio, Grupos Vulnerables';
         $this->categorias  = array('Grupos Vulnerables');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasxwuikslk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasjtyvvefv">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -116,12 +117,12 @@ Población estimada a mediados de año de personas de 65 años y más de sexo ma
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisbiitogyj" class="grafica"></div>
+<div id="Morriswjjmbtbi" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetypdxftav" class="mapa"></div>
+              <div id="LeafLetvztltfcz" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -637,14 +638,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasxwuikslk a:first').tab('show')
+  $('#Lenguetasjtyvvefv a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasxwuikslk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasjtyvvefv a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisbiitogyj === 'undefined') {
-    varMorrisbiitogyj = Morris.Line({
-      element: 'Morrisbiitogyj',
+  if (typeof varMorriswjjmbtbi === 'undefined') {
+    varMorriswjjmbtbi = Morris.Line({
+      element: 'Morriswjjmbtbi',
       data: [{ fecha: '2011-06-30', dato: 8437 },{ fecha: '2012-06-30', dato: 8736 },{ fecha: '2013-06-30', dato: 9056 },{ fecha: '2014-06-30', dato: 9400 },{ fecha: '2015-06-30', dato: 9767 },{ fecha: '2016-06-30', dato: 10158 },{ fecha: '2017-06-30', dato: 10573 },{ fecha: '2018-06-30', dato: 11009 },{ fecha: '2019-06-30', dato: 11464 },{ fecha: '2020-06-30', dato: 11936 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -656,9 +657,9 @@ $('#Lenguetasxwuikslk a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasxwuikslk a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasjtyvvefv a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapypdxftav;
+  var mapvztltfcz;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -675,17 +676,17 @@ $('#Lenguetasxwuikslk a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapypdxftav() {
+  function initmapvztltfcz() {
     // Nuevo Mapa
-    mapypdxftav = new L.Map('LeafLetypdxftav');
+    mapvztltfcz = new L.Map('LeafLetvztltfcz');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapypdxftav.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvztltfcz.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapypdxftav.addLayer(osm);
+    mapvztltfcz.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -718,13 +719,13 @@ $('#Lenguetasxwuikslk a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapypdxftav);
+    }).addTo(mapvztltfcz);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapypdxftav === 'undefined') {
-    varinitmapypdxftav = initmapypdxftav();
+  if (typeof varinitmapvztltfcz === 'undefined') {
+    varinitmapvztltfcz = initmapvztltfcz();
   };
 });
 FINAL;

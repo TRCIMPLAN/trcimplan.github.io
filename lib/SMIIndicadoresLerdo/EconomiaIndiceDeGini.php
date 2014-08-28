@@ -18,13 +18,14 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Gini en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-indice-de-gini';
         $this->descripcion = 'Indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad.';
         $this->claves      = 'Lerdo';
         $this->categorias  = array();
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnuswoieu">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasoqscacle">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -67,7 +68,7 @@ Datos obtenidos de [CONEVAL](http://www.coneval.gob.mx/Paginas/principal.aspx)
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbazzktud" class="mapa"></div>
+              <div id="LeafLetvedqomgc" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -121,12 +122,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnuswoieu a:first').tab('show')
+  $('#Lenguetasoqscacle a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnuswoieu a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasoqscacle a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbazzktud;
+  var mapvedqomgc;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -143,17 +144,17 @@ $('#Lenguetasnuswoieu a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbazzktud() {
+  function initmapvedqomgc() {
     // Nuevo Mapa
-    mapbazzktud = new L.Map('LeafLetbazzktud');
+    mapvedqomgc = new L.Map('LeafLetvedqomgc');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbazzktud.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvedqomgc.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbazzktud.addLayer(osm);
+    mapvedqomgc.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -186,13 +187,13 @@ $('#Lenguetasnuswoieu a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbazzktud);
+    }).addTo(mapvedqomgc);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbazzktud === 'undefined') {
-    varinitmapbazzktud = initmapbazzktud();
+  if (typeof varinitmapvedqomgc === 'undefined') {
+    varinitmapvedqomgc = initmapvedqomgc();
   };
 });
 FINAL;

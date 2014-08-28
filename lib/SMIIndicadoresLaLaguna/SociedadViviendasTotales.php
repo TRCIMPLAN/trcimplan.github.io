@@ -18,13 +18,14 @@ class SociedadViviendasTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas Totales en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-viviendas-totales';
         $this->descripcion = '';
         $this->claves      = 'La Laguna, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfktnglje">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasfsvdptlq">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -62,7 +63,7 @@ class SociedadViviendasTotales extends \Base\Publicacion {
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetczkwbqzr" class="mapa"></div>
+              <div id="LeafLetcbkznvcn" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -116,12 +117,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfktnglje a:first').tab('show')
+  $('#Lenguetasfsvdptlq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasfktnglje a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfsvdptlq a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapczkwbqzr;
+  var mapcbkznvcn;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -138,17 +139,17 @@ $('#Lenguetasfktnglje a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapczkwbqzr() {
+  function initmapcbkznvcn() {
     // Nuevo Mapa
-    mapczkwbqzr = new L.Map('LeafLetczkwbqzr');
+    mapcbkznvcn = new L.Map('LeafLetcbkznvcn');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapczkwbqzr.setView(new L.LatLng(25.54, -103.44), 12);
+    mapcbkznvcn.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapczkwbqzr.addLayer(osm);
+    mapcbkznvcn.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -181,13 +182,13 @@ $('#Lenguetasfktnglje a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapczkwbqzr);
+    }).addTo(mapcbkznvcn);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapczkwbqzr === 'undefined') {
-    varinitmapczkwbqzr = initmapczkwbqzr();
+  if (typeof varinitmapcbkznvcn === 'undefined') {
+    varinitmapcbkznvcn = initmapcbkznvcn();
   };
 });
 FINAL;

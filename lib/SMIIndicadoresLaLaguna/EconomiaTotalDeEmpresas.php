@@ -18,13 +18,14 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Total de Empresas en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-total-de-empresas';
         $this->descripcion = '';
         $this->claves      = 'La Laguna, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasihmetkpr">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasoknxilzz">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -69,12 +70,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morriskoyffhik" class="grafica"></div>
+<div id="Morristymyhuby" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetpyvbldey" class="mapa"></div>
+              <div id="LeafLetufskddph" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -198,14 +199,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasihmetkpr a:first').tab('show')
+  $('#Lenguetasoknxilzz a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasihmetkpr a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasoknxilzz a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskoyffhik === 'undefined') {
-    varMorriskoyffhik = Morris.Line({
-      element: 'Morriskoyffhik',
+  if (typeof varMorristymyhuby === 'undefined') {
+    varMorristymyhuby = Morris.Line({
+      element: 'Morristymyhuby',
       data: [{ fecha: '2013-12-31', dato: 8937 },{ fecha: '2014-07-31', dato: 9785 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -217,9 +218,9 @@ $('#Lenguetasihmetkpr a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasihmetkpr a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasoknxilzz a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mappyvbldey;
+  var mapufskddph;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -236,17 +237,17 @@ $('#Lenguetasihmetkpr a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmappyvbldey() {
+  function initmapufskddph() {
     // Nuevo Mapa
-    mappyvbldey = new L.Map('LeafLetpyvbldey');
+    mapufskddph = new L.Map('LeafLetufskddph');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mappyvbldey.setView(new L.LatLng(25.54, -103.44), 12);
+    mapufskddph.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mappyvbldey.addLayer(osm);
+    mapufskddph.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -279,13 +280,13 @@ $('#Lenguetasihmetkpr a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mappyvbldey);
+    }).addTo(mapufskddph);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmappyvbldey === 'undefined') {
-    varinitmappyvbldey = initmappyvbldey();
+  if (typeof varinitmapufskddph === 'undefined') {
+    varinitmapufskddph = initmapufskddph();
   };
 });
 FINAL;

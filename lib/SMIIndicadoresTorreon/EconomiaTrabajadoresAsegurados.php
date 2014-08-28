@@ -18,13 +18,14 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Trabajadores Asegurados en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-trabajadores-asegurados';
         $this->descripcion = 'Evolución del empleo medida en trabajadores asegurados por el IMSS.';
         $this->claves      = 'Torreón, Empleo';
         $this->categorias  = array('Empleo');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmlqkbxwr">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasldcdjhnj">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -82,6 +83,12 @@ Evolución del empleo medida en trabajadores asegurados por el IMSS.
 <td>IMSS Subdelegación Torreón</td>
 <td></td>
 </tr>
+<tr>
+<td class="centrado">31/12/2013</td>
+<td class="derecha">187,050</td>
+<td>IMSS Subdelegación Torreón</td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <b>Unidad:</b> Personas.
@@ -95,12 +102,12 @@ Datos obtenidos de [IMSS](http://201.144.108.20/imssdigital/conoce/estadisticas/
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisxeuwcxnj" class="grafica"></div>
+<div id="Morriscrwgxmrp" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetxnxhcezz" class="mapa"></div>
+              <div id="LeafLetryomtqzo" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
@@ -110,15 +117,15 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmlqkbxwr a:first').tab('show')
+  $('#Lenguetasldcdjhnj a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasmlqkbxwr a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasldcdjhnj a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisxeuwcxnj === 'undefined') {
-    varMorrisxeuwcxnj = Morris.Line({
-      element: 'Morrisxeuwcxnj',
-      data: [{ fecha: '2007-12-31', dato: 171936 },{ fecha: '2008-12-31', dato: 164258 },{ fecha: '2009-12-31', dato: 157898 },{ fecha: '2010-12-31', dato: 168723 },{ fecha: '2011-12-31', dato: 176045 },{ fecha: '2012-12-31', dato: 184407 }],
+  if (typeof varMorriscrwgxmrp === 'undefined') {
+    varMorriscrwgxmrp = Morris.Line({
+      element: 'Morriscrwgxmrp',
+      data: [{ fecha: '2007-12-31', dato: 171936 },{ fecha: '2008-12-31', dato: 164258 },{ fecha: '2009-12-31', dato: 157898 },{ fecha: '2010-12-31', dato: 168723 },{ fecha: '2011-12-31', dato: 176045 },{ fecha: '2012-12-31', dato: 184407 },{ fecha: '2013-12-31', dato: 187050 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -129,9 +136,9 @@ $('#Lenguetasmlqkbxwr a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasmlqkbxwr a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasldcdjhnj a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapxnxhcezz;
+  var mapryomtqzo;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -148,17 +155,17 @@ $('#Lenguetasmlqkbxwr a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapxnxhcezz() {
+  function initmapryomtqzo() {
     // Nuevo Mapa
-    mapxnxhcezz = new L.Map('LeafLetxnxhcezz');
+    mapryomtqzo = new L.Map('LeafLetryomtqzo');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapxnxhcezz.setView(new L.LatLng(25.54, -103.44), 12);
+    mapryomtqzo.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapxnxhcezz.addLayer(osm);
+    mapryomtqzo.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -191,13 +198,13 @@ $('#Lenguetasmlqkbxwr a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapxnxhcezz);
+    }).addTo(mapryomtqzo);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapxnxhcezz === 'undefined') {
-    varinitmapxnxhcezz = initmapxnxhcezz();
+  if (typeof varinitmapryomtqzo === 'undefined') {
+    varinitmapryomtqzo = initmapryomtqzo();
   };
 });
 FINAL;

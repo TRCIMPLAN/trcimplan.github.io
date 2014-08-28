@@ -18,13 +18,14 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Destinos Vía Aérea en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sustentabilidad-destinos-via-aerea';
         $this->descripcion = 'Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.';
         $this->claves      = 'Matamoros, Movilidad';
         $this->categorias  = array('Movilidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaseydkdhgs">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvciplyfb">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +65,7 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetowlwpyez" class="mapa"></div>
+              <div id="LeafLetwrefpkus" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -118,12 +119,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaseydkdhgs a:first').tab('show')
+  $('#Lenguetasvciplyfb a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaseydkdhgs a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvciplyfb a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapowlwpyez;
+  var mapwrefpkus;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -140,17 +141,17 @@ $('#Lenguetaseydkdhgs a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapowlwpyez() {
+  function initmapwrefpkus() {
     // Nuevo Mapa
-    mapowlwpyez = new L.Map('LeafLetowlwpyez');
+    mapwrefpkus = new L.Map('LeafLetwrefpkus');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapowlwpyez.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwrefpkus.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapowlwpyez.addLayer(osm);
+    mapwrefpkus.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -183,13 +184,13 @@ $('#Lenguetaseydkdhgs a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapowlwpyez);
+    }).addTo(mapwrefpkus);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapowlwpyez === 'undefined') {
-    varinitmapowlwpyez = initmapowlwpyez();
+  if (typeof varinitmapwrefpkus === 'undefined') {
+    varinitmapwrefpkus = initmapwrefpkus();
   };
 });
 FINAL;

@@ -18,13 +18,14 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Producción Bruta Total Per Cápita en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-produccion-bruta-total-per-capita';
         $this->descripcion = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total.';
         $this->claves      = 'Lerdo, Macroeconomía, Finanzas Públicas';
         $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasqqwlkxme">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetastwezuxtc">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -89,12 +90,12 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morristdvfugns" class="grafica"></div>
+<div id="Morrisxtrlbstp" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetkkodufbv" class="mapa"></div>
+              <div id="LeafLetiixdfawo" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -211,14 +212,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasqqwlkxme a:first').tab('show')
+  $('#Lenguetastwezuxtc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasqqwlkxme a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetastwezuxtc a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristdvfugns === 'undefined') {
-    varMorristdvfugns = Morris.Line({
-      element: 'Morristdvfugns',
+  if (typeof varMorrisxtrlbstp === 'undefined') {
+    varMorrisxtrlbstp = Morris.Line({
+      element: 'Morrisxtrlbstp',
       data: [{ fecha: '1998-12-31', dato: 12093.88 },{ fecha: '2003-12-31', dato: 21705.57 },{ fecha: '2008-12-31', dato: 16746.04 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -230,9 +231,9 @@ $('#Lenguetasqqwlkxme a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasqqwlkxme a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetastwezuxtc a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapkkodufbv;
+  var mapiixdfawo;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -249,17 +250,17 @@ $('#Lenguetasqqwlkxme a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapkkodufbv() {
+  function initmapiixdfawo() {
     // Nuevo Mapa
-    mapkkodufbv = new L.Map('LeafLetkkodufbv');
+    mapiixdfawo = new L.Map('LeafLetiixdfawo');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapkkodufbv.setView(new L.LatLng(25.54, -103.44), 12);
+    mapiixdfawo.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapkkodufbv.addLayer(osm);
+    mapiixdfawo.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -292,13 +293,13 @@ $('#Lenguetasqqwlkxme a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapkkodufbv);
+    }).addTo(mapiixdfawo);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapkkodufbv === 'undefined') {
-    varinitmapkkodufbv = initmapkkodufbv();
+  if (typeof varinitmapiixdfawo === 'undefined') {
+    varinitmapiixdfawo = initmapiixdfawo();
   };
 });
 FINAL;

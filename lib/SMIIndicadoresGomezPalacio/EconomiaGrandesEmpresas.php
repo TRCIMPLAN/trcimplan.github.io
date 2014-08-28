@@ -18,13 +18,14 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Grandes Empresas en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-grandes-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
         $this->claves      = 'Gómez Palacio, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaslmhqlyrh">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasovoovnas">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -71,12 +72,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisbkthfnya" class="grafica"></div>
+<div id="Morrisdgjyokux" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetnxtqmuru" class="mapa"></div>
+              <div id="LeafLetxosmplrk" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +201,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaslmhqlyrh a:first').tab('show')
+  $('#Lenguetasovoovnas a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaslmhqlyrh a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasovoovnas a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisbkthfnya === 'undefined') {
-    varMorrisbkthfnya = Morris.Line({
-      element: 'Morrisbkthfnya',
+  if (typeof varMorrisdgjyokux === 'undefined') {
+    varMorrisdgjyokux = Morris.Line({
+      element: 'Morrisdgjyokux',
       data: [{ fecha: '2013-12-31', dato: 0.4100 },{ fecha: '2014-07-31', dato: 0.9800 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -219,9 +220,9 @@ $('#Lenguetaslmhqlyrh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaslmhqlyrh a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasovoovnas a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapnxtqmuru;
+  var mapxosmplrk;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -238,17 +239,17 @@ $('#Lenguetaslmhqlyrh a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapnxtqmuru() {
+  function initmapxosmplrk() {
     // Nuevo Mapa
-    mapnxtqmuru = new L.Map('LeafLetnxtqmuru');
+    mapxosmplrk = new L.Map('LeafLetxosmplrk');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapnxtqmuru.setView(new L.LatLng(25.54, -103.44), 12);
+    mapxosmplrk.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapnxtqmuru.addLayer(osm);
+    mapxosmplrk.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -281,13 +282,13 @@ $('#Lenguetaslmhqlyrh a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapnxtqmuru);
+    }).addTo(mapxosmplrk);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapnxtqmuru === 'undefined') {
-    varinitmapnxtqmuru = initmapnxtqmuru();
+  if (typeof varinitmapxosmplrk === 'undefined') {
+    varinitmapxosmplrk = initmapxosmplrk();
   };
 });
 FINAL;

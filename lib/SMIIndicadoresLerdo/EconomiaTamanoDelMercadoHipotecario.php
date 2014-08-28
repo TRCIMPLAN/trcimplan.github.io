@@ -18,13 +18,14 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tamaño del Mercado Hipotecario en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-tamano-del-mercado-hipotecario';
         $this->descripcion = 'Créditos dispuestos marginalmente durante el año indicado.';
         $this->claves      = 'Lerdo, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasqvbrmuao">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasoemaonlk">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -89,12 +90,12 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisnyjcenhb" class="grafica"></div>
+<div id="Morrislbnynlfx" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetnximatts" class="mapa"></div>
+              <div id="LeafLetnkanjgnb" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -260,14 +261,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasqvbrmuao a:first').tab('show')
+  $('#Lenguetasoemaonlk a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasqvbrmuao a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasoemaonlk a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisnyjcenhb === 'undefined') {
-    varMorrisnyjcenhb = Morris.Line({
-      element: 'Morrisnyjcenhb',
+  if (typeof varMorrislbnynlfx === 'undefined') {
+    varMorrislbnynlfx = Morris.Line({
+      element: 'Morrislbnynlfx',
       data: [{ fecha: '2010-12-31', dato: 76 },{ fecha: '2011-12-31', dato: 179 },{ fecha: '2012-12-31', dato: 340 },{ fecha: '2013-12-31', dato: 379 },{ fecha: '2014-03-31', dato: 27 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -279,9 +280,9 @@ $('#Lenguetasqvbrmuao a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasqvbrmuao a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasoemaonlk a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapnximatts;
+  var mapnkanjgnb;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -298,17 +299,17 @@ $('#Lenguetasqvbrmuao a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapnximatts() {
+  function initmapnkanjgnb() {
     // Nuevo Mapa
-    mapnximatts = new L.Map('LeafLetnximatts');
+    mapnkanjgnb = new L.Map('LeafLetnkanjgnb');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapnximatts.setView(new L.LatLng(25.54, -103.44), 12);
+    mapnkanjgnb.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapnximatts.addLayer(osm);
+    mapnkanjgnb.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -341,13 +342,13 @@ $('#Lenguetasqvbrmuao a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapnximatts);
+    }).addTo(mapnkanjgnb);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapnximatts === 'undefined') {
-    varinitmapnximatts = initmapnximatts();
+  if (typeof varinitmapnkanjgnb === 'undefined') {
+    varinitmapnkanjgnb = initmapnkanjgnb();
   };
 });
 FINAL;

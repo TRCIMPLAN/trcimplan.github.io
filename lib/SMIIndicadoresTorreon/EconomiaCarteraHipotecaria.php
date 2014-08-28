@@ -18,13 +18,14 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Cartera Hipotecaria en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-cartera-hipotecaria';
-        $this->descripcion = 'Monto de créditos otorgados a la fecha indicada.';
+        $this->descripcion = 'Monto total de créditos otorgados hasta la fecha indicada.';
         $this->claves      = 'Torreón, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaswjkvirfw">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasckjtiqco">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -33,7 +34,7 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
   <div class="tab-content">
     <div class="tab-pane" id="descripcion">
       <h4>Descripción</h4>
-Monto de créditos otorgados a la fecha indicada.
+Monto total de créditos otorgados hasta la fecha indicada.
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -89,12 +90,12 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morriswrvtjtbo" class="grafica"></div>
+<div id="Morriscksalpkl" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetqsyexqko" class="mapa"></div>
+              <div id="LeafLetwwphzofm" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -260,14 +261,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaswjkvirfw a:first').tab('show')
+  $('#Lenguetasckjtiqco a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaswjkvirfw a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasckjtiqco a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriswrvtjtbo === 'undefined') {
-    varMorriswrvtjtbo = Morris.Line({
-      element: 'Morriswrvtjtbo',
+  if (typeof varMorriscksalpkl === 'undefined') {
+    varMorriscksalpkl = Morris.Line({
+      element: 'Morriscksalpkl',
       data: [{ fecha: '2010-12-31', dato: 3479653828.00 },{ fecha: '2011-12-31', dato: 3741316668.00 },{ fecha: '2012-12-31', dato: 4027766032.00 },{ fecha: '2013-12-31', dato: 4476538920.00 },{ fecha: '2014-03-31', dato: 4664619926.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -279,9 +280,9 @@ $('#Lenguetaswjkvirfw a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaswjkvirfw a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasckjtiqco a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapqsyexqko;
+  var mapwwphzofm;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -298,17 +299,17 @@ $('#Lenguetaswjkvirfw a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapqsyexqko() {
+  function initmapwwphzofm() {
     // Nuevo Mapa
-    mapqsyexqko = new L.Map('LeafLetqsyexqko');
+    mapwwphzofm = new L.Map('LeafLetwwphzofm');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapqsyexqko.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwwphzofm.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapqsyexqko.addLayer(osm);
+    mapwwphzofm.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -341,13 +342,13 @@ $('#Lenguetaswjkvirfw a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapqsyexqko);
+    }).addTo(mapwwphzofm);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapqsyexqko === 'undefined') {
-    varinitmapqsyexqko = initmapqsyexqko();
+  if (typeof varinitmapwwphzofm === 'undefined') {
+    varinitmapwwphzofm = initmapwwphzofm();
   };
 });
 FINAL;

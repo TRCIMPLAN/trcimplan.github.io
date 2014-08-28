@@ -18,13 +18,14 @@ class EconomiaPermisoDeConstruccion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Permiso de Construcción en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-permiso-de-construccion';
         $this->descripcion = 'Número de días necesarios para conseguir un permiso de construcción.';
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdqjvafxl">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasreolkzwy">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -76,12 +77,12 @@ Costo (% de ingreso per cápita) = 40,6</td>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morriskxzpuokm" class="grafica"></div>
+<div id="Morrisdrrtmfso" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetjixqecyu" class="mapa"></div>
+              <div id="LeafLetlpaxkcbk" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
@@ -91,14 +92,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdqjvafxl a:first').tab('show')
+  $('#Lenguetasreolkzwy a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasdqjvafxl a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasreolkzwy a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskxzpuokm === 'undefined') {
-    varMorriskxzpuokm = Morris.Line({
-      element: 'Morriskxzpuokm',
+  if (typeof varMorrisdrrtmfso === 'undefined') {
+    varMorrisdrrtmfso = Morris.Line({
+      element: 'Morrisdrrtmfso',
       data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -110,9 +111,9 @@ $('#Lenguetasdqjvafxl a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasdqjvafxl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasreolkzwy a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapjixqecyu;
+  var maplpaxkcbk;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -129,17 +130,17 @@ $('#Lenguetasdqjvafxl a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapjixqecyu() {
+  function initmaplpaxkcbk() {
     // Nuevo Mapa
-    mapjixqecyu = new L.Map('LeafLetjixqecyu');
+    maplpaxkcbk = new L.Map('LeafLetlpaxkcbk');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapjixqecyu.setView(new L.LatLng(25.54, -103.44), 12);
+    maplpaxkcbk.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapjixqecyu.addLayer(osm);
+    maplpaxkcbk.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -172,13 +173,13 @@ $('#Lenguetasdqjvafxl a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapjixqecyu);
+    }).addTo(maplpaxkcbk);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapjixqecyu === 'undefined') {
-    varinitmapjixqecyu = initmapjixqecyu();
+  if (typeof varinitmaplpaxkcbk === 'undefined') {
+    varinitmaplpaxkcbk = initmaplpaxkcbk();
   };
 });
 FINAL;

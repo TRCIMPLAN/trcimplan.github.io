@@ -18,13 +18,14 @@ class EconomiaMicroempresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Microempresas en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-microempresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean de 0 a 10 personas.';
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbuvkzrrg">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetassfnydfdh">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -71,12 +72,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisdrloefae" class="grafica"></div>
+<div id="Morrisrusompdy" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetpugeslwu" class="mapa"></div>
+              <div id="LeafLetihsyjfxp" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +201,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbuvkzrrg a:first').tab('show')
+  $('#Lenguetassfnydfdh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbuvkzrrg a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetassfnydfdh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisdrloefae === 'undefined') {
-    varMorrisdrloefae = Morris.Line({
-      element: 'Morrisdrloefae',
+  if (typeof varMorrisrusompdy === 'undefined') {
+    varMorrisrusompdy = Morris.Line({
+      element: 'Morrisrusompdy',
       data: [{ fecha: '2013-12-31', dato: 88.6100 },{ fecha: '2014-07-31', dato: 89.6500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -219,9 +220,9 @@ $('#Lenguetasbuvkzrrg a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasbuvkzrrg a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetassfnydfdh a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mappugeslwu;
+  var mapihsyjfxp;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -238,17 +239,17 @@ $('#Lenguetasbuvkzrrg a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmappugeslwu() {
+  function initmapihsyjfxp() {
     // Nuevo Mapa
-    mappugeslwu = new L.Map('LeafLetpugeslwu');
+    mapihsyjfxp = new L.Map('LeafLetihsyjfxp');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mappugeslwu.setView(new L.LatLng(25.54, -103.44), 12);
+    mapihsyjfxp.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mappugeslwu.addLayer(osm);
+    mapihsyjfxp.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -281,13 +282,13 @@ $('#Lenguetasbuvkzrrg a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mappugeslwu);
+    }).addTo(mapihsyjfxp);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmappugeslwu === 'undefined') {
-    varinitmappugeslwu = initmappugeslwu();
+  if (typeof varinitmapihsyjfxp === 'undefined') {
+    varinitmapihsyjfxp = initmapihsyjfxp();
   };
 });
 FINAL;

@@ -18,13 +18,14 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Generación de Basura en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-generacion-de-basura';
         $this->descripcion = 'Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.';
         $this->claves      = 'Gómez Palacio, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetascdtkfmht">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasnhlsvmhk">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +65,7 @@ Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.asp
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwkkxwrxp" class="mapa"></div>
+              <div id="LeafLetmtprlgvu" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -139,12 +140,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetascdtkfmht a:first').tab('show')
+  $('#Lenguetasnhlsvmhk a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetascdtkfmht a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnhlsvmhk a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwkkxwrxp;
+  var mapmtprlgvu;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -161,17 +162,17 @@ $('#Lenguetascdtkfmht a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwkkxwrxp() {
+  function initmapmtprlgvu() {
     // Nuevo Mapa
-    mapwkkxwrxp = new L.Map('LeafLetwkkxwrxp');
+    mapmtprlgvu = new L.Map('LeafLetmtprlgvu');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwkkxwrxp.setView(new L.LatLng(25.54, -103.44), 12);
+    mapmtprlgvu.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwkkxwrxp.addLayer(osm);
+    mapmtprlgvu.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -204,13 +205,13 @@ $('#Lenguetascdtkfmht a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwkkxwrxp);
+    }).addTo(mapmtprlgvu);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwkkxwrxp === 'undefined') {
-    varinitmapwkkxwrxp = initmapwkkxwrxp();
+  if (typeof varinitmapmtprlgvu === 'undefined') {
+    varinitmapmtprlgvu = initmapmtprlgvu();
   };
 });
 FINAL;

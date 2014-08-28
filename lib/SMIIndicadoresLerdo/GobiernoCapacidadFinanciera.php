@@ -18,13 +18,14 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Capacidad Financiera en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-capacidad-financiera';
         $this->descripcion = 'Ingresos propios entre gastos corrientes.';
         $this->claves      = 'Lerdo, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrzbjpitk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmuyahfcv">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -102,12 +103,12 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisvecbnzuw" class="grafica"></div>
+<div id="Morrisygjjrrnn" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetjotnjnyu" class="mapa"></div>
+              <div id="LeafLetriulmhqh" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -315,14 +316,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrzbjpitk a:first').tab('show')
+  $('#Lenguetasmuyahfcv a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasrzbjpitk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmuyahfcv a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisvecbnzuw === 'undefined') {
-    varMorrisvecbnzuw = Morris.Line({
-      element: 'Morrisvecbnzuw',
+  if (typeof varMorrisygjjrrnn === 'undefined') {
+    varMorrisygjjrrnn = Morris.Line({
+      element: 'Morrisygjjrrnn',
       data: [{ fecha: '2007-12-31', dato: 25.5200 },{ fecha: '2008-12-31', dato: 27.7100 },{ fecha: '2009-12-31', dato: 46.3000 },{ fecha: '2010-12-31', dato: 24.1400 },{ fecha: '2011-12-31', dato: 26.0300 },{ fecha: '2012-12-31', dato: 23.7600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -334,9 +335,9 @@ $('#Lenguetasrzbjpitk a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasrzbjpitk a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmuyahfcv a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapjotnjnyu;
+  var mapriulmhqh;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -353,17 +354,17 @@ $('#Lenguetasrzbjpitk a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapjotnjnyu() {
+  function initmapriulmhqh() {
     // Nuevo Mapa
-    mapjotnjnyu = new L.Map('LeafLetjotnjnyu');
+    mapriulmhqh = new L.Map('LeafLetriulmhqh');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapjotnjnyu.setView(new L.LatLng(25.54, -103.44), 12);
+    mapriulmhqh.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapjotnjnyu.addLayer(osm);
+    mapriulmhqh.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -396,13 +397,13 @@ $('#Lenguetasrzbjpitk a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapjotnjnyu);
+    }).addTo(mapriulmhqh);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapjotnjnyu === 'undefined') {
-    varinitmapjotnjnyu = initmapjotnjnyu();
+  if (typeof varinitmapriulmhqh === 'undefined') {
+    varinitmapriulmhqh = initmapriulmhqh();
   };
 });
 FINAL;

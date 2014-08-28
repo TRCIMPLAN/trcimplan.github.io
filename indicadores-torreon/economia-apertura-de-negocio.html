@@ -72,11 +72,11 @@
           </div>
         </li>
         <li><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
-        <li>
+        <li class="active">
           <a href="#"><i class="fa fa-bar-chart"></i> Indicadores<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
-            <li><a href="../indicadores-torreon/"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li class="active"><a href="../indicadores-torreon/"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
             <li><a href="../indicadores-gomez-palacio/"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
             <li><a href="../indicadores-lerdo/"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
             <li><a href="../indicadores-matamoros/"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
@@ -137,9 +137,9 @@
 <article>
   <header>
     <h1>Apertura de Negocio en Torreón</h1>
-    <p class="autor-fecha">Por TrcIMPLAN, 1980-01-01</p>
+    <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasobfrolkv">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgjbhbuck">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -204,7 +204,7 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrfywzzgk" class="mapa"></div>
+              <div id="LeafLetmnfxqxgj" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
@@ -233,12 +233,12 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasobfrolkv a:first').tab('show')
+  $('#Lenguetasgjbhbuck a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasobfrolkv a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasgjbhbuck a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprfywzzgk;
+  var mapmnfxqxgj;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -255,17 +255,17 @@ $('#Lenguetasobfrolkv a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprfywzzgk() {
+  function initmapmnfxqxgj() {
     // Nuevo Mapa
-    maprfywzzgk = new L.Map('LeafLetrfywzzgk');
+    mapmnfxqxgj = new L.Map('LeafLetmnfxqxgj');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprfywzzgk.setView(new L.LatLng(25.54, -103.44), 12);
+    mapmnfxqxgj.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprfywzzgk.addLayer(osm);
+    mapmnfxqxgj.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -298,13 +298,13 @@ $('#Lenguetasobfrolkv a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprfywzzgk);
+    }).addTo(mapmnfxqxgj);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprfywzzgk === 'undefined') {
-    varinitmaprfywzzgk = initmaprfywzzgk();
+  if (typeof varinitmapmnfxqxgj === 'undefined') {
+    varinitmapmnfxqxgj = initmapmnfxqxgj();
   };
 });
 </script>

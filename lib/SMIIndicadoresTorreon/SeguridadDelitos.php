@@ -18,13 +18,14 @@ class SeguridadDelitos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Delitos en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-delitos';
         $this->descripcion = 'Total de delitos cometidos en el segundo trimestre 2014';
         $this->claves      = 'Torreón, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfzjsvcti">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasflboykoo">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -74,12 +75,12 @@ Total de delitos cometidos en el segundo trimestre 2014
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morriszlszmnaq" class="grafica"></div>
+<div id="Morrisrflsophd" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetqpelykzj" class="mapa"></div>
+              <div id="LeafLetpmexmdtz" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -175,14 +176,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfzjsvcti a:first').tab('show')
+  $('#Lenguetasflboykoo a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasfzjsvcti a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasflboykoo a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriszlszmnaq === 'undefined') {
-    varMorriszlszmnaq = Morris.Line({
-      element: 'Morriszlszmnaq',
+  if (typeof varMorrisrflsophd === 'undefined') {
+    varMorrisrflsophd = Morris.Line({
+      element: 'Morrisrflsophd',
       data: [{ fecha: '2014-01-31', dato: 934 },{ fecha: '2014-02-28', dato: 841 },{ fecha: '2014-06-30', dato: 2542 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -194,9 +195,9 @@ $('#Lenguetasfzjsvcti a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasfzjsvcti a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasflboykoo a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapqpelykzj;
+  var mappmexmdtz;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -213,17 +214,17 @@ $('#Lenguetasfzjsvcti a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapqpelykzj() {
+  function initmappmexmdtz() {
     // Nuevo Mapa
-    mapqpelykzj = new L.Map('LeafLetqpelykzj');
+    mappmexmdtz = new L.Map('LeafLetpmexmdtz');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapqpelykzj.setView(new L.LatLng(25.54, -103.44), 12);
+    mappmexmdtz.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapqpelykzj.addLayer(osm);
+    mappmexmdtz.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -256,13 +257,13 @@ $('#Lenguetasfzjsvcti a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapqpelykzj);
+    }).addTo(mappmexmdtz);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapqpelykzj === 'undefined') {
-    varinitmapqpelykzj = initmapqpelykzj();
+  if (typeof varinitmappmexmdtz === 'undefined') {
+    varinitmappmexmdtz = initmappmexmdtz();
   };
 });
 FINAL;

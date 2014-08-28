@@ -39,6 +39,17 @@ class Completo {
     } // constructor
 
     /**
+     * Formato fecha
+     *
+     * @param  string Fecha en el formato de la base de datos YYYY-MM-DD
+     * @return string Fecha en el formato DD/MM/YYYY
+     */
+    protected function formato_fecha($fecha) {
+        $a = explode('-', $fecha);
+        return sprintf('%02d/%02d/%04d', $a[2], $a[1], $a[0]);
+    } // formato_fecha
+
+    /**
      * HTML
      *
      * @return string Código HTML
@@ -64,7 +75,7 @@ class Completo {
         } elseif ($this->publicacion->nombre != '') {
             $a[] = "    <h1>{$this->publicacion->nombre}</h1>";
         }
-        $a[] = "    <p class=\"autor-fecha\">Por {$this->publicacion->autor}, {$this->publicacion->fecha}</p>";
+        $a[] = "    <p class=\"autor-fecha\">Por {$this->publicacion->autor}, ".$this->formato_fecha($this->publicacion->fecha)."</p>";
         $a[] = '  </header>';
         $a[] = $this->publicacion->contenido;
         $a[] = '</article>';

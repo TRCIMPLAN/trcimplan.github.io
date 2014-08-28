@@ -18,13 +18,14 @@ class SociedadUniversidades extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Universidades en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-universidades';
         $this->descripcion = 'Planteles de Instituciones de Educación Superior.';
         $this->claves      = 'La Laguna, Educación';
         $this->categorias  = array('Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaslnfvfhto">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszkpixxyi">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -96,7 +97,7 @@ Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicame
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetenaaokaq" class="mapa"></div>
+              <div id="LeafLetqrkmxlkc" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -150,12 +151,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaslnfvfhto a:first').tab('show')
+  $('#Lenguetaszkpixxyi a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaslnfvfhto a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszkpixxyi a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapenaaokaq;
+  var mapqrkmxlkc;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -172,17 +173,17 @@ $('#Lenguetaslnfvfhto a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapenaaokaq() {
+  function initmapqrkmxlkc() {
     // Nuevo Mapa
-    mapenaaokaq = new L.Map('LeafLetenaaokaq');
+    mapqrkmxlkc = new L.Map('LeafLetqrkmxlkc');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapenaaokaq.setView(new L.LatLng(25.54, -103.44), 12);
+    mapqrkmxlkc.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapenaaokaq.addLayer(osm);
+    mapqrkmxlkc.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -215,13 +216,13 @@ $('#Lenguetaslnfvfhto a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapenaaokaq);
+    }).addTo(mapqrkmxlkc);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapenaaokaq === 'undefined') {
-    varinitmapenaaokaq = initmapenaaokaq();
+  if (typeof varinitmapqrkmxlkc === 'undefined') {
+    varinitmapqrkmxlkc = initmapqrkmxlkc();
   };
 });
 FINAL;

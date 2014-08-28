@@ -80,7 +80,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $this->directorio    = $publicacion->directorio;
         $this->ruta          = "{$publicacion->directorio}/{$publicacion->archivo}.html";
         $this->imagen_previa = $publicacion->imagen_previa;
-        $this->javascript[]  = $publicacion->javascript;
+        $this->javascript    = $publicacion->javascript;
     } // incorporar_publicacion
 
     /**

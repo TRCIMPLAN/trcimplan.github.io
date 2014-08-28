@@ -18,13 +18,14 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \Base\Publicacion
      */
     public function __construct() {
         $this->nombre      = 'Unidades Económicas Dedicadas a los Servicios en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-unidades-economicas-dedicadas-a-los-servicios';
         $this->descripcion = 'Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.';
         $this->claves      = 'La Laguna, Empresas, Mercados';
         $this->categorias  = array('Empresas', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbtvprzfh">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasepmpmmto">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -81,12 +82,12 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisfvcxqxys" class="grafica"></div>
+<div id="Morrispajymixb" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetedowxcpp" class="mapa"></div>
+              <div id="LeafLetuslxoouk" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -252,14 +253,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbtvprzfh a:first').tab('show')
+  $('#Lenguetasepmpmmto a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbtvprzfh a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasepmpmmto a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisfvcxqxys === 'undefined') {
-    varMorrisfvcxqxys = Morris.Line({
-      element: 'Morrisfvcxqxys',
+  if (typeof varMorrispajymixb === 'undefined') {
+    varMorrispajymixb = Morris.Line({
+      element: 'Morrispajymixb',
       data: [{ fecha: '1998-12-31', dato: 36.3900 },{ fecha: '2003-12-31', dato: 37.2100 },{ fecha: '2008-12-31', dato: 40.7100 },{ fecha: '2013-10-31', dato: 43.0600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -271,9 +272,9 @@ $('#Lenguetasbtvprzfh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasbtvprzfh a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasepmpmmto a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapedowxcpp;
+  var mapuslxoouk;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -290,17 +291,17 @@ $('#Lenguetasbtvprzfh a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapedowxcpp() {
+  function initmapuslxoouk() {
     // Nuevo Mapa
-    mapedowxcpp = new L.Map('LeafLetedowxcpp');
+    mapuslxoouk = new L.Map('LeafLetuslxoouk');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapedowxcpp.setView(new L.LatLng(25.54, -103.44), 12);
+    mapuslxoouk.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapedowxcpp.addLayer(osm);
+    mapuslxoouk.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -333,13 +334,13 @@ $('#Lenguetasbtvprzfh a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapedowxcpp);
+    }).addTo(mapuslxoouk);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapedowxcpp === 'undefined') {
-    varinitmapedowxcpp = initmapedowxcpp();
+  if (typeof varinitmapuslxoouk === 'undefined') {
+    varinitmapuslxoouk = initmapuslxoouk();
   };
 });
 FINAL;

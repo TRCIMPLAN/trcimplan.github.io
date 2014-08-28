@@ -18,13 +18,14 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento20082012 extends \Base\Publ
      */
     public function __construct() {
         $this->nombre      = 'Sectores que Han Presentado Alto Crecimiento (2008-2012) en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-';
         $this->descripcion = '% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.';
         $this->claves      = 'Matamoros, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasubydjliy">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasukxczdvc">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -66,7 +67,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetssafvriy" class="mapa"></div>
+              <div id="LeafLetdzctvpco" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -127,12 +128,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasubydjliy a:first').tab('show')
+  $('#Lenguetasukxczdvc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasubydjliy a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasukxczdvc a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapssafvriy;
+  var mapdzctvpco;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -149,17 +150,17 @@ $('#Lenguetasubydjliy a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapssafvriy() {
+  function initmapdzctvpco() {
     // Nuevo Mapa
-    mapssafvriy = new L.Map('LeafLetssafvriy');
+    mapdzctvpco = new L.Map('LeafLetdzctvpco');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapssafvriy.setView(new L.LatLng(25.54, -103.44), 12);
+    mapdzctvpco.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapssafvriy.addLayer(osm);
+    mapdzctvpco.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -192,13 +193,13 @@ $('#Lenguetasubydjliy a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapssafvriy);
+    }).addTo(mapdzctvpco);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapssafvriy === 'undefined') {
-    varinitmapssafvriy = initmapssafvriy();
+  if (typeof varinitmapdzctvpco === 'undefined') {
+    varinitmapdzctvpco = initmapdzctvpco();
   };
 });
 FINAL;

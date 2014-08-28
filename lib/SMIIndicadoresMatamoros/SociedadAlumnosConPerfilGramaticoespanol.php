@@ -18,13 +18,14 @@ class SociedadAlumnosConPerfilGramaticoespanol extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Alumnos con Perfil Gramático-Español en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-alumnos-con-perfil-gramatico-espanol';
         $this->descripcion = 'Alumnos buenos y excelentes en Prueba Enlace nivel básico.';
         $this->claves      = 'Matamoros, Educación';
         $this->categorias  = array('Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbnodtojh">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgtncvlru">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -65,7 +66,7 @@ Consulta la [Base de datos](http://www.enlace.sep.gob.mx/content/ba/pages/base_d
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetsugsmmzx" class="mapa"></div>
+              <div id="LeafLetyduzbqip" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -119,12 +120,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbnodtojh a:first').tab('show')
+  $('#Lenguetasgtncvlru a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbnodtojh a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasgtncvlru a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapsugsmmzx;
+  var mapyduzbqip;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -141,17 +142,17 @@ $('#Lenguetasbnodtojh a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapsugsmmzx() {
+  function initmapyduzbqip() {
     // Nuevo Mapa
-    mapsugsmmzx = new L.Map('LeafLetsugsmmzx');
+    mapyduzbqip = new L.Map('LeafLetyduzbqip');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapsugsmmzx.setView(new L.LatLng(25.54, -103.44), 12);
+    mapyduzbqip.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapsugsmmzx.addLayer(osm);
+    mapyduzbqip.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -184,13 +185,13 @@ $('#Lenguetasbnodtojh a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapsugsmmzx);
+    }).addTo(mapyduzbqip);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapsugsmmzx === 'undefined') {
-    varinitmapsugsmmzx = initmapsugsmmzx();
+  if (typeof varinitmapyduzbqip === 'undefined') {
+    varinitmapyduzbqip = initmapyduzbqip();
   };
 });
 FINAL;

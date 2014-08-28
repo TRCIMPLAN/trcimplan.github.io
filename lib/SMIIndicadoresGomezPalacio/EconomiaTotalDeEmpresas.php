@@ -18,13 +18,14 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Total de Empresas en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-total-de-empresas';
         $this->descripcion = '';
         $this->claves      = 'Gómez Palacio, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasswqsdpyx">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaslwpledtr">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -69,12 +70,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisrnitsclv" class="grafica"></div>
+<div id="Morrispkuivjrs" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetvqmysoez" class="mapa"></div>
+              <div id="LeafLetokyyanvj" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -198,14 +199,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasswqsdpyx a:first').tab('show')
+  $('#Lenguetaslwpledtr a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasswqsdpyx a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaslwpledtr a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrnitsclv === 'undefined') {
-    varMorrisrnitsclv = Morris.Line({
-      element: 'Morrisrnitsclv',
+  if (typeof varMorrispkuivjrs === 'undefined') {
+    varMorrispkuivjrs = Morris.Line({
+      element: 'Morrispkuivjrs',
       data: [{ fecha: '2013-12-31', dato: 1942 },{ fecha: '2014-07-31', dato: 2032 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -217,9 +218,9 @@ $('#Lenguetasswqsdpyx a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasswqsdpyx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaslwpledtr a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapvqmysoez;
+  var mapokyyanvj;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -236,17 +237,17 @@ $('#Lenguetasswqsdpyx a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapvqmysoez() {
+  function initmapokyyanvj() {
     // Nuevo Mapa
-    mapvqmysoez = new L.Map('LeafLetvqmysoez');
+    mapokyyanvj = new L.Map('LeafLetokyyanvj');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapvqmysoez.setView(new L.LatLng(25.54, -103.44), 12);
+    mapokyyanvj.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapvqmysoez.addLayer(osm);
+    mapokyyanvj.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -279,13 +280,13 @@ $('#Lenguetasswqsdpyx a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapvqmysoez);
+    }).addTo(mapokyyanvj);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapvqmysoez === 'undefined') {
-    varinitmapvqmysoez = initmapvqmysoez();
+  if (typeof varinitmapokyyanvj === 'undefined') {
+    varinitmapokyyanvj = initmapokyyanvj();
   };
 });
 FINAL;

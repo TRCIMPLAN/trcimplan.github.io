@@ -18,13 +18,14 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera Troncal Federal en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-red-carretera-troncal-federal';
         $this->descripcion = '';
         $this->claves      = 'Lerdo, Infraestructura';
         $this->categorias  = array('Infraestructura');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasyfufvnrd">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasscoqunhl">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +64,7 @@ No aplica a nivel metropolitano.
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetqkfuhzfu" class="mapa"></div>
+              <div id="LeafLetlxfxptwt" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +111,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasyfufvnrd a:first').tab('show')
+  $('#Lenguetasscoqunhl a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasyfufvnrd a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasscoqunhl a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapqkfuhzfu;
+  var maplxfxptwt;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +133,17 @@ $('#Lenguetasyfufvnrd a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapqkfuhzfu() {
+  function initmaplxfxptwt() {
     // Nuevo Mapa
-    mapqkfuhzfu = new L.Map('LeafLetqkfuhzfu');
+    maplxfxptwt = new L.Map('LeafLetlxfxptwt');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapqkfuhzfu.setView(new L.LatLng(25.54, -103.44), 12);
+    maplxfxptwt.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapqkfuhzfu.addLayer(osm);
+    maplxfxptwt.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +176,13 @@ $('#Lenguetasyfufvnrd a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapqkfuhzfu);
+    }).addTo(maplxfxptwt);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapqkfuhzfu === 'undefined') {
-    varinitmapqkfuhzfu = initmapqkfuhzfu();
+  if (typeof varinitmaplxfxptwt === 'undefined') {
+    varinitmaplxfxptwt = initmaplxfxptwt();
   };
 });
 FINAL;

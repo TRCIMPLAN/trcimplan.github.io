@@ -18,13 +18,14 @@ class EconomiaMicroempresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Microempresas en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-microempresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean de 0 a 10 personas.';
         $this->claves      = 'Lerdo, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasaqjjjwqg">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashxiwonqt">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -71,12 +72,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisvtexbtsi" class="grafica"></div>
+<div id="Morrisomldqicl" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbdwgcuhp" class="mapa"></div>
+              <div id="LeafLetokecxpsy" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +201,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasaqjjjwqg a:first').tab('show')
+  $('#Lenguetashxiwonqt a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasaqjjjwqg a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetashxiwonqt a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisvtexbtsi === 'undefined') {
-    varMorrisvtexbtsi = Morris.Line({
-      element: 'Morrisvtexbtsi',
+  if (typeof varMorrisomldqicl === 'undefined') {
+    varMorrisomldqicl = Morris.Line({
+      element: 'Morrisomldqicl',
       data: [{ fecha: '2013-12-31', dato: 89.8700 },{ fecha: '2014-07-31', dato: 92.7000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -219,9 +220,9 @@ $('#Lenguetasaqjjjwqg a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasaqjjjwqg a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetashxiwonqt a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbdwgcuhp;
+  var mapokecxpsy;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -238,17 +239,17 @@ $('#Lenguetasaqjjjwqg a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbdwgcuhp() {
+  function initmapokecxpsy() {
     // Nuevo Mapa
-    mapbdwgcuhp = new L.Map('LeafLetbdwgcuhp');
+    mapokecxpsy = new L.Map('LeafLetokecxpsy');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbdwgcuhp.setView(new L.LatLng(25.54, -103.44), 12);
+    mapokecxpsy.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbdwgcuhp.addLayer(osm);
+    mapokecxpsy.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -281,13 +282,13 @@ $('#Lenguetasaqjjjwqg a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbdwgcuhp);
+    }).addTo(mapokecxpsy);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbdwgcuhp === 'undefined') {
-    varinitmapbdwgcuhp = initmapbdwgcuhp();
+  if (typeof varinitmapokecxpsy === 'undefined') {
+    varinitmapokecxpsy = initmapokecxpsy();
   };
 });
 FINAL;

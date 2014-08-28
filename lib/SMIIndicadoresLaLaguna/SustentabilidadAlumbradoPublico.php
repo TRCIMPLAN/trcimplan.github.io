@@ -18,13 +18,14 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Alumbrado Público en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-alumbrado-publico';
         $this->descripcion = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
         $this->claves      = 'La Laguna, Servicios Públicos';
         $this->categorias  = array('Servicios Públicos');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrveyhocs">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasqzolswpz">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +65,7 @@ Censo de Población y Vivienda 2010. Consulta las [Bases de Datos](http://www.in
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetjvhklhbr" class="mapa"></div>
+              <div id="LeafLetshugjona" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -118,12 +119,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrveyhocs a:first').tab('show')
+  $('#Lenguetasqzolswpz a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasrveyhocs a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasqzolswpz a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapjvhklhbr;
+  var mapshugjona;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -140,17 +141,17 @@ $('#Lenguetasrveyhocs a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapjvhklhbr() {
+  function initmapshugjona() {
     // Nuevo Mapa
-    mapjvhklhbr = new L.Map('LeafLetjvhklhbr');
+    mapshugjona = new L.Map('LeafLetshugjona');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapjvhklhbr.setView(new L.LatLng(25.54, -103.44), 12);
+    mapshugjona.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapjvhklhbr.addLayer(osm);
+    mapshugjona.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -183,13 +184,13 @@ $('#Lenguetasrveyhocs a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapjvhklhbr);
+    }).addTo(mapshugjona);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapjvhklhbr === 'undefined') {
-    varinitmapjvhklhbr = initmapjvhklhbr();
+  if (typeof varinitmapshugjona === 'undefined') {
+    varinitmapshugjona = initmapshugjona();
   };
 });
 FINAL;

@@ -18,13 +18,14 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Personal Ocupado en los Servicios en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-personal-ocupado-en-los-servicios';
         $this->descripcion = 'Personal ocupado en las actividades de servicios entre personal ocupado total.';
         $this->claves      = 'Lerdo, Empleo, Mercados';
         $this->categorias  = array('Empleo', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasuldimars">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasidzyqzdd">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -75,12 +76,12 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisxexwskrx" class="grafica"></div>
+<div id="Morrisnqoivxct" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetalpautbb" class="mapa"></div>
+              <div id="LeafLetitzqfxsu" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -211,14 +212,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasuldimars a:first').tab('show')
+  $('#Lenguetasidzyqzdd a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasuldimars a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasidzyqzdd a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisxexwskrx === 'undefined') {
-    varMorrisxexwskrx = Morris.Line({
-      element: 'Morrisxexwskrx',
+  if (typeof varMorrisnqoivxct === 'undefined') {
+    varMorrisnqoivxct = Morris.Line({
+      element: 'Morrisnqoivxct',
       data: [{ fecha: '1998-12-31', dato: 20.9500 },{ fecha: '2003-12-31', dato: 12.8400 },{ fecha: '2008-12-31', dato: 24.2010 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -230,9 +231,9 @@ $('#Lenguetasuldimars a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasuldimars a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasidzyqzdd a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapalpautbb;
+  var mapitzqfxsu;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -249,17 +250,17 @@ $('#Lenguetasuldimars a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapalpautbb() {
+  function initmapitzqfxsu() {
     // Nuevo Mapa
-    mapalpautbb = new L.Map('LeafLetalpautbb');
+    mapitzqfxsu = new L.Map('LeafLetitzqfxsu');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapalpautbb.setView(new L.LatLng(25.54, -103.44), 12);
+    mapitzqfxsu.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapalpautbb.addLayer(osm);
+    mapitzqfxsu.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -292,13 +293,13 @@ $('#Lenguetasuldimars a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapalpautbb);
+    }).addTo(mapitzqfxsu);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapalpautbb === 'undefined') {
-    varinitmapalpautbb = initmapalpautbb();
+  if (typeof varinitmapitzqfxsu === 'undefined') {
+    varinitmapitzqfxsu = initmapitzqfxsu();
   };
 });
 FINAL;

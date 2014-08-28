@@ -18,13 +18,14 @@ class EconomiaRegistroDePropiedades extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Registro de Propiedades en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-registro-de-propiedades';
         $this->descripcion = 'Días que toma el trámite para el registro de una propiedad.';
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdkpoqypf">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvqsdrubp">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -86,12 +87,12 @@ Costo (% del valor de la propiedad) = 4,5</td>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrissoirxqka" class="grafica"></div>
+<div id="Morrisodregthj" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetghlbovnp" class="mapa"></div>
+              <div id="LeafLetxxtgajvx" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
@@ -101,14 +102,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdkpoqypf a:first').tab('show')
+  $('#Lenguetasvqsdrubp a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasdkpoqypf a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvqsdrubp a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrissoirxqka === 'undefined') {
-    varMorrissoirxqka = Morris.Line({
-      element: 'Morrissoirxqka',
+  if (typeof varMorrisodregthj === 'undefined') {
+    varMorrisodregthj = Morris.Line({
+      element: 'Morrisodregthj',
       data: [{ fecha: '2007-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 33 },{ fecha: '2013-10-31', dato: 28 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -120,9 +121,9 @@ $('#Lenguetasdkpoqypf a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasdkpoqypf a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvqsdrubp a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapghlbovnp;
+  var mapxxtgajvx;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +140,17 @@ $('#Lenguetasdkpoqypf a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapghlbovnp() {
+  function initmapxxtgajvx() {
     // Nuevo Mapa
-    mapghlbovnp = new L.Map('LeafLetghlbovnp');
+    mapxxtgajvx = new L.Map('LeafLetxxtgajvx');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapghlbovnp.setView(new L.LatLng(25.54, -103.44), 12);
+    mapxxtgajvx.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapghlbovnp.addLayer(osm);
+    mapxxtgajvx.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +183,13 @@ $('#Lenguetasdkpoqypf a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapghlbovnp);
+    }).addTo(mapxxtgajvx);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapghlbovnp === 'undefined') {
-    varinitmapghlbovnp = initmapghlbovnp();
+  if (typeof varinitmapxxtgajvx === 'undefined') {
+    varinitmapxxtgajvx = initmapxxtgajvx();
   };
 });
 FINAL;

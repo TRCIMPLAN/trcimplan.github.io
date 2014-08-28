@@ -18,13 +18,14 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Espacios Culturales en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-espacios-culturales';
         $this->descripcion = 'Espacios culturales físicamente delimitados.';
         $this->claves      = 'Gómez Palacio, Educación, Cultura';
         $this->categorias  = array('Educación', 'Cultura');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdhvwzwly">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasuawjrgoo">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +65,7 @@ Se realizó un filtrado básico de la totalidad de los espacios culturales consi
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetgftlilbp" class="mapa"></div>
+              <div id="LeafLetglhrgdsi" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -118,12 +119,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdhvwzwly a:first').tab('show')
+  $('#Lenguetasuawjrgoo a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasdhvwzwly a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasuawjrgoo a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapgftlilbp;
+  var mapglhrgdsi;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -140,17 +141,17 @@ $('#Lenguetasdhvwzwly a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapgftlilbp() {
+  function initmapglhrgdsi() {
     // Nuevo Mapa
-    mapgftlilbp = new L.Map('LeafLetgftlilbp');
+    mapglhrgdsi = new L.Map('LeafLetglhrgdsi');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapgftlilbp.setView(new L.LatLng(25.54, -103.44), 12);
+    mapglhrgdsi.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapgftlilbp.addLayer(osm);
+    mapglhrgdsi.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -183,13 +184,13 @@ $('#Lenguetasdhvwzwly a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapgftlilbp);
+    }).addTo(mapglhrgdsi);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapgftlilbp === 'undefined') {
-    varinitmapgftlilbp = initmapgftlilbp();
+  if (typeof varinitmapglhrgdsi === 'undefined') {
+    varinitmapglhrgdsi = initmapglhrgdsi();
   };
 });
 FINAL;

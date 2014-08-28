@@ -18,13 +18,14 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Competencia Electoral en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'gobierno-competencia-electoral';
         $this->descripcion = 'Diferencia entre los dos candidatos con más votación entre el total de votos.';
         $this->claves      = 'Torreón, Participación Ciudadana, Gobierno';
         $this->categorias  = array('Participación Ciudadana', 'Gobierno');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasgodeonue">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspcufrgcq">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +64,7 @@ Diferencia entre los dos candidatos con más votación entre el total de votos.
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetkmjxhtle" class="mapa"></div>
+              <div id="LeafLetvxgsqytt" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -117,12 +118,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasgodeonue a:first').tab('show')
+  $('#Lenguetaspcufrgcq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasgodeonue a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspcufrgcq a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapkmjxhtle;
+  var mapvxgsqytt;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +140,17 @@ $('#Lenguetasgodeonue a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapkmjxhtle() {
+  function initmapvxgsqytt() {
     // Nuevo Mapa
-    mapkmjxhtle = new L.Map('LeafLetkmjxhtle');
+    mapvxgsqytt = new L.Map('LeafLetvxgsqytt');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapkmjxhtle.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvxgsqytt.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapkmjxhtle.addLayer(osm);
+    mapvxgsqytt.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +183,13 @@ $('#Lenguetasgodeonue a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapkmjxhtle);
+    }).addTo(mapvxgsqytt);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapkmjxhtle === 'undefined') {
-    varinitmapkmjxhtle = initmapkmjxhtle();
+  if (typeof varinitmapvxgsqytt === 'undefined') {
+    varinitmapvxgsqytt = initmapvxgsqytt();
   };
 });
 FINAL;

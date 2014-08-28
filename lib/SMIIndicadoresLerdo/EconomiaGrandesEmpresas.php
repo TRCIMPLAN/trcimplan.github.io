@@ -18,13 +18,14 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Grandes Empresas en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-grandes-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
         $this->claves      = 'Lerdo, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasgxosgmvw">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmicqukup">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -72,7 +73,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLethvhlytic" class="mapa"></div>
+              <div id="LeafLettuiqlvox" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -196,12 +197,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasgxosgmvw a:first').tab('show')
+  $('#Lenguetasmicqukup a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasgxosgmvw a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmicqukup a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maphvhlytic;
+  var maptuiqlvox;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -218,17 +219,17 @@ $('#Lenguetasgxosgmvw a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaphvhlytic() {
+  function initmaptuiqlvox() {
     // Nuevo Mapa
-    maphvhlytic = new L.Map('LeafLethvhlytic');
+    maptuiqlvox = new L.Map('LeafLettuiqlvox');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maphvhlytic.setView(new L.LatLng(25.54, -103.44), 12);
+    maptuiqlvox.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maphvhlytic.addLayer(osm);
+    maptuiqlvox.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -261,13 +262,13 @@ $('#Lenguetasgxosgmvw a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maphvhlytic);
+    }).addTo(maptuiqlvox);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaphvhlytic === 'undefined') {
-    varinitmaphvhlytic = initmaphvhlytic();
+  if (typeof varinitmaptuiqlvox === 'undefined') {
+    varinitmaptuiqlvox = initmaptuiqlvox();
   };
 });
 FINAL;

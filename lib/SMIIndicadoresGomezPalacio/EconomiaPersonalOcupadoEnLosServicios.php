@@ -18,13 +18,14 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Personal Ocupado en los Servicios en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-personal-ocupado-en-los-servicios';
         $this->descripcion = 'Personal ocupado en las actividades de servicios entre personal ocupado total.';
         $this->claves      = 'Gómez Palacio, Empleo, Mercados';
         $this->categorias  = array('Empleo', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasqwqzvegc">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaslhqwnipa">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -75,12 +76,12 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisqdkxvlye" class="grafica"></div>
+<div id="Morriszgkwjxmm" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetnegyuruc" class="mapa"></div>
+              <div id="LeafLetwesfzjjr" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -211,14 +212,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasqwqzvegc a:first').tab('show')
+  $('#Lenguetaslhqwnipa a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasqwqzvegc a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaslhqwnipa a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisqdkxvlye === 'undefined') {
-    varMorrisqdkxvlye = Morris.Line({
-      element: 'Morrisqdkxvlye',
+  if (typeof varMorriszgkwjxmm === 'undefined') {
+    varMorriszgkwjxmm = Morris.Line({
+      element: 'Morriszgkwjxmm',
       data: [{ fecha: '1998-12-31', dato: 30.8700 },{ fecha: '2003-12-31', dato: 26.4600 },{ fecha: '2008-12-31', dato: 30.2786 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -230,9 +231,9 @@ $('#Lenguetasqwqzvegc a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasqwqzvegc a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaslhqwnipa a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapnegyuruc;
+  var mapwesfzjjr;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -249,17 +250,17 @@ $('#Lenguetasqwqzvegc a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapnegyuruc() {
+  function initmapwesfzjjr() {
     // Nuevo Mapa
-    mapnegyuruc = new L.Map('LeafLetnegyuruc');
+    mapwesfzjjr = new L.Map('LeafLetwesfzjjr');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapnegyuruc.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwesfzjjr.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapnegyuruc.addLayer(osm);
+    mapwesfzjjr.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -292,13 +293,13 @@ $('#Lenguetasqwqzvegc a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapnegyuruc);
+    }).addTo(mapwesfzjjr);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapnegyuruc === 'undefined') {
-    varinitmapnegyuruc = initmapnegyuruc();
+  if (typeof varinitmapwesfzjjr === 'undefined') {
+    varinitmapwesfzjjr = initmapwesfzjjr();
   };
 });
 FINAL;

@@ -18,13 +18,14 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Desarrollo Humano (IDH) en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-indice-de-desarrollo-humano--idh-';
         $this->descripcion = 'El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).';
         $this->claves      = 'Torreón, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasaebyxjvv">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasyywrcyja">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +64,7 @@ El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones U
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbbjgxoqj" class="mapa"></div>
+              <div id="LeafLetiffgpctm" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +111,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasaebyxjvv a:first').tab('show')
+  $('#Lenguetasyywrcyja a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasaebyxjvv a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasyywrcyja a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbbjgxoqj;
+  var mapiffgpctm;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +133,17 @@ $('#Lenguetasaebyxjvv a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbbjgxoqj() {
+  function initmapiffgpctm() {
     // Nuevo Mapa
-    mapbbjgxoqj = new L.Map('LeafLetbbjgxoqj');
+    mapiffgpctm = new L.Map('LeafLetiffgpctm');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbbjgxoqj.setView(new L.LatLng(25.54, -103.44), 12);
+    mapiffgpctm.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbbjgxoqj.addLayer(osm);
+    mapiffgpctm.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +176,13 @@ $('#Lenguetasaebyxjvv a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbbjgxoqj);
+    }).addTo(mapiffgpctm);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbbjgxoqj === 'undefined') {
-    varinitmapbbjgxoqj = initmapbbjgxoqj();
+  if (typeof varinitmapiffgpctm === 'undefined') {
+    varinitmapiffgpctm = initmapiffgpctm();
   };
 });
 FINAL;

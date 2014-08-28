@@ -18,13 +18,14 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Accidentes Viales Fatales en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-accidentes-viales-fatales';
         $this->descripcion = 'Cantidad de accidentes viales fatales por año.';
         $this->claves      = 'La Laguna, Vialidad';
         $this->categorias  = array('Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaskxlpvqpw">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasprkvjdcm">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +64,7 @@ Cantidad de accidentes viales fatales por año.
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetzwaehhxc" class="mapa"></div>
+              <div id="LeafLetpreqnutj" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -117,12 +118,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaskxlpvqpw a:first').tab('show')
+  $('#Lenguetasprkvjdcm a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaskxlpvqpw a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasprkvjdcm a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapzwaehhxc;
+  var mappreqnutj;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +140,17 @@ $('#Lenguetaskxlpvqpw a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapzwaehhxc() {
+  function initmappreqnutj() {
     // Nuevo Mapa
-    mapzwaehhxc = new L.Map('LeafLetzwaehhxc');
+    mappreqnutj = new L.Map('LeafLetpreqnutj');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapzwaehhxc.setView(new L.LatLng(25.54, -103.44), 12);
+    mappreqnutj.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapzwaehhxc.addLayer(osm);
+    mappreqnutj.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +183,13 @@ $('#Lenguetaskxlpvqpw a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapzwaehhxc);
+    }).addTo(mappreqnutj);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapzwaehhxc === 'undefined') {
-    varinitmapzwaehhxc = initmapzwaehhxc();
+  if (typeof varinitmappreqnutj === 'undefined') {
+    varinitmappreqnutj = initmappreqnutj();
   };
 });
 FINAL;

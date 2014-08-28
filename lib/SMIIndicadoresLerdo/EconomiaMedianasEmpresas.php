@@ -18,13 +18,14 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Medianas Empresas en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-medianas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean de 51 a 250 personas.';
         $this->claves      = 'Lerdo, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaswdshzycx">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasfruexjcp">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -71,12 +72,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrishiloezxb" class="grafica"></div>
+<div id="Morrisvfhtnnkq" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetmgitjtng" class="mapa"></div>
+              <div id="LeafLetasejoqfu" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +201,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaswdshzycx a:first').tab('show')
+  $('#Lenguetasfruexjcp a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaswdshzycx a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfruexjcp a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrishiloezxb === 'undefined') {
-    varMorrishiloezxb = Morris.Line({
-      element: 'Morrishiloezxb',
+  if (typeof varMorrisvfhtnnkq === 'undefined') {
+    varMorrisvfhtnnkq = Morris.Line({
+      element: 'Morrisvfhtnnkq',
       data: [{ fecha: '2013-12-31', dato: 3.1600 },{ fecha: '2014-07-31', dato: 1.6900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -219,9 +220,9 @@ $('#Lenguetaswdshzycx a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaswdshzycx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfruexjcp a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapmgitjtng;
+  var mapasejoqfu;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -238,17 +239,17 @@ $('#Lenguetaswdshzycx a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapmgitjtng() {
+  function initmapasejoqfu() {
     // Nuevo Mapa
-    mapmgitjtng = new L.Map('LeafLetmgitjtng');
+    mapasejoqfu = new L.Map('LeafLetasejoqfu');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapmgitjtng.setView(new L.LatLng(25.54, -103.44), 12);
+    mapasejoqfu.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapmgitjtng.addLayer(osm);
+    mapasejoqfu.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -281,13 +282,13 @@ $('#Lenguetaswdshzycx a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapmgitjtng);
+    }).addTo(mapasejoqfu);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapmgitjtng === 'undefined') {
-    varinitmapmgitjtng = initmapmgitjtng();
+  if (typeof varinitmapasejoqfu === 'undefined') {
+    varinitmapasejoqfu = initmapasejoqfu();
   };
 });
 FINAL;

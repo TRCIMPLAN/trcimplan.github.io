@@ -18,13 +18,14 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Consumo de Agua Facturado en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-consumo-de-agua-facturado';
         $this->descripcion = 'Consumo anual de agua por persona expresado en metros cúbicos.';
         $this->claves      = 'Torreón, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasesehhzxs">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasomgaullb">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -81,12 +82,12 @@ Total facturado dividido entre la población.
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisjwlvuzhq" class="grafica"></div>
+<div id="Morrisjxeantdw" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetfovwembk" class="mapa"></div>
+              <div id="LeafLetpmapkexn" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
@@ -96,14 +97,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasesehhzxs a:first').tab('show')
+  $('#Lenguetasomgaullb a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasesehhzxs a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasomgaullb a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisjwlvuzhq === 'undefined') {
-    varMorrisjwlvuzhq = Morris.Line({
-      element: 'Morrisjwlvuzhq',
+  if (typeof varMorrisjxeantdw === 'undefined') {
+    varMorrisjxeantdw = Morris.Line({
+      element: 'Morrisjxeantdw',
       data: [{ fecha: '2010-12-31', dato: 47.7700 },{ fecha: '2011-12-31', dato: 46.7500 },{ fecha: '2012-12-31', dato: 44.5700 },{ fecha: '2013-12-31', dato: 41.9900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -115,9 +116,9 @@ $('#Lenguetasesehhzxs a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasesehhzxs a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasomgaullb a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapfovwembk;
+  var mappmapkexn;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -134,17 +135,17 @@ $('#Lenguetasesehhzxs a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapfovwembk() {
+  function initmappmapkexn() {
     // Nuevo Mapa
-    mapfovwembk = new L.Map('LeafLetfovwembk');
+    mappmapkexn = new L.Map('LeafLetpmapkexn');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapfovwembk.setView(new L.LatLng(25.54, -103.44), 12);
+    mappmapkexn.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapfovwembk.addLayer(osm);
+    mappmapkexn.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -177,13 +178,13 @@ $('#Lenguetasesehhzxs a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapfovwembk);
+    }).addTo(mappmapkexn);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapfovwembk === 'undefined') {
-    varinitmapfovwembk = initmapfovwembk();
+  if (typeof varinitmappmapkexn === 'undefined') {
+    varinitmappmapkexn = initmappmapkexn();
   };
 });
 FINAL;

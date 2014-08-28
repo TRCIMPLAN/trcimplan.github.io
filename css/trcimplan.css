@@ -142,6 +142,22 @@ a:focus   { text-decoration:none; color:#AA005F; }
     color:#888;
     font-size:11px;
 }
+.centrado {
+    text-align:center;
+}
+.derecha {
+    text-align:right;
+    white-space:nowrap;
+}
+.vinculo {
+    display:block;
+    width:100%;
+}
+.nd {
+    background-color:#EEE;
+    color:#888;
+    text-align:center;
+}
 .mapa {
     height:500px;
     margin-top:8px;

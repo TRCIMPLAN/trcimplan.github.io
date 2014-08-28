@@ -18,13 +18,14 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Medianas Empresas en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'economia-medianas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean de 51 a 250 personas.';
         $this->claves      = 'Matamoros, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmjhaynmv">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasrxretotd">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -71,12 +72,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisywnjrpuk" class="grafica"></div>
+<div id="Morrisirixvvnn" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbscguhau" class="mapa"></div>
+              <div id="LeafLetvfixkhnk" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +201,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmjhaynmv a:first').tab('show')
+  $('#Lenguetasrxretotd a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasmjhaynmv a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasrxretotd a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisywnjrpuk === 'undefined') {
-    varMorrisywnjrpuk = Morris.Line({
-      element: 'Morrisywnjrpuk',
+  if (typeof varMorrisirixvvnn === 'undefined') {
+    varMorrisirixvvnn = Morris.Line({
+      element: 'Morrisirixvvnn',
       data: [{ fecha: '2013-12-31', dato: 3.0100 },{ fecha: '2014-07-31', dato: 1.7300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -219,9 +220,9 @@ $('#Lenguetasmjhaynmv a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasmjhaynmv a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasrxretotd a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbscguhau;
+  var mapvfixkhnk;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -238,17 +239,17 @@ $('#Lenguetasmjhaynmv a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbscguhau() {
+  function initmapvfixkhnk() {
     // Nuevo Mapa
-    mapbscguhau = new L.Map('LeafLetbscguhau');
+    mapvfixkhnk = new L.Map('LeafLetvfixkhnk');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbscguhau.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvfixkhnk.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbscguhau.addLayer(osm);
+    mapvfixkhnk.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -281,13 +282,13 @@ $('#Lenguetasmjhaynmv a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbscguhau);
+    }).addTo(mapvfixkhnk);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbscguhau === 'undefined') {
-    varinitmapbscguhau = initmapbscguhau();
+  if (typeof varinitmapvfixkhnk === 'undefined') {
+    varinitmapvfixkhnk = initmapvfixkhnk();
   };
 });
 FINAL;

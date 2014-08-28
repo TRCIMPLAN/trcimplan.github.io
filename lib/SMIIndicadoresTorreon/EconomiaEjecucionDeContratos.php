@@ -18,13 +18,14 @@ class EconomiaEjecucionDeContratos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ejecución de Contratos en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-ejecucion-de-contratos';
         $this->descripcion = 'Días transcurridos para la ejecución de un contrato.';
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasivdfthqp">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdvuicgxo">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -86,12 +87,12 @@ Costo (% de cantidad demandada) = 27,9</td>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morriskitnfnnl" class="grafica"></div>
+<div id="Morrisluowyiin" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrhamikau" class="mapa"></div>
+              <div id="LeafLetmokfxvzj" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
@@ -101,14 +102,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasivdfthqp a:first').tab('show')
+  $('#Lenguetasdvuicgxo a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasivdfthqp a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdvuicgxo a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskitnfnnl === 'undefined') {
-    varMorriskitnfnnl = Morris.Line({
-      element: 'Morriskitnfnnl',
+  if (typeof varMorrisluowyiin === 'undefined') {
+    varMorrisluowyiin = Morris.Line({
+      element: 'Morrisluowyiin',
       data: [{ fecha: '2007-12-31', dato: 386 },{ fecha: '2012-12-31', dato: 270 },{ fecha: '2013-10-31', dato: 270 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -120,9 +121,9 @@ $('#Lenguetasivdfthqp a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasivdfthqp a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdvuicgxo a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprhamikau;
+  var mapmokfxvzj;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +140,17 @@ $('#Lenguetasivdfthqp a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprhamikau() {
+  function initmapmokfxvzj() {
     // Nuevo Mapa
-    maprhamikau = new L.Map('LeafLetrhamikau');
+    mapmokfxvzj = new L.Map('LeafLetmokfxvzj');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprhamikau.setView(new L.LatLng(25.54, -103.44), 12);
+    mapmokfxvzj.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprhamikau.addLayer(osm);
+    mapmokfxvzj.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +183,13 @@ $('#Lenguetasivdfthqp a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprhamikau);
+    }).addTo(mapmokfxvzj);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprhamikau === 'undefined') {
-    varinitmaprhamikau = initmaprhamikau();
+  if (typeof varinitmapmokfxvzj === 'undefined') {
+    varinitmapmokfxvzj = initmapmokfxvzj();
   };
 });
 FINAL;

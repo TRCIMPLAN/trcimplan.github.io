@@ -18,13 +18,14 @@ class GobiernoIndiceDeGobiernoElectronicoMunicipal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Gobierno Electrónico Municipal en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'gobierno-indice-de-gobierno-electronico-municipal';
         $this->descripcion = 'índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.';
         $this->claves      = 'Gómez Palacio, Gobierno Digital';
         $this->categorias  = array('Gobierno Digital');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnnybbncf">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspkyrvdcr">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +64,7 @@ class GobiernoIndiceDeGobiernoElectronicoMunicipal extends \Base\Publicacion {
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetjqfdbmyl" class="mapa"></div>
+              <div id="LeafLetxinwuect" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -117,12 +118,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnnybbncf a:first').tab('show')
+  $('#Lenguetaspkyrvdcr a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnnybbncf a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspkyrvdcr a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapjqfdbmyl;
+  var mapxinwuect;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +140,17 @@ $('#Lenguetasnnybbncf a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapjqfdbmyl() {
+  function initmapxinwuect() {
     // Nuevo Mapa
-    mapjqfdbmyl = new L.Map('LeafLetjqfdbmyl');
+    mapxinwuect = new L.Map('LeafLetxinwuect');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapjqfdbmyl.setView(new L.LatLng(25.54, -103.44), 12);
+    mapxinwuect.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapjqfdbmyl.addLayer(osm);
+    mapxinwuect.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +183,13 @@ $('#Lenguetasnnybbncf a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapjqfdbmyl);
+    }).addTo(mapxinwuect);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapjqfdbmyl === 'undefined') {
-    varinitmapjqfdbmyl = initmapjqfdbmyl();
+  if (typeof varinitmapxinwuect === 'undefined') {
+    varinitmapxinwuect = initmapxinwuect();
   };
 });
 FINAL;

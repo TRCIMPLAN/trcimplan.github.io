@@ -18,13 +18,14 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Grandes Empresas en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-grandes-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
         $this->claves      = 'La Laguna, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaseetpuskn">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvqmrbdxo">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -71,12 +72,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisguezpblc" class="grafica"></div>
+<div id="Morrisgcvqkhls" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetsaxqgxwr" class="mapa"></div>
+              <div id="LeafLetymbnvlie" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +201,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaseetpuskn a:first').tab('show')
+  $('#Lenguetasvqmrbdxo a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaseetpuskn a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvqmrbdxo a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisguezpblc === 'undefined') {
-    varMorrisguezpblc = Morris.Line({
-      element: 'Morrisguezpblc',
+  if (typeof varMorrisgcvqkhls === 'undefined') {
+    varMorrisgcvqkhls = Morris.Line({
+      element: 'Morrisgcvqkhls',
       data: [{ fecha: '2013-12-31', dato: 0.5300 },{ fecha: '2014-07-31', dato: 1.0700 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -219,9 +220,9 @@ $('#Lenguetaseetpuskn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaseetpuskn a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvqmrbdxo a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapsaxqgxwr;
+  var mapymbnvlie;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -238,17 +239,17 @@ $('#Lenguetaseetpuskn a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapsaxqgxwr() {
+  function initmapymbnvlie() {
     // Nuevo Mapa
-    mapsaxqgxwr = new L.Map('LeafLetsaxqgxwr');
+    mapymbnvlie = new L.Map('LeafLetymbnvlie');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapsaxqgxwr.setView(new L.LatLng(25.54, -103.44), 12);
+    mapymbnvlie.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapsaxqgxwr.addLayer(osm);
+    mapymbnvlie.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -281,13 +282,13 @@ $('#Lenguetaseetpuskn a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapsaxqgxwr);
+    }).addTo(mapymbnvlie);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapsaxqgxwr === 'undefined') {
-    varinitmapsaxqgxwr = initmapsaxqgxwr();
+  if (typeof varinitmapymbnvlie === 'undefined') {
+    varinitmapymbnvlie = initmapymbnvlie();
   };
 });
 FINAL;

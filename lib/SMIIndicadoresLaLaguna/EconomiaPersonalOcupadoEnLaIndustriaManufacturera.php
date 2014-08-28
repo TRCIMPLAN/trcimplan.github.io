@@ -18,13 +18,14 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \Base\Publicacio
      */
     public function __construct() {
         $this->nombre      = 'Personal Ocupado en la Industria Manufacturera en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-personal-ocupado-en-la-industria-manufacturera';
         $this->descripcion = 'Personal ocupado en la Industria manufacturera entre el personal ocupado total.';
         $this->claves      = 'La Laguna, Empleo, Mercados';
         $this->categorias  = array('Empleo', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasluuwwoyp">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbzoxlgqs">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -75,12 +76,12 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisbyliyojw" class="grafica"></div>
+<div id="Morrismlzewfcy" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetijnkqueo" class="mapa"></div>
+              <div id="LeafLetlmgpleyy" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -211,14 +212,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasluuwwoyp a:first').tab('show')
+  $('#Lenguetasbzoxlgqs a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasluuwwoyp a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbzoxlgqs a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisbyliyojw === 'undefined') {
-    varMorrisbyliyojw = Morris.Line({
-      element: 'Morrisbyliyojw',
+  if (typeof varMorrismlzewfcy === 'undefined') {
+    varMorrismlzewfcy = Morris.Line({
+      element: 'Morrismlzewfcy',
       data: [{ fecha: '1998-12-31', dato: 38.1000 },{ fecha: '2003-12-31', dato: 38.1000 },{ fecha: '2008-12-31', dato: 28.5940 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -230,9 +231,9 @@ $('#Lenguetasluuwwoyp a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasluuwwoyp a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbzoxlgqs a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapijnkqueo;
+  var maplmgpleyy;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -249,17 +250,17 @@ $('#Lenguetasluuwwoyp a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapijnkqueo() {
+  function initmaplmgpleyy() {
     // Nuevo Mapa
-    mapijnkqueo = new L.Map('LeafLetijnkqueo');
+    maplmgpleyy = new L.Map('LeafLetlmgpleyy');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapijnkqueo.setView(new L.LatLng(25.54, -103.44), 12);
+    maplmgpleyy.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapijnkqueo.addLayer(osm);
+    maplmgpleyy.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -292,13 +293,13 @@ $('#Lenguetasluuwwoyp a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapijnkqueo);
+    }).addTo(maplmgpleyy);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapijnkqueo === 'undefined') {
-    varinitmapijnkqueo = initmapijnkqueo();
+  if (typeof varinitmaplmgpleyy === 'undefined') {
+    varinitmaplmgpleyy = initmaplmgpleyy();
   };
 });
 FINAL;

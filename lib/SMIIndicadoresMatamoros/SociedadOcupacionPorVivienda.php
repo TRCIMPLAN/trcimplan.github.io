@@ -18,13 +18,14 @@ class SociedadOcupacionPorVivienda extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ocupación por Vivienda en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-ocupacion-por-vivienda';
         $this->descripcion = 'Promedio de ocupantes por vivienda.';
         $this->claves      = 'Matamoros, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasqeqdwveq">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaswfnrdxlh">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +65,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda 2010](http://www.ineg
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbdqatgqv" class="mapa"></div>
+              <div id="LeafLetwutnxxhb" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -118,12 +119,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasqeqdwveq a:first').tab('show')
+  $('#Lenguetaswfnrdxlh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasqeqdwveq a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaswfnrdxlh a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbdqatgqv;
+  var mapwutnxxhb;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -140,17 +141,17 @@ $('#Lenguetasqeqdwveq a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbdqatgqv() {
+  function initmapwutnxxhb() {
     // Nuevo Mapa
-    mapbdqatgqv = new L.Map('LeafLetbdqatgqv');
+    mapwutnxxhb = new L.Map('LeafLetwutnxxhb');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbdqatgqv.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwutnxxhb.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbdqatgqv.addLayer(osm);
+    mapwutnxxhb.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -183,13 +184,13 @@ $('#Lenguetasqeqdwveq a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbdqatgqv);
+    }).addTo(mapwutnxxhb);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbdqatgqv === 'undefined') {
-    varinitmapbdqatgqv = initmapbdqatgqv();
+  if (typeof varinitmapwutnxxhb === 'undefined') {
+    varinitmapwutnxxhb = initmapwutnxxhb();
   };
 });
 FINAL;

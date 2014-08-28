@@ -18,13 +18,14 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Competitividad Urbana en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-indice-de-competitividad-urbana';
         $this->descripcion = 'El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.';
         $this->claves      = 'Torreón, Competitividad';
         $this->categorias  = array('Competitividad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaspkhnkzws">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetastjbkwuwm">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +64,7 @@ El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Institut
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetyxyreohc" class="mapa"></div>
+              <div id="LeafLetjfpthvvj" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -117,12 +118,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaspkhnkzws a:first').tab('show')
+  $('#Lenguetastjbkwuwm a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaspkhnkzws a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetastjbkwuwm a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapyxyreohc;
+  var mapjfpthvvj;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -139,17 +140,17 @@ $('#Lenguetaspkhnkzws a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapyxyreohc() {
+  function initmapjfpthvvj() {
     // Nuevo Mapa
-    mapyxyreohc = new L.Map('LeafLetyxyreohc');
+    mapjfpthvvj = new L.Map('LeafLetjfpthvvj');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapyxyreohc.setView(new L.LatLng(25.54, -103.44), 12);
+    mapjfpthvvj.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapyxyreohc.addLayer(osm);
+    mapjfpthvvj.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -182,13 +183,13 @@ $('#Lenguetaspkhnkzws a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapyxyreohc);
+    }).addTo(mapjfpthvvj);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapyxyreohc === 'undefined') {
-    varinitmapyxyreohc = initmapyxyreohc();
+  if (typeof varinitmapjfpthvvj === 'undefined') {
+    varinitmapjfpthvvj = initmapjfpthvvj();
   };
 });
 FINAL;

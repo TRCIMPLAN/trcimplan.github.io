@@ -18,13 +18,14 @@ class SociedadCamasCensables extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Camas Censables en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-camas-censables';
         $this->descripcion = '';
         $this->claves      = 'Matamoros, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasctxogwmh">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasyirayaqf">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -134,12 +135,12 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisblnmtyqo" class="grafica"></div>
+<div id="Morrisopvckgdo" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwvviline" class="mapa"></div>
+              <div id="LeafLetpchwuvns" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -802,14 +803,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasctxogwmh a:first').tab('show')
+  $('#Lenguetasyirayaqf a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasctxogwmh a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasyirayaqf a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisblnmtyqo === 'undefined') {
-    varMorrisblnmtyqo = Morris.Line({
-      element: 'Morrisblnmtyqo',
+  if (typeof varMorrisopvckgdo === 'undefined') {
+    varMorrisopvckgdo = Morris.Line({
+      element: 'Morrisopvckgdo',
       data: [{ fecha: '2001-12-31', dato: 10 },{ fecha: '2002-12-31', dato: 10 },{ fecha: '2003-12-31', dato: 10 },{ fecha: '2004-12-31', dato: 10 },{ fecha: '2005-12-31', dato: 10 },{ fecha: '2006-12-31', dato: 10 },{ fecha: '2007-12-31', dato: 10 },{ fecha: '2008-12-31', dato: 10 },{ fecha: '2009-12-31', dato: 10 },{ fecha: '2010-12-31', dato: 10 },{ fecha: '2011-12-31', dato: 10 },{ fecha: '2012-12-31', dato: 10 },{ fecha: '2013-12-31', dato: 10 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -821,9 +822,9 @@ $('#Lenguetasctxogwmh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasctxogwmh a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasyirayaqf a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwvviline;
+  var mappchwuvns;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -840,17 +841,17 @@ $('#Lenguetasctxogwmh a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwvviline() {
+  function initmappchwuvns() {
     // Nuevo Mapa
-    mapwvviline = new L.Map('LeafLetwvviline');
+    mappchwuvns = new L.Map('LeafLetpchwuvns');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwvviline.setView(new L.LatLng(25.54, -103.44), 12);
+    mappchwuvns.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwvviline.addLayer(osm);
+    mappchwuvns.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -883,13 +884,13 @@ $('#Lenguetasctxogwmh a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwvviline);
+    }).addTo(mappchwuvns);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwvviline === 'undefined') {
-    varinitmapwvviline = initmapwvviline();
+  if (typeof varinitmappchwuvns === 'undefined') {
+    varinitmappchwuvns = initmappchwuvns();
   };
 });
 FINAL;

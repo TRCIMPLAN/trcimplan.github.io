@@ -18,13 +18,14 @@ class EconomiaSectoresQueHanFrenadoElCrecimiento20082012 extends \Base\Publicaci
      */
     public function __construct() {
         $this->nombre      = 'Sectores que Han Frenado el Crecimiento (2008-2012) en La Laguna';
+        $this->nombre_menu = 'Indicadores La Laguna';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-sectores-que-han-frenado-el-crecimiento--2008-2012-';
         $this->descripcion = 'Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.';
         $this->claves      = 'La Laguna, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetassawzbqjj">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasofbpcxes">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -67,7 +68,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLethnyogdvw" class="mapa"></div>
+              <div id="LeafLetxjracqvp" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -128,12 +129,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetassawzbqjj a:first').tab('show')
+  $('#Lenguetasofbpcxes a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetassawzbqjj a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasofbpcxes a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maphnyogdvw;
+  var mapxjracqvp;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -150,17 +151,17 @@ $('#Lenguetassawzbqjj a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaphnyogdvw() {
+  function initmapxjracqvp() {
     // Nuevo Mapa
-    maphnyogdvw = new L.Map('LeafLethnyogdvw');
+    mapxjracqvp = new L.Map('LeafLetxjracqvp');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maphnyogdvw.setView(new L.LatLng(25.54, -103.44), 12);
+    mapxjracqvp.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maphnyogdvw.addLayer(osm);
+    mapxjracqvp.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -193,13 +194,13 @@ $('#Lenguetassawzbqjj a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maphnyogdvw);
+    }).addTo(mapxjracqvp);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaphnyogdvw === 'undefined') {
-    varinitmaphnyogdvw = initmaphnyogdvw();
+  if (typeof varinitmapxjracqvp === 'undefined') {
+    varinitmapxjracqvp = initmapxjracqvp();
   };
 });
 FINAL;

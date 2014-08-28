@@ -18,6 +18,7 @@ class SociedadRezagoEducativo extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Rezago Educativo en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-rezago-educativo';
         $this->descripcion = 'Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
@@ -26,7 +27,7 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
         $this->claves      = 'Matamoros, Educación, Grupos Vulnerables';
         $this->categorias  = array('Educación', 'Grupos Vulnerables');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaslrjejgkn">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasngdkfovg">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -68,7 +69,7 @@ Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetgsehrfuf" class="mapa"></div>
+              <div id="LeafLetplndybpc" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -115,12 +116,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaslrjejgkn a:first').tab('show')
+  $('#Lenguetasngdkfovg a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaslrjejgkn a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasngdkfovg a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapgsehrfuf;
+  var mapplndybpc;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -137,17 +138,17 @@ $('#Lenguetaslrjejgkn a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapgsehrfuf() {
+  function initmapplndybpc() {
     // Nuevo Mapa
-    mapgsehrfuf = new L.Map('LeafLetgsehrfuf');
+    mapplndybpc = new L.Map('LeafLetplndybpc');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapgsehrfuf.setView(new L.LatLng(25.54, -103.44), 12);
+    mapplndybpc.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapgsehrfuf.addLayer(osm);
+    mapplndybpc.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -180,13 +181,13 @@ $('#Lenguetaslrjejgkn a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapgsehrfuf);
+    }).addTo(mapplndybpc);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapgsehrfuf === 'undefined') {
-    varinitmapgsehrfuf = initmapgsehrfuf();
+  if (typeof varinitmapplndybpc === 'undefined') {
+    varinitmapplndybpc = initmapplndybpc();
   };
 });
 FINAL;

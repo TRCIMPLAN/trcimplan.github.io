@@ -18,13 +18,14 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Capacidad Financiera en Matamoros';
+        $this->nombre_menu = 'Indicadores Matamoros';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'gobierno-capacidad-financiera';
         $this->descripcion = 'Ingresos propios entre gastos corrientes.';
         $this->claves      = 'Matamoros, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasffxtimvl">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasatucrwtg">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -102,12 +103,12 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morrisoiyptxst" class="grafica"></div>
+<div id="Morrisjssfnoxq" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetcxgvodnr" class="mapa"></div>
+              <div id="LeafLetyabdyysj" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -315,14 +316,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasffxtimvl a:first').tab('show')
+  $('#Lenguetasatucrwtg a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasffxtimvl a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasatucrwtg a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisoiyptxst === 'undefined') {
-    varMorrisoiyptxst = Morris.Line({
-      element: 'Morrisoiyptxst',
+  if (typeof varMorrisjssfnoxq === 'undefined') {
+    varMorrisjssfnoxq = Morris.Line({
+      element: 'Morrisjssfnoxq',
       data: [{ fecha: '2007-12-31', dato: 21.6800 },{ fecha: '2008-12-31', dato: 20.2700 },{ fecha: '2009-12-31', dato: 23.2500 },{ fecha: '2010-12-31', dato: 14.0000 },{ fecha: '2011-12-31', dato: 14.1100 },{ fecha: '2012-12-31', dato: 29.4500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -334,9 +335,9 @@ $('#Lenguetasffxtimvl a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasffxtimvl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasatucrwtg a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapcxgvodnr;
+  var mapyabdyysj;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -353,17 +354,17 @@ $('#Lenguetasffxtimvl a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapcxgvodnr() {
+  function initmapyabdyysj() {
     // Nuevo Mapa
-    mapcxgvodnr = new L.Map('LeafLetcxgvodnr');
+    mapyabdyysj = new L.Map('LeafLetyabdyysj');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapcxgvodnr.setView(new L.LatLng(25.54, -103.44), 12);
+    mapyabdyysj.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapcxgvodnr.addLayer(osm);
+    mapyabdyysj.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -396,13 +397,13 @@ $('#Lenguetasffxtimvl a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapcxgvodnr);
+    }).addTo(mapyabdyysj);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapcxgvodnr === 'undefined') {
-    varinitmapcxgvodnr = initmapcxgvodnr();
+  if (typeof varinitmapyabdyysj === 'undefined') {
+    varinitmapyabdyysj = initmapyabdyysj();
   };
 });
 FINAL;

@@ -64,23 +64,24 @@ class ImprentaIndicadoresMatamoros extends \Base\Imprenta {
         $this->plantilla->mapa_inferior = new \Base\MapaInferior();
         // Imprimir los indicadores
         $indicadores = $this->agregar_directorio_publicaciones($this->indicadores_directorio);
-        parent::imprimir();
+        // Ejecutar padre y entregar mensajes
+        return parent::imprimir();
         // Dejar en blanco la propiedad publicaciones, para volver a imprimir
-        $this->publicaciones = null;
+        //~ $this->publicaciones = null;
         // Cargar la matriz de la región
         //PENDIENTE
         // Cargar la plantilla con la matriz de la región
-        $this->plantilla->titulo                    = $this->titulo;
-        $this->plantilla->descripcion               = $this->descripcion;
-        $this->plantilla->claves                    = $this->claves;
-        $this->plantilla->directorio                = $this->directorio;
-        $this->plantilla->ruta                      = $this->ruta;
-        $this->plantilla->navegacion->opcion_activa = $this->nombre_menu;
-        $this->plantilla->contenido                 = "<p>Por programar la elaboración de la matriz.</p>";
+        //~ $this->plantilla->titulo                    = $this->titulo;
+        //~ $this->plantilla->descripcion               = $this->descripcion;
+        //~ $this->plantilla->claves                    = $this->claves;
+        //~ $this->plantilla->directorio                = $this->directorio;
+        //~ $this->plantilla->ruta                      = $this->ruta;
+        //~ $this->plantilla->navegacion->opcion_activa = $this->nombre_menu;
+        //~ $this->plantilla->contenido                 = "<p>Por programar la elaboración de la matriz.</p>";
         // Imprimir el index.html
-        parent::imprimir();
+        //~ parent::imprimir();
         // Entregar mensajes
-        return implode("\n", $this->mensajes);
+        //~ return implode("\n", $this->mensajes);
     } // imprimir
 
 } // Clase ImprentaIndicadoresMatamoros

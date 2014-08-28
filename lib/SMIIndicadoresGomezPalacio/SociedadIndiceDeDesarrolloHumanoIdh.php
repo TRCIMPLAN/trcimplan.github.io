@@ -18,13 +18,14 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Índice de Desarrollo Humano (IDH) en Gómez Palacio';
+        $this->nombre_menu = 'Indicadores Gómez Palacio';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-indice-de-desarrollo-humano--idh-';
         $this->descripcion = 'El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).';
         $this->claves      = 'Gómez Palacio, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasgvagrmfs">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasifhkgixc">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -63,7 +64,7 @@ El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones U
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetcqykbzae" class="mapa"></div>
+              <div id="LeafLetanyjfndr" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +111,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasgvagrmfs a:first').tab('show')
+  $('#Lenguetasifhkgixc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasgvagrmfs a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasifhkgixc a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapcqykbzae;
+  var mapanyjfndr;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +133,17 @@ $('#Lenguetasgvagrmfs a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapcqykbzae() {
+  function initmapanyjfndr() {
     // Nuevo Mapa
-    mapcqykbzae = new L.Map('LeafLetcqykbzae');
+    mapanyjfndr = new L.Map('LeafLetanyjfndr');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapcqykbzae.setView(new L.LatLng(25.54, -103.44), 12);
+    mapanyjfndr.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapcqykbzae.addLayer(osm);
+    mapanyjfndr.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +176,13 @@ $('#Lenguetasgvagrmfs a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapcqykbzae);
+    }).addTo(mapanyjfndr);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapcqykbzae === 'undefined') {
-    varinitmapcqykbzae = initmapcqykbzae();
+  if (typeof varinitmapanyjfndr === 'undefined') {
+    varinitmapanyjfndr = initmapanyjfndr();
   };
 });
 FINAL;

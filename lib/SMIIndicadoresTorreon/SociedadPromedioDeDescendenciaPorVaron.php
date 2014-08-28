@@ -18,13 +18,14 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Promedio de Descendencia por Varón en Torreón';
+        $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-promedio-de-descendencia-por-varon';
         $this->descripcion = 'Calcula el promedio estimado de hijos por cada varón.';
         $this->claves      = 'Torreón, Población';
         $this->categorias  = array('Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaskghtadpq">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasjdkdvwdf">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -87,12 +88,12 @@ Estimación propia en base al dato de Ocupación por Vivienda
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
 
-<div id="Morriskauchldr" class="grafica"></div>
+<div id="Morrishtjjjvlv" class="grafica"></div>
 
 
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetshekncht" class="mapa"></div>
+              <div id="LeafLetyodbyupc" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
@@ -102,14 +103,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaskghtadpq a:first').tab('show')
+  $('#Lenguetasjdkdvwdf a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaskghtadpq a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasjdkdvwdf a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskauchldr === 'undefined') {
-    varMorriskauchldr = Morris.Line({
-      element: 'Morriskauchldr',
+  if (typeof varMorrishtjjjvlv === 'undefined') {
+    varMorrishtjjjvlv = Morris.Line({
+      element: 'Morrishtjjjvlv',
       data: [{ fecha: '2008-12-31', dato: 1.8100 },{ fecha: '2009-12-31', dato: 1.7700 },{ fecha: '2010-12-31', dato: 1.7200 },{ fecha: '2011-12-31', dato: 1.6900 },{ fecha: '2012-12-31', dato: 1.6600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -121,9 +122,9 @@ $('#Lenguetaskghtadpq a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaskghtadpq a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasjdkdvwdf a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapshekncht;
+  var mapyodbyupc;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -140,17 +141,17 @@ $('#Lenguetaskghtadpq a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapshekncht() {
+  function initmapyodbyupc() {
     // Nuevo Mapa
-    mapshekncht = new L.Map('LeafLetshekncht');
+    mapyodbyupc = new L.Map('LeafLetyodbyupc');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapshekncht.setView(new L.LatLng(25.54, -103.44), 12);
+    mapyodbyupc.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapshekncht.addLayer(osm);
+    mapyodbyupc.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -183,13 +184,13 @@ $('#Lenguetaskghtadpq a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapshekncht);
+    }).addTo(mapyodbyupc);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapshekncht === 'undefined') {
-    varinitmapshekncht = initmapshekncht();
+  if (typeof varinitmapyodbyupc === 'undefined') {
+    varinitmapyodbyupc = initmapyodbyupc();
   };
 });
 FINAL;

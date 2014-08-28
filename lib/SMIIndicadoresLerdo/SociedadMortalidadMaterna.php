@@ -18,13 +18,14 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad Materna en Lerdo';
+        $this->nombre_menu = 'Indicadores Lerdo';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-mortalidad-materna';
         $this->descripcion = 'Defunciones maternas por cada cien mil partos.';
         $this->claves      = 'Lerdo, Salud, Género';
         $this->categorias  = array('Salud', 'Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmurayobk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetassolsgiuf">
     <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -64,7 +65,7 @@ Dirección General de Información en Salud (DGIS). Base de datos de defunciones
       <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrfcdedys" class="mapa"></div>
+              <div id="LeafLetfqapngyf" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -118,12 +119,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmurayobk a:first').tab('show')
+  $('#Lenguetassolsgiuf a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasmurayobk a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetassolsgiuf a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprfcdedys;
+  var mapfqapngyf;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -140,17 +141,17 @@ $('#Lenguetasmurayobk a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprfcdedys() {
+  function initmapfqapngyf() {
     // Nuevo Mapa
-    maprfcdedys = new L.Map('LeafLetrfcdedys');
+    mapfqapngyf = new L.Map('LeafLetfqapngyf');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprfcdedys.setView(new L.LatLng(25.54, -103.44), 12);
+    mapfqapngyf.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprfcdedys.addLayer(osm);
+    mapfqapngyf.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -183,13 +184,13 @@ $('#Lenguetasmurayobk a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprfcdedys);
+    }).addTo(mapfqapngyf);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprfcdedys === 'undefined') {
-    varinitmaprfcdedys = initmaprfcdedys();
+  if (typeof varinitmapfqapngyf === 'undefined') {
+    varinitmapfqapngyf = initmapfqapngyf();
   };
 });
 FINAL;
