@@ -40,9 +40,9 @@ class Navegacion {
             'Indicadores La Laguna'     => 'indicadores-la-laguna/'),
         'Información Geográfica' => array(
             'Introduccion al SIG'   => 'sig/introduccion.html',
-            'Abrir el SIG'          => 'sig/instrucciones.html',
-            'Plan M. de Desarrollo' => 'sig/pmd.html',
-            'Alumbrado Público'     => 'sig/alumbrado.html'),
+            'Abrir el SIG'          => '#',
+            'Plan M. de Desarrollo' => '#',
+            'Alumbrado Público'     => '#'),
         'Banco de Proyectos' => array(
             'Introducción al BMPI' => 'proyectos/introduccion.html',
             'Plata Laguna'         => 'proyectos/plata-laguna.html'),
