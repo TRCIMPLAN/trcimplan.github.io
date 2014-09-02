@@ -25,17 +25,15 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
         $this->claves      = 'Gómez Palacio, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetastwpmepsm">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszykuvime">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Producción bruta total de la actividad económica de minería entre la producción bruta total.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,25 +53,20 @@ Producción bruta total de la actividad económica de minería entre la producci
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 El índice de especialización en manufactura a nivel nacional es de: 
 
 - 2008 = 11.81%
 
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLethowbsiob" class="mapa"></div>
+              <div id="LeafLethgdamiod" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -115,20 +108,18 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetastwpmepsm a:first').tab('show')
+  $('#Lenguetaszykuvime a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetastwpmepsm a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszykuvime a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maphowbsiob;
+  var maphgdamiod;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -145,17 +136,17 @@ $('#Lenguetastwpmepsm a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaphowbsiob() {
+  function initmaphgdamiod() {
     // Nuevo Mapa
-    maphowbsiob = new L.Map('LeafLethowbsiob');
+    maphgdamiod = new L.Map('LeafLethgdamiod');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maphowbsiob.setView(new L.LatLng(25.54, -103.44), 12);
+    maphgdamiod.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maphowbsiob.addLayer(osm);
+    maphgdamiod.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -188,13 +179,13 @@ $('#Lenguetastwpmepsm a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maphowbsiob);
+    }).addTo(maphgdamiod);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaphowbsiob === 'undefined') {
-    varinitmaphowbsiob = initmaphowbsiob();
+  if (typeof varinitmaphgdamiod === 'undefined') {
+    varinitmaphgdamiod = initmaphgdamiod();
   };
 });
 FINAL;

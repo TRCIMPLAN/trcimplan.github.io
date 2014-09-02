@@ -25,17 +25,15 @@ class SociedadViviendasConEnergiaElectrica extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrtkrvlvu">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasxvdbuhws">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Porcentaje de viviendas con acceso a energía eléctrica
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,23 +53,18 @@ Porcentaje de viviendas con acceso a energía eléctrica
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/).
 
 Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/implan2.html).
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetmvwgrodx" class="mapa"></div>
+              <div id="LeafLetimbnsleb" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -113,20 +106,18 @@ Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrtkrvlvu a:first').tab('show')
+  $('#Lenguetasxvdbuhws a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasrtkrvlvu a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasxvdbuhws a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapmvwgrodx;
+  var mapimbnsleb;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -143,17 +134,17 @@ $('#Lenguetasrtkrvlvu a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapmvwgrodx() {
+  function initmapimbnsleb() {
     // Nuevo Mapa
-    mapmvwgrodx = new L.Map('LeafLetmvwgrodx');
+    mapimbnsleb = new L.Map('LeafLetimbnsleb');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapmvwgrodx.setView(new L.LatLng(25.54, -103.44), 12);
+    mapimbnsleb.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapmvwgrodx.addLayer(osm);
+    mapimbnsleb.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -186,13 +177,13 @@ $('#Lenguetasrtkrvlvu a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapmvwgrodx);
+    }).addTo(mapimbnsleb);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapmvwgrodx === 'undefined') {
-    varinitmapmvwgrodx = initmapmvwgrodx();
+  if (typeof varinitmapimbnsleb === 'undefined') {
+    varinitmapimbnsleb = initmapimbnsleb();
   };
 });
 FINAL;

@@ -25,17 +25,15 @@ class EconomiaInversionExtranjeraDirecta extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Macroeconomía';
         $this->categorias  = array('Macroeconomía');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasgycnpemp">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspormguli">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Promedio de inversión entre 2008 y 2012.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,24 +53,19 @@ Promedio de inversión entre 2008 y 2012.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Millones de dólares.
-
+<b>Unidad:</b>
+Millones de dólares
 <h4>Observaciones</h4>
 El promedio de IED nacional de 2008 a 2012 es de 20685.96 millones de dólares, por lo que la IED de La Laguna representa el 1.31% de la nacional.
 
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
 y [Secretaría de Economía](http://www.economia.gob.mx/comunidad-negocios/competitividad-normatividad/inversion-extranjera-directa/estadistica-oficial-de-ied-en-mexico)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbobmkqiu" class="mapa"></div>
+              <div id="LeafLetunwyvxkr" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -121,20 +114,18 @@ y [Secretaría de Economía](http://www.economia.gob.mx/comunidad-negocios/compe
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasgycnpemp a:first').tab('show')
+  $('#Lenguetaspormguli a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasgycnpemp a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspormguli a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbobmkqiu;
+  var mapunwyvxkr;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -151,17 +142,17 @@ $('#Lenguetasgycnpemp a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbobmkqiu() {
+  function initmapunwyvxkr() {
     // Nuevo Mapa
-    mapbobmkqiu = new L.Map('LeafLetbobmkqiu');
+    mapunwyvxkr = new L.Map('LeafLetunwyvxkr');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbobmkqiu.setView(new L.LatLng(25.54, -103.44), 12);
+    mapunwyvxkr.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbobmkqiu.addLayer(osm);
+    mapunwyvxkr.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -194,13 +185,13 @@ $('#Lenguetasgycnpemp a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbobmkqiu);
+    }).addTo(mapunwyvxkr);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbobmkqiu === 'undefined') {
-    varinitmapbobmkqiu = initmapbobmkqiu();
+  if (typeof varinitmapunwyvxkr === 'undefined') {
+    varinitmapunwyvxkr = initmapunwyvxkr();
   };
 });
 FINAL;

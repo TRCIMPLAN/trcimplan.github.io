@@ -41,8 +41,9 @@ class QueVuelvaLaRegionDeLosGrandesEsfuerzos extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'que-vuelva-la-region-de-los-grandes-esfuerzos/imagen-previa.jpg';
         $this->categorias    = array('Blog');
+     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="que-vuelva-la-region-de-los-grandes-esfuerzos/billetes.jpg"></span>
+<span class="contenido-imagen-previa"><img src="que-vuelva-la-region-de-los-grandes-esfuerzos/imagen.jpg"></span>
 
 <p>Hace unas semanas recibimos una grata noticia: la Calificadora Internacional Moodys elevó por primera vez la nota soberana de México a la categoría A3 gracias a las reformas estructurales promovidas por el Presidente de la República y por el Poder Legislativo. Gracias a esa inédita calificación el territorio azteca se ha vuelto más atractivo para la Inversión Extranjera Directa elevándose su potencial de crecimiento. Gracias a esa nueva capacidad de pago los costos de financiamiento serán menores y los palazos para darle servicio a la deuda serán mayores tanto para el sector público, como para las empresas y las familias mexicanas.</p>
 

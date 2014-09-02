@@ -158,6 +158,14 @@ a:focus   { text-decoration:none; color:#AA005F; }
     color:#888;
     text-align:center;
 }
+.color1 { background-color:#FFF2E3; }
+.color2 { background-color:#EDF0FF; }
+.color3 { background-color:#FFFCC3; }
+.color4 { background-color:#FFE7FF; }
+.color5 { background-color:#EAF0CC; }
+.color6 { background-color:#E8FCE6; }
+.color7 { background-color:#FFF1CF; }
+.color8 { background-color:#EFE5F9; }
 .mapa {
     height:500px;
     margin-top:8px;

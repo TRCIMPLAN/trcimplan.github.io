@@ -25,17 +25,15 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
         $this->claves      = 'Torreón, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasemjotgfv">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdptstceb">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,20 +53,14 @@ Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil naci
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Por cada mil.
-
-
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+<b>Unidad:</b>
+Por cada mil
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetactlzdtp" class="mapa"></div>
+              <div id="LeafLetoohlrupo" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -110,20 +102,18 @@ Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil naci
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasemjotgfv a:first').tab('show')
+  $('#Lenguetasdptstceb a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasemjotgfv a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdptstceb a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapactlzdtp;
+  var mapoohlrupo;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -140,17 +130,17 @@ $('#Lenguetasemjotgfv a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapactlzdtp() {
+  function initmapoohlrupo() {
     // Nuevo Mapa
-    mapactlzdtp = new L.Map('LeafLetactlzdtp');
+    mapoohlrupo = new L.Map('LeafLetoohlrupo');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapactlzdtp.setView(new L.LatLng(25.54, -103.44), 12);
+    mapoohlrupo.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapactlzdtp.addLayer(osm);
+    mapoohlrupo.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -183,13 +173,13 @@ $('#Lenguetasemjotgfv a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapactlzdtp);
+    }).addTo(mapoohlrupo);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapactlzdtp === 'undefined') {
-    varinitmapactlzdtp = initmapactlzdtp();
+  if (typeof varinitmapoohlrupo === 'undefined') {
+    varinitmapoohlrupo = initmapoohlrupo();
   };
 });
 FINAL;

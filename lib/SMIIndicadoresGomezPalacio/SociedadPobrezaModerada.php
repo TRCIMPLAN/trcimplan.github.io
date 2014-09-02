@@ -25,17 +25,15 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasaeoevhnw">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasyvttualf">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Porcentaje de la población en situación de pobreza moderada.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Porcentaje de la población en situación de pobreza moderada.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetdftspwwl" class="mapa"></div>
+              <div id="LeafLetkndrqhbh" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -132,20 +125,18 @@ Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasaeoevhnw a:first').tab('show')
+  $('#Lenguetasyvttualf a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasaeoevhnw a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasyvttualf a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapdftspwwl;
+  var mapkndrqhbh;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -162,17 +153,17 @@ $('#Lenguetasaeoevhnw a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapdftspwwl() {
+  function initmapkndrqhbh() {
     // Nuevo Mapa
-    mapdftspwwl = new L.Map('LeafLetdftspwwl');
+    mapkndrqhbh = new L.Map('LeafLetkndrqhbh');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapdftspwwl.setView(new L.LatLng(25.54, -103.44), 12);
+    mapkndrqhbh.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapdftspwwl.addLayer(osm);
+    mapkndrqhbh.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -205,13 +196,13 @@ $('#Lenguetasaeoevhnw a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapdftspwwl);
+    }).addTo(mapkndrqhbh);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapdftspwwl === 'undefined') {
-    varinitmapdftspwwl = initmapdftspwwl();
+  if (typeof varinitmapkndrqhbh === 'undefined') {
+    varinitmapkndrqhbh = initmapkndrqhbh();
   };
 });
 FINAL;

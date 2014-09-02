@@ -25,17 +25,15 @@ class SeguridadPresuntosDelincuentesDelFueroFederal extends \Base\Publicacion {
         $this->claves      = 'Torreón, Delincuencia';
         $this->categorias  = array('Delincuencia');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasiolqzgnl">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasrpajsrjm">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero federal
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,20 +53,14 @@ Presuntos delincuentes registrados en los juzgados de primera instancia en mater
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad.
-
-
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+<b>Unidad:</b>
+Cantidad
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLeticolylsf" class="mapa"></div>
+              <div id="LeafLetpdyvlawf" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -110,20 +102,18 @@ Presuntos delincuentes registrados en los juzgados de primera instancia en mater
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasiolqzgnl a:first').tab('show')
+  $('#Lenguetasrpajsrjm a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasiolqzgnl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasrpajsrjm a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapicolylsf;
+  var mappdyvlawf;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -140,17 +130,17 @@ $('#Lenguetasiolqzgnl a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapicolylsf() {
+  function initmappdyvlawf() {
     // Nuevo Mapa
-    mapicolylsf = new L.Map('LeafLeticolylsf');
+    mappdyvlawf = new L.Map('LeafLetpdyvlawf');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapicolylsf.setView(new L.LatLng(25.54, -103.44), 12);
+    mappdyvlawf.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapicolylsf.addLayer(osm);
+    mappdyvlawf.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -183,13 +173,13 @@ $('#Lenguetasiolqzgnl a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapicolylsf);
+    }).addTo(mappdyvlawf);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapicolylsf === 'undefined') {
-    varinitmapicolylsf = initmapicolylsf();
+  if (typeof varinitmappdyvlawf === 'undefined') {
+    varinitmappdyvlawf = initmappdyvlawf();
   };
 });
 FINAL;

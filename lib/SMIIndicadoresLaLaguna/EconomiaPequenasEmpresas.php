@@ -25,17 +25,16 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasclymrkgx">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetastwdaorhj">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Porcentaje del total de empresas que emplean entre 11 y 50 empleados.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -61,27 +60,22 @@ Porcentaje del total de empresas que emplean entre 11 y 50 empleados.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad de Empresas.
-
+<b>Unidad:</b>
+Cantidad de Empresas
 <h4>Observaciones</h4>
 A nivel nacional el 5.5% de las empresas son pequeñas.
 
 Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoPublico.asp?p=1)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morriseoyrbzkd" class="grafica"></div>
-
-
+<div id="Morrisubmvburw" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwvyytsjm" class="mapa"></div>
+              <div id="LeafLetixdzasfz" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -193,22 +187,20 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasclymrkgx a:first').tab('show')
+  $('#Lenguetastwdaorhj a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasclymrkgx a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetastwdaorhj a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriseoyrbzkd === 'undefined') {
-    varMorriseoyrbzkd = Morris.Line({
-      element: 'Morriseoyrbzkd',
+  if (typeof varMorrisubmvburw === 'undefined') {
+    varMorrisubmvburw = Morris.Line({
+      element: 'Morrisubmvburw',
       data: [{ fecha: '2013-12-31', dato: 8.6800 },{ fecha: '2014-07-31', dato: 7.5400 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -220,9 +212,9 @@ $('#Lenguetasclymrkgx a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasclymrkgx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetastwdaorhj a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwvyytsjm;
+  var mapixdzasfz;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -239,17 +231,17 @@ $('#Lenguetasclymrkgx a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwvyytsjm() {
+  function initmapixdzasfz() {
     // Nuevo Mapa
-    mapwvyytsjm = new L.Map('LeafLetwvyytsjm');
+    mapixdzasfz = new L.Map('LeafLetixdzasfz');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwvyytsjm.setView(new L.LatLng(25.54, -103.44), 12);
+    mapixdzasfz.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwvyytsjm.addLayer(osm);
+    mapixdzasfz.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -282,13 +274,13 @@ $('#Lenguetasclymrkgx a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwvyytsjm);
+    }).addTo(mapixdzasfz);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwvyytsjm === 'undefined') {
-    varinitmapwvyytsjm = initmapwvyytsjm();
+  if (typeof varinitmapixdzasfz === 'undefined') {
+    varinitmapixdzasfz = initmapixdzasfz();
   };
 });
 FINAL;

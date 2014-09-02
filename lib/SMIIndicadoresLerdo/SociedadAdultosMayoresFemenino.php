@@ -25,17 +25,16 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Grupos Vulnerables, Género';
         $this->categorias  = array('Grupos Vulnerables', 'Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvixxrcmn">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaswvqlujaj">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Población estimada a mediados de año de personas de 65 años y más de sexo femenino.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -109,24 +108,18 @@ Población estimada a mediados de año de personas de 65 años y más de sexo fe
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad.
-
-
-
+<b>Unidad:</b>
+Cantidad
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisnorenwna" class="grafica"></div>
-
-
+<div id="Morrisqotwmwhf" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetoogdsvua" class="mapa"></div>
+              <div id="LeafLethgixwnum" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -630,22 +623,20 @@ Población estimada a mediados de año de personas de 65 años y más de sexo fe
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvixxrcmn a:first').tab('show')
+  $('#Lenguetaswvqlujaj a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvixxrcmn a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaswvqlujaj a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisnorenwna === 'undefined') {
-    varMorrisnorenwna = Morris.Line({
-      element: 'Morrisnorenwna',
+  if (typeof varMorrisqotwmwhf === 'undefined') {
+    varMorrisqotwmwhf = Morris.Line({
+      element: 'Morrisqotwmwhf',
       data: [{ fecha: '2011-06-30', dato: 4448 },{ fecha: '2012-06-30', dato: 4608 },{ fecha: '2013-06-30', dato: 4775 },{ fecha: '2014-06-30', dato: 4950 },{ fecha: '2015-06-30', dato: 5133 },{ fecha: '2016-06-30', dato: 5325 },{ fecha: '2017-06-30', dato: 5527 },{ fecha: '2018-06-30', dato: 5739 },{ fecha: '2019-06-30', dato: 5961 },{ fecha: '2020-06-30', dato: 6195 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -657,9 +648,9 @@ $('#Lenguetasvixxrcmn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasvixxrcmn a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaswvqlujaj a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapoogdsvua;
+  var maphgixwnum;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -676,17 +667,17 @@ $('#Lenguetasvixxrcmn a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapoogdsvua() {
+  function initmaphgixwnum() {
     // Nuevo Mapa
-    mapoogdsvua = new L.Map('LeafLetoogdsvua');
+    maphgixwnum = new L.Map('LeafLethgixwnum');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapoogdsvua.setView(new L.LatLng(25.54, -103.44), 12);
+    maphgixwnum.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapoogdsvua.addLayer(osm);
+    maphgixwnum.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -719,13 +710,13 @@ $('#Lenguetasvixxrcmn a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapoogdsvua);
+    }).addTo(maphgixwnum);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapoogdsvua === 'undefined') {
-    varinitmapoogdsvua = initmapoogdsvua();
+  if (typeof varinitmaphgixwnum === 'undefined') {
+    varinitmaphgixwnum = initmaphgixwnum();
   };
 });
 FINAL;

@@ -25,15 +25,14 @@ class SustentabilidadVolumenTratadoDeAguasResiduales extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasanstdnip">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszggdqpay">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
-      
+    <div class="tab-pane" id="datos">
+      <h4>Descripción</h4>
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -54,20 +53,14 @@ class SustentabilidadVolumenTratadoDeAguasResiduales extends \Base\Publicacion {
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Litros por segundo por cada mil habitantes.
-
-
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+<b>Unidad:</b>
+Litros por segundo por cada mil habitantes
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetijjjiszh" class="mapa"></div>
+              <div id="LeafLetmctncajw" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -123,20 +116,18 @@ class SustentabilidadVolumenTratadoDeAguasResiduales extends \Base\Publicacion {
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasanstdnip a:first').tab('show')
+  $('#Lenguetaszggdqpay a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasanstdnip a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszggdqpay a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapijjjiszh;
+  var mapmctncajw;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -153,17 +144,17 @@ $('#Lenguetasanstdnip a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapijjjiszh() {
+  function initmapmctncajw() {
     // Nuevo Mapa
-    mapijjjiszh = new L.Map('LeafLetijjjiszh');
+    mapmctncajw = new L.Map('LeafLetmctncajw');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapijjjiszh.setView(new L.LatLng(25.54, -103.44), 12);
+    mapmctncajw.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapijjjiszh.addLayer(osm);
+    mapmctncajw.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -196,13 +187,13 @@ $('#Lenguetasanstdnip a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapijjjiszh);
+    }).addTo(mapmctncajw);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapijjjiszh === 'undefined') {
-    varinitmapijjjiszh = initmapijjjiszh();
+  if (typeof varinitmapmctncajw === 'undefined') {
+    varinitmapmctncajw = initmapmctncajw();
   };
 });
 FINAL;

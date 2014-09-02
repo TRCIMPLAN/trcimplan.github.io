@@ -33,6 +33,7 @@ class Navegacion {
         'Análisis Publicados' => 'blog/index.html',
         'Indicadores' => array(
             'Introducción al SMI'       => 'smi/introduccion.html',
+            'Categorías'                => 'indicadores-categorias/',
             'Indicadores Torreón'       => 'indicadores-torreon/',
             'Indicadores Gómez Palacio' => 'indicadores-gomez-palacio/',
             'Indicadores Lerdo'         => 'indicadores-lerdo/',
@@ -65,6 +66,7 @@ class Navegacion {
     protected $iconos = array(
         'Análisis Publicados'       => 'fa fa-lightbulb-o',
         'Indicadores'               => 'fa fa-bar-chart',
+        'Categorías'                => 'fa fa-tags',
         'Indicadores Torreón'       => 'fa fa-table',
         'Indicadores Gómez Palacio' => 'fa fa-table',
         'Indicadores Lerdo'         => 'fa fa-table',

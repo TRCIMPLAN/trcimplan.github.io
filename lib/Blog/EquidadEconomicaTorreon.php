@@ -41,8 +41,9 @@ class EquidadEconomicaTorreon extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'equidad-economica-torreon/imagen-previa.jpg';
         $this->categorias    = array('Blog');
+     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="equidad-economica-torreon/monedas.jpg"></span>
+<span class="contenido-imagen-previa"><img src="equidad-economica-torreon/imagen.jpg"></span>
 
 <p>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social. De acuerdo al Índice de Gini, el principal indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad, estamos en mejores condiciones que el promedio del país. Incluso para estándares globales, nuestro coeficiente de Gini de 0.45 es relativamente bueno, tomando en cuenta a otros países de América Latina como Chile y Brasil los cuales se encuentran por arriba del 0.50, mientras algunos otros como Argentina y Estados Unidos tienen índices de 0.445 en 2010 y 0.45 en 2007 respectivamente (CIA Factbook 2014, The World Bank 2014).</p>
 

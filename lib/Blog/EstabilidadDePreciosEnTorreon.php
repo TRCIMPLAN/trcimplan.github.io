@@ -27,23 +27,6 @@ namespace Blog;
  */
 class EstabilidadDePreciosEnTorreon extends \Base\Publicacion {
 
-    // public $fecha;                     // La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
-    // public $autor;                     // El nombre o apodo a quien se le atribuye
-    // public $aparece_en_pagina_inicial; // Verdadero si va aparecer en la página de inicio
-    // public $imagen_previa;             // Ruta relativa a un archivo de imagen para la vista previa
-    // public $nombre;                    // Título completo
-    // public $nombre_menu;               // Un título corto. Debe coincidir con la etiqueta usada en Navegacion
-    // public $directorio;                // Directorio donde se guardará la publicación completa
-    // public $archivo;                   // El nombre del archivo para la publicación
-    // public $descripcion;               // Descripción del sitio o la página
-    // public $claves;                    // Claves que ayuden a los buscadores
-    // public $categorias;                // Arreglo con las categorías de la publicación
-    // public $encabezado;                // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
-    // public $contenido;                 // Contenido código HTML de la publicación
-    // public $javascript;                // Opcional. Código Javascript. Debe estar aparte para ponerlo al final de la página.
-    // public $en_raiz;                   // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
-    // public $en_otro;                   // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
-
     /**
      * Constructor
      */
@@ -54,12 +37,14 @@ class EstabilidadDePreciosEnTorreon extends \Base\Publicacion {
         $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
         $this->archivo       = 'estabilidad-de-precios-en-torreon';
-        $this->descripcion   = 'Descripcion.';
+        $this->descripcion   = 'En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'estabilidad-de-precios-en-torreon/imagen-previa.jpg';
-        $this->categorias    = array('');
+        $this->categorias    = array('Blog');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
+<span class="contenido-imagen-previa"><img src="estabilidad-de-precios-en-torreon/imagen.jpg"></span>
+
 <p>Durante el primer trimestre del 2014 el municipio de Torreón, Coahuila registró una variación porcentual de 1.66 en el Índice Nacional de Precios al Consumidor (INPC), mientras que la variación nacional fue de 1.43%. La inflación registrada en Torreón con respecto al primer trimestre del año pasado es de 3.78%, muy similar a la inflación nacional de 3.76% (INEGI, 2014). Una inflación mesurada como ésta incentiva la producción y disminuye el desempleo. Sin embargo, hay otros factores que deben tomarse en cuenta, como el nivel de ingresos, las tasas de interés y las causas de la inflación. </p>
 
 <p>La relación inflación-ingreso es relevante, ya que si la primera incrementa y el segundo se mantiene constante o disminuye, el poder adquisitivo de la población se reduce afectando la planta productiva. Algo similar ocurre con las tasas de interés, pues si éstas no se indexan se desincentiva el ahorro.</p>

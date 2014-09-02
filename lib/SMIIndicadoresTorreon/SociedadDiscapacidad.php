@@ -25,17 +25,14 @@ class SociedadDiscapacidad extends \Base\Publicacion {
         $this->claves      = 'Torreón, Grupos Vulnerables';
         $this->categorias  = array('Grupos Vulnerables');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfhyttdbg">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaskyywgahm">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
+    <li class="active"><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,32 +52,25 @@ Porcentaje de la población total con alguna limitación (motriz, visión, audit
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 Consulta o descarga la [Base de Datos](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
-
     </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
-    </div>
-    <div class="tab-pane" id="mapa">
-              <div id="LeafLetqcwpaqzx" class="mapa"></div>
-    </div>
-    <div class="tab-pane active" id="otras_regiones">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+    <div class="tab-pane active" id="mapa">
+              <div id="LeafLetnfthorru" class="mapa"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfhyttdbg a:first').tab('show')
+  $('#Lenguetaskyywgahm a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasfhyttdbg a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaskyywgahm a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapqcwpaqzx;
+  var mapnfthorru;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -97,17 +87,17 @@ $('#Lenguetasfhyttdbg a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapqcwpaqzx() {
+  function initmapnfthorru() {
     // Nuevo Mapa
-    mapqcwpaqzx = new L.Map('LeafLetqcwpaqzx');
+    mapnfthorru = new L.Map('LeafLetnfthorru');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapqcwpaqzx.setView(new L.LatLng(25.54, -103.44), 12);
+    mapnfthorru.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapqcwpaqzx.addLayer(osm);
+    mapnfthorru.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -140,13 +130,13 @@ $('#Lenguetasfhyttdbg a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapqcwpaqzx);
+    }).addTo(mapnfthorru);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapqcwpaqzx === 'undefined') {
-    varinitmapqcwpaqzx = initmapqcwpaqzx();
+  if (typeof varinitmapnfthorru === 'undefined') {
+    varinitmapnfthorru = initmapnfthorru();
   };
 });
 FINAL;

@@ -25,17 +25,16 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Empresas, Mercados';
         $this->categorias  = array('Empresas', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasphrekcfr">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasxiewyfbe">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -73,25 +72,20 @@ Unidades económicas dedicadas al comercio entre el total de unidades económica
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisvfediouo" class="grafica"></div>
-
-
+<div id="Morrissvysjtaj" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwtrqgnjf" class="mapa"></div>
+              <div id="LeafLetesxazvqx" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -245,22 +239,20 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasphrekcfr a:first').tab('show')
+  $('#Lenguetasxiewyfbe a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasphrekcfr a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasxiewyfbe a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisvfediouo === 'undefined') {
-    varMorrisvfediouo = Morris.Line({
-      element: 'Morrisvfediouo',
+  if (typeof varMorrissvysjtaj === 'undefined') {
+    varMorrissvysjtaj = Morris.Line({
+      element: 'Morrissvysjtaj',
       data: [{ fecha: '1998-12-31', dato: 64.3500 },{ fecha: '2003-12-31', dato: 64.4300 },{ fecha: '2008-12-31', dato: 57.4200 },{ fecha: '2013-10-31', dato: 51.2700 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -272,9 +264,9 @@ $('#Lenguetasphrekcfr a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasphrekcfr a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasxiewyfbe a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwtrqgnjf;
+  var mapesxazvqx;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -291,17 +283,17 @@ $('#Lenguetasphrekcfr a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwtrqgnjf() {
+  function initmapesxazvqx() {
     // Nuevo Mapa
-    mapwtrqgnjf = new L.Map('LeafLetwtrqgnjf');
+    mapesxazvqx = new L.Map('LeafLetesxazvqx');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwtrqgnjf.setView(new L.LatLng(25.54, -103.44), 12);
+    mapesxazvqx.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwtrqgnjf.addLayer(osm);
+    mapesxazvqx.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -334,13 +326,13 @@ $('#Lenguetasphrekcfr a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwtrqgnjf);
+    }).addTo(mapesxazvqx);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwtrqgnjf === 'undefined') {
-    varinitmapwtrqgnjf = initmapwtrqgnjf();
+  if (typeof varinitmapesxazvqx === 'undefined') {
+    varinitmapesxazvqx = initmapesxazvqx();
   };
 });
 FINAL;

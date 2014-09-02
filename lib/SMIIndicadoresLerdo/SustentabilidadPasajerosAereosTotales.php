@@ -25,17 +25,15 @@ class SustentabilidadPasajerosAereosTotales extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Movilidad';
         $this->categorias  = array('Movilidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnmkhqyke">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspcqhtutw">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Personas.
-
+<b>Unidad:</b>
+Personas
 <h4>Observaciones</h4>
 Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetvsqdzxsc" class="mapa"></div>
+              <div id="LeafLetrvdrwpen" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -111,20 +104,18 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnmkhqyke a:first').tab('show')
+  $('#Lenguetaspcqhtutw a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnmkhqyke a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspcqhtutw a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapvsqdzxsc;
+  var maprvdrwpen;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -141,17 +132,17 @@ $('#Lenguetasnmkhqyke a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapvsqdzxsc() {
+  function initmaprvdrwpen() {
     // Nuevo Mapa
-    mapvsqdzxsc = new L.Map('LeafLetvsqdzxsc');
+    maprvdrwpen = new L.Map('LeafLetrvdrwpen');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapvsqdzxsc.setView(new L.LatLng(25.54, -103.44), 12);
+    maprvdrwpen.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapvsqdzxsc.addLayer(osm);
+    maprvdrwpen.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -184,13 +175,13 @@ $('#Lenguetasnmkhqyke a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapvsqdzxsc);
+    }).addTo(maprvdrwpen);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapvsqdzxsc === 'undefined') {
-    varinitmapvsqdzxsc = initmapvsqdzxsc();
+  if (typeof varinitmaprvdrwpen === 'undefined') {
+    varinitmaprvdrwpen = initmaprvdrwpen();
   };
 });
 FINAL;

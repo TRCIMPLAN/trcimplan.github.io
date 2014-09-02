@@ -25,17 +25,16 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasoemaonlk">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasibgkcjrd">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Créditos dispuestos marginalmente durante el año indicado.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -79,27 +78,22 @@ Créditos dispuestos marginalmente durante el año indicado.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad de Créditos.
-
+<b>Unidad:</b>
+Cantidad de Créditos
 <h4>Observaciones</h4>
 El mercado hipotecario de La Laguna representa el 0.54% del mercado hipotecario nacional.
 
 Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrislbnynlfx" class="grafica"></div>
-
-
+<div id="Morrisiuducpgn" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetnkanjgnb" class="mapa"></div>
+              <div id="LeafLetkkwrbbxs" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -253,22 +247,20 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasoemaonlk a:first').tab('show')
+  $('#Lenguetasibgkcjrd a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasoemaonlk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasibgkcjrd a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrislbnynlfx === 'undefined') {
-    varMorrislbnynlfx = Morris.Line({
-      element: 'Morrislbnynlfx',
+  if (typeof varMorrisiuducpgn === 'undefined') {
+    varMorrisiuducpgn = Morris.Line({
+      element: 'Morrisiuducpgn',
       data: [{ fecha: '2010-12-31', dato: 76 },{ fecha: '2011-12-31', dato: 179 },{ fecha: '2012-12-31', dato: 340 },{ fecha: '2013-12-31', dato: 379 },{ fecha: '2014-03-31', dato: 27 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -280,9 +272,9 @@ $('#Lenguetasoemaonlk a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasoemaonlk a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasibgkcjrd a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapnkanjgnb;
+  var mapkkwrbbxs;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -299,17 +291,17 @@ $('#Lenguetasoemaonlk a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapnkanjgnb() {
+  function initmapkkwrbbxs() {
     // Nuevo Mapa
-    mapnkanjgnb = new L.Map('LeafLetnkanjgnb');
+    mapkkwrbbxs = new L.Map('LeafLetkkwrbbxs');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapnkanjgnb.setView(new L.LatLng(25.54, -103.44), 12);
+    mapkkwrbbxs.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapnkanjgnb.addLayer(osm);
+    mapkkwrbbxs.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -342,13 +334,13 @@ $('#Lenguetasoemaonlk a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapnkanjgnb);
+    }).addTo(mapkkwrbbxs);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapnkanjgnb === 'undefined') {
-    varinitmapnkanjgnb = initmapnkanjgnb();
+  if (typeof varinitmapkkwrbbxs === 'undefined') {
+    varinitmapkkwrbbxs = initmapkkwrbbxs();
   };
 });
 FINAL;

@@ -25,17 +25,15 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
         $this->claves      = 'Matamoros';
         $this->categorias  = array();
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasomemjhzf">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasaozjheeq">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,24 +53,19 @@ Indicador de igualdad usado internacionalmente donde 0 representa la igualdad pe
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> De 0 a 1.
-
+<b>Unidad:</b>
+De 0 a 1
 <h4>Observaciones</h4>
 El índice de Ginni a nivel nacional es de: 0.472
 
 
 Datos obtenidos de [CONEVAL](http://www.coneval.gob.mx/Paginas/principal.aspx)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetkbalcybq" class="mapa"></div>
+              <div id="LeafLetlesioxpb" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -114,20 +107,18 @@ Datos obtenidos de [CONEVAL](http://www.coneval.gob.mx/Paginas/principal.aspx)
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasomemjhzf a:first').tab('show')
+  $('#Lenguetasaozjheeq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasomemjhzf a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasaozjheeq a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapkbalcybq;
+  var maplesioxpb;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -144,17 +135,17 @@ $('#Lenguetasomemjhzf a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapkbalcybq() {
+  function initmaplesioxpb() {
     // Nuevo Mapa
-    mapkbalcybq = new L.Map('LeafLetkbalcybq');
+    maplesioxpb = new L.Map('LeafLetlesioxpb');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapkbalcybq.setView(new L.LatLng(25.54, -103.44), 12);
+    maplesioxpb.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapkbalcybq.addLayer(osm);
+    maplesioxpb.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -187,13 +178,13 @@ $('#Lenguetasomemjhzf a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapkbalcybq);
+    }).addTo(maplesioxpb);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapkbalcybq === 'undefined') {
-    varinitmapkbalcybq = initmapkbalcybq();
+  if (typeof varinitmaplesioxpb === 'undefined') {
+    varinitmaplesioxpb = initmaplesioxpb();
   };
 });
 FINAL;

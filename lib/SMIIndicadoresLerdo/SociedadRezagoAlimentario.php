@@ -25,17 +25,15 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Grupos Vulnerables, Bienestar';
         $this->categorias  = array('Grupos Vulnerables', 'Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasuquodvwm">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdftryjrn">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Personas que presenten un grado de inseguridad alimentaria moderado o severo.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Personas que presenten un grado de inseguridad alimentaria moderado o severo.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 Consulta la [BasedeDatos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Anexo-estad%C3%ADstico-municipal-2010.aspx)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLettntjtvaz" class="mapa"></div>
+              <div id="LeafLetsdqcjpgy" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -104,20 +97,18 @@ Consulta la [BasedeDatos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasuquodvwm a:first').tab('show')
+  $('#Lenguetasdftryjrn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasuquodvwm a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdftryjrn a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maptntjtvaz;
+  var mapsdqcjpgy;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -134,17 +125,17 @@ $('#Lenguetasuquodvwm a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaptntjtvaz() {
+  function initmapsdqcjpgy() {
     // Nuevo Mapa
-    maptntjtvaz = new L.Map('LeafLettntjtvaz');
+    mapsdqcjpgy = new L.Map('LeafLetsdqcjpgy');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maptntjtvaz.setView(new L.LatLng(25.54, -103.44), 12);
+    mapsdqcjpgy.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maptntjtvaz.addLayer(osm);
+    mapsdqcjpgy.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -177,13 +168,13 @@ $('#Lenguetasuquodvwm a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maptntjtvaz);
+    }).addTo(mapsdqcjpgy);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaptntjtvaz === 'undefined') {
-    varinitmaptntjtvaz = initmaptntjtvaz();
+  if (typeof varinitmapsdqcjpgy === 'undefined') {
+    varinitmapsdqcjpgy = initmapsdqcjpgy();
   };
 });
 FINAL;

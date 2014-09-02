@@ -25,17 +25,15 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Salud, Género';
         $this->categorias  = array('Salud', 'Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrytjwsvo">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasncnvfmxp">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Defunciones maternas por cada cien mil partos.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Defunciones maternas por cada cien mil partos.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Por cada 10 mil.
-
+<b>Unidad:</b>
+Por cada 10 mil
 <h4>Observaciones</h4>
 Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014]
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetlxqzykix" class="mapa"></div>
+              <div id="LeafLetwuhqcpcc" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -111,20 +104,18 @@ Dirección General de Información en Salud (DGIS). Base de datos de defunciones
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrytjwsvo a:first').tab('show')
+  $('#Lenguetasncnvfmxp a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasrytjwsvo a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasncnvfmxp a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maplxqzykix;
+  var mapwuhqcpcc;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -141,17 +132,17 @@ $('#Lenguetasrytjwsvo a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaplxqzykix() {
+  function initmapwuhqcpcc() {
     // Nuevo Mapa
-    maplxqzykix = new L.Map('LeafLetlxqzykix');
+    mapwuhqcpcc = new L.Map('LeafLetwuhqcpcc');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maplxqzykix.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwuhqcpcc.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maplxqzykix.addLayer(osm);
+    mapwuhqcpcc.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -184,13 +175,13 @@ $('#Lenguetasrytjwsvo a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maplxqzykix);
+    }).addTo(mapwuhqcpcc);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaplxqzykix === 'undefined') {
-    varinitmaplxqzykix = initmaplxqzykix();
+  if (typeof varinitmapwuhqcpcc === 'undefined') {
+    varinitmapwuhqcpcc = initmapwuhqcpcc();
   };
 });
 FINAL;

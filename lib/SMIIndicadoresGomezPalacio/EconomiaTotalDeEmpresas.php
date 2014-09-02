@@ -25,15 +25,15 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaslwpledtr">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasiauxnsvk">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
-      
+    <div class="tab-pane" id="datos">
+      <h4>Descripción</h4>
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -60,26 +60,21 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad de Empresas.
-
+<b>Unidad:</b>
+Cantidad de Empresas
 <h4>Observaciones</h4>
 Las empresas de La Laguna representan el 1.34% del total de 666,684 empresas a nivel nacional para el año 2013.
 Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoPublico.asp?p=1)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrispkuivjrs" class="grafica"></div>
-
-
+<div id="Morriscxnfjkjp" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetokyyanvj" class="mapa"></div>
+              <div id="LeafLetporwbsxn" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -191,22 +186,20 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaslwpledtr a:first').tab('show')
+  $('#Lenguetasiauxnsvk a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaslwpledtr a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasiauxnsvk a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrispkuivjrs === 'undefined') {
-    varMorrispkuivjrs = Morris.Line({
-      element: 'Morrispkuivjrs',
+  if (typeof varMorriscxnfjkjp === 'undefined') {
+    varMorriscxnfjkjp = Morris.Line({
+      element: 'Morriscxnfjkjp',
       data: [{ fecha: '2013-12-31', dato: 1942 },{ fecha: '2014-07-31', dato: 2032 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -218,9 +211,9 @@ $('#Lenguetaslwpledtr a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaslwpledtr a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasiauxnsvk a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapokyyanvj;
+  var mapporwbsxn;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -237,17 +230,17 @@ $('#Lenguetaslwpledtr a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapokyyanvj() {
+  function initmapporwbsxn() {
     // Nuevo Mapa
-    mapokyyanvj = new L.Map('LeafLetokyyanvj');
+    mapporwbsxn = new L.Map('LeafLetporwbsxn');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapokyyanvj.setView(new L.LatLng(25.54, -103.44), 12);
+    mapporwbsxn.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapokyyanvj.addLayer(osm);
+    mapporwbsxn.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -280,13 +273,13 @@ $('#Lenguetaslwpledtr a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapokyyanvj);
+    }).addTo(mapporwbsxn);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapokyyanvj === 'undefined') {
-    varinitmapokyyanvj = initmapokyyanvj();
+  if (typeof varinitmapporwbsxn === 'undefined') {
+    varinitmapporwbsxn = initmapporwbsxn();
   };
 });
 FINAL;

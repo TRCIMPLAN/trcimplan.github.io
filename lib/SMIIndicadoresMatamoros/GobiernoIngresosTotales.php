@@ -25,17 +25,16 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasqrjmqfbl">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasheofjfvi">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Ingresos totales por municipio.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -85,8 +84,8 @@ Ingresos totales por municipio.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Pesos.
-
+<b>Unidad:</b>
+Pesos
 <h4>Observaciones</h4>
 El promedio nacional de los ingresos totales por municipio es de:
 
@@ -98,21 +97,16 @@ El promedio nacional de los ingresos totales por municipio es de:
 - 2007 = 83404076.21
 
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisecviryxx" class="grafica"></div>
-
-
+<div id="Morrishyztizej" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetvkhlmvsd" class="mapa"></div>
+              <div id="LeafLetywtbdyjq" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -301,22 +295,20 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasqrjmqfbl a:first').tab('show')
+  $('#Lenguetasheofjfvi a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasqrjmqfbl a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasheofjfvi a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisecviryxx === 'undefined') {
-    varMorrisecviryxx = Morris.Line({
-      element: 'Morrisecviryxx',
+  if (typeof varMorrishyztizej === 'undefined') {
+    varMorrishyztizej = Morris.Line({
+      element: 'Morrishyztizej',
       data: [{ fecha: '2007-12-31', dato: 118848281.00 },{ fecha: '2008-12-31', dato: 179363074.00 },{ fecha: '2009-12-31', dato: 172111514.00 },{ fecha: '2010-12-31', dato: 149987909.00 },{ fecha: '2011-12-31', dato: 154367205.00 },{ fecha: '2012-12-31', dato: 176265107.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -328,9 +320,9 @@ $('#Lenguetasqrjmqfbl a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasqrjmqfbl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasheofjfvi a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapvkhlmvsd;
+  var mapywtbdyjq;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -347,17 +339,17 @@ $('#Lenguetasqrjmqfbl a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapvkhlmvsd() {
+  function initmapywtbdyjq() {
     // Nuevo Mapa
-    mapvkhlmvsd = new L.Map('LeafLetvkhlmvsd');
+    mapywtbdyjq = new L.Map('LeafLetywtbdyjq');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapvkhlmvsd.setView(new L.LatLng(25.54, -103.44), 12);
+    mapywtbdyjq.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapvkhlmvsd.addLayer(osm);
+    mapywtbdyjq.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -390,13 +382,13 @@ $('#Lenguetasqrjmqfbl a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapvkhlmvsd);
+    }).addTo(mapywtbdyjq);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapvkhlmvsd === 'undefined') {
-    varinitmapvkhlmvsd = initmapvkhlmvsd();
+  if (typeof varinitmapywtbdyjq === 'undefined') {
+    varinitmapywtbdyjq = initmapywtbdyjq();
   };
 });
 FINAL;

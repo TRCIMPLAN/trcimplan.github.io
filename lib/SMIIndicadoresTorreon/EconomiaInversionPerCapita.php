@@ -25,17 +25,16 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
         $this->claves      = 'Torreón, Macroeconomía, Finanzas Públicas';
         $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasinrtxrwo">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszrcwnojv">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Gasto en obras públicas y acciones sociales entre población total.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -85,8 +84,8 @@ Gasto en obras públicas y acciones sociales entre población total.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Pesos.
-
+<b>Unidad:</b>
+Pesos
 <h4>Observaciones</h4>
 La inversión nacional per cápita es de:
 
@@ -98,21 +97,16 @@ La inversión nacional per cápita es de:
 - 2007 = $484.72 
 
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morriskdzhrtqu" class="grafica"></div>
-
-
+<div id="Morrisvudaggpq" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetyfuyuebe" class="mapa"></div>
+              <div id="LeafLetfdxtzwgh" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -294,22 +288,20 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasinrtxrwo a:first').tab('show')
+  $('#Lenguetaszrcwnojv a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasinrtxrwo a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszrcwnojv a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskdzhrtqu === 'undefined') {
-    varMorriskdzhrtqu = Morris.Line({
-      element: 'Morriskdzhrtqu',
+  if (typeof varMorrisvudaggpq === 'undefined') {
+    varMorrisvudaggpq = Morris.Line({
+      element: 'Morrisvudaggpq',
       data: [{ fecha: '2007-12-31', dato: 604.26 },{ fecha: '2008-12-31', dato: 767.48 },{ fecha: '2009-12-31', dato: 497.90 },{ fecha: '2010-12-31', dato: 236.57 },{ fecha: '2011-12-31', dato: 529.86 },{ fecha: '2012-12-31', dato: 348.09 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -321,9 +313,9 @@ $('#Lenguetasinrtxrwo a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasinrtxrwo a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszrcwnojv a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapyfuyuebe;
+  var mapfdxtzwgh;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -340,17 +332,17 @@ $('#Lenguetasinrtxrwo a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapyfuyuebe() {
+  function initmapfdxtzwgh() {
     // Nuevo Mapa
-    mapyfuyuebe = new L.Map('LeafLetyfuyuebe');
+    mapfdxtzwgh = new L.Map('LeafLetfdxtzwgh');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapyfuyuebe.setView(new L.LatLng(25.54, -103.44), 12);
+    mapfdxtzwgh.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapyfuyuebe.addLayer(osm);
+    mapfdxtzwgh.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -383,13 +375,13 @@ $('#Lenguetasinrtxrwo a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapyfuyuebe);
+    }).addTo(mapfdxtzwgh);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapyfuyuebe === 'undefined') {
-    varinitmapyfuyuebe = initmapyfuyuebe();
+  if (typeof varinitmapfdxtzwgh === 'undefined') {
+    varinitmapfdxtzwgh = initmapfdxtzwgh();
   };
 });
 FINAL;

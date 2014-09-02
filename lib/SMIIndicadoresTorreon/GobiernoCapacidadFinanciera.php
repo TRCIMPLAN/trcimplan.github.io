@@ -25,17 +25,16 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
         $this->claves      = 'Torreón, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasxauovvpr">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbbqrigas">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Ingresos propios entre gastos corrientes.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -91,8 +90,8 @@ Ingresos propios entre gastos corrientes.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 El indicador de capacidad financiera a nivel nacional es de:
 
@@ -104,21 +103,16 @@ El indicador de capacidad financiera a nivel nacional es de:
 - 2007 = 44.48%
 
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisdrjbpolw" class="grafica"></div>
-
-
+<div id="Morrisdtpslrur" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetzksmbjfo" class="mapa"></div>
+              <div id="LeafLetegfmgblz" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -307,22 +301,20 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasxauovvpr a:first').tab('show')
+  $('#Lenguetasbbqrigas a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasxauovvpr a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbbqrigas a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisdrjbpolw === 'undefined') {
-    varMorrisdrjbpolw = Morris.Line({
-      element: 'Morrisdrjbpolw',
+  if (typeof varMorrisdtpslrur === 'undefined') {
+    varMorrisdtpslrur = Morris.Line({
+      element: 'Morrisdtpslrur',
       data: [{ fecha: '2007-12-31', dato: 80.9500 },{ fecha: '2008-12-31', dato: 77.6100 },{ fecha: '2009-12-31', dato: 75.4600 },{ fecha: '2010-12-31', dato: 65.2700 },{ fecha: '2011-12-31', dato: 56.4500 },{ fecha: '2012-12-31', dato: 74.1000 },{ fecha: '2013-12-31', dato: 74.2200 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -334,9 +326,9 @@ $('#Lenguetasxauovvpr a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasxauovvpr a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbbqrigas a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapzksmbjfo;
+  var mapegfmgblz;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -353,17 +345,17 @@ $('#Lenguetasxauovvpr a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapzksmbjfo() {
+  function initmapegfmgblz() {
     // Nuevo Mapa
-    mapzksmbjfo = new L.Map('LeafLetzksmbjfo');
+    mapegfmgblz = new L.Map('LeafLetegfmgblz');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapzksmbjfo.setView(new L.LatLng(25.54, -103.44), 12);
+    mapegfmgblz.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapzksmbjfo.addLayer(osm);
+    mapegfmgblz.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -396,13 +388,13 @@ $('#Lenguetasxauovvpr a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapzksmbjfo);
+    }).addTo(mapegfmgblz);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapzksmbjfo === 'undefined') {
-    varinitmapzksmbjfo = initmapzksmbjfo();
+  if (typeof varinitmapegfmgblz === 'undefined') {
+    varinitmapegfmgblz = initmapegfmgblz();
   };
 });
 FINAL;

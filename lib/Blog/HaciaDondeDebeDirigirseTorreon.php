@@ -41,8 +41,9 @@ class HaciaDondeDebeDirigirseTorreon extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'hacia-donde-debe-dirigirse-torreon/imagen-previa.jpg';
         $this->categorias    = array('Blog');
+     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="hacia-donde-debe-dirigirse-torreon/indicadores.jpg"></span>
+<span class="contenido-imagen-previa"><img src="hacia-donde-debe-dirigirse-torreon/imagen.jpg"></span>
 
 <p>Con ayuda de la tecnología, la economía se ha mantenido en constante cambio a través del tiempo. El primer gran cambio fue con la revolución industrial en el siglo XVIII, ya que permitió la transición de una economía basada en actividades primarias como la agricultura y la extracción a una basada en la transformación, lo cual aporta mucho mayor valor a la economía. Fue entonces que las grandes potencias comenzaron a modernizarse, y a dejar atrás a otros países basados aun en la agricultura.</p>
 

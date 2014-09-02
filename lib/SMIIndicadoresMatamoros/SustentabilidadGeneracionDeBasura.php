@@ -25,17 +25,15 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaswyzhwejy">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetassxngczlp">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Se considera la basura generada que ha sido recolectada y que termina en los dep
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Kilogramos diarios por cada diez personas.
-
+<b>Unidad:</b>
+Kilogramos diarios por cada diez personas
 <h4>Observaciones</h4>
 Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.aspx?t=mamb1065&s=est&c=33986)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLethezxotqk" class="mapa"></div>
+              <div id="LeafLetjgzcyure" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -132,20 +125,18 @@ Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.asp
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaswyzhwejy a:first').tab('show')
+  $('#Lenguetassxngczlp a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaswyzhwejy a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetassxngczlp a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maphezxotqk;
+  var mapjgzcyure;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -162,17 +153,17 @@ $('#Lenguetaswyzhwejy a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaphezxotqk() {
+  function initmapjgzcyure() {
     // Nuevo Mapa
-    maphezxotqk = new L.Map('LeafLethezxotqk');
+    mapjgzcyure = new L.Map('LeafLetjgzcyure');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maphezxotqk.setView(new L.LatLng(25.54, -103.44), 12);
+    mapjgzcyure.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maphezxotqk.addLayer(osm);
+    mapjgzcyure.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -205,13 +196,13 @@ $('#Lenguetaswyzhwejy a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maphezxotqk);
+    }).addTo(mapjgzcyure);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaphezxotqk === 'undefined') {
-    varinitmaphezxotqk = initmaphezxotqk();
+  if (typeof varinitmapjgzcyure === 'undefined') {
+    varinitmapjgzcyure = initmapjgzcyure();
   };
 });
 FINAL;

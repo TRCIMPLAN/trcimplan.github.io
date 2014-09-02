@@ -25,17 +25,15 @@ class EconomiaPermisoDeConstruccion extends \Base\Publicacion {
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasreolkzwy">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaseqkpdipk">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li class="active"><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Número de días necesarios para conseguir un permiso de construcción.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -69,37 +67,29 @@ Costo (% de ingreso per cápita) = 40,6</td>
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Días.
-
-
-
+<b>Unidad:</b>
+Días
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisdrrtmfso" class="grafica"></div>
-
-
+<div id="Morrisaueduxmd" class="grafica"></div>
     </div>
-    <div class="tab-pane" id="mapa">
-              <div id="LeafLetlpaxkcbk" class="mapa"></div>
-    </div>
-    <div class="tab-pane active" id="otras_regiones">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+    <div class="tab-pane active" id="mapa">
+              <div id="LeafLetmiqpvzfe" class="mapa"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasreolkzwy a:first').tab('show')
+  $('#Lenguetaseqkpdipk a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasreolkzwy a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaseqkpdipk a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisdrrtmfso === 'undefined') {
-    varMorrisdrrtmfso = Morris.Line({
-      element: 'Morrisdrrtmfso',
+  if (typeof varMorrisaueduxmd === 'undefined') {
+    varMorrisaueduxmd = Morris.Line({
+      element: 'Morrisaueduxmd',
       data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -111,9 +101,9 @@ $('#Lenguetasreolkzwy a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasreolkzwy a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaseqkpdipk a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maplpaxkcbk;
+  var mapmiqpvzfe;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +120,17 @@ $('#Lenguetasreolkzwy a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaplpaxkcbk() {
+  function initmapmiqpvzfe() {
     // Nuevo Mapa
-    maplpaxkcbk = new L.Map('LeafLetlpaxkcbk');
+    mapmiqpvzfe = new L.Map('LeafLetmiqpvzfe');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maplpaxkcbk.setView(new L.LatLng(25.54, -103.44), 12);
+    mapmiqpvzfe.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maplpaxkcbk.addLayer(osm);
+    mapmiqpvzfe.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +163,13 @@ $('#Lenguetasreolkzwy a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maplpaxkcbk);
+    }).addTo(mapmiqpvzfe);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaplpaxkcbk === 'undefined') {
-    varinitmaplpaxkcbk = initmaplpaxkcbk();
+  if (typeof varinitmapmiqpvzfe === 'undefined') {
+    varinitmapmiqpvzfe = initmapmiqpvzfe();
   };
 });
 FINAL;

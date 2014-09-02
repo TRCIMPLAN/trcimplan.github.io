@@ -25,17 +25,15 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasudbordet">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasneizcxvg">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,20 +53,14 @@ Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Por cada 10 mil.
-
-
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+<b>Unidad:</b>
+Por cada 10 mil
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetuawtjozz" class="mapa"></div>
+              <div id="LeafLetrixfvifl" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -131,20 +123,18 @@ Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasudbordet a:first').tab('show')
+  $('#Lenguetasneizcxvg a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasudbordet a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasneizcxvg a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapuawtjozz;
+  var maprixfvifl;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -161,17 +151,17 @@ $('#Lenguetasudbordet a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapuawtjozz() {
+  function initmaprixfvifl() {
     // Nuevo Mapa
-    mapuawtjozz = new L.Map('LeafLetuawtjozz');
+    maprixfvifl = new L.Map('LeafLetrixfvifl');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapuawtjozz.setView(new L.LatLng(25.54, -103.44), 12);
+    maprixfvifl.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapuawtjozz.addLayer(osm);
+    maprixfvifl.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -204,13 +194,13 @@ $('#Lenguetasudbordet a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapuawtjozz);
+    }).addTo(maprixfvifl);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapuawtjozz === 'undefined') {
-    varinitmapuawtjozz = initmapuawtjozz();
+  if (typeof varinitmaprixfvifl === 'undefined') {
+    varinitmaprixfvifl = initmaprixfvifl();
   };
 });
 FINAL;

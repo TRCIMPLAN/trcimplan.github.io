@@ -25,17 +25,16 @@ class SociedadMedicos extends \Base\Publicacion {
         $this->claves      = 'Torreón, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdjcjgetp">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasnyxhcdkh">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Médicos en contacto con pacientes por cada diez mil personas.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -127,25 +126,20 @@ Médicos en contacto con pacientes por cada diez mil personas.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Por cada 10 mil.
-
+<b>Unidad:</b>
+Por cada 10 mil
 <h4>Observaciones</h4>
 Dirección General de Información en Salud (DGIS). Base de datos de recursos (infraestructura, materiales y humanos) de la Secretaría de Salud y los Servicios Estatales de Salud 2001-2009: [Sistema Nacional de Información en Salud](http://www.sinais.salud.gob.mx) (SINAIS). México: Secretaría de Salud. Consulta: 01 abril 2014.
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrispjcvcgof" class="grafica"></div>
-
-
+<div id="Morrissqrkrofh" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwssodbgq" class="mapa"></div>
+              <div id="LeafLetesqykcgq" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -544,22 +538,20 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdjcjgetp a:first').tab('show')
+  $('#Lenguetasnyxhcdkh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasdjcjgetp a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnyxhcdkh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrispjcvcgof === 'undefined') {
-    varMorrispjcvcgof = Morris.Line({
-      element: 'Morrispjcvcgof',
+  if (typeof varMorrissqrkrofh === 'undefined') {
+    varMorrissqrkrofh = Morris.Line({
+      element: 'Morrissqrkrofh',
       data: [{ fecha: '2001-12-31', dato: 2.2000 },{ fecha: '2002-12-31', dato: 1.7000 },{ fecha: '2003-12-31', dato: 1.8000 },{ fecha: '2004-12-31', dato: 1.7000 },{ fecha: '2005-12-31', dato: 1.3000 },{ fecha: '2006-12-31', dato: 1.9000 },{ fecha: '2007-12-31', dato: 2.5000 },{ fecha: '2008-12-31', dato: 2.5000 },{ fecha: '2009-12-31', dato: 2.6000 },{ fecha: '2010-12-31', dato: 2.7000 },{ fecha: '2011-12-31', dato: 2.5000 },{ fecha: '2012-12-31', dato: 2.5000 },{ fecha: '2013-12-31', dato: 2.5000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -571,9 +563,9 @@ $('#Lenguetasdjcjgetp a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasdjcjgetp a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnyxhcdkh a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwssodbgq;
+  var mapesqykcgq;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -590,17 +582,17 @@ $('#Lenguetasdjcjgetp a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwssodbgq() {
+  function initmapesqykcgq() {
     // Nuevo Mapa
-    mapwssodbgq = new L.Map('LeafLetwssodbgq');
+    mapesqykcgq = new L.Map('LeafLetesqykcgq');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwssodbgq.setView(new L.LatLng(25.54, -103.44), 12);
+    mapesqykcgq.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwssodbgq.addLayer(osm);
+    mapesqykcgq.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -633,13 +625,13 @@ $('#Lenguetasdjcjgetp a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwssodbgq);
+    }).addTo(mapesqykcgq);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwssodbgq === 'undefined') {
-    varinitmapwssodbgq = initmapwssodbgq();
+  if (typeof varinitmapesqykcgq === 'undefined') {
+    varinitmapesqykcgq = initmapesqykcgq();
   };
 });
 FINAL;

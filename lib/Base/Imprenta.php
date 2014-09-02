@@ -160,11 +160,14 @@ class Imprenta {
             $publicacion = new $clase();
             // Si es instancia de Publicacion, se acumula
             if ($publicacion instanceof Publicacion) {
-                $instancias[] = $publicacion;
+                $clave              = "{$publicacion->fecha}-{$publicacion->archivo}";
+                $instancias[$clave] = $publicacion;
             } else {
                 $this->mensajes[] = "  Omití $clase porque no es una publicación.";
             }
         }
+        // Ordenar por la clave de forma inversa, así será del más reciente al más antiguo
+        krsort($instancias);
         // Acumular
         $this->publicaciones = array_merge($this->publicaciones, $instancias);
         // Entregar

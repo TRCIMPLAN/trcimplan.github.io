@@ -25,17 +25,15 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento20082012 extends \Base\Publ
         $this->claves      = 'Matamoros, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasukxczdvc">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvmvmedjf">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 % de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,23 +53,18 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento20082012 extends \Base\Publ
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 A nivel nacional el porcentaje de producción en sectores con tasa promedio de crecimiento superior al promedio es de 26.44%.
 
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/) y [Centro de Estudios de las Finanzas Públicas](http://www.cefp.gob.mx/Pub_Macro_Estadisticas.htm)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetdzctvpco" class="mapa"></div>
+              <div id="LeafLetewnzajer" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -120,20 +113,18 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasukxczdvc a:first').tab('show')
+  $('#Lenguetasvmvmedjf a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasukxczdvc a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvmvmedjf a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapdzctvpco;
+  var mapewnzajer;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -150,17 +141,17 @@ $('#Lenguetasukxczdvc a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapdzctvpco() {
+  function initmapewnzajer() {
     // Nuevo Mapa
-    mapdzctvpco = new L.Map('LeafLetdzctvpco');
+    mapewnzajer = new L.Map('LeafLetewnzajer');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapdzctvpco.setView(new L.LatLng(25.54, -103.44), 12);
+    mapewnzajer.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapdzctvpco.addLayer(osm);
+    mapewnzajer.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -193,13 +184,13 @@ $('#Lenguetasukxczdvc a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapdzctvpco);
+    }).addTo(mapewnzajer);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapdzctvpco === 'undefined') {
-    varinitmapdzctvpco = initmapdzctvpco();
+  if (typeof varinitmapewnzajer === 'undefined') {
+    varinitmapewnzajer = initmapewnzajer();
   };
 });
 FINAL;

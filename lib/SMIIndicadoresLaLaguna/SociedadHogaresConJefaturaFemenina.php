@@ -25,17 +25,15 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Género';
         $this->categorias  = array('Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasulczpkfb">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasssxjwapk">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Porcentaje de hogares con jefatura femenina.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Porcentaje de hogares con jefatura femenina.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetssqpwemw" class="mapa"></div>
+              <div id="LeafLetydjhstxw" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -111,20 +104,18 @@ Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/)
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasulczpkfb a:first').tab('show')
+  $('#Lenguetasssxjwapk a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasulczpkfb a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasssxjwapk a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapssqpwemw;
+  var mapydjhstxw;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -141,17 +132,17 @@ $('#Lenguetasulczpkfb a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapssqpwemw() {
+  function initmapydjhstxw() {
     // Nuevo Mapa
-    mapssqpwemw = new L.Map('LeafLetssqpwemw');
+    mapydjhstxw = new L.Map('LeafLetydjhstxw');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapssqpwemw.setView(new L.LatLng(25.54, -103.44), 12);
+    mapydjhstxw.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapssqpwemw.addLayer(osm);
+    mapydjhstxw.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -184,13 +175,13 @@ $('#Lenguetasulczpkfb a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapssqpwemw);
+    }).addTo(mapydjhstxw);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapssqpwemw === 'undefined') {
-    varinitmapssqpwemw = initmapssqpwemw();
+  if (typeof varinitmapydjhstxw === 'undefined') {
+    varinitmapydjhstxw = initmapydjhstxw();
   };
 });
 FINAL;

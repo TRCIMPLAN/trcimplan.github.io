@@ -79,9 +79,24 @@ class Completo {
         $a[] = '  </header>';
         $a[] = $this->publicacion->contenido;
         $a[] = '</article>';
+        // Agregar botones para compartir en redes sociales
+        $a[] = '<div class="contenido-social">';
+        $a[] = '  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>';
+     // $a[] = '  <iframe src="//www.facebook.com/plugins/like.php?href=---urlencode(link)---&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>';
+        $a[] = '</div>';
         // Entregar
         return implode("\n", $a);
     } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        // Javascript para compartir en redes sociales
+        return '!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");';
+    } // javascript
 
 } // Clase Completo
 

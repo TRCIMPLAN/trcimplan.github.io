@@ -25,17 +25,15 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Servicios Públicos';
         $this->categorias  = array('Servicios Públicos');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdwfeyive">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasouerxipz">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Porcentaje de viviendas sin acceso a alumbrado público en su manzana
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Porcentaje de viviendas sin acceso a alumbrado público en su manzana
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 Censo de Población y Vivienda 2010. Consulta las [Bases de Datos](http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetednxbwjq" class="mapa"></div>
+              <div id="LeafLetkezgwtlh" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -111,20 +104,18 @@ Censo de Población y Vivienda 2010. Consulta las [Bases de Datos](http://www.in
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdwfeyive a:first').tab('show')
+  $('#Lenguetasouerxipz a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasdwfeyive a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasouerxipz a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapednxbwjq;
+  var mapkezgwtlh;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -141,17 +132,17 @@ $('#Lenguetasdwfeyive a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapednxbwjq() {
+  function initmapkezgwtlh() {
     // Nuevo Mapa
-    mapednxbwjq = new L.Map('LeafLetednxbwjq');
+    mapkezgwtlh = new L.Map('LeafLetkezgwtlh');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapednxbwjq.setView(new L.LatLng(25.54, -103.44), 12);
+    mapkezgwtlh.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapednxbwjq.addLayer(osm);
+    mapkezgwtlh.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -184,13 +175,13 @@ $('#Lenguetasdwfeyive a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapednxbwjq);
+    }).addTo(mapkezgwtlh);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapednxbwjq === 'undefined') {
-    varinitmapednxbwjq = initmapednxbwjq();
+  if (typeof varinitmapkezgwtlh === 'undefined') {
+    varinitmapkezgwtlh = initmapkezgwtlh();
   };
 });
 FINAL;

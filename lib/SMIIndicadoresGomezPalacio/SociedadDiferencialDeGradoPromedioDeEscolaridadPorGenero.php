@@ -25,17 +25,15 @@ class SociedadDiferencialDeGradoPromedioDeEscolaridadPorGenero extends \Base\Pub
         $this->claves      = 'Gómez Palacio, Género, Educación';
         $this->categorias  = array('Género', 'Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfsedwlfv">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgmmygmyu">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Promedio.
-
+<b>Unidad:</b>
+Promedio
 <h4>Observaciones</h4>
 Años de escolaridad.
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwcshzaxz" class="mapa"></div>
+              <div id="LeafLetjnkdslre" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -104,20 +97,18 @@ Años de escolaridad.
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfsedwlfv a:first').tab('show')
+  $('#Lenguetasgmmygmyu a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasfsedwlfv a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasgmmygmyu a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwcshzaxz;
+  var mapjnkdslre;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -134,17 +125,17 @@ $('#Lenguetasfsedwlfv a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwcshzaxz() {
+  function initmapjnkdslre() {
     // Nuevo Mapa
-    mapwcshzaxz = new L.Map('LeafLetwcshzaxz');
+    mapjnkdslre = new L.Map('LeafLetjnkdslre');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwcshzaxz.setView(new L.LatLng(25.54, -103.44), 12);
+    mapjnkdslre.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwcshzaxz.addLayer(osm);
+    mapjnkdslre.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -177,13 +168,13 @@ $('#Lenguetasfsedwlfv a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwcshzaxz);
+    }).addTo(mapjnkdslre);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwcshzaxz === 'undefined') {
-    varinitmapwcshzaxz = initmapwcshzaxz();
+  if (typeof varinitmapjnkdslre === 'undefined') {
+    varinitmapjnkdslre = initmapjnkdslre();
   };
 });
 FINAL;

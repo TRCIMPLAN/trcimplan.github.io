@@ -25,17 +25,16 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
         $this->claves      = 'Torreón, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaszzikbemf">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvxdqsizt">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -91,8 +90,8 @@ Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 El promedio de la relación entre ingresos propios y totales de los municipios es:
 
@@ -104,21 +103,16 @@ El promedio de la relación entre ingresos propios y totales de los municipios e
 - 2007 = 22.78%
 
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisupffwlor" class="grafica"></div>
-
-
+<div id="Morrissummayue" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLethnasxesr" class="mapa"></div>
+              <div id="LeafLetonsifisf" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -300,22 +294,20 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaszzikbemf a:first').tab('show')
+  $('#Lenguetasvxdqsizt a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaszzikbemf a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvxdqsizt a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisupffwlor === 'undefined') {
-    varMorrisupffwlor = Morris.Line({
-      element: 'Morrisupffwlor',
+  if (typeof varMorrissummayue === 'undefined') {
+    varMorrissummayue = Morris.Line({
+      element: 'Morrissummayue',
       data: [{ fecha: '2007-12-31', dato: 41.2400 },{ fecha: '2008-12-31', dato: 35.6300 },{ fecha: '2009-12-31', dato: 38.5200 },{ fecha: '2010-12-31', dato: 32.5400 },{ fecha: '2011-12-31', dato: 30.2600 },{ fecha: '2012-12-31', dato: 43.0500 },{ fecha: '2013-12-31', dato: 43.9900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -327,9 +319,9 @@ $('#Lenguetaszzikbemf a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaszzikbemf a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvxdqsizt a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maphnasxesr;
+  var maponsifisf;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -346,17 +338,17 @@ $('#Lenguetaszzikbemf a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaphnasxesr() {
+  function initmaponsifisf() {
     // Nuevo Mapa
-    maphnasxesr = new L.Map('LeafLethnasxesr');
+    maponsifisf = new L.Map('LeafLetonsifisf');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maphnasxesr.setView(new L.LatLng(25.54, -103.44), 12);
+    maponsifisf.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maphnasxesr.addLayer(osm);
+    maponsifisf.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -389,13 +381,13 @@ $('#Lenguetaszzikbemf a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maphnasxesr);
+    }).addTo(maponsifisf);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaphnasxesr === 'undefined') {
-    varinitmaphnasxesr = initmaphnasxesr();
+  if (typeof varinitmaponsifisf === 'undefined') {
+    varinitmaponsifisf = initmaponsifisf();
   };
 });
 FINAL;

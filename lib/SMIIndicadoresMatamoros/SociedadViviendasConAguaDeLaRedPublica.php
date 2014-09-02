@@ -25,17 +25,15 @@ class SociedadViviendasConAguaDeLaRedPublica extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaszgiszvik">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasstjzkhsg">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,23 +53,18 @@ Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red públ
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/).
 
 Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/implan2.html).
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetygsxaujb" class="mapa"></div>
+              <div id="LeafLetxtnbwsum" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -113,20 +106,18 @@ Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaszgiszvik a:first').tab('show')
+  $('#Lenguetasstjzkhsg a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaszgiszvik a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasstjzkhsg a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapygsxaujb;
+  var mapxtnbwsum;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -143,17 +134,17 @@ $('#Lenguetaszgiszvik a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapygsxaujb() {
+  function initmapxtnbwsum() {
     // Nuevo Mapa
-    mapygsxaujb = new L.Map('LeafLetygsxaujb');
+    mapxtnbwsum = new L.Map('LeafLetxtnbwsum');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapygsxaujb.setView(new L.LatLng(25.54, -103.44), 12);
+    mapxtnbwsum.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapygsxaujb.addLayer(osm);
+    mapxtnbwsum.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -186,13 +177,13 @@ $('#Lenguetaszgiszvik a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapygsxaujb);
+    }).addTo(mapxtnbwsum);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapygsxaujb === 'undefined') {
-    varinitmapygsxaujb = initmapygsxaujb();
+  if (typeof varinitmapxtnbwsum === 'undefined') {
+    varinitmapxtnbwsum = initmapxtnbwsum();
   };
 });
 FINAL;

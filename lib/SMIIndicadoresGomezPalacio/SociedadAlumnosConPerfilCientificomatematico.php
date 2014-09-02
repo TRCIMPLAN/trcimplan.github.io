@@ -25,17 +25,15 @@ class SociedadAlumnosConPerfilCientificomatematico extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Educación';
         $this->categorias  = array('Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasduoenpnj">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashtxnbwrl">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,22 +53,17 @@ Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 El criterio de "Alumnos buenos y excelentes" provienen de [mejoratuescuela.org](http://www.mejoratuescuela.org)
 Consulta la [Base de datos](http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos_completa_2013/)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetgcwdftkb" class="mapa"></div>
+              <div id="LeafLetugtidnmi" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -112,20 +105,18 @@ Consulta la [Base de datos](http://www.enlace.sep.gob.mx/content/ba/pages/base_d
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasduoenpnj a:first').tab('show')
+  $('#Lenguetashtxnbwrl a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasduoenpnj a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetashtxnbwrl a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapgcwdftkb;
+  var mapugtidnmi;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -142,17 +133,17 @@ $('#Lenguetasduoenpnj a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapgcwdftkb() {
+  function initmapugtidnmi() {
     // Nuevo Mapa
-    mapgcwdftkb = new L.Map('LeafLetgcwdftkb');
+    mapugtidnmi = new L.Map('LeafLetugtidnmi');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapgcwdftkb.setView(new L.LatLng(25.54, -103.44), 12);
+    mapugtidnmi.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapgcwdftkb.addLayer(osm);
+    mapugtidnmi.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -185,13 +176,13 @@ $('#Lenguetasduoenpnj a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapgcwdftkb);
+    }).addTo(mapugtidnmi);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapgcwdftkb === 'undefined') {
-    varinitmapgcwdftkb = initmapgcwdftkb();
+  if (typeof varinitmapugtidnmi === 'undefined') {
+    varinitmapugtidnmi = initmapugtidnmi();
   };
 });
 FINAL;

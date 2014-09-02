@@ -25,17 +25,15 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
         $this->claves      = 'Lerdo, Movilidad';
         $this->categorias  = array('Movilidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvbqjatxv">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasfdrxtsps">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Porcentaje de la población que trabaja en un municipio diferente al que reside 
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 Consulta la [Base de Datos](http://www.conapo.gob.mx/en/CONAPO/Catalogo_Sistema_Urbano_Nacional_2012)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLettzrmdexc" class="mapa"></div>
+              <div id="LeafLetdavlnskd" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -111,20 +104,18 @@ Consulta la [Base de Datos](http://www.conapo.gob.mx/en/CONAPO/Catalogo_Sistema_
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvbqjatxv a:first').tab('show')
+  $('#Lenguetasfdrxtsps a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvbqjatxv a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfdrxtsps a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maptzrmdexc;
+  var mapdavlnskd;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -141,17 +132,17 @@ $('#Lenguetasvbqjatxv a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaptzrmdexc() {
+  function initmapdavlnskd() {
     // Nuevo Mapa
-    maptzrmdexc = new L.Map('LeafLettzrmdexc');
+    mapdavlnskd = new L.Map('LeafLetdavlnskd');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maptzrmdexc.setView(new L.LatLng(25.54, -103.44), 12);
+    mapdavlnskd.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maptzrmdexc.addLayer(osm);
+    mapdavlnskd.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -184,13 +175,13 @@ $('#Lenguetasvbqjatxv a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maptzrmdexc);
+    }).addTo(mapdavlnskd);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaptzrmdexc === 'undefined') {
-    varinitmaptzrmdexc = initmaptzrmdexc();
+  if (typeof varinitmapdavlnskd === 'undefined') {
+    varinitmapdavlnskd = initmapdavlnskd();
   };
 });
 FINAL;

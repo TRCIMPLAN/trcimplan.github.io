@@ -25,17 +25,15 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \Base\Publicacio
         $this->claves      = 'Torreón, Grupos Vulnerables, Delincuencia';
         $this->categorias  = array('Grupos Vulnerables', 'Delincuencia');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetastirdkwbl">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasethltoyh">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li class="active"><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Menores de edad que han perdido a padre o madre a causa de agresión (homicidio).
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -79,38 +77,31 @@ Menores de edad que han perdido a padre o madre a causa de agresión (homicidio)
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad.
-
+<b>Unidad:</b>
+Cantidad
 <h4>Observaciones</h4>
 Elaboración propia en base a las defunciones registradas en [SINAIS](http://www.sinais.salud.gob.mx)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrissrgthfrn" class="grafica"></div>
-
-
+<div id="Morrisuroijgco" class="grafica"></div>
     </div>
-    <div class="tab-pane" id="mapa">
-              <div id="LeafLetmpgftime" class="mapa"></div>
-    </div>
-    <div class="tab-pane active" id="otras_regiones">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+    <div class="tab-pane active" id="mapa">
+              <div id="LeafLetqnsxzvly" class="mapa"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetastirdkwbl a:first').tab('show')
+  $('#Lenguetasethltoyh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetastirdkwbl a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasethltoyh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrissrgthfrn === 'undefined') {
-    varMorrissrgthfrn = Morris.Line({
-      element: 'Morrissrgthfrn',
+  if (typeof varMorrisuroijgco === 'undefined') {
+    varMorrisuroijgco = Morris.Line({
+      element: 'Morrisuroijgco',
       data: [{ fecha: '2008-12-31', dato: 544 },{ fecha: '2009-12-31', dato: 597 },{ fecha: '2010-12-31', dato: 753 },{ fecha: '2011-12-31', dato: 858 },{ fecha: '2012-12-31', dato: 1253 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -122,9 +113,9 @@ $('#Lenguetastirdkwbl a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetastirdkwbl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasethltoyh a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapmpgftime;
+  var mapqnsxzvly;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -141,17 +132,17 @@ $('#Lenguetastirdkwbl a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapmpgftime() {
+  function initmapqnsxzvly() {
     // Nuevo Mapa
-    mapmpgftime = new L.Map('LeafLetmpgftime');
+    mapqnsxzvly = new L.Map('LeafLetqnsxzvly');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapmpgftime.setView(new L.LatLng(25.54, -103.44), 12);
+    mapqnsxzvly.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapmpgftime.addLayer(osm);
+    mapqnsxzvly.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -184,13 +175,13 @@ $('#Lenguetastirdkwbl a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapmpgftime);
+    }).addTo(mapqnsxzvly);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapmpgftime === 'undefined') {
-    varinitmapmpgftime = initmapmpgftime();
+  if (typeof varinitmapqnsxzvly === 'undefined') {
+    varinitmapqnsxzvly = initmapqnsxzvly();
   };
 });
 FINAL;

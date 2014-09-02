@@ -25,17 +25,15 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Movilidad';
         $this->categorias  = array('Movilidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaseeearmkx">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasuvjrmfwn">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,8 +53,8 @@ Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sar
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Personas.
-
+<b>Unidad:</b>
+Personas
 <h4>Observaciones</h4>
 El flujo de pasajeros a nivel internacional es de:
 
@@ -71,17 +69,12 @@ El flujo de pasajeros a nivel internacional es de:
 - 2005 = 2,479,772
 
 Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetmsayywsm" class="mapa"></div>
+              <div id="LeafLetohnvwvxz" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -242,20 +235,18 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaseeearmkx a:first').tab('show')
+  $('#Lenguetasuvjrmfwn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaseeearmkx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasuvjrmfwn a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapmsayywsm;
+  var mapohnvwvxz;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -272,17 +263,17 @@ $('#Lenguetaseeearmkx a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapmsayywsm() {
+  function initmapohnvwvxz() {
     // Nuevo Mapa
-    mapmsayywsm = new L.Map('LeafLetmsayywsm');
+    mapohnvwvxz = new L.Map('LeafLetohnvwvxz');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapmsayywsm.setView(new L.LatLng(25.54, -103.44), 12);
+    mapohnvwvxz.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapmsayywsm.addLayer(osm);
+    mapohnvwvxz.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -315,13 +306,13 @@ $('#Lenguetaseeearmkx a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapmsayywsm);
+    }).addTo(mapohnvwvxz);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapmsayywsm === 'undefined') {
-    varinitmapmsayywsm = initmapmsayywsm();
+  if (typeof varinitmapohnvwvxz === 'undefined') {
+    varinitmapohnvwvxz = initmapohnvwvxz();
   };
 });
 FINAL;

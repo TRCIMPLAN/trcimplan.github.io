@@ -27,19 +27,17 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
         $this->claves      = 'Torreón, Educación, Grupos Vulnerables';
         $this->categorias  = array('Educación', 'Grupos Vulnerables');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaszeguajzj">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasucyefnwe">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
 Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
 Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -59,21 +57,16 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Anexo-estad%C3%ADstico-municipal-2010.aspx)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLettygrtvtc" class="mapa"></div>
+              <div id="LeafLetoqsbhmyw" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -108,20 +101,18 @@ Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaszeguajzj a:first').tab('show')
+  $('#Lenguetasucyefnwe a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaszeguajzj a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasucyefnwe a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maptygrtvtc;
+  var mapoqsbhmyw;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -138,17 +129,17 @@ $('#Lenguetaszeguajzj a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaptygrtvtc() {
+  function initmapoqsbhmyw() {
     // Nuevo Mapa
-    maptygrtvtc = new L.Map('LeafLettygrtvtc');
+    mapoqsbhmyw = new L.Map('LeafLetoqsbhmyw');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maptygrtvtc.setView(new L.LatLng(25.54, -103.44), 12);
+    mapoqsbhmyw.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maptygrtvtc.addLayer(osm);
+    mapoqsbhmyw.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -181,13 +172,13 @@ $('#Lenguetaszeguajzj a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maptygrtvtc);
+    }).addTo(mapoqsbhmyw);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaptygrtvtc === 'undefined') {
-    varinitmaptygrtvtc = initmaptygrtvtc();
+  if (typeof varinitmapoqsbhmyw === 'undefined') {
+    varinitmapoqsbhmyw = initmapoqsbhmyw();
   };
 });
 FINAL;

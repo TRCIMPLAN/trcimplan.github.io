@@ -25,17 +25,15 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Educación, Cultura';
         $this->categorias  = array('Educación', 'Cultura');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvrqushzm">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasrbvjznnw">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Espacios culturales físicamente delimitados.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Espacios culturales físicamente delimitados.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Por cada 100 mil.
-
+<b>Unidad:</b>
+Por cada 100 mil
 <h4>Observaciones</h4>
 Se realizó un filtrado básico de la totalidad de los espacios culturales considerados por CONACULTA, ya que ellos consideran programas, fondos y proyectos a sus estadísticas totales, así como eventos que fueron realizados en una ocasión y datan de hace más de 5 años. Consulta la [Base de Datos completa](http://www.sic.gob.mx)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetmvzgrnzp" class="mapa"></div>
+              <div id="LeafLetzzfifhok" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -111,20 +104,18 @@ Se realizó un filtrado básico de la totalidad de los espacios culturales consi
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvrqushzm a:first').tab('show')
+  $('#Lenguetasrbvjznnw a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvrqushzm a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasrbvjznnw a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapmvzgrnzp;
+  var mapzzfifhok;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -141,17 +132,17 @@ $('#Lenguetasvrqushzm a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapmvzgrnzp() {
+  function initmapzzfifhok() {
     // Nuevo Mapa
-    mapmvzgrnzp = new L.Map('LeafLetmvzgrnzp');
+    mapzzfifhok = new L.Map('LeafLetzzfifhok');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapmvzgrnzp.setView(new L.LatLng(25.54, -103.44), 12);
+    mapzzfifhok.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapmvzgrnzp.addLayer(osm);
+    mapzzfifhok.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -184,13 +175,13 @@ $('#Lenguetasvrqushzm a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapmvzgrnzp);
+    }).addTo(mapzzfifhok);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapmvzgrnzp === 'undefined') {
-    varinitmapmvzgrnzp = initmapmvzgrnzp();
+  if (typeof varinitmapzzfifhok === 'undefined') {
+    varinitmapzzfifhok = initmapzzfifhok();
   };
 });
 FINAL;

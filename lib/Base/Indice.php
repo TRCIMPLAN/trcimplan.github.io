@@ -85,10 +85,10 @@ class Indice {
             // Acumular
             $a[] = '            <div class="media breve">';
             if ($p->imagen_previa != '') {
-                $a[] = '              <a class="pull-left" href="'.$p->url()."\"><img src=\"{$p->imagen_previa}\" class=\"breve-imagen\"></a>";
+                $a[] = '              <a class="pull-left" href="'.$p->url()."\"><img class=\"media-object\" src=\"{$p->imagen_previa}\"></a>";
             }
             $a[] = '              <div class="media-body">';
-            $a[] = '                <h4><a href="'.$p->url()."\">{$p->nombre}</a></h4>";
+            $a[] = '                <h4 class="media-heading"><a href="'.$p->url()."\">{$p->nombre}</a></h4>";
             $a[] = "                <p>{$p->descripcion}</p>";
             $a[] = "                <p class=\"pull-left autor\">{$p->autor}, ".$this->formato_fecha($p->fecha)."</p>";
             $a[] = '                <p class="pull-right leer-mas"><a href="'.$p->url().'">Leer más</a></p>';

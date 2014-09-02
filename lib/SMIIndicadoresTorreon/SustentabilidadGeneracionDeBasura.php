@@ -25,17 +25,15 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         $this->claves      = 'Torreón, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasomhkzjvz">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasagfynvao">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Se considera la basura generada que ha sido recolectada y que termina en los dep
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Kilogramos diarios por cada diez personas.
-
+<b>Unidad:</b>
+Kilogramos diarios por cada diez personas
 <h4>Observaciones</h4>
 Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.aspx?t=mamb1065&s=est&c=33986)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetusoumldd" class="mapa"></div>
+              <div id="LeafLetolernqdo" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -132,20 +125,18 @@ Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.asp
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasomhkzjvz a:first').tab('show')
+  $('#Lenguetasagfynvao a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasomhkzjvz a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasagfynvao a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapusoumldd;
+  var mapolernqdo;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -162,17 +153,17 @@ $('#Lenguetasomhkzjvz a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapusoumldd() {
+  function initmapolernqdo() {
     // Nuevo Mapa
-    mapusoumldd = new L.Map('LeafLetusoumldd');
+    mapolernqdo = new L.Map('LeafLetolernqdo');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapusoumldd.setView(new L.LatLng(25.54, -103.44), 12);
+    mapolernqdo.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapusoumldd.addLayer(osm);
+    mapolernqdo.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -205,13 +196,13 @@ $('#Lenguetasomhkzjvz a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapusoumldd);
+    }).addTo(mapolernqdo);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapusoumldd === 'undefined') {
-    varinitmapusoumldd = initmapusoumldd();
+  if (typeof varinitmapolernqdo === 'undefined') {
+    varinitmapolernqdo = initmapolernqdo();
   };
 });
 FINAL;

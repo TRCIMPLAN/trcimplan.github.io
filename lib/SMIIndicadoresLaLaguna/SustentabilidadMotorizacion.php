@@ -25,17 +25,15 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Recursos Naturales, Movilidad, Vialidad';
         $this->categorias  = array('Recursos Naturales', 'Movilidad', 'Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbtluzwyi">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasxswqsfcj">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Vehículos automotores registrados en circulación.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,21 +53,16 @@ Vehículos automotores registrados en circulación.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Por cada mil habitantes.
-
+<b>Unidad:</b>
+Por cada mil habitantes
 <h4>Observaciones</h4>
 Índice de motorización. Consulta la [Base de Datos](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/transporte/vehiculos.asp?s=est&c=13158&proy=vmrc_vehiculos)
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetfpwvheba" class="mapa"></div>
+              <div id="LeafLetrswtbbtl" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -132,20 +125,18 @@ Vehículos automotores registrados en circulación.
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbtluzwyi a:first').tab('show')
+  $('#Lenguetasxswqsfcj a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbtluzwyi a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasxswqsfcj a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapfpwvheba;
+  var maprswtbbtl;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -162,17 +153,17 @@ $('#Lenguetasbtluzwyi a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapfpwvheba() {
+  function initmaprswtbbtl() {
     // Nuevo Mapa
-    mapfpwvheba = new L.Map('LeafLetfpwvheba');
+    maprswtbbtl = new L.Map('LeafLetrswtbbtl');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapfpwvheba.setView(new L.LatLng(25.54, -103.44), 12);
+    maprswtbbtl.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapfpwvheba.addLayer(osm);
+    maprswtbbtl.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -205,13 +196,13 @@ $('#Lenguetasbtluzwyi a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapfpwvheba);
+    }).addTo(maprswtbbtl);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapfpwvheba === 'undefined') {
-    varinitmapfpwvheba = initmapfpwvheba();
+  if (typeof varinitmaprswtbbtl === 'undefined') {
+    varinitmaprswtbbtl = initmaprswtbbtl();
   };
 });
 FINAL;

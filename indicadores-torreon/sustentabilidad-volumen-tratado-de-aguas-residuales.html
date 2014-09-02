@@ -75,6 +75,7 @@
           <a href="#"><i class="fa fa-bar-chart"></i> Indicadores<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/"><i class="fa fa-tags"></i> Categorías</a></li>
             <li class="active"><a href="../indicadores-torreon/"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
             <li><a href="../indicadores-gomez-palacio/"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
             <li><a href="../indicadores-lerdo/"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
@@ -138,15 +139,14 @@
     <h1>Volumen Tratado de Aguas Residuales en Torreón</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasoldgmogd">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasnsegvros">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
-      
+    <div class="tab-pane" id="datos">
+      <h4>Descripción</h4>
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -167,20 +167,14 @@
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Litros por segundo por cada mil habitantes.
-
-
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+<b>Unidad:</b>
+Litros por segundo por cada mil habitantes
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetqwyzvtbl" class="mapa"></div>
+              <div id="LeafLetmhqmqbtd" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -236,11 +230,12 @@
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 </article>
+<div class="contenido-social">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+</div>
       </div>
     </div>
     <div class="row">
@@ -261,14 +256,15 @@
 <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="../js/sb-admin-2.js"></script>
 <script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasoldgmogd a:first').tab('show')
+  $('#Lenguetasnsegvros a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasoldgmogd a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnsegvros a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapqwyzvtbl;
+  var mapmhqmqbtd;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -285,17 +281,17 @@ $('#Lenguetasoldgmogd a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapqwyzvtbl() {
+  function initmapmhqmqbtd() {
     // Nuevo Mapa
-    mapqwyzvtbl = new L.Map('LeafLetqwyzvtbl');
+    mapmhqmqbtd = new L.Map('LeafLetmhqmqbtd');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapqwyzvtbl.setView(new L.LatLng(25.54, -103.44), 12);
+    mapmhqmqbtd.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapqwyzvtbl.addLayer(osm);
+    mapmhqmqbtd.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -328,13 +324,13 @@ $('#Lenguetasoldgmogd a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapqwyzvtbl);
+    }).addTo(mapmhqmqbtd);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapqwyzvtbl === 'undefined') {
-    varinitmapqwyzvtbl = initmapqwyzvtbl();
+  if (typeof varinitmapmhqmqbtd === 'undefined') {
+    varinitmapmhqmqbtd = initmapmhqmqbtd();
   };
 });
 </script>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Listado de Categorías del Sistema Metropolitano de Indicadores del IMPLAN Torreón.">
+  <meta name="author" content="TrcIMPLAN">
+  <meta name="keywords" content="IMPLAN, Torreon, Indicadores, Categorías">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Categorías">
+  <meta name="twitter:description" content="Listado de Categorías del Sistema Metropolitano de Indicadores del IMPLAN Torreón.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/../imagenes/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/indicadores-categorias/index.html">
+  <meta name="og:title" content="Categorías">
+  <meta name="og:description" content="Listado de Categorías del Sistema Metropolitano de Indicadores del IMPLAN Torreón.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/../imagenes/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/indicadores-categorias/index.html">
+  <title>Categorías - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
+        <li class="active">
+          <a href="#"><i class="fa fa-bar-chart"></i> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li class="active"><a href="../indicadores-categorias/"><i class="fa fa-tags"></i> Categorías</a></li>
+            <li><a href="../indicadores-torreon/"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li><a href="../indicadores-gomez-palacio/"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
+            <li><a href="../indicadores-lerdo/"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
+            <li><a href="../indicadores-matamoros/"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
+            <li><a href="../indicadores-la-laguna/"><i class="fa fa-table"></i> Indicadores La Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-map-marker"></i> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><i class="fa fa-file-text-o"></i> Introduccion al SIG</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Abrir el SIG</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Plan M. de Desarrollo</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Alumbrado Público</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-paper-plane-o"></i> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><i class="fa fa-file-text-o"></i> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-university"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-file-text-o"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-file-text-o"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-file-text-o"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-file-text-o"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-file-text-o"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-file-text-o"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-file-text-o"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-users"></i> Consejo Directivo<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../consejo-directivo/integrantes.html"><i class="fa fa-file-text-o"></i> Integrantes</a></li>
+            <li><a href="../consejo-directivo/agenda.html"><i class="fa fa-file-text-o"></i> Agenda</a></li>
+            <li><a href="../consejo-directivo/comites-tecnicos.html"><i class="fa fa-file-text-o"></i> Comités Técnicos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-volume-up"></i> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><i class="fa fa-folder-o"></i> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><i class="fa fa-folder-o"></i> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../contacto/contacto.html"><i class="fa fa-phone"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+    <h1>Categorías</h1>
+            <div class="media breve">
+              <a class="pull-left" href="vivienda.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="vivienda.html">Categoría Vivienda</a></h4>
+                <p>Matriz de indicadores en la categoría Vivienda</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="vivienda.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="vialidad.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="vialidad.html">Categoría Vialidad</a></h4>
+                <p>Matriz de indicadores en la categoría Vialidad</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="vialidad.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="transparencia.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="transparencia.html">Categoría Transparencia</a></h4>
+                <p>Matriz de indicadores en la categoría Transparencia</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="transparencia.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="servicios-publicos.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="servicios-publicos.html">Categoría Servicios Públicos</a></h4>
+                <p>Matriz de indicadores en la categoría Servicios Públicos</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="servicios-publicos.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="seguridad.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="seguridad.html">Categoría Seguridad</a></h4>
+                <p>Matriz de indicadores en la categoría Seguridad</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="seguridad.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="salud.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="salud.html">Categoría Salud</a></h4>
+                <p>Matriz de indicadores en la categoría Salud</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="salud.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="recursos-naturales.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="recursos-naturales.html">Categoría Recursos Naturales</a></h4>
+                <p>Matriz de indicadores en la categoría Recursos Naturales</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="recursos-naturales.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="poblacion.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="poblacion.html">Categoría Población</a></h4>
+                <p>Matriz de indicadores en la categoría Población</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="poblacion.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="participacion-ciudadana.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="participacion-ciudadana.html">Categoría Participación Ciudadana</a></h4>
+                <p>Matriz de indicadores en la categoría Participación Ciudadana</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="participacion-ciudadana.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="movilidad.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="movilidad.html">Categoría Movilidad</a></h4>
+                <p>Matriz de indicadores en la categoría Movilidad</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="movilidad.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="mercados.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="mercados.html">Categoría Mercados</a></h4>
+                <p>Matriz de indicadores en la categoría Mercados</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="mercados.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="macroeconomia.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="macroeconomia.html">Categoría Macroeconomía</a></h4>
+                <p>Matriz de indicadores en la categoría Macroeconomía</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="macroeconomia.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="innovacion.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="innovacion.html">Categoría Innovación</a></h4>
+                <p>Matriz de indicadores en la categoría Innovación</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="innovacion.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="infraestructura.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="infraestructura.html">Categoría Infraestructura</a></h4>
+                <p>Matriz de indicadores en la categoría Infraestructura</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="infraestructura.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="grupos-vulnerables.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="grupos-vulnerables.html">Categoría Grupos Vulnerables</a></h4>
+                <p>Matriz de indicadores en la categoría Grupos Vulnerables</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="grupos-vulnerables.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="gobierno-digital.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="gobierno-digital.html">Categoría Gobierno Digital</a></h4>
+                <p>Matriz de indicadores en la categoría Gobierno Digital</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="gobierno-digital.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="gobierno.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="gobierno.html">Categoría Gobierno</a></h4>
+                <p>Matriz de indicadores en la categoría Gobierno</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="gobierno.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="genero.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="genero.html">Categoría Género</a></h4>
+                <p>Matriz de indicadores en la categoría Género</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="genero.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="finanzas-publicas.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="finanzas-publicas.html">Categoría Finanzas Públicas</a></h4>
+                <p>Matriz de indicadores en la categoría Finanzas Públicas</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="finanzas-publicas.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="empresas.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="empresas.html">Categoría Empresas</a></h4>
+                <p>Matriz de indicadores en la categoría Empresas</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="empresas.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="empleo.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="empleo.html">Categoría Empleo</a></h4>
+                <p>Matriz de indicadores en la categoría Empleo</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="empleo.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="educacion.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="educacion.html">Categoría Educación</a></h4>
+                <p>Matriz de indicadores en la categoría Educación</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="educacion.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="doing-bussines.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="doing-bussines.html">Categoría Doing Bussines</a></h4>
+                <p>Matriz de indicadores en la categoría Doing Bussines</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="doing-bussines.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="delincuencia.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="delincuencia.html">Categoría Delincuencia</a></h4>
+                <p>Matriz de indicadores en la categoría Delincuencia</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="delincuencia.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="cultura.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="cultura.html">Categoría Cultura</a></h4>
+                <p>Matriz de indicadores en la categoría Cultura</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="cultura.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="competitividad.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="competitividad.html">Categoría Competitividad</a></h4>
+                <p>Matriz de indicadores en la categoría Competitividad</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="competitividad.html">Leer más</a></p>
+              </div>
+            </div>
+            <div class="media breve">
+              <a class="pull-left" href="bienestar.html"><img class="media-object" src="../imagenes/imagen-previa.jpg"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="bienestar.html">Categoría Bienestar</a></h4>
+                <p>Matriz de indicadores en la categoría Bienestar</p>
+                <p class="pull-left autor">TrcIMPLAN, 01/01/1980</p>
+                <p class="pull-right leer-mas"><a href="bienestar.html">Leer más</a></p>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</body>
+</html>

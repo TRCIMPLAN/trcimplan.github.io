@@ -68,8 +68,9 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad navegacion no es instancia de Navegacion.");
         }
         // Esta publicación ocupará la página completa
-        $completo        = new Completo($publicacion);
-        $this->contenido = $completo->html();
+        $completo           = new Completo($publicacion);
+        $this->contenido    = $completo->html();
+        $this->javascript[] = $completo->javascript();
         // En navegacion, para que el menú indique la opción activa
         $this->navegacion->opcion_activa = $publicacion->nombre_menu;
         // Definir las demás propiedades
@@ -80,7 +81,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $this->directorio    = $publicacion->directorio;
         $this->ruta          = "{$publicacion->directorio}/{$publicacion->archivo}.html";
         $this->imagen_previa = $publicacion->imagen_previa;
-        $this->javascript    = $publicacion->javascript;
+        $this->javascript[]  = $publicacion->javascript;
     } // incorporar_publicacion
 
     /**

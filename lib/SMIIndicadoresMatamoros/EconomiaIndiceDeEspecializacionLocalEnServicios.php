@@ -25,17 +25,16 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \Base\Publicacion 
         $this->claves      = 'Matamoros, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvinkgvvm">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmqbesqkc">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -67,8 +66,8 @@ Producción bruta total de los servicios entre la producción bruta total de tod
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Porcentaje.
-
+<b>Unidad:</b>
+Porcentaje
 <h4>Observaciones</h4>
 El índice de especialización nacional en el comercio es de:
 
@@ -77,21 +76,16 @@ El índice de especialización nacional en el comercio es de:
 - 1998 = 15.85%
 
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisomrvzhmq" class="grafica"></div>
-
-
+<div id="Morrisjdagodeq" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetoyygqucj" class="mapa"></div>
+              <div id="LeafLetekcfkbya" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -196,22 +190,20 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvinkgvvm a:first').tab('show')
+  $('#Lenguetasmqbesqkc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvinkgvvm a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmqbesqkc a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisomrvzhmq === 'undefined') {
-    varMorrisomrvzhmq = Morris.Line({
-      element: 'Morrisomrvzhmq',
+  if (typeof varMorrisjdagodeq === 'undefined') {
+    varMorrisjdagodeq = Morris.Line({
+      element: 'Morrisjdagodeq',
       data: [{ fecha: '1998-12-31', dato: 10.4500 },{ fecha: '2003-12-31', dato: 11.6900 },{ fecha: '2008-12-31', dato: 6.9800 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -223,9 +215,9 @@ $('#Lenguetasvinkgvvm a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasvinkgvvm a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmqbesqkc a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapoyygqucj;
+  var mapekcfkbya;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -242,17 +234,17 @@ $('#Lenguetasvinkgvvm a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapoyygqucj() {
+  function initmapekcfkbya() {
     // Nuevo Mapa
-    mapoyygqucj = new L.Map('LeafLetoyygqucj');
+    mapekcfkbya = new L.Map('LeafLetekcfkbya');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapoyygqucj.setView(new L.LatLng(25.54, -103.44), 12);
+    mapekcfkbya.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapoyygqucj.addLayer(osm);
+    mapekcfkbya.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -285,13 +277,13 @@ $('#Lenguetasvinkgvvm a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapoyygqucj);
+    }).addTo(mapekcfkbya);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapoyygqucj === 'undefined') {
-    varinitmapoyygqucj = initmapoyygqucj();
+  if (typeof varinitmapekcfkbya === 'undefined') {
+    varinitmapekcfkbya = initmapekcfkbya();
   };
 });
 FINAL;

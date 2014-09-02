@@ -25,17 +25,16 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasjukqrygo">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasjocbmlif">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Ingresos totales por municipio.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -85,8 +84,8 @@ Ingresos totales por municipio.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Pesos.
-
+<b>Unidad:</b>
+Pesos
 <h4>Observaciones</h4>
 El promedio nacional de los ingresos totales por municipio es de:
 
@@ -98,21 +97,16 @@ El promedio nacional de los ingresos totales por municipio es de:
 - 2007 = 83404076.21
 
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisfbjtmfni" class="grafica"></div>
-
-
+<div id="Morrisqieipmbc" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetyncffryp" class="mapa"></div>
+              <div id="LeafLetojfhplyx" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -301,22 +295,20 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasjukqrygo a:first').tab('show')
+  $('#Lenguetasjocbmlif a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasjukqrygo a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasjocbmlif a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisfbjtmfni === 'undefined') {
-    varMorrisfbjtmfni = Morris.Line({
-      element: 'Morrisfbjtmfni',
+  if (typeof varMorrisqieipmbc === 'undefined') {
+    varMorrisqieipmbc = Morris.Line({
+      element: 'Morrisqieipmbc',
       data: [{ fecha: '2007-12-31', dato: 2389268767.00 },{ fecha: '2008-12-31', dato: 3054640385.00 },{ fecha: '2009-12-31', dato: 3147856470.00 },{ fecha: '2010-12-31', dato: 3037346224.00 },{ fecha: '2011-12-31', dato: 3391664429.00 },{ fecha: '2012-12-31', dato: 3504184566.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -328,9 +320,9 @@ $('#Lenguetasjukqrygo a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasjukqrygo a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasjocbmlif a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapyncffryp;
+  var mapojfhplyx;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -347,17 +339,17 @@ $('#Lenguetasjukqrygo a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapyncffryp() {
+  function initmapojfhplyx() {
     // Nuevo Mapa
-    mapyncffryp = new L.Map('LeafLetyncffryp');
+    mapojfhplyx = new L.Map('LeafLetojfhplyx');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapyncffryp.setView(new L.LatLng(25.54, -103.44), 12);
+    mapojfhplyx.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapyncffryp.addLayer(osm);
+    mapojfhplyx.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -390,13 +382,13 @@ $('#Lenguetasjukqrygo a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapyncffryp);
+    }).addTo(mapojfhplyx);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapyncffryp === 'undefined') {
-    varinitmapyncffryp = initmapyncffryp();
+  if (typeof varinitmapojfhplyx === 'undefined') {
+    varinitmapojfhplyx = initmapojfhplyx();
   };
 });
 FINAL;

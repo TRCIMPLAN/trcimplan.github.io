@@ -25,15 +25,15 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->claves      = 'Torreón, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasxphanmfh">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszkmwrihw">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
-      
+    <div class="tab-pane" id="datos">
+      <h4>Descripción</h4>
 
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
@@ -132,25 +132,20 @@ class SociedadCamasCensables extends \Base\Publicacion {
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad.
-
+<b>Unidad:</b>
+Cantidad
 <h4>Observaciones</h4>
 SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio.
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisqouscybl" class="grafica"></div>
-
-
+<div id="Morriseieylicl" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwebbyxtk" class="mapa"></div>
+              <div id="LeafLetfnxgtjyj" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -794,22 +789,20 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasxphanmfh a:first').tab('show')
+  $('#Lenguetaszkmwrihw a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasxphanmfh a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszkmwrihw a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisqouscybl === 'undefined') {
-    varMorrisqouscybl = Morris.Line({
-      element: 'Morrisqouscybl',
+  if (typeof varMorriseieylicl === 'undefined') {
+    varMorriseieylicl = Morris.Line({
+      element: 'Morriseieylicl',
       data: [{ fecha: '2001-12-31', dato: 42 },{ fecha: '2002-12-31', dato: 42 },{ fecha: '2003-12-31', dato: 72 },{ fecha: '2004-12-31', dato: 42 },{ fecha: '2005-12-31', dato: 42 },{ fecha: '2006-12-31', dato: 51 },{ fecha: '2007-12-31', dato: 48 },{ fecha: '2008-12-31', dato: 51 },{ fecha: '2009-12-31', dato: 51 },{ fecha: '2010-12-31', dato: 51 },{ fecha: '2011-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 51 },{ fecha: '2013-12-31', dato: 51 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -821,9 +814,9 @@ $('#Lenguetasxphanmfh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasxphanmfh a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszkmwrihw a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwebbyxtk;
+  var mapfnxgtjyj;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -840,17 +833,17 @@ $('#Lenguetasxphanmfh a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwebbyxtk() {
+  function initmapfnxgtjyj() {
     // Nuevo Mapa
-    mapwebbyxtk = new L.Map('LeafLetwebbyxtk');
+    mapfnxgtjyj = new L.Map('LeafLetfnxgtjyj');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwebbyxtk.setView(new L.LatLng(25.54, -103.44), 12);
+    mapfnxgtjyj.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwebbyxtk.addLayer(osm);
+    mapfnxgtjyj.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -883,13 +876,13 @@ $('#Lenguetasxphanmfh a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwebbyxtk);
+    }).addTo(mapfnxgtjyj);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwebbyxtk === 'undefined') {
-    varinitmapwebbyxtk = initmapwebbyxtk();
+  if (typeof varinitmapfnxgtjyj === 'undefined') {
+    varinitmapfnxgtjyj = initmapfnxgtjyj();
   };
 });
 FINAL;

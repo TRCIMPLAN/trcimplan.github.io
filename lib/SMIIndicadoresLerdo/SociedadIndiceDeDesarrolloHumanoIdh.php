@@ -25,17 +25,15 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasohmpabcr">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszrrddcdx">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,20 +53,14 @@ El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones U
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> De 0 a 1.
-
-
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+<b>Unidad:</b>
+De 0 a 1
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetkxmatxim" class="mapa"></div>
+              <div id="LeafLetccpzvsue" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -103,20 +95,18 @@ El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones U
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasohmpabcr a:first').tab('show')
+  $('#Lenguetaszrrddcdx a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasohmpabcr a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszrrddcdx a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapkxmatxim;
+  var mapccpzvsue;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -133,17 +123,17 @@ $('#Lenguetasohmpabcr a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapkxmatxim() {
+  function initmapccpzvsue() {
     // Nuevo Mapa
-    mapkxmatxim = new L.Map('LeafLetkxmatxim');
+    mapccpzvsue = new L.Map('LeafLetccpzvsue');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapkxmatxim.setView(new L.LatLng(25.54, -103.44), 12);
+    mapccpzvsue.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapkxmatxim.addLayer(osm);
+    mapccpzvsue.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -176,13 +166,13 @@ $('#Lenguetasohmpabcr a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapkxmatxim);
+    }).addTo(mapccpzvsue);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapkxmatxim === 'undefined') {
-    varinitmapkxmatxim = initmapkxmatxim();
+  if (typeof varinitmapccpzvsue === 'undefined') {
+    varinitmapccpzvsue = initmapccpzvsue();
   };
 });
 FINAL;

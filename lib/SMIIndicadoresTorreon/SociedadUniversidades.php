@@ -25,17 +25,15 @@ class SociedadUniversidades extends \Base\Publicacion {
         $this->claves      = 'Torreón, Educación';
         $this->categorias  = array('Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetascngisanl">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspkobubjv">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Planteles de Instituciones de Educación Superior.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -55,8 +53,8 @@ Planteles de Instituciones de Educación Superior.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Cantidad.
-
+<b>Unidad:</b>
+Cantidad
 <h4>Observaciones</h4>
 Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicamente se contabilizan los planteles ubicados en Matamoros, Torreón, Gómez Palacio y Lerdo.
 
@@ -91,17 +89,12 @@ Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicame
 * Instituto de Estudios Superiores y Educación Normal Gral. Lázaro Cárdenas
 * Instituto Tecnológico de Lerdo
 * Universidad Pedagógica de Durango-UGP
-
-    </div>
-    <div class="tab-pane" id="grafica">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLethsokpqug" class="mapa"></div>
+              <div id="LeafLetvdhrwnmr" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -143,20 +136,18 @@ Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicame
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetascngisanl a:first').tab('show')
+  $('#Lenguetaspkobubjv a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetascngisanl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspkobubjv a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maphsokpqug;
+  var mapvdhrwnmr;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -173,17 +164,17 @@ $('#Lenguetascngisanl a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaphsokpqug() {
+  function initmapvdhrwnmr() {
     // Nuevo Mapa
-    maphsokpqug = new L.Map('LeafLethsokpqug');
+    mapvdhrwnmr = new L.Map('LeafLetvdhrwnmr');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maphsokpqug.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvdhrwnmr.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maphsokpqug.addLayer(osm);
+    mapvdhrwnmr.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -216,13 +207,13 @@ $('#Lenguetascngisanl a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maphsokpqug);
+    }).addTo(mapvdhrwnmr);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaphsokpqug === 'undefined') {
-    varinitmaphsokpqug = initmaphsokpqug();
+  if (typeof varinitmapvdhrwnmr === 'undefined') {
+    varinitmapvdhrwnmr = initmapvdhrwnmr();
   };
 });
 FINAL;

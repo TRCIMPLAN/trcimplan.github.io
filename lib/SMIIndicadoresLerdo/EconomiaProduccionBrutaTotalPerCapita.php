@@ -25,17 +25,16 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Macroeconomía, Finanzas Públicas';
         $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetastwezuxtc">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszlljpzkh">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Producción bruta total (de los sectores industria, comercio y servicios) entre población total.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -67,8 +66,8 @@ Producción bruta total (de los sectores industria, comercio y servicios) entre 
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Pesos.
-
+<b>Unidad:</b>
+Pesos
 <h4>Observaciones</h4>
 La producción bruta total per cápita a nivel nacional es de:
 
@@ -85,21 +84,16 @@ La producción bruta total per cápita en dólares a nivel nacional es de:
 Calculados con el tipo de cambio Fix publicado por el Banxico al cierre del año correspondiente.
 
 Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas/saic/)
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisxtrlbstp" class="grafica"></div>
-
-
+<div id="Morristfyemhfu" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetiixdfawo" class="mapa"></div>
+              <div id="LeafLetezvwanek" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
-
 <table class="table table-hover table-bordered matriz">
 <thead>
 <tr>
@@ -204,22 +198,20 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 </tr>
 </tbody>
 </table>
-
-
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetastwezuxtc a:first').tab('show')
+  $('#Lenguetaszlljpzkh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetastwezuxtc a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszlljpzkh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisxtrlbstp === 'undefined') {
-    varMorrisxtrlbstp = Morris.Line({
-      element: 'Morrisxtrlbstp',
+  if (typeof varMorristfyemhfu === 'undefined') {
+    varMorristfyemhfu = Morris.Line({
+      element: 'Morristfyemhfu',
       data: [{ fecha: '1998-12-31', dato: 12093.88 },{ fecha: '2003-12-31', dato: 21705.57 },{ fecha: '2008-12-31', dato: 16746.04 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -231,9 +223,9 @@ $('#Lenguetastwezuxtc a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetastwezuxtc a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszlljpzkh a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapiixdfawo;
+  var mapezvwanek;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -250,17 +242,17 @@ $('#Lenguetastwezuxtc a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapiixdfawo() {
+  function initmapezvwanek() {
     // Nuevo Mapa
-    mapiixdfawo = new L.Map('LeafLetiixdfawo');
+    mapezvwanek = new L.Map('LeafLetezvwanek');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapiixdfawo.setView(new L.LatLng(25.54, -103.44), 12);
+    mapezvwanek.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapiixdfawo.addLayer(osm);
+    mapezvwanek.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -293,13 +285,13 @@ $('#Lenguetastwezuxtc a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapiixdfawo);
+    }).addTo(mapezvwanek);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapiixdfawo === 'undefined') {
-    varinitmapiixdfawo = initmapiixdfawo();
+  if (typeof varinitmapezvwanek === 'undefined') {
+    varinitmapezvwanek = initmapezvwanek();
   };
 });
 FINAL;

@@ -25,17 +25,15 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
         $this->claves      = 'Torreón, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasomgaullb">
-    <li><a href="#descripcion" data-toggle="tab">Descripción</a></li>
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdtekqjqu">
+    <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li class="active"><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="descripcion">
+    <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
 Consumo anual de agua por persona expresado en metros cúbicos.
-
 <h4>Información recopilada</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -73,38 +71,31 @@ Consumo anual de agua por persona expresado en metros cúbicos.
 </tr>
 </tbody>
 </table>
-<b>Unidad:</b> Metros cúbicos per cápita.
-
+<b>Unidad:</b>
+Metros cúbicos per cápita
 <h4>Observaciones</h4>
 Total facturado dividido entre la población.
-
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-
-<div id="Morrisjxeantdw" class="grafica"></div>
-
-
+<div id="Morrisjzaxcrwm" class="grafica"></div>
     </div>
-    <div class="tab-pane" id="mapa">
-              <div id="LeafLetpmapkexn" class="mapa"></div>
-    </div>
-    <div class="tab-pane active" id="otras_regiones">
-      <p><b>Aviso:</b> Esta lengüeta NO tiene contenido.</p>
+    <div class="tab-pane active" id="mapa">
+              <div id="LeafLetikjffari" class="mapa"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasomgaullb a:first').tab('show')
+  $('#Lenguetasdtekqjqu a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasomgaullb a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdtekqjqu a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisjxeantdw === 'undefined') {
-    varMorrisjxeantdw = Morris.Line({
-      element: 'Morrisjxeantdw',
+  if (typeof varMorrisjzaxcrwm === 'undefined') {
+    varMorrisjzaxcrwm = Morris.Line({
+      element: 'Morrisjzaxcrwm',
       data: [{ fecha: '2010-12-31', dato: 47.7700 },{ fecha: '2011-12-31', dato: 46.7500 },{ fecha: '2012-12-31', dato: 44.5700 },{ fecha: '2013-12-31', dato: 41.9900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -116,9 +107,9 @@ $('#Lenguetasomgaullb a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasomgaullb a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdtekqjqu a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mappmapkexn;
+  var mapikjffari;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -135,17 +126,17 @@ $('#Lenguetasomgaullb a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmappmapkexn() {
+  function initmapikjffari() {
     // Nuevo Mapa
-    mappmapkexn = new L.Map('LeafLetpmapkexn');
+    mapikjffari = new L.Map('LeafLetikjffari');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mappmapkexn.setView(new L.LatLng(25.54, -103.44), 12);
+    mapikjffari.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mappmapkexn.addLayer(osm);
+    mapikjffari.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -178,13 +169,13 @@ $('#Lenguetasomgaullb a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mappmapkexn);
+    }).addTo(mapikjffari);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmappmapkexn === 'undefined') {
-    varinitmappmapkexn = initmappmapkexn();
+  if (typeof varinitmapikjffari === 'undefined') {
+    varinitmapikjffari = initmapikjffari();
   };
 });
 FINAL;
