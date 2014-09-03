@@ -67,6 +67,8 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         if (!($this->navegacion instanceof Navegacion)) {
             throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad navegacion no es instancia de Navegacion.");
         }
+        // Inicializar propiedad acumuladora
+        $this->javascript = array();
         // Esta publicación ocupará la página completa
         $completo           = new Completo($publicacion);
         $this->contenido    = $completo->html();

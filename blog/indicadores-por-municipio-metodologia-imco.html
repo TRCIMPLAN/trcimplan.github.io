@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Índice de Competitividad Urbana de la Zona Metropolitana de la Laguna, Torreón, Gómez Palacio, Lerdo y Matamoros en 2012.">
+  <meta name="author" content="Rodrigo González Morales y Luis A. Gutiérrez Arizpe">
+  <meta name="keywords" content="IMPLAN, Torreon, La Laguna, Gómez Palacio, Lerdo, Matamoros">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO">
+  <meta name="twitter:description" content="Índice de Competitividad Urbana de la Zona Metropolitana de la Laguna, Torreón, Gómez Palacio, Lerdo y Matamoros en 2012.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/indicadores-por-municipio-metodologia-imco/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/indicadores-por-municipio-metodologia-imco.html">
+  <meta name="og:title" content="Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO">
+  <meta name="og:description" content="Índice de Competitividad Urbana de la Zona Metropolitana de la Laguna, Torreón, Gómez Palacio, Lerdo y Matamoros en 2012.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/indicadores-por-municipio-metodologia-imco/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/indicadores-por-municipio-metodologia-imco.html">
+  <title>Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li class="active"><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart"></i> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/"><i class="fa fa-tags"></i> Categorías</a></li>
+            <li><a href="../indicadores-torreon/"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li><a href="../indicadores-gomez-palacio/"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
+            <li><a href="../indicadores-lerdo/"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
+            <li><a href="../indicadores-matamoros/"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
+            <li><a href="../indicadores-la-laguna/"><i class="fa fa-table"></i> Indicadores La Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-map-marker"></i> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><i class="fa fa-file-text-o"></i> Introduccion al SIG</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Abrir el SIG</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Plan M. de Desarrollo</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Alumbrado Público</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-paper-plane-o"></i> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><i class="fa fa-file-text-o"></i> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-university"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-file-text-o"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-file-text-o"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-file-text-o"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-file-text-o"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-file-text-o"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-file-text-o"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-file-text-o"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-users"></i> Consejo Directivo<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../consejo-directivo/integrantes.html"><i class="fa fa-file-text-o"></i> Integrantes</a></li>
+            <li><a href="../consejo-directivo/agenda.html"><i class="fa fa-file-text-o"></i> Agenda</a></li>
+            <li><a href="../consejo-directivo/comites-tecnicos.html"><i class="fa fa-file-text-o"></i> Comités Técnicos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-volume-up"></i> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><i class="fa fa-folder-o"></i> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><i class="fa fa-folder-o"></i> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../contacto/contacto.html"><i class="fa fa-phone"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+<article>
+  <header>
+    <h1>Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO</h1>
+    <p class="autor-fecha">Por Rodrigo González Morales y Luis A. Gutiérrez Arizpe, 28/05/2014</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="indicadores-por-municipio-metodologia-imco/imagen.jpg"></span>
+
+<h4>Competitividad de la Zona Metropolitana de la Laguna. Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO.</h4>
+
+<p>El Instituto Mexicano para la Competitividad (IMCO) realiza desde el año 2004 mediciones sobre la competitividad en México, bajo las premisas de realizarlas “a partir de datos duros y fuentes indiscutibles por su rigor e imparcialidad; a partir de una visión integral, que contemple todas las aristas posibles, que además pueda seguirse en el tiempo, y cuya estructura y cálculo sean accesibles, claros y transparentes.”[1]</p>
+
+<p>Desde este enfoque la competitividad no es ya un asunto de empresas sino un asunto de países, estados y ciudades, y para ello sus estudios contemplan diez factores de competitividad: Sistema de derecho confiable y objetivo; manejo sustentable del medio ambiente; sociedad incluyente, preparada y sana; economía estable; sistema político estable y funcional; mercado laboral; infraestructura; gobiernos eficientes y eficaces; aprovechamiento de las relaciones internacionales y; sectores de innovación y sofisticación. Por ello a partir de 2006 el IMCO construyo un Índice de Competitividad Estatal y a partir de 2007 un Índice de Competitividad Urbana que compara 77 zonas metropolitanas del país.</p>
+
+<p>El índice de Competitividad Urbana (ICU) ha sido dado a conocer en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación. El presente análisis del ICU 2012[2] desarrollado por el Instituto de Planeación y Competitividad de Torreón da base para entender y analizar la competitividad de acuerdo a los criterios del IMCO, quien dará a conocer el ICU 2014 próximamente con información correspondiente a 2012.</p>
+
+<h4>Índice General</h4>
+
+<p>A través de estas mediciones podemos ver como la Zona Metropolitana de la Laguna (ZML) pasó de ser una ciudad de alta competitividad en 2007, a considerarse de competitividad media en 2010 y colocarse en competitividad media baja en 2012 de acuerdo a la metodología de IMCO. Los indicadores que pondera el Índice de Competitividad Urbana, se han venido modificando, sin embargo se han mantenido los diez subíndices que permiten dar comparabilidad a través del tiempo, haciendo posible focalizar los puntos de deterioro y también reconocer los aspectos en que hemos avanzado.</p>
+
+<p>Como muestra la Gráfica 1, en el subíndice de Sistema de Derecho, pasamos de estar entre las 20 ciudades más fiables, a estar entre las peores 10. La estabilidad económica, las relaciones internacionales, la innovación y la eficiencia de los gobiernos, sufrieron también decrementos en comparación con otras ciudades que innovaron y se adaptaron a los tiempos.</p>
+
+<h4>Gráfica 1</h4>
+
+<p>Evolución de la Zona Metropolitana de la Laguna en el Índice de Competitividad Urbana 2007-2012</p>
+
+<img class="contenido-imagen" src="indicadores-por-municipio-metodologia-imco/evolucion-de-la-zona-metropolitana-de-la-laguna-en-el-indice-de-competitividad-urbana-2007-2012.png" alt="Evolución de la Zona Metropolitana de la Laguna en el Índice de Competitividad Urbana 2007-2012">
+
+<p>Sin embargo es relevante destacar los avances que se experimentó en Medio Ambiente donde hace 8 años presentábamos un grave rezago y aunque todavía hay mucho por avanzar, la mejora fue significativa, así como y en los factores de mercado laboral, subíndice en el cual pasamos a ocupar los primeros puestos.</p>
+
+<p>Es ineludible que conformamos una metrópoli, y si bien eso implica que los esfuerzos deberán ser conjuntos para insertar al municipio en una dinámica de competitividad, resulta también necesario conocer y diagnosticar las fortalezas y debilidades específicas de cada municipio.</p>
+
+<h4>Gráfica 2</h4>
+
+<img class="contenido-imagen" src="indicadores-por-municipio-metodologia-imco/indice-de-competitividad-2012.png" alt="Índice de Competitividad 2012">
+
+<p>El municipio de Torreón considerado sin la zona metropolitana, ocuparía el sitio 17 en el Índice de Competitividad Urbana, sobre el resto de municipios de la ZML, destacan sus subíndices de Sociedad y Mercado Laboral, y en menor medida Economía, Gobierno e Innovación. Sin embargo muestra un déficit respecto a la ZML en Relaciones Internacionales e Infraestructura.</p>
+
+<h4>Gráfica 3</h4>
+
+<img class="contenido-imagen" src="indicadores-por-municipio-metodologia-imco/indice-de-competitividad-urbana-2012-zml.png" alt="Índice de Competitividad 2012 de la Zona Metropolitana de la Laguna">
+
+<h4>Gráfica 4</h4>
+
+<img class="contenido-imagen" src="indicadores-por-municipio-metodologia-imco/indice-de-competitividad-urbana-2012-torreon.png" alt="Índice de Competitividad 2012 de Torreón">
+
+<p>El municipio de Gómez Palacio considerado sin la zona metropolitana, ocuparía el sitio 59 en el Índice de Competitividad Urbana, ocupando la segunda posición de la ZML. Destacan por su influencia positiva en la ZML sus subíndices de Relaciones Internacionales, Innovación, Economía y Medio Ambiente. Sin embargo Sistema Político, Gobiernos Eficientes y Sociedad muestran un amplio déficit respecto a la ZML en su conjunto.</p>
+
+<h4>Gráfica 5</h4>
+
+<img class="contenido-imagen" src="indicadores-por-municipio-metodologia-imco/indice-de-competitividad-urbana-2012-gomez-palacio.png" alt="Índice de Competitividad 2012 de Gómez Palacio">
+
+<h4>Gráfica 6</h4>
+
+<img class="contenido-imagen" src="indicadores-por-municipio-metodologia-imco/indice-de-competitividad-urbana-2012-lerdo.png" alt="Índice de Competitividad 2012 de Lerdo">
+
+<p>Lerdo ocuparía el puesto 74 de 77 Ciudades si se le aísla, de la ZML, resaltan sin embargo sus aportes en Medio Ambiente y en menor medida en Sistema Político. Sin embargo su déficit en Factores del Mercado Laboral impacta fuertemente en la competitividad de la zona.</p>
+
+<h4>Gráfica 7</h4>
+
+<img class="contenido-imagen" src="indicadores-por-municipio-metodologia-imco/indice-de-competitividad-urbana-2012-matamoros.png" alt="Índice de Competitividad 2012 de Matamoros">
+
+<p>En cuanto al Municipio de Matamoros ocuparía por si sólo la posición 64. Si bien destaca su aporte en la Estabilidad de su Sistema Político, y Estado de Derecho, al ser el municipio menos inseguro de la región en los años de referencia, su déficit en Sociedad, Mercado Laboral y Medio Ambiente impactan en la competitividad de la región más aún considerando que constituye la reserva territorial más próxima al municipio de Torreón.</p>
+
+<p>[1] Instituto Mexicano Para la Competitividad (2004), Situación de la Competitividad en México. Hacia un pacto de Competitividad, IMCO, México.<br>
+[2] Análisis de acuerdo a la base de datos disponible en: <a href="http://porciudad.comparadondevives.org/contacto">http://porciudad.comparadondevives.org/contacto</a></p>
+</article>
+<div class="contenido-social">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</body>
+</html>

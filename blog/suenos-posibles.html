@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano.">
+  <meta name="author" content="Lic. Eduardo Holguín Zehfuss">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sueños Posibles">
+  <meta name="twitter:description" content="La ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/suenos-posibles/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/suenos-posibles.html">
+  <meta name="og:title" content="Sueños Posibles">
+  <meta name="og:description" content="La ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/suenos-posibles/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/suenos-posibles.html">
+  <title>Sueños Posibles - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li class="active"><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart"></i> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/"><i class="fa fa-tags"></i> Categorías</a></li>
+            <li><a href="../indicadores-torreon/"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li><a href="../indicadores-gomez-palacio/"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
+            <li><a href="../indicadores-lerdo/"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
+            <li><a href="../indicadores-matamoros/"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
+            <li><a href="../indicadores-la-laguna/"><i class="fa fa-table"></i> Indicadores La Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-map-marker"></i> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><i class="fa fa-file-text-o"></i> Introduccion al SIG</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Abrir el SIG</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Plan M. de Desarrollo</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Alumbrado Público</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-paper-plane-o"></i> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><i class="fa fa-file-text-o"></i> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-university"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-file-text-o"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-file-text-o"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-file-text-o"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-file-text-o"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-file-text-o"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-file-text-o"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-file-text-o"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-users"></i> Consejo Directivo<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../consejo-directivo/integrantes.html"><i class="fa fa-file-text-o"></i> Integrantes</a></li>
+            <li><a href="../consejo-directivo/agenda.html"><i class="fa fa-file-text-o"></i> Agenda</a></li>
+            <li><a href="../consejo-directivo/comites-tecnicos.html"><i class="fa fa-file-text-o"></i> Comités Técnicos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-volume-up"></i> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><i class="fa fa-folder-o"></i> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><i class="fa fa-folder-o"></i> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../contacto/contacto.html"><i class="fa fa-phone"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+<article>
+  <header>
+    <h1>Sueños Posibles</h1>
+    <p class="autor-fecha">Por Lic. Eduardo Holguín Zehfuss, 08/05/2014</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="suenos-posibles/imagen.jpg"></span>
+
+<p>Estamos en el Siglo XXI y en el Siglo XXI vamos a poner a Torreón. El "vamos" nos incluye a todos.  Desde siempre he escuchado el sueño de metrópoli que tiene cada lagunero que conozco. Sueños urbanos tan diversos como diversos son los sectores, los estratos socio económicos, las profesiones y las aspiraciones personales de mis interlocutores.</p>
+
+<p>Hay quienes sueñan con una urbe convertida en una ciudad del conocimiento, otros con un hábitat sustentable, muchos con un centro histórico recuperado que preserve el acervo arquitectónico y que al mismo tiempo catapulte el futuro cultural de la región. Los industriales sueñan con un digno hospedaje fabril, los exportadores con una pertinente infraestructura logística, los prestadores de servicios turísticos con un centro de convenciones, los promotores de la bicicleta con ciclo pistas que permitan el uso eficiente de un medio de transporte amigable con el medio ambiente, los doctores con los suficientes hospitales para atender la problemática pública de salud, los jóvenes con un sistema universitario vinculado a la empresa.</p>
+
+<p>Sueños todos, pero sueños que no se contradicen entre sí. Sueños todos, pero también posibles si se hace lo que hasta ahora no se ha hecho: ordenarlos en un modelo aspiracional, organizarlos en planes, programas, proyectos que determinen las rutas críticas, las acciones, los recursos, los apoyos gubernamentales, los quehaceres de los liderazgos –políticos, empresariales, sociales, académicos– requeridos para que se materialicen (los sueños) en un periodo no mayor a los 20 años.</p>
+
+<p>Es en ese sentido que la ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano. En un modelo de competitividad que sea políticamente posible porque en su construcción y ejecución participen los sectores políticos, sociales, universitarios y empresariales de la ciudad. Que sea viable porque sus metas y acciones sean planeadas, proyectadas y sustentadas financieramente, fiscalmente y jurídicamente en estadios de corto, mediano y largo plazo. No cuestionemos nuestras capacidades para materializar el sueño por un Torreón del Siglo XXI, mejor trabajemos en el cómo, cuándo y con qué.</p>
+
+</article>
+<div class="contenido-social">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</body>
+</html>
