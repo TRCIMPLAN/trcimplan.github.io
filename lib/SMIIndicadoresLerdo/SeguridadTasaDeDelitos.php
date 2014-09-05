@@ -25,7 +25,7 @@ class SeguridadTasaDeDelitos extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetastdrfxclk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasglirdwbz">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ Delitos por cada 100 mil habitantes
 Cantidad
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetyfmpinxe" class="mapa"></div>
+              <div id="LeafLettudufutn" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -108,12 +108,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetastdrfxclk a:first').tab('show')
+  $('#Lenguetasglirdwbz a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetastdrfxclk a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasglirdwbz a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapyfmpinxe;
+  var maptudufutn;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +130,17 @@ $('#Lenguetastdrfxclk a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapyfmpinxe() {
+  function initmaptudufutn() {
     // Nuevo Mapa
-    mapyfmpinxe = new L.Map('LeafLetyfmpinxe');
+    maptudufutn = new L.Map('LeafLettudufutn');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapyfmpinxe.setView(new L.LatLng(25.54, -103.44), 12);
+    maptudufutn.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapyfmpinxe.addLayer(osm);
+    maptudufutn.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +173,13 @@ $('#Lenguetastdrfxclk a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapyfmpinxe);
+    }).addTo(maptudufutn);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapyfmpinxe === 'undefined') {
-    varinitmapyfmpinxe = initmapyfmpinxe();
+  if (typeof varinitmaptudufutn === 'undefined') {
+    varinitmaptudufutn = initmaptudufutn();
   };
 });
 FINAL;

@@ -25,7 +25,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
         $this->claves      = 'Torreón, Salud, Género';
         $this->categorias  = array('Salud', 'Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetashdmcudgd">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszqswmozc">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Por cada 10 mil
 Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014]
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetfpfjrawv" class="mapa"></div>
+              <div id="LeafLetwodfwtkn" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +110,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetashdmcudgd a:first').tab('show')
+  $('#Lenguetaszqswmozc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetashdmcudgd a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszqswmozc a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapfpfjrawv;
+  var mapwodfwtkn;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +132,17 @@ $('#Lenguetashdmcudgd a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapfpfjrawv() {
+  function initmapwodfwtkn() {
     // Nuevo Mapa
-    mapfpfjrawv = new L.Map('LeafLetfpfjrawv');
+    mapwodfwtkn = new L.Map('LeafLetwodfwtkn');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapfpfjrawv.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwodfwtkn.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapfpfjrawv.addLayer(osm);
+    mapwodfwtkn.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +175,13 @@ $('#Lenguetashdmcudgd a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapfpfjrawv);
+    }).addTo(mapwodfwtkn);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapfpfjrawv === 'undefined') {
-    varinitmapfpfjrawv = initmapfpfjrawv();
+  if (typeof varinitmapwodfwtkn === 'undefined') {
+    varinitmapwodfwtkn = initmapwodfwtkn();
   };
 });
 FINAL;

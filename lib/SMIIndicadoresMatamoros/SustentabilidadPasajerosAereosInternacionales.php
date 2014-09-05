@@ -25,7 +25,7 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Movilidad';
         $this->categorias  = array('Movilidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasaokdnvsx">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbvkafdts">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -71,7 +71,7 @@ El flujo de pasajeros a nivel internacional es de:
 Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbsaamrei" class="mapa"></div>
+              <div id="LeafLetrqtavqcc" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -241,12 +241,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasaokdnvsx a:first').tab('show')
+  $('#Lenguetasbvkafdts a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasaokdnvsx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbvkafdts a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbsaamrei;
+  var maprqtavqcc;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -263,17 +263,17 @@ $('#Lenguetasaokdnvsx a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbsaamrei() {
+  function initmaprqtavqcc() {
     // Nuevo Mapa
-    mapbsaamrei = new L.Map('LeafLetbsaamrei');
+    maprqtavqcc = new L.Map('LeafLetrqtavqcc');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbsaamrei.setView(new L.LatLng(25.54, -103.44), 12);
+    maprqtavqcc.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbsaamrei.addLayer(osm);
+    maprqtavqcc.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -306,13 +306,13 @@ $('#Lenguetasaokdnvsx a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbsaamrei);
+    }).addTo(maprqtavqcc);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbsaamrei === 'undefined') {
-    varinitmapbsaamrei = initmapbsaamrei();
+  if (typeof varinitmaprqtavqcc === 'undefined') {
+    varinitmaprqtavqcc = initmaprqtavqcc();
   };
 });
 FINAL;

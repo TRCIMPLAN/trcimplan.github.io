@@ -25,7 +25,7 @@ class SustentabilidadPasajerosAereosTotales extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Movilidad';
         $this->categorias  = array('Movilidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaslcqfdkkz">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaslmzgfsef">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Personas
 Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrmsieumz" class="mapa"></div>
+              <div id="LeafLetrribhryg" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +110,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaslcqfdkkz a:first').tab('show')
+  $('#Lenguetaslmzgfsef a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaslcqfdkkz a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaslmzgfsef a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprmsieumz;
+  var maprribhryg;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +132,17 @@ $('#Lenguetaslcqfdkkz a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprmsieumz() {
+  function initmaprribhryg() {
     // Nuevo Mapa
-    maprmsieumz = new L.Map('LeafLetrmsieumz');
+    maprribhryg = new L.Map('LeafLetrribhryg');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprmsieumz.setView(new L.LatLng(25.54, -103.44), 12);
+    maprribhryg.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprmsieumz.addLayer(osm);
+    maprribhryg.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +175,13 @@ $('#Lenguetaslcqfdkkz a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprmsieumz);
+    }).addTo(maprribhryg);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprmsieumz === 'undefined') {
-    varinitmaprmsieumz = initmaprmsieumz();
+  if (typeof varinitmaprribhryg === 'undefined') {
+    varinitmaprribhryg = initmaprribhryg();
   };
 });
 FINAL;

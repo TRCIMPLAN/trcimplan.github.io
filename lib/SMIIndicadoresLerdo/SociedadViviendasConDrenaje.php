@@ -25,7 +25,7 @@ class SociedadViviendasConDrenaje extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetascaltfstf">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmiibecoz">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -61,7 +61,7 @@ Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/).
 Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/implan2.html).
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetvioyxxuk" class="mapa"></div>
+              <div id="LeafLetuazlxpsq" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -112,12 +112,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetascaltfstf a:first').tab('show')
+  $('#Lenguetasmiibecoz a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetascaltfstf a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmiibecoz a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapvioyxxuk;
+  var mapuazlxpsq;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -134,17 +134,17 @@ $('#Lenguetascaltfstf a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapvioyxxuk() {
+  function initmapuazlxpsq() {
     // Nuevo Mapa
-    mapvioyxxuk = new L.Map('LeafLetvioyxxuk');
+    mapuazlxpsq = new L.Map('LeafLetuazlxpsq');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapvioyxxuk.setView(new L.LatLng(25.54, -103.44), 12);
+    mapuazlxpsq.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapvioyxxuk.addLayer(osm);
+    mapuazlxpsq.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -177,13 +177,13 @@ $('#Lenguetascaltfstf a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapvioyxxuk);
+    }).addTo(mapuazlxpsq);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapvioyxxuk === 'undefined') {
-    varinitmapvioyxxuk = initmapvioyxxuk();
+  if (typeof varinitmapuazlxpsq === 'undefined') {
+    varinitmapuazlxpsq = initmapuazlxpsq();
   };
 });
 FINAL;

@@ -25,7 +25,7 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
         $this->claves      = 'La Laguna';
         $this->categorias  = array();
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvgitxrhd">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaskslfzsqe">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -62,7 +62,7 @@ El índice de Ginni a nivel nacional es de: 0.472
 Datos obtenidos de [CONEVAL](http://www.coneval.gob.mx/Paginas/principal.aspx)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetsxpfzlmn" class="mapa"></div>
+              <div id="LeafLetukmginte" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -113,12 +113,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvgitxrhd a:first').tab('show')
+  $('#Lenguetaskslfzsqe a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvgitxrhd a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaskslfzsqe a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapsxpfzlmn;
+  var mapukmginte;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -135,17 +135,17 @@ $('#Lenguetasvgitxrhd a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapsxpfzlmn() {
+  function initmapukmginte() {
     // Nuevo Mapa
-    mapsxpfzlmn = new L.Map('LeafLetsxpfzlmn');
+    mapukmginte = new L.Map('LeafLetukmginte');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapsxpfzlmn.setView(new L.LatLng(25.54, -103.44), 12);
+    mapukmginte.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapsxpfzlmn.addLayer(osm);
+    mapukmginte.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -178,13 +178,13 @@ $('#Lenguetasvgitxrhd a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapsxpfzlmn);
+    }).addTo(mapukmginte);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapsxpfzlmn === 'undefined') {
-    varinitmapsxpfzlmn = initmapsxpfzlmn();
+  if (typeof varinitmapukmginte === 'undefined') {
+    varinitmapukmginte = initmapukmginte();
   };
 });
 FINAL;

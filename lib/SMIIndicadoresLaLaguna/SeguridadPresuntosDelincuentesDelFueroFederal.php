@@ -25,7 +25,7 @@ class SeguridadPresuntosDelincuentesDelFueroFederal extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Delincuencia';
         $this->categorias  = array('Delincuencia');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbqdynoxv">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgpeebbla">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ Presuntos delincuentes registrados en los juzgados de primera instancia en mater
 Cantidad
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrjjoapjd" class="mapa"></div>
+              <div id="LeafLetwaiykfkb" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -108,12 +108,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbqdynoxv a:first').tab('show')
+  $('#Lenguetasgpeebbla a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbqdynoxv a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasgpeebbla a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprjjoapjd;
+  var mapwaiykfkb;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +130,17 @@ $('#Lenguetasbqdynoxv a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprjjoapjd() {
+  function initmapwaiykfkb() {
     // Nuevo Mapa
-    maprjjoapjd = new L.Map('LeafLetrjjoapjd');
+    mapwaiykfkb = new L.Map('LeafLetwaiykfkb');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprjjoapjd.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwaiykfkb.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprjjoapjd.addLayer(osm);
+    mapwaiykfkb.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +173,13 @@ $('#Lenguetasbqdynoxv a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprjjoapjd);
+    }).addTo(mapwaiykfkb);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprjjoapjd === 'undefined') {
-    varinitmaprjjoapjd = initmaprjjoapjd();
+  if (typeof varinitmapwaiykfkb === 'undefined') {
+    varinitmapwaiykfkb = initmapwaiykfkb();
   };
 });
 FINAL;

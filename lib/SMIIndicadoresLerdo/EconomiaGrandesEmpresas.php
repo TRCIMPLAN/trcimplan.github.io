@@ -25,7 +25,7 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasoyqromnm">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetassmxqgwdu">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -67,7 +67,7 @@ A nivel nacional, el 0.63% de las empresas son grandes.
 Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoPublico.asp?p=1)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetclmdncnw" class="mapa"></div>
+              <div id="LeafLetjxnvmxzw" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -188,12 +188,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasoyqromnm a:first').tab('show')
+  $('#Lenguetassmxqgwdu a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasoyqromnm a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetassmxqgwdu a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapclmdncnw;
+  var mapjxnvmxzw;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -210,17 +210,17 @@ $('#Lenguetasoyqromnm a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapclmdncnw() {
+  function initmapjxnvmxzw() {
     // Nuevo Mapa
-    mapclmdncnw = new L.Map('LeafLetclmdncnw');
+    mapjxnvmxzw = new L.Map('LeafLetjxnvmxzw');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapclmdncnw.setView(new L.LatLng(25.54, -103.44), 12);
+    mapjxnvmxzw.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapclmdncnw.addLayer(osm);
+    mapjxnvmxzw.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -253,13 +253,13 @@ $('#Lenguetasoyqromnm a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapclmdncnw);
+    }).addTo(mapjxnvmxzw);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapclmdncnw === 'undefined') {
-    varinitmapclmdncnw = initmapclmdncnw();
+  if (typeof varinitmapjxnvmxzw === 'undefined') {
+    varinitmapjxnvmxzw = initmapjxnvmxzw();
   };
 });
 FINAL;

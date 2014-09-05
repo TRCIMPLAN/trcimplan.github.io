@@ -25,7 +25,7 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
         $this->claves      = 'Torreón, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasctrulaga">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspvcuiuxa">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ Robo de vehículos con violencia y sin violencia cometidos en el primer trimestr
 Cantidad
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetdfwoftue" class="mapa"></div>
+              <div id="LeafLetctgnbpdf" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -108,12 +108,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasctrulaga a:first').tab('show')
+  $('#Lenguetaspvcuiuxa a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasctrulaga a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspvcuiuxa a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapdfwoftue;
+  var mapctgnbpdf;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +130,17 @@ $('#Lenguetasctrulaga a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapdfwoftue() {
+  function initmapctgnbpdf() {
     // Nuevo Mapa
-    mapdfwoftue = new L.Map('LeafLetdfwoftue');
+    mapctgnbpdf = new L.Map('LeafLetctgnbpdf');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapdfwoftue.setView(new L.LatLng(25.54, -103.44), 12);
+    mapctgnbpdf.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapdfwoftue.addLayer(osm);
+    mapctgnbpdf.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +173,13 @@ $('#Lenguetasctrulaga a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapdfwoftue);
+    }).addTo(mapctgnbpdf);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapdfwoftue === 'undefined') {
-    varinitmapdfwoftue = initmapdfwoftue();
+  if (typeof varinitmapctgnbpdf === 'undefined') {
+    varinitmapctgnbpdf = initmapctgnbpdf();
   };
 });
 FINAL;

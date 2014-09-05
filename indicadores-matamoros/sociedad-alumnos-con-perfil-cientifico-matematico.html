@@ -141,7 +141,7 @@
     <h1>Alumnos con Perfil Científico-Matemático en Matamoros</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaswoirtnbl">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdshdgdst">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -176,7 +176,7 @@ El criterio de "Alumnos buenos y excelentes" provienen de [mejoratuescuela.org](
 Consulta la [Base de datos](http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos_completa_2013/)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetnxlrhivi" class="mapa"></div>
+              <div id="LeafLetzhwizxzy" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -250,12 +250,12 @@ Consulta la [Base de datos](http://www.enlace.sep.gob.mx/content/ba/pages/base_d
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaswoirtnbl a:first').tab('show')
+  $('#Lenguetasdshdgdst a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaswoirtnbl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdshdgdst a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapnxlrhivi;
+  var mapzhwizxzy;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -272,17 +272,17 @@ $('#Lenguetaswoirtnbl a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapnxlrhivi() {
+  function initmapzhwizxzy() {
     // Nuevo Mapa
-    mapnxlrhivi = new L.Map('LeafLetnxlrhivi');
+    mapzhwizxzy = new L.Map('LeafLetzhwizxzy');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapnxlrhivi.setView(new L.LatLng(25.54, -103.44), 12);
+    mapzhwizxzy.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapnxlrhivi.addLayer(osm);
+    mapzhwizxzy.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -315,13 +315,13 @@ $('#Lenguetaswoirtnbl a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapnxlrhivi);
+    }).addTo(mapzhwizxzy);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapnxlrhivi === 'undefined') {
-    varinitmapnxlrhivi = initmapnxlrhivi();
+  if (typeof varinitmapzhwizxzy === 'undefined') {
+    varinitmapzhwizxzy = initmapzhwizxzy();
   };
 });
 </script>

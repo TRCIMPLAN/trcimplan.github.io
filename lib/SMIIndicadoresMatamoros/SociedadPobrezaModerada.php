@@ -25,7 +25,7 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetashaxlaxrj">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszmcawdfs">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Porcentaje
 Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetpcrawetr" class="mapa"></div>
+              <div id="LeafLetzugyjswd" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -131,12 +131,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetashaxlaxrj a:first').tab('show')
+  $('#Lenguetaszmcawdfs a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetashaxlaxrj a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszmcawdfs a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mappcrawetr;
+  var mapzugyjswd;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -153,17 +153,17 @@ $('#Lenguetashaxlaxrj a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmappcrawetr() {
+  function initmapzugyjswd() {
     // Nuevo Mapa
-    mappcrawetr = new L.Map('LeafLetpcrawetr');
+    mapzugyjswd = new L.Map('LeafLetzugyjswd');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mappcrawetr.setView(new L.LatLng(25.54, -103.44), 12);
+    mapzugyjswd.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mappcrawetr.addLayer(osm);
+    mapzugyjswd.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -196,13 +196,13 @@ $('#Lenguetashaxlaxrj a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mappcrawetr);
+    }).addTo(mapzugyjswd);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmappcrawetr === 'undefined') {
-    varinitmappcrawetr = initmappcrawetr();
+  if (typeof varinitmapzugyjswd === 'undefined') {
+    varinitmapzugyjswd = initmapzugyjswd();
   };
 });
 FINAL;

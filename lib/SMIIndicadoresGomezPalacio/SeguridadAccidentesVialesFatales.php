@@ -25,7 +25,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Vialidad';
         $this->categorias  = array('Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasgliprfdw">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasksjoodfs">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ Cantidad de accidentes viales fatales por año.
 Cantidad
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetxewpgjti" class="mapa"></div>
+              <div id="LeafLetirwodufg" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -108,12 +108,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasgliprfdw a:first').tab('show')
+  $('#Lenguetasksjoodfs a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasgliprfdw a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasksjoodfs a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapxewpgjti;
+  var mapirwodufg;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +130,17 @@ $('#Lenguetasgliprfdw a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapxewpgjti() {
+  function initmapirwodufg() {
     // Nuevo Mapa
-    mapxewpgjti = new L.Map('LeafLetxewpgjti');
+    mapirwodufg = new L.Map('LeafLetirwodufg');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapxewpgjti.setView(new L.LatLng(25.54, -103.44), 12);
+    mapirwodufg.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapxewpgjti.addLayer(osm);
+    mapirwodufg.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +173,13 @@ $('#Lenguetasgliprfdw a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapxewpgjti);
+    }).addTo(mapirwodufg);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapxewpgjti === 'undefined') {
-    varinitmapxewpgjti = initmapxewpgjti();
+  if (typeof varinitmapirwodufg === 'undefined') {
+    varinitmapirwodufg = initmapirwodufg();
   };
 });
 FINAL;

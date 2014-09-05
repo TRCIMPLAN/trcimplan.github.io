@@ -25,7 +25,7 @@ class SeguridadTasaDeSecuestro extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasyezbbdww">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaseuxhcbsn">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ Homicidios por habitantes por 100 mil
 Por cada 100 mil
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetkgcqoezu" class="mapa"></div>
+              <div id="LeafLetpudchvwb" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -108,12 +108,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasyezbbdww a:first').tab('show')
+  $('#Lenguetaseuxhcbsn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasyezbbdww a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaseuxhcbsn a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapkgcqoezu;
+  var mappudchvwb;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +130,17 @@ $('#Lenguetasyezbbdww a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapkgcqoezu() {
+  function initmappudchvwb() {
     // Nuevo Mapa
-    mapkgcqoezu = new L.Map('LeafLetkgcqoezu');
+    mappudchvwb = new L.Map('LeafLetpudchvwb');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapkgcqoezu.setView(new L.LatLng(25.54, -103.44), 12);
+    mappudchvwb.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapkgcqoezu.addLayer(osm);
+    mappudchvwb.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +173,13 @@ $('#Lenguetasyezbbdww a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapkgcqoezu);
+    }).addTo(mappudchvwb);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapkgcqoezu === 'undefined') {
-    varinitmapkgcqoezu = initmapkgcqoezu();
+  if (typeof varinitmappudchvwb === 'undefined') {
+    varinitmappudchvwb = initmappudchvwb();
   };
 });
 FINAL;

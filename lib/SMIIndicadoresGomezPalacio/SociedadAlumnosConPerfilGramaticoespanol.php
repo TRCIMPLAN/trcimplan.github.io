@@ -25,7 +25,7 @@ class SociedadAlumnosConPerfilGramaticoespanol extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Educación';
         $this->categorias  = array('Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasxsczgzqn">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetastdewuwyj">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -60,7 +60,7 @@ El criterio de "Alumnos buenos y excelentes" provienen de [mejoratuescuela.org](
 Consulta la [Base de datos](http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos_completa_2013/)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetllrastza" class="mapa"></div>
+              <div id="LeafLetyriymwvm" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -111,12 +111,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasxsczgzqn a:first').tab('show')
+  $('#Lenguetastdewuwyj a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasxsczgzqn a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetastdewuwyj a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapllrastza;
+  var mapyriymwvm;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -133,17 +133,17 @@ $('#Lenguetasxsczgzqn a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapllrastza() {
+  function initmapyriymwvm() {
     // Nuevo Mapa
-    mapllrastza = new L.Map('LeafLetllrastza');
+    mapyriymwvm = new L.Map('LeafLetyriymwvm');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapllrastza.setView(new L.LatLng(25.54, -103.44), 12);
+    mapyriymwvm.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapllrastza.addLayer(osm);
+    mapyriymwvm.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -176,13 +176,13 @@ $('#Lenguetasxsczgzqn a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapllrastza);
+    }).addTo(mapyriymwvm);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapllrastza === 'undefined') {
-    varinitmapllrastza = initmapllrastza();
+  if (typeof varinitmapyriymwvm === 'undefined') {
+    varinitmapyriymwvm = initmapyriymwvm();
   };
 });
 FINAL;

@@ -25,7 +25,7 @@ class SustentabilidadVolumenTratadoDeAguasResiduales extends \Base\Publicacion {
         $this->claves      = 'Torreón, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnsegvros">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasruzgzawc">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ class SustentabilidadVolumenTratadoDeAguasResiduales extends \Base\Publicacion {
 Litros por segundo por cada mil habitantes
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetmhqmqbtd" class="mapa"></div>
+              <div id="LeafLetvqwttaye" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -122,12 +122,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnsegvros a:first').tab('show')
+  $('#Lenguetasruzgzawc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnsegvros a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasruzgzawc a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapmhqmqbtd;
+  var mapvqwttaye;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -144,17 +144,17 @@ $('#Lenguetasnsegvros a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapmhqmqbtd() {
+  function initmapvqwttaye() {
     // Nuevo Mapa
-    mapmhqmqbtd = new L.Map('LeafLetmhqmqbtd');
+    mapvqwttaye = new L.Map('LeafLetvqwttaye');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapmhqmqbtd.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvqwttaye.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapmhqmqbtd.addLayer(osm);
+    mapvqwttaye.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -187,13 +187,13 @@ $('#Lenguetasnsegvros a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapmhqmqbtd);
+    }).addTo(mapvqwttaye);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapmhqmqbtd === 'undefined') {
-    varinitmapmhqmqbtd = initmapmhqmqbtd();
+  if (typeof varinitmapvqwttaye === 'undefined') {
+    varinitmapvqwttaye = initmapvqwttaye();
   };
 });
 FINAL;

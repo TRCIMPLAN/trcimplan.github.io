@@ -25,7 +25,7 @@ class SociedadUniversidades extends \Base\Publicacion {
         $this->claves      = 'Torreón, Educación';
         $this->categorias  = array('Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaspkobubjv">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasqdeybmjz">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -91,7 +91,7 @@ Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicame
 * Universidad Pedagógica de Durango-UGP
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetvdhrwnmr" class="mapa"></div>
+              <div id="LeafLetabpgbkhi" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -142,12 +142,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaspkobubjv a:first').tab('show')
+  $('#Lenguetasqdeybmjz a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaspkobubjv a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasqdeybmjz a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapvdhrwnmr;
+  var mapabpgbkhi;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -164,17 +164,17 @@ $('#Lenguetaspkobubjv a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapvdhrwnmr() {
+  function initmapabpgbkhi() {
     // Nuevo Mapa
-    mapvdhrwnmr = new L.Map('LeafLetvdhrwnmr');
+    mapabpgbkhi = new L.Map('LeafLetabpgbkhi');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapvdhrwnmr.setView(new L.LatLng(25.54, -103.44), 12);
+    mapabpgbkhi.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapvdhrwnmr.addLayer(osm);
+    mapabpgbkhi.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -207,13 +207,13 @@ $('#Lenguetaspkobubjv a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapvdhrwnmr);
+    }).addTo(mapabpgbkhi);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapvdhrwnmr === 'undefined') {
-    varinitmapvdhrwnmr = initmapvdhrwnmr();
+  if (typeof varinitmapabpgbkhi === 'undefined') {
+    varinitmapabpgbkhi = initmapabpgbkhi();
   };
 });
 FINAL;

@@ -25,7 +25,7 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Participación Ciudadana';
         $this->categorias  = array('Participación Ciudadana');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasuaxcuyku">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasxdjqmnca">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
 Cantidad
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwojfsvfa" class="mapa"></div>
+              <div id="LeafLetprawvbtq" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -108,12 +108,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasuaxcuyku a:first').tab('show')
+  $('#Lenguetasxdjqmnca a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasuaxcuyku a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasxdjqmnca a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwojfsvfa;
+  var mapprawvbtq;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +130,17 @@ $('#Lenguetasuaxcuyku a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwojfsvfa() {
+  function initmapprawvbtq() {
     // Nuevo Mapa
-    mapwojfsvfa = new L.Map('LeafLetwojfsvfa');
+    mapprawvbtq = new L.Map('LeafLetprawvbtq');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwojfsvfa.setView(new L.LatLng(25.54, -103.44), 12);
+    mapprawvbtq.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwojfsvfa.addLayer(osm);
+    mapprawvbtq.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +173,13 @@ $('#Lenguetasuaxcuyku a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwojfsvfa);
+    }).addTo(mapprawvbtq);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwojfsvfa === 'undefined') {
-    varinitmapwojfsvfa = initmapwojfsvfa();
+  if (typeof varinitmapprawvbtq === 'undefined') {
+    varinitmapprawvbtq = initmapprawvbtq();
   };
 });
 FINAL;
