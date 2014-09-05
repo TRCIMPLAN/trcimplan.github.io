@@ -43,7 +43,7 @@ class PlataLaguna extends \Base\Publicacion {
         $this->categorias    = array('Blog');
         $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="plata-laguna/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="plata-laguna/plata.jpg"></span>
+<span class="contenido-imagen-previa"><img src="plata-laguna/imagen.jpg"></span>
 
 <p>ESTRATEGIA COMPETITIVA<br>
 <em>2014-2017</em></p>

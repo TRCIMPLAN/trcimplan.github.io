@@ -40,9 +40,9 @@ class Navegacion {
             'Indicadores Matamoros'     => 'indicadores-matamoros/',
             'Indicadores La Laguna'     => 'indicadores-la-laguna/'),
         'Información Geográfica' => array(
-            'Introduccion al SIG'     => 'sig/introduccion.html',
-            'Abrir el SIG'            => '#',
-            'Zonificación Secundaria' => 'sig/zonificacion-secundaria.html'),
+            'Introduccion al SIG' => 'sig/introduccion.html',
+            'Zonificación'        => 'sig/zonificacion.html',
+            'Abrir el SIG'        => 'sig/abrir-sig.html'),
         'Banco de Proyectos' => array(
             'Introducción al BMPI' => 'proyectos/introduccion.html',
             'Plata Laguna'         => 'proyectos/plata-laguna.html'),
