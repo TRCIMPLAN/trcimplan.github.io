@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.">
+  <meta name="author" content="Lic. Rodrigo González Morales">
+  <meta name="keywords" content="IMPLAN, Torreon, Sociedad, Incluyente, Preparada, Sana">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sociedad incluyente, preparada y sana">
+  <meta name="twitter:description" content="Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/sociedad-incluyente-preparada-sana/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/sociedad-incluyente-preparada-sana.html">
+  <meta name="og:title" content="Sociedad incluyente, preparada y sana">
+  <meta name="og:description" content="Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/sociedad-incluyente-preparada-sana/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/sociedad-incluyente-preparada-sana.html">
+  <title>Sociedad incluyente, preparada y sana - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Serif|Oswald" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li class="active"><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart"></i> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/"><i class="fa fa-tags"></i> Categorías</a></li>
+            <li><a href="../indicadores-torreon/"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li><a href="../indicadores-gomez-palacio/"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
+            <li><a href="../indicadores-lerdo/"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
+            <li><a href="../indicadores-matamoros/"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
+            <li><a href="../indicadores-la-laguna/"><i class="fa fa-table"></i> Indicadores La Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-map-marker"></i> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><i class="fa fa-file-text-o"></i> Introduccion al SIG</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Abrir el SIG</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Plan M. de Desarrollo</a></li>
+            <li><a href="../#"><i class="fa fa-file-text-o"></i> Alumbrado Público</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-paper-plane-o"></i> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><i class="fa fa-file-text-o"></i> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-university"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-file-text-o"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-file-text-o"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-file-text-o"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-file-text-o"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-file-text-o"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-file-text-o"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-file-text-o"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-users"></i> Consejo Directivo<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../consejo-directivo/integrantes.html"><i class="fa fa-file-text-o"></i> Integrantes</a></li>
+            <li><a href="../consejo-directivo/agenda.html"><i class="fa fa-file-text-o"></i> Agenda</a></li>
+            <li><a href="../consejo-directivo/comites-tecnicos.html"><i class="fa fa-file-text-o"></i> Comités Técnicos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-volume-up"></i> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><i class="fa fa-folder-o"></i> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><i class="fa fa-folder-o"></i> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../contacto/contacto.html"><i class="fa fa-phone"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+<article>
+  <header>
+    <h1>Sociedad incluyente, preparada y sana</h1>
+    <p class="autor-fecha">Por Lic. Rodrigo González Morales, 06/06/2014</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="sociedad-incluyente-preparada-sana/imagen.jpg"></span>
+
+<p>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</p>
+
+<img class="img-responsive contenido-imagen" src="sociedad-incluyente-preparada-sana/sociedad.png" alt="Sociedad">
+
+<p>El Grado Promedio de Escolaridad (GPE) muestra claramente esta diferencia ya que los torreonenses estudian en promedio dos años más que los habitantes de Matamoros y más de un año más que Lerdo y Gómez Palacio. En calidad educativa tomada de el porcentaje con resultados buenos y excelentes en matemáticas de la prueba enlace, se muestra mayor equilibrio entre Torreón, Gómez Palacio y Lerdo, no así Matamoros, que cuenta sólo con un 16 % de alumnos con calificaciones buenas y excelentes. El porcentaje de población con educación media superior y superior, es decir bachillerato o más, marca también amplia diferencia pues mientras casi la mitad de la población de Torreón cuenta con educación post-básica (48.82 %) solo 6 % menos que Cd. Victoria que es quien mejor registro muestra, en Matamoros es poco más de un cuarto de la población (26.69 %), mientras Gómez Palacio (37.70 %) y Lerdo (36.89 %), se encuentran en niveles intermedios similares a ciudades como Tapachula o Tula.</p>
+
+<p>Sin embargo los indicadores relacionados a salud pública son los más vulnerables para Torreón dentro de este subíndice, ya que registra la mayor tasa de mortalidad infantil de la zona (1.26 decesos por cada mil nacimientos), mientras Matamoros presenta el mejor indicador de la ZML (.94), a pesar de ello los cuatro municipios y la ciudad en su conjunto se encuentran en niveles altos a nivel nacional. En cambio la medida de médicos por cada mil habitantes, coloca a la zona y a los cuatro municipios en niveles muy inferiores a las ciudades más competitivas en este aspecto como Cd. Victoria que registra 2 médicos por cada mil habitantes, y especialmente preocupante el caso de Torreón que registra .3 médicos por cada mil personas es decir apenas 3 médicos por cada 10 mil.</p>
+
+<img class="img-responsive contenido-imagen" src="sociedad-incluyente-preparada-sana/indicadores.png" alt="Indicadores">
+
+<p>En cuanto a cobertura de servicios en la vivienda, la diferencia entre Torreón y el resto de los municipios vuelve a ser patente, ya que torreón cuenta con 95 % de viviendas con drenaje y sólo 2 % con piso de tierra, Gómez Palacio 94% y 4% con piso de tierra, que puede ser inducido por el territorio rural del municipio, Lerdo 90 % de viviendas con drenaje y 3 % con piso de tierra y Matamoros 91 % con drenaje y 3 % con piso de tierra.</p>
+
+<p>Quizá uno de los indicadores más alarmantes para la Laguna según el ICU 2012, es la cantidad de viviendas deshabitadas, relacionado también con el crecimiento de la mancha urbana incluido en el subíndice de Gobierno, ya que refleja la expansión urbana y la presión de los servicios públicos, provocando el deterioro de inmuebles e infraestructura en la medida que se reduce la densidad poblacional de amplias zonas. La ZML presenta un 19.10 % de viviendas deshabitadas, estando entre las 8 peores ciudades a este respecto. Torreón presenta el mayor porcentaje con 20.12 %, Gómez Palacio 19.47 % y Lerdo 17.81%, Matamoros se desvía de la tendencia con 12.23%.</p>
+
+<p>Por último la equidad salarial entre hombres y mujeres sitúa a la ZML alrededor de la media nacional de las ciudades en estudio, con ingresos de las mujeres de 78 % respecto a los de los hombres, y Torreón, Gómez Palacio y Lerdo con valores similares, mientras Matamoros muestra mayor equidad salarial con 93 % del ingreso promedio de las mujeres respecto al de los hombres.</p>
+</article>
+<div class="contenido-social">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</body>
+</html>

@@ -27,6 +27,9 @@ $soy = '[Crear SMI]';
 $EXITO=0;
 $E_FATAL=99;
 
+// Cambiarse al directorio por debajo de donde se encuentra este programa
+chdir(realpath(dirname(__FILE__))."/..");
+
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
