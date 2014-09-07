@@ -63,6 +63,16 @@ class Publicacion extends \Configuracion\PublicacionConfig {
         }
     } // url
 
+    /**
+     * URL absoluto
+     *
+     * @return string URL absoluto de la publicación
+     */
+    public function url_absoluto() {
+        $plantilla = new \Configuracion\PlantillaConfig();
+        return sprintf('%s/%s/%s.html', $plantilla->sitio_url, $this->directorio, $this->archivo);
+    } // url_absoluto
+
 } // Clase Publicacion
 
 ?>

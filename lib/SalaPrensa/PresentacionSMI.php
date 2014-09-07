@@ -43,7 +43,7 @@ class PresentacionSMI extends \Base\Publicacion {
         $this->categorias    = array('Indicadores', 'Sesiones');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><a href="presentacion-smi/presentacion-smi.jpg"><img src="presentacion-smi/presentacion-smi.jpg"></a></span>
+<a href="presentacion-smi/presentacion-smi.jpg"><img class="img-responsive contenido-imagen" src="presentacion-smi/presentacion-smi.jpg"></a>
 
 <p>El día de hoy en punto de las 8 de la mañana en el marco de la Segunda Sesión del Consejo Directivo del Instituto Municipal de Planeación y Competitividad de Torreón IMPLAN, se presentó el Sistema Metropolitano de Indicadores, SMI, el cual es un banco de información sobre temas de interés de nuestra Ciudad y su área Metropolitana.</p>
 

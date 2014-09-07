@@ -42,34 +42,26 @@ class Contacto extends \Base\Publicacion {
      // $this->imagen_previa = 'directorio/imagen-previa.jpg';
         $this->categorias    = array('Contacto');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<h4>Redes sociales</h4>
+        $markdown = <<<FINAL
+#### Correos electrónicos
 
-<ul>
-    <li>Twitter <a href="http://www.twitter.com/trcimplan" target="_blank">@trcimplan</a></li>
-    <li>Facebook <a href="https://facebook.com/trcimplan" target="_blank">/trcimplan</a></li>
-</ul>
+* Eduardo Holguín, Director General: [eholguin@trcimplan.mx](mailto:eholguin@trcimplan.mx)
+* Luis Campos, Director de Planeacíon Urbana: [lcampos@trcimplan.mx](mailto:lcampos@trcimplan.mx)
+* Rodrigo González, Director de Investigación Estratégica: [rgonzalez@trcimplan.mx](mailto:rgonzalez@trcimplan.mx)
+* Información general: [info@trcimplan.mx](mailto:info@trcimplan.mx)
 
-<h4>Correos electrónicos</h4>
+#### Teléfono
 
-<ul>
-    <li>Información general:<br />
-      <a href="mailto:info@trcimplan.mx">info@trcimplan.mx</a></li>
-    <li>Eduardo Holguín, Director General:<br />
-      <a href="mailto:eholguin@trcimplan.mx">eholguin@trcimplan.mx</a></li>
-    <li>Luis Campos, Director de Planeacíon Urbana:<br />
-      <a href="mailto:lcampos@trcimplan.mx">lcampos@trcimplan.mx</a></li>
-    <li>Rodrigo González, Director de Investigación Estratégica:<br />
-      <a href="mailto:rgonzalez@trcimplan.mx">rgonzalez@trcimplan.mx</a></li>
-</ul>
+* (871) 500 7078
 
-<h4>Teléfono</h4>
+#### Redes Sociales
 
-<ul>
-    <li>(871) 500 7078</li>
-</ul>
+* Twitter [@trcimplan](https://www.twitter.com/trcimplan)
+* Facebook [/trcimplan](https://facebook.com/trcimplan)
+
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->contenido     = \Michelf\Markdown::defaultTransform($markdown);
+        $this->javascript    = <<<FINAL
 FINAL;
     } // constructor
 
