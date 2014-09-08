@@ -39,17 +39,6 @@ class Indice {
     } // constructor
 
     /**
-     * Formato fecha
-     *
-     * @param  string Fecha en el formato de la base de datos YYYY-MM-DD
-     * @return string Fecha en el formato DD/MM/YYYY
-     */
-    protected function formato_fecha($fecha) {
-        $a = explode('-', $fecha);
-        return sprintf('%02d/%02d/%04d', $a[2], $a[1], $a[0]);
-    } // formato_fecha
-
-    /**
      * HTML
      *
      * @return string Código HTML
@@ -90,7 +79,7 @@ class Indice {
             $a[] = '              <div class="media-body">';
             $a[] = '                <h4 class="media-heading"><a href="'.$p->url()."\">{$p->nombre}</a></h4>";
             $a[] = "                <p>{$p->descripcion}</p>";
-            $a[] = "                <p class=\"pull-left autor\">{$p->autor}, ".$this->formato_fecha($p->fecha)."</p>";
+            $a[] = "                <p class=\"pull-left autor\">{$p->autor}, {$p->fecha_con_formato_humano()}</p>";
             $a[] = '                <p class="pull-right leer-mas"><a href="'.$p->url().'">Leer más</a></p>';
             $a[] = '              </div>';
             $a[] = '            </div>';

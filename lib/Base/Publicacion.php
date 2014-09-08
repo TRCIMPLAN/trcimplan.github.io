@@ -73,6 +73,26 @@ class Publicacion extends \Configuracion\PublicacionConfig {
         return sprintf('%s/%s/%s.html', $plantilla->sitio_url, $this->directorio, $this->archivo);
     } // url_absoluto
 
+    /**
+     * Tiempo desde que fue creado
+     *
+     * @return integer Timestamp
+     */
+    public function tiempo_creado() {
+        $fecha = new \DateTime($this->fecha, new \DateTimeZone('America/Monterrey'));
+        return sprintf('%012d', time() - $fecha->getTimestamp());
+    } // tiempo_creado
+
+    /**
+     * Fecha con formato humano
+     *
+     * @return string Fecha en el formato DD/MM/YYYY
+     */
+    public function fecha_con_formato_humano() {
+        $a = explode('-', $this->fecha);
+        return sprintf('%02d/%02d/%04d', $a[2], $a[1], $a[0]);
+    } // fecha_con_formato_humano
+
 } // Clase Publicacion
 
 ?>

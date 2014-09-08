@@ -39,17 +39,6 @@ class Completo {
     } // constructor
 
     /**
-     * Formato fecha
-     *
-     * @param  string Fecha en el formato de la base de datos YYYY-MM-DD
-     * @return string Fecha en el formato DD/MM/YYYY
-     */
-    protected function formato_fecha($fecha) {
-        $a = explode('-', $fecha);
-        return sprintf('%02d/%02d/%04d', $a[2], $a[1], $a[0]);
-    } // formato_fecha
-
-    /**
      * HTML
      *
      * @return string Código HTML
@@ -75,12 +64,13 @@ class Completo {
         } elseif ($this->publicacion->nombre != '') {
             $a[] = "    <h1>{$this->publicacion->nombre}</h1>";
         }
-        $a[] = "    <p class=\"autor-fecha\">Por {$this->publicacion->autor}, ".$this->formato_fecha($this->publicacion->fecha)."</p>";
+        $a[] = sprintf('    <p class="autor-fecha">Por %s, %s</p>', $this->publicacion->autor, $this->publicacion->fecha_con_formato_humano());
         $a[] = '  </header>';
         $a[] = $this->publicacion->contenido;
         $a[] = '</article>';
         // Agregar botones para compartir en redes sociales
         $a[] = '<div class="contenido-social">';
+        $a[] = '  <h5>Compartir en Redes Sociales</h5>';
         $a[] = '  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>';
         $a[] = '  <iframe src="//www.facebook.com/plugins/like.php?href='.urlencode($this->publicacion->url_absoluto()).'&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>';
         $a[] = '</div>';
