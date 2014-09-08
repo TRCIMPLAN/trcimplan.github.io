@@ -23,9 +23,9 @@
 namespace Configuracion;
 
 /**
- * Clase Navegacion
+ * Clase NavegacionConfig
  */
-class Navegacion {
+class NavegacionConfig {
 
     protected $sitio_titulo = 'IMPLAN Torreón';
     protected $logotipo     = 'imagenes/implan-barra-logo-chico.png';
@@ -80,6 +80,6 @@ class Navegacion {
         'Sala de Prensa'            => 'fa fa-folder-o',
         'Contacto'                  => 'fa fa-phone');
 
-} // Clase Navegacion
+} // Clase NavegacionConfig
 
 ?>
