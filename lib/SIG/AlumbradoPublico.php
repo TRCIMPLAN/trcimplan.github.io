@@ -33,7 +33,7 @@ class AlumbradoPublico extends \Base\Publicacion {
     public function __construct() {
         $this->fecha         = '2014-09-08';
      // $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Alumbrado Público';
+        $this->nombre        = 'Avance de Reconversión Tecnológica Led del Alumbrado Público';
         $this->nombre_menu   = 'Alumbrado Público';
         $this->directorio    = 'sig';
         $this->archivo       = 'alumbrado-publico';
@@ -44,6 +44,10 @@ class AlumbradoPublico extends \Base\Publicacion {
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <iframe width='100%' height='520' frameborder='0' src='https://sigimplan.cartodb.com/viz/e1447ce2-35fa-11e4-a9bb-0e230854a1cb/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<p>Nota: La información mostrada está sujeta a cambios sin previo aviso por la concesionaria.</p>
+
+<p>Fuente: Dirección General de Servicios Públicos de Torreón.</p>
 FINAL;
         $this->javascript    = <<<FINAL
 FINAL;
