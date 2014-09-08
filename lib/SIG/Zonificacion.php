@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Zonificación
+ * SMIbeta - SIG Zonificación Primaria y Secundaria
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -40,7 +40,7 @@ class Zonificacion extends \Base\Publicacion {
         $this->descripcion   = 'Mapa de la Zonificación Primaria y Secundaria de Torreón Coahuila.';
         $this->claves        = 'IMPLAN, Torreon, Zonificación, SIG, GIS';
      // $this->imagen_previa = 'directorio/imagen-previa.jpg';
-        $this->categorias    = array('SIG');
+        $this->categorias    = array('SIG', 'Zonificación');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <iframe width='100%' height='520' frameborder='0' src='https://saemapas.cartodb.com/viz/e22ebd7e-2ee9-11e4-9351-0e230854a1cb/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>

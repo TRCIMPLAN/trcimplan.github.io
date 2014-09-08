@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Análisis de las variables macroeconómicas como crédito, mercado hipotecario, cartera vencida, PIB y desempleo.">
+  <meta name="author" content="Lic. Rodrigo González Morales">
+  <meta name="keywords" content="IMPLAN, Torreon, Economía">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Economía Estable">
+  <meta name="twitter:description" content="Análisis de las variables macroeconómicas como crédito, mercado hipotecario, cartera vencida, PIB y desempleo.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/economia-estable/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/economia-estable.html">
+  <meta name="og:title" content="Economía Estable">
+  <meta name="og:description" content="Análisis de las variables macroeconómicas como crédito, mercado hipotecario, cartera vencida, PIB y desempleo.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/economia-estable/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/economia-estable.html">
+  <title>Economía Estable - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Serif|Oswald" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li class="active"><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart"></i> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/"><i class="fa fa-tags"></i> Categorías</a></li>
+            <li><a href="../indicadores-torreon/"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li><a href="../indicadores-gomez-palacio/"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
+            <li><a href="../indicadores-lerdo/"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
+            <li><a href="../indicadores-matamoros/"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
+            <li><a href="../indicadores-la-laguna/"><i class="fa fa-table"></i> Indicadores La Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-map-marker"></i> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><i class="fa fa-file-text-o"></i> Introduccion al SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><i class="fa fa-file-text-o"></i> Alumbrado Público</a></li>
+            <li><a href="../sig/zonificacion.html"><i class="fa fa-file-text-o"></i> Zonificación</a></li>
+            <li><a href="../sig/abrir-sig.html"><i class="fa fa-file-text-o"></i> Abrir el SIG</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-paper-plane-o"></i> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><i class="fa fa-file-text-o"></i> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-university"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-file-text-o"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-file-text-o"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-file-text-o"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-file-text-o"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-file-text-o"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-file-text-o"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-file-text-o"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-users"></i> Consejo Directivo<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../consejo-directivo/integrantes.html"><i class="fa fa-file-text-o"></i> Integrantes</a></li>
+            <li><a href="../consejo-directivo/agenda.html"><i class="fa fa-file-text-o"></i> Agenda</a></li>
+            <li><a href="../consejo-directivo/comites-tecnicos.html"><i class="fa fa-file-text-o"></i> Comités Técnicos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-volume-up"></i> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><i class="fa fa-folder-o"></i> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><i class="fa fa-folder-o"></i> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../contacto/contacto.html"><i class="fa fa-phone"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+<article>
+  <header>
+    <h1>Economía Estable</h1>
+    <p class="autor-fecha">Por Lic. Rodrigo González Morales, 24/06/2014</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="economia-estable/imagen.jpg"></span>
+
+<p>Las variables macroeconómicas locales son registradas en ICU por este subíndice en el cual la ZML ocupa el lugar 31, mientras los municipios de Gómez Palacio y Torreón ocuparían por si solos las posiciones 21 y 22 respectivamente. Lerdo se encuentra por debajo de la media de ciudades en la posición 52 y Matamoros en la 73, reflejando el tamaño del mercado hipotecario y de crédito en cada municipio, así como la producción entre otros indicadores.</p>
+
+<p>La información proveniente de la Comisión Nacional Bancaría y de Valores es fuente fundamental de información para este subíndice. El crédito al sector primado para la ZML representa $ 15,510 pesos por habitante ocupando el octavo puesto nacional, solo por debajo de Culiacán, Valle de México, Monterrey, Tampico-Pánuco, Cancún, Ciudad del Carmen y Chihuahua. Sin embargo destaca que Gómez Palacio, por si solo ocuparía el primer lugar nacional con otorgamiento de crédito de $35,115, pesos per cápita, y Torreón a pesar de promediar una cifra considerablemente menor ocuparía también un lugar muy por encima de la media en el lugar 11.</p>
+
+<img class="img-responsive contenido-imagen" src="economia-estable/economia.png">
+
+<p>En cuanto al tamaño hipotecario representado por los créditos por cada mil habitantes, la ZML se encuentra en competitividad media, mientras Torreón ocuparía el lugar 10 por sí solo.</p>
+
+<img class="img-responsive contenido-imagen" src="economia-estable/indicadores.png">
+
+<p>Ya que sólo cuentan con aproximaciones del PIB municipal, la tasa de crecimiento del PIB estatal nos da una idea del crecimiento de los municipios, indicador en el que la ZML ocupa el lugar 66, con una tasa de 0.0044. Dicha tasa fue obtenida del promedio de los estados de Coahuila y Durango, los cuales crecieron 0.0027 y 0.0086 respectivamente. Con una tasa de 0.037 Tabasco es el estado con mayor tasa de crecimiento, por lo que tanto el municipio de Cárdenas como Villahermosa tienen los mejores resultados del indicador.</p>
+
+<p>Por último, en el tema de desempleo la ZML se ubica el lugar 58, siendo desempleados el 7.5% de la PEA. Dentro de la Zona Metropolitana el municipio con menor tasa de desempleo es Lerdo, con 4.4% de la PEA. A nivel nacional, la menor tasa de desempleo es de 2.06% en la zona metropolitana de Guaymas, Sonora.</p>
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftrcimplan.gob.mx%2Fblog%2Feconomia-estable.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</body>
+</html>

@@ -41,6 +41,7 @@ class NavegacionConfig {
             'Indicadores La Laguna'     => 'indicadores-la-laguna/'),
         'Información Geográfica' => array(
             'Introduccion al SIG' => 'sig/introduccion.html',
+            'Alumbrado Público'   => 'sig/alumbrado-publico.html',
             'Zonificación'        => 'sig/zonificacion.html',
             'Abrir el SIG'        => 'sig/abrir-sig.html'),
         'Banco de Proyectos' => array(

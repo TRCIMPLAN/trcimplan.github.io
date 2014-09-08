@@ -256,18 +256,18 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // Contenido inicia
         $a[] = '  <div id="page-wrapper">';
         $a[] = '    <div class="row">';
-        $a[] = '      <div class="cuerpo">'; // col-lg-12
+        $a[] = '      <div class="cuerpo">';
         if (is_string($this->contenido) && (trim($this->contenido) != '')) {
             $a[] = $this->contenido;
         } else {
             $a[] = "<b>No hay contenido para esta página.</b>";
         }
-        $a[] = '      </div>'; // col-lg-12
-        $a[] = '    </div>';   // row contenido
+        $a[] = '      </div>'; // cuerpo
+        $a[] = '    </div>';   // row
         $a[] = $this->mapa_inferior->html();
         $a[] = '  </div>';     // page-wrapper
         // Contenido termina
-        $a[] = '</div>'; // wrapper
+        $a[] = '</div>';       // wrapper
         if (is_string($this->pie) && (trim($this->pie) != '')) {
             $a[] = '<div id="pie">';
             $a[] = $this->pie;

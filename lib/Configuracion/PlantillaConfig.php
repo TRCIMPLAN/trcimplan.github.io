@@ -55,7 +55,8 @@ class PlantillaConfig {
 
      ======================================================================================== -->
 FINAL;
-    public $pie            = '  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>';
+ // public $pie            = '  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>';
+    public $pie = '';
 
 } // Clase PlantillaConfig
 
