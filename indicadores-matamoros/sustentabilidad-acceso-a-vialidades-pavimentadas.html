@@ -141,7 +141,7 @@
     <h1>Acceso a Vialidades Pavimentadas en Matamoros</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaspdwzizey">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbxnuvffw">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -175,7 +175,7 @@ Porcentaje
 Censo de Población y Vivienda 2010. Consulta las [Bases de Datos](http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetyqcnkmad" class="mapa"></div>
+              <div id="LeafLetxujkbysi" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -248,12 +248,12 @@ Censo de Población y Vivienda 2010. Consulta las [Bases de Datos](http://www.in
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaspdwzizey a:first').tab('show')
+  $('#Lenguetasbxnuvffw a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaspdwzizey a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbxnuvffw a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapyqcnkmad;
+  var mapxujkbysi;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -270,17 +270,17 @@ $('#Lenguetaspdwzizey a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapyqcnkmad() {
+  function initmapxujkbysi() {
     // Nuevo Mapa
-    mapyqcnkmad = new L.Map('LeafLetyqcnkmad');
+    mapxujkbysi = new L.Map('LeafLetxujkbysi');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapyqcnkmad.setView(new L.LatLng(25.54, -103.44), 12);
+    mapxujkbysi.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapyqcnkmad.addLayer(osm);
+    mapxujkbysi.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -313,13 +313,13 @@ $('#Lenguetaspdwzizey a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapyqcnkmad);
+    }).addTo(mapxujkbysi);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapyqcnkmad === 'undefined') {
-    varinitmapyqcnkmad = initmapyqcnkmad();
+  if (typeof varinitmapxujkbysi === 'undefined') {
+    varinitmapxujkbysi = initmapxujkbysi();
   };
 });
 </script>

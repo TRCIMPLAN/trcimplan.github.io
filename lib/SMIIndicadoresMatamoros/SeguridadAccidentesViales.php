@@ -25,7 +25,7 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Vialidad';
         $this->categorias  = array('Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdjqtcnkx">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmjjhgzlq">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -155,10 +155,10 @@ Cantidad
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisrmuvodwq" class="grafica"></div>
+<div id="Morrisltdsfkkb" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetfzrqrfrr" class="mapa"></div>
+              <div id="LeafLetrmthxyoi" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -650,14 +650,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdjqtcnkx a:first').tab('show')
+  $('#Lenguetasmjjhgzlq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasdjqtcnkx a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmjjhgzlq a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrmuvodwq === 'undefined') {
-    varMorrisrmuvodwq = Morris.Line({
-      element: 'Morrisrmuvodwq',
+  if (typeof varMorrisltdsfkkb === 'undefined') {
+    varMorrisltdsfkkb = Morris.Line({
+      element: 'Morrisltdsfkkb',
       data: [{ fecha: '1997-12-31', dato: 87 },{ fecha: '1998-12-31', dato: 94 },{ fecha: '1999-12-31', dato: 39 },{ fecha: '2000-12-31', dato: 169 },{ fecha: '2001-12-31', dato: 155 },{ fecha: '2002-12-31', dato: 141 },{ fecha: '2003-12-31', dato: 140 },{ fecha: '2004-12-31', dato: 281 },{ fecha: '2005-12-31', dato: 212 },{ fecha: '2006-12-31', dato: 335 },{ fecha: '2007-12-31', dato: 524 },{ fecha: '2008-12-31', dato: 546 },{ fecha: '2009-12-31', dato: 369 },{ fecha: '2010-12-31', dato: 439 },{ fecha: '2011-12-31', dato: 321 },{ fecha: '2012-12-31', dato: 289 },{ fecha: '2013-12-31', dato: 161 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -669,9 +669,9 @@ $('#Lenguetasdjqtcnkx a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasdjqtcnkx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmjjhgzlq a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapfzrqrfrr;
+  var maprmthxyoi;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -688,17 +688,17 @@ $('#Lenguetasdjqtcnkx a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapfzrqrfrr() {
+  function initmaprmthxyoi() {
     // Nuevo Mapa
-    mapfzrqrfrr = new L.Map('LeafLetfzrqrfrr');
+    maprmthxyoi = new L.Map('LeafLetrmthxyoi');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapfzrqrfrr.setView(new L.LatLng(25.54, -103.44), 12);
+    maprmthxyoi.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapfzrqrfrr.addLayer(osm);
+    maprmthxyoi.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -731,13 +731,13 @@ $('#Lenguetasdjqtcnkx a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapfzrqrfrr);
+    }).addTo(maprmthxyoi);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapfzrqrfrr === 'undefined') {
-    varinitmapfzrqrfrr = initmapfzrqrfrr();
+  if (typeof varinitmaprmthxyoi === 'undefined') {
+    varinitmaprmthxyoi = initmaprmthxyoi();
   };
 });
 FINAL;

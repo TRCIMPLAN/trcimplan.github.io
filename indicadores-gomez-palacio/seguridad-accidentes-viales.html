@@ -141,7 +141,7 @@
     <h1>Accidentes Viales en Gómez Palacio</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasefmdflyr">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvxpekcgh">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -271,10 +271,10 @@ Cantidad
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisdbqdarzl" class="grafica"></div>
+<div id="Morrisjjgbfhho" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbaaqhyup" class="mapa"></div>
+              <div id="LeafLetepmqfmjh" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -788,14 +788,14 @@ Cantidad
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasefmdflyr a:first').tab('show')
+  $('#Lenguetasvxpekcgh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasefmdflyr a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvxpekcgh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisdbqdarzl === 'undefined') {
-    varMorrisdbqdarzl = Morris.Line({
-      element: 'Morrisdbqdarzl',
+  if (typeof varMorrisjjgbfhho === 'undefined') {
+    varMorrisjjgbfhho = Morris.Line({
+      element: 'Morrisjjgbfhho',
       data: [{ fecha: '1997-12-31', dato: 691 },{ fecha: '1998-12-31', dato: 1600 },{ fecha: '1999-12-31', dato: 2422 },{ fecha: '2000-12-31', dato: 2797 },{ fecha: '2001-12-31', dato: 2876 },{ fecha: '2002-12-31', dato: 2783 },{ fecha: '2003-12-31', dato: 2225 },{ fecha: '2004-12-31', dato: 2396 },{ fecha: '2005-12-31', dato: 2524 },{ fecha: '2006-12-31', dato: 2323 },{ fecha: '2007-12-31', dato: 2211 },{ fecha: '2008-12-31', dato: 2049 },{ fecha: '2009-12-31', dato: 1714 },{ fecha: '2010-12-31', dato: 1593 },{ fecha: '2011-12-31', dato: 1596 },{ fecha: '2012-12-31', dato: 1498 },{ fecha: '2013-12-31', dato: 1128 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -807,9 +807,9 @@ $('#Lenguetasefmdflyr a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasefmdflyr a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvxpekcgh a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbaaqhyup;
+  var mapepmqfmjh;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -826,17 +826,17 @@ $('#Lenguetasefmdflyr a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbaaqhyup() {
+  function initmapepmqfmjh() {
     // Nuevo Mapa
-    mapbaaqhyup = new L.Map('LeafLetbaaqhyup');
+    mapepmqfmjh = new L.Map('LeafLetepmqfmjh');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbaaqhyup.setView(new L.LatLng(25.54, -103.44), 12);
+    mapepmqfmjh.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbaaqhyup.addLayer(osm);
+    mapepmqfmjh.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -869,13 +869,13 @@ $('#Lenguetasefmdflyr a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbaaqhyup);
+    }).addTo(mapepmqfmjh);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbaaqhyup === 'undefined') {
-    varinitmapbaaqhyup = initmapbaaqhyup();
+  if (typeof varinitmapepmqfmjh === 'undefined') {
+    varinitmapepmqfmjh = initmapepmqfmjh();
   };
 });
 </script>

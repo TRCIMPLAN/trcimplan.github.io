@@ -25,7 +25,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Empleo, Mercados';
         $this->categorias  = array('Empleo', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbtqvipvn">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasobsuvujh">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -73,10 +73,10 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrislnuwppek" class="grafica"></div>
+<div id="Morriskoatbwyh" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetentkgfua" class="mapa"></div>
+              <div id="LeafLetyyltbmza" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -204,14 +204,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbtqvipvn a:first').tab('show')
+  $('#Lenguetasobsuvujh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbtqvipvn a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasobsuvujh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrislnuwppek === 'undefined') {
-    varMorrislnuwppek = Morris.Line({
-      element: 'Morrislnuwppek',
+  if (typeof varMorriskoatbwyh === 'undefined') {
+    varMorriskoatbwyh = Morris.Line({
+      element: 'Morriskoatbwyh',
       data: [{ fecha: '1998-12-31', dato: 30.8700 },{ fecha: '2003-12-31', dato: 26.4600 },{ fecha: '2008-12-31', dato: 30.2786 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -223,9 +223,9 @@ $('#Lenguetasbtqvipvn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasbtqvipvn a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasobsuvujh a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapentkgfua;
+  var mapyyltbmza;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -242,17 +242,17 @@ $('#Lenguetasbtqvipvn a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapentkgfua() {
+  function initmapyyltbmza() {
     // Nuevo Mapa
-    mapentkgfua = new L.Map('LeafLetentkgfua');
+    mapyyltbmza = new L.Map('LeafLetyyltbmza');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapentkgfua.setView(new L.LatLng(25.54, -103.44), 12);
+    mapyyltbmza.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapentkgfua.addLayer(osm);
+    mapyyltbmza.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -285,13 +285,13 @@ $('#Lenguetasbtqvipvn a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapentkgfua);
+    }).addTo(mapyyltbmza);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapentkgfua === 'undefined') {
-    varinitmapentkgfua = initmapentkgfua();
+  if (typeof varinitmapyyltbmza === 'undefined') {
+    varinitmapyyltbmza = initmapyyltbmza();
   };
 });
 FINAL;

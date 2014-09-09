@@ -25,7 +25,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasxcndghus">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasfofkpvpn">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -133,10 +133,10 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisslahiknu" class="grafica"></div>
+<div id="Morriswgobhgiu" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetkuzrqasx" class="mapa"></div>
+              <div id="LeafLetxsethaep" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -796,14 +796,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasxcndghus a:first').tab('show')
+  $('#Lenguetasfofkpvpn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasxcndghus a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfofkpvpn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisslahiknu === 'undefined') {
-    varMorrisslahiknu = Morris.Line({
-      element: 'Morrisslahiknu',
+  if (typeof varMorriswgobhgiu === 'undefined') {
+    varMorriswgobhgiu = Morris.Line({
+      element: 'Morriswgobhgiu',
       data: [{ fecha: '2001-12-31', dato: 158 },{ fecha: '2002-12-31', dato: 158 },{ fecha: '2003-12-31', dato: 158 },{ fecha: '2004-12-31', dato: 160 },{ fecha: '2005-12-31', dato: 160 },{ fecha: '2006-12-31', dato: 167 },{ fecha: '2007-12-31', dato: 167 },{ fecha: '2008-12-31', dato: 159 },{ fecha: '2009-12-31', dato: 159 },{ fecha: '2010-12-31', dato: 171 },{ fecha: '2011-12-31', dato: 171 },{ fecha: '2012-12-31', dato: 171 },{ fecha: '2013-12-31', dato: 173 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -815,9 +815,9 @@ $('#Lenguetasxcndghus a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasxcndghus a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfofkpvpn a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapkuzrqasx;
+  var mapxsethaep;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -834,17 +834,17 @@ $('#Lenguetasxcndghus a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapkuzrqasx() {
+  function initmapxsethaep() {
     // Nuevo Mapa
-    mapkuzrqasx = new L.Map('LeafLetkuzrqasx');
+    mapxsethaep = new L.Map('LeafLetxsethaep');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapkuzrqasx.setView(new L.LatLng(25.54, -103.44), 12);
+    mapxsethaep.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapkuzrqasx.addLayer(osm);
+    mapxsethaep.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -877,13 +877,13 @@ $('#Lenguetasxcndghus a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapkuzrqasx);
+    }).addTo(mapxsethaep);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapkuzrqasx === 'undefined') {
-    varinitmapkuzrqasx = initmapkuzrqasx();
+  if (typeof varinitmapxsethaep === 'undefined') {
+    varinitmapxsethaep = initmapxsethaep();
   };
 });
 FINAL;

@@ -25,7 +25,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfaxwliex">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaseeeapjed">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -127,10 +127,10 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisdfwhxlhr" class="grafica"></div>
+<div id="Morrisxijvewhc" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetomnjilth" class="mapa"></div>
+              <div id="LeafLetzycfzbll" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -797,14 +797,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfaxwliex a:first').tab('show')
+  $('#Lenguetaseeeapjed a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasfaxwliex a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaseeeapjed a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisdfwhxlhr === 'undefined') {
-    varMorrisdfwhxlhr = Morris.Line({
-      element: 'Morrisdfwhxlhr',
+  if (typeof varMorrisxijvewhc === 'undefined') {
+    varMorrisxijvewhc = Morris.Line({
+      element: 'Morrisxijvewhc',
       data: [{ fecha: '2001-12-31', dato: 72 },{ fecha: '2002-12-31', dato: 72 },{ fecha: '2004-12-31', dato: 74 },{ fecha: '2005-12-31', dato: 74 },{ fecha: '2006-12-31', dato: 72 },{ fecha: '2007-12-31', dato: 75 },{ fecha: '2008-12-31', dato: 64 },{ fecha: '2009-12-31', dato: 64 },{ fecha: '2010-12-31', dato: 72 },{ fecha: '2011-12-31', dato: 72 },{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-12-31', dato: 74 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -816,9 +816,9 @@ $('#Lenguetasfaxwliex a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasfaxwliex a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaseeeapjed a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapomnjilth;
+  var mapzycfzbll;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -835,17 +835,17 @@ $('#Lenguetasfaxwliex a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapomnjilth() {
+  function initmapzycfzbll() {
     // Nuevo Mapa
-    mapomnjilth = new L.Map('LeafLetomnjilth');
+    mapzycfzbll = new L.Map('LeafLetzycfzbll');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapomnjilth.setView(new L.LatLng(25.54, -103.44), 12);
+    mapzycfzbll.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapomnjilth.addLayer(osm);
+    mapzycfzbll.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -878,13 +878,13 @@ $('#Lenguetasfaxwliex a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapomnjilth);
+    }).addTo(mapzycfzbll);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapomnjilth === 'undefined') {
-    varinitmapomnjilth = initmapomnjilth();
+  if (typeof varinitmapzycfzbll === 'undefined') {
+    varinitmapzycfzbll = initmapzycfzbll();
   };
 });
 FINAL;

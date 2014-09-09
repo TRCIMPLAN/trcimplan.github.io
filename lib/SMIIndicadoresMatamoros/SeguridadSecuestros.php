@@ -25,7 +25,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetastczvdria">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdzkdphae">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ Cantidad de secuestros en el primer trimestre de 2014
 Cantidad
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwzhlzcim" class="mapa"></div>
+              <div id="LeafLetzmncqvfw" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -108,12 +108,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetastczvdria a:first').tab('show')
+  $('#Lenguetasdzkdphae a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetastczvdria a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdzkdphae a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwzhlzcim;
+  var mapzmncqvfw;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +130,17 @@ $('#Lenguetastczvdria a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwzhlzcim() {
+  function initmapzmncqvfw() {
     // Nuevo Mapa
-    mapwzhlzcim = new L.Map('LeafLetwzhlzcim');
+    mapzmncqvfw = new L.Map('LeafLetzmncqvfw');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwzhlzcim.setView(new L.LatLng(25.54, -103.44), 12);
+    mapzmncqvfw.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwzhlzcim.addLayer(osm);
+    mapzmncqvfw.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +173,13 @@ $('#Lenguetastczvdria a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwzhlzcim);
+    }).addTo(mapzmncqvfw);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwzhlzcim === 'undefined') {
-    varinitmapwzhlzcim = initmapwzhlzcim();
+  if (typeof varinitmapzmncqvfw === 'undefined') {
+    varinitmapzmncqvfw = initmapzmncqvfw();
   };
 });
 FINAL;

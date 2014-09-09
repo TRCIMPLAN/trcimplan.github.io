@@ -141,7 +141,7 @@
     <h1>Presuntos Delincuentes del Fuero Federal en Gómez Palacio</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvddywaug">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdztigpul">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -173,7 +173,7 @@ Presuntos delincuentes registrados en los juzgados de primera instancia en mater
 Cantidad
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLeteyltcsnc" class="mapa"></div>
+              <div id="LeafLetafefcwuf" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -246,12 +246,12 @@ Cantidad
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvddywaug a:first').tab('show')
+  $('#Lenguetasdztigpul a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvddywaug a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdztigpul a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapeyltcsnc;
+  var mapafefcwuf;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -268,17 +268,17 @@ $('#Lenguetasvddywaug a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapeyltcsnc() {
+  function initmapafefcwuf() {
     // Nuevo Mapa
-    mapeyltcsnc = new L.Map('LeafLeteyltcsnc');
+    mapafefcwuf = new L.Map('LeafLetafefcwuf');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapeyltcsnc.setView(new L.LatLng(25.54, -103.44), 12);
+    mapafefcwuf.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapeyltcsnc.addLayer(osm);
+    mapafefcwuf.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -311,13 +311,13 @@ $('#Lenguetasvddywaug a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapeyltcsnc);
+    }).addTo(mapafefcwuf);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapeyltcsnc === 'undefined') {
-    varinitmapeyltcsnc = initmapeyltcsnc();
+  if (typeof varinitmapafefcwuf === 'undefined') {
+    varinitmapafefcwuf = initmapafefcwuf();
   };
 });
 </script>

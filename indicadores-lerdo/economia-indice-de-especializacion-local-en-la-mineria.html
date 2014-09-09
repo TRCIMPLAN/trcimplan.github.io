@@ -141,7 +141,7 @@
     <h1>Índice de Especialización Local en la Minería en Lerdo</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaszkdsekgz">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasnnvnphaq">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -179,7 +179,7 @@ El índice de especialización en manufactura a nivel nacional es de:
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLettyfhgqak" class="mapa"></div>
+              <div id="LeafLetsotwjtov" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -252,12 +252,12 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaszkdsekgz a:first').tab('show')
+  $('#Lenguetasnnvnphaq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaszkdsekgz a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnnvnphaq a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maptyfhgqak;
+  var mapsotwjtov;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -274,17 +274,17 @@ $('#Lenguetaszkdsekgz a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaptyfhgqak() {
+  function initmapsotwjtov() {
     // Nuevo Mapa
-    maptyfhgqak = new L.Map('LeafLettyfhgqak');
+    mapsotwjtov = new L.Map('LeafLetsotwjtov');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maptyfhgqak.setView(new L.LatLng(25.54, -103.44), 12);
+    mapsotwjtov.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maptyfhgqak.addLayer(osm);
+    mapsotwjtov.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -317,13 +317,13 @@ $('#Lenguetaszkdsekgz a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maptyfhgqak);
+    }).addTo(mapsotwjtov);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaptyfhgqak === 'undefined') {
-    varinitmaptyfhgqak = initmaptyfhgqak();
+  if (typeof varinitmapsotwjtov === 'undefined') {
+    varinitmapsotwjtov = initmapsotwjtov();
   };
 });
 </script>

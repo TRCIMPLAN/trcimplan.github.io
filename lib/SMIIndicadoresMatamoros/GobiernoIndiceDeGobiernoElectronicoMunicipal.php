@@ -25,7 +25,7 @@ class GobiernoIndiceDeGobiernoElectronicoMunicipal extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Gobierno Digital';
         $this->categorias  = array('Gobierno Digital');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasuawqqsxq">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetastzowbrsy">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ class GobiernoIndiceDeGobiernoElectronicoMunicipal extends \Base\Publicacion {
 De 0 a 1
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetvebwebjb" class="mapa"></div>
+              <div id="LeafLetkqzxqyji" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -108,12 +108,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasuawqqsxq a:first').tab('show')
+  $('#Lenguetastzowbrsy a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasuawqqsxq a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetastzowbrsy a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapvebwebjb;
+  var mapkqzxqyji;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +130,17 @@ $('#Lenguetasuawqqsxq a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapvebwebjb() {
+  function initmapkqzxqyji() {
     // Nuevo Mapa
-    mapvebwebjb = new L.Map('LeafLetvebwebjb');
+    mapkqzxqyji = new L.Map('LeafLetkqzxqyji');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapvebwebjb.setView(new L.LatLng(25.54, -103.44), 12);
+    mapkqzxqyji.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapvebwebjb.addLayer(osm);
+    mapkqzxqyji.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +173,13 @@ $('#Lenguetasuawqqsxq a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapvebwebjb);
+    }).addTo(mapkqzxqyji);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapvebwebjb === 'undefined') {
-    varinitmapvebwebjb = initmapvebwebjb();
+  if (typeof varinitmapkqzxqyji === 'undefined') {
+    varinitmapkqzxqyji = initmapkqzxqyji();
   };
 });
 FINAL;

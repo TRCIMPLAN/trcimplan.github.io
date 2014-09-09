@@ -25,7 +25,7 @@ class SustentabilidadPasajerosAereosTotales extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Movilidad';
         $this->categorias  = array('Movilidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasjivemkiz">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgacztkge">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Personas
 Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLeteogtnxps" class="mapa"></div>
+              <div id="LeafLetdnbjowan" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +110,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasjivemkiz a:first').tab('show')
+  $('#Lenguetasgacztkge a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasjivemkiz a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasgacztkge a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapeogtnxps;
+  var mapdnbjowan;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +132,17 @@ $('#Lenguetasjivemkiz a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapeogtnxps() {
+  function initmapdnbjowan() {
     // Nuevo Mapa
-    mapeogtnxps = new L.Map('LeafLeteogtnxps');
+    mapdnbjowan = new L.Map('LeafLetdnbjowan');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapeogtnxps.setView(new L.LatLng(25.54, -103.44), 12);
+    mapdnbjowan.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapeogtnxps.addLayer(osm);
+    mapdnbjowan.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +175,13 @@ $('#Lenguetasjivemkiz a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapeogtnxps);
+    }).addTo(mapdnbjowan);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapeogtnxps === 'undefined') {
-    varinitmapeogtnxps = initmapeogtnxps();
+  if (typeof varinitmapdnbjowan === 'undefined') {
+    varinitmapdnbjowan = initmapdnbjowan();
   };
 });
 FINAL;

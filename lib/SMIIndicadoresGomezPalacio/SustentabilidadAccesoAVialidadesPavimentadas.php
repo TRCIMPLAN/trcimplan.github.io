@@ -25,7 +25,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Movilidad, Vialidad';
         $this->categorias  = array('Movilidad', 'Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasagysqanw">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashlelefvi">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Porcentaje
 Censo de Población y Vivienda 2010. Consulta las [Bases de Datos](http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwbldmexc" class="mapa"></div>
+              <div id="LeafLetgdodjvhg" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +110,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasagysqanw a:first').tab('show')
+  $('#Lenguetashlelefvi a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasagysqanw a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetashlelefvi a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwbldmexc;
+  var mapgdodjvhg;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +132,17 @@ $('#Lenguetasagysqanw a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwbldmexc() {
+  function initmapgdodjvhg() {
     // Nuevo Mapa
-    mapwbldmexc = new L.Map('LeafLetwbldmexc');
+    mapgdodjvhg = new L.Map('LeafLetgdodjvhg');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwbldmexc.setView(new L.LatLng(25.54, -103.44), 12);
+    mapgdodjvhg.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwbldmexc.addLayer(osm);
+    mapgdodjvhg.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +175,13 @@ $('#Lenguetasagysqanw a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwbldmexc);
+    }).addTo(mapgdodjvhg);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwbldmexc === 'undefined') {
-    varinitmapwbldmexc = initmapwbldmexc();
+  if (typeof varinitmapgdodjvhg === 'undefined') {
+    varinitmapgdodjvhg = initmapgdodjvhg();
   };
 });
 FINAL;
