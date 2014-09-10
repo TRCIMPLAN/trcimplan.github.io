@@ -55,10 +55,7 @@ class NavegacionConfig {
             'Transparencia'          => 'http://www.icai.org.mx/ipmn/Principal.php?sujeto=0',
             'Reglamentos'            => 'institucional/reglamentos.html',
             'Información Financiera' => 'institucional/informacion-financiera.html'),
-        'Consejo Directivo' => array(
-            'Integrantes'      => 'consejo-directivo/integrantes.html',
-            'Agenda'           => 'consejo-directivo/agenda.html',
-            'Comités Técnicos' => 'consejo-directivo/comites-tecnicos.html'),
+        'Consejo Directivo' => 'consejo-directivo/integrantes.html',
         'Comunicados' => array(
             'Eventos'        => 'eventos/index.html',
             'Sala de Prensa' => 'sala-prensa/index.html'),

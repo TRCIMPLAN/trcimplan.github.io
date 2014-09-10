@@ -43,7 +43,7 @@ class Integrantes extends \Base\Publicacion {
         $this->categorias    = array('Consejo Directivo');
      // $this->encabezado    = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<p><img class="img-responsive contenido-imagen" src="consejo-directivo/mesa.jpg" alt="Consejo Directivo"></p>
+<p><img class="img-responsive contenido-imagen" src="integrantes/mesa.jpg" alt="Consejo Directivo"></p>
 
 <h4>El <strong>Consejo Directivo</strong> está conformado de la siguiente manera:</h4>
 

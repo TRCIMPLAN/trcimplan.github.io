@@ -37,7 +37,7 @@ class TerceraSesionOrdinaria extends \Base\Publicacion {
         $this->nombre_menu   = 'Eventos';
         $this->directorio    = 'eventos';
         $this->archivo       = 'tercera-sesion-ordinaria';
-        $this->descripcion   = '.';
+        $this->descripcion   = 'Con el título "230 días del IMPLAN" se dió el informe donde fué reconocida la conformación de bases sólidas para la creación de una ciudad planeada y competitiva.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'tercera-sesion-ordinaria/imagen-previa.jpg';
         $this->categorias    = array('Blog');
