@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Mapa inferior Config
+ * SMIbeta - Mapa Inferior Configuración
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

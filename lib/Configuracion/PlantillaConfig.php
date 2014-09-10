@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Configuración Plantilla Config
+ * SMIbeta - Plantilla Configuración
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -55,8 +55,7 @@ class PlantillaConfig {
 
      ======================================================================================== -->
 FINAL;
- // public $pie            = '  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>';
-    public $pie = '';
+    public $pie            = '  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>';
 
 } // Clase PlantillaConfig
 

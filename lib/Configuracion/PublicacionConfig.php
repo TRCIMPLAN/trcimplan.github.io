@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Configuración Publicación Config
+ * SMIbeta - Publicación Configuración
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

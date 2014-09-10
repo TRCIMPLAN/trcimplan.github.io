@@ -36,14 +36,14 @@ class ComunicadoPrensa20140512 extends \Base\Publicacion {
         $this->nombre        = 'Comunicado de Prensa 12.5.14';
         $this->nombre_menu   = 'Sala de Prensa';
         $this->directorio    = 'sala-prensa';
-        $this->archivo       = 'comunicado-prensa-2014-05-12';
+        $this->archivo       = '2014-05-12-comunicado-prensa';
         $this->descripcion   = 'Precisiones respecto a conferencia de Sam Podolsky.';
         $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'comunicado-prensa-2014-05-12/imagen-previa.png';
+        $this->imagen_previa = '2014-05-12-comunicado-prensa/imagen-previa.png';
         $this->categorias    = array('Sala de Prensa');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="comunicado-prensa-2014-05-12/implan.png"></span>
+<span class="contenido-imagen-previa"><img src="2014-05-12-comunicado-prensa/implan.png"></span>
 
 <p>De: IMPLAN Torreón.<br>
 Para: Medios de comunicación.</p>

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Navegación Configuración
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

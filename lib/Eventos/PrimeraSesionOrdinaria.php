@@ -43,7 +43,7 @@ class PrimeraSesionOrdinaria extends \Base\Publicacion {
         $this->categorias    = array('Sesiones');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><a href="primera-sesion-ordinaria/primera-sesion-ordinaria.jpg"><img src="primera-sesion-ordinaria/primera-sesion-ordinaria-400x400.jpg"></a></span>
+<span class="contenido-imagen-previa"><a href="primera-sesion-ordinaria/primera-sesion-ordinaria.jpg"><img src="primera-sesion-ordinaria/imagen.jpg"></a></span>
 
 <p>El día nueve de abril del presente, se llevó acabo en las instalaciones de la sala de prensa del la Presidencia Municipal de Torreón, la primer Reunión Ordinaria del Consejo Directivo del IMPLAN con el firme propósito de generar acuerdos y estrategias que nos ayuden a planear el destino de nuestra ciudad y su zona metropolitana.</p>
 

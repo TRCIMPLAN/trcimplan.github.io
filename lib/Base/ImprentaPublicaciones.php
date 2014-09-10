@@ -54,6 +54,10 @@ class ImprentaPublicaciones extends Imprenta {
         parent::imprimir();
         // Dejar en blanco la propiedad publicaciones, para volver a imprimir
         $this->publicaciones = null;
+        // Nueva instancia de Plantilla, para evitar restos de datos
+        $this->plantilla                = new \Base\Plantilla();
+        $this->plantilla->navegacion    = new \Base\Navegacion();
+        $this->plantilla->mapa_inferior = new \Base\MapaInferior();
         // Cargar el índice con las publicaciones
         $indice         = new \Base\Indice($eventos);
         $indice->titulo = $this->titulo;
@@ -65,7 +69,7 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->ruta                      = $this->ruta;
         $this->plantilla->navegacion->opcion_activa = $this->nombre_menu;
         $this->plantilla->contenido                 = $indice->html();
-        // Imprimir el index.html
+        // Imprimir index.html
         parent::imprimir();
         // Entregar mensajes
         return implode("\n", $this->mensajes);

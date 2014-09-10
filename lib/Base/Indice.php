@@ -88,6 +88,15 @@ class Indice {
         return implode("\n", $a);
     } // html
 
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        return false;
+    } // javascript
+
 } // Clase Indice
 
 ?>

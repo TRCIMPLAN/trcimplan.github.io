@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región: su alta inversión en la investigación y su transversalidad son las características que las hacen un catalizador de productividad e innovación constante para otras industrias.">
+  <meta name="author" content="Lic. Alicia Valdez Ibarra">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Contribución de las Tecnologías de la Información y Comunicación (TICs) en la competitividad y productividad">
+  <meta name="twitter:description" content="La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región: su alta inversión en la investigación y su transversalidad son las características que las hacen un catalizador de productividad e innovación constante para otras industrias.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/contribucion-tic-competitividad-productividad/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/archivo.html">
+  <meta name="og:title" content="Contribución de las Tecnologías de la Información y Comunicación (TICs) en la competitividad y productividad">
+  <meta name="og:description" content="La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región: su alta inversión en la investigación y su transversalidad son las características que las hacen un catalizador de productividad e innovación constante para otras industrias.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/contribucion-tic-competitividad-productividad/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/archivo.html">
+  <title>Contribución de las Tecnologías de la Información y Comunicación (TICs) en la competitividad y productividad - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Serif|Oswald" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li class="active"><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><i class="fa fa-bar-chart"></i> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/"><i class="fa fa-tags"></i> Categorías</a></li>
+            <li><a href="../indicadores-torreon/"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li><a href="../indicadores-gomez-palacio/"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
+            <li><a href="../indicadores-lerdo/"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
+            <li><a href="../indicadores-matamoros/"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
+            <li><a href="../indicadores-la-laguna/"><i class="fa fa-table"></i> Indicadores La Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-map-marker"></i> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><i class="fa fa-file-text-o"></i> Introduccion al SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><i class="fa fa-file-text-o"></i> Alumbrado Público</a></li>
+            <li><a href="../sig/zonificacion.html"><i class="fa fa-file-text-o"></i> Zonificación</a></li>
+            <li><a href="../sig/abrir-sig.html"><i class="fa fa-file-text-o"></i> Abrir el SIG</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-paper-plane-o"></i> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><i class="fa fa-file-text-o"></i> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-university"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-file-text-o"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-file-text-o"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-file-text-o"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-file-text-o"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-file-text-o"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-file-text-o"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-file-text-o"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-users"></i> Consejo Directivo<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../consejo-directivo/integrantes.html"><i class="fa fa-file-text-o"></i> Integrantes</a></li>
+            <li><a href="../consejo-directivo/agenda.html"><i class="fa fa-file-text-o"></i> Agenda</a></li>
+            <li><a href="../consejo-directivo/comites-tecnicos.html"><i class="fa fa-file-text-o"></i> Comités Técnicos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-volume-up"></i> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><i class="fa fa-folder-o"></i> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><i class="fa fa-folder-o"></i> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../contacto/contacto.html"><i class="fa fa-phone"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+<article>
+  <header>
+    <h1>Contribución de las Tecnologías de la Información y Comunicación (TICs) en la competitividad y productividad</h1>
+    <p class="autor-fecha">Por Lic. Alicia Valdez Ibarra, 04/08/2014</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="contribucion-tic-competitividad-productividad/imagen.jpg"></span>
+
+<p>Mientras el mundo creció 4% en la década de 2000 a 2010, el sector de TICs creció 5.7% (IMCO, 2012). La realidad es que la implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región: su alta inversión en la investigación y desarrollo (15% de su ganancia) y su transversalidad son las características que convierten a las TICs en un catalizador de productividad e innovación constante para otras industrias.</p>
+
+<p>Estudios demuestran la íntima relación entre la competitividad y el uso y aprovechamiento de las TICs. Los diagramas de dispersión a continuación ilustran la relación positiva entre las calificaciones de los países en el Networked Readiness Index, índice del Fondo Monetario Internacional que mide el desarrollo del sector TIC en 148 países, y su calificación en distintos índices de competitividad. En ambos diagramas se aprecia cómo a mayor desarrollo de las TICs, mayor competitividad.</p>
+
+<img class="img-responsive contenido-imagen" src="contribucion-tic-competitividad-productividad/nri-vs-competitividad-global-imco.png" alt="NRI vs Competitividad Global IMCO">
+
+<img class="img-responsive contenido-imagen" src="contribucion-tic-competitividad-productividad/nri-vs-competitividad-global-imd.png" alt="NRI vs Competitividad Global IMD">
+
+<p>Las características laborales del sector son también atractivas: en la Unión Europea, la tasa de desempleo para los profesionistas del sector de las TICs es aproximadamente 10% menor a la tasa de desempleo promedio y en Estados Unidos entre 1990 y 2011 la tasa de crecimiento del empleo en el sector TIC fue de 10.4%. En cuanto a México, las personas dedicadas a las TICs ganan en promedio 118,000 pesos al año y se considera como uno delos sectores mejor pagados.</p>
+
+<img class="img-responsive contenido-imagen" src="contribucion-tic-competitividad-productividad/tasa-desempleo-promedio-union-europea.png" alt="Tasa de desempleo promedio en la Unión Europea">
+
+<img class="img-responsive contenido-imagen" src="contribucion-tic-competitividad-productividad/remuneraciones-anuales-industria-trabajador.png" alt="Remuneraciones anuales en la industria por trabajador">
+
+<p>A nivel Internacional las TICs siguen tomando importancia: en 2013 el 50% del capital de riesgo de Estados Unidos fue dirigido al sector TIC y en dos tercios de los países de la OECD, más del 95% de las empresas cuenta con internet. Esto sin mencionar que la contribución de las TICs en el PIB es cada vez más alta. En la gráfica inferior se expone la participación de las TICs en el PIB de diferentes países:</p>
+
+<img class="img-responsive contenido-imagen" src="contribucion-tic-competitividad-productividad/porcentaje-participacion-industria-tic-pib-nacional.png" alt="Porcentaje de participación de la industria en el PIB nacional">
+
+<p>Comparado con las potencias, México tiene una baja participación de las TICs en el PIB: mientras las TICs en México representan el 5.6% y el software 0.7%, Estados Unidos tiene una participación de más 7% por parte de las TICs del cual 4% pertenece al software.</p>
+
+<p>Otros rezagos de México en este sector se mencionan en el NRI 2014, en el cual México ocupa el lugar 79 de 148, es decir 16 lugares debajo de la posición ocupada en 2013. Entre los pilares peor calificados en el índice tenemos infraestructura y contenido digital, accesibilidad, habilidades e innovación en los negocios.</p>
+
+<p>A pesar del retraso la participación de las TICs en el PIB creció 75% en la década de 2000 a 2010 y consultoras e Institutos internacionales como KPMG y el Institute for Management Development aseguran queMéxico destaca de entre los países emergentes en el desarrollo de las TICs. En la siguiente gráfica se aprecia el crecimiento de la participación de las TICs en el PIB de México:</p>
+
+<img class="img-responsive contenido-imagen" src="contribucion-tic-competitividad-productividad/valor-sector-tic-mexico-porcentaje-pib.png" alt="Valor del sector TIC en México">
+
+<h3>Áreas de oportunidad en los modelos educativos</h3>
+
+<p>Para impulsar de manera óptima el uso de TICs en todas las industrias, los emprendedores de empresas tecnológicas identificaron la necesidad de cambiar los modelos educativos unidimensionales y desarrollar en todas las carreras habilidades de matemáticas, programación y diseño de software; esto además de competencias gerenciales y de alta dirección. El dominar al menos el idioma inglés, es también esencial para los profesionistas del sector.</p>
+
+<p>A continuación algunos ejemplos de plan de estudios que abarcan todas estas habilidades:</p>
+
+<p><b>Ingeniero en Software</b></p>
+
+<ul>
+    <li>Universidad Autónoma de Guadalajara (UAG)</li>
+    <li>Conocimientos de administración, evaluación, finanzas y alta dirección.</li>
+    <li>Metodologías de investigación</li>
+    <li>Habilidades técnicas: bases de datos, animación, redes, modelado de hardware, diseño de software, etc.</li>
+    <li>Idiomas: Inglés avanzado</li>
+    <li><a target="_blank" href="http://www.uag.mx/licenciatura/en-software/">Ir a la página de la carrera en el sitio web de la UAG.</a></li>
+</ul>
+
+<p><b>Ingeniero en Tecnologías de Información y Comunicaciones</b></p>
+
+<ul>
+    <li>ITESM</li>
+    <li>"Es un profesionista con visión innovadora y con base sólida en arquitectura de Tecnologías de Información que le permite la implantación, el mantenimiento, la operación y la administración de soluciones sustentadas en electrónica, computación y sistemas de información, integradas al servicio de personas y organizaciones ante la nueva y dinámica sociedad de la era digital."</li>
+    <li><a target="_blank" href="http://www.itesm.mx/wps/wcm/connect/itesm/tecnologico+de+monterrey/carreras+profesionales/areas+de+estudio/tecnologias+de+informacion+y+electronica/itic">Ir a la página de la carrera en el sitio web del ITESM.</a></li>
+</ul>
+
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftrcimplan.gob.mx%2Fblog%2Farchivo.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</body>
+</html>

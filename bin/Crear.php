@@ -43,7 +43,13 @@ $clases = array(
     '\Proyectos\Imprenta',
     '\SalaPrensa\Imprenta',
     '\SIG\Imprenta',
-    '\SMI\Imprenta');
+    '\SMI\Imprenta',
+    '\SMI\ImprentaIndicadoresTorreon',
+    '\SMI\ImprentaIndicadoresGomezPalacio',
+    '\SMI\ImprentaIndicadoresLerdo',
+    '\SMI\ImprentaIndicadoresMatamoros',
+    '\SMI\ImprentaIndicadoresLaLaguna',
+    '\SMICategorias\Imprenta');
 // Imprimir
 try {
     foreach ($clases as $clase) {

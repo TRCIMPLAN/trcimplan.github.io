@@ -45,9 +45,8 @@ class AlumbradoPublico extends \Base\Publicacion {
         $this->contenido     = <<<FINAL
 <iframe width='100%' height='520' frameborder='0' src='https://sigimplan.cartodb.com/viz/e1447ce2-35fa-11e4-a9bb-0e230854a1cb/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-<p>Nota: La información mostrada está sujeta a cambios sin previo aviso por la concesionaria.</p>
-
-<p>Fuente: Dirección General de Servicios Públicos de Torreón.</p>
+<p><b>Nota:</b> La información mostrada está sujeta a cambios sin previo aviso por la concesionaria.<br>
+<b>Fuente:</b> Dirección General de Servicios Públicos de Torreón.</p>
 FINAL;
         $this->javascript    = <<<FINAL
 FINAL;
