@@ -127,7 +127,6 @@ xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.google
             if (isset($url['priority'])) {
                 $a[] = sprintf('    <priority>%s</priority>', $this->xml_escape($url['priority']));
             }
-            $a[] = '';
             $a[] = '  </url>';
         }
         $a[] = '</urlset>';

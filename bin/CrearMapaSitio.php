@@ -35,14 +35,13 @@ require_once('lib/Base/Funciones.php');
 
 // Cargar
 $mapa = new \Base\MapaSitio();
-$mapa->agregar_url('institucional/vision-mision.html', '2014-05-01', 'monthly', '1');
+$mapa->agregar_url('institucional/vision-mision.html',    '2014-05-01', 'monthly', '1');
 $mapa->agregar_url('institucional/mensaje-director.html', '2014-05-01', 'monthly', '1');
-$mapa->agregar_url('institucional/quienes-somos.html', '2014-05-01', 'monthly', '1');
+$mapa->agregar_url('institucional/quienes-somos.html',    '2014-05-01', 'monthly', '1');
 // Imprimir
 try {
-    //echo $impresor->imprimir()."\n";
+    echo $mapa->xml()."\n";
 } catch (\Exception $e) {
-    echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }
