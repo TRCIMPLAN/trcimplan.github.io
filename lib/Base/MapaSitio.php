@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Mapa del Sitio
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *
@@ -90,10 +90,10 @@ class MapaSitio extends \Configuracion\MapaSitioConfig {
         static $trans;
         if (!isset($trans)) {
             $trans = get_html_translation_table(HTML_ENTITIES, ENT_QUOTES);
-            foreach ($trans as $key => $value)
+            foreach ($trans as $key => $value) {
                 $trans[$key] = '&#'.ord($key).';';
-            // dont translate the '&' in case it is part of &xxx;
-            $trans[chr(38)] = '&';
+            }
+            $trans[chr(38)] = '&'; // dont translate the '&' in case it is part of &xxx;
         }
         return preg_replace("/&(?![A-Za-z]{0,4}\w{2,3};|#[0-9]{2,4};)/","&#38;" , strtr($str, $trans));
     } // xml_escape
@@ -112,23 +112,23 @@ class MapaSitio extends \Configuracion\MapaSitioConfig {
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.google.com/schemas/sitemap/0.84/sitemap.xsd">';
         foreach ($this->urls as $url) {
-            $a[] = '<url>';
-            $a[] = sprintf('  <loc>%s</loc>', $this->xml_escape($url['url']));
+            $a[] = '  <url>';
+            $a[] = sprintf('    <loc>%s</loc>', $this->xml_escape($url['url']));
             if (isset($url['lastmod'])) {
                 if (is_numeric($url['lastmod'])) {
-                    $a[] = sprintf('  <lastmod>%s</lastmod>', date('Y-m-d', $url['lastmod']));
+                    $a[] = sprintf('    <lastmod>%s</lastmod>', date('Y-m-d', $url['lastmod']));
                 } elseif (is_string($url['lastmod'])) {
-                    $a[] = sprintf('  <lastmod>%s</lastmod>', $url['lastmod']);
+                    $a[] = sprintf('    <lastmod>%s</lastmod>', $url['lastmod']);
                 }
             }
             if (isset($url['changefreq'])) {
-                $a[] = sprintf('  <changefreq>%s</changefreq>', $this->xml_escape($url['changefreq']));
+                $a[] = sprintf('    <changefreq>%s</changefreq>', $this->xml_escape($url['changefreq']));
             }
             if (isset($url['priority'])) {
-                $a[] = sprintf('  <priority>%s</priority>', $this->xml_escape($url['priority']));
+                $a[] = sprintf('    <priority>%s</priority>', $this->xml_escape($url['priority']));
             }
             $a[] = '';
-            $a[] = '</url>';
+            $a[] = '  </url>';
         }
         $a[] = '</urlset>';
         // Entregar
