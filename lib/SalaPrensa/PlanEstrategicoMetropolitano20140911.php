@@ -51,7 +51,7 @@ y social de la Zona Metropolitana de La Laguna.';
 
 <p>Este jueves 11 de septiembre, damos inicio a la convocatoria para reunir datos, diagnósticos, ideas, proyectos y cualquier iniciativa que los ciudadanos y las organizaciones, públicas, privadas y sociales, puedan aportar para la integración de este Plan de gran visión.</p>
 
-<p>De manera formal el Plan Estratégico se irá construyendo mediante las aportaciones ciudadanas y concretamente en talleres de trabajo que arrancarán en la primera semana de octubre, para lo cual se estará haciendo una invitación personalizada a personas que por su experiencia profesional, empresarial, social y gubernamental puedan aportar en seis mesas temáticas: sustentabilidad, del entorno urbano, movilidad y transporte, del buen gobierno y la coordinación metropolitana, del desarrollo social y de la competitividad económica.</p>
+<p>De manera formal el Plan Estratégico se irá construyendo mediante las aportaciones ciudadanas y concretamente en talleres de trabajo que arrancarán en la primera semana de octubre, para lo cual se estará haciendo una invitación a personas que por su experiencia profesional, empresarial, social y gubernamental puedan aportar en seis mesas temáticas: sustentabilidad, del entorno urbano, movilidad y transporte, del buen gobierno y la coordinación metropolitana, del desarrollo social y de la competitividad económica.</p>
 
 <p>El Consejo Directivo del IMPLAN está organizado mediante Comisiones Técnicas, bajo este esquema los Consejeros del Instituto estarán encabezando los trabajos en las mencionadas mesas temáticas.</p>
 
@@ -88,14 +88,14 @@ y social de la Zona Metropolitana de La Laguna.';
 <h3>Formas de Participación</h3>
 
 <ul>
-    <li>Trabajos técnicos documentales, investigaciones y publicaciones</li>
-    <li>Recopilación de información “oficial” por dependencia o sector</li>
-    <li>Consulta a expertos con técnicas de focus group o entrevistas</li>
-    <li>Talleres con expertos y organismos</li>
-    <li>Talleres por municipio</li>
-    <li>Consulta ciudadana vía internet</li>
-    <li>Foros de propuestas sobre visión y proyectos</li>
-    <li>Convocatoria para postulación de proyectos con un grupo promotor</li>
+    <li>Trabajos técnicos documentales, investigaciones y publicaciones.</li>
+    <li>Recopilación de información “oficial” por dependencia o sector.</li>
+    <li>Consulta a expertos con técnicas de focus group o entrevistas.</li>
+    <li>Talleres con expertos y organismos.</li>
+    <li>Talleres por municipio.</li>
+    <li>Consulta ciudadana vía internet.</li>
+    <li>Foros de propuestas sobre visión y proyectos.</li>
+    <li>Convocatoria para postulación de proyectos con un grupo promotor.</li>
 </ul>
 FINAL;
         $this->javascript    = <<<FINAL
