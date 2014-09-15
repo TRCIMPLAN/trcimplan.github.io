@@ -51,15 +51,11 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      */
     public function url() {
         if ($this->en_raiz) {
-            // Es verdadero
             return "{$this->directorio}/{$this->archivo}.html";
+        } elseif ($this->otro) {
+            return "../{$this->directorio}/{$this->archivo}.html";
         } else {
-            // Es falso en_raiz
-            if ($this->otro) {
-                return "../{$this->directorio}/{$this->archivo}.html";
-            } else {
-                return "{$this->archivo}.html";
-            }
+            return "{$this->archivo}.html";
         }
     } // url
 
@@ -72,6 +68,28 @@ class Publicacion extends \Configuracion\PublicacionConfig {
         $plantilla = new \Configuracion\PlantillaConfig();
         return sprintf('%s/%s/%s.html', $plantilla->sitio_url, $this->directorio, $this->archivo);
     } // url_absoluto
+
+    /**
+     * Imagen previa URL
+     *
+     * @return string URL para enlazar, segun las banderas en_raiz y en_otro
+     */
+    public function imagen_previa_url() {
+        // Si el URL es absoluto
+        if ((strpos($this->imagen_previa, 'http://') === 0) || (strpos($this->imagen_previa, 'https://') === 0) || (strpos($this->imagen_previa, '/') === 0)) {
+            return $this->imagen_previa;
+        } elseif ($this->en_raiz) {
+            if (strpos($this->imagen_previa, '../') === 0) {
+                return substr($this->imagen_previa, 3);
+            } else {
+                return "{$this->directorio}/{$this->imagen_previa}";
+            }
+        } elseif ($this->otro) {
+            return "../{$this->directorio}/{$this->imagen_previa}";
+        } else {
+            return "{$this->imagen_previa}";
+        }
+    } // imagen_previa_url
 
     /**
      * Tiempo desde que fue creado

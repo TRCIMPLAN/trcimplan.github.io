@@ -44,7 +44,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public $ruta;                 // Ruta relativa a la pagina HTML
     public $imagen_previa;        // Ruta relativa a la imagen
     public $navegacion;           // Instancia de \Base\Navegacion
-    public $contenido;            // Código HTML con el contenido
+    public $contenido;            // Texto o arreglo, código HTML con el contenido
     public $mapa_inferior;        // Instancia de \Base\MapaInferior
     public $javascript = array(); // Arreglo que acumula el código Javascript a poner al final de la página
 
@@ -259,6 +259,8 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a[] = '      <div class="cuerpo">';
         if (is_string($this->contenido) && (trim($this->contenido) != '')) {
             $a[] = $this->contenido;
+        } elseif (is_array($this->contenido) && (count($this->contenido) > 0)) {
+            $a[] = implode("\n", $this->contenido);
         } else {
             $a[] = "<b>No hay contenido para esta página.</b>";
         }

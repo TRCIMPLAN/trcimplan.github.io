@@ -71,10 +71,38 @@ class PaginaInicial extends \Base\Plantilla {
         // Navegacion
         $this->navegacion          = new \Base\Navegacion();
         $this->navegacion->en_raiz = true;
-        // Contenido
-        $carrusel        = new Carrusel();
-        $destacado       = new Destacado();
-        $this->contenido = $carrusel->html()."\n".$destacado->html();
+        // Iniciar contenido
+        $this->contenido = array();
+        // Carrusel
+        $carrusel          = new Carrusel();
+        $this->contenido[] = "<!-- CARRUSEL -->";
+        $this->contenido[] = $carrusel->html();
+        //
+        $this->contenido[]  = '        <div class="row">';
+        // Resumen de Análisis Publicados
+        $analisis           = new \Blog\Imprenta();
+        $resumenes          = $analisis->elaborar_resumenes();
+        $resumenes->en_raiz = true;
+        $this->contenido[]  = "<!-- RESUMENES ANALISIS PUBLICADOS -->";
+        $this->contenido[]  = "          <div class=\"col-md-4\">\n".$resumenes->html()."\n          </div>";
+        // Resumen de SIG
+        $sig                = new \SIG\Imprenta();
+        $resumenes          = $sig->elaborar_resumenes();
+        $resumenes->en_raiz = true;
+        $this->contenido[]  = "<!-- RESUMENES SIG -->";
+        $this->contenido[]  = "          <div class=\"col-md-4\">\n".$resumenes->html()."\n          </div>";
+        // Resumen de Indicadores
+        $smi                = new \SMICategorias\Imprenta();
+        $resumenes          = $smi->elaborar_resumenes();
+        $resumenes->titulo  = 'Sistema Metropolitano de Indicadores';
+        $resumenes->en_raiz = true;
+        $this->contenido[]  = "<!-- RESUMENES SMI CATEGORIAS -->";
+        $this->contenido[]  = "          <div class=\"col-md-4\">\n".$resumenes->html()."\n          </div>";
+        //
+        $this->contenido[]  = "        </div>"; // row
+        // Destacado
+/*      $destacado         = new Destacado();
+        $this->contenido[] = $destacado->html(); */
         // Mapa Inferior
         $this->mapa_inferior          = new \Base\MapaInferior();
         $this->mapa_inferior->en_raiz = true;

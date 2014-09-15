@@ -33,11 +33,11 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
     public function __construct() {
         $this->fecha         = '2014-08-04';
         $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->nombre        = 'Contribución de las Tecnologías de la Información y Comunicación (TICs) en la competitividad y productividad';
+        $this->nombre        = 'Contribución de las TICs en la competitividad y productividad';
         $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
-        $this->archivo       = 'archivo';
-        $this->descripcion   = 'La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región: su alta inversión en la investigación y su transversalidad son las características que las hacen un catalizador de productividad e innovación constante para otras industrias.';
+        $this->archivo       = 'contribucion-tic-competitividad-productividad';
+        $this->descripcion   = 'La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'contribucion-tic-competitividad-productividad/imagen-previa.jpg';
         $this->categorias    = array('Blog');
@@ -45,7 +45,7 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="contribucion-tic-competitividad-productividad/imagen.jpg"></span>
 
-<p>Mientras el mundo creció 4% en la década de 2000 a 2010, el sector de TICs creció 5.7% (IMCO, 2012). La realidad es que la implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región: su alta inversión en la investigación y desarrollo (15% de su ganancia) y su transversalidad son las características que convierten a las TICs en un catalizador de productividad e innovación constante para otras industrias.</p>
+<p>Mientras el mundo creció 4% en la década de 2000 a 2010, el sector de las Tecnologías de la Información y Comunicación (TICs) creció 5.7% (IMCO, 2012). La realidad es que la implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región: su alta inversión en la investigación y desarrollo (15% de su ganancia) y su transversalidad son las características que convierten a las TICs en un catalizador de productividad e innovación constante para otras industrias.</p>
 
 <p>Estudios demuestran la íntima relación entre la competitividad y el uso y aprovechamiento de las TICs. Los diagramas de dispersión a continuación ilustran la relación positiva entre las calificaciones de los países en el Networked Readiness Index, índice del Fondo Monetario Internacional que mide el desarrollo del sector TIC en 148 países, y su calificación en distintos índices de competitividad. En ambos diagramas se aprecia cómo a mayor desarrollo de las TICs, mayor competitividad.</p>
 

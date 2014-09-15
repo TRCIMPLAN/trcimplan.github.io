@@ -35,6 +35,7 @@ class MapaSitio extends \Configuracion\MapaSitioConfig {
     // public $priority_min;
     // public $priority_max;
     // public $priority_step;
+    // public $archivo;
     public $urls         = array();
     public $change_freqs = array('always', 'hourly', 'daily', 'weekly', 'monthly', 'yearly', 'never');
 
@@ -108,9 +109,7 @@ class MapaSitio extends \Configuracion\MapaSitioConfig {
         $a = array();
         // Acumular
         $a[] = sprintf('<?xml version="1.0" encoding="%s"?>', $this->xml_encoding);
-        $a[] = '<urlset xmlns="http://www.google.com/schemas/sitemap/0.84"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.google.com/schemas/sitemap/0.84/sitemap.xsd">';
+        $a[] = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
         foreach ($this->urls as $url) {
             $a[] = '  <url>';
             $a[] = sprintf('    <loc>%s</loc>', $this->xml_escape($url['url']));

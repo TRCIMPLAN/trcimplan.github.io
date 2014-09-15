@@ -33,12 +33,12 @@ class NavegacionConfig {
         'Análisis Publicados' => 'blog/index.html',
         'Indicadores' => array(
             'Introducción al SMI'       => 'smi/introduccion.html',
-            'Categorías'                => 'indicadores-categorias/',
-            'Indicadores Torreón'       => 'indicadores-torreon/',
-            'Indicadores Gómez Palacio' => 'indicadores-gomez-palacio/',
-            'Indicadores Lerdo'         => 'indicadores-lerdo/',
-            'Indicadores Matamoros'     => 'indicadores-matamoros/',
-            'Indicadores La Laguna'     => 'indicadores-la-laguna/'),
+            'Categorías'                => 'indicadores-categorias/index.html',
+            'Indicadores Torreón'       => 'indicadores-torreon/index.html',
+            'Indicadores Gómez Palacio' => 'indicadores-gomez-palacio/index.html',
+            'Indicadores Lerdo'         => 'indicadores-lerdo/index.html',
+            'Indicadores Matamoros'     => 'indicadores-matamoros/index.html',
+            'Indicadores La Laguna'     => 'indicadores-la-laguna/index.html'),
         'Información Geográfica' => array(
             'Introduccion al SIG' => 'sig/introduccion.html',
             'Alumbrado Público'   => 'sig/alumbrado-publico.html',
@@ -62,6 +62,39 @@ class NavegacionConfig {
         'Contacto' => 'contacto/contacto.html');
     protected $iconos = array(
         'Análisis Publicados'       => 'fa fa-lightbulb-o',
+        'Indicadores'               => 'fa fa-area-chart',
+        'Introducción al SMI'       => 'fa fa-file-text-o',
+        'Categorías'                => 'fa fa-th-list',
+        'Indicadores Torreón'       => 'fa fa-table',
+        'Indicadores Gómez Palacio' => 'fa fa-table',
+        'Indicadores Lerdo'         => 'fa fa-table',
+        'Indicadores Matamoros'     => 'fa fa-table',
+        'Indicadores La Laguna'     => 'fa fa-table',
+        'Información Geográfica'    => 'fa fa-map-marker',
+        'Introduccion al SIG'       => 'fa fa-file-text-o',
+        'Banco de Proyectos'        => 'fa fa-check-square',
+        'Plata Laguna'              => 'fa fa-certificate',
+        'Institucional'             => 'fa fa-building-o',
+        'Consejo Directivo'         => 'fa fa-users',
+        'Comunicados'               => 'fa fa-comments',
+        'Eventos'                   => 'fa fa-folder-o',
+        'Sala de Prensa'            => 'fa fa-folder-o',
+        'Contacto'                  => 'fa fa-phone');
+/*
+ * Indicadores:            <i class="fa fa-area-chart"></i>
+ * Introducción al SMI:    <i class="fa fa-file-text-o"></i>
+ * Categorias:             <i class="fa fa-th-list"></i>
+ * Información geográfica: <i class="fa fa-map-marker"></i>
+ * Introducción al SIG:    <i class="fa fa-file-text-o"></i>
+ * Abrir el SIG:           <i class="fa fa-crosshairs"></i>
+ * Banco de Proyectos:     <i class="fa fa-check-square"></i>
+ * Introducción al BMPI:   <i class="fa fa-file-text-o"></i>
+ * Plata Laguna:           <i class="fa fa-certificate"></i>
+ * Institucional:          <i class="fa fa-building-o"></i>
+ * Comunicados:            <i class="fa fa-comments"></i>
+
+    protected $iconos = array(
+        'Análisis Publicados'       => 'fa fa-lightbulb-o',
         'Indicadores'               => 'fa fa-bar-chart',
         'Categorías'                => 'fa fa-tags',
         'Indicadores Torreón'       => 'fa fa-table',
@@ -78,6 +111,7 @@ class NavegacionConfig {
         'Sala de Prensa'            => 'fa fa-folder-o',
         'Contacto'                  => 'fa fa-phone');
 
+ */
 } // Clase NavegacionConfig
 
 ?>

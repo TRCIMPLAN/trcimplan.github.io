@@ -40,6 +40,21 @@ class ImprentaPublicaciones extends Imprenta {
     protected $nombre_menu;              // Etiqueta del menú que pondrá como opción activa
 
     /**
+     * Elaborar resúmenes para la página de inicial
+     *
+     * @return mixed Instancia de Resumenes
+     */
+    public function elaborar_resumenes() {
+        // Cargar publicaciones
+        $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio);
+        // Iniciar instancia de Resumenes con las publicaciones
+        $resumenes         = new \Base\Resumenes($publicaciones);
+        $resumenes->titulo = $this->titulo;
+        // Entregarla
+        return $resumenes;
+    } // elaborar_resumenes
+
+    /**
      * Imprimir
      *
      * @return string Mensajes para la terminal
@@ -49,9 +64,12 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla                = new \Base\Plantilla();
         $this->plantilla->navegacion    = new \Base\Navegacion();
         $this->plantilla->mapa_inferior = new \Base\MapaInferior();
+        // Cargar las publicaciones
+        $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio);
         // Imprimir las publicaciones
-        $eventos = $this->agregar_directorio_publicaciones($this->publicaciones_directorio);
         parent::imprimir();
+        // Agregar mensaje
+        $this->mensajes[] = "Se han impreso todas las publicaciones.";
         // Dejar en blanco la propiedad publicaciones, para volver a imprimir
         $this->publicaciones = null;
         // Nueva instancia de Plantilla, para evitar restos de datos
@@ -59,7 +77,7 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->navegacion    = new \Base\Navegacion();
         $this->plantilla->mapa_inferior = new \Base\MapaInferior();
         // Cargar el índice con las publicaciones
-        $indice         = new \Base\Indice($eventos);
+        $indice         = new \Base\Indice($publicaciones);
         $indice->titulo = $this->titulo;
         // Cargar la plantilla para índice
         $this->plantilla->titulo                    = $this->titulo;
@@ -71,6 +89,8 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->contenido                 = $indice->html();
         // Imprimir index.html
         parent::imprimir();
+        // Agregar mensaje
+        $this->mensajes[] = "Se ha impreso el índice.";
         // Entregar mensajes
         return implode("\n", $this->mensajes);
     } // imprimir

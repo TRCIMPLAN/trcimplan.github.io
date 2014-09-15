@@ -27,17 +27,17 @@ namespace Base;
  */
 class Imprenta {
 
-    public $plantilla;                  // Instancia de Plantilla
-    public $mensajes         = array(); // Arreglo con mensajes para la terminal
-    protected $publicaciones = array(); // Arreglo con instancias de Publicacion
-    protected $plantillas    = array(); // Arreglo con instancias de Plantillas
+    public $plantilla;               // Instancia de Plantilla
+    public $mensajes      = array(); // Arreglo con mensajes para la terminal
+    public $publicaciones = array(); // Arreglo con instancias de Publicacion
+    public $plantillas    = array(); // Arreglo con instancias de Plantillas
 
     /**
      * Eliminar un directorio y todos sus archivos
      *
      * @param string Ruta al directorio a eliminar
      */
-    protected function eliminar_directorio($ruta) {
+    public function eliminar_directorio($ruta) {
         // Validar parámetro
         if (trim($ruta) == '') {
             throw new ImprentaExceptionValidacion("Error en Imprenta, eliminar_directorio: Parámetro vacio.");
@@ -60,7 +60,7 @@ class Imprenta {
      *
      * @param string Ruta al directorio a crear
      */
-    protected function crear_directorio($ruta) {
+    public function crear_directorio($ruta) {
         // Validar parámetro
         if (trim($ruta) == '') {
             throw new ImprentaExceptionValidacion("Error en Imprenta, crear_directorio: Parámetro vacio.");
@@ -83,7 +83,7 @@ class Imprenta {
      * @param string Ruta al archivo a crear
      * @param mixed  Texto o arreglo con el contenido
      */
-    protected function crear_archivo($ruta, $contenido) {
+    public function crear_archivo($ruta, $contenido) {
         // Validar parámetros
         if (trim($ruta) == '') {
             throw new ImprentaExceptionValidacion("Error en Imprenta, crear_archivo: Parámetro vacío, la ruta.");
@@ -116,7 +116,7 @@ class Imprenta {
      * @param  string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
      * @return array  Arreglo con textos de la forma Directorio\Clase
      */
-    protected function recolectar_clases($dir) {
+    public function recolectar_clases($dir) {
         // Validar parámetro
         if (!is_string($dir) || (trim($dir) == '')) {
             throw new ImprentaExceptionValidacion('Error en Imprenta, recolectar_clases: Parámetro incorrecto.');
@@ -149,7 +149,7 @@ class Imprenta {
      * Agregar Directorio con Publicaciones
      *
      * @param  string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
-     * @return array  Arreglo con las instancias de Publicaciones
+     * @return array  Arreglo con las instancias de Publicaciones ordenado cronológicamente
      */
     public function agregar_directorio_publicaciones($dir) {
         // Acumularemos las instancias en este arreglo
@@ -171,6 +171,8 @@ class Imprenta {
         ksort($instancias);
         // Acumular
         $this->publicaciones = array_merge($this->publicaciones, $instancias);
+        // Al ordenar de forma ascendente por la clave, queda del más nuevo al más viejo
+        ksort($this->publicaciones);
         // Entregar
         return $instancias;
     } // agregar_directorio

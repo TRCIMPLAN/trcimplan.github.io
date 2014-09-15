@@ -33,15 +33,49 @@ chdir(realpath(dirname(__FILE__))."/..");
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
-// Cargar
+// Iniciar el mapa
 $mapa = new \Base\MapaSitio();
-$mapa->agregar_url('institucional/vision-mision.html',    '2014-05-01', 'monthly', '1');
-$mapa->agregar_url('institucional/mensaje-director.html', '2014-05-01', 'monthly', '1');
-$mapa->agregar_url('institucional/quienes-somos.html',    '2014-05-01', 'monthly', '1');
-// Imprimir
+$mapa->agregar_url('index.html',                           date('Y-m-d'), 'daily', '1'); // la página inicial
+$mapa->agregar_url('blog/index.html',                      date('Y-m-d'), 'daily', '1'); // índice de Análisis Publicados
+$mapa->agregar_url('indicadores-categorias/index.html',    date('Y-m-d'), 'daily', '1'); // índice de Indicadores Categorías
+$mapa->agregar_url('indicadores-torreon/index.html',       date('Y-m-d'), 'daily', '1'); // índice de Indicadores
+$mapa->agregar_url('indicadores-gomez-palacio/index.html', date('Y-m-d'), 'daily', '1'); // índice de Indicadores
+$mapa->agregar_url('indicadores-lerdo/index.html',         date('Y-m-d'), 'daily', '1'); // índice de Indicadores
+$mapa->agregar_url('indicadores-matamoros/index.html',     date('Y-m-d'), 'daily', '1'); // índice de Indicadores
+$mapa->agregar_url('indicadores-la-laguna/index.html',     date('Y-m-d'), 'daily', '1'); // índice de Indicadores
+$mapa->agregar_url('eventos/index.html',                   date('Y-m-d'), 'daily', '1'); // índice de Eventos
+$mapa->agregar_url('sala-prensa/index.html',               date('Y-m-d'), 'daily', '1'); // índice de Sala de Prensa
+
+// Arreglo con los directorios de donde se tomarán las publicaciones
+$directorios = array(
+    'Blog',
+    'ConsejoDirectivo',
+    'Contacto',
+    'Eventos',
+    'Institucional',
+    'Proyectos',
+    'SalaPrensa',
+    'SIG',
+    'SMI',
+    'SMICategorias',
+    'SMIIndicadoresTorreon',
+    'SMIIndicadoresGomezPalacio',
+    'SMIIndicadoresLerdo',
+    'SMIIndicadoresMatamoros',
+    'SMIIndicadoresLaLaguna');
+// Recolectar publicaciones
+$impresor = new \Base\Imprenta();
 try {
-    echo $mapa->xml()."\n";
+    foreach ($directorios as $dir) {
+        $impresor->agregar_directorio_publicaciones($dir);
+    }
+    foreach ($impresor->publicaciones as $publicacion) {
+        $publicacion->en_raiz = true;
+        $mapa->agregar_url($publicacion->url(), $publicacion->fecha, 'monthly', '1');
+    }
+    echo $impresor->crear_archivo($mapa->archivo, $mapa->xml())."\n";
 } catch (\Exception $e) {
+    echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }

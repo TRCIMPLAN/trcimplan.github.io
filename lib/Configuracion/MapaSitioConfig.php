@@ -33,6 +33,7 @@ class MapaSitioConfig {
     public $priority_min  = 0.0;                       // The range of values priority can be
     public $priority_max  = 1.0;
     public $priority_step = 0.1;
+    public $archivo       = 'sitemap.xml';
 
 } // Clase MapaSitioConfig
 
