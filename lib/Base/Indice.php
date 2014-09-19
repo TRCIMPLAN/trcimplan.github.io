@@ -77,7 +77,7 @@ class Indice {
                 $a[] = '              <a class="pull-left" href="'.$p->url()."\"><img class=\"media-object\" src=\"{$p->imagen_previa}\"></a>";
             }
             $a[] = '              <div class="media-body">';
-            $a[] = '                <h4 class="media-heading"><a href="'.$p->url()."\">{$p->nombre}</a></h4>";
+            $a[] = '                <h3 class="media-heading"><a href="'.$p->url()."\">{$p->nombre}</a></h3>";
             $a[] = "                <p>{$p->descripcion}</p>";
             $a[] = "                <p class=\"pull-left autor\">{$p->autor}, {$p->fecha_con_formato_humano()}</p>";
             $a[] = '                <p class="pull-right leer-mas"><a href="'.$p->url().'">Leer más</a></p>';

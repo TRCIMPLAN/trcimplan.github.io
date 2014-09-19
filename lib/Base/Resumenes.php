@@ -59,10 +59,10 @@ class Resumenes {
         if ($this->encabezado != '') {
             $a[] = $this->encabezado;
             if ($this->titulo != '') {
-                $a[] = "            <h3 style=\"display:none;\">{$this->titulo}</h3>";
+                $a[] = "            <h2 style=\"display:none;\">{$this->titulo}</h2>";
             }
         } elseif ($this->titulo != '') {
-            $a[] = "            <h3>{$this->titulo}</h3>";
+            $a[] = "            <h2>{$this->titulo}</h2>";
         }
         // Iniciar contador
         $contador = 0;
@@ -84,7 +84,7 @@ class Resumenes {
                 $a[] = sprintf('              <a class="pull-left" href="%s"><img class="media-object" src="%s"></a>', $p->url(), $p->imagen_previa_url());
             }
             $a[] = '              <div class="media-body">';
-            $a[] = sprintf('                <h4 class="media-heading"><a href="%s">%s</a></h4>', $p->url(), $p->nombre);
+            $a[] = sprintf('                <h3 class="media-heading"><a href="%s">%s</a></h3>', $p->url(), $p->nombre);
             $a[] = sprintf('                <p>%s</p>', $p->descripcion);
             $a[] = sprintf('                <p class="pull-left autor">%s</p>', $p->autor);
           //$a[] = sprintf('                <p class="pull-right leer-mas"><a href="%s">Leer más</a></p>', $p->url());

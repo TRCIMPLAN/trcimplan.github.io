@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fundada en el año de 1850 como el Rancho del Carrizal, en el extremo norte de la República Mexicana, la ciudad de Torreón, Coahuila, celebró su elevación de rango -de villa a ciudad— un 15 de septiembre de 1907..">
+  <meta name="author" content="Lic. Enrique Sada Sandoval">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Una ciudad con futuro">
+  <meta name="twitter:description" content="Fundada en el año de 1850 como el Rancho del Carrizal, en el extremo norte de la República Mexicana, la ciudad de Torreón, Coahuila, celebró su elevación de rango -de villa a ciudad— un 15 de septiembre de 1907..">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/una-ciudad-con-futuro/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/una-ciudad-con-futuro.html">
+  <meta name="og:title" content="Una ciudad con futuro">
+  <meta name="og:description" content="Fundada en el año de 1850 como el Rancho del Carrizal, en el extremo norte de la República Mexicana, la ciudad de Torreón, Coahuila, celebró su elevación de rango -de villa a ciudad— un 15 de septiembre de 1907..">
+  <meta name="og:image" content="http://trcimplan.gob.mx/una-ciudad-con-futuro/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/una-ciudad-con-futuro.html">
+  <title>Una ciudad con futuro - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko|Rokkitt" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li class="active"><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><i class="fa fa-area-chart"></i> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><i class="fa fa-th-list"></i> Categorías</a></li>
+            <li><a href="../indicadores-torreon/index.html"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li><a href="../indicadores-gomez-palacio/index.html"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
+            <li><a href="../indicadores-lerdo/index.html"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
+            <li><a href="../indicadores-matamoros/index.html"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
+            <li><a href="../indicadores-la-laguna/index.html"><i class="fa fa-table"></i> Indicadores La Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-map-marker"></i> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><i class="fa fa-file-text-o"></i> Introduccion al SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><i class="fa fa-file-text-o"></i> Alumbrado Público</a></li>
+            <li><a href="../sig/zonificacion.html"><i class="fa fa-file-text-o"></i> Zonificación</a></li>
+            <li><a href="../sig/abrir-sig.html"><i class="fa fa-file-text-o"></i> Abrir el SIG</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-check-square"></i> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><i class="fa fa-certificate"></i> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-building-o"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-file-text-o"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-file-text-o"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-file-text-o"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-file-text-o"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-file-text-o"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-file-text-o"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-file-text-o"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><i class="fa fa-users"></i> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><i class="fa fa-comments"></i> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><i class="fa fa-folder-o"></i> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><i class="fa fa-folder-o"></i> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../contacto/contacto.html"><i class="fa fa-phone"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+<article>
+  <header>
+    <h1>Una ciudad con futuro</h1>
+    <p class="autor-fecha">Por Lic. Enrique Sada Sandoval, 17/09/2014</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="una-ciudad-con-futuro/imagen.jpg"></span>
+
+<p>Fundada en el año de 1850 como el Rancho del Carrizal, en el extremo norte de la República Mexicana, la ciudad de Torreón, Coahuila, celebró su elevación de rango —de villa a ciudad— un 15 de septiembre de 1907.</p>
+
+<p>Contando con poco más de medio siglo oficial de su existencia, gracias al detonante que supuso la conexión del Ferrocarril Central Mexicano con el Ferrocarril Internacional, este lejano punto cobró muy pronto vida e importancia debido a la gran afluencia de extranjeros y nacionales que se asentaron en este sitio, traídos por la bonanza del “oro blanco” y de la uva, estableciendo un entorno cosmopolita que sentó las bases para el detonamiento de un desarrollo y prosperidad sin precedentes en la Historia de México y del norte del país.</p>
+
+<p>No en balde fue identificada desde aquél entonces como hija legítima y perla del Porfiriato, y la razón salta a la vista hasta por el día en que se conmemoró por vez primera su estatus, puesto que la fecha misma de este acto simbólico celebra no solo el cumplimiento de un procedimiento estamental o burocrático sino un recordatorio —al igual que el cambio de las fiestas patrias del 27 de septiembre al 15— del cumpleaños del “Héroe de la Paz y el Progreso” como presidente de la República en aquél entonces.</p>
+
+<p>La importancia de esta joven ciudad se mantuvo vigente, como su bonanza creciente, aún pese al escollo y el atraso que significó la Revolución Mexicana y las luchas de poder entre caudillos a partir de 1913, llegando a la década de los treintas como sitio estratégico, siendo elegido nada menos que por el Banco de México para construir un significativo edificio sede para depósito de oro y transacciones por encima de capitales de estados como Monterrey, Durango, Zacatecas y Saltillo.</p>
+
+<p>Sin embargo, el peso de varias décadas de políticas centralizadoras, el rezago histórico de las administraciones municipales durante los últimos 15 años y el embate de la inseguridad en la región, detonada por la irresponsable “guerra contra el crimen organizado” durante el sexenio anterior, generó pérdida de inversiones y fluctuación en el mercado laboral, hecho que vino a acentuar la situación debido a una auténtica falta de vocación y de visión entorno a lo que ya se consolidaba como una zona metropolitana con Torreón a la cabeza de varios municipios aledaños.</p>
+
+<p>Con motivo de contrarrestar estas inercias heredadas, el pasado 11 de septiembre de 2014 se reunió el Consejo Directivo del Instituto Municipal de Planeación para lanzar la convocatoria ciudadana para la elaboración del Plan Estratégico Metropolitano ante la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social tanto de la ciudad como de la región en sí, hecho que se celebra por igual tanto en la iniciativa de Eduardo Holguín, como director del mismo, tanto como en el respaldo del alcalde Miguel Ángel Riquelme en lo que por primera vez en mucho tiempo se presenta como la apuesta desde el gobierno por el futuro de la ciudad con más productividad en el norte del país en 2014 (según indicadores nacionales), a través de la planeación estratégica y la proyección a largo plazo, justo en el marco de la celebración del 107 aniversario de la misma.</p>
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftrcimplan.gob.mx%2Fblog%2Funa-ciudad-con-futuro.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</body>
+</html>

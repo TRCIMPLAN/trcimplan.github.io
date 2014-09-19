@@ -28,7 +28,7 @@ namespace Configuracion;
 class NavegacionConfig {
 
     protected $sitio_titulo = 'IMPLAN Torreón';
-    protected $logotipo     = 'imagenes/implan-barra-logo-chico.png';
+    protected $logotipo     = 'imagenes/implan-barra-logo-chico-gris.png';
     protected $opciones     = array(
         'Análisis Publicados' => 'blog/index.html',
         'Indicadores' => array(
