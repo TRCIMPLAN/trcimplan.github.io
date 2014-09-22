@@ -51,88 +51,106 @@ class EquidadGeneroInformatica extends \Base\Publicacion {
 
 <h3>Género Femenino en la Informática y Ciencias</h3>
 
-A pesar de las evidentes ventajas, muchas niñas ni siquiera se llegan a plantear una carrera en las TIC (Tecnologías de la Información y Comunicación). Hay una falta de información entre las estudiantes, profesores y padres de lo que una carrera en las TIC puede ofrecer.
-    Este problema también está presente en las Ciencias.
-    Sólo 6.6% de los físicos del CERN son mujeres.
+<p>A pesar de las evidentes ventajas, muchas niñas ni siquiera se llegan a plantear una carrera en las TIC (Tecnologías de la Información y Comunicación). Esta situación se debe a más de un factor; que va desde la educación que los padres dan a sus hijas, hasta la falta de información entre las estudiantes, profesores y padres de lo que una carrera en las TIC puede ofrecer.</p>
+
+<p>Este problema también está presente en las ciencias. Como muestra, sólo 6.6% de los físicos del <a href="http://www.cern.ch">CERN</a> son mujeres.</p>
 
 <h3>Usuarios de Internet en México</h3>
 
-Captura de pantalla 2014-09-19 a la(s) 12.34.25
+<p>De acuerdo a los datos del INEGI el acceso a Internet se distribuye por igual entre las mexicanas y los mexicanos. Por lo que está claro que sí hay equidad en ésto y no representa un factor para la situación que mostramos.</p>
 
-Usuarios de Internet en México
+<img class="img-responsive contenido-imagen" src="equidad-genero-informatica/mexico-historico-usuarios-internet-2006-2013.png" alt="Histórico de Usuarios de Internet en México">
 
-Captura de pantalla 2014-09-19 a la(s) 12.34.36
+<img class="img-responsive contenido-imagen" src="equidad-genero-informatica/mexico-distribucion-sexo-edad-internet-2014.png" alt="Distribución por Edad, Sexo en Internet en México">
 
 <h3>Discriminación de Género</h3>
 
-    Quienes discriminan designan un trato diferencial o inferior en cuanto a los derechos y las consideraciones sociales de las personas, organizaciones y estados.
-    Hacen esta diferencia ya sea por el color de piel, etnia, sexo, edad, cultura, religión o ideología.
+<p>Quienes discriminan designan un trato diferencial o inferior en cuanto a los derechos y las consideraciones sociales de las personas, organizaciones y estados.</p>
 
-<h3>Poco interés del género femenino en las TICs</h3>
+<p>Hacen esta diferencia ya sea por el color de piel, etnia, <strong>sexo</strong>, edad, cultura, religión o ideología.</p>
 
-¿Qué lo provoca?…
+<h3>¿Qué provoca el poco interés del género femenino en las TICs?</h3>
 
-    La educación en la mayoría de los hogares mexicanos las desmotiva a aspirar una profesión.
-    Los juguetes y la publicidad acentúan este estereotipo.
-    La falsa idea de que son malas para las matemáticas y problemas razonados.
-    Y creer que las TICs son sólo para hombres.
+<ul>
+    <li>La <strong>educación en la mayoría de los hogares mexicanos</strong> desmotiva a las niñas a aspirar una profesión. En la generalidad se les inculca que la labor de la mujer es el hogar y la crianza de los hijos.</li>
+    <li>Los <strong>juguetes</strong> y la <strong>publicidad en los medios masivos de comunicación</strong> acentúan este estereotipo.</li>
+    <li>La <strong>falsa idea</strong> de que las mujeres son malas para las matemáticas y problemas razonados.</li>
+    <li>Y creer que las TICs son sólo para hombres.</li>
+</ul>
 
-<h3>Matrícula Femenina en Licenciaturas de C.C.I. en EE.UU.</h3>
+<h3>Datos del género femenino en el sistema educativo de EE.UU.</h3>
 
-Captura de pantalla 2014-09-19 a la(s) 12.35.15
+<p>El dato más grave es que al paso de los años ha disminuido el porcentaje de matrícula femenina en las carreras de ciencias de la información:</p>
 
-<h3>Son pocas mujeres pero muy inteligentes</h3>
+<img class="img-responsive contenido-imagen" src="equidad-genero-informatica/porcentaje-matricula-femenina-licenciatura-cci-eeuu.png" alt="Porcentaje de Matrícula Femenina en las Carreras de Ciencias de la Computación e Información en EE.UU.">
 
-Captura de pantalla 2014-09-19 a la(s) 12.35.26
+<p>Al examinar el resultado promedio de las pruebas I.Q. de las diferentes carreras se concluye que las pocas mujeres que estudian Ingenieria, Física, Filosofía tienen un resultado más alto. No significa ésto que sean menos inteligentes las que estudien las otras carreras; sencillamente es que el promedio es menor porque se aplica a más personas, a una muestra más grande que la primera.</p>
 
-<h3>Reporte de Diversidad de Google</h3>
+<img class="img-responsive contenido-imagen" src="equidad-genero-informatica/carreras-universitarias-promedio-iq-genero-eeuu.png" alt="Promedio de los resultados IQ / Porcentaje de matrícula femenina en EE.UU.">
 
-Captura de pantalla 2014-09-19 a la(s) 12.36.11
+<h3>Género femenino en la industrial del software</h3>
 
-<h3>Oportunidades en Software Libre</h3>
+<p>Hace algunos meses las empresas más grandes y emblemáticas de la informática publicaron sus Reportes de Diversidad. En el caso de Google, sólo 3 de cada 10 empleados son mujeres. También es muy relevante el escaso porcentaje de hispanos y afroamericanos.</p>
 
-Captura de pantalla 2014-09-19 a la(s) 12.36.20
+<img class="img-responsive contenido-imagen" src="equidad-genero-informatica/google-diversity.png" alt="Reporte de Diversidad de Google 2014">
+
+<p>La industria de la información está en constante crecimiento. Por ejemplo, en el campo del Software Libre, la Linux Fundation pronostica un incremento en la demanda de especialistas en sistemas y de desarrolladores de GNU/Linux.</p>
+
+<img class="img-responsive contenido-imagen" src="equidad-genero-informatica/linux-fundation-2013-linux-jobs.jpg" alt="Reporte de Trabajos en Linux para 2013">
+
+<p>Es clara la necesidad de ingenieros en informática y desarrolladores de software en EE.UU. Este déficit de especialistas, en mujeres y hombres ha alertado al gobierno norteamericano y a las grandes industrias del software; los cuales han comenzado a tomar acciones al respecto.</p>
+
+<p>Podría ser que nuestro país tenga este problema en un nivel más grave. Pero hagamos que ésto sea un motivo importante para hacer el esfuerzo de provocar un cambio social preparándonos para las tecnologías emergentes.</p>
 
 <h3>Tecnologías Emergentes</h3>
 
-    La humanidad cambió con la informática y el internet.
-    Los vehículos autónomos pueden salir dentro de dos años. Se estima que conviviremos con robots en veinte años.
-    Nanotecnología: estructuras moleculares y máquinas microscópicas.
-    Biotecnología: dominio de los genes y simbiosis entre seres vivos y máquinas.
+<p>Las tecnologías emergentes son aquellas ramas científicas que están en pleno desarrollo y que prometen que en el futuro inmediato, dentro de pocos años, harán un cambio trascendental en nuestras vidas.</p>
 
-Captura de pantalla 2014-09-19 a la(s) 12.36.37
+<img class="img-responsive contenido-imagen" src="equidad-genero-informatica/tecnologias-emergentes.png" alt="Tecnologías Emergentes">
 
-<h3>Para que haya más mujeres en la Informática y las Ciencias</h3>
+<ul>
+    <li><strong>Informática:</strong> Definitivamente la humanidad ya ha cambiado con la informática y el internet.</li>
+    <li><strong>Robótica:</strong> Los vehículos autónomos podrían circular en nuestras calles dentro de dos años. Más adelante, se estima que conviviremos con robots en veinte años.</li>
+    <li><strong>Nanotecnología:</strong> Trata sobre construir al nivel molecular y las máquinas microscópicas. Los visionarios hablan que será posible desde curar enfermedades con microrobots hasta construir un ascensor espacial que nos lleve a una estación espacial en órbita.</li>
+    <li><strong>Biotecnología:</strong> Es el dominio de los genes y la simbiosis entre seres vivos y máquinas. Imagine simplemente aprovechar la luz del Sol y el agua de los mares con plantas genéticamente modificadas.</li>
+</ul>
 
-    Como padres: inspirar, educar y equipar a nuestras hijas e hijos por igual para que adquieran las habilidades que necesitarán en el futuro.
-    Como educadores: cambiar la actitud y descartar estereotipos; invitar a niñas a visitar empresas donde conozcan los profesionales TIC y ver cómo trabajan.
-    Como empresarios: respetar la ley del trabajo (a trabajos iguales, igual salario) así como contratar por actitud, habilidad y conocimiento.
-    Como gobernantes: se dió un primer paso con la ley de equidad de género en los diputados. Sigue modernizar el sistema educativo.
+<p>La informática es sólo la <i>antesala</i> de lo que nos depara. Razón por demás para motivar a nuestras hijas e hijos para que no dejen de prepararse para el futuro.</p>
+
+<h3>¿Qué hacer para que haya más mujeres en la Informática y las Ciencias?</h3>
+
+<ul>
+    <li><strong>Como padres:</strong> inspirar, educar y equipar a nuestras hijas e hijos por igual para que adquieran las habilidades que necesitarán en el futuro.</li>
+    <li><strong>Como educadores:</strong> cambiar la actitud y descartar estereotipos; invitar a niñas a visitar empresas donde conozcan los profesionales TIC y ver cómo trabajan.</li>
+    <li><strong>Como empresarios:</strong> respetar la ley del trabajo (a trabajos iguales, igual salario) así como contratar por actitud, habilidad y conocimiento.</li>
+    <li><strong>Como gobernantes:</strong> se dió un primer paso con la ley de equidad de género en los diputados. Sigue modernizar el sistema educativo.</li>
+</ul>
+
+<h3>Video inspirador</h3>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/XP3cyRRAfX0?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<h3>Descargas</h3>
+
+<p>Descargue la <a href="equidad-genero-informatica/equidad-genero-informatica.pdf">Presentación Equidad de Género en Informática</a> como un archivo PDF de 3.3 MB.</p>
 
 <h3>Referencias</h3>
 
-Niñas en las TIC http://girlsinict.org
-
-Celebrating women in particle physics
-
-http://internationalwomensday.web.cern.ch
-
-Power and prejudice: women in physics
-
-http://cerncourier.com/cws/article/cern/30150
-
-Wikipedia: Discriminación https://es.wikipedia.org/wiki/Discriminación
-
-Estudios de la Asociación Mexicana de Internet
-
-https://www.amipci.org.mx/es/estudios
-
-Carnegie Mellon urges young women to consider computer science
-
-http://www.qatar.cmu.edu/news/view/1296
-
-Degrees in C.I.S. conferred by sex of student http:
-//nces.ed.gov/programs/digest/d12/tables/dt12_349.asp
+<ul>
+    <li><a href="http://girlsinict.org">Niñas en las TIC</a></li>
+    <li><a href="http://internationalwomensday.web.cern.ch">Celebrating women in particle physics</a></li>
+    <li><a href="http://cerncourier.com/cws/article/cern/30150">Power and prejudice: women in physics</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Discriminación">Wikipedia: Discriminación</a></li>
+    <li><a href="https://www.amipci.org.mx/es/estudios">Estudios de la Asociación Mexicana de Internet</a></li>
+    <li><a href="http://www.qatar.cmu.edu/news/view/1296">Carnegie Mellon urges young women to consider computer science</a></li>
+    <li><a href="http://nces.ed.gov/programs/digest/d12/tables/dt12_349.asp">Degrees in C.I.S. conferred by sex of student</a></li>
+    <li><a href="http://www.google.com/diversity">Google Diversity Report</a></li>
+    <li><a href="http://www.linuxfoundation.org/">Linux Fundation</a></li>
+    <li><a href="http://www.gartner.com/newsroom/id/2819918">Gartner's 2014 Hype Cycle for Emerging Technologies</a></li>
+    <li><a href="http://girlswhocode.com/">Girls Who Code</a></li>
+    <li><a href="https://www.madewithcode.com/">Google Made With Code</a></li>
+    <li><a href="https://www.youtube.com/watch?v=XP3cyRRAfX0">Verizon Commercial 2014 | Inspire Her Mind</a></li>
+</ul>
 
 FINAL;
         $this->javascript    = <<<FINAL
