@@ -28,7 +28,7 @@ body {
     font-size:16px;
     line-height:1.4;
     padding-bottom:24px;
-    background-color:#F0F0F0; /* F0F0F0 */
+    background-color:#F0F0F0;
 }
 h1, .h1,
 h2, .h2,
@@ -49,11 +49,11 @@ h3, .h3 {
 h1, .h1 { font-size:32px; }
 h2, .h2 { font-size:30px; }
 h3, .h3 { font-size:26px; }
-a         { text-decoration:none; color:#FF3300; } /*   E2007E */
+a         { text-decoration:none; color:#FF3300; }
 a:active,
-a:visited { text-decoration:none; color:#FF3300; } /*   E2007E */
+a:visited { text-decoration:none; color:#FF3300; }
 a:hover,
-a:focus   { text-decoration:none; color:#FF3300; } /*  AA005F */
+a:focus   { text-decoration:none; color:#FF3300; }
 
 /*
  * Menús
