@@ -37,7 +37,7 @@ class EquidadGeneroInformatica extends \Base\Publicacion {
         $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
         $this->archivo       = 'equidad-genero-informatica';
-        $this->descripcion   = 'Aunque vivimos con el mayor acceso a Internet y el auge las Ciencias Computacionales significan más desarrollo y trabajo, el género femenino tiene muy poca participación en el sector.';
+        $this->descripcion   = 'Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'equidad-genero-informatica/imagen-previa.jpg';
         $this->categorias    = array('Blog');

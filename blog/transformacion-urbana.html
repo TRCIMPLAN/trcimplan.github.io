@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap  http://getbootstrap.com
+           StartBootStrap     http://startbootstrap.com
+           Morris.js          http://www.oesmith.co.uk/morris.js
+           LeafLet            http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tenemos grupos organizados y activistas de las bicicletas. Lo que falta, es el compromiso de los ayuntamientos para lograr la transformación urbana de la Laguna.">
+  <meta name="author" content="Francisco Valdés Perezgasga">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Transformación Urbana">
+  <meta name="twitter:description" content="Tenemos grupos organizados y activistas de las bicicletas. Lo que falta, es el compromiso de los ayuntamientos para lograr la transformación urbana de la Laguna.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/transformacion-urbana/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/transformacion-urbana.html">
+  <meta name="og:title" content="Transformación Urbana">
+  <meta name="og:description" content="Tenemos grupos organizados y activistas de las bicicletas. Lo que falta, es el compromiso de los ayuntamientos para lograr la transformación urbana de la Laguna.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/transformacion-urbana/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/transformacion-urbana.html">
+  <title>Transformación Urbana - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko|Rokkitt" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li class="active"><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><i class="fa fa-area-chart"></i> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><i class="fa fa-th-list"></i> Categorías</a></li>
+            <li><a href="../indicadores-torreon/index.html"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li><a href="../indicadores-gomez-palacio/index.html"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
+            <li><a href="../indicadores-lerdo/index.html"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
+            <li><a href="../indicadores-matamoros/index.html"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
+            <li><a href="../indicadores-la-laguna/index.html"><i class="fa fa-table"></i> Indicadores La Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-map-marker"></i> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><i class="fa fa-file-text-o"></i> Introduccion al SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><i class="fa fa-file-text-o"></i> Alumbrado Público</a></li>
+            <li><a href="../sig/zonificacion.html"><i class="fa fa-file-text-o"></i> Zonificación</a></li>
+            <li><a href="../sig/abrir-sig.html"><i class="fa fa-file-text-o"></i> Abrir el SIG</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-check-square"></i> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><i class="fa fa-certificate"></i> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-building-o"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-file-text-o"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-file-text-o"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-file-text-o"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-file-text-o"></i> Estructura Orgánica</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/Principal.php?sujeto=0" target="_blank"><i class="fa fa-file-text-o"></i> Transparencia</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-file-text-o"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-file-text-o"></i> Información Financiera</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><i class="fa fa-users"></i> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><i class="fa fa-comments"></i> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><i class="fa fa-folder-o"></i> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><i class="fa fa-folder-o"></i> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../contacto/contacto.html"><i class="fa fa-phone"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+<article>
+  <header>
+    <h1>Transformación Urbana</h1>
+    <p class="autor-fecha">Por Francisco Valdés Perezgasga, 22/09/2014</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="transformacion-urbana/imagen.jpg"></span>
+
+<p>En su número de octubre de 2014, la prestigiada revista Bicycling presenta su clasificación de ciudades usamericanas. Las clasifica en función de qué tan buenas son para moverse en bicicleta. Un ejercicio bianual que cuenta con un gran interés de los ayuntamientos para que su ciudad aparezca en los primeros lugares. Un ejercicio que desvela una franca competencia vistos los cambios que esta clasificación experimenta cada dos años.</p>
+
+<p>Para 2014, las cinco ciudades en las que mejor se puede uno mover en bicicleta son: Nueva York, Chicago, Mineápolis, Portland y Washington. Entre las ciudades conocidas por el público lagunero podemos citar están Austin (lugar 11), Tucson (18), Los Angeles (28) y San Antonio (48). Esta clasificación se apoya en datos duros como el número de instalaciones para bicicletas por milla cuadrada, el número de habitantes por bici pública, el número de negocios biciamigables y el índice de seguridad. Una historia común en casi todas las ciudades reseñadas fue la confluencia de tres factores: grupos ciudadanos organizados, una crisis de movilidad y autoridades dispuestas a encontrar soluciones innovadoras.</p>
+
+<p>En Nueva York por ejemplo, dos acciones clave fueron imponer un límite de velocidad de 40 kilómetros por hora para toda la ciudad y un programa de multas agresivo. Esto, y los nuevos bicicarriles, hicieron que más neoyorquinos y neoyorquinas se animaran a pedalear pues la percepción de riesgo se redujo. Una ONG, Bike New York dio clases gratis y capacitó a 16,000 nuevos ciclistas. El número de viajes en bici se duplicó, el número de coches se redujo, los embotellamientos en las horas pico se volvieron menos frecuentes. El nuevo alcalde quiere intensificar este programa y triplicar el número de viajes en bici.</p>
+
+<p>En Chicago se instrumentó un programa de cámaras y multas que redujo en un 90% el número de coches a velocidades excesivas y elevó a mil dólares la multa por golpear a un ciclista al abrir descuidadamente la puerta de un coche. En caso tras caso se advierte que, para estimular el uso de la bici, las autoridades hacen dos cosas: construyen nuevas infraestructuras ciclistas y reducen la velocidad de los coches. En caso tras caso se advierte también la llamada paradoja de la multitud: entre más ciclistas, menos accidentes. Una paradoja que no es tal pues está claro que más ciclistas en las calles conlleva una mayor interacción y convivencia corroborando que la educación vial se da en las interacciones diarias. Y si esa convivencia se da con reglas claras que se hacen cumplir, mejor.</p>
+
+<p>Las motivaciones de los alcaldes para promover el uso de la bicicleta se centran en la reducción de los problemas asociados al uso del coche: embotellamientos, accidentes y problemas de salud asociados a la contaminación y al sedentarismo. Todos estos problemas tienen un alto costo social y económico para las sociedades que los padecen y fuerzan a los ayuntamientos a hacer costosísimas inversiones como estacionamientos, viaductos y puentes.</p>
+
+<p>El caso de Los Ángeles es un caso curioso. Ahí, el impulso definitivo al programa pro-bici de Los Ángeles se dio cuando el alcalde, Antonio Villaraigosa fue atropellado por un taxi y se fracturó el codo. Gracias a la intervención inmediata de los activistas pro-bici, el tema de la seguridad ciclista saltó a los primeros lugares del interés público y el resto, como dicen, es historia.En Boulder, Colorado, 12 % de la población se transporta diario en bici.</p>
+
+<p>Una proporción elevadísima para Estados Unidos pero muy baja para ciudades como Copenhague o Amsterdam. No es casualidad que tres cuartas partes de la población de Boulder cumple la cuota mínima recomendable de ejercicio aeróbico y que la tasa de obesidad es la mitad del promedio nacional. Quienes nos movemos en bici sabemos que llegas a tu trabajo feliz y despierto, que te enfermas menos y que eres más productivo. Cada historia detrás de cada ciudad de la lista de Bicycling, es una historia de regeneración urbana.</p>
+
+<p>Una historia de grandes ganancias -con poca inversión- para todos los habitantes de la ciudad, no sólo para los ciclistas. Cada historia es una historia positiva para la economía, la productividad, la salud, la convivencia y el tráfico. Si al inicio, en varias de estas ciudades hubo reticencias y hasta franca oposición, estas se han ido disolviendo poco a poco. ¿Cómo trasladar la experiencia narrada en el número de octubre de Bicycling a las ciudades laguneras? ¿Qué nos hace falta aquí para empezar a tener los avances de allá? Tenemos los problemas que la bici puede aliviar: embotellamientos, crispación, sedentarismo, obesidad, mala calidad del aire.</p>
+
+<p>Tenemos grupos organizados y activistas como Ruedas del Desierto, pero algo nos falta dentro de los ayuntamientos. Aún cuando hay funcionarios empáticos y conocedores, los hay también aquellas y aquellos que sólo ven en la bici una moda de la cual colgarse y sacar raja política. Lo que nos falta, creo, es el compromiso claro y directo de los alcaldes que acabe de inclinar el fiel de la balanza hacia la transformación urbana de La Laguna. Una transformación que no sólo se dará con la bici pero en donde la bici tiene un papel fundamental.</p>
+
+<p><a href="https://twitter.com/fvaldesp" target="_blank">twitter/@fvaldesp</a></p>
+
+<p>Tomado de <a href="http://www.milenio.com/firmas/francisco_valdes_perezgasga/" target="_blank">Milenio</a></p>
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftrcimplan.gob.mx%2Fblog%2Ftransformacion-urbana.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="inferior">
+          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</body>
+</html>
