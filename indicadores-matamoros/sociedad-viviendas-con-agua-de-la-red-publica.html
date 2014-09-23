@@ -135,7 +135,7 @@
     <h1>Viviendas con Agua de la Red Pública en Matamoros</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfuznaayx">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasxfkuokaf">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -171,7 +171,7 @@ Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/).
 Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/implan2.html).
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetfmkheyul" class="mapa"></div>
+              <div id="LeafLetfpbghlhv" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -247,12 +247,12 @@ Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfuznaayx a:first').tab('show')
+  $('#Lenguetasxfkuokaf a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasfuznaayx a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasxfkuokaf a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapfmkheyul;
+  var mapfpbghlhv;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -269,17 +269,17 @@ $('#Lenguetasfuznaayx a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapfmkheyul() {
+  function initmapfpbghlhv() {
     // Nuevo Mapa
-    mapfmkheyul = new L.Map('LeafLetfmkheyul');
+    mapfpbghlhv = new L.Map('LeafLetfpbghlhv');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapfmkheyul.setView(new L.LatLng(25.54, -103.44), 12);
+    mapfpbghlhv.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapfmkheyul.addLayer(osm);
+    mapfpbghlhv.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -312,13 +312,13 @@ $('#Lenguetasfuznaayx a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapfmkheyul);
+    }).addTo(mapfpbghlhv);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapfmkheyul === 'undefined') {
-    varinitmapfmkheyul = initmapfmkheyul();
+  if (typeof varinitmapfpbghlhv === 'undefined') {
+    varinitmapfpbghlhv = initmapfpbghlhv();
   };
 });
 </script>

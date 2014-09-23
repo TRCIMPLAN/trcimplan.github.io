@@ -135,7 +135,7 @@
     <h1>Unidades Económicas Dedicadas a la Industria Manufacturera en Lerdo</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetassxzbulya">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasawpsukec">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -189,10 +189,10 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morriszezkroaj" class="grafica"></div>
+<div id="Morriszeqvhmss" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetriyombqk" class="mapa"></div>
+              <div id="LeafLetgstrwzgk" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -380,14 +380,14 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetassxzbulya a:first').tab('show')
+  $('#Lenguetasawpsukec a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetassxzbulya a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasawpsukec a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriszezkroaj === 'undefined') {
-    varMorriszezkroaj = Morris.Line({
-      element: 'Morriszezkroaj',
+  if (typeof varMorriszeqvhmss === 'undefined') {
+    varMorriszeqvhmss = Morris.Line({
+      element: 'Morriszeqvhmss',
       data: [{ fecha: '1998-12-31', dato: 12.7900 },{ fecha: '2003-12-31', dato: 10.8700 },{ fecha: '2008-12-31', dato: 9.9000 },{ fecha: '2013-10-31', dato: 8.5200 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -399,9 +399,9 @@ $('#Lenguetassxzbulya a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetassxzbulya a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasawpsukec a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapriyombqk;
+  var mapgstrwzgk;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -418,17 +418,17 @@ $('#Lenguetassxzbulya a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapriyombqk() {
+  function initmapgstrwzgk() {
     // Nuevo Mapa
-    mapriyombqk = new L.Map('LeafLetriyombqk');
+    mapgstrwzgk = new L.Map('LeafLetgstrwzgk');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapriyombqk.setView(new L.LatLng(25.54, -103.44), 12);
+    mapgstrwzgk.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapriyombqk.addLayer(osm);
+    mapgstrwzgk.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -461,13 +461,13 @@ $('#Lenguetassxzbulya a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapriyombqk);
+    }).addTo(mapgstrwzgk);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapriyombqk === 'undefined') {
-    varinitmapriyombqk = initmapriyombqk();
+  if (typeof varinitmapgstrwzgk === 'undefined') {
+    varinitmapgstrwzgk = initmapgstrwzgk();
   };
 });
 </script>

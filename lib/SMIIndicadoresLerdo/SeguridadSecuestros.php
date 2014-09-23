@@ -25,7 +25,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvgrejlox">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetascrichygg">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ Cantidad de secuestros en el primer trimestre de 2014
 Cantidad
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetnbtutndj" class="mapa"></div>
+              <div id="LeafLetapgjnrzu" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -74,17 +74,94 @@ Cantidad
 <tbody>
 <tr>
 <td>Torreón</td>
-<td>2014-06-30</td>
+<td>2014-01-31</td>
 <td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-02-28</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-03-31</td>
+<td class="derecha">2</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-04-30</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-05-31</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-06-30</td>
+<td class="derecha">0</td>
 <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
 <td>Datos correspondientes al segundo trimestre de 2014</td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
-<td>2014-06-30</td>
+<td>2014-02-28</td>
 <td class="derecha">1</td>
 <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td>Datos correspondientes al segundo trimestre de 2014</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2014-05-31</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-01-31</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-02-28</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-03-31</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-04-30</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-05-31</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
 </tr>
 <tr>
 <td>Matamoros</td>
@@ -95,8 +172,43 @@ Cantidad
 </tr>
 <tr>
 <td>La Laguna</td>
-<td>2014-06-30</td>
+<td>2014-01-31</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2014-02-28</td>
 <td class="derecha">2</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2014-03-31</td>
+<td class="derecha">3</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2014-04-30</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2014-05-31</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2014-06-30</td>
+<td class="derecha">0</td>
 <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
 <td>Datos correspondientes al segundo trimestre de 2014</td>
 </tr>
@@ -108,12 +220,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvgrejlox a:first').tab('show')
+  $('#Lenguetascrichygg a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvgrejlox a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetascrichygg a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapnbtutndj;
+  var mapapgjnrzu;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +242,17 @@ $('#Lenguetasvgrejlox a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapnbtutndj() {
+  function initmapapgjnrzu() {
     // Nuevo Mapa
-    mapnbtutndj = new L.Map('LeafLetnbtutndj');
+    mapapgjnrzu = new L.Map('LeafLetapgjnrzu');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapnbtutndj.setView(new L.LatLng(25.54, -103.44), 12);
+    mapapgjnrzu.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapnbtutndj.addLayer(osm);
+    mapapgjnrzu.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +285,13 @@ $('#Lenguetasvgrejlox a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapnbtutndj);
+    }).addTo(mapapgjnrzu);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapnbtutndj === 'undefined') {
-    varinitmapnbtutndj = initmapnbtutndj();
+  if (typeof varinitmapapgjnrzu === 'undefined') {
+    varinitmapapgjnrzu = initmapapgjnrzu();
   };
 });
 FINAL;

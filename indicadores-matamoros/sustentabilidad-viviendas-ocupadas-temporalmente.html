@@ -135,7 +135,7 @@
     <h1>Viviendas Ocupadas Temporalmente en Matamoros</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnxdpsnev">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetascspyyzvd">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -167,7 +167,7 @@ Vivienda particular destinada para vacacionar o vivir algunos días, semanas o m
 Porcentaje
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLeturrziojq" class="mapa"></div>
+              <div id="LeafLethqdkxgmq" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -243,12 +243,12 @@ Porcentaje
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnxdpsnev a:first').tab('show')
+  $('#Lenguetascspyyzvd a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnxdpsnev a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetascspyyzvd a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapurrziojq;
+  var maphqdkxgmq;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -265,17 +265,17 @@ $('#Lenguetasnxdpsnev a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapurrziojq() {
+  function initmaphqdkxgmq() {
     // Nuevo Mapa
-    mapurrziojq = new L.Map('LeafLeturrziojq');
+    maphqdkxgmq = new L.Map('LeafLethqdkxgmq');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapurrziojq.setView(new L.LatLng(25.54, -103.44), 12);
+    maphqdkxgmq.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapurrziojq.addLayer(osm);
+    maphqdkxgmq.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -308,13 +308,13 @@ $('#Lenguetasnxdpsnev a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapurrziojq);
+    }).addTo(maphqdkxgmq);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapurrziojq === 'undefined') {
-    varinitmapurrziojq = initmapurrziojq();
+  if (typeof varinitmaphqdkxgmq === 'undefined') {
+    varinitmaphqdkxgmq = initmaphqdkxgmq();
   };
 });
 </script>

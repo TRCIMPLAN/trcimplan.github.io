@@ -25,7 +25,7 @@ class SociedadMedicos extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbbtapsur">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbaarparb">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -133,10 +133,10 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morriswruawpid" class="grafica"></div>
+<div id="Morrischwtfsxo" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetsjcvmcwt" class="mapa"></div>
+              <div id="LeafLetplsaewjo" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -544,14 +544,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbbtapsur a:first').tab('show')
+  $('#Lenguetasbaarparb a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbbtapsur a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbaarparb a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriswruawpid === 'undefined') {
-    varMorriswruawpid = Morris.Line({
-      element: 'Morriswruawpid',
+  if (typeof varMorrischwtfsxo === 'undefined') {
+    varMorrischwtfsxo = Morris.Line({
+      element: 'Morrischwtfsxo',
       data: [{ fecha: '2001-12-31', dato: 3.3000 },{ fecha: '2002-12-31', dato: 3.4000 },{ fecha: '2003-12-31', dato: 3.3000 },{ fecha: '2004-12-31', dato: 3.3000 },{ fecha: '2005-12-31', dato: 3.0000 },{ fecha: '2006-12-31', dato: 3.9000 },{ fecha: '2007-12-31', dato: 3.7000 },{ fecha: '2008-12-31', dato: 4.0000 },{ fecha: '2009-12-31', dato: 4.0000 },{ fecha: '2010-12-31', dato: 4.1000 },{ fecha: '2011-12-31', dato: 4.2000 },{ fecha: '2012-12-31', dato: 4.3000 },{ fecha: '2013-12-31', dato: 4.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -563,9 +563,9 @@ $('#Lenguetasbbtapsur a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasbbtapsur a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbaarparb a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapsjcvmcwt;
+  var mapplsaewjo;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -582,17 +582,17 @@ $('#Lenguetasbbtapsur a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapsjcvmcwt() {
+  function initmapplsaewjo() {
     // Nuevo Mapa
-    mapsjcvmcwt = new L.Map('LeafLetsjcvmcwt');
+    mapplsaewjo = new L.Map('LeafLetplsaewjo');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapsjcvmcwt.setView(new L.LatLng(25.54, -103.44), 12);
+    mapplsaewjo.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapsjcvmcwt.addLayer(osm);
+    mapplsaewjo.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -625,13 +625,13 @@ $('#Lenguetasbbtapsur a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapsjcvmcwt);
+    }).addTo(mapplsaewjo);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapsjcvmcwt === 'undefined') {
-    varinitmapsjcvmcwt = initmapsjcvmcwt();
+  if (typeof varinitmapplsaewjo === 'undefined') {
+    varinitmapplsaewjo = initmapplsaewjo();
   };
 });
 FINAL;

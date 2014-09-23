@@ -135,7 +135,7 @@
     <h1>Discapacidad en Torreón</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvudcefic">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasptsohjil">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
   </ul>
@@ -168,7 +168,7 @@ Porcentaje
 Consulta o descarga la [Base de Datos](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
     </div>
     <div class="tab-pane active" id="mapa">
-              <div id="LeafLetgfvndppl" class="mapa"></div>
+              <div id="LeafLethkiqudja" class="mapa"></div>
     </div>
   </div>
 </article>
@@ -200,12 +200,12 @@ Consulta o descarga la [Base de Datos](http://www.inegi.org.mx/sistemas/consulta
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvudcefic a:first').tab('show')
+  $('#Lenguetasptsohjil a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvudcefic a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasptsohjil a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapgfvndppl;
+  var maphkiqudja;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -222,17 +222,17 @@ $('#Lenguetasvudcefic a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapgfvndppl() {
+  function initmaphkiqudja() {
     // Nuevo Mapa
-    mapgfvndppl = new L.Map('LeafLetgfvndppl');
+    maphkiqudja = new L.Map('LeafLethkiqudja');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapgfvndppl.setView(new L.LatLng(25.54, -103.44), 12);
+    maphkiqudja.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapgfvndppl.addLayer(osm);
+    maphkiqudja.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -265,13 +265,13 @@ $('#Lenguetasvudcefic a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapgfvndppl);
+    }).addTo(maphkiqudja);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapgfvndppl === 'undefined') {
-    varinitmapgfvndppl = initmapgfvndppl();
+  if (typeof varinitmaphkiqudja === 'undefined') {
+    varinitmaphkiqudja = initmaphkiqudja();
   };
 });
 </script>

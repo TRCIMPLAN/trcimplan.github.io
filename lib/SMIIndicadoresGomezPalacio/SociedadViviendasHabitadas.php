@@ -25,7 +25,7 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetashqzknenf">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgnzgmqrl">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
 Cantidad
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLethehcexnb" class="mapa"></div>
+              <div id="LeafLetejeegdiz" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -108,12 +108,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetashqzknenf a:first').tab('show')
+  $('#Lenguetasgnzgmqrl a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetashqzknenf a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasgnzgmqrl a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maphehcexnb;
+  var mapejeegdiz;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +130,17 @@ $('#Lenguetashqzknenf a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaphehcexnb() {
+  function initmapejeegdiz() {
     // Nuevo Mapa
-    maphehcexnb = new L.Map('LeafLethehcexnb');
+    mapejeegdiz = new L.Map('LeafLetejeegdiz');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maphehcexnb.setView(new L.LatLng(25.54, -103.44), 12);
+    mapejeegdiz.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maphehcexnb.addLayer(osm);
+    mapejeegdiz.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +173,13 @@ $('#Lenguetashqzknenf a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maphehcexnb);
+    }).addTo(mapejeegdiz);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaphehcexnb === 'undefined') {
-    varinitmaphehcexnb = initmaphehcexnb();
+  if (typeof varinitmapejeegdiz === 'undefined') {
+    varinitmapejeegdiz = initmapejeegdiz();
   };
 });
 FINAL;

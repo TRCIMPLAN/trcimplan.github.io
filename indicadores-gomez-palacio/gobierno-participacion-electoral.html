@@ -135,7 +135,7 @@
     <h1>Participación Electoral en Gómez Palacio</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetashmkiyhfe">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasevmstqri">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -167,7 +167,7 @@ Porcentaje de personas que emitieron su voto.
 Porcentaje
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetvorbjnmb" class="mapa"></div>
+              <div id="LeafLetalqwyhqp" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -243,12 +243,12 @@ Porcentaje
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetashmkiyhfe a:first').tab('show')
+  $('#Lenguetasevmstqri a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetashmkiyhfe a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasevmstqri a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapvorbjnmb;
+  var mapalqwyhqp;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -265,17 +265,17 @@ $('#Lenguetashmkiyhfe a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapvorbjnmb() {
+  function initmapalqwyhqp() {
     // Nuevo Mapa
-    mapvorbjnmb = new L.Map('LeafLetvorbjnmb');
+    mapalqwyhqp = new L.Map('LeafLetalqwyhqp');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapvorbjnmb.setView(new L.LatLng(25.54, -103.44), 12);
+    mapalqwyhqp.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapvorbjnmb.addLayer(osm);
+    mapalqwyhqp.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -308,13 +308,13 @@ $('#Lenguetashmkiyhfe a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapvorbjnmb);
+    }).addTo(mapalqwyhqp);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapvorbjnmb === 'undefined') {
-    varinitmapvorbjnmb = initmapvorbjnmb();
+  if (typeof varinitmapalqwyhqp === 'undefined') {
+    varinitmapalqwyhqp = initmapalqwyhqp();
   };
 });
 </script>

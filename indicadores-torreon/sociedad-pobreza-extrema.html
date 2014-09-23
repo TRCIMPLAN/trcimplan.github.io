@@ -135,7 +135,7 @@
     <h1>Pobreza Extrema en Torreón</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasjzrrmljs">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasczrwwdno">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -169,7 +169,7 @@ Porcentaje
 Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrgjzyhku" class="mapa"></div>
+              <div id="LeafLetypmakbei" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -266,12 +266,12 @@ Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasjzrrmljs a:first').tab('show')
+  $('#Lenguetasczrwwdno a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasjzrrmljs a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasczrwwdno a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprgjzyhku;
+  var mapypmakbei;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -288,17 +288,17 @@ $('#Lenguetasjzrrmljs a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprgjzyhku() {
+  function initmapypmakbei() {
     // Nuevo Mapa
-    maprgjzyhku = new L.Map('LeafLetrgjzyhku');
+    mapypmakbei = new L.Map('LeafLetypmakbei');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprgjzyhku.setView(new L.LatLng(25.54, -103.44), 12);
+    mapypmakbei.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprgjzyhku.addLayer(osm);
+    mapypmakbei.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -331,13 +331,13 @@ $('#Lenguetasjzrrmljs a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprgjzyhku);
+    }).addTo(mapypmakbei);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprgjzyhku === 'undefined') {
-    varinitmaprgjzyhku = initmaprgjzyhku();
+  if (typeof varinitmapypmakbei === 'undefined') {
+    varinitmapypmakbei = initmapypmakbei();
   };
 });
 </script>

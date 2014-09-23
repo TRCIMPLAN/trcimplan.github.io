@@ -25,7 +25,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento20082012 extends \Base\Publ
         $this->claves      = 'Matamoros, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvawfzako">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaskhdmheho">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -61,7 +61,7 @@ A nivel nacional el porcentaje de producción en sectores con tasa promedio de c
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/) y [Centro de Estudios de las Finanzas Públicas](http://www.cefp.gob.mx/Pub_Macro_Estadisticas.htm)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbnnumedf" class="mapa"></div>
+              <div id="LeafLetcapwqeyc" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -119,12 +119,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvawfzako a:first').tab('show')
+  $('#Lenguetaskhdmheho a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvawfzako a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaskhdmheho a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbnnumedf;
+  var mapcapwqeyc;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -141,17 +141,17 @@ $('#Lenguetasvawfzako a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbnnumedf() {
+  function initmapcapwqeyc() {
     // Nuevo Mapa
-    mapbnnumedf = new L.Map('LeafLetbnnumedf');
+    mapcapwqeyc = new L.Map('LeafLetcapwqeyc');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbnnumedf.setView(new L.LatLng(25.54, -103.44), 12);
+    mapcapwqeyc.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbnnumedf.addLayer(osm);
+    mapcapwqeyc.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -184,13 +184,13 @@ $('#Lenguetasvawfzako a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbnnumedf);
+    }).addTo(mapcapwqeyc);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbnnumedf === 'undefined') {
-    varinitmapbnnumedf = initmapbnnumedf();
+  if (typeof varinitmapcapwqeyc === 'undefined') {
+    varinitmapcapwqeyc = initmapcapwqeyc();
   };
 });
 FINAL;

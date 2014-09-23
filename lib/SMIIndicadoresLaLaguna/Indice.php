@@ -248,12 +248,12 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3,938</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1,201</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">113</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">38</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -278,12 +278,17 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo de Vehículos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">490</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">152</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Robos Totales</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">638</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Secuestros</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

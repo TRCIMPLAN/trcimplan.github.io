@@ -25,7 +25,7 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Educación, Cultura';
         $this->categorias  = array('Educación', 'Cultura');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasaudbhdeq">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetassygqcbwo">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Por cada 100 mil
 Se realizó un filtrado básico de la totalidad de los espacios culturales considerados por CONACULTA, ya que ellos consideran programas, fondos y proyectos a sus estadísticas totales, así como eventos que fueron realizados en una ocasión y datan de hace más de 5 años. Consulta la [Base de Datos completa](http://www.sic.gob.mx)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetsssuxkke" class="mapa"></div>
+              <div id="LeafLetqwvjgwdk" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +110,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasaudbhdeq a:first').tab('show')
+  $('#Lenguetassygqcbwo a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasaudbhdeq a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetassygqcbwo a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapsssuxkke;
+  var mapqwvjgwdk;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +132,17 @@ $('#Lenguetasaudbhdeq a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapsssuxkke() {
+  function initmapqwvjgwdk() {
     // Nuevo Mapa
-    mapsssuxkke = new L.Map('LeafLetsssuxkke');
+    mapqwvjgwdk = new L.Map('LeafLetqwvjgwdk');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapsssuxkke.setView(new L.LatLng(25.54, -103.44), 12);
+    mapqwvjgwdk.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapsssuxkke.addLayer(osm);
+    mapqwvjgwdk.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +175,13 @@ $('#Lenguetasaudbhdeq a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapsssuxkke);
+    }).addTo(mapqwvjgwdk);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapsssuxkke === 'undefined') {
-    varinitmapsssuxkke = initmapsssuxkke();
+  if (typeof varinitmapqwvjgwdk === 'undefined') {
+    varinitmapqwvjgwdk = initmapqwvjgwdk();
   };
 });
 FINAL;

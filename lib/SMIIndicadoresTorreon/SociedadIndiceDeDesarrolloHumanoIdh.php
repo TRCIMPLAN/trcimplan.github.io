@@ -25,7 +25,7 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
         $this->claves      = 'Torreón, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasusokwxxb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasirxtqafm">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones U
 De 0 a 1
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetqjvkhyzn" class="mapa"></div>
+              <div id="LeafLetlniosqtk" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -101,12 +101,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasusokwxxb a:first').tab('show')
+  $('#Lenguetasirxtqafm a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasusokwxxb a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasirxtqafm a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapqjvkhyzn;
+  var maplniosqtk;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -123,17 +123,17 @@ $('#Lenguetasusokwxxb a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapqjvkhyzn() {
+  function initmaplniosqtk() {
     // Nuevo Mapa
-    mapqjvkhyzn = new L.Map('LeafLetqjvkhyzn');
+    maplniosqtk = new L.Map('LeafLetlniosqtk');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapqjvkhyzn.setView(new L.LatLng(25.54, -103.44), 12);
+    maplniosqtk.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapqjvkhyzn.addLayer(osm);
+    maplniosqtk.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -166,13 +166,13 @@ $('#Lenguetasusokwxxb a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapqjvkhyzn);
+    }).addTo(maplniosqtk);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapqjvkhyzn === 'undefined') {
-    varinitmapqjvkhyzn = initmapqjvkhyzn();
+  if (typeof varinitmaplniosqtk === 'undefined') {
+    varinitmaplniosqtk = initmaplniosqtk();
   };
 });
 FINAL;

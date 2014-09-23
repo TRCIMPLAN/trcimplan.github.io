@@ -135,7 +135,7 @@
     <h1>Viviendas Deshabitadas en La Laguna</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnhrfovmq">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbdhhqhqa">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -169,7 +169,7 @@ Porcentaje
 Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/implan2.html)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetmdrqufit" class="mapa"></div>
+              <div id="LeafLetybeznhhx" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -245,12 +245,12 @@ Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnhrfovmq a:first').tab('show')
+  $('#Lenguetasbdhhqhqa a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnhrfovmq a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbdhhqhqa a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapmdrqufit;
+  var mapybeznhhx;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -267,17 +267,17 @@ $('#Lenguetasnhrfovmq a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapmdrqufit() {
+  function initmapybeznhhx() {
     // Nuevo Mapa
-    mapmdrqufit = new L.Map('LeafLetmdrqufit');
+    mapybeznhhx = new L.Map('LeafLetybeznhhx');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapmdrqufit.setView(new L.LatLng(25.54, -103.44), 12);
+    mapybeznhhx.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapmdrqufit.addLayer(osm);
+    mapybeznhhx.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -310,13 +310,13 @@ $('#Lenguetasnhrfovmq a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapmdrqufit);
+    }).addTo(mapybeznhhx);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapmdrqufit === 'undefined') {
-    varinitmapmdrqufit = initmapmdrqufit();
+  if (typeof varinitmapybeznhhx === 'undefined') {
+    varinitmapybeznhhx = initmapybeznhhx();
   };
 });
 </script>

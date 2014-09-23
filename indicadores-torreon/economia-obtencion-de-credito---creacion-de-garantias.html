@@ -135,7 +135,7 @@
     <h1>Obtención de crédito - Creación de garantías en Torreón</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfgxkyszj">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbstgzbsq">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
   </ul>
@@ -169,7 +169,7 @@ Días transcurridos en el proceso de obtención de un crédito.
 Días
     </div>
     <div class="tab-pane active" id="mapa">
-              <div id="LeafLetothodpzm" class="mapa"></div>
+              <div id="LeafLetesihnpoy" class="mapa"></div>
     </div>
   </div>
 </article>
@@ -201,12 +201,12 @@ Días
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfgxkyszj a:first').tab('show')
+  $('#Lenguetasbstgzbsq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasfgxkyszj a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbstgzbsq a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapothodpzm;
+  var mapesihnpoy;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -223,17 +223,17 @@ $('#Lenguetasfgxkyszj a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapothodpzm() {
+  function initmapesihnpoy() {
     // Nuevo Mapa
-    mapothodpzm = new L.Map('LeafLetothodpzm');
+    mapesihnpoy = new L.Map('LeafLetesihnpoy');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapothodpzm.setView(new L.LatLng(25.54, -103.44), 12);
+    mapesihnpoy.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapothodpzm.addLayer(osm);
+    mapesihnpoy.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -266,13 +266,13 @@ $('#Lenguetasfgxkyszj a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapothodpzm);
+    }).addTo(mapesihnpoy);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapothodpzm === 'undefined') {
-    varinitmapothodpzm = initmapothodpzm();
+  if (typeof varinitmapesihnpoy === 'undefined') {
+    varinitmapesihnpoy = initmapesihnpoy();
   };
 });
 </script>

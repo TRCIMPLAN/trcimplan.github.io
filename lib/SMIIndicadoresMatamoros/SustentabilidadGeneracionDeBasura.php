@@ -25,7 +25,7 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvusorqfl">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashypatzhw">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Kilogramos diarios por cada diez personas
 Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.aspx?t=mamb1065&s=est&c=33986)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetwzuwjsny" class="mapa"></div>
+              <div id="LeafLeticewvimb" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -131,12 +131,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvusorqfl a:first').tab('show')
+  $('#Lenguetashypatzhw a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasvusorqfl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetashypatzhw a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapwzuwjsny;
+  var mapicewvimb;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -153,17 +153,17 @@ $('#Lenguetasvusorqfl a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapwzuwjsny() {
+  function initmapicewvimb() {
     // Nuevo Mapa
-    mapwzuwjsny = new L.Map('LeafLetwzuwjsny');
+    mapicewvimb = new L.Map('LeafLeticewvimb');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapwzuwjsny.setView(new L.LatLng(25.54, -103.44), 12);
+    mapicewvimb.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapwzuwjsny.addLayer(osm);
+    mapicewvimb.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -196,13 +196,13 @@ $('#Lenguetasvusorqfl a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapwzuwjsny);
+    }).addTo(mapicewvimb);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapwzuwjsny === 'undefined') {
-    varinitmapwzuwjsny = initmapwzuwjsny();
+  if (typeof varinitmapicewvimb === 'undefined') {
+    varinitmapicewvimb = initmapicewvimb();
   };
 });
 FINAL;

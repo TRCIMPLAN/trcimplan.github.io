@@ -135,7 +135,7 @@
     <h1>Población Estimada en Matamoros</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrbovwdpt">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasiyitxkmc">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -225,10 +225,10 @@ Estimaciones de CONAPO en base a INEGI. Consulta la [Base de Datos](http://www.c
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisbowjzykm" class="grafica"></div>
+<div id="Morrisyimutprh" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetqoqqgoso" class="mapa"></div>
+              <div id="LeafLetrberelyl" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -766,14 +766,14 @@ Estimaciones de CONAPO en base a INEGI. Consulta la [Base de Datos](http://www.c
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrbovwdpt a:first').tab('show')
+  $('#Lenguetasiyitxkmc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasrbovwdpt a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasiyitxkmc a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisbowjzykm === 'undefined') {
-    varMorrisbowjzykm = Morris.Line({
-      element: 'Morrisbowjzykm',
+  if (typeof varMorrisyimutprh === 'undefined') {
+    varMorrisyimutprh = Morris.Line({
+      element: 'Morrisyimutprh',
       data: [{ fecha: '2011-06-30', dato: 109264 },{ fecha: '2012-06-30', dato: 110244 },{ fecha: '2013-06-30', dato: 111305 },{ fecha: '2014-06-30', dato: 112434 },{ fecha: '2015-06-30', dato: 113612 },{ fecha: '2016-06-30', dato: 114829 },{ fecha: '2017-06-30', dato: 116078 },{ fecha: '2018-06-30', dato: 117349 },{ fecha: '2019-06-30', dato: 118631 },{ fecha: '2020-06-30', dato: 119919 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -785,9 +785,9 @@ $('#Lenguetasrbovwdpt a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasrbovwdpt a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasiyitxkmc a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapqoqqgoso;
+  var maprberelyl;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -804,17 +804,17 @@ $('#Lenguetasrbovwdpt a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapqoqqgoso() {
+  function initmaprberelyl() {
     // Nuevo Mapa
-    mapqoqqgoso = new L.Map('LeafLetqoqqgoso');
+    maprberelyl = new L.Map('LeafLetrberelyl');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapqoqqgoso.setView(new L.LatLng(25.54, -103.44), 12);
+    maprberelyl.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapqoqqgoso.addLayer(osm);
+    maprberelyl.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -847,13 +847,13 @@ $('#Lenguetasrbovwdpt a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapqoqqgoso);
+    }).addTo(maprberelyl);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapqoqqgoso === 'undefined') {
-    varinitmapqoqqgoso = initmapqoqqgoso();
+  if (typeof varinitmaprberelyl === 'undefined') {
+    varinitmaprberelyl = initmaprberelyl();
   };
 });
 </script>

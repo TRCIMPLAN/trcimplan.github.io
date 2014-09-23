@@ -25,7 +25,7 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
         $this->claves      = 'Lerdo, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnnvnphaq">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasognxnouh">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -63,7 +63,7 @@ El índice de especialización en manufactura a nivel nacional es de:
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetsotwjtov" class="mapa"></div>
+              <div id="LeafLetiswfnfzb" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -114,12 +114,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnnvnphaq a:first').tab('show')
+  $('#Lenguetasognxnouh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnnvnphaq a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasognxnouh a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapsotwjtov;
+  var mapiswfnfzb;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -136,17 +136,17 @@ $('#Lenguetasnnvnphaq a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapsotwjtov() {
+  function initmapiswfnfzb() {
     // Nuevo Mapa
-    mapsotwjtov = new L.Map('LeafLetsotwjtov');
+    mapiswfnfzb = new L.Map('LeafLetiswfnfzb');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapsotwjtov.setView(new L.LatLng(25.54, -103.44), 12);
+    mapiswfnfzb.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapsotwjtov.addLayer(osm);
+    mapiswfnfzb.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -179,13 +179,13 @@ $('#Lenguetasnnvnphaq a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapsotwjtov);
+    }).addTo(mapiswfnfzb);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapsotwjtov === 'undefined') {
-    varinitmapsotwjtov = initmapsotwjtov();
+  if (typeof varinitmapiswfnfzb === 'undefined') {
+    varinitmapiswfnfzb = initmapiswfnfzb();
   };
 });
 FINAL;

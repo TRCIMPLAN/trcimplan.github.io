@@ -25,7 +25,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->claves      = 'Torreón, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnswaaqca">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasnfxmkfke">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -139,10 +139,10 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morriszegmhkcf" class="grafica"></div>
+<div id="Morrisqgltznqt" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetxbxtgxtc" class="mapa"></div>
+              <div id="LeafLeteybwjkvs" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -795,14 +795,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnswaaqca a:first').tab('show')
+  $('#Lenguetasnfxmkfke a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnswaaqca a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnfxmkfke a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriszegmhkcf === 'undefined') {
-    varMorriszegmhkcf = Morris.Line({
-      element: 'Morriszegmhkcf',
+  if (typeof varMorrisqgltznqt === 'undefined') {
+    varMorrisqgltznqt = Morris.Line({
+      element: 'Morrisqgltznqt',
       data: [{ fecha: '2001-12-31', dato: 42 },{ fecha: '2002-12-31', dato: 42 },{ fecha: '2003-12-31', dato: 72 },{ fecha: '2004-12-31', dato: 42 },{ fecha: '2005-12-31', dato: 42 },{ fecha: '2006-12-31', dato: 51 },{ fecha: '2007-12-31', dato: 48 },{ fecha: '2008-12-31', dato: 51 },{ fecha: '2009-12-31', dato: 51 },{ fecha: '2010-12-31', dato: 51 },{ fecha: '2011-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 51 },{ fecha: '2013-12-31', dato: 51 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -814,9 +814,9 @@ $('#Lenguetasnswaaqca a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasnswaaqca a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnfxmkfke a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapxbxtgxtc;
+  var mapeybwjkvs;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -833,17 +833,17 @@ $('#Lenguetasnswaaqca a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapxbxtgxtc() {
+  function initmapeybwjkvs() {
     // Nuevo Mapa
-    mapxbxtgxtc = new L.Map('LeafLetxbxtgxtc');
+    mapeybwjkvs = new L.Map('LeafLeteybwjkvs');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapxbxtgxtc.setView(new L.LatLng(25.54, -103.44), 12);
+    mapeybwjkvs.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapxbxtgxtc.addLayer(osm);
+    mapeybwjkvs.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -876,13 +876,13 @@ $('#Lenguetasnswaaqca a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapxbxtgxtc);
+    }).addTo(mapeybwjkvs);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapxbxtgxtc === 'undefined') {
-    varinitmapxbxtgxtc = initmapxbxtgxtc();
+  if (typeof varinitmapeybwjkvs === 'undefined') {
+    varinitmapeybwjkvs = initmapeybwjkvs();
   };
 });
 FINAL;

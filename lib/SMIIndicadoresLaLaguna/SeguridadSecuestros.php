@@ -25,8 +25,9 @@ class SeguridadSecuestros extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetassnufebit">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdfzsalsd">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -46,8 +47,38 @@ Cantidad de secuestros en el primer trimestre de 2014
 </thead>
 <tbody>
 <tr>
-<td class="centrado">30/06/2014</td>
+<td class="centrado">31/01/2014</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">28/02/2014</td>
 <td class="derecha">2</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">31/03/2014</td>
+<td class="derecha">3</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/04/2014</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">31/05/2014</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td class="centrado">30/06/2014</td>
+<td class="derecha">0</td>
 <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
 <td>Datos correspondientes al segundo trimestre de 2014</td>
 </tr>
@@ -56,8 +87,12 @@ Cantidad de secuestros en el primer trimestre de 2014
 <b>Unidad:</b>
 Cantidad
     </div>
+    <div class="tab-pane" id="grafica">
+      <h4>Gráfica</h4>
+<div id="Morrisgejwmpvi" class="grafica"></div>
+    </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetlzfzever" class="mapa"></div>
+              <div id="LeafLetvtivneca" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -74,17 +109,59 @@ Cantidad
 <tbody>
 <tr>
 <td>Torreón</td>
-<td>2014-06-30</td>
+<td>2014-01-31</td>
 <td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-02-28</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-03-31</td>
+<td class="derecha">2</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-04-30</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-05-31</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2014-06-30</td>
+<td class="derecha">0</td>
 <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
 <td>Datos correspondientes al segundo trimestre de 2014</td>
 </tr>
 <tr>
 <td>Gómez Palacio</td>
-<td>2014-06-30</td>
+<td>2014-02-28</td>
 <td class="derecha">1</td>
 <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td>Datos correspondientes al segundo trimestre de 2014</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2014-05-31</td>
+<td class="derecha">1</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
 </tr>
 <tr>
 <td>Lerdo</td>
@@ -92,6 +169,41 @@ Cantidad
 <td class="derecha">0</td>
 <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
 <td>Datos correspondientes al segundo trimestre de 2014</td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-01-31</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-02-28</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-03-31</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-04-30</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-05-31</td>
+<td class="derecha">0</td>
+<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+<td></td>
 </tr>
 <tr>
 <td>Matamoros</td>
@@ -108,12 +220,28 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetassnufebit a:first').tab('show')
+  $('#Lenguetasdfzsalsd a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetassnufebit a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdfzsalsd a[href="#grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisgejwmpvi === 'undefined') {
+    varMorrisgejwmpvi = Morris.Line({
+      element: 'Morrisgejwmpvi',
+      data: [{ fecha: '2014-01-31', dato: 1 },{ fecha: '2014-02-28', dato: 2 },{ fecha: '2014-03-31', dato: 3 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 1 },{ fecha: '2014-06-30', dato: 0 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA
+$('#Lenguetasdfzsalsd a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maplzfzever;
+  var mapvtivneca;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +258,17 @@ $('#Lenguetassnufebit a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaplzfzever() {
+  function initmapvtivneca() {
     // Nuevo Mapa
-    maplzfzever = new L.Map('LeafLetlzfzever');
+    mapvtivneca = new L.Map('LeafLetvtivneca');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maplzfzever.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvtivneca.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maplzfzever.addLayer(osm);
+    mapvtivneca.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +301,13 @@ $('#Lenguetassnufebit a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maplzfzever);
+    }).addTo(mapvtivneca);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaplzfzever === 'undefined') {
-    varinitmaplzfzever = initmaplzfzever();
+  if (typeof varinitmapvtivneca === 'undefined') {
+    varinitmapvtivneca = initmapvtivneca();
   };
 });
 FINAL;

@@ -25,7 +25,7 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Macroeconomía, Empleo';
         $this->categorias  = array('Macroeconomía', 'Empleo');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbokylkxq">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvfjvidej">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Pesos
 Indicador tomado del Índice de Competitividad Urbana 2012 del Instituto Mexicano para la Competitividad. Ir a [base de datos](http://porciudad.comparadondevives.org/contacto)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrwvqllrk" class="mapa"></div>
+              <div id="LeafLetfqbursib" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +110,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbokylkxq a:first').tab('show')
+  $('#Lenguetasvfjvidej a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbokylkxq a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvfjvidej a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprwvqllrk;
+  var mapfqbursib;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +132,17 @@ $('#Lenguetasbokylkxq a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprwvqllrk() {
+  function initmapfqbursib() {
     // Nuevo Mapa
-    maprwvqllrk = new L.Map('LeafLetrwvqllrk');
+    mapfqbursib = new L.Map('LeafLetfqbursib');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprwvqllrk.setView(new L.LatLng(25.54, -103.44), 12);
+    mapfqbursib.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprwvqllrk.addLayer(osm);
+    mapfqbursib.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +175,13 @@ $('#Lenguetasbokylkxq a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprwvqllrk);
+    }).addTo(mapfqbursib);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprwvqllrk === 'undefined') {
-    varinitmaprwvqllrk = initmaprwvqllrk();
+  if (typeof varinitmapfqbursib === 'undefined') {
+    varinitmapfqbursib = initmapfqbursib();
   };
 });
 FINAL;

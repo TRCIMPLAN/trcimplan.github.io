@@ -135,7 +135,7 @@
     <h1>Porcentaje de Accidentes Viales Fatales en Torreón</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmsfmqzxb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspcxykhel">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -167,7 +167,7 @@ Porcentaje de accidentes fatales entre accidentes viales totales
 Porcentaje
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLethvbgoeiz" class="mapa"></div>
+              <div id="LeafLetuqrhpdgg" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -243,12 +243,12 @@ Porcentaje
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmsfmqzxb a:first').tab('show')
+  $('#Lenguetaspcxykhel a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasmsfmqzxb a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspcxykhel a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maphvbgoeiz;
+  var mapuqrhpdgg;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -265,17 +265,17 @@ $('#Lenguetasmsfmqzxb a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaphvbgoeiz() {
+  function initmapuqrhpdgg() {
     // Nuevo Mapa
-    maphvbgoeiz = new L.Map('LeafLethvbgoeiz');
+    mapuqrhpdgg = new L.Map('LeafLetuqrhpdgg');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maphvbgoeiz.setView(new L.LatLng(25.54, -103.44), 12);
+    mapuqrhpdgg.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maphvbgoeiz.addLayer(osm);
+    mapuqrhpdgg.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -308,13 +308,13 @@ $('#Lenguetasmsfmqzxb a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maphvbgoeiz);
+    }).addTo(mapuqrhpdgg);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaphvbgoeiz === 'undefined') {
-    varinitmaphvbgoeiz = initmaphvbgoeiz();
+  if (typeof varinitmapuqrhpdgg === 'undefined') {
+    varinitmapuqrhpdgg = initmapuqrhpdgg();
   };
 });
 </script>

@@ -25,7 +25,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Movilidad, Vialidad';
         $this->categorias  = array('Movilidad', 'Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbxspiwtb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashrabtkrz">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Porcentaje
 Censo de Población y Vivienda 2010. Consulta las [Bases de Datos](http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetdpxbceqy" class="mapa"></div>
+              <div id="LeafLetwfmutlza" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +110,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbxspiwtb a:first').tab('show')
+  $('#Lenguetashrabtkrz a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbxspiwtb a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetashrabtkrz a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapdpxbceqy;
+  var mapwfmutlza;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +132,17 @@ $('#Lenguetasbxspiwtb a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapdpxbceqy() {
+  function initmapwfmutlza() {
     // Nuevo Mapa
-    mapdpxbceqy = new L.Map('LeafLetdpxbceqy');
+    mapwfmutlza = new L.Map('LeafLetwfmutlza');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapdpxbceqy.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwfmutlza.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapdpxbceqy.addLayer(osm);
+    mapwfmutlza.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +175,13 @@ $('#Lenguetasbxspiwtb a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapdpxbceqy);
+    }).addTo(mapwfmutlza);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapdpxbceqy === 'undefined') {
-    varinitmapdpxbceqy = initmapdpxbceqy();
+  if (typeof varinitmapwfmutlza === 'undefined') {
+    varinitmapwfmutlza = initmapwfmutlza();
   };
 });
 FINAL;

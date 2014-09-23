@@ -25,7 +25,7 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasxubuxpns">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszmbxhjfk">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Porcentaje
 Descarga de [Base de Datos](http://www3.inegi.org.mx/sistemas/productos/default.aspx?c=265&upc=0&s=est&tg=3594&f=2&cl=0&pf=prod&ef=0&ct=201100000&pg=2)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetartlmvct" class="mapa"></div>
+              <div id="LeafLetpnqfdrmw" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +110,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasxubuxpns a:first').tab('show')
+  $('#Lenguetaszmbxhjfk a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasxubuxpns a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszmbxhjfk a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapartlmvct;
+  var mappnqfdrmw;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +132,17 @@ $('#Lenguetasxubuxpns a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapartlmvct() {
+  function initmappnqfdrmw() {
     // Nuevo Mapa
-    mapartlmvct = new L.Map('LeafLetartlmvct');
+    mappnqfdrmw = new L.Map('LeafLetpnqfdrmw');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapartlmvct.setView(new L.LatLng(25.54, -103.44), 12);
+    mappnqfdrmw.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapartlmvct.addLayer(osm);
+    mappnqfdrmw.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +175,13 @@ $('#Lenguetasxubuxpns a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapartlmvct);
+    }).addTo(mappnqfdrmw);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapartlmvct === 'undefined') {
-    varinitmapartlmvct = initmapartlmvct();
+  if (typeof varinitmappnqfdrmw === 'undefined') {
+    varinitmappnqfdrmw = initmappnqfdrmw();
   };
 });
 FINAL;
