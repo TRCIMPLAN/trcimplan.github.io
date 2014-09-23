@@ -40,6 +40,7 @@ $clases = array(
     '\Contacto\Imprenta',
     '\Eventos\Imprenta',
     '\Institucional\Imprenta',
+    '\PlanEstrategicoMetropolitano\Imprenta',
     '\Proyectos\Imprenta',
     '\SalaPrensa\Imprenta',
     '\SIG\Imprenta',

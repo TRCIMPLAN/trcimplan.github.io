@@ -53,6 +53,7 @@ $directorios = array(
     'Contacto',
     'Eventos',
     'Institucional',
+    'PlanEstrategicoMetropolitano',
     'Proyectos',
     'SalaPrensa',
     'SIG',
