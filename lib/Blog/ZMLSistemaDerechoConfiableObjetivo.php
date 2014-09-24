@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - ZML en Sistema de Derecho Confiable y Objetivo
+ * SMIbeta - La Zona Metropolitana de La Laguna y sus municipios en Sistema de Derecho Confiable y Objetivo
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

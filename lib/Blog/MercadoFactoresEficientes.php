@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Mercado de Factores Eficientes
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Una ciudad con futuro
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

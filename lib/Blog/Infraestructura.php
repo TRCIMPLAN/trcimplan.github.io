@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Infraestructura (Sectores precursores de clase mundial)
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

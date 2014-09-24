@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

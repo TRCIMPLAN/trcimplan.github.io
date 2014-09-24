@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - La Laguna debe apostarle a la Industria Automotriz
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

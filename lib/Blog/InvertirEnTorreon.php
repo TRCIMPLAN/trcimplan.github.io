@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Invertir en Torreón
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Relaciones Internacionales
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

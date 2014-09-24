@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Hacia Donde Debe Dirigirse Torreon
+ * SMIbeta - Hacia dónde debe dirigirse Torreón
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

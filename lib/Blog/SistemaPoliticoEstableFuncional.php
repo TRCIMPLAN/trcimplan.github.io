@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Sistema Político Estable y Funcional
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -33,7 +33,7 @@ class SistemaPoliticoEstableFuncional extends \Base\Publicacion {
     public function __construct() {
         $this->fecha         = '2014-06-10';
         $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->nombre        = 'Sistema político estable y funcional';
+        $this->nombre        = 'Sistema Político Estable y Funcional';
         $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
         $this->archivo       = 'sistema-politico-estable-funcional';

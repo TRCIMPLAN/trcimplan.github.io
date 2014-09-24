@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Sociedad incluyente, preparada y sana
+ * SMIbeta - Sociedad Incluyente, Preparada y Sana
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -33,7 +33,7 @@ class SociedadIncluyentePreparadaSana extends \Base\Publicacion {
     public function __construct() {
         $this->fecha         = '2014-06-06';
         $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->nombre        = 'Sociedad incluyente, preparada y sana';
+        $this->nombre        = 'Sociedad Incluyente, Preparada y Sana';
         $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
         $this->archivo       = 'sociedad-incluyente-preparada-sana';

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Economía Estable
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

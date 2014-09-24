@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - La Zona Metropolitana de La Laguna y sus municipios en manejo sustentable del medio ambiente
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

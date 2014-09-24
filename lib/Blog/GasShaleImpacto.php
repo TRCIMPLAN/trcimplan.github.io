@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - El Gas Shale y su impacto
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

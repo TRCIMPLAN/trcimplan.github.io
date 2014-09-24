@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * SMIbeta - Sueños Posibles
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

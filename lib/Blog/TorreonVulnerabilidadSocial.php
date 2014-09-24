@@ -33,7 +33,7 @@ class TorreonVulnerabilidadSocial extends \Base\Publicacion {
     public function __construct() {
         $this->fecha         = '2014-06-13';
         $this->autor         = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->nombre        = 'Torreón y la vulnerabilidad social';
+        $this->nombre        = 'Torreón y la Vulnerabilidad Social';
         $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
         $this->archivo       = 'torreon-vulnerabilidad-social';
