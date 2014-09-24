@@ -35,7 +35,7 @@ class AperturaEmpresas2014 extends \Base\Publicacion {
         $this->nombre        = 'Apertura de Empresas 2014';
         $this->autor         = 'Lic. Alicia Valdez Ibarra';
         $this->fecha         = '2014-09-24';
-        // El nombre del archivo a crear, la ruta a la imagen previa y el encabezado (opcionales los últimos dos)
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales)
         $this->archivo       = 'apertura-empresas-2014';
         $this->imagen_previa = 'apertura-empresas-2014/imagen-previa.jpg';
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="apertura-empresas-2014/encabezado.jpg">';

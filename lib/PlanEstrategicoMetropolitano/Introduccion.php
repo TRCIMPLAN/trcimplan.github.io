@@ -31,25 +31,39 @@ class Introduccion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-09-24';
-     // $this->autor         = 'TrcIMPLAN';
+        // Título, autor y fecha con el formato AAAA-MM-DD
         $this->nombre        = 'Plan Estratégico Metropolitano';
-        $this->nombre_menu   = 'Plan Estratégico Metropolitano';
-        $this->directorio    = 'plan-estrategico-metropolitano';
+        $this->autor         = 'Autor';
+        $this->fecha         = '2014-09-24';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo       = 'introduccion';
-        $this->descripcion   = '.';
+     // $this->imagen_previa = 'introduccion/imagen-previa.jpg';
+        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="introduccion/banner.jpg">';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion   = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves        = 'IMPLAN, Torreon';
-     // $this->imagen_previa = 'plan-estrategico-metropolitano/imagen-previa.jpg';
         $this->categorias    = array('Plan Estrategico Metropolitano');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="plan-estrategico-metropolitano/encabezado.jpg">';
+        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
+        $this->directorio    = 'plan-estrategico-metropolitano';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu   = 'Plan Estratégico Metropolitano';
+        // El contenido HTML y el JavaScript
         $this->contenido     = <<<FINAL
-<h2>¿Qué es?</h2>
+<h2>¿Qué es el Plan Estratégico Metropolitano?</h2>
 
 <p>El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.</p>
 
 <h2>¿En qué me beneficia?</h2>
 
-<h2>¿Cómo va a ser?</h2>
+<p>Es un amplo ejercicio de corresponsabilidad y gobernanza que concentrará las visiones y opiniones de seis grandes temas: Buen Gobierno, Desarrollo Económico y Competitividad, Desarrollo Social, Movilidad y Transporte, Sustentabilidad y Entorno Urbano.</p>
+
+<p>Tu participación será vital para identificar y concretar las líneas de acción que seguirán gobernantes y gobernados, del amplio número de necesidades y proyectos que requiere la Laguna para ser mejor.</p>
+
+<h2>¿Quienes lo elaboran?</h2>
+
+<p>Es formulado por sobresalientes y diversos actores locales, motivados por su compromiso de mejorar la zona metropolitana. Entre ellos están representantes de instituciones gubernamentales y no gubernamentales, grupos de profesionales expertos y actores sociales estratégicos.</p>
+
+<p>Se apoyarán con información proporcionada por ciudadanos y el equipo técnico del IMPLAN Torreón quienes coordinarán, ordenarán y publicarán este procedimiento.</p>
 
 <h2>¿De qué forma puedo participar?</h2>
 

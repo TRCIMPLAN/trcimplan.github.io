@@ -30,8 +30,8 @@ class NavegacionConfig {
     protected $sitio_titulo = 'IMPLAN Torreón';
     protected $logotipo     = 'imagenes/implan-barra-logo-chico-gris.png';
     protected $opciones     = array(
-        'Análisis Publicados' => 'blog/index.html',
         'Plan Estratégico Metropolitano' => 'plan-estrategico-metropolitano/introduccion.html',
+        'Análisis Publicados' => 'blog/index.html',
         'Indicadores' => array(
             'Introducción al SMI'       => 'smi/introduccion.html',
             'Categorías'                => 'indicadores-categorias/index.html',
