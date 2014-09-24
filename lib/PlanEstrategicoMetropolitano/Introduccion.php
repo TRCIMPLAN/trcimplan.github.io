@@ -55,7 +55,7 @@ class Introduccion extends \Base\Publicacion {
 
 <h2>¿En qué me beneficia?</h2>
 
-<p>El PEM es un amplo ejercicio de corresponsabilidad y gobernanza que concentrará las visiones y opiniones de seis grandes temas: <strong>Buen Gobierno, Desarrollo Económico y Competitividad, Desarrollo Social, Movilidad y Transporte, Sustentabilidad y Entorno Urbano.</strong></p>
+<p>El PEM es un amplio ejercicio de corresponsabilidad y gobernanza que concentrará las visiones y opiniones de seis grandes temas: <strong>Buen Gobierno, Desarrollo Económico y Competitividad, Desarrollo Social, Movilidad y Transporte, Sustentabilidad y Entorno Urbano.</strong></p>
 
 <p>Tu participación será vital para <strong>identificar y concretar las líneas de acción más efectivas</strong> que seguirán <strong>gobernantes y gobernados</strong>, de la gran cantidad de necesidades y proyectos que requiere la Laguna para ser mejor.</p>
 
