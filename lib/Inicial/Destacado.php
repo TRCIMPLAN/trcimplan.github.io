@@ -37,19 +37,19 @@ class Destacado {
         $a = array();
         // Acumular
         $a[] = '  <!-- DESTACADO -->';
-        $a[] = '  <div class="row">';
-        $a[] = '    <div class="col-md-4">IMAGEN</div>';
-        $a[] = '    <div class="col-md-8">Plan Estratégico Metropolitano</div>';
+        $a[] = '  <div class="destacado">';
+        $a[] = '    <div class="row">';
+        $a[] = '      <div class="col-md-4">IMAGEN</div>';
+        $a[] = '      <div class="col-md-8">Plan Estratégico Metropolitano</div>';
+        $a[] = '    </div>';
+        $a[] = '    <div class="row">';
+        $a[] = '      <div class="col-md-4">IMAGEN</div>';
+        $a[] = '      <div class="col-md-8">Sistema Metropolitano de Indicadores</div>';
+        $a[] = '    </div>';
         $a[] = '  </div>';
-        $a[] = '';
         // Entregar
         return implode("\n", $a)."\n";
     } // html
-/*
-
-
-
- */
 
     /**
      * Javascript

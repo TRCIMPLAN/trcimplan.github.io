@@ -33,7 +33,15 @@ class Encabezado {
      * @return string Código HTML
      */
     public function html() {
-        return '<a href="plan-estrategico-metropolitano/introduccion.html"><img src="plan-estrategico-metropolitano/introduccion/banner.jpg" alt="Plan Estratégico Metropolitano"></a>';
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+        $a[] = '  <!-- DESTACADO -->';
+        $a[] = '  <div class="encabezado">';
+        $a[] = '    <a href="plan-estrategico-metropolitano/introduccion.html"><img src="plan-estrategico-metropolitano/introduccion/banner.jpg" alt="Plan Estratégico Metropolitano"></a>';
+        $a[] = '  </div>';
+        // Entregar
+        return implode("\n", $a)."\n";
     } // html
 
     /**

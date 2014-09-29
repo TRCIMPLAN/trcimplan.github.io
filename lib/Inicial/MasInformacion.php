@@ -42,7 +42,14 @@ class MasInformacion {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '';
+        $a[] = '  <!-- MAS INFORMACION -->';
+        $a[] = '  <div class="destacado">';
+        $a[] = '    <div class="row">';
+        $a[] = '      <div class="col-md-4">Sección</div>';
+        $a[] = '      <div class="col-md-4">Sección</div>';
+        $a[] = '      <div class="col-md-4">Sección</div>';
+        $a[] = '    </div>';
+        $a[] = '  </div>';
         // Entregar
         return implode("\n", $a)."\n";
     } // html

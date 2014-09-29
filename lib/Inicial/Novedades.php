@@ -28,12 +28,6 @@ namespace Inicial;
 class Novedades {
 
     /**
-     * Constructor
-     */
-    public function __construct() {
-    } // constructor
-
-    /**
      * HTML
      *
      * @return string Código HTML
@@ -42,7 +36,13 @@ class Novedades {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '';
+        $a[] = '  <!-- NOVEDADES -->';
+        $a[] = '  <div class="novedades">';
+        $a[] = '    <div class="row">';
+        $a[] = '      <div class="col-md-8">Lista de novedades</div>';
+        $a[] = '      <div class="col-md-4">Twitter timeline</div>';
+        $a[] = '    </div>';
+        $a[] = '  </div>';
         // Entregar
         return implode("\n", $a)."\n";
     } // html
