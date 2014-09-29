@@ -92,6 +92,12 @@ class Plantilla extends \Configuracion\PlantillaConfig {
      * @return string Código HTML
      */
     protected function cabezera() {
+        // Título
+        if (($this->titulo == '') || ($this->titulo == $this->sitio_titulo)) {
+            $titulo = $this->sitio_titulo;
+        } else {
+            $titulo = "{$this->titulo} - {$this->sitio_titulo}";
+        }
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
@@ -110,24 +116,20 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         }
         if ($this->para_compartir) {
             $a[] = "  <meta name=\"twitter:card\" content=\"summary\">";
-            $a[] = "  <meta name=\"twitter:title\" content=\"{$this->titulo}\">";
+            $a[] = "  <meta name=\"twitter:title\" content=\"$titulo\">";
             $a[] = "  <meta name=\"twitter:description\" content=\"{$this->descripcion}\">";
             if ($this->imagen_previa != '') {
                 $a[] = sprintf('  <meta name="twitter:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa);
             }
             $a[] = sprintf('  <meta name="twitter:url" content="%s/%s">', $this->sitio_url, $this->ruta);
-            $a[] = "  <meta name=\"og:title\" content=\"{$this->titulo}\">";
+            $a[] = "  <meta name=\"og:title\" content=\"$titulo\">";
             $a[] = "  <meta name=\"og:description\" content=\"{$this->descripcion}\">";
             if ($this->imagen_previa != '') {
                 $a[] = sprintf('  <meta name="og:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa);
             }
             $a[] = sprintf('  <meta name="og:url" content="%s/%s">', $this->sitio_url, $this->ruta);
         }
-        if ($this->titulo == '') {
-            $a[] = "  <title>{$this->sitio_titulo}</title>";
-        } else {
-            $a[] = "  <title>{$this->titulo} - {$this->sitio_titulo}</title>";
-        }
+        $a[] = "  <title>$titulo</title>";
         if ($this->en_raiz) {
             if ($this->favicon != '') {
                 $a[] = "  <link href=\"{$this->favicon}\" rel=\"shortcut icon\" type=\"image/x-icon\">";
