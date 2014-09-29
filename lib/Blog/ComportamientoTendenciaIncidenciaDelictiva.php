@@ -46,6 +46,8 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\Publicacion {
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio    = 'blog';
         $this->nombre_menu   = 'Análisis Publicados';
+        // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
+        $this->estado        = 'publicar';
         // El contenido HTML y el JavaScript
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="comportamiento-tendencia-incidencia-delictiva/imagen.jpg"></span>

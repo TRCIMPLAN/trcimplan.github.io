@@ -160,6 +160,10 @@ class Imprenta {
             $publicacion = new $clase();
             // Si es instancia de Publicacion, se acumula
             if ($publicacion instanceof Publicacion) {
+                // Si el estado es diferente de publicar o revisar, se salta
+                if (($publicacion->estado != 'publicar') && ($publicacion->estado != 'revisar')) {
+                    continue;
+                }
                 // La clave del arreglo asociativo es el tiempo_creado-archivo
                 $clave              = "{$publicacion->tiempo_creado()}-{$publicacion->archivo}";
                 $instancias[$clave] = $publicacion;

@@ -71,6 +71,10 @@ class Indice {
             if (!($p instanceof Publicacion)) {
                 throw new \Exception("Error en Indice, html: Una publicación no es una instancia de Publicacion.");
             }
+            // Si el estado no es 'publicar', se salta
+            if ($p->estado != 'publicar') {
+                continue;
+            }
             // Acumular
             $a[] = '            <div class="media breve">';
             if ($p->imagen_previa != '') {

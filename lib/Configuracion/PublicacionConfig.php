@@ -31,6 +31,7 @@ class PublicacionConfig {
     public $autor                     = 'TrcIMPLAN';  // El nombre o apodo a quien se le atribuye
     public $aparece_en_pagina_inicial = true;         // Verdadero si va aparecer en la página de inicio
     public $imagen_previa             = '';           // Ruta relativa a un archivo de imagen para la vista previa
+    public $estado                    = 'publicar';   // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
 
 } // Clase PublicacionConfig
 
