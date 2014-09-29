@@ -28,12 +28,6 @@ namespace Inicial;
 class Destacado {
 
     /**
-     * Constructor
-     */
-    public function __construct() {
-    } // constructor
-
-    /**
      * HTML
      *
      * @return string Código HTML
@@ -42,10 +36,20 @@ class Destacado {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
+        $a[] = '  <!-- DESTACADO -->';
+        $a[] = '  <div class="row">';
+        $a[] = '    <div class="col-md-4">IMAGEN</div>';
+        $a[] = '    <div class="col-md-8">Plan Estratégico Metropolitano</div>';
+        $a[] = '  </div>';
         $a[] = '';
         // Entregar
         return implode("\n", $a)."\n";
     } // html
+/*
+
+
+
+ */
 
     /**
      * Javascript

@@ -28,23 +28,12 @@ namespace Inicial;
 class Encabezado {
 
     /**
-     * Constructor
-     */
-    public function __construct() {
-    } // constructor
-
-    /**
      * HTML
      *
      * @return string Código HTML
      */
     public function html() {
-        // Acumularemos la entrega en este arreglo
-        $a = array();
-        // Acumular
-        $a[] = '';
-        // Entregar
-        return implode("\n", $a)."\n";
+        return '<a href="plan-estrategico-metropolitano/introduccion.html"><img src="plan-estrategico-metropolitano/introduccion/banner.jpg" alt="Plan Estratégico Metropolitano"></a>';
     } // html
 
     /**
