@@ -44,9 +44,10 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public $ruta;                 // Ruta relativa a la pagina HTML
     public $imagen_previa;        // Ruta relativa a la imagen
     public $navegacion;           // Instancia de \Base\Navegacion
-    public $contenido;            // Texto o arreglo, código HTML con el contenido
+    public $contenido  = array(); // Texto o arreglo, código HTML con el contenido
     public $mapa_inferior;        // Instancia de \Base\MapaInferior
     public $javascript = array(); // Arreglo que acumula el código Javascript a poner al final de la página
+    public $contenido_en_renglon = true; // Encierra el contenido en renglón y cuerpo.
 
     /**
      * Incorporar Publicacion
@@ -238,12 +239,6 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         if (!($this->navegacion instanceof Navegacion)) {
             throw new \Exception("Error en Plantilla, html: La propiedad navegacion no es instancia de Navegacion.");
         }
-        if (!is_object($this->mapa_inferior)) {
-            throw new \Exception("Error en Plantilla, html: La propiedad mapa_inferior no es una instancia.");
-        }
-        if (!($this->mapa_inferior instanceof MapaInferior)) {
-            throw new \Exception("Error en Plantilla, html: La propiedad mapa_inferior no es instancia de MapaInferior.");
-        }
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
@@ -258,8 +253,10 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a[] = $this->navegacion->html();
         // Contenido inicia
         $a[] = '  <div id="page-wrapper">';
-        $a[] = '    <div class="row">';
-        $a[] = '      <div class="cuerpo">';
+        if ($this->contenido_en_renglon) {
+            $a[] = '    <div class="row">';
+            $a[] = '      <div class="cuerpo">';
+        }
         if (is_string($this->contenido) && (trim($this->contenido) != '')) {
             $a[] = $this->contenido;
         } elseif (is_array($this->contenido) && (count($this->contenido) > 0)) {
@@ -267,9 +264,13 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         } else {
             $a[] = "<b>No hay contenido para esta página.</b>";
         }
-        $a[] = '      </div>'; // cuerpo
-        $a[] = '    </div>';   // row
-        $a[] = $this->mapa_inferior->html();
+        if ($this->contenido_en_renglon) {
+            $a[] = '      </div>'; // cuerpo
+            $a[] = '    </div>';   // row
+        }
+        if (is_object($this->mapa_inferior) && ($this->mapa_inferior instanceof MapaInferior)) {
+            $a[] = $this->mapa_inferior->html();
+        }
         $a[] = '  </div>';     // page-wrapper
         // Contenido termina
         $a[] = '</div>';       // wrapper

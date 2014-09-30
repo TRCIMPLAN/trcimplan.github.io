@@ -68,44 +68,31 @@ class PaginaInicial extends \Base\Plantilla {
      * @return string Código HTML
      */
     public function html() {
+        // Indicar al padre que no queremos encerrar el contenido con row y cuerpo
+        $this->contenido_en_renglon = false;
         // Navegacion
         $this->navegacion          = new \Base\Navegacion();
         $this->navegacion->en_raiz = true;
-        // Iniciar contenido
-        $this->contenido = array();
-        // Carrusel
-        $carrusel          = new Carrusel();
-        $this->contenido[] = "<!-- CARRUSEL -->";
-        $this->contenido[] = $carrusel->html();
-        //
-        $this->contenido[]  = '        <div class="row">';
-        // Resumen de Análisis Publicados
-        $analisis           = new \Blog\Imprenta();
-        $resumenes          = $analisis->elaborar_resumenes();
-        $resumenes->en_raiz = true;
-        $this->contenido[]  = "<!-- RESUMENES ANALISIS PUBLICADOS -->";
-        $this->contenido[]  = "          <div class=\"col-md-4\">\n".$resumenes->html()."\n          </div>";
-        // Resumen de SIG
-        $sig                = new \SIG\Imprenta();
-        $resumenes          = $sig->elaborar_resumenes();
-        $resumenes->en_raiz = true;
-        $this->contenido[]  = "<!-- RESUMENES SIG -->";
-        $this->contenido[]  = "          <div class=\"col-md-4\">\n".$resumenes->html()."\n          </div>";
-        // Resumen de Indicadores
-        $smi                = new \SMICategorias\Imprenta();
-        $resumenes          = $smi->elaborar_resumenes();
-        $resumenes->titulo  = 'Sistema Metropolitano de Indicadores';
-        $resumenes->en_raiz = true;
-        $this->contenido[]  = "<!-- RESUMENES SMI CATEGORIAS -->";
-        $this->contenido[]  = "          <div class=\"col-md-4\">\n".$resumenes->html()."\n          </div>";
-        //
-        $this->contenido[]  = "        </div>"; // row
+        // Encabezado
+        $encabezado         = new Encabezado();
+        $this->contenido[]  = $encabezado->html();
+        $this->javascript[] = $encabezado->javascript();
         // Destacado
-/*      $destacado         = new Destacado();
-        $this->contenido[] = $destacado->html(); */
-        // Mapa Inferior
-        $this->mapa_inferior          = new \Base\MapaInferior();
-        $this->mapa_inferior->en_raiz = true;
+        $destacado          = new Destacado();
+        $this->contenido[]  = $destacado->html();
+        $this->javascript[] = $destacado->javascript();
+        // Novedades
+        $novedades          = new Novedades();
+        $this->contenido[]  = $novedades->html();
+        $this->javascript[] = $novedades->javascript();
+        // Mapa
+        $mapa               = new Mapa();
+        $this->contenido[]  = $mapa->html();
+        $this->javascript[] = $mapa->javascript();
+        // Redes
+        $redes              = new Redes();
+        $this->contenido[]  = $redes->html();
+        $this->javascript[] = $redes->javascript();
         // Entregar resultado del padre
         return parent::html();
     } // html

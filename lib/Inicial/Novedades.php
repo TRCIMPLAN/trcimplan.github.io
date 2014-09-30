@@ -37,12 +37,28 @@ class Novedades {
         $a = array();
         // Acumular
         $a[] = '  <!-- NOVEDADES -->';
-        $a[] = '  <div class="novedades">';
+        $a[] = '  <section id="novedades">';
         $a[] = '    <div class="row">';
-        $a[] = '      <div class="col-md-8">Lista de novedades</div>';
-        $a[] = '      <div class="col-md-4">Twitter timeline</div>';
+        $a[] = '      <div class="col-md-8">';
+        $a[] = '        <div class="analisis-publicados">';
+        // Análisis Inicia
+        $analisis                   = new \Blog\Imprenta();
+        $resumenes                  = $analisis->elaborar_resumenes(); // Entrega una instancia de \Base\Resumenes
+        $resumenes->en_raiz         = true;
+        $resumenes->cantidad_maxima = 4;
+        $a[]                        = $resumenes->html();
+        // Análisis Termina
+        $a[] = '        </div>';
+        $a[] = '      </div>';
+        $a[] = '      <div class="col-md-4">';
+        $a[] = '        <div class="red-social-twitter">';
+        // Twitter Timeline Inicia
+        $a[] = '<a class="twitter-timeline" height="600px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>';
+        // Twitter Timeline Termina
+        $a[] = '        </div>';
+        $a[] = '      </div>';
         $a[] = '    </div>';
-        $a[] = '  </div>';
+        $a[] = '  </section>';
         // Entregar
         return implode("\n", $a)."\n";
     } // html
@@ -53,7 +69,8 @@ class Novedades {
      * @return string Código Javascript
      */
     public function javascript() {
-        return '';
+        // Twitter Timeline
+        return '!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?\'http\':\'https\';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");';
     } // javascript
 
 } // Clase Novedades

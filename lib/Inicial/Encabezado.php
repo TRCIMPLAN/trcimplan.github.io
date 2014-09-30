@@ -36,10 +36,10 @@ class Encabezado {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '  <!-- DESTACADO -->';
-        $a[] = '  <div class="encabezado">';
-        $a[] = '    <a href="plan-estrategico-metropolitano/introduccion.html"><img src="plan-estrategico-metropolitano/introduccion/banner.jpg" alt="Plan Estratégico Metropolitano"></a>';
-        $a[] = '  </div>';
+        $a[] = '  <!-- ENCABEZADO -->';
+        $a[] = '  <section id="encabezado">';
+        $a[] = '    <img class="banner" src="imagenes/banner-implan.jpg" alt="IMPLAN Torreón">';
+        $a[] = '  </section>';
         // Entregar
         return implode("\n", $a)."\n";
     } // html

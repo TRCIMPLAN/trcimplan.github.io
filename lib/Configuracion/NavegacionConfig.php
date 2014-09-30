@@ -53,9 +53,9 @@ class NavegacionConfig {
             'Mensaje del Director'   => 'institucional/mensaje-director.html',
             'Quienes Somos'          => 'institucional/quienes-somos.html',
             'Estructura Orgánica'    => 'institucional/estructura-organica.html',
-            'Transparencia'          => 'http://www.icai.org.mx/ipmn/Principal.php?sujeto=0',
             'Reglamentos'            => 'institucional/reglamentos.html',
-            'Información Financiera' => 'institucional/informacion-financiera.html'),
+            'Información Financiera' => 'institucional/informacion-financiera.html',
+            'Transparencia'          => 'http://www.icai.org.mx/ipmn/dependencias/impyc'),
         'Consejo Directivo' => 'consejo-directivo/integrantes.html',
         'Comunicados' => array(
             'Eventos'        => 'eventos/index.html',

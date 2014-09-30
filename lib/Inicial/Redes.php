@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Más Información
+ * SMIbeta - Redes
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -23,9 +23,9 @@
 namespace Inicial;
 
 /**
- * Clase MasInformacion
+ * Clase Redes
  */
-class MasInformacion {
+class Redes {
 
     /**
      * Constructor
@@ -42,14 +42,22 @@ class MasInformacion {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '  <!-- MAS INFORMACION -->';
-        $a[] = '  <div class="destacado">';
+        $a[] = '  <!-- REDES -->';
+        $a[] = '  <section id="redes">';
         $a[] = '    <div class="row">';
-        $a[] = '      <div class="col-md-4">Sección</div>';
-        $a[] = '      <div class="col-md-4">Sección</div>';
-        $a[] = '      <div class="col-md-4">Sección</div>';
+        $a[] = '      <div class="col-md-8">';
+        $a[] = '        <a href="index.html"><img class="img-responsive logotipo" src="imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>';
+        $a[] = '      </div>';
+        $a[] = '      <div class="col-md-4">';
+        $a[] = '        <div class="pull-right redes-sociales">';
+        $a[] = '          <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>';
+        $a[] = '          <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>';
+        $a[] = '          <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>';
+        $a[] = '          <a class="fa fa-rss-square" href="rss.xml"></a>';
+        $a[] = '        </div>';
+        $a[] = '      </div>';
         $a[] = '    </div>';
-        $a[] = '  </div>';
+        $a[] = '  </section>';
         // Entregar
         return implode("\n", $a)."\n";
     } // html
@@ -63,6 +71,6 @@ class MasInformacion {
         return '';
     } // javascript
 
-} // Clase MasInformacion
+} // Clase Redes
 
 ?>
