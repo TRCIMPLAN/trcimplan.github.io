@@ -28,7 +28,7 @@ namespace Configuracion;
 class MapaInferiorConfig {
 
     public $sitio_titulo = 'IMPLAN Torreón';
-    public $logotipo     = 'imagenes/implan-barra-mediano.png';
+    public $logotipo     = 'imagenes/implan-transparente-gris.png';
     protected $opciones  = array(
         'Análisis Publicados' => 'blog/index.html',
         'SMI'                 => 'smi/introduccion.html',

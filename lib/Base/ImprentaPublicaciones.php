@@ -38,6 +38,7 @@ class ImprentaPublicaciones extends Imprenta {
     protected $directorio;               // Nombre del directorio en la raíz del sitio
     protected $ruta;                     // Ruta al archivo HTML para el índice, por ejemplo 'eventos/index.html'
     protected $nombre_menu;              // Etiqueta del menú que pondrá como opción activa
+    protected $concentrador = 'Indice';  // Clase que concentrará este conjunto de publicaciones. Puede ser 'Indice' o 'Galeria'.
 
     /**
      * Elaborar resúmenes para la página de inicial
@@ -48,7 +49,7 @@ class ImprentaPublicaciones extends Imprenta {
         // Cargar publicaciones
         $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio);
         // Iniciar instancia de Resumenes con las publicaciones
-        $resumenes         = new \Base\Resumenes($publicaciones);
+        $resumenes         = new Resumenes($publicaciones);
         $resumenes->titulo = $this->titulo;
         // Entregarla
         return $resumenes;
@@ -60,6 +61,10 @@ class ImprentaPublicaciones extends Imprenta {
      * @return string Mensajes para la terminal
      */
     public function imprimir() {
+        // Validar concentrador
+        if (($this->concentrador != 'Indice') && ($this->concentrador != 'Galeria')) {
+            throw new \Exception("Error: El concentrador es incorrecto.");
+        }
         // Cargar la plantilla para publicaciones
         $this->plantilla                = new \Base\Plantilla();
         $this->plantilla->navegacion    = new \Base\Navegacion();
@@ -77,8 +82,12 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->navegacion    = new \Base\Navegacion();
         $this->plantilla->mapa_inferior = new \Base\MapaInferior();
         // Cargar el índice con las publicaciones
-        $indice         = new \Base\Indice($publicaciones);
-        $indice->titulo = $this->titulo;
+        if ($this->concentrador == 'Indice') {
+            $concentrador = new Indice($publicaciones);
+        } elseif ($this->concentrador == 'Galeria') {
+            $concentrador = new Galeria($publicaciones);
+        }
+        $concentrador->titulo = $this->titulo;
         // Cargar la plantilla para índice
         $this->plantilla->titulo                    = $this->titulo;
         $this->plantilla->descripcion               = $this->descripcion;
@@ -86,11 +95,11 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->directorio                = $this->directorio;
         $this->plantilla->ruta                      = $this->ruta;
         $this->plantilla->navegacion->opcion_activa = $this->nombre_menu;
-        $this->plantilla->contenido                 = $indice->html();
+        $this->plantilla->contenido                 = $concentrador->html();
         // Imprimir index.html
         parent::imprimir();
         // Agregar mensaje
-        $this->mensajes[] = "Se ha impreso el índice.";
+        $this->mensajes[] = "Se ha impreso el/la {$this->concentrador}.";
         // Entregar mensajes
         return implode("\n", $this->mensajes);
     } // imprimir

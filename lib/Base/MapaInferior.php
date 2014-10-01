@@ -44,9 +44,9 @@ class MapaInferior extends \Configuracion\MapaInferiorConfig {
         $a[] = '    <div class="row">';
         $a[] = '      <div class="inferior">';
         if ($this->en_raiz) {
-            $a[] = "          <a href=\"index.html\"><img class=\"inferior-logo\" src=\"{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
+            $a[] = "          <a href=\"index.html\"><img class=\"img-responsive inferior-logo\" src=\"{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
         } else {
-            $a[] = "          <a href=\"../index.html\"><img class=\"inferior-logo\" src=\"../{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
+            $a[] = "          <a href=\"../index.html\"><img class=\"img-responsive inferior-logo\" src=\"../{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
         }
         $a[] = '      </div>'; // inferior
         $a[] = '    </div>'; // row

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Índice
+ * SMIbeta - Galería
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -23,9 +23,9 @@
 namespace Base;
 
 /**
- * Clase Indice
+ * Clase Galeria
  */
-class Indice {
+class Galeria {
 
     public $encabezado;    // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
     public $titulo;        // Título de la página
@@ -62,8 +62,11 @@ class Indice {
         } elseif ($this->titulo != '') {
             $a[] = "        <h1>{$this->titulo}</h1>";
         }
-        // Acumular
+        // Tabla inicia
+        $a[] = '<div class="row">';
+        // Bucle por Publicaciones
         foreach ($this->publicaciones as $p) {
+            $a[] = '  <div class="col-xs-6 col-md-4 col-lg-3">';
             // Validar
             if (!is_object($p)) {
                 throw new \Exception("Error en Indice, html: Una publicación no es una instancia.");
@@ -76,33 +79,24 @@ class Indice {
                 continue;
             }
             // Acumular
-            $a[] = '            <div class="media breve">';
+            $a[] = '            <div class="thumbnail galeria-thumbnail">';
             if ($p->imagen_previa != '') {
-                $a[] = "              <a class=\"pull-left\" href=\"{$p->url()}\"><img class=\"media-object\" src=\"{$p->imagen_previa}\"></a>";
+                $a[] = "              <a href=\"{$p->url()}\"><img class=\"img-thumbnail imagen-previa\" src=\"{$p->imagen_previa}\" alt=\"{$p->nombre}\"></a>";
             } elseif ($p->icono != '') {
-                $a[] = "              <a class=\"pull-left {$p->icono} indice-icono\" href=\"{$p->url()}\"></a>";
+                $a[] = "              <a class=\"{$p->icono} galeria-icono\" href=\"{$p->url()}\"></a>";
             }
-            $a[] = '              <div class="media-body">';
-            $a[] = "                <h3 class=\"media-heading\"><a href=\"{$p->url()}\">{$p->nombre}</a></h3>";
-            $a[] = "                <p>{$p->descripcion}</p>";
-            $a[] = "                <p class=\"pull-left autor\">{$p->autor}, {$p->fecha_con_formato_humano()}</p>";
-            $a[] = "                <p class=\"pull-right leer-mas\"><a href=\"{$p->url()}\">Leer más</a></p>";
+            $a[] = '              <div class="caption">';
+            $a[] = "                <p class=\"galeria-nombre\"><a href=\"{$p->url()}\">{$p->nombre}</a></p>";
             $a[] = '              </div>';
             $a[] = '            </div>';
+            $a[] = '  </div>'; // col
         }
+        // Tabla termina
+        $a[] = '</div>'; // row
         // Entregar
-        return implode("\n", $a);
+        return implode("\n", $a)."\n";
     } // html
 
-    /**
-     * Javascript
-     *
-     * @return string Código Javascript
-     */
-    public function javascript() {
-        return false;
-    } // javascript
-
-} // Clase Indice
+} // Clase Galeria
 
 ?>

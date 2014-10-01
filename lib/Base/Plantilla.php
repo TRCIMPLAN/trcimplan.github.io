@@ -68,7 +68,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         if (!($this->navegacion instanceof Navegacion)) {
             throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad navegacion no es instancia de Navegacion.");
         }
-        // Inicializar propiedad acumuladora
+        // Inicializar el código JavaScript, porque puede quedar algo de publicaciones anteriores
         $this->javascript = array();
         // Esta publicación ocupará la página completa
         $completo           = new Completo($publicacion);
@@ -84,6 +84,8 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $this->directorio    = $publicacion->directorio;
         $this->ruta          = "{$publicacion->directorio}/{$publicacion->archivo}.html";
         $this->imagen_previa = $publicacion->imagen_previa;
+        $this->icono         = $publicacion->icono;
+        // Acumular el código Javascript que venga en la publicación
         $this->javascript[]  = $publicacion->javascript;
     } // incorporar_publicacion
 

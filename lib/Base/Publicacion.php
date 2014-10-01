@@ -31,6 +31,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     // public $autor;                     // El nombre o apodo a quien se le atribuye
     // public $aparece_en_pagina_inicial; // Verdadero si va aparecer en la página de inicio
     // public $imagen_previa;             // Ruta relativa a un archivo de imagen para la vista previa
+    // public $icono                      // Nombre del icono Font Awsome
+    // public $estado                     // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
     public $nombre;                       // Título completo
     public $nombre_menu;                  // Un título corto. Debe coincidir con la etiqueta usada en Navegacion
     public $directorio;                   // Directorio donde se guardará la publicación completa
