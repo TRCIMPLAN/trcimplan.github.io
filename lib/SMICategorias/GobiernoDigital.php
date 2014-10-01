@@ -17,12 +17,13 @@ class GobiernoDigital extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Gobierno Digital';
+        $this->nombre        = 'Gobierno Digital';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'gobierno-digital';
         $this->descripcion   = 'Matriz de indicadores en la categoría Gobierno Digital';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-laptop';
         $this->claves        = 'IMPLAN, Indicadores, Gobierno Digital';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

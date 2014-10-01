@@ -17,12 +17,13 @@ class Genero extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Género';
+        $this->nombre        = 'Género';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'genero';
         $this->descripcion   = 'Matriz de indicadores en la categoría Género';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-bullseye';
         $this->claves        = 'IMPLAN, Indicadores, Género';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

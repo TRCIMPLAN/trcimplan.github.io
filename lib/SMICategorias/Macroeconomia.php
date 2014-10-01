@@ -17,12 +17,13 @@ class Macroeconomia extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Macroeconomía';
+        $this->nombre        = 'Macroeconomía';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'macroeconomia';
         $this->descripcion   = 'Matriz de indicadores en la categoría Macroeconomía';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-usd';
         $this->claves        = 'IMPLAN, Indicadores, Macroeconomía';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

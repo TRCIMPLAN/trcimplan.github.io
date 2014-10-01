@@ -17,12 +17,13 @@ class RecursosNaturales extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Recursos Naturales';
+        $this->nombre        = 'Recursos Naturales';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'recursos-naturales';
         $this->descripcion   = 'Matriz de indicadores en la categoría Recursos Naturales';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-leaf';
         $this->claves        = 'IMPLAN, Indicadores, Recursos Naturales';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

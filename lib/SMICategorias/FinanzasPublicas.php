@@ -17,12 +17,13 @@ class FinanzasPublicas extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Finanzas Públicas';
+        $this->nombre        = 'Finanzas Públicas';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'finanzas-publicas';
         $this->descripcion   = 'Matriz de indicadores en la categoría Finanzas Públicas';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-database';
         $this->claves        = 'IMPLAN, Indicadores, Finanzas Públicas';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

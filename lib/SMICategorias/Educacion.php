@@ -17,12 +17,13 @@ class Educacion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Educación';
+        $this->nombre        = 'Educación';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'educacion';
         $this->descripcion   = 'Matriz de indicadores en la categoría Educación';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-book';
         $this->claves        = 'IMPLAN, Indicadores, Educación';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

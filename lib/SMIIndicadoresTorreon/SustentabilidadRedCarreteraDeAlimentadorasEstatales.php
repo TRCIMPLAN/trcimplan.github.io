@@ -25,7 +25,7 @@ class SustentabilidadRedCarreteraDeAlimentadorasEstatales extends \Base\Publicac
         $this->claves      = 'Torreón, Infraestructura';
         $this->categorias  = array('Infraestructura');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfetoqbvn">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbctetcbk">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Kilómetros
 No aplica a nivel metropolitano
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetscoikxta" class="mapa"></div>
+              <div id="LeafLetotipnrua" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -103,12 +103,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfetoqbvn a:first').tab('show')
+  $('#Lenguetasbctetcbk a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasfetoqbvn a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbctetcbk a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapscoikxta;
+  var mapotipnrua;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -125,17 +125,17 @@ $('#Lenguetasfetoqbvn a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapscoikxta() {
+  function initmapotipnrua() {
     // Nuevo Mapa
-    mapscoikxta = new L.Map('LeafLetscoikxta');
+    mapotipnrua = new L.Map('LeafLetotipnrua');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapscoikxta.setView(new L.LatLng(25.54, -103.44), 12);
+    mapotipnrua.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapscoikxta.addLayer(osm);
+    mapotipnrua.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -168,13 +168,13 @@ $('#Lenguetasfetoqbvn a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapscoikxta);
+    }).addTo(mapotipnrua);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapscoikxta === 'undefined') {
-    varinitmapscoikxta = initmapscoikxta();
+  if (typeof varinitmapotipnrua === 'undefined') {
+    varinitmapotipnrua = initmapotipnrua();
   };
 });
 FINAL;

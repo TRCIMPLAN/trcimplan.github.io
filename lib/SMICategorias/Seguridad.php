@@ -17,12 +17,13 @@ class Seguridad extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Seguridad';
+        $this->nombre        = 'Seguridad';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'seguridad';
         $this->descripcion   = 'Matriz de indicadores en la categoría Seguridad';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-crosshairs';
         $this->claves        = 'IMPLAN, Indicadores, Seguridad';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

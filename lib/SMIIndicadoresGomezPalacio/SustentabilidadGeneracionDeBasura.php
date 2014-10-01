@@ -25,7 +25,7 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnskslxmb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasiakyvjxv">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Kilogramos diarios por cada diez personas
 Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.aspx?t=mamb1065&s=est&c=33986)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetgiocomsv" class="mapa"></div>
+              <div id="LeafLetgcrdlrgv" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -131,12 +131,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnskslxmb a:first').tab('show')
+  $('#Lenguetasiakyvjxv a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnskslxmb a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasiakyvjxv a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapgiocomsv;
+  var mapgcrdlrgv;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -153,17 +153,17 @@ $('#Lenguetasnskslxmb a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapgiocomsv() {
+  function initmapgcrdlrgv() {
     // Nuevo Mapa
-    mapgiocomsv = new L.Map('LeafLetgiocomsv');
+    mapgcrdlrgv = new L.Map('LeafLetgcrdlrgv');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapgiocomsv.setView(new L.LatLng(25.54, -103.44), 12);
+    mapgcrdlrgv.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapgiocomsv.addLayer(osm);
+    mapgcrdlrgv.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -196,13 +196,13 @@ $('#Lenguetasnskslxmb a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapgiocomsv);
+    }).addTo(mapgcrdlrgv);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapgiocomsv === 'undefined') {
-    varinitmapgiocomsv = initmapgiocomsv();
+  if (typeof varinitmapgcrdlrgv === 'undefined') {
+    varinitmapgcrdlrgv = initmapgcrdlrgv();
   };
 });
 FINAL;

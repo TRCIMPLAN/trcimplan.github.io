@@ -25,7 +25,7 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Competitividad';
         $this->categorias  = array('Competitividad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasyrvpyegc">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasecjvtilb">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -57,7 +57,7 @@ El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Institut
 De 0 a 1
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetbyptczyd" class="mapa"></div>
+              <div id="LeafLetjzjrkgdq" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -108,12 +108,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasyrvpyegc a:first').tab('show')
+  $('#Lenguetasecjvtilb a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasyrvpyegc a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasecjvtilb a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapbyptczyd;
+  var mapjzjrkgdq;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -130,17 +130,17 @@ $('#Lenguetasyrvpyegc a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapbyptczyd() {
+  function initmapjzjrkgdq() {
     // Nuevo Mapa
-    mapbyptczyd = new L.Map('LeafLetbyptczyd');
+    mapjzjrkgdq = new L.Map('LeafLetjzjrkgdq');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapbyptczyd.setView(new L.LatLng(25.54, -103.44), 12);
+    mapjzjrkgdq.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapbyptczyd.addLayer(osm);
+    mapjzjrkgdq.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -173,13 +173,13 @@ $('#Lenguetasyrvpyegc a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapbyptczyd);
+    }).addTo(mapjzjrkgdq);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapbyptczyd === 'undefined') {
-    varinitmapbyptczyd = initmapbyptczyd();
+  if (typeof varinitmapjzjrkgdq === 'undefined') {
+    varinitmapjzjrkgdq = initmapjzjrkgdq();
   };
 });
 FINAL;

@@ -17,12 +17,13 @@ class Cultura extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Cultura';
+        $this->nombre        = 'Cultura';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'cultura';
         $this->descripcion   = 'Matriz de indicadores en la categoría Cultura';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-music';
         $this->claves        = 'IMPLAN, Indicadores, Cultura';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

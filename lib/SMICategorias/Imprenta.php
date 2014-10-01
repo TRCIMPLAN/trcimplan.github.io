@@ -38,6 +38,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->directorio               = 'indicadores-categorias';
         $this->ruta                     = 'indicadores-categorias/index.html';
         $this->nombre_menu              = 'Categorías';
+        $this->concentrador             = 'Galeria';
     } // constructor
 
 } // Clase Imprenta

@@ -25,7 +25,7 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Movilidad';
         $this->categorias  = array('Movilidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasuxbhxvsa">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasjfdfndmm">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -121,10 +121,10 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisfxwparke" class="grafica"></div>
+<div id="Morrispegsntvz" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetkkfzidyp" class="mapa"></div>
+              <div id="LeafLetkxhiiffl" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -238,14 +238,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasuxbhxvsa a:first').tab('show')
+  $('#Lenguetasjfdfndmm a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasuxbhxvsa a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasjfdfndmm a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisfxwparke === 'undefined') {
-    varMorrisfxwparke = Morris.Line({
-      element: 'Morrisfxwparke',
+  if (typeof varMorrispegsntvz === 'undefined') {
+    varMorrispegsntvz = Morris.Line({
+      element: 'Morrispegsntvz',
       data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -257,9 +257,9 @@ $('#Lenguetasuxbhxvsa a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasuxbhxvsa a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasjfdfndmm a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapkkfzidyp;
+  var mapkxhiiffl;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -276,17 +276,17 @@ $('#Lenguetasuxbhxvsa a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapkkfzidyp() {
+  function initmapkxhiiffl() {
     // Nuevo Mapa
-    mapkkfzidyp = new L.Map('LeafLetkkfzidyp');
+    mapkxhiiffl = new L.Map('LeafLetkxhiiffl');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapkkfzidyp.setView(new L.LatLng(25.54, -103.44), 12);
+    mapkxhiiffl.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapkkfzidyp.addLayer(osm);
+    mapkxhiiffl.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -319,13 +319,13 @@ $('#Lenguetasuxbhxvsa a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapkkfzidyp);
+    }).addTo(mapkxhiiffl);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapkkfzidyp === 'undefined') {
-    varinitmapkkfzidyp = initmapkkfzidyp();
+  if (typeof varinitmapkxhiiffl === 'undefined') {
+    varinitmapkxhiiffl = initmapkxhiiffl();
   };
 });
 FINAL;

@@ -25,7 +25,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->claves      = 'Torreón, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnfxmkfke">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetassusjdjvn">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -139,10 +139,10 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisqgltznqt" class="grafica"></div>
+<div id="Morrisqznblcwm" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLeteybwjkvs" class="mapa"></div>
+              <div id="LeafLetrsrdhfkb" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -795,14 +795,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnfxmkfke a:first').tab('show')
+  $('#Lenguetassusjdjvn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnfxmkfke a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetassusjdjvn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisqgltznqt === 'undefined') {
-    varMorrisqgltznqt = Morris.Line({
-      element: 'Morrisqgltznqt',
+  if (typeof varMorrisqznblcwm === 'undefined') {
+    varMorrisqznblcwm = Morris.Line({
+      element: 'Morrisqznblcwm',
       data: [{ fecha: '2001-12-31', dato: 42 },{ fecha: '2002-12-31', dato: 42 },{ fecha: '2003-12-31', dato: 72 },{ fecha: '2004-12-31', dato: 42 },{ fecha: '2005-12-31', dato: 42 },{ fecha: '2006-12-31', dato: 51 },{ fecha: '2007-12-31', dato: 48 },{ fecha: '2008-12-31', dato: 51 },{ fecha: '2009-12-31', dato: 51 },{ fecha: '2010-12-31', dato: 51 },{ fecha: '2011-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 51 },{ fecha: '2013-12-31', dato: 51 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -814,9 +814,9 @@ $('#Lenguetasnfxmkfke a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasnfxmkfke a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetassusjdjvn a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapeybwjkvs;
+  var maprsrdhfkb;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -833,17 +833,17 @@ $('#Lenguetasnfxmkfke a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapeybwjkvs() {
+  function initmaprsrdhfkb() {
     // Nuevo Mapa
-    mapeybwjkvs = new L.Map('LeafLeteybwjkvs');
+    maprsrdhfkb = new L.Map('LeafLetrsrdhfkb');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapeybwjkvs.setView(new L.LatLng(25.54, -103.44), 12);
+    maprsrdhfkb.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapeybwjkvs.addLayer(osm);
+    maprsrdhfkb.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -876,13 +876,13 @@ $('#Lenguetasnfxmkfke a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapeybwjkvs);
+    }).addTo(maprsrdhfkb);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapeybwjkvs === 'undefined') {
-    varinitmapeybwjkvs = initmapeybwjkvs();
+  if (typeof varinitmaprsrdhfkb === 'undefined') {
+    varinitmaprsrdhfkb = initmaprsrdhfkb();
   };
 });
 FINAL;

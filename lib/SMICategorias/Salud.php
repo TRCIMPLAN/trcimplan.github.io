@@ -17,12 +17,13 @@ class Salud extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Salud';
+        $this->nombre        = 'Salud';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'salud';
         $this->descripcion   = 'Matriz de indicadores en la categoría Salud';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-medkit';
         $this->claves        = 'IMPLAN, Indicadores, Salud';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

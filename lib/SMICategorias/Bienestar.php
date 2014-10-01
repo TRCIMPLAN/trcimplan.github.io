@@ -17,12 +17,13 @@ class Bienestar extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Bienestar';
+        $this->nombre        = 'Bienestar';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'bienestar';
         $this->descripcion   = 'Matriz de indicadores en la categoría Bienestar';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-child';
         $this->claves        = 'IMPLAN, Indicadores, Bienestar';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

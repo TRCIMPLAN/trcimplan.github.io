@@ -25,7 +25,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Género';
         $this->categorias  = array('Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnvilkhbr">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetastzqyoltn">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Porcentaje
 Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/implan2.html)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrujliryv" class="mapa"></div>
+              <div id="LeafLetaugoynao" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -103,12 +103,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnvilkhbr a:first').tab('show')
+  $('#Lenguetastzqyoltn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasnvilkhbr a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetastzqyoltn a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprujliryv;
+  var mapaugoynao;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -125,17 +125,17 @@ $('#Lenguetasnvilkhbr a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprujliryv() {
+  function initmapaugoynao() {
     // Nuevo Mapa
-    maprujliryv = new L.Map('LeafLetrujliryv');
+    mapaugoynao = new L.Map('LeafLetaugoynao');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprujliryv.setView(new L.LatLng(25.54, -103.44), 12);
+    mapaugoynao.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprujliryv.addLayer(osm);
+    mapaugoynao.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -168,13 +168,13 @@ $('#Lenguetasnvilkhbr a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprujliryv);
+    }).addTo(mapaugoynao);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprujliryv === 'undefined') {
-    varinitmaprujliryv = initmaprujliryv();
+  if (typeof varinitmapaugoynao === 'undefined') {
+    varinitmapaugoynao = initmapaugoynao();
   };
 });
 FINAL;

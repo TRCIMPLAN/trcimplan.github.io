@@ -17,12 +17,13 @@ class Gobierno extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Gobierno';
+        $this->nombre        = 'Gobierno';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'gobierno';
         $this->descripcion   = 'Matriz de indicadores en la categoría Gobierno';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-university';
         $this->claves        = 'IMPLAN, Indicadores, Gobierno';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

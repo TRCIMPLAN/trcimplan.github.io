@@ -17,12 +17,13 @@ class Vialidad extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Vialidad';
+        $this->nombre        = 'Vialidad';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'vialidad';
         $this->descripcion   = 'Matriz de indicadores en la categoría Vialidad';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-road';
         $this->claves        = 'IMPLAN, Indicadores, Vialidad';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

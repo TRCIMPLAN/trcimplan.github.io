@@ -135,7 +135,7 @@
     <h1>Universidades en Torreón</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasxizefwbb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasxunyktws">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -201,7 +201,7 @@ Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicame
 * Universidad Pedagógica de Durango-UGP
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetflxnxujx" class="mapa"></div>
+              <div id="LeafLettsnistmh" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -258,7 +258,7 @@ Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicame
     </div>
     <div class="row">
       <div class="inferior">
-          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+          <a href="../index.html"><img class="img-responsive inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
       </div>
     </div>
   </div>
@@ -277,12 +277,12 @@ Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicame
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasxizefwbb a:first').tab('show')
+  $('#Lenguetasxunyktws a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasxizefwbb a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasxunyktws a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapflxnxujx;
+  var maptsnistmh;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -299,17 +299,17 @@ $('#Lenguetasxizefwbb a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapflxnxujx() {
+  function initmaptsnistmh() {
     // Nuevo Mapa
-    mapflxnxujx = new L.Map('LeafLetflxnxujx');
+    maptsnistmh = new L.Map('LeafLettsnistmh');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapflxnxujx.setView(new L.LatLng(25.54, -103.44), 12);
+    maptsnistmh.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapflxnxujx.addLayer(osm);
+    maptsnistmh.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -342,13 +342,13 @@ $('#Lenguetasxizefwbb a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapflxnxujx);
+    }).addTo(maptsnistmh);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapflxnxujx === 'undefined') {
-    varinitmapflxnxujx = initmapflxnxujx();
+  if (typeof varinitmaptsnistmh === 'undefined') {
+    varinitmaptsnistmh = initmaptsnistmh();
   };
 });
 </script>

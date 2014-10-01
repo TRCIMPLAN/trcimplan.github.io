@@ -17,12 +17,13 @@ class Empleo extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Empleo';
+        $this->nombre        = 'Empleo';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'empleo';
         $this->descripcion   = 'Matriz de indicadores en la categoría Empleo';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-wrench';
         $this->claves        = 'IMPLAN, Indicadores, Empleo';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

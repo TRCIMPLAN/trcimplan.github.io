@@ -17,12 +17,13 @@ class DoingBussines extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Doing Bussines';
+        $this->nombre        = 'Doing Bussines';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'doing-bussines';
         $this->descripcion   = 'Matriz de indicadores en la categoría Doing Bussines';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-check-circle-o';
         $this->claves        = 'IMPLAN, Indicadores, Doing Bussines';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

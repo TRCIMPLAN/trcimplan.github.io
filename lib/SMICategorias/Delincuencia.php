@@ -17,12 +17,13 @@ class Delincuencia extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Delincuencia';
+        $this->nombre        = 'Delincuencia';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'delincuencia';
         $this->descripcion   = 'Matriz de indicadores en la categoría Delincuencia';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-exclamation-triangle';
         $this->claves        = 'IMPLAN, Indicadores, Delincuencia';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

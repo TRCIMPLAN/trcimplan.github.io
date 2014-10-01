@@ -25,7 +25,7 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Género';
         $this->categorias  = array('Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasebowogyk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasfaxjentm">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Porcentaje
 Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetmahcqkmz" class="mapa"></div>
+              <div id="LeafLetnnluewym" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -110,12 +110,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasebowogyk a:first').tab('show')
+  $('#Lenguetasfaxjentm a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasebowogyk a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfaxjentm a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapmahcqkmz;
+  var mapnnluewym;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -132,17 +132,17 @@ $('#Lenguetasebowogyk a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapmahcqkmz() {
+  function initmapnnluewym() {
     // Nuevo Mapa
-    mapmahcqkmz = new L.Map('LeafLetmahcqkmz');
+    mapnnluewym = new L.Map('LeafLetnnluewym');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapmahcqkmz.setView(new L.LatLng(25.54, -103.44), 12);
+    mapnnluewym.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapmahcqkmz.addLayer(osm);
+    mapnnluewym.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -175,13 +175,13 @@ $('#Lenguetasebowogyk a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapmahcqkmz);
+    }).addTo(mapnnluewym);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapmahcqkmz === 'undefined') {
-    varinitmapmahcqkmz = initmapmahcqkmz();
+  if (typeof varinitmapnnluewym === 'undefined') {
+    varinitmapnnluewym = initmapnnluewym();
   };
 });
 FINAL;

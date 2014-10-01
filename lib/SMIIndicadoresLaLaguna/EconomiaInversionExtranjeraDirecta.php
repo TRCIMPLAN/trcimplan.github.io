@@ -25,7 +25,7 @@ class EconomiaInversionExtranjeraDirecta extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Macroeconomía';
         $this->categorias  = array('Macroeconomía');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasuoohgwwl">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasszlmkjsd">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -62,7 +62,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 y [Secretaría de Economía](http://www.economia.gob.mx/comunidad-negocios/competitividad-normatividad/inversion-extranjera-directa/estadistica-oficial-de-ied-en-mexico)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetllysvrwp" class="mapa"></div>
+              <div id="LeafLetvfzynvnz" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -120,12 +120,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasuoohgwwl a:first').tab('show')
+  $('#Lenguetasszlmkjsd a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasuoohgwwl a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasszlmkjsd a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapllysvrwp;
+  var mapvfzynvnz;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -142,17 +142,17 @@ $('#Lenguetasuoohgwwl a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapllysvrwp() {
+  function initmapvfzynvnz() {
     // Nuevo Mapa
-    mapllysvrwp = new L.Map('LeafLetllysvrwp');
+    mapvfzynvnz = new L.Map('LeafLetvfzynvnz');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapllysvrwp.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvfzynvnz.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapllysvrwp.addLayer(osm);
+    mapvfzynvnz.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -185,13 +185,13 @@ $('#Lenguetasuoohgwwl a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapllysvrwp);
+    }).addTo(mapvfzynvnz);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapllysvrwp === 'undefined') {
-    varinitmapllysvrwp = initmapllysvrwp();
+  if (typeof varinitmapvfzynvnz === 'undefined') {
+    varinitmapvfzynvnz = initmapvfzynvnz();
   };
 });
 FINAL;

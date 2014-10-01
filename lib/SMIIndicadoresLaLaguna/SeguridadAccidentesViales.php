@@ -25,7 +25,7 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Vialidad';
         $this->categorias  = array('Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmljgeusz">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaskoksrgnq">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -149,10 +149,10 @@ Cantidad
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrismttreupe" class="grafica"></div>
+<div id="Morriscspoyqtw" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrxnumgxf" class="mapa"></div>
+              <div id="LeafLettvwmgvry" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -651,14 +651,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmljgeusz a:first').tab('show')
+  $('#Lenguetaskoksrgnq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasmljgeusz a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaskoksrgnq a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrismttreupe === 'undefined') {
-    varMorrismttreupe = Morris.Line({
-      element: 'Morrismttreupe',
+  if (typeof varMorriscspoyqtw === 'undefined') {
+    varMorriscspoyqtw = Morris.Line({
+      element: 'Morriscspoyqtw',
       data: [{ fecha: '1997-12-31', dato: 4404 },{ fecha: '1998-12-31', dato: 5709 },{ fecha: '1999-12-31', dato: 6208 },{ fecha: '2000-12-31', dato: 8169 },{ fecha: '2001-12-31', dato: 8933 },{ fecha: '2002-12-31', dato: 8986 },{ fecha: '2003-12-31', dato: 8507 },{ fecha: '2005-12-31', dato: 9366 },{ fecha: '2006-12-31', dato: 10324 },{ fecha: '2007-12-31', dato: 9612 },{ fecha: '2008-12-31', dato: 8831 },{ fecha: '2009-12-31', dato: 6995 },{ fecha: '2010-12-31', dato: 5577 },{ fecha: '2011-12-31', dato: 4568 },{ fecha: '2012-12-31', dato: 4107 },{ fecha: '2013-12-31', dato: 3362 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -670,9 +670,9 @@ $('#Lenguetasmljgeusz a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasmljgeusz a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaskoksrgnq a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprxnumgxf;
+  var maptvwmgvry;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -689,17 +689,17 @@ $('#Lenguetasmljgeusz a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprxnumgxf() {
+  function initmaptvwmgvry() {
     // Nuevo Mapa
-    maprxnumgxf = new L.Map('LeafLetrxnumgxf');
+    maptvwmgvry = new L.Map('LeafLettvwmgvry');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprxnumgxf.setView(new L.LatLng(25.54, -103.44), 12);
+    maptvwmgvry.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprxnumgxf.addLayer(osm);
+    maptvwmgvry.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -732,13 +732,13 @@ $('#Lenguetasmljgeusz a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprxnumgxf);
+    }).addTo(maptvwmgvry);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprxnumgxf === 'undefined') {
-    varinitmaprxnumgxf = initmaprxnumgxf();
+  if (typeof varinitmaptvwmgvry === 'undefined') {
+    varinitmaptvwmgvry = initmaptvwmgvry();
   };
 });
 FINAL;

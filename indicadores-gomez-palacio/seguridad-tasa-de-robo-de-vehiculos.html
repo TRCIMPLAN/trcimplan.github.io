@@ -135,7 +135,7 @@
     <h1>Tasa de Robo de VehÍculos en Gómez Palacio</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasylnzqkek">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbthhazyf">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -167,7 +167,7 @@ Cantidad de robos de vehículos por cada 100 mil habitantes.
 Por cada 100 mil
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetrfhwqzno" class="mapa"></div>
+              <div id="LeafLetkkjnvxcm" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -224,7 +224,7 @@ Por cada 100 mil
     </div>
     <div class="row">
       <div class="inferior">
-          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+          <a href="../index.html"><img class="img-responsive inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
       </div>
     </div>
   </div>
@@ -243,12 +243,12 @@ Por cada 100 mil
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasylnzqkek a:first').tab('show')
+  $('#Lenguetasbthhazyf a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasylnzqkek a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbthhazyf a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var maprfhwqzno;
+  var mapkkjnvxcm;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -265,17 +265,17 @@ $('#Lenguetasylnzqkek a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmaprfhwqzno() {
+  function initmapkkjnvxcm() {
     // Nuevo Mapa
-    maprfhwqzno = new L.Map('LeafLetrfhwqzno');
+    mapkkjnvxcm = new L.Map('LeafLetkkjnvxcm');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    maprfhwqzno.setView(new L.LatLng(25.54, -103.44), 12);
+    mapkkjnvxcm.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    maprfhwqzno.addLayer(osm);
+    mapkkjnvxcm.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -308,13 +308,13 @@ $('#Lenguetasylnzqkek a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(maprfhwqzno);
+    }).addTo(mapkkjnvxcm);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmaprfhwqzno === 'undefined') {
-    varinitmaprfhwqzno = initmaprfhwqzno();
+  if (typeof varinitmapkkjnvxcm === 'undefined') {
+    varinitmapkkjnvxcm = initmapkkjnvxcm();
   };
 });
 </script>

@@ -17,12 +17,13 @@ class Vivienda extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Vivienda';
+        $this->nombre        = 'Vivienda';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'vivienda';
         $this->descripcion   = 'Matriz de indicadores en la categoría Vivienda';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-home';
         $this->claves        = 'IMPLAN, Indicadores, Vivienda';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

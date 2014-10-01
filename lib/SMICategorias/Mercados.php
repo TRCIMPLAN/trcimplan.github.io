@@ -17,12 +17,13 @@ class Mercados extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Mercados';
+        $this->nombre        = 'Mercados';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'mercados';
         $this->descripcion   = 'Matriz de indicadores en la categoría Mercados';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-money';
         $this->claves        = 'IMPLAN, Indicadores, Mercados';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

@@ -23,6 +23,7 @@ class Indice extends \Base\Publicacion {
         $this->archivo       = 'index';
         $this->descripcion   = 'Matriz de indicadores de Matamoros';
         $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->icono         = '';
         $this->claves        = 'IMPLAN, Indicadores, Matamoros';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL
@@ -282,8 +283,23 @@ class Indice extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Robo a negocios.</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-negocios-.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Robo a transeuntes</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo de Vehículos</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Robos a casa habitación.</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion-.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

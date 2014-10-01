@@ -25,7 +25,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         $this->claves      = 'Torreón, Recursos Naturales, Movilidad, Vialidad';
         $this->categorias  = array('Recursos Naturales', 'Movilidad', 'Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrjcmdtoa">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbfxxzelh">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Por cada mil habitantes
 Índice de motorización. Consulta la [Base de Datos](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/transporte/vehiculos.asp?s=est&c=13158&proy=vmrc_vehiculos)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetewhferoh" class="mapa"></div>
+              <div id="LeafLetfpsdfnrn" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -131,12 +131,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrjcmdtoa a:first').tab('show')
+  $('#Lenguetasbfxxzelh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasrjcmdtoa a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbfxxzelh a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapewhferoh;
+  var mapfpsdfnrn;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -153,17 +153,17 @@ $('#Lenguetasrjcmdtoa a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapewhferoh() {
+  function initmapfpsdfnrn() {
     // Nuevo Mapa
-    mapewhferoh = new L.Map('LeafLetewhferoh');
+    mapfpsdfnrn = new L.Map('LeafLetfpsdfnrn');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapewhferoh.setView(new L.LatLng(25.54, -103.44), 12);
+    mapfpsdfnrn.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapewhferoh.addLayer(osm);
+    mapfpsdfnrn.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -196,13 +196,13 @@ $('#Lenguetasrjcmdtoa a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapewhferoh);
+    }).addTo(mapfpsdfnrn);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapewhferoh === 'undefined') {
-    varinitmapewhferoh = initmapewhferoh();
+  if (typeof varinitmapfpsdfnrn === 'undefined') {
+    varinitmapfpsdfnrn = initmapfpsdfnrn();
   };
 });
 FINAL;

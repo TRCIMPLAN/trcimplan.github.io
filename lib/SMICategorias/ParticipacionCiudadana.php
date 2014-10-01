@@ -17,12 +17,13 @@ class ParticipacionCiudadana extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Participación Ciudadana';
+        $this->nombre        = 'Participación Ciudadana';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'participacion-ciudadana';
         $this->descripcion   = 'Matriz de indicadores en la categoría Participación Ciudadana';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-puzzle-piece';
         $this->claves        = 'IMPLAN, Indicadores, Participación Ciudadana';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

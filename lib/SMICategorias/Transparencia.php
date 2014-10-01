@@ -17,12 +17,13 @@ class Transparencia extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Transparencia';
+        $this->nombre        = 'Transparencia';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'transparencia';
         $this->descripcion   = 'Matriz de indicadores en la categoría Transparencia';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-eye';
         $this->claves        = 'IMPLAN, Indicadores, Transparencia';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

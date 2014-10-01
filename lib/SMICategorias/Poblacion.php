@@ -17,12 +17,13 @@ class Poblacion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Población';
+        $this->nombre        = 'Población';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'poblacion';
         $this->descripcion   = 'Matriz de indicadores en la categoría Población';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-users';
         $this->claves        = 'IMPLAN, Indicadores, Población';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

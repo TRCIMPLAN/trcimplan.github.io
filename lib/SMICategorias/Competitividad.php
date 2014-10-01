@@ -17,12 +17,13 @@ class Competitividad extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Competitividad';
+        $this->nombre        = 'Competitividad';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'competitividad';
         $this->descripcion   = 'Matriz de indicadores en la categoría Competitividad';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-line-chart';
         $this->claves        = 'IMPLAN, Indicadores, Competitividad';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

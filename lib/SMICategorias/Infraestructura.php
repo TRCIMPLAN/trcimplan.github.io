@@ -17,12 +17,13 @@ class Infraestructura extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Infraestructura';
+        $this->nombre        = 'Infraestructura';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'infraestructura';
         $this->descripcion   = 'Matriz de indicadores en la categoría Infraestructura';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-building-o';
         $this->claves        = 'IMPLAN, Indicadores, Infraestructura';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

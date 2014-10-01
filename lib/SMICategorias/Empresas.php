@@ -17,12 +17,13 @@ class Empresas extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Empresas';
+        $this->nombre        = 'Empresas';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'empresas';
         $this->descripcion   = 'Matriz de indicadores en la categoría Empresas';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-cogs';
         $this->claves        = 'IMPLAN, Indicadores, Empresas';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

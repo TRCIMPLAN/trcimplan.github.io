@@ -25,7 +25,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Población';
         $this->categorias  = array('Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetassqsonrjh">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmivusphi">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -115,10 +115,10 @@ Estimaciones de CONAPO en base a INEGI. Consulta la [Base de Datos](http://www.c
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisfwpgutao" class="grafica"></div>
+<div id="Morrismququyyv" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetztsnbyxb" class="mapa"></div>
+              <div id="LeafLetwakfhtel" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -631,14 +631,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetassqsonrjh a:first').tab('show')
+  $('#Lenguetasmivusphi a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetassqsonrjh a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmivusphi a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisfwpgutao === 'undefined') {
-    varMorrisfwpgutao = Morris.Line({
-      element: 'Morrisfwpgutao',
+  if (typeof varMorrismququyyv === 'undefined') {
+    varMorrismququyyv = Morris.Line({
+      element: 'Morrismququyyv',
       data: [{ fecha: '2011-06-30', dato: 1251771 },{ fecha: '2012-06-30', dato: 1267630 },{ fecha: '2013-06-30', dato: 1283072 },{ fecha: '2014-06-30', dato: 1298270 },{ fecha: '2015-06-30', dato: 1313161 },{ fecha: '2016-06-30', dato: 1327769 },{ fecha: '2017-06-30', dato: 1342139 },{ fecha: '2018-06-30', dato: 1356216 },{ fecha: '2019-06-30', dato: 1369939 },{ fecha: '2020-06-30', dato: 1383303 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -650,9 +650,9 @@ $('#Lenguetassqsonrjh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetassqsonrjh a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmivusphi a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapztsnbyxb;
+  var mapwakfhtel;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -669,17 +669,17 @@ $('#Lenguetassqsonrjh a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapztsnbyxb() {
+  function initmapwakfhtel() {
     // Nuevo Mapa
-    mapztsnbyxb = new L.Map('LeafLetztsnbyxb');
+    mapwakfhtel = new L.Map('LeafLetwakfhtel');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapztsnbyxb.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwakfhtel.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapztsnbyxb.addLayer(osm);
+    mapwakfhtel.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -712,13 +712,13 @@ $('#Lenguetassqsonrjh a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapztsnbyxb);
+    }).addTo(mapwakfhtel);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapztsnbyxb === 'undefined') {
-    varinitmapztsnbyxb = initmapztsnbyxb();
+  if (typeof varinitmapwakfhtel === 'undefined') {
+    varinitmapwakfhtel = initmapwakfhtel();
   };
 });
 FINAL;

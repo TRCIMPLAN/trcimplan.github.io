@@ -17,12 +17,13 @@ class Movilidad extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Movilidad';
+        $this->nombre        = 'Movilidad';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'movilidad';
         $this->descripcion   = 'Matriz de indicadores en la categoría Movilidad';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-car';
         $this->claves        = 'IMPLAN, Indicadores, Movilidad';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

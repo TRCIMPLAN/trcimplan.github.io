@@ -25,7 +25,7 @@ class EconomiaPosgradosDeCalidad extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Educación, Innovación';
         $this->categorias  = array('Educación', 'Innovación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetassztulzjg">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetassrxjitgb">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -59,7 +59,7 @@ Cantidad de Posgrados
 Datos obtenidos de [CONACYT](http://svrtmp.main.conacyt.mx/ConsultasPNPC/listar_padron.php)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetxfyfljne" class="mapa"></div>
+              <div id="LeafLetcmhxrmbr" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -103,12 +103,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetassztulzjg a:first').tab('show')
+  $('#Lenguetassrxjitgb a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetassztulzjg a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetassrxjitgb a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapxfyfljne;
+  var mapcmhxrmbr;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -125,17 +125,17 @@ $('#Lenguetassztulzjg a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapxfyfljne() {
+  function initmapcmhxrmbr() {
     // Nuevo Mapa
-    mapxfyfljne = new L.Map('LeafLetxfyfljne');
+    mapcmhxrmbr = new L.Map('LeafLetcmhxrmbr');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapxfyfljne.setView(new L.LatLng(25.54, -103.44), 12);
+    mapcmhxrmbr.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapxfyfljne.addLayer(osm);
+    mapcmhxrmbr.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -168,13 +168,13 @@ $('#Lenguetassztulzjg a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapxfyfljne);
+    }).addTo(mapcmhxrmbr);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapxfyfljne === 'undefined') {
-    varinitmapxfyfljne = initmapxfyfljne();
+  if (typeof varinitmapcmhxrmbr === 'undefined') {
+    varinitmapcmhxrmbr = initmapcmhxrmbr();
   };
 });
 FINAL;

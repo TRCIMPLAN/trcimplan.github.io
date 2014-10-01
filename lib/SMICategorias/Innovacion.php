@@ -17,12 +17,13 @@ class Innovacion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Innovación';
+        $this->nombre        = 'Innovación';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'innovacion';
         $this->descripcion   = 'Matriz de indicadores en la categoría Innovación';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-lightbulb-o';
         $this->claves        = 'IMPLAN, Indicadores, Innovación';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

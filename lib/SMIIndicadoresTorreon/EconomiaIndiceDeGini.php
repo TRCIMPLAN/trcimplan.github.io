@@ -25,7 +25,7 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
         $this->claves      = 'Torreón';
         $this->categorias  = array();
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaszbdeqmug">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasggsvdxqb">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -62,7 +62,7 @@ El índice de Ginni a nivel nacional es de: 0.472
 Datos obtenidos de [CONEVAL](http://www.coneval.gob.mx/Paginas/principal.aspx)
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetkvssoxfx" class="mapa"></div>
+              <div id="LeafLetbrdjjpvc" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -113,12 +113,12 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaszbdeqmug a:first').tab('show')
+  $('#Lenguetasggsvdxqb a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaszbdeqmug a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasggsvdxqb a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapkvssoxfx;
+  var mapbrdjjpvc;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -135,17 +135,17 @@ $('#Lenguetaszbdeqmug a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapkvssoxfx() {
+  function initmapbrdjjpvc() {
     // Nuevo Mapa
-    mapkvssoxfx = new L.Map('LeafLetkvssoxfx');
+    mapbrdjjpvc = new L.Map('LeafLetbrdjjpvc');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapkvssoxfx.setView(new L.LatLng(25.54, -103.44), 12);
+    mapbrdjjpvc.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapkvssoxfx.addLayer(osm);
+    mapbrdjjpvc.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -178,13 +178,13 @@ $('#Lenguetaszbdeqmug a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapkvssoxfx);
+    }).addTo(mapbrdjjpvc);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapkvssoxfx === 'undefined') {
-    varinitmapkvssoxfx = initmapkvssoxfx();
+  if (typeof varinitmapbrdjjpvc === 'undefined') {
+    varinitmapbrdjjpvc = initmapbrdjjpvc();
   };
 });
 FINAL;

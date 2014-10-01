@@ -17,12 +17,13 @@ class GruposVulnerables extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Grupos Vulnerables';
+        $this->nombre        = 'Grupos Vulnerables';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'grupos-vulnerables';
         $this->descripcion   = 'Matriz de indicadores en la categoría Grupos Vulnerables';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-chain-broken';
         $this->claves        = 'IMPLAN, Indicadores, Grupos Vulnerables';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

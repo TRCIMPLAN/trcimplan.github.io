@@ -135,7 +135,7 @@
     <h1>Capacidad Financiera en Gómez Palacio</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/01/1980</p>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaspfhrhfjz">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasqypymgvn">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -216,10 +216,10 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisjtuwpiyt" class="grafica"></div>
+<div id="Morrisfxscsxcb" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetqiffeoid" class="mapa"></div>
+              <div id="LeafLetvodzkphi" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -423,7 +423,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     </div>
     <div class="row">
       <div class="inferior">
-          <a href="../index.html"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN Torreón"></a>
+          <a href="../index.html"><img class="img-responsive inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
       </div>
     </div>
   </div>
@@ -442,14 +442,14 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaspfhrhfjz a:first').tab('show')
+  $('#Lenguetasqypymgvn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaspfhrhfjz a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasqypymgvn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisjtuwpiyt === 'undefined') {
-    varMorrisjtuwpiyt = Morris.Line({
-      element: 'Morrisjtuwpiyt',
+  if (typeof varMorrisfxscsxcb === 'undefined') {
+    varMorrisfxscsxcb = Morris.Line({
+      element: 'Morrisfxscsxcb',
       data: [{ fecha: '2007-12-31', dato: 51.1900 },{ fecha: '2008-12-31', dato: 52.8900 },{ fecha: '2009-12-31', dato: 74.4600 },{ fecha: '2010-12-31', dato: 47.4000 },{ fecha: '2011-12-31', dato: 69.5700 },{ fecha: '2012-12-31', dato: 74.2600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -461,9 +461,9 @@ $('#Lenguetaspfhrhfjz a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetaspfhrhfjz a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasqypymgvn a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapqiffeoid;
+  var mapvodzkphi;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -480,17 +480,17 @@ $('#Lenguetaspfhrhfjz a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapqiffeoid() {
+  function initmapvodzkphi() {
     // Nuevo Mapa
-    mapqiffeoid = new L.Map('LeafLetqiffeoid');
+    mapvodzkphi = new L.Map('LeafLetvodzkphi');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapqiffeoid.setView(new L.LatLng(25.54, -103.44), 12);
+    mapvodzkphi.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapqiffeoid.addLayer(osm);
+    mapvodzkphi.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -523,13 +523,13 @@ $('#Lenguetaspfhrhfjz a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapqiffeoid);
+    }).addTo(mapvodzkphi);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapqiffeoid === 'undefined') {
-    varinitmapqiffeoid = initmapqiffeoid();
+  if (typeof varinitmapvodzkphi === 'undefined') {
+    varinitmapvodzkphi = initmapvodzkphi();
   };
 });
 </script>

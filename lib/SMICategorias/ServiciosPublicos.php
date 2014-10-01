@@ -17,12 +17,13 @@ class ServiciosPublicos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Categoría Servicios Públicos';
+        $this->nombre        = 'Servicios Públicos';
         $this->nombre_menu   = 'Categorías';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'servicios-publicos';
         $this->descripcion   = 'Matriz de indicadores en la categoría Servicios Públicos';
-        $this->imagen_previa = '../imagenes/imagen-previa.jpg';
+        $this->imagen_previa = '';
+        $this->icono         = 'fa fa-sitemap';
         $this->claves        = 'IMPLAN, Indicadores, Servicios Públicos';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

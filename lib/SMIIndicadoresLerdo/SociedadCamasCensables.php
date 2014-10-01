@@ -25,7 +25,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasiokxiuwu">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasttwupldy">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
@@ -133,10 +133,10 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morriseicqyduf" class="grafica"></div>
+<div id="Morrissbhlohcz" class="grafica"></div>
     </div>
     <div class="tab-pane" id="mapa">
-              <div id="LeafLetmpagtjbu" class="mapa"></div>
+              <div id="LeafLetwuhcqqwg" class="mapa"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -796,14 +796,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasiokxiuwu a:first').tab('show')
+  $('#Lenguetasttwupldy a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasiokxiuwu a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasttwupldy a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriseicqyduf === 'undefined') {
-    varMorriseicqyduf = Morris.Line({
-      element: 'Morriseicqyduf',
+  if (typeof varMorrissbhlohcz === 'undefined') {
+    varMorrissbhlohcz = Morris.Line({
+      element: 'Morrissbhlohcz',
       data: [{ fecha: '2001-12-31', dato: 34 },{ fecha: '2002-12-31', dato: 34 },{ fecha: '2003-12-31', dato: 34 },{ fecha: '2004-12-31', dato: 34 },{ fecha: '2005-12-31', dato: 34 },{ fecha: '2006-12-31', dato: 34 },{ fecha: '2007-12-31', dato: 34 },{ fecha: '2008-12-31', dato: 34 },{ fecha: '2009-12-31', dato: 34 },{ fecha: '2010-12-31', dato: 38 },{ fecha: '2011-12-31', dato: 38 },{ fecha: '2012-12-31', dato: 38 },{ fecha: '2013-12-31', dato: 38 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -815,9 +815,9 @@ $('#Lenguetasiokxiuwu a[href="#grafica"]').on('shown.bs.tab', function (e) {
   }
 });
 // LENGUETA
-$('#Lenguetasiokxiuwu a[href="#mapa"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasttwupldy a[href="#mapa"]').on('shown.bs.tab', function (e) {
   // Mapa
-  var mapmpagtjbu;
+  var mapwuhcqqwg;
   // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
   var circuloParque = {
     "radius": 8,
@@ -834,17 +834,17 @@ $('#Lenguetasiokxiuwu a[href="#mapa"]').on('shown.bs.tab', function (e) {
     }
   };
   // Función para el mapa
-  function initmapmpagtjbu() {
+  function initmapwuhcqqwg() {
     // Nuevo Mapa
-    mapmpagtjbu = new L.Map('LeafLetmpagtjbu');
+    mapwuhcqqwg = new L.Map('LeafLetwuhcqqwg');
     // Capa con el mapa
     var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
     var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
     // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapmpagtjbu.setView(new L.LatLng(25.54, -103.44), 12);
+    mapwuhcqqwg.setView(new L.LatLng(25.54, -103.44), 12);
     // Agregar capa con el mapa
-    mapmpagtjbu.addLayer(osm);
+    mapwuhcqqwg.addLayer(osm);
     // ARREGLO CON LOS GEOPUNTOS
     var geoPuntos = {
       "type": "FeatureCollection",
@@ -877,13 +877,13 @@ $('#Lenguetasiokxiuwu a[href="#mapa"]').on('shown.bs.tab', function (e) {
           case 'Parque': return L.circleMarker(latlng, circuloParque);
         }
       }
-    }).addTo(mapmpagtjbu);
+    }).addTo(mapwuhcqqwg);
     // Entregar
     return true;
   };
   // Ejecutar el mapa
-  if (typeof varinitmapmpagtjbu === 'undefined') {
-    varinitmapmpagtjbu = initmapmpagtjbu();
+  if (typeof varinitmapwuhcqqwg === 'undefined') {
+    varinitmapwuhcqqwg = initmapwuhcqqwg();
   };
 });
 FINAL;
