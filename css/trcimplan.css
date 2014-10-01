@@ -151,12 +151,40 @@ a:focus   { text-decoration:none; color:#FF3300; }
     background-color:#F0F0F0;
     padding:8px;
 }
-.inferior-logo { padding:4px; }
+.inferior-logo {
+    padding:4px;
+}
+.indice-icono {
+    font-size:6em;
+}
+a.indice-icono         { color:#646464; text-decoration:none; }
+a.indice-icono:active,
+a.indice-icono:visited { color:#646464; }
+a.indice-icono:hover,
+a.indice-icono:focus   { color:#FF3300; }
+.galeria-thumbnail {
+    background-color:transparent;
+    border:none;
+    text-align:center;
+}
+.galeria-icono {
+    font-size:5em;
+}
+.galeria-nombre {
+    font-size:1em;
+}
+a.galeria-icono         { color:#646464; text-decoration:none; }
+a.galeria-icono:active,
+a.galeria-icono:visited { color:#646464; }
+a.galeria-icono:hover,
+a.galeria-icono:focus   { color:#FF3300; }
 
 /*
  * Página Inicial
  */
-#encabezado .banner { width:100%;  }
+#encabezado .banner {
+    width:100%;
+}
 #destacado {
     background-color:#D1D7DC;
     padding:8px;
