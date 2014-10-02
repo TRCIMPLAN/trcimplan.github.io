@@ -41,14 +41,26 @@ class MapaInferior extends \Configuracion\MapaInferiorConfig {
         // En este arreglo acumularemos la entrega
         $a = array();
         // Acumular
-        $a[] = '    <div class="row">';
-        $a[] = '      <div class="inferior">';
+        $a[] = '    <div class="row mapa-inferior">';
+        $a[] = '      <div class="col-md-8">';
         if ($this->en_raiz) {
-            $a[] = "          <a href=\"index.html\"><img class=\"img-responsive inferior-logo\" src=\"{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
+            $a[] = "          <a href=\"index.html\"><img class=\"img-responsive mapa-inferior-logo\" src=\"{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
         } else {
-            $a[] = "          <a href=\"../index.html\"><img class=\"img-responsive inferior-logo\" src=\"../{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
+            $a[] = "          <a href=\"../index.html\"><img class=\"img-responsive mapa-inferior-logo\" src=\"../{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
         }
-        $a[] = '      </div>'; // inferior
+        $a[] = '      </div>'; // col-md-8
+        $a[] = '      <div class="col-md-4">';
+        $a[] = '        <div class="pull-right mapa-inferior-redes-sociales">';
+        $a[] = '          <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>';
+        $a[] = '          <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>';
+        $a[] = '          <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>';
+        if ($this->en_raiz) {
+            $a[] = '          <a class="fa fa-rss-square" href="rss.xml"></a>';
+        } else {
+            $a[] = '          <a class="fa fa-rss-square" href="../rss.xml"></a>';
+        }
+        $a[] = '        </div>';
+        $a[] = '      </div>'; // col-md-4
         $a[] = '    </div>'; // row
         // Entregar
         return implode("\n", $a);

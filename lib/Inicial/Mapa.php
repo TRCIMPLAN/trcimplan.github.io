@@ -28,53 +28,6 @@ namespace Inicial;
 class Mapa {
 
     /**
-     * Constructor
-     */
-    public function __construct() {
-    } // constructor
-
-/*
-                    <div class="col-md-3 inferior-mapa">
-                      INSTITUCIONAL
-                      <ul>
-                        <li><a href="<?php echo home_url('/'); ?>institucional/vision-mision/">VISIÓN / MISIÓN</a></li>
-                        <li><a href="<?php echo home_url('/'); ?>institucional/mensaje-del-director/">MENSAJE DEL DIRECTOR</a></li>
-                        <li><a href="<?php echo home_url('/'); ?>institucional/quienes-somos/">QUIENES SOMOS</a></li>
-                        <li><a href="<?php echo home_url('/'); ?>institucional/estructura-organica/">ESTRUCTURA ORGÁNICA</a></li>
-                        <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank">TRANSPARENCIA</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-md-3 inferior-mapa">
-                      SERVICIOS
-                      <ul>
-                        <li><a href="<?php echo home_url('/'); ?>servicios/reglamentos/">REGLAMENTOS</a></li>
-                        <li><a href="<?php echo home_url('/'); ?>servicios/indicadores/">INDICADORES</a></li>
-                        <li><a href="<?php echo home_url('/'); ?>servicios/sig/">SISTEMA DE INFORMACIÓN GEOGRÁFICA</a></li>
-                        <li><a href="<?php echo home_url('/'); ?>servicios/banco-de-proyectos/">BANCO MUNICIPAL DE PROYECTOS DE INVERSIÓN</a></li>
-                        <li><a href="<?php echo home_url('/'); ?>servicios/sesp/">SISTEMA DE EVALUACIÓN Y SEGUIMIENTO DE PROYECTOS</a></li>
-                        <li><a href="<?php echo home_url('/'); ?>category/proyectos/">PROYECTOS</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-md-2 inferior-mapa">
-                      INTERACCIÓN
-                      <ul>
-                        <li><a href="<?php echo home_url('/'); ?>category/blog/">BLOG</a></li>
-                        <li><a href="<?php echo home_url('/'); ?>category/eventos/">EVENTOS</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-md-2 inferior-mapa">
-                      <a href="<?php echo home_url('/'); ?>consejo/">CONSEJO DIRECTIVO</a>
-                      <a href="<?php echo home_url('/'); ?>consejo/agenda-consejo-directivo/">AGENDA CONSEJO DIRECTIVO</a>
-                      <a href="<?php echo home_url('/'); ?>consejo/agenda-comites-tecnicos/">AGENDA COMITÉS TÉCNICOS</a>
-                    </div>
-                    <div class="col-md-2 inferior-mapa inferior-mapa-ultimo">
-                      <a href="<?php echo home_url('/'); ?>contacto/">CONTACTO</a>
-                      <br>
-                      <a href="<?php echo home_url('/'); ?>category/prensa/">SALA DE PRENSA</a>
-                    </div>
- */
-
-    /**
      * HTML
      *
      * @return string Código HTML
@@ -103,7 +56,7 @@ class Mapa {
         $a[] = '      <div class="col-md-4">';
         $a[] = '        <h4 class="mapa-encabezado">SERVICIOS</h4>';
         $a[] = '        <ul>';
-        $a[] = '          <li><a href="plan-estrategico-metropolitano/introduccion.html">Plan Estratégico</a></li>';
+        $a[] = '          <li><a href="plan-estrategico-metropolitano/introduccion.html">Plan Estratégico Metropolitano</a></li>';
         $a[] = '          <li><a href="smi/introduccion.html">S. Metropolitano de Indicadores</a></li>';
         $a[] = '          <li><a href="sig/introduccion.html">S. Información Geográfica</a></li>';
         $a[] = '          <li><a href="blog/index.html">Análisis Publicados</a></li>';

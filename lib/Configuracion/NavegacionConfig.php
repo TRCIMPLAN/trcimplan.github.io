@@ -30,8 +30,15 @@ class NavegacionConfig {
     protected $sitio_titulo = 'IMPLAN Torreón';
     protected $logotipo     = 'imagenes/implan-barra-logo-chico-gris.png';
     protected $opciones     = array(
-        'Plan Estratégico Metropolitano' => 'plan-estrategico-metropolitano/introduccion.html',
         'Análisis Publicados' => 'blog/index.html',
+        'Plan Estratégico Metropolitano' => array(
+            'Conoce el Plan'         => 'plan-estrategico-metropolitano/introduccion.html',
+            'Buen Gobierno'          => 'plan-estrategico-metropolitano/buen-gobierno-coordinacion-metropolitana.html',
+            'Desarrollo Económico'   => 'plan-estrategico-metropolitano/desarrollo-economico-innovacion.html',
+            'Desarrollo Social'      => 'plan-estrategico-metropolitano/desarrollo-social.html',
+            'Entorno Urbano'         => 'plan-estrategico-metropolitano/entorno-urbano.html',
+            'Movilidad y Transporte' => 'plan-estrategico-metropolitano/movilidad-transporte.html',
+            'S. y Medio Ambiente'    => 'plan-estrategico-metropolitano/sustentabilidad-medio-ambiente.html'),
         'Indicadores' => array(
             'Introducción al SMI'       => 'smi/introduccion.html',
             'Categorías'                => 'indicadores-categorias/index.html',

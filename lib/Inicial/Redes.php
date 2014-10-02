@@ -28,12 +28,6 @@ namespace Inicial;
 class Redes {
 
     /**
-     * Constructor
-     */
-    public function __construct() {
-    } // constructor
-
-    /**
      * HTML
      *
      * @return string Código HTML

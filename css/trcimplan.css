@@ -147,13 +147,19 @@ a:focus   { text-decoration:none; color:#FF3300; }
        -moz-border-radius:4px;
     border-radius:4px;
 }
-.inferior {
+.mapa-inferior {
     background-color:#F0F0F0;
     padding:8px;
 }
-.inferior-logo {
-    padding:4px;
+.mapa-inferior-inferior-logo {
+    padding:2px;
 }
+.mapa-inferior-redes-sociales           { color:#646464; font-size:4em; }
+.mapa-inferior-redes-sociales a         { color:#646464; text-decoration:none; padding:2px; }
+.mapa-inferior-redes-sociales a:active,
+.mapa-inferior-redes-sociales a:visited { color:#646464; }
+.mapa-inferior-redes-sociales a:hover,
+.mapa-inferior-redes-sociales a:focus   { color:#FF3300; }
 .indice-icono {
     font-size:6em;
 }
