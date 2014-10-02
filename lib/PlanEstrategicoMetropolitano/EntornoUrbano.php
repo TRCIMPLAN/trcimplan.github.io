@@ -51,17 +51,34 @@ class EntornoUrbano extends \Base\Publicacion {
         $this->nombre_menu   = 'Entorno Urbano';
         // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
         $this->estado        = 'revisar';
+        //
+        // Definir lenguetas
+        //
+        $lenguetas = new \Base\Lenguetas();
+        $lenguetas->agregar('generales',    'Datos Generales', $this->cargar_archivo_markdown('EntornoUrbanoGenerales.md'));
+        $lenguetas->agregar('asistentes',   'Asistentes',      $this->cargar_archivo_markdown('EntornoUrbanoAsistentes.md'));
+        $lenguetas->agregar('diagnostico',  'Diagnóstico',     $this->cargar_archivo_markdown('EntornoUrbanoDiagnostico.md'));
+        $lenguetas->agregar('conclusiones', 'Conclusiones',    $this->cargar_archivo_markdown('EntornoUrbanoConclusiones.md'));
+        //
+        //
         // El contenido HTML y el JavaScript
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="entorno-urbano/imagen.jpg"></span>
-
-<p>Contenido.</p>
-
-<img class="img-responsive contenido-imagen" src="entorno-urbano/fotografia.jpg" alt="Descripción">
-FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        $this->contenido  = $lenguetas->html();
+        $this->javascript = $lenguetas->javascript();
     } // constructor
+
+    /**
+     * Cargar archivo markdown
+     *
+     * @param string Ruta al archivo
+     */
+    protected function cargar_archivo_markdown($ruta) {
+        $contenido = file_get_contents("lib/PlanEstrategicoMetropolitano/$ruta");
+        if ($contenido === false) {
+            throw new \Exception("Error en cargar_archivo: No se puede leer $ruta");
+        }
+        $html = \Michelf\Markdown::defaultTransform($contenido);
+        return $html;
+    } // cargar_archivo_markdown
 
 } // EntornoUrbano
 

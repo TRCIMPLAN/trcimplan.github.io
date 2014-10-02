@@ -94,7 +94,7 @@ class Imprenta {
         // Crear archivo
         $apuntador = fopen($ruta, 'w');
         if ($apuntador === false) {
-            throw new ImprentaExceptionFallo("Error en Imprenta, crear_archivo: No se puede crear $archivo");
+            throw new ImprentaExceptionFallo("Error en Imprenta, crear_archivo: No se puede crear $ruta");
         }
         if (is_string($contenido)) {
             fwrite($apuntador, $contenido);

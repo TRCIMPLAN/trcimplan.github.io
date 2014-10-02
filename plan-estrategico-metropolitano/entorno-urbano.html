@@ -79,12 +79,12 @@
           <a href="#"><i class="fa fa-file-text-o"></i> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li><a href="../plan-estrategico-metropolitano/introduccion.html"><i class="fa fa-file-text-o"></i> Conoce el Plan</a></li>
-            <li><a href="../plan-estrategico-metropolitano/buen-gobierno-coordinacion-metropolitana.html"><i class="fa fa-file-text-o"></i> Buen Gobierno</a></li>
-            <li><a href="../plan-estrategico-metropolitano/desarrollo-economico-innovacion.html"><i class="fa fa-file-text-o"></i> Desarrollo Económico</a></li>
-            <li><a href="../plan-estrategico-metropolitano/desarrollo-social.html"><i class="fa fa-file-text-o"></i> Desarrollo Social</a></li>
-            <li class="active"><a href="../plan-estrategico-metropolitano/entorno-urbano.html"><i class="fa fa-file-text-o"></i> Entorno Urbano</a></li>
-            <li><a href="../plan-estrategico-metropolitano/movilidad-transporte.html"><i class="fa fa-file-text-o"></i> Movilidad y Transporte</a></li>
-            <li><a href="../plan-estrategico-metropolitano/sustentabilidad-medio-ambiente.html"><i class="fa fa-file-text-o"></i> S. y Medio Ambiente</a></li>
+            <li><a href="../plan-estrategico-metropolitano/buen-gobierno-coordinacion-metropolitana.html"><i class="fa fa-university"></i> Buen Gobierno</a></li>
+            <li><a href="../plan-estrategico-metropolitano/desarrollo-economico-innovacion.html"><i class="fa fa-usd"></i> Desarrollo Económico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/desarrollo-social.html"><i class="fa fa-users"></i> Desarrollo Social</a></li>
+            <li class="active"><a href="../plan-estrategico-metropolitano/entorno-urbano.html"><i class="fa fa-building"></i> Entorno Urbano</a></li>
+            <li><a href="../plan-estrategico-metropolitano/movilidad-transporte.html"><i class="fa fa-car"></i> Movilidad y Transporte</a></li>
+            <li><a href="../plan-estrategico-metropolitano/sustentabilidad-medio-ambiente.html"><i class="fa fa-leaf"></i> S. y Medio Ambiente</a></li>
           </ul>
         </li>
         <li>
@@ -148,11 +148,89 @@
     <h1>Entorno Urbano</h1>
     <p class="autor-fecha">Por TrcIMPLAN, 01/10/2014</p>
   </header>
-<span class="contenido-imagen-previa"><img src="entorno-urbano/imagen.jpg"></span>
+  <ul class="nav nav-tabs lenguetas" id="lenguetas-">
+    <li><a href="#generales" data-toggle="tab">Datos Generales</a></li>
+    <li><a href="#asistentes" data-toggle="tab">Asistentes</a></li>
+    <li><a href="#diagnostico" data-toggle="tab">Diagnóstico</a></li>
+    <li class="active"><a href="#conclusiones" data-toggle="tab">Conclusiones</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane" id="generales">
+      <h3>Responsables</h3>
 
-<p>Contenido.</p>
+<p>Coordinador técnico:</p>
 
-<img class="img-responsive contenido-imagen" src="entorno-urbano/fotografia.jpg" alt="Descripción">
+<p>Asesor técnico:</p>
+
+<p>Secretario técnico:</p>
+
+<h3>Temas y subtemas</h3>
+
+<ul>
+<li>Tema
+
+<ul>
+<li>Subtema</li>
+<li>Subtema</li>
+<li>Subtema</li>
+</ul></li>
+<li>Tema
+
+<ul>
+<li>Subtema</li>
+<li>Subtema</li>
+<li>Subtema</li>
+</ul></li>
+<li>Tema
+
+<ul>
+<li>Subtema</li>
+<li>Subtema</li>
+<li>Subtema</li>
+</ul></li>
+</ul>
+
+    </div>
+    <div class="tab-pane" id="asistentes">
+      <h3>Invitados expertos</h3>
+
+<ul>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+</ul>
+
+    </div>
+    <div class="tab-pane" id="diagnostico">
+      <h3>Documentación</h3>
+
+<p><strong>Pendiente poner documentación de diagnóstico.</strong></p>
+
+    </div>
+    <div class="tab-pane active" id="conclusiones">
+      <h3>Grandes temas</h3>
+
+<h3>Causantes o agravantes de los problemas</h3>
+
+<h3>Retroalimentación externa</h3>
+
+<ul>
+<li>Problema o reto</li>
+<li>Indicadores hístoricos</li>
+<li>Descripción del escenario tendencial o futuro probable: si las tendencias continuan dentro de 10 años la situación será:</li>
+<li>Indicadores futuros, en un rango de bajo alto</li>
+</ul>
+
+<h3>Conclusiones o comentarios</h3>
+
+    </div>
+  </div>
 </article>
 <div class="contenido-social">
   <h5>Compartir en Redes Sociales</h5>
@@ -188,6 +266,10 @@
 <script src="../js/sb-admin-2.js"></script>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+// TWITTER BOOTSTRAP TABS
+$(document).ready(function(){
+  $('#lenguetas- a:first').tab('show')
+});
 </script>
 </body>
 </html>

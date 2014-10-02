@@ -70,6 +70,12 @@ class NavegacionConfig {
         'Contacto' => 'contacto/contacto.html');
     protected $iconos = array(
         'Análisis Publicados'       => 'fa fa-lightbulb-o',
+        'Buen Gobierno'             => 'fa fa-university',
+        'Desarrollo Económico'      => 'fa fa-usd',
+        'Desarrollo Social'         => 'fa fa-users',
+        'Entorno Urbano'            => 'fa fa-building',
+        'Movilidad y Transporte'    => 'fa fa-car',
+        'S. y Medio Ambiente'       => 'fa fa-leaf',
         'Indicadores'               => 'fa fa-area-chart',
         'Introducción al SMI'       => 'fa fa-file-text-o',
         'Categorías'                => 'fa fa-th-list',
