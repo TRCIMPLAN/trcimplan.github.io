@@ -2,21 +2,29 @@
 
 Coordinador técnico:
 
-Asesor técnico:
+Asesor técnico: Daniela Corral
 
-Secretario técnico:
+Secretario técnico: Teresita Benítez
 
 ### Temas y subtemas
 
-* Tema
-    * Subtema
-    * Subtema
-    * Subtema
-* Tema
-    * Subtema
-    * Subtema
-    * Subtema
-* Tema
-    * Subtema
-    * Subtema
-    * Subtema
+* Ordenamiento Urbano
+    * Crecimiento
+    * Usos y destinos
+    * Ocupación de suelo
+    * Calidad
+    * Cobertura de servicios
+    * Accesibilidad
+    * Disponibilidad
+    * Conectividad
+* Espacio Público
+    * Calidad
+    * Accesibilidad
+    * Productividad del espacio Público
+* Legislación Urbana
+    * Políticas
+    * Reglamentos
+    * Normativa
+* Desarrollo inmobiliario y Vivienda
+    * Intensidad de Uso
+    * Sectores

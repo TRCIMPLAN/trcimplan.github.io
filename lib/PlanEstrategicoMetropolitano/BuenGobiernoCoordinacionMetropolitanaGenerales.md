@@ -1,30 +1,30 @@
 ### Responsables
 
-Coordinador técnico: Fulano de Tal
+Coordinador técnico:
 
-Asesor técnico: Fulano de Tal
+Asesor técnico:
 
-Secretario técnico: Fulano de Tal
+Secretario técnico:
 
 ### Temas y subtemas
 
 * Lorem ipsum
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
+    * Subtema Lorem ipsum dolor sit amet.
+    * Subtema Lorem ipsum dolor sit amet.
+    * Subtema Lorem ipsum dolor sit amet.
 * Lorem ipsum
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
+    * Subtema Lorem ipsum dolor sit amet.
+    * Subtema Lorem ipsum dolor sit amet.
+    * Subtema Lorem ipsum dolor sit amet.
 * Lorem ipsum
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
+    * Subtema Lorem ipsum dolor sit amet.
+    * Subtema Lorem ipsum dolor sit amet.
+    * Subtema Lorem ipsum dolor sit amet.
 * Lorem ipsum
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
+    * Subtema Lorem ipsum dolor sit amet.
+    * Subtema Lorem ipsum dolor sit amet.
+    * Subtema Lorem ipsum dolor sit amet.
 * Lorem ipsum
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
-    * Subtema Lorem ipsum dolor sit amet, consetetur sadipscing el
+    * Subtema Lorem ipsum dolor sit amet.
+    * Subtema Lorem ipsum dolor sit amet.
+    * Subtema Lorem ipsum dolor sit amet.

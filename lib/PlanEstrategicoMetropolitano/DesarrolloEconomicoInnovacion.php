@@ -55,10 +55,10 @@ class DesarrolloEconomicoInnovacion extends \Base\Publicacion {
         // Definir lenguetas
         //
         $lenguetas = new \Base\Lenguetas();
-        $lenguetas->agregar('generales',    'Datos Generales', $this->cargar_archivo_markdown('BuenGobiernoCoordinacionMetropolitanaGenerales.md'));
-        $lenguetas->agregar('asistentes',   'Asistentes',      $this->cargar_archivo_markdown('BuenGobiernoCoordinacionMetropolitanaAsistentes.md'));
-        $lenguetas->agregar('diagnostico',  'Diagnóstico',     $this->cargar_archivo_markdown('BuenGobiernoCoordinacionMetropolitanaDiagnostico.md'));
-        $lenguetas->agregar('conclusiones', 'Conclusiones',    $this->cargar_archivo_markdown('BuenGobiernoCoordinacionMetropolitanaConclusiones.md'));
+        $lenguetas->agregar('generales',    'Datos Generales', $this->cargar_archivo_markdown('DesarrolloEconomicoInnovacionGenerales.md'));
+        $lenguetas->agregar('asistentes',   'Asistentes',      $this->cargar_archivo_markdown('DesarrolloEconomicoInnovacionAsistentes.md'));
+        $lenguetas->agregar('diagnostico',  'Diagnóstico',     $this->cargar_archivo_markdown('DesarrolloEconomicoInnovacionDiagnostico.md'));
+        $lenguetas->agregar('conclusiones', 'Conclusiones',    $this->cargar_archivo_markdown('DesarrolloEconomicoInnovacionConclusiones.md'));
         //
         //
         // El contenido HTML y el JavaScript

@@ -1,9 +1,9 @@
 ### Grandes temas
 
-1. Descoordinación Metropolitana
-2. Primicidad decisiones politicas sobre tecnicas
-3. Inestabilidad político-Electoral
-4. Alta rotación de servidores publicos
+1. Descoordinación metropolitana
+2. Primicidad decisiones políticas sobre técnicas
+3. Inestabilidad político-electoral
+4. Alta rotación de servidores públicos
 5. Mala aplicación del fondo metropolitano
 
 ### Causantes o agravantes de los problemas
@@ -14,7 +14,7 @@
 
 2. Primicidad decisiones politicas sobre tecnicas
 
-   > Poco uso de informacion
+   > Poco uso de información
 
 3. Inestabilidad político-Electoral
 
@@ -22,11 +22,11 @@
 
 4. Alta rotación de servidores publicos
 
-   > Perfiles y capacitacion inadecuados
+   > Perfiles y capacitación inadecuados
 
 5. Mala aplicación del fondo metropolitano
 
-   > Reparticion entre estados para sus proyectos
+   > Repartición entre estados para sus proyectos
 
 ### Retroalimentación externa
 
