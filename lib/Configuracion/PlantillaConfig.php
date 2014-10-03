@@ -48,10 +48,10 @@ class PlantillaConfig {
            GitHub             https://github.com/TRCIMPLAN
 
         Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
-           Twitter Bootstrap  http://getbootstrap.com
-           StartBootStrap     http://startbootstrap.com
-           Morris.js          http://www.oesmith.co.uk/morris.js
-           LeafLet            http://leafletjs.com
+           Twitter Bootstrap            http://getbootstrap.com
+           StartBootStrap (SB Admin 2)  http://startbootstrap.com
+           Morris.js                    http://www.oesmith.co.uk/morris.js
+           LeafLet                      http://leafletjs.com
 
      ======================================================================================== -->
 FINAL;

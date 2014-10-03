@@ -69,11 +69,13 @@ class Completo {
         $a[] = $this->publicacion->contenido;
         $a[] = '</article>';
         // Agregar botones para compartir en redes sociales
-        $a[] = '<div class="contenido-social">';
-        $a[] = '  <h5>Compartir en Redes Sociales</h5>';
-        $a[] = '  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>';
-        $a[] = '  <iframe src="//www.facebook.com/plugins/like.php?href='.urlencode($this->publicacion->url_absoluto()).'&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>';
-        $a[] = '</div>';
+        if ($p->para_compartir) {
+            $a[] = '<div class="contenido-social">';
+            $a[] = '  <h5>Compartir en Redes Sociales</h5>';
+            $a[] = '  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>';
+            $a[] = '  <iframe src="//www.facebook.com/plugins/like.php?href='.urlencode($this->publicacion->url_absoluto()).'&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>';
+            $a[] = '</div>';
+        }
         // Entregar
         return implode("\n", $a);
     } // html

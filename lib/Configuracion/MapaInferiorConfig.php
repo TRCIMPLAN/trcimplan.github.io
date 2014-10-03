@@ -29,25 +29,50 @@ class MapaInferiorConfig {
 
     public $sitio_titulo = 'IMPLAN Torreón';
     public $logotipo     = 'imagenes/implan-transparente-gris.png';
-    protected $opciones  = array(
-        'Análisis Publicados' => 'blog/index.html',
-        'SMI'                 => 'smi/introduccion.html',
-        'SIG'                 => 'sig/introduccion.html',
-        'BMPI'                => 'proyectos/introduccion.html',
-        'Institucional'       => 'institucional/index.html',
-        'Consejo Directivo'   => 'consejo-directivo/consejo-directivo.html',
-        'Eventos'             => 'eventos/index.html',
-        'Sala de Prensa'      => 'sala-prensa/index.html',
-        'Contacto'            => 'contacto/contacto.html');
-    protected $iconos = array(
-        'Análisis Publicados' => 'fa fa-lightbulb-o',
-        'SMI'                 => 'fa fa-bar-chart',
-        'SIG'                 => 'fa fa-map-marker',
-        'BMPI'                => 'fa fa-paper-plane-o',
-        'Institucional'       => 'fa fa-university',
-        'Consejo Directivo'   => 'fa fa-users',
-        'Comunicados'         => 'fa fa-volume-up',
-        'Contacto'            => 'fa fa-phone');
+    public $en_raiz = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // En este arreglo acumularemos la entrega
+        $a = array();
+        // Acumular
+        $a[] = '    <div class="row mapa-inferior">';
+        $a[] = '      <div class="col-md-8">';
+        if ($this->en_raiz) {
+            $a[] = "          <a href=\"index.html\"><img class=\"img-responsive mapa-inferior-logo\" src=\"{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
+        } else {
+            $a[] = "          <a href=\"../index.html\"><img class=\"img-responsive mapa-inferior-logo\" src=\"../{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
+        }
+        $a[] = '      </div>'; // col-md-8
+        $a[] = '      <div class="col-md-4">';
+        $a[] = '        <div class="pull-right mapa-inferior-redes-sociales">';
+        $a[] = '          <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>';
+        $a[] = '          <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>';
+        $a[] = '          <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>';
+        if ($this->en_raiz) {
+            $a[] = '          <a class="fa fa-rss-square" href="rss.xml"></a>';
+        } else {
+            $a[] = '          <a class="fa fa-rss-square" href="../rss.xml"></a>';
+        }
+        $a[] = '        </div>';
+        $a[] = '      </div>'; // col-md-4
+        $a[] = '    </div>'; // row
+        // Entregar
+        return implode("\n", $a);
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código javascript
+     */
+    public function javascript() {
+        return '';
+    } // javascript
 
 } // Clase MapaInferiorConfig
 
