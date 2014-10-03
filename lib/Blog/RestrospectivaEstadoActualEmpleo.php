@@ -52,7 +52,7 @@ class RestrospectivaEstadoActualEmpleo extends \Base\Publicacion {
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="retrospectiva-estado-actual-empleo/imagen.jpg"></span>
 
-<h3>Síntesis (Abstract)</h3>
+<h3>Síntesis</h3>
 
 <ul>
     <li>México se encuentra históricamente entre los países con menores tasas de desempleo en el mundo.</li>
@@ -93,7 +93,7 @@ class RestrospectivaEstadoActualEmpleo extends \Base\Publicacion {
 
 <h3>Prospectiva de población económicamente activa y empleo</h3>
 
-<p>En base a las proyecciones de población de CONAPO, y los últimos datos sobre Población Económicamente Activa (PEA) en Torreón y La Laguna, en 2014 la PEA es para Torreón 288,958 y para la ZML 526,623, de los cuales están empleados 274,193 y 500,292 respectivamente. De acuerdo a ello para mantener una tasa de desempleo de alrededor de 5 %, en Torreón se requieren generar en Torreón 4,054 empleos durante 2014 y 7,692 en la ZML.</p>
+<p>En base a las proyecciones de población de CONAPO, y los últimos datos sobre Población Económicamente Activa (PEA) en Torreón y La Laguna, en 2014 la PEA es para Torreón 288,958 y para la ZML 526,623, de los cuales están empleados 274,193 y 500,292 respectivamente. De acuerdo a ello para mantener una tasa de desempleo de alrededor de 5 %, en Torreón se requieren generar en Torreón 4,054 empleos durante 2014 y 7,692 en la ZML. [1]</p>
 
 <p>A su vez para reducir la tasa de desempleo a 3 % es necesaria la generación de 6,097 adicionales en Torreón y 10,532 en la ZML.</p>
 
@@ -111,12 +111,9 @@ class RestrospectivaEstadoActualEmpleo extends \Base\Publicacion {
 
 <p>Considerando que Torreón requiere 4,054 nuevos empleos anuales y la ZML 7,692, se concluye que en el presente año se logrará reducir aún más tasa de desempleo aminorando el déficit de puestos de trabajo que dejaron los años anteriores principalmente 2009.</p>
 
-<h3>Notas</h3>
+<p>* Con colaboración de Gloria Liliana Gaytán Arocha.</p>
 
-<ul>
-    <li>Con colaboración de Gloria Liliana Gaytán Atocha.</li>
-    <li>La Población Económicamente Activa se estima en base a la PEA del Censo de Población y Vivienda 2010, en el cual Torreón contaba con 40 % de su población económicamente activa y 39 % la Zona Metropolitana. Sin embargo al tener CONAPO proyecciones de población por grupos de edad, la estimación se hace en base a la proporción de PEA sobre los rangos de edad de 15 a 64 años, considerando así la dinámica demográfica de los próximos años. La proporción PEA sobre el grupo de edad de 15 a 64 de referencia, es para Torreón es 63.3 % y para La Laguna 61.6 %.</li>
-</ul>
+<p>[1]La Población Económicamente Activa se estima en base a la PEA del Censo de Población y Vivienda 2010, en el cual Torreón contaba con 40 % de su población económicamente activa y 39 % la Zona Metropolitana. Sin embargo al tener CONAPO proyecciones de población por grupos de edad, la estimación se hace en base a la proporción de PEA sobre los rangos de edad de 15 a 64 años, considerando así la dinámica demográfica de los próximos años. La proporción PEA sobre el grupo de edad de 15 a 64 de referencia, es para Torreón es 63.3 % y para La Laguna 61.6 %.</p>
 FINAL;
         $this->javascript    = <<<FINAL
 FINAL;
