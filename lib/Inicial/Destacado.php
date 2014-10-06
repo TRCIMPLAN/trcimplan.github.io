@@ -68,6 +68,7 @@ class Destacado {
         $a[] = '  <!-- DESTACADO -->';
         $a[] = '  <section id="destacado">';
         $a[] = '    <div class="row">';
+        //
         $a[] = '      <div class="col-sm-6 col-md-4">';
         $a[] = $this->twitter_bootstrap_thumbnail(
             'plan-estrategico-metropolitano/introduccion/imagen-previa-ancha.jpg',
@@ -77,24 +78,28 @@ class Destacado {
                 'Conoce el Plan'       => 'plan-estrategico-metropolitano/introduccion.html',
                 'Entrega tu propuesta' => 'http://trcimplan.mx/interaccion-web/index.php/686726/lang-es-MX'));
         $a[] = '      </div>';
+        //
+        $a[] = '      <div class="col-sm-6 col-md-4">';
+        $a[] = $this->twitter_bootstrap_thumbnail(
+            'sig/introduccion/imagen-previa-ancha.jpg',
+            'Sistema de Información Geográfica',
+            'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.',
+            array(
+                'Conoce el SIG'           => 'sig/introduccion.html',
+                'Mapa Reconversión a Led' => 'sig/alumbrado-publico.html',
+                'Mapa Zonificación'       => 'sig/zonificacion.html'));
+        $a[] = '      </div>';
+        //
         $a[] = '      <div class="col-sm-6 col-md-4">';
         $a[] = $this->twitter_bootstrap_thumbnail(
             'smi/introduccion/imagen-previa-ancha.jpg',
             'Sistema Metropolitano de Indicadores',
-            'Indicadores en 5 grandes temas: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad.',
+            'Mantenemos al día indicadores en 5 grandes temas: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad para los municipios de la Laguna.',
             array(
                 'Qué son los Indicadores' => 'smi/introduccion.html',
                 'Categorías'              => 'indicadores-categorias/index.html'));
         $a[] = '      </div>';
-        $a[] = '      <div class="col-sm-6 col-md-4">';
-        $a[] = $this->twitter_bootstrap_thumbnail(
-            'sig/introduccion/imagen-previa-ancha.jpg',
-            'Reconversión Tecnológica Led del Alumbrado Público',
-            'Consulta día a día el mapa del avance de Reconversión del Alumbrado Público de Torreón',
-            array(
-                'Mapa Reconversión a Led' => 'sig/alumbrado-publico.html',
-                'Mapa Zonificación'       => 'sig/zonificacion.html'));
-        $a[] = '      </div>';
+        //
         $a[] = '    </div>'; // row
         $a[] = '  </section>';
         // Entregar
