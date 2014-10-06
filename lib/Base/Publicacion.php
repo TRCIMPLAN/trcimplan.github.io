@@ -114,6 +114,56 @@ class Publicacion extends \Configuracion\PublicacionConfig {
         return sprintf('%02d/%02d/%04d', $a[2], $a[1], $a[0]);
     } // fecha_con_formato_humano
 
+    /**
+     * Cargar archivo
+     *
+     * @param  string Ruta al archivo desde la raiz del sitio, ejemplo 'lib/Directorio/Archivo.html'
+     * @return string Código HTML
+     */
+    protected function cargar_archivo($ruta) {
+        $contenido = file_get_contents("$ruta");
+        if ($contenido === false) {
+            throw new \Exception("Error en cargar_archivo: No se puede leer $ruta");
+        }
+        return $contenido;
+    } // cargar_archivo_markdown
+
+    /**
+     * Cargar archivo markdown
+     *
+     * Con este método se pueden cargar archivos markdown para que se organize el contenido.
+     * Útil con el uso de Lenguetas.
+     *
+     * @param  string Ruta al archivo markdown desde la raiz del sitio, ejemplo 'lib/Directorio/Archivo.md'
+     * @return string Código HTML
+     */
+    protected function cargar_archivo_markdown($ruta) {
+        $contenido = file_get_contents("$ruta");
+        if ($contenido === false) {
+            throw new \Exception("Error en cargar_archivo_markdown: No se puede leer $ruta");
+        }
+        $html = \Michelf\Markdown::defaultTransform($contenido);
+        return $html;
+    } // cargar_archivo_markdown
+
+    /**
+     * Cargar archivo markdown extra
+     *
+     * Éste tiene la construcción de tablas.
+     *
+     * @param  string Ruta al archivo markdown desde la raiz del sitio, ejemplo 'lib/Directorio/Archivo.md'
+     * @return string Código HTML
+     */
+    protected function cargar_archivo_markdown_extra($ruta) {
+        $contenido = file_get_contents("$ruta");
+        if ($contenido === false) {
+            throw new \Exception("Error en cargar_archivo_markdown_extra: No se puede leer $ruta");
+        }
+        $html    = \Michelf\MarkdownExtra::defaultTransform($contenido);
+        $html_tb = str_replace('<table>', '<table class="table table-hover table-bordered">', $html); // Tablas de Twitter Bootstrap
+        return $html_tb;
+    } // cargar_archivo_markdown_extra
+
 } // Clase Publicacion
 
 ?>

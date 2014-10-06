@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Introducción
+ * SMIbeta - Plan Estratégico Metropolitano - Introducción
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -46,7 +46,7 @@ class Introduccion extends \Base\Publicacion {
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
         $this->directorio    = 'plan-estrategico-metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu   = 'Conoce el Plan';
+        $this->nombre_menu   = 'Plan Estratégico Metropolitano > Conoce el Plan';
         // El contenido HTML y el JavaScript
         $this->contenido     = <<<FINAL
 <h2>¿Qué es el Plan Estratégico Metropolitano?</h2>

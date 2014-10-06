@@ -95,6 +95,24 @@ class Navegacion extends \Configuracion\NavegacionConfig {
     } // menu_superior
 
     /**
+     * Formatear etiqueta
+     *
+     * Como cada clave debe ser única, debe de usarse 'Opcion > Subopción' en NavegacionConfig
+     *
+     * @param  string
+     * @return string
+     */
+    protected function formatear_etiqueta($in_etiqueta) {
+        // Si la etiqueta tiene "mayor que" se retira lo que está a la izquierda de éste
+        $posicion = strrpos($in_etiqueta, '>'); // Busca la última aparición
+        if ($posicion === false) {
+            return trim($in_etiqueta);
+        } else {
+            return trim(substr($in_etiqueta, $posicion + 1));
+        }
+    } // formatear_etiqueta
+
+    /**
      * Vinculo
      *
      * De acuerdo a cómo empieza el URL y a la bandera en_raiz, crea el vínculo correcto
@@ -104,18 +122,13 @@ class Navegacion extends \Configuracion\NavegacionConfig {
      * @return string Código HTML
      */
     protected function vinculo($in_etiqueta, $url) {
+        // Si la etiqueta tiene "mayor que" se retira lo que está a la izquierda de éste
+        $etiqueta = $this->formatear_etiqueta($in_etiqueta);
         // Icono
-        if (array_key_exists($in_etiqueta, $this->iconos)) {
-            $icono = "<i class=\"{$this->iconos[$in_etiqueta]}\"></i>";
+        if (array_key_exists($etiqueta, $this->iconos)) {
+            $icono = "<i class=\"{$this->iconos[$etiqueta]}\"></i>";
         } else {
             $icono = "<i class=\"fa fa-file-text-o\"></i>";
-        }
-        // Si la etiqueta tiene "mayor que" se retira lo que está a la izquierda de éste
-        $posicion = strpos($in_etiqueta, '>');
-        if ($posicion === 0) {
-            $etiqueta = $in_etiqueta;
-        } else {
-            $etiqueta = trim(substr($in_etiqueta, $posicion + 1));
         }
         // Si el URL es absoluto
         if ((strpos($url, 'http://') === 0) || (strpos($url, 'https://') === 0) || (strpos($url, '/') === 0)) {
@@ -152,42 +165,54 @@ class Navegacion extends \Configuracion\NavegacionConfig {
         foreach ($this->opciones as $etiqueta => $parametros) {
             if (is_array($parametros)) {
                 // Segundo nivel
-                if (array_key_exists($etiqueta, $this->iconos)) {
-                    $icono = "<i class=\"{$this->iconos[$etiqueta]}\"></i>";
+                $e = $this->formatear_etiqueta($etiqueta);
+                if (array_key_exists($e, $this->iconos)) {
+                    $icono = "<i class=\"{$this->iconos[$e]}\"></i>";
                 } else {
                     $icono = "<i class=\"fa fa-file-text-o\"></i>";
                 }
-                if (array_key_exists($this->opcion_activa, $parametros)) {
+                // Buscar si la opción activa es del tercer nivel
+                $es_opcion_activa = false;
+                foreach ($parametros as $eti=> $param) {
+                    if (is_array($param) && array_key_exists($this->opcion_activa, $param)) {
+                        $es_opcion_activa = true;
+                    }
+                }
+                // Si la opción activa es de tercer nivel, entonces también esta es activa
+                if ($es_opcion_activa) {
+                    $a[] = '        <li class="active">';
+                } elseif (array_key_exists($this->opcion_activa, $parametros)) {
                     $a[] = '        <li class="active">';
                 } else {
                     $a[] = '        <li>';
                 }
-                $a[] = "          <a href=\"#\">$icono $etiqueta<span class=\"fa arrow\"></span></a>";
+                $a[] = "          <a href=\"#\">$icono $e<span class=\"fa arrow\"></span></a>";
                 $a[] = '          <ul class="nav nav-second-level">';
                 foreach ($parametros as $eti=> $param) {
                     if (is_array($param)) {
                         // Tercer nivel
-                        if (array_key_exists($eti, $this->iconos)) {
-                            $icono = "<i class=\"{$this->iconos[$eti]}\"></i>";
+                        $e = $this->formatear_etiqueta($eti);
+                        if (array_key_exists($e, $this->iconos)) {
+                            $icono = "<i class=\"{$this->iconos[$e]}\"></i>";
                         } else {
                             $icono = "<i class=\"fa fa-file-text-o\"></i>";
                         }
                         if (array_key_exists($this->opcion_activa, $param)) {
-                            $a[] = '        <li class="active">';
+                            $a[] = '            <li class="active">';
                         } else {
-                            $a[] = '        <li>';
+                            $a[] = '            <li>';
                         }
-                        $a[] = "          <a href=\"#\">$icono $eti<span class=\"fa arrow\"></span></a>";
-                        $a[] = '          <ul class="nav nav-third-level">';
+                        $a[] = "              <a href=\"#\">$icono $e<span class=\"fa arrow\"></span></a>";
+                        $a[] = '              <ul class="nav nav-third-level">';
                         foreach ($param as $e => $u) {
                             if ($this->opcion_activa == $e) {
-                                $a[] = '            <li class="active">'.$this->vinculo($e, $u).'</li>';
+                                $a[] = '                <li class="active">'.$this->vinculo($e, $u).'</li>';
                             } else {
-                                $a[] = '            <li>'.$this->vinculo($e, $u).'</li>';
+                                $a[] = '                <li>'.$this->vinculo($e, $u).'</li>';
                             }
                         }
-                        $a[] = '          </ul>';
-                        $a[] = '        </li>';
+                        $a[] = '              </ul>';
+                        $a[] = '            </li>';
                     } else {
                         // Hasta segundo nivel
                         if ($this->opcion_activa == $eti) {
