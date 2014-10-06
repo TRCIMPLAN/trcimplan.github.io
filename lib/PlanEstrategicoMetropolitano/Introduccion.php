@@ -67,7 +67,7 @@ class Introduccion extends \Base\Publicacion {
 
 <h2>¿De qué forma puedo participar?</h2>
 
-<p>Envíanos tu proyecto, solicitud o inquietud <strong><a href="http://trcimplan.mx/interaccion-web/index.php/722512/lang-es-MX" target="_blank">llenando esta encuesta en línea</a></strong>. Sólo necesitas tener una dirección de <strong>correo electrónico</strong> para que recibas un <strong>mensaje automático de invitación</strong> a la misma.</p>
+<p>Envíanos tu proyecto, solicitud o inquietud <strong><a href="http://trcimplan.mx/interaccion-web/index.php/686726/lang-es-MX" target="_blank">llenando esta encuesta en línea</a></strong>. Sólo necesitas tener una dirección de <strong>correo electrónico</strong> para que recibas un <strong>mensaje automático de invitación</strong> a la misma.</p>
 
 <p>Le informamos que, como forma de control, la encuesta sólo puede ser llenada una vez por cada dirección de correo electrónico.</p>
 FINAL;

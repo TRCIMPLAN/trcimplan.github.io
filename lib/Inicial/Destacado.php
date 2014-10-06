@@ -75,7 +75,7 @@ class Destacado {
             'Súmate al esfuerzo de planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad de La Laguna.',
             array(
                 'Conoce el Plan'       => 'plan-estrategico-metropolitano/introduccion.html',
-                'Entrega tu propuesta' => 'http://trcimplan.mx/interaccion-web/index.php/722512/lang-es-MX'));
+                'Entrega tu propuesta' => 'http://trcimplan.mx/interaccion-web/index.php/686726/lang-es-MX'));
         $a[] = '      </div>';
         $a[] = '      <div class="col-sm-6 col-md-4">';
         $a[] = $this->twitter_bootstrap_thumbnail(
