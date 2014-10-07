@@ -27,64 +27,151 @@ namespace Base;
  */
 class Redifusion extends \Configuracion\RedifusionConfig {
 
+    // public $xml_encoding;
+    // public $sitio_titulo;
+    // public $sitio_url;
+    // public $sitio_descripcion;
+    // public $lenguaje;
+    // public $generator;
+    // public $webmaster_email;
+    // public $elementos_max;
+    // public $archivo;
+    protected $elementos = array();
+
+    /**
+     * Caracteres para web
+     *
+     * @param string  Texto a convertir
+     * @return string Convertido
+     */
+    protected function caracteres_para_web($in_texto) {
+        $buscados       = array('ñ', 'Ñ', 'ü', 'Ü', 'á', 'Á', 'é', 'É', 'í', 'Í', 'ó', 'Ó', 'ú', 'Ú');
+        $cambios        = array('n', 'n', 'u', 'u', 'a', 'a', 'e', 'e', 'i', 'i', 'o', 'o', 'u', 'u');
+        $sin_acentos    = str_replace($buscados, $cambios, $in_texto);
+        $especiales     = array(' ', '#', '&', '%', '$', '@', '(', ')', '.', ',');
+        $sin_especiales = str_replace($especiales, '-', $sin_acentos);
+        return strtolower($sin_especiales);
+    } // caracteres_para_web
+
+    /**
+     * Agregar elemento
+     *
+     * @param mixed Instancia de Publicacion
+     */
+    public function agregar_elemento(Publicacion $publicacion) {
+        // Tratar de interpretar la fecha
+        $t = strtotime($publicacion->fecha);
+        if ($t === false) {
+            // Fecha errónea, se usará 1980-01-01
+            $ano    = 1980;
+            $mes    = 1;
+            $dia    = 1;
+            $hora   = 0;
+            $minuto = 0;
+            $fecha  = date('r', mktime($hora, $minuto, 0, $mes, $dia, $ano));
+        } else {
+            // Sí se interpretó bien
+            $a      = getdate($t);
+            $ano    = $a['year'];
+            $mes    = $a['mon'];
+            $dia    = $a['mday'];
+            $hora   = $a['hours'];
+            $minuto = $a['minutes'];
+            $fecha  = date('r', mktime($hora, $minuto, 0, $mes, $dia, $ano));
+        }
+        // Formatear fecha
+    /*  if (preg_match('/^\d{4}\-\d{1,2}\-\d{1,2}$/', $in_fecha) {
+            // Viene como AAAA-MM-DD
+            $f      = explode('-', $in_fecha);
+            $ano    = $f[0];
+            $mes    = $f[1];
+            $dia    = $f[2];
+            $hora   = 0;
+            $minuto = 0;
+            $fecha  = date('r', mktime(0, 0, 0, $mes, $dia, $ano));
+        } elseif (preg_match('/^\d{4}\-\d{1,2}\-\d{1,2} \d{1,2}:\d{1,2}$/', $in_fecha)) {
+            // Viene como AAAA-MM-DD HH:MM
+            $s      = explode(' ', $in_fecha);
+            $f      = explode('-', $s[0]);
+            $ano    = $f[0];
+            $mes    = $f[1];
+            $dia    = $f[2];
+            $t      = explode(':', $s[1]);
+            $hora   = $t[0];
+            $minuto = $t[1];
+            $fecha  = date('r', mktime($hora, $minuto, 0, $mes, $dia, $ano);
+        } else {
+        } */
+        // Considerar vínculos desde la raíz
+        $publicacion->en_raiz = true;
+        // Formatear URL
+        $url = sprintf('%s/%s', $this->sitio_url, $publicacion->url());
+        // Identificador único fecha + titulo
+        $id = sprintf('%s-%s', date('YmdHi', mktime($hora, $minuto, 0, $mes, $dia, $ano)), $this->caracteres_para_web($publicacion->nombre));
+        // La clave del arreglo asociativo es el tiempo_creado-archivo y sirve para ordenarlo
+        $clave = sprintf('%s-%s', $publicacion->tiempo_creado(), $publicacion->archivo);
+        // Acumular
+        $this->elementos[$clave] = array(
+            'id'          => $id,
+            'fecha'       => $fecha,
+            'titulo'      => htmlentities($publicacion->nombre),
+            'descripcion' => htmlentities($publicacion->descripcion),
+            'autor'       => htmlentities($publicacion->autor),
+            'url'         => $url);
+    } // agregar_elemento
+
     /**
      * XML
      *
      * @return string Código XML
      */
     public function xml() {
+        // Validar que haya elementos
+        if (count($this->elementos) == 0) {
+            throw new \Exception("Error en Redifusion, xml: No hay elementos.");
+        }
+        // Ordenarlos por la clave del arreglo asociativo
+        ksort($this->elementos);
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '';
+        $a[] = sprintf('<?xml version="1.0" encoding="%s"?>', $this->xml_encoding);
+        // RSS Inicia
+        $a[] = '<rss version="2.0">';
+        $a[] = '  <channel>';
+        // Datos generales
+        $a[] = "    <title>{$this->sitio_titulo}</title>";
+        $a[] = "    <link>{$this->sitio_url}</link>";
+        $a[] = "    <description>{$this->sitio_descripcion}</description>";
+        $a[] = "    <language>{$this->lenguaje}</language>";
+        $a[] = sprintf('    <pubDate>%s</pubDate>', date('r'));
+     // $a[] = sprintf('    <lastBuildDate>%s</lastBuildDate>', date('r'));
+        $a[] = '    <docs>http://www.rssboard.org/rss-specification</docs>';
+        $a[] = "    <generator>{$this->generator}</generator>";
+     // $a[] = '    <managingEditor>editor@example.com</managingEditor>';
+        $a[] = "    <webMaster>{$this->webmaster_email}</webMaster>";
+        // Bucle por los elementos
+        $contador = 0;
+        foreach ($this->elementos as $clave => $e) {
+            if ($contador >= $this->elementos_max) {
+                break;
+            }
+            $a[] = '    <item>';
+            $a[] = "      <title>{$e['titulo']}</title>";
+            $a[] = "      <link>{$e['url']}</link>";
+            $a[] = "      <description>{$e['descripcion']}</description>";
+            $a[] = "      <pubDate>{$e['fecha']}</pubDate>"; // Indicates when the item was published
+            $a[] = "      <guid>{$clave}</guid>"; // A string that uniquely identifies the item
+            $a[] = '    </item>';
+            $contador++;
+        }
+        // RSS Cerrar
+        $a[] = '  </channel>';
+        $a[] = '</rss>';
         // Entregar
         return implode("\n", $a)."\n";
     } // xml
 
 } // Clase Redifusion
-
-/*
-<?xml version="1.0"?>
-<rss version="2.0">
-   <channel>
-      <title>Liftoff News</title>
-      <link>http://liftoff.msfc.nasa.gov/</link>
-      <description>Liftoff to Space Exploration.</description>
-      <language>en-us</language>
-      <pubDate>Tue, 10 Jun 2003 04:00:00 GMT</pubDate>
-      <lastBuildDate>Tue, 10 Jun 2003 09:41:01 GMT</lastBuildDate>
-      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-      <generator>Weblog Editor 2.0</generator>
-      <managingEditor>editor@example.com</managingEditor>
-      <webMaster>webmaster@example.com</webMaster>
-      <item>
-         <title>Star City</title>
-         <link>http://liftoff.msfc.nasa.gov/news/2003/news-starcity.asp</link>
-         <description>How do Americans get ready to work with Russians aboard the International Space Station? They take a crash course in culture, language and protocol at Russia's &lt;a href="http://howe.iki.rssi.ru/GCTC/gctc_e.htm"&gt;Star City&lt;/a&gt;.</description>
-         <pubDate>Tue, 03 Jun 2003 09:39:21 GMT</pubDate>
-         <guid>http://liftoff.msfc.nasa.gov/2003/06/03.html#item573</guid>
-      </item>
-      <item>
-         <description>Sky watchers in Europe, Asia, and parts of Alaska and Canada will experience a &lt;a href="http://science.nasa.gov/headlines/y2003/30may_solareclipse.htm"&gt;partial eclipse of the Sun&lt;/a&gt; on Saturday, May 31st.</description>
-         <pubDate>Fri, 30 May 2003 11:06:42 GMT</pubDate>
-         <guid>http://liftoff.msfc.nasa.gov/2003/05/30.html#item572</guid>
-      </item>
-      <item>
-         <title>The Engine That Does More</title>
-         <link>http://liftoff.msfc.nasa.gov/news/2003/news-VASIMR.asp</link>
-         <description>Before man travels to Mars, NASA hopes to design new engines that will let us fly through the Solar System more quickly.  The proposed VASIMR engine would do that.</description>
-         <pubDate>Tue, 27 May 2003 08:37:32 GMT</pubDate>
-         <guid>http://liftoff.msfc.nasa.gov/2003/05/27.html#item571</guid>
-      </item>
-      <item>
-         <title>Astronauts' Dirty Laundry</title>
-         <link>http://liftoff.msfc.nasa.gov/news/2003/news-laundry.asp</link>
-         <description>Compared to earlier spacecraft, the International Space Station has many luxuries, but laundry facilities are not one of them.  Instead, astronauts have other options.</description>
-         <pubDate>Tue, 20 May 2003 08:56:02 GMT</pubDate>
-         <guid>http://liftoff.msfc.nasa.gov/2003/05/20.html#item570</guid>
-      </item>
-   </channel>
-</rss>
- */
 
 ?>

@@ -40,7 +40,7 @@ class Mesa1 extends \Base\Publicacion {
      // $this->imagen_previa = 'mesa-1/imagen-previa.jpg';
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="mesa-1/encabezado.jpg">';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = '';
+        $this->descripcion   = 'El inicio de la elaboración del Plan Estratégico Municipal será el 9 de octubre de 2014.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->categorias    = array('Plan Estratégico Metropolitano');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.

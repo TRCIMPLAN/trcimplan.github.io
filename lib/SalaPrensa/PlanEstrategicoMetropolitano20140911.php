@@ -37,9 +37,7 @@ class PlanEstrategicoMetropolitano20140911 extends \Base\Publicacion {
         $this->nombre_menu   = 'Sala de Prensa';
         $this->directorio    = 'sala-prensa';
         $this->archivo       = '2014-09-11-plan-estrategico-metropolitano';
-        $this->descripcion   = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del
-IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico
-y social de la Zona Metropolitana de La Laguna.';
+        $this->descripcion   = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = '2014-09-11-plan-estrategico-metropolitano/imagen-previa.jpg';
         $this->categorias    = array('Blog');
