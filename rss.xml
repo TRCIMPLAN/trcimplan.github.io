@@ -1,181 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IMPLAN Torreón</title>
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 08 Oct 2014 08:26:36 -0500</pubDate>
+    <pubDate>Wed, 08 Oct 2014 08:37:35 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
-    <webMaster>webmaster@trcimplan.gob.mx</webMaster>
+    <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
+    <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Economía del Sector Salud en La Laguna</title>
       <link>http://trcimplan.gob.mx/blog/economia-sector-salud-laguna.html</link>
       <description>El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.</description>
       <pubDate>Tue, 07 Oct 2014 00:00:00 -0500</pubDate>
-      <guid>000000116796-economia-sector-salud-laguna</guid>
+      <guid isPermaLink="false">000000117455-economia-sector-salud-laguna</guid>
     </item>
     <item>
       <title>Plan Estratégico Metropolitano - Mesa 1</title>
       <link>http://trcimplan.gob.mx/plan-estrategico-metropolitano/mesa-1.html</link>
       <description>El inicio de la elaboración del Plan Estratégico Municipal será el 9 de octubre de 2014.</description>
       <pubDate>Mon, 06 Oct 2014 00:00:00 -0500</pubDate>
-      <guid>000000203196-mesa-1</guid>
+      <guid isPermaLink="false">000000203855-mesa-1</guid>
     </item>
     <item>
       <title>Dinámica del PIB per cápita de La Laguna (IRAEs Banamex 2011,2014)</title>
       <link>http://trcimplan.gob.mx/blog/dinamica-pib-per-capita-laguna.html</link>
       <description>Entre los indicadores Banamex de 2011 y 2014 el PIB per cápita de La Laguna creció 22.82%.</description>
       <pubDate>Fri, 26 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000001067196-dinamica-pib-per-capita-laguna</guid>
+      <guid isPermaLink="false">000001067855-dinamica-pib-per-capita-laguna</guid>
     </item>
     <item>
       <title>Retrospectiva y estado actual del empleo en Torreón y la ZML</title>
       <link>http://trcimplan.gob.mx/blog/retrospectiva-estado-actual-empleo.html</link>
       <description>El empleo es uno de los principales indicadores, que muestra el desempeño económico de una ciudad, región o país. Desde hace 9 años Torreón y la Zona Metropolitana de la Laguna se habían separado a la alza de la media nacional.</description>
       <pubDate>Fri, 26 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000001067196-retrospectiva-estado-actual-empleo</guid>
+      <guid isPermaLink="false">000001067855-retrospectiva-estado-actual-empleo</guid>
     </item>
     <item>
       <title>Comportamiento y tendencia de la incidencia delictiva. Una visión ampliada.</title>
       <link>http://trcimplan.gob.mx/blog/comportamiento-tendencia-incidencia-delictiva.html</link>
       <description>Mostramos las tendencias de los delitos más recurrentes en la ciudad de Torreón; con datos del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.</description>
       <pubDate>Thu, 25 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000001153596-comportamiento-tendencia-incidencia-delictiva</guid>
+      <guid isPermaLink="false">000001154255-comportamiento-tendencia-incidencia-delictiva</guid>
     </item>
     <item>
       <title>Apertura de Empresas 2014</title>
       <link>http://trcimplan.gob.mx/blog/apertura-empresas-2014.html</link>
       <description>La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año 2014 en el mes de julio.</description>
       <pubDate>Wed, 24 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000001239996-apertura-empresas-2014</guid>
+      <guid isPermaLink="false">000001240655-apertura-empresas-2014</guid>
     </item>
     <item>
       <title>Plan Estratégico Metropolitano</title>
       <link>http://trcimplan.gob.mx/plan-estrategico-metropolitano/introduccion.html</link>
       <description>El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.</description>
       <pubDate>Wed, 24 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000001239996-introduccion</guid>
+      <guid isPermaLink="false">000001240655-introduccion</guid>
     </item>
     <item>
       <title>Nuevas herramientas para Nuevos Paradigmas</title>
       <link>http://trcimplan.gob.mx/blog/nuevas-herramientas-nuevos-paradigmas.html</link>
       <description>Hoy en día, con un teléfono inteligente o tablet se puede consultar la versión móvil de un SIG para recaudar información, emitir un diagnóstico y trabajar en planes programas y proyectos futuros.</description>
       <pubDate>Tue, 23 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000001326396-nuevas-herramientas-nuevos-paradigmas</guid>
+      <guid isPermaLink="false">000001327055-nuevas-herramientas-nuevos-paradigmas</guid>
     </item>
     <item>
       <title>Transformación Urbana</title>
       <link>http://trcimplan.gob.mx/blog/transformacion-urbana.html</link>
       <description>Tenemos grupos organizados y activistas de las bicicletas. Lo que falta, es el compromiso de los ayuntamientos para lograr la transformación urbana de la Laguna.</description>
       <pubDate>Mon, 22 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000001412796-transformacion-urbana</guid>
+      <guid isPermaLink="false">000001413455-transformacion-urbana</guid>
     </item>
     <item>
       <title>Equidad de Género en Informática</title>
       <link>http://trcimplan.gob.mx/blog/equidad-genero-informatica.html</link>
       <description>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</description>
       <pubDate>Fri, 19 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000001671996-equidad-genero-informatica</guid>
+      <guid isPermaLink="false">000001672655-equidad-genero-informatica</guid>
     </item>
     <item>
       <title>Competitividad y Planeación Metropolitana</title>
       <link>http://trcimplan.gob.mx/blog/competitividad-planeacion-metropolitana.html</link>
       <description>El Instituto Mexicano para la Competitividad dio a conocer el Índice de Competitividad Urbana 2014; en él muestra que la Zona Metropolitana de la Laguna (ZML) continúa en un nivel de competitividad media baja.</description>
       <pubDate>Thu, 18 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000001758396-competitividad-planeacion-metropolitana</guid>
+      <guid isPermaLink="false">000001759055-competitividad-planeacion-metropolitana</guid>
     </item>
     <item>
       <title>Una ciudad con futuro</title>
       <link>http://trcimplan.gob.mx/blog/una-ciudad-con-futuro.html</link>
       <description>Fundada en el año de 1850 como el Rancho del Carrizal, en el extremo norte de la República Mexicana, la ciudad de Torreón, Coahuila, celebró su elevación de rango -de villa a ciudad— un 15 de septiembre de 1907..</description>
       <pubDate>Wed, 17 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000001844796-una-ciudad-con-futuro</guid>
+      <guid isPermaLink="false">000001845455-una-ciudad-con-futuro</guid>
     </item>
     <item>
       <title>Convocatoria del Plan Estratégico Metropolitano</title>
       <link>http://trcimplan.gob.mx/sala-prensa/2014-09-11-plan-estrategico-metropolitano.html</link>
       <description>El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.</description>
       <pubDate>Thu, 11 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000002363196-2014-09-11-plan-estrategico-metropolitano</guid>
+      <guid isPermaLink="false">000002363855-2014-09-11-plan-estrategico-metropolitano</guid>
     </item>
     <item>
       <title>Avance de Reconversión Tecnológica Led del Alumbrado Público</title>
       <link>http://trcimplan.gob.mx/sig/alumbrado-publico.html</link>
       <description>Mapa del Avance de Reconversión del Alumbrado Público de Torreón.</description>
       <pubDate>Mon, 08 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000002622396-alumbrado-publico</guid>
+      <guid isPermaLink="false">000002623055-alumbrado-publico</guid>
     </item>
     <item>
       <title>Zonificación Primaria y Secundaria</title>
       <link>http://trcimplan.gob.mx/sig/zonificacion.html</link>
       <description>Mapa de la Zonificación Primaria y Secundaria de Torreón Coahuila.</description>
       <pubDate>Fri, 05 Sep 2014 00:00:00 -0500</pubDate>
-      <guid>000002881596-zonificacion</guid>
+      <guid isPermaLink="false">000002882255-zonificacion</guid>
     </item>
     <item>
       <title>Torreón, camino a la redensificación</title>
       <link>http://trcimplan.gob.mx/blog/torreon-camino-redensificacion.html</link>
       <description>Torreón no ha aprovechado su territorio e infraestructura contenida, de una manera óptima, debido a su baja densidad de ocupación en su área urbana.</description>
       <pubDate>Thu, 28 Aug 2014 00:00:00 -0500</pubDate>
-      <guid>000003572796-torreon-camino-redensificacion</guid>
+      <guid isPermaLink="false">000003573455-torreon-camino-redensificacion</guid>
     </item>
     <item>
       <title>Tercera Sesión Ordinaria del Consejo Directivo del IMPLAN</title>
       <link>http://trcimplan.gob.mx/eventos/tercera-sesion-ordinaria.html</link>
       <description>Con el título "230 días del IMPLAN" se dió el informe donde fué reconocida la conformación de bases sólidas para la creación de una ciudad planeada y competitiva.</description>
       <pubDate>Tue, 26 Aug 2014 00:00:00 -0500</pubDate>
-      <guid>000003745596-tercera-sesion-ordinaria</guid>
+      <guid isPermaLink="false">000003746255-tercera-sesion-ordinaria</guid>
     </item>
     <item>
       <title>Movilidad laboral cotidiana en la ZML</title>
       <link>http://trcimplan.gob.mx/blog/movilidad-laboral-cotidiana-zml.html</link>
       <description>Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.</description>
       <pubDate>Wed, 06 Aug 2014 00:00:00 -0500</pubDate>
-      <guid>000005473596-movilidad-laboral-cotidiana-zml</guid>
+      <guid isPermaLink="false">000005474255-movilidad-laboral-cotidiana-zml</guid>
     </item>
     <item>
       <title>Contribución de las TICs en la competitividad y productividad</title>
       <link>http://trcimplan.gob.mx/blog/contribucion-tic-competitividad-productividad.html</link>
       <description>La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.</description>
       <pubDate>Mon, 04 Aug 2014 00:00:00 -0500</pubDate>
-      <guid>000005646396-contribucion-tic-competitividad-productividad</guid>
+      <guid isPermaLink="false">000005647055-contribucion-tic-competitividad-productividad</guid>
     </item>
     <item>
       <title>El Gas Shale y su impacto</title>
       <link>http://trcimplan.gob.mx/blog/gas-shale-impacto.html</link>
       <description>La extracción del gas shale se contempla en el futuro cercano de México, pues además de contar con una de las reservas más grandes del mundo, ha contribuido positivamente en la economía de los países que lo utilizan.</description>
       <pubDate>Fri, 01 Aug 2014 00:00:00 -0500</pubDate>
-      <guid>000005905596-gas-shale-impacto</guid>
+      <guid isPermaLink="false">000005906255-gas-shale-impacto</guid>
     </item>
     <item>
       <title>Información Financiera</title>
       <link>http://trcimplan.gob.mx/institucional/informacion-financiera.html</link>
       <description>Respecto al avance de Gestión Financiera del IMPLAN Torreón.</description>
       <pubDate>Fri, 01 Aug 2014 00:00:00 -0500</pubDate>
-      <guid>000005905596-informacion-financiera</guid>
+      <guid isPermaLink="false">000005906255-informacion-financiera</guid>
     </item>
     <item>
       <title>Sistema de Información Geográfica</title>
       <link>http://trcimplan.gob.mx/sig/introduccion.html</link>
       <description>Sistema de Información Geográfica del IMPLAN Torreón.</description>
       <pubDate>Fri, 01 Aug 2014 00:00:00 -0500</pubDate>
-      <guid>000005905596-introduccion</guid>
+      <guid isPermaLink="false">000005906255-introduccion</guid>
     </item>
     <item>
       <title>La Laguna debe apostarle a la Industria Automotriz</title>
       <link>http://trcimplan.gob.mx/blog/laguna-apostarle-industria-automotriz.html</link>
       <description>En industria automotriz hay mayor inversión en la investigación y desarrollo que origina una derrama de capacidades tecnológicas con aplicación en otros sectores como el eléctrico, electrónico y aeroespacial.</description>
       <pubDate>Wed, 30 Jul 2014 00:00:00 -0500</pubDate>
-      <guid>000006078396-laguna-apostarle-industria-automotriz</guid>
+      <guid isPermaLink="false">000006079055-laguna-apostarle-industria-automotriz</guid>
     </item>
     <item>
       <title>Sectores de Innovación y Sofisticación</title>
       <link>http://trcimplan.gob.mx/blog/sectores-innovacion-sofisticacion.html</link>
       <description>Análisis de los indicadores relativos a la innovación.</description>
       <pubDate>Thu, 03 Jul 2014 00:00:00 -0500</pubDate>
-      <guid>000008411196-sectores-innovacion-sofisticacion</guid>
+      <guid isPermaLink="false">000008411855-sectores-innovacion-sofisticacion</guid>
     </item>
   </channel>
 </rss>

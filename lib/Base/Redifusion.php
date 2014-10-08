@@ -114,7 +114,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         // Acumular
         $a[] = sprintf('<?xml version="1.0" encoding="%s"?>', $this->xml_encoding);
         // RSS Inicia
-        $a[] = '<rss version="2.0">';
+        $a[] = '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">';
         $a[] = '  <channel>';
         // Datos generales
         $a[] = "    <title>{$this->sitio_titulo}</title>";
@@ -127,6 +127,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         $a[] = "    <generator>{$this->generator}</generator>";
      // $a[] = '    <managingEditor>editor@example.com</managingEditor>';
         $a[] = "    <webMaster>{$this->webmaster_email}</webMaster>";
+        $a[] = "    <atom:link href=\"{$this->sitio_url}/{$this->archivo}\" rel=\"self\" type=\"application/rss+xml\" />";
         // Bucle por los elementos
         $contador = 0;
         foreach ($this->elementos as $clave => $e) {
@@ -138,7 +139,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
             $a[] = "      <link>{$e['url']}</link>";
             $a[] = "      <description>{$e['descripcion']}</description>";
             $a[] = "      <pubDate>{$e['fecha']}</pubDate>"; // Indicates when the item was published
-            $a[] = "      <guid>{$clave}</guid>"; // A string that uniquely identifies the item
+            $a[] = "      <guid isPermaLink=\"false\">{$clave}</guid>"; // A string that uniquely identifies the item
             $a[] = '    </item>';
             $contador++;
         }

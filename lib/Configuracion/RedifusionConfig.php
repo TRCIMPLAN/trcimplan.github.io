@@ -33,7 +33,7 @@ class RedifusionConfig {
     public $sitio_descripcion = 'Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.';
     public $lenguaje          = 'es-MX';
     public $generator         = 'IMPLAN Torreón Sitio Web v2.0';
-    public $webmaster_email   = 'webmaster@trcimplan.gob.mx';
+    public $webmaster_email   = 'webmaster@trcimplan.mx (Webmaster)';
     public $elementos_max     = 24;
     public $archivo           = 'rss.xml';
 
