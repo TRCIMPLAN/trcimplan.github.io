@@ -59,7 +59,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
      * @param mixed Instancia de Publicacion
      */
     public function agregar_elemento(Publicacion $publicacion) {
-        // Tratar de interpretar la fecha
+        // Fecha
         $t = strtotime($publicacion->fecha);
         if ($t === false) {
             // Fecha errónea, se usará 1980-01-01
@@ -79,29 +79,6 @@ class Redifusion extends \Configuracion\RedifusionConfig {
             $minuto = $a['minutes'];
             $fecha  = date('r', mktime($hora, $minuto, 0, $mes, $dia, $ano));
         }
-        // Formatear fecha
-    /*  if (preg_match('/^\d{4}\-\d{1,2}\-\d{1,2}$/', $in_fecha) {
-            // Viene como AAAA-MM-DD
-            $f      = explode('-', $in_fecha);
-            $ano    = $f[0];
-            $mes    = $f[1];
-            $dia    = $f[2];
-            $hora   = 0;
-            $minuto = 0;
-            $fecha  = date('r', mktime(0, 0, 0, $mes, $dia, $ano));
-        } elseif (preg_match('/^\d{4}\-\d{1,2}\-\d{1,2} \d{1,2}:\d{1,2}$/', $in_fecha)) {
-            // Viene como AAAA-MM-DD HH:MM
-            $s      = explode(' ', $in_fecha);
-            $f      = explode('-', $s[0]);
-            $ano    = $f[0];
-            $mes    = $f[1];
-            $dia    = $f[2];
-            $t      = explode(':', $s[1]);
-            $hora   = $t[0];
-            $minuto = $t[1];
-            $fecha  = date('r', mktime($hora, $minuto, 0, $mes, $dia, $ano);
-        } else {
-        } */
         // Considerar vínculos desde la raíz
         $publicacion->en_raiz = true;
         // Formatear URL
@@ -114,9 +91,9 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         $this->elementos[$clave] = array(
             'id'          => $id,
             'fecha'       => $fecha,
-            'titulo'      => htmlentities($publicacion->nombre),
-            'descripcion' => htmlentities($publicacion->descripcion),
-            'autor'       => htmlentities($publicacion->autor),
+            'titulo'      => $publicacion->nombre,
+            'descripcion' => $publicacion->descripcion,
+            'autor'       => $publicacion->autor,
             'url'         => $url);
     } // agregar_elemento
 
