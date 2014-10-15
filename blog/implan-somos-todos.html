@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap            http://getbootstrap.com
+           StartBootStrap (SB Admin 2)  http://startbootstrap.com
+           Morris.js                    http://www.oesmith.co.uk/morris.js
+           LeafLet                      http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <base href="http://trcimplan.gob.mx/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Al iniciar este año se puso en marcha las labores del IMPLAN Torreón, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada...">
+  <meta name="author" content="TrcIMPLAN">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="El IMPLAN somos todos - IMPLAN Torreón">
+  <meta name="twitter:description" content="Al iniciar este año se puso en marcha las labores del IMPLAN Torreón, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada...">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/implan-somos-todos/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/implan-somos-todos.html">
+  <meta name="og:title" content="El IMPLAN somos todos - IMPLAN Torreón">
+  <meta name="og:description" content="Al iniciar este año se puso en marcha las labores del IMPLAN Torreón, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada...">
+  <meta name="og:image" content="http://trcimplan.gob.mx/implan-somos-todos/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/implan-somos-todos.html">
+  <title>El IMPLAN somos todos - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko|Rokkitt" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <div class="input-group custom-search-form">
+            <input type="text" class="form-control" placeholder="Buscar...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </li>
+        <li class="active"><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><i class="fa fa-file-text-o"></i> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><i class="fa fa-file-text-o"></i> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><i class="fa fa-calendar"></i> Mesa 1</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-area-chart"></i> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><i class="fa fa-th-list"></i> Categorías</a></li>
+            <li><a href="../indicadores-torreon/index.html"><i class="fa fa-table"></i> Indicadores Torreón</a></li>
+            <li><a href="../indicadores-gomez-palacio/index.html"><i class="fa fa-table"></i> Indicadores Gómez Palacio</a></li>
+            <li><a href="../indicadores-lerdo/index.html"><i class="fa fa-table"></i> Indicadores Lerdo</a></li>
+            <li><a href="../indicadores-matamoros/index.html"><i class="fa fa-table"></i> Indicadores Matamoros</a></li>
+            <li><a href="../indicadores-la-laguna/index.html"><i class="fa fa-table"></i> Indicadores La Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-map-marker"></i> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><i class="fa fa-file-text-o"></i> Introduccion al SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><i class="fa fa-file-text-o"></i> Alumbrado Público</a></li>
+            <li><a href="../sig/zonificacion.html"><i class="fa fa-file-text-o"></i> Zonificación</a></li>
+            <li><a href="../sig/abrir-sig.html"><i class="fa fa-file-text-o"></i> Abrir el SIG</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-check-square"></i> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><i class="fa fa-file-text-o"></i> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><i class="fa fa-certificate"></i> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-building-o"></i> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><i class="fa fa-file-text-o"></i> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><i class="fa fa-file-text-o"></i> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><i class="fa fa-file-text-o"></i> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><i class="fa fa-file-text-o"></i> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><i class="fa fa-file-text-o"></i> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><i class="fa fa-file-text-o"></i> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><i class="fa fa-file-text-o"></i> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><i class="fa fa-users"></i> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><i class="fa fa-comments"></i> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><i class="fa fa-folder-o"></i> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><i class="fa fa-folder-o"></i> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../contacto/contacto.html"><i class="fa fa-phone"></i> Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="cuerpo">
+<article>
+  <header>
+    <h1>El IMPLAN somos todos</h1>
+    <p class="autor-fecha">Por TrcIMPLAN, 08/10/2014</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="implan-somos-todos/imagen.jpg"></span>
+
+<p><i>“La ciudad no es una suma de piedras, sino una suma de individuos.”</i><br>
+PhilippeStarck</p>
+
+<p>Al iniciar este año se puso en marcha las labores del Instituto Municipal de Planeación y Competitividad de la ciudad de Torreón, IMPLAN, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada, pero principalmente la posibilidad de trascender en el tiempo como ciudad y sociedad que mira hacia el futuro.</p>
+
+<p>El primer paso del Instituto se centró en sentar las bases de la planeación al desarrollar un Sistema Metropolitano de Información (SMI), que pudiera ofrecer una radiografía de la situación en la que vive la ciudad y sus Zona Metropolitana.</p>
+
+<p>De igual forma nos dimos a la tarea de ubicar geográficamente toda la información y sus incidencias, Sistema de Información Geográfica (SIG), para tener la capacidad real de ubicar los diagnósticos.</p>
+
+<p>Estos esfuerzos coordinados han dado como resultado la posibilidad de entrar en la etapa fundamental del desarrollo del IMPLAN como lo es, la planeación participativa, ya que con base a la información obtenida con el SMI y el SIG tenemos la posibilidad de convocar a la construcción de un Plan Estratégico Metropolitano, cuyo punto de partida será el taller de “Diagnostico-Pronostico” el cual se llevará acabo el jueves 09 de octubre en las Instalaciones de Tecnológico de Monterrey.</p>
+
+<p>Este taller de participación ciudadana se llevará a cabo con expertos de la materia, miembros del Consejo, representantes de ONG´s, Universidades, Funcionarios de dependencias públicas y ciudadanos teniendo como principal objetivo poner sobre las diferentes mesas de trabajo información para llevar a cabo un diagnóstico de la región.</p>
+
+<p>Los temas o mesas de trabajo se dividen en los siguientes temas:</p>
+
+<ul>
+<li>Movilidad</li>
+<li>Entorno Urbano</li>
+<li>Sustentabilidad</li>
+<li>Desarrollo Social</li>
+<li>Desarrollo Económico</li>
+<li>Buen Gobierno</li>
+</ul>
+
+<p>Esta nueva etapa que vive el IMPLAN no es individual ya que a corto plazo se tienen programados más talleres como: “Visión, Estrategia y Objetivos” en una segunda etapa y “Proyectos Estratégicos”, tercera etapa, con los que se busca establecer las líneas de acción y soluciones a los grandes retos que enfrenta Torreón y su Zona Metropolitana para voltear al futuro como una ciudad que busca situarse en las mejores de Coahuila y México.</p>
+
+<p>Inicia una nueva etapa, una etapa de apertura y participación, conoce este proceso de innovación con el que se dirige los destinos de la ciudad, en breve estará disponible en las redes sociales y la página web del IMPLAN, las bases para participar, síguenos, necesitamos de tu cooperación, porque el IMPLAN somos todos.</p>
+
+</article>
+      </div>
+    </div>
+    <div class="row mapa-inferior">
+      <div class="col-md-8">
+          <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+      </div>
+      <div class="col-md-4">
+        <div class="pull-right mapa-inferior-redes-sociales">
+          <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+          <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+          <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+          <a class="fa fa-rss-square" href="../rss.xml"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+</body>
+</html>
