@@ -105,7 +105,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a = array();
         // Acumular
         $a[] = '<head>';
-        $a[] = "  <base href=\"{$this->sitio_url}/\">";
+     // $a[] = "  <base href=\"{$this->sitio_url}/\">";
         $a[] = '  <meta charset="utf-8">';
         $a[] = '  <meta http-equiv="X-UA-Compatible" content="IE=edge">';
         $a[] = '  <meta name="viewport" content="width=device-width, initial-scale=1.0">';
