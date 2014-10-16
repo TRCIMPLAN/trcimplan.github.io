@@ -33,14 +33,14 @@ class Mesa1 extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
         $this->nombre        = 'Plan Estratégico Metropolitano - Mesa 1';
-     // $this->autor         = 'Autor';
-        $this->fecha         = '2014-10-06';
+     // $this->autor         = 'TrcIMPLAN';
+        $this->fecha         = '2014-10-16';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo       = 'mesa-1';
-     // $this->imagen_previa = 'mesa-1/imagen-previa.jpg';
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="mesa-1/encabezado.jpg">';
+        $this->imagen_previa = 'mesa-1/imagen-previa.jpg';
+        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="mesa-1/encabezado.jpg">';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = 'El inicio de la elaboración del Plan Estratégico Municipal será el 9 de octubre de 2014.';
+        $this->descripcion   = 'El pasado 9 de octubre de 2014 comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->categorias    = array('Plan Estratégico Metropolitano');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
@@ -51,15 +51,28 @@ class Mesa1 extends \Base\Publicacion {
         $this->estado        = 'publicar';
         // El contenido HTML y el JavaScript
         $this->contenido     = <<<FINAL
-<h3>Elaboración del Plan Estratégico Metropolitano</h3>
+<h3>Mesa 1: Diagnóstico - Pronóstico</h3>
 
-<p>9 octubre 2014 en la Sala Magna, ETLAC, ITESM Campus Laguna.</p>
+<p>El pasado 9 de Octubre de 2014 comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.</p>
 
-<img class="img-responsive" src="mesa-1/invitacion.jpg" alt="Elaboración del Plan Estratégico Metropolitano">
+<img class="img-responsive contenido-imagen" src="mesa-1/foto-panoramica-previa.jpg" alt="Foto Panoramica">
 
-<h3>¿Cómo participar?</h3>
+<p>En dicho ejercicio de diagnóstico del estado que guarda la Zona Metropolitana  de La Laguna en temas como Gobierno y Coordinación Metropolitana, Desarrollo Social, Desarrollo Económico e Innovación, Sustentabilidad, Movilidad y Entorno Urbano participaron 146 expertos de los cuatro municipios metropolitanos entre académicos, representantes de la sociedad civil organizada, empresarios, servidores públicos y ciudadanos.</p>
 
-<p>Envíanos tu proyecto, solicitud o inquietud <strong><a href="http://trcimplan.mx/interaccion-web/index.php/722512/lang-es-MX" target="_blank">llenando esta encuesta en línea</a></strong>. Sólo necesitas tener una dirección de <strong>correo electrónico</strong> para que recibas un <strong>mensaje automático de invitación</strong> a la misma.</p>
+<p>Agradecemos su participación y contamos con su participación para la conformación de la visión,  objetivos estratégicos y proyectos que conjugarán los esfuerzos de todos quienes construimos cotidianamente nuestra ciudad.</p>
+
+<h3>Diagnóstico Básico de la ZML</h3>
+
+<p>Le invitamos a descargar y leer el <a href="http://trcimplan.gob.mx/plan-estrategico-metropolitano/plan-estrategico-metropolitano-diagnostico-basico-zml.pdf" target="_blank">Diagnóstico Básico de la Zona Metropolitana de La Laguna</a>, que es una presentación como archivo PDF de 1 MB con un gran cantidad de información para los Comités Técnicos.</p>
+
+<a href="http://trcimplan.gob.mx/plan-estrategico-metropolitano/plan-estrategico-metropolitano-diagnostico-basico-zml.pdf" target="_blank"><img class="img-responsive contenido-imagen" src="mesa-1/diagnostico-basico.jpg" alt="Diagnostico Basico"></a>
+
+<h3>Participación Ciudadana</h3>
+
+<p>La convocatoria está abierta para que Ciudadanos e Instituciones tengan un formulario en Internet dónde puedan entregar sus proyectos y aportaciones. Sólo se necesita tener una dirección de correo electrónico válida e ingresar a <a href="http://trcimplan.mx/plan" target="_blank">http://trcimplan.mx/plan</a> para hacer llegar su propuesta.</p>
+
+<img class="img-responsive contenido-imagen" src="mesa-1/foto-movilidad.jpg" alt="Comite Tecnico Movilidad y Transporte">
+
 FINAL;
         $this->javascript    = <<<FINAL
 FINAL;

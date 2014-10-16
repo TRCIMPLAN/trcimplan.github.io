@@ -40,7 +40,7 @@ class Mesa1DiagnosticoPronostico extends \Base\Publicacion {
         $this->imagen_previa = '2014-10-16-mesa-1-diagnostico-pronostico/imagen-previa.jpg';
         $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="2014-10-16-mesa-1-diagnostico-pronostico/encabezado.jpg">';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = 'El pasado 9 de Octubre comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
+        $this->descripcion   = 'El pasado 9 de octubre de 2014 comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->categorias    = array('Sala de Prensa');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
@@ -51,7 +51,7 @@ class Mesa1DiagnosticoPronostico extends \Base\Publicacion {
         $this->contenido     = <<<FINAL
 <h3>Mesa 1: Diagnóstico - Pronóstico</h3>
 
-<p>El pasado 9 de Octubre comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.</p>
+<p>El pasado 9 de octubre de 2014 comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.</p>
 
 <img class="img-responsive contenido-imagen" src="2014-10-16-mesa-1-diagnostico-pronostico/foto-panoramica-previa.jpg" alt="Foto Panoramica">
 
