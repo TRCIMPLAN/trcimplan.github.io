@@ -33,8 +33,8 @@ class Contacto extends \Base\Publicacion {
     public function __construct() {
         $this->fecha         = '2014-05-01';
      // $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Contacto';
-        $this->nombre_menu   = 'Contacto';
+        $this->nombre        = 'Medios de contacto';
+        $this->nombre_menu   = 'Medios de contacto';
         $this->directorio    = 'contacto';
         $this->archivo       = 'contacto';
         $this->descripcion   = 'Redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';

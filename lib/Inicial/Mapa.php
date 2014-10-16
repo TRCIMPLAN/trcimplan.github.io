@@ -70,8 +70,8 @@ class Mapa {
         $a[] = '          <li><a href="contacto/contacto.html">Contacto</a></li>';
         $a[] = '          <li><a href="eventos/index.html">Eventos</a></li>';
         $a[] = '          <li><a href="sala-prensa/index.html">Sala de Prensa</a></li>';
-        $a[] = '          <li><a href="contacto/faq.html">Preguntas Frecuentes</a></li>';
-        $a[] = '          <li><a href="contacto/quejas-sugerencias.html">Quejas y Sugerencias</a></li>';
+     // $a[] = '          <li><a href="contacto/faq.html">Preguntas Frecuentes</a></li>';
+        $a[] = '          <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank">Quejas y Sugerencias</a></li>';
         $a[] = '        </ul>';
         $a[] = '      </div>';
         //
