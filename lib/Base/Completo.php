@@ -64,7 +64,7 @@ class Completo {
         } elseif ($this->publicacion->nombre != '') {
             $a[] = "    <h1>{$this->publicacion->nombre}</h1>";
         }
-        $a[] = sprintf('    <p class="autor-fecha">Por %s, %s</p>', $this->publicacion->autor, $this->publicacion->fecha_con_formato_humano());
+        $a[] = sprintf('    <p class="autor">Por %s, %s</p>', $this->publicacion->autor, $this->publicacion->fecha_con_formato_humano());
         $a[] = '  </header>';
         $a[] = $this->publicacion->contenido;
         $a[] = '</article>';
