@@ -36,6 +36,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
     // public $webmaster_email;
     // public $elementos_max;
     // public $archivo;
+    // public $usar_descripcion;
     protected $elementos = array();
 
     /**
@@ -52,6 +53,51 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         $sin_especiales = str_replace($especiales, '-', $sin_acentos);
         return strtolower($sin_especiales);
     } // caracteres_para_web
+
+    /**
+     * Vínculos absolutos
+     *
+     * Cambia los vínculos de relativos a absolutos en el código HTML del contenido
+     *
+     * @param  string Código HTML
+     * @param  string Opcional, directorio desde la raíz, relativamente donde está
+     * @return string Código HTML
+     */
+    public function vinculos_absolutos($html, $dir='') {
+        // Estos tag contienen estas propiedades que usan URLs
+        $tags_atributos = array(
+          'a'      => 'href',
+          'link'   => 'href',
+          'area'   => 'href',
+          'form'   => 'action',
+          'script' => 'src',
+          'img'    => 'src',
+          'iframe' => 'src',
+          'frame'  => 'src',
+          'embed'  => 'src');
+        // Bucle para rutas que empiezen con /
+        foreach ($tags_atributos as $tag => $atributo) {
+            $patron = "/<$tag([^>]*)$atributo=[\"']?(?!https?:|ftp:|javascript:)\/([^\"'\s>]+)[\"']?/is";
+            if ($dir == '') {
+                $reemplazo = "<$tag\${1}$atributo=\"{$this->sitio_url}/\${2}\"";
+            } else {
+                $reemplazo = "<$tag\${1}$atributo=\"{$this->sitio_url}/$dir/\${2}\"";
+            }
+            $html = preg_replace($patron, $reemplazo, $html);
+        }
+        // Bucle para rutas que NO empiezen con /
+        foreach ($tags_atributos as $tag => $atributo) {
+            $patron = "/<$tag([^>]*)$atributo=[\"']?(?!https?:|ftp:|javascript:)([^\"'\s>]+)[\"']?/is";
+            if ($dir == '') {
+                $reemplazo = "<$tag\${1}$atributo=\"{$this->sitio_url}/\${2}\"";
+            } else {
+                $reemplazo = "<$tag\${1}$atributo=\"{$this->sitio_url}/$dir/\${2}\"";
+            }
+            $html = preg_replace($patron, $reemplazo, $html);
+        }
+        // Entregar
+        return $html;
+    } // vinculos_absolutos
 
     /**
      * Agregar elemento
@@ -84,7 +130,9 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         // Formatear URL
         $url = sprintf('%s/%s', $this->sitio_url, $publicacion->url());
         // Identificador único fecha + titulo
-        $id = sprintf('%s-%s', date('YmdHi', mktime($hora, $minuto, 0, $mes, $dia, $ano)), $this->caracteres_para_web($publicacion->nombre));
+        // $id = sprintf('%s-%s', date('YmdHi', mktime($hora, $minuto, 0, $mes, $dia, $ano)), $this->caracteres_para_web($publicacion->nombre));
+        // Identificador único directorio + archivo
+        $id = sprintf('%s-%s', $publicacion->directorio, $publicacion->archivo);
         // La clave del arreglo asociativo es el tiempo_creado-archivo y sirve para ordenarlo
         $clave = sprintf('%s-%s', $publicacion->tiempo_creado(), $publicacion->archivo);
         // Acumular
@@ -93,6 +141,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
             'fecha'       => $fecha,
             'titulo'      => $publicacion->nombre,
             'descripcion' => $publicacion->descripcion,
+            'contenido'   => $this->vinculos_absolutos($publicacion->contenido, $publicacion->directorio),
             'autor'       => $publicacion->autor,
             'url'         => $url);
     } // agregar_elemento
@@ -137,9 +186,14 @@ class Redifusion extends \Configuracion\RedifusionConfig {
             $a[] = '    <item>';
             $a[] = "      <title>{$e['titulo']}</title>";
             $a[] = "      <link>{$e['url']}</link>";
-            $a[] = "      <description>{$e['descripcion']}</description>";
-            $a[] = "      <pubDate>{$e['fecha']}</pubDate>"; // Indicates when the item was published
-            $a[] = "      <guid isPermaLink=\"false\">{$clave}</guid>"; // A string that uniquely identifies the item
+            $a[] = "      <guid isPermaLink=\"false\">{$e['id']}</guid>";
+            $a[] = "      <pubDate>{$e['fecha']}</pubDate>";
+            $a[] = "      <author>{$e['autor']}</author>";
+            if ($this->usar_descripcion) {
+                $a[] = "      <description>{$e['descripcion']}</description>";
+            } else {
+                $a[] = "      <description><![CDATA[{$e['contenido']}]]></description>";
+            }
             $a[] = '    </item>';
             $contador++;
         }

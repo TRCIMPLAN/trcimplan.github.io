@@ -29,13 +29,14 @@ class RedifusionConfig {
 
     public $xml_encoding      = 'UTF-8';
     public $sitio_titulo      = 'IMPLAN Torreón';
-    public $sitio_url         = 'http://trcimplan.gob.mx';
+    public $sitio_url         = 'http://trcimplan.gob.mx'; // Sin diagonal al final
     public $sitio_descripcion = 'Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.';
     public $lenguaje          = 'es-MX';
     public $generator         = 'IMPLAN Torreón Sitio Web v2.0';
     public $webmaster_email   = 'webmaster@trcimplan.mx (Webmaster)';
-    public $elementos_max     = 24;
+    public $elementos_max     = 12;
     public $archivo           = 'rss.xml';
+    public $usar_descripcion  = false; // Si es falso, usará el contenido
 
 } // Clase RedifusionConfig
 
