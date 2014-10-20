@@ -65,7 +65,7 @@ class NavegacionConfig {
         'Contacto' => array(
             'Medios de contacto'        => 'contacto/contacto.html',
             'Comentarios y Sugerencias' => 'http://trcimplan.mx/comentariossugerencias'));
-    protected $iconos = array(
+    public $iconos = array(
         'Análisis Publicados'            => 'fa fa-lightbulb-o',
         'Plan Estratégico Metropolitano' => 'fa fa-sun-o',
         'Mesa 1'                         => 'fa fa-calendar',
@@ -97,6 +97,32 @@ class NavegacionConfig {
         'Sala de Prensa'                 => 'fa fa-folder-o',
         'Contacto'                       => 'fa fa-phone',
         'Comentarios y Sugerencias'      => 'fa fa-external-link');
+    protected $buscador_html = <<<FINAL
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="buscador-resultados.html">
+            <div>
+              <input value="015475140351266618625:04hulmghdys" name="cx" type="hidden"/>
+              <input value="FORID:11" name="cof" type="hidden"/>
+              <input type="text" value="Search..." name="s" id="s" onfocus="defaultInput(this)" onblur="clearInput(this)" />
+              <input type="submit" id="searchsubmit" value=" " />
+            </div>
+          </form>
+FINAL;
+
+/*
+<script>
+  (function() {
+    var cx = '015475140351266618625:04hulmghdys';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+*/
+    protected $buscador_js = "";
 
 } // Clase NavegacionConfig
 

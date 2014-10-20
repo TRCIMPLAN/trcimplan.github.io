@@ -47,6 +47,7 @@ class PaginaInicial extends \Base\Plantilla {
     // public $contenido;
     // public $mapa_inferior;
     // public $javascript;
+    // public $contenido_en_renglon;
 
     /**
      * Constructor

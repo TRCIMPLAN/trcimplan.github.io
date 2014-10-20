@@ -34,7 +34,7 @@ class Integrantes extends \Base\Publicacion {
         $this->fecha         = '2014-05-01';
      // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Integrantes del Consejo Directivo';
-        $this->nombre_menu   = 'Integrantes';
+        $this->nombre_menu   = 'Consejo Directivo';
         $this->directorio    = 'consejo-directivo';
         $this->archivo       = 'integrantes';
         $this->descripcion   = 'Los Integrantes del Consejo Directivo del IMPLAN Torreón.';

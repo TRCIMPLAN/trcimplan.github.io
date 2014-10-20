@@ -75,6 +75,18 @@ try {
     exit($E_FATAL);
 }
 
+// Cargar la página Buscador Resultados
+$impresor            = new \Base\Imprenta();
+$impresor->plantilla = new \Inicial\PaginaBuscadorResultados();
+// Imprimir
+try {
+    echo $impresor->imprimir()."\n";
+} catch (\Exception $e) {
+    echo implode("\n", $impresor->mensajes)."\n";
+    echo "$soy ".$e->getMessage()."\n";
+    exit($E_FATAL);
+}
+
 // Mensaje de término
 echo "$soy Programa terminado.\n";
 exit($EXITO);

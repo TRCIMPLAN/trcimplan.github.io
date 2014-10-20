@@ -41,7 +41,7 @@ class MensajeDirector extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon, Mensaje, Director';
      // $this->imagen_previa = '/imagenes/implan.jpg';
         $this->categorias    = array('Institucional');
-        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="mensaje-director/encabezado.jpg">';
+     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="mensaje-director/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="mensaje-director/eduardo-olguin.jpg" alt="Eduardo Olguín"></span>
 

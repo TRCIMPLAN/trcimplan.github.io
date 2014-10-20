@@ -25,10 +25,9 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
         $this->claves      = 'Torreón, Grupos Vulnerables, Género';
         $this->categorias  = array('Grupos Vulnerables', 'Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasumxonijy">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasfvgnoror">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li class="active"><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
+    <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="datos">
@@ -88,26 +87,23 @@ Cantidad
 <h4>Observaciones</h4>
 Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaria de Salud. [SINAIS](http://www.sinais.salud.gob.mx)
     </div>
-    <div class="tab-pane" id="grafica">
+    <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morriszddllldy" class="grafica"></div>
-    </div>
-    <div class="tab-pane active" id="mapa">
-              <div id="LeafLetfexmhsbw" class="mapa"></div>
+<div id="Morriszcowntyr" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasumxonijy a:first').tab('show')
+  $('#Lenguetasfvgnoror a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasumxonijy a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasfvgnoror a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriszddllldy === 'undefined') {
-    varMorriszddllldy = Morris.Line({
-      element: 'Morriszddllldy',
+  if (typeof varMorriszcowntyr === 'undefined') {
+    varMorriszcowntyr = Morris.Line({
+      element: 'Morriszcowntyr',
       data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -117,78 +113,6 @@ $('#Lenguetasumxonijy a[href="#grafica"]').on('shown.bs.tab', function (e) {
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
-});
-// LENGUETA
-$('#Lenguetasumxonijy a[href="#mapa"]').on('shown.bs.tab', function (e) {
-  // Mapa
-  var mapfexmhsbw;
-  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
-  var circuloParque = {
-    "radius": 8,
-    "fillColor": "#2BFF2B",
-    "color": "#000",
-    "weight": 1,
-    "opacity": 1,
-    "fillOpacity": 0.7
-  };
-  // Función para Pop-Ups
-  function onEachFeature(feature, layer) {
-    if (feature.properties && feature.properties.popupContent) {
-      layer.bindPopup(feature.properties.popupContent);
-    }
-  };
-  // Función para el mapa
-  function initmapfexmhsbw() {
-    // Nuevo Mapa
-    mapfexmhsbw = new L.Map('LeafLetfexmhsbw');
-    // Capa con el mapa
-    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
-    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
-    // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapfexmhsbw.setView(new L.LatLng(25.54, -103.44), 12);
-    // Agregar capa con el mapa
-    mapfexmhsbw.addLayer(osm);
-    // ARREGLO CON LOS GEOPUNTOS
-    var geoPuntos = {
-      "type": "FeatureCollection",
-      "features": [
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
-          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
-          "id": 1
-        },
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
-          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
-          "id": 2
-        },
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
-          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
-          "id": 3
-        }
-      ]
-    };
-    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
-    L.geoJson(geoPuntos, {
-      onEachFeature: onEachFeature,
-      pointToLayer: function (feature, latlng) {
-        switch (feature.properties.name) {
-          case 'Parque': return L.circleMarker(latlng, circuloParque);
-        }
-      }
-    }).addTo(mapfexmhsbw);
-    // Entregar
-    return true;
-  };
-  // Ejecutar el mapa
-  if (typeof varinitmapfexmhsbw === 'undefined') {
-    varinitmapfexmhsbw = initmapfexmhsbw();
-  };
 });
 FINAL;
     } // constructor

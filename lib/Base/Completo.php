@@ -51,20 +51,50 @@ class Completo {
         if (!($this->publicacion instanceof Publicacion)) {
             throw new \Exception("Error en Completo, html: La propiedad publicacion no es instancia de Publicacion.");
         }
+        // Si el autor y fecha son distintos al por defecto, se usan
+        $publicacion_config = new \Configuracion\PublicacionConfig();
+        if ($this->publicacion->autor != $publicacion_config->autor) {
+            $autor = $this->publicacion->autor;
+        }
+        if (strcmp($this->publicacion->fecha, $publicacion_config->fecha) <= 0) {
+            $fecha = $this->publicacion->fecha_con_formato_humano();
+        }
+        if (($autor != '') && ($fecha != '')) {
+            $autor_fecha = "Por $autor<br>$fecha";
+        } elseif ($autor != '') {
+            $autor_fecha = "Por $autor";
+        } elseif ($fecha != '') {
+            $autor_fecha = $fecha;
+        }
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
         $a[] = '<article>';
         $a[] = '  <header>';
+        // Si el encabezado está definido
         if ($this->publicacion->encabezado != '') {
+            // Se pone el código HTML del encabezado
             $a[] = $this->publicacion->encabezado;
+            // Y el título de la página es invisible
             if ($this->publicacion->nombre != '') {
                 $a[] = "    <h1 style=\"display:none;\">{$this->publicacion->nombre}</h1>";
             }
         } elseif ($this->publicacion->nombre != '') {
-            $a[] = "    <h1>{$this->publicacion->nombre}</h1>";
+            // Hay título. Si hay icono definido en Navegación
+            $navegacion_config = new \Configuracion\NavegacionConfig();
+            if (array_key_exists($this->publicacion->nombre_menu, $navegacion_config->iconos)) {
+                $encabezado = sprintf('<i class="%s"></i> %s', $navegacion_config->iconos[$this->publicacion->nombre_menu], $this->publicacion->nombre);
+            } else {
+                $encabezado = $this->publicacion->nombre;
+            }
+            // Acumular
+            $a[] = '    <div class="encabezado">';
+            $a[] = "      <span><h1>$encabezado</h1></span>";
+            $a[] = '    </div>';
         }
-        $a[] = sprintf('    <p class="autor">Por %s, %s</p>', $this->publicacion->autor, $this->publicacion->fecha_con_formato_humano());
+        if ($autor_fecha != '') {
+            $a[] = "    <p class=\"autor\">$autor_fecha</p>";
+        }
         $a[] = '  </header>';
         $a[] = $this->publicacion->contenido;
         $a[] = '</article>';

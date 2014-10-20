@@ -25,10 +25,9 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaspetikzse">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgcvjkjwy">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
@@ -82,6 +81,12 @@ Ingresos propios entre gastos corrientes.
 <td>Elaboración propia con datos obtenidos del INEGI</td>
 <td></td>
 </tr>
+<tr>
+<td class="centrado">31/12/2013</td>
+<td class="derecha">21.82 %</td>
+<td>Elaboración propia con datos obtenidos del INEGI</td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <b>Unidad:</b>
@@ -89,6 +94,7 @@ Porcentaje
 <h4>Observaciones</h4>
 El indicador de capacidad financiera a nivel nacional es de:
 
+- 2013 = 41.15%
 - 2012 = 39.41%
 - 2011 = 39.94%
 - 2010 = 41.63%
@@ -100,10 +106,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morriskvehwfxu" class="grafica"></div>
-    </div>
-    <div class="tab-pane" id="mapa">
-              <div id="LeafLetghzigwtl" class="mapa"></div>
+<div id="Morriscfizdnyy" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -217,6 +220,13 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 <td></td>
 </tr>
 <tr>
+<td>Gómez Palacio</td>
+<td>2013-12-31</td>
+<td class="derecha">64.43 %</td>
+<td>Elaboración propia con datos obtenidos del INEGI</td>
+<td></td>
+</tr>
+<tr>
 <td>Lerdo</td>
 <td>2007-12-31</td>
 <td class="derecha">25.52 %</td>
@@ -255,6 +265,13 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 <td>Lerdo</td>
 <td>2012-12-31</td>
 <td class="derecha">23.76 %</td>
+<td>Elaboración propia con datos obtenidos del INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2013-12-31</td>
+<td class="derecha">87.64 %</td>
 <td>Elaboración propia con datos obtenidos del INEGI</td>
 <td></td>
 </tr>
@@ -300,6 +317,13 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 <td>Elaboración propia con datos obtenidos del INEGI</td>
 <td></td>
 </tr>
+<tr>
+<td>La Laguna</td>
+<td>2013-12-31</td>
+<td class="derecha">69.07 %</td>
+<td>Elaboración propia con datos obtenidos del INEGI</td>
+<td></td>
+</tr>
 </tbody>
 </table>
     </div>
@@ -308,15 +332,15 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaspetikzse a:first').tab('show')
+  $('#Lenguetasgcvjkjwy a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaspetikzse a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasgcvjkjwy a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskvehwfxu === 'undefined') {
-    varMorriskvehwfxu = Morris.Line({
-      element: 'Morriskvehwfxu',
-      data: [{ fecha: '2007-12-31', dato: 21.6800 },{ fecha: '2008-12-31', dato: 20.2700 },{ fecha: '2009-12-31', dato: 23.2500 },{ fecha: '2010-12-31', dato: 14.0000 },{ fecha: '2011-12-31', dato: 14.1100 },{ fecha: '2012-12-31', dato: 29.4500 }],
+  if (typeof varMorriscfizdnyy === 'undefined') {
+    varMorriscfizdnyy = Morris.Line({
+      element: 'Morriscfizdnyy',
+      data: [{ fecha: '2007-12-31', dato: 21.6800 },{ fecha: '2008-12-31', dato: 20.2700 },{ fecha: '2009-12-31', dato: 23.2500 },{ fecha: '2010-12-31', dato: 14.0000 },{ fecha: '2011-12-31', dato: 14.1100 },{ fecha: '2012-12-31', dato: 29.4500 },{ fecha: '2013-12-31', dato: 21.8200 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -325,78 +349,6 @@ $('#Lenguetaspetikzse a[href="#grafica"]').on('shown.bs.tab', function (e) {
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
-});
-// LENGUETA
-$('#Lenguetaspetikzse a[href="#mapa"]').on('shown.bs.tab', function (e) {
-  // Mapa
-  var mapghzigwtl;
-  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
-  var circuloParque = {
-    "radius": 8,
-    "fillColor": "#2BFF2B",
-    "color": "#000",
-    "weight": 1,
-    "opacity": 1,
-    "fillOpacity": 0.7
-  };
-  // Función para Pop-Ups
-  function onEachFeature(feature, layer) {
-    if (feature.properties && feature.properties.popupContent) {
-      layer.bindPopup(feature.properties.popupContent);
-    }
-  };
-  // Función para el mapa
-  function initmapghzigwtl() {
-    // Nuevo Mapa
-    mapghzigwtl = new L.Map('LeafLetghzigwtl');
-    // Capa con el mapa
-    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
-    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
-    // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapghzigwtl.setView(new L.LatLng(25.54, -103.44), 12);
-    // Agregar capa con el mapa
-    mapghzigwtl.addLayer(osm);
-    // ARREGLO CON LOS GEOPUNTOS
-    var geoPuntos = {
-      "type": "FeatureCollection",
-      "features": [
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
-          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
-          "id": 1
-        },
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
-          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
-          "id": 2
-        },
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
-          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
-          "id": 3
-        }
-      ]
-    };
-    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
-    L.geoJson(geoPuntos, {
-      onEachFeature: onEachFeature,
-      pointToLayer: function (feature, latlng) {
-        switch (feature.properties.name) {
-          case 'Parque': return L.circleMarker(latlng, circuloParque);
-        }
-      }
-    }).addTo(mapghzigwtl);
-    // Entregar
-    return true;
-  };
-  // Ejecutar el mapa
-  if (typeof varinitmapghzigwtl === 'undefined') {
-    varinitmapghzigwtl = initmapghzigwtl();
-  };
 });
 FINAL;
     } // constructor

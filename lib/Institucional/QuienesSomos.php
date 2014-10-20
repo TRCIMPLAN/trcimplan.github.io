@@ -41,7 +41,7 @@ class QuienesSomos extends \Base\Publicacion {
         $this->claves        = 'IMPLAN, Torreon';
      // $this->imagen_previa = '/imagenes/implan.jpg';
         $this->categorias    = array('Institucional');
-        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="quienes-somos/encabezado.jpg">';
+     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="quienes-somos/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <p>El IMPLAN es el Órgano Técnico Descentralizado de la Administración Pública Municipal que coordina los procesos de Planeación Estratégica y Ordenamiento Territorial para el desarrollo de la Región.</p>
 

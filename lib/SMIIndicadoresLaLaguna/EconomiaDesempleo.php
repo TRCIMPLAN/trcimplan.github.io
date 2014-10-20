@@ -25,10 +25,9 @@ class EconomiaDesempleo extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Empleo';
         $this->categorias  = array('Empleo');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasehvjxxmn">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspyrygnno">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
@@ -80,10 +79,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisobgsxiyk" class="grafica"></div>
-    </div>
-    <div class="tab-pane" id="mapa">
-              <div id="LeafLetgqfccwtw" class="mapa"></div>
+<div id="Morriskihgfayf" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -190,14 +186,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasehvjxxmn a:first').tab('show')
+  $('#Lenguetaspyrygnno a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasehvjxxmn a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspyrygnno a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisobgsxiyk === 'undefined') {
-    varMorrisobgsxiyk = Morris.Line({
-      element: 'Morrisobgsxiyk',
+  if (typeof varMorriskihgfayf === 'undefined') {
+    varMorriskihgfayf = Morris.Line({
+      element: 'Morriskihgfayf',
       data: [{ fecha: '1990-03-12', dato: 7688 },{ fecha: '2000-02-14', dato: 3854 },{ fecha: '2010-06-25', dato: 35416 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -207,78 +203,6 @@ $('#Lenguetasehvjxxmn a[href="#grafica"]').on('shown.bs.tab', function (e) {
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
-});
-// LENGUETA
-$('#Lenguetasehvjxxmn a[href="#mapa"]').on('shown.bs.tab', function (e) {
-  // Mapa
-  var mapgqfccwtw;
-  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
-  var circuloParque = {
-    "radius": 8,
-    "fillColor": "#2BFF2B",
-    "color": "#000",
-    "weight": 1,
-    "opacity": 1,
-    "fillOpacity": 0.7
-  };
-  // Función para Pop-Ups
-  function onEachFeature(feature, layer) {
-    if (feature.properties && feature.properties.popupContent) {
-      layer.bindPopup(feature.properties.popupContent);
-    }
-  };
-  // Función para el mapa
-  function initmapgqfccwtw() {
-    // Nuevo Mapa
-    mapgqfccwtw = new L.Map('LeafLetgqfccwtw');
-    // Capa con el mapa
-    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
-    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
-    // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapgqfccwtw.setView(new L.LatLng(25.54, -103.44), 12);
-    // Agregar capa con el mapa
-    mapgqfccwtw.addLayer(osm);
-    // ARREGLO CON LOS GEOPUNTOS
-    var geoPuntos = {
-      "type": "FeatureCollection",
-      "features": [
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
-          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
-          "id": 1
-        },
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
-          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
-          "id": 2
-        },
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
-          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
-          "id": 3
-        }
-      ]
-    };
-    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
-    L.geoJson(geoPuntos, {
-      onEachFeature: onEachFeature,
-      pointToLayer: function (feature, latlng) {
-        switch (feature.properties.name) {
-          case 'Parque': return L.circleMarker(latlng, circuloParque);
-        }
-      }
-    }).addTo(mapgqfccwtw);
-    // Entregar
-    return true;
-  };
-  // Ejecutar el mapa
-  if (typeof varinitmapgqfccwtw === 'undefined') {
-    varinitmapgqfccwtw = initmapgqfccwtw();
-  };
 });
 FINAL;
     } // constructor

@@ -42,7 +42,7 @@
   <link href="../css/sb-admin-2.css" rel="stylesheet">
   <link href="../css/font-awesome.min.css" rel="stylesheet">
   <link href="../css/trcimplan.css" rel="stylesheet">
-  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko|Rokkitt" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko" rel="stylesheet" type="text/css">
   <!-- SOPORTE PARA IE -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -65,11 +65,15 @@
     <div class="sidebar-nav navbar-collapse">
       <ul class="nav" id="side-menu">
         <li class="sidebar-search">
-          <div class="input-group custom-search-form">
-            <input type="text" class="form-control" placeholder="Buscar...">
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-              </span>
+          <div class="buscador_google">
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="buscador-resultados.html">
+            <div>
+              <input value="015475140351266618625:04hulmghdys" name="cx" type="hidden"/>
+              <input value="FORID:11" name="cof" type="hidden"/>
+              <input type="text" value="Search..." name="s" id="s" onfocus="defaultInput(this)" onblur="clearInput(this)" />
+              <input type="submit" id="searchsubmit" value=" " />
+            </div>
+          </form>
           </div>
         </li>
         <li><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
@@ -144,8 +148,10 @@
       <div class="cuerpo">
 <article>
   <header>
-    <h1>Delincuencia</h1>
-    <p class="autor">Por TrcIMPLAN, 01/01/1980</p>
+    <div class="encabezado">
+      <span><h1><i class="fa fa-th-list"></i> Delincuencia</h1></span>
+    </div>
+    <p class="autor">01/01/1980</p>
   </header>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -225,15 +231,6 @@
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">108</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">60</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">12</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">2</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">182</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Sentenciados Registrados del Fuero Común</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">392</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">297</a></td>
@@ -249,6 +246,15 @@
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">20</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">8</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">341</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">108</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">60</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">12</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">2</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">182</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

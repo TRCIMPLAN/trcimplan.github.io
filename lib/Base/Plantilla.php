@@ -37,17 +37,17 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     // public $autor;
     // public $mensaje_oculto;
     // public $pie;
-    public $titulo;               // Título de la página
-    public $descripcion;          // Descripción del sitio o la página
-    public $claves;               // Claves que ayuden a los buscadores
-    public $directorio;           // Directorio donde se guardará el archivo HTML
-    public $ruta;                 // Ruta relativa a la pagina HTML
-    public $imagen_previa;        // Ruta relativa a la imagen
-    public $navegacion;           // Instancia de \Base\Navegacion
-    public $contenido  = array(); // Texto o arreglo, código HTML con el contenido
-    public $mapa_inferior;        // Instancia de \Base\MapaInferior
-    public $javascript = array(); // Arreglo que acumula el código Javascript a poner al final de la página
-    public $contenido_en_renglon = true; // Encierra el contenido en renglón y cuerpo.
+    public $titulo;                         // Título de la página
+    public $descripcion;                    // Descripción del sitio o la página
+    public $claves;                         // Claves que ayuden a los buscadores
+    public $directorio;                     // Directorio donde se guardará el archivo HTML
+    public $ruta;                           // Ruta relativa a la pagina HTML
+    public $imagen_previa;                  // Ruta relativa a la imagen
+    public $navegacion;                     // Instancia de \Base\Navegacion
+    public $contenido            = array(); // Texto o arreglo, código HTML con el contenido
+    public $mapa_inferior;                  // Instancia de \Base\MapaInferior
+    public $javascript           = array(); // Arreglo que acumula el código Javascript a poner al final de la página
+    public $contenido_en_renglon = true;    // Encierra el contenido en renglón y cuerpo.
 
     /**
      * Incorporar Publicacion
@@ -170,7 +170,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // Google fonts
         //$a[] = '  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Oswald" rel="stylesheet" type="text/css">';
         //$a[] = '  <link href="http://fonts.googleapis.com/css?family=Droid+Serif|Oswald" rel="stylesheet" type="text/css">';
-        $a[] = '  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko|Rokkitt" rel="stylesheet" type="text/css">';
+        $a[] = '  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko" rel="stylesheet" type="text/css">';
         //
         $a[] = '  <!-- SOPORTE PARA IE -->';
         $a[] = '  <!--[if lt IE 9]>';

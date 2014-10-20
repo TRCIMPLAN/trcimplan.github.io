@@ -60,7 +60,7 @@ a:focus   { text-decoration:none; color:#FF3300; }
  */
 .navbar-default {
     background-color:#F0F0F0;
-    color:#FFF;
+    color:#646464;
 }
 .navbar-static-top {
     border-bottom:1px solid #FF3300;
@@ -78,6 +78,27 @@ a:focus   { text-decoration:none; color:#FF3300; }
  */
 #page-wrapper {
     background-color:#ECECEC;
+}
+
+/*
+ * Contenido, encabezados con color plano rectangulares y texto abajo a la izquierda
+ */
+.encabezado {
+    position:relative;
+    color:#FFF;
+    background-color:#646464;
+    height:80px;
+    margin-bottom:12px;
+}
+.encabezado span {
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.encabezado h1 {
+    margin-left:8px;
+    margin-top:0;
+    margin-bottom:0;
 }
 
 /*

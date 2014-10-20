@@ -44,7 +44,7 @@
   <link href="../css/sb-admin-2.css" rel="stylesheet">
   <link href="../css/font-awesome.min.css" rel="stylesheet">
   <link href="../css/trcimplan.css" rel="stylesheet">
-  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko|Rokkitt" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko" rel="stylesheet" type="text/css">
   <!-- SOPORTE PARA IE -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -67,11 +67,15 @@
     <div class="sidebar-nav navbar-collapse">
       <ul class="nav" id="side-menu">
         <li class="sidebar-search">
-          <div class="input-group custom-search-form">
-            <input type="text" class="form-control" placeholder="Buscar...">
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-              </span>
+          <div class="buscador_google">
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="buscador-resultados.html">
+            <div>
+              <input value="015475140351266618625:04hulmghdys" name="cx" type="hidden"/>
+              <input value="FORID:11" name="cof" type="hidden"/>
+              <input type="text" value="Search..." name="s" id="s" onfocus="defaultInput(this)" onblur="clearInput(this)" />
+              <input type="submit" id="searchsubmit" value=" " />
+            </div>
+          </form>
           </div>
         </li>
         <li><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
@@ -146,8 +150,10 @@
       <div class="cuerpo">
 <article>
   <header>
-    <h1>Indicadores de Lerdo</h1>
-    <p class="autor">Por TrcIMPLAN, 01/01/1980</p>
+    <div class="encabezado">
+      <span><h1><i class="fa fa-table"></i> Indicadores de Lerdo</h1></span>
+    </div>
+    <p class="autor">01/01/1980</p>
   </header>
 <table class="table table-hover table-bordered matriz">
 <thead>
@@ -177,41 +183,6 @@
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Grandes Empresas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-grandes-empresas.html" data-toggle="tooltip" title="Porcentaje, 31/07/2014, Sistema de Información Empresarial Mexicano (SIEM)">0.00 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Índice de Competitividad Urbana</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2012, IMCO">37.3900</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Índice de Especialización Local en Comercio</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-comercio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">14.72 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Índice de Especialización Local en Industria Manufacturera</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-industria-manufacturera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">53.94 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Índice de Especialización Local en la Construcción</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-la-construccion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, INEGI">1.48 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Índice de Especialización Local en la Minería</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-la-mineria.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, INEGI">2.80 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Índice de Especialización Local en Servicios</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-servicios.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">8.56 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Índice de Gini</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.4387</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -290,18 +261,53 @@
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Unidades Económicas Dedicadas a los Servicios</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html" data-toggle="tooltip" title="Porcentaje, 31/10/2013, INEGI">39.23 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Unidades Económicas Dedicadas al Comercio</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-al-comercio.html" data-toggle="tooltip" title="Porcentaje, 31/10/2013, INEGI">48.67 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Unidades Económicas Dedicadas a los Servicios</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html" data-toggle="tooltip" title="Porcentaje, 31/10/2013, INEGI">39.23 %</a></td>
+    <td class="indicador color1">Índice de Competitividad Urbana</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2012, IMCO">37.3900</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Índice de Especialización Local en Comercio</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-comercio.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">14.72 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Índice de Especialización Local en Industria Manufacturera</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-industria-manufacturera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">53.94 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Índice de Especialización Local en Servicios</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-servicios.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">8.56 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Índice de Especialización Local en la Construcción</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-la-construccion.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, INEGI">1.48 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Índice de Especialización Local en la Minería</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-la-mineria.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, INEGI">2.80 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Índice de Gini</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, CONEVAL">0.4387</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Capacidad Financiera</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, Elaboración propia con datos obtenidos del INEGI">23.76 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 31/12/2013, Elaboración propia con datos obtenidos del INEGI">87.64 %</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
@@ -321,7 +327,32 @@
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Cumplimiento en información pública mínina</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 31/12/2013, ICAI-IDAIP">79.00 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 31/08/2014, ICAI-IDAIP">100.00 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Ingresos Totales</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2013, INEGI">$ 475,221,421.00</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Ingresos Totales Per Cápita</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2012, Elaboración propia con datos obtenidos del INEGI">$ 2,460.58</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Ingresos por Cobro de Servicios</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingresos-por-cobro-de-servicios.html" data-toggle="tooltip" title="Pesos, 31/12/2012, INEGI">$ 54,082,713.00</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Participación Electoral</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 01/07/2012, INE-IEPCC">59.57 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Relación de Ingresos Propios y Totales</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2013, Elaboración propia con datos obtenidos del INEGI">37.77 %</a></td>
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
@@ -332,31 +363,6 @@
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">índice de Información Presupuestal</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-indice-de-informacion-presupuestal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2013, IMCO">28.00 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Ingresos por Cobro de Servicios</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingresos-por-cobro-de-servicios.html" data-toggle="tooltip" title="Pesos, 31/12/2012, INEGI">$ 54,082,713.00</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Ingresos Totales</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 31/12/2012, INEGI">$ 360,393,013.00</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Ingresos Totales Per Cápita</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 31/12/2012, Elaboración propia con datos obtenidos del INEGI">$ 2,460.58</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Participación Electoral</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 01/07/2012, INE-IEPCC">59.57 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Relación de Ingresos Propios y Totales</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, Elaboración propia con datos obtenidos del INEGI">15.00 %</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -415,23 +421,18 @@
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Robos a casa habitación.</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion-.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">6</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos Totales</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">43</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Secuestros</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="indicador color3">Robos a casa habitación.</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion-.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">6</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">12</a></td>
+    <td class="indicador color3">Secuestros</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -442,6 +443,11 @@
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Sentenciados Registrados del Fuero Federal</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">20</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">12</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -510,18 +516,8 @@
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Índice de Desarrollo Humano (IDH)</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 31/03/2005, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.7970</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Maternidad Adolescente</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-maternidad-adolescente.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI">17.20 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Médicos</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-medicos.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2013, SINAIS (SSA)">6.6000</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -542,6 +538,11 @@
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Mortalidad por Diabetes</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-mortalidad-por-diabetes.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, SINAIS (SSA)">7.0000</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Médicos</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-medicos.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2013, SINAIS (SSA)">6.6000</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -595,6 +596,16 @@
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Viviendas Habitadas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 31/12/2010, INEGI">35,009</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Viviendas Totales</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2010, INEGI">44,565</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Agua de la Red Pública</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-con-agua-de-la-red-publica.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI">98.29 %</a></td>
   </tr>
@@ -620,18 +631,13 @@
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Viviendas Habitadas</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 31/12/2010, INEGI">35,009</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas que Disponen de Retrete</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI">94.60 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Viviendas Totales</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 31/12/2010, INEGI">44,565</a></td>
+    <td class="indicador color4">Índice de Desarrollo Humano (IDH)</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 31/03/2005, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.7970</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -642,11 +648,6 @@
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Alumbrado Público</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-alumbrado-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI">2.01 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Área No Urbanizada</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI">98.40 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -690,11 +691,6 @@
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Red Carretera de Alimentadoras Estatales</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" data-toggle="tooltip" title="Kilómetros, 31/12/2012, INEGI">43</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Red Carretera Total</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-red-carretera-total.html" data-toggle="tooltip" title="Kilómetros, 31/12/2012, INEGI">314</a></td>
   </tr>
@@ -702,6 +698,11 @@
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Red Carretera Troncal Federal</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-red-carretera-troncal-federal.html" data-toggle="tooltip" title="Kilómetros, 31/12/2012, INEGI">160</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Red Carretera de Alimentadoras Estatales</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" data-toggle="tooltip" title="Kilómetros, 31/12/2012, INEGI">43</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -722,6 +723,11 @@
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Volumen Tratado de Aguas Residuales</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-volumen-tratado-de-aguas-residuales.html" data-toggle="tooltip" title="Litros por segundo por cada mil habitantes, 31/12/2010, IMCO-CONAGUA">0.0000</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Área No Urbanizada</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, INEGI">98.40 %</a></td>
   </tr>
 </tbody>
 </table>

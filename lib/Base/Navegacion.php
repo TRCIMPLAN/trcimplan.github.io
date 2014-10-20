@@ -154,12 +154,18 @@ class Navegacion extends \Configuracion\NavegacionConfig {
         $a[] = '      <ul class="nav" id="side-menu">';
         // Buscador
         $a[] = '        <li class="sidebar-search">';
-        $a[] = '          <div class="input-group custom-search-form">';
-        $a[] = '            <input type="text" class="form-control" placeholder="Buscar...">';
-        $a[] = '              <span class="input-group-btn">';
-        $a[] = '                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>';
-        $a[] = '              </span>';
-        $a[] = '          </div>';
+        if ($this->buscador_html != '') {
+            $a[] = '          <div class="buscador_google">';
+            $a[] = $this->buscador_html;
+            $a[] = '          </div>';
+        } else {
+            $a[] = '          <div class="input-group custom-search-form">';
+            $a[] = '            <input type="text" class="form-control" placeholder="Buscar...">';
+            $a[] = '              <span class="input-group-btn">';
+            $a[] = '                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>';
+            $a[] = '              </span>';
+            $a[] = '          </div>';
+        }
         $a[] = '        </li>';
         // Bucle por las opciones
         foreach ($this->opciones as $etiqueta => $parametros) {
@@ -265,7 +271,12 @@ class Navegacion extends \Configuracion\NavegacionConfig {
      * @return string Código javascript
      */
     public function javascript() {
-        return '';
+        // Sólo por parte del buscador puede haber Javascript
+        if ($this->buscador_js != '') {
+            return $this->buscador_js;
+        } else {
+            return '';
+        }
     } // javascript
 
 } // Clase Navegacion

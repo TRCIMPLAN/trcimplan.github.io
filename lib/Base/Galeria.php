@@ -54,7 +54,7 @@ class Galeria {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Encabezado y título
-        if ($this->encabezado != '') {
+/*      if ($this->encabezado != '') {
             $a[] = $this->encabezado;
             if ($this->titulo != '') {
                 $a[] = "        <h1 style=\"display:none;\">{$this->titulo}</h1>";
@@ -62,6 +62,29 @@ class Galeria {
         } elseif ($this->titulo != '') {
             $a[] = "        <h1>{$this->titulo}</h1>";
         }
+*/
+        // Si el encabezado está definido
+        if ($this->encabezado != '') {
+            // Se pone el código HTML del encabezado
+            $a[] = $this->encabezado;
+            // Y el título de la página es invisible
+            if ($this->titulo != '') {
+                $a[] = "    <h1 style=\"display:none;\">{$this->titulo}</h1>";
+            }
+        } elseif ($this->titulo != '') {
+            // Hay título. Si hay icono definido en Navegación
+            $navegacion_config = new \Configuracion\NavegacionConfig();
+            if (array_key_exists($this->titulo, $navegacion_config->iconos)) {
+                $encabezado = sprintf('<i class="%s"></i> %s', $navegacion_config->iconos[$this->titulo], $this->titulo);
+            } else {
+                $encabezado = $this->titulo;
+            }
+            // Acumular
+            $a[] = '    <div class="encabezado">';
+            $a[] = "      <span><h1>$encabezado</h1></span>";
+            $a[] = '    </div>';
+        }
+
         // Tabla inicia
         $a[] = '<div class="row">';
         // Bucle por Publicaciones

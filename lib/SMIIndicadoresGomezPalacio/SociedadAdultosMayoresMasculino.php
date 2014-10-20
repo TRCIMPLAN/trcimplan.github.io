@@ -25,10 +25,9 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Grupos Vulnerables';
         $this->categorias  = array('Grupos Vulnerables');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasjithlhvc">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaseletgrlw">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li><a href="#mapa" data-toggle="tab">Georreferenciado</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
@@ -113,10 +112,7 @@ Cantidad
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisyntkelkb" class="grafica"></div>
-    </div>
-    <div class="tab-pane" id="mapa">
-              <div id="LeafLetmzfviyxv" class="mapa"></div>
+<div id="Morrissgecysgo" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -629,14 +625,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasjithlhvc a:first').tab('show')
+  $('#Lenguetaseletgrlw a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasjithlhvc a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaseletgrlw a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisyntkelkb === 'undefined') {
-    varMorrisyntkelkb = Morris.Line({
-      element: 'Morrisyntkelkb',
+  if (typeof varMorrissgecysgo === 'undefined') {
+    varMorrissgecysgo = Morris.Line({
+      element: 'Morrissgecysgo',
       data: [{ fecha: '2011-06-30', dato: 8437 },{ fecha: '2012-06-30', dato: 8736 },{ fecha: '2013-06-30', dato: 9056 },{ fecha: '2014-06-30', dato: 9400 },{ fecha: '2015-06-30', dato: 9767 },{ fecha: '2016-06-30', dato: 10158 },{ fecha: '2017-06-30', dato: 10573 },{ fecha: '2018-06-30', dato: 11009 },{ fecha: '2019-06-30', dato: 11464 },{ fecha: '2020-06-30', dato: 11936 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -646,78 +642,6 @@ $('#Lenguetasjithlhvc a[href="#grafica"]').on('shown.bs.tab', function (e) {
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
-});
-// LENGUETA
-$('#Lenguetasjithlhvc a[href="#mapa"]').on('shown.bs.tab', function (e) {
-  // Mapa
-  var mapmzfviyxv;
-  // DECLARAR LOS CIRCULOS DE COLORES PARA GEOPUNTOS
-  var circuloParque = {
-    "radius": 8,
-    "fillColor": "#2BFF2B",
-    "color": "#000",
-    "weight": 1,
-    "opacity": 1,
-    "fillOpacity": 0.7
-  };
-  // Función para Pop-Ups
-  function onEachFeature(feature, layer) {
-    if (feature.properties && feature.properties.popupContent) {
-      layer.bindPopup(feature.properties.popupContent);
-    }
-  };
-  // Función para el mapa
-  function initmapmzfviyxv() {
-    // Nuevo Mapa
-    mapmzfviyxv = new L.Map('LeafLetmzfviyxv');
-    // Capa con el mapa
-    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    var osmAttrib='Ayuntamiento de Torreón. Map data © OpenStreetMap contributors';
-    var osm = new L.TileLayer(osmUrl, {minZoom: 12, maxZoom: 18, attribution: osmAttrib});
-    // Definir coordenadas del centro del mapa y el nivel de zoom
-    mapmzfviyxv.setView(new L.LatLng(25.54, -103.44), 12);
-    // Agregar capa con el mapa
-    mapmzfviyxv.addLayer(osm);
-    // ARREGLO CON LOS GEOPUNTOS
-    var geoPuntos = {
-      "type": "FeatureCollection",
-      "features": [
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Plaza Mayor" },
-          "geometry": {"type":"Point","coordinates":[-103.45387,25.54021]},
-          "id": 1
-        },
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Bosque V. Carranza" },
-          "geometry": {"type":"Point","coordinates":[-103.43321,25.54132]},
-          "id": 2
-        },
-        {
-          "type": "Feature",
-          "properties": { "name": "Parque", "popupContent": "Bosque Urbano" },
-          "geometry": {"type":"Point","coordinates":[-103.39061,25.55129]},
-          "id": 3
-        }
-      ]
-    };
-    // CONMUTAR LOS GEOPUNTOS POR SUS CIRCULOS DE COLORES
-    L.geoJson(geoPuntos, {
-      onEachFeature: onEachFeature,
-      pointToLayer: function (feature, latlng) {
-        switch (feature.properties.name) {
-          case 'Parque': return L.circleMarker(latlng, circuloParque);
-        }
-      }
-    }).addTo(mapmzfviyxv);
-    // Entregar
-    return true;
-  };
-  // Ejecutar el mapa
-  if (typeof varinitmapmzfviyxv === 'undefined') {
-    varinitmapmzfviyxv = initmapmzfviyxv();
-  };
 });
 FINAL;
     } // constructor
