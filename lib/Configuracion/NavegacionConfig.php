@@ -98,7 +98,7 @@ class NavegacionConfig {
         'Contacto'                       => 'fa fa-phone',
         'Comentarios y Sugerencias'      => 'fa fa-external-link');
     protected $buscador_html = <<<FINAL
-          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="buscador-resultados.html">
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="http://trcimplan.gob.mx/buscador-resultados.html">
             <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
             <input type="hidden" value="FORID:11" name="cof">
             <div class="input-group custom-search-form">
@@ -109,14 +109,6 @@ class NavegacionConfig {
             </div>
           </form>
 FINAL;
-/*
-            $a[] = '          <div class="input-group custom-search-form">';
-            $a[] = '            <input type="text" class="form-control" placeholder="Buscar...">';
-            $a[] = '              <span class="input-group-btn">';
-            $a[] = '                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>';
-            $a[] = '              </span>';
-            $a[] = '          </div>';
- */
 /*
  * De Google...
 <script>

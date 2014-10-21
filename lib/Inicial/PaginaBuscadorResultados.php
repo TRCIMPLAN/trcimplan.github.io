@@ -100,14 +100,14 @@ FINAL;
     google.load('search', '1', {language : 'es', style : google.loader.themes.V2_DEFAULT});
     google.setOnLoadCallback(function() {
         var customSearchOptions = {};
-        var orderByOptions = {};
+        var orderByOptions      = {};
         orderByOptions['keys']                = [{label: 'Relevance', key: ''},{label: 'Date', key: 'date'}];
         customSearchOptions['enableOrderBy']  = true;
         customSearchOptions['orderByOptions'] = orderByOptions;
         //
         var imageSearchOptions = {};
         imageSearchOptions['layout']              = google.search.ImageSearch.LAYOUT_COLUMN;
-        customSearchOptions['enableImageSearch']  = false;
+        customSearchOptions['enableImageSearch']  = true;
         customSearchOptions['imageSearchOptions'] = imageSearchOptions;
         //
         var googleAnalyticsOptions = {};
@@ -130,7 +130,8 @@ FINAL;
             }
             return params;
         }
-        var urlParams = parseParamsFromUrl();
+        //
+        var urlParams      = parseParamsFromUrl();
         var queryParamName = "s";
         if (urlParams[queryParamName]) {
             customSearchControl.execute(urlParams[queryParamName]);
