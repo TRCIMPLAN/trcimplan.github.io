@@ -77,23 +77,24 @@ class PaginaBuscadorResultados extends \Base\Plantilla {
         // Resultados del Buscador de Google
         $this->contenido[] = <<<FINAL
     <div id="page-content">
-        <div class='post-body entry-content'>
-            <div id="cse" style="width: 100%;">
-                <ul id="loadbar">
-                    <li><div class="bar" id="layerFill1"></div></li>
-                    <li><div class="bar" id="layerFill2"></div></li>
-                    <li><div class="bar" id="layerFill3"></div></li>
-                    <li><div class="bar" id="layerFill4"></div></li>
-                    <li><div class="bar" id="layerFill5"></div></li>
-                    <li><div class="bar" id="layerFill6"></div></li>
-                    <li><div class="bar" id="layerFill7"></div></li>
-                    <li><div class="bar" id="layerFill8"></div></li>
-                    <li><div class="bar" id="layerFill9"></div></li>
-                    <li><div class="bar" id="layerFill10"></div></li>
-                </ul>
-            </div>
+      <div class='post-body entry-content'>
+        <div id="cse" style="width: 100%;">
+          <ul id="loadbar">
+            <li><div class="bar" id="layerFill1"></div></li>
+            <li><div class="bar" id="layerFill2"></div></li>
+            <li><div class="bar" id="layerFill3"></div></li>
+            <li><div class="bar" id="layerFill4"></div></li>
+            <li><div class="bar" id="layerFill5"></div></li>
+            <li><div class="bar" id="layerFill6"></div></li>
+            <li><div class="bar" id="layerFill7"></div></li>
+            <li><div class="bar" id="layerFill8"></div></li>
+            <li><div class="bar" id="layerFill9"></div></li>
+            <li><div class="bar" id="layerFill10"></div></li>
+          </ul>
+        </div>
         <script src="http://www.google.com/jsapi" type="text/javascript"></script>
         <div style='clear: both;'></div>
+      </div>
     </div>
 FINAL;
         $this->javascript[] = <<<FINAL
