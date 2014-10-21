@@ -31,18 +31,19 @@ class MensajeDirector extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-01-05';
-     // $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Mensaje del Director';
-        $this->nombre_menu   = 'Mensaje del Director';
-        $this->directorio    = 'institucional';
-        $this->archivo       = 'mensaje-director';
-        $this->descripcion   = 'Mensaje del Director General Ejecutivo del IMPLAN Torreón Lic. Eduardo Olguín.';
-        $this->claves        = 'IMPLAN, Torreon, Mensaje, Director';
-     // $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->categorias    = array('Institucional');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="mensaje-director/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
+        $this->fecha            = '2014-01-05';
+     // $this->autor            = 'TrcIMPLAN';
+        $this->nombre           = 'Mensaje del Director';
+        $this->nombre_menu      = 'Mensaje del Director';
+        $this->directorio       = 'institucional';
+        $this->archivo          = 'mensaje-director';
+        $this->descripcion      = 'Mensaje del Director General Ejecutivo del IMPLAN Torreón Lic. Eduardo Olguín.';
+        $this->claves           = 'IMPLAN, Torreon, Mensaje, Director';
+     // $this->imagen_previa    = '/imagenes/implan.jpg';
+        $this->categorias       = array('Institucional');
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="mensaje-director/encabezado.jpg">';
+        $this->encabezado_color = '#800400';
+        $this->contenido        = <<<FINAL
 <span class="contenido-imagen-previa"><img src="mensaje-director/eduardo-olguin.jpg" alt="Eduardo Olguín"></span>
 
 <p>Ciudadano, ciudadana:</p>

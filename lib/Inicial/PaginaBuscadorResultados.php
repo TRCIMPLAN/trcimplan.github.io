@@ -97,22 +97,25 @@ class PaginaBuscadorResultados extends \Base\Plantilla {
     </div>
 FINAL;
         $this->javascript[] = <<<FINAL
-    google.load('search', '1', {language : 'en', style : google.loader.themes.V2_DEFAULT});
+    google.load('search', '1', {language : 'es', style : google.loader.themes.V2_DEFAULT});
     google.setOnLoadCallback(function() {
         var customSearchOptions = {};
         var orderByOptions = {};
-        orderByOptions['keys'] = [{label: 'Relevance', key: ''},{label: 'Date', key: 'date'}];
-        customSearchOptions['enableOrderBy'] = true;
+        orderByOptions['keys']                = [{label: 'Relevance', key: ''},{label: 'Date', key: 'date'}];
+        customSearchOptions['enableOrderBy']  = true;
         customSearchOptions['orderByOptions'] = orderByOptions;
+        //
         var imageSearchOptions = {};
-        imageSearchOptions['layout'] = google.search.ImageSearch.LAYOUT_COLUMN;
-        customSearchOptions['enableImageSearch'] = true;
+        imageSearchOptions['layout']              = google.search.ImageSearch.LAYOUT_COLUMN;
+        customSearchOptions['enableImageSearch']  = false;
         customSearchOptions['imageSearchOptions'] = imageSearchOptions;
+        //
         var googleAnalyticsOptions = {};
-        googleAnalyticsOptions['queryParameter'] = 's';
-        googleAnalyticsOptions['categoryParameter'] = '';
+        googleAnalyticsOptions['queryParameter']      = 's';
+        googleAnalyticsOptions['categoryParameter']   = '';
         customSearchOptions['googleAnalyticsOptions'] = googleAnalyticsOptions; var customSearchControl = new google.search.CustomSearchControl('015475140351266618625:04hulmghdys', customSearchOptions);
         customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+        //
         var options = new google.search.DrawOptions();
         options.setAutoComplete(true);
         options.enableSearchResultsOnly();

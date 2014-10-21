@@ -22,8 +22,8 @@
  * Global
  */
 body {
-    /* font-family:'Droid Serif', sans-serif; */
-    font-family:'Questrial', sans-serif;
+    font-family:'Droid Sans', sans-serif;
+    /* font-family:'Questrial', sans-serif; */
     font-weight:400;
     font-size:16px;
     line-height:1.4;
@@ -36,9 +36,10 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
+    font-family:'Droid Sans', sans-serif;
+    font-weight:600;
     /* font-family:'Oswald', sans-serif; */
-    font-family:'Teko', sans-serif;
-    font-weight:400;
+    /* font-weight:400; */
     line-height:1.2;
 }
 h1, .h1,
@@ -100,7 +101,9 @@ a:focus   { text-decoration:none; color:#FF3300; }
     margin-top:0;
     margin-bottom:0;
 }
-
+.icono {
+    font-size:2em;
+}
 /*
  * Contenido
  */
@@ -175,7 +178,7 @@ a:focus   { text-decoration:none; color:#FF3300; }
 .mapa-inferior-inferior-logo {
     padding:2px;
 }
-.mapa-inferior-redes-sociales           { color:#646464; font-size:4em; }
+.mapa-inferior-redes-sociales           { color:#646464; }
 .mapa-inferior-redes-sociales a         { color:#646464; text-decoration:none; padding:2px; }
 .mapa-inferior-redes-sociales a:active,
 .mapa-inferior-redes-sociales a:visited { color:#646464; }

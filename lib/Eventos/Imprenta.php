@@ -27,18 +27,6 @@ namespace Eventos;
  */
 class Imprenta extends \Base\ImprentaPublicaciones {
 
-    // public $plantilla;
-    // public $mensajes;
-    // protected $publicaciones;
-    // protected $plantillas;
-    // protected $publicaciones_directorio; // Nombre del directorio dentro de lib que contiene los archivos con las publicaciones
-    // protected $titulo;                   // Título a usar en la página con el índice
-    // protected $descripcion;              // Descripción a usar en la página con el índice
-    // protected $claves;                   // Claves a usar en la página con el índice
-    // protected $directorio;               // Nombre del directorio en la raíz del sitio
-    // protected $ruta;                     // Ruta al archivo HTML para el índice, por ejemplo 'eventos/index.html'
-    // protected $nombre_menu;              // Etiqueta del menú que pondrá como opción activa
-
     /**
      * Constructor
      */
@@ -50,6 +38,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->directorio               = 'eventos';
         $this->ruta                     = 'eventos/index.html';
         $this->nombre_menu              = 'Eventos';
+        $this->encabezado_color         = '#008000';
     } // constructor
 
 } // Clase Imprenta

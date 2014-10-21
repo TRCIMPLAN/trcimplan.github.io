@@ -27,9 +27,10 @@ namespace Base;
  */
 class Indice {
 
-    public $encabezado;    // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
-    public $titulo;        // Título de la página
-    public $publicaciones; // Arreglo con instancias de Publicacion
+    public $encabezado;       // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
+    public $encabezado_color; // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
+    public $titulo;           // Título de la página
+    public $publicaciones;    // Arreglo con instancias de Publicacion
 
     /**
      * Constructor
@@ -53,17 +54,6 @@ class Indice {
         }
         // Acumularemos la entrega en este arreglo
         $a = array();
-/*
-        // Encabezado y título
-        if ($this->encabezado != '') {
-            $a[] = $this->encabezado;
-            if ($this->titulo != '') {
-                $a[] = "        <h1 style=\"display:none;\">{$this->titulo}</h1>";
-            }
-        } elseif ($this->titulo != '') {
-            $a[] = "        <h1>{$this->titulo}</h1>";
-        }
- */
         // Si el encabezado está definido
         if ($this->encabezado != '') {
             // Se pone el código HTML del encabezado
@@ -76,16 +66,19 @@ class Indice {
             // Hay título. Si hay icono definido en Navegación
             $navegacion_config = new \Configuracion\NavegacionConfig();
             if (array_key_exists($this->titulo, $navegacion_config->iconos)) {
-                $encabezado = sprintf('<i class="%s"></i> %s', $navegacion_config->iconos[$this->titulo], $this->titulo);
+                $encabezado = sprintf('<i class="%s icono"></i> %s', $navegacion_config->iconos[$this->titulo], $this->titulo);
             } else {
                 $encabezado = $this->titulo;
             }
             // Acumular
-            $a[] = '    <div class="encabezado">';
+            if ($this->encabezado_color != '') {
+                $a[] = "    <div class=\"encabezado\" style=\"background-color:{$this->encabezado_color};\">";
+            } else {
+                $a[] = '    <div class="encabezado">';
+            }
             $a[] = "      <span><h1>$encabezado</h1></span>";
             $a[] = '    </div>';
         }
-
         // Acumular
         foreach ($this->publicaciones as $p) {
             // Validar

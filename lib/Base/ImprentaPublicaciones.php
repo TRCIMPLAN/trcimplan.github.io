@@ -39,6 +39,8 @@ class ImprentaPublicaciones extends Imprenta {
     protected $ruta;                     // Ruta al archivo HTML para el índice, por ejemplo 'eventos/index.html'
     protected $nombre_menu;              // Etiqueta del menú que pondrá como opción activa
     protected $concentrador = 'Indice';  // Clase que concentrará este conjunto de publicaciones. Puede ser 'Indice' o 'Galeria'.
+    protected $encabezado;               // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
+    protected $encabezado_color;         // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
 
     /**
      * Elaborar resúmenes para la página de inicial
@@ -87,7 +89,9 @@ class ImprentaPublicaciones extends Imprenta {
         } elseif ($this->concentrador == 'Galeria') {
             $concentrador = new Galeria($publicaciones);
         }
-        $concentrador->titulo = $this->titulo;
+        $concentrador->titulo           = $this->titulo;
+        $concentrador->encabezado       = $this->encabezado;
+        $concentrador->encabezado_color = $this->encabezado_color;
         // Cargar la plantilla para índice
         $this->plantilla->titulo                    = $this->titulo;
         $this->plantilla->descripcion               = $this->descripcion;

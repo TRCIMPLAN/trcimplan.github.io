@@ -31,18 +31,19 @@ class VisionMision extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-01';
-     // $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Visión / Misión';
-        $this->nombre_menu   = 'Visión / Misión';
-        $this->directorio    = 'institucional';
-        $this->archivo       = 'vision-mision';
-        $this->descripcion   = 'La Visión y la Misión del IMPLAN Torreón.';
-        $this->claves        = 'IMPLAN, Torreon, Vision, Mision';
-     // $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->categorias    = array('Institucional');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
+        $this->fecha            = '2014-05-01';
+     // $this->autor            = 'TrcIMPLAN';
+        $this->nombre           = 'Visión / Misión';
+        $this->nombre_menu      = 'Visión / Misión';
+        $this->directorio       = 'institucional';
+        $this->archivo          = 'vision-mision';
+        $this->descripcion      = 'La Visión y la Misión del IMPLAN Torreón.';
+        $this->claves           = 'IMPLAN, Torreon, Vision, Mision';
+     // $this->imagen_previa    = '/imagenes/implan.jpg';
+        $this->categorias       = array('Institucional');
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
+        $this->encabezado_color = '#008000';
+        $this->contenido        = <<<FINAL
 <h3>Visión</h3>
 
 <p>Ser una institución líder en materia de planeación estratégica, reconocida a nivel internacional por su efectividad como organismo facilitador del desarrollo sustentable y competitivo de la metrópoli.</p>

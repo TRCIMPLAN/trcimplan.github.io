@@ -155,9 +155,7 @@ class Navegacion extends \Configuracion\NavegacionConfig {
         // Buscador
         $a[] = '        <li class="sidebar-search">';
         if ($this->buscador_html != '') {
-            $a[] = '          <div class="buscador_google">';
             $a[] = $this->buscador_html;
-            $a[] = '          </div>';
         } else {
             $a[] = '          <div class="input-group custom-search-form">';
             $a[] = '            <input type="text" class="form-control" placeholder="Buscar...">';

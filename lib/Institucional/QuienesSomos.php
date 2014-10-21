@@ -31,18 +31,19 @@ class QuienesSomos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-01';
-     // $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Quienes Somos';
-        $this->nombre_menu   = 'Quienes Somos';
-        $this->directorio    = 'institucional';
-        $this->archivo       = 'quienes-somos';
-        $this->descripcion   = 'Los integrantes del IMPLAN Torreón.';
-        $this->claves        = 'IMPLAN, Torreon';
-     // $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->categorias    = array('Institucional');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="quienes-somos/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
+        $this->fecha            = '2014-05-01';
+     // $this->autor            = 'TrcIMPLAN';
+        $this->nombre           = 'Quienes Somos';
+        $this->nombre_menu      = 'Quienes Somos';
+        $this->directorio       = 'institucional';
+        $this->archivo          = 'quienes-somos';
+        $this->descripcion      = 'Los integrantes del IMPLAN Torreón.';
+        $this->claves           = 'IMPLAN, Torreon';
+     // $this->imagen_previa    = '/imagenes/implan.jpg';
+        $this->categorias       = array('Institucional');
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="quienes-somos/encabezado.jpg">';
+        $this->encabezado_color = '#750080';
+        $this->contenido        = <<<FINAL
 <p>El IMPLAN es el Órgano Técnico Descentralizado de la Administración Pública Municipal que coordina los procesos de Planeación Estratégica y Ordenamiento Territorial para el desarrollo de la Región.</p>
 
 <p>Como instrumento de gobernanza, se encarga de crear acuerdos, vínculos, consensos entre la ciudadanía, grupos sociales, empresariales, académicos y gobierno.</p>

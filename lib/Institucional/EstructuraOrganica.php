@@ -31,18 +31,19 @@ class EstructuraOrganica extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-01';
-     // $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Estructura Orgánica';
-        $this->nombre_menu   = 'Estructura Orgánica';
-        $this->directorio    = 'institucional';
-        $this->archivo       = 'estructura-organica';
-        $this->descripcion   = 'La Estructura Orgánica del IMPLAN Torréon está formada por el Consejo Directivo, los Comités Técnicos, el Director General Ejecutivo y el Cuerpo Técnico.';
-        $this->claves        = 'IMPLAN, Torreon, Estructura, Organica, Consejo, Comites, Tecnicos, Director, Cuerpo';
-     // $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->categorias    = array('Institucional');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="estructura-organica/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
+        $this->fecha            = '2014-05-01';
+     // $this->autor            = 'TrcIMPLAN';
+        $this->nombre           = 'Estructura Orgánica';
+        $this->nombre_menu      = 'Estructura Orgánica';
+        $this->directorio       = 'institucional';
+        $this->archivo          = 'estructura-organica';
+        $this->descripcion      = 'La Estructura Orgánica del IMPLAN Torréon está formada por el Consejo Directivo, los Comités Técnicos, el Director General Ejecutivo y el Cuerpo Técnico.';
+        $this->claves           = 'IMPLAN, Torreon, Estructura, Organica, Consejo, Comites, Tecnicos, Director, Cuerpo';
+     // $this->imagen_previa    = '/imagenes/implan.jpg';
+        $this->categorias       = array('Institucional');
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="estructura-organica/encabezado.jpg">';
+        $this->encabezado_color = '#080080';
+        $this->contenido        = <<<FINAL
 <p><img class="img-responsive" src="estructura-organica/estructura-organica.png" alt="Estructura Orgánica"></p>
 
 <h3>Consejo Directivo</h3>

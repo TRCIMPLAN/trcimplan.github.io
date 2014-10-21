@@ -31,18 +31,19 @@ class Reglamentos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-01';
-     // $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Reglamentos';
-        $this->nombre_menu   = 'Reglamentos';
-        $this->directorio    = 'institucional';
-        $this->archivo       = 'reglamentos';
-        $this->descripcion   = 'El reglamento del IMPLAN Torreón.';
-        $this->claves        = 'IMPLAN, Torreon';
-     // $this->imagen_previa = '/imagenes/implan.jpg';
-        $this->categorias    = array();
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="reglamentos/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
+        $this->fecha            = '2014-05-01';
+     // $this->autor            = 'TrcIMPLAN';
+        $this->nombre           = 'Reglamentos';
+        $this->nombre_menu      = 'Reglamentos';
+        $this->directorio       = 'institucional';
+        $this->archivo          = 'reglamentos';
+        $this->descripcion      = 'El reglamento del IMPLAN Torreón.';
+        $this->claves           = 'IMPLAN, Torreon';
+     // $this->imagen_previa    = '/imagenes/implan.jpg';
+        $this->categorias       = array();
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="reglamentos/encabezado.jpg">';
+        $this->encabezado_color = '#804000';
+        $this->contenido        = <<<FINAL
 <p style="text-align: center;"><a href="reglamentos/trcimplan-reglamento.pdf"><img src="reglamentos/icono-descargar.png" alt="Descargar"></a><br>
 Descargue el <a title="Reglamento del IMPLAN Torreón" href="reglamentos/trcimplan-reglamento.pdf">Reglamento del IMPLAN Torreón</a>.</p>
 FINAL;

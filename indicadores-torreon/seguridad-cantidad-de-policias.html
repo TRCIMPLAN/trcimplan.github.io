@@ -42,7 +42,6 @@
   <link href="../css/sb-admin-2.css" rel="stylesheet">
   <link href="../css/font-awesome.min.css" rel="stylesheet">
   <link href="../css/trcimplan.css" rel="stylesheet">
-  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko" rel="stylesheet" type="text/css">
   <!-- SOPORTE PARA IE -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -65,16 +64,16 @@
     <div class="sidebar-nav navbar-collapse">
       <ul class="nav" id="side-menu">
         <li class="sidebar-search">
-          <div class="buscador_google">
           <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="buscador-resultados.html">
-            <div>
-              <input value="015475140351266618625:04hulmghdys" name="cx" type="hidden"/>
-              <input value="FORID:11" name="cof" type="hidden"/>
-              <input type="text" value="Search..." name="s" id="s" onfocus="defaultInput(this)" onblur="clearInput(this)" />
-              <input type="submit" id="searchsubmit" value=" " />
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
             </div>
           </form>
-          </div>
         </li>
         <li><a href="../blog/index.html"><i class="fa fa-lightbulb-o"></i> Análisis Publicados</a></li>
         <li>
@@ -149,7 +148,7 @@
 <article>
   <header>
     <div class="encabezado">
-      <span><h1><i class="fa fa-table"></i> Cantidad de Policías en Torreón</h1></span>
+      <span><h1><i class="fa fa-table icono"></i> Cantidad de Policías en Torreón</h1></span>
     </div>
     <p class="autor">01/01/1980</p>
   </header>
@@ -194,10 +193,10 @@ Determinado en base al reporte de Transparencia de la Nómina.
       </div>
       <div class="col-md-4">
         <div class="pull-right mapa-inferior-redes-sociales">
-          <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
-          <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
-          <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
-          <a class="fa fa-rss-square" href="../rss.xml"></a>
+          <a class="fa fa-twitter-square icono" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+          <a class="fa fa-facebook-square icono" href="https://facebook.com/trcimplan" target="_blank"></a>
+          <a class="fa fa-github-square  icono" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+          <a class="fa fa-rss-square icono" href="../rss.xml"></a>
         </div>
       </div>
     </div>

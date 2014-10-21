@@ -99,16 +99,26 @@ class NavegacionConfig {
         'Comentarios y Sugerencias'      => 'fa fa-external-link');
     protected $buscador_html = <<<FINAL
           <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="buscador-resultados.html">
-            <div>
-              <input value="015475140351266618625:04hulmghdys" name="cx" type="hidden"/>
-              <input value="FORID:11" name="cof" type="hidden"/>
-              <input type="text" value="Search..." name="s" id="s" onfocus="defaultInput(this)" onblur="clearInput(this)" />
-              <input type="submit" id="searchsubmit" value=" " />
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
             </div>
           </form>
 FINAL;
-
 /*
+            $a[] = '          <div class="input-group custom-search-form">';
+            $a[] = '            <input type="text" class="form-control" placeholder="Buscar...">';
+            $a[] = '              <span class="input-group-btn">';
+            $a[] = '                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>';
+            $a[] = '              </span>';
+            $a[] = '          </div>';
+ */
+/*
+ * De Google...
 <script>
   (function() {
     var cx = '015475140351266618625:04hulmghdys';

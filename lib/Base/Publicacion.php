@@ -42,6 +42,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $claves;                       // Claves que ayuden a los buscadores
     public $categorias   = array();       // Arreglo con las categorías de la publicación
     public $encabezado;                   // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
+    public $encabezado_color;             // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
     public $contenido;                    // Contenido código HTML de la publicación
     public $javascript;                   // Opcional. Código Javascript. Debe estar aparte para ponerlo al final de la página.
     public $en_raiz      = false;         // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
