@@ -170,7 +170,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // Google fonts
         //$a[] = '  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Oswald" rel="stylesheet" type="text/css">';
         //$a[] = '  <link href="http://fonts.googleapis.com/css?family=Droid+Serif|Oswald" rel="stylesheet" type="text/css">';
-        //$a[] = '  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko" rel="stylesheet" type="text/css">';
+        $a[] = '  <link href="http://fonts.googleapis.com/css?family=Questrial|Teko" rel="stylesheet" type="text/css">';
         //
         $a[] = '  <!-- SOPORTE PARA IE -->';
         $a[] = '  <!--[if lt IE 9]>';

@@ -164,8 +164,8 @@ class Imprenta {
                 if (($publicacion->estado != 'publicar') && ($publicacion->estado != 'revisar')) {
                     continue;
                 }
-                // La clave del arreglo asociativo es el tiempo_creado-archivo
-                $clave              = "{$publicacion->tiempo_creado()}-{$publicacion->archivo}";
+                // La clave del arreglo asociativo es el tiempo_creado-clase, donde clase es Directorio/Archivo
+                $clave              = "{$publicacion->tiempo_creado()}-{$clase}"; // "{$publicacion->tiempo_creado()}-{$publicacion->archivo}"
                 $instancias[$clave] = $publicacion;
             } else {
                 $this->mensajes[] = "  Omití $clase porque no es una publicación.";

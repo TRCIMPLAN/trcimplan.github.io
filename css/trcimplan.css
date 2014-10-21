@@ -22,9 +22,8 @@
  * Global
  */
 body {
-    font-family:'Droid Sans', sans-serif;
-    /* font-family:'Questrial', sans-serif; */
-    font-weight:400;
+    /* font-family:'Droid Sans', sans-serif; font-weight:400; */
+    font-family:'Questrial', sans-serif; font-weight:400;
     font-size:16px;
     line-height:1.4;
     padding-bottom:24px;
@@ -36,10 +35,8 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-    font-family:'Droid Sans', sans-serif;
-    font-weight:600;
-    /* font-family:'Oswald', sans-serif; */
-    /* font-weight:400; */
+    /* font-family:'Droid Sans', sans-serif; font-weight:600; */
+    font-family:'Teko', sans-serif; font-weight:400;
     line-height:1.2;
 }
 h1, .h1,
