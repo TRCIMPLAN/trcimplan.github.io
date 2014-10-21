@@ -27,7 +27,8 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="Lenguetaswouaurvc">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#mapa" data-toggle="tab">Mapa</a></li>
+    <li><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="datos">
@@ -59,7 +60,10 @@ Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/).
 
 Enlace al [Sistema de Información Geográfica](http://201.159.104.45:8080/apps/implan2.html).
     </div>
-    <div class="tab-pane active" id="otras_regiones">
+    <div class="tab-pane" id="mapa">
+      <iframe width='100%' height='520' frameborder='0' src='http://sigimplan.cartodb.com/viz/087f5b46-5866-11e4-9524-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
+    <div class="tab-pane" id="otras_regiones">
       <h4>En otras regiones</h4>
 <table class="table table-hover table-bordered matriz">
 <thead>
