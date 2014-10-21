@@ -165,7 +165,7 @@ class Imprenta {
                     continue;
                 }
                 // La clave del arreglo asociativo es el tiempo_creado-clase, donde clase es Directorio/Archivo
-                $clave              = "{$publicacion->tiempo_creado()}-{$clase}"; // "{$publicacion->tiempo_creado()}-{$publicacion->archivo}"
+                $clave              = "{$publicacion->tiempo_creado()}-{$clase}";
                 $instancias[$clave] = $publicacion;
             } else {
                 $this->mensajes[] = "  Omití $clase porque no es una publicación.";
