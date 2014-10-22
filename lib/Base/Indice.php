@@ -66,7 +66,7 @@ class Indice {
             // Hay título. Si hay icono definido en Navegación
             $navegacion_config = new \Configuracion\NavegacionConfig();
             if (array_key_exists($this->titulo, $navegacion_config->iconos)) {
-                $encabezado = sprintf('<i class="%s icono"></i> %s', $navegacion_config->iconos[$this->titulo], $this->titulo);
+                $encabezado = sprintf('<i class="%s encabezado-icono"></i> %s', $navegacion_config->iconos[$this->titulo], $this->titulo);
             } else {
                 $encabezado = $this->titulo;
             }
@@ -102,7 +102,7 @@ class Indice {
             $a[] = '              <div class="media-body">';
             $a[] = "                <h3 class=\"media-heading\"><a href=\"{$p->url()}\">{$p->nombre}</a></h3>";
             $a[] = "                <p>{$p->descripcion}</p>";
-            $a[] = "                <p class=\"pull-left autor\">{$p->autor}, {$p->fecha_con_formato_humano()}</p>";
+            $a[] = "                <p class=\"pull-left autor-fecha\">Por {$p->autor}, {$p->fecha_con_formato_humano()}</p>";
             $a[] = "                <p class=\"pull-right leer-mas\"><a href=\"{$p->url()}\">Leer más</a></p>";
             $a[] = '              </div>';
             $a[] = '            </div>';

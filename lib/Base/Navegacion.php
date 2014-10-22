@@ -126,9 +126,9 @@ class Navegacion extends \Configuracion\NavegacionConfig {
         $etiqueta = $this->formatear_etiqueta($in_etiqueta);
         // Icono
         if (array_key_exists($etiqueta, $this->iconos)) {
-            $icono = "<i class=\"{$this->iconos[$etiqueta]}\"></i>";
+            $icono = "<span class=\"navegacion-icono\"><i class=\"{$this->iconos[$etiqueta]}\"></i></span>";
         } else {
-            $icono = "<i class=\"fa fa-file-text-o\"></i>";
+            $icono = "<span class=\"navegacion-icono\"><i class=\"fa fa-file-text-o\"></i></span>";
         }
         // Si el URL es absoluto
         if ((strpos($url, 'http://') === 0) || (strpos($url, 'https://') === 0) || (strpos($url, '/') === 0)) {
@@ -171,9 +171,9 @@ class Navegacion extends \Configuracion\NavegacionConfig {
                 // Segundo nivel
                 $e = $this->formatear_etiqueta($etiqueta);
                 if (array_key_exists($e, $this->iconos)) {
-                    $icono = "<i class=\"{$this->iconos[$e]}\"></i>";
+                    $icono = "<span class=\"navegacion-icono\"><i class=\"{$this->iconos[$e]}\"></i></span>";
                 } else {
-                    $icono = "<i class=\"fa fa-file-text-o\"></i>";
+                    $icono = "<span class=\"navegacion-icono\"><i class=\"fa fa-file-text-o\"></i></span>";
                 }
                 // Buscar si la opción activa es del tercer nivel
                 $es_opcion_activa = false;
@@ -197,9 +197,9 @@ class Navegacion extends \Configuracion\NavegacionConfig {
                         // Tercer nivel
                         $e = $this->formatear_etiqueta($eti);
                         if (array_key_exists($e, $this->iconos)) {
-                            $icono = "<i class=\"{$this->iconos[$e]}\"></i>";
+                            $icono = "<span class=\"navegacion-icono\"><i class=\"{$this->iconos[$e]}\"></i></span>";
                         } else {
-                            $icono = "<i class=\"fa fa-file-text-o\"></i>";
+                            $icono = "<span class=\"navegacion-icono\"><i class=\"fa fa-file-text-o\"></i></span>";
                         }
                         if (array_key_exists($this->opcion_activa, $param)) {
                             $a[] = '            <li class="active">';

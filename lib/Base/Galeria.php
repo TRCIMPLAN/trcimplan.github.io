@@ -66,7 +66,7 @@ class Galeria {
             // Hay título. Si hay icono definido en Navegación
             $navegacion_config = new \Configuracion\NavegacionConfig();
             if (array_key_exists($this->titulo, $navegacion_config->iconos)) {
-                $encabezado = sprintf('<i class="%s icono"></i> %s', $navegacion_config->iconos[$this->titulo], $this->titulo);
+                $encabezado = sprintf('<i class="%s encabezado-icono"></i> %s', $navegacion_config->iconos[$this->titulo], $this->titulo);
             } else {
                 $encabezado = $this->titulo;
             }

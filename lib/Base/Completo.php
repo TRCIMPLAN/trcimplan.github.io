@@ -51,14 +51,17 @@ class Completo {
         if (!($this->publicacion instanceof Publicacion)) {
             throw new \Exception("Error en Completo, html: La propiedad publicacion no es instancia de Publicacion.");
         }
-        // Si el autor y fecha son distintos al por defecto, se usan
+        // Cargar los valores por defecto de Publicacion
         $publicacion_config = new \Configuracion\PublicacionConfig();
+        // Si el autor es diferente al de por defecto...
         if ($this->publicacion->autor != $publicacion_config->autor) {
             $autor = $this->publicacion->autor;
         }
-        if (strcmp($this->publicacion->fecha, $publicacion_config->fecha) <= 0) {
+        // Si la fecha es posterior a la de por defecto...
+        if (strcmp($this->publicacion->fecha, $publicacion_config->fecha) > 0) {
             $fecha = $this->publicacion->fecha_con_formato_humano();
         }
+        // Si hay autor y/o fecha...
         if (($autor != '') && ($fecha != '')) {
             $autor_fecha = "Por $autor<br>$fecha";
         } elseif ($autor != '') {
@@ -83,7 +86,7 @@ class Completo {
             // Hay título. Si hay icono definido en Navegación
             $navegacion_config = new \Configuracion\NavegacionConfig();
             if (array_key_exists($this->publicacion->nombre_menu, $navegacion_config->iconos)) {
-                $encabezado = sprintf('<i class="%s icono"></i> %s', $navegacion_config->iconos[$this->publicacion->nombre_menu], $this->publicacion->nombre);
+                $encabezado = sprintf('<i class="%s encabezado-icono"></i> %s', $navegacion_config->iconos[$this->publicacion->nombre_menu], $this->publicacion->nombre);
             } else {
                 $encabezado = $this->publicacion->nombre;
             }
@@ -97,7 +100,7 @@ class Completo {
             $a[] = '    </div>';
         }
         if ($autor_fecha != '') {
-            $a[] = "    <p class=\"autor\">$autor_fecha</p>";
+            $a[] = "    <p class=\"autor-fecha\">$autor_fecha</p>";
         }
         $a[] = '  </header>';
         $a[] = $this->publicacion->contenido;

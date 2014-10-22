@@ -29,24 +29,29 @@ body {
     padding-bottom:24px;
     background-color:#F0F0F0;
 }
-h1, .h1,
+h1, .h1 {
+    /* font-family:'Droid Sans', sans-serif; font-weight:600; */
+    font-family:'Roboto Condensed', sans-serif; font-weight:700;
+    line-height:1.2;
+}
 h2, .h2,
 h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
     /* font-family:'Droid Sans', sans-serif; font-weight:600; */
-    font-family:'Teko', sans-serif; font-weight:400;
+    font-family:'Roboto Condensed', sans-serif; font-weight:400;
     line-height:1.2;
 }
 h1, .h1,
 h2, .h2,
-h3, .h3 {
-    margin-top:10px;
-}
+h3, .h3 { margin-top:10px; }
 h1, .h1 { font-size:32px; }
-h2, .h2 { font-size:30px; }
-h3, .h3 { font-size:26px; }
+h2, .h2 { font-size:28px; }
+h3, .h3 { font-size:24px; }
+h4, .h4 { font-size:20px; }
+h5, .h5 { font-size:16px; }
+h6, .h6 { font-size:12px; }
 a         { text-decoration:none; color:#FF3300; }
 a:active,
 a:visited { text-decoration:none; color:#FF3300; }
@@ -64,12 +69,19 @@ a:focus   { text-decoration:none; color:#FF3300; }
     border-bottom:1px solid #FF3300;
 }
 /* Menú principal/izquierdo opción */
-#side-menu           { font-size:14px; }
+#side-menu {
+    font-family:'Roboto Condensed', sans-serif; font-weight:400;
+    font-size:16px;
+}
 #side-menu a         { color:#646464; background-color:#F0F0F0; }
 #side-menu a:hover,
 #side-menu a:focus   { color:#646464; background-color:#E3E3E3; }
 #side-menu a:active,
 #side-menu a:visited { color:#646464; background-color:#F0F0F0; }
+.navegacion-icono {
+    display:inline-block; width:24px;
+    font-size:1.2em;
+}
 
 /*
  * Page Wrapper
@@ -98,7 +110,7 @@ a:focus   { text-decoration:none; color:#FF3300; }
     margin-top:0;
     margin-bottom:0;
 }
-.icono {
+.encabezado-icono {
     font-size:2em;
 }
 /*
@@ -125,15 +137,12 @@ a:focus   { text-decoration:none; color:#FF3300; }
     padding:0 24px 12px 0;
     float:left;
 }
-.breve-heading {
-    font-size:24px;
-}
 .descripcion {
-    font-size:13px;
+    font-size:14px;
 }
-.autor {
+.autor-fecha {
     color:#888;
-    font-size:11px;
+    font-size:12px;
 }
 .centrado {
     text-align:center;
@@ -175,7 +184,10 @@ a:focus   { text-decoration:none; color:#FF3300; }
 .mapa-inferior-inferior-logo {
     padding:2px;
 }
-.mapa-inferior-redes-sociales           { color:#646464; }
+.mapa-inferior-redes-sociales {
+    color:#646464;
+    font-size:3em;
+}
 .mapa-inferior-redes-sociales a         { color:#646464; text-decoration:none; padding:2px; }
 .mapa-inferior-redes-sociales a:active,
 .mapa-inferior-redes-sociales a:visited { color:#646464; }
@@ -259,16 +271,17 @@ a.galeria-icono:focus   { color:#FF3300; }
 #redes {
     background-color:#ECECEC;
     padding:8px;
-    font-size:12px;
-    color:#444;
 }
-#redes .logotipo       { display:inline; }
-#redes .redes-sociales { font-size:4em; }
+#redes .redes-sociales {
+    color:#646464;
+    font-size:3em;
+}
 #redes a         { color:#646464; text-decoration:none; padding:2px; }
 #redes a:active,
 #redes a:visited { color:#646464; }
 #redes a:hover,
 #redes a:focus   { color:#FF3300; }
+#redes .logotipo { display:inline; }
 
 /*
  * Pie

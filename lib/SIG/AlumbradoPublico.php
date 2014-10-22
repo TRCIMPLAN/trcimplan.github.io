@@ -49,6 +49,7 @@ class AlumbradoPublico extends \Base\Publicacion {
 
 <p><b>Nota:</b> La información mostrada está sujeta a cambios sin previo aviso por la concesionaria.<br>
 <b>Fuente:</b> Dirección General de Servicios Públicos de Torreón.</p>
+
 FINAL;
         $this->javascript    = <<<FINAL
 FINAL;
