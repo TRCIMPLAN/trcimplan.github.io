@@ -75,6 +75,10 @@ class Resumenes {
             if (!($p instanceof Publicacion)) {
                 throw new \Exception("Error en Resumenes, html: Una publicación no es una instancia de Publicacion.");
             }
+            // Si el estado es diferente a publicar, se salta
+            if ($p->estado != 'publicar') {
+                continue;
+            }
             // Pasar la bandera en_raiz
             $p->en_raiz = $this->en_raiz;
             // Acumular
