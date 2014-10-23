@@ -25,7 +25,7 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
         $this->claves      = 'Torreón, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnfkyhkfz">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasnpukbjoj">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -110,7 +110,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnfkyhkfz a:first').tab('show')
+  $('#Lenguetasnpukbjoj a:first').tab('show')
 });
 FINAL;
     } // constructor

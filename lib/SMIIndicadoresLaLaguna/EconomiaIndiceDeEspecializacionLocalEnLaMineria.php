@@ -25,7 +25,7 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
         $this->claves      = 'La Laguna, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbbuabytn">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasijbtlfol">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -110,7 +110,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbbuabytn a:first').tab('show')
+  $('#Lenguetasijbtlfol a:first').tab('show')
 });
 FINAL;
     } // constructor

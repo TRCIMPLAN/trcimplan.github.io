@@ -25,7 +25,7 @@ class SociedadUniversidades extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Educación';
         $this->categorias  = array('Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfrwuqxvm">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasjvmekcmi">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -138,7 +138,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfrwuqxvm a:first').tab('show')
+  $('#Lenguetasjvmekcmi a:first').tab('show')
 });
 FINAL;
     } // constructor

@@ -25,7 +25,7 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Educación, Cultura';
         $this->categorias  = array('Educación', 'Cultura');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrdyrotvk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszfvwkxbs">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -106,7 +106,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrdyrotvk a:first').tab('show')
+  $('#Lenguetaszfvwkxbs a:first').tab('show')
 });
 FINAL;
     } // constructor

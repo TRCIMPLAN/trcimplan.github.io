@@ -25,7 +25,7 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdhelnwdu">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaslgmprlwk">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -108,7 +108,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdhelnwdu a:first').tab('show')
+  $('#Lenguetaslgmprlwk a:first').tab('show')
 });
 FINAL;
     } // constructor

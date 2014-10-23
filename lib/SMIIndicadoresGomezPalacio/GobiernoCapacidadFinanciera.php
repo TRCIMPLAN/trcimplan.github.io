@@ -25,7 +25,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasgeqyijsl">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasrwsimhhm">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -112,7 +112,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morriseniwlfsp" class="grafica"></div>
+<div id="Morrisarumirss" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -331,14 +331,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasgeqyijsl a:first').tab('show')
+  $('#Lenguetasrwsimhhm a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasgeqyijsl a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasrwsimhhm a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriseniwlfsp === 'undefined') {
-    varMorriseniwlfsp = Morris.Line({
-      element: 'Morriseniwlfsp',
+  if (typeof varMorrisarumirss === 'undefined') {
+    varMorrisarumirss = Morris.Line({
+      element: 'Morrisarumirss',
       data: [{ fecha: '2007-12-31', dato: 51.1900 },{ fecha: '2008-12-31', dato: 52.8900 },{ fecha: '2009-12-31', dato: 74.4600 },{ fecha: '2010-12-31', dato: 47.4000 },{ fecha: '2011-12-31', dato: 69.5700 },{ fecha: '2012-12-31', dato: 74.2600 },{ fecha: '2013-12-31', dato: 64.4300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

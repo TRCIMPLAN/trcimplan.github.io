@@ -25,7 +25,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetashmgvsqdm">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetastqozygvv">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -108,7 +108,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetashmgvsqdm a:first').tab('show')
+  $('#Lenguetastqozygvv a:first').tab('show')
 });
 FINAL;
     } // constructor

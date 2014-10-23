@@ -25,7 +25,7 @@ class SociedadPobreza extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrwgvnemw">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspnwajjer">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -127,7 +127,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrwgvnemw a:first').tab('show')
+  $('#Lenguetaspnwajjer a:first').tab('show')
 });
 FINAL;
     } // constructor

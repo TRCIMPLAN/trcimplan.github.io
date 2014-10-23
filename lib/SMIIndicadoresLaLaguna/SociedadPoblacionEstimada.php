@@ -25,7 +25,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Población';
         $this->categorias  = array('Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaswfrpfzog">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszbmsqtwn">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -114,7 +114,7 @@ Estimaciones de CONAPO en base a INEGI. Consulta la [Base de Datos](http://www.c
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrishxgklsve" class="grafica"></div>
+<div id="Morrisclkrazbd" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -627,14 +627,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaswfrpfzog a:first').tab('show')
+  $('#Lenguetaszbmsqtwn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaswfrpfzog a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszbmsqtwn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrishxgklsve === 'undefined') {
-    varMorrishxgklsve = Morris.Line({
-      element: 'Morrishxgklsve',
+  if (typeof varMorrisclkrazbd === 'undefined') {
+    varMorrisclkrazbd = Morris.Line({
+      element: 'Morrisclkrazbd',
       data: [{ fecha: '2011-06-30', dato: 1251771 },{ fecha: '2012-06-30', dato: 1267630 },{ fecha: '2013-06-30', dato: 1283072 },{ fecha: '2014-06-30', dato: 1298270 },{ fecha: '2015-06-30', dato: 1313161 },{ fecha: '2016-06-30', dato: 1327769 },{ fecha: '2017-06-30', dato: 1342139 },{ fecha: '2018-06-30', dato: 1356216 },{ fecha: '2019-06-30', dato: 1369939 },{ fecha: '2020-06-30', dato: 1383303 }],
       xkey: 'fecha',
       ykeys: ['dato'],

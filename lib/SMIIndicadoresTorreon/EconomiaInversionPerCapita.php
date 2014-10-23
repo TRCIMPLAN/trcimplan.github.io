@@ -25,7 +25,7 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
         $this->claves      = 'Torreón, Macroeconomía, Finanzas Públicas';
         $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaseygusllj">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaswnmwtpbw">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -99,7 +99,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrishjzsmzxj" class="grafica"></div>
+<div id="Morrisaxyocbym" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -290,14 +290,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaseygusllj a:first').tab('show')
+  $('#Lenguetaswnmwtpbw a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaseygusllj a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaswnmwtpbw a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrishjzsmzxj === 'undefined') {
-    varMorrishjzsmzxj = Morris.Line({
-      element: 'Morrishjzsmzxj',
+  if (typeof varMorrisaxyocbym === 'undefined') {
+    varMorrisaxyocbym = Morris.Line({
+      element: 'Morrisaxyocbym',
       data: [{ fecha: '2007-12-31', dato: 604.26 },{ fecha: '2008-12-31', dato: 767.48 },{ fecha: '2009-12-31', dato: 497.90 },{ fecha: '2010-12-31', dato: 236.57 },{ fecha: '2011-12-31', dato: 529.86 },{ fecha: '2012-12-31', dato: 348.09 }],
       xkey: 'fecha',
       ykeys: ['dato'],

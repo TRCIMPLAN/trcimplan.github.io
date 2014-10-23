@@ -25,7 +25,7 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaschzmijmd">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbsjzsefb">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -68,7 +68,7 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisewrpcneh" class="grafica"></div>
+<div id="Morrisagxcvevj" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -189,14 +189,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaschzmijmd a:first').tab('show')
+  $('#Lenguetasbsjzsefb a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaschzmijmd a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbsjzsefb a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisewrpcneh === 'undefined') {
-    varMorrisewrpcneh = Morris.Line({
-      element: 'Morrisewrpcneh',
+  if (typeof varMorrisagxcvevj === 'undefined') {
+    varMorrisagxcvevj = Morris.Line({
+      element: 'Morrisagxcvevj',
       data: [{ fecha: '2013-12-31', dato: 2.2600 },{ fecha: '2014-07-31', dato: 1.7400 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -25,7 +25,7 @@ class EconomiaPermisoDeConstruccion extends \Base\Publicacion {
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasxnzsxmkt">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetastzqkpdzl">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -71,21 +71,21 @@ Días
     </div>
     <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morristsnqjshq" class="grafica"></div>
+<div id="Morrisfumpsiac" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasxnzsxmkt a:first').tab('show')
+  $('#Lenguetastzqkpdzl a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasxnzsxmkt a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetastzqkpdzl a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristsnqjshq === 'undefined') {
-    varMorristsnqjshq = Morris.Line({
-      element: 'Morristsnqjshq',
+  if (typeof varMorrisfumpsiac === 'undefined') {
+    varMorrisfumpsiac = Morris.Line({
+      element: 'Morrisfumpsiac',
       data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 }],
       xkey: 'fecha',
       ykeys: ['dato'],

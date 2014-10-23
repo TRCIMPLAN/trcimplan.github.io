@@ -25,7 +25,7 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
         $this->claves      = 'Torreón, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasnrkkdhua">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasxcfmpcjc">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -106,7 +106,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasnrkkdhua a:first').tab('show')
+  $('#Lenguetasxcfmpcjc a:first').tab('show')
 });
 FINAL;
     } // constructor

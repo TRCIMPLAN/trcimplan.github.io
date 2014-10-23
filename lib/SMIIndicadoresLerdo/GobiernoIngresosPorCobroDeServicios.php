@@ -25,7 +25,7 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasojtalowr">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasaecpyjbu">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -88,7 +88,7 @@ Pesos
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morriswtwejkxf" class="grafica"></div>
+<div id="Morrisvfoqwyar" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -286,14 +286,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasojtalowr a:first').tab('show')
+  $('#Lenguetasaecpyjbu a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasojtalowr a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasaecpyjbu a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriswtwejkxf === 'undefined') {
-    varMorriswtwejkxf = Morris.Line({
-      element: 'Morriswtwejkxf',
+  if (typeof varMorrisvfoqwyar === 'undefined') {
+    varMorrisvfoqwyar = Morris.Line({
+      element: 'Morrisvfoqwyar',
       data: [{ fecha: '2007-12-31', dato: 41128483.00 },{ fecha: '2008-12-31', dato: 45464319.00 },{ fecha: '2009-12-31', dato: 80006719.00 },{ fecha: '2010-12-31', dato: 50216153.00 },{ fecha: '2011-12-31', dato: 52824557.00 },{ fecha: '2012-12-31', dato: 54082713.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

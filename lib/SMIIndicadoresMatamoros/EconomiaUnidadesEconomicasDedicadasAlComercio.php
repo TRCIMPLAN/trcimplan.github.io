@@ -25,7 +25,7 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Empresas, Mercados';
         $this->categorias  = array('Empresas', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasntwrommd">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaspvkdiyfn">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -78,7 +78,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrispgdtlqyu" class="grafica"></div>
+<div id="Morrislndxrsae" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -241,14 +241,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasntwrommd a:first').tab('show')
+  $('#Lenguetaspvkdiyfn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasntwrommd a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaspvkdiyfn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrispgdtlqyu === 'undefined') {
-    varMorrispgdtlqyu = Morris.Line({
-      element: 'Morrispgdtlqyu',
+  if (typeof varMorrislndxrsae === 'undefined') {
+    varMorrislndxrsae = Morris.Line({
+      element: 'Morrislndxrsae',
       data: [{ fecha: '1998-12-31', dato: 64.3500 },{ fecha: '2003-12-31', dato: 64.4300 },{ fecha: '2008-12-31', dato: 57.4200 },{ fecha: '2013-10-31', dato: 51.2700 }],
       xkey: 'fecha',
       ykeys: ['dato'],

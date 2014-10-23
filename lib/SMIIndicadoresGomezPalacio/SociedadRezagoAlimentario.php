@@ -25,7 +25,7 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Grupos Vulnerables, Bienestar';
         $this->categorias  = array('Grupos Vulnerables', 'Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasjfrbwjqs">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvqdibvpt">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -99,7 +99,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasjfrbwjqs a:first').tab('show')
+  $('#Lenguetasvqdibvpt a:first').tab('show')
 });
 FINAL;
     } // constructor

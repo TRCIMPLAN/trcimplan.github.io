@@ -152,7 +152,7 @@
       <span><h1><i class="fa fa-table encabezado-icono"></i> Cartera Hipotecaria en Gómez Palacio</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaskslkfsyd">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasldiqczrc">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -213,7 +213,7 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrishkclgrqb" class="grafica"></div>
+<div id="Morrisdtemuxim" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -403,14 +403,14 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaskslkfsyd a:first').tab('show')
+  $('#Lenguetasldiqczrc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaskslkfsyd a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasldiqczrc a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrishkclgrqb === 'undefined') {
-    varMorrishkclgrqb = Morris.Line({
-      element: 'Morrishkclgrqb',
+  if (typeof varMorrisdtemuxim === 'undefined') {
+    varMorrisdtemuxim = Morris.Line({
+      element: 'Morrisdtemuxim',
       data: [{ fecha: '2010-12-31', dato: 428193681.00 },{ fecha: '2011-12-31', dato: 487730197.00 },{ fecha: '2012-12-31', dato: 549445038.00 },{ fecha: '2013-12-31', dato: 588858276.00 },{ fecha: '2014-03-31', dato: 614765352.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

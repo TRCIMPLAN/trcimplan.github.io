@@ -25,7 +25,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Transparencia';
         $this->categorias  = array('Transparencia');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasuogftyvk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasrqrzijre">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -70,7 +70,7 @@ Porcentaje
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisgnsmlqds" class="grafica"></div>
+<div id="Morrisygwthidj" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -149,14 +149,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasuogftyvk a:first').tab('show')
+  $('#Lenguetasrqrzijre a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasuogftyvk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasrqrzijre a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisgnsmlqds === 'undefined') {
-    varMorrisgnsmlqds = Morris.Line({
-      element: 'Morrisgnsmlqds',
+  if (typeof varMorrisygwthidj === 'undefined') {
+    varMorrisygwthidj = Morris.Line({
+      element: 'Morrisygwthidj',
       data: [{ fecha: '2013-12-31', dato: 79.0000 },{ fecha: '2014-04-30', dato: 89.0000 },{ fecha: '2014-08-31', dato: 86.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

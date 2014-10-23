@@ -25,7 +25,7 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Grupos Vulnerables, Género';
         $this->categorias  = array('Grupos Vulnerables', 'Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasppgsmnwl">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasetbyroev">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -112,7 +112,7 @@ Cantidad
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisygjwtlos" class="grafica"></div>
+<div id="Morrisyncryxzw" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -625,14 +625,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasppgsmnwl a:first').tab('show')
+  $('#Lenguetasetbyroev a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasppgsmnwl a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasetbyroev a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisygjwtlos === 'undefined') {
-    varMorrisygjwtlos = Morris.Line({
-      element: 'Morrisygjwtlos',
+  if (typeof varMorrisyncryxzw === 'undefined') {
+    varMorrisyncryxzw = Morris.Line({
+      element: 'Morrisyncryxzw',
       data: [{ fecha: '2011-06-30', dato: 9694 },{ fecha: '2012-06-30', dato: 10058 },{ fecha: '2013-06-30', dato: 10447 },{ fecha: '2014-06-30', dato: 10863 },{ fecha: '2015-06-30', dato: 11308 },{ fecha: '2016-06-30', dato: 11784 },{ fecha: '2017-06-30', dato: 12292 },{ fecha: '2018-06-30', dato: 12829 },{ fecha: '2019-06-30', dato: 13397 },{ fecha: '2020-06-30', dato: 13994 }],
       xkey: 'fecha',
       ykeys: ['dato'],

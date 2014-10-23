@@ -152,7 +152,7 @@
       <span><h1><i class="fa fa-table encabezado-icono"></i> Ingresos Totales en La Laguna</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaswlpceysu">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasuazkijnp">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -232,7 +232,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrispjgembot" class="grafica"></div>
+<div id="Morrisgzfcjstl" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -478,14 +478,14 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaswlpceysu a:first').tab('show')
+  $('#Lenguetasuazkijnp a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaswlpceysu a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasuazkijnp a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrispjgembot === 'undefined') {
-    varMorrispjgembot = Morris.Line({
-      element: 'Morrispjgembot',
+  if (typeof varMorrisgzfcjstl === 'undefined') {
+    varMorrisgzfcjstl = Morris.Line({
+      element: 'Morrisgzfcjstl',
       data: [{ fecha: '2007-12-31', dato: 2389268767.00 },{ fecha: '2008-12-31', dato: 3054640385.00 },{ fecha: '2009-12-31', dato: 3147856470.00 },{ fecha: '2010-12-31', dato: 3037346224.00 },{ fecha: '2011-12-31', dato: 3391664429.00 },{ fecha: '2012-12-31', dato: 3504184566.00 },{ fecha: '2013-12-31', dato: 3661978820.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

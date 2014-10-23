@@ -25,7 +25,7 @@ class SociedadMedicos extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmrdoqyit">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasyznmqxbe">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -132,7 +132,7 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisicnuhjoc" class="grafica"></div>
+<div id="Morrisbpqydiue" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -513,9 +513,163 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
 </tr>
 <tr>
 <td>Coahuila</td>
+<td>2001-12-31</td>
+<td class="derecha">3.3000</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2002-12-31</td>
+<td class="derecha">3.2000</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2003-12-31</td>
+<td class="derecha">3.2000</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2004-12-31</td>
+<td class="derecha">3.1000</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2005-12-31</td>
+<td class="derecha">3.0000</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2006-12-31</td>
+<td class="derecha">3.4000</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2007-12-31</td>
+<td class="derecha">3.9000</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2008-12-31</td>
+<td class="derecha">3.8000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2009-12-31</td>
+<td class="derecha">4.3000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2010-12-31</td>
+<td class="derecha">4.9000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2011-12-31</td>
+<td class="derecha">4.4000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2011-12-31</td>
+<td class="derecha">4.4000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
 <td>2012-12-31</td>
 <td class="derecha">4.5000</td>
 <td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2012-12-31</td>
+<td class="derecha">4.5000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2013-12-31</td>
+<td class="derecha">4.5000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2001-12-31</td>
+<td class="derecha">5.8000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2002-12-31</td>
+<td class="derecha">6.2000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2003-12-31</td>
+<td class="derecha">6.1000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2004-12-31</td>
+<td class="derecha">6.3000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2005-12-31</td>
+<td class="derecha">6.8000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2006-12-31</td>
+<td class="derecha">7.2000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2007-12-31</td>
+<td class="derecha">7.5000</td>
+<td>00) DESCONOCIDA</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2008-12-31</td>
+<td class="derecha">7.9000</td>
+<td>00) DESCONOCIDA</td>
 <td></td>
 </tr>
 <tr>
@@ -526,9 +680,23 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
 <td></td>
 </tr>
 <tr>
+<td>Durango</td>
+<td>2013-12-31</td>
+<td class="derecha">8.4000</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
 <td>Nacional</td>
 <td>2012-12-31</td>
 <td class="derecha">7.6000</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2013-12-31</td>
+<td class="derecha">7.8000</td>
 <td>SINAIS (SSA)</td>
 <td></td>
 </tr>
@@ -540,14 +708,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmrdoqyit a:first').tab('show')
+  $('#Lenguetasyznmqxbe a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasmrdoqyit a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasyznmqxbe a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisicnuhjoc === 'undefined') {
-    varMorrisicnuhjoc = Morris.Line({
-      element: 'Morrisicnuhjoc',
+  if (typeof varMorrisbpqydiue === 'undefined') {
+    varMorrisbpqydiue = Morris.Line({
+      element: 'Morrisbpqydiue',
       data: [{ fecha: '2001-12-31', dato: 3.3000 },{ fecha: '2002-12-31', dato: 3.4000 },{ fecha: '2003-12-31', dato: 3.3000 },{ fecha: '2004-12-31', dato: 3.3000 },{ fecha: '2005-12-31', dato: 3.0000 },{ fecha: '2006-12-31', dato: 3.9000 },{ fecha: '2007-12-31', dato: 3.7000 },{ fecha: '2008-12-31', dato: 4.0000 },{ fecha: '2009-12-31', dato: 4.0000 },{ fecha: '2010-12-31', dato: 4.1000 },{ fecha: '2011-12-31', dato: 4.2000 },{ fecha: '2012-12-31', dato: 4.3000 },{ fecha: '2013-12-31', dato: 4.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

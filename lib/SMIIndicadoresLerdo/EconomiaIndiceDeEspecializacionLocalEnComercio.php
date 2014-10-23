@@ -25,7 +25,7 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasofdhsvpv">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgaseixhl">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -78,7 +78,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisjamienpd" class="grafica"></div>
+<div id="Morrisivstxjpx" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -192,14 +192,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasofdhsvpv a:first').tab('show')
+  $('#Lenguetasgaseixhl a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasofdhsvpv a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasgaseixhl a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisjamienpd === 'undefined') {
-    varMorrisjamienpd = Morris.Line({
-      element: 'Morrisjamienpd',
+  if (typeof varMorrisivstxjpx === 'undefined') {
+    varMorrisivstxjpx = Morris.Line({
+      element: 'Morrisivstxjpx',
       data: [{ fecha: '1998-12-31', dato: 13.1700 },{ fecha: '2003-12-31', dato: 6.8700 },{ fecha: '2008-12-31', dato: 14.7200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

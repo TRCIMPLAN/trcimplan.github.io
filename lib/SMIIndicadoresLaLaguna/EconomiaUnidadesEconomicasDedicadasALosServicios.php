@@ -25,7 +25,7 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \Base\Publicacion
         $this->claves      = 'La Laguna, Empresas, Mercados';
         $this->categorias  = array('Empresas', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbdobsiag">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbmacjvxc">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -78,7 +78,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisxjgipuzk" class="grafica"></div>
+<div id="Morrisahuxujkq" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -241,14 +241,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbdobsiag a:first').tab('show')
+  $('#Lenguetasbmacjvxc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbdobsiag a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasbmacjvxc a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisxjgipuzk === 'undefined') {
-    varMorrisxjgipuzk = Morris.Line({
-      element: 'Morrisxjgipuzk',
+  if (typeof varMorrisahuxujkq === 'undefined') {
+    varMorrisahuxujkq = Morris.Line({
+      element: 'Morrisahuxujkq',
       data: [{ fecha: '1998-12-31', dato: 36.3900 },{ fecha: '2003-12-31', dato: 37.2100 },{ fecha: '2008-12-31', dato: 40.7100 },{ fecha: '2013-10-31', dato: 43.0600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

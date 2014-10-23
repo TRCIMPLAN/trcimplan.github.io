@@ -25,7 +25,7 @@ class SociedadPobrezaExtrema extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdphjoybb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasbquavpqh">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -127,7 +127,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdphjoybb a:first').tab('show')
+  $('#Lenguetasbquavpqh a:first').tab('show')
 });
 FINAL;
     } // constructor

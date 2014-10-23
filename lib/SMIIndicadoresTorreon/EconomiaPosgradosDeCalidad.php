@@ -25,7 +25,7 @@ class EconomiaPosgradosDeCalidad extends \Base\Publicacion {
         $this->claves      = 'Torreón, Educación, Innovación';
         $this->categorias  = array('Educación', 'Innovación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasjgrsqhvs">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdwgjyruu">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -99,7 +99,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasjgrsqhvs a:first').tab('show')
+  $('#Lenguetasdwgjyruu a:first').tab('show')
 });
 FINAL;
     } // constructor

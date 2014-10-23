@@ -152,7 +152,7 @@
       <span><h1><i class="fa fa-table encabezado-icono"></i> Ingresos Totales Per Cápita en Torreón</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaskxswzmor">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaszhozznrs">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -232,7 +232,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisbukqoxxw" class="grafica"></div>
+<div id="Morriscwgtckgc" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -450,14 +450,14 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaskxswzmor a:first').tab('show')
+  $('#Lenguetaszhozznrs a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaskxswzmor a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaszhozznrs a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisbukqoxxw === 'undefined') {
-    varMorrisbukqoxxw = Morris.Line({
-      element: 'Morrisbukqoxxw',
+  if (typeof varMorriscwgtckgc === 'undefined') {
+    varMorriscwgtckgc = Morris.Line({
+      element: 'Morriscwgtckgc',
       data: [{ fecha: '2007-12-31', dato: 2312.71 },{ fecha: '2008-12-31', dato: 2713.59 },{ fecha: '2009-12-31', dato: 2467.92 },{ fecha: '2010-12-31', dato: 2858.83 },{ fecha: '2011-12-31', dato: 2921.67 },{ fecha: '2012-12-31', dato: 2753.40 },{ fecha: '2013-12-31', dato: 2821.23 }],
       xkey: 'fecha',
       ykeys: ['dato'],

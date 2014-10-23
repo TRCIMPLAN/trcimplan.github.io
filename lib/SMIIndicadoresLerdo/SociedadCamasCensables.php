@@ -25,7 +25,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmnlgwsbk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasntjndslt">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -132,7 +132,7 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisrmtrvxle" class="grafica"></div>
+<div id="Morrisgkmmejir" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -792,14 +792,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmnlgwsbk a:first').tab('show')
+  $('#Lenguetasntjndslt a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasmnlgwsbk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasntjndslt a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrmtrvxle === 'undefined') {
-    varMorrisrmtrvxle = Morris.Line({
-      element: 'Morrisrmtrvxle',
+  if (typeof varMorrisgkmmejir === 'undefined') {
+    varMorrisgkmmejir = Morris.Line({
+      element: 'Morrisgkmmejir',
       data: [{ fecha: '2001-12-31', dato: 34 },{ fecha: '2002-12-31', dato: 34 },{ fecha: '2003-12-31', dato: 34 },{ fecha: '2004-12-31', dato: 34 },{ fecha: '2005-12-31', dato: 34 },{ fecha: '2006-12-31', dato: 34 },{ fecha: '2007-12-31', dato: 34 },{ fecha: '2008-12-31', dato: 34 },{ fecha: '2009-12-31', dato: 34 },{ fecha: '2010-12-31', dato: 38 },{ fecha: '2011-12-31', dato: 38 },{ fecha: '2012-12-31', dato: 38 },{ fecha: '2013-12-31', dato: 38 }],
       xkey: 'fecha',
       ykeys: ['dato'],

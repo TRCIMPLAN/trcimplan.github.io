@@ -25,7 +25,7 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
         $this->claves      = 'Torreón, Empleo';
         $this->categorias  = array('Empleo');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbwqhypek">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasindhcdoq">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -78,7 +78,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morristuxiouzi" class="grafica"></div>
+<div id="Morrisrmfnzzqf" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -185,14 +185,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbwqhypek a:first').tab('show')
+  $('#Lenguetasindhcdoq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbwqhypek a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasindhcdoq a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristuxiouzi === 'undefined') {
-    varMorristuxiouzi = Morris.Line({
-      element: 'Morristuxiouzi',
+  if (typeof varMorrisrmfnzzqf === 'undefined') {
+    varMorrisrmfnzzqf = Morris.Line({
+      element: 'Morrisrmfnzzqf',
       data: [{ fecha: '1990-03-12', dato: 2.6600 },{ fecha: '2000-02-14', dato: 1.0400 },{ fecha: '2010-06-25', dato: 7.4600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

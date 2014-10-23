@@ -25,7 +25,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Recursos Naturales, Movilidad, Vialidad';
         $this->categorias  = array('Recursos Naturales', 'Movilidad', 'Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdhbtsyqu">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashtbjiknc">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -127,7 +127,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdhbtsyqu a:first').tab('show')
+  $('#Lenguetashtbjiknc a:first').tab('show')
 });
 FINAL;
     } // constructor

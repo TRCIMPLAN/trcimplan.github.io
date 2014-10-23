@@ -152,7 +152,7 @@
       <span><h1><i class="fa fa-table encabezado-icono"></i> Cumplimiento en información pública mínina en Torreón</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasoluxmbts">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasamxytogl">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -191,7 +191,7 @@ Porcentaje
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrissogtptmg" class="grafica"></div>
+<div id="Morrisraonvcaq" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -304,14 +304,14 @@ Porcentaje
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasoluxmbts a:first').tab('show')
+  $('#Lenguetasamxytogl a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasoluxmbts a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasamxytogl a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrissogtptmg === 'undefined') {
-    varMorrissogtptmg = Morris.Line({
-      element: 'Morrissogtptmg',
+  if (typeof varMorrisraonvcaq === 'undefined') {
+    varMorrisraonvcaq = Morris.Line({
+      element: 'Morrisraonvcaq',
       data: [{ fecha: '2014-03-03', dato: 100.0000 },{ fecha: '2014-06-30', dato: 98.7200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

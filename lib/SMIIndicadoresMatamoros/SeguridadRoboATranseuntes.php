@@ -25,7 +25,7 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
         $this->claves      = 'Matamoros';
         $this->categorias  = array();
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetassohaxfsj">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasuakykqfd">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -82,7 +82,7 @@ Cantidad
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morriswlrrblrg" class="grafica"></div>
+<div id="Morrismvflxepe" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -280,14 +280,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetassohaxfsj a:first').tab('show')
+  $('#Lenguetasuakykqfd a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetassohaxfsj a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasuakykqfd a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriswlrrblrg === 'undefined') {
-    varMorriswlrrblrg = Morris.Line({
-      element: 'Morriswlrrblrg',
+  if (typeof varMorrismvflxepe === 'undefined') {
+    varMorrismvflxepe = Morris.Line({
+      element: 'Morrismvflxepe',
       data: [{ fecha: '2014-01-31', dato: 7 },{ fecha: '2014-02-28', dato: 5 },{ fecha: '2014-03-31', dato: 10 },{ fecha: '2014-05-31', dato: 7 },{ fecha: '2014-06-30', dato: 4 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -25,7 +25,7 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Vialidad';
         $this->categorias  = array('Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaseyjcslpa">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaskqkzijdf">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -154,7 +154,7 @@ Cantidad
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morristsgjwpzl" class="grafica"></div>
+<div id="Morriskgkwpyvw" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -646,14 +646,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaseyjcslpa a:first').tab('show')
+  $('#Lenguetaskqkzijdf a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaseyjcslpa a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaskqkzijdf a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristsgjwpzl === 'undefined') {
-    varMorristsgjwpzl = Morris.Line({
-      element: 'Morristsgjwpzl',
+  if (typeof varMorriskgkwpyvw === 'undefined') {
+    varMorriskgkwpyvw = Morris.Line({
+      element: 'Morriskgkwpyvw',
       data: [{ fecha: '1997-12-31', dato: 691 },{ fecha: '1998-12-31', dato: 1600 },{ fecha: '1999-12-31', dato: 2422 },{ fecha: '2000-12-31', dato: 2797 },{ fecha: '2001-12-31', dato: 2876 },{ fecha: '2002-12-31', dato: 2783 },{ fecha: '2003-12-31', dato: 2225 },{ fecha: '2004-12-31', dato: 2396 },{ fecha: '2005-12-31', dato: 2524 },{ fecha: '2006-12-31', dato: 2323 },{ fecha: '2007-12-31', dato: 2211 },{ fecha: '2008-12-31', dato: 2049 },{ fecha: '2009-12-31', dato: 1714 },{ fecha: '2010-12-31', dato: 1593 },{ fecha: '2011-12-31', dato: 1596 },{ fecha: '2012-12-31', dato: 1498 },{ fecha: '2013-12-31', dato: 1128 }],
       xkey: 'fecha',
       ykeys: ['dato'],

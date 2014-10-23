@@ -25,7 +25,7 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
         $this->claves      = 'Torreón, Seguridad';
         $this->categorias  = array('Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvguxhncp">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasphdohgof">
     <li class="active"><a href="#datos" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content">
@@ -61,7 +61,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvguxhncp a:first').tab('show')
+  $('#Lenguetasphdohgof a:first').tab('show')
 });
 FINAL;
     } // constructor

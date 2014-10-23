@@ -25,7 +25,7 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
         $this->claves      = 'Torreón, Población';
         $this->categorias  = array('Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaslgyjcehc">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasswtcgnrc">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -83,21 +83,21 @@ Estimación propia en base al dato de Ocupación por Vivienda
     </div>
     <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisufnrmvcm" class="grafica"></div>
+<div id="Morrisbimqdvcb" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaslgyjcehc a:first').tab('show')
+  $('#Lenguetasswtcgnrc a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaslgyjcehc a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasswtcgnrc a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisufnrmvcm === 'undefined') {
-    varMorrisufnrmvcm = Morris.Line({
-      element: 'Morrisufnrmvcm',
+  if (typeof varMorrisbimqdvcb === 'undefined') {
+    varMorrisbimqdvcb = Morris.Line({
+      element: 'Morrisbimqdvcb',
       data: [{ fecha: '2008-12-31', dato: 1.8100 },{ fecha: '2009-12-31', dato: 1.7700 },{ fecha: '2010-12-31', dato: 1.7200 },{ fecha: '2011-12-31', dato: 1.6900 },{ fecha: '2012-12-31', dato: 1.6600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
