@@ -25,7 +25,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Macroeconomía, Finanzas Públicas';
         $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasudlshdlb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmgautxyx">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -86,7 +86,7 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisowoniyaa" class="grafica"></div>
+<div id="Morrismtekhqne" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +200,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasudlshdlb a:first').tab('show')
+  $('#Lenguetasmgautxyx a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasudlshdlb a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmgautxyx a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisowoniyaa === 'undefined') {
-    varMorrisowoniyaa = Morris.Line({
-      element: 'Morrisowoniyaa',
+  if (typeof varMorrismtekhqne === 'undefined') {
+    varMorrismtekhqne = Morris.Line({
+      element: 'Morrismtekhqne',
       data: [{ fecha: '1998-12-31', dato: 49506.05 },{ fecha: '2003-12-31', dato: 88356.17 },{ fecha: '2008-12-31', dato: 149559.46 }],
       xkey: 'fecha',
       ykeys: ['dato'],

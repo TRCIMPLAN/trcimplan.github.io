@@ -25,7 +25,7 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
         $this->claves      = 'Torreón, Empleo';
         $this->categorias  = array('Empleo');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbcrcqvum">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmiomaqav">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -97,21 +97,21 @@ Datos obtenidos de [IMSS](http://201.144.108.20/imssdigital/conoce/estadisticas/
     </div>
     <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisfzsmaopr" class="grafica"></div>
+<div id="Morrisgfbsqtnd" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbcrcqvum a:first').tab('show')
+  $('#Lenguetasmiomaqav a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasbcrcqvum a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmiomaqav a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisfzsmaopr === 'undefined') {
-    varMorrisfzsmaopr = Morris.Line({
-      element: 'Morrisfzsmaopr',
+  if (typeof varMorrisgfbsqtnd === 'undefined') {
+    varMorrisgfbsqtnd = Morris.Line({
+      element: 'Morrisgfbsqtnd',
       data: [{ fecha: '2007-12-31', dato: 171936 },{ fecha: '2008-12-31', dato: 164258 },{ fecha: '2009-12-31', dato: 157898 },{ fecha: '2010-12-31', dato: 168723 },{ fecha: '2011-12-31', dato: 176045 },{ fecha: '2012-12-31', dato: 184407 },{ fecha: '2013-12-31', dato: 187050 }],
       xkey: 'fecha',
       ykeys: ['dato'],

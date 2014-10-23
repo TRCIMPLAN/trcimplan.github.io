@@ -25,7 +25,7 @@ class SociedadAlumnosConPerfilGramaticoespanol extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Educación';
         $this->categorias  = array('Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasivdfnqdg">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashjydujmz">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -107,7 +107,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasivdfnqdg a:first').tab('show')
+  $('#Lenguetashjydujmz a:first').tab('show')
 });
 FINAL;
     } // constructor

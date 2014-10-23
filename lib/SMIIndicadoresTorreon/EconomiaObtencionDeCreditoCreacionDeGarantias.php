@@ -25,7 +25,7 @@ class EconomiaObtencionDeCreditoCreacionDeGarantias extends \Base\Publicacion {
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasvbvbkyvk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmzhsdbeo">
     <li class="active"><a href="#datos" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content">
@@ -62,7 +62,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasvbvbkyvk a:first').tab('show')
+  $('#Lenguetasmzhsdbeo a:first').tab('show')
 });
 FINAL;
     } // constructor

@@ -27,7 +27,7 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
         $this->claves      = 'Gómez Palacio, Educación, Grupos Vulnerables';
         $this->categorias  = array('Educación', 'Grupos Vulnerables');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaslvwmjsbl">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasuhyfdmym">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -103,7 +103,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaslvwmjsbl a:first').tab('show')
+  $('#Lenguetasuhyfdmym a:first').tab('show')
 });
 FINAL;
     } // constructor

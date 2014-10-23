@@ -25,7 +25,7 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
         $this->claves      = 'Torreón, Movilidad';
         $this->categorias  = array('Movilidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaszfzfkvwy">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashyxuihvi">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -120,7 +120,7 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrislsjdsynr" class="grafica"></div>
+<div id="Morrissowvgogg" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -234,14 +234,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaszfzfkvwy a:first').tab('show')
+  $('#Lenguetashyxuihvi a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaszfzfkvwy a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetashyxuihvi a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrislsjdsynr === 'undefined') {
-    varMorrislsjdsynr = Morris.Line({
-      element: 'Morrislsjdsynr',
+  if (typeof varMorrissowvgogg === 'undefined') {
+    varMorrissowvgogg = Morris.Line({
+      element: 'Morrissowvgogg',
       data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 }],
       xkey: 'fecha',
       ykeys: ['dato'],

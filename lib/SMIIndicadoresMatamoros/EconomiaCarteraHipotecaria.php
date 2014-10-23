@@ -25,7 +25,7 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasimwyjwsk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvdziyrwv">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -86,7 +86,7 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisgukprbac" class="grafica"></div>
+<div id="Morrismmecsmwa" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -249,14 +249,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasimwyjwsk a:first').tab('show')
+  $('#Lenguetasvdziyrwv a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasimwyjwsk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvdziyrwv a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisgukprbac === 'undefined') {
-    varMorrisgukprbac = Morris.Line({
-      element: 'Morrisgukprbac',
+  if (typeof varMorrismmecsmwa === 'undefined') {
+    varMorrismmecsmwa = Morris.Line({
+      element: 'Morrismmecsmwa',
       data: [{ fecha: '2010-12-31', dato: 66279954.00 },{ fecha: '2011-12-31', dato: 59324405.00 },{ fecha: '2012-12-31', dato: 57375581.00 },{ fecha: '2013-12-31', dato: 56877995.00 },{ fecha: '2014-03-31', dato: 57702472.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

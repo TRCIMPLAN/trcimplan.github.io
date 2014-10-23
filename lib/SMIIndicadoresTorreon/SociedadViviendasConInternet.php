@@ -25,7 +25,7 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
         $this->claves      = 'Torreón, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmeretoik">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasndraxavv">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -108,7 +108,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmeretoik a:first').tab('show')
+  $('#Lenguetasndraxavv a:first').tab('show')
 });
 FINAL;
     } // constructor

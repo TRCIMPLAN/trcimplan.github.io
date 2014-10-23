@@ -25,7 +25,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Macroeconomía, Finanzas Públicas';
         $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetassvpqjmzy">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmmgmumpn">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -86,7 +86,7 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisrjhunzdm" class="grafica"></div>
+<div id="Morrisivoworff" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -200,14 +200,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetassvpqjmzy a:first').tab('show')
+  $('#Lenguetasmmgmumpn a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetassvpqjmzy a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmmgmumpn a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrjhunzdm === 'undefined') {
-    varMorrisrjhunzdm = Morris.Line({
-      element: 'Morrisrjhunzdm',
+  if (typeof varMorrisivoworff === 'undefined') {
+    varMorrisivoworff = Morris.Line({
+      element: 'Morrisivoworff',
       data: [{ fecha: '1998-12-31', dato: 64469.91 },{ fecha: '2003-12-31', dato: 117603.88 },{ fecha: '2008-12-31', dato: 157032.38 }],
       xkey: 'fecha',
       ykeys: ['dato'],

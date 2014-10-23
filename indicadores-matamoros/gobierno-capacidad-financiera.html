@@ -152,7 +152,7 @@
       <span><h1><i class="fa fa-table encabezado-icono"></i> Capacidad Financiera en Matamoros</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmhlvgrjs">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaseiduxntg">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -233,7 +233,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisempvepaj" class="grafica"></div>
+<div id="Morrisyulpcmri" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -486,14 +486,14 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmhlvgrjs a:first').tab('show')
+  $('#Lenguetaseiduxntg a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasmhlvgrjs a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaseiduxntg a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisempvepaj === 'undefined') {
-    varMorrisempvepaj = Morris.Line({
-      element: 'Morrisempvepaj',
+  if (typeof varMorrisyulpcmri === 'undefined') {
+    varMorrisyulpcmri = Morris.Line({
+      element: 'Morrisyulpcmri',
       data: [{ fecha: '2007-12-31', dato: 21.6800 },{ fecha: '2008-12-31', dato: 20.2700 },{ fecha: '2009-12-31', dato: 23.2500 },{ fecha: '2010-12-31', dato: 14.0000 },{ fecha: '2011-12-31', dato: 14.1100 },{ fecha: '2012-12-31', dato: 29.4500 },{ fecha: '2013-12-31', dato: 21.8200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

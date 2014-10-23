@@ -152,7 +152,7 @@
       <span><h1><i class="fa fa-table encabezado-icono"></i> Ingresos Totales Per Cápita en Lerdo</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaswktutuop">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetascrjhymsy">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -226,7 +226,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisadfwcfns" class="grafica"></div>
+<div id="Morriskofosfwg" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -451,14 +451,14 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaswktutuop a:first').tab('show')
+  $('#Lenguetascrjhymsy a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaswktutuop a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetascrjhymsy a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisadfwcfns === 'undefined') {
-    varMorrisadfwcfns = Morris.Line({
-      element: 'Morrisadfwcfns',
+  if (typeof varMorriskofosfwg === 'undefined') {
+    varMorriskofosfwg = Morris.Line({
+      element: 'Morriskofosfwg',
       data: [{ fecha: '2007-12-31', dato: 1803.84 },{ fecha: '2008-12-31', dato: 1921.94 },{ fecha: '2009-12-31', dato: 2213.26 },{ fecha: '2010-12-31', dato: 1980.37 },{ fecha: '2011-12-31', dato: 2255.84 },{ fecha: '2012-12-31', dato: 2460.58 }],
       xkey: 'fecha',
       ykeys: ['dato'],

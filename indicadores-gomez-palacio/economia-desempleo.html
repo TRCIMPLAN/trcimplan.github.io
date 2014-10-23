@@ -152,7 +152,7 @@
       <span><h1><i class="fa fa-table encabezado-icono"></i> Desempleo en Gómez Palacio</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdjmdgncx">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvidtyfkr">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -206,7 +206,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morristbahlbnw" class="grafica"></div>
+<div id="Morrisbocbrnid" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -340,14 +340,14 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdjmdgncx a:first').tab('show')
+  $('#Lenguetasvidtyfkr a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasdjmdgncx a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvidtyfkr a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristbahlbnw === 'undefined') {
-    varMorristbahlbnw = Morris.Line({
-      element: 'Morristbahlbnw',
+  if (typeof varMorrisbocbrnid === 'undefined') {
+    varMorrisbocbrnid = Morris.Line({
+      element: 'Morrisbocbrnid',
       data: [{ fecha: '1990-03-12', dato: 2050 },{ fecha: '2000-02-14', dato: 981 },{ fecha: '2010-06-25', dato: 9705 }],
       xkey: 'fecha',
       ykeys: ['dato'],

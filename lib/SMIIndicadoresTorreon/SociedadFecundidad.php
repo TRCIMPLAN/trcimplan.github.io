@@ -25,7 +25,7 @@ class SociedadFecundidad extends \Base\Publicacion {
         $this->claves      = 'Torreón, Género, Población';
         $this->categorias  = array('Género', 'Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetastteyoxok">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasvzxsnvrg">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -81,21 +81,21 @@ Cantidad
     </div>
     <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisaqgtfnzn" class="grafica"></div>
+<div id="Morrispvlovxhp" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetastteyoxok a:first').tab('show')
+  $('#Lenguetasvzxsnvrg a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetastteyoxok a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasvzxsnvrg a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisaqgtfnzn === 'undefined') {
-    varMorrisaqgtfnzn = Morris.Line({
-      element: 'Morrisaqgtfnzn',
+  if (typeof varMorrispvlovxhp === 'undefined') {
+    varMorrispvlovxhp = Morris.Line({
+      element: 'Morrispvlovxhp',
       data: [{ fecha: '2008-12-31', dato: 2.2000 },{ fecha: '2009-12-31', dato: 2.1700 },{ fecha: '2010-12-31', dato: 2.1400 },{ fecha: '2011-12-31', dato: 2.1400 },{ fecha: '2012-12-31', dato: 2.1300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

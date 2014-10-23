@@ -25,7 +25,7 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
         $this->claves      = 'Torreón, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrzountjh">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetashidlkgeq">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -77,21 +77,21 @@ Total facturado dividido entre la población.
     </div>
     <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisrdudfrpx" class="grafica"></div>
+<div id="Morrisaxtwnsjs" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrzountjh a:first').tab('show')
+  $('#Lenguetashidlkgeq a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasrzountjh a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetashidlkgeq a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrdudfrpx === 'undefined') {
-    varMorrisrdudfrpx = Morris.Line({
-      element: 'Morrisrdudfrpx',
+  if (typeof varMorrisaxtwnsjs === 'undefined') {
+    varMorrisaxtwnsjs = Morris.Line({
+      element: 'Morrisaxtwnsjs',
       data: [{ fecha: '2010-12-31', dato: 47.7700 },{ fecha: '2011-12-31', dato: 46.7500 },{ fecha: '2012-12-31', dato: 44.5700 },{ fecha: '2013-12-31', dato: 41.9900 }],
       xkey: 'fecha',
       ykeys: ['dato'],

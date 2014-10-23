@@ -25,7 +25,7 @@ class SociedadDiscapacidad extends \Base\Publicacion {
         $this->claves      = 'Torreón, Grupos Vulnerables';
         $this->categorias  = array('Grupos Vulnerables');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasgawufutp">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasfranxnxy">
     <li class="active"><a href="#datos" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content">
@@ -61,7 +61,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasgawufutp a:first').tab('show')
+  $('#Lenguetasfranxnxy a:first').tab('show')
 });
 FINAL;
     } // constructor

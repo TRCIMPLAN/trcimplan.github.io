@@ -152,7 +152,7 @@
       <span><h1><i class="fa fa-table encabezado-icono"></i> Madres Adolescentes en Torreón</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasylmnjbxk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaslebzztgo">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -216,7 +216,7 @@ Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema 
     </div>
     <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisrddwrdkh" class="grafica"></div>
+<div id="Morrisordkpkzp" class="grafica"></div>
     </div>
   </div>
 </article>
@@ -250,14 +250,14 @@ Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema 
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasylmnjbxk a:first').tab('show')
+  $('#Lenguetaslebzztgo a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasylmnjbxk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetaslebzztgo a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrddwrdkh === 'undefined') {
-    varMorrisrddwrdkh = Morris.Line({
-      element: 'Morrisrddwrdkh',
+  if (typeof varMorrisordkpkzp === 'undefined') {
+    varMorrisordkpkzp = Morris.Line({
+      element: 'Morrisordkpkzp',
       data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
       xkey: 'fecha',
       ykeys: ['dato'],
