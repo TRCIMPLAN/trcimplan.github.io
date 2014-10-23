@@ -25,7 +25,7 @@ class SociedadAlumnosConPerfilCientificomatematico extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Educación';
         $this->categorias  = array('Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasltxdfcyc">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetastjrmekvy">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -107,7 +107,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasltxdfcyc a:first').tab('show')
+  $('#Lenguetastjrmekvy a:first').tab('show')
 });
 FINAL;
     } // constructor

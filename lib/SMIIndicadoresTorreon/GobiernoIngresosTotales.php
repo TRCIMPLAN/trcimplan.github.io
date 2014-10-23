@@ -25,7 +25,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         $this->claves      = 'Torreón, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetassgtvebzj">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasdohecjme">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -105,7 +105,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisomybpmoe" class="grafica"></div>
+<div id="Morriskyxchaej" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -324,14 +324,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetassgtvebzj a:first').tab('show')
+  $('#Lenguetasdohecjme a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetassgtvebzj a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasdohecjme a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisomybpmoe === 'undefined') {
-    varMorrisomybpmoe = Morris.Line({
-      element: 'Morrisomybpmoe',
+  if (typeof varMorriskyxchaej === 'undefined') {
+    varMorriskyxchaej = Morris.Line({
+      element: 'Morriskyxchaej',
       data: [{ fecha: '2007-12-31', dato: 1395070656.00 },{ fecha: '2008-12-31', dato: 1672978076.00 },{ fecha: '2009-12-31', dato: 1555061545.00 },{ fecha: '2010-12-31', dato: 1828589942.00 },{ fecha: '2011-12-31', dato: 1910299313.00 },{ fecha: '2012-12-31', dato: 1840277768.00 },{ fecha: '2013-12-31', dato: 1927501368.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

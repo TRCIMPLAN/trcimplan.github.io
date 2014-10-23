@@ -25,7 +25,7 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Infraestructura';
         $this->categorias  = array('Infraestructura');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasqkmwkvjf">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgphqvtpf">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -99,7 +99,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasqkmwkvjf a:first').tab('show')
+  $('#Lenguetasgphqvtpf a:first').tab('show')
 });
 FINAL;
     } // constructor

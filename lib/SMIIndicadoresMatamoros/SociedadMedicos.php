@@ -25,7 +25,7 @@ class SociedadMedicos extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetastrxffkuv">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasmhvrlavv">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -132,7 +132,7 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
     </div>
     <div class="tab-pane" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrischwjckzh" class="grafica"></div>
+<div id="Morriszbsdpnsi" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
       <h4>En otras regiones</h4>
@@ -813,14 +813,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetastrxffkuv a:first').tab('show')
+  $('#Lenguetasmhvrlavv a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetastrxffkuv a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasmhvrlavv a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrischwjckzh === 'undefined') {
-    varMorrischwjckzh = Morris.Line({
-      element: 'Morrischwjckzh',
+  if (typeof varMorriszbsdpnsi === 'undefined') {
+    varMorriszbsdpnsi = Morris.Line({
+      element: 'Morriszbsdpnsi',
       data: [{ fecha: '2001-12-31', dato: 3.3000 },{ fecha: '2002-12-31', dato: 3.4000 },{ fecha: '2003-12-31', dato: 3.3000 },{ fecha: '2004-12-31', dato: 3.3000 },{ fecha: '2005-12-31', dato: 3.0000 },{ fecha: '2006-12-31', dato: 3.9000 },{ fecha: '2007-12-31', dato: 3.7000 },{ fecha: '2008-12-31', dato: 4.0000 },{ fecha: '2009-12-31', dato: 4.0000 },{ fecha: '2010-12-31', dato: 4.1000 },{ fecha: '2011-12-31', dato: 4.2000 },{ fecha: '2012-12-31', dato: 4.3000 },{ fecha: '2013-12-31', dato: 4.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

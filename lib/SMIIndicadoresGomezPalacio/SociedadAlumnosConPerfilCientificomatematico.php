@@ -25,7 +25,7 @@ class SociedadAlumnosConPerfilCientificomatematico extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Educación';
         $this->categorias  = array('Educación');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrptrbhhi">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasucdusrdj">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -107,7 +107,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrptrbhhi a:first').tab('show')
+  $('#Lenguetasucdusrdj a:first').tab('show')
 });
 FINAL;
     } // constructor

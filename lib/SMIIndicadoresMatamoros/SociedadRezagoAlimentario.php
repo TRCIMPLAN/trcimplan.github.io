@@ -25,7 +25,7 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Grupos Vulnerables, Bienestar';
         $this->categorias  = array('Grupos Vulnerables', 'Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasdvshkoir">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasfmfvxkko">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -99,7 +99,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasdvshkoir a:first').tab('show')
+  $('#Lenguetasfmfvxkko a:first').tab('show')
 });
 FINAL;
     } // constructor

@@ -25,7 +25,7 @@ class EconomiaAperturaDeNegocio extends \Base\Publicacion {
         $this->claves      = 'Torreón, Empresas, Doing Bussines';
         $this->categorias  = array('Empresas', 'Doing Bussines');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasunmvfidb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetaseyfhmqel">
     <li class="active"><a href="#datos" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content">
@@ -85,7 +85,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasunmvfidb a:first').tab('show')
+  $('#Lenguetaseyfhmqel a:first').tab('show')
 });
 FINAL;
     } // constructor

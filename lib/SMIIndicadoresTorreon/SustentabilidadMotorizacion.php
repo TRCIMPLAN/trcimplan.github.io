@@ -25,7 +25,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         $this->claves      = 'Torreón, Recursos Naturales, Movilidad, Vialidad';
         $this->categorias  = array('Recursos Naturales', 'Movilidad', 'Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasyvylnieo">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasplpycdxa">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -127,7 +127,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasyvylnieo a:first').tab('show')
+  $('#Lenguetasplpycdxa a:first').tab('show')
 });
 FINAL;
     } // constructor

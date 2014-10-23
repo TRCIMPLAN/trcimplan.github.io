@@ -25,7 +25,7 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
         $this->claves      = 'Torreón, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetashidlkgeq">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasqjkjmfmk">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -48,19 +48,19 @@ Consumo anual de agua por persona expresado en metros cúbicos.
 <td class="centrado">31/12/2010</td>
 <td class="derecha">47.7700</td>
 <td>SIMAS</td>
-<td></td>
+<td>Consumo anual</td>
 </tr>
 <tr>
 <td class="centrado">31/12/2011</td>
 <td class="derecha">46.7500</td>
 <td>SIMAS</td>
-<td></td>
+<td>Consumo anual</td>
 </tr>
 <tr>
 <td class="centrado">31/12/2012</td>
 <td class="derecha">44.5700</td>
 <td>SIMAS</td>
-<td></td>
+<td>Consumo anual</td>
 </tr>
 <tr>
 <td class="centrado">31/12/2013</td>
@@ -77,21 +77,21 @@ Total facturado dividido entre la población.
     </div>
     <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisaxtwnsjs" class="grafica"></div>
+<div id="Morrisfuscjqny" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetashidlkgeq a:first').tab('show')
+  $('#Lenguetasqjkjmfmk a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetashidlkgeq a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasqjkjmfmk a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisaxtwnsjs === 'undefined') {
-    varMorrisaxtwnsjs = Morris.Line({
-      element: 'Morrisaxtwnsjs',
+  if (typeof varMorrisfuscjqny === 'undefined') {
+    varMorrisfuscjqny = Morris.Line({
+      element: 'Morrisfuscjqny',
       data: [{ fecha: '2010-12-31', dato: 47.7700 },{ fecha: '2011-12-31', dato: 46.7500 },{ fecha: '2012-12-31', dato: 44.5700 },{ fecha: '2013-12-31', dato: 41.9900 }],
       xkey: 'fecha',
       ykeys: ['dato'],

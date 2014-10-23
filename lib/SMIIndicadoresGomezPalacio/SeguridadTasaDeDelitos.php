@@ -25,7 +25,7 @@ class SeguridadTasaDeDelitos extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasbwblhhct">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasyhrnejdk">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -104,7 +104,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasbwblhhct a:first').tab('show')
+  $('#Lenguetasyhrnejdk a:first').tab('show')
 });
 FINAL;
     } // constructor

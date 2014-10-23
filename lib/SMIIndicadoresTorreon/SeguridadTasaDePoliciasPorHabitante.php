@@ -25,7 +25,7 @@ class SeguridadTasaDePoliciasPorHabitante extends \Base\Publicacion {
         $this->claves      = 'Torreón, Seguridad';
         $this->categorias  = array('Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasmebkxueb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasyjfxuoou">
     <li class="active"><a href="#datos" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content">
@@ -59,7 +59,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasmebkxueb a:first').tab('show')
+  $('#Lenguetasyjfxuoou a:first').tab('show')
 });
 FINAL;
     } // constructor

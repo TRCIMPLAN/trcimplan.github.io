@@ -25,7 +25,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
         $this->claves      = 'Torreón, Salud, Género';
         $this->categorias  = array('Salud', 'Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasakiaqymb">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgtbapyoh">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -106,7 +106,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasakiaqymb a:first').tab('show')
+  $('#Lenguetasgtbapyoh a:first').tab('show')
 });
 FINAL;
     } // constructor

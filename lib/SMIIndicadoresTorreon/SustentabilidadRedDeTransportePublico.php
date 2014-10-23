@@ -25,7 +25,7 @@ class SustentabilidadRedDeTransportePublico extends \Base\Publicacion {
         $this->claves      = 'Torreón, Servicios Públicos';
         $this->categorias  = array('Servicios Públicos');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasscvmtdzy">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasgcxicsbc">
     <li class="active"><a href="#datos" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content">
@@ -59,7 +59,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasscvmtdzy a:first').tab('show')
+  $('#Lenguetasgcxicsbc a:first').tab('show')
 });
 FINAL;
     } // constructor

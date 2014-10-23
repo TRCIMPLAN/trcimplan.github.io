@@ -25,7 +25,7 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \Base\Publicacio
         $this->claves      = 'Torreón, Grupos Vulnerables, Delincuencia';
         $this->categorias  = array('Grupos Vulnerables', 'Delincuencia');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasucnaatdp">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasptndonqh">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -83,21 +83,21 @@ Elaboración propia en base a las defunciones registradas en [SINAIS](http://www
     </div>
     <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisvzucddzj" class="grafica"></div>
+<div id="Morrischdmmmay" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasucnaatdp a:first').tab('show')
+  $('#Lenguetasptndonqh a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasucnaatdp a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasptndonqh a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisvzucddzj === 'undefined') {
-    varMorrisvzucddzj = Morris.Line({
-      element: 'Morrisvzucddzj',
+  if (typeof varMorrischdmmmay === 'undefined') {
+    varMorrischdmmmay = Morris.Line({
+      element: 'Morrischdmmmay',
       data: [{ fecha: '2008-12-31', dato: 544 },{ fecha: '2009-12-31', dato: 597 },{ fecha: '2010-12-31', dato: 753 },{ fecha: '2011-12-31', dato: 858 },{ fecha: '2012-12-31', dato: 1253 }],
       xkey: 'fecha',
       ykeys: ['dato'],

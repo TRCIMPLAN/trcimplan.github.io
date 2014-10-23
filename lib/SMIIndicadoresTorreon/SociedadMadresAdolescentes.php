@@ -25,7 +25,7 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
         $this->claves      = 'Torreón, Grupos Vulnerables, Género';
         $this->categorias  = array('Grupos Vulnerables', 'Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetaslebzztgo">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasnawqlobs">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -89,21 +89,21 @@ Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema 
     </div>
     <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morrisordkpkzp" class="grafica"></div>
+<div id="Morrisuvatgphk" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetaslebzztgo a:first').tab('show')
+  $('#Lenguetasnawqlobs a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetaslebzztgo a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasnawqlobs a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisordkpkzp === 'undefined') {
-    varMorrisordkpkzp = Morris.Line({
-      element: 'Morrisordkpkzp',
+  if (typeof varMorrisuvatgphk === 'undefined') {
+    varMorrisuvatgphk = Morris.Line({
+      element: 'Morrisuvatgphk',
       data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
       xkey: 'fecha',
       ykeys: ['dato'],

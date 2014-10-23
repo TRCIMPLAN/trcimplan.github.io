@@ -25,7 +25,7 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
         $this->claves      = 'Torreón, Población';
         $this->categorias  = array('Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasrolkzkuk">
+  <ul class="nav nav-tabs lenguetas" id="Lenguetasyamtcefk">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -83,21 +83,21 @@ Estimación propia en base al dato de Ocupación por Vivienda
     </div>
     <div class="tab-pane active" id="grafica">
       <h4>Gráfica</h4>
-<div id="Morriskegxtohu" class="grafica"></div>
+<div id="Morrisemdliksw" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasrolkzkuk a:first').tab('show')
+  $('#Lenguetasyamtcefk a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasrolkzkuk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#Lenguetasyamtcefk a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskegxtohu === 'undefined') {
-    varMorriskegxtohu = Morris.Line({
-      element: 'Morriskegxtohu',
+  if (typeof varMorrisemdliksw === 'undefined') {
+    varMorrisemdliksw = Morris.Line({
+      element: 'Morrisemdliksw',
       data: [{ fecha: '2008-12-31', dato: 1.8100 },{ fecha: '2009-12-31', dato: 1.7700 },{ fecha: '2010-12-31', dato: 1.7200 },{ fecha: '2011-12-31', dato: 1.6900 },{ fecha: '2012-12-31', dato: 1.6600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
