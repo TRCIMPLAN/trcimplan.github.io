@@ -25,88 +25,89 @@ class SociedadOcupacionPorVivienda extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasqawsikpe">
+  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
-Promedio de ocupantes por vivienda.
-<h4>Información recopilada</h4>
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="centrado">31/12/2010</td>
-<td class="derecha">3.9500</td>
-<td>INEGI. Censos de Población y Vivienda</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<b>Unidad:</b>
-Promedio
-<h4>Observaciones</h4>
-Datos obtenidos de [INEGI. Censos de población y vivienda 2010](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx)
+<p>Promedio de ocupantes por vivienda.</p>
+
+      <h4>Información recopilada</h4>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="centrado">31/12/2010</td>
+            <td class="derecha">3.9500</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Promedio.</p>
+      <h4>Observaciones</h4>
+<p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx">INEGI. Censos de población y vivienda 2010</a></p>
+
     </div>
     <div class="tab-pane active" id="otras_regiones">
-      <h4>En otras regiones</h4>
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Torreón</td>
-<td>2010-12-31</td>
-<td class="derecha">3.7000</td>
-<td>INEGI. Censos de Población y Vivienda</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2010-12-31</td>
-<td class="derecha">3.9000</td>
-<td>INEGI. Censos de Población y Vivienda</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2010-12-31</td>
-<td class="derecha">4.1000</td>
-<td>INEGI. Censos de Población y Vivienda</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2010-12-31</td>
-<td class="derecha">4.1000</td>
-<td>INEGI. Censos de Población y Vivienda</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h4>En otras regiones</h4>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Región</th>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Torreón</td>
+            <td>2010-12-31</td>
+            <td class="derecha">3.7000</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2010-12-31</td>
+            <td class="derecha">3.9000</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2010-12-31</td>
+            <td class="derecha">4.1000</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2010-12-31</td>
+            <td class="derecha">4.1000</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasqawsikpe a:first').tab('show')
+  $('#lenguetasindicador a:first').tab('show')
 });
 FINAL;
     } // constructor

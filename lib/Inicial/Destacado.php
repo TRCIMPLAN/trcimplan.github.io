@@ -29,6 +29,12 @@ class Destacado {
 
     /**
      * Twitter Bootstrap Thumbnail
+     *
+     * @param  string Ruta relativa al archivo con la imagen
+     * @param  string Título
+     * @param  string Descripción
+     * @param  array  Arreglo asociativo con los botones 'etiqueta' => 'URL'
+     * @return string Código HTML
      */
     protected function twitter_bootstrap_thumbnail($imagen, $titulo, $descripcion, $botones) {
         // Acumularemos la entrega en este arreglo
@@ -39,7 +45,7 @@ class Destacado {
         $a[] = '        <div class="thumbnail">';
         $a[] = "          <a href=\"$vinculo\"><img class=\"img-thumbnail imagen-previa\" src=\"$imagen\" alt=\"$titulo\"></a>";
         $a[] = '          <div class="caption">';
-        $a[] = "            <h3>$titulo</h3>";
+        $a[] = "            <h3><a href=\"$vinculo\">$titulo</a></h3>";
         $a[] = "            <p>$descripcion</p>";
         $b = array();
         foreach ($botones as $etiqueta => $vinculo) {

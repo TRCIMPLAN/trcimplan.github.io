@@ -25,43 +25,44 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
         $this->claves      = 'Torreón, Seguridad';
         $this->categorias  = array('Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasibkdiuxw">
+  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
     <li class="active"><a href="#datos" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="datos">
       <h4>Descripción</h4>
-Cantidad total de policías en el municipio.
-<h4>Información recopilada</h4>
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="centrado">28/02/2014</td>
-<td class="derecha">768</td>
-<td>Ayuntamiento de Torreón</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<b>Unidad:</b>
-Cantidad
-<h4>Observaciones</h4>
-Determinado en base al reporte de Transparencia de la Nómina.
+<p>Cantidad total de policías en el municipio.</p>
+
+      <h4>Información recopilada</h4>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="centrado">28/02/2014</td>
+            <td class="derecha">768</td>
+            <td>Ayuntamiento de Torreón</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Cantidad.</p>
+      <h4>Observaciones</h4>
+<p>Determinado en base al reporte de Transparencia de la Nómina.</p>
+
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasibkdiuxw a:first').tab('show')
+  $('#lenguetasindicador a:first').tab('show')
 });
 FINAL;
     } // constructor

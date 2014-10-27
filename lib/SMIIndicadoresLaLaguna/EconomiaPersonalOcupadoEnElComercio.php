@@ -25,7 +25,7 @@ class EconomiaPersonalOcupadoEnElComercio extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Empleo, Mercados';
         $this->categorias  = array('Empleo', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasfwduixdk">
+  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -33,181 +33,182 @@ class EconomiaPersonalOcupadoEnElComercio extends \Base\Publicacion {
   <div class="tab-content">
     <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
-Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.
-<h4>Información recopilada</h4>
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="centrado">31/12/1998</td>
-<td class="derecha">22.50 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td class="centrado">31/12/2003</td>
-<td class="derecha">25.40 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td class="centrado">31/12/2008</td>
-<td class="derecha">28.03 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<b>Unidad:</b>
-Porcentaje
-<h4>Observaciones</h4>
-Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
+<p>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</p>
+
+      <h4>Información recopilada</h4>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="centrado">31/12/1998</td>
+            <td class="derecha">22.50 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/12/2003</td>
+            <td class="derecha">25.40 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/12/2008</td>
+            <td class="derecha">28.03 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
+      <h4>Observaciones</h4>
+<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a></p>
+
     </div>
     <div class="tab-pane" id="grafica">
-      <h4>Gráfica</h4>
-<div id="Morristymcjoup" class="grafica"></div>
+<h4>Gráfica</h4>
+<div id="Morrisyyfczgdf" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
-      <h4>En otras regiones</h4>
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Torreón</td>
-<td>1998-12-31</td>
-<td class="derecha">26.14 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Torreón</td>
-<td>2003-12-31</td>
-<td class="derecha">27.48 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Torreón</td>
-<td>2008-12-31</td>
-<td class="derecha">27.65 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>1998-12-31</td>
-<td class="derecha">16.36 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2003-12-31</td>
-<td class="derecha">21.21 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2008-12-31</td>
-<td class="derecha">27.61 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>1998-12-31</td>
-<td class="derecha">15.51 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2003-12-31</td>
-<td class="derecha">16.31 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2008-12-31</td>
-<td class="derecha">31.07 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>1998-12-31</td>
-<td class="derecha">38.42 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2003-12-31</td>
-<td class="derecha">45.97 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2008-12-31</td>
-<td class="derecha">34.32 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Nacional</td>
-<td>1998-12-31</td>
-<td class="derecha">27.43 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Nacional</td>
-<td>2003-12-31</td>
-<td class="derecha">30.77 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Nacional</td>
-<td>2008-12-31</td>
-<td class="derecha">30.50 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h4>En otras regiones</h4>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Región</th>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Torreón</td>
+            <td>1998-12-31</td>
+            <td class="derecha">26.14 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2003-12-31</td>
+            <td class="derecha">27.48 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2008-12-31</td>
+            <td class="derecha">27.65 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>1998-12-31</td>
+            <td class="derecha">16.36 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2003-12-31</td>
+            <td class="derecha">21.21 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2008-12-31</td>
+            <td class="derecha">27.61 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>1998-12-31</td>
+            <td class="derecha">15.51 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2003-12-31</td>
+            <td class="derecha">16.31 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2008-12-31</td>
+            <td class="derecha">31.07 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>1998-12-31</td>
+            <td class="derecha">38.42 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2003-12-31</td>
+            <td class="derecha">45.97 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2008-12-31</td>
+            <td class="derecha">34.32 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>1998-12-31</td>
+            <td class="derecha">27.43 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2003-12-31</td>
+            <td class="derecha">30.77 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2008-12-31</td>
+            <td class="derecha">30.50 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasfwduixdk a:first').tab('show')
+  $('#lenguetasindicador a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasfwduixdk a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristymcjoup === 'undefined') {
-    varMorristymcjoup = Morris.Line({
-      element: 'Morristymcjoup',
+  if (typeof varMorrisyyfczgdf === 'undefined') {
+    varMorrisyyfczgdf = Morris.Line({
+      element: 'Morrisyyfczgdf',
       data: [{ fecha: '1998-12-31', dato: 22.5000 },{ fecha: '2003-12-31', dato: 25.4000 },{ fecha: '2008-12-31', dato: 28.0342 }],
       xkey: 'fecha',
       ykeys: ['dato'],

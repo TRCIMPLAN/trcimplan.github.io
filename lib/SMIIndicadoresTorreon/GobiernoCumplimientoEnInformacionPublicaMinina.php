@@ -25,7 +25,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
         $this->claves      = 'Torreón, Transparencia';
         $this->categorias  = array('Transparencia');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetasktydgynt">
+  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -33,131 +33,131 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
   <div class="tab-content">
     <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
-Cumplimiento sobre total de obligaciones
-<h4>Información recopilada</h4>
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="centrado">03/03/2014</td>
-<td class="derecha">100.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td class="centrado">30/06/2014</td>
-<td class="derecha">98.72 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<b>Unidad:</b>
-Porcentaje
+<p>Cumplimiento sobre total de obligaciones</p>
+
+      <h4>Información recopilada</h4>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="centrado">03/03/2014</td>
+            <td class="derecha">100.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">30/06/2014</td>
+            <td class="derecha">98.72 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
     </div>
     <div class="tab-pane" id="grafica">
-      <h4>Gráfica</h4>
-<div id="Morrisquewffim" class="grafica"></div>
+<h4>Gráfica</h4>
+<div id="Morristraikrcn" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
-      <h4>En otras regiones</h4>
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Gómez Palacio</td>
-<td>2013-12-31</td>
-<td class="derecha">79.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2014-04-30</td>
-<td class="derecha">89.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2014-08-31</td>
-<td class="derecha">86.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2013-12-31</td>
-<td class="derecha">79.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2014-04-30</td>
-<td class="derecha">61.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2014-08-31</td>
-<td class="derecha">100.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2014-03-03</td>
-<td class="derecha">63.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2014-06-30</td>
-<td class="derecha">64.10 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2013-12-31</td>
-<td class="derecha">80.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h4>En otras regiones</h4>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Región</th>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2013-12-31</td>
+            <td class="derecha">79.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-04-30</td>
+            <td class="derecha">89.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-08-31</td>
+            <td class="derecha">86.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2013-12-31</td>
+            <td class="derecha">79.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-04-30</td>
+            <td class="derecha">61.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-08-31</td>
+            <td class="derecha">100.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-03-03</td>
+            <td class="derecha">63.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-06-30</td>
+            <td class="derecha">64.10 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2013-12-31</td>
+            <td class="derecha">80.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetasktydgynt a:first').tab('show')
+  $('#lenguetasindicador a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetasktydgynt a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisquewffim === 'undefined') {
-    varMorrisquewffim = Morris.Line({
-      element: 'Morrisquewffim',
+  if (typeof varMorristraikrcn === 'undefined') {
+    varMorristraikrcn = Morris.Line({
+      element: 'Morristraikrcn',
       data: [{ fecha: '2014-03-03', dato: 100.0000 },{ fecha: '2014-06-30', dato: 98.7200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

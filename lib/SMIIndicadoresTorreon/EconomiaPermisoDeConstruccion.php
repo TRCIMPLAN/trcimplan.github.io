@@ -25,67 +25,67 @@ class EconomiaPermisoDeConstruccion extends \Base\Publicacion {
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="Lenguetastlzmgphm">
+  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
     <li><a href="#datos" data-toggle="tab">Datos</a></li>
     <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="datos">
       <h4>Descripción</h4>
-Número de días necesarios para conseguir un permiso de construcción.
-<h4>Información recopilada</h4>
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="centrado">31/12/2012</td>
-<td class="derecha">72</td>
-<td>Doing Business</td>
-<td>En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2012 para Torreón son: 
+<p>Número de días necesarios para conseguir un permiso de construcción.</p>
+
+      <h4>Información recopilada</h4>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="centrado">31/12/2012</td>
+            <td class="derecha">72</td>
+            <td>Doing Business</td>
+            <td>En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2012 para Torreón son: 
 
 - # de procedimientos: 11
 - Costo (% del ingreso per cápita): 37.4 
 - Ranking en permiso de construcción: 10</td>
-</tr>
-<tr>
-<td class="centrado">31/10/2013</td>
-<td class="derecha">107</td>
-<td>Doing Business</td>
-<td>Dato obtenido del estudio elaborado por Doing Business de octubre de 2011 a octubre de 2013 y publicado en su reporte Doing Business en México 2014. 
+          </tr>
+          <tr>
+            <td class="centrado">31/10/2013</td>
+            <td class="derecha">107</td>
+            <td>Doing Business</td>
+            <td>Dato obtenido del estudio elaborado por Doing Business de octubre de 2011 a octubre de 2013 y publicado en su reporte Doing Business en México 2014. 
 
 Los Indicadores complementarios en permiso de construcción fueron los siguientes para Torreón: 
 Procedimientos (número) = 13 ; 
 Costo (% de ingreso per cápita) = 40,6</td>
-</tr>
-</tbody>
-</table>
-<b>Unidad:</b>
-Días
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Días.</p>
     </div>
     <div class="tab-pane active" id="grafica">
-      <h4>Gráfica</h4>
-<div id="Morrisskaemmss" class="grafica"></div>
+<h4>Gráfica</h4>
+<div id="Morristwyleawr" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#Lenguetastlzmgphm a:first').tab('show')
+  $('#lenguetasindicador a:first').tab('show')
 });
 // LENGUETA
-$('#Lenguetastlzmgphm a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisskaemmss === 'undefined') {
-    varMorrisskaemmss = Morris.Line({
-      element: 'Morrisskaemmss',
+  if (typeof varMorristwyleawr === 'undefined') {
+    varMorristwyleawr = Morris.Line({
+      element: 'Morristwyleawr',
       data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 }],
       xkey: 'fecha',
       ykeys: ['dato'],
