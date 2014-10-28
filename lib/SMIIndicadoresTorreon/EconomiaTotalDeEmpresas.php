@@ -68,7 +68,7 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisgpapqwtn" class="grafica"></div>
+<div id="Morrishyadvnku" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -194,9 +194,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisgpapqwtn === 'undefined') {
-    varMorrisgpapqwtn = Morris.Line({
-      element: 'Morrisgpapqwtn',
+  if (typeof varMorrishyadvnku === 'undefined') {
+    varMorrishyadvnku = Morris.Line({
+      element: 'Morrishyadvnku',
       data: [{ fecha: '2013-12-31', dato: 6671 },{ fecha: '2014-07-31', dato: 7402 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -229,7 +229,7 @@
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morristpicbkdb" class="grafica"></div>
+<div id="Morrisgstsiyzi" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -459,9 +459,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristpicbkdb === 'undefined') {
-    varMorristpicbkdb = Morris.Line({
-      element: 'Morristpicbkdb',
+  if (typeof varMorrisgstsiyzi === 'undefined') {
+    varMorrisgstsiyzi = Morris.Line({
+      element: 'Morrisgstsiyzi',
       data: [{ fecha: '2007-12-31', dato: 1803.84 },{ fecha: '2008-12-31', dato: 1921.94 },{ fecha: '2009-12-31', dato: 2213.26 },{ fecha: '2010-12-31', dato: 1980.37 },{ fecha: '2011-12-31', dato: 2255.84 },{ fecha: '2012-12-31', dato: 2460.58 }],
       xkey: 'fecha',
       ykeys: ['dato'],

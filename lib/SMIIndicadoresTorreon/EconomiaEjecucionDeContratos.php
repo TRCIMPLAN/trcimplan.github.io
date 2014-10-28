@@ -81,7 +81,7 @@ Costo (% de cantidad demandada) = 27,9</td>
     </div>
     <div class="tab-pane active" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisjezmdhuv" class="grafica"></div>
+<div id="Morrisxckungmx" class="grafica"></div>
     </div>
   </div>
 FINAL;
@@ -93,9 +93,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisjezmdhuv === 'undefined') {
-    varMorrisjezmdhuv = Morris.Line({
-      element: 'Morrisjezmdhuv',
+  if (typeof varMorrisxckungmx === 'undefined') {
+    varMorrisxckungmx = Morris.Line({
+      element: 'Morrisxckungmx',
       data: [{ fecha: '2007-12-31', dato: 386 },{ fecha: '2012-12-31', dato: 270 },{ fecha: '2013-10-31', dato: 270 }],
       xkey: 'fecha',
       ykeys: ['dato'],

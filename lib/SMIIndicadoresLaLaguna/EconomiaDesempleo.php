@@ -81,7 +81,7 @@ class EconomiaDesempleo extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morriseroowaqc" class="grafica"></div>
+<div id="Morrisdohyhrvf" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -193,9 +193,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriseroowaqc === 'undefined') {
-    varMorriseroowaqc = Morris.Line({
-      element: 'Morriseroowaqc',
+  if (typeof varMorrisdohyhrvf === 'undefined') {
+    varMorrisdohyhrvf = Morris.Line({
+      element: 'Morrisdohyhrvf',
       data: [{ fecha: '1990-03-12', dato: 7688 },{ fecha: '2000-02-14', dato: 3854 },{ fecha: '2010-06-25', dato: 35416 }],
       xkey: 'fecha',
       ykeys: ['dato'],

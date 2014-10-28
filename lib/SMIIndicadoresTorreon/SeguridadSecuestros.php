@@ -88,7 +88,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morriswaseqsfb" class="grafica"></div>
+<div id="Morriswyknfbbz" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -221,9 +221,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriswaseqsfb === 'undefined') {
-    varMorriswaseqsfb = Morris.Line({
-      element: 'Morriswaseqsfb',
+  if (typeof varMorriswyknfbbz === 'undefined') {
+    varMorriswyknfbbz = Morris.Line({
+      element: 'Morriswyknfbbz',
       data: [{ fecha: '2014-01-31', dato: 1 },{ fecha: '2014-02-28', dato: 1 },{ fecha: '2014-03-31', dato: 2 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 0 },{ fecha: '2014-06-30', dato: 0 }],
       xkey: 'fecha',
       ykeys: ['dato'],

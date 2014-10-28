@@ -88,7 +88,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisguhhfkjf" class="grafica"></div>
+<div id="Morrissgvafuji" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -284,9 +284,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisguhhfkjf === 'undefined') {
-    varMorrisguhhfkjf = Morris.Line({
-      element: 'Morrisguhhfkjf',
+  if (typeof varMorrissgvafuji === 'undefined') {
+    varMorrissgvafuji = Morris.Line({
+      element: 'Morrissgvafuji',
       data: [{ fecha: '2014-01-31', dato: 6 },{ fecha: '2014-02-28', dato: 6 },{ fecha: '2014-03-31', dato: 7 },{ fecha: '2014-04-30', dato: 3 },{ fecha: '2014-05-31', dato: 6 },{ fecha: '2014-06-30', dato: 3 }],
       xkey: 'fecha',
       ykeys: ['dato'],

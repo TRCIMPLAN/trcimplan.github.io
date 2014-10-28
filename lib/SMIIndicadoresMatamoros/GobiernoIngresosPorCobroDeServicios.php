@@ -88,7 +88,7 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrispggssuox" class="grafica"></div>
+<div id="Morrisuowzplmt" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -291,9 +291,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrispggssuox === 'undefined') {
-    varMorrispggssuox = Morris.Line({
-      element: 'Morrispggssuox',
+  if (typeof varMorrisuowzplmt === 'undefined') {
+    varMorrisuowzplmt = Morris.Line({
+      element: 'Morrisuowzplmt',
       data: [{ fecha: '2007-12-31', dato: 14524248.00 },{ fecha: '2008-12-31', dato: 16686819.00 },{ fecha: '2009-12-31', dato: 21122908.00 },{ fecha: '2010-12-31', dato: 11736265.00 },{ fecha: '2011-12-31', dato: 13474155.00 },{ fecha: '2012-12-31', dato: 30798906.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

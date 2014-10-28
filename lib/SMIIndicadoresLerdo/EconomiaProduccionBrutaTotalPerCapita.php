@@ -91,7 +91,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisjqewpibs" class="grafica"></div>
+<div id="Morrisbmogzrie" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -210,9 +210,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisjqewpibs === 'undefined') {
-    varMorrisjqewpibs = Morris.Line({
-      element: 'Morrisjqewpibs',
+  if (typeof varMorrisbmogzrie === 'undefined') {
+    varMorrisbmogzrie = Morris.Line({
+      element: 'Morrisbmogzrie',
       data: [{ fecha: '1998-12-31', dato: 12093.88 },{ fecha: '2003-12-31', dato: 21705.57 },{ fecha: '2008-12-31', dato: 16746.04 }],
       xkey: 'fecha',
       ykeys: ['dato'],

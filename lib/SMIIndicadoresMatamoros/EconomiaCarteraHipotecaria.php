@@ -87,7 +87,7 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisrgvghkov" class="grafica"></div>
+<div id="Morrisxqlyupqz" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -255,9 +255,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrgvghkov === 'undefined') {
-    varMorrisrgvghkov = Morris.Line({
-      element: 'Morrisrgvghkov',
+  if (typeof varMorrisxqlyupqz === 'undefined') {
+    varMorrisxqlyupqz = Morris.Line({
+      element: 'Morrisxqlyupqz',
       data: [{ fecha: '2010-12-31', dato: 66279954.00 },{ fecha: '2011-12-31', dato: 59324405.00 },{ fecha: '2012-12-31', dato: 57375581.00 },{ fecha: '2013-12-31', dato: 56877995.00 },{ fecha: '2014-03-31', dato: 57702472.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

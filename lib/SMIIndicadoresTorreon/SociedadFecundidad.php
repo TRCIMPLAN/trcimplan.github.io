@@ -81,7 +81,7 @@ class SociedadFecundidad extends \Base\Publicacion {
     </div>
     <div class="tab-pane active" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrislfzhpbyg" class="grafica"></div>
+<div id="Morrisxuvphpsb" class="grafica"></div>
     </div>
   </div>
 FINAL;
@@ -93,9 +93,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrislfzhpbyg === 'undefined') {
-    varMorrislfzhpbyg = Morris.Line({
-      element: 'Morrislfzhpbyg',
+  if (typeof varMorrisxuvphpsb === 'undefined') {
+    varMorrisxuvphpsb = Morris.Line({
+      element: 'Morrisxuvphpsb',
       data: [{ fecha: '2008-12-31', dato: 2.2000 },{ fecha: '2009-12-31', dato: 2.1700 },{ fecha: '2010-12-31', dato: 2.1400 },{ fecha: '2011-12-31', dato: 2.1400 },{ fecha: '2012-12-31', dato: 2.1300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

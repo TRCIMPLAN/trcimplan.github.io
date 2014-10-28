@@ -79,7 +79,7 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisipxeptru" class="grafica"></div>
+<div id="Morrisnwrzfvil" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -247,9 +247,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisipxeptru === 'undefined') {
-    varMorrisipxeptru = Morris.Line({
-      element: 'Morrisipxeptru',
+  if (typeof varMorrisnwrzfvil === 'undefined') {
+    varMorrisnwrzfvil = Morris.Line({
+      element: 'Morrisnwrzfvil',
       data: [{ fecha: '1998-12-31', dato: 10.9600 },{ fecha: '2003-12-31', dato: 9.3300 },{ fecha: '2008-12-31', dato: 9.2400 },{ fecha: '2013-10-31', dato: 8.5500 }],
       xkey: 'fecha',
       ykeys: ['dato'],

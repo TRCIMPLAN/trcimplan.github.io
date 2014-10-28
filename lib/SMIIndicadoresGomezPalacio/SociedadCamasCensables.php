@@ -127,7 +127,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisbzxhpwgz" class="grafica"></div>
+<div id="Morrisbrmfydor" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -799,9 +799,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisbzxhpwgz === 'undefined') {
-    varMorrisbzxhpwgz = Morris.Line({
-      element: 'Morrisbzxhpwgz',
+  if (typeof varMorrisbrmfydor === 'undefined') {
+    varMorrisbrmfydor = Morris.Line({
+      element: 'Morrisbrmfydor',
       data: [{ fecha: '2001-12-31', dato: 72 },{ fecha: '2002-12-31', dato: 72 },{ fecha: '2004-12-31', dato: 74 },{ fecha: '2005-12-31', dato: 74 },{ fecha: '2006-12-31', dato: 72 },{ fecha: '2007-12-31', dato: 75 },{ fecha: '2008-12-31', dato: 64 },{ fecha: '2009-12-31', dato: 64 },{ fecha: '2010-12-31', dato: 72 },{ fecha: '2011-12-31', dato: 72 },{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-12-31', dato: 74 }],
       xkey: 'fecha',
       ykeys: ['dato'],
