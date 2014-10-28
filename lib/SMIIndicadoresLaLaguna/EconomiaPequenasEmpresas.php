@@ -69,7 +69,7 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morriswlkbxcjh" class="grafica"></div>
+<div id="Morrisygkjzszp" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -195,9 +195,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriswlkbxcjh === 'undefined') {
-    varMorriswlkbxcjh = Morris.Line({
-      element: 'Morriswlkbxcjh',
+  if (typeof varMorrisygkjzszp === 'undefined') {
+    varMorrisygkjzszp = Morris.Line({
+      element: 'Morrisygkjzszp',
       data: [{ fecha: '2013-12-31', dato: 8.6800 },{ fecha: '2014-07-31', dato: 7.5400 }],
       xkey: 'fecha',
       ykeys: ['dato'],

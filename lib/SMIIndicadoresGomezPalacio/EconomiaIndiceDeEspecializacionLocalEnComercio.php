@@ -81,7 +81,7 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisvosmsmft" class="grafica"></div>
+<div id="Morrismqipyadc" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -200,9 +200,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisvosmsmft === 'undefined') {
-    varMorrisvosmsmft = Morris.Line({
-      element: 'Morrisvosmsmft',
+  if (typeof varMorrismqipyadc === 'undefined') {
+    varMorrismqipyadc = Morris.Line({
+      element: 'Morrismqipyadc',
       data: [{ fecha: '1998-12-31', dato: 8.9300 },{ fecha: '2003-12-31', dato: 8.8500 },{ fecha: '2008-12-31', dato: 9.8800 }],
       xkey: 'fecha',
       ykeys: ['dato'],

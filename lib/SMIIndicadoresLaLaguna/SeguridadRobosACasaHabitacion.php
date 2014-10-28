@@ -88,7 +88,7 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morristubaytuq" class="grafica"></div>
+<div id="Morrisahvrtccu" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -284,9 +284,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristubaytuq === 'undefined') {
-    varMorristubaytuq = Morris.Line({
-      element: 'Morristubaytuq',
+  if (typeof varMorrisahvrtccu === 'undefined') {
+    varMorrisahvrtccu = Morris.Line({
+      element: 'Morrisahvrtccu',
       data: [{ fecha: '2014-01-31', dato: 115 },{ fecha: '2014-02-28', dato: 115 },{ fecha: '2014-03-31', dato: 123 },{ fecha: '2014-04-30', dato: 102 },{ fecha: '2014-05-31', dato: 155 },{ fecha: '2014-06-30', dato: 83 }],
       xkey: 'fecha',
       ykeys: ['dato'],

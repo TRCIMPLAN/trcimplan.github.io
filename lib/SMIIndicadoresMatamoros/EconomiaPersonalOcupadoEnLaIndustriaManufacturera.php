@@ -73,7 +73,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \Base\Publicacio
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisphiedkze" class="grafica"></div>
+<div id="Morrisnpgcivof" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -206,9 +206,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisphiedkze === 'undefined') {
-    varMorrisphiedkze = Morris.Line({
-      element: 'Morrisphiedkze',
+  if (typeof varMorrisnpgcivof === 'undefined') {
+    varMorrisnpgcivof = Morris.Line({
+      element: 'Morrisnpgcivof',
       data: [{ fecha: '1998-12-31', dato: 37.8100 },{ fecha: '2003-12-31', dato: 28.7800 },{ fecha: '2008-12-31', dato: 41.5338 }],
       xkey: 'fecha',
       ykeys: ['dato'],

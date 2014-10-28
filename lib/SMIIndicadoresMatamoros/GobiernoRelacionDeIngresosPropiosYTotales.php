@@ -108,7 +108,7 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisaawpksfz" class="grafica"></div>
+<div id="Morristqhubbvw" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -332,9 +332,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisaawpksfz === 'undefined') {
-    varMorrisaawpksfz = Morris.Line({
-      element: 'Morrisaawpksfz',
+  if (typeof varMorristqhubbvw === 'undefined') {
+    varMorristqhubbvw = Morris.Line({
+      element: 'Morristqhubbvw',
       data: [{ fecha: '2007-12-31', dato: 12.2200 },{ fecha: '2008-12-31', dato: 9.3000 },{ fecha: '2009-12-31', dato: 12.2700 },{ fecha: '2010-12-31', dato: 7.8200 },{ fecha: '2011-12-31', dato: 8.7200 },{ fecha: '2012-12-31', dato: 17.4700 },{ fecha: '2013-12-31', dato: 13.1000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

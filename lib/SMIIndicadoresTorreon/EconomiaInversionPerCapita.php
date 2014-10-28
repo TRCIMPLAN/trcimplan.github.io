@@ -102,7 +102,7 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisiaohrhcl" class="grafica"></div>
+<div id="Morriscthowkes" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -298,9 +298,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisiaohrhcl === 'undefined') {
-    varMorrisiaohrhcl = Morris.Line({
-      element: 'Morrisiaohrhcl',
+  if (typeof varMorriscthowkes === 'undefined') {
+    varMorriscthowkes = Morris.Line({
+      element: 'Morriscthowkes',
       data: [{ fecha: '2007-12-31', dato: 604.26 },{ fecha: '2008-12-31', dato: 767.48 },{ fecha: '2009-12-31', dato: 497.90 },{ fecha: '2010-12-31', dato: 236.57 },{ fecha: '2011-12-31', dato: 529.86 },{ fecha: '2012-12-31', dato: 348.09 }],
       xkey: 'fecha',
       ykeys: ['dato'],

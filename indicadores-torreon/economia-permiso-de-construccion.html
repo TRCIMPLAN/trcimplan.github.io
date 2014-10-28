@@ -198,7 +198,7 @@ Costo (% de ingreso per cápita) = 40,6</td>
     </div>
     <div class="tab-pane active" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morristwyleawr" class="grafica"></div>
+<div id="Morriskbohmtaf" class="grafica"></div>
     </div>
   </div>
 </article>
@@ -237,9 +237,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristwyleawr === 'undefined') {
-    varMorristwyleawr = Morris.Line({
-      element: 'Morristwyleawr',
+  if (typeof varMorriskbohmtaf === 'undefined') {
+    varMorriskbohmtaf = Morris.Line({
+      element: 'Morriskbohmtaf',
       data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 }],
       xkey: 'fecha',
       ykeys: ['dato'],

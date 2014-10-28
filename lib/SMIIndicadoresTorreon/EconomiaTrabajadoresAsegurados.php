@@ -98,7 +98,7 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
     </div>
     <div class="tab-pane active" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisshposiee" class="grafica"></div>
+<div id="Morrispyeknuxd" class="grafica"></div>
     </div>
   </div>
 FINAL;
@@ -110,9 +110,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisshposiee === 'undefined') {
-    varMorrisshposiee = Morris.Line({
-      element: 'Morrisshposiee',
+  if (typeof varMorrispyeknuxd === 'undefined') {
+    varMorrispyeknuxd = Morris.Line({
+      element: 'Morrispyeknuxd',
       data: [{ fecha: '2007-12-31', dato: 171936 },{ fecha: '2008-12-31', dato: 164258 },{ fecha: '2009-12-31', dato: 157898 },{ fecha: '2010-12-31', dato: 168723 },{ fecha: '2011-12-31', dato: 176045 },{ fecha: '2012-12-31', dato: 184407 },{ fecha: '2013-12-31', dato: 187050 }],
       xkey: 'fecha',
       ykeys: ['dato'],

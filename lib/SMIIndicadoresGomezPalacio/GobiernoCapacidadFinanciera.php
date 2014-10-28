@@ -115,7 +115,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morristtjurvqg" class="grafica"></div>
+<div id="Morrisvgcbhypj" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -339,9 +339,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristtjurvqg === 'undefined') {
-    varMorristtjurvqg = Morris.Line({
-      element: 'Morristtjurvqg',
+  if (typeof varMorrisvgcbhypj === 'undefined') {
+    varMorrisvgcbhypj = Morris.Line({
+      element: 'Morrisvgcbhypj',
       data: [{ fecha: '2007-12-31', dato: 51.1900 },{ fecha: '2008-12-31', dato: 52.8900 },{ fecha: '2009-12-31', dato: 74.4600 },{ fecha: '2010-12-31', dato: 47.4000 },{ fecha: '2011-12-31', dato: 69.5700 },{ fecha: '2012-12-31', dato: 74.2600 },{ fecha: '2013-12-31', dato: 64.4300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

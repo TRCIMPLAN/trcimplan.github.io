@@ -81,7 +81,7 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \Base\Publicacion 
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisbjgsqxsy" class="grafica"></div>
+<div id="Morristdgvcdmz" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -200,9 +200,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisbjgsqxsy === 'undefined') {
-    varMorrisbjgsqxsy = Morris.Line({
-      element: 'Morrisbjgsqxsy',
+  if (typeof varMorristdgvcdmz === 'undefined') {
+    varMorristdgvcdmz = Morris.Line({
+      element: 'Morristdgvcdmz',
       data: [{ fecha: '1998-12-31', dato: 17.2300 },{ fecha: '2003-12-31', dato: 6.3000 },{ fecha: '2008-12-31', dato: 8.5600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

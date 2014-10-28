@@ -64,7 +64,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morristraikrcn" class="grafica"></div>
+<div id="Morrisqhdvcmgv" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -155,9 +155,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristraikrcn === 'undefined') {
-    varMorristraikrcn = Morris.Line({
-      element: 'Morristraikrcn',
+  if (typeof varMorrisqhdvcmgv === 'undefined') {
+    varMorrisqhdvcmgv = Morris.Line({
+      element: 'Morrisqhdvcmgv',
       data: [{ fecha: '2014-03-03', dato: 100.0000 },{ fecha: '2014-06-30', dato: 98.7200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

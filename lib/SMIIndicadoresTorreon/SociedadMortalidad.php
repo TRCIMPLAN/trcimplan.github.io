@@ -133,7 +133,7 @@ class SociedadMortalidad extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morriskboojgdu" class="grafica"></div>
+<div id="Morrisdwlupdxm" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -798,9 +798,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskboojgdu === 'undefined') {
-    varMorriskboojgdu = Morris.Line({
-      element: 'Morriskboojgdu',
+  if (typeof varMorrisdwlupdxm === 'undefined') {
+    varMorrisdwlupdxm = Morris.Line({
+      element: 'Morrisdwlupdxm',
       data: [{ fecha: '2000-12-31', dato: 4.9000 },{ fecha: '2001-12-31', dato: 5.0000 },{ fecha: '2002-12-31', dato: 5.0000 },{ fecha: '2003-12-31', dato: 5.1000 },{ fecha: '2004-12-31', dato: 4.9000 },{ fecha: '2005-12-31', dato: 5.3000 },{ fecha: '2006-12-31', dato: 5.2000 },{ fecha: '2007-12-31', dato: 5.3000 },{ fecha: '2008-12-31', dato: 5.3000 },{ fecha: '2009-12-31', dato: 5.4000 },{ fecha: '2010-12-31', dato: 5.8000 },{ fecha: '2011-12-31', dato: 6.0000 },{ fecha: '2012-12-31', dato: 6.1000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

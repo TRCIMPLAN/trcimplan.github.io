@@ -88,7 +88,7 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrissuacooaa" class="grafica"></div>
+<div id="Morrisfmihrhha" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -284,9 +284,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrissuacooaa === 'undefined') {
-    varMorrissuacooaa = Morris.Line({
-      element: 'Morrissuacooaa',
+  if (typeof varMorrisfmihrhha === 'undefined') {
+    varMorrisfmihrhha = Morris.Line({
+      element: 'Morrisfmihrhha',
       data: [{ fecha: '2014-01-31', dato: 74 },{ fecha: '2014-02-28', dato: 50 },{ fecha: '2014-03-31', dato: 58 },{ fecha: '2014-04-30', dato: 89 },{ fecha: '2014-05-31', dato: 60 },{ fecha: '2014-06-30', dato: 52 }],
       xkey: 'fecha',
       ykeys: ['dato'],

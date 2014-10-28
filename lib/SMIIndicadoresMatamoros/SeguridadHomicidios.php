@@ -88,7 +88,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisycdnldll" class="grafica"></div>
+<div id="Morrismberzhns" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -284,9 +284,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisycdnldll === 'undefined') {
-    varMorrisycdnldll = Morris.Line({
-      element: 'Morrisycdnldll',
+  if (typeof varMorrismberzhns === 'undefined') {
+    varMorrismberzhns = Morris.Line({
+      element: 'Morrismberzhns',
       data: [{ fecha: '2014-01-31', dato: 3 },{ fecha: '2014-02-28', dato: 2 },{ fecha: '2014-03-31', dato: 4 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 2 },{ fecha: '2014-06-30', dato: 1 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -81,7 +81,7 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \Base
     </div>
     <div class="tab-pane" id="grafica">
 <h4>Gráfica</h4>
-<div id="Morrisgpsdqify" class="grafica"></div>
+<div id="Morrisjfaqwwwb" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="otras_regiones">
 <h4>En otras regiones</h4>
@@ -200,9 +200,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisgpsdqify === 'undefined') {
-    varMorrisgpsdqify = Morris.Line({
-      element: 'Morrisgpsdqify',
+  if (typeof varMorrisjfaqwwwb === 'undefined') {
+    varMorrisjfaqwwwb = Morris.Line({
+      element: 'Morrisjfaqwwwb',
       data: [{ fecha: '1998-12-31', dato: 64.9200 },{ fecha: '2003-12-31', dato: 58.8300 },{ fecha: '2008-12-31', dato: 71.1000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
