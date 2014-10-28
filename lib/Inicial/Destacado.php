@@ -46,7 +46,7 @@ class Destacado {
         $a[] = "          <a href=\"$vinculo\"><img class=\"img-thumbnail imagen-previa\" src=\"$imagen\" alt=\"$titulo\"></a>";
         $a[] = '          <div class="caption">';
         $a[] = "            <h3><a href=\"$vinculo\">$titulo</a></h3>";
-        $a[] = "            <p>$descripcion</p>";
+        $a[] = "            $descripcion";
         $b = array();
         foreach ($botones as $etiqueta => $vinculo) {
             if (strpos($vinculo, 'http') === 0) {
@@ -63,6 +63,67 @@ class Destacado {
     } // twitter_bootstrap_thumbnail
 
     /**
+     * Plan Estratégico Metropolitano
+     *
+     * @return string Código HTML
+     */
+    protected function pem() {
+        return $this->twitter_bootstrap_thumbnail(
+            'plan-estrategico-metropolitano/introduccion/imagen-previa-ancha.jpg',
+            'Plan Estratégico Metropolitano',
+            '<p>Súmate al esfuerzo de planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad de La Laguna.</p>',
+            array(
+                '<i class="fa fa-sun-o"></i> Conoce el P.E.M.'        => 'plan-estrategico-metropolitano/introduccion.html',
+                '<i class="fa fa-calendar"></i> Diagnóstico-Pronóstico'  => 'plan-estrategico-metropolitano/mesa-1.html',
+                '<i class="fa fa-external-link"></i> Participación Ciudadana' => 'http://trcimplan.mx/plan'));
+    } // pem
+
+    /**
+     * Sistema de Información Geográfica
+     *
+     * @return string Código HTML
+     */
+    protected function sig() {
+        $parrafo = <<<FINAL
+La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.
+
+Los últimos indicadores con mapas son:
+
+* [Maternidad Adolescente](indicadores-torreon/sociedad-maternidad-adolescente.html)
+* [Viviendas Deshabitadas](indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html)
+* [Viviendas con Agua de la Red Pública](indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html)
+* [Viviendas con Computadora](indicadores-torreon/sociedad-viviendas-con-computadora.html)
+* [Viviendas con Drenaje](indicadores-torreon/sociedad-viviendas-con-drenaje.html)
+* [Viviendas con Energía Eléctrica](indicadores-torreon/sociedad-viviendas-con-energia-electrica.html)
+* [Viviendas con Internet](indicadores-torreon/sociedad-viviendas-con-internet.html)
+* [Viviendas que Disponen de Retrete](indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html)
+FINAL;
+        return $this->twitter_bootstrap_thumbnail(
+            'sig/introduccion/imagen-previa-ancha.jpg',
+            'Sistema de Información Geográfica',
+            \Michelf\Markdown::defaultTransform($parrafo),
+            array(
+                '<i class="fa fa-map-marker"></i> Reconversión a Led' => 'sig/alumbrado-publico.html',
+                '<i class="fa fa-map-marker"></i> Zonificación'       => 'sig/zonificacion.html',
+                '<i class="fa fa-map-marker"></i> Abrir el S.I.G.'    => 'sig/abrir-sig.html'));
+    } // sig
+
+    /**
+     * Sistema Metropolitano de Indicadores
+     *
+     * @return string Código HTML
+     */
+    protected function smi() {
+        return $this->twitter_bootstrap_thumbnail(
+            'smi/introduccion/imagen-previa-ancha.jpg',
+            'Sistema Metropolitano de Indicadores',
+            '<p>Mantenemos al día indicadores en 5 grandes temas: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad para los municipios de la Laguna.</p>',
+            array(
+                '<i class="fa fa-file-text-o"></i> Qué son los Indicadores' => 'smi/introduccion.html',
+                '<i class="fa fa-th-list"></i> Categorías'              => 'indicadores-categorias/index.html'));
+    } // smi
+
+    /**
      * HTML
      *
      * @return string Código HTML
@@ -74,39 +135,19 @@ class Destacado {
         $a[] = '  <!-- DESTACADO -->';
         $a[] = '  <section id="destacado">';
         $a[] = '    <div class="row">';
-        //
+        // Primer columna
         $a[] = '      <div class="col-sm-6 col-md-4">';
-        $a[] = $this->twitter_bootstrap_thumbnail(
-            'plan-estrategico-metropolitano/introduccion/imagen-previa-ancha.jpg',
-            'Plan Estratégico Metropolitano',
-            'Súmate al esfuerzo de planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad de La Laguna.',
-            array(
-                'Conoce el Plan'                 => 'plan-estrategico-metropolitano/introduccion.html',
-                'Mesa 1: Diagnóstico-Pronóstico' => 'plan-estrategico-metropolitano/mesa-1.html',
-                'Entrega tu propuesta'           => 'http://trcimplan.mx/interaccion-web/index.php/686726/lang-es-MX'));
+        $a[] = $this->pem();
         $a[] = '      </div>';
-        //
+        // Segunda columna
         $a[] = '      <div class="col-sm-6 col-md-4">';
-        $a[] = $this->twitter_bootstrap_thumbnail(
-            'sig/introduccion/imagen-previa-ancha.jpg',
-            'Sistema de Información Geográfica',
-            'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.',
-            array(
-                'Conoce el SIG'           => 'sig/introduccion.html',
-                'Mapa Reconversión a Led' => 'sig/alumbrado-publico.html',
-                'Mapa Zonificación'       => 'sig/zonificacion.html'));
+        $a[] = $this->sig();
         $a[] = '      </div>';
-        //
+        // Tercer columna
         $a[] = '      <div class="col-sm-6 col-md-4">';
-        $a[] = $this->twitter_bootstrap_thumbnail(
-            'smi/introduccion/imagen-previa-ancha.jpg',
-            'Sistema Metropolitano de Indicadores',
-            'Mantenemos al día indicadores en 5 grandes temas: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad para los municipios de la Laguna.',
-            array(
-                'Qué son los Indicadores' => 'smi/introduccion.html',
-                'Categorías'              => 'indicadores-categorias/index.html'));
+        $a[] = $this->smi();
         $a[] = '      </div>';
-        //
+        // Terminar las columnas
         $a[] = '    </div>'; // row
         $a[] = '  </section>';
         // Entregar
@@ -119,7 +160,7 @@ class Destacado {
      * @return string Código Javascript
      */
     public function javascript() {
-        return '';
+        return false;
     } // javascript
 
 } // Clase Destacado

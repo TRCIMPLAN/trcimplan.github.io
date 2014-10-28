@@ -56,10 +56,10 @@ class Mapa {
         $a[] = '      <div class="col-md-4">';
         $a[] = '        <h4 class="mapa-encabezado">SERVICIOS</h4>';
         $a[] = '        <ul>';
+        $a[] = '          <li><a href="blog/index.html">Análisis Publicados</a></li>';
         $a[] = '          <li><a href="plan-estrategico-metropolitano/introduccion.html">Plan Estratégico Metropolitano</a></li>';
         $a[] = '          <li><a href="smi/introduccion.html">S. Metropolitano de Indicadores</a></li>';
         $a[] = '          <li><a href="sig/introduccion.html">S. Información Geográfica</a></li>';
-        $a[] = '          <li><a href="blog/index.html">Análisis Publicados</a></li>';
         $a[] = '          <li><a href="proyectos/introduccion.html">Banco de Proyectos</a></li>';
         $a[] = '        </ul>';
         $a[] = '      </div>';

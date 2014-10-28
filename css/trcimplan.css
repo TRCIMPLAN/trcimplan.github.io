@@ -138,11 +138,12 @@ a:focus   { text-decoration:none; color:#FF3300; }
     float:left;
 }
 .descripcion {
-    font-size:14px;
+    font-size:0.8em;
 }
+.autor,
 .autor-fecha {
     color:#888;
-    font-size:12px;
+    font-size:0.6em;
 }
 .centrado {
     text-align:center;
@@ -231,6 +232,22 @@ a.galeria-icono:focus   { color:#FF3300; }
 #destacado .thumbnail {
     background-color:transparent;
     border:none;
+}
+#destacado .caption {
+    font-size:0.8em;
+}
+#destacado .caption h3 {
+    margin-top:0;
+}
+#destacado .caption ul {
+    margin:0;
+    padding:2px 0 0 0;
+}
+#destacado .caption li {
+    margin-bottom:2px;
+    padding:0 2px 0 0;
+    list-style-type:none;
+    text-align:left;
 }
 #novedades {
     background-color:#FFF;
