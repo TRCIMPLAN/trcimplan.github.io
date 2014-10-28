@@ -43,9 +43,9 @@ class Zonificacion extends \Base\Publicacion {
         $this->categorias    = array('SIG', 'Zonificación');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<iframe width='100%' height='520' frameborder='0' src='https://saemapas.cartodb.com/viz/e22ebd7e-2ee9-11e4-9351-0e230854a1cb/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='https://sigimplan.cartodb.com/viz/b1f44c76-3f7b-11e4-bc26-0e230854a1cb/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-<a class="btn btn-default" href="http://sigimplan.cartodb.com/viz/b1f44c76-3f7b-11e4-bc26-0e230854a1cb/embed_map" target="_blank" role="button">Ver a pantalla completa</a>
+<a class="btn btn-default" href="https://sigimplan.cartodb.com/viz/b1f44c76-3f7b-11e4-bc26-0e230854a1cb/embed_map" target="_blank" role="button">Ver a pantalla completa</a>
 
 FINAL;
         $this->javascript    = <<<FINAL
