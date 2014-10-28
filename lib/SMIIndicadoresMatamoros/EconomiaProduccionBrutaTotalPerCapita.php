@@ -91,7 +91,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisixjxkpqv" class="grafica"></div>
+<div id="Morrisnuyvxbox" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -210,9 +210,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisixjxkpqv === 'undefined') {
-    varMorrisixjxkpqv = Morris.Line({
-      element: 'Morrisixjxkpqv',
+  if (typeof varMorrisnuyvxbox === 'undefined') {
+    varMorrisnuyvxbox = Morris.Line({
+      element: 'Morrisnuyvxbox',
       data: [{ fecha: '1998-12-31', dato: 3080.72 },{ fecha: '2003-12-31', dato: 6803.48 },{ fecha: '2008-12-31', dato: 15373.03 }],
       xkey: 'fecha',
       ykeys: ['dato'],

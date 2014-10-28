@@ -94,7 +94,7 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morriswsgoifpc" class="grafica"></div>
+<div id="Morriszthxeudq" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -283,9 +283,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriswsgoifpc === 'undefined') {
-    varMorriswsgoifpc = Morris.Line({
-      element: 'Morriswsgoifpc',
+  if (typeof varMorriszthxeudq === 'undefined') {
+    varMorriszthxeudq = Morris.Line({
+      element: 'Morriszthxeudq',
       data: [{ fecha: '2014-01-31', dato: 178 },{ fecha: '2014-02-28', dato: 134 },{ fecha: '2014-03-31', dato: 91 },{ fecha: '2014-04-30', dato: 5 },{ fecha: '2014-05-31', dato: 155 },{ fecha: '2014-06-30', dato: 101 }],
       xkey: 'fecha',
       ykeys: ['dato'],

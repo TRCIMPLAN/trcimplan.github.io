@@ -76,7 +76,7 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrismxdfttwp" class="grafica"></div>
+<div id="Morriswughnxeg" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -300,9 +300,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrismxdfttwp === 'undefined') {
-    varMorrismxdfttwp = Morris.Line({
-      element: 'Morrismxdfttwp',
+  if (typeof varMorriswughnxeg === 'undefined') {
+    varMorriswughnxeg = Morris.Line({
+      element: 'Morriswughnxeg',
       data: [{ fecha: '2009-12-31', dato: 5.6000 },{ fecha: '2010-12-31', dato: 14.1000 },{ fecha: '2011-12-31', dato: 7.5000 },{ fecha: '2012-12-31', dato: 15.3800 }],
       xkey: 'fecha',
       ykeys: ['dato'],

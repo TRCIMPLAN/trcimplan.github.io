@@ -108,7 +108,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrissgywmyqc" class="grafica"></div>
+<div id="Morriskvjwgrts" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -332,9 +332,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrissgywmyqc === 'undefined') {
-    varMorrissgywmyqc = Morris.Line({
-      element: 'Morrissgywmyqc',
+  if (typeof varMorriskvjwgrts === 'undefined') {
+    varMorriskvjwgrts = Morris.Line({
+      element: 'Morriskvjwgrts',
       data: [{ fecha: '2007-12-31', dato: 2389268767.00 },{ fecha: '2008-12-31', dato: 3054640385.00 },{ fecha: '2009-12-31', dato: 3147856470.00 },{ fecha: '2010-12-31', dato: 3037346224.00 },{ fecha: '2011-12-31', dato: 3391664429.00 },{ fecha: '2012-12-31', dato: 3504184566.00 },{ fecha: '2013-12-31', dato: 3661978820.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

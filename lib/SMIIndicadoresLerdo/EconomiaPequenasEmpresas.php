@@ -69,7 +69,7 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morriszpubvpml" class="grafica"></div>
+<div id="Morrisuniegqtj" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -195,9 +195,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriszpubvpml === 'undefined') {
-    varMorriszpubvpml = Morris.Line({
-      element: 'Morriszpubvpml',
+  if (typeof varMorrisuniegqtj === 'undefined') {
+    varMorrisuniegqtj = Morris.Line({
+      element: 'Morrisuniegqtj',
       data: [{ fecha: '2013-12-31', dato: 6.9600 },{ fecha: '2014-07-31', dato: 5.6200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

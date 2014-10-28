@@ -88,7 +88,7 @@ class SeguridadDelitos extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morriseevndnpn" class="grafica"></div>
+<div id="Morrisqmhibriw" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -284,9 +284,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriseevndnpn === 'undefined') {
-    varMorriseevndnpn = Morris.Line({
-      element: 'Morriseevndnpn',
+  if (typeof varMorrisqmhibriw === 'undefined') {
+    varMorrisqmhibriw = Morris.Line({
+      element: 'Morrisqmhibriw',
       data: [{ fecha: '2014-01-31', dato: 363 },{ fecha: '2014-02-28', dato: 307 },{ fecha: '2014-03-31', dato: 382 },{ fecha: '2014-04-30', dato: 384 },{ fecha: '2014-05-31', dato: 325 },{ fecha: '2014-06-30', dato: 277 }],
       xkey: 'fecha',
       ykeys: ['dato'],
