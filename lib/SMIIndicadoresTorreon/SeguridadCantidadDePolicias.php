@@ -25,15 +25,15 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
         $this->claves      = 'Torreón, Seguridad';
         $this->categorias  = array('Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li class="active"><a href="#datos" data-toggle="tab">Datos</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane active" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane active" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Cantidad total de policías en el municipio.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -53,7 +53,7 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>Determinado en base al reporte de Transparencia de la Nómina.</p>
 
     </div>
@@ -62,7 +62,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 FINAL;
     } // constructor

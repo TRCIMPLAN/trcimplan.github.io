@@ -152,16 +152,16 @@
       <span><h1><i class="fa fa-table encabezado-icono"></i> Trabajadores Asegurados en Torreón</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li class="active"><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Evolución del empleo medida en trabajadores asegurados por el IMSS.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -217,15 +217,15 @@
         </tbody>
       </table>
       <p><b>Unidad:</b> Personas.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>El dato incluye a los trabajadores asegurados de los municipios de la región abarcados por la subdelegación Torreón.</p>
 
 <p>Datos obtenidos de <a href="http://201.144.108.20/imssdigital/conoce/estadisticas/pages/memoria2012.aspx">IMSS</a></p>
 
     </div>
-    <div class="tab-pane active" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrispyeknuxd" class="grafica"></div>
+    <div class="tab-pane active" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrisguwglnha" class="grafica"></div>
     </div>
   </div>
 </article>
@@ -259,14 +259,14 @@
 <script>
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrispyeknuxd === 'undefined') {
-    varMorrispyeknuxd = Morris.Line({
-      element: 'Morrispyeknuxd',
+  if (typeof varMorrisguwglnha === 'undefined') {
+    varMorrisguwglnha = Morris.Line({
+      element: 'Morrisguwglnha',
       data: [{ fecha: '2007-12-31', dato: 171936 },{ fecha: '2008-12-31', dato: 164258 },{ fecha: '2009-12-31', dato: 157898 },{ fecha: '2010-12-31', dato: 168723 },{ fecha: '2011-12-31', dato: 176045 },{ fecha: '2012-12-31', dato: 184407 },{ fecha: '2013-12-31', dato: 187050 }],
       xkey: 'fecha',
       ykeys: ['dato'],

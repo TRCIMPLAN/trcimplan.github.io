@@ -25,16 +25,16 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
         $this->claves      = 'Torreón, Población';
         $this->categorias  = array('Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li class="active"><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Calcula el promedio estimado de hijos por cada varón.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -78,27 +78,27 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>Estimación propia en base al dato de Ocupación por Vivienda</p>
 
     </div>
-    <div class="tab-pane active" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morriskvtzzrmx" class="grafica"></div>
+    <div class="tab-pane active" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrispjmnxanf" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskvtzzrmx === 'undefined') {
-    varMorriskvtzzrmx = Morris.Line({
-      element: 'Morriskvtzzrmx',
+  if (typeof varMorrispjmnxanf === 'undefined') {
+    varMorrispjmnxanf = Morris.Line({
+      element: 'Morrispjmnxanf',
       data: [{ fecha: '2008-12-31', dato: 1.8100 },{ fecha: '2009-12-31', dato: 1.7700 },{ fecha: '2010-12-31', dato: 1.7200 },{ fecha: '2011-12-31', dato: 1.6900 },{ fecha: '2012-12-31', dato: 1.6600 }],
       xkey: 'fecha',
       ykeys: ['dato'],

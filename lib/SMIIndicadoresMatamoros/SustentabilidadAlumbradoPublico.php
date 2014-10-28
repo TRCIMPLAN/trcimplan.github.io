@@ -25,16 +25,16 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Servicios Públicos';
         $this->categorias  = array('Servicios Públicos');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Porcentaje de viviendas sin acceso a alumbrado público en su manzana</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -54,12 +54,12 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>Censo de Población y Vivienda 2010. Consulta las <a href="http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx">Bases de Datos</a></p>
 
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -107,7 +107,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 FINAL;
     } // constructor

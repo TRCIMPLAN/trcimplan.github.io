@@ -25,16 +25,16 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Educación, Cultura';
         $this->categorias  = array('Educación', 'Cultura');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Espacios culturales físicamente delimitados.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -54,12 +54,12 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>Se realizó un filtrado básico de la totalidad de los espacios culturales considerados por CONACULTA, ya que ellos consideran programas, fondos y proyectos a sus estadísticas totales, así como eventos que fueron realizados en una ocasión y datan de hace más de 5 años. Consulta la <a href="http://www.sic.gob.mx">Base de Datos completa</a></p>
 
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -107,7 +107,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 FINAL;
     } // constructor

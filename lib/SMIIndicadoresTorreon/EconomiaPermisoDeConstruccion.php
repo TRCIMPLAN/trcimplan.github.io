@@ -25,16 +25,16 @@ class EconomiaPermisoDeConstruccion extends \Base\Publicacion {
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li class="active"><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Número de días necesarios para conseguir un permiso de construcción.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -69,23 +69,23 @@ Costo (% de ingreso per cápita) = 40,6</td>
       </table>
       <p><b>Unidad:</b> Días.</p>
     </div>
-    <div class="tab-pane active" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morriskbohmtaf" class="grafica"></div>
+    <div class="tab-pane active" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morriswxyuacuy" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriskbohmtaf === 'undefined') {
-    varMorriskbohmtaf = Morris.Line({
-      element: 'Morriskbohmtaf',
+  if (typeof varMorriswxyuacuy === 'undefined') {
+    varMorriswxyuacuy = Morris.Line({
+      element: 'Morriswxyuacuy',
       data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 }],
       xkey: 'fecha',
       ykeys: ['dato'],

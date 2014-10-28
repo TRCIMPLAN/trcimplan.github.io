@@ -25,16 +25,16 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento20082012 extends \Base\Publ
         $this->claves      = 'Torreón, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -54,14 +54,14 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento20082012 extends \Base\Publ
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>A nivel nacional el porcentaje de producción en sectores con tasa promedio de crecimiento superior al promedio es de 26.44%.</p>
 
 <p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a> y <a href="http://www.cefp.gob.mx/Pub_Macro_Estadisticas.htm">Centro de Estudios de las Finanzas Públicas</a></p>
 
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -116,7 +116,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 FINAL;
     } // constructor

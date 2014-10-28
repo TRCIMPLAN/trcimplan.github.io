@@ -25,17 +25,17 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Vialidad';
         $this->categorias  = array('Vialidad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Cantidad de accidentes viales por año.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -152,12 +152,12 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
-    <div class="tab-pane" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrisprvechyd" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrisnrwudyoc" class="grafica"></div>
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -646,14 +646,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisprvechyd === 'undefined') {
-    varMorrisprvechyd = Morris.Line({
-      element: 'Morrisprvechyd',
+  if (typeof varMorrisnrwudyoc === 'undefined') {
+    varMorrisnrwudyoc = Morris.Line({
+      element: 'Morrisnrwudyoc',
       data: [{ fecha: '1997-12-31', dato: 87 },{ fecha: '1998-12-31', dato: 94 },{ fecha: '1999-12-31', dato: 39 },{ fecha: '2000-12-31', dato: 169 },{ fecha: '2001-12-31', dato: 155 },{ fecha: '2002-12-31', dato: 141 },{ fecha: '2003-12-31', dato: 140 },{ fecha: '2004-12-31', dato: 281 },{ fecha: '2005-12-31', dato: 212 },{ fecha: '2006-12-31', dato: 335 },{ fecha: '2007-12-31', dato: 524 },{ fecha: '2008-12-31', dato: 546 },{ fecha: '2009-12-31', dato: 369 },{ fecha: '2010-12-31', dato: 439 },{ fecha: '2011-12-31', dato: 321 },{ fecha: '2012-12-31', dato: 289 },{ fecha: '2013-12-31', dato: 161 }],
       xkey: 'fecha',
       ykeys: ['dato'],

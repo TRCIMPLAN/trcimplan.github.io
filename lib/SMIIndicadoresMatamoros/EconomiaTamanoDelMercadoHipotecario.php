@@ -25,17 +25,17 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Mercados';
         $this->categorias  = array('Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Créditos dispuestos marginalmente durante el año indicado.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -79,18 +79,18 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad de Créditos.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>El mercado hipotecario de La Laguna representa el 0.54% del mercado hipotecario nacional.</p>
 
 <p>Datos obtenidos de <a href="http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx">CNBV</a></p>
 
     </div>
-    <div class="tab-pane" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrisieapknzy" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrisvltkoiix" class="grafica"></div>
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -250,14 +250,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisieapknzy === 'undefined') {
-    varMorrisieapknzy = Morris.Line({
-      element: 'Morrisieapknzy',
+  if (typeof varMorrisvltkoiix === 'undefined') {
+    varMorrisvltkoiix = Morris.Line({
+      element: 'Morrisvltkoiix',
       data: [{ fecha: '2010-12-31', dato: 15 },{ fecha: '2011-12-31', dato: 152 },{ fecha: '2012-12-31', dato: 189 },{ fecha: '2013-12-31', dato: 39 },{ fecha: '2014-03-31', dato: 5 }],
       xkey: 'fecha',
       ykeys: ['dato'],

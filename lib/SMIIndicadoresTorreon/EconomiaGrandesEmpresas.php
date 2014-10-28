@@ -25,17 +25,17 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
         $this->claves      = 'Torreón, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Porcentaje del total de empresas que cuentan con más de 250 empleados.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -61,18 +61,18 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>A nivel nacional, el 0.63% de las empresas son grandes.</p>
 
 <p>Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoPublico.asp?p=1">SIEM</a></p>
 
     </div>
-    <div class="tab-pane" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrisroxtlddq" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrisyklcqhve" class="grafica"></div>
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -190,14 +190,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisroxtlddq === 'undefined') {
-    varMorrisroxtlddq = Morris.Line({
-      element: 'Morrisroxtlddq',
+  if (typeof varMorrisyklcqhve === 'undefined') {
+    varMorrisyklcqhve = Morris.Line({
+      element: 'Morrisyklcqhve',
       data: [{ fecha: '2013-12-31', dato: 0.5800 },{ fecha: '2014-07-31', dato: 1.1300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

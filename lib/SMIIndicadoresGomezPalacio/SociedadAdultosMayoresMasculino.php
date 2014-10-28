@@ -25,17 +25,17 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Grupos Vulnerables';
         $this->categorias  = array('Grupos Vulnerables');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Población estimada a mediados de año de personas de 65 años y más de sexo masculino</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -110,12 +110,12 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
-    <div class="tab-pane" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrisvihqyrqs" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrisykpxxnlg" class="grafica"></div>
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -625,14 +625,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisvihqyrqs === 'undefined') {
-    varMorrisvihqyrqs = Morris.Line({
-      element: 'Morrisvihqyrqs',
+  if (typeof varMorrisykpxxnlg === 'undefined') {
+    varMorrisykpxxnlg = Morris.Line({
+      element: 'Morrisykpxxnlg',
       data: [{ fecha: '2011-06-30', dato: 8437 },{ fecha: '2012-06-30', dato: 8736 },{ fecha: '2013-06-30', dato: 9056 },{ fecha: '2014-06-30', dato: 9400 },{ fecha: '2015-06-30', dato: 9767 },{ fecha: '2016-06-30', dato: 10158 },{ fecha: '2017-06-30', dato: 10573 },{ fecha: '2018-06-30', dato: 11009 },{ fecha: '2019-06-30', dato: 11464 },{ fecha: '2020-06-30', dato: 11936 }],
       xkey: 'fecha',
       ykeys: ['dato'],

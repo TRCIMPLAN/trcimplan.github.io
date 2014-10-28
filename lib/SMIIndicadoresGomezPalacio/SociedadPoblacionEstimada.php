@@ -25,17 +25,17 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Población';
         $this->categorias  = array('Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Población estimada a mitad de año.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -109,16 +109,16 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>Estimaciones de CONAPO en base a INEGI. Consulta la <a href="http://www.conapo.gob.mx/es/CONAPO/Proyecciones_Datos">Base de Datos</a></p>
 
     </div>
-    <div class="tab-pane" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrisrilvwsjg" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrislkmpszxr" class="grafica"></div>
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -628,14 +628,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrilvwsjg === 'undefined') {
-    varMorrisrilvwsjg = Morris.Line({
-      element: 'Morrisrilvwsjg',
+  if (typeof varMorrislkmpszxr === 'undefined') {
+    varMorrislkmpszxr = Morris.Line({
+      element: 'Morrislkmpszxr',
       data: [{ fecha: '2011-06-30', dato: 339355 },{ fecha: '2012-06-30', dato: 343135 },{ fecha: '2013-06-30', dato: 346836 },{ fecha: '2014-06-30', dato: 350513 },{ fecha: '2015-06-30', dato: 354123 },{ fecha: '2016-06-30', dato: 357664 },{ fecha: '2017-06-30', dato: 361144 },{ fecha: '2018-06-30', dato: 364540 },{ fecha: '2019-06-30', dato: 367828 },{ fecha: '2020-06-30', dato: 371002 }],
       xkey: 'fecha',
       ykeys: ['dato'],

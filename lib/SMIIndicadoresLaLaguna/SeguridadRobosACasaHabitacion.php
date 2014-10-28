@@ -25,17 +25,17 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
         $this->claves      = 'La Laguna';
         $this->categorias  = array();
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>robos totales por mes</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -86,12 +86,12 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
-    <div class="tab-pane" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrisahvrtccu" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrisnogwbedz" class="grafica"></div>
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -279,14 +279,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisahvrtccu === 'undefined') {
-    varMorrisahvrtccu = Morris.Line({
-      element: 'Morrisahvrtccu',
+  if (typeof varMorrisnogwbedz === 'undefined') {
+    varMorrisnogwbedz = Morris.Line({
+      element: 'Morrisnogwbedz',
       data: [{ fecha: '2014-01-31', dato: 115 },{ fecha: '2014-02-28', dato: 115 },{ fecha: '2014-03-31', dato: 123 },{ fecha: '2014-04-30', dato: 102 },{ fecha: '2014-05-31', dato: 155 },{ fecha: '2014-06-30', dato: 83 }],
       xkey: 'fecha',
       ykeys: ['dato'],

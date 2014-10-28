@@ -25,17 +25,17 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Ingresos totales por municipio.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -91,7 +91,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Pesos.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>El promedio nacional de los ingresos totales por municipio es de:</p>
 
 <ul>
@@ -106,12 +106,12 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
 <p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&amp;c=11289&amp;proy=efipem_fmun">INEGI. Estadística de finanzas públicas estatales y municipales</a></p>
 
     </div>
-    <div class="tab-pane" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrisdjhljdfe" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrispckdiyih" class="grafica"></div>
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -327,14 +327,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisdjhljdfe === 'undefined') {
-    varMorrisdjhljdfe = Morris.Line({
-      element: 'Morrisdjhljdfe',
+  if (typeof varMorrispckdiyih === 'undefined') {
+    varMorrispckdiyih = Morris.Line({
+      element: 'Morrispckdiyih',
       data: [{ fecha: '2007-12-31', dato: 241931931.00 },{ fecha: '2008-12-31', dato: 262644851.00 },{ fecha: '2009-12-31', dato: 308171837.00 },{ fecha: '2010-12-31', dato: 279317865.00 },{ fecha: '2011-12-31', dato: 324230289.00 },{ fecha: '2012-12-31', dato: 360393013.00 },{ fecha: '2013-12-31', dato: 475221421.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

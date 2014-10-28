@@ -25,16 +25,16 @@ class SociedadFecundidad extends \Base\Publicacion {
         $this->claves      = 'Torreón, Género, Población';
         $this->categorias  = array('Género', 'Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li class="active"><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Tasa de fecundidad.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -79,23 +79,23 @@ class SociedadFecundidad extends \Base\Publicacion {
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
-    <div class="tab-pane active" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrisxuvphpsb" class="grafica"></div>
+    <div class="tab-pane active" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morriscudxmvzv" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisxuvphpsb === 'undefined') {
-    varMorrisxuvphpsb = Morris.Line({
-      element: 'Morrisxuvphpsb',
+  if (typeof varMorriscudxmvzv === 'undefined') {
+    varMorriscudxmvzv = Morris.Line({
+      element: 'Morriscudxmvzv',
       data: [{ fecha: '2008-12-31', dato: 2.2000 },{ fecha: '2009-12-31', dato: 2.1700 },{ fecha: '2010-12-31', dato: 2.1400 },{ fecha: '2011-12-31', dato: 2.1400 },{ fecha: '2012-12-31', dato: 2.1300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

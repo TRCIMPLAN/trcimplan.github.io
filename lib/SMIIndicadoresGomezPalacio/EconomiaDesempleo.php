@@ -25,17 +25,17 @@ class EconomiaDesempleo extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Empleo';
         $this->categorias  = array('Empleo');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#grafica" data-toggle="tab">Gráfica</a></li>
-    <li class="active"><a href="#otras_regiones" data-toggle="tab">Otras regiones</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Cantidad de personas desempleadas.</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -67,7 +67,7 @@ class EconomiaDesempleo extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Personas.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>Desempleados a nivel nacional:</p>
 
 <ul>
@@ -79,12 +79,12 @@ class EconomiaDesempleo extends \Base\Publicacion {
 <p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&amp;s=est">INEGI. Censos de población y vivienda</a></p>
 
     </div>
-    <div class="tab-pane" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrisdlmcdyan" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrisliqiidna" class="grafica"></div>
     </div>
-    <div class="tab-pane active" id="otras_regiones">
-<h4>En otras regiones</h4>
+    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -188,14 +188,14 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisdlmcdyan === 'undefined') {
-    varMorrisdlmcdyan = Morris.Line({
-      element: 'Morrisdlmcdyan',
+  if (typeof varMorrisliqiidna === 'undefined') {
+    varMorrisliqiidna = Morris.Line({
+      element: 'Morrisliqiidna',
       data: [{ fecha: '1990-03-12', dato: 2050 },{ fecha: '2000-02-14', dato: 981 },{ fecha: '2010-06-25', dato: 9705 }],
       xkey: 'fecha',
       ykeys: ['dato'],

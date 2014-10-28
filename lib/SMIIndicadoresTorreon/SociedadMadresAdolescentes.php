@@ -25,16 +25,16 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
         $this->claves      = 'Torreón, Grupos Vulnerables, Género';
         $this->categorias  = array('Grupos Vulnerables', 'Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="lenguetasindicador">
-    <li><a href="#datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#grafica" data-toggle="tab">Gráfica</a></li>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li class="active"><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="datos">
-      <h4>Descripción</h4>
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
 <p>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</p>
 
-      <h4>Información recopilada</h4>
+      <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -84,27 +84,27 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
-      <h4>Observaciones</h4>
+      <h3>Observaciones</h3>
 <p>Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaria de Salud. <a href="http://www.sinais.salud.gob.mx">SINAIS</a></p>
 
     </div>
-    <div class="tab-pane active" id="grafica">
-<h4>Gráfica</h4>
-<div id="Morrisabwtydis" class="grafica"></div>
+    <div class="tab-pane active" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrisflcweloz" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
-  $('#lenguetasindicador a:first').tab('show')
+  $('#smi-indicador a:first').tab('show')
 });
 // LENGUETA
-$('#lenguetasindicador a[href="#grafica"]').on('shown.bs.tab', function (e) {
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisabwtydis === 'undefined') {
-    varMorrisabwtydis = Morris.Line({
-      element: 'Morrisabwtydis',
+  if (typeof varMorrisflcweloz === 'undefined') {
+    varMorrisflcweloz = Morris.Line({
+      element: 'Morrisflcweloz',
       data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
       xkey: 'fecha',
       ykeys: ['dato'],
