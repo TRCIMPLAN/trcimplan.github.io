@@ -88,7 +88,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morristzyqfakx" class="grafica"></div>
+<div id="Morriswrhlznfo" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -284,9 +284,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristzyqfakx === 'undefined') {
-    varMorristzyqfakx = Morris.Line({
-      element: 'Morristzyqfakx',
+  if (typeof varMorriswrhlznfo === 'undefined') {
+    varMorriswrhlznfo = Morris.Line({
+      element: 'Morriswrhlznfo',
       data: [{ fecha: '2014-01-31', dato: 12 },{ fecha: '2014-02-28', dato: 10 },{ fecha: '2014-03-31', dato: 8 },{ fecha: '2014-04-30', dato: 17 },{ fecha: '2014-05-31', dato: 10 },{ fecha: '2014-06-30', dato: 19 }],
       xkey: 'fecha',
       ykeys: ['dato'],

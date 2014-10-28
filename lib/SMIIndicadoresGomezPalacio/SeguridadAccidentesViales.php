@@ -154,7 +154,7 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrismcplcuil" class="grafica"></div>
+<div id="Morrisizmqudne" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -651,9 +651,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrismcplcuil === 'undefined') {
-    varMorrismcplcuil = Morris.Line({
-      element: 'Morrismcplcuil',
+  if (typeof varMorrisizmqudne === 'undefined') {
+    varMorrisizmqudne = Morris.Line({
+      element: 'Morrisizmqudne',
       data: [{ fecha: '1997-12-31', dato: 691 },{ fecha: '1998-12-31', dato: 1600 },{ fecha: '1999-12-31', dato: 2422 },{ fecha: '2000-12-31', dato: 2797 },{ fecha: '2001-12-31', dato: 2876 },{ fecha: '2002-12-31', dato: 2783 },{ fecha: '2003-12-31', dato: 2225 },{ fecha: '2004-12-31', dato: 2396 },{ fecha: '2005-12-31', dato: 2524 },{ fecha: '2006-12-31', dato: 2323 },{ fecha: '2007-12-31', dato: 2211 },{ fecha: '2008-12-31', dato: 2049 },{ fecha: '2009-12-31', dato: 1714 },{ fecha: '2010-12-31', dato: 1593 },{ fecha: '2011-12-31', dato: 1596 },{ fecha: '2012-12-31', dato: 1498 },{ fecha: '2013-12-31', dato: 1128 }],
       xkey: 'fecha',
       ykeys: ['dato'],

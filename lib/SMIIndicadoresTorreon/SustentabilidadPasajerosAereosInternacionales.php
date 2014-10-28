@@ -123,7 +123,7 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrishmblrnzs" class="grafica"></div>
+<div id="Morrisvdjyekgv" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -242,9 +242,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrishmblrnzs === 'undefined') {
-    varMorrishmblrnzs = Morris.Line({
-      element: 'Morrishmblrnzs',
+  if (typeof varMorrisvdjyekgv === 'undefined') {
+    varMorrisvdjyekgv = Morris.Line({
+      element: 'Morrisvdjyekgv',
       data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 }],
       xkey: 'fecha',
       ykeys: ['dato'],

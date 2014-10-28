@@ -71,7 +71,7 @@ Costo (% de ingreso per cápita) = 40,6</td>
     </div>
     <div class="tab-pane active" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morriswxyuacuy" class="grafica"></div>
+<div id="Morrisxgcuzdsh" class="grafica"></div>
     </div>
   </div>
 FINAL;
@@ -83,9 +83,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriswxyuacuy === 'undefined') {
-    varMorriswxyuacuy = Morris.Line({
-      element: 'Morriswxyuacuy',
+  if (typeof varMorrisxgcuzdsh === 'undefined') {
+    varMorrisxgcuzdsh = Morris.Line({
+      element: 'Morrisxgcuzdsh',
       data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 }],
       xkey: 'fecha',
       ykeys: ['dato'],

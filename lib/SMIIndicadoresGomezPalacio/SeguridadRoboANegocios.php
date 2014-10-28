@@ -88,7 +88,7 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisjufznlha" class="grafica"></div>
+<div id="Morrissoifirvr" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -284,9 +284,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisjufznlha === 'undefined') {
-    varMorrisjufznlha = Morris.Line({
-      element: 'Morrisjufznlha',
+  if (typeof varMorrissoifirvr === 'undefined') {
+    varMorrissoifirvr = Morris.Line({
+      element: 'Morrissoifirvr',
       data: [{ fecha: '2014-01-31', dato: 74 },{ fecha: '2014-02-28', dato: 88 },{ fecha: '2014-03-31', dato: 115 },{ fecha: '2014-04-30', dato: 87 },{ fecha: '2014-05-31', dato: 86 },{ fecha: '2014-06-30', dato: 50 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -73,7 +73,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisjocpmgdr" class="grafica"></div>
+<div id="Morrisxtybufel" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -206,9 +206,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisjocpmgdr === 'undefined') {
-    varMorrisjocpmgdr = Morris.Line({
-      element: 'Morrisjocpmgdr',
+  if (typeof varMorrisxtybufel === 'undefined') {
+    varMorrisxtybufel = Morris.Line({
+      element: 'Morrisxtybufel',
       data: [{ fecha: '1998-12-31', dato: 28.1000 },{ fecha: '2003-12-31', dato: 26.0600 },{ fecha: '2008-12-31', dato: 32.9908 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -88,7 +88,7 @@ class SeguridadRobosTotales extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisgrrjxhgc" class="grafica"></div>
+<div id="Morriseaanisaf" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -284,9 +284,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisgrrjxhgc === 'undefined') {
-    varMorrisgrrjxhgc = Morris.Line({
-      element: 'Morrisgrrjxhgc',
+  if (typeof varMorriseaanisaf === 'undefined') {
+    varMorriseaanisaf = Morris.Line({
+      element: 'Morriseaanisaf',
       data: [{ fecha: '2014-01-31', dato: 552 },{ fecha: '2014-02-28', dato: 485 },{ fecha: '2014-03-31', dato: 397 },{ fecha: '2014-04-30', dato: 360 },{ fecha: '2014-05-31', dato: 575 },{ fecha: '2014-06-30', dato: 392 }],
       xkey: 'fecha',
       ykeys: ['dato'],

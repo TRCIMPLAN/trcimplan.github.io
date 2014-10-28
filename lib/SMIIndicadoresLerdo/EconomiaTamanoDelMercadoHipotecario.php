@@ -87,7 +87,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisryevbbup" class="grafica"></div>
+<div id="Morrisowauywbr" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -255,9 +255,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisryevbbup === 'undefined') {
-    varMorrisryevbbup = Morris.Line({
-      element: 'Morrisryevbbup',
+  if (typeof varMorrisowauywbr === 'undefined') {
+    varMorrisowauywbr = Morris.Line({
+      element: 'Morrisowauywbr',
       data: [{ fecha: '2010-12-31', dato: 76 },{ fecha: '2011-12-31', dato: 179 },{ fecha: '2012-12-31', dato: 340 },{ fecha: '2013-12-31', dato: 379 },{ fecha: '2014-03-31', dato: 27 }],
       xkey: 'fecha',
       ykeys: ['dato'],

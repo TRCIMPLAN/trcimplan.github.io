@@ -78,7 +78,7 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
     </div>
     <div class="tab-pane active" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisrkzehpxp" class="grafica"></div>
+<div id="Morrisuehwnagr" class="grafica"></div>
     </div>
   </div>
 FINAL;
@@ -90,9 +90,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrkzehpxp === 'undefined') {
-    varMorrisrkzehpxp = Morris.Line({
-      element: 'Morrisrkzehpxp',
+  if (typeof varMorrisuehwnagr === 'undefined') {
+    varMorrisuehwnagr = Morris.Line({
+      element: 'Morrisuehwnagr',
       data: [{ fecha: '2010-12-31', dato: 47.7700 },{ fecha: '2011-12-31', dato: 46.7500 },{ fecha: '2012-12-31', dato: 44.5700 },{ fecha: '2013-12-31', dato: 41.9900 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -64,7 +64,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisrshohnns" class="grafica"></div>
+<div id="Morrisicsfjgbt" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -155,9 +155,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrshohnns === 'undefined') {
-    varMorrisrshohnns = Morris.Line({
-      element: 'Morrisrshohnns',
+  if (typeof varMorrisicsfjgbt === 'undefined') {
+    varMorrisicsfjgbt = Morris.Line({
+      element: 'Morrisicsfjgbt',
       data: [{ fecha: '2014-03-03', dato: 100.0000 },{ fecha: '2014-06-30', dato: 98.7200 }],
       xkey: 'fecha',
       ykeys: ['dato'],

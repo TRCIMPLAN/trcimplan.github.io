@@ -88,7 +88,7 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrishagmbwtp" class="grafica"></div>
+<div id="Morrisvbsugcvd" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -284,9 +284,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrishagmbwtp === 'undefined') {
-    varMorrishagmbwtp = Morris.Line({
-      element: 'Morrishagmbwtp',
+  if (typeof varMorrisvbsugcvd === 'undefined') {
+    varMorrisvbsugcvd = Morris.Line({
+      element: 'Morrisvbsugcvd',
       data: [{ fecha: '2014-01-31', dato: 8 },{ fecha: '2014-02-28', dato: 8 },{ fecha: '2014-03-31', dato: 15 },{ fecha: '2014-04-30', dato: 9 },{ fecha: '2014-05-31', dato: 9 },{ fecha: '2014-06-30', dato: 4 }],
       xkey: 'fecha',
       ykeys: ['dato'],

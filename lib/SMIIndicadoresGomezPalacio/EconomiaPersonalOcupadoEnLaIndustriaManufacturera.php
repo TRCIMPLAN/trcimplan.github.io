@@ -73,7 +73,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \Base\Publicacio
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisrwogohnc" class="grafica"></div>
+<div id="Morrislfilsaza" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -206,9 +206,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisrwogohnc === 'undefined') {
-    varMorrisrwogohnc = Morris.Line({
-      element: 'Morrisrwogohnc',
+  if (typeof varMorrislfilsaza === 'undefined') {
+    varMorrislfilsaza = Morris.Line({
+      element: 'Morrislfilsaza',
       data: [{ fecha: '1998-12-31', dato: 42.5300 },{ fecha: '2003-12-31', dato: 42.2500 },{ fecha: '2008-12-31', dato: 32.0975 }],
       xkey: 'fecha',
       ykeys: ['dato'],
