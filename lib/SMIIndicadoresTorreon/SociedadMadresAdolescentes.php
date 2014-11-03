@@ -90,7 +90,7 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
     </div>
     <div class="tab-pane active" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisritueavw" class="grafica"></div>
+<div id="Morrisgfloczfe" class="grafica"></div>
     </div>
   </div>
 FINAL;
@@ -102,9 +102,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisritueavw === 'undefined') {
-    varMorrisritueavw = Morris.Line({
-      element: 'Morrisritueavw',
+  if (typeof varMorrisgfloczfe === 'undefined') {
+    varMorrisgfloczfe = Morris.Line({
+      element: 'Morrisgfloczfe',
       data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
       xkey: 'fecha',
       ykeys: ['dato'],

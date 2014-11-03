@@ -81,7 +81,7 @@ Costo (% del valor de la propiedad) = 4,5</td>
     </div>
     <div class="tab-pane active" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisfhxpdcgn" class="grafica"></div>
+<div id="Morrisfaetsxsx" class="grafica"></div>
     </div>
   </div>
 FINAL;
@@ -93,9 +93,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisfhxpdcgn === 'undefined') {
-    varMorrisfhxpdcgn = Morris.Line({
-      element: 'Morrisfhxpdcgn',
+  if (typeof varMorrisfaetsxsx === 'undefined') {
+    varMorrisfaetsxsx = Morris.Line({
+      element: 'Morrisfaetsxsx',
       data: [{ fecha: '2007-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 33 },{ fecha: '2013-10-31', dato: 28 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -79,6 +79,13 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>Torreón</td>
+            <td>2014-11-03</td>
+            <td class="derecha">8</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Lerdo</td>
             <td>2014-03-31</td>
             <td class="centrado">NO TIENE</td>
@@ -96,6 +103,13 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
             <td>La Laguna</td>
             <td>2014-03-31</td>
             <td class="derecha">7</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-11-03</td>
+            <td class="derecha">8</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>

@@ -98,7 +98,7 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
     </div>
     <div class="tab-pane active" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisdkkwrfzx" class="grafica"></div>
+<div id="Morrisfexiozbt" class="grafica"></div>
     </div>
   </div>
 FINAL;
@@ -110,9 +110,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisdkkwrfzx === 'undefined') {
-    varMorrisdkkwrfzx = Morris.Line({
-      element: 'Morrisdkkwrfzx',
+  if (typeof varMorrisfexiozbt === 'undefined') {
+    varMorrisfexiozbt = Morris.Line({
+      element: 'Morrisfexiozbt',
       data: [{ fecha: '2007-12-31', dato: 171936 },{ fecha: '2008-12-31', dato: 164258 },{ fecha: '2009-12-31', dato: 157898 },{ fecha: '2010-12-31', dato: 168723 },{ fecha: '2011-12-31', dato: 176045 },{ fecha: '2012-12-31', dato: 184407 },{ fecha: '2013-12-31', dato: 187050 }],
       xkey: 'fecha',
       ykeys: ['dato'],

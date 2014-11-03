@@ -112,7 +112,7 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisllkoztmc" class="grafica"></div>
+<div id="Morrisjozwpioz" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -630,9 +630,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisllkoztmc === 'undefined') {
-    varMorrisllkoztmc = Morris.Line({
-      element: 'Morrisllkoztmc',
+  if (typeof varMorrisjozwpioz === 'undefined') {
+    varMorrisjozwpioz = Morris.Line({
+      element: 'Morrisjozwpioz',
       data: [{ fecha: '2011-06-30', dato: 3423 },{ fecha: '2012-06-30', dato: 3542 },{ fecha: '2013-06-30', dato: 3660 },{ fecha: '2014-06-30', dato: 3780 },{ fecha: '2015-06-30', dato: 3901 },{ fecha: '2016-06-30', dato: 4024 },{ fecha: '2017-06-30', dato: 4148 },{ fecha: '2018-06-30', dato: 4274 },{ fecha: '2019-06-30', dato: 4399 },{ fecha: '2020-06-30', dato: 4524 }],
       xkey: 'fecha',
       ykeys: ['dato'],

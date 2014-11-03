@@ -81,7 +81,7 @@ Costo (% de cantidad demandada) = 27,9</td>
     </div>
     <div class="tab-pane active" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisxlqdowfc" class="grafica"></div>
+<div id="Morrisbniijubs" class="grafica"></div>
     </div>
   </div>
 FINAL;
@@ -93,9 +93,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisxlqdowfc === 'undefined') {
-    varMorrisxlqdowfc = Morris.Line({
-      element: 'Morrisxlqdowfc',
+  if (typeof varMorrisbniijubs === 'undefined') {
+    varMorrisbniijubs = Morris.Line({
+      element: 'Morrisbniijubs',
       data: [{ fecha: '2007-12-31', dato: 386 },{ fecha: '2012-12-31', dato: 270 },{ fecha: '2013-10-31', dato: 270 }],
       xkey: 'fecha',
       ykeys: ['dato'],

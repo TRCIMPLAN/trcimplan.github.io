@@ -69,7 +69,7 @@ class EconomiaMicroempresas extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisxetswani" class="grafica"></div>
+<div id="Morriscenyesfj" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -195,9 +195,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisxetswani === 'undefined') {
-    varMorrisxetswani = Morris.Line({
-      element: 'Morrisxetswani',
+  if (typeof varMorriscenyesfj === 'undefined') {
+    varMorriscenyesfj = Morris.Line({
+      element: 'Morriscenyesfj',
       data: [{ fecha: '2013-12-31', dato: 87.6900 },{ fecha: '2014-07-31', dato: 88.8800 }],
       xkey: 'fecha',
       ykeys: ['dato'],

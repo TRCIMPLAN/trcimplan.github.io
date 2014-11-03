@@ -64,7 +64,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrissvfkzotq" class="grafica"></div>
+<div id="Morrisgajqgkkp" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -225,9 +225,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrissvfkzotq === 'undefined') {
-    varMorrissvfkzotq = Morris.Line({
-      element: 'Morrissvfkzotq',
+  if (typeof varMorrisgajqgkkp === 'undefined') {
+    varMorrisgajqgkkp = Morris.Line({
+      element: 'Morrisgajqgkkp',
       data: [{ fecha: '2014-02-28', dato: 1 },{ fecha: '2014-05-31', dato: 1 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -84,7 +84,7 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \Base\Publicacio
     </div>
     <div class="tab-pane active" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisssmdhgzp" class="grafica"></div>
+<div id="Morrisgttyojqa" class="grafica"></div>
     </div>
   </div>
 FINAL;
@@ -96,9 +96,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisssmdhgzp === 'undefined') {
-    varMorrisssmdhgzp = Morris.Line({
-      element: 'Morrisssmdhgzp',
+  if (typeof varMorrisgttyojqa === 'undefined') {
+    varMorrisgttyojqa = Morris.Line({
+      element: 'Morrisgttyojqa',
       data: [{ fecha: '2008-12-31', dato: 544 },{ fecha: '2009-12-31', dato: 597 },{ fecha: '2010-12-31', dato: 753 },{ fecha: '2011-12-31', dato: 858 },{ fecha: '2012-12-31', dato: 1253 }],
       xkey: 'fecha',
       ykeys: ['dato'],

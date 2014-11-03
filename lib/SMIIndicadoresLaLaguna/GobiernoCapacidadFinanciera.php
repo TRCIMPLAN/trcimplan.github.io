@@ -109,7 +109,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisimbvivao" class="grafica"></div>
+<div id="Morrismhbhlktk" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -340,9 +340,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisimbvivao === 'undefined') {
-    varMorrisimbvivao = Morris.Line({
-      element: 'Morrisimbvivao',
+  if (typeof varMorrismhbhlktk === 'undefined') {
+    varMorrismhbhlktk = Morris.Line({
+      element: 'Morrismhbhlktk',
       data: [{ fecha: '2007-12-31', dato: 62.9900 },{ fecha: '2008-12-31', dato: 60.9700 },{ fecha: '2009-12-31', dato: 69.2000 },{ fecha: '2010-12-31', dato: 52.6000 },{ fecha: '2011-12-31', dato: 55.8000 },{ fecha: '2012-12-31', dato: 66.5000 },{ fecha: '2013-12-31', dato: 69.0700 }],
       xkey: 'fecha',
       ykeys: ['dato'],

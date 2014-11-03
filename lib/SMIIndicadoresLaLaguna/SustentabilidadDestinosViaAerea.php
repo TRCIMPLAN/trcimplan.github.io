@@ -27,6 +27,7 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
@@ -51,12 +52,22 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
+          <tr>
+            <td class="centrado">03/11/2014</td>
+            <td class="derecha">8</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
       <h3>Observaciones</h3>
 <p>Se considera a nivel metropolitano. Consulta la <a href="http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/">Base de Datos</a></p>
 
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+<h3>Gráfica</h3>
+<div id="Morrisapernxbk" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -75,6 +86,13 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
             <td>Torreón</td>
             <td>2014-03-31</td>
             <td class="derecha">7</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-11-03</td>
+            <td class="derecha">8</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -108,6 +126,22 @@ FINAL;
 // TWITTER BOOTSTRAP TABS
 $(document).ready(function(){
   $('#smi-indicador a:first').tab('show')
+});
+// LENGUETA
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
+  // Gráfica
+  if (typeof varMorrisapernxbk === 'undefined') {
+    varMorrisapernxbk = Morris.Line({
+      element: 'Morrisapernxbk',
+      data: [{ fecha: '2014-03-31', dato: 7 },{ fecha: '2014-11-03', dato: 8 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
 });
 FINAL;
     } // constructor
