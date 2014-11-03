@@ -167,10 +167,10 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 $a[] = "  <link href=\"../{$this->propio_css}\" rel=\"stylesheet\">";
             }
         }
-        // Google fonts
+        // Google fonts inicia
         //$a[] = '  <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">';
         $a[] = '  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">';
-        //
+        // Google fonts termina
         $a[] = '  <!-- SOPORTE PARA IE -->';
         $a[] = '  <!--[if lt IE 9]>';
         $a[] = '  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>';
