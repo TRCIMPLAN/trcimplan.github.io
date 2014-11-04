@@ -94,7 +94,7 @@ class SeguridadDelitos extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morriswybcakxt" class="grafica"></div>
+<div id="Morrisaesfcpix" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -340,6 +340,27 @@ class SeguridadDelitos extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-07-31</td>
+            <td class="derecha">1,255</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-08-31</td>
+            <td class="derecha">1,341</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-09-30</td>
+            <td class="derecha">1,314</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -353,9 +374,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriswybcakxt === 'undefined') {
-    varMorriswybcakxt = Morris.Line({
-      element: 'Morriswybcakxt',
+  if (typeof varMorrisaesfcpix === 'undefined') {
+    varMorrisaesfcpix = Morris.Line({
+      element: 'Morrisaesfcpix',
       data: [{ fecha: '2014-01-31', dato: 66 },{ fecha: '2014-02-28', dato: 66 },{ fecha: '2014-03-31', dato: 71 },{ fecha: '2014-04-30', dato: 52 },{ fecha: '2014-05-31', dato: 62 },{ fecha: '2014-06-30', dato: 66 },{ fecha: '2014-07-31', dato: 76 }],
       xkey: 'fecha',
       ykeys: ['dato'],

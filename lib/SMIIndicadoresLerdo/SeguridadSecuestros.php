@@ -51,6 +51,24 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>Datos correspondientes al segundo trimestre de 2014</td>
           </tr>
+          <tr>
+            <td class="centrado">31/07/2014</td>
+            <td class="centrado">NO TIENE</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/08/2014</td>
+            <td class="centrado">NO TIENE</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">30/09/2014</td>
+            <td class="centrado">NO TIENE</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -111,6 +129,27 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Datos correspondientes al segundo trimestre de 2014</td>
           </tr>
           <tr>
+            <td>Torreón</td>
+            <td>2014-07-31</td>
+            <td class="derecha">0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-08-31</td>
+            <td class="derecha">1</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-09-30</td>
+            <td class="derecha">0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Gómez Palacio</td>
             <td>2014-02-28</td>
             <td class="derecha">1</td>
@@ -121,6 +160,27 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Gómez Palacio</td>
             <td>2014-05-31</td>
             <td class="derecha">1</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-07-31</td>
+            <td class="centrado">NO TIENE</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-08-31</td>
+            <td class="centrado">NO TIENE</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-09-30</td>
+            <td class="centrado">NO TIENE</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -165,6 +225,27 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td class="derecha">0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>Datos correspondientes al segundo trimestre de 2014</td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-07-31</td>
+            <td class="derecha">0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-08-31</td>
+            <td class="derecha">0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-09-30</td>
+            <td class="derecha">0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>

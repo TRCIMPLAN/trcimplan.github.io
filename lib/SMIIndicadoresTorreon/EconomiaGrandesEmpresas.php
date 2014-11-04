@@ -69,7 +69,7 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisvzsdxzjp" class="grafica"></div>
+<div id="Morrisysbkeqpk" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -195,9 +195,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisvzsdxzjp === 'undefined') {
-    varMorrisvzsdxzjp = Morris.Line({
-      element: 'Morrisvzsdxzjp',
+  if (typeof varMorrisysbkeqpk === 'undefined') {
+    varMorrisysbkeqpk = Morris.Line({
+      element: 'Morrisysbkeqpk',
       data: [{ fecha: '2013-12-31', dato: 0.5800 },{ fecha: '2014-07-31', dato: 1.1300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

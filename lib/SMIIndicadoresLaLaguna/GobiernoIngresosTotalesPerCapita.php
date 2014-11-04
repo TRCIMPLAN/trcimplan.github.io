@@ -102,7 +102,7 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrislnwyvreg" class="grafica"></div>
+<div id="Morristeionfmi" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -305,9 +305,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrislnwyvreg === 'undefined') {
-    varMorrislnwyvreg = Morris.Line({
-      element: 'Morrislnwyvreg',
+  if (typeof varMorristeionfmi === 'undefined') {
+    varMorristeionfmi = Morris.Line({
+      element: 'Morristeionfmi',
       data: [{ fecha: '2007-12-31', dato: 2069.57 },{ fecha: '2008-12-31', dato: 2595.45 },{ fecha: '2009-12-31', dato: 2623.62 },{ fecha: '2010-12-31', dato: 2498.19 },{ fecha: '2011-12-31', dato: 2735.96 },{ fecha: '2012-12-31', dato: 2772.32 }],
       xkey: 'fecha',
       ykeys: ['dato'],

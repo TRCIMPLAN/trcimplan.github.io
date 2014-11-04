@@ -82,13 +82,31 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td class="centrado">31/07/2014</td>
+            <td class="derecha">30</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/08/2014</td>
+            <td class="derecha">29</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">30/09/2014</td>
+            <td class="derecha">28</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisptwpitnj" class="grafica"></div>
+<div id="Morriszumzzsll" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -146,6 +164,27 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>Torreón</td>
+            <td>2014-07-31</td>
+            <td class="derecha">58</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-08-31</td>
+            <td class="derecha">76</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-09-30</td>
+            <td class="derecha">81</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Lerdo</td>
             <td>2014-01-31</td>
             <td class="derecha">17</td>
@@ -184,6 +223,27 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
             <td>Lerdo</td>
             <td>2014-06-30</td>
             <td class="derecha">6</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-07-31</td>
+            <td class="derecha">6</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-08-31</td>
+            <td class="derecha">11</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-09-30</td>
+            <td class="derecha">14</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -230,6 +290,27 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>Matamoros</td>
+            <td>2014-07-31</td>
+            <td class="derecha">7</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-08-31</td>
+            <td class="derecha">8</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-09-30</td>
+            <td class="derecha">5</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>La Laguna</td>
             <td>2014-01-31</td>
             <td class="derecha">115</td>
@@ -271,6 +352,27 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-07-31</td>
+            <td class="derecha">101</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-08-31</td>
+            <td class="derecha">124</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-09-30</td>
+            <td class="derecha">128</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -284,10 +386,10 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisptwpitnj === 'undefined') {
-    varMorrisptwpitnj = Morris.Line({
-      element: 'Morrisptwpitnj',
-      data: [{ fecha: '2014-01-31', dato: 26 },{ fecha: '2014-02-28', dato: 24 },{ fecha: '2014-03-31', dato: 28 },{ fecha: '2014-04-30', dato: 22 },{ fecha: '2014-05-31', dato: 25 },{ fecha: '2014-06-30', dato: 18 }],
+  if (typeof varMorriszumzzsll === 'undefined') {
+    varMorriszumzzsll = Morris.Line({
+      element: 'Morriszumzzsll',
+      data: [{ fecha: '2014-01-31', dato: 26 },{ fecha: '2014-02-28', dato: 24 },{ fecha: '2014-03-31', dato: 28 },{ fecha: '2014-04-30', dato: 22 },{ fecha: '2014-05-31', dato: 25 },{ fecha: '2014-06-30', dato: 18 },{ fecha: '2014-07-31', dato: 30 },{ fecha: '2014-08-31', dato: 29 },{ fecha: '2014-09-30', dato: 28 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

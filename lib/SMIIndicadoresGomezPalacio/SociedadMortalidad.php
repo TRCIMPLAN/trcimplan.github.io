@@ -133,7 +133,7 @@ class SociedadMortalidad extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morristzbxebdv" class="grafica"></div>
+<div id="Morristrvthvtt" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -798,9 +798,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorristzbxebdv === 'undefined') {
-    varMorristzbxebdv = Morris.Line({
-      element: 'Morristzbxebdv',
+  if (typeof varMorristrvthvtt === 'undefined') {
+    varMorristrvthvtt = Morris.Line({
+      element: 'Morristrvthvtt',
       data: [{ fecha: '2000-12-31', dato: 3.5000 },{ fecha: '2001-12-31', dato: 3.9000 },{ fecha: '2002-12-31', dato: 4.4000 },{ fecha: '2003-12-31', dato: 4.0000 },{ fecha: '2004-12-31', dato: 4.0000 },{ fecha: '2005-12-31', dato: 4.4000 },{ fecha: '2006-12-31', dato: 4.2000 },{ fecha: '2007-12-31', dato: 4.2000 },{ fecha: '2008-12-31', dato: 4.5000 },{ fecha: '2009-12-31', dato: 5.3000 },{ fecha: '2010-12-31', dato: 5.4000 },{ fecha: '2011-12-31', dato: 5.1000 },{ fecha: '2012-12-31', dato: 5.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

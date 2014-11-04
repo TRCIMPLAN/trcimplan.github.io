@@ -81,7 +81,7 @@ class EconomiaDesempleo extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisszhbctlh" class="grafica"></div>
+<div id="Morrisfhhjssnn" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -193,9 +193,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisszhbctlh === 'undefined') {
-    varMorrisszhbctlh = Morris.Line({
-      element: 'Morrisszhbctlh',
+  if (typeof varMorrisfhhjssnn === 'undefined') {
+    varMorrisfhhjssnn = Morris.Line({
+      element: 'Morrisfhhjssnn',
       data: [{ fecha: '1990-03-12', dato: 4043 },{ fecha: '2000-02-14', dato: 2135 },{ fecha: '2010-06-25', dato: 19536 }],
       xkey: 'fecha',
       ykeys: ['dato'],

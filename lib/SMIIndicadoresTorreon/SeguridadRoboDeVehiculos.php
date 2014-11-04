@@ -82,13 +82,31 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td class="centrado">31/07/2014</td>
+            <td class="derecha">83</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/08/2014</td>
+            <td class="derecha">96</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">30/09/2014</td>
+            <td class="derecha">97</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisyfxvtney" class="grafica"></div>
+<div id="Morrisndtvpkpy" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -146,6 +164,27 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
             <td>Datos correspondientes al segundo trimestre de 2014</td>
           </tr>
           <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-07-31</td>
+            <td class="derecha">54</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-08-31</td>
+            <td class="derecha">51</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-09-30</td>
+            <td class="derecha">56</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Lerdo</td>
             <td>2014-01-31</td>
             <td class="derecha">8</td>
@@ -186,6 +225,27 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
             <td class="derecha">4</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>Datos correspondientes al segundo trimestre de 2014</td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-07-31</td>
+            <td class="derecha">8</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-08-31</td>
+            <td class="derecha">5</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-09-30</td>
+            <td class="derecha">9</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
@@ -230,6 +290,27 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
             <td>Datos correspondientes al segundo trimestre de 2014</td>
           </tr>
           <tr>
+            <td>Matamoros</td>
+            <td>2014-07-31</td>
+            <td class="derecha">3</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-08-31</td>
+            <td class="derecha">6</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-09-30</td>
+            <td class="derecha">4</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>La Laguna</td>
             <td>2014-01-31</td>
             <td class="derecha">224</td>
@@ -271,6 +352,27 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>Datos correspondientes al segundo trimestre de 2014</td>
           </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-07-31</td>
+            <td class="derecha">148</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-08-31</td>
+            <td class="derecha">158</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-09-30</td>
+            <td class="derecha">166</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -284,10 +386,10 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisyfxvtney === 'undefined') {
-    varMorrisyfxvtney = Morris.Line({
-      element: 'Morrisyfxvtney',
-      data: [{ fecha: '2014-01-31', dato: 135 },{ fecha: '2014-02-28', dato: 92 },{ fecha: '2014-03-31', dato: 70 },{ fecha: '2014-04-30', dato: 82 },{ fecha: '2014-05-31', dato: 115 },{ fecha: '2014-06-30', dato: 95 }],
+  if (typeof varMorrisndtvpkpy === 'undefined') {
+    varMorrisndtvpkpy = Morris.Line({
+      element: 'Morrisndtvpkpy',
+      data: [{ fecha: '2014-01-31', dato: 135 },{ fecha: '2014-02-28', dato: 92 },{ fecha: '2014-03-31', dato: 70 },{ fecha: '2014-04-30', dato: 82 },{ fecha: '2014-05-31', dato: 115 },{ fecha: '2014-06-30', dato: 95 },{ fecha: '2014-07-31', dato: 83 },{ fecha: '2014-08-31', dato: 96 },{ fecha: '2014-09-30', dato: 97 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

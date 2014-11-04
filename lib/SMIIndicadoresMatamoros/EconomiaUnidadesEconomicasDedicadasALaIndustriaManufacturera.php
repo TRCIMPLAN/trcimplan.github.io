@@ -79,7 +79,7 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisqrlcghyb" class="grafica"></div>
+<div id="Morrisxdoruzyc" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -247,9 +247,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisqrlcghyb === 'undefined') {
-    varMorrisqrlcghyb = Morris.Line({
-      element: 'Morrisqrlcghyb',
+  if (typeof varMorrisxdoruzyc === 'undefined') {
+    varMorrisxdoruzyc = Morris.Line({
+      element: 'Morrisxdoruzyc',
       data: [{ fecha: '1998-12-31', dato: 10.9800 },{ fecha: '2003-12-31', dato: 9.5000 },{ fecha: '2008-12-31', dato: 11.6100 },{ fecha: '2013-10-31', dato: 9.5800 }],
       xkey: 'fecha',
       ykeys: ['dato'],
