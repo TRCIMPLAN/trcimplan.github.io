@@ -48,7 +48,7 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'revisar';
+        $this->estado           = 'publicar';
         // El contenido HTML y el JavaScript
         $this->contenido        = <<<FINAL
 <span class="contenido-imagen-previa"><img src="datos-abiertos-gobiernos-municipales/imagen.jpg"></span>
