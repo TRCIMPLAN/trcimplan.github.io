@@ -88,7 +88,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrispqztutjf" class="grafica"></div>
+<div id="Morrisovkjmopn" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -144,6 +144,27 @@ class SeguridadHomicidios extends \Base\Publicacion {
             <td class="derecha">15</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>Datos correspondientes al segundo trimestre de 2014</td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-07-31</td>
+            <td class="derecha">24</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-08-31</td>
+            <td class="derecha">21</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-09-30</td>
+            <td class="derecha">24</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -284,9 +305,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrispqztutjf === 'undefined') {
-    varMorrispqztutjf = Morris.Line({
-      element: 'Morrispqztutjf',
+  if (typeof varMorrisovkjmopn === 'undefined') {
+    varMorrisovkjmopn = Morris.Line({
+      element: 'Morrisovkjmopn',
       data: [{ fecha: '2014-01-31', dato: 45 },{ fecha: '2014-02-28', dato: 42 },{ fecha: '2014-03-31', dato: 32 },{ fecha: '2014-04-30', dato: 37 },{ fecha: '2014-05-31', dato: 38 },{ fecha: '2014-06-30', dato: 38 }],
       xkey: 'fecha',
       ykeys: ['dato'],

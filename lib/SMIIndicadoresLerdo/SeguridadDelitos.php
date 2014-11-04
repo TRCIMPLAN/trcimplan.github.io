@@ -82,13 +82,19 @@ class SeguridadDelitos extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td class="centrado">31/07/2014</td>
+            <td class="derecha">76</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrissqdhtqsm" class="grafica"></div>
+<div id="Morriswybcakxt" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -146,6 +152,27 @@ class SeguridadDelitos extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>Torreón</td>
+            <td>2014-07-31</td>
+            <td class="derecha">730</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-08-31</td>
+            <td class="derecha">818</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-09-30</td>
+            <td class="derecha">754</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Gómez Palacio</td>
             <td>2014-01-31</td>
             <td class="derecha">363</td>
@@ -188,6 +215,27 @@ class SeguridadDelitos extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-07-31</td>
+            <td class="derecha">364</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-08-31</td>
+            <td class="derecha">348</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-09-30</td>
+            <td class="derecha">398</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Matamoros</td>
             <td>2014-01-31</td>
             <td class="derecha">69</td>
@@ -226,6 +274,27 @@ class SeguridadDelitos extends \Base\Publicacion {
             <td>Matamoros</td>
             <td>2014-06-30</td>
             <td class="derecha">72</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-07-31</td>
+            <td class="derecha">85</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-08-31</td>
+            <td class="derecha">100</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-09-30</td>
+            <td class="derecha">75</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -284,10 +353,10 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrissqdhtqsm === 'undefined') {
-    varMorrissqdhtqsm = Morris.Line({
-      element: 'Morrissqdhtqsm',
-      data: [{ fecha: '2014-01-31', dato: 66 },{ fecha: '2014-02-28', dato: 66 },{ fecha: '2014-03-31', dato: 71 },{ fecha: '2014-04-30', dato: 52 },{ fecha: '2014-05-31', dato: 62 },{ fecha: '2014-06-30', dato: 66 }],
+  if (typeof varMorriswybcakxt === 'undefined') {
+    varMorriswybcakxt = Morris.Line({
+      element: 'Morriswybcakxt',
+      data: [{ fecha: '2014-01-31', dato: 66 },{ fecha: '2014-02-28', dato: 66 },{ fecha: '2014-03-31', dato: 71 },{ fecha: '2014-04-30', dato: 52 },{ fecha: '2014-05-31', dato: 62 },{ fecha: '2014-06-30', dato: 66 },{ fecha: '2014-07-31', dato: 76 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

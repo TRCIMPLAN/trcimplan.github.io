@@ -81,7 +81,7 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisvahjyxqb" class="grafica"></div>
+<div id="Morrisdrjbcdyq" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -193,9 +193,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisvahjyxqb === 'undefined') {
-    varMorrisvahjyxqb = Morris.Line({
-      element: 'Morrisvahjyxqb',
+  if (typeof varMorrisdrjbcdyq === 'undefined') {
+    varMorrisdrjbcdyq = Morris.Line({
+      element: 'Morrisdrjbcdyq',
       data: [{ fecha: '1990-03-12', dato: 3.3200 },{ fecha: '2000-02-14', dato: 1.1800 },{ fecha: '2010-06-25', dato: 6.0700 }],
       xkey: 'fecha',
       ykeys: ['dato'],

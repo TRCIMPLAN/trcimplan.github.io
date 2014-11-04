@@ -115,7 +115,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrislvvvsrcr" class="grafica"></div>
+<div id="Morrisqukshbjb" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -633,9 +633,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrislvvvsrcr === 'undefined') {
-    varMorrislvvvsrcr = Morris.Line({
-      element: 'Morrislvvvsrcr',
+  if (typeof varMorrisqukshbjb === 'undefined') {
+    varMorrisqukshbjb = Morris.Line({
+      element: 'Morrisqukshbjb',
       data: [{ fecha: '2011-06-30', dato: 109264 },{ fecha: '2012-06-30', dato: 110244 },{ fecha: '2013-06-30', dato: 111305 },{ fecha: '2014-06-30', dato: 112434 },{ fecha: '2015-06-30', dato: 113612 },{ fecha: '2016-06-30', dato: 114829 },{ fecha: '2017-06-30', dato: 116078 },{ fecha: '2018-06-30', dato: 117349 },{ fecha: '2019-06-30', dato: 118631 },{ fecha: '2020-06-30', dato: 119919 }],
       xkey: 'fecha',
       ykeys: ['dato'],

@@ -209,13 +209,31 @@
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td class="centrado">31/07/2014</td>
+            <td class="derecha">364</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/08/2014</td>
+            <td class="derecha">348</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">30/09/2014</td>
+            <td class="derecha">398</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisidcndjww" class="grafica"></div>
+<div id="Morrisolfpycxl" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -273,6 +291,27 @@
             <td></td>
           </tr>
           <tr>
+            <td>Torreón</td>
+            <td>2014-07-31</td>
+            <td class="derecha">730</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-08-31</td>
+            <td class="derecha">818</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-09-30</td>
+            <td class="derecha">754</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Lerdo</td>
             <td>2014-01-31</td>
             <td class="derecha">66</td>
@@ -315,6 +354,13 @@
             <td></td>
           </tr>
           <tr>
+            <td>Lerdo</td>
+            <td>2014-07-31</td>
+            <td class="derecha">76</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Matamoros</td>
             <td>2014-01-31</td>
             <td class="derecha">69</td>
@@ -353,6 +399,27 @@
             <td>Matamoros</td>
             <td>2014-06-30</td>
             <td class="derecha">72</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-07-31</td>
+            <td class="derecha">85</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-08-31</td>
+            <td class="derecha">100</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-09-30</td>
+            <td class="derecha">75</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -438,10 +505,10 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisidcndjww === 'undefined') {
-    varMorrisidcndjww = Morris.Line({
-      element: 'Morrisidcndjww',
-      data: [{ fecha: '2014-01-31', dato: 363 },{ fecha: '2014-02-28', dato: 307 },{ fecha: '2014-03-31', dato: 382 },{ fecha: '2014-04-30', dato: 384 },{ fecha: '2014-05-31', dato: 325 },{ fecha: '2014-06-30', dato: 277 }],
+  if (typeof varMorrisolfpycxl === 'undefined') {
+    varMorrisolfpycxl = Morris.Line({
+      element: 'Morrisolfpycxl',
+      data: [{ fecha: '2014-01-31', dato: 363 },{ fecha: '2014-02-28', dato: 307 },{ fecha: '2014-03-31', dato: 382 },{ fecha: '2014-04-30', dato: 384 },{ fecha: '2014-05-31', dato: 325 },{ fecha: '2014-06-30', dato: 277 },{ fecha: '2014-07-31', dato: 364 },{ fecha: '2014-08-31', dato: 348 },{ fecha: '2014-09-30', dato: 398 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

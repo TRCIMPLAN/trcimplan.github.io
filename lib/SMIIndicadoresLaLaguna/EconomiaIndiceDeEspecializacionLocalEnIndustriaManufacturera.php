@@ -81,7 +81,7 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \Base
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisdykuonnk" class="grafica"></div>
+<div id="Morriskxscprma" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -200,9 +200,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisdykuonnk === 'undefined') {
-    varMorrisdykuonnk = Morris.Line({
-      element: 'Morrisdykuonnk',
+  if (typeof varMorriskxscprma === 'undefined') {
+    varMorriskxscprma = Morris.Line({
+      element: 'Morriskxscprma',
       data: [{ fecha: '1998-12-31', dato: 64.9200 },{ fecha: '2003-12-31', dato: 58.8300 },{ fecha: '2008-12-31', dato: 71.1000 }],
       xkey: 'fecha',
       ykeys: ['dato'],

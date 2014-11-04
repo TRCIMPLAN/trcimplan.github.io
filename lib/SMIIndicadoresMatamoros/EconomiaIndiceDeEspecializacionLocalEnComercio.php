@@ -81,7 +81,7 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisbrpstmqz" class="grafica"></div>
+<div id="Morrisvvixhrmo" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -200,9 +200,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorrisbrpstmqz === 'undefined') {
-    varMorrisbrpstmqz = Morris.Line({
-      element: 'Morrisbrpstmqz',
+  if (typeof varMorrisvvixhrmo === 'undefined') {
+    varMorrisvvixhrmo = Morris.Line({
+      element: 'Morrisvvixhrmo',
       data: [{ fecha: '1998-12-31', dato: 38.9400 },{ fecha: '2003-12-31', dato: 32.2300 },{ fecha: '2008-12-31', dato: 17.5400 }],
       xkey: 'fecha',
       ykeys: ['dato'],

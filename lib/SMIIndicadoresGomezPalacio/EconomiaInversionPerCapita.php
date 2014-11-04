@@ -102,7 +102,7 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morriszagoxuwt" class="grafica"></div>
+<div id="Morristoaivfwc" class="grafica"></div>
     </div>
     <div class="tab-pane active" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
@@ -298,9 +298,9 @@ $(document).ready(function(){
 // LENGUETA
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
   // Gráfica
-  if (typeof varMorriszagoxuwt === 'undefined') {
-    varMorriszagoxuwt = Morris.Line({
-      element: 'Morriszagoxuwt',
+  if (typeof varMorristoaivfwc === 'undefined') {
+    varMorristoaivfwc = Morris.Line({
+      element: 'Morristoaivfwc',
       data: [{ fecha: '2007-12-31', dato: 621.87 },{ fecha: '2008-12-31', dato: 805.66 },{ fecha: '2009-12-31', dato: 526.88 },{ fecha: '2010-12-31', dato: 474.34 },{ fecha: '2011-12-31', dato: 431.05 },{ fecha: '2012-12-31', dato: 640.48 }],
       xkey: 'fecha',
       ykeys: ['dato'],
