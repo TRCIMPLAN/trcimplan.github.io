@@ -5,11 +5,80 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 04 Nov 2014 16:03:23 -0600</pubDate>
+    <pubDate>Fri, 07 Nov 2014 13:01:52 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DOT: Desarrollo Orientado al Transporte</title>
+      <link>http://trcimplan.gob.mx/blog/dot-desarrollo-orientado-transporte.html</link>
+      <guid isPermaLink="false">blog-dot-desarrollo-orientado-transporte</guid>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 -0600</pubDate>
+      <author>Ing. Luis Campos Hinojosa</author>
+      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/dot-desarrollo-orientado-transporte/imagen.png"></span>
+
+<blockquote>
+    <p>"La naturaleza la prepara el sitio, y el hombre lo organiza de tal manera que satisfaga sus necesidades y deseos"</p>
+    <p class="pull-right">Vidal de la Blache</p>
+</blockquote>
+
+<p>En las últimas décadas, han surgido nuevos modelos urbanos que retoman el componente humano como eje principal de la planeación, buscando el equilibrio entre una ciudad altamente competitiva pero con servicios e infraestructura orientada al confort y las necesidades del ser humano.</p>
+
+<p>Las teorías de planeación modernistas y postmodernistas dejaron una profunda huella en la construcción de ciudades, al haber favorecido el uso del automóvil y la expansión urbana desmedida. Datos de SEDESOL (2012) señalan que el área de las ciudades mayores a 50 mil habitantes se expandieron 6 veces de 1980 a 2010, mientras que la población solo se incrementó 1.9 veces, para el caso de Torreón, datos del IMPLAN revelan que la ciudad se expandió 7 veces, mientras la población creció 3 veces.</p>
+
+<p>Este proceso de expansión urbana desmedida, ha encarecido la prestación de servicios públicos, como el transporte y ha incentivado el uso del automóvil, con graves costos sociales como: contaminación, ruido, accidentes, congestionamiento, etc.</p>
+
+<p>William H. White manifiesta que <i>"la ciudad no es un objeto de ingeniería sino un sistema complejo de experiencias que se nutren de la diversidad de actividades y relaciones sociales. Nuestras actividades diarias son lo que conforman nuestra calidad de vida que debemos entender como la calidad de experiencias que vivimos en la ciudad. La habitabilidad de la vivienda, la accesibilidad a los servicios, la conectividad a los centros de empleo, la facilidad de movilidad, la interacción social, entre otras"</i>.</p>
+
+<p>Imaginemos un barrio en la ciudad en el que nuestras actividades y empleo están cerca, donde hay parques y calles seguras, donde podemos salir a correr, caminar o trasladarnos en bicicleta, donde el transporte público es accesible y el traslado es en corto tiempo. A esto se le conoce como Desarrollo Orientado al Transporte (DOT).</p>
+
+<p>El Desarrollo Orientado al Transporte (DOT) es un modelo urbano que busca construir barrios entorno al transporte público, barrios compactos y de alta densidad, con zonas de uso mixto (comercial, negocios y residencial), espacios públicos seguros que favorezcan la interacción social y una buena infraestructura peatonal y ciclista.</p>
+
+<h3>Beneficios del DOT</h3>
+
+<p>1. Beneficios ambientales.</p>
+
+<ul>
+    <li>Reduce emisiones de gases de efecto invernadero.</li>
+    <li>Mejora la calidad del aire.</li>
+    <li>Ayuda a conservar áreas naturales.</li>
+    <li>Favorece la recarga de mantos acuíferos.</li>
+</ul>
+
+<p>2. Beneficios sociales.</p>
+
+<ul>
+    <li>Mejora el acceso al transporte público.</li>
+    <li>Mejora la salud de la población.</li>
+    <li>Aumenta la actividad del espacio público.</li>
+    <li>Promueve la inclusión y equidad social.</li>
+    <li>Mejora los índices de seguridad ciudadana y vial.</li>
+</ul>
+
+<p>3. Beneficios económicos</p>
+
+<ul>
+    <li>Activa la economía local.</li>
+    <li>Aumenta la plusvalía inmobiliaria.</li>
+    <li>Aumenta la productividad.</li>
+    <li>Aprovecha las inversiones en infraestructura existentes.</li>
+    <li>Reduce la necesidad de nueva infraestructura.</li>
+    <li>Reduce costos de traslados para la población.</li>
+</ul>
+
+<p>La implementación de sistemas BRT (Bus Rapid Transit) en ciudades mexicanas como DF, Guadalajara y León son reflejo de estos primeros esfuerzos por desarrollar ciudades orientadas al transporte. Sabiendo que la estructura urbana y la movilidad están estrechamente interrelacionadas.</p>
+
+<p>Actualmente, La Laguna se encuentra en un proceso de implementación de un BRT, el cual puede servir como piedra angular para generar una estrategia integral de Desarrollo Orientado al Transporte, que solucione la movilidad local y regional de sus habitantes, de manera peatonal, ciclista y de transporte público de calidad.</p>
+
+<p></p>
+
+<blockquote>
+    <p>"Es maravilloso despertar en una ciudad donde todos los días te das cuenta que hoy la ciudad es un lugar mejor para vivir que el de ayer"</p>
+    <p class="pull-right">Jan Gehl</p>
+</blockquote>
+]]></description>
+    </item>
     <item>
       <title>Datos Abiertos en los Gobiernos Municipales</title>
       <link>http://trcimplan.gob.mx/blog/datos-abiertos-gobiernos-municipales.html</link>
@@ -504,42 +573,6 @@ PhilippeStarck</p>
 <img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/economia-sector-salud-laguna/03-valor-agregado-sector-salud-laguna.png" alt="Valor Agregado en el Sector Salud de La Laguna">
 
 <img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/economia-sector-salud-laguna/04-productividad-laboral-sector-salud-laguna.png" alt="Productividad Laboral en el Sector Salud de la Laguna">]]></description>
-    </item>
-    <item>
-      <title>Dinámica del PIB per cápita de La Laguna (IRAEs Banamex 2011,2014)</title>
-      <link>http://trcimplan.gob.mx/blog/dinamica-pib-per-capita-laguna.html</link>
-      <guid isPermaLink="false">blog-dinamica-pib-per-capita-laguna</guid>
-      <pubDate>Fri, 26 Sep 2014 00:00:00 -0500</pubDate>
-      <author>Lic. Eduardo Holguín Zehfuss</author>
-      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/dinamica-pib-per-capita-laguna/imagen.jpg"></span>
-
-<p>De acuerdo a los Indicadores Regionales de Actividad Económica de Banamex (IRAEs) 2011, 2014 el <strong>PIB de La Laguna (Zona Metropolitana)</strong> creció de 145.3 Miles de millones de pesos a 191.8 Mmp; es decir, <strong>subió 32%</strong> (IRAEs Banamex 2011,2014).</p>
-
-<ul>
-    <li>Cabe señalar que la información de IRAEs Banamex 2011 fue construida con datos del 2009. Y el del 2014 con datos del 2012 (IRAEs Banamex 2011, 2014).</li>
-    <li>De acuerdo a los mismos indicadores disminuyó la participación del PIB Lagunero en el PIB Estatal y Nacional. Dichas participaciones eran de 42.5% y de 1.3%, respectivamente en 2009 y de 36.3% y 1.23% en 2012 (IRAEs Banamex 2011,2014).</li>
-    <li>Entre los indicadores Banamex de 2011 y 2014 el <strong>PIB per cápita de La Laguna</strong> creció de 121,728 pesos anuales a 149,501 pesos anuales, lo que representó un <strong>incremento de 22.82%</strong> (IRAEs Banamex 2011,2014).</li>
-</ul>
-
-<h3>Asunto: Dinámica del PIB per cápita de las Zonas Metropolitanas de Saltillo y Durango (IRAEs Banamex 2011, 2014).</h3>
-
-<ul>
-    <li>El PIB per cápita de Saltillo creció 63.67% (IRAEs Banamex 2011, 2014).</li>
-    <li>El PIB per cápita de Durango creció 29.67% (IRAEs Banamex 2011, 2014).</li>
-</ul>
-
-<img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/dinamica-pib-per-capita-laguna/pib.png" alt="PIB per cápita en Torreón, Saltillo, Durango, años 2009 y 2012">
-
-<h3>NOTAS:</h3>
-
-<ul>
-    <li>El INEGI no publica datos del PIB Municipal solamente publica datos estatales.</li>
-    <li>Los datos del PIB Metropolitano publicados por Banamex fueron elaborados por el Departamento de Estudios Económicos del banco: <a href="http://www.banamex.com/resources/pdf/es/estudios_finanzas/mercados/publicacio nes/IRAE-2014-HD.pdf" target="_blank">IRAE-2014-HD.pdf</a>, <a href="http://www.banamex.com/resources/pdf/es/estudios_finanzas/mercados/publicacio nes/iraes-mar11.pdf" target="_blank">iraes-mar11.pdf</a>.</li>
-    <li>LA INFORMACIÓN PROPORCIONADA POR EL IMPLAN NO FUE ESTIMADA NI PROYECTADA POR EL INSTITUTO. SE REPRODUJO FIELMENTE LA INFORMACIÓN DEL DEPARTAMENTO DE ESTUDIOS ECONÓMICOS DE BANAMEX.</li>
-    <li>LA INFORMACIÓN PROPORCIONADA POR EL SIGLO DE TORREÓN (CAE RIQUEZA REGIONAL), PUBLICADA EL 25 DE SEPTIEMBRE DE 2014, SI UTILIZA INFORMACIÓN ESTIMADA, AL PROYECTAR EL PIB PER CÁPITA DEL 2008. DICHA ESTIMACIÓN PUEDE OBSERVARSE EN LA GRÁFICA INCLUIDA.</li>
-    <li>LA ESTIMACIÓN 2008 QUE ALTERA LA TENDENCIA PUBLICADA POR EL SIGLO DE TORREÓN NO INDICA METODOLOGÍA ALGUNA, LO CUAL PONE EN DUDA SU ANÁLISIS.</li>
-    <li>DESTACA EL HECHO DE QUE INFORMACIÓN DEL IMCO MUESTRA UNA TENDENCIA DE CRECIMIENTO DEL PIB DE LA LAGUNA Y DEL PIB DE TORREÓN. DE ACUERDO A LA BASE DE DATOS DEL ÚLTIMO ÍNDICE DE COMPETITIVIDAD URBANA DEL 2008 A 2012 EL PIB DE LA ZONA METROPOLITANA DE LA LAGUNA AUMENTO 8.42% Y LA DE TORREÓN 7.91%. LA COINCIDENCIA DE TENDENCIAS ENTRE EL IMCO Y BANAMEX, AMBAS INSTITUCIONES ESPECIALIZADAS Y CON AMPLIO RECONOCIMIENTO EN EL TEMA, NOS BRINDA CERTEZA DE QUE NO HAY INDICIOS DE UNA SUPUESTA CAÍDA EN LA RIQUEZA REGIONAL, SINO AL CONTRARIO LA INFERENCIA ES A LA ALZA.</li>
-</ul>]]></description>
     </item>
   </channel>
 </rss>
