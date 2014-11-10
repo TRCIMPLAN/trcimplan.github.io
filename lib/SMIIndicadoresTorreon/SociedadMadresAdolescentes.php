@@ -27,7 +27,7 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -88,23 +88,19 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
 <p>Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaria de Salud. <a href="http://www.sinais.salud.gob.mx">SINAIS</a></p>
 
     </div>
-    <div class="tab-pane active" id="smi-indicador-grafica">
+    <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morriscoshoobn" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
-// TWITTER BOOTSTRAP TABS
-$(document).ready(function(){
-  $('#smi-indicador a:first').tab('show')
-});
-// LENGUETA
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof varMorriscoshoobn === 'undefined') {
-    varMorriscoshoobn = Morris.Line({
-      element: 'Morriscoshoobn',
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
       data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -114,6 +110,10 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

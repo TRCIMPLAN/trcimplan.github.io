@@ -28,7 +28,7 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
-    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -81,9 +81,9 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisvsdilerq" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
     </div>
-    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+    <div class="tab-pane" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -186,16 +186,12 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
-// TWITTER BOOTSTRAP TABS
-$(document).ready(function(){
-  $('#smi-indicador a:first').tab('show')
-});
-// LENGUETA
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof varMorrisvsdilerq === 'undefined') {
-    varMorrisvsdilerq = Morris.Line({
-      element: 'Morrisvsdilerq',
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
       data: [{ fecha: '1990-03-12', dato: 2.8100 },{ fecha: '2000-02-14', dato: 1.0300 },{ fecha: '2010-06-25', dato: 7.4300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -205,6 +201,10 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

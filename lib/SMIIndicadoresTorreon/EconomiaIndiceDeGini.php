@@ -27,7 +27,7 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -60,7 +60,7 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
 <p>Datos obtenidos de <a href="http://www.coneval.gob.mx/Paginas/principal.aspx">CONEVAL</a></p>
 
     </div>
-    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+    <div class="tab-pane" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -107,9 +107,9 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
-// TWITTER BOOTSTRAP TABS
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador a:first').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

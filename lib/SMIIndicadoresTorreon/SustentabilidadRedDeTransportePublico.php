@@ -26,10 +26,10 @@ class SustentabilidadRedDeTransportePublico extends \Base\Publicacion {
         $this->categorias  = array('Servicios Públicos');
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane active" id="smi-indicador-datos">
+    <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
 <p>Extensión de la red de transporte público en Kilómetros totales.</p>
 
@@ -57,9 +57,9 @@ class SustentabilidadRedDeTransportePublico extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
-// TWITTER BOOTSTRAP TABS
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador a:first').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

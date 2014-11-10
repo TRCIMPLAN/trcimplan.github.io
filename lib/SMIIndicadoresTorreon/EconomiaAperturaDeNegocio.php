@@ -26,10 +26,10 @@ class EconomiaAperturaDeNegocio extends \Base\Publicacion {
         $this->categorias  = array('Empresas', 'Doing Bussines');
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
-    <li class="active"><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane active" id="smi-indicador-datos">
+    <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
 <p>Número de días necesarios para el trámite de apertura de un negocio.</p>
 
@@ -83,9 +83,9 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
-// TWITTER BOOTSTRAP TABS
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador a:first').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

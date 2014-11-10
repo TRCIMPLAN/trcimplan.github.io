@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://trcimplan.gob.mx/index.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/index.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-categorias/index.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/index.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/index.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/index.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/index.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/index.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/eventos/index.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/index.html</loc>
-    <lastmod>2014-11-07</lastmod>
+    <lastmod>2014-11-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1226,6 +1226,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/economia-trabajadores-asegurados.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -1487,146 +1492,6 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-derechohabiente.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-estimada.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza-extrema.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza-moderada.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-universidades.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-computadora.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-drenaje.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-internet.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-habitadas.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-totales.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-alumbrado-publico.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-generacion-de-basura.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-motorizacion.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-volumen-tratado-de-aguas-residuales.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2331,6 +2196,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/economia-trabajadores-asegurados.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -2936,6 +2806,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-trabajadores-asegurados--region-.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -3422,6 +3297,146 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/sustentabilidad-volumen-tratado-de-aguas-residuales.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-estimada.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza-extrema.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza-moderada.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-universidades.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-computadora.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-drenaje.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-internet.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-habitadas.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-totales.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-alumbrado-publico.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-generacion-de-basura.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-motorizacion.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-volumen-tratado-de-aguas-residuales.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>

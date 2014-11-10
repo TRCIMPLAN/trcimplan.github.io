@@ -27,7 +27,7 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -58,7 +58,7 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
 <p>Descarga de <a href="http://www3.inegi.org.mx/sistemas/productos/default.aspx?c=265&amp;upc=0&amp;s=est&amp;tg=3594&amp;f=2&amp;cl=0&amp;pf=prod&amp;ef=0&amp;ct=201100000&amp;pg=2">Base de Datos</a></p>
 
     </div>
-    <div class="tab-pane active" id="smi-indicador-otras_regiones">
+    <div class="tab-pane" id="smi-indicador-otras_regiones">
 <h3>En otras regiones</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -105,9 +105,9 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
-// TWITTER BOOTSTRAP TABS
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador a:first').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

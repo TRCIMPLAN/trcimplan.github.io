@@ -27,7 +27,7 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -76,23 +76,19 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
 <p>Total facturado dividido entre la población.</p>
 
     </div>
-    <div class="tab-pane active" id="smi-indicador-grafica">
+    <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisiqxeehdg" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
-// TWITTER BOOTSTRAP TABS
-$(document).ready(function(){
-  $('#smi-indicador a:first').tab('show')
-});
-// LENGUETA
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof varMorrisiqxeehdg === 'undefined') {
-    varMorrisiqxeehdg = Morris.Line({
-      element: 'Morrisiqxeehdg',
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
       data: [{ fecha: '2010-12-31', dato: 47.7700 },{ fecha: '2011-12-31', dato: 46.7500 },{ fecha: '2012-12-31', dato: 44.5700 },{ fecha: '2013-12-31', dato: 41.9900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -102,6 +98,10 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

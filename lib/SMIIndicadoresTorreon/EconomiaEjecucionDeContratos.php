@@ -27,7 +27,7 @@ class EconomiaEjecucionDeContratos extends \Base\Publicacion {
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -79,23 +79,19 @@ Costo (% de cantidad demandada) = 27,9</td>
       </table>
       <p><b>Unidad:</b> Días.</p>
     </div>
-    <div class="tab-pane active" id="smi-indicador-grafica">
+    <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrisfguszjta" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
-// TWITTER BOOTSTRAP TABS
-$(document).ready(function(){
-  $('#smi-indicador a:first').tab('show')
-});
-// LENGUETA
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof varMorrisfguszjta === 'undefined') {
-    varMorrisfguszjta = Morris.Line({
-      element: 'Morrisfguszjta',
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
       data: [{ fecha: '2007-12-31', dato: 386 },{ fecha: '2012-12-31', dato: 270 },{ fecha: '2013-10-31', dato: 270 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -105,6 +101,10 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

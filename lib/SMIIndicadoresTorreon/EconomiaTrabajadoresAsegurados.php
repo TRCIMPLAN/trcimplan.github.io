@@ -21,18 +21,19 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
         $this->nombre_menu = 'Indicadores Torreón';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-trabajadores-asegurados';
-        $this->descripcion = 'Evolución del empleo medida en trabajadores asegurados por el IMSS.';
+        $this->descripcion = 'Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal';
         $this->claves      = 'Torreón, Empleo';
         $this->categorias  = array('Empleo');
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li class="active"><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Evolución del empleo medida en trabajadores asegurados por el IMSS.</p>
+<p>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -46,74 +47,262 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2007</td>
-            <td class="derecha">171,936</td>
-            <td>IMSS Subdelegación Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="centrado">31/12/2008</td>
-            <td class="derecha">164,258</td>
-            <td>IMSS Subdelegación Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="centrado">31/12/2009</td>
-            <td class="derecha">157,898</td>
-            <td>IMSS Subdelegación Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">168,723</td>
-            <td>IMSS Subdelegación Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="centrado">31/12/2011</td>
-            <td class="derecha">176,045</td>
-            <td>IMSS Subdelegación Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="centrado">31/12/2012</td>
-            <td class="derecha">184,407</td>
-            <td>IMSS Subdelegación Torreón</td>
+            <td class="centrado">30/11/2013</td>
+            <td class="derecha">162,744</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td class="centrado">31/12/2013</td>
-            <td class="derecha">187,050</td>
-            <td>IMSS Subdelegación Torreón</td>
+            <td class="derecha">161,591</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/01/2014</td>
+            <td class="derecha">161,679</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">28/02/2014</td>
+            <td class="derecha">162,541</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/03/2014</td>
+            <td class="derecha">163,726</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">30/04/2014</td>
+            <td class="derecha">164,698</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/05/2014</td>
+            <td class="derecha">165,762</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">30/06/2014</td>
+            <td class="derecha">166,473</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/07/2014</td>
+            <td class="derecha">167,134</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/08/2014</td>
+            <td class="derecha">169,162</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">30/09/2014</td>
+            <td class="derecha">170,628</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 9037 trabajadores más durante el presente año.</td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Personas.</p>
       <h3>Observaciones</h3>
-<p>El dato incluye a los trabajadores asegurados de los municipios de la región abarcados por la subdelegación Torreón.</p>
-
-<p>Datos obtenidos de <a href="http://201.144.108.20/imssdigital/conoce/estadisticas/pages/memoria2012.aspx">IMSS</a></p>
+<p>Datos obtenidos de <a href="http://datos.imss.gob.mx/dataset">IMSS</a></p>
 
     </div>
-    <div class="tab-pane active" id="smi-indicador-grafica">
+    <div class="tab-pane" id="smi-indicador-grafica">
 <h3>Gráfica</h3>
-<div id="Morrismwfigsgm" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-otras_regiones">
+<h3>En otras regiones</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Región</th>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Matamoros</td>
+            <td>2013-11-30</td>
+            <td class="derecha">7,638</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2013-12-31</td>
+            <td class="derecha">6,798</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-01-31</td>
+            <td class="derecha">7,000</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-02-28</td>
+            <td class="derecha">7,024</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-03-31</td>
+            <td class="derecha">7,060</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-04-30</td>
+            <td class="derecha">7,118</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-05-31</td>
+            <td class="derecha">7,176</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-06-30</td>
+            <td class="derecha">7,363</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-07-31</td>
+            <td class="derecha">7,542</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-08-31</td>
+            <td class="derecha">7,875</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2014-09-30</td>
+            <td class="derecha">7,763</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 965 trabajadores más durante el presente año.</td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2013-11-30</td>
+            <td class="derecha">256,808</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2013-12-31</td>
+            <td class="derecha">253,116</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-01-31</td>
+            <td class="derecha">254,644</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-02-28</td>
+            <td class="derecha">255,740</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-03-31</td>
+            <td class="derecha">257,532</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-04-30</td>
+            <td class="derecha">258,709</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-05-31</td>
+            <td class="derecha">259,707</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-06-30</td>
+            <td class="derecha">260,725</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-07-31</td>
+            <td class="derecha">261,332</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-08-31</td>
+            <td class="derecha">264,250</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2014-09-30</td>
+            <td class="derecha">266,616</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 13500 trabajadores más durante el presente año.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
-// TWITTER BOOTSTRAP TABS
-$(document).ready(function(){
-  $('#smi-indicador a:first').tab('show')
-});
-// LENGUETA
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function (e) {
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof varMorrismwfigsgm === 'undefined') {
-    varMorrismwfigsgm = Morris.Line({
-      element: 'Morrismwfigsgm',
-      data: [{ fecha: '2007-12-31', dato: 171936 },{ fecha: '2008-12-31', dato: 164258 },{ fecha: '2009-12-31', dato: 157898 },{ fecha: '2010-12-31', dato: 168723 },{ fecha: '2011-12-31', dato: 176045 },{ fecha: '2012-12-31', dato: 184407 },{ fecha: '2013-12-31', dato: 187050 }],
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2013-11-30', dato: 162744 },{ fecha: '2013-12-31', dato: 161591 },{ fecha: '2014-01-31', dato: 161679 },{ fecha: '2014-02-28', dato: 162541 },{ fecha: '2014-03-31', dato: 163726 },{ fecha: '2014-04-30', dato: 164698 },{ fecha: '2014-05-31', dato: 165762 },{ fecha: '2014-06-30', dato: 166473 },{ fecha: '2014-07-31', dato: 167134 },{ fecha: '2014-08-31', dato: 169162 },{ fecha: '2014-09-30', dato: 170628 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -122,6 +311,10 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor
