@@ -18,7 +18,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad Materna en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-mortalidad-materna';
         $this->descripcion = 'Defunciones maternas por cada cien mil partos.';

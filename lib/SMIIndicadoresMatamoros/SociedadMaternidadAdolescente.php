@@ -18,7 +18,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Maternidad Adolescente en Matamoros';
-        $this->nombre_menu = 'Indicadores Matamoros';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-maternidad-adolescente';
         $this->descripcion = '';

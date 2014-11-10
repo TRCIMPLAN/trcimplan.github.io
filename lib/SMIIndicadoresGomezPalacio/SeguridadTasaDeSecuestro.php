@@ -18,7 +18,7 @@ class SeguridadTasaDeSecuestro extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tasa de Secuestro en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores Gómez Palacio';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-tasa-de-secuestro';
         $this->descripcion = 'Homicidios por habitantes por 100 mil';

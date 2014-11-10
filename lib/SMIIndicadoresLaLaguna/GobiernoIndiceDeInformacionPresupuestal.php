@@ -18,7 +18,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'índice de Información Presupuestal en La Laguna';
-        $this->nombre_menu = 'Indicadores La Laguna';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'gobierno-indice-de-informacion-presupuestal';
         $this->descripcion = 'Cumplimiento sobre total de criterios';

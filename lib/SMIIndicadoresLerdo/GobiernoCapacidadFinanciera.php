@@ -18,7 +18,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Capacidad Financiera en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-capacidad-financiera';
         $this->descripcion = 'Ingresos propios entre gastos corrientes.';

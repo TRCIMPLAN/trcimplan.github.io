@@ -18,7 +18,7 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Espacios Culturales en Matamoros';
-        $this->nombre_menu = 'Indicadores Matamoros';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-espacios-culturales';
         $this->descripcion = 'Espacios culturales físicamente delimitados.';

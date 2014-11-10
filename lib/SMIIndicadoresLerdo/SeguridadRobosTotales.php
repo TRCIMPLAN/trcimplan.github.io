@@ -18,7 +18,7 @@ class SeguridadRobosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robos Totales en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-robos-totales';
         $this->descripcion = 'Cantidad total de robos en el mes.';

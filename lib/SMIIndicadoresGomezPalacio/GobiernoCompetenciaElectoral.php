@@ -18,7 +18,7 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Competencia Electoral en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores Gómez Palacio';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'gobierno-competencia-electoral';
         $this->descripcion = 'Diferencia entre los dos candidatos con más votación entre el total de votos.';

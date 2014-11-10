@@ -18,7 +18,7 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Medianas Empresas en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'economia-medianas-empresas';
         $this->descripcion = 'Porcentaje del total de empresas que emplean de 51 a 250 personas.';

@@ -18,7 +18,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Camas Censables en Matamoros';
-        $this->nombre_menu = 'Indicadores Matamoros';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-camas-censables';
         $this->descripcion = '';

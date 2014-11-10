@@ -18,7 +18,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Motorización en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores Gómez Palacio';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sustentabilidad-motorizacion';
         $this->descripcion = 'Vehículos automotores registrados en circulación.';

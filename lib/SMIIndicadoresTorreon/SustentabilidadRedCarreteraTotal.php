@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera Total en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-red-carretera-total';
         $this->descripcion = '';

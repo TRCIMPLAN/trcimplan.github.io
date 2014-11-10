@@ -18,7 +18,7 @@ class EconomiaPosgradosDeCalidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Posgrados de Calidad en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-posgrados-de-calidad';
         $this->descripcion = 'Programas aceptados por CONACYT como posgrados de calidad';

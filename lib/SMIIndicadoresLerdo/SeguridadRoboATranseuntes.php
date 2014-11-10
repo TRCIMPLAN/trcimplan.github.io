@@ -18,7 +18,7 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robo a transeuntes en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-robo-a-transeuntes';
         $this->descripcion = 'Robos totales por mes.';

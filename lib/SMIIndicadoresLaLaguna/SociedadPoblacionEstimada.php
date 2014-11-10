@@ -18,7 +18,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Población Estimada en La Laguna';
-        $this->nombre_menu = 'Indicadores La Laguna';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-poblacion-estimada';
         $this->descripcion = 'Población estimada a mitad de año.';

@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera Troncal Federal en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-red-carretera-troncal-federal';
         $this->descripcion = '';

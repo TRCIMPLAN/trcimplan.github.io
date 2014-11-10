@@ -18,7 +18,7 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Pasajeros Aéreos Internacionales en La Laguna';
-        $this->nombre_menu = 'Indicadores La Laguna';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sustentabilidad-pasajeros-aereos-internacionales';
         $this->descripcion = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';

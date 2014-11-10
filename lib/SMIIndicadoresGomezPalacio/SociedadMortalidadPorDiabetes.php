@@ -18,7 +18,7 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Mortalidad por Diabetes en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores Gómez Palacio';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-mortalidad-por-diabetes';
         $this->descripcion = 'Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.';

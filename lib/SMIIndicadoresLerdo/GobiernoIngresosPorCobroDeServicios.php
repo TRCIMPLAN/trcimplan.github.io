@@ -18,7 +18,7 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ingresos por Cobro de Servicios en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'gobierno-ingresos-por-cobro-de-servicios';
         $this->descripcion = 'Ingresos recaudados por el municipio por cobro de servicios';

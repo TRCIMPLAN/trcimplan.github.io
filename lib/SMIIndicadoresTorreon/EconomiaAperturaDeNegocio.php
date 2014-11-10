@@ -18,7 +18,7 @@ class EconomiaAperturaDeNegocio extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Apertura de Negocio en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-apertura-de-negocio';
         $this->descripcion = 'Número de días necesarios para el trámite de apertura de un negocio.';

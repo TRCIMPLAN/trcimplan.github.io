@@ -18,7 +18,7 @@ class SociedadUniversidades extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Universidades en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-universidades';
         $this->descripcion = 'Planteles de Instituciones de Educación Superior.';

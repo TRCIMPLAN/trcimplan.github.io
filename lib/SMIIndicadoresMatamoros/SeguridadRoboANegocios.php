@@ -18,7 +18,7 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robo a negocios. en Matamoros';
-        $this->nombre_menu = 'Indicadores Matamoros';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-robo-a-negocios-';
         $this->descripcion = 'Robos totales por mes';

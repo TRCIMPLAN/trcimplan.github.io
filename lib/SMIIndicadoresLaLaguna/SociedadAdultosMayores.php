@@ -18,7 +18,7 @@ class SociedadAdultosMayores extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Adultos Mayores en La Laguna';
-        $this->nombre_menu = 'Indicadores La Laguna';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-adultos-mayores';
         $this->descripcion = 'Población estimada a mediados de año de personas de 65 años y más';

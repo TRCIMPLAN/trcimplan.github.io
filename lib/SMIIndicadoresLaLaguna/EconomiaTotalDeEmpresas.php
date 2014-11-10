@@ -18,7 +18,7 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Total de Empresas en La Laguna';
-        $this->nombre_menu = 'Indicadores La Laguna';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-total-de-empresas';
         $this->descripcion = '';

@@ -18,7 +18,7 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Desocupados como porcentaje de la PEA en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-desocupados-como-porcentaje-de-la-pea';
         $this->descripcion = 'Número total de desempleados entre la Población económicamente activa';

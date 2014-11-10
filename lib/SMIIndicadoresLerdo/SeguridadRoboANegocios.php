@@ -18,7 +18,7 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robo a negocios. en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-robo-a-negocios-';
         $this->descripcion = 'Robos totales por mes';

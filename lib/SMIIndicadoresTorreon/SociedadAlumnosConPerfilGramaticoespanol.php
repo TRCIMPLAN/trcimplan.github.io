@@ -18,7 +18,7 @@ class SociedadAlumnosConPerfilGramaticoespanol extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Alumnos con Perfil Gramático-Español en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-alumnos-con-perfil-gramatico-espanol';
         $this->descripcion = 'Alumnos buenos y excelentes en Prueba Enlace nivel básico.';

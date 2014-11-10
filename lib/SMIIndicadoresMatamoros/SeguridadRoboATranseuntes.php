@@ -18,7 +18,7 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robo a transeuntes en Matamoros';
-        $this->nombre_menu = 'Indicadores Matamoros';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-robo-a-transeuntes';
         $this->descripcion = 'Robos totales por mes.';

@@ -18,7 +18,7 @@ class SeguridadSentenciadosRegistradosDelFueroFederal extends \Base\Publicacion 
      */
     public function __construct() {
         $this->nombre      = 'Sentenciados Registrados del Fuero Federal en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-sentenciados-registrados-del-fuero-federal';
         $this->descripcion = 'Sentenciados registrados en los juzgados de primera instancia en materia penal del fuero federal';

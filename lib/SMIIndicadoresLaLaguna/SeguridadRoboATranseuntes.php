@@ -18,7 +18,7 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robo a transeuntes en La Laguna';
-        $this->nombre_menu = 'Indicadores La Laguna';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'seguridad-robo-a-transeuntes';
         $this->descripcion = 'Robos totales por mes.';

@@ -18,7 +18,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Camas Censables en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores Gómez Palacio';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'sociedad-camas-censables';
         $this->descripcion = '';

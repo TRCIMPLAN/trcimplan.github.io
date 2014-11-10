@@ -18,7 +18,7 @@ class SociedadDiscapacidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Discapacidad en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-discapacidad';
         $this->descripcion = 'Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)';

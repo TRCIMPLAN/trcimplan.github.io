@@ -18,7 +18,7 @@ class EconomiaRegistroDePropiedades extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Registro de Propiedades en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-registro-de-propiedades';
         $this->descripcion = 'Días que toma el trámite para el registro de una propiedad.';

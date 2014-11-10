@@ -32,12 +32,12 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         $this->publicaciones_directorio = 'SMICategorias';
-        $this->titulo                   = 'Categorías';
+        $this->titulo                   = 'Indicadores por Categoría';
         $this->descripcion              = 'Listado de Categorías del Sistema Metropolitano de Indicadores del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Indicadores, Categorías';
         $this->directorio               = 'indicadores-categorias';
         $this->ruta                     = 'indicadores-categorias/index.html';
-        $this->nombre_menu              = 'Categorías';
+        $this->nombre_menu              = 'Indicadores por Categoría';
         $this->concentrador             = 'Galeria';
     } // constructor
 

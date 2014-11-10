@@ -18,7 +18,7 @@ class GobiernoCompetenciaElectoralDiferenciaDeVotos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Competencia Electoral Diferencia de Votos en Matamoros';
-        $this->nombre_menu = 'Indicadores Matamoros';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'gobierno-competencia-electoral-diferencia-de-votos';
         $this->descripcion = 'Diferencia de votos entre primer y segundo lugar en la elección federal.';

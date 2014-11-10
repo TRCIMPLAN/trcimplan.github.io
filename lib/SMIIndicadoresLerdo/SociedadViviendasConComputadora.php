@@ -18,7 +18,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Viviendas con Computadora en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-viviendas-con-computadora';
         $this->descripcion = 'Porcentaje de viviendas habitadas con computadora.';

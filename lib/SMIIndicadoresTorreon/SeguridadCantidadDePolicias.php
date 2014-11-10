@@ -18,7 +18,7 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Cantidad de Policías en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-cantidad-de-policias';
         $this->descripcion = 'Cantidad total de policías en el municipio.';

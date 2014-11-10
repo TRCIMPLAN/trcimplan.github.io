@@ -18,7 +18,7 @@ class SeguridadSentenciadosRegistradosDelFueroFederal extends \Base\Publicacion 
      */
     public function __construct() {
         $this->nombre      = 'Sentenciados Registrados del Fuero Federal en Matamoros';
-        $this->nombre_menu = 'Indicadores Matamoros';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-sentenciados-registrados-del-fuero-federal';
         $this->descripcion = 'Sentenciados registrados en los juzgados de primera instancia en materia penal del fuero federal';

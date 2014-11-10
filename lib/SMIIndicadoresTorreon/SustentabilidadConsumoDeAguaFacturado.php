@@ -18,7 +18,7 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Consumo de Agua Facturado en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-consumo-de-agua-facturado';
         $this->descripcion = 'Consumo anual de agua por persona expresado en metros cúbicos.';

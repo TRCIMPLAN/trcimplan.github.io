@@ -18,7 +18,7 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \Base\Public
      */
     public function __construct() {
         $this->nombre      = 'Población que Trabaja en su PROPIO Municipio en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio';
         $this->descripcion = 'Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.';

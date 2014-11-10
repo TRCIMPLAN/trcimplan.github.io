@@ -18,7 +18,7 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robo a negocios. en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores Gómez Palacio';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-robo-a-negocios-';
         $this->descripcion = 'Robos totales por mes';

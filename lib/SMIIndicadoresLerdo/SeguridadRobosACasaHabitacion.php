@@ -18,7 +18,7 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robos a casa habitación. en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'seguridad-robos-a-casa-habitacion-';
         $this->descripcion = 'robos totales por mes';

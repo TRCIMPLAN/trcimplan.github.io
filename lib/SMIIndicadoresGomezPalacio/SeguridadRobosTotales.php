@@ -18,7 +18,7 @@ class SeguridadRobosTotales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robos Totales en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores Gómez Palacio';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'seguridad-robos-totales';
         $this->descripcion = 'Cantidad total de robos en el mes.';

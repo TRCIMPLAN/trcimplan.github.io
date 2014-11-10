@@ -18,7 +18,7 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Desocupados como porcentaje de la PEA en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores Gómez Palacio';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-gomez-palacio';
         $this->archivo     = 'economia-desocupados-como-porcentaje-de-la-pea';
         $this->descripcion = 'Número total de desempleados entre la Población económicamente activa';

@@ -18,7 +18,7 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \Base\Public
      */
     public function __construct() {
         $this->nombre      = 'Población que Trabaja en su PROPIO Municipio en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio';
         $this->descripcion = 'Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.';

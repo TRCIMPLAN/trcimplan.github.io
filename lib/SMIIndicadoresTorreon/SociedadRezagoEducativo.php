@@ -18,7 +18,7 @@ class SociedadRezagoEducativo extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Rezago Educativo en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-rezago-educativo';
         $this->descripcion = 'Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,

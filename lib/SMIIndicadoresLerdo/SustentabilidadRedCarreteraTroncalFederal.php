@@ -18,7 +18,7 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Red Carretera Troncal Federal en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sustentabilidad-red-carretera-troncal-federal';
         $this->descripcion = '';

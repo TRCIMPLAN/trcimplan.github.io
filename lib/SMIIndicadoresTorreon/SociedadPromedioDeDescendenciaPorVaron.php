@@ -18,7 +18,7 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Promedio de Descendencia por Varón en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-promedio-de-descendencia-por-varon';
         $this->descripcion = 'Calcula el promedio estimado de hijos por cada varón.';

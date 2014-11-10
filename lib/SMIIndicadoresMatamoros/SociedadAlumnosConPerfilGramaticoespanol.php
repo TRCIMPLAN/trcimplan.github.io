@@ -18,7 +18,7 @@ class SociedadAlumnosConPerfilGramaticoespanol extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Alumnos con Perfil Gramático-Español en Matamoros';
-        $this->nombre_menu = 'Indicadores Matamoros';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-alumnos-con-perfil-gramatico-espanol';
         $this->descripcion = 'Alumnos buenos y excelentes en Prueba Enlace nivel básico.';

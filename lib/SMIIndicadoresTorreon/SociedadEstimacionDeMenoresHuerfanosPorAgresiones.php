@@ -18,7 +18,7 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \Base\Publicacio
      */
     public function __construct() {
         $this->nombre      = 'Estimación de Menores Huérfanos por Agresiones en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-estimacion-de-menores-huerfanos-por-agresiones';
         $this->descripcion = 'Menores de edad que han perdido a padre o madre a causa de agresión (homicidio).';

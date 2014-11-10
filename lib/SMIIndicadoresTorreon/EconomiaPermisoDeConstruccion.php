@@ -18,7 +18,7 @@ class EconomiaPermisoDeConstruccion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Permiso de Construcción en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-permiso-de-construccion';
         $this->descripcion = 'Número de días necesarios para conseguir un permiso de construcción.';

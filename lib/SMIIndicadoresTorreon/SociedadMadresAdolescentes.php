@@ -18,7 +18,7 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Madres Adolescentes en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'sociedad-madres-adolescentes';
         $this->descripcion = 'Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad';

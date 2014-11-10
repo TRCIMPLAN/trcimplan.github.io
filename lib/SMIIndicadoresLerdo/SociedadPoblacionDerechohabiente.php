@@ -18,7 +18,7 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Población Derechohabiente en Lerdo';
-        $this->nombre_menu = 'Indicadores Lerdo';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-lerdo';
         $this->archivo     = 'sociedad-poblacion-derechohabiente';
         $this->descripcion = 'Población derechohabiente a los servicios de salud.';

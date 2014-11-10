@@ -18,7 +18,7 @@ class EconomiaObtencionDeCreditoCreacionDeGarantias extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Obtención de crédito - Creación de garantías en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-obtencion-de-credito---creacion-de-garantias';
         $this->descripcion = 'Días transcurridos en el proceso de obtención de un crédito.';

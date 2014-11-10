@@ -18,7 +18,7 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Población Derechohabiente en Matamoros';
-        $this->nombre_menu = 'Indicadores Matamoros';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-poblacion-derechohabiente';
         $this->descripcion = 'Población derechohabiente a los servicios de salud.';

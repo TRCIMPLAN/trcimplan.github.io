@@ -18,7 +18,7 @@ class SeguridadTasaDePoliciasPorHabitante extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Tasa de Policías por Habitante en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-tasa-de-policias-por-habitante';
         $this->descripcion = 'Cantidad de policías por cada mil habitantes.';

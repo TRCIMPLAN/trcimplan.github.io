@@ -18,7 +18,7 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Trabajadores Asegurados en La Laguna';
-        $this->nombre_menu = 'Indicadores La Laguna';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'economia-trabajadores-asegurados';
         $this->descripcion = 'Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal';

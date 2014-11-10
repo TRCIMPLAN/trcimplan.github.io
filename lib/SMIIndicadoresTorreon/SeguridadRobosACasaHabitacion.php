@@ -18,7 +18,7 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Robos a casa habitación. en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'seguridad-robos-a-casa-habitacion-';
         $this->descripcion = 'robos totales por mes';

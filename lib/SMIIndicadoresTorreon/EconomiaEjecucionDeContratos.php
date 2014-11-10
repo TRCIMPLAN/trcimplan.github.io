@@ -18,7 +18,7 @@ class EconomiaEjecucionDeContratos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre      = 'Ejecución de Contratos en Torreón';
-        $this->nombre_menu = 'Indicadores Torreón';
+        $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
         $this->archivo     = 'economia-ejecucion-de-contratos';
         $this->descripcion = 'Días transcurridos para la ejecución de un contrato.';
