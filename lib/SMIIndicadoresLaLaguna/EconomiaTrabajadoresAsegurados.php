@@ -214,6 +214,160 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
             <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 9037 trabajadores más durante el presente año.</td>
           </tr>
           <tr>
+            <td>Gómez Palacio</td>
+            <td>2013-11-30</td>
+            <td class="derecha">72,687</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2013-12-31</td>
+            <td class="derecha">71,209</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-01-31</td>
+            <td class="derecha">72,154</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-02-28</td>
+            <td class="derecha">72,228</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-03-31</td>
+            <td class="derecha">72,852</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-04-30</td>
+            <td class="derecha">73,102</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-05-31</td>
+            <td class="derecha">73,102</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-06-30</td>
+            <td class="derecha">73,542</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-07-31</td>
+            <td class="derecha">73,320</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-08-31</td>
+            <td class="derecha">73,899</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-09-30</td>
+            <td class="derecha">74,974</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 3,765 trabajadores más durante el presente año.</td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2013-11-30</td>
+            <td class="derecha">13,739</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2013-12-31</td>
+            <td class="derecha">13,518</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-01-31</td>
+            <td class="derecha">13,811</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-02-28</td>
+            <td class="derecha">13,947</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-03-31</td>
+            <td class="derecha">13,894</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-04-30</td>
+            <td class="derecha">13,791</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-05-31</td>
+            <td class="derecha">13,667</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-06-30</td>
+            <td class="derecha">13,347</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-07-31</td>
+            <td class="derecha">13,336</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-08-31</td>
+            <td class="derecha">13,314</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-09-30</td>
+            <td class="derecha">13,251</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 267 trabajadores menos durante el presente año.</td>
+          </tr>
+          <tr>
             <td>Matamoros</td>
             <td>2013-11-30</td>
             <td class="derecha">7,638</td>

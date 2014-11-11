@@ -76,7 +76,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
             <td>2012-12-31</td>
             <td class="derecha">226</td>
             <td>INEGI</td>
-            <td>VEHICULOS AUTOMOTORES REGISTRADOS EN CIRCULACIÓN, EXCLUYE MOTOCICLETAS</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>

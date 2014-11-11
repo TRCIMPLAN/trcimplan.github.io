@@ -250,6 +250,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-total-de-empresas.html" target="_blank">Total de Empresas</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-al-comercio.html" target="_blank">Unidades Económicas Dedicadas al Comercio</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-los-servicios.html" target="_blank">Unidades Económicas Dedicadas a los Servicios</a></li>
@@ -392,6 +393,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-lerdo/economia-total-de-empresas.html" target="_blank">Total de Empresas</a></li>
+      <li><a href="../indicadores-lerdo/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
       <li><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-al-comercio.html" target="_blank">Unidades Económicas Dedicadas al Comercio</a></li>
       <li><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html" target="_blank">Unidades Económicas Dedicadas a los Servicios</a></li>
