@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap            http://getbootstrap.com
+           StartBootStrap (SB Admin 2)  http://startbootstrap.com
+           Morris.js                    http://www.oesmith.co.uk/morris.js
+           LeafLet                      http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El presente artículo pretende caracterizar a los Proyectos Estratégicos bajo un enfoque sustentable y comunicar que el IMPLAN Torreón promueve el impulso del desarrollo integral de la Laguna, mediante la integración de una Cartera de Proyectos Estratégicos.">
+  <meta name="author" content="Arq. Susana Montano">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Una nueva forma de impulsar el desarrollo de Torreón y su Zona Metropolitana - IMPLAN Torreón">
+  <meta name="twitter:description" content="El presente artículo pretende caracterizar a los Proyectos Estratégicos bajo un enfoque sustentable y comunicar que el IMPLAN Torreón promueve el impulso del desarrollo integral de la Laguna, mediante la integración de una Cartera de Proyectos Estratégicos.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/nueva-forma-impulsar-desarrollo-torreon-zm/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/nueva-forma-impulsar-desarrollo-torreon-zm.html">
+  <meta name="og:title" content="Una nueva forma de impulsar el desarrollo de Torreón y su Zona Metropolitana - IMPLAN Torreón">
+  <meta name="og:description" content="El presente artículo pretende caracterizar a los Proyectos Estratégicos bajo un enfoque sustentable y comunicar que el IMPLAN Torreón promueve el impulso del desarrollo integral de la Laguna, mediante la integración de una Cartera de Proyectos Estratégicos.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/nueva-forma-impulsar-desarrollo-torreon-zm/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/nueva-forma-impulsar-desarrollo-torreon-zm.html">
+  <title>Una nueva forma de impulsar el desarrollo de Torreón y su Zona Metropolitana - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="http://trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Mesa 1</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Alumbrado Público</a></li>
+            <li><a href="../sig/zonificacion.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación</a></li>
+            <li><a href="../sig/abrir-sig.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Abrir el SIG</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+      <div class="cuerpo">
+<article>
+  <header>
+    <div class="encabezado">
+      <span><h1><i class="fa fa-lightbulb-o encabezado-icono"></i> Una nueva forma de impulsar el desarrollo de Torreón y su Zona Metropolitana</h1></span>
+    </div>
+    <p class="autor-fecha">Por Arq. Susana Montano<br>11/11/2014</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="nueva-forma-impulsar-desarrollo-torreon-zm/imagen.jpg"></span>
+
+<blockquote>
+    <p>"Cities have the capability of providing something for everybody, only because, and only when, they are created by everybody"</p>
+    <p class="pull-right">Jane Jacobs</p>
+</blockquote>
+
+<p>El presente artículo pretende caracterizar a los <b>Proyectos Estratégicos</b> bajo un enfoque sustentable y comunicar que <b>el Instituto Municipal de Planeación y Competitividad  de Torreón (IMPLAN) promueve el impulso del desarrollo integral de la Laguna</b>, mediante la integración de una <b>Cartera de Proyectos Estratégicos</b> derivada de un Plan Estratégico Metropolitano (PEM).</p>
+
+<p>Iniciemos definiendo <i>"estrategia"</i>, como un proceso bien analizado mediante el cual se prevé alcanzar un estado futuro desde el presente. Cabe resaltar que la estrategia no cambia nada por sí sola, por lo que comúnmente se pone en tela de juicio la efectividad de los planes estratégicos, principalmente porque con frecuencia quedan en un documento lleno de buenas intenciones que una vez terminado, se deja en el olvido. <b>Lo que hace que las estrategias de un plan se concreten son los proyectos clave o estratégicos que se derivan de estas.</b></p>
+
+<p>Así mismo, <b>un proyecto es un conjunto de ideas organizadas que pretenden alcanzar un objetivo</b>, para lo cual se realizan una serie de actividades en forma planificada. La diferencia entre los proyectos comunes y los estratégicos radica en las siguientes características:</p>
+
+<p>a) Los proyectos estratégicos no son proyectos aislados; sino que se rigen por objetivos encaminados hacia una misma dirección, es decir, <b>son el resultado de un proceso de planificación estratégica</b>, en la cual se revisaron los problemas más importantes de determinada cuestión, detectando las causas principales y sus consecuencias; así también <b>pasaron por un análisis detallado, un diagnóstico, objetivos, metas y estrategias</b> que atiendan la problemática de raíz.</p>
+
+<p>b) <b>Son impulsados por acciones o iniciativas de manera participativa e incluyente</b>, integrando la comunidad y todos los sectores sociales involucrados en decisiones para el bien común.</p>
+
+<blockquote>
+    <p>"El éxito de un proyecto depende fuertemente de la capacidad, disposición y motivación de las partes involucradas en su desarrollo" (UNAL, 2014)[i]</p>
+</blockquote>
+
+<blockquote>
+    <p>"Una participación inadecuada de las partes interesadas es una de las razones más comunes del fracaso de programas y proyectos. Por lo tanto, se deberían hacer todos los esfuerzos posibles para alentar un compromiso amplio y activo de las partes interesadas en los procesos de planificación, seguimiento y evaluación. Esto es especialmente importante en situaciones de crisis en las que se puede agudizar la sensación de inseguridad y vulnerabilidad de la gente, y existir tensiones y facciones" (PNUD, 2009)[ii]</p>
+</blockquote>
+
+<p>c) <b>Comparten un enfoque integral y sistémico</b>, la forma de abordar la problemática y las soluciones no pueden ser aisladas, sino parte de un todo y deberá tomar su interacción con otros elementos y proyectos.</p>
+
+<p>d) <b>Son pertinentes</b>, es decir, <b>los objetivos y productos a lograr se ajustan al problema y a sus causas identificadas en el diagnóstico y necesidades, así como del perfil de la población objetivo.</b> Las características sociales, culturales y económicas que presentan los potenciales beneficiarios pueden hacer más coherentes y oportunas las actividades necesarias para producir un bien o servicio.</p>
+
+<p>e) <b>Son viables y factibles.</b> Un proyecto viable, es un proyecto que además de que es factible, es decir, que es posible de realizar, tiene la disponibilidad de los recursos necesarios para llevar a cabo los objetivos y metas señaladas. Frecuentemente esto resulta de un análisis costo-beneficio que integra los diferentes enfoques disciplinarios (social, económico, ambiental, técnico, institucional, legal) y determina tanto la rentabilidad económica, como la sostenibilidad del proyecto.</p>
+
+<p>f) <b>Requieren un proceso constante de evaluación para su control, seguimiento y mejora continua.</b> Se utilizan <b>indicadores propios de cada proyecto</b>, que señalen el cambio generado entre el estado actual y el que se pretende en su planificación, es decir, se determina que tanto el proyecto ha logrado cumplir con sus objetivos o cual es su capacidad para hacerlo, de acuerdo a la fase en que se encuentre.</p>
+
+<p>Bajo estos criterios, el IMPLAN Torreón busca direccionar los esfuerzos mediante metodologías de planeación participativa y un enfoque sistémico, como es el caso de la elaboración de <b>Plan Estratégico Metropolitano</b>. En el cual, <b>después de haber identificado las necesidades prioritarias</b> de la región de manera integral y participativa, se invita a los actores principales que determinan al territorio, y que a su vez, se ven determinados por éste, a <b>proponer proyectos</b> con estas características que conformarán la <b>Cartera de Proyectos Estratégicos de la Zona Metropolitana de la Laguna 2015-2040</b>.</p>
+
+<blockquote>
+    <p>"… Sí creo en el desarrollo económico y sustentable como resultado del compromiso social incluyente"</p>
+    <p class="pull-right">― Anónimo ―</p>
+</blockquote>
+
+<p>[i] Universidad Nacional de Colombia. <a href="http://www.virtual.unal.edu.co/cursos/agronomia/2007841/lecciones/04_01.htm">Formulación y Gestión de Proyectos</a> [Fecha de consulta: 25 de noviembre 2014].</p>
+
+<p>[ii] Programa de las Naciones Unidas Para el Desarrollo, 2009. <a href="http://web.undp.org/evaluation/handbook/spanish/documents/manual_completo.pdf">Manual de Planificación, Seguimiento y Evaluación de los Resultados de Desarrollo. A.K. Office Supplies</a> (NY) [Fecha de consulta: 25 de noviembre 2014].</p>
+
+</article>
+      </div>
+    <div class="row mapa-inferior">
+      <div class="col-md-8">
+          <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+      </div>
+      <div class="col-md-4">
+        <div class="pull-right mapa-inferior-redes-sociales">
+          <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+          <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+          <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+          <a class="fa fa-rss-square" href="../rss.xml"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+</body>
+</html>
