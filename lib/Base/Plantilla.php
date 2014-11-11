@@ -256,7 +256,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // Contenido inicia
         $a[] = '  <div id="page-wrapper">';
         if ($this->contenido_en_renglon) {
-            $a[] = '    <div class="row">';
+    //      $a[] = '    <div class="row">';
             $a[] = '      <div class="cuerpo">';
         }
         if (is_string($this->contenido) && (trim($this->contenido) != '')) {
@@ -268,7 +268,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         }
         if ($this->contenido_en_renglon) {
             $a[] = '      </div>'; // cuerpo
-            $a[] = '    </div>';   // row
+    //      $a[] = '    </div>';   // row
         }
         if (is_object($this->mapa_inferior) && ($this->mapa_inferior instanceof MapaInferior)) {
             $a[] = $this->mapa_inferior->html();

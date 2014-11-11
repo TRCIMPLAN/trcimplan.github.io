@@ -183,9 +183,7 @@ class Navegacion extends \Configuracion\NavegacionConfig {
                     }
                 }
                 // Si la opción activa es de tercer nivel, entonces también esta es activa
-                if ($es_opcion_activa) {
-                    $a[] = '        <li class="active">';
-                } elseif (array_key_exists($this->opcion_activa, $parametros)) {
+                if (($etiqueta == $this->opcion_activa) || array_key_exists($this->opcion_activa, $parametros) || $es_opcion_activa) {
                     $a[] = '        <li class="active">';
                 } else {
                     $a[] = '        <li>';
