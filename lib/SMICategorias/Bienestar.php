@@ -18,7 +18,7 @@ class Bienestar extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Bienestar';
-        $this->nombre_menu   = 'Categorías';
+        $this->nombre_menu   = 'Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'bienestar';
         $this->descripcion   = 'Matriz de indicadores en la categoría Bienestar';

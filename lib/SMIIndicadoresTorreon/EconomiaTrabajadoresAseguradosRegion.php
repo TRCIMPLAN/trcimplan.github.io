@@ -25,11 +25,11 @@ class EconomiaTrabajadoresAseguradosRegion extends \Base\Publicacion {
         $this->claves      = 'Torreón, Empleo';
         $this->categorias  = array('Empleo');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
-  <div class="tab-content">
+  <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
 <p>Evolución del empleo medida en trabajadores asegurados por el IMSS.</p>
@@ -104,7 +104,7 @@ class EconomiaTrabajadoresAseguradosRegion extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -121,7 +121,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
 });
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

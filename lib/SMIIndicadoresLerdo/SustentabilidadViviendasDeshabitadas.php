@@ -25,12 +25,12 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
     <li><a href="#smi-indicador-mapa" data-toggle="tab">Georreferenciado</a></li>
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
-  <div class="tab-content">
+  <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-mapa">
 <iframe width='100%' height='520' frameborder='0' src='http://sigimplan.cartodb.com/viz/76817896-45be-11e4-8b52-0e853d047bba/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <h3>Notas</h3>
@@ -114,7 +114,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-mapa
 $(document).ready(function(){
-  $('#smi-indicador a[href="#smi-indicador-mapa"]').tab('show')
+  $('#smi-indicador- a[href="#smi-indicador-mapa"]').tab('show')
 });
 FINAL;
     } // constructor

@@ -18,7 +18,7 @@ class Educacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Educación';
-        $this->nombre_menu   = 'Categorías';
+        $this->nombre_menu   = 'Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'educacion';
         $this->descripcion   = 'Matriz de indicadores en la categoría Educación';

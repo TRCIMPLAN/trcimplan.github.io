@@ -18,7 +18,7 @@ class Indice extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Indicadores de Matamoros';
-        $this->nombre_menu   = 'Indicadores Matamoros';
+        $this->nombre_menu   = 'Indicadores por Región';
         $this->directorio    = 'indicadores-matamoros';
         $this->archivo       = 'index';
         $this->descripcion   = 'Matriz de indicadores de Matamoros';

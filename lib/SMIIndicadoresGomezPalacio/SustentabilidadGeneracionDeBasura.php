@@ -25,11 +25,11 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
-  <div class="tab-content">
+  <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
 <p>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</p>
@@ -128,7 +128,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

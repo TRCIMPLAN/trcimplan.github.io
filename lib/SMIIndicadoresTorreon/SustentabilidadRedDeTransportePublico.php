@@ -25,10 +25,10 @@ class SustentabilidadRedDeTransportePublico extends \Base\Publicacion {
         $this->claves      = 'Torreón, Servicios Públicos';
         $this->categorias  = array('Servicios Públicos');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
   </ul>
-  <div class="tab-content">
+  <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
 <p>Extensión de la red de transporte público en Kilómetros totales.</p>
@@ -59,7 +59,7 @@ FINAL;
         $this->javascript  = <<<FINAL
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

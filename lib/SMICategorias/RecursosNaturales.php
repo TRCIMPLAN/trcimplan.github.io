@@ -18,7 +18,7 @@ class RecursosNaturales extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Recursos Naturales';
-        $this->nombre_menu   = 'Categorías';
+        $this->nombre_menu   = 'Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'recursos-naturales';
         $this->descripcion   = 'Matriz de indicadores en la categoría Recursos Naturales';

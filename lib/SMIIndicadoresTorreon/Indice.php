@@ -18,7 +18,7 @@ class Indice extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Indicadores de Torreón';
-        $this->nombre_menu   = 'Indicadores Torreón';
+        $this->nombre_menu   = 'Indicadores por Región';
         $this->directorio    = 'indicadores-torreon';
         $this->archivo       = 'index';
         $this->descripcion   = 'Matriz de indicadores de Torreón';

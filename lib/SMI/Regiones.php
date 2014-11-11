@@ -52,17 +52,18 @@ class Regiones extends \Base\Publicacion {
         $this->estado           = 'publicar';
         // El contenido HTML y el JavaScript
         $this->contenido        = <<<FIN
-  <ul class="nav nav-tabs lenguetas" id="regiones">
+<p><b>Instrucciones:</b> De clic en la pestaña del municipio o de La Laguna para mostrar los listados de indicadores por Economía, Gobierno, Seguridad, Sociedad y Sustentabilidad. Al dar clic en el vínculo del indicador, éste se abrirá en una nueva pestaña de su navegador. Aproveche que su navegador puede mostrar varios indicadores en pestañas.</p>
+  <ul class="nav nav-tabs lenguetas" id="smi-regiones-">
     <li><a href="#regiontorreon" data-toggle="tab">Torreón</a></li>
     <li><a href="#regiongomez-palacio" data-toggle="tab">Gómez Palacio</a></li>
     <li><a href="#regionlerdo" data-toggle="tab">Lerdo</a></li>
     <li><a href="#regionmatamoros" data-toggle="tab">Matamoros</a></li>
     <li><a href="#regionla-laguna" data-toggle="tab">La Laguna</a></li>
   </ul>
-  <div class="tab-content">
+  <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="regiontorreon">
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Economía</h3>
     <ul>
       <li><a href="../indicadores-torreon/economia-apertura-de-negocio.html" target="_blank">Apertura de Negocio</a></li>
@@ -103,7 +104,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-los-servicios.html" target="_blank">Unidades Económicas Dedicadas a los Servicios</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Gobierno</h3>
     <ul>
       <li><a href="../indicadores-torreon/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
@@ -120,7 +121,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Seguridad</h3>
     <ul>
       <li><a href="../indicadores-torreon/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
@@ -148,7 +149,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/seguridad-tasa-de-secuestro.html" target="_blank">Tasa de Secuestro</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Sociedad</h3>
     <ul>
       <li><a href="../indicadores-torreon/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
@@ -192,7 +193,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Sustentabilidad</h3>
     <ul>
       <li><a href="../indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
@@ -221,7 +222,7 @@ class Regiones extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="regiongomez-palacio">
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Economía</h3>
     <ul>
       <li><a href="../indicadores-gomez-palacio/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
@@ -254,7 +255,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-los-servicios.html" target="_blank">Unidades Económicas Dedicadas a los Servicios</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Gobierno</h3>
     <ul>
       <li><a href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
@@ -271,7 +272,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Seguridad</h3>
     <ul>
       <li><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
@@ -297,7 +298,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-secuestro.html" target="_blank">Tasa de Secuestro</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Sociedad</h3>
     <ul>
       <li><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
@@ -336,7 +337,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Sustentabilidad</h3>
     <ul>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
@@ -363,7 +364,7 @@ class Regiones extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="regionlerdo">
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Economía</h3>
     <ul>
       <li><a href="../indicadores-lerdo/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
@@ -396,7 +397,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html" target="_blank">Unidades Económicas Dedicadas a los Servicios</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Gobierno</h3>
     <ul>
       <li><a href="../indicadores-lerdo/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
@@ -413,7 +414,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Seguridad</h3>
     <ul>
       <li><a href="../indicadores-lerdo/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
@@ -439,7 +440,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/seguridad-tasa-de-secuestro.html" target="_blank">Tasa de Secuestro</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Sociedad</h3>
     <ul>
       <li><a href="../indicadores-lerdo/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
@@ -478,7 +479,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Sustentabilidad</h3>
     <ul>
       <li><a href="../indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
@@ -505,7 +506,7 @@ class Regiones extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="regionmatamoros">
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Economía</h3>
     <ul>
       <li><a href="../indicadores-matamoros/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
@@ -540,7 +541,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-los-servicios.html" target="_blank">Unidades Económicas Dedicadas a los Servicios</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Gobierno</h3>
     <ul>
       <li><a href="../indicadores-matamoros/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
@@ -557,7 +558,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Seguridad</h3>
     <ul>
       <li><a href="../indicadores-matamoros/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
@@ -583,7 +584,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/seguridad-tasa-de-secuestro.html" target="_blank">Tasa de Secuestro</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Sociedad</h3>
     <ul>
       <li><a href="../indicadores-matamoros/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
@@ -622,7 +623,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Sustentabilidad</h3>
     <ul>
       <li><a href="../indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
@@ -649,7 +650,7 @@ class Regiones extends \Base\Publicacion {
     </div>
     <div class="tab-pane" id="regionla-laguna">
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Economía</h3>
     <ul>
       <li><a href="../indicadores-la-laguna/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
@@ -683,7 +684,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-los-servicios.html" target="_blank">Unidades Económicas Dedicadas a los Servicios</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Gobierno</h3>
     <ul>
       <li><a href="../indicadores-la-laguna/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
@@ -700,7 +701,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Seguridad</h3>
     <ul>
       <li><a href="../indicadores-la-laguna/seguridad-accidentes-viales.html" target="_blank">Accidentes Viales</a></li>
@@ -726,7 +727,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/seguridad-tasa-de-secuestro.html" target="_blank">Tasa de Secuestro</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Sociedad</h3>
     <ul>
       <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
@@ -760,7 +761,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-2 indicadores-vinculos">
     <h3>Sustentabilidad</h3>
     <ul>
       <li><a href="../indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
@@ -791,7 +792,7 @@ FIN;
         $this->javascript  = <<<FIN
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES regiontorreon
 $(document).ready(function(){
-  $('#regiones a[href="#regiontorreon"]').tab('show')
+  $('#smi-regiones- a[href="#regiontorreon"]').tab('show')
 });
 FIN;
     } // constructor

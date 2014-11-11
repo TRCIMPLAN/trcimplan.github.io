@@ -18,7 +18,7 @@ class Indice extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Indicadores de La Laguna';
-        $this->nombre_menu   = 'Indicadores La Laguna';
+        $this->nombre_menu   = 'Indicadores por Región';
         $this->directorio    = 'indicadores-la-laguna';
         $this->archivo       = 'index';
         $this->descripcion   = 'Matriz de indicadores de La Laguna';

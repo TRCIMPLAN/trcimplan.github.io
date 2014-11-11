@@ -18,7 +18,7 @@ class Poblacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Población';
-        $this->nombre_menu   = 'Categorías';
+        $this->nombre_menu   = 'Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'poblacion';
         $this->descripcion   = 'Matriz de indicadores en la categoría Población';

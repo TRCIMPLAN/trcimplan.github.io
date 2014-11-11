@@ -18,7 +18,7 @@ class Indice extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Indicadores de Gómez Palacio';
-        $this->nombre_menu   = 'Indicadores Gómez Palacio';
+        $this->nombre_menu   = 'Indicadores por Región';
         $this->directorio    = 'indicadores-gomez-palacio';
         $this->archivo       = 'index';
         $this->descripcion   = 'Matriz de indicadores de Gómez Palacio';

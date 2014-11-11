@@ -18,7 +18,7 @@ class ParticipacionCiudadana extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Participación Ciudadana';
-        $this->nombre_menu   = 'Categorías';
+        $this->nombre_menu   = 'Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'participacion-ciudadana';
         $this->descripcion   = 'Matriz de indicadores en la categoría Participación Ciudadana';

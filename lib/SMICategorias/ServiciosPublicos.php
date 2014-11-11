@@ -18,7 +18,7 @@ class ServiciosPublicos extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Servicios Públicos';
-        $this->nombre_menu   = 'Categorías';
+        $this->nombre_menu   = 'Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'servicios-publicos';
         $this->descripcion   = 'Matriz de indicadores en la categoría Servicios Públicos';

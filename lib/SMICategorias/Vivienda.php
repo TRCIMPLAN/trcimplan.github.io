@@ -18,7 +18,7 @@ class Vivienda extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Vivienda';
-        $this->nombre_menu   = 'Categorías';
+        $this->nombre_menu   = 'Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'vivienda';
         $this->descripcion   = 'Matriz de indicadores en la categoría Vivienda';

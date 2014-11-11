@@ -18,7 +18,7 @@ class Empresas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Empresas';
-        $this->nombre_menu   = 'Categorías';
+        $this->nombre_menu   = 'Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'empresas';
         $this->descripcion   = 'Matriz de indicadores en la categoría Empresas';

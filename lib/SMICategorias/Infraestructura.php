@@ -18,7 +18,7 @@ class Infraestructura extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Infraestructura';
-        $this->nombre_menu   = 'Categorías';
+        $this->nombre_menu   = 'Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'infraestructura';
         $this->descripcion   = 'Matriz de indicadores en la categoría Infraestructura';

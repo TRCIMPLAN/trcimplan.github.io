@@ -18,7 +18,7 @@ class Delincuencia extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Delincuencia';
-        $this->nombre_menu   = 'Categorías';
+        $this->nombre_menu   = 'Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'delincuencia';
         $this->descripcion   = 'Matriz de indicadores en la categoría Delincuencia';
