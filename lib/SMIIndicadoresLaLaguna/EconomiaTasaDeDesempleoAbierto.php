@@ -1,28 +1,28 @@
 <?php
 /**
- * EconomiaDesocupadosComoPorcentajeDeLaPea.php
+ * EconomiaTasaDeDesempleoAbierto.php
  *
  * IMPLAN Torreón
  */
 
 // Namespace
-namespace SMIIndicadoresTorreon;
+namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase EconomiaDesocupadosComoPorcentajeDeLaPea
+ * Clase EconomiaTasaDeDesempleoAbierto
  */
-class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
+class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Desocupados como porcentaje de la PEA en Torreón';
+        $this->nombre      = 'Tasa de Desempleo Abierto en La Laguna';
         $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'economia-desocupados-como-porcentaje-de-la-pea';
-        $this->descripcion = 'Número total de desempleados entre la Población económicamente activa';
-        $this->claves      = 'Torreón, Empleo';
+        $this->directorio  = 'indicadores-la-laguna';
+        $this->archivo     = 'economia-tasa-de-desempleo-abierto';
+        $this->descripcion = 'Número total de desempleados entre la Población económicamente activa.';
+        $this->claves      = 'La Laguna, Empleo';
         $this->categorias  = array('Empleo');
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
@@ -33,7 +33,7 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Número total de desempleados entre la Población económicamente activa</p>
+<p>Número total de desempleados entre la Población económicamente activa.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -48,20 +48,38 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
         <tbody>
           <tr>
             <td class="centrado">12/03/1990</td>
-            <td class="derecha">2.66 %</td>
+            <td class="derecha">2.81 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td class="centrado">14/02/2000</td>
-            <td class="derecha">1.04 %</td>
+            <td class="derecha">1.03 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td class="centrado">25/06/2010</td>
-            <td class="derecha">7.46 %</td>
+            <td class="derecha">7.43 %</td>
             <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/03/2014</td>
+            <td class="derecha">5.93 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">30/06/2014</td>
+            <td class="derecha">4.84 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="centrado">31/10/2014</td>
+            <td class="derecha">5.74 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
         </tbody>
@@ -97,6 +115,48 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>Torreón</td>
+            <td>1990-03-12</td>
+            <td class="derecha">2.66 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2000-02-14</td>
+            <td class="derecha">1.04 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2010-06-25</td>
+            <td class="derecha">7.46 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-03-31</td>
+            <td class="derecha">5.44 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-06-30</td>
+            <td class="derecha">5.11 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Torreón</td>
+            <td>2014-10-31</td>
+            <td class="derecha">4.57 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Gómez Palacio</td>
             <td>1990-03-12</td>
             <td class="derecha">2.90 %</td>
@@ -115,6 +175,27 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
             <td>2010-06-25</td>
             <td class="derecha">7.80 %</td>
             <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-03-31</td>
+            <td class="derecha">6.20 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-06-30</td>
+            <td class="derecha">5.02 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2014-10-31</td>
+            <td class="derecha">7.04 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
@@ -139,6 +220,27 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>Lerdo</td>
+            <td>2014-03-31</td>
+            <td class="derecha">2.80 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-06-30</td>
+            <td class="derecha">1.67 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2014-10-31</td>
+            <td class="derecha">9.23 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Matamoros</td>
             <td>1990-03-12</td>
             <td class="derecha">3.32 %</td>
@@ -160,24 +262,24 @@ class EconomiaDesocupadosComoPorcentajeDeLaPea extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>La Laguna</td>
-            <td>1990-03-12</td>
-            <td class="derecha">2.81 %</td>
-            <td>INEGI</td>
+            <td>Matamoros</td>
+            <td>2014-03-31</td>
+            <td class="derecha">6.90 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
-            <td>La Laguna</td>
-            <td>2000-02-14</td>
-            <td class="derecha">1.03 %</td>
-            <td>INEGI</td>
+            <td>Matamoros</td>
+            <td>2014-06-30</td>
+            <td class="derecha">3.81 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
-            <td>La Laguna</td>
-            <td>2010-06-25</td>
-            <td class="derecha">7.43 %</td>
-            <td>INEGI</td>
+            <td>Matamoros</td>
+            <td>2014-10-31</td>
+            <td class="derecha">5.31 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
         </tbody>
@@ -192,7 +294,7 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '1990-03-12', dato: 2.6600 },{ fecha: '2000-02-14', dato: 1.0400 },{ fecha: '2010-06-25', dato: 7.4600 }],
+      data: [{ fecha: '1990-03-12', dato: 2.8100 },{ fecha: '2000-02-14', dato: 1.0300 },{ fecha: '2010-06-25', dato: 7.4300 },{ fecha: '2014-03-31', dato: 5.9300 },{ fecha: '2014-06-30', dato: 4.8400 },{ fecha: '2014-10-31', dato: 5.7400 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -209,6 +311,6 @@ $(document).ready(function(){
 FINAL;
     } // constructor
 
-} // Clase EconomiaDesocupadosComoPorcentajeDeLaPea
+} // Clase EconomiaTasaDeDesempleoAbierto
 
 ?>

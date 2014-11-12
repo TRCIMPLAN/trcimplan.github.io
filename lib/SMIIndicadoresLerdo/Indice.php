@@ -48,11 +48,6 @@ class Indice extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Desocupados como porcentaje de la PEA</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-desocupados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 25/06/2010, INEGI">7.41 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Grandes Empresas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-grandes-empresas.html" data-toggle="tooltip" title="Porcentaje, 31/07/2014, Sistema de Información Empresarial Mexicano (SIEM)">0.00 %</a></td>
   </tr>
@@ -155,6 +150,11 @@ class Indice extends \Base\Publicacion {
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tamaño del Mercado Hipotecario</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">27</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Tasa de Desempleo Abierto</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/10/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">9.23 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>

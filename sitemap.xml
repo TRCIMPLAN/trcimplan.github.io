@@ -551,11 +551,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/economia-desocupados-como-porcentaje-de-la-pea.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/economia-grandes-empresas.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -657,6 +652,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1126,11 +1126,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/economia-desocupados-como-porcentaje-de-la-pea.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/economia-grandes-empresas.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -1232,6 +1227,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1681,11 +1681,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/economia-desocupados-como-porcentaje-de-la-pea.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/economia-grandes-empresas.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -1787,6 +1782,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/economia-tasa-de-desempleo-abierto.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2256,11 +2256,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/economia-desocupados-como-porcentaje-de-la-pea.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/economia-grandes-empresas.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -2367,6 +2362,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/economia-tasa-de-desempleo-abierto.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2841,11 +2841,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-desocupados-como-porcentaje-de-la-pea.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-ejecucion-de-contratos.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -2972,6 +2967,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-tamano-del-mercado-hipotecario.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-tasa-de-desempleo-abierto.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>

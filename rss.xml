@@ -5,7 +5,7 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 12 Nov 2014 09:54:12 -0600</pubDate>
+    <pubDate>Wed, 12 Nov 2014 11:10:49 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -36,7 +36,7 @@
 
 <p>Después de la fundición y refinación de metales preciosos, la actividad con la mayor cantidad de personal ocupado es lafabricación de productos de herrería, empleando a un total de 2,068 personas en la zona metropolitana. La fabricación de tubos y postes de hierro y acero, la cual se desempeña en el municipio de Gómez Palacio, es la actividad con mayor producción bruta, aunque la mayor aportación de valor agregado es de lafabricación de motores de combustión interna, turbinas y transmisiones, actividad presente únicamente en el municipio de Torreón. En la tabla de a continuación se presentan las aportaciones de cada una de estas actividades:</p>
 
-<table class="table table-hover table-bordered">
+<table class="table table-striped">
     <tr>
         <th>MUNICIPIO</th>
         <th>ACTIVIDAD ECONÓMICA</th>
@@ -66,11 +66,45 @@
         <td style="text-align:right"><b>$ 7,587,382.00</b></td>
     </tr>
 </table>
-<p>Fuente: INEGI, Censos económicos 2009.</p>
+
+<p><small>Fuente: INEGI, Censos económicos 2009.</small></p>
 
 <p>En cuanto a la productividad laboral, en seguida se listan las 5 actividades de la metalmecánica con la productividad laboral más alta, esta vez incluyendo a la fundición y refinación de metales preciosos.</p>
 
-<img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/industrial-metalmecanica-la-laguna/fotografia.jpg" alt="Fotografia">
+<table class="table table-striped">
+    <tr>
+        <th>MUNICIPIO</th>
+        <th>ACTIVIDAD ECONÓMICA</th>
+        <th>PRODUCTIVIDAD</th>
+    </tr>
+    <tr>
+        <th>TORREÓN</th>
+        <td>Fundición y refinación de metales preciosos</td>
+        <td style="text-align:right">$ 24,941.81</td>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de desbastes primarios y ferroaleaciones</td>
+        <td style="text-align:right">$ 3,702.09</td>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de tubos y postes de hierro y acero</td>
+        <td style="text-align:right">$ 3,368.75</td>
+    </tr>
+    <tr>
+        <th>TORREÓN, LERDO</th>
+        <td>Fabricación de maquinaria y equipo para la industria metalmecánica</td>
+        <td style="text-align:right">$ 1,024.06</td>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de calderas industriales</td>
+        <td style="text-align:right">$ 1,100.74</td>
+    </tr>
+</table>
+
+<p><small>Fuente: INEGI, Censos económicos 2009.</small></p>
 
 <p>A pesar de que la productividad y participación de la metalmecánica son muy altas, esto no implica que estemos preparados para competir como proveedores con otras ciudades de México.Un ejemplo de esto es que en La Laguna no contamos con proveedores certificados con estándares de calidad, ventas y clientes.De las 210 empresas que actualmente se encuentran en el Catálogo de Proveeduría de la IndustriaMaquiladora de la Secretaría de Economía de México, 48 están en Ciudad Juárez, 55 en el Bajío, 43 en Monterrey, 35 en Tlaxcala, 25 en Puebla y 4 en Saltillo. Cabe mencionar que cerca de la mitad de estos proveedores pertenecen a la industria metalmecánica, lo cual nos deja lejos de competir.</p>
 ]]></description>
