@@ -154,7 +154,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Desempleo Abierto</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/10/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">7.04 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">7.04 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
