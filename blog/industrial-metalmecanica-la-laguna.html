@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap            http://getbootstrap.com
+           StartBootStrap (SB Admin 2)  http://startbootstrap.com
+           Morris.js                    http://www.oesmith.co.uk/morris.js
+           LeafLet                      http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.">
+  <meta name="author" content="Lic. Alicia Valdez Ibarra">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La industria metalmecánica y La Laguna - IMPLAN Torreón">
+  <meta name="twitter:description" content="A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/industrial-metalmecanica-la-laguna/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/industrial-metalmecanica-la-laguna.html">
+  <meta name="og:title" content="La industria metalmecánica y La Laguna - IMPLAN Torreón">
+  <meta name="og:description" content="A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/industrial-metalmecanica-la-laguna/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/industrial-metalmecanica-la-laguna.html">
+  <title>La industria metalmecánica y La Laguna - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="http://trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Mesa 1</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Alumbrado Público</a></li>
+            <li><a href="../sig/zonificacion.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación</a></li>
+            <li><a href="../sig/abrir-sig.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Abrir el SIG</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al BMPI</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+      <div class="cuerpo">
+<article>
+  <header>
+    <div class="encabezado">
+      <span><h1><i class="fa fa-lightbulb-o encabezado-icono"></i> La industria metalmecánica y La Laguna</h1></span>
+    </div>
+    <p class="autor-fecha">Por Lic. Alicia Valdez Ibarra<br>12/11/2014</p>
+  </header>
+<span class="contenido-imagen-previa"><img src="industrial-metalmecanica-la-laguna/imagen.jpg"></span>
+
+<h3>Oportunidades en la industria metalmecánica</h3>
+
+<p>A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año. Esto se debe principalmente a la inversión que espera recibirse en las industrias automotriz y aeroespacial, de hecho, un estudio realizado por el Catálogo de Proveedores de la Industria en México (CAPIM) menciona que 38% de los requerimientos de la industria automotrizcorresponde a proveedores metalmecánicos.</p>
+
+<p>Según el análisis  del CAPAIM los procesos más demandados por la industria automotriz son maquinados CNC, laminado, troquelado, maquinado tradicional, extrusión, inyección y recubrimiento de metales. Por otro lado, ProMéxico identifica oportunidades de proveeduría en la industria de los electrodomésticos pues se estima que aproximadamente 63% de la proveeduría de procesos y componentes en la fabricación de refrigeradores en México es importada.</p>
+
+<p>Dentro del estudio de ProMéxico algunos de los componentes y actividades de proveeduría señaladas como necesarias en México son troquelado y estampado; inyección de plásticos; moldes, troqueles y herramentales; maquinado y laminado.</p>
+
+<h3>Actividades de la industria metalmecánica en La Laguna</h3>
+
+<p>Mientras a nivel nacional 14% del PIB manufacturero pertenece a la metalmecánica (Secretaría de Economía), en la zona metropolitana de La Laguna esta industria participa con 70% del valor agregado generado por la manufactura y 40% del valor agregado total (Censos económicos 2009). Además, la metalmecánica emplea a 15,980 personas y tiene una productividad de 5.4 millones de pesos anuales por trabajador (Censos económicos 2009).</p>
+
+<p>Sin embargo, 47% del valor agregado generado por la industria metalmecánica de La Laguna lo genera una sola actividad, misma que ocupa a 2,199 personas y produce más de 50,000 millones de pesos al año: la fundición y refinación de metales preciosos.</p>
+
+<p>Sin la participación de esta actividad, la industria metalmecánica de La Laguna aporta 37% del valor agregado por la manufactura y 21% del total de la zona metropolitana,manteniendo una productividad laboral de 429 miles de pesos anuales por trabajador.</p>
+
+<p>Después de la fundición y refinación de metales preciosos, la actividad con la mayor cantidad de personal ocupado es lafabricación de productos de herrería, empleando a un total de 2,068 personas en la zona metropolitana. La fabricación de tubos y postes de hierro y acero, la cual se desempeña en el municipio de Gómez Palacio, es la actividad con mayor producción bruta, aunque la mayor aportación de valor agregado es de lafabricación de motores de combustión interna, turbinas y transmisiones, actividad presente únicamente en el municipio de Torreón. En la tabla de a continuación se presentan las aportaciones de cada una de estas actividades:</p>
+
+<table class="table table-striped">
+    <tr>
+        <th>MUNICIPIO</th>
+        <th>ACTIVIDAD ECONÓMICA</th>
+        <th>PERSONAL OCUPADO TOTAL</th>
+        <th>PRODUCCIÓN BRUTA TOTAL (MILES DE PESOS)</th>
+        <th>VALOR AGREGADO CENSAL BRUTO (MILES DE PESOS)</th>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de tubos y postes de hierro y acero</td>
+        <td style="text-align:right">352</td>
+        <td style="text-align:right"><b>$ 1,185,801.00</b></td>
+        <td style="text-align:right">$ 283,530.00</td>
+    </tr>
+    <tr>
+        <th>MATAMOROS, TORREÓN, GÓMEZ PALACIO, LERDO</th>
+        <td>Fabricación de productos de herrería</td>
+        <td style="text-align:right"><b>2,068</b></td>
+        <td style="text-align:right">$ 264,096.00</td>
+        <td style="text-align:right">$ 106,093.00</td>
+    </tr>
+    <tr>
+        <th>TORREÓN</th>
+        <td>Fabricación de motores de combustión interna, tubinas y transmisiones</td>
+        <td style="text-align:right">1,251</td>
+        <td style="text-align:right">$ 527,476.00</td>
+        <td style="text-align:right"><b>$ 7,587,382.00</b></td>
+    </tr>
+</table>
+
+<p><small>Fuente: INEGI, Censos económicos 2009.</small></p>
+
+<p>En cuanto a la productividad laboral, en seguida se listan las 5 actividades de la metalmecánica con la productividad laboral más alta, esta vez incluyendo a la fundición y refinación de metales preciosos.</p>
+
+<table class="table table-striped">
+    <tr>
+        <th>MUNICIPIO</th>
+        <th>ACTIVIDAD ECONÓMICA</th>
+        <th>PRODUCTIVIDAD</th>
+    </tr>
+    <tr>
+        <th>TORREÓN</th>
+        <td>Fundición y refinación de metales preciosos</td>
+        <td style="text-align:right">$ 24,941.81</td>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de desbastes primarios y ferroaleaciones</td>
+        <td style="text-align:right">$ 3,702.09</td>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de tubos y postes de hierro y acero</td>
+        <td style="text-align:right">$ 3,368.75</td>
+    </tr>
+    <tr>
+        <th>TORREÓN, LERDO</th>
+        <td>Fabricación de maquinaria y equipo para la industria metalmecánica</td>
+        <td style="text-align:right">$ 1,024.06</td>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de calderas industriales</td>
+        <td style="text-align:right">$ 1,100.74</td>
+    </tr>
+</table>
+
+<p><small>Fuente: INEGI, Censos económicos 2009.</small></p>
+
+<p>A pesar de que la productividad y participación de la metalmecánica son muy altas, esto no implica que estemos preparados para competir como proveedores con otras ciudades de México.Un ejemplo de esto es que en La Laguna no contamos con proveedores certificados con estándares de calidad, ventas y clientes.De las 210 empresas que actualmente se encuentran en el Catálogo de Proveeduría de la IndustriaMaquiladora de la Secretaría de Economía de México, 48 están en Ciudad Juárez, 55 en el Bajío, 43 en Monterrey, 35 en Tlaxcala, 25 en Puebla y 4 en Saltillo. Cabe mencionar que cerca de la mitad de estos proveedores pertenecen a la industria metalmecánica, lo cual nos deja lejos de competir.</p>
+
+</article>
+      </div>
+    <div class="row mapa-inferior">
+      <div class="col-md-8">
+          <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+      </div>
+      <div class="col-md-4">
+        <div class="pull-right mapa-inferior-redes-sociales">
+          <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+          <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+          <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+          <a class="fa fa-rss-square" href="../rss.xml"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+</body>
+</html>
