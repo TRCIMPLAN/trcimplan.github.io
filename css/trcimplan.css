@@ -82,11 +82,13 @@ a:active  { color:#FF3300; text-decoration:none; }
 
 /* Page Wrapper */
 #page-wrapper {
-    background-color:#ECECEC;
+    background-color:#E3E3E3;
+    margin:0 0 0 280px;
+    padding-left:4px;
+    padding-right:4px;
 }
-.sidebar {
-    width:280px;
-}
+.sidebar       { width:280px; }
+.sidebar ul li { border-bottom:1px solid #CCC; }
 
 /* Encabezados con color plano rectangulares y texto abajo a la izquierda */
 .encabezado {
