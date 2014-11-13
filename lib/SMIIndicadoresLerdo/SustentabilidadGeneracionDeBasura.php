@@ -25,7 +25,7 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Recursos Naturales';
         $this->categorias  = array('Recursos Naturales');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -59,7 +59,9 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Generación de Basura</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Generación de Basura</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -82,6 +84,13 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
             <td>Gómez Palacio</td>
             <td>2010-12-31</td>
             <td class="derecha">8.7000</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2010-12-31</td>
+            <td class="derecha">7.8000</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -126,9 +135,23 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 8.6000 },{ region: 'Gómez Palacio', dato: 8.7000 },{ region: 'Lerdo', dato: 7.8000 },{ region: 'Matamoros', dato: 2.8000 },{ region: 'La Laguna', dato: 8.0300 },{ region: 'Coahuila', dato: 8.8000 },{ region: 'Durango', dato: 6.1000 },{ region: 'Nacional', dato: 7.6000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

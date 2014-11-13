@@ -25,7 +25,7 @@ class SociedadViviendasConDrenaje extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-mapa" data-toggle="tab">Georreferenciado</a></li>
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -68,7 +68,9 @@ class SociedadViviendasConDrenaje extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Viviendas con Drenaje</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Viviendas con Drenaje</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -108,15 +110,36 @@ class SociedadViviendasConDrenaje extends \Base\Publicacion {
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2010-12-31</td>
+            <td class="derecha">96.26 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 98.2300 },{ region: 'Gómez Palacio', dato: 95.1900 },{ region: 'Lerdo', dato: 93.2300 },{ region: 'Matamoros', dato: 91.3100 },{ region: 'La Laguna', dato: 96.2600 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-mapa
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-mapa"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-mapa"]').tab('show')
 });
 FINAL;
     } // constructor

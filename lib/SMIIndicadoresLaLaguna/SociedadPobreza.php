@@ -25,7 +25,7 @@ class SociedadPobreza extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -59,7 +59,9 @@ class SociedadPobreza extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Pobreza</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Pobreza</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -100,6 +102,13 @@ class SociedadPobreza extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>La Laguna</td>
+            <td>2012-12-31</td>
+            <td class="derecha">32.74 %</td>
+            <td>CONEVAL</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Coahuila</td>
             <td>2010-12-31</td>
             <td class="derecha">27.70 %</td>
@@ -126,9 +135,23 @@ class SociedadPobreza extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 26.8000 },{ region: 'Gómez Palacio', dato: 37.2900 },{ region: 'Lerdo', dato: 47.9800 },{ region: 'Matamoros', dato: 33.8400 },{ region: 'La Laguna', dato: 32.7400 },{ region: 'Coahuila', dato: 27.7000 },{ region: 'Durango', dato: 50.3400 },{ region: 'Nacional', dato: 45.5900 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

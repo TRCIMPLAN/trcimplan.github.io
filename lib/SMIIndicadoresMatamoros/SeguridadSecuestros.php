@@ -25,7 +25,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -105,11 +105,13 @@ class SeguridadSecuestros extends \Base\Publicacion {
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Secuestros en Matamoros</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Secuestros</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Secuestros</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -123,92 +125,8 @@ class SeguridadSecuestros extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-01-31</td>
-            <td class="derecha">1</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2014-02-28</td>
-            <td class="derecha">1</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2014-03-31</td>
-            <td class="derecha">2</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2014-04-30</td>
-            <td class="derecha">1</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2014-05-31</td>
-            <td class="derecha">0</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2014-06-30</td>
-            <td class="derecha">0</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td>Datos correspondientes al segundo trimestre de 2014</td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2014-07-31</td>
-            <td class="derecha">0</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2014-08-31</td>
-            <td class="derecha">1</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2014-09-30</td>
             <td class="derecha">0</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2014-02-28</td>
-            <td class="derecha">1</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2014-05-31</td>
-            <td class="derecha">1</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2014-07-31</td>
-            <td class="centrado">NO TIENE</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2014-08-31</td>
-            <td class="centrado">NO TIENE</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -221,64 +139,15 @@ class SeguridadSecuestros extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-06-30</td>
-            <td class="derecha">0</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td>Datos correspondientes al segundo trimestre de 2014</td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2014-07-31</td>
-            <td class="centrado">NO TIENE</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2014-08-31</td>
-            <td class="centrado">NO TIENE</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
             <td>2014-09-30</td>
             <td class="centrado">NO TIENE</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td>La Laguna</td>
-            <td>2014-01-31</td>
-            <td class="derecha">1</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2014-02-28</td>
-            <td class="derecha">2</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2014-03-31</td>
-            <td class="derecha">3</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2014-04-30</td>
-            <td class="derecha">1</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2014-05-31</td>
-            <td class="derecha">1</td>
+            <td>Matamoros</td>
+            <td>2014-09-30</td>
+            <td class="derecha">0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -296,7 +165,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -311,9 +180,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: X },{ region: 'Lerdo', dato: X },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

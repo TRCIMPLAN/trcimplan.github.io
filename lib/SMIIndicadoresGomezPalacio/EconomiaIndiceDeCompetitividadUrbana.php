@@ -25,7 +25,7 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Competitividad';
         $this->categorias  = array('Competitividad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -56,7 +56,9 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
       <p><b>Unidad:</b> De 0 a 1.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Índice de Competitividad Urbana</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Índice de Competitividad Urbana</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -74,6 +76,13 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
             <td class="derecha">50.6700</td>
             <td>IMCO</td>
             <td>Ese valor equivale al lugar 21 de 77 ciudades, de acuerdo a la edición 2012 del ICU.</td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2012-12-31</td>
+            <td class="derecha">42.5700</td>
+            <td>IMCO</td>
+            <td>Ese valor equivale al lugar 59 de 77 ciudades, de acuerdo a la edición 2012 del ICU.</td>
           </tr>
           <tr>
             <td>Lerdo</td>
@@ -102,9 +111,23 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 50.6700 },{ region: 'Gómez Palacio', dato: 42.5700 },{ region: 'Lerdo', dato: 37.3900 },{ region: 'Matamoros', dato: 41.5400 },{ region: 'La Laguna', dato: 45.1100 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

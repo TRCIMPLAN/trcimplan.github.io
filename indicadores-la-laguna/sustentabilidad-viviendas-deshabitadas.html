@@ -147,7 +147,7 @@
       <span><h1><i class="fa fa-area-chart encabezado-icono"></i> Viviendas Deshabitadas en La Laguna</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-mapa" data-toggle="tab">Georreferenciado</a></li>
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -188,7 +188,9 @@
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Viviendas Deshabitadas</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Viviendas Deshabitadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -228,6 +230,13 @@
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2010-12-31</td>
+            <td class="derecha">19.45 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -262,9 +271,23 @@
 <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="../js/sb-admin-2.js"></script>
 <script>
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 20.5700 },{ region: 'Gómez Palacio', dato: 19.6800 },{ region: 'Lerdo', dato: 18.2800 },{ region: 'Matamoros', dato: 12.2000 },{ region: 'La Laguna', dato: 19.4500 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-mapa
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-mapa"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-mapa"]').tab('show')
 });
 </script>
 </body>

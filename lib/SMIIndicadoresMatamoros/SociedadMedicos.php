@@ -25,7 +25,7 @@ class SociedadMedicos extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -132,11 +132,13 @@ class SociedadMedicos extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Médicos en Matamoros</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Médicos</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Médicos</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -150,90 +152,6 @@ class SociedadMedicos extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2001-12-31</td>
-            <td class="derecha">2.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2002-12-31</td>
-            <td class="derecha">1.7000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2003-12-31</td>
-            <td class="derecha">1.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2004-12-31</td>
-            <td class="derecha">1.7000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2005-12-31</td>
-            <td class="derecha">1.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2006-12-31</td>
-            <td class="derecha">1.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2007-12-31</td>
-            <td class="derecha">2.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2008-12-31</td>
-            <td class="derecha">2.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2009-12-31</td>
-            <td class="derecha">2.6000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td class="derecha">2.7000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2011-12-31</td>
-            <td class="derecha">2.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td class="derecha">2.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2013-12-31</td>
             <td class="derecha">2.5000</td>
             <td>SINAIS (SSA)</td>
@@ -241,176 +159,8 @@ class SociedadMedicos extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2001-12-31</td>
-            <td class="derecha">3.7000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2002-12-31</td>
-            <td class="derecha">4.0000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2003-12-31</td>
-            <td class="derecha">4.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2004-12-31</td>
-            <td class="derecha">4.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2005-12-31</td>
-            <td class="derecha">4.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2006-12-31</td>
-            <td class="derecha">3.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2007-12-31</td>
-            <td class="derecha">4.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2008-12-31</td>
-            <td class="derecha">5.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2009-12-31</td>
-            <td class="derecha">5.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td class="derecha">4.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2011-12-31</td>
-            <td class="derecha">4.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
-            <td class="derecha">4.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
             <td>2013-12-31</td>
             <td class="derecha">4.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2001-12-31</td>
-            <td class="derecha">5.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2002-12-31</td>
-            <td class="derecha">5.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2003-12-31</td>
-            <td class="derecha">5.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2004-12-31</td>
-            <td class="derecha">5.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2005-12-31</td>
-            <td class="derecha">5.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2006-12-31</td>
-            <td class="derecha">4.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2007-12-31</td>
-            <td class="derecha">6.0000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2008-12-31</td>
-            <td class="derecha">5.6000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2009-12-31</td>
-            <td class="derecha">5.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td class="derecha">6.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2011-12-31</td>
-            <td class="derecha">6.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td class="derecha">6.4000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -422,86 +172,9 @@ class SociedadMedicos extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>La Laguna</td>
-            <td>2001-12-31</td>
-            <td class="derecha">3.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2002-12-31</td>
-            <td class="derecha">2.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2003-12-31</td>
-            <td class="derecha">3.0000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2004-12-31</td>
-            <td class="derecha">3.0000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2005-12-31</td>
-            <td class="derecha">2.7000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2006-12-31</td>
-            <td class="derecha">2.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2007-12-31</td>
-            <td class="derecha">3.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2008-12-31</td>
-            <td class="derecha">3.7000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2009-12-31</td>
-            <td class="derecha">3.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2010-12-31</td>
-            <td class="derecha">3.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2011-12-31</td>
-            <td class="derecha">3.6000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td class="derecha">3.7000</td>
+            <td>Matamoros</td>
+            <td>2013-12-31</td>
+            <td class="derecha">4.0000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -514,97 +187,6 @@ class SociedadMedicos extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2001-12-31</td>
-            <td class="derecha">3.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2002-12-31</td>
-            <td class="derecha">3.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2003-12-31</td>
-            <td class="derecha">3.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2004-12-31</td>
-            <td class="derecha">3.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2005-12-31</td>
-            <td class="derecha">3.0000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2006-12-31</td>
-            <td class="derecha">3.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2007-12-31</td>
-            <td class="derecha">3.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2008-12-31</td>
-            <td class="derecha">3.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2009-12-31</td>
-            <td class="derecha">4.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2010-12-31</td>
-            <td class="derecha">4.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2011-12-31</td>
-            <td class="derecha">4.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2012-12-31</td>
-            <td class="derecha">4.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2012-12-31</td>
-            <td class="derecha">4.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
             <td>2013-12-31</td>
             <td class="derecha">4.5000</td>
             <td>SINAIS (SSA)</td>
@@ -612,190 +194,8 @@ class SociedadMedicos extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2001-12-31</td>
-            <td class="derecha">5.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2002-12-31</td>
-            <td class="derecha">6.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2003-12-31</td>
-            <td class="derecha">6.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2004-12-31</td>
-            <td class="derecha">6.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2005-12-31</td>
-            <td class="derecha">6.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2006-12-31</td>
-            <td class="derecha">7.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2007-12-31</td>
-            <td class="derecha">7.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2008-12-31</td>
-            <td class="derecha">7.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2009-12-31</td>
-            <td class="derecha">8.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2010-12-31</td>
-            <td class="derecha">7.7000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2011-12-31</td>
-            <td class="derecha">7.7000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2012-12-31</td>
-            <td class="derecha">8.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
             <td>2013-12-31</td>
             <td class="derecha">8.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2001-12-31</td>
-            <td class="derecha">5.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2002-12-31</td>
-            <td class="derecha">5.3000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2003-12-31</td>
-            <td class="derecha">5.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2004-12-31</td>
-            <td class="derecha">5.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2004-12-31</td>
-            <td class="derecha">5.7000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2005-12-31</td>
-            <td class="derecha">5.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2006-12-31</td>
-            <td class="derecha">6.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2007-12-31</td>
-            <td class="derecha">6.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2008-12-31</td>
-            <td class="derecha">6.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2009-12-31</td>
-            <td class="derecha">7.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2010-12-31</td>
-            <td class="derecha">7.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2011-12-31</td>
-            <td class="derecha">7.6000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2012-12-31</td>
-            <td class="derecha">7.6000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2012-12-31</td>
-            <td class="derecha">7.6000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -813,7 +213,7 @@ class SociedadMedicos extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -828,9 +228,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 2.5000 },{ region: 'Gómez Palacio', dato: 4.2000 },{ region: 'Lerdo', dato: 6.6000 },{ region: 'Matamoros', dato: 4.0000 },{ region: 'La Laguna', dato: 3.5000 },{ region: 'Coahuila', dato: 4.5000 },{ region: 'Durango', dato: 8.4000 },{ region: 'Nacional', dato: 7.8000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

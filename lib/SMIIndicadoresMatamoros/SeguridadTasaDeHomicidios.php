@@ -25,7 +25,7 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -56,7 +56,9 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
       <p><b>Unidad:</b> Por cada 100 mil.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Tasa de Homicidios</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Tasa de Homicidios</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -90,6 +92,13 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>Matamoros</td>
+            <td>2013-12-31</td>
+            <td class="derecha">55.7000</td>
+            <td>SNSP</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>La Laguna</td>
             <td>2013-12-31</td>
             <td class="derecha">49.8800</td>
@@ -102,9 +111,23 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 45.7600 },{ region: 'Gómez Palacio', dato: 57.3800 },{ region: 'Lerdo', dato: 46.7500 },{ region: 'Matamoros', dato: 55.7000 },{ region: 'La Laguna', dato: 49.8800 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

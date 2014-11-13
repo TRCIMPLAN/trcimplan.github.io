@@ -25,7 +25,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -107,11 +107,13 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Ingresos Totales en Gómez Palacio</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Ingresos Totales</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Ingresos Totales</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -125,92 +127,15 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2007-12-31</td>
-            <td class="derecha">$ 1,395,070,656.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2008-12-31</td>
-            <td class="derecha">$ 1,672,978,076.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2009-12-31</td>
-            <td class="derecha">$ 1,555,061,545.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td class="derecha">$ 1,828,589,942.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2011-12-31</td>
-            <td class="derecha">$ 1,910,299,313.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td class="derecha">$ 1,840,277,768.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2013-12-31</td>
             <td class="derecha">$ 1,927,501,368.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td>Lerdo</td>
-            <td>2007-12-31</td>
-            <td class="derecha">$ 241,931,931.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2008-12-31</td>
-            <td class="derecha">$ 262,644,851.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2009-12-31</td>
-            <td class="derecha">$ 308,171,837.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td class="derecha">$ 279,317,865.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2011-12-31</td>
-            <td class="derecha">$ 324,230,289.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td class="derecha">$ 360,393,013.00</td>
+            <td>Gómez Palacio</td>
+            <td>2013-12-31</td>
+            <td class="derecha">$ 1,065,239,676.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -223,92 +148,8 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2007-12-31</td>
-            <td class="derecha">$ 118,848,281.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2008-12-31</td>
-            <td class="derecha">$ 179,363,074.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2009-12-31</td>
-            <td class="derecha">$ 172,111,514.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2010-12-31</td>
-            <td class="derecha">$ 149,987,909.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2011-12-31</td>
-            <td class="derecha">$ 154,367,205.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2012-12-31</td>
-            <td class="derecha">$ 176,265,107.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
             <td>2013-12-31</td>
             <td class="derecha">$ 194,016,355.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2007-12-31</td>
-            <td class="derecha">$ 2,389,268,767.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2008-12-31</td>
-            <td class="derecha">$ 3,054,640,385.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2009-12-31</td>
-            <td class="derecha">$ 3,147,856,470.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2010-12-31</td>
-            <td class="derecha">$ 3,037,346,224.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2011-12-31</td>
-            <td class="derecha">$ 3,391,664,429.00</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td class="derecha">$ 3,504,184,566.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -326,7 +167,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -341,9 +182,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 1927501368.00 },{ region: 'Gómez Palacio', dato: 1065239676.00 },{ region: 'Lerdo', dato: 475221421.00 },{ region: 'Matamoros', dato: 194016355.00 },{ region: 'La Laguna', dato: 3661978820.00 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

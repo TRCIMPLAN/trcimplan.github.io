@@ -147,7 +147,7 @@
       <span><h1><i class="fa fa-area-chart encabezado-icono"></i> Índice de Competitividad Urbana en La Laguna</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -178,7 +178,9 @@
       <p><b>Unidad:</b> De 0 a 1.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Índice de Competitividad Urbana</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Índice de Competitividad Urbana</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -218,6 +220,13 @@
             <td>IMCO</td>
             <td>Ese valor equivale al lugar 64 de 77 ciudades, de acuerdo a la edición 2012 del ICU.</td>
           </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2012-12-31</td>
+            <td class="derecha">45.1100</td>
+            <td>IMCO</td>
+            <td>En el ranking Nacional La Laguna, ocupa el lugar 44 de 77 zonas metropolitanas.</td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -252,9 +261,23 @@
 <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="../js/sb-admin-2.js"></script>
 <script>
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 50.6700 },{ region: 'Gómez Palacio', dato: 42.5700 },{ region: 'Lerdo', dato: 37.3900 },{ region: 'Matamoros', dato: 41.5400 },{ region: 'La Laguna', dato: 45.1100 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 </script>
 </body>

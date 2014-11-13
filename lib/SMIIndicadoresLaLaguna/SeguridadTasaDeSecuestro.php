@@ -25,7 +25,7 @@ class SeguridadTasaDeSecuestro extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Delincuencia, Seguridad';
         $this->categorias  = array('Delincuencia', 'Seguridad');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -56,7 +56,9 @@ class SeguridadTasaDeSecuestro extends \Base\Publicacion {
       <p><b>Unidad:</b> Por cada 100 mil.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Tasa de Secuestro</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Tasa de Secuestro</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -96,15 +98,36 @@ class SeguridadTasaDeSecuestro extends \Base\Publicacion {
             <td>SNSP</td>
             <td></td>
           </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2013-12-31</td>
+            <td class="derecha">1.4000</td>
+            <td>SNSP</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 1.6300 },{ region: 'Gómez Palacio', dato: 1.7300 },{ region: 'Lerdo', dato: 0.6700 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 1.4000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

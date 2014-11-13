@@ -25,7 +25,7 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -75,11 +75,13 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
       <p><b>Unidad:</b> Por cada mil.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Mortalidad Infantil en Lerdo</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Mortalidad Infantil</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Mortalidad Infantil</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -93,52 +95,10 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2009-12-31</td>
-            <td class="derecha">6.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td class="derecha">8.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2011-12-31</td>
-            <td class="derecha">6.7000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2012-12-31</td>
             <td class="derecha">12.2000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2009-12-31</td>
-            <td class="derecha">5.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td class="derecha">8.0000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2011-12-31</td>
-            <td class="derecha">12.6000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -148,25 +108,11 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
           <tr>
-            <td>Matamoros</td>
-            <td>2009-12-31</td>
-            <td class="derecha">3.9000</td>
+            <td>Lerdo</td>
+            <td>2012-12-31</td>
+            <td class="derecha">15.3800</td>
             <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2010-12-31</td>
-            <td class="derecha">11.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2011-12-31</td>
-            <td class="derecha">8.6000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
+            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
           <tr>
             <td>Matamoros</td>
@@ -177,27 +123,6 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2009-12-31</td>
-            <td class="derecha">5.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2010-12-31</td>
-            <td class="derecha">9.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2011-12-31</td>
-            <td class="derecha">8.5000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
             <td>2012-12-31</td>
             <td class="derecha">11.9000</td>
             <td>SINAIS (SSA)</td>
@@ -205,27 +130,6 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2009-12-31</td>
-            <td class="derecha">8.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2010-12-31</td>
-            <td class="derecha">10.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2011-12-31</td>
-            <td class="derecha">9.4000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
             <td>2012-12-31</td>
             <td class="derecha">12.8000</td>
             <td>SINAIS (SSA)</td>
@@ -233,50 +137,8 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2009-12-31</td>
-            <td class="derecha">11.2000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2010-12-31</td>
-            <td class="derecha">12.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2011-12-31</td>
-            <td class="derecha">15.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
             <td>2012-12-31</td>
             <td class="derecha">12.8000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2009-12-31</td>
-            <td class="derecha">14.1000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2010-12-31</td>
-            <td class="derecha">13.9000</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2011-12-31</td>
-            <td class="derecha">13.4000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -294,7 +156,7 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -309,9 +171,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 12.2000 },{ region: 'Gómez Palacio', dato: 9.5000 },{ region: 'Lerdo', dato: 15.3800 },{ region: 'Matamoros', dato: 17.3900 },{ region: 'La Laguna', dato: 11.9000 },{ region: 'Coahuila', dato: 12.8000 },{ region: 'Durango', dato: 12.8000 },{ region: 'Nacional', dato: 13.1000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

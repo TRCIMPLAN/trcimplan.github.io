@@ -25,7 +25,7 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
         $this->claves      = 'Torreón, Finanzas Públicas';
         $this->categorias  = array('Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -107,11 +107,13 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Ingresos Totales Per Cápita en Torreón</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Ingresos Totales Per Cápita</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Ingresos Totales Per Cápita</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -124,37 +126,9 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td>Gómez Palacio</td>
-            <td>2007-12-31</td>
-            <td class="derecha">$ 2,015.23</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2008-12-31</td>
-            <td class="derecha">$ 2,942.54</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2009-12-31</td>
-            <td class="derecha">$ 3,429.10</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td class="derecha">$ 2,376.48</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2011-12-31</td>
-            <td class="derecha">$ 3,008.95</td>
+            <td>Torreón</td>
+            <td>2013-12-31</td>
+            <td class="derecha">$ 2,821.23</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -167,41 +141,6 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2007-12-31</td>
-            <td class="derecha">$ 1,803.84</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2008-12-31</td>
-            <td class="derecha">$ 1,921.94</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2009-12-31</td>
-            <td class="derecha">$ 2,213.26</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td class="derecha">$ 1,980.37</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2011-12-31</td>
-            <td class="derecha">$ 2,255.84</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
             <td>2012-12-31</td>
             <td class="derecha">$ 2,460.58</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
@@ -209,78 +148,8 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2007-12-31</td>
-            <td class="derecha">$ 1,155.87</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2008-12-31</td>
-            <td class="derecha">$ 1,717.79</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2009-12-31</td>
-            <td class="derecha">$ 1,623.19</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2010-12-31</td>
-            <td class="derecha">$ 1,399.66</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2011-12-31</td>
-            <td class="derecha">$ 1,418.38</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
             <td>2012-12-31</td>
             <td class="derecha">$ 1,594.68</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2007-12-31</td>
-            <td class="derecha">$ 2,069.57</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2008-12-31</td>
-            <td class="derecha">$ 2,595.45</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2009-12-31</td>
-            <td class="derecha">$ 2,623.62</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2010-12-31</td>
-            <td class="derecha">$ 2,498.19</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2011-12-31</td>
-            <td class="derecha">$ 2,735.96</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -298,7 +167,7 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -313,9 +182,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 2821.23 },{ region: 'Gómez Palacio', dato: 3328.92 },{ region: 'Lerdo', dato: 2460.58 },{ region: 'Matamoros', dato: 1594.68 },{ region: 'La Laguna', dato: 2772.32 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

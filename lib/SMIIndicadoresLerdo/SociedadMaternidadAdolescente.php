@@ -25,7 +25,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Género';
         $this->categorias  = array('Género');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-mapa" data-toggle="tab">Georreferenciado</a></li>
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -66,7 +66,9 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Maternidad Adolescente</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Maternidad Adolescente</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -93,6 +95,13 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>Lerdo</td>
+            <td>2010-12-31</td>
+            <td class="derecha">17.20 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Matamoros</td>
             <td>2010-12-31</td>
             <td class="derecha">19.90 %</td>
@@ -105,9 +114,23 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 13.9000 },{ region: 'Gómez Palacio', dato: 16.3000 },{ region: 'Lerdo', dato: 17.2000 },{ region: 'Matamoros', dato: 19.9000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-mapa
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-mapa"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-mapa"]').tab('show')
 });
 FINAL;
     } // constructor

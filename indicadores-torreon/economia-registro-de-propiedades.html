@@ -147,7 +147,7 @@
       <span><h1><i class="fa fa-area-chart encabezado-icono"></i> Registro de Propiedades en Torreón</h1></span>
     </div>
   </header>
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
@@ -202,8 +202,8 @@ Costo (% del valor de la propiedad) = 4,5</td>
       <p><b>Unidad:</b> Días.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Registro de Propiedades en Torreón</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
   </div>
 </article>
@@ -237,7 +237,7 @@ Costo (% del valor de la propiedad) = 4,5</td>
 <script src="../js/sb-admin-2.js"></script>
 <script>
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -254,7 +254,7 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
 });
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 </script>
 </body>

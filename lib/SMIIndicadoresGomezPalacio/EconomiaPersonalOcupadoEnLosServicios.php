@@ -25,7 +25,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Empleo, Mercados';
         $this->categorias  = array('Empleo', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -72,11 +72,13 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Personal Ocupado en los Servicios en Gómez Palacio</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Personal Ocupado en los Servicios</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Personal Ocupado en los Servicios</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -90,36 +92,15 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>1998-12-31</td>
-            <td class="derecha">27.89 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2003-12-31</td>
-            <td class="derecha">27.41 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2008-12-31</td>
             <td class="derecha">35.64 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td>Lerdo</td>
-            <td>1998-12-31</td>
-            <td class="derecha">20.95 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2003-12-31</td>
-            <td class="derecha">12.84 %</td>
+            <td>Gómez Palacio</td>
+            <td>2008-12-31</td>
+            <td class="derecha">30.28 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -132,20 +113,6 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>1998-12-31</td>
-            <td class="derecha">16.41 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2003-12-31</td>
-            <td class="derecha">18.09 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
             <td>2008-12-31</td>
             <td class="derecha">17.95 %</td>
             <td>INEGI</td>
@@ -153,36 +120,8 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>1998-12-31</td>
-            <td class="derecha">28.10 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2003-12-31</td>
-            <td class="derecha">26.06 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
             <td>2008-12-31</td>
             <td class="derecha">32.99 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>1998-12-31</td>
-            <td class="derecha">28.49 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2003-12-31</td>
-            <td class="derecha">30.61 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -200,7 +139,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -215,9 +154,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 35.6387 },{ region: 'Gómez Palacio', dato: 30.2786 },{ region: 'Lerdo', dato: 24.2010 },{ region: 'Matamoros', dato: 17.9535 },{ region: 'La Laguna', dato: 32.9908 },{ region: 'Nacional', dato: 35.0300 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

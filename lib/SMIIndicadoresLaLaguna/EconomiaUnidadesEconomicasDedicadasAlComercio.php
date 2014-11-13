@@ -25,7 +25,7 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Empresas, Mercados';
         $this->categorias  = array('Empresas', 'Mercados');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -78,11 +78,13 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Unidades Económicas Dedicadas al Comercio en La Laguna</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Unidades Económicas Dedicadas al Comercio</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Unidades Económicas Dedicadas al Comercio</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -96,50 +98,8 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>1998-12-31</td>
-            <td class="derecha">45.79 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2003-12-31</td>
-            <td class="derecha">47.43 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2008-12-31</td>
-            <td class="derecha">45.61 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2013-10-31</td>
             <td class="derecha">42.73 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>1998-12-31</td>
-            <td class="derecha">51.83 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2003-12-31</td>
-            <td class="derecha">50.75 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2008-12-31</td>
-            <td class="derecha">48.21 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -152,50 +112,8 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>1998-12-31</td>
-            <td class="derecha">52.65 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2003-12-31</td>
-            <td class="derecha">55.32 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2008-12-31</td>
-            <td class="derecha">53.32 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
             <td>2013-10-31</td>
             <td class="derecha">48.67 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>1998-12-31</td>
-            <td class="derecha">64.35 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2003-12-31</td>
-            <td class="derecha">64.43 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2008-12-31</td>
-            <td class="derecha">57.42 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -207,23 +125,9 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>Nacional</td>
-            <td>1998-12-31</td>
-            <td class="derecha">51.43 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2003-12-31</td>
-            <td class="derecha">52.60 %</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2008-12-31</td>
-            <td class="derecha">49.91 %</td>
+            <td>La Laguna</td>
+            <td>2013-10-31</td>
+            <td class="derecha">44.28 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -241,7 +145,7 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -256,9 +160,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 42.7300 },{ region: 'Gómez Palacio', dato: 44.6300 },{ region: 'Lerdo', dato: 48.6700 },{ region: 'Matamoros', dato: 51.2700 },{ region: 'La Laguna', dato: 44.2800 },{ region: 'Nacional', dato: 46.6700 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

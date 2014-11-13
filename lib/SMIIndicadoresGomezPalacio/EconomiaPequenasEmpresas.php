@@ -25,7 +25,7 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
         $this->claves      = 'Gómez Palacio, Empresas';
         $this->categorias  = array('Empresas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -68,11 +68,13 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Pequeñas Empresas en Gómez Palacio</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Pequeñas Empresas</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Pequeñas Empresas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -86,22 +88,15 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
-            <td class="derecha">8.66 %</td>
-            <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2014-07-31</td>
             <td class="derecha">7.65 %</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
           <tr>
-            <td>Lerdo</td>
-            <td>2013-12-31</td>
-            <td class="derecha">6.96 %</td>
+            <td>Gómez Palacio</td>
+            <td>2014-07-31</td>
+            <td class="derecha">7.78 %</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
@@ -114,22 +109,8 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
-            <td class="derecha">3.01 %</td>
-            <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
             <td>2014-07-31</td>
             <td class="derecha">2.31 %</td>
-            <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2013-12-31</td>
-            <td class="derecha">8.68 %</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
@@ -142,13 +123,6 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2013-12-31</td>
-            <td class="derecha">8.74 %</td>
-            <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
             <td>2014-07-31</td>
             <td class="derecha">7.80 %</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
@@ -156,22 +130,8 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2013-12-31</td>
-            <td class="derecha">7.22 %</td>
-            <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
             <td>2014-07-31</td>
             <td class="derecha">6.24 %</td>
-            <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2013-12-31</td>
-            <td class="derecha">5.50 %</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
@@ -189,7 +149,7 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -204,9 +164,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 7.6500 },{ region: 'Gómez Palacio', dato: 7.7800 },{ region: 'Lerdo', dato: 5.6200 },{ region: 'Matamoros', dato: 2.3100 },{ region: 'La Laguna', dato: 7.5400 },{ region: 'Coahuila', dato: 7.8000 },{ region: 'Durango', dato: 6.2400 },{ region: 'Nacional', dato: 5.2200 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

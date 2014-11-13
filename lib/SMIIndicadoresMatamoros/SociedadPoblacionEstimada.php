@@ -25,7 +25,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Población';
         $this->categorias  = array('Población');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -114,11 +114,13 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Población Estimada en Matamoros</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Población Estimada</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Población Estimada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -132,92 +134,8 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2011-06-30</td>
-            <td class="derecha">656,988</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2012-06-30</td>
-            <td class="derecha">666,226</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2013-06-30</td>
-            <td class="derecha">675,210</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2014-06-30</td>
             <td class="derecha">683,914</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2015-06-30</td>
-            <td class="derecha">692,386</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2016-06-30</td>
-            <td class="derecha">700,656</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2017-06-30</td>
-            <td class="derecha">708,755</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2018-06-30</td>
-            <td class="derecha">716,672</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2019-06-30</td>
-            <td class="derecha">724,386</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2020-06-30</td>
-            <td class="derecha">731,902</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2011-06-30</td>
-            <td class="derecha">339,355</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2012-06-30</td>
-            <td class="derecha">343,135</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2013-06-30</td>
-            <td class="derecha">346,836</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -229,69 +147,6 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>Gómez Palacio</td>
-            <td>2015-06-30</td>
-            <td class="derecha">354,123</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2016-06-30</td>
-            <td class="derecha">357,664</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2017-06-30</td>
-            <td class="derecha">361,144</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2018-06-30</td>
-            <td class="derecha">364,540</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2019-06-30</td>
-            <td class="derecha">367,828</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2020-06-30</td>
-            <td class="derecha">371,002</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2011-06-30</td>
-            <td class="derecha">146,164</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2012-06-30</td>
-            <td class="derecha">147,985</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2013-06-30</td>
-            <td class="derecha">149,721</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
             <td>Lerdo</td>
             <td>2014-06-30</td>
             <td class="derecha">151,409</td>
@@ -299,65 +154,9 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>Lerdo</td>
-            <td>2015-06-30</td>
-            <td class="derecha">153,040</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2016-06-30</td>
-            <td class="derecha">154,621</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2017-06-30</td>
-            <td class="derecha">156,161</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2018-06-30</td>
-            <td class="derecha">157,655</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2019-06-30</td>
-            <td class="derecha">159,094</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2020-06-30</td>
-            <td class="derecha">160,479</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2011-06-30</td>
-            <td class="derecha">1,251,771</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2012-06-30</td>
-            <td class="derecha">1,267,630</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2013-06-30</td>
-            <td class="derecha">1,283,072</td>
+            <td>Matamoros</td>
+            <td>2014-06-30</td>
+            <td class="derecha">112,434</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -369,135 +168,9 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>La Laguna</td>
-            <td>2015-06-30</td>
-            <td class="derecha">1,313,161</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2016-06-30</td>
-            <td class="derecha">1,327,769</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2017-06-30</td>
-            <td class="derecha">1,342,139</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2018-06-30</td>
-            <td class="derecha">1,356,216</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2019-06-30</td>
-            <td class="derecha">1,369,939</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2020-06-30</td>
-            <td class="derecha">1,383,303</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2011-06-30</td>
-            <td class="derecha">2,818,077</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2012-06-30</td>
-            <td class="derecha">2,854,334</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2013-06-30</td>
-            <td class="derecha">2,890,108</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
             <td>Coahuila</td>
             <td>2014-06-30</td>
             <td class="derecha">2,925,594</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2015-06-30</td>
-            <td class="derecha">2,960,681</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2016-06-30</td>
-            <td class="derecha">2,995,374</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2017-06-30</td>
-            <td class="derecha">3,029,740</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2018-06-30</td>
-            <td class="derecha">3,063,662</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2019-06-30</td>
-            <td class="derecha">3,097,014</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2020-06-30</td>
-            <td class="derecha">3,129,782</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2011-06-30</td>
-            <td class="derecha">1,690,418</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2012-06-30</td>
-            <td class="derecha">1,709,741</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2013-06-30</td>
-            <td class="derecha">1,728,429</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -509,114 +182,9 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>Durango</td>
-            <td>2015-06-30</td>
-            <td class="derecha">1,764,726</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2016-06-30</td>
-            <td class="derecha">1,782,205</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2017-06-30</td>
-            <td class="derecha">1,799,320</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2018-06-30</td>
-            <td class="derecha">1,815,966</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2019-06-30</td>
-            <td class="derecha">1,832,043</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2020-06-30</td>
-            <td class="derecha">1,847,547</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2011-06-30</td>
-            <td class="derecha">115,682,868</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2012-06-30</td>
-            <td class="derecha">117,053,750</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2013-06-30</td>
-            <td class="derecha">118,395,054</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
             <td>Nacional</td>
             <td>2014-06-30</td>
             <td class="derecha">119,713,203</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2015-06-30</td>
-            <td class="derecha">121,005,815</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2016-06-30</td>
-            <td class="derecha">122,273,473</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2017-06-30</td>
-            <td class="derecha">123,518,270</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2018-06-30</td>
-            <td class="derecha">124,737,789</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2019-06-30</td>
-            <td class="derecha">125,929,439</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2020-06-30</td>
-            <td class="derecha">127,091,642</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -627,7 +195,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -642,9 +210,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 683914 },{ region: 'Gómez Palacio', dato: 350513 },{ region: 'Lerdo', dato: 151409 },{ region: 'Matamoros', dato: 112434 },{ region: 'La Laguna', dato: 1298270 },{ region: 'Coahuila', dato: 2925594 },{ region: 'Durango', dato: 1746809 },{ region: 'Nacional', dato: 119713203 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

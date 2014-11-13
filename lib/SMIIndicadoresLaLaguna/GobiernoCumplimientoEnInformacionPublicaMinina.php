@@ -25,7 +25,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Transparencia';
         $this->categorias  = array('Transparencia');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -56,7 +56,9 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
       <p><b>Unidad:</b> Porcentaje.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Cumplimiento en información pública mínina</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Cumplimiento en información pública mínina</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -70,29 +72,8 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-03-03</td>
-            <td class="derecha">100.00 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2014-06-30</td>
             <td class="derecha">98.72 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
-            <td class="derecha">79.00 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2014-04-30</td>
-            <td class="derecha">89.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
@@ -105,29 +86,8 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2013-12-31</td>
-            <td class="derecha">79.00 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2014-04-30</td>
-            <td class="derecha">61.00 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
             <td>2014-08-31</td>
             <td class="derecha">100.00 %</td>
-            <td>ICAI-IDAIP</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2014-03-03</td>
-            <td class="derecha">63.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
@@ -138,15 +98,36 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2013-12-31</td>
+            <td class="derecha">80.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 98.7200 },{ region: 'Gómez Palacio', dato: 86.0000 },{ region: 'Lerdo', dato: 100.0000 },{ region: 'Matamoros', dato: 64.1000 },{ region: 'La Laguna', dato: 80.0000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

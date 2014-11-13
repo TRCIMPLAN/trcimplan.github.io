@@ -25,7 +25,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Macroeconomía, Finanzas Públicas';
         $this->categorias  = array('Macroeconomía', 'Finanzas Públicas');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -90,11 +90,13 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Producción Bruta Total Per Cápita en Matamoros</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Producción Bruta Total Per Cápita</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Producción Bruta Total Per Cápita</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -108,38 +110,10 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>1998-12-31</td>
-            <td class="derecha">$ 57,746.33</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $5,835.14. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 9.89630</td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2003-12-31</td>
-            <td class="derecha">$ 101,715.94</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $9,051.63. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 11.23720</td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2008-12-31</td>
             <td class="derecha">$ 197,853.91</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td>La producción bruta total per cápita en dólares es de $14,303.55. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 13.83250</td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>1998-12-31</td>
-            <td class="derecha">$ 64,469.91</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $6,514.55. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 9.89630</td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2003-12-31</td>
-            <td class="derecha">$ 117,603.88</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $10,465.59. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 11.23720</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -150,38 +124,17 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>1998-12-31</td>
-            <td class="derecha">$ 12,093.88</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $1,222.06. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 9.89630</td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2003-12-31</td>
-            <td class="derecha">$ 21,705.57</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $1,931.58. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 11.23720</td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
             <td>2008-12-31</td>
             <td class="derecha">$ 16,746.04</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td>La producción bruta total per cápita en dólares es de $1,210.63. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 13.83250</td>
           </tr>
           <tr>
-            <td>La Laguna</td>
-            <td>1998-12-31</td>
-            <td class="derecha">$ 49,506.05</td>
+            <td>Matamoros</td>
+            <td>2008-12-31</td>
+            <td class="derecha">$ 15,373.03</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $5,002.48. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 9.89630</td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2003-12-31</td>
-            <td class="derecha">$ 88,356.17</td>
-            <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>La producción bruta total per cápita en dólares es de $7,862.83. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 11.23720</td>
+            <td>La producción bruta total per cápita en dólares es de $1,111.37. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 13.83250</td>
           </tr>
           <tr>
             <td>La Laguna</td>
@@ -204,7 +157,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -219,9 +172,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 197853.91 },{ region: 'Gómez Palacio', dato: 157032.38 },{ region: 'Lerdo', dato: 16746.04 },{ region: 'Matamoros', dato: 15373.03 },{ region: 'La Laguna', dato: 149559.46 },{ region: 'Nacional', dato: 103094.92 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

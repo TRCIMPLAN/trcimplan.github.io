@@ -25,7 +25,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Salud';
         $this->categorias  = array('Salud');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -132,11 +132,13 @@ class SociedadCamasCensables extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Camas Censables en Matamoros</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Camas Censables</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Camas Censables</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -150,176 +152,8 @@ class SociedadCamasCensables extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2001-12-31</td>
-            <td class="derecha">42</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2002-12-31</td>
-            <td class="derecha">42</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2003-12-31</td>
-            <td class="derecha">42</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2003-12-31</td>
-            <td class="derecha">72</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2004-12-31</td>
-            <td class="derecha">42</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2005-12-31</td>
-            <td class="derecha">42</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2006-12-31</td>
-            <td class="derecha">51</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2007-12-31</td>
-            <td class="derecha">48</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2008-12-31</td>
-            <td class="derecha">51</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2009-12-31</td>
-            <td class="derecha">51</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td class="derecha">51</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2011-12-31</td>
-            <td class="derecha">51</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td class="derecha">51</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2013-12-31</td>
             <td class="derecha">51</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2001-12-31</td>
-            <td class="derecha">72</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2002-12-31</td>
-            <td class="derecha">72</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2004-12-31</td>
-            <td class="derecha">74</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2005-12-31</td>
-            <td class="derecha">74</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2006-12-31</td>
-            <td class="derecha">72</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2007-12-31</td>
-            <td class="derecha">75</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2008-12-31</td>
-            <td class="derecha">64</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2009-12-31</td>
-            <td class="derecha">64</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td class="derecha">72</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2011-12-31</td>
-            <td class="derecha">72</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
-            <td class="derecha">72</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -332,176 +166,15 @@ class SociedadCamasCensables extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2001-12-31</td>
-            <td class="derecha">34</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2002-12-31</td>
-            <td class="derecha">34</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2003-12-31</td>
-            <td class="derecha">34</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2004-12-31</td>
-            <td class="derecha">34</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2005-12-31</td>
-            <td class="derecha">34</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2006-12-31</td>
-            <td class="derecha">34</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2007-12-31</td>
-            <td class="derecha">34</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2008-12-31</td>
-            <td class="derecha">34</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2009-12-31</td>
-            <td class="derecha">34</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td class="derecha">38</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2011-12-31</td>
-            <td class="derecha">38</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td class="derecha">38</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
             <td>2013-12-31</td>
             <td class="derecha">38</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td>La Laguna</td>
-            <td>2001-12-31</td>
-            <td class="derecha">158</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2002-12-31</td>
-            <td class="derecha">158</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2003-12-31</td>
-            <td class="derecha">158</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2004-12-31</td>
-            <td class="derecha">160</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2005-12-31</td>
-            <td class="derecha">160</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2006-12-31</td>
-            <td class="derecha">167</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2007-12-31</td>
-            <td class="derecha">167</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2008-12-31</td>
-            <td class="derecha">159</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2009-12-31</td>
-            <td class="derecha">159</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2010-12-31</td>
-            <td class="derecha">171</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2011-12-31</td>
-            <td class="derecha">171</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td class="derecha">171</td>
+            <td>Matamoros</td>
+            <td>2013-12-31</td>
+            <td class="derecha">10</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -514,90 +187,6 @@ class SociedadCamasCensables extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2001-12-31</td>
-            <td class="derecha">473</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2002-12-31</td>
-            <td class="derecha">473</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2003-12-31</td>
-            <td class="derecha">473</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2004-12-31</td>
-            <td class="derecha">483</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2005-12-31</td>
-            <td class="derecha">483</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2006-12-31</td>
-            <td class="derecha">482</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2007-12-31</td>
-            <td class="derecha">483</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2008-12-31</td>
-            <td class="derecha">511</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2009-12-31</td>
-            <td class="derecha">529</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2010-12-31</td>
-            <td class="derecha">652</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2011-12-31</td>
-            <td class="derecha">633</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2012-12-31</td>
-            <td class="derecha">608</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
             <td>2013-12-31</td>
             <td class="derecha">605</td>
             <td>SINAIS (SSA)</td>
@@ -605,176 +194,8 @@ class SociedadCamasCensables extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2001-12-31</td>
-            <td class="derecha">484</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2002-12-31</td>
-            <td class="derecha">530</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2003-12-31</td>
-            <td class="derecha">530</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2004-12-31</td>
-            <td class="derecha">672</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2005-12-31</td>
-            <td class="derecha">554</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2006-12-31</td>
-            <td class="derecha">633</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2007-12-31</td>
-            <td class="derecha">652</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2008-12-31</td>
-            <td class="derecha">643</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2009-12-31</td>
-            <td class="derecha">678</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2010-12-31</td>
-            <td class="derecha">708</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2011-12-31</td>
-            <td class="derecha">712</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2012-12-31</td>
-            <td class="derecha">717</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
             <td>2013-12-31</td>
             <td class="derecha">863</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2001-12-31</td>
-            <td class="derecha">31,852</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2002-12-31</td>
-            <td class="derecha">32,217</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2003-12-31</td>
-            <td class="derecha">31,664</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2004-12-31</td>
-            <td class="derecha">32,863</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2005-12-31</td>
-            <td class="derecha">33,631</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2006-12-31</td>
-            <td class="derecha">34,005</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2007-12-31</td>
-            <td class="derecha">34,580</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2008-12-31</td>
-            <td class="derecha">35,071</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2009-12-31</td>
-            <td class="derecha">36,557</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2010-12-31</td>
-            <td class="derecha">37,851</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2011-12-31</td>
-            <td class="derecha">37,835</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2012-12-31</td>
-            <td class="derecha">37,890</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -792,7 +213,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -807,9 +228,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 51 },{ region: 'Gómez Palacio', dato: 74 },{ region: 'Lerdo', dato: 38 },{ region: 'Matamoros', dato: 10 },{ region: 'La Laguna', dato: 173 },{ region: 'Coahuila', dato: 605 },{ region: 'Durango', dato: 863 },{ region: 'Nacional', dato: 39231 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

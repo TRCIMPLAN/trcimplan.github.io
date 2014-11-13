@@ -25,7 +25,7 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
         $this->claves      = 'La Laguna, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -59,7 +59,9 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Pobreza Moderada</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Pobreza Moderada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -100,6 +102,13 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>La Laguna</td>
+            <td>2012-12-31</td>
+            <td class="derecha">28.60 %</td>
+            <td>CONEVAL</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>Coahuila</td>
             <td>2010-12-31</td>
             <td class="derecha">24.76 %</td>
@@ -126,9 +135,23 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 24.0000 },{ region: 'Gómez Palacio', dato: 31.9000 },{ region: 'Lerdo', dato: 41.1000 },{ region: 'Matamoros', dato: 29.8000 },{ region: 'La Laguna', dato: 28.6000 },{ region: 'Coahuila', dato: 24.7600 },{ region: 'Durango', dato: 40.2200 },{ region: 'Nacional', dato: 34.3900 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

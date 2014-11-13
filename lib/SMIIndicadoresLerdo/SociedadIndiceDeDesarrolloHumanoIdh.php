@@ -25,7 +25,7 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
         $this->claves      = 'Lerdo, Bienestar';
         $this->categorias  = array('Bienestar');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
@@ -56,7 +56,9 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
       <p><b>Unidad:</b> De 0 a 1.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Índice de Desarrollo Humano (IDH)</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Índice de Desarrollo Humano (IDH)</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -83,6 +85,13 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
             <td>Descargar [base de datos](http://www.undp.org.mx/desarrollohumano/disco/index.html)</td>
           </tr>
           <tr>
+            <td>Lerdo</td>
+            <td>2005-03-31</td>
+            <td class="derecha">0.7970</td>
+            <td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td>
+            <td>Descargar [base de datos](http://www.undp.org.mx/desarrollohumano/disco/index.html)</td>
+          </tr>
+          <tr>
             <td>Matamoros</td>
             <td>2005-03-31</td>
             <td class="derecha">0.7820</td>
@@ -95,9 +104,23 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript  = <<<FINAL
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 0.8470 },{ region: 'Gómez Palacio', dato: 0.8160 },{ region: 'Lerdo', dato: 0.7970 },{ region: 'Matamoros', dato: 0.7820 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor

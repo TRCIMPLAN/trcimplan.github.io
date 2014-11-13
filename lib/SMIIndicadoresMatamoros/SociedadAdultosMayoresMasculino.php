@@ -25,7 +25,7 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
         $this->claves      = 'Matamoros, Grupos Vulnerables';
         $this->categorias  = array('Grupos Vulnerables');
         $this->contenido   = <<<FINAL
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador-">
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -111,11 +111,13 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-<h3>Gráfica</h3>
-<div id="graficaDatos" class="grafica"></div>
+      <h3>Gráfica de Adultos Mayores Masculino en Matamoros</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-<h3>En otras regiones</h3>
+      <h3>Gráfica con los últimos datos de Adultos Mayores Masculino</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Adultos Mayores Masculino</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -129,92 +131,8 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2011-06-30</td>
-            <td class="derecha">17,498</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2012-06-30</td>
-            <td class="derecha">18,233</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2013-06-30</td>
-            <td class="derecha">19,010</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
             <td>2014-06-30</td>
             <td class="derecha">19,829</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2015-06-30</td>
-            <td class="derecha">20,691</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2016-06-30</td>
-            <td class="derecha">21,594</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2017-06-30</td>
-            <td class="derecha">22,537</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2018-06-30</td>
-            <td class="derecha">23,517</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2019-06-30</td>
-            <td class="derecha">24,531</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Torreón</td>
-            <td>2020-06-30</td>
-            <td class="derecha">25,576</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2011-06-30</td>
-            <td class="derecha">8,437</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2012-06-30</td>
-            <td class="derecha">8,736</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2013-06-30</td>
-            <td class="derecha">9,056</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -226,69 +144,6 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>Gómez Palacio</td>
-            <td>2015-06-30</td>
-            <td class="derecha">9,767</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2016-06-30</td>
-            <td class="derecha">10,158</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2017-06-30</td>
-            <td class="derecha">10,573</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2018-06-30</td>
-            <td class="derecha">11,009</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2019-06-30</td>
-            <td class="derecha">11,464</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2020-06-30</td>
-            <td class="derecha">11,936</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2011-06-30</td>
-            <td class="derecha">4,135</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2012-06-30</td>
-            <td class="derecha">4,260</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2013-06-30</td>
-            <td class="derecha">4,391</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
             <td>Lerdo</td>
             <td>2014-06-30</td>
             <td class="derecha">4,529</td>
@@ -296,65 +151,9 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>Lerdo</td>
-            <td>2015-06-30</td>
-            <td class="derecha">4,674</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2016-06-30</td>
-            <td class="derecha">4,827</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2017-06-30</td>
-            <td class="derecha">4,989</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2018-06-30</td>
-            <td class="derecha">5,160</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2019-06-30</td>
-            <td class="derecha">5,338</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2020-06-30</td>
-            <td class="derecha">5,523</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2011-06-30</td>
-            <td class="derecha">33,494</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2012-06-30</td>
-            <td class="derecha">34,770</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2013-06-30</td>
-            <td class="derecha">36,117</td>
+            <td>Matamoros</td>
+            <td>2014-06-30</td>
+            <td class="derecha">3,780</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -366,135 +165,9 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>La Laguna</td>
-            <td>2015-06-30</td>
-            <td class="derecha">39,033</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2016-06-30</td>
-            <td class="derecha">40,603</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2017-06-30</td>
-            <td class="derecha">42,247</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2018-06-30</td>
-            <td class="derecha">43,959</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2019-06-30</td>
-            <td class="derecha">45,732</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>La Laguna</td>
-            <td>2020-06-30</td>
-            <td class="derecha">47,559</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2011-06-30</td>
-            <td class="derecha">78,392</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2012-06-30</td>
-            <td class="derecha">81,329</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2013-06-30</td>
-            <td class="derecha">84,382</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
             <td>Coahuila</td>
             <td>2014-06-30</td>
             <td class="derecha">87,565</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2015-06-30</td>
-            <td class="derecha">90,893</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2016-06-30</td>
-            <td class="derecha">94,379</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2017-06-30</td>
-            <td class="derecha">98,035</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2018-06-30</td>
-            <td class="derecha">101,864</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2019-06-30</td>
-            <td class="derecha">105,861</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2020-06-30</td>
-            <td class="derecha">110,020</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2011-06-30</td>
-            <td class="derecha">53,398</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2012-06-30</td>
-            <td class="derecha">54,718</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2013-06-30</td>
-            <td class="derecha">56,053</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -506,114 +179,9 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>Durango</td>
-            <td>2015-06-30</td>
-            <td class="derecha">58,832</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2016-06-30</td>
-            <td class="derecha">60,311</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2017-06-30</td>
-            <td class="derecha">61,870</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2018-06-30</td>
-            <td class="derecha">63,514</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2019-06-30</td>
-            <td class="derecha">65,246</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2020-06-30</td>
-            <td class="derecha">67,066</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2011-06-30</td>
-            <td class="derecha">3,349,651</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2012-06-30</td>
-            <td class="derecha">3,449,315</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2013-06-30</td>
-            <td class="derecha">3,553,513</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
             <td>Nacional</td>
             <td>2014-06-30</td>
             <td class="derecha">3,662,907</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2015-06-30</td>
-            <td class="derecha">3,778,399</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2016-06-30</td>
-            <td class="derecha">3,900,878</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2017-06-30</td>
-            <td class="derecha">4,030,687</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2018-06-30</td>
-            <td class="derecha">4,167,816</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2019-06-30</td>
-            <td class="derecha">4,312,048</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2020-06-30</td>
-            <td class="derecha">4,463,109</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -624,7 +192,7 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
 FINAL;
         $this->javascript  = <<<FINAL
 // LENGUETA smi-indicador-grafica
-$('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
@@ -639,9 +207,23 @@ $('#smi-indicador- a[href="#smi-indicador-grafica"]').on('shown.bs.tab', functio
     });
   }
 });
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 19829 },{ region: 'Gómez Palacio', dato: 9400 },{ region: 'Lerdo', dato: 4529 },{ region: 'Matamoros', dato: 3780 },{ region: 'La Laguna', dato: 37538 },{ region: 'Coahuila', dato: 87565 },{ region: 'Durango', dato: 57418 },{ region: 'Nacional', dato: 3662907 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
-  $('#smi-indicador- a[href="#smi-indicador-datos"]').tab('show')
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
     } // constructor
