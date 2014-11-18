@@ -54,14 +54,14 @@ class Georreferenciados extends \Base\Publicacion {
         $this->contenido        = <<<FINAL
 
 <ul>
-<li><a href="indicadores-torreon/sociedad-maternidad-adolescente.html">Maternidad Adolescente</a></li>
-<li><a href="indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas</a></li>
-<li><a href="indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública</a></li>
-<li><a href="indicadores-torreon/sociedad-viviendas-con-computadora.html">Viviendas con Computadora</a></li>
-<li><a href="indicadores-torreon/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje</a></li>
-<li><a href="indicadores-torreon/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica</a></li>
-<li><a href="indicadores-torreon/sociedad-viviendas-con-internet.html">Viviendas con Internet</a></li>
-<li><a href="indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete</a></li>
+<li><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html">Maternidad Adolescente</a></li>
+<li><a href="../indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas</a></li>
+<li><a href="../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública</a></li>
+<li><a href="../indicadores-torreon/sociedad-viviendas-con-computadora.html">Viviendas con Computadora</a></li>
+<li><a href="../indicadores-torreon/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje</a></li>
+<li><a href="../indicadores-torreon/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica</a></li>
+<li><a href="../indicadores-torreon/sociedad-viviendas-con-internet.html">Viviendas con Internet</a></li>
+<li><a href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete</a></li>
 </ul>
 
 FINAL;
