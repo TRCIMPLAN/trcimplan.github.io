@@ -27,7 +27,7 @@ body {
     background-color:#F0F0F0;
 }
 h1, .h1 {
-    font-family:'Roboto Condensed','Droid Sans',Verdana,Helvetica,Arial,sans-serif; font-weight:700;
+    font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
     line-height:1.2;
 }
 h2, .h2,
@@ -35,7 +35,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-    font-family:'Roboto Condensed','Droid Sans',Verdana,Helvetica,Arial,sans-serif; font-weight:700;
+    font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
     line-height:1.2;
 }
 h1, .h1,
@@ -64,7 +64,7 @@ a:active  { color:#FF3300; text-decoration:none; }
 
 /* Menú principal/izquierdo opción */
 #side-menu {
-    font-family:'Roboto Condensed','Droid Sans',Verdana,Helvetica,Arial,sans-serif; font-weight:400;
+    font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
     font-size:16px;
 }
 #side-menu a         { color:#646464; }
@@ -254,7 +254,7 @@ a.galeria-icono:active  { color:#FF3300; }
 
 /* Contenido con SMI Indicadores por Región */
 .indicadores-vinculos {
-    font-family:'Roboto Condensed','Droid Sans',Verdana,Helvetica,Arial,sans-serif; font-weight:400;
+    font-family:'Roboto Condensed',sans-serif; font-weight:400;
     font-size:14px;
     line-height:1.2em;
 }

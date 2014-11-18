@@ -78,14 +78,14 @@ class PaginaInicial extends \Base\Plantilla {
         $encabezado         = new Encabezado();
         $this->contenido[]  = $encabezado->html();
         $this->javascript[] = $encabezado->javascript();
-        // Destacado
-        $destacado          = new Destacado();
-        $this->contenido[]  = $destacado->html();
-        $this->javascript[] = $destacado->javascript();
         // Novedades
         $novedades          = new Novedades();
         $this->contenido[]  = $novedades->html();
         $this->javascript[] = $novedades->javascript();
+        // Destacado
+        $destacado          = new Destacado();
+        $this->contenido[]  = $destacado->html();
+        $this->javascript[] = $destacado->javascript();
         // Mapa
         $mapa               = new Mapa();
         $this->contenido[]  = $mapa->html();

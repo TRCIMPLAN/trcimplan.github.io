@@ -45,8 +45,12 @@ class Novedades {
         $analisis                   = new \Blog\Imprenta();
         $resumenes                  = $analisis->elaborar_resumenes(); // Entrega una instancia de \Base\Resumenes
         $resumenes->en_raiz         = true;
-        $resumenes->cantidad_maxima = 4;
+        $resumenes->cantidad_maxima = 3;
         $a[]                        = $resumenes->html();
+        // Botón
+        $a[] = '          <div class="text-center">';
+        $a[] = "            <a href=\"blog/index.html\" class=\"btn btn-default\" role=\"button\">Todos los Análisis Publicados</a>";
+        $a[] = '          </div>';
         // Análisis Termina
         $a[] = '        </div>';
         $a[] = '      </div>';
