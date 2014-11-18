@@ -34,7 +34,7 @@ class AbrirSIG extends \Base\Publicacion {
         $this->fecha         = '2014-07-01';
      // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Abrir el Sistema de Información Geográfica';
-        $this->nombre_menu   = 'Abrir el SIG';
+        $this->nombre_menu   = 'Información Geográfica > Abrir el SIG';
         $this->directorio    = 'sig';
         $this->archivo       = 'abrir-sig';
         $this->descripcion   = 'Instrucciones para abrir el Sistema de Información Geográfica.';

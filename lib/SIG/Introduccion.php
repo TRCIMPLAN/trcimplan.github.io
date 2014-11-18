@@ -34,7 +34,7 @@ class Introduccion extends \Base\Publicacion {
         $this->fecha         = '2014-08-01';
     //  $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Sistema de Información Geográfica';
-        $this->nombre_menu   = 'Introduccion al SIG';
+        $this->nombre_menu   = 'Información Geográfica > Introducción';
         $this->directorio    = 'sig';
         $this->archivo       = 'introduccion';
         $this->descripcion   = 'Sistema de Información Geográfica del IMPLAN Torreón.';

@@ -34,7 +34,7 @@ class Introduccion extends \Base\Publicacion {
         $this->fecha         = '2014-05-01';
      // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Banco Municipal de Proyectos';
-        $this->nombre_menu   = 'Introducción al BMPI';
+        $this->nombre_menu   = 'Banco de Proyectos > Introducción';
         $this->directorio    = 'proyectos';
         $this->archivo       = 'introduccion';
         $this->descripcion   = 'El BMPI es un instrumento dinámico de gestión pública, orientado a consolidar una cultura municipal de formulación (preparación), planeación, seguimiento y evaluación de programas y proyectos de inversión, por medio de sus componentes y funciones.';

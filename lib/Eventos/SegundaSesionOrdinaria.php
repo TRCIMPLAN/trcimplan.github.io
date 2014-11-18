@@ -34,7 +34,7 @@ class SegundaSesionOrdinaria extends \Base\Publicacion {
         $this->fecha         = '2014-05-21';
      // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Segunda Sesión Ordinaria - Presentación del Sistema Metropolitano de Indicadores';
-        $this->nombre_menu   = 'Eventos';
+        $this->nombre_menu   = 'Comunicados > Eventos';
         $this->directorio    = 'eventos';
         $this->archivo       = 'segunda-sesion-ordinaria';
         $this->descripcion   = 'Se presentó el Sistema Metropolitano de Indicadores, SMI, el cual es un banco de información sobre temas de interés de nuestra Ciudad y su área Metropolitana.';

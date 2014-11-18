@@ -2,53 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://trcimplan.gob.mx/index.html</loc>
-    <lastmod>2014-11-12</lastmod>
+    <lastmod>2014-11-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/index.html</loc>
-    <lastmod>2014-11-12</lastmod>
+    <lastmod>2014-11-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-categorias/index.html</loc>
-    <lastmod>2014-11-12</lastmod>
+    <lastmod>2014-11-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/index.html</loc>
-    <lastmod>2014-11-12</lastmod>
+    <lastmod>2014-11-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/index.html</loc>
-    <lastmod>2014-11-12</lastmod>
+    <lastmod>2014-11-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/index.html</loc>
-    <lastmod>2014-11-12</lastmod>
+    <lastmod>2014-11-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/index.html</loc>
-    <lastmod>2014-11-12</lastmod>
+    <lastmod>2014-11-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/index.html</loc>
-    <lastmod>2014-11-12</lastmod>
+    <lastmod>2014-11-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/eventos/index.html</loc>
-    <lastmod>2014-11-12</lastmod>
+    <lastmod>2014-11-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/index.html</loc>
-    <lastmod>2014-11-12</lastmod>
+    <lastmod>2014-11-18</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/blog/prevencion-delito-seguridad.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/industrial-metalmecanica-la-laguna.html</loc>
@@ -791,7 +796,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robo-a-negocios-.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robo-a-negocios.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -806,7 +811,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion-.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1366,7 +1371,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-robo-a-negocios-.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-robo-a-negocios.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1381,7 +1386,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-robos-a-casa-habitacion-.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1921,7 +1926,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-robo-a-negocios-.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-robo-a-negocios.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1936,7 +1941,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-robos-a-casa-habitacion-.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-robos-a-casa-habitacion.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2501,7 +2506,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-a-negocios-.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-a-negocios.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2516,7 +2521,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-robos-a-casa-habitacion-.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-robos-a-casa-habitacion.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3116,7 +3121,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-robo-a-negocios-.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-robo-a-negocios.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3131,7 +3136,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-robos-a-casa-habitacion-.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-robos-a-casa-habitacion.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3477,6 +3482,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/sustentabilidad-volumen-tratado-de-aguas-residuales.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/smi/georreferenciados.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>

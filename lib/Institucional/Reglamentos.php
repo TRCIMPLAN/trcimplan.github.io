@@ -34,7 +34,7 @@ class Reglamentos extends \Base\Publicacion {
         $this->fecha            = '2014-05-01';
      // $this->autor            = 'TrcIMPLAN';
         $this->nombre           = 'Reglamentos';
-        $this->nombre_menu      = 'Reglamentos';
+        $this->nombre_menu      = 'Institucional > Reglamentos';
         $this->directorio       = 'institucional';
         $this->archivo          = 'reglamentos';
         $this->descripcion      = 'El reglamento del IMPLAN Torreón.';

@@ -34,7 +34,7 @@ class ComunicadoPrensa20140512 extends \Base\Publicacion {
         $this->fecha         = '2014-05-12';
         $this->autor         = 'Lic. Eduardo Holguín Zehfuss';
         $this->nombre        = 'Comunicado de Prensa 12.5.14';
-        $this->nombre_menu   = 'Sala de Prensa';
+        $this->nombre_menu   = 'Comunicados > Sala de Prensa';
         $this->directorio    = 'sala-prensa';
         $this->archivo       = '2014-05-12-comunicado-prensa';
         $this->descripcion   = 'Precisiones respecto a conferencia de Sam Podolsky.';

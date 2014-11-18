@@ -34,7 +34,7 @@ class InformacionFinanciera extends \Base\Publicacion {
         $this->fecha            = '2014-08-01';
      // $this->autor            = 'TrcIMPLAN';
         $this->nombre           = 'Información Financiera';
-        $this->nombre_menu      = 'Información Financiera';
+        $this->nombre_menu      = 'Institucional > Información Financiera';
         $this->directorio       = 'institucional';
         $this->archivo          = 'informacion-financiera';
         $this->descripcion      = 'Respecto al avance de Gestión Financiera del IMPLAN Torreón.';

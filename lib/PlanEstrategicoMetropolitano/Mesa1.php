@@ -38,7 +38,7 @@ class Mesa1 extends \Base\Publicacion {
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo       = 'mesa-1';
         $this->imagen_previa = 'mesa-1/imagen-previa.jpg';
-        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="mesa-1/encabezado.jpg">';
+     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="mesa-1/encabezado.jpg">';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion   = 'El pasado 9 de octubre de 2014 comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves        = 'IMPLAN, Torreon';
@@ -51,8 +51,6 @@ class Mesa1 extends \Base\Publicacion {
         $this->estado        = 'publicar';
         // El contenido HTML y el JavaScript
         $this->contenido     = <<<FINAL
-<h3>Mesa 1: Diagnóstico - Pronóstico</h3>
-
 <p>El pasado 9 de Octubre de 2014 comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.</p>
 
 <img class="img-responsive contenido-imagen" src="mesa-1/foto-panoramica-previa.jpg" alt="Foto Panoramica">

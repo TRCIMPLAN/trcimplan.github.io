@@ -34,7 +34,7 @@ class TerceraSesionOrdinaria extends \Base\Publicacion {
         $this->fecha         = '2014-08-26';
      // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Tercera Sesión Ordinaria del Consejo Directivo del IMPLAN';
-        $this->nombre_menu   = 'Eventos';
+        $this->nombre_menu   = 'Comunicados > Eventos';
         $this->directorio    = 'eventos';
         $this->archivo       = 'tercera-sesion-ordinaria';
         $this->descripcion   = 'Con el título "230 días del IMPLAN" se dió el informe donde fué reconocida la conformación de bases sólidas para la creación de una ciudad planeada y competitiva.';

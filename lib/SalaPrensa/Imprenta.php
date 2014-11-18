@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->claves                   = 'IMPLAN, Torreon, Comunicados, Prensa, Sala';
         $this->directorio               = 'sala-prensa';
         $this->ruta                     = 'sala-prensa/index.html';
-        $this->nombre_menu              = 'Sala de Prensa';
+        $this->nombre_menu              = 'Comunicados > Sala de Prensa';
         $this->encabezado_color         = '#008000';
     } // constructor
 

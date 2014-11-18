@@ -34,7 +34,7 @@ class Introduccion extends \Base\Publicacion {
         $this->fecha         = '2014-05-15';
     //  $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Sistema Metropolitano de Indicadores';
-        $this->nombre_menu   = 'Introducción al SMI';
+        $this->nombre_menu   = 'Indicadores > Introducción';
         $this->directorio    = 'smi';
         $this->archivo       = 'introduccion';
         $this->descripcion   = 'Introducción al Sistema Metropolitano de Indicadores del IMPLAN Torreón.';

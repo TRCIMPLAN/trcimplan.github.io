@@ -34,7 +34,7 @@ class QuienesSomos extends \Base\Publicacion {
         $this->fecha            = '2014-05-01';
      // $this->autor            = 'TrcIMPLAN';
         $this->nombre           = 'Quienes Somos';
-        $this->nombre_menu      = 'Quienes Somos';
+        $this->nombre_menu      = 'Institucional > Quienes Somos';
         $this->directorio       = 'institucional';
         $this->archivo          = 'quienes-somos';
         $this->descripcion      = 'Los integrantes del IMPLAN Torreón.';

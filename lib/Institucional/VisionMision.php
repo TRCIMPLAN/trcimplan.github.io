@@ -34,7 +34,7 @@ class VisionMision extends \Base\Publicacion {
         $this->fecha            = '2014-05-01';
      // $this->autor            = 'TrcIMPLAN';
         $this->nombre           = 'Visión / Misión';
-        $this->nombre_menu      = 'Visión / Misión';
+        $this->nombre_menu      = 'Institucional > Visión / Misión';
         $this->directorio       = 'institucional';
         $this->archivo          = 'vision-mision';
         $this->descripcion      = 'La Visión y la Misión del IMPLAN Torreón.';

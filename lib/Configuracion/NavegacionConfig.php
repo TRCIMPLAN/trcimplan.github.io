@@ -35,61 +35,65 @@ class NavegacionConfig {
             'Plan Estratégico Metropolitano > Conoce el Plan' => 'plan-estrategico-metropolitano/introduccion.html',
             'Plan Estratégico Metropolitano > Mesa 1'         => 'plan-estrategico-metropolitano/mesa-1.html'),
         'Indicadores' => array(
-            'Introducción al SMI'       => 'smi/introduccion.html',
-            'Indicadores por Región'    => 'smi/por-region.html',
-            'Indicadores por Categoría' => 'indicadores-categorias/index.html'),
+            'Indicadores > Introducción'              => 'smi/introduccion.html',
+            'Indicadores > Indicadores por Categoría' => 'indicadores-categorias/index.html',
+            'Indicadores > Indicadores por Región'    => 'smi/por-region.html',
+            'Indicadores > Georreferenciados'         => 'smi/georreferenciados.html'),
         'Información Geográfica' => array(
-            'Introducción al SIG' => 'sig/introduccion.html',
-            'Alumbrado Público'   => 'sig/alumbrado-publico.html',
-            'Zonificación'        => 'sig/zonificacion.html',
-            'Abrir el SIG'        => 'sig/abrir-sig.html'),
+            'Información Geográfica > Introducción'      => 'sig/introduccion.html',
+            'Información Geográfica > Abrir el SIG'      => 'sig/abrir-sig.html',
+            'Información Geográfica > Alumbrado Público' => 'sig/alumbrado-publico.html',
+            'Información Geográfica > Zonificación'      => 'sig/zonificacion.html'),
         'Banco de Proyectos' => array(
-            'Introducción al BMPI' => 'proyectos/introduccion.html',
-            'Plata Laguna'         => 'proyectos/plata-laguna.html'),
+            'Banco de Proyectos > Introducción' => 'proyectos/introduccion.html',
+            'Banco de Proyectos > Plata Laguna' => 'proyectos/plata-laguna.html'),
         'Institucional' => array(
-            'Visión / Misión'        => 'institucional/vision-mision.html',
-            'Mensaje del Director'   => 'institucional/mensaje-director.html',
-            'Quienes Somos'          => 'institucional/quienes-somos.html',
-            'Estructura Orgánica'    => 'institucional/estructura-organica.html',
-            'Reglamentos'            => 'institucional/reglamentos.html',
-            'Información Financiera' => 'institucional/informacion-financiera.html',
-            'Transparencia'          => 'http://www.icai.org.mx/ipmn/dependencias/impyc'),
+            'Institucional > Visión / Misión'        => 'institucional/vision-mision.html',
+            'Institucional > Mensaje del Director'   => 'institucional/mensaje-director.html',
+            'Institucional > Quienes Somos'          => 'institucional/quienes-somos.html',
+            'Institucional > Estructura Orgánica'    => 'institucional/estructura-organica.html',
+            'Institucional > Reglamentos'            => 'institucional/reglamentos.html',
+            'Institucional > Información Financiera' => 'institucional/informacion-financiera.html',
+            'Institucional > Transparencia'          => 'http://www.icai.org.mx/ipmn/dependencias/impyc'),
         'Consejo Directivo' => 'consejo-directivo/integrantes.html',
         'Comunicados' => array(
-            'Eventos'        => 'eventos/index.html',
-            'Sala de Prensa' => 'sala-prensa/index.html'),
+            'Comunicados > Eventos'        => 'eventos/index.html',
+            'Comunicados > Sala de Prensa' => 'sala-prensa/index.html'),
         'Contacto' => array(
-            'Medios de contacto'        => 'contacto/contacto.html',
-            'Comentarios y Sugerencias' => 'http://trcimplan.mx/comentariossugerencias'));
+            'Contacto > Medios de contacto'        => 'contacto/contacto.html',
+            'Contacto > Comentarios y Sugerencias' => 'http://trcimplan.mx/comentariossugerencias'));
     public $iconos = array(
+        'Introducción'                   => 'fa fa-file-text-o',
+
         'Análisis Publicados'            => 'fa fa-lightbulb-o',
+
         'Plan Estratégico Metropolitano' => 'fa fa-sun-o',
         'Mesa 1'                         => 'fa fa-calendar',
         'Mesa 2'                         => 'fa fa-calendar-o',
         'Mesa 3'                         => 'fa fa-calendar-o',
-        'Buen Gobierno'                  => 'fa fa-university',
-        'Desarrollo Económico'           => 'fa fa-usd',
-        'Desarrollo Social'              => 'fa fa-users',
-        'Entorno Urbano'                 => 'fa fa-building',
-        'Movilidad y Transporte'         => 'fa fa-car',
-        'S. y Medio Ambiente'            => 'fa fa-leaf',
+
         'Indicadores'                    => 'fa fa-area-chart',
-        'Introducción al SMI'            => 'fa fa-file-text-o',
         'Indicadores por Región'         => 'fa fa-table',
         'Indicadores por Categoría'      => 'fa fa-th-list',
+        'Georreferenciados'              => 'fa fa-map-marker',
+
         'Información Geográfica'         => 'fa fa-map-marker',
-        'Introducción al SIG'            => 'fa fa-file-text-o',
         'Alumbrado Público'              => 'fa fa-map-marker',
         'Zonificación'                   => 'fa fa-map-marker',
-        'Abrir el SIG'                   => 'fa fa-map-marker',
+        'Abrir el SIG'                   => 'fa fa-external-link',
+
         'Banco de Proyectos'             => 'fa fa-check-square',
         'Plata Laguna'                   => 'fa fa-certificate',
+
         'Institucional'                  => 'fa fa-building-o',
         'Transparencia'                  => 'fa fa-external-link',
+
         'Consejo Directivo'              => 'fa fa-users',
+
         'Comunicados'                    => 'fa fa-comments',
         'Eventos'                        => 'fa fa-folder-o',
         'Sala de Prensa'                 => 'fa fa-folder-o',
+
         'Contacto'                       => 'fa fa-phone',
         'Comentarios y Sugerencias'      => 'fa fa-external-link');
     protected $buscador_html = <<<FINAL

@@ -46,7 +46,7 @@ class Mesa1DiagnosticoPronostico extends \Base\Publicacion {
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
         $this->directorio    = 'sala-prensa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu   = 'Sala de Prensa';
+        $this->nombre_menu   = 'Comunicados > Sala de Prensa';
         // El contenido HTML y el JavaScript
         $this->contenido     = <<<FINAL
 <h3>Mesa 1: Diagnóstico - Pronóstico</h3>

@@ -34,7 +34,7 @@ class PlataLaguna extends \Base\Publicacion {
         $this->fecha         = '2014-06-01';
      // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Plata Laguna';
-        $this->nombre_menu   = 'Plata Laguna';
+        $this->nombre_menu   = 'Banco de Proyectos > Plata Laguna';
         $this->directorio    = 'proyectos';
         $this->archivo       = 'plata-laguna';
         $this->descripcion   = 'El Sector Plata la Laguna cuenta con externalidades positivas que lo potencian como una industria capaz de generar importantes beneficios sociales y económicos.';

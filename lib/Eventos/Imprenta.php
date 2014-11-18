@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->claves                   = 'IMPLAN, Torreon, Eventos';
         $this->directorio               = 'eventos';
         $this->ruta                     = 'eventos/index.html';
-        $this->nombre_menu              = 'Eventos';
+        $this->nombre_menu              = 'Comunicados > Eventos';
         $this->encabezado_color         = '#008000';
     } // constructor
 

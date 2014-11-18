@@ -34,7 +34,7 @@ class MensajeDirector extends \Base\Publicacion {
         $this->fecha            = '2014-01-05';
      // $this->autor            = 'TrcIMPLAN';
         $this->nombre           = 'Mensaje del Director';
-        $this->nombre_menu      = 'Mensaje del Director';
+        $this->nombre_menu      = 'Institucional > Mensaje del Director';
         $this->directorio       = 'institucional';
         $this->archivo          = 'mensaje-director';
         $this->descripcion      = 'Mensaje del Director General Ejecutivo del IMPLAN Torreón Lic. Eduardo Olguín.';

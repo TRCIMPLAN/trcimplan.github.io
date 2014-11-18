@@ -34,7 +34,7 @@ class PrimeraSesionOrdinaria extends \Base\Publicacion {
         $this->fecha         = '2014-04-18';
      // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Primera Sesión Ordinaria';
-        $this->nombre_menu   = 'Eventos';
+        $this->nombre_menu   = 'Comunicados > Eventos';
         $this->directorio    = 'eventos';
         $this->archivo       = 'primera-sesion-ordinaria';
         $this->descripcion   = 'Primera Reunión Ordinaria del Consejo Directivo del Instituto Municipal de Planeación y Competitividad de Torreón.';

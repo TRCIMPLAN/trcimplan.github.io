@@ -34,7 +34,7 @@ class AlumbradoPublico extends \Base\Publicacion {
         $this->fecha         = '2014-09-08';
      // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Avance de Reconversión Tecnológica Led del Alumbrado Público';
-        $this->nombre_menu   = 'Alumbrado Público';
+        $this->nombre_menu   = 'Información Geográfica > Alumbrado Público';
         $this->directorio    = 'sig';
         $this->archivo       = 'alumbrado-publico';
         $this->descripcion   = 'Mapa del Avance de Reconversión del Alumbrado Público de Torreón.';

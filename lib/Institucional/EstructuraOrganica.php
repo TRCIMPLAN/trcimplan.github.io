@@ -34,7 +34,7 @@ class EstructuraOrganica extends \Base\Publicacion {
         $this->fecha            = '2014-05-01';
      // $this->autor            = 'TrcIMPLAN';
         $this->nombre           = 'Estructura Orgánica';
-        $this->nombre_menu      = 'Estructura Orgánica';
+        $this->nombre_menu      = 'Institucional > Estructura Orgánica';
         $this->directorio       = 'institucional';
         $this->archivo          = 'estructura-organica';
         $this->descripcion      = 'La Estructura Orgánica del IMPLAN Torréon está formada por el Consejo Directivo, los Comités Técnicos, el Director General Ejecutivo y el Cuerpo Técnico.';

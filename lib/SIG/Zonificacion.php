@@ -34,7 +34,7 @@ class Zonificacion extends \Base\Publicacion {
         $this->fecha         = '2014-09-05';
      // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Zonificación Primaria y Secundaria';
-        $this->nombre_menu   = 'Zonificación';
+        $this->nombre_menu   = 'Información Geográfica > Zonificación';
         $this->directorio    = 'sig';
         $this->archivo       = 'zonificacion';
         $this->descripcion   = 'Mapa de la Zonificación Primaria y Secundaria de Torreón Coahuila.';

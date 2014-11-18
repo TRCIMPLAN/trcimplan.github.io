@@ -73,8 +73,8 @@ class Destacado {
             'Plan Estratégico Metropolitano',
             '<p>Súmate al esfuerzo de planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad de La Laguna.</p>',
             array(
-                '<i class="fa fa-sun-o"></i> Conoce el P.E.M.'        => 'plan-estrategico-metropolitano/introduccion.html',
-                '<i class="fa fa-calendar"></i> Diagnóstico-Pronóstico'  => 'plan-estrategico-metropolitano/mesa-1.html',
+                '<i class="fa fa-sun-o"></i> Conoce el Plan'                  => 'plan-estrategico-metropolitano/introduccion.html',
+                '<i class="fa fa-calendar"></i> Diagnóstico-Pronóstico'       => 'plan-estrategico-metropolitano/mesa-1.html',
                 '<i class="fa fa-external-link"></i> Participación Ciudadana' => 'http://trcimplan.mx/plan'));
     } // pem
 
@@ -84,28 +84,14 @@ class Destacado {
      * @return string Código HTML
      */
     protected function sig() {
-        $parrafo = <<<FINAL
-La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.
-
-Los últimos indicadores con mapas son:
-
-* [Maternidad Adolescente](indicadores-torreon/sociedad-maternidad-adolescente.html)
-* [Viviendas Deshabitadas](indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html)
-* [Viviendas con Agua de la Red Pública](indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html)
-* [Viviendas con Computadora](indicadores-torreon/sociedad-viviendas-con-computadora.html)
-* [Viviendas con Drenaje](indicadores-torreon/sociedad-viviendas-con-drenaje.html)
-* [Viviendas con Energía Eléctrica](indicadores-torreon/sociedad-viviendas-con-energia-electrica.html)
-* [Viviendas con Internet](indicadores-torreon/sociedad-viviendas-con-internet.html)
-* [Viviendas que Disponen de Retrete](indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html)
-FINAL;
         return $this->twitter_bootstrap_thumbnail(
             'sig/introduccion/imagen-previa-ancha.jpg',
             'Sistema de Información Geográfica',
-            \Michelf\Markdown::defaultTransform($parrafo),
+            'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.',
             array(
-                '<i class="fa fa-map-marker"></i> Reconversión a Led' => 'sig/alumbrado-publico.html',
-                '<i class="fa fa-map-marker"></i> Zonificación'       => 'sig/zonificacion.html',
-                '<i class="fa fa-map-marker"></i> Abrir el S.I.G.'    => 'sig/abrir-sig.html'));
+                '<i class="fa fa-map-marker"></i> Abrir el SIG'      => 'sig/abrir-sig.html',
+                '<i class="fa fa-map-marker"></i> Alumbrado Público' => 'sig/alumbrado-publico.html',
+                '<i class="fa fa-map-marker"></i> Zonificación'      => 'sig/zonificacion.html'));
     } // sig
 
     /**
@@ -119,8 +105,9 @@ FINAL;
             'Sistema Metropolitano de Indicadores',
             '<p>Mantenemos al día indicadores en 5 grandes temas: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad para los municipios de la Laguna.</p>',
             array(
-                '<i class="fa fa-file-text-o"></i> Qué son los Indicadores' => 'smi/introduccion.html',
-                '<i class="fa fa-th-list"></i> Categorías'              => 'indicadores-categorias/index.html'));
+                '<i class="fa fa-table"></i> Por Región'             => 'smi/por-region.html',
+                '<i class="fa fa-th-list"></i> Por Categoría'        => 'indicadores-categorias/index.html',
+                '<i class="fa fa-map-marker"></i> Georreferenciados' => 'smi/georreferenciados.html'));
     } // smi
 
     /**

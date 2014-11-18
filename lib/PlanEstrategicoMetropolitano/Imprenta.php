@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->claves                   = 'IMPLAN, Torreon, Plan, Estratégico, Metropolitano';
         $this->directorio               = 'plan-estrategico-metropolitano';
         $this->ruta                     = 'plan-estrategico-metropolitano/index.html';
-        $this->nombre_menu              = 'Conoce el Plan';
+        $this->nombre_menu              = 'Plan Estratégico Metropolitano';
         $this->encabezado_color         = '#008000';
     } // constructor
 
