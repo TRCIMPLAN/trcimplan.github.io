@@ -37,7 +37,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->claves                   = 'IMPLAN, Torreon, Indicadores, Categorías';
         $this->directorio               = 'indicadores-categorias';
         $this->ruta                     = 'indicadores-categorias/index.html';
-        $this->nombre_menu              = 'Indicadores por Categoría';
+        $this->nombre_menu              = 'Indicadores > Indicadores por Categoría';
         $this->concentrador             = 'Galeria';
     } // constructor
 
