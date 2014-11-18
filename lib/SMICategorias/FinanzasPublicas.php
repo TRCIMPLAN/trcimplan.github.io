@@ -18,7 +18,7 @@ class FinanzasPublicas extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Finanzas Públicas';
-        $this->nombre_menu   = 'Indicadores por Categoría';
+        $this->nombre_menu   = 'Indicadores > Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'finanzas-publicas';
         $this->descripcion   = 'Matriz de indicadores en la categoría Finanzas Públicas';

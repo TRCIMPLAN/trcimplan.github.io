@@ -18,7 +18,7 @@ class Indice extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Indicadores de La Laguna';
-        $this->nombre_menu   = 'Indicadores por Región';
+        $this->nombre_menu   = 'Indicadores > Indicadores por Región';
         $this->directorio    = 'indicadores-la-laguna';
         $this->archivo       = 'index';
         $this->descripcion   = 'Matriz de indicadores de La Laguna';
@@ -203,7 +203,7 @@ class Indice extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Cumplimiento en información pública mínina</td>
+    <td class="indicador color2">Cumplimiento en Información Pública Mínina</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 31/12/2013, ICAI-IDAIP">80.00 %</a></td>
   </tr>
   <tr>
@@ -283,12 +283,12 @@ class Indice extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Robo a negocios.</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios-.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">190</a></td>
+    <td class="indicador color3">Robo a Negocios</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">190</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Robo a transeuntes</td>
+    <td class="indicador color3">Robo a Transeuntes</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">137</a></td>
   </tr>
   <tr>
@@ -298,8 +298,8 @@ class Indice extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Robos a casa habitación.</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion-.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">128</a></td>
+    <td class="indicador color3">Robos a Casa Habitación</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">128</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

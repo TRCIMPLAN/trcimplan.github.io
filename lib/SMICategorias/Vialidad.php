@@ -18,7 +18,7 @@ class Vialidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Vialidad';
-        $this->nombre_menu   = 'Indicadores por Categoría';
+        $this->nombre_menu   = 'Indicadores > Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'vialidad';
         $this->descripcion   = 'Matriz de indicadores en la categoría Vialidad';

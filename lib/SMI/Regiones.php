@@ -41,13 +41,13 @@ class Regiones extends \Base\Publicacion {
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="titulo/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = '.';
+        $this->descripcion      = '';
         $this->claves           = 'IMPLAN, Torreon, Indicadores';
         $this->categorias       = array('Indicadores');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
         $this->directorio       = 'smi';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu      = 'Indicadores por Región';
+        $this->nombre_menu      = 'Indicadores > Indicadores por Región';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // El contenido HTML y el JavaScript
@@ -111,7 +111,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
       <li><a href="../indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-torreon/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
-      <li><a href="../indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en información pública mínina</a></li>
+      <li><a href="../indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
       <li><a href="../indicadores-torreon/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
       <li><a href="../indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html" target="_blank">índice de Información Presupuestal</a></li>
       <li><a href="../indicadores-torreon/gobierno-ingresos-por-cobro-de-servicios.html" target="_blank">Ingresos por Cobro de Servicios</a></li>
@@ -133,10 +133,10 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-comun.html" target="_blank">Presuntos Delincuentes del Fuero Común</a></li>
       <li><a href="../indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-federal.html" target="_blank">Presuntos Delincuentes del Fuero Federal</a></li>
       <li><a href="../indicadores-torreon/seguridad-presuntos-delincuentes-por-narcoticos.html" target="_blank">Presuntos Delincuentes por Narcóticos</a></li>
-      <li><a href="../indicadores-torreon/seguridad-robo-a-negocios-.html" target="_blank">Robo a negocios.</a></li>
-      <li><a href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" target="_blank">Robo a transeuntes</a></li>
+      <li><a href="../indicadores-torreon/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
+      <li><a href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
       <li><a href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
-      <li><a href="../indicadores-torreon/seguridad-robos-a-casa-habitacion-.html" target="_blank">Robos a casa habitación.</a></li>
+      <li><a href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
       <li><a href="../indicadores-torreon/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
       <li><a href="../indicadores-torreon/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
       <li><a href="../indicadores-torreon/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" target="_blank">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</a></li>
@@ -263,7 +263,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
-      <li><a href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en información pública mínina</a></li>
+      <li><a href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html" target="_blank">índice de Información Presupuestal</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-ingresos-por-cobro-de-servicios.html" target="_blank">Ingresos por Cobro de Servicios</a></li>
@@ -284,10 +284,10 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-comun.html" target="_blank">Presuntos Delincuentes del Fuero Común</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-federal.html" target="_blank">Presuntos Delincuentes del Fuero Federal</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-presuntos-delincuentes-por-narcoticos.html" target="_blank">Presuntos Delincuentes por Narcóticos</a></li>
-      <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-negocios-.html" target="_blank">Robo a negocios.</a></li>
-      <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" target="_blank">Robo a transeuntes</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
-      <li><a href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion-.html" target="_blank">Robos a casa habitación.</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" target="_blank">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</a></li>
@@ -406,7 +406,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
       <li><a href="../indicadores-lerdo/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
-      <li><a href="../indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en información pública mínina</a></li>
+      <li><a href="../indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
       <li><a href="../indicadores-lerdo/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
       <li><a href="../indicadores-lerdo/gobierno-indice-de-informacion-presupuestal.html" target="_blank">índice de Información Presupuestal</a></li>
       <li><a href="../indicadores-lerdo/gobierno-ingresos-por-cobro-de-servicios.html" target="_blank">Ingresos por Cobro de Servicios</a></li>
@@ -427,10 +427,10 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-comun.html" target="_blank">Presuntos Delincuentes del Fuero Común</a></li>
       <li><a href="../indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-federal.html" target="_blank">Presuntos Delincuentes del Fuero Federal</a></li>
       <li><a href="../indicadores-lerdo/seguridad-presuntos-delincuentes-por-narcoticos.html" target="_blank">Presuntos Delincuentes por Narcóticos</a></li>
-      <li><a href="../indicadores-lerdo/seguridad-robo-a-negocios-.html" target="_blank">Robo a negocios.</a></li>
-      <li><a href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" target="_blank">Robo a transeuntes</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
       <li><a href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
-      <li><a href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion-.html" target="_blank">Robos a casa habitación.</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
       <li><a href="../indicadores-lerdo/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
       <li><a href="../indicadores-lerdo/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
       <li><a href="../indicadores-lerdo/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" target="_blank">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</a></li>
@@ -550,7 +550,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
       <li><a href="../indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
-      <li><a href="../indicadores-matamoros/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en información pública mínina</a></li>
+      <li><a href="../indicadores-matamoros/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
       <li><a href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
       <li><a href="../indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html" target="_blank">índice de Información Presupuestal</a></li>
       <li><a href="../indicadores-matamoros/gobierno-ingresos-por-cobro-de-servicios.html" target="_blank">Ingresos por Cobro de Servicios</a></li>
@@ -571,10 +571,10 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-comun.html" target="_blank">Presuntos Delincuentes del Fuero Común</a></li>
       <li><a href="../indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-federal.html" target="_blank">Presuntos Delincuentes del Fuero Federal</a></li>
       <li><a href="../indicadores-matamoros/seguridad-presuntos-delincuentes-por-narcoticos.html" target="_blank">Presuntos Delincuentes por Narcóticos</a></li>
-      <li><a href="../indicadores-matamoros/seguridad-robo-a-negocios-.html" target="_blank">Robo a negocios.</a></li>
-      <li><a href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" target="_blank">Robo a transeuntes</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
       <li><a href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
-      <li><a href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion-.html" target="_blank">Robos a casa habitación.</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
       <li><a href="../indicadores-matamoros/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
       <li><a href="../indicadores-matamoros/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
       <li><a href="../indicadores-matamoros/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" target="_blank">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</a></li>
@@ -693,7 +693,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
-      <li><a href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en información pública mínina</a></li>
+      <li><a href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html" target="_blank">índice de Información Presupuestal</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-ingresos-por-cobro-de-servicios.html" target="_blank">Ingresos por Cobro de Servicios</a></li>
@@ -714,10 +714,10 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-comun.html" target="_blank">Presuntos Delincuentes del Fuero Común</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-federal.html" target="_blank">Presuntos Delincuentes del Fuero Federal</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-presuntos-delincuentes-por-narcoticos.html" target="_blank">Presuntos Delincuentes por Narcóticos</a></li>
-      <li><a href="../indicadores-la-laguna/seguridad-robo-a-negocios-.html" target="_blank">Robo a negocios.</a></li>
-      <li><a href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" target="_blank">Robo a transeuntes</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" target="_blank">Robo de Vehículos</a></li>
-      <li><a href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion-.html" target="_blank">Robos a casa habitación.</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" target="_blank">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</a></li>

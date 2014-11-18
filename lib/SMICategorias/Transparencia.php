@@ -18,7 +18,7 @@ class Transparencia extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Transparencia';
-        $this->nombre_menu   = 'Indicadores por Categoría';
+        $this->nombre_menu   = 'Indicadores > Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'transparencia';
         $this->descripcion   = 'Matriz de indicadores en la categoría Transparencia';
@@ -42,7 +42,7 @@ class Transparencia extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Cumplimiento en información pública mínina</td>
+    <td class="indicador color2">Cumplimiento en Información Pública Mínina</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 30/06/2014, ICAI-IDAIP">98.72 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 31/08/2014, ICAI-IDAIP">86.00 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 31/08/2014, ICAI-IDAIP">100.00 %</a></td>

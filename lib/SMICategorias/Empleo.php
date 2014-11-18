@@ -18,7 +18,7 @@ class Empleo extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Empleo';
-        $this->nombre_menu   = 'Indicadores por Categoría';
+        $this->nombre_menu   = 'Indicadores > Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'empleo';
         $this->descripcion   = 'Matriz de indicadores en la categoría Empleo';

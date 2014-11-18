@@ -17,11 +17,11 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Cumplimiento en información pública mínina en La Laguna';
+        $this->nombre      = 'Cumplimiento en Información Pública Mínina en La Laguna';
         $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'gobierno-cumplimiento-en-informacion-publica-minina';
-        $this->descripcion = 'Cumplimiento sobre total de obligaciones';
+        $this->descripcion = 'Cumplimiento sobre total de obligaciones.';
         $this->claves      = 'La Laguna, Transparencia';
         $this->categorias  = array('Transparencia');
         $this->contenido   = <<<FINAL
@@ -32,7 +32,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Cumplimiento sobre total de obligaciones</p>
+<p>Cumplimiento sobre total de obligaciones.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -56,9 +56,9 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
       <p><b>Unidad:</b> Porcentaje.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Cumplimiento en información pública mínina</h3>
+      <h3>Gráfica con los últimos datos de Cumplimiento en Información Pública Mínina</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Cumplimiento en información pública mínina</h3>
+      <h3>Últimos datos de Cumplimiento en Información Pública Mínina</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

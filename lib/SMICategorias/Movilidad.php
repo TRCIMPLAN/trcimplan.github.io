@@ -18,7 +18,7 @@ class Movilidad extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Movilidad';
-        $this->nombre_menu   = 'Indicadores por Categoría';
+        $this->nombre_menu   = 'Indicadores > Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'movilidad';
         $this->descripcion   = 'Matriz de indicadores en la categoría Movilidad';

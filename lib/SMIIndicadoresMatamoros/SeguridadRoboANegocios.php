@@ -17,10 +17,10 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Robo a negocios. en Matamoros';
+        $this->nombre      = 'Robo a Negocios en Matamoros';
         $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'seguridad-robo-a-negocios-';
+        $this->archivo     = 'seguridad-robo-a-negocios';
         $this->descripcion = 'Robos totales por mes';
         $this->claves      = 'Matamoros';
         $this->categorias  = array();
@@ -105,13 +105,13 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Robo a negocios. en Matamoros</h3>
+      <h3>Gráfica de Robo a Negocios en Matamoros</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Robo a negocios.</h3>
+      <h3>Gráfica con los últimos datos de Robo a Negocios</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Robo a negocios.</h3>
+      <h3>Últimos datos de Robo a Negocios</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

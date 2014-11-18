@@ -18,7 +18,7 @@ class Salud extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Salud';
-        $this->nombre_menu   = 'Indicadores por Categoría';
+        $this->nombre_menu   = 'Indicadores > Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'salud';
         $this->descripcion   = 'Matriz de indicadores en la categoría Salud';

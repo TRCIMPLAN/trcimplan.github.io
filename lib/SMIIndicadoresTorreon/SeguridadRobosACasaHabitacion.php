@@ -17,11 +17,11 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Robos a casa habitación. en Torreón';
+        $this->nombre      = 'Robos a Casa Habitación en Torreón';
         $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'seguridad-robos-a-casa-habitacion-';
-        $this->descripcion = 'robos totales por mes';
+        $this->archivo     = 'seguridad-robos-a-casa-habitacion';
+        $this->descripcion = 'Robos totales por mes a casa habitación.';
         $this->claves      = 'Torreón';
         $this->categorias  = array();
         $this->contenido   = <<<FINAL
@@ -33,7 +33,7 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>robos totales por mes</p>
+<p>Robos totales por mes a casa habitación.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -105,13 +105,13 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Robos a casa habitación. en Torreón</h3>
+      <h3>Gráfica de Robos a Casa Habitación en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Robos a casa habitación.</h3>
+      <h3>Gráfica con los últimos datos de Robos a Casa Habitación</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Robos a casa habitación.</h3>
+      <h3>Últimos datos de Robos a Casa Habitación</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

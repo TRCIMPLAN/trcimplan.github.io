@@ -17,11 +17,11 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Robo a transeuntes en Matamoros';
+        $this->nombre      = 'Robo a Transeuntes en Matamoros';
         $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'seguridad-robo-a-transeuntes';
-        $this->descripcion = 'Robos totales por mes.';
+        $this->descripcion = 'Robos a Transeuntes totales por mes.';
         $this->claves      = 'Matamoros';
         $this->categorias  = array();
         $this->contenido   = <<<FINAL
@@ -33,7 +33,7 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Robos totales por mes.</p>
+<p>Robos a Transeuntes totales por mes.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -99,13 +99,13 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Robo a transeuntes en Matamoros</h3>
+      <h3>Gráfica de Robo a Transeuntes en Matamoros</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Robo a transeuntes</h3>
+      <h3>Gráfica con los últimos datos de Robo a Transeuntes</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Robo a transeuntes</h3>
+      <h3>Últimos datos de Robo a Transeuntes</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

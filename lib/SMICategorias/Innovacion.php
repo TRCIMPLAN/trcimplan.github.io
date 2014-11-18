@@ -18,7 +18,7 @@ class Innovacion extends \Base\Publicacion {
      */
     public function __construct() {
         $this->nombre        = 'Innovación';
-        $this->nombre_menu   = 'Indicadores por Categoría';
+        $this->nombre_menu   = 'Indicadores > Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'innovacion';
         $this->descripcion   = 'Matriz de indicadores en la categoría Innovación';
