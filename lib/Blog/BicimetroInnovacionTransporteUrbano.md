@@ -14,6 +14,7 @@ De acuerdo al Instituto Tecnológico de Massachussets (MIT), el producto de un t
 3. Reducir las emisiones de los vehículos.
 
 Al mismo tiempo, la industria automovilística está desarrollando una nueva generación de vehículos que no dependan, en su totalidad, del consumo de combustibles fósiles.
+
 Estas propuestas son:
 
 - Vehículos de emisión cero o ultra baja emisión.
@@ -21,7 +22,7 @@ Estas propuestas son:
 - Vehículos eléctricos.
 - Transportes ultra ligeros.
 
-Pero estas alternativas traen consigo el impacto negativo de los conflictos de circulación, accidentes, contribuir con el deterioro de la calidad ambiental, microsismos que afectan a nuestras estructuras, la contaminación Sonora y una series de otros factores que nos impactan negativamente.
+Pero estas alternativas traen consigo el impacto negativo de los conflictos de circulación, accidentes, contribuir con el deterioro de la calidad ambiental, microsismos que afectan a nuestras estructuras, la contaminación sonora y una series de otros factores que nos impactan negativamente.
 
 En base a esto, El Arquitecto visionario y urbanista Richard Moreta Castillo desarrolló un proyecto llamado **El BICIMETRO**. Es un sistema sostenible de movilidad rápida, a prueba de las inclemencias del tiempo, proyectado inicialmente para: solucionar el congestionamiento de nuestras vías, complementar al Metro, evitar la contaminación ambiental, mejorar la salud de los ciudadanos  a través del ejercicio y proporcionar un sistema de alta rentabilidad que le ofrezca un servicio más eficaz y agradable que el de los medios de transporte público tradicionales.
 

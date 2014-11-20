@@ -416,6 +416,26 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-h1.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-h2.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-h5.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-h6.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/indicadores-categorias/bienestar.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
