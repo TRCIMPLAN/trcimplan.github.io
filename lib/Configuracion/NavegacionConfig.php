@@ -43,7 +43,8 @@ class NavegacionConfig {
             'Información Geográfica > Introducción'      => 'sig/introduccion.html',
             'Información Geográfica > Abrir el SIG'      => 'sig/abrir-sig.html',
             'Información Geográfica > Alumbrado Público' => 'sig/alumbrado-publico.html',
-            'Información Geográfica > Zonificación'      => 'sig/zonificacion.html'),
+            'Información Geográfica > Zonificación Primaria'   => 'sig/zonificacion-primaria.html',
+            'Información Geográfica > Zonificación Secundaria' => 'sig/zonificacion-secundaria.html'),
         'Banco de Proyectos' => array(
             'Banco de Proyectos > Introducción' => 'proyectos/introduccion.html',
             'Banco de Proyectos > Plata Laguna' => 'proyectos/plata-laguna.html'),
@@ -79,7 +80,8 @@ class NavegacionConfig {
 
         'Información Geográfica'         => 'fa fa-map-marker',
         'Alumbrado Público'              => 'fa fa-map-marker',
-        'Zonificación'                   => 'fa fa-map-marker',
+        'Zonificación Primaria'          => 'fa fa-map-marker',
+        'Zonificación Secundaria'        => 'fa fa-map-marker',
         'Abrir el SIG'                   => 'fa fa-external-link',
 
         'Banco de Proyectos'             => 'fa fa-check-square',
