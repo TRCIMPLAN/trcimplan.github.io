@@ -468,16 +468,6 @@ class Indice extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Porcentaje de Viviendas con energía eléctrica</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 25/06/2010, INEGI. Censos de Población y Vivienda">99.02 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Promedio de Ocupantes por Vivienda</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 25/06/2010, INEGI. Censos de Población y Vivienda">4.0600</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Rezago Alimentario</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-rezago-alimentario.html" data-toggle="tooltip" title="Porcentaje, 31/12/2010, CONEVAL">20.89 %</a></td>
   </tr>

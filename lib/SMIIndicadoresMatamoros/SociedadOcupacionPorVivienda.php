@@ -21,7 +21,7 @@ class SociedadOcupacionPorVivienda extends \Base\Publicacion {
         $this->nombre_menu = 'Indicadores';
         $this->directorio  = 'indicadores-matamoros';
         $this->archivo     = 'sociedad-ocupacion-por-vivienda';
-        $this->descripcion = 'Promedio de ocupantes por vivienda.';
+        $this->descripcion = 'Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.';
         $this->claves      = 'Matamoros, Vivienda';
         $this->categorias  = array('Vivienda');
         $this->contenido   = <<<FINAL
@@ -32,7 +32,7 @@ class SociedadOcupacionPorVivienda extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Promedio de ocupantes por vivienda.</p>
+<p>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
