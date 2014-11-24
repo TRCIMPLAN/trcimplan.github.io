@@ -180,6 +180,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
       <li><a href="../indicadores-torreon/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
       <li><a href="../indicadores-torreon/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
+      <li><a href="../indicadores-torreon/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" target="_blank">Porcentaje de Viviendas con energía eléctrica</a></li>
       <li><a href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html" target="_blank">Promedio de Descendencia por Varón</a></li>
       <li><a href="../indicadores-torreon/sociedad-promedio-de-ocupantes-por-vivienda.html" target="_blank">Promedio de Ocupantes por Vivienda</a></li>
       <li><a href="../indicadores-torreon/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
@@ -329,6 +330,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" target="_blank">Porcentaje de Viviendas con energía eléctrica</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-promedio-de-ocupantes-por-vivienda.html" target="_blank">Promedio de Ocupantes por Vivienda</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
@@ -475,6 +477,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
       <li><a href="../indicadores-lerdo/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
       <li><a href="../indicadores-lerdo/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" target="_blank">Porcentaje de Viviendas con energía eléctrica</a></li>
       <li><a href="../indicadores-lerdo/sociedad-promedio-de-ocupantes-por-vivienda.html" target="_blank">Promedio de Ocupantes por Vivienda</a></li>
       <li><a href="../indicadores-lerdo/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-lerdo/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
@@ -622,6 +625,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
       <li><a href="../indicadores-matamoros/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
       <li><a href="../indicadores-matamoros/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" target="_blank">Porcentaje de Viviendas con energía eléctrica</a></li>
       <li><a href="../indicadores-matamoros/sociedad-promedio-de-ocupantes-por-vivienda.html" target="_blank">Promedio de Ocupantes por Vivienda</a></li>
       <li><a href="../indicadores-matamoros/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-matamoros/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
@@ -765,6 +769,7 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" target="_blank">Porcentaje de Viviendas con energía eléctrica</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-promedio-de-ocupantes-por-vivienda.html" target="_blank">Promedio de Ocupantes por Vivienda</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-universidades.html" target="_blank">Universidades</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html" target="_blank">Viviendas con Agua de la Red Pública</a></li>

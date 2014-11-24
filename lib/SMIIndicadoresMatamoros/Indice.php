@@ -473,6 +473,11 @@ class Indice extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Porcentaje de Viviendas con energía eléctrica</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 25/06/2010, INEGI. Censos de Población y Vivienda">99.16 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Promedio de Ocupantes por Vivienda</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 25/06/2010, INEGI. Censos de Población y Vivienda">4.1000</a></td>
   </tr>
