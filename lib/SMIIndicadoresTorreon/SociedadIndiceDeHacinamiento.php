@@ -101,6 +101,13 @@ class SociedadIndiceDeHacinamiento extends \Base\Publicacion {
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2010-06-25</td>
+            <td class="derecha">1.0600</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -113,7 +120,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0.8800 },{ region: 'Gómez Palacio', dato: 0.9700 },{ region: 'Lerdo', dato: 1.0500 },{ region: 'Matamoros', dato: 1.0900 }],
+      data: [{ region: 'Torreón', dato: 0.8800 },{ region: 'Gómez Palacio', dato: 0.9700 },{ region: 'Lerdo', dato: 1.0500 },{ region: 'Matamoros', dato: 1.0900 },{ region: 'La Laguna', dato: 1.0600 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

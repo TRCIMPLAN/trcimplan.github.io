@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace SMIIndicadoresLerdo;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadIndiceDeHacinamiento
@@ -17,12 +17,12 @@ class SociedadIndiceDeHacinamiento extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Índice de hacinamiento en Lerdo';
+        $this->nombre      = 'Índice de hacinamiento en La Laguna';
         $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-lerdo';
+        $this->directorio  = 'indicadores-la-laguna';
         $this->archivo     = 'sociedad-indice-de-hacinamiento';
         $this->descripcion = 'Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.';
-        $this->claves      = 'Lerdo, Bienestar, Vivienda';
+        $this->claves      = 'La Laguna, Bienestar, Vivienda';
         $this->categorias  = array('Bienestar', 'Vivienda');
         $this->contenido   = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
@@ -47,7 +47,7 @@ class SociedadIndiceDeHacinamiento extends \Base\Publicacion {
         <tbody>
           <tr>
             <td class="centrado">25/06/2010</td>
-            <td class="derecha">1.0500</td>
+            <td class="derecha">1.0600</td>
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
