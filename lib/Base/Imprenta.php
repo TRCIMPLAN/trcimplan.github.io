@@ -25,12 +25,13 @@ namespace Base;
 /**
  * Clase Imprenta
  */
-class Imprenta {
+class Imprenta extends \Configuracion\ImprentaConfig {
 
+    // public $base_dir;
     public $plantilla;               // Instancia de Plantilla
-    public $mensajes      = array(); // Arreglo con mensajes para la terminal
     public $publicaciones = array(); // Arreglo con instancias de Publicacion
     public $plantillas    = array(); // Arreglo con instancias de Plantillas
+    public $mensajes      = array(); // Arreglo con mensajes para la terminal
 
     /**
      * Eliminar un directorio y todos sus archivos
@@ -122,18 +123,18 @@ class Imprenta {
             throw new ImprentaExceptionValidacion('Error en Imprenta, recolectar_clases: Parámetro incorrecto.');
         }
         // Directorio de donde tomar los archivos
-        $directorio = "lib/$dir";
+        $directorio = "{$this->base_dir}/$dir";
         // Si no existe
         if (!is_dir($directorio)) {
-            throw new ImprentaExceptionValidacion("  No existe el directorio $directorio.");
+            throw new ImprentaExceptionValidacion("Error en Imprenta, recolectar_clases: No existe el directorio $directorio.");
         }
         // Obtener el listado con los archivos PHP
         $archivos = glob("$directorio/*.php");
         if ($archivos === false) {
-            throw new ImprentaExceptionFallo("  Falló la obtención de archivos PHP en el directorio $directorio.");
+            throw new ImprentaExceptionFallo("Error en Imprenta, recolectar_clases: Falló la obtención de archivos PHP en el directorio $directorio.");
         }
         if (count($archivos) == 0) {
-            throw new ImprentaExceptionVacio("  No hay archivos PHP en el directorio $directorio.");
+            throw new ImprentaExceptionVacio("Error en Imprenta, recolectar_clases: No hay archivos PHP en el directorio $directorio.");
         }
         // Bucle en los archivos encontrados
         $a = array();
@@ -178,7 +179,7 @@ class Imprenta {
         // Al ordenar de forma ascendente por la clave, queda del más nuevo al más viejo
         ksort($this->publicaciones);
         // Entregar
-        return $instancias;
+        return $this->publicaciones;
     } // agregar_directorio
 
     /**

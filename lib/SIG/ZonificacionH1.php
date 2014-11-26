@@ -34,7 +34,7 @@ class ZonificacionH1 extends \Base\Publicacion {
         // Título, autor y fecha con el formato AAAA-MM-DD
         $this->nombre           = 'Zonificación H1';
      // $this->autor            = 'Autor';
-     // $this->fecha            = '2014-09-05';
+        $this->fecha            = '2014-11-18';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'zonificacion-h1';
      // $this->imagen_previa    = 'zonificacion-h1/imagen-previa.jpg';
