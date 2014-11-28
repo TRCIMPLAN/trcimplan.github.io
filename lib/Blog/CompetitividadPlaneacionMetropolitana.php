@@ -40,7 +40,7 @@ class CompetitividadPlaneacionMetropolitana extends \Base\Publicacion {
         $this->descripcion   = 'El Instituto Mexicano para la Competitividad dio a conocer el Índice de Competitividad Urbana 2014; en él muestra que la Zona Metropolitana de la Laguna (ZML) continúa en un nivel de competitividad media baja.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'competitividad-planeacion-metropolitana/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Competitividad', 'Recursos Naturales', 'Cultura', 'Bienestar');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="competitividad-planeacion-metropolitana/imagen.jpg"></span>

@@ -42,7 +42,7 @@ class PoligonosActuacionDesarrolloUrbanoIntegral extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion   = 'El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.';
         $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Infraestructura', 'Recursos Naturales', 'Vivienda', 'Gobierno');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio    = 'blog';
         $this->nombre_menu   = 'Análisis Publicados';

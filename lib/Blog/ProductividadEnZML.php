@@ -40,7 +40,7 @@ class ProductividadEnZML extends \Base\Publicacion {
         $this->descripcion   = 'Análisis de la productividad laboral, industria manufacturera y eficiencia del trabajo en la Zona Metropolitana de la Laguna.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'productividad-zml/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Macroeconomía', 'Empresas', 'Empleo', 'Mercados');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="productividad-zml/imagen.jpg"></span>

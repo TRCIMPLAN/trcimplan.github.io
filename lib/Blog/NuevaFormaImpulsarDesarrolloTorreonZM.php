@@ -43,7 +43,7 @@ class NuevaFormaImpulsarDesarrolloTorreonZM extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'El presente artículo pretende caracterizar a los Proyectos Estratégicos bajo un enfoque sustentable y comunicar que el IMPLAN Torreón promueve el impulso del desarrollo integral de la Laguna, mediante la integración de una Cartera de Proyectos Estratégicos.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Blog');
+        $this->categorias       = array('Plan Estratégico Metropolitano', 'Proyectos');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

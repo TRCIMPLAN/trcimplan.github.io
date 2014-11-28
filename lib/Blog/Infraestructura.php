@@ -40,7 +40,7 @@ class Infraestructura extends \Base\Publicacion {
         $this->descripcion   = 'Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'infraestructura/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Infraestructura', 'Vialidad', 'Movilidad');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="infraestructura/imagen.jpg"></span>

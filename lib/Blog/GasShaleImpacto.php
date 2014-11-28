@@ -40,7 +40,7 @@ class GasShaleImpacto extends \Base\Publicacion {
         $this->descripcion   = 'La extracción del gas shale se contempla en el futuro cercano de México, pues además de contar con una de las reservas más grandes del mundo, ha contribuido positivamente en la economía de los países que lo utilizan.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'gas-shale-impacto/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Innovación', 'Recursos Naturales', 'Empresas');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="gas-shale-impacto/imagen.jpg"></span>

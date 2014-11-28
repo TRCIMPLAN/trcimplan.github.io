@@ -40,7 +40,7 @@ class EquidadGeneroInformatica extends \Base\Publicacion {
         $this->descripcion   = 'Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'equidad-genero-informatica/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Género', 'Educación', 'Empleo', 'Innovación');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="equidad-genero-informatica/imagen.jpg"></span>

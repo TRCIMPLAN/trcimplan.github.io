@@ -42,7 +42,7 @@ class ImportanciaSueloCiudades extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion   = 'En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.';
         $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Infraestructura', 'Vivienda', 'Recursos Naturales');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio    = 'blog';
         $this->nombre_menu   = 'Análisis Publicados';

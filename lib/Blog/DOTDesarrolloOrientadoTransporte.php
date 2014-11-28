@@ -43,7 +43,7 @@ class DOTDesarrolloOrientadoTransporte extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'En las últimas décadas, han surgido nuevos modelos urbanos que retoman el componente humano como eje principal de la planeación, buscando el equilibrio entre una ciudad altamente competitiva pero con servicios e infraestructura orientada al confort y las necesidades del ser humano.';
         $this->claves           = 'IMPLAN, Torreon, Trasporte';
-        $this->categorias       = array('Blog', 'Transporte');
+        $this->categorias       = array('Transporte', 'Infraestructura', 'Vialidad');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

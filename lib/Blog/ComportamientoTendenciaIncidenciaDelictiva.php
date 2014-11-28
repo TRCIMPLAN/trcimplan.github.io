@@ -42,7 +42,7 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion   = 'Mostramos las tendencias de los delitos más recurrentes en la ciudad de Torreón; con datos del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.';
         $this->claves        = 'IMPLAN, Torreon, Delitos, Homicidios, Patrimoniales, Robos, Casa habitación, Vehículos, Negocio, Tendencias';
-        $this->categorias    = array('Blog', 'Seguridad');
+        $this->categorias    = array('Seguridad');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio    = 'blog';
         $this->nombre_menu   = 'Análisis Publicados';

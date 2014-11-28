@@ -43,7 +43,7 @@ class IndustriaMetalmecanicaLaLaguna extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Blog');
+        $this->categorias       = array('Empresas', 'Empleo');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

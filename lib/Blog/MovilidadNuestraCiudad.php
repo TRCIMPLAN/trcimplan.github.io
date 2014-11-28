@@ -43,7 +43,7 @@ class MovilidadNuestraCiudad extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'De 1970 a la fecha la expansión de la mancha urbana en la ciudad de Torreón ha crecido siete veces mientras que la población únicamente tres.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Blog', 'Movilidad');
+        $this->categorias       = array('Movilidad', 'Transporte', 'Infraestructura');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

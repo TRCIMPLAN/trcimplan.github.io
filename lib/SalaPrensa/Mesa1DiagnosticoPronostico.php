@@ -32,7 +32,7 @@ class Mesa1DiagnosticoPronostico extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre        = 'Plan Estratégico Metropolitano | Mesa 1: Diagnóstico - Pronóstico';
+        $this->nombre        = 'Plan Estratégico Metropolitano, Mesa 1: Diagnóstico - Pronóstico';
      // $this->autor         = 'Autor';
         $this->fecha         = '2014-10-16';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.

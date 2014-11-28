@@ -40,7 +40,7 @@ class MercadoFactoresEficientes extends \Base\Publicacion {
         $this->descripcion   = 'Análisis del mercado, las huelgas, el salario promedio mensual, productividad y demandas laborales en la Zona Metropolitana de la Laguna.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'mercado-factores-eficientes/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Macroeconomía', 'Empleo', 'Empresas');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="mercado-factores-eficientes/imagen.jpg"></span>

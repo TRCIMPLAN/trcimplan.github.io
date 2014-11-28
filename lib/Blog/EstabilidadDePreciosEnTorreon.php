@@ -40,7 +40,7 @@ class EstabilidadDePreciosEnTorreon extends \Base\Publicacion {
         $this->descripcion   = 'En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'estabilidad-de-precios-en-torreon/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Macroeconomía', 'Mercados');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="estabilidad-de-precios-en-torreon/imagen.jpg"></span>
@@ -112,11 +112,11 @@ class EstabilidadDePreciosEnTorreon extends \Base\Publicacion {
 
 <h3>¿Cuáles productos y servicios han aumentado sus precios en Torreón?</h3>
 
-<p>Según datos de INEGI aunque los precios en el municipio tienden a subir en el largo plazo, ciertos   productos y servicios han disminuido en los últimos dos años. En la gráfica inferior se observan los cambios porcentuales de algunos productos y servicios en el periodo señalado: </p>
+<p>Según datos de INEGI aunque los precios en el municipio tienden a subir en el largo plazo, ciertos  productos y servicios han disminuido en los últimos dos años. En la gráfica inferior se observan los cambios porcentuales de algunos productos y servicios en el periodo señalado: </p>
 
 <p><img class="img-responsive contenido-imagen" src="estabilidad-de-precios-en-torreon/cambios-en-los-precios-por-objeto-del-gasto.png" alt="Cambios en los Precios"></p>
 
-<p>Como  se muestra en el cuadro las tasas inflacionarias fueron considerablemente menores a las del año pasado, a excepción de las tasas de electricidad y combustibles en donde los precios se dispararon 85.14% después de haber disminuido 1.28%. </p>
+<p>Como se muestra en el cuadro las tasas inflacionarias fueron considerablemente menores a las del año pasado, a excepción de las tasas de electricidad y combustibles en donde los precios se dispararon 85.14% después de haber disminuido 1.28%. </p>
 
 <p>Podemos concluir que la inflación de Torreón no está dañando el poder adquisitivo de los consumidores. En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.</p>
 FINAL;

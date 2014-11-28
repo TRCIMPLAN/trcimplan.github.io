@@ -40,7 +40,7 @@ class EquidadEconomicaTorreon extends \Base\Publicacion {
         $this->descripcion   = 'Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'equidad-economica-torreon/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Macroeconomía', 'Grupos Vulnerables', 'Población');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="equidad-economica-torreon/imagen.jpg"></span>

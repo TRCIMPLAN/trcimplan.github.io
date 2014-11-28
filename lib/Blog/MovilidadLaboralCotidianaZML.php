@@ -40,7 +40,7 @@ class MovilidadLaboralCotidianaZML extends \Base\Publicacion {
         $this->descripcion   = 'Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'movilidad-laboral-cotidiana-zml/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Movilidad', 'Infraestructura', 'Vialidad', 'Empleo');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <p>En una zona metropolitana en donde los límites municipales son divisiones imaginarias, en términos prácticos, para las necesidades de la población el traslado de una ciudad a otra es una realidad.</p>

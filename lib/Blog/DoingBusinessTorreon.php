@@ -40,7 +40,7 @@ class DoingBusinessTorreon extends \Base\Publicacion {
         $this->descripcion   = 'Este índice sirve para señalar en cual ciudad es más fácil hacer negaocios. En 2007, el municipio de Torreón ocupó el lugar 13 de 32 ciudades evaluadas.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'doing-business-torreon/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Competitividad', 'Empresas', 'Macroeconomía', 'Doing Business');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="doing-business-torreon/imagen.jpg"></span>

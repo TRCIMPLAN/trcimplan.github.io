@@ -42,7 +42,7 @@ class DinamicaPIBPerCapitaLaguna extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion   = 'Entre los indicadores Banamex de 2011 y 2014 el PIB per cápita de La Laguna creció 22.82%.';
         $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Empresas', 'Macroeconomía');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio    = 'blog';
         $this->nombre_menu   = 'Análisis Publicados';

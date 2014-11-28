@@ -37,7 +37,7 @@ class UnaCiudadConFuturo extends \Base\Publicacion {
         $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
         $this->archivo       = 'una-ciudad-con-futuro';
-        $this->descripcion   = 'Fundada en el año de 1850 como el Rancho del Carrizal, en el extremo norte de la República Mexicana, la ciudad de Torreón, Coahuila, celebró su elevación de rango -de villa a ciudad— un 15 de septiembre de 1907..';
+        $this->descripcion   = 'Fundada en el año de 1850 como el Rancho del Carrizal, en el extremo norte de la República Mexicana, la ciudad de Torreón, Coahuila, celebró su elevación de rango -de villa a ciudad- un 15 de septiembre de 1907.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'una-ciudad-con-futuro/imagen-previa.jpg';
         $this->categorias    = array('Blog');

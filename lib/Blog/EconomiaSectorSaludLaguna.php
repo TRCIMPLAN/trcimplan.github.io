@@ -42,7 +42,7 @@ class EconomiaSectorSaludLaguna extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion   = 'El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.';
         $this->claves        = 'IMPLAN, Torreon, Salud';
-        $this->categorias    = array('Blog', 'Salud');
+        $this->categorias    = array('Salud', 'Empleo', 'Empresas');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio    = 'blog';
         $this->nombre_menu   = 'Análisis Publicados';

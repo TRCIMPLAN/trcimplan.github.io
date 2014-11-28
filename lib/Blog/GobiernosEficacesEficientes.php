@@ -40,7 +40,7 @@ class GobiernosEficacesEficientes extends \Base\Publicacion {
         $this->descripcion   = 'La eficiencia de los gobiernos es el subíndice peor evaluado para la metrópoli ubicándonos en el lugar 63 de 77.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'gobiernos-eficaces-eficientes/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Gobierno', 'Doing Business', 'Competitividad');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="gobiernos-eficaces-eficientes/imagen.jpg"></span>

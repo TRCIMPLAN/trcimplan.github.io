@@ -40,7 +40,7 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
         $this->descripcion   = 'La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'contribucion-tic-competitividad-productividad/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Competitividad', 'Innovación', 'Empleo');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="contribucion-tic-competitividad-productividad/imagen.jpg"></span>

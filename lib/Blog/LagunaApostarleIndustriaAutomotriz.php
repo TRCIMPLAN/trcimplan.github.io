@@ -40,7 +40,7 @@ class LagunaApostarleIndustriaAutomotriz extends \Base\Publicacion {
         $this->descripcion   = 'En industria automotriz hay mayor inversión en la investigación y desarrollo que origina una derrama de capacidades tecnológicas con aplicación en otros sectores como el eléctrico, electrónico y aeroespacial.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'laguna-apostarle-industria-automotriz/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Empleo', 'Empresas');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="laguna-apostarle-industria-automotriz/imagen.jpg"></span>

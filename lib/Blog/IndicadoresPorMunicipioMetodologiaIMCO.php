@@ -40,7 +40,7 @@ class IndicadoresPorMunicipioMetodologiaIMCO extends \Base\Publicacion {
         $this->descripcion   = 'Índice de Competitividad Urbana de la Zona Metropolitana de la Laguna, Torreón, Gómez Palacio, Lerdo y Matamoros en 2012.';
         $this->claves        = 'IMPLAN, Torreon, La Laguna, Gómez Palacio, Lerdo, Matamoros';
         $this->imagen_previa = 'indicadores-por-municipio-metodologia-imco/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Competitividad', 'Empleo');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="indicadores-por-municipio-metodologia-imco/imagen.jpg"></span>

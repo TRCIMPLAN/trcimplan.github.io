@@ -40,7 +40,7 @@ class QueVuelvaLaRegionDeLosGrandesEsfuerzos extends \Base\Publicacion {
         $this->descripcion   = 'La Calificadora Internacional Moodys elevó por primera vez la nota soberana de México a la categoría A3 gracias a las reformas estructurales.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'que-vuelva-la-region-de-los-grandes-esfuerzos/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Competitividad');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="que-vuelva-la-region-de-los-grandes-esfuerzos/imagen.jpg"></span>

@@ -40,7 +40,7 @@ class LaLagunaMetropoliDelConocimiento extends \Base\Publicacion {
         $this->descripcion   = 'Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'la-laguna-metropoli-del-conocimiento/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Macroeconomía', 'Innovación');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="la-laguna-metropoli-del-conocimiento/imagen.jpg"></span>

@@ -40,7 +40,7 @@ class EconomiaEstable extends \Base\Publicacion {
         $this->descripcion   = 'Análisis de las variables macroeconómicas como crédito, mercado hipotecario, cartera vencida, PIB y desempleo.';
         $this->claves        = 'IMPLAN, Torreon, Economía';
         $this->imagen_previa = 'economia-estable/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Macroeconomía', 'Empleo', 'Empresas');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="economia-estable/imagen.jpg"></span>
