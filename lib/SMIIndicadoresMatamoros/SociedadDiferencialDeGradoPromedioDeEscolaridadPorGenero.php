@@ -17,14 +17,15 @@ class SociedadDiferencialDeGradoPromedioDeEscolaridadPorGenero extends \Base\Pub
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Diferencial de Grado Promedio de Escolaridad por Género en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero';
-        $this->descripcion = 'Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.';
-        $this->claves      = 'Matamoros, Género, Educación';
-        $this->categorias  = array('Género', 'Educación');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Diferencial de Grado Promedio de Escolaridad por Género en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero';
+        $this->descripcion  = 'Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.';
+        $this->claves       = 'Matamoros, Género, Educación';
+        $this->categorias   = array('Género', 'Educación');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -106,7 +107,7 @@ class SociedadDiferencialDeGradoPromedioDeEscolaridadPorGenero extends \Base\Pub
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

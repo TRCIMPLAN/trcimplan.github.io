@@ -17,14 +17,15 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'índice de Información Presupuestal en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'gobierno-indice-de-informacion-presupuestal';
-        $this->descripcion = 'Cumplimiento sobre total de criterios';
-        $this->claves      = 'Gómez Palacio, Transparencia';
-        $this->categorias  = array('Transparencia');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'índice de Información Presupuestal en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'gobierno-indice-de-informacion-presupuestal';
+        $this->descripcion  = 'Cumplimiento sobre total de criterios';
+        $this->claves       = 'Gómez Palacio, Transparencia';
+        $this->categorias   = array('Transparencia');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -110,7 +111,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

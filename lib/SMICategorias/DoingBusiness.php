@@ -1,6 +1,6 @@
 <?php
 /**
- * DoingBussines.php
+ * DoingBusiness.php
  *
  * IMPLAN Torreón
  */
@@ -9,22 +9,22 @@
 namespace SMICategorias;
 
 /**
- * Clase DoingBussines
+ * Clase DoingBusiness
  */
-class DoingBussines extends \Base\Publicacion {
+class DoingBusiness extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Doing Bussines';
+        $this->nombre        = 'Doing Business';
         $this->nombre_menu   = 'Indicadores > Indicadores por Categoría';
         $this->directorio    = 'indicadores-categorias';
-        $this->archivo       = 'doing-bussines';
-        $this->descripcion   = 'Matriz de indicadores en la categoría Doing Bussines';
+        $this->archivo       = 'doing-business';
+        $this->descripcion   = 'Matriz de indicadores en la categoría Doing Business';
         $this->imagen_previa = '';
-        $this->icono         = 'fa fa-check-circle-o';
-        $this->claves        = 'IMPLAN, Indicadores, Doing Bussines';
+        $this->icono         = '';
+        $this->claves        = 'IMPLAN, Indicadores, Doing Business';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL
 <table class="table table-hover table-bordered matriz">
@@ -58,6 +58,6 @@ FINAL;
 FINAL;
     } // constructor
 
-} // Clase DoingBussines
+} // Clase DoingBusiness
 
 ?>

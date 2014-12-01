@@ -32,7 +32,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     // public $aparece_en_pagina_inicial; // Verdadero si va aparecer en la página de inicio
     // public $para_compartir;            // Si es verdadero pondrá los botones para compartir en Twitter/Facebook
     // public $imagen_previa;             // Ruta relativa a un archivo de imagen para la vista previa
-    // public $icono                      // Nombre del icono Font Awsome
+    // public $icono;                     // Nombre del icono Font Awsome
+    // public $region_nivel;              // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región
     // public $estado                     // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
     public $nombre;                       // Título completo
     public $nombre_menu;                  // Un título corto. Debe coincidir con la etiqueta usada en Navegacion

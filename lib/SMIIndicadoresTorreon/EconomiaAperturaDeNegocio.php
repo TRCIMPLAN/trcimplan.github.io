@@ -17,14 +17,15 @@ class EconomiaAperturaDeNegocio extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Apertura de Negocio en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'economia-apertura-de-negocio';
-        $this->descripcion = 'Número de días necesarios para el trámite de apertura de un negocio.';
-        $this->claves      = 'Torreón, Empresas, Doing Bussines';
-        $this->categorias  = array('Empresas', 'Doing Bussines');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Apertura de Negocio en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'economia-apertura-de-negocio';
+        $this->descripcion  = 'Número de días necesarios para el trámite de apertura de un negocio.';
+        $this->claves       = 'Torreón, Empresas, Doing Business';
+        $this->categorias   = array('Empresas', 'Doing Business');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
   </ul>
@@ -82,7 +83,7 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')

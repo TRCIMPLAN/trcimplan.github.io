@@ -17,14 +17,15 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Viviendas Ocupadas Temporalmente en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'sustentabilidad-viviendas-ocupadas-temporalmente';
-        $this->descripcion = 'Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.';
-        $this->claves      = 'Gómez Palacio, Vivienda, Movilidad';
-        $this->categorias  = array('Vivienda', 'Movilidad');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Viviendas Ocupadas Temporalmente en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'sustentabilidad-viviendas-ocupadas-temporalmente';
+        $this->descripcion  = 'Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.';
+        $this->claves       = 'Gómez Palacio, Vivienda, Movilidad';
+        $this->categorias   = array('Vivienda', 'Movilidad');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -110,7 +111,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

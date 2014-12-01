@@ -17,14 +17,15 @@ class SociedadDiscapacidad extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Discapacidad en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'sociedad-discapacidad';
-        $this->descripcion = 'Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)';
-        $this->claves      = 'Torreón, Grupos Vulnerables';
-        $this->categorias  = array('Grupos Vulnerables');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Discapacidad en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'sociedad-discapacidad';
+        $this->descripcion  = 'Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)';
+        $this->claves       = 'Torreón, Grupos Vulnerables';
+        $this->categorias   = array('Grupos Vulnerables');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
   </ul>
@@ -59,7 +60,7 @@ class SociedadDiscapacidad extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')

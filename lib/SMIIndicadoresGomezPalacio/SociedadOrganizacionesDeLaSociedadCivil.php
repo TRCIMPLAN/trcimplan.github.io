@@ -17,14 +17,15 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Organizaciones de la Sociedad Civil en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'sociedad-organizaciones-de-la-sociedad-civil';
-        $this->descripcion = 'Organizaciones de la sociedad civil por cada cien mil habitantes.';
-        $this->claves      = 'Gómez Palacio, Participación Ciudadana, Gobierno';
-        $this->categorias  = array('Participación Ciudadana', 'Gobierno');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Organizaciones de la Sociedad Civil en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'sociedad-organizaciones-de-la-sociedad-civil';
+        $this->descripcion  = 'Organizaciones de la sociedad civil por cada cien mil habitantes.';
+        $this->claves       = 'Gómez Palacio, Participación Ciudadana, Gobierno';
+        $this->categorias   = array('Participación Ciudadana', 'Gobierno');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -110,7 +111,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

@@ -17,14 +17,15 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \Base\Publicacio
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Personal Ocupado en la Industria Manufacturera en Lerdo';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-lerdo';
-        $this->archivo     = 'economia-personal-ocupado-en-la-industria-manufacturera';
-        $this->descripcion = 'Personal ocupado en la Industria manufacturera entre el personal ocupado total.';
-        $this->claves      = 'Lerdo, Empleo, Mercados';
-        $this->categorias  = array('Empleo', 'Mercados');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Personal Ocupado en la Industria Manufacturera en Lerdo';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-lerdo';
+        $this->archivo      = 'economia-personal-ocupado-en-la-industria-manufacturera';
+        $this->descripcion  = 'Personal ocupado en la Industria manufacturera entre el personal ocupado total.';
+        $this->claves       = 'Lerdo, Empleo, Mercados';
+        $this->categorias   = array('Empleo', 'Mercados');
+        $this->region_nivel = 121;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -137,7 +138,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \Base\Publicacio
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

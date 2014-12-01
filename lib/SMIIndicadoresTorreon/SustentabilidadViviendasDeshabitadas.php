@@ -17,14 +17,15 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Viviendas Deshabitadas en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'sustentabilidad-viviendas-deshabitadas';
-        $this->descripcion = 'Viviendas deshabitadas con respecto al total de viviendas totales.';
-        $this->claves      = 'Torreón, Vivienda';
-        $this->categorias  = array('Vivienda');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Viviendas Deshabitadas en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'sustentabilidad-viviendas-deshabitadas';
+        $this->descripcion  = 'Viviendas deshabitadas con respecto al total de viviendas totales.';
+        $this->claves       = 'Torreón, Vivienda';
+        $this->categorias   = array('Vivienda');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-mapa" data-toggle="tab">Georreferenciado</a></li>
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
@@ -120,7 +121,7 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

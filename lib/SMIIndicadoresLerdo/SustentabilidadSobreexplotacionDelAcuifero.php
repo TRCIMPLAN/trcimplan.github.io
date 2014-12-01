@@ -17,14 +17,15 @@ class SustentabilidadSobreexplotacionDelAcuifero extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Sobreexplotación del Acuífero en Lerdo';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-lerdo';
-        $this->archivo     = 'sustentabilidad-sobreexplotacion-del-acuifero';
-        $this->descripcion = '';
-        $this->claves      = 'Lerdo, Recursos Naturales';
-        $this->categorias  = array('Recursos Naturales');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Sobreexplotación del Acuífero en Lerdo';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-lerdo';
+        $this->archivo      = 'sustentabilidad-sobreexplotacion-del-acuifero';
+        $this->descripcion  = '';
+        $this->claves       = 'Lerdo, Recursos Naturales';
+        $this->categorias   = array('Recursos Naturales');
+        $this->region_nivel = 121;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -110,7 +111,7 @@ class SustentabilidadSobreexplotacionDelAcuifero extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

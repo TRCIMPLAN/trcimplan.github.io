@@ -17,14 +17,15 @@ class SociedadAdultosMayores extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Adultos Mayores en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'sociedad-adultos-mayores';
-        $this->descripcion = 'Población estimada a mediados de año de personas de 65 años y más';
-        $this->claves      = 'Matamoros, Grupos Vulnerables';
-        $this->categorias  = array('Grupos Vulnerables');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Adultos Mayores en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'sociedad-adultos-mayores';
+        $this->descripcion  = 'Población estimada a mediados de año de personas de 65 años y más';
+        $this->claves       = 'Matamoros, Grupos Vulnerables';
+        $this->categorias   = array('Grupos Vulnerables');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -190,7 +191,7 @@ class SociedadAdultosMayores extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

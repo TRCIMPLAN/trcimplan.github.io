@@ -33,6 +33,7 @@ class PublicacionConfig {
     public $para_compartir            = true;         // Si es verdadero pondrá los botones para compartir en Twitter/Facebook
     public $imagen_previa             = '';           // Ruta relativa a un archivo de imagen para la vista previa
     public $icono                     = '';           // Nombre del icono Font Awsome
+    public $region_nivel              = 0;            // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región
     public $estado                    = 'publicar';   // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
 
 } // Clase PublicacionConfig

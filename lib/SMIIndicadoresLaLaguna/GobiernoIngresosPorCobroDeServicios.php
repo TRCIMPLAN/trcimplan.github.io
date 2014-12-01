@@ -17,14 +17,15 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Ingresos por Cobro de Servicios en La Laguna';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-la-laguna';
-        $this->archivo     = 'gobierno-ingresos-por-cobro-de-servicios';
-        $this->descripcion = 'Ingresos recaudados por el municipio por cobro de servicios';
-        $this->claves      = 'La Laguna, Finanzas Públicas';
-        $this->categorias  = array('Finanzas Públicas');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Ingresos por Cobro de Servicios en La Laguna';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-la-laguna';
+        $this->archivo      = 'gobierno-ingresos-por-cobro-de-servicios';
+        $this->descripcion  = 'Ingresos recaudados por el municipio por cobro de servicios';
+        $this->claves       = 'La Laguna, Finanzas Públicas';
+        $this->categorias   = array('Finanzas Públicas');
+        $this->region_nivel = 401;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -145,7 +146,7 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

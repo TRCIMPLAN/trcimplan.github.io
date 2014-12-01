@@ -17,14 +17,15 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Robos a Casa Habitación en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'seguridad-robos-a-casa-habitacion';
-        $this->descripcion = 'Robos totales por mes a casa habitación.';
-        $this->claves      = 'Gómez Palacio';
-        $this->categorias  = array();
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Robos a Casa Habitación en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'seguridad-robos-a-casa-habitacion';
+        $this->descripcion  = 'Robos totales por mes a casa habitación.';
+        $this->claves       = 'Gómez Palacio';
+        $this->categorias   = array();
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -163,7 +164,7 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

@@ -17,14 +17,15 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Alumbrado Público en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'sustentabilidad-alumbrado-publico';
-        $this->descripcion = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
-        $this->claves      = 'Torreón, Servicios Públicos';
-        $this->categorias  = array('Servicios Públicos');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Alumbrado Público en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'sustentabilidad-alumbrado-publico';
+        $this->descripcion  = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
+        $this->claves       = 'Torreón, Servicios Públicos';
+        $this->categorias   = array('Servicios Públicos');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -113,7 +114,7 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

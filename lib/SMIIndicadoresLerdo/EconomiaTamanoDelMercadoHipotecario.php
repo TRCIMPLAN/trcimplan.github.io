@@ -17,14 +17,15 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Tamaño del Mercado Hipotecario en Lerdo';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-lerdo';
-        $this->archivo     = 'economia-tamano-del-mercado-hipotecario';
-        $this->descripcion = 'Créditos dispuestos marginalmente durante el año indicado.';
-        $this->claves      = 'Lerdo, Mercados';
-        $this->categorias  = array('Mercados');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Tamaño del Mercado Hipotecario en Lerdo';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-lerdo';
+        $this->archivo      = 'economia-tamano-del-mercado-hipotecario';
+        $this->descripcion  = 'Créditos dispuestos marginalmente durante el año indicado.';
+        $this->claves       = 'Lerdo, Mercados';
+        $this->categorias   = array('Mercados');
+        $this->region_nivel = 121;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -144,7 +145,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

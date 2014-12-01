@@ -17,14 +17,15 @@ class SustentabilidadDisponibilidadDeBanqueta extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Disponibilidad de Banqueta en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'sustentabilidad-disponibilidad-de-banqueta';
-        $this->descripcion = 'Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.';
-        $this->claves      = 'Gómez Palacio, Movilidad, Vialidad';
-        $this->categorias  = array('Movilidad', 'Vialidad');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Disponibilidad de Banqueta en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'sustentabilidad-disponibilidad-de-banqueta';
+        $this->descripcion  = 'Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.';
+        $this->claves       = 'Gómez Palacio, Movilidad, Vialidad';
+        $this->categorias   = array('Movilidad', 'Vialidad');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -134,7 +135,7 @@ class SustentabilidadDisponibilidadDeBanqueta extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

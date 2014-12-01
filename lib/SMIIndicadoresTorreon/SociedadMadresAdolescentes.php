@@ -17,14 +17,15 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Madres Adolescentes en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'sociedad-madres-adolescentes';
-        $this->descripcion = 'Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad';
-        $this->claves      = 'Torreón, Grupos Vulnerables, Género';
-        $this->categorias  = array('Grupos Vulnerables', 'Género');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Madres Adolescentes en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'sociedad-madres-adolescentes';
+        $this->descripcion  = 'Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad';
+        $this->claves       = 'Torreón, Grupos Vulnerables, Género';
+        $this->categorias   = array('Grupos Vulnerables', 'Género');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -94,7 +95,7 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

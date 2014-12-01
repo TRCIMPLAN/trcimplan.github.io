@@ -17,14 +17,15 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Mortalidad por Diabetes en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'sociedad-mortalidad-por-diabetes';
-        $this->descripcion = 'Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.';
-        $this->claves      = 'Gómez Palacio, Salud';
-        $this->categorias  = array('Salud');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Mortalidad por Diabetes en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'sociedad-mortalidad-por-diabetes';
+        $this->descripcion  = 'Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.';
+        $this->claves       = 'Gómez Palacio, Salud';
+        $this->categorias   = array('Salud');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -208,7 +209,7 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

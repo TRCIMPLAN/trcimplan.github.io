@@ -17,14 +17,15 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Capacidad Financiera en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'gobierno-capacidad-financiera';
-        $this->descripcion = 'Ingresos propios entre gastos corrientes.';
-        $this->claves      = 'Matamoros, Finanzas Públicas';
-        $this->categorias  = array('Finanzas Públicas');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Capacidad Financiera en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'gobierno-capacidad-financiera';
+        $this->descripcion  = 'Ingresos propios entre gastos corrientes.';
+        $this->claves       = 'Matamoros, Finanzas Públicas';
+        $this->categorias   = array('Finanzas Públicas');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -166,7 +167,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

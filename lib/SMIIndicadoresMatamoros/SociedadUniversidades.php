@@ -17,14 +17,15 @@ class SociedadUniversidades extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Universidades en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'sociedad-universidades';
-        $this->descripcion = 'Planteles de Instituciones de Educación Superior.';
-        $this->claves      = 'Matamoros, Educación';
-        $this->categorias  = array('Educación');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Universidades en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'sociedad-universidades';
+        $this->descripcion  = 'Planteles de Instituciones de Educación Superior.';
+        $this->claves       = 'Matamoros, Educación';
+        $this->categorias   = array('Educación');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -147,7 +148,7 @@ class SociedadUniversidades extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

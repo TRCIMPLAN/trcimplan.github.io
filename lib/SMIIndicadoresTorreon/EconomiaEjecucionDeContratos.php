@@ -17,14 +17,15 @@ class EconomiaEjecucionDeContratos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Ejecución de Contratos en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'economia-ejecucion-de-contratos';
-        $this->descripcion = 'Días transcurridos para la ejecución de un contrato.';
-        $this->claves      = 'Torreón, Empresas';
-        $this->categorias  = array('Empresas');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Ejecución de Contratos en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'economia-ejecucion-de-contratos';
+        $this->descripcion  = 'Días transcurridos para la ejecución de un contrato.';
+        $this->claves       = 'Torreón, Empresas';
+        $this->categorias   = array('Empresas');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -85,7 +86,7 @@ Costo (% de cantidad demandada) = 27,9</td>
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

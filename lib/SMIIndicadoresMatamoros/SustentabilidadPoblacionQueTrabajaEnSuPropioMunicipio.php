@@ -17,14 +17,15 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \Base\Public
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Población que Trabaja en su PROPIO Municipio en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio';
-        $this->descripcion = 'Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.';
-        $this->claves      = 'Matamoros, Movilidad';
-        $this->categorias  = array('Movilidad');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Población que Trabaja en su PROPIO Municipio en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio';
+        $this->descripcion  = 'Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.';
+        $this->claves       = 'Matamoros, Movilidad';
+        $this->categorias   = array('Movilidad');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -113,7 +114,7 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \Base\Public
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

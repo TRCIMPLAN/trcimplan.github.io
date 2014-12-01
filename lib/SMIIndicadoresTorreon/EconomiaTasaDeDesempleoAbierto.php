@@ -17,14 +17,15 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Tasa de Desempleo Abierto en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'economia-tasa-de-desempleo-abierto';
-        $this->descripcion = 'Número total de desempleados entre la Población económicamente activa.';
-        $this->claves      = 'Torreón, Empleo';
-        $this->categorias  = array('Empleo');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Tasa de Desempleo Abierto en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'economia-tasa-de-desempleo-abierto';
+        $this->descripcion  = 'Número total de desempleados entre la Población económicamente activa.';
+        $this->claves       = 'Torreón, Empleo';
+        $this->categorias   = array('Empleo');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -305,7 +306,7 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

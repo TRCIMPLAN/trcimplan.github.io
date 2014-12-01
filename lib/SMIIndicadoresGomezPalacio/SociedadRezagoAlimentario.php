@@ -17,14 +17,15 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Rezago Alimentario en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'sociedad-rezago-alimentario';
-        $this->descripcion = 'Personas que presenten un grado de inseguridad alimentaria moderado o severo.';
-        $this->claves      = 'Gómez Palacio, Grupos Vulnerables, Bienestar';
-        $this->categorias  = array('Grupos Vulnerables', 'Bienestar');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Rezago Alimentario en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'sociedad-rezago-alimentario';
+        $this->descripcion  = 'Personas que presenten un grado de inseguridad alimentaria moderado o severo.';
+        $this->claves       = 'Gómez Palacio, Grupos Vulnerables, Bienestar';
+        $this->categorias   = array('Grupos Vulnerables', 'Bienestar');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -106,7 +107,7 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

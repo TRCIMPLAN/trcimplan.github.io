@@ -17,14 +17,15 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Competencia Electoral en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'gobierno-competencia-electoral';
-        $this->descripcion = 'Diferencia entre los dos candidatos con más votación entre el total de votos.';
-        $this->claves      = 'Gómez Palacio, Participación Ciudadana, Gobierno';
-        $this->categorias  = array('Participación Ciudadana', 'Gobierno');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Competencia Electoral en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'gobierno-competencia-electoral';
+        $this->descripcion  = 'Diferencia entre los dos candidatos con más votación entre el total de votos.';
+        $this->claves       = 'Gómez Palacio, Participación Ciudadana, Gobierno';
+        $this->categorias   = array('Participación Ciudadana', 'Gobierno');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -110,7 +111,7 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

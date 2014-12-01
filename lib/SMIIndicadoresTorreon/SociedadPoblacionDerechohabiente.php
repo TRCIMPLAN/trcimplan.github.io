@@ -17,14 +17,15 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Población Derechohabiente en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'sociedad-poblacion-derechohabiente';
-        $this->descripcion = 'Población derechohabiente a los servicios de salud.';
-        $this->claves      = 'Torreón, Salud';
-        $this->categorias  = array('Salud');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Población Derechohabiente en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'sociedad-poblacion-derechohabiente';
+        $this->descripcion  = 'Población derechohabiente a los servicios de salud.';
+        $this->claves       = 'Torreón, Salud';
+        $this->categorias   = array('Salud');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -113,7 +114,7 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

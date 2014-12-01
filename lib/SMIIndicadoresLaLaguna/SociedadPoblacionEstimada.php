@@ -17,14 +17,15 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Población Estimada en La Laguna';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-la-laguna';
-        $this->archivo     = 'sociedad-poblacion-estimada';
-        $this->descripcion = 'Población estimada a mitad de año.';
-        $this->claves      = 'La Laguna, Población';
-        $this->categorias  = array('Población');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Población Estimada en La Laguna';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-la-laguna';
+        $this->archivo      = 'sociedad-poblacion-estimada';
+        $this->descripcion  = 'Población estimada a mitad de año.';
+        $this->claves       = 'La Laguna, Población';
+        $this->categorias   = array('Población');
+        $this->region_nivel = 401;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -193,7 +194,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

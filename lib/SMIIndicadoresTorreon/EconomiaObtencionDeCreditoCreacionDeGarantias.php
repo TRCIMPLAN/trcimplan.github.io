@@ -17,14 +17,15 @@ class EconomiaObtencionDeCreditoCreacionDeGarantias extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Obtención de crédito - Creación de garantías en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'economia-obtencion-de-credito---creacion-de-garantias';
-        $this->descripcion = 'Días transcurridos en el proceso de obtención de un crédito.';
-        $this->claves      = 'Torreón, Empresas';
-        $this->categorias  = array('Empresas');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Obtención de crédito - Creación de garantías en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'economia-obtencion-de-credito---creacion-de-garantias';
+        $this->descripcion  = 'Días transcurridos en el proceso de obtención de un crédito.';
+        $this->claves       = 'Torreón, Empresas';
+        $this->categorias   = array('Empresas');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
   </ul>
@@ -59,7 +60,7 @@ class EconomiaObtencionDeCreditoCreacionDeGarantias extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')

@@ -17,14 +17,15 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Grandes Empresas en Lerdo';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-lerdo';
-        $this->archivo     = 'economia-grandes-empresas';
-        $this->descripcion = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
-        $this->claves      = 'Lerdo, Empresas';
-        $this->categorias  = array('Empresas');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Grandes Empresas en Lerdo';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-lerdo';
+        $this->archivo      = 'economia-grandes-empresas';
+        $this->descripcion  = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
+        $this->claves       = 'Lerdo, Empresas';
+        $this->categorias   = array('Empresas');
+        $this->region_nivel = 121;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -142,7 +143,7 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

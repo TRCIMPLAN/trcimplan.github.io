@@ -17,14 +17,15 @@ class SeguridadTasaDePoliciasPorHabitante extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Tasa de Policías por Habitante en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'seguridad-tasa-de-policias-por-habitante';
-        $this->descripcion = 'Cantidad de policías por cada mil habitantes.';
-        $this->claves      = 'Torreón, Seguridad';
-        $this->categorias  = array('Seguridad');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Tasa de Policías por Habitante en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'seguridad-tasa-de-policias-por-habitante';
+        $this->descripcion  = 'Cantidad de policías por cada mil habitantes.';
+        $this->claves       = 'Torreón, Seguridad';
+        $this->categorias   = array('Seguridad');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
   </ul>
@@ -56,7 +57,7 @@ class SeguridadTasaDePoliciasPorHabitante extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')

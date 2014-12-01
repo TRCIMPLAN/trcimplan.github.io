@@ -17,14 +17,15 @@ class SeguridadSentenciadosEnMateriaDeNarcoticosRegistradosEnElFueroFederal exte
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal';
-        $this->descripcion = '';
-        $this->claves      = 'Torreón, Delincuencia';
-        $this->categorias  = array('Delincuencia');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal';
+        $this->descripcion  = '';
+        $this->claves       = 'Torreón, Delincuencia';
+        $this->categorias   = array('Delincuencia');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -110,7 +111,7 @@ class SeguridadSentenciadosEnMateriaDeNarcoticosRegistradosEnElFueroFederal exte
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

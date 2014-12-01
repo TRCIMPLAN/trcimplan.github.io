@@ -17,14 +17,15 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Cartera Hipotecaria en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'economia-cartera-hipotecaria';
-        $this->descripcion = 'Monto total de créditos otorgados hasta la fecha indicada.';
-        $this->claves      = 'Torreón, Mercados';
-        $this->categorias  = array('Mercados');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Cartera Hipotecaria en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'economia-cartera-hipotecaria';
+        $this->descripcion  = 'Monto total de créditos otorgados hasta la fecha indicada.';
+        $this->claves       = 'Torreón, Mercados';
+        $this->categorias   = array('Mercados');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -144,7 +145,7 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

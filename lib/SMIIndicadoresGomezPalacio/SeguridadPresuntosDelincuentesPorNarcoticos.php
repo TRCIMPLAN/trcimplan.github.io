@@ -17,14 +17,15 @@ class SeguridadPresuntosDelincuentesPorNarcoticos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Presuntos Delincuentes por Narcóticos en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'seguridad-presuntos-delincuentes-por-narcoticos';
-        $this->descripcion = 'Presuntos delincuentes por delitos en materia de narcóticos registrados en los juzgados del fuero federal.';
-        $this->claves      = 'Gómez Palacio, Delincuencia';
-        $this->categorias  = array('Delincuencia');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Presuntos Delincuentes por Narcóticos en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'seguridad-presuntos-delincuentes-por-narcoticos';
+        $this->descripcion  = 'Presuntos delincuentes por delitos en materia de narcóticos registrados en los juzgados del fuero federal.';
+        $this->claves       = 'Gómez Palacio, Delincuencia';
+        $this->categorias   = array('Delincuencia');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -110,7 +111,7 @@ class SeguridadPresuntosDelincuentesPorNarcoticos extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

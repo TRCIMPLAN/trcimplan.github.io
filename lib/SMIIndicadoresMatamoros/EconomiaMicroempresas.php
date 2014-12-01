@@ -17,14 +17,15 @@ class EconomiaMicroempresas extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Microempresas en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'economia-microempresas';
-        $this->descripcion = 'Porcentaje del total de empresas que emplean de 0 a 10 personas.';
-        $this->claves      = 'Matamoros, Empresas';
-        $this->categorias  = array('Empresas');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Microempresas en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'economia-microempresas';
+        $this->descripcion  = 'Porcentaje del total de empresas que emplean de 0 a 10 personas.';
+        $this->claves       = 'Matamoros, Empresas';
+        $this->categorias   = array('Empresas');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -147,7 +148,7 @@ class EconomiaMicroempresas extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

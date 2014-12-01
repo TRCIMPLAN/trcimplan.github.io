@@ -17,14 +17,15 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Mortalidad Materna en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'sociedad-mortalidad-materna';
-        $this->descripcion = 'Defunciones maternas por cada cien mil partos.';
-        $this->claves      = 'Gómez Palacio, Salud, Género';
-        $this->categorias  = array('Salud', 'Género');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Mortalidad Materna en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'sociedad-mortalidad-materna';
+        $this->descripcion  = 'Defunciones maternas por cada cien mil partos.';
+        $this->claves       = 'Gómez Palacio, Salud, Género';
+        $this->categorias   = array('Salud', 'Género');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -113,7 +114,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

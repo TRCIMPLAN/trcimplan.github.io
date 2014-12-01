@@ -17,14 +17,15 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Pasajeros Aéreos Internacionales en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'sustentabilidad-pasajeros-aereos-internacionales';
-        $this->descripcion = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
-        $this->claves      = 'Torreón, Movilidad';
-        $this->categorias  = array('Movilidad');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Pasajeros Aéreos Internacionales en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'sustentabilidad-pasajeros-aereos-internacionales';
+        $this->descripcion  = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
+        $this->claves       = 'Torreón, Movilidad';
+        $this->categorias   = array('Movilidad');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -187,7 +188,7 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

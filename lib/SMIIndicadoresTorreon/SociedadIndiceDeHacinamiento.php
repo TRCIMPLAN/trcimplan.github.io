@@ -17,14 +17,15 @@ class SociedadIndiceDeHacinamiento extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Índice de hacinamiento en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'sociedad-indice-de-hacinamiento';
-        $this->descripcion = 'Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.';
-        $this->claves      = 'Torreón, Bienestar, Vivienda';
-        $this->categorias  = array('Bienestar', 'Vivienda');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Índice de hacinamiento en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'sociedad-indice-de-hacinamiento';
+        $this->descripcion  = 'Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.';
+        $this->claves       = 'Torreón, Bienestar, Vivienda';
+        $this->categorias   = array('Bienestar', 'Vivienda');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -113,7 +114,7 @@ class SociedadIndiceDeHacinamiento extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

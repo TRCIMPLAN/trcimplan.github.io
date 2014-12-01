@@ -17,14 +17,15 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Cumplimiento en Información Pública Mínina en La Laguna';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-la-laguna';
-        $this->archivo     = 'gobierno-cumplimiento-en-informacion-publica-minina';
-        $this->descripcion = 'Cumplimiento sobre total de obligaciones.';
-        $this->claves      = 'La Laguna, Transparencia';
-        $this->categorias  = array('Transparencia');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Cumplimiento en Información Pública Mínina en La Laguna';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-la-laguna';
+        $this->archivo      = 'gobierno-cumplimiento-en-informacion-publica-minina';
+        $this->descripcion  = 'Cumplimiento sobre total de obligaciones.';
+        $this->claves       = 'La Laguna, Transparencia';
+        $this->categorias   = array('Transparencia');
+        $this->region_nivel = 401;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -110,7 +111,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

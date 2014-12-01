@@ -17,14 +17,15 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Promedio de Descendencia por Varón en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'sociedad-promedio-de-descendencia-por-varon';
-        $this->descripcion = 'Calcula el promedio estimado de hijos por cada varón.';
-        $this->claves      = 'Torreón, Población';
-        $this->categorias  = array('Población');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Promedio de Descendencia por Varón en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'sociedad-promedio-de-descendencia-por-varon';
+        $this->descripcion  = 'Calcula el promedio estimado de hijos por cada varón.';
+        $this->claves       = 'Torreón, Población';
+        $this->categorias   = array('Población');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -88,7 +89,7 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

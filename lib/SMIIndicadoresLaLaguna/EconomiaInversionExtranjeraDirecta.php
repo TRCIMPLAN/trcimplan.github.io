@@ -17,14 +17,15 @@ class EconomiaInversionExtranjeraDirecta extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Inversión Extranjera Directa en La Laguna';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-la-laguna';
-        $this->archivo     = 'economia-inversion-extranjera-directa';
-        $this->descripcion = 'Promedio de inversión entre 2008 y 2012.';
-        $this->claves      = 'La Laguna, Macroeconomía';
-        $this->categorias  = array('Macroeconomía');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Inversión Extranjera Directa en La Laguna';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-la-laguna';
+        $this->archivo      = 'economia-inversion-extranjera-directa';
+        $this->descripcion  = 'Promedio de inversión entre 2008 y 2012.';
+        $this->claves       = 'La Laguna, Macroeconomía';
+        $this->categorias   = array('Macroeconomía');
+        $this->region_nivel = 401;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -123,7 +124,7 @@ y <a href="http://www.economia.gob.mx/comunidad-negocios/competitividad-normativ
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

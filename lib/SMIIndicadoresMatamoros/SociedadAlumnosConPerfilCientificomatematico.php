@@ -17,14 +17,15 @@ class SociedadAlumnosConPerfilCientificomatematico extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Alumnos con Perfil Científico-Matemático en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'sociedad-alumnos-con-perfil-cientifico-matematico';
-        $this->descripcion = 'Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.';
-        $this->claves      = 'Matamoros, Educación';
-        $this->categorias  = array('Educación');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Alumnos con Perfil Científico-Matemático en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'sociedad-alumnos-con-perfil-cientifico-matematico';
+        $this->descripcion  = 'Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.';
+        $this->claves       = 'Matamoros, Educación';
+        $this->categorias   = array('Educación');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -114,7 +115,7 @@ Consulta la <a href="http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

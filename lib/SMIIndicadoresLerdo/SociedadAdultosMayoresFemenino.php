@@ -17,14 +17,15 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Adultos Mayores Femenino en Lerdo';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-lerdo';
-        $this->archivo     = 'sociedad-adultos-mayores-femenino';
-        $this->descripcion = 'Población estimada a mediados de año de personas de 65 años y más de sexo femenino.';
-        $this->claves      = 'Lerdo, Grupos Vulnerables, Género';
-        $this->categorias  = array('Grupos Vulnerables', 'Género');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Adultos Mayores Femenino en Lerdo';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-lerdo';
+        $this->archivo      = 'sociedad-adultos-mayores-femenino';
+        $this->descripcion  = 'Población estimada a mediados de año de personas de 65 años y más de sexo femenino.';
+        $this->claves       = 'Lerdo, Grupos Vulnerables, Género';
+        $this->categorias   = array('Grupos Vulnerables', 'Género');
+        $this->region_nivel = 121;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -190,7 +191,7 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

@@ -17,14 +17,15 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Acceso a Vialidades Pavimentadas en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'sustentabilidad-acceso-a-vialidades-pavimentadas';
-        $this->descripcion = 'Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.';
-        $this->claves      = 'Torreón, Movilidad, Vialidad';
-        $this->categorias  = array('Movilidad', 'Vialidad');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Acceso a Vialidades Pavimentadas en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'sustentabilidad-acceso-a-vialidades-pavimentadas';
+        $this->descripcion  = 'Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.';
+        $this->claves       = 'Torreón, Movilidad, Vialidad';
+        $this->categorias   = array('Movilidad', 'Vialidad');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -113,7 +114,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

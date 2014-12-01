@@ -17,14 +17,15 @@ class EconomiaPersonalOcupadoEnElComercio extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Personal Ocupado en el Comercio en La Laguna';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-la-laguna';
-        $this->archivo     = 'economia-personal-ocupado-en-el-comercio';
-        $this->descripcion = 'Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.';
-        $this->claves      = 'La Laguna, Empleo, Mercados';
-        $this->categorias  = array('Empleo', 'Mercados');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Personal Ocupado en el Comercio en La Laguna';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-la-laguna';
+        $this->archivo      = 'economia-personal-ocupado-en-el-comercio';
+        $this->descripcion  = 'Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.';
+        $this->claves       = 'La Laguna, Empleo, Mercados';
+        $this->categorias   = array('Empleo', 'Mercados');
+        $this->region_nivel = 401;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -137,7 +138,7 @@ class EconomiaPersonalOcupadoEnElComercio extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

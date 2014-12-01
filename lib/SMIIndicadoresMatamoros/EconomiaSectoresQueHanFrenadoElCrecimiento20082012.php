@@ -17,14 +17,15 @@ class EconomiaSectoresQueHanFrenadoElCrecimiento20082012 extends \Base\Publicaci
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Sectores que Han Frenado el Crecimiento (2008-2012) en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'economia-sectores-que-han-frenado-el-crecimiento--2008-2012-';
-        $this->descripcion = 'Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.';
-        $this->claves      = 'Matamoros, Mercados';
-        $this->categorias  = array('Mercados');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Sectores que Han Frenado el Crecimiento (2008-2012) en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'economia-sectores-que-han-frenado-el-crecimiento--2008-2012-';
+        $this->descripcion  = 'Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.';
+        $this->claves       = 'Matamoros, Mercados';
+        $this->categorias   = array('Mercados');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -122,7 +123,7 @@ class EconomiaSectoresQueHanFrenadoElCrecimiento20082012 extends \Base\Publicaci
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

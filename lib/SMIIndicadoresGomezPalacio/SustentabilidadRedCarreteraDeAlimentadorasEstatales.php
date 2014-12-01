@@ -17,14 +17,15 @@ class SustentabilidadRedCarreteraDeAlimentadorasEstatales extends \Base\Publicac
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Red Carretera de Alimentadoras Estatales en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'sustentabilidad-red-carretera-de-alimentadoras-estatales';
-        $this->descripcion = 'Red carretera de alimentadoras estatales.';
-        $this->claves      = 'Gómez Palacio, Infraestructura';
-        $this->categorias  = array('Infraestructura');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Red Carretera de Alimentadoras Estatales en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'sustentabilidad-red-carretera-de-alimentadoras-estatales';
+        $this->descripcion  = 'Red carretera de alimentadoras estatales.';
+        $this->claves       = 'Gómez Palacio, Infraestructura';
+        $this->categorias   = array('Infraestructura');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -106,7 +107,7 @@ class SustentabilidadRedCarreteraDeAlimentadorasEstatales extends \Base\Publicac
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

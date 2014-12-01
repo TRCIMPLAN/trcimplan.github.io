@@ -17,14 +17,15 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Unidades Económicas Dedicadas a la Industria Manufacturera en Lerdo';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-lerdo';
-        $this->archivo     = 'economia-unidades-economicas-dedicadas-a-la-industria-manufacturera';
-        $this->descripcion = 'Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.';
-        $this->claves      = 'Lerdo, Empresas, Mercados';
-        $this->categorias  = array('Empresas', 'Mercados');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Unidades Económicas Dedicadas a la Industria Manufacturera en Lerdo';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-lerdo';
+        $this->archivo      = 'economia-unidades-economicas-dedicadas-a-la-industria-manufacturera';
+        $this->descripcion  = 'Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.';
+        $this->claves       = 'Lerdo, Empresas, Mercados';
+        $this->categorias   = array('Empresas', 'Mercados');
+        $this->region_nivel = 121;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -143,7 +144,7 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

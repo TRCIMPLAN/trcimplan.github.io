@@ -17,14 +17,15 @@ class SeguridadPresuntosDelincuentesDelFueroFederal extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Presuntos Delincuentes del Fuero Federal en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'seguridad-presuntos-delincuentes-del-fuero-federal';
-        $this->descripcion = 'Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero federal';
-        $this->claves      = 'Matamoros, Delincuencia';
-        $this->categorias  = array('Delincuencia');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Presuntos Delincuentes del Fuero Federal en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'seguridad-presuntos-delincuentes-del-fuero-federal';
+        $this->descripcion  = 'Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero federal';
+        $this->claves       = 'Matamoros, Delincuencia';
+        $this->categorias   = array('Delincuencia');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -110,7 +111,7 @@ class SeguridadPresuntosDelincuentesDelFueroFederal extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

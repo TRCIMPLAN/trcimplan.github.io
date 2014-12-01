@@ -17,14 +17,15 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Productividad Laboral en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'economia-productividad-laboral';
-        $this->descripcion = 'PIB sin petróleo / PEA.';
-        $this->claves      = 'Matamoros, Macroeconomía, Empleo';
-        $this->categorias  = array('Macroeconomía', 'Empleo');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Productividad Laboral en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'economia-productividad-laboral';
+        $this->descripcion  = 'PIB sin petróleo / PEA.';
+        $this->claves       = 'Matamoros, Macroeconomía, Empleo';
+        $this->categorias   = array('Macroeconomía', 'Empleo');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -113,7 +114,7 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

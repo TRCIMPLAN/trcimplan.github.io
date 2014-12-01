@@ -17,14 +17,15 @@ class EconomiaDesempleo extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Desempleo en Lerdo';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-lerdo';
-        $this->archivo     = 'economia-desempleo';
-        $this->descripcion = 'Cantidad de personas desempleadas.';
-        $this->claves      = 'Lerdo, Empleo';
-        $this->categorias  = array('Empleo');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Desempleo en Lerdo';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-lerdo';
+        $this->archivo      = 'economia-desempleo';
+        $this->descripcion  = 'Cantidad de personas desempleadas.';
+        $this->claves       = 'Lerdo, Empleo';
+        $this->categorias   = array('Empleo');
+        $this->region_nivel = 121;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -138,7 +139,7 @@ class EconomiaDesempleo extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

@@ -17,14 +17,15 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Maternidad Adolescente en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'sociedad-maternidad-adolescente';
-        $this->descripcion = '';
-        $this->claves      = 'Torreón, Género';
-        $this->categorias  = array('Género');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Maternidad Adolescente en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'sociedad-maternidad-adolescente';
+        $this->descripcion  = '';
+        $this->claves       = 'Torreón, Género';
+        $this->categorias   = array('Género');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-mapa" data-toggle="tab">Georreferenciado</a></li>
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
@@ -113,7 +114,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

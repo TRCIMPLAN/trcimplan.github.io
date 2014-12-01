@@ -17,14 +17,15 @@ class SustentabilidadUsoDeTransportePublico extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Uso de Transporte Público en La Laguna';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-la-laguna';
-        $this->archivo     = 'sustentabilidad-uso-de-transporte-publico';
-        $this->descripcion = 'Distribución porcentual del total de viajes cotidianos realizados por modalidad. No se consideran los viajes en taxi.';
-        $this->claves      = 'La Laguna, Movilidad, Recursos Naturales, Vialidad';
-        $this->categorias  = array('Movilidad', 'Recursos Naturales', 'Vialidad');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Uso de Transporte Público en La Laguna';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-la-laguna';
+        $this->archivo      = 'sustentabilidad-uso-de-transporte-publico';
+        $this->descripcion  = 'Distribución porcentual del total de viajes cotidianos realizados por modalidad. No se consideran los viajes en taxi.';
+        $this->claves       = 'La Laguna, Movilidad, Recursos Naturales, Vialidad';
+        $this->categorias   = array('Movilidad', 'Recursos Naturales', 'Vialidad');
+        $this->region_nivel = 401;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
   </ul>
@@ -59,7 +60,7 @@ class SustentabilidadUsoDeTransportePublico extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')

@@ -17,14 +17,15 @@ class SeguridadHomicidios extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Homicidios en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'seguridad-homicidios';
-        $this->descripcion = 'Número de homicidios durante el primer trimestre de 2014';
-        $this->claves      = 'Gómez Palacio, Delincuencia, Seguridad';
-        $this->categorias  = array('Delincuencia', 'Seguridad');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Homicidios en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'seguridad-homicidios';
+        $this->descripcion  = 'Número de homicidios durante el primer trimestre de 2014';
+        $this->claves       = 'Gómez Palacio, Delincuencia, Seguridad';
+        $this->categorias   = array('Delincuencia', 'Seguridad');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -163,7 +164,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

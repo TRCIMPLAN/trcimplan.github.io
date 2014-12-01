@@ -17,14 +17,15 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Índice de Especialización Local en la Minería en Matamoros';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-matamoros';
-        $this->archivo     = 'economia-indice-de-especializacion-local-en-la-mineria';
-        $this->descripcion = 'Producción bruta total de la actividad económica de minería entre la producción bruta total.';
-        $this->claves      = 'Matamoros, Mercados';
-        $this->categorias  = array('Mercados');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Índice de Especialización Local en la Minería en Matamoros';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'economia-indice-de-especializacion-local-en-la-mineria';
+        $this->descripcion  = 'Producción bruta total de la actividad económica de minería entre la producción bruta total.';
+        $this->claves       = 'Matamoros, Mercados';
+        $this->categorias   = array('Mercados');
+        $this->region_nivel = 131;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -119,7 +120,7 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

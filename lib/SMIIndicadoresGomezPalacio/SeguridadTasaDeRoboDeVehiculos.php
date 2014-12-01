@@ -17,14 +17,15 @@ class SeguridadTasaDeRoboDeVehiculos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Tasa de Robo de VehÍculos en Gómez Palacio';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-gomez-palacio';
-        $this->archivo     = 'seguridad-tasa-de-robo-de-vehiculos';
-        $this->descripcion = 'Cantidad de robos de vehículos por cada 100 mil habitantes.';
-        $this->claves      = 'Gómez Palacio, Delincuencia, Seguridad';
-        $this->categorias  = array('Delincuencia', 'Seguridad');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Tasa de Robo de VehÍculos en Gómez Palacio';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'seguridad-tasa-de-robo-de-vehiculos';
+        $this->descripcion  = 'Cantidad de robos de vehículos por cada 100 mil habitantes.';
+        $this->claves       = 'Gómez Palacio, Delincuencia, Seguridad';
+        $this->categorias   = array('Delincuencia', 'Seguridad');
+        $this->region_nivel = 111;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -110,7 +111,7 @@ class SeguridadTasaDeRoboDeVehiculos extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

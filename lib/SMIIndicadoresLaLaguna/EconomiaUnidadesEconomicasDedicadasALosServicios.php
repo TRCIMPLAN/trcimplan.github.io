@@ -17,14 +17,15 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \Base\Publicacion
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Unidades Económicas Dedicadas a los Servicios en La Laguna';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-la-laguna';
-        $this->archivo     = 'economia-unidades-economicas-dedicadas-a-los-servicios';
-        $this->descripcion = 'Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.';
-        $this->claves      = 'La Laguna, Empresas, Mercados';
-        $this->categorias  = array('Empresas', 'Mercados');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Unidades Económicas Dedicadas a los Servicios en La Laguna';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-la-laguna';
+        $this->archivo      = 'economia-unidades-economicas-dedicadas-a-los-servicios';
+        $this->descripcion  = 'Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.';
+        $this->claves       = 'La Laguna, Empresas, Mercados';
+        $this->categorias   = array('Empresas', 'Mercados');
+        $this->region_nivel = 401;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -143,7 +144,7 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \Base\Publicacion
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

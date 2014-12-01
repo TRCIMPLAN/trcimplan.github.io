@@ -17,14 +17,15 @@ class EconomiaRegistroDePropiedades extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre      = 'Registro de Propiedades en Torreón';
-        $this->nombre_menu = 'Indicadores';
-        $this->directorio  = 'indicadores-torreon';
-        $this->archivo     = 'economia-registro-de-propiedades';
-        $this->descripcion = 'Días que toma el trámite para el registro de una propiedad.';
-        $this->claves      = 'Torreón, Empresas';
-        $this->categorias  = array('Empresas');
-        $this->contenido   = <<<FINAL
+        $this->nombre       = 'Registro de Propiedades en Torreón';
+        $this->nombre_menu  = 'Indicadores';
+        $this->directorio   = 'indicadores-torreon';
+        $this->archivo      = 'economia-registro-de-propiedades';
+        $this->descripcion  = 'Días que toma el trámite para el registro de una propiedad.';
+        $this->claves       = 'Torreón, Empresas';
+        $this->categorias   = array('Empresas');
+        $this->region_nivel = 101;
+        $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -85,7 +86,7 @@ Costo (% del valor de la propiedad) = 4,5</td>
     </div>
   </div>
 FINAL;
-        $this->javascript  = <<<FINAL
+        $this->javascript   = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
