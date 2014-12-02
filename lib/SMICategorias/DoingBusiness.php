@@ -23,7 +23,7 @@ class DoingBusiness extends \Base\Publicacion {
         $this->archivo       = 'doing-business';
         $this->descripcion   = 'Matriz de indicadores en la categoría Doing Business';
         $this->imagen_previa = '';
-        $this->icono         = '';
+        $this->icono         = 'fa fa-check-circle-o';
         $this->claves        = 'IMPLAN, Indicadores, Doing Business';
         $this->categorias    = array('Indicadores');
         $this->contenido     = <<<FINAL

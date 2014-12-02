@@ -28,6 +28,7 @@ class SustentabilidadRedDeTransportePublico extends \Base\Publicacion {
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -46,14 +47,35 @@ class SustentabilidadRedDeTransportePublico extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/03/2014</td>
-            <td class="derecha">250</td>
+            <td>31/03/2014</td>
+            <td>250</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Kilómetros.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Red de Transporte Público</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-alumbrado-publico.html">Alumbrado Público en Torreón</a></td>
+            <td>Porcentaje de viviendas sin acceso a alumbrado público en su manzana</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 FINAL;

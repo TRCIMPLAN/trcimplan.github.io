@@ -29,6 +29,7 @@ class SociedadFecundidad extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,32 +48,32 @@ class SociedadFecundidad extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2008</td>
-            <td class="derecha">2.2000</td>
+            <td>31/12/2008</td>
+            <td>2.2000</td>
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2009</td>
-            <td class="derecha">2.1700</td>
+            <td>31/12/2009</td>
+            <td>2.1700</td>
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">2.1400</td>
+            <td>31/12/2010</td>
+            <td>2.1400</td>
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2011</td>
-            <td class="derecha">2.1400</td>
+            <td>31/12/2011</td>
+            <td>2.1400</td>
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2012</td>
-            <td class="derecha">2.1300</td>
+            <td>31/12/2012</td>
+            <td>2.1300</td>
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
@@ -83,6 +84,81 @@ class SociedadFecundidad extends \Base\Publicacion {
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Fecundidad en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Fecundidad</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>19/09/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></td>
+            <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
+          </tr>
+          <tr>
+            <td>03/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
+            <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Torreón</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Torreón</a></td>
+            <td>Porcentaje de hogares con jefatura femenina.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-madres-adolescentes.html">Madres Adolescentes en Torreón</a></td>
+            <td>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-mortalidad-materna.html">Mortalidad Materna en Torreón</a></td>
+            <td>Defunciones maternas por cada cien mil partos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-poblacion-estimada.html">Población Estimada en Torreón</a></td>
+            <td>Población estimada a mitad de año.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html">Promedio de Descendencia por Varón en Torreón</a></td>
+            <td>Calcula el promedio estimado de hijos por cada varón.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 FINAL;

@@ -29,6 +29,7 @@ class SociedadUniversidades extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,8 +48,8 @@ class SociedadUniversidades extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/03/2014</td>
-            <td class="derecha">31</td>
+            <td>31/03/2014</td>
+            <td>31</td>
             <td>CIESLAG-FOMEC</td>
             <td></td>
           </tr>
@@ -111,37 +112,76 @@ class SociedadUniversidades extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2014-03-31</td>
-            <td class="derecha">18</td>
+            <td>18</td>
             <td>CIESLAG-FOMEC</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-03-31</td>
-            <td class="derecha">9</td>
+            <td>9</td>
             <td>CIESLAG-FOMEC</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2014-03-31</td>
-            <td class="derecha">3</td>
+            <td>3</td>
             <td>CIESLAG-FOMEC</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-03-31</td>
-            <td class="derecha">1</td>
+            <td>1</td>
             <td>CIESLAG-FOMEC</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2014-03-31</td>
-            <td class="derecha">31</td>
+            <td>31</td>
             <td>CIESLAG-FOMEC</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Universidades</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>19/09/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></td>
+            <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en La Laguna</a></td>
+            <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en La Laguna</a></td>
+            <td>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html">Espacios Culturales en La Laguna</a></td>
+            <td>Espacios culturales físicamente delimitados.</td>
           </tr>
         </tbody>
       </table>

@@ -454,7 +454,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Índice de Desarrollo Humano (IDH)</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 31/03/2005, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.8470</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, INAFED-PNUD">0.8976</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

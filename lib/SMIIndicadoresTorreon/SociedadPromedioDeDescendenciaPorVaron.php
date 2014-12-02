@@ -29,6 +29,7 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,32 +48,32 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2008</td>
-            <td class="derecha">1.8100</td>
+            <td>31/12/2008</td>
+            <td>1.8100</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2009</td>
-            <td class="derecha">1.7700</td>
+            <td>31/12/2009</td>
+            <td>1.7700</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">1.7200</td>
+            <td>31/12/2010</td>
+            <td>1.7200</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2011</td>
-            <td class="derecha">1.6900</td>
+            <td>31/12/2011</td>
+            <td>1.6900</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2012</td>
-            <td class="derecha">1.6600</td>
+            <td>31/12/2012</td>
+            <td>1.6600</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
@@ -86,6 +87,39 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Promedio de Descendencia por Varón en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Promedio de Descendencia por Varón</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>03/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
+            <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
+            <td>Tasa de fecundidad.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-poblacion-estimada.html">Población Estimada en Torreón</a></td>
+            <td>Población estimada a mitad de año.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 FINAL;

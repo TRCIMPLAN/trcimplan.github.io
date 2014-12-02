@@ -29,6 +29,7 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \Base\Publicacio
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,32 +48,32 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \Base\Publicacio
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2008</td>
-            <td class="derecha">544</td>
+            <td>31/12/2008</td>
+            <td>544</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2009</td>
-            <td class="derecha">597</td>
+            <td>31/12/2009</td>
+            <td>597</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">753</td>
+            <td>31/12/2010</td>
+            <td>753</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2011</td>
-            <td class="derecha">858</td>
+            <td>31/12/2011</td>
+            <td>858</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2012</td>
-            <td class="derecha">1,253</td>
+            <td>31/12/2012</td>
+            <td>1,253</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
@@ -86,6 +87,161 @@ class SociedadEstimacionDeMenoresHuerfanosPorAgresiones extends \Base\Publicacio
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Estimación de Menores Huérfanos por Agresiones en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Estimación de Menores Huérfanos por Agresiones</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>18/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/prevencion-delito-seguridad.html">La Prevención del Delito como elemento fundamental para la Seguridad</a></td>
+            <td>La prevención del delito debe ser el elemento central en la búsqueda de la seguridad en la Zona Metropolitana de la Laguna (ZML).</td>
+          </tr>
+          <tr>
+            <td>03/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
+            <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Torreón</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino en Torreón</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo masculino</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-adultos-mayores.html">Adultos Mayores en Torreón</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-delitos.html">Delitos en Torreón</a></td>
+            <td>Total de delitos cometidos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-discapacidad.html">Discapacidad en Torreón</a></td>
+            <td>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-homicidios.html">Homicidios en Torreón</a></td>
+            <td>Número de homicidios durante el primer trimestre de 2014</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-madres-adolescentes.html">Madres Adolescentes en Torreón</a></td>
+            <td>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-comun.html">Presuntos Delincuentes del Fuero Común en Torreón</a></td>
+            <td>Cantidad de presuntos delincuentes registrados en los juzgados de primera instancia del fuero común por año.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-federal.html">Presuntos Delincuentes del Fuero Federal en Torreón</a></td>
+            <td>Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero federal</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-presuntos-delincuentes-por-narcoticos.html">Presuntos Delincuentes por Narcóticos en Torreón</a></td>
+            <td>Presuntos delincuentes por delitos en materia de narcóticos registrados en los juzgados del fuero federal.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-rezago-alimentario.html">Rezago Alimentario en Torreón</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-rezago-educativo.html">Rezago Educativo en Torreón</a></td>
+            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
+Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
+Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Torreón</a></td>
+            <td>Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-secuestros.html">Secuestros en Torreón</a></td>
+            <td>Cantidad de secuestros en el primer trimestre de 2014</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html">Sentenciados Registrados del Fuero Común en Torreón</a></td>
+            <td>Cantidad de sentenciados registrados en los juzgados de primera instancia del fuero común por año.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html">Sentenciados Registrados del Fuero Federal en Torreón</a></td>
+            <td>Sentenciados registrados en los juzgados de primera instancia en materia penal del fuero federal</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-tasa-de-delitos.html">Tasa de Delitos en Torreón</a></td>
+            <td>Delitos por cada 100 mil habitantes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-tasa-de-homicidios.html">Tasa de Homicidios en Torreón</a></td>
+            <td>Número de homicidios por cada 100 mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Torreón</a></td>
+            <td>Cantidad de robos de vehículos por cada 100 mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-tasa-de-secuestro.html">Tasa de Secuestro en Torreón</a></td>
+            <td>Homicidios por habitantes por 100 mil</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 FINAL;

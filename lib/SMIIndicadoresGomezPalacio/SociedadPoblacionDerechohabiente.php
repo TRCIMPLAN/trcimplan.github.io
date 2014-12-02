@@ -29,6 +29,7 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,8 +48,8 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">241,537</td>
+            <td>31/12/2010</td>
+            <td>241,537</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -77,37 +78,100 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2010-12-31</td>
-            <td class="derecha">453,423</td>
+            <td>453,423</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2010-12-31</td>
-            <td class="derecha">241,537</td>
+            <td>241,537</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2010-12-31</td>
-            <td class="derecha">98,265</td>
+            <td>98,265</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2010-12-31</td>
-            <td class="derecha">77,538</td>
+            <td>77,538</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2010-12-31</td>
-            <td class="derecha">870,763</td>
+            <td>870,763</td>
             <td>INEGI</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Población Derechohabiente</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>07/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/economia-sector-salud-laguna.html">Economía del Sector Salud en La Laguna</a></td>
+            <td>El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-camas-censables.html">Camas Censables en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Gómez Palacio</a></td>
+            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-materna.html">Mortalidad Materna en Gómez Palacio</a></td>
+            <td>Defunciones maternas por cada cien mil partos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad.html">Mortalidad en Gómez Palacio</a></td>
+            <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Gómez Palacio</a></td>
+            <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-medicos.html">Médicos en Gómez Palacio</a></td>
+            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
           </tr>
         </tbody>
       </table>

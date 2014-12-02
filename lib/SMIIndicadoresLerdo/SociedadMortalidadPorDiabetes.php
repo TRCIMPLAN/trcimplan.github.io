@@ -30,6 +30,7 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,80 +49,80 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2000</td>
-            <td class="derecha">5.1000</td>
+            <td>31/12/2000</td>
+            <td>5.1000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2001</td>
-            <td class="derecha">5.7000</td>
+            <td>31/12/2001</td>
+            <td>5.7000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2002</td>
-            <td class="derecha">6.0000</td>
+            <td>31/12/2002</td>
+            <td>6.0000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2003</td>
-            <td class="derecha">6.4000</td>
+            <td>31/12/2003</td>
+            <td>6.4000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2004</td>
-            <td class="derecha">5.5000</td>
+            <td>31/12/2004</td>
+            <td>5.5000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2005</td>
-            <td class="derecha">8.0000</td>
+            <td>31/12/2005</td>
+            <td>8.0000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2006</td>
-            <td class="derecha">7.7000</td>
+            <td>31/12/2006</td>
+            <td>7.7000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2007</td>
-            <td class="derecha">8.5000</td>
+            <td>31/12/2007</td>
+            <td>8.5000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2008</td>
-            <td class="derecha">7.5000</td>
+            <td>31/12/2008</td>
+            <td>7.5000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2009</td>
-            <td class="derecha">8.5000</td>
+            <td>31/12/2009</td>
+            <td>8.5000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">7.8000</td>
+            <td>31/12/2010</td>
+            <td>7.8000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2011</td>
-            <td class="derecha">6.2000</td>
+            <td>31/12/2011</td>
+            <td>6.2000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2012</td>
-            <td class="derecha">7.0000</td>
+            <td>31/12/2012</td>
+            <td>7.0000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
@@ -151,58 +152,121 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2012-12-31</td>
-            <td class="derecha">7.0000</td>
+            <td>7.0000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2012-12-31</td>
-            <td class="derecha">6.7000</td>
+            <td>6.7000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2012-12-31</td>
-            <td class="derecha">7.0000</td>
+            <td>7.0000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2012-12-31</td>
-            <td class="derecha">8.8000</td>
+            <td>8.8000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2012-12-31</td>
-            <td class="derecha">7.1000</td>
+            <td>7.1000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
           <tr>
             <td>Coahuila</td>
             <td>2012-12-31</td>
-            <td class="derecha">7.7000</td>
+            <td>7.7000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014].</td>
           </tr>
           <tr>
             <td>Durango</td>
             <td>2012-12-31</td>
-            <td class="derecha">6.1000</td>
+            <td>6.1000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014].</td>
           </tr>
           <tr>
             <td>Nacional</td>
             <td>2012-12-31</td>
-            <td class="derecha">7.3000</td>
+            <td>7.3000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014].</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Mortalidad por Diabetes</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>07/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/economia-sector-salud-laguna.html">Economía del Sector Salud en La Laguna</a></td>
+            <td>El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-camas-censables.html">Camas Censables en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Lerdo</a></td>
+            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-mortalidad-materna.html">Mortalidad Materna en Lerdo</a></td>
+            <td>Defunciones maternas por cada cien mil partos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-mortalidad.html">Mortalidad en Lerdo</a></td>
+            <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-medicos.html">Médicos en Lerdo</a></td>
+            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Lerdo</a></td>
+            <td>Población derechohabiente a los servicios de salud.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
           </tr>
         </tbody>
       </table>

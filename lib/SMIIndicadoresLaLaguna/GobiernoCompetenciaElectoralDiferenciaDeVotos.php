@@ -29,6 +29,7 @@ class GobiernoCompetenciaElectoralDiferenciaDeVotos extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,8 +48,8 @@ class GobiernoCompetenciaElectoralDiferenciaDeVotos extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">01/07/2012</td>
-            <td class="derecha">32,140</td>
+            <td>01/07/2012</td>
+            <td>32,140</td>
             <td>INE-IEPCC</td>
             <td>En esta cifra se incluye solo a los municipios de Torreón, Matamoros, Gómez Palacio y Lerdo</td>
           </tr>
@@ -77,37 +78,76 @@ class GobiernoCompetenciaElectoralDiferenciaDeVotos extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2012-07-01</td>
-            <td class="derecha">4,367</td>
+            <td>4,367</td>
             <td>INE-IEPCC</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2012-07-01</td>
-            <td class="derecha">5,784</td>
+            <td>5,784</td>
             <td>INE-IEPCC</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2012-07-01</td>
-            <td class="derecha">2,910</td>
+            <td>2,910</td>
             <td>INE-IEPCC</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2012-07-01</td>
-            <td class="derecha">19,079</td>
+            <td>19,079</td>
             <td>INE-IEPCC</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2012-07-01</td>
-            <td class="derecha">32,140</td>
+            <td>32,140</td>
             <td>INE-IEPCC</td>
             <td>En esta cifra se incluye solo a los municipios de Torreón, Matamoros, Gómez Palacio y Lerdo</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Competencia Electoral Diferencia de Votos</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en La Laguna</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral.html">Competencia Electoral en La Laguna</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en La Laguna</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-participacion-electoral.html">Participación Electoral en La Laguna</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
           </tr>
         </tbody>
       </table>

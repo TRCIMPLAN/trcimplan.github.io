@@ -30,6 +30,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,20 +49,20 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2013</td>
-            <td class="derecha">79.00 %</td>
+            <td>31/12/2013</td>
+            <td>79.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/04/2014</td>
-            <td class="derecha">89.00 %</td>
+            <td>30/04/2014</td>
+            <td>89.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/08/2014</td>
-            <td class="derecha">86.00 %</td>
+            <td>31/08/2014</td>
+            <td>86.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
@@ -91,37 +92,64 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2014-06-30</td>
-            <td class="derecha">98.72 %</td>
+            <td>98.72 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-08-31</td>
-            <td class="derecha">86.00 %</td>
+            <td>86.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2014-08-31</td>
-            <td class="derecha">100.00 %</td>
+            <td>100.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-06-30</td>
-            <td class="derecha">64.10 %</td>
+            <td>64.10 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2013-12-31</td>
-            <td class="derecha">80.00 %</td>
+            <td>80.00 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Cumplimiento en Información Pública Mínina</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>04/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/datos-abiertos-gobiernos-municipales.html">Datos Abiertos en los Gobiernos Municipales</a></td>
+            <td>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en Gómez Palacio</a></td>
+            <td>Cumplimiento sobre total de criterios</td>
           </tr>
         </tbody>
       </table>

@@ -29,6 +29,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,8 +48,8 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">3.60 %</td>
+            <td>31/12/2010</td>
+            <td>3.60 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -74,37 +75,220 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2010-12-31</td>
-            <td class="derecha">2.90 %</td>
+            <td>2.90 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2010-12-31</td>
-            <td class="derecha">3.30 %</td>
+            <td>3.30 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2010-12-31</td>
-            <td class="derecha">3.60 %</td>
+            <td>3.60 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2010-12-31</td>
-            <td class="derecha">2.80 %</td>
+            <td>2.80 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2010-12-31</td>
-            <td class="derecha">3.00 %</td>
+            <td>3.00 %</td>
             <td>INEGI</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Viviendas Ocupadas Temporalmente</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>25/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/movilidad-nuestra-ciudad.html">Movilidad y nuestra ciudad</a></td>
+            <td>De 1970 a la fecha la expansión de la mancha urbana en la ciudad de Torreón ha crecido siete veces mientras que la población únicamente tres.</td>
+          </tr>
+          <tr>
+            <td>19/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/bicimetro-innovacion-transporte-urbano.html">Bicimetro: La innovación del Transporte Urbano</a></td>
+            <td>Cada vez son más los ciudadanos que optan por dejar sus carros y se animan a desempolvar las bicicletas guardadas en los garajes y utilizarlas como medio de transporte ya sea habitual o por recreación..</td>
+          </tr>
+          <tr>
+            <td>22/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/cultura-seguridad-vial.html">Cultura y seguridad vial</a></td>
+            <td>La cultura vial se refiere a la construcción de una convivencia armoniosa, responsable y de respeto entre todos los que hacemos uso de las vías de tránsito, sean estas aceras, rutas, caminos, ciclo vías, etc.</td>
+          </tr>
+          <tr>
+            <td>15/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/importancia-suelo-ciudades.html">La importancia del suelo en las ciudades</a></td>
+            <td>En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.</td>
+          </tr>
+          <tr>
+            <td>14/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/poligonos-actuacion-desarrollo-urbano-integral.html">Polígonos de Actuación para un Desarrollo Urbano Integral</a></td>
+            <td>El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.</td>
+          </tr>
+          <tr>
+            <td>06/08/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/movilidad-laboral-cotidiana-zml.html">Movilidad laboral cotidiana en la ZML</a></td>
+            <td>Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>30/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/relaciones-internacionales.html">Relaciones Internacionales</a></td>
+            <td>Análisis de las cuestiones internacionales como la inversión extranjera, el flujo de pasajeros y la ausencia de puertos o frontera con otro país.</td>
+          </tr>
+          <tr>
+            <td>26/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/infraestructura.html">Infraestructura (Sectores precursores de clase mundial)</a></td>
+            <td>Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Lerdo</a></td>
+            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Lerdo</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Lerdo</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en Lerdo</a></td>
+            <td>Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-motorizacion.html">Motorización en Lerdo</a></td>
+            <td>Vehículos automotores registrados en circulación.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Lerdo</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-pasajeros-aereos-internacionales.html">Pasajeros Aéreos Internacionales en Lerdo</a></td>
+            <td>Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-pasajeros-aereos-totales.html">Pasajeros Aéreos Totales en Lerdo</a></td>
+            <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en Lerdo</a></td>
+            <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html">Población que Trabaja en su PROPIO Municipio en Lerdo</a></td>
+            <td>Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Lerdo</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-totales.html">Viviendas Totales en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Lerdo</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-internet.html">Viviendas con Internet en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Lerdo</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
           </tr>
         </tbody>
       </table>

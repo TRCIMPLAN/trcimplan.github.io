@@ -29,6 +29,7 @@ class SociedadAlumnosConPerfilGramaticoespanol extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,8 +48,8 @@ class SociedadAlumnosConPerfilGramaticoespanol extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2013</td>
-            <td class="derecha">37.00 %</td>
+            <td>31/12/2013</td>
+            <td>37.00 %</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -78,37 +79,90 @@ Consulta la <a href="http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos
           <tr>
             <td>Torreón</td>
             <td>2013-12-31</td>
-            <td class="derecha">44.00 %</td>
+            <td>44.00 %</td>
             <td>SEP</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2013-12-31</td>
-            <td class="derecha">37.00 %</td>
+            <td>37.00 %</td>
             <td>SEP</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2013-12-31</td>
-            <td class="derecha">37.00 %</td>
+            <td>37.00 %</td>
             <td>SEP</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2013-12-31</td>
-            <td class="derecha">32.00 %</td>
+            <td>32.00 %</td>
             <td>SEP</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2013-12-31</td>
-            <td class="derecha">40.00 %</td>
+            <td>40.00 %</td>
             <td>SEP</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Alumnos con Perfil Gramático-Español</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>19/09/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></td>
+            <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en Lerdo</a></td>
+            <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Lerdo</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-espacios-culturales.html">Espacios Culturales en Lerdo</a></td>
+            <td>Espacios culturales físicamente delimitados.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-rezago-educativo.html">Rezago Educativo en Lerdo</a></td>
+            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
+Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
+Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-universidades.html">Universidades en Lerdo</a></td>
+            <td>Planteles de Instituciones de Educación Superior.</td>
           </tr>
         </tbody>
       </table>

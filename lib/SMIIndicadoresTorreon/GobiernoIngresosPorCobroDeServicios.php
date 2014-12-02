@@ -30,6 +30,7 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,44 +49,44 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2007</td>
-            <td class="derecha">$ 575,374,852.00</td>
+            <td>31/12/2007</td>
+            <td>$ 575,374,852.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2008</td>
-            <td class="derecha">$ 596,172,106.00</td>
+            <td>31/12/2008</td>
+            <td>$ 596,172,106.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2009</td>
-            <td class="derecha">$ 599,061,383.00</td>
+            <td>31/12/2009</td>
+            <td>$ 599,061,383.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">$ 595,186,051.00</td>
+            <td>31/12/2010</td>
+            <td>$ 595,186,051.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2011</td>
-            <td class="derecha">$ 578,219,346.00</td>
+            <td>31/12/2011</td>
+            <td>$ 578,219,346.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2012</td>
-            <td class="derecha">$ 792,240,176.00</td>
+            <td>31/12/2012</td>
+            <td>$ 792,240,176.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2013</td>
-            <td class="derecha">$ 848,020,707.00</td>
+            <td>31/12/2013</td>
+            <td>$ 848,020,707.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -115,37 +116,100 @@ class GobiernoIngresosPorCobroDeServicios extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2013-12-31</td>
-            <td class="derecha">$ 848,020,707.00</td>
+            <td>$ 848,020,707.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2012-12-31</td>
-            <td class="derecha">$ 523,339,253.00</td>
+            <td>$ 523,339,253.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2012-12-31</td>
-            <td class="derecha">$ 54,082,713.00</td>
+            <td>$ 54,082,713.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2012-12-31</td>
-            <td class="derecha">$ 30,798,906.00</td>
+            <td>$ 30,798,906.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2012-12-31</td>
-            <td class="derecha">$ 1,400,461,048.00</td>
+            <td>$ 1,400,461,048.00</td>
             <td>INEGI</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Ingresos por Cobro de Servicios</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>04/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/datos-abiertos-gobiernos-municipales.html">Datos Abiertos en los Gobiernos Municipales</a></td>
+            <td>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.</td>
+          </tr>
+          <tr>
+            <td>19/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/independencia-finanzas-publicas.html">Independencia de las Finanzas Públicas</a></td>
+            <td>Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-capacidad-financiera.html">Capacidad Financiera en Torreón</a></td>
+            <td>Ingresos propios entre gastos corrientes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Torreón</a></td>
+            <td>Ingresos totales del municipio entre el total de la población.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-ingresos-totales.html">Ingresos Totales en Torreón</a></td>
+            <td>Ingresos totales por municipio.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-inversion-per-capita.html">Inversión Per cápita en Torreón</a></td>
+            <td>Gasto en obras públicas y acciones sociales entre población total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Torreón</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html">Relación de Ingresos Propios y Totales en Torreón</a></td>
+            <td>Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.</td>
           </tr>
         </tbody>
       </table>

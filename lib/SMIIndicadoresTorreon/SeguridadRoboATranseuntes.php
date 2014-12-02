@@ -30,6 +30,7 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,62 +49,62 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/01/2014</td>
-            <td class="derecha">178</td>
+            <td>31/01/2014</td>
+            <td>178</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">28/02/2014</td>
-            <td class="derecha">134</td>
+            <td>28/02/2014</td>
+            <td>134</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/03/2014</td>
-            <td class="derecha">91</td>
+            <td>31/03/2014</td>
+            <td>91</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/04/2014</td>
-            <td class="derecha">104</td>
+            <td>30/04/2014</td>
+            <td>104</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/04/2014</td>
-            <td class="derecha">5</td>
+            <td>30/04/2014</td>
+            <td>5</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/05/2014</td>
-            <td class="derecha">155</td>
+            <td>31/05/2014</td>
+            <td>155</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2014</td>
-            <td class="derecha">101</td>
+            <td>30/06/2014</td>
+            <td>101</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/07/2014</td>
-            <td class="derecha">73</td>
+            <td>31/07/2014</td>
+            <td>73</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/08/2014</td>
-            <td class="derecha">89</td>
+            <td>31/08/2014</td>
+            <td>89</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/09/2014</td>
-            <td class="derecha">56</td>
+            <td>30/09/2014</td>
+            <td>56</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -133,38 +134,53 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2014-09-30</td>
-            <td class="derecha">56</td>
+            <td>56</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-09-30</td>
-            <td class="derecha">64</td>
+            <td>64</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2014-09-30</td>
-            <td class="derecha">12</td>
+            <td>12</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-09-30</td>
-            <td class="derecha">5</td>
+            <td>5</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2014-09-30</td>
-            <td class="derecha">137</td>
+            <td>137</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Robo a Transeuntes</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
         </tbody>
       </table>
     </div>

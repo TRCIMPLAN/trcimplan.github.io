@@ -30,6 +30,7 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,62 +49,62 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">30/06/2011</td>
-            <td class="derecha">22,525</td>
+            <td>30/06/2011</td>
+            <td>22,525</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2012</td>
-            <td class="derecha">23,403</td>
+            <td>30/06/2012</td>
+            <td>23,403</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2013</td>
-            <td class="derecha">24,330</td>
+            <td>30/06/2013</td>
+            <td>24,330</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2014</td>
-            <td class="derecha">25,310</td>
+            <td>30/06/2014</td>
+            <td>25,310</td>
             <td>CONAPO</td>
             <td>Personas de 65 años o más</td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2015</td>
-            <td class="derecha">26,342</td>
+            <td>30/06/2015</td>
+            <td>26,342</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2016</td>
-            <td class="derecha">27,426</td>
+            <td>30/06/2016</td>
+            <td>27,426</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2017</td>
-            <td class="derecha">28,563</td>
+            <td>30/06/2017</td>
+            <td>28,563</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2018</td>
-            <td class="derecha">29,751</td>
+            <td>30/06/2018</td>
+            <td>29,751</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2019</td>
-            <td class="derecha">30,988</td>
+            <td>30/06/2019</td>
+            <td>30,988</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2020</td>
-            <td class="derecha">32,270</td>
+            <td>30/06/2020</td>
+            <td>32,270</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -133,58 +134,159 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2014-06-30</td>
-            <td class="derecha">25,310</td>
+            <td>25,310</td>
             <td>CONAPO</td>
             <td>Personas de 65 años o más</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-06-30</td>
-            <td class="derecha">10,863</td>
+            <td>10,863</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2014-06-30</td>
-            <td class="derecha">4,950</td>
+            <td>4,950</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-06-30</td>
-            <td class="derecha">3,668</td>
+            <td>3,668</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2014-06-30</td>
-            <td class="derecha">44,790</td>
+            <td>44,790</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
             <td>2014-06-30</td>
-            <td class="derecha">100,163</td>
+            <td>100,163</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
             <td>2014-06-30</td>
-            <td class="derecha">62,591</td>
+            <td>62,591</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
             <td>2014-06-30</td>
-            <td class="derecha">4,188,765</td>
+            <td>4,188,765</td>
             <td>CONAPO</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Adultos Mayores Femenino</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>19/09/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></td>
+            <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
+          </tr>
+          <tr>
+            <td>03/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
+            <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino en Torreón</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo masculino</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-adultos-mayores.html">Adultos Mayores en Torreón</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-discapacidad.html">Discapacidad en Torreón</a></td>
+            <td>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html">Estimación de Menores Huérfanos por Agresiones en Torreón</a></td>
+            <td>Menores de edad que han perdido a padre o madre a causa de agresión (homicidio).</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
+            <td>Tasa de fecundidad.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Torreón</a></td>
+            <td>Porcentaje de hogares con jefatura femenina.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-madres-adolescentes.html">Madres Adolescentes en Torreón</a></td>
+            <td>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-mortalidad-materna.html">Mortalidad Materna en Torreón</a></td>
+            <td>Defunciones maternas por cada cien mil partos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-rezago-alimentario.html">Rezago Alimentario en Torreón</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-rezago-educativo.html">Rezago Educativo en Torreón</a></td>
+            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
+Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
+Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
           </tr>
         </tbody>
       </table>

@@ -28,6 +28,7 @@ class SeguridadTasaDePoliciasPorHabitante extends \Base\Publicacion {
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -46,14 +47,101 @@ class SeguridadTasaDePoliciasPorHabitante extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">28/02/2014</td>
-            <td class="derecha">1.0997</td>
+            <td>28/02/2014</td>
+            <td>1.0997</td>
             <td>Ayuntamiento de Torreón</td>
             <td>Disponible sólo para Torreón</td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada mil.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Tasa de Policías por Habitante</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>18/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/prevencion-delito-seguridad.html">La Prevención del Delito como elemento fundamental para la Seguridad</a></td>
+            <td>La prevención del delito debe ser el elemento central en la búsqueda de la seguridad en la Zona Metropolitana de la Laguna (ZML).</td>
+          </tr>
+          <tr>
+            <td>22/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/cultura-seguridad-vial.html">Cultura y seguridad vial</a></td>
+            <td>La cultura vial se refiere a la construcción de una convivencia armoniosa, responsable y de respeto entre todos los que hacemos uso de las vías de tránsito, sean estas aceras, rutas, caminos, ciclo vías, etc.</td>
+          </tr>
+          <tr>
+            <td>25/09/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/comportamiento-tendencia-incidencia-delictiva.html">Comportamiento y tendencia de la incidencia delictiva. Una visión ampliada.</a></td>
+            <td>Mostramos las tendencias de los delitos más recurrentes en la ciudad de Torreón; con datos del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-cantidad-de-policias.html">Cantidad de Policías en Torreón</a></td>
+            <td>Cantidad total de policías en el municipio.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-delitos.html">Delitos en Torreón</a></td>
+            <td>Total de delitos cometidos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-homicidios.html">Homicidios en Torreón</a></td>
+            <td>Número de homicidios durante el primer trimestre de 2014</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Torreón</a></td>
+            <td>Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-secuestros.html">Secuestros en Torreón</a></td>
+            <td>Cantidad de secuestros en el primer trimestre de 2014</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-tasa-de-delitos.html">Tasa de Delitos en Torreón</a></td>
+            <td>Delitos por cada 100 mil habitantes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-tasa-de-homicidios.html">Tasa de Homicidios en Torreón</a></td>
+            <td>Número de homicidios por cada 100 mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Torreón</a></td>
+            <td>Cantidad de robos de vehículos por cada 100 mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-tasa-de-secuestro.html">Tasa de Secuestro en Torreón</a></td>
+            <td>Homicidios por habitantes por 100 mil</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 FINAL;

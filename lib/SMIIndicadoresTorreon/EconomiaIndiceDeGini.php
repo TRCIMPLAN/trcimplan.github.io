@@ -29,6 +29,7 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,8 +48,8 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">0.4520</td>
+            <td>31/12/2010</td>
+            <td>0.4520</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
@@ -79,38 +80,53 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2010-12-31</td>
-            <td class="derecha">0.4520</td>
+            <td>0.4520</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2010-12-31</td>
-            <td class="derecha">0.4208</td>
+            <td>0.4208</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2010-12-31</td>
-            <td class="derecha">0.4387</td>
+            <td>0.4387</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2010-12-31</td>
-            <td class="derecha">0.3831</td>
+            <td>0.3831</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2010-12-31</td>
-            <td class="derecha">0.4238</td>
+            <td>0.4238</td>
             <td>CONEVAL</td>
             <td></td>
           </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Índice de Gini</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
         </tbody>
       </table>
     </div>

@@ -29,6 +29,7 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,8 +48,8 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">23.67 %</td>
+            <td>31/12/2010</td>
+            <td>23.67 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -77,37 +78,70 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2010-12-31</td>
-            <td class="derecha">24.91 %</td>
+            <td>24.91 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2010-12-31</td>
-            <td class="derecha">23.19 %</td>
+            <td>23.19 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2010-12-31</td>
-            <td class="derecha">22.70 %</td>
+            <td>22.70 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2010-12-31</td>
-            <td class="derecha">18.48 %</td>
+            <td>18.48 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2010-12-31</td>
-            <td class="derecha">23.67 %</td>
+            <td>23.67 %</td>
             <td>INEGI</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Hogares con Jefatura Femenina</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>19/09/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></td>
+            <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en La Laguna</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-materna.html">Mortalidad Materna en La Laguna</a></td>
+            <td>Defunciones maternas por cada cien mil partos.</td>
           </tr>
         </tbody>
       </table>

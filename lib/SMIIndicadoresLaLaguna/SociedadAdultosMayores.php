@@ -30,6 +30,7 @@ class SociedadAdultosMayores extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,62 +49,62 @@ class SociedadAdultosMayores extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">30/06/2011</td>
-            <td class="derecha">73,429</td>
+            <td>30/06/2011</td>
+            <td>73,429</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2012</td>
-            <td class="derecha">76,234</td>
+            <td>30/06/2012</td>
+            <td>76,234</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2013</td>
-            <td class="derecha">79,195</td>
+            <td>30/06/2013</td>
+            <td>79,195</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2014</td>
-            <td class="derecha">82,328</td>
+            <td>30/06/2014</td>
+            <td>82,328</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2015</td>
-            <td class="derecha">85,633</td>
+            <td>30/06/2015</td>
+            <td>85,633</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2016</td>
-            <td class="derecha">89,114</td>
+            <td>30/06/2016</td>
+            <td>89,114</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2017</td>
-            <td class="derecha">92,768</td>
+            <td>30/06/2017</td>
+            <td>92,768</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2018</td>
-            <td class="derecha">96,590</td>
+            <td>30/06/2018</td>
+            <td>96,590</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2019</td>
-            <td class="derecha">100,568</td>
+            <td>30/06/2019</td>
+            <td>100,568</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2020</td>
-            <td class="derecha">104,689</td>
+            <td>30/06/2020</td>
+            <td>104,689</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -133,58 +134,91 @@ class SociedadAdultosMayores extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2014-06-30</td>
-            <td class="derecha">45,139</td>
+            <td>45,139</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-06-30</td>
-            <td class="derecha">20,263</td>
+            <td>20,263</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2014-06-30</td>
-            <td class="derecha">9,479</td>
+            <td>9,479</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-06-30</td>
-            <td class="derecha">7,447</td>
+            <td>7,447</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2014-06-30</td>
-            <td class="derecha">82,328</td>
+            <td>82,328</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
             <td>2014-06-30</td>
-            <td class="derecha">187,728</td>
+            <td>187,728</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
             <td>2014-06-30</td>
-            <td class="derecha">120,009</td>
+            <td>120,009</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
             <td>2014-06-30</td>
-            <td class="derecha">7,851,672</td>
+            <td>7,851,672</td>
             <td>CONAPO</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Adultos Mayores</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>03/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
+            <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en La Laguna</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino en La Laguna</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo masculino</td>
           </tr>
         </tbody>
       </table>

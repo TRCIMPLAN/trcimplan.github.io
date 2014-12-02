@@ -30,6 +30,7 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,104 +49,104 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/1997</td>
-            <td class="derecha">423</td>
+            <td>31/12/1997</td>
+            <td>423</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/1998</td>
-            <td class="derecha">486</td>
+            <td>31/12/1998</td>
+            <td>486</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/1999</td>
-            <td class="derecha">497</td>
+            <td>31/12/1999</td>
+            <td>497</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2000</td>
-            <td class="derecha">581</td>
+            <td>31/12/2000</td>
+            <td>581</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2001</td>
-            <td class="derecha">643</td>
+            <td>31/12/2001</td>
+            <td>643</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2002</td>
-            <td class="derecha">645</td>
+            <td>31/12/2002</td>
+            <td>645</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2003</td>
-            <td class="derecha">670</td>
+            <td>31/12/2003</td>
+            <td>670</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2004</td>
-            <td class="derecha">666</td>
+            <td>31/12/2004</td>
+            <td>666</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2005</td>
-            <td class="derecha">1,343</td>
+            <td>31/12/2005</td>
+            <td>1,343</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2006</td>
-            <td class="derecha">1,104</td>
+            <td>31/12/2006</td>
+            <td>1,104</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2007</td>
-            <td class="derecha">884</td>
+            <td>31/12/2007</td>
+            <td>884</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2008</td>
-            <td class="derecha">602</td>
+            <td>31/12/2008</td>
+            <td>602</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2009</td>
-            <td class="derecha">566</td>
+            <td>31/12/2009</td>
+            <td>566</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">519</td>
+            <td>31/12/2010</td>
+            <td>519</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2011</td>
-            <td class="derecha">433</td>
+            <td>31/12/2011</td>
+            <td>433</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2012</td>
-            <td class="derecha">362</td>
+            <td>31/12/2012</td>
+            <td>362</td>
             <td>INEGI</td>
             <td>Número de accidentes registrados durante el año 2012.</td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2013</td>
-            <td class="derecha">242</td>
+            <td>31/12/2013</td>
+            <td>242</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -175,37 +176,106 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2013-12-31</td>
-            <td class="derecha">1,831</td>
+            <td>1,831</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2013-12-31</td>
-            <td class="derecha">1,128</td>
+            <td>1,128</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2013-12-31</td>
-            <td class="derecha">242</td>
+            <td>242</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2013-12-31</td>
-            <td class="derecha">161</td>
+            <td>161</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2013-12-31</td>
-            <td class="derecha">3,362</td>
+            <td>3,362</td>
             <td>INEGI</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Accidentes Viales</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>05/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/dot-desarrollo-orientado-transporte.html">DOT: Desarrollo Orientado al Transporte</a></td>
+            <td>En las últimas décadas, han surgido nuevos modelos urbanos que retoman el componente humano como eje principal de la planeación, buscando el equilibrio entre una ciudad altamente competitiva pero con servicios e infraestructura orientada al confort y las necesidades del ser humano.</td>
+          </tr>
+          <tr>
+            <td>22/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/cultura-seguridad-vial.html">Cultura y seguridad vial</a></td>
+            <td>La cultura vial se refiere a la construcción de una convivencia armoniosa, responsable y de respeto entre todos los que hacemos uso de las vías de tránsito, sean estas aceras, rutas, caminos, ciclo vías, etc.</td>
+          </tr>
+          <tr>
+            <td>06/08/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/movilidad-laboral-cotidiana-zml.html">Movilidad laboral cotidiana en la ZML</a></td>
+            <td>Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>26/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/infraestructura.html">Infraestructura (Sectores precursores de clase mundial)</a></td>
+            <td>Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Lerdo</a></td>
+            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Lerdo</a></td>
+            <td>Cantidad de accidentes viales fatales por año.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en Lerdo</a></td>
+            <td>Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-motorizacion.html">Motorización en Lerdo</a></td>
+            <td>Vehículos automotores registrados en circulación.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Lerdo</a></td>
+            <td>Porcentaje de accidentes fatales entre accidentes viales totales</td>
           </tr>
         </tbody>
       </table>

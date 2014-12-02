@@ -30,6 +30,7 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,44 +49,44 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2007</td>
-            <td class="derecha">27.08 %</td>
+            <td>31/12/2007</td>
+            <td>27.08 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2008</td>
-            <td class="derecha">27.73 %</td>
+            <td>31/12/2008</td>
+            <td>27.73 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2009</td>
-            <td class="derecha">40.12 %</td>
+            <td>31/12/2009</td>
+            <td>40.12 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">28.00 %</td>
+            <td>31/12/2010</td>
+            <td>28.00 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2011</td>
-            <td class="derecha">47.17 %</td>
+            <td>31/12/2011</td>
+            <td>47.17 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2012</td>
-            <td class="derecha">46.42 %</td>
+            <td>31/12/2012</td>
+            <td>46.42 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2013</td>
-            <td class="derecha">42.09 %</td>
+            <td>31/12/2013</td>
+            <td>42.09 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -129,37 +130,100 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2013-12-31</td>
-            <td class="derecha">43.99 %</td>
+            <td>43.99 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2013-12-31</td>
-            <td class="derecha">42.09 %</td>
+            <td>42.09 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2013-12-31</td>
-            <td class="derecha">37.77 %</td>
+            <td>37.77 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2013-12-31</td>
-            <td class="derecha">13.10 %</td>
+            <td>13.10 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2013-12-31</td>
-            <td class="derecha">40.93 %</td>
+            <td>40.93 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Relación de Ingresos Propios y Totales</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>04/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/datos-abiertos-gobiernos-municipales.html">Datos Abiertos en los Gobiernos Municipales</a></td>
+            <td>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.</td>
+          </tr>
+          <tr>
+            <td>19/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/independencia-finanzas-publicas.html">Independencia de las Finanzas Públicas</a></td>
+            <td>Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html">Capacidad Financiera en Gómez Palacio</a></td>
+            <td>Ingresos propios entre gastos corrientes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Gómez Palacio</a></td>
+            <td>Ingresos totales del municipio entre el total de la población.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-totales.html">Ingresos Totales en Gómez Palacio</a></td>
+            <td>Ingresos totales por municipio.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en Gómez Palacio</a></td>
+            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-inversion-per-capita.html">Inversión Per cápita en Gómez Palacio</a></td>
+            <td>Gasto en obras públicas y acciones sociales entre población total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Gómez Palacio</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
           </tr>
         </tbody>
       </table>

@@ -30,6 +30,7 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,56 +49,56 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/01/2014</td>
-            <td class="derecha">70</td>
+            <td>31/01/2014</td>
+            <td>70</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">28/02/2014</td>
-            <td class="derecha">65</td>
+            <td>28/02/2014</td>
+            <td>65</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/03/2014</td>
-            <td class="derecha">73</td>
+            <td>31/03/2014</td>
+            <td>73</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/04/2014</td>
-            <td class="derecha">67</td>
+            <td>30/04/2014</td>
+            <td>67</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/05/2014</td>
-            <td class="derecha">108</td>
+            <td>31/05/2014</td>
+            <td>108</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2014</td>
-            <td class="derecha">54</td>
+            <td>30/06/2014</td>
+            <td>54</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/07/2014</td>
-            <td class="derecha">58</td>
+            <td>31/07/2014</td>
+            <td>58</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/08/2014</td>
-            <td class="derecha">76</td>
+            <td>31/08/2014</td>
+            <td>76</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/09/2014</td>
-            <td class="derecha">81</td>
+            <td>30/09/2014</td>
+            <td>81</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -127,38 +128,53 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2014-09-30</td>
-            <td class="derecha">81</td>
+            <td>81</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-09-30</td>
-            <td class="derecha">28</td>
+            <td>28</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2014-09-30</td>
-            <td class="derecha">14</td>
+            <td>14</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-09-30</td>
-            <td class="derecha">5</td>
+            <td>5</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2014-09-30</td>
-            <td class="derecha">128</td>
+            <td>128</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Robos a Casa Habitación</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
         </tbody>
       </table>
     </div>

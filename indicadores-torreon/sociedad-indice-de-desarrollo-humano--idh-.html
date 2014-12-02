@@ -151,7 +151,9 @@
   </header>
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -170,14 +172,30 @@
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/03/2005</td>
-            <td class="derecha">0.8470</td>
-            <td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td>
-            <td>Descargar [base de datos](http://www.undp.org.mx/desarrollohumano/disco/index.html)</td>
+            <td>31/12/2000</td>
+            <td>0.8595</td>
+            <td>INAFED-PNUD</td>
+            <td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
+          </tr>
+          <tr>
+            <td>31/12/2005</td>
+            <td>0.8915</td>
+            <td>INAFED-PNUD</td>
+            <td>Descargar [base de datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0.8976</td>
+            <td>INAFED-PNUD</td>
+            <td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> De 0 a 1.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Índice de Desarrollo Humano (IDH) en Torreón</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Índice de Desarrollo Humano (IDH)</h3>
@@ -196,31 +214,95 @@
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2005-03-31</td>
-            <td class="derecha">0.8470</td>
-            <td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td>
-            <td>Descargar [base de datos](http://www.undp.org.mx/desarrollohumano/disco/index.html)</td>
+            <td>2010-12-31</td>
+            <td>0.8976</td>
+            <td>INAFED-PNUD</td>
+            <td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2005-03-31</td>
-            <td class="derecha">0.8160</td>
-            <td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td>
-            <td>Descargar [base de datos](http://www.undp.org.mx/desarrollohumano/disco/index.html)</td>
+            <td>2010-12-31</td>
+            <td>0.8681</td>
+            <td>INAFED-PNUD</td>
+            <td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2005-03-31</td>
-            <td class="derecha">0.7970</td>
-            <td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td>
-            <td>Descargar [base de datos](http://www.undp.org.mx/desarrollohumano/disco/index.html)</td>
+            <td>2010-12-31</td>
+            <td>0.8661</td>
+            <td>INAFED-PNUD</td>
+            <td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2005-03-31</td>
-            <td class="derecha">0.7820</td>
-            <td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td>
-            <td>Descargar [base de datos](http://www.undp.org.mx/desarrollohumano/disco/index.html)</td>
+            <td>2010-12-31</td>
+            <td>0.8404</td>
+            <td>INAFED-PNUD</td>
+            <td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2010-12-31</td>
+            <td>0.8680</td>
+            <td>INAFED-PNUD</td>
+            <td>El dato es un promedio de los cuatro municipios que integran la Zona Metropolitana de la Laguna. Se publica únicamente como referencia. Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Índice de Desarrollo Humano (IDH)</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>28/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ciudades-reto-transformacion.html">Las ciudades y el reto de su transformación</a></td>
+            <td>El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana.</td>
+          </tr>
+          <tr>
+            <td>18/09/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/competitividad-planeacion-metropolitana.html">Competitividad y Planeación Metropolitana</a></td>
+            <td>El Instituto Mexicano para la Competitividad dio a conocer el Índice de Competitividad Urbana 2014; en él muestra que la Zona Metropolitana de la Laguna (ZML) continúa en un nivel de competitividad media baja.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-pobreza-extrema.html">Pobreza Extrema en Torreón</a></td>
+            <td>Porcentaje de la población en situación de pobreza extrema.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-pobreza-moderada.html">Pobreza Moderada en Torreón</a></td>
+            <td>Porcentaje de la población en situación de pobreza moderada.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-pobreza.html">Pobreza en Torreón</a></td>
+            <td>Porcentaje de la población en situación de pobreza.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-rezago-alimentario.html">Rezago Alimentario en Torreón</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Torreón</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
           </tr>
         </tbody>
       </table>
@@ -256,13 +338,29 @@
 <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="../js/sb-admin-2.js"></script>
 <script>
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2000-12-31', dato: 0.8595 },{ fecha: '2005-12-31', dato: 0.8915 },{ fecha: '2010-12-31', dato: 0.8976 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0.8470 },{ region: 'Gómez Palacio', dato: 0.8160 },{ region: 'Lerdo', dato: 0.7970 },{ region: 'Matamoros', dato: 0.7820 }],
+      data: [{ region: 'Torreón', dato: 0.8976 },{ region: 'Gómez Palacio', dato: 0.8681 },{ region: 'Lerdo', dato: 0.8661 },{ region: 'Matamoros', dato: 0.8404 },{ region: 'La Laguna', dato: 0.8680 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -5,7 +5,7 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 25 Nov 2014 13:20:34 -0600</pubDate>
+    <pubDate>Tue, 02 Dec 2014 10:58:30 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -181,519 +181,1023 @@
 ]]></description>
     </item>
     <item>
-      <title>La industria metalmecánica y La Laguna</title>
-      <link>http://trcimplan.gob.mx/blog/industrial-metalmecanica-la-laguna.html</link>
-      <guid isPermaLink="false">blog-industrial-metalmecanica-la-laguna</guid>
-      <pubDate>Wed, 12 Nov 2014 00:00:00 -0600</pubDate>
-      <author>Lic. Alicia Valdez Ibarra</author>
-      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/industrial-metalmecanica-la-laguna/imagen.jpg"></span>
-
-<h3>Oportunidades en la industria metalmecánica</h3>
-
-<p>A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año. Esto se debe principalmente a la inversión que espera recibirse en las industrias automotriz y aeroespacial, de hecho, un estudio realizado por el Catálogo de Proveedores de la Industria en México (CAPIM) menciona que 38% de los requerimientos de la industria automotrizcorresponde a proveedores metalmecánicos.</p>
-
-<p>Según el análisis  del CAPAIM los procesos más demandados por la industria automotriz son maquinados CNC, laminado, troquelado, maquinado tradicional, extrusión, inyección y recubrimiento de metales. Por otro lado, ProMéxico identifica oportunidades de proveeduría en la industria de los electrodomésticos pues se estima que aproximadamente 63% de la proveeduría de procesos y componentes en la fabricación de refrigeradores en México es importada.</p>
-
-<p>Dentro del estudio de ProMéxico algunos de los componentes y actividades de proveeduría señaladas como necesarias en México son troquelado y estampado; inyección de plásticos; moldes, troqueles y herramentales; maquinado y laminado.</p>
-
-<h3>Actividades de la industria metalmecánica en La Laguna</h3>
-
-<p>Mientras a nivel nacional 14% del PIB manufacturero pertenece a la metalmecánica (Secretaría de Economía), en la zona metropolitana de La Laguna esta industria participa con 70% del valor agregado generado por la manufactura y 40% del valor agregado total (Censos económicos 2009). Además, la metalmecánica emplea a 15,980 personas y tiene una productividad de 5.4 millones de pesos anuales por trabajador (Censos económicos 2009).</p>
-
-<p>Sin embargo, 47% del valor agregado generado por la industria metalmecánica de La Laguna lo genera una sola actividad, misma que ocupa a 2,199 personas y produce más de 50,000 millones de pesos al año: la fundición y refinación de metales preciosos.</p>
-
-<p>Sin la participación de esta actividad, la industria metalmecánica de La Laguna aporta 37% del valor agregado por la manufactura y 21% del total de la zona metropolitana,manteniendo una productividad laboral de 429 miles de pesos anuales por trabajador.</p>
-
-<p>Después de la fundición y refinación de metales preciosos, la actividad con la mayor cantidad de personal ocupado es lafabricación de productos de herrería, empleando a un total de 2,068 personas en la zona metropolitana. La fabricación de tubos y postes de hierro y acero, la cual se desempeña en el municipio de Gómez Palacio, es la actividad con mayor producción bruta, aunque la mayor aportación de valor agregado es de lafabricación de motores de combustión interna, turbinas y transmisiones, actividad presente únicamente en el municipio de Torreón. En la tabla de a continuación se presentan las aportaciones de cada una de estas actividades:</p>
-
-<table class="table table-striped">
-    <tr>
-        <th>MUNICIPIO</th>
-        <th>ACTIVIDAD ECONÓMICA</th>
-        <th>PERSONAL OCUPADO TOTAL</th>
-        <th>PRODUCCIÓN BRUTA TOTAL (MILES DE PESOS)</th>
-        <th>VALOR AGREGADO CENSAL BRUTO (MILES DE PESOS)</th>
-    </tr>
-    <tr>
-        <th>GÓMEZ PALACIO</th>
-        <td>Fabricación de tubos y postes de hierro y acero</td>
-        <td style="text-align:right">352</td>
-        <td style="text-align:right"><b>$ 1,185,801.00</b></td>
-        <td style="text-align:right">$ 283,530.00</td>
-    </tr>
-    <tr>
-        <th>MATAMOROS, TORREÓN, GÓMEZ PALACIO, LERDO</th>
-        <td>Fabricación de productos de herrería</td>
-        <td style="text-align:right"><b>2,068</b></td>
-        <td style="text-align:right">$ 264,096.00</td>
-        <td style="text-align:right">$ 106,093.00</td>
-    </tr>
-    <tr>
-        <th>TORREÓN</th>
-        <td>Fabricación de motores de combustión interna, tubinas y transmisiones</td>
-        <td style="text-align:right">1,251</td>
-        <td style="text-align:right">$ 527,476.00</td>
-        <td style="text-align:right"><b>$ 7,587,382.00</b></td>
-    </tr>
-</table>
-
-<p><small>Fuente: INEGI, Censos económicos 2009.</small></p>
-
-<p>En cuanto a la productividad laboral, en seguida se listan las 5 actividades de la metalmecánica con la productividad laboral más alta, esta vez incluyendo a la fundición y refinación de metales preciosos.</p>
-
-<table class="table table-striped">
-    <tr>
-        <th>MUNICIPIO</th>
-        <th>ACTIVIDAD ECONÓMICA</th>
-        <th>PRODUCTIVIDAD</th>
-    </tr>
-    <tr>
-        <th>TORREÓN</th>
-        <td>Fundición y refinación de metales preciosos</td>
-        <td style="text-align:right">$ 24,941.81</td>
-    </tr>
-    <tr>
-        <th>GÓMEZ PALACIO</th>
-        <td>Fabricación de desbastes primarios y ferroaleaciones</td>
-        <td style="text-align:right">$ 3,702.09</td>
-    </tr>
-    <tr>
-        <th>GÓMEZ PALACIO</th>
-        <td>Fabricación de tubos y postes de hierro y acero</td>
-        <td style="text-align:right">$ 3,368.75</td>
-    </tr>
-    <tr>
-        <th>TORREÓN, LERDO</th>
-        <td>Fabricación de maquinaria y equipo para la industria metalmecánica</td>
-        <td style="text-align:right">$ 1,024.06</td>
-    </tr>
-    <tr>
-        <th>GÓMEZ PALACIO</th>
-        <td>Fabricación de calderas industriales</td>
-        <td style="text-align:right">$ 1,100.74</td>
-    </tr>
-</table>
-
-<p><small>Fuente: INEGI, Censos económicos 2009.</small></p>
-
-<p>A pesar de que la productividad y participación de la metalmecánica son muy altas, esto no implica que estemos preparados para competir como proveedores con otras ciudades de México.Un ejemplo de esto es que en La Laguna no contamos con proveedores certificados con estándares de calidad, ventas y clientes.De las 210 empresas que actualmente se encuentran en el Catálogo de Proveeduría de la IndustriaMaquiladora de la Secretaría de Economía de México, 48 están en Ciudad Juárez, 55 en el Bajío, 43 en Monterrey, 35 en Tlaxcala, 25 en Puebla y 4 en Saltillo. Cabe mencionar que cerca de la mitad de estos proveedores pertenecen a la industria metalmecánica, lo cual nos deja lejos de competir.</p>
-]]></description>
-    </item>
-    <item>
-      <title>Una nueva forma de impulsar el desarrollo de Torreón y su Zona Metropolitana</title>
-      <link>http://trcimplan.gob.mx/blog/nueva-forma-impulsar-desarrollo-torreon-zm.html</link>
-      <guid isPermaLink="false">blog-nueva-forma-impulsar-desarrollo-torreon-zm</guid>
-      <pubDate>Tue, 11 Nov 2014 00:00:00 -0600</pubDate>
-      <author>Arq. Susana Montano</author>
-      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/nueva-forma-impulsar-desarrollo-torreon-zm/imagen.jpg"></span>
-
-<blockquote>
-    <p>"Cities have the capability of providing something for everybody, only because, and only when, they are created by everybody"</p>
-    <p class="pull-right">Jane Jacobs</p>
-</blockquote>
-
-<p>El presente artículo pretende caracterizar a los <b>Proyectos Estratégicos</b> bajo un enfoque sustentable y comunicar que <b>el Instituto Municipal de Planeación y Competitividad  de Torreón (IMPLAN) promueve el impulso del desarrollo integral de la Laguna</b>, mediante la integración de una <b>Cartera de Proyectos Estratégicos</b> derivada de un Plan Estratégico Metropolitano (PEM).</p>
-
-<p>Iniciemos definiendo <i>"estrategia"</i>, como un proceso bien analizado mediante el cual se prevé alcanzar un estado futuro desde el presente. Cabe resaltar que la estrategia no cambia nada por sí sola, por lo que comúnmente se pone en tela de juicio la efectividad de los planes estratégicos, principalmente porque con frecuencia quedan en un documento lleno de buenas intenciones que una vez terminado, se deja en el olvido. <b>Lo que hace que las estrategias de un plan se concreten son los proyectos clave o estratégicos que se derivan de estas.</b></p>
-
-<p>Así mismo, <b>un proyecto es un conjunto de ideas organizadas que pretenden alcanzar un objetivo</b>, para lo cual se realizan una serie de actividades en forma planificada. La diferencia entre los proyectos comunes y los estratégicos radica en las siguientes características:</p>
-
-<p>a) Los proyectos estratégicos no son proyectos aislados; sino que se rigen por objetivos encaminados hacia una misma dirección, es decir, <b>son el resultado de un proceso de planificación estratégica</b>, en la cual se revisaron los problemas más importantes de determinada cuestión, detectando las causas principales y sus consecuencias; así también <b>pasaron por un análisis detallado, un diagnóstico, objetivos, metas y estrategias</b> que atiendan la problemática de raíz.</p>
-
-<p>b) <b>Son impulsados por acciones o iniciativas de manera participativa e incluyente</b>, integrando la comunidad y todos los sectores sociales involucrados en decisiones para el bien común.</p>
-
-<blockquote>
-    <p>"El éxito de un proyecto depende fuertemente de la capacidad, disposición y motivación de las partes involucradas en su desarrollo" (UNAL, 2014)[i]</p>
-</blockquote>
-
-<blockquote>
-    <p>"Una participación inadecuada de las partes interesadas es una de las razones más comunes del fracaso de programas y proyectos. Por lo tanto, se deberían hacer todos los esfuerzos posibles para alentar un compromiso amplio y activo de las partes interesadas en los procesos de planificación, seguimiento y evaluación. Esto es especialmente importante en situaciones de crisis en las que se puede agudizar la sensación de inseguridad y vulnerabilidad de la gente, y existir tensiones y facciones" (PNUD, 2009)[ii]</p>
-</blockquote>
-
-<p>c) <b>Comparten un enfoque integral y sistémico</b>, la forma de abordar la problemática y las soluciones no pueden ser aisladas, sino parte de un todo y deberá tomar su interacción con otros elementos y proyectos.</p>
-
-<p>d) <b>Son pertinentes</b>, es decir, <b>los objetivos y productos a lograr se ajustan al problema y a sus causas identificadas en el diagnóstico y necesidades, así como del perfil de la población objetivo.</b> Las características sociales, culturales y económicas que presentan los potenciales beneficiarios pueden hacer más coherentes y oportunas las actividades necesarias para producir un bien o servicio.</p>
-
-<p>e) <b>Son viables y factibles.</b> Un proyecto viable, es un proyecto que además de que es factible, es decir, que es posible de realizar, tiene la disponibilidad de los recursos necesarios para llevar a cabo los objetivos y metas señaladas. Frecuentemente esto resulta de un análisis costo-beneficio que integra los diferentes enfoques disciplinarios (social, económico, ambiental, técnico, institucional, legal) y determina tanto la rentabilidad económica, como la sostenibilidad del proyecto.</p>
-
-<p>f) <b>Requieren un proceso constante de evaluación para su control, seguimiento y mejora continua.</b> Se utilizan <b>indicadores propios de cada proyecto</b>, que señalen el cambio generado entre el estado actual y el que se pretende en su planificación, es decir, se determina que tanto el proyecto ha logrado cumplir con sus objetivos o cual es su capacidad para hacerlo, de acuerdo a la fase en que se encuentre.</p>
-
-<p>Bajo estos criterios, el IMPLAN Torreón busca direccionar los esfuerzos mediante metodologías de planeación participativa y un enfoque sistémico, como es el caso de la elaboración de <b>Plan Estratégico Metropolitano</b>. En el cual, <b>después de haber identificado las necesidades prioritarias</b> de la región de manera integral y participativa, se invita a los actores principales que determinan al territorio, y que a su vez, se ven determinados por éste, a <b>proponer proyectos</b> con estas características que conformarán la <b>Cartera de Proyectos Estratégicos de la Zona Metropolitana de la Laguna 2015-2040</b>.</p>
-
-<blockquote>
-    <p>"… Sí creo en el desarrollo económico y sustentable como resultado del compromiso social incluyente"</p>
-    <p class="pull-right">― Anónimo ―</p>
-</blockquote>
-
-<p>[i] Universidad Nacional de Colombia. <a href="http://www.virtual.unal.edu.co/cursos/agronomia/2007841/lecciones/04_01.htm">Formulación y Gestión de Proyectos</a> [Fecha de consulta: 25 de noviembre 2014].</p>
-
-<p>[ii] Programa de las Naciones Unidas Para el Desarrollo, 2009. <a href="http://web.undp.org/evaluation/handbook/spanish/documents/manual_completo.pdf">Manual de Planificación, Seguimiento y Evaluación de los Resultados de Desarrollo. A.K. Office Supplies</a> (NY) [Fecha de consulta: 25 de noviembre 2014].</p>
-]]></description>
-    </item>
-    <item>
-      <title>DOT: Desarrollo Orientado al Transporte</title>
-      <link>http://trcimplan.gob.mx/blog/dot-desarrollo-orientado-transporte.html</link>
-      <guid isPermaLink="false">blog-dot-desarrollo-orientado-transporte</guid>
-      <pubDate>Wed, 05 Nov 2014 00:00:00 -0600</pubDate>
-      <author>Ing. Luis Campos Hinojosa</author>
-      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/dot-desarrollo-orientado-transporte/imagen.png"></span>
-
-<blockquote>
-    <p>"La naturaleza la prepara el sitio, y el hombre lo organiza de tal manera que satisfaga sus necesidades y deseos"</p>
-    <p class="pull-right">Vidal de la Blache</p>
-</blockquote>
-
-<p>En las últimas décadas, han surgido nuevos modelos urbanos que retoman el componente humano como eje principal de la planeación, buscando el equilibrio entre una ciudad altamente competitiva pero con servicios e infraestructura orientada al confort y las necesidades del ser humano.</p>
-
-<p>Las teorías de planeación modernistas y postmodernistas dejaron una profunda huella en la construcción de ciudades, al haber favorecido el uso del automóvil y la expansión urbana desmedida. Datos de SEDESOL (2012) señalan que el área de las ciudades mayores a 50 mil habitantes se expandieron 6 veces de 1980 a 2010, mientras que la población solo se incrementó 1.9 veces, para el caso de Torreón, datos del IMPLAN revelan que la ciudad se expandió 7 veces, mientras la población creció 3 veces.</p>
-
-<p>Este proceso de expansión urbana desmedida, ha encarecido la prestación de servicios públicos, como el transporte y ha incentivado el uso del automóvil, con graves costos sociales como: contaminación, ruido, accidentes, congestionamiento, etc.</p>
-
-<p>William H. White manifiesta que <i>"la ciudad no es un objeto de ingeniería sino un sistema complejo de experiencias que se nutren de la diversidad de actividades y relaciones sociales. Nuestras actividades diarias son lo que conforman nuestra calidad de vida que debemos entender como la calidad de experiencias que vivimos en la ciudad. La habitabilidad de la vivienda, la accesibilidad a los servicios, la conectividad a los centros de empleo, la facilidad de movilidad, la interacción social, entre otras"</i>.</p>
-
-<p>Imaginemos un barrio en la ciudad en el que nuestras actividades y empleo están cerca, donde hay parques y calles seguras, donde podemos salir a correr, caminar o trasladarnos en bicicleta, donde el transporte público es accesible y el traslado es en corto tiempo. A esto se le conoce como Desarrollo Orientado al Transporte (DOT).</p>
-
-<p>El Desarrollo Orientado al Transporte (DOT) es un modelo urbano que busca construir barrios entorno al transporte público, barrios compactos y de alta densidad, con zonas de uso mixto (comercial, negocios y residencial), espacios públicos seguros que favorezcan la interacción social y una buena infraestructura peatonal y ciclista.</p>
-
-<h3>Beneficios del DOT</h3>
-
-<p>1. Beneficios ambientales.</p>
-
-<ul>
-    <li>Reduce emisiones de gases de efecto invernadero.</li>
-    <li>Mejora la calidad del aire.</li>
-    <li>Ayuda a conservar áreas naturales.</li>
-    <li>Favorece la recarga de mantos acuíferos.</li>
-</ul>
-
-<p>2. Beneficios sociales.</p>
-
-<ul>
-    <li>Mejora el acceso al transporte público.</li>
-    <li>Mejora la salud de la población.</li>
-    <li>Aumenta la actividad del espacio público.</li>
-    <li>Promueve la inclusión y equidad social.</li>
-    <li>Mejora los índices de seguridad ciudadana y vial.</li>
-</ul>
-
-<p>3. Beneficios económicos</p>
-
-<ul>
-    <li>Activa la economía local.</li>
-    <li>Aumenta la plusvalía inmobiliaria.</li>
-    <li>Aumenta la productividad.</li>
-    <li>Aprovecha las inversiones en infraestructura existentes.</li>
-    <li>Reduce la necesidad de nueva infraestructura.</li>
-    <li>Reduce costos de traslados para la población.</li>
-</ul>
-
-<p>La implementación de sistemas BRT (Bus Rapid Transit) en ciudades mexicanas como DF, Guadalajara y León son reflejo de estos primeros esfuerzos por desarrollar ciudades orientadas al transporte. Sabiendo que la estructura urbana y la movilidad están estrechamente interrelacionadas.</p>
-
-<p>Actualmente, La Laguna se encuentra en un proceso de implementación de un BRT, el cual puede servir como piedra angular para generar una estrategia integral de Desarrollo Orientado al Transporte, que solucione la movilidad local y regional de sus habitantes, de manera peatonal, ciclista y de transporte público de calidad.</p>
-
-<p></p>
-
-<blockquote>
-    <p>"Es maravilloso despertar en una ciudad donde todos los días te das cuenta que hoy la ciudad es un lugar mejor para vivir que el de ayer"</p>
-    <p class="pull-right">Jan Gehl</p>
-</blockquote>
-]]></description>
-    </item>
-    <item>
-      <title>Datos Abiertos en los Gobiernos Municipales</title>
-      <link>http://trcimplan.gob.mx/blog/datos-abiertos-gobiernos-municipales.html</link>
-      <guid isPermaLink="false">blog-datos-abiertos-gobiernos-municipales</guid>
-      <pubDate>Tue, 04 Nov 2014 00:00:00 -0600</pubDate>
-      <author>Ing. Guillermo Valdés Lozano</author>
-      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/datos-abiertos-gobiernos-municipales/imagen.jpg"></span>
-
-<p>No cabe duda que estamos en la <b>época dorada de la información</b>. Nunca antes, la mayor parte de la humanidad había tenido en sus manos tantos documentos, audios, videos, etc. Sean lejanos o cercanos; con un tiempo de solicitud y llegada de pocos segundos (desde que escribimos y damos <i>ENTER</i> en un dispositivo conectado al <b>Internet</b>); además, comparado a otros tiempos, con un costo muy bajo. La <b>red de redes</b> es un cambio tan trascendental como la revolución industrial de principios del siglo pasado.</p>
-
-<h3>Siempre que se comparte el conocimiento, le brindas una útil herramienta a todos</h3>
-
-<p>En esta revolución del conocimiento común tenemos dos complementos: el <b>tecnológico</b> formado por todos las computadoras, fibras ópticas, redes celulares, teléfonos inteligentes y muchos más que construyen una gran infraestructura de telecomunicaciones. El otro complemento, es el conjunto de <b>principios éticos, morales y de transparencia</b> que motivan a las personas, empresas, instituciones y gobiernos a liberar su información a la red, al ciudadano.</p>
-
-<p>Cabe recordar y admirar que fue hace 25 años cuando <a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Sir Tim Berners-Lee</a> desarrolló los conceptos de las páginas web y puso en operación el primer servidor web en el <a href="http://home.web.cern.ch/" target="_blank">CERN</a>. Él mismo defendió que sus ideas fueran de uso libre, sin patentes; para que rápidamente fueran usadas por la comunidad científica y compartieran sus conocimientos, en un inicio, y luego para toda la humanidad fundando el <a href="http://www.w3.org/" target="_blank">W3C</a>.</p>
-
-<p>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... <b>¿Cómo se podrían mejorar los servicios gubernamentales?</b> La respuesta es Datos Abiertos.</p>
-
-<h3>¿Qué son los Datos Abiertos?</h3>
-
-<p>Datos Abiertos es en esencia una <a href="http://opendatahandbook.org/es/what-is-open-data/" target="_blank">"Definición de Apertura"</a>:</p>
-
-<blockquote>Los datos abiertos son datos que pueden ser utilizados, reutilizados y redistribuidos libremente por cualquier persona y que se encuentran sujetos, cuando más, al requerimiento de atribución y de compartirse de la misma manera en que aparecen.</blockquote>
-
-<p>Las características más importantes que deben tener los datos abiertos son:</p>
-
-<ul>
-    <li><b>Disponibilidad y acceso:</b> la información debe estar disponible como un todo y a un costo razonable, de preferencia que se pueda descargar de internet. Además debe estar en un formato conveniente y modificable. Por ejemplo, como archivos CSV que podemos importar a cualquier hoja de cálculo.</li>
-    <li><b>Reutilización y redistribución:</b> los datos deben ser provistos bajo términos que permitan reutilizarlos y redistribuirlos, e incluso integrarlos con otros conjuntos de datos, simpre con fines legales. Por ejemplo, que podamos estudiar los datos sobre accidentes de tránsito y buscar los cruceros más riesgozos o las épocas del año con mayor cantidad de los mismos.</li>
-    <li><b>Participación universal:</b> todos deben de poder utilizar, reutilizar y redistribuir la información. No debe haber discriminación alguna en términos de esfuerzo, personas o grupos. Por ejemplo, que se permita el uso de la información de las rutas de transporte público para la promoción de turismo, sin costo alguno.</li>
-</ul>
-
-<h3>Los datos que el gobierno debería compartir</h3>
-
-<p>El <b>International Open Data Census</b> fue creado por la <a href="https://okfn.org" target="_blank">Open Knowledge Foundation</a> en 2012 y provee una medida clara de los datos abiertos; hace el siguiente <a href="http://censo.datamx.io/faq/" target="_blank">Listado de Conjunto de Datos</a>:</p>
-
-<table class="table table-hover table-bordered">
-	<tr>
-		<th>Conjunto de datos</th>
-		<th>Descripción</th>
-	</tr>
-	<tr>
-		<td>Transporte en tiempo real</td>
-		<td>Información en tiempo real* sobre sistemas principales de gobierno o concesionados (camiones, metro, trenes, tranvías, etc.).</td>
-	</tr>
-	<tr>
-		<td>Presupuesto Anual</td>
-		<td>Presupuesto municipal en un nivel alto. Por ejemplo gastos por sector, por dependencia, etc. Esta categoría es para presupuestos que son planes de gasto (no gastos reales en el pasado).</td>
-	</tr>
-	<tr>
-		<td>Gasto (detallado)</td>
-		<td>Registros de gastos reales (pasados) a nivel de transacciones. Por ejemplo, el gasto mes con mes de temas específicos a un nivel de granulación amplio.</td>
-	</tr>
-	<tr>
-		<td>Resultados Electorales</td>
-		<td>Resultados por localidad/sitio de contiendas electorales en el municipio.</td>
-	</tr>
-	<tr>
-		<td>Calidad del Aire</td>
-		<td>Datos sobre calidad del aire. Por ejemplo los niveles de contaminantes mayores a nivel granular; por lo menos mes a mes, preferible día a día y con división geográfica.</td>
-	</tr>
-	<tr>
-		<td>Horarios de Transporte</td>
-		<td>Horarios de todos los sistemas operados por gobierno o consecionados (camiones, metro, trenes, tranvías, etc.). Ubicaciones de las paradas como datos georreferenciados.</td>
-	</tr>
-	<tr>
-		<td>Servicios Públicos</td>
-		<td>Ubicación de varios servicios públicos como escuelas, parques, hospitales, guarderías, etc.</td>
-	</tr>
-	<tr>
-		<td>Estadísticas de Crimen</td>
-		<td>Datos sobre crimen a nivel municipal. Preferiblemente a un grado razonablemente desagregado; lo mejor sería con fecha exacta (fecha-hora) y ubicación; es aceptable por día y calle o código postal.</td>
-	</tr>
-	<tr>
-		<td>Contratos de Adquisición</td>
-		<td>Información por contrato sobre contratos municipales. Incluyendo monto, ganador (nombre y dirección), etc.</td>
-	</tr>
-	<tr>
-		<td>Accidentes de Tránsito</td>
-		<td>Estadísticas sobre accidentes de tránsito incluyendo hora y ubicación.</td>
-	</tr>
-	<tr>
-		<td>Permisos de Construcción</td>
-		<td>Datos de los permisos de construcción otorgados por el municipio.</td>
-	</tr>
-	<tr>
-		<td>Solicitudes de Servicios</td>
-		<td>Solicitudes que no son de emergencia a las autoridades municipales. Por ejemplo, baches, grafiti, luminarias, etc. Deben ser granulares, a nivel de solicitud.</td>
-	</tr>
-	<tr>
-		<td>Permisos para Empresas</td>
-		<td>Permisos para empresas. Licencias de funcionamiento.</td>
-	</tr>
-	<tr>
-		<td>Listado de Empresas</td>
-		<td>Información clave sobre las empresas en el área municipal. Tal como nombre, dirección, información de contacto y tipo de negocio.</td>
-	</tr>
-</table>
-
-<p>* Información en tiempo real quiere decir cosas como ubicación exacta de los servicios (dónde están los camiones o los trenes, etc.).</p>
-
-<h3>Conozca a quienes promueven los datos abiertos</h3>
-
-<ul>
-    <li>A nivel internacional <a href="https://okfn.org/" target="_blank">Open Knowledge</a> es una organización sin ánimo de lucro que promueve la apertura de datos con recursos tecnológicos.</li>
-    <li>El Gobierno Federal tiene el sitio <a href="http://datos.gob.mx/" target="_blank">datos.gob.mx</a> y está en proceso la iniciativa de ley “Datos Abiertos” que regulará a todos los niveles del gobierno para que vayan liberando sus datos.</li>
-    <li>El sitio <a href="http://datamx.io/" target="_blank">datamx.io</a> es elaborado por <a href="http://codeandomexico.org/" target="_blank">Codeando México</a> donde activistas informáticos mexicanos trabajan en diferentes proyectos sobre Datos Abiertos. Entre éstos está un sistema para la recopilación, validación y descarga de <a href="http://censo.datamx.io/" target="_blank">datos abiertos de los municipios de México</a>. Vea la siguiente imagen.</li>
-</ul>
-
-<h3>Imagen del Open Data Census de las Ciudades de México al 2 de noviembre de 2014</h3>
-
-<a href="http://censo.datamx.io/" target="_blank"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/datos-abiertos-gobiernos-municipales/open-data-census-ciudades-mexico-2014-11-02.png" alt="Open Data Census de las Ciudades de México al 2 de noviembre de 2014"></a>
-
-<h3>El IMPLAN Torreón está trabajando en la apertura de datos</h3>
-
-<p>En mayo de 2014 se lanzó el <a href="http://trcimplan.gob.mx/indicadores-categorias/index.html" target="_blank">Sistema Metropolitano de Indicadores</a> donde se concentra información de interés de los municipios de Torreón, Gómez Palacio, Lerdo y Matamoros.</p>
-
-<p>Se está construyendo la <a href="http://trcimplan.gob.mx" target="_blank">segunda versión del sitio web del IMPLAN</a> donde se integra el Sistema Metropolitano de Indicadores y el Sistema de Información Geográfica. El objetivo es ofrecer una misma plataforma donde los datos, los mapas y los análisis se encuentren debidamente organizados.</p>
-
-<p>Hay contacto frecuente con los funcionarios de los municipios de la Zona Metropolitana de La Laguna. En las agendas de trabajo se tiene como prioridad la cooperación mutua para hacer llegar al ciudadano la información que necesita; y el ofrecimiento del staff del IMPLAN para su apoyo.</p>
-]]></description>
-    </item>
-    <item>
-      <title>Las ciudades y el reto de su transformación</title>
-      <link>http://trcimplan.gob.mx/blog/ciudades-reto-transformacion.html</link>
-      <guid isPermaLink="false">blog-ciudades-reto-transformacion</guid>
-      <pubDate>Tue, 28 Oct 2014 00:00:00 -0600</pubDate>
-      <author>Arq. Victoria Aranzábal</author>
-      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/ciudades-reto-transformacion/imagen.jpg"></span>
-
-<p>El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana, para el 2008 el Fondo de Población de las Naciones Unidas declaró que desde ese momento, más del 50% de la población vivía en ciudades. Esta tendencia continúa en la mayor parte de los países, sobre todo del hemisferio sur, convirtiéndose en los principales puntos de concentración, presente y futura de la población.</p>
-
-<p>Debido a este crecimiento exponencial y a los cambios globales, las urbes han enfrentado muchos retos y vivido fuertes transformaciones. La falta de capacidad de respuesta y la inadecuada toma de decisiones han conducido a las ciudades a diversas crisis económicas, sociales, ambientales, etc. pero… <em>“la ciudad no es el problema, es la solución”</em> (Jaime Lerner, ex presidente municipal de Curitiba, 2007)</p>
-
-<p>En nuestro país, a inicios de 1900 únicamente el 10.30 % de la población urbana estaba distribuida en 33 ciudades, entre 1940-1950, el país contaba con 84 ciudades pasando del 20% al 28% al final de la década. En los años 80´s alrededor 6.8 millones de personas migraron del campo a la ciudad elevando el porcentaje de urbanización a un 55%, terminando la década en 63.4%.; por mencionar los movimientos más grandes del siglo. Torreón, por su parte, fue de las zonas urbanas que más creció a nivel nacional en la década de 1930-1940, y entre 1970-1980 formaba parte del polo central de concentración de población urbana nacional conformada por tan sólo 8 ciudades del país (Garza Villarreal 2002).</p>
-
-<p>El espacio urbano hoy en día se caracteriza por la segregación socio-espacial, feminización de la pobreza, desintegración del tejido social, rezago en el abasto de servicios públicos, problemas ambientales, socio-culturales, desempleo, asentamientos irregulares, crisis laboral, violencia, entre otros problemas no menos importantes.</p>
-
-<p>En la era de las ciudades, donde estas influyen en las relaciones políticas, económicas y sociales, un porvenir próspero para la humanidad depende de qué tan responsables y comprometidos seamos con las decisiones que se tomen hoy para construir el futuro sostenible, ciudades que signifiquen ganar-ganar para todos. Todos los días escuchamos, leemos y vemos crisis pero poco se habla de las soluciones tal vez porque, citando a Raimon Samso, <em>“las soluciones verdaderas suelen ser incómodas, piden cambio, exigen reinventarse…”</em>, pero reinvertirse ¿en qué o hacia dónde?. <em>“Donde no hay visión, el pueblo se extravía…”</em> (Salomón Proverbios 29:18).</p>
-
-<p>¿Cuál es esa visión que tenemos para la Zona Metropolitana de la Laguna (ZML)?, ¿Cómo la vemos en 25 años?, ¿bajo qué condiciones la ZML será incluyente, sustentable, próspera, verde, limpia, etc.?, ¿estamos dispuestos a crearla? Una visión clara, de dónde estamos y hacia dónde vamos, apoyará a trazar objetivos y metas alcanzables con los cuales podamos identificar las acciones claves que funcionen como base para la toma de decisiones que permita a la ZML alcanzar un nivel de competitividad alto, con visibilidad nacional e internacional que ofrezca a sus ciudadanos y visitantes una buena calidad de vida.</p>
-
-<p>A nivel mundial ciudades como Singapur, New York, Barcelona, París, Bilbao, Medellín, Santiago, Curitiba, entre otras, han generado para sí transformaciones exitosas encaminadas a un desarrollo sostenible. ¿Pero en donde radica la diferencia entre estas ciudades y las que no han logrado reinventarse?</p>
-
-<p>Muchas ciudades han apostado por una participación ciudadana fuerte y amplia, que generó el compromiso y corresponsabilidad necesarios para transformar las ciudades como es el caso de Barcelona, Santiago y Medellín, además de la participación, Curitiba apostó por la educación sobre todo en los niños para lograr sus grandes objetivos, como lo fue la política ambiental. Singapur por su parte logro un salto del tercer al primer mundo en 30 años, a pesar de su tamaño, su carencia de recursos y su población, apostó por la construcción de capital social y fuertes cambios de mentalidad que llevaron a transformaciones económicas y sociales.</p>
-
-<p>En todos los casos la planificación a largo plazo ha sido fundamental para el desarrollo de estas ciudades, una planificación que permita centrar energías y esfuerzos en proyectos a corto y mediano plazo, pensados para construir la metrópoli que la sociedad desea y está dispuesta a construir.</p>
-
-<p>Para el desarrollo sustentable de la ZML no hay un único camino, no existe sólo un modelo de desarrollo, no hay sólo una respuesta, ni mucho menos verdades absolutas. Por ello el desarrollo de la Comarca Lagunera deberá ser manifestación de la sociedad que la vive, una visión donde quepan todas las visiones de los laguneros, acorde con su identidad y aspiraciones, deberá ser manifestación de los diversos intereses particulares, de otra manera no será sostenible.</p>
-
-<p>Una trasformación hacia un desarrollo sustentable lleva tiempo y para ello se requiere una planeación a largo plazo que fomente la continuidad de los esfuerzos hacia las metas trazadas; y ante la rapidez en la que ocurren los cambios, habrá que identificar cuanto recurso (humano, social, económico, ambiental) debemos invertir a cada objetivo y meta, ante distintos escenarios posibles, con demandas crecientes y recursos limitados, haciendo cada vez más imperativo centrar las energías y esfuerzos a respuestas creativas e innovadoras orientadas a alcanzar objetivos y metas claras. Ciertamente un tema importante es la disponibilidad de los recursos, pero entonces ¿ya todo está perdido?, <em>“la creatividad inicia cuando le quitas un 0 al presupuesto”</em> (Jaime Lerner, ex presidente municipal de Curitiba, 2007).</p>
-
-<p>A medida que pasa el tiempo las urbes toman cada vez más peso en el desarrollo global, la ZML ha dejado de jugar un papel preponderante como otrora a nivel nacional, las consecuencias del rápido crecimiento urbano del siglo pasado y la elecciones tomadas han dejado fuertes demandas y carencias, pero también han construido fortalezas. Lo más importante es que aquí como en Singapur, el pasado y la evidencia del presente nada tiene que ver con el futuro, la oportunidad de reinventarse, de visualizar el futuro deseable y de generar las acciones necesarias siempre está presente.</p>
-
-<blockquote>“La locura es: seguir haciendo lo mismo y esperar resultados diferentes” (Albert Einstein)</blockquote>
-
-<p>Garza Villarreal, Gustavo. Evolución de las ciudades mexicanas en el siglo XX. Datos, hechos y lugares. No. 19, 2002.</p>
-
-<p>Lerner, Jaime (2007). A song of the city, en <a href="http://www.ted.com" target="_blank">www.ted.com</a>.</p>
-]]></description>
-    </item>
-    <item>
-      <title>Torreón, camino a la redensificación II</title>
-      <link>http://trcimplan.gob.mx/blog/torreon-camino-redensificacion-2.html</link>
-      <guid isPermaLink="false">blog-torreon-camino-redensificacion-2</guid>
-      <pubDate>Thu, 23 Oct 2014 00:00:00 -0500</pubDate>
-      <author>Arq. Teresita Benítez Saludado</author>
-      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/torreon-camino-redensificacion-2/imagen.jpg"></span>
-
-<blockquote>
-    <p><i>¨La planificación de una ciudad es más que un conjunto de ideas o de opiniones dispersas de los individuos que la habitan, la planificación es una ciencia, o mejor dicho, un conjunto de ciencias que estudian la ciudad, considerándola ya como un organismo físico, ya como una entidad moral¨.</i></p>
-    <p class="pull-right">E. Gleaser.</p>
-</blockquote>
-
-<p>Retomo el tema de la redensificación de ciudades, y de Torreón en especial, pues como <a href="http://trcimplan.gob.mx/blog/torreon-camino-redensificacion.html">ya lo había presentado</a>, las cifras nos indican como el territorio ocupado en la ciudad es siete veces contra tres del crecimiento poblacional de la década de 1970 a la fecha.</p>
-
-<h3>¿Cuáles son los principales costos de la expansión urbana?</h3>
-
-<p>La expansión urbana está inmersa en un proceso más amplio de construcción que crea beneficios al generar nuevo valor agregado y empleos en el corto plazo. Sin embargo, la expansión también tiene costos para toda la sociedad, que pueden distinguirse en tres tipos: los fiscales generados por la provisión de infraestructura y equipamiento por parte del gobierno; los impuestos a los individuos en la forma de costos de transporte y las externalidades negativas generadas por la expansión, que se reflejan en impactos de salud y ambientales.</p>
-
-<p>Todos estos cuando son valorizados permiten comprender por qué existe la necesidad de planear las ciudades y contener la expansión urbana descontrolada, promoviendo las redensificaciones  y así eficientar más lo contenido en infraestructura de las ciudades.</p>
-
-<h3>Cuál es la situación de Torreón a detalle:</h3>
-
-<p>a) La densidad poblacional media urbana de Torreón al 2010* es de 81.3 habitantes por Hectárea, mientras que comparativamente, la ciudad de Aguascalientes, con una superficie urbana semejante a la de Torreón trae una densidad poblacional de 108.2 habitantes por Hectárea.</p>
-
-<p>b) La densidad más alta que encontramos en la ciudad, según información porAgebs (INEGI) es de 368.8 habitantes por  Hectárea, 4.5 veces la media para la ciudad.</p>
-
-<p>c) Estos Agebs se ubican en la parte sur, y sur-poniente de la ciudad, y corresponden a colonias populares, y conjuntos habitacionales institucionales.</p>
-
-<p>d) La dispersión deja grandes espacios baldíos en medio de la ciudad, creando especulación inmobiliaria y acrecentando distancias a recorrer diariamente.</p>
-
-<h3>Densidad de Población de Torreón en 2013</h3>
-
-<p><a href="http://trcimplan.gob.mx/blog/torreon-camino-redensificacion-2/densidades-poblacion.jpg"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/torreon-camino-redensificacion-2/densidades-poblacion-1024.jpg" alt="Densidad de Población de Torreón"></a><br>
-<span style="font-size:0.8em;">Elaboración en IMPLAN.</span></p>
-
-<p>La expansión de la ciudad tiene un efecto directo sobre el bienestar de los individuos y los hogares laguneros, pues al tener que recorrer mayores distancias se incrementan los gastos en transporte y se reduce el ingreso disponible para otras necesidades que incrementen el bienestar de las familias.</p>
-]]></description>
-    </item>
-    <item>
-      <title>Cultura y seguridad vial</title>
-      <link>http://trcimplan.gob.mx/blog/cultura-seguridad-vial.html</link>
-      <guid isPermaLink="false">blog-cultura-seguridad-vial</guid>
-      <pubDate>Wed, 22 Oct 2014 00:00:00 -0500</pubDate>
-      <author>Lic. Alfredo Viesca Domínguez</author>
-      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/cultura-seguridad-vial/imagen.png"></span>
-
-<p>La cultura vial se refiere a la construcción de una convivencia armoniosa, responsable y de respeto entre todos los que hacemos uso de las vías de tránsito, sean estas aceras, rutas, caminos, ciclo vías, etc.</p>
-
-<p>También hace referencia al  hecho de que comprendamos cuales son nuestros deberes y derechos en el uso de estas vías, sobre todo  porque cualquiera de nosotros, en cualquier momento puede jugar un rol de conductor, ciclista, motociclista, peatón o aún más, de un peatón con capacidades diferentes.</p>
-
-<p>De esta manera, la cultura vial hace referencia a los comportamientos humanos en las vías, en los espacios de movilidad, no juzga si son correctos o incorrectos, lo que importa es la manera en que las colectividades se expresan en esos espacios.</p>
-
-<p>En este sentido la cultura vial se relaciona con la seguridad vial, esta última hace referencia a la manera en que podemos atender los riesgos en las vías, a la forma en que enfrentamos dichos riesgos para prevenir accidentes o bien, que el impacto en vidas humanas sea mínimo.</p>
-
-<p>Podemos decir entonces que la manera en que nos comportamos en las distintas vías, provocará un mayor o menor número de riesgos en la interacción con los otros y estos riesgos serán mínimos o no de acuerdo a la manera en que nos movamos o nos comportamos.</p>
-
-<p>Si bien es cierto que la cultura vial aporta una serie de aspectos importantes en cuanto al comportamiento adecuado en las vías, es fundamental entender  que  estos planteamientos, están orientados a la seguridad vial, es decir, a la prevención de accidentes de tránsito o la minimización de sus efectos, especialmente para la vida y la salud de las personas.</p>
-
-<p>En lo que respecta a la Zona Metropolitana de la Laguna (ZML) los accidentes han tenido un comportamiento diferente, que si bien es cierto, en algunos municipios no es preocupante, en otros como Torreón y Gómez Palacio no deja de llamar la atención la cantidad de los mismos.</p>
-
-<img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/cultura-seguridad-vial/accidentes-transito-tasa-accidentes-zml-2013.png" alt="Accidentes de Tránsito en la ZML durante 2013, Tasa de accidentes por 100 mil habitantes">
-
-<img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/cultura-seguridad-vial/cantidad-accidentes-zml-2013.png" alt="Cantidad de Accidentes en la ZML en 2013">
-
-<img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/cultura-seguridad-vial/tasa-accidentes-zml-2013.png" alt="Tasa de Accidentes en la ZML en 2013">
-
-<p>De la mayor proporción de accidentalidad en los municipios de Torreón y Gómez Palacio, se puede inferir que se da toda vez que dichos municipios reciben diariamente el mayor número de automovilistas de los municipios vecinos, sin que el territorio ni la ingeniería e infraestructura vial sean suficientes para ello, lo cual se sustenta en los flujos de la movilidad laboral previamente documentados. (Ver <a href="http://trcimplan.gob.mx/blog/movilidad-laboral-cotidiana-zml.html">Gutiérrez Arizpe 2014</a>).</p>
-
-<p>Podemos concluir que como en muchos otros aspectos de la zona metropolitana de la laguna, es impostergable la construcción, implementación y seguimiento de una política pública sobre seguridad vial encaminada a la protección de la vida humana.</p>
-]]></description>
-    </item>
-    <item>
-      <title>La visión de los vencedores</title>
-      <link>http://trcimplan.gob.mx/blog/vision-vencedores.html</link>
-      <guid isPermaLink="false">blog-vision-vencedores</guid>
-      <pubDate>Tue, 21 Oct 2014 00:00:00 -0500</pubDate>
-      <author>Lic. Eduardo Holguín Zehfuss</author>
-      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/vision-vencedores/imagen.jpg"></span>
-
-<p>Animo, coraje, atrevimiento, valentía, arrojo, son actitudes coadyuvantes del triunfo, del éxito, del progreso de una comunidad. Después de la Segunda Guerra Mundial tales actitudes llevaron a Alemania y a Japón a convertirse, en una década, en potencias económicas. El regreso de La Laguna a los primeros lugares en el ranking de competitividad nacional demanda de una comunidad que retome los valores y el empuje de “Los Fundadores”, de los hombres y mujeres que lejos de considerarse victimas de las adversidades, de su entorno natural y político, construyeron una de las regiones más prósperas de México.</p>
-
-<p>Es verdad que La Laguna sufrió los estragos de una “Tormenta Perfecta”, en la cual se sumaron las consecuencias de la última recesión global y de los embates del crimen organizado.</p>
-
-<p>En materia de inseguridad poco podemos contarles a los comarcanos. En materia económica el desempleo, el cierre de empresas y la emigración de jóvenes talentos lastimaron seriamente el bienestar regional.</p>
-
-<p>Sin embargo, también es verdad que la “Tormenta Perfecta” ha amainado, los indicadores de competitividad empiezan a levantarse regresando la confianza inversora y la esperanza en el futuro de la metrópoli.</p>
-
-<p>Aunque los focos rojos de la inseguridad siguen encendidos los crímenes de alto impacto ya no aterrorizan a la ciudadanía y los índices de empleo muestran una mejoría irrefutable.</p>
-
-<p>De acuerdo a la Encuesta Nacional de Ocupación y Empleo de INEGI el desempleo abierto se ha reducido de 10%, en el 2009, a 5% en el 2014.</p>
-
-<p>Por su parte el IMSS informa que en Torreón, a Julio del presente año, se habían generado 5,500 empleos, superándose lo que demanda el crecimiento de la Población Económicamente Activa (PEA).</p>
-
-<p>Cabe señalar que persiste el reto de generar los empleos necesarios para cubrir el rezago habido en el último quinquenio. También, es imprescindible levantar la calidad de los puestos de trabajo y darle chamba a los profesionistas que se incorporan, año con año, al mercado laboral; pero, alienta el que la demanda anual de la PEA esté siendo superada gracias al renovado esfuerzo de la planta productiva local; del empeño y del ímpetu de los productores y empresarios de la Comarca.</p>
-
-<p>También alienta que los números duros de instituciones especializadas muestran que, a pesar del bache en el que caímos, la estructura económica de La Laguna, construida en 100 años, se mantiene solida. Mencionemos que de 2009 a 2012 el PIB per cápita de la región se incrementó 22% (Banamex), y que en su último informe el IMCO refiere a La Laguna como la metrópoli con mejor entorno laboral del país en relación a aquellas con más de un millón de habitantes. Posición lograda gracias a su elevada productividad laboral, la séptima de México.</p>
-
-<p>Dicha productividad será variable fundamental en la atracción de las muchas inversiones que arribarán al norte mexicano gracias a las externalidades positivas de la recién aprobada Reforma Energética. La caída en el costo de la energía eléctrica y la demanda de servicios, insumos y materias primas de la industria emergente Shale, son dos de las principales externalidades que habrán de dinamizar el crecimiento económico de La Comarca.</p>
-
-<p>Si bien es cierto que la región cuenta con un enorme potencial económico, también lo es que enfrenta enormes retos: productivos, laborales, tecnológicos, ecológicos, culturales, urbanísticos, de vialidad, de transporte, etc. Los retos son grandes, las problemáticas varias, las carencias significativas. Pero también lo fueron aquellas que enfrentaron Los Fundadores. Ellos, los hacedores de La Laguna, no se lamían heridas, no se revolcaban en el lodo de los lamentos, no se decían victimas de las circunstancias. La Laguna nació grande y grande será su porvenir en la medida que tomemos su futuro en nuestras manos.</p>
-
-<p>Sí, el futuro de La Laguna está en el trabajo organizado, en la unión y en las manos de sus universitarios, empresarios, ambientalistas, tecnólogos, investigadores, luchadores sociales, intelectuales, en las manos de sus funcionarios y políticos.</p>
-
-<p>Digo, entonces, que el futuro de La Laguna está en las manos de sus ciudadanos.</p>
-]]></description>
-    </item>
-    <item>
-      <title>Plan Estratégico Metropolitano | Mesa 1: Diagnóstico - Pronóstico</title>
-      <link>http://trcimplan.gob.mx/sala-prensa/2014-10-16-mesa-1-diagnostico-pronostico.html</link>
-      <guid isPermaLink="false">sala-prensa-2014-10-16-mesa-1-diagnostico-pronostico</guid>
-      <pubDate>Thu, 16 Oct 2014 00:00:00 -0500</pubDate>
+      <title>Zonificación CU1.1</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-cu11.html</link>
+      <guid isPermaLink="false">sig-zonificacion-cu11</guid>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
       <author>TrcIMPLAN</author>
-      <description><![CDATA[<h3>Mesa 1: Diagnóstico - Pronóstico</h3>
+      <description><![CDATA[<p>Norma 12.- La zonificación “CU 1.1” Corredor Urbano, Habitación, Comercio y servicios tendrá las siguientes restricciones de uso:</p>
 
-<p>El pasado 9 de octubre de 2014 comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.</p>
+<p>I.- Generales:</p>
 
-<img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/sala-prensa/2014-10-16-mesa-1-diagnostico-pronostico/foto-panoramica-previa.jpg" alt="Foto Panoramica">
+<ol>
+<li>Densidad de Vivienda: de 110 a 176 viviendas por hectárea.</li>
+<li>Densidad Habitacional Máxima: 495 a 792 habitantes por
+hectárea.</li>
+<li>Lote mínimo: no especificado.</li>
+<li>Frente mínimo del lote: no especificado.</li>
+<li>Fondo: no especificado.</li>
+<li>Estacionamiento: variable según proyecto..</li>
+<li>COS: 0.6</li>
+<li>CUS: 3.5</li>
+<li>Porcentaje de superficie permeable: no especificado.</li>
+<li>Restricciones de construcción: no especificado.</li>
+<li>Altura máxima de construcción desde el nivel de desplante, ocho
+niveles o 24m.</li>
+</ol>
 
-<p>En dicho ejercicio de diagnóstico del estado que guarda la Zona Metropolitana  de La Laguna en temas como Gobierno y Coordinación Metropolitana, Desarrollo Social, Desarrollo Económico e Innovación, Sustentabilidad, Movilidad y Entorno Urbano participaron 146 expertos de los cuatro municipios metropolitanos entre académicos, representantes de la sociedad civil organizada, empresarios, servidores públicos y ciudadanos.</p>
+<p>II.- Usos Permitidos:</p>
 
-<p>Agradecemos su participación y contamos con su participación para la conformación de la visión,  objetivos estratégicos y proyectos que conjugarán los esfuerzos de todos quienes construimos cotidianamente nuestra ciudad.</p>
+<ol>
+<li>Vivienda unifamiliar, una vivienda por lote.</li>
+<li>Vivienda plurifamiliar y multifamiliar dos o más viviendas por lote.</li>
+<li>Conjuntos habitacionales de más de 50 viviendas.</li>
+<li>Bodegas de acopio y transferencia de productos no perecederos.</li>
+<li>Gasolineras.</li>
+<li>Abarrotes, Carnicerías y Fruterías</li>
+<li>Comida para llevar.</li>
+<li>Farmacias y Boticas.</li>
+<li>Tortillerías y Panaderías.</li>
+<li>Tiendas de Conveniencia.</li>
+<li>Ropa, Calzado, Accesorios diversos.</li>
+<li>Alimentos Vegetarianos.</li>
+<li>Dulcerías.</li>
+<li>Galerías de Arte.</li>
+<li>Herbarios.</li>
+<li>Ingeniería, Dibujo.</li>
+<li>Instrumentos musicales.</li>
+<li>Joyerías y Relojerías.</li>
+<li>Mueblerías.</li>
+<li>Neverías.</li>
+<li>Ópticas.</li>
+<li>Papelerías, Librerías, Revisterías.</li>
+<li>Refacciones y Llantas.</li>
+<li>Ultramarinos, Vinos, Licores, y Expendios de Cerveza.</li>
+<li>Venta de Discos.</li>
+<li>Videocintas.</li>
+<li>Tiendas de Autoservicio de hasta 250m2.</li>
+<li>Tiendas de Autoservicio de más de 250 hasta 5000m2.</li>
+<li>Tiendas de Autoservicio de más de 5000m2.</li>
+<li>Tiendas de Departamentos de hasta 2500m2.</li>
+<li>Tiendas de Departamentos de 2500m2 hasta 5000m2.</li>
+<li>Tiendas de Departamentos de más de 5000m2 hasta 10000m2.</li>
+<li>Tiendas de Departamentos de más de 10,000m2.</li>
+<li>Centros Comerciales hasta 2,500.00m2.</li>
+<li>Centros Comerciales de 2,500 hasta 5,000m2.</li>
+<li>Centros Comerciales de más de 5,000m2.</li>
+<li>Mercados y Tianguis de hasta 10,000m2.</li>
+<li>Mercados y Tianguis de más de 10,000m2.</li>
+<li>Ferreterías y Tlapalerías</li>
+<li>Venta de Automóviles, Camiones.</li>
+<li>Consulados, Embajadas.</li>
+<li>Oficinas Privadas.</li>
+<li>Oficinas con Atención al Público.</li>
+<li>Casas de Bolsa.</li>
+<li>Bancos y Casas de Cambio.</li>
+<li>Alquiler de losa, sillas, cristalería, mesas.</li>
+<li>Alquiler de vehículos.</li>
+<li>Baños, Saunas, Sanitarios Públicos y Salas de masaje.</li>
+<li>Lavanderías y Tintorerías.</li>
+<li>Peluquerías y Estéticas.</li>
+<li>Estudios Fotográficos.</li>
+<li>Sastrerías y Talleres de Costura.</li>
+<li>Aparatos Electrodomésticos.</li>
+<li>Lavado, Lubricado y Cambio de llantas de vehículos.</li>
+<li>Limpieza de Oficinas, Hogares e Industrias.</li>
+<li>Talleres Automotrices y para motocicletas.</li>
+<li>Cafés, Fondas.</li>
+<li>Restaurantes sin venta de bebidas alcohólicas.</li>
+<li>Restaurantes con venta de bebidas alcohólicas.</li>
+<li>Venta de alimentos con autoservicio.</li>
+<li>Venta de alimentos con entrega a domicilio.</li>
+<li>Auditorios, Teatros, Cines, Salas de Concierto o Cinetecas.</li>
+<li>Centros Comunitarios, Centros Culturales y Salones de Fiestas Infantiles.</li>
+<li>Centros Comunitarios, Centros Culturales y Salones de Fiestas Infantiles.</li>
+<li>Clubes Sociales, Salones para Banquetes y de Baile.</li>
+<li>Juegos Electrónicos.</li>
+<li>Boliche, Billar, patines y juegos de mesa.</li>
+<li>Senderos o Miradores.</li>
+<li>Salas de Artes Marciales.</li>
+<li>Gimnasios, Gimnasios de Aparatos y Aeróbicos.</li>
+<li>Hoteles y Albergues hasta de 100 cuartos.</li>
+<li>Hoteles y Albergues de más de 100 cuartos.</li>
+<li>Garitas o Casetas de Vigilancia.</li>
+<li>Encierro de Vehículos, Centrales o Estaciones de Policía.</li>
+<li>Estación de Bomberos.</li>
+<li>Puesto de Socorro o Central de Ambulancias.</li>
+<li>Hospitales de hasta 10 camas o consultorios.</li>
+<li>Hospitales de más de 10 camas o consultorios.</li>
+<li>Centros de Salud, Clínicas de Urgencias o Clínicas en General.</li>
+<li>Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios.</li>
+<li>Centros de Tratamiento de enfermedades crónicas.</li>
+<li>Salones de Corte, Dispensarios, Veterinarias, Tiendas de animales.</li>
+<li>Centros Antirrábicos, de Cuarentena, Clínicas y Hospitales Veterinarios.</li>
+<li>Academias de Danza, Belleza, Contabilidad, Computación.</li>
+<li>Escuelas Secundarias generales y Técnicas.</li>
+<li>Preparatorias, Institutos Tecnológicos, Centros de Capacitación y CONALEP.</li>
+<li>Politécnicos y Tecnológicos, Universidades o Escuelas Normales.</li>
+<li>Centros de Estudio de Postgrado.</li>
+<li>Centro y Laboratorios de investigación.</li>
+<li>Centros de Exposiciones Temporales o al Aire libre y Sitios Históricos.</li>
+<li>Pinacotecas, Casas de la Cultura, Galerías de Arte, Museos.</li>
+<li>Archivos Públicos o Centros Procesadores de Información.</li>
+<li>Bibliotecas y Hemerotecas.</li>
+<li>Templos, Capillas o lugares para Culto.</li>
+<li>Correos y Telégrafos.</li>
+<li>Central Telefónica sin servicio al público.</li>
+<li>Oficinas de Teléfonos con Atención al Público.</li>
+<li>Mensajería y Paquetería.</li>
+<li>Estacionamientos Públicos.</li>
+<li>Sitios de Taxis.</li>
+<li>Plazas, Jardines, Explanadas, y Parques.</li>
+</ol>
 
-<h3>Diagnóstico Básico de la ZML</h3>
+<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU 1.1 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
 
-<p>Le invitamos a descargar y leer el <a href="http://trcimplan.gob.mx/plan-estrategico-metropolitano/plan-estrategico-metropolitano-diagnostico-basico-zml.pdf" target="_blank">Diagnóstico Básico de la Zona Metropolitana de La Laguna</a>, que es una presentación como archivo PDF de 1 MB con un gran cantidad de información para los Comités Técnicos.</p>
+<ol>
+<li>Internados (C).</li>
+<li>Casas de Asistencia (C).</li>
+<li>Comercio de Abastos y Bodegas de Productos Perecederos (B y D).</li>
+<li>Bodegas de Semillas, Huevo, Lácteos o Abarrotes (B).</li>
+<li>Aparatos eléctricos, electrónicos y equipo de computación y Sistemas (C).</li>
+<li>Artículos Médicos y de Laboratorio (C).</li>
+<li>Artículos Deportivos (C).</li>
+<li>Electrónica (C).</li>
+<li>Fotografía (C).</li>
+<li>Productos Envasados (B y D).</li>
+<li>Productos a Granel (B).</li>
+<li>Eléctricos, Plomería (C).</li>
+<li>Venta de Motocicletas (B).</li>
+<li>Edificios de Sindicatos y Centrales (B).</li>
+<li>Oficinas de Gobierno Federal, Estatal, Municipal (B).</li>
+<li>Oficinas de Partidos Políticos (B).</li>
+<li>Organismos Descentralizados (B).</li>
+<li>Agencias de Viaje (C).</li>
+<li>Alquiler de Ropa (C).</li>
+<li>Mantenimiento de Jardines (C).</li>
+<li>Cantinas, Bares, Cervecerías, Videobares, Vinaterías (B y D).</li>
+<li>Centros Nocturnos (B y D).</li>
+<li>Salones de Baile y Discotecas (B y D).</li>
+<li>Centros de Convenciones y autocinemas (B y D).</li>
+<li>Danza, Juegos de mesa (C).</li>
+<li>Centros de Integración Juvenil o Familiar (B).</li>
+<li>Casas del Anciano y Orfanatos (B).</li>
+<li>Instituciones Religiosas, Seminarios, Conventos (B y C).</li>
+<li>Agencias de Inhumaciones y preparación de cadáveres (A y B).</li>
+<li>Funerales y Capillas de Velación (B).</li>
+<li>Estaciones de Televisión, Estudio de Cine y Radiodifusoras (B, C y D).</li>
+<li>Terminales de Autobuses Urbanos (B y D).</li>
+<li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B).</li>
+<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
+<li>Torres, Antenas de Microondas, Radiocomunicaciones y Radiodifusión (C y D).</li>
+<li>Torres, Antenas de Televisión (C y D).</li>
+</ol>
 
-<a href="http://trcimplan.gob.mx/plan-estrategico-metropolitano/plan-estrategico-metropolitano-diagnostico-basico-zml.pdf" target="_blank"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/sala-prensa/2014-10-16-mesa-1-diagnostico-pronostico/diagnostico-basico.jpg" alt="Diagnostico Basico"></a>
+<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
 
-<h3>Participación Ciudadana</h3>
+<p>V.- Obras mínimas de urbanización:</p>
 
-<p>La convocatoria está abierta para que Ciudadanos e Instituciones tengan un formulario en Internet dónde puedan entregar sus proyectos y aportaciones. Sólo se necesita tener una dirección de correo electrónico válida e ingresar a <a href="http://trcimplan.mx/plan" target="_blank">http://trcimplan.mx/plan</a> para hacer llegar su propuesta.</p>
+<ol>
+<li>Red de abastecimiento de agua potable;</li>
+<li>Red de alcantarillado sanitario;</li>
+<li>Sistema de drenaje pluvial;</li>
+<li>Red de electrificación con servicio de baja tensión e instalación oculta;</li>
+<li>Red de alumbrado público sobre poste metálico e instalación oculta;</li>
+<li>Red telefónica, de informática y telecomunicaciones con instalación oculta y casetas de servicio público;</li>
+<li>Banquetas de concreto hidráulico;</li>
+<li>Pavimento de concreto hidráulico;</li>
+<li>Señalamiento; y</li>
+<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.</li>
+</ol>
+]]></description>
+    </item>
+    <item>
+      <title>Zonificación CU1.2</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-cu12.html</link>
+      <guid isPermaLink="false">sig-zonificacion-cu12</guid>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
+      <author>TrcIMPLAN</author>
+      <description><![CDATA[<p>Norma 13.- La zonificación “CU 1.2” Corredor Urbano, Habitación, Comercio y Servicios tendrá las siguientes restricciones de uso:</p>
 
-<img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/sala-prensa/2014-10-16-mesa-1-diagnostico-pronostico/foto-movilidad.jpg" alt="Comite Tecnico Movilidad y Transporte">
+<p>I.- Generales:</p>
+
+<ol>
+<li>Densidad de Vivienda: de 110 a 176 viviendas por hectárea.</li>
+<li>Densidad de Habitacional Máxima: 495 a 792 habitantes por hectárea.</li>
+<li>Lote mínimo: no especificado.</li>
+<li>Frente mínimo del lote: no especificado.</li>
+<li>Fondo: no especificado.</li>
+<li>Estacionamiento: variable según proyecto..</li>
+<li>COS: 0.7.</li>
+<li>CUS: 7.0.</li>
+<li>Porcentaje de superficie permeable: no especificado.</li>
+<li>Restricciones de construcción: no especificado.</li>
+<li>Altura máxima de construcción desde el nivel de desplante, doce
+niveles o 36m.</li>
+</ol>
+
+<p>II.- Usos Permitidos:</p>
+
+<ol>
+<li>Vivienda unifamiliar una vivienda por lote.</li>
+<li>Vivienda plurifamiliar y multifamiliar dos o más viviendas por lote.</li>
+<li>Conjuntos habitacionales más de 50 viviendas.</li>
+<li>Bodegas de Acopio y transferencia de Productos no Perecederos.</li>
+<li>Gasolineras.</li>
+<li>Alimentos Vegetarianos.</li>
+<li>Abarrotes, Carnicerías y Fruterías.</li>
+<li>Comida para llevar.</li>
+<li>Farmacias y Boticas.</li>
+<li>Tortillerías y Panaderías.</li>
+<li>Tiendas de Conveniencia.</li>
+<li>Ropa, Calzado, Accesorios diversos.</li>
+<li>Dulcerías.</li>
+<li>Galerías de Arte</li>
+<li>Herbarios.</li>
+<li>Ingeniería, Dibujo.</li>
+<li>Instrumentos Musicales.</li>
+<li>Joyerías y Relojerías.</li>
+<li>Mueblerías.</li>
+<li>Neverías.</li>
+<li>Ópticas.</li>
+<li>Papelerías, Librerías, Revisterías.</li>
+<li>Refacciones y Llantas.</li>
+<li>Ultramarinos, Vinos, Licores, y Expendios de Cerveza.</li>
+<li>Venta de Discos.</li>
+<li>Videocintas.</li>
+<li>Tiendas de Autoservicio de hasta 250m2.</li>
+<li>Tiendas de Autoservicio de más de 250m2 hasta 5000m2.</li>
+<li>Tiendas de Autoservicio de más de 5000m2.</li>
+<li>Tiendas de Departamentos de hasta 2500m2.</li>
+<li>Tiendas de Departamentos de 2500m2 hasta 5000m2.</li>
+<li>Tiendas de Departamentos de más de 5000m2 hasta 10000m2.</li>
+<li>Tiendas de Departamentos de más de 10000m2.</li>
+<li>Centros Comerciales de hasta 2500m2.</li>
+<li>Centros Comerciales de 2500m2 hasta 5000m2.</li>
+<li>Centros Comerciales de más de 5000m2.</li>
+<li>Mercados y Tianguis de hasta 10000m2.</li>
+<li>Mercados y Tianguis de más de 10000m2.</li>
+<li>Ferreterías y Tlapalerías.</li>
+<li>Automóviles, Camiones.</li>
+<li>Consulados, Embajadas.</li>
+<li>Oficinas Privadas.</li>
+<li>Oficinas con Atención al Público.</li>
+<li>Casas de Bolsas.</li>
+<li>Bancos y Casas de Cambio.</li>
+<li>Alquiler de losa, cristalería, mesas y sillas.</li>
+<li>Baños, Saunas, Sanitarios Públicos y Salas de masaje.</li>
+<li>Lavanderías y Tintorerías.</li>
+<li>Peluquerías y Estéticas.</li>
+<li>Estudios Fotográficos.</li>
+<li>Sastrerías y Talleres de Costura.</li>
+<li>Aparatos Electrodomésticos.</li>
+<li>Lavado, Lubricado y Cambio de llantas de vehículos.</li>
+<li>Limpieza de Oficinas, Hogares, Industrias.</li>
+<li>Talleres Automotrices y para Motocicletas.</li>
+<li>Cafés, Fondas.</li>
+<li>Restaurantes sin Venta de Bebidas Alcohólicas.</li>
+<li>Restaurantes con Venta de Bebidas Alcohólicas.</li>
+<li>Venta de Alimentos con Autoservicio.</li>
+<li>Venta de Alimentos con Entrega a Domicilio.</li>
+<li>Auditorios, Teatros, Cines, Salas de Concierto o Cinetecas.</li>
+<li>Centros Comunitarios, Centros Culturales y Salones de fiestas Infantiles.</li>
+<li>Clubes Sociales, Salones para Banquetes y de Baile.</li>
+<li>Juegos Electrónicos.</li>
+<li>Boliche, Billar, Patines y Juegos de Mesa.</li>
+<li>Senderos o Miradores.</li>
+<li>Salas de Artes Marciales.</li>
+<li>Gimnasios, Gimnasios de Aparatos y Aeróbicos.</li>
+<li>Hoteles y Albergues hasta de 100 cuartos.</li>
+<li>Hoteles y Albergues de más de 100 cuartos.</li>
+<li>Garitas o Casetas de Vigilancia.</li>
+<li>Encierro de Vehículos, Centrales o Estaciones de Policía.</li>
+<li>Estación de Bomberos.</li>
+<li>Puesto de Socorro o Central de Ambulancia.</li>
+<li>Hospitales de hasta 10 camas o Consultorios.</li>
+<li>Hospitales de más de 10 camas o Consultorios.</li>
+<li>Centros de Salud, Clínicas de Urgencias o Clínicas en General.</li>
+<li>Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios.</li>
+<li>Centros de Tratamiento de Enfermedades Crónicas.</li>
+<li>Salones de Corte, Dispensarios, Veterinarias, Tiendas de Animales.</li>
+<li>Centros Antirrábicos, de Cuarentena, Clínicas y Hospitales veterinarios.</li>
+<li>Academias de Danza, Belleza, Contabilidad, Computación.</li>
+<li>Escuelas Secundarias Generales y Técnicas.</li>
+<li>Preparatorias, Institutos Tecnológicos, Centros de Capacitación y CONALEP.</li>
+<li>Politécnicos y Tecnológicos, Universidades o Escuelas Normales.</li>
+<li>Centros de Estudio de Postgrado.</li>
+<li>Centro y Laboratorios de Investigación.</li>
+<li>Centros de Exposiciones Temporales o al Aire libre y Sitios Históricos.</li>
+<li>Pinacotecas, Casas de la Cultura, Galerías de Arte, Museos.</li>
+<li>Archivos Públicos o Centros Procesadores de Información.</li>
+<li>Bibliotecas y Hemerotecas.</li>
+<li>Templos, Capillas o lugares para Culto.</li>
+<li>Correos y Telégrafos.</li>
+<li>Central Telefónica sin Servicio al Público.</li>
+<li>Oficinas de Teléfonos con Atención al Público.</li>
+<li>Mensajería y Paquetería.</li>
+<li>Estacionamientos Públicos.</li>
+<li>Sitios de Taxis.</li>
+<li>Plazas, Jardines, Explanadas, y Parques.</li>
+</ol>
+
+<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU 1.2 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
+
+<ol>
+<li>Internados (C).</li>
+<li>Casas de Asistencia (C).</li>
+<li>Comercio de Abastos y Bodegas de Productos Perecederos (B y D).</li>
+<li>Bodegas de Semillas, Huevo, Lácteos o Abarrotes (B).</li>
+<li>Aparatos Eléctricos, Electrónicos y Equipo de Computación y Sistemas (C).</li>
+<li>Artículos Médicos y de Laboratorio (C).</li>
+<li>Artículos Deportivos (C).</li>
+<li>Electrónica (C).</li>
+<li>Fotografía (C).</li>
+<li>Productos Envasados (B y D).</li>
+<li>Productos a Granel (B).</li>
+<li>Eléctricos, Plomería (C).</li>
+<li>Venta de Motocicletas (B).</li>
+<li>Edificios de Sindicatos y Centrales (B).</li>
+<li>Oficinas de Gobierno Federal, Estatal, Municipal (B).</li>
+<li>Oficinas de Partidos Políticos (B).</li>
+<li>Organismos Descentralizados (B).</li>
+<li>Agencias de Viaje (C).</li>
+<li>Alquiler de Ropa (C).</li>
+<li>Alquiler de Vehículos (B).</li>
+<li>Mantenimiento de Jardines (C).</li>
+<li>Cantinas, Bares, Cervecerías, Videobares, Vinaterías (B y D).</li>
+<li>Centros Nocturnos (B y D).</li>
+<li>Salones de Baile y Discotecas (B y D).</li>
+<li>Centros de Convenciones y Autocinemas (B y D).</li>
+<li>Danza, Juegos de Mesa (C).</li>
+<li>Centros de Integración Juvenil o Familiar (B).</li>
+<li>Casas del Anciano y Orfanatos (B).</li>
+<li>Instituciones Religiosas, Seminarios, Conventos (B y C).</li>
+<li>Agencias de Inhumaciones y preparación de cadáveres (A y B).</li>
+<li>Funerales y Capillas de Velación (B).</li>
+<li>Estaciones de Televisión, Estudios de Cine y Radiodifusoras (B, C y D).</li>
+<li>Terminales de Autobuses Urbanos (B y D).</li>
+<li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B)</li>
+<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
+<li>Torres, Antenas de Microondas, Radiocomunicaciones y Radiodifusión (C y D).</li>
+<li>Torres y Antenas de Televisión (C y D).</li>
+</ol>
+
+<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
+
+<p>V.- Obras mínimas de urbanización:</p>
+
+<ol>
+<li>Red de abastecimiento de agua potable;</li>
+<li>Red de alcantarillado sanitario;</li>
+<li>Sistema de drenaje pluvial;</li>
+<li>Red de electrificación con servicio de baja tensión e instalación oculta;</li>
+<li>Red de alumbrado público sobre poste metálico e instalación oculta;</li>
+<li>Red telefónica, de informática y telecomunicaciones, con instalación oculta y casetas de servicio público;</li>
+<li>Banquetas de concreto hidráulico;</li>
+<li>Pavimento de concreto hidráulico;</li>
+<li>Señalamiento; y</li>
+<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.</li>
+</ol>
+]]></description>
+    </item>
+    <item>
+      <title>Zonificación CU2</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-cu2.html</link>
+      <guid isPermaLink="false">sig-zonificacion-cu2</guid>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
+      <author>TrcIMPLAN</author>
+      <description><![CDATA[<p>Norma 14.- La zonificación “CU2” Corredor Urbano de Habitación y Comercio, tendrá las siguientes restricciones de uso:</p>
+
+<p>I.- Generales:</p>
+
+<ol>
+<li>Densidad de Vivienda: de 104 a 166 viviendas por hectárea.</li>
+<li>Densidad Habitacional Máxima: de 468 a 747 habitantes por hectárea.</li>
+<li>Lote mínimo: no especificado.</li>
+<li>Frente mínimo del lote: no especificado.</li>
+<li>Fondo: no especificado.</li>
+<li>Estacionamiento: variable según proyecto..</li>
+<li>COS: 0.7.</li>
+<li>CUS: 3.0.</li>
+<li>Porcentaje de superficie permeable: no especificado.</li>
+<li>Restricciones de construcción: no especificado.</li>
+<li>Altura máxima de construcción desde el nivel de desplante, cinco niveles o 15m.</li>
+</ol>
+
+<p>II.- Usos Permitidos:</p>
+
+<ol>
+<li>Vivienda unifamiliar una vivienda por lote.</li>
+<li>Vivienda plurifamiliar y multifamiliar: dos o más viviendas por lote.</li>
+<li>Conjuntos habitacionales más de 50 viviendas.</li>
+<li>Abarrotes, Carnicerías y Fruterías.</li>
+<li>Comida para llevar.</li>
+<li>Farmacias y Boticas.</li>
+<li>Tortillerías y Panaderías.</li>
+<li>Tiendas de Conveniencia.</li>
+<li>Ropa, Calzado, Accesorios diversos.</li>
+<li>Dulcerías.</li>
+<li>Herbarios.</li>
+<li>Ingeniería, Dibujo.</li>
+<li>Instrumentos Musicales.</li>
+<li>Joyerías y Relojerías.</li>
+<li>Mueblerías.</li>
+<li>Neverías.</li>
+<li>Ópticas.</li>
+<li>Papelerías, Librerías, Revisterías.</li>
+<li>Refacciones y Llantas.</li>
+<li>Venta de Discos.</li>
+<li>Videocintas.</li>
+<li>Tiendas de Autoservicio de hasta 250m2.</li>
+<li>Consulados, Embajadas.</li>
+<li>Oficinas Privadas.</li>
+<li>Oficinas con Atención al Público.</li>
+<li>Casas de Bolsa.</li>
+<li>Bancos y Casas de Cambio.</li>
+<li>Cafés, Fondas.</li>
+<li>Restaurantes sin venta de bebidas alcohólicas.</li>
+<li>Senderos o Miradores.</li>
+<li>Garitas o Casetas de Vigilancia.</li>
+<li>Correos y Telégrafos.</li>
+<li>Oficinas de Teléfonos con Atención al Público.</li>
+<li>Estacionamientos Públicos.</li>
+<li>Plazas, Jardines, Explanadas y Parques.</li>
+</ol>
+
+<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU 2 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
+
+<ol>
+<li>Internados (C).</li>
+<li>Casas de Asistencia (C).</li>
+<li>Gasolineras (B. C y D).</li>
+<li>Alimentos Vegetarianos (C).</li>
+<li>Aparatos Eléctricos, Electrónicos y Equipo de Computación Sistemas (C).</li>
+<li>Artículos Médicos y de Laboratorio (C).</li>
+<li>Artículos Deportivos (C).</li>
+<li>Electrónica (C).</li>
+<li>Fotografía (C)</li>
+<li>Ultramarinos, Vinos, Licores, y Expendios de Cerveza (B y C).</li>
+<li>Centro Comercial hasta de 2500m2 (B).</li>
+<li>Mercados y Tianguis hasta de 10000m2 (B).</li>
+<li>Productos Envasados (B y D).</li>
+<li>Productos a Granel (B).</li>
+<li>Eléctricos, Plomería (C).</li>
+<li>Venta de Motocicletas (B).</li>
+<li>Lavanderías y Tintorerías (B).</li>
+<li>Peluquerías y Estéticas (C).</li>
+<li>Estudios Fotográficos (C).</li>
+<li>Sastrerías y Talleres de Costura (C).</li>
+<li>Juegos Electrónicos (C).</li>
+<li>Hospitales de hasta 10 camas o Consultorios (B y C).</li>
+<li>Centros de Salud, Clínicas de Urgencias o Clínicas en General (B y C).</li>
+<li>Laboratorios Dentales, Análisis Clínicos, Radiografías Consultorios (C).</li>
+<li>Templos, Capillas o lugares para el Culto (B y C).</li>
+<li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B)</li>
+<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
+</ol>
+
+<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
+
+<p>V.- Obras mínimas de urbanización:</p>
+
+<ol>
+<li>Red de abastecimiento de agua potable;</li>
+<li>Red de alcantarillado sanitario;</li>
+<li>Sistema de drenaje pluvial;</li>
+<li>Red de electrificación con servicio de baja tensión e instalación oculta;</li>
+<li>Red de alumbrado público sobre poste metálico e instalación oculta;</li>
+<li>Red telefónica, de informática y telecomunicaciones con instalación oculta y casetas de servicio público;</li>
+<li>Banquetas de concreto hidráulico;</li>
+<li>Pavimento de concreto hidráulico;</li>
+<li>Señalamiento; y</li>
+<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.</li>
+</ol>
+]]></description>
+    </item>
+    <item>
+      <title>Zonificación CU3</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-cu3.html</link>
+      <guid isPermaLink="false">sig-zonificacion-cu3</guid>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
+      <author>TrcIMPLAN</author>
+      <description><![CDATA[<p>Norma 15.- La zonificación “CU3” Corredor Urbano de Industria y Servicios, tendrá las siguientes restricciones de uso:</p>
+
+<p>I.- Generales:</p>
+
+<ol>
+<li>Densidad de Vivienda: No permitida.</li>
+<li>Densidad Habitacional Máxima: No permitida.</li>
+<li>Lote mínimo: no especificado.</li>
+<li>Frente mínimo del lote: no especificado.</li>
+<li>Fondo: no especificado.</li>
+<li>Estacionamiento: variable según proyecto..</li>
+<li>COS: 0.6.</li>
+<li>CUS: 2.0.</li>
+<li>Porcentaje de superficie permeable: no especificado.</li>
+<li>Restricciones de construcción: no especificado.</li>
+<li>Altura máxima de construcción desde el nivel de desplante, cuatro niveles o 12m.</li>
+</ol>
+
+<p>II.- Usos Permitidos:</p>
+
+<ol>
+<li>Comercio de Abastos y Bodegas de Productos Perecederos.</li>
+<li>Bodegas de Acopio y Transferencia de productos perecederos.</li>
+<li>Bodegas de Semillas, Huevo, Lácteos o Abarrotes.</li>
+<li>Gasolineras.</li>
+<li>Rastros Frigoríficos u Obradores.</li>
+<li>Silos y Tolvas.</li>
+<li>Tiendas de Departamentos de hasta 2500m2.</li>
+<li>Tiendas de Departamentos de mas de 2500 m2 hasta 5000 m2.</li>
+<li>Centro comercial hasta de 2500m2.</li>
+<li>Centro comercial de 2500m2 hasta 5000m2.</li>
+<li>Mercados y Tianguis de hasta 10000m2.</li>
+<li>Productos Envasados.</li>
+<li>Ferreterías y Tlapalerías.</li>
+<li>Automóviles y Camiones.</li>
+<li>Deshuesaderos.</li>
+<li>Oficinas Privadas.</li>
+<li>Oficinas con Atención al Público.</li>
+<li>Alquiler de losa, cristalería, mesas, sillas.</li>
+<li>Alquiler de Vehículos.</li>
+<li>Baños, Saunas, Sanitarios Públicos, y Salas de Masaje.</li>
+<li>Aparatos Electrodomésticos.</li>
+<li>Lavado, lubricado y cambio de llantas de vehículos.</li>
+<li>Limpieza de Oficinas, Hogares, Industrias.</li>
+<li>Talleres Automotrices y para motocicletas.</li>
+<li>Cafés, Fondas.</li>
+<li>Restaurantes sin venta de bebidas alcohólicas.</li>
+<li>Auditorios, Teatros, Cines, Salas de Conciertos o Cinetecas.</li>
+<li>Centros de Convenciones o Autocinemas.</li>
+<li>Clubes Sociales, Salones para Banquetes y de Baile.</li>
+<li>Boliche, Billar, Patines y Juegos de Mesa.</li>
+<li>Senderos o Miradores.</li>
+<li>Salas de Artes Marciales.</li>
+<li>Gimnasios, Gimnasios de Aparatos y Aeróbicos.</li>
+<li>Hoteles y Albergues de hasta 100 cuartos.</li>
+<li>Hoteles y Albergues de más de 100 cuartos.</li>
+<li>Garitas o Casetas de Vigilancia.</li>
+<li>Encierro de Vehículos, Centrales o Estaciones de Policía.</li>
+<li>Estación de Bomberos.</li>
+<li>Centros de Adaptación Social.</li>
+<li>Puesto de Socorro o Central de Ambulancias.</li>
+<li>Hospitales de hasta 10 camas o consultorios.</li>
+<li>Hospitales de más de 10 camas o consultorios.</li>
+<li>Centros de Salud, Clínicas de Urgencias o Clínicas en General.</li>
+<li>Centros de Integración Juvenil o Familiar.</li>
+<li>Casas del Anciano y Orfanatos.</li>
+<li>Salones de Corte, Dispensarios, Veterinarios, Tiendas de animales.</li>
+<li>Centros Antirrábicos, de Cuarentena, Clínicas y Hospitales veterinarios.</li>
+<li>Centros de Estudio de Postgrado.</li>
+<li>Centro y Laboratorios de Investigación.</li>
+<li>Archivos Públicos o Centros Procesadores de Información.</li>
+<li>Agencias de Inhumaciones y preparación de cadáveres.</li>
+<li>Cementerios, Criptas, Crematorios y Mausoleos.</li>
+<li>Funerarias y Capillas de Velación.</li>
+<li>Correos y Telégrafos.</li>
+<li>Central Telefónica sin servicio al público.</li>
+<li>Oficinas de Teléfonos con atención al Público.</li>
+<li>Mensajería y Paquetería.</li>
+<li>Estacionamientos Públicos.</li>
+<li>Sitios de Taxis.</li>
+<li>Terminales de Autobuses Urbanos.</li>
+<li>Terminales de Camiones de Carga.</li>
+<li>Industria mediana de 100 a 250 empleados sin riesgo.</li>
+<li>Industria ligera menos de 100 empleados sin riesgo.</li>
+<li>Microindustria menos de 10 empleados sin riesgo.</li>
+<li>Plazas, Jardines, Explanadas y Parques.</li>
+<li>Plantas de Tratamiento de aguas negras o cárcamos.</li>
+<li>Plantas, Estaciones y Subestaciones de energía eléctrica.</li>
+<li>Viveros de Flora, Huertos, Hortalizas, Invernaderos.</li>
+</ol>
+
+<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU 3 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
+
+<ol>
+<li>Productos con Riesgo: químicos, combustibles, gas líquido, explosivos, y similares (B y D).</li>
+<li>Tiendas de Autoservicio de hasta 250m2 (B).</li>
+<li>Bancos y Casas de Cambio (B).</li>
+<li>Lavanderías y Tintorerías (B).</li>
+<li>Peluquerías y Estéticas (C).</li>
+<li>Estudios Fotográficos (C).</li>
+<li>Sastrerías y Talleres de Costura (C).</li>
+<li>Centros Nocturnos (C).</li>
+<li>Teatros al aire libre, Circos temporales, Juegos mecánicos (B y D).</li>
+<li>Juegos Electrónicos (C).</li>
+<li>Moteles (B y C).</li>
+<li>Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios (C).</li>
+<li>Politécnicos y Tecnológicos, Universidades y Escuelas Normales (B).</li>
+<li>Helipuertos (D).</li>
+<li>Estaciones de Televisión, Estudios de Cine y Radiodifusoras (B y D).</li>
+<li>Industria Pesada de mas de 250 empleados sin riesgo (A y B).</li>
+<li>Industria Mediana de 100 a 250 empleados riesgo moderado (A y B).</li>
+<li>Industria Ligera menos de 100 empleados riesgo moderado (A y B).</li>
+<li>Microindustria menos de 10 empleados riesgo moderado (B).</li>
+<li>Plantas, Estaciones y Subestaciones de Presión de Gas (A, B y D).</li>
+<li>Torres, Antenas de Microondas, Radiocomunicaciones y Radiodifusión (D).</li>
+<li>Torres, Antenas de Televisión (D).</li>
+<li>Tanques de Agua (B y D).</li>
+<li>Tanques de Combustible (A, B y D).</li>
+<li>Tanques de Gas Doméstico (A, B y D).</li>
+<li>Estaciones de Transferencia de Basura (A, B y D).</li>
+<li>Incineradores de Basura (A, B y D).</li>
+</ol>
+
+<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
+
+<p>V.- Obras mínimas de urbanización:</p>
+
+<ol>
+<li>Red de abastecimiento de agua potable;</li>
+<li>Red de alcantarillado sanitario;</li>
+<li>Sistema de drenaje pluvial;</li>
+<li>Red de electrificación con servicio de baja tensión e instalación oculta;</li>
+<li>Red de alumbrado público sobre poste metálico e instalación oculta;</li>
+<li>Red telefónica, de informática y telecomunicaciones con instalación oculta y casetas de servicio público;</li>
+<li>Banquetas de concreto hidráulico;</li>
+<li>Pavimento de concreto hidráulico;</li>
+<li>Señalamiento; y</li>
+<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.</li>
+</ol>
+]]></description>
+    </item>
+    <item>
+      <title>Zonificación E</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-e.html</link>
+      <guid isPermaLink="false">sig-zonificacion-e</guid>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
+      <author>TrcIMPLAN</author>
+      <description><![CDATA[<p>Norma 17.- La zonificación “E” Equipamiento de Administración, Salud, Educación y Cultura, tendrá las siguientes restricciones de uso:</p>
+
+<p>I.- Generales, no especificados.</p>
+
+<p>II.- Usos Permitidos:</p>
+
+<ol>
+<li>Conjuntos habitacionales de más de 50 Viviendas.</li>
+<li>Oficinas Privadas.</li>
+<li>Oficinas con Atención al Público.</li>
+<li>Casas de Bolsa.</li>
+<li>Bancos y Casas de Cambio.</li>
+<li>Cafés, Fondas.</li>
+<li>Restaurantes sin venta de bebidas alcohólicas.</li>
+<li>Auditorios, Teatros, Cines, Salas de Conciertos o Cinetecas.</li>
+<li>Centros comunitarios, Culturales y Salones de fiestas Infantiles.</li>
+<li>Senderos o Miradores.</li>
+<li>Garitas o Casetas de Vigilancia.</li>
+<li>Puesto de Socorro o Central de Ambulancia.</li>
+<li>Hospitales de hasta 10 camas o consultorios.</li>
+<li>Hospitales de más de 10 camas o consultorios.</li>
+<li>Centros de Salud, Clínicas de Urgencias o Clínicas en General.</li>
+<li>Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios.</li>
+<li>Centros de Tratamiento de Enfermedades Crónicas.</li>
+<li>Centros de Integración Juvenil o Familiar.</li>
+<li>Guarderías.</li>
+<li>Casas del Anciano y Orfanatos.</li>
+<li>Jardín de Niños y Escuela para niños atípicos y Primaria.</li>
+<li>Academias de Danza, Belleza, Contabilidad, Computación.</li>
+<li>Escuelas Secundarias generales y Técnicas.</li>
+<li>Preparatorias, Institutos Tecnológicos, Centros de Capacitación y CONALEP.</li>
+<li>Politécnicos y Tecnológicos, Universidades o Escuelas Normales.</li>
+<li>Centros de Estudio de Postgrado.</li>
+<li>Centro y Laboratorios de Investigación.</li>
+<li>Centros de Exposiciones Temporales o al Aire Libre y Sitios Históricos.</li>
+<li>Pinacotecas, Casas de la Cultura, Galerías de Arte, Museos.</li>
+<li>Archivos Públicos o Centros Procesadores de Información.</li>
+<li>Bibliotecas y Hemerotecas.</li>
+<li>Templos, Capillas o lugares para Culto.</li>
+<li>Instituciones Religiosas Seminarios y Conventos.</li>
+<li>Correos y Telégrafos.</li>
+<li>Plazas, Jardines, Explanadas, y Parques.</li>
+<li>Torres y Antenas de Microondas y Radiodifusión.</li>
+</ol>
+
+<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso E se
+aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
+
+<ol>
+<li>Baños, Saunas, Sanitarios Públicos, y Salas de Masaje (B y D).</li>
+<li>Centros de Convenciones y Autocinemas (B y D).</li>
+<li>Salas de Arte Marciales (B).</li>
+<li>Gimnasios, Gimnasios de Aparatos y Aeróbicos (B).</li>
+<li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B).</li>
+<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
+</ol>
+
+<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
+
+<p>V.- Obras mínimas de urbanización:</p>
+
+<ol>
+<li>Red de abastecimiento de agua potable con toma domiciliaria;</li>
+<li>Red de alcantarillado sanitario con descarga domiciliaria;</li>
+<li>Sistema de drenaje pluvial;</li>
+<li>Red de electrificación con servicio de baja tensión, instalación aérea;</li>
+<li>Red de alumbrado público sobre poste metálico e instalación oculta, en vialidades vehiculares, peatonales y áreas verdes;</li>
+<li>Red telefónica, informática y de telecomunicaciones, con instalación oculta y acometida domiciliaria;</li>
+<li>Banquetas de concreto hidráulico;</li>
+<li>Pavimento de concreto hidráulico;</li>
+<li>Señalamiento; y</li>
+<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.</li>
+</ol>
+]]></description>
+    </item>
+    <item>
+      <title>Zonificación H1</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-h1.html</link>
+      <guid isPermaLink="false">sig-zonificacion-h1</guid>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
+      <author>TrcIMPLAN</author>
+      <description><![CDATA[<p>Norma 3.- La zonificación “H1” habitacional de densidad baja, unifamiliar, tendrá las siguientes restricciones de uso:</p>
+
+<p>I.- Generales:</p>
+
+<ol>
+<li>Densidad de vivienda neta por hectárea: 29 a 33 para lotes individuales, 17 a 19 para fraccionamientos; incluye vialidad local y cesiones.</li>
+<li>Densidad habitacional máxima: de 148.5 a 130.5 habitantes por hectárea.</li>
+<li>Usos permitidos: hasta una casa habitación por lote.</li>
+<li>Restricciones de uso:
+a. Lote mínimo: 350.00m2;
+b. Frente mínimo del lote: 12m.
+c. Estacionamiento: según Reglamento de Construcciones.
+d. COS: 0.7.
+e. CUS: 0.9-1.2.
+f. Porcentaje de superficie permeable: no especificado.
+g. Restricciones de construcción: frente 3m, fondo y laterales no especificado.
+h. Altura máxima de construcción desde el nivel de desplante: dos niveles o 6m.</li>
+</ol>
+
+<p>II.- Usos Permitidos:</p>
+
+<ol>
+<li>Vivienda unifamiliar 1 vivienda por lote.</li>
+<li>Conjuntos Habitacionales de más de 50 viviendas</li>
+<li>Clubes de golf, Clubes Campestres con o sin Viviendas;</li>
+<li>Senderos o Miradores.</li>
+<li>Garitas o casetas de vigilancia.</li>
+<li>Plazas, Jardines, Explanadas y Parques.</li>
+</ol>
+
+<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso H1 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
+
+<ol>
+<li>Plantas, de Tratamiento de Aguas Negras o Cárcamos (A y B).</li>
+<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
+</ol>
+
+<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
+
+<p>V.- Obras mínimas de urbanización:</p>
+
+<ol>
+<li>Red de abastecimiento de agua potable con toma domiciliaria;</li>
+<li>Red de alcantarillado sanitario con descarga domiciliaria;</li>
+<li>Sistema de drenaje pluvial;</li>
+<li>Red de electrificación con servicio de baja tensión, instalación área u oculta, con acometida domiciliaria;</li>
+<li>Red de alumbrado público sobre poste metálico e instalación oculta en vialidades vehiculares y peatonales, así como en áreas verdes y áreas de cesión y de equipamiento urbano;</li>
+<li>Guarniciones de concreto hidráulico;</li>
+<li>Banquetas de concreto hidráulico, adoquín, o similar;</li>
+<li>Pavimentos de concreto hidráulico, asfáltico, adoquín, o similar;</li>
+<li>Red de riego utilizando agua tratada;</li>
+<li>Señalamiento; y</li>
+<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares y peatonales, áreas verdes y de esparcimiento, y áreas de cesión.</li>
+</ol>
+]]></description>
+    </item>
+    <item>
+      <title>Zonificación H2</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-h2.html</link>
+      <guid isPermaLink="false">sig-zonificacion-h2</guid>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
+      <author>TrcIMPLAN</author>
+      <description><![CDATA[<p>Norma 4.- La zonificación “H2” Habitacional de Densidad Media, unifamiliar, tendrá las siguientes restricciones de uso:</p>
+
+<p>I.- Generales:</p>
+
+<ol>
+<li>Densidad de vivienda neta por hectárea: 50 a 65 para lotes individuales, 29 a 37 para fraccionamientos; incluye vialidad local y cesiones.</li>
+<li>Densidad habitacional máxima: de 292.5 a 225.0 habitantes por hectárea.</li>
+<li>Usos permitidos: hasta una casa habitación por lote.</li>
+<li>Restricciones de uso:
+a. Lote mínimo: 200.00m2;
+b. Frente mínimo del lote: 9m;
+c. Estacionamiento: según Reglamento de Construcciones.
+d. COS: 0.7.
+e. CUS: 1.0-1.3.
+f. Porcentaje de superficie permeable: no especificado.
+g. Restricciones de construcción: frente 3m, fondo y laterales no especificado.
+h. Altura máxima de construcción desde el nivel de desplante: dos niveles o 6m.</li>
+</ol>
+
+<p>II.- Usos Permitidos:</p>
+
+<ol>
+<li>Vivienda unifamiliar, 1 vivienda por lote.</li>
+<li>Conjuntos habitacionales de más de 50 viviendas.</li>
+<li>Senderos o Miradores.</li>
+<li>Garitas o casetas de vigilancia.</li>
+<li>Plazas, jardines, explanadas y parques.</li>
+</ol>
+
+<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso H2 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
+
+<ol>
+<li>Oficinas Privadas (B y C).</li>
+<li>Clubes de Golf, Clubes Campestres con o sin Viviendas (B).</li>
+<li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B).</li>
+<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
+</ol>
+
+<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
+
+<p>V.- Obras mínimas de urbanización:</p>
+
+<ol>
+<li>Red de abastecimiento de agua potable con toma domiciliaria;</li>
+<li>Red de alcantarillado sanitario con descarga domiciliaria;</li>
+<li>Sistema de drenaje pluvial;</li>
+<li>Red de electrificación con servicio de baja tensión, instalación aérea u oculta, con acometida domiciliaria;</li>
+<li>Red de alumbrado público sobre postes de la Comisión Federal de Electricidad (CFE), instalación aérea, en vialidades vehiculares y peatonales, y sobre poste metálico en áreas verdes y áreas de cesión y de equipamiento urbano;</li>
+<li>Red de gas y tomas domiciliarias ocultas;</li>
+<li>Guarniciones de concreto hidráulico;</li>
+<li>Banquetas de concreto hidráulico o similar;</li>
+<li>Pavimentos de concreto hidráulico, asfáltico o similar;</li>
+<li>Señalamiento; y</li>
+<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares y peatonales, áreas verdes y de esparcimiento, y áreas de cesión.</li>
+</ol>
+]]></description>
+    </item>
+    <item>
+      <title>Zonificación H5</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-h5.html</link>
+      <guid isPermaLink="false">sig-zonificacion-h5</guid>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
+      <author>TrcIMPLAN</author>
+      <description><![CDATA[<p>Norma 5.- La zonificación “H5” Habitacional de Densidad Media Alta, tendrá las siguientes restricciones de uso:</p>
+
+<p>I.- Generales:</p>
+
+<ol>
+<li>Densidad de vivienda neta por hectárea: 104 a 166 para lotes individuales, 50 a 80 para fraccionamientos; incluye vialidad local y cesiones.</li>
+<li>Densidad habitacional máxima: de 468.0 a 747.0 habitantes por hectárea.</li>
+<li>Usos permitidos: hasta una casa habitación por lote.</li>
+<li>Restricciones de uso:
+a. Lote mínimo: 96.00m2;
+b. Frente mínimo del lote: 8m;
+c. Estacionamiento: según Reglamento de Construcciones.
+d. COS: 0.8.
+e. CUS: 1.1-1.6.
+f. Porcentaje de superficie permeable: no especificado.
+g. Restricciones de construcción: no especificado;
+h. Altura máxima de construcción desde el nivel de desplante: tres niveles o 9m.</li>
+</ol>
+
+<p>II.- Usos Permitidos:</p>
+
+<ol>
+<li>Vivienda Unifamiliar, una vivienda por lote.</li>
+<li>Vivienda Plurifamiliar y multifamiliar, dos o más viviendas por lote.</li>
+<li>Conjuntos habitacionales de más 50 viviendas.</li>
+<li>Senderos o Miradores.</li>
+<li>Garitas o Casetas de vigilancia.</li>
+<li>Plazas, Jardines, Explanadas y Parques.</li>
+</ol>
+
+<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso H5 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
+
+<ol>
+<li>Casas de Asistencia (C).</li>
+<li>Tiendas de Abarrotes, Carnicerías y Fruterías (C).</li>
+<li>Comida para llevar (C).</li>
+<li>Farmacias y Boticas (C).</li>
+<li>Tortillerías y panaderías (C).</li>
+<li>Tiendas de Conveniencia (C y B)</li>
+<li>Ropa, calzado, Accesorios Diversos (C).</li>
+<li>Centros Comerciales hasta 2500m2 de Construcción (B).</li>
+<li>Mercados y Tianguis de hasta 10,000 m2 de Construcción (B).</li>
+<li>Oficinas Privadas (B y C).</li>
+<li>Guarderías (B y C).</li>
+<li>Jardín de Niños o Escuela para niños Atípicos y Primaria (B y C).</li>
+<li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B).</li>
+<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
+</ol>
+
+<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III de la presente norma.</p>
+
+<p>V.- Obras mínimas de urbanización:</p>
+
+<ol>
+<li>Red de abastecimiento de agua potable con toma domiciliaria;</li>
+<li>Red de alcantarillado sanitario con descarga domiciliaria;</li>
+<li>Sistema de drenaje pluvial;</li>
+<li>Red de electrificación con servicio de baja tensión, instalación aérea, con acometida domiciliaria;</li>
+<li>Red de alumbrado público sobre poste postes de la Comisión Federal de Electricidad (CFE), instalación aérea, en vialidades vehiculares y peatonales, y en áreas verdes y áreas de cesión y de equipamiento urbano;</li>
+<li>Red telefónica, de informática y telecomunicaciones con instalación aérea y tomas domiciliarias;</li>
+<li>Guarniciones de concreto hidráulico;</li>
+<li>Banquetas de concreto hidráulico o similar;</li>
+<li>Pavimentos de concreto hidráulico, adoquinado, asfáltico, empedrado o similar;</li>
+<li>Señalamiento; y</li>
+<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares y peatonales, áreas verdes y de esparcimiento, y áreas de cesión.</li>
+</ol>
+]]></description>
+    </item>
+    <item>
+      <title>Zonificación H6</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-h6.html</link>
+      <guid isPermaLink="false">sig-zonificacion-h6</guid>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
+      <author>TrcIMPLAN</author>
+      <description><![CDATA[<p>Norma 6.- La zonificación “H6” Habitacional de Densidad Muy Alta, tendrá las siguientes restricciones de uso:</p>
+
+<p>I.- Generales:</p>
+
+<ol>
+<li>Densidad de vivienda neta por hectárea: 110 a 176 para lotes individuales, 55 a 88 para fraccionamientos; incluye vialidad local y cesiones.</li>
+<li>Densidad habitacional máxima: de 792.0 a 495.0 habitantes por hectárea.</li>
+<li>Usos permitidos: hasta una casa habitación por lote.</li>
+<li>Restricciones de uso:
+a. Lote mínimo: 91.00m2;
+b. Frente mínimo del lote: 7m;
+c. Estacionamiento: según Reglamento de Construcciones;
+d. COS: 0.8;
+e. CUS: 1.2-1.6;
+f. Porcentaje de superficie permeable: no especificado;
+g. Restricciones de construcción: no especificado;
+h. Altura máxima de construcción desde el nivel de desplante: tres niveles o 9m.</li>
+</ol>
+
+<p>II.- Usos Permitidos:</p>
+
+<ol>
+<li>Vivienda Unifamiliar, una Vivienda por lote.</li>
+<li>Vivienda Plurifamiliar, dos o más viviendas por lote.</li>
+<li>Conjuntos Habitacionales de más de 50 Viviendas.</li>
+<li>Abarrotes, Carnicerías, fruterías.</li>
+<li>Comida para llevar.</li>
+<li>Farmacias y Boticas.</li>
+<li>Tortillerías y Panaderías.</li>
+<li>Tiendas de Conveniencia.</li>
+<li>Ropa, Calzado, Accesorios Diversos.</li>
+<li>Dulcerías.</li>
+<li>Fotografía.</li>
+<li>Galerías de Arte.</li>
+<li>Herbarios.</li>
+<li>Neverías.</li>
+<li>Juegos Electrónicos.</li>
+<li>Senderos o Miradores.</li>
+<li>Garitas o Casetas de Vigilancia.</li>
+<li>Hospitales hasta 10 camas o Consultorios.</li>
+<li>Guarderías.</li>
+<li>Jardín de Niños o Escuela para Niños Atípicos y Primaria.</li>
+<li>Escuelas Secundarias Generales y Técnicas.</li>
+<li>Preparatorias, Institutos Tecnológicos, Centros de Capacitación y CONALEP.</li>
+<li>Plazas, Jardines, Explanadas y Parques.</li>
+</ol>
+
+<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso H6 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
+
+<ol>
+<li>Casas de Asistencia &#40;C).</li>
+<li>Centros Comerciales hasta de 2500 m2 (B).</li>
+<li>Mercados y Tianguis hasta de 10,000 m2 (B).</li>
+<li>Oficinas Privadas (B y C).</li>
+<li>Oficinas con Atención al Público (B y C).</li>
+<li>Lavanderías y Tintorerías (B y C).</li>
+<li>Peluquerías y Estéticas &#40;C).</li>
+<li>Estudios Fotográficos (C.</li>
+<li>Sastrerías y Talleres de Costura &#40;C).</li>
+<li>Aparatos Electrodomésticos &#40;C).</li>
+<li>Cafés y Fondas &#40;C).</li>
+<li>Restaurantes sin venta de Bebidas Alcohólicas (B y C).</li>
+<li>Restaurantes con venta de Bebidas Alcohólicas (B y C).</li>
+<li>Centros Comunitarios, Centros Culturales y Salones para fiestas infantiles (B y C).</li>
+<li>Centros de Salud, Clínicas de Urgencias y Clínicas en General (A, B y C).</li>
+<li>Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios (A, B y C).</li>
+<li>Salones de Corte, Dispensarios, Veterinarias, y Tiendas de Animales (A y C.</li>
+<li>Academia de Danza, Belleza, Contabilidad, Computación &#40;C).</li>
+<li>Templos, Capillas y Lugares para el Culto (B y C).</li>
+<li>Instituciones Religiosas, Seminarios, Conventos (B y C).</li>
+<li>Plantas de Tratamiento de Aguas Negras y Cárcamos (A y B).</li>
+<li>Plantas, estaciones y subestaciones de Energía Eléctrica (B).</li>
+</ol>
+
+<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
+
+<p>V.- Obras mínimas de urbanización:</p>
+
+<ol>
+<li>Red de abastecimiento de agua potable con toma domiciliaria;</li>
+<li>Red de alcantarillado sanitario con descarga domiciliaria;</li>
+<li>Sistema de drenaje pluvial;</li>
+<li>Red de electrificación con servicio de baja tensión, instalación aérea, con acometida domiciliaria;</li>
+<li>Red de alumbrado público sobre poste de la Comisión Federal de Electricidad (CFE), instalación aérea, en vialidades vehiculares y peatonales, y en áreas verdes y áreas de cesión y de equipamiento urbano;</li>
+<li>Red telefónica, de informática y telecomunicaciones con instalación aérea y tomas domiciliarias;</li>
+<li>Guarniciones de concreto hidráulico;</li>
+<li>Banquetas de concreto hidráulico o similar;</li>
+<li>Pavimentos de concreto hidráulico, asfáltico, adoquinado, o similar;</li>
+<li>Señalamiento; y</li>
+<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares y peatonales, áreas verdes y de esparcimiento, y áreas de cesión.</li>
+</ol>
 ]]></description>
     </item>
   </channel>

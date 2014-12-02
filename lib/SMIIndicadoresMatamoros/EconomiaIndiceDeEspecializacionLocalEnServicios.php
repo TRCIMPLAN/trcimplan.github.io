@@ -30,6 +30,7 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \Base\Publicacion 
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,20 +49,20 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \Base\Publicacion 
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/1998</td>
-            <td class="derecha">10.45 %</td>
+            <td>31/12/1998</td>
+            <td>10.45 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2003</td>
-            <td class="derecha">11.69 %</td>
+            <td>31/12/2003</td>
+            <td>11.69 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2008</td>
-            <td class="derecha">6.98 %</td>
+            <td>31/12/2008</td>
+            <td>6.98 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -102,44 +103,155 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \Base\Publicacion 
           <tr>
             <td>Torreón</td>
             <td>2008-12-31</td>
-            <td class="derecha">8.05 %</td>
+            <td>8.05 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2008-12-31</td>
-            <td class="derecha">4.91 %</td>
+            <td>4.91 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2008-12-31</td>
-            <td class="derecha">8.56 %</td>
+            <td>8.56 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2008-12-31</td>
-            <td class="derecha">6.98 %</td>
+            <td>6.98 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2008-12-31</td>
-            <td class="derecha">7.15 %</td>
+            <td>7.15 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
             <td>2008-12-31</td>
-            <td class="derecha">16.55 %</td>
+            <td>16.55 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Índice de Especialización Local en Servicios</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/07/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/productividad-zml.html">Productividad en la Zona Metropolitana de La Laguna</a></td>
+            <td>Análisis de la productividad laboral, industria manufacturera y eficiencia del trabajo en la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>25/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/estabilidad-de-precios-en-torreon.html">Estabilidad de Precios en Torreón</a></td>
+            <td>En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-cartera-hipotecaria.html">Cartera Hipotecaria en Matamoros</a></td>
+            <td>Monto total de créditos otorgados hasta la fecha indicada.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Matamoros</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Matamoros</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Matamoros</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Matamoros</a></td>
+            <td>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Matamoros</a></td>
+            <td>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html">Tamaño del Mercado Hipotecario en Matamoros</a></td>
+            <td>Créditos dispuestos marginalmente durante el año indicado.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Matamoros</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Matamoros</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Matamoros</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-comercio.html">Índice de Especialización Local en Comercio en Matamoros</a></td>
+            <td>Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-industria-manufacturera.html">Índice de Especialización Local en Industria Manufacturera en Matamoros</a></td>
+            <td>Producción bruta total de la industria manufacturera entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-la-construccion.html">Índice de Especialización Local en la Construcción en Matamoros</a></td>
+            <td>Producción bruta total de la actividad económica de construcción entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-la-mineria.html">Índice de Especialización Local en la Minería en Matamoros</a></td>
+            <td>Producción bruta total de la actividad económica de minería entre la producción bruta total.</td>
           </tr>
         </tbody>
       </table>

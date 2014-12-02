@@ -30,6 +30,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,44 +49,44 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2007</td>
-            <td class="derecha">$ 2,389,268,767.00</td>
+            <td>31/12/2007</td>
+            <td>$ 2,389,268,767.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2008</td>
-            <td class="derecha">$ 3,054,640,385.00</td>
+            <td>31/12/2008</td>
+            <td>$ 3,054,640,385.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2009</td>
-            <td class="derecha">$ 3,147,856,470.00</td>
+            <td>31/12/2009</td>
+            <td>$ 3,147,856,470.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">$ 3,037,346,224.00</td>
+            <td>31/12/2010</td>
+            <td>$ 3,037,346,224.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2011</td>
-            <td class="derecha">$ 3,391,664,429.00</td>
+            <td>31/12/2011</td>
+            <td>$ 3,391,664,429.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2012</td>
-            <td class="derecha">$ 3,504,184,566.00</td>
+            <td>31/12/2012</td>
+            <td>$ 3,504,184,566.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2013</td>
-            <td class="derecha">$ 3,661,978,820.00</td>
+            <td>31/12/2013</td>
+            <td>$ 3,661,978,820.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -129,37 +130,100 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2013-12-31</td>
-            <td class="derecha">$ 1,927,501,368.00</td>
+            <td>$ 1,927,501,368.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2013-12-31</td>
-            <td class="derecha">$ 1,065,239,676.00</td>
+            <td>$ 1,065,239,676.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2013-12-31</td>
-            <td class="derecha">$ 475,221,421.00</td>
+            <td>$ 475,221,421.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2013-12-31</td>
-            <td class="derecha">$ 194,016,355.00</td>
+            <td>$ 194,016,355.00</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2013-12-31</td>
-            <td class="derecha">$ 3,661,978,820.00</td>
+            <td>$ 3,661,978,820.00</td>
             <td>INEGI</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Ingresos Totales</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>04/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/datos-abiertos-gobiernos-municipales.html">Datos Abiertos en los Gobiernos Municipales</a></td>
+            <td>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.</td>
+          </tr>
+          <tr>
+            <td>19/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/independencia-finanzas-publicas.html">Independencia de las Finanzas Públicas</a></td>
+            <td>Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-capacidad-financiera.html">Capacidad Financiera en La Laguna</a></td>
+            <td>Ingresos propios entre gastos corrientes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en La Laguna</a></td>
+            <td>Ingresos totales del municipio entre el total de la población.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en La Laguna</a></td>
+            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-inversion-per-capita.html">Inversión Per cápita en La Laguna</a></td>
+            <td>Gasto en obras públicas y acciones sociales entre población total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en La Laguna</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html">Relación de Ingresos Propios y Totales en La Laguna</a></td>
+            <td>Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.</td>
           </tr>
         </tbody>
       </table>

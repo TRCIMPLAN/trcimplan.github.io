@@ -29,6 +29,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,8 +48,8 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/03/2014</td>
-            <td class="derecha">10.7800</td>
+            <td>31/03/2014</td>
+            <td>10.7800</td>
             <td>RFOSC</td>
             <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
           </tr>
@@ -74,37 +75,112 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2014-03-31</td>
-            <td class="derecha">47.9800</td>
+            <td>47.9800</td>
             <td>RFOSC</td>
             <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-03-31</td>
-            <td class="derecha">45.8400</td>
+            <td>45.8400</td>
             <td>RFOSC</td>
             <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2014-03-31</td>
-            <td class="derecha">22.7000</td>
+            <td>22.7000</td>
             <td>RFOSC</td>
             <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-03-31</td>
-            <td class="derecha">10.7800</td>
+            <td>10.7800</td>
             <td>RFOSC</td>
             <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2014-03-31</td>
-            <td class="derecha">41.2200</td>
+            <td>41.2200</td>
             <td>RFOSC</td>
             <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Organizaciones de la Sociedad Civil</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>04/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/datos-abiertos-gobiernos-municipales.html">Datos Abiertos en los Gobiernos Municipales</a></td>
+            <td>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.</td>
+          </tr>
+          <tr>
+            <td>14/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/poligonos-actuacion-desarrollo-urbano-integral.html">Polígonos de Actuación para un Desarrollo Urbano Integral</a></td>
+            <td>El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.</td>
+          </tr>
+          <tr>
+            <td>08/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/implan-somos-todos.html">El IMPLAN somos todos</a></td>
+            <td>Al iniciar este año se puso en marcha las labores del IMPLAN Torreón, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada...</td>
+          </tr>
+          <tr>
+            <td>19/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/independencia-finanzas-publicas.html">Independencia de las Finanzas Públicas</a></td>
+            <td>Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>12/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/gobiernos-eficaces-eficientes.html">Gobiernos eficaces y eficientes</a></td>
+            <td>La eficiencia de los gobiernos es el subíndice peor evaluado para la metrópoli ubicándonos en el lugar 63 de 77.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Matamoros</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-competencia-electoral.html">Competencia Electoral en Matamoros</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-participacion-electoral.html">Participación Electoral en Matamoros</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en Matamoros</a></td>
+            <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
           </tr>
         </tbody>
       </table>

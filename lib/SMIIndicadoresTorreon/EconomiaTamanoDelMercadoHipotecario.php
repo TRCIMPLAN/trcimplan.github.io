@@ -30,6 +30,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,32 +49,32 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2010</td>
-            <td class="derecha">1,269</td>
+            <td>31/12/2010</td>
+            <td>1,269</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2011</td>
-            <td class="derecha">1,755</td>
+            <td>31/12/2011</td>
+            <td>1,755</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2012</td>
-            <td class="derecha">1,565</td>
+            <td>31/12/2012</td>
+            <td>1,565</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/12/2013</td>
-            <td class="derecha">1,549</td>
+            <td>31/12/2013</td>
+            <td>1,549</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">31/03/2014</td>
-            <td class="derecha">284</td>
+            <td>31/03/2014</td>
+            <td>284</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td>Dato trimestral</td>
           </tr>
@@ -108,37 +109,148 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2014-03-31</td>
-            <td class="derecha">284</td>
+            <td>284</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td>Dato trimestral</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-03-31</td>
-            <td class="derecha">85</td>
+            <td>85</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td>Dato trimestral</td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2014-03-31</td>
-            <td class="derecha">27</td>
+            <td>27</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td>Dato trimestral</td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-03-31</td>
-            <td class="derecha">5</td>
+            <td>5</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td>Dato trimestral</td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2014-03-31</td>
-            <td class="derecha">401</td>
+            <td>401</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td>Dato trimestral</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Tamaño del Mercado Hipotecario</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/07/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/productividad-zml.html">Productividad en la Zona Metropolitana de La Laguna</a></td>
+            <td>Análisis de la productividad laboral, industria manufacturera y eficiencia del trabajo en la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>25/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/estabilidad-de-precios-en-torreon.html">Estabilidad de Precios en Torreón</a></td>
+            <td>En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-cartera-hipotecaria.html">Cartera Hipotecaria en Torreón</a></td>
+            <td>Monto total de créditos otorgados hasta la fecha indicada.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Torreón</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Torreón</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Torreón</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Torreón</a></td>
+            <td>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Torreón</a></td>
+            <td>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Torreón</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Torreón</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Torreón</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-comercio.html">Índice de Especialización Local en Comercio en Torreón</a></td>
+            <td>Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-industria-manufacturera.html">Índice de Especialización Local en Industria Manufacturera en Torreón</a></td>
+            <td>Producción bruta total de la industria manufacturera entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-servicios.html">Índice de Especialización Local en Servicios en Torreón</a></td>
+            <td>Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-construccion.html">Índice de Especialización Local en la Construcción en Torreón</a></td>
+            <td>Producción bruta total de la actividad económica de construcción entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-mineria.html">Índice de Especialización Local en la Minería en Torreón</a></td>
+            <td>Producción bruta total de la actividad económica de minería entre la producción bruta total.</td>
           </tr>
         </tbody>
       </table>

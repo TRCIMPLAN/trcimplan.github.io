@@ -29,6 +29,7 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,8 +48,8 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">01/07/2012</td>
-            <td class="derecha">57.68 %</td>
+            <td>01/07/2012</td>
+            <td>57.68 %</td>
             <td>INE-IEPCC</td>
             <td></td>
           </tr>
@@ -74,37 +75,76 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2012-07-01</td>
-            <td class="derecha">53.75 %</td>
+            <td>53.75 %</td>
             <td>INE-IEPCC</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2012-07-01</td>
-            <td class="derecha">58.31 %</td>
+            <td>58.31 %</td>
             <td>INE-IEPCC</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2012-07-01</td>
-            <td class="derecha">59.57 %</td>
+            <td>59.57 %</td>
             <td>INE-IEPCC</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2012-07-01</td>
-            <td class="derecha">64.58 %</td>
+            <td>64.58 %</td>
             <td>INE-IEPCC</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2012-07-01</td>
-            <td class="derecha">57.68 %</td>
+            <td>57.68 %</td>
             <td>INE-IEPCC</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Participación Electoral</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en La Laguna</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en La Laguna</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral.html">Competencia Electoral en La Laguna</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en La Laguna</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
           </tr>
         </tbody>
       </table>

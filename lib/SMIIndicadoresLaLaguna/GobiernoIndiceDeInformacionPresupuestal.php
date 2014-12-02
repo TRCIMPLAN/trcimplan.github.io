@@ -29,6 +29,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -47,8 +48,8 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">31/12/2013</td>
-            <td class="derecha">26.00 %</td>
+            <td>31/12/2013</td>
+            <td>26.00 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
@@ -74,37 +75,64 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2013-12-31</td>
-            <td class="derecha">22.00 %</td>
+            <td>22.00 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2013-12-31</td>
-            <td class="derecha">35.00 %</td>
+            <td>35.00 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2013-12-31</td>
-            <td class="derecha">28.00 %</td>
+            <td>28.00 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2013-12-31</td>
-            <td class="derecha">20.00 %</td>
+            <td>20.00 %</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2013-12-31</td>
-            <td class="derecha">26.00 %</td>
+            <td>26.00 %</td>
             <td>IMCO</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con índice de Información Presupuestal</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>04/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/datos-abiertos-gobiernos-municipales.html">Datos Abiertos en los Gobiernos Municipales</a></td>
+            <td>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en La Laguna</a></td>
+            <td>Cumplimiento sobre total de obligaciones.</td>
           </tr>
         </tbody>
       </table>

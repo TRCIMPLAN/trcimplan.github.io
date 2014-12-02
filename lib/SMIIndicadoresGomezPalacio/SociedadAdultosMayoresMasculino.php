@@ -30,6 +30,7 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -48,62 +49,62 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td class="centrado">30/06/2011</td>
-            <td class="derecha">8,437</td>
+            <td>30/06/2011</td>
+            <td>8,437</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2012</td>
-            <td class="derecha">8,736</td>
+            <td>30/06/2012</td>
+            <td>8,736</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2013</td>
-            <td class="derecha">9,056</td>
+            <td>30/06/2013</td>
+            <td>9,056</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2014</td>
-            <td class="derecha">9,400</td>
+            <td>30/06/2014</td>
+            <td>9,400</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2015</td>
-            <td class="derecha">9,767</td>
+            <td>30/06/2015</td>
+            <td>9,767</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2016</td>
-            <td class="derecha">10,158</td>
+            <td>30/06/2016</td>
+            <td>10,158</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2017</td>
-            <td class="derecha">10,573</td>
+            <td>30/06/2017</td>
+            <td>10,573</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2018</td>
-            <td class="derecha">11,009</td>
+            <td>30/06/2018</td>
+            <td>11,009</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2019</td>
-            <td class="derecha">11,464</td>
+            <td>30/06/2019</td>
+            <td>11,464</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
-            <td class="centrado">30/06/2020</td>
-            <td class="derecha">11,936</td>
+            <td>30/06/2020</td>
+            <td>11,936</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -133,58 +134,105 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2014-06-30</td>
-            <td class="derecha">19,829</td>
+            <td>19,829</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-06-30</td>
-            <td class="derecha">9,400</td>
+            <td>9,400</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2014-06-30</td>
-            <td class="derecha">4,529</td>
+            <td>4,529</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-06-30</td>
-            <td class="derecha">3,780</td>
+            <td>3,780</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2014-06-30</td>
-            <td class="derecha">37,538</td>
+            <td>37,538</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
             <td>2014-06-30</td>
-            <td class="derecha">87,565</td>
+            <td>87,565</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
             <td>2014-06-30</td>
-            <td class="derecha">57,418</td>
+            <td>57,418</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
             <td>2014-06-30</td>
-            <td class="derecha">3,662,907</td>
+            <td>3,662,907</td>
             <td>CONAPO</td>
             <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Adultos Mayores Masculino</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>03/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
+            <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Gómez Palacio</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores.html">Adultos Mayores en Gómez Palacio</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html">Rezago Alimentario en Gómez Palacio</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html">Rezago Educativo en Gómez Palacio</a></td>
+            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
+Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
+Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
           </tr>
         </tbody>
       </table>
