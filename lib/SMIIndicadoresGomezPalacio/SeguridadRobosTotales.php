@@ -102,6 +102,12 @@ class SeguridadRobosTotales extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/10/2014</td>
+            <td>328</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -127,36 +133,36 @@ class SeguridadRobosTotales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-09-30</td>
-            <td>403</td>
+            <td>2014-10-31</td>
+            <td>433</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-09-30</td>
-            <td>278</td>
+            <td>2014-10-31</td>
+            <td>328</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-09-30</td>
-            <td>52</td>
+            <td>2014-10-31</td>
+            <td>55</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-09-30</td>
-            <td>26</td>
+            <td>2014-10-31</td>
+            <td>35</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-09-30</td>
-            <td>759</td>
+            <td>2014-10-31</td>
+            <td>851</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -187,7 +193,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 320 },{ fecha: '2014-02-28', dato: 271 },{ fecha: '2014-03-31', dato: 345 },{ fecha: '2014-04-30', dato: 338 },{ fecha: '2014-05-31', dato: 281 },{ fecha: '2014-06-30', dato: 183 },{ fecha: '2014-07-31', dato: 274 },{ fecha: '2014-08-31', dato: 255 },{ fecha: '2014-09-30', dato: 278 }],
+      data: [{ fecha: '2014-01-31', dato: 320 },{ fecha: '2014-02-28', dato: 271 },{ fecha: '2014-03-31', dato: 345 },{ fecha: '2014-04-30', dato: 338 },{ fecha: '2014-05-31', dato: 281 },{ fecha: '2014-06-30', dato: 183 },{ fecha: '2014-07-31', dato: 274 },{ fecha: '2014-08-31', dato: 255 },{ fecha: '2014-09-30', dato: 278 },{ fecha: '2014-10-31', dato: 328 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -203,7 +209,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 403 },{ region: 'Gómez Palacio', dato: 278 },{ region: 'Lerdo', dato: 52 },{ region: 'Matamoros', dato: 26 },{ region: 'La Laguna', dato: 759 }],
+      data: [{ region: 'Torreón', dato: 433 },{ region: 'Gómez Palacio', dato: 328 },{ region: 'Lerdo', dato: 55 },{ region: 'Matamoros', dato: 35 },{ region: 'La Laguna', dato: 851 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

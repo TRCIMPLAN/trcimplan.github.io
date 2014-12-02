@@ -294,12 +294,12 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">754</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">784</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">24</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">21</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -324,12 +324,12 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Negocios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">92</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">105</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Transeuntes</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">56</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">120</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -339,17 +339,17 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos a Casa Habitación</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">81</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">64</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos Totales</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">403</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">433</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Secuestros</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

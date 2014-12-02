@@ -254,12 +254,12 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1,314</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1,414</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">35</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -284,12 +284,12 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Negocios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">190</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">190</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Transeuntes</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">137</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">228</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -299,17 +299,17 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos a Casa Habitación</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">128</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">110</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos Totales</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 30/09/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">759</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">851</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Secuestros</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 30/06/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
