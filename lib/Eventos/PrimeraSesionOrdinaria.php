@@ -40,7 +40,7 @@ class PrimeraSesionOrdinaria extends \Base\Publicacion {
         $this->descripcion   = 'Primera Reunión Ordinaria del Consejo Directivo del Instituto Municipal de Planeación y Competitividad de Torreón.';
         $this->claves        = 'IMPLAN, Torreon, Sesion, Reunion, Ordinaria';
         $this->imagen_previa = 'primera-sesion-ordinaria/imagen-previa.jpg';
-        $this->categorias    = array('Sesiones');
+        $this->categorias    = array('Plan Estratégico Metropolitano');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><a href="primera-sesion-ordinaria/primera-sesion-ordinaria.jpg"><img src="primera-sesion-ordinaria/imagen.jpg"></a></span>

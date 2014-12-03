@@ -40,7 +40,7 @@ class SectoresInnovacionSofisticacion extends \Base\Publicacion {
         $this->descripcion   = 'Análisis de los indicadores relativos a la innovación.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'sectores-innovacion-sofisticacion/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Innovación', 'Empresas');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="sectores-innovacion-sofisticacion/imagen.jpg"></span>

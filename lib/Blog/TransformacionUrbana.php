@@ -40,7 +40,7 @@ class TransformacionUrbana extends \Base\Publicacion {
         $this->descripcion   = 'Tenemos grupos organizados y activistas de las bicicletas. Lo que falta, es el compromiso de los ayuntamientos para lograr la transformación urbana de la Laguna.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'transformacion-urbana/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Transporte');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="transformacion-urbana/imagen.jpg"></span>

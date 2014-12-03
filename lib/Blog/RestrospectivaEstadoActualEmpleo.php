@@ -42,7 +42,7 @@ class RestrospectivaEstadoActualEmpleo extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion   = 'El empleo es uno de los principales indicadores, que muestra el desempeño económico de una ciudad, región o país. Desde hace 9 años Torreón y la Zona Metropolitana de la Laguna se habían separado a la alza de la media nacional.';
         $this->claves        = 'IMPLAN, Torreon, Empleo';
-        $this->categorias    = array('Blog', 'Empleo');
+        $this->categorias    = array('Empleo');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio    = 'blog';
         $this->nombre_menu   = 'Análisis Publicados';

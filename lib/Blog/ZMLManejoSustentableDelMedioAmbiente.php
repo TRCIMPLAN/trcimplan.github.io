@@ -40,7 +40,7 @@ class ZMLManejoSustentableDelMedioAmbiente extends \Base\Publicacion {
         $this->descripcion   = 'De acuerdo al ICU 2012, en cuanto a medio ambiente La Laguna ocupa el lugar 35 de 77.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'zml-manejo-sustentable-del-medio-ambiente/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Recursos Naturales');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="zml-manejo-sustentable-del-medio-ambiente/imagen.jpg"></span>

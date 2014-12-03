@@ -42,7 +42,7 @@ class AperturaEmpresas2014 extends \Base\Publicacion {
         // La descripción y categorías son para las redes sociales. Las categorías son de uso interno.
         $this->descripcion   = 'La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año 2014 en el mes de julio.';
         $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Empresas', 'Doing Bussines', 'Competitividad');
+        $this->categorias    = array('Empresas', 'Doing Business', 'Competitividad');
         // No cambie lo siguiente. Es común para Análisis Publicados
         $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';

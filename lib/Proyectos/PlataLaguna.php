@@ -40,7 +40,7 @@ class PlataLaguna extends \Base\Publicacion {
         $this->descripcion   = 'El Sector Plata la Laguna cuenta con externalidades positivas que lo potencian como una industria capaz de generar importantes beneficios sociales y económicos.';
         $this->claves        = 'IMPLAN, Torreon, Plata, Laguna';
         $this->imagen_previa = 'plata-laguna/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Proyectos');
         $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="plata-laguna/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="plata-laguna/imagen.jpg"></span>

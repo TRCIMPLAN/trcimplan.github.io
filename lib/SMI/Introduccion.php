@@ -40,7 +40,7 @@ class Introduccion extends \Base\Publicacion {
         $this->descripcion   = 'Introducción al Sistema Metropolitano de Indicadores del IMPLAN Torreón.';
         $this->claves        = 'IMPLAN, Torreon, Indicadores, Gomez Palacio, Lerdo, Matamoros, La Laguna';
     //  $this->imagen_previa = 'smi/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('SMI');
         $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <div class="row">

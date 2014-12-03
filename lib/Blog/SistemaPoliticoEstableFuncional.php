@@ -37,10 +37,10 @@ class SistemaPoliticoEstableFuncional extends \Base\Publicacion {
         $this->nombre_menu   = 'Análisis Publicados';
         $this->directorio    = 'blog';
         $this->archivo       = 'sistema-politico-estable-funcional';
-        $this->descripcion   = 'Es el subíndice mejor calificado de la zona metropolitana, ya que IMCO nos sitúa en el lugar 11 del ranking.';
+        $this->descripcion   = 'El Sistema Político Estable y Funcional es el subíndice mejor calificado de la zona metropolitana, ya que IMCO nos sitúa en el lugar 11 del ranking.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'sistema-politico-estable-funcional/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Gobierno', 'Participación Ciudadana');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="sistema-politico-estable-funcional/imagen.jpg"></span>

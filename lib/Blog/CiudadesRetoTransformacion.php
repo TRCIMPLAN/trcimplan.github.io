@@ -43,7 +43,7 @@ class CiudadesRetoTransformacion extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Infraestructura', 'Recursos Naturales', 'Zonificación', 'Bienestar');
+        $this->categorias       = array('Infraestructura', 'Recursos Naturales', 'Bienestar');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

@@ -40,7 +40,7 @@ class SegundaSesionOrdinaria extends \Base\Publicacion {
         $this->descripcion   = 'Se presentó el Sistema Metropolitano de Indicadores, SMI, el cual es un banco de información sobre temas de interés de nuestra Ciudad y su área Metropolitana.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'segunda-sesion-ordinaria/imagen-previa.jpg';
-        $this->categorias    = array('Indicadores', 'Sesiones');
+        $this->categorias    = array('Plan Estratégico Metropolitano');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <img class="img-responsive contenido-imagen" src="segunda-sesion-ordinaria/imagen.jpg" alt="Segunda Sesión Ordinaria">

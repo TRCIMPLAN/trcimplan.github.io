@@ -40,7 +40,7 @@ class TerceraSesionOrdinaria extends \Base\Publicacion {
         $this->descripcion   = 'Con el título "230 días del IMPLAN" se dió el informe donde fué reconocida la conformación de bases sólidas para la creación de una ciudad planeada y competitiva.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'tercera-sesion-ordinaria/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Plan Estratégico Metropolitano');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <img class="img-responsive contenido-imagen" src="tercera-sesion-ordinaria/tercera-sesion.jpg" alt="Tercera Sesión Ordinaria">

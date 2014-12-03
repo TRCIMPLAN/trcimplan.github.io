@@ -43,7 +43,7 @@ class ZonificacionH6 extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = '';
         $this->claves           = 'IMPLAN, Torreon, SIG';
-        $this->categorias       = array('SIG');
+        $this->categorias       = array('Zonificación');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
         $this->directorio       = 'sig';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.

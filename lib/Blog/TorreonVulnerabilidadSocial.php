@@ -40,7 +40,7 @@ class TorreonVulnerabilidadSocial extends \Base\Publicacion {
         $this->descripcion   = 'Análisis de los indicadores sobre la infancia, alimentación, educación, maternidad adolescente, adultos mayores, vulnerabilidad por la delincuencia y discapacidad.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'torreon-vulnerabilidad-social/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Grupos Vulnerables', 'Población');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="torreon-vulnerabilidad-social/imagen.jpg"></span>

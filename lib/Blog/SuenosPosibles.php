@@ -40,7 +40,7 @@ class SuenosPosibles extends \Base\Publicacion {
         $this->descripcion   = 'La ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'suenos-posibles/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Plan Estratégico Metropolitano');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="suenos-posibles/imagen.jpg"></span>

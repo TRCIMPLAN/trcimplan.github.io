@@ -42,7 +42,7 @@ class VisionVencedores extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion   = 'El regreso de La Laguna a los primeros lugares en el ranking de competitividad nacional demanda de una comunidad que retome los valores y el empuje de “Los Fundadores”, de los hombres y mujeres que lejos de considerarse victimas de las adversidades, de su entorno natural y político, construyeron una de las regiones más prósperas de México.';
         $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Competitividad', 'Empleo', 'Macroeconomía');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio    = 'blog';
         $this->nombre_menu   = 'Análisis Publicados';

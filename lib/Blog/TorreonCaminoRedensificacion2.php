@@ -43,7 +43,7 @@ class TorreonCaminoRedensificacion2 extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Retomo el tema de la redensificación de ciudades, y de Torreón en especial, pues como ya lo había presentado, las cifras nos indican como el territorio ocupado en la ciudad es siete veces contra tres del crecimiento poblacional de la década de 1970 a la fecha.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Blog');
+        $this->categorias       = array('Infraestructura');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

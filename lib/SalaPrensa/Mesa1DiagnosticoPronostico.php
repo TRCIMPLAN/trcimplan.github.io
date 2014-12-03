@@ -42,7 +42,7 @@ class Mesa1DiagnosticoPronostico extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion   = 'El pasado 9 de octubre de 2014 comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Sala de Prensa');
+        $this->categorias    = array('Plan Estratégico Metropolitano');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
         $this->directorio    = 'sala-prensa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.

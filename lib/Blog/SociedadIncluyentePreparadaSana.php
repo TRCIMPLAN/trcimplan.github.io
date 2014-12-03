@@ -40,7 +40,7 @@ class SociedadIncluyentePreparadaSana extends \Base\Publicacion {
         $this->descripcion   = 'Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.';
         $this->claves        = 'IMPLAN, Torreon, Sociedad, Incluyente, Preparada, Sana';
         $this->imagen_previa = 'sociedad-incluyente-preparada-sana/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('Educación', 'Bienestar', 'Vivienda');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="sociedad-incluyente-preparada-sana/imagen.jpg"></span>

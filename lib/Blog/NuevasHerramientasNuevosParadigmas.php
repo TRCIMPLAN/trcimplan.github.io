@@ -40,7 +40,7 @@ class NuevasHerramientasNuevosParadigmas extends \Base\Publicacion {
         $this->descripcion   = 'Hoy en día, con un teléfono inteligente o tablet se puede consultar la versión móvil de un SIG para recaudar información, emitir un diagnóstico y trabajar en planes programas y proyectos futuros.';
         $this->claves        = 'IMPLAN, Torreon';
         $this->imagen_previa = 'nuevas-herramientas-nuevos-paradigmas/imagen-previa.jpg';
-        $this->categorias    = array('Innovación', 'Información Geográfica');
+        $this->categorias    = array('Innovación', 'SIG');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <span class="contenido-imagen-previa"><img src="nuevas-herramientas-nuevos-paradigmas/imagen.jpg"></span>

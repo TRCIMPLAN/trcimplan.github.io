@@ -40,7 +40,7 @@ class AbrirSIG extends \Base\Publicacion {
         $this->descripcion   = 'Instrucciones para abrir el Sistema de Información Geográfica.';
         $this->claves        = 'IMPLAN, Torreon';
      // $this->imagen_previa = 'directorio/imagen-previa.jpg';
-        $this->categorias    = array('Blog');
+        $this->categorias    = array('SIG');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <img class="img-responsive" src="abrir-sig/sig-instrucciones-1.png">
