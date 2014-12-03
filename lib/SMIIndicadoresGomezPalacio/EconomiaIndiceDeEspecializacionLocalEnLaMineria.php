@@ -49,6 +49,12 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
         </thead>
         <tbody>
           <tr>
+            <td>31/12/1998</td>
+            <td>0.14 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2003</td>
             <td>0.14 %</td>
             <td>INEGI</td>
@@ -250,7 +256,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2003-12-31', dato: 0.1400 },{ fecha: '2008-12-31', dato: 0.2000 }],
+      data: [{ fecha: '1998-12-31', dato: 0.1400 },{ fecha: '2003-12-31', dato: 0.1400 },{ fecha: '2008-12-31', dato: 0.2000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

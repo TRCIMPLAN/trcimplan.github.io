@@ -6,7 +6,7 @@
  */
 
 // Namespace
-namespace SMIIndicadoresTorreon;
+namespace SMIIndicadoresLaLaguna;
 
 /**
  * Clase SociedadDiscapacidad
@@ -17,14 +17,14 @@ class SociedadDiscapacidad extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Discapacidad en Torreón';
+        $this->nombre       = 'Discapacidad en La Laguna';
         $this->nombre_menu  = 'Indicadores';
-        $this->directorio   = 'indicadores-torreon';
+        $this->directorio   = 'indicadores-la-laguna';
         $this->archivo      = 'sociedad-discapacidad';
         $this->descripcion  = 'Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)';
-        $this->claves       = 'Torreón, Grupos Vulnerables';
+        $this->claves       = 'La Laguna, Grupos Vulnerables';
         $this->categorias   = array('Grupos Vulnerables');
-        $this->region_nivel = 101;
+        $this->region_nivel = 401;
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
@@ -49,7 +49,7 @@ class SociedadDiscapacidad extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2010</td>
-            <td>4.50 %</td>
+            <td>4.30 %</td>
             <td>INEGI. Censos de Población y Vivienda</td>
             <td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td>
           </tr>
@@ -154,46 +154,20 @@ class SociedadDiscapacidad extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Torreón</a></td>
+            <td><a href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en La Laguna</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino en Torreón</a></td>
+            <td><a href="../indicadores-la-laguna/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino en La Laguna</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más de sexo masculino</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-adultos-mayores.html">Adultos Mayores en Torreón</a></td>
+            <td><a href="../indicadores-la-laguna/sociedad-adultos-mayores.html">Adultos Mayores en La Laguna</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html">Estimación de Menores Huérfanos por Agresiones en Torreón</a></td>
-            <td>Menores de edad que han perdido a padre o madre a causa de agresión (homicidio).</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-madres-adolescentes.html">Madres Adolescentes en Torreón</a></td>
-            <td>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-rezago-alimentario.html">Rezago Alimentario en Torreón</a></td>
-            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-rezago-educativo.html">Rezago Educativo en Torreón</a></td>
-            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
-Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
-Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
           </tr>
         </tbody>
       </table>

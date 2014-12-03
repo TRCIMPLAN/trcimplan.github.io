@@ -1,6 +1,6 @@
 <?php
 /**
- * SociedadRezagoEducativo.php
+ * SociedadDiscapacidad.php
  *
  * IMPLAN Torreón
  */
@@ -9,23 +9,21 @@
 namespace SMIIndicadoresMatamoros;
 
 /**
- * Clase SociedadRezagoEducativo
+ * Clase SociedadDiscapacidad
  */
-class SociedadRezagoEducativo extends \Base\Publicacion {
+class SociedadDiscapacidad extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Rezago Educativo en Matamoros';
+        $this->nombre       = 'Discapacidad en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedad-rezago-educativo';
-        $this->descripcion  = 'Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
-Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
-Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL';
-        $this->claves       = 'Matamoros, Educación, Grupos Vulnerables';
-        $this->categorias   = array('Educación', 'Grupos Vulnerables');
+        $this->archivo      = 'sociedad-discapacidad';
+        $this->descripcion  = 'Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)';
+        $this->claves       = 'Matamoros, Grupos Vulnerables';
+        $this->categorias   = array('Grupos Vulnerables');
         $this->region_nivel = 131;
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
@@ -36,9 +34,7 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
-Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
-Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</p>
+<p>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -53,21 +49,21 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
         <tbody>
           <tr>
             <td>31/12/2010</td>
-            <td>19.20 %</td>
-            <td>CONEVAL</td>
-            <td></td>
+            <td>4.40 %</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Anexo-estad%C3%ADstico-municipal-2010.aspx">Base de Datos</a></p>
+<p>Consulta o descarga la <a href="http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&amp;s=est">Base de Datos</a></p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Rezago Educativo</h3>
+      <h3>Gráfica con los últimos datos de Discapacidad</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Rezago Educativo</h3>
+      <h3>Últimos datos de Discapacidad</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -82,36 +78,57 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
           <tr>
             <td>Torreón</td>
             <td>2010-12-31</td>
-            <td>10.83 %</td>
-            <td>CONEVAL</td>
-            <td></td>
+            <td>4.50 %</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2010-12-31</td>
-            <td>17.31 %</td>
-            <td>CONEVAL</td>
-            <td></td>
+            <td>4.00 %</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2010-12-31</td>
-            <td>16.76 %</td>
-            <td>CONEVAL</td>
-            <td></td>
+            <td>4.00 %</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2010-12-31</td>
-            <td>19.20 %</td>
-            <td>CONEVAL</td>
-            <td></td>
+            <td>4.40 %</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2010-12-31</td>
+            <td>4.30 %</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2010-12-31</td>
+            <td>4.40 %</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2010-12-31</td>
+            <td>5.20 %</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td>
           </tr>
         </tbody>
       </table>
     </div>
     <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Rezago Educativo</h3>
+      <h3>Páginas relacionadas con Discapacidad</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -123,22 +140,10 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
         </thead>
         <tbody>
           <tr>
-            <td>19/09/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></td>
-            <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
-          </tr>
-          <tr>
             <td>13/06/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/torreon-vulnerabilidad-social.html">Torreón y la Vulnerabilidad Social</a></td>
             <td>Análisis de los indicadores sobre la infancia, alimentación, educación, maternidad adolescente, adultos mayores, vulnerabilidad por la delincuencia y discapacidad.</td>
-          </tr>
-          <tr>
-            <td>06/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/sociedad-incluyente-preparada-sana.html">Sociedad Incluyente, Preparada y Sana</a></td>
-            <td>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</td>
           </tr>
           <tr>
             <td>03/04/2014</td>
@@ -167,50 +172,16 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en Matamoros</a></td>
-            <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en Matamoros</a></td>
-            <td>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Matamoros</a></td>
-            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-discapacidad.html">Discapacidad en Matamoros</a></td>
-            <td>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-espacios-culturales.html">Espacios Culturales en Matamoros</a></td>
-            <td>Espacios culturales físicamente delimitados.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-posgrados-de-calidad.html">Posgrados de Calidad en Matamoros</a></td>
-            <td>Programas aceptados por CONACYT como posgrados de calidad</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-rezago-alimentario.html">Rezago Alimentario en Matamoros</a></td>
             <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-universidades.html">Universidades en Matamoros</a></td>
-            <td>Planteles de Instituciones de Educación Superior.</td>
+            <td><a href="../indicadores-matamoros/sociedad-rezago-educativo.html">Rezago Educativo en Matamoros</a></td>
+            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
+Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
+Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
           </tr>
         </tbody>
       </table>
@@ -224,7 +195,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 10.8300 },{ region: 'Gómez Palacio', dato: 17.3100 },{ region: 'Lerdo', dato: 16.7600 },{ region: 'Matamoros', dato: 19.2000 }],
+      data: [{ region: 'Torreón', dato: 4.5000 },{ region: 'Gómez Palacio', dato: 4.0000 },{ region: 'Lerdo', dato: 4.0000 },{ region: 'Matamoros', dato: 4.4000 },{ region: 'La Laguna', dato: 4.3000 },{ region: 'Coahuila', dato: 4.4000 },{ region: 'Durango', dato: 5.2000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -239,6 +210,6 @@ $(document).ready(function(){
 FINAL;
     } // constructor
 
-} // Clase SociedadRezagoEducativo
+} // Clase SociedadDiscapacidad
 
 ?>

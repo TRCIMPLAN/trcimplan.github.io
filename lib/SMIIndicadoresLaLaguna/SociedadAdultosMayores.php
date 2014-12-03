@@ -226,6 +226,12 @@ class SociedadAdultosMayores extends \Base\Publicacion {
             <td><a href="../indicadores-la-laguna/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino en La Laguna</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más de sexo masculino</td>
           </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-discapacidad.html">Discapacidad en La Laguna</a></td>
+            <td>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</td>
+          </tr>
         </tbody>
       </table>
     </div>
