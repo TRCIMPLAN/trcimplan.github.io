@@ -153,6 +153,12 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
             <td>El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.</td>
           </tr>
           <tr>
+            <td>06/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sociedad-incluyente-preparada-sana.html">Sociedad Incluyente, Preparada y Sana</a></td>
+            <td>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</td>
+          </tr>
+          <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-camas-censables.html">Camas Censables en La Laguna</a></td>
@@ -161,8 +167,44 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html">Mortalidad Infantil en La Laguna</a></td>
+            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-materna.html">Mortalidad Materna en La Laguna</a></td>
+            <td>Defunciones maternas por cada cien mil partos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-mortalidad.html">Mortalidad en La Laguna</a></td>
+            <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en La Laguna</a></td>
+            <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-medicos.html">Médicos en La Laguna</a></td>
+            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en La Laguna</a></td>
             <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en La Laguna</a></td>
+            <td>Población derechohabiente a los servicios de salud.</td>
           </tr>
           <tr>
             <td>ND</td>
@@ -223,42 +265,6 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en La Laguna</a></td>
             <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html">Mortalidad Infantil en La Laguna</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-materna.html">Mortalidad Materna en La Laguna</a></td>
-            <td>Defunciones maternas por cada cien mil partos.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad.html">Mortalidad en La Laguna</a></td>
-            <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en La Laguna</a></td>
-            <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-medicos.html">Médicos en La Laguna</a></td>
-            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en La Laguna</a></td>
-            <td>Población derechohabiente a los servicios de salud.</td>
           </tr>
         </tbody>
       </table>

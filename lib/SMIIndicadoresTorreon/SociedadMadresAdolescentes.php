@@ -113,6 +113,12 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
             <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
           </tr>
           <tr>
+            <td>13/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/torreon-vulnerabilidad-social.html">Torreón y la Vulnerabilidad Social</a></td>
+            <td>Análisis de los indicadores sobre la infancia, alimentación, educación, maternidad adolescente, adultos mayores, vulnerabilidad por la delincuencia y discapacidad.</td>
+          </tr>
+          <tr>
             <td>03/04/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>

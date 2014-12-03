@@ -123,6 +123,12 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>10/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sistema-politico-estable-funcional.html">Sistema Político Estable y Funcional</a></td>
+            <td>El Sistema Político Estable y Funcional es el subíndice mejor calificado de la zona metropolitana, ya que IMCO nos sitúa en el lugar 11 del ranking.</td>
+          </tr>
+          <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Matamoros</a></td>

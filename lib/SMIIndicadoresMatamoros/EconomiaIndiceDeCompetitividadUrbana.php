@@ -123,6 +123,12 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>21/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/vision-vencedores.html">La visión de los vencedores</a></td>
+            <td>El regreso de La Laguna a los primeros lugares en el ranking de competitividad nacional demanda de una comunidad que retome los valores y el empuje de “Los Fundadores”, de los hombres y mujeres que lejos de considerarse victimas de las adversidades, de su entorno natural y político, construyeron una de las regiones más prósperas de México.</td>
+          </tr>
+          <tr>
             <td>24/09/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/apertura-empresas-2014.html">Apertura de Empresas 2014</a></td>

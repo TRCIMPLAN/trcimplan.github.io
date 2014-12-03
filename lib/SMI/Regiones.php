@@ -43,7 +43,7 @@ class Regiones extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = '';
         $this->claves           = 'IMPLAN, Torreon, Indicadores';
-        $this->categorias       = array('SMI');
+        $this->categorias       = array('Indicadores');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
         $this->directorio       = 'smi';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.

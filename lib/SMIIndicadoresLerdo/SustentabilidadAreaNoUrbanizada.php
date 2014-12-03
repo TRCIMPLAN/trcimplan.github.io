@@ -156,6 +156,12 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
             <td>La extracción del gas shale se contempla en el futuro cercano de México, pues además de contar con una de las reservas más grandes del mundo, ha contribuido positivamente en la economía de los países que lo utilizan.</td>
           </tr>
           <tr>
+            <td>04/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/zml-manejo-sustentable-del-medio-ambiente.html">La Zona Metropolitana de La Laguna y sus municipios en manejo sustentable del medio ambiente</a></td>
+            <td>De acuerdo al ICU 2012, en cuanto a medio ambiente La Laguna ocupa el lugar 35 de 77.</td>
+          </tr>
+          <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sustentabilidad-generacion-de-basura.html">Generación de Basura en Lerdo</a></td>

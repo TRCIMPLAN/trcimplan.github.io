@@ -144,6 +144,12 @@ class SustentabilidadTrasladosAPie extends \Base\Publicacion {
             <td>Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.</td>
           </tr>
           <tr>
+            <td>04/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/zml-manejo-sustentable-del-medio-ambiente.html">La Zona Metropolitana de La Laguna y sus municipios en manejo sustentable del medio ambiente</a></td>
+            <td>De acuerdo al ICU 2012, en cuanto a medio ambiente La Laguna ocupa el lugar 35 de 77.</td>
+          </tr>
+          <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en La Laguna</a></td>

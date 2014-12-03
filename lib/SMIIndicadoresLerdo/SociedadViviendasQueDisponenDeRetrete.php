@@ -153,6 +153,12 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
             <td>El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.</td>
           </tr>
           <tr>
+            <td>06/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sociedad-incluyente-preparada-sana.html">Sociedad Incluyente, Preparada y Sana</a></td>
+            <td>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</td>
+          </tr>
+          <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-camas-censables.html">Camas Censables en Lerdo</a></td>
