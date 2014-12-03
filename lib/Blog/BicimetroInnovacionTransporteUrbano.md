@@ -1,5 +1,3 @@
-Bicimetro: La innovación del Transporte Urbano
-==============================================
 
 <span class="contenido-imagen-previa"><img src="bicimetro-innovacion-transporte-urbano/imagen.jpg"></span>
 

@@ -1,5 +1,3 @@
-Movilidad y nuestra ciudad
-==========================
 
 <span class="contenido-imagen-previa"><img src="movilidad-nuestra-ciudad/imagen.jpg"></span>
 
