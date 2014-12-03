@@ -72,6 +72,12 @@ class SustentabilidadTrasladosAPie extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>03/12/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/calle-completa-espacio-vital-todos.html">La Calle Completa: espacio vial para todos</a></td>
+            <td>Con la inclusión del automóvil en el espacio urbano se causó problemas como alta incidencia de accidentes, inaccesibilidad, contaminación, y el deterioro del espacio público más importante: la calle.</td>
+          </tr>
+          <tr>
             <td>25/11/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/movilidad-nuestra-ciudad.html">Movilidad y nuestra ciudad</a></td>
