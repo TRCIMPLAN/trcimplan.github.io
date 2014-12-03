@@ -49,8 +49,14 @@ class EconomiaIndiceDeEspecializacionLocalEnLaConstruccion extends \Base\Publica
         </thead>
         <tbody>
           <tr>
+            <td>31/12/1998</td>
+            <td>0.00 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2003</td>
-            <td>0.42 %</td>
+            <td>0.24 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -250,7 +256,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2003-12-31', dato: 0.4200 },{ fecha: '2008-12-31', dato: 0.0000 }],
+      data: [{ fecha: '1998-12-31', dato: 0.0000 },{ fecha: '2003-12-31', dato: 0.2400 },{ fecha: '2008-12-31', dato: 0.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

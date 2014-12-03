@@ -119,6 +119,12 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>02/12/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ciudades-mas-humanas.html">Ciudades más Humanas</a></td>
+            <td>La calidad de vida en las ciudades es la posibilidad que tiene una persona, una familia o una comunidad, de alcanzar el bienestar y la satisfacción de todas sus necesidades.</td>
+          </tr>
+          <tr>
             <td>25/11/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/movilidad-nuestra-ciudad.html">Movilidad y nuestra ciudad</a></td>

@@ -28,6 +28,7 @@ class EconomiaIndiceDeEspecializacionLocalEnLaConstruccion extends \Base\Publica
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
     <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
@@ -48,6 +49,18 @@ class EconomiaIndiceDeEspecializacionLocalEnLaConstruccion extends \Base\Publica
         </thead>
         <tbody>
           <tr>
+            <td>31/12/1998</td>
+            <td>2.17 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2003</td>
+            <td>2.64 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2008</td>
             <td>2.23 %</td>
             <td>INEGI</td>
@@ -65,6 +78,10 @@ class EconomiaIndiceDeEspecializacionLocalEnLaConstruccion extends \Base\Publica
 
 <p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a></p>
 
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Índice de Especialización Local en la Construcción en Gómez Palacio</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Índice de Especialización Local en la Construcción</h3>
@@ -233,6 +250,22 @@ class EconomiaIndiceDeEspecializacionLocalEnLaConstruccion extends \Base\Publica
   </div>
 FINAL;
         $this->javascript   = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '1998-12-31', dato: 2.1700 },{ fecha: '2003-12-31', dato: 2.6400 },{ fecha: '2008-12-31', dato: 2.2300 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
