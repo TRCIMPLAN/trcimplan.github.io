@@ -21,8 +21,6 @@ Esta calidad de vida traducida a las oportunidades que pueden tener estas person
 
 Es importante destacar que la calidad de vida en las ciudades no solo depende del suelo, ni del entorno o equipamiento que lo conforma, es igual de importante el valor que se les da a los ciudadanos que la conforman, las oportunidades que tienen de educación, que le  permite al individuo socializar e intercambiar ideas, así como acceder a un empleo que le permita alcanzar  el bienestar y la satisfacción de sus necesidades.
 
-### Referencias
-
 [i]: http://blogs.iadb.org/ciudadessostenibles/2012/10/17/que-es-una-ciudad-emergente-cuantas-hay-en-america-latina/ "Horacio Terraza Banco Interamericano de Desarrollo, 24 noviembre 2014"
 [ii]: http://habitat.aq.upm.es/temas/a-calidad-de-vida.html "Jiménez Romera Carlos, 23 noviembre 2014"
 [iii]: # "Fuente: Guillermina Fernández, Aldo Guzmán Ramos UNCPBA. Argentina Biblio 3W. Revista Bibliográfica de Geografía y Ciencias Sociales (Nº 242, 17 julio 2000) 24 noviembre 2014"
