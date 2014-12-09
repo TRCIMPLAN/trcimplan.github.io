@@ -13,9 +13,9 @@ En ese mismo sentido, **en toda ciudad, estado o país debe haber sinergia entre
 
 ### Hoy en día es el capital humano el más valioso
 
-Un buen ejemplo a seguir como país es **Corea del Sur**. Considerada hoy en día la 12° economía más grande del mundo, fué hace algunas décadas una nación "subdesarrollada" que favoreció la industrialización y atracción de capitales extranjeros. Hoy en día, tiene empresas de reconocimiento internacional como Samsung, LG y Hyundai.
+Un buen ejemplo a seguir como país es **Corea del Sur** que actualmente es la 12° economía más grande del mundo. Fué hace algunas décadas una nación "subdesarrollada" que favoreció la industrialización y atracción de capitales extranjeros. En el presente tiene empresas de reconocimiento internacional como Samsung, LG y Hyundai.
 
-**Corea del Sur** ha reestructurado sus instituciones para colaborar estrechamente con expertos y organizaciones civiles. **Desde 1971 creó el Korea Development Institute cuyo fin es el lograr el mejor desarrollo económico y social.**
+**Corea del Sur** ha reestructurado sus instituciones para colaborar estrechamente con expertos y organizaciones civiles. **Desde 1971 creó el [Korea Development Institute](http://www.kdi.re.kr/kdi_eng/main/main.jsp) cuyo fin es el lograr el mejor desarrollo económico y social.**
 
 <a href="https://www.wolframalpha.com/input/?i=South+Korea%2C+Mexico+GDP+per+capita#"><img class="img-responsive contenido-imagen" src="papel-organizaciones-civiles-aumento-competitividad/corea-del-sur-vs-mexico-pib.png" alt="PIB de Corea del Sur vs México"></a>
 
