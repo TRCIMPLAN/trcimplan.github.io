@@ -123,6 +123,12 @@ class EconomiaIndiceDeCompetitividadUrbana extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>09/12/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/papel-organizaciones-civiles-aumento-competitividad.html">El papel de las Organizaciones Civiles en el aumento del bienestar y competitividad</a></td>
+            <td>En toda ciudad, estado o país debe haber sinergia entre ciudadanos, asociaciones civiles y empresas para definir programas a largo plazo que mejoren la calidad y el bienestar de todos nosotros.</td>
+          </tr>
+          <tr>
             <td>21/10/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/vision-vencedores.html">La visión de los vencedores</a></td>
