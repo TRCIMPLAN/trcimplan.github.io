@@ -62,7 +62,8 @@ class NavegacionConfig {
             'Comunicados > Sala de Prensa' => 'sala-prensa/index.html'),
         'Contacto' => array(
             'Contacto > Medios de contacto'        => 'contacto/contacto.html',
-            'Contacto > Comentarios y Sugerencias' => 'http://trcimplan.mx/comentariossugerencias'));
+            'Contacto > Comentarios y Sugerencias' => 'http://trcimplan.mx/comentariossugerencias'),
+        'Preguntas Frecuentes' => 'preguntas-frecuentes/preguntas-frecuentes.html');
     public $iconos = array(
         'Introducción'                   => 'fa fa-file-text-o',
 
@@ -97,7 +98,8 @@ class NavegacionConfig {
         'Sala de Prensa'                 => 'fa fa-folder-o',
 
         'Contacto'                       => 'fa fa-phone',
-        'Comentarios y Sugerencias'      => 'fa fa-external-link');
+        'Comentarios y Sugerencias'      => 'fa fa-external-link',
+        'Preguntas Frecuentes'           => 'fa fa-question');
     protected $buscador_html = <<<FINAL
           <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="http://trcimplan.gob.mx/buscador-resultados.html">
             <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">

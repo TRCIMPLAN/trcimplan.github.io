@@ -451,11 +451,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/institucional/quienes-somos.html</loc>
-    <lastmod>2014-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://trcimplan.gob.mx/institucional/reglamentos.html</loc>
     <lastmod>2014-05-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -503,6 +498,16 @@
   <url>
     <loc>http://trcimplan.gob.mx/institucional/mensaje-director.html</loc>
     <lastmod>2014-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/institucional/quienes-somos.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/preguntas-frecuentes/preguntas-frecuentes.html</loc>
+    <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -647,6 +652,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/economia-desempleo.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/economia-empresas-exportadoras.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1241,6 +1251,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/economia-empresas-exportadoras.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/economia-grandes-empresas.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -1812,6 +1827,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/economia-desempleo.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/economia-empresas-exportadoras.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2402,6 +2422,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/economia-desempleo.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/economia-empresas-exportadoras.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3007,6 +3032,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-ejecucion-de-contratos.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-empresas-exportadoras.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
