@@ -105,8 +105,8 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td>244</td>
+            <td>2013-12-31</td>
+            <td>251</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -338,7 +338,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 226 },{ region: 'Gómez Palacio', dato: 308 },{ region: 'Lerdo', dato: 235 },{ region: 'Matamoros', dato: 162 },{ region: 'La Laguna', dato: 244 },{ region: 'Coahuila', dato: 247 },{ region: 'Durango', dato: 282 },{ region: 'Nacional', dato: 299 }],
+      data: [{ region: 'Torreón', dato: 226 },{ region: 'Gómez Palacio', dato: 308 },{ region: 'Lerdo', dato: 235 },{ region: 'Matamoros', dato: 162 },{ region: 'La Laguna', dato: 251 },{ region: 'Coahuila', dato: 247 },{ region: 'Durango', dato: 282 },{ region: 'Nacional', dato: 299 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

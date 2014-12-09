@@ -28,6 +28,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
     <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
@@ -48,8 +49,86 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>31/12/2000</td>
+            <td>118</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2001</td>
+            <td>184</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2002</td>
+            <td>215</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2003</td>
+            <td>210</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2004</td>
+            <td>215</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2005</td>
+            <td>213</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2006</td>
+            <td>221</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2007</td>
+            <td>226</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>234</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>234</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>236</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>226</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2012</td>
             <td>244</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>251</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -59,6 +138,10 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
       <h3>Observaciones</h3>
 <p>Índice de motorización. Consulta la <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/transporte/vehiculos.asp?s=est&amp;c=13158&amp;proy=vmrc_vehiculos">Base de Datos</a></p>
 
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Motorización en La Laguna</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Motorización</h3>
@@ -105,8 +188,8 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td>244</td>
+            <td>2013-12-31</td>
+            <td>251</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -356,13 +439,29 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript   = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2000-12-31', dato: 118 },{ fecha: '2001-12-31', dato: 184 },{ fecha: '2002-12-31', dato: 215 },{ fecha: '2003-12-31', dato: 210 },{ fecha: '2004-12-31', dato: 215 },{ fecha: '2005-12-31', dato: 213 },{ fecha: '2006-12-31', dato: 221 },{ fecha: '2007-12-31', dato: 226 },{ fecha: '2008-12-31', dato: 234 },{ fecha: '2009-12-31', dato: 234 },{ fecha: '2010-12-31', dato: 236 },{ fecha: '2011-12-31', dato: 226 },{ fecha: '2012-12-31', dato: 244 },{ fecha: '2013-12-31', dato: 251 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 226 },{ region: 'Gómez Palacio', dato: 308 },{ region: 'Lerdo', dato: 235 },{ region: 'Matamoros', dato: 162 },{ region: 'La Laguna', dato: 244 },{ region: 'Coahuila', dato: 247 },{ region: 'Durango', dato: 282 },{ region: 'Nacional', dato: 299 }],
+      data: [{ region: 'Torreón', dato: 226 },{ region: 'Gómez Palacio', dato: 308 },{ region: 'Lerdo', dato: 235 },{ region: 'Matamoros', dato: 162 },{ region: 'La Laguna', dato: 251 },{ region: 'Coahuila', dato: 247 },{ region: 'Durango', dato: 282 },{ region: 'Nacional', dato: 299 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
