@@ -34,7 +34,7 @@ class PapelOrganizacionesCivilesAumentoCompetitividad extends \Base\Publicacion 
         // Título, autor y fecha con el formato AAAA-MM-DD
         $this->nombre           = 'El papel de las Organizaciones Civiles en el aumento del bienestar y competitividad';
         $this->autor            = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha            = '2014-12-09';
+        $this->fecha            = '2014-12-10';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'papel-organizaciones-civiles-aumento-competitividad';
         $this->imagen_previa    = 'papel-organizaciones-civiles-aumento-competitividad/imagen-previa.jpg';
