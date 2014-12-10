@@ -50,6 +50,7 @@ class PreguntasFrecuentes extends \Base\Publicacion {
         $this->nombre_menu      = 'Preguntas Frecuentes';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
+        $this->para_compartir   = false;
         // El contenido HTML y el JavaScript
         $this->contenido        = $this->cargar_archivo_markdown_extra('lib/PreguntasFrecuentes/PreguntasFrecuentes.md');
         $this->javascript       = '';

@@ -9,7 +9,32 @@
 
 **¿Qué hace el IMPLAN Torreón?**
 
-* Elabora, recibe, revisa y evalúa los planes, programas y proyectos municipales con una visión de largo plazo.
 * Promueve la planeación participativa.
 * Difunde los resultados de estudios, planes, programas y sistemas de información.
-* Mantiene un banco de protectos de desarrollo.
+* Elabora, recibe, revisa y evalúa los planes, programas y proyectos municipales con una visión de largo plazo.
+
+**¿Cómo podría ayudarme el IMPLAN Torreón?**
+
+>A través de este sitio web, el IMPLAN Torreón le ofrece mucha información real, con facilidad de uso y sintetizada a nuestra región. En tres secciones:
+
+* **Sistema Metropolitano de Indicadores** para dar seguimiento a cada factor de los municipios de la Zona Metropolitana de La Laguna y saber cómo estamos respecto al resto del país y del mundo.
+* **Sistema de Información Geográfica** que son mapas interactivos con información georreferenciada.
+* **Banco Municipal de Proyectos de Inversión** será una herramienta que dará seguimiento a los distintos proyectos del municipio.
+
+**¿Puedo usar la información publicada por el IMPLAN Torreón para mis fines?**
+
+> Le agradecemos de antemano que le sea útil la información publicada; son datos de los ciudadanos para los ciudadanos. Por eso, mantenemos el sitio con acceso libre.
+
+> Este sitio y sus datos están protegidos por los [Términos de Uso de la Información](../terminos/terminos-informacion.html) y [Términos de Uso del Sitio](../terminos/terminos-sitio.html).
+
+**¿Cómo puedo ayudar al IMPLAN Torreón?**
+
+> Si desea coolaborar con información, estudios o proyectos póngase en [Contacto](../contacto/contacto.html). Estamos para servirle.
+
+> Le agradecemos que nos ayude a difundir los contenidos del sitio, ya sea por redes sociales o recomendaciones personales.
+
+**¿Cómo puedo recibir noticias e información?**
+
+> Le invitamos a escribirnos a info@trcimplan.mx para recibir nuestro boletín informativo.
+
+> También, puede enterarse de los cambios de este sitio web, por medio de un lector de redifusión RSS.
