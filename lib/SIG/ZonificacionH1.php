@@ -50,6 +50,7 @@ class ZonificacionH1 extends \Base\Publicacion {
         $this->nombre_menu      = 'Información Geográfica > Zonificación';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'revisar';
+        $this->para_compartir   = false;
         // El contenido HTML y el JavaScript
         $this->contenido        = $this->cargar_archivo_markdown_extra('lib/SIG/ZonificacionH1.md');
         $this->javascript       = '';

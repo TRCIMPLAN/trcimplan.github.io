@@ -43,6 +43,7 @@ class InformacionFinanciera extends \Base\Publicacion {
         $this->categorias       = array('Institucional');
      // $this->encabezado       = '<img class="img-responsive" src="informacion-financiera/encabezado.jpg">';
         $this->encabezado_color = '#007080';
+        $this->para_compartir   = false;
         $this->contenido        = <<<FINAL
 <p>Respecto al avance de Gestión Financiera del primer y segundo trimestre del presente año, actualmente el Instituto Municipal de Planeación y Competitividad de Torreón se encuentra en proceso de descentralización de la Administración Municipal de Torreón, de tal forma que aún no genera información financiera propia.</p>
 FINAL;

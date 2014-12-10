@@ -50,6 +50,7 @@ class QuienesSomos extends \Base\Publicacion {
         $this->nombre_menu      = 'Institucional > Quienes Somos';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
+        $this->para_compartir   = false;
         // El contenido HTML y el JavaScript
         $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Institucional/QuienesSomos.md');
         $this->javascript       = '';

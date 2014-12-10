@@ -43,6 +43,7 @@ class Reglamentos extends \Base\Publicacion {
         $this->categorias       = array();
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="reglamentos/encabezado.jpg">';
         $this->encabezado_color = '#804000';
+        $this->para_compartir   = false;
         $this->contenido        = <<<FINAL
 <p style="text-align: center;"><a href="reglamentos/trcimplan-reglamento.pdf"><img src="reglamentos/icono-descargar.png" alt="Descargar"></a><br>
 Descargue el <a title="Reglamento del IMPLAN Torreón" href="reglamentos/trcimplan-reglamento.pdf">Reglamento del IMPLAN Torreón</a>.</p>

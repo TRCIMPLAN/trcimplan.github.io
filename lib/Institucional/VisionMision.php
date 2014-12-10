@@ -43,6 +43,7 @@ class VisionMision extends \Base\Publicacion {
         $this->categorias       = array('Institucional');
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
         $this->encabezado_color = '#008000';
+        $this->para_compartir   = false;
         $this->contenido        = <<<FINAL
 <h3>Visión</h3>
 

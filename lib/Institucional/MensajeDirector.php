@@ -43,6 +43,7 @@ class MensajeDirector extends \Base\Publicacion {
         $this->categorias       = array('Institucional');
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="mensaje-director/encabezado.jpg">';
         $this->encabezado_color = '#800400';
+        $this->para_compartir   = false;
         $this->contenido        = <<<FINAL
 <span class="contenido-imagen-previa"><img src="mensaje-director/eduardo-olguin.jpg" alt="Eduardo Olguín"></span>
 

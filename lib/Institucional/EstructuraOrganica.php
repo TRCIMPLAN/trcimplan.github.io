@@ -43,6 +43,7 @@ class EstructuraOrganica extends \Base\Publicacion {
         $this->categorias       = array('Institucional');
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="estructura-organica/encabezado.jpg">';
         $this->encabezado_color = '#080080';
+        $this->para_compartir   = false;
         $this->contenido        = <<<FINAL
 <p><img class="img-responsive" src="estructura-organica/estructura-organica.png" alt="Estructura Orgánica"></p>
 
