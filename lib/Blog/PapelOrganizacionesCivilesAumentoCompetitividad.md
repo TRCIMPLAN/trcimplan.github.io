@@ -3,7 +3,7 @@
 
 Una característica de las **organizaciones civiles** es que al compartir un fin no lucrativo, no se ven obstaculizadas por objetivos financieros a corto plazo. **Por lo que son capaces de dedicarse a las cuestiones que se producen a largo plazo**, como el cambio climático, mejores medios de transporte, la lucha contra la malaria o la protección de las reservas ecológicas.
 
-En el gran número de organizaciones y multitud de propósitos de las mismas, **es de vital importancia para el sano desarrollado económico aquellas que buscan la transformación social y la mejora de la calidad de vida;** éstas constituyen un factor determinante para lograr un próspero futuro.
+En el gran número de organizaciones y multitud de propósitos de las mismas, **es de vital importancia para el desarrollo económico aquellas que buscan la transformación social y la mejora de la calidad de vida;** éstas constituyen un factor determinante para lograr un próspero futuro.
 
 ### Sembrar semillas hoy será cosechar frutos mañana
 
