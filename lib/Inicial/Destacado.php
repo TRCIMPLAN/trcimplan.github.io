@@ -89,9 +89,10 @@ class Destacado {
             'Sistema de Información Geográfica',
             'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.',
             array(
-                '<i class="fa fa-map-marker"></i> Abrir el SIG'      => 'sig/abrir-sig.html',
-                '<i class="fa fa-map-marker"></i> Alumbrado Público' => 'sig/alumbrado-publico.html',
-                '<i class="fa fa-map-marker"></i> Zonificación'      => 'sig/zonificacion.html'));
+                '<i class="fa fa-map-marker"></i> Abrir el SIG'            => 'sig/abrir-sig.html',
+                '<i class="fa fa-map-marker"></i> Alumbrado Público'       => 'sig/alumbrado-publico.html',
+                '<i class="fa fa-map-marker"></i> Zonificación Primaria'   => 'sig/zonificacion-primaria.html',
+                '<i class="fa fa-map-marker"></i> Zonificación Secundaria' => 'sig/zonificacion-secundaria.html'));
     } // sig
 
     /**
