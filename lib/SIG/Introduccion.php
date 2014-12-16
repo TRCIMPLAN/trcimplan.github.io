@@ -31,18 +31,29 @@ class Introduccion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-08-01';
-    //  $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Sistema de Información Geográfica';
-        $this->nombre_menu   = 'Información Geográfica > Introducción';
-        $this->directorio    = 'sig';
-        $this->archivo       = 'introduccion';
-        $this->descripcion   = 'Sistema de Información Geográfica del IMPLAN Torreón.';
-        $this->claves        = 'IMPLAN, Torreon, Informacion, Geografica, SIG, GIS';
-    //  $this->imagen_previa = 'directorio/imagen-previa.jpg';
-        $this->categorias    = array('SIG');
-        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
+        // Título, autor y fecha con el formato AAAA-MM-DD
+        $this->nombre           = 'Sistema de Información Geográfica';
+     // $this->autor            = 'Autor';
+        $this->fecha            = '2014-08-01';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'introduccion';
+     // $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
+        $this->encabezado_color = '#646464';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Sistema de Información Geográfica del IMPLAN Torreón.';
+        $this->claves           = 'IMPLAN, Torreon, Informacion, Geografica, SIG, GIS';
+        $this->categorias       = array('SIG');
+        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
+        $this->directorio       = 'sig';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu      = 'Información Geográfica > Introducción';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido HTML y el JavaScript
+        $this->contenido        = <<<FINAL
 <p>Un Sistema de Información Geográfica (SIG) más que una importante herramienta tecnológica es una estructura de personas y equipos computacionales dedicados a la recopilación, procesamiento, almacenamiento y análisis de datos con información valiosa para una adecuada toma de decisiones.</p>
 
 <p>La base de datos integrada al SIG, permitirá representar visualmente variables muy diversas (estadísticas, infraestructura, equipamiento, programas, proyectos) de distintas fuentes (imágenes de satélite, INEGI, CONEVAL, IMCO, IMPLAN y dependencias municipales) generando mapas de análisis, temáticos o informativos con datos de utilidad que permitan impulsar la competitividad de la ciudad y la zona metropolitana mediante la planeación a corto, mediano y largo plazo.</p>
@@ -55,8 +66,7 @@ class Introduccion extends \Base\Publicacion {
 
 <p><img class="img-responsive contenido-imagen" src="introduccion/gis-03-poligonos-cruzados.jpg" alt="GIS Polígonos Cruzados"></p>
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        $this->javascript       = '';
     } // constructor
 
 } // Clase Introduccion

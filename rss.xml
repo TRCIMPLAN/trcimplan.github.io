@@ -5,11 +5,40 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 11 Dec 2014 13:08:06 -0600</pubDate>
+    <pubDate>Tue, 16 Dec 2014 09:37:37 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Urbanismo Participativo</title>
+      <link>http://trcimplan.gob.mx/blog/urbanismo-participativo.html</link>
+      <guid isPermaLink="false">blog-urbanismo-participativo</guid>
+      <pubDate>Tue, 16 Dec 2014 00:00:00 -0600</pubDate>
+      <author>Arq. Jair Miramontes Chávez</author>
+      <description><![CDATA[<p><span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/urbanismo-participativo/imagen.jpg"></span></p>
+
+<p>La planeación urbana participativa es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.</p>
+
+<p>Para este proceso cobra relevancia el conocimiento del estado del territorio en cuestión, del sistema de los asentamientos humanos, sus características sociales, económicas y ambientales, que nos permite detectar los problemas y alternativas viables para lograr la mejor distribución de los recursos económicos y humanos sin hacer dilapidación de ellos.</p>
+
+<p>Un ejemplo de este proceso es el paradigma de planificación participativa del Machizukuri[1] usado en Japón que literalmente significa “haciendo ciudad”. Éste se define de manera general, como un estilo de desarrollo comunitario japonés, que ha creado estrategias individuales de participación ciudadana con actividades planificadoras con el propósito de convertir los espacios urbanos en lugares agradables para la convivencia y donde su diseño propicia la integración y comunicación entre los ciudadanos. Esta técnica de planificación se resume entonces como una mejora participativa y consensada con la ciudadanía sobre un área urbana determinada y donde su aspiración final es la creación de una sociedad sostenible de gestión compartida.</p>
+
+<p>En México, la guía metodológica de SEDESOL para la elaboración de planes y programas de desarrollo urbano señala conceptos como la participación de sectores y actores y de grupos sociales en el proceso de planeación urbana, además de los lineamientos constitucionales que obligan al Estado mexicano a una planeación democrática con base a los artículos 25 y 26 de la Constitución Política de los Estados Unidos Mexicanos[i], de esta manera se pueden implementar en el proceso de planeación: consultas públicas, talleres participativos y encuestas, entre otras estrategias en donde los ciudadanos se puedan manifestar y opinar de manera libre sobre su territorio y sobre las formas de distribución de su espacio.</p>
+
+<p>El IMPLAN Torreón pretende que la ciudadanía encuentre en este instituto un conjunto de herramientas que inciden en la administración pública, siendo de vital importancia la implementación de la planeación participativa. Esto nos permite orientar estratégicamente al municipio y promover de manera integral su desarrollo. Regular la urbanización del municipio es también una tarea constante y permanente de este organismo, al mismo tiempo que forma y promueve nuevas sinergias con los miembros de la comunidad, al generar espacios de trabajo y diálogos donde los perfiles políticos, técnicos y ciudadanos, se disuelvan para confluir en una sociedad democrática.</p>
+
+<blockquote>
+  <p>“A todos nos impone un extraño amor, el amor secreto del porvenir y de su cara desconocida. La ciudad nos impone el deber terrible de la esperanza”</p>
+  
+  <p>Jorge Luis Borges</p>
+</blockquote>
+
+<p>[1]Machisukuri. De machi: pueblo, ciudad, zona de una ciudad, asentamiento humano, y zukuri, gerundio del verbo zukuru: hacer.</p>
+
+<p>[i]Artículo 25. Corresponde al Estado la rectoría del desarrollo nacional para garantizar que éste sea integral y sustentable, que fortalezca la soberanía de la nación y su régimen democrático y que, mediante la competitividad, el fomento del crecimiento económico y el empleo y una más justa distribución del ingreso y la riqueza, permita el pleno ejercicio de la libertad y la dignidad de los individuos, grupos y clases sociales, cuya seguridad protege esta Constitución. La competitividad se entenderá como el conjunto de condiciones necesarias para generar un mayor crecimiento económico, promoviendo la inversión y la generación de empleo. Artículo 26: El Estado organizará un sistema de planeación democrática del desarrollo nacional que imprima solidez, dinamismo, competitividad, permanencia y equidad al crecimiento de la economía para la independencia y la democratización política, social y cultural de la nación.</p>
+]]></description>
+    </item>
     <item>
       <title>El papel de las Organizaciones Civiles en el aumento del bienestar y competitividad</title>
       <link>http://trcimplan.gob.mx/blog/papel-organizaciones-civiles-aumento-competitividad.html</link>
@@ -980,87 +1009,6 @@ niveles o 36m.</li>
 <li>Red de electrificación con servicio de baja tensión e instalación oculta;</li>
 <li>Red de alumbrado público sobre poste metálico e instalación oculta;</li>
 <li>Red telefónica, de informática y telecomunicaciones con instalación oculta y casetas de servicio público;</li>
-<li>Banquetas de concreto hidráulico;</li>
-<li>Pavimento de concreto hidráulico;</li>
-<li>Señalamiento; y</li>
-<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.</li>
-</ol>
-]]></description>
-    </item>
-    <item>
-      <title>Zonificación E</title>
-      <link>http://trcimplan.gob.mx/sig/zonificacion-e.html</link>
-      <guid isPermaLink="false">sig-zonificacion-e</guid>
-      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
-      <author>TrcIMPLAN</author>
-      <description><![CDATA[<p>Norma 17.- La zonificación “E” Equipamiento de Administración, Salud, Educación y Cultura, tendrá las siguientes restricciones de uso:</p>
-
-<p>I.- Generales, no especificados.</p>
-
-<p>II.- Usos Permitidos:</p>
-
-<ol>
-<li>Conjuntos habitacionales de más de 50 Viviendas.</li>
-<li>Oficinas Privadas.</li>
-<li>Oficinas con Atención al Público.</li>
-<li>Casas de Bolsa.</li>
-<li>Bancos y Casas de Cambio.</li>
-<li>Cafés, Fondas.</li>
-<li>Restaurantes sin venta de bebidas alcohólicas.</li>
-<li>Auditorios, Teatros, Cines, Salas de Conciertos o Cinetecas.</li>
-<li>Centros comunitarios, Culturales y Salones de fiestas Infantiles.</li>
-<li>Senderos o Miradores.</li>
-<li>Garitas o Casetas de Vigilancia.</li>
-<li>Puesto de Socorro o Central de Ambulancia.</li>
-<li>Hospitales de hasta 10 camas o consultorios.</li>
-<li>Hospitales de más de 10 camas o consultorios.</li>
-<li>Centros de Salud, Clínicas de Urgencias o Clínicas en General.</li>
-<li>Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios.</li>
-<li>Centros de Tratamiento de Enfermedades Crónicas.</li>
-<li>Centros de Integración Juvenil o Familiar.</li>
-<li>Guarderías.</li>
-<li>Casas del Anciano y Orfanatos.</li>
-<li>Jardín de Niños y Escuela para niños atípicos y Primaria.</li>
-<li>Academias de Danza, Belleza, Contabilidad, Computación.</li>
-<li>Escuelas Secundarias generales y Técnicas.</li>
-<li>Preparatorias, Institutos Tecnológicos, Centros de Capacitación y CONALEP.</li>
-<li>Politécnicos y Tecnológicos, Universidades o Escuelas Normales.</li>
-<li>Centros de Estudio de Postgrado.</li>
-<li>Centro y Laboratorios de Investigación.</li>
-<li>Centros de Exposiciones Temporales o al Aire Libre y Sitios Históricos.</li>
-<li>Pinacotecas, Casas de la Cultura, Galerías de Arte, Museos.</li>
-<li>Archivos Públicos o Centros Procesadores de Información.</li>
-<li>Bibliotecas y Hemerotecas.</li>
-<li>Templos, Capillas o lugares para Culto.</li>
-<li>Instituciones Religiosas Seminarios y Conventos.</li>
-<li>Correos y Telégrafos.</li>
-<li>Plazas, Jardines, Explanadas, y Parques.</li>
-<li>Torres y Antenas de Microondas y Radiodifusión.</li>
-</ol>
-
-<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso E se
-aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
-
-<ol>
-<li>Baños, Saunas, Sanitarios Públicos, y Salas de Masaje (B y D).</li>
-<li>Centros de Convenciones y Autocinemas (B y D).</li>
-<li>Salas de Arte Marciales (B).</li>
-<li>Gimnasios, Gimnasios de Aparatos y Aeróbicos (B).</li>
-<li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B).</li>
-<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
-</ol>
-
-<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
-
-<p>V.- Obras mínimas de urbanización:</p>
-
-<ol>
-<li>Red de abastecimiento de agua potable con toma domiciliaria;</li>
-<li>Red de alcantarillado sanitario con descarga domiciliaria;</li>
-<li>Sistema de drenaje pluvial;</li>
-<li>Red de electrificación con servicio de baja tensión, instalación aérea;</li>
-<li>Red de alumbrado público sobre poste metálico e instalación oculta, en vialidades vehiculares, peatonales y áreas verdes;</li>
-<li>Red telefónica, informática y de telecomunicaciones, con instalación oculta y acometida domiciliaria;</li>
 <li>Banquetas de concreto hidráulico;</li>
 <li>Pavimento de concreto hidráulico;</li>
 <li>Señalamiento; y</li>

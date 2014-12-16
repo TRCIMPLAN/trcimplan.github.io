@@ -32,8 +32,9 @@ class NavegacionConfig {
     protected $opciones     = array(
         'Análisis Publicados' => 'blog/index.html',
         'Plan Estratégico Metropolitano' => array(
-            'Plan Estratégico Metropolitano > Conoce el Plan' => 'plan-estrategico-metropolitano/introduccion.html',
-            'Plan Estratégico Metropolitano > Mesa 1'         => 'plan-estrategico-metropolitano/mesa-1.html'),
+            'Plan Estratégico Metropolitano > Conoce el Plan'          => 'plan-estrategico-metropolitano/introduccion.html',
+            'Plan Estratégico Metropolitano > Mesa 1'                  => 'plan-estrategico-metropolitano/mesa-1.html',
+            'Plan Estratégico Metropolitano > Participación Ciudadana' => 'http://trcimplan.mx/plan'),
         'Indicadores' => array(
             'Indicadores > Introducción'              => 'smi/introduccion.html',
             'Indicadores > Indicadores por Categoría' => 'indicadores-categorias/index.html',
@@ -60,10 +61,10 @@ class NavegacionConfig {
         'Comunicados' => array(
             'Comunicados > Eventos'        => 'eventos/index.html',
             'Comunicados > Sala de Prensa' => 'sala-prensa/index.html'),
+        'Preguntas Frecuentes' => 'preguntas-frecuentes/preguntas-frecuentes.html',
         'Contacto' => array(
             'Contacto > Medios de contacto'        => 'contacto/contacto.html',
-            'Contacto > Comentarios y Sugerencias' => 'http://trcimplan.mx/comentariossugerencias'),
-        'Preguntas Frecuentes' => 'preguntas-frecuentes/preguntas-frecuentes.html');
+            'Contacto > Comentarios y Sugerencias' => 'http://trcimplan.mx/comentariossugerencias'));
     public $iconos = array(
         'Introducción'                   => 'fa fa-file-text-o',
 
@@ -71,8 +72,9 @@ class NavegacionConfig {
 
         'Plan Estratégico Metropolitano' => 'fa fa-sun-o',
         'Mesa 1'                         => 'fa fa-calendar',
-        'Mesa 2'                         => 'fa fa-calendar-o',
-        'Mesa 3'                         => 'fa fa-calendar-o',
+        'Mesa 2'                         => 'fa fa-calendar',
+        'Mesa 3'                         => 'fa fa-calendar',
+        'Participación Ciudadana'        => 'fa fa-external-link',
 
         'Indicadores'                    => 'fa fa-area-chart',
         'Indicadores por Región'         => 'fa fa-table',

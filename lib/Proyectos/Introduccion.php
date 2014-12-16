@@ -31,18 +31,29 @@ class Introduccion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-01';
-     // $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Banco Municipal de Proyectos';
-        $this->nombre_menu   = 'Banco de Proyectos > Introducción';
-        $this->directorio    = 'proyectos';
-        $this->archivo       = 'introduccion';
-        $this->descripcion   = 'El BMPI es un instrumento dinámico de gestión pública, orientado a consolidar una cultura municipal de formulación (preparación), planeación, seguimiento y evaluación de programas y proyectos de inversión, por medio de sus componentes y funciones.';
-        $this->claves        = 'IMPLAN, Torreon, Banco, Proyectos, BMPI';
-     // $this->imagen_previa = 'directorio/imagen-previa.jpg';
-        $this->categorias    = array('Proyectos');
-        $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
+        // Título, autor y fecha con el formato AAAA-MM-DD
+        $this->nombre           = 'Banco Municipal de Proyectos';
+     // $this->autor            = 'Autor';
+        $this->fecha            = '2014-05-01';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'introduccion';
+     // $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
+        $this->encabezado_color = '#646464';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'El BMPI es un instrumento dinámico de gestión pública, orientado a consolidar una cultura municipal de formulación (preparación), planeación, seguimiento y evaluación de programas y proyectos de inversión, por medio de sus componentes y funciones.';
+        $this->claves           = 'IMPLAN, Torreon, Banco, Proyectos, BMPI';
+        $this->categorias       = array('Proyectos');
+        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
+        $this->directorio       = 'proyectos';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu      = 'Banco de Proyectos > Introducción';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido HTML y el JavaScript
+        $this->contenido        = <<<FINAL
 <p>El Instituto Municipal de Planeación y Competitividad, a través de la Dirección de Proyectos Estratégicos, tiene como objetivos gestionar, evaluar y dar seguimiento a los proyectos derivados del Plan Estratégico de Ciudad del IMPLAN, así como promover la participación ciudadana, a través del acompañamiento y mejora de aquellos ideas y proyectos formulados por la sociedad. Para aportar al logro de este objetivo, el IMPLAN desarrolla dos instrumentos que apoyen los procesos de planeación, inversión y ejecución de los proyectos promoviendo la eficiencia, eficacia y equidad de los mismos.</p>
 
 <p><img src="introduccion/logo-bmpi.png" alt="BMPI"></p>
@@ -86,8 +97,7 @@ class Introduccion extends \Base\Publicacion {
 
 <p><img class="img-responsive" src="introduccion/proyecto-ciudadano-infografia.png" alt="Infografía Proyecto Ciudadano"></p>
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        $this->javascript       = '';
     } // constructor
 
 } // Clase Introduccion

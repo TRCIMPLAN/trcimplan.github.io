@@ -31,39 +31,30 @@ class Contacto extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha          = '2014-05-01';
-     // $this->autor          = 'TrcIMPLAN';
-        $this->nombre         = 'Medios de contacto';
-        $this->nombre_menu    = 'Contacto > Medios de contacto';
-        $this->directorio     = 'contacto';
-        $this->archivo        = 'contacto';
-        $this->descripcion    = 'Redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';
-        $this->claves         = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
-     // $this->imagen_previa  = 'directorio/imagen-previa.jpg';
-        $this->categorias     = array('Contacto');
-     // $this->encabezado     = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->para_compartir = false;
-        $markdown = <<<FINAL
-#### Correos electrónicos
-
-* Eduardo Holguín, Director General: [eholguin@trcimplan.mx](mailto:eholguin@trcimplan.mx)
-* Luis Campos, Director de Planeacíon Urbana: [lcampos@trcimplan.mx](mailto:lcampos@trcimplan.mx)
-* Rodrigo González, Director de Investigación Estratégica: [rgonzalez@trcimplan.mx](mailto:rgonzalez@trcimplan.mx)
-* Información general: [info@trcimplan.mx](mailto:info@trcimplan.mx)
-
-#### Teléfono
-
-* (871) 500 7078
-
-#### Redes Sociales
-
-* Twitter [@trcimplan](https://www.twitter.com/trcimplan)
-* Facebook [/trcimplan](https://facebook.com/trcimplan)
-
-FINAL;
-        $this->contenido     = \Michelf\Markdown::defaultTransform($markdown);
-        $this->javascript    = <<<FINAL
-FINAL;
+        // Título, autor y fecha con el formato AAAA-MM-DD
+        $this->nombre           = 'Medios de contacto';
+     // $this->autor            = 'Autor';
+        $this->fecha            = '2014-05-01';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'contacto';
+     // $this->imagen_previa    = 'contacto/imagen-previa.jpg';
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="contacto/encabezado.jpg">';
+        $this->encabezado_color = '#646464';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';
+        $this->claves           = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
+        $this->categorias       = array('Contacto');
+        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
+        $this->directorio       = 'contacto';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu      = 'Contacto > Medios de contacto';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = false;
+        // El contenido HTML y el JavaScript
+        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Contacto/Contacto.md');
+        $this->javascript       = '';
     } // constructor
 
 } // Clase Contacto

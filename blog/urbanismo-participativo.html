@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap            http://getbootstrap.com
+           StartBootStrap (SB Admin 2)  http://startbootstrap.com
+           Morris.js                    http://www.oesmith.co.uk/morris.js
+           LeafLet                      http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.">
+  <meta name="author" content="Arq. Jair Miramontes Chávez">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Urbanismo Participativo - IMPLAN Torreón">
+  <meta name="twitter:description" content="Es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/urbanismo-participativo/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/urbanismo-participativo.html">
+  <meta name="og:title" content="Urbanismo Participativo - IMPLAN Torreón">
+  <meta name="og:description" content="Es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/urbanismo-participativo/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/urbanismo-participativo.html">
+  <title>Urbanismo Participativo - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="http://trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Mesa 1</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi/georreferenciados.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../sig/abrir-sig.html"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Abrir el SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Alumbrado Público</a></li>
+            <li><a href="../sig/zonificacion-primaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Primaria</a></li>
+            <li><a href="../sig/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+      <div class="cuerpo">
+<article>
+  <header>
+    <div class="encabezado">
+      <span><h1><i class="fa fa-lightbulb-o encabezado-icono"></i> Urbanismo Participativo</h1></span>
+    </div>
+    <p class="autor-fecha">Por Arq. Jair Miramontes Chávez<br>16/12/2014</p>
+  </header>
+<p><span class="contenido-imagen-previa"><img src="urbanismo-participativo/imagen.jpg"></span></p>
+
+<p>La planeación urbana participativa es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.</p>
+
+<p>Para este proceso cobra relevancia el conocimiento del estado del territorio en cuestión, del sistema de los asentamientos humanos, sus características sociales, económicas y ambientales, que nos permite detectar los problemas y alternativas viables para lograr la mejor distribución de los recursos económicos y humanos sin hacer dilapidación de ellos.</p>
+
+<p>Un ejemplo de este proceso es el paradigma de planificación participativa del Machizukuri[1] usado en Japón que literalmente significa “haciendo ciudad”. Éste se define de manera general, como un estilo de desarrollo comunitario japonés, que ha creado estrategias individuales de participación ciudadana con actividades planificadoras con el propósito de convertir los espacios urbanos en lugares agradables para la convivencia y donde su diseño propicia la integración y comunicación entre los ciudadanos. Esta técnica de planificación se resume entonces como una mejora participativa y consensada con la ciudadanía sobre un área urbana determinada y donde su aspiración final es la creación de una sociedad sostenible de gestión compartida.</p>
+
+<p>En México, la guía metodológica de SEDESOL para la elaboración de planes y programas de desarrollo urbano señala conceptos como la participación de sectores y actores y de grupos sociales en el proceso de planeación urbana, además de los lineamientos constitucionales que obligan al Estado mexicano a una planeación democrática con base a los artículos 25 y 26 de la Constitución Política de los Estados Unidos Mexicanos[i], de esta manera se pueden implementar en el proceso de planeación: consultas públicas, talleres participativos y encuestas, entre otras estrategias en donde los ciudadanos se puedan manifestar y opinar de manera libre sobre su territorio y sobre las formas de distribución de su espacio.</p>
+
+<p>El IMPLAN Torreón pretende que la ciudadanía encuentre en este instituto un conjunto de herramientas que inciden en la administración pública, siendo de vital importancia la implementación de la planeación participativa. Esto nos permite orientar estratégicamente al municipio y promover de manera integral su desarrollo. Regular la urbanización del municipio es también una tarea constante y permanente de este organismo, al mismo tiempo que forma y promueve nuevas sinergias con los miembros de la comunidad, al generar espacios de trabajo y diálogos donde los perfiles políticos, técnicos y ciudadanos, se disuelvan para confluir en una sociedad democrática.</p>
+
+<blockquote>
+  <p>“A todos nos impone un extraño amor, el amor secreto del porvenir y de su cara desconocida. La ciudad nos impone el deber terrible de la esperanza”</p>
+  
+  <p>Jorge Luis Borges</p>
+</blockquote>
+
+<p>[1]Machisukuri. De machi: pueblo, ciudad, zona de una ciudad, asentamiento humano, y zukuri, gerundio del verbo zukuru: hacer.</p>
+
+<p>[i]Artículo 25. Corresponde al Estado la rectoría del desarrollo nacional para garantizar que éste sea integral y sustentable, que fortalezca la soberanía de la nación y su régimen democrático y que, mediante la competitividad, el fomento del crecimiento económico y el empleo y una más justa distribución del ingreso y la riqueza, permita el pleno ejercicio de la libertad y la dignidad de los individuos, grupos y clases sociales, cuya seguridad protege esta Constitución. La competitividad se entenderá como el conjunto de condiciones necesarias para generar un mayor crecimiento económico, promoviendo la inversión y la generación de empleo. Artículo 26: El Estado organizará un sistema de planeación democrática del desarrollo nacional que imprima solidez, dinamismo, competitividad, permanencia y equidad al crecimiento de la economía para la independencia y la democratización política, social y cultural de la nación.</p>
+
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftrcimplan.gob.mx%2Fblog%2Furbanismo-participativo.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+      </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</body>
+</html>

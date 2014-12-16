@@ -39,6 +39,17 @@ class Mapa {
         $a[] = '  <!-- MAPA -->';
         $a[] = '  <section id="mapa">';
         $a[] = '    <div class="row">';
+        // Servicios
+        $a[] = '      <div class="col-md-4">';
+        $a[] = '        <h4 class="mapa-encabezado">SERVICIOS</h4>';
+        $a[] = '        <ul>';
+        $a[] = '          <li><a href="blog/index.html">Análisis Publicados</a></li>';
+        $a[] = '          <li><a href="plan-estrategico-metropolitano/introduccion.html">Plan Estratégico Metropolitano</a></li>';
+        $a[] = '          <li><a href="smi/introduccion.html">Indicadores</a></li>';
+        $a[] = '          <li><a href="sig/introduccion.html">Información Geográfica</a></li>';
+        $a[] = '          <li><a href="proyectos/introduccion.html">Banco de Proyectos</a></li>';
+        $a[] = '        </ul>';
+        $a[] = '      </div>';
         // Institucional
         $a[] = '      <div class="col-md-4">';
         $a[] = '        <h4 class="mapa-encabezado">INSTITUCIONAL</h4>';
@@ -50,27 +61,17 @@ class Mapa {
         $a[] = '          <li><a href="institucional/reglamentos.html">Reglamentos</a></li>';
         $a[] = '          <li><a href="institucional/informacion-financiera.html">Información Financiera</a></li>';
         $a[] = '          <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank">Transparencia</a></li>';
-        $a[] = '        </ul>';
-        $a[] = '      </div>';
-        //
-        $a[] = '      <div class="col-md-4">';
-        $a[] = '        <h4 class="mapa-encabezado">SERVICIOS</h4>';
-        $a[] = '        <ul>';
-        $a[] = '          <li><a href="blog/index.html">Análisis Publicados</a></li>';
-        $a[] = '          <li><a href="plan-estrategico-metropolitano/introduccion.html">Plan Estratégico Metropolitano</a></li>';
-        $a[] = '          <li><a href="smi/introduccion.html">S. Metropolitano de Indicadores</a></li>';
-        $a[] = '          <li><a href="sig/introduccion.html">S. Información Geográfica</a></li>';
-        $a[] = '          <li><a href="proyectos/introduccion.html">Banco de Proyectos</a></li>';
+        $a[] = '          <li><a href="consejo-directivo/integrantes.html">Consejo Directivo</a></li>';
         $a[] = '        </ul>';
         $a[] = '      </div>';
         //
         $a[] = '      <div class="col-md-4">';
         $a[] = '        <h4 class="mapa-encabezado">INTERACCIÓN</h4>';
         $a[] = '        <ul>';
-        $a[] = '          <li><a href="contacto/contacto.html">Contacto</a></li>';
         $a[] = '          <li><a href="eventos/index.html">Eventos</a></li>';
         $a[] = '          <li><a href="sala-prensa/index.html">Sala de Prensa</a></li>';
-     // $a[] = '          <li><a href="contacto/faq.html">Preguntas Frecuentes</a></li>';
+        $a[] = '          <li><a href="preguntas-frecuentes/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>';
+        $a[] = '          <li><a href="contacto/contacto.html">Contacto</a></li>';
         $a[] = '          <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank">Quejas y Sugerencias</a></li>';
         $a[] = '        </ul>';
         $a[] = '      </div>';

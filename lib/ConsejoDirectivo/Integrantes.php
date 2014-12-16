@@ -31,18 +31,29 @@ class Integrantes extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-01';
-     // $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Integrantes del Consejo Directivo';
-        $this->nombre_menu   = 'Consejo Directivo';
-        $this->directorio    = 'consejo-directivo';
-        $this->archivo       = 'integrantes';
-        $this->descripcion   = 'Los Integrantes del Consejo Directivo del IMPLAN Torreón.';
-        $this->claves        = 'IMPLAN, Torreon, Consejo, Directivo, Integrantes';
-     // $this->imagen_previa = 'directorio/imagen-previa.jpg';
-        $this->categorias    = array('Consejo Directivo');
-     // $this->encabezado    = '<img class="img-responsive" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
+        // Título, autor y fecha con el formato AAAA-MM-DD
+        $this->nombre           = 'Integrantes del Consejo Directivo';
+     // $this->autor            = 'Autor';
+        $this->fecha            = '2014-05-01';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'integrantes';
+     // $this->imagen_previa    = 'integrantes/imagen-previa.jpg';
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="integrantes/encabezado.jpg">';
+        $this->encabezado_color = '#646464';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Los Integrantes del Consejo Directivo del IMPLAN Torreón.';
+        $this->claves           = 'IMPLAN, Torreon, Consejo, Directivo, Integrantes';
+        $this->categorias       = array('Consejo Directivo');
+        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
+        $this->directorio       = 'consejo-directivo';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu      = 'Consejo Directivo';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = false;
+        // El contenido HTML y el JavaScript
+        $this->contenido        = <<<FINAL
 <p><img class="img-responsive contenido-imagen" src="integrantes/mesa.jpg" alt="Consejo Directivo"></p>
 
 <h4>El <strong>Consejo Directivo</strong> está conformado de la siguiente manera:</h4>
