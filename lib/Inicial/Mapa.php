@@ -64,7 +64,7 @@ class Mapa {
         $a[] = '          <li><a href="consejo-directivo/integrantes.html">Consejo Directivo</a></li>';
         $a[] = '        </ul>';
         $a[] = '      </div>';
-        //
+        // Interacción
         $a[] = '      <div class="col-md-4">';
         $a[] = '        <h4 class="mapa-encabezado">INTERACCIÓN</h4>';
         $a[] = '        <ul>';
@@ -75,7 +75,7 @@ class Mapa {
         $a[] = '          <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank">Quejas y Sugerencias</a></li>';
         $a[] = '        </ul>';
         $a[] = '      </div>';
-        //
+        // Cierre
         $a[] = '    </div>';
         $a[] = '  </section>';
         // Entregar

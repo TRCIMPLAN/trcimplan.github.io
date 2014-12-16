@@ -13,13 +13,11 @@
 * Difunde los resultados de estudios, planes, programas y sistemas de información.
 * Elabora, recibe, revisa y evalúa los planes, programas y proyectos municipales con una visión de largo plazo.
 
-**¿Cómo podría ayudarme el IMPLAN Torreón?**
+**¿Qué información publica el IMPLAN Torreón en este sitio web?**
 
->A través de este sitio web, el IMPLAN Torreón le ofrece mucha información real, con facilidad de uso y sintetizada a nuestra región. En tres secciones:
-
-* **Sistema Metropolitano de Indicadores** para dar seguimiento a cada factor de los municipios de la Zona Metropolitana de La Laguna y saber cómo estamos respecto al resto del país y del mundo.
-* **Sistema de Información Geográfica** que son mapas interactivos con información georreferenciada.
-* **Banco Municipal de Proyectos de Inversión** será una herramienta que dará seguimiento a los distintos proyectos del municipio.
+* El [Sistema Metropolitano de Indicadores](../smi/introduccion.html) es un banco de datos de los municipios que conforman la Zona Metropolitana de La Laguna que da seguimiento a diversos factores, a través del tiempo, comparándolos con otras ciudades y estándares internacionales.
+* El [Sistema de Información Geográfica](../sig/introduccion.html) representa visualmente variables muy diversas y de diversas fuentes en mapas interactivos con datos georreferenciados.
+* Próximamante el [Banco Municipal de Proyectos de Inversión](../proyectos/introduccion.html) dará seguimiento a los distintos proyectos del municipio.
 
 **¿Puedo usar la información publicada por el IMPLAN Torreón para mis fines?**
 
