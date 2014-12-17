@@ -267,6 +267,12 @@ class EconomiaDesempleo extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-tasa-de-informalidad.html">Tasa de informalidad en La Laguna</a></td>
+            <td>Tasa de empleos informales.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/economia-trabajadores-asegurados.html">Trabajadores Asegurados en La Laguna</a></td>
             <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
           </tr>

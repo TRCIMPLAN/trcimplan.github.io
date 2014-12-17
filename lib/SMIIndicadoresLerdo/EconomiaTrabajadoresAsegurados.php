@@ -310,6 +310,12 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
             <td><a href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Lerdo</a></td>
             <td>Número total de desempleados entre la Población económicamente activa.</td>
           </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-tasa-de-informalidad.html">Tasa de informalidad en Lerdo</a></td>
+            <td>Tasa de empleos informales.</td>
+          </tr>
         </tbody>
       </table>
     </div>

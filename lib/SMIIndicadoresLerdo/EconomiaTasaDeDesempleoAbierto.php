@@ -290,6 +290,12 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-tasa-de-informalidad.html">Tasa de informalidad en Lerdo</a></td>
+            <td>Tasa de empleos informales.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-lerdo/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Lerdo</a></td>
             <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
           </tr>
