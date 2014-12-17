@@ -248,6 +248,12 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \Base\Publicacion
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-empresas-exportadoras.html">Empresas Exportadoras en La Laguna</a></td>
+            <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/economia-grandes-empresas.html">Grandes Empresas en La Laguna</a></td>
             <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
           </tr>

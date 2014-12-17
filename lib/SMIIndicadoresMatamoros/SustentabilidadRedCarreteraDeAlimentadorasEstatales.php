@@ -119,6 +119,12 @@ class SustentabilidadRedCarreteraDeAlimentadorasEstatales extends \Base\Publicac
         </thead>
         <tbody>
           <tr>
+            <td>16/12/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/urbanismo-participativo.html">Urbanismo Participativo</a></td>
+            <td>Es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.</td>
+          </tr>
+          <tr>
             <td>03/12/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/calle-completa-espacio-vital-todos.html">La Calle Completa: espacio vial para todos</a></td>

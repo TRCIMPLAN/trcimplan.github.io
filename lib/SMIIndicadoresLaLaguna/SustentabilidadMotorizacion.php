@@ -160,29 +160,29 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td>226</td>
+            <td>2013-12-31</td>
+            <td>223</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
-            <td>308</td>
+            <td>2013-12-31</td>
+            <td>333</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td>235</td>
+            <td>2013-12-31</td>
+            <td>251</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
-            <td>162</td>
+            <td>2013-12-31</td>
+            <td>163</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -195,22 +195,22 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2012-12-31</td>
-            <td>247</td>
+            <td>2013-12-31</td>
+            <td>251</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2012-12-31</td>
-            <td>282</td>
+            <td>2013-12-31</td>
+            <td>291</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2012-12-31</td>
-            <td>299</td>
+            <td>2013-12-31</td>
+            <td>310</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -461,7 +461,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 226 },{ region: 'Gómez Palacio', dato: 308 },{ region: 'Lerdo', dato: 235 },{ region: 'Matamoros', dato: 162 },{ region: 'La Laguna', dato: 251 },{ region: 'Coahuila', dato: 247 },{ region: 'Durango', dato: 282 },{ region: 'Nacional', dato: 299 }],
+      data: [{ region: 'Torreón', dato: 223 },{ region: 'Gómez Palacio', dato: 333 },{ region: 'Lerdo', dato: 251 },{ region: 'Matamoros', dato: 163 },{ region: 'La Laguna', dato: 251 },{ region: 'Coahuila', dato: 251 },{ region: 'Durango', dato: 291 },{ region: 'Nacional', dato: 310 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
