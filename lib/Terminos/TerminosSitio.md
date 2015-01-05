@@ -27,4 +27,3 @@ El uso del sitio del IMPLAN Torreón en Internet trcimplan.gob.mx, trcimplan.mx 
 * El uso no autorizado en contravención de estos Términos de Uso, podrá ser sancionado de acuerdo con la legislación vigente aplicable.
 * Se reserva el derecho, en cualquier momento y sin previa notificación al Usuario, a modificar ampliar o suspender temporalmente la presentación, configuración, especificaciones técnicas y servicios del sitio web, de forma unilateral.
 * Se reserva el derecho a modificar en cualquier momento los presentes Términos de Uso.
-* Estos Términos de Uso se rigen por la normatividad aplicable en la materia, en caso de existir controversia, el usuario está de acuerdo expresamente en someterse a la jurisdicción y competencia de los Tribunales Federales de la Ciudad de México, Distrito Federal, renunciando al fuero que pudiera corresponderle por razón de domicilio presente, futuro o cualquier otra causa.
