@@ -63,8 +63,8 @@ class NavegacionConfig {
             'Comunicados > Sala de Prensa' => 'sala-prensa/index.html'),
         'Preguntas Frecuentes' => 'preguntas-frecuentes/preguntas-frecuentes.html',
         'Términos de Uso' => array(
-            'De la información' => 'terminos/terminos-informacion.html',
-            'Del sitio web'     => 'terminos/terminos-sitio.html'),
+            'Términos de Uso > De la información' => 'terminos/terminos-informacion.html',
+            'Términos de Uso > Del sitio web'     => 'terminos/terminos-sitio.html'),
         'Contacto' => array(
             'Contacto > Medios de contacto'        => 'contacto/contacto.html',
             'Contacto > Comentarios y Sugerencias' => 'http://trcimplan.mx/comentariossugerencias'));
