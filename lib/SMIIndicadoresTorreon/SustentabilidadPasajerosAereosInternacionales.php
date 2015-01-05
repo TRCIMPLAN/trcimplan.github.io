@@ -102,6 +102,12 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
+          <tr>
+            <td>01/12/2014</td>
+            <td>48,731</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td>Cifras hasta Noviembre de 2014</td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Personas.</p>
@@ -144,10 +150,10 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
-            <td>55,446</td>
+            <td>2014-12-01</td>
+            <td>48,731</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
+            <td>Cifras hasta Noviembre de 2014</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -307,7 +313,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 }],
+      data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 },{ fecha: '2014-12-01', dato: 48731 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -323,7 +329,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 55446 },{ region: 'Gómez Palacio', dato: X },{ region: 'Lerdo', dato: X },{ region: 'Matamoros', dato: X },{ region: 'La Laguna', dato: 55446 },{ region: 'Nacional', dato: 1833223 }],
+      data: [{ region: 'Torreón', dato: 48731 },{ region: 'Gómez Palacio', dato: X },{ region: 'Lerdo', dato: X },{ region: 'Matamoros', dato: X },{ region: 'La Laguna', dato: 55446 },{ region: 'Nacional', dato: 1833223 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
