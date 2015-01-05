@@ -51,7 +51,8 @@ $clases = array(
     '\SMI\ImprentaIndicadoresLerdo',
     '\SMI\ImprentaIndicadoresMatamoros',
     '\SMI\ImprentaIndicadoresLaLaguna',
-    '\SMICategorias\Imprenta');
+    '\SMICategorias\Imprenta',
+    '\Terminos\Imprenta');
 // Imprimir
 try {
     foreach ($clases as $clase) {

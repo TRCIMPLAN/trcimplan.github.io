@@ -62,43 +62,38 @@ class NavegacionConfig {
             'Comunicados > Eventos'        => 'eventos/index.html',
             'Comunicados > Sala de Prensa' => 'sala-prensa/index.html'),
         'Preguntas Frecuentes' => 'preguntas-frecuentes/preguntas-frecuentes.html',
+        'Términos de Uso' => array(
+            'De la información' => 'terminos/terminos-informacion.html',
+            'Del sitio web'     => 'terminos/terminos-sitio.html'),
         'Contacto' => array(
             'Contacto > Medios de contacto'        => 'contacto/contacto.html',
             'Contacto > Comentarios y Sugerencias' => 'http://trcimplan.mx/comentariossugerencias'));
     public $iconos = array(
         'Introducción'                   => 'fa fa-file-text-o',
-
         'Análisis Publicados'            => 'fa fa-lightbulb-o',
-
         'Plan Estratégico Metropolitano' => 'fa fa-sun-o',
         'Mesa 1'                         => 'fa fa-calendar',
         'Mesa 2'                         => 'fa fa-calendar',
         'Mesa 3'                         => 'fa fa-calendar',
         'Participación Ciudadana'        => 'fa fa-external-link',
-
         'Indicadores'                    => 'fa fa-area-chart',
         'Indicadores por Región'         => 'fa fa-table',
         'Indicadores por Categoría'      => 'fa fa-th-list',
         'Georreferenciados'              => 'fa fa-map-marker',
-
         'Información Geográfica'         => 'fa fa-map-marker',
         'Alumbrado Público'              => 'fa fa-map-marker',
         'Zonificación Primaria'          => 'fa fa-map-marker',
         'Zonificación Secundaria'        => 'fa fa-map-marker',
         'Abrir el SIG'                   => 'fa fa-external-link',
-
         'Banco de Proyectos'             => 'fa fa-check-square',
         'Plata Laguna'                   => 'fa fa-certificate',
-
         'Institucional'                  => 'fa fa-building-o',
         'Transparencia'                  => 'fa fa-external-link',
-
         'Consejo Directivo'              => 'fa fa-users',
-
         'Comunicados'                    => 'fa fa-comments',
         'Eventos'                        => 'fa fa-folder-o',
         'Sala de Prensa'                 => 'fa fa-folder-o',
-
+        'Términos de Uso'                => 'fa fa-files-o',
         'Contacto'                       => 'fa fa-phone',
         'Comentarios y Sugerencias'      => 'fa fa-external-link',
         'Preguntas Frecuentes'           => 'fa fa-question');
@@ -114,21 +109,6 @@ class NavegacionConfig {
             </div>
           </form>
 FINAL;
-/*
- * De Google...
-<script>
-  (function() {
-    var cx = '015475140351266618625:04hulmghdys';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-*/
     protected $buscador_js = "";
 
 } // Clase NavegacionConfig
