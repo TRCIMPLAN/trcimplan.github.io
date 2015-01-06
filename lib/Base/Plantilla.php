@@ -198,7 +198,6 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '<script src="js/leaflet.js"></script>';
             $a[] = '<script src="js/plugins/metisMenu/metisMenu.min.js"></script>';
             $a[] = '<script src="js/sb-admin-2.js"></script>';
-            //$a[] = '<script src="js/google-analytics.js"></script>';
         } else {
             $a[] = '<script src="../js/jquery.min.js"></script>';
             $a[] = '<script src="../js/bootstrap.min.js"></script>';
@@ -207,7 +206,6 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '<script src="../js/leaflet.js"></script>';
             $a[] = '<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>';
             $a[] = '<script src="../js/sb-admin-2.js"></script>';
-            //$a[] = '<script src="../js/google-analytics.js"></script>';
         }
         if (is_array($this->javascript)) {
             $b = array();
@@ -223,6 +221,9 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '<script>';
             $a[] = $this->javascript;
             $a[] = '</script>';
+        }
+        if ($this->google_analytics != '') {
+            $a[] = $this->google_analytics;
         }
         // Entregar
         return implode("\n", $a);
