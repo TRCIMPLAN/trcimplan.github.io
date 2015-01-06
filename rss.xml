@@ -5,11 +5,57 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 06 Jan 2015 10:03:04 -0600</pubDate>
+    <pubDate>Tue, 06 Jan 2015 11:59:08 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comercio al por menor como alternativa de crecimiento económico</title>
+      <link>http://trcimplan.gob.mx/blog/comercio-al-por-menor-alternativa-crecimiento-economico.html</link>
+      <guid isPermaLink="false">blog-comercio-al-por-menor-alternativa-crecimiento-economico</guid>
+      <pubDate>Tue, 06 Jan 2015 00:00:00 -0600</pubDate>
+      <author>Lic. Alicia Valdez Ibarra</author>
+      <description><![CDATA[<p><span class="contenido-imagen-previa"><img class="img-responsive" src="http://trcimplan.gob.mx/blog/comercio-al-por-menor-alternativa-crecimiento-economico/imagen.jpg"></span></p>
+
+<p>A pesar de que 44% de los establecimientos de La Laguna se dedican al comercio al por menor, este sector aporta únicamente 7% del valor agregado total de nuestra región. En contraste la industria manufacturera contribuye con 57% cuando tan sólo 10% de las unidades económicas pertenecen a dicha actividad. En conclusión La Laguna se especializa en la industria, no en el comercio, característica presente desde hace ya mucho tiempo, como se muestra en la siguiente gráfica:</p>
+
+<div style="clear:left;"></div>
+
+<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/comercio-al-por-menor-alternativa-crecimiento-economico/participacion-comercio-al-por-menor-manufactura-valor-agregado-laguna.png" alt="Participación del comercio al por menor y la manufactura al valor agregado de La Laguna"></p>
+
+<p>El hecho de que una región se especialice en la manufactura no es necesariamente algo negativo, el problema es la errónea concepción de que a mayor crecimiento de la industria manufacturera mayor será el crecimiento del comercio local cuando la realidad es que mientras las estrategias se enfocan únicamente en atraer y retener industria de este tipo, miles de recursos y empleos pueden perderse por bajas en las ventas del comercio local (Phillips, s/f).</p>
+
+<p>El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades (Phillips, s/f), por lo que existen estrategias específicas para hacer del comercio al por menor un atractor del gasto externo. Algunas de estas estrategias se explican a continuación:</p>
+
+<ul>
+<li>Preservación del centro histórico: Con la expansión de la población hacia los suburbios los centros de las ciudades han perdido su tradicional característica de ser el centro del comercio de los municipios. A través de renovar la arquitectura histórica y reclutar comercios y cadenas nacionales a instalarse en el centro, ciudades como High Springs, Florida y Boaz, Alabama se convirtieron en atracciones comerciales.</li>
+<li>Reclutar grandes cadenas de minoristas: Consiste en pequeños incentivos a grandes empresas y grandes inversiones en el mejoramiento de la calidad de vida de la ciudad para atraer más población, ya que los minoristas siguen a la población. Glendale, Arizona y Hattiesburg, Mississippi tuvieron resultados positivos con esta estrategia.</li>
+<li>Desarrollar comercio de productos regionales: Tiendas locales con productos típicos de la región atraen consumo externo y evitan fugas de consumo local.</li>
+<li>Desarrollo de comercio basado en turismo y entretenimiento: Crear clusters de minoristas con centros de entretenimiento, restaurantes y otros servicios que se convierten en centros de atracción al turismo. Esta estrategia puede combinarse con la preservación del centro histórico, convirtiendo el downtown de las ciudades en clusters de comercio y entretenimiento.</li>
+</ul>
+
+<p>El lograr el crecimiento económico en base al comercio tiene, entre otras, dos ventajas principales:</p>
+
+<ul>
+<li>El comercio es una actividad limpia, mucho menos dañina al ambiente en comparación con la manufactura.</li>
+<li>El comercio es un sector en crecimiento, mientras el empleo disminuye en otros sectores el comercio se sigue expandiendo y esto puede observarse incluso en nuestra región, en donde, como muestra la gráfica inferior, el comercio al por menor ha ganado participación en el empleo de La Laguna mientras la aportación de la industria manufacturera tiende a disminuir.</li>
+</ul>
+
+<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/comercio-al-por-menor-alternativa-crecimiento-economico/participacion-comercio-al-por-menor-manufactura-empleo-laguna.png" alt="Participación del comercio al por menor y la manufactura al empleo de La Laguna"></p>
+
+<ul>
+<li>La informalidad se presenta principalmente en el comercio, por lo tanto una política de incentivos y fortalecimiento de este sector, es también un mecanismo eficiente de promoción de la economía formal.
+Por lo tanto si bien el comercio no es el principal generador de riqueza en nuestra región, sí puede ser un gran complemento que distribuya ingresos, genere empleos y con ello mejore la calidad de vida de nuestra ciudad.</li>
+</ul>
+
+<p>INEGI (2009). Censos Económicos. Obtenido el 10 de Diciembre de 2014, de
+<a href="http://www3.inegi.org.mx/sistemas/saic/">http://www3.inegi.org.mx/sistemas/saic/</a></p>
+
+<p>Phillips, R. (s/f). What are the positive impacts of retail-based economic growth for communities?
+En University of Florida. Obtenido el 10 de Diciembre de 2014 de <a href="http://jrdelisle.com/JSCR/IndArticles/Phillips_N100.pdf">http://jrdelisle.com/JSCR/IndArticles/Phillips_N100.pdf</a></p>
+]]></description>
+    </item>
     <item>
       <title>Urbanismo Participativo</title>
       <link>http://trcimplan.gob.mx/blog/urbanismo-participativo.html</link>
@@ -849,153 +895,6 @@ niveles o 36m.</li>
 <li>Templos, Capillas o lugares para el Culto (B y C).</li>
 <li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B)</li>
 <li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
-</ol>
-
-<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
-
-<p>V.- Obras mínimas de urbanización:</p>
-
-<ol>
-<li>Red de abastecimiento de agua potable;</li>
-<li>Red de alcantarillado sanitario;</li>
-<li>Sistema de drenaje pluvial;</li>
-<li>Red de electrificación con servicio de baja tensión e instalación oculta;</li>
-<li>Red de alumbrado público sobre poste metálico e instalación oculta;</li>
-<li>Red telefónica, de informática y telecomunicaciones con instalación oculta y casetas de servicio público;</li>
-<li>Banquetas de concreto hidráulico;</li>
-<li>Pavimento de concreto hidráulico;</li>
-<li>Señalamiento; y</li>
-<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.</li>
-</ol>
-]]></description>
-    </item>
-    <item>
-      <title>Zonificación CU3</title>
-      <link>http://trcimplan.gob.mx/sig/zonificacion-cu3.html</link>
-      <guid isPermaLink="false">sig-zonificacion-cu3</guid>
-      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
-      <author>TrcIMPLAN</author>
-      <description><![CDATA[<p>Norma 15.- La zonificación “CU3” Corredor Urbano de Industria y Servicios, tendrá las siguientes restricciones de uso:</p>
-
-<p>I.- Generales:</p>
-
-<ol>
-<li>Densidad de Vivienda: No permitida.</li>
-<li>Densidad Habitacional Máxima: No permitida.</li>
-<li>Lote mínimo: no especificado.</li>
-<li>Frente mínimo del lote: no especificado.</li>
-<li>Fondo: no especificado.</li>
-<li>Estacionamiento: variable según proyecto..</li>
-<li>COS: 0.6.</li>
-<li>CUS: 2.0.</li>
-<li>Porcentaje de superficie permeable: no especificado.</li>
-<li>Restricciones de construcción: no especificado.</li>
-<li>Altura máxima de construcción desde el nivel de desplante, cuatro niveles o 12m.</li>
-</ol>
-
-<p>II.- Usos Permitidos:</p>
-
-<ol>
-<li>Comercio de Abastos y Bodegas de Productos Perecederos.</li>
-<li>Bodegas de Acopio y Transferencia de productos perecederos.</li>
-<li>Bodegas de Semillas, Huevo, Lácteos o Abarrotes.</li>
-<li>Gasolineras.</li>
-<li>Rastros Frigoríficos u Obradores.</li>
-<li>Silos y Tolvas.</li>
-<li>Tiendas de Departamentos de hasta 2500m2.</li>
-<li>Tiendas de Departamentos de mas de 2500 m2 hasta 5000 m2.</li>
-<li>Centro comercial hasta de 2500m2.</li>
-<li>Centro comercial de 2500m2 hasta 5000m2.</li>
-<li>Mercados y Tianguis de hasta 10000m2.</li>
-<li>Productos Envasados.</li>
-<li>Ferreterías y Tlapalerías.</li>
-<li>Automóviles y Camiones.</li>
-<li>Deshuesaderos.</li>
-<li>Oficinas Privadas.</li>
-<li>Oficinas con Atención al Público.</li>
-<li>Alquiler de losa, cristalería, mesas, sillas.</li>
-<li>Alquiler de Vehículos.</li>
-<li>Baños, Saunas, Sanitarios Públicos, y Salas de Masaje.</li>
-<li>Aparatos Electrodomésticos.</li>
-<li>Lavado, lubricado y cambio de llantas de vehículos.</li>
-<li>Limpieza de Oficinas, Hogares, Industrias.</li>
-<li>Talleres Automotrices y para motocicletas.</li>
-<li>Cafés, Fondas.</li>
-<li>Restaurantes sin venta de bebidas alcohólicas.</li>
-<li>Auditorios, Teatros, Cines, Salas de Conciertos o Cinetecas.</li>
-<li>Centros de Convenciones o Autocinemas.</li>
-<li>Clubes Sociales, Salones para Banquetes y de Baile.</li>
-<li>Boliche, Billar, Patines y Juegos de Mesa.</li>
-<li>Senderos o Miradores.</li>
-<li>Salas de Artes Marciales.</li>
-<li>Gimnasios, Gimnasios de Aparatos y Aeróbicos.</li>
-<li>Hoteles y Albergues de hasta 100 cuartos.</li>
-<li>Hoteles y Albergues de más de 100 cuartos.</li>
-<li>Garitas o Casetas de Vigilancia.</li>
-<li>Encierro de Vehículos, Centrales o Estaciones de Policía.</li>
-<li>Estación de Bomberos.</li>
-<li>Centros de Adaptación Social.</li>
-<li>Puesto de Socorro o Central de Ambulancias.</li>
-<li>Hospitales de hasta 10 camas o consultorios.</li>
-<li>Hospitales de más de 10 camas o consultorios.</li>
-<li>Centros de Salud, Clínicas de Urgencias o Clínicas en General.</li>
-<li>Centros de Integración Juvenil o Familiar.</li>
-<li>Casas del Anciano y Orfanatos.</li>
-<li>Salones de Corte, Dispensarios, Veterinarios, Tiendas de animales.</li>
-<li>Centros Antirrábicos, de Cuarentena, Clínicas y Hospitales veterinarios.</li>
-<li>Centros de Estudio de Postgrado.</li>
-<li>Centro y Laboratorios de Investigación.</li>
-<li>Archivos Públicos o Centros Procesadores de Información.</li>
-<li>Agencias de Inhumaciones y preparación de cadáveres.</li>
-<li>Cementerios, Criptas, Crematorios y Mausoleos.</li>
-<li>Funerarias y Capillas de Velación.</li>
-<li>Correos y Telégrafos.</li>
-<li>Central Telefónica sin servicio al público.</li>
-<li>Oficinas de Teléfonos con atención al Público.</li>
-<li>Mensajería y Paquetería.</li>
-<li>Estacionamientos Públicos.</li>
-<li>Sitios de Taxis.</li>
-<li>Terminales de Autobuses Urbanos.</li>
-<li>Terminales de Camiones de Carga.</li>
-<li>Industria mediana de 100 a 250 empleados sin riesgo.</li>
-<li>Industria ligera menos de 100 empleados sin riesgo.</li>
-<li>Microindustria menos de 10 empleados sin riesgo.</li>
-<li>Plazas, Jardines, Explanadas y Parques.</li>
-<li>Plantas de Tratamiento de aguas negras o cárcamos.</li>
-<li>Plantas, Estaciones y Subestaciones de energía eléctrica.</li>
-<li>Viveros de Flora, Huertos, Hortalizas, Invernaderos.</li>
-</ol>
-
-<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU 3 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
-
-<ol>
-<li>Productos con Riesgo: químicos, combustibles, gas líquido, explosivos, y similares (B y D).</li>
-<li>Tiendas de Autoservicio de hasta 250m2 (B).</li>
-<li>Bancos y Casas de Cambio (B).</li>
-<li>Lavanderías y Tintorerías (B).</li>
-<li>Peluquerías y Estéticas (C).</li>
-<li>Estudios Fotográficos (C).</li>
-<li>Sastrerías y Talleres de Costura (C).</li>
-<li>Centros Nocturnos (C).</li>
-<li>Teatros al aire libre, Circos temporales, Juegos mecánicos (B y D).</li>
-<li>Juegos Electrónicos (C).</li>
-<li>Moteles (B y C).</li>
-<li>Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios (C).</li>
-<li>Politécnicos y Tecnológicos, Universidades y Escuelas Normales (B).</li>
-<li>Helipuertos (D).</li>
-<li>Estaciones de Televisión, Estudios de Cine y Radiodifusoras (B y D).</li>
-<li>Industria Pesada de mas de 250 empleados sin riesgo (A y B).</li>
-<li>Industria Mediana de 100 a 250 empleados riesgo moderado (A y B).</li>
-<li>Industria Ligera menos de 100 empleados riesgo moderado (A y B).</li>
-<li>Microindustria menos de 10 empleados riesgo moderado (B).</li>
-<li>Plantas, Estaciones y Subestaciones de Presión de Gas (A, B y D).</li>
-<li>Torres, Antenas de Microondas, Radiocomunicaciones y Radiodifusión (D).</li>
-<li>Torres, Antenas de Televisión (D).</li>
-<li>Tanques de Agua (B y D).</li>
-<li>Tanques de Combustible (A, B y D).</li>
-<li>Tanques de Gas Doméstico (A, B y D).</li>
-<li>Estaciones de Transferencia de Basura (A, B y D).</li>
-<li>Incineradores de Basura (A, B y D).</li>
 </ol>
 
 <p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
