@@ -32,31 +32,29 @@ class Mesa3 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre        = 'Mesa 3: Plan Estratégico Metropolitano';
-     // $this->autor         = 'Autor';
-        $this->fecha         = '2014-10-06';
+        $this->nombre           = 'Mesa 3: Plan Estratégico Metropolitano';
+     // $this->autor            = 'Autor';
+        $this->fecha            = '2014-10-06';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo       = 'mesa-3';
-     // $this->imagen_previa = 'mesa-3/imagen-previa.jpg';
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="mesa-3/encabezado.jpg">';
+        $this->archivo          = 'mesa-3';
+     // $this->imagen_previa    = 'mesa-3/imagen-previa.jpg';
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="mesa-3/encabezado.jpg">';
+     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = '';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Plan Estratégico Metropolitano');
+        $this->descripcion      = '.';
+        $this->claves           = 'IMPLAN, Torreon';
+        $this->categorias       = array('Plan Estratégico Metropolitano');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
-        $this->directorio    = 'plan-estrategico-metropolitano';
+        $this->directorio       = 'plan-estrategico-metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu   = 'Plan Estratégico Metropolitano > Mesa 3';
-        // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
-        $this->estado        = 'ignorar';
+        $this->nombre_menu      = 'Plan Estratégico Metropolitano > Mesa 3';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'ignorar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+     // $this->para_compartir   = true;
         // El contenido HTML y el JavaScript
-        $this->contenido     = <<<FINAL
-<h3>Proyectos Estratégicos</h3>
-
-<p>La última mesa consiste en la elaboración de los proyectos. Se efectuará a finales del 2014.</p>
-FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/PlanEstrategicoMetropolitano/Mesa3.md');
+        $this->javascript       = '';
     } // constructor
 
 } // Clase Mesa3
