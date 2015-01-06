@@ -15,16 +15,16 @@ Es el órgano técnico responsable de la planeación municipal del desarrollo de
 
 ### ¿Qué puedo encontrar en este sitio web?
 
-* El [Sistema Metropolitano de Indicadores](../smi/introduccion.html) es un banco de datos de los municipios que conforman la Zona Metropolitana de La Laguna que da seguimiento a diversos factores, a través del tiempo, comparándolos con otras ciudades y estándares internacionales.
-* El [Sistema de Información Geográfica](../sig/introduccion.html) representa visualmente variables muy diversas y de diversas fuentes en mapas interactivos con datos georreferenciados.
+* El [Sistema Metropolitano de Indicadores](../smi/introduccion.html) es un banco de datos de los municipios que conforman la Zona Metropolitana de La Laguna que da seguimiento a diversos factores, a través del tiempo, comparables con otras ciudades y estándares internacionales.
+* El [Sistema de Información Geográfica](../sig/introduccion.html) representa visualmente variables muy diversas y de múltiples fuentes en mapas interactivos con datos georreferenciados.
 * Próximamante el [Banco Municipal de Proyectos de Inversión](../proyectos/introduccion.html) dará seguimiento a los distintos proyectos del municipio.
 * Así como documentos de [Análisis](../blog/index.html) redactados por los integrantes del IMPLAN e información institucional.
 
 ### ¿Puedo usar la información de este sitio web para otros fines?
 
-Le agradecemos de antemano que le sea útil; son datos de los ciudadanos para los ciudadanos. Por eso, mantenemos este sitio con acceso libre.
+La información que se publica a través de trcimplan.gob.mx es gratuita y puede hacer uso de ésta bajo los [Términos de Uso de la Información](../terminos/terminos-informacion.html).
 
-Si va a usarla de forma parcial o completa deberá estar sujeta a los [Términos de Uso de la Información](../terminos/terminos-informacion.html) y [Términos de Uso del Sitio](../terminos/terminos-sitio.html).
+Los contenidos están destinados a apoyar la mejora contínua de la Zona Metropolitana de La Laguna, encaminar las políticas públicas y los reglamentos municipales, ser parámetros de referencia para las áreas productivas, comerciales y de servicios, además de apoyar la formación académica de los estudiantes universitarios. Sin embargo, estamos seguros de que este material es también de interés para el público en general; por tal razón este sitio web es de libre acceso.
 
 ### ¿Cómo puedo apoyar el IMPLAN Torreón?
 
@@ -34,8 +34,8 @@ Le agradecemos que nos ayude a difundir los contenidos del sitio, ya sea por red
 
 * Sitio Web: [http://trcimplan.gob.mx](http://trcimplan.gob.mx)
 * Twitter: [@trcimplan](https://twitter.com/trcimplan)
-* Facebook: [https://facebook.com/trcimplan](https://facebook.com/trcimplan)
-* GitHub: [https://github.com/trcimplan](https://github.com/trcimplan)
+* Facebook: [/trcimplan](https://facebook.com/trcimplan)
+* GitHub: [/trcimplan](https://github.com/trcimplan)
 
 ### ¿Cómo puedo recibir noticias e información?
 
