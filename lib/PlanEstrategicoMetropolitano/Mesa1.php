@@ -32,9 +32,9 @@ class Mesa1 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre           = 'Mesa 1: Diagnóstico - Pronóstico';
+        $this->nombre           = 'Mesa 1: Diagnóstico y Pronóstico';
      // $this->autor            = 'Autor';
-        $this->fecha            = '2014-10-16';
+        $this->fecha            = '2014-10-09';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'mesa-1';
      // $this->imagen_previa    = 'mesa-1/imagen-previa.jpg';
@@ -47,11 +47,11 @@ class Mesa1 extends \Base\Publicacion {
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
         $this->directorio       = 'plan-estrategico-metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu      = 'Plan Estratégico Metropolitano > Mesa 1';
+        $this->nombre_menu      = 'Plan Estratégico Metropolitano > M1 Diagnóstico y Pronóstico';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-     // $this->para_compartir   = true;
+        $this->para_compartir   = true;
         // El contenido HTML y el JavaScript
         $this->contenido        = $this->cargar_archivo_markdown_extra('lib/PlanEstrategicoMetropolitano/Mesa1.md');
         $this->javascript       = '';

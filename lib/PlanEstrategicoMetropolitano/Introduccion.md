@@ -1,4 +1,6 @@
 
+<img class="img-responsive contenido-imagen" src="introduccion/banner.jpg" alt="Foto Panoramica">
+
 ### ¿Qué es el Plan Estratégico Metropolitano?
 
 El **Plan Estratégico Metropolitano (PEM)** es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para **atender la necesidad urgente de elevar el nivel de competitividad** para el desarrollo económico y social de la **Zona Metropolitana de La Laguna**.

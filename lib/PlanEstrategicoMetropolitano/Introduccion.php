@@ -51,7 +51,7 @@ class Introduccion extends \Base\Publicacion {
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-     // $this->para_compartir   = true;
+        $this->para_compartir   = true;
         // El contenido HTML y el JavaScript
         $this->contenido        = $this->cargar_archivo_markdown_extra('lib/PlanEstrategicoMetropolitano/Introduccion.md');
         $this->javascript       = '';

@@ -96,6 +96,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/plan-estrategico-metropolitano/mesa-3.html</loc>
+    <lastmod>2014-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/blog/movilidad-nuestra-ciudad.html</loc>
     <lastmod>2014-11-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -196,6 +201,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/plan-estrategico-metropolitano/mesa-2.html</loc>
+    <lastmod>2014-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/blog/ciudades-reto-transformacion.html</loc>
     <lastmod>2014-10-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -216,11 +226,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/plan-estrategico-metropolitano/mesa-1.html</loc>
-    <lastmod>2014-10-16</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/2014-10-16-mesa-1-diagnostico-pronostico.html</loc>
     <lastmod>2014-10-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -233,6 +238,11 @@
   <url>
     <loc>http://trcimplan.gob.mx/blog/poligonos-actuacion-desarrollo-urbano-integral.html</loc>
     <lastmod>2014-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/plan-estrategico-metropolitano/mesa-1.html</loc>
+    <lastmod>2014-10-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

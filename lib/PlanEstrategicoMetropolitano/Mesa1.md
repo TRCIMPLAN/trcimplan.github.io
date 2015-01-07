@@ -13,8 +13,14 @@ Le invitamos a descargar y leer el <a href="http://trcimplan.gob.mx/plan-estrate
 
 <a href="http://trcimplan.gob.mx/plan-estrategico-metropolitano/plan-estrategico-metropolitano-diagnostico-basico-zml.pdf" target="_blank"><img class="img-responsive contenido-imagen" src="mesa-1/diagnostico-basico.jpg" alt="Diagnostico Basico"></a>
 
-### Participación Ciudadana
-
-La convocatoria está abierta para que Ciudadanos e Instituciones tengan un formulario en Internet dónde puedan entregar sus proyectos y aportaciones. Sólo se necesita tener una dirección de correo electrónico válida e ingresar a <a href="http://trcimplan.mx/plan" target="_blank">http://trcimplan.mx/plan</a> para hacer llegar su propuesta.
-
 <img class="img-responsive contenido-imagen" src="mesa-1/foto-movilidad.jpg" alt="Comite Tecnico Movilidad y Transporte">
+
+### Los Retos de Torreón
+
+<img class="img-responsive contenido-imagen" src="mesa-1/retos-torreon.jpg" alt="Retos de Torreón">
+<img class="img-responsive contenido-imagen" src="mesa-1/retos-torreon-buen-gobierno.jpg" alt="Retos de Torreón - Buen Gobierno">
+<img class="img-responsive contenido-imagen" src="mesa-1/retos-torreon-desarrollo-economico.jpg" alt="Retos de Torreón - Desarrollo Económico">
+<img class="img-responsive contenido-imagen" src="mesa-1/retos-torreon-desarrollo-social.jpg" alt="Retos de Torreón - Desarrollo Social">
+<img class="img-responsive contenido-imagen" src="mesa-1/retos-torreon-entorno-urbano.jpg" alt="Retos de Torreón - Entorno Urbano">
+<img class="img-responsive contenido-imagen" src="mesa-1/retos-torreon-movilidad-transporte.jpg" alt="Retos de Torreón - Movilidad y Transporte">
+<img class="img-responsive contenido-imagen" src="mesa-1/retos-torreon-sustentabilidad-medio-ambiente.jpg" alt="Retos de Torreón - Sustentabilidad y Medio Ambiente">
