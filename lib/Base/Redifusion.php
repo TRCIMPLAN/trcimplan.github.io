@@ -105,6 +105,10 @@ class Redifusion extends \Configuracion\RedifusionConfig {
      * @param mixed Instancia de Publicacion
      */
     public function agregar_elemento(Publicacion $publicacion) {
+        // Si el estado NO es publicar, NO se agrega
+        if ($publicacion->estado != 'publicar') {
+            return false;
+        }
         // Fecha
         $t = strtotime($publicacion->fecha);
         if ($t === false) {
@@ -129,8 +133,6 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         $publicacion->en_raiz = true;
         // Formatear URL
         $url = sprintf('%s/%s', $this->sitio_url, $publicacion->url());
-        // Identificador único fecha + titulo
-        // $id = sprintf('%s-%s', date('YmdHi', mktime($hora, $minuto, 0, $mes, $dia, $ano)), $this->caracteres_para_web($publicacion->nombre));
         // Identificador único directorio + archivo
         $id = sprintf('%s-%s', $publicacion->directorio, $publicacion->archivo);
         // La clave del arreglo asociativo es el tiempo_creado-archivo y sirve para ordenarlo
@@ -144,6 +146,8 @@ class Redifusion extends \Configuracion\RedifusionConfig {
             'contenido'   => $this->vinculos_absolutos($publicacion->contenido, $publicacion->directorio),
             'autor'       => $publicacion->autor,
             'url'         => $url);
+        // Entregar verdadero
+        return true;
     } // agregar_elemento
 
     /**

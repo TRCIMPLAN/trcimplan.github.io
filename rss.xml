@@ -5,7 +5,7 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 06 Jan 2015 13:05:09 -0600</pubDate>
+    <pubDate>Wed, 07 Jan 2015 11:56:43 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -422,497 +422,122 @@ En University of Florida. Obtenido el 10 de Diciembre de 2014 de <a href="http:/
 ]]></description>
     </item>
     <item>
-      <title>Zonificación CU1.1</title>
-      <link>http://trcimplan.gob.mx/sig/zonificacion-cu11.html</link>
-      <guid isPermaLink="false">sig-zonificacion-cu11</guid>
+      <title>Zonificación Primaria</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-primaria.html</link>
+      <guid isPermaLink="false">sig-zonificacion-primaria</guid>
       <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
       <author>TrcIMPLAN</author>
-      <description><![CDATA[<p>Norma 12.- La zonificación “CU 1.1” Corredor Urbano, Habitación, Comercio y servicios tendrá las siguientes restricciones de uso:</p>
+      <description><![CDATA[<iframe width='100%' height='520' frameborder='0' src='http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-<p>I.- Generales:</p>
-
-<ol>
-<li>Densidad de Vivienda: de 110 a 176 viviendas por hectárea.</li>
-<li>Densidad Habitacional Máxima: 495 a 792 habitantes por
-hectárea.</li>
-<li>Lote mínimo: no especificado.</li>
-<li>Frente mínimo del lote: no especificado.</li>
-<li>Fondo: no especificado.</li>
-<li>Estacionamiento: variable según proyecto..</li>
-<li>COS: 0.6</li>
-<li>CUS: 3.5</li>
-<li>Porcentaje de superficie permeable: no especificado.</li>
-<li>Restricciones de construcción: no especificado.</li>
-<li>Altura máxima de construcción desde el nivel de desplante, ocho
-niveles o 24m.</li>
-</ol>
-
-<p>II.- Usos Permitidos:</p>
-
-<ol>
-<li>Vivienda unifamiliar, una vivienda por lote.</li>
-<li>Vivienda plurifamiliar y multifamiliar dos o más viviendas por lote.</li>
-<li>Conjuntos habitacionales de más de 50 viviendas.</li>
-<li>Bodegas de acopio y transferencia de productos no perecederos.</li>
-<li>Gasolineras.</li>
-<li>Abarrotes, Carnicerías y Fruterías</li>
-<li>Comida para llevar.</li>
-<li>Farmacias y Boticas.</li>
-<li>Tortillerías y Panaderías.</li>
-<li>Tiendas de Conveniencia.</li>
-<li>Ropa, Calzado, Accesorios diversos.</li>
-<li>Alimentos Vegetarianos.</li>
-<li>Dulcerías.</li>
-<li>Galerías de Arte.</li>
-<li>Herbarios.</li>
-<li>Ingeniería, Dibujo.</li>
-<li>Instrumentos musicales.</li>
-<li>Joyerías y Relojerías.</li>
-<li>Mueblerías.</li>
-<li>Neverías.</li>
-<li>Ópticas.</li>
-<li>Papelerías, Librerías, Revisterías.</li>
-<li>Refacciones y Llantas.</li>
-<li>Ultramarinos, Vinos, Licores, y Expendios de Cerveza.</li>
-<li>Venta de Discos.</li>
-<li>Videocintas.</li>
-<li>Tiendas de Autoservicio de hasta 250m2.</li>
-<li>Tiendas de Autoservicio de más de 250 hasta 5000m2.</li>
-<li>Tiendas de Autoservicio de más de 5000m2.</li>
-<li>Tiendas de Departamentos de hasta 2500m2.</li>
-<li>Tiendas de Departamentos de 2500m2 hasta 5000m2.</li>
-<li>Tiendas de Departamentos de más de 5000m2 hasta 10000m2.</li>
-<li>Tiendas de Departamentos de más de 10,000m2.</li>
-<li>Centros Comerciales hasta 2,500.00m2.</li>
-<li>Centros Comerciales de 2,500 hasta 5,000m2.</li>
-<li>Centros Comerciales de más de 5,000m2.</li>
-<li>Mercados y Tianguis de hasta 10,000m2.</li>
-<li>Mercados y Tianguis de más de 10,000m2.</li>
-<li>Ferreterías y Tlapalerías</li>
-<li>Venta de Automóviles, Camiones.</li>
-<li>Consulados, Embajadas.</li>
-<li>Oficinas Privadas.</li>
-<li>Oficinas con Atención al Público.</li>
-<li>Casas de Bolsa.</li>
-<li>Bancos y Casas de Cambio.</li>
-<li>Alquiler de losa, sillas, cristalería, mesas.</li>
-<li>Alquiler de vehículos.</li>
-<li>Baños, Saunas, Sanitarios Públicos y Salas de masaje.</li>
-<li>Lavanderías y Tintorerías.</li>
-<li>Peluquerías y Estéticas.</li>
-<li>Estudios Fotográficos.</li>
-<li>Sastrerías y Talleres de Costura.</li>
-<li>Aparatos Electrodomésticos.</li>
-<li>Lavado, Lubricado y Cambio de llantas de vehículos.</li>
-<li>Limpieza de Oficinas, Hogares e Industrias.</li>
-<li>Talleres Automotrices y para motocicletas.</li>
-<li>Cafés, Fondas.</li>
-<li>Restaurantes sin venta de bebidas alcohólicas.</li>
-<li>Restaurantes con venta de bebidas alcohólicas.</li>
-<li>Venta de alimentos con autoservicio.</li>
-<li>Venta de alimentos con entrega a domicilio.</li>
-<li>Auditorios, Teatros, Cines, Salas de Concierto o Cinetecas.</li>
-<li>Centros Comunitarios, Centros Culturales y Salones de Fiestas Infantiles.</li>
-<li>Centros Comunitarios, Centros Culturales y Salones de Fiestas Infantiles.</li>
-<li>Clubes Sociales, Salones para Banquetes y de Baile.</li>
-<li>Juegos Electrónicos.</li>
-<li>Boliche, Billar, patines y juegos de mesa.</li>
-<li>Senderos o Miradores.</li>
-<li>Salas de Artes Marciales.</li>
-<li>Gimnasios, Gimnasios de Aparatos y Aeróbicos.</li>
-<li>Hoteles y Albergues hasta de 100 cuartos.</li>
-<li>Hoteles y Albergues de más de 100 cuartos.</li>
-<li>Garitas o Casetas de Vigilancia.</li>
-<li>Encierro de Vehículos, Centrales o Estaciones de Policía.</li>
-<li>Estación de Bomberos.</li>
-<li>Puesto de Socorro o Central de Ambulancias.</li>
-<li>Hospitales de hasta 10 camas o consultorios.</li>
-<li>Hospitales de más de 10 camas o consultorios.</li>
-<li>Centros de Salud, Clínicas de Urgencias o Clínicas en General.</li>
-<li>Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios.</li>
-<li>Centros de Tratamiento de enfermedades crónicas.</li>
-<li>Salones de Corte, Dispensarios, Veterinarias, Tiendas de animales.</li>
-<li>Centros Antirrábicos, de Cuarentena, Clínicas y Hospitales Veterinarios.</li>
-<li>Academias de Danza, Belleza, Contabilidad, Computación.</li>
-<li>Escuelas Secundarias generales y Técnicas.</li>
-<li>Preparatorias, Institutos Tecnológicos, Centros de Capacitación y CONALEP.</li>
-<li>Politécnicos y Tecnológicos, Universidades o Escuelas Normales.</li>
-<li>Centros de Estudio de Postgrado.</li>
-<li>Centro y Laboratorios de investigación.</li>
-<li>Centros de Exposiciones Temporales o al Aire libre y Sitios Históricos.</li>
-<li>Pinacotecas, Casas de la Cultura, Galerías de Arte, Museos.</li>
-<li>Archivos Públicos o Centros Procesadores de Información.</li>
-<li>Bibliotecas y Hemerotecas.</li>
-<li>Templos, Capillas o lugares para Culto.</li>
-<li>Correos y Telégrafos.</li>
-<li>Central Telefónica sin servicio al público.</li>
-<li>Oficinas de Teléfonos con Atención al Público.</li>
-<li>Mensajería y Paquetería.</li>
-<li>Estacionamientos Públicos.</li>
-<li>Sitios de Taxis.</li>
-<li>Plazas, Jardines, Explanadas, y Parques.</li>
-</ol>
-
-<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU 1.1 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
-
-<ol>
-<li>Internados (C).</li>
-<li>Casas de Asistencia (C).</li>
-<li>Comercio de Abastos y Bodegas de Productos Perecederos (B y D).</li>
-<li>Bodegas de Semillas, Huevo, Lácteos o Abarrotes (B).</li>
-<li>Aparatos eléctricos, electrónicos y equipo de computación y Sistemas (C).</li>
-<li>Artículos Médicos y de Laboratorio (C).</li>
-<li>Artículos Deportivos (C).</li>
-<li>Electrónica (C).</li>
-<li>Fotografía (C).</li>
-<li>Productos Envasados (B y D).</li>
-<li>Productos a Granel (B).</li>
-<li>Eléctricos, Plomería (C).</li>
-<li>Venta de Motocicletas (B).</li>
-<li>Edificios de Sindicatos y Centrales (B).</li>
-<li>Oficinas de Gobierno Federal, Estatal, Municipal (B).</li>
-<li>Oficinas de Partidos Políticos (B).</li>
-<li>Organismos Descentralizados (B).</li>
-<li>Agencias de Viaje (C).</li>
-<li>Alquiler de Ropa (C).</li>
-<li>Mantenimiento de Jardines (C).</li>
-<li>Cantinas, Bares, Cervecerías, Videobares, Vinaterías (B y D).</li>
-<li>Centros Nocturnos (B y D).</li>
-<li>Salones de Baile y Discotecas (B y D).</li>
-<li>Centros de Convenciones y autocinemas (B y D).</li>
-<li>Danza, Juegos de mesa (C).</li>
-<li>Centros de Integración Juvenil o Familiar (B).</li>
-<li>Casas del Anciano y Orfanatos (B).</li>
-<li>Instituciones Religiosas, Seminarios, Conventos (B y C).</li>
-<li>Agencias de Inhumaciones y preparación de cadáveres (A y B).</li>
-<li>Funerales y Capillas de Velación (B).</li>
-<li>Estaciones de Televisión, Estudio de Cine y Radiodifusoras (B, C y D).</li>
-<li>Terminales de Autobuses Urbanos (B y D).</li>
-<li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B).</li>
-<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
-<li>Torres, Antenas de Microondas, Radiocomunicaciones y Radiodifusión (C y D).</li>
-<li>Torres, Antenas de Televisión (C y D).</li>
-</ol>
-
-<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
-
-<p>V.- Obras mínimas de urbanización:</p>
-
-<ol>
-<li>Red de abastecimiento de agua potable;</li>
-<li>Red de alcantarillado sanitario;</li>
-<li>Sistema de drenaje pluvial;</li>
-<li>Red de electrificación con servicio de baja tensión e instalación oculta;</li>
-<li>Red de alumbrado público sobre poste metálico e instalación oculta;</li>
-<li>Red telefónica, de informática y telecomunicaciones con instalación oculta y casetas de servicio público;</li>
-<li>Banquetas de concreto hidráulico;</li>
-<li>Pavimento de concreto hidráulico;</li>
-<li>Señalamiento; y</li>
-<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.</li>
-</ol>
-]]></description>
+<a class="btn btn-default" href="http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map" target="_blank" role="button">Ver a pantalla completa</a>]]></description>
     </item>
     <item>
-      <title>Zonificación CU1.2</title>
-      <link>http://trcimplan.gob.mx/sig/zonificacion-cu12.html</link>
-      <guid isPermaLink="false">sig-zonificacion-cu12</guid>
+      <title>Zonificación Secundaria</title>
+      <link>http://trcimplan.gob.mx/sig/zonificacion-secundaria.html</link>
+      <guid isPermaLink="false">sig-zonificacion-secundaria</guid>
       <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
       <author>TrcIMPLAN</author>
-      <description><![CDATA[<p>Norma 13.- La zonificación “CU 1.2” Corredor Urbano, Habitación, Comercio y Servicios tendrá las siguientes restricciones de uso:</p>
+      <description><![CDATA[<iframe width='100%' height='520' frameborder='0' src='http://implantorreon.cartodb.com/u/sigimplan/viz/7c091e9c-7041-11e4-b580-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-<p>I.- Generales:</p>
-
-<ol>
-<li>Densidad de Vivienda: de 110 a 176 viviendas por hectárea.</li>
-<li>Densidad de Habitacional Máxima: 495 a 792 habitantes por hectárea.</li>
-<li>Lote mínimo: no especificado.</li>
-<li>Frente mínimo del lote: no especificado.</li>
-<li>Fondo: no especificado.</li>
-<li>Estacionamiento: variable según proyecto..</li>
-<li>COS: 0.7.</li>
-<li>CUS: 7.0.</li>
-<li>Porcentaje de superficie permeable: no especificado.</li>
-<li>Restricciones de construcción: no especificado.</li>
-<li>Altura máxima de construcción desde el nivel de desplante, doce
-niveles o 36m.</li>
-</ol>
-
-<p>II.- Usos Permitidos:</p>
-
-<ol>
-<li>Vivienda unifamiliar una vivienda por lote.</li>
-<li>Vivienda plurifamiliar y multifamiliar dos o más viviendas por lote.</li>
-<li>Conjuntos habitacionales más de 50 viviendas.</li>
-<li>Bodegas de Acopio y transferencia de Productos no Perecederos.</li>
-<li>Gasolineras.</li>
-<li>Alimentos Vegetarianos.</li>
-<li>Abarrotes, Carnicerías y Fruterías.</li>
-<li>Comida para llevar.</li>
-<li>Farmacias y Boticas.</li>
-<li>Tortillerías y Panaderías.</li>
-<li>Tiendas de Conveniencia.</li>
-<li>Ropa, Calzado, Accesorios diversos.</li>
-<li>Dulcerías.</li>
-<li>Galerías de Arte</li>
-<li>Herbarios.</li>
-<li>Ingeniería, Dibujo.</li>
-<li>Instrumentos Musicales.</li>
-<li>Joyerías y Relojerías.</li>
-<li>Mueblerías.</li>
-<li>Neverías.</li>
-<li>Ópticas.</li>
-<li>Papelerías, Librerías, Revisterías.</li>
-<li>Refacciones y Llantas.</li>
-<li>Ultramarinos, Vinos, Licores, y Expendios de Cerveza.</li>
-<li>Venta de Discos.</li>
-<li>Videocintas.</li>
-<li>Tiendas de Autoservicio de hasta 250m2.</li>
-<li>Tiendas de Autoservicio de más de 250m2 hasta 5000m2.</li>
-<li>Tiendas de Autoservicio de más de 5000m2.</li>
-<li>Tiendas de Departamentos de hasta 2500m2.</li>
-<li>Tiendas de Departamentos de 2500m2 hasta 5000m2.</li>
-<li>Tiendas de Departamentos de más de 5000m2 hasta 10000m2.</li>
-<li>Tiendas de Departamentos de más de 10000m2.</li>
-<li>Centros Comerciales de hasta 2500m2.</li>
-<li>Centros Comerciales de 2500m2 hasta 5000m2.</li>
-<li>Centros Comerciales de más de 5000m2.</li>
-<li>Mercados y Tianguis de hasta 10000m2.</li>
-<li>Mercados y Tianguis de más de 10000m2.</li>
-<li>Ferreterías y Tlapalerías.</li>
-<li>Automóviles, Camiones.</li>
-<li>Consulados, Embajadas.</li>
-<li>Oficinas Privadas.</li>
-<li>Oficinas con Atención al Público.</li>
-<li>Casas de Bolsas.</li>
-<li>Bancos y Casas de Cambio.</li>
-<li>Alquiler de losa, cristalería, mesas y sillas.</li>
-<li>Baños, Saunas, Sanitarios Públicos y Salas de masaje.</li>
-<li>Lavanderías y Tintorerías.</li>
-<li>Peluquerías y Estéticas.</li>
-<li>Estudios Fotográficos.</li>
-<li>Sastrerías y Talleres de Costura.</li>
-<li>Aparatos Electrodomésticos.</li>
-<li>Lavado, Lubricado y Cambio de llantas de vehículos.</li>
-<li>Limpieza de Oficinas, Hogares, Industrias.</li>
-<li>Talleres Automotrices y para Motocicletas.</li>
-<li>Cafés, Fondas.</li>
-<li>Restaurantes sin Venta de Bebidas Alcohólicas.</li>
-<li>Restaurantes con Venta de Bebidas Alcohólicas.</li>
-<li>Venta de Alimentos con Autoservicio.</li>
-<li>Venta de Alimentos con Entrega a Domicilio.</li>
-<li>Auditorios, Teatros, Cines, Salas de Concierto o Cinetecas.</li>
-<li>Centros Comunitarios, Centros Culturales y Salones de fiestas Infantiles.</li>
-<li>Clubes Sociales, Salones para Banquetes y de Baile.</li>
-<li>Juegos Electrónicos.</li>
-<li>Boliche, Billar, Patines y Juegos de Mesa.</li>
-<li>Senderos o Miradores.</li>
-<li>Salas de Artes Marciales.</li>
-<li>Gimnasios, Gimnasios de Aparatos y Aeróbicos.</li>
-<li>Hoteles y Albergues hasta de 100 cuartos.</li>
-<li>Hoteles y Albergues de más de 100 cuartos.</li>
-<li>Garitas o Casetas de Vigilancia.</li>
-<li>Encierro de Vehículos, Centrales o Estaciones de Policía.</li>
-<li>Estación de Bomberos.</li>
-<li>Puesto de Socorro o Central de Ambulancia.</li>
-<li>Hospitales de hasta 10 camas o Consultorios.</li>
-<li>Hospitales de más de 10 camas o Consultorios.</li>
-<li>Centros de Salud, Clínicas de Urgencias o Clínicas en General.</li>
-<li>Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios.</li>
-<li>Centros de Tratamiento de Enfermedades Crónicas.</li>
-<li>Salones de Corte, Dispensarios, Veterinarias, Tiendas de Animales.</li>
-<li>Centros Antirrábicos, de Cuarentena, Clínicas y Hospitales veterinarios.</li>
-<li>Academias de Danza, Belleza, Contabilidad, Computación.</li>
-<li>Escuelas Secundarias Generales y Técnicas.</li>
-<li>Preparatorias, Institutos Tecnológicos, Centros de Capacitación y CONALEP.</li>
-<li>Politécnicos y Tecnológicos, Universidades o Escuelas Normales.</li>
-<li>Centros de Estudio de Postgrado.</li>
-<li>Centro y Laboratorios de Investigación.</li>
-<li>Centros de Exposiciones Temporales o al Aire libre y Sitios Históricos.</li>
-<li>Pinacotecas, Casas de la Cultura, Galerías de Arte, Museos.</li>
-<li>Archivos Públicos o Centros Procesadores de Información.</li>
-<li>Bibliotecas y Hemerotecas.</li>
-<li>Templos, Capillas o lugares para Culto.</li>
-<li>Correos y Telégrafos.</li>
-<li>Central Telefónica sin Servicio al Público.</li>
-<li>Oficinas de Teléfonos con Atención al Público.</li>
-<li>Mensajería y Paquetería.</li>
-<li>Estacionamientos Públicos.</li>
-<li>Sitios de Taxis.</li>
-<li>Plazas, Jardines, Explanadas, y Parques.</li>
-</ol>
-
-<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU 1.2 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
-
-<ol>
-<li>Internados (C).</li>
-<li>Casas de Asistencia (C).</li>
-<li>Comercio de Abastos y Bodegas de Productos Perecederos (B y D).</li>
-<li>Bodegas de Semillas, Huevo, Lácteos o Abarrotes (B).</li>
-<li>Aparatos Eléctricos, Electrónicos y Equipo de Computación y Sistemas (C).</li>
-<li>Artículos Médicos y de Laboratorio (C).</li>
-<li>Artículos Deportivos (C).</li>
-<li>Electrónica (C).</li>
-<li>Fotografía (C).</li>
-<li>Productos Envasados (B y D).</li>
-<li>Productos a Granel (B).</li>
-<li>Eléctricos, Plomería (C).</li>
-<li>Venta de Motocicletas (B).</li>
-<li>Edificios de Sindicatos y Centrales (B).</li>
-<li>Oficinas de Gobierno Federal, Estatal, Municipal (B).</li>
-<li>Oficinas de Partidos Políticos (B).</li>
-<li>Organismos Descentralizados (B).</li>
-<li>Agencias de Viaje (C).</li>
-<li>Alquiler de Ropa (C).</li>
-<li>Alquiler de Vehículos (B).</li>
-<li>Mantenimiento de Jardines (C).</li>
-<li>Cantinas, Bares, Cervecerías, Videobares, Vinaterías (B y D).</li>
-<li>Centros Nocturnos (B y D).</li>
-<li>Salones de Baile y Discotecas (B y D).</li>
-<li>Centros de Convenciones y Autocinemas (B y D).</li>
-<li>Danza, Juegos de Mesa (C).</li>
-<li>Centros de Integración Juvenil o Familiar (B).</li>
-<li>Casas del Anciano y Orfanatos (B).</li>
-<li>Instituciones Religiosas, Seminarios, Conventos (B y C).</li>
-<li>Agencias de Inhumaciones y preparación de cadáveres (A y B).</li>
-<li>Funerales y Capillas de Velación (B).</li>
-<li>Estaciones de Televisión, Estudios de Cine y Radiodifusoras (B, C y D).</li>
-<li>Terminales de Autobuses Urbanos (B y D).</li>
-<li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B)</li>
-<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
-<li>Torres, Antenas de Microondas, Radiocomunicaciones y Radiodifusión (C y D).</li>
-<li>Torres y Antenas de Televisión (C y D).</li>
-</ol>
-
-<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
-
-<p>V.- Obras mínimas de urbanización:</p>
-
-<ol>
-<li>Red de abastecimiento de agua potable;</li>
-<li>Red de alcantarillado sanitario;</li>
-<li>Sistema de drenaje pluvial;</li>
-<li>Red de electrificación con servicio de baja tensión e instalación oculta;</li>
-<li>Red de alumbrado público sobre poste metálico e instalación oculta;</li>
-<li>Red telefónica, de informática y telecomunicaciones, con instalación oculta y casetas de servicio público;</li>
-<li>Banquetas de concreto hidráulico;</li>
-<li>Pavimento de concreto hidráulico;</li>
-<li>Señalamiento; y</li>
-<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.</li>
-</ol>
-]]></description>
+<a class="btn btn-default" href="http://implantorreon.cartodb.com/u/sigimplan/viz/7c091e9c-7041-11e4-b580-0e4fddd5de28/embed_map" target="_blank" role="button">Ver a pantalla completa</a>]]></description>
     </item>
     <item>
-      <title>Zonificación CU2</title>
-      <link>http://trcimplan.gob.mx/sig/zonificacion-cu2.html</link>
-      <guid isPermaLink="false">sig-zonificacion-cu2</guid>
-      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
-      <author>TrcIMPLAN</author>
-      <description><![CDATA[<p>Norma 14.- La zonificación “CU2” Corredor Urbano de Habitación y Comercio, tendrá las siguientes restricciones de uso:</p>
+      <title>La industria metalmecánica y La Laguna</title>
+      <link>http://trcimplan.gob.mx/blog/industrial-metalmecanica-la-laguna.html</link>
+      <guid isPermaLink="false">blog-industrial-metalmecanica-la-laguna</guid>
+      <pubDate>Wed, 12 Nov 2014 00:00:00 -0600</pubDate>
+      <author>Lic. Alicia Valdez Ibarra</author>
+      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/industrial-metalmecanica-la-laguna/imagen.jpg"></span>
 
-<p>I.- Generales:</p>
+<h3>Oportunidades en la industria metalmecánica</h3>
 
-<ol>
-<li>Densidad de Vivienda: de 104 a 166 viviendas por hectárea.</li>
-<li>Densidad Habitacional Máxima: de 468 a 747 habitantes por hectárea.</li>
-<li>Lote mínimo: no especificado.</li>
-<li>Frente mínimo del lote: no especificado.</li>
-<li>Fondo: no especificado.</li>
-<li>Estacionamiento: variable según proyecto..</li>
-<li>COS: 0.7.</li>
-<li>CUS: 3.0.</li>
-<li>Porcentaje de superficie permeable: no especificado.</li>
-<li>Restricciones de construcción: no especificado.</li>
-<li>Altura máxima de construcción desde el nivel de desplante, cinco niveles o 15m.</li>
-</ol>
+<p>A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año. Esto se debe principalmente a la inversión que espera recibirse en las industrias automotriz y aeroespacial, de hecho, un estudio realizado por el Catálogo de Proveedores de la Industria en México (CAPIM) menciona que 38% de los requerimientos de la industria automotrizcorresponde a proveedores metalmecánicos.</p>
 
-<p>II.- Usos Permitidos:</p>
+<p>Según el análisis  del CAPAIM los procesos más demandados por la industria automotriz son maquinados CNC, laminado, troquelado, maquinado tradicional, extrusión, inyección y recubrimiento de metales. Por otro lado, ProMéxico identifica oportunidades de proveeduría en la industria de los electrodomésticos pues se estima que aproximadamente 63% de la proveeduría de procesos y componentes en la fabricación de refrigeradores en México es importada.</p>
 
-<ol>
-<li>Vivienda unifamiliar una vivienda por lote.</li>
-<li>Vivienda plurifamiliar y multifamiliar: dos o más viviendas por lote.</li>
-<li>Conjuntos habitacionales más de 50 viviendas.</li>
-<li>Abarrotes, Carnicerías y Fruterías.</li>
-<li>Comida para llevar.</li>
-<li>Farmacias y Boticas.</li>
-<li>Tortillerías y Panaderías.</li>
-<li>Tiendas de Conveniencia.</li>
-<li>Ropa, Calzado, Accesorios diversos.</li>
-<li>Dulcerías.</li>
-<li>Herbarios.</li>
-<li>Ingeniería, Dibujo.</li>
-<li>Instrumentos Musicales.</li>
-<li>Joyerías y Relojerías.</li>
-<li>Mueblerías.</li>
-<li>Neverías.</li>
-<li>Ópticas.</li>
-<li>Papelerías, Librerías, Revisterías.</li>
-<li>Refacciones y Llantas.</li>
-<li>Venta de Discos.</li>
-<li>Videocintas.</li>
-<li>Tiendas de Autoservicio de hasta 250m2.</li>
-<li>Consulados, Embajadas.</li>
-<li>Oficinas Privadas.</li>
-<li>Oficinas con Atención al Público.</li>
-<li>Casas de Bolsa.</li>
-<li>Bancos y Casas de Cambio.</li>
-<li>Cafés, Fondas.</li>
-<li>Restaurantes sin venta de bebidas alcohólicas.</li>
-<li>Senderos o Miradores.</li>
-<li>Garitas o Casetas de Vigilancia.</li>
-<li>Correos y Telégrafos.</li>
-<li>Oficinas de Teléfonos con Atención al Público.</li>
-<li>Estacionamientos Públicos.</li>
-<li>Plazas, Jardines, Explanadas y Parques.</li>
-</ol>
+<p>Dentro del estudio de ProMéxico algunos de los componentes y actividades de proveeduría señaladas como necesarias en México son troquelado y estampado; inyección de plásticos; moldes, troqueles y herramentales; maquinado y laminado.</p>
 
-<p>III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU 2 se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.</p>
+<h3>Actividades de la industria metalmecánica en La Laguna</h3>
 
-<ol>
-<li>Internados (C).</li>
-<li>Casas de Asistencia (C).</li>
-<li>Gasolineras (B. C y D).</li>
-<li>Alimentos Vegetarianos (C).</li>
-<li>Aparatos Eléctricos, Electrónicos y Equipo de Computación Sistemas (C).</li>
-<li>Artículos Médicos y de Laboratorio (C).</li>
-<li>Artículos Deportivos (C).</li>
-<li>Electrónica (C).</li>
-<li>Fotografía (C)</li>
-<li>Ultramarinos, Vinos, Licores, y Expendios de Cerveza (B y C).</li>
-<li>Centro Comercial hasta de 2500m2 (B).</li>
-<li>Mercados y Tianguis hasta de 10000m2 (B).</li>
-<li>Productos Envasados (B y D).</li>
-<li>Productos a Granel (B).</li>
-<li>Eléctricos, Plomería (C).</li>
-<li>Venta de Motocicletas (B).</li>
-<li>Lavanderías y Tintorerías (B).</li>
-<li>Peluquerías y Estéticas (C).</li>
-<li>Estudios Fotográficos (C).</li>
-<li>Sastrerías y Talleres de Costura (C).</li>
-<li>Juegos Electrónicos (C).</li>
-<li>Hospitales de hasta 10 camas o Consultorios (B y C).</li>
-<li>Centros de Salud, Clínicas de Urgencias o Clínicas en General (B y C).</li>
-<li>Laboratorios Dentales, Análisis Clínicos, Radiografías Consultorios (C).</li>
-<li>Templos, Capillas o lugares para el Culto (B y C).</li>
-<li>Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B)</li>
-<li>Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).</li>
-</ol>
+<p>Mientras a nivel nacional 14% del PIB manufacturero pertenece a la metalmecánica (Secretaría de Economía), en la zona metropolitana de La Laguna esta industria participa con 70% del valor agregado generado por la manufactura y 40% del valor agregado total (Censos económicos 2009). Además, la metalmecánica emplea a 15,980 personas y tiene una productividad de 5.4 millones de pesos anuales por trabajador (Censos económicos 2009).</p>
 
-<p>IV.- Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.</p>
+<p>Sin embargo, 47% del valor agregado generado por la industria metalmecánica de La Laguna lo genera una sola actividad, misma que ocupa a 2,199 personas y produce más de 50,000 millones de pesos al año: la fundición y refinación de metales preciosos.</p>
 
-<p>V.- Obras mínimas de urbanización:</p>
+<p>Sin la participación de esta actividad, la industria metalmecánica de La Laguna aporta 37% del valor agregado por la manufactura y 21% del total de la zona metropolitana,manteniendo una productividad laboral de 429 miles de pesos anuales por trabajador.</p>
 
-<ol>
-<li>Red de abastecimiento de agua potable;</li>
-<li>Red de alcantarillado sanitario;</li>
-<li>Sistema de drenaje pluvial;</li>
-<li>Red de electrificación con servicio de baja tensión e instalación oculta;</li>
-<li>Red de alumbrado público sobre poste metálico e instalación oculta;</li>
-<li>Red telefónica, de informática y telecomunicaciones con instalación oculta y casetas de servicio público;</li>
-<li>Banquetas de concreto hidráulico;</li>
-<li>Pavimento de concreto hidráulico;</li>
-<li>Señalamiento; y</li>
-<li>Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.</li>
-</ol>
+<p>Después de la fundición y refinación de metales preciosos, la actividad con la mayor cantidad de personal ocupado es lafabricación de productos de herrería, empleando a un total de 2,068 personas en la zona metropolitana. La fabricación de tubos y postes de hierro y acero, la cual se desempeña en el municipio de Gómez Palacio, es la actividad con mayor producción bruta, aunque la mayor aportación de valor agregado es de lafabricación de motores de combustión interna, turbinas y transmisiones, actividad presente únicamente en el municipio de Torreón. En la tabla de a continuación se presentan las aportaciones de cada una de estas actividades:</p>
+
+<table class="table table-striped">
+    <tr>
+        <th>MUNICIPIO</th>
+        <th>ACTIVIDAD ECONÓMICA</th>
+        <th>PERSONAL OCUPADO TOTAL</th>
+        <th>PRODUCCIÓN BRUTA TOTAL (MILES DE PESOS)</th>
+        <th>VALOR AGREGADO CENSAL BRUTO (MILES DE PESOS)</th>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de tubos y postes de hierro y acero</td>
+        <td style="text-align:right">352</td>
+        <td style="text-align:right"><b>$ 1,185,801.00</b></td>
+        <td style="text-align:right">$ 283,530.00</td>
+    </tr>
+    <tr>
+        <th>MATAMOROS, TORREÓN, GÓMEZ PALACIO, LERDO</th>
+        <td>Fabricación de productos de herrería</td>
+        <td style="text-align:right"><b>2,068</b></td>
+        <td style="text-align:right">$ 264,096.00</td>
+        <td style="text-align:right">$ 106,093.00</td>
+    </tr>
+    <tr>
+        <th>TORREÓN</th>
+        <td>Fabricación de motores de combustión interna, tubinas y transmisiones</td>
+        <td style="text-align:right">1,251</td>
+        <td style="text-align:right">$ 527,476.00</td>
+        <td style="text-align:right"><b>$ 7,587,382.00</b></td>
+    </tr>
+</table>
+
+<p><small>Fuente: INEGI, Censos económicos 2009.</small></p>
+
+<p>En cuanto a la productividad laboral, en seguida se listan las 5 actividades de la metalmecánica con la productividad laboral más alta, esta vez incluyendo a la fundición y refinación de metales preciosos.</p>
+
+<table class="table table-striped">
+    <tr>
+        <th>MUNICIPIO</th>
+        <th>ACTIVIDAD ECONÓMICA</th>
+        <th>PRODUCTIVIDAD</th>
+    </tr>
+    <tr>
+        <th>TORREÓN</th>
+        <td>Fundición y refinación de metales preciosos</td>
+        <td style="text-align:right">$ 24,941.81</td>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de desbastes primarios y ferroaleaciones</td>
+        <td style="text-align:right">$ 3,702.09</td>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de tubos y postes de hierro y acero</td>
+        <td style="text-align:right">$ 3,368.75</td>
+    </tr>
+    <tr>
+        <th>TORREÓN, LERDO</th>
+        <td>Fabricación de maquinaria y equipo para la industria metalmecánica</td>
+        <td style="text-align:right">$ 1,024.06</td>
+    </tr>
+    <tr>
+        <th>GÓMEZ PALACIO</th>
+        <td>Fabricación de calderas industriales</td>
+        <td style="text-align:right">$ 1,100.74</td>
+    </tr>
+</table>
+
+<p><small>Fuente: INEGI, Censos económicos 2009.</small></p>
+
+<p>A pesar de que la productividad y participación de la metalmecánica son muy altas, esto no implica que estemos preparados para competir como proveedores con otras ciudades de México.Un ejemplo de esto es que en La Laguna no contamos con proveedores certificados con estándares de calidad, ventas y clientes.De las 210 empresas que actualmente se encuentran en el Catálogo de Proveeduría de la IndustriaMaquiladora de la Secretaría de Economía de México, 48 están en Ciudad Juárez, 55 en el Bajío, 43 en Monterrey, 35 en Tlaxcala, 25 en Puebla y 4 en Saltillo. Cabe mencionar que cerca de la mitad de estos proveedores pertenecen a la industria metalmecánica, lo cual nos deja lejos de competir.</p>
 ]]></description>
     </item>
   </channel>
