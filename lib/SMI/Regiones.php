@@ -66,7 +66,7 @@ class Regiones extends \Base\Publicacion {
   <div class="col-md-2 indicadores-vinculos">
     <h3>Economía</h3>
     <ul>
-      <li><a href="../indicadores-torreon/economia-apertura-de-negocio.html" target="_blank">Apertura de Negocio</a></li>
+      <li><a href="../indicadores-torreon/economia-apertura-de-negocios.html" target="_blank">Apertura de Negocios</a></li>
       <li><a href="../indicadores-torreon/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
       <li><a href="../indicadores-torreon/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>

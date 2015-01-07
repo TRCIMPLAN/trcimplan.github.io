@@ -1,6 +1,6 @@
 <?php
 /**
- * EconomiaAperturaDeNegocio.php
+ * EconomiaAperturaDeNegocios.php
  *
  * IMPLAN Torreón
  */
@@ -9,18 +9,18 @@
 namespace SMIIndicadoresTorreon;
 
 /**
- * Clase EconomiaAperturaDeNegocio
+ * Clase EconomiaAperturaDeNegocios
  */
-class EconomiaAperturaDeNegocio extends \Base\Publicacion {
+class EconomiaAperturaDeNegocios extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Apertura de Negocio en Torreón';
+        $this->nombre       = 'Apertura de Negocios en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economia-apertura-de-negocio';
+        $this->archivo      = 'economia-apertura-de-negocios';
         $this->descripcion  = 'Número de días necesarios para el trámite de apertura de un negocio.';
         $this->claves       = 'Torreón, Empresas, Doing Business';
         $this->categorias   = array('Empresas', 'Doing Business');
@@ -83,7 +83,7 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
       <p><b>Unidad:</b> Días.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Apertura de Negocio</h3>
+      <h3>Páginas relacionadas con Apertura de Negocios</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -94,6 +94,12 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>06/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></td>
+            <td>El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.</td>
+          </tr>
           <tr>
             <td>12/11/2014</td>
             <td>Análisis</td>
@@ -177,6 +183,12 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
             <td>Análisis</td>
             <td><a href="../blog/hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></td>
             <td>¿En realidad generan más valor las actividades tecnológicas y de servicios?</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-apertura-de-negocio.html">Apertura de Negocio en Torreón</a></td>
+            <td>Número de días necesarios para el trámite de apertura de un negocio.</td>
           </tr>
           <tr>
             <td>ND</td>
@@ -269,6 +281,6 @@ $(document).ready(function(){
 FINAL;
     } // constructor
 
-} // Clase EconomiaAperturaDeNegocio
+} // Clase EconomiaAperturaDeNegocios
 
 ?>

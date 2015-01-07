@@ -49,14 +49,14 @@ class EconomiaTasaDeInformalidad extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td>31/03/2012</td>
-            <td>53.45 %</td>
+            <td>31/12/2011</td>
+            <td>55.74 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>31/03/2012</td>
-            <td>55.74 %</td>
+            <td>53.45 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
@@ -193,6 +193,12 @@ class EconomiaTasaDeInformalidad extends \Base\Publicacion {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>06/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></td>
+            <td>El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.</td>
+          </tr>
           <tr>
             <td>12/11/2014</td>
             <td>Análisis</td>
@@ -331,7 +337,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2012-03-31', dato: 55.7400 },{ fecha: '2012-06-30', dato: 57.2900 },{ fecha: '2012-09-30', dato: 56.4200 },{ fecha: '2012-12-31', dato: 51.9200 },{ fecha: '2013-03-31', dato: 50.0000 },{ fecha: '2013-06-30', dato: 49.3300 },{ fecha: '2013-09-30', dato: 51.3500 },{ fecha: '2013-12-31', dato: 56.4500 },{ fecha: '2014-03-31', dato: 48.1500 },{ fecha: '2014-06-30', dato: 60.4000 },{ fecha: '2014-09-30', dato: 55.0600 }],
+      data: [{ fecha: '2011-12-31', dato: 55.7400 },{ fecha: '2012-03-31', dato: 53.4500 },{ fecha: '2012-06-30', dato: 57.2900 },{ fecha: '2012-09-30', dato: 56.4200 },{ fecha: '2012-12-31', dato: 51.9200 },{ fecha: '2013-03-31', dato: 50.0000 },{ fecha: '2013-06-30', dato: 49.3300 },{ fecha: '2013-09-30', dato: 51.3500 },{ fecha: '2013-12-31', dato: 56.4500 },{ fecha: '2014-03-31', dato: 48.1500 },{ fecha: '2014-06-30', dato: 60.4000 },{ fecha: '2014-09-30', dato: 55.0600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

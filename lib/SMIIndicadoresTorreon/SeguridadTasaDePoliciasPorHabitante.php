@@ -69,6 +69,12 @@ class SeguridadTasaDePoliciasPorHabitante extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>07/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/prevencion-delincuencia-juvenil.html">La prevención de la Delincuencia Juvenil, elemento central de la prevención integral del delito y la violencia</a></td>
+            <td>Dentro de una estrategia de prevención integral del delito, la delincuencia juvenil constituye desde luego el elemento fundamental, si lo que se pretende es evitar que niños de doce años decidan formar parte de la delincuencia.</td>
+          </tr>
+          <tr>
             <td>18/11/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/prevencion-delito-seguridad.html">La Prevención del Delito como elemento fundamental para la Seguridad</a></td>
