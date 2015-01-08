@@ -246,7 +246,7 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-apertura-de-negocio.html">Apertura de Negocio en Torreón</a></td>
+            <td><a href="../indicadores-torreon/economia-apertura-de-negocios.html">Apertura de Negocios en Torreón</a></td>
             <td>Número de días necesarios para el trámite de apertura de un negocio.</td>
           </tr>
           <tr>

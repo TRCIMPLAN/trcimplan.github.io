@@ -124,6 +124,27 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
             <td>INAFED-PNUD</td>
             <td>El dato es un promedio de los cuatro municipios que integran la Zona Metropolitana de la Laguna. Se publica únicamente como referencia. Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
           </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2010-12-31</td>
+            <td>0.7760</td>
+            <td>INAFED-PNUD</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2010-12-31</td>
+            <td>0.7320</td>
+            <td>INAFED-PNUD</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2010-12-31</td>
+            <td>0.7500</td>
+            <td>INAFED-PNUD</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -233,7 +254,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0.8976 },{ region: 'Gómez Palacio', dato: 0.8681 },{ region: 'Lerdo', dato: 0.8661 },{ region: 'Matamoros', dato: 0.8404 },{ region: 'La Laguna', dato: 0.8680 }],
+      data: [{ region: 'Torreón', dato: 0.8976 },{ region: 'Gómez Palacio', dato: 0.8681 },{ region: 'Lerdo', dato: 0.8661 },{ region: 'Matamoros', dato: 0.8404 },{ region: 'La Laguna', dato: 0.8680 },{ region: 'Coahuila', dato: 0.7760 },{ region: 'Durango', dato: 0.7320 },{ region: 'Nacional', dato: 0.7500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
