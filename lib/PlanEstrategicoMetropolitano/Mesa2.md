@@ -1,4 +1,6 @@
 
+El 30 de Octubre de 2014 se llevó a cabo la segunda reunión para la construcción del Plan Estratégico Metropolitano dónde los ciudadanos construyeron la visión metropolitana al 2040 y los objetivos a corto, mediano y largo plazo, necesarios para atender la problemática prioritaria de la región y promover su competitividad así como un alto nivel en la calidad de vida. Se contó con la participación de 83 líderes de los cuatro municipios de la zona metropolitana.
+
 ### Fotografías
 
 <img class="img-responsive contenido-imagen" src="mesa-2/foto-buen-gobierno.jpg" alt="Fotografía de Buen Gobierno">

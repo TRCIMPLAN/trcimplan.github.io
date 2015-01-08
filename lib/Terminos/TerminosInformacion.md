@@ -12,11 +12,16 @@ El Usuario:
 * Puede adaptar y reordenar la información.
 * Puede extraer total o parcialmente la información.
 * Puede explotar comercialmente la información, utilizándola como insumo para generar otros productos o servicios.
-* Debe otorgar los créditos correspondientes al **IMPLAN Torreón** como autor, y cuando técnicamente sea posible, mencionar la fuente de extracción de la información de la siguiente manera: "Fuente: IMPLAN Torreón, nombre del producto de donde se extrae la información" y en su caso fecha de actualización, por ejemplo: "Fuente: IMPLAN Torreón, Viviendas con Computadora 2010 http://trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-computadora.html".
+* Debe otorgar los créditos correspondientes al **IMPLAN Torreón** como autor, y cuando técnicamente sea posible, mencionar la fuente de extracción de la información de la siguiente manera: "Fuente: IMPLAN Torreón, nombre del producto de donde se extrae la información" y en su caso fecha de actualización y vínculo a la página en el sitio web del IMPLAN Torreón.
+
+Por ejemplo:
+
+    Fuente: IMPLAN Torreón, Viviendas con Computadora 2010 http://trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-computadora.html
+
 * No debe utilizar la información con objeto de engañar o confundir a la población variando el sentido original de la misma y su veracidad.
 * No debe aparentar que el uso que haga de la información, representa una postura oficial del IMPLAN Torreón o que el mismo está avalado, integrado, patrocinado o apoyado por la fuente de origen.
 
-#### El IMPLAN Torreón
+El IMPLAN Torreón:
 
 * El IMPLAN Torreón no será responsable por la interpretación y aplicación que el usuario haga de los resultados obtenidos a través del uso de la información; por lo que cualquier decisión basada en su interpretación excluye al IMPLAN Torreón de responsabilidad alguna. Así mismo, el IMPLAN Torreón no será responsable de las diferencias obtenidas por precisiones, redondeos o truncamientos numéricos, así como por cambios técnicos o tecnológicos que puedan incidir en tales resultados.
 * La vigencia de estos Términos de Libre Uso es por tiempo indefinido siempre que no se contravengan las disposiciones anteriores.

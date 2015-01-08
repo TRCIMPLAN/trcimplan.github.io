@@ -1,4 +1,6 @@
 
+El 27 de Noviembre de 2014 se llevó a cabo la tercera reunión para la construcción del Plan Estratégico Metropolitano, la cual se dedicó a la definición y priorización de Acciones y Estrategias, dando como siguiente paso la integración de una cartera de proyectos. Se contó con una asistencia de 110 líderes de los cuatro municipios de la zona metropolitana.
+
 ### Fotografías
 
 <img class="img-responsive contenido-imagen" src="mesa-3/foto-buen-gobierno.jpg" alt="Fotografía de Buen Gobierno">
