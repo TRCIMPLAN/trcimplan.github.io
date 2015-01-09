@@ -218,7 +218,7 @@ a:active  { color:#FF3300; text-decoration:none; }
 }
 .mapa-inferior-redes-sociales {
     color:#646464;
-    font-size:3em;
+    font-size:2.5em;
 }
 .mapa-inferior-redes-sociales a         { color:#646464; padding:2px; }
 .mapa-inferior-redes-sociales a:link,
@@ -345,7 +345,7 @@ a.galeria-icono:active  { color:#FF3300; }
 }
 #redes .redes-sociales {
     color:#646464;
-    font-size:3em;
+    font-size:2.5em;
 }
 #redes a         { color:#646464; padding:2px; }
 #redes a:link,
