@@ -28,6 +28,7 @@ class EconomiaAperturaDeNegocios extends \Base\Publicacion {
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -48,7 +49,7 @@ class EconomiaAperturaDeNegocios extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2007</td>
-            <td>28</td>
+            <td>28.0000</td>
             <td>Doing Business</td>
             <td>En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2007 para Torreón son: 
 
@@ -58,7 +59,7 @@ class EconomiaAperturaDeNegocios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>11</td>
+            <td>11.0000</td>
             <td>Doing Business</td>
             <td>En el tema de apertura de negocio Doing Business califica otros dos aspectos. Los resultados de 2012 para Torreón son:
 
@@ -81,6 +82,10 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
         </tbody>
       </table>
       <p><b>Unidad:</b> Días.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Apertura de Negocios en Torreón</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-relacionados">
       <h3>Páginas relacionadas con Apertura de Negocios</h3>
@@ -268,6 +273,22 @@ Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
   </div>
 FINAL;
         $this->javascript   = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2007-12-31', dato: 28.0000 },{ fecha: '2012-12-31', dato: 11.0000 },{ fecha: '2013-10-31', dato: 9.5000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
