@@ -71,10 +71,10 @@ class Seguridad extends \Base\Publicacion {
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo de Vehículos</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/11/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">71</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">91</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">122</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/11/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">52</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/11/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/11/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/11/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">137</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

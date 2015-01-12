@@ -304,7 +304,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo de Vehículos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/10/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">122</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 30/11/2014, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">137</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
