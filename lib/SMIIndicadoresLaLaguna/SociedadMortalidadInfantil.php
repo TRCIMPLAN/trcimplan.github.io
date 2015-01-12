@@ -140,7 +140,7 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
           <tr>
             <td>Durango</td>
             <td>2012-12-31</td>
-            <td>12.8000</td>
+            <td>13.6000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -242,7 +242,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 12.2000 },{ region: 'Gómez Palacio', dato: 9.5000 },{ region: 'Lerdo', dato: 15.3800 },{ region: 'Matamoros', dato: 17.3900 },{ region: 'La Laguna', dato: 11.9000 },{ region: 'Coahuila', dato: 12.8000 },{ region: 'Durango', dato: 12.8000 },{ region: 'Nacional', dato: 13.1000 }],
+      data: [{ region: 'Torreón', dato: 12.2000 },{ region: 'Gómez Palacio', dato: 9.5000 },{ region: 'Lerdo', dato: 15.3800 },{ region: 'Matamoros', dato: 17.3900 },{ region: 'La Laguna', dato: 11.9000 },{ region: 'Coahuila', dato: 12.8000 },{ region: 'Durango', dato: 13.6000 },{ region: 'Nacional', dato: 13.1000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
