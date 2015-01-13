@@ -119,6 +119,12 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>13/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ciudad-espacio-publico.html">Ciudad y Espacio Público</a></td>
+            <td>Actualmente  las teorías urbanas afirman que el buen diseño de calles puede promover calidad de vida para todos.</td>
+          </tr>
+          <tr>
             <td>16/12/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/urbanismo-participativo.html">Urbanismo Participativo</a></td>

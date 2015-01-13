@@ -262,6 +262,12 @@ class SociedadMedicos extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en La Laguna</a></td>
+            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en La Laguna</a></td>
             <td>Población derechohabiente a los servicios de salud.</td>
           </tr>

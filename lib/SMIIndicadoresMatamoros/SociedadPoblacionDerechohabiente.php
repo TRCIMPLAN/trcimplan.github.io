@@ -164,6 +164,12 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Matamoros</a></td>
+            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-medicos.html">Médicos en Matamoros</a></td>
             <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
           </tr>

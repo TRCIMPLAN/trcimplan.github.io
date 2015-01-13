@@ -200,6 +200,12 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Torreón</a></td>
+            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-medicos.html">Médicos en Torreón</a></td>
             <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
           </tr>

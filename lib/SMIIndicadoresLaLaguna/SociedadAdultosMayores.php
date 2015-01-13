@@ -232,6 +232,12 @@ class SociedadAdultosMayores extends \Base\Publicacion {
             <td><a href="../indicadores-la-laguna/sociedad-discapacidad.html">Discapacidad en La Laguna</a></td>
             <td>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</td>
           </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en La Laguna</a></td>
+            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
         </tbody>
       </table>
     </div>

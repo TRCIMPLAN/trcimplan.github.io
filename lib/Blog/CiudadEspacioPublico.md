@@ -15,9 +15,9 @@ Para esto se  requerirá seguir un Plan (que por la magnitud que hoy ha alcanzad
 
 Termino con las palabras de Agustín Rovira Lara para describir la ciudad que muchos anhelamos:
 
-"Una ciudad próspera que crece hacia dentro en un proceso planificado de desarrollo armonioso, sostenible y controlado. Una ciudad viva, atractiva, cómoda, accesible, activa, innovadora y equilibrada que proyecta una imagen nítida de sus atractivos.
+__"Una ciudad próspera que crece hacia dentro en un proceso planificado de desarrollo armonioso, sostenible y controlado. Una ciudad viva, atractiva, cómoda, accesible, activa, innovadora y equilibrada que proyecta una imagen nítida de sus atractivos.__
 
-La ciudad crece, se transforma y también se mantiene como una forma de desarrollo, y no mas como aquello que se contrapone a él. Un desarrollo que se exprese de modo ecológicamente equilibrado y culturalmente diversificado."
+__La ciudad crece, se transforma y también se mantiene como una forma de desarrollo, y no mas como aquello que se contrapone a él. Un desarrollo que se exprese de modo ecológicamente equilibrado y culturalmente diversificado."__
 
 <img class="img-responsive" src="ciudad-espacio-publico/ciudad-noche.jpg" alt="Ciudad de Noche">
 
