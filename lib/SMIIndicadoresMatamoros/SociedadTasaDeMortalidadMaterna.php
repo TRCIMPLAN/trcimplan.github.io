@@ -1,30 +1,30 @@
 <?php
 /**
- * SociedadMortalidadMaterna.php
+ * SociedadTasaDeMortalidadMaterna.php
  *
  * IMPLAN Torreón
  */
 
 // Namespace
-namespace SMIIndicadoresTorreon;
+namespace SMIIndicadoresMatamoros;
 
 /**
- * Clase SociedadMortalidadMaterna
+ * Clase SociedadTasaDeMortalidadMaterna
  */
-class SociedadMortalidadMaterna extends \Base\Publicacion {
+class SociedadTasaDeMortalidadMaterna extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Mortalidad Materna en Torreón';
+        $this->nombre       = 'Tasa de Mortalidad Materna en Matamoros';
         $this->nombre_menu  = 'Indicadores';
-        $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedad-mortalidad-materna';
-        $this->descripcion  = 'Defunciones maternas por cada cien mil partos.';
-        $this->claves       = 'Torreón, Salud, Género';
+        $this->directorio   = 'indicadores-matamoros';
+        $this->archivo      = 'sociedad-tasa-de-mortalidad-materna';
+        $this->descripcion  = 'La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.';
+        $this->claves       = 'Matamoros, Salud, Género';
         $this->categorias   = array('Salud', 'Género');
-        $this->region_nivel = 101;
+        $this->region_nivel = 131;
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
@@ -34,7 +34,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Defunciones maternas por cada cien mil partos.</p>
+<p>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -49,7 +49,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2012</td>
-            <td>4.6000</td>
+            <td>6.2000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
@@ -61,9 +61,9 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Mortalidad Materna</h3>
+      <h3>Gráfica con los últimos datos de Tasa de Mortalidad Materna</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Mortalidad Materna</h3>
+      <h3>Últimos datos de Tasa de Mortalidad Materna</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -114,7 +114,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
       </table>
     </div>
     <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Mortalidad Materna</h3>
+      <h3>Páginas relacionadas con Tasa de Mortalidad Materna</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -140,85 +140,79 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Matamoros</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-camas-censables.html">Camas Censables en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-camas-censables.html">Camas Censables en Matamoros</a></td>
             <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Matamoros</a></td>
             <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
-            <td>Tasa de fecundidad.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Matamoros</a></td>
             <td>Porcentaje de hogares con jefatura femenina.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-madres-adolescentes.html">Madres Adolescentes en Torreón</a></td>
-            <td>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Matamoros</a></td>
             <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Matamoros</a></td>
             <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad.html">Mortalidad en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-mortalidad-materna.html">Mortalidad Materna en Matamoros</a></td>
+            <td>Defunciones maternas por cada cien mil partos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-mortalidad.html">Mortalidad en Matamoros</a></td>
             <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Matamoros</a></td>
             <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Matamoros</a></td>
             <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-medicos.html">Médicos en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-medicos.html">Médicos en Matamoros</a></td>
             <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Matamoros</a></td>
             <td>Población derechohabiente a los servicios de salud.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Torreón</a></td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Matamoros</a></td>
             <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
           </tr>
         </tbody>
@@ -248,6 +242,6 @@ $(document).ready(function(){
 FINAL;
     } // constructor
 
-} // Clase SociedadMortalidadMaterna
+} // Clase SociedadTasaDeMortalidadMaterna
 
 ?>

@@ -1,30 +1,30 @@
 <?php
 /**
- * SociedadMortalidadMaterna.php
+ * SociedadTasaDeMortalidadMaterna.php
  *
  * IMPLAN Torreón
  */
 
 // Namespace
-namespace SMIIndicadoresLerdo;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
- * Clase SociedadMortalidadMaterna
+ * Clase SociedadTasaDeMortalidadMaterna
  */
-class SociedadMortalidadMaterna extends \Base\Publicacion {
+class SociedadTasaDeMortalidadMaterna extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Mortalidad Materna en Lerdo';
+        $this->nombre       = 'Tasa de Mortalidad Materna en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
-        $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-mortalidad-materna';
-        $this->descripcion  = 'Defunciones maternas por cada cien mil partos.';
-        $this->claves       = 'Lerdo, Salud, Género';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'sociedad-tasa-de-mortalidad-materna';
+        $this->descripcion  = 'La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.';
+        $this->claves       = 'Gómez Palacio, Salud, Género';
         $this->categorias   = array('Salud', 'Género');
-        $this->region_nivel = 121;
+        $this->region_nivel = 111;
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
@@ -34,7 +34,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Defunciones maternas por cada cien mil partos.</p>
+<p>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -49,7 +49,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2012</td>
-            <td>8.3000</td>
+            <td>5.4000</td>
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
@@ -61,9 +61,9 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Mortalidad Materna</h3>
+      <h3>Gráfica con los últimos datos de Tasa de Mortalidad Materna</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Mortalidad Materna</h3>
+      <h3>Últimos datos de Tasa de Mortalidad Materna</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -114,7 +114,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
       </table>
     </div>
     <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Mortalidad Materna</h3>
+      <h3>Páginas relacionadas con Tasa de Mortalidad Materna</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -140,73 +140,79 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Gómez Palacio</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-camas-censables.html">Camas Censables en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-camas-censables.html">Camas Censables en Gómez Palacio</a></td>
             <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Gómez Palacio</a></td>
             <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Gómez Palacio</a></td>
             <td>Porcentaje de hogares con jefatura femenina.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Gómez Palacio</a></td>
             <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Gómez Palacio</a></td>
             <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad.html">Mortalidad en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-materna.html">Mortalidad Materna en Gómez Palacio</a></td>
+            <td>Defunciones maternas por cada cien mil partos.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad.html">Mortalidad en Gómez Palacio</a></td>
             <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Gómez Palacio</a></td>
             <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Gómez Palacio</a></td>
             <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-medicos.html">Médicos en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-medicos.html">Médicos en Gómez Palacio</a></td>
             <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Gómez Palacio</a></td>
             <td>Población derechohabiente a los servicios de salud.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Lerdo</a></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Gómez Palacio</a></td>
             <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
           </tr>
         </tbody>
@@ -236,6 +242,6 @@ $(document).ready(function(){
 FINAL;
     } // constructor
 
-} // Clase SociedadMortalidadMaterna
+} // Clase SociedadTasaDeMortalidadMaterna
 
 ?>

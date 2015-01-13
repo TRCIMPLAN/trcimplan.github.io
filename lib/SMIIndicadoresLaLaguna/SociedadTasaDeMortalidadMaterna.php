@@ -1,6 +1,6 @@
 <?php
 /**
- * SociedadMortalidadMaterna.php
+ * SociedadTasaDeMortalidadMaterna.php
  *
  * IMPLAN Torreón
  */
@@ -9,19 +9,19 @@
 namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase SociedadMortalidadMaterna
+ * Clase SociedadTasaDeMortalidadMaterna
  */
-class SociedadMortalidadMaterna extends \Base\Publicacion {
+class SociedadTasaDeMortalidadMaterna extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Mortalidad Materna en La Laguna';
+        $this->nombre       = 'Tasa de Mortalidad Materna en La Laguna';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-la-laguna';
-        $this->archivo      = 'sociedad-mortalidad-materna';
-        $this->descripcion  = 'Defunciones maternas por cada cien mil partos.';
+        $this->archivo      = 'sociedad-tasa-de-mortalidad-materna';
+        $this->descripcion  = 'La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.';
         $this->claves       = 'La Laguna, Salud, Género';
         $this->categorias   = array('Salud', 'Género');
         $this->region_nivel = 401;
@@ -34,7 +34,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Defunciones maternas por cada cien mil partos.</p>
+<p>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -61,9 +61,9 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Mortalidad Materna</h3>
+      <h3>Gráfica con los últimos datos de Tasa de Mortalidad Materna</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Mortalidad Materna</h3>
+      <h3>Últimos datos de Tasa de Mortalidad Materna</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -114,7 +114,7 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
       </table>
     </div>
     <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Mortalidad Materna</h3>
+      <h3>Páginas relacionadas con Tasa de Mortalidad Materna</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -160,6 +160,12 @@ class SociedadMortalidadMaterna extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html">Mortalidad Infantil en La Laguna</a></td>
             <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-materna.html">Mortalidad Materna en La Laguna</a></td>
+            <td>Defunciones maternas por cada cien mil partos.</td>
           </tr>
           <tr>
             <td>ND</td>
@@ -224,6 +230,6 @@ $(document).ready(function(){
 FINAL;
     } // constructor
 
-} // Clase SociedadMortalidadMaterna
+} // Clase SociedadTasaDeMortalidadMaterna
 
 ?>
