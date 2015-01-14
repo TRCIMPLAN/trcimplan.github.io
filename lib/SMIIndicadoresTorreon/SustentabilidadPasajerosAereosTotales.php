@@ -260,7 +260,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 432375 },{ region: 'Gómez Palacio', dato: X },{ region: 'Lerdo', dato: X },{ region: 'Matamoros', dato: X },{ region: 'La Laguna', dato: 508133 }],
+      data: [{ region: 'Torreón', dato: 432375 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 508133 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
