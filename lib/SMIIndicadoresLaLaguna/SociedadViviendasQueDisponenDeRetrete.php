@@ -135,6 +135,12 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>14/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/mas-areas-verdes-proteger-salud-laguneros.html">Más áreas verdes para proteger la salud de los laguneros</a></td>
+            <td>Manejar el tema de protección a la salud como punto estratégico en materia de ordenamiento territorial y urbano representa una oportunidad para el desarrollo de la región.</td>
+          </tr>
+          <tr>
             <td>15/10/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/importancia-suelo-ciudades.html">La importancia del suelo en las ciudades</a></td>
@@ -173,12 +179,6 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-materna.html">Mortalidad Materna en La Laguna</a></td>
-            <td>Defunciones maternas por cada cien mil partos.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-mortalidad.html">Mortalidad en La Laguna</a></td>
             <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
           </tr>
@@ -211,6 +211,12 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en La Laguna</a></td>
             <td>Población derechohabiente a los servicios de salud.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en La Laguna</a></td>
+            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
           </tr>
           <tr>
             <td>ND</td>

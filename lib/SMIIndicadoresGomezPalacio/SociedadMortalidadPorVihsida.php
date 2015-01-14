@@ -144,6 +144,12 @@ class SociedadMortalidadPorVihsida extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>14/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/mas-areas-verdes-proteger-salud-laguneros.html">Más áreas verdes para proteger la salud de los laguneros</a></td>
+            <td>Manejar el tema de protección a la salud como punto estratégico en materia de ordenamiento territorial y urbano representa una oportunidad para el desarrollo de la región.</td>
+          </tr>
+          <tr>
             <td>10/12/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/papel-organizaciones-civiles-aumento-competitividad.html">El papel de las Organizaciones Civiles en el aumento del bienestar y competitividad</a></td>
@@ -236,12 +242,6 @@ class SociedadMortalidadPorVihsida extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-materna.html">Mortalidad Materna en Gómez Palacio</a></td>
-            <td>Defunciones maternas por cada cien mil partos.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad.html">Mortalidad en Gómez Palacio</a></td>
             <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
           </tr>
@@ -284,6 +284,12 @@ class SociedadMortalidadPorVihsida extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Gómez Palacio</a></td>
+            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html">Rezago Alimentario en Gómez Palacio</a></td>
             <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
           </tr>
@@ -294,6 +300,12 @@ class SociedadMortalidadPorVihsida extends \Base\Publicacion {
             <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
 Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
 Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Gómez Palacio</a></td>
+            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
           </tr>
           <tr>
             <td>ND</td>

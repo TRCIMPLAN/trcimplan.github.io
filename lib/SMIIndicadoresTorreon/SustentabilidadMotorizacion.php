@@ -230,6 +230,12 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>14/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/mas-areas-verdes-proteger-salud-laguneros.html">Más áreas verdes para proteger la salud de los laguneros</a></td>
+            <td>Manejar el tema de protección a la salud como punto estratégico en materia de ordenamiento territorial y urbano representa una oportunidad para el desarrollo de la región.</td>
+          </tr>
+          <tr>
             <td>03/12/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/calle-completa-espacio-vital-todos.html">La Calle Completa: espacio vial para todos</a></td>
@@ -322,18 +328,6 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Torreón</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-accidentes-viales.html">Accidentes Viales en Torreón</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html">Consumo de Agua Facturado en Torreón</a></td>
             <td>Consumo anual de agua por persona expresado en metros cúbicos.</td>
           </tr>
@@ -388,12 +382,6 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Torreón</a></td>
-            <td>Porcentaje de accidentes fatales entre accidentes viales totales</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Torreón</a></td>
             <td></td>
           </tr>
@@ -414,6 +402,24 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Torreón</a></td>
             <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Torreón</a></td>
+            <td>Cantidad de accidentes viales fatales por año.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-accidentes-viales.html">Accidentes Viales en Torreón</a></td>
+            <td>Cantidad de accidentes viales por año.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Torreón</a></td>
+            <td>Porcentaje de accidentes fatales entre accidentes viales totales</td>
           </tr>
         </tbody>
       </table>

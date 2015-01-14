@@ -126,6 +126,12 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>14/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/mas-areas-verdes-proteger-salud-laguneros.html">Más áreas verdes para proteger la salud de los laguneros</a></td>
+            <td>Manejar el tema de protección a la salud como punto estratégico en materia de ordenamiento territorial y urbano representa una oportunidad para el desarrollo de la región.</td>
+          </tr>
+          <tr>
             <td>28/10/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/ciudades-reto-transformacion.html">Las ciudades y el reto de su transformación</a></td>

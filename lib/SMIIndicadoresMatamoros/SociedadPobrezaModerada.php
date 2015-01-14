@@ -203,6 +203,12 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Matamoros</a></td>
+            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-rezago-alimentario.html">Rezago Alimentario en Matamoros</a></td>
             <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
           </tr>
