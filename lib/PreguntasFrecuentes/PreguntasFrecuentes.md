@@ -1,5 +1,5 @@
 
-### ¿Cuál es la función un Instituto de Planeación Municipal?
+### ¿Cuál es la función de un Instituto de Planeación Municipal?
 
 Con la finalidad de que el desarrollo urbano no esté sujeto a la política en turno; las ciudades más importantes del mundo cuentan con entidades especializadas en áreas como la planeación e investigación, limitando el desperdicio de recursos públicos y manteniendo una visión a largo plazo.
 
