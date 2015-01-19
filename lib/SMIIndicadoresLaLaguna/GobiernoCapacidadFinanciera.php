@@ -147,7 +147,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
             <td>2013-12-31</td>
             <td>87.64 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td></td>
+            <td>El incremento en la capacidad financiera del municipio de Lerdo se debe a un considerable aumento en sus ingresos propios.</td>
           </tr>
           <tr>
             <td>Matamoros</td>

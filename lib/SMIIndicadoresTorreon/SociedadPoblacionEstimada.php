@@ -229,6 +229,12 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
             <td><a href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html">Promedio de Descendencia por Varón en Torreón</a></td>
             <td>Calcula el promedio estimado de hijos por cada varón.</td>
           </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-usuarios-de-internet.html">Usuarios de Internet en Torreón</a></td>
+            <td>Porcentaje de la población que usa internet.</td>
+          </tr>
         </tbody>
       </table>
     </div>

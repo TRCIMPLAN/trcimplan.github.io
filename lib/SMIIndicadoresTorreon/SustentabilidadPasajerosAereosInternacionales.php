@@ -103,10 +103,10 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>01/12/2014</td>
-            <td>48,731</td>
+            <td>31/12/2014</td>
+            <td>54,154</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td>Cifras hasta Noviembre de 2014</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -150,10 +150,10 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-01</td>
-            <td>48,731</td>
+            <td>2014-12-31</td>
+            <td>54,154</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td>Cifras hasta Noviembre de 2014</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -185,10 +185,10 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2013-12-31</td>
-            <td>1,833,223</td>
+            <td>2014-12-31</td>
+            <td>14,694,935</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
+            <td>Operaciones realizadas por los aeropuertos administrados por Operadora Mexicana de Aeropuertos (OMA): Acapulco, Ciudad Juárez. Culiacán, Chihuahua, Durango, Mazatlán, Monterrey, Reynosa, San Luis Potosí, Tampico, Zacatecas y Zihuatanejo.</td>
           </tr>
         </tbody>
       </table>
@@ -313,7 +313,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 },{ fecha: '2014-12-01', dato: 48731 }],
+      data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 },{ fecha: '2014-12-31', dato: 54154 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -329,7 +329,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 48731 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 55446 },{ region: 'Nacional', dato: 1833223 }],
+      data: [{ region: 'Torreón', dato: 54154 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 55446 },{ region: 'Nacional', dato: 14694935 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

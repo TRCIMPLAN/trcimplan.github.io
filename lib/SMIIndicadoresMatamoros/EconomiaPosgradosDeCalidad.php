@@ -204,6 +204,12 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
             <td><a href="../indicadores-matamoros/sociedad-universidades.html">Universidades en Matamoros</a></td>
             <td>Planteles de Instituciones de Educación Superior.</td>
           </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-usuarios-de-internet.html">Usuarios de Internet en Matamoros</a></td>
+            <td>Porcentaje de la población que usa internet.</td>
+          </tr>
         </tbody>
       </table>
     </div>

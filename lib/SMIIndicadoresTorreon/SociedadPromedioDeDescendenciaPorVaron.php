@@ -124,6 +124,12 @@ class SociedadPromedioDeDescendenciaPorVaron extends \Base\Publicacion {
             <td><a href="../indicadores-torreon/sociedad-poblacion-estimada.html">Población Estimada en Torreón</a></td>
             <td>Población estimada a mitad de año.</td>
           </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-usuarios-de-internet.html">Usuarios de Internet en Torreón</a></td>
+            <td>Porcentaje de la población que usa internet.</td>
+          </tr>
         </tbody>
       </table>
     </div>

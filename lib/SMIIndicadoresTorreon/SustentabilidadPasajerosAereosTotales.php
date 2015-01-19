@@ -55,10 +55,10 @@ class SustentabilidadPasajerosAereosTotales extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>01/12/2014</td>
-            <td>432,375</td>
+            <td>31/12/2014</td>
+            <td>523,783</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td>Cifra hasta Noviembre de 2014</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -88,10 +88,10 @@ class SustentabilidadPasajerosAereosTotales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-01</td>
-            <td>432,375</td>
+            <td>2014-12-31</td>
+            <td>523,783</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td>Cifra hasta Noviembre de 2014</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -116,8 +116,8 @@ class SustentabilidadPasajerosAereosTotales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-12-31</td>
-            <td>508,133</td>
+            <td>2014-12-31</td>
+            <td>523,783</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -244,7 +244,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2013-12-31', dato: 508133 },{ fecha: '2014-12-01', dato: 432375 }],
+      data: [{ fecha: '2013-12-31', dato: 508133 },{ fecha: '2014-12-31', dato: 523783 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -260,7 +260,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 432375 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 508133 }],
+      data: [{ region: 'Torreón', dato: 523783 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 523783 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

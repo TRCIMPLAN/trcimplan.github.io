@@ -217,6 +217,12 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
             <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
             <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
           </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-usuarios-de-internet.html">Usuarios de Internet en Matamoros</a></td>
+            <td>Porcentaje de la población que usa internet.</td>
+          </tr>
         </tbody>
       </table>
     </div>

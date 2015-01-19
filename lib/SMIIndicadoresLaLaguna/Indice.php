@@ -574,7 +574,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Pasajeros Aéreos Totales</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales.html" data-toggle="tooltip" title="Personas, 31/12/2013, Operadora Mexicana de Aeropuertos (OMA)">508,133</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales.html" data-toggle="tooltip" title="Personas, 31/12/2014, Operadora Mexicana de Aeropuertos (OMA)">523,783</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
