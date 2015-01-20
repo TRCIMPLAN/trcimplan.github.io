@@ -5,11 +5,46 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Mon, 19 Jan 2015 15:13:54 -0600</pubDate>
+    <pubDate>Tue, 20 Jan 2015 13:42:33 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Segunda generación del sitio web</title>
+      <link>http://trcimplan.gob.mx/blog/segunda-generacion-sitio-web.html</link>
+      <guid isPermaLink="false">blog-segunda-generacion-sitio-web</guid>
+      <pubDate>Tue, 20 Jan 2015 00:00:00 -0600</pubDate>
+      <author>Ing. Guillermo Valdés</author>
+      <description><![CDATA[<p><span class="contenido-imagen-previa"><img class="img-responsive" src="http://trcimplan.gob.mx/blog/segunda-generacion-sitio-web/imagen.jpg"></span></p>
+
+<p>A partir de enero de 2015 se puso en línea el nuevo sitio web del IMPLAN Torreón. No sólo se trata de una nueva imagen, sino un gran conjunto de innovaciones que extienden las capacidades y la organización de mucha información de utilidad para todos.</p>
+
+<div style="clear:left;"></div>
+
+<h3>Tutorial del Sistema Metropolitano de Indicadores</h3>
+
+<p>Para conocer mejor las novedades del sitio, le invito a tomar el primer video tutorial del <a href="http://trcimplan.gob.mx/blog/../smi/introduccion.html">Sistema Metropolitano de Indicadores</a>:</p>
+
+<div class="videowrapper well"><iframe width="560" height="315" src="http://trcimplan.gob.mx/blog//www.youtube.com/embed/dpNGC610FXE?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
+<h3>Integración de los servicios en una sola interfaz</h3>
+
+<p>Anteriormente se tenían tres sitios separados, uno con la información institucional, otro con el Sistema Metropolitano de Indicadores y el del <a href="http://trcimplan.gob.mx/blog/../sig/introduccion.html">Sistema de Información Geográfica</a>. Hoy se tienen todos estos los servicios en la misma interfaz; con la bondad de que se establecen relaciones entre los diversos contenidos.</p>
+
+<p>Para mantener organizadas las cientos de páginas web se usa una interfaz de estilo "aplicación" con un menú ramificable en el lado derecho. Además se han aprovechado los servicios gratuitos de <a href="https://google.com.mx">Google</a> para tener un motor de búsqueda; notará que encuentra en la parte superior derecha.</p>
+
+<h3>Usabilidad en múltiples dispositivos</h3>
+
+<p>En esta segunda generación se cumple con el objetivo de que este sitio web sea funcional en computadoras de escritorio, <em>tablets</em> y teléfonos inteligentes. Buscamos con ésto brindar una gran base de datos que resuelva las necesidades de información de los responsables de áreas productivas, comerciales y de servicios, de los servidores públicos, estudiantes universitarios y ciudadanos en general; que trabaje con la mayoría de los dispositivos conectado a Internet por vía celular o convencional.</p>
+
+<h3>Basado en estándares abiertos</h3>
+
+<p>Para la construcción de este sitio se usa Software Libre y tecnologías abiertas. Además se mantiene una copia pública en un repositorio gratuito en <a href="https://github.com/TRCIMPLAN">GitHub</a>.</p>
+
+<p>Toda esta sofisticada estructura no serviría de mucho sin contenidos de calidad. Los frutos del trabajo de investigación de economistas, arquitectos, sociólogos e ingenieros se encuentran en estas páginas. Agradecemos el honor de crear un sitio de utilidad para Usted.</p>
+]]></description>
+    </item>
     <item>
       <title>Más áreas verdes para proteger la salud de los laguneros</title>
       <link>http://trcimplan.gob.mx/blog/mas-areas-verdes-proteger-salud-laguneros.html</link>
@@ -527,51 +562,6 @@ En University of Florida. Obtenido el 10 de Diciembre de 2014 de <a href="http:/
   
   <p>Bill Strickland</p>
 </blockquote>
-]]></description>
-    </item>
-    <item>
-      <title>La Prevención del Delito como elemento fundamental para la Seguridad</title>
-      <link>http://trcimplan.gob.mx/blog/prevencion-delito-seguridad.html</link>
-      <guid isPermaLink="false">blog-prevencion-delito-seguridad</guid>
-      <pubDate>Tue, 18 Nov 2014 00:00:00 -0600</pubDate>
-      <author>Lic. Alfredo Viesca Domínguez</author>
-      <description><![CDATA[<span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/prevencion-delito-seguridad/imagen.jpg"></span>
-
-<p>La prevención es la medida o disposición que se toma de manera anticipada para evitar que suceda una cosa considerada negativa.</p>
-
-<p>Del latín <i>praeventio</i>, prevención es preparar con antelación lo necesario para un fin, anticiparse a una dificultad, prever un daño, avisar a alguien de algo.</p>
-
-<p><b>La prevención es pues, la disposición que se hace de forma anticipada para minimizar un riesgo.</b> El objetivo de prevenir es lograr que un perjuicio eventual no se concrete.</p>
-
-<p><b>En este sentido la prevención del delito debe ser el elemento central en la búsqueda de la seguridad en la Zona Metropolitana de la Laguna (ZML).</b></p>
-
-<p>La tendencia nacional y local en políticas de seguridad es que las políticas se han centrado en un control de la delincuencia, persiguiéndola y castigando a los responsables.</p>
-
-<p>Se ha implementado un control reactivo estableciendo por ejemplo  a nivel nacional  un sistema de seguridad, aunado a esto se ha dado un incremento en los recursos económicos para fortalecer los cuerpos de seguridad pública y la persecución de los delitos.</p>
-
-<p>Y mientras en nuestro país el control es lo principal, en otros países se ha privilegiado la prevención obteniendo resultados muy positivos.</p>
-
-<p>En el caso de México, (que se refleja en la ZML) se han asignado una cantidad considerable de recursos económicos desde el año 2000 y hasta el 2013 para los estados y el Distrito Federal de acuerdo a los datos que proporciona el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.</p>
-
-<p>En el 2000 se asignaron 5,000 millones de pesos y para el 2013 la cantidad había aumentado a 7,631 millones.</p>
-
-<p>En este sentido lo que <b>las evidencias nos dicen es que aun y cuando se han modernizado los equipos y crecido el presupuesto a las instituciones de seguridad pública la delincuencia y la violencia que se relacionan al crimen organizado y al narcotráfico no han disminuido.</b> Se atacan los efectos no las causas.</p>
-
-<p>Es por esto que la prevención cobra un sentido trascendental contra la violencia y la delincuencia, de hecho, es tan importante que el Gobierno Federal la ha establecido como una de sus estrategias principales.</p>
-
-<p>¿Cuál es el reto?, atacar el problema de prevención desde la raíz, identificar los actores y los factores de riesgo que están generando un ambiente social, familiar, escolar que hace que los pequeños de 10, 11 o 12 años en los siguientes dos años decidan ser delincuentes.</p>
-
-<p>Prevención es atacar estos elementos de riesgo, neutralizarlos para que esos niños no decidan más tarde ser parte de un grupo criminal, para esto es necesario la integración de la sociedad en las acciones de prevención. <b>No hay país que haya logrado bajar los índices de delincuencia sin una estrategia de prevención pero también sin apoyarse en la sociedad civil.</b></p>
-
-<p>Para el caso de la ZML, <b>es necesario que las autoridades trabajen en conjunto con las organizaciones de la sociedad civil que se dedican a la prevención,</b> estas organizaciones cuentan con información y experiencias valiosas que es necesario reconocer y valorar.</p>
-
-<p><b>Las experiencias exitosas de otros países hacen pensar en la posibilidad de que en la ZML, la situación de inseguridad y violencia puedan disminuir significativamente.</b> Desde los años 80´s y 90´s en ciudades como Filadelfia. Milwakee, Oklahoma y San Antonio en los EE. UU. se implementaron programas para evitar la deserción escolar considerada como un factor de riesgo.</p>
-
-<p>De 1990 a 1994 en varias ciudades de Noruega y Francia se implementaban acciones para bajar la violencia escolar, en América Latina, en diferentes ciudades de Costa Rica, Chile, Colombia y El Salvador se trabajó con programas para reducir situaciones de riesgo con acciones de mejora urbana, y todo esto con la participación de la ciudadanía.</p>
-
-<p><b>En la ZML existen diferentes factores de riesgo, tanto situacionales como individuales y familiares que aumentan la probabilidad de que los niños y adolescentes sean orillados a engrosar las filas del crimen organizado y el narcotráfico.</b></p>
-
-<p>La alternativa a la inseguridad es la prevención, donde las autoridades, las organizaciones ciudadanas y la sociedad civil tengan un rol específico para que esta prevención opere.</p>
 ]]></description>
     </item>
   </channel>
