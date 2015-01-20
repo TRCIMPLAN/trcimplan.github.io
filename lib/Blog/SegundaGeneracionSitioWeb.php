@@ -37,7 +37,7 @@ class SegundaGeneracionSitioWeb extends \Base\Publicacion {
         $this->fecha            = '2015-01-20';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'segunda-generacion-sitio-web';
-        $this->imagen_previa    = 'segunda-generacion-sitio-web/imagen-previa.png';
+        $this->imagen_previa    = 'segunda-generacion-sitio-web/imagen-previa.jpg';
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="segunda-generacion-sitio-web/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
