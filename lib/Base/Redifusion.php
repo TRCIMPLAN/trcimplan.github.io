@@ -77,7 +77,8 @@ class Redifusion extends \Configuracion\RedifusionConfig {
           'embed'  => 'src');
         // Bucle para rutas que empiezen con /
         foreach ($tags_atributos as $tag => $atributo) {
-            $patron = "/<$tag([^>]*)$atributo=[\"']?(?!https?:|ftp:|javascript:)\/([^\"'\s>]+)[\"']?/is";
+            // En el patron destaca que debe omitir lo que tenga http:, https:, ftp:, javascript: y //
+            $patron = "/<$tag([^>]*)$atributo=[\"']?(?!https?:|ftp:|javascript:|\/\/)\/([^\"'\s>]+)[\"']?/is";
             if ($dir == '') {
                 $reemplazo = "<$tag\${1}$atributo=\"{$this->sitio_url}/\${2}\"";
             } else {
@@ -87,7 +88,8 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         }
         // Bucle para rutas que NO empiezen con /
         foreach ($tags_atributos as $tag => $atributo) {
-            $patron = "/<$tag([^>]*)$atributo=[\"']?(?!https?:|ftp:|javascript:)([^\"'\s>]+)[\"']?/is";
+            // Lo único distinto respecto al anterior es una diagonal antes de la ruta
+            $patron = "/<$tag([^>]*)$atributo=[\"']?(?!https?:|ftp:|javascript:|\/\/)([^\"'\s>]+)[\"']?/is";
             if ($dir == '') {
                 $reemplazo = "<$tag\${1}$atributo=\"{$this->sitio_url}/\${2}\"";
             } else {
