@@ -31,12 +31,6 @@ class NavegacionConfig {
     protected $logotipo     = 'imagenes/implan-barra-logo-chico-gris.png';
     protected $opciones     = array(
         'Análisis Publicados' => 'blog/index.html',
-        'Plan Estratégico Metropolitano' => array(
-            'Plan Estratégico Metropolitano > Conoce el Plan'              => 'plan-estrategico-metropolitano/introduccion.html',
-            'Plan Estratégico Metropolitano > M1 Diagnóstico y Pronóstico' => 'plan-estrategico-metropolitano/mesa-1.html',
-            'Plan Estratégico Metropolitano > M2 Visión y Objetivos'       => 'plan-estrategico-metropolitano/mesa-2.html',
-            'Plan Estratégico Metropolitano > M3 Estrategias y Proyectos'  => 'plan-estrategico-metropolitano/mesa-3.html',
-            'Plan Estratégico Metropolitano > Participación Ciudadana'     => 'http://trcimplan.mx/plan'),
         'Indicadores' => array(
             'Indicadores > Introducción'              => 'smi/introduccion.html',
             'Indicadores > Indicadores por Categoría' => 'indicadores-categorias/index.html',
@@ -48,6 +42,12 @@ class NavegacionConfig {
             'Información Geográfica > Alumbrado Público'       => 'sig/alumbrado-publico.html',
             'Información Geográfica > Zonificación Primaria'   => 'sig/zonificacion-primaria.html',
             'Información Geográfica > Zonificación Secundaria' => 'sig/zonificacion-secundaria.html'),
+        'Plan Estratégico Metropolitano' => array(
+            'Plan Estratégico Metropolitano > Conoce el Plan'              => 'plan-estrategico-metropolitano/introduccion.html',
+            'Plan Estratégico Metropolitano > M1 Diagnóstico y Pronóstico' => 'plan-estrategico-metropolitano/mesa-1.html',
+            'Plan Estratégico Metropolitano > M2 Visión y Objetivos'       => 'plan-estrategico-metropolitano/mesa-2.html',
+            'Plan Estratégico Metropolitano > M3 Estrategias y Proyectos'  => 'plan-estrategico-metropolitano/mesa-3.html',
+            'Plan Estratégico Metropolitano > Participación Ciudadana'     => 'http://trcimplan.mx/plan'),
         'Banco de Proyectos' => array(
             'Banco de Proyectos > Introducción' => 'proyectos/introduccion.html',
             'Banco de Proyectos > Plata Laguna' => 'proyectos/plata-laguna.html'),

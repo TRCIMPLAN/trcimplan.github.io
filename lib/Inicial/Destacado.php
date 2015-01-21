@@ -28,7 +28,7 @@ namespace Inicial;
 class Destacado {
 
     /**
-     * Twitter Bootstrap Thumbnail
+     * Twitter Bootstrap Thumbnail    <a id="emailUs" href="#" title="Email Us"><span>Email Us</span></a>
      *
      * @param  string Ruta relativa al archivo con la imagen
      * @param  string Título
@@ -43,7 +43,13 @@ class Destacado {
         $vinculo = current($botones);
         // Acumular
         $a[] = '        <div class="thumbnail">';
-        $a[] = "          <a href=\"$vinculo\"><img class=\"img-thumbnail imagen-previa\" src=\"$imagen\" alt=\"$titulo\"></a>";
+        // Si imagen es un archivo .gif .jpg o .png se pone como imagen común
+        if (preg_match('/.+\.(gif|jpg|png)$/', $imagen)) {
+            $a[] = "          <a href=\"$vinculo\"><img class=\"img-thumbnail imagen-previa\" src=\"$imagen\" alt=\"$titulo\"></a>";
+        } else {
+            // De lo contrario se considera un ID que debe estar definido en el archivo CSS para cambiar al pasar el ratón por encima
+            $a[] = "          <a id=\"$imagen\" href=\"$vinculo\" title=\"$titulo\"></a>"; // <span>Test</span>
+        }
         $a[] = '          <div class="caption">';
         $a[] = "            <h3><a href=\"$vinculo\">$titulo</a></h3>";
         $a[] = "            $descripcion";
@@ -65,17 +71,20 @@ class Destacado {
     /**
      * Plan Estratégico Metropolitano
      *
+     * '<i class="fa fa-external-link"></i> Participación Ciudadana' => 'http://trcimplan.mx/plan'
+     *
      * @return string Código HTML
      */
     protected function pem() {
         return $this->twitter_bootstrap_thumbnail(
-            'plan-estrategico-metropolitano/introduccion/imagen-previa-ancha.jpg',
+            'servicio-pem',
             'Plan Estratégico Metropolitano',
             '<p>Súmate al esfuerzo de planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad de La Laguna.</p>',
             array(
-                '<i class="fa fa-sun-o"></i> Conoce el Plan'                  => 'plan-estrategico-metropolitano/introduccion.html',
-                '<i class="fa fa-calendar"></i> Diagnóstico-Pronóstico'       => 'plan-estrategico-metropolitano/mesa-1.html',
-                '<i class="fa fa-external-link"></i> Participación Ciudadana' => 'http://trcimplan.mx/plan'));
+                '<i class="fa fa-file-text-o"></i> Conoce el Plan'        => 'plan-estrategico-metropolitano/introduccion.html',
+                '<i class="fa fa-calendar"></i> Diagnóstico y Pronóstico' => 'plan-estrategico-metropolitano/mesa-1.html',
+                '<i class="fa fa-calendar"></i> Visión y Objetivos'       => 'plan-estrategico-metropolitano/mesa-2.html',
+                '<i class="fa fa-calendar"></i> Estrategias y Proyectos'  => 'plan-estrategico-metropolitano/mesa-3.html'));
     } // pem
 
     /**
@@ -85,11 +94,11 @@ class Destacado {
      */
     protected function sig() {
         return $this->twitter_bootstrap_thumbnail(
-            'sig/introduccion/imagen-previa-ancha.jpg',
+            'servicio-sig',
             'Sistema de Información Geográfica',
             'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.',
             array(
-                '<i class="fa fa-map-marker"></i> Abrir el SIG'            => 'sig/abrir-sig.html',
+                '<i class="fa fa-external-link"></i> Abrir el SIG'         => 'sig/abrir-sig.html',
                 '<i class="fa fa-map-marker"></i> Alumbrado Público'       => 'sig/alumbrado-publico.html',
                 '<i class="fa fa-map-marker"></i> Zonificación Primaria'   => 'sig/zonificacion-primaria.html',
                 '<i class="fa fa-map-marker"></i> Zonificación Secundaria' => 'sig/zonificacion-secundaria.html'));
@@ -102,12 +111,12 @@ class Destacado {
      */
     protected function smi() {
         return $this->twitter_bootstrap_thumbnail(
-            'smi/introduccion/imagen-previa-ancha.jpg',
+            'servicio-smi',
             'Sistema Metropolitano de Indicadores',
             '<p>Mantenemos al día indicadores en 5 grandes temas: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad para los municipios de la Laguna.</p>',
             array(
-                '<i class="fa fa-table"></i> Por Región'             => 'smi/por-region.html',
                 '<i class="fa fa-th-list"></i> Por Categoría'        => 'indicadores-categorias/index.html',
+                '<i class="fa fa-table"></i> Por Región'             => 'smi/por-region.html',
                 '<i class="fa fa-map-marker"></i> Georreferenciados' => 'smi/georreferenciados.html'));
     } // smi
 
@@ -125,7 +134,7 @@ class Destacado {
         $a[] = '    <div class="row">';
         // Primer columna
         $a[] = '      <div class="col-sm-6 col-md-4">';
-        $a[] = $this->pem();
+        $a[] = $this->smi();
         $a[] = '      </div>';
         // Segunda columna
         $a[] = '      <div class="col-sm-6 col-md-4">';
@@ -133,7 +142,7 @@ class Destacado {
         $a[] = '      </div>';
         // Tercer columna
         $a[] = '      <div class="col-sm-6 col-md-4">';
-        $a[] = $this->smi();
+        $a[] = $this->pem();
         $a[] = '      </div>';
         // Terminar las columnas
         $a[] = '    </div>'; // row

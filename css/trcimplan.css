@@ -321,6 +321,35 @@ a.galeria-icono:active  { color:#FF3300; }
     list-style-type:none;
     text-align:left;
 }
+/* Página Inicial imágenes de tres servicios que cambian al pasar el ratón */
+#servicio-pem {
+    display:block;
+    width:200px;
+    height:200px;
+    background:url("../imagenes/servicio-pem.png") no-repeat 0 0;
+}
+#servicio-pem:hover {
+    background-position:-200px 0;
+}
+#servicio-sig {
+    display:block;
+    width:200px;
+    height:200px;
+    background:url("../imagenes/servicio-sig.png") no-repeat 0 0;
+}
+#servicio-sig:hover {
+    background-position:-200px 0;
+}
+#servicio-smi {
+    display:block;
+    width:200px;
+    height:200px;
+    background:url("../imagenes/servicio-smi.png") no-repeat 0 0;
+}
+#servicio-smi:hover {
+    background-position:-200px 0;
+}
+/* Página Inicial novedades */
 #novedades {
     background-color:#FFF;
 }
@@ -332,6 +361,7 @@ a.galeria-icono:active  { color:#FF3300; }
     background-color:#494043;
     padding:8px;
 }
+/* Página Inicial mapa del sitio */
 #mapa {
     background-color:#D1D7DC;
     padding:8px;
@@ -357,6 +387,7 @@ a.galeria-icono:active  { color:#FF3300; }
 #mapa a:visited { color:#646464; }
 #mapa a:hover,
 #mapa a:active  { color:#FF3300; }
+/* Página Inicial redes sociales */
 #redes {
     background-color:#ECECEC;
     padding:8px;
@@ -400,6 +431,33 @@ a.galeria-icono:active  { color:#FF3300; }
     #carrusel .carousel-inner > .item > img {
         height:260px;
     }
+    #servicio-pem {
+        display:block;
+        width:128px;
+        height:128px;
+        background:url("../imagenes/servicio-pem-128.png") no-repeat 0 0;
+    }
+    #servicio-pem:hover {
+        background-position:-128px 0;
+    }
+    #servicio-sig {
+        display:block;
+        width:128px;
+        height:128px;
+        background:url("../imagenes/servicio-sig-128.png") no-repeat 0 0;
+    }
+    #servicio-sig:hover {
+        background-position:-128px 0;
+    }
+    #servicio-smi {
+        display:block;
+        width:128px;
+        height:128px;
+        background:url("../imagenes/servicio-smi-128.png") no-repeat 0 0;
+    }
+    #servicio-smi:hover {
+        background-position:-128px 0;
+    }
     .inferior-logo {
         margin-top:4px;
         margin-bottom:4px;
@@ -414,7 +472,7 @@ a.galeria-icono:active  { color:#FF3300; }
         padding:16px;
     }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 580px) {
     h1, .h1 { font-size:26px; }
     h2, .h2 { font-size:22px; }
     h3, .h3 { font-size:18px; }
@@ -423,6 +481,33 @@ a.galeria-icono:active  { color:#FF3300; }
     h6, .h6 { font-size:9px; }
     #carrusel .carousel-inner > .item > img {
         height:190px;
+    }
+    #servicio-pem {
+        display:block;
+        width:64px;
+        height:64px;
+        background:url("../imagenes/servicio-pem-64.png") no-repeat 0 0;
+    }
+    #servicio-pem:hover {
+        background-position:-64px 0;
+    }
+    #servicio-sig {
+        display:block;
+        width:64px;
+        height:64px;
+        background:url("../imagenes/servicio-sig-64.png") no-repeat 0 0;
+    }
+    #servicio-sig:hover {
+        background-position:-64px 0;
+    }
+    #servicio-smi {
+        display:block;
+        width:64px;
+        height:64px;
+        background:url("../imagenes/servicio-smi-64.png") no-repeat 0 0;
+    }
+    #servicio-smi:hover {
+        background-position:-64px 0;
     }
     .inferior-logo {
         width:400px;
@@ -439,7 +524,7 @@ a.galeria-icono:active  { color:#FF3300; }
         padding:8px;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 240px) {
     h1, .h1 { font-size:22px; }
     h2, .h2 { font-size:18px; }
     h3, .h3 { font-size:16px; }
@@ -448,6 +533,33 @@ a.galeria-icono:active  { color:#FF3300; }
     h6, .h6 { font-size:9px; }
     #carrusel .carousel-inner > .item > img {
         height:150px;
+    }
+    #servicio-pem {
+        display:block;
+        width:48px;
+        height:48px;
+        background:url("../imagenes/servicio-pem-48.png") no-repeat 0 0;
+    }
+    #servicio-pem:hover {
+        background-position:-48px 0;
+    }
+    #servicio-sig {
+        display:block;
+        width:48px;
+        height:48px;
+        background:url("../imagenes/servicio-sig-48.png") no-repeat 0 0;
+    }
+    #servicio-sig:hover {
+        background-position:-48px 0;
+    }
+    #servicio-smi {
+        display:block;
+        width:48px;
+        height:48px;
+        background:url("../imagenes/servicio-smi-48.png") no-repeat 0 0;
+    }
+    #servicio-smi:hover {
+        background-position:-48px 0;
     }
     .inferior-logo {
         width:200px;
