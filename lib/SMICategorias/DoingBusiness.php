@@ -49,6 +49,33 @@ class DoingBusiness extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
   </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Ejecución de Contratos</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-ejecucion-de-contratos.html" data-toggle="tooltip" title="Días, 31/10/2013, Doing Business">270</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Permiso de Construcción</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-permiso-de-construccion.html" data-toggle="tooltip" title="Días, 31/10/2013, Doing Business">107</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Registro de Propiedades</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-registro-de-propiedades.html" data-toggle="tooltip" title="Días, 31/10/2013, Doing Business">28</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
 </tbody>
 </table>
 <p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>

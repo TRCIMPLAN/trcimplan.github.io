@@ -22,8 +22,8 @@ class EconomiaPermisoDeConstruccion extends \Base\Publicacion {
         $this->directorio   = 'indicadores-torreon';
         $this->archivo      = 'economia-permiso-de-construccion';
         $this->descripcion  = 'Número de días necesarios para conseguir un permiso de construcción.';
-        $this->claves       = 'Torreón, Empresas';
-        $this->categorias   = array('Empresas');
+        $this->claves       = 'Torreón, Empresas, Doing Business';
+        $this->categorias   = array('Empresas', 'Doing Business');
         $this->region_nivel = 101;
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
@@ -152,6 +152,12 @@ Costo (% de ingreso per cápita) = 40,6</td>
             <td>Análisis</td>
             <td><a href="../blog/mercado-factores-eficientes.html">Mercado de Factores Eficientes</a></td>
             <td>Análisis del mercado, las huelgas, el salario promedio mensual, productividad y demandas laborales en la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>12/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/gobiernos-eficaces-eficientes.html">Gobiernos eficaces y eficientes</a></td>
+            <td>La eficiencia de los gobiernos es el subíndice peor evaluado para la metrópoli ubicándonos en el lugar 63 de 77.</td>
           </tr>
           <tr>
             <td>29/05/2014</td>
