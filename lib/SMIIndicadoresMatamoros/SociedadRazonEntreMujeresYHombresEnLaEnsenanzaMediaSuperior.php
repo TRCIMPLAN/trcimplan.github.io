@@ -79,7 +79,7 @@ Consulta la <a href="http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5">B
           <tr>
             <td>Torreón</td>
             <td>2010-12-31</td>
-            <td>1.0140</td>
+            <td>1.0020</td>
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
@@ -115,6 +115,13 @@ Consulta la <a href="http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5">B
             <td>Durango</td>
             <td>2010-12-31</td>
             <td>1.0230</td>
+            <td>INEGI. Censos de Población y Vivienda</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2010-12-31</td>
+            <td>1.0140</td>
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
@@ -237,7 +244,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 1.0140 },{ region: 'Gómez Palacio', dato: 1.0210 },{ region: 'Lerdo', dato: 1.0300 },{ region: 'Matamoros', dato: 1.0780 },{ region: 'Coahuila', dato: 0.9940 },{ region: 'Durango', dato: 1.0230 }],
+      data: [{ region: 'Torreón', dato: 1.0020 },{ region: 'Gómez Palacio', dato: 1.0210 },{ region: 'Lerdo', dato: 1.0300 },{ region: 'Matamoros', dato: 1.0780 },{ region: 'Coahuila', dato: 0.9940 },{ region: 'Durango', dato: 1.0230 },{ region: 'Nacional', dato: 1.0140 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
