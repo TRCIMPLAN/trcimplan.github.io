@@ -36,7 +36,6 @@ class Redes {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '  <!-- REDES -->';
         $a[] = '  <section id="redes">';
         $a[] = '    <div class="row">';
         $a[] = '      <div class="col-md-8">';

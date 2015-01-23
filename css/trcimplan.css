@@ -297,29 +297,22 @@ a.galeria-icono:active  { color:#FF3300; }
 #encabezado .banner {
     width:100%;
 }
+
 #destacado {
     background-color:#D1D7DC;
     padding:8px;
 }
-#destacado .thumbnail {
-    background-color:transparent;
-    border:none;
+.destacado-columna {
 }
-#destacado .caption {
+.destacado-servicio {
+}
+.destacado-imagen {
+}
+.destacado-texto {
     font-size:0.8em;
 }
-#destacado .caption h3 {
-    margin-top:0;
-}
-#destacado .caption ul {
-    margin:0;
-    padding:2px 0 0 0;
-}
-#destacado .caption li {
-    margin-bottom:2px;
-    padding:0 2px 0 0;
-    list-style-type:none;
-    text-align:left;
+.destacado-boton {
+    background-color:#F0F0F0;
 }
 /* Página Inicial imágenes de tres servicios que cambian al pasar el ratón */
 #servicio-pem {
@@ -361,14 +354,17 @@ a.galeria-icono:active  { color:#FF3300; }
     background-color:#494043;
     padding:8px;
 }
+
 /* Página Inicial mapa del sitio */
-#mapa {
+#mapa,
+#mapa-chico {
     background-color:#D1D7DC;
     padding:8px;
     font-size:12px;
     color:#444;
 }
-#mapa h4.mapa-encabezado {
+#mapa h4.mapa-encabezado,
+#mapa-chico h4.mapa-encabezado {
     margin-bottom:0;
 }
 #mapa ul {
@@ -382,11 +378,20 @@ a.galeria-icono:active  { color:#FF3300; }
     list-style-type:none;
     text-align:left;
 }
-#mapa a         { color:#646464; display:block; padding:2px; font-weight:bold; }
+#mapa a               { color:#646464; padding:2px; font-weight:bold; display:block; }
+#mapa-chico a         { color:#646464; padding:2px; font-weight:bold; }
 #mapa a:link,
-#mapa a:visited { color:#646464; }
+#mapa a:visited,
+#mapa-chico a:link,
+#mapa-chico a:visited { color:#646464; }
 #mapa a:hover,
-#mapa a:active  { color:#FF3300; }
+#mapa a:active,
+#mapa-chico a:hover,
+#mapa-chico a:active  { color:#FF3300; }
+#mapa-chico {
+    display:none;
+}
+
 /* Página Inicial redes sociales */
 #redes {
     background-color:#ECECEC;
@@ -427,9 +432,19 @@ a.galeria-icono:active  { color:#FF3300; }
         height:352px;
     }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 990px) {
     #carrusel .carousel-inner > .item > img {
         height:260px;
+    }
+    .destacado-servicio {
+        min-height: 140px;
+    }
+    .destacado-imagen {
+        float:left;
+        margin-right:8px;
+    }
+    .destacado-boton {
+        font-size:10pt;
     }
     #servicio-pem {
         display:block;
@@ -458,6 +473,16 @@ a.galeria-icono:active  { color:#FF3300; }
     #servicio-smi:hover {
         background-position:-128px 0;
     }
+    #novedades .red-social-twitter {
+        display:none;
+    }
+    #mapa {
+        display:none;
+    }
+    #mapa-chico {
+        display:block;
+        font-size:10pt;
+    }
     .inferior-logo {
         margin-top:4px;
         margin-bottom:4px;
@@ -481,6 +506,16 @@ a.galeria-icono:active  { color:#FF3300; }
     h6, .h6 { font-size:9px; }
     #carrusel .carousel-inner > .item > img {
         height:190px;
+    }
+    .destacado-servicio {
+        min-height: 140px;
+    }
+    .destacado-imagen {
+        float:left;
+        margin-right:8px;
+    }
+    .destacado-boton {
+        font-size:10pt;
     }
     #servicio-pem {
         display:block;
@@ -509,6 +544,16 @@ a.galeria-icono:active  { color:#FF3300; }
     #servicio-smi:hover {
         background-position:-64px 0;
     }
+    #novedades .red-social-twitter {
+        display:none;
+    }
+    #mapa {
+        display:none;
+    }
+    #mapa-chico {
+        display:block;
+        font-size:9pt;
+    }
     .inferior-logo {
         width:400px;
         margin-top:4px;
@@ -524,7 +569,7 @@ a.galeria-icono:active  { color:#FF3300; }
         padding:8px;
     }
 }
-@media only screen and (max-width: 240px) {
+@media only screen and (max-width: 300px) {
     h1, .h1 { font-size:22px; }
     h2, .h2 { font-size:18px; }
     h3, .h3 { font-size:16px; }
@@ -533,6 +578,16 @@ a.galeria-icono:active  { color:#FF3300; }
     h6, .h6 { font-size:9px; }
     #carrusel .carousel-inner > .item > img {
         height:150px;
+    }
+    .destacado-servicio {
+        min-height: 140px;
+    }
+    .destacado-imagen {
+        float:left;
+        margin-right:8px;
+    }
+    .destacado-boton {
+        font-size:10pt;
     }
     #servicio-pem {
         display:block;
@@ -560,6 +615,16 @@ a.galeria-icono:active  { color:#FF3300; }
     }
     #servicio-smi:hover {
         background-position:-48px 0;
+    }
+    #novedades .red-social-twitter {
+        display:none;
+    }
+    #mapa {
+        display:none;
+    }
+    #mapa-chico {
+        display:block;
+        font-size:8pt;
     }
     .inferior-logo {
         width:200px;

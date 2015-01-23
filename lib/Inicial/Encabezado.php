@@ -36,7 +36,6 @@ class Encabezado {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '  <!-- ENCABEZADO -->';
         $a[] = '  <section id="encabezado">';
         $a[] = '    <img class="banner" src="imagenes/banner-implan.jpg" alt="IMPLAN Torreón">';
         $a[] = '  </section>';

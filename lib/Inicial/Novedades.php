@@ -36,7 +36,6 @@ class Novedades {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '  <!-- NOVEDADES -->';
         $a[] = '  <section id="novedades">';
         $a[] = '    <div class="row">';
         $a[] = '      <div class="col-md-8">';

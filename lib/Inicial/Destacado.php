@@ -42,23 +42,23 @@ class Destacado {
         // En la imagen ancha usamos el primer vínculo
         $vinculo = current($botones);
         // Acumular
-        $a[] = '        <div class="thumbnail">';
+        $a[] = '        <div class="destacado-servicio">';
         // Si imagen es un archivo .gif .jpg o .png se pone como imagen común
         if (preg_match('/.+\.(gif|jpg|png)$/', $imagen)) {
-            $a[] = "          <a href=\"$vinculo\"><img class=\"img-thumbnail imagen-previa\" src=\"$imagen\" alt=\"$titulo\"></a>";
+            $a[] = "          <a href=\"$vinculo\"><img class=\"destacado-imagen\" src=\"$imagen\" alt=\"$titulo\"></a>";
         } else {
             // De lo contrario se considera un ID que debe estar definido en el archivo CSS para cambiar al pasar el ratón por encima
-            $a[] = "          <a id=\"$imagen\" href=\"$vinculo\" title=\"$titulo\"></a>"; // <span>Test</span>
+            $a[] = "          <a id=\"$imagen\" class=\"destacado-imagen\" href=\"$vinculo\" title=\"$titulo\"></a>"; // <span>Test</span>
         }
-        $a[] = '          <div class="caption">';
+        $a[] = '          <div class="destacado-texto">';
         $a[] = "            <h3><a href=\"$vinculo\">$titulo</a></h3>";
         $a[] = "            $descripcion";
         $b = array();
         foreach ($botones as $etiqueta => $vinculo) {
-            if (strpos($vinculo, 'http') === 0) {
-                $b[] = "<a href=\"$vinculo\" target=\"_blank\" class=\"btn btn-default\" role=\"button\">$etiqueta</a>";
+            if (preg_match('/^(http|https|ftp):\/\/.+/', $vinculo)) {
+                $b[] = "<a class=\"btn btn-default destacado-boton\" href=\"$vinculo\" role=\"button\" target=\"_blank\">$etiqueta</a>";
             } else {
-                $b[] = "<a href=\"$vinculo\" class=\"btn btn-default\" role=\"button\">$etiqueta</a>";
+                $b[] = "<a class=\"btn btn-default destacado-boton\" href=\"$vinculo\" role=\"button\">$etiqueta</a>";
             }
         }
         $a[] = sprintf("            <p>%s</p>", implode(' ', $b));
@@ -129,19 +129,18 @@ class Destacado {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '  <!-- DESTACADO -->';
         $a[] = '  <section id="destacado">';
         $a[] = '    <div class="row">';
         // Primer columna
-        $a[] = '      <div class="col-sm-6 col-md-4">';
+        $a[] = '      <div class="col-sm-6 col-md-4 destacado-columna">';
         $a[] = $this->smi();
         $a[] = '      </div>';
         // Segunda columna
-        $a[] = '      <div class="col-sm-6 col-md-4">';
+        $a[] = '      <div class="col-sm-6 col-md-4 destacado-columna">';
         $a[] = $this->sig();
         $a[] = '      </div>';
         // Tercer columna
-        $a[] = '      <div class="col-sm-6 col-md-4">';
+        $a[] = '      <div class="col-sm-6 col-md-4 destacado-columna">';
         $a[] = $this->pem();
         $a[] = '      </div>';
         // Terminar las columnas

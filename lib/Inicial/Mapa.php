@@ -27,6 +27,30 @@ namespace Inicial;
  */
 class Mapa {
 
+    public $servicios     = array(
+        'Análisis Publicados'            => 'blog/index.html',
+        'Indicadores'                    => 'smi/introduccion.html',
+        'Información Geográfica'         => 'sig/introduccion.html',
+        'Plan Estratégico Metropolitano' => 'plan-estrategico-metropolitano/introduccion.html',
+        'Banco de Proyectos'             => 'proyectos/introduccion.html');
+    public $institucional = array(
+        'Visión / Misión'        => 'institucional/vision-mision.html',
+        'Mensaje del Director'   => 'institucional/mensaje-director.html',
+        'Quienes Somos'          => 'institucional/quienes-somos.html',
+        'Estructura Orgánica'    => 'institucional/estructura-organica.html',
+        'Reglamentos'            => 'institucional/reglamentos.html',
+        'Información Financiera' => 'institucional/informacion-financiera.html',
+        'Transparencia'          => 'http://www.icai.org.mx/ipmn/dependencias/impyc',
+        'Consejo Directivo'      => 'consejo-directivo/integrantes.html'); //
+    public $interaccion   = array(
+        'Eventos'                           => 'eventos/index.html',
+        'Sala de Prensa'                    => 'sala-prensa/index.html',
+        'Preguntas Frecuentes'              => 'preguntas-frecuentes/preguntas-frecuentes.html',
+        'Términos de Uso de la Información' => 'terminos/terminos-informacion.html',
+        'Términos de Uso del Sitio Web'     => 'terminos/terminos-sitio.html',
+        'Contacto'                          => 'contacto/contacto.html',
+        'Quejas y Sugerencias'              => 'http://trcimplan.mx/comentariossugerencias');
+
     /**
      * HTML
      *
@@ -35,50 +59,87 @@ class Mapa {
     public function html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular
-        $a[] = '  <!-- MAPA -->';
+        // Acumular mapa grande
         $a[] = '  <section id="mapa">';
         $a[] = '    <div class="row">';
         // Servicios
         $a[] = '      <div class="col-md-4">';
         $a[] = '        <h4 class="mapa-encabezado">SERVICIOS</h4>';
         $a[] = '        <ul>';
-        $a[] = '          <li><a href="blog/index.html">Análisis Publicados</a></li>';
-        $a[] = '          <li><a href="plan-estrategico-metropolitano/introduccion.html">Plan Estratégico Metropolitano</a></li>';
-        $a[] = '          <li><a href="smi/introduccion.html">Indicadores</a></li>';
-        $a[] = '          <li><a href="sig/introduccion.html">Información Geográfica</a></li>';
-        $a[] = '          <li><a href="proyectos/introduccion.html">Banco de Proyectos</a></li>';
+        foreach ($this->servicios as $etiqueta => $vinculo) {
+            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
+                $a[] = "          <li><a href=\"$vinculo\" target=\"_blank\">$etiqueta</a></li>";
+            } else {
+                $a[] = "          <li><a href=\"$vinculo\">$etiqueta</a></li>";
+            }
+        }
         $a[] = '        </ul>';
         $a[] = '      </div>';
         // Institucional
         $a[] = '      <div class="col-md-4">';
         $a[] = '        <h4 class="mapa-encabezado">INSTITUCIONAL</h4>';
         $a[] = '        <ul>';
-        $a[] = '          <li><a href="institucional/vision-mision.html">Visión / Misión</a></li>';
-        $a[] = '          <li><a href="institucional/mensaje-director.html">Mensaje del Director</a></li>';
-        $a[] = '          <li><a href="institucional/quienes-somos.html">Quienes Somos</a></li>';
-        $a[] = '          <li><a href="institucional/estructura-organica.html">Estructura Orgánica</a></li>';
-        $a[] = '          <li><a href="institucional/reglamentos.html">Reglamentos</a></li>';
-        $a[] = '          <li><a href="institucional/informacion-financiera.html">Información Financiera</a></li>';
-        $a[] = '          <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank">Transparencia</a></li>';
-        $a[] = '          <li><a href="consejo-directivo/integrantes.html">Consejo Directivo</a></li>';
+        foreach ($this->institucional as $etiqueta => $vinculo) {
+            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
+                $a[] = "          <li><a href=\"$vinculo\" target=\"_blank\">$etiqueta</a></li>";
+            } else {
+                $a[] = "          <li><a href=\"$vinculo\">$etiqueta</a></li>";
+            }
+        }
         $a[] = '        </ul>';
         $a[] = '      </div>';
         // Interacción
         $a[] = '      <div class="col-md-4">';
         $a[] = '        <h4 class="mapa-encabezado">INTERACCIÓN</h4>';
         $a[] = '        <ul>';
-        $a[] = '          <li><a href="eventos/index.html">Eventos</a></li>';
-        $a[] = '          <li><a href="sala-prensa/index.html">Sala de Prensa</a></li>';
-        $a[] = '          <li><a href="preguntas-frecuentes/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>';
-        $a[] = '          <li><a href="terminos/terminos-informacion.html">Términos de Uso de la Información</a></li>';
-        $a[] = '          <li><a href="terminos/terminos-sitio.html">Términos de Uso del Sitio Web</a></li>';
-        $a[] = '          <li><a href="contacto/contacto.html">Contacto</a></li>';
-        $a[] = '          <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank">Quejas y Sugerencias</a></li>';
+        foreach ($this->interaccion as $etiqueta => $vinculo) {
+            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
+                $a[] = "          <li><a href=\"$vinculo\" target=\"_blank\">$etiqueta</a></li>";
+            } else {
+                $a[] = "          <li><a href=\"$vinculo\">$etiqueta</a></li>";
+            }
+        }
         $a[] = '        </ul>';
         $a[] = '      </div>';
         // Cierre
         $a[] = '    </div>';
+        $a[] = '  </section>';
+        // Acumular mapa chico
+        $a[] = '  <section id="mapa-chico">';
+        // Servicios
+        $a[] = '    <h4 class="mapa-encabezado">SERVICIOS</h4>';
+        $b   = array();
+        foreach ($this->servicios as $etiqueta => $vinculo) {
+            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
+                $b[] = "<a href=\"$vinculo\" target=\"_blank\">$etiqueta</a>";
+            } else {
+                $b[] = "<a href=\"$vinculo\">$etiqueta</a>";
+            }
+        }
+        $a[] = sprintf('    <p>%s</p>', implode(', ', $b));
+        // Institucional
+        $a[] = '    <h4 class="mapa-encabezado">INSTITUCIONAL</h4>';
+        $b   = array();
+        foreach ($this->institucional as $etiqueta => $vinculo) {
+            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
+                $b[] = "<a href=\"$vinculo\" target=\"_blank\">$etiqueta</a>";
+            } else {
+                $b[] = "<a href=\"$vinculo\">$etiqueta</a>";
+            }
+        }
+        $a[] = sprintf('    <p>%s</p>', implode(', ', $b));
+        // Interacción
+        $a[] = '    <h4 class="mapa-encabezado">INTERACCIÓN</h4>';
+        $b   = array();
+        foreach ($this->interaccion as $etiqueta => $vinculo) {
+            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
+                $b[] = "<a href=\"$vinculo\" target=\"_blank\">$etiqueta</a>";
+            } else {
+                $b[] = "<a href=\"$vinculo\">$etiqueta</a>";
+            }
+        }
+        $a[] = sprintf('    <p>%s</p>', implode(', ', $b));
+        // Cierre
         $a[] = '  </section>';
         // Entregar
         return implode("\n", $a)."\n";
