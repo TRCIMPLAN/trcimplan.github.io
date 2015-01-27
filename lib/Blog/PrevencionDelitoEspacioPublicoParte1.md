@@ -1,0 +1,26 @@
+
+<span class="contenido-imagen-previa"><img class="img-responsive" src="prevencion-delito-espacio-publico/imagen.jpg"></span>
+
+> “..Hay un miedo construido en la ciudad y también una ciudad construida por el miedo.”
+
+> (Fernando Carrión Mena, Boletín Ciudad Segura, FLACSO, 2007)
+
+Los niveles de violencia, crimen y percepción de inseguridad han moldeado la Zona Metropolitana de la Laguna en lo social, económico y urbano. Estos fenómenos son tan multidimensionales y complejos que han rebasado la capacidad de respuesta social y gubernamental sobre todo desde el inicio de  su “momento” en la década de los 90´s, llegando al día de hoy como el tema prioritario, no sólo para los lagunerosi y mexicanosii, también a nivel Latinoamericanoiii.
+
+Dentro de este contexto las estrategias de “vacuna” han ido ganando terreno, y dentro de ellas el espacio público ha surgido como un eje importante, no sólo como táctica de prevención, sino también como línea de acción para la disminución de los niveles de percepción de inseguridad. Este territorio, accesible a todos, está caracterizado por las fachadas de nuestras casas y negocios, banquetas, vegetación, mobiliario, infraestructura y también por la manifestación de dinámicas y hábitos individuales y sociales.
+
+Un gran porcentaje de las tipologías y de los delitos efectuados ocurren o están asociados al espacio público: robo o asalto a transeúntes, robo de vehículo, en el transporte público, a viviendas y negocios, entre otras. En las décadas de los 60s y 70´s algunos criminólogos, urbanistas y críticos urbanosiv comenzaron a analizar el espacio público como factor detonante y establecieron básicamente que los delitos ocurren en parte por las oportunidades presentadas por el ambiente físico (delitos situacionales).
+
+Por otro lado, la percepción de inseguridad, detonada por los niveles de violencia y crimen, han desincentivado a la población principalmente a: permitir que sus hijos menores de edad salgan de casa, salir de noche, salir a caminar, visitar parientes y amigos, tomar taxi, salir a comer o a cenar, ir al cine o al teatro, por mencionar algunas.v En el espacio público existen lugares que podemos sentirnos seguros o inseguros y esto determinará en gran medida su uso y la construcción de relaciones que se den en él, dando lugar a la aparición de “no lugares”, “espacios comunes” (de uso pero no de construcción social)  o a espacios públicos integrados e integradores.
+
+> Como si fuera sometido a un estudio económico de análisis de costo-beneficio, nuestro espacio público puede ser  percibido por los delincuentes como lugares de poco riesgo en relación a la ganancia que obtendrán.
+
+### ¿Estamos construyendo una ciudad propicia para el delito?
+
+El espacio público es un derecho universal, materializa el derecho a la ciudad, esta entendida como un lugar donde los ciudadanos puedan vivir dotados de espacios promotores de la sana convivencia, el desarrollo social e individual, cohesión social e identidad cultural. Sin embargo, este derecho se ve amenazado por los niveles de violencia, crimen y percepción de inseguridad, coartando la libertad de sus habitantes.
+
+A nivel urbano los cambios sociales y económicos han generado en nuestra Zona Metropolitana, como en muchas otras, un alto número de viviendas deshabitadas, un centro urbano abandonado, casas en desuso la mayor parte del día, segregación espacial, locales comerciales vacíos, lunares de grandes lotes baldíos, etc., creando un ambiente propicio para generar víctimas potenciales.
+
+Ante el miedo y el temor, el lagunero ha tomado medidas en lo individual y lo colectivo en un intento por evitar ser víctimas de algún delito, se ha encerrado en lo privado despreciando el espacio público como si fuera ajeno; en las zonas más prósperas el elemento más visible de este miedo es la barda, que ha desconectado algunas viviendas del territorio común y/o privatizado el espacio público dentro de pequeños conjuntos residenciales. Estas estrategias sociales no han sido garantía de prevenir el delito, inclusive ha sido motivos de estudio sus posibles consecuencias sociales y territoriales.
+
+Los espacios públicos son las arterias de tránsito y circulación que conectan nuestras actividades cotidianas, en algunos casos son lugares de esparcimiento y en escasas situaciones, son espacios de construcción social. Los elementos que constituyen el espacio público tienen la capacidad de construir ciudades vibrantes o dejar en estado de vulnerabilidad a los individuos que los usan así como a las viviendas, negocios, vehículos, etc. ubicados en él. La  iluminación deficiente, la obstrucción de los campos visuales, el descuido del espacio, la falta de apropiación del espacio por sus habitantes, vandalismo, desuso de los espacios, anonimato entre los habitantes, diseños tipo laberintos y la  falta de vigilancia natural desde el interior de los edificios, son algunos de los elementos a nivel ambiental que generan las oportunidades del delito.
