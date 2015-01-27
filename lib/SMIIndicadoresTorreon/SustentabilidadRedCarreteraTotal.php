@@ -119,6 +119,12 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>22/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/prevencion-delito-espacio-publico.html">La prevención del delito en el espacio público</a></td>
+            <td>.</td>
+          </tr>
+          <tr>
             <td>13/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/ciudad-espacio-publico.html">Ciudad y Espacio Público</a></td>

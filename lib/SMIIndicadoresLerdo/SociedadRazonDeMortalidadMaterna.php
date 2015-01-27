@@ -140,6 +140,18 @@ class SociedadRazonDeMortalidadMaterna extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>27/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/objetivos-milenio.html">La Zona Metropolitana de La Laguna y los Objetivos del Milenio</a></td>
+            <td>En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas.</td>
+          </tr>
+          <tr>
+            <td>22/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/prevencion-delito-espacio-publico.html">La prevención del delito en el espacio público</a></td>
+            <td>.</td>
+          </tr>
+          <tr>
             <td>14/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/mas-areas-verdes-proteger-salud-laguneros.html">Más áreas verdes para proteger la salud de los laguneros</a></td>
@@ -276,6 +288,12 @@ class SociedadRazonDeMortalidadMaterna extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-pobreza.html">Pobreza en Lerdo</a></td>
             <td>Porcentaje de la población en situación de pobreza.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Lerdo</a></td>
+            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
           </tr>
           <tr>
             <td>ND</td>

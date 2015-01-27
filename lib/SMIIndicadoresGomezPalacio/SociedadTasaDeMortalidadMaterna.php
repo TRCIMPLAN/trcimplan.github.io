@@ -126,6 +126,12 @@ class SociedadTasaDeMortalidadMaterna extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>27/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/objetivos-milenio.html">La Zona Metropolitana de La Laguna y los Objetivos del Milenio</a></td>
+            <td>En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas.</td>
+          </tr>
+          <tr>
             <td>14/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/mas-areas-verdes-proteger-salud-laguneros.html">Más áreas verdes para proteger la salud de los laguneros</a></td>
@@ -208,6 +214,12 @@ class SociedadTasaDeMortalidadMaterna extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Gómez Palacio</a></td>
             <td>Población derechohabiente a los servicios de salud.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Gómez Palacio</a></td>
+            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
           </tr>
           <tr>
             <td>ND</td>
