@@ -9,7 +9,7 @@ A partir de enero de 2015 se puso en línea el nuevo sitio web del IMPLAN Torre�
 
 Para conocer mejor las novedades del sitio, le invito a tomar el primer video tutorial del [Sistema Metropolitano de Indicadores](../smi/introduccion.html):
 
-<div class="videowrapper well"><iframe width="560" height="315" src="//www.youtube.com/embed/dpNGC610FXE?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="videowrapper well"><iframe width="560" height="315" src="//www.youtube.com/embed/GJX8PsipImM?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 ### Integración de los servicios en una sola interfaz
 
