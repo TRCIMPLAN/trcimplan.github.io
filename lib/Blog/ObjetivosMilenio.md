@@ -14,7 +14,7 @@ Los Objetivos de Desarrollo del Milenio (u Objetivos del Milenio) están basados
 7. Garantizar la sostenibilidad del medio ambiente.
 8. Fomentar una asociación mundial para el desarrollo.
 
-Estos objetivos se encuentran cuantificados en 21 metas(1) y estas a su vez en 60 indicadores que le dan seguimiento comparativo entre naciones, sujetas a la disponibilidad de datos, aplicando en algunos casos a nivel estatal.En el tiempo en que se suscribió la Declaración del Milenio, eran pocos los instrumentos de registro y seguimiento estadístico a nivel local en México, y en el caso de La Laguna la cultura de la generación y uso de información estadística era casi nula.
+Estos objetivos se encuentran cuantificados en 21 metas(1) y estas a su vez en 60 indicadores que le dan seguimiento comparativo entre naciones, sujetas a la disponibilidad de datos, aplicando en algunos casos a nivel estatal. En el tiempo en que se suscribió la Declaración del Milenio, eran pocos los instrumentos de registro y seguimiento estadístico a nivel local en México, y en el caso de La Laguna la cultura de la generación y uso de información estadística era casi nula.
 
 El [Sistema Metropolitano de Indicadores](http://trcimplan.gob.mx/smi/introduccion.html) (SMI) puede darnos una idea general de cuál es la situación de la Zona Metropolitana de La Laguna (ZML) y sus municipios en el contexto nacional en temas directamente relacionados con los Objetivos del Milenio.
 
@@ -82,7 +82,7 @@ Al igual que el indicador trabajado para analizar el Objetivo 4, la RMM es utili
 
 Gráfico: [Razón de Mortalidad Materna en Torreón. Sistema Metropolitano de Indicadores.](http://trcimplan.gob.mx/indicadores-torreon/sociedad-razon-de-mortalidad-materna.html)
 
-La estadística nacional indica 39.2 defunciones. En los estados de Coahuila y Durango la cifra es de 26.9 y 43.6, respectivamente. Para los municipios de la ZML Torreón y Gómez Palacio tienen números similares con 33.0 y 33.3, con un mejor panorama en comparación al nacional, aunque Torreón supera la media de su entidad federativa. Lerdo con 55.32 y Matamoros con 62.7 se ubican por encima del estado y del país. Llama la atención Matamoros con más de 200% a comparación de Coahuila. Todos los datos son referentes a 2013.
+La estadística nacional indica 39.2 defunciones. En los estados de Coahuila y Durango la cifra es de 26.9 y 43.6, respectivamente. Para los municipios de la ZML Torreón y Gómez Palacio tienen números similares con 33.0 y 33.3, con un mejor panorama en comparación al nacional, aunque Torreón supera la media de su entidad federativa. Lerdo con 55.3(2) y Matamoros con 62.7 se ubican por encima del estado y del país. Llama la atención Matamoros con más de 200% a comparación de Coahuila. Todos los datos son referentes a 2013.
 
 En cualquier caso, sea municipal, estatal o nacional, la meta no se ha cumplido, esperando llegar a **22.2** durante 2015.
 
@@ -100,13 +100,13 @@ La meta en el país es de **3.5** y se considera con un progreso estancado o det
 
 ### Objetivo 7: Garantizar la sostenibilidad del medio ambiente.
 
-El Objetivo ambiental consta de doce indicadores iniciales propuestos en la Cumbre. De estos, siete han cumplido la meta, uno se encuentra con un progreso insuficiente. Tres están estancados o en deterioro y uno carece de datos disponibles. Toda esta información referenciada a nivel nacional para 20133. En la Comarca Lagunera una de las mayores preocupaciones, que trasciende el ámbito ecológico, es el tema del agua. El indicador que le da el seguimiento para alcanzar las metas del Objetivo a las cuestiones del agua es la “Proporción de recursos hídricos utilizada” y precisamente es uno de los indicadores en estado de deterioro.
+El Objetivo ambiental consta de doce indicadores iniciales propuestos en la Cumbre. De estos, siete han cumplido la meta, uno se encuentra con un progreso insuficiente. Tres están estancados o en deterioro y uno carece de datos disponibles. Toda esta información referenciada a nivel nacional para 2013(3). En la Comarca Lagunera una de las mayores preocupaciones, que trasciende el ámbito ecológico, es el tema del agua. El indicador que le da el seguimiento para alcanzar las metas del Objetivo a las cuestiones del agua es la “Proporción de recursos hídricos utilizada” y precisamente es uno de los indicadores en estado de deterioro.
 
 <img class="img-responsive" src="objetivos-milenio/07-implan-torreon-smi-consumo-agua-facturado-torreon.png" alt="Consumo de Agua Facturado en Torreón">
 
 Gráfico: [Consumo de Agua Facturado en Torreón. Sistema Metropolitano de Indicadores.](http://trcimplan.gob.mx/indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html)
 
-El SMI aporta el indicador “Consumo de agua facturado” que nos puede dar una imagen del uso del agua en el municipio de Torreón4.
+El SMI aporta el indicador “Consumo de agua facturado” que nos puede dar una imagen del uso del agua en el municipio de Torreón(4).
 
 Según la OrganizaciónMundial de la Salud (OMS), son necesarios entre 50 y 100 litros (0.05 m3 y 0.1 m3) de agua por persona al día para garantizar la cobertura de las necesidades básicas sin que se presenten serias amenazas para la salud.
 
