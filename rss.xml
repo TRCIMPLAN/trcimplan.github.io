@@ -5,7 +5,7 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 28 Jan 2015 15:48:23 -0600</pubDate>
+    <pubDate>Wed, 28 Jan 2015 15:53:29 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -49,17 +49,17 @@
 <div id="carrusel-1" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+    <li data-target="#carrusel-1" data-slide-to="0" class="active"></li>
+    <li data-target="#carrusel-1" data-slide-to="1"></li>
+    <li data-target="#carrusel-1" data-slide-to="2"></li>
+    <li data-target="#carrusel-1" data-slide-to="3"></li>
+    <li data-target="#carrusel-1" data-slide-to="4"></li>
+    <li data-target="#carrusel-1" data-slide-to="5"></li>
+    <li data-target="#carrusel-1" data-slide-to="6"></li>
+    <li data-target="#carrusel-1" data-slide-to="7"></li>
+    <li data-target="#carrusel-1" data-slide-to="8"></li>
+    <li data-target="#carrusel-1" data-slide-to="9"></li>
+    <li data-target="#carrusel-1" data-slide-to="10"></li>
   </ol>
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
@@ -131,11 +131,11 @@
     </div>
   </div>
   <!-- Controls -->
-  <a class="left carousel-control" href="http://trcimplan.gob.mx/blog/#carousel-example-generic" role="button" data-slide="prev">
+  <a class="left carousel-control" href="http://trcimplan.gob.mx/blog/#carrusel-1" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="http://trcimplan.gob.mx/blog/#carousel-example-generic" role="button" data-slide="next">
+  <a class="right carousel-control" href="http://trcimplan.gob.mx/blog/#carrusel-1" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -169,16 +169,16 @@
 <div id="carrusel-2" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+    <li data-target="#carrusel-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carrusel-2" data-slide-to="1"></li>
+    <li data-target="#carrusel-2" data-slide-to="2"></li>
+    <li data-target="#carrusel-2" data-slide-to="3"></li>
+    <li data-target="#carrusel-2" data-slide-to="4"></li>
+    <li data-target="#carrusel-2" data-slide-to="5"></li>
+    <li data-target="#carrusel-2" data-slide-to="6"></li>
+    <li data-target="#carrusel-2" data-slide-to="7"></li>
+    <li data-target="#carrusel-2" data-slide-to="8"></li>
+    <li data-target="#carrusel-2" data-slide-to="9"></li>
   </ol>
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
@@ -244,11 +244,11 @@
     </div>
   </div>
   <!-- Controls -->
-  <a class="left carousel-control" href="http://trcimplan.gob.mx/blog/#carousel-example-generic" role="button" data-slide="prev">
+  <a class="left carousel-control" href="http://trcimplan.gob.mx/blog/#carrusel-2" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="http://trcimplan.gob.mx/blog/#carousel-example-generic" role="button" data-slide="next">
+  <a class="right carousel-control" href="http://trcimplan.gob.mx/blog/#carrusel-2" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
