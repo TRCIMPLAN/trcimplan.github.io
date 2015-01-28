@@ -3,6 +3,7 @@
 * Eduardo Holguín, Director General: [eholguin@trcimplan.mx](mailto:eholguin@trcimplan.mx)
 * Luis Campos, Director de Planeacíon Urbana: [lcampos@trcimplan.mx](mailto:lcampos@trcimplan.mx)
 * Rodrigo González, Director de Investigación Estratégica: [rgonzalez@trcimplan.mx](mailto:rgonzalez@trcimplan.mx)
+* Observaciones respecto a este sitio web: [webmaster@trcimplan.mx](mailto:webmaster@trcimplan.mx)
 * Información general: [info@trcimplan.mx](mailto:info@trcimplan.mx)
 
 ### Redes Sociales
