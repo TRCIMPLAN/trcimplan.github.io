@@ -1,14 +1,12 @@
-SMIbeta
-=======
+Segunda Generación del Sitio Web del IMPLAN Torreón
+===================================================
 
-Segunda versión del Sitio Web. EN CONSTRUCCIÓN.
-
-Se encuentra público en http://trcimplan.gob.mx/
+Visite http://trcimplan.gob.mx/
 
 Cumple con tres objetivos:
 
 * Integra en un solo sitio las páginas institucionales, el Sistema Metropolitano de Indicadores (SMI) y mapas georreferenciados del SIG.
-* Funciona en pantallas grandes y dispositivos móviles.
+* Usa diseño web responsivo que es amigable en computadoras de escritorio, portátiles, tablets y teléfonos inteligentes.
 * Relaciona todos los contenidos. De tal forma que un indicador mostrará los análisis, indicadores y mapas relacionados.
 
-Será el sitio oficial a partir de 2015.
+A partir de enero de 2015 es el sitio web oficial del Instituto Municipal de Planeación y Competitividad de Torreón.
