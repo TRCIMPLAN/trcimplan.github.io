@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Imprenta Regiones
+ * SMIbeta - SMI Indicadores por Región
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
