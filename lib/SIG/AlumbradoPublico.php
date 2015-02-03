@@ -51,8 +51,7 @@ class AlumbradoPublico extends \Base\Publicacion {
 <b>Fuente:</b> Dirección General de Servicios Públicos de Torreón.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+     // $this->javascript    = '';
     } // constructor
 
 } // Clase AlumbradoPublico

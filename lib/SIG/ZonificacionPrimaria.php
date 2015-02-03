@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - Zonificacion CU2
+ * SMIbeta - Zonificacion Primaria
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2014 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -56,7 +56,7 @@ class ZonificacionPrimaria extends \Base\Publicacion {
 
 <a class="btn btn-default" href="http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map" target="_blank" role="button">Ver a pantalla completa</a>
 FINAL;
-        $this->javascript       = '';
+     // $this->javascript       = '';
     } // constructor
 
 } // Clase ZonificacionPrimaria

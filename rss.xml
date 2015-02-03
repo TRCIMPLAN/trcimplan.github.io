@@ -5,11 +5,22 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 03 Feb 2015 11:17:03 -0600</pubDate>
+    <pubDate>Tue, 03 Feb 2015 15:30:12 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crecimiento Histórico de Torreón</title>
+      <link>http://trcimplan.gob.mx/sig/crecimiento-historico-torreon.html</link>
+      <guid isPermaLink="false">sig-crecimiento-historico-torreon</guid>
+      <pubDate>Tue, 03 Feb 2015 00:00:00 -0600</pubDate>
+      <author>TrcIMPLAN</author>
+      <description><![CDATA[<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/180ab8da-643c-11e4-971a-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<a class="btn btn-default" href="https://implantorreon.cartodb.com/u/sigimplan/viz/180ab8da-643c-11e4-971a-0e018d66dc29/embed_map" target="_blank" role="button">Ver a pantalla completa</a>
+]]></description>
+    </item>
     <item>
       <title>Tasa de inflación y precios en Torreón 2014</title>
       <link>http://trcimplan.gob.mx/blog/tasa-inflacion-precios-torreon-2014.html</link>
@@ -969,54 +980,6 @@ En University of Florida. Obtenido el 10 de Diciembre de 2014 de <a href="http:/
 <ol>
 <li><a href="http://www.un.org/spanish/waterforlifedecade/scarcity.shtml">La escasez de agua, ONU</a> Fecha de consulta: 26 de noviembre del 2014.</li>
 </ol>
-]]></description>
-    </item>
-    <item>
-      <title>La Calle Completa: espacio vial para todos</title>
-      <link>http://trcimplan.gob.mx/blog/calle-completa-espacio-vital-todos.html</link>
-      <guid isPermaLink="false">blog-calle-completa-espacio-vital-todos</guid>
-      <pubDate>Wed, 03 Dec 2014 00:00:00 -0600</pubDate>
-      <author>Arq. Cecilio Pedro Secunza Schott</author>
-      <description><![CDATA[<p><span class="contenido-imagen-previa"><img class="img-responsive" src="http://trcimplan.gob.mx/blog/calle-completa-espacio-vital-todos/imagen.jpg"></span></p>
-
-<p>Con la inclusión del automóvil en el espacio urbano en la primera mitad del siglo XX, la idea de calle cambió por completo. El coche pasó a ser el personaje protagonista en el escenario vial, dejando de lado a los demás “actores” de la movilidad. Acto que causó problemas como alta incidencia de accidentes, inaccesibilidad, contaminación, y el deterioro del espacio público más importante: la calle.</p>
-
-<p>Sin embargo, las políticas de planeación urbana actuales, proponen una <strong>solución bastante simple y nada nueva: la calle completa, es decir, una calle que incluya a todos los usuarios del espacio público</strong>, como son peatones, ciclistas, usuarios del transporte público y automovilistas; ya sean niños, adultos mayores, discapacitados etc. Siguiendo siempre el orden prioritario de la Pirámide de la Movilidad.</p>
-
-<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/calle-completa-espacio-vital-todos/itdp-jerarquia-autos-transporte-ciclistas-peatones.jpg" alt="itdp-jerarquia autos transporte ciclistas peatones"></p>
-
-<p>Durante décadas, los planeadores urbanos han dado a las vialidades una única función: mover personas de un punto de la ciudad a otro, de la forma más fácil y rápida posible. Esta premisa de diseño ha puesto al automóvil como “rey de la calle”, desplazando a los demás usuarios del espacio urbano, y privándolos de infraestructura adecuada para su uso y transporte.</p>
-
-<p>Las vialidades diseñadas en torno al coche (incompletas), resultan en calles inseguras tanto para automovilistas como para peatones y ciclistas. Saturan el paisaje urbano al generar contaminación tanto visual, atmosférica y acústica.</p>
-
-<p>Se estima que en la Zona Metropolitana de la Laguna, <a href="http://trcimplan.github.io/matrices/categoria-movilidad.html" title="Logit,2011">el 49% de los viajes en un día se hacen en automóvil particular, 30% en transporte público, 19% a pie y solo 2% en bicicleta</a> (logit, 2011); contrario a lo recomendado por las políticas de movilidad sustentable.</p>
-
-<p>Por otra parte, la calle completa propone una vialidad democrática e inclusiva, donde cada “actor” de la movilidad es tomado en cuenta. Tiene como objetivo lograr la convivencia entre todas las modalidades de transporte, incluyendo automovilistas.</p>
-
-<p>Este esquema de vialidad integral busca generar cotidianeidad e interacción social. Hacer que el cruzar la calle, tomar el transporte público, viajar en bicicleta, dar un paseo o incluso conducir, sean actividades sencillas y no proezas que pongan la integridad física de por medio.</p>
-
-<p>La Coalición Nacional de Calles Completas (National Complete Street Coalition, EUA) afirma que el desarrollo de políticas de este tipo de vialidades, tiene grandes beneficios medibles como:</p>
-
-<ul>
-<li>Decrecimiento de accidentes por atropellamiento; Al reducir las dimensiones de los carriles de autos, éstos tienden a bajar la velocidad, elevando las posibilidades de supervivencia de un peatón en caso de accidente. <a href="http://trcimplan.gob.mx/blog/#" title="Bruno Montalbetti, 2011, 'No hace camino al andar: Velocidades y atropellos a peatones'.">Se estima que un peatón atropellado tiene un 90% de probabilidades de sobrevivir si la velocidad de impacto es 30km/h o menor, si esta velocidad se excede, las probabilidades bajan a 50%</a>.</li>
-<li>Beneficios económicos: Los esquemas de calle completa elevan la calidad urbana al ofrecer mayores opciones de transporte, incrementar la seguridad y la imagen urbana, todo esto con un efecto positivo en la plusvalía de la zona.</li>
-<li>Impactos directos a la salud de los ciudadanos al promover la movilidad peatonal y ciclista. Se calcula que el riesgo de obesidad se incrementa un 6% por cada hora al día que se pasa en un automóvil. En contraste, <a href="http://trcimplan.gob.mx/blog/#" title="Frank L., 2004, 'Obesity relationships with community design, physical activity, and time spent in cars'.">cada kilómetro caminado al día, es asociado con un decrecimiento del 4.8% de probabilidad de obesidad</a>.</li>
-</ul>
-
-<p>Los elementos de diseño urbano que incluyen las calles completas deben satisfacer las necesidades de cada modalidad de transporte, afectando lo menos posible a los otros usuarios. Estos elementos incluyen (en orden prioritario):</p>
-
-<ul>
-<li>Infraestructura peatonal: Banquetas suficientemente anchas, pasos peatonales (de cebra) con correcta semaforización, rampas para discapacitados etc. Se deben evitar en lo posible los puentes peatonales.</li>
-<li>Infraestructura ciclista: Ciclovías o ciclocarriles (confinados o compartidos) y espacios para el estacionamiento de bicicletas.</li>
-<li>Transporte público: Estaciones delimitadas, “bahías”, carriles exclusivos y posibles inclusiones de BRT (Bus Rapid Transit).</li>
-<li>Infraestructura para automóviles: Carriles correctamente definidos y con menores dimensiones, entre otras medidas para reducir su velocidad, señalética clara y semaforización sincronizada.</li>
-</ul>
-
-<p>Suena sumamente retador la inclusión de estos elementos en los esquemas de vialidad con los que contamos actualmente. Sin embargo, deben tomarse decisiones radicales que favorezcan a todos los “actores” de la movilidad y no solo al grupo mayoritario. Todos somos en algún momento, peatones, ciclistas o usuarios del transporte público (grupos vulnerables de la movilidad) y es hasta ese momento, en que nos damos cuenta de lo poco equitativas que son nuestras vialidades.</p>
-
-<h3>La sección de la calle contemporánea debe ser más compleja de lo que es hoy.</h3>
-
-<p>Los desarrolladores urbanos y autoridades deben apostar por nuevos esquemas de vialidad como lo es la Calle Completa y el DOT, para así lograr la reivindicación de la calle como espacio público equitativo y de calidad.</p>
 ]]></description>
     </item>
   </channel>

@@ -2,7 +2,7 @@
 /*
  * SMIbeta - Navegación Configuración
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2014 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -40,6 +40,7 @@ class NavegacionConfig {
             'Información Geográfica > Introducción'            => 'sig/introduccion.html',
             'Información Geográfica > Abrir el SIG'            => 'sig/abrir-sig.html',
             'Información Geográfica > Alumbrado Público'       => 'sig/alumbrado-publico.html',
+            'Información Geográfica > Crecimiento Histórico'   => 'sig/crecimiento-historico-torreon.html',
             'Información Geográfica > Zonificación Primaria'   => 'sig/zonificacion-primaria.html',
             'Información Geográfica > Zonificación Secundaria' => 'sig/zonificacion-secundaria.html'),
         'Plan Estratégico Metropolitano' => array(
@@ -84,6 +85,7 @@ class NavegacionConfig {
         'Georreferenciados'              => 'fa fa-map-marker',
         'Información Geográfica'         => 'fa fa-map-marker',
         'Alumbrado Público'              => 'fa fa-map-marker',
+        'Crecimiento Histórico'          => 'fa fa-map-marker',
         'Zonificación Primaria'          => 'fa fa-map-marker',
         'Zonificación Secundaria'        => 'fa fa-map-marker',
         'Abrir el SIG'                   => 'fa fa-external-link',
