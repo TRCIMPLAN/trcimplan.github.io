@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - Tasa de inflación y precios en Torreón 2014
+ * SMIbeta - Las generaciones del cambio
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2015 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,27 +23,27 @@
 namespace Blog;
 
 /**
- * Clase TasaInflacionPreciosTorreon2014
+ * Clase GeneracionesCambio
  */
-class TasaInflacionPreciosTorreon2014 extends \Base\Publicacion {
+class GeneracionesCambio extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre           = 'Tasa de inflación y precios en Torreón 2014';
-        $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2015-02-03';
+        $this->nombre           = 'Las generaciones del cambio';
+     // $this->autor            = 'Autor';
+        $this->fecha            = '2015-02-04';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'tasa-inflacion-precios-torreon-2014';
-        $this->imagen_previa    = 'tasa-inflacion-precios-torreon-2014/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="tasa-inflacion-precios-torreon-2014/encabezado.jpg">';
+        $this->archivo          = 'generaciones-cambio';
+        $this->imagen_previa    = 'generaciones-cambio/presentacion-universitarios-previa.jpg';
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="generaciones-cambio/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Un incremento en la inflación como el que sufrió Torreón en 2014 no es necesariamente una señal negativa pues puede ser causada por exceso de dinero en la economía.';
+        $this->descripcion      = 'Los universitarios están involucrados con su sociedad, con las características de nuestra ciudad y sus necesidades, ya son parte de un entorno que si bien no es el mejor, están conscientes que se puede mejorar.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Mercados');
+        $this->categorias       = array('Bienestar');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
@@ -52,10 +52,10 @@ class TasaInflacionPreciosTorreon2014 extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
      // $this->para_compartir   = true;
         // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/TasaInflacionPreciosTorreon2014.md');
+        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/GeneracionesCambio.md');
      // $this->javascript       = '';
     } // constructor
 
-} // Clase TasaInflacionPreciosTorreon2014
+} // Clase GeneracionesCambio
 
 ?>
