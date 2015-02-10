@@ -1,8 +1,22 @@
 <?php
 /**
- * Seguridad.php
+ * TrcIMPLAN SMIv2 - Seguridad
  *
- * IMPLAN Torreón
+ * Copyright (C) 2015 IMPLAN Torreón
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 // Namespace
@@ -22,7 +36,7 @@ class Seguridad extends \Base\Publicacion {
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'seguridad';
         $this->descripcion   = 'Matriz de indicadores en la categoría Seguridad';
-        $this->imagen_previa = '';
+        $this->imagen_previa = '../imagenes/categorias/seguridad.jpg';
         $this->icono         = 'fa fa-crosshairs';
         $this->claves        = 'IMPLAN, Indicadores, Seguridad';
         $this->categorias    = array('Indicadores');

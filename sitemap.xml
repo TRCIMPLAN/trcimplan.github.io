@@ -3251,6 +3251,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-inflacion-anual.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-inversion-extranjera-directa.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -3267,6 +3272,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-microempresas.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-nuevas-empresas.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>

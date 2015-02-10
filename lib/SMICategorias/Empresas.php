@@ -1,8 +1,22 @@
 <?php
 /**
- * Empresas.php
+ * TrcIMPLAN SMIv2 - Empresas
  *
- * IMPLAN Torreón
+ * Copyright (C) 2015 IMPLAN Torreón
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 // Namespace
@@ -22,7 +36,7 @@ class Empresas extends \Base\Publicacion {
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'empresas';
         $this->descripcion   = 'Matriz de indicadores en la categoría Empresas';
-        $this->imagen_previa = '';
+        $this->imagen_previa = '../imagenes/categorias/empresas.jpg';
         $this->icono         = 'fa fa-cogs';
         $this->claves        = 'IMPLAN, Indicadores, Empresas';
         $this->categorias    = array('Indicadores');
@@ -93,6 +107,15 @@ class Empresas extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-microempresas.html" data-toggle="tooltip" title="Porcentaje, 31/07/2014, Sistema de Información Empresarial Mexicano (SIEM)">92.70 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-microempresas.html" data-toggle="tooltip" title="Porcentaje, 31/07/2014, Sistema de Información Empresarial Mexicano (SIEM)">95.38 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-microempresas.html" data-toggle="tooltip" title="Porcentaje, 31/07/2014, Sistema de Información Empresarial Mexicano (SIEM)">89.65 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Nuevas Empresas</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-nuevas-empresas.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Ventanilla Universal. Dirección de Desarrollo Económico del municipio de Torreón.">123</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>

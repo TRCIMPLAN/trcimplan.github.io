@@ -1,8 +1,22 @@
 <?php
 /**
- * Indice.php
+ * TrcIMPLAN SMIv2 - Indice
  *
- * IMPLAN Torreón
+ * Copyright (C) 2015 IMPLAN Torreón
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 // Namespace
@@ -103,6 +117,11 @@ class Indice extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Inflación anual</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inflacion-anual.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, INEGI">4.28 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Inversión Extranjera Directa</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inversion-extranjera-directa.html" data-toggle="tooltip" title="Millones de dólares, 31/12/2012, Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía">$ 46.50</a></td>
   </tr>
@@ -120,6 +139,11 @@ class Indice extends \Base\Publicacion {
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Microempresas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-microempresas.html" data-toggle="tooltip" title="Porcentaje, 31/07/2014, Sistema de Información Empresarial Mexicano (SIEM)">89.65 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Nuevas Empresas</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-nuevas-empresas.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Ventanilla Universal. Dirección de Desarrollo Económico del municipio de Torreón.">123</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>

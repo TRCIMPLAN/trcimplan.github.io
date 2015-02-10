@@ -1,8 +1,22 @@
 <?php
 /**
- * Macroeconomia.php
+ * TrcIMPLAN SMIv2 - Macroeconomia
  *
- * IMPLAN Torreón
+ * Copyright (C) 2015 IMPLAN Torreón
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 // Namespace
@@ -22,7 +36,7 @@ class Macroeconomia extends \Base\Publicacion {
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'macroeconomia';
         $this->descripcion   = 'Matriz de indicadores en la categoría Macroeconomía';
-        $this->imagen_previa = '';
+        $this->imagen_previa = '../imagenes/categorias/macroeconomia.jpg';
         $this->icono         = 'fa fa-usd';
         $this->claves        = 'IMPLAN, Indicadores, Macroeconomía';
         $this->categorias    = array('Indicadores');
@@ -40,6 +54,15 @@ class Macroeconomia extends \Base\Publicacion {
   </tr>
 </thead>
 <tbody>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Inflación anual</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inflacion-anual.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, INEGI">4.28 %</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Inversión Extranjera Directa</td>

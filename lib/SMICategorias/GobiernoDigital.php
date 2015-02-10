@@ -1,8 +1,22 @@
 <?php
 /**
- * GobiernoDigital.php
+ * TrcIMPLAN SMIv2 - GobiernoDigital
  *
- * IMPLAN Torreón
+ * Copyright (C) 2015 IMPLAN Torreón
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 // Namespace
@@ -22,7 +36,7 @@ class GobiernoDigital extends \Base\Publicacion {
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'gobierno-digital';
         $this->descripcion   = 'Matriz de indicadores en la categoría Gobierno Digital';
-        $this->imagen_previa = '';
+        $this->imagen_previa = '../imagenes/categorias/gobierno-digital.jpg';
         $this->icono         = 'fa fa-laptop';
         $this->claves        = 'IMPLAN, Indicadores, Gobierno Digital';
         $this->categorias    = array('Indicadores');

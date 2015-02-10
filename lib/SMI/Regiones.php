@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - SMI Indicadores por Región
+ * TrcIMPLAN SMIv2 - Regiones
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2015 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -79,10 +79,12 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-mineria.html" target="_blank">Índice de Especialización Local en la Minería</a></li>
       <li><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
       <li><a href="../indicadores-torreon/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
+      <li><a href="../indicadores-torreon/economia-inflacion-anual.html" target="_blank">Inflación anual</a></li>
       <li><a href="../indicadores-torreon/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
       <li><a href="../indicadores-torreon/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
       <li><a href="../indicadores-torreon/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-microempresas.html" target="_blank">Microempresas</a></li>
+      <li><a href="../indicadores-torreon/economia-nuevas-empresas.html" target="_blank">Nuevas Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-obtencion-de-credito---creacion-de-garantias.html" target="_blank">Obtención de crédito - Creación de garantías</a></li>
       <li><a href="../indicadores-torreon/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-permiso-de-construccion.html" target="_blank">Permiso de Construcción</a></li>

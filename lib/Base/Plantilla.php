@@ -43,6 +43,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public $directorio;                     // Directorio donde se guardará el archivo HTML
     public $ruta;                           // Ruta relativa a la pagina HTML
     public $imagen_previa;                  // Ruta relativa a la imagen
+    public $icono;                          // Icono de Font Awsome
     public $navegacion;                     // Instancia de \Base\Navegacion
     public $contenido            = array(); // Texto o arreglo, código HTML con el contenido
     public $mapa_inferior;                  // Instancia de \Base\MapaInferior
@@ -257,19 +258,17 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // Contenido inicia
         $a[] = '  <div id="page-wrapper">';
         if ($this->contenido_en_renglon) {
-    //      $a[] = '    <div class="row">';
-            $a[] = '      <div class="cuerpo">';
+            $a[] = '    <div class="cuerpo">';
         }
         if (is_string($this->contenido) && (trim($this->contenido) != '')) {
             $a[] = $this->contenido;
         } elseif (is_array($this->contenido) && (count($this->contenido) > 0)) {
             $a[] = implode("\n", $this->contenido);
         } else {
-            $a[] = "<b>No hay contenido para esta página.</b>";
+            $a[] = "      <b>No hay contenido para esta página.</b>";
         }
         if ($this->contenido_en_renglon) {
-            $a[] = '      </div>'; // cuerpo
-    //      $a[] = '    </div>';   // row
+            $a[] = '    </div>'; // cuerpo
         }
         if (is_object($this->mapa_inferior) && ($this->mapa_inferior instanceof MapaInferior)) {
             $a[] = $this->mapa_inferior->html();

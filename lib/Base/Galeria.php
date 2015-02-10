@@ -31,6 +31,35 @@ class Galeria {
     public $encabezado_color; // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
     public $titulo;           // Título de la página
     public $publicaciones;    // Arreglo con instancias de Publicacion
+    // Está pendiente programar que este programa lea trcimplan.css para saber cuales son los IDs
+    public $categorias_ids = array(
+        'categorias-bienestar',
+        'categorias-competitividad',
+        'categorias-cultura',
+        'categorias-delincuencia',
+        'categorias-doing-business',
+        'categorias-educacion',
+        'categorias-empleo',
+        'categorias-empresas',
+        'categorias-finanzas-publicas',
+        'categorias-genero',
+        'categorias-gobierno-digital',
+        'categorias-gobierno',
+        'categorias-grupos-vulnerables',
+        'categorias-infraestructura',
+        'categorias-innovacion',
+        'categorias-macroeconomia',
+        'categorias-mercados',
+        'categorias-movilidad',
+        'categorias-participacion-ciudadana',
+        'categorias-poblacion',
+        'categorias-recursos-naturales',
+        'categorias-salud',
+        'categorias-seguridad',
+        'categorias-servicios-publicos',
+        'categorias-transparencia',
+        'categorias-vialidad',
+        'categorias-vivienda');
 
     /**
      * Constructor
@@ -60,7 +89,7 @@ class Galeria {
             $a[] = $this->encabezado;
             // Y el título de la página es invisible
             if ($this->titulo != '') {
-                $a[] = "    <h1 style=\"display:none;\">{$this->titulo}</h1>";
+                $a[] = "      <h1 style=\"display:none;\">{$this->titulo}</h1>";
             }
         } elseif ($this->titulo != '') {
             // Hay título. Si hay icono definido en Navegación
@@ -72,18 +101,18 @@ class Galeria {
             }
             // Acumular
             if ($this->encabezado_color != '') {
-                $a[] = "    <div class=\"encabezado\" style=\"background-color:{$this->encabezado_color};\">";
+                $a[] = "      <div class=\"encabezado\" style=\"background-color:{$this->encabezado_color};\">";
             } else {
-                $a[] = '    <div class="encabezado">';
+                $a[] = '      <div class="encabezado">';
             }
-            $a[] = "      <span><h1>$encabezado</h1></span>";
-            $a[] = '    </div>';
+            $a[] = "        <span><h1>$encabezado</h1></span>";
+            $a[] = '      </div>';
         }
         // Tabla inicia
-        $a[] = '<div class="row">';
+        $a[] = '      <div class="row">';
         // Bucle por Publicaciones
         foreach ($this->publicaciones as $p) {
-            $a[] = '  <div class="col-xs-6 col-md-4 col-lg-3">';
+            $a[] = '        <div class="col-xs-6 col-md-4 col-lg-3">';
             // Validar
             if (!is_object($p)) {
                 throw new \Exception("Error en Indice, html: Una publicación no es una instancia.");
@@ -96,20 +125,31 @@ class Galeria {
                 continue;
             }
             // Acumular
-            $a[] = '            <div class="thumbnail galeria-thumbnail">';
+            $a[] = '          <div class="thumbnail galeria-thumbnail">';
             if ($p->imagen_previa != '') {
-                $a[] = "              <a href=\"{$p->url()}\"><img class=\"img-thumbnail imagen-previa\" src=\"{$p->imagen_previa}\" alt=\"{$p->nombre}\"></a>";
+                // Obtener de la ruta ../imagenes/categorias/prueba-uno.png el ID donde [1] => categorias y [2] => prueba-uno
+                preg_match('@([^/]+)/([^/]+)\.\w+$@', $p->imagen_previa, $coincidencias); //
+                $id = sprintf('%s-%s', $coincidencias[1], $coincidencias[2]);
+                // Si existe ese ID en categorias_ids
+                if (in_array($id, $this->categorias_ids)) {
+                    // Poner la imagen como rollover, el ID debe estar definido en el archivo CSS
+                    $a[] = "            <a class=\"imagen-previa\" id=\"$id\" href=\"{$p->url()}\" title=\"{$p->nombre}\"></a>";
+                } else {
+                    // Poner la imagen de forma normal
+                    $a[] = "            <a href=\"{$p->url()}\"><img class=\"img-thumbnail imagen-previa\" src=\"{$p->imagen_previa}\" alt=\"{$p->nombre}\"></a>";
+                }
+                // Agregar
             } elseif ($p->icono != '') {
-                $a[] = "              <a class=\"{$p->icono} galeria-icono\" href=\"{$p->url()}\"></a>";
+                $a[] = "            <a class=\"{$p->icono} galeria-icono\" href=\"{$p->url()}\"></a>";
             }
-            $a[] = '              <div class="caption">';
-            $a[] = "                <p class=\"galeria-nombre\"><a href=\"{$p->url()}\">{$p->nombre}</a></p>";
-            $a[] = '              </div>';
+            $a[] = '            <div class="caption">';
+            $a[] = "              <p class=\"galeria-nombre\"><a href=\"{$p->url()}\">{$p->nombre}</a></p>";
             $a[] = '            </div>';
-            $a[] = '  </div>'; // col
+            $a[] = '          </div>';
+            $a[] = '        </div>'; // col
         }
         // Tabla termina
-        $a[] = '</div>'; // row
+        $a[] = '      </div>'; // row
         // Entregar
         return implode("\n", $a)."\n";
     } // html
