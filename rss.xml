@@ -5,11 +5,54 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Mon, 09 Feb 2015 14:02:19 -0600</pubDate>
+    <pubDate>Tue, 10 Feb 2015 11:43:13 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nueva infraestructura a base de tecnología LED en Torreón</title>
+      <link>http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon.html</link>
+      <guid isPermaLink="false">blog-nueva-infraestructura-base-tecnologia-led-torreon</guid>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 -0600</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<p>Las ciudades buscan crear una identidad y definirse como lugares exclusivos, bellos y seguros. La luz blanca de calidad puede transformar el paisaje nocturno, realzando la arquitectura urbana y creando ambientes acogedores que inviten a las personas a pasar más tiempo en ellos. También previene accidentes y hace más seguras las carreteras.</p>
+
+<p>Actualmente diversos municipios en México se encuentran en el proceso, o planeando un proyecto para migrar su tecnología de iluminación pública hacia las luminarias de LED (light-emitting diode).</p>
+
+<p>El argumento de la migración es generalmente el menor gasto de energía.</p>
+
+<p>Los proveedores garantizan un ciclo de vida de entre 5 y 10 años para las lámparas, el municipio espera que estas funcionen al 100% durante los años previstos, y la población, conociendo que la inversión fue elevada, espera recibir beneficios tanto en iluminación, como en complementarios derivados del ahorro.</p>
+
+<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon/alumbrado-publico.jpg" alt="Alumbrado Publico"></p>
+
+<p>Los ledes en alumbrado público traerán ahorros de hasta 60%. Con el programa se conseguirá un ahorro energético en el pago de electricidad que realizan los municipios.</p>
+
+<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon/comparacion-lampara-vapor-sodio-vs-led.jpg" alt="Comparacion de una lampara de vapor de sodio contra una luminaria led"></p>
+
+<p>Con la ejecución de la nueva norma oficial mexicana NOM-031-ENER-2012 para regulación de las lámparas de diodos, mejor conocidas como LED, en el alumbrado público se conseguirá un ahorro energético de hasta 60% en el pago de electricidad que realizan los municipios en el país y que son los que más retrasos y endeudamientos mantienen con la Comisión Federal de Electricidad.</p>
+
+<p>México es el primer país en el continente americano en elaborar una especificación obligatoria para regular las luminarias de LED destinadas al alumbrado de áreas exteriores públicas y a las vialidades y que "con la aplicación de esta Norma los consumidores, entre ellos los municipios del país, se verán beneficiados al contar con tecnologías de iluminación que contribuyen a disminuir la facturación eléctrica con mejores estándares de eficiencia energética".</p>
+
+<p>Esta Norma Oficial Mexicana establece el cumplimiento de las siguientes especificaciones en los ledes al servicio del alumbrado público: eficacia luminosa mínima, relación del flujo luminoso total nominal, temperatura de color correlacionada, flujo luminoso total mínimo mantenido, resistencia a la conmutación, índice de rendimiento de color y factor de potencia, entre otros.</p>
+
+<p>Actualmente el municipio de Torreón cuenta con un 97.37% de viviendas con acceso a alumbrado público en su manzana, de acuerdo al Censo de Población y Vivienda 2010 de INEGI.</p>
+
+<p>El municipio de Torreón a partir del día 3 de junio del 2014 que se otorgó el acta de fallo de la licitación para el otorgamiento de la concesión del servicio de alumbrado público, ha estado trabajando en la reconversión de luminarias de vapor de sodio a led, las primeras instaladas fueron en la Avenida Morelos y en la Calzada Colón.</p>
+
+<p>Al día <strong>2 de febrero del 2015</strong> se llevan <strong>instaladas 21,389 luminarias</strong> lo cual representan un <strong>36.78% de avance general del proyecto</strong>, se ha trabajado en 188 colonias y 38 vialidades principales.</p>
+
+<p><a href="http://trcimplan.gob.mx/blog/../sig/alumbrado-publico.html" target="_blank"><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon/mapa-avance-reconversion-luminaria-led-201502.jpg" alt="Mapa de avance de reconversion led a febrero de 2015"></a></p>
+
+<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon/avenida-morelos-antes-despues.jpg" alt="Av. Morelos antes y después del alumbrado led"></p>
+
+<blockquote>
+  <p>“El verdadero progreso es el que pone la Tecnología al alcance de todos”</p>
+  
+  <p>Henry Ford</p>
+</blockquote>
+]]></description>
+    </item>
     <item>
       <title>Las generaciones del cambio</title>
       <link>http://trcimplan.gob.mx/blog/generaciones-cambio.html</link>
@@ -914,58 +957,6 @@ En University of Florida. Obtenido el 10 de Diciembre de 2014 de <a href="http:/
 <p>[1]Machisukuri. De machi: pueblo, ciudad, zona de una ciudad, asentamiento humano, y zukuri, gerundio del verbo zukuru: hacer.</p>
 
 <p>[i]Artículo 25. Corresponde al Estado la rectoría del desarrollo nacional para garantizar que éste sea integral y sustentable, que fortalezca la soberanía de la nación y su régimen democrático y que, mediante la competitividad, el fomento del crecimiento económico y el empleo y una más justa distribución del ingreso y la riqueza, permita el pleno ejercicio de la libertad y la dignidad de los individuos, grupos y clases sociales, cuya seguridad protege esta Constitución. La competitividad se entenderá como el conjunto de condiciones necesarias para generar un mayor crecimiento económico, promoviendo la inversión y la generación de empleo. Artículo 26: El Estado organizará un sistema de planeación democrática del desarrollo nacional que imprima solidez, dinamismo, competitividad, permanencia y equidad al crecimiento de la economía para la independencia y la democratización política, social y cultural de la nación.</p>
-]]></description>
-    </item>
-    <item>
-      <title>El papel de las Organizaciones Civiles en el aumento del bienestar y competitividad</title>
-      <link>http://trcimplan.gob.mx/blog/papel-organizaciones-civiles-aumento-competitividad.html</link>
-      <guid isPermaLink="false">blog-papel-organizaciones-civiles-aumento-competitividad</guid>
-      <pubDate>Wed, 10 Dec 2014 00:00:00 -0600</pubDate>
-      <author>Ing. Guillermo Valdés Lozano</author>
-      <description><![CDATA[<p><span class="contenido-imagen-previa"><img src="http://trcimplan.gob.mx/blog/papel-organizaciones-civiles-aumento-competitividad/imagen.jpg"></span></p>
-
-<p>Una característica de las <strong>organizaciones civiles</strong> es que al compartir un fin no lucrativo, no se ven obstaculizadas por objetivos financieros a corto plazo. <strong>Por lo que son capaces de dedicarse a las cuestiones que se producen a largo plazo</strong>, como el cambio climático, mejores medios de transporte, la lucha contra la malaria o la protección de las reservas ecológicas.</p>
-
-<p>En el gran número de organizaciones y multitud de propósitos de las mismas, <strong>es de vital importancia para el desarrollo económico aquellas que buscan la transformación social y la mejora de la calidad de vida;</strong> éstas constituyen un factor determinante para lograr un próspero futuro.</p>
-
-<h3>Sembrar semillas hoy será cosechar frutos mañana</h3>
-
-<p>Esta es una gran verdad cuando en lo individual hacemos planes y acciones a largo plazo. Por ejemplo, la carrera universitaria de cinco años de estudio o el hogar que pagará una pareja por veinte años.</p>
-
-<p>En ese mismo sentido, <strong>en toda ciudad, estado o país debe haber sinergia entre ciudadanos, asociaciones civiles y empresas para definir programas a largo plazo que mejoren la calidad y el bienestar de todos nosotros.</strong> Y, sin descuidar el resolver los problemas eventuales, como reparar una luminaria o cubrir un bache, hay que estar conscientes de que establecer y trabajar en grandes proyectos es esencial para un mejor futuro.</p>
-
-<h3>Hoy en día es el capital humano el más valioso</h3>
-
-<p>Un buen ejemplo a seguir como país es <strong>Corea del Sur</strong> que actualmente es la 12° economía más grande del mundo. Fué hace algunas décadas una nación "subdesarrollada" que favoreció la industrialización y atracción de capitales extranjeros. En el presente tiene empresas de reconocimiento internacional como Samsung, LG y Hyundai.</p>
-
-<p><strong>Corea del Sur</strong> ha reestructurado sus instituciones para colaborar estrechamente con expertos y organizaciones civiles. <strong>Desde 1971 creó el <a href="http://www.kdi.re.kr/kdi_eng/main/main.jsp">Korea Development Institute</a> cuyo fin es el lograr el mejor desarrollo económico y social.</strong></p>
-
-<p><a href="https://www.wolframalpha.com/input/?i=South+Korea%2C+Mexico+GDP+per+capita#"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/papel-organizaciones-civiles-aumento-competitividad/corea-del-sur-vs-mexico-pib.png" alt="PIB de Corea del Sur vs México"></a></p>
-
-<p>Bien sabido es que es un gran error confiar el desarrollo económico sólo a la explotación de la riqueza del territorio. Para México, ha sido el petróleo una fuente abundante de ingresos por décadas. Entonces, ante nuevas fuentes de energía, como podría ser la extracción de <em>Gas Shale</em>, <strong>deberemos seguir el ejemplo surcoreano, donde las organizaciones civiles supervisen las acciones del gobierno y conjuntamente velen por la protección del medio ambiente y la distribución de la riqueza</strong>, en aras de que ayude a reconstruir el tejido social y mejorar todos los niveles educativos. Así nuestra localidad y la nación podrá aspirar a tener, en el largo plazo, un avance mayúsculo en benefico de la siguiente generación.</p>
-
-<h3>Identifíquese con las organizaciones que trabajan por un mejor futuro</h3>
-
-<p>Le invito a que reflexione sobre sus experiencias y afinidades. Luego <strong>busque y acérquese a movimientos ciudadanos que concuerden con incrementar la calidad de vida en el futuro</strong> de la que escribo. En éste sentido, sólo como muestra e invitándole a que los conozca, les comparto los siguientes movimientos:</p>
-
-<ul>
-<li><a href="http://www.heforshe.org/">HeForShe</a>: Es un movimiento solidario en favor de la igualdad de género desarrollado por <a href="http://www.unwomen.org/es">ONU Mujeres</a> para implicar a hombres y niños como defensores y agentes del cambio en la consecución de la igualdad de género y de los derechos de la mujer. Entre sus objetivos está lograr una completa equidad de género en lo educativo, lo laboral y las percepciones económicas a nivel mundial.</li>
-<li><a href="http://code.org">Code.org</a>: Es una organización sin ánimo de lucro dedicada a incrementar la participación de las ciencias computacionales haciéndolas más accesibles en escuelas. Especialmente, lograr acercar a más mujeres e integrantes de las minorías étnicas. Actualmente hay déficit de personal especializado en el desarrollo de software y la demanda va en aumento; además de que <a href="http://trcimplan.gob.mx/blog/equidad-genero-informatica.html">la participación de las mujeres en las TICs es baja</a>.</li>
-<li><a href="http://codeandomexico.org/">CodeandoMéxico</a>: Es un grupo de entusiastas de la informática, desarrollo de software y la innovación, que convoca voluntarios afines a través de la publicación de retos para resolver problemas específicos de impacto social.</li>
-<li><a href="http://gulag.org.mx">Grupo de Usuarios de GNU/Linux de La Laguna, GULAG</a>: Agrupación sin fines de lucro con el fin de promover el uso del Software Libre y de GNU/Linux. Durante más de diez años de existencia ha organizado eventos con destacadas figuras y compartido conocimiento con estudiantes de todos los niveles educativos.</li>
-</ul>
-
-<p><a href="https://twitter.com/phumzileunwomen/status/531121791448932353"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/papel-organizaciones-civiles-aumento-competitividad/heforshe-en-india.jpg" alt="HeForShe en la India"></a></p>
-
-<h3>Referencias</h3>
-
-<ul>
-<li><a href="http://es.wikipedia.org/wiki/Organizaci%C3%B3n_no_gubernamental">Wikipedia - Organización no gubernamental</a>.</li>
-<li><a href="http://democracyspot.net/2014/02/03/participation-transparency-and-accountability-innovations-in-south-korea-brazil-and-the-philippines/">Participation, Transparency and Accountability: Innovations in South Korea, Brazil, and the Philippines</a>.</li>
-<li><a href="http://apecsec.org/south-korea-education-statistics/">South Korea Education Statistics</a>.</li>
-<li><a href="http://www.kdi.re.kr/kdi_eng/main/main.jsp">Korea Development Institute</a>.</li>
-<li><a href="http://www.unwomen.org/es/news/stories/2014/9/emma-watson-gender-equality-is-your-issue-too">ONU Mujeres - Emma Watson: La igualdad de género también es problema de ustedes</a>.</li>
-</ul>
 ]]></description>
     </item>
   </channel>

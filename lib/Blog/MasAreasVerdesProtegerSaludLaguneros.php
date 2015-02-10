@@ -53,7 +53,7 @@ class MasAreasVerdesProtegerSaludLaguneros extends \Base\Publicacion {
      // $this->para_compartir   = true;
         // El contenido HTML y el JavaScript
         $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/MasAreasVerdesProtegerSaludLaguneros.md');
-        $this->javascript       = '';
+     // $this->javascript       = '';
     } // constructor
 
 } // Clase MasAreasVerdesProtegerSaludLaguneros

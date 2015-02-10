@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap            http://getbootstrap.com
+           StartBootStrap (SB Admin 2)  http://startbootstrap.com
+           Morris.js                    http://www.oesmith.co.uk/morris.js
+           LeafLet                      http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La luz blanca de calidad puede transformar el paisaje nocturno, realzando la arquitectura urbana y creando ambientes acogedores que inviten a las personas a pasar más tiempo en ellos.">
+  <meta name="author" content="Arq. Daniela Patricia Corral Hernández">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Nueva infraestructura a base de tecnología LED en Torreón - IMPLAN Torreón">
+  <meta name="twitter:description" content="La luz blanca de calidad puede transformar el paisaje nocturno, realzando la arquitectura urbana y creando ambientes acogedores que inviten a las personas a pasar más tiempo en ellos.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/nueva-infraestructura-base-tecnologia-led-torreon/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon.html">
+  <meta name="og:title" content="Nueva infraestructura a base de tecnología LED en Torreón - IMPLAN Torreón">
+  <meta name="og:description" content="La luz blanca de calidad puede transformar el paisaje nocturno, realzando la arquitectura urbana y creando ambientes acogedores que inviten a las personas a pasar más tiempo en ellos.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/nueva-infraestructura-base-tecnologia-led-torreon/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon.html">
+  <title>Nueva infraestructura a base de tecnología LED en Torreón - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="http://trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi/georreferenciados.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../sig/abrir-sig.html"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Abrir el SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Alumbrado Público</a></li>
+            <li><a href="../sig/crecimiento-historico-torreon.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Crecimiento Histórico</a></li>
+            <li><a href="../sig/zonificacion-primaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Primaria</a></li>
+            <li><a href="../sig/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M1 Diagnóstico y Pronóstico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-2.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M2 Visión y Objetivos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-3.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M3 Estrategias y Proyectos</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+      <div class="cuerpo">
+<article>
+  <header>
+    <div class="encabezado">
+      <span><h1><i class="fa fa-lightbulb-o encabezado-icono"></i> Nueva infraestructura a base de tecnología LED en Torreón</h1></span>
+    </div>
+    <p class="autor-fecha">Por Arq. Daniela Patricia Corral Hernández<br>10/02/2015</p>
+  </header>
+<p>Las ciudades buscan crear una identidad y definirse como lugares exclusivos, bellos y seguros. La luz blanca de calidad puede transformar el paisaje nocturno, realzando la arquitectura urbana y creando ambientes acogedores que inviten a las personas a pasar más tiempo en ellos. También previene accidentes y hace más seguras las carreteras.</p>
+
+<p>Actualmente diversos municipios en México se encuentran en el proceso, o planeando un proyecto para migrar su tecnología de iluminación pública hacia las luminarias de LED (light-emitting diode).</p>
+
+<p>El argumento de la migración es generalmente el menor gasto de energía.</p>
+
+<p>Los proveedores garantizan un ciclo de vida de entre 5 y 10 años para las lámparas, el municipio espera que estas funcionen al 100% durante los años previstos, y la población, conociendo que la inversión fue elevada, espera recibir beneficios tanto en iluminación, como en complementarios derivados del ahorro.</p>
+
+<p><img class="img-responsive" src="nueva-infraestructura-base-tecnologia-led-torreon/alumbrado-publico.jpg" alt="Alumbrado Publico"></p>
+
+<p>Los ledes en alumbrado público traerán ahorros de hasta 60%. Con el programa se conseguirá un ahorro energético en el pago de electricidad que realizan los municipios.</p>
+
+<p><img class="img-responsive" src="nueva-infraestructura-base-tecnologia-led-torreon/comparacion-lampara-vapor-sodio-vs-led.jpg" alt="Comparacion de una lampara de vapor de sodio contra una luminaria led"></p>
+
+<p>Con la ejecución de la nueva norma oficial mexicana NOM-031-ENER-2012 para regulación de las lámparas de diodos, mejor conocidas como LED, en el alumbrado público se conseguirá un ahorro energético de hasta 60% en el pago de electricidad que realizan los municipios en el país y que son los que más retrasos y endeudamientos mantienen con la Comisión Federal de Electricidad.</p>
+
+<p>México es el primer país en el continente americano en elaborar una especificación obligatoria para regular las luminarias de LED destinadas al alumbrado de áreas exteriores públicas y a las vialidades y que "con la aplicación de esta Norma los consumidores, entre ellos los municipios del país, se verán beneficiados al contar con tecnologías de iluminación que contribuyen a disminuir la facturación eléctrica con mejores estándares de eficiencia energética".</p>
+
+<p>Esta Norma Oficial Mexicana establece el cumplimiento de las siguientes especificaciones en los ledes al servicio del alumbrado público: eficacia luminosa mínima, relación del flujo luminoso total nominal, temperatura de color correlacionada, flujo luminoso total mínimo mantenido, resistencia a la conmutación, índice de rendimiento de color y factor de potencia, entre otros.</p>
+
+<p>Actualmente el municipio de Torreón cuenta con un 97.37% de viviendas con acceso a alumbrado público en su manzana, de acuerdo al Censo de Población y Vivienda 2010 de INEGI.</p>
+
+<p>El municipio de Torreón a partir del día 3 de junio del 2014 que se otorgó el acta de fallo de la licitación para el otorgamiento de la concesión del servicio de alumbrado público, ha estado trabajando en la reconversión de luminarias de vapor de sodio a led, las primeras instaladas fueron en la Avenida Morelos y en la Calzada Colón.</p>
+
+<p>Al día <strong>2 de febrero del 2015</strong> se llevan <strong>instaladas 21,389 luminarias</strong> lo cual representan un <strong>36.78% de avance general del proyecto</strong>, se ha trabajado en 188 colonias y 38 vialidades principales.</p>
+
+<p><a href="../sig/alumbrado-publico.html" target="_blank"><img class="img-responsive" src="nueva-infraestructura-base-tecnologia-led-torreon/mapa-avance-reconversion-luminaria-led-201502.jpg" alt="Mapa de avance de reconversion led a febrero de 2015"></a></p>
+
+<p><img class="img-responsive" src="nueva-infraestructura-base-tecnologia-led-torreon/avenida-morelos-antes-despues.jpg" alt="Av. Morelos antes y después del alumbrado led"></p>
+
+<blockquote>
+  <p>“El verdadero progreso es el que pone la Tecnología al alcance de todos”</p>
+  
+  <p>Henry Ford</p>
+</blockquote>
+
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftrcimplan.gob.mx%2Fblog%2Fnueva-infraestructura-base-tecnologia-led-torreon.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+      </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón.</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
