@@ -91,11 +91,11 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     } // incorporar_publicacion
 
     /**
-     * Cabezera
+     * Cabecera
      *
      * @return string Código HTML
      */
-    protected function cabezera() {
+    protected function cabecera() {
         // Título
         if (($this->titulo == '') || ($this->titulo == $this->sitio_titulo)) {
             $titulo = $this->sitio_titulo;
@@ -135,6 +135,12 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = sprintf('  <meta name="og:url" content="%s/%s">', $this->sitio_url, $this->ruta);
         }
         $a[] = "  <title>$titulo</title>";
+        if (isset($this->cabecera_bootstrap_css)) {
+            $a[] = "  {$this->cabecera_bootstrap_css}";
+        }
+        if (isset($this->cabecera_font_awesome_css)) {
+            $a[] = "  {$this->cabecera_font_awesome_css}";
+        }
         if ($this->en_raiz) {
             if ($this->favicon != '') {
                 $a[] = "  <link href=\"{$this->favicon}\" rel=\"shortcut icon\" type=\"image/x-icon\">";
@@ -142,12 +148,16 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             if ($this->rss != '') {
                 $a[] = "  <link href=\"{$this->rss}\" rel=\"alternate\" type=\"application/rss+xml\" title=\"{$this->sitio_titulo}\">";
             }
-            $a[] = '  <link href="css/bootstrap.min.css" rel="stylesheet">';
+            if (!isset($this->cabecera_bootstrap_css)) {
+                $a[] = '  <link href="css/bootstrap.min.css" rel="stylesheet">';
+            }
             $a[] = '  <link href="css/morris.css" rel="stylesheet">';
             $a[] = '  <link href="css/leaflet.css" rel="stylesheet">';
             $a[] = '  <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">';
             $a[] = '  <link href="css/sb-admin-2.css" rel="stylesheet">';
-            $a[] = '  <link href="css/font-awesome.min.css" rel="stylesheet">';
+            if (!isset($this->cabecera_font_awesome_css)) {
+                $a[] = '  <link href="css/font-awesome.min.css" rel="stylesheet">';
+            }
             if ($this->propio_css != '') {
                 $a[] = "  <link href=\"{$this->propio_css}\" rel=\"stylesheet\">";
             }
@@ -158,18 +168,21 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             if ($this->rss != '') {
                 $a[] = "  <link href=\"../{$this->rss}\" rel=\"alternate\" type=\"application/rss+xml\" title=\"{$this->sitio_titulo}\">";
             }
-            $a[] = '  <link href="../css/bootstrap.min.css" rel="stylesheet">';
+            if (!isset($this->cabecera_bootstrap_css)) {
+                $a[] = '  <link href="../css/bootstrap.min.css" rel="stylesheet">';
+            }
             $a[] = '  <link href="../css/morris.css" rel="stylesheet">';
             $a[] = '  <link href="../css/leaflet.css" rel="stylesheet">';
             $a[] = '  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">';
             $a[] = '  <link href="../css/sb-admin-2.css" rel="stylesheet">';
-            $a[] = '  <link href="../css/font-awesome.min.css" rel="stylesheet">';
+            if (!isset($this->cabecera_font_awesome_css)) {
+                $a[] = '  <link href="../css/font-awesome.min.css" rel="stylesheet">';
+            }
             if ($this->propio_css != '') {
                 $a[] = "  <link href=\"../{$this->propio_css}\" rel=\"stylesheet\">";
             }
         }
         // Google fonts inicia
-        //$a[] = '  <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">';
         $a[] = '  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">';
         // Google fonts termina
         $a[] = '  <!-- SOPORTE PARA IE -->';
@@ -180,7 +193,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a[] = '</head>';
         // Entregar
         return implode("\n", $a);
-    } // cabezera
+    } // cabecera
 
     /**
      * Scripts
@@ -191,17 +204,31 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
+        if (isset($this->scripts_jquery_css)) {
+            $a[] = $this->scripts_jquery_css;
+        }
+        if (isset($this->scripts_bootstrap_js)) {
+            $a[] = $this->scripts_bootstrap_js;
+        }
         if ($this->en_raiz) {
-            $a[] = '<script src="js/jquery.min.js"></script>';
-            $a[] = '<script src="js/bootstrap.min.js"></script>';
+            if (!isset($this->scripts_jquery_css)) {
+                $a[] = '<script src="js/jquery.min.js"></script>';
+            }
+            if (!isset($this->scripts_bootstrap_js)) {
+                $a[] = '<script src="js/bootstrap.min.js"></script>';
+            }
             $a[] = '<script src="js/raphael-min.js"></script>';
             $a[] = '<script src="js/morris.min.js"></script>';
             $a[] = '<script src="js/leaflet.js"></script>';
             $a[] = '<script src="js/plugins/metisMenu/metisMenu.min.js"></script>';
             $a[] = '<script src="js/sb-admin-2.js"></script>';
         } else {
-            $a[] = '<script src="../js/jquery.min.js"></script>';
-            $a[] = '<script src="../js/bootstrap.min.js"></script>';
+            if (!isset($this->scripts_jquery_css)) {
+                $a[] = '<script src="../js/jquery.min.js"></script>';
+            }
+            if (!isset($this->scripts_bootstrap_js)) {
+                $a[] = '<script src="../js/bootstrap.min.js"></script>';
+            }
             $a[] = '<script src="../js/raphael-min.js"></script>';
             $a[] = '<script src="../js/morris.min.js"></script>';
             $a[] = '<script src="../js/leaflet.js"></script>';
@@ -223,7 +250,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = $this->javascript;
             $a[] = '</script>';
         }
-        if ($this->google_analytics != '') {
+        if (isset($this->google_analytics)) {
             $a[] = $this->google_analytics;
         }
         // Entregar
@@ -251,7 +278,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         if ($this->mensaje_oculto != '') {
             $a[] = $this->mensaje_oculto;
         }
-        $a[] = $this->cabezera();
+        $a[] = $this->cabecera();
         $a[] = '<body>';
         $a[] = '<div id="wrapper">';
         $a[] = $this->navegacion->html();

@@ -28,7 +28,7 @@ namespace Configuracion;
 class PlantillaConfig {
 
     public $sitio_titulo   = 'IMPLAN Torreón';
-    public $sitio_url      = 'http://trcimplan.gob.mx'; // Sin diagonal al final
+    public $sitio_url      = 'http://www.trcimplan.gob.mx'; // Sin diagonal al final
     public $rss            = 'rss.xml';
     public $favicon        = 'imagenes/favicon.png';
     public $propio_css     = 'css/trcimplan.css';
@@ -36,26 +36,27 @@ class PlantillaConfig {
     public $para_compartir = true;        // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
     public $autor          = 'TrcIMPLAN'; // Autor por defecto
     public $mensaje_oculto = <<<FINAL
-<!-- ========================================================================================
+<!-- ===========================================================================================
 
         Instituto Municipal de Planeación y Competitividad de Torreón.
-        Todos los Derechos Reservados. © 2014.
 
         Este sistema fue elaborado por personal del IMPLAN Torreón.
-        Es publicado como Software Libre bajo la licencia GPL versión 3.
-
-        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
-           GitHub             https://github.com/TRCIMPLAN
-
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+           http://trcimplan.gob.mx/terminos/terminos-informacion.html
+           http://trcimplan.gob.mx/terminos/terminos-sitio.html
         Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
-           Twitter Bootstrap            http://getbootstrap.com
-           StartBootStrap (SB Admin 2)  http://startbootstrap.com
-           Morris.js                    http://www.oesmith.co.uk/morris.js
-           LeafLet                      http://leafletjs.com
+           Twitter Bootstrap    http://getbootstrap.com
+           StartBootStrap       http://startbootstrap.com
+           Morris.js            http://www.oesmith.co.uk/morris.js
+           LeafLet              http://leafletjs.com
+           CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+           GitHub               https://github.com/TRCIMPLAN
 
-     ======================================================================================== -->
+     =========================================================================================== -->
 FINAL;
-    public $pie              = '  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón.</p>';
+    public $pie              = '  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>';
     public $google_analytics = <<<FINAL
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -68,6 +69,11 @@ FINAL;
 
 </script>
 FINAL;
+    public $cabecera_bootstrap_css    = '<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">';
+    public $cabecera_font_awesome_css = '<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">';
+    public $cabecera_google_fonts_css = '<link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">';
+    public $scripts_jquery_css        = '<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>';
+    public $scripts_bootstrap_js      = '<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>';
 
 } // Clase PlantillaConfig
 
