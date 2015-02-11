@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+        Todos los Derechos Reservados. © 2014.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        Es publicado como Software Libre bajo la licencia GPL versión 3.
+
+        Descargue, estudie y colabore con el IMPLAN Torreón por medio de GitHub:
+           GitHub             https://github.com/TRCIMPLAN
+
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap            http://getbootstrap.com
+           StartBootStrap (SB Admin 2)  http://startbootstrap.com
+           Morris.js                    http://www.oesmith.co.uk/morris.js
+           LeafLet                      http://leafletjs.com
+
+     ======================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Actualmente el concepto de ciudad inteligente o digital se maneja a nivel global. Muchas ciudades de este tipo se están desarrollando en diferentes lugares del mundo, cada una con su propio sistema, diseño, estructura y organización.">
+  <meta name="author" content="Arq. Ilse Ávila García">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Direccionando hacia la innovación urbana - IMPLAN Torreón">
+  <meta name="twitter:description" content="Actualmente el concepto de ciudad inteligente o digital se maneja a nivel global. Muchas ciudades de este tipo se están desarrollando en diferentes lugares del mundo, cada una con su propio sistema, diseño, estructura y organización.">
+  <meta name="twitter:image" content="http://trcimplan.gob.mx/direccionando-hacia-innovacion-urbana/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://trcimplan.gob.mx/blog/direccionando-hacia-innovacion-urbana.html">
+  <meta name="og:title" content="Direccionando hacia la innovación urbana - IMPLAN Torreón">
+  <meta name="og:description" content="Actualmente el concepto de ciudad inteligente o digital se maneja a nivel global. Muchas ciudades de este tipo se están desarrollando en diferentes lugares del mundo, cada una con su propio sistema, diseño, estructura y organización.">
+  <meta name="og:image" content="http://trcimplan.gob.mx/direccionando-hacia-innovacion-urbana/imagen-previa.jpg">
+  <meta name="og:url" content="http://trcimplan.gob.mx/blog/direccionando-hacia-innovacion-urbana.html">
+  <title>Direccionando hacia la innovación urbana - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="http://trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi/georreferenciados.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../sig/abrir-sig.html"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Abrir el SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Alumbrado Público</a></li>
+            <li><a href="../sig/crecimiento-historico-torreon.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Crecimiento Histórico</a></li>
+            <li><a href="../sig/zonificacion-primaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Primaria</a></li>
+            <li><a href="../sig/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M1 Diagnóstico y Pronóstico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-2.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M2 Visión y Objetivos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-3.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M3 Estrategias y Proyectos</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+<article>
+  <header>
+    <div class="encabezado">
+      <span><h1><i class="fa fa-lightbulb-o encabezado-icono"></i> Direccionando hacia la innovación urbana</h1></span>
+    </div>
+    <p class="autor-fecha">Por Arq. Ilse Ávila García<br>11/02/2015</p>
+  </header>
+<p><span class="contenido-imagen-previa"><img src="direccionando-hacia-innovacion-urbana/imagen.jpg"></span></p>
+
+<p>Actualmente el concepto de ciudad inteligente o digital se maneja a nivel global. Muchas ciudades de este tipo se están desarrollando en diferentes lugares del mundo, cada una con su propio sistema, diseño, estructura y organización. Este concepto nace hace dos décadas como respuesta a la problemática de sostenibilidad y a la deficiencia energética. Recientemente se ha ampliado el concepto a la infraestructura de las Tecnologías de Información y Comunicación (TIC´s). La ciudad de Torreón no es ajena a este concepto, cuenta con una gran área de oportunidad para desarrollarse en una forma ordenada y se traduzca en beneficios para sus ciudadanos.</p>
+
+<p>Greenfield afirma, que las ciudades ya son inteligentes sin necesidad de las soluciones tecnológicas que venden IBM, Siemens, Cisco y demás y que esta inteligencia reside en sus ciudadanos.  Su invitación es que aquellos que estamos en el diseño y la gestión de la ciudad debemos centrar las acciones en el componente humano de la ciudad. (1)</p>
+
+<p>Una Ciudad Inteligente lo es, utilizando todo el abanico de tecnologías disponibles al servicio de los ciudadanos. Igualmente debe ser capaz de crear empleos, además de tener un sistema de transporte de alta calidad, para así garantizar una buena y cómoda movilidad. A esta lista también se agregan hogares saludables y funcionales, un buen sistema sanitario y educativo, y facilidades en materia de ocio y diversión. (2)</p>
+
+<p>Es un medio innovador que conlleva al progreso de la región donde se localiza geográficamente y a su vez que tenga la fortaleza de competir por un lugar dentro de la red global,  Ciudad Digital  puede entenderse como un conjunto de soluciones de TIC’s, aplicadas a nivel local, que bajo ciertas condiciones, pueden afectar positivamente todos los sectores de la sociedad en la cual se implementa. (3)</p>
+
+<h3>Los aspectos de una Smart City</h3>
+
+<p>Recordemos que no existen dos ciudades iguales, todas son diferentes, en cultura, fisonomía, clima, topografía, localización, economía  e identidad, de los esfuerzos que lleve a cabo cada ciudad dependiendo de su diagnostico podrá seguir cualquiera de los siguientes aspectos para direccionarse  hacia una Ciudad Inteligente:</p>
+
+<ul>
+<li>Ser sostenible a largo plazo ambiental y económicamente</li>
+<li>Gestionar eficientemente  los servicios</li>
+<li>Innovando en recursos materiales y modelos  con tecnologías</li>
+<li>Movilidad</li>
+<li>Distribución de servicios urbanos  (agua, electricidad, drenaje, comunicación, gestión de residuos)</li>
+<li>Calidad en servicios de educación, salud, emergencias, seguridad, atención a las personas, etc.</li>
+</ul>
+
+<p>América Latina es una región emergente en la que este concepto va ganando terreno y un gran número de ciudades están haciendo un importante esfuerzo por adoptar estos aspectos a su planeación de ciudad, partiendo de los diagnósticos y fortalezas que tienen cada una  en especifico definen la visión del aspecto que mejor se adecua a su modelo y decide las estrategias necesarias para lograrlo, de acuerdo a la metodología de “Rueda de ciudades inteligentes” (desarrollada por Boyd Cohen) enlistamos algunos: (4)</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Aspecto</th>
+  <th>Indicadores</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Gente Inteligente</td>
+  <td>creatividad, sociedad inclusiva, educación del s. XXI</td>
+</tr>
+<tr>
+  <td>Ambientalmente Inteligente</td>
+  <td>edificios autosostenibles, energía renovable, planeación urbana ecológica</td>
+</tr>
+<tr>
+  <td>Vida Inteligente</td>
+  <td>saludable, segura, culturalmente vibrante y alegre</td>
+</tr>
+<tr>
+  <td>Economía Inteligente</td>
+  <td>emprendimiento e innovación, productividad, interconexión local y global</td>
+</tr>
+<tr>
+  <td>Gobierno Inteligente</td>
+  <td>habilita políticos de oferta y demanda, transparencia y acceso a la información, gobierno en línea</td>
+</tr>
+<tr>
+  <td>Movilidad Inteligente</td>
+  <td>accesibilidad, transportes ecológicos, integral</td>
+</tr>
+</tbody>
+</table>
+
+<p><img class="img-responsive" src="direccionando-hacia-innovacion-urbana/smart-city-and-living.jpg" alt="Smart city and living"></p>
+
+<p>Por otra parte, se realizó una evaluación con la mencionada metodología para identificar a las ciudades inteligentes de América Latina dónde  sobresalen las siguientes capitales:</p>
+
+<ul>
+<li>Santiago de Chile, Chile</li>
+<li>Ciudad de México, México</li>
+<li>Bogotá, Colombia,</li>
+<li>Buenos Aires, Argentina</li>
+<li>Rio de Janeiro, Brasil</li>
+</ul>
+
+<p>La importancia de las ventajas competitivas externas, asociadas con la productividad, la concentración, oferta de factores productivos,  las condiciones de la demanda, derivadas del potencial de mercado y de la estructura económica urbana que, en cierto sentido, favorecen a algunas de las ciudades ubicadas en el rango de ciudades intermedias, en México están capitalizando estos aspectos ciudades como Querétaro, León, Monterrey y Guadalajara, las cuales se ejemplifican brevemente a continuación:</p>
+
+<p><strong>Querétaro:</strong> En esta ciudad se construye el complejo inteligente  Ciudad Maderas, en el municipio el Marqués  cerca de la autopista México-Querétaro. Será el primero en su tipo en el país, con una superficie de casi 400 hectáreas, incluye: empresas tecnológicas, hoteles, universidad, vivienda residencial, así como el uso de energías sustentables como la eólica y la solar; vincula diversos aspectos de la vida a internet, los colonos podrán tener App´s en sus teléfonos móviles, sobre los servicios como transporte, recolección de basura, agua, luz, gas. Las viviendas contarán con sensores para la lectura de humedad, temperatura, el complejo contará en su totalidad con acceso a internet.</p>
+
+<p><strong>León Guanajuato:</strong> Es una ciudad intermedia que ha trabajado mucho en una planeación a largo plazo,  apostando en un inicio a la movilidad, redefiniendo el desarrollo urbano como un componente de desarrollo económico para mejorar la eficiencia de la ciudad y la calidad de vida de sus ciudadanos, aunado a la prestación de servicios electrónicos y la biblioteca virtual.</p>
+
+<p><strong>Monterrey:</strong> El Tecnológico de Monterrey impulsa el proyecto “Distrito Tec” en 2012 de re-densificar los espacios urbanos donde se localizan sus campus, el 22% de la población ha dejado de vivir ahí; iniciando como plan piloto  en el campus de la ciudad de Monterrey N.L. El plan maestro inició en 2013 analizando la problemática para consensar con los vecinos y llegar a una solución conjunta. Actualmente se encuentra en fase arquitectónica, está conformado por 437 has, 17 colonias, 8,800 viviendas y 17,000 habitantes. Es un proyecto a 20 años, la visión estratégica de este proyecto va encaminada  a fortalecer las capacidades generadoras de investigación. (5)</p>
+
+<p><strong>Guadalajara:</strong> Desarrolla el plan maestro “Ciudad Creativa Digital” que contempla cinco áreas de desarrollo como son diseño urbano, infraestructura, movilidad, sustentabilidad ambiental y tecnología en el Centro Histórico de la ciudad. Tiene como objetivo potencializar el ecosistema emprendedor en la industria creativa en empresas en etapa temprana con alto potencial de valor agregado, en un modelo de negocio claro y un mercado identificado de crecimiento o escalamiento global.</p>
+
+<p>Las ciudades inteligentes van mas allá de querer ligar un proyecto tecnológico o digital, es un conjunto de elementos que trabajan  entre si de una manera competitiva y sostenible que garantice el crecimiento económico, bienestar social y la calidad de vida a sus habitantes. No todas las ciudades parten de las mismas premisas, deben mantener su  identidad y la posibilidad de que sus ciudadanos se identifiquen con ella, para ello se deben conocer a profundidad sus  necesidades  y entender cómo funciona, para ofrecer una visión clara partiendo de las fortalezas con una integración de sustentabilidad, desarrollo económico, políticas públicas, ordenamiento territorial, movilidad y desarrollo social. Una ciudad con servicios de calidad que generen confiabilidad, seguridad, utilidad. Debemos trabajar para lograr. (6)</p>
+
+<p>La Ciudad de Torreón, enfrenta retos y grandes oportunidades ante las Smart Cities: la identificación de la vocación como región, aprovechando y direccionando la amplia gama de oferta educativa que es necesario enfocar  para la generación de conocimiento, uso de Tecnologías y comunicaciones,  impulsando  el emprendimiento y la innovación, para incentivar el desarrollo económico. Aprovechar la productividad como una fortaleza de la región,  brindando incentivos a los proyectos sustentables y en armonía con el medio ambiente, mantener un gobierno transparente, espacios públicos de calidad con acceso a servicios digitales, programas que fomenten una vida saludable y promuevan una  identidad cultural, infraestructura de gran escala, conectividad y movilidad incluyentes amables con el peatón y medios de transporte no motorizados.</p>
+
+<ol>
+<li>Adam Greenfield, (2013) Adaptado de <a href="http://www.i-ambiente.es/?q=blogs/redefiniendo-la-ciudadinteligente-parte-ii#sthash.0rPGtUta.dpuf">“Against the Smart City” investigador de London School of Economics</a>.</li>
+<li>Adaptado de <a href="http://www.i-ambiente.es/?q=blogs/redefiniendo-la-ciudadinteligente-parte-ii#sthash.0rPGtUta.dpuf">Fadela Amara (2010)</a>.</li>
+<li>Adaptado de <a href="http://www.cibersociedad.net/public/documents/45_epi6.pdf">CiberSociedad.net</a></li>
+<li>Adaptado de <a href="http://www.forosperu.net/temas/estudio-social-las-8-ciudades-mas-inteligentes-de-latinoamerica.546860/">Estudio Social las 8 ciudades más inteligentes de América Latina</a>.</li>
+<li>Adaptado de Periódico Reforma fecha. 28.07.14 sec. Suplemento pag. 4-10.</li>
+<li>Adaptado de <a href="http://concyteg.gob.mx/ideasConcyteg/Archivos/86_2_MORENO_MATA.pdf">CONCYTEG.gob.mx</a>.</li>
+</ol>
+
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftrcimplan.gob.mx%2Fblog%2Fdireccionando-hacia-innovacion-urbana.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón.</p>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
