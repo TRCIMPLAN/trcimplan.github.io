@@ -1,22 +1,8 @@
 <?php
 /**
- * TrcIMPLAN SMIv2 - ParticipacionCiudadana
+ * ParticipacionCiudadana.php
  *
- * Copyright (C) 2015 IMPLAN Torreón
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
+ * IMPLAN Torreón
  */
 
 // Namespace
@@ -36,7 +22,7 @@ class ParticipacionCiudadana extends \Base\Publicacion {
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'participacion-ciudadana';
         $this->descripcion   = 'Matriz de indicadores en la categoría Participación Ciudadana';
-        $this->imagen_previa = '../imagenes/categorias/participacion-ciudadana.jpg';
+        $this->imagen_previa = '';
         $this->icono         = 'fa fa-puzzle-piece';
         $this->claves        = 'IMPLAN, Indicadores, Participación Ciudadana';
         $this->categorias    = array('Indicadores');

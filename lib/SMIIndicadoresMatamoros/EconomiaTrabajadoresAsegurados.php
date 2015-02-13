@@ -114,6 +114,24 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 965 trabajadores más durante el presente año.</td>
           </tr>
+          <tr>
+            <td>31/10/2014</td>
+            <td>7,698</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/11/2014</td>
+            <td>7,630</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>7,474</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Personas.</p>
@@ -142,38 +160,38 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-09-30</td>
-            <td>170,628</td>
+            <td>2014-12-31</td>
+            <td>169,066</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 9037 trabajadores más durante el presente año.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-09-30</td>
-            <td>74,974</td>
+            <td>2014-12-31</td>
+            <td>75,458</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 3,765 trabajadores más durante el presente año.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-09-30</td>
-            <td>13,251</td>
+            <td>2014-12-31</td>
+            <td>12,906</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 267 trabajadores menos durante el presente año.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-09-30</td>
-            <td>7,763</td>
+            <td>2014-12-31</td>
+            <td>7,474</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 965 trabajadores más durante el presente año.</td>
+            <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-09-30</td>
-            <td>266,616</td>
+            <td>2014-12-31</td>
+            <td>264,904</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
-            <td>La diferencia de trabajadores asegurados entre el 31 de Diciembre de 2013 y el 30 de Septiembre de 2014, es de 13500 trabajadores más durante el presente año.</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -334,7 +352,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2013-11-30', dato: 7638 },{ fecha: '2013-12-31', dato: 6798 },{ fecha: '2014-01-31', dato: 7000 },{ fecha: '2014-02-28', dato: 7024 },{ fecha: '2014-03-31', dato: 7060 },{ fecha: '2014-04-30', dato: 7118 },{ fecha: '2014-05-31', dato: 7176 },{ fecha: '2014-06-30', dato: 7363 },{ fecha: '2014-07-31', dato: 7542 },{ fecha: '2014-08-31', dato: 7875 },{ fecha: '2014-09-30', dato: 7763 }],
+      data: [{ fecha: '2013-11-30', dato: 7638 },{ fecha: '2013-12-31', dato: 6798 },{ fecha: '2014-01-31', dato: 7000 },{ fecha: '2014-02-28', dato: 7024 },{ fecha: '2014-03-31', dato: 7060 },{ fecha: '2014-04-30', dato: 7118 },{ fecha: '2014-05-31', dato: 7176 },{ fecha: '2014-06-30', dato: 7363 },{ fecha: '2014-07-31', dato: 7542 },{ fecha: '2014-08-31', dato: 7875 },{ fecha: '2014-09-30', dato: 7763 },{ fecha: '2014-10-31', dato: 7698 },{ fecha: '2014-11-30', dato: 7630 },{ fecha: '2014-12-31', dato: 7474 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -350,7 +368,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 170628 },{ region: 'Gómez Palacio', dato: 74974 },{ region: 'Lerdo', dato: 13251 },{ region: 'Matamoros', dato: 7763 },{ region: 'La Laguna', dato: 266616 }],
+      data: [{ region: 'Torreón', dato: 169066 },{ region: 'Gómez Palacio', dato: 75458 },{ region: 'Lerdo', dato: 12906 },{ region: 'Matamoros', dato: 7474 },{ region: 'La Laguna', dato: 264904 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

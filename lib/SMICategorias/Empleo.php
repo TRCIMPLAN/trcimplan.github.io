@@ -1,22 +1,8 @@
 <?php
 /**
- * TrcIMPLAN SMIv2 - Empleo
+ * Empleo.php
  *
- * Copyright (C) 2015 IMPLAN Torreón
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
+ * IMPLAN Torreón
  */
 
 // Namespace
@@ -36,7 +22,7 @@ class Empleo extends \Base\Publicacion {
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'empleo';
         $this->descripcion   = 'Matriz de indicadores en la categoría Empleo';
-        $this->imagen_previa = '../imagenes/categorias/empleo.jpg';
+        $this->imagen_previa = '';
         $this->icono         = 'fa fa-wrench';
         $this->claves        = 'IMPLAN, Indicadores, Empleo';
         $this->categorias    = array('Indicadores');
@@ -102,29 +88,29 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Desempleo Abierto</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">4.57 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">7.04 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">9.23 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.31 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.74 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">7.09 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">7.55 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">3.70 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">7.14 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">6.99 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de informalidad</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.25 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.04 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">61.02 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">55.06 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">43.80 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">39.89 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">43.63 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">57.69 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">56.92 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">43.37 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2014, Instituto Mexicano del Seguro Social (IMSS)">170,628</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2014, Instituto Mexicano del Seguro Social (IMSS)">74,974</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2014, Instituto Mexicano del Seguro Social (IMSS)">13,251</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2014, Instituto Mexicano del Seguro Social (IMSS)">7,763</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2014, Instituto Mexicano del Seguro Social (IMSS)">266,616</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2014, Instituto Mexicano del Seguro Social (IMSS)">169,066</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2014, Instituto Mexicano del Seguro Social (IMSS)">75,458</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2014, Instituto Mexicano del Seguro Social (IMSS)">12,906</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2014, Instituto Mexicano del Seguro Social (IMSS)">7,474</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2014, Instituto Mexicano del Seguro Social (IMSS)">264,904</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>

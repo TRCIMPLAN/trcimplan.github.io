@@ -1,22 +1,8 @@
 <?php
 /**
- * TrcIMPLAN SMIv2 - RecursosNaturales
+ * RecursosNaturales.php
  *
- * Copyright (C) 2015 IMPLAN Torreón
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
+ * IMPLAN Torreón
  */
 
 // Namespace
@@ -36,7 +22,7 @@ class RecursosNaturales extends \Base\Publicacion {
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'recursos-naturales';
         $this->descripcion   = 'Matriz de indicadores en la categoría Recursos Naturales';
-        $this->imagen_previa = '../imagenes/categorias/recursos-naturales.jpg';
+        $this->imagen_previa = '';
         $this->icono         = 'fa fa-leaf';
         $this->claves        = 'IMPLAN, Indicadores, Recursos Naturales';
         $this->categorias    = array('Indicadores');

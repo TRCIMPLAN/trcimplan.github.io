@@ -1,22 +1,8 @@
 <?php
 /**
- * TrcIMPLAN SMIv2 - Indice
+ * Indice.php
  *
- * Copyright (C) 2015 IMPLAN Torreón
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
+ * IMPLAN Torreón
  */
 
 // Namespace
@@ -178,12 +164,12 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Desempleo Abierto</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.31 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">7.14 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de informalidad</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 30/09/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">55.06 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">56.92 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -193,7 +179,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/09/2014, Instituto Mexicano del Seguro Social (IMSS)">7,763</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2014, Instituto Mexicano del Seguro Social (IMSS)">7,474</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>

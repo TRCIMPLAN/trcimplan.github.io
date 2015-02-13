@@ -120,6 +120,12 @@ class EconomiaTasaDeInformalidad extends \Base\Publicacion {
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>43.63 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -145,36 +151,36 @@ class EconomiaTasaDeInformalidad extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-09-30</td>
-            <td>41.25 %</td>
+            <td>2014-12-31</td>
+            <td>39.89 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-09-30</td>
-            <td>41.04 %</td>
+            <td>2014-12-31</td>
+            <td>43.63 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-09-30</td>
-            <td>61.02 %</td>
+            <td>2014-12-31</td>
+            <td>57.69 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-09-30</td>
-            <td>55.06 %</td>
+            <td>2014-12-31</td>
+            <td>56.92 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-09-30</td>
-            <td>43.80 %</td>
+            <td>2014-12-31</td>
+            <td>43.37 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
@@ -337,7 +343,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2011-12-31', dato: 41.0900 },{ fecha: '2012-03-31', dato: 45.8900 },{ fecha: '2012-06-30', dato: 40.7500 },{ fecha: '2012-09-30', dato: 49.4400 },{ fecha: '2012-12-31', dato: 45.4500 },{ fecha: '2013-03-31', dato: 39.5600 },{ fecha: '2013-06-30', dato: 40.2000 },{ fecha: '2013-09-30', dato: 41.2700 },{ fecha: '2013-12-31', dato: 41.5900 },{ fecha: '2014-03-31', dato: 43.2900 },{ fecha: '2014-06-30', dato: 43.5000 },{ fecha: '2014-09-30', dato: 41.0400 }],
+      data: [{ fecha: '2011-12-31', dato: 41.0900 },{ fecha: '2012-03-31', dato: 45.8900 },{ fecha: '2012-06-30', dato: 40.7500 },{ fecha: '2012-09-30', dato: 49.4400 },{ fecha: '2012-12-31', dato: 45.4500 },{ fecha: '2013-03-31', dato: 39.5600 },{ fecha: '2013-06-30', dato: 40.2000 },{ fecha: '2013-09-30', dato: 41.2700 },{ fecha: '2013-12-31', dato: 41.5900 },{ fecha: '2014-03-31', dato: 43.2900 },{ fecha: '2014-06-30', dato: 43.5000 },{ fecha: '2014-09-30', dato: 41.0400 },{ fecha: '2014-12-31', dato: 43.6300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -353,7 +359,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 41.2500 },{ region: 'Gómez Palacio', dato: 41.0400 },{ region: 'Lerdo', dato: 61.0200 },{ region: 'Matamoros', dato: 55.0600 },{ region: 'La Laguna', dato: 43.8000 }],
+      data: [{ region: 'Torreón', dato: 39.8900 },{ region: 'Gómez Palacio', dato: 43.6300 },{ region: 'Lerdo', dato: 57.6900 },{ region: 'Matamoros', dato: 56.9200 },{ region: 'La Laguna', dato: 43.3700 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
