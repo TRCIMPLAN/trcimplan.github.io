@@ -4,7 +4,7 @@
 * Twitter [@trcimplan](https://www.twitter.com/trcimplan)
 * Facebook [/trcimplan](https://facebook.com/trcimplan)
 
-### Información general
+### Correo electrónico para información general
 
 * [info@trcimplan.mx](mailto:info@trcimplan.mx)
 
@@ -19,14 +19,16 @@
 
 ### Teléfono
 
-    (871) 500 7078
+(871) 500 7078
 
 ### Dirección
 
+<iframe width='100%' height='520' frameborder='0' src='http://guivaloz.cartodb.com/viz/1cdb40aa-b3bf-11e4-91ec-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
     Antiguo Edificio del Banco de México, segundo piso.
-    Av. Morelos esquina con C. Cepeda. Col. Centro.
+    Av. Morelos 1217 Pte. esquina con C. Cepeda. Col. Centro.
     Torreón, Coahuila, México. C.P. 27000
 
 ### Horario
 
-    De lunes a viernes de 8:00 A.M. a 4:00 P.M.
+    Lunes a viernes de 8:00 A.M. a 4:00 P.M.
