@@ -21,14 +21,13 @@
 
 (871) 500 7078
 
-### Dirección
-
-<iframe width='100%' height='520' frameborder='0' src='http://guivaloz.cartodb.com/viz/1cdb40aa-b3bf-11e4-91ec-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+### Dirección y horario
 
     Antiguo Edificio del Banco de México, segundo piso.
     Av. Morelos 1217 Pte. esquina con C. Cepeda. Col. Centro.
     Torreón, Coahuila, México. C.P. 27000
-
-### Horario
-
     Lunes a viernes de 8:00 A.M. a 4:00 P.M.
+
+### Mapa con la ubicación
+
+<iframe width='100%' height='520' frameborder='0' src='http://guivaloz.cartodb.com/viz/1cdb40aa-b3bf-11e4-91ec-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
