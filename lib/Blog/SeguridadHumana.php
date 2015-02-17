@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - La prevención de la Delincuencia Juvenil, elemento central de la prevención integral del delito y la violencia
+ * TrcIMPLAN Sitio Web - DESCRIPCION
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2015 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,27 +23,27 @@
 namespace Blog;
 
 /**
- * Clase PrevencionDelincuenciaJuvenil
+ * Clase SeguridadHumana
  */
-class PrevencionDelincuenciaJuvenil extends \Base\Publicacion {
+class SeguridadHumana extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre           = 'La prevención de la Delincuencia Juvenil, elemento central de la prevención integral del delito y la violencia';
+        $this->nombre           = 'Seguridad Humana';
         $this->autor            = 'Lic. Alfredo Viesca Domínguez';
-        $this->fecha            = '2015-01-07';
+        $this->fecha            = '2015-02-17';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'prevencion-delincuencia-juvenil';
-        $this->imagen_previa    = 'prevencion-delincuencia-juvenil/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="prevencion-delincuencia-juvenil/encabezado.jpg">';
+        $this->archivo          = 'seguridad-humana';
+        $this->imagen_previa    = 'seguridad-humana/imagen-previa.jpg';
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="seguridad-humana/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Dentro de una estrategia de prevención integral del delito, la delincuencia juvenil constituye desde luego el elemento fundamental, si lo que se pretende es evitar que niños de doce años decidan formar parte de la delincuencia.';
-        $this->claves           = 'IMPLAN, Torreon, Delincuencia Juvenil, Seguridad';
-        $this->categorias       = array('Delincuencia', 'Seguridad');
+        $this->descripcion      = 'La población se siente insegura no solo por las acciones de la delincuencia organizada, también la genera la falta de empleo, la pobreza persistente, la ausencia de acceso a cuidados básicos de salud, la violencia física, la violencia familiar, la represión política, la violación a los derechos humanos, el deterioro ambiental, la incertidumbre política, la falta de educación, la imposibilidad de ejercer el derecho de libre expresión y la ausencia de equidad de género entre otros.';
+        $this->claves           = 'IMPLAN, Torreon';
+        $this->categorias       = array('Seguridad');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
@@ -51,11 +51,13 @@ class PrevencionDelincuenciaJuvenil extends \Base\Publicacion {
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
      // $this->para_compartir   = true;
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+     // $this->para_compartir   = true;
         // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/PrevencionDelincuenciaJuvenil.md');
+        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/SeguridadHumana.md');
      // $this->javascript       = '';
     } // constructor
 
-} // Clase PrevencionDelincuenciaJuvenil
+} // Clase SeguridadHumana
 
 ?>
