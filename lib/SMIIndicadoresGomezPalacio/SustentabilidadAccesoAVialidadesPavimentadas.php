@@ -176,6 +176,18 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Gómez Palacio</a></td>
+            <td>Cantidad de accidentes viales fatales por año.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html">Accidentes Viales en Gómez Palacio</a></td>
+            <td>Cantidad de accidentes viales por año.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Gómez Palacio</a></td>
             <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
           </tr>
@@ -190,18 +202,6 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en Gómez Palacio</a></td>
             <td>Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Gómez Palacio</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html">Accidentes Viales en Gómez Palacio</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
           </tr>
           <tr>
             <td>ND</td>

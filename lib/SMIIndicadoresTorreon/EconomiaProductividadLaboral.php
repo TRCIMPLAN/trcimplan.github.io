@@ -260,6 +260,12 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-inflacion-anual.html">Inflación anual en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-inversion-extranjera-directa.html">Inversión Extranjera Directa en Torreón</a></td>
             <td>Promedio de inversión entre 2008 y 2012.</td>
           </tr>

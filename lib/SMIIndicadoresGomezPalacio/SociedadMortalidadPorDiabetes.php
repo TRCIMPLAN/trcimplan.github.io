@@ -126,6 +126,12 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>8.0000</td>
+            <td>SINAIS (SSA)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 10 mil.</p>
@@ -151,59 +157,59 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td>7.0000</td>
+            <td>2013-12-31</td>
+            <td>7.4000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
-            <td>6.7000</td>
+            <td>2013-12-31</td>
+            <td>8.0000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td>7.0000</td>
+            <td>2013-12-31</td>
+            <td>7.3000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
-            <td>8.8000</td>
+            <td>2013-12-31</td>
+            <td>6.8000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td>7.1000</td>
+            <td>2013-12-31</td>
+            <td>7.5000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2012-12-31</td>
-            <td>7.7000</td>
+            <td>2013-12-31</td>
+            <td>8.1000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2012-12-31</td>
-            <td>6.1000</td>
+            <td>2013-12-31</td>
+            <td>6.6000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2012-12-31</td>
-            <td>7.3000</td>
+            <td>2013-12-31</td>
+            <td>7.4000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -304,7 +310,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2000-12-31', dato: 4.9000 },{ fecha: '2001-12-31', dato: 5.4000 },{ fecha: '2002-12-31', dato: 6.4000 },{ fecha: '2003-12-31', dato: 6.2000 },{ fecha: '2004-12-31', dato: 6.8000 },{ fecha: '2005-12-31', dato: 7.8000 },{ fecha: '2006-12-31', dato: 7.4000 },{ fecha: '2007-12-31', dato: 7.8000 },{ fecha: '2008-12-31', dato: 7.8000 },{ fecha: '2009-12-31', dato: 7.3000 },{ fecha: '2010-12-31', dato: 6.9000 },{ fecha: '2011-12-31', dato: 7.3000 },{ fecha: '2012-12-31', dato: 6.7000 }],
+      data: [{ fecha: '2000-12-31', dato: 4.9000 },{ fecha: '2001-12-31', dato: 5.4000 },{ fecha: '2002-12-31', dato: 6.4000 },{ fecha: '2003-12-31', dato: 6.2000 },{ fecha: '2004-12-31', dato: 6.8000 },{ fecha: '2005-12-31', dato: 7.8000 },{ fecha: '2006-12-31', dato: 7.4000 },{ fecha: '2007-12-31', dato: 7.8000 },{ fecha: '2008-12-31', dato: 7.8000 },{ fecha: '2009-12-31', dato: 7.3000 },{ fecha: '2010-12-31', dato: 6.9000 },{ fecha: '2011-12-31', dato: 7.3000 },{ fecha: '2012-12-31', dato: 6.7000 },{ fecha: '2013-12-31', dato: 8.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -320,7 +326,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 7.0000 },{ region: 'Gómez Palacio', dato: 6.7000 },{ region: 'Lerdo', dato: 7.0000 },{ region: 'Matamoros', dato: 8.8000 },{ region: 'La Laguna', dato: 7.1000 },{ region: 'Coahuila', dato: 7.7000 },{ region: 'Durango', dato: 6.1000 },{ region: 'Nacional', dato: 7.3000 }],
+      data: [{ region: 'Torreón', dato: 7.4000 },{ region: 'Gómez Palacio', dato: 8.0000 },{ region: 'Lerdo', dato: 7.3000 },{ region: 'Matamoros', dato: 6.8000 },{ region: 'La Laguna', dato: 7.5000 },{ region: 'Coahuila', dato: 8.1000 },{ region: 'Durango', dato: 6.6000 },{ region: 'Nacional', dato: 7.4000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

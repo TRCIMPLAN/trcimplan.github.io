@@ -158,6 +158,12 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>03/02/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/tasa-inflacion-precios-torreon-2014.html">Tasa de inflación y precios en Torreón 2014</a></td>
+            <td>Un incremento en la inflación como el que sufrió Torreón en 2014 no es necesariamente una señal negativa pues puede ser causada por exceso de dinero en la economía.</td>
+          </tr>
+          <tr>
             <td>01/07/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/productividad-zml.html">Productividad en la Zona Metropolitana de La Laguna</a></td>

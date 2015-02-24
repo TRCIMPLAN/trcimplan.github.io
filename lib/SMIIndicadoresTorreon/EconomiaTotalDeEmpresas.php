@@ -281,6 +281,12 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-nuevas-empresas.html">Nuevas Empresas en Torreón</a></td>
+            <td>Número de nuevas empresas registradas en ventanilla universal en el periodo señalado.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-obtencion-de-credito---creacion-de-garantias.html">Obtención de crédito - Creación de garantías en Torreón</a></td>
             <td>Días transcurridos en el proceso de obtención de un crédito.</td>
           </tr>

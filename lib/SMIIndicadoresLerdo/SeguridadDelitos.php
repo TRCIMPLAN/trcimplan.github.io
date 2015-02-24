@@ -182,6 +182,12 @@ class SeguridadDelitos extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>17/02/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/seguridad-humana.html">Seguridad Humana</a></td>
+            <td>La población se siente insegura no solo por las acciones de la delincuencia organizada, también la genera la falta de empleo, la pobreza persistente, la ausencia de acceso a cuidados básicos de salud, la violencia física, la violencia familiar, la represión política, la violación a los derechos humanos, el deterioro ambiental, la incertidumbre política, la falta de educación, la imposibilidad de ejercer el derecho de libre expresión y la ausencia de equidad de género entre otros.</td>
+          </tr>
+          <tr>
             <td>07/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/prevencion-delincuencia-juvenil.html">La prevención de la Delincuencia Juvenil, elemento central de la prevención integral del delito y la violencia</a></td>

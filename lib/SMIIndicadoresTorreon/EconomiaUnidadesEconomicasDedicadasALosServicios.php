@@ -156,6 +156,12 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \Base\Publicacion
         </thead>
         <tbody>
           <tr>
+            <td>03/02/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/tasa-inflacion-precios-torreon-2014.html">Tasa de inflación y precios en Torreón 2014</a></td>
+            <td>Un incremento en la inflación como el que sufrió Torreón en 2014 no es necesariamente una señal negativa pues puede ser causada por exceso de dinero en la economía.</td>
+          </tr>
+          <tr>
             <td>06/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></td>
@@ -286,6 +292,12 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \Base\Publicacion
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-microempresas.html">Microempresas en Torreón</a></td>
             <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-nuevas-empresas.html">Nuevas Empresas en Torreón</a></td>
+            <td>Número de nuevas empresas registradas en ventanilla universal en el periodo señalado.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -448,12 +448,12 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Mortalidad Infantil</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html" data-toggle="tooltip" title="Por cada mil, 31/12/2012, SINAIS (SSA)">9.5000</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html" data-toggle="tooltip" title="Por cada mil, 31/12/2013, SINAIS (SSA)">9.1000</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Mortalidad por Diabetes</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, SINAIS (SSA)">6.7000</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2013, SINAIS (SSA)">8.0000</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

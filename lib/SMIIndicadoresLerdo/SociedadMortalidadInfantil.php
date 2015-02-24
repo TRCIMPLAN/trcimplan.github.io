@@ -72,6 +72,12 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
             <td>SINAIS (SSA)</td>
             <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>20.5000</td>
+            <td>SINAIS (SSA)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada mil.</p>
@@ -97,57 +103,57 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td>12.2000</td>
+            <td>2013-12-31</td>
+            <td>12.4000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
-            <td>9.5000</td>
+            <td>2013-12-31</td>
+            <td>9.1000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td>15.3800</td>
+            <td>2013-12-31</td>
+            <td>20.5000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
-            <td>17.3900</td>
+            <td>2013-12-31</td>
+            <td>15.0000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td>11.9000</td>
+            <td>2013-12-31</td>
+            <td>12.2000</td>
             <td>SINAIS (SSA)</td>
-            <td>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. <http://www.sinais.salud.gob.mx> [Consulta: 01 abril 2014].</td>
+            <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2012-12-31</td>
-            <td>12.8000</td>
+            <td>2013-12-31</td>
+            <td>11.9000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2012-12-31</td>
-            <td>13.6000</td>
+            <td>2013-12-31</td>
+            <td>14.1000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2012-12-31</td>
-            <td>13.1000</td>
+            <td>2013-12-31</td>
+            <td>12.6000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -250,7 +256,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2009-12-31', dato: 5.6000 },{ fecha: '2010-12-31', dato: 14.1000 },{ fecha: '2011-12-31', dato: 7.5000 },{ fecha: '2012-12-31', dato: 15.3800 }],
+      data: [{ fecha: '2009-12-31', dato: 5.6000 },{ fecha: '2010-12-31', dato: 14.1000 },{ fecha: '2011-12-31', dato: 7.5000 },{ fecha: '2012-12-31', dato: 15.3800 },{ fecha: '2013-12-31', dato: 20.5000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -266,7 +272,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 12.2000 },{ region: 'Gómez Palacio', dato: 9.5000 },{ region: 'Lerdo', dato: 15.3800 },{ region: 'Matamoros', dato: 17.3900 },{ region: 'La Laguna', dato: 11.9000 },{ region: 'Coahuila', dato: 12.8000 },{ region: 'Durango', dato: 13.6000 },{ region: 'Nacional', dato: 13.1000 }],
+      data: [{ region: 'Torreón', dato: 12.4000 },{ region: 'Gómez Palacio', dato: 9.1000 },{ region: 'Lerdo', dato: 20.5000 },{ region: 'Matamoros', dato: 15.0000 },{ region: 'La Laguna', dato: 12.2000 },{ region: 'Coahuila', dato: 11.9000 },{ region: 'Durango', dato: 14.1000 },{ region: 'Nacional', dato: 12.6000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
