@@ -43,7 +43,7 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Transparencia', 'Finanzas Públicas', 'Gobierno', 'Gobierno Digital');
+        $this->categorias       = array('Transparencia', 'Finanzas Públicas', 'Gobierno Digital');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
@@ -82,66 +82,66 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
 <p>El <b>International Open Data Census</b> fue creado por la <a href="https://okfn.org" target="_blank">Open Knowledge Foundation</a> en 2012 y provee una medida clara de los datos abiertos; hace el siguiente <a href="http://censo.datamx.io/faq/" target="_blank">Listado de Conjunto de Datos</a>:</p>
 
 <table class="table table-hover table-bordered">
-	<tr>
-		<th>Conjunto de datos</th>
-		<th>Descripción</th>
-	</tr>
-	<tr>
-		<td>Transporte en tiempo real</td>
-		<td>Información en tiempo real* sobre sistemas principales de gobierno o concesionados (camiones, metro, trenes, tranvías, etc.).</td>
-	</tr>
-	<tr>
-		<td>Presupuesto Anual</td>
-		<td>Presupuesto municipal en un nivel alto. Por ejemplo gastos por sector, por dependencia, etc. Esta categoría es para presupuestos que son planes de gasto (no gastos reales en el pasado).</td>
-	</tr>
-	<tr>
-		<td>Gasto (detallado)</td>
-		<td>Registros de gastos reales (pasados) a nivel de transacciones. Por ejemplo, el gasto mes con mes de temas específicos a un nivel de granulación amplio.</td>
-	</tr>
-	<tr>
-		<td>Resultados Electorales</td>
-		<td>Resultados por localidad/sitio de contiendas electorales en el municipio.</td>
-	</tr>
-	<tr>
-		<td>Calidad del Aire</td>
-		<td>Datos sobre calidad del aire. Por ejemplo los niveles de contaminantes mayores a nivel granular; por lo menos mes a mes, preferible día a día y con división geográfica.</td>
-	</tr>
-	<tr>
-		<td>Horarios de Transporte</td>
-		<td>Horarios de todos los sistemas operados por gobierno o consecionados (camiones, metro, trenes, tranvías, etc.). Ubicaciones de las paradas como datos georreferenciados.</td>
-	</tr>
-	<tr>
-		<td>Servicios Públicos</td>
-		<td>Ubicación de varios servicios públicos como escuelas, parques, hospitales, guarderías, etc.</td>
-	</tr>
-	<tr>
-		<td>Estadísticas de Crimen</td>
-		<td>Datos sobre crimen a nivel municipal. Preferiblemente a un grado razonablemente desagregado; lo mejor sería con fecha exacta (fecha-hora) y ubicación; es aceptable por día y calle o código postal.</td>
-	</tr>
-	<tr>
-		<td>Contratos de Adquisición</td>
-		<td>Información por contrato sobre contratos municipales. Incluyendo monto, ganador (nombre y dirección), etc.</td>
-	</tr>
-	<tr>
-		<td>Accidentes de Tránsito</td>
-		<td>Estadísticas sobre accidentes de tránsito incluyendo hora y ubicación.</td>
-	</tr>
-	<tr>
-		<td>Permisos de Construcción</td>
-		<td>Datos de los permisos de construcción otorgados por el municipio.</td>
-	</tr>
-	<tr>
-		<td>Solicitudes de Servicios</td>
-		<td>Solicitudes que no son de emergencia a las autoridades municipales. Por ejemplo, baches, grafiti, luminarias, etc. Deben ser granulares, a nivel de solicitud.</td>
-	</tr>
-	<tr>
-		<td>Permisos para Empresas</td>
-		<td>Permisos para empresas. Licencias de funcionamiento.</td>
-	</tr>
-	<tr>
-		<td>Listado de Empresas</td>
-		<td>Información clave sobre las empresas en el área municipal. Tal como nombre, dirección, información de contacto y tipo de negocio.</td>
-	</tr>
+    <tr>
+        <th>Conjunto de datos</th>
+        <th>Descripción</th>
+    </tr>
+    <tr>
+        <td>Transporte en tiempo real</td>
+        <td>Información en tiempo real* sobre sistemas principales de gobierno o concesionados (camiones, metro, trenes, tranvías, etc.).</td>
+    </tr>
+    <tr>
+        <td>Presupuesto Anual</td>
+        <td>Presupuesto municipal en un nivel alto. Por ejemplo gastos por sector, por dependencia, etc. Esta categoría es para presupuestos que son planes de gasto (no gastos reales en el pasado).</td>
+    </tr>
+    <tr>
+        <td>Gasto (detallado)</td>
+        <td>Registros de gastos reales (pasados) a nivel de transacciones. Por ejemplo, el gasto mes con mes de temas específicos a un nivel de granulación amplio.</td>
+    </tr>
+    <tr>
+        <td>Resultados Electorales</td>
+        <td>Resultados por localidad/sitio de contiendas electorales en el municipio.</td>
+    </tr>
+    <tr>
+        <td>Calidad del Aire</td>
+        <td>Datos sobre calidad del aire. Por ejemplo los niveles de contaminantes mayores a nivel granular; por lo menos mes a mes, preferible día a día y con división geográfica.</td>
+    </tr>
+    <tr>
+        <td>Horarios de Transporte</td>
+        <td>Horarios de todos los sistemas operados por gobierno o consecionados (camiones, metro, trenes, tranvías, etc.). Ubicaciones de las paradas como datos georreferenciados.</td>
+    </tr>
+    <tr>
+        <td>Servicios Públicos</td>
+        <td>Ubicación de varios servicios públicos como escuelas, parques, hospitales, guarderías, etc.</td>
+    </tr>
+    <tr>
+        <td>Estadísticas de Crimen</td>
+        <td>Datos sobre crimen a nivel municipal. Preferiblemente a un grado razonablemente desagregado; lo mejor sería con fecha exacta (fecha-hora) y ubicación; es aceptable por día y calle o código postal.</td>
+    </tr>
+    <tr>
+        <td>Contratos de Adquisición</td>
+        <td>Información por contrato sobre contratos municipales. Incluyendo monto, ganador (nombre y dirección), etc.</td>
+    </tr>
+    <tr>
+        <td>Accidentes de Tránsito</td>
+        <td>Estadísticas sobre accidentes de tránsito incluyendo hora y ubicación.</td>
+    </tr>
+    <tr>
+        <td>Permisos de Construcción</td>
+        <td>Datos de los permisos de construcción otorgados por el municipio.</td>
+    </tr>
+    <tr>
+        <td>Solicitudes de Servicios</td>
+        <td>Solicitudes que no son de emergencia a las autoridades municipales. Por ejemplo, baches, grafiti, luminarias, etc. Deben ser granulares, a nivel de solicitud.</td>
+    </tr>
+    <tr>
+        <td>Permisos para Empresas</td>
+        <td>Permisos para empresas. Licencias de funcionamiento.</td>
+    </tr>
+    <tr>
+        <td>Listado de Empresas</td>
+        <td>Información clave sobre las empresas en el área municipal. Tal como nombre, dirección, información de contacto y tipo de negocio.</td>
+    </tr>
 </table>
 
 <p>* Información en tiempo real quiere decir cosas como ubicación exacta de los servicios (dónde están los camiones o los trenes, etc.).</p>

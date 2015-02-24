@@ -5,7 +5,7 @@
 >
 > **Informe sobre Desarrollo Humano 1994 (PNUD)**
 
-> Mientras vivamos, mientras estemos entre los seres humanos, cultivemos nuestra humanidad
+> Mientras vivamos, mientras estemos entre los seres humanos, cultivemos nuestra humanidad.
 >
 > **Séneca, Sobre la ira**
 
