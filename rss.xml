@@ -5,11 +5,63 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 24 Feb 2015 15:23:47 -0600</pubDate>
+    <pubDate>Wed, 25 Feb 2015 11:46:56 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Qué son los datos abiertos?</title>
+      <link>http://trcimplan.gob.mx/blog/que-son-datos-abiertos.html</link>
+      <guid isPermaLink="false">blog-que-son-datos-abiertos</guid>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 -0600</pubDate>
+      <author>Ing. Guillermo Valdés Lozano</author>
+      <description><![CDATA[<p><span class="contenido-imagen-previa"><img class="img-responsive" src="http://trcimplan.gob.mx/blog/que-son-datos-abiertos/imagen.jpg" alt="Datos abiertos"></span></p>
+
+<p>Los <strong>datos abiertos</strong> son los datos digitales de carácter público que son <strong>accesibles en línea</strong>, es decir, por Internet, y que también <strong>pueden ser usados, reutilizados y redistribuidos por cualquier interesado</strong>.</p>
+
+<p>Ampliando la definición anterior, los datos abiertos constituyen una <strong>poderosa herramienta que mejora la forma de trabajar, dentro y fuera del gobierno federal, estatal o municipal.</strong> Hacia el interior aumenta la eficiencia del trabajo entre las dependencias; hacia el exterior, se vuelven componentes básicos para resolver problemáticas del ciudadano, empresas y organizaciones civiles.</p>
+
+<p>Cabe aclarar que datos abiertos <strong>no</strong> se refiere a datos personales, confidenciales, reservados o de seguridad nacional. <strong>Ni tampoco,</strong> que datos abiertos <em>es lo mismo que</em> transparencia; más bien, <strong>la transparencia es un beneficio adicional de tener una política de datos abiertos</strong>.</p>
+
+<h3>¿Para qué sirven los datos abiertos?</h3>
+
+<p>Los datos abiertos tienen el potencial de promover el desarrollo de nuevos instrumentos, conocimiento, productos y servicios. Con éstos, tanto el gobierno como pequeñas y grandes empresas, académicos y periodistas pueden:</p>
+
+<ul>
+<li>Generar crecimiento económico e innovación.</li>
+<li>Incrementar la eficiencia del gobierno.</li>
+<li>Mejorar el análisis y diseño de políticas públicas.</li>
+<li>Desarrollar nuevos y mejores servicios públicos.</li>
+<li>Fomentar la transparencia y rendición de cuentas.</li>
+<li>Crear impacto social.</li>
+</ul>
+
+<div class="videowrapper well"><iframe width="560" height="315" src="https://www.youtube.com/embed/SXlW5ShXh8o?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
+<h3>Caso ejemplar “Mejora Tu Escuela”</h3>
+
+<p><a href="http://www.mejoratuescuela.org/">MejoraTuEscuela.org</a> es un sitio web del <a href="http://imco.org.mx">Instituto Mexicano para la Competitividad, A.C.</a> que tiene como objetivos poner a disposición de los padres de familia información de interés de las escuelas públicas y privadas con el fin de transformar la educación en México.</p>
+
+<p>Anteriormente a la existencia de este sitio web, como padres, era difícil encontrar datos de las evaluaciones de una o muchas escuela, los programas de apoyo a los que estén inscritas, las características de su infraestructura o la cantidad de maestros, entre muchas cosas.</p>
+
+<p><a href="http://www.mejoratuescuela.org/">MejoraTuEscuela.org</a> integra datos abiertos de la prueba ENLACE, de la SEP, del Registro Nacional de Alumnos, Maestros y Escuelas y del Sistema Nacional de Información Estadística Educativa de la SEP. La interfaz permite de forma sencilla encontrar y comparar los datos de una o más escuelas; además es posible realizar comentarios sobre una escuela y ver los que hayan hecho otros padres.</p>
+
+<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/que-son-datos-abiertos/mejora-tu-escuela.jpg" alt="Mejora Tu Escuela"></p>
+
+<h3>Una política de datos abiertos no sólo requiere tecnología nueva</h3>
+
+<p>Estaríamos equivocados si creyéramos que para tener datos abiertos sólo se necesitara un nuevo sistema informático y su portal web para hacer pública la información. Para ser dignos de tener una política de datos abiertos habrá que <strong>revisar y cambiar los procesos</strong> que los crean, procesan y resguardan. Además de comprometernos, como servidores públicos, como las personas que trabajamos en estas labores, porque en nuestras manos están estos valiosos datos que compartiremos con todos los ciudadanos; esto implica <strong>cambiar nuestra forma de pensar y trabajar</strong> en aras de mejorar siempre.</p>
+
+<h3>Red México Abierto</h3>
+
+<p>El <a href="http://www.presidencia.gob.mx/edn/">Gobierno Federal bajo la Estrategia Digital Nacional</a> organizó los días 19 y 20 de febrero de 2015 el evento <a href="http://mxabierto.org/">MX Abierto: Seminario de Innovación Pública</a> con apoyo del Laboratorio Nacional de Políticas Públicas del <a href="http://www.cide.edu/">CIDE</a> y de la <a href="http://www.usaid.gov/where-we-work/latin-american-and-caribbean/mexico">USAID</a>.</p>
+
+<p>Durante el mismo se hizo público el <a href="http://www.dof.gob.mx/nota_detalle.php?codigo=5382838&amp;fecha=20/02/2015">decreto por el que se establece la regulación en materia de datos abiertos</a>. En su artículo noveno se establece que habrá convenios de colaboración con los gobiernos estatales y municipales para poner datos abiertos en el sitio de internet <a href="http://datos.gob.mx">www.datos.gob.mx</a>.</p>
+
+<div class="videowrapper well"><iframe width="560" height="315" src="https://www.youtube.com/embed/lerkvbhQGkc?rel=0" frameborder="0" allowfullscreen></iframe></div>
+]]></description>
+    </item>
     <item>
       <title>Ciudad abierta y ciudad fraccionada</title>
       <link>http://trcimplan.gob.mx/blog/ciudad-abierta-ciudad-fraccionada.html</link>
@@ -993,43 +1045,6 @@ Fuente:Adaptado de http://zaloamati.azc.uam.mx/handle/11191/565</p>
 <li>Rowe, D. B. (2011). Green roofs as means of pollution abatment. Environmental Pollution, 159, 210-2110.</li>
 <li>Speak, A. F., Rothwell, J. J., Lindley, S. J., &amp; Smith, C. L. (2012). Urban partiiculate pollution reduction by four species of green roof vegetation in a UK city. Atmospheric Environment, 61, 283-293.</li>
 </ul>
-]]></description>
-    </item>
-    <item>
-      <title>Ciudad y Espacio Público</title>
-      <link>http://trcimplan.gob.mx/blog/ciudad-espacio-publico.html</link>
-      <guid isPermaLink="false">blog-ciudad-espacio-publico</guid>
-      <pubDate>Tue, 13 Jan 2015 00:00:00 -0600</pubDate>
-      <author>Arq. Teresita Benítez Saludado</author>
-      <description><![CDATA[<p><span class="contenido-imagen-previa"><img class="img-responsive" src="http://trcimplan.gob.mx/blog/ciudad-espacio-publico/imagen.jpg"></span></p>
-
-<blockquote>
-  <p>"El urbanismo es esencialmente el arte de regular la calidad y cantidad de espacios púbicos, lotes para construir y pisos construidos. Hay tipos específicos, dimensiones, radios y números que nos permiten construir ciudades armoniosas, y otras que llevan inevitablemente a la dispersión urbana o a la dispersión metropolitana. Hay formas de mega-desarrollos de alto riesgo, y otras que estimulan la empresa y el talento individual, basados en la competencia civilizada, capaz de producir pueblos agradables y humanos.  La ciudad tradicional logra el milagro de permitir que las ambiciones contrastantes y en competencia, los talentos mayores y los mas modestos, se desarrollen y prosperen como vecinos, edificando en armonía. Esa es la definición de la urbanidad y de la civilización urbana."</p>
-  
-  <p>Leon Krier</p>
-</blockquote>
-
-<p>En la última década y a nivel internacional se ha dado un creciente interés al espacio público especifico de la calle, promoviendo que sea mas amable con el usuario, y no solo la vía privilegiada del vehículo automotor que transita, contamina y ocupa el mayor espacio que debiera ser compartido con el principal usuario: el ser humano en su modalidad de peatón, ciclista o usuario temporal del mismo, volviendo su mirada a las bondades del uso de la bicicleta o a la peatonalización de las calles, desalentando el uso indiscriminado que le hemos dado al vehículo automotor.</p>
-
-<p>Actualmente  las teorías urbanas afirman que el buen diseño de calles puede promover calidad de vida para todos. Así mismo, patrones de comportamiento sustentables pueden ser influenciados gratamente con un diseño inteligente de calles (como espacio público de calidad).</p>
-
-<p>Nuestra ciudad tiene hoy las bases para lograr buen espacio público, no solo porque veamos que el trazo físico heredado lo permite,  o porque la topografía de la ciudad nos lo facilita, sino porque se ha constatado el anhelo de su gente con la participación  en recientes días, de ciudadanos que aportando tiempo y conocimiento coinciden con la meta común, que Torreón sea planificada y edificada en armonía con su entorno ecológico, social, económico y cultural, retomando el ORDEN que la ciudad mostraba hasta hace algunos años.</p>
-
-<p>Para esto se  requerirá seguir un Plan (que por la magnitud que hoy ha alcanzado la ciudad, derivará en planes parciales específicos) que guie, regule y dosifique el qué y el cómo será lo mas conveniente para la ciudad en aspectos de zonificación, imagen urbana y/o compatibilidad de uso de suelo. Estos planes se tendrán que sustentar en las tendencias urbanas internacionales de ciudades que han demostrado el incremento de bienestar de sus ciudadanos a partir de la implementación de estas buenas prácticas que desalientan el uso indiscriminado del automóvil individual, y en cambio privilegian la peatonalización, la movilidad ciclista y/o el uso del transporte público.</p>
-
-<p>Termino con las palabras de Agustín Rovira Lara para describir la ciudad que muchos anhelamos:</p>
-
-<p><strong>"Una ciudad próspera que crece hacia dentro en un proceso planificado de desarrollo armonioso, sostenible y controlado. Una ciudad viva, atractiva, cómoda, accesible, activa, innovadora y equilibrada que proyecta una imagen nítida de sus atractivos.</strong></p>
-
-<p><strong>La ciudad crece, se transforma y también se mantiene como una forma de desarrollo, y no mas como aquello que se contrapone a él. Un desarrollo que se exprese de modo ecológicamente equilibrado y culturalmente diversificado."</strong></p>
-
-<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/ciudad-espacio-publico/ciudad-noche.jpg" alt="Ciudad de Noche"></p>
-
-<blockquote>
-  <p>"Todos tenemos nuestra casa, que es el hogar privado; y la ciudad que es el hogar público."</p>
-  
-  <p>Enrique Tierno Galván.</p>
-</blockquote>
 ]]></description>
     </item>
   </channel>
