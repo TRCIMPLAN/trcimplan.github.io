@@ -1,11 +1,10 @@
 
-Norma 12.- La zonificación “CU 1.1” Corredor Urbano, Habitación, Comercio y servicios tendrá las siguientes restricciones de uso:
+La zonificación “CU 1.1” Corredor Urbano, Habitación, Comercio y servicios tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 
 1. Densidad de Vivienda: de 110 a 176 viviendas por hectárea.
-2. Densidad Habitacional Máxima: 495 a 792 habitantes por
-hectárea.
+2. Densidad Habitacional Máxima: 495 a 792 habitantes por hectárea.
 3. Lote mínimo: no especificado.
 4. Frente mínimo del lote: no especificado.
 5. Fondo: no especificado.
@@ -14,8 +13,7 @@ hectárea.
 8. CUS: 3.5
 9. Porcentaje de superficie permeable: no especificado.
 10. Restricciones de construcción: no especificado.
-11. Altura máxima de construcción desde el nivel de desplante, ocho
-niveles o 24m.
+11. Altura máxima de construcción desde el nivel de desplante, ocho niveles o 24m.
 
 II.- Usos Permitidos:
 

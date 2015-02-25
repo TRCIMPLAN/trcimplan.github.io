@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - Zonificacion CU 1.1
+ * TrcIMPLAN Sitio Web - DESCRIPCION
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2015 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,25 +20,25 @@
  */
 
 // Namespace
-namespace SIG;
+namespace NAMESPACE;
 
 /**
- * Clase ZonificacionCU11
+ * Clase ZonificacionCB
  */
-class ZonificacionCU11 extends \Base\Publicacion {
+class ZonificacionCB extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre           = 'Zonificación CU1.1';
+        $this->nombre           = 'Zonificación CB';
      // $this->autor            = 'Autor';
         $this->fecha            = '2014-11-18';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'zonificacion-cu11';
-     // $this->imagen_previa    = 'zonificacion-cu11/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-cu11/encabezado.jpg">';
+        $this->archivo          = 'zonificacion-cb';
+     // $this->imagen_previa    = 'zonificacion-cb/imagen-previa.jpg';
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-cb/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = '';
@@ -53,10 +53,10 @@ class ZonificacionCU11 extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = false;
         // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/SIG/ZonificacionCU11.md');
+        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/SIG/ZonificacionCB.md');
         $this->javascript       = '';
     } // constructor
 
-} // Clase ZonificacionCU11
+} // Clase ZonificacionCB
 
 ?>
