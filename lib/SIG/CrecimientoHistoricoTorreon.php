@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Crecimiento Histórico de Torreón
+ * TrcIMPLAN Sitio Web - Mapa del Crecimiento Histórico de Torreón
  *
  * Copyright (C) 2015 IMPLAN Torreón
  *

@@ -1,16 +1,17 @@
 
-Norma 25.- La zonificación “IL” Industria Ligera, tendrá las siguientes restricciones de uso:
+La zonificación “IL” Industria Ligera, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 
 1. Tamaño mínimo del lote: 1,000.00 m2.
 2. Restricciones de uso:
-    a. Frente mínimo: 20.00m.
-    b. COS: no especificado.
-    c. CUS: no especificado.
-    d. Porcentaje de superficie permeable: no especificado.
-    e. Restricciones de construcción: frente 6.00m; fondo y laterales, no especificado.
-    f. Altura máxima de construcción desde el nivel de desplante: no especificado.
+
+* a. Frente mínimo: 20.00m.
+* b. COS: no especificado.
+* c. CUS: no especificado.
+* d. Porcentaje de superficie permeable: no especificado.
+* e. Restricciones de construcción: frente 6.00m; fondo y laterales, no especificado.
+* f. Altura máxima de construcción desde el nivel de desplante: no especificado.
 
 II.- Usos Permitidos:
 

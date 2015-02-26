@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Zonificacion H5
+ * TrcIMPLAN Sitio Web - Zonificacion H5
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *
@@ -41,7 +41,7 @@ class ZonificacionH5 extends \Base\Publicacion {
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-h5/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = '';
+        $this->descripcion      = 'Zonificación Norma H5';
         $this->claves           = 'IMPLAN, Torreon, SIG';
         $this->categorias       = array('Zonificación');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
@@ -50,10 +50,11 @@ class ZonificacionH5 extends \Base\Publicacion {
         $this->nombre_menu      = 'Información Geográfica > Zonificación';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'revisar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = false;
         // El contenido HTML y el JavaScript
         $this->contenido        = $this->cargar_archivo_markdown_extra('lib/SIG/ZonificacionH5.md');
-        $this->javascript       = '';
+     // $this->javascript       = '';
     } // constructor
 
 } // Clase ZonificacionH5

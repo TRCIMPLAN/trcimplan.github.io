@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - DESCRIPCION
+ * TrcIMPLAN Sitio Web - Zonificación CB
  *
  * Copyright (C) 2015 IMPLAN Torreón
  *
@@ -20,7 +20,7 @@
  */
 
 // Namespace
-namespace NAMESPACE;
+namespace SIG;
 
 /**
  * Clase ZonificacionCB
@@ -41,7 +41,7 @@ class ZonificacionCB extends \Base\Publicacion {
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-cb/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = '';
+        $this->descripcion      = 'Zonificación Norma CB';
         $this->claves           = 'IMPLAN, Torreon, SIG';
         $this->categorias       = array('Zonificación');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
@@ -54,7 +54,7 @@ class ZonificacionCB extends \Base\Publicacion {
         $this->para_compartir   = false;
         // El contenido HTML y el JavaScript
         $this->contenido        = $this->cargar_archivo_markdown_extra('lib/SIG/ZonificacionCB.md');
-        $this->javascript       = '';
+     // $this->javascript       = '';
     } // constructor
 
 } // Clase ZonificacionCB

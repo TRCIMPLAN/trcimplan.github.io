@@ -1,5 +1,5 @@
 
-Norma 17.- La zonificación “E” Equipamiento de Administración, Salud, Educación y Cultura, tendrá las siguientes restricciones de uso:
+La zonificación “E” Equipamiento de Administración, Salud, Educación y Cultura, tendrá las siguientes restricciones de uso:
 
 I.- Generales, no especificados.
 
@@ -42,8 +42,7 @@ II.- Usos Permitidos:
 35. Plazas, Jardines, Explanadas, y Parques.
 36. Torres y Antenas de Microondas y Radiodifusión.
 
-III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso E se
-aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.
+III.- Usos condicionados y Normas Mínimas de Evaluación. Para el Uso E se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.
 
 1. Baños, Saunas, Sanitarios Públicos, y Salas de Masaje (B y D).
 2. Centros de Convenciones y Autocinemas (B y D).

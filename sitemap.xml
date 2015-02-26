@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-02-25</lastmod>
+    <lastmod>2015-02-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/index.html</loc>
-    <lastmod>2015-02-25</lastmod>
+    <lastmod>2015-02-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-categorias/index.html</loc>
-    <lastmod>2015-02-25</lastmod>
+    <lastmod>2015-02-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/index.html</loc>
-    <lastmod>2015-02-25</lastmod>
+    <lastmod>2015-02-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/index.html</loc>
-    <lastmod>2015-02-25</lastmod>
+    <lastmod>2015-02-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/index.html</loc>
-    <lastmod>2015-02-25</lastmod>
+    <lastmod>2015-02-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/index.html</loc>
-    <lastmod>2015-02-25</lastmod>
+    <lastmod>2015-02-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/index.html</loc>
-    <lastmod>2015-02-25</lastmod>
+    <lastmod>2015-02-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/eventos/index.html</loc>
-    <lastmod>2015-02-25</lastmod>
+    <lastmod>2015-02-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/index.html</loc>
-    <lastmod>2015-02-25</lastmod>
+    <lastmod>2015-02-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -181,6 +181,26 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-c.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-cb.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-ch.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-cu.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/sig/zonificacion-cu11.html</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -226,12 +246,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-hb.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-hc.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/sig/zonificacion-i.html</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sig/zonificacion-il.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-ip.html</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -378,11 +413,6 @@
   <url>
     <loc>http://trcimplan.gob.mx/sig/alumbrado-publico.html</loc>
     <lastmod>2014-09-08</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/sig/zonificacion.html</loc>
-    <lastmod>2014-09-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

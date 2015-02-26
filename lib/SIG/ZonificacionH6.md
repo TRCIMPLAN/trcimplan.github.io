@@ -1,5 +1,5 @@
 
-Norma 6.- La zonificación “H6” Habitacional de Densidad Muy Alta, tendrá las siguientes restricciones de uso:
+La zonificación “H6” Habitacional de Densidad Muy Alta, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 
@@ -7,14 +7,15 @@ I.- Generales:
 2. Densidad habitacional máxima: de 792.0 a 495.0 habitantes por hectárea.
 3. Usos permitidos: hasta una casa habitación por lote.
 4. Restricciones de uso:
-    a. Lote mínimo: 91.00m2;
-    b. Frente mínimo del lote: 7m;
-    c. Estacionamiento: según Reglamento de Construcciones;
-    d. COS: 0.8;
-    e. CUS: 1.2-1.6;
-    f. Porcentaje de superficie permeable: no especificado;
-    g. Restricciones de construcción: no especificado;
-    h. Altura máxima de construcción desde el nivel de desplante: tres niveles o 9m.
+
+* a. Lote mínimo: 91.00m2;
+* b. Frente mínimo del lote: 7m;
+* c. Estacionamiento: según Reglamento de Construcciones;
+* d. COS: 0.8;
+* e. CUS: 1.2-1.6;
+* f. Porcentaje de superficie permeable: no especificado;
+* g. Restricciones de construcción: no especificado;
+* h. Altura máxima de construcción desde el nivel de desplante: tres niveles o 9m.
 
 II.- Usos Permitidos:
 

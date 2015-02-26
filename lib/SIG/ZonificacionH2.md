@@ -1,5 +1,5 @@
 
-Norma 4.- La zonificación “H2” Habitacional de Densidad Media, unifamiliar, tendrá las siguientes restricciones de uso:
+La zonificación “H2” Habitacional de Densidad Media, unifamiliar, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 
@@ -7,14 +7,15 @@ I.- Generales:
 2. Densidad habitacional máxima: de 292.5 a 225.0 habitantes por hectárea.
 3. Usos permitidos: hasta una casa habitación por lote.
 4. Restricciones de uso:
-    a. Lote mínimo: 200.00m2;
-    b. Frente mínimo del lote: 9m;
-    c. Estacionamiento: según Reglamento de Construcciones.
-    d. COS: 0.7.
-    e. CUS: 1.0-1.3.
-    f. Porcentaje de superficie permeable: no especificado.
-    g. Restricciones de construcción: frente 3m, fondo y laterales no especificado.
-    h. Altura máxima de construcción desde el nivel de desplante: dos niveles o 6m.
+
+* a. Lote mínimo: 200.00m2;
+* b. Frente mínimo del lote: 9m;
+* c. Estacionamiento: según Reglamento de Construcciones.
+* d. COS: 0.7.
+* e. CUS: 1.0-1.3.
+* f. Porcentaje de superficie permeable: no especificado.
+* g. Restricciones de construcción: frente 3m, fondo y laterales no especificado.
+* h. Altura máxima de construcción desde el nivel de desplante: dos niveles o 6m.
 
 II.- Usos Permitidos:
 

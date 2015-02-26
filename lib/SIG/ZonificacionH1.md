@@ -1,5 +1,5 @@
 
-Norma 3.- La zonificación “H1” habitacional de densidad baja, unifamiliar, tendrá las siguientes restricciones de uso:
+La zonificación “H1” habitacional de densidad baja, unifamiliar, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 
@@ -7,14 +7,15 @@ I.- Generales:
 2. Densidad habitacional máxima: de 148.5 a 130.5 habitantes por hectárea.
 3. Usos permitidos: hasta una casa habitación por lote.
 4. Restricciones de uso:
-    a. Lote mínimo: 350.00m2;
-    b. Frente mínimo del lote: 12m.
-    c. Estacionamiento: según Reglamento de Construcciones.
-    d. COS: 0.7.
-    e. CUS: 0.9-1.2.
-    f. Porcentaje de superficie permeable: no especificado.
-    g. Restricciones de construcción: frente 3m, fondo y laterales no especificado.
-    h. Altura máxima de construcción desde el nivel de desplante: dos niveles o 6m.
+
+* a. Lote mínimo: 350.00m2;
+* b. Frente mínimo del lote: 12m.
+* c. Estacionamiento: según Reglamento de Construcciones.
+* d. COS: 0.7.
+* e. CUS: 0.9-1.2.
+* f. Porcentaje de superficie permeable: no especificado.
+* g. Restricciones de construcción: frente 3m, fondo y laterales no especificado.
+* h. Altura máxima de construcción desde el nivel de desplante: dos niveles o 6m.
 
 II.- Usos Permitidos:
 

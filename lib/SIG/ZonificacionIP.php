@@ -1,8 +1,8 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - Zonificacion E
+ * TrcIMPLAN Sitio Web - Zonificación IP
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2015 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,25 +23,25 @@
 namespace SIG;
 
 /**
- * Clase ZonificacionE
+ * Clase ZonificacionIP
  */
-class ZonificacionE extends \Base\Publicacion {
+class ZonificacionIP extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre           = 'Zonificación E';
+        $this->nombre           = 'Zonificación IP';
      // $this->autor            = 'Autor';
         $this->fecha            = '2014-11-18';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'zonificacion-e';
-     // $this->imagen_previa    = 'zonificacion-e/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-e/encabezado.jpg">';
+        $this->archivo          = 'zonificacion-ip';
+     // $this->imagen_previa    = 'zonificacion-ip/imagen-previa.jpg';
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-ip/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Zonificación Norma E';
+        $this->descripcion      = 'Zonificación Norma IP';
         $this->claves           = 'IMPLAN, Torreon, SIG';
         $this->categorias       = array('Zonificación');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
@@ -53,10 +53,10 @@ class ZonificacionE extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = false;
         // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/SIG/ZonificacionE.md');
+        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/SIG/ZonificacionIP.md');
      // $this->javascript       = '';
     } // constructor
 
-} // Clase ZonificacionE
+} // Clase ZonificacionIP
 
 ?>

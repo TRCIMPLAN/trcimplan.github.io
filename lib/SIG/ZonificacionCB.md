@@ -3,15 +3,15 @@ La zonificación “CB”, Centro de Barrio, tendrá las siguientes restriccione
 
 I. Generales:
 
-a. Lote mínimo: no especificado;
-b. Frente mínimo del lote: no especificado;
-c. Fondo: no especificado;
-d. Estacionamiento: según Reglamento de Construcciones y según proyecto;
-e. COS: 6. 0;
-f. CUS: 4. 0;
-g. Porcentaje de superficie permeable: no especificado;
-h. Restricciones de construcción: no especificado;
-i. Altura máxima de construcción desde el nivel de desplante: cuatro niveles o 12m.
+* a. Lote mínimo: no especificado;
+* b. Frente mínimo del lote: no especificado;
+* c. Fondo: no especificado;
+* d. Estacionamiento: según Reglamento de Construcciones y según proyecto;
+* e. COS: 6. 0;
+* f. CUS: 4. 0;
+* g. Porcentaje de superficie permeable: no especificado;
+* h. Restricciones de construcción: no especificado;
+* i. Altura máxima de construcción desde el nivel de desplante: cuatro niveles o 12m.
 
 II. Usos Permitidos:
 

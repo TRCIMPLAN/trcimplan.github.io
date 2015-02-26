@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - SIG Alumbrado Público
+ * TrcIMPLAN Sitio Web - Mapa del Avance de Reconversión del Alumbrado Público de Torreón
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

@@ -1,5 +1,5 @@
 
-Norma 13.- La zonificación “CU 1.2” Corredor Urbano, Habitación, Comercio y Servicios tendrá las siguientes restricciones de uso:
+La zonificación “CU 1.2” Corredor Urbano, Habitación, Comercio y Servicios tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 
@@ -13,8 +13,7 @@ I.- Generales:
 8. CUS: 7.0.
 9. Porcentaje de superficie permeable: no especificado.
 10. Restricciones de construcción: no especificado.
-11. Altura máxima de construcción desde el nivel de desplante, doce
-niveles o 36m.
+11. Altura máxima de construcción desde el nivel de desplante, doce niveles o 36m.
 
 II.- Usos Permitidos:
 

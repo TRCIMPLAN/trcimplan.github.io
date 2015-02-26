@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Zonificacion CU 1.1
+ * TrcIMPLAN Sitio Web - Zonificacion CU 1.1
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *
@@ -41,7 +41,7 @@ class ZonificacionCU11 extends \Base\Publicacion {
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-cu11/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = '';
+        $this->descripcion      = 'Zonificación Norma CU1.1';
         $this->claves           = 'IMPLAN, Torreon, SIG';
         $this->categorias       = array('Zonificación');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
@@ -54,7 +54,7 @@ class ZonificacionCU11 extends \Base\Publicacion {
         $this->para_compartir   = false;
         // El contenido HTML y el JavaScript
         $this->contenido        = $this->cargar_archivo_markdown_extra('lib/SIG/ZonificacionCU11.md');
-        $this->javascript       = '';
+     // $this->javascript       = '';
     } // constructor
 
 } // Clase ZonificacionCU11

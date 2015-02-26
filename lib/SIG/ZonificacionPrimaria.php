@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Zonificacion Primaria
+ * TrcIMPLAN Sitio Web - Zonificacion Primaria
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -41,7 +41,7 @@ class ZonificacionPrimaria extends \Base\Publicacion {
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-primaria/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = '';
+        $this->descripcion      = 'Mapa con la Zonificación Primaria';
         $this->claves           = 'IMPLAN, Torreon, SIG';
         $this->categorias       = array('Zonificación');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
@@ -50,6 +50,8 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $this->nombre_menu      = 'Información Geográfica > Zonificación Primaria';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+     // $this->para_compartir   = true;
         // El contenido HTML y el JavaScript
         $this->contenido        = <<<FINAL
 <iframe width='100%' height='520' frameborder='0' src='http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>

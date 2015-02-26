@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Zonificacion CU3
+ * TrcIMPLAN Sitio Web - Zonificacion CU3
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *
@@ -41,7 +41,7 @@ class ZonificacionCU3 extends \Base\Publicacion {
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-cu3/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = '';
+        $this->descripcion      = 'Zonificación Norma CU3';
         $this->claves           = 'IMPLAN, Torreon, SIG';
         $this->categorias       = array('Zonificación');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
@@ -50,10 +50,11 @@ class ZonificacionCU3 extends \Base\Publicacion {
         $this->nombre_menu      = 'Información Geográfica > Zonificación';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'revisar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = false;
         // El contenido HTML y el JavaScript
         $this->contenido        = $this->cargar_archivo_markdown_extra('lib/SIG/ZonificacionCU3.md');
-        $this->javascript       = '';
+     // $this->javascript       = '';
     } // constructor
 
 } // Clase ZonificacionCU3

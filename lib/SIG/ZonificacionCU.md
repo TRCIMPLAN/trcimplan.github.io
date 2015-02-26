@@ -1,147 +1,158 @@
 
-La zonificación “CU” centro urbano tendrá las siguientes restricciones de uso:
+La zonificación “CU” Corredor Urbano del Plan Parcial Corredor Torreón-San Pedro tendrá las siguientes restricciones de uso:
 
-I. Generales:
-
-1. Restricciones de uso:
-
-a. Lote mínimo: no especificado;
-b. Densidad de vivienda: 106 a 166 viviendas por hectárea;
-c. Densidad habitacional máxima: 477 a 747 habitantes por hectárea;
-d. Frente mínimo del lote: no especificado;
-e. Estacionamiento: según Reglamento de Construcciones y según proyecto;
-f. COS: 0. 7;
-g. CUS: 3. 0;
-h. Porcentaje de superficie permeable: no especificado;
-i. Restricciones de construcción: no especificado;
-j. Altura máxima de construcción desde el nivel de desplante: cinco niveles o 15 m.
+I. Generales, Según lo dispuesto por el Plan Parcial.
 
 II. Usos Permitidos:
 
-1. Vivienda Plurifamiliar y Multifamiliar dos o más viviendas por lote.
-2. Alimentos Vegetarianos.
-3. Aparatos Eléctricos, Electrónicos, Equipo de Computación y Sistemas.
-4. Artículos Médicos y de Laboratorio.
-5. Artículos Deportivos.
-6. Dulcerías.
-7. Electrónica.
-8. Fotografía.
-9. Galerías de Arte.
-10. Herbarios.
-11. Ingeniería, Dibujo.
-12. Instrumentos Musicales.
-13. Joyería, Relojerías.
-14. Mueblerías.
-15. Neverías.
-16. Ópticas.
-17. Papelerías, Librerías, Revisterías.
-18. Refacciones y Llantas.
-19. Ultramarinos, Vinos y Licores y Expendios de Cerveza.
-20. Venta de Discos.
-21. Videocintas.
-22. Tiendas de Autoservicio hasta 250 m2.
-23. Tiendas de autoservicio de 250 m2 hasta 5000 m2.
-24. Tiendas de Autoservicio de más de 5000 m2.
-25. Tiendas de Departamentos hasta de 2500 m2.
-26. Tiendas de Departamentos de 2500 m2 hasta 5000 m2
-27. Centro Comercial de 2500 m2 hasta 5000 m2.
-28. Venta de Motocicletas.
-29. Consulados, Embajadas.
-30. Edificios de Sindicatos y Centrales.
-31. Oficinas de Gobierno Federal, Estatal, Municipal.
-32. Oficinas de Partidos Políticos.
-33. Organismos Descentralizados.
-34. Oficinas Privadas.
-35. Oficinas Privadas con Atención al Público.
-36. Casas de Bolsas.
-37. Bancos y Casas de Cambio.
-38. Agencias de Viajes.
-39. Alquiler de Ropa.
-40. Mantenimiento de Jardines.
-41. Cafés y Fondas.
-42. Restaurantes sin venta de Bebidas Alcohólicas.
-43. Restaurantes con venta de Bebidas Alcohólicas.
-44. Venta de alimentos con Autoservicios.
-45. Venta de Alimentos con Entrega a Domicilio.
-46. Auditorios, Teatros, Cines, Salas de Concierto o Cinetecas.
-47. Centros Comunitarios, Centros Culturales y Salones de Fiestas Infantiles.
-48. Clubes Sociales, salones para Banquetes y de Baile.
-49. Juegos Electrónicos.
-50. Boliche, Billar, Patines y Juegos de Mesa.
-51. Senderos o Miradores.
-52. Danza, Juegos de Mesa.
-53. Centros Deportivos.
-54. Hoteles y Albergues hasta 100 cuartos.
-55. Garitas o Casetas de Vigilancia.
-56. Hospitales hasta de 10 camas o Consultorios.
-57. Hospitales de más de 10 camas o Consultorios.
-58. Centros de Salud, Clínicas de Urgencia o Clínicas en General.
-59. Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios.
-60. Centros de Tratamiento de Enfermedades Crónicas.
-61. Centros de Integración Juvenil o Familiar.
-62. Guarderías.
-63. Jardín de Niños o Escuela para Niños Atípicos y Primaria.
-64. Academia de Danza, Belleza, Contabilidad, Computación.
-65. Escuelas Secundarias, Generales y Técnicas.
-66. Preparatorias, Instituciones Tecnológicas, Centros de Capacitación y CONALEP.
-67. Centros de Estudio de Postgrado.
-68. Centros de Exposiciones Temporales o al Aire Libre y Sitios Históricos.
-69. Pinacotecas, Casas de la Cultura, Galerías de Arte, Museos.
-70. Archivos Públicos o Centros procesadores de Información.
-71. Correos y Telégrafos.
-72. Oficinas de Teléfonos con Atención al Público.
-73. Plazas, Jardines, Explanadas y Parques.
+1. Conventos.
+2. Galerías de Arte.
+3. Tiendas de Autoservicio de más de 250 m2 hasta 5000 m2
+4. Tiendas de Autoservicio de más de 5000 m2.
+5. Tiendas de Departamentos hasta 2500 m2.
+6. Tiendas de Departamentos de más de 2500 m2 hasta 5000 m2.
+7. Tiendas de Departamentos de más de 5000 m2 hasta 10000 m2.
+8. Tiendas de Departamentos de más de 10000 m2
+9. Centros Comerciales hasta de 2500 m2.
+10. Centros Comerciales de 2500 m2 hasta 5000 m2.
+11. Centro Comercial de más de 5000 m2.
+12. Mercados y Tianguis hasta 10000 m2.
+13. Mercados y Tianguis de más de 10000 m2.
+14. Automóviles, Camiones.
+15. Maquinaria e Implementos Agrícolas.
+16. Consulados, Embajadas.
+17. Edificios de Sindicatos y Centrales.
+18. Oficinas con Atención al Público.
+19. Casas de Bolsa.
+20. Bancos y Casas de Cambio.
+21. Alquiler de losa, sillas, cristalería, mesas.
+22. Alquiler de Vehículos.
+23. Alquiler de Ropa.
+24. Lavanderías y Tintorerías.
+25. Peluquerías y Estéticas.
+26. Estudios Fotográficos.
+27. Sastrerías y Talleres de Costura.
+28. Limpieza de Oficinas, Hogares, Industrias.
+29. Auditorios, Teatros, Cines, Salas de Concierto o Cinetecas.
+30. Centros de Convenciones y Autocinemas.
+31. Teatros al aire libre, ferias, Circos Temporales y Juegos Mecánicos.
+32. Clubes de Golf, Clubes Campestres, con o sin Vivienda.
+33. Parques para remolques, campismo y cabañas.
+34. Equitación o Lienzos Charros.
+35. Canchas deportivas Cubiertas hasta 5000 m2
+36. Estadios, hipódromos, Autódromos, galgódromos.
+37. Plaza de Toros, Velódromos, Campo de tiro.
+38. Garitas o Casetas de Vigilancia.
+39. Encierro de Vehículos, Centrales o estaciones de policía.
+40. Puesto de Socorro o Central de Ambulancia.
+41. Hospitales de más de 10 camas o consultorios.
+42. Centros de Salud, Clínicas de Urgencias o Clínicas en General.
+43. Laboratorios Dentales, Análisis Clínicos, Radiografías o Consultorios.
+44. Jardín de Niños o Escuela para niños Atípicos y Primaria.
+45. Academias de Danza, Belleza, Contabilidad, Computación.
+46. Escuelas Secundarias generales y Técnicas.
+47. Preparatorias, Institutos Tecnológicos, Centros de Capacitación y CONALEP.
+48. Politécnicos y Tecnológicos, Universidades o Escuelas Normales.
+49. Centros de Estudio de Postgrado.
+50. Centro y Laboratorios de Investigación.
+51. Centros de Exposiciones temporales o al aire libre y Sitios Históricos.
+52. Pinacotecas, Casas de la Cultura, Galerías de Arte, Museos.
+53. Archivos Públicos o Centros Procesadores de Información.
+54. Bibliotecas y Hemerotecas.
+55. Templos, Capillas o lugares para Culto.
+56. Instituciones Religiosas, Seminarios y Conventos.
+57. Correos y Telégrafos.
+58. Estaciones de Televisión, Estudios de Cine, y Radiodifusoras.
+59. Central telefónica sin servicio al Público.
+60. Oficinas de teléfonos con atención al Público.
+61. Mensajería y Paquetería.
+62. Estacionamientos Públicos.
+63. Sitios de Taxis.
+64. Aeropuertos.
+65. Helipuertos.
+66. Plazas, Jardines, Explanadas, y Parques.
 
-III. Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.
+III. Usos condicionados y Normas Mínimas de Evaluación. Para el Uso CU Corredor Urbano Torreón San Pedro se aplicarán únicamente las Normas Mínimas señaladas entre paréntesis.
 
-1. Conjuntos Habitacionales de más de 50 viviendas (B).
-2. Gasolineras (B, C y D).
-3. Abarrotes, Carnicerías, Fruterías (B).
-4. Comida para llevar (B).
-5. Farmacias y Boticas (B).
-6. Tortillerías y Panaderías (B).
-7. Tiendas de Conveniencia (B).
-8. Ropa, Calzado, Accesorios Diversos (C).
-9. Centro Comercial hasta 2500 m2 (B).
-10. Mercados y Tianguis hasta 10000 m2 (D).
-11. Productos Envasados (B).
-12. Productos a Granel (B).
-13. Eléctricos, Plomería (B).
-14. Ferreterías, Tlapalerías (B).
-15. Venta de Automóviles, Camiones y Accesorios (B).
-16. Venta de Maquinarias, Implementos Agrícolas (B).
-17. Venta de Maquinaria e Implementos para construcción (B).
-18. Alquiler de losa, Cristalería, Mesas y Sillas (B).
-19. Baños, Saunas, Sanitarios Públicos y Salas de Masaje (B y D).
-20. Lavanderías y Tintorerías (B).
-21. Peluquerías y Estéticas (C).
-22. Estudios Fotográficos (C).
-23. Sastrerías y Talleres de Costura(C).
-24. Aparatos Electrodomésticos (C).
-25. Lavado, Lubricado y Cambio de Llantas Vehiculares (B).
-26. Limpieza de Oficinas, Hogares, Industrias (C).
-27. Talleres Automotrices y para Motocicletas (B y C).
-28. Cantinas, Bares, Cervecerías, Videobares, Vinaterías (B y C).
-29. Centros Nocturnos (B, C y D).
-30. Salones de Baile y Discotecas (B, C y D).
-31. Arenas de Boxeo y Lucha Libre (B, C y D).
-32. Centros de Convenciones y Autocinemas (B, C y D).
-33. Salas de Artes Marciales (C).
-34. Gimnasios, Gimnasios de Aparatos y Aeróbicos (B y C).
-35. Hoteles y Albergues de más de 100 cuartos (B y D).
-36. Estación de Bomberos (B).
-37. Puesto de Socorro o Central de Ambulancia (B).
-38. Salones de Corte, Dispensarios, Veterinarios, Tiendas de animales (C).
-39. Politécnicos y Tecnológicos, Universidades o Escuelas Normales (B).
-40. Bibliotecas y Hemerotecas (B).
-41. Templos, Capillas o Lugares para Culto (B y C).
-42. Instituciones Religiosas, Seminarios, Conventos (B y C).
-43. Mensajería y Paquetería (B).
-44. Estacionamientos Públicos (B).
-45. Sitios de Taxis (B).
-46. Helipuertos (D).
-47. Plantas de Tratamiento de Aguas Negras o Cárcamos (A y B).
-48. Plantas, Estaciones y Subestaciones de Energía Eléctrica (B).
+1. Vivienda plurifamiliar y multifamiliar de dos o más viviendas por lote (B).
+2. Conjuntos habitacionales de más de 50 viviendas (B).
+3. Internados (C).
+4. Casas de Asistencia (C).
+5. Comercio de Abastos y Bodegas de Productos Perecederos (B, C y D).
+6. Comercio de Abastos y Bodegas de Productos no Perecederos (B, C y D).
+7. Bodegas de Semillas, Huevo, Lácteos o Abarrotes (B, C y D).
+8. Gasolineras (B y D).
+9. Abarrotes, Carnicerías y Fruterías (C).
+10. Comida para llevar (C).
+11. Farmacias y Boticas (C).
+12. Tortillerías y Panaderías (C).
+13. Tiendas de Conveniencia (B y C).
+14. Ropa, Calzado, Accesorios Diversos C).
+15. Alimentos Vegetarianos (C).
+16. Aparatos Eléctricos, Electrónicos y Equipo de Computación y Sistemas (C).
+17. Artículos Médicos y de Laboratorio (C).
+18. Artículos Deportivos (C).
+19. Dulcerías (C).
+20. Electrónica (C).
+21. Fotografía (C).
+22. Herbarios (C).
+23. Ingeniería, Dibujo (C).
+24. Instrumentos Musicales (C).
+25. Joyerías y Relojerías (C).
+26. Mueblerías (C).
+27. Neverías (C).
+28. Ópticas(C).
+29. Papelerías, Librerías, Revisterías (C).
+30. Refacciones y Llantas (C).
+31. Ultramarinos, Vinos, Licores, y Expendios de Cerveza (C).
+32. Venta de Discos (C).
+33. Videocintas (C).
+34. Tiendas de Autoservicio hasta 250 m2 (C).
+35. Productos Envasados (B, C y D).
+36. Eléctricos, Plomería (C).
+37. Ferreterías y Tlapalerías (C).
+38. Maquinaria, Implementos para construcción (B, C y D).
+39. Venta de Motocicletas (C).
+40. Oficinas de Gobierno Federal, Estatal, Municipal (B).
+41. Oficinas de Partidos Políticos (B).
+42. Organismos Descentralizados (B).
+43. Agencias de Viaje (C).
+44. Mantenimiento de Jardines (C).
+45. Cafés, Fondas (C).
+46. Restaurantes sin venta de bebidas Alcohólicas (C).
+47. Centros Nocturnos (A, B y D).
+48. Salones de Baile y Discotecas (A, B y D).
+49. Venta de Alimentos con Autoservicio (C).
+50. Venta de Alimentos con entrega a Domicilio (C).
+51. Arenas de Boxeo y Lucha Libre (B y D).
+52. Centros Comunitarios, Centros Culturales y Salones de Fiestas Infantiles (B y D).
+53. Clubes Sociales, Salones para Banquetes y de Baile (A, B y D).
+54. Albercas, Canchas y Pistas Deportivas al Aire Libre (B y D).
+55. Juegos Electrónicos (B y C).
+56. Boliche, Billar, Patines y Juegos de Mesa (B y C).
+57. Salas de Artes Marciales (B y C).
+58. Gimnasios, Gimnasios de Aparatos y Aeróbicos (B y C).
+59. Danza, Juegos de mesa (B y C).
+60. Centros Deportivos (B y C).
+61. Hoteles y Albergues hasta 100 cuartos (A, B y D).
+62. Hoteles y Albergues de más de 100 cuartos (A, B y D).
+63. Hospitales hasta 10 camas o consultorios (A, B y D).
+64. Centros de Tratamiento de Enfermedades Crónicas (A, B, C y D).
+65. Centros de Integración Juvenil o Familiar (B, C y D).
+66. Guarderías (B y C).
+67. Casas del Anciano y Orfanatos (B y C).
+68. Salones de Corte, Dispensarios, Veterinarios, Tiendas de Animales (C).
+69. Agencias de Inhumaciones y preparación de cadáveres (A y C).
+70. Cementerios, Criptas, Crematorios y Mausoleos (A, B, C y D).
+71. Funerales y Capillas de Velación (B y C).
+72. Terminales de Autobuses Foráneos (B).
+73. Terminal de Autobuses Urbanos (B).
+74. Plantas, Estaciones y Subestaciones de Energía Eléctrica (B y D).
+75. Plantas Estaciones y Subestaciones de Bombeo de Agua (B y D).
+76. Plantas, Estaciones y Subestaciones de potabilización de Agua (B y D).
+77. Torres y Antenas de microondas, Radiocomunicación y de Radiodifusión (C y D).
+78. Torres y Antenas de Televisión (C y D).
+79. Tanques de Agua (B y D).
 
 IV. Usos prohibidos: todos los demás no indicados en las fracciones I, II y III del presente artículo.
 
@@ -154,6 +165,6 @@ V. Obras mínimas de urbanización:
 5. Red de alumbrado público sobre poste metálico e instalación oculta;
 6. Red telefónica, de informática y telecomunicaciones con instalación oculta y casetas de servicio público;
 7. Banquetas de concreto hidráulico;
-8. Pavimento de concreto hidráulico, adoquín o similar;
+8. Pavimento de concreto hidráulico;
 9. Señalamiento; y
 10. Mobiliario urbano, arbolado y jardinería en vialidades vehiculares, peatonales y áreas verdes.

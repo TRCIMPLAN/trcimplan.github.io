@@ -5,14 +5,14 @@ I. Generales:
 
 1. Restricciones de uso:
 
-a. Lote mínimo: no especificado;
-b. Frente mínimo del lote: no especificado;
-c. Estacionamiento: según Reglamento de Construcciones y según proyecto;
-d. COS: 0. 7;
-e. CUS: 3. 0;
-f. Porcentaje de superficie permeable: no especificado;
-g. Restricciones de construcción: no especificado;
-h. Altura máxima de construcción desde el nivel de desplante: cinco niveles o 15m.
+* a. Lote mínimo: no especificado;
+* b. Frente mínimo del lote: no especificado;
+* c. Estacionamiento: según Reglamento de Construcciones y según proyecto;
+* d. COS: 0. 7;
+* e. CUS: 3. 0;
+* f. Porcentaje de superficie permeable: no especificado;
+* g. Restricciones de construcción: no especificado;
+* h. Altura máxima de construcción desde el nivel de desplante: cinco niveles o 15m.
 
 II. Usos Permitidos:
 

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * TrcIMPLAN Sitio Web - Introducción al Sistema de Información Geográfica del IMPLAN Torreón
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -39,9 +39,9 @@ class Introduccion extends \Base\Publicacion {
         $this->archivo          = 'introduccion';
      // $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
-        $this->encabezado_color = '#646464';
+     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Sistema de Información Geográfica del IMPLAN Torreón.';
+        $this->descripcion      = 'Introducción al Sistema de Información Geográfica del IMPLAN Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Informacion, Geografica, SIG, GIS';
         $this->categorias       = array('SIG');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
@@ -66,7 +66,7 @@ class Introduccion extends \Base\Publicacion {
 
 <p><img class="img-responsive contenido-imagen" src="introduccion/gis-03-poligonos-cruzados.jpg" alt="GIS Polígonos Cruzados"></p>
 FINAL;
-        $this->javascript       = '';
+     // $this->javascript       = '';
     } // constructor
 
 } // Clase Introduccion

@@ -1,5 +1,5 @@
 
-Norma 5.- La zonificación “H5” Habitacional de Densidad Media Alta, tendrá las siguientes restricciones de uso:
+La zonificación “H5” Habitacional de Densidad Media Alta, tendrá las siguientes restricciones de uso:
 
 I.- Generales:
 
@@ -7,14 +7,15 @@ I.- Generales:
 2. Densidad habitacional máxima: de 468.0 a 747.0 habitantes por hectárea.
 3. Usos permitidos: hasta una casa habitación por lote.
 4. Restricciones de uso:
-    a. Lote mínimo: 96.00m2;
-    b. Frente mínimo del lote: 8m;
-    c. Estacionamiento: según Reglamento de Construcciones.
-    d. COS: 0.8.
-    e. CUS: 1.1-1.6.
-    f. Porcentaje de superficie permeable: no especificado.
-    g. Restricciones de construcción: no especificado;
-    h. Altura máxima de construcción desde el nivel de desplante: tres niveles o 9m.
+
+* a. Lote mínimo: 96.00m2;
+* b. Frente mínimo del lote: 8m;
+* c. Estacionamiento: según Reglamento de Construcciones.
+* d. COS: 0.8.
+* e. CUS: 1.1-1.6.
+* f. Porcentaje de superficie permeable: no especificado.
+* g. Restricciones de construcción: no especificado;
+* h. Altura máxima de construcción desde el nivel de desplante: tres niveles o 9m.
 
 II.- Usos Permitidos:
 

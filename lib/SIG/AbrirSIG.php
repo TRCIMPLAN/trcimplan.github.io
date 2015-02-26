@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Abrir SIG
+ * TrcIMPLAN Sitio Web - Instrucciones para abrir el Sistema de Información Geográfica
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -32,23 +32,18 @@ class AbrirSIG extends \Base\Publicacion {
      */
     public function __construct() {
         $this->fecha         = '2014-07-01';
-     // $this->autor         = 'TrcIMPLAN';
         $this->nombre        = 'Abrir el Sistema de Información Geográfica';
         $this->nombre_menu   = 'Información Geográfica > Abrir el SIG';
         $this->directorio    = 'sig';
         $this->archivo       = 'abrir-sig';
         $this->descripcion   = 'Instrucciones para abrir el Sistema de Información Geográfica.';
         $this->claves        = 'IMPLAN, Torreon';
-     // $this->imagen_previa = 'directorio/imagen-previa.jpg';
         $this->categorias    = array('SIG');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
 <img class="img-responsive" src="abrir-sig/sig-instrucciones-1.png">
 <img class="img-responsive" src="abrir-sig/sig-instrucciones-2.jpg">
 <img class="img-responsive" src="abrir-sig/sig-instrucciones-3.jpg">
 <a href="http://201.159.104.45:8080/apps/implan2.html" target="_blank"><img class="img-responsive" src="abrir-sig/sig-instrucciones-4.jpg"></a>
-FINAL;
-        $this->javascript    = <<<FINAL
 FINAL;
     } // constructor
 
