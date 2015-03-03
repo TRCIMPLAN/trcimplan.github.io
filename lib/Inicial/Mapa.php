@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Mapa
+ * TrcIMPLAN Sitio Web - Mapa
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

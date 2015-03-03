@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Funciones
+ * TrcIMPLAN Sitio Web - Funciones
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

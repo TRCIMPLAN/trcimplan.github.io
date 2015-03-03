@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Central - Imprenta Config
+ * TrcIMPLAN Sitio Web - Imprenta Config
  *
  * @package Central
  */

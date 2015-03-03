@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Página Buscador Resultados
+ * TrcIMPLAN Sitio Web - Página Buscador Resultados
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

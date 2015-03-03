@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Plantilla
+ * TrcIMPLAN Sitio Web - Plantilla
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -49,6 +49,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public $mapa_inferior;                  // Instancia de \Base\MapaInferior
     public $javascript           = array(); // Arreglo que acumula el código Javascript a poner al final de la página
     public $contenido_en_renglon = true;    // Encierra el contenido en renglón y cuerpo.
+    public $google_site_verification;
 
     /**
      * Incorporar Publicacion
@@ -133,6 +134,9 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 $a[] = sprintf('  <meta name="og:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa);
             }
             $a[] = sprintf('  <meta name="og:url" content="%s/%s">', $this->sitio_url, $this->ruta);
+        }
+        if ($this->google_site_verification != '') {
+            $a[] = $this->google_site_verification;
         }
         $a[] = "  <title>$titulo</title>";
         if (isset($this->cabecera_bootstrap_css)) {

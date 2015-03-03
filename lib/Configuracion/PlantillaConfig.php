@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Plantilla Configuración
+ * TrcIMPLAN Sitio Web - Plantilla Configuración
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -56,8 +56,8 @@ class PlantillaConfig {
 
      =========================================================================================== -->
 FINAL;
-    public $pie              = '  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>';
-    public $google_analytics = <<<FINAL
+    public $pie                       = '  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>';
+    public $google_analytics          = <<<FINAL
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

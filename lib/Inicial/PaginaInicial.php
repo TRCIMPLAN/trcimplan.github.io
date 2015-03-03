@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Página Inicial del sitio web
+ * TrcIMPLAN Sitio Web - Página Inicial
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -48,6 +48,7 @@ class PaginaInicial extends \Base\Plantilla {
     // public $mapa_inferior;
     // public $javascript;
     // public $contenido_en_renglon;
+    public $google_site_verification = '  <meta name="google-site-verification" content="Hz-cnyG17CBaAXopvSHn7J81Za2cmg4dvnRh1VJE7ks">';
 
     /**
      * Constructor

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Lengüetas
+ * TrcIMPLAN Sitio Web - Lengüetas
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

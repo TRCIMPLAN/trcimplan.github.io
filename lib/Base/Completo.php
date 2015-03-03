@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Completo
+ * TrcIMPLAN Sitio Web - Completo
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -34,7 +34,7 @@ class Completo {
      *
      * @param mixed Instancia de Publicacion
      */
-    public function __construct($publicacion) {
+    public function __construct(Publicacion $publicacion) {
         $this->publicacion = $publicacion;
     } // constructor
 

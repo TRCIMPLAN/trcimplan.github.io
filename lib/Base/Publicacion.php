@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Publicación
+ * TrcIMPLAN Sitio Web - Publicación
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -125,7 +125,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     protected function cargar_archivo($ruta) {
         $contenido = file_get_contents("$ruta");
         if ($contenido === false) {
-            throw new \Exception("Error en cargar_archivo: No se puede leer $ruta");
+            throw new \Exception("Error en Publicacion, cargar_archivo: No se puede leer $ruta");
         }
         return $contenido;
     } // cargar_archivo_markdown
@@ -142,7 +142,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     protected function cargar_archivo_markdown($ruta) {
         $contenido = file_get_contents("$ruta");
         if ($contenido === false) {
-            throw new \Exception("Error en cargar_archivo_markdown: No se puede leer $ruta");
+            throw new \Exception("Error en Publicacion, cargar_archivo_markdown: No se puede leer $ruta");
         }
         $html = \Michelf\Markdown::defaultTransform($contenido);
         return $html;
@@ -159,7 +159,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     protected function cargar_archivo_markdown_extra($ruta) {
         $contenido = file_get_contents("$ruta");
         if ($contenido === false) {
-            throw new \Exception("Error en cargar_archivo_markdown_extra: No se puede leer $ruta");
+            throw new \Exception("Error en Publicacion, cargar_archivo_markdown_extra: No se puede leer $ruta");
         }
         $html    = \Michelf\MarkdownExtra::defaultTransform($contenido);
         $html_tb = str_replace('<table>', '<table class="table table-hover table-bordered">', $html); // Tablas de Twitter Bootstrap

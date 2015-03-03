@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Blog Imprenta
+ * TrcIMPLAN Sitio Web - Blog Imprenta
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

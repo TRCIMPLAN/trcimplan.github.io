@@ -1,6 +1,6 @@
 <?php
 /**
- * SMIbeta - Carrusel
+ * TrcIMPLAN Sitio Web - Carrusel
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

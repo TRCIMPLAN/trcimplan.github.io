@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Redifusión Configuración
+ * TrcIMPLAN Sitio Web - Redifusión Configuración
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Mapa del Sitio
+ * TrcIMPLAN Sitio Web - Mapa del Sitio
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

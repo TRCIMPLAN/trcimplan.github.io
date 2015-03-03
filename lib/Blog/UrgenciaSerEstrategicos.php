@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - La urgencia de ser estratégicos
+ * TrcIMPLAN Sitio Web - La urgencia de ser estratégicos
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

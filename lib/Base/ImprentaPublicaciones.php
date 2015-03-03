@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Imprenta Publicaciones
+ * TrcIMPLAN Sitio Web - Imprenta Publicaciones
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -68,9 +68,9 @@ class ImprentaPublicaciones extends Imprenta {
             throw new \Exception("Error: El concentrador es incorrecto.");
         }
         // Cargar la plantilla para publicaciones
-        $this->plantilla                = new \Base\Plantilla();
-        $this->plantilla->navegacion    = new \Base\Navegacion();
-        $this->plantilla->mapa_inferior = new \Base\MapaInferior();
+        $this->plantilla                = new Plantilla();
+        $this->plantilla->navegacion    = new Navegacion();
+        $this->plantilla->mapa_inferior = new MapaInferior();
         // Cargar las publicaciones
         $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio);
         // Imprimir las publicaciones
@@ -80,9 +80,9 @@ class ImprentaPublicaciones extends Imprenta {
         // Dejar en blanco la propiedad publicaciones, para volver a imprimir
         $this->publicaciones = null;
         // Nueva instancia de Plantilla, para evitar restos de datos
-        $this->plantilla                = new \Base\Plantilla();
-        $this->plantilla->navegacion    = new \Base\Navegacion();
-        $this->plantilla->mapa_inferior = new \Base\MapaInferior();
+        $this->plantilla                = new Plantilla();
+        $this->plantilla->navegacion    = new Navegacion();
+        $this->plantilla->mapa_inferior = new MapaInferior();
         // Cargar el índice con las publicaciones
         if ($this->concentrador == 'Indice') {
             $concentrador = new Indice($publicaciones);

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Imprenta Exception Validación
+ * TrcIMPLAN Sitio Web - Imprenta Exception Validación
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *
