@@ -2,7 +2,7 @@
 /*
  * TrcIMPLAN Sitio Web - DESCRIPCION
  *
- * Copyright (C) 2015 IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,26 +23,26 @@
 namespace Blog;
 
 /**
- * Clase CiudadAbiertaCiudadFraccionada
+ * Clase ReciclajeUrbano
  */
-class CiudadAbiertaCiudadFraccionada extends \Base\Publicacion {
+class ReciclajeUrbano extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre           = 'Ciudad abierta y ciudad fraccionada';
-        $this->autor            = 'Arq. Cecilio Pedro Secunza Schott';
-        $this->fecha            = '2015-02-24';
+        $this->nombre           = 'Reciclaje Urbano';
+        $this->autor            = 'Arq. Jair Miramontes Chávez';
+        $this->fecha            = '2015-03-03';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'ciudad-abierta-ciudad-fraccionada';
-        $this->imagen_previa    = 'ciudad-abierta-ciudad-fraccionada/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="ciudad-abierta-ciudad-fraccionada/encabezado.jpg">';
+        $this->archivo          = 'reciclaje-urbano';
+        $this->imagen_previa    = 'reciclaje-urbano/imagen-previa.jpg';
+     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="reciclaje-urbano/encabezado.jpg">';
      // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'La fragmentación social y urbana provocada por desarrollos habitacionales “seguros” tiene efectos que agravan la percepción de la inseguridad en la ciudad.';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->descripcion      = 'Con en el reciclaje urbano, se han logrado grandes resultados al convertir zonas degradadas en nuevos barrios con gran potencial y desarrollo que se resulta un nuevo punto de interés para los habitantes y visitantes de la ciudad.';
+        $this->claves           = 'IMPLAN, Torreon, Reciclaje Urbano';
         $this->categorias       = array('Infraestructura');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
@@ -52,10 +52,10 @@ class CiudadAbiertaCiudadFraccionada extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
      // $this->para_compartir   = true;
         // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/CiudadAbiertaCiudadFraccionada.md');
+        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/ReciclajeUrbano.md');
      // $this->javascript       = '';
     } // constructor
 
-} // Clase CiudadAbiertaCiudadFraccionada
+} // Clase ReciclajeUrbano
 
 ?>

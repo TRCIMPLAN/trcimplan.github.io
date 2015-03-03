@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+           http://trcimplan.gob.mx/terminos/terminos-informacion.html
+           http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas sobre las que se basa:
+           Twitter Bootstrap    http://getbootstrap.com
+           StartBootStrap       http://startbootstrap.com
+           Morris.js            http://www.oesmith.co.uk/morris.js
+           LeafLet              http://leafletjs.com
+           CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+           GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Con en el reciclaje urbano, se han logrado grandes resultados al convertir zonas degradadas en nuevos barrios con gran potencial y desarrollo que se resulta un nuevo punto de interés para los habitantes y visitantes de la ciudad.">
+  <meta name="author" content="Arq. Jair Miramontes Chávez">
+  <meta name="keywords" content="IMPLAN, Torreon, Reciclaje Urbano">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Reciclaje Urbano - IMPLAN Torreón">
+  <meta name="twitter:description" content="Con en el reciclaje urbano, se han logrado grandes resultados al convertir zonas degradadas en nuevos barrios con gran potencial y desarrollo que se resulta un nuevo punto de interés para los habitantes y visitantes de la ciudad.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/reciclaje-urbano/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/reciclaje-urbano.html">
+  <meta name="og:title" content="Reciclaje Urbano - IMPLAN Torreón">
+  <meta name="og:description" content="Con en el reciclaje urbano, se han logrado grandes resultados al convertir zonas degradadas en nuevos barrios con gran potencial y desarrollo que se resulta un nuevo punto de interés para los habitantes y visitantes de la ciudad.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/reciclaje-urbano/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/reciclaje-urbano.html">
+  <title>Reciclaje Urbano - IMPLAN Torreón</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="http://trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi/georreferenciados.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../sig/abrir-sig.html"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Abrir el SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Alumbrado Público</a></li>
+            <li><a href="../sig/crecimiento-historico-torreon.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Crecimiento Histórico</a></li>
+            <li><a href="../sig/zonificacion-primaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Primaria</a></li>
+            <li><a href="../sig/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M1 Diagnóstico y Pronóstico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-2.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M2 Visión y Objetivos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-3.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M3 Estrategias y Proyectos</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+<article>
+  <header>
+    <div class="encabezado">
+      <span><h1><i class="fa fa-lightbulb-o encabezado-icono"></i> Reciclaje Urbano</h1></span>
+    </div>
+    <p class="autor-fecha">Por Arq. Jair Miramontes Chávez<br>03/03/2015</p>
+  </header>
+<p><span class="contenido-imagen-previa"><img class="img-responsive" src="reciclaje-urbano/imagen.jpg" alt="Reciclaje Urbano"></span></p>
+
+<blockquote>
+  <p>"Cuando una ciudad acepta como mandato la calidad de vida, cuando respeta a la gente que allí vive, cuando respeta el medio ambiente, y cuando se prepara para las nuevas generaciones, la gente comparte la responsabilidad de este mandato, y esta causa compartida es la única manera de hacer un sueño colectivo realidad"...</p>
+  
+  <p>Jaime Lerner</p>
+</blockquote>
+
+<p>La ciudad y sus significados han ido cambiando a lo largo del tiempo dependiendo de los nuevos retos, las necesidades y los nuevos intereses de la sociedad.</p>
+
+<p>En la actualidad el urbanismo tiene nuevos retos y por lo mismo nuevos significados.</p>
+
+<p>Los últimos años la zona urbana de Torreón tuvo un crecimiento expansivo con la creación de grandes desarrollos hacia las afueras de la ciudad, zonas con poca accesibilidad, alejadas del centro urbano y  con pocos o nulos equipamientos y servicios urbanos.</p>
+
+<p>Sin dejar de mencionar que existe un gran número de inmuebles abandonados y vacíos urbanos con un elevado potencial no solo para el desarrollo de edificios sino también de espacios públicos, donde se tienen resueltas las necesidades que demanda la ciudad:  redes de servicios, vialidades, equipamientos lo cual no involucra la necesidad de crear nuevos.</p>
+
+<p>Otras ciudades del país y del mundo han enfocado su atención en esta posibilidad del reciclaje urbano, logrando grandes resultados al convertir zonas degradadas en nuevos barrios con gran potencial y desarrollo que se resulta un nuevo punto de interés para los habitantes y visitantes de la ciudad.</p>
+
+<p>Algunos proyectos realizados son:</p>
+
+<p><img class="img-responsive" src="reciclaje-urbano/01-rio-turia-valencia.jpg" alt="Río Turia, Valencia"></p>
+
+<p>Río Turia, Valencia</p>
+
+<p><img class="img-responsive" src="reciclaje-urbano/02-barcelona.jpg" alt="22@ Barcelona"></p>
+
+<p>22@, Barcelona</p>
+
+<p><img class="img-responsive" src="reciclaje-urbano/03-parque-fundidora-monterrey.jpg" alt="Parque Fundidora, Monterrey, N.L."></p>
+
+<p>Parque, Fundidora, Monterrey, N.L.</p>
+
+<p><img class="img-responsive" src="reciclaje-urbano/04-high-line-new-york.jpg" alt="High Line, New York"></p>
+
+<p>High Line, New York</p>
+
+<p>De igual manera el reciclaje se ha llevado a menor escala en inmuebles específicos que se encuentran en desuso como antiguas naves industriales, edificios subutilizados  y abandonados.</p>
+
+<p><img class="img-responsive" src="reciclaje-urbano/05-centro-comercial-antigua-harinera-torreon-coah.jpg" alt="Centro comercial Antigua Harinera, Torreón, Coah."></p>
+
+<p>Centro comercial Antigua Harinera, Torreón, Coah.</p>
+
+<p><img class="img-responsive" src="reciclaje-urbano/06-centro-cultural-pilar-rioja-antigua-estacion-del-ferrocarril-torreon-coah.jpg" alt="Centro cultural Pilar Rioja, (antigua estación del Ferrocarril), Torreón, Coah."></p>
+
+<p>Centro cultural Pilar Rioja, (antigua estación del Ferrocarril), Torreón, Coah.</p>
+
+<p>Este concepto no es nuevo para la ciudad, pero falta ser explotado, es por eso que en la actualidad se nos plantea un nuevo reto, que requiere de la exploración de estos vacíos y zonas emergentes de lo que algún día tuvo utilidad y que en el presente es obsoleto.</p>
+
+<p><img class="img-responsive" src="reciclaje-urbano/07-proyecto-linea-verde.jpg" alt="Proyecto Línea Verde Oriente en el antiguo derecho de vía del ferrocarril, Torreón, Coah."></p>
+
+<p>Proyecto: Línea Verde Oriente en el antiguo derecho de vía del ferrocarril, Torreón, Coah.</p>
+
+<p>Al aplicar esta práctica de reciclaje se puede aminorar los desplazamientos que causan tráfico y contaminación, la disminución del crecimiento desmedido que daña a la ciudad al generar divisiones sociales y económicas entre los habitantes, por lo que reutilizar, aprovechar las estructuras de edificios existentes y llenar huecos urbanos es indispensable y fundamental para renovar la ciudad, no existe la necesidad de seguir creciendo hacia afuera cuando tenemos tantas posibilidades en lo existente.</p>
+
+<blockquote>
+  <p>"...en lugar de continuar haciendo que la ciudad se desparrame, deberíamos completar su tejido"</p>
+  
+  <p>Renzo Piano</p>
+</blockquote>
+
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Freciclaje-urbano.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
