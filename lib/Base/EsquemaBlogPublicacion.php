@@ -41,24 +41,6 @@ class EsquemaBlogPublicacion {
         $this->publicacion = $publicacion;
     } // constructor
 
-/*
-<div class="post" itemscope itemType="http://schema.org/BlogPosting">
-  <h2 class="post-title" itemprop="headline">Introducing schema.org: Search engines come together for a richer web</h2>
-  <div class="introduction" itemprop="description">Short description of my post</div>
-  <div class="date-header">
-    <meta itemprop="datePublished" content="2011-06-02T16:00Z"/>
-    6/02/2011 10:00:00 AM</div>
-    <div class="post-body" itemprop="articleBody">
-      Today we're announcing ....
-    </div>
-  <div class="post-author" itemprop="author">
-    <span itemscope itemtype="http://schema.org/Person">
-      Posted by <span itemprop="name">Ramanathan Guha</span>, Google Fellow
-    </span>
-  </div>
-</div>
- */
-
     /**
      * HTML
      *
@@ -68,9 +50,24 @@ class EsquemaBlogPublicacion {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '';
+        $a[] = '<div class="post" itemscope itemType="http://schema.org/BlogPosting">';
+        $a[] = '  <h2 class="post-title" itemprop="headline">Introducing schema.org: Search engines come together for a richer web</h2>';
+        $a[] = '  <div class="introduction" itemprop="description">Short description of my post</div>';
+        $a[] = '  <div class="date-header">';
+        $a[] = '    <meta itemprop="datePublished" content="2011-06-02T16:00Z"/>';
+        $a[] = '    6/02/2011 10:00:00 AM';
+        $a[] = '  </div>';
+        $a[] = '  <div class="post-body" itemprop="articleBody">';
+        $a[] = '    Today we"re announcing ....';
+        $a[] = '  </div>';
+        $a[] = '  <div class="post-author" itemprop="author">';
+        $a[] = '    <span itemscope itemtype="http://schema.org/Person">';
+        $a[] = '      Posted by <span itemprop="name">Ramanathan Guha</span>, Google Fellow';
+        $a[] = '    </span>';
+        $a[] = '  </div>';
+        $a[] = '</div>';
         // Entregar
-        return implode("\n", $a)."\n";
+        return implode("\n", $a);
     } // html
 
 } // Clase EsquemaBlogPublicacion
