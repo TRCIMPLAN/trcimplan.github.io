@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - DESCRIPCION
+ * TrcIMPLAN Sitio Web - ¿Qué son los datos abiertos?
  *
  * Copyright (C) 2015 IMPLAN Torreón
  *

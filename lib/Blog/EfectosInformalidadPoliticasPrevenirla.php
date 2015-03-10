@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - DESCRIPCION
+ * TrcIMPLAN Sitio Web - Efectos de la informalidad y políticas para prevenirla
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

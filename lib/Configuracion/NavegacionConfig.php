@@ -42,7 +42,8 @@ class NavegacionConfig {
             'Información Geográfica > Alumbrado Público'       => 'sig/alumbrado-publico.html',
             'Información Geográfica > Crecimiento Histórico'   => 'sig/crecimiento-historico-torreon.html',
             'Información Geográfica > Zonificación Primaria'   => 'sig/zonificacion-primaria.html',
-            'Información Geográfica > Zonificación Secundaria' => 'sig/zonificacion-secundaria.html'),
+            'Información Geográfica > Zonificación Secundaria' => 'sig/zonificacion-secundaria.html',
+            'Información Geográfica > Planes'                  => 'sig/planes.html'),
         'Plan Estratégico Metropolitano' => array(
             'Plan Estratégico Metropolitano > Conoce el Plan'              => 'plan-estrategico-metropolitano/introduccion.html',
             'Plan Estratégico Metropolitano > M1 Diagnóstico y Pronóstico' => 'plan-estrategico-metropolitano/mesa-1.html',

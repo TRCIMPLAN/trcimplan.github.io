@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - DESCRIPCION
+ * TrcIMPLAN Sitio Web - La Comarca Lagunera y el IMPLAN
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
