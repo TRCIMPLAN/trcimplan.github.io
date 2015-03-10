@@ -39,7 +39,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $nombre_menu;                  // Un título corto. Debe coincidir con la etiqueta usada en Navegacion
     public $directorio;                   // Directorio donde se guardará la publicación completa
     public $archivo;                      // El nombre del archivo para la publicación
-    public $descripcion;                  // Descripción del sitio o la página
+    public $descripcion  = '';            // Descripción del sitio o la página
     public $claves;                       // Claves que ayuden a los buscadores
     public $categorias   = array();       // Arreglo con las categorías de la publicación
     public $encabezado;                   // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
@@ -112,9 +112,79 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string Fecha en el formato DD/MM/YYYY
      */
     public function fecha_con_formato_humano() {
-        $a = explode('-', $this->fecha);
-        return sprintf('%02d/%02d/%04d', $a[2], $a[1], $a[0]);
+        $t = strtotime($this->fecha);
+        if ($t === false) {
+            // Fecha mal escrita, no se entrega nada
+            return '';
+        } else {
+            // Sí se interpretó bien
+            $a      = getdate($t);
+            $ano    = $a['year'];
+            $mes    = $a['mon'];
+            $dia    = $a['mday'];
+            $hora   = $a['hours'];
+            $minuto = $a['minutes'];
+            if (($hora > 0) || ($minuto > 00)) {
+                return sprintf('%02d/%02d/%04d %02d:%02d', $dia, $mes, $ano, $hora, $minuto);
+            } else {
+                return sprintf('%02d/%02d/%04d', $dia, $mes, $ano);
+            }
+        }
     } // fecha_con_formato_humano
+
+    /**
+     * Fecha en ISO 8601, por ejemplo Thu, 21 Dec 2000 16:01:07 +0200
+     *
+     * @return string Fecha en ISO 8601
+     */
+    public function fecha_en_iso8601() {
+        $t = strtotime($this->fecha);
+        if ($t === false) {
+            // Fecha mal escrita, se usará 1980-01-01
+            $ano    = 1980;
+            $mes    = 1;
+            $dia    = 1;
+            $hora   = 0;
+            $minuto = 0;
+            return date(DATE_ISO8601, mktime($hora, $minuto, 0, $mes, $dia, $ano));
+        } else {
+            // Sí se interpretó bien
+            $a      = getdate($t);
+            $ano    = $a['year'];
+            $mes    = $a['mon'];
+            $dia    = $a['mday'];
+            $hora   = $a['hours'];
+            $minuto = $a['minutes'];
+            return date(DATE_ISO8601, mktime($hora, $minuto, 0, $mes, $dia, $ano));
+        }
+    } // fecha_en_iso8601
+
+    /**
+     * Fecha en RFC 2822, por ejemplo 2004-02-12T15:19:21+00:00
+     *
+     * @return string RFC 2822
+     */
+    public function fecha_en_rfc2822() {
+        $t = strtotime($this->fecha);
+        if ($t === false) {
+            // Fecha mal escrita, se usará 1980-01-01
+            $ano    = 1980;
+            $mes    = 1;
+            $dia    = 1;
+            $hora   = 0;
+            $minuto = 0;
+            return date(DATE_RFC1123, mktime($hora, $minuto, 0, $mes, $dia, $ano));
+        } else {
+            // Sí se interpretó bien
+            $a      = getdate($t);
+            $ano    = $a['year'];
+            $mes    = $a['mon'];
+            $dia    = $a['mday'];
+            $hora   = $a['hours'];
+            $minuto = $a['minutes'];
+            return date(DATE_RFC1123, mktime($hora, $minuto, 0, $mes, $dia, $ano));
+        }
+    } // fecha_en_rfc2822
 
     /**
      * Cargar archivo
