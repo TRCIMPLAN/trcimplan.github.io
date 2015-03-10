@@ -17,7 +17,7 @@ En el municipio de **Torreón, Coahuila** la **tasa de informalidad laboral** en
 
 <img class="img-responsive" src="efectos-informalidad-politicas-prevenirla/grafica-informalidad-torreon-laguna-mexico.png" alt="Grafica Informalidad Torreon, La Laguna, Mexico">
 
-El encontrarnos considerablemente por debajo de la media nacional, así como la clara tendencia a la baja de la informalidad durante los últimos años no nos exenta de los efectos de ésta, más aún para potenciar la ventaja competitiva respecto a la media nacional y a otras regiones, por lo que se requieren políticas públicas para prevenirla.
+El encontrarnos considerablemente por debajo de la media nacional sumado a la clara tendencia a la baja de la informalidad durante los últimos años **no nos exenta de los efectos de ésta**, por lo que se requieren políticas públicas para prevenirla y potenciar nuestra ventaja.
 
 ### Acciones para prevenirla
 
