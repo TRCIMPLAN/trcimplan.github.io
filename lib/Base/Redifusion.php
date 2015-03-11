@@ -139,13 +139,19 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         $id = sprintf('%s-%s', $publicacion->directorio, $publicacion->archivo);
         // La clave del arreglo asociativo es el tiempo_creado-archivo y sirve para ordenarlo
         $clave = sprintf('%s-%s', $publicacion->tiempo_creado(), $publicacion->archivo);
+        // Si contenido es una instancia
+        if (is_object($publicacion->contenido)) {
+            $contenido = $publicacion->contenido->articleBody; // Espero que sea de SchemaBlogPosting
+        } else {
+            $contenido = $publicacion->contenido;
+        }
         // Acumular
         $this->elementos[$clave] = array(
             'id'          => $id,
             'fecha'       => $fecha,
             'titulo'      => $publicacion->nombre,
             'descripcion' => $publicacion->descripcion,
-            'contenido'   => $this->vinculos_absolutos($publicacion->contenido, $publicacion->directorio),
+            'contenido'   => $this->vinculos_absolutos($contenido, $publicacion->directorio),
             'autor'       => $publicacion->autor,
             'url'         => $url);
         // Entregar verdadero

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Schema Organization
+ * TrcIMPLAN Sitio Web - SchemaGeoCoordinates
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,16 +23,35 @@
 namespace Base;
 
 /**
- * Clase SchemaOrganization
- *
- * http://schema.org/Organization
+ * Clase SchemaGeoCoordinates
  */
-class SchemaOrganization extends SchemaThing {
+class SchemaGeoCoordinates extends SchemaThing {
 
     // public $onTypeProperty; // Text. Use when this item is part of another one.
     // public $description;    // Text. A short description of the item.
     // public $image;          // URL or ImageObject. An image of the item.
     // public $name;           // Text. The name of the item.
+    public $elevation;         // Number or Text. The elevation of a location.
+    public $latitude;          // Number or Text. The latitude of a location. For example 37.42242
+    public $longitude;         // Number or Text. The longitude of a location. For example -122.08585
+
+    /**
+     * Latitud con formato humano
+     *
+     * @return string
+     */
+    protected function latitud_con_formato_humano() {
+        return $this->latitude;
+    } // latitud_con_formato_humano
+
+    /**
+     * Longitud con formato humano
+     *
+     * @return string
+     */
+    protected function longitud_con_formato_humano() {
+        return $this->longitude;
+    } // longitud_con_formato_humano
 
     /**
      * HTML
@@ -44,30 +63,19 @@ class SchemaOrganization extends SchemaThing {
         $a = array();
         // Acumular inicia
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Organization\">";
+            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/GeoCoordinates\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/Organization">';
+            $a[] = '<div itemscope itemtype="http://schema.org/GeoCoordinates">';
         }
-        // Imagen
-        if ($this->image != '') {
-            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
-        }
-        // Título
-        if (is_string($this->name) && ($this->name != '')) {
-            $a[] = "  <h3 itemprop=\"name\">{$this->name}</h3>";
-        } else {
-            throw new \Exception('Error en SchemaCreativeWork, html: La propiedad name y/o headline es incorrecta.');
-        }
-        // Descripción
-        if ($this->description != '') {
-            $a[] = "  <div itemprop=\"description\">{$this->description}</div>";
-        }
+        // Latitud y longitud
+        $a[] = sprintf('  Latitud: %s <meta itemprop="latitude" content="%s">', $this->latitud_con_formato_humano(), $this->latitude);
+        $a[] = sprintf('  Longitud: %s <meta itemprop="longitude" content="%s">', $this->longitud_con_formato_humano(), $this->longitude);
         // Acumular termina
         $a[] = '</div>';
         // Entregar
         return implode("\n", $a);
     } // html
 
-} // Clase SchemaOrganization
+} // Clase SchemaGeoCoordinates
 
 ?>

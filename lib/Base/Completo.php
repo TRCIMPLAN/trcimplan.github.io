@@ -94,40 +94,46 @@ class Completo {
         }
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular
-        $a[] = '<article>';
-        $a[] = '  <header>';
-        // Si el encabezado está definido
-        if ($this->publicacion->encabezado != '') {
-            // Se pone el código HTML del encabezado
-            $a[] = $this->publicacion->encabezado;
-            // Y el título de la página es invisible
-            if ($this->publicacion->nombre != '') {
-                $a[] = "    <h1 style=\"display:none;\">{$this->publicacion->nombre}</h1>";
+        // Si el contenido de la publicación es una instancia
+        if (is_object($this->publicacion->contenido)) {
+            // Es una instancia de esquema, debe tener el método html
+            $a[] = $this->publicacion->contenido->html();
+        } else {
+            // Es texto
+            $a[] = '<article>';
+            $a[] = '  <header>';
+            // Si el encabezado está definido
+            if ($this->publicacion->encabezado != '') {
+                // Se pone el código HTML del encabezado
+                $a[] = $this->publicacion->encabezado;
+                // Y el título de la página es invisible
+                if ($this->publicacion->nombre != '') {
+                    $a[] = "    <h1 style=\"display:none;\">{$this->publicacion->nombre}</h1>";
+                }
+            } elseif ($this->publicacion->nombre != '') {
+                // Hay título. Si hay icono definido en Navegación
+                $navegacion_config = new \Configuracion\NavegacionConfig();
+                if (array_key_exists($this->publicacion->nombre_menu, $navegacion_config->iconos)) {
+                    $encabezado = sprintf('<i class="%s encabezado-icono"></i> %s', $navegacion_config->iconos[$this->publicacion->nombre_menu], $this->publicacion->nombre);
+                } else {
+                    $encabezado = $this->publicacion->nombre;
+                }
+                // Acumular
+                if ($this->publicacion->encabezado_color != '') {
+                    $a[] = "    <div class=\"encabezado\" style=\"background-color:{$this->publicacion->encabezado_color};\">";
+                } else {
+                    $a[] = '    <div class="encabezado">';
+                }
+                $a[] = "      <span><h1>$encabezado</h1></span>";
+                $a[] = '    </div>';
             }
-        } elseif ($this->publicacion->nombre != '') {
-            // Hay título. Si hay icono definido en Navegación
-            $navegacion_config = new \Configuracion\NavegacionConfig();
-            if (array_key_exists($this->publicacion->nombre_menu, $navegacion_config->iconos)) {
-                $encabezado = sprintf('<i class="%s encabezado-icono"></i> %s', $navegacion_config->iconos[$this->publicacion->nombre_menu], $this->publicacion->nombre);
-            } else {
-                $encabezado = $this->publicacion->nombre;
+            if ($autor_fecha != '') {
+                $a[] = "    <p class=\"autor-fecha\">$autor_fecha</p>";
             }
-            // Acumular
-            if ($this->publicacion->encabezado_color != '') {
-                $a[] = "    <div class=\"encabezado\" style=\"background-color:{$this->publicacion->encabezado_color};\">";
-            } else {
-                $a[] = '    <div class="encabezado">';
-            }
-            $a[] = "      <span><h1>$encabezado</h1></span>";
-            $a[] = '    </div>';
+            $a[] = '  </header>';
+            $a[] = $this->publicacion->contenido;
+            $a[] = '</article>';
         }
-        if ($autor_fecha != '') {
-            $a[] = "    <p class=\"autor-fecha\">$autor_fecha</p>";
-        }
-        $a[] = '  </header>';
-        $a[] = $this->publicacion->contenido;
-        $a[] = '</article>';
         // Agregar botones para compartir en redes sociales
         if ($this->publicacion->para_compartir && ($this->publicacion->estado == 'publicar')) {
             $a[] = '<div class="contenido-social">';

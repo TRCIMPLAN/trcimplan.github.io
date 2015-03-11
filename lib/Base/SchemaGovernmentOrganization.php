@@ -29,9 +29,10 @@ namespace Base;
  */
 class SchemaGovernmentOrganization extends SchemaOrganization {
 
-    // public $description; // Text. A short description of the item.
-    // public $image;       // URL or ImageObject. An image of the item.
-    // public $name;        // Text. The name of the item.
+    // public $onTypeProperty; // Text. Use when this item is part of another one.
+    // public $description;    // Text. A short description of the item.
+    // public $image;          // URL or ImageObject. An image of the item.
+    // public $name;           // Text. The name of the item.
 
     /**
      * HTML
@@ -41,10 +42,30 @@ class SchemaGovernmentOrganization extends SchemaOrganization {
     public function html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular
-        $a[] = '';
+        // Acumular inicia
+        if ($this->onTypeProperty != '') {
+            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/GovernmentOrganization\">";
+        } else {
+            $a[] = '<div itemscope itemtype="http://schema.org/GovernmentOrganization">';
+        }
+        // Imagen
+        if ($this->image != '') {
+            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
+        }
+        // Título
+        if (is_string($this->name) && ($this->name != '')) {
+            $a[] = "  <h3 itemprop=\"name\">{$this->name}</h3>";
+        } else {
+            throw new \Exception('Error en SchemaCreativeWork, html: La propiedad name y/o headline es incorrecta.');
+        }
+        // Descripción
+        if ($this->description != '') {
+            $a[] = "  <div itemprop=\"description\">{$this->description}</div>";
+        }
+        // Acumular termina
+        $a[] = '</div>';
         // Entregar
-        return implode("\n", $a)."\n";
+        return implode("\n", $a);
     } // html
 
 } // Clase SchemaGovernmentOrganization

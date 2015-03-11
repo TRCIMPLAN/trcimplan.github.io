@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="que-son-datos-abiertos/imagen.jpg" alt="Datos abiertos"></span>
-
 Los **datos abiertos** son los datos digitales de carácter público que son **accesibles en línea**, es decir, por Internet, y que también **pueden ser usados, reutilizados y redistribuidos por cualquier interesado**.
 
 Ampliando la definición anterior, los datos abiertos constituyen una **poderosa herramienta que mejora la forma de trabajar, dentro y fuera del gobierno federal, estatal o municipal.** Hacia el interior aumenta la eficiencia del trabajo entre las dependencias; hacia el exterior, se vuelven componentes básicos para resolver problemáticas del ciudadano, empresas y organizaciones civiles.

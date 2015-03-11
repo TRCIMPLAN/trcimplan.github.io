@@ -143,7 +143,7 @@ a:active  { color:#FF3300; text-decoration:none; }
     padding:4px;
 }
 
-/* Contenido */
+/* Cuerpo */
 .cuerpo {
     background-color:#FFF;
     padding:8px;
@@ -158,6 +158,16 @@ a:active  { color:#FF3300; text-decoration:none; }
     border-bottom:2px solid #CCC;
     width:100%;
 }
+
+/* Contenido */
+.contenido-autor-fecha {
+    color:#444;
+    font-size:0.8em;
+}
+.contenido-descripcion {
+    color:#888;
+    font-size:0.8em;
+}
 .contenido-imagen {
     padding:24px;
 }
@@ -165,6 +175,8 @@ a:active  { color:#FF3300; text-decoration:none; }
     padding:0 24px 12px 0;
     float:left;
 }
+
+/**/
 .descripcion {
     font-size:0.8em;
 }

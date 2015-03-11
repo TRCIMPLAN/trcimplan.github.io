@@ -29,6 +29,7 @@ namespace Base;
  */
 class SchemaArticle extends SchemaCreativeWork {
 
+    // public $onTypeProperty;  // Text. Use when this item is part of another one.
     // public $description;     // Text. A short description of the item.
     // public $image;           // URL or ImageObject. An image of the item.
     // public $name;            // Text. The name of the item.
@@ -45,60 +46,56 @@ class SchemaArticle extends SchemaCreativeWork {
      * @return string Código HTML
      */
     public function html() {
-        // Cargar los valores por defecto de Publicacion
-        $publicacion_config = new \Configuracion\PublicacionConfig();
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular incia
-        $a[] = '<div class="" itemscope itemtype="http://schema.org/Article">';
-        // Nombre
-        if ($this->publicacion->nombre != '') {
-            $a[] = "  <h1 class=\"\" itemprop=\"headline\">{$this->publicacion->nombre}</h2>";
+        // Acumular inicia
+        if ($this->onTypeProperty != '') {
+            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Article\">";
         } else {
-            throw new \Exception('Error en EsquemaBlogPublicacion, html: Publicación sin nombre.');
+            $a[] = '<div itemscope itemtype="http://schema.org/Article">';
         }
-        // Descripción
-        if ($this->publicacion->descripcion != '') {
-            $a[] = "  <p class=\"\" itemprop=\"description\">{$this->publicacion->descripcion}</p>";
+        // Título
+        if (is_string($this->headline) && ($this->headline != '')) {
+            if (!is_string($this->name) || ($this->name == '')) {
+                $this->name = $this->headline;
+                $a[] = "  <h1 itemprop=\"name\">{$this->name}</h1>";
+            } elseif ($this->name != $this->headline) {
+                $a[] = "  <h1 itemprop=\"headline\">{$this->headline}</h1>";
+                $a[] = "  <h4 itemprop=\"name\">{$this->name}</h4>";
+            }
+        } elseif (is_string($this->name) && ($this->name != '')) {
+            $a[] = "  <h1 itemprop=\"name\">{$this->name}</h1>";
+            $this->headline = $this->name;
+        } else {
+            throw new \Exception('Error en SchemaArticle, html: La propiedad name y/o headline es incorrecta.');
         }
         // Imagen
-/*
-  <div itemprop="associatedMedia">
-    <span itemscope itemtype="http://schema.org/ImageObject">
-      <img itemprop="contentURL" src="/files/rNews-Sample-Story/libya_sample_reuters.jpg">
-      <div>
-        Credit:
-        <span itemprop="author">Goran Tomasevic</span>
-        <span itemprop="sourceOrganization">
-          <span itemscope itemtype="http://schema.org/Organization">
-            <span itemprop="name"> Reuters</span>
-          </span>
-        </span>
-      </div>
-    <div itemprop="caption">Rebel fighters take cover during a shelling near Ajdabiyah, Libya on Thursday.</div>
-    </span>
-  </div>
- */
-        // Autor
-        if ($this->publicacion->autor != $publicacion_config->autor) {
-            $a[] = '  <div class="">';
-            $a[] = sprintf('    Por <span itemprop="author">%s</span>', $this->publicacion->autor);
-            $a[] = '  </div>';
+        if ($this->image != '') {
+            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
         }
-        // Fecha
-        if (strcmp($this->publicacion->fecha, $publicacion_config->fecha) > 0) {
-            $a[] = '  <div class="">';
-            $a[] = sprintf('    <meta itemprop="datePublished" content="%s">%s', $this->publicacion->fecha_en_rfc2822(), $this->publicacion->fecha_con_formato_humano());
+        // Descripción
+        if ($this->description != '') {
+            $a[] = "  <div class=\"contenido-descripcion\" itemprop=\"description\">{$this->description}</div>";
+        }
+        // Autor y Fecha
+        if (($this->author != '') || ($this->datePublished != '')) {
+            $a[] = '  <div class="contenido-autor-fecha">';
+            if ($this->author != '') {
+                $a[] = "    Por <span itemprop=\"author\">{$this->author}</span>";
+            }
+            if ($this->datePublished != '') {
+                $a[] = sprintf('    <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
+            }
             $a[] = '  </div>';
         }
         // Contenido
-        $a[] = '  <div class="" itemprop="articleBody">';
-        if ($this->publicacion->contenido != '') {
-            $a[] = $this->publicacion->contenido;
+        if (is_string($this->articleBody) && ($this->articleBody != '')) {
+            $a[] = '  <div itemprop="articleBody">';
+            $a[] = $this->articleBody;
+            $a[] = '  </div>';
         } else {
-            throw new \Exception('Error en EsquemaBlogPublicacion, html: Publicación sin contenido.');
+            throw new \Exception("Error en SchemaArticle, html: La propiedad articleBody es incorrecta.");
         }
-        $a[] = '  </div>';
         // Acumular termina
         $a[] = '</div>';
         // Entregar

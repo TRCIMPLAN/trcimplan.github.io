@@ -29,6 +29,7 @@ namespace Base;
  */
 class SchemaBlogPosting extends SchemaArticle {
 
+    // public $onTypeProperty;  // Text. Use when this item is part of another one.
     // public $description;     // Text. A short description of the item.
     // public $image;           // URL or ImageObject. An image of the item.
     // public $name;            // Text. The name of the item.
@@ -45,42 +46,60 @@ class SchemaBlogPosting extends SchemaArticle {
      * @return string Código HTML
      */
     public function html() {
-        // Cargar los valores por defecto de Publicacion
-        $publicacion_config = new \Configuracion\PublicacionConfig();
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular inicia
-        $a[] = '<div class="" itemscope itemType="http://schema.org/BlogPosting">';
-        // Nombre
-        if ($this->publicacion->nombre != '') {
-            $a[] = "  <h1 class=\"\" itemprop=\"headline\">{$this->publicacion->nombre}</h2>";
+        if ($this->onTypeProperty != '') {
+            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/BlogPosting\">";
         } else {
-            throw new \Exception('Error en SchemaBlogPosting, html: Publicación sin nombre.');
+            $a[] = '<div itemscope itemtype="http://schema.org/BlogPosting">';
+        }
+        // Título
+        if (is_string($this->headline) && ($this->headline != '')) {
+            if (!is_string($this->name) || ($this->name == '')) {
+                $this->name = $this->headline;
+                $a[] = "  <div class=\"encabezado\">";
+                $a[] = "    <span><h1 itemprop=\"name\">{$this->name}</h1></span>";
+                $a[] = "  </div>";
+            } elseif ($this->name != $this->headline) {
+                $a[] = "  <div class=\"encabezado\"><h1 itemprop=\"headline\">{$this->headline}</h1></div>";
+                $a[] = "  <h4 itemprop=\"name\">{$this->name}</h4>";
+            }
+        } elseif (is_string($this->name) && ($this->name != '')) {
+            $a[] = "  <div class=\"encabezado\">";
+            $a[] = "    <span><h1 itemprop=\"name\">{$this->name}</h1></span>";
+            $a[] = "  </div>";
+            $this->headline = $this->name;
+        } else {
+            throw new \Exception('Error en SchemaBlogPosting, html: La propiedad name y/o headline es incorrecta.');
         }
         // Descripción
-        if ($this->publicacion->descripcion != '') {
-            $a[] = "  <p class=\"\" itemprop=\"description\">{$this->publicacion->descripcion}</p>";
+        if ($this->description != '') {
+            $a[] = "  <div class=\"contenido-descripcion\" itemprop=\"description\">{$this->description}</div>";
         }
-        // Autor
-        if ($this->publicacion->autor != $publicacion_config->autor) {
-            $a[] = '  <div class="" itemprop="author">';
-            $a[] = sprintf('    <span itemscope itemtype="http://schema.org/Person">Por <span itemprop="name">%s</span></span>', $this->publicacion->autor);
+        // Autor y Fecha
+        if (($this->author != '') || ($this->datePublished != '')) {
+            $a[] = '  <div class="contenido-autor-fecha">';
+            if ($this->author != '') {
+                $a[] = "    Por <span itemprop=\"author\">{$this->author}</span>";
+            }
+            if ($this->datePublished != '') {
+                $a[] = sprintf('    <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
+            }
             $a[] = '  </div>';
         }
-        // Fecha
-        if (strcmp($this->publicacion->fecha, $publicacion_config->fecha) > 0) {
-            $a[] = '  <div class="">';
-            $a[] = sprintf('    <meta itemprop="datePublished" content="%s">%s', $this->publicacion->fecha_en_rfc2822(), $this->publicacion->fecha_con_formato_humano());
-            $a[] = '  </div>';
+        // Imagen
+        if ($this->image != '') {
+            $a[] = "  <span class=\"contenido-imagen-previa\"><img class=\"img-responsive\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\"></span>";
         }
         // Contenido
-        $a[] = '  <div class="" itemprop="articleBody">';
-        if ($this->publicacion->contenido != '') {
-            $a[] = $this->publicacion->contenido;
+        if (is_string($this->articleBody) && ($this->articleBody != '')) {
+            $a[] = '  <div itemprop="articleBody">';
+            $a[] = $this->articleBody;
+            $a[] = '  </div>';
         } else {
-            throw new \Exception('Error en SchemaBlogPosting, html: Publicación sin contenido.');
+            throw new \Exception("Error en SchemaBlogPosting, html: La propiedad articleBody es incorrecta.");
         }
-        $a[] = '  </div>';
         // Acumular termina
         $a[] = '</div>';
         // Entregar
