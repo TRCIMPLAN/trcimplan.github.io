@@ -31,27 +31,32 @@ class CiudadesRetoTransformacion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Las ciudades y el reto de su transformación';
         $this->autor            = 'Arq. Victoria Aranzábal';
-        $this->fecha            = '2014-10-28';
+        $this->fecha            = '2014-10-28T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'ciudades-reto-transformacion';
         $this->imagen_previa    = 'ciudades-reto-transformacion/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="ciudades-reto-transformacion/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana.';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->claves           = 'IMPLAN, Torreon, Ciudad, Urbana, Personas';
         $this->categorias       = array('Infraestructura', 'Recursos Naturales', 'Bienestar');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido        = <<<FINAL
-<span class="contenido-imagen-previa"><img src="ciudades-reto-transformacion/imagen.jpg"></span>
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'ciudades-reto-transformacion/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana, para el 2008 el Fondo de Población de las Naciones Unidas declaró que desde ese momento, más del 50% de la población vivía en ciudades. Esta tendencia continúa en la mayor parte de los países, sobre todo del hemisferio sur, convirtiéndose en los principales puntos de concentración, presente y futura de la población.</p>
 
@@ -84,8 +89,10 @@ class CiudadesRetoTransformacion extends \Base\Publicacion {
 <p>Lerner, Jaime (2007). A song of the city, en <a href="http://www.ted.com" target="_blank">www.ted.com</a>.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase CiudadesRetoTransformacion

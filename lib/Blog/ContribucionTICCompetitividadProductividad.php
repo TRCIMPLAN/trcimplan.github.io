@@ -31,19 +31,32 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-08-04';
-        $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->nombre        = 'Contribución de las TICs en la competitividad y productividad';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'contribucion-tic-competitividad-productividad';
-        $this->descripcion   = 'La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'contribucion-tic-competitividad-productividad/imagen-previa.jpg';
-        $this->categorias    = array('Competitividad', 'Innovación', 'Empleo');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="contribucion-tic-competitividad-productividad/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Contribución de las TICs en la competitividad y productividad';
+        $this->autor            = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha            = '2014-08-04T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'contribucion-tic-competitividad-productividad';
+        $this->imagen_previa    = 'contribucion-tic-competitividad-productividad/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.';
+        $this->claves           = 'IMPLAN, Torreon, TIC, Desarrollo, Empleo, Estudio, Carreras';
+        $this->categorias       = array('Competitividad', 'Innovación', 'Empleo');
+        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'contribucion-tic-competitividad-productividad/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Mientras el mundo creció 4% en la década de 2000 a 2010, el sector de las Tecnologías de la Información y Comunicación (TICs) creció 5.7% (IMCO, 2012). La realidad es que la implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región: su alta inversión en la investigación y desarrollo (15% de su ganancia) y su transversalidad son las características que convierten a las TICs en un catalizador de productividad e innovación constante para otras industrias.</p>
 
@@ -97,8 +110,10 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
 </ul>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase ContribucionTICCompetitividadProductividad

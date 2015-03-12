@@ -31,27 +31,32 @@ class CulturaSeguridadVial extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Cultura y seguridad vial';
         $this->autor            = 'Lic. Alfredo Viesca Domínguez';
-        $this->fecha            = '2014-10-22';
+        $this->fecha            = '2014-10-22T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'cultura-seguridad-vial';
-        $this->imagen_previa    = 'cultura-seguridad-vial/imagen-previa.png';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="cultura-seguridad-vial/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
+        $this->imagen_previa    = 'cultura-seguridad-vial/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La cultura vial se refiere a la construcción de una convivencia armoniosa, responsable y de respeto entre todos los que hacemos uso de las vías de tránsito, sean estas aceras, rutas, caminos, ciclo vías, etc.';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->claves           = 'IMPLAN, Torreon, Cultura, Vial, Tránsito';
         $this->categorias       = array('Transporte', 'Movilidad', 'Vialidad');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido        = <<<FINAL
-<span class="contenido-imagen-previa"><img src="cultura-seguridad-vial/imagen.png"></span>
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'cultura-seguridad-vial/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>La cultura vial se refiere a la construcción de una convivencia armoniosa, responsable y de respeto entre todos los que hacemos uso de las vías de tránsito, sean estas aceras, rutas, caminos, ciclo vías, etc.</p>
 
@@ -78,8 +83,10 @@ class CulturaSeguridadVial extends \Base\Publicacion {
 <p>Podemos concluir que como en muchos otros aspectos de la zona metropolitana de la laguna, es impostergable la construcción, implementación y seguimiento de una política pública sobre seguridad vial encaminada a la protección de la vida humana.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase CulturaSeguridadVial

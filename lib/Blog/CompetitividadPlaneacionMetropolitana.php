@@ -31,19 +31,32 @@ class CompetitividadPlaneacionMetropolitana extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-09-18';
-        $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->nombre        = 'Competitividad y Planeación Metropolitana';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'competitividad-planeacion-metropolitana';
-        $this->descripcion   = 'El Instituto Mexicano para la Competitividad dio a conocer el Índice de Competitividad Urbana 2014; en él muestra que la Zona Metropolitana de la Laguna (ZML) continúa en un nivel de competitividad media baja.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'competitividad-planeacion-metropolitana/imagen-previa.jpg';
-        $this->categorias    = array('Competitividad', 'Recursos Naturales', 'Cultura', 'Bienestar');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="competitividad-planeacion-metropolitana/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Competitividad y Planeación Metropolitana';
+        $this->autor            = 'Lic. Rodrigo González Morales';
+        $this->fecha            = '2014-09-18T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'competitividad-planeacion-metropolitana';
+        $this->imagen_previa    = 'competitividad-planeacion-metropolitana/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'El Instituto Mexicano para la Competitividad dio a conocer el Índice de Competitividad Urbana 2014; en él muestra que la Zona Metropolitana de la Laguna (ZML) continúa en un nivel de competitividad media baja.';
+        $this->claves           = 'IMPLAN, Torreon, Competitividad, La Laguna';
+        $this->categorias       = array('Competitividad', 'Recursos Naturales', 'Cultura', 'Bienestar');
+        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'competitividad-planeacion-metropolitana/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>El Instituto Mexicano para la Competitividad dio a conocer la semana anterior su Índice de Competitividad Urbana (ICU) 2014, en él muestra que la Zona Metropolitana de la Laguna (ZML) continúa en un nivel de competitividad media baja, e incluso perdió algunos lugares en ese ranking, ya que de 78 ciudades ocupamos el lugar 48.</p>
 
@@ -70,9 +83,12 @@ class CompetitividadPlaneacionMetropolitana extends \Base\Publicacion {
 <p>Más allá de los cambios metodológicos que el IMCO realiza en cada edición del ICU, una constante en sus mediciones es que evalúa cada vez una mayor variedad de indicadores que abarcan el impacto de la acción gubernamental, privada y social, ya que no solo mide las finanzas y servicios públicos o el estado de derecho, de responsabilidad gubernamental, y ámbitos de acción de los distintos niveles de gobierno como el agua o la eficiencia judicial, sino también el número de empresas limpias, responsables e innovadoras, o la equidad de género en las remuneraciones que son del ámbito privado, o la participación ciudadana o el uso de tecnologías de información que corresponde a todos los ciudadanos.</p>
 
 <p>No sabemos lo que harán otras ciudades, sin embargo si está en las manos de la sociedad y los gobiernos de nuestra zona metropolitana generar y seguir los planes y compromisos que lleven a la Laguna a la competitividad deseada, de ahí se desprende la pertinencia y urgencia del Plan Estratégico Metropolitano.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase CompetitividadPlaneacionMetropolitana

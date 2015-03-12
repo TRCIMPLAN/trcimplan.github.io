@@ -31,18 +31,16 @@ class ComercioAlPorMenorAlternativaCrecimientoEconomico extends \Base\Publicacio
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Comercio al por menor como alternativa de crecimiento económico';
         $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2015-01-06';
+        $this->fecha            = '2015-01-06T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'comercio-al-por-menor-alternativa-crecimiento-economico';
         $this->imagen_previa    = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="comercio-al-por-menor-alternativa-crecimiento-economico/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->claves           = 'IMPLAN, Torreon, Comercio, Ingreso, Ciudad';
         $this->categorias       = array('Empresas', 'Empleo');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
@@ -50,9 +48,18 @@ class ComercioAlPorMenorAlternativaCrecimientoEconomico extends \Base\Publicacio
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-     // $this->para_compartir   = true;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/ComercioAlPorMenorAlternativaCrecimientoEconomico.md');
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/ComercioAlPorMenorAlternativaCrecimientoEconomico.md');
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
         $this->javascript       = '';
     } // constructor
 

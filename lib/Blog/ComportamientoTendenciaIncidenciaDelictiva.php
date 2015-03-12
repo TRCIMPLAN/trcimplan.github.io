@@ -31,26 +31,32 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre        = 'Comportamiento y tendencia de la incidencia delictiva. Una visión ampliada.';
-        $this->autor         = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha         = '2014-09-25';
+        // Título, autor y fecha
+        $this->nombre           = 'Comportamiento y tendencia de la incidencia delictiva. Una visión ampliada.';
+        $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
+        $this->fecha            = '2014-09-25T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo       = 'comportamiento-tendencia-incidencia-delictiva';
-        $this->imagen_previa = 'comportamiento-tendencia-incidencia-delictiva/imagen-previa.jpg';
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="comportamiento-tendencia-incidencia-delictiva/encabezado.jpg">';
+        $this->archivo          = 'comportamiento-tendencia-incidencia-delictiva';
+        $this->imagen_previa    = 'comportamiento-tendencia-incidencia-delictiva/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = 'Mostramos las tendencias de los delitos más recurrentes en la ciudad de Torreón; con datos del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.';
-        $this->claves        = 'IMPLAN, Torreon, Delitos, Homicidios, Patrimoniales, Robos, Casa habitación, Vehículos, Negocio, Tendencias';
-        $this->categorias    = array('Seguridad');
+        $this->descripcion      = 'Mostramos las tendencias de los delitos más recurrentes en la ciudad de Torreón; con datos del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.';
+        $this->claves           = 'IMPLAN, Torreon, Delitos, Tendencias';
+        $this->categorias       = array('Seguridad');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio    = 'blog';
-        $this->nombre_menu   = 'Análisis Publicados';
-        // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
-        $this->estado        = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="comportamiento-tendencia-incidencia-delictiva/imagen.jpg"></span>
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'comportamiento-tendencia-incidencia-delictiva/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>El Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública, organismo desconcentrado de SEGOB, publica mensualmente y desde el mes de enero de 2011 cifras sobre la incidencia delictiva en el país; por estado y por municipio. Estas cifras son reportadas por los órganos procuradores de justicia basándose en las denuncias y/o victimas dependiendo el tipo de delito.</p>
 
@@ -77,9 +83,12 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\Publicacion {
 <img class="img-responsive contenido-imagen" src="comportamiento-tendencia-incidencia-delictiva/torreon-robos-de-vehiculos.jpg" alt="Torreón Robos a Vehículos">
 
 <img class="img-responsive contenido-imagen" src="comportamiento-tendencia-incidencia-delictiva/torreon-robos-a-negocio.jpg" alt="Torreón Robos a Negocio">
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase ComportamientoTendenciaIncidenciaDelictiva

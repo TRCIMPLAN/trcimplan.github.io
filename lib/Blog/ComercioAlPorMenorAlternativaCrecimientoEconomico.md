@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="comercio-al-por-menor-alternativa-crecimiento-economico/imagen.jpg"></span>
-
 A pesar de que 44% de los establecimientos de La Laguna se dedican al comercio al por menor, este sector aporta únicamente 7% del valor agregado total de nuestra región. En contraste la industria manufacturera contribuye con 57% cuando tan sólo 10% de las unidades económicas pertenecen a dicha actividad. En conclusión La Laguna se especializa en la industria, no en el comercio, característica presente desde hace ya mucho tiempo, como se muestra en la siguiente gráfica:
 
 <div style="clear:left;"></div><img class="img-responsive" src="comercio-al-por-menor-alternativa-crecimiento-economico/participacion-comercio-al-por-menor-manufactura-valor-agregado-laguna.png" alt="Participación del comercio al por menor y la manufactura al valor agregado de La Laguna">
