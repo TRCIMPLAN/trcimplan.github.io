@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * TrcIMPLAN Sitio Web - Términos de Uso del Sitio Web
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2015 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -33,16 +33,15 @@ class TerminosSitio extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
         $this->nombre           = 'Términos de Uso del Sitio Web del IMPLAN Torreón';
-     // $this->autor            = 'Autor';
+        $this->autor            = '';
         $this->fecha            = '2015-01-05';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'terminos-sitio';
      // $this->imagen_previa    = 'terminos-sitio/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="terminos-sitio/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
+        $this->encabezado_color = '#C23700';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Términos de Uso del Sitio Web del IMPLAN Torreón.';
-        $this->claves           = 'IMPLAN, Torreon, Terminos de Uso del Sitio Web';
+        $this->descripcion      = '';
+        $this->claves           = 'IMPLAN, Torreon, Terminos, Uso, Sitio, Web';
         $this->categorias       = array('Términos');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
         $this->directorio       = 'terminos';
@@ -52,8 +51,17 @@ class TerminosSitio extends \Base\Publicacion {
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = false;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Terminos/TerminosSitio.md');
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->description    = $this->descripcion;
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->headline_style = $this->encabezado_color;
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Terminos/TerminosSitio.md');
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // Sin JavaScript
         $this->javascript       = '';
     } // constructor
 

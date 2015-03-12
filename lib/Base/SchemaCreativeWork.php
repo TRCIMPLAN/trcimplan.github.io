@@ -37,7 +37,47 @@ class SchemaCreativeWork extends SchemaThing {
     public $contentLocation;   // Place. The location of the content.
     public $datePublished;     // Date. Date of first broadcast/publication. In ISO 8601, example 2007-04-05T14:30
     public $headline;          // Text. Headline of the article.
+    public $headline_style;    // Text. CSS style for encabezado
     public $producer;          // Organization or Person. The person or organization who produced the work.
+
+    /**
+     * Encabezado HTML
+     *
+     * @return string Código HTML
+     */
+    protected function encabezado_html() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+        if ($this->headline_style != '') {
+            if (preg_match('/^#[[:xdigit:]]{6}$/', $this->headline_style) === 1) {
+                $a[] = "  <div class=\"encabezado\" style=\"background-color:{$this->headline_style};\">";
+            } else {
+                $a[] = "  <div class=\"encabezado\" style=\"{$this->headline_style};\">";
+            }
+        } else {
+            $a[] = "  <div class=\"encabezado\">";
+        }
+        if ($this->headline != '') {
+            if ($this->name == '') {
+                $a[] = "    <span><h1 itemprop=\"name\">{$this->headline}</h1></span>";
+                $this->name = $this->headline;
+            } elseif ($this->name != $this->headline) {
+                $a[] = '    <span>';
+                $a[] = "      <h1 itemprop=\"headline\">{$this->headline}</h1>";
+                $a[] = "      <h4 itemprop=\"name\">{$this->name}</h4>";
+                $a[] = '    </span>';
+            }
+        } elseif ($this->name != '') {
+            $a[] = "    <span><h1 itemprop=\"name\">{$this->name}</h1></span>";
+            $this->headline = $this->name;
+        } else {
+            throw new \Exception('Error en SchemaCreativeWork, html: La propiedad name y/o headline es incorrecta.');
+        }
+        $a[] = "  </div>";
+        // Entregar
+        return implode("\n", $a);
+    } // encabezado_html
 
     /**
      * HTML
@@ -53,25 +93,8 @@ class SchemaCreativeWork extends SchemaThing {
         } else {
             $a[] = '<div itemscope itemtype="http://schema.org/CreativeWork">';
         }
-        // Imagen
-        if ($this->image != '') {
-            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
-        }
-        // Título
-        if (is_string($this->headline) && ($this->headline != '')) {
-            if (!is_string($this->name) || ($this->name == '')) {
-                $this->name = $this->headline;
-                $a[] = "  <h3 itemprop=\"name\">{$this->name}</h3>";
-            } elseif ($this->name != $this->headline) {
-                $a[] = "  <h3 itemprop=\"headline\">{$this->headline}</h3>";
-                $a[] = "  <h5 itemprop=\"name\">{$this->name}</h5>";
-            }
-        } elseif (is_string($this->name) && ($this->name != '')) {
-            $a[] = "  <h3 itemprop=\"name\">{$this->name}</h3>";
-            $this->headline = $this->name;
-        } else {
-            throw new \Exception('Error en SchemaCreativeWork, html: La propiedad name y/o headline es incorrecta.');
-        }
+        // Encabezado
+        $a[] = $this->encabezado_html();
         // Descripción
         if ($this->description != '') {
             $a[] = "  <div class=\"contenido-descripcion\" itemprop=\"description\">{$this->description}</div>";
@@ -86,6 +109,10 @@ class SchemaCreativeWork extends SchemaThing {
                 $a[] = sprintf('    <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
             }
             $a[] = '  </div>';
+        }
+        // Imagen
+        if ($this->image != '') {
+            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
         }
         // Acumular termina
         $a[] = '</div>';

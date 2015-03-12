@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img src="bicimetro-innovacion-transporte-urbano/imagen.jpg"></span>
-
 ¿Sera posible desarrollar sistemas de transporte limpios o ecológicos que sean compatibles a la movilización de los individuos y la preservación y saneamiento de nuestro hábitat?
 
 Cada vez son más los ciudadanos que optan por **dejar sus carros** y se animan a desempolvar las bicicletas guardadas en los garajes y utilizarlas como **medio de transporte ya sea habitual o por recreación.** Las altas cifras de contaminación de las grandes ciudades y el gasto que conlleva mantener un vehículo de motor han propiciado este hecho.

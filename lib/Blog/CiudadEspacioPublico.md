@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="ciudad-espacio-publico/imagen.jpg"></span>
-
 > "El urbanismo es esencialmente el arte de regular la calidad y cantidad de espacios púbicos, lotes para construir y pisos construidos. Hay tipos específicos, dimensiones, radios y números que nos permiten construir ciudades armoniosas, y otras que llevan inevitablemente a la dispersión urbana o a la dispersión metropolitana. Hay formas de mega-desarrollos de alto riesgo, y otras que estimulan la empresa y el talento individual, basados en la competencia civilizada, capaz de producir pueblos agradables y humanos.  La ciudad tradicional logra el milagro de permitir que las ambiciones contrastantes y en competencia, los talentos mayores y los mas modestos, se desarrollen y prosperen como vecinos, edificando en armonía. Esa es la definición de la urbanidad y de la civilización urbana."
 
 > Leon Krier

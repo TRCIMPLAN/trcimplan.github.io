@@ -37,6 +37,7 @@ class SchemaBlog extends SchemaCreativeWork {
     // public $contentLocation; // Place. The location of the content.
     // public $datePublished;   // Date. Date of first broadcast/publication.
     // public $headline;        // Text. Headline of the article.
+    // public $headline_style;  // Text. CSS style for encabezado
     // public $producer;        // Organization or Person. The person or organization who produced the work.
 
     /**
@@ -53,25 +54,8 @@ class SchemaBlog extends SchemaCreativeWork {
         } else {
             $a[] = '<div itemscope itemtype="http://schema.org/Blog">';
         }
-        // Imagen
-        if ($this->image != '') {
-            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
-        }
-        // Título
-        if (is_string($this->headline) && ($this->headline != '')) {
-            if (!is_string($this->name) || ($this->name == '')) {
-                $this->name = $this->headline;
-                $a[] = "  <h3 itemprop=\"name\">{$this->name}</h3>";
-            } elseif ($this->name != $this->headline) {
-                $a[] = "  <h3 itemprop=\"headline\">{$this->headline}</h3>";
-                $a[] = "  <h5 itemprop=\"name\">{$this->name}</h5>";
-            }
-        } elseif (is_string($this->name) && ($this->name != '')) {
-            $a[] = "  <h3 itemprop=\"name\">{$this->name}</h3>";
-            $this->headline = $this->name;
-        } else {
-            throw new \Exception('Error en SchemaBlog, html: La propiedad name y/o headline es incorrecta.');
-        }
+        // Encabezado
+        $a[] = $this->encabezado_html();
         // Descripción
         if ($this->description != '') {
             $a[] = "  <div itemprop=\"description\">{$this->description}</div>";
@@ -86,6 +70,10 @@ class SchemaBlog extends SchemaCreativeWork {
                 $a[] = sprintf('    <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
             }
             $a[] = '  </div>';
+        }
+        // Imagen
+        if ($this->image != '') {
+            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
         }
         // Acumular termina
         $a[] = '</div>';

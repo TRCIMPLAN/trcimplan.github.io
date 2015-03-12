@@ -37,6 +37,7 @@ class SchemaBlogPosting extends SchemaArticle {
     // public $contentLocation; // Place. The location of the content.
     // public $datePublished;   // Date. Date of first broadcast/publication.
     // public $headline;        // Text. Headline of the article.
+    // public $headline_style;  // Text. CSS style for encabezado
     // public $producer;        // Organization or Person. The person or organization who produced the work.
     // public $articleBody;     // Text. The actual body of the article.
 
@@ -54,25 +55,8 @@ class SchemaBlogPosting extends SchemaArticle {
         } else {
             $a[] = '<div itemscope itemtype="http://schema.org/BlogPosting">';
         }
-        // Título
-        if (is_string($this->headline) && ($this->headline != '')) {
-            if (!is_string($this->name) || ($this->name == '')) {
-                $this->name = $this->headline;
-                $a[] = "  <div class=\"encabezado\">";
-                $a[] = "    <span><h1 itemprop=\"name\">{$this->name}</h1></span>";
-                $a[] = "  </div>";
-            } elseif ($this->name != $this->headline) {
-                $a[] = "  <div class=\"encabezado\"><h1 itemprop=\"headline\">{$this->headline}</h1></div>";
-                $a[] = "  <h4 itemprop=\"name\">{$this->name}</h4>";
-            }
-        } elseif (is_string($this->name) && ($this->name != '')) {
-            $a[] = "  <div class=\"encabezado\">";
-            $a[] = "    <span><h1 itemprop=\"name\">{$this->name}</h1></span>";
-            $a[] = "  </div>";
-            $this->headline = $this->name;
-        } else {
-            throw new \Exception('Error en SchemaBlogPosting, html: La propiedad name y/o headline es incorrecta.');
-        }
+        // Encabezado
+        $a[] = $this->encabezado_html();
         // Descripción
         if ($this->description != '') {
             $a[] = "  <div class=\"contenido-descripcion\" itemprop=\"description\">{$this->description}</div>";

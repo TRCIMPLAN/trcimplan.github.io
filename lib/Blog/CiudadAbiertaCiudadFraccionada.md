@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="ciudad-abierta-ciudad-fraccionada/imagen.jpg" alt="Fraccionamiento cerrado"></span>
-
 El incremento en los índices de criminalidad y violencia que se ha vivido en nuestra ciudad en la última década, así como el aumento en la percepción de inseguridad, han tenido un impacto determinante en la morfología y el desarrollo urbano reciente. La Laguna (como muchas otras ciudades) ha venido experimentando un fenómeno de fragmentación urbano consecuencia de estos procesos violentos.
 
 La ciudadanía al sentirse amenazada por el incremento en robos, asaltos, secuestros y homicidios, ha decidido **emigrar de la “ciudad abierta” hacia la periferia en desarrollos habitacionales protegidos,** donde el libre tránsito tanto de personas como de vehículos es restringido parcial o totalmente. Formas urbanas a modo de fortalezas donde le muro es la principal forma de defensa ante las amenazas del crimen que se dan en el espacio público, el cual al ser lugar tanto de sociabilidad como de hostilidad(1), es privatizado controlando así las actividades que ocurren dentro de estas comunidades.

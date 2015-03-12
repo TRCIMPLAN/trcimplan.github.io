@@ -31,25 +31,32 @@ class AperturaEmpresas2014 extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha de la forma AAAA-MM-DD
-        $this->nombre        = 'Apertura de Empresas 2014';
-        $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha         = '2014-09-24';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales)
-        $this->archivo       = 'apertura-empresas-2014';
-        $this->imagen_previa = 'apertura-empresas-2014/imagen-previa.jpg';
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="apertura-empresas-2014/encabezado.jpg">';
-        // La descripción y categorías son para las redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = 'La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año 2014 en el mes de julio.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Empresas', 'Doing Business', 'Competitividad');
-        // No cambie lo siguiente. Es común para Análisis Publicados
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        // El contenido HTML y el JavaScript
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="apertura-empresas-2014/imagen.jpg"></span>
-
+        // Título, autor y fecha
+        $this->nombre           = 'Apertura de Empresas 2014';
+        $this->autor            = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha            = '2014-09-24T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'apertura-empresas-2014';
+        $this->imagen_previa    = 'apertura-empresas-2014/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año 2014 en el mes de julio.';
+        $this->claves           = 'IMPLAN, Torreon, Apertura de empresas';
+        $this->categorias       = array('Empresas', 'Doing Business', 'Competitividad');
+        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'apertura-empresas-2014/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 <p>La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año en el mes de julio. Datos obtenidos de Dirección de Apertura de Empresas y Ventanilla Universal de la Dirección General de Desarrollo Económico, muestran que durante los primeros siete meses del año 2014 se han creado 997 nuevas empresas, de las cuales 329 fueron creadas en julio, cifra superior a las 128 registradas en julio de 2013.</p>
 
 <img class="img-responsive contenido-imagen" src="apertura-empresas-2014/01-apertura-empresas-2014.png" alt="Apertura de Empresas en Torreón en 2014">
@@ -64,8 +71,10 @@ class AperturaEmpresas2014 extends \Base\Publicacion {
 
 <img class="img-responsive contenido-imagen" src="apertura-empresas-2014/04-aproximacion-empleos-generados.png" alt="Aproximación de Empleos Generados en Torreón de 2009 a 2014">
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase AperturaEmpresas2014

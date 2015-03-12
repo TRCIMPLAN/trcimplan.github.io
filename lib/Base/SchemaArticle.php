@@ -37,6 +37,7 @@ class SchemaArticle extends SchemaCreativeWork {
     // public $contentLocation; // Place. The location of the content.
     // public $datePublished;   // Date. Date of first broadcast/publication.
     // public $headline;        // Text. Headline of the article.
+    // public $headline_style;  // Text. CSS style for encabezado
     // public $producer;        // Organization or Person. The person or organization who produced the work.
     public $articleBody;        // Text. The actual body of the article.
 
@@ -54,25 +55,8 @@ class SchemaArticle extends SchemaCreativeWork {
         } else {
             $a[] = '<div itemscope itemtype="http://schema.org/Article">';
         }
-        // Título
-        if (is_string($this->headline) && ($this->headline != '')) {
-            if (!is_string($this->name) || ($this->name == '')) {
-                $this->name = $this->headline;
-                $a[] = "  <h1 itemprop=\"name\">{$this->name}</h1>";
-            } elseif ($this->name != $this->headline) {
-                $a[] = "  <h1 itemprop=\"headline\">{$this->headline}</h1>";
-                $a[] = "  <h4 itemprop=\"name\">{$this->name}</h4>";
-            }
-        } elseif (is_string($this->name) && ($this->name != '')) {
-            $a[] = "  <h1 itemprop=\"name\">{$this->name}</h1>";
-            $this->headline = $this->name;
-        } else {
-            throw new \Exception('Error en SchemaArticle, html: La propiedad name y/o headline es incorrecta.');
-        }
-        // Imagen
-        if ($this->image != '') {
-            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
-        }
+        // Encabezado
+        $a[] = $this->encabezado_html();
         // Descripción
         if ($this->description != '') {
             $a[] = "  <div class=\"contenido-descripcion\" itemprop=\"description\">{$this->description}</div>";
@@ -87,6 +71,10 @@ class SchemaArticle extends SchemaCreativeWork {
                 $a[] = sprintf('    <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
             }
             $a[] = '  </div>';
+        }
+        // Imagen
+        if ($this->image != '') {
+            $a[] = "  <span class=\"contenido-imagen-previa\"><img class=\"img-responsive\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\"></span>";
         }
         // Contenido
         if (is_string($this->articleBody) && ($this->articleBody != '')) {

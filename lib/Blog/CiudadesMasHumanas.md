@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img src="ciudades-mas-humanas/imagen.jpg"></span>
-
 Actualmente el crecimiento de la población tiene lugar en las ciudades, mucho del desplazamiento del los habitantes de las áreas rurales a las zonas urbanas  ha sido con el deseo de acceder a mejores ventajas, como educación, salud,  vivienda, servicios,  oportunidades laborales y espacios recreativos. Esto es un reto para las ciudades ya que deben equilibrar tanto el espacio  físico como las oportunidades que generen en cuanto a desarrollo, para que permitan una mejor calidad de vida para sus habitantes.
 
 Los países Latinoamericanos tienen la mayor concentración de sus habitantes en las áreas urbanas. Con cerca del 80% de su población viviendo en ciudades, América Latina y el Caribe es hoy la región más urbanizada del planeta (Asia 47%, África 40%, India 30%). Para el 2015 se espera que el 85% de la población viva en ámbitos urbanos. [Horacio Terraza BID 17 octubre 2012][i].

@@ -58,7 +58,7 @@ class QueSonDatosAbiertos extends \Base\Publicacion {
         $schema->datePublished  = $this->fecha;
         $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/QueSonDatosAbiertos.md');
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema; // La clase Completo se encargará de ejecutar el método html del esquema
+        $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
     } // constructor

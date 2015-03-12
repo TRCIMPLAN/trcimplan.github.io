@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="calle-completa-espacio-vital-todos/imagen.jpg"></span>
-
 Con la inclusión del automóvil en el espacio urbano en la primera mitad del siglo XX, la idea de calle cambió por completo. El coche pasó a ser el personaje protagonista en el escenario vial, dejando de lado a los demás “actores” de la movilidad. Acto que causó problemas como alta incidencia de accidentes, inaccesibilidad, contaminación, y el deterioro del espacio público más importante: la calle.
 
 Sin embargo, las políticas de planeación urbana actuales, proponen una **solución bastante simple y nada nueva: la calle completa, es decir, una calle que incluya a todos los usuarios del espacio público**, como son peatones, ciclistas, usuarios del transporte público y automovilistas; ya sean niños, adultos mayores, discapacitados etc. Siguiendo siempre el orden prioritario de la Pirámide de la Movilidad.

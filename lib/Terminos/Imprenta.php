@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - Términos
+ * TrcIMPLAN Sitio Web - Imprenta
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2015 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
