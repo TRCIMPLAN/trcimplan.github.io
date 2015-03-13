@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Ciudades más Humanas
+ * TrcIMPLAN Sitio Web - Ciudades más Humanas
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

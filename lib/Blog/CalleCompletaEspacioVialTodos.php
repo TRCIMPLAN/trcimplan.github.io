@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - La Calle Completa: espacio vial para todos
+ * TrcIMPLAN Sitio Web - La Calle Completa: espacio vial para todos
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

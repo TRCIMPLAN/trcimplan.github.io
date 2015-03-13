@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Bicimetro: La innovación del Transporte Urbano
+ * TrcIMPLAN Sitio Web - Bicimetro: La innovación del Transporte Urbano
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

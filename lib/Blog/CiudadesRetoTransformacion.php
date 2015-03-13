@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Las ciudades y el reto de su transformación
+ * TrcIMPLAN Sitio Web - Las ciudades y el reto de su transformación
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

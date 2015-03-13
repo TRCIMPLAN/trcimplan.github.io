@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Institucional Estructura Orgánica
+ * TrcIMPLAN Sitio Web - Institucional Estructura Orgánica
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -31,20 +31,36 @@ class EstructuraOrganica extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha            = '2014-05-01';
-     // $this->autor            = 'TrcIMPLAN';
+        // Título, autor y fecha
         $this->nombre           = 'Estructura Orgánica';
-        $this->nombre_menu      = 'Institucional > Estructura Orgánica';
-        $this->directorio       = 'institucional';
+     // $this->autor            = '';
+        $this->fecha            = '2014-05-01T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'estructura-organica';
+     // $this->imagen_previa    = '';
+        $this->encabezado_color = '#080080';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La Estructura Orgánica del IMPLAN Torréon está formada por el Consejo Directivo, los Comités Técnicos, el Director General Ejecutivo y el Cuerpo Técnico.';
         $this->claves           = 'IMPLAN, Torreon, Estructura, Organica, Consejo, Comites, Tecnicos, Director, Cuerpo';
-     // $this->imagen_previa    = '/imagenes/implan.jpg';
         $this->categorias       = array('Institucional');
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="estructura-organica/encabezado.jpg">';
-        $this->encabezado_color = '#080080';
+        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->directorio       = 'institucional';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        $this->nombre_menu      = 'Institucional > Estructura Orgánica';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = false;
-        $this->contenido        = <<<FINAL
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->description    = $this->descripcion;
+        $schema->image          = $this->imagen_previa;
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->headline_style = $this->encabezado_color;
+        $schema->articleBody    = <<<FINAL
+
 <p><img class="img-responsive" src="estructura-organica/estructura-organica.png" alt="Estructura Orgánica"></p>
 
 <h3>Consejo Directivo</h3>
@@ -64,7 +80,12 @@ class EstructuraOrganica extends \Base\Publicacion {
 <p>Personal altamente capacitado para instrumentar la investigación, planeación y proyectos estratégicos.</p>
 
 <p><img class="img-responsive" src="estructura-organica/estructura-cuerpo-tecnico.png" alt="Cuerpo Técnico"></p>
+
 FINAL;
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase EstructuraOrganica

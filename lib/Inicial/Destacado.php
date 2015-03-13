@@ -48,7 +48,7 @@ class Destacado {
             $a[] = "          <a href=\"$vinculo\"><img class=\"destacado-imagen\" src=\"$imagen\" alt=\"$titulo\"></a>";
         } else {
             // De lo contrario se considera un ID que debe estar definido en el archivo CSS para cambiar al pasar el ratón por encima
-            $a[] = "          <a id=\"$imagen\" class=\"destacado-imagen\" href=\"$vinculo\" title=\"$titulo\"></a>"; // <span>Test</span>
+            $a[] = "          <a id=\"$imagen\" class=\"destacado-imagen\" href=\"$vinculo\" title=\"$titulo\"></a>";
         }
         $a[] = '          <div class="destacado-texto">';
         $a[] = "            <h3><a href=\"$vinculo\">$titulo</a></h3>";

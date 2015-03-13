@@ -31,29 +31,38 @@ class Introduccion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Plan Estratégico Metropolitano';
-     // $this->autor            = 'Autor';
-        $this->fecha            = '2014-09-24';
+     // $this->autor            = '';
+        $this->fecha            = '2014-09-24T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'introduccion';
-     // $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
+        $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
+        $this->encabezado_color = '#DF9C0A';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->claves           = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
         $this->categorias       = array('Plan Estrategico Metropolitano');
-        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio       = 'plan-estrategico-metropolitano';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu      = 'Plan Estratégico Metropolitano > Conoce el Plan';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = true;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/PlanEstrategicoMetropolitano/Introduccion.md');
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->description    = $this->descripcion;
+        $schema->image          = $this->imagen_previa;
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->headline_style = $this->encabezado_color;
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/PlanEstrategicoMetropolitano/Introduccion.md');
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // Sin JavaScript
         $this->javascript       = '';
     } // constructor
 

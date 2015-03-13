@@ -33,8 +33,8 @@ class TerminosSitio extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
         $this->nombre           = 'Términos de Uso del Sitio Web del IMPLAN Torreón';
-        $this->autor            = '';
-        $this->fecha            = '2015-01-05';
+     // $this->autor            = '';
+        $this->fecha            = '2015-01-05T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'terminos-sitio';
         $this->imagen_previa    = '';

@@ -57,21 +57,6 @@ class SchemaBlogPosting extends SchemaArticle {
         }
         // Encabezado
         $a[] = $this->encabezado_html();
-        // Descripción
-        if ($this->description != '') {
-            $a[] = "  <div class=\"contenido-descripcion\" itemprop=\"description\">{$this->description}</div>";
-        }
-        // Autor y Fecha
-        if (($this->author != '') || ($this->datePublished != '')) {
-            $a[] = '  <div class="contenido-autor-fecha">';
-            if ($this->author != '') {
-                $a[] = "    Por <span itemprop=\"author\">{$this->author}</span>";
-            }
-            if ($this->datePublished != '') {
-                $a[] = sprintf('    <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
-            }
-            $a[] = '  </div>';
-        }
         // Imagen
         if ($this->image != '') {
             $a[] = "  <span class=\"contenido-imagen-previa\"><img class=\"img-responsive\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\"></span>";

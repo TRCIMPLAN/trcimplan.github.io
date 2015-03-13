@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Competitividad y Planeación Metropolitana
+ * TrcIMPLAN Sitio Web - Competitividad y Planeación Metropolitana
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

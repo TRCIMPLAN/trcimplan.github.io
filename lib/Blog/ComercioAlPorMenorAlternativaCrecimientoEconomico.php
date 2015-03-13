@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Comercio al por menor como alternativa de crecimiento económico
+ * TrcIMPLAN Sitio Web - Comercio al por menor como alternativa de crecimiento económico
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

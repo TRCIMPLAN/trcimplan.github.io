@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Institucional Visión / Misión
+ * TrcIMPLAN Sitio Web - Institucional Visión / Misión
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -31,28 +31,52 @@ class VisionMision extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha            = '2014-05-01';
-     // $this->autor            = 'TrcIMPLAN';
+        // Título, autor y fecha
         $this->nombre           = 'Visión / Misión';
-        $this->nombre_menu      = 'Institucional > Visión / Misión';
-        $this->directorio       = 'institucional';
+     // $this->autor            = '';
+        $this->fecha            = '2014-05-01T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'vision-mision';
+     // $this->imagen_previa    = '';
+        $this->encabezado_color = '#008000';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La Visión y la Misión del IMPLAN Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Vision, Mision';
-     // $this->imagen_previa    = '/imagenes/implan.jpg';
         $this->categorias       = array('Institucional');
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->encabezado_color = '#008000';
+        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->directorio       = 'institucional';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        $this->nombre_menu      = 'Institucional > Visión / Misión';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = false;
-        $this->contenido        = <<<FINAL
-<h3>Visión</h3>
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->description    = $this->descripcion;
+        $schema->image          = $this->imagen_previa;
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->headline_style = $this->encabezado_color;
+        $schema->articleBody    = <<<FINAL
 
-<p>Ser una institución líder en materia de planeación estratégica, reconocida a nivel internacional por su efectividad como organismo facilitador del desarrollo sustentable y competitivo de la metrópoli.</p>
+<h1>Visión</h1>
+<blockquote><h3>Ser una institución líder en materia de planeación estratégica,
+  a nivel internacional por su efectividad
+  como organismo facilitador del desarrollo sustentable y competitivo de la metrópoli.</h3></blockquote>
 
-<h3>Misión</h3>
+<h1>Misión</h1>
+<blockquote><h3>Planear estratégicamente con un enfoque sistémico e integral
+  el desarrollo sustentable y competitivo de la región a largo plazo,
+  a través de procesos participativos entre los diferentes sectores de la población y gobierno,
+  con el fin de mejorar la calidad de vida de sus habitantes.</h3></blockquote>
 
-<p>Planear estratégicamente con un enfoque sistémico e integral el desarrollo sustentable y competitivo de la región a largo plazo, a través de procesos participativos entre los diferentes sectores de la población y gobierno, con el fin de mejorar la calidad de vida de sus habitantes.</p>
 FINAL;
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase VisionMision

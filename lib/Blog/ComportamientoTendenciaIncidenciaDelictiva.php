@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Comportamiento y tendencia de la incidencia delictiva. Una visión ampliada.
+ * TrcIMPLAN Sitio Web - Comportamiento y tendencia de la incidencia delictiva. Una visión ampliada.
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

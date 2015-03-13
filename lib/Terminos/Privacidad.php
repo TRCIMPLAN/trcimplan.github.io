@@ -33,7 +33,7 @@ class Privacidad extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre           = 'Aviso de Privacidad';
-        $this->autor            = '';
+     // $this->autor            = '';
         $this->fecha            = '2015-03-12T09:30';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'privacidad';
@@ -60,7 +60,7 @@ class Privacidad extends \Base\Publicacion {
         $schema->headline_style = $this->encabezado_color;
         $schema->articleBody    = <<<FINAL
 
-<h3>Para los Trámites, Servicios, Programas o Proyectos</h3>
+<h3>PARA LOS TRÁMITES, SERVICIOS, PROGRAMAS O PROYECTOS</h3>
 
 <b>INSTITUTO MUNICIPAL DE PLANEACIÓN Y COMPETITIVIDAD DE TORREÓN, COAHUILA,</b> ubicada en Edificio Antiguo Banco de México Numero 1217 Pte. Colonia Centro Torreón, Coahuila, es la responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente: Los datos personales que recabamos de usted, los utilizaremos para atender y proveer el trámite, servicio, programa o proyecto que nos solicita; dar a conocer con mayor información sobre los términos y condiciones en que serán tratados sus datos personales, así como informar el traspaso de sus datos a terceros con quienes compartimos su información personal; además de la forma en que el Titular puede ejercer sus Derechos ARCO. El formato integro, puede consultarlo a través del sitio de Transparencia en la sección de Datos Personales en el enlace <a href="http://www.torreon.gob.mx./transparencia/privacidad.cfm" target="_blank">http://www.torreon.gob.mx./transparencia/privacidad.cfm</a>
 

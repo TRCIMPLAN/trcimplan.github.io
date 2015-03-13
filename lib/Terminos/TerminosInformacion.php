@@ -33,8 +33,8 @@ class TerminosInformacion extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre           = 'Términos de Libre Uso de la Información del IMPLAN Torreón';
-        $this->autor            = '';
-        $this->fecha            = '2015-01-05';
+     // $this->autor            = '';
+        $this->fecha            = '2015-01-05T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'terminos-informacion';
         $this->imagen_previa    = '';

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Ciudad y Espacio Público
+ * TrcIMPLAN Sitio Web - Ciudad y Espacio Público
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

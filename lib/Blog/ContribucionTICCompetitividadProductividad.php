@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Contribucion de las TICs en la Competitividad y Productividad
+ * TrcIMPLAN Sitio Web - Contribucion de las TICs en la Competitividad y Productividad
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *

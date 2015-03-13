@@ -33,11 +33,12 @@ class Introduccion extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre           = 'Sistema Metropolitano de Indicadores';
-        $this->autor            = '';
+     // $this->autor            = '';
         $this->fecha            = '2014-05-15T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'introduccion';
-        $this->imagen_previa    = '';
+        $this->imagen_previa    = 'introduccion/imagen-previa.png';
+        $this->encabezado_color = '#CA198A';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Introducción al Sistema Metropolitano de Indicadores del IMPLAN Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Indicadores, Gomez Palacio, Lerdo, Matamoros, La Laguna';
@@ -50,8 +51,15 @@ class Introduccion extends \Base\Publicacion {
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = true;
-        // El contenido
-        $this->contenido        = <<<FINAL
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->description    = $this->descripcion;
+        $schema->image          = $this->imagen_previa;
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->headline_style = $this->encabezado_color;
+        $schema->articleBody    = <<<FINAL
 
 <h3>Tutorial</h3>
 <div class="videowrapper well"><iframe width="560" height="315" src="//www.youtube.com/embed/GJX8PsipImM?rel=0" frameborder="0" allowfullscreen></iframe></div>
@@ -92,6 +100,8 @@ class Introduccion extends \Base\Publicacion {
 </div>
 
 FINAL;
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
     } // constructor

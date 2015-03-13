@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Institucional Mensaje del Director
+ * TrcIMPLAN Sitio Web - Institucional Mensaje del Director
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -31,23 +31,37 @@ class MensajeDirector extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha            = '2014-01-05';
-     // $this->autor            = 'TrcIMPLAN';
+        // Título, autor y fecha
         $this->nombre           = 'Mensaje del Director';
-        $this->nombre_menu      = 'Institucional > Mensaje del Director';
-        $this->directorio       = 'institucional';
+        $this->autor            = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha            = '2014-05-01T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'mensaje-director';
-        $this->descripcion      = 'Mensaje del Director General Ejecutivo del IMPLAN Torreón Lic. Eduardo Olguín.';
-        $this->claves           = 'IMPLAN, Torreon, Mensaje, Director';
-     // $this->imagen_previa    = '/imagenes/implan.jpg';
-        $this->categorias       = array('Institucional');
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="mensaje-director/encabezado.jpg">';
+        $this->imagen_previa    = 'mensaje-director/eduardo-olguin.jpg';
         $this->encabezado_color = '#800400';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Mensaje del Director General Ejecutivo del IMPLAN Torreón.';
+        $this->claves           = 'IMPLAN, Torreon, Director';
+        $this->categorias       = array('Institucional');
+        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->directorio       = 'institucional';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        $this->nombre_menu      = 'Institucional > Mensaje del Director';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = false;
-        $this->contenido        = <<<FINAL
-<span class="contenido-imagen-previa"><img src="mensaje-director/eduardo-olguin.jpg" alt="Eduardo Olguín"></span>
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->description    = $this->descripcion;
+        $schema->image          = $this->imagen_previa;
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->headline_style = $this->encabezado_color;
+        $schema->articleBody    = <<<FINAL
 
-<p>Ciudadano, ciudadana:</p>
+<h3>Ciudadano, ciudadana:</h3>
 
 <p>El Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN) es un espacio de gobernanza donde ciudadanos y gobierno diseñarán, planearán, programarán el futuro de La Laguna. Donde ciudadanos y gobierno promoverán los proyectos necesarios y suficientes para integrar a La Región de los Grandes Esfuerzos a la Sociedad del Conocimiento y a las metrópolis globalmente competitivas.</p>
 
@@ -67,8 +81,11 @@ class MensajeDirector extends \Base\Publicacion {
 
 <p>Que mejor corolario para éste mensaje que el mencionar la visión del IMPLAN: Que La Laguna transite a una región vanguardista, globalmente competitiva y que sus habitantes logren una vida sana, segura, productiva, en armonía con sus tradiciones, valores culturales y espirituales; es decir, un equilibrio entre el desarrollo humano, la prosperidad económica, individual, colectiva y el respeto de los ecosistemas.</p>
 
-<p style="text-align:right">Eduardo Holguin</p>
 FINAL;
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase MensajeDirector

@@ -58,21 +58,6 @@ class SchemaDataset extends SchemaCreativeWork {
         }
         // Encabezado
         $a[] = $this->encabezado_html();
-        // Descripción
-        if ($this->description != '') {
-            $a[] = "  <div itemprop=\"description\">{$this->description}</div>";
-        }
-        // Autor y Fecha
-        if (($this->author != '') || ($this->datePublished != '')) {
-            $a[] = '  <div class="autor-fecha">';
-            if ($this->author != '') {
-                $a[] = "    Por <span itemprop=\"author\">{$this->author}</span>";
-            }
-            if ($this->datePublished != '') {
-                $a[] = sprintf('    <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
-            }
-            $a[] = '  </div>';
-        }
         // Imagen
         if ($this->image != '') {
             $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";

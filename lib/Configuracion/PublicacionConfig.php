@@ -27,14 +27,14 @@ namespace Configuracion;
  */
 class PublicacionConfig {
 
-    public $fecha                     = '1980-01-01'; // La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
-    public $autor                     = 'TrcIMPLAN';  // El nombre o apodo a quien se le atribuye
-    public $aparece_en_pagina_inicial = true;         // Verdadero si va aparecer en la página de inicio
-    public $para_compartir            = true;         // Si es verdadero pondrá los botones para compartir en Twitter/Facebook
-    public $imagen_previa             = '';           // Ruta relativa a un archivo de imagen para la vista previa
-    public $icono                     = '';           // Nombre del icono Font Awsome
-    public $region_nivel              = 0;            // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región
-    public $estado                    = 'publicar';   // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
+    public $fecha                     = '1980-01-01T08:00';     // La fecha en forma de YYYY-MM-DDTHH:MM, siendo así se ordena cronológicamente
+    public $autor                     = 'IMPLAN Torreón Staff'; // El nombre o apodo a quien se le atribuye
+    public $aparece_en_pagina_inicial = true;                   // Verdadero si va aparecer en la página de inicio
+    public $para_compartir            = true;                   // Si es verdadero pondrá los botones para compartir en Twitter/Facebook
+    public $imagen_previa             = '';                     // Ruta relativa a un archivo de imagen para la vista previa
+    public $icono                     = '';                     // Nombre del icono Font Awsome
+    public $region_nivel              = 0;                      // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región
+    public $estado                    = 'publicar';             // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
 
 } // Clase PublicacionConfig
 

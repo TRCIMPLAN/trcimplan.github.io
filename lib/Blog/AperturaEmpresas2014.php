@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Apertura de Empresas 2014
+ * TrcIMPLAN Sitio Web - Apertura de Empresas 2014
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
