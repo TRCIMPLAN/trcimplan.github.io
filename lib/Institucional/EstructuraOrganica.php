@@ -40,7 +40,7 @@ class EstructuraOrganica extends \Base\Publicacion {
      // $this->imagen_previa    = '';
         $this->encabezado_color = '#080080';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'La Estructura Orgánica del IMPLAN Torréon está formada por el Consejo Directivo, los Comités Técnicos, el Director General Ejecutivo y el Cuerpo Técnico.';
+        $this->descripcion      = 'Está formada por el Consejo Directivo, los Comités Técnicos, el Director General Ejecutivo y el Cuerpo Técnico.';
         $this->claves           = 'IMPLAN, Torreon, Estructura, Organica, Consejo, Comites, Tecnicos, Director, Cuerpo';
         $this->categorias       = array('Institucional');
         // El directorio en la raíz donde se guardará el archivo HTML

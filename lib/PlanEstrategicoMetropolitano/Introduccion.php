@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Plan Estratégico Metropolitano - Introducción
+ * TrcIMPLAN Sitio Web - Plan Estratégico Metropolitano Introducción
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -37,10 +37,10 @@ class Introduccion extends \Base\Publicacion {
         $this->fecha            = '2014-09-24T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'introduccion';
-        $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
+     // $this->imagen_previa    = '';
         $this->encabezado_color = '#DF9C0A';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
+        $this->descripcion      = 'Planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves           = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
         $this->categorias       = array('Plan Estrategico Metropolitano');
         // El directorio en la raíz donde se guardará el archivo HTML

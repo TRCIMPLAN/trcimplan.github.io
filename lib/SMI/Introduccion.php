@@ -61,14 +61,14 @@ class Introduccion extends \Base\Publicacion {
         $schema->headline_style = $this->encabezado_color;
         $schema->articleBody    = <<<FINAL
 
-<h3>Tutorial</h3>
-<div class="videowrapper well"><iframe width="560" height="315" src="//www.youtube.com/embed/GJX8PsipImM?rel=0" frameborder="0" allowfullscreen></iframe></div>
-
 <h3>¿Qué es el Sistema Metropolitano de Indicadores (SMI)?</h3>
 <p>Es un banco de información sobre los temas de interés de nuestra ciudad y su zona metropolitana, para conocer el estado de distintos fenómenos comparables en el tiempo, pero también con otras ciudades y con estándares internacionales.</p>
 
 <h3>¿Por ejemplo?</h3>
 <p>Torreón tiene un Índice de Desarrollo Humano (IDH) .897, y eso ¿es mucho o es poco? Depende, en un país cercano como Guatemala es de .581 y en Estados Unidos .937, Torreón se encuentra a niveles superiores que Polonia o Portugal. En México el IDH que mide aspectos de ingresos, salud y educación, nos muestra que Torreón ocupa el lugar 35 de entre los 2443 municipios medidos para México, mientras Atlixtac, Guerrero tiene .455 y San Pedro Garza García .909.</p>
+
+<h3>Tutorial</h3>
+<div class="videowrapper well"><iframe width="560" height="315" src="//www.youtube.com/embed/GJX8PsipImM?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 <h3>¿Para qué sirve el SMI?</h3>
 <p>El SMI ordena y recopila información dispersa para convertirla en conocimiento útil, para que el gobierno, empresas y sociedad conozcan las condiciones de nuestra ciudad y así sepamos hacia donde orientar nuestras acciones, y con el tiempo podamos medir el impacto no sólo de las políticas públicas sino también de los proyectos empresariales y las iniciativas sociales.</p>

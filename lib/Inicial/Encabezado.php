@@ -25,7 +25,21 @@ namespace Inicial;
 /**
  * Clase Encabezado
  */
-class Encabezado {
+class Encabezado extends \Base\SchemaGovernmentOrganization {
+
+    // public $onTypeProperty; // Text. Use when this item is part of another one.
+    // public $description;    // Text. A short description of the item.
+    // public $image;          // URL or ImageObject. An image of the item.
+    // public $name;           // Text. The name of the item.
+
+    /**
+     * Constructor
+     */
+    public function __construct() {
+        $this->name        = 'Instituto Municipal de Planeación y Competitividad de Torreón';
+        $this->description = 'Es el órgano técnico responsable de la planeación municipal del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.';
+        $this->image       = 'imagenes/trcimplan.jpg';
+    } // constructor
 
     /**
      * HTML
@@ -36,8 +50,8 @@ class Encabezado {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        $a[] = '  <section id="encabezado">';
-        $a[] = '    <img class="banner" src="imagenes/banner-implan.jpg" alt="IMPLAN Torreón">';
+        $a[] = '  <section id="encabezado" itemscope itemtype="http://schema.org/GovernmentOrganization">';
+        $a[] = '    <img class="banner" itemprop="image" src="imagenes/banner-implan.jpg" alt="IMPLAN Torreón">';
         $a[] = '  </section>';
         // Entregar
         return implode("\n", $a)."\n";

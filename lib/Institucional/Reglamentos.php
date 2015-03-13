@@ -40,7 +40,7 @@ class Reglamentos extends \Base\Publicacion {
      // $this->imagen_previa    = '';
         $this->encabezado_color = '#804000';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'El reglamento del IMPLAN Torreón.';
+        $this->descripcion      = '';
         $this->claves           = 'IMPLAN, Torreon, Reglamento';
         $this->categorias       = array('Institucional');
         // El directorio en la raíz donde se guardará el archivo HTML

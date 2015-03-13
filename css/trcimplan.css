@@ -93,61 +93,23 @@ a:active  { color:#FF3300; text-decoration:none; }
     color:#FFF;
     margin-top:0;
     margin-bottom:0;
-    padding:12px 2px 2px 4px;
+    padding:14px 2px 4px 4px;
 }
 .encabezado-icono {
     font-size:1.6em;
 }
 .encabezado-descripcion {
     color:#FFF;
-    padding:0 2px 0 2px;
     font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
-    padding:2px 2px 2px 4px;
+    line-height:1.0;
+    padding:4px 2px 4px 4px;
 }
 .encabezado-autor-fecha {
     background-color:#F0F0F0;
     color:#808080;
-    padding:0 2px 0 2px;
     font-size:0.8em;
     font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
     padding:2px 2px 2px 4px;
-}
-
-/* Lengüetas */
-.lenguetas > li > a,
-.lenguetas > li > a:link,
-.lenguetas > li > a:visited {
-    color:#444;
-    background-color:#DDD;
-    border-color:#AAA;
-    border-bottom:none;
-}
-.lenguetas > li > a:hover,
-.lenguetas > li > a:active {
-    color:#000;
-    background-color:#EEE;
-    border-color:#000;
-    border-bottom:none;
-}
-.lenguetas > li.active > a,
-.lenguetas > li.active > a:link,
-.lenguetas > li.active > a:visited {
-    background-color:#FFF;
-    border-color:#AAA;
-    border-bottom:none;
-}
-.lenguetas > li.active > a:hover,
-.lenguetas > li.active > a:active {
-    background-color:#FFF;
-    border-color:#000;
-    border-bottom:none;
-}
-.lengueta-contenido {
-    background-color:#FFF;
-    border-right:1px solid #AAA;
-    border-bottom:1px solid #AAA;
-    border-left:1px solid #AAA;
-    padding:4px;
 }
 
 /* Cuerpo */
@@ -236,6 +198,43 @@ a:active  { color:#FF3300; text-decoration:none; }
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* Lengüetas */
+.lenguetas > li > a,
+.lenguetas > li > a:link,
+.lenguetas > li > a:visited {
+    color:#444;
+    background-color:#DDD;
+    border-color:#AAA;
+    border-bottom:none;
+}
+.lenguetas > li > a:hover,
+.lenguetas > li > a:active {
+    color:#000;
+    background-color:#EEE;
+    border-color:#000;
+    border-bottom:none;
+}
+.lenguetas > li.active > a,
+.lenguetas > li.active > a:link,
+.lenguetas > li.active > a:visited {
+    background-color:#FFF;
+    border-color:#AAA;
+    border-bottom:none;
+}
+.lenguetas > li.active > a:hover,
+.lenguetas > li.active > a:active {
+    background-color:#FFF;
+    border-color:#000;
+    border-bottom:none;
+}
+.lengueta-contenido {
+    background-color:#FFF;
+    border-right:1px solid #AAA;
+    border-bottom:1px solid #AAA;
+    border-left:1px solid #AAA;
+    padding:4px;
 }
 
 /* Mapa inferior */
