@@ -31,19 +31,32 @@ class NuevasHerramientasNuevosParadigmas extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-09-23';
-        $this->autor         = 'Arq. Daniela Patricia Corral Hernández';
-        $this->nombre        = 'Nuevas herramientas para Nuevos Paradigmas';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'nuevas-herramientas-nuevos-paradigmas';
-        $this->descripcion   = 'Hoy en día, con un teléfono inteligente o tablet se puede consultar la versión móvil de un SIG para recaudar información, emitir un diagnóstico y trabajar en planes programas y proyectos futuros.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'nuevas-herramientas-nuevos-paradigmas/imagen-previa.jpg';
-        $this->categorias    = array('Innovación', 'SIG');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="nuevas-herramientas-nuevos-paradigmas/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Nuevas herramientas para Nuevos Paradigmas';
+        $this->autor            = 'Arq. Daniela Patricia Corral Hernández';
+        $this->fecha            = '2014-09-23T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'nuevas-herramientas-nuevos-paradigmas';
+        $this->imagen_previa    = 'nuevas-herramientas-nuevos-paradigmas/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Hoy en día, con un teléfono inteligente o tablet se puede consultar la versión móvil de un SIG para recaudar información, emitir un diagnóstico y trabajar en planes programas y proyectos futuros.';
+        $this->claves           = 'IMPLAN, Torreon, Informacion, Geografica, Movil';
+        $this->categorias       = array('Innovación', 'SIG');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'nuevas-herramientas-nuevos-paradigmas/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>En las últimas décadas las tecnologías de información y comunicación han revolucionado el desarrollo, implementación, almacenamiento y distribución de la información utilizando diferentes medios. Los Sistemas de información Geográfica (SIG) como bases de datos georeferenciadas que se reflejan en mapas digitales, han evolucionado rápidamente ligados al crecimiento de las tecnologías de la información, ofreciendo e integrando cada vez más aplicaciones técnicas para la gestión y procesamiento de los datos espaciales en el software.</p>
 
@@ -74,9 +87,12 @@ class NuevasHerramientasNuevosParadigmas extends \Base\Publicacion {
 <img class="img-responsive contenido-imagen" src="nuevas-herramientas-nuevos-paradigmas/07-sig-web.jpg" alt="SIG web">
 
 <p>Con esto se pretende poder tener un mejor panorama de la ciudad, poder generar diagnósticos y planes a largo plazo y a su vez mantener a la población bien informada.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase NuevasHerramientasNuevosParadigmas

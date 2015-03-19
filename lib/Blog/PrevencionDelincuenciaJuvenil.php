@@ -31,29 +31,36 @@ class PrevencionDelincuenciaJuvenil extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'La prevención de la Delincuencia Juvenil, elemento central de la prevención integral del delito y la violencia';
         $this->autor            = 'Lic. Alfredo Viesca Domínguez';
-        $this->fecha            = '2015-01-07';
+        $this->fecha            = '2015-01-07T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'prevencion-delincuencia-juvenil';
         $this->imagen_previa    = 'prevencion-delincuencia-juvenil/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="prevencion-delincuencia-juvenil/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Dentro de una estrategia de prevención integral del delito, la delincuencia juvenil constituye desde luego el elemento fundamental, si lo que se pretende es evitar que niños de doce años decidan formar parte de la delincuencia.';
         $this->claves           = 'IMPLAN, Torreon, Delincuencia Juvenil, Seguridad';
         $this->categorias       = array('Delincuencia', 'Seguridad');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-     // $this->para_compartir   = true;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/PrevencionDelincuenciaJuvenil.md');
-     // $this->javascript       = '';
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'prevencion-delincuencia-juvenil/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/PrevencionDelincuenciaJuvenil.md');
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase PrevencionDelincuenciaJuvenil

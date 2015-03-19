@@ -31,19 +31,32 @@ class MercadoFactoresEficientes extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-06-17';
-        $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->nombre        = 'Mercado de Factores Eficientes';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'mercado-factores-eficientes';
-        $this->descripcion   = 'Análisis del mercado, las huelgas, el salario promedio mensual, productividad y demandas laborales en la Zona Metropolitana de la Laguna.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'mercado-factores-eficientes/imagen-previa.jpg';
-        $this->categorias    = array('Macroeconomía', 'Empleo', 'Empresas');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="mercado-factores-eficientes/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Mercado de Factores Eficientes';
+        $this->autor            = 'Lic. Rodrigo González Morales';
+        $this->fecha            = '2014-06-17T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'mercado-factores-eficientes';
+        $this->imagen_previa    = 'mercado-factores-eficientes/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Análisis del mercado, las huelgas, el salario promedio mensual, productividad y demandas laborales en la Zona Metropolitana de la Laguna.';
+        $this->claves           = 'IMPLAN, Torreon';
+        $this->categorias       = array('Macroeconomía', 'Empleo', 'Empresas');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'mercado-factores-eficientes/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>A pesar de que las características del mercado laboral es de los subíndices mejor evaluado para la ZML, el análisis por municipio nos muestra dos realidades contrastantes, mientras Torreón por si solo ocuparía el lugar 7 y Gómez Palacio el 15 en cuanto a características de productividad y estabilidad de la fuerza de trabajo. Sin embargo Lerdo y Matamoros cuentan con las peores valoraciones en este tema.</p>
 
@@ -60,9 +73,12 @@ class MercadoFactoresEficientes extends \Base\Publicacion {
 <img class="img-responsive contenido-imagen" src="mercado-factores-eficientes/indicadores.png" alt="Indicadores">
 
 <p>El último indicador de este subíndice es el número de demandas laborales por cada mil PEA, donde la ZML registra 9.49, ubicándose en el lugar 60, sin embargo cabe destacar que las ciudades que presentan 0, son pequeñas y no cuentan en su mayoría con instancia que atienda conflictos laborales, como es el propio caso e Lerdo y Matamoros. A pesar de este indicador, este subíndice es una fortaleza importante para los municipios de Torreón y Gómez Palacio.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase MercadoFactoresEficientes

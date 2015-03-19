@@ -31,24 +31,32 @@ class PoligonosActuacionDesarrolloUrbanoIntegral extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre        = 'Polígonos de Actuación para un Desarrollo Urbano Integral';
-        $this->autor         = 'Arq. Jair Miramontes Chávez';
-        $this->fecha         = '2014-10-14';
+        // Título, autor y fecha
+        $this->nombre           = 'Polígonos de Actuación para un Desarrollo Urbano Integral';
+        $this->autor            = 'Arq. Jair Miramontes Chávez';
+        $this->fecha            = '2014-10-14T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo       = 'poligonos-actuacion-desarrollo-urbano-integral';
-        $this->imagen_previa = 'poligonos-actuacion-desarrollo-urbano-integral/imagen-previa.jpg';
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="poligonos-actuacion-desarrollo-urbano-integral/encabezado.jpg">';
+        $this->archivo          = 'poligonos-actuacion-desarrollo-urbano-integral';
+        $this->imagen_previa    = 'poligonos-actuacion-desarrollo-urbano-integral/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = 'El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Infraestructura', 'Recursos Naturales', 'Vivienda', 'Gobierno');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio    = 'blog';
-        $this->nombre_menu   = 'Análisis Publicados';
-        // El contenido HTML y el JavaScript
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="poligonos-actuacion-desarrollo-urbano-integral/imagen.jpg"></span>
+        $this->descripcion      = 'El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.';
+        $this->claves           = 'IMPLAN, Torreon';
+        $this->categorias       = array('Infraestructura', 'Recursos Naturales', 'Vivienda');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'poligonos-actuacion-desarrollo-urbano-integral/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.</p>
 
@@ -111,8 +119,10 @@ class PoligonosActuacionDesarrolloUrbanoIntegral extends \Base\Publicacion {
 <p>La implementación de los polígonos de actuación se podrá realizar a través de políticas públicas e iniciativas privadas que le permitirán a Torreón transitar hacia un modelo de desarrollo urbano sustentable, integral e inteligente, procurando viviendas dignas y mejorando la calidad de vida de los torreonenses.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase PoligonosActuacionDesarrolloUrbanoIntegral

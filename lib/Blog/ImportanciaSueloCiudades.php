@@ -31,24 +31,32 @@ class ImportanciaSueloCiudades extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre        = 'La importancia del suelo en las ciudades';
-        $this->autor         = 'Arq. Ilse Ávila García';
-        $this->fecha         = '2014-10-15';
+        // Título, autor y fecha
+        $this->nombre           = 'La importancia del suelo en las ciudades';
+        $this->autor            = 'Arq. Ilse Ávila García';
+        $this->fecha            = '2014-10-15T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo       = 'importancia-suelo-ciudades';
-        $this->imagen_previa = 'importancia-suelo-ciudades/imagen-previa.jpg';
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="importancia-suelo-ciudades/encabezado.jpg">';
+        $this->archivo          = 'importancia-suelo-ciudades';
+        $this->imagen_previa    = 'importancia-suelo-ciudades/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = 'En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Infraestructura', 'Vivienda', 'Recursos Naturales');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio    = 'blog';
-        $this->nombre_menu   = 'Análisis Publicados';
-        // El contenido HTML y el JavaScript
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="importancia-suelo-ciudades/imagen.jpg"></span>
+        $this->descripcion      = 'En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.';
+        $this->claves           = 'IMPLAN, Torreon, Suelo, Urbano, Ordenamiento';
+        $this->categorias       = array('Infraestructura', 'Vivienda', 'Recursos Naturales');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'importancia-suelo-ciudades/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Históricamente el suelo ha sido una de las principales fuentes de riqueza, desarrollo económico y armonía social.</p>
 
@@ -61,8 +69,10 @@ class ImportanciaSueloCiudades extends \Base\Publicacion {
 <p>En Torreón la expansión de la ciudad ha absorbido al ejido, desincorporando tierras del régimen agrario e incorporándolas al uso urbano por medio de sociedades mercantiles, generando oferta de suelo legal y barato para la vivienda de interés social, a este esquema se han sumado pequeñas propiedades de uso agrícola que dejan de ser rentables como tal y las ofrecen al uso habitacional campestre, con densidades de medias a bajas, cediendo el desarrollo de las ciudades a las regulaciones del mercado inmobiliario. Por ello es necesario promover políticas públicas que regulen el uso del suelo para llegar a un equilibrio óptimo entre sus diferentes usos, necesidades y compatibilidades que permitan el crecimiento ordenado y planeado de nuestra ciudad.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase ImportanciaSueloCiudades

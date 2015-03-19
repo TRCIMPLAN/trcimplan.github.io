@@ -31,7 +31,7 @@ class PrevencionDelitoEspacioPublico extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        //
+        // Carrusel 1
         $carrusel1 = new \Base\Carrusel('carrusel-1');
         $carrusel1->agregar_diapositiva('prevencion-delito-espacio-publico/carrusel-1-fachas-casa.jpg',           '', 'El espacio urbano se caracteriza por nuestras fachas de casa y negocios, estas a su vez pueden incentivar la percepción de inseguridad de quien usa la calle.');
         $carrusel1->agregar_diapositiva('prevencion-delito-espacio-publico/carrusel-1-muro.jpg',                  '', 'El muro es el símbolo más visible del miedo.');
@@ -44,7 +44,7 @@ class PrevencionDelitoEspacioPublico extends \Base\Publicacion {
         $carrusel1->agregar_diapositiva('prevencion-delito-espacio-publico/carrusel-1-marcas-negativas.jpg',      '', 'Las marcas negativas dentro del espacio fomentan la percepción de inseguridad.');
         $carrusel1->agregar_diapositiva('prevencion-delito-espacio-publico/carrusel-1-dignifiquen.jpg',           '', 'Se requieren espacios públicos que dignificen las comunidades.');
         $carrusel1->agregar_diapositiva('prevencion-delito-espacio-publico/carrusel-1-ciudad-limpia.jpg',         '', 'Una ciudad limpia es un factor que apoya a disminuir la percepción de inseguridad. Esto es responsabilidad de todos los que generamos basura.');
-        //
+        // Carrusel 2
         $carrusel2 = new \Base\Carrusel('carrusel-2');
         $carrusel2->agregar_diapositiva('prevencion-delito-espacio-publico/carrusel-2-construccion-calles.jpg',    '', 'El ciudadano tiene la capacidad de incidir en la construcción de las calles y parques de manera positiva o negativa, también puede construir socialmente su seguridad.');
         $carrusel2->agregar_diapositiva('prevencion-delito-espacio-publico/carrusel-2-control-aprecio.jpg',        '', 'El mantenimiento del espacio público habla de que los habitantes tienen control y aprecio sobre de él.');
@@ -56,33 +56,40 @@ class PrevencionDelitoEspacioPublico extends \Base\Publicacion {
         $carrusel2->agregar_diapositiva('prevencion-delito-espacio-publico/carrusel-2-ver-ser-visto.jpg',          '', 'La posibilidad de ver y ser visto, donde existe cohesición social, desminuye la percepción de inseguridad.');
         $carrusel2->agregar_diapositiva('prevencion-delito-espacio-publico/carrusel-2-ninguna-igual-otra.jpg',     '', 'Ninguna comunidad es igual a otra y cada una tiene en conjunto diferentes aspiraciones. Zaragoza Sur, Torreón, 2009 Tesis universitaria.');
         $carrusel2->agregar_diapositiva('prevencion-delito-espacio-publico/carrusel-2-taller-participacion.jpg',   '', 'Taller de participación ciudadana lidereado por iniciativa de planeación en comunidades TOGETHER NORTH JERSEY en Nueva Jersey, EUA.');
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Prevención del delito mediante la construcción del espacio público';
         $this->autor            = 'Arq. Victoria Aranzábal';
-        $this->fecha            = '2015-01-28';
+        $this->fecha            = '2015-01-28T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'prevencion-delito-espacio-publico';
         $this->imagen_previa    = 'prevencion-delito-espacio-publico/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="prevencion-delito-espacio-publico/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Ante el miedo y el temor, el lagunero ha tomado medidas en lo individual y lo colectivo en un intento por evitar ser víctimas de algún delito, se ha encerrado en lo privado despreciando el espacio público como si fuera ajeno.';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->claves           = 'IMPLAN, Torreon, Seguridad, Espacio, Publico, Calles';
         $this->categorias       = array('Infraestructura', 'Bienestar');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-     // $this->para_compartir   = true;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = implode("\n", array(
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'prevencion-delito-espacio-publico/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = implode("\n", array(
             $this->cargar_archivo_markdown_extra('lib/Blog/PrevencionDelitoEspacioPublicoParte1.md'),
             $carrusel1->html(),
             $this->cargar_archivo_markdown_extra('lib/Blog/PrevencionDelitoEspacioPublicoParte2.md'),
             $carrusel2->html(),
             $this->cargar_archivo_markdown_extra('lib/Blog/PrevencionDelitoEspacioPublicoParte3.md')));
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
         $this->javascript       = '';
     } // constructor
 

@@ -31,19 +31,32 @@ class GobiernosEficacesEficientes extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-06-12';
-        $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->nombre        = 'Gobiernos eficaces y eficientes';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'gobiernos-eficaces-eficientes';
-        $this->descripcion   = 'La eficiencia de los gobiernos es el subíndice peor evaluado para la metrópoli ubicándonos en el lugar 63 de 77.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'gobiernos-eficaces-eficientes/imagen-previa.jpg';
-        $this->categorias    = array('Gobierno', 'Doing Business', 'Competitividad');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="gobiernos-eficaces-eficientes/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Gobiernos eficaces y eficientes';
+        $this->autor            = 'Lic. Rodrigo González Morales';
+        $this->fecha            = '2014-06-12T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'gobiernos-eficaces-eficientes';
+        $this->imagen_previa    = 'gobiernos-eficaces-eficientes/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'La eficiencia de los gobiernos es el subíndice peor evaluado para la metrópoli ubicándonos en el lugar 63 de 77.';
+        $this->claves           = 'IMPLAN, Torreon, Gobierno, Eficiente, Doing Business';
+        $this->categorias       = array('Gobierno', 'Doing Business', 'Competitividad');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'gobiernos-eficaces-eficientes/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Después del Sistema de Derecho, la eficiencia de los gobiernos es el subíndice peor evaluado para la metrópoli ubicándonos en el lugar 63 de 77. Esto resulta aún más significativo si consideramos que ambos subíndice eran fortalezas de la región en la primera edición del ICU en 2007. Lerdo y Matamoros de forma aislada se encuentran muy cercanos a la valoración de Tlaxcala, que es la ciudad peor evaluada del subíndice, mientras Torreón y Gómez Palacio ocupan posiciones superiores pero aun por debajo de la media.</p>
 
@@ -60,9 +73,12 @@ class GobiernosEficacesEficientes extends \Base\Publicacion {
 <p>Otros indicadores de eficiencia de los gobiernos tienen que ver con la posibilidad de regular mercados y el crecimiento de la propia ciudad. El porcentaje de PEA en los mercados formales, representan a su vez la capacidad gubernamental de controlar la informalidad, en este sentido la ZML se encuentra a la par de la media nacional (53%) al igual que Torreón, lejos de niveles óptimos. Gómez Palacio registra 57 % de PEA en la economía formal, siendo el mejor valor de la Zona, sin embargo Lerdo y Matamoros tienen un rezago al registrar 42% y 43% respectivamente.</p>
 
 <p>Se evalúa también a los gobiernos por su control del crecimiento urbano, ya que la compactación de las ciudades se considera un importante factor de competitividad. La información al respecto es a nivel metropolitano y muestra que entre 2005 y 2010 la mancha urbana de la ZML creció 1.3 veces más que su población, lo cual se relaciona con el último indicador de este subíndice que es la densidad poblacional, donde nos encontramos en la media de ciudades con 6,401 habitantes por kilómetro cuadrado.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase GobiernosEficacesEficientes

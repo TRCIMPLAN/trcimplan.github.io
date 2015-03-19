@@ -31,19 +31,32 @@ class LaLagunaMetropoliDelConocimiento extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-04-28';
-        $this->autor         = 'Lic. Eduardo Holguín Zehfuss';
-        $this->nombre        = 'La Laguna: Metrópoli del Conocimiento';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'la-laguna-metropoli-del-conocimiento';
-        $this->descripcion   = 'Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'la-laguna-metropoli-del-conocimiento/imagen-previa.jpg';
-        $this->categorias    = array('Macroeconomía', 'Innovación');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="la-laguna-metropoli-del-conocimiento/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'La Laguna: Metrópoli del Conocimiento';
+        $this->autor            = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha            = '2014-04-28T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'la-laguna-metropoli-del-conocimiento';
+        $this->imagen_previa    = 'la-laguna-metropoli-del-conocimiento/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.';
+        $this->claves           = 'IMPLAN, Torreon, Conocimiento, Tecnologias, Informacion, Comunicacion, TICs';
+        $this->categorias       = array('Innovación', 'Empresas');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'la-laguna-metropoli-del-conocimiento/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento. Elegir la opción de no llevarlo a cabo supondría condenar a la región a mantenerse al margen de las aldeas globales más competitivas, con las consecuencias que ello supone en materia de generación de riqueza social. Los organismos multilaterales que miden la posición mundial de una urbe en los rankings de competitividad le otorgan mejor calificación a aquellas que se esfuerzan e invierten sustantivamente en cultura, educación, patentes, diseño, investigación, innovación y desarrollo. Ello equivale a afirmar que las metrópolis que permanezcan al margen de la economía del conocimiento no serán visualizadas como las más capaces para atraer y retener inversiones y talento. Equivale a aceptar que las empresas de calidad mundial y de gran calado sigan prefiriendo aldeas de otras latitudes y que un gran número de profesionistas y/o emprendedores emigren en búsqueda de empleos y oportunidades.</p>
 
@@ -52,9 +65,12 @@ class LaLagunaMetropoliDelConocimiento extends \Base\Publicacion {
 <p>El accionar público y privado, promovido por el IMPLAN, conducirá a programas, proyectos, iniciativas; y a, por primera vez, la integración de un plan regional: el Gran Plan: Metrópoli del Conocimiento Globalmente Competitiva. Un gran plan que implica la previa concertación, el previo acuerdo con los actores gubernamentales, políticos, sociales y económicos de las ciudades comarcanas. Cabe destacar la obligatoriedad de otorgarle un carácter metropolitano a cualquier plan que pretenda levantar los indicadores locales de competitividad, dado que los rankings globales en la materia nos visualizan como región y no como ciudades aisladas.</p>
 
 <p>También es oportuno mencionar que el adoptar un modelo del conocimiento no equivale a únicamente fomentar la industria de las Tecnologías de la Información y de la Comunicación (TICS). Ello es importante, pero igualmente importante es levantar los indicadores de calidad de vida de la región y mejorar la productividad de los sectores industrial, comercial, agropecuario y minero, mediante esfuerzos e inversiones en Investigación, Desarrollo e Innovación. Actividades productivas de suma importancia en La Laguna que merecen de apoyos estratégicos que incrementes su productividad.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase LaLagunaMetropoliDelConocimiento

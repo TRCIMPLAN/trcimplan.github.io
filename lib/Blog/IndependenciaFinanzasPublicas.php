@@ -31,19 +31,32 @@ class IndependenciaFinanzasPublicas extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-06-19';
-        $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->nombre        = 'Independencia de las Finanzas Públicas';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'independencia-finanzas-publicas';
-        $this->descripcion   = 'Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'independencia-finanzas-publicas/imagen-previa.jpg';
-        $this->categorias    = array('Finanzas Públicas', 'Gobierno');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="independencia-finanzas-publicas/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Independencia de las Finanzas Públicas';
+        $this->autor            = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha            = '2014-06-19T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'independencia-finanzas-publicas';
+        $this->imagen_previa    = 'independencia-finanzas-publicas/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.';
+        $this->claves           = 'IMPLAN, Torreon, Ingresos, Capacidad Financiera';
+        $this->categorias       = array('Finanzas Públicas', 'Gobierno');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'independencia-finanzas-publicas/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Torreón, Coahuila se encuentra entre los municipios con mayor independencia económica del país. Los resultados se obtuvieron con el cálculo y comparación de dos indicadores explicados enseguida: 1) relación de ingresos propios y totales y 2) capacidad financiera.</p>
 
@@ -74,9 +87,12 @@ class IndependenciaFinanzasPublicas extends \Base\Publicacion {
 <p>Al ordenar los municipios conforme a su capacidad financiera, siendo el número uno aquel con mayor porcentaje, Gómez Palacio y Torreón ocuparían los lugares 60 y 65 respectivamente, de los más de 2,000 municipios de la república. El resultado es satisfactorio más no ideal ya que aun dependemos 25% de los gobiernos federal y estatal para la operación del municipio.</p>
 
 <p>Ejemplos como San Luis Potosí, Juárez y Ramos Arizpe cuyos ingresos propios comprenden el 94.68%, 80.15% y 103.11% de su gasto corriente demuestran lo que podemos lograr tomando medidas adecuadas de disminución de gasto corriente o bien el aumento de ingreso propios.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase IndependenciaFinanzasPublicas

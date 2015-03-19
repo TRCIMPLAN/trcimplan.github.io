@@ -31,29 +31,36 @@ class LaComarcaLaguneraIMPLAN extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'La Comarca Lagunera y el IMPLAN';
         $this->autor            = 'María Isabel Saldaña';
-        $this->fecha            = '2015-03-07';
+        $this->fecha            = '2015-03-07T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'la-comarca-lagunera-implan';
         $this->imagen_previa    = 'la-comarca-lagunera-implan/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="la-comarca-lagunera-implan/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'El jueves 5 de marzo en la Universidad LaSalle en Gómez Palacio, Durango se signa el convenio por José Miguel Campillo Carrete alcalde de Gómez Palacio, Dgo. y Miguel Ángel Riquelme Solís alcalde de Torreón, Coahuila para un plan metropolitano en donde en breve se sumaran Lerdo, Durango y Matamoros, Coahuila.';
         $this->claves           = 'IMPLAN, Torreon, Plan Estrategico Metropolitano';
         $this->categorias       = array('Plan Estratégico Metropolitano');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-     // $this->para_compartir   = true;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/LaComarcaLaguneraIMPLAN.md');
-     // $this->javascript       = '';
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = '';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/LaComarcaLaguneraIMPLAN.md');
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase LaComarcaLaguneraIMPLAN

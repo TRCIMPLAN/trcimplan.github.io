@@ -31,19 +31,32 @@ class QueVuelvaLaRegionDeLosGrandesEsfuerzos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-02-25';
-        $this->autor         = 'Lic. Eduardo Holguín Zehfuss';
-        $this->nombre        = 'Que vuelva la región de los grandes esfuerzos';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'que-vuelva-la-region-de-los-grandes-esfuerzos';
-        $this->descripcion   = 'La Calificadora Internacional Moodys elevó por primera vez la nota soberana de México a la categoría A3 gracias a las reformas estructurales.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'que-vuelva-la-region-de-los-grandes-esfuerzos/imagen-previa.jpg';
-        $this->categorias    = array('Competitividad');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="que-vuelva-la-region-de-los-grandes-esfuerzos/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Que vuelva la región de los grandes esfuerzos';
+        $this->autor            = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha            = '2014-02-25T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'que-vuelva-la-region-de-los-grandes-esfuerzos';
+        $this->imagen_previa    = 'que-vuelva-la-region-de-los-grandes-esfuerzos/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'La Calificadora Internacional Moodys elevó por primera vez la nota soberana de México a la categoría A3 gracias a las reformas estructurales.';
+        $this->claves           = 'IMPLAN, Torreon, Mexico, Reformas, Estructurales, Competitividad';
+        $this->categorias       = array('Competitividad');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'que-vuelva-la-region-de-los-grandes-esfuerzos/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Hace unas semanas recibimos una grata noticia: la Calificadora Internacional Moodys elevó por primera vez la nota soberana de México a la categoría A3 gracias a las reformas estructurales promovidas por el Presidente de la República y por el Poder Legislativo. Gracias a esa inédita calificación el territorio azteca se ha vuelto más atractivo para la Inversión Extranjera Directa elevándose su potencial de crecimiento. Gracias a esa nueva capacidad de pago los costos de financiamiento serán menores y los palazos para darle servicio a la deuda serán mayores tanto para el sector público, como para las empresas y las familias mexicanas.</p>
 
@@ -72,7 +85,12 @@ class QueVuelvaLaRegionDeLosGrandesEsfuerzos extends \Base\Publicacion {
 <p>En el IMPLAN ciudadanos y gobierno empezaremos por determinar el Sistema de Información Geográfica y el balance económico de la región. El balance económico de la región lo haremos construyendo un Sistema Municipal de Indicadores. Con base en el balance diseñaremos la visión de metrópoli a 4, 8, 12, 16 y 20 años, entendiendo que la planeación debe trascender los tiempos políticos acotados en los periodos de gobierno. Entendiendo la urgente necesidad de que el desarrollo de La Laguna no se someta a actos de voluntarismo de un gobierno sino a la unión de capacidades de todos los actores de la Comarca Lagunera en torno a una perspectiva común de largo plazo, en torno a una visión de futuro.</p>
 
 <p>La planeación es el principio ordenador y la competitividad urbana el objetivo intermedio para alcanzar el propósito último de la acción de gobernanza del Instituto Municipal de Planeación y Competitividad de Torreón: Que los ciudadanos de la zona metropolitana conocida como La Laguna logren una vida sana, segura, productiva, en armonía con sus tradiciones, sus valores culturales y espirituales; es decir, un equilibrio entre el desarrollo humano, la prosperidad económica, individual y colectiva, y el respeto de los ecosistemas.</p>
+
 FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase QueVuelvaLaRegionDeLosGrandesEsfuerzos

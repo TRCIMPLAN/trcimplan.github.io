@@ -31,26 +31,35 @@ class PapelOrganizacionesCivilesAumentoCompetitividad extends \Base\Publicacion 
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'El papel de las Organizaciones Civiles en el aumento del bienestar y competitividad';
         $this->autor            = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha            = '2014-12-10';
+        $this->fecha            = '2014-12-10T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'papel-organizaciones-civiles-aumento-competitividad';
         $this->imagen_previa    = 'papel-organizaciones-civiles-aumento-competitividad/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="papel-organizaciones-civiles-aumento-competitividad/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'En toda ciudad, estado o país debe haber sinergia entre ciudadanos, asociaciones civiles y empresas para definir programas a largo plazo que mejoren la calidad y el bienestar de todos nosotros.';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->claves           = 'IMPLAN, Torreon, Organizaciones, Civiles, Empresas, Programas, Bienestar';
         $this->categorias       = array('Bienestar', 'Competitividad', 'Educación');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/PapelOrganizacionesCivilesAumentoCompetitividad.md');
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'papel-organizaciones-civiles-aumento-competitividad/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/PapelOrganizacionesCivilesAumentoCompetitividad.md');
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
         $this->javascript       = '';
     } // constructor
 

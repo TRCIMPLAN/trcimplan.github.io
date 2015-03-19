@@ -31,19 +31,32 @@ class Infraestructura extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-06-26';
-        $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->nombre        = 'Infraestructura (Sectores precursores de clase mundial)';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'infraestructura';
-        $this->descripcion   = 'Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'infraestructura/imagen-previa.jpg';
-        $this->categorias    = array('Infraestructura', 'Vialidad', 'Movilidad');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="infraestructura/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Infraestructura (Sectores precursores de clase mundial)';
+        $this->autor            = 'Lic. Rodrigo González Morales';
+        $this->fecha            = '2014-06-26T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'infraestructura';
+        $this->imagen_previa    = 'infraestructura/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.';
+        $this->claves           = 'IMPLAN, Torreon, Indicadores, Infraestructura, Información, TICs, Carreteras, Accidentes, Viales';
+        $this->categorias       = array('Infraestructura', 'Vialidad', 'Movilidad');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'infraestructura/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Este subíndice considera características que facilitan la inserción de una ciudad en estándares de ciudades de calidad mundial, como puede ser el acceso a Tecnologías de información o los sistemas de transporte integrado o BRT (Bus Rapid Transit), conocidos en México como Metrobús. Dado que algunos indicadores de un municipio aplican a toda la zona metropolitana como es el aeropuerto, la posición de la ZML (32) es superior a la de los cuatro municipios por separado.</p>
 
@@ -58,9 +71,12 @@ class Infraestructura extends \Base\Publicacion {
 <p>En el caso del sistema integrado de autobuses o BRT, son sólo 7 ciudades los que cuentan con él, aunque el IMCO contabiliza también los sistemas en proceso de acuerdo a la Secretaría de Comunicaciones y Transportes. Este indicador tiene tal valor en la competitividad internacional de acuerdo al IMCO, que si sólo el municipio de Torreón contara con BRT, la calificación de la ZML en este subíndice pasaría de 43.67 a 72.24, y su lugar global del 44 al 31.</p>
 
 <p>Otro indicador de este subíndice es el porcentaje de carretera avanzada (cuatro carriles) sobre el total de carretera en el cual por su localización el municipio de Torreón es el que menos aporta en este aspecto. Sin embargo los dos indicadores siguientes corresponden al aeropuerto y número de destinos aéreos con que cuenta el municipio de Torreón y que coloca a nuestra ZML entre las 20 ciudades con mejor conectividad aérea.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase Infraestructura

@@ -31,27 +31,32 @@ class NuevaFormaImpulsarDesarrolloTorreonZM extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Una nueva forma de impulsar el desarrollo de Torreón y su Zona Metropolitana';
         $this->autor            = 'Arq. Susana Montano';
-        $this->fecha            = '2014-11-11';
+        $this->fecha            = '2014-11-11T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'nueva-forma-impulsar-desarrollo-torreon-zm';
         $this->imagen_previa    = 'nueva-forma-impulsar-desarrollo-torreon-zm/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="nueva-forma-impulsar-desarrollo-torreon-zm/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'El presente artículo pretende caracterizar a los Proyectos Estratégicos bajo un enfoque sustentable y comunicar que el IMPLAN Torreón promueve el impulso del desarrollo integral de la Laguna, mediante la integración de una Cartera de Proyectos Estratégicos.';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->descripcion      = 'El IMPLAN Torreón promueve el impulso del desarrollo integral de la Laguna, mediante la integración de una Cartera de Proyectos Estratégicos.';
+        $this->claves           = 'IMPLAN, Torreon, Proyectos, Estrategicos';
         $this->categorias       = array('Plan Estratégico Metropolitano', 'Proyectos');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido        = <<<FINAL
-<span class="contenido-imagen-previa"><img src="nueva-forma-impulsar-desarrollo-torreon-zm/imagen.jpg"></span>
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'nueva-forma-impulsar-desarrollo-torreon-zm/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <blockquote>
     <p>"Cities have the capability of providing something for everybody, only because, and only when, they are created by everybody"</p>
@@ -96,8 +101,10 @@ class NuevaFormaImpulsarDesarrolloTorreonZM extends \Base\Publicacion {
 <p>[ii] Programa de las Naciones Unidas Para el Desarrollo, 2009. <a href="http://web.undp.org/evaluation/handbook/spanish/documents/manual_completo.pdf">Manual de Planificación, Seguimiento y Evaluación de los Resultados de Desarrollo. A.K. Office Supplies</a> (NY) [Fecha de consulta: 25 de noviembre 2014].</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase NuevaFormaImpulsarDesarrolloTorreonZM

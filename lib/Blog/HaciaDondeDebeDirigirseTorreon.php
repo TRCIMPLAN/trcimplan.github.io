@@ -31,19 +31,32 @@ class HaciaDondeDebeDirigirseTorreon extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-04-16';
-        $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->nombre        = 'Hacia dónde debe dirigirse Torreón';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'hacia-donde-debe-dirigirse-torreon';
-        $this->descripcion   = '¿En realidad generan más valor las actividades tecnológicas y de servicios?';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'hacia-donde-debe-dirigirse-torreon/imagen-previa.jpg';
-        $this->categorias    = array('Macreconomía', 'Empleo', 'Empresas');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="hacia-donde-debe-dirigirse-torreon/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Hacia dónde debe dirigirse Torreón';
+        $this->autor            = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha            = '2014-04-16T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'hacia-donde-debe-dirigirse-torreon';
+        $this->imagen_previa    = 'hacia-donde-debe-dirigirse-torreon/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = '¿En realidad generan más valor las actividades tecnológicas y de servicios?';
+        $this->claves           = 'IMPLAN, Torreon, Actividades, Tecnológicas, Servicios';
+        $this->categorias       = array('Macreconomía', 'Empleo', 'Empresas');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'hacia-donde-debe-dirigirse-torreon/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Con ayuda de la tecnología, la economía se ha mantenido en constante cambio a través del tiempo. El primer gran cambio fue con la revolución industrial en el siglo XVIII, ya que permitió la transición de una economía basada en actividades primarias como la agricultura y la extracción a una basada en la transformación, lo cual aporta mucho mayor valor a la economía. Fue entonces que las grandes potencias comenzaron a modernizarse, y a dejar atrás a otros países basados aun en la agricultura.</p>
 
@@ -79,7 +92,12 @@ Fuente: INEGI. Censos Económicos 2009.</p>
 <p>Cabe resaltar la ubicación que ocupan en la gráfica las actividades primarias y secundarias como la agricultura, la construcción y la manufactura, siendo las que aportan menor valor agregado; la minería, por otro lado, se separa un poco del resto, aportando como valor casi el 40% de su producción.</p>
 
 <p>La intención de mostrar la rentabilidad de las actividades no es abandonar la agricultura y la transformación para dedicarnos enteramente al comercio y los servicios, sino el añadir a estas actividades procesos de innovación que de verdad enriquezcan a nuestra sociedad, y para lograrlo, necesitamos invertir en tecnología, centros de investigación y desarrollo, educación y cultura, pues si nuestros profesionistas y técnicos no están preparados con los conocimientos y habilidades que una economía competitiva necesita, nunca podremos estar a la altura de las ciudades globalmente competitivas y peor aún si generamos el capital humano más no las condiciones para que se desarrollen en nuestra ciudad.</p>
+
 FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase HaciaDondeDebeDirigirseTorreon

@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img src="movilidad-nuestra-ciudad/imagen.jpg"></span>
-
 ### ¿Qué es la movilidad?
 
 El concepto de movilidad hace referencia a la capacidad que tienen las personas y las mercancías de moverse: dentro de las ciudades, como es el caso de la movilidad urbana que está delimitando la actividad hacia el interior y la movilidad suburbana haciendo referencia al flujo entre las agrupaciones de comunidades de menor tamaño con el gran centro urbano.

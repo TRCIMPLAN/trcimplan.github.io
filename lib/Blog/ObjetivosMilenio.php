@@ -31,28 +31,35 @@ class ObjetivosMilenio extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'La Zona Metropolitana de La Laguna y los Objetivos del Milenio';
         $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha            = '2015-01-27';
+        $this->fecha            = '2015-01-27T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'objetivos-milenio';
         $this->imagen_previa    = 'objetivos-milenio/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="objetivos-milenio/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas.';
-        $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Bienestar', 'Educación', 'Salud', 'Recursos Naturales', 'Innovación');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        $this->claves           = 'IMPLAN, Torreon, Cumbre, Milenio, Naciones Unidas, ONU, Retos, Objetivos';
+        $this->categorias       = array('Bienestar', 'Educación', 'Salud', 'Recursos Naturales');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-     // $this->para_compartir   = true;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Blog/ObjetivosMilenio.md');
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'objetivos-milenio/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/ObjetivosMilenio.md');
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
         $this->javascript       = '';
     } // constructor
 

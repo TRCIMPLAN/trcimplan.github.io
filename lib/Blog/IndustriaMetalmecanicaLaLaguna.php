@@ -31,27 +31,32 @@ class IndustriaMetalmecanicaLaLaguna extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'La industria metalmecánica y La Laguna';
         $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2014-11-12';
+        $this->fecha            = '2014-11-12T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'industrial-metalmecanica-la-laguna';
         $this->imagen_previa    = 'industrial-metalmecanica-la-laguna/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="industrial-metalmecanica-la-laguna/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->claves           = 'IMPLAN, Torreon, Industria, Metalmecánica, Empleo';
         $this->categorias       = array('Empresas', 'Empleo');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido        = <<<FINAL
-<span class="contenido-imagen-previa"><img src="industrial-metalmecanica-la-laguna/imagen.jpg"></span>
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'industrial-metalmecanica-la-laguna/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <h3>Oportunidades en la industria metalmecánica</h3>
 
@@ -144,8 +149,10 @@ class IndustriaMetalmecanicaLaLaguna extends \Base\Publicacion {
 <p>A pesar de que la productividad y participación de la metalmecánica son muy altas, esto no implica que estemos preparados para competir como proveedores con otras ciudades de México.Un ejemplo de esto es que en La Laguna no contamos con proveedores certificados con estándares de calidad, ventas y clientes.De las 210 empresas que actualmente se encuentran en el Catálogo de Proveeduría de la IndustriaMaquiladora de la Secretaría de Economía de México, 48 están en Ciudad Juárez, 55 en el Bajío, 43 en Monterrey, 35 en Tlaxcala, 25 en Puebla y 4 en Saltillo. Cabe mencionar que cerca de la mitad de estos proveedores pertenecen a la industria metalmecánica, lo cual nos deja lejos de competir.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase IndustriaMetalmecanicaLaLaguna

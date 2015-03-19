@@ -31,19 +31,32 @@ class LagunaApostarleIndustriaAutomotriz extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-07-30';
-        $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->nombre        = 'La Laguna debe apostarle a la Industria Automotriz';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'laguna-apostarle-industria-automotriz';
-        $this->descripcion   = 'En industria automotriz hay mayor inversión en la investigación y desarrollo que origina una derrama de capacidades tecnológicas con aplicación en otros sectores como el eléctrico, electrónico y aeroespacial.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'laguna-apostarle-industria-automotriz/imagen-previa.jpg';
-        $this->categorias    = array('Empleo', 'Empresas');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="laguna-apostarle-industria-automotriz/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'La Laguna debe apostarle a la Industria Automotriz';
+        $this->autor            = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha            = '2014-07-30T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'laguna-apostarle-industria-automotriz';
+        $this->imagen_previa    = 'laguna-apostarle-industria-automotriz/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'En industria automotriz hay mayor inversión en la investigación y desarrollo que origina una derrama de capacidades tecnológicas con aplicación en otros sectores como el eléctrico, electrónico y aeroespacial.';
+        $this->claves           = 'IMPLAN, Torreon, Industria, Automotriz, Investigacion, Desarrollo, Manufactura';
+        $this->categorias       = array('Empleo', 'Empresas');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'laguna-apostarle-industria-automotriz/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <h3>¿Por qué apostarle a la Industria Automotriz?</h3>
 
@@ -121,9 +134,12 @@ class LagunaApostarleIndustriaAutomotriz extends \Base\Publicacion {
   <p>"Es la profesión orientada a diseñar elementos y sistemas mecánicos para transformar y ensamblar la materia, da soluciones, mejoras y mantenimiento a los sectores de la industria automotriz, ferrocarril, médica y de servicios, entre otras; desarrolla productos innovadores y aplicaciones tecnológicas de vanguardia."</p>
 
   <p><a target="_blank" href="http://www.upa.edu.mx/oeingmecanica/">Ir a la página de esta carrera en el sitio web de la UPA.</a></p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase LagunaApostarleIndustriaAutomotriz

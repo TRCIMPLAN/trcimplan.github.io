@@ -31,19 +31,32 @@ class IndicadoresPorMunicipioMetodologiaIMCO extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-28';
-        $this->autor         = 'Rodrigo González Morales y Luis A. Gutiérrez Arizpe';
-        $this->nombre        = 'Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'indicadores-por-municipio-metodologia-imco';
-        $this->descripcion   = 'Índice de Competitividad Urbana de la Zona Metropolitana de la Laguna, Torreón, Gómez Palacio, Lerdo y Matamoros en 2012.';
-        $this->claves        = 'IMPLAN, Torreon, La Laguna, Gómez Palacio, Lerdo, Matamoros';
-        $this->imagen_previa = 'indicadores-por-municipio-metodologia-imco/imagen-previa.jpg';
-        $this->categorias    = array('Competitividad', 'Empleo');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="indicadores-por-municipio-metodologia-imco/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO';
+        $this->autor            = 'Rodrigo González Morales y Luis A. Gutiérrez Arizpe';
+        $this->fecha            = '2014-05-28T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'indicadores-por-municipio-metodologia-imco';
+        $this->imagen_previa    = 'indicadores-por-municipio-metodologia-imco/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Índice de Competitividad Urbana de la Zona Metropolitana de la Laguna, Torreón, Gómez Palacio, Lerdo y Matamoros en 2012.';
+        $this->claves           = 'IMPLAN, Torreon, Competitividad, La Laguna, Gómez Palacio, Lerdo, Matamoros';
+        $this->categorias       = array('Competitividad', 'Empleo');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'indicadores-por-municipio-metodologia-imco/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <h4>Competitividad de la Zona Metropolitana de la Laguna. Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO.</h4>
 
@@ -103,9 +116,12 @@ class IndicadoresPorMunicipioMetodologiaIMCO extends \Base\Publicacion {
 
 <p>[1] Instituto Mexicano Para la Competitividad (2004), Situación de la Competitividad en México. Hacia un pacto de Competitividad, IMCO, México.<br>
 [2] Análisis de acuerdo a la base de datos disponible en: <a href="http://porciudad.comparadondevives.org/contacto">http://porciudad.comparadondevives.org/contacto</a></p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase IndicadoresPorMunicipioMetodologiaIMCO

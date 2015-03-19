@@ -70,6 +70,9 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         if (!($this->navegacion instanceof Navegacion)) {
             throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad navegacion no es instancia de Navegacion.");
         }
+        if (!is_string($publicacion->archivo) || ($publicacion->archivo == '')) {
+            throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad archivo de la publicacion \"{$publicacion->nombre}\" es incorrecta.");
+        }
         // Inicializar el código JavaScript, porque puede quedar algo de publicaciones anteriores
         $this->javascript = array();
         // Esta publicación ocupará la página completa

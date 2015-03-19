@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="prevencion-delito-espacio-publico/imagen.jpg"></span>
-
 > “..Hay un miedo construido en la ciudad y también una ciudad construida por el miedo.”
 
 > (Fernando Carrión Mena, Boletín Ciudad Segura, FLACSO, 2007)

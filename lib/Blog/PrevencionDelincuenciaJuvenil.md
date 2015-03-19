@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="prevencion-delincuencia-juvenil/imagen.jpg"></span>
-
 Dentro de una estrategia de prevención integral del delito, la delincuencia juvenil constituye desde luego el elemento fundamental, si lo que se pretende es evitar que niños de doce años decidan formar parte de la delincuencia al cumplir los catorce resulta imprescindible atender el problema cuanto antes.
 
 Según diversos estudios, en nuestro país los jóvenes delinquen cada vez con mayor frecuencia a edad muy temprana, pero además el tipo de delitos es cada vez más grave como resulta ser el halconeo y el sicariato por mencionar algunos dentro del crimen organizado, específicamente dentro del narcotráfico.

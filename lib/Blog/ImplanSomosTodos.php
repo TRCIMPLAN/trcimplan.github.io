@@ -31,24 +31,32 @@ class ImplanSomosTodos extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre        = 'El IMPLAN somos todos';
-     // $this->autor         = 'Autor';
-        $this->fecha         = '2014-10-08';
+        // Título, autor y fecha
+        $this->nombre           = 'El IMPLAN somos todos';
+     // $this->autor            = '';
+        $this->fecha            = '2014-10-08T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo       = 'implan-somos-todos';
-        $this->imagen_previa = 'implan-somos-todos/imagen-previa.jpg';
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="titulo/encabezado.jpg">';
+        $this->archivo          = 'implan-somos-todos';
+        $this->imagen_previa    = 'implan-somos-todos/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = 'Al iniciar este año se puso en marcha las labores del IMPLAN Torreón, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada...';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Gobierno', 'Plan Estratégico Metropolitano');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio    = 'blog';
-        $this->nombre_menu   = 'Análisis Publicados';
-        // El contenido HTML y el JavaScript
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="implan-somos-todos/imagen.jpg"></span>
+        $this->descripcion      = 'Al iniciar este año se puso en marcha las labores del IMPLAN Torreón, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada.';
+        $this->claves           = 'IMPLAN, Torreon, Crecimiento, Ordenado';
+        $this->categorias       = array('Gobierno', 'Plan Estratégico Metropolitano');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'implan-somos-todos/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p><i>“La ciudad no es una suma de piedras, sino una suma de individuos.”</i><br>
 PhilippeStarck</p>
@@ -79,8 +87,10 @@ PhilippeStarck</p>
 <p>Inicia una nueva etapa, una etapa de apertura y participación, conoce este proceso de innovación con el que se dirige los destinos de la ciudad, en breve estará disponible en las redes sociales y la página web del IMPLAN, las bases para participar, síguenos, necesitamos de tu cooperación, porque el IMPLAN somos todos.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase ImplanSomosTodos

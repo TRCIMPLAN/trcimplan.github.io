@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="objetivos-milenio/imagen.jpg"></span>
-
 En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas: la **Declaración del Milenio**. En este documento se plasman ocho objetivos que tienen la finalidad de guiar a los países suscritos a mejorar la calidad de vida de sus poblaciones mediante políticas encausadas al desarrollo.
 
 Los Objetivos de Desarrollo del Milenio (u Objetivos del Milenio) están basados directamente en actividades y metas específicas que los países se han propuesto alcanzar para este **2015**. Los objetivos son:

@@ -37,7 +37,7 @@ class DOTDesarrolloOrientadoTransporte extends \Base\Publicacion {
         $this->fecha            = '2014-11-05T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'dot-desarrollo-orientado-transporte';
-        $this->imagen_previa    = 'dot-desarrollo-orientado-transporte/imagen-previa.jpg';
+        $this->imagen_previa    = 'dot-desarrollo-orientado-transporte/imagen-previa.png';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'En las últimas décadas, han surgido nuevos modelos urbanos que retoman el componente humano como eje principal de la planeación, buscando el equilibrio entre una ciudad altamente competitiva pero con servicios e infraestructura orientada al confort y las necesidades del ser humano.';
         $this->claves           = 'IMPLAN, Torreon, Trasporte';
@@ -52,7 +52,7 @@ class DOTDesarrolloOrientadoTransporte extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'dot-desarrollo-orientado-transporte/imagen.jpg';
+        $schema->image          = 'dot-desarrollo-orientado-transporte/imagen.png';
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;

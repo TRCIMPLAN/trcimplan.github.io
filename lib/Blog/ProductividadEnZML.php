@@ -31,19 +31,32 @@ class ProductividadEnZML extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-07-01';
-        $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->nombre        = 'Productividad en la Zona Metropolitana de La Laguna';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'productividad-zml';
-        $this->descripcion   = 'Análisis de la productividad laboral, industria manufacturera y eficiencia del trabajo en la Zona Metropolitana de la Laguna.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'productividad-zml/imagen-previa.jpg';
-        $this->categorias    = array('Macroeconomía', 'Empresas', 'Empleo', 'Mercados');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="productividad-zml/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Productividad en la Zona Metropolitana de La Laguna';
+        $this->autor            = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha            = '2014-07-01T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'productividad-zml';
+        $this->imagen_previa    = 'productividad-zml/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Análisis de la productividad laboral, industria manufacturera y eficiencia del trabajo en la Zona Metropolitana de la Laguna.';
+        $this->claves           = 'IMPLAN, Torreon';
+        $this->categorias       = array('Empresas', 'Empleo', 'Mercados');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'productividad-zml/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>En 2011 el Centro de Investigación para el Desarrollo, A.C. (CIDAC) publicó el Índice de Productividad México, en el cual Coahuila califica en tercer lugar de las 32 entidades de la república según su eficiencia en el uso de los insumos de trabajo y capital.</p>
 
@@ -82,9 +95,12 @@ class ProductividadEnZML extends \Base\Publicacion {
 <img class="img-responsive contenido-imagen" src="productividad-zml/09-actividades-economicas.png" alt="Actividades económicas">
 
 <p>Por último, al comparar los municipios de la zona con otras ciudades de la república, San Pedro Garza García es el número uno en productividad, seguido por Reynosa y Saltillo, mientras Torreón ocupa el cuarto lugar con 730 mil pesos por trabajador:</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase ProductividadEnZML

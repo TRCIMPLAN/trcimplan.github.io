@@ -31,19 +31,32 @@ class InvertirEnTorreon extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-13';
-        $this->autor         = 'Lic. Heriberto Ramos Hernández';
-        $this->nombre        = 'Invertir en Torreón';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'invertir-en-torreon';
-        $this->descripcion   = '¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'invertir-en-torreon/imagen-previa.jpg';
-        $this->categorias    = array('Empresas', 'Empleo', 'Infraestructura', 'Competitividad');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="invertir-en-torreon/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Invertir en Torreón';
+        $this->autor            = 'Lic. Heriberto Ramos Hernández';
+        $this->fecha            = '2014-05-13T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'invertir-en-torreon';
+        $this->imagen_previa    = 'invertir-en-torreon/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = '¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.';
+        $this->claves           = 'IMPLAN, Torreon';
+        $this->categorias       = array('Empresas', 'Empleo', 'Infraestructura', 'Competitividad');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'invertir-en-torreon/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón. O no...</p>
 
@@ -56,9 +69,12 @@ class InvertirEnTorreon extends \Base\Publicacion {
   <li>Buscadores de Conocimientos. Buscan regiones y ciudades donde exista el conocimiento, la tecnología, la educación, y la pericia del capital humano que les es indispensable. Las firmas de inversión en Nueva York, y ahora de Monterrey. Las firmas de tecnologías de información en California, India, y ahora en Guadalajara. La industria aeroespacial en Querétaro.</li>
   <li>Seguidores del Cliente. Aquellas empresas proveedoras de componentes, productos y servicios para una empresa muy grande. Que la seguirán a donde vaya.</li>
 </ol>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase InvertirEnTorreon

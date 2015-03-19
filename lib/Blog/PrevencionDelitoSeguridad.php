@@ -31,27 +31,32 @@ class PrevencionDelitoSeguridad extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'La Prevención del Delito como elemento fundamental para la Seguridad';
         $this->autor            = 'Lic. Alfredo Viesca Domínguez';
-        $this->fecha            = '2014-11-18';
+        $this->fecha            = '2014-11-18T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'prevencion-delito-seguridad';
         $this->imagen_previa    = 'prevencion-delito-seguridad/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="prevencion-delito-seguridad/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La prevención del delito debe ser el elemento central en la búsqueda de la seguridad en la Zona Metropolitana de la Laguna (ZML).';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->claves           = 'IMPLAN, Torreon, Prevecion, Delito, Seguridad';
         $this->categorias       = array('Delincuencia', 'Seguridad');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido        = <<<FINAL
-<span class="contenido-imagen-previa"><img src="prevencion-delito-seguridad/imagen.jpg"></span>
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'prevencion-delito-seguridad/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>La prevención es la medida o disposición que se toma de manera anticipada para evitar que suceda una cosa considerada negativa.</p>
 
@@ -90,8 +95,10 @@ class PrevencionDelitoSeguridad extends \Base\Publicacion {
 <p>La alternativa a la inseguridad es la prevención, donde las autoridades, las organizaciones ciudadanas y la sociedad civil tengan un rol específico para que esta prevención opere.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase PrevencionDelitoSeguridad

@@ -31,18 +31,33 @@ class MovilidadLaboralCotidianaZML extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-08-06';
-        $this->autor         = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->nombre        = 'Movilidad laboral cotidiana en la ZML';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'movilidad-laboral-cotidiana-zml';
-        $this->descripcion   = 'Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'movilidad-laboral-cotidiana-zml/imagen-previa.jpg';
-        $this->categorias    = array('Movilidad', 'Infraestructura', 'Vialidad', 'Empleo');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
+        // Título, autor y fecha
+        $this->nombre           = 'Movilidad laboral cotidiana en la ZML';
+        $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
+        $this->fecha            = '2014-08-06T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'movilidad-laboral-cotidiana-zml';
+        $this->imagen_previa    = 'movilidad-laboral-cotidiana-zml/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.';
+        $this->claves           = 'IMPLAN, Torreon, Poblacion, Ocupada, Trabajo, Municipio, La Laguna';
+        $this->categorias       = array('Movilidad', 'Infraestructura', 'Vialidad', 'Empleo');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'movilidad-laboral-cotidiana-zml/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
+
 <p>En una zona metropolitana en donde los límites municipales son divisiones imaginarias, en términos prácticos, para las necesidades de la población el traslado de una ciudad a otra es una realidad.</p>
 
 <p>En cuestiones como la vivienda, el trabajo, el consumo, la educación y la oferta cultural, entre otras, analizar el flujo de personas de un municipio a otro se vuelve trascendental para comprender la dinámica metropolitana e indispensable para el diseño de políticas públicas eficientes. La movilidad cotidiana contempla la frecuencia de los traslados y en esta entrega analizaremos la movilidad con motivos laborales, que junto con las cuestiones educacionales abarca una gran parte de los viajes intermunicipales diarios propiciando fallas en los flujos de los sistemas viales en horas específicas (horas pico), sobretodo de las avenidas principales y zonas focalizadas de los municipios.</p>
@@ -92,9 +107,12 @@ class MovilidadLaboralCotidianaZML extends \Base\Publicacion {
 <p>Observamos que Torreón, al situarse en la zona céntrica de la ZML beneficia a los municipios colindantes, destacando una proporción más alta de migración laboral cotidiana en relación a la ubicación más cercana o más lejana de Torreón. Lerdo al ubicarse a mayor distancia tiene un mayor porcentaje de población ocupada que trabaja en otro municipio, similar a Matamoros, aunque más acentuada.</p>
 
 <p>De los porcentajes de la población ocupada que tienen la necesidad de trasladarse habrá que considerar a las personas que se trasladan a otros municipios que no forman parte de la ZML. Estos traslados son más largos y pueden realizarse partiendo de las Centrales de Autobuses, el Aeropuerto, las rutas suburbanas de transporte público, o en vehículo propio, y considerar también que no necesariamente se realizan todos los días laborales.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase MovilidadLaboralCotidianaZML
