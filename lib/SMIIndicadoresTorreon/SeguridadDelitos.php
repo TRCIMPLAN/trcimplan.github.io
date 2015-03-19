@@ -122,7 +122,7 @@ class SeguridadDelitos extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/01/2015</td>
-            <td>738</td>
+            <td>783</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -152,7 +152,7 @@ class SeguridadDelitos extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2015-01-31</td>
-            <td>738</td>
+            <td>783</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -337,7 +337,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 935 },{ fecha: '2014-02-28', dato: 841 },{ fecha: '2014-03-31', dato: 742 },{ fecha: '2014-04-30', dato: 702 },{ fecha: '2014-05-31', dato: 1054 },{ fecha: '2014-06-30', dato: 786 },{ fecha: '2014-07-31', dato: 730 },{ fecha: '2014-08-31', dato: 818 },{ fecha: '2014-09-30', dato: 754 },{ fecha: '2014-10-31', dato: 784 },{ fecha: '2014-11-30', dato: 597 },{ fecha: '2014-12-31', dato: 501 },{ fecha: '2015-01-31', dato: 738 }],
+      data: [{ fecha: '2014-01-31', dato: 935 },{ fecha: '2014-02-28', dato: 841 },{ fecha: '2014-03-31', dato: 742 },{ fecha: '2014-04-30', dato: 702 },{ fecha: '2014-05-31', dato: 1054 },{ fecha: '2014-06-30', dato: 786 },{ fecha: '2014-07-31', dato: 730 },{ fecha: '2014-08-31', dato: 818 },{ fecha: '2014-09-30', dato: 754 },{ fecha: '2014-10-31', dato: 784 },{ fecha: '2014-11-30', dato: 597 },{ fecha: '2014-12-31', dato: 501 },{ fecha: '2015-01-31', dato: 783 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -353,7 +353,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 738 },{ region: 'Gómez Palacio', dato: 376 },{ region: 'Lerdo', dato: 64 },{ region: 'Matamoros', dato: 76 },{ region: 'La Laguna', dato: 1299 }],
+      data: [{ region: 'Torreón', dato: 783 },{ region: 'Gómez Palacio', dato: 376 },{ region: 'Lerdo', dato: 64 },{ region: 'Matamoros', dato: 76 },{ region: 'La Laguna', dato: 1299 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

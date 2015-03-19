@@ -57,7 +57,7 @@ class Delincuencia extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">738</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">783</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">376</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">64</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">76</a></td>

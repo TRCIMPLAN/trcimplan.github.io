@@ -328,7 +328,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">738</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">783</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

@@ -152,7 +152,7 @@ class SeguridadDelitos extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2015-01-31</td>
-            <td>738</td>
+            <td>783</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -335,7 +335,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 738 },{ region: 'Gómez Palacio', dato: 376 },{ region: 'Lerdo', dato: 64 },{ region: 'Matamoros', dato: 76 },{ region: 'La Laguna', dato: 1299 }],
+      data: [{ region: 'Torreón', dato: 783 },{ region: 'Gómez Palacio', dato: 376 },{ region: 'Lerdo', dato: 64 },{ region: 'Matamoros', dato: 76 },{ region: 'La Laguna', dato: 1299 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
