@@ -240,6 +240,12 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
             <td>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.</td>
           </tr>
           <tr>
+            <td>28/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-laguna-metropoli-del-conocimiento.html">La Laguna: Metrópoli del Conocimiento</a></td>
+            <td>Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.</td>
+          </tr>
+          <tr>
             <td>25/04/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/estabilidad-de-precios-en-torreon.html">Estabilidad de Precios en Torreón</a></td>

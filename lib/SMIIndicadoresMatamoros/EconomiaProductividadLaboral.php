@@ -126,6 +126,12 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>10/03/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/efectos-informalidad-politicas-prevenirla.html">Efectos de la informalidad y políticas para prevenirla</a></td>
+            <td>La informalidad tiene repercusiones directas sobre la competitividad y el crecimiento económico. Es cierto que ocupa a población desempleada en el sector formal y sus insumos e inversión apoyan a la economía, sin embargo es mayor el daño generado en el crecimiento a largo plazo.</td>
+          </tr>
+          <tr>
             <td>06/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></td>
@@ -210,12 +216,6 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
             <td>Análisis del mercado, las huelgas, el salario promedio mensual, productividad y demandas laborales en la Zona Metropolitana de la Laguna.</td>
           </tr>
           <tr>
-            <td>29/05/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/doing-business-torreon.html">Doing Business en Torreón</a></td>
-            <td>Este índice sirve para señalar en cual ciudad es más fácil hacer negaocios. En 2007, el municipio de Torreón ocupó el lugar 13 de 32 ciudades evaluadas.</td>
-          </tr>
-          <tr>
             <td>28/05/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/indicadores-por-municipio-metodologia-imco.html">Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO</a></td>
@@ -226,12 +226,6 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/invertir-en-torreon.html">Invertir en Torreón</a></td>
             <td>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.</td>
-          </tr>
-          <tr>
-            <td>28/04/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/la-laguna-metropoli-del-conocimiento.html">La Laguna: Metrópoli del Conocimiento</a></td>
-            <td>Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.</td>
           </tr>
           <tr>
             <td>25/04/2014</td>

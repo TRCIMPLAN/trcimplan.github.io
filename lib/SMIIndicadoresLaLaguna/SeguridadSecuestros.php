@@ -21,7 +21,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-la-laguna';
         $this->archivo      = 'seguridad-secuestros';
-        $this->descripcion  = 'Cantidad de secuestros en el primer trimestre de 2014';
+        $this->descripcion  = 'Cantidad de secuestros en el mes';
         $this->claves       = 'La Laguna, Delincuencia, Seguridad';
         $this->categorias   = array('Delincuencia', 'Seguridad');
         $this->region_nivel = 401;
@@ -35,7 +35,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Cantidad de secuestros en el primer trimestre de 2014</p>
+<p>Cantidad de secuestros en el mes</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -102,6 +102,12 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/01/2015</td>
+            <td>0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -127,35 +133,35 @@ class SeguridadSecuestros extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
+            <td>2015-01-31</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-12-31</td>
+            <td>2015-01-31</td>
             <td>NO TIENE</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-12-31</td>
+            <td>2015-01-31</td>
             <td>NO TIENE</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-12-31</td>
+            <td>2015-01-31</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-12-31</td>
+            <td>2015-01-31</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
@@ -295,7 +301,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 1 },{ fecha: '2014-02-28', dato: 2 },{ fecha: '2014-03-31', dato: 3 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 1 },{ fecha: '2014-06-30', dato: 0 },{ fecha: '2014-10-31', dato: 0 },{ fecha: '2014-11-30', dato: 1 },{ fecha: '2014-12-31', dato: 0 }],
+      data: [{ fecha: '2014-01-31', dato: 1 },{ fecha: '2014-02-28', dato: 2 },{ fecha: '2014-03-31', dato: 3 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 1 },{ fecha: '2014-06-30', dato: 0 },{ fecha: '2014-10-31', dato: 0 },{ fecha: '2014-11-30', dato: 1 },{ fecha: '2014-12-31', dato: 0 },{ fecha: '2015-01-31', dato: 0 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

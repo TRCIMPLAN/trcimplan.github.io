@@ -1,30 +1,30 @@
 <?php
 /**
- * EconomiaTotalDeEmpresas.php
+ * EconomiaTotalDeEmpresasRegistradasEnElSiem.php
  *
  * IMPLAN Torreón
  */
 
 // Namespace
-namespace SMIIndicadoresTorreon;
+namespace SMIIndicadoresLerdo;
 
 /**
- * Clase EconomiaTotalDeEmpresas
+ * Clase EconomiaTotalDeEmpresasRegistradasEnElSiem
  */
-class EconomiaTotalDeEmpresas extends \Base\Publicacion {
+class EconomiaTotalDeEmpresasRegistradasEnElSiem extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Total de Empresas en Torreón';
+        $this->nombre       = 'Total de Empresas registradas en el SIEM en Lerdo';
         $this->nombre_menu  = 'Indicadores';
-        $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economia-total-de-empresas';
+        $this->directorio   = 'indicadores-lerdo';
+        $this->archivo      = 'economia-total-de-empresas-registradas-en-el-siem';
         $this->descripcion  = '';
-        $this->claves       = 'Torreón, Empresas';
+        $this->claves       = 'Lerdo, Empresas';
         $this->categorias   = array('Empresas');
-        $this->region_nivel = 101;
+        $this->region_nivel = 121;
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
@@ -50,13 +50,13 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2013</td>
-            <td>6,671</td>
+            <td>158</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
           <tr>
             <td>31/07/2014</td>
-            <td>7,402</td>
+            <td>178</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
@@ -69,13 +69,13 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Total de Empresas en Torreón</h3>
+      <h3>Gráfica de Total de Empresas registradas en el SIEM en Lerdo</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Total de Empresas</h3>
+      <h3>Gráfica con los últimos datos de Total de Empresas registradas en el SIEM</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Total de Empresas</h3>
+      <h3>Últimos datos de Total de Empresas registradas en el SIEM</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -147,7 +147,7 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
       </table>
     </div>
     <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Total de Empresas</h3>
+      <h3>Páginas relacionadas con Total de Empresas registradas en el SIEM</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -237,6 +237,12 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
             <td>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.</td>
           </tr>
           <tr>
+            <td>28/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-laguna-metropoli-del-conocimiento.html">La Laguna: Metrópoli del Conocimiento</a></td>
+            <td>Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.</td>
+          </tr>
+          <tr>
             <td>16/04/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></td>
@@ -245,85 +251,55 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-apertura-de-negocios.html">Apertura de Negocios en Torreón</a></td>
-            <td>Número de días necesarios para el trámite de apertura de un negocio.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Torreón</a></td>
-            <td>Días transcurridos para la ejecución de un contrato.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-empresas-exportadoras.html">Empresas Exportadoras en Torreón</a></td>
+            <td><a href="../indicadores-lerdo/economia-empresas-exportadoras.html">Empresas Exportadoras en Lerdo</a></td>
             <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-grandes-empresas.html">Grandes Empresas en Torreón</a></td>
+            <td><a href="../indicadores-lerdo/economia-grandes-empresas.html">Grandes Empresas en Lerdo</a></td>
             <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-medianas-empresas.html">Medianas Empresas en Torreón</a></td>
+            <td><a href="../indicadores-lerdo/economia-medianas-empresas.html">Medianas Empresas en Lerdo</a></td>
             <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-microempresas.html">Microempresas en Torreón</a></td>
+            <td><a href="../indicadores-lerdo/economia-microempresas.html">Microempresas en Lerdo</a></td>
             <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-nuevas-empresas.html">Nuevas Empresas en Torreón</a></td>
-            <td>Número de nuevas empresas registradas en ventanilla universal en el periodo señalado.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-obtencion-de-credito---creacion-de-garantias.html">Obtención de crédito - Creación de garantías en Torreón</a></td>
-            <td>Días transcurridos en el proceso de obtención de un crédito.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-pequenas-empresas.html">Pequeñas Empresas en Torreón</a></td>
+            <td><a href="../indicadores-lerdo/economia-pequenas-empresas.html">Pequeñas Empresas en Lerdo</a></td>
             <td>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-permiso-de-construccion.html">Permiso de Construcción en Torreón</a></td>
-            <td>Número de días necesarios para conseguir un permiso de construcción.</td>
+            <td><a href="../indicadores-lerdo/economia-total-de-empresas.html">Total de Empresas en Lerdo</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-registro-de-propiedades.html">Registro de Propiedades en Torreón</a></td>
-            <td>Días que toma el trámite para el registro de una propiedad.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Torreón</a></td>
+            <td><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Lerdo</a></td>
             <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Torreón</a></td>
+            <td><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Lerdo</a></td>
             <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Torreón</a></td>
+            <td><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Lerdo</a></td>
             <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
           </tr>
         </tbody>
@@ -338,7 +314,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2013-12-31', dato: 6671 },{ fecha: '2014-07-31', dato: 7402 }],
+      data: [{ fecha: '2013-12-31', dato: 158 },{ fecha: '2014-07-31', dato: 178 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -369,6 +345,6 @@ $(document).ready(function(){
 FINAL;
     } // constructor
 
-} // Clase EconomiaTotalDeEmpresas
+} // Clase EconomiaTotalDeEmpresasRegistradasEnElSiem
 
 ?>

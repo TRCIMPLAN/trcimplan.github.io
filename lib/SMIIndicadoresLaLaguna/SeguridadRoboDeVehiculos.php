@@ -21,7 +21,7 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-la-laguna';
         $this->archivo      = 'seguridad-robo-de-vehiculos';
-        $this->descripcion  = 'Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014';
+        $this->descripcion  = 'Robo de vehículos con violencia y sin violencia cometidos en el mes';
         $this->claves       = 'La Laguna, Delincuencia, Seguridad';
         $this->categorias   = array('Delincuencia', 'Seguridad');
         $this->region_nivel = 401;
@@ -35,7 +35,7 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014</p>
+<p>Robo de vehículos con violencia y sin violencia cometidos en el mes</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -120,6 +120,12 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/01/2015</td>
+            <td>136</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -145,36 +151,36 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>58</td>
+            <td>2015-01-31</td>
+            <td>74</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-12-31</td>
-            <td>57</td>
+            <td>2015-01-31</td>
+            <td>52</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-12-31</td>
-            <td>5</td>
+            <td>2015-01-31</td>
+            <td>7</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-12-31</td>
-            <td>4</td>
+            <td>2015-01-31</td>
+            <td>3</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-12-31</td>
-            <td>124</td>
+            <td>2015-01-31</td>
+            <td>136</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -313,7 +319,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 224 },{ fecha: '2014-02-28', dato: 157 },{ fecha: '2014-03-31', dato: 147 },{ fecha: '2014-04-30', dato: 185 },{ fecha: '2014-05-31', dato: 186 },{ fecha: '2014-06-30', dato: 152 },{ fecha: '2014-07-31', dato: 148 },{ fecha: '2014-08-31', dato: 158 },{ fecha: '2014-09-30', dato: 166 },{ fecha: '2014-10-31', dato: 122 },{ fecha: '2014-11-30', dato: 137 },{ fecha: '2014-12-31', dato: 124 }],
+      data: [{ fecha: '2014-01-31', dato: 224 },{ fecha: '2014-02-28', dato: 157 },{ fecha: '2014-03-31', dato: 147 },{ fecha: '2014-04-30', dato: 185 },{ fecha: '2014-05-31', dato: 186 },{ fecha: '2014-06-30', dato: 152 },{ fecha: '2014-07-31', dato: 148 },{ fecha: '2014-08-31', dato: 158 },{ fecha: '2014-09-30', dato: 166 },{ fecha: '2014-10-31', dato: 122 },{ fecha: '2014-11-30', dato: 137 },{ fecha: '2014-12-31', dato: 124 },{ fecha: '2015-01-31', dato: 136 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -329,7 +335,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 58 },{ region: 'Gómez Palacio', dato: 57 },{ region: 'Lerdo', dato: 5 },{ region: 'Matamoros', dato: 4 },{ region: 'La Laguna', dato: 124 }],
+      data: [{ region: 'Torreón', dato: 74 },{ region: 'Gómez Palacio', dato: 52 },{ region: 'Lerdo', dato: 7 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 136 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

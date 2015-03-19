@@ -180,6 +180,12 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>10/03/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/efectos-informalidad-politicas-prevenirla.html">Efectos de la informalidad y políticas para prevenirla</a></td>
+            <td>La informalidad tiene repercusiones directas sobre la competitividad y el crecimiento económico. Es cierto que ocupa a población desempleada en el sector formal y sus insumos e inversión apoyan a la economía, sin embargo es mayor el daño generado en el crecimiento a largo plazo.</td>
+          </tr>
+          <tr>
             <td>06/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></td>

@@ -1,6 +1,6 @@
 <?php
 /**
- * EconomiaTotalDeEmpresas.php
+ * EconomiaTotalDeEmpresasRegistradasEnElSiem.php
  *
  * IMPLAN Torreón
  */
@@ -9,18 +9,18 @@
 namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase EconomiaTotalDeEmpresas
+ * Clase EconomiaTotalDeEmpresasRegistradasEnElSiem
  */
-class EconomiaTotalDeEmpresas extends \Base\Publicacion {
+class EconomiaTotalDeEmpresasRegistradasEnElSiem extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Total de Empresas en La Laguna';
+        $this->nombre       = 'Total de Empresas registradas en el SIEM en La Laguna';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-la-laguna';
-        $this->archivo      = 'economia-total-de-empresas';
+        $this->archivo      = 'economia-total-de-empresas-registradas-en-el-siem';
         $this->descripcion  = '';
         $this->claves       = 'La Laguna, Empresas';
         $this->categorias   = array('Empresas');
@@ -69,13 +69,13 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Total de Empresas en La Laguna</h3>
+      <h3>Gráfica de Total de Empresas registradas en el SIEM en La Laguna</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Total de Empresas</h3>
+      <h3>Gráfica con los últimos datos de Total de Empresas registradas en el SIEM</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Total de Empresas</h3>
+      <h3>Últimos datos de Total de Empresas registradas en el SIEM</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -147,7 +147,7 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
       </table>
     </div>
     <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Total de Empresas</h3>
+      <h3>Páginas relacionadas con Total de Empresas registradas en el SIEM</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -237,6 +237,12 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
             <td>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.</td>
           </tr>
           <tr>
+            <td>28/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-laguna-metropoli-del-conocimiento.html">La Laguna: Metrópoli del Conocimiento</a></td>
+            <td>Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.</td>
+          </tr>
+          <tr>
             <td>16/04/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></td>
@@ -271,6 +277,12 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/economia-pequenas-empresas.html">Pequeñas Empresas en La Laguna</a></td>
             <td>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-total-de-empresas.html">Total de Empresas en La Laguna</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>
@@ -333,6 +345,6 @@ $(document).ready(function(){
 FINAL;
     } // constructor
 
-} // Clase EconomiaTotalDeEmpresas
+} // Clase EconomiaTotalDeEmpresasRegistradasEnElSiem
 
 ?>

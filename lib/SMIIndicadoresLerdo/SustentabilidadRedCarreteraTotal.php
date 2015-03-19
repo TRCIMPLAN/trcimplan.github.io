@@ -119,6 +119,24 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>03/03/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/reciclaje-urbano.html">Reciclaje Urbano</a></td>
+            <td>Con en el reciclaje urbano, se han logrado grandes resultados al convertir zonas degradadas en nuevos barrios con gran potencial y desarrollo que se resulta un nuevo punto de interés para los habitantes y visitantes de la ciudad.</td>
+          </tr>
+          <tr>
+            <td>24/02/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ciudad-abierta-ciudad-fraccionada.html">Ciudad abierta y ciudad fraccionada</a></td>
+            <td>La fragmentación social y urbana provocada por desarrollos habitacionales “seguros” tiene efectos que agravan la percepción de la inseguridad en la ciudad.</td>
+          </tr>
+          <tr>
+            <td>11/02/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/direccionando-hacia-innovacion-urbana.html">Direccionando hacia la innovación urbana</a></td>
+            <td>Actualmente el concepto de ciudad inteligente o digital se maneja a nivel global. Muchas ciudades de este tipo se están desarrollando en diferentes lugares del mundo, cada una con su propio sistema, diseño, estructura y organización.</td>
+          </tr>
+          <tr>
             <td>10/02/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/nueva-infraestructura-base-tecnologia-led-torreon.html">Nueva infraestructura a base de tecnología LED en Torreón</a></td>
@@ -134,7 +152,7 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
             <td>13/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/ciudad-espacio-publico.html">Ciudad y Espacio Público</a></td>
-            <td>Actualmente  las teorías urbanas afirman que el buen diseño de calles puede promover calidad de vida para todos.</td>
+            <td>Actualmente las teorías urbanas afirman que el buen diseño de calles puede promover calidad de vida para todos.</td>
           </tr>
           <tr>
             <td>16/12/2014</td>
@@ -164,7 +182,7 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
             <td>19/11/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/bicimetro-innovacion-transporte-urbano.html">Bicimetro: La innovación del Transporte Urbano</a></td>
-            <td>Cada vez son más los ciudadanos que optan por dejar sus carros y se animan a desempolvar las bicicletas guardadas en los garajes y utilizarlas como medio de transporte ya sea habitual o por recreación..</td>
+            <td>Cada vez son más los ciudadanos que optan por dejar sus carros y se animan a desempolvar las bicicletas guardadas en los garajes y utilizarlas como medio de transporte ya sea habitual o por recreación.</td>
           </tr>
           <tr>
             <td>05/11/2014</td>

@@ -21,7 +21,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
         $this->archivo      = 'seguridad-secuestros';
-        $this->descripcion  = 'Cantidad de secuestros en el primer trimestre de 2014';
+        $this->descripcion  = 'Cantidad de secuestros en el mes';
         $this->claves       = 'Gómez Palacio, Delincuencia, Seguridad';
         $this->categorias   = array('Delincuencia', 'Seguridad');
         $this->region_nivel = 111;
@@ -34,7 +34,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Cantidad de secuestros en el primer trimestre de 2014</p>
+<p>Cantidad de secuestros en el mes</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -95,6 +95,12 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/01/2015</td>
+            <td>NO TIENE</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -116,35 +122,35 @@ class SeguridadSecuestros extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
+            <td>2015-01-31</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-12-31</td>
+            <td>2015-01-31</td>
             <td>NO TIENE</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-12-31</td>
+            <td>2015-01-31</td>
             <td>NO TIENE</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-12-31</td>
+            <td>2015-01-31</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-12-31</td>
+            <td>2015-01-31</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>

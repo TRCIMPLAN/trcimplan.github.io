@@ -1,30 +1,30 @@
 <?php
 /**
- * EconomiaTotalDeEmpresas.php
+ * EconomiaTotalDeEmpresasRegistradasEnElSiem.php
  *
  * IMPLAN Torreón
  */
 
 // Namespace
-namespace SMIIndicadoresMatamoros;
+namespace SMIIndicadoresGomezPalacio;
 
 /**
- * Clase EconomiaTotalDeEmpresas
+ * Clase EconomiaTotalDeEmpresasRegistradasEnElSiem
  */
-class EconomiaTotalDeEmpresas extends \Base\Publicacion {
+class EconomiaTotalDeEmpresasRegistradasEnElSiem extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Total de Empresas en Matamoros';
+        $this->nombre       = 'Total de Empresas registradas en el SIEM en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
-        $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'economia-total-de-empresas';
+        $this->directorio   = 'indicadores-gomez-palacio';
+        $this->archivo      = 'economia-total-de-empresas-registradas-en-el-siem';
         $this->descripcion  = '';
-        $this->claves       = 'Matamoros, Empresas';
+        $this->claves       = 'Gómez Palacio, Empresas';
         $this->categorias   = array('Empresas');
-        $this->region_nivel = 131;
+        $this->region_nivel = 111;
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
@@ -50,13 +50,13 @@ class EconomiaTotalDeEmpresas extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2013</td>
-            <td>166</td>
+            <td>1,942</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
           <tr>
             <td>31/07/2014</td>
-            <td>173</td>
+            <td>2,032</td>
             <td>Sistema de Información Empresarial Mexicano (SIEM)</td>
             <td></td>
           </tr>
@@ -69,13 +69,13 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Total de Empresas en Matamoros</h3>
+      <h3>Gráfica de Total de Empresas registradas en el SIEM en Gómez Palacio</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Total de Empresas</h3>
+      <h3>Gráfica con los últimos datos de Total de Empresas registradas en el SIEM</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Total de Empresas</h3>
+      <h3>Últimos datos de Total de Empresas registradas en el SIEM</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -147,7 +147,7 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
       </table>
     </div>
     <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Total de Empresas</h3>
+      <h3>Páginas relacionadas con Total de Empresas registradas en el SIEM</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -237,6 +237,12 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
             <td>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.</td>
           </tr>
           <tr>
+            <td>28/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-laguna-metropoli-del-conocimiento.html">La Laguna: Metrópoli del Conocimiento</a></td>
+            <td>Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.</td>
+          </tr>
+          <tr>
             <td>16/04/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></td>
@@ -245,49 +251,55 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-empresas-exportadoras.html">Empresas Exportadoras en Matamoros</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-empresas-exportadoras.html">Empresas Exportadoras en Gómez Palacio</a></td>
             <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-grandes-empresas.html">Grandes Empresas en Matamoros</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-grandes-empresas.html">Grandes Empresas en Gómez Palacio</a></td>
             <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-medianas-empresas.html">Medianas Empresas en Matamoros</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-medianas-empresas.html">Medianas Empresas en Gómez Palacio</a></td>
             <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-microempresas.html">Microempresas en Matamoros</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-microempresas.html">Microempresas en Gómez Palacio</a></td>
             <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-pequenas-empresas.html">Pequeñas Empresas en Matamoros</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-pequenas-empresas.html">Pequeñas Empresas en Gómez Palacio</a></td>
             <td>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Matamoros</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-total-de-empresas.html">Total de Empresas en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Gómez Palacio</a></td>
             <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Matamoros</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Gómez Palacio</a></td>
             <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Matamoros</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Gómez Palacio</a></td>
             <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
           </tr>
         </tbody>
@@ -302,7 +314,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2013-12-31', dato: 166 },{ fecha: '2014-07-31', dato: 173 }],
+      data: [{ fecha: '2013-12-31', dato: 1942 },{ fecha: '2014-07-31', dato: 2032 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -333,6 +345,6 @@ $(document).ready(function(){
 FINAL;
     } // constructor
 
-} // Clase EconomiaTotalDeEmpresas
+} // Clase EconomiaTotalDeEmpresasRegistradasEnElSiem
 
 ?>
