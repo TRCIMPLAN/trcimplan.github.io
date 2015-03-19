@@ -31,26 +31,33 @@ class DOTDesarrolloOrientadoTransporte extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'DOT: Desarrollo Orientado al Transporte';
         $this->autor            = 'Ing. Luis Campos Hinojosa';
-        $this->fecha            = '2014-11-05';
+        $this->fecha            = '2014-11-05T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'dot-desarrollo-orientado-transporte';
-        $this->imagen_previa    = 'dot-desarrollo-orientado-transporte/imagen-previa.png';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="dot-desarrollo-orientado-transporte/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
+        $this->imagen_previa    = 'dot-desarrollo-orientado-transporte/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'En las últimas décadas, han surgido nuevos modelos urbanos que retoman el componente humano como eje principal de la planeación, buscando el equilibrio entre una ciudad altamente competitiva pero con servicios e infraestructura orientada al confort y las necesidades del ser humano.';
         $this->claves           = 'IMPLAN, Torreon, Trasporte';
         $this->categorias       = array('Transporte', 'Infraestructura', 'Vialidad');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido        = <<<FINAL
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'dot-desarrollo-orientado-transporte/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
+
 <span class="contenido-imagen-previa"><img src="dot-desarrollo-orientado-transporte/imagen.png"></span>
 
 <blockquote>
@@ -114,8 +121,10 @@ class DOTDesarrolloOrientadoTransporte extends \Base\Publicacion {
 </blockquote>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase DOTDesarrolloOrientadoTransporte

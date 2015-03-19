@@ -63,6 +63,62 @@ class SchemaThing {
     } // fecha_con_formato_humano
 
     /**
+     * Image HTML
+     *
+     * @return string Código HTML
+     */
+    protected function image_html() {
+        if ($this->image != '') {
+            return "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\">";
+        } else {
+            return '';
+        }
+    } // image_html
+
+    /**
+     * Title HTML
+     *
+     * @return string Código HTML
+     */
+    protected function title_html() {
+        if ($this->name != '') {
+            return "  <h3 class=\"titulo\" itemprop=\"name\">{$this->name}</h3>";
+        } else {
+            throw new \Exception('Error en SchemaThing, title_html: La propiedad name es incorrecta.');
+        }
+    } // title_html
+
+    /**
+     * Description HTML
+     *
+     * @return string Código HTML
+     */
+    protected function description_html() {
+        if ($this->description != '') {
+            return "  <div class=\"descripcion\" itemprop=\"description\">{$this->description}</div>";
+        } else {
+            return '';
+        }
+    } // description_html
+
+    /**
+     * URL HTML
+     *
+     * @return string Código HTML
+     */
+    protected function url_html() {
+        if ($this->url != '') {
+            if ($this->url_label != '') {
+                return "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->url_label}</a>";
+            } else {
+                return "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->name}</a>";
+            }
+        } else {
+            return '';
+        }
+    } // url_html
+
+    /**
      * HTML
      *
      * @return string Código HTML
@@ -70,35 +126,16 @@ class SchemaThing {
     public function html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular inicia
+        // Acumular
         if ($this->onTypeProperty != '') {
             $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Thing\">";
         } else {
             $a[] = '<div itemscope itemtype="http://schema.org/Thing">';
         }
-        // Imagen
-        if ($this->image != '') {
-            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
-        }
-        // Título
-        if ($this->name != '') {
-            $a[] = "  <h3 class=\"titulo\" itemprop=\"name\">{$this->name}</h3>";
-        } else {
-            throw new \Exception('Error en SchemaThing, html: La propiedad name es incorrecta.');
-        }
-        // Descripción
-        if ($this->description != '') {
-            $a[] = "  <div class=\"descripcion\" itemprop=\"description\">{$this->description}</div>";
-        }
-        // URL
-        if ($this->url != '') {
-            if ($this->url_label != '') {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->url_label}</a>";
-            } else {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->name}</a>";
-            }
-        }
-        // Acumular termina
+        $a[] = $this->image_html();
+        $a[] = $this->title_html();
+        $a[] = $this->description_html();
+        $a[] = $this->url_html();
         $a[] = '</div>';
         // Entregar
         return implode("\n", $a);

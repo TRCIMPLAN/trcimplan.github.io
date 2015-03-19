@@ -42,6 +42,33 @@ class SchemaPlace extends SchemaThing {
     public $telephone;         // Text. The telephone number.
 
     /**
+     * Geo HTML
+     *
+     * @return string Código HTML
+     */
+    protected function geo_html() {
+        if ($this->geo instanceof SchemaGeoCoordinates) {
+            $this->geo->onTypeProperty = 'geo';
+            return $this->geo->html();
+        } else {
+            throw new \Exception('Error en SchemaPlace, geo_html: La propiedad geo no es instancia de SchemaGeoCoordinates');
+        }
+    } // geo_html
+
+    /**
+     * Telephone HTML
+     *
+     * @return string Código HTML
+     */
+    protected function telephone_html() {
+        if ($this->telephone != '') {
+            return "  <div>Teléfono: <span itemprop=\"telephone\">{$this->telephone}</span></div>";
+        } else {
+            return '';
+        }
+    } // telephone_html
+
+    /**
      * HTML
      *
      * @return string Código HTML
@@ -49,46 +76,18 @@ class SchemaPlace extends SchemaThing {
     public function html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular inicia
+        // Acumular
         if ($this->onTypeProperty != '') {
             $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Place\">";
         } else {
             $a[] = '<div itemscope itemtype="http://schema.org/Place">';
         }
-        // Imagen
-        if ($this->image != '') {
-            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
-        }
-        // Título
-        if ($this->name != '') {
-            $a[] = "  <h3 class=\"titulo\" itemprop=\"name\">{$this->name}</h3>";
-        } else {
-            throw new \Exception('Error en SchemaPlace, html: La propiedad name es incorrecta.');
-        }
-        // Descripción
-        if ($this->description != '') {
-            $a[] = "  <div class=\"descripcion\" itemprop=\"description\">{$this->description}</div>";
-        }
-        // Geo
-        if ($this->geo instanceof SchemaGeoCoordinates) {
-            $this->geo->onTypeProperty = 'geo';
-            $a[] = $this->geo->html();
-        } else {
-            throw new \Exception('Error en SchemaPlace, html: La propiedad geo no es instancia de SchemaGeoCoordinates');
-        }
-        // URL
-        if ($this->url != '') {
-            if ($this->url_label != '') {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->url_label}</a>";
-            } else {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->name}</a>";
-            }
-        }
-        // Teléfono
-        if ($this->telephone != '') {
-            $a[] = "  <div>Teléfono: <span itemprop=\"telephone\">{$this->telephone}</span></div>";
-        }
-        // Acumular termina
+        $a[] = $this->image_html();
+        $a[] = $this->title_html();
+        $a[] = $this->description_html();
+        $a[] = $this->geo_html();
+        $a[] = $this->url_html();
+        $a[] = $this->telephone_html();
         $a[] = '</div>';
         // Entregar
         return implode("\n", $a);

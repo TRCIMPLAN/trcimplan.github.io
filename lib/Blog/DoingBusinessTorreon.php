@@ -31,18 +31,33 @@ class DoingBusinessTorreon extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-29';
-        $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->nombre        = 'Doing Business en Torreón';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'doing-business-torreon';
-        $this->descripcion   = 'Este índice sirve para señalar en cual ciudad es más fácil hacer negaocios. En 2007, el municipio de Torreón ocupó el lugar 13 de 32 ciudades evaluadas.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'doing-business-torreon/imagen-previa.jpg';
-        $this->categorias    = array('Competitividad', 'Empresas', 'Macroeconomía', 'Doing Business');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
+        // Título, autor y fecha
+        $this->nombre           = 'Doing Business en Torreón';
+        $this->autor            = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha            = '2014-05-29T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'doing-business-torreon';
+        $this->imagen_previa    = 'doing-business-torreon/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Este índice sirve para señalar en cual ciudad es más fácil hacer negaocios. En 2007, el municipio de Torreón ocupó el lugar 13 de 32 ciudades evaluadas.';
+        $this->claves           = 'IMPLAN, Torreon, Doing Business';
+        $this->categorias       = array('Competitividad', 'Empresas', 'Doing Business');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'doing-business-torreon/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
+
 <span class="contenido-imagen-previa"><img src="doing-business-torreon/imagen.jpg"></span>
 
 <p>El índice Doing Business en México 2014 fue presentado hoy en la Ciudad de México y publicado en el sitio oficial del proyecto del Banco Mundial, indicándonos en cuál ciudad es más fácil hacer negocios. El ranking evalúa a 32 ciudades de la república, una por cada entidad federativa en las áreas de: apertura de negocio, permiso de construcción, registro de propiedad y cumplimiento de contratos. En cada una de las áreas se califican factores como el número de trámites necesarios y los días y costos en que se incurre. El estudio fue realizado entre octubre de 2011 y Octubre de 2013.</p>
@@ -94,9 +109,12 @@ class DoingBusinessTorreon extends \Base\Publicacion {
 <p>Los retos que presentan los indicadores para nuestro municipio abarcan aspectos tales como la mejora normativa municipal, la gestión para mejora regulatoria estatal, eficiencia judicial para el caso de ejecución de contratos e implementación de estrategias para la reducción de tramites con el uso de herramientas tecnológicas. Por ejemplo, en el caso específico de los permisos de construcción algunas medidas recomendadas son la digitalización de la cartografía y el mejorar la comunicación entre las dependencias gubernamentales.</p>
 
 <p>C-Estrategia, consultora responsable del estudio en México anunció la posibilidad de que el estudio comience a realizarse anualmente por lo cual estamos en tiempo de emprender las políticas públicas necesarias.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase DoingBusinessTorreon

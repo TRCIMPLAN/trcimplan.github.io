@@ -31,25 +31,33 @@ class DinamicaPIBPerCapitaLaguna extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre        = 'Dinámica del PIB per cápita de La Laguna (IRAEs Banamex 2011,2014)';
-        $this->autor         = 'Lic. Eduardo Holguín Zehfuss';
-        $this->fecha         = '2014-09-26';
+        // Título, autor y fecha
+        $this->nombre           = 'Dinámica del PIB per cápita de La Laguna (IRAEs Banamex 2011,2014)';
+        $this->autor            = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha            = '2014-09-26T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo       = 'dinamica-pib-per-capita-laguna';
-        $this->imagen_previa = 'dinamica-pib-per-capita-laguna/imagen-previa.jpg';
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="dinamica-pib-per-capita-laguna/encabezado.jpg">';
+        $this->archivo          = 'dinamica-pib-per-capita-laguna';
+        $this->imagen_previa    = 'dinamica-pib-per-capita-laguna/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = 'Entre los indicadores Banamex de 2011 y 2014 el PIB per cápita de La Laguna creció 22.82%.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Empresas', 'Macroeconomía');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio    = 'blog';
-        $this->nombre_menu   = 'Análisis Publicados';
-        // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
-        $this->estado        = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido     = <<<FINAL
+        $this->descripcion      = 'Entre los indicadores Banamex de 2011 y 2014 el PIB per cápita de La Laguna creció 22.82%.';
+        $this->claves           = 'IMPLAN, Torreon, PIB, Laguna';
+        $this->categorias       = array('Empresas', 'Macroeconomía');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'dinamica-pib-per-capita-laguna/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
+
 <span class="contenido-imagen-previa"><img src="dinamica-pib-per-capita-laguna/imagen.jpg"></span>
 
 <p>De acuerdo a los Indicadores Regionales de Actividad Económica de Banamex (IRAEs) 2011, 2014 el <strong>PIB de La Laguna (Zona Metropolitana)</strong> creció de 145.3 Miles de millones de pesos a 191.8 Mmp; es decir, <strong>subió 32%</strong> (IRAEs Banamex 2011,2014).</p>
@@ -79,9 +87,12 @@ class DinamicaPIBPerCapitaLaguna extends \Base\Publicacion {
     <li>LA ESTIMACIÓN 2008 QUE ALTERA LA TENDENCIA PUBLICADA POR EL SIGLO DE TORREÓN NO INDICA METODOLOGÍA ALGUNA, LO CUAL PONE EN DUDA SU ANÁLISIS.</li>
     <li>DESTACA EL HECHO DE QUE INFORMACIÓN DEL IMCO MUESTRA UNA TENDENCIA DE CRECIMIENTO DEL PIB DE LA LAGUNA Y DEL PIB DE TORREÓN. DE ACUERDO A LA BASE DE DATOS DEL ÚLTIMO ÍNDICE DE COMPETITIVIDAD URBANA DEL 2008 A 2012 EL PIB DE LA ZONA METROPOLITANA DE LA LAGUNA AUMENTO 8.42% Y LA DE TORREÓN 7.91%. LA COINCIDENCIA DE TENDENCIAS ENTRE EL IMCO Y BANAMEX, AMBAS INSTITUCIONES ESPECIALIZADAS Y CON AMPLIO RECONOCIMIENTO EN EL TEMA, NOS BRINDA CERTEZA DE QUE NO HAY INDICIOS DE UNA SUPUESTA CAÍDA EN LA RIQUEZA REGIONAL, SINO AL CONTRARIO LA INFERENCIA ES A LA ALZA.</li>
 </ul>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase DinamicaPIBPerCapitaLaguna

@@ -31,26 +31,33 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Datos Abiertos en los Gobiernos Municipales';
         $this->autor            = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha            = '2014-11-04';
+        $this->fecha            = '2014-11-04T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'datos-abiertos-gobiernos-municipales';
         $this->imagen_previa    = 'datos-abiertos-gobiernos-municipales/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="datos-abiertos-gobiernos-municipales/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.';
-        $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Transparencia', 'Finanzas Públicas', 'Gobierno Digital');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        $this->claves           = 'IMPLAN, Torreon, Datos Abiertos, Gobierno Abierto';
+        $this->categorias       = array('Transparencia', 'Gobierno Digital');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido        = <<<FINAL
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'datos-abiertos-gobiernos-municipales/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
+
 <span class="contenido-imagen-previa"><img src="datos-abiertos-gobiernos-municipales/imagen.jpg"></span>
 
 <p>No cabe duda que estamos en la <b>época dorada de la información</b>. Nunca antes, la mayor parte de la humanidad había tenido en sus manos tantos documentos, audios, videos, etc. Sean lejanos o cercanos; con un tiempo de solicitud y llegada de pocos segundos (desde que escribimos y damos <i>ENTER</i> en un dispositivo conectado al <b>Internet</b>); además, comparado a otros tiempos, con un costo muy bajo. La <b>red de redes</b> es un cambio tan trascendental como la revolución industrial de principios del siglo pasado.</p>
@@ -167,8 +174,10 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
 <p>Hay contacto frecuente con los funcionarios de los municipios de la Zona Metropolitana de La Laguna. En las agendas de trabajo se tiene como prioridad la cooperación mutua para hacer llegar al ciudadano la información que necesita; y el ofrecimiento del staff del IMPLAN para su apoyo.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase DatosAbiertosGobiernosMunicipales
