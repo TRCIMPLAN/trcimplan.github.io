@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img src="direccionando-hacia-innovacion-urbana/imagen.jpg"></span>
-
 Actualmente el concepto de ciudad inteligente o digital se maneja a nivel global. Muchas ciudades de este tipo se están desarrollando en diferentes lugares del mundo, cada una con su propio sistema, diseño, estructura y organización. Este concepto nace hace dos décadas como respuesta a la problemática de sostenibilidad y a la deficiencia energética. Recientemente se ha ampliado el concepto a la infraestructura de las Tecnologías de Información y Comunicación (TIC´s). La ciudad de Torreón no es ajena a este concepto, cuenta con una gran área de oportunidad para desarrollarse en una forma ordenada y se traduzca en beneficios para sus ciudadanos.
 
 Greenfield afirma, que las ciudades ya son inteligentes sin necesidad de las soluciones tecnológicas que venden IBM, Siemens, Cisco y demás y que esta inteligencia reside en sus ciudadanos.  Su invitación es que aquellos que estamos en el diseño y la gestión de la ciudad debemos centrar las acciones en el componente humano de la ciudad. (1)

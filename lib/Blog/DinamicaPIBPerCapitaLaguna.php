@@ -58,8 +58,6 @@ class DinamicaPIBPerCapitaLaguna extends \Base\Publicacion {
         $schema->datePublished  = $this->fecha;
         $schema->articleBody    = <<<FINAL
 
-<span class="contenido-imagen-previa"><img src="dinamica-pib-per-capita-laguna/imagen.jpg"></span>
-
 <p>De acuerdo a los Indicadores Regionales de Actividad Económica de Banamex (IRAEs) 2011, 2014 el <strong>PIB de La Laguna (Zona Metropolitana)</strong> creció de 145.3 Miles de millones de pesos a 191.8 Mmp; es decir, <strong>subió 32%</strong> (IRAEs Banamex 2011,2014).</p>
 
 <ul>

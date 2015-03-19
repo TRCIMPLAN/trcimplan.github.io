@@ -58,8 +58,6 @@ class DOTDesarrolloOrientadoTransporte extends \Base\Publicacion {
         $schema->datePublished  = $this->fecha;
         $schema->articleBody    = <<<FINAL
 
-<span class="contenido-imagen-previa"><img src="dot-desarrollo-orientado-transporte/imagen.png"></span>
-
 <blockquote>
     <p>"La naturaleza la prepara el sitio, y el hombre lo organiza de tal manera que satisfaga sus necesidades y deseos"</p>
     <p class="pull-right">Vidal de la Blache</p>

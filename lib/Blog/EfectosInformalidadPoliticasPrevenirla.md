@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="efectos-informalidad-politicas-prevenirla/imagen.jpg" alt="Informalidad"></span>
-
 Debido a que la **informalidad** abarca todas las **actividades económicas realizadas fuera del marco de la ley** no existe una forma única de definirla. Por esta razón podemos dividirla bajo distintos criterios: la falta de registro de la empresa ante las autoridades, la condición del empleo y la producción o utilidad no declarada, entre otras. En México la forma más común de medir la informalidad laboral es usando la proporción de trabajadores registrados con prestaciones del sector salud respecto al total de las personas económicamente activas.
 
 Cualquiera de estas clases de informalidad tiene repercusiones directas sobre la competitividad y el crecimiento económico. Es cierto que la informalidad ocupa a población desempleada en el sector formal y sus insumos e inversión apoyan a la economía, sin embargo es mayor el daño generado en el crecimiento a largo plazo. **Algunos de sus efectos económicos más nocivos** se listan a continuación:

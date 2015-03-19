@@ -57,6 +57,7 @@ class AperturaEmpresas2014 extends \Base\Publicacion {
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
         $schema->articleBody    = <<<FINAL
+
 <p>La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año en el mes de julio. Datos obtenidos de Dirección de Apertura de Empresas y Ventanilla Universal de la Dirección General de Desarrollo Económico, muestran que durante los primeros siete meses del año 2014 se han creado 997 nuevas empresas, de las cuales 329 fueron creadas en julio, cifra superior a las 128 registradas en julio de 2013.</p>
 
 <img class="img-responsive contenido-imagen" src="apertura-empresas-2014/01-apertura-empresas-2014.png" alt="Apertura de Empresas en Torreón en 2014">
@@ -70,6 +71,7 @@ class AperturaEmpresas2014 extends \Base\Publicacion {
 <p>Si bien el 2014 no fue el mejor año en la creación de nuevas empresas, sí lo ha sido en la generación de empleos. Una encuesta realizada por Ventanilla Universal a los contribuyentes durante el proceso de apertura revela que el número aproximado de empleos creados a partir de los nuevos negocios es de 6,193 en lo que va del año. La cantidad es mayor a la de los cinco años anteriores:</p>
 
 <img class="img-responsive contenido-imagen" src="apertura-empresas-2014/04-aproximacion-empleos-generados.png" alt="Aproximación de Empleos Generados en Torreón de 2009 a 2014">
+
 FINAL;
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;

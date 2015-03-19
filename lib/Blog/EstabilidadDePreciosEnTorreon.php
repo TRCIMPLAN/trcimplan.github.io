@@ -31,19 +31,32 @@ class EstabilidadDePreciosEnTorreon extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-04-25';
-        $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->nombre        = 'Estabilidad de Precios en Torreón';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'estabilidad-de-precios-en-torreon';
-        $this->descripcion   = 'En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'estabilidad-de-precios-en-torreon/imagen-previa.jpg';
-        $this->categorias    = array('Macroeconomía', 'Mercados');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="estabilidad-de-precios-en-torreon/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Estabilidad de Precios en Torreón';
+        $this->autor            = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha            = '2014-04-25T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'estabilidad-de-precios-en-torreon';
+        $this->imagen_previa    = 'estabilidad-de-precios-en-torreon/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.';
+        $this->claves           = 'IMPLAN, Torreon, Inflación, Productividad, Laboral';
+        $this->categorias       = array('Macroeconomía', 'Mercados');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'estabilidad-de-precios-en-torreon/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Durante el primer trimestre del 2014 el municipio de Torreón, Coahuila registró una variación porcentual de 1.66 en el Índice Nacional de Precios al Consumidor (INPC), mientras que la variación nacional fue de 1.43%. La inflación registrada en Torreón con respecto al primer trimestre del año pasado es de 3.78%, muy similar a la inflación nacional de 3.76% (INEGI, 2014). Una inflación mesurada como ésta incentiva la producción y disminuye el desempleo. Sin embargo, hay otros factores que deben tomarse en cuenta, como el nivel de ingresos, las tasas de interés y las causas de la inflación. </p>
 
@@ -119,9 +132,12 @@ class EstabilidadDePreciosEnTorreon extends \Base\Publicacion {
 <p>Como se muestra en el cuadro las tasas inflacionarias fueron considerablemente menores a las del año pasado, a excepción de las tasas de electricidad y combustibles en donde los precios se dispararon 85.14% después de haber disminuido 1.28%. </p>
 
 <p>Podemos concluir que la inflación de Torreón no está dañando el poder adquisitivo de los consumidores. En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase EstabilidadDePreciosEnTorreon

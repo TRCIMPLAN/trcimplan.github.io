@@ -58,8 +58,6 @@ class DoingBusinessTorreon extends \Base\Publicacion {
         $schema->datePublished  = $this->fecha;
         $schema->articleBody    = <<<FINAL
 
-<span class="contenido-imagen-previa"><img src="doing-business-torreon/imagen.jpg"></span>
-
 <p>El índice Doing Business en México 2014 fue presentado hoy en la Ciudad de México y publicado en el sitio oficial del proyecto del Banco Mundial, indicándonos en cuál ciudad es más fácil hacer negocios. El ranking evalúa a 32 ciudades de la república, una por cada entidad federativa en las áreas de: apertura de negocio, permiso de construcción, registro de propiedad y cumplimiento de contratos. En cada una de las áreas se califican factores como el número de trámites necesarios y los días y costos en que se incurre. El estudio fue realizado entre octubre de 2011 y Octubre de 2013.</p>
 
 <p>El municipio de Torreón se encuentra dentro de las 32 ciudades calificadas en el índice, lo que nos permite comparar la facilidad de hacer negocios con otras ciudades de la república y del mundo, además de observar la evolución de los indicadores a través del tiempo. Al evaluar una ciudad de cada Estado, se está evaluando entro otros aspectos las leyes de cada uno de los estados y no sólo la normativa municipal. A continuación se presenta un breve resumen de los resultados en los tres último reportes publicados en 2007, 2012 y 2014.</p>

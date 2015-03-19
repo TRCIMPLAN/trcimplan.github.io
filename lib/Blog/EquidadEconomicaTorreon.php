@@ -31,19 +31,32 @@ class EquidadEconomicaTorreon extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-04-03';
-        $this->autor         = 'Lic. Alicia Valdez Ibarra';
-        $this->nombre        = 'Equidad Económica en Torreón';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'equidad-economica-torreon';
-        $this->descripcion   = 'Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'equidad-economica-torreon/imagen-previa.jpg';
-        $this->categorias    = array('Macroeconomía', 'Grupos Vulnerables', 'Población');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="equidad-economica-torreon/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Equidad Económica en Torreón';
+        $this->autor            = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha            = '2014-04-03T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'equidad-economica-torreon';
+        $this->imagen_previa    = 'equidad-economica-torreon/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.';
+        $this->claves           = 'IMPLAN, Torreon, Igualdad, Género, Gini, Distribución, Riqueza';
+        $this->categorias       = array('Macroeconomía', 'Grupos Vulnerables', 'Población');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'equidad-economica-torreon/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social. De acuerdo al Índice de Gini, el principal indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad, estamos en mejores condiciones que el promedio del país. Incluso para estándares globales, nuestro coeficiente de Gini de 0.45 es relativamente bueno, tomando en cuenta a otros países de América Latina como Chile y Brasil los cuales se encuentran por arriba del 0.50, mientras algunos otros como Argentina y Estados Unidos tienen índices de 0.445 en 2010 y 0.45 en 2007 respectivamente (CIA Factbook 2014, The World Bank 2014).</p>
 
@@ -212,7 +225,12 @@ Fuente: CONEVAL</p>
 Fuente: CONEVAL</p>
 
 <p>Aun cuando nos encontramos en niveles “aceptables” de igualdad de ingresos, lo cierto es que no nos encontramos en una situación ideal. Si tomáramos en cuenta únicamente los municipios con bajo nivel de marginación y después los ordenáramos basándonos en sus índices de Gini, Torreón se ubicaría en el lugar 1,072 de los 1,192 municipios que cumplen con el filtro. Esto nos muestra cuánto nos falta por mejorar en cuestiones de igualdad.</p>
+
 FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase EquidadEconomicaTorreon

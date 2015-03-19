@@ -1,5 +1,5 @@
 
-El día de hoy **18 de marzo del 2015** durante la sexta sesión del primer periodo ordinario del primer año de ejercicio constitucional, la **LX Legislatura del Congreso del Estado De Coahuila**, en el Salón de Sesiones del Palacio Legislativo **fue aprobada la creación del IMPLAN Torreón como un organismo público descentralizado**, con personalidad jurídica y patrimonio propio, cumpliendo así con un importante paso hacia el crecimiento planeado y con visión de futuro de nuestra ciudad.
+El día **18 de marzo del 2015** durante la sexta sesión del primer periodo ordinario del primer año de ejercicio constitucional, la **LX Legislatura del Congreso del Estado De Coahuila**, en el Salón de Sesiones del Palacio Legislativo **fue aprobada la creación del IMPLAN Torreón como un organismo público descentralizado**, con personalidad jurídica y patrimonio propio, cumpliendo así con un importante paso hacia el crecimiento planeado y con visión de futuro de nuestra ciudad.
 
 El **IMPLAN Torreón** es un órgano técnico consultivo para el Ayuntamiento con la prioridad de lograr una planificación estratégica que busque un desarrollo sustentable y posicione a nuestra ciudad como una metrópoli globalmente competitiva. De igual forma busca integrar a todos los sectores de la población y gobierno para en conjunto lograr mejorar la calidad de vida de sus habitantes.
 
