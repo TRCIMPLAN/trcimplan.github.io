@@ -1,8 +1,8 @@
 <?php
-/**
- * TrcIMPLAN Sitio Web - Schema Government Organization
+/*
+ * TrcIMPLAN Sitio Web - Encabezado
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2015 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,15 +20,12 @@
  */
 
 // Namespace
-namespace Base;
+namespace Inicial;
 
 /**
- * Clase SchemaGovernmentOrganization
- *
- * A governmental organization or agency.
- * http://schema.org/GovernmentOrganization
+ * Clase Organizacion
  */
-class SchemaGovernmentOrganization extends SchemaOrganization {
+class Organizacion extends \Base\SchemaGovernmentOrganization {
 
     // public $onTypeProperty; // Text. Use when this item is part of another one.
     // public $description;    // Text. A short description of the item.
@@ -47,38 +44,29 @@ class SchemaGovernmentOrganization extends SchemaOrganization {
         $a = array();
         // Acumular inicia
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/GovernmentOrganization\">";
+            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/GovernmentOrganization\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/GovernmentOrganization">';
+            $a[] = '  <div itemscope itemtype="http://schema.org/GovernmentOrganization">';
         }
         // Propiedad image
         if ($this->image != '') {
-            $a[] = "  <img class=\"imagen-previa\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\">";
+            $a[] = "    <img class=\"organizacion-logotipo\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\">";
         }
         // Propiedad name
         if ($this->name != '') {
-            $a[] = "  <h3 class=\"titulo\" itemprop=\"name\">{$this->name}</h3>";
+            $a[] = "    <h3 class=\"organizacion-titulo\" itemprop=\"name\">{$this->name}</h3>";
         } else {
-            throw new \Exception('Error en SchemaGovernmentOrganization, html: La propiedad name es incorrecta.');
+            throw new \Exception('Error en Organizacion, html: La propiedad name es incorrecta.');
         }
         // Propiedad description
         if ($this->description != '') {
-            $a[] = "  <div class=\"descripcion\" itemprop=\"description\">{$this->description}</div>";
+            $a[] = "    <div class=\"organizacion-descripcion\" itemprop=\"description\">{$this->description}</div>";
         }
-        // Propiedad url
-        if ($this->url != '') {
-            if ($this->url_label != '') {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->url_label}</a>";
-            } else {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->name}</a>";
-            }
-        }
-        // Acumular termina
-        $a[] = '</div>';
+        $a[] = '  </div>';
         // Entregar
         return implode("\n", $a);
     } // html
 
-} // Clase SchemaGovernmentOrganization
+} // Clase Organizacion
 
 ?>

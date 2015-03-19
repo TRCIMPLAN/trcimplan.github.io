@@ -25,6 +25,7 @@ namespace Base;
 /**
  * Clase SchemaThing
  *
+ * The most generic type of item.
  * http://schema.org/Thing
  */
 class SchemaThing {
@@ -33,6 +34,8 @@ class SchemaThing {
     public $description;    // Text. A short description of the item.
     public $image;          // URL or ImageObject. An image of the item.
     public $name;           // Text. The name of the item.
+    public $url;            // URL of the item.
+    public $url_label;      // Label for the URL of the item.
 
     /**
      * Fecha con formato humano
@@ -78,14 +81,22 @@ class SchemaThing {
             $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
         }
         // Título
-        if (is_string($this->name) && ($this->name != '')) {
-            $a[] = "  <h3 itemprop=\"name\">{$this->name}</h3>";
+        if ($this->name != '') {
+            $a[] = "  <h3 class=\"titulo\" itemprop=\"name\">{$this->name}</h3>";
         } else {
-            throw new \Exception('Error en SchemaThing, html: La propiedad name y/o headline es incorrecta.');
+            throw new \Exception('Error en SchemaThing, html: La propiedad name es incorrecta.');
         }
         // Descripción
         if ($this->description != '') {
-            $a[] = "  <div itemprop=\"description\">{$this->description}</div>";
+            $a[] = "  <div class=\"descripcion\" itemprop=\"description\">{$this->description}</div>";
+        }
+        // URL
+        if ($this->url != '') {
+            if ($this->url_label != '') {
+                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->url_label}</a>";
+            } else {
+                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->name}</a>";
+            }
         }
         // Acumular termina
         $a[] = '</div>';

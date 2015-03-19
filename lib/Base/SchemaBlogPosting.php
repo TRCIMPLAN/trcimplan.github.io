@@ -25,6 +25,7 @@ namespace Base;
 /**
  * Clase SchemaBlogPosting
  *
+ * A blog post.
  * http://schema.org/BlogPosting
  */
 class SchemaBlogPosting extends SchemaArticle {
@@ -33,6 +34,8 @@ class SchemaBlogPosting extends SchemaArticle {
     // public $description;     // Text. A short description of the item.
     // public $image;           // URL or ImageObject. An image of the item.
     // public $name;            // Text. The name of the item.
+    // public $url;             // URL of the item.
+    // public $url_label;       // Label for the URL of the item.
     // public $author;          // Organization or Person. The author of this content.
     // public $contentLocation; // Place. The location of the content.
     // public $datePublished;   // Date. Date of first broadcast/publication.
@@ -62,7 +65,7 @@ class SchemaBlogPosting extends SchemaArticle {
             $a[] = "  <span class=\"contenido-imagen-previa\"><img class=\"img-responsive\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\"></span>";
         }
         // Contenido
-        if (is_string($this->articleBody) && ($this->articleBody != '')) {
+        if ($this->articleBody != '') {
             $a[] = '  <div itemprop="articleBody">';
             $a[] = $this->articleBody;
             $a[] = '  </div>';

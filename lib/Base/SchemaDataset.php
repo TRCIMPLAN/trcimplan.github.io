@@ -24,6 +24,9 @@ namespace Base;
 
 /**
  * Clase SchemaDataset
+ *
+ * A body of structured information describing some topic(s) of interest.
+ * http://schema.org/Dataset
  */
 class SchemaDataset extends SchemaCreativeWork {
 
@@ -31,6 +34,8 @@ class SchemaDataset extends SchemaCreativeWork {
     // public $description;     // Text. A short description of the item.
     // public $image;           // URL or ImageObject. An image of the item.
     // public $name;            // Text. The name of the item.
+    // public $url;             // URL of the item.
+    // public $url_label;       // Label for the URL of the item.
     // public $author;          // Organization or Person. The author of this content.
     // public $contentLocation; // Place. The location of the content.
     // public $datePublished;   // Date. Date of first broadcast/publication.

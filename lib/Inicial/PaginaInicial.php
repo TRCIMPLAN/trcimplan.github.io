@@ -2,7 +2,7 @@
 /*
  * TrcIMPLAN Sitio Web - Página Inicial
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2015 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,7 +25,7 @@ namespace Inicial;
 /**
  * Clase PaginaInicial
  */
-class PaginaInicial extends \Base\Plantilla {
+class PaginaInicial extends \Configuracion\PaginaInicialConfig {
 
     // public $sitio_titulo;
     // public $sitio_url;
@@ -43,61 +43,13 @@ class PaginaInicial extends \Base\Plantilla {
     // public $directorio;
     // public $ruta;
     // public $imagen_previa;
+    // public $icono;
     // public $navegacion;
     // public $contenido;
     // public $mapa_inferior;
     // public $javascript;
     // public $contenido_en_renglon;
-    public $google_site_verification = '  <meta name="google-site-verification" content="Hz-cnyG17CBaAXopvSHn7J81Za2cmg4dvnRh1VJE7ks">';
-
-    /**
-     * Constructor
-     */
-    public function __construct() {
-        $this->en_raiz       = true;
-        $this->titulo        = $this->sitio_titulo;
-        $this->autor         = 'TrcIMPLAN';
-        $this->descripcion   = 'El IMPLAN Torreón es el Órgano Técnico Descentralizado de la Administración Pública Municipal que coordina los procesos de Planeación Estratégica y Ordenamiento Territorial para el desarrollo de la Región.';
-        $this->claves        = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna';
-        $this->directorio    = '.';
-        $this->ruta          = "index.html";
-        $this->imagen_previa = 'imagenes/implan.jpg';
-    } // constructor
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Indicar al padre que no queremos encerrar el contenido con row y cuerpo
-        $this->contenido_en_renglon = false;
-        // Navegacion
-        $this->navegacion          = new \Base\Navegacion();
-        $this->navegacion->en_raiz = true;
-        // Encabezado
-        $encabezado         = new Encabezado();
-        $this->contenido[]  = $encabezado->html();
-        $this->javascript[] = $encabezado->javascript();
-        // Destacado
-        $destacado          = new Destacado();
-        $this->contenido[]  = $destacado->html();
-        $this->javascript[] = $destacado->javascript();
-        // Novedades
-        $novedades          = new Novedades();
-        $this->contenido[]  = $novedades->html();
-        $this->javascript[] = $novedades->javascript();
-        // Mapa
-        $mapa               = new Mapa();
-        $this->contenido[]  = $mapa->html();
-        $this->javascript[] = $mapa->javascript();
-        // Redes
-        $redes              = new Redes();
-        $this->contenido[]  = $redes->html();
-        $this->javascript[] = $redes->javascript();
-        // Entregar resultado del padre
-        return parent::html();
-    } // html
+    // public $google_site_verification;
 
 } // Clase PaginaInicial
 

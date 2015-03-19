@@ -25,6 +25,7 @@ namespace Base;
 /**
  * Clase SchemaCreativeWork
  *
+ * The most generic kind of creative work, including books, movies, photographs, software programs, etc.
  * http://schema.org/CreativeWork
  */
 class SchemaCreativeWork extends SchemaThing {
@@ -33,6 +34,8 @@ class SchemaCreativeWork extends SchemaThing {
     // public $description;    // Text. A short description of the item.
     // public $image;          // URL or ImageObject. An image of the item.
     // public $name;           // Text. The name of the item.
+    // public $url;            // URL of the item.
+    // public $url_label;      // Label for the URL of the item.
     public $author;            // Organization or Person. The author of this content.
     public $contentLocation;   // Place. The location of the content.
     public $datePublished;     // Date. Date of first broadcast/publication. In ISO 8601, example 2007-04-05T14:30

@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Mapa
+/**
+ * TrcIMPLAN Sitio Web - Mapa Grande
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -27,48 +27,29 @@ namespace Inicial;
  */
 class Mapa {
 
-    public $servicios     = array(
-        'Análisis Publicados'               => 'blog/index.html',
-        'Indicadores'                       => 'smi/introduccion.html',
-        'Información Geográfica'            => 'sig/introduccion.html',
-        'Plan Estratégico Metropolitano'    => 'plan-estrategico-metropolitano/introduccion.html',
-        'Banco de Proyectos'                => 'proyectos/introduccion.html');
-    public $institucional = array(
-        'Visión / Misión'                   => 'institucional/vision-mision.html',
-        'Mensaje del Director'              => 'institucional/mensaje-director.html',
-        'Quienes Somos'                     => 'institucional/quienes-somos.html',
-        'Estructura Orgánica'               => 'institucional/estructura-organica.html',
-        'Reglamentos'                       => 'institucional/reglamentos.html',
-        'Información Financiera'            => 'institucional/informacion-financiera.html',
-        'Consejo Directivo'                 => 'consejo-directivo/integrantes.html'); //
-    public $interaccion   = array(
-        'Contacto'                          => 'contacto/contacto.html',
-        'Preguntas Frecuentes'              => 'preguntas-frecuentes/preguntas-frecuentes.html',
-        'Eventos'                           => 'eventos/index.html',
-        'Sala de Prensa'                    => 'sala-prensa/index.html',
-        'Quejas y Sugerencias'              => 'http://trcimplan.mx/comentariossugerencias');
-    public $legal         = array(
-        'Transparencia'                     => 'http://www.icai.org.mx/ipmn/dependencias/impyc',
-        'Términos de Uso de la Información' => 'terminos/terminos-informacion.html',
-        'Términos de Uso del Sitio Web'     => 'terminos/terminos-sitio.html',
-        'Aviso de Privacidad'               => 'terminos/privacidad.html');
+    public $titulo;
+    public $opciones;
 
     /**
-     * HTML
+     * Constructor
+     */
+    public function __construct($in_titulo, $in_opciones) {
+        $this->titulo   = $in_titulo;
+        $this->opciones = $in_opciones;
+    } // constructor
+
+    /**
+     * Mapa Grande HTML
      *
      * @return string Código HTML
      */
-    public function html() {
+    public function grande_html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular mapa grande
-        $a[] = '  <section id="mapa">';
-        $a[] = '    <div class="row">';
-        // Servicios
-        $a[] = '      <div class="col-sm-6 col-md-3">';
-        $a[] = '        <h4 class="mapa-encabezado">SERVICIOS</h4>';
+        // Acumular
+        $a[] = "        <h4 class=\"mapa-encabezado\">{$this->titulo}</h4>";
         $a[] = '        <ul>';
-        foreach ($this->servicios as $etiqueta => $vinculo) {
+        foreach ($this->opciones as $etiqueta => $vinculo) {
             if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
                 $a[] = "          <li><a href=\"$vinculo\" target=\"_blank\">$etiqueta</a></li>";
             } else {
@@ -76,109 +57,32 @@ class Mapa {
             }
         }
         $a[] = '        </ul>';
-        $a[] = '      </div>';
-        // Institucional
-        $a[] = '      <div class="col-sm-6 col-md-3">';
-        $a[] = '        <h4 class="mapa-encabezado">INSTITUCIONAL</h4>';
-        $a[] = '        <ul>';
-        foreach ($this->institucional as $etiqueta => $vinculo) {
-            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
-                $a[] = "          <li><a href=\"$vinculo\" target=\"_blank\">$etiqueta</a></li>";
-            } else {
-                $a[] = "          <li><a href=\"$vinculo\">$etiqueta</a></li>";
-            }
-        }
-        $a[] = '        </ul>';
-        $a[] = '      </div>';
-        // Interacción
-        $a[] = '      <div class="col-sm-6 col-md-3">';
-        $a[] = '        <h4 class="mapa-encabezado">INTERACCIÓN</h4>';
-        $a[] = '        <ul>';
-        foreach ($this->interaccion as $etiqueta => $vinculo) {
-            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
-                $a[] = "          <li><a href=\"$vinculo\" target=\"_blank\">$etiqueta</a></li>";
-            } else {
-                $a[] = "          <li><a href=\"$vinculo\">$etiqueta</a></li>";
-            }
-        }
-        $a[] = '        </ul>';
-        $a[] = '      </div>';
-        // Legal
-        $a[] = '      <div class="col-sm-6 col-md-3">';
-        $a[] = '        <h4 class="mapa-encabezado">LEGAL</h4>';
-        $a[] = '        <ul>';
-        foreach ($this->legal as $etiqueta => $vinculo) {
-            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
-                $a[] = "          <li><a href=\"$vinculo\" target=\"_blank\">$etiqueta</a></li>";
-            } else {
-                $a[] = "          <li><a href=\"$vinculo\">$etiqueta</a></li>";
-            }
-        }
-        $a[] = '        </ul>';
-        $a[] = '      </div>';
-        // Cierre
-        $a[] = '    </div>';
-        $a[] = '  </section>';
-        // Acumular mapa chico
-        $a[] = '  <section id="mapa-chico">';
-        // Servicios
-        $a[] = '    <h4 class="mapa-encabezado">SERVICIOS</h4>';
-        $b   = array();
-        foreach ($this->servicios as $etiqueta => $vinculo) {
-            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
-                $b[] = "<a href=\"$vinculo\" target=\"_blank\">$etiqueta</a>";
-            } else {
-                $b[] = "<a href=\"$vinculo\">$etiqueta</a>";
-            }
-        }
-        $a[] = sprintf('    <p>%s</p>', implode(', ', $b));
-        // Institucional
-        $a[] = '    <h4 class="mapa-encabezado">INSTITUCIONAL</h4>';
-        $b   = array();
-        foreach ($this->institucional as $etiqueta => $vinculo) {
-            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
-                $b[] = "<a href=\"$vinculo\" target=\"_blank\">$etiqueta</a>";
-            } else {
-                $b[] = "<a href=\"$vinculo\">$etiqueta</a>";
-            }
-        }
-        $a[] = sprintf('    <p>%s</p>', implode(', ', $b));
-        // Interacción
-        $a[] = '    <h4 class="mapa-encabezado">INTERACCIÓN</h4>';
-        $b   = array();
-        foreach ($this->interaccion as $etiqueta => $vinculo) {
-            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
-                $b[] = "<a href=\"$vinculo\" target=\"_blank\">$etiqueta</a>";
-            } else {
-                $b[] = "<a href=\"$vinculo\">$etiqueta</a>";
-            }
-        }
-        $a[] = sprintf('    <p>%s</p>', implode(', ', $b));
-        // Legal
-        $a[] = '    <h4 class="mapa-encabezado">LEGAL</h4>';
-        $b   = array();
-        foreach ($this->legal as $etiqueta => $vinculo) {
-            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
-                $b[] = "<a href=\"$vinculo\" target=\"_blank\">$etiqueta</a>";
-            } else {
-                $b[] = "<a href=\"$vinculo\">$etiqueta</a>";
-            }
-        }
-        $a[] = sprintf('    <p>%s</p>', implode(', ', $b));
-        // Cierre
-        $a[] = '  </section>';
         // Entregar
-        return implode("\n", $a)."\n";
-    } // html
+        return implode("\n", $a);
+    } // grande_html
 
     /**
-     * Javascript
+     * Mapa Chico HTML
      *
-     * @return string Código Javascript
+     * @return string Código HTML
      */
-    public function javascript() {
-        return '';
-    } // javascript
+    public function chico_html() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular
+        $a[] = "        <h4 class=\"mapa-encabezado\">{$this->titulo}</h4>";
+        $b   = array();
+        foreach ($this->opciones as $etiqueta => $vinculo) {
+            if (preg_match('/^(http|https):\/\/.+/', $vinculo)) {
+                $b[] = "<a href=\"$vinculo\" target=\"_blank\">$etiqueta</a>";
+            } else {
+                $b[] = "<a href=\"$vinculo\">$etiqueta</a>";
+            }
+        }
+        $a[] = sprintf('    <p>%s</p>', implode(', ', $b));
+        // Entregar
+        return implode("\n", $a);
+    } // chico_html
 
 } // Clase Mapa
 

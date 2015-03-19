@@ -99,16 +99,19 @@ a:active  { color:#FF3300; text-decoration:none; }
     font-size:1.6em;
 }
 .encabezado-descripcion {
-    color:#FFF;
+    color:#DCDCDC;
     font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
-    line-height:1.0;
-    padding:4px 2px 4px 4px;
+    line-height:1.2;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding:2px 2px 2px 4px;
 }
 .encabezado-autor-fecha {
     background-color:#F0F0F0;
     color:#808080;
     font-size:0.8em;
     font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
+    line-height:1.2;
     padding:2px 2px 2px 4px;
 }
 
@@ -140,6 +143,9 @@ a:active  { color:#FF3300; text-decoration:none; }
 }
 
 /* Contenido más */
+.titulo {
+    font-weight:bold;
+}
 .descripcion {
     font-size:0.8em;
 }
@@ -147,6 +153,10 @@ a:active  { color:#FF3300; text-decoration:none; }
 .autor-fecha {
     color:#888;
     font-size:0.6em;
+}
+.imagen-previa {
+    padding:0 24px 12px 0;
+    float:left;
 }
 .centrado {
     text-align:center;
@@ -305,24 +315,45 @@ a.galeria-icono:active  { color:#FF3300; }
 .indicadores-vinculos a:active  { color:#FF3300; }
 
 /* Página Inicial */
-#encabezado .banner {
+#organizacion .banner {
     width:100%;
+}
+.organizacion-logotipo {
+    float:left;
+    margin-right:8px;
+}
+.organizacion-titulo {
+    color:#000;
+    margin-top:6px;
+    margin-bottom:2px;
+}
+.organizacion-descripcion {
+    color:#646464;
+    font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
+    line-height:1.2;
+    margin-top:2px;
+    margin-bottom:4px;
 }
 
 #destacado {
     background-color:#D1D7DC;
     padding:8px;
 }
-.destacado-columna {
-}
 .destacado-servicio {
 }
 .destacado-imagen {
 }
-.destacado-texto {
-    font-size:0.8em;
+.destacado-titulo {
+    line-height:1.2em;
+    margin-bottom:4px;
+}
+.destacado-descripcion {
+    font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
+    line-height:1.2em;
+    margin-bottom:4px;
 }
 .destacado-boton {
+    font-family:'Roboto Condensed',Helvetica,Arial,sans-serif,sans-serif; font-weight:400;
     background-color:#F0F0F0;
 }
 

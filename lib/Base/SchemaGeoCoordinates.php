@@ -24,6 +24,9 @@ namespace Base;
 
 /**
  * Clase SchemaGeoCoordinates
+ *
+ * The geographic coordinates of a place or event.
+ * http://schema.org/GeoCoordinates
  */
 class SchemaGeoCoordinates extends SchemaThing {
 
@@ -31,6 +34,8 @@ class SchemaGeoCoordinates extends SchemaThing {
     // public $description;    // Text. A short description of the item.
     // public $image;          // URL or ImageObject. An image of the item.
     // public $name;           // Text. The name of the item.
+    // public $url;            // URL of the item.
+    // public $url_label;      // Label for the URL of the item.
     public $elevation;         // Number or Text. The elevation of a location.
     public $latitude;          // Number or Text. The latitude of a location. For example 37.42242
     public $longitude;         // Number or Text. The longitude of a location. For example -122.08585

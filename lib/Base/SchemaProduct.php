@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Schema Organization
+ * TrcIMPLAN Sitio Web - SchemaProduct
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,12 +23,12 @@
 namespace Base;
 
 /**
- * Clase SchemaOrganization
+ * Clase SchemaProduct
  *
- * An organization such as a school, NGO, corporation, club, etc.
- * http://schema.org/Organization
+ * Any offered product or service. For example: a pair of shoes; a concert ticket; the rental of a car; a haircut; or an episode of a TV show streamed online.
+ * http://schema.org/Product
  */
-class SchemaOrganization extends SchemaThing {
+class SchemaProduct extends SchemaThing {
 
     // public $onTypeProperty; // Text. Use when this item is part of another one.
     // public $description;    // Text. A short description of the item.
@@ -36,6 +36,9 @@ class SchemaOrganization extends SchemaThing {
     // public $name;           // Text. The name of the item.
     // public $url;            // URL of the item.
     // public $url_label;      // Label for the URL of the item.
+    public $logo;              // ImageObject or URL. An associated logo.
+    public $manufacturer;      // Organization. The manufacturer of the product.
+    public $releaseDate;       // The release date of a product or product model. This can be used to distinguish the exact variant of a product.
 
     /**
      * HTML
@@ -47,25 +50,25 @@ class SchemaOrganization extends SchemaThing {
         $a = array();
         // Acumular inicia
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Organization\">";
+            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Product\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/Organization">';
+            $a[] = '<div itemscope itemtype="http://schema.org/Product">';
         }
-        // Imagen
+        // Propiedad image
         if ($this->image != '') {
-            $a[] = "  <img class=\"imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
+            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
         }
-        // Título
+        // Propiedad name
         if ($this->name != '') {
             $a[] = "  <h3 class=\"titulo\" itemprop=\"name\">{$this->name}</h3>";
         } else {
-            throw new \Exception('Error en SchemaOrganization, html: La propiedad name es incorrecta.');
+            throw new \Exception('Error en SchemaProduct, html: La propiedad name es incorrecta.');
         }
-        // Descripción
+        // Propiedad description
         if ($this->description != '') {
             $a[] = "  <div class=\"descripcion\" itemprop=\"description\">{$this->description}</div>";
         }
-        // URL
+        // Propiedad url
         if ($this->url != '') {
             if ($this->url_label != '') {
                 $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->url_label}</a>";
@@ -79,21 +82,6 @@ class SchemaOrganization extends SchemaThing {
         return implode("\n", $a);
     } // html
 
-/*
-<div itemscope itemtype="http://schema.org/GovernmentOrganization">
-    <a itemprop="url" href="www.trcimplan.gob.mx"><div itemprop="name"><strong>Instituto Municipal de Planeación y Competitividad de Torreón</strong></div>
-    </a>
-    <div itemprop="description">Órgano técnico de ...</div>
-    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <span itemprop="streetAddress">Antiguo Edificio del Banco de México, segundo piso. Av. Morelos 1217 Pte. esquina con C. Cepeda. Col. Centro.</span><br>
-        <span itemprop="addressLocality">Torreón</span><br>
-        <span itemprop="addressRegion">Coahuila</span><br>
-        <span itemprop="postalCode">27000</span><br>
-    <span itemprop="addressCountry">México</span><br>
-    </div>
-</div>
-*/
-
-} // Clase SchemaOrganization
+} // Clase SchemaProduct
 
 ?>
