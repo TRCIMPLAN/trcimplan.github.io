@@ -31,24 +31,32 @@ class VisionVencedores extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre        = 'La visión de los vencedores';
-        $this->autor         = 'Lic. Eduardo Holguín Zehfuss';
-        $this->fecha         = '2014-10-21';
+        // Título, autor y fecha
+        $this->nombre           = 'La visión de los vencedores';
+        $this->autor            = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha            = '2014-10-21T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo       = 'vision-vencedores';
-        $this->imagen_previa = 'vision-vencedores/imagen-previa.jpg';
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-vencedores/encabezado.jpg">';
+        $this->archivo          = 'vision-vencedores';
+        $this->imagen_previa    = 'vision-vencedores/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = 'El regreso de La Laguna a los primeros lugares en el ranking de competitividad nacional demanda de una comunidad que retome los valores y el empuje de “Los Fundadores”, de los hombres y mujeres que lejos de considerarse victimas de las adversidades, de su entorno natural y político, construyeron una de las regiones más prósperas de México.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->categorias    = array('Competitividad', 'Empleo', 'Macroeconomía');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio    = 'blog';
-        $this->nombre_menu   = 'Análisis Publicados';
-        // El contenido HTML y el JavaScript
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="vision-vencedores/imagen.jpg"></span>
+        $this->descripcion      = 'El regreso de La Laguna a los primeros lugares en el ranking de competitividad nacional demanda de una comunidad que retome los valores y el empuje de “Los Fundadores”, de los hombres y mujeres que lejos de considerarse victimas de las adversidades, de su entorno natural y político, construyeron una de las regiones más prósperas de México.';
+        $this->claves           = 'IMPLAN, Torreon, La Laguna, Competitividad, Nacional, Empleo';
+        $this->categorias       = array('Competitividad', 'Empleo', 'Macroeconomía');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'vision-vencedores/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Animo, coraje, atrevimiento, valentía, arrojo, son actitudes coadyuvantes del triunfo, del éxito, del progreso de una comunidad. Después de la Segunda Guerra Mundial tales actitudes llevaron a Alemania y a Japón a convertirse, en una década, en potencias económicas. El regreso de La Laguna a los primeros lugares en el ranking de competitividad nacional demanda de una comunidad que retome los valores y el empuje de “Los Fundadores”, de los hombres y mujeres que lejos de considerarse victimas de las adversidades, de su entorno natural y político, construyeron una de las regiones más prósperas de México.</p>
 
@@ -77,8 +85,10 @@ class VisionVencedores extends \Base\Publicacion {
 <p>Digo, entonces, que el futuro de La Laguna está en las manos de sus ciudadanos.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase VisionVencedores

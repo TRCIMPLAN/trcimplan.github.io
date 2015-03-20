@@ -31,27 +31,32 @@ class TorreonCaminoRedensificacion2 extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Torreón, camino a la redensificación II';
         $this->autor            = 'Arq. Teresita Benítez Saludado';
-        $this->fecha            = '2014-10-23';
+        $this->fecha            = '2014-10-23T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'torreon-camino-redensificacion-2';
         $this->imagen_previa    = 'torreon-camino-redensificacion-2/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="torreon-camino-redensificacion-2/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Retomo el tema de la redensificación de ciudades, y de Torreón en especial, pues como ya lo había presentado, las cifras nos indican como el territorio ocupado en la ciudad es siete veces contra tres del crecimiento poblacional de la década de 1970 a la fecha.';
-        $this->claves           = 'IMPLAN, Torreon';
+        $this->descripcion      = 'Continuación del tema de la redensificación de ciudades. Las cifras nos indican como el territorio ocupado en Torreón es siete veces contra tres del crecimiento poblacional de la década de 1970 a la fecha.';
+        $this->claves           = 'IMPLAN, Torreon, Infraestructura, Redensificacion, Crecimiento, Mancha Urbana';
         $this->categorias       = array('Infraestructura');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido        = <<<FINAL
-<span class="contenido-imagen-previa"><img src="torreon-camino-redensificacion-2/imagen.jpg"></span>
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'torreon-camino-redensificacion-2/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <blockquote>
     <p><i>¨La planificación de una ciudad es más que un conjunto de ideas o de opiniones dispersas de los individuos que la habitan, la planificación es una ciencia, o mejor dicho, un conjunto de ciencias que estudian la ciudad, considerándola ya como un organismo físico, ya como una entidad moral¨.</i></p>
@@ -84,8 +89,10 @@ class TorreonCaminoRedensificacion2 extends \Base\Publicacion {
 <p>La expansión de la ciudad tiene un efecto directo sobre el bienestar de los individuos y los hogares laguneros, pues al tener que recorrer mayores distancias se incrementan los gastos en transporte y se reduce el ingreso disponible para otras necesidades que incrementen el bienestar de las familias.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase TorreonCaminoRedensificacion2

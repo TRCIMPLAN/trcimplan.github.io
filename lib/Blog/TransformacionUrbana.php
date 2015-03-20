@@ -31,19 +31,32 @@ class TransformacionUrbana extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-09-22';
-        $this->autor         = 'Francisco Valdés Perezgasga';
-        $this->nombre        = 'Transformación Urbana';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'transformacion-urbana';
-        $this->descripcion   = 'Tenemos grupos organizados y activistas de las bicicletas. Lo que falta, es el compromiso de los ayuntamientos para lograr la transformación urbana de la Laguna.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'transformacion-urbana/imagen-previa.jpg';
-        $this->categorias    = array('Transporte');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="transformacion-urbana/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Transformación Urbana';
+        $this->autor            = 'Francisco Valdés Perezgasga';
+        $this->fecha            = '2014-09-22T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'transformacion-urbana';
+        $this->imagen_previa    = 'transformacion-urbana/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Tenemos grupos organizados y activistas de las bicicletas. Lo que falta, es el compromiso de los ayuntamientos para lograr la transformación urbana de la Laguna.';
+        $this->claves           = 'IMPLAN, Torreon, Ciclistas, Bicicletas, Transporte';
+        $this->categorias       = array('Transporte');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'transformacion-urbana/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>En su número de octubre de 2014, la prestigiada revista Bicycling presenta su clasificación de ciudades usamericanas. Las clasifica en función de qué tan buenas son para moverse en bicicleta. Un ejercicio bianual que cuenta con un gran interés de los ayuntamientos para que su ciudad aparezca en los primeros lugares. Un ejercicio que desvela una franca competencia vistos los cambios que esta clasificación experimenta cada dos años.</p>
 
@@ -66,9 +79,12 @@ class TransformacionUrbana extends \Base\Publicacion {
 <p><a href="https://twitter.com/fvaldesp" target="_blank">twitter/@fvaldesp</a></p>
 
 <p>Tomado de <a href="http://www.milenio.com/firmas/francisco_valdes_perezgasga/" target="_blank">Milenio</a></p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase TransformacionUrbana

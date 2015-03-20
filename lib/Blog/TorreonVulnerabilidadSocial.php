@@ -31,19 +31,32 @@ class TorreonVulnerabilidadSocial extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-06-13';
-        $this->autor         = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->nombre        = 'Torreón y la Vulnerabilidad Social';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'torreon-vulnerabilidad-social';
-        $this->descripcion   = 'Análisis de los indicadores sobre la infancia, alimentación, educación, maternidad adolescente, adultos mayores, vulnerabilidad por la delincuencia y discapacidad.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'torreon-vulnerabilidad-social/imagen-previa.jpg';
-        $this->categorias    = array('Grupos Vulnerables', 'Población');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="torreon-vulnerabilidad-social/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Torreón y la Vulnerabilidad Social';
+        $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
+        $this->fecha            = '2014-06-13T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'torreon-vulnerabilidad-social';
+        $this->imagen_previa    = 'torreon-vulnerabilidad-social/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Análisis de los indicadores sobre la infancia, alimentación, educación, maternidad adolescente, adultos mayores, vulnerabilidad por la delincuencia y discapacidad.';
+        $this->claves           = 'IMPLAN, Torreon, Infancia, Alimentacion, Educacion, Maternidad Adolescente, Adultos Mayores, Vulnerabilidad, Delincuencia, Discapacidad';
+        $this->categorias       = array('Grupos Vulnerables', 'Población');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'torreon-vulnerabilidad-social/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>La infancia es una etapa temprana en la cual se marca el desarrollo fisiológico y cognitivo de las personas. El comportamiento de la sociedad en temas y estados temporales específicos, así como los posibles escenarios en el que se desenvolverán las siguientes generaciones, puede ser analizado a la luz de las estadísticas focalizadas a la situación de los grupos vulnerables, que no únicamente se centra en la juventud, sino en los adultos mayores y personas con discapacidad.</p>
 
@@ -121,9 +134,12 @@ class TorreonVulnerabilidadSocial extends \Base\Publicacion {
     <li>Consejo Nacional de Evaluación de las Políticas de Desarrollo Social, CONEVAL. Medición de la Pobreza. Consulta en línea. <a href="http:/coneval.gob.mx">http:/coneval.gob.mx</a></li>
     <li>Consejo Nacional de Población. Proyecciones de la población 2010-2050Consulta en línea: <a href="http://www.conapo.gob.mx/es/conapo/proyecciones">http://www.conapo.gob.mx/es/conapo/proyecciones</a></li>
 </ul>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase TorreonVulnerabilidadSocial

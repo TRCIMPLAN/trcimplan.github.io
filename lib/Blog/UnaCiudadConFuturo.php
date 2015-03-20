@@ -31,19 +31,32 @@ class UnaCiudadConFuturo extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-09-17';
-        $this->autor         = 'Lic. Enrique Sada Sandoval';
-        $this->nombre        = 'Una ciudad con futuro';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'una-ciudad-con-futuro';
-        $this->descripcion   = 'Fundada en el año de 1850 como el Rancho del Carrizal, en el extremo norte de la República Mexicana, la ciudad de Torreón, Coahuila, celebró su elevación de rango -de villa a ciudad- un 15 de septiembre de 1907.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'una-ciudad-con-futuro/imagen-previa.jpg';
-        $this->categorias    = array('Plan Estratégico Metropolitano');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="una-ciudad-con-futuro/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Una ciudad con futuro';
+        $this->autor            = 'Lic. Enrique Sada Sandoval';
+        $this->fecha            = '2014-09-17T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'una-ciudad-con-futuro';
+        $this->imagen_previa    = 'una-ciudad-con-futuro/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Es grande el legado histórico de la ciudad de Torreón, su importancia y la bonanza del pasado. Hoy, el lanzamiento del Plan Estratégico Metropolitano es la apuesta por el futuro de la ciudad con más productividad.';
+        $this->claves           = 'IMPLAN, Torreon, Plan Estrategico Metropolitano';
+        $this->categorias       = array('Plan Estratégico Metropolitano');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'una-ciudad-con-futuro/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Fundada en el año de 1850 como el Rancho del Carrizal, en el extremo norte de la República Mexicana, la ciudad de Torreón, Coahuila, celebró su elevación de rango —de villa a ciudad— un 15 de septiembre de 1907.</p>
 
@@ -56,9 +69,12 @@ class UnaCiudadConFuturo extends \Base\Publicacion {
 <p>Sin embargo, el peso de varias décadas de políticas centralizadoras, el rezago histórico de las administraciones municipales durante los últimos 15 años y el embate de la inseguridad en la región, detonada por la irresponsable “guerra contra el crimen organizado” durante el sexenio anterior, generó pérdida de inversiones y fluctuación en el mercado laboral, hecho que vino a acentuar la situación debido a una auténtica falta de vocación y de visión entorno a lo que ya se consolidaba como una zona metropolitana con Torreón a la cabeza de varios municipios aledaños.</p>
 
 <p>Con motivo de contrarrestar estas inercias heredadas, el pasado 11 de septiembre de 2014 se reunió el Consejo Directivo del Instituto Municipal de Planeación para lanzar la convocatoria ciudadana para la elaboración del Plan Estratégico Metropolitano ante la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social tanto de la ciudad como de la región en sí, hecho que se celebra por igual tanto en la iniciativa de Eduardo Holguín, como director del mismo, tanto como en el respaldo del alcalde Miguel Ángel Riquelme en lo que por primera vez en mucho tiempo se presenta como la apuesta desde el gobierno por el futuro de la ciudad con más productividad en el norte del país en 2014 (según indicadores nacionales), a través de la planeación estratégica y la proyección a largo plazo, justo en el marco de la celebración del 107 aniversario de la misma.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase UnaCiudadConFuturo

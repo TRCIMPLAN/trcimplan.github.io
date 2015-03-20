@@ -31,19 +31,32 @@ class ZMLSistemaDerechoConfiableObjetivo extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-06-02';
-        $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->nombre        = 'La Zona Metropolitana de La Laguna y sus municipios en Sistema de Derecho Confiable y Objetivo';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'zml-sistema-derecho-confiable-objetivo';
-        $this->descripcion   = 'De acuerdo al ICU 2012, es el subíndice más débil de la región; algunos de sus subíndices ponderados con alto peso por el IMCO corresponden a rubros de seguridad pública.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'zml-sistema-derecho-confiable-objetivo/imagen-previa.jpg';
-        $this->categorias    = array('Seguridad');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="zml-sistema-derecho-confiable-objetivo/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'La Zona Metropolitana de La Laguna y sus municipios en Sistema de Derecho Confiable y Objetivo';
+        $this->autor            = 'Lic. Rodrigo González Morales';
+        $this->fecha            = '2014-06-02T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'zml-sistema-derecho-confiable-objetivo';
+        $this->imagen_previa    = 'zml-sistema-derecho-confiable-objetivo/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'De acuerdo al ICU 2012, es el subíndice más débil de la región; algunos de sus subíndices ponderados con alto peso por el IMCO corresponden a rubros de seguridad pública.';
+        $this->claves           = 'IMPLAN, Torreon, Seguridad, Robo, Vehiculos, Notarios';
+        $this->categorias       = array('Seguridad');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'zml-sistema-derecho-confiable-objetivo/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>De acuerdo al ICU 2012, es el subíndice más débil de la región ocupando el lugar 73, algunos de sus subíndices ponderados con alto peso por el IMCO corresponden a rubros de seguridad pública. En este subíndice todos los municipios se encuentran en niveles similares a lo que refleja la ZML, salvo Matamoros, quien por si solo se encontraría en la mitad superior del ranking.</p>
 
@@ -62,9 +75,12 @@ class ZMLSistemaDerechoConfiableObjetivo extends \Base\Publicacion {
 <p>Para medir la percepción de inseguridad el IMCO toma datos estatales de la Encuesta Nacional sobre Inseguridad del INEGI, aplicándole los resultados a los municipios. En el 2010 el 72 % de la población de Durango se sentía insegura en su municipio, mientras en Coahuila se registro el 46% de percepción de inseguridad.</p>
 
 [1] Entre paréntesis se marcan los datos reales verificables para Torreón y Matamoros.
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase ZMLSistemaDerechoConfiableObjetivo
