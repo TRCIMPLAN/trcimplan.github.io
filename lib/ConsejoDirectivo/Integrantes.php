@@ -88,7 +88,7 @@ class Integrantes extends \Base\Publicacion {
             <td>Presidente de la Comisión de Desarrollo Económico del Ayuntamiento</td>
         </tr>
         <tr>
-            <td><em>VACANTE</em></td>
+            <td>Lic. Olivia Martínez Leyla</td>
             <td>Presidente de la Comisión de Planeación y Competitividad</td>
         </tr>
         <tr>
