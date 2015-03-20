@@ -31,19 +31,32 @@ class SociedadIncluyentePreparadaSana extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-06-06';
-        $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->nombre        = 'Sociedad Incluyente, Preparada y Sana';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'sociedad-incluyente-preparada-sana';
-        $this->descripcion   = 'Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.';
-        $this->claves        = 'IMPLAN, Torreon, Sociedad, Incluyente, Preparada, Sana';
-        $this->imagen_previa = 'sociedad-incluyente-preparada-sana/imagen-previa.jpg';
-        $this->categorias    = array('Educación', 'Bienestar', 'Vivienda');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="sociedad-incluyente-preparada-sana/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Sociedad Incluyente, Preparada y Sana';
+        $this->autor            = 'Lic. Rodrigo González Morales';
+        $this->fecha            = '2014-06-06T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'sociedad-incluyente-preparada-sana';
+        $this->imagen_previa    = 'sociedad-incluyente-preparada-sana/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.';
+        $this->claves           = 'IMPLAN, Torreon, Sociedad, Incluyente, Preparada, Sana';
+        $this->categorias       = array('Educación', 'Bienestar', 'Vivienda');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'sociedad-incluyente-preparada-sana/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</p>
 
@@ -60,9 +73,12 @@ class SociedadIncluyentePreparadaSana extends \Base\Publicacion {
 <p>Quizá uno de los indicadores más alarmantes para la Laguna según el ICU 2012, es la cantidad de viviendas deshabitadas, relacionado también con el crecimiento de la mancha urbana incluido en el subíndice de Gobierno, ya que refleja la expansión urbana y la presión de los servicios públicos, provocando el deterioro de inmuebles e infraestructura en la medida que se reduce la densidad poblacional de amplias zonas. La ZML presenta un 19.10 % de viviendas deshabitadas, estando entre las 8 peores ciudades a este respecto. Torreón presenta el mayor porcentaje con 20.12 %, Gómez Palacio 19.47 % y Lerdo 17.81%, Matamoros se desvía de la tendencia con 12.23%.</p>
 
 <p>Por último la equidad salarial entre hombres y mujeres sitúa a la ZML alrededor de la media nacional de las ciudades en estudio, con ingresos de las mujeres de 78 % respecto a los de los hombres, y Torreón, Gómez Palacio y Lerdo con valores similares, mientras Matamoros muestra mayor equidad salarial con 93 % del ingreso promedio de las mujeres respecto al de los hombres.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase SociedadIncluyentePreparadaSana

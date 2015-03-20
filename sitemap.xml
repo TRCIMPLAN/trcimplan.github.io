@@ -2,53 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-03-19</lastmod>
+    <lastmod>2015-03-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/index.html</loc>
-    <lastmod>2015-03-19</lastmod>
+    <lastmod>2015-03-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-categorias/index.html</loc>
-    <lastmod>2015-03-19</lastmod>
+    <lastmod>2015-03-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/index.html</loc>
-    <lastmod>2015-03-19</lastmod>
+    <lastmod>2015-03-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/index.html</loc>
-    <lastmod>2015-03-19</lastmod>
+    <lastmod>2015-03-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/index.html</loc>
-    <lastmod>2015-03-19</lastmod>
+    <lastmod>2015-03-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/index.html</loc>
-    <lastmod>2015-03-19</lastmod>
+    <lastmod>2015-03-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/index.html</loc>
-    <lastmod>2015-03-19</lastmod>
+    <lastmod>2015-03-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/eventos/index.html</loc>
-    <lastmod>2015-03-19</lastmod>
+    <lastmod>2015-03-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/index.html</loc>
-    <lastmod>2015-03-19</lastmod>
+    <lastmod>2015-03-20</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/blog/espacio-publico-urbano.html</loc>
+    <lastmod>2015-03-20T14:00</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/2015-03-18-comunicado-prensa.html</loc>
@@ -72,7 +77,7 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/reciclaje-urbano.html</loc>
-    <lastmod>2015-03-03</lastmod>
+    <lastmod>2015-03-03T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -87,7 +92,7 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/seguridad-humana.html</loc>
-    <lastmod>2015-02-17</lastmod>
+    <lastmod>2015-02-17T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -107,7 +112,7 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/tasa-inflacion-precios-torreon-2014.html</loc>
-    <lastmod>2015-02-03</lastmod>
+    <lastmod>2015-02-03T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -127,7 +132,7 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/segunda-generacion-sitio-web.html</loc>
-    <lastmod>2015-01-20</lastmod>
+    <lastmod>2015-01-20T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -392,7 +397,7 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/retrospectiva-estado-actual-empleo.html</loc>
-    <lastmod>2014-09-26</lastmod>
+    <lastmod>2014-09-26T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -447,7 +452,7 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/torreon-camino-redensificacion.html</loc>
-    <lastmod>2014-08-28</lastmod>
+    <lastmod>2014-08-28T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -487,7 +492,7 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/sectores-innovacion-sofisticacion.html</loc>
-    <lastmod>2014-07-03</lastmod>
+    <lastmod>2014-07-03T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -502,7 +507,7 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/relaciones-internacionales.html</loc>
-    <lastmod>2014-06-30</lastmod>
+    <lastmod>2014-06-30T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -537,12 +542,12 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/sistema-politico-estable-funcional.html</loc>
-    <lastmod>2014-06-10</lastmod>
+    <lastmod>2014-06-10T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/sociedad-incluyente-preparada-sana.html</loc>
-    <lastmod>2014-06-06</lastmod>
+    <lastmod>2014-06-06T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -592,7 +597,7 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/suenos-posibles.html</loc>
-    <lastmod>2014-05-08</lastmod>
+    <lastmod>2014-05-08T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -941,7 +946,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/economia-total-de-empresas.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/economia-total-de-empresas-registradas-en-el-siem.html</loc>
     <lastmod>1980-01-01T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1561,7 +1566,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/economia-total-de-empresas.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/economia-total-de-empresas-registradas-en-el-siem.html</loc>
     <lastmod>1980-01-01T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2156,7 +2161,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/economia-total-de-empresas.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/economia-total-de-empresas-registradas-en-el-siem.html</loc>
     <lastmod>1980-01-01T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2781,7 +2786,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/economia-total-de-empresas.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/economia-total-de-empresas-registradas-en-el-siem.html</loc>
     <lastmod>1980-01-01T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3441,7 +3446,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-total-de-empresas.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html</loc>
     <lastmod>1980-01-01T08:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>

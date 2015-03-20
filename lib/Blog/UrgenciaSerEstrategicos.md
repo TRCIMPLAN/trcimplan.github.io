@@ -1,13 +1,11 @@
 
-<span class="contenido-imagen-previa"><img src="urgencia-ser-estrategicos/imagen.jpg"></span>
-
 Al hablar de los desafíos  a los que se enfrenta la humanidad, es necesario identificar 4 aspectos que los acotan: _escala, complejidad, rapidez de cambios y escases de recursos._ Esto demanda de nosotros respuestas más efectivas y eficientes. ¿Qué elementos nos apoyarán para responder de esta manera? Aquí algunas propuestas a considerar como parte de un sistema estratégico.
 
 El futuro tiene cada vez más peso en las decisiones presentes, **traer los probables escenarios futuros al presente** nos pide innovar, ser más creativos y también nos invita a ser urgentes. Nuestra Zona Metropolitana, la Laguna, en general se encuentra limitada en cuanto a generación y difusión de estudios al respecto, convendría entonces levantar la cabeza y observar lo que en este mundo global está sucediendo, ¿a qué nos enfrentamos?:
 
 * Aunque se estima que el 65% de los trabajos del futuro no han sido inventados, Millenium Project un think thank global, prevé que más del 40% de los empleos desaparecerá en 20 años.  Además de esto, estamos viviendo un entorno laboral de alta movilidad, sobre todo en América Latina “mientras que un trabajador de 30 a 34 años de edad en América Latina ha pasado 4.3 años en la empresa en la cual trabaja, uno de la OCDE ha pasado en promedio más de seis años” (Laura Ripani, BID 2014).
 
-* La escasez de agua  es otro de los grandes retos del siglo XXI que afronta la humanidad en todos los continentes, se estima que para el 2030  casi la mitad de la población vivirá en áreas de estrés hídrico, además la escasez física de agua en las áreas áridas o semiáridas provocará el desplazamiento de entre 24 a 700 millones de personas. La zona metropolitana por su parte se encuentra próxima a la escasez física de agua según mapa mundial del Informe sobre el desarrollo de los recursos hídricos en el mundo.[1]
+* La escasez de agua  es otro de los grandes retos del siglo XXI que afronta la humanidad en todos los continentes, se estima que para el 2030  casi la mitad de la población vivirá en áreas de estrés hídrico, además la escasez física de agua en las áreas áridas o semiáridas provocará el desplazamiento de entre 24 a 700 millones de personas. La zona metropolitana por su parte se encuentra próxima a la escasez física de agua según mapa mundial del Informe sobre el desarrollo de los recursos hídricos en el mundo.(1)
 
 * El modelo de desarrollo e híper consumo que impera en la sociedad occidental y que había sido esparcida como panacea de la felicidad, ha alcanzado un nivel dramáticamente insostenible, “si  todas las personas del planeta vivieran del modo que nosotros vivimos, necesitaríamos entre 5, 6, 7, algunas personas inclusive dicen 10 planetas para poder hacerlo. Claramente no tenemos 10 planetas” (Alex Steffen, TED 2006).
 

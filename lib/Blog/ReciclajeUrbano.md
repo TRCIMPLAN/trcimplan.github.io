@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="reciclaje-urbano/imagen.jpg" alt="Reciclaje Urbano"></span>
-
 > "Cuando una ciudad acepta como mandato la calidad de vida, cuando respeta a la gente que allí vive, cuando respeta el medio ambiente, y cuando se prepara para las nuevas generaciones, la gente comparte la responsabilidad de este mandato, y esta causa compartida es la única manera de hacer un sueño colectivo realidad"...
 >
 > Jaime Lerner

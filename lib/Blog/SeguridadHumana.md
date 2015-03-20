@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="seguridad-humana/imagen.jpg"></span>
-
 > La seguridad humana no es una preocupación por las armas: es una preocupación por la vida y la dignidad humana.
 >
 > **Informe sobre Desarrollo Humano 1994 (PNUD)**

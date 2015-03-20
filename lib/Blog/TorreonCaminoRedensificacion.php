@@ -31,19 +31,32 @@ class TorreonCaminoRedensificacion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-08-28';
-        $this->autor         = 'Arq. Teresita Benítez Saludado';
-        $this->nombre        = 'Torreón, camino a la redensificación';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'torreon-camino-redensificacion';
-        $this->descripcion   = 'Torreón no ha aprovechado su territorio e infraestructura contenida, de una manera óptima, debido a su baja densidad de ocupación en su área urbana.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'torreon-camino-redensificacion/imagen-previa.jpg';
-        $this->categorias    = array('Infraestructura');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="torreon-camino-redensificacion/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Torreón, camino a la redensificación';
+        $this->autor            = 'Arq. Teresita Benítez Saludado';
+        $this->fecha            = '2014-08-28T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'torreon-camino-redensificacion';
+        $this->imagen_previa    = 'torreon-camino-redensificacion/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Torreón no ha aprovechado su territorio e infraestructura contenida, de una manera óptima, debido a su baja densidad de ocupación en su área urbana.';
+        $this->claves           = 'IMPLAN, Torreon, Infraestructura';
+        $this->categorias       = array('Infraestructura');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'torreon-camino-redensificacion/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Hoy, más que nunca, el aprovechamiento y eficientización de los recursos e infraestructuras de las ciudades deben optimizarse en beneficio de la sociedad que las ocupa.</p>
 
@@ -70,9 +83,12 @@ class TorreonCaminoRedensificacion extends \Base\Publicacion {
 <p>La imagen superior nos ilustra sobre la situación de expansión de mancha urbana y las densificaciones que ocupan los sectores de la ciudad.</p>
 
 <p>El Plan Director de Desarrollo Urbano de Torreón, publicado en el periódico oficial en el mes de febrero del presente año, propone como prioridad, la re densificación del centro de la ciudad, promoviendo a través de políticas de mejoramiento y regeneración los   polígonos de actuación detectados dentro de la zona central de la ciudad, polígonos que cuentan con infraestructura básica, tienen cercanía con equipamientos educativos, recreacionales, comerciales, administrativos, etc., y que tienen capacidad para incrementar y así optimizar en uso la infraestructura albergada en sitio, y no continuar dispersando injustificadamente la ciudad.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase TorreonCaminoRedensificacion

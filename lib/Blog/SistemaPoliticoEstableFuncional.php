@@ -31,19 +31,32 @@ class SistemaPoliticoEstableFuncional extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-06-10';
-        $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->nombre        = 'Sistema Político Estable y Funcional';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'sistema-politico-estable-funcional';
-        $this->descripcion   = 'El Sistema Político Estable y Funcional es el subíndice mejor calificado de la zona metropolitana, ya que IMCO nos sitúa en el lugar 11 del ranking.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'sistema-politico-estable-funcional/imagen-previa.jpg';
-        $this->categorias    = array('Gobierno', 'Participación Ciudadana');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="sistema-politico-estable-funcional/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Sistema Político Estable y Funcional';
+        $this->autor            = 'Lic. Rodrigo González Morales';
+        $this->fecha            = '2014-06-10T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'sistema-politico-estable-funcional';
+        $this->imagen_previa    = 'sistema-politico-estable-funcional/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'El Sistema Político Estable y Funcional es el subíndice mejor calificado de la zona metropolitana, ya que IMCO nos sitúa en el lugar 11 del ranking.';
+        $this->claves           = 'IMPLAN, Torreon';
+        $this->categorias       = array('Gobierno', 'Participación Ciudadana');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'sistema-politico-estable-funcional/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Es el subíndice mejor calificado de la zona metropolitana, ya que IMCO nos sitúa en el lugar 11 del ranking. Fundamental para ello es que Torreón y Matamoros cuenten con periodo de cuatro años para los gobiernos municipales. Matamoros por si sólo se ubicaría en el lugar 1 del ranking y Torreón en el 3, rodeado de las demás metrópolis de Coahuila como Saltillo, Monclova-Frontera y Piedras Negras. Sin embargo Lerdo se encuentra en competitividad media en este subíndice y Gómez Palacio en media baja.</p>
 
@@ -54,9 +67,12 @@ class SistemaPoliticoEstableFuncional extends \Base\Publicacion {
 <img class="img-responsive contenido-imagen" src="sistema-politico-estable-funcional/indicadores.png" alt="Indicadores">
 
 <p>Por último se miden la proporción de secciones electoral con atención electoral o conflicto, siendo de 15 % para la ZML a pesar de que Lerdo y Matamoros no presentan secciones con atención especial. Sin embargo el valor está muy por debajo del 53 % registrado en La Paz, que es la ciudad peor valorada en este indicador.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase SistemaPoliticoEstableFuncional

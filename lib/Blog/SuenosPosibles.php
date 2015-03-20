@@ -31,19 +31,32 @@ class SuenosPosibles extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-05-08';
-        $this->autor         = 'Lic. Eduardo Holguín Zehfuss';
-        $this->nombre        = 'Sueños Posibles';
-        $this->nombre_menu   = 'Análisis Publicados';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'suenos-posibles';
-        $this->descripcion   = 'La ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'suenos-posibles/imagen-previa.jpg';
-        $this->categorias    = array('Plan Estratégico Metropolitano');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="suenos-posibles/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Sueños Posibles';
+        $this->autor            = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha            = '2014-05-08T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'suenos-posibles';
+        $this->imagen_previa    = 'suenos-posibles/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'La ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano.';
+        $this->claves           = 'IMPLAN, Torreon, Plan Estrategico Metropolitano';
+        $this->categorias       = array('Plan Estratégico Metropolitano');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'suenos-posibles/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>Estamos en el Siglo XXI y en el Siglo XXI vamos a poner a Torreón. El "vamos" nos incluye a todos.  Desde siempre he escuchado el sueño de metrópoli que tiene cada lagunero que conozco. Sueños urbanos tan diversos como diversos son los sectores, los estratos socio económicos, las profesiones y las aspiraciones personales de mis interlocutores.</p>
 
@@ -54,8 +67,10 @@ class SuenosPosibles extends \Base\Publicacion {
 <p>Es en ese sentido que la ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano. En un modelo de competitividad que sea políticamente posible porque en su construcción y ejecución participen los sectores políticos, sociales, universitarios y empresariales de la ciudad. Que sea viable porque sus metas y acciones sean planeadas, proyectadas y sustentadas financieramente, fiscalmente y jurídicamente en estadios de corto, mediano y largo plazo. No cuestionemos nuestras capacidades para materializar el sueño por un Torreón del Siglo XXI, mejor trabajemos en el cómo, cuándo y con qué.</p>
 
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase SuenosPosibles

@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="tasa-inflacion-precios-torreon-2014/imagen.jpg"></span>
-
 Durante 2014 el municipio de Torreón, Coahuila tuvo una inflación de 4.28%, tasa cercana a la nacional de 4.08%. Otras ciudades de la república como Monclova, León y Acapulco tuvieron tasas inflacionarias de 4.37%, 4.58% y 4.45% respectivamente:
 
 <div style="clear:left;"></div>

@@ -31,26 +31,32 @@ class RestrospectivaEstadoActualEmpleo extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre        = 'Retrospectiva y estado actual del empleo en Torreón y la ZML';
-        $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->fecha         = '2014-09-26';
+        // Título, autor y fecha
+        $this->nombre           = 'Retrospectiva y estado actual del empleo en Torreón y la ZML';
+        $this->autor            = 'Lic. Rodrigo González Morales';
+        $this->fecha            = '2014-09-26T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo       = 'retrospectiva-estado-actual-empleo';
-        $this->imagen_previa = 'retrospectiva-estado-actual-empleo/imagen-previa.jpg';
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="retrospectiva-estado-actual-empleo/encabezado.jpg">';
+        $this->archivo          = 'retrospectiva-estado-actual-empleo';
+        $this->imagen_previa    = 'retrospectiva-estado-actual-empleo/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion   = 'El empleo es uno de los principales indicadores, que muestra el desempeño económico de una ciudad, región o país. Desde hace 9 años Torreón y la Zona Metropolitana de la Laguna se habían separado a la alza de la media nacional.';
-        $this->claves        = 'IMPLAN, Torreon, Empleo';
-        $this->categorias    = array('Empleo');
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio    = 'blog';
-        $this->nombre_menu   = 'Análisis Publicados';
-        // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
-        $this->estado        = 'publicar';
-        // El contenido HTML y el JavaScript
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="retrospectiva-estado-actual-empleo/imagen.jpg"></span>
+        $this->descripcion      = 'El empleo es uno de los principales indicadores, que muestra el desempeño económico de una ciudad, región o país. Desde hace 9 años Torreón y la Zona Metropolitana de la Laguna se habían separado a la alza de la media nacional.';
+        $this->claves           = 'IMPLAN, Torreon, Empleo';
+        $this->categorias       = array('Empleo');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'retrospectiva-estado-actual-empleo/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <h3>Síntesis</h3>
 
@@ -114,9 +120,12 @@ class RestrospectivaEstadoActualEmpleo extends \Base\Publicacion {
 <p>* Con colaboración de Gloria Liliana Gaytán Arocha.</p>
 
 <p>[1]La Población Económicamente Activa se estima en base a la PEA del Censo de Población y Vivienda 2010, en el cual Torreón contaba con 40 % de su población económicamente activa y 39 % la Zona Metropolitana. Sin embargo al tener CONAPO proyecciones de población por grupos de edad, la estimación se hace en base a la proporción de PEA sobre los rangos de edad de 15 a 64 años, considerando así la dinámica demográfica de los próximos años. La proporción PEA sobre el grupo de edad de 15 a 64 de referencia, es para Torreón es 63.3 % y para La Laguna 61.6 %.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase RestrospectivaEstadoActualEmpleo

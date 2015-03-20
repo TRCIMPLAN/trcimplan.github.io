@@ -31,19 +31,32 @@ class SectoresInnovacionSofisticacion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-07-03';
-        $this->autor         = 'Lic. Rodrigo González Morales';
-        $this->nombre        = 'Sectores de Innovación y Sofisticación';
-        $this->nombre_menu   = 'Etiqueta';
-        $this->directorio    = 'blog';
-        $this->archivo       = 'sectores-innovacion-sofisticacion';
-        $this->descripcion   = 'Análisis de los indicadores relativos a la innovación.';
-        $this->claves        = 'IMPLAN, Torreon';
-        $this->imagen_previa = 'sectores-innovacion-sofisticacion/imagen-previa.jpg';
-        $this->categorias    = array('Innovación', 'Empresas');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="vision-mision/encabezado.jpg">';
-        $this->contenido     = <<<FINAL
-<span class="contenido-imagen-previa"><img src="sectores-innovacion-sofisticacion/imagen.jpg"></span>
+        // Título, autor y fecha
+        $this->nombre           = 'Sectores de Innovación y Sofisticación';
+        $this->autor            = 'Lic. Rodrigo González Morales';
+        $this->fecha            = '2014-07-03T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'sectores-innovacion-sofisticacion';
+        $this->imagen_previa    = 'sectores-innovacion-sofisticacion/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Análisis de los indicadores relativos a la innovación.';
+        $this->claves           = 'IMPLAN, Torreon, Indicadores, Innovacion';
+        $this->categorias       = array('Innovación', 'Empresas');
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        $this->directorio       = 'blog';
+        $this->nombre_menu      = 'Análisis Publicados';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaBlogPosting();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'sectores-innovacion-sofisticacion/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->articleBody    = <<<FINAL
 
 <p>El subíndice de sectores de innovación y sofisticación tiene a la cabeza a la ciudad de Monterrey, en el se consideran las capacidades de investigación y las certificaciones de las empresas. La ZML se ubica en el lugar 29, mientras Gómez Palacio, Torreón y Lerdo se ubican por encima de la calificación global, Matamoros se encuentra un poco por debajo, pero aún encima de la media de ciudades.</p>
 
@@ -54,9 +67,12 @@ class SectoresInnovacionSofisticacion extends \Base\Publicacion {
 <img class="img-responsive contenido-imagen" src="sectores-innovacion-sofisticacion/indicadores.png" alt="Indicadores">
 
 <p>Los siguientes indicadores consideran datos estatales ya que todos ellos provienen del Consejo Nacional de Ciencia y Tecnología, aunque son referenciados a datos municipales, usando variables como el propio número de empresas o la PEA. En este sentido Torreón es quien presenta más baja proporción en empresas certificadas, número de investigadores en el Sistema Nacional de Investigadores (SNI) así como patentes registradas, a pesar de que Durango presenta menores registros que Coahuila en estos aspectos, pero la proporción a su población es superior para Gómez Palacio y Lerdo. Este subíndice evidencia la necesidad de contar con registros a nivel municipal en cuanto a innovación.</p>
+
 FINAL;
-        $this->javascript    = <<<FINAL
-FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase SectoresInnovacionSofisticacion

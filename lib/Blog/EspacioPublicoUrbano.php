@@ -1,8 +1,8 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - DESCRIPCION
+ * TrcIMPLAN Sitio Web - Espacio Público Urbano
  *
- * Copyright (C) 2015 IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,25 +23,25 @@
 namespace Blog;
 
 /**
- * Clase SeguridadHumana
+ * Clase EspacioPublicoUrbano
  */
-class SeguridadHumana extends \Base\Publicacion {
+class EspacioPublicoUrbano extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Seguridad Humana';
-        $this->autor            = 'Lic. Alfredo Viesca Domínguez';
-        $this->fecha            = '2015-02-17T08:00';
+        $this->nombre           = 'Espacio Público Urbano';
+        $this->autor            = 'Arq. Teresita Benítez Saludado';
+        $this->fecha            = '2015-03-20T14:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'seguridad-humana';
-        $this->imagen_previa    = 'seguridad-humana/imagen-previa.jpg';
+        $this->archivo          = 'espacio-publico-urbano';
+        $this->imagen_previa    = 'espacio-publico-urbano/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'La población se siente insegura no solo por las acciones de la delincuencia organizada, también la genera la falta de empleo, la pobreza persistente, la ausencia de acceso a cuidados básicos de salud, la violencia física, la violencia familiar, la represión política, la violación a los derechos humanos, el deterioro ambiental, la incertidumbre política, la falta de educación, la imposibilidad de ejercer el derecho de libre expresión y la ausencia de equidad de género entre otros.';
-        $this->claves           = 'IMPLAN, Torreon, Poblacion, Delincuencia, Empleo, Seguridad';
-        $this->categorias       = array('Seguridad');
+        $this->descripcion      = 'Las calles son la forma más importante de espacio público. Requieren algunos cambios urbanos para que sean más seguras y amistosas para los niños y niñas; que lleguen a ser de alta calidad.';
+        $this->claves           = 'IMPLAN, Torreon';
+        $this->categorias       = array('Blog');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
@@ -52,17 +52,17 @@ class SeguridadHumana extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'seguridad-humana/imagen.jpg';
+        $schema->image          = 'espacio-publico-urbano/imagen.jpg';
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/SeguridadHumana.md');
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/EspacioPublicoUrbano.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
     } // constructor
 
-} // Clase SeguridadHumana
+} // Clase EspacioPublicoUrbano
 
 ?>

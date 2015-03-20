@@ -1,6 +1,4 @@
 
-<span class="contenido-imagen-previa"><img class="img-responsive" src="segunda-generacion-sitio-web/imagen.jpg"></span>
-
 A partir de enero de 2015 se puso en línea el nuevo sitio web del IMPLAN Torreón. No sólo se trata de una nueva imagen, sino un gran conjunto de innovaciones que extienden las capacidades y la organización de mucha información de utilidad para todos.
 
 <div style="clear:left;"></div>
