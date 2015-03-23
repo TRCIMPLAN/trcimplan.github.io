@@ -37,6 +37,32 @@ class SchemaContactPoint extends SchemaThing {
     public $telephone;
 
     /**
+     * e-mail HTML
+     *
+     * @return string Código HTML
+     */
+    protected function email_html() {
+        if ($this->email != '') {
+            return "  <div class=\"email\">e-mail: <span itemprop=\"email\">{$this->email}</span></div>";
+        } else {
+            return '';
+        }
+    } // email_html
+
+    /**
+     * Telephone HTML
+     *
+     * @return string Código HTML
+     */
+    protected function telephone_html() {
+        if ($this->telephone != '') {
+            return "  <div class=\"telefono\">Teléfono: <span itemprop=\"telephone\">{$this->telephone}</span></div>";
+        } else {
+            return '';
+        }
+    } // telephone_html
+
+    /**
      * HTML
      *
      * @return string Código HTML
@@ -44,13 +70,18 @@ class SchemaContactPoint extends SchemaThing {
     public function html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular inicia
+        // Acumular
         if ($this->onTypeProperty != '') {
             $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/ContactPoint\">";
         } else {
             $a[] = '<div itemscope itemtype="http://schema.org/ContactPoint">';
         }
-        // Acumular termina
+        $a[] = $this->image_html();
+        $a[] = $this->title_html();
+        $a[] = $this->description_html();
+        $a[] = $this->telephone_html();
+        $a[] = $this->email_html();
+        $a[] = $this->url_html();
         $a[] = '</div>';
         // Entregar
         return implode("\n", $a);

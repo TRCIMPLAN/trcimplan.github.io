@@ -36,6 +36,7 @@ class SchemaGovernmentOrganization extends SchemaOrganization {
     // public $name;           // Text. The name of the item.
     // public $url;            // URL of the item.
     // public $url_label;      // Label for the URL of the item.
+    // public $address;        // Instancia de SchemaPostalAddress
 
     /**
      * HTML
@@ -45,35 +46,20 @@ class SchemaGovernmentOrganization extends SchemaOrganization {
     public function html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular inicia
+        // Acumular
         if ($this->onTypeProperty != '') {
             $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/GovernmentOrganization\">";
         } else {
             $a[] = '<div itemscope itemtype="http://schema.org/GovernmentOrganization">';
         }
-        // Propiedad image
-        if ($this->image != '') {
-            $a[] = "  <img class=\"imagen-previa\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\">";
+        $a[] = $this->image_html();
+        $a[] = $this->title_html();
+        $a[] = $this->description_html();
+        if (is_object($this->address) && ($this->address instanceof SchemaPostalAddress)) {
+            $this->address->onTypeProperty = 'address';
+            $a[] = $this->address->html();
         }
-        // Propiedad name
-        if ($this->name != '') {
-            $a[] = "  <h3 class=\"titulo\" itemprop=\"name\">{$this->name}</h3>";
-        } else {
-            throw new \Exception('Error en SchemaGovernmentOrganization, html: La propiedad name es incorrecta.');
-        }
-        // Propiedad description
-        if ($this->description != '') {
-            $a[] = "  <div class=\"descripcion\" itemprop=\"description\">{$this->description}</div>";
-        }
-        // Propiedad url
-        if ($this->url != '') {
-            if ($this->url_label != '') {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->url_label}</a>";
-            } else {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->name}</a>";
-            }
-        }
-        // Acumular termina
+        $a[] = $this->url_html();
         $a[] = '</div>';
         // Entregar
         return implode("\n", $a);

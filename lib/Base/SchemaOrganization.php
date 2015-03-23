@@ -36,6 +36,7 @@ class SchemaOrganization extends SchemaThing {
     // public $name;           // Text. The name of the item.
     // public $url;            // URL of the item.
     // public $url_label;      // Label for the URL of the item.
+    public $address;           // Instancia de SchemaPostalAddress
 
     /**
      * HTML
@@ -45,54 +46,24 @@ class SchemaOrganization extends SchemaThing {
     public function html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular inicia
+        // Acumular
         if ($this->onTypeProperty != '') {
             $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Organization\">";
         } else {
             $a[] = '<div itemscope itemtype="http://schema.org/Organization">';
         }
-        // Imagen
-        if ($this->image != '') {
-            $a[] = "  <img class=\"imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
+        $a[] = $this->image_html();
+        $a[] = $this->title_html();
+        $a[] = $this->description_html();
+        if (is_object($this->address) && ($this->address instanceof SchemaPostalAddress)) {
+            $this->address->onTypeProperty = 'address';
+            $a[] = $this->address->html();
         }
-        // Título
-        if ($this->name != '') {
-            $a[] = "  <h3 class=\"titulo\" itemprop=\"name\">{$this->name}</h3>";
-        } else {
-            throw new \Exception('Error en SchemaOrganization, html: La propiedad name es incorrecta.');
-        }
-        // Descripción
-        if ($this->description != '') {
-            $a[] = "  <div class=\"descripcion\" itemprop=\"description\">{$this->description}</div>";
-        }
-        // URL
-        if ($this->url != '') {
-            if ($this->url_label != '') {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->url_label}</a>";
-            } else {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->name}</a>";
-            }
-        }
-        // Acumular termina
+        $a[] = $this->url_html();
         $a[] = '</div>';
         // Entregar
         return implode("\n", $a);
     } // html
-
-/*
-<div itemscope itemtype="http://schema.org/GovernmentOrganization">
-    <a itemprop="url" href="www.trcimplan.gob.mx"><div itemprop="name"><strong>Instituto Municipal de Planeación y Competitividad de Torreón</strong></div>
-    </a>
-    <div itemprop="description">Órgano técnico de ...</div>
-    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <span itemprop="streetAddress">Antiguo Edificio del Banco de México, segundo piso. Av. Morelos 1217 Pte. esquina con C. Cepeda. Col. Centro.</span><br>
-        <span itemprop="addressLocality">Torreón</span><br>
-        <span itemprop="addressRegion">Coahuila</span><br>
-        <span itemprop="postalCode">27000</span><br>
-    <span itemprop="addressCountry">México</span><br>
-    </div>
-</div>
-*/
 
 } // Clase SchemaOrganization
 
