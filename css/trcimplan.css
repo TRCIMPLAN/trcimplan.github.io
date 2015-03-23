@@ -144,7 +144,7 @@ a:active  { color:#FF3300; text-decoration:none; }
 
 /* Contenido más */
 .titulo {
-    font-weight:bold;
+    color:#000;
 }
 .descripcion {
     font-size:0.8em;

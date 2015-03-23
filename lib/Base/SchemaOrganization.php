@@ -30,13 +30,44 @@ namespace Base;
  */
 class SchemaOrganization extends SchemaThing {
 
+    // public $identation = 3; // Integer. Level of identation (beautiful code).
     // public $onTypeProperty; // Text. Use when this item is part of another one.
+    // public $extra;          // Text. Additional HTML to put inside.
     // public $description;    // Text. A short description of the item.
     // public $image;          // URL or ImageObject. An image of the item.
     // public $name;           // Text. The name of the item.
     // public $url;            // URL of the item.
     // public $url_label;      // Label for the URL of the item.
-    public $address;           // Instancia de SchemaPostalAddress
+    public $address;           // Instance of SchemaPostalAddress. Physical address of the item.
+    public $email;             // Text. Email address.
+    public $location;          // Instance of SchemaPostalAddress or SchemaPlace. The location of the event, organization or action.
+    public $telephone;         // Text. The telephone number.
+
+    /**
+     * e-mail HTML
+     *
+     * @return string Código HTML
+     */
+    protected function email_html() {
+        if ($this->email != '') {
+            return "  <div class=\"email\">e-mail: <a itemprop=\"email\" href=\"mailto:{$this->email}\">{$this->email}</a></div>";
+        } else {
+            return '';
+        }
+    } // email_html
+
+    /**
+     * Telephone HTML
+     *
+     * @return string Código HTML
+     */
+    protected function telephone_html() {
+        if ($this->telephone != '') {
+            return "  <div class=\"telefono\">Teléfono: <span itemprop=\"telephone\">{$this->telephone}</span></div>";
+        } else {
+            return '';
+        }
+    } // telephone_html
 
     /**
      * HTML
@@ -44,25 +75,42 @@ class SchemaOrganization extends SchemaThing {
      * @return string Código HTML
      */
     public function html() {
+        // Definir los espacios antes de cada renglón
+        $spaces = str_repeat('  ', $this->identation);
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Organization\">";
+            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Organization\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/Organization">';
+            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Organization">';
+        }
+        if ($this->big_heading) {
+            $a[] = $this->big_heading_html();
+        } else {
+            $a[] = $this->title_html();
+            $a[] = $this->description_html();
         }
         $a[] = $this->image_html();
-        $a[] = $this->title_html();
-        $a[] = $this->description_html();
         if (is_object($this->address) && ($this->address instanceof SchemaPostalAddress)) {
             $this->address->onTypeProperty = 'address';
+            $this->address->identation     = $this->identation + 1;
             $a[] = $this->address->html();
         }
+        $a[] = $this->telephone_html();
+        $a[] = $this->email_html();
         $a[] = $this->url_html();
+        if (is_object($this->location) && (($this->location instanceof SchemaPostalAddress) || ($this->location instanceof SchemaPlace))) {
+            $this->location->onTypeProperty = 'location';
+            $this->location->identation     = $this->identation + 1;
+            $a[] = $this->address->html();
+        }
+        if ($this->extra != '') {
+            $a[] = $this->extra;
+        }
         $a[] = '</div>';
         // Entregar
-        return implode("\n", $a);
+        return implode("\n$spaces", $a);
     } // html
 
 } // Clase SchemaOrganization

@@ -30,30 +30,31 @@ namespace Base;
  */
 class SchemaPlace extends SchemaThing {
 
+    // public $identation = 3; // Integer. Level of identation (beautiful code).
     // public $onTypeProperty; // Text. Use when this item is part of another one.
+    // public $extra;          // Text. Additional HTML to put inside.
     // public $description;    // Text. A short description of the item.
     // public $image;          // URL or ImageObject. An image of the item.
     // public $name;           // Text. The name of the item.
     // public $url;            // URL of the item.
     // public $url_label;      // Label for the URL of the item.
-    public $address;           // PostalAddress. Physical address of the item.
+    public $address;           // Instance of PostalAddress. Physical address of the item.
     public $geo;               // Instance of SchemaGeoCoordinates. The geo coordinates of the place.
     public $logo;              // URL or ImageObject. An associated logo.
     public $telephone;         // Text. The telephone number.
 
     /**
-     * Geo HTML
+     * Logo HTML
      *
      * @return string Código HTML
      */
-    protected function geo_html() {
-        if ($this->geo instanceof SchemaGeoCoordinates) {
-            $this->geo->onTypeProperty = 'geo';
-            return $this->geo->html();
+    protected function logo_html() {
+        if ($this->image != '') {
+            return "  <img class=\"contenido-imagen-previa\" itemprop=\"logo\" alt=\"{$this->name}\" src=\"{$this->logo}\">";
         } else {
-            throw new \Exception('Error en SchemaPlace, geo_html: La propiedad geo no es instancia de SchemaGeoCoordinates');
+            return '';
         }
-    } // geo_html
+    } // logo_html
 
     /**
      * Telephone HTML
@@ -62,7 +63,7 @@ class SchemaPlace extends SchemaThing {
      */
     protected function telephone_html() {
         if ($this->telephone != '') {
-            return "  <div>Teléfono: <span itemprop=\"telephone\">{$this->telephone}</span></div>";
+            return "  <div class=\"telefono\">Teléfono: <span itemprop=\"telephone\">{$this->telephone}</span></div>";
         } else {
             return '';
         }
@@ -74,23 +75,41 @@ class SchemaPlace extends SchemaThing {
      * @return string Código HTML
      */
     public function html() {
+        // Definir los espacios antes de cada renglón
+        $spaces = str_repeat('  ', $this->identation);
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Place\">";
+            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Place\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/Place">';
+            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Place">';
         }
-        $a[] = $this->image_html();
-        $a[] = $this->title_html();
-        $a[] = $this->description_html();
-        $a[] = $this->geo_html();
-        $a[] = $this->url_html();
+        if ($this->big_heading) {
+            $a[] = $this->big_heading_html();
+        } else {
+            $a[] = $this->title_html();
+            $a[] = $this->description_html();
+        }
+        $a[] = $this->logo_html();
+        if (is_object($this->address) && ($this->address instanceof SchemaPostalAddress)) {
+            $this->address->onTypeProperty = 'address';
+            $this->address->identation     = $this->identation + 1;
+            $a[] = $this->address->html();
+        }
+        if (is_object($this->geo) && ($this->geo instanceof SchemaGeoCoordinates)) {
+            $this->geo->onTypeProperty = 'geo';
+            $this->geo->identation     = $this->identation + 1;
+            $a[] = $this->geo->html();
+        }
         $a[] = $this->telephone_html();
+        $a[] = $this->url_html();
+        if ($this->extra != '') {
+            $a[] = $this->extra;
+        }
         $a[] = '</div>';
         // Entregar
-        return implode("\n", $a);
+        return implode("\n$spaces", $a);
     } // html
 
 } // Clase SchemaPlace

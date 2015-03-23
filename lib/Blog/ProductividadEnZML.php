@@ -96,6 +96,8 @@ class ProductividadEnZML extends \Base\Publicacion {
 
 <p>Por último, al comparar los municipios de la zona con otras ciudades de la república, San Pedro Garza García es el número uno en productividad, seguido por Reynosa y Saltillo, mientras Torreón ocupa el cuarto lugar con 730 mil pesos por trabajador:</p>
 
+<img class="img-responsive contenido-imagen" src="productividad-zml/10-productividad-laboral-comparativa.png" alt="Productividad laboral comparativa con otros municipios">
+
 FINAL;
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;

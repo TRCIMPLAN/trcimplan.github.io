@@ -30,7 +30,9 @@ namespace Base;
  */
 class SchemaDataset extends SchemaCreativeWork {
 
+    // public $identation = 3;  // Integer. Level of identation (beautiful code).
     // public $onTypeProperty;  // Text. Use when this item is part of another one.
+    // public $extra;           // Text. Additional HTML to put inside.
     // public $description;     // Text. A short description of the item.
     // public $image;           // URL or ImageObject. An image of the item.
     // public $name;            // Text. The name of the item.
@@ -44,8 +46,47 @@ class SchemaDataset extends SchemaCreativeWork {
     // public $producer;        // Organization or Person. The person or organization who produced the work.
     public $catalog;            // DataCatalog. A data catalog which contains a dataset.
     public $distribution;       // DataDownload. A downloadable form of this dataset, at a specific location, in a specific format.
-    public $spatial;            // Place. The range of spatial applicability of a dataset, e.g. for a dataset of New York weather, the state of New York.
+    public $spatial;            // Instance of SchemaPlace. The range of spatial applicability of a dataset, e.g. for a dataset of New York weather, the state of New York.
     public $temporal;           // DateTime. The range of temporal applicability of a dataset, e.g. for a 2011 census dataset, the year 2011 (in ISO 8601 time interval format).
+
+    /**
+     * Catalog HTML
+     *
+     * @return string Código HTML
+     */
+    protected function catalog_html() {
+        if ($this->catalog != '') {
+            return "  <div class=\"catalogo\" itemprop=\"catalog\">{$this->catalog}</div>";
+        } else {
+            return '';
+        }
+    } // catalog_html
+
+    /**
+     * Distribution HTML
+     *
+     * @return string Código HTML
+     */
+    protected function distribution_html {
+        if ($this->distribution != '') {
+            return "  <div class=\"distribucion\" itemprop=\"distribution\">{$this->distribution}</div>";
+        } else {
+            return '';
+        }
+    } // distribution_html
+
+    /**
+     * Temporal HTML
+     *
+     * @return string Código HTML
+     */
+    protected function temporal_html() {
+        if ($this->temporal != '') {
+            return sprintf('  <div class="temporal">Temporal: <meta itemprop="temporal" content="%s">%s</div>', $this->temporal, $this->fecha_con_formato_humano($this->temporal));
+        } else {
+            return '';
+        }
+    } // temporal_html
 
     /**
      * HTML
@@ -53,47 +94,32 @@ class SchemaDataset extends SchemaCreativeWork {
      * @return string Código HTML
      */
     public function html() {
+        // Definir los espacios antes de cada renglón
+        $spaces = str_repeat('  ', $this->identation);
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular inicia
+        // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Dataset\">";
+            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Dataset\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/Dataset">';
+            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Dataset">';
         }
-        // Encabezado
-        $a[] = $this->encabezado_html();
-        // Imagen
-        if ($this->image != '') {
-            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
+        $a[] = $this->big_heading_html();
+        $a[] = $this->image_html();
+        if (is_object($this->spatial) && ($this->spatial instanceof SchemaPlace)) {
+            $this->spatial->onTypeProperty = 'spatial';
+            $this->spatial->identation     = $this->identation + 1;
+            $a[] = $this->spatial->html();
         }
-        // Catálogo, espacial y temporal
-        if (($this->catalog != '') || ($this->spatial != '') || ($this->temporal != '')) {
-            $a[] = '  <div>';
-            // Catálogo
-            if ($this->catalog != '') {
-                $a[] = "    Catálogo: <span itemprop=\"catalog\">{$this->catalog}</span>";
-            }
-            // Espacial
-            if ($this->spatial != '') {
-                $a[] = "    Espacial: <span itemprop=\"spatial\">{$this->spatial}</span>";
-            }
-            // Temporal
-            if ($this->temporal != '') {
-                $a[] = sprintf('    Temporal: <meta itemprop="datePublished" content="%s">%s', $this->temporal, $this->fecha_con_formato_humano($this->temporal));
-            }
-            $a[] = '  </div>';
+        $a[] = $this->catalog_html();
+        $a[] = $this->temporal_html();
+        $a[] = $this->distribution_html();
+        if ($this->extra != '') {
+            $a[] = $this->extra;
         }
-        // Distribución
-        if ($this->distribution != '') {
-            $a[] = '  <div itemprop="distribution">';
-            $a[] = $this->distribution;
-            $a[] = '  </div>';
-        }
-        // Acumular termina
         $a[] = '</div>';
         // Entregar
-        return implode("\n", $a);
+        return implode("\n$spaces", $a);
     } // html
 
 } // Clase SchemaDataset

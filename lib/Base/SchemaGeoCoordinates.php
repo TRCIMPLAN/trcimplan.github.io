@@ -30,33 +30,38 @@ namespace Base;
  */
 class SchemaGeoCoordinates extends SchemaThing {
 
+    // public $identation = 3; // Integer. Level of identation (beautiful code).
     // public $onTypeProperty; // Text. Use when this item is part of another one.
+    // public $extra;          // Text. Additional HTML to put inside.
     // public $description;    // Text. A short description of the item.
     // public $image;          // URL or ImageObject. An image of the item.
     // public $name;           // Text. The name of the item.
     // public $url;            // URL of the item.
     // public $url_label;      // Label for the URL of the item.
-    public $elevation;         // Number or Text. The elevation of a location.
     public $latitude;          // Number or Text. The latitude of a location. For example 37.42242
     public $longitude;         // Number or Text. The longitude of a location. For example -122.08585
 
     /**
-     * Latitud con formato humano
-     *
-     * @return string
+     * Latitude HTML
      */
-    protected function latitud_con_formato_humano() {
-        return $this->latitude;
-    } // latitud_con_formato_humano
+    protected function latitude_html() {
+        if ($this->latitude != '') {
+            return sprintf('  Latitud: <meta itemprop="latitude" content="%s">%s', $this->latitude, $this->latitude);
+        } else {
+            return '';
+        }
+    } // latitude_html
 
     /**
-     * Longitud con formato humano
-     *
-     * @return string
+     * Longitude HTML
      */
-    protected function longitud_con_formato_humano() {
-        return $this->longitude;
-    } // longitud_con_formato_humano
+    protected function longitude_html() {
+        if ($this->latitude != '') {
+            return sprintf('  Longitud: <meta itemprop="longitude" content="%s">%s', $this->longitude, $this->longitude);
+        } else {
+            return '';
+        }
+    } // longitude_html
 
     /**
      * HTML
@@ -64,21 +69,32 @@ class SchemaGeoCoordinates extends SchemaThing {
      * @return string Código HTML
      */
     public function html() {
+        // Definir los espacios antes de cada renglón
+        $spaces = str_repeat('  ', $this->identation);
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular inicia
+        // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/GeoCoordinates\">";
+            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/GeoCoordinates\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/GeoCoordinates">';
+            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/GeoCoordinates">';
         }
-        // Latitud y longitud
-        $a[] = sprintf('  Latitud: %s <meta itemprop="latitude" content="%s">', $this->latitud_con_formato_humano(), $this->latitude);
-        $a[] = sprintf('  Longitud: %s <meta itemprop="longitude" content="%s">', $this->longitud_con_formato_humano(), $this->longitude);
-        // Acumular termina
+        if ($this->big_heading) {
+            $a[] = $this->big_heading_html();
+        } else {
+            $a[] = $this->title_html();
+            $a[] = $this->description_html();
+        }
+        $a[] = $this->image_html();
+        $a[] = $this->latitude_html();
+        $a[] = $this->longitude_html();
+        $a[] = $this->url_html();
+        if ($this->extra != '') {
+            $a[] = $this->extra;
+        }
         $a[] = '</div>';
         // Entregar
-        return implode("\n", $a);
+        return implode("\n$spaces", $a);
     } // html
 
 } // Clase SchemaGeoCoordinates

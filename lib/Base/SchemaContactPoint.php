@@ -27,14 +27,16 @@ namespace Base;
  */
 class SchemaContactPoint extends SchemaThing {
 
-    // public $onTypeProperty;
-    // public $description;
-    // public $image;
-    // public $name;
-    // public $url;
-    // public $url_label;
-    public $email;
-    public $telephone;
+    // public $identation = 3; // Integer. Level of identation (beautiful code).
+    // public $onTypeProperty; // Text. Use when this item is part of another one.
+    // public $extra;          // Text. Additional HTML to put inside.
+    // public $description;    // Text. A short description of the item.
+    // public $image;          // URL or ImageObject. An image of the item.
+    // public $name;           // Text. The name of the item.
+    // public $url;            // URL of the item.
+    // public $url_label;      // Label for the URL of the item.
+    public $email;             // Text. Email address.
+    public $telephone;         // Text. The telephone number.
 
     /**
      * e-mail HTML
@@ -43,7 +45,7 @@ class SchemaContactPoint extends SchemaThing {
      */
     protected function email_html() {
         if ($this->email != '') {
-            return "  <div class=\"email\">e-mail: <span itemprop=\"email\">{$this->email}</span></div>";
+            return "  <div class=\"email\">e-mail: <a itemprop=\"email\" href=\"mailto:{$this->email}\">{$this->email}</a></div>";
         } else {
             return '';
         }
@@ -68,23 +70,32 @@ class SchemaContactPoint extends SchemaThing {
      * @return string Código HTML
      */
     public function html() {
+        // Definir los espacios antes de cada renglón
+        $spaces = str_repeat('  ', $this->identation);
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/ContactPoint\">";
+            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/ContactPoint\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/ContactPoint">';
+            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/ContactPoint">';
+        }
+        if ($this->big_heading) {
+            $a[] = $this->big_heading_html();
+        } else {
+            $a[] = $this->title_html();
+            $a[] = $this->description_html();
         }
         $a[] = $this->image_html();
-        $a[] = $this->title_html();
-        $a[] = $this->description_html();
         $a[] = $this->telephone_html();
         $a[] = $this->email_html();
         $a[] = $this->url_html();
+        if ($this->extra != '') {
+            $a[] = $this->extra;
+        }
         $a[] = '</div>';
         // Entregar
-        return implode("\n", $a);
+        return implode("\n$spaces", $a);
     } // html
 
 } // Clase SchemaContactPoint

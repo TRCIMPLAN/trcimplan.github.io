@@ -30,7 +30,9 @@ namespace Base;
  */
 class SchemaProduct extends SchemaThing {
 
+    // public $identation = 3; // Integer. Level of identation (beautiful code).
     // public $onTypeProperty; // Text. Use when this item is part of another one.
+    // public $extra;          // Text. Additional HTML to put inside.
     // public $description;    // Text. A short description of the item.
     // public $image;          // URL or ImageObject. An image of the item.
     // public $name;           // Text. The name of the item.
@@ -38,7 +40,33 @@ class SchemaProduct extends SchemaThing {
     // public $url_label;      // Label for the URL of the item.
     public $logo;              // ImageObject or URL. An associated logo.
     public $manufacturer;      // Organization. The manufacturer of the product.
-    public $releaseDate;       // The release date of a product or product model. This can be used to distinguish the exact variant of a product.
+    public $releaseDate;       // Date. The release date of a product or product model. This can be used to distinguish the exact variant of a product.
+
+    /**
+     * Logo HTML
+     *
+     * @return string Código HTML
+     */
+    protected function logo_html() {
+        if ($this->image != '') {
+            return "  <img class=\"contenido-imagen-previa\" itemprop=\"logo\" alt=\"{$this->name}\" src=\"{$this->logo}\">";
+        } else {
+            return '';
+        }
+    } // logo_html
+
+    /**
+     * Release Date HTML
+     *
+     * @return string Código HTML
+     */
+    protected function relase_date_html() {
+        if ($this->image != '') {
+            return "  <meta itemprop=\"releaseDate\" content=\"{$this->releaseDate}\">";
+        } else {
+            return '';
+        }
+    } // relase_date_html
 
     /**
      * HTML
@@ -46,40 +74,36 @@ class SchemaProduct extends SchemaThing {
      * @return string Código HTML
      */
     public function html() {
+        // Definir los espacios antes de cada renglón
+        $spaces = str_repeat('  ', $this->identation);
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular inicia
+        // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Product\">";
+            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Product\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/Product">';
+            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Product">';
         }
-        // Propiedad image
-        if ($this->image != '') {
-            $a[] = "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"Imagen previa\" src=\"{$this->image}\">";
-        }
-        // Propiedad name
-        if ($this->name != '') {
-            $a[] = "  <h3 class=\"titulo\" itemprop=\"name\">{$this->name}</h3>";
+        if ($this->big_heading) {
+            $a[] = $this->big_heading_html();
         } else {
-            throw new \Exception('Error en SchemaProduct, html: La propiedad name es incorrecta.');
+            $a[] = $this->title_html();
+            $a[] = $this->description_html();
         }
-        // Propiedad description
-        if ($this->description != '') {
-            $a[] = "  <div class=\"descripcion\" itemprop=\"description\">{$this->description}</div>";
+        $a[] = $this->logo_html();
+        if (is_object($this->manufacturer) && ($this->manufacturer instanceof SchemaOrganization)) {
+            $this->address->onTypeProperty = 'manufacturer';
+            $this->address->identation     = $this->identation + 1;
+            $a[] = $this->manufacturer->html();
         }
-        // Propiedad url
-        if ($this->url != '') {
-            if ($this->url_label != '') {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->url_label}</a>";
-            } else {
-                $a[] = "  <a href=\"{$this->url}\" itemprop=\"url\">{$this->name}</a>";
-            }
+        $a[] = $this->relase_date_html();
+        $a[] = $this->url_html();
+        if ($this->extra != '') {
+            $a[] = $this->extra;
         }
-        // Acumular termina
         $a[] = '</div>';
         // Entregar
-        return implode("\n", $a);
+        return implode("\n$spaces", $a);
     } // html
 
 } // Clase SchemaProduct

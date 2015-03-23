@@ -30,7 +30,9 @@ namespace Base;
  */
 class SchemaArticle extends SchemaCreativeWork {
 
+    // public $identation = 3;  // Integer. Level of identation (beautiful code).
     // public $onTypeProperty;  // Text. Use when this item is part of another one.
+    // public $extra;           // Text. Additional HTML to put inside.
     // public $description;     // Text. A short description of the item.
     // public $image;           // URL or ImageObject. An image of the item.
     // public $name;            // Text. The name of the item.
@@ -45,37 +47,49 @@ class SchemaArticle extends SchemaCreativeWork {
     public $articleBody;        // Text. The actual body of the article.
 
     /**
+     * Article Body HTML
+     *
+     * @return string Código HTML
+     */
+    protected function article_body_html() {
+        if ($this->articleBody != '') {
+            $a   = array();
+            $a[] = '<div itemprop="articleBody">';
+            $a[] = $this->articleBody;
+            $a[] = '</div>';
+            // Entregar
+            $spaces = str_repeat('  ', $this->identation + 1);
+            return $spaces.implode("\n$spaces", $a);
+        } else {
+            return '';
+        }
+    } // article_body_html
+
+    /**
      * HTML
      *
      * @return string Código HTML
      */
     public function html() {
+        // Definir los espacios antes de cada renglón
+        $spaces = str_repeat('  ', $this->identation);
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Acumular inicia
+        // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Article\">";
+            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Article\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/Article">';
+            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Article">';
         }
-        // Encabezado
-        $a[] = $this->encabezado_html();
-        // Imagen
-        if ($this->image != '') {
-            $a[] = "  <span class=\"contenido-imagen-previa\"><img class=\"img-responsive\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\"></span>";
+        $a[] = $this->big_heading_html();
+        $a[] = $this->image_html();
+        $a[] = $this->article_body_html();
+        if ($this->extra != '') {
+            $a[] = $this->extra;
         }
-        // Contenido
-        if ($this->articleBody != '') {
-            $a[] = '  <div itemprop="articleBody">';
-            $a[] = $this->articleBody;
-            $a[] = '  </div>';
-        } else {
-            throw new \Exception("Error en SchemaArticle, html: La propiedad articleBody es incorrecta.");
-        }
-        // Acumular termina
         $a[] = '</div>';
         // Entregar
-        return implode("\n", $a);
+        return implode("\n$spaces", $a);
     } // html
 
 } // Clase SchemaArticle

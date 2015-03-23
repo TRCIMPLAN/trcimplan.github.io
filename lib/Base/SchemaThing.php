@@ -30,12 +30,16 @@ namespace Base;
  */
 class SchemaThing {
 
-    public $onTypeProperty; // Text. Use when this item is part of another one.
-    public $description;    // Text. A short description of the item.
-    public $image;          // URL or ImageObject. An image of the item.
-    public $name;           // Text. The name of the item.
-    public $url;            // URL of the item.
-    public $url_label;      // Label for the URL of the item.
+    public $identation  = 3;     // Integer. Level of identation (beautiful code).
+    public $big_heading = false; // Boolean. Use true to use a big heading for the web page.
+    public $headline_style;      // Text. Style or Hex Color for big heading.
+    public $onTypeProperty;      // Text. Use when this item is part of another one.
+    public $extra;               // Text. Additional HTML to put inside.
+    public $description;         // Text. A short description of the item.
+    public $image;               // URL or ImageObject. An image of the item.
+    public $name;                // Text. The name of the item.
+    public $url;                 // URL of the item.
+    public $url_label;           // Label for the URL of the item.
 
     /**
      * Fecha con formato humano
@@ -63,17 +67,35 @@ class SchemaThing {
     } // fecha_con_formato_humano
 
     /**
-     * Image HTML
+     * Big Heading HTML
      *
      * @return string Código HTML
      */
-    protected function image_html() {
-        if ($this->image != '') {
-            return "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\">";
+    protected function big_heading_html() {
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Puede recibir un estilo o un color hexadecimal
+        if ($this->headline_style != '') {
+            if (preg_match('/^#[[:xdigit:]]{6}$/', $this->headline_style) === 1) {
+                $a[] = "<div class=\"encabezado\" style=\"background-color:{$this->headline_style};\">";
+            } else {
+                $a[] = "<div class=\"encabezado\" style=\"{$this->headline_style};\">";
+            }
         } else {
-            return '';
+            $a[] = "<div class=\"encabezado\">";
         }
-    } // image_html
+        // Acumular
+        if ($this->name != '') {
+            $a[] = "  <h1 itemprop=\"name\">{$this->name}</h1>";
+        }
+        if ($this->description != '') {
+            $a[] = "  <div class=\"encabezado-descripcion\" itemprop=\"description\">{$this->description}</div>";
+        }
+        $a[] = "</div>";
+        // Entregar
+        $spaces = str_repeat('  ', $this->identation + 1);
+        return '  '.implode("\n$spaces", $a);
+    } // big_heading_html
 
     /**
      * Title HTML
@@ -84,7 +106,7 @@ class SchemaThing {
         if ($this->name != '') {
             return "  <h3 class=\"titulo\" itemprop=\"name\">{$this->name}</h3>";
         } else {
-            throw new \Exception('Error en SchemaThing, title_html: La propiedad name es incorrecta.');
+            return '';
         }
     } // title_html
 
@@ -100,6 +122,20 @@ class SchemaThing {
             return '';
         }
     } // description_html
+
+    /**
+     * Image HTML
+     *
+     * @return string Código HTML
+     */
+    protected function image_html() {
+        if ($this->image != '') {
+            return "  <span class=\"contenido-imagen-previa\"><img class=\"img-responsive\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\"></span>";
+         // return "  <img class=\"contenido-imagen-previa\" itemprop=\"image\" alt=\"{$this->name}\" src=\"{$this->image}\">";
+        } else {
+            return '';
+        }
+    } // image_html
 
     /**
      * URL HTML
@@ -124,21 +160,30 @@ class SchemaThing {
      * @return string Código HTML
      */
     public function html() {
+        // Definir los espacios antes de cada renglón
+        $spaces = str_repeat('  ', $this->identation);
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "<div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Thing\">";
+            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Thing\">";
         } else {
-            $a[] = '<div itemscope itemtype="http://schema.org/Thing">';
+            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Thing">';
+        }
+        if ($this->big_heading) {
+            $a[] = $this->big_heading_html();
+        } else {
+            $a[] = $this->title_html();
+            $a[] = $this->description_html();
         }
         $a[] = $this->image_html();
-        $a[] = $this->title_html();
-        $a[] = $this->description_html();
         $a[] = $this->url_html();
+        if ($this->extra != '') {
+            $a[] = $this->extra;
+        }
         $a[] = '</div>';
         // Entregar
-        return implode("\n", $a);
+        return implode("\n$spaces", $a);
     } // html
 
 } // Clase SchemaThing

@@ -1,8 +1,8 @@
 <?php
 /*
- * SMIbeta - DESCRIPCION
+ * TrcIMPLAN Sitio Web - Contacto
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,29 +31,76 @@ class Contacto extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Medios de contacto';
-     // $this->autor            = 'Autor';
-        $this->fecha            = '2014-05-01';
+     // $this->autor            = '';
+        $this->fecha            = '2014-05-01T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'contacto';
      // $this->imagen_previa    = 'contacto/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="contacto/encabezado.jpg">';
-        $this->encabezado_color = '#646464';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';
+        $this->descripcion      = 'Datos de contacto como redes sociales, correos electrónicos y teléfonos del IMPLAN Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
         $this->categorias       = array('Contacto');
-        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
+        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'contacto';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
         $this->nombre_menu      = 'Contacto > Medios de contacto';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = false;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = $this->cargar_archivo_markdown_extra('lib/Contacto/Contacto.md');
+        // El contenido es estructurado en un esquema
+        $trcimplan              = new \Base\SchemaGovernmentOrganization();
+        $trcimplan->big_heading = true;
+        $trcimplan->name        = 'Instituto Municipal de Planeación y Competitividad de Torreón';
+        $trcimplan->description = 'Órgano técnico responsable de la planeación municipal del desarrollo del municipio de Torreón, Coahuila, México.';
+        $trcimplan->image       = '../imagenes/trcimplan.jpg';
+        $trcimplan->url         = 'http://www.trcimplan.gob.mx';
+        $trcimplan->url_label   = 'www.trcimplan.gob.mx';
+        $trcimplan->telephone   = '(871) 500 7078';
+        $trcimplan->email       = 'info@trcimplan.mx';
+        $trcimplan->extra       = <<<FINAL
+<div style="clear:left;"></div>
+<h3>Correos electrónicos</h3>
+<ul>
+    <li>Eduardo Holguín, Director General: <a href="mailto:eholguin@trcimplan.mx">eholguin@trcimplan.mx</a></li>
+    <li>Ilse Ávila, Director de Proyectos: <a href="mailto:iavila@trcimplan.mx">iavila@trcimplan.mx</a></li>
+    <li>Luis Campos, Director de Planeación Urbana: <a href="mailto:lcampos@trcimplan.mx">lcampos@trcimplan.mx</a></li>
+    <li>Mariana Segovia, Director Administrativo: <a href="mailto:msegovia@trcimplan.mx">msegovia@trcimplan.mx</a></li>
+    <li>Rodrigo González, Director de Investigación Estratégica: <a href="mailto:rgonzalez@trcimplan.mx">rgonzalez@trcimplan.mx</a></li>
+    <li>Guillermo Valdés, Administrador del Sitio Web: <a href="mailto:webmaster@trcimplan.mx">webmaster@trcimplan.mx</a></li>
+</ul>
+
+FINAL;
+        // La dirección
+        $trcimplan->address                  = new \Base\SchemaPostalAddress();
+        $trcimplan->address->name            = 'Antiguo Edificio del Banco de México, segundo piso.';
+        $trcimplan->address->streetAddress   = 'Av. Morelos 1217 Pte. esquina con C. Cepeda. Col. Centro.';
+        $trcimplan->address->addressLocality = 'Torreón';
+        $trcimplan->address->addressRegion   = 'Coahuila';
+        $trcimplan->address->addressCountry  = 'México';
+        $trcimplan->address->postalCode      = '27000';
+        // La ubicación geográfica
+        $trcimplan->location                 = new \Base\SchemaPlace();
+     // $trcimplan->location->name           = 'Location: Antiguo Edificio del Banco de México, segundo piso.';
+        $trcimplan->location->geo            = new \Base\SchemaGeoCoordinates();
+        $trcimplan->location->geo->name      = 'Antiguo Edificio del Banco de México';
+        $trcimplan->location->geo->latitude  = 25.5393;
+        $trcimplan->location->geo->longitude = -103.4622;
+        $trcimplan->location->extra          = <<<FINAL
+<div style="clear:left;"></div>
+<h3>Ubicación</h3>
+<iframe width="100%" height="400" frameborder="0" src="http://guivaloz.cartodb.com/viz/1cdb40aa-b3bf-11e4-91ec-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<h3>Horario</h3>
+<ul>
+    <li>Lunes a viernes de 8:00 A.M. a 4:00 P.M.</li>
+</ul>
+
+FINAL;
+        // El contenido es una instancia de SchemaBlogPosting
+        $this->contenido        = $trcimplan;
+        // Sin JavaScript
         $this->javascript       = '';
     } // constructor
 
