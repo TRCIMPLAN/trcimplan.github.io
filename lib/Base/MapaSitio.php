@@ -117,7 +117,19 @@ class MapaSitio extends \Configuracion\MapaSitioConfig {
                 if (is_numeric($url['lastmod'])) {
                     $a[] = sprintf('    <lastmod>%s</lastmod>', date('Y-m-d', $url['lastmod']));
                 } elseif (is_string($url['lastmod'])) {
-                    $a[] = sprintf('    <lastmod>%s</lastmod>', $url['lastmod']);
+                    // Elaborar fecha de última modificación
+                    $t = strtotime($url['lastmod']);
+                    if ($t === false) {
+                        // Fecha mal escrita, se usará 1980-01-01
+                        $a[] = '    <lastmod>1980-01-01</lastmod>';
+                    } else {
+                        // Sí se interpretó bien
+                        $f   = getdate($t);
+                        $ano = $f['year'];
+                        $mes = $f['mon'];
+                        $dia = $f['mday'];
+                        $a[] = sprintf('    <lastmod>%s</lastmod>', date('Y-m-d', mktime(0, 0, 0, $mes, $dia, $ano)));
+                    }
                 }
             }
             if (isset($url['changefreq'])) {
