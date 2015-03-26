@@ -276,7 +276,7 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-total-de-empresas.html">Total de Empresas en Lerdo</a></td>
+            <td><a href="../indicadores-lerdo/economia-total-de-empresas-registradas-en-el-siem.html">Total de Empresas registradas en el SIEM en Lerdo</a></td>
             <td></td>
           </tr>
           <tr>

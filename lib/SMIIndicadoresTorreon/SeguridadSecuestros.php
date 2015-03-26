@@ -28,7 +28,6 @@ class SeguridadSecuestros extends \Base\Publicacion {
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
     <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
@@ -126,13 +125,15 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>28/02/2015</td>
+            <td>ND</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Secuestros en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Secuestros</h3>
@@ -151,36 +152,36 @@ class SeguridadSecuestros extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-01-31</td>
-            <td>0</td>
+            <td>2015-02-28</td>
+            <td>ND</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-01-31</td>
-            <td>NO TIENE</td>
+            <td>2015-02-28</td>
+            <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-01-31</td>
-            <td>NO TIENE</td>
+            <td>2015-02-28</td>
+            <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-01-31</td>
+            <td>2015-02-28</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-01-31</td>
-            <td>0</td>
+            <td>2015-02-28</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -251,7 +252,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/seguridad-homicidios.html">Homicidios en Torreón</a></td>
-            <td>Número de homicidios durante el primer trimestre de 2014</td>
+            <td>Número de homicidios por mes</td>
           </tr>
           <tr>
             <td>ND</td>
@@ -275,7 +276,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Torreón</a></td>
-            <td>Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014</td>
+            <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
           </tr>
           <tr>
             <td>ND</td>
@@ -331,29 +332,13 @@ class SeguridadSecuestros extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript   = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 1 },{ fecha: '2014-02-28', dato: 1 },{ fecha: '2014-03-31', dato: 2 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 0 },{ fecha: '2014-06-30', dato: 0 },{ fecha: '2014-07-31', dato: 0 },{ fecha: '2014-08-31', dato: 1 },{ fecha: '2014-09-30', dato: 0 },{ fecha: '2014-10-31', dato: 0 },{ fecha: '2014-11-30', dato: 0 },{ fecha: '2014-12-31', dato: 0 },{ fecha: '2015-01-31', dato: 0 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 1 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

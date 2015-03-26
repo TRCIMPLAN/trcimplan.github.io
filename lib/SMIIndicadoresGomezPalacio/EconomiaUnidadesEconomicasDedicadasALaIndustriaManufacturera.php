@@ -332,7 +332,7 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-total-de-empresas.html">Total de Empresas en Gómez Palacio</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-total-de-empresas-registradas-en-el-siem.html">Total de Empresas registradas en el SIEM en Gómez Palacio</a></td>
             <td></td>
           </tr>
           <tr>

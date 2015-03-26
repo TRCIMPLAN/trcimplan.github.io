@@ -150,12 +150,6 @@ class SustentabilidadUsoDeAutomovilParticular extends \Base\Publicacion {
             <td>La extracción del gas shale se contempla en el futuro cercano de México, pues además de contar con una de las reservas más grandes del mundo, ha contribuido positivamente en la economía de los países que lo utilizan.</td>
           </tr>
           <tr>
-            <td>30/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/relaciones-internacionales.html">Relaciones Internacionales</a></td>
-            <td>Análisis de las cuestiones internacionales como la inversión extranjera, el flujo de pasajeros y la ausencia de puertos o frontera con otro país.</td>
-          </tr>
-          <tr>
             <td>26/06/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/infraestructura.html">Infraestructura (Sectores precursores de clase mundial)</a></td>

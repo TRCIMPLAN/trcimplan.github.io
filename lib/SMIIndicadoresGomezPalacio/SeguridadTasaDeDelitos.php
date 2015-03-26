@@ -162,7 +162,7 @@ class SeguridadTasaDeDelitos extends \Base\Publicacion {
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-homicidios.html">Homicidios en Gómez Palacio</a></td>
-            <td>Número de homicidios durante el primer trimestre de 2014</td>
+            <td>Número de homicidios por mes</td>
           </tr>
           <tr>
             <td>ND</td>
@@ -186,13 +186,13 @@ class SeguridadTasaDeDelitos extends \Base\Publicacion {
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Gómez Palacio</a></td>
-            <td>Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014</td>
+            <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-secuestros.html">Secuestros en Gómez Palacio</a></td>
-            <td>Cantidad de secuestros en el primer trimestre de 2014</td>
+            <td>Cantidad de secuestros en el mes</td>
           </tr>
           <tr>
             <td>ND</td>

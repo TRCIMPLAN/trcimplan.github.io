@@ -368,7 +368,7 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-total-de-empresas.html">Total de Empresas en Torreón</a></td>
+            <td><a href="../indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html">Total de Empresas registradas en el SIEM en Torreón</a></td>
             <td></td>
           </tr>
           <tr>

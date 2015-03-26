@@ -265,6 +265,12 @@
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>28/02/2015</td>
+            <td>14</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -290,36 +296,36 @@
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-01-31</td>
-            <td>31</td>
+            <td>2015-02-28</td>
+            <td>14</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-01-31</td>
-            <td>4</td>
+            <td>2015-02-28</td>
+            <td>12</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-01-31</td>
-            <td>5</td>
+            <td>2015-02-28</td>
+            <td>12</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-01-31</td>
-            <td>4</td>
+            <td>2015-02-28</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-01-31</td>
-            <td>44</td>
+            <td>2015-02-28</td>
+            <td>30</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -408,13 +414,13 @@
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Torreón</a></td>
-            <td>Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014</td>
+            <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/seguridad-secuestros.html">Secuestros en Torreón</a></td>
-            <td>Cantidad de secuestros en el primer trimestre de 2014</td>
+            <td>Cantidad de secuestros en el mes</td>
           </tr>
           <tr>
             <td>ND</td>
@@ -511,7 +517,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 24 },{ fecha: '2014-02-28', dato: 24 },{ fecha: '2014-03-31', dato: 13 },{ fecha: '2014-04-30', dato: 16 },{ fecha: '2014-05-31', dato: 20 },{ fecha: '2014-06-30', dato: 15 },{ fecha: '2014-07-31', dato: 24 },{ fecha: '2014-08-31', dato: 21 },{ fecha: '2014-09-30', dato: 24 },{ fecha: '2014-10-31', dato: 21 },{ fecha: '2014-11-30', dato: 24 },{ fecha: '2014-12-31', dato: 15 },{ fecha: '2015-01-31', dato: 31 }],
+      data: [{ fecha: '2014-01-31', dato: 24 },{ fecha: '2014-02-28', dato: 24 },{ fecha: '2014-03-31', dato: 13 },{ fecha: '2014-04-30', dato: 16 },{ fecha: '2014-05-31', dato: 20 },{ fecha: '2014-06-30', dato: 15 },{ fecha: '2014-07-31', dato: 24 },{ fecha: '2014-08-31', dato: 21 },{ fecha: '2014-09-30', dato: 24 },{ fecha: '2014-10-31', dato: 21 },{ fecha: '2014-11-30', dato: 24 },{ fecha: '2014-12-31', dato: 15 },{ fecha: '2015-01-31', dato: 31 },{ fecha: '2015-02-28', dato: 14 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -527,7 +533,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 31 },{ region: 'Gómez Palacio', dato: 4 },{ region: 'Lerdo', dato: 5 },{ region: 'Matamoros', dato: 4 },{ region: 'La Laguna', dato: 44 }],
+      data: [{ region: 'Torreón', dato: 14 },{ region: 'Gómez Palacio', dato: 12 },{ region: 'Lerdo', dato: 12 },{ region: 'Matamoros', dato: 1 },{ region: 'La Laguna', dato: 30 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

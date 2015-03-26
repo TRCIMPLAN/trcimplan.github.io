@@ -101,6 +101,12 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>28/02/2015</td>
+            <td>0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -122,36 +128,36 @@ class SeguridadSecuestros extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-01-31</td>
-            <td>0</td>
+            <td>2015-02-28</td>
+            <td>ND</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-01-31</td>
-            <td>NO TIENE</td>
+            <td>2015-02-28</td>
+            <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-01-31</td>
-            <td>NO TIENE</td>
+            <td>2015-02-28</td>
+            <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-01-31</td>
+            <td>2015-02-28</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-01-31</td>
-            <td>0</td>
+            <td>2015-02-28</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -210,7 +216,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-homicidios.html">Homicidios en Gómez Palacio</a></td>
-            <td>Número de homicidios durante el primer trimestre de 2014</td>
+            <td>Número de homicidios por mes</td>
           </tr>
           <tr>
             <td>ND</td>
@@ -234,7 +240,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Gómez Palacio</a></td>
-            <td>Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014</td>
+            <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
           </tr>
           <tr>
             <td>ND</td>
@@ -290,7 +296,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 1 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

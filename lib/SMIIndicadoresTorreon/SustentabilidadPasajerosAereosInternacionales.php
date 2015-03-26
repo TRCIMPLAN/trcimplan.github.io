@@ -236,12 +236,6 @@ class SustentabilidadPasajerosAereosInternacionales extends \Base\Publicacion {
             <td>Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.</td>
           </tr>
           <tr>
-            <td>30/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/relaciones-internacionales.html">Relaciones Internacionales</a></td>
-            <td>Análisis de las cuestiones internacionales como la inversión extranjera, el flujo de pasajeros y la ausencia de puertos o frontera con otro país.</td>
-          </tr>
-          <tr>
             <td>26/06/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/infraestructura.html">Infraestructura (Sectores precursores de clase mundial)</a></td>

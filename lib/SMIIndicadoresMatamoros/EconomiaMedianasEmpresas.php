@@ -276,7 +276,7 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-total-de-empresas.html">Total de Empresas en Matamoros</a></td>
+            <td><a href="../indicadores-matamoros/economia-total-de-empresas-registradas-en-el-siem.html">Total de Empresas registradas en el SIEM en Matamoros</a></td>
             <td></td>
           </tr>
           <tr>

@@ -144,7 +144,7 @@ class SeguridadPresuntosDelincuentesPorNarcoticos extends \Base\Publicacion {
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/seguridad-homicidios.html">Homicidios en Matamoros</a></td>
-            <td>Número de homicidios durante el primer trimestre de 2014</td>
+            <td>Número de homicidios por mes</td>
           </tr>
           <tr>
             <td>ND</td>
@@ -162,13 +162,13 @@ class SeguridadPresuntosDelincuentesPorNarcoticos extends \Base\Publicacion {
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Matamoros</a></td>
-            <td>Robo de vehículos con violencia y sin violencia cometidos en el primer trimestre de 2014</td>
+            <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/seguridad-secuestros.html">Secuestros en Matamoros</a></td>
-            <td>Cantidad de secuestros en el primer trimestre de 2014</td>
+            <td>Cantidad de secuestros en el mes</td>
           </tr>
           <tr>
             <td>ND</td>

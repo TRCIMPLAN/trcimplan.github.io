@@ -278,12 +278,12 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">64</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">101</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">12</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -308,32 +308,32 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Negocios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">6</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Transeuntes</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">90</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">6</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo de Vehículos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos a Casa Habitación</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos Totales</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">34</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">40</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Secuestros</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">NO TIENE</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

@@ -200,7 +200,7 @@ class SustentabilidadRedCarreteraDeAlimentadorasEstatales extends \Base\Publicac
             <td>23/10/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/torreon-camino-redensificacion-2.html">Torreón, camino a la redensificación II</a></td>
-            <td>Retomo el tema de la redensificación de ciudades, y de Torreón en especial, pues como ya lo había presentado, las cifras nos indican como el territorio ocupado en la ciudad es siete veces contra tres del crecimiento poblacional de la década de 1970 a la fecha.</td>
+            <td>Continuación del tema de la redensificación de ciudades. Las cifras nos indican como el territorio ocupado en Torreón es siete veces contra tres del crecimiento poblacional de la década de 1970 a la fecha.</td>
           </tr>
           <tr>
             <td>15/10/2014</td>

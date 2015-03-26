@@ -66,38 +66,38 @@ class Seguridad extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">783</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">376</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">64</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">76</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1,299</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">703</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">428</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">101</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">87</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1,319</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">31</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">44</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">14</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">12</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">12</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">30</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo de Vehículos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">74</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">52</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">136</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">29</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">77</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">116</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Secuestros</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">NO TIENE</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">NO TIENE</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>

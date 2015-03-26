@@ -317,12 +317,6 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-total-de-empresas.html">Total de Empresas en Torreón</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Torreón</a></td>
             <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
           </tr>
