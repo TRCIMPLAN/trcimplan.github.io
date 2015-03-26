@@ -673,7 +673,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Destinos Vía Aérea</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-destinos-via-aerea.html" data-toggle="tooltip" title="Cantidad, 03/11/2014, Operadora Mexicana de Aeropuertos (OMA)">8</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-destinos-via-aerea.html" data-toggle="tooltip" title="Cantidad, 31/03/2014, Operadora Mexicana de Aeropuertos (OMA)">7</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>

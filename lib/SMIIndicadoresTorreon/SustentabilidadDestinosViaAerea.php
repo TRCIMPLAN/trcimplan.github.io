@@ -28,7 +28,6 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
         $this->contenido    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
     <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
@@ -54,22 +53,12 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
-          <tr>
-            <td>03/11/2014</td>
-            <td>8</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
       <h3>Observaciones</h3>
 <p>Se considera a nivel metropolitano. Consulta la <a href="http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/">Base de Datos</a></p>
 
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Destinos Vía Aérea en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Destinos Vía Aérea</h3>
@@ -88,8 +77,8 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-11-03</td>
-            <td>8</td>
+            <td>2014-03-31</td>
+            <td>7</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -116,8 +105,8 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-11-03</td>
-            <td>8</td>
+            <td>2014-03-31</td>
+            <td>7</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -232,29 +221,13 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
   </div>
 FINAL;
         $this->javascript   = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2014-03-31', dato: 7 },{ fecha: '2014-11-03', dato: 8 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 8 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 8 }],
+      data: [{ region: 'Torreón', dato: 7 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 7 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
