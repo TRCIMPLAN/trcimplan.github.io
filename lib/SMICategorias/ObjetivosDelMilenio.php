@@ -36,7 +36,7 @@ class ObjetivosDelMilenio extends \Base\Publicacion {
         $this->directorio    = 'indicadores-categorias';
         $this->archivo       = 'objetivos-del-milenio';
         $this->descripcion   = 'Matriz de indicadores en la categoría Objetivos del Milenio';
-        $this->imagen_previa = '../imagenes/categorias/por_defecto.jpg';
+        $this->imagen_previa = '../imagenes/categorias/por-defecto.jpg';
         $this->icono         = 'fa fa-file-o';
         $this->claves        = 'IMPLAN, Indicadores, Objetivos del Milenio';
         $this->categorias    = array('Indicadores');
