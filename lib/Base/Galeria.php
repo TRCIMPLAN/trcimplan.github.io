@@ -133,10 +133,10 @@ class Galeria {
                 // Si existe ese ID en categorias_ids
                 if (in_array($id, $this->categorias_ids)) {
                     // Poner la imagen como rollover, el ID debe estar definido en el archivo CSS
-                    $a[] = "            <a class=\"imagen-previa\" id=\"$id\" href=\"{$p->url()}\" title=\"{$p->nombre}\"></a>";
+                    $a[] = "            <span class=\"img-thumbnail galeria-imagen\" ><a id=\"$id\" href=\"{$p->url()}\" title=\"{$p->nombre}\"></a></span>";
                 } else {
                     // Poner la imagen de forma normal
-                    $a[] = "            <a href=\"{$p->url()}\"><img class=\"img-thumbnail imagen-previa\" src=\"{$p->imagen_previa}\" alt=\"{$p->nombre}\"></a>";
+                    $a[] = "            <a href=\"{$p->url()}\" title=\"{$p->nombre}\"><img class=\"img-thumbnail galeria-imagen\" src=\"{$p->imagen_previa}\" alt=\"{$p->nombre}\"></a>";
                 }
                 // Agregar
             } elseif ($p->icono != '') {

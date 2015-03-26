@@ -282,14 +282,19 @@ a.indice-icono:active  { color:#FF3300; }
 .galeria-icono {
     font-size:5em;
 }
-.galeria-nombre {
-    font-size:1em;
-}
 a.galeria-icono         { color:#A52100; }
 a.galeria-icono:link,
 a.galeria-icono:visited { color:#A52100; }
 a.galeria-icono:hover,
 a.galeria-icono:active  { color:#FF3300; }
+.galeria-imagen {
+    padding:4px;
+    border:0;
+    width:128px; height:128px;
+}
+.galeria-nombre {
+    font-size:1em;
+}
 
 /* Contenido con SMI Indicadores por Región */
 .indicadores-vinculos {
