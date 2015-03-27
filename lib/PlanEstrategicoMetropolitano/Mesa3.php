@@ -37,7 +37,7 @@ class Mesa3 extends \Base\Publicacion {
         $this->fecha            = '2014-11-27T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'mesa-3';
-     // $this->imagen_previa    = '';
+     // $this->imagen_previa    = 'mesa-3/imagen-previa.jpg';
         $this->encabezado_color = '#DF9C0A';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Tercera mesa del Plan Estratégico Metropolitano';
@@ -54,7 +54,7 @@ class Mesa3 extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaArticle();
         $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen_previa;
+     // $schema->image          = 'mesa-3/imagen.jpg';
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;

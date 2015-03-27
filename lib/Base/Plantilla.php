@@ -229,6 +229,8 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '<script src="js/leaflet.js"></script>';
             $a[] = '<script src="js/plugins/metisMenu/metisMenu.min.js"></script>';
             $a[] = '<script src="js/sb-admin-2.js"></script>';
+            //~ $a[] = '<script src="js/jssor.js"></script>';
+            //~ $a[] = '<script src="js/jssor.slider.min.js"></script>';
         } else {
             if (!isset($this->scripts_jquery_css)) {
                 $a[] = '<script src="../js/jquery.min.js"></script>';
@@ -241,6 +243,8 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '<script src="../js/leaflet.js"></script>';
             $a[] = '<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>';
             $a[] = '<script src="../js/sb-admin-2.js"></script>';
+            //~ $a[] = '<script src="../js/jssor.js"></script>';
+            //~ $a[] = '<script src="../js/jssor.slider.min.js"></script>';
         }
         if (is_array($this->javascript)) {
             $b = array();
