@@ -59,9 +59,7 @@ class Mesa4 extends \Base\Publicacion {
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
         $schema->headline_style = $this->encabezado_color;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Directorio/Mesa4.md');
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido        = <<<FINAL
+        $schema->articleBody    = <<<FINAL
 
     <script type="text/javascript" src="../js/jssor.slider.mini.js"></script>
     <script>
@@ -282,6 +280,8 @@ class Mesa4 extends \Base\Publicacion {
     <!-- Jssor Slider End -->
 
 FINAL;
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
     } // constructor
