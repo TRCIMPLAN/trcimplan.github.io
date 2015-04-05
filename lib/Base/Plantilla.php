@@ -91,7 +91,17 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $this->imagen_previa = $publicacion->imagen_previa;
         $this->icono         = $publicacion->icono;
         // Acumular el código Javascript que venga en la publicación
-        $this->javascript[]  = $publicacion->javascript;
+        if (is_array($publicacion->javascript)) {
+            foreach ($publicacion->javascript as $js) {
+                if (is_string($js)) {
+                    if ($js != '') $this->javascript[] = $js;
+                } else {
+                    throw new \Exception("Error en Plantilla, incorporar_publicación: El javascript en {$this->titulo} es incorrecto.");
+                }
+            }
+        } else {
+            $this->javascript[] = $publicacion->javascript;
+        }
     } // incorporar_publicacion
 
     /**
@@ -112,6 +122,9 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a[] = '<head>';
      // $a[] = "  <base href=\"{$this->sitio_url}/\">";
         $a[] = '  <meta charset="utf-8">';
+        if ($this->mensaje_oculto != '') {
+            $a[] = $this->mensaje_oculto;
+        }
         $a[] = '  <meta http-equiv="X-UA-Compatible" content="IE=edge">';
         $a[] = '  <meta name="viewport" content="width=device-width, initial-scale=1.0">';
         if ($this->descripcion != '') {
@@ -229,8 +242,6 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '<script src="js/leaflet.js"></script>';
             $a[] = '<script src="js/plugins/metisMenu/metisMenu.min.js"></script>';
             $a[] = '<script src="js/sb-admin-2.js"></script>';
-            //~ $a[] = '<script src="js/jssor.js"></script>';
-            //~ $a[] = '<script src="js/jssor.slider.min.js"></script>';
         } else {
             if (!isset($this->scripts_jquery_css)) {
                 $a[] = '<script src="../js/jquery.min.js"></script>';
@@ -243,23 +254,29 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = '<script src="../js/leaflet.js"></script>';
             $a[] = '<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>';
             $a[] = '<script src="../js/sb-admin-2.js"></script>';
-            //~ $a[] = '<script src="../js/jssor.js"></script>';
-            //~ $a[] = '<script src="../js/jssor.slider.min.js"></script>';
         }
         if (is_array($this->javascript)) {
             $b = array();
             foreach ($this->javascript as $js) {
                 if (trim($js) != '') {
-                    $b[] = $js;
+                    if (substr(trim($js), 0, 8) == '<script ') {
+                        $b[] = $js;
+                    } else {
+                        $b[] = "<script>\n$js\n</script>";
+                    }
                 }
             }
             if (count($b) > 0) {
-                $a[] = "<script>\n".implode("\n", $b)."\n</script>";
+                $a[] = implode("\n", $b);
             }
         } elseif (is_string($this->javascript) && (trim($this->javascript) != '')) {
-            $a[] = '<script>';
-            $a[] = $this->javascript;
-            $a[] = '</script>';
+            if (substr(trim($this->javascript), 0, 8) == '<script ') {
+                $a[] = $this->javascript;
+            } else {
+                $a[] = '<script>';
+                $a[] = $this->javascript;
+                $a[] = '</script>';
+            }
         }
         if (isset($this->google_analytics)) {
             $a[] = $this->google_analytics;
@@ -286,9 +303,6 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // Acumular
         $a[] = '<!DOCTYPE html>';
         $a[] = '<html lang="es">';
-        if ($this->mensaje_oculto != '') {
-            $a[] = $this->mensaje_oculto;
-        }
         $a[] = $this->cabecera();
         $a[] = '<body>';
         $a[] = '<div id="wrapper">';

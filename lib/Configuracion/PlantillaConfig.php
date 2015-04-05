@@ -42,7 +42,7 @@ class PlantillaConfig {
 
         Este sistema fue elaborado por personal del IMPLAN Torreón.
         El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
-          http://trcimplan.gob.mx/LICENCE
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
         Al usarlo está aceptando los términos de uso de la información y del sitio web:
           http://trcimplan.gob.mx/terminos/terminos-informacion.html
           http://trcimplan.gob.mx/terminos/terminos-sitio.html
