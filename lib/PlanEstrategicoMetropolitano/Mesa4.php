@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - Mesa 4
+ * TrcIMPLAN Sitio Web - Mesa 4: Gestión de Proyectos y Arranque del Plan Estratégico Metropolitano
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class Mesa4 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Mesa 4';
+        $this->nombre           = 'Mesa 4: Gestión de Proyectos y Arranque del Plan Estratégico Metropolitano';
      // $this->autor            = '';
         $this->fecha            = '2015-03-05T18:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
@@ -40,13 +40,13 @@ class Mesa4 extends \Base\Publicacion {
      // $this->imagen_previa    = 'mesa-4/imagen-previa.jpg';
         $this->encabezado_color = '#DF9C0A';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'El 5 de marzo de 2015 se llevó a cabo la cuarta mesa para la construcción del Plan Estratégico Metropolitano.';
+        $this->descripcion      = 'Cuarta mesa del Plan Estratégico Metropolitano.';
         $this->claves           = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
         $this->categorias       = array('Plan Estrategico Metropolitano');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio       = 'plan-estrategico-metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu      = 'Plan Estratégico Metropolitano > M4';
+        $this->nombre_menu      = 'Plan Estratégico Metropolitano > M4 Gestión de Proyectos';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
@@ -54,7 +54,7 @@ class Mesa4 extends \Base\Publicacion {
         // Son 310 fotos
         $a = array();
         for ($i=1; $i <= 310; $i++) {
-            $a[] = sprintf('            <div><img u="image" src="mesa-4/fotos%03s.jpg" /></div>', $i);
+            $a[] = sprintf('            <div><img u="image" src="mesa-4/fotos%03s.jpg"></div>', $i);
         }
         $fotos_html = implode("\n", $a);
         // El contenido es estructurado en un esquema
@@ -66,8 +66,9 @@ class Mesa4 extends \Base\Publicacion {
         $schema->datePublished  = $this->fecha;
         $schema->headline_style = $this->encabezado_color;
         $schema->articleBody    = <<<FINAL
-      <p>El 5 de marzo de 2015 en la Universidad LaSalle en Gómez Palacio, Durango se signa el convenio por José Miguel Campillo Carrete alcalde de Gómez Palacio, Dgo. y Miguel Ángel Riquelme Solís alcalde de Torreón, Coahuila para un plan metropolitano en donde en breve se sumaran Lerdo, Durango y Matamoros, Coahuila.</p>
-      <p>Este acto protocolario augura una nueva etapa para nuestra región : mejor transporte, mejores vías de comunicación al igual que una policía y reglamentos planeados en conjunto para beneficio de los ciudadanos. Ahora toca a cada uno de los habitantes de esta región así como a sus gobernantes lograr que esta zona lagunera se convierta en una región exitosa como lo ha hecho el Bajío. No hay duda que con voluntad política y con el apoyo de los ciudadanos lo podremos lograr.</p>
+      <p>El 5 de marzo de 2015 en la <b>Universidad LaSalle en Gómez Palacio, Durango</b> se signa el convenio por <b>José Miguel Campillo Carrete alcalde de Gómez Palacio, Dgo.</b> y <b>Miguel Ángel Riquelme Solís alcalde de Torreón, Coahuila</b> para un plan metropolitano en donde en breve se sumaran Lerdo, Durango y Matamoros, Coahuila.</p>
+      <p>Este acto protocolario augura una nueva etapa para nuestra región: mejor transporte, mejores vías de comunicación al igual que una policía y reglamentos planeados en conjunto para beneficio de los ciudadanos. Ahora toca a cada uno de los habitantes de esta región así como a sus gobernantes lograr que esta zona lagunera se convierta en una región exitosa como lo ha hecho el Bajío. No hay duda que con voluntad política y con el apoyo de los ciudadanos lo podremos lograr.</p>
+      <h3>Fotografías</h3>
       <!-- Photo Slider inicia -->
         <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px; height: 500px;">
           <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 500px; overflow: hidden;">
@@ -86,7 +87,6 @@ FINAL;
     jQuery(document).ready(function ($) {
         var options = {
             \$AutoPlay: true,
-            \$Class: \$JssorThumbnailNavigator\$,
             \$ChanceToShow: 5,
             \$DragOrientation: 1
         };

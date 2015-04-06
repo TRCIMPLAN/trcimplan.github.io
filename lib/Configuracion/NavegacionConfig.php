@@ -49,6 +49,7 @@ class NavegacionConfig {
             'Plan Estratégico Metropolitano > M1 Diagnóstico y Pronóstico' => 'plan-estrategico-metropolitano/mesa-1.html',
             'Plan Estratégico Metropolitano > M2 Visión y Objetivos'       => 'plan-estrategico-metropolitano/mesa-2.html',
             'Plan Estratégico Metropolitano > M3 Estrategias y Proyectos'  => 'plan-estrategico-metropolitano/mesa-3.html',
+            'Plan Estratégico Metropolitano > M4 Gestión de Proyectos'     => 'plan-estrategico-metropolitano/mesa-4.html',
             'Plan Estratégico Metropolitano > Participación Ciudadana'     => 'http://trcimplan.mx/plan'),
         'Banco de Proyectos' => array(
             'Banco de Proyectos > Introducción' => 'proyectos/introduccion.html',
@@ -80,6 +81,7 @@ class NavegacionConfig {
         'M1 Diagnóstico y Pronóstico'    => 'fa fa-calendar',
         'M2 Visión y Objetivos'          => 'fa fa-calendar',
         'M3 Estrategias y Proyectos'     => 'fa fa-calendar',
+        'M4 Gestión de Proyectos'        => 'fa fa-calendar',
         'Participación Ciudadana'        => 'fa fa-external-link',
         'Indicadores'                    => 'fa fa-area-chart',
         'Indicadores por Región'         => 'fa fa-table',

@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - Plan Estratégico Metropolitano Mesa 1
+ * TrcIMPLAN Sitio Web - Mesa 1: Diagnóstico y Pronóstico
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
