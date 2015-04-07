@@ -34,7 +34,7 @@ class NuevasTecnologiasEstandaresWeb extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Nuevas Tecnologías y Estándares para la Web';
         $this->autor            = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha            = '2015-03-31T08:00';
+        $this->fecha            = '2015-04-07T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'nuevas-tecnologias-estandares-web';
         $this->imagen_previa    = 'nuevas-tecnologias-estandares-web/imagen-previa.png';
@@ -46,7 +46,7 @@ class NuevasTecnologiasEstandaresWeb extends \Base\Publicacion {
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'revisar';
+        $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = true;
         // El contenido es estructurado en un esquema

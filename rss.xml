@@ -5,11 +5,73 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Mon, 06 Apr 2015 10:08:48 -0500</pubDate>
+    <pubDate>Tue, 07 Apr 2015 09:41:21 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nuevas Tecnologías y Estándares para la Web</title>
+      <link>http://trcimplan.gob.mx/blog/nuevas-tecnologias-estandares-web.html</link>
+      <guid isPermaLink="false">blog-nuevas-tecnologias-estandares-web</guid>
+      <pubDate>Tue, 07 Apr 2015 08:00:00 -0500</pubDate>
+      <author>Ing. Guillermo Valdés Lozano</author>
+      <description><![CDATA[<p><strong>La Web</strong> se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés <a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a> con la ayuda del belga <a href="https://es.wikipedia.org/wiki/Robert_Cailliau">Robert Cailliau</a> mientras trabajaban en el <a href="https://es.wikipedia.org/wiki/CERN">CERN</a> en Ginebra, Suiza, y publicado en 1992. Desde entonces, Berners-Lee ha jugado un papel activo <strong>guiando el desarrollo de estándares Web</strong> y por una <strong>Web semántica.</strong></p>
+
+<p>En sus primeros años, la mayoría de las personas no veían las páginas web como algo práctico, porque los primeros sitios de búsqueda basaban su modelo de negocio en ofertar las mejores posiciones en los resultados. En aquellos años, encontrar algo útil tomaba mucho tiempo. Sólo <strong>a partir de 1999</strong>, <a href="http://es.wikipedia.org/wiki/Motor_de_b%C3%BAsqueda#Historia">con la llegada del buscador de Google</a>, se lograron <strong>que las búsquedas fueran más rápidas y sus resultados más efectivos.</strong></p>
+
+<p>Hoy en día, con la gran cantidad y variedad de dispositivos conectados a Internet, aunado a la gran relevancia que implica aparecer lo más alto en los resultados de los buscadores, han puesto sobre la mesa nuevas técnicas para la construcción de los sitios web.</p>
+
+<h3>Estándares abiertos</h3>
+
+<p><a href="https://documentfreedom.org/openstandards.es.html">Los estándares abiertos</a> son esenciales para la interoperabilidad y la libertad de opción, frente al cierre de los datos y la consecuente dependencia del proveedor. Esto hace que los estándares abiertos sean esenciales para los gobiernos, empresas, organizaciones y usuarios individuales de las tecnologías de la información. Si no fuera por ellos, podríamos estar limitados a un sólo navegador de Internet o que tendríamos que pagar derechos para crear páginas web.</p>
+
+<p><strong>La Web tiene sus bases en estándares abiertos</strong> como el protocolo HTTP y la codificación del HTML y CSS; así como de lenguajes de programación libres como el Javascript. Como ejemplo contrario, el <strong>Adobe Flash es un componente cerrado</strong> que funciona sólo con el reproductor de Adobe; desde hace años, empresas como <a href="http://es.wikipedia.org/wiki/Adobe_Flash_Player#Origen_flash">Apple han evitado este formato</a> por las complicaciones que provoca.</p>
+
+<p>Este mismo requisito deben de tener los <strong>documentos descargables; recomendando evitar los tipos de archivos con formatos NO abiertos.</strong> Por ejemplo, poner archivos de Microsoft Word, Excel o PowerPoint limitan dichos contenidos a los usuarios tengan esos costosos programas, o bien que tengan copias no autorizadas de los mismos (lo se hace llamar como piratería de software). Es recomendable que los archivos que se pongan para su descarga sean de <a href="https://documentfreedom.org/open-standards-examples.es.html">texto puro TXT, CSV, PDF, ODT o PNG</a>.</p>
+
+<p><a href="https://documentfreedom.org/openstandards.es.html" target="_blanck"><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nuevas-tecnologias-estandares-web/document-freedom-day-banner-robots.jpg" alt="Document Freedom Day"></a></p>
+
+<h3>Diseño y funcionalidad</h3>
+
+<p><strong>La funcionalidad y el diseño de un sitio web</strong> son factores vitales que deben de complementarse para que el sitio web logre cautivar y servir al visitante. Para una institución, empresa u organización <strong>deben transmitir una imagen de acuerdo a su giro;</strong> básicamente de seriedad y solidez.</p>
+
+<p><strong>La recomendación es mantener la forma y diseño constantes en todo el sitio web;</strong> el no hacerlo puede confundir al visitante. Del mismo modo, <strong>que el sitio esté en el mismo dominio;</strong> por ejemplo, si una parte se accede en www.tudominio.com y otra en www.enotrodominio.com no solo es una debilidad de identidad, sino que los buscadores de Internet pueden registrarlo como dos entidades distintas.</p>
+
+<p><strong>La página de inicio del sitio web</strong> debe organizarse con claridad; <strong>ya que la mayoría de los visitantes necesitan encontar en ésta el enlace directo a lo que necesitan;</strong> con una distribución como en la siguiente ilustración:</p>
+
+<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nuevas-tecnologias-estandares-web/estructura-recomendada-pagina-inicial.png" alt="Estructura recomendada para la pagina inicial de un sitio web"></p>
+
+<h3>Responsivo</h3>
+
+<p>Hoy en día hay una gran variedad de <strong>dispositivos que pueden conectarse a Internet.</strong> Cada día se suman nuevos tipos, como <strong>celulares inteligentes, tablets, televisores, consolas de video juegos, etc.</strong></p>
+
+<p>Originalmente las páginas web se diseñaban para verse en monitores de computadoras; pero los diferentes tamaños y disposiciones (horizontal y vertical) de las pantallas nos obligan a <a href="http://www.w3resource.com/responsive-web-design/overview.php">codificarlas para que sean responsivas</a>, esto significa que se adapten al tamaño del aparato.</p>
+
+<p>De entre todas las alternativas para hacer un sitio web responsivo destaca la generosa aportación de <a href="https://about.twitter.com/">Twitter</a> al brindar su plataforma <a href="http://getbootstrap.com/">Twitter Bootstrap</a> como código abierto. Además de ser gratuito, es usado y mejorado por un gran número de desarrolladores; esto nos garantiza su confiabilidad y mejora constante.</p>
+
+<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nuevas-tecnologias-estandares-web/sitio-web-responsivo.jpg" alt="Sitio Web responsivo"></p>
+
+<h3>HTML semántico y esquemas</h3>
+
+<p><strong><a href="http://es.wikipedia.org/wiki/HTML_sem%C3%A1ntico">HTML semántico</a> es el uso de las etiquetas para reforzar la semántica, o el significado de la información</strong> en las páginas web. El HTML Semántico es procesado por los motores de búsqueda, como Google, Yahoo, Bing, etc. para tomar con certeza los elementos publicados.</p>
+
+<p><a href="http://schema.org/">Schema.org</a> provee una colección de <a href="http://schema.org/docs/full.html">más de 50</a> esquemas, con buen número de ejemplos, que sirven de guía para implementarlos en los sitios web institucionales; ayudando a que los motores de búsqueda diferencien entre <a href="http://schema.org/Article">artículos</a>, <a href="http://schema.org/ContactPoint">contactos</a>, <a href="http://schema.org/GeoCoordinates">coordenadas geográficas</a>, <a href="http://schema.org/Dataset">datos</a>, <a href="http://schema.org/Place">lugares</a>, <a href="http://schema.org/GovernmentOrganization">organizaciones gubernamentales</a>, <a href="http://schema.org/Product">productos</a> y muchos más.</p>
+
+<p><a href="http://trcimplan.gob.mx/blog/nuevas-tecnologias-estandares-web/google-developers-testing-tool-schemas.png"><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nuevas-tecnologias-estandares-web/google-developers-testing-tool-schemas-small.jpg" alt="Google Developers herramienta para probar Schemas"></a></p>
+
+<h3>Continuará...</h3>
+
+<p>Con toda seguridad podemos afirmar que no dejarán de crearse nuevas tecnologías que impulsen la Web; y vaya que es relativamente joven. <a href="http://www.webat25.org/">En 2014 la Web cumplió 25 años.</a> <strong>Pero... ¿Cómo ha logrado ser lo que es? algunos de las razones son:</strong></p>
+
+<ul>
+<li><strong>Es universal:</strong> trabaja en gran número de dispositivos, en todos los sistemas operativos, con cualquier tipo de información, en cualquier lenguaje, todas las culturas, muchas maneras de conectividad y para personas con capacidades especiales.</li>
+<li><strong>Está libre de pago por regalías.</strong></li>
+<li><strong>Es descentralizada.</strong> En la red de redes hay servidores en todo el mundo; además, en órbita, es usada por los astronautas a bordo de la Estación Espacial Internacional.</li>
+<li><strong>Está construida con estándares abiertos y con la colaboración de todos.</strong></li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>Espacio Público Urbano</title>
       <link>http://trcimplan.gob.mx/blog/espacio-publico-urbano.html</link>
@@ -828,33 +890,6 @@
   
   <p>Henry Ford</p>
 </blockquote>
-]]></description>
-    </item>
-    <item>
-      <title>Las generaciones del cambio</title>
-      <link>http://trcimplan.gob.mx/blog/generaciones-cambio.html</link>
-      <guid isPermaLink="false">blog-generaciones-cambio</guid>
-      <pubDate>Wed, 04 Feb 2015 08:00:00 -0600</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[<div style="margin-bottom:8px"><img class="img-responsive" src="http://trcimplan.gob.mx/blog/generaciones-cambio/presentacion-universitarios.jpg"></div>
-
-<p>El día de hoy al compartir la visión del Instituto Municipal de Planeación y Competitividad de Torreón en una Universidad de la localidad no solo nos dimos cuenta que son cada vez más y más lo jóvenes que están despertando a la conciencia del lugar donde vivimos, de cómo vivimos y principalmente de como viviremos en el futuro.</p>
-
-<p>Es increíble ver como los universitarios están involucrados con su sociedad, con las características de la ciudad y sus necesidades, ya son parte de  un entorno que si bien no es el mejor, están conscientes que se puede mejorar.</p>
-
-<p>Hace algunos años era triste ver los estadísticos que indicaban que jóvenes emigraban de la Comarca Lagunera y es un gusto darnos cuenta que una vez más hemos dado la vuelta a  la página, no hablaremos de problemas que nadie quiere recordar, sencillamente salimos adelante, los jóvenes de nuestra región quieren ver su ciudad natal como un polo de oportunidades.</p>
-
-<p>No hablamos solo de Torreón, hoy escuchamos a gente de municipios hermanos, Gómez, Lerdo, Matamoros, San Pedro, todos con inquietudes tan básicas como  la manera en que podrían transitar de un lado a otro y su preocupación por la manera en que se hacen las cosas en la región, las nuevas generaciones vienen con un chip de planeación incluido.</p>
-
-<p>Es increíble ver el nivel de conciencia que han alcanzado cuando habla de cultura para salir delante de manera colectiva, al igual que valoran los espacios públicos y van entendiendo que todo es parte de un proyecto general para elevar los índices de competitividad que necesita nuestra ciudad para atraer inversión, empleos, bienestar y oportunidades para que en un futuro ellos logren calidad de vida.</p>
-
-<p>El futuro de las generaciones del cambio no está en otras ciudades, de las cuales hablan para hacer referencia de calidad, las conocen pero la visión no es estar ahí, sino replicar ejemplos  para mejorar el entorno en el que viven.</p>
-
-<p>Son inquietos, curiosos y no se quedan callados, las generaciones del cambio ya despertaron, son de todos los municipios de nuestra Zona Metropolitana y demás, quiere vivir mejor, quieren oportunidades, tienen la vista puesta en el futuro y a todos ellos les queremos comentar que son los portavoces del IMPLAN, el futuro de nuestra sociedad son los niños y los jóvenes.</p>
-
-<p>El Instituto Municipal de Planeación y competitividad de Torreón tiene como prioridad establecer los parámetros que nos llevarán a mejorar como ciudad y el nivel de vida de quienes la habitan, pero es la participación ciudadana la que da el peso, la fuerza y la que enciende la magia que nos caracteriza como ciudad, la sociedad es la sangre que mueve este gran organismo, es hora de empezar a trabajar en equipo y lograr acuerdos que nos lleve a crear una gran urbe, el trabajo es en equipo, <strong>Sociedad-IMPLAN-Gobierno</strong>.</p>
-
-<p><strong>IMPLAN somos todos, participa con nosotros.</strong></p>
 ]]></description>
     </item>
   </channel>
