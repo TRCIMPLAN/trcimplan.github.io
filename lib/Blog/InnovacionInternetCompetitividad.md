@@ -139,5 +139,5 @@ Esto nos obliga a trabajar en la voluntad expresa de todos los ámbitos de la so
 1. [Estudio Hábitos del Internauta Mexicano 2014](https://www.amipci.org.mx/estudios/habitos_de_internet/Estudio_Habitos_del_Internauta_Mexicano_2014_V_MD.pdf)
 2. [Artículo - Manuel Castells](http://www.ddooss.org/articulos/textos/Manuel_Castells.htm)
 3. [Gobierno Electrónico - Lanzan trámites en línea](http://www.redpolitica.mx/nacion/gobierno-electronico-lanzan-tramites-en-linea)
-4. [AMIPCI](www.amipci.org.mx)
-5. [INEGI](www.inegi.org.mx)
+4. [AMIPCI](http://www.amipci.org.mx)
+5. [INEGI](http://www.inegi.org.mx)
