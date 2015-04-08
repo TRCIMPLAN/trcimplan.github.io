@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - DESCRIPCION
+ * TrcIMPLAN Sitio Web - Urbanismo Participativo
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *

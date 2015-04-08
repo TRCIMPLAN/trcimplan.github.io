@@ -5,11 +5,356 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 07 Apr 2015 09:41:21 -0500</pubDate>
+    <pubDate>Wed, 08 Apr 2015 14:49:11 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Innovación, Internet y Competitividad</title>
+      <link>http://trcimplan.gob.mx/blog/innovacion-internet-competitividad.html</link>
+      <guid isPermaLink="false">blog-innovacion-internet-competitividad</guid>
+      <pubDate>Wed, 08 Apr 2015 14:00:00 -0500</pubDate>
+      <author>Lic. Luis A. Gutiérrez Arizpe</author>
+      <description><![CDATA[<p>Con la llegada del internet en la década de los noventa el mundo vivió una serie de cambios como no se veían desde la revolución industrial. Fue un proceso gradual, pero acelerado comparado con otros procesos históricos que se convirtieron en parteaguas de la sociedad.</p>
+
+<p>La practicidad con la que los procesos de comunicación, de intercambio de la información y el entretenimiento fueron integrándose a nuestra cotidianidad,repercutieron en nuestra forma de ver y hacer las cosas. En un trabajo publicado en 2014 por la Asociación Mexicana de Internet (AMIPCI) denominado “Estudio sobre los hábitos de los usuarios de internet en México” se destaca el aumento de la penetración de internet en el país durante 2013 en un 13% con niveles de crecimiento superiores a los de 2012 y un incremento en el tiempo de conexión del usuario de 26 minutos más a diferencia del año anterior (1).</p>
+
+<p>Por su parte Manuel Castells en “La nueva economía y la política urbana”(2) nos habla acerca de los nuevos procesos que están basados en el incremento de la producción por medio del uso del internet, que representa la optimización de tiempo, de espacios y de conocimiento que permite un desarrollo que puede ser comparado al que se vivió en el siglo XIX-XX debido principalmente a que la base fue el uso y la distribución de la energía eléctrica, permitiendo el desarrollo de los sectores productivos. Es decir, el estar conectado a la red de energía eléctrica permitió aumentar la producción, promoviendo la competitividad (sin olvidar las consecuencias ambientales que vivimos hoy en día). La diferencia con épocas contemporáneas, es que hoy se pretende estar conectados a la gran red mundial de información, que permite recopilar, producir y distribuir información, pero que para que esta pueda ser considerada como un aspecto de competitividad, debe de convertirse en conocimiento útil, que incida en el desarrollo de las entidades. No es únicamente tener la posibilidad de acceder a internet, sino cómo planteamos la gran diversidad de usos que la red ofrece y que permitan mejorar la competitividad.</p>
+
+<h3>Análisis estadístico</h3>
+
+<p>El Módulo sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares 2013 de INEGI (MODUTIH 2013), cuyo levantamiento se realizó en Abril de 2012, tuvo como objetivo generar información estadística que permitiera conocer la disponibilidad y el uso de las tecnologías de información y comunicaciones en los hogares, considerando a los integrantes de la población de seis y más años, agrupados en nueve rangos etarios: de 6 a 17, de 18 a 22, de 23 a 27, de 28 a 32, de 33 a 37, 38 a 42, 43 a 47 y 48 a 52 y 53 en adelante.</p>
+
+<h3>Uso de computadora</h3>
+
+<p>Los grupos de edad que utilizan con mayor frecuencia la computadora dentro o fuera de su hogar durante el último año son: el grupo de entre 18 y 22 años con el 77.3% es el que más utilizó la computadora, seguido por el grupo entre 6 y 17 años con el 75.6% y 23 y 27 años con el 71.3%. El grupo que menos utilizó la computadora fue el de mayores de 53 años, con el 16%.</p>
+
+<p><strong>Uso de computadora en los últimos 12 meses, dentro o fuera del hogar</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Posición</th>
+  <th>Grupo etario</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1.-</td>
+  <td>18-22 años</td>
+  <td align="right">77.3%</td>
+</tr>
+<tr>
+  <td>2.-</td>
+  <td>06-17 años</td>
+  <td align="right">75.6%</td>
+</tr>
+<tr>
+  <td>3.-</td>
+  <td>23-27 años</td>
+  <td align="right">71.3%</td>
+</tr>
+<tr>
+  <td>9.-</td>
+  <td>más de 53 años</td>
+  <td align="right">16.0%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<p>Los grupos etarios ocuparon el mismo orden en entre el uso de computadora y uso de internet de acuerdo con los resultados arrojados por la encuesta que se exhiben a continuación:</p>
+
+<h3>Uso de internet</h3>
+
+<p><strong>Uso de internet en los últimos 12 meses, dentro o fuera del hogar</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Posición</th>
+  <th>Grupo etario</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1.-</td>
+  <td>18-22 años</td>
+  <td align="right">73.7%</td>
+</tr>
+<tr>
+  <td>2.-</td>
+  <td>06-17 años</td>
+  <td align="right">67.2%</td>
+</tr>
+<tr>
+  <td>3.-</td>
+  <td>23-27 años</td>
+  <td align="right">66.9%</td>
+</tr>
+<tr>
+  <td>9.-</td>
+  <td>más de 53 años</td>
+  <td align="right">14.2%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<p>Podemos observar la brecha tecnológica entre los usuarios menores de 27 años en uso de computadora e internet contrastado con la población de mayores de 53 años. Podremos esperar conforme pasen los años que el uso de la PC y el internet se incrementará por lo menos al porcentaje de uso que muestran los grupos entre 6-17 y 18-22 años de edad.</p>
+
+<h3>Pagos por internet</h3>
+
+<p>En cuanto al uso de internet para realizar pagos, los grupos que no se encuentran entre los primeros tres lugares en cuanto al uso de computadora e internet, si aparecen entre los que han realizado pagos por este medio.</p>
+
+<p>El 14.5% de las personas entre 33 y 37 años de edad que utilizaron internet, lo hicieron para realizar algún pago. Seguidos del grupo entre 43 y 47 años con el 14.1%, los de más de 53 años con el 11.7%. El grupo que menos utilizó internet para realizar pagos fue el de entre 6 y 17 años de edad.</p>
+
+<p><strong>Realizó pagos por internet, dentro o fuera del hogar, los últimos 12 meses</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Posición</th>
+  <th>Grupo etario</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1.-</td>
+  <td>33-37 años</td>
+  <td align="right">14.5%</td>
+</tr>
+<tr>
+  <td>2.-</td>
+  <td>43-47 años</td>
+  <td align="right">14.1%</td>
+</tr>
+<tr>
+  <td>3.-</td>
+  <td>más de 53 años</td>
+  <td align="right">11.7%</td>
+</tr>
+<tr>
+  <td>9.-</td>
+  <td>06-17 años</td>
+  <td align="right">0.3%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<p>Los pagos que realizaron los encuestados nos arrojan que el mayor uso se dio para realizar pagos por servicios bancarios y financieros (préstamos  personales, transferencias de recursos, hipotecas, seguros, tarjetas de crédito, etc.) con el 57%. El consumo personal y familiar conjuntamente marcan el 38% de las transacciones y el 3% realizó el trámite para pagar servicios y trámites de gobierno.</p>
+
+<p><strong>Primer pago que realizaron por internet</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Destino</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Servicios bancarios y financieros</td>
+  <td align="right">57.0%</td>
+</tr>
+<tr>
+  <td>Bienes y servicios para la persona</td>
+  <td align="right">24.0%</td>
+</tr>
+<tr>
+  <td>Bienes y servicios para el hogar</td>
+  <td align="right">14.0%</td>
+</tr>
+<tr>
+  <td>Otro</td>
+  <td align="right">6.0%</td>
+</tr>
+<tr>
+  <td>Servicios y trámites de gobierno</td>
+  <td align="right">3.0%</td>
+</tr>
+<tr>
+  <td>Servicios educativos</td>
+  <td align="right">0.0%</td>
+</tr>
+<tr>
+  <td>No sabe</td>
+  <td align="right">0.0%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<p>De acuerdo a la metodología de la encuesta, se le preguntó a los encuestados que realizaron pagos por internet cuál fue el segundo pago que realizaron arrojando la siguiente información: consumo personal y familiar: 24% y 38%, servicios educativos 18%, servicios y trámites de gobierno 12% y pago de servicios financieros y bancarios 3%.</p>
+
+<p><strong>Segundo pago que realizaron por internet</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Destino</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Bienes y servicios para el hogar</td>
+  <td align="right">38.0%</td>
+</tr>
+<tr>
+  <td>Bienes y servicios para la persona</td>
+  <td align="right">24.0%</td>
+</tr>
+<tr>
+  <td>Servicios educativos</td>
+  <td align="right">18.0%</td>
+</tr>
+<tr>
+  <td>Servicios y tramites de gobierno</td>
+  <td align="right">12.0%</td>
+</tr>
+<tr>
+  <td>Otro</td>
+  <td align="right">6.0%</td>
+</tr>
+<tr>
+  <td>Servicios bancarios y financieros</td>
+  <td align="right">3.0%</td>
+</tr>
+<tr>
+  <td>No sabe</td>
+  <td align="right">0.0%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<p>Podemos asumir de acuerdo con las estadísticas, que la población tiene menor certidumbre al realizar pagos por internet para cumplir con sus obligaciones con el gobierno que para el consumo de bienes y servicios.</p>
+
+<p>Las instituciones bancarias juegan un papel primordial relacionándose directamente entre el uso intensivo del internet para realizar pagos y la confianza del usuario en estas formas de pago, ya que fungen como intermediarios entre el cliente y la entidad beneficiaria de la transacción electrónica.</p>
+
+<p>En cuanto a la frecuencia con que se utiliza internet para realizar pagos observamos que la mitad de los encuestados lo utiliza mensualmente (50%), semanalmente el 18.5%, cada seis meses el 14.8%, anualmente el 12.5% y por último, la población que utiliza diariamente el internet para realizar pagos es del 4.5%.</p>
+
+<p><strong>Frecuencia con la que se realizan pagos por internet</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Frecuencia</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Diario</td>
+  <td align="right">4.50%</td>
+</tr>
+<tr>
+  <td>Semanal</td>
+  <td align="right">18.20%</td>
+</tr>
+<tr>
+  <td>Mensual</td>
+  <td align="right">50.00%</td>
+</tr>
+<tr>
+  <td>Semestral</td>
+  <td align="right">14.80%</td>
+</tr>
+<tr>
+  <td>Anual</td>
+  <td align="right">12.50%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<blockquote>
+  <p>AMIPCI</p>
+  
+  <p>“90% de los usuarios de la Banca por Internet se expresan satisfechos por los servicios. Aún cuando 5 de cada 10 continúa visitando las sucursales bancarias entre una y tres veces por mes.”</p>
+</blockquote>
+
+<p>De acuerdo a un estudio llevado a cabo por AMIPCI, Asociación Mexicana de Internet A.C. en donde se expresan datos porcentuales relacionados a los usuarios de servicios bancarios y la frecuencia en el uso de la banca por internet;  el uso semanal, quincenal, mensual y esporádico disminuyó en 2013 comparado a 2012. El dato relevante es que el uso Diario de la banca por internet se duplicó, pasando en 2012 del 6% de los encuestados al 12% en 2013. Cada vez más población utiliza diariamente el internet para realizar consultas o transacciones bancarias.</p>
+
+<p><strong>¿Con que frecuencia utilizas la banca por internet de tu banco?</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Frecuencia</th>
+  <th align="right">2012</th>
+  <th align="right">2013</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Entre 2 y 3 veces por semana</td>
+  <td align="right">38%</td>
+  <td align="right">36%</td>
+</tr>
+<tr>
+  <td>Una vez a la semana</td>
+  <td align="right">22%</td>
+  <td align="right">21%</td>
+</tr>
+<tr>
+  <td><strong>Diario</strong></td>
+  <td align="right"><strong>6%</strong></td>
+  <td align="right"><strong>12%</strong></td>
+</tr>
+<tr>
+  <td>Quincena</td>
+  <td align="right">19%</td>
+  <td align="right">17%</td>
+</tr>
+<tr>
+  <td>Mes</td>
+  <td align="right">10%</td>
+  <td align="right">9%</td>
+</tr>
+<tr>
+  <td>Esporádicamente</td>
+  <td align="right">5%</td>
+  <td align="right">5%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: AMIPCI</p>
+
+<h3>Conclusiones</h3>
+
+<ol>
+<li>Podemos ver que la confianza en el uso de internet para realizar transacciones bancarias y el aumento vertiginoso en la frecuencia diaria, es una oportunidad para trasladar su uso a otros conceptos de pagos. Depende ahora de una estrategia más agresiva por parte de los bancos para aumentar el uso de internet para pagos de productos y servicios, entre estos, los trámites de gobierno.</li>
+<li>El internet ha permeado nuestra cotidianeidad, pero esa realidad no ha sido suficiente para obtener resultados positivos que se reflejen en una optimización de tiempo y recursos por parte de las instituciones de gobierno en automático. Citando a Francisco Javier Castellón Fonseca, doctorado en economía y especialista en temas tecnológicos, para una entrevista realizada por El Universal (3):  "[…] la facilidad no depende de si es electrónico el proceso, sino de la normativa que da esas facilidades para que se adapte a las plataformas necesarias."</li>
+</ol>
+
+<p>Esto nos obliga a trabajar en la voluntad expresa de todos los ámbitos de la sociedad para adaptarnos a las nuevas condiciones que implica la competitividad actualmente. Ciudadanía, empresas, instituciones educativas y bancarias deben de integrarse armónicamente al proceso migratorio tecnológico, pero sobretodo el Gobierno es quien tiene el alcance necesario para impulsar la integración que permita mejorar la competitividad de las regiones.</p>
+
+<h3>Fuentes</h3>
+
+<ol>
+<li><a href="https://www.amipci.org.mx/estudios/habitos_de_internet/Estudio_Habitos_del_Internauta_Mexicano_2014_V_MD.pdf">Estudio Hábitos del Internauta Mexicano 2014</a></li>
+<li><a href="http://www.ddooss.org/articulos/textos/Manuel_Castells.htm">Artículo - Manuel Castells</a></li>
+<li><a href="http://www.redpolitica.mx/nacion/gobierno-electronico-lanzan-tramites-en-linea">Gobierno Electrónico - Lanzan trámites en línea</a></li>
+<li><a href="http://trcimplan.gob.mx/blog/www.amipci.org.mx">AMIPCI</a></li>
+<li><a href="http://trcimplan.gob.mx/blog/www.inegi.org.mx">INEGI</a></li>
+</ol>
+]]></description>
+    </item>
     <item>
       <title>Nuevas Tecnologías y Estándares para la Web</title>
       <link>http://trcimplan.gob.mx/blog/nuevas-tecnologias-estandares-web.html</link>
@@ -847,49 +1192,6 @@
 <li>Adaptado de Periódico Reforma fecha. 28.07.14 sec. Suplemento pag. 4-10.</li>
 <li>Adaptado de <a href="http://concyteg.gob.mx/ideasConcyteg/Archivos/86_2_MORENO_MATA.pdf">CONCYTEG.gob.mx</a>.</li>
 </ol>
-]]></description>
-    </item>
-    <item>
-      <title>Nueva infraestructura a base de tecnología LED en Torreón</title>
-      <link>http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon.html</link>
-      <guid isPermaLink="false">blog-nueva-infraestructura-base-tecnologia-led-torreon</guid>
-      <pubDate>Tue, 10 Feb 2015 08:00:00 -0600</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<p>Las ciudades buscan crear una identidad y definirse como lugares exclusivos, bellos y seguros. La luz blanca de calidad puede transformar el paisaje nocturno, realzando la arquitectura urbana y creando ambientes acogedores que inviten a las personas a pasar más tiempo en ellos. También previene accidentes y hace más seguras las carreteras.</p>
-
-<p>Actualmente diversos municipios en México se encuentran en el proceso, o planeando un proyecto para migrar su tecnología de iluminación pública hacia las luminarias de LED (light-emitting diode).</p>
-
-<p>El argumento de la migración es generalmente el menor gasto de energía.</p>
-
-<p>Los proveedores garantizan un ciclo de vida de entre 5 y 10 años para las lámparas, el municipio espera que estas funcionen al 100% durante los años previstos, y la población, conociendo que la inversión fue elevada, espera recibir beneficios tanto en iluminación, como en complementarios derivados del ahorro.</p>
-
-<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon/alumbrado-publico.jpg" alt="Alumbrado Publico"></p>
-
-<p>Los ledes en alumbrado público traerán ahorros de hasta 60%. Con el programa se conseguirá un ahorro energético en el pago de electricidad que realizan los municipios.</p>
-
-<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon/comparacion-lampara-vapor-sodio-vs-led.jpg" alt="Comparacion de una lampara de vapor de sodio contra una luminaria led"></p>
-
-<p>Con la ejecución de la nueva norma oficial mexicana NOM-031-ENER-2012 para regulación de las lámparas de diodos, mejor conocidas como LED, en el alumbrado público se conseguirá un ahorro energético de hasta 60% en el pago de electricidad que realizan los municipios en el país y que son los que más retrasos y endeudamientos mantienen con la Comisión Federal de Electricidad.</p>
-
-<p>México es el primer país en el continente americano en elaborar una especificación obligatoria para regular las luminarias de LED destinadas al alumbrado de áreas exteriores públicas y a las vialidades y que "con la aplicación de esta Norma los consumidores, entre ellos los municipios del país, se verán beneficiados al contar con tecnologías de iluminación que contribuyen a disminuir la facturación eléctrica con mejores estándares de eficiencia energética".</p>
-
-<p>Esta Norma Oficial Mexicana establece el cumplimiento de las siguientes especificaciones en los ledes al servicio del alumbrado público: eficacia luminosa mínima, relación del flujo luminoso total nominal, temperatura de color correlacionada, flujo luminoso total mínimo mantenido, resistencia a la conmutación, índice de rendimiento de color y factor de potencia, entre otros.</p>
-
-<p>Actualmente el municipio de Torreón cuenta con un 97.37% de viviendas con acceso a alumbrado público en su manzana, de acuerdo al Censo de Población y Vivienda 2010 de INEGI.</p>
-
-<p>El municipio de Torreón a partir del día 3 de junio del 2014 que se otorgó el acta de fallo de la licitación para el otorgamiento de la concesión del servicio de alumbrado público, ha estado trabajando en la reconversión de luminarias de vapor de sodio a led, las primeras instaladas fueron en la Avenida Morelos y en la Calzada Colón.</p>
-
-<p>Al día <strong>2 de febrero del 2015</strong> se llevan <strong>instaladas 21,389 luminarias</strong> lo cual representan un <strong>36.78% de avance general del proyecto</strong>, se ha trabajado en 188 colonias y 38 vialidades principales.</p>
-
-<p><a href="http://trcimplan.gob.mx/blog/../sig/alumbrado-publico.html" target="_blank"><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon/mapa-avance-reconversion-luminaria-led-201502.jpg" alt="Mapa de avance de reconversion led a febrero de 2015"></a></p>
-
-<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/nueva-infraestructura-base-tecnologia-led-torreon/avenida-morelos-antes-despues.jpg" alt="Av. Morelos antes y después del alumbrado led"></p>
-
-<blockquote>
-  <p>“El verdadero progreso es el que pone la Tecnología al alcance de todos”</p>
-  
-  <p>Henry Ford</p>
-</blockquote>
 ]]></description>
     </item>
   </channel>

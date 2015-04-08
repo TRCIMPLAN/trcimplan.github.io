@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - DESCRIPCION
+ * TrcIMPLAN Sitio Web - Reciclaje Urbano
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

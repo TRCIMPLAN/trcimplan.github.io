@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            http://www.oesmith.co.uk/morris.js
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cada día se hace más necesario que el gobierno realize gran número de sus trámites por Internet. Los ciudadanos y la banca lo exigen en aras de aumentar la competitividad.">
+  <meta name="author" content="Lic. Luis A. Gutiérrez Arizpe">
+  <meta name="keywords" content="IMPLAN, Torreon, Internet, Trámites, Gobierno">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Innovación, Internet y Competitividad - IMPLAN Torreón">
+  <meta name="twitter:description" content="Cada día se hace más necesario que el gobierno realize gran número de sus trámites por Internet. Los ciudadanos y la banca lo exigen en aras de aumentar la competitividad.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/innovacion-internet-competitividad/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/innovacion-internet-competitividad.html">
+  <meta name="og:title" content="Innovación, Internet y Competitividad - IMPLAN Torreón">
+  <meta name="og:description" content="Cada día se hace más necesario que el gobierno realize gran número de sus trámites por Internet. Los ciudadanos y la banca lo exigen en aras de aumentar la competitividad.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/innovacion-internet-competitividad/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/innovacion-internet-competitividad.html">
+  <title>Innovación, Internet y Competitividad - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="http://trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi/georreferenciados.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../sig/abrir-sig.html"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Abrir el SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Alumbrado Público</a></li>
+            <li><a href="../sig/crecimiento-historico-torreon.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Crecimiento Histórico</a></li>
+            <li><a href="../sig/zonificacion-primaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Primaria</a></li>
+            <li><a href="../sig/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+            <li><a href="../sig/planes.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Planes</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M1 Diagnóstico y Pronóstico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-2.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M2 Visión y Objetivos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-3.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M3 Estrategias y Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-4.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M4 Gestión de Proyectos</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado">
+          <h1 itemprop="name">Innovación, Internet y Competitividad</h1>
+          <div class="encabezado-descripcion" itemprop="description">Cada día se hace más necesario que el gobierno realize gran número de sus trámites por Internet. Los ciudadanos y la banca lo exigen en aras de aumentar la competitividad.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Luis A. Gutiérrez Arizpe</span>
+          - <meta itemprop="datePublished" content="2015-04-08T14:00">08/04/2015 14:00
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Innovación, Internet y Competitividad" src="innovacion-internet-competitividad/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>Con la llegada del internet en la década de los noventa el mundo vivió una serie de cambios como no se veían desde la revolución industrial. Fue un proceso gradual, pero acelerado comparado con otros procesos históricos que se convirtieron en parteaguas de la sociedad.</p>
+
+<p>La practicidad con la que los procesos de comunicación, de intercambio de la información y el entretenimiento fueron integrándose a nuestra cotidianidad,repercutieron en nuestra forma de ver y hacer las cosas. En un trabajo publicado en 2014 por la Asociación Mexicana de Internet (AMIPCI) denominado “Estudio sobre los hábitos de los usuarios de internet en México” se destaca el aumento de la penetración de internet en el país durante 2013 en un 13% con niveles de crecimiento superiores a los de 2012 y un incremento en el tiempo de conexión del usuario de 26 minutos más a diferencia del año anterior (1).</p>
+
+<p>Por su parte Manuel Castells en “La nueva economía y la política urbana”(2) nos habla acerca de los nuevos procesos que están basados en el incremento de la producción por medio del uso del internet, que representa la optimización de tiempo, de espacios y de conocimiento que permite un desarrollo que puede ser comparado al que se vivió en el siglo XIX-XX debido principalmente a que la base fue el uso y la distribución de la energía eléctrica, permitiendo el desarrollo de los sectores productivos. Es decir, el estar conectado a la red de energía eléctrica permitió aumentar la producción, promoviendo la competitividad (sin olvidar las consecuencias ambientales que vivimos hoy en día). La diferencia con épocas contemporáneas, es que hoy se pretende estar conectados a la gran red mundial de información, que permite recopilar, producir y distribuir información, pero que para que esta pueda ser considerada como un aspecto de competitividad, debe de convertirse en conocimiento útil, que incida en el desarrollo de las entidades. No es únicamente tener la posibilidad de acceder a internet, sino cómo planteamos la gran diversidad de usos que la red ofrece y que permitan mejorar la competitividad.</p>
+
+<h3>Análisis estadístico</h3>
+
+<p>El Módulo sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares 2013 de INEGI (MODUTIH 2013), cuyo levantamiento se realizó en Abril de 2012, tuvo como objetivo generar información estadística que permitiera conocer la disponibilidad y el uso de las tecnologías de información y comunicaciones en los hogares, considerando a los integrantes de la población de seis y más años, agrupados en nueve rangos etarios: de 6 a 17, de 18 a 22, de 23 a 27, de 28 a 32, de 33 a 37, 38 a 42, 43 a 47 y 48 a 52 y 53 en adelante.</p>
+
+<h3>Uso de computadora</h3>
+
+<p>Los grupos de edad que utilizan con mayor frecuencia la computadora dentro o fuera de su hogar durante el último año son: el grupo de entre 18 y 22 años con el 77.3% es el que más utilizó la computadora, seguido por el grupo entre 6 y 17 años con el 75.6% y 23 y 27 años con el 71.3%. El grupo que menos utilizó la computadora fue el de mayores de 53 años, con el 16%.</p>
+
+<p><strong>Uso de computadora en los últimos 12 meses, dentro o fuera del hogar</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Posición</th>
+  <th>Grupo etario</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1.-</td>
+  <td>18-22 años</td>
+  <td align="right">77.3%</td>
+</tr>
+<tr>
+  <td>2.-</td>
+  <td>06-17 años</td>
+  <td align="right">75.6%</td>
+</tr>
+<tr>
+  <td>3.-</td>
+  <td>23-27 años</td>
+  <td align="right">71.3%</td>
+</tr>
+<tr>
+  <td>9.-</td>
+  <td>más de 53 años</td>
+  <td align="right">16.0%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<p>Los grupos etarios ocuparon el mismo orden en entre el uso de computadora y uso de internet de acuerdo con los resultados arrojados por la encuesta que se exhiben a continuación:</p>
+
+<h3>Uso de internet</h3>
+
+<p><strong>Uso de internet en los últimos 12 meses, dentro o fuera del hogar</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Posición</th>
+  <th>Grupo etario</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1.-</td>
+  <td>18-22 años</td>
+  <td align="right">73.7%</td>
+</tr>
+<tr>
+  <td>2.-</td>
+  <td>06-17 años</td>
+  <td align="right">67.2%</td>
+</tr>
+<tr>
+  <td>3.-</td>
+  <td>23-27 años</td>
+  <td align="right">66.9%</td>
+</tr>
+<tr>
+  <td>9.-</td>
+  <td>más de 53 años</td>
+  <td align="right">14.2%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<p>Podemos observar la brecha tecnológica entre los usuarios menores de 27 años en uso de computadora e internet contrastado con la población de mayores de 53 años. Podremos esperar conforme pasen los años que el uso de la PC y el internet se incrementará por lo menos al porcentaje de uso que muestran los grupos entre 6-17 y 18-22 años de edad.</p>
+
+<h3>Pagos por internet</h3>
+
+<p>En cuanto al uso de internet para realizar pagos, los grupos que no se encuentran entre los primeros tres lugares en cuanto al uso de computadora e internet, si aparecen entre los que han realizado pagos por este medio.</p>
+
+<p>El 14.5% de las personas entre 33 y 37 años de edad que utilizaron internet, lo hicieron para realizar algún pago. Seguidos del grupo entre 43 y 47 años con el 14.1%, los de más de 53 años con el 11.7%. El grupo que menos utilizó internet para realizar pagos fue el de entre 6 y 17 años de edad.</p>
+
+<p><strong>Realizó pagos por internet, dentro o fuera del hogar, los últimos 12 meses</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Posición</th>
+  <th>Grupo etario</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1.-</td>
+  <td>33-37 años</td>
+  <td align="right">14.5%</td>
+</tr>
+<tr>
+  <td>2.-</td>
+  <td>43-47 años</td>
+  <td align="right">14.1%</td>
+</tr>
+<tr>
+  <td>3.-</td>
+  <td>más de 53 años</td>
+  <td align="right">11.7%</td>
+</tr>
+<tr>
+  <td>9.-</td>
+  <td>06-17 años</td>
+  <td align="right">0.3%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<p>Los pagos que realizaron los encuestados nos arrojan que el mayor uso se dio para realizar pagos por servicios bancarios y financieros (préstamos  personales, transferencias de recursos, hipotecas, seguros, tarjetas de crédito, etc.) con el 57%. El consumo personal y familiar conjuntamente marcan el 38% de las transacciones y el 3% realizó el trámite para pagar servicios y trámites de gobierno.</p>
+
+<p><strong>Primer pago que realizaron por internet</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Destino</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Servicios bancarios y financieros</td>
+  <td align="right">57.0%</td>
+</tr>
+<tr>
+  <td>Bienes y servicios para la persona</td>
+  <td align="right">24.0%</td>
+</tr>
+<tr>
+  <td>Bienes y servicios para el hogar</td>
+  <td align="right">14.0%</td>
+</tr>
+<tr>
+  <td>Otro</td>
+  <td align="right">6.0%</td>
+</tr>
+<tr>
+  <td>Servicios y trámites de gobierno</td>
+  <td align="right">3.0%</td>
+</tr>
+<tr>
+  <td>Servicios educativos</td>
+  <td align="right">0.0%</td>
+</tr>
+<tr>
+  <td>No sabe</td>
+  <td align="right">0.0%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<p>De acuerdo a la metodología de la encuesta, se le preguntó a los encuestados que realizaron pagos por internet cuál fue el segundo pago que realizaron arrojando la siguiente información: consumo personal y familiar: 24% y 38%, servicios educativos 18%, servicios y trámites de gobierno 12% y pago de servicios financieros y bancarios 3%.</p>
+
+<p><strong>Segundo pago que realizaron por internet</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Destino</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Bienes y servicios para el hogar</td>
+  <td align="right">38.0%</td>
+</tr>
+<tr>
+  <td>Bienes y servicios para la persona</td>
+  <td align="right">24.0%</td>
+</tr>
+<tr>
+  <td>Servicios educativos</td>
+  <td align="right">18.0%</td>
+</tr>
+<tr>
+  <td>Servicios y tramites de gobierno</td>
+  <td align="right">12.0%</td>
+</tr>
+<tr>
+  <td>Otro</td>
+  <td align="right">6.0%</td>
+</tr>
+<tr>
+  <td>Servicios bancarios y financieros</td>
+  <td align="right">3.0%</td>
+</tr>
+<tr>
+  <td>No sabe</td>
+  <td align="right">0.0%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<p>Podemos asumir de acuerdo con las estadísticas, que la población tiene menor certidumbre al realizar pagos por internet para cumplir con sus obligaciones con el gobierno que para el consumo de bienes y servicios.</p>
+
+<p>Las instituciones bancarias juegan un papel primordial relacionándose directamente entre el uso intensivo del internet para realizar pagos y la confianza del usuario en estas formas de pago, ya que fungen como intermediarios entre el cliente y la entidad beneficiaria de la transacción electrónica.</p>
+
+<p>En cuanto a la frecuencia con que se utiliza internet para realizar pagos observamos que la mitad de los encuestados lo utiliza mensualmente (50%), semanalmente el 18.5%, cada seis meses el 14.8%, anualmente el 12.5% y por último, la población que utiliza diariamente el internet para realizar pagos es del 4.5%.</p>
+
+<p><strong>Frecuencia con la que se realizan pagos por internet</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Frecuencia</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Diario</td>
+  <td align="right">4.50%</td>
+</tr>
+<tr>
+  <td>Semanal</td>
+  <td align="right">18.20%</td>
+</tr>
+<tr>
+  <td>Mensual</td>
+  <td align="right">50.00%</td>
+</tr>
+<tr>
+  <td>Semestral</td>
+  <td align="right">14.80%</td>
+</tr>
+<tr>
+  <td>Anual</td>
+  <td align="right">12.50%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: MODUTIH</p>
+
+<blockquote>
+  <p>AMIPCI</p>
+  
+  <p>“90% de los usuarios de la Banca por Internet se expresan satisfechos por los servicios. Aún cuando 5 de cada 10 continúa visitando las sucursales bancarias entre una y tres veces por mes.”</p>
+</blockquote>
+
+<p>De acuerdo a un estudio llevado a cabo por AMIPCI, Asociación Mexicana de Internet A.C. en donde se expresan datos porcentuales relacionados a los usuarios de servicios bancarios y la frecuencia en el uso de la banca por internet;  el uso semanal, quincenal, mensual y esporádico disminuyó en 2013 comparado a 2012. El dato relevante es que el uso Diario de la banca por internet se duplicó, pasando en 2012 del 6% de los encuestados al 12% en 2013. Cada vez más población utiliza diariamente el internet para realizar consultas o transacciones bancarias.</p>
+
+<p><strong>¿Con que frecuencia utilizas la banca por internet de tu banco?</strong></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Frecuencia</th>
+  <th align="right">2012</th>
+  <th align="right">2013</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Entre 2 y 3 veces por semana</td>
+  <td align="right">38%</td>
+  <td align="right">36%</td>
+</tr>
+<tr>
+  <td>Una vez a la semana</td>
+  <td align="right">22%</td>
+  <td align="right">21%</td>
+</tr>
+<tr>
+  <td><strong>Diario</strong></td>
+  <td align="right"><strong>6%</strong></td>
+  <td align="right"><strong>12%</strong></td>
+</tr>
+<tr>
+  <td>Quincena</td>
+  <td align="right">19%</td>
+  <td align="right">17%</td>
+</tr>
+<tr>
+  <td>Mes</td>
+  <td align="right">10%</td>
+  <td align="right">9%</td>
+</tr>
+<tr>
+  <td>Esporádicamente</td>
+  <td align="right">5%</td>
+  <td align="right">5%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: AMIPCI</p>
+
+<h3>Conclusiones</h3>
+
+<ol>
+<li>Podemos ver que la confianza en el uso de internet para realizar transacciones bancarias y el aumento vertiginoso en la frecuencia diaria, es una oportunidad para trasladar su uso a otros conceptos de pagos. Depende ahora de una estrategia más agresiva por parte de los bancos para aumentar el uso de internet para pagos de productos y servicios, entre estos, los trámites de gobierno.</li>
+<li>El internet ha permeado nuestra cotidianeidad, pero esa realidad no ha sido suficiente para obtener resultados positivos que se reflejen en una optimización de tiempo y recursos por parte de las instituciones de gobierno en automático. Citando a Francisco Javier Castellón Fonseca, doctorado en economía y especialista en temas tecnológicos, para una entrevista realizada por El Universal (3):  "[…] la facilidad no depende de si es electrónico el proceso, sino de la normativa que da esas facilidades para que se adapte a las plataformas necesarias."</li>
+</ol>
+
+<p>Esto nos obliga a trabajar en la voluntad expresa de todos los ámbitos de la sociedad para adaptarnos a las nuevas condiciones que implica la competitividad actualmente. Ciudadanía, empresas, instituciones educativas y bancarias deben de integrarse armónicamente al proceso migratorio tecnológico, pero sobretodo el Gobierno es quien tiene el alcance necesario para impulsar la integración que permita mejorar la competitividad de las regiones.</p>
+
+<h3>Fuentes</h3>
+
+<ol>
+<li><a href="https://www.amipci.org.mx/estudios/habitos_de_internet/Estudio_Habitos_del_Internauta_Mexicano_2014_V_MD.pdf">Estudio Hábitos del Internauta Mexicano 2014</a></li>
+<li><a href="http://www.ddooss.org/articulos/textos/Manuel_Castells.htm">Artículo - Manuel Castells</a></li>
+<li><a href="http://www.redpolitica.mx/nacion/gobierno-electronico-lanzan-tramites-en-linea">Gobierno Electrónico - Lanzan trámites en línea</a></li>
+<li><a href="www.amipci.org.mx">AMIPCI</a></li>
+<li><a href="www.inegi.org.mx">INEGI</a></li>
+</ol>
+
+        </div>
+      </div>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Finnovacion-internet-competitividad.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

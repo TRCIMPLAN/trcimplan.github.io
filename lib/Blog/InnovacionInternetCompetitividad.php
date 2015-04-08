@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - Nuevas Tecnologías y Estándares para la Web
+ * TrcIMPLAN - Innovación, Internet y Competitividad
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,24 +23,24 @@
 namespace Blog;
 
 /**
- * Clase NuevasTecnologiasEstandaresWeb
+ * Clase InnovacionInternetCompetitividad
  */
-class NuevasTecnologiasEstandaresWeb extends \Base\Publicacion {
+class InnovacionInternetCompetitividad extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Nuevas Tecnologías y Estándares para la Web';
-        $this->autor            = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha            = '2015-04-07T08:00';
+        $this->nombre           = 'Innovación, Internet y Competitividad';
+        $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
+        $this->fecha            = '2015-04-08T14:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'nuevas-tecnologias-estandares-web';
-        $this->imagen_previa    = 'nuevas-tecnologias-estandares-web/imagen-previa.png';
+        $this->archivo          = 'innovacion-internet-competitividad';
+        $this->imagen_previa    = 'innovacion-internet-competitividad/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Recopilación de las nuevas técnicas que se deben de usar para la elaboración de sitios web institucionales. Con el objetivo de mejorarlas tanto para los humanos como para los robots (motores de búsqueda).';
-        $this->claves           = 'IMPLAN, Torreon, Sitios Web, Tecnologías, Responsivo, Esquemas, Web';
+        $this->descripcion      = 'Cada día se hace más necesario que el gobierno realize gran número de sus trámites por Internet. Los ciudadanos y la banca lo exigen en aras de aumentar la competitividad.';
+        $this->claves           = 'IMPLAN, Torreon, Internet, Trámites, Gobierno';
         $this->categorias       = array('Innovación', 'Gobierno Digital');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
@@ -52,17 +52,17 @@ class NuevasTecnologiasEstandaresWeb extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'nuevas-tecnologias-estandares-web/imagen.png';
+        $schema->image          = 'innovacion-internet-competitividad/imagen.jpg';
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/NuevasTecnologiasEstandaresWeb.md');
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/InnovacionInternetCompetitividad.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
     } // constructor
 
-} // Clase NuevasTecnologiasEstandaresWeb
+} // Clase InnovacionInternetCompetitividad
 
 ?>

@@ -184,8 +184,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[]  = '      <div class="col-md-8">';
         // Análisis publicados
         $this->contenido[]  = '        <div class="analisis-publicados">';
-        $this->contenido[]  = $resumenes_sala_prensa->html();
         $this->contenido[]  = $resumenes->html();
+        $this->contenido[]  = $resumenes_sala_prensa->html();
         $this->contenido[]  = '          <div class="text-center">';
         $this->contenido[]  = "            <a href=\"blog/index.html\" class=\"btn btn-default\" role=\"button\">Todos los Análisis Publicados</a>";
         $this->contenido[]  = '          </div>';
