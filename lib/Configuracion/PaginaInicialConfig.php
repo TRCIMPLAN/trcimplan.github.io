@@ -41,8 +41,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
     // public $descripcion;
     // public $claves;
     // public $directorio;
-    // public $ruta;
-    // public $imagen_previa;
+    // public $archivo_ruta;
+    // public $imagen_previa_ruta;
     // public $icono;
     // public $navegacion;
     // public $contenido;
@@ -83,12 +83,12 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Propiedades para la página inicial
         $this->en_raiz                  = true;
         $this->titulo                   = 'IMPLAN Torreón';
-        $this->autor                    = 'IMPLAN Staff';
-        $this->description              = 'Órgano técnico responsable de la planeación municipal del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.';
+        $this->autor                    = 'IMPLAN Torreón';
+        $this->descripcion              = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.';
         $this->claves                   = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna';
         $this->directorio               = '.';
-        $this->ruta                     = "index.html";
-        $this->imagen_previa            = 'imagenes/implan.jpg';
+        $this->archivo_ruta             = "index.html";
+        $this->imagen_previa_ruta       = 'imagenes/imagen-previa.jpg';
         $this->contenido_en_renglon     = false;
         $this->google_site_verification = '  <meta name="google-site-verification" content="Hz-cnyG17CBaAXopvSHn7J81Za2cmg4dvnRh1VJE7ks">';
         // Navegación
@@ -103,7 +103,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Encabezado
         $organizacion              = new \Inicial\Organizacion();
         $organizacion->name        = 'Instituto Municipal de Planeación y Competitividad de Torreón';
-        $organizacion->description = 'Órgano técnico responsable de la planeación municipal del desarrollo del municipio de Torreón, Coahuila, México.';
+        $organizacion->description = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.';
         $organizacion->image       = 'imagenes/implan-logo.png';
         // Acumular
         $this->contenido[] = '  <section id="organizacion">';

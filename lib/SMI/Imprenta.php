@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - SMI Imprenta
+ * TrcIMPLAN Sitio Web - SMI Imprenta
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -36,7 +36,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion              = 'El Sistema Metropolitano de Indicadores contiene información de Torreón, Gómez Palacio, Lerdo, Matamoros y La Laguna.';
         $this->claves                   = 'IMPLAN, Torreon, Indicadores, Gomez Palacio, Lerdo, Matamoros, La Laguna';
         $this->directorio               = 'smi';
-        $this->ruta                     = 'smi/index.html';
+        $this->archivo_ruta             = 'smi/index.html';
         $this->nombre_menu              = 'Indicadores';
         $this->encabezado_color         = '#008000';
     } // constructor

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Proyectos Imprenta
+ * TrcIMPLAN Sitio Web - Proyectos Imprenta
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -36,7 +36,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion              = 'Banco Municipal de Proyectos del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Banco, Municipal, Proyectos';
         $this->directorio               = 'proyectos';
-        $this->ruta                     = 'proyectos/index.html';
+        $this->archivo_ruta             = 'proyectos/index.html';
         $this->nombre_menu              = 'Banco de Proyectos';
         $this->encabezado_color         = '#008000';
     } // constructor

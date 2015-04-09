@@ -41,15 +41,15 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     public $descripcion;                    // Descripción del sitio o la página
     public $claves;                         // Claves que ayuden a los buscadores
     public $directorio;                     // Directorio donde se guardará el archivo HTML
-    public $ruta;                           // Ruta relativa a la pagina HTML
-    public $imagen_previa;                  // Ruta relativa a la imagen
+    public $archivo_ruta;                   // Ruta desde la raiz a la pagina HTML
+    public $imagen_previa_ruta;             // Ruta desde la raiz a la imagen previa
     public $icono;                          // Icono de Font Awsome
     public $navegacion;                     // Instancia de \Base\Navegacion
     public $contenido            = array(); // Texto o arreglo, código HTML con el contenido
     public $mapa_inferior;                  // Instancia de \Base\MapaInferior
     public $javascript           = array(); // Arreglo que acumula el código Javascript a poner al final de la página
     public $contenido_en_renglon = true;    // Encierra el contenido en renglón y cuerpo.
-    public $google_site_verification;
+    public $google_site_verification;       // Opcional. Código de verificación de Google; se agregará a header
 
     /**
      * Incorporar Publicacion
@@ -82,14 +82,18 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         // En navegacion, para que el menú indique la opción activa
         $this->navegacion->opcion_activa = $publicacion->nombre_menu;
         // Definir las demás propiedades
-        $this->titulo        = $publicacion->nombre;
-        $this->autor         = $publicacion->autor;
-        $this->descripcion   = $publicacion->descripcion;
-        $this->claves        = $publicacion->claves;
-        $this->directorio    = $publicacion->directorio;
-        $this->ruta          = "{$publicacion->directorio}/{$publicacion->archivo}.html";
-        $this->imagen_previa = $publicacion->imagen_previa;
-        $this->icono         = $publicacion->icono;
+        $this->titulo       = $publicacion->nombre;
+        $this->autor        = $publicacion->autor;
+        $this->descripcion  = $publicacion->descripcion;
+        $this->claves       = $publicacion->claves;
+        $this->directorio   = $publicacion->directorio;
+        $this->archivo_ruta = "{$publicacion->directorio}/{$publicacion->archivo}.html";
+        if ($publicacion->imagen_previa != '') {
+            $this->imagen_previa_ruta = "{$publicacion->directorio}/{$publicacion->imagen_previa}";
+        } else {
+            $this->imagen_previa_ruta = '';
+        }
+        $this->icono        = $publicacion->icono;
         // Acumular el código Javascript que venga en la publicación
         if (is_array($publicacion->javascript)) {
             foreach ($publicacion->javascript as $js) {
@@ -140,16 +144,16 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = "  <meta name=\"twitter:card\" content=\"summary\">";
             $a[] = "  <meta name=\"twitter:title\" content=\"$titulo\">";
             $a[] = "  <meta name=\"twitter:description\" content=\"{$this->descripcion}\">";
-            if ($this->imagen_previa != '') {
-                $a[] = sprintf('  <meta name="twitter:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa);
+            if ($this->imagen_previa_ruta != '') {
+                $a[] = sprintf('  <meta name="twitter:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa_ruta);
             }
-            $a[] = sprintf('  <meta name="twitter:url" content="%s/%s">', $this->sitio_url, $this->ruta);
+            $a[] = sprintf('  <meta name="twitter:url" content="%s/%s">', $this->sitio_url, $this->archivo_ruta);
             $a[] = "  <meta name=\"og:title\" content=\"$titulo\">";
             $a[] = "  <meta name=\"og:description\" content=\"{$this->descripcion}\">";
-            if ($this->imagen_previa != '') {
-                $a[] = sprintf('  <meta name="og:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa);
+            if ($this->imagen_previa_ruta != '') {
+                $a[] = sprintf('  <meta name="og:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa_ruta);
             }
-            $a[] = sprintf('  <meta name="og:url" content="%s/%s">', $this->sitio_url, $this->ruta);
+            $a[] = sprintf('  <meta name="og:url" content="%s/%s">', $this->sitio_url, $this->archivo_ruta);
         }
         if ($this->google_site_verification != '') {
             $a[] = $this->google_site_verification;

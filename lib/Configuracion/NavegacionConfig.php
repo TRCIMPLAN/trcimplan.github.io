@@ -105,8 +105,9 @@ class NavegacionConfig {
         'Contacto'                       => 'fa fa-phone',
         'Comentarios y Sugerencias'      => 'fa fa-external-link',
         'Preguntas Frecuentes'           => 'fa fa-question');
+    // id="searchform"
     protected $buscador_html = <<<FINAL
-          <form method="get" id="searchform" id="searchbox_015475140351266618625:04hulmghdys" action="http://trcimplan.gob.mx/buscador-resultados.html">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
             <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
             <input type="hidden" value="FORID:11" name="cof">
             <div class="input-group custom-search-form">

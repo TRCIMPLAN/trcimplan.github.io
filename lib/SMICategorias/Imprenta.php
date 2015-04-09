@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN SMIv2 - Categorías índice
+ * TrcIMPLAN Sitio Web - SMI Categorías Imprenta
  *
  * Copyright (C) 2015 IMPLAN Torreón
  *
@@ -33,10 +33,10 @@ class Imprenta extends \Base\ImprentaPublicaciones {
     public function __construct() {
         $this->publicaciones_directorio = 'SMICategorias';
         $this->titulo                   = 'Indicadores por Categoría';
-        $this->descripcion              = 'Listado de Categorías del Sistema Metropolitano de Indicadores del IMPLAN Torreón.';
+        $this->descripcion              = 'Categorías del Sistema Metropolitano de Indicadores del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Indicadores, Categorías';
         $this->directorio               = 'indicadores-categorias';
-        $this->ruta                     = 'indicadores-categorias/index.html';
+        $this->archivo_ruta             = 'indicadores-categorias/index.html';
         $this->nombre_menu              = 'Indicadores > Indicadores por Categoría';
         $this->concentrador             = 'Galeria';
     } // constructor

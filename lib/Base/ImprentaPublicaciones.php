@@ -36,7 +36,7 @@ class ImprentaPublicaciones extends Imprenta {
     protected $descripcion;              // Descripción a usar en la página con el índice
     protected $claves;                   // Claves a usar en la página con el índice
     protected $directorio;               // Nombre del directorio en la raíz del sitio
-    protected $ruta;                     // Ruta al archivo HTML para el índice, por ejemplo 'eventos/index.html'
+    protected $archivo_ruta;             // Ruta desde la raíz al archivo HTML para el índice, por ejemplo 'eventos/index.html'
     protected $nombre_menu;              // Etiqueta del menú que pondrá como opción activa
     protected $concentrador = 'Indice';  // Clase que concentrará este conjunto de publicaciones. Puede ser 'Indice' o 'Galeria'.
     protected $encabezado;               // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
@@ -97,7 +97,7 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->descripcion               = $this->descripcion;
         $this->plantilla->claves                    = $this->claves;
         $this->plantilla->directorio                = $this->directorio;
-        $this->plantilla->ruta                      = $this->ruta;
+        $this->plantilla->archivo_ruta              = $this->archivo_ruta;
         $this->plantilla->navegacion->opcion_activa = $this->nombre_menu;
         $this->plantilla->contenido                 = $concentrador->html();
         // Imprimir index.html

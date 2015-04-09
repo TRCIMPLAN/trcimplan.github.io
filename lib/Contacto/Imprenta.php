@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Contacto Imprenta
+ * TrcIMPLAN Sitio Web - Contacto Imprenta
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -36,7 +36,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion              = 'Contacto con el IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
         $this->directorio               = 'contacto';
-        $this->ruta                     = 'contacto/index.html';
+        $this->archivo_ruta             = 'contacto/index.html';
         $this->nombre_menu              = 'Contacto';
         $this->encabezado_color         = '#008000';
     } // constructor

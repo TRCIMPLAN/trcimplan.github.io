@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Plan Estratégico Metropolitano - Imprenta
+ * TrcIMPLAN Sitio Web - Plan Estratégico Metropolitano Imprenta
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -36,7 +36,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion              = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves                   = 'IMPLAN, Torreon, Plan, Estratégico, Metropolitano';
         $this->directorio               = 'plan-estrategico-metropolitano';
-        $this->ruta                     = 'plan-estrategico-metropolitano/index.html';
+        $this->archivo_ruta             = 'plan-estrategico-metropolitano/index.html';
         $this->nombre_menu              = 'Plan Estratégico Metropolitano';
         $this->encabezado_color         = '#008000';
     } // constructor

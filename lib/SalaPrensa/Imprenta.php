@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Sala de Prensa Imprenta
+ * TrcIMPLAN Sitio Web - Sala de Prensa Imprenta
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -36,7 +36,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion              = 'Comunicados de Prensa del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Comunicados, Prensa, Sala';
         $this->directorio               = 'sala-prensa';
-        $this->ruta                     = 'sala-prensa/index.html';
+        $this->archivo_ruta             = 'sala-prensa/index.html';
         $this->nombre_menu              = 'Comunicados > Sala de Prensa';
         $this->encabezado_color         = '#008000';
     } // constructor

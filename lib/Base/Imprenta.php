@@ -223,7 +223,7 @@ class Imprenta extends \Configuracion\ImprentaConfig {
                 $this->plantilla->incorporar_publicacion($publicacion);
                 // Escribir el archivo HTML
                 $this->crear_directorio($this->plantilla->directorio);                  // Puede causar una excepción
-                $this->crear_archivo($this->plantilla->ruta, $this->plantilla->html()); // Puede causar una excepción
+                $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html()); // Puede causar una excepción
             }
         }
         // Si hay datos en el arreglo Plantillas
@@ -231,14 +231,14 @@ class Imprenta extends \Configuracion\ImprentaConfig {
             foreach ($this->plantillas as $plantilla) {
                 // Escribir el archivo HTML
                 $this->crear_directorio($plantilla->directorio);            // Puede causar una excepción
-                $this->crear_archivo($plantilla->ruta, $plantilla->html()); // Puede causar una excepción
+                $this->crear_archivo($plantilla->archivo_ruta, $plantilla->html()); // Puede causar una excepción
             }
         }
         // Si NO hubo Publicaciones NI Plantillas, se imprime la Plantilla
         if ((count($this->publicaciones) == 0) && (count($this->plantillas) == 0)) {
             // Entonces se imprime la Plantilla
             $this->crear_directorio($this->plantilla->directorio);                  // Puede causar una excepción
-            $this->crear_archivo($this->plantilla->ruta, $this->plantilla->html()); // Puede causar una excepción
+            $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html()); // Puede causar una excepción
         }
         // Entregar mensajes
         return implode("\n", $this->mensajes);

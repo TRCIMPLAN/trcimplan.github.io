@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Consejo Directivo Imprenta
+ * TrcIMPLAN Sitio Web - Consejo Directivo Imprenta
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -36,7 +36,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion              = 'Consejo Directivo del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Consejo, Directivo, Comites, Tecnicos';
         $this->directorio               = 'consejo-directivo';
-        $this->ruta                     = 'consejo-directivo/index.html';
+        $this->archivo_ruta             = 'consejo-directivo/index.html';
         $this->nombre_menu              = 'Consejo Directivo';
         $this->encabezado_color         = '#008000';
     } // constructor

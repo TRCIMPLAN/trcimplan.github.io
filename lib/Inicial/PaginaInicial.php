@@ -41,8 +41,8 @@ class PaginaInicial extends \Configuracion\PaginaInicialConfig {
     // public $descripcion;
     // public $claves;
     // public $directorio;
-    // public $ruta;
-    // public $imagen_previa;
+    // public $archivo_ruta;
+    // public $imagen_previa_ruta;
     // public $icono;
     // public $navegacion;
     // public $contenido;
@@ -50,6 +50,10 @@ class PaginaInicial extends \Configuracion\PaginaInicialConfig {
     // public $javascript;
     // public $contenido_en_renglon;
     // public $google_site_verification;
+    // public $mapa_servicios;
+    // public $mapa_institucional);
+    // public $mapa_interaccion;
+    // public $mapa_legal;
 
 } // Clase PaginaInicial
 

@@ -41,26 +41,28 @@ class PaginaBuscadorResultados extends \Base\Plantilla {
     // public $descripcion;
     // public $claves;
     // public $directorio;
-    // public $ruta;
-    // public $imagen_previa;
+    // public $archivo_ruta;
+    // public $imagen_previa_ruta;
+    // public $icono;
     // public $navegacion;
     // public $contenido;
     // public $mapa_inferior;
     // public $javascript;
     // public $contenido_en_renglon;
+    // public $google_site_verification;
 
     /**
      * Constructor
      */
     public function __construct() {
-        $this->en_raiz       = true;
-        $this->titulo        = 'Resultados de la búsqueda';
-    //  $this->autor         = 'TrcIMPLAN';
-        $this->descripcion   = 'Resultados de la búsqueda.';
-        $this->claves        = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna';
-        $this->directorio    = '.';
-        $this->ruta          = "buscador-resultados.html";
-        $this->imagen_previa = 'imagenes/implan.jpg';
+        $this->en_raiz            = true;
+        $this->titulo             = 'Resultados de la búsqueda';
+        $this->autor              = 'IMPLAN Torreón';
+        $this->descripcion        = 'Resultados de la búsqueda.';
+        $this->claves             = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna';
+        $this->directorio         = '.';
+        $this->archivo_ruta       = "buscador-resultados.html";
+        $this->imagen_previa_ruta = 'imagenes/implan.jpg';
     } // constructor
 
     /**

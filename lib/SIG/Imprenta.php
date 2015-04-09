@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - SIG Imprenta
+ * TrcIMPLAN Sitio Web - SIG Imprenta
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -36,7 +36,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion              = 'Sistema de Información Geográfica del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Sistema, Informacion, Geografica, SIG, GIS';
         $this->directorio               = 'sig';
-        $this->ruta                     = 'sig/index.html';
+        $this->archivo_ruta             = 'sig/index.html';
         $this->nombre_menu              = 'Información Geográfica';
         $this->encabezado_color         = '#008000';
     } // constructor

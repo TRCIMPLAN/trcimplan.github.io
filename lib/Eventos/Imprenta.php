@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Eventos Imprenta
+ * TrcIMPLAN Sitio Web - Eventos Imprenta
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -36,7 +36,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion              = 'Eventos del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Eventos';
         $this->directorio               = 'eventos';
-        $this->ruta                     = 'eventos/index.html';
+        $this->archivo_ruta             = 'eventos/index.html';
         $this->nombre_menu              = 'Comunicados > Eventos';
         $this->encabezado_color         = '#008000';
     } // constructor

@@ -1,6 +1,6 @@
 <?php
 /*
- * SMIbeta - Preguntas Frecuentes Imprenta
+ * TrcIMPLAN Sitio Web - Preguntas Frecuentes Imprenta
  *
  * Copyright (C) 2014 Guillermo Valdés Lozano
  *
@@ -42,7 +42,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->nombre_menu              = 'Preguntas Frecuentes';
         // La ruta al archivo con el índice/galería que será creado
         $this->directorio               = 'preguntas-frecuentes';
-        $this->ruta                     = 'preguntas-frecuentes/index.html';
+        $this->archivo_ruta             = 'preguntas-frecuentes/index.html';
     } // constructor
 
 } // Clase Imprenta

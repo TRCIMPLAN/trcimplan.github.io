@@ -36,7 +36,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion              = 'Publicaciones sobre investigación y otros temas.';
         $this->claves                   = 'IMPLAN, Torreon, Blog';
         $this->directorio               = 'blog';
-        $this->ruta                     = 'blog/index.html';
+        $this->archivo_ruta             = 'blog/index.html';
         $this->nombre_menu              = 'Análisis Publicados';
         $this->encabezado_color         = '#800000';
     } // constructor

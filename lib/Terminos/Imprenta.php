@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - Imprenta
+ * TrcIMPLAN Sitio Web - Términos Imprenta
  *
  * Copyright (C) 2015 IMPLAN Torreón
  *
@@ -42,7 +42,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->nombre_menu              = 'Preguntas Frecuentes > Términos';
         // La ruta al archivo con el índice/galería que será creado
         $this->directorio               = 'terminos';
-        $this->ruta                     = 'terminos/index.html';
+        $this->archivo_ruta             = 'terminos/index.html';
     } // constructor
 
 } // Clase Imprenta

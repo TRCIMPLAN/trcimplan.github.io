@@ -36,7 +36,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->descripcion              = 'Información institucional del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Institucional';
         $this->directorio               = 'institucional';
-        $this->ruta                     = 'institucional/index.html';
+        $this->archivo_ruta             = 'institucional/index.html';
         $this->nombre_menu              = 'Institucional';
         $this->encabezado_color         = '#008000';
     } // constructor
