@@ -33,7 +33,7 @@ class Mesa4 extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre           = 'Mesa 4: Gestión de Proyectos y Arranque del Plan Estratégico Metropolitano';
-     // $this->autor            = '';
+        $this->autor            = '';
         $this->fecha            = '2015-03-05T18:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'mesa-4';
@@ -72,7 +72,12 @@ class Mesa4 extends \Base\Publicacion {
       <!-- Photo Slider inicia -->
         <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px; height: 500px;">
           <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 500px; overflow: hidden;">
-{$fotos_html}
+            <div><img u="image" src="fotogaleria/fotos250.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos253.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos263.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos267.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos285.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos301.jpg"></div>
           </div>
           <a style="display: none" href="http://www.jssor.com">Image Slider</a>
         </div>

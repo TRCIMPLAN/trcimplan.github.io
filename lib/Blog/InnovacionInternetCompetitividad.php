@@ -39,7 +39,7 @@ class InnovacionInternetCompetitividad extends \Base\Publicacion {
         $this->archivo          = 'innovacion-internet-competitividad';
         $this->imagen_previa    = 'innovacion-internet-competitividad/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Cada día se hace más necesario que el gobierno realize gran número de sus trámites por Internet. Los ciudadanos y la banca lo exigen en aras de aumentar la competitividad.';
+        $this->descripcion      = 'Cada día se hace más necesario que el gobierno realice gran número de sus trámites por Internet. Los ciudadanos y la banca lo exigen en aras de aumentar la competitividad.';
         $this->claves           = 'IMPLAN, Torreon, Internet, Trámites, Gobierno';
         $this->categorias       = array('Innovación', 'Gobierno Digital');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.

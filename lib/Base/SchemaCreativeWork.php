@@ -88,19 +88,27 @@ class SchemaCreativeWork extends SchemaThing {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        if (($this->author != '') || ($this->datePublished != '')) {
+        if (($this->author != '') && ($this->datePublished != '')) {
             $a[] = '<div class="encabezado-autor-fecha">';
-            if ($this->author != '') {
-                $a[] = "  Por <span itemprop=\"author\">{$this->author}</span>";
-            }
-            if ($this->datePublished != '') {
-                $a[] = sprintf('  - <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
-            }
+            $a[] = "  Por <span itemprop=\"author\">{$this->author}</span>";
+            $a[] = sprintf('  - <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
+            $a[] = '</div>';
+        } elseif ($this->datePublished != '') {
+            $a[] = '<div class="encabezado-autor-fecha">';
+            $a[] = sprintf('  <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
+            $a[] = '</div>';
+        } elseif ($this->author != '') {
+            $a[] = '<div class="encabezado-autor-fecha">';
+            $a[] = "  Por <span itemprop=\"author\">{$this->author}</span>";
             $a[] = '</div>';
         }
         // Entregar
-        $spaces = str_repeat('  ', $this->identation + 1);
-        return $spaces.implode("\n$spaces", $a);
+        if (count($a) > 0) {
+            $spaces = str_repeat('  ', $this->identation + 1);
+            return $spaces.implode("\n$spaces", $a);
+        } else {
+            return '';
+        }
     } // author_date_published_html
 
     /**

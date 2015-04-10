@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            http://www.oesmith.co.uk/morris.js
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Presentación con las fotografías de las mesas del Plan Estratégico Metropolitano.">
+  <meta name="keywords" content="IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Fotogalería: Plan Estratégico Metropolitano - IMPLAN Torreón">
+  <meta name="twitter:description" content="Presentación con las fotografías de las mesas del Plan Estratégico Metropolitano.">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/plan-estrategico-metropolitano/fotogaleria.html">
+  <meta name="og:title" content="Fotogalería: Plan Estratégico Metropolitano - IMPLAN Torreón">
+  <meta name="og:description" content="Presentación con las fotografías de las mesas del Plan Estratégico Metropolitano.">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/plan-estrategico-metropolitano/fotogaleria.html">
+  <title>Fotogalería: Plan Estratégico Metropolitano - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi/georreferenciados.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../sig/abrir-sig.html"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Abrir el SIG</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Alumbrado Público</a></li>
+            <li><a href="../sig/crecimiento-historico-torreon.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Crecimiento Histórico</a></li>
+            <li><a href="../sig/zonificacion-primaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Primaria</a></li>
+            <li><a href="../sig/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+            <li><a href="../sig/planes.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Planes</a></li>
+          </ul>
+        </li>
+        <li class="active">
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M1 Diagnóstico y Pronóstico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-2.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M2 Visión y Objetivos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-3.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M3 Estrategias y Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-4.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M4 Gestión de Proyectos</a></li>
+            <li class="active"><a href="../plan-estrategico-metropolitano/fotogaleria.html"><span class="navegacion-icono"><i class="fa fa-camera"></i></span> Fotogalería</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+<article>
+  <header>
+    <div class="encabezado" style="background-color:#DF9C0A;">
+      <span><h1>Fotogalería: Plan Estratégico Metropolitano</h1></span>
+    </div>
+  </header>
+      <!-- Photo Slider inicia -->
+        <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px; height: 500px;">
+          <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 500px; overflow: hidden;">
+            <div><img u="image" src="fotogaleria/fotos001.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos002.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos003.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos004.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos005.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos006.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos007.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos008.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos009.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos010.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos011.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos012.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos013.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos014.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos015.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos016.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos017.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos018.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos019.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos020.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos021.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos022.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos023.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos024.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos025.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos026.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos027.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos028.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos029.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos030.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos031.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos032.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos033.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos034.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos035.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos036.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos037.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos038.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos039.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos040.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos041.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos042.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos043.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos044.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos045.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos046.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos047.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos048.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos049.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos050.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos051.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos052.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos053.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos054.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos055.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos056.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos057.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos058.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos059.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos060.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos061.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos062.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos063.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos064.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos065.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos066.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos067.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos068.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos069.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos070.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos071.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos072.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos073.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos074.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos075.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos076.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos077.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos078.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos079.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos080.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos081.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos082.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos083.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos084.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos085.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos086.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos087.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos088.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos089.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos090.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos091.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos092.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos093.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos094.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos095.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos096.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos097.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos098.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos099.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos100.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos101.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos102.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos103.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos104.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos105.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos106.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos107.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos108.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos109.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos110.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos111.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos112.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos113.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos114.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos115.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos116.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos117.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos118.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos119.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos120.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos121.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos122.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos123.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos124.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos125.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos126.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos127.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos128.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos129.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos130.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos131.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos132.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos133.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos134.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos135.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos136.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos137.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos138.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos139.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos140.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos141.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos142.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos143.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos144.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos145.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos146.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos147.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos148.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos149.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos150.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos151.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos152.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos153.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos154.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos155.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos156.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos157.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos158.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos159.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos160.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos161.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos162.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos163.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos164.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos165.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos166.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos167.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos168.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos169.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos170.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos171.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos172.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos173.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos174.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos175.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos176.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos177.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos178.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos179.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos180.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos181.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos182.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos183.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos184.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos185.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos186.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos187.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos188.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos189.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos190.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos191.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos192.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos193.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos194.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos195.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos196.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos197.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos198.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos199.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos200.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos201.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos202.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos203.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos204.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos205.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos206.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos207.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos208.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos209.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos210.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos211.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos212.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos213.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos214.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos215.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos216.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos217.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos218.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos219.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos220.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos221.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos222.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos223.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos224.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos225.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos226.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos227.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos228.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos229.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos230.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos231.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos232.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos233.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos234.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos235.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos236.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos237.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos238.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos239.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos240.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos241.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos242.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos243.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos244.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos245.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos246.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos247.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos248.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos249.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos250.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos251.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos252.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos253.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos254.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos255.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos256.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos257.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos258.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos259.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos260.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos261.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos262.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos263.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos264.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos265.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos266.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos267.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos268.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos269.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos270.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos271.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos272.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos273.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos274.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos275.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos276.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos277.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos278.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos279.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos280.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos281.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos282.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos283.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos284.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos285.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos286.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos287.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos288.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos289.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos290.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos291.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos292.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos293.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos294.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos295.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos296.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos297.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos298.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos299.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos300.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos301.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos302.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos303.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos304.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos305.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos306.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos307.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos308.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos309.jpg"></div>
+            <div><img u="image" src="fotogaleria/fotos310.jpg"></div>
+          </div>
+          <a style="display: none" href="http://www.jssor.com">Image Slider</a>
+        </div>
+      <!-- Photo Slider termina -->
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fplan-estrategico-metropolitano%2Ffotogaleria.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script type="text/javascript" src="../js/jssor.slider.min.js"></script>
+<script>
+  <!-- Photo Slider inicia -->
+    jQuery(document).ready(function ($) {
+        var options = {
+            $AutoPlay: true,
+            $ChanceToShow: 5,
+            $DragOrientation: 1
+        };
+        var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+        // responsive code begin
+        function ScaleSlider() {
+            var parentWidth = $('#slider1_container').parent().width();
+            if (parentWidth) {
+                jssor_slider1.$ScaleWidth(parentWidth);
+            }
+            else
+                window.setTimeout(ScaleSlider, 30);
+        }
+        // Scale slider after document ready
+        ScaleSlider();
+        // Scale slider while window load/resize/orientationchange.
+        $(window).bind("load", ScaleSlider);
+        $(window).bind("resize", ScaleSlider);
+        $(window).bind("orientationchange", ScaleSlider);
+        // responsive code end
+    });
+  <!-- Photo Slider termina -->
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

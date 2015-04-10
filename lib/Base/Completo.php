@@ -90,7 +90,7 @@ class Completo {
         } elseif ($autor != '') {
             $autor_fecha = "Por $autor";
         } elseif ($fecha != '') {
-            $autor_fecha = $fecha;
+            $autor_fecha = '';
         }
         // Acumularemos la entrega en este arreglo
         $a = array();
