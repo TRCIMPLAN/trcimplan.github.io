@@ -268,8 +268,26 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/seguridad-robo-a-negocios.html">Robo a Negocios en Lerdo</a></td>
+            <td>Robos totales por mes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html">Robo a Transeuntes en Lerdo</a></td>
+            <td>Robos a Transeuntes totales por mes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Lerdo</a></td>
             <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/seguridad-robos-totales.html">Robos Totales en Lerdo</a></td>
+            <td>Cantidad total de robos en el mes.</td>
           </tr>
           <tr>
             <td>ND</td>

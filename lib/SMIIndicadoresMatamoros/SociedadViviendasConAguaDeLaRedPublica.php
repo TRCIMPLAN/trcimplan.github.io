@@ -34,9 +34,9 @@ class SociedadViviendasConAguaDeLaRedPublica extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-mapa">
-<iframe width='100%' height='520' frameborder='0' src='http://sigimplan.cartodb.com/viz/c13020c0-4a43-11e4-baf1-0e853d047bba/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/28b06c78-de19-11e4-8197-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <h3>Notas</h3>
-<p><a href="http://sigimplan.cartodb.com/viz/c13020c0-4a43-11e4-baf1-0e853d047bba/embed_map">Ver este mapa a pantalla completa</a>.</p>
+<p><a href="https://implantorreon.cartodb.com/u/sigimplan/viz/28b06c78-de19-11e4-8197-0e0c41326911/embed_map">Ver a pantalla completa</a></p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-datos">

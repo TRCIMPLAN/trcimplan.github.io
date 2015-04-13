@@ -185,8 +185,32 @@ class SeguridadTasaDeRoboDeVehiculos extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/seguridad-robo-a-negocios.html">Robo a Negocios en La Laguna</a></td>
+            <td>Robos totales por mes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html">Robo a Transeuntes en La Laguna</a></td>
+            <td>Robos a Transeuntes totales por mes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html">Robo de Vehículos en La Laguna</a></td>
             <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/seguridad-robos-totales.html">Robos Totales en La Laguna</a></td>
+            <td>Cantidad total de robos en el mes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html">Robos a Casa Habitación en La Laguna</a></td>
+            <td>Robos totales por mes a casa habitación.</td>
           </tr>
           <tr>
             <td>ND</td>

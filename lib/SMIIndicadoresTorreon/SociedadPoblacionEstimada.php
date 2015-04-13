@@ -226,6 +226,12 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-poblacion-catolica.html">Población Católica en Torreón</a></td>
+            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html">Promedio de Descendencia por Varón en Torreón</a></td>
             <td>Calcula el promedio estimado de hijos por cada varón.</td>
           </tr>

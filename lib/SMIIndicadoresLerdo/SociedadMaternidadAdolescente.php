@@ -34,9 +34,9 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-mapa">
-<iframe width='100%' height='520' frameborder='0' src='http://sigimplan.cartodb.com/viz/e5010daa-4a4f-11e4-bf7b-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/476c744c-de26-11e4-b88e-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <h3>Notas</h3>
-<p><a href="http://sigimplan.cartodb.com/viz/e5010daa-4a4f-11e4-bf7b-0e4fddd5de28/embed_map">Ver este mapa a pantalla completa</a>.</p>
+<p><a href="https://implantorreon.cartodb.com/u/sigimplan/viz/476c744c-de26-11e4-b88e-0e9d821ea90d/embed_map">Ver a pantalla completa</a></p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-datos">

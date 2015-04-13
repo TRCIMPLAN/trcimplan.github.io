@@ -220,6 +220,12 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-poblacion-catolica.html">Población Católica en La Laguna</a></td>
+            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-usuarios-de-internet.html">Usuarios de Internet en La Laguna</a></td>
             <td>Porcentaje de la población que usa internet.</td>
           </tr>

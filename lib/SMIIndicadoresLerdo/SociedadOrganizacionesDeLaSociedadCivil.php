@@ -123,6 +123,18 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>08/04/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/innovacion-internet-competitividad.html">Innovación, Internet y Competitividad</a></td>
+            <td>Cada día se hace más necesario que el gobierno realice gran número de sus trámites por Internet. Los ciudadanos y la banca lo exigen en aras de aumentar la competitividad.</td>
+          </tr>
+          <tr>
+            <td>07/04/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/nuevas-tecnologias-estandares-web.html">Nuevas Tecnologías y Estándares para la Web</a></td>
+            <td>Recopilación de las nuevas técnicas que se deben de usar para la elaboración de sitios web institucionales. Con el objetivo de mejorarlas tanto para los humanos como para los robots (motores de búsqueda).</td>
+          </tr>
+          <tr>
             <td>26/02/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/que-son-datos-abiertos.html">¿Qué son los datos abiertos?</a></td>

@@ -34,9 +34,9 @@ class SociedadViviendasQueDisponenDeRetrete extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-mapa">
-<iframe width='100%' height='520' frameborder='0' src='http://sigimplan.cartodb.com/viz/30eb8cd0-4a65-11e4-a408-0e853d047bba/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/c39b756e-de1b-11e4-9b88-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <h3>Notas</h3>
-<p><a href="http://sigimplan.cartodb.com/viz/30eb8cd0-4a65-11e4-a408-0e853d047bba/embed_map">Ver este mapa a pantalla completa</a>.</p>
+<p><a href="https://implantorreon.cartodb.com/u/sigimplan/viz/c39b756e-de1b-11e4-9b88-0e0c41326911/embed_map">Ver a pantalla completa</a></p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-datos">
