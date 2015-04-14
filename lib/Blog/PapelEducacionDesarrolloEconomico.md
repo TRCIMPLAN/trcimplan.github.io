@@ -25,7 +25,7 @@ Aun cuando tengamos mejores indicadores que el promedio de México, no debemos p
 
 ### Políticas
 
-Las políticas en materia de educación deben centrarse en mejorar la calidad de esta, más que en aumentar la matricula o las horas escolares.
+Las políticas en materia de educación deben centrarse en mejorar la calidad de ésta, más que en aumentar la matricula o las horas escolares.
 
 Reformas en el sistema educativo, inversión en la modernización de equipo en las escuelas y creación de filtros que aseguren maestros calificados son algunas de las políticas necesarias.
 
