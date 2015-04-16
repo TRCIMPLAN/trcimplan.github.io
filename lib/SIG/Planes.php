@@ -68,9 +68,20 @@ class Planes extends \Base\Publicacion {
       </div>
     </div>
   </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="http://www.torreon.gob.mx/pdf/PIMUS_LAGUNA.pdf"><img src="planes/estudio-plan-integral-movilidad-urbana-sustentable-laguna.png" alt=""></a>
+      <div class="caption">
+        <h3><a href="http://www.torreon.gob.mx/pdf/PIMUS_LAGUNA.pdf">Plan Integral de Movilidad Urbana Sustentable de La Laguna</a></h3>
+        <p>El Plan Integral de Movilidad Urbana Sustentable de La Laguna (PIMUS) es un conjunto de acciones para implementar las distintas formas de transporte sustentable, éstas son, a pie, bicicleta y transporte público. Favoreciendo el crecimiento económico, el desarrollo social y la defensa del medio ambiente; lo cual llevará a una mejor calidad de vida para los ciudadanos.</p>
+        <p><a href="http://www.torreon.gob.mx/pdf/PIMUS_LAGUNA.pdf" class="btn btn-default" role="button">Descargar PDF 33.7 MB</a></p>
+      </div>
+    </div>
+  </div>
 </div>
 FINAL;
     //  $this->javascript      = '';
+
     } // constructor
 
 } // Clase Planes
