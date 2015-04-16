@@ -38,12 +38,11 @@ class NavegacionConfig {
             'Indicadores > Georreferenciados'         => 'smi/georreferenciados.html'),
         'Información Geográfica' => array(
             'Información Geográfica > Introducción'            => 'sig/introduccion.html',
-            'Información Geográfica > Abrir el SIG'            => 'sig/abrir-sig.html',
+            'Información Geográfica > Planes'                  => 'sig/planes.html',
             'Información Geográfica > Alumbrado Público'       => 'sig/alumbrado-publico.html',
             'Información Geográfica > Crecimiento Histórico'   => 'sig/crecimiento-historico-torreon.html',
             'Información Geográfica > Zonificación Primaria'   => 'sig/zonificacion-primaria.html',
-            'Información Geográfica > Zonificación Secundaria' => 'sig/zonificacion-secundaria.html',
-            'Información Geográfica > Planes'                  => 'sig/planes.html'),
+            'Información Geográfica > Zonificación Secundaria' => 'sig/zonificacion-secundaria.html'),
         'Plan Estratégico Metropolitano' => array(
             'Plan Estratégico Metropolitano > Conoce el Plan'              => 'plan-estrategico-metropolitano/introduccion.html',
             'Plan Estratégico Metropolitano > M1 Diagnóstico y Pronóstico' => 'plan-estrategico-metropolitano/mesa-1.html',
@@ -95,6 +94,7 @@ class NavegacionConfig {
         'Zonificación Primaria'          => 'fa fa-map-marker',
         'Zonificación Secundaria'        => 'fa fa-map-marker',
         'Abrir el SIG'                   => 'fa fa-external-link',
+        'Planes'                         => 'fa fa-server',
         'Banco de Proyectos'             => 'fa fa-check-square',
         'Plata Laguna'                   => 'fa fa-certificate',
         'Institucional'                  => 'fa fa-building-o',

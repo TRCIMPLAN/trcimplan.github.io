@@ -131,9 +131,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $sig->name        = 'Sistema de Información Geográfica';
         $sig->description = 'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.';
         $sig->image       = 'servicio-sig';
-        $sig->url         = 'sig/abrir-sig.html';
+        $sig->url         = 'sig/zonificacion-secundaria.html';
         $sig->botones     = array(
-            '<i class="fa fa-external-link"></i> Abrir el SIG'         => 'sig/abrir-sig.html',
             '<i class="fa fa-map-marker"></i> Alumbrado Público'       => 'sig/alumbrado-publico.html',
             '<i class="fa fa-map-marker"></i> Zonificación Primaria'   => 'sig/zonificacion-primaria.html',
             '<i class="fa fa-map-marker"></i> Zonificación Secundaria' => 'sig/zonificacion-secundaria.html');
