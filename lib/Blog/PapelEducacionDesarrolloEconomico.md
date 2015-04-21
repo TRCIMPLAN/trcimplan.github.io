@@ -39,5 +39,5 @@ La urgencia reside en el hecho de que generar crecimiento económico a través d
 ### Citas
 
 * Hanushek, E. A. and Wößmann, L. (2010), Education and Economic Growth. In: Penelope Peterson, Eva Baker, Barry McGaw, (Editors), InternationalEncyclopedia of Education. Volume 2, pp. 245-252. Oxford: Elsevier.
-* Schwab, K. (2014-2015). “The Global Competitiveness Report” enWorld Economic Forum (insightreport). Obtenido el 13 de abril de 2015 de <http://www3.weforum.org/docs/WEF_GlobalCompetitivenessReport_2014-15.pdf>
-* OECD (2014). “PISA 2012 Results in Focus What 15-year-olds know and what they can do with what they know”. Obtenido el 13 de abril de 2015 de <http://www.oecd.org/pisa/keyfindings/pisa-2012-results-overview.pdf>
+* [Schwab, K. (2014-2015). “The Global Competitiveness Report” enWorld Economic Forum (insightreport). Obtenido el 13 de abril de 2015](http://www3.weforum.org/docs/WEF_GlobalCompetitivenessReport_2014-15.pdf)
+* [OECD (2014). “PISA 2012 Results in Focus What 15-year-olds know and what they can do with what they know”. Obtenido el 13 de abril de 2015](http://www.oecd.org/pisa/keyfindings/pisa-2012-results-overview.pdf)
