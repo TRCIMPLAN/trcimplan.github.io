@@ -32,7 +32,6 @@ class NecesidadDiagnosticoSobreDelincuenciaJuvenil extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        // LA NECESIDAD DE UN DIAGNOSTICO SOBRE LA DELINCUENCIA JUVENIL EN EL MUNICIPIO DE TORREÓN
         $this->nombre           = 'La Necesidad de un Diagnóstico sobre la Delincuencia Juvenil en el Municipio de Torreón';
         $this->autor            = 'Lic. Alfredo Viesca Domínguez';
         $this->fecha            = '2015-04-22T09:20';
