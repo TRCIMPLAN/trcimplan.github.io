@@ -43,9 +43,10 @@ class AlumbradoPublico extends \Base\Publicacion {
         $this->categorias    = array('SIG', 'Alumbrado Público');
      // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
         $this->contenido     = <<<FINAL
-<iframe width='100%' height='520' frameborder='0' src='https://sigimplan.cartodb.com/viz/e1447ce2-35fa-11e4-a9bb-0e230854a1cb/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-<a class="btn btn-default" href="http://sigimplan.cartodb.com/viz/e1447ce2-35fa-11e4-a9bb-0e230854a1cb/embed_map" target="_blank" role="button">Ver a pantalla completa</a>
+<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<a class="btn btn-default" href="https://sigimplan.cartodb.com/viz/e1447ce2-35fa-11e4-a9bb-0e230854a1cb/embed_map" target="_blank" role="button">Ver a pantalla completa</a>
 
 <p><b>Nota:</b> La información mostrada está sujeta a cambios sin previo aviso por la concesionaria.<br>
 <b>Fuente:</b> Dirección General de Servicios Públicos de Torreón.</p>
