@@ -54,7 +54,8 @@ class Introduccion extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaArticle();
         $schema->description    = $this->descripcion;
-     // $schema->image          = 'introduccion/imagen.jpg';
+        $schema->image          = 'introduccion/imagen.jpg';
+        $schema->image_show     = false;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;

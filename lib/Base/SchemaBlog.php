@@ -30,20 +30,22 @@ namespace Base;
  */
 class SchemaBlog extends SchemaCreativeWork {
 
-    // public $identation = 3; // Integer. Level of identation (beautiful code).
-    // public $onTypeProperty; // Text. Use when this item is part of another one.
-    // public $extra;          // Text. Additional HTML to put inside.
-    // public $description;    // Text. A short description of the item.
-    // public $image;          // URL or ImageObject. An image of the item.
-    // public $name;           // Text. The name of the item.
-    // public $url;            // URL of the item.
-    // public $url_label;      // Label for the URL of the item.
-    // public $author;          // Organization or Person. The author of this content.
-    // public $contentLocation; // Place. The location of the content.
-    // public $datePublished;   // Date. Date of first broadcast/publication.
-    // public $headline;        // Text. Headline of the article.
-    // public $headline_style;  // Text. CSS style for encabezado
-    // public $producer;        // Organization or Person. The person or organization who produced the work.
+    // public $onTypeProperty;      // Text. Use when this item is part of another one.
+    // public $identation  = 3;     // Integer. Level of identation (beautiful code).
+    // public $big_heading = false; // Boolean. Use true to use a big heading for the web page.
+    // public $extra;               // Text. Additional HTML to put inside.
+    // public $description;         // Text. A short description of the item.
+    // public $image;               // URL or ImageObject. An image of the item.
+    // public $image_show  = false; // Boolean. Use true to put an img tag. Use false to put a meta tag.
+    // public $name;                // Text. The name of the item.
+    // public $url;                 // URL of the item.
+    // public $url_label;           // Label for the URL of the item.
+    // public $author;              // Organization or Person. The author of this content.
+    // public $contentLocation;     // Place. The location of the content.
+    // public $datePublished;       // Date. Date of first broadcast/publication.
+    // public $headline;            // Text. Headline of the article.
+    // public $headline_style;      // Text. CSS style for encabezado
+    // public $producer;            // Organization or Person. The person or organization who produced the work.
 
     /**
      * HTML
@@ -61,7 +63,12 @@ class SchemaBlog extends SchemaCreativeWork {
         } else {
             $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Blog">';
         }
-        $a[] = $this->big_heading_html();
+        if ($this->big_heading) {
+            $a[] = $this->big_heading_html();
+        } else {
+            $a[] = $this->title_html();
+            $a[] = $this->description_html();
+        }
         $a[] = $this->image_html();
         if ($this->extra != '') {
             $a[] = $this->extra;

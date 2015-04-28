@@ -30,18 +30,21 @@ namespace Base;
  */
 class SchemaPlace extends SchemaThing {
 
-    // public $identation = 3; // Integer. Level of identation (beautiful code).
-    // public $onTypeProperty; // Text. Use when this item is part of another one.
-    // public $extra;          // Text. Additional HTML to put inside.
-    // public $description;    // Text. A short description of the item.
-    // public $image;          // URL or ImageObject. An image of the item.
-    // public $name;           // Text. The name of the item.
-    // public $url;            // URL of the item.
-    // public $url_label;      // Label for the URL of the item.
-    public $address;           // Instance of PostalAddress. Physical address of the item.
-    public $geo;               // Instance of SchemaGeoCoordinates. The geo coordinates of the place.
-    public $logo;              // URL or ImageObject. An associated logo.
-    public $telephone;         // Text. The telephone number.
+    // public $onTypeProperty;      // Text. Use when this item is part of another one.
+    // public $identation  = 3;     // Integer. Level of identation (beautiful code).
+    // public $big_heading = false; // Boolean. Use true to use a big heading for the web page.
+    // public $extra;               // Text. Additional HTML to put inside.
+    // public $description;         // Text. A short description of the item.
+    // public $image;               // URL or ImageObject. An image of the item.
+    // public $image_show  = false; // Boolean. Use true to put an img tag. Use false to put a meta tag.
+    // public $name;                // Text. The name of the item.
+    // public $url;                 // URL of the item.
+    // public $url_label;           // Label for the URL of the item.
+    public $address;                // Instance of SchemaPostalAddress. Physical address of the item.
+    public $geo;                    // Instance of SchemaGeoCoordinates. The geo coordinates of the place.
+    public $hasMap;                 // Instance of SchemaMap. A URL to a map of the place.
+    public $logo;                   // URL or ImageObject. An associated logo.
+    public $telephone;              // Text. The telephone number.
 
     /**
      * Logo HTML
@@ -92,6 +95,11 @@ class SchemaPlace extends SchemaThing {
             $a[] = $this->description_html();
         }
         $a[] = $this->logo_html();
+        if (is_object($this->hasMap) && ($this->hasMap instanceof SchemaMap)) {
+            $this->hasMap->onTypeProperty = 'hasMap';
+            $this->hasMap->identation     = $this->identation + 1;
+            $a[] = $this->hasMap->html();
+        }
         if (is_object($this->address) && ($this->address instanceof SchemaPostalAddress)) {
             $this->address->onTypeProperty = 'address';
             $this->address->identation     = $this->identation + 1;

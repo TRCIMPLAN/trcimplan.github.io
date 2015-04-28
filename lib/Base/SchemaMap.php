@@ -30,21 +30,56 @@ namespace Base;
  */
 class SchemaMap extends SchemaCreativeWork {
 
-    // public $identation = 3;  // Integer. Level of identation (beautiful code).
-    // public $onTypeProperty;  // Text. Use when this item is part of another one.
-    // public $extra;           // Text. Additional HTML to put inside.
-    // public $description;     // Text. A short description of the item.
-    // public $image;           // URL or ImageObject. An image of the item.
-    // public $name;            // Text. The name of the item.
-    // public $url;             // URL of the item.
-    // public $url_label;       // Label for the URL of the item.
-    // public $author;          // Organization or Person. The author of this content.
-    // public $contentLocation; // Place. The location of the content.
-    // public $datePublished;   // Date. Date of first broadcast/publication.
-    // public $headline;        // Text. Headline of the article.
-    // public $headline_style;  // Text. CSS style for encabezado
-    // public $producer;        // Organization or Person. The person or organization who produced the work.
-    public $mapType;            // Indicates the kind of Map, from the MapCategoryType Enumeration.
+    // public $onTypeProperty;      // Text. Use when this item is part of another one.
+    // public $identation  = 3;     // Integer. Level of identation (beautiful code).
+    // public $big_heading = false; // Boolean. Use true to use a big heading for the web page.
+    // public $extra;               // Text. Additional HTML to put inside.
+    // public $description;         // Text. A short description of the item.
+    // public $image;               // URL or ImageObject. An image of the item.
+    // public $image_show  = false; // Boolean. Use true to put an img tag. Use false to put a meta tag.
+    // public $name;                // Text. The name of the item.
+    // public $url;                 // URL of the item.
+    // public $url_label;           // Label for the URL of the item.
+    // public $author;              // Organization or Person. The author of this content.
+    // public $contentLocation;     // Place. The location of the content.
+    // public $datePublished;       // Date. Date of first broadcast/publication.
+    // public $headline;            // Text. Headline of the article.
+    // public $headline_style;      // Text. CSS style for encabezado
+    // public $producer;            // Organization or Person. The person or organization who produced the work.
+    public $mapType;                // Text. Indicates the kind of Map, from the MapCategoryType Enumeration. Use 'ParkingMap', 'SeatingMap', 'TransitMap' or  'VenueMap'.
+
+    /**
+     * Botón HTML
+     *
+     * @return string Código HTML
+     */
+    protected function boton_html() {
+        switch ($this->mapType) {
+            case 'ParkingMap':
+                $map_type = "<link itemprop=\"mapType\" href=\"http://schema.org/ParkingMap\">";
+                break;
+            case 'SeatingMap':
+                $map_type = "<link itemprop=\"mapType\" href=\"http://schema.org/SeatingMap\">";
+                break;
+            case 'TransitMap':
+                $map_type = "<link itemprop=\"mapType\" href=\"http://schema.org/TransitMap\">";
+                break;
+            case 'VenueMap':
+                $map_type = "<link itemprop=\"mapType\" href=\"http://schema.org/VenueMap\">";
+                break;
+            default:
+                $map_type = '';
+        }
+        if ($this->url != '') {
+            if ($this->url_label != '') {
+                return "$map_type<a itemprop=\"url\" class=\"btn btn-default\" href=\"{$this->url}\" target=\"_blank\" role=\"button\">{$this->url_label}</a>";
+            } else {
+                return "$map_type<a itemprop=\"url\" class=\"btn btn-default\" href=\"{$this->url}\" target=\"_blank\" role=\"button\">{$this->name}</a>";
+            }
+        } else {
+            return '';
+        }
+    } // boton_html
 
     /**
      * HTML
@@ -62,35 +97,21 @@ class SchemaMap extends SchemaCreativeWork {
         } else {
             $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Map">';
         }
-
-        $a[] = $this->big_heading_html();
-        $a[] = $this->image_html();
-        if (is_object($this->spatial) && ($this->spatial instanceof SchemaPlace)) {
-            $this->spatial->onTypeProperty = 'spatial';
-            $this->spatial->identation     = $this->identation + 1;
-            $a[] = $this->spatial->html();
+        if ($this->big_heading) {
+            $a[] = $this->big_heading_html();
+        } else {
+            $a[] = $this->title_html();
+            $a[] = $this->description_html();
         }
-        $a[] = $this->catalog_html();
-        $a[] = $this->temporal_html();
-        $a[] = $this->distribution_html();
-
+        $a[] = $this->image_html();
         if ($this->extra != '') {
             $a[] = $this->extra;
         }
+        $a[] = $this->boton_html();
         $a[] = '</div>';
         // Entregar
         return implode("\n$spaces", $a);
     } // html
-
-/*
-<p itemscope itemtype="http://schema.org/Museum">
-    Welcome to a fictional <span itemprop="name">SF art museum.</name>
-    Here is our
-    <span itemscope itemprop="hasMap" itemtype="http://schema.org/Map">
-        <link itemprop="mapType" href="http://schema.org/VenueMap" /><a itemprop="url" href="/map1234/">venue map</a>
-    </span>
-</p>
- */
 
 } // Clase SchemaMap
 

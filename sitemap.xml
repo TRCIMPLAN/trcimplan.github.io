@@ -256,6 +256,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-primaria.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig/zonificacion-secundaria.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/smi/georreferenciados.html</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -347,16 +357,6 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sig/zonificacion-ip.html</loc>
-    <lastmod>2014-11-18</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/sig/zonificacion-primaria.html</loc>
-    <lastmod>2014-11-18</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/sig/zonificacion-secundaria.html</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>

@@ -31,34 +31,48 @@ class ZonificacionPrimaria extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Zonificación Primaria';
-     // $this->autor            = 'Autor';
-        $this->fecha            = '2014-11-18';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+     // $this->autor            = '';
+        $this->fecha            = '2014-11-18T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios
         $this->archivo          = 'zonificacion-primaria';
      // $this->imagen_previa    = 'zonificacion-primaria/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-primaria/encabezado.jpg">';
         $this->encabezado_color = '#008000';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Mapa con la Zonificación Primaria';
         $this->claves           = 'IMPLAN, Torreon, SIG';
-        $this->categorias       = array('Zonificación');
-        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
+        $this->categorias       = array('SIG', 'Zonificación');
+        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
         $this->directorio       = 'sig';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu      = 'Información Geográfica > Zonificación Primaria';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-     // $this->para_compartir   = true;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = <<<FINAL
-<iframe width='100%' height='520' frameborder='0' src='http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-<a class="btn btn-default" href="http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map" target="_blank" role="button">Ver a pantalla completa</a>
-FINAL;
-     // $this->javascript       = '';
+        $this->para_compartir   = true;
+        // Instancia de SchemaPostalAddress
+        $region                  = new \Base\SchemaPostalAddress();
+        $region->addressCountry  = 'MX';
+        $region->addressRegion   = 'Coahuila de Zaragoza';
+        $region->addressLocality = 'Torreón';
+        // Instancia de SchemaMapa
+        $mapa                    = new \Base\SchemaMap();
+        $mapa->mapType           = 'VenueMap';
+        $mapa->url               = 'http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map';
+        $mapa->url_label         = 'Ver a pantalla completa';
+        $mapa->extra             = "<iframe width='100%' height='520' frameborder='0' src='http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>";
+        // Instancia de SchemaPlace
+        $lugar                   = new \Base\SchemaPlace();
+        $lugar->big_heading      = true;
+        $lugar->name             = $this->nombre;
+        $lugar->description      = $this->descripcion;
+        $lugar->address          = $region;
+        $lugar->hasMap           = $mapa;
+        // El contenido es una instancia
+        $this->contenido         = $lugar;
+        // Sin JavaScript
+        $this->javascript        = '';
     } // constructor
 
 } // Clase ZonificacionPrimaria

@@ -31,7 +31,7 @@ class Planes extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Planes';
      // $this->autor            = 'Autor';
      // $this->fecha            = '2014-00-00';

@@ -30,18 +30,20 @@ namespace Base;
  */
 class SchemaOrganization extends SchemaThing {
 
-    // public $identation = 3; // Integer. Level of identation (beautiful code).
-    // public $onTypeProperty; // Text. Use when this item is part of another one.
-    // public $extra;          // Text. Additional HTML to put inside.
-    // public $description;    // Text. A short description of the item.
-    // public $image;          // URL or ImageObject. An image of the item.
-    // public $name;           // Text. The name of the item.
-    // public $url;            // URL of the item.
-    // public $url_label;      // Label for the URL of the item.
-    public $address;           // Instance of SchemaPostalAddress. Physical address of the item.
-    public $email;             // Text. Email address.
-    public $location;          // Instance of SchemaPostalAddress or SchemaPlace. The location of the event, organization or action.
-    public $telephone;         // Text. The telephone number.
+    // public $onTypeProperty;      // Text. Use when this item is part of another one.
+    // public $identation  = 3;     // Integer. Level of identation (beautiful code).
+    // public $big_heading = false; // Boolean. Use true to use a big heading for the web page.
+    // public $extra;               // Text. Additional HTML to put inside.
+    // public $description;         // Text. A short description of the item.
+    // public $image;               // URL or ImageObject. An image of the item.
+    // public $image_show  = false; // Boolean. Use true to put an img tag. Use false to put a meta tag.
+    // public $name;                // Text. The name of the item.
+    // public $url;                 // URL of the item.
+    // public $url_label;           // Label for the URL of the item.
+    public $address;                // Instance of SchemaPostalAddress. Physical address of the item.
+    public $email;                  // Text. Email address.
+    public $location;               // Instance of SchemaPostalAddress or SchemaPlace. The location of the event, organization or action.
+    public $telephone;              // Text. The telephone number.
 
     /**
      * e-mail HTML

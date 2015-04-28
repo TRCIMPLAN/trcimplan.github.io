@@ -55,6 +55,7 @@ class Contacto extends \Base\Publicacion {
         $trcimplan->name        = 'Instituto Municipal de Planeación y Competitividad de Torreón';
         $trcimplan->description = 'Órgano técnico responsable de la planeación municipal del desarrollo del municipio de Torreón, Coahuila, México.';
         $trcimplan->image       = '../imagenes/trcimplan.jpg';
+        $trcimplan->image_show  = true;
         $trcimplan->url         = 'http://www.trcimplan.gob.mx';
         $trcimplan->url_label   = 'www.trcimplan.gob.mx';
         $trcimplan->telephone   = '(871) 500 7078';
@@ -78,7 +79,7 @@ FINAL;
         $trcimplan->address->streetAddress   = 'Av. Morelos 1217 Pte. esquina con C. Cepeda. Col. Centro.';
         $trcimplan->address->addressLocality = 'Torreón';
         $trcimplan->address->addressRegion   = 'Coahuila';
-        $trcimplan->address->addressCountry  = 'México';
+        $trcimplan->address->addressCountry  = 'MX';
         $trcimplan->address->postalCode      = '27000';
         // La ubicación geográfica
         $trcimplan->location                 = new \Base\SchemaPlace();

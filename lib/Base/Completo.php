@@ -96,8 +96,10 @@ class Completo {
         $a = array();
         // Si el contenido de la publicación es una instancia
         if (is_object($this->publicacion->contenido)) {
+            $a[] = '<article>';
             // Es una instancia de esquema, debe tener el método html
             $a[] = $this->publicacion->contenido->html();
+            $a[] = '</article>';
         } else {
             // Es texto
             $a[] = '<article>';
