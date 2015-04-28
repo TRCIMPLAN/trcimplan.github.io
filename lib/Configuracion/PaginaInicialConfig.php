@@ -171,12 +171,12 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $analisis                   = new \Blog\Imprenta();
         $resumenes                  = $analisis->elaborar_resumenes(); // Entrega una instancia de \Base\Resumenes
         $resumenes->en_raiz         = true;
-        $resumenes->cantidad_maxima = 3;
+        $resumenes->cantidad_maxima = 4;
         // Obtener el último de Sala de Prensa
-        $sala_prensa                            = new \SalaPrensa\Imprenta();
+    /*  $sala_prensa                            = new \SalaPrensa\Imprenta();
         $resumenes_sala_prensa                  = $sala_prensa->elaborar_resumenes(); // Entrega una instancia de \Base\Resumenes
         $resumenes_sala_prensa->en_raiz         = true;
-        $resumenes_sala_prensa->cantidad_maxima = 1;
+        $resumenes_sala_prensa->cantidad_maxima = 1; */
         // Acumular sección novedades
         $this->contenido[]  = '  <section id="novedades">';
         $this->contenido[]  = '    <div class="row">';
@@ -184,7 +184,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Análisis publicados
         $this->contenido[]  = '        <div class="analisis-publicados">';
         $this->contenido[]  = $resumenes->html();
-        $this->contenido[]  = $resumenes_sala_prensa->html();
+    /*  $this->contenido[]  = $resumenes_sala_prensa->html(); */
         $this->contenido[]  = '          <div class="text-center">';
         $this->contenido[]  = "            <a href=\"blog/index.html\" class=\"btn btn-default\" role=\"button\">Todos los Análisis Publicados</a>";
         $this->contenido[]  = '          </div>';
@@ -194,7 +194,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[]  = '      <div class="col-md-4">';
         // Twitter Timeline Inicia
         $this->contenido[]  = '        <div class="red-social-twitter">';
-        $this->contenido[]  = '          <a class="twitter-timeline" height="600px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>';
+        $this->contenido[]  = '          <a class="twitter-timeline" height="720px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>';
         $this->contenido[]  = '        </div>';
         $this->javascript[] = '!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?\'http\':\'https\';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");';
         // Twitter Timeline Termina

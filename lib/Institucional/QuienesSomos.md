@@ -9,6 +9,8 @@ Persona                                  | Puesto
 -----------------------------------------|-------------------------------
 **Lic. Eduardo Holguín Zehfuss**         | **Director General Ejecutivo**
 Lic. Miriam Anahi Castillo Díaz          | Secretario Técnico
+Ing. Natalia Zavala López                | Asistente Presidencia
+Lic. Felipe de Jesús Medina Delgado      | Coordinador Jurídico
 Lic. Mariana Segovia Mota                | Coordinador Administrativo
 Lic. Irma Judith Ramírez Machain         | Contadora
 Lic. Janeth Ramírez Facio                | Auxiliar Administrativo
@@ -17,9 +19,8 @@ Sra. Olga Lidia Delgado Ramírez          | Servicios de Limpieza
 **Lic. Rodrigo González Morales**        | **Director de Investigación Estratégica**
 Ing. Guillermo Valdés Lozano             | Programación y Software
 Lic. Alfredo Viesca Domínguez            | Investigación Cualitativa
-Lic. Luis Gutiérrez Arizpe               | Indicadores Sociodemográficos
+Lic. Luis Alberto Gutiérrez Arizpe       | Indicadores Sociodemográficos
 Lic. Alicia Valdez Ibarra                | Indicadores Económicos
-Ing. Natalia Zavala López                | Asistente Presidencia
 **Ing. Luis Alberto Campos Hinojosa**    | **Director de Planeación Urbana**
 Arq. Jair Miramontes Chávez              | Sistemas de Información Geográfica
 Arq. Teresita de Jesús Benítez Saludado  | Estudios Sectoriales
@@ -30,5 +31,5 @@ Lic. Víctor Núñez de la Cruz             | Actualización de Planes
 Arq. Ángeles Melisa Rodríguez Salas      | Analista de Costos
 Arq. María Susana Montano García         | Integración de Proyectos
 Arq. Luly Victoria Aranzábal Estrada     | Integración de Proyectos
-Lic. Hugo Ramírez Martínez               | Gestión y Difusión Social
+Lic. Hugo Elohím Ramírez Martínez        | Gestión y Difusión Social
 Lic. Israel Sinai Charur Méndez          | Difusión y Diseño Gráfico
