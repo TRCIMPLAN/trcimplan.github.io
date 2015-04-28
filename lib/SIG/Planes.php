@@ -37,9 +37,9 @@ class Planes extends \Base\Publicacion {
      // $this->fecha            = '2014-00-00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'planes';
-        $this->imagen_previa    = 'planes/imagen-previa.jpg';
+     // $this->imagen_previa    = 'planes/imagen-previa.jpg';
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="planes/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
+        $this->encabezado_color = '#008000';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Documentación sobre los Planes de desarrollo de diversos propósitos.';
         $this->claves           = 'IMPLAN, Torreon, Planes';
@@ -80,8 +80,7 @@ class Planes extends \Base\Publicacion {
   </div>
 </div>
 FINAL;
-    //  $this->javascript      = '';
-
+        $this->javascript      = '';
     } // constructor
 
 } // Clase Planes

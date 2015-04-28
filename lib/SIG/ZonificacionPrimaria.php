@@ -39,7 +39,7 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $this->archivo          = 'zonificacion-primaria';
      // $this->imagen_previa    = 'zonificacion-primaria/imagen-previa.jpg';
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-primaria/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
+        $this->encabezado_color = '#008000';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Mapa con la Zonificación Primaria';
         $this->claves           = 'IMPLAN, Torreon, SIG';

@@ -31,17 +31,41 @@ class AlumbradoPublico extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->fecha         = '2014-09-08';
-     // $this->autor         = 'TrcIMPLAN';
-        $this->nombre        = 'Avance de Reconversión Tecnológica Led del Alumbrado Público';
-        $this->nombre_menu   = 'Información Geográfica > Alumbrado Público';
-        $this->directorio    = 'sig';
-        $this->archivo       = 'alumbrado-publico';
-        $this->descripcion   = 'Mapa del Avance de Reconversión del Alumbrado Público de Torreón.';
-        $this->claves        = 'IMPLAN, Torreon, Alumbrado, Reconversión, SIG, GIS';
-     // $this->imagen_previa = 'directorio/imagen-previa.jpg';
-        $this->categorias    = array('SIG', 'Alumbrado Público');
-     // $this->encabezado    = '<img class="img-responsive encabezado-imagen" src="directorio/encabezado.jpg">';
+        // Título, autor y fecha
+        $this->nombre           = 'Avance de Reconversión Tecnológica Led del Alumbrado Público';
+     // $this->autor            = '';
+        $this->fecha            = '2014-09-08T08:00';
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->archivo          = 'alumbrado-publico';
+        $this->imagen_previa    = 'alumbrado-publico/imagen-previa.jpg';
+        $this->encabezado_color = '#008000';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        $this->descripcion      = 'Mapa del Avance de Reconversión del Alumbrado Público de Torreón.';
+        $this->claves           = 'IMPLAN, Torreon, Alumbrado, Reconversión, SIG, GIS';
+        $this->categorias       = array('SIG', 'Alumbrado Público');
+        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->directorio       = 'sig';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        $this->nombre_menu      = 'Información Geográfica > Alumbrado Público';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+
+        // El contenido es estructurado en un esquema
+/*      $schema                 = new \Base\XXX();
+        $schema->description    = $this->descripcion;
+        $schema->image          = 'alumbrado-publico/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->headline_style = $this->encabezado_color;
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Directorio/CLASE.md');
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = ''; */
+
         $this->contenido     = <<<FINAL
 
 <iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
@@ -52,7 +76,8 @@ class AlumbradoPublico extends \Base\Publicacion {
 <b>Fuente:</b> Dirección General de Servicios Públicos de Torreón.</p>
 
 FINAL;
-     // $this->javascript    = '';
+        $this->javascript    = '';
+
     } // constructor
 
 } // Clase AlumbradoPublico

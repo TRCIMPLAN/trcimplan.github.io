@@ -39,7 +39,7 @@ class ZonificacionSecundaria extends \Base\Publicacion {
         $this->archivo          = 'zonificacion-secundaria';
      // $this->imagen_previa    = 'zonificacion-secundaria/imagen-previa.jpg';
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="zonificacion-secundaria/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
+        $this->encabezado_color = '#008000';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Mapa con la Zonificación Secundaria';
         $this->claves           = 'IMPLAN, Torreon, SIG';

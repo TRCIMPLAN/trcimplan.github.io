@@ -39,7 +39,7 @@ class CrecimientoHistoricoTorreon extends \Base\Publicacion {
         $this->archivo          = 'crecimiento-historico-torreon';
      // $this->imagen_previa    = 'crecimiento-historico-torreon/imagen-previa.jpg';
      // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="crecimiento-historico-torreon/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
+        $this->encabezado_color = '#008000';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Mapa del Crecimiento Histórico de Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Crecimiento, Historico';

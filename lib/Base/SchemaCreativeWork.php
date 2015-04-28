@@ -42,7 +42,7 @@ class SchemaCreativeWork extends SchemaThing {
     public $contentLocation;   // Place. The location of the content.
     public $datePublished;     // Date. Date of first broadcast/publication. In ISO 8601, example 2007-04-05T14:30
     public $headline;          // Text. Headline of the article.
-    // public $headline_style;    // Text. CSS style for encabezado.
+    public $headline_style;    // Text. CSS style for encabezado.
     public $producer;          // Organization or Person. The person or organization who produced the work.
 
     /**

@@ -4,8 +4,6 @@
 > Ana Lilia Herrera Anzaldo
 > Presidenta del Grupo Mexicano de Parlamentarios para el Hábitat
 
-### Presentación del Reporte
-
 Coincidiendo con el Día Internacional de la Madre Tierra, el pasado 22 de abril fue presentado el **Reporte Nacional de Movilidad Urbana en México 2014-2015** por parte de ONU-Hábitat y el Grupo Mexicano de Parlamentarios para el Hábitat. En su introducción, Erick Vitrupp (coordinador de ONU-Hábitat para América Latina y el Caribe), destaca la importancia de centrar la movilidad como eje fundamental para el desarrollo urbano, específicamente hacia el transporte público masivo.
 
 El reporte, dividido en 8 capítulos, hace un diagnóstico cualitativo y cuantitativo de la forma en que la sociedad mexicana se mueve en la ciudad; centrándose en el derecho a la **movilidad como agente estratégico de la prosperidad urbana.**
@@ -21,8 +19,6 @@ El diagnóstico del reporte, considera que las ciudades de entre 500 mil y un mi
 Fuente: ONU-Hábitat. (2015). Reporte Nacional de Movilidad Urbana en México 2014-2015. Ciudad de México
 
 > **"Una ciudad con un transporte público integral aumenta su competitividad económica al interconectar todos los ele­mentos generadores de valor y al denotar una imagen de progreso y modernidad que atraigan tanto mayor talento humano como inversiones que aumenten su dinamismo."**
->
-> Extracto del Reporte NMUM
 
 El documento reflexiona acerca de tres temas específicos como estrategias para el desarrollo de un modelo de movilidad democrático, equitativo y sostenible:
 

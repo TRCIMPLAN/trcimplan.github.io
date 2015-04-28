@@ -31,15 +31,14 @@ class Introduccion extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        // Título, autor y fecha con el formato AAAA-MM-DD
+        // Título, autor y fecha
         $this->nombre           = 'Sistema de Información Geográfica';
-     // $this->autor            = 'Autor';
-        $this->fecha            = '2014-08-01';
+     // $this->autor            = '';
+        $this->fecha            = '2014-08-01T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'introduccion';
-     // $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
-     // $this->encabezado       = '<img class="img-responsive encabezado-imagen" src="introduccion/encabezado.jpg">';
-     // $this->encabezado_color = '#646464';
+        $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
+        $this->encabezado_color = '#008000';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Introducción al Sistema de Información Geográfica del IMPLAN Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Informacion, Geografica, SIG, GIS';
@@ -52,8 +51,16 @@ class Introduccion extends \Base\Publicacion {
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = true;
-        // El contenido HTML y el JavaScript
-        $this->contenido        = <<<FINAL
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->description    = $this->descripcion;
+     // $schema->image          = 'introduccion/imagen.jpg';
+        $schema->name           = $this->nombre;
+        $schema->author         = $this->autor;
+        $schema->datePublished  = $this->fecha;
+        $schema->headline_style = $this->encabezado_color;
+        $schema->articleBody    = <<<FINAL
+
 <p>Un Sistema de Información Geográfica (SIG) más que una importante herramienta tecnológica es una estructura de personas y equipos computacionales dedicados a la recopilación, procesamiento, almacenamiento y análisis de datos con información valiosa para una adecuada toma de decisiones.</p>
 
 <p>La base de datos integrada al SIG, permitirá representar visualmente variables muy diversas (estadísticas, infraestructura, equipamiento, programas, proyectos) de distintas fuentes (imágenes de satélite, INEGI, CONEVAL, IMCO, IMPLAN y dependencias municipales) generando mapas de análisis, temáticos o informativos con datos de utilidad que permitan impulsar la competitividad de la ciudad y la zona metropolitana mediante la planeación a corto, mediano y largo plazo.</p>
@@ -65,8 +72,12 @@ class Introduccion extends \Base\Publicacion {
 <p><img class="img-responsive contenido-imagen" src="introduccion/gis-02-poligonos-pobreza.jpg" alt="GIS Poligonos Pobreza"></p>
 
 <p><img class="img-responsive contenido-imagen" src="introduccion/gis-03-poligonos-cruzados.jpg" alt="GIS Polígonos Cruzados"></p>
+
 FINAL;
-     // $this->javascript       = '';
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
     } // constructor
 
 } // Clase Introduccion

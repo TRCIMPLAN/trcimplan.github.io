@@ -37,7 +37,7 @@ class Introduccion extends \Base\Publicacion {
         $this->fecha            = '2014-05-15T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'introduccion';
-        $this->imagen_previa    = 'introduccion/imagen-previa.png';
+        $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
         $this->encabezado_color = '#CA198A';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Introducción al Sistema Metropolitano de Indicadores del IMPLAN Torreón.';
@@ -54,7 +54,7 @@ class Introduccion extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaArticle();
         $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen_previa;
+     // $schema->image          = 'introduccion/imagen.jpg';
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
