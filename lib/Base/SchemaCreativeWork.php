@@ -147,6 +147,11 @@ class SchemaCreativeWork extends SchemaThing {
         }
         $a[] = $this->big_heading_html();
         $a[] = $this->image_html();
+        if (is_object($this->contentLocation) && ($this->contentLocation instanceof SchemaPlace)) {
+            $this->contentLocation->onTypeProperty = 'contentLocation';
+            $this->contentLocation->identation     = $this->identation + 1;
+            $a[] = $this->contentLocation->html();
+        }
         if ($this->extra != '') {
             $a[] = $this->extra;
         }
