@@ -34,7 +34,7 @@ class MovilidadUrbanaCompetitividad extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Movilidad Urbana y Competitividad';
         $this->autor            = 'Arq. Cecilio Pedro Secunza Schott';
-        $this->fecha            = '2015-04-28T11:30';
+        $this->fecha            = '2015-04-28T11:40';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'movilidad-urbana-competitividad';
         $this->imagen_previa    = 'movilidad-urbana-competitividad/imagen-previa.jpg';
