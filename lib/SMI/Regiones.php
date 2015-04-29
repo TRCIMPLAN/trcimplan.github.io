@@ -144,6 +144,11 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
       <li><a href="../indicadores-torreon/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
       <li><a href="../indicadores-torreon/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
+      <li><a href="../indicadores-torreon/seguridad-tasa-de-extorsion.html" target="_blank">Tasa de Extorsión</a></li>
+      <li><a href="../indicadores-torreon/seguridad-tasa-de-homicidio-doloso.html" target="_blank">Tasa de Homicidio Doloso</a></li>
+      <li><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html" target="_blank">Tasa de Robo de Vehículo con Violencia</a></li>
+      <li><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html" target="_blank">Tasa de Robo de Vehículo sin Violencia</a></li>
+      <li><a href="../indicadores-torreon/seguridad-tasa-de-secuestro.html" target="_blank">Tasa de Secuestro</a></li>
     </ul>
   </div>
   <div class="col-md-2 indicadores-vinculos">
@@ -297,6 +302,11 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-extorsion.html" target="_blank">Tasa de Extorsión</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-homicidio-doloso.html" target="_blank">Tasa de Homicidio Doloso</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html" target="_blank">Tasa de Robo de Vehículo con Violencia</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html" target="_blank">Tasa de Robo de Vehículo sin Violencia</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-secuestro.html" target="_blank">Tasa de Secuestro</a></li>
     </ul>
   </div>
   <div class="col-md-2 indicadores-vinculos">
@@ -444,6 +454,11 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
       <li><a href="../indicadores-lerdo/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
       <li><a href="../indicadores-lerdo/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-tasa-de-extorsion.html" target="_blank">Tasa de Extorsión</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-tasa-de-homicidio-doloso.html" target="_blank">Tasa de Homicidio Doloso</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html" target="_blank">Tasa de Robo de Vehículo con Violencia</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html" target="_blank">Tasa de Robo de Vehículo sin Violencia</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-tasa-de-secuestro.html" target="_blank">Tasa de Secuestro</a></li>
     </ul>
   </div>
   <div class="col-md-2 indicadores-vinculos">
@@ -592,6 +607,11 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
       <li><a href="../indicadores-matamoros/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
       <li><a href="../indicadores-matamoros/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-tasa-de-extorsion.html" target="_blank">Tasa de Extorsión</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-tasa-de-homicidio-doloso.html" target="_blank">Tasa de Homicidio Doloso</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html" target="_blank">Tasa de Robo de Vehículo con Violencia</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html" target="_blank">Tasa de Robo de Vehículo sin Violencia</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-tasa-de-secuestro.html" target="_blank">Tasa de Secuestro</a></li>
     </ul>
   </div>
   <div class="col-md-2 indicadores-vinculos">
@@ -735,6 +755,11 @@ class Regiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" target="_blank">Robos a Casa Habitación</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-robos-totales.html" target="_blank">Robos Totales</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-tasa-de-extorsion.html" target="_blank">Tasa de Extorsión</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-tasa-de-homicidio-doloso.html" target="_blank">Tasa de Homicidio Doloso</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html" target="_blank">Tasa de Robo de Vehículo con Violencia</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html" target="_blank">Tasa de Robo de Vehículo sin Violencia</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-tasa-de-secuestro.html" target="_blank">Tasa de Secuestro</a></li>
     </ul>
   </div>
   <div class="col-md-2 indicadores-vinculos">
