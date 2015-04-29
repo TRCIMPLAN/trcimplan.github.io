@@ -34,9 +34,10 @@ class BicimetroInnovacionTransporteUrbano extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Bicimetro: La innovación del Transporte Urbano';
         $this->autor            = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha            = '2014-11-19T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-11-19T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'bicimetro-innovacion-transporte-urbano';
+        $this->imagen           = 'bicimetro-innovacion-transporte-urbano/imagen.jpg';
         $this->imagen_previa    = 'bicimetro-innovacion-transporte-urbano/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Cada vez son más los ciudadanos que optan por dejar sus carros y se animan a desempolvar las bicicletas guardadas en los garajes y utilizarlas como medio de transporte ya sea habitual o por recreación.';
@@ -52,7 +53,7 @@ class BicimetroInnovacionTransporteUrbano extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'bicimetro-innovacion-transporte-urbano/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -61,6 +62,12 @@ class BicimetroInnovacionTransporteUrbano extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase BicimetroInnovacionTransporteUrbano

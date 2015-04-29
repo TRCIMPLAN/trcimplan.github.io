@@ -34,9 +34,10 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Comportamiento y tendencia de la incidencia delictiva. Una visión ampliada.';
         $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha            = '2014-09-25T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-09-25T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'comportamiento-tendencia-incidencia-delictiva';
+        $this->imagen           = 'comportamiento-tendencia-incidencia-delictiva/imagen.jpg';
         $this->imagen_previa    = 'comportamiento-tendencia-incidencia-delictiva/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Mostramos las tendencias de los delitos más recurrentes en la ciudad de Torreón; con datos del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.';
@@ -52,7 +53,7 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'comportamiento-tendencia-incidencia-delictiva/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -89,6 +90,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase ComportamientoTendenciaIncidenciaDelictiva

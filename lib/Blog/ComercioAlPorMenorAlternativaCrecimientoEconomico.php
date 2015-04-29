@@ -34,9 +34,10 @@ class ComercioAlPorMenorAlternativaCrecimientoEconomico extends \Base\Publicacio
         // Título, autor y fecha
         $this->nombre           = 'Comercio al por menor como alternativa de crecimiento económico';
         $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2015-01-06T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2015-01-06T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'comercio-al-por-menor-alternativa-crecimiento-economico';
+        $this->imagen           = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen.jpg';
         $this->imagen_previa    = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.';
@@ -52,7 +53,7 @@ class ComercioAlPorMenorAlternativaCrecimientoEconomico extends \Base\Publicacio
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -61,6 +62,12 @@ class ComercioAlPorMenorAlternativaCrecimientoEconomico extends \Base\Publicacio
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase ComercioAlPorMenorAlternativaCrecimientoEconomico

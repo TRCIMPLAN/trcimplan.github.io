@@ -62,7 +62,7 @@ class SistemaDerechoSociedadIncluyente extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
-        // Para redifusión
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
         if ($this->imagen != '') {
             $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
         } else {

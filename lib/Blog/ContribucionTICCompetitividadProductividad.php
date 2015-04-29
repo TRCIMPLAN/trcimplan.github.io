@@ -34,9 +34,10 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Contribución de las TICs en la competitividad y productividad';
         $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2014-08-04T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-08-04T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'contribucion-tic-competitividad-productividad';
+        $this->imagen           = 'contribucion-tic-competitividad-productividad/imagen.jpg';
         $this->imagen_previa    = 'contribucion-tic-competitividad-productividad/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.';
@@ -52,7 +53,7 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'contribucion-tic-competitividad-productividad/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -114,6 +115,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase ContribucionTICCompetitividadProductividad

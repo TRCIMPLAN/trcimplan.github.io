@@ -34,9 +34,10 @@ class CiudadanoAgenteCambio extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Ciudadano como agente de cambio';
         $this->autor            = 'Arq. Victoria Aranzábal';
-        $this->fecha            = '2015-04-15T15:10';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2015-04-15T15:15';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'ciudadano-agente-cambio';
+        $this->imagen           = 'ciudadano-agente-cambio/imagen.jpg';
         $this->imagen_previa    = 'ciudadano-agente-cambio/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La participación de la sociedad en proyectos urbanos crea una cultura de co-creación. Destaca Medellín, Colombia donde se aplica en la coordinación, participación y construcción de obra pública.';
@@ -52,7 +53,7 @@ class CiudadanoAgenteCambio extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'ciudadano-agente-cambio/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -61,6 +62,12 @@ class CiudadanoAgenteCambio extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase CiudadanoAgenteCambio

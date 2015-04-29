@@ -34,9 +34,10 @@ class CiudadAbiertaCiudadFraccionada extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Ciudad abierta y ciudad fraccionada';
         $this->autor            = 'Arq. Cecilio Pedro Secunza Schott';
-        $this->fecha            = '2015-02-24T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2015-02-24T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'ciudad-abierta-ciudad-fraccionada';
+        $this->imagen           = 'ciudad-abierta-ciudad-fraccionada/imagen.jpg';
         $this->imagen_previa    = 'ciudad-abierta-ciudad-fraccionada/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La fragmentación social y urbana provocada por desarrollos habitacionales “seguros” tiene efectos que agravan la percepción de la inseguridad en la ciudad.';
@@ -52,7 +53,7 @@ class CiudadAbiertaCiudadFraccionada extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'ciudad-abierta-ciudad-fraccionada/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -61,6 +62,12 @@ class CiudadAbiertaCiudadFraccionada extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase CiudadAbiertaCiudadFraccionada
