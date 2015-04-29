@@ -72,6 +72,12 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>22/04/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/necesidad-diagnostico-sobre-delincuencia-juvenil.html">La Necesidad de un Diagnóstico sobre la Delincuencia Juvenil en el Municipio de Torreón</a></td>
+            <td>Se debe desarrollar un trabajo conjunto entre autoridades y organizaciones civiles en el tema de la delincuencia juvenil para tener un conocimiento claro de cómo ha evulucionado, de su situación real y para crear las políticas públicas pertinentes.</td>
+          </tr>
+          <tr>
             <td>17/02/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/seguridad-humana.html">Seguridad Humana</a></td>

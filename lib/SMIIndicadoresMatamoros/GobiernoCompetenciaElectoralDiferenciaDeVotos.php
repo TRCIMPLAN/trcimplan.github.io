@@ -126,6 +126,12 @@ class GobiernoCompetenciaElectoralDiferenciaDeVotos extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>15/04/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ciudadano-agente-cambio.html">Ciudadano como agente de cambio</a></td>
+            <td>La participación de la sociedad en proyectos urbanos crea una cultura de co-creación. Destaca Medellín, Colombia donde se aplica en la coordinación, participación y construcción de obra pública.</td>
+          </tr>
+          <tr>
             <td>10/06/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/sistema-politico-estable-funcional.html">Sistema Político Estable y Funcional</a></td>

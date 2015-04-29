@@ -132,6 +132,12 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/03/2015</td>
+            <td>16</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -157,36 +163,36 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-02-28</td>
-            <td>65</td>
+            <td>2015-03-31</td>
+            <td>68</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-02-28</td>
-            <td>39</td>
+            <td>2015-03-31</td>
+            <td>16</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-02-28</td>
-            <td>6</td>
+            <td>2015-03-31</td>
+            <td>3</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-02-28</td>
-            <td>6</td>
+            <td>2015-03-31</td>
+            <td>5</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-02-28</td>
-            <td>116</td>
+            <td>2015-03-31</td>
+            <td>92</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -205,6 +211,12 @@ class SeguridadRoboATranseuntes extends \Base\Publicacion {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>22/04/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/necesidad-diagnostico-sobre-delincuencia-juvenil.html">La Necesidad de un Diagnóstico sobre la Delincuencia Juvenil en el Municipio de Torreón</a></td>
+            <td>Se debe desarrollar un trabajo conjunto entre autoridades y organizaciones civiles en el tema de la delincuencia juvenil para tener un conocimiento claro de cómo ha evulucionado, de su situación real y para crear las políticas públicas pertinentes.</td>
+          </tr>
           <tr>
             <td>17/02/2015</td>
             <td>Análisis</td>
@@ -349,7 +361,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 29 },{ fecha: '2014-02-28', dato: 37 },{ fecha: '2014-03-31', dato: 66 },{ fecha: '2014-04-30', dato: 34 },{ fecha: '2014-05-31', dato: 33 },{ fecha: '2014-06-30', dato: 25 },{ fecha: '2014-07-31', dato: 38 },{ fecha: '2014-08-31', dato: 39 },{ fecha: '2014-09-30', dato: 64 },{ fecha: '2014-10-31', dato: 93 },{ fecha: '2014-11-30', dato: 78 },{ fecha: '2014-12-31', dato: 101 },{ fecha: '2015-01-31', dato: 78 },{ fecha: '2015-02-28', dato: 39 }],
+      data: [{ fecha: '2014-01-31', dato: 29 },{ fecha: '2014-02-28', dato: 37 },{ fecha: '2014-03-31', dato: 66 },{ fecha: '2014-04-30', dato: 34 },{ fecha: '2014-05-31', dato: 33 },{ fecha: '2014-06-30', dato: 25 },{ fecha: '2014-07-31', dato: 38 },{ fecha: '2014-08-31', dato: 39 },{ fecha: '2014-09-30', dato: 64 },{ fecha: '2014-10-31', dato: 93 },{ fecha: '2014-11-30', dato: 78 },{ fecha: '2014-12-31', dato: 101 },{ fecha: '2015-01-31', dato: 78 },{ fecha: '2015-02-28', dato: 39 },{ fecha: '2015-03-31', dato: 16 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -365,7 +377,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 65 },{ region: 'Gómez Palacio', dato: 39 },{ region: 'Lerdo', dato: 6 },{ region: 'Matamoros', dato: 6 },{ region: 'La Laguna', dato: 116 }],
+      data: [{ region: 'Torreón', dato: 68 },{ region: 'Gómez Palacio', dato: 16 },{ region: 'Lerdo', dato: 3 },{ region: 'Matamoros', dato: 5 },{ region: 'La Laguna', dato: 92 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -328,12 +328,22 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">703</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 31/03/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">600</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">14</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 31/03/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">13</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Personas Involucradas en Delitos del Fuero Común</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, INEGI">NO TIENE</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Personas Involucradas en Delitos del Fuero Federal</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, INEGI">NO TIENE</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -342,88 +352,43 @@ class Indice extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Presuntos Delincuentes del Fuero Común</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">765</a></td>
+    <td class="indicador color3">Presuntos Delitos del Fuero Común</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-presuntos-delitos-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, INEGI">6,647</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Presuntos Delincuentes del Fuero Federal</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">194</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Presuntos Delincuentes por Narcóticos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-presuntos-delincuentes-por-narcoticos.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">111</a></td>
+    <td class="indicador color3">Presuntos Delitos del Fuero Federal</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-presuntos-delitos-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, INEGI">90</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Negocios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">83</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 31/03/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">79</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Transeuntes</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">65</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 31/03/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">68</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo de Vehículos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">29</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 31/03/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">34</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos a Casa Habitación</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">76</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 31/03/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">42</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos Totales</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">305</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 31/03/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">253</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Secuestros</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 28/02/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">108</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Sentenciados Registrados del Fuero Común</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">392</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Sentenciados Registrados del Fuero Federal</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 31/12/2008, INEGI">194</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Tasa de Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-delitos.html" data-toggle="tooltip" title="Cantidad, 31/12/2013, SNSP">1,466.3600</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Tasa de Homicidios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-homicidios.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SNSP">45.7600</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Tasa de Policías por Habitante</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-policias-por-habitante.html" data-toggle="tooltip" title="Por cada mil, 28/02/2014, Ayuntamiento de Torreón">1.0997</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Tasa de Robo de VehÍculos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SNSP">232.8200</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Tasa de Secuestro</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-secuestro.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2013, SNSP">1.6300</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 31/03/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

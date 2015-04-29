@@ -119,6 +119,12 @@ class EconomiaPosgradosDeCalidad extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>14/04/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/papel-educacion-desarrollo-economico.html">El papel de la educación en el desarrollo económico</a></td>
+            <td>Cómo la educación contribuye al crecimiento económico y la importancia de implementar políticas públicas para incrementar su calidad.</td>
+          </tr>
+          <tr>
             <td>08/04/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/innovacion-internet-competitividad.html">Innovación, Internet y Competitividad</a></td>
