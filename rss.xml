@@ -5,11 +5,69 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 28 Apr 2015 17:49:59 -0500</pubDate>
+    <pubDate>Wed, 29 Apr 2015 09:40:09 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sistema de derecho y sociedad incluyente: indicadores de competitividad a la alza en 2014</title>
+      <link>http://trcimplan.gob.mx/blog/sistema-derecho-sociedad-incluyente.html</link>
+      <guid isPermaLink="false">blog-sistema-derecho-sociedad-incluyente</guid>
+      <pubDate>Wed, 29 Apr 2015 09:40:00 -0500</pubDate>
+      <author>Lic. Rodrigo González Morales</author>
+      <description><![CDATA[<img src="http://trcimplan.gob.mx/blog/sistema-derecho-sociedad-incluyente/imagen.jpg">
+
+<p>Durante el 2014 se dio a conocer el <strong>Índice de Competitividad Urbana (ICU)</strong> que publica bianualmente el <strong>Instituto Mexicano para la Competitividad (IMCO)</strong>, organización sin fines de lucro líder en la medición y el diseño de políticas públicas para la competitividad en México. Sus bases de datos nos brindan información sobre 90 indicadores de 2008 a 2012.</p>
+
+<p>De acuerdo a los propios datos del IMCO, podemos distinguir indicadores y temas con tendencias hacia y contra la competitividad de nuestra metrópoli.</p>
+
+<h3>Indicadores de pérdida de competitividad entre 2008 y 2012:</h3>
+
+<ul>
+<li>Desastres naturales, medido por el número de veces que se requirió apoyo del FONDEN en los últimos tres años.</li>
+<li>Porcentaje de personas por debajo de la línea de bienestar de la población económicamente activa (PEA).</li>
+<li>Decesos de menores de un año por cada mil nacidos vivos.</li>
+<li>Emergencias ambientales reportadas.</li>
+<li>Tiempo de apertura de un negocio.</li>
+<li>Porcentaje de empleados en el sector formal.</li>
+<li>Médicos por cada 10 mil habitantes.</li>
+<li>Muertes por accidentes relacionados con transporte por cada 100 mil habitantes.</li>
+<li>Promedio de inversión extranjera directa en los últimos tres años.</li>
+</ul>
+
+<h3>Indicadores de aumento de competitividad entre 2008 y 2012:</h3>
+
+<ul>
+<li>Porcentaje del PIB en sectores que crecen a una tasa de crecimiento superior al promedio.</li>
+<li>Empresa socialmente responsable por cada 10 mil empresas.</li>
+<li>Patentes Por cada 100 mil personas económicamente activas.</li>
+<li>Escuelas de calidad.</li>
+<li>Porcentaje de escuelas excelentes dentro del municipio.</li>
+<li>Competencia electoral medida como la diferencia votos entre 1º lugar y el 2º como % del total de votos de elecciones federales.</li>
+<li>Empresas certificadas con ISO-9000 y 14000 por cada mil empresas.</li>
+<li>Grado de escolaridad efectiva.</li>
+<li>Acceso a servicios financieros por cada 10,000 adultos.</li>
+<li>Porcentaje de viviendas con líneas telefónicas móviles.</li>
+<li>Índice de información presupuestal.</li>
+<li>Empresas certificadas como "limpia" por cada mil empresas.</li>
+</ul>
+
+<h3>Indicadores de competitividad a 2014.</h3>
+
+<p>A su vez es bien sabido que <strong>la medición del ICU considera indicadores de 2012</strong>, por lo cual conviene considerar las tendencias de los datos que al momento tenemos accesibles para 2013 y 2014.</p>
+
+<p><strong>Tasa de Homicidios:</strong> En el ICU 2014 se refleja una tasa metropolitana de 77 homicidios por cada cien mil habitantes correspondiente a 2012. En 2013, de acuerdo a la información del Sistema Nacional de Seguridad Pública la tasa metropolitana fue de 50 homicidios por cada 100 mil habitantes y en 2014 de 35. Lo cual significa una reducción de más del 50 % de este indicador.</p>
+
+<p>Igualmente en <strong>robo de vehículos</strong> de los 4193 registrados en 2012 por IMCO, se redujeron a 3125 y 1988 en 2013 y 2014 respectivamente. En el caso de Torreón pasó de 2609 robos en 2012 a 1572 en 2013 y 1095 en 2014.</p>
+
+<p>Continuando con indicadores correspondientes al subíndice de Sistema de Derecho, la <strong>percepción de inseguridad en su municipio,</strong> el IMCO considera los datos a nivel estatal de 2012. De acuerdo al INEGI en 2013 la percepción de inseguridad en Coahuila evolucionó de 71 a 65 % y en Durango de 66 a 63 %.</p>
+
+<p>De acuerdo a información del Sistema Nacional de Información en Salud de la Secretaría de Salud, en indicadores correspondientes al subíndice de sociedad incluyente, la <strong>mortalidad por diabetes</strong> pasó de 7.7 a 7.5 muertes por cada diez mil habitantes en dos años, mientras la <strong>mortalidad infantil</strong> fue de 12.83 a 12.2 decesos por cada mil nacidos vivos en el mismo periodo.</p>
+
+<p>En <strong>médicos por cada 10 mil habitantes</strong> la ZML pasa de 2.5 en 2012 a 3.5 en 2014 y Torreón de 1.7 a 2.5. El <strong>acceso a instituciones de salud</strong> ha subido de 42 a 48 % de acuerdo a la Encuesta Nacional de Ocupación y Empleo.</p>
+]]></description>
+    </item>
     <item>
       <title>Movilidad Urbana y Competitividad</title>
       <link>http://trcimplan.gob.mx/blog/movilidad-urbana-competitividad.html</link>
@@ -1116,40 +1174,6 @@
 <li><a href="http://productividad.cidac.org/sites/default/files/pdfs/Improductiva_informalidad.pdf">Ch, R., Arellano, M., (s/f). Improductiva informalidad. Fecha de consulta: febrero 2015.</a></li>
 <li><a href="http://www.oecd.org/officialdocuments/publicdisplaydocumentpdf/?cote=ECO/WKP(2011)42&amp;docLanguage=En">Andrews, D., Caldera, A., Johansson, A., (2011). Towards a better understanding of the informal economy.Fecha de consulta: febrero 2015.</a></li>
 </ul>
-]]></description>
-    </item>
-    <item>
-      <title>La Comarca Lagunera y el IMPLAN</title>
-      <link>http://trcimplan.gob.mx/blog/la-comarca-lagunera-implan.html</link>
-      <guid isPermaLink="false">blog-la-comarca-lagunera-implan</guid>
-      <pubDate>Sat, 07 Mar 2015 08:00:00 -0600</pubDate>
-      <author>María Isabel Saldaña</author>
-      <description><![CDATA[<p>La región lagunera divida por el río Nazas en dos estados Durango y Coahuila siempre ha sido una.  En el último tercio del siglo XIX  las villas de Lerdo y Gómez Palacio, Durango así como Torreón, Matamoros y San Pedro Coahuila  han formado una unidad.</p>
-
-<p>Las grandes haciendas origen de la riqueza lagunera se encontraban en los dos estados. Los propietarios podían vivir en cualquiera de las tres villas principales y las empresas se encontraban o bien en Gómez Palacio como la Jabonera de la Laguna que sus socios eran de la región lagunera tanto de Coahuila como Durango o bien en Torreón, Coahuila.</p>
-
-<p>El banco de la Laguna impulsado por John Brittingham  director de la Jabonera se encontraba en Torreón en frente de la plaza de armas, el edificio sigue siendo testigo de la historia de nuestra región.</p>
-
-<p>Otro ejemplo es la empresa de transporte del Tranvía Lerdo, Gómez Palacio y Torreón; el capital de esta sociedad  era de los  habitantes de los dos estados y podemos decir que fue el primer transporte metropolitano desde finales del siglo XIX.  Los empresarios  y habitantes de uno y otro estado se acostumbraron a tener sus negocios y haciendas en cualquiera de los dos Estados y vivir en uno y otro.</p>
-
-<p>Era lo más normal. Con el tiempo se fue politizando la región y resultó que ahora la división centenaria se hacia efectiva y la comunidad lagunera políticamente se separo, pero en la práctica diaria jamás se dio esa partición. <strong>La región lagunera sigue y será siendo una, no se puede dividir.</strong> Hoy el IMPLAN a cargo de Eduardo Holguín retoma la ancestral región lagunera que de facto nunca se ha dividido y diseña el plan metropolitano para que de hecho y derecho la Comarca siga siendo una con una misma dirección en todos los sentidos: económico, cultural, social y otros.</p>
-
-<p><strong>El jueves 5 de marzo en la Universidad LaSalle en Gómez Palacio, Durango se signa el convenio por José Miguel Campillo Carrete alcalde de Gómez Palacio, Dgo. y Miguel Ángel Riquelme Solís alcalde de Torreón, Coahuila para un plan metropolitano en donde en breve se sumaran Lerdo, Durango y Matamoros, Coahuila.</strong></p>
-
-<p>Este acto protocolario augura una nueva etapa para nuestra región : mejor transporte, mejores  vías de comunicación al igual que una policía y reglamentos planeados en  conjunto para beneficio de los ciudadanos. <strong>Ahora toca a cada uno de los habitantes de esta región así como a sus gobernantes lograr que esta zona lagunera se convierta en una región exitosa como lo ha hecho el Bajío.</strong> No hay duda que con voluntad política y con el apoyo de los ciudadanos lo podremos lograr.</p>
-
-<p><a href="http://trcimplan.gob.mx/blog/&#x6d;&#97;&#105;&#x6c;&#x74;&#111;&#58;&#x6d;&#x61;&#114;&#121;&#x5f;&#x73;&#97;&#108;&#x64;&#x61;&#110;a&#x32;&#48;&#48;2&#x40;&#121;&#97;&#x68;&#x6f;&#111;&#46;&#x63;&#x6f;&#109;&#46;&#x6d;&#x78;">&#x6d;&#x61;&#114;&#121;&#x5f;&#x73;&#97;&#108;&#x64;&#x61;&#110;a&#x32;&#48;&#48;2&#x40;&#121;&#97;&#x68;&#x6f;&#111;&#46;&#x63;&#x6f;&#109;&#46;&#x6d;&#x78;</a></p>
-
-<p>Fuente: <a href="http://www.milenio.com/firmas/maria_isabel_saldana/Comarca-Lagunera-IMPLAN_18_477132285.html">Milenio: Cartel de Espejos</a></p>
-
-<div class="row">
-<div class="col-md-6"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/la-comarca-lagunera-implan/plan-estrategico-metropolitano-01.jpg" alt="Plan Estratégico Metropolitano 1"></div>
-<div class="col-md-6"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/la-comarca-lagunera-implan/plan-estrategico-metropolitano-02.jpg" alt="Plan Estratégico Metropolitano 2"></div>
-<div class="col-md-6"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/la-comarca-lagunera-implan/plan-estrategico-metropolitano-03.jpg" alt="Plan Estratégico Metropolitano 3"></div>
-<div class="col-md-6"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/la-comarca-lagunera-implan/plan-estrategico-metropolitano-04.jpg" alt="Plan Estratégico Metropolitano 4"></div>
-<div class="col-md-6"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/la-comarca-lagunera-implan/plan-estrategico-metropolitano-05.jpg" alt="Plan Estratégico Metropolitano 5"></div>
-<div class="col-md-6"><img class="img-responsive contenido-imagen" src="http://trcimplan.gob.mx/blog/la-comarca-lagunera-implan/plan-estrategico-metropolitano-06.jpg" alt="Plan Estratégico Metropolitano 6"></div>
-</div>
 ]]></description>
     </item>
   </channel>

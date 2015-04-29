@@ -31,6 +31,7 @@ class PublicacionConfig {
     public $autor                     = 'IMPLAN Torreón Staff'; // El nombre o apodo a quien se le atribuye
     public $aparece_en_pagina_inicial = true;                   // Verdadero si va aparecer en la página de inicio
     public $para_compartir            = true;                   // Si es verdadero pondrá los botones para compartir en Twitter/Facebook
+    public $imagen                    = '';                     // Ruta relativa a un archivo de imagen
     public $imagen_previa             = '';                     // Ruta relativa a un archivo de imagen para la vista previa
     public $icono                     = '';                     // Nombre del icono Font Awsome
     public $region_nivel              = 0;                      // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región

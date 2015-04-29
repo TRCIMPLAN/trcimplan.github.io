@@ -31,6 +31,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     // public $autor;                     // El nombre o apodo a quien se le atribuye
     // public $aparece_en_pagina_inicial; // Verdadero si va aparecer en la página de inicio
     // public $para_compartir;            // Si es verdadero pondrá los botones para compartir en Twitter/Facebook
+    // public $imagen                     // Ruta relativa a un archivo de imagen
     // public $imagen_previa;             // Ruta relativa a un archivo de imagen para la vista previa
     // public $icono;                     // Nombre del icono Font Awsome
     // public $region_nivel;              // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región
@@ -46,6 +47,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $encabezado_color;             // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
     public $contenido    = array();       // Contenido código HTML de la publicación
     public $javascript   = array();       // Opcional. Código Javascript. Debe estar aparte para ponerlo al final de la página.
+    public $redifusion   = '';            // Opcional. Código HTML con la publicación que va para redifusión (RSS feed).
     public $en_raiz      = false;         // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
     public $en_otro      = false;         // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
 
@@ -57,7 +59,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public function url() {
         if ($this->en_raiz) {
             return "{$this->directorio}/{$this->archivo}.html";
-        } elseif ($this->otro) {
+        } elseif ($this->en_otro) {
             return "../{$this->directorio}/{$this->archivo}.html";
         } else {
             return "{$this->archivo}.html";
@@ -75,13 +77,37 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     } // url_absoluto
 
     /**
+     * Imagen URL
+     *
+     * @return string URL para enlazar, segun las banderas en_raiz y en_otro
+     */
+    public function imagen_url() {
+        if ($this->imagen === '') {
+            return '';
+        } elseif ((strpos($this->imagen, 'http://') === 0) || (strpos($this->imagen, 'https://') === 0) || (strpos($this->imagen, '/') === 0)) {
+            return $this->imagen;
+        } elseif ($this->en_raiz) {
+            if (strpos($this->imagen, '../') === 0) {
+                return substr($this->imagen, 3);
+            } else {
+                return "{$this->directorio}/{$this->imagen}";
+            }
+        } elseif ($this->en_otro) {
+            return "../{$this->directorio}/{$this->imagen}";
+        } else {
+            return "{$this->imagen}";
+        }
+    } // imagen_url
+
+    /**
      * Imagen previa URL
      *
      * @return string URL para enlazar, segun las banderas en_raiz y en_otro
      */
     public function imagen_previa_url() {
-        // Si el URL es absoluto
-        if ((strpos($this->imagen_previa, 'http://') === 0) || (strpos($this->imagen_previa, 'https://') === 0) || (strpos($this->imagen_previa, '/') === 0)) {
+        if ($this->imagen_previa === '') {
+            return '';
+        } elseif ((strpos($this->imagen_previa, 'http://') === 0) || (strpos($this->imagen_previa, 'https://') === 0) || (strpos($this->imagen_previa, '/') === 0)) {
             return $this->imagen_previa;
         } elseif ($this->en_raiz) {
             if (strpos($this->imagen_previa, '../') === 0) {
@@ -89,7 +115,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             } else {
                 return "{$this->directorio}/{$this->imagen_previa}";
             }
-        } elseif ($this->otro) {
+        } elseif ($this->en_otro) {
             return "../{$this->directorio}/{$this->imagen_previa}";
         } else {
             return "{$this->imagen_previa}";

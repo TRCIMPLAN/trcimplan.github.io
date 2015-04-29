@@ -35,8 +35,9 @@ class CrecimientoHistoricoTorreon extends \Base\Publicacion {
         $this->nombre             = 'Crecimiento Histórico de Torreón';
      // $this->autor              = '';
         $this->fecha              = '2015-02-03T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo            = 'crecimiento-historico-torreon';
+     // $this->imagen             = 'crecimiento-historico-torreon/imagen.jpg';
      // $this->imagen_previa      = 'crecimiento-historico-torreon/imagen-previa.jpg';
         $this->encabezado_color   = '#008000';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
@@ -79,6 +80,8 @@ class CrecimientoHistoricoTorreon extends \Base\Publicacion {
         $this->contenido          = $paquete;
         // Sin JavaScript
         $this->javascript         = '';
+        // Para redifusión
+        $this->redifusion         = sprintf('<a href="%s">%s</a>', "{$this->directorio}/{$this->archivo}.html", $this->descripcion);
     } // constructor
 
 } // Clase CrecimientoHistoricoTorreon

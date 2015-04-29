@@ -35,8 +35,9 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $this->nombre             = 'Zonificación Primaria';
      // $this->autor              = '';
         $this->fecha              = '2014-11-18T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo            = 'zonificacion-primaria';
+     // $this->imagen             = 'zonificacion-primaria/imagen.jpg';
      // $this->imagen_previa      = 'zonificacion-primaria/imagen-previa.jpg';
         $this->encabezado_color   = '#008000';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
@@ -79,6 +80,8 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $this->contenido          = $paquete;
         // Sin JavaScript
         $this->javascript         = '';
+        // Para redifusión
+        $this->redifusion         = sprintf('<a href="%s">%s</a>', "{$this->directorio}/{$this->archivo}.html", $this->descripcion);
     } // constructor
 
 } // Clase ZonificacionPrimaria
