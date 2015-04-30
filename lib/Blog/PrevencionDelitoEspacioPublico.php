@@ -59,9 +59,10 @@ class PrevencionDelitoEspacioPublico extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Prevención del delito mediante la construcción del espacio público';
         $this->autor            = 'Arq. Victoria Aranzábal';
-        $this->fecha            = '2015-01-28T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2015-01-28T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'prevencion-delito-espacio-publico';
+        $this->imagen           = 'prevencion-delito-espacio-publico/imagen.jpg';
         $this->imagen_previa    = 'prevencion-delito-espacio-publico/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Ante el miedo y el temor, el lagunero ha tomado medidas en lo individual y lo colectivo en un intento por evitar ser víctimas de algún delito, se ha encerrado en lo privado despreciando el espacio público como si fuera ajeno.';
@@ -77,7 +78,7 @@ class PrevencionDelitoEspacioPublico extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'prevencion-delito-espacio-publico/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -91,6 +92,12 @@ class PrevencionDelitoEspacioPublico extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase PrevencionDelitoEspacioPublico

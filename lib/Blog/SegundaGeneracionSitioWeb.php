@@ -34,9 +34,10 @@ class SegundaGeneracionSitioWeb extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Segunda generación del sitio web';
         $this->autor            = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha            = '2015-01-20T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2015-01-20T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'segunda-generacion-sitio-web';
+        $this->imagen           = 'segunda-generacion-sitio-web/imagen.jpg';
         $this->imagen_previa    = 'segunda-generacion-sitio-web/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'A partir de enero de 2015 se puso en línea el nuevo sitio web del IMPLAN Torreón. Se integraron todos los servicios y se adapta a teléfonos celulares y tablets.';
@@ -52,7 +53,7 @@ class SegundaGeneracionSitioWeb extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'segunda-generacion-sitio-web/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -61,6 +62,12 @@ class SegundaGeneracionSitioWeb extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase SegundaGeneracionSitioWeb

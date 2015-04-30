@@ -34,9 +34,10 @@ class UrbanismoParticipativo extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Urbanismo Participativo';
         $this->autor            = 'Arq. Jair Miramontes Chávez';
-        $this->fecha            = '2014-12-16T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-12-16T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'urbanismo-participativo';
+        $this->imagen           = 'urbanismo-participativo/imagen.jpg';
         $this->imagen_previa    = 'urbanismo-participativo/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.';
@@ -52,7 +53,7 @@ class UrbanismoParticipativo extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'urbanismo-participativo/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -61,6 +62,12 @@ class UrbanismoParticipativo extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase UrbanismoParticipativo

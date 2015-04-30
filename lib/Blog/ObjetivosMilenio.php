@@ -34,9 +34,10 @@ class ObjetivosMilenio extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'La Zona Metropolitana de La Laguna y los Objetivos del Milenio';
         $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha            = '2015-01-27T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2015-01-27T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'objetivos-milenio';
+        $this->imagen           = 'objetivos-milenio/imagen.jpg';
         $this->imagen_previa    = 'objetivos-milenio/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas.';
@@ -52,7 +53,7 @@ class ObjetivosMilenio extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'objetivos-milenio/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -61,6 +62,12 @@ class ObjetivosMilenio extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase ObjetivosMilenio

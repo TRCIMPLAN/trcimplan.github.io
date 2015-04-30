@@ -34,9 +34,10 @@ class SuenosPosibles extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Sueños Posibles';
         $this->autor            = 'Lic. Eduardo Holguín Zehfuss';
-        $this->fecha            = '2014-05-08T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-05-08T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'suenos-posibles';
+        $this->imagen           = 'suenos-posibles/imagen.jpg';
         $this->imagen_previa    = 'suenos-posibles/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano.';
@@ -52,7 +53,7 @@ class SuenosPosibles extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'suenos-posibles/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -71,6 +72,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase SuenosPosibles

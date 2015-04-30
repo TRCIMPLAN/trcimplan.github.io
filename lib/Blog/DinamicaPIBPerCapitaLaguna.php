@@ -34,9 +34,10 @@ class DinamicaPIBPerCapitaLaguna extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Dinámica del PIB per cápita de La Laguna (IRAEs Banamex 2011,2014)';
         $this->autor            = 'Lic. Eduardo Holguín Zehfuss';
-        $this->fecha            = '2014-09-26T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-09-26T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'dinamica-pib-per-capita-laguna';
+        $this->imagen           = 'dinamica-pib-per-capita-laguna/imagen.jpg';
         $this->imagen_previa    = 'dinamica-pib-per-capita-laguna/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Entre los indicadores Banamex de 2011 y 2014 el PIB per cápita de La Laguna creció 22.82%.';
@@ -52,7 +53,7 @@ class DinamicaPIBPerCapitaLaguna extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'dinamica-pib-per-capita-laguna/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -91,6 +92,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase DinamicaPIBPerCapitaLaguna

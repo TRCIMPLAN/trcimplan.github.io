@@ -34,9 +34,10 @@ class PapelEducacionDesarrolloEconomico extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'El papel de la educación en el desarrollo económico';
         $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2015-04-14T13:20';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2015-04-14T13:25';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'papel-educacion-desarrollo-economico';
+        $this->imagen           = 'papel-educacion-desarrollo-economico/imagen.jpg';
         $this->imagen_previa    = 'papel-educacion-desarrollo-economico/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Cómo la educación contribuye al crecimiento económico y la importancia de implementar políticas públicas para incrementar su calidad.';
@@ -52,7 +53,7 @@ class PapelEducacionDesarrolloEconomico extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'papel-educacion-desarrollo-economico/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -61,6 +62,12 @@ class PapelEducacionDesarrolloEconomico extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase PapelEducacionDesarrolloEconomico

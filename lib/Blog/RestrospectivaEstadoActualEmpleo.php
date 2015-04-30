@@ -34,9 +34,10 @@ class RestrospectivaEstadoActualEmpleo extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Retrospectiva y estado actual del empleo en Torreón y la ZML';
         $this->autor            = 'Lic. Rodrigo González Morales';
-        $this->fecha            = '2014-09-26T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-09-26T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'retrospectiva-estado-actual-empleo';
+        $this->imagen           = 'retrospectiva-estado-actual-empleo/imagen.jpg';
         $this->imagen_previa    = 'retrospectiva-estado-actual-empleo/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'El empleo es uno de los principales indicadores, que muestra el desempeño económico de una ciudad, región o país. Desde hace 9 años Torreón y la Zona Metropolitana de la Laguna se habían separado a la alza de la media nacional.';
@@ -52,7 +53,7 @@ class RestrospectivaEstadoActualEmpleo extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'retrospectiva-estado-actual-empleo/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -126,6 +127,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase RestrospectivaEstadoActualEmpleo

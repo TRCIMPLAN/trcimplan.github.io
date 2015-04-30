@@ -34,9 +34,10 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Datos Abiertos en los Gobiernos Municipales';
         $this->autor            = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha            = '2014-11-04T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-11-04T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'datos-abiertos-gobiernos-municipales';
+        $this->imagen           = 'datos-abiertos-gobiernos-municipales/imagen.jpg';
         $this->imagen_previa    = 'datos-abiertos-gobiernos-municipales/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.';
@@ -52,7 +53,7 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'datos-abiertos-gobiernos-municipales/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -176,6 +177,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase DatosAbiertosGobiernosMunicipales

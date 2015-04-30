@@ -34,9 +34,10 @@ class ImportanciaSueloCiudades extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'La importancia del suelo en las ciudades';
         $this->autor            = 'Arq. Ilse Ávila García';
-        $this->fecha            = '2014-10-15T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-10-15T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'importancia-suelo-ciudades';
+        $this->imagen           = 'importancia-suelo-ciudades/imagen.jpg';
         $this->imagen_previa    = 'importancia-suelo-ciudades/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.';
@@ -52,7 +53,7 @@ class ImportanciaSueloCiudades extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'importancia-suelo-ciudades/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -73,6 +74,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase ImportanciaSueloCiudades

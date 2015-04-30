@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-04-29</lastmod>
+    <lastmod>2015-04-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/index.html</loc>
-    <lastmod>2015-04-29</lastmod>
+    <lastmod>2015-04-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-categorias/index.html</loc>
-    <lastmod>2015-04-29</lastmod>
+    <lastmod>2015-04-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/index.html</loc>
-    <lastmod>2015-04-29</lastmod>
+    <lastmod>2015-04-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/index.html</loc>
-    <lastmod>2015-04-29</lastmod>
+    <lastmod>2015-04-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/index.html</loc>
-    <lastmod>2015-04-29</lastmod>
+    <lastmod>2015-04-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/index.html</loc>
-    <lastmod>2015-04-29</lastmod>
+    <lastmod>2015-04-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/index.html</loc>
-    <lastmod>2015-04-29</lastmod>
+    <lastmod>2015-04-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/eventos/index.html</loc>
-    <lastmod>2015-04-29</lastmod>
+    <lastmod>2015-04-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/index.html</loc>
-    <lastmod>2015-04-29</lastmod>
+    <lastmod>2015-04-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1111,22 +1111,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-porcentaje-de-accidentes-viales-fatales.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-comun.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-presuntos-delitos-del-fuero-comun.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-federal.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-presuntos-delincuentes-por-narcoticos.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-presuntos-delitos-del-fuero-federal.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1161,32 +1166,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-extorsion.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-comun.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-homicidio-doloso.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-delitos.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-homicidios.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1741,21 +1736,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-comun.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-federal.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-presuntos-delincuentes-por-narcoticos.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-robo-a-negocios.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -1786,32 +1766,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-extorsion.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-comun.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-homicidio-doloso.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-federal.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-delitos.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-homicidios.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2336,22 +2306,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-comun.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-presuntos-delitos-del-fuero-comun.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-federal.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-presuntos-delincuentes-por-narcoticos.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-presuntos-delitos-del-fuero-federal.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2386,32 +2361,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-extorsion.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-comun.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-homicidio-doloso.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-delitos.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-homicidios.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculos.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2966,22 +2931,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-porcentaje-de-accidentes-viales-fatales.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-comun.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-comun.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-federal.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-presuntos-delincuentes-por-narcoticos.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-federal.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3016,32 +2986,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-extorsion.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-comun.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-homicidio-doloso.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-federal.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-delitos.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-homicidios.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculos.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3641,22 +3601,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-comun.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-presuntos-delitos-del-fuero-comun.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-federal.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-presuntos-delincuentes-por-narcoticos.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-presuntos-delitos-del-fuero-federal.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3691,37 +3656,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-extorsion.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-homicidio-doloso.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-delitos.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-homicidios.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-policias-por-habitante.html</loc>
-    <lastmod>1980-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html</loc>
+    <loc>http://trcimplan.gob.mx/indicadores-torreon/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>

@@ -34,9 +34,10 @@ class HaciaDondeDebeDirigirseTorreon extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Hacia dónde debe dirigirse Torreón';
         $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2014-04-16T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-04-16T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'hacia-donde-debe-dirigirse-torreon';
+        $this->imagen           = 'hacia-donde-debe-dirigirse-torreon/imagen.jpg';
         $this->imagen_previa    = 'hacia-donde-debe-dirigirse-torreon/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = '¿En realidad generan más valor las actividades tecnológicas y de servicios?';
@@ -52,7 +53,7 @@ class HaciaDondeDebeDirigirseTorreon extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'hacia-donde-debe-dirigirse-torreon/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -98,6 +99,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase HaciaDondeDebeDirigirseTorreon

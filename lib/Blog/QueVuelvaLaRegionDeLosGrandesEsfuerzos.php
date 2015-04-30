@@ -34,9 +34,10 @@ class QueVuelvaLaRegionDeLosGrandesEsfuerzos extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Que vuelva la región de los grandes esfuerzos';
         $this->autor            = 'Lic. Eduardo Holguín Zehfuss';
-        $this->fecha            = '2014-02-25T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-02-25T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'que-vuelva-la-region-de-los-grandes-esfuerzos';
+        $this->imagen           = 'que-vuelva-la-region-de-los-grandes-esfuerzos/imagen.jpg';
         $this->imagen_previa    = 'que-vuelva-la-region-de-los-grandes-esfuerzos/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La Calificadora Internacional Moodys elevó por primera vez la nota soberana de México a la categoría A3 gracias a las reformas estructurales.';
@@ -52,7 +53,7 @@ class QueVuelvaLaRegionDeLosGrandesEsfuerzos extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'que-vuelva-la-region-de-los-grandes-esfuerzos/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -91,6 +92,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase QueVuelvaLaRegionDeLosGrandesEsfuerzos

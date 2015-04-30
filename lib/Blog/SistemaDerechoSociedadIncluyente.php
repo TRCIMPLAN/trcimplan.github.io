@@ -34,7 +34,7 @@ class SistemaDerechoSociedadIncluyente extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Sistema de derecho y sociedad incluyente: indicadores de competitividad a la alza en 2014';
         $this->autor            = 'Lic. Rodrigo González Morales';
-        $this->fecha            = '2015-04-29T09:40';
+        $this->fecha            = '2015-04-29T09:45';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'sistema-derecho-sociedad-incluyente';
         $this->imagen           = 'sistema-derecho-sociedad-incluyente/imagen.jpg';

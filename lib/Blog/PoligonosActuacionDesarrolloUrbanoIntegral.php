@@ -34,9 +34,10 @@ class PoligonosActuacionDesarrolloUrbanoIntegral extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Polígonos de Actuación para un Desarrollo Urbano Integral';
         $this->autor            = 'Arq. Jair Miramontes Chávez';
-        $this->fecha            = '2014-10-14T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-10-14T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'poligonos-actuacion-desarrollo-urbano-integral';
+        $this->imagen           = 'poligonos-actuacion-desarrollo-urbano-integral/imagen.jpg';
         $this->imagen_previa    = 'poligonos-actuacion-desarrollo-urbano-integral/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.';
@@ -52,7 +53,7 @@ class PoligonosActuacionDesarrolloUrbanoIntegral extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'poligonos-actuacion-desarrollo-urbano-integral/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -123,6 +124,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase PoligonosActuacionDesarrolloUrbanoIntegral

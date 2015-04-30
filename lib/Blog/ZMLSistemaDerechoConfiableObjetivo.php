@@ -34,9 +34,10 @@ class ZMLSistemaDerechoConfiableObjetivo extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'La Zona Metropolitana de La Laguna y sus municipios en Sistema de Derecho Confiable y Objetivo';
         $this->autor            = 'Lic. Rodrigo González Morales';
-        $this->fecha            = '2014-06-02T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2014-06-02T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'zml-sistema-derecho-confiable-objetivo';
+        $this->imagen           = 'zml-sistema-derecho-confiable-objetivo/imagen.jpg';
         $this->imagen_previa    = 'zml-sistema-derecho-confiable-objetivo/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'De acuerdo al ICU 2012, es el subíndice más débil de la región; algunos de sus subíndices ponderados con alto peso por el IMCO corresponden a rubros de seguridad pública.';
@@ -52,7 +53,7 @@ class ZMLSistemaDerechoConfiableObjetivo extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'zml-sistema-derecho-confiable-objetivo/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -81,6 +82,12 @@ FINAL;
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase ZMLSistemaDerechoConfiableObjetivo

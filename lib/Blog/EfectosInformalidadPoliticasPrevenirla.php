@@ -34,9 +34,10 @@ class EfectosInformalidadPoliticasPrevenirla extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Efectos de la informalidad y políticas para prevenirla';
         $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2015-03-10T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        $this->fecha            = '2015-03-10T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'efectos-informalidad-politicas-prevenirla';
+        $this->imagen           = 'efectos-informalidad-politicas-prevenirla/imagen.jpg';
         $this->imagen_previa    = 'efectos-informalidad-politicas-prevenirla/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La informalidad tiene repercusiones directas sobre la competitividad y el crecimiento económico. Es cierto que ocupa a población desempleada en el sector formal y sus insumos e inversión apoyan a la economía, sin embargo es mayor el daño generado en el crecimiento a largo plazo.';
@@ -52,7 +53,7 @@ class EfectosInformalidadPoliticasPrevenirla extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
-        $schema->image          = 'efectos-informalidad-politicas-prevenirla/imagen.jpg';
+        $schema->image          = $this->imagen;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -61,6 +62,12 @@ class EfectosInformalidadPoliticasPrevenirla extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
+        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
+        } else {
+            $this->redifusion   = $schema->articleBody;
+        }
     } // constructor
 
 } // Clase EfectosInformalidadPoliticasPrevenirla
