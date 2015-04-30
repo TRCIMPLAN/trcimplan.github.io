@@ -150,9 +150,10 @@ class Imprenta extends \Configuracion\ImprentaConfig {
      * Agregar Directorio con Publicaciones
      *
      * @param  string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
+     * @param  string Color para el encabezado, a aplicar cuando la publicación no lo tenga
      * @return array  Arreglo con las instancias de Publicaciones ordenado cronológicamente
      */
-    public function agregar_directorio_publicaciones($dir) {
+    public function agregar_directorio_publicaciones($dir, $in_encabezado_color='') {
         // Acumularemos las instancias en este arreglo
         $instancias = array();
         // Bucle con las clases recolectadas
@@ -165,6 +166,14 @@ class Imprenta extends \Configuracion\ImprentaConfig {
                 if (($publicacion->estado != 'publicar') && ($publicacion->estado != 'revisar')) {
                     continue;
                 }
+                // Si la publicación NO tiene color para el encabezado, se copia el de la imprenta
+                if (($in_encabezado_color != '') && ($publicacion->encabezado_color == '')) {
+                    $publicacion->encabezado_color = $in_encabezado_color;
+                    // Puede que en el constructor el contenido se ha cargado con un esquema SchemaCreativeWork
+                    if ((is_object($publicacion->contenido)) && ($publicacion->contenido instanceof SchemaCreativeWork)) {
+                        $publicacion->contenido->headline_style = $in_encabezado_color;
+                    }
+                }
                 // La clave del arreglo asociativo es el tiempo_creado-clase, donde clase es Directorio/Archivo
                 $clave              = "{$publicacion->tiempo_creado()}-{$clase}";
                 $instancias[$clave] = $publicacion;
@@ -172,12 +181,12 @@ class Imprenta extends \Configuracion\ImprentaConfig {
                 $this->mensajes[] = "  Omití $clase porque no es una publicación.";
             }
         }
-        // Al ordenar de forma ascendente por la clave, queda del más nuevo al más viejo
-        ksort($instancias);
-        // Acumular
-        $this->publicaciones = array_merge($this->publicaciones, $instancias);
-        // Al ordenar de forma ascendente por la clave, queda del más nuevo al más viejo
-        ksort($this->publicaciones);
+        if (count($instancias) > 0) {
+            // Acumular
+            $this->publicaciones = array_merge($this->publicaciones, $instancias);
+            // Al ordenar de forma ascendente por la clave, queda del más nuevo al más viejo
+            ksort($this->publicaciones);
+        }
         // Entregar
         return $this->publicaciones;
     } // agregar_directorio

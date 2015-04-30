@@ -33,12 +33,12 @@ class Mesa2 extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre           = 'Mesa 2: Visión y Objetivos';
-        $this->autor            = '';
+     // $this->autor            = '';
         $this->fecha            = '2014-10-30T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'mesa-2';
-     // $this->imagen_previa    = 'mesa-2/imagen-previa.jpg';
-        $this->encabezado_color = '#DF9C0A';
+        $this->imagen           = 'introduccion/imagen.jpg';
+        $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Segunda mesa del Plan Estratégico Metropolitano.';
         $this->claves           = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
@@ -54,7 +54,8 @@ class Mesa2 extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaArticle();
         $schema->description    = $this->descripcion;
-     // $schema->image          = 'mesa-2/imagen.jpg';
+        $schema->image          = $this->imagen;
+        $schema->image_show     = false;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;

@@ -54,6 +54,7 @@ class CompetitividadPlaneacionMetropolitana extends \Base\Publicacion {
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
         $schema->image          = $this->imagen;
+        $schema->image_show     = false; // No mostrar la imagen en el contenido
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;

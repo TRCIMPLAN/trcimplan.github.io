@@ -38,7 +38,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->directorio               = 'smi';
         $this->archivo_ruta             = 'smi/index.html';
         $this->nombre_menu              = 'Indicadores';
-        $this->encabezado_color         = '#008000';
+        $this->encabezado_color         = '#CA198A';
     } // constructor
 
 } // Clase Imprenta

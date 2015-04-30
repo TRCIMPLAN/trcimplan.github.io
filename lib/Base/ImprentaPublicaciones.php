@@ -31,16 +31,16 @@ class ImprentaPublicaciones extends Imprenta {
     // public $mensajes;
     // protected $publicaciones;
     // protected $plantillas;
-    protected $publicaciones_directorio; // Nombre del directorio dentro de lib que contiene los archivos con las publicaciones
-    protected $titulo;                   // Título a usar en la página con el índice
-    protected $descripcion;              // Descripción a usar en la página con el índice
-    protected $claves;                   // Claves a usar en la página con el índice
-    protected $directorio;               // Nombre del directorio en la raíz del sitio
-    protected $archivo_ruta;             // Ruta desde la raíz al archivo HTML para el índice, por ejemplo 'eventos/index.html'
-    protected $nombre_menu;              // Etiqueta del menú que pondrá como opción activa
-    protected $concentrador = 'Indice';  // Clase que concentrará este conjunto de publicaciones. Puede ser 'Indice' o 'Galeria'.
-    protected $encabezado;               // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
-    protected $encabezado_color;         // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
+    protected $publicaciones_directorio;    // Nombre del directorio dentro de lib que contiene los archivos con las publicaciones
+    protected $titulo;                      // Título a usar en la página con el índice
+    protected $descripcion;                 // Descripción a usar en la página con el índice
+    protected $claves;                      // Claves a usar en la página con el índice
+    protected $directorio;                  // Nombre del directorio en la raíz del sitio
+    protected $archivo_ruta;                // Ruta desde la raíz al archivo HTML para el índice, por ejemplo 'eventos/index.html'
+    protected $nombre_menu;                 // Etiqueta del menú que pondrá como opción activa
+    protected $concentrador     = 'Indice'; // Clase que concentrará este conjunto de publicaciones. Puede ser 'Indice' o 'Galeria'.
+    protected $encabezado;                  // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
+    public    $encabezado_color = '';       // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
 
     /**
      * Elaborar resúmenes para la página de inicial
@@ -72,7 +72,7 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->navegacion    = new Navegacion();
         $this->plantilla->mapa_inferior = new MapaInferior();
         // Cargar las publicaciones
-        $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio);
+        $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio, $this->encabezado_color);
         // Imprimir las publicaciones
         parent::imprimir();
         // Agregar mensaje

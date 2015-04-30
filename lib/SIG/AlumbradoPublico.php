@@ -37,9 +37,8 @@ class AlumbradoPublico extends \Base\Publicacion {
         $this->fecha              = '2014-09-08T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo            = 'alumbrado-publico';
-     // $this->imagen             = 'alumbrado-publico/imagen.jpg';
-     // $this->imagen_previa      = 'alumbrado-publico/imagen-previa.jpg';
-        $this->encabezado_color   = '#008000';
+        $this->imagen             = 'introduccion/imagen.jpg';
+        $this->imagen_previa      = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Mapa del Avance de Reconversión del Alumbrado Público de Torreón.';
         $this->claves             = 'IMPLAN, Torreon, Alumbrado, Reconversión, SIG, GIS';
@@ -81,6 +80,7 @@ FINAL;
         $paquete->author          = $this->autor;
         $paquete->datePublished   = $this->fecha;
         $paquete->headline_style  = $this->encabezado_color;
+        $paquete->image           = $this->imagen;
         $paquete->contentLocation = $lugar;
         // El contenido es una instancia
         $this->contenido          = $paquete;

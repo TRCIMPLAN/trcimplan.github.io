@@ -37,9 +37,8 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $this->fecha              = '2014-11-18T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo            = 'zonificacion-primaria';
-     // $this->imagen             = 'zonificacion-primaria/imagen.jpg';
-     // $this->imagen_previa      = 'zonificacion-primaria/imagen-previa.jpg';
-        $this->encabezado_color   = '#008000';
+        $this->imagen             = 'introduccion/imagen.jpg';
+        $this->imagen_previa      = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Mapa con la Zonificación Primaria';
         $this->claves             = 'IMPLAN, Torreon, SIG';
@@ -75,6 +74,7 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $paquete->author          = $this->autor;
         $paquete->datePublished   = $this->fecha;
         $paquete->headline_style  = $this->encabezado_color;
+        $paquete->image           = $this->imagen;
         $paquete->contentLocation = $lugar;
         // El contenido es una instancia
         $this->contenido          = $paquete;

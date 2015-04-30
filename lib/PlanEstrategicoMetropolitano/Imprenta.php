@@ -38,7 +38,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->directorio               = 'plan-estrategico-metropolitano';
         $this->archivo_ruta             = 'plan-estrategico-metropolitano/index.html';
         $this->nombre_menu              = 'Plan Estratégico Metropolitano';
-        $this->encabezado_color         = '#008000';
+        $this->encabezado_color         = '#DF9C0A';
     } // constructor
 
 } // Clase Imprenta

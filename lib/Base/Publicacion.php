@@ -40,16 +40,16 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $nombre_menu;                  // Un título corto. Debe coincidir con la etiqueta usada en Navegacion
     public $directorio;                   // Directorio donde se guardará la publicación completa
     public $archivo;                      // El nombre del archivo para la publicación
-    public $descripcion  = '';            // Descripción del sitio o la página
+    public $descripcion      = '';        // Descripción del sitio o la página
     public $claves;                       // Claves que ayuden a los buscadores
-    public $categorias   = array();       // Arreglo con las categorías de la publicación
+    public $categorias       = array();   // Arreglo con las categorías de la publicación
     public $encabezado;                   // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
-    public $encabezado_color;             // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
-    public $contenido    = array();       // Contenido código HTML de la publicación
-    public $javascript   = array();       // Opcional. Código Javascript. Debe estar aparte para ponerlo al final de la página.
-    public $redifusion   = '';            // Opcional. Código HTML con la publicación que va para redifusión (RSS feed).
-    public $en_raiz      = false;         // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
-    public $en_otro      = false;         // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
+    public $encabezado_color = '';        // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
+    public $contenido        = array();   // Contenido código HTML de la publicación
+    public $javascript       = array();   // Opcional. Código Javascript. Debe estar aparte para ponerlo al final de la página.
+    public $redifusion       = '';        // Opcional. Código HTML con la publicación que va para redifusión (RSS feed).
+    public $en_raiz          = false;     // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
+    public $en_otro          = false;     // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
 
     /**
      * URL

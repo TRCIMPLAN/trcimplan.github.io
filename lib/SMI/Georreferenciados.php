@@ -35,10 +35,10 @@ class Georreferenciados extends \Base\Publicacion {
         $this->nombre           = 'Indicadores Georreferenciados';
      // $this->autor            = '';
         $this->fecha            = '2014-11-18T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'georreferenciados';
-        $this->imagen_previa    = '';
-        $this->encabezado_color = '#CA198A';
+        $this->imagen           = 'introduccion/imagen.jpg';
+        $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Listado de los indicadores que tienen mapas georreferenciados';
         $this->claves           = 'IMPLAN, Torreon, Indicadores, Georreferenciados';

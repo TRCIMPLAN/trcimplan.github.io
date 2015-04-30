@@ -54,6 +54,7 @@ class NuevaInfraestructuraBaseTecnologiaLedTorreon extends \Base\Publicacion {
         $schema                 = new \Base\SchemaBlogPosting();
         $schema->description    = $this->descripcion;
         $schema->image          = $this->imagen;
+        $schema->image_show     = false; // No mostrar la imagen en el contenido
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -62,12 +63,8 @@ class NuevaInfraestructuraBaseTecnologiaLedTorreon extends \Base\Publicacion {
         $this->contenido        = $schema;
         // Sin JavaScript
         $this->javascript       = '';
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        // Para redifusión, como se repite la imagen previa en el contenido, se omite
+        $this->redifusion       = $schema->articleBody;
     } // constructor
 
 } // Clase NuevaInfraestructuraBaseTecnologiaLedTorreon

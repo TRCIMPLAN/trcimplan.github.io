@@ -35,10 +35,10 @@ class Fotogaleria extends \Base\Publicacion {
         $this->nombre           = 'Fotogalería: Plan Estratégico Metropolitano';
         $this->autor            = '';
         $this->fecha            = '2015-04-10T18:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'fotogaleria';
-     // $this->imagen_previa    = 'mesa-4/imagen-previa.jpg';
-        $this->encabezado_color = '#DF9C0A';
+        $this->imagen           = 'introduccion/imagen.jpg';
+        $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Presentación con las fotografías de las mesas del Plan Estratégico Metropolitano.';
         $this->claves           = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
@@ -57,16 +57,7 @@ class Fotogaleria extends \Base\Publicacion {
             $a[] = sprintf('            <div><img u="image" src="fotogaleria/fotos%03s.jpg"></div>', $i);
         }
         $fotos_html = implode("\n", $a);
-        // El contenido es estructurado en un esquema
-    /*  $schema                 = new \Base\SchemaArticle();
-        $schema->description    = $this->descripcion;
-        $schema->image          = 'mesa-4/imagen.jpg';
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->headline_style = $this->encabezado_color;
-        $schema->articleBody    = ;  */
-        // El contenido es una instancia de SchemaArticle
+        // El contenido
         $this->contenido        = <<<FINAL
       <!-- Photo Slider inicia -->
         <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px; height: 500px;">
@@ -107,6 +98,8 @@ FINAL;
     });
   <!-- Photo Slider termina -->
 FINAL;
+        // Para redifusión, sólo se pone la primer imagen como vínculo a la página en el sitio
+        $this->redifusion       = sprintf('<a href="%s"><img src="%s"><br>%s</a>', "{$this->directorio}/{$this->archivo}.html", 'fotogaleria/fotos001.jpg', $this->descripcion);
     } // constructor
 
 } // Clase Fotogaleria
