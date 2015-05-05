@@ -40,7 +40,7 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $this->imagen             = 'introduccion/imagen.jpg';
         $this->imagen_previa      = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Mapa con la Zonificación Primaria';
+        $this->descripcion        = 'Mapa con la Zonificación Primaria.';
         $this->claves             = 'IMPLAN, Torreon, SIG';
         $this->categorias         = array('SIG', 'Zonificación');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
