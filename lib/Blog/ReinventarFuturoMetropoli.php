@@ -33,8 +33,8 @@ class ReinventarFuturoMetropoli extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre           = 'Reinventar el futuro de la metrópoli';
-        $this->autor            = 'Autor';
-        $this->fecha            = '2015-05-06T12:30';
+        $this->autor            = 'Ing. Guillermo Valdés Lozano';
+        $this->fecha            = '2015-05-06T12:40';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'reinventar-futuro-metropoli';
         $this->imagen           = 'reinventar-futuro-metropoli/imagen.jpg';
