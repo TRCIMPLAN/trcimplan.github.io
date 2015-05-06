@@ -3,10 +3,10 @@
 
 Desde que inició la Revolución Industrial durante la segunda mitad del siglo XVIII en Gran Bretaña, hemos sido testigos del crecimiento ininterrumpido de las ciudades. A partir de esa fecha, el atractivo de mejores trabajos y la promesa de una mejor calidad de vida, han favorecido el incremento de la cantidad de habitantes en las grandes urbes.
 
-La historia de cada ciudad del mundo ha sido única; en sus anécdotas del pasado, problemática del presente y pronósticos del futuro, se han fijado diferentes retos. Tratando de generalizar, podemos mencionar las siguientes ramas en los que todas las ciudades han trabajado y escribir del futuro innovador que les espera:
+La historia de cada ciudad ha sido única; en sus anécdotas del pasado, problemática del presente y pronósticos del futuro, se han fijado diferentes retos. Vamos a tratar en general del futuro innovador que nos espera en materia de:
 
 * Maximizar el espacio útil.
-* Abastecimiento de alimentos y tratamiento de residuos.
+* Producción y abastecimiento de alimentos.
 * Transporte más eficiente y amigable con el medio ambiente.
 
 ### Nuevas y tecnificadas viviendas
@@ -19,9 +19,10 @@ Gracias a sensores de movimiento, se detectan los gestos que hace la persona con
 
 <div class="videowrapper well"><iframe width="560" height="315" src="https://www.youtube.com/embed/f8giE7i7CAE" frameborder="0" allowfullscreen></iframe></div>
 
-La clave de este proyecto es la nueva tecnología llamada "el Internet de las cosas" que significa la posibilidad de "implantar" un pequeño dispositivo informático a prácticamente cualquier cosa, de la que queramos obtener su posición, temperatura, etc. y que el ser humano u otros objetos se comuniquen con éste e interactúen.
+La clave de este proyecto es la nueva tecnología llamada "el internet de las cosas" que significa la posibilidad de "implantar" un pequeño dispositivo informático a prácticamente cualquier cosa, de la que queramos obtener su posición, temperatura, etc. y que el ser humano u otros objetos se comuniquen con éste e interactúen.
 
-> Hoy en día, el internet de las cosas en las casas se resume en luces o termostatos. Nosotros queremos que las paredes, camas y mesas también sean capaces de hablar y escuchar y puedan desarrollar nuevas funcionalidades
+> Hoy en día, "el internet de las cosas" en las casas se resume en iluminación o termostatos. Nosotros queremos que las paredes, camas y mesas también sean capaces de hablar y escuchar y puedan desarrollar nuevas funcionalidades.
+>
 > Hasier Larrea, MIT
 
 ### Granjas verticales en la ciudad
@@ -42,7 +43,7 @@ El paso natural siguiente es recolectar la posición en tiempo real de todos los
 
 <div class="videowrapper well"><iframe width="560" height="315" src="https://www.youtube.com/embed/n_V_JABB24I" frameborder="0" allowfullscreen></iframe></div>
 
-El Social Computing Group del MIT trabaja en el proyecto [You are here](http://youarehere.cc/#/) que mapea ciudades del mundo en base a variables como los accidentes en bicicleta, las distancias a una parada o la apertura de los locales de entretenimiento y las 24 horas del día.
+El Social Computing Group del MIT trabaja en el proyecto [You are here](http://youarehere.cc/#/) que mapea ciudades del mundo en base a variables como los accidentes en bicicleta, las distancias a una parada de camión o la apertura de los negocios de entretenimiento, las 24 horas del día.
 
 ### Referencias
 

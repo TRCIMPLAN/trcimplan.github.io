@@ -5,11 +5,80 @@
     <link>http://trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 06 May 2015 12:01:05 -0500</pubDate>
+    <pubDate>Wed, 06 May 2015 12:35:06 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinventar el futuro de la metrópoli</title>
+      <link>http://trcimplan.gob.mx/blog/reinventar-futuro-metropoli.html</link>
+      <guid isPermaLink="false">blog-reinventar-futuro-metropoli</guid>
+      <pubDate>Wed, 06 May 2015 12:30:00 -0500</pubDate>
+      <author>Autor</author>
+      <description><![CDATA[<img src="http://trcimplan.gob.mx/blog/reinventar-futuro-metropoli/imagen.jpg">
+
+<h3>Ciudades más habitables y sostenibles</h3>
+
+<p>Desde que inició la Revolución Industrial durante la segunda mitad del siglo XVIII en Gran Bretaña, hemos sido testigos del crecimiento ininterrumpido de las ciudades. A partir de esa fecha, el atractivo de mejores trabajos y la promesa de una mejor calidad de vida, han favorecido el incremento de la cantidad de habitantes en las grandes urbes.</p>
+
+<p>La historia de cada ciudad ha sido única; en sus anécdotas del pasado, problemática del presente y pronósticos del futuro, se han fijado diferentes retos. Vamos a tratar en general del futuro innovador que nos espera en materia de:</p>
+
+<ul>
+<li>Maximizar el espacio útil.</li>
+<li>Producción y abastecimiento de alimentos.</li>
+<li>Transporte más eficiente y amigable con el medio ambiente.</li>
+</ul>
+
+<h3>Nuevas y tecnificadas viviendas</h3>
+
+<p>El Instituto Tecnológico de Massachusetts (MIT) tiene un proyecto para aumentar la funcionalidad de un espacio de trabajo o habitacional. Donde los más importante no son los metros cuadrados, sino lo que eres capaz de hacer con el área que tienes.</p>
+
+<p>En un espacio de 20 metros cuadrados, una pared móvil se desplaza guiada por unos rieles en el suelo y divide la habitación en dos ambientes que se amplían o se reducen según las necesidades del habitante.</p>
+
+<p>Gracias a sensores de movimiento, se detectan los gestos que hace la persona con sus brazos y en cuestión de segundos se desplaza la pared o una pieza de ésta para desplegar una cama, la mesa, extender el baño, etc. Inclusive puede activar un modo de fiesta donde luces led de colores dan ambiente a la misma.</p>
+
+<div class="videowrapper well"><iframe width="560" height="315" src="https://www.youtube.com/embed/f8giE7i7CAE" frameborder="0" allowfullscreen></iframe></div>
+
+<p>La clave de este proyecto es la nueva tecnología llamada "el internet de las cosas" que significa la posibilidad de "implantar" un pequeño dispositivo informático a prácticamente cualquier cosa, de la que queramos obtener su posición, temperatura, etc. y que el ser humano u otros objetos se comuniquen con éste e interactúen.</p>
+
+<blockquote>
+  <p>Hoy en día, "el internet de las cosas" en las casas se resume en iluminación o termostatos. Nosotros queremos que las paredes, camas y mesas también sean capaces de hablar y escuchar y puedan desarrollar nuevas funcionalidades.</p>
+  
+  <p>Hasier Larrea, MIT</p>
+</blockquote>
+
+<h3>Granjas verticales en la ciudad</h3>
+
+<p>Al día de hoy se cultiva prácticamente en la mitad de la superficie terrestre y "fríamente" no hay más espacio en el planeta para la agricultura tradicional. Además, transportar alimentos desde lugares de cultivo cada vez más lejanos incrementa el precio del producto y provoca mayor impacto al medio ambiente; porque como están más retirados se debe gastar más combustible para traerlos en camión, barco o avión.</p>
+
+<p>La mejor alternativa es optar por las granjas verticales localizadas dentro del área metropolitana donde se cultiven alimentos para el consumo en la misma ciudad. Aunque esta tecnología es relativamente nueva, se esperan grandes ahorros en el consumo del agua; porque se estima que requiere sólo el 10% del agua que los métodos tradicionales.</p>
+
+<p><img class="img-responsive" src="http://trcimplan.gob.mx/blog/reinventar-futuro-metropoli/plantas-granjas-urbanas-planeta-cnn.jpg" alt="Granja Urbana - Planeta CNN"></p>
+
+<p>Las lechugas de <a href="http://mitcityfarm.media.mit.edu/">City Farm</a> crecen en 15 a 20 días, mientras que en el campo suelen tardar hasta 90 días. La clave está en el uso de técnicas hidropónicas y aeropónicas que rocían de sales minerales las raíces de los vegetales.</p>
+
+<h3>Movilidad sobre demanda y con datos abiertos</h3>
+
+<p>Ya son casos de éxito aquellas ciudades con mejor calidad de vida donde la mayoría de los traslados se hacen en transporte colectivo (metro, BRT, etc.), en medios no motorizados (bicicletas) y a pie.</p>
+
+<p>El paso natural siguiente es recolectar la posición en tiempo real de todos los vehículos, e inclusive de quienes caminan; bajo una estricta política de protección al anonimato de las personas. Esta información al hacerla de acceso público, como datos abiertos, brindará la base para resolver congestionamientos, buscar las mejoras rutas, predecir los horarios de salida y llegada de los transportes masivos. Ésto favorecerá directamente a la eficiencia y productividad de la metrópoli.</p>
+
+<div class="videowrapper well"><iframe width="560" height="315" src="https://www.youtube.com/embed/n_V_JABB24I" frameborder="0" allowfullscreen></iframe></div>
+
+<p>El Social Computing Group del MIT trabaja en el proyecto <a href="http://youarehere.cc/#/">You are here</a> que mapea ciudades del mundo en base a variables como los accidentes en bicicleta, las distancias a una parada de camión o la apertura de los negocios de entretenimiento, las 24 horas del día.</p>
+
+<h3>Referencias</h3>
+
+<ul>
+<li><a href="https://www.bbvaopenmind.com/reinventar-las-ciudades-del-futuro/">BBVA OpenMind - Reinventar las ciudades del futuro</a></li>
+<li><a href="http://cp.media.mit.edu/places-of-living-and-work/">MIT - City Home</a></li>
+<li><a href="http://mexico.cnn.com/planetacnn/2012/12/14/sky-greens-la-granja-sustentable-que-funciona-con-la-energia-de-un-foco">Planeta CNN - Sky Greens, la granja sustentable que funciona con la energía de un foco</a></li>
+<li><a href="http://mitcityfarm.media.mit.edu/">MIT - City Farm</a></li>
+<li><a href="http://youarehere.cc/#/">You are here</a></li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>La Bicicleta como alternativa de transporte</title>
       <link>http://trcimplan.gob.mx/blog/bicicleta-alternativa-transporte.html</link>
@@ -890,31 +959,6 @@
 <li>ASOCIACIÓN PEDAGÓGICA FRANCESCO TONUCCI, Análisis de un malestar- La ciudad de los niños. <a href="http://www.lacittadeibambini.org/spagnolo/progetto/citta.htm">http://www.lacittadeibambini.org/spagnolo/progetto/citta.htm</a></li>
 <li>Fuente: CABE (2007) pavimentadas con oro: el valor real de un buen diseño de la calle. CABE (2007) pavimentadas con oro: el valor real de un buen diseño de la calle. <a href="http://unhabitat.org/?wpdmact=process&amp;did=MTIyNi5ob3RsaW5r">http://unhabitat.org/?wpdmact=process&amp;did=MTIyNi5ob3RsaW5r</a> consultado el 5/junio/2012.</li>
 </ol>
-]]></description>
-    </item>
-    <item>
-      <title>Comunicado de Prensa 18.3.15</title>
-      <link>http://trcimplan.gob.mx/sala-prensa/2015-03-18-comunicado-prensa.html</link>
-      <guid isPermaLink="false">sala-prensa-2015-03-18-comunicado-prensa</guid>
-      <pubDate>Wed, 18 Mar 2015 17:30:00 -0600</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[<p>El día <strong>18 de marzo del 2015</strong> durante la sexta sesión del primer periodo ordinario del primer año de ejercicio constitucional, la <strong>LX Legislatura del Congreso del Estado De Coahuila</strong>, en el Salón de Sesiones del Palacio Legislativo <strong>fue aprobada la creación del IMPLAN Torreón como un organismo público descentralizado</strong>, con personalidad jurídica y patrimonio propio, cumpliendo así con un importante paso hacia el crecimiento planeado y con visión de futuro de nuestra ciudad.</p>
-
-<p>El <strong>IMPLAN Torreón</strong> es un órgano técnico consultivo para el Ayuntamiento con la prioridad de lograr una planificación estratégica que busque un desarrollo sustentable y posicione a nuestra ciudad como una metrópoli globalmente competitiva. De igual forma busca integrar a todos los sectores de la población y gobierno para en conjunto lograr mejorar la calidad de vida de sus habitantes.</p>
-
-<p>A partir de ahora <strong>su órgano de gobierno será un consejo directivo conformado por quince ciudadanos y siete funcionarios públicos</strong> que decidirán sobre, planes, proyectos, presupuestos, así como evaluarán las metas y resultados del IMPLAN.</p>
-
-<p>Con el decreto de creación de IMPLAN Torreón, <strong>el Instituto podrá celebrar acuerdos, convenios y contratos con entidades públicas y privadas, que deriven en proyectos congruentes a la planeación estratégica que permitan elevar los indicadores de competitividad de nuestra ciudad, y con ello posicionándola a nivel mundial.</strong></p>
-
-<p>De igual forma el Instituto Municipal de Planeación y Competitividad de Torreón, adquiere autonomía, con la finalidad de trascender en las administraciones públicas con el claro objetivo de <strong>dar continuidad a los planes y proyectos que se generen para el bien de la ciudad y sus habitantes.</strong></p>
-
-<p>Otra prioridad fundamental del Instituto es <strong>promover la planeación participativa,</strong> siendo un vínculo entre sociedad y gobierno ofreciendo, metodología, investigación, matrices de evaluación, manteniendo y albergando un banco de proyectos que permita optimizar los recursos de del Ayuntamiento.</p>
-
-<p>El IMPLAN Torreón se convierte así en un <strong>organismo público descentralizado</strong> con personalidad jurídica y patrimonio propio, teniendo la capacidad de generar recursos propios a través de contratos, prestación de servicios y donaciones para desarrollar planes, proyectos, estudios e investigaciones que ayuden a elevar la calidad del servicio que se brinda a la ciudad.</p>
-
-<p>De esta manera <strong>inicia una nueva etapa de orden y planeación para Torreón, con desarrollo participativo por parte de sociedad y gobierno, que se verá reflejado en prosperidad y mejor calidad de vida para sus habitantes.</strong></p>
-
-<p>El Instituto Municipal de Planeación y Competitividad de Torreón es ahora un organismo público <strong>en el cual todos tenemos la responsabilidad de participar y contribuir para su buen funcionamiento,</strong> síguenos por redes sociales: <a href="https://facebook.com/trcimplan" target="_blank">Facebook/trcimplan</a> <a href="https://twitter.com/trcimplan" target="_blank">Twitter @trcimplan</a> y nuestro sitio web <a href="http://www.trcimplan.gob.mx">http://www.trcimplan.gob.mx</a> infórmate y se parte de esta nueva etapa de desarrollo en Torreón. #ImplanSomosTodos</p>
 ]]></description>
     </item>
   </channel>

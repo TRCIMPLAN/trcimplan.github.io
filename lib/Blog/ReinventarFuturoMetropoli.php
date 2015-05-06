@@ -34,7 +34,7 @@ class ReinventarFuturoMetropoli extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Reinventar el futuro de la metrópoli';
         $this->autor            = 'Autor';
-        $this->fecha            = '2015-05-06T11:10';
+        $this->fecha            = '2015-05-06T12:30';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'reinventar-futuro-metropoli';
         $this->imagen           = 'reinventar-futuro-metropoli/imagen.jpg';
@@ -47,7 +47,7 @@ class ReinventarFuturoMetropoli extends \Base\Publicacion {
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'revisar';
+        $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = true;
         // El contenido es estructurado en un esquema
