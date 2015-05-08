@@ -34,6 +34,8 @@ class Indice {
 
     /**
      * Constructor
+     *
+     * @param array Arreglo con instancias de Publicacion
      */
     public function __construct($publicaciones) {
         $this->publicaciones = $publicaciones;
@@ -60,7 +62,7 @@ class Indice {
             $a[] = $this->encabezado;
             // Y el título de la página es invisible
             if ($this->titulo != '') {
-                $a[] = "    <h1 style=\"display:none;\">{$this->titulo}</h1>";
+                $a[] = "      <h1 style=\"display:none;\">{$this->titulo}</h1>";
             }
         } elseif ($this->titulo != '') {
             // Hay título. Si hay icono definido en Navegación
@@ -72,12 +74,12 @@ class Indice {
             }
             // Acumular
             if ($this->encabezado_color != '') {
-                $a[] = "    <div class=\"encabezado\" style=\"background-color:{$this->encabezado_color};\">";
+                $a[] = "      <div class=\"encabezado\" style=\"background-color:{$this->encabezado_color};\">";
             } else {
-                $a[] = '    <div class="encabezado">';
+                $a[] = '      <div class="encabezado">';
             }
-            $a[] = "      <span><h1>$encabezado</h1></span>";
-            $a[] = '    </div>';
+            $a[] = "        <span><h1>$encabezado</h1></span>";
+            $a[] = '      </div>';
         }
         // Acumular
         foreach ($this->publicaciones as $p) {

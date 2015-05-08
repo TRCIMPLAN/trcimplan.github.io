@@ -63,6 +63,8 @@ class Galeria {
 
     /**
      * Constructor
+     *
+     * @param array Arreglo con instancias de Publicacion
      */
     public function __construct($publicaciones) {
         $this->publicaciones = $publicaciones;
