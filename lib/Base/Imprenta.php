@@ -31,35 +31,36 @@ class Imprenta extends \Configuracion\ImprentaConfig {
     public $plantilla;               // Instancia de Plantilla
     public $publicaciones = array(); // Arreglo con instancias de Publicacion
     public $plantillas    = array(); // Arreglo con instancias de Plantillas
-    public $mensajes      = array(); // Arreglo con mensajes para la terminal
 
     /**
      * Eliminar un directorio y todos sus archivos
      *
-     * @param string Ruta al directorio a eliminar
+     * @param  string Ruta al directorio a eliminar
+     * @return string Caracter con 'r' si se eliminó el directorio
      */
     public function eliminar_directorio($ruta) {
         // Validar parámetro
         if (trim($ruta) == '') {
             throw new ImprentaExceptionValidacion("Error en Imprenta, eliminar_directorio: Parámetro vacio.");
         }
-        // Mensaje
-        $this->mensajes[] = "  Eliminando directorio $ruta...";
         // Si existe elimina los archivos que haya en éste
         if (is_dir($ruta)) {
             array_map('unlink', glob("$ruta/*"));
             if (rmdir($ruta) === false) {
                 throw new ImprentaExceptionFallo("Error en Imprenta, eliminar_directorio: No se pudo eliminar $ruta.");
+            } else {
+                return 'r';
             }
         } else {
-            // $this->mensajes[] = "  Nada que eliminar, porque no existe $ruta.";
+            return ''; // "  Nada que eliminar, porque no existe $ruta."
         }
     } // eliminar_directorio
 
     /**
      * Crear directorio
      *
-     * @param string Ruta al directorio a crear
+     * @param  string Ruta al directorio a crear
+     * @return string Caracter con 'd' si se creo el directorio, '/' si ya existe
      */
     public function crear_directorio($ruta) {
         // Validar parámetro
@@ -71,18 +72,19 @@ class Imprenta extends \Configuracion\ImprentaConfig {
             if (mkdir($ruta, 0755) === false) {
                 throw new ImprentaExceptionFallo("Error en Imprenta, crear_directorio: No se pudo crear el directorio $ruta");
             } else {
-                $this->mensajes[] = "  Creado el directorio $ruta...";
+                return 'd'; // "  Creado el directorio $ruta..."
             }
         } else {
-            // $this->mensajes[] = "  Nada que crear, porque ya existe el directorio $ruta.";
+            return ''; // "  Nada que crear, porque ya existe el directorio $ruta."
         }
     } // crear_directorio
 
     /**
      * Crear archivo
      *
-     * @param string Ruta al archivo a crear
-     * @param mixed  Texto o arreglo con el contenido
+     * @param  string Ruta al archivo a crear
+     * @param  mixed  Texto o arreglo con el contenido
+     * @return string Caracter con '.' si se creo el archivo
      */
     public function crear_archivo($ruta, $contenido) {
         // Validar parámetros
@@ -105,10 +107,8 @@ class Imprenta extends \Configuracion\ImprentaConfig {
             }
         }
         fclose($apuntador);
-        // Agregar mensaje
-        $this->mensajes[] = "  Listo $ruta";
         // Entregar mensaje
-        return "  Listo $ruta";
+        return "."; // "  Listo $ruta"
     } // crear_archivo
 
     /**
@@ -177,8 +177,6 @@ class Imprenta extends \Configuracion\ImprentaConfig {
                 // La clave del arreglo asociativo es el tiempo_creado-clase, donde clase es Directorio/Archivo
                 $clave              = "{$publicacion->tiempo_creado()}-{$clase}";
                 $instancias[$clave] = $publicacion;
-            } else {
-                $this->mensajes[] = "  Omití $clase porque no es una publicación.";
             }
         }
         if (count($instancias) > 0) {
@@ -219,38 +217,40 @@ class Imprenta extends \Configuracion\ImprentaConfig {
      */
     public function imprimir() {
         // Validar que la plantilla esté definida
-        if (!is_object($this->plantilla)) {
-            throw new ImprentaExceptionValidacion("Error en Imprenta, imprimir: La propiedad plantilla no es una instancia.");
-        }
-        if (!($this->plantilla instanceof Plantilla)) {
+        if (!is_object($this->plantilla) || !($this->plantilla instanceof Plantilla)) {
             throw new ImprentaExceptionValidacion("Error en Imprenta, imprimir: La propiedad plantilla no es instancia de Plantilla.");
         }
         // Si hay datos en el arreglo Publicaciones
         if (count($this->publicaciones) > 0) {
+            $salida = array();
             foreach ($this->publicaciones as $publicacion) {
                 // Incorporar publicación a la plantilla
                 $this->plantilla->incorporar_publicacion($publicacion);
                 // Escribir el archivo HTML
-                $this->crear_directorio($this->plantilla->directorio);                          // Puede causar una excepción
-                $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html()); // Puede causar una excepción
+                $salida[] = $this->crear_directorio($this->plantilla->directorio);                          // Puede causar una excepción
+                $salida[] = $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html()); // Puede causar una excepción
             }
+            return 'en '.$this->plantilla->directorio.implode('', $salida);
         }
         // Si hay datos en el arreglo Plantillas
         if (count($this->plantillas) > 0) {
+            $salida = array();
             foreach ($this->plantillas as $plantilla) {
                 // Escribir el archivo HTML
-                $this->crear_directorio($plantilla->directorio);                    // Puede causar una excepción
-                $this->crear_archivo($plantilla->archivo_ruta, $plantilla->html()); // Puede causar una excepción
+                $salida[] = $this->crear_directorio($plantilla->directorio);                    // Puede causar una excepción
+                $salida[] = $this->crear_archivo($plantilla->archivo_ruta, $plantilla->html()); // Puede causar una excepción
             }
+            return 'en '.$this->plantilla->directorio.implode('', $salida);
         }
         // Si NO hubo Publicaciones NI Plantillas, se imprime la Plantilla
-        if ((count($this->publicaciones) == 0) && (count($this->plantillas) == 0)) {
-            // Entonces se imprime la Plantilla
-            $this->crear_directorio($this->plantilla->directorio);                          // Puede causar una excepción
-            $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html()); // Puede causar una excepción
+        if ((count($this->publicaciones) == 0) && (count($this->plantillas) == 0) && ($this->plantilla->directorio != '') && ($this->plantilla->archivo_ruta != '')) {
+            $salida   = array();
+            $salida[] = $this->crear_directorio($this->plantilla->directorio);                          // Puede causar una excepción
+            $salida[] = $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html()); // Puede causar una excepción
+            return 'en '.$this->plantilla->directorio.implode('', $salida);
         }
-        // Entregar mensajes
-        return implode("\n", $this->mensajes);
+        // Entregar mensaje no he hizo nada
+        return 'no se hizo nada';
     } // imprimir
 
 } // Clase Imprenta

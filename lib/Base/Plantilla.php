@@ -57,24 +57,20 @@ class Plantilla extends \Configuracion\PlantillaConfig {
      * @param mixed Instancia de Publicacion
      */
     public function incorporar_publicacion($publicacion) {
-        // Validar
-        if (!is_object($publicacion)) {
-            throw new \Exception("Error en Plantilla, incorporar_publicacion: No es una instancia.");
-        }
-        if (!($publicacion instanceof Publicacion)) {
+        // Validar que sea una Publicacion
+        if (!is_object($publicacion) || !($publicacion instanceof Publicacion)) {
             throw new \Exception("Error en Plantilla, incorporar_publicacion: No es instancia de Publicacion.");
         }
-        if (!is_object($this->navegacion)) {
-            throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad navegacion no es una instancia.");
+        // Cuando la propiedad archivo NO está definida, se trata de poner el título/descripción/URL en el índice y NO se va a crear un archivo HTML
+        if ($publicacion->archivo == '') {
+            return;
         }
-        if (!($this->navegacion instanceof Navegacion)) {
+        // Validar Navegación
+        if (!is_object($this->navegacion) || !($this->navegacion instanceof Navegacion)) {
             throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad navegacion no es instancia de Navegacion.");
         }
-        if (!is_string($publicacion->archivo) || ($publicacion->archivo == '')) {
-            throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad archivo de la publicacion \"{$publicacion->nombre}\" es incorrecta.");
-        }
         // Inicializar el código JavaScript, porque puede quedar algo de publicaciones anteriores
-        $this->javascript = array();
+        $this->javascript   = array();
         // Esta publicación ocupará la página completa
         $completo           = new Completo($publicacion);
         $this->contenido    = $completo->html();

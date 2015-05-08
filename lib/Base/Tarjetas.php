@@ -96,8 +96,6 @@ class Tarjetas {
             if ($p->estado != 'publicar') {
                 continue;
             }
-            // Definir URL del vínculo
-            $vinculo = .'.html';
             // Acumular
             $a[] = '        <div class="col-sm-6 col-md-4">';
             $a[] = '          <div class="thumbnail">';
@@ -117,30 +115,6 @@ class Tarjetas {
     } // html
 
 /*
-    // public $fecha;                     // La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
-    // public $autor;                     // El nombre o apodo a quien se le atribuye
-    // public $aparece_en_pagina_inicial; // Verdadero si va aparecer en la página de inicio
-    // public $para_compartir;            // Si es verdadero pondrá los botones para compartir en Twitter/Facebook
-    // public $imagen                     // Ruta relativa a un archivo de imagen
-    // public $imagen_previa;             // Ruta relativa a un archivo de imagen para la vista previa
-    // public $icono;                     // Nombre del icono Font Awsome
-    // public $region_nivel;              // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región
-    // public $estado                     // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
-    public $nombre;                       // Título completo
-    public $nombre_menu;                  // Un título corto. Debe coincidir con la etiqueta usada en Navegacion
-    public $directorio;                   // Directorio donde se guardará la publicación completa
-    public $archivo;                      // El nombre del archivo para la publicación
-    public $descripcion      = '';        // Descripción del sitio o la página
-    public $claves;                       // Claves que ayuden a los buscadores
-    public $categorias       = array();   // Arreglo con las categorías de la publicación
-    public $encabezado;                   // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
-    public $encabezado_color = '';        // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
-    public $contenido        = array();   // Contenido código HTML de la publicación
-    public $javascript       = array();   // Opcional. Código Javascript. Debe estar aparte para ponerlo al final de la página.
-    public $redifusion       = '';        // Opcional. Código HTML con la publicación que va para redifusión (RSS feed).
-    public $en_raiz          = false;     // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
-    public $en_otro          = false;     // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
-
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
             <a href="planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf"><img src="planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.png" alt="Plan Director de Desarrollo Urbano de Torreón Coahuila"></a>

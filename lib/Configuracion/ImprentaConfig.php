@@ -13,7 +13,7 @@ namespace Configuracion;
  */
 class ImprentaConfig {
 
-    public $base_dir = 'lib'; // Directorio base de donde se buscarán las publicaciones, relativo desde htdocs
+    public $base_dir = 'lib'; // Directorio 'lib', donde están los objetos con las publicaciones, relativo desde htdocs
 
 } // Clase ImprentaConfig
 

@@ -27,10 +27,10 @@ namespace Base;
  */
 class ImprentaPublicaciones extends Imprenta {
 
-    // public $plantilla;
-    // public $mensajes;
-    // protected $publicaciones;
-    // protected $plantillas;
+    // public $base_dir;                    // Directorio 'lib', donde están los objetos con las publicaciones, relativo desde htdocs
+    // public $plantilla;                   // Instancia de Plantilla
+    // public $publicaciones;               // Arreglo con instancias de Publicacion
+    // public $plantillas;                  // Arreglo con instancias de Plantillas
     protected $publicaciones_directorio;    // Nombre del directorio dentro de lib que contiene los archivos con las publicaciones
     protected $titulo;                      // Título a usar en la página con el índice
     protected $descripcion;                 // Descripción a usar en la página con el índice
@@ -63,36 +63,42 @@ class ImprentaPublicaciones extends Imprenta {
      * @return string Mensajes para la terminal
      */
     public function imprimir() {
-        // Validar concentrador
-        if (($this->concentrador != 'Indice') && ($this->concentrador != 'Galeria')) {
-            throw new \Exception("Error: El concentrador es incorrecto.");
-        }
-        // Cargar la plantilla para publicaciones
+        // En este arreglo acumularemos la salida para la terminal
+        $salida = array();
+        // Para las publicaciones, preparar la Plantilla
         $this->plantilla                = new Plantilla();
         $this->plantilla->navegacion    = new Navegacion();
         $this->plantilla->mapa_inferior = new MapaInferior();
         // Cargar las publicaciones
         $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio, $this->encabezado_color);
+        // Validar y cargar las publicaciones en el concentrador, que se usará más adelante para crear el index.html
+        switch ($this->concentrador) {
+            case 'Indice':
+                $concentrador = new Indice($publicaciones);
+                break;
+            case 'Galeria':
+                $concentrador = new Galeria($publicaciones);
+                break;
+            case 'Tarjetas':
+                $concentrador = new Tarjetas($publicaciones);
+                break;
+            default:
+                throw new \Exception("Error: El concentrador es incorrecto; debe ser Indice, Galeria o Tarjetas.");
+        }
         // Imprimir las publicaciones
-        parent::imprimir();
-        // Agregar mensaje
-        $this->mensajes[] = "Se han impreso todas las publicaciones.";
-        // Dejar en blanco la propiedad publicaciones, para volver a imprimir
-        $this->publicaciones = null;
-        // Nueva instancia de Plantilla, para evitar restos de datos
+        $salida[] = 'Publicaciones '.parent::imprimir(); // "Se han impreso todas las publicaciones."
+        // Dejar en blanco las propiedades publicaciones y plantilla, para volver a imprimir
+        unset($this->publicaciones);
+        unset($this->plantilla);
+        // Ahora para index.html, nueva instancia de Plantilla
         $this->plantilla                = new Plantilla();
         $this->plantilla->navegacion    = new Navegacion();
         $this->plantilla->mapa_inferior = new MapaInferior();
-        // Cargar el índice con las publicaciones
-        if ($this->concentrador == 'Indice') {
-            $concentrador = new Indice($publicaciones);
-        } elseif ($this->concentrador == 'Galeria') {
-            $concentrador = new Galeria($publicaciones);
-        }
+        // Cargar el concentrador con las publicaciones
         $concentrador->titulo           = $this->titulo;
         $concentrador->encabezado       = $this->encabezado;
         $concentrador->encabezado_color = $this->encabezado_color;
-        // Cargar la plantilla para índice
+        // Cargar la plantilla
         $this->plantilla->titulo                    = $this->titulo;
         $this->plantilla->descripcion               = $this->descripcion;
         $this->plantilla->claves                    = $this->claves;
@@ -101,11 +107,9 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->navegacion->opcion_activa = $this->nombre_menu;
         $this->plantilla->contenido                 = $concentrador->html();
         // Imprimir index.html
-        parent::imprimir();
-        // Agregar mensaje
-        $this->mensajes[] = "Se ha impreso el/la {$this->concentrador}.";
+        $salida[] = $this->concentrador.' '.parent::imprimir(); // "Se ha impreso el/la {$this->concentrador}."
         // Entregar mensajes
-        return implode("\n", $this->mensajes);
+        return implode(' ', $salida);
     } // imprimir
 
 } // Clase ImprentaPublicaciones

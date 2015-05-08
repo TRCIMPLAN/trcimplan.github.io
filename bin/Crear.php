@@ -33,7 +33,7 @@ chdir(realpath(dirname(__FILE__))."/..");
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
-// En este arreglo están las rutas a las clases Imprenta
+// En este arreglo están las rutas a las clases Imprenta '\SIGPlanes\Imprenta',
 $clases = array(
     '\Blog\Imprenta',
     '\ConsejoDirectivo\Imprenta',
@@ -45,6 +45,7 @@ $clases = array(
     '\Proyectos\Imprenta',
     '\SalaPrensa\Imprenta',
     '\SIG\Imprenta',
+
     '\SMI\Imprenta',
     '\SMI\ImprentaIndicadoresTorreon',
     '\SMI\ImprentaIndicadoresGomezPalacio',
@@ -60,7 +61,7 @@ try {
         echo $impresor->imprimir()."\n";
     }
 } catch (\Exception $e) {
-    echo implode("\n", $impresor->mensajes)."\n";
+    //echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }
