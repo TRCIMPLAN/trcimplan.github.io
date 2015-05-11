@@ -38,7 +38,7 @@ class NavegacionConfig {
             'Indicadores > Georreferenciados'         => 'smi/georreferenciados.html'),
         'Información Geográfica' => array(
             'Información Geográfica > Introducción'            => 'sig/introduccion.html',
-            'Información Geográfica > Planes'                  => 'sig/planes.html',
+            'Información Geográfica > Planes'                  => 'sig-planes/index.html',
             'Información Geográfica > Alumbrado Público'       => 'sig/alumbrado-publico.html',
             'Información Geográfica > Crecimiento Histórico'   => 'sig/crecimiento-historico-torreon.html',
             'Información Geográfica > Zonificación Primaria'   => 'sig/zonificacion-primaria.html',

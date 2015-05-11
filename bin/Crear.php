@@ -33,7 +33,7 @@ chdir(realpath(dirname(__FILE__))."/..");
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
-// En este arreglo están las rutas a las clases Imprenta '\SIGPlanes\Imprenta',
+// En este arreglo están las rutas a las clases Imprenta
 $clases = array(
     '\Blog\Imprenta',
     '\ConsejoDirectivo\Imprenta',
@@ -45,7 +45,7 @@ $clases = array(
     '\Proyectos\Imprenta',
     '\SalaPrensa\Imprenta',
     '\SIG\Imprenta',
-
+    '\SIGPlanes\Imprenta',
     '\SMI\Imprenta',
     '\SMI\ImprentaIndicadoresTorreon',
     '\SMI\ImprentaIndicadoresGomezPalacio',

@@ -224,11 +224,12 @@ class Imprenta extends \Configuracion\ImprentaConfig {
         if (count($this->publicaciones) > 0) {
             $salida = array();
             foreach ($this->publicaciones as $publicacion) {
-                // Incorporar publicación a la plantilla
-                $this->plantilla->incorporar_publicacion($publicacion);
-                // Escribir el archivo HTML
-                $salida[] = $this->crear_directorio($this->plantilla->directorio);                          // Puede causar una excepción
-                $salida[] = $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html()); // Puede causar una excepción
+                // Al incorporar la publicación a la plantilla puede entregar falso cuando no se define el archivo de salida o no tener contenido
+                if ($this->plantilla->incorporar_publicacion($publicacion) == true) {
+                    // Escribir el archivo HTML
+                    $salida[] = $this->crear_directorio($this->plantilla->directorio);
+                    $salida[] = $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html());
+                }
             }
             return 'en '.$this->plantilla->directorio.implode('', $salida);
         }
@@ -237,16 +238,16 @@ class Imprenta extends \Configuracion\ImprentaConfig {
             $salida = array();
             foreach ($this->plantillas as $plantilla) {
                 // Escribir el archivo HTML
-                $salida[] = $this->crear_directorio($plantilla->directorio);                    // Puede causar una excepción
-                $salida[] = $this->crear_archivo($plantilla->archivo_ruta, $plantilla->html()); // Puede causar una excepción
+                $salida[] = $this->crear_directorio($plantilla->directorio);
+                $salida[] = $this->crear_archivo($plantilla->archivo_ruta, $plantilla->html());
             }
             return 'en '.$this->plantilla->directorio.implode('', $salida);
         }
         // Si NO hubo Publicaciones NI Plantillas, se imprime la Plantilla
         if ((count($this->publicaciones) == 0) && (count($this->plantillas) == 0) && ($this->plantilla->directorio != '') && ($this->plantilla->archivo_ruta != '')) {
             $salida   = array();
-            $salida[] = $this->crear_directorio($this->plantilla->directorio);                          // Puede causar una excepción
-            $salida[] = $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html()); // Puede causar una excepción
+            $salida[] = $this->crear_directorio($this->plantilla->directorio);
+            $salida[] = $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html());
             return 'en '.$this->plantilla->directorio.implode('', $salida);
         }
         // Entregar mensaje no he hizo nada

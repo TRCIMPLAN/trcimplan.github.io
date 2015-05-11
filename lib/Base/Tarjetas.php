@@ -49,10 +49,10 @@ class Tarjetas {
     public function html() {
         // Validar
         if (!is_array($this->publicaciones)) {
-            throw new \Exception("Error en Indice, html: La propiedad publicaciones no es un arreglo.");
+            throw new \Exception("Error en Tarjetas, html: La propiedad publicaciones NO es un arreglo.");
         }
         if (count($this->publicaciones) == 0) {
-            throw new \Exception("Error en Indice, html: La propiedad publicaciones no tiene datos.");
+            throw new \Exception("Error en Tarjetas, html: La propiedad publicaciones NO tiene datos.");
         }
         // Acumularemos la entrega en este arreglo
         $a = array();
@@ -87,23 +87,54 @@ class Tarjetas {
         foreach ($this->publicaciones as $p) {
             // Validar
             if (!is_object($p)) {
-                throw new \Exception("Error en Indice, html: Una publicación no es una instancia.");
+                throw new \Exception("Error en Tarjetas, html: Una publicación NO es una instancia.");
             }
             if (!($p instanceof Publicacion)) {
-                throw new \Exception("Error en Indice, html: Una publicación no es una instancia de Publicacion.");
+                throw new \Exception("Error en Tarjetas, html: Una publicación NO es una instancia de Publicacion.");
             }
             // Si el estado no es 'publicar', se salta
             if ($p->estado != 'publicar') {
                 continue;
             }
+            // Validar nombre
+            if (!is_string($p->nombre) || ($p->nombre == '')) {
+                throw new \Exception("Error en Tarjetas, html: Una publicación NO tiene nombre.");
+            }
+            // Por defecto el target es vacío
+            $target = '';
+            // Si está definido archivo
+            if ($p->archivo != '') {
+                // El vínculo es a una página HTML
+                $url          = $p->archivo.'.html';
+                $url_etiqueta = $p->nombre;
+            } else {
+                // El vínculo es un URL a un archivo o a una dirección fuera del sitio
+                if ($p->url != '') {
+                    $url = $p->url;
+                    if ((preg_match('/^(http|https|ftp|ftps):\/\//', $url) === 1) || (preg_match('/\.(pdf|rar|tar.gz|tgz|zip)$/', $url) === 1)) {
+                        $target = ' target="_blank"';
+                    }
+                } else {
+                    throw new \Exception("Error en Tarjetas, html: Una publicación tiene las propiedades archivo y url vacías.");
+                }
+                if ($p->url_etiqueta != '') {
+                    $url_etiqueta = $p->url_etiqueta;
+                } else {
+                    $url_etiqueta = $p->nombre;
+                }
+            }
             // Acumular
             $a[] = '        <div class="col-sm-6 col-md-4">';
             $a[] = '          <div class="thumbnail">';
-            $a[] = sprintf('            <a href="%s.html"><img src="%s" alt="%s"></a>', $p->archivo, $p->imagen_previa, $p->nombre);
+            if ($p->imagen_previa != '') {
+                $a[] = sprintf('            <a href="%s"%s><img src="%s" alt="%s"></a>', $url, $target, $p->imagen_previa, $url_etiqueta);
+            }
             $a[] = '            <div class="caption">';
-            $a[] = sprintf('              <h3><a href="%s">%s</a></h3>', $p->archivo, $p->nombre);
-            $a[] = sprintf('              <p>%s</p>', $p->descripcion);
-            $a[] = sprintf('              <p><a href="%s.html" class="btn btn-default" role="button">%s</a></p>', $p->archivo, $p->nombre);
+            $a[] = sprintf('              <h3><a href="%s"%s>%s</a></h3>', $url, $target, $p->nombre);
+            if ($p->descripcion != '') {
+                $a[] = sprintf('              <p>%s</p>', $p->descripcion);
+            }
+            $a[] = sprintf('              <p><a href="%s" class="btn btn-default" role="button"%s>%s</a></p>', $url, $target, $url_etiqueta);
             $a[] = '            </div>';
             $a[] = '          </div>';
             $a[] = '        </div>';
@@ -113,22 +144,6 @@ class Tarjetas {
         // Entregar
         return implode("\n", $a)."\n";
     } // html
-
-/*
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <a href="planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf"><img src="planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.png" alt="Plan Director de Desarrollo Urbano de Torreón Coahuila"></a>
-            <div class="caption">
-              <h3><a href="planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf">Plan Director de Desarrollo Urbano de Torreón Coahuila</a></h3>
-              <p>La propuesta del Plan se centra en el objetivo general del Programa Metropolitano de establecer una metrópoli articulada y
-                coherente; fuertemente vinculada con su ámbito regional inmediato (Comarca Lagunera), donde se genera gran parte de su riqueza;
-                que desarrolle en su periferia una ciudad adecuada a las necesidades del siglo XXI y fortalezca sus antiguos centros, con
-                equipamiento e infraestructura para la regeneración urbana.</p>
-              <p><a href="planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf" class="btn btn-default" role="button">Descargar PDF 4.1 MB</a></p>
-            </div>
-          </div>
-        </div>
-*/
 
 } // Clase Tarjetas
 

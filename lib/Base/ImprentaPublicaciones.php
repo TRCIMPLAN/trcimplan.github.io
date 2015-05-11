@@ -86,7 +86,7 @@ class ImprentaPublicaciones extends Imprenta {
                 throw new \Exception("Error: El concentrador es incorrecto; debe ser Indice, Galeria o Tarjetas.");
         }
         // Imprimir las publicaciones
-        $salida[] = 'Publicaciones '.parent::imprimir(); // "Se han impreso todas las publicaciones."
+        $salida[] = count($publicaciones).' publicaciones '.parent::imprimir();
         // Dejar en blanco las propiedades publicaciones y plantilla, para volver a imprimir
         unset($this->publicaciones);
         unset($this->plantilla);
@@ -107,9 +107,9 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->navegacion->opcion_activa = $this->nombre_menu;
         $this->plantilla->contenido                 = $concentrador->html();
         // Imprimir index.html
-        $salida[] = $this->concentrador.' '.parent::imprimir(); // "Se ha impreso el/la {$this->concentrador}."
+        $salida[] = $this->concentrador.' '.parent::imprimir();
         // Entregar mensajes
-        return implode(' ', $salida);
+        return implode(' & ', $salida);
     } // imprimir
 
 } // Clase ImprentaPublicaciones

@@ -27,21 +27,6 @@ namespace SIGPlanes;
  */
 class Imprenta extends \Base\ImprentaPublicaciones {
 
-    // public $plantilla;                   // Instancia de Plantilla
-    // public $mensajes;                    // Arreglo con mensajes para la terminal
-    // protected $publicaciones;            // Arreglo con instancias de Publicacion
-    // protected $plantillas;               // Arreglo con instancias de Plantillas
-    // protected $publicaciones_directorio; // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
-    // protected $titulo;                   // Título a usar en la página con el índice
-    // protected $descripcion;              // Descripción a usar en la página con el índice
-    // protected $claves;                   // Claves a usar en la página con el índice
-    // protected $directorio;               // Nombre del directorio en la raíz del sitio
-    // protected $ruta;                     // Ruta al archivo HTML para el índice, por ejemplo 'eventos/index.html'
-    // protected $nombre_menu;              // Etiqueta del menú que pondrá como opción activa
-    // protected $concentrador = 'Indice';  // Clase que concentrará este conjunto de publicaciones. Puede ser 'Indice' o 'Galeria'.
-    // protected $encabezado;               // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
-    // protected $encabezado_color;         // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
-
     /**
      * Constructor
      */
@@ -59,7 +44,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->concentrador             = 'Tarjetas';
         // La ruta al archivo con el índice/galería que será creado
         $this->directorio               = 'sig-planes';
-        $this->ruta                     = 'sig-planes/index.html';
+        $this->archivo_ruta             = 'sig-planes/index.html';
     } // constructor
 
 } // Clase Imprenta

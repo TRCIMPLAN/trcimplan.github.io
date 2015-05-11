@@ -54,16 +54,24 @@ class Plantilla extends \Configuracion\PlantillaConfig {
     /**
      * Incorporar Publicacion
      *
-     * @param mixed Instancia de Publicacion
+     * @param  mixed   Instancia de Publicacion
+     * @return boolean Verdadero si se integró, falso si se omitió por no tener definida la propiedad archivo
      */
     public function incorporar_publicacion($publicacion) {
         // Validar que sea una Publicacion
         if (!is_object($publicacion) || !($publicacion instanceof Publicacion)) {
             throw new \Exception("Error en Plantilla, incorporar_publicacion: No es instancia de Publicacion.");
         }
-        // Cuando la propiedad archivo NO está definida, se trata de poner el título/descripción/URL en el índice y NO se va a crear un archivo HTML
-        if ($publicacion->archivo == '') {
-            return;
+        // Omitir cuando la propiedad archivo NO está definida
+        if (($publicacion->archivo == '') || ($publicacion->directorio == '')) {
+            return false;
+        }
+        // Omitir cuando NO tiene contenido
+        if (is_string($publicacion->contenido) && ($publicacion->contenido == '')) {
+            return false;
+        }
+        if (is_array($publicacion->contenido) && (count($publicacion->contenido) == 0)) {
+            return false;
         }
         // Validar Navegación
         if (!is_object($this->navegacion) || !($this->navegacion instanceof Navegacion)) {
@@ -102,6 +110,8 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         } else {
             $this->javascript[] = $publicacion->javascript;
         }
+        // Entregar verdadero
+        return true;
     } // incorporar_publicacion
 
     /**

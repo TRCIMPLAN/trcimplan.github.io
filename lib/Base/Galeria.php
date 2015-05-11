@@ -78,10 +78,10 @@ class Galeria {
     public function html() {
         // Validar
         if (!is_array($this->publicaciones)) {
-            throw new \Exception("Error en Galeria, html: La propiedad publicaciones no es un arreglo.");
+            throw new \Exception("Error en Galeria, html: La propiedad publicaciones NO es un arreglo.");
         }
         if (count($this->publicaciones) == 0) {
-            throw new \Exception("Error en Galeria, html: La propiedad publicaciones no tiene datos.");
+            throw new \Exception("Error en Galeria, html: La propiedad publicaciones NO tiene datos.");
         }
         // Acumularemos la entrega en este arreglo
         $a = array();
@@ -117,14 +117,18 @@ class Galeria {
             $a[] = '        <div class="col-xs-6 col-md-4 col-lg-3">';
             // Validar
             if (!is_object($p)) {
-                throw new \Exception("Error en Galeria, html: Una publicación no es una instancia.");
+                throw new \Exception("Error en Galeria, html: Una publicación NO es una instancia.");
             }
             if (!($p instanceof Publicacion)) {
-                throw new \Exception("Error en Galeria, html: Una publicación no es una instancia de Publicacion.");
+                throw new \Exception("Error en Galeria, html: Una publicación NO es una instancia de Publicacion.");
             }
             // Si el estado no es 'publicar', se salta
             if ($p->estado != 'publicar') {
                 continue;
+            }
+            // Validar nombre
+            if (!is_string($p->nombre) || ($p->nombre == '')) {
+                throw new \Exception("Error en Galeria, html: Una publicación NO tiene nombre.");
             }
             // Acumular
             $a[] = '          <div class="thumbnail galeria-thumbnail">';

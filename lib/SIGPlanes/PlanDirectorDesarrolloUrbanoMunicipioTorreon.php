@@ -37,20 +37,14 @@ class PlanDirectorDesarrolloUrbanoMunicipioTorreon extends \Base\Publicacion {
         $this->fecha            = '2015-01-01T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo          = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
-        $this->imagen           = 'plan-director-de-desarrollo-urbano-de-municipio-de-torreon/imagen.jpg';
-        $this->imagen_previa    = 'plan-director-de-desarrollo-urbano-de-municipio-de-torreon/imagen-previa.jpg';
+        $this->imagen           = 'plan-director-de-desarrollo-urbano-de-municipio-de-torreon/imagen.png';
+        $this->imagen_previa    = 'plan-director-de-desarrollo-urbano-de-municipio-de-torreon/imagen-previa.png';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'La propuesta del Plan se centra en el objetivo general del Programa Metropolitano de establecer una metrópoli articulada y coherente; fuertemente vinculada con su ámbito regional inmediato (Comarca Lagunera), donde se genera gran parte de su riqueza; que desarrolle en su periferia una ciudad adecuada a las necesidades del siglo XXI y fortalezca sus antiguos centros, con equipamiento e infraestructura para la regeneración urbana.';
-     // $this->claves           = '';
-     // $this->categorias       = array();
-        // El directorio en la raíz donde se guardará el archivo HTML
-     // $this->directorio       = '';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-     // $this->nombre_menu      = 'Información Geográfica > Planes';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->claves           = 'IMPLAN, Torreon, Plan, Director, Desarrollo, Urbano, Municipio';
+        $this->categorias       = array('SIG');
+        // El estado puede ser 'publicar' (lo usa), 'revisar' o 'ignorar' (lo omite)
         $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-     // $this->para_compartir   = true;
         // URL de destino
         $this->url              = 'planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf';
         $this->url_etiqueta     = 'Descargar PDF 4.1 MB';
@@ -65,23 +59,7 @@ class PlanDirectorDesarrolloUrbanoMunicipioTorreon extends \Base\Publicacion {
             $this->redifusion   = $this->descripcion;
         }
     } // constructor
-/*
-<div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <a href="planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf"><img src="planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.png" alt="Plan Director de Desarrollo Urbano de Torreón Coahuila"></a>
-      <div class="caption">
-        <h3><a href="planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf">Plan Director de Desarrollo Urbano de Torreón Coahuila</a></h3>
-        <p>La propuesta del Plan se centra en el objetivo general del Programa Metropolitano de establecer una metrópoli articulada y coherente; fuertemente vinculada con su ámbito regional inmediato (Comarca Lagunera), donde se genera gran parte de su riqueza; que desarrolle en su periferia una ciudad adecuada a las necesidades del siglo XXI y fortalezca sus antiguos centros, con equipamiento e infraestructura para la regeneración urbana.</p>
-        <p><a href="planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf" class="btn btn-default" role="button">Descargar PDF 4.1 MB</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    ...
-  </div>
-</div>
- */
+
 } // Clase PlanDirectorDesarrolloUrbanoMunicipioTorreon
 
 ?>

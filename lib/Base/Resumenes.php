@@ -48,10 +48,10 @@ class Resumenes {
     public function html() {
         // Validar
         if (!is_array($this->publicaciones)) {
-            throw new \Exception("Error en Resumenes, html: La propiedad publicaciones no es un arreglo.");
+            throw new \Exception("Error en Resumenes, html: La propiedad publicaciones NO es un arreglo.");
         }
         if (count($this->publicaciones) == 0) {
-            throw new \Exception("Error en Resumenes, html: La propiedad publicaciones no tiene datos.");
+            throw new \Exception("Error en Resumenes, html: La propiedad publicaciones NO tiene datos.");
         }
         // Acumularemos la entrega en este arreglo
         $a = array();
@@ -70,14 +70,18 @@ class Resumenes {
         foreach ($this->publicaciones as $p) {
             // Validar
             if (!is_object($p)) {
-                throw new \Exception("Error en Resumenes, html: Una publicación no es una instancia.");
+                throw new \Exception("Error en Resumenes, html: Una publicación NO es una instancia.");
             }
             if (!($p instanceof Publicacion)) {
-                throw new \Exception("Error en Resumenes, html: Una publicación no es una instancia de Publicacion.");
+                throw new \Exception("Error en Resumenes, html: Una publicación NO es una instancia de Publicacion.");
             }
             // Si el estado es diferente a publicar, se salta
             if ($p->estado != 'publicar') {
                 continue;
+            }
+            // Validar nombre
+            if (!is_string($p->nombre) || ($p->nombre == '')) {
+                throw new \Exception("Error en Resumenes, html: Una publicación NO tiene nombre.");
             }
             // Pasar la bandera en_raiz
             $p->en_raiz = $this->en_raiz;
