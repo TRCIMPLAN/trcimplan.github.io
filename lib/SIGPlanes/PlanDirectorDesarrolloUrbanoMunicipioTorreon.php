@@ -46,7 +46,7 @@ class PlanDirectorDesarrolloUrbanoMunicipioTorreon extends \Base\Publicacion {
         // El estado puede ser 'publicar' (lo usa), 'revisar' o 'ignorar' (lo omite)
         $this->estado           = 'publicar';
         // URL de destino
-        $this->url              = 'planes/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf';
+        $this->url              = 'plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf';
         $this->url_etiqueta     = 'Descargar PDF 4.1 MB';
         // Sin contenido
         $this->contenido        = '';
