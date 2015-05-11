@@ -93,7 +93,7 @@ class Tarjetas {
                 throw new \Exception("Error en Tarjetas, html: Una publicación NO es una instancia de Publicacion.");
             }
             // Si el estado no es 'publicar', se salta
-            if ($p->estado != 'publicar') {
+            if (strtolower($p->estado) != 'publicar') {
                 continue;
             }
             // Validar nombre
@@ -105,8 +105,15 @@ class Tarjetas {
             // Si está definido archivo
             if ($p->archivo != '') {
                 // El vínculo es a una página HTML
-                $url          = $p->archivo.'.html';
-                $url_etiqueta = $p->nombre;
+                $url = $p->archivo.'.html';
+                // URL para el botón
+                if ($p->url != '') {
+                    $boton_url    = $p->url;
+                    $boton_target = ' target="_blank"';
+                } else {
+                    $boton_url = $url;
+                    $boton_target = '';
+                }
             } else {
                 // El vínculo es un URL a un archivo o a una dirección fuera del sitio
                 if ($p->url != '') {
@@ -117,24 +124,25 @@ class Tarjetas {
                 } else {
                     throw new \Exception("Error en Tarjetas, html: Una publicación tiene las propiedades archivo y url vacías.");
                 }
-                if ($p->url_etiqueta != '') {
-                    $url_etiqueta = $p->url_etiqueta;
-                } else {
-                    $url_etiqueta = $p->nombre;
-                }
+            }
+            // Definir la etiqueta del botón
+            if ($p->url_etiqueta != '') {
+                $url_etiqueta = $p->url_etiqueta;
+            } else {
+                $url_etiqueta = $p->nombre;
             }
             // Acumular
-            $a[] = '        <div class="col-sm-6 col-md-4">';
+            $a[] = '        <div class="col-sm-6 col-md-3">';
             $a[] = '          <div class="thumbnail">';
             if ($p->imagen_previa != '') {
-                $a[] = sprintf('            <a href="%s"%s><img src="%s" alt="%s"></a>', $url, $target, $p->imagen_previa, $url_etiqueta);
+                $a[] = sprintf('            <a href="%s"%s><img src="%s" alt="%s"></a>', $url, $target, $p->imagen_previa, $p->nombre);
             }
             $a[] = '            <div class="caption">';
             $a[] = sprintf('              <h3><a href="%s"%s>%s</a></h3>', $url, $target, $p->nombre);
             if ($p->descripcion != '') {
                 $a[] = sprintf('              <p>%s</p>', $p->descripcion);
             }
-            $a[] = sprintf('              <p><a href="%s" class="btn btn-default" role="button"%s>%s</a></p>', $url, $target, $url_etiqueta);
+            $a[] = sprintf('              <p><a href="%s" class="btn btn-default" role="button"%s>%s</a></p>', $boton_url, $boton_target, $url_etiqueta);
             $a[] = '            </div>';
             $a[] = '          </div>';
             $a[] = '        </div>';

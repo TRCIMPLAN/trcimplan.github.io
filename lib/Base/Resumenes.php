@@ -76,7 +76,7 @@ class Resumenes {
                 throw new \Exception("Error en Resumenes, html: Una publicación NO es una instancia de Publicacion.");
             }
             // Si el estado es diferente a publicar, se salta
-            if ($p->estado != 'publicar') {
+            if (strtolower($p->estado) != 'publicar') {
                 continue;
             }
             // Validar nombre

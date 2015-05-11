@@ -45,6 +45,7 @@ $clases = array(
     '\Proyectos\Imprenta',
     '\SalaPrensa\Imprenta',
     '\SIG\Imprenta',
+    '\SIGMapasTorreon\Imprenta',
     '\SIGPlanes\Imprenta',
     '\SMI\Imprenta',
     '\SMI\ImprentaIndicadoresTorreon',

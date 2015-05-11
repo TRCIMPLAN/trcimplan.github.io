@@ -163,7 +163,7 @@ class Imprenta extends \Configuracion\ImprentaConfig {
             // Si es instancia de Publicacion, se acumula
             if ($publicacion instanceof Publicacion) {
                 // Si el estado es diferente de publicar o revisar, se salta
-                if (($publicacion->estado != 'publicar') && ($publicacion->estado != 'revisar')) {
+                if ((strtolower($publicacion->estado) != 'publicar') && (strtolower($publicacion->estado) != 'revisar')) {
                     continue;
                 }
                 // Si la publicación NO tiene color para el encabezado, se copia el de la imprenta
@@ -187,7 +187,7 @@ class Imprenta extends \Configuracion\ImprentaConfig {
         }
         // Entregar
         return $this->publicaciones;
-    } // agregar_directorio
+    } // agregar_directorio_publicaciones
 
     /**
      * Agregar Directorio con Plantillas

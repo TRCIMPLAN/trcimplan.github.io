@@ -123,7 +123,7 @@ class Galeria {
                 throw new \Exception("Error en Galeria, html: Una publicación NO es una instancia de Publicacion.");
             }
             // Si el estado no es 'publicar', se salta
-            if ($p->estado != 'publicar') {
+            if (strtolower($p->estado) != 'publicar') {
                 continue;
             }
             // Validar nombre
