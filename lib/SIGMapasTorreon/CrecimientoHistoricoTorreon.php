@@ -23,9 +23,9 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase CrecimientoHistoricoDeTorreon
+ * Clase CrecimientoHistoricoTorreon
  */
-class CrecimientoHistoricoDeTorreon extends \Base\Publicacion {
+class CrecimientoHistoricoTorreon extends \Base\Publicacion {
 
     /**
      * Constructor
@@ -36,9 +36,9 @@ class CrecimientoHistoricoDeTorreon extends \Base\Publicacion {
         $this->autor              = 'Jair Miramontes';
         $this->fecha              = '2015-03-09T10:15';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo            = 'crecimiento-historico-de-torreon';
-        $this->imagen             = 'crecimiento-historico-de-torreon/imagen.jpg';
-        $this->imagen_previa      = 'crecimiento-historico-de-torreon/imagen-previa.jpg';
+        $this->archivo            = 'crecimiento-historico-torreon';
+        $this->imagen             = 'crecimiento-historico-torreon/imagen.jpg';
+        $this->imagen_previa      = 'crecimiento-historico-torreon/imagen-previa.jpg';
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/180ab8da-643c-11e4-971a-0e018d66dc29/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
@@ -88,6 +88,6 @@ FINAL;
         // Sin caja JS
     } // constructor
 
-} // Clase CrecimientoHistoricoDeTorreon
+} // Clase CrecimientoHistoricoTorreon
 
 ?>

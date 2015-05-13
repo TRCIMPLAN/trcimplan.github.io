@@ -23,9 +23,9 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase AvanceDeReconversionTecnologicaLedDelAlumbradoPublico
+ * Clase AvanceReconversionTecnologicaLedAlumbradoPublico
  */
-class AvanceDeReconversionTecnologicaLedDelAlumbradoPublico extends \Base\Publicacion {
+class AvanceReconversionTecnologicaLedAlumbradoPublico extends \Base\Publicacion {
 
     /**
      * Constructor
@@ -36,9 +36,9 @@ class AvanceDeReconversionTecnologicaLedDelAlumbradoPublico extends \Base\Public
         $this->autor              = 'Daniela Corral';
         $this->fecha              = '2015-02-02T09:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo            = 'avance-de-reconversion-tecnologica-led-del-alumbrado-publico';
-        $this->imagen             = 'avance-de-reconversion-tecnologica-led-del-alumbrado-publico/imagen.jpg';
-        $this->imagen_previa      = 'avance-de-reconversion-tecnologica-led-del-alumbrado-publico/imagen-previa.jpg';
+        $this->archivo            = 'avance-reconversion-tecnologica-led-alumbrado-publico';
+        $this->imagen             = 'avance-reconversion-tecnologica-led-alumbrado-publico/imagen.jpg';
+        $this->imagen_previa      = 'avance-reconversion-tecnologica-led-alumbrado-publico/imagen-previa.jpg';
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://sigimplan.cartodb.com/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
@@ -92,6 +92,6 @@ FINAL;
         // Sin caja JS
     } // constructor
 
-} // Clase AvanceDeReconversionTecnologicaLedDelAlumbradoPublico
+} // Clase AvanceReconversionTecnologicaLedAlumbradoPublico
 
 ?>
