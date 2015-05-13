@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            http://www.oesmith.co.uk/morris.js
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El consumo local es una herramienta coherente para el desarrollo equitativo de la sociedad; en el cual, sabemos de donde vienen los materiales, sabemos quienes son las personas que lo fabrican y quienes lo venden.">
+  <meta name="author" content="Lic. Luis A. Gutiérrez Arizpe">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="El consumo local: alternativa para una ciudad competitiva - IMPLAN Torreón">
+  <meta name="twitter:description" content="El consumo local es una herramienta coherente para el desarrollo equitativo de la sociedad; en el cual, sabemos de donde vienen los materiales, sabemos quienes son las personas que lo fabrican y quienes lo venden.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/consumo-local-alternativa-ciudad-competitiva/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/consumo-local-alternativa-ciudad-competitiva.html">
+  <meta name="og:title" content="El consumo local: alternativa para una ciudad competitiva - IMPLAN Torreón">
+  <meta name="og:description" content="El consumo local es una herramienta coherente para el desarrollo equitativo de la sociedad; en el cual, sabemos de donde vienen los materiales, sabemos quienes son las personas que lo fabrican y quienes lo venden.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/consumo-local-alternativa-ciudad-competitiva/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/consumo-local-alternativa-ciudad-competitiva.html">
+  <title>El consumo local: alternativa para una ciudad competitiva - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi/georreferenciados.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig/alumbrado-publico.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Alumbrado Público</a></li>
+            <li><a href="../sig/crecimiento-historico-torreon.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Crecimiento Histórico</a></li>
+            <li><a href="../sig/zonificacion-primaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Primaria</a></li>
+            <li><a href="../sig/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M1 Diagnóstico y Pronóstico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-2.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M2 Visión y Objetivos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-3.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M3 Estrategias y Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-4.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M4 Gestión de Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/fotogaleria.html"><span class="navegacion-icono"><i class="fa fa-camera"></i></span> Fotogalería</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+<article>
+      <div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">El consumo local: alternativa para una ciudad competitiva</h1>
+          <div class="encabezado-descripcion" itemprop="description">El consumo local es una herramienta coherente para el desarrollo equitativo de la sociedad; en el cual, sabemos de donde vienen los materiales, sabemos quienes son las personas que lo fabrican y quienes lo venden.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Luis A. Gutiérrez Arizpe</span>
+          - <meta itemprop="datePublished" content="2015-05-13T09:00">13/05/2015 09:00
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="El consumo local: alternativa para una ciudad competitiva" src="consumo-local-alternativa-ciudad-competitiva/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>Las bases sobre las que el Consumo Local se fundamenta son claramente económicas. La descripción de la situación actual que vivimos es el resultado de un <strong>proceso histórico,</strong> con un origen: el sistema de producción feudal, en donde, si bien no existía la esclavitud tal cual, la relación entre el “señor feudal” y los siervos o vasallos, funcionaba a grandes rasgos, de forma similar. El dueño de la producción lo era también del territorio donde se llevaba a cabo la labor, por lo que tenía derechos sobre lo que emanara de esa tierra. Como forma de compensación, y a diferencia del esclavismo, se les facilitaba un lugar donde vivir y algunas cosas básicas para la subsistencia de  hombres y mujeres que realizaban el trabajo. Un estilo primitivo de vender (obligatoriamente) la fuerza de trabajo. Algunos que pudieron desprenderse del sistema o que por alguna razón no eran parte de éste se trasladan a las afueras de los centros urbanos y <strong>comienzan a dedicarse al comercio</strong> entre regiones y al interior de éstas, comenzando a generar riqueza, para posteriormente pelear y ganar la hegemonía a los señores feudales y una oportunidad de desarrollo para el vasallaje. Durante algunos siglos se mantuvo este sistema que da entrada a la revolución industrial y se dan avances sin precedentes en la ciencia, la tecnología, la comunicación, etc. El capital, se convierte en el combustible de la sociedad, la sociedad occidental por lo menos.</p>
+
+<p>Lo delicado del sistema capitalista es que con el paso del tiempo, <strong>ha perdido su sentido de existencia.</strong> El manejo del capital es el eje central de nuestra política económica, y ésta a su vez, en el epicentro de la vida humana. El capital adquiere un mayor valor de tal manera que el crecimiento económico se convierte en un fin por sí mismo.Los efectos negativos conocidos comoc risis, abarcan todos los ámbitos de la vida y cada día tienen mayor repercusión mundial gracias al fenómeno de la globalización: <strong>las crisis sociales, ambientales, políticas, de empleo y por supuesto, económicas son compartidas por todos.</strong></p>
+
+<p>Es una <strong>competencia,</strong> ahora globalizada, de acumulación de riqueza, en donde deberá existir al final del día un ganador y muchos perdedores. Es una acepción del término competitividad, más no la única. Más adelante abordaremos la competitividad.</p>
+
+<p>Como todo proceso histórico, <strong>evoluciona con el tiempo,</strong> acorde a situaciones coyunturales, nuevas necesidades, el punto es observar que <strong>no es algo estático.</strong> Pero, ¿cómo enfrentar esta situación?</p>
+
+<p>Tenemos dos ámbitos:</p>
+
+<ol>
+<li>El macroeconómico, es decir, la toma de decisiones políticas que regulan las relaciones económicas entre ciudades, países o grandes consorcios. Los aranceles, la apertura de mercados, regulaciones del capital extranjero, son un ejemplo.</li>
+<li>El <strong>microeconómico,</strong> la actividad económica en sí. Es más abarcadora puesto que ahí es donde <strong>se origina el consumo</strong> mismo. Las personas podemos otorgar valor a las cosas, no solamente monetarios.</li>
+</ol>
+
+<p>El <strong>consumo</strong> es necesario y siempre ha existido, siempre hemos sido consumidores de algo. Es una relación natural (y no somos los únicos seres que funcionan así) entre necesidades y satisfactores. Es una acción para conseguir algo.</p>
+
+<p>El consumismo es diferente. El consumismo, como derivado del sistema, es un fin por sí solo, además que reproduce y sustenta el sistema económico actual.</p>
+
+<p>Por lo tanto, el nivel desde donde la mayor parte de la sociedad <strong>podemos incidir en un cambio,</strong> es desde la base: en la microeconomía. Nosotros mismos dotamos de características intangibles a las cosas, a pesar de los esfuerzos de las grandes corporaciones acaparadoras del mercado por dotar de atributos a los productos, vía la publicidad y el marketing, es el consumidor el que decide si consume un producto u otro (además de la disponibilidad del producto mismo).</p>
+
+<p>Como reacción al sistema actual surgen ideas y conceptos como la <strong>economía solidaria,</strong> cuya característica principal es redireccionar el objetivo de las relaciones económicas al bienestar de las personas, y se derivan estrategias como el <strong>comercio justo</strong> (cuando se paga algo más del valor del producto para solventar las necesidades de los productores de comunidades marginadas que han sido maltratadas por el sistema, es decir, una estrategia para aminorar la explotación del productor primario y/o en desventaja) y el <strong>consumo local</strong> (Prioridad al uso y consumo de productos e insumos regionales, de forma que los beneficios se multipliquen para los habitantes de la región).</p>
+
+<p>En ambos casos se dota de cualidades generalmente intangibles a los productos o servicios y se remarcan los procesos por los cuales pasan durante su producción. Le dotan de significado y esclarecen a donde va a parar el dinero que se está manejando en este tipo de transacciones. A grandes rasgos aporta información al consumidor para que tome una decisión racional. No nada más las características del producto, sino la importancia de su aportación para hacer una sociedad más equitativa y justa.</p>
+
+<p>Es complicado <strong>competir</strong> no únicamente contra los grandes corporativos, con sus grandes capitales y aparatos de marketing de gran calado, sino contra nosotros mismos, con nuestros hábitos de consumo interiorizados. Sin embargo es algo que nosotros podemos decidir, a final de cuentas es una cadena de consumo: para decidir que consumimos, primero consumimos información: consumimos anuncios en la tv, radio, cine, calles, envolturas, etc. Para después consumir el producto o servicio. La publicidad masiva tiene un efecto entre la población: nos da la percepción de cercanía con el proveedor aunque esto no sea del todo válido.</p>
+
+<p>El <strong>Consumo local es una herramienta coherente</strong> para el desarrollo equitativo de la sociedad, porque en realidad si es algo cercano a nosotros. Sabemos de donde provienen los materiales con que están hechos los productos, sabemos quiénes son las personas que los fabrican, quienes los venden. Podemos conocer los nombres de ellos y donde viven. Podemos felicitarlos cara a cara si el producto o servicios son de nuestra satisfacción, así como comentarles lo negativo. Esto significa que los estándares de calidad los dictamina el consumidor final directamente frente al productor, situación que no se da en el sistema de producción dominante. ¿Porque sucede esto? Porque a diferencia del consumo industrializado, <strong>el consumo local si es cercano, no solamente se percibe como tal.</strong>  El productor local en verdad es cercano a nosotros, es nuestro vecino, es nuestro pariente. No es necesario contar historias de vida sobre ellos o sus productos, en muchos casos ya las sabemos y le damos un valor.</p>
+
+<p>La producción en masa requiere consumidores en masa y un estándar general del consumidor que facilite el mecanismo. Por lo que los hábitos de consumo y los valores sociales se vuelven iguales para todos y no permite que cada ciudad, región o persona se desarrolle libremente a como ellos consideren lo correcto.</p>
+
+<p>Ahora, la idea central: <strong>¿Porque el Consumo local puede ser una alternativa para el desarrollo de nuestras ciudades:</strong> el lugar donde vive el 80% de la población del país?</p>
+
+<p>Somos una sociedad global competitiva, como se había comentado anteriormente, en donde la regla del juego es simple: el primero se lleva todo. Es una concepción cuantitativa, lo cual nos ha conducido al fenómeno del acaparamiento y la especulación, en detrimento del ser humano.</p>
+
+<p>El <strong>corporativo</strong> se mueve de acuerdo a la lógica del “max-min” (máxima  ganancia con mínimo recurso), la empresa se establece en donde pueda maximizar la ganancia y abandona la ciudad o región cuando no sucede así, o si existen mejores condiciones en algún otro lugar. (Laborales, de materias primas, de infraestructura, certidumbre jurídica, etc…).</p>
+
+<p>Sin embargo no es el único significado del concepto de competitividad.</p>
+
+<p>Abordando el tema de <strong>competitividad,</strong> una de las definiciones más aceptadas es la que se utiliza actualmente para definir si una ciudad es competitiva o no. Y no se basa en lo que produce o la cantidad de habitantes. <em>Sino en la calidad de vida que ofrece al ciudadano.</em></p>
+
+<p>Una <strong>ciudad competitiva</strong> es la que es capaz de generar, atraer y mantener inversiones, personas y talento. Una ciudad es competitiva en la medida que ofrece una <em>mejor calidad de vida y oportunidades de desarrollo</em> para sus habitantes. Observamos como el centro de todos los esfuerzos van dirigidos al núcleo de la sociedad: las personas.</p>
+
+<p>Recordemos que a final de cuentas estas empresas que buscan mejores opciones para invertir su capital están conformadas por personas, que requieren de estabilidad en el sentido más amplio para poder realizarse. Tienen familia, tienen amigos, tienen la necesidad de socializar, la necesidad de desarrollarse en armonía. Necesidades que se generan en el alto ejecutivo, los mandos medios y la mano de obra. Son cuestiones que algunas empresas ya están considerando para tomar la decisión de invertir en una ciudad o en otra. Y si bien, el consumo local es un componente económico, también incide en las cuestiones culturales, de recreación, de esparcimiento. Es parte importante de lo que una ciudad puede ofrecer como atractivo.</p>
+
+<p>El consumo local coadyuva al mejoramiento de la economía de una región, tiene una característica clave y relevante para la vida humana; la <strong>sustentabilidad,</strong> no solo sobre las cuestiones ambientales, también con los fenómenos sociales y económicos. La redistribución de riqueza, podría ser un ejemplo.</p>
+
+<p><strong>Como reflexión: El consumo local,</strong> como un movimiento filosófico con fundamentos económicos, <strong>es relativamente joven,</strong> por lo que es complicado medir su impacto, pero paulatinamente y en la medida en que <strong>más personas</strong> emprendan actividades enfocadas al impulso del consumo local <strong>mejorarán las condiciones</strong> de su ciudad, generarían más oportunidades para sus coterráneos de trabajar, de obtener ingresos, de abrir nuevos comercios, de hacer y recibir inversiones a largo plazo. Con esto no estoy sugiriendo menospreciar a la industria que genera empleo a miles de personas en diferentes lados del mundo, que por supuesto aportan a la economía de las ciudades, sino señalando que <strong>la clave se encuentra en la sustentabilidad y en la independencia económica.</strong> De ser más exigentes con lo que consumimos, <strong>ponderándolo</strong> no solo por el precio, sino <strong>por el significado.</strong> Lo que significa para el vecino al cual le compras, lo que significa para el medio ambiente, lo que significa para tu ciudad.</p>
+
+<h3>Bibliografía</h3>
+
+<p>Economía solidaria. Orellana Gazaga. Universitat de Barcelona. 2007.</p>
+
+        </div>
+      </div>
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fconsumo-local-alternativa-ciudad-competitiva.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
