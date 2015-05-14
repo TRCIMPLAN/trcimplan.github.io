@@ -160,6 +160,15 @@ class Galeria {
         return implode("\n", $a)."\n";
     } // html
 
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
+        return '';
+    } // javascript
+
 } // Clase Galeria
 
 ?>

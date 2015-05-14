@@ -116,10 +116,10 @@ class Indice {
     /**
      * Javascript
      *
-     * @return string Código Javascript
+     * @return string No hay código Javascript, entrega un texto vacío
      */
     public function javascript() {
-        return false;
+        return '';
     } // javascript
 
 } // Clase Indice

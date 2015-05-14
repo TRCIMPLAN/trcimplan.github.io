@@ -132,10 +132,10 @@ class Tarjetas {
                 $url_etiqueta = $p->nombre;
             }
             // Acumular
-            $a[] = '        <div class="col-sm-6 col-md-3">';
-            $a[] = '          <div class="thumbnail">';
-            if ($p->imagen_previa != '') {
-                $a[] = sprintf('            <a href="%s"%s><img src="%s" alt="%s"></a>', $url, $target, $p->imagen_previa, $p->nombre);
+            $a[] = '        <div id="tarjetas" class="col-sm-6 col-md-3">';
+            $a[] = '          <div class="thumbnail tarjeta">';
+            if ($p->imagen != '') {
+                $a[] = sprintf('            <a href="%s"%s><img src="%s" alt="%s"></a>', $url, $target, $p->imagen, $p->nombre);
             }
             $a[] = '            <div class="caption">';
             $a[] = sprintf('              <h3><a href="%s"%s>%s</a></h3>', $url, $target, $p->nombre);
@@ -152,6 +152,16 @@ class Tarjetas {
         // Entregar
         return implode("\n", $a)."\n";
     } // html
+
+    /**
+     * Javascript
+     *
+     * @return string Código Javascript
+     */
+    public function javascript() {
+        return '';
+    } // javascript
+
 
 } // Clase Tarjetas
 

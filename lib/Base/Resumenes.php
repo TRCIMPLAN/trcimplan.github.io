@@ -105,6 +105,15 @@ class Resumenes {
         return implode("\n", $a);
     } // html
 
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
+        return '';
+    } // javascript
+
 } // Clase Resumenes
 
 ?>

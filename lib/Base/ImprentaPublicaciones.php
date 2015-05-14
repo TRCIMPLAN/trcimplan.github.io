@@ -106,6 +106,7 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->archivo_ruta              = $this->archivo_ruta;
         $this->plantilla->navegacion->opcion_activa = $this->nombre_menu;
         $this->plantilla->contenido                 = $concentrador->html();
+        $this->plantilla->javascript[]              = $concentrador->javascript();
         // Imprimir index.html
         $salida[] = $this->concentrador.' '.parent::imprimir();
         // Entregar mensajes
