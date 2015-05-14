@@ -33,8 +33,8 @@ class ZonificacionPrimaria extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre             = 'Zonificación Primaria';
-        $this->autor              = 'Jair Miramontes';
-        $this->fecha              = '2015-04-13T09:00';
+        $this->autor              = 'Arq. Jair Miramontes Chávez';
+        $this->fecha              = '2014-11-18T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo            = 'zonificacion-primaria';
         $this->imagen             = 'zonificacion-primaria/imagen.jpg';
@@ -43,9 +43,9 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $this->url                = 'http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Mapa con la Zonificación Primaria.';
+        $this->descripcion        = 'Mapa para identificar el área urbana, el crecimiento urbano, la zona agrícola y las zonas de restauración y protección de Torreón, Coahuila.';
         $this->claves             = 'IMPLAN, Torreón, Zonificación, Usos de Suelo';
-        $this->categorias         = array('Infraestructura');
+        $this->categorias         = array('Gobierno');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación

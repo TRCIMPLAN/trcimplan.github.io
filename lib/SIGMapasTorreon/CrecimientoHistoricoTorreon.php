@@ -33,8 +33,8 @@ class CrecimientoHistoricoTorreon extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre             = 'Crecimiento Histórico de Torreón';
-        $this->autor              = 'Jair Miramontes';
-        $this->fecha              = '2015-03-09T10:15';
+        $this->autor              = 'Arq. Jair Miramontes Chávez';
+        $this->fecha              = '2015-02-03T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo            = 'crecimiento-historico-torreon';
         $this->imagen             = 'crecimiento-historico-torreon/imagen.jpg';
@@ -43,7 +43,7 @@ class CrecimientoHistoricoTorreon extends \Base\Publicacion {
         $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/180ab8da-643c-11e4-971a-0e018d66dc29/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Mapa del Crecimiento Histórico de Torreón.';
+        $this->descripcion        = 'Mapa de cómo ha crecido la ciudad de Torreón año tras año.';
         $this->claves             = 'IMPLAN, Torreon, Crecimiento, Historico';
         $this->categorias         = array('Movilidad', 'Vialidad');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML

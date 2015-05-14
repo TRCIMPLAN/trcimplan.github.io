@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Zonificación Secundaria
+ * TrcIMPLAN - Viviendas con Energía Eléctrica
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,29 +23,29 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase ZonificacionSecundaria
+ * Clase ViviendasConEnergiaElectrica
  */
-class ZonificacionSecundaria extends \Base\Publicacion {
+class ViviendasConEnergiaElectrica extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Zonificación Secundaria';
+        $this->nombre             = 'Viviendas con Energía Eléctrica';
         $this->autor              = 'Arq. Jair Miramontes Chávez';
-        $this->fecha              = '2014-11-18T11:00';
+        $this->fecha              = '2015-04-13T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo            = 'zonificacion-secundaria';
-        $this->imagen             = 'zonificacion-secundaria/imagen.jpg';
-        $this->imagen_previa      = 'zonificacion-secundaria/imagen-previa.jpg';
+        $this->archivo            = 'viviendas-con-energia-electrica';
+        $this->imagen             = 'viviendas-con-energia-electrica/imagen.jpg';
+        $this->imagen_previa      = 'viviendas-con-energia-electrica/imagen-previa.jpg';
         // Para el botón de ver a pantalla completa
-        $this->url                = 'http://implantorreon.cartodb.com/u/sigimplan/viz/7c091e9c-7041-11e4-b580-0e4fddd5de28/embed_map';
+        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/b096d846-de20-11e4-868a-0e4fddd5de28/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Mapa referente para consultar los usos de suelo del área urbana de Torreón. De clic en un área para mostrar detalles y el enlace al reglamento.';
-        $this->claves             = 'IMPLAN, Torreón, Zonificación, Usos de Suelo';
-        $this->categorias         = array('Gobierno');
+        $this->descripcion        = 'Accesibilidad de Viviendas a Energía Eléctrica';
+        $this->claves             = 'IMPLAN, Torreon, Viviendas, Energía, Eléctrica, Electricidad, Luz';
+        $this->categorias         = array('Infraestructura', 'Vivienda');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -65,7 +65,7 @@ class ZonificacionSecundaria extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->extra              = <<<FINAL
-<iframe width='100%' height='520' frameborder='0' src='http://implantorreon.cartodb.com/u/sigimplan/viz/7c091e9c-7041-11e4-b580-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/b096d846-de20-11e4-868a-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
@@ -88,6 +88,6 @@ FINAL;
         // Sin caja JS
     } // constructor
 
-} // Clase ZonificacionSecundaria
+} // Clase ViviendasConEnergiaElectrica
 
 ?>
