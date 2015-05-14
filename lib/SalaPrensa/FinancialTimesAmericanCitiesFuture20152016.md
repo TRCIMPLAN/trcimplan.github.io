@@ -1,5 +1,5 @@
 
-De acuerdo al ranking **fDi's American Cities of the Future 2015/2016,** de la revista **fDiIntelligence** (abril 2015), **Torreón ocupa el cuarto lugar en América y el primero en México** en la categoría de **costo beneficio al invertir.** La revista fDiIntelligence pertenece al grupo del periódico británico **Financial Times.**
+> De acuerdo al ranking **fDi's American Cities of the Future 2015/2016,** de la revista **fDiIntelligence** (abril 2015), **Torreón ocupa el cuarto lugar en América y el primero en México** en la categoría de **costo beneficio al invertir.** La revista **fDiIntelligence** pertenece al grupo del periódico británico **Financial Times.**
 
 <div style="clear:left;"></div>
 
@@ -7,11 +7,11 @@ De acuerdo al ranking **fDi's American Cities of the Future 2015/2016,** de la r
 
 El ranking **califica a 421 ciudades** evaluando sus ventajas para la atracción de **Inversión Extranjera Directa (IED)** en cinco categorías:
 
-1. Potencial económico
-2. Clima de negocios
-3. Capital humano y estilo de vida
-4. Costo-beneficio
-5. Conectividad
+1. Potencial económico.
+2. Clima de negocios.
+3. Capital humano y estilo de vida.
+4. Costo-beneficio.
+5. Conectividad.
 
 Las ciudades son clasificadas en muy grandes, grandes, medianas, pequeñas y micro. **Torreón entra en la categoría de grandes,** compitiendo con ciudades como Seattle, Vancouver, Austin, Orlando, Portland, Denver, Edmonton, Calgary, San José de Costa Rica, Asunción de Paraguay, entre otras. Ejemplos de ciudades mexicanas en esta categoría son San Luis Potosí, Chihuahua, Juárez, Zapopan, Tijuana y León.
 
@@ -21,36 +21,36 @@ Las ciudades son clasificadas en muy grandes, grandes, medianas, pequeñas y mic
 
 Esta categoría pondera los siguientes factores:
 
-1. Costo de exportar
-2. Costo de importar
-3. Costo de establecer un negocio (con indicadores de Doing Business)
-4. Hoteles de cuatro y cinco estrellas
-5. Renta anual en un espacio industrial
-6. Renta anual de un espacio de oficina
-7. Costo de la electricidad
-8. Tasa impositiva corporativa
-9. Tasa impositiva total
-10. Precios del petróleo
-11. Paridad de poder de compra
-12. Salario mínimo
-13. Salario anual promedio para trabajadores no capacitados
-14. Salario anual promedio para trabajadores semi-capacitados
-15. Salario anual promedio para trabajadores capacitados
+1. Costo de exportar.
+2. Costo de importar.
+3. Costo de establecer un negocio (con indicadores de Doing Business).
+4. Hoteles de cuatro y cinco estrellas.
+5. Renta anual en un espacio industrial.
+6. Renta anual de un espacio de oficina.
+7. Costo de la electricidad.
+8. Tasa impositiva corporativa.
+9. Tasa impositiva total.
+10. Precios del petróleo.
+11. Paridad de poder de compra.
+12. Salario mínimo.
+13. Salario anual promedio para trabajadores no capacitados.
+14. Salario anual promedio para trabajadores semi-capacitados.
+15. Salario anual promedio para trabajadores capacitados.
 
 ### Datos relacionados
 
 El top 10 de ciudades grandes en la categoría de costo beneficio es:
 
-1. Asunción, Paraguay
-2. San Pedro Sula, Honduras
-3. Tegucigalpa, Honduras
-4. Torreón, México
-5. León, México
-6. San Luis Potosí, México
-7. Juárez, México
-8. Ecatepec, México
-9. Panamá, Panamá
-10. Tijuana, México
+1. Asunción, Paraguay.
+2. San Pedro Sula, Honduras.
+3. Tegucigalpa, Honduras.
+4. **Torreón, México.**
+5. León, México.
+6. San Luis Potosí, México.
+7. Juárez, México.
+8. Ecatepec, México.
+9. Panamá, Panamá.
+10. Tijuana, México.
 
 ### Notas sobre la Inversión Extranjera Directa
 
@@ -60,9 +60,9 @@ El ranking **fDi's American Cities of the Future,** publicado en Reino Unido, Eu
 
 ### Papel del IMPLAN y la Dirección General de Desarrollo Económico
 
-El IMPLAN y la Dirección General de Desarrollo Económico establecieron contacto con ejecutivos del Financial Times proporcionando la información que les fue solicitada; resolviendo dudas y ampliando su conocimiento respecto a Torreón, sus índices de competitividad, sectores estratégicos, perspectivas inversoras y potenciales productivos.
+El **IMPLAN** y la **Dirección General de Desarrollo Económico** establecieron contacto con ejecutivos del Financial Times proporcionando la información que les fue solicitada; resolviendo dudas y ampliando su conocimiento respecto a Torreón, sus índices de competitividad, sectores estratégicos, perspectivas inversoras y potenciales productivos.
 
-El IMPLAN, Torreón (como ejemplo de la información proporcionada) rectificó y amplió la información que el Financial Times tenía respecto al número de empleos que generará Yura en Torreón. La revista no tenía registrada la localización de la inversión, sólo sabía que iba a ser en Coahuila y estaban errados respecto al número de empleos, ellos tenían registrados que iban a ser 300 y se les aclaró que son 4000. Lo anterior prueba la pertinencia de contar con una organización como el IMPLAN y con un Sistema Metropolitano de Indicadores (SMI) que mediante una plataforma web amigable genere, actualice y difunda internacionalmente la información a México y el mundo de indicadores de productividad, competitividad y bienestar, desarrollo urbano, sustentabilidad, vialidad y transporte, sociedad y buen gobierno.
+El **IMPLAN Torreón** (como ejemplo de la información proporcionada) rectificó y amplió la información que el Financial Times tenía respecto al número de empleos que generará Yura en Torreón. La revista no tenía registrada la localización de la inversión, sólo sabía que iba a ser en Coahuila y estaban errados respecto al número de empleos, ellos tenían registrados que iban a ser 300 y se les aclaró que son 4,000. Lo anterior prueba la pertinencia de contar con una organización como el IMPLAN y con un [Sistema Metropolitano de Indicadores](http://www.trcimplan.gob.mx/indicadores-categorias/index.html) (SMI) que mediante una plataforma web amigable genere, actualice y difunda internacionalmente la información a México y el mundo de indicadores de productividad, competitividad y bienestar, desarrollo urbano, sustentabilidad, vialidad y transporte, sociedad y buen gobierno.
 
 Otros indicadores que hablan de la competitividad de la Comarca Lagunera:
 
