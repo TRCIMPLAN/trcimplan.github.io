@@ -59,7 +59,7 @@ class AlumbradoPublico extends \Base\Publicacion {
         // Instancia de SchemaMapa
         $mapa                     = new \Base\SchemaMap();
         $mapa->mapType            = 'VenueMap';
-        $mapa->url                = 'https://sigimplan.cartodb.com/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map';
+        $mapa->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map';
         $mapa->url_label          = 'Ver a pantalla completa';
         $mapa->extra              = <<<FINAL
             <iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
