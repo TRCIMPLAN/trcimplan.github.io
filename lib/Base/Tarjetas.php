@@ -82,7 +82,7 @@ class Tarjetas {
             $a[] = '      </div>';
         }
         // Tabla inicia
-        $a[] = '      <div class="row">';
+        $a[] = '      <div class="row" id="tarjetas">';
         // Bucle por Publicaciones
         foreach ($this->publicaciones as $p) {
             // Validar
@@ -132,17 +132,17 @@ class Tarjetas {
                 $url_etiqueta = $p->nombre;
             }
             // Acumular
-            $a[] = '        <div id="tarjetas" class="col-sm-6 col-md-3">';
+            $a[] = '        <div class="col-sm-6 col-md-3">';
             $a[] = '          <div class="thumbnail tarjeta">';
             if ($p->imagen != '') {
                 $a[] = sprintf('            <a href="%s"%s><img src="%s" alt="%s"></a>', $url, $target, $p->imagen, $p->nombre);
             }
             $a[] = '            <div class="caption">';
-            $a[] = sprintf('              <h3><a href="%s"%s>%s</a></h3>', $url, $target, $p->nombre);
+            $a[] = sprintf('              <h3 class="caption-titulo"><a href="%s"%s>%s</a></h3>', $url, $target, $p->nombre);
             if ($p->descripcion != '') {
-                $a[] = sprintf('              <p>%s</p>', $p->descripcion);
+                $a[] = sprintf('              <p class="caption-descripcion">%s</p>', $p->descripcion);
             }
-            $a[] = sprintf('              <p><a href="%s" class="btn btn-default" role="button"%s>%s</a></p>', $boton_url, $boton_target, $url_etiqueta);
+            $a[] = sprintf('              <a href="%s" class="btn btn-default caption-boton" role="button"%s>%s</a>', $boton_url, $boton_target, $url_etiqueta);
             $a[] = '            </div>';
             $a[] = '          </div>';
             $a[] = '        </div>';

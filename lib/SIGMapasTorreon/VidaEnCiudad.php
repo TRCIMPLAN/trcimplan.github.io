@@ -41,7 +41,7 @@ class VidaEnCiudad extends \Base\Publicacion {
         $this->imagen_previa      = 'vida-en-ciudad/imagen-previa.jpg';
         // Para el botón de ver a pantalla completa
         $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/ae1f0dba-e9f9-11e4-a808-0e0c41326911/embed_map';
-        // Sin URL etiqueta
+        $this->url_etiqueta       = 'Ver a pantalla completa';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Ubicación de los principales centros comerciales, centros de convenciones y espectáculos, museos, parques, plazas, teatros, así como lugares de turismo deportivo e histórico.';
         $this->claves             = 'IMPLAN, Torreon, Comercios, Convenciones, Espectaculos, Museos, Parques, Plazas, Teatros, Turismo, Deportivo, Historico';

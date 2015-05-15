@@ -40,7 +40,7 @@ class PlanIntegralMovilidadUrbanaSustentableLaLaguna extends \Base\Publicacion {
         $this->imagen           = 'estudio-plan-integral-movilidad-urbana-sustentable-laguna/imagen.png';
         $this->imagen_previa    = 'estudio-plan-integral-movilidad-urbana-sustentable-laguna/imagen-previa.png';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'El Plan Integral de Movilidad Urbana Sustentable de La Laguna (PIMUS) es un conjunto de acciones para implementar las distintas formas de transporte sustentable, éstas son, a pie, bicicleta y transporte público. Favoreciendo el crecimiento económico, el desarrollo social y la defensa del medio ambiente; lo cual llevará a una mejor calidad de vida para los ciudadanos.';
+        $this->descripcion      = 'Conjunto de acciones para implementar las distintas formas de transporte sustentable: a pie, bicicleta y transporte público.';
         $this->claves           = 'IMPLAN, Torreón, Plan, Movilidad, Urbana, Sustentable, La Laguna';
         $this->categorias       = array('SIG');
         // El estado puede ser 'publicar' (lo usa), 'revisar' o 'ignorar' (lo omite)
