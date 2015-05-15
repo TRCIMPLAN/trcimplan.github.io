@@ -114,7 +114,7 @@ class Completo {
             $a[] = '</article>';
         }
         // Agregar botones para compartir en redes sociales
-        if ($this->publicacion->para_compartir && ($this->publicacion->estado == 'publicar')) {
+        if ($this->publicacion->para_compartir && (strtolower($this->publicacion->estado) == 'publicar')) {
             $a[] = '<div class="contenido-social">';
             $a[] = '  <h5>Compartir en Redes Sociales</h5>';
             $a[] = '  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>';
@@ -132,7 +132,7 @@ class Completo {
      */
     public function javascript() {
         // Javascript Twitter
-        if ($this->publicacion->para_compartir && ($this->publicacion->estado == 'publicar')) {
+        if ($this->publicacion->para_compartir && (strtolower($this->publicacion->estado) == 'publicar')) {
             return '!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");';
         } else {
             return '';

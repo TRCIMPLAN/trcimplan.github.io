@@ -80,7 +80,7 @@ try {
     }
     echo $impresor->crear_archivo($mapa->archivo, $mapa->xml())."\n";
 } catch (\Exception $e) {
-    echo implode("\n", $impresor->mensajes)."\n";
+    //~ echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }

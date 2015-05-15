@@ -108,7 +108,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
      */
     public function agregar_elemento(Publicacion $publicacion) {
         // Si el estado NO es publicar, NO se agrega
-        if ($publicacion->estado != 'publicar') {
+        if (strtolower($publicacion->estado) != 'publicar') {
             return false;
         }
         // Fecha
