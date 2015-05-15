@@ -1,2 +1,7 @@
 User-Agent: *
+Disallow: /bin/
+Disallow: /buscador-resultados.html
+Disallow: /lib/
 Disallow: /rss.xml
+Disallow: /sitemap.xml
+Sitemap: /sitemap.xml

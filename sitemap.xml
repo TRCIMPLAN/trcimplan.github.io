@@ -2,53 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
+    <lastmod>2015-05-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
+    <lastmod>2015-05-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-categorias/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
+    <lastmod>2015-05-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
+    <lastmod>2015-05-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
+    <lastmod>2015-05-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
+    <lastmod>2015-05-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
+    <lastmod>2015-05-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
+    <lastmod>2015-05-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/eventos/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
+    <lastmod>2015-05-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
+    <lastmod>2015-05-15</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/cobertura-transporte.html</loc>
+    <lastmod>2015-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/vida-en-ciudad.html</loc>
+    <lastmod>2015-05-14</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/2015-05-13-financial-times-american-cities-future-2015-2016.html</loc>
@@ -106,6 +116,46 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/maternidad-adolescente.html</loc>
+    <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-agua-red-publica.html</loc>
+    <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-computadora.html</loc>
+    <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-drenaje.html</loc>
+    <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-energia-electrica.html</loc>
+    <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/viviendas-con-internet.html</loc>
+    <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/viviendas-deshabitadas.html</loc>
+    <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/viviendas-que-disponen-retrete.html</loc>
+    <lastmod>2015-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/plan-estrategico-metropolitano/fotogaleria.html</loc>
     <lastmod>2015-04-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -156,6 +206,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/.html</loc>
+    <lastmod>2015-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/blog/que-son-datos-abiertos.html</loc>
     <lastmod>2015-02-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -187,6 +242,11 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/tasa-inflacion-precios-torreon-2014.html</loc>
+    <lastmod>2015-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/crecimiento-historico-torreon.html</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -241,6 +301,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/.html</loc>
+    <lastmod>2015-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/blog/urbanismo-participativo.html</loc>
     <lastmod>2014-12-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -281,7 +346,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/zonificacion-secundaria.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://trcimplan.gob.mx/blog/prevencion-delito-seguridad.html</loc>
+    <lastmod>2014-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/zonificacion-primaria.html</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -292,11 +367,6 @@
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sig/zonificacion-secundaria.html</loc>
-    <lastmod>2014-11-18</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://trcimplan.gob.mx/smi/georreferenciados.html</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -518,6 +588,11 @@
   <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/2014-09-11-plan-estrategico-metropolitano.html</loc>
     <lastmod>2014-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html</loc>
+    <lastmod>2014-09-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

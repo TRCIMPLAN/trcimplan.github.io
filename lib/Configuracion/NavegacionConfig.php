@@ -35,7 +35,7 @@ class NavegacionConfig {
             'Indicadores > Introducción'              => 'smi/introduccion.html',
             'Indicadores > Indicadores por Categoría' => 'indicadores-categorias/index.html',
             'Indicadores > Indicadores por Región'    => 'smi/por-region.html',
-            'Indicadores > Georreferenciados'         => 'smi/georreferenciados.html'),
+            'Indicadores > Georreferenciados'         => 'smi-georreferenciados/index.html'),
         'Información Geográfica' => array(
             'Información Geográfica > Introducción'            => 'sig/introduccion.html',
             'Información Geográfica > Planes'                  => 'sig-planes/index.html',

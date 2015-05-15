@@ -52,8 +52,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
     // public $google_site_verification;
     public $mapa_servicios     = array(
         'Análisis Publicados'               => 'blog/index.html',
-        'Indicadores'                       => 'smi/introduccion.html',
-        'Información Geográfica'            => 'sig/introduccion.html',
+        'Indicadores'                       => 'indicadores-categorias/index.html',
+        'Información Geográfica'            => 'sig-mapas-torreon/index.html',
         'Plan Estratégico Metropolitano'    => 'plan-estrategico-metropolitano/introduccion.html',
         'Banco de Proyectos'                => 'proyectos/introduccion.html');
     public $mapa_institucional = array(
@@ -125,16 +125,16 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $smi->botones     = array(
             '<i class="fa fa-th-list"></i> Por Categoría'        => 'indicadores-categorias/index.html',
             '<i class="fa fa-table"></i> Por Región'             => 'smi/por-region.html',
-            '<i class="fa fa-map-marker"></i> Georreferenciados' => 'smi/georreferenciados.html');
+            '<i class="fa fa-map-marker"></i> Georreferenciados' => 'smi-georreferenciados/index.html');
         // SIG
         $sig              = new \Inicial\Destacado();
         $sig->name        = 'Sistema de Información Geográfica';
         $sig->description = 'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.';
         $sig->image       = 'servicio-sig';
-        $sig->url         = 'sig/zonificacion-secundaria.html';
+        $sig->url         = 'sig-mapas-torreon/index.html';
         $sig->botones     = array(
-            '<i class="fa fa-map-marker"></i> Alumbrado Público'       => 'sig/alumbrado-publico.html',
-            '<i class="fa fa-map-marker"></i> Zonificación Primaria'   => 'sig/zonificacion-primaria.html',
+            '<i class="fa fa-server"></i> Planes'                      => 'sig-planes/index.html',
+            '<i class="fa fa-map-marker"></i> S.I.G. de Torreón'       => 'sig-mapas-torreon/index.html',
             '<i class="fa fa-map-marker"></i> Zonificación Secundaria' => 'sig/zonificacion-secundaria.html');
         // PEM
         $pem              = new \Inicial\Destacado();

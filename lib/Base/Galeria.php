@@ -25,13 +25,12 @@ namespace Base;
 /**
  * Clase Galeria
  */
-class Galeria {
+class Galeria extends Pagina {
 
-    public $encabezado;       // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
-    public $encabezado_color; // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
-    public $titulo;           // Título de la página
-    public $publicaciones;    // Arreglo con instancias de Publicacion
-    // Está pendiente programar que este programa lea trcimplan.css para saber cuales son los IDs
+    // public $encabezado;       // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
+    // public $encabezado_color; // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
+    // public $titulo;           // Título de la página
+    // public $publicaciones;    // Arreglo con instancias de Publicacion
     public $categorias_ids = array(
         'categorias-bienestar',
         'categorias-competitividad',
@@ -59,16 +58,7 @@ class Galeria {
         'categorias-servicios-publicos',
         'categorias-transparencia',
         'categorias-vialidad',
-        'categorias-vivienda');
-
-    /**
-     * Constructor
-     *
-     * @param array Arreglo con instancias de Publicacion
-     */
-    public function __construct($publicaciones) {
-        $this->publicaciones = $publicaciones;
-    } // constructor
+        'categorias-vivienda'); // Está pendiente programar que este programa lea trcimplan.css para saber cuales son los IDs
 
     /**
      * HTML
@@ -76,62 +66,22 @@ class Galeria {
      * @return string Código HTML
      */
     public function html() {
-        // Validar
-        if (!is_array($this->publicaciones)) {
-            throw new \Exception("Error en Galeria, html: La propiedad publicaciones NO es un arreglo.");
-        }
-        if (count($this->publicaciones) == 0) {
-            throw new \Exception("Error en Galeria, html: La propiedad publicaciones NO tiene datos.");
-        }
         // Acumularemos la entrega en este arreglo
         $a = array();
-        // Si el encabezado está definido
-        if ($this->encabezado != '') {
-            // Se pone el código HTML del encabezado
-            $a[] = $this->encabezado;
-            // Y el título de la página es invisible
-            if ($this->titulo != '') {
-                $a[] = "      <h1 style=\"display:none;\">{$this->titulo}</h1>";
-            }
-        } elseif ($this->titulo != '') {
-            // Hay título. Si hay icono definido en Navegación
-            $navegacion_config = new \Configuracion\NavegacionConfig();
-            if (array_key_exists($this->titulo, $navegacion_config->iconos)) {
-                $encabezado = sprintf('<i class="%s encabezado-icono"></i> %s', $navegacion_config->iconos[$this->titulo], $this->titulo);
-            } else {
-                $encabezado = $this->titulo;
-            }
-            // Acumular
-            if ($this->encabezado_color != '') {
-                $a[] = "      <div class=\"encabezado\" style=\"background-color:{$this->encabezado_color};\">";
-            } else {
-                $a[] = '      <div class="encabezado">';
-            }
-            $a[] = "        <span><h1>$encabezado</h1></span>";
-            $a[] = '      </div>';
-        }
+        // Agregar el código HTML del encabezado
+        $a[] = $this->encabezado_html();
         // Tabla inicia
         $a[] = '      <div class="row">';
         // Bucle por Publicaciones
         foreach ($this->publicaciones as $p) {
             $a[] = '        <div class="col-xs-6 col-md-4 col-lg-3">';
-            // Validar
-            if (!is_object($p)) {
-                throw new \Exception("Error en Galeria, html: Una publicación NO es una instancia.");
-            }
-            if (!($p instanceof Publicacion)) {
-                throw new \Exception("Error en Galeria, html: Una publicación NO es una instancia de Publicacion.");
-            }
-            // Si el estado no es 'publicar', se salta
-            if (strtolower($p->estado) != 'publicar') {
-                continue;
-            }
             // Validar nombre
             if (!is_string($p->nombre) || ($p->nombre == '')) {
                 throw new \Exception("Error en Galeria, html: Una publicación NO tiene nombre.");
             }
             // Acumular
             $a[] = '          <div class="thumbnail galeria-thumbnail">';
+            // Si tiene imagen previa
             if ($p->imagen_previa != '') {
                 // Obtener de la ruta ../imagenes/categorias/prueba-uno.png el ID donde [1] => categorias y [2] => prueba-uno
                 preg_match('@([^/]+)/([^/]+)\.\w+$@', $p->imagen_previa, $coincidencias); //
@@ -144,8 +94,8 @@ class Galeria {
                     // Poner la imagen de forma normal
                     $a[] = "            <a href=\"{$p->url()}\" title=\"{$p->nombre}\"><img class=\"img-thumbnail galeria-imagen\" src=\"{$p->imagen_previa}\" alt=\"{$p->nombre}\"></a>";
                 }
-                // Agregar
             } elseif ($p->icono != '') {
+                // Tiene icono de Font Awsome
                 $a[] = "            <a class=\"{$p->icono} galeria-icono\" href=\"{$p->url()}\"></a>";
             }
             $a[] = '            <div class="caption">';
@@ -157,7 +107,7 @@ class Galeria {
         // Tabla termina
         $a[] = '      </div>'; // row
         // Entregar
-        return implode("\n", $a)."\n";
+        return implode("\n", $a);
     } // html
 
     /**

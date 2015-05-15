@@ -54,6 +54,7 @@ $clases = array(
     '\SMI\ImprentaIndicadoresMatamoros',
     '\SMI\ImprentaIndicadoresLaLaguna',
     '\SMICategorias\Imprenta',
+    '\SMIGeorreferenciados\Imprenta',
     '\Terminos\Imprenta');
 // Imprimir
 try {

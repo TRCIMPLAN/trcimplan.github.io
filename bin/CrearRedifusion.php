@@ -47,6 +47,8 @@ $directorios = array(
     'Proyectos',
     'SalaPrensa',
     'SIG',
+    'SIGMapasTorreon',
+    'SIGPlanes',
     'SMI',
     'SMICategorias',
     'SMIIndicadoresTorreon',
