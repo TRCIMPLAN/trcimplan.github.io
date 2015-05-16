@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Imprenta
+ * TrcIMPLAN - SIG Mapas Imprenta
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

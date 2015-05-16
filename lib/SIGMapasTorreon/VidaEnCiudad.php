@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Vida en la Ciudad
+ * TrcIMPLAN - SIG Mapas Vida en la Ciudad
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -39,9 +39,6 @@ class VidaEnCiudad extends \Base\Publicacion {
         $this->archivo            = 'vida-en-ciudad';
         $this->imagen             = 'vida-en-ciudad/imagen.jpg';
         $this->imagen_previa      = 'vida-en-ciudad/imagen-previa.jpg';
-        // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/ae1f0dba-e9f9-11e4-a808-0e0c41326911/embed_map';
-        $this->url_etiqueta       = 'Ver a pantalla completa';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Ubicación de los principales centros comerciales, centros de convenciones y espectáculos, museos, parques, plazas, teatros, así como lugares de turismo deportivo e histórico.';
         $this->claves             = 'IMPLAN, Torreon, Comercios, Convenciones, Espectaculos, Museos, Parques, Plazas, Teatros, Turismo, Deportivo, Historico';
@@ -54,6 +51,9 @@ class VidaEnCiudad extends \Base\Publicacion {
         $this->estado             = 'Publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
+        // Para el botón de ver a pantalla completa
+        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/ae1f0dba-e9f9-11e4-a808-0e0c41326911/embed_map';
+        $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
         $region->addressCountry   = 'MX';
@@ -86,6 +86,12 @@ FINAL;
         $this->contenido          = $paquete;
         // JavaScript
         // Sin caja JS
+        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion     = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
+        } else {
+            $this->redifusion     = $this->descripcion;
+        }
     } // constructor
 
 } // Clase VidaEnCiudad

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Zonificación Secundaria
+ * TrcIMPLAN - SIG Mapas Zonificación Secundaria
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -39,9 +39,6 @@ class ZonificacionSecundaria extends \Base\Publicacion {
         $this->archivo            = 'zonificacion-secundaria';
         $this->imagen             = 'zonificacion-secundaria/imagen.jpg';
         $this->imagen_previa      = 'zonificacion-secundaria/imagen-previa.jpg';
-        // Para el botón de ver a pantalla completa
-        $this->url                = 'http://implantorreon.cartodb.com/u/sigimplan/viz/7c091e9c-7041-11e4-b580-0e4fddd5de28/embed_map';
-        $this->url_etiqueta       = 'Ver a pantalla completa';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Mapa referente para consultar los usos de suelo del área urbana de Torreón. De clic en un área para mostrar detalles y el enlace al reglamento.';
         $this->claves             = 'IMPLAN, Torreón, Zonificación, Usos de Suelo';
@@ -54,6 +51,9 @@ class ZonificacionSecundaria extends \Base\Publicacion {
         $this->estado             = 'Publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
+        // Para el botón de ver a pantalla completa
+        $this->url                = 'http://implantorreon.cartodb.com/u/sigimplan/viz/7c091e9c-7041-11e4-b580-0e4fddd5de28/embed_map';
+        $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
         $region->addressCountry   = 'MX';
@@ -86,6 +86,12 @@ FINAL;
         $this->contenido          = $paquete;
         // JavaScript
         // Sin caja JS
+        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion     = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
+        } else {
+            $this->redifusion     = $this->descripcion;
+        }
     } // constructor
 
 } // Clase ZonificacionSecundaria

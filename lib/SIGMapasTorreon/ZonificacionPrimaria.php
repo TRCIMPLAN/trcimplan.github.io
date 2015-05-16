@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Zonificación Primaria
+ * TrcIMPLAN - SIG Mapas Zonificación Primaria
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -39,9 +39,6 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $this->archivo            = 'zonificacion-primaria';
         $this->imagen             = 'zonificacion-primaria/imagen.jpg';
         $this->imagen_previa      = 'zonificacion-primaria/imagen-previa.jpg';
-        // Para el botón de ver a pantalla completa
-        $this->url                = 'http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map';
-        $this->url_etiqueta       = 'Ver a pantalla completa';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Mapa para identificar el área urbana, el crecimiento urbano, la zona agrícola y las zonas de restauración y protección de Torreón, Coahuila.';
         $this->claves             = 'IMPLAN, Torreón, Zonificación, Usos de Suelo';
@@ -54,6 +51,9 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $this->estado             = 'Publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
+        // Para el botón de ver a pantalla completa
+        $this->url                = 'http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map';
+        $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
         $region->addressCountry   = 'MX';
@@ -86,6 +86,12 @@ FINAL;
         $this->contenido          = $paquete;
         // JavaScript
         // Sin caja JS
+        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion     = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
+        } else {
+            $this->redifusion     = $this->descripcion;
+        }
     } // constructor
 
 } // Clase ZonificacionPrimaria

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Viviendas Deshabitadas
+ * TrcIMPLAN - SIG Mapas Viviendas Deshabitadas
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -39,9 +39,6 @@ class ViviendasDeshabitadas extends \Base\Publicacion {
         $this->archivo            = 'viviendas-deshabitadas';
         $this->imagen             = 'viviendas-deshabitadas/imagen.jpg';
         $this->imagen_previa      = 'viviendas-deshabitadas/imagen-previa.jpg';
-        // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/e149b360-dc9e-11e4-a1e7-0e853d047bba/embed_map';
-        $this->url_etiqueta       = 'Ver a pantalla completa';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Mapa que muestra la incidencia de las viviendas deshabitadas en Torreón, Coahuila.';
         $this->claves             = 'IMPLAN, Torreon, Viviendas, Deshabitadas';
@@ -54,6 +51,9 @@ class ViviendasDeshabitadas extends \Base\Publicacion {
         $this->estado             = 'Publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
+        // Para el botón de ver a pantalla completa
+        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/e149b360-dc9e-11e4-a1e7-0e853d047bba/embed_map';
+        $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
         $region->addressCountry   = 'MX';
@@ -86,6 +86,12 @@ FINAL;
         $this->contenido          = $paquete;
         // JavaScript
         // Sin caja JS
+        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion     = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
+        } else {
+            $this->redifusion     = $this->descripcion;
+        }
     } // constructor
 
 } // Clase ViviendasDeshabitadas

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Viviendas que Disponen de Retrete
+ * TrcIMPLAN - SIG Mapas Viviendas que Disponen de Retrete
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -39,9 +39,6 @@ class ViviendasQueDisponenRetrete extends \Base\Publicacion {
         $this->archivo            = 'viviendas-que-disponen-retrete';
         $this->imagen             = 'viviendas-que-disponen-retrete/imagen.jpg';
         $this->imagen_previa      = 'viviendas-que-disponen-retrete/imagen-previa.jpg';
-        // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/c39b756e-de1b-11e4-9b88-0e0c41326911/embed_map';
-        $this->url_etiqueta       = 'Ver a pantalla completa';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Accesibilidad de viviendas a sanitario';
         $this->claves             = 'IMPLAN, Torreon, Viviendas, Sanitario, Retrete, Escusado, Baño';
@@ -54,6 +51,9 @@ class ViviendasQueDisponenRetrete extends \Base\Publicacion {
         $this->estado             = 'Publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
+        // Para el botón de ver a pantalla completa
+        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/c39b756e-de1b-11e4-9b88-0e0c41326911/embed_map';
+        $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
         $region->addressCountry   = 'MX';
@@ -86,6 +86,12 @@ FINAL;
         $this->contenido          = $paquete;
         // JavaScript
         // Sin caja JS
+        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion     = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
+        } else {
+            $this->redifusion     = $this->descripcion;
+        }
     } // constructor
 
 } // Clase ViviendasQueDisponenRetrete
