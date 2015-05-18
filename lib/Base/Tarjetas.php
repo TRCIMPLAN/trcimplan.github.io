@@ -52,10 +52,10 @@ class Tarjetas extends Pagina {
             $a[] = '        <div class="col-sm-6 col-md-3">';
             $a[] = '          <div class="thumbnail tarjeta">';
             if ($p->imagen != '') {
-                $a[] = sprintf('            <a href="%s"%s><img src="%s" alt="%s"></a>', $p->url, $p->target, $p->imagen, $p->nombre);
+                $a[] = sprintf('            <a href="%s"%s><img src="%s" alt="%s"></a>', $p->archivo_url, $p->archivo_target, $p->imagen, $p->nombre);
             }
             $a[] = '            <div class="caption">';
-            $a[] = sprintf('              <h3 class="caption-titulo"><a href="%s"%s>%s</a></h3>', $p->url, $p->target, $p->nombre);
+            $a[] = sprintf('              <h3 class="caption-titulo"><a href="%s"%s>%s</a></h3>', $p->archivo_url, $p->archivo_target, $p->nombre);
             if ($p->descripcion != '') {
                 $a[] = sprintf('              <p class="caption-descripcion">%s</p>', $p->descripcion);
             }
