@@ -150,10 +150,11 @@ class Imprenta extends \Configuracion\ImprentaConfig {
      * Agregar Directorio con Publicaciones
      *
      * @param  string Nombre del directorio que debe estar dentro de \lib de donde se recolectarán los archivos PHP
-     * @param  string Color para el encabezado, a aplicar cuando la publicación no lo tenga
+     * @param  string Opcional. Color para el encabezado, a aplicar cuando la publicación no lo tenga
+     * @param  string Opcional. Icono Font Awsome, a aplicar cuando la publicación no lo tenga
      * @return array  Arreglo con las instancias de Publicaciones ordenado cronológicamente
      */
-    public function agregar_directorio_publicaciones($dir, $in_encabezado_color='') {
+    public function agregar_directorio_publicaciones($dir, $in_encabezado_color='', $in_encabezado_icono='') {
         // Acumularemos las instancias en este arreglo
         $instancias = array();
         // Bucle con las clases recolectadas
@@ -172,6 +173,12 @@ class Imprenta extends \Configuracion\ImprentaConfig {
                     // Puede que en el constructor el contenido se ha cargado con un esquema SchemaCreativeWork
                     if ((is_object($publicacion->contenido)) && ($publicacion->contenido instanceof SchemaCreativeWork)) {
                         $publicacion->contenido->headline_style = $in_encabezado_color;
+                    }
+                }
+                if (($in_encabezado_icono != '') && ($publicacion->nombre_menu == '')) {
+                    // Puede que en el constructor el contenido se ha cargado con un esquema SchemaCreativeWork
+                    if ((is_object($publicacion->contenido)) && ($publicacion->contenido instanceof SchemaCreativeWork)) {
+                        $publicacion->contenido->headline_icon = $in_encabezado_icono;
                     }
                 }
                 // La clave del arreglo asociativo es el tiempo_creado-clase, donde clase es Directorio/Archivo

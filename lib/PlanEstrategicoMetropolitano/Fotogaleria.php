@@ -32,8 +32,8 @@ class Fotogaleria extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Fotogalería: Plan Estratégico Metropolitano';
-        $this->autor            = '';
+        $this->nombre           = 'Fotogalería';
+     // $this->autor            = '';
         $this->fecha            = '2015-04-10T18:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'fotogaleria';

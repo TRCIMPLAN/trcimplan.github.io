@@ -27,15 +27,15 @@ namespace Configuracion;
  */
 class PlantillaConfig {
 
-    public $sitio_titulo   = 'IMPLAN Torreón';
-    public $sitio_url      = 'http://www.trcimplan.gob.mx'; // Sin diagonal al final
-    public $rss            = 'rss.xml';
-    public $favicon        = 'imagenes/favicon.png';
-    public $propio_css     = 'css/trcimplan.css';
-    public $en_raiz        = false;       // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
-    public $para_compartir = true;        // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
-    public $autor          = 'TrcIMPLAN'; // Autor por defecto
-    public $mensaje_oculto = <<<FINAL
+    public $sitio_titulo     = 'IMPLAN Torreón';
+    static public $sitio_url = 'http://www.trcimplan.gob.mx'; // Sin diagonal al final
+    public $rss              = 'rss.xml';
+    public $favicon          = 'imagenes/favicon.png';
+    public $propio_css       = 'css/trcimplan.css';
+    public $en_raiz          = false;       // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
+    public $para_compartir   = true;        // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
+    public $autor            = 'TrcIMPLAN'; // Autor por defecto
+    public $mensaje_oculto   = <<<FINAL
 <!-- ===========================================================================================
 
         Instituto Municipal de Planeación y Competitividad de Torreón.
@@ -57,8 +57,8 @@ class PlantillaConfig {
 
      =========================================================================================== -->
 FINAL;
-    public $pie                       = '  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>';
-    public $google_analytics          = <<<FINAL
+    public $pie              = '  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>';
+    public $google_analytics = <<<FINAL
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

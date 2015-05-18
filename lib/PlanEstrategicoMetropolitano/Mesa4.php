@@ -32,7 +32,7 @@ class Mesa4 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Mesa 4: Gestión de Proyectos y Arranque del Plan Estratégico Metropolitano';
+        $this->nombre           = 'M4 Gestión de Proyectos';
      // $this->autor            = '';
         $this->fecha            = '2015-03-05T18:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
@@ -40,7 +40,7 @@ class Mesa4 extends \Base\Publicacion {
         $this->imagen           = 'introduccion/imagen.jpg';
         $this->imagen_previa    = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Cuarta mesa del Plan Estratégico Metropolitano.';
+        $this->descripcion      = 'Cuarta mesa del Plan Estratégico Metropolitano y Arranque del Plan Estratégico Metropolitano.';
         $this->claves           = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
         $this->categorias       = array('Plan Estrategico Metropolitano');
         // El directorio en la raíz donde se guardará el archivo HTML

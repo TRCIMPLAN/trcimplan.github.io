@@ -32,13 +32,14 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         $this->publicaciones_directorio = 'SIG';
-        $this->titulo                   = 'Sistema de Información Geográfica';
-        $this->descripcion              = 'Sistema de Información Geográfica del IMPLAN Torreón.';
+        $this->titulo                   = 'Información Geográfica';
+        $this->descripcion              = 'Información Geográfica del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Sistema, Informacion, Geografica, SIG, GIS';
         $this->directorio               = 'sig';
         $this->archivo_ruta             = 'sig/index.html';
         $this->nombre_menu              = 'Información Geográfica';
         $this->encabezado_color         = '#008000';
+        $this->encabezado_icono         = \Configuracion\NavegacionConfig::$iconos['Información Geográfica'];
     } // constructor
 
 } // Clase Imprenta

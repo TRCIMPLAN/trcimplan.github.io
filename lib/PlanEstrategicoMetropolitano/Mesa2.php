@@ -32,7 +32,7 @@ class Mesa2 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Mesa 2: Visión y Objetivos';
+        $this->nombre           = 'M2 Visión y Objetivos';
      // $this->autor            = '';
         $this->fecha            = '2014-10-30T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.

@@ -2,53 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-05-16</lastmod>
+    <lastmod>2015-05-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/blog/index.html</loc>
-    <lastmod>2015-05-16</lastmod>
+    <lastmod>2015-05-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-categorias/index.html</loc>
-    <lastmod>2015-05-16</lastmod>
+    <lastmod>2015-05-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-torreon/index.html</loc>
-    <lastmod>2015-05-16</lastmod>
+    <lastmod>2015-05-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-gomez-palacio/index.html</loc>
-    <lastmod>2015-05-16</lastmod>
+    <lastmod>2015-05-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-lerdo/index.html</loc>
-    <lastmod>2015-05-16</lastmod>
+    <lastmod>2015-05-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-matamoros/index.html</loc>
-    <lastmod>2015-05-16</lastmod>
+    <lastmod>2015-05-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/indicadores-la-laguna/index.html</loc>
-    <lastmod>2015-05-16</lastmod>
+    <lastmod>2015-05-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/eventos/index.html</loc>
-    <lastmod>2015-05-16</lastmod>
+    <lastmod>2015-05-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sala-prensa/index.html</loc>
-    <lastmod>2015-05-16</lastmod>
+    <lastmod>2015-05-18</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/../sig-mapas-torreon/index.html</loc>
+    <lastmod>2015-05-14</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://trcimplan.gob.mx/sig-mapas-torreon/cobertura-transporte.html</loc>
@@ -206,7 +211,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/.html</loc>
+    <loc>http://www.torreon.gob.mx/pdf/PIMUS_LAGUNA.pdf</loc>
     <lastmod>2015-03-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -246,12 +251,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/sig/crecimiento-historico-torreon.html</loc>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/crecimiento-historico-torreon.html</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/crecimiento-historico-torreon.html</loc>
+    <loc>http://trcimplan.gob.mx/sig/crecimiento-historico-torreon.html</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -301,7 +306,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/.html</loc>
+    <loc>http://trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
+    <lastmod>2015-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/../sig-planes/index.html</loc>
+    <lastmod>2015-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/../indicadores-categorias/index.html</loc>
+    <lastmod>2015-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://trcimplan.gob.mx/../smi-georreferenciados/index.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -361,12 +381,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/sig/zonificacion-primaria.html</loc>
+    <loc>http://trcimplan.gob.mx/../sig-mapas-torreon/zonificacion-primaria.html</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/sig/zonificacion-secundaria.html</loc>
+    <loc>http://trcimplan.gob.mx/../sig-mapas-torreon/zonificacion-secundaria.html</loc>
     <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -591,12 +611,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/sig/alumbrado-publico.html</loc>
+    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html</loc>
     <lastmod>2014-09-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://trcimplan.gob.mx/sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html</loc>
+    <loc>http://trcimplan.gob.mx/sig/alumbrado-publico.html</loc>
     <lastmod>2014-09-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>

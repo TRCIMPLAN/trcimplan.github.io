@@ -44,6 +44,8 @@ class Indice extends Pagina {
         $a[] = $this->encabezado_html();
         // Acumular
         foreach ($this->publicaciones as $p) {
+            // Validar publicacion
+            $p->validar();
             // Acumular
             $a[] = '      <div class="media breve">';
             // Si tiene imagen previa
@@ -55,9 +57,11 @@ class Indice extends Pagina {
             }
             $a[] = '        <div class="media-body">';
             $a[] = "          <h3 class=\"media-heading\"><a href=\"{$p->url()}\">{$p->nombre}</a></h3>";
-            $a[] = "          <p>{$p->descripcion}</p>";
+            if ($p->descripcion != '') {
+                $a[] = "          <p>{$p->descripcion}</p>";
+            }
             $a[] = "          <p class=\"pull-left autor-fecha\">Por {$p->autor}, {$p->fecha_con_formato_humano()}</p>";
-            $a[] = "          <p class=\"pull-right leer-mas\"><a href=\"{$p->url()}\">Leer más</a></p>";
+            $a[] = "          <p class=\"pull-right leer-mas\"><a href=\"{$p->boton_url}\">Leer más</a></p>";
             $a[] = '        </div>';
             $a[] = '      </div>';
         }

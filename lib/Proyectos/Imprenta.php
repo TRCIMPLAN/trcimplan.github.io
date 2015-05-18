@@ -39,6 +39,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->archivo_ruta             = 'proyectos/index.html';
         $this->nombre_menu              = 'Banco de Proyectos';
         $this->encabezado_color         = '#008000';
+        $this->encabezado_icono         = \Configuracion\NavegacionConfig::$iconos['Banco de Proyectos'];
     } // constructor
 
 } // Clase Imprenta

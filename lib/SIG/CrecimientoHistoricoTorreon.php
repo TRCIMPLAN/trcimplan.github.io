@@ -42,13 +42,13 @@ class CrecimientoHistoricoTorreon extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Mapa del Crecimiento Histórico de Torreón.';
         $this->claves             = 'IMPLAN, Torreon, Crecimiento, Historico';
-        $this->categorias         = array('SIG');
+        $this->categorias         = array();
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
         $this->directorio         = 'sig';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu        = 'Información Geográfica > Crecimiento Histórico';
+        $this->nombre_menu        = 'Información Geográfica';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado             = 'publicar';
+        $this->estado             = 'revisar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
         // Instancia de SchemaPostalAddress

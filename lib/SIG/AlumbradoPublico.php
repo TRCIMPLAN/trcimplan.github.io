@@ -42,13 +42,13 @@ class AlumbradoPublico extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Mapa del Avance de Reconversión del Alumbrado Público de Torreón.';
         $this->claves             = 'IMPLAN, Torreon, Alumbrado, Reconversión, SIG, GIS';
-        $this->categorias         = array('SIG', 'Alumbrado Público');
+        $this->categorias         = array();
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
         $this->directorio         = 'sig';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu        = 'Información Geográfica > Alumbrado Público';
+        $this->nombre_menu        = 'Información Geográfica';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado             = 'publicar';
+        $this->estado             = 'revisar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
         // Instancia de SchemaPostalAddress

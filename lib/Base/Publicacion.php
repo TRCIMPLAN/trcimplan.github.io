@@ -47,11 +47,61 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $encabezado_color;             // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
     public $contenido        = array();   // Contenido código HTML de la publicación
     public $javascript       = array();   // Opcional. Código Javascript. Debe estar aparte para ponerlo al final de la página.
-    public $url;                          // Opcional. Cuando la propiedad archivo no se defina, entonces será sólo un vínculo a este URL de destino.
-    public $url_etiqueta;                 // Opcional. Cuando la propiedad archivo no se defina, entonces será sólo un vínculo con esta etiqueta.
+    public $url;                          // Opcional. Cuando la propiedad archivo no se defina, entonces será sólo un vínculo a este URL de destino. Puede apuntar a un archivo descargable o a un URL absoluto.
+    public $url_etiqueta;                 // Opcional. Cuando la propiedad archivo no se defina, entonces se usa esta etiqueta para el vínculo o botón.
     public $redifusion       = '';        // Opcional. Código HTML con la publicación que va para redifusión (RSS feed).
     public $en_raiz          = false;     // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
     public $en_otro          = false;     // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
+    public $target;                       // NO LO USE. Lo define el método validar en base a otra propiedades.
+    public $boton_url;                    // NO LO USE. Lo define el método validar en base a otra propiedades.
+    public $boton_target;                 // NO LO USE. Lo define el método validar en base a otra propiedades.
+
+    /**
+     * Validar
+     *
+     * Causa una excepción si hay propiedades incorrectas. También define los vínculos. Es usado por Indice y Tarjetas.
+     */
+    public function validar() {
+        // Validar nombre
+        if (!is_string($this->nombre) || ($this->nombre == '')) {
+            throw new \Exception("Error en Publicacion, validar: Una publicación NO tiene nombre.");
+        }
+        // Si está definido archivo
+        if ($this->archivo != '') {
+            $archivo_html = $this->archivo.'.html';
+            // Si está definio OTRO URL
+            if ($this->url != '') {
+                // El botón al URL definido, el vínculo del título al archivo creado
+                $this->boton_url = $this->url;
+                $this->url       = $archivo_html;
+            } else {
+                // No está definido el url, ambos apuntan al archivo creado
+                $this->url       = $archivo_html;
+                $this->boton_url = $archivo_html;
+            }
+        } elseif ($this->url != '') {
+            // El vínculo es un URL absoluto o relativo, a una página o archivo o a un sitio web externo
+            $this->boton_url = $this->url;
+        } else {
+            throw new \Exception("Error en Publicacion, validar: {$this->nombre} NO tiene las propiedades archivo y url. Debe usar por lo menos una.");
+        }
+        // Si no hay etiqueta, se usa el nombre
+        if ($this->url_etiqueta == '') {
+            $this->url_etiqueta = $this->nombre;
+        }
+        // Si el url apunta afuera del sitio o a un archivo PDF, RAR, TAR.GZ, TGZ o ZIP
+        if ((preg_match('/^(http|https|ftp|ftps):\/\//', $this->url) === 1) || (preg_match('/\.(pdf|rar|tar.gz|tgz|zip)$/', $this->url) === 1)) {
+            $this->target = ' target="_blank"';
+        } else {
+            $this->target = '';
+        }
+        // Si el boton_url apunta afuera del sitio o a un archivo PDF, RAR, TAR.GZ, TGZ o ZIP
+        if ((preg_match('/^(http|https|ftp|ftps):\/\//', $this->boton_url) === 1) || (preg_match('/\.(pdf|rar|tar.gz|tgz|zip)$/', $this->boton_url) === 1)) {
+            $this->boton_target = ' target="_blank"';
+        } else {
+            $this->boton_target = '';
+        }
+    } // validar
 
     /**
      * URL
@@ -59,12 +109,17 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string URL para enlazar, segun las banderas en_raiz y en_otro
      */
     public function url() {
-        if ($this->en_raiz) {
-            return "{$this->directorio}/{$this->archivo}.html";
+        // Validar
+        $this->validar();
+        // Si el vínculo es absoluto
+        if (preg_match('/^(http|https|ftp|ftps):\/\//', $this->url) === 1) {
+            return $this->url;
+        } elseif ($this->en_raiz) {
+            return "{$this->directorio}/{$this->url}";
         } elseif ($this->en_otro) {
-            return "../{$this->directorio}/{$this->archivo}.html";
+            return "../{$this->directorio}/{$this->url}";
         } else {
-            return "{$this->archivo}.html";
+            return $this->url;
         }
     } // url
 
@@ -74,8 +129,14 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string URL absoluto de la publicación
      */
     public function url_absoluto() {
-        $plantilla = new \Configuracion\PlantillaConfig();
-        return sprintf('%s/%s/%s.html', $plantilla->sitio_url, $this->directorio, $this->archivo);
+        // Validar
+        $this->validar();
+        // Si el vínculo es absoluto
+        if (preg_match('/^(http|https|ftp|ftps):\/\//', $this->url) === 1) {
+            return $this->url;
+        } else {
+            return sprintf('%s/%s/%s.html', \Configuracion\PlantillaConfig::$sitio_url, $this->directorio, $this->url);
+        }
     } // url_absoluto
 
     /**

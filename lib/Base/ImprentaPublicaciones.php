@@ -41,6 +41,7 @@ class ImprentaPublicaciones extends Imprenta {
     protected $concentrador     = 'Indice'; // Clase que concentrará este conjunto de publicaciones. Puede ser 'Indice' o 'Galeria'.
     protected $encabezado;                  // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
     public    $encabezado_color = '';       // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
+    public    $encabezado_icono = '';       // Opcional. Icono de Font Awsome.
 
     /**
      * Elaborar resúmenes para la página de inicial
@@ -70,7 +71,7 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->navegacion    = new Navegacion();
         $this->plantilla->mapa_inferior = new MapaInferior();
         // Cargar las publicaciones
-        $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio, $this->encabezado_color);
+        $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio, $this->encabezado_color, $this->encabezado_icono);
         // Validar y cargar las publicaciones en el concentrador, que se usará más adelante para crear el index.html
         switch ($this->concentrador) {
             case 'Indice':

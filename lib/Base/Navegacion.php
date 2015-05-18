@@ -30,7 +30,7 @@ class Navegacion extends \Configuracion\NavegacionConfig {
     // protected $sitio_titulo;
     // protected $logotipo;
     // protected $opciones;
-    // protected $iconos;
+    // static protected $iconos;
     public $opcion_activa;   // Etiqueta de opciones en la que está
     public $en_raiz = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
 
@@ -125,10 +125,10 @@ class Navegacion extends \Configuracion\NavegacionConfig {
         // Si la etiqueta tiene "mayor que" se retira lo que está a la izquierda de éste
         $etiqueta = $this->formatear_etiqueta($in_etiqueta);
         // Icono
-        if (array_key_exists($etiqueta, $this->iconos)) {
-            $icono = "<span class=\"navegacion-icono\"><i class=\"{$this->iconos[$etiqueta]}\"></i></span>";
+        if (array_key_exists($etiqueta, self::$iconos)) {
+            $icono = sprintf('<span class="navegacion-icono"><i class="%s"></i></span>', self::$iconos[$etiqueta]);
         } else {
-            $icono = "<span class=\"navegacion-icono\"><i class=\"fa fa-file-text-o\"></i></span>";
+            $icono = '<span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span>';
         }
         // Si el URL es absoluto
         if ((strpos($url, 'http://') === 0) || (strpos($url, 'https://') === 0) || (strpos($url, '/') === 0)) {
@@ -170,10 +170,10 @@ class Navegacion extends \Configuracion\NavegacionConfig {
             if (is_array($parametros)) {
                 // Segundo nivel
                 $e = $this->formatear_etiqueta($etiqueta);
-                if (array_key_exists($e, $this->iconos)) {
-                    $icono = "<span class=\"navegacion-icono\"><i class=\"{$this->iconos[$e]}\"></i></span>";
+                if (array_key_exists($e, self::$iconos)) {
+                    $icono = sprintf('<span class="navegacion-icono"><i class="%s"></i></span>', self::$iconos[$e]);
                 } else {
-                    $icono = "<span class=\"navegacion-icono\"><i class=\"fa fa-file-text-o\"></i></span>";
+                    $icono = '<span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span>';
                 }
                 // Buscar si la opción activa es del tercer nivel
                 $es_opcion_activa = false;
@@ -194,10 +194,10 @@ class Navegacion extends \Configuracion\NavegacionConfig {
                     if (is_array($param)) {
                         // Tercer nivel
                         $e = $this->formatear_etiqueta($eti);
-                        if (array_key_exists($e, $this->iconos)) {
-                            $icono = "<span class=\"navegacion-icono\"><i class=\"{$this->iconos[$e]}\"></i></span>";
+                        if (array_key_exists($e, self::$iconos)) {
+                            $icono = sprintf('<span class="navegacion-icono"><i class="%s"></i></span>', self::$iconos[$e]);
                         } else {
-                            $icono = "<span class=\"navegacion-icono\"><i class=\"fa fa-file-text-o\"></i></span>";
+                            $icono = '<span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span>';
                         }
                         if (array_key_exists($this->opcion_activa, $param)) {
                             $a[] = '            <li class="active">';

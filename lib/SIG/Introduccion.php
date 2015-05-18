@@ -32,7 +32,7 @@ class Introduccion extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Sistema de Información Geográfica';
+        $this->nombre           = 'Introducción al Sistema de Información Geográfica';
      // $this->autor            = '';
         $this->fecha            = '2014-08-01T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
@@ -42,11 +42,11 @@ class Introduccion extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Introducción al Sistema de Información Geográfica del IMPLAN Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Informacion, Geografica, SIG, GIS';
-        $this->categorias       = array('SIG');
+        $this->categorias       = array();
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
         $this->directorio       = 'sig';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu      = 'Información Geográfica > Introducción';
+        $this->nombre_menu      = 'Información Geográfica > Introducción al S.I.G.';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook

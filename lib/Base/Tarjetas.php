@@ -46,55 +46,20 @@ class Tarjetas extends Pagina {
         $a[] = '      <div class="row" id="tarjetas">';
         // Bucle por Publicaciones
         foreach ($this->publicaciones as $p) {
-            // Validar nombre
-            if (!is_string($p->nombre) || ($p->nombre == '')) {
-                throw new \Exception("Error en Tarjetas, html: Una publicación NO tiene nombre.");
-            }
-            // Por defecto el target es vacío
-            $target       = '';
-            $boton_target = '';
-            // Si está definido archivo
-            if ($p->archivo != '') {
-                // El vínculo es a una página HTML creada por este sistema
-                $url = $p->archivo.'.html';
-                // URL para el botón
-                if ($p->url != '') {
-                    $boton_url    = $p->url;
-                    $boton_target = ' target="_blank"';
-                } else {
-                    $boton_url    = $url;
-                }
-            } else {
-                // El vínculo es un URL
-                if ($p->url != '') {
-                    $url       = $p->url;
-                    $boton_url = $url;
-                    // Si es fuera del sitio o a un archivo PDF, RAR, TAR.GZ, TGZ o ZIP
-                    if ((preg_match('/^(http|https|ftp|ftps):\/\//', $url) === 1) || (preg_match('/\.(pdf|rar|tar.gz|tgz|zip)$/', $url) === 1)) {
-                        $target = ' target="_blank"';
-                    }
-                } else {
-                    throw new \Exception("Error en Tarjetas, html: Una publicación tiene las propiedades archivo y url vacías.");
-                }
-            }
-            // Definir la etiqueta del botón
-            if ($p->url_etiqueta != '') {
-                $url_etiqueta = $p->url_etiqueta;
-            } else {
-                $url_etiqueta = $p->nombre;
-            }
+            // Validar publicacion
+            $p->validar();
             // Acumular
             $a[] = '        <div class="col-sm-6 col-md-3">';
             $a[] = '          <div class="thumbnail tarjeta">';
             if ($p->imagen != '') {
-                $a[] = sprintf('            <a href="%s"%s><img src="%s" alt="%s"></a>', $url, $target, $p->imagen, $p->nombre);
+                $a[] = sprintf('            <a href="%s"%s><img src="%s" alt="%s"></a>', $p->url, $p->target, $p->imagen, $p->nombre);
             }
             $a[] = '            <div class="caption">';
-            $a[] = sprintf('              <h3 class="caption-titulo"><a href="%s"%s>%s</a></h3>', $url, $target, $p->nombre);
+            $a[] = sprintf('              <h3 class="caption-titulo"><a href="%s"%s>%s</a></h3>', $p->url, $p->target, $p->nombre);
             if ($p->descripcion != '') {
                 $a[] = sprintf('              <p class="caption-descripcion">%s</p>', $p->descripcion);
             }
-            $a[] = sprintf('              <a href="%s" class="btn btn-default caption-boton" role="button"%s>%s</a>', $boton_url, $boton_target, $url_etiqueta);
+            $a[] = sprintf('              <a href="%s" class="btn btn-default caption-boton" role="button"%s>%s</a>', $p->boton_url, $p->boton_target, $p->url_etiqueta);
             $a[] = '            </div>';
             $a[] = '          </div>';
             $a[] = '        </div>';

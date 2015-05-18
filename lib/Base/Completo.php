@@ -91,9 +91,8 @@ class Completo {
                 }
             } elseif ($this->publicacion->nombre != '') {
                 // Hay título. Si hay icono definido en Navegación
-                $navegacion_config = new \Configuracion\NavegacionConfig();
-                if (array_key_exists($this->publicacion->nombre_menu, $navegacion_config->iconos)) {
-                    $encabezado = sprintf('<i class="%s encabezado-icono"></i> %s', $navegacion_config->iconos[$this->publicacion->nombre_menu], $this->publicacion->nombre);
+                if (array_key_exists($this->publicacion->nombre_menu, \Configuracion\NavegacionConfig::$iconos)) {
+                    $encabezado = sprintf('<i class="%s encabezado-icono"></i> %s', \Configuracion\NavegacionConfig::$iconos[$this->publicacion->nombre_menu], $this->publicacion->nombre);
                 } else {
                     $encabezado = $this->publicacion->nombre;
                 }

@@ -45,6 +45,7 @@ class SchemaCreativeWork extends SchemaThing {
     public $datePublished;          // Date. Date of first broadcast/publication. In ISO 8601, example 2007-04-05T14:30
     public $headline;               // Text. Headline of the article.
     public $headline_style;         // Text. CSS style for encabezado.
+    public $headline_icon;          // Text. Font Awsome icon for encabezado.
     public $producer;               // Organization or Person. The person or organization who produced the work.
 
     /**
@@ -54,15 +55,33 @@ class SchemaCreativeWork extends SchemaThing {
      */
     protected function headline_html() {
         if ($this->headline != '') {
+            if (array_key_exists($this->headline, \Configuracion\NavegacionConfig::$iconos)) {
+                $icono = sprintf('<i class="%s encabezado-icono"></i>', \Configuracion\NavegacionConfig::$iconos[$this->headline]);
+            } else {
+                $icono = '';
+            }
             if ($this->name == '') {
                 $this->name = $this->headline;
-                return "  <h1 itemprop=\"name\">{$this->headline}</h1>";
+                if ($icono == '') {
+                    return sprintf('  <h1 itemprop="name">%s</h1>', $this->headline);
+                } else {
+                    return sprintf('  <h1>%s <span itemprop="name">%s</span></h1>', $icono, $this->headline);
+                }
             } elseif ($this->name != $this->headline) {
-                return "  <h1 itemprop=\"headline\">{$this->headline}</h1>\n    <h4 itemprop=\"name\">{$this->name}</h4>";
+                if ($icono == '') {
+                    return sprintf("  <h1 itemprop=\"headline\">%s</h1>\n    <h4 itemprop=\"name\">%s</h4>", $this->headline, $this->name);
+                } else {
+                    return sprintf("  <h1>%s <span itemprop=\"headline\">%s</span></h1>\n    <h4 itemprop=\"name\">%s</h4>", $icono, $this->headline, $this->name);
+                }
             }
         } elseif ($this->name != '') {
             $this->headline = $this->name;
-            return "  <h1 itemprop=\"name\">{$this->name}</h1>";
+            if (array_key_exists($this->name, \Configuracion\NavegacionConfig::$iconos)) {
+                $icono = sprintf('<i class="%s encabezado-icono"></i>', \Configuracion\NavegacionConfig::$iconos[$this->name]);
+                return sprintf('  <h1>%s <span itemprop="name">%s</span></h1>', $icono, $this->name);
+            } else {
+                return sprintf('  <h1 itemprop="name">%s</h1>', $this->name);
+            }
         } else {
             return '';
         }

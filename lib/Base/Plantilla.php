@@ -28,7 +28,7 @@ namespace Base;
 class Plantilla extends \Configuracion\PlantillaConfig {
 
     // public $sitio_titulo;
-    // public $sitio_url;
+    // static public $sitio_url;
     // public $rss;
     // public $favicon;
     // public $propio_css;
@@ -130,7 +130,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a = array();
         // Acumular
         $a[] = '<head>';
-     // $a[] = "  <base href=\"{$this->sitio_url}/\">";
+     // $a[] = "  <base href=\"{self::$sitio_url}/\">";
         $a[] = '  <meta charset="utf-8">';
         if ($this->mensaje_oculto != '') {
             $a[] = $this->mensaje_oculto;
@@ -151,15 +151,15 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = "  <meta name=\"twitter:title\" content=\"$titulo\">";
             $a[] = "  <meta name=\"twitter:description\" content=\"{$this->descripcion}\">";
             if ($this->imagen_previa_ruta != '') {
-                $a[] = sprintf('  <meta name="twitter:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa_ruta);
+                $a[] = sprintf('  <meta name="twitter:image" content="%s/%s">', self::$sitio_url, $this->imagen_previa_ruta);
             }
-            $a[] = sprintf('  <meta name="twitter:url" content="%s/%s">', $this->sitio_url, $this->archivo_ruta);
+            $a[] = sprintf('  <meta name="twitter:url" content="%s/%s">', self::$sitio_url, $this->archivo_ruta);
             $a[] = "  <meta name=\"og:title\" content=\"$titulo\">";
             $a[] = "  <meta name=\"og:description\" content=\"{$this->descripcion}\">";
             if ($this->imagen_previa_ruta != '') {
-                $a[] = sprintf('  <meta name="og:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa_ruta);
+                $a[] = sprintf('  <meta name="og:image" content="%s/%s">', self::$sitio_url, $this->imagen_previa_ruta);
             }
-            $a[] = sprintf('  <meta name="og:url" content="%s/%s">', $this->sitio_url, $this->archivo_ruta);
+            $a[] = sprintf('  <meta name="og:url" content="%s/%s">', self::$sitio_url, $this->archivo_ruta);
         }
         if ($this->google_site_verification != '') {
             $a[] = $this->google_site_verification;

@@ -45,6 +45,7 @@ class SchemaDataset extends SchemaCreativeWork {
     // public $datePublished;       // Date. Date of first broadcast/publication.
     // public $headline;            // Text. Headline of the article.
     // public $headline_style;      // Text. CSS style for encabezado
+    // public $headline_icon;       // Text. Font Awsome icon for encabezado.
     // public $producer;            // Organization or Person. The person or organization who produced the work.
     public $catalog;                // DataCatalog. A data catalog which contains a dataset.
     public $distribution;           // DataDownload. A downloadable form of this dataset, at a specific location, in a specific format.

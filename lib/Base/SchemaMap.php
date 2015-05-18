@@ -45,6 +45,7 @@ class SchemaMap extends SchemaCreativeWork {
     // public $datePublished;       // Date. Date of first broadcast/publication.
     // public $headline;            // Text. Headline of the article.
     // public $headline_style;      // Text. CSS style for encabezado
+    // public $headline_icon;       // Text. Font Awsome icon for encabezado.
     // public $producer;            // Organization or Person. The person or organization who produced the work.
     public $mapType;                // Text. Indicates the kind of Map, from the MapCategoryType Enumeration. Use 'ParkingMap', 'SeatingMap', 'TransitMap' or  'VenueMap'.
 

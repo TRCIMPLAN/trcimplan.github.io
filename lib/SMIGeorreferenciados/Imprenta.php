@@ -34,9 +34,9 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'SMIGeorreferenciados';
         // Los siguientes parámetros dan datos para el índice/galería que será creado
-        $this->titulo                   = 'Indicadores Georreferenciados';
-        $this->descripcion              = 'Los indicadores que tienen mapas georreferenciados.';
-        $this->claves                   = 'IMPLAN, Torreon, Indicadores, Georreferenciados';
+        $this->titulo                   = 'Georreferenciados';
+        $this->descripcion              = 'Indicadores que tienen mapas con información georreferenciada.';
+        $this->claves                   = 'IMPLAN, Torreon, Indicadores, Mapas, Georreferenciados';
         $this->encabezado_color         = '#CA198A';
         // Etiqueta de Navegación a poner activa
         $this->nombre_menu              = 'Indicadores > Georreferenciados';

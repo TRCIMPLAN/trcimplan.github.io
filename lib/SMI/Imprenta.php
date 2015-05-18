@@ -32,13 +32,14 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      */
     public function __construct() {
         $this->publicaciones_directorio = 'SMI';
-        $this->titulo                   = 'Sistema Metropolitano de Indicadores';
+        $this->titulo                   = 'Indicadores';
         $this->descripcion              = 'El Sistema Metropolitano de Indicadores contiene información de Torreón, Gómez Palacio, Lerdo, Matamoros y La Laguna.';
         $this->claves                   = 'IMPLAN, Torreon, Indicadores, Gomez Palacio, Lerdo, Matamoros, La Laguna';
         $this->directorio               = 'smi';
         $this->archivo_ruta             = 'smi/index.html';
         $this->nombre_menu              = 'Indicadores';
         $this->encabezado_color         = '#CA198A';
+        $this->encabezado_icono         = \Configuracion\NavegacionConfig::$iconos['Indicadores'];
     } // constructor
 
 } // Clase Imprenta

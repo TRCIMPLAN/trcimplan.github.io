@@ -32,56 +32,32 @@ class ZonificacionPrimaria extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Zonificación Primaria';
-     // $this->autor              = '';
-        $this->fecha              = '2014-11-18T08:00';
+        $this->nombre         = 'Zonificación Primaria';
+        $this->autor          = 'Arq. Jair Miramontes Chávez';
+        $this->fecha          = '2014-11-18T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo            = 'zonificacion-primaria';
-        $this->imagen             = 'introduccion/imagen.jpg';
-        $this->imagen_previa      = 'introduccion/imagen-previa.jpg';
+        $this->archivo        = ''; // No hay archivo HTML a crear, porque es un vínculo
+        $this->imagen         = '../sig-mapas-torreon/zonificacion-primaria/imagen.jpg';
+        $this->imagen_previa  = '../sig-mapas-torreon/zonificacion-primaria/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Mapa con la Zonificación Primaria.';
-        $this->claves             = 'IMPLAN, Torreon, SIG';
-        $this->categorias         = array('SIG', 'Zonificación');
-        // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
-        $this->directorio         = 'sig';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu        = 'Información Geográfica > Zonificación Primaria';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado             = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir     = true;
-        // Instancia de SchemaPostalAddress
-        $region                   = new \Base\SchemaPostalAddress();
-        $region->addressCountry   = 'MX';
-        $region->addressRegion    = 'Coahuila de Zaragoza';
-        $region->addressLocality  = 'Torreón';
-        // Instancia de SchemaMapa
-        $mapa                     = new \Base\SchemaMap();
-        $mapa->mapType            = 'VenueMap';
-        $mapa->url                = 'http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map';
-        $mapa->url_label          = 'Ver a pantalla completa';
-        $mapa->extra              = "<iframe width='100%' height='520' frameborder='0' src='http://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>";
-        // Instancia de SchemaPlace
-        $lugar                    = new \Base\SchemaPlace();
-        $lugar->address           = $region;
-        $lugar->hasMap            = $mapa;
-        // Instancia de SchemaCreativeWork
-        $paquete                  = new \Base\SchemaCreativeWork();
-        $paquete->big_heading     = true;
-        $paquete->name            = $this->nombre;
-        $paquete->description     = $this->descripcion;
-        $paquete->author          = $this->autor;
-        $paquete->datePublished   = $this->fecha;
-        $paquete->headline_style  = $this->encabezado_color;
-        $paquete->image           = $this->imagen;
-        $paquete->contentLocation = $lugar;
-        // El contenido es una instancia
-        $this->contenido          = $paquete;
+        $this->descripcion    = 'Mapa para identificar el área urbana, el crecimiento urbano, la zona agrícola y las zonas de restauración y protección de Torreón, Coahuila.';
+        $this->claves         = 'IMPLAN, Torreón, Zonificación, Usos de Suelo';
+        $this->categorias     = array('Gobierno');
+        // El estado puede ser 'publicar' (lo usa), 'revisar' o 'ignorar' (lo omite)
+        $this->estado         = 'revisar';
+        // URL de destino
+        $this->url            = '../sig-mapas-torreon/zonificacion-primaria.html';
+     // $this->url_etiqueta   = '';
+        // Sin contenido
+        $this->contenido      = '';
         // Sin JavaScript
-        $this->javascript         = '';
-        // Para redifusión
-        $this->redifusion         = sprintf('<a href="%s">%s</a>', "{$this->directorio}/{$this->archivo}.html", $this->descripcion);
+        $this->javascript     = '';
+        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
+        } else {
+            $this->redifusion = $this->descripcion;
+        }
     } // constructor
 
 } // Clase ZonificacionPrimaria

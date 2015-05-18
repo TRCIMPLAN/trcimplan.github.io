@@ -81,9 +81,8 @@ abstract class Pagina {
             }
         } elseif ($this->titulo != '') {
             // Hay título. Si hay icono definido en Navegación
-            $navegacion_config = new \Configuracion\NavegacionConfig();
-            if (array_key_exists($this->titulo, $navegacion_config->iconos)) {
-                $encabezado = sprintf('<i class="%s encabezado-icono"></i> %s', $navegacion_config->iconos[$this->titulo], $this->titulo);
+            if (array_key_exists($this->titulo, \Configuracion\NavegacionConfig::$iconos)) {
+                $encabezado = sprintf('<i class="%s encabezado-icono"></i> %s', \Configuracion\NavegacionConfig::$iconos[$this->titulo], $this->titulo);
             } else {
                 $encabezado = $this->titulo;
             }
