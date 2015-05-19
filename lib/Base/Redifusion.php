@@ -80,9 +80,9 @@ class Redifusion extends \Configuracion\RedifusionConfig {
             // En el patron destaca que debe omitir lo que tenga http:, https:, ftp:, javascript: y //
             $patron = "/<$tag([^>]*)$atributo=[\"']?(?!https?:|ftp:|javascript:|\/\/)\/([^\"'\s>]+)[\"']?/is";
             if ($dir == '') {
-                $reemplazo = "<$tag\${1}$atributo=\"{self::$sitio_url}/\${2}\"";
+                $reemplazo = sprintf('<%s${1}%s="%s/${2}"', $tag, $atributo, self::$sitio_url);
             } else {
-                $reemplazo = "<$tag\${1}$atributo=\"{self::$sitio_url}/$dir/\${2}\"";
+                $reemplazo = sprintf('<%s${1}%s="%s/%s/${2}"', $tag, $atributo, self::$sitio_url, $dir);
             }
             $html = preg_replace($patron, $reemplazo, $html);
         }
@@ -91,9 +91,9 @@ class Redifusion extends \Configuracion\RedifusionConfig {
             // Lo único distinto respecto al anterior es una diagonal antes de la ruta
             $patron = "/<$tag([^>]*)$atributo=[\"']?(?!https?:|ftp:|javascript:|\/\/)([^\"'\s>]+)[\"']?/is";
             if ($dir == '') {
-                $reemplazo = "<$tag\${1}$atributo=\"{self::$sitio_url}/\${2}\"";
+                $reemplazo = sprintf('<%s${1}%s="%s/${2}"', $tag, $atributo, self::$sitio_url);
             } else {
-                $reemplazo = "<$tag\${1}$atributo=\"{self::$sitio_url}/$dir/\${2}\"";
+                $reemplazo = sprintf('<%s${1}%s="%s/%s/${2}"', $tag, $atributo, self::$sitio_url, $dir);
             }
             $html = preg_replace($patron, $reemplazo, $html);
         }

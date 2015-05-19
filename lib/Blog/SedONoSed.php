@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Los Principios del Nuevo Urbanismo
+ * TrcIMPLAN - ¿Sed o no sed?
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,27 +23,26 @@
 namespace Blog;
 
 /**
- * Clase PrincipiosNuevoUrbanismo
+ * Clase SedONoSed
  */
-class PrincipiosNuevoUrbanismo extends \Base\Publicacion {
+class SedONoSed extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Los Principios del Nuevo Urbanismo';
-        $this->autor           = 'Arq. Susana Montano';
-        $this->fecha           = '2015-05-19T09:35';
+        $this->nombre          = '¿Sed o no sed? ';
+        $this->autor           = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha           = '2015-05-19T15:20';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo         = 'principios-nuevo-urbanismo';
-        $this->imagen          = 'principios-nuevo-urbanismo/imagen.jpg';
-        $this->imagen_previa   = 'principios-nuevo-urbanismo/imagen-previa.jpg';
+        $this->archivo         = 'sed-o-no-sed';
+        $this->imagen          = 'sed-o-no-sed/imagen.jpg';
+        $this->imagen_previa   = 'sed-o-no-sed/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion     = 'Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.';
-        $this->claves          = 'IMPLAN, Torreon, Urbanismo, Ciudad, Equilibrada, Sustentable, Humana';
-        $this->categorias      = array('Bienestar', 'Movilidad');
-        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->descripcion     = 'El IMPLAN ve una región de grandes retos y de grandes oportunidades, capaz de rivalizar, si unimos voluntades, con avezados competidores en los mercados globalizados.';
+        $this->claves          = 'IMPLAN, Torreon';
+        $this->categorias      = array('Mercados', 'Empresas');
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
@@ -59,7 +58,7 @@ class PrincipiosNuevoUrbanismo extends \Base\Publicacion {
         $schema->name          = $this->nombre;
         $schema->author        = $this->autor;
         $schema->datePublished = $this->fecha;
-        $schema->articleBody   = $this->cargar_archivo_markdown_extra('lib/Blog/PrincipiosNuevoUrbanismo.md');
+        $schema->articleBody   = $this->cargar_archivo_markdown_extra('lib/Blog/SedONoSed.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Sin JavaScript
@@ -72,6 +71,6 @@ class PrincipiosNuevoUrbanismo extends \Base\Publicacion {
         }
     } // constructor
 
-} // Clase PrincipiosNuevoUrbanismo
+} // Clase SedONoSed
 
 ?>
