@@ -20,7 +20,7 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
         $this->nombre       = 'Ingresos Totales Per Cápita en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'gobierno-ingresos-totales-per-capita';
+        $this->archivo      = 'gobiernoingresos-totales-per-capita';
         $this->descripcion  = 'Ingresos totales del municipio entre el total de la población.';
         $this->claves       = 'Torreón, Finanzas Públicas';
         $this->categorias   = array('Finanzas Públicas');
@@ -188,6 +188,12 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/gobierno-capacidad-financiera.html">Capacidad Financiera en Torreón</a></td>
             <td>Ingresos propios entre gastos corrientes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Torreón</a></td>
+            <td>Ingresos totales del municipio entre el total de la población.</td>
           </tr>
           <tr>
             <td>ND</td>

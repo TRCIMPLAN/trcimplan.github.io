@@ -20,7 +20,7 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
         $this->nombre       = 'Competencia Electoral en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'gobierno-competencia-electoral';
+        $this->archivo      = 'gobiernocompetencia-electoral';
         $this->descripcion  = 'Diferencia entre los dos candidatos con más votación entre el total de votos.';
         $this->claves       = 'Gómez Palacio, Participación Ciudadana, Gobierno';
         $this->categorias   = array('Participación Ciudadana', 'Gobierno');
@@ -153,6 +153,24 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
             <td>Actualmente el concepto de ciudad inteligente o digital se maneja a nivel global. Muchas ciudades de este tipo se están desarrollando en diferentes lugares del mundo, cada una con su propio sistema, diseño, estructura y organización.</td>
           </tr>
           <tr>
+            <td>01/01/2015</td>
+            <td>Otro</td>
+            <td><a href="..//../sig-planes/index.html">Planes</a></td>
+            <td>Documentos oficiales que tienen que ver con desarrollo urbano.</td>
+          </tr>
+          <tr>
+            <td>18/11/2014</td>
+            <td>Otro</td>
+            <td><a href="..//../sig-mapas-torreon/zonificacion-primaria.html">Zonificación Primaria</a></td>
+            <td>Mapa para identificar el área urbana, el crecimiento urbano, la zona agrícola y las zonas de restauración y protección de Torreón, Coahuila.</td>
+          </tr>
+          <tr>
+            <td>18/11/2014</td>
+            <td>Otro</td>
+            <td><a href="..//../sig-mapas-torreon/zonificacion-secundaria.html">Zonificación Secundaria</a></td>
+            <td>Mapa referente para consultar los usos de suelo del área urbana de Torreón. De clic en un área para mostrar detalles y el enlace al reglamento.</td>
+          </tr>
+          <tr>
             <td>04/11/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/datos-abiertos-gobiernos-municipales.html">Datos Abiertos en los Gobiernos Municipales</a></td>
@@ -193,6 +211,12 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Gómez Palacio</a></td>
             <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html">Competencia Electoral en Gómez Palacio</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
           </tr>
           <tr>
             <td>ND</td>

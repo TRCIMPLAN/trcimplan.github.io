@@ -20,7 +20,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
         $this->nombre       = 'Maternidad Adolescente en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-maternidad-adolescente';
+        $this->archivo      = 'sociedadmaternidad-adolescente';
         $this->descripcion  = '';
         $this->claves       = 'Lerdo, Género';
         $this->categorias   = array('Género');
@@ -148,6 +148,12 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Lerdo</a></td>
             <td>Porcentaje de hogares con jefatura femenina.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Lerdo</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>

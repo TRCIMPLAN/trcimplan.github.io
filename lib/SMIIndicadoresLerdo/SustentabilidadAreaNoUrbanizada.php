@@ -20,7 +20,7 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
         $this->nombre       = 'Área No Urbanizada en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sustentabilidad-area-no-urbanizada';
+        $this->archivo      = 'sustentabilidadarea-no-urbanizada';
         $this->descripcion  = 'Área total de localidades no urbanizadas sobre la superficie municipal.';
         $this->claves       = 'Lerdo, Recursos Naturales';
         $this->categorias   = array('Recursos Naturales');
@@ -196,6 +196,12 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sustentabilidad-volumen-tratado-de-aguas-residuales.html">Volumen Tratado de Aguas Residuales en Lerdo</a></td>
             <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Lerdo</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
           </tr>
         </tbody>
       </table>

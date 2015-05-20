@@ -20,7 +20,7 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Habitadas en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-viviendas-habitadas';
+        $this->archivo      = 'sociedadviviendas-habitadas';
         $this->descripcion  = '';
         $this->claves       = 'Lerdo, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -151,6 +151,12 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Lerdo</a></td>
             <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Lerdo</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
         $this->nombre       = 'Secuestros en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'seguridad-secuestros';
+        $this->archivo      = 'seguridadsecuestros';
         $this->descripcion  = 'Cantidad de secuestros en el mes';
         $this->claves       = 'Gómez Palacio, Delincuencia, Seguridad';
         $this->categorias   = array('Delincuencia', 'Seguridad');
@@ -186,7 +186,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>22/04/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/necesidad-diagnostico-sobre-delincuencia-juvenil.html">La Necesidad de un Diagnóstico sobre la Delincuencia Juvenil en el Municipio de Torreón</a></td>
-            <td>Se debe desarrollar un trabajo conjunto entre autoridades y organizaciones civiles en el tema de la delincuencia juvenil para tener un conocimiento claro de cómo ha evulucionado, de su situación real y para crear las políticas públicas pertinentes.</td>
+            <td>Se debe desarrollar un trabajo conjunto entre autoridades y organizaciones civiles en el tema de la delincuencia juvenil para tener un conocimiento claro de cómo ha evolucionado, de su situación real y para crear las políticas públicas pertinentes.</td>
           </tr>
           <tr>
             <td>17/02/2015</td>
@@ -233,20 +233,26 @@ class SeguridadSecuestros extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-comun.html">Presuntos Delincuentes del Fuero Común en Gómez Palacio</a></td>
-            <td>Cantidad de presuntos delincuentes registrados en los juzgados de primera instancia del fuero común por año.</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html">Personas Involucradas en Delitos del Fuero Común en Gómez Palacio</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-federal.html">Presuntos Delincuentes del Fuero Federal en Gómez Palacio</a></td>
-            <td>Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero federal</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html">Personas Involucradas en Delitos del Fuero Federal en Gómez Palacio</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-presuntos-delincuentes-por-narcoticos.html">Presuntos Delincuentes por Narcóticos en Gómez Palacio</a></td>
-            <td>Presuntos delincuentes por delitos en materia de narcóticos registrados en los juzgados del fuero federal.</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-presuntos-delitos-del-fuero-comun.html">Presuntos Delitos del Fuero Común en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-presuntos-delitos-del-fuero-federal.html">Presuntos Delitos del Fuero Federal en Gómez Palacio</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>
@@ -281,44 +287,38 @@ class SeguridadSecuestros extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-comun.html">Sentenciados Registrados del Fuero Común en Gómez Palacio</a></td>
-            <td>Cantidad de sentenciados registrados en los juzgados de primera instancia del fuero común por año.</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-secuestros.html">Secuestros en Gómez Palacio</a></td>
+            <td>Cantidad de secuestros en el mes</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html">Sentenciados Registrados del Fuero Federal en Gómez Palacio</a></td>
-            <td>Sentenciados registrados en los juzgados de primera instancia en materia penal del fuero federal</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal en Gómez Palacio</a></td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-extorsion.html">Tasa de Extorsión en Gómez Palacio</a></td>
             <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-delitos.html">Tasa de Delitos en Gómez Palacio</a></td>
-            <td>Delitos por cada 100 mil habitantes</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-homicidio-doloso.html">Tasa de Homicidio Doloso en Gómez Palacio</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-homicidios.html">Tasa de Homicidios en Gómez Palacio</a></td>
-            <td>Número de homicidios por cada 100 mil habitantes.</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html">Tasa de Robo de Vehículo con Violencia en Gómez Palacio</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Gómez Palacio</a></td>
-            <td>Cantidad de robos de vehículos por cada 100 mil habitantes.</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html">Tasa de Robo de Vehículo sin Violencia en Gómez Palacio</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-secuestro.html">Tasa de Secuestro en Gómez Palacio</a></td>
-            <td>Homicidios por habitantes por 100 mil</td>
+            <td></td>
           </tr>
         </tbody>
       </table>

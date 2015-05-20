@@ -20,7 +20,7 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
         $this->nombre       = 'Competencia Electoral Votos Totales en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'gobierno-competencia-electoral-votos-totales';
+        $this->archivo      = 'gobiernocompetencia-electoral-votos-totales';
         $this->descripcion  = '';
         $this->claves       = 'Gómez Palacio, Participación Ciudadana';
         $this->categorias   = array('Participación Ciudadana');
@@ -139,6 +139,12 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Gómez Palacio</a></td>
             <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Gómez Palacio</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>

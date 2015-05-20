@@ -20,7 +20,7 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
         $this->nombre       = 'Red Carretera Troncal Federal en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sustentabilidad-red-carretera-troncal-federal';
+        $this->archivo      = 'sustentabilidadred-carretera-troncal-federal';
         $this->descripcion  = '';
         $this->claves       = 'Gómez Palacio, Infraestructura';
         $this->categorias   = array('Infraestructura');
@@ -260,6 +260,12 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-total.html">Red Carretera Total en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Gómez Palacio</a></td>
             <td></td>
           </tr>
           <tr>

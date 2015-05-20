@@ -20,7 +20,7 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
         $this->nombre       = 'Pequeñas Empresas en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economia-pequenas-empresas';
+        $this->archivo      = 'economiapequenas-empresas';
         $this->descripcion  = 'Porcentaje del total de empresas que emplean entre 11 y 50 empleados.';
         $this->claves       = 'Torreón, Empresas';
         $this->categorias   = array('Empresas');
@@ -160,6 +160,18 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>20/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
+            <td>Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.</td>
+          </tr>
+          <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sed-o-no-sed.html">¿Sed o no sed?</a></td>
+            <td>El IMPLAN ve una región de grandes retos y de grandes oportunidades, capaz de rivalizar, si unimos voluntades, con avezados competidores en los mercados globalizados.</td>
+          </tr>
+          <tr>
             <td>06/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></td>
@@ -296,6 +308,12 @@ class EconomiaPequenasEmpresas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-obtencion-de-credito---creacion-de-garantias.html">Obtención de crédito - Creación de garantías en Torreón</a></td>
             <td>Días transcurridos en el proceso de obtención de un crédito.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-pequenas-empresas.html">Pequeñas Empresas en Torreón</a></td>
+            <td>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</td>
           </tr>
           <tr>
             <td>ND</td>

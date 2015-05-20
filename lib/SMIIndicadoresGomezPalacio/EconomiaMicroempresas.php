@@ -20,7 +20,7 @@ class EconomiaMicroempresas extends \Base\Publicacion {
         $this->nombre       = 'Microempresas en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'economia-microempresas';
+        $this->archivo      = 'economiamicroempresas';
         $this->descripcion  = 'Porcentaje del total de empresas que emplean de 0 a 10 personas.';
         $this->claves       = 'Gómez Palacio, Empresas';
         $this->categorias   = array('Empresas');
@@ -160,6 +160,18 @@ class EconomiaMicroempresas extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>20/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
+            <td>Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.</td>
+          </tr>
+          <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sed-o-no-sed.html">¿Sed o no sed?</a></td>
+            <td>El IMPLAN ve una región de grandes retos y de grandes oportunidades, capaz de rivalizar, si unimos voluntades, con avezados competidores en los mercados globalizados.</td>
+          </tr>
+          <tr>
             <td>06/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></td>
@@ -266,6 +278,12 @@ class EconomiaMicroempresas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/economia-medianas-empresas.html">Medianas Empresas en Gómez Palacio</a></td>
             <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-microempresas.html">Microempresas en Gómez Palacio</a></td>
+            <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
           </tr>
           <tr>
             <td>ND</td>

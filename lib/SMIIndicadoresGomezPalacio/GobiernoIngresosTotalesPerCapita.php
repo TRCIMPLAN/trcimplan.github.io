@@ -20,7 +20,7 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
         $this->nombre       = 'Ingresos Totales Per Cápita en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'gobierno-ingresos-totales-per-capita';
+        $this->archivo      = 'gobiernoingresos-totales-per-capita';
         $this->descripcion  = 'Ingresos totales del municipio entre el total de la población.';
         $this->claves       = 'Gómez Palacio, Finanzas Públicas';
         $this->categorias   = array('Finanzas Públicas');
@@ -182,6 +182,12 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html">Capacidad Financiera en Gómez Palacio</a></td>
             <td>Ingresos propios entre gastos corrientes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Gómez Palacio</a></td>
+            <td>Ingresos totales del municipio entre el total de la población.</td>
           </tr>
           <tr>
             <td>ND</td>

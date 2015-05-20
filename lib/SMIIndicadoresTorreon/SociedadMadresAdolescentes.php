@@ -20,7 +20,7 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
         $this->nombre       = 'Madres Adolescentes en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedad-madres-adolescentes';
+        $this->archivo      = 'sociedadmadres-adolescentes';
         $this->descripcion  = 'Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad';
         $this->claves       = 'Torreón, Grupos Vulnerables, Género';
         $this->categorias   = array('Grupos Vulnerables', 'Género');
@@ -171,6 +171,12 @@ class SociedadMadresAdolescentes extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Torreón</a></td>
             <td>Porcentaje de hogares con jefatura femenina.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-madres-adolescentes.html">Madres Adolescentes en Torreón</a></td>
+            <td>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</td>
           </tr>
           <tr>
             <td>ND</td>

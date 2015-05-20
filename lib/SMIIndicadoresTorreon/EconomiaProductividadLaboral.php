@@ -20,7 +20,7 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
         $this->nombre       = 'Productividad Laboral en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economia-productividad-laboral';
+        $this->archivo      = 'economiaproductividad-laboral';
         $this->descripcion  = 'PIB sin petróleo / PEA.';
         $this->claves       = 'Torreón, Macroeconomía, Empleo';
         $this->categorias   = array('Macroeconomía', 'Empleo');
@@ -125,6 +125,12 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>20/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
+            <td>Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.</td>
+          </tr>
           <tr>
             <td>10/03/2015</td>
             <td>Análisis</td>
@@ -292,6 +298,12 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Torreón</a></td>
             <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-productividad-laboral.html">Productividad Laboral en Torreón</a></td>
+            <td>PIB sin petróleo / PEA.</td>
           </tr>
           <tr>
             <td>ND</td>

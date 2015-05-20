@@ -20,7 +20,7 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
         $this->nombre       = 'Población que Trabaja en OTRO Municipio en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sustentabilidad-poblacion-que-trabaja-en-otro-municipio';
+        $this->archivo      = 'sustentabilidadpoblacion-que-trabaja-en-otro-municipio';
         $this->descripcion  = 'Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.';
         $this->claves       = 'Gómez Palacio, Movilidad';
         $this->categorias   = array('Movilidad');
@@ -126,6 +126,18 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
         </thead>
         <tbody>
           <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>
+            <td>Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.</td>
+          </tr>
+          <tr>
+            <td>05/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/bicicleta-alternativa-transporte.html">La Bicicleta como alternativa de transporte</a></td>
+            <td>No importa cuánto gastemos en construir vías rápidas, siempre serán insuficientes para alojar la creciente cantidad de vehículos que entran a la ciudad. Todos los ciudadanos debemos hacer conciencia e impulsar y fomentar el uso de la bicicleta.</td>
+          </tr>
+          <tr>
             <td>03/12/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/calle-completa-espacio-vital-todos.html">La Calle Completa: espacio vial para todos</a></td>
@@ -202,6 +214,12 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-pasajeros-aereos-totales.html">Pasajeros Aéreos Totales en Gómez Palacio</a></td>
             <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en Gómez Palacio</a></td>
+            <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
           </tr>
           <tr>
             <td>ND</td>

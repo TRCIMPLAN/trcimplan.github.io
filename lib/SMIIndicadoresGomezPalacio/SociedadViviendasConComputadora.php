@@ -20,7 +20,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
         $this->nombre       = 'Viviendas con Computadora en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedad-viviendas-con-computadora';
+        $this->archivo      = 'sociedadviviendas-con-computadora';
         $this->descripcion  = 'Porcentaje de viviendas habitadas con computadora.';
         $this->claves       = 'Gómez Palacio, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -187,6 +187,12 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Gómez Palacio</a></td>
             <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
           </tr>
           <tr>
             <td>ND</td>

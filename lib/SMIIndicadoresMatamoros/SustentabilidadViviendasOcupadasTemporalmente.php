@@ -20,7 +20,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Ocupadas Temporalmente en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sustentabilidad-viviendas-ocupadas-temporalmente';
+        $this->archivo      = 'sustentabilidadviviendas-ocupadas-temporalmente';
         $this->descripcion  = 'Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.';
         $this->claves       = 'Matamoros, Vivienda, Movilidad';
         $this->categorias   = array('Vivienda', 'Movilidad');
@@ -122,6 +122,18 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>
+            <td>Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.</td>
+          </tr>
+          <tr>
+            <td>05/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/bicicleta-alternativa-transporte.html">La Bicicleta como alternativa de transporte</a></td>
+            <td>No importa cuánto gastemos en construir vías rápidas, siempre serán insuficientes para alojar la creciente cantidad de vehículos que entran a la ciudad. Todos los ciudadanos debemos hacer conciencia e impulsar y fomentar el uso de la bicicleta.</td>
+          </tr>
           <tr>
             <td>03/12/2014</td>
             <td>Análisis</td>
@@ -247,6 +259,12 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Matamoros</a></td>
             <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Matamoros</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
         $this->nombre       = 'Accidentes Viales Fatales en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'seguridad-accidentes-viales-fatales';
+        $this->archivo      = 'seguridadaccidentes-viales-fatales';
         $this->descripcion  = 'Cantidad de accidentes viales fatales por año.';
         $this->claves       = 'Lerdo, Vialidad';
         $this->categorias   = array('Vialidad');
@@ -151,6 +151,12 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Lerdo</a></td>
             <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Lerdo</a></td>
+            <td>Cantidad de accidentes viales fatales por año.</td>
           </tr>
           <tr>
             <td>ND</td>

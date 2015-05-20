@@ -20,7 +20,7 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
         $this->nombre       = 'Mortalidad por Diabetes en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedad-mortalidad-por-diabetes';
+        $this->archivo      = 'sociedadmortalidad-por-diabetes';
         $this->descripcion  = 'Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.';
         $this->claves       = 'Gómez Palacio, Salud';
         $this->categorias   = array('Salud');
@@ -261,6 +261,12 @@ class SociedadMortalidadPorDiabetes extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad.html">Mortalidad en Gómez Palacio</a></td>
             <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Gómez Palacio</a></td>
+            <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
           </tr>
           <tr>
             <td>ND</td>

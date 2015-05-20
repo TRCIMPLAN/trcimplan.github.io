@@ -20,7 +20,7 @@ class SociedadViviendasConEnergiaElectrica extends \Base\Publicacion {
         $this->nombre       = 'Viviendas con Energía Eléctrica en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedad-viviendas-con-energia-electrica';
+        $this->archivo      = 'sociedadviviendas-con-energia-electrica';
         $this->descripcion  = 'Porcentaje de viviendas con acceso a energía eléctrica';
         $this->claves       = 'Gómez Palacio, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -199,6 +199,12 @@ class SociedadViviendasConEnergiaElectrica extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Gómez Palacio</a></td>
             <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
           </tr>
           <tr>
             <td>ND</td>

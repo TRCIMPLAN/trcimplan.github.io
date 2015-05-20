@@ -20,7 +20,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         $this->nombre       = 'Población Estimada en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedad-poblacion-estimada';
+        $this->archivo      = 'sociedadpoblacion-estimada';
         $this->descripcion  = 'Población estimada a mitad de año.';
         $this->claves       = 'Gómez Palacio, Población';
         $this->categorias   = array('Población');
@@ -222,6 +222,12 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-catolica.html">Población Católica en Gómez Palacio</a></td>
             <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html">Población Estimada en Gómez Palacio</a></td>
+            <td>Población estimada a mitad de año.</td>
           </tr>
           <tr>
             <td>ND</td>

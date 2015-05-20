@@ -20,7 +20,7 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
         $this->nombre       = 'Cartera Hipotecaria en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'economia-cartera-hipotecaria';
+        $this->archivo      = 'economiacartera-hipotecaria';
         $this->descripcion  = 'Monto total de créditos otorgados hasta la fecha indicada.';
         $this->claves       = 'Matamoros, Mercados';
         $this->categorias   = array('Mercados');
@@ -157,6 +157,18 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>20/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
+            <td>Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.</td>
+          </tr>
+          <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sed-o-no-sed.html">¿Sed o no sed?</a></td>
+            <td>El IMPLAN ve una región de grandes retos y de grandes oportunidades, capaz de rivalizar, si unimos voluntades, con avezados competidores en los mercados globalizados.</td>
+          </tr>
+          <tr>
             <td>03/02/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/tasa-inflacion-precios-torreon-2014.html">Tasa de inflación y precios en Torreón 2014</a></td>
@@ -173,6 +185,12 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/estabilidad-de-precios-en-torreon.html">Estabilidad de Precios en Torreón</a></td>
             <td>En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-cartera-hipotecaria.html">Cartera Hipotecaria en Matamoros</a></td>
+            <td>Monto total de créditos otorgados hasta la fecha indicada.</td>
           </tr>
           <tr>
             <td>ND</td>

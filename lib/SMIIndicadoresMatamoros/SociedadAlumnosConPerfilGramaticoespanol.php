@@ -20,7 +20,7 @@ class SociedadAlumnosConPerfilGramaticoespanol extends \Base\Publicacion {
         $this->nombre       = 'Alumnos con Perfil Gramático-Español en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedad-alumnos-con-perfil-gramatico-espanol';
+        $this->archivo      = 'sociedadalumnos-con-perfil-gramaticoespanol';
         $this->descripcion  = 'Alumnos buenos y excelentes en Prueba Enlace nivel básico.';
         $this->claves       = 'Matamoros, Educación';
         $this->categorias   = array('Educación');
@@ -161,6 +161,12 @@ Consulta la <a href="http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en Matamoros</a></td>
             <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en Matamoros</a></td>
+            <td>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
           </tr>
           <tr>
             <td>ND</td>

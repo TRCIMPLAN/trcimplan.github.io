@@ -20,7 +20,7 @@ class SociedadAlumnosConPerfilGramaticoespanol extends \Base\Publicacion {
         $this->nombre       = 'Alumnos con Perfil Gramático-Español en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedad-alumnos-con-perfil-gramatico-espanol';
+        $this->archivo      = 'sociedadalumnos-con-perfil-gramaticoespanol';
         $this->descripcion  = 'Alumnos buenos y excelentes en Prueba Enlace nivel básico.';
         $this->claves       = 'Gómez Palacio, Educación';
         $this->categorias   = array('Educación');
@@ -161,6 +161,12 @@ Consulta la <a href="http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en Gómez Palacio</a></td>
             <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en Gómez Palacio</a></td>
+            <td>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
           </tr>
           <tr>
             <td>ND</td>

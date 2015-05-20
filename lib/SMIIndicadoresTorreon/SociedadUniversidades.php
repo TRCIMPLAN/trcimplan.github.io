@@ -20,7 +20,7 @@ class SociedadUniversidades extends \Base\Publicacion {
         $this->nombre       = 'Universidades en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedad-universidades';
+        $this->archivo      = 'sociedaduniversidades';
         $this->descripcion  = 'Planteles de Instituciones de Educación Superior.';
         $this->claves       = 'Torreón, Educación';
         $this->categorias   = array('Educación');
@@ -232,6 +232,12 @@ class SociedadUniversidades extends \Base\Publicacion {
             <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
 Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
 Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-universidades.html">Universidades en Torreón</a></td>
+            <td>Planteles de Instituciones de Educación Superior.</td>
           </tr>
         </tbody>
       </table>

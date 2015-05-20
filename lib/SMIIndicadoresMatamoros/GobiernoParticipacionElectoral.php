@@ -20,7 +20,7 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
         $this->nombre       = 'Participación Electoral en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'gobierno-participacion-electoral';
+        $this->archivo      = 'gobiernoparticipacion-electoral';
         $this->descripcion  = 'Porcentaje de personas que emitieron su voto.';
         $this->claves       = 'Matamoros, Participación Ciudadana';
         $this->categorias   = array('Participación Ciudadana');
@@ -157,6 +157,12 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Matamoros</a></td>
             <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-participacion-electoral.html">Participación Electoral en Matamoros</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
           </tr>
         </tbody>
       </table>

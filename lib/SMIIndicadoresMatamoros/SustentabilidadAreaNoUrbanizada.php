@@ -20,7 +20,7 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
         $this->nombre       = 'Área No Urbanizada en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sustentabilidad-area-no-urbanizada';
+        $this->archivo      = 'sustentabilidadarea-no-urbanizada';
         $this->descripcion  = 'Área total de localidades no urbanizadas sobre la superficie municipal.';
         $this->claves       = 'Matamoros, Recursos Naturales';
         $this->categorias   = array('Recursos Naturales');
@@ -196,6 +196,12 @@ class SustentabilidadAreaNoUrbanizada extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sustentabilidad-volumen-tratado-de-aguas-residuales.html">Volumen Tratado de Aguas Residuales en Matamoros</a></td>
             <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Matamoros</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
           </tr>
         </tbody>
       </table>

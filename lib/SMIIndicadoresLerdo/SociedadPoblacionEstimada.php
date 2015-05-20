@@ -20,7 +20,7 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         $this->nombre       = 'Población Estimada en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-poblacion-estimada';
+        $this->archivo      = 'sociedadpoblacion-estimada';
         $this->descripcion  = 'Población estimada a mitad de año.';
         $this->claves       = 'Lerdo, Población';
         $this->categorias   = array('Población');
@@ -222,6 +222,12 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-poblacion-catolica.html">Población Católica en Lerdo</a></td>
             <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-poblacion-estimada.html">Población Estimada en Lerdo</a></td>
+            <td>Población estimada a mitad de año.</td>
           </tr>
           <tr>
             <td>ND</td>

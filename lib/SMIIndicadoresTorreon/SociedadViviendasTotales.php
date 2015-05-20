@@ -20,7 +20,7 @@ class SociedadViviendasTotales extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Totales en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedad-viviendas-totales';
+        $this->archivo      = 'sociedadviviendas-totales';
         $this->descripcion  = '';
         $this->claves       = 'Torreón, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -163,6 +163,12 @@ class SociedadViviendasTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Torreón</a></td>
             <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-totales.html">Viviendas Totales en Torreón</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>

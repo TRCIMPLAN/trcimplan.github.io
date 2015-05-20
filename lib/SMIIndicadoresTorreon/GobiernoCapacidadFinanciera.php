@@ -20,7 +20,7 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
         $this->nombre       = 'Capacidad Financiera en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'gobierno-capacidad-financiera';
+        $this->archivo      = 'gobiernocapacidad-financiera';
         $this->descripcion  = 'Ingresos propios entre gastos corrientes.';
         $this->claves       = 'Torreón, Finanzas Públicas';
         $this->categorias   = array('Finanzas Públicas');
@@ -183,6 +183,12 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/independencia-finanzas-publicas.html">Independencia de las Finanzas Públicas</a></td>
             <td>Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-capacidad-financiera.html">Capacidad Financiera en Torreón</a></td>
+            <td>Ingresos propios entre gastos corrientes.</td>
           </tr>
           <tr>
             <td>ND</td>

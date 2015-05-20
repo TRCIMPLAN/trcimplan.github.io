@@ -20,7 +20,7 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
         $this->nombre       = 'Población Derechohabiente en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-poblacion-derechohabiente';
+        $this->archivo      = 'sociedadpoblacion-derechohabiente';
         $this->descripcion  = 'Población derechohabiente a los servicios de salud.';
         $this->claves       = 'Lerdo, Salud';
         $this->categorias   = array('Salud');
@@ -178,6 +178,12 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-medicos.html">Médicos en Lerdo</a></td>
             <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Lerdo</a></td>
+            <td>Población derechohabiente a los servicios de salud.</td>
           </tr>
           <tr>
             <td>ND</td>

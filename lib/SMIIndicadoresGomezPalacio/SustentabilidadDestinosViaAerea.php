@@ -20,7 +20,7 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
         $this->nombre       = 'Destinos Vía Aérea en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sustentabilidad-destinos-via-aerea';
+        $this->archivo      = 'sustentabilidaddestinos-via-aerea';
         $this->descripcion  = 'Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.';
         $this->claves       = 'Gómez Palacio, Movilidad';
         $this->categorias   = array('Movilidad');
@@ -126,6 +126,18 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>
+            <td>Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.</td>
+          </tr>
+          <tr>
+            <td>05/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/bicicleta-alternativa-transporte.html">La Bicicleta como alternativa de transporte</a></td>
+            <td>No importa cuánto gastemos en construir vías rápidas, siempre serán insuficientes para alojar la creciente cantidad de vehículos que entran a la ciudad. Todos los ciudadanos debemos hacer conciencia e impulsar y fomentar el uso de la bicicleta.</td>
+          </tr>
+          <tr>
             <td>03/12/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/calle-completa-espacio-vital-todos.html">La Calle Completa: espacio vial para todos</a></td>
@@ -166,6 +178,12 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Gómez Palacio</a></td>
             <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Gómez Palacio</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
           </tr>
           <tr>
             <td>ND</td>

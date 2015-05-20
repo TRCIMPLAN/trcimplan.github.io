@@ -20,7 +20,7 @@ class SociedadOcupacionPorVivienda extends \Base\Publicacion {
         $this->nombre       = 'Ocupación por Vivienda en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-ocupacion-por-vivienda';
+        $this->archivo      = 'sociedadocupacion-por-vivienda';
         $this->descripcion  = 'Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.';
         $this->claves       = 'Lerdo, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -142,6 +142,12 @@ class SociedadOcupacionPorVivienda extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/sociedad-incluyente-preparada-sana.html">Sociedad Incluyente, Preparada y Sana</a></td>
             <td>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Lerdo</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
           </tr>
           <tr>
             <td>ND</td>

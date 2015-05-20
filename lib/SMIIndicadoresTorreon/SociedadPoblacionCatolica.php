@@ -20,7 +20,7 @@ class SociedadPoblacionCatolica extends \Base\Publicacion {
         $this->nombre       = 'Población Católica en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedad-poblacion-catolica';
+        $this->archivo      = 'sociedadpoblacion-catolica';
         $this->descripcion  = 'Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.';
         $this->claves       = 'Torreón, Población';
         $this->categorias   = array('Población');
@@ -149,6 +149,12 @@ class SociedadPoblacionCatolica extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
             <td>Tasa de fecundidad.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-poblacion-catolica.html">Población Católica en Torreón</a></td>
+            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
         $this->nombre       = 'Alumbrado Público en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sustentabilidad-alumbrado-publico';
+        $this->archivo      = 'sustentabilidadalumbrado-publico';
         $this->descripcion  = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
         $this->claves       = 'Matamoros, Servicios Públicos';
         $this->categorias   = array('Servicios Públicos');
@@ -125,6 +125,12 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-alumbrado-publico.html">Alumbrado Público en Matamoros</a></td>
+            <td>Porcentaje de viviendas sin acceso a alumbrado público en su manzana</td>
+          </tr>
         </tbody>
       </table>
     </div>

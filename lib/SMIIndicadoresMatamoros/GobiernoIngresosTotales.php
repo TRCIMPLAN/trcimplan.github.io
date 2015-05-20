@@ -20,7 +20,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         $this->nombre       = 'Ingresos Totales en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'gobierno-ingresos-totales';
+        $this->archivo      = 'gobiernoingresos-totales';
         $this->descripcion  = 'Ingresos totales por municipio.';
         $this->claves       = 'Matamoros, Finanzas Públicas';
         $this->categorias   = array('Finanzas Públicas');
@@ -194,6 +194,12 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Matamoros</a></td>
             <td>Ingresos totales del municipio entre el total de la población.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-ingresos-totales.html">Ingresos Totales en Matamoros</a></td>
+            <td>Ingresos totales por municipio.</td>
           </tr>
           <tr>
             <td>ND</td>

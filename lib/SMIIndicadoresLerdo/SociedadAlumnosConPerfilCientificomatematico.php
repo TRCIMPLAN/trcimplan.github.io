@@ -20,7 +20,7 @@ class SociedadAlumnosConPerfilCientificomatematico extends \Base\Publicacion {
         $this->nombre       = 'Alumnos con Perfil Científico-Matemático en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-alumnos-con-perfil-cientifico-matematico';
+        $this->archivo      = 'sociedadalumnos-con-perfil-cientificomatematico';
         $this->descripcion  = 'Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.';
         $this->claves       = 'Lerdo, Educación';
         $this->categorias   = array('Educación');
@@ -155,6 +155,12 @@ Consulta la <a href="http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos
             <td>Análisis</td>
             <td><a href="../blog/sociedad-incluyente-preparada-sana.html">Sociedad Incluyente, Preparada y Sana</a></td>
             <td>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en Lerdo</a></td>
+            <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
           </tr>
           <tr>
             <td>ND</td>

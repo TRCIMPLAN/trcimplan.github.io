@@ -20,7 +20,7 @@ class SociedadPobrezaExtrema extends \Base\Publicacion {
         $this->nombre       = 'Pobreza Extrema en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedad-pobreza-extrema';
+        $this->archivo      = 'sociedadpobreza-extrema';
         $this->descripcion  = 'Porcentaje de la población en situación de pobreza extrema.';
         $this->claves       = 'Torreón, Bienestar, Objetivos del Milenio';
         $this->categorias   = array('Bienestar', 'Objetivos del Milenio');
@@ -147,6 +147,12 @@ class SociedadPobrezaExtrema extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>
+            <td>Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.</td>
+          </tr>
+          <tr>
             <td>04/02/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/generaciones-cambio.html">Las generaciones del cambio</a></td>
@@ -223,6 +229,12 @@ class SociedadPobrezaExtrema extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Torreón</a></td>
             <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-pobreza-extrema.html">Pobreza Extrema en Torreón</a></td>
+            <td>Porcentaje de la población en situación de pobreza extrema.</td>
           </tr>
           <tr>
             <td>ND</td>

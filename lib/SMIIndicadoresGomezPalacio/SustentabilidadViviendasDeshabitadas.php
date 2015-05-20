@@ -20,7 +20,7 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Deshabitadas en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sustentabilidad-viviendas-deshabitadas';
+        $this->archivo      = 'sustentabilidadviviendas-deshabitadas';
         $this->descripcion  = 'Viviendas deshabitadas con respecto al total de viviendas totales.';
         $this->claves       = 'Gómez Palacio, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -155,6 +155,12 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Gómez Palacio</a></td>
             <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Gómez Palacio</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
           </tr>
           <tr>
             <td>ND</td>

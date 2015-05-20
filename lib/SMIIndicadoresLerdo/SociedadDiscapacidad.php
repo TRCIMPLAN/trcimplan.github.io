@@ -20,7 +20,7 @@ class SociedadDiscapacidad extends \Base\Publicacion {
         $this->nombre       = 'Discapacidad en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-discapacidad';
+        $this->archivo      = 'sociedaddiscapacidad';
         $this->descripcion  = 'Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)';
         $this->claves       = 'Lerdo, Grupos Vulnerables';
         $this->categorias   = array('Grupos Vulnerables');
@@ -168,6 +168,12 @@ class SociedadDiscapacidad extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-adultos-mayores.html">Adultos Mayores en Lerdo</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-discapacidad.html">Discapacidad en Lerdo</a></td>
+            <td>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</td>
           </tr>
           <tr>
             <td>ND</td>

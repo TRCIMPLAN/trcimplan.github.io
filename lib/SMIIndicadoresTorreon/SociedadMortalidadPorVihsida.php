@@ -20,7 +20,7 @@ class SociedadMortalidadPorVihsida extends \Base\Publicacion {
         $this->nombre       = 'Mortalidad por VIH-SIDA en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedad-mortalidad-por-vih-sida';
+        $this->archivo      = 'sociedadmortalidad-por-vihsida';
         $this->descripcion  = 'Defunciones a causa de VIH/SIDA por cada 100,000 habitantes';
         $this->claves       = 'Torreón, Salud, Bienestar, Grupos Vulnerables, Objetivos del Milenio';
         $this->categorias   = array('Salud', 'Bienestar', 'Grupos Vulnerables', 'Objetivos del Milenio');
@@ -143,6 +143,12 @@ class SociedadMortalidadPorVihsida extends \Base\Publicacion {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>
+            <td>Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.</td>
+          </tr>
           <tr>
             <td>04/02/2015</td>
             <td>Análisis</td>
@@ -292,6 +298,12 @@ class SociedadMortalidadPorVihsida extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Torreón</a></td>
             <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Torreón</a></td>
+            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
           </tr>
           <tr>
             <td>ND</td>

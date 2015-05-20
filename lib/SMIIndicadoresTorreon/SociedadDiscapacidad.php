@@ -20,7 +20,7 @@ class SociedadDiscapacidad extends \Base\Publicacion {
         $this->nombre       = 'Discapacidad en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedad-discapacidad';
+        $this->archivo      = 'sociedaddiscapacidad';
         $this->descripcion  = 'Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)';
         $this->claves       = 'Torreón, Grupos Vulnerables';
         $this->categorias   = array('Grupos Vulnerables');
@@ -168,6 +168,12 @@ class SociedadDiscapacidad extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-adultos-mayores.html">Adultos Mayores en Torreón</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-discapacidad.html">Discapacidad en Torreón</a></td>
+            <td>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</td>
           </tr>
           <tr>
             <td>ND</td>

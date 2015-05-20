@@ -20,7 +20,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
         $this->nombre       = 'Viviendas con Computadora en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-viviendas-con-computadora';
+        $this->archivo      = 'sociedadviviendas-con-computadora';
         $this->descripcion  = 'Porcentaje de viviendas habitadas con computadora.';
         $this->claves       = 'Lerdo, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -187,6 +187,12 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Lerdo</a></td>
             <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
           </tr>
           <tr>
             <td>ND</td>

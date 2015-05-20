@@ -20,7 +20,7 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
         $this->nombre       = 'Mortalidad Infantil en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-mortalidad-infantil';
+        $this->archivo      = 'sociedadmortalidad-infantil';
         $this->descripcion  = 'Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos';
         $this->claves       = 'Lerdo, Salud, Objetivos del Milenio';
         $this->categorias   = array('Salud', 'Objetivos del Milenio');
@@ -201,6 +201,12 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Lerdo</a></td>
             <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Lerdo</a></td>
+            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
           </tr>
           <tr>
             <td>ND</td>

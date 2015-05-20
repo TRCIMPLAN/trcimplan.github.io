@@ -20,7 +20,7 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
         $this->nombre       = 'Accidentes Viales en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'seguridad-accidentes-viales';
+        $this->archivo      = 'seguridadaccidentes-viales';
         $this->descripcion  = 'Cantidad de accidentes viales por año.';
         $this->claves       = 'Matamoros, Vialidad';
         $this->categorias   = array('Vialidad');
@@ -258,6 +258,12 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Matamoros</a></td>
             <td>Cantidad de accidentes viales fatales por año.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/seguridad-accidentes-viales.html">Accidentes Viales en Matamoros</a></td>
+            <td>Cantidad de accidentes viales por año.</td>
           </tr>
           <tr>
             <td>ND</td>

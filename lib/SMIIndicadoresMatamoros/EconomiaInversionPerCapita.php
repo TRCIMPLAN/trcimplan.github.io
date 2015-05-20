@@ -20,7 +20,7 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
         $this->nombre       = 'Inversión Per cápita en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'economia-inversion-per-capita';
+        $this->archivo      = 'economiainversion-per-capita';
         $this->descripcion  = 'Gasto en obras públicas y acciones sociales entre población total.';
         $this->claves       = 'Matamoros, Macroeconomía, Finanzas Públicas';
         $this->categorias   = array('Macroeconomía', 'Finanzas Públicas');
@@ -248,6 +248,12 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/economia-inversion-extranjera-directa.html">Inversión Extranjera Directa en Matamoros</a></td>
             <td>Promedio de inversión entre 2008 y 2012.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-inversion-per-capita.html">Inversión Per cápita en Matamoros</a></td>
+            <td>Gasto en obras públicas y acciones sociales entre población total.</td>
           </tr>
           <tr>
             <td>ND</td>

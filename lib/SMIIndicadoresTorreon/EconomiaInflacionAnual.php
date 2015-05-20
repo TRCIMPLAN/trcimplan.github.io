@@ -20,7 +20,7 @@ class EconomiaInflacionAnual extends \Base\Publicacion {
         $this->nombre       = 'Inflación anual en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economia-inflacion-anual';
+        $this->archivo      = 'economiainflacion-anual';
         $this->descripcion  = '';
         $this->claves       = 'Torreón, Macroeconomía';
         $this->categorias   = array('Macroeconomía');
@@ -225,6 +225,12 @@ class EconomiaInflacionAnual extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
             <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-inflacion-anual.html">Inflación anual en Torreón</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>

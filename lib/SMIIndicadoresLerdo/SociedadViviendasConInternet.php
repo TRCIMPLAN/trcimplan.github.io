@@ -20,7 +20,7 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
         $this->nombre       = 'Viviendas con Internet en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-viviendas-con-internet';
+        $this->archivo      = 'sociedadviviendas-con-internet';
         $this->descripcion  = 'Porcentaje de viviendas habitadas con internet.';
         $this->claves       = 'Lerdo, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -205,6 +205,12 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Lerdo</a></td>
             <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-internet.html">Viviendas con Internet en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
           </tr>
           <tr>
             <td>ND</td>

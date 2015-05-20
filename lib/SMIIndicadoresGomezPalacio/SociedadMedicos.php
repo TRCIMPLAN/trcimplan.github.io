@@ -20,7 +20,7 @@ class SociedadMedicos extends \Base\Publicacion {
         $this->nombre       = 'Médicos en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedad-medicos';
+        $this->archivo      = 'sociedadmedicos';
         $this->descripcion  = 'Médicos en contacto con pacientes por cada diez mil personas.';
         $this->claves       = 'Gómez Palacio, Salud';
         $this->categorias   = array('Salud');
@@ -270,6 +270,12 @@ class SociedadMedicos extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Gómez Palacio</a></td>
             <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-medicos.html">Médicos en Gómez Palacio</a></td>
+            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
           </tr>
           <tr>
             <td>ND</td>

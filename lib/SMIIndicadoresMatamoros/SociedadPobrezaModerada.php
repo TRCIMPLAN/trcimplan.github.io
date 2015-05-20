@@ -20,7 +20,7 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
         $this->nombre       = 'Pobreza Moderada en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedad-pobreza-moderada';
+        $this->archivo      = 'sociedadpobreza-moderada';
         $this->descripcion  = 'Porcentaje de la población en situación de pobreza moderada.';
         $this->claves       = 'Matamoros, Bienestar';
         $this->categorias   = array('Bienestar');
@@ -147,6 +147,12 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>
+            <td>Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.</td>
+          </tr>
+          <tr>
             <td>04/02/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/generaciones-cambio.html">Las generaciones del cambio</a></td>
@@ -211,6 +217,12 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-pobreza-extrema.html">Pobreza Extrema en Matamoros</a></td>
             <td>Porcentaje de la población en situación de pobreza extrema.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-pobreza-moderada.html">Pobreza Moderada en Matamoros</a></td>
+            <td>Porcentaje de la población en situación de pobreza moderada.</td>
           </tr>
           <tr>
             <td>ND</td>

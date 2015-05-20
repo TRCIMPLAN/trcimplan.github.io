@@ -20,7 +20,7 @@ class SociedadPoblacionCatolica extends \Base\Publicacion {
         $this->nombre       = 'Población Católica en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedad-poblacion-catolica';
+        $this->archivo      = 'sociedadpoblacion-catolica';
         $this->descripcion  = 'Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.';
         $this->claves       = 'Matamoros, Población';
         $this->categorias   = array('Población');
@@ -143,6 +143,12 @@ class SociedadPoblacionCatolica extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
             <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-poblacion-catolica.html">Población Católica en Matamoros</a></td>
+            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
           </tr>
           <tr>
             <td>ND</td>

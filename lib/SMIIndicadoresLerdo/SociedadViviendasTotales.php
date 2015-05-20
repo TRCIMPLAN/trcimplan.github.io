@@ -20,7 +20,7 @@ class SociedadViviendasTotales extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Totales en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-viviendas-totales';
+        $this->archivo      = 'sociedadviviendas-totales';
         $this->descripcion  = '';
         $this->claves       = 'Lerdo, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -163,6 +163,12 @@ class SociedadViviendasTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Lerdo</a></td>
             <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-totales.html">Viviendas Totales en Lerdo</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>

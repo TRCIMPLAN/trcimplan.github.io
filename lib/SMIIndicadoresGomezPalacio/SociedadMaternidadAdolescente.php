@@ -20,7 +20,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
         $this->nombre       = 'Maternidad Adolescente en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedad-maternidad-adolescente';
+        $this->archivo      = 'sociedadmaternidad-adolescente';
         $this->descripcion  = '';
         $this->claves       = 'Gómez Palacio, Género';
         $this->categorias   = array('Género');
@@ -148,6 +148,12 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Gómez Palacio</a></td>
             <td>Porcentaje de hogares con jefatura femenina.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Gómez Palacio</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>ND</td>

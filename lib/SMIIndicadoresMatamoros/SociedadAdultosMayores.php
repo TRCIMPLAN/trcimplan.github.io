@@ -20,7 +20,7 @@ class SociedadAdultosMayores extends \Base\Publicacion {
         $this->nombre       = 'Adultos Mayores en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedad-adultos-mayores';
+        $this->archivo      = 'sociedadadultos-mayores';
         $this->descripcion  = 'Población estimada a mediados de año de personas de 65 años y más';
         $this->claves       = 'Matamoros, Grupos Vulnerables';
         $this->categorias   = array('Grupos Vulnerables');
@@ -225,6 +225,12 @@ class SociedadAdultosMayores extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino en Matamoros</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más de sexo masculino</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-adultos-mayores.html">Adultos Mayores en Matamoros</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más</td>
           </tr>
           <tr>
             <td>ND</td>

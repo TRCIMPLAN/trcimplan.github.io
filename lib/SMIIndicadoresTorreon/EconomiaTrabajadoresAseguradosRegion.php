@@ -20,7 +20,7 @@ class EconomiaTrabajadoresAseguradosRegion extends \Base\Publicacion {
         $this->nombre       = 'Trabajadores Asegurados (Región) en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economia-trabajadores-asegurados--region-';
+        $this->archivo      = 'economiatrabajadores-asegurados-region';
         $this->descripcion  = 'Evolución del empleo medida en trabajadores asegurados por el IMSS.';
         $this->claves       = 'Torreón, Empleo';
         $this->categorias   = array('Empleo');
@@ -114,6 +114,12 @@ class EconomiaTrabajadoresAseguradosRegion extends \Base\Publicacion {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>20/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
+            <td>Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.</td>
+          </tr>
           <tr>
             <td>10/03/2015</td>
             <td>Análisis</td>
@@ -251,6 +257,12 @@ class EconomiaTrabajadoresAseguradosRegion extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-tasa-de-informalidad.html">Tasa de informalidad en Torreón</a></td>
             <td>Tasa de empleos informales.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-trabajadores-asegurados--region-.html">Trabajadores Asegurados (Región) en Torreón</a></td>
+            <td>Evolución del empleo medida en trabajadores asegurados por el IMSS.</td>
           </tr>
           <tr>
             <td>ND</td>

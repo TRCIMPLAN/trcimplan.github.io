@@ -20,7 +20,7 @@ class SociedadMedicos extends \Base\Publicacion {
         $this->nombre       = 'Médicos en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-medicos';
+        $this->archivo      = 'sociedadmedicos';
         $this->descripcion  = 'Médicos en contacto con pacientes por cada diez mil personas.';
         $this->claves       = 'Lerdo, Salud';
         $this->categorias   = array('Salud');
@@ -270,6 +270,12 @@ class SociedadMedicos extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Lerdo</a></td>
             <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-medicos.html">Médicos en Lerdo</a></td>
+            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
           </tr>
           <tr>
             <td>ND</td>

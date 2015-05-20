@@ -20,7 +20,7 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
         $this->nombre       = 'Accidentes Viales en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'seguridad-accidentes-viales';
+        $this->archivo      = 'seguridadaccidentes-viales';
         $this->descripcion  = 'Cantidad de accidentes viales por año.';
         $this->claves       = 'Gómez Palacio, Vialidad';
         $this->categorias   = array('Vialidad');
@@ -258,6 +258,12 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Gómez Palacio</a></td>
             <td>Cantidad de accidentes viales fatales por año.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html">Accidentes Viales en Gómez Palacio</a></td>
+            <td>Cantidad de accidentes viales por año.</td>
           </tr>
           <tr>
             <td>ND</td>

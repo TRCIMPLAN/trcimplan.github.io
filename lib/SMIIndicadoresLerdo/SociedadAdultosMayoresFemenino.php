@@ -20,7 +20,7 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
         $this->nombre       = 'Adultos Mayores Femenino en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedad-adultos-mayores-femenino';
+        $this->archivo      = 'sociedadadultos-mayores-femenino';
         $this->descripcion  = 'Población estimada a mediados de año de personas de 65 años y más de sexo femenino.';
         $this->claves       = 'Lerdo, Grupos Vulnerables, Género';
         $this->categorias   = array('Grupos Vulnerables', 'Género');
@@ -219,6 +219,12 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
             <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Lerdo</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
           </tr>
           <tr>
             <td>ND</td>

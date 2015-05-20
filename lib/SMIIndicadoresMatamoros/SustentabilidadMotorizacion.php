@@ -20,7 +20,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         $this->nombre       = 'Motorización en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sustentabilidad-motorizacion';
+        $this->archivo      = 'sustentabilidadmotorizacion';
         $this->descripcion  = 'Vehículos automotores registrados en circulación.';
         $this->claves       = 'Matamoros, Recursos Naturales, Movilidad, Vialidad';
         $this->categorias   = array('Recursos Naturales', 'Movilidad', 'Vialidad');
@@ -230,6 +230,18 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>
+            <td>Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.</td>
+          </tr>
+          <tr>
+            <td>05/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/bicicleta-alternativa-transporte.html">La Bicicleta como alternativa de transporte</a></td>
+            <td>No importa cuánto gastemos en construir vías rápidas, siempre serán insuficientes para alojar la creciente cantidad de vehículos que entran a la ciudad. Todos los ciudadanos debemos hacer conciencia e impulsar y fomentar el uso de la bicicleta.</td>
+          </tr>
+          <tr>
             <td>27/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/objetivos-milenio.html">La Zona Metropolitana de La Laguna y los Objetivos del Milenio</a></td>
@@ -360,6 +372,12 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sustentabilidad-generacion-de-basura.html">Generación de Basura en Matamoros</a></td>
             <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-motorizacion.html">Motorización en Matamoros</a></td>
+            <td>Vehículos automotores registrados en circulación.</td>
           </tr>
           <tr>
             <td>ND</td>
