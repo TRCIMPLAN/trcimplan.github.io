@@ -119,8 +119,8 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-12-31</td>
-            <td>55,446</td>
+            <td>2014-12-31</td>
+            <td>54,154</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -266,7 +266,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 54154 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 55446 },{ region: 'Nacional', dato: 14694935 }],
+      data: [{ region: 'Torreón', dato: 54154 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 54154 },{ region: 'Nacional', dato: 14694935 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

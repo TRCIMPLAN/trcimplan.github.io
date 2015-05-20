@@ -213,7 +213,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Desempleo Abierto</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">7.09 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">6.27 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
