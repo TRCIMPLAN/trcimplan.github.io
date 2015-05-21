@@ -20,7 +20,7 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
         $this->nombre       = 'Grandes Empresas en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'economiagrandes-empresas';
+        $this->archivo      = 'economia-grandes-empresas';
         $this->descripcion  = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
         $this->claves       = 'Matamoros, Empresas';
         $this->categorias   = array('Empresas');
@@ -261,12 +261,6 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/economia-empresas-exportadoras.html">Empresas Exportadoras en Matamoros</a></td>
             <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-grandes-empresas.html">Grandes Empresas en Matamoros</a></td>
-            <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
           </tr>
           <tr>
             <td>ND</td>

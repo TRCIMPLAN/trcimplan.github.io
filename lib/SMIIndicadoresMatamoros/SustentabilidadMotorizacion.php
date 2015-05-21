@@ -20,7 +20,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         $this->nombre       = 'Motorización en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sustentabilidadmotorizacion';
+        $this->archivo      = 'sustentabilidad-motorizacion';
         $this->descripcion  = 'Vehículos automotores registrados en circulación.';
         $this->claves       = 'Matamoros, Recursos Naturales, Movilidad, Vialidad';
         $this->categorias   = array('Recursos Naturales', 'Movilidad', 'Vialidad');
@@ -372,12 +372,6 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sustentabilidad-generacion-de-basura.html">Generación de Basura en Matamoros</a></td>
             <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-motorizacion.html">Motorización en Matamoros</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
           </tr>
           <tr>
             <td>ND</td>

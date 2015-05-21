@@ -20,7 +20,7 @@ class SeguridadDelitos extends \Base\Publicacion {
         $this->nombre       = 'Delitos en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'seguridaddelitos';
+        $this->archivo      = 'seguridad-delitos';
         $this->descripcion  = 'Total de delitos cometidos.';
         $this->claves       = 'Matamoros, Delincuencia, Seguridad';
         $this->categorias   = array('Delincuencia', 'Seguridad');
@@ -246,12 +246,6 @@ class SeguridadDelitos extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/zml-sistema-derecho-confiable-objetivo.html">La Zona Metropolitana de La Laguna y sus municipios en Sistema de Derecho Confiable y Objetivo</a></td>
             <td>De acuerdo al ICU 2012, es el subíndice más débil de la región; algunos de sus subíndices ponderados con alto peso por el IMCO corresponden a rubros de seguridad pública.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-delitos.html">Delitos en Matamoros</a></td>
-            <td>Total de delitos cometidos.</td>
           </tr>
           <tr>
             <td>ND</td>

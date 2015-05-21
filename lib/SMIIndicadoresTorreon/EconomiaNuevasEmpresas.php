@@ -20,7 +20,7 @@ class EconomiaNuevasEmpresas extends \Base\Publicacion {
         $this->nombre       = 'Nuevas Empresas en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economianuevas-empresas';
+        $this->archivo      = 'economia-nuevas-empresas';
         $this->descripcion  = 'Número de nuevas empresas registradas en ventanilla universal en el periodo señalado.';
         $this->claves       = 'Torreón, Empresas';
         $this->categorias   = array('Empresas');
@@ -642,12 +642,6 @@ class EconomiaNuevasEmpresas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-microempresas.html">Microempresas en Torreón</a></td>
             <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-nuevas-empresas.html">Nuevas Empresas en Torreón</a></td>
-            <td>Número de nuevas empresas registradas en ventanilla universal en el periodo señalado.</td>
           </tr>
           <tr>
             <td>ND</td>

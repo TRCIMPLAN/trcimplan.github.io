@@ -20,7 +20,7 @@ class SociedadPoblacionCatolica extends \Base\Publicacion {
         $this->nombre       = 'Población Católica en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedadpoblacion-catolica';
+        $this->archivo      = 'sociedad-poblacion-catolica';
         $this->descripcion  = 'Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.';
         $this->claves       = 'Lerdo, Población';
         $this->categorias   = array('Población');
@@ -143,12 +143,6 @@ class SociedadPoblacionCatolica extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
             <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-poblacion-catolica.html">Población Católica en Lerdo</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
           </tr>
           <tr>
             <td>ND</td>

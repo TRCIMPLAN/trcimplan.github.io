@@ -20,7 +20,7 @@ class SociedadViviendasConEnergiaElectrica extends \Base\Publicacion {
         $this->nombre       = 'Viviendas con Energía Eléctrica en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedadviviendas-con-energia-electrica';
+        $this->archivo      = 'sociedad-viviendas-con-energia-electrica';
         $this->descripcion  = 'Porcentaje de viviendas con acceso a energía eléctrica';
         $this->claves       = 'Matamoros, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -199,12 +199,6 @@ class SociedadViviendasConEnergiaElectrica extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Matamoros</a></td>
             <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Matamoros</a></td>
-            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
           </tr>
           <tr>
             <td>ND</td>

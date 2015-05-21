@@ -20,7 +20,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
         $this->nombre       = 'Maternidad Adolescente en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedadmaternidad-adolescente';
+        $this->archivo      = 'sociedad-maternidad-adolescente';
         $this->descripcion  = '';
         $this->claves       = 'Torreón, Género';
         $this->categorias   = array('Género');
@@ -160,12 +160,6 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-madres-adolescentes.html">Madres Adolescentes en Torreón</a></td>
             <td>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Torreón</a></td>
-            <td></td>
           </tr>
           <tr>
             <td>ND</td>

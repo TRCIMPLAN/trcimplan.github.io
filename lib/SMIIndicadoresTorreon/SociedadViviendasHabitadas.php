@@ -20,7 +20,7 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Habitadas en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedadviviendas-habitadas';
+        $this->archivo      = 'sociedad-viviendas-habitadas';
         $this->descripcion  = '';
         $this->claves       = 'Torreón, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -151,12 +151,6 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Torreón</a></td>
             <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Torreón</a></td>
-            <td></td>
           </tr>
           <tr>
             <td>ND</td>

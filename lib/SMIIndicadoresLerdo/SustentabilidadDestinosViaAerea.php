@@ -20,7 +20,7 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
         $this->nombre       = 'Destinos Vía Aérea en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sustentabilidaddestinos-via-aerea';
+        $this->archivo      = 'sustentabilidad-destinos-via-aerea';
         $this->descripcion  = 'Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.';
         $this->claves       = 'Lerdo, Movilidad';
         $this->categorias   = array('Movilidad');
@@ -178,12 +178,6 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Lerdo</a></td>
             <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Lerdo</a></td>
-            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
           </tr>
           <tr>
             <td>ND</td>

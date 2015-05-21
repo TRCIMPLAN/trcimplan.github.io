@@ -20,7 +20,7 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         $this->nombre       = 'Motorización en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sustentabilidadmotorizacion';
+        $this->archivo      = 'sustentabilidad-motorizacion';
         $this->descripcion  = 'Vehículos automotores registrados en circulación.';
         $this->claves       = 'Torreón, Recursos Naturales, Movilidad, Vialidad';
         $this->categorias   = array('Recursos Naturales', 'Movilidad', 'Vialidad');
@@ -378,12 +378,6 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-generacion-de-basura.html">Generación de Basura en Torreón</a></td>
             <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-motorizacion.html">Motorización en Torreón</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
           </tr>
           <tr>
             <td>ND</td>

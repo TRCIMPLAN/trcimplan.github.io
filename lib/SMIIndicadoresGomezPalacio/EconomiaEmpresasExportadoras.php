@@ -20,7 +20,7 @@ class EconomiaEmpresasExportadoras extends \Base\Publicacion {
         $this->nombre       = 'Empresas Exportadoras en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'economiaempresas-exportadoras';
+        $this->archivo      = 'economia-empresas-exportadoras';
         $this->descripcion  = 'Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.';
         $this->claves       = 'Gómez Palacio, Empresas';
         $this->categorias   = array('Empresas');
@@ -226,12 +226,6 @@ class EconomiaEmpresasExportadoras extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></td>
             <td>¿En realidad generan más valor las actividades tecnológicas y de servicios?</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-empresas-exportadoras.html">Empresas Exportadoras en Gómez Palacio</a></td>
-            <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
           </tr>
           <tr>
             <td>ND</td>

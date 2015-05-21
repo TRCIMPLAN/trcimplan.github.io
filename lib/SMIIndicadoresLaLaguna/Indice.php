@@ -158,12 +158,12 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Sectores que Han Frenado el Crecimiento (2008-2012)</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">16.81 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">16.81 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Sectores que Han Presentado Alto Crecimiento (2008-2012)</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">30.86 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">30.86 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -173,7 +173,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tasa de Desempleo Abierto</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/12/2014, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">6.99 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" data-toggle="tooltip" title="Porcentaje, 31/03/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">5.85 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -188,7 +188,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/12/2014, Instituto Mexicano del Seguro Social (IMSS)">264,904</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 28/02/2015, Instituto Mexicano del Seguro Social (IMSS)">267,403</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -393,7 +393,7 @@ class Indice extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Índice de Desarrollo Humano (IDH)</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, INAFED-PNUD">0.8680</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano-idh.html" data-toggle="tooltip" title="De 0 a 1, 31/12/2010, INAFED-PNUD">0.8680</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -562,13 +562,13 @@ class Indice extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Pasajeros Aéreos Internacionales</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales.html" data-toggle="tooltip" title="Personas, 31/12/2013, Operadora Mexicana de Aeropuertos (OMA)">55,446</a></td>
+    <td class="indicador color5">Pasajeros Aéreos Internacionales Anuales</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales-anuales.html" data-toggle="tooltip" title="Personas, 31/12/2014, Operadora Mexicana de Aeropuertos (OMA)">54,154</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Pasajeros Aéreos Totales</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales.html" data-toggle="tooltip" title="Personas, 31/12/2014, Operadora Mexicana de Aeropuertos (OMA)">523,783</a></td>
+    <td class="indicador color5">Pasajeros Aéreos Totales Anual</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales-anual.html" data-toggle="tooltip" title="Personas, 31/12/2014, Operadora Mexicana de Aeropuertos (OMA)">523,783</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>

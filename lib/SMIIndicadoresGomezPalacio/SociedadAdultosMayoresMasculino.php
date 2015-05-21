@@ -20,7 +20,7 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
         $this->nombre       = 'Adultos Mayores Masculino en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedadadultos-mayores-masculino';
+        $this->archivo      = 'sociedad-adultos-mayores-masculino';
         $this->descripcion  = 'Población estimada a mediados de año de personas de 65 años y más de sexo masculino';
         $this->claves       = 'Gómez Palacio, Grupos Vulnerables';
         $this->categorias   = array('Grupos Vulnerables');
@@ -219,12 +219,6 @@ class SociedadAdultosMayoresMasculino extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Gómez Palacio</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino en Gómez Palacio</a></td>
-            <td>Población estimada a mediados de año de personas de 65 años y más de sexo masculino</td>
           </tr>
           <tr>
             <td>ND</td>

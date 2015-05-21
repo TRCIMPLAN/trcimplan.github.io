@@ -20,7 +20,7 @@ class SociedadPobreza extends \Base\Publicacion {
         $this->nombre       = 'Pobreza en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedadpobreza';
+        $this->archivo      = 'sociedad-pobreza';
         $this->descripcion  = 'Porcentaje de la población en situación de pobreza.';
         $this->claves       = 'Gómez Palacio, Bienestar';
         $this->categorias   = array('Bienestar');
@@ -223,12 +223,6 @@ class SociedadPobreza extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-pobreza-moderada.html">Pobreza Moderada en Gómez Palacio</a></td>
             <td>Porcentaje de la población en situación de pobreza moderada.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-pobreza.html">Pobreza en Gómez Palacio</a></td>
-            <td>Porcentaje de la población en situación de pobreza.</td>
           </tr>
           <tr>
             <td>ND</td>

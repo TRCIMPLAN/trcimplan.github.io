@@ -20,7 +20,7 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
         $this->nombre       = 'Red Carretera Total en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sustentabilidadred-carretera-total';
+        $this->archivo      = 'sustentabilidad-red-carretera-total';
         $this->descripcion  = '';
         $this->claves       = 'Matamoros, Infraestructura';
         $this->categorias   = array('Infraestructura');
@@ -255,12 +255,6 @@ class SustentabilidadRedCarreteraTotal extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/invertir-en-torreon.html">Invertir en Torreón</a></td>
             <td>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-red-carretera-total.html">Red Carretera Total en Matamoros</a></td>
-            <td></td>
           </tr>
           <tr>
             <td>ND</td>

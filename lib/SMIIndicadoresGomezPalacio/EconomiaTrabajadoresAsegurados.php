@@ -20,7 +20,7 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
         $this->nombre       = 'Trabajadores Asegurados en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'economiatrabajadores-asegurados';
+        $this->archivo      = 'economia-trabajadores-asegurados';
         $this->descripcion  = 'Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal';
         $this->claves       = 'Gómez Palacio, Empleo';
         $this->categorias   = array('Empleo');
@@ -363,12 +363,6 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html">Tasa de informalidad en Gómez Palacio</a></td>
             <td>Tasa de empleos informales.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Gómez Palacio</a></td>
-            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
           </tr>
         </tbody>
       </table>

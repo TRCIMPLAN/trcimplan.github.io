@@ -20,7 +20,7 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
         $this->nombre       = 'Pasajeros Aéreos Internacionales Anuales en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sustentabilidadpasajeros-aereos-internacionales-anuales';
+        $this->archivo      = 'sustentabilidad-pasajeros-aereos-internacionales-anuales';
         $this->descripcion  = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
         $this->claves       = 'Lerdo, Movilidad';
         $this->categorias   = array('Movilidad');

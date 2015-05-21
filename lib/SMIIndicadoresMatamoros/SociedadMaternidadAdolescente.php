@@ -20,7 +20,7 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
         $this->nombre       = 'Maternidad Adolescente en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedadmaternidad-adolescente';
+        $this->archivo      = 'sociedad-maternidad-adolescente';
         $this->descripcion  = '';
         $this->claves       = 'Matamoros, Género';
         $this->categorias   = array('Género');
@@ -148,12 +148,6 @@ class SociedadMaternidadAdolescente extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Matamoros</a></td>
             <td>Porcentaje de hogares con jefatura femenina.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Matamoros</a></td>
-            <td></td>
           </tr>
           <tr>
             <td>ND</td>

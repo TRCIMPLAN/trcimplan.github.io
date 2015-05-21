@@ -230,6 +230,18 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>
+            <td>Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.</td>
+          </tr>
+          <tr>
+            <td>05/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/bicicleta-alternativa-transporte.html">La Bicicleta como alternativa de transporte</a></td>
+            <td>No importa cuánto gastemos en construir vías rápidas, siempre serán insuficientes para alojar la creciente cantidad de vehículos que entran a la ciudad. Todos los ciudadanos debemos hacer conciencia e impulsar y fomentar el uso de la bicicleta.</td>
+          </tr>
+          <tr>
             <td>27/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/objetivos-milenio.html">La Zona Metropolitana de La Laguna y los Objetivos del Milenio</a></td>

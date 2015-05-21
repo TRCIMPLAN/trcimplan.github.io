@@ -20,7 +20,7 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
         $this->nombre       = 'Unidades Económicas Dedicadas al Comercio en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'economiaunidades-economicas-dedicadas-al-comercio';
+        $this->archivo      = 'economia-unidades-economicas-dedicadas-al-comercio';
         $this->descripcion  = 'Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.';
         $this->claves       = 'Gómez Palacio, Empresas, Mercados';
         $this->categorias   = array('Empresas', 'Mercados');
@@ -358,12 +358,6 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Gómez Palacio</a></td>
             <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Gómez Palacio</a></td>
-            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
           </tr>
           <tr>
             <td>ND</td>

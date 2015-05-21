@@ -20,7 +20,7 @@ class SeguridadRobosTotales extends \Base\Publicacion {
         $this->nombre       = 'Robos Totales en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'seguridadrobos-totales';
+        $this->archivo      = 'seguridad-robos-totales';
         $this->descripcion  = 'Cantidad total de robos en el mes.';
         $this->claves       = 'Torreón, Seguridad, Delincuencia';
         $this->categorias   = array('Seguridad', 'Delincuencia');
@@ -312,12 +312,6 @@ class SeguridadRobosTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Torreón</a></td>
             <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-robos-totales.html">Robos Totales en Torreón</a></td>
-            <td>Cantidad total de robos en el mes.</td>
           </tr>
           <tr>
             <td>ND</td>

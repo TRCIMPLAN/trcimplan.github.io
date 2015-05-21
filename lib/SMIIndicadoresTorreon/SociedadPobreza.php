@@ -20,7 +20,7 @@ class SociedadPobreza extends \Base\Publicacion {
         $this->nombre       = 'Pobreza en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedadpobreza';
+        $this->archivo      = 'sociedad-pobreza';
         $this->descripcion  = 'Porcentaje de la población en situación de pobreza.';
         $this->claves       = 'Torreón, Bienestar';
         $this->categorias   = array('Bienestar');
@@ -223,12 +223,6 @@ class SociedadPobreza extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-pobreza-moderada.html">Pobreza Moderada en Torreón</a></td>
             <td>Porcentaje de la población en situación de pobreza moderada.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-pobreza.html">Pobreza en Torreón</a></td>
-            <td>Porcentaje de la población en situación de pobreza.</td>
           </tr>
           <tr>
             <td>ND</td>

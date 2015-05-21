@@ -20,7 +20,7 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
         $this->nombre       = 'Inversión Per cápita en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'economiainversion-per-capita';
+        $this->archivo      = 'economia-inversion-per-capita';
         $this->descripcion  = 'Gasto en obras públicas y acciones sociales entre población total.';
         $this->claves       = 'Lerdo, Macroeconomía, Finanzas Públicas';
         $this->categorias   = array('Macroeconomía', 'Finanzas Públicas');
@@ -248,12 +248,6 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/economia-inversion-extranjera-directa.html">Inversión Extranjera Directa en Lerdo</a></td>
             <td>Promedio de inversión entre 2008 y 2012.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-inversion-per-capita.html">Inversión Per cápita en Lerdo</a></td>
-            <td>Gasto en obras públicas y acciones sociales entre población total.</td>
           </tr>
           <tr>
             <td>ND</td>

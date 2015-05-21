@@ -20,7 +20,7 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
         $this->nombre       = 'Índice de Desarrollo Humano (IDH) en La Laguna';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-la-laguna';
-        $this->archivo      = 'sociedad-indice-de-desarrollo-humano--idh-';
+        $this->archivo      = 'sociedad-indice-de-desarrollo-humano-idh';
         $this->descripcion  = 'El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).';
         $this->claves       = 'La Laguna, Bienestar';
         $this->categorias   = array('Bienestar');
@@ -161,6 +161,12 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>
+            <td>Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.</td>
+          </tr>
+          <tr>
             <td>04/02/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/generaciones-cambio.html">Las generaciones del cambio</a></td>
@@ -237,6 +243,12 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-pobreza.html">Pobreza en La Laguna</a></td>
             <td>Porcentaje de la población en situación de pobreza.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano--idh-.html">Índice de Desarrollo Humano (IDH) en La Laguna</a></td>
+            <td>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).</td>
           </tr>
           <tr>
             <td>ND</td>

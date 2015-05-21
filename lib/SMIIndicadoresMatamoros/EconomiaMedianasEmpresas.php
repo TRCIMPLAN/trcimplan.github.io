@@ -20,7 +20,7 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
         $this->nombre       = 'Medianas Empresas en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'economiamedianas-empresas';
+        $this->archivo      = 'economia-medianas-empresas';
         $this->descripcion  = 'Porcentaje del total de empresas que emplean de 51 a 250 personas.';
         $this->claves       = 'Matamoros, Empresas';
         $this->categorias   = array('Empresas');
@@ -272,12 +272,6 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/economia-grandes-empresas.html">Grandes Empresas en Matamoros</a></td>
             <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-medianas-empresas.html">Medianas Empresas en Matamoros</a></td>
-            <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
           </tr>
           <tr>
             <td>ND</td>

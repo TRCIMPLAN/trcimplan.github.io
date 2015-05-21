@@ -20,7 +20,7 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
         $this->nombre       = 'Pasajeros Aéreos Totales Anual en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sustentabilidadpasajeros-aereos-totales-anual';
+        $this->archivo      = 'sustentabilidad-pasajeros-aereos-totales-anual';
         $this->descripcion  = 'Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.';
         $this->claves       = 'Matamoros, Movilidad';
         $this->categorias   = array('Movilidad');

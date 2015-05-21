@@ -20,7 +20,7 @@ class SeguridadRobosTotales extends \Base\Publicacion {
         $this->nombre       = 'Robos Totales en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'seguridadrobos-totales';
+        $this->archivo      = 'seguridad-robos-totales';
         $this->descripcion  = 'Cantidad total de robos en el mes.';
         $this->claves       = 'Matamoros, Seguridad, Delincuencia';
         $this->categorias   = array('Seguridad', 'Delincuencia');
@@ -300,12 +300,6 @@ class SeguridadRobosTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Matamoros</a></td>
             <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-robos-totales.html">Robos Totales en Matamoros</a></td>
-            <td>Cantidad total de robos en el mes.</td>
           </tr>
           <tr>
             <td>ND</td>

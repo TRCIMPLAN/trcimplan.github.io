@@ -20,7 +20,7 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
         $this->nombre       = 'Cartera Hipotecaria en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economiacartera-hipotecaria';
+        $this->archivo      = 'economia-cartera-hipotecaria';
         $this->descripcion  = 'Monto total de créditos otorgados hasta la fecha indicada.';
         $this->claves       = 'Torreón, Mercados';
         $this->categorias   = array('Mercados');
@@ -185,12 +185,6 @@ class EconomiaCarteraHipotecaria extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/estabilidad-de-precios-en-torreon.html">Estabilidad de Precios en Torreón</a></td>
             <td>En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-cartera-hipotecaria.html">Cartera Hipotecaria en Torreón</a></td>
-            <td>Monto total de créditos otorgados hasta la fecha indicada.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            http://www.oesmith.co.uk/morris.js
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.">
+  <meta name="author" content="IMPLAN Torreón Staff">
+  <meta name="keywords" content="Torreón, Educación">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Alumnos con Perfil Científico-Matemático en Torreón - IMPLAN Torreón">
+  <meta name="twitter:description" content="Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-con-perfil-cientifico-matematico.html">
+  <meta name="og:title" content="Alumnos con Perfil Científico-Matemático en Torreón - IMPLAN Torreón">
+  <meta name="og:description" content="Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-con-perfil-cientifico-matematico.html">
+  <title>Alumnos con Perfil Científico-Matemático en Torreón - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li class="active">
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M1 Diagnóstico y Pronóstico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-2.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M2 Visión y Objetivos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-3.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M3 Estrategias y Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-4.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M4 Gestión de Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/fotogaleria.html"><span class="navegacion-icono"><i class="fa fa-camera"></i></span> Fotogalería</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al B.M.P.I.</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+<article>
+  <header>
+    <div class="encabezado">
+      <span><h1><i class="fa fa-area-chart encabezado-icono"></i> Alumnos con Perfil Científico-Matemático en Torreón</h1></span>
+    </div>
+  </header>
+  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+    <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
+    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
+  </ul>
+  <div class="tab-content lengueta-contenido">
+    <div class="tab-pane" id="smi-indicador-datos">
+      <h3>Descripción</h3>
+<p>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2013</td>
+            <td>46.00 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>El criterio de "Alumnos buenos y excelentes" provienen de <a href="http://www.mejoratuescuela.org">mejoratuescuela.org</a>
+Consulta la <a href="http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos_completa_2013/">Base de datos</a></p>
+
+    </div>
+    <div class="tab-pane" id="smi-indicador-otras_regiones">
+      <h3>Gráfica con los últimos datos de Alumnos con Perfil Científico-Matemático</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Alumnos con Perfil Científico-Matemático</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Región</th>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Torreón</td>
+            <td>2013-12-31</td>
+            <td>46.00 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2013-12-31</td>
+            <td>35.00 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2013-12-31</td>
+            <td>43.00 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2013-12-31</td>
+            <td>41.00 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>La Laguna</td>
+            <td>2013-12-31</td>
+            <td>42.00 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="smi-indicador-relacionados">
+      <h3>Páginas relacionadas con Alumnos con Perfil Científico-Matemático</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>14/04/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/papel-educacion-desarrollo-economico.html">El papel de la educación en el desarrollo económico</a></td>
+            <td>Cómo la educación contribuye al crecimiento económico y la importancia de implementar políticas públicas para incrementar su calidad.</td>
+          </tr>
+          <tr>
+            <td>27/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/objetivos-milenio.html">La Zona Metropolitana de La Laguna y los Objetivos del Milenio</a></td>
+            <td>En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas.</td>
+          </tr>
+          <tr>
+            <td>10/12/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/papel-organizaciones-civiles-aumento-competitividad.html">El papel de las Organizaciones Civiles en el aumento del bienestar y competitividad</a></td>
+            <td>En toda ciudad, estado o país debe haber sinergia entre ciudadanos, asociaciones civiles y empresas para definir programas a largo plazo que mejoren la calidad y el bienestar de todos nosotros.</td>
+          </tr>
+          <tr>
+            <td>19/09/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></td>
+            <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
+          </tr>
+          <tr>
+            <td>06/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sociedad-incluyente-preparada-sana.html">Sociedad Incluyente, Preparada y Sana</a></td>
+            <td>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en Torreón</a></td>
+            <td>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-espacios-culturales.html">Espacios Culturales en Torreón</a></td>
+            <td>Espacios culturales físicamente delimitados.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-posgrados-de-calidad.html">Posgrados de Calidad en Torreón</a></td>
+            <td>Programas aceptados por CONACYT como posgrados de calidad</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Torreón</a></td>
+            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-rezago-educativo.html">Rezago Educativo en Torreón</a></td>
+            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
+Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
+Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-universidades.html">Universidades en Torreón</a></td>
+            <td>Planteles de Instituciones de Educación Superior.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Findicadores-torreon%2Fsociedad-alumnos-con-perfil-cientifico-matematico.html.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 46.0000 },{ region: 'Gómez Palacio', dato: 35.0000 },{ region: 'Lerdo', dato: 43.0000 },{ region: 'Matamoros', dato: 41.0000 },{ region: 'La Laguna', dato: 42.0000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
+});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

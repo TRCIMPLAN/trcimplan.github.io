@@ -153,6 +153,24 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
             <td>Actualmente el concepto de ciudad inteligente o digital se maneja a nivel global. Muchas ciudades de este tipo se están desarrollando en diferentes lugares del mundo, cada una con su propio sistema, diseño, estructura y organización.</td>
           </tr>
           <tr>
+            <td>01/01/2015</td>
+            <td>Otro</td>
+            <td><a href="..//../sig-planes/index.html">Planes</a></td>
+            <td>Documentos oficiales que tienen que ver con desarrollo urbano.</td>
+          </tr>
+          <tr>
+            <td>18/11/2014</td>
+            <td>Otro</td>
+            <td><a href="..//../sig-mapas-torreon/zonificacion-primaria.html">Zonificación Primaria</a></td>
+            <td>Mapa para identificar el área urbana, el crecimiento urbano, la zona agrícola y las zonas de restauración y protección de Torreón, Coahuila.</td>
+          </tr>
+          <tr>
+            <td>18/11/2014</td>
+            <td>Otro</td>
+            <td><a href="..//../sig-mapas-torreon/zonificacion-secundaria.html">Zonificación Secundaria</a></td>
+            <td>Mapa referente para consultar los usos de suelo del área urbana de Torreón. De clic en un área para mostrar detalles y el enlace al reglamento.</td>
+          </tr>
+          <tr>
             <td>04/11/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/datos-abiertos-gobiernos-municipales.html">Datos Abiertos en los Gobiernos Municipales</a></td>

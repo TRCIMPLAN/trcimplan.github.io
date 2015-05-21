@@ -20,7 +20,7 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
         $this->nombre       = 'Población que Trabaja en OTRO Municipio en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sustentabilidadpoblacion-que-trabaja-en-otro-municipio';
+        $this->archivo      = 'sustentabilidad-poblacion-que-trabaja-en-otro-municipio';
         $this->descripcion  = 'Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.';
         $this->claves       = 'Lerdo, Movilidad';
         $this->categorias   = array('Movilidad');
@@ -214,12 +214,6 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sustentabilidad-pasajeros-aereos-totales.html">Pasajeros Aéreos Totales en Lerdo</a></td>
             <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en Lerdo</a></td>
-            <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
           </tr>
           <tr>
             <td>ND</td>

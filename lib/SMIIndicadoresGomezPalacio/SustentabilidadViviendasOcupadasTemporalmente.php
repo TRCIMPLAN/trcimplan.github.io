@@ -20,7 +20,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Ocupadas Temporalmente en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sustentabilidadviviendas-ocupadas-temporalmente';
+        $this->archivo      = 'sustentabilidad-viviendas-ocupadas-temporalmente';
         $this->descripcion  = 'Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.';
         $this->claves       = 'Gómez Palacio, Vivienda, Movilidad';
         $this->categorias   = array('Vivienda', 'Movilidad');
@@ -259,12 +259,6 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Gómez Palacio</a></td>
             <td></td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Gómez Palacio</a></td>
-            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
           </tr>
           <tr>
             <td>ND</td>

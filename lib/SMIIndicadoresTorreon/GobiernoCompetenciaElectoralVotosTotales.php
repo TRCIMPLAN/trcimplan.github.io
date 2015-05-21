@@ -20,7 +20,7 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
         $this->nombre       = 'Competencia Electoral Votos Totales en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'gobiernocompetencia-electoral-votos-totales';
+        $this->archivo      = 'gobierno-competencia-electoral-votos-totales';
         $this->descripcion  = '';
         $this->claves       = 'Torreón, Participación Ciudadana';
         $this->categorias   = array('Participación Ciudadana');
@@ -139,12 +139,6 @@ class GobiernoCompetenciaElectoralVotosTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Torreón</a></td>
             <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Torreón</a></td>
-            <td></td>
           </tr>
           <tr>
             <td>ND</td>

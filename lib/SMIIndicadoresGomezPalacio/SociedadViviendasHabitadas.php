@@ -20,7 +20,7 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Habitadas en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedadviviendas-habitadas';
+        $this->archivo      = 'sociedad-viviendas-habitadas';
         $this->descripcion  = '';
         $this->claves       = 'Gómez Palacio, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -151,12 +151,6 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Gómez Palacio</a></td>
             <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Gómez Palacio</a></td>
-            <td></td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
         $this->nombre       = 'Hogares con Jefatura Femenina en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedadhogares-con-jefatura-femenina';
+        $this->archivo      = 'sociedad-hogares-con-jefatura-femenina';
         $this->descripcion  = 'Porcentaje de hogares con jefatura femenina.';
         $this->claves       = 'Torreón, Género';
         $this->categorias   = array('Género');
@@ -148,12 +148,6 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
             <td>Tasa de fecundidad.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Torreón</a></td>
-            <td>Porcentaje de hogares con jefatura femenina.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class SociedadPobrezaExtrema extends \Base\Publicacion {
         $this->nombre       = 'Pobreza Extrema en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedadpobreza-extrema';
+        $this->archivo      = 'sociedad-pobreza-extrema';
         $this->descripcion  = 'Porcentaje de la población en situación de pobreza extrema.';
         $this->claves       = 'Gómez Palacio, Bienestar, Objetivos del Milenio';
         $this->categorias   = array('Bienestar', 'Objetivos del Milenio');
@@ -223,12 +223,6 @@ class SociedadPobrezaExtrema extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Gómez Palacio</a></td>
             <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html">Pobreza Extrema en Gómez Palacio</a></td>
-            <td>Porcentaje de la población en situación de pobreza extrema.</td>
           </tr>
           <tr>
             <td>ND</td>

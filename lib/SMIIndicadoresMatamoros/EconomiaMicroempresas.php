@@ -20,7 +20,7 @@ class EconomiaMicroempresas extends \Base\Publicacion {
         $this->nombre       = 'Microempresas en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'economiamicroempresas';
+        $this->archivo      = 'economia-microempresas';
         $this->descripcion  = 'Porcentaje del total de empresas que emplean de 0 a 10 personas.';
         $this->claves       = 'Matamoros, Empresas';
         $this->categorias   = array('Empresas');
@@ -278,12 +278,6 @@ class EconomiaMicroempresas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/economia-medianas-empresas.html">Medianas Empresas en Matamoros</a></td>
             <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-microempresas.html">Microempresas en Matamoros</a></td>
-            <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
           </tr>
           <tr>
             <td>ND</td>

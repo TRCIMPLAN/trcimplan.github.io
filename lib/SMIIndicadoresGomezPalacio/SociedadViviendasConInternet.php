@@ -20,7 +20,7 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
         $this->nombre       = 'Viviendas con Internet en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedadviviendas-con-internet';
+        $this->archivo      = 'sociedad-viviendas-con-internet';
         $this->descripcion  = 'Porcentaje de viviendas habitadas con internet.';
         $this->claves       = 'Gómez Palacio, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -205,12 +205,6 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Gómez Palacio</a></td>
             <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-internet.html">Viviendas con Internet en Gómez Palacio</a></td>
-            <td>Porcentaje de viviendas habitadas con internet.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
         $this->nombre       = 'Producción Bruta Total Per Cápita en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economiaproduccion-bruta-total-per-capita';
+        $this->archivo      = 'economia-produccion-bruta-total-per-capita';
         $this->descripcion  = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total.';
         $this->claves       = 'Torreón, Macroeconomía, Finanzas Públicas';
         $this->categorias   = array('Macroeconomía', 'Finanzas Públicas');
@@ -256,12 +256,6 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-inversion-per-capita.html">Inversión Per cápita en Torreón</a></td>
             <td>Gasto en obras públicas y acciones sociales entre población total.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Torreón</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
           </tr>
           <tr>
             <td>ND</td>

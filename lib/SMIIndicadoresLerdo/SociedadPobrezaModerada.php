@@ -20,7 +20,7 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
         $this->nombre       = 'Pobreza Moderada en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedadpobreza-moderada';
+        $this->archivo      = 'sociedad-pobreza-moderada';
         $this->descripcion  = 'Porcentaje de la población en situación de pobreza moderada.';
         $this->claves       = 'Lerdo, Bienestar';
         $this->categorias   = array('Bienestar');
@@ -217,12 +217,6 @@ class SociedadPobrezaModerada extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-pobreza-extrema.html">Pobreza Extrema en Lerdo</a></td>
             <td>Porcentaje de la población en situación de pobreza extrema.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-pobreza-moderada.html">Pobreza Moderada en Lerdo</a></td>
-            <td>Porcentaje de la población en situación de pobreza moderada.</td>
           </tr>
           <tr>
             <td>ND</td>
