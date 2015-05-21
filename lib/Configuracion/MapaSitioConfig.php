@@ -27,10 +27,10 @@ namespace Configuracion;
  */
 class MapaSitioConfig {
 
-    public $xml_encoding  = 'UTF-8';                   // Character encoding to use in output XML
-    public $max_urls      = 50000;                     // Maximum number of URLs that can be specified
-    public $base_url      = 'http://trcimplan.gob.mx'; // The base URL for added URLs
-    public $priority_min  = 0.0;                       // The range of values priority can be
+    public $xml_encoding  = 'UTF-8';                       // Character encoding to use in output XML
+    public $max_urls      = 50000;                         // Maximum number of URLs that can be specified
+    public $base_url      = 'http://www.trcimplan.gob.mx'; // The base URL for added URLs
+    public $priority_min  = 0.0;                           // The range of values priority can be
     public $priority_max  = 1.0;
     public $priority_step = 0.1;
     public $archivo       = 'sitemap.xml';
