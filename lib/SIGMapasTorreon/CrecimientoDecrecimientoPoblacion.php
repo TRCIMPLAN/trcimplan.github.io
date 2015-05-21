@@ -48,7 +48,7 @@ class CrecimientoDecrecimientoPoblacion extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu        = 'Información Geográfica';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado             = 'Revisar';
+        $this->estado             = 'Publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
         // Para el botón de ver a pantalla completa

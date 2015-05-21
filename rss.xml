@@ -5,11 +5,21 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 21 May 2015 12:05:33 -0500</pubDate>
+    <pubDate>Thu, 21 May 2015 13:06:11 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="{self::}/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crecimiento y Decrecimiento de Población</title>
+      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-decrecimiento-poblacion.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-crecimiento-decrecimiento-poblacion</guid>
+      <pubDate>Wed, 20 May 2015 14:00:00 -0500</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-decrecimiento-poblacion/imagen.jpg"><br>
+
+Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de habitantes.]]></description>
+    </item>
     <item>
       <title>Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</title>
       <link>http://www.trcimplan.gob.mx/blog/indicadores-economicos-primer-trimestre-2015-torreon.html</link>
@@ -566,64 +576,6 @@ Ubicación de los principales centros comerciales, centros de convenciones y esp
 <h3>Fuentes</h3>
 
 <p>Biciudades: Un estudio regional acerca del uso de la bicicleta como medio de transporte en América Latinay el Caribe. Primera edición, Mayo de 2013</p>
-]]></description>
-    </item>
-    <item>
-      <title>Sistema de derecho y sociedad incluyente: indicadores de competitividad a la alza en 2014</title>
-      <link>http://www.trcimplan.gob.mx/blog/sistema-derecho-sociedad-incluyente.html</link>
-      <guid isPermaLink="false">blog-sistema-derecho-sociedad-incluyente</guid>
-      <pubDate>Wed, 29 Apr 2015 09:45:00 -0500</pubDate>
-      <author>Lic. Rodrigo González Morales</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/sistema-derecho-sociedad-incluyente/imagen.jpg">
-
-<p>Durante el 2014 se dio a conocer el <strong>Índice de Competitividad Urbana (ICU)</strong> que publica bianualmente el <strong>Instituto Mexicano para la Competitividad (IMCO)</strong>, organización sin fines de lucro líder en la medición y el diseño de políticas públicas para la competitividad en México. Sus bases de datos nos brindan información sobre 90 indicadores de 2008 a 2012.</p>
-
-<p>De acuerdo a los propios datos del IMCO, podemos distinguir indicadores y temas con tendencias hacia y contra la competitividad de nuestra metrópoli.</p>
-
-<h3>Indicadores de pérdida de competitividad entre 2008 y 2012:</h3>
-
-<ul>
-<li>Desastres naturales, medido por el número de veces que se requirió apoyo del FONDEN en los últimos tres años.</li>
-<li>Porcentaje de personas por debajo de la línea de bienestar de la población económicamente activa (PEA).</li>
-<li>Decesos de menores de un año por cada mil nacidos vivos.</li>
-<li>Emergencias ambientales reportadas.</li>
-<li>Tiempo de apertura de un negocio.</li>
-<li>Porcentaje de empleados en el sector formal.</li>
-<li>Médicos por cada 10 mil habitantes.</li>
-<li>Muertes por accidentes relacionados con transporte por cada 100 mil habitantes.</li>
-<li>Promedio de inversión extranjera directa en los últimos tres años.</li>
-</ul>
-
-<h3>Indicadores de aumento de competitividad entre 2008 y 2012:</h3>
-
-<ul>
-<li>Porcentaje del PIB en sectores que crecen a una tasa de crecimiento superior al promedio.</li>
-<li>Empresa socialmente responsable por cada 10 mil empresas.</li>
-<li>Patentes Por cada 100 mil personas económicamente activas.</li>
-<li>Escuelas de calidad.</li>
-<li>Porcentaje de escuelas excelentes dentro del municipio.</li>
-<li>Competencia electoral medida como la diferencia votos entre 1º lugar y el 2º como % del total de votos de elecciones federales.</li>
-<li>Empresas certificadas con ISO-9000 y 14000 por cada mil empresas.</li>
-<li>Grado de escolaridad efectiva.</li>
-<li>Acceso a servicios financieros por cada 10,000 adultos.</li>
-<li>Porcentaje de viviendas con líneas telefónicas móviles.</li>
-<li>Índice de información presupuestal.</li>
-<li>Empresas certificadas como "limpia" por cada mil empresas.</li>
-</ul>
-
-<h3>Indicadores de competitividad a 2014.</h3>
-
-<p>A su vez es bien sabido que <strong>la medición del ICU considera indicadores de 2012</strong>, por lo cual conviene considerar las tendencias de los datos que al momento tenemos accesibles para 2013 y 2014.</p>
-
-<p><strong>Tasa de Homicidios:</strong> En el ICU 2014 se refleja una tasa metropolitana de 77 homicidios por cada cien mil habitantes correspondiente a 2012. En 2013, de acuerdo a la información del Sistema Nacional de Seguridad Pública la tasa metropolitana fue de 50 homicidios por cada 100 mil habitantes y en 2014 de 35. Lo cual significa una reducción de más del 50 % de este indicador.</p>
-
-<p>Igualmente en <strong>robo de vehículos</strong> de los 4193 registrados en 2012 por IMCO, se redujeron a 3125 y 1988 en 2013 y 2014 respectivamente. En el caso de Torreón pasó de 2609 robos en 2012 a 1572 en 2013 y 1095 en 2014.</p>
-
-<p>Continuando con indicadores correspondientes al subíndice de Sistema de Derecho, la <strong>percepción de inseguridad en su municipio,</strong> el IMCO considera los datos a nivel estatal de 2012. De acuerdo al INEGI en 2013 la percepción de inseguridad en Coahuila evolucionó de 71 a 65 % y en Durango de 66 a 63 %.</p>
-
-<p>De acuerdo a información del Sistema Nacional de Información en Salud de la Secretaría de Salud, en indicadores correspondientes al subíndice de sociedad incluyente, la <strong>mortalidad por diabetes</strong> pasó de 7.7 a 7.5 muertes por cada diez mil habitantes en dos años, mientras la <strong>mortalidad infantil</strong> fue de 12.83 a 12.2 decesos por cada mil nacidos vivos en el mismo periodo.</p>
-
-<p>En <strong>médicos por cada 10 mil habitantes</strong> la ZML pasa de 2.5 en 2012 a 3.5 en 2014 y Torreón de 1.7 a 2.5. El <strong>acceso a instituciones de salud</strong> ha subido de 42 a 48 % de acuerdo a la Encuesta Nacional de Ocupación y Empleo.</p>
 ]]></description>
     </item>
   </channel>
