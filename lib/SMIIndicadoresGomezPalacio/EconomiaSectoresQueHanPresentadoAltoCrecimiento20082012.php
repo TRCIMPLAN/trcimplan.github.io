@@ -20,7 +20,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento20082012 extends \Base\Publ
         $this->nombre       = 'Sectores que Han Presentado Alto Crecimiento (2008-2012) en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'economiasectores-que-han-presentado-alto-crecimiento-20082012';
+        $this->archivo      = 'economia-sectores-que-han-presentado-alto-crecimiento-2008-2012';
         $this->descripcion  = '% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.';
         $this->claves       = 'Gómez Palacio, Mercados';
         $this->categorias   = array('Mercados');

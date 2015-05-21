@@ -20,7 +20,7 @@ class EconomiaInversionExtranjeraDirecta extends \Base\Publicacion {
         $this->nombre       = 'Inversión Extranjera Directa en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economiainversion-extranjera-directa';
+        $this->archivo      = 'economia-inversion-extranjera-directa';
         $this->descripcion  = 'Promedio de inversión entre 2008 y 2012.';
         $this->claves       = 'Torreón, Macroeconomía';
         $this->categorias   = array('Macroeconomía');
@@ -182,12 +182,6 @@ y <a href="http://www.economia.gob.mx/comunidad-negocios/competitividad-normativ
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-inflacion-anual.html">Inflación anual en Torreón</a></td>
             <td></td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-inversion-extranjera-directa.html">Inversión Extranjera Directa en Torreón</a></td>
-            <td>Promedio de inversión entre 2008 y 2012.</td>
           </tr>
           <tr>
             <td>ND</td>

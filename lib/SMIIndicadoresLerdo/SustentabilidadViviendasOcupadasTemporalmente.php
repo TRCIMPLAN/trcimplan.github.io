@@ -20,7 +20,7 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Ocupadas Temporalmente en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sustentabilidadviviendas-ocupadas-temporalmente';
+        $this->archivo      = 'sustentabilidad-viviendas-ocupadas-temporalmente';
         $this->descripcion  = 'Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.';
         $this->claves       = 'Lerdo, Vivienda, Movilidad';
         $this->categorias   = array('Vivienda', 'Movilidad');
@@ -259,12 +259,6 @@ class SustentabilidadViviendasOcupadasTemporalmente extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Lerdo</a></td>
             <td></td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Lerdo</a></td>
-            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
           </tr>
           <tr>
             <td>ND</td>

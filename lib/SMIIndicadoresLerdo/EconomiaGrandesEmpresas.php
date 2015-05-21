@@ -20,7 +20,7 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
         $this->nombre       = 'Grandes Empresas en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'economiagrandes-empresas';
+        $this->archivo      = 'economia-grandes-empresas';
         $this->descripcion  = 'Porcentaje del total de empresas que cuentan con más de 250 empleados.';
         $this->claves       = 'Lerdo, Empresas';
         $this->categorias   = array('Empresas');
@@ -261,12 +261,6 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/economia-empresas-exportadoras.html">Empresas Exportadoras en Lerdo</a></td>
             <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-grandes-empresas.html">Grandes Empresas en Lerdo</a></td>
-            <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
           </tr>
           <tr>
             <td>ND</td>

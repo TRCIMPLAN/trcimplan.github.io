@@ -20,7 +20,7 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
         $this->nombre       = 'Viviendas con Internet en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedadviviendas-con-internet';
+        $this->archivo      = 'sociedad-viviendas-con-internet';
         $this->descripcion  = 'Porcentaje de viviendas habitadas con internet.';
         $this->claves       = 'Torreón, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -205,12 +205,6 @@ class SociedadViviendasConInternet extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Torreón</a></td>
             <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-viviendas-con-internet.html">Viviendas con Internet en Torreón</a></td>
-            <td>Porcentaje de viviendas habitadas con internet.</td>
           </tr>
           <tr>
             <td>ND</td>

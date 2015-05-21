@@ -20,7 +20,7 @@ class EconomiaEmpresasExportadoras extends \Base\Publicacion {
         $this->nombre       = 'Empresas Exportadoras en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economiaempresas-exportadoras';
+        $this->archivo      = 'economia-empresas-exportadoras';
         $this->descripcion  = 'Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.';
         $this->claves       = 'Torreón, Empresas';
         $this->categorias   = array('Empresas');
@@ -238,12 +238,6 @@ class EconomiaEmpresasExportadoras extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Torreón</a></td>
             <td>Días transcurridos para la ejecución de un contrato.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-empresas-exportadoras.html">Empresas Exportadoras en Torreón</a></td>
-            <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
           </tr>
           <tr>
             <td>ND</td>

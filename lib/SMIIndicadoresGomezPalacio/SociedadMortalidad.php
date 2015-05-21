@@ -20,7 +20,7 @@ class SociedadMortalidad extends \Base\Publicacion {
         $this->nombre       = 'Mortalidad en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedadmortalidad';
+        $this->archivo      = 'sociedad-mortalidad';
         $this->descripcion  = 'Tasa de Mortalidad. Número de muertes por cada mil habitantes.';
         $this->claves       = 'Gómez Palacio, Salud';
         $this->categorias   = array('Salud');
@@ -252,12 +252,6 @@ class SociedadMortalidad extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Gómez Palacio</a></td>
             <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad.html">Mortalidad en Gómez Palacio</a></td>
-            <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
           </tr>
           <tr>
             <td>ND</td>

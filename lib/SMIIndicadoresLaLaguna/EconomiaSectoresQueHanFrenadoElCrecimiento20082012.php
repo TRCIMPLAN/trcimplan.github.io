@@ -20,7 +20,7 @@ class EconomiaSectoresQueHanFrenadoElCrecimiento20082012 extends \Base\Publicaci
         $this->nombre       = 'Sectores que Han Frenado el Crecimiento (2008-2012) en La Laguna';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-la-laguna';
-        $this->archivo      = 'economia-sectores-que-han-frenado-el-crecimiento--2008-2012-';
+        $this->archivo      = 'economia-sectores-que-han-frenado-el-crecimiento-2008-2012';
         $this->descripcion  = 'Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.';
         $this->claves       = 'La Laguna, Mercados';
         $this->categorias   = array('Mercados');
@@ -135,6 +135,18 @@ class EconomiaSectoresQueHanFrenadoElCrecimiento20082012 extends \Base\Publicaci
         </thead>
         <tbody>
           <tr>
+            <td>20/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
+            <td>Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.</td>
+          </tr>
+          <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sed-o-no-sed.html">¿Sed o no sed?</a></td>
+            <td>El IMPLAN ve una región de grandes retos y de grandes oportunidades, capaz de rivalizar, si unimos voluntades, con avezados competidores en los mercados globalizados.</td>
+          </tr>
+          <tr>
             <td>03/02/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/tasa-inflacion-precios-torreon-2014.html">Tasa de inflación y precios en Torreón 2014</a></td>
@@ -175,6 +187,12 @@ class EconomiaSectoresQueHanFrenadoElCrecimiento20082012 extends \Base\Publicaci
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en La Laguna</a></td>
             <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html">Sectores que Han Frenado el Crecimiento (2008-2012) en La Laguna</a></td>
+            <td>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</td>
           </tr>
           <tr>
             <td>ND</td>

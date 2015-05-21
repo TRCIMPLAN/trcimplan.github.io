@@ -20,7 +20,7 @@ class SeguridadDelitos extends \Base\Publicacion {
         $this->nombre       = 'Delitos en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'seguridaddelitos';
+        $this->archivo      = 'seguridad-delitos';
         $this->descripcion  = 'Total de delitos cometidos.';
         $this->claves       = 'Torreón, Delincuencia, Seguridad';
         $this->categorias   = array('Delincuencia', 'Seguridad');
@@ -252,12 +252,6 @@ class SeguridadDelitos extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/seguridad-cantidad-de-policias.html">Cantidad de Policías en Torreón</a></td>
             <td>Cantidad total de policías en el municipio.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-delitos.html">Delitos en Torreón</a></td>
-            <td>Total de delitos cometidos.</td>
           </tr>
           <tr>
             <td>ND</td>

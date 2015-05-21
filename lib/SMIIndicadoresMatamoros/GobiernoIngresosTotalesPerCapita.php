@@ -20,7 +20,7 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
         $this->nombre       = 'Ingresos Totales Per Cápita en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'gobiernoingresos-totales-per-capita';
+        $this->archivo      = 'gobierno-ingresos-totales-per-capita';
         $this->descripcion  = 'Ingresos totales del municipio entre el total de la población.';
         $this->claves       = 'Matamoros, Finanzas Públicas';
         $this->categorias   = array('Finanzas Públicas');
@@ -182,12 +182,6 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/gobierno-capacidad-financiera.html">Capacidad Financiera en Matamoros</a></td>
             <td>Ingresos propios entre gastos corrientes.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Matamoros</a></td>
-            <td>Ingresos totales del municipio entre el total de la población.</td>
           </tr>
           <tr>
             <td>ND</td>

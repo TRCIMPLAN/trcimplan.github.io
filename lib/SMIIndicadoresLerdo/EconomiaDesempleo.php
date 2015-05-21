@@ -20,7 +20,7 @@ class EconomiaDesempleo extends \Base\Publicacion {
         $this->nombre       = 'Desempleo en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'economiadesempleo';
+        $this->archivo      = 'economia-desempleo';
         $this->descripcion  = 'Cantidad de personas desempleadas.';
         $this->claves       = 'Lerdo, Empleo';
         $this->categorias   = array('Empleo');
@@ -251,12 +251,6 @@ class EconomiaDesempleo extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></td>
             <td>¿En realidad generan más valor las actividades tecnológicas y de servicios?</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-desempleo.html">Desempleo en Lerdo</a></td>
-            <td>Cantidad de personas desempleadas.</td>
           </tr>
           <tr>
             <td>ND</td>

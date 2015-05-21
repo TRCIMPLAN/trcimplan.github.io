@@ -20,7 +20,7 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
         $this->nombre       = 'Pasajeros Aéreos Totales Anual en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sustentabilidadpasajeros-aereos-totales-anual';
+        $this->archivo      = 'sustentabilidad-pasajeros-aereos-totales-anual';
         $this->descripcion  = 'Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.';
         $this->claves       = 'Torreón, Movilidad';
         $this->categorias   = array('Movilidad');

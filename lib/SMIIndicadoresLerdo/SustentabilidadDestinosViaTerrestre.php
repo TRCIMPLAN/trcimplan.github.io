@@ -20,7 +20,7 @@ class SustentabilidadDestinosViaTerrestre extends \Base\Publicacion {
         $this->nombre       = 'Destinos Vía Terrestre en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sustentabilidaddestinos-via-terrestre';
+        $this->archivo      = 'sustentabilidad-destinos-via-terrestre';
         $this->descripcion  = 'Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio';
         $this->claves       = 'Lerdo, Movilidad';
         $this->categorias   = array('Movilidad');
@@ -181,12 +181,6 @@ class SustentabilidadDestinosViaTerrestre extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Lerdo</a></td>
             <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Lerdo</a></td>
-            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
           </tr>
           <tr>
             <td>ND</td>

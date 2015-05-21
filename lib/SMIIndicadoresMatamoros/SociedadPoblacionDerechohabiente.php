@@ -20,7 +20,7 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
         $this->nombre       = 'Población Derechohabiente en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedadpoblacion-derechohabiente';
+        $this->archivo      = 'sociedad-poblacion-derechohabiente';
         $this->descripcion  = 'Población derechohabiente a los servicios de salud.';
         $this->claves       = 'Matamoros, Salud';
         $this->categorias   = array('Salud');
@@ -178,12 +178,6 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-medicos.html">Médicos en Matamoros</a></td>
             <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Matamoros</a></td>
-            <td>Población derechohabiente a los servicios de salud.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
         $this->nombre       = 'Competencia Electoral en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'gobiernocompetencia-electoral';
+        $this->archivo      = 'gobierno-competencia-electoral';
         $this->descripcion  = 'Diferencia entre los dos candidatos con más votación entre el total de votos.';
         $this->claves       = 'Matamoros, Participación Ciudadana, Gobierno';
         $this->categorias   = array('Participación Ciudadana', 'Gobierno');
@@ -211,12 +211,6 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Matamoros</a></td>
             <td></td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/gobierno-competencia-electoral.html">Competencia Electoral en Matamoros</a></td>
-            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class SociedadFecundidad extends \Base\Publicacion {
         $this->nombre       = 'Fecundidad en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedadfecundidad';
+        $this->archivo      = 'sociedad-fecundidad';
         $this->descripcion  = 'Tasa de fecundidad.';
         $this->claves       = 'Torreón, Género, Población';
         $this->categorias   = array('Género', 'Población');
@@ -126,12 +126,6 @@ class SociedadFecundidad extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></td>
             <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
-            <td>Tasa de fecundidad.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         $this->nombre       = 'Ingresos Totales en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'gobiernoingresos-totales';
+        $this->archivo      = 'gobierno-ingresos-totales';
         $this->descripcion  = 'Ingresos totales por municipio.';
         $this->claves       = 'Gómez Palacio, Finanzas Públicas';
         $this->categorias   = array('Finanzas Públicas');
@@ -194,12 +194,6 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Gómez Palacio</a></td>
             <td>Ingresos totales del municipio entre el total de la población.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-totales.html">Ingresos Totales en Gómez Palacio</a></td>
-            <td>Ingresos totales por municipio.</td>
           </tr>
           <tr>
             <td>ND</td>

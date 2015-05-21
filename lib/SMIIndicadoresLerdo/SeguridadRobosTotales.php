@@ -20,7 +20,7 @@ class SeguridadRobosTotales extends \Base\Publicacion {
         $this->nombre       = 'Robos Totales en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'seguridadrobos-totales';
+        $this->archivo      = 'seguridad-robos-totales';
         $this->descripcion  = 'Cantidad total de robos en el mes.';
         $this->claves       = 'Lerdo, Seguridad, Delincuencia';
         $this->categorias   = array('Seguridad', 'Delincuencia');
@@ -300,12 +300,6 @@ class SeguridadRobosTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Lerdo</a></td>
             <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/seguridad-robos-totales.html">Robos Totales en Lerdo</a></td>
-            <td>Cantidad total de robos en el mes.</td>
           </tr>
           <tr>
             <td>ND</td>

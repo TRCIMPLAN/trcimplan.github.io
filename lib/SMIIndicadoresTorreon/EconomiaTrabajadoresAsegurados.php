@@ -20,7 +20,7 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
         $this->nombre       = 'Trabajadores Asegurados en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economiatrabajadores-asegurados';
+        $this->archivo      = 'economia-trabajadores-asegurados';
         $this->descripcion  = 'Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal';
         $this->claves       = 'Torreón, Empleo';
         $this->categorias   = array('Empleo');
@@ -369,12 +369,6 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-trabajadores-asegurados--region-.html">Trabajadores Asegurados (Región) en Torreón</a></td>
             <td>Evolución del empleo medida en trabajadores asegurados por el IMSS.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Torreón</a></td>
-            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
           </tr>
         </tbody>
       </table>

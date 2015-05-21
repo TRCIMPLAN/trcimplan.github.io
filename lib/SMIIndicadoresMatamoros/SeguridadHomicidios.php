@@ -20,7 +20,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
         $this->nombre       = 'Homicidios en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'seguridadhomicidios';
+        $this->archivo      = 'seguridad-homicidios';
         $this->descripcion  = 'Número de homicidios por mes';
         $this->claves       = 'Matamoros, Delincuencia, Seguridad';
         $this->categorias   = array('Delincuencia', 'Seguridad');
@@ -252,12 +252,6 @@ class SeguridadHomicidios extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/seguridad-delitos.html">Delitos en Matamoros</a></td>
             <td>Total de delitos cometidos.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-homicidios.html">Homicidios en Matamoros</a></td>
-            <td>Número de homicidios por mes</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class EconomiaTrabajadoresAseguradosRegion extends \Base\Publicacion {
         $this->nombre       = 'Trabajadores Asegurados (Región) en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economiatrabajadores-asegurados-region';
+        $this->archivo      = 'economia-trabajadores-asegurados-region';
         $this->descripcion  = 'Evolución del empleo medida en trabajadores asegurados por el IMSS.';
         $this->claves       = 'Torreón, Empleo';
         $this->categorias   = array('Empleo');

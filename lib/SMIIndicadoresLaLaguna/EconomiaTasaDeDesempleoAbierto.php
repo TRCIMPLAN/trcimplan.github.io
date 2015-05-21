@@ -90,6 +90,12 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/03/2015</td>
+            <td>5.85 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -131,36 +137,50 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>7.09 %</td>
+            <td>2015-03-31</td>
+            <td>6.27 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-12-31</td>
-            <td>7.55 %</td>
+            <td>2015-03-31</td>
+            <td>5.84 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-12-31</td>
-            <td>3.70 %</td>
+            <td>2015-03-31</td>
+            <td>4.76 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-12-31</td>
-            <td>7.14 %</td>
+            <td>2015-03-31</td>
+            <td>3.13 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-12-31</td>
-            <td>6.99 %</td>
+            <td>2015-03-31</td>
+            <td>5.85 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2015-03-31</td>
+            <td>5.57 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2015-03-31</td>
+            <td>4.23 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
@@ -179,6 +199,12 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>20/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
+            <td>Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.</td>
+          </tr>
           <tr>
             <td>10/03/2015</td>
             <td>Análisis</td>
@@ -329,7 +355,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '1990-03-12', dato: 2.8100 },{ fecha: '2000-02-14', dato: 1.0300 },{ fecha: '2010-06-25', dato: 7.4300 },{ fecha: '2014-03-31', dato: 5.9300 },{ fecha: '2014-06-30', dato: 4.8400 },{ fecha: '2014-09-30', dato: 5.7400 },{ fecha: '2014-12-31', dato: 6.9900 }],
+      data: [{ fecha: '1990-03-12', dato: 2.8100 },{ fecha: '2000-02-14', dato: 1.0300 },{ fecha: '2010-06-25', dato: 7.4300 },{ fecha: '2014-03-31', dato: 5.9300 },{ fecha: '2014-06-30', dato: 4.8400 },{ fecha: '2014-09-30', dato: 5.7400 },{ fecha: '2014-12-31', dato: 6.9900 },{ fecha: '2015-03-31', dato: 5.8500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -345,7 +371,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 7.0900 },{ region: 'Gómez Palacio', dato: 7.5500 },{ region: 'Lerdo', dato: 3.7000 },{ region: 'Matamoros', dato: 7.1400 },{ region: 'La Laguna', dato: 6.9900 }],
+      data: [{ region: 'Torreón', dato: 6.2700 },{ region: 'Gómez Palacio', dato: 5.8400 },{ region: 'Lerdo', dato: 4.7600 },{ region: 'Matamoros', dato: 3.1300 },{ region: 'La Laguna', dato: 5.8500 },{ region: 'Coahuila', dato: 5.5700 },{ region: 'Nacional', dato: 4.2300 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

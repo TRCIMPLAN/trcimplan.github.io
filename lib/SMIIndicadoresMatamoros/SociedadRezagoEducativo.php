@@ -20,7 +20,7 @@ class SociedadRezagoEducativo extends \Base\Publicacion {
         $this->nombre       = 'Rezago Educativo en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedadrezago-educativo';
+        $this->archivo      = 'sociedad-rezago-educativo';
         $this->descripcion  = 'Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
 Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
 Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL';
@@ -274,14 +274,6 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-rezago-alimentario.html">Rezago Alimentario en Matamoros</a></td>
             <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-rezago-educativo.html">Rezago Educativo en Matamoros</a></td>
-            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
-Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
-Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
           </tr>
           <tr>
             <td>ND</td>

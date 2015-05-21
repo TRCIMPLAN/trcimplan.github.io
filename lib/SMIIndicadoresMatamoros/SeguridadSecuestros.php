@@ -20,7 +20,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
         $this->nombre       = 'Secuestros en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'seguridadsecuestros';
+        $this->archivo      = 'seguridad-secuestros';
         $this->descripcion  = 'Cantidad de secuestros en el mes';
         $this->claves       = 'Matamoros, Delincuencia, Seguridad';
         $this->categorias   = array('Delincuencia', 'Seguridad');
@@ -312,12 +312,6 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html">Robos a Casa Habitación en Matamoros</a></td>
             <td>Robos totales por mes a casa habitación.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-secuestros.html">Secuestros en Matamoros</a></td>
-            <td>Cantidad de secuestros en el mes</td>
           </tr>
           <tr>
             <td>ND</td>

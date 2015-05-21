@@ -20,7 +20,7 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
         $this->nombre       = 'Población que Trabaja en OTRO Municipio en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sustentabilidadpoblacion-que-trabaja-en-otro-municipio';
+        $this->archivo      = 'sustentabilidad-poblacion-que-trabaja-en-otro-municipio';
         $this->descripcion  = 'Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.';
         $this->claves       = 'Gómez Palacio, Movilidad';
         $this->categorias   = array('Movilidad');
@@ -214,12 +214,6 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-pasajeros-aereos-totales.html">Pasajeros Aéreos Totales en Gómez Palacio</a></td>
             <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en Gómez Palacio</a></td>
-            <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
           </tr>
           <tr>
             <td>ND</td>

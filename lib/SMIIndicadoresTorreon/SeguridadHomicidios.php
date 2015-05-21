@@ -20,7 +20,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
         $this->nombre       = 'Homicidios en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'seguridadhomicidios';
+        $this->archivo      = 'seguridad-homicidios';
         $this->descripcion  = 'Número de homicidios por mes';
         $this->claves       = 'Torreón, Delincuencia, Seguridad';
         $this->categorias   = array('Delincuencia', 'Seguridad');
@@ -264,12 +264,6 @@ class SeguridadHomicidios extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html">Estimación de Menores Huérfanos por Agresiones en Torreón</a></td>
             <td>Menores de edad que han perdido a padre o madre a causa de agresión (homicidio).</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-homicidios.html">Homicidios en Torreón</a></td>
-            <td>Número de homicidios por mes</td>
           </tr>
           <tr>
             <td>ND</td>

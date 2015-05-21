@@ -20,7 +20,7 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
         $this->nombre       = 'Pasajeros Aéreos Totales Anual en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sustentabilidadpasajeros-aereos-totales-anual';
+        $this->archivo      = 'sustentabilidad-pasajeros-aereos-totales-anual';
         $this->descripcion  = 'Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.';
         $this->claves       = 'Gómez Palacio, Movilidad';
         $this->categorias   = array('Movilidad');

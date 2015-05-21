@@ -20,7 +20,7 @@ class EconomiaMicroempresas extends \Base\Publicacion {
         $this->nombre       = 'Microempresas en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'economiamicroempresas';
+        $this->archivo      = 'economia-microempresas';
         $this->descripcion  = 'Porcentaje del total de empresas que emplean de 0 a 10 personas.';
         $this->claves       = 'Lerdo, Empresas';
         $this->categorias   = array('Empresas');
@@ -278,12 +278,6 @@ class EconomiaMicroempresas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/economia-medianas-empresas.html">Medianas Empresas en Lerdo</a></td>
             <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-microempresas.html">Microempresas en Lerdo</a></td>
-            <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
           </tr>
           <tr>
             <td>ND</td>

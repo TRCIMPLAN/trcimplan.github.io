@@ -20,7 +20,7 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
         $this->nombre       = 'Mortalidad Infantil en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedadmortalidad-infantil';
+        $this->archivo      = 'sociedad-mortalidad-infantil';
         $this->descripcion  = 'Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos';
         $this->claves       = 'Torreón, Salud, Objetivos del Milenio';
         $this->categorias   = array('Salud', 'Objetivos del Milenio');
@@ -207,12 +207,6 @@ class SociedadMortalidadInfantil extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></td>
             <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Torreón</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
           </tr>
           <tr>
             <td>ND</td>

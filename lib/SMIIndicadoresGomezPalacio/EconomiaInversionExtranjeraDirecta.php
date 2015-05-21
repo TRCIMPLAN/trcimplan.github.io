@@ -20,7 +20,7 @@ class EconomiaInversionExtranjeraDirecta extends \Base\Publicacion {
         $this->nombre       = 'Inversión Extranjera Directa en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'economiainversion-extranjera-directa';
+        $this->archivo      = 'economia-inversion-extranjera-directa';
         $this->descripcion  = 'Promedio de inversión entre 2008 y 2012.';
         $this->claves       = 'Gómez Palacio, Macroeconomía';
         $this->categorias   = array('Macroeconomía');
@@ -176,12 +176,6 @@ y <a href="http://www.economia.gob.mx/comunidad-negocios/competitividad-normativ
             <td>Análisis</td>
             <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
             <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-inversion-extranjera-directa.html">Inversión Extranjera Directa en Gómez Palacio</a></td>
-            <td>Promedio de inversión entre 2008 y 2012.</td>
           </tr>
           <tr>
             <td>ND</td>

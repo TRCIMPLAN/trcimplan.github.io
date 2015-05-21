@@ -20,7 +20,7 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
         $this->nombre       = 'Cumplimiento en Información Pública Mínina en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'gobiernocumplimiento-en-informacion-publica-minina';
+        $this->archivo      = 'gobierno-cumplimiento-en-informacion-publica-minina';
         $this->descripcion  = 'Cumplimiento sobre total de obligaciones.';
         $this->claves       = 'Gómez Palacio, Transparencia';
         $this->categorias   = array('Transparencia');
@@ -150,12 +150,6 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/datos-abiertos-gobiernos-municipales.html">Datos Abiertos en los Gobiernos Municipales</a></td>
             <td>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en Gómez Palacio</a></td>
-            <td>Cumplimiento sobre total de obligaciones.</td>
           </tr>
           <tr>
             <td>ND</td>

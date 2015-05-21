@@ -20,7 +20,7 @@ class SeguridadRobosTotales extends \Base\Publicacion {
         $this->nombre       = 'Robos Totales en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'seguridadrobos-totales';
+        $this->archivo      = 'seguridad-robos-totales';
         $this->descripcion  = 'Cantidad total de robos en el mes.';
         $this->claves       = 'Gómez Palacio, Seguridad, Delincuencia';
         $this->categorias   = array('Seguridad', 'Delincuencia');
@@ -300,12 +300,6 @@ class SeguridadRobosTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Gómez Palacio</a></td>
             <td>Robo de vehículos con violencia y sin violencia cometidos en el mes</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-robos-totales.html">Robos Totales en Gómez Palacio</a></td>
-            <td>Cantidad total de robos en el mes.</td>
           </tr>
           <tr>
             <td>ND</td>

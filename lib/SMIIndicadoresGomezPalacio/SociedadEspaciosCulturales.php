@@ -20,7 +20,7 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
         $this->nombre       = 'Espacios Culturales en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedadespacios-culturales';
+        $this->archivo      = 'sociedad-espacios-culturales';
         $this->descripcion  = 'Espacios culturales físicamente delimitados.';
         $this->claves       = 'Gómez Palacio, Educación, Cultura';
         $this->categorias   = array('Educación', 'Cultura');
@@ -178,12 +178,6 @@ class SociedadEspaciosCulturales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Gómez Palacio</a></td>
             <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html">Espacios Culturales en Gómez Palacio</a></td>
-            <td>Espacios culturales físicamente delimitados.</td>
           </tr>
           <tr>
             <td>ND</td>

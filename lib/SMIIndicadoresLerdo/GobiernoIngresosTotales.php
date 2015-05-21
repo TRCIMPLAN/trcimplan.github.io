@@ -20,7 +20,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         $this->nombre       = 'Ingresos Totales en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'gobiernoingresos-totales';
+        $this->archivo      = 'gobierno-ingresos-totales';
         $this->descripcion  = 'Ingresos totales por municipio.';
         $this->claves       = 'Lerdo, Finanzas Públicas';
         $this->categorias   = array('Finanzas Públicas');
@@ -194,12 +194,6 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Lerdo</a></td>
             <td>Ingresos totales del municipio entre el total de la población.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/gobierno-ingresos-totales.html">Ingresos Totales en Lerdo</a></td>
-            <td>Ingresos totales por municipio.</td>
           </tr>
           <tr>
             <td>ND</td>

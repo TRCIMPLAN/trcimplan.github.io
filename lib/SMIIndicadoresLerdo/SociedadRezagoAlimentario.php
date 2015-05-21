@@ -20,7 +20,7 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
         $this->nombre       = 'Rezago Alimentario en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedadrezago-alimentario';
+        $this->archivo      = 'sociedad-rezago-alimentario';
         $this->descripcion  = 'Personas que presenten un grado de inseguridad alimentaria moderado o severo.';
         $this->claves       = 'Lerdo, Grupos Vulnerables, Bienestar';
         $this->categorias   = array('Grupos Vulnerables', 'Bienestar');
@@ -243,12 +243,6 @@ class SociedadRezagoAlimentario extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Lerdo</a></td>
             <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-rezago-alimentario.html">Rezago Alimentario en Lerdo</a></td>
-            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
           </tr>
           <tr>
             <td>ND</td>

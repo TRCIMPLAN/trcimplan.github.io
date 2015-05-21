@@ -20,7 +20,7 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \Base\Public
         $this->nombre       = 'Población que Trabaja en su PROPIO Municipio en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sustentabilidadpoblacion-que-trabaja-en-su-propio-municipio';
+        $this->archivo      = 'sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio';
         $this->descripcion  = 'Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.';
         $this->claves       = 'Lerdo, Movilidad';
         $this->categorias   = array('Movilidad');
@@ -220,12 +220,6 @@ class SustentabilidadPoblacionQueTrabajaEnSuPropioMunicipio extends \Base\Public
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en Lerdo</a></td>
             <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html">Población que Trabaja en su PROPIO Municipio en Lerdo</a></td>
-            <td>Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.</td>
           </tr>
           <tr>
             <td>ND</td>

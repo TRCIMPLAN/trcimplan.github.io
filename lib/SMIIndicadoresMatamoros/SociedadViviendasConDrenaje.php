@@ -20,7 +20,7 @@ class SociedadViviendasConDrenaje extends \Base\Publicacion {
         $this->nombre       = 'Viviendas con Drenaje en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedadviviendas-con-drenaje';
+        $this->archivo      = 'sociedad-viviendas-con-drenaje';
         $this->descripcion  = 'Porcentaje de viviendas habitadas que disponen de drenaje.';
         $this->claves       = 'Matamoros, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -193,12 +193,6 @@ class SociedadViviendasConDrenaje extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Matamoros</a></td>
             <td>Porcentaje de viviendas habitadas con computadora.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Matamoros</a></td>
-            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
           </tr>
           <tr>
             <td>ND</td>

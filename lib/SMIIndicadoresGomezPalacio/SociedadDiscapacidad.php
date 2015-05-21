@@ -20,7 +20,7 @@ class SociedadDiscapacidad extends \Base\Publicacion {
         $this->nombre       = 'Discapacidad en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedaddiscapacidad';
+        $this->archivo      = 'sociedad-discapacidad';
         $this->descripcion  = 'Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)';
         $this->claves       = 'Gómez Palacio, Grupos Vulnerables';
         $this->categorias   = array('Grupos Vulnerables');
@@ -168,12 +168,6 @@ class SociedadDiscapacidad extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores.html">Adultos Mayores en Gómez Palacio</a></td>
             <td>Población estimada a mediados de año de personas de 65 años y más</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-discapacidad.html">Discapacidad en Gómez Palacio</a></td>
-            <td>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</td>
           </tr>
           <tr>
             <td>ND</td>

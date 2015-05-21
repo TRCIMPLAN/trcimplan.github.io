@@ -20,7 +20,7 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
         $this->nombre       = 'Destinos Vía Aérea en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sustentabilidaddestinos-via-aerea';
+        $this->archivo      = 'sustentabilidad-destinos-via-aerea';
         $this->descripcion  = 'Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.';
         $this->claves       = 'Torreón, Movilidad';
         $this->categorias   = array('Movilidad');
@@ -178,12 +178,6 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Torreón</a></td>
             <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Torreón</a></td>
-            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
         $this->nombre       = 'Participación Electoral en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'gobiernoparticipacion-electoral';
+        $this->archivo      = 'gobierno-participacion-electoral';
         $this->descripcion  = 'Porcentaje de personas que emitieron su voto.';
         $this->claves       = 'Gómez Palacio, Participación Ciudadana';
         $this->categorias   = array('Participación Ciudadana');
@@ -157,12 +157,6 @@ class GobiernoParticipacionElectoral extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Gómez Palacio</a></td>
             <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-participacion-electoral.html">Participación Electoral en Gómez Palacio</a></td>
-            <td>Porcentaje de personas que emitieron su voto.</td>
           </tr>
         </tbody>
       </table>

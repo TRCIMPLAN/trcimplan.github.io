@@ -20,7 +20,7 @@ class SustentabilidadPasajerosAereosInternacionalesMensuales extends \Base\Publi
         $this->nombre       = 'Pasajeros Aéreos Internacionales Mensuales en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sustentabilidadpasajeros-aereos-internacionales-mensuales';
+        $this->archivo      = 'sustentabilidad-pasajeros-aereos-internacionales-mensuales';
         $this->descripcion  = 'Flujo de pasajeros que llegan del, o, se dirigen fuera de territorio nacional.';
         $this->claves       = 'Torreón, Movilidad';
         $this->categorias   = array('Movilidad');

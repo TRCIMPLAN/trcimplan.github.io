@@ -20,7 +20,7 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
         $this->nombre       = 'Alumbrado Público en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sustentabilidadalumbrado-publico';
+        $this->archivo      = 'sustentabilidad-alumbrado-publico';
         $this->descripcion  = 'Porcentaje de viviendas sin acceso a alumbrado público en su manzana';
         $this->claves       = 'Torreón, Servicios Públicos';
         $this->categorias   = array('Servicios Públicos');
@@ -125,12 +125,6 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-alumbrado-publico.html">Alumbrado Público en Torreón</a></td>
-            <td>Porcentaje de viviendas sin acceso a alumbrado público en su manzana</td>
-          </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>

@@ -20,7 +20,7 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
         $this->nombre       = 'Medianas Empresas en Torreón';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economiamedianas-empresas';
+        $this->archivo      = 'economia-medianas-empresas';
         $this->descripcion  = 'Porcentaje del total de empresas que emplean de 51 a 250 personas.';
         $this->claves       = 'Torreón, Empresas';
         $this->categorias   = array('Empresas');
@@ -284,12 +284,6 @@ class EconomiaMedianasEmpresas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-grandes-empresas.html">Grandes Empresas en Torreón</a></td>
             <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-medianas-empresas.html">Medianas Empresas en Torreón</a></td>
-            <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
           </tr>
           <tr>
             <td>ND</td>

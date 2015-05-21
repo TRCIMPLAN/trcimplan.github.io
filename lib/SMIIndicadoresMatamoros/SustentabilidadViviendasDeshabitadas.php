@@ -20,7 +20,7 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Deshabitadas en Matamoros';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sustentabilidadviviendas-deshabitadas';
+        $this->archivo      = 'sustentabilidad-viviendas-deshabitadas';
         $this->descripcion  = 'Viviendas deshabitadas con respecto al total de viviendas totales.';
         $this->claves       = 'Matamoros, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -155,12 +155,6 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Matamoros</a></td>
             <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Matamoros</a></td>
-            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -20,7 +20,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
         $this->nombre       = 'Homicidios en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'seguridadhomicidios';
+        $this->archivo      = 'seguridad-homicidios';
         $this->descripcion  = 'Número de homicidios por mes';
         $this->claves       = 'Lerdo, Delincuencia, Seguridad';
         $this->categorias   = array('Delincuencia', 'Seguridad');
@@ -252,12 +252,6 @@ class SeguridadHomicidios extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/seguridad-delitos.html">Delitos en Lerdo</a></td>
             <td>Total de delitos cometidos.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/seguridad-homicidios.html">Homicidios en Lerdo</a></td>
-            <td>Número de homicidios por mes</td>
           </tr>
           <tr>
             <td>ND</td>

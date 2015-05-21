@@ -20,7 +20,7 @@ class SociedadViviendasTotales extends \Base\Publicacion {
         $this->nombre       = 'Viviendas Totales en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedadviviendas-totales';
+        $this->archivo      = 'sociedad-viviendas-totales';
         $this->descripcion  = '';
         $this->claves       = 'Gómez Palacio, Vivienda';
         $this->categorias   = array('Vivienda');
@@ -163,12 +163,6 @@ class SociedadViviendasTotales extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Gómez Palacio</a></td>
             <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html">Viviendas Totales en Gómez Palacio</a></td>
-            <td></td>
           </tr>
           <tr>
             <td>ND</td>

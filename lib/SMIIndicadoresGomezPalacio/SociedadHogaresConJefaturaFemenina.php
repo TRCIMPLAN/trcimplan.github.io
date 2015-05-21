@@ -20,7 +20,7 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
         $this->nombre       = 'Hogares con Jefatura Femenina en Gómez Palacio';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
-        $this->archivo      = 'sociedadhogares-con-jefatura-femenina';
+        $this->archivo      = 'sociedad-hogares-con-jefatura-femenina';
         $this->descripcion  = 'Porcentaje de hogares con jefatura femenina.';
         $this->claves       = 'Gómez Palacio, Género';
         $this->categorias   = array('Género');
@@ -142,12 +142,6 @@ class SociedadHogaresConJefaturaFemenina extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Gómez Palacio</a></td>
             <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Gómez Palacio</a></td>
-            <td>Porcentaje de hogares con jefatura femenina.</td>
           </tr>
           <tr>
             <td>ND</td>

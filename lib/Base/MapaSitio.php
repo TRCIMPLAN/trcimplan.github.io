@@ -52,6 +52,10 @@ class MapaSitio extends \Configuracion\MapaSitioConfig {
         if (count($this->urls) >= $this->max_urls) {
             throw new \Exception("Error en MapaSitio, agregar_url: Se ha alcanzado el máximo de {$this->maxURLs} URLs.");
         }
+        // Si es un URL absoluto, ajeno a este sitio, se omite
+        if ((strpos($in_url, 'http://') === 0) && !(strpos($in_url, $this->base_url) === 0)) {
+            return;
+        }
         // URL
         if ((strpos($in_url, 'http://') === 0) || (strpos($in_url, 'https://') === 0)) {
             $url = $in_url;

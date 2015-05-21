@@ -20,7 +20,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->nombre       = 'Camas Censables en Lerdo';
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-lerdo';
-        $this->archivo      = 'sociedadcamas-censables';
+        $this->archivo      = 'sociedad-camas-censables';
         $this->descripcion  = '';
         $this->claves       = 'Lerdo, Salud';
         $this->categorias   = array('Salud');
@@ -240,12 +240,6 @@ class SociedadCamasCensables extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/economia-sector-salud-laguna.html">Economía del Sector Salud en La Laguna</a></td>
             <td>El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-camas-censables.html">Camas Censables en Lerdo</a></td>
-            <td></td>
           </tr>
           <tr>
             <td>ND</td>
