@@ -21,7 +21,7 @@ class SociedadAlumnosDePrimariaPorDocente extends \Base\Publicacion {
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-matamoros';
         $this->archivo      = 'sociedad-alumnos-de-primaria-por-docente';
-        $this->descripcion  = 'Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado.';
+        $this->descripcion  = 'Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.';
         $this->claves       = 'Matamoros, Educación';
         $this->categorias   = array('Educación');
         $this->region_nivel = 131;
@@ -34,7 +34,7 @@ class SociedadAlumnosDePrimariaPorDocente extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado.</p>
+<p>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">

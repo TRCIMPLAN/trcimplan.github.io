@@ -21,7 +21,7 @@ class SociedadAlumnosDeSecundariaPorDocente extends \Base\Publicacion {
         $this->nombre_menu  = 'Indicadores';
         $this->directorio   = 'indicadores-gomez-palacio';
         $this->archivo      = 'sociedad-alumnos-de-secundaria-por-docente';
-        $this->descripcion  = 'Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes.';
+        $this->descripcion  = 'Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.';
         $this->claves       = 'Gómez Palacio, Educación';
         $this->categorias   = array('Educación');
         $this->region_nivel = 111;
@@ -34,7 +34,7 @@ class SociedadAlumnosDeSecundariaPorDocente extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes.</p>
+<p>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
