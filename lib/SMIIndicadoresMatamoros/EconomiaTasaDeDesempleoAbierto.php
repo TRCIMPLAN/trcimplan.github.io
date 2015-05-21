@@ -334,6 +334,12 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-salario-promedio.html">Salario promedio en Matamoros</a></td>
+            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-matamoros/economia-tasa-de-informalidad.html">Tasa de informalidad en Matamoros</a></td>
             <td>Tasa de empleos informales.</td>
           </tr>

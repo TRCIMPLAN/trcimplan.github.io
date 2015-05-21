@@ -214,37 +214,13 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Torreón</a></td>
+            <td><a href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Torreón</a></td>
             <td>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-industria-manufacturera.html">Índice de Especialización Local en Industria Manufacturera en Torreón</a></td>
-            <td>Producción bruta total de la industria manufacturera entre la producción bruta total.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-servicios.html">Índice de Especialización Local en Servicios en Torreón</a></td>
-            <td>Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-construccion.html">Índice de Especialización Local en la Construcción en Torreón</a></td>
-            <td>Producción bruta total de la actividad económica de construcción entre la producción bruta total.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-mineria.html">Índice de Especialización Local en la Minería en Torreón</a></td>
-            <td>Producción bruta total de la actividad económica de minería entre la producción bruta total.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Torreón</a></td>
+            <td><a href="../indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Torreón</a></td>
             <td>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</td>
           </tr>
           <tr>
@@ -270,6 +246,30 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Torreón</a></td>
             <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-industria-manufacturera.html">Índice de Especialización Local en Industria Manufacturera en Torreón</a></td>
+            <td>Producción bruta total de la industria manufacturera entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-servicios.html">Índice de Especialización Local en Servicios en Torreón</a></td>
+            <td>Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-construccion.html">Índice de Especialización Local en la Construcción en Torreón</a></td>
+            <td>Producción bruta total de la actividad económica de construcción entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-mineria.html">Índice de Especialización Local en la Minería en Torreón</a></td>
+            <td>Producción bruta total de la actividad económica de minería entre la producción bruta total.</td>
           </tr>
         </tbody>
       </table>

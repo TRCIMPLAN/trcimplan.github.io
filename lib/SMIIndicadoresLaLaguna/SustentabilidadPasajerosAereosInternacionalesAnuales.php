@@ -286,13 +286,7 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales.html">Pasajeros Aéreos Internacionales en La Laguna</a></td>
-            <td>Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales.html">Pasajeros Aéreos Totales en La Laguna</a></td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales-anual.html">Pasajeros Aéreos Totales Anual en La Laguna</a></td>
             <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
           </tr>
           <tr>

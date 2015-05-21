@@ -191,6 +191,18 @@ class SociedadAlumnosDePrimariaPorDocente extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-alumnos-de-preescolar-por-docente.html">Alumnos de Preescolar por Docente en La Laguna</a></td>
+            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-alumnos-de-secundaria-por-docente.html">Alumnos de Secundaria por Docente en La Laguna</a></td>
+            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html">Espacios Culturales en La Laguna</a></td>
             <td>Espacios culturales físicamente delimitados.</td>
           </tr>

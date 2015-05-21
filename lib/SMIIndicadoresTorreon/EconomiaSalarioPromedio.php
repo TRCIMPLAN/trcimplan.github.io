@@ -283,7 +283,7 @@ class EconomiaSalarioPromedio extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-trabajadores-asegurados--region-.html">Trabajadores Asegurados (Región) en Torreón</a></td>
+            <td><a href="../indicadores-torreon/economia-trabajadores-asegurados-region.html">Trabajadores Asegurados (Región) en Torreón</a></td>
             <td>Evolución del empleo medida en trabajadores asegurados por el IMSS.</td>
           </tr>
           <tr>

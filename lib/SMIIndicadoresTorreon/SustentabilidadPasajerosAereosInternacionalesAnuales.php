@@ -286,14 +286,20 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales.html">Pasajeros Aéreos Internacionales en Torreón</a></td>
-            <td>Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-mensuales.html">Pasajeros Aéreos Internacionales Mensuales en Torreón</a></td>
+            <td>Flujo de pasajeros que llegan del, o, se dirigen fuera de territorio nacional.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales.html">Pasajeros Aéreos Totales en Torreón</a></td>
+            <td><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales-anual.html">Pasajeros Aéreos Totales Anual en Torreón</a></td>
             <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales-mensuales.html">Pasajeros Aéreos Totales Mensuales en Torreón</a></td>
+            <td>Flujo de pasajeros aéreos en el Aeropuerto Internacional Francisco Sarabia.</td>
           </tr>
           <tr>
             <td>ND</td>

@@ -326,13 +326,13 @@ class EconomiaUnidadesEconomicasDedicadasALosServicios extends \Base\Publicacion
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Gómez Palacio</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Gómez Palacio</a></td>
             <td>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Gómez Palacio</a></td>
+            <td><a href="../indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Gómez Palacio</a></td>
             <td>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</td>
           </tr>
           <tr>

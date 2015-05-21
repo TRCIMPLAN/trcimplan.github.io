@@ -191,6 +191,18 @@ class SociedadAlumnosDePrimariaPorDocente extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-alumnos-de-preescolar-por-docente.html">Alumnos de Preescolar por Docente en Matamoros</a></td>
+            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-alumnos-de-secundaria-por-docente.html">Alumnos de Secundaria por Docente en Matamoros</a></td>
+            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Matamoros</a></td>
             <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
           </tr>

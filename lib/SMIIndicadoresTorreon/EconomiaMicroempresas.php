@@ -300,7 +300,7 @@ class EconomiaMicroempresas extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-obtencion-de-credito---creacion-de-garantias.html">Obtención de crédito - Creación de garantías en Torreón</a></td>
+            <td><a href="../indicadores-torreon/economia-obtencion-de-credito-creacion-de-garantias.html">Obtención de crédito - Creación de garantías en Torreón</a></td>
             <td>Días transcurridos en el proceso de obtención de un crédito.</td>
           </tr>
           <tr>

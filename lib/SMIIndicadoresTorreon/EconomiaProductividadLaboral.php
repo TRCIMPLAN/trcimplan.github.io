@@ -302,6 +302,12 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-salario-promedio.html">Salario promedio en Torreón</a></td>
+            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Torreón</a></td>
             <td>Número total de desempleados entre la Población económicamente activa.</td>
           </tr>
@@ -314,7 +320,7 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-trabajadores-asegurados--region-.html">Trabajadores Asegurados (Región) en Torreón</a></td>
+            <td><a href="../indicadores-torreon/economia-trabajadores-asegurados-region.html">Trabajadores Asegurados (Región) en Torreón</a></td>
             <td>Evolución del empleo medida en trabajadores asegurados por el IMSS.</td>
           </tr>
           <tr>

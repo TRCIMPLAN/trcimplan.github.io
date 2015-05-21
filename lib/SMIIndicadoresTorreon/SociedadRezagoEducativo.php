@@ -218,6 +218,24 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-alumnos-de-preescolar-por-docente.html">Alumnos de Preescolar por Docente en Torreón</a></td>
+            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-alumnos-de-primaria-por-docente.html">Alumnos de Primaria por Docente en Torreón</a></td>
+            <td>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-alumnos-de-secundaria-por-docente.html">Alumnos de Secundaria por Docente en Torreón</a></td>
+            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html">Consumo de Agua Facturado en Torreón</a></td>
             <td>Consumo anual de agua por persona expresado en metros cúbicos.</td>
           </tr>
