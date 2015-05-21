@@ -24,6 +24,8 @@ namespace SIG;
 
 /**
  * Clase CrecimientoHistoricoTorreon
+ *
+ * Ha sido descontinuada del menú de navegación. Se crea el archivo con estatus revisar sólo para recibir visitantes con el URL antiguo.
  */
 class CrecimientoHistoricoTorreon extends \Base\Publicacion {
 

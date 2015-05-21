@@ -24,6 +24,8 @@ namespace SIG;
 
 /**
  * Clase Planes
+ *
+ * No crea archivo. Es para poner la opción en index.html
  */
 class Planes extends \Base\Publicacion {
 
@@ -36,7 +38,7 @@ class Planes extends \Base\Publicacion {
      // $this->autor          = 'Autor';
         $this->fecha          = '2015-01-01T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo        = ''; // No hay archivo HTML a crear, porque es un vínculo de descarga
+        $this->archivo        = ''; // No hay archivo HTML a crear
         $this->imagen         = 'introduccion/imagen.jpg';
         $this->imagen_previa  = 'introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno

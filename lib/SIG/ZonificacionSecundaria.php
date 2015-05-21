@@ -24,6 +24,8 @@ namespace SIG;
 
 /**
  * Clase ZonificacionSecundaria
+ *
+ * No crea archivo. Es para poner la opción en index.html
  */
 class ZonificacionSecundaria extends \Base\Publicacion {
 

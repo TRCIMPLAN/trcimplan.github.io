@@ -24,6 +24,8 @@ namespace SIG;
 
 /**
  * Clase AbrirSIG
+ *
+ * Ha sido descontinuada del menú de navegación. Se crea el archivo con estatus revisar sólo para recibir visitantes con el URL antiguo.
  */
 class AbrirSIG extends \Base\Publicacion {
 

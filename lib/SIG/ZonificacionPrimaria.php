@@ -24,6 +24,8 @@ namespace SIG;
 
 /**
  * Clase ZonificacionPrimaria
+ *
+ * No crea archivo. Es para poner la opción en index.html
  */
 class ZonificacionPrimaria extends \Base\Publicacion {
 
@@ -36,7 +38,7 @@ class ZonificacionPrimaria extends \Base\Publicacion {
         $this->autor          = 'Arq. Jair Miramontes Chávez';
         $this->fecha          = '2014-11-18T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo        = ''; // No hay archivo HTML a crear, porque es un vínculo
+        $this->archivo        = ''; // No hay archivo HTML a crear
         $this->imagen         = '../sig-mapas-torreon/zonificacion-primaria/imagen.jpg';
         $this->imagen_previa  = '../sig-mapas-torreon/zonificacion-primaria/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno

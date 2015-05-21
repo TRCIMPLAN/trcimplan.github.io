@@ -24,6 +24,8 @@ namespace SIG;
 
 /**
  * Clase AlumbradoPublico
+ *
+ * Ha sido descontinuada del menú de navegación. Se crea el archivo con estatus revisar sólo para recibir visitantes con el URL antiguo.
  */
 class AlumbradoPublico extends \Base\Publicacion {
 

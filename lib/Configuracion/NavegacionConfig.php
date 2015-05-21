@@ -40,7 +40,7 @@ class NavegacionConfig {
             'Información Geográfica > Introducción al S.I.G.'  => 'sig/introduccion.html',
             'Información Geográfica > Planes'                  => 'sig-planes/index.html',
             'Información Geográfica > S.I.G. de Torreón'       => 'sig-mapas-torreon/index.html',
-            'Información Geográfica > Zonificación Secundaria' => 'sig/zonificacion-secundaria.html'),
+            'Información Geográfica > Zonificación Secundaria' => 'sig-mapas-torreon/zonificacion-secundaria.html'),
         'Plan Estratégico Metropolitano' => array(
             'Plan Estratégico Metropolitano > Conoce el Plan'              => 'plan-estrategico-metropolitano/introduccion.html',
             'Plan Estratégico Metropolitano > M1 Diagnóstico y Pronóstico' => 'plan-estrategico-metropolitano/mesa-1.html',
