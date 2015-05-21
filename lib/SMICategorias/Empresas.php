@@ -111,7 +111,7 @@ class Empresas extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Nuevas Empresas</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-nuevas-empresas.html" data-toggle="tooltip" title="Cantidad, 31/01/2015, Ventanilla Universal. Dirección de Desarrollo Económico del municipio de Torreón.">123</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-nuevas-empresas.html" data-toggle="tooltip" title="Cantidad, 30/04/2015, Ventanilla Universal. Dirección de Desarrollo Económico del municipio de Torreón.">203</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

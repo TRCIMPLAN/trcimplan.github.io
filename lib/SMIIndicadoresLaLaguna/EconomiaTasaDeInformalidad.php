@@ -126,6 +126,12 @@ class EconomiaTasaDeInformalidad extends \Base\Publicacion {
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/03/2015</td>
+            <td>44.89 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -151,36 +157,50 @@ class EconomiaTasaDeInformalidad extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>39.89 %</td>
+            <td>2015-03-31</td>
+            <td>44.25 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-12-31</td>
-            <td>43.63 %</td>
+            <td>2015-03-31</td>
+            <td>40.91 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-12-31</td>
-            <td>57.69 %</td>
+            <td>2015-03-31</td>
+            <td>58.33 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-12-31</td>
-            <td>56.92 %</td>
+            <td>2015-03-31</td>
+            <td>56.45 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-12-31</td>
-            <td>43.37 %</td>
+            <td>2015-03-31</td>
+            <td>44.89 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2015-03-31</td>
+            <td>33.56 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2015-03-31</td>
+            <td>57.61 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
@@ -355,7 +375,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2011-12-31', dato: 46.9800 },{ fecha: '2012-03-31', dato: 50.1600 },{ fecha: '2012-06-30', dato: 50.3400 },{ fecha: '2012-09-30', dato: 53.1100 },{ fecha: '2012-12-31', dato: 51.7700 },{ fecha: '2013-03-31', dato: 47.1100 },{ fecha: '2013-06-30', dato: 44.8200 },{ fecha: '2013-09-30', dato: 45.5400 },{ fecha: '2013-12-31', dato: 43.2100 },{ fecha: '2014-03-31', dato: 42.6900 },{ fecha: '2014-06-30', dato: 43.5300 },{ fecha: '2014-09-30', dato: 43.8000 },{ fecha: '2014-12-31', dato: 43.3700 }],
+      data: [{ fecha: '2011-12-31', dato: 46.9800 },{ fecha: '2012-03-31', dato: 50.1600 },{ fecha: '2012-06-30', dato: 50.3400 },{ fecha: '2012-09-30', dato: 53.1100 },{ fecha: '2012-12-31', dato: 51.7700 },{ fecha: '2013-03-31', dato: 47.1100 },{ fecha: '2013-06-30', dato: 44.8200 },{ fecha: '2013-09-30', dato: 45.5400 },{ fecha: '2013-12-31', dato: 43.2100 },{ fecha: '2014-03-31', dato: 42.6900 },{ fecha: '2014-06-30', dato: 43.5300 },{ fecha: '2014-09-30', dato: 43.8000 },{ fecha: '2014-12-31', dato: 43.3700 },{ fecha: '2015-03-31', dato: 44.8900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -371,7 +391,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 39.8900 },{ region: 'Gómez Palacio', dato: 43.6300 },{ region: 'Lerdo', dato: 57.6900 },{ region: 'Matamoros', dato: 56.9200 },{ region: 'La Laguna', dato: 43.3700 }],
+      data: [{ region: 'Torreón', dato: 44.2500 },{ region: 'Gómez Palacio', dato: 40.9100 },{ region: 'Lerdo', dato: 58.3300 },{ region: 'Matamoros', dato: 56.4500 },{ region: 'La Laguna', dato: 44.8900 },{ region: 'Coahuila', dato: 33.5600 },{ region: 'Nacional', dato: 57.6100 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
