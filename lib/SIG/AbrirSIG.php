@@ -62,11 +62,11 @@ class AbrirSIG extends \Base\Publicacion {
 FINAL;
         // Sin JavaScript
         $this->javascript     = '';
-        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
+        // Para redifusión, si tiene una imagen se usa y después la descripción
         if ($this->imagen != '') {
-            $this->redifusion = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->contenido);
+            $this->redifusion = sprintf("<a href=\"%s\"><img src=\"%s\"><br>\n\n%s</a>", "{$this->directorio}/{$this->archivo}.html", $this->imagen, $this->descripcion);
         } else {
-            $this->redifusion = $this->contenido;
+            $this->redifusion = sprintf('<a href="%s">%s</a>', "{$this->directorio}/{$this->archivo}.html", $this->descripcion);
         }
     } // constructor
 

@@ -31,15 +31,20 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
+        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'Proyectos';
-        $this->titulo                   = 'Banco Municipal de Proyectos';
-        $this->descripcion              = 'Banco Municipal de Proyectos del IMPLAN Torreón.';
+        // Los siguientes parámetros dan datos para el índice/galería que será creado
+        $this->titulo                   = 'Proyectos Estratégicos';
+        $this->descripcion              = 'Información sobre Proyectos estratégicos y el Banco Municipal de Proyectos del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Banco, Municipal, Proyectos';
+        $this->encabezado_color         = '#5A1E81';
+        // Etiqueta de Navegación a poner activa
+        $this->nombre_menu              = 'Proyectos Estratégicos';
+        // Clase que concentrará a las publicaciones para hacer su propia página
+        $this->concentrador             = 'Indice'; // Puede ser Indice (por defecto), Galeria o Tarjetas
+        // La ruta al archivo con el índice/galería/tarjetas que será creado
         $this->directorio               = 'proyectos';
         $this->archivo_ruta             = 'proyectos/index.html';
-        $this->nombre_menu              = 'Banco de Proyectos';
-        $this->encabezado_color         = '#008000';
-        $this->encabezado_icono         = \Configuracion\NavegacionConfig::$iconos['Banco de Proyectos'];
     } // constructor
 
 } // Clase Imprenta

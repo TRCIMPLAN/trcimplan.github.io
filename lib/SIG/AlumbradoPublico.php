@@ -88,8 +88,12 @@ FINAL;
         $this->contenido          = $paquete;
         // Sin JavaScript
         $this->javascript         = '';
-        // Para redifusión
-        $this->redifusion         = sprintf('<a href="%s">%s</a>', "{$this->directorio}/{$this->archivo}.html", $this->descripcion);
+        // Para redifusión, si tiene una imagen se usa y después la descripción
+        if ($this->imagen != '') {
+            $this->redifusion = sprintf("<a href=\"%s\"><img src=\"%s\"><br>\n\n%s</a>", "{$this->directorio}/{$this->archivo}.html", $this->imagen, $this->descripcion);
+        } else {
+            $this->redifusion = sprintf('<a href="%s">%s</a>', "{$this->directorio}/{$this->archivo}.html", $this->descripcion);
+        }
     } // constructor
 
 } // Clase AlumbradoPublico

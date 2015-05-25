@@ -2,53 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-05-21</lastmod>
+    <lastmod>2015-05-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/index.html</loc>
-    <lastmod>2015-05-21</lastmod>
+    <lastmod>2015-05-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-categorias/index.html</loc>
-    <lastmod>2015-05-21</lastmod>
+    <lastmod>2015-05-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/index.html</loc>
-    <lastmod>2015-05-21</lastmod>
+    <lastmod>2015-05-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/index.html</loc>
-    <lastmod>2015-05-21</lastmod>
+    <lastmod>2015-05-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/index.html</loc>
-    <lastmod>2015-05-21</lastmod>
+    <lastmod>2015-05-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/index.html</loc>
-    <lastmod>2015-05-21</lastmod>
+    <lastmod>2015-05-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/index.html</loc>
-    <lastmod>2015-05-21</lastmod>
+    <lastmod>2015-05-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/eventos/index.html</loc>
-    <lastmod>2015-05-21</lastmod>
+    <lastmod>2015-05-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/index.html</loc>
-    <lastmod>2015-05-21</lastmod>
+    <lastmod>2015-05-25</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/proyectos/calle-completa.html</loc>
+    <lastmod>2015-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/proyectos/salud-laguna.html</loc>
+    <lastmod>2015-05-25</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-decrecimiento-poblacion.html</loc>
@@ -266,12 +276,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig/crecimiento-historico-torreon.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-historico-torreon.html</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-historico-torreon.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig/crecimiento-historico-torreon.html</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -321,12 +331,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/../sig-planes/index.html</loc>
+    <loc>http://www.trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
+    <loc>http://www.trcimplan.gob.mx/../sig-planes/index.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -626,12 +636,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig/alumbrado-publico.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html</loc>
     <lastmod>2014-09-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig/alumbrado-publico.html</loc>
     <lastmod>2014-09-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -816,7 +826,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/proyectos/introduccion.html</loc>
+    <loc>http://www.trcimplan.gob.mx/proyectos/banco-municipal-proyectos-inversion.html</loc>
     <lastmod>2014-05-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1106,6 +1116,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-salario-promedio.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -1342,6 +1357,21 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-alumnos-de-preescolar-por-docente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-alumnos-de-primaria-por-docente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-alumnos-de-secundaria-por-docente.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1726,6 +1756,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-salario-promedio.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -1942,6 +1977,21 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-alumnos-de-preescolar-por-docente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-alumnos-de-primaria-por-docente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-alumnos-de-secundaria-por-docente.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2301,6 +2351,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-salario-promedio.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -2537,6 +2592,21 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-alumnos-con-perfil-gramatico-espanol.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-alumnos-de-preescolar-por-docente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-alumnos-de-primaria-por-docente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-alumnos-de-secundaria-por-docente.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2926,6 +2996,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-salario-promedio.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -3162,6 +3237,21 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-de-preescolar-por-docente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-de-primaria-por-docente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-de-secundaria-por-docente.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3586,6 +3676,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-salario-promedio.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -3832,6 +3927,21 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-con-perfil-gramatico-espanol.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-de-preescolar-por-docente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-de-primaria-por-docente.html</loc>
+    <lastmod>1980-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-de-secundaria-por-docente.html</loc>
     <lastmod>1980-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>

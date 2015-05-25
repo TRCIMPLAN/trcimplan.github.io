@@ -54,11 +54,11 @@ class ZonificacionSecundaria extends \Base\Publicacion {
         $this->contenido      = '';
         // Sin JavaScript
         $this->javascript     = '';
-        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
+        // Para redifusión, si tiene una imagen se usa y después la descripción
         if ($this->imagen != '') {
-            $this->redifusion = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $this->descripcion);
+            $this->redifusion = sprintf("<a href=\"%s\"><img src=\"%s\"><br>\n\n%s</a>", $this->url, $this->imagen, $this->descripcion);
         } else {
-            $this->redifusion = $this->descripcion;
+            $this->redifusion = sprintf('<a href="%s">%s</a>', $this->url, $this->descripcion);
         }
     } // constructor
 
