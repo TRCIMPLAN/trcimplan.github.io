@@ -34,7 +34,7 @@ class ReflexionCrecimientoUrbanoTorreon extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Reflexión del Crecimiento Urbano en Torreón';
         $this->autor           = 'Arq. Ilse Ávila García';
-        $this->fecha           = '2015-05-27T15:20';
+        $this->fecha           = '2015-05-27T16:10';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo         = 'reflexion-crecimiento-urbano-torreon';
         $this->imagen          = 'reflexion-crecimiento-urbano-torreon/imagen.jpg';
