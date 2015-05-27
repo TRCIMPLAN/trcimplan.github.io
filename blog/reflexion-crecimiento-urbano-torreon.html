@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            http://www.oesmith.co.uk/morris.js
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La ciudad de Torreón nace a partir de la visión de Sr. Andrés Guillermo Eppen con trazos ordenados, calles anchas, manzanas cuadradas y alineadas con la vía de ferrocarril.">
+  <meta name="author" content="Arq. Ilse Ávila García">
+  <meta name="keywords" content="IMPLAN, Torreon, Historia, Calles, Manzanas, Trazos, Crecimiento, Ordenado">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Reflexión del Crecimiento Urbano en Torreón - IMPLAN Torreón">
+  <meta name="twitter:description" content="La ciudad de Torreón nace a partir de la visión de Sr. Andrés Guillermo Eppen con trazos ordenados, calles anchas, manzanas cuadradas y alineadas con la vía de ferrocarril.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/reflexion-crecimiento-urbano-torreon/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/reflexion-crecimiento-urbano-torreon.html">
+  <meta name="og:title" content="Reflexión del Crecimiento Urbano en Torreón - IMPLAN Torreón">
+  <meta name="og:description" content="La ciudad de Torreón nace a partir de la visión de Sr. Andrés Guillermo Eppen con trazos ordenados, calles anchas, manzanas cuadradas y alineadas con la vía de ferrocarril.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/reflexion-crecimiento-urbano-torreon/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/reflexion-crecimiento-urbano-torreon.html">
+  <title>Reflexión del Crecimiento Urbano en Torreón - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M1 Diagnóstico y Pronóstico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-2.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M2 Visión y Objetivos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-3.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M3 Estrategias y Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-4.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M4 Gestión de Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/fotogaleria.html"><span class="navegacion-icono"><i class="fa fa-camera"></i></span> Fotogalería</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/calle-completa.html"><span class="navegacion-icono"><i class="fa fa-road"></i></span> Calle Completa</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+            <li><a href="../proyectos/salud-laguna.html"><span class="navegacion-icono"><i class="fa fa-share-alt-square"></i></span> Salud Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+<article>
+      <div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Reflexión del Crecimiento Urbano en Torreón</h1>
+          <div class="encabezado-descripcion" itemprop="description">La ciudad de Torreón nace a partir de la visión de Sr. Andrés Guillermo Eppen con trazos ordenados, calles anchas, manzanas cuadradas y alineadas con la vía de ferrocarril.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Arq. Ilse Ávila García</span>
+          - <meta itemprop="datePublished" content="2015-05-27T15:20">27/05/2015 15:20
+        </div>
+        </div>
+        <meta itemprop="image" alt="Reflexión del Crecimiento Urbano en Torreón" src="reflexion-crecimiento-urbano-torreon/imagen.jpg">
+              <div itemprop="articleBody">
+        <p><img class="img-responsive" src="reflexion-crecimiento-urbano-torreon/imagen-grande.jpg" alt="Torreon foto historica"></p>
+
+<p>Los procesos en el crecimiento y transformación en las ciudades se han asociado de manera tradicional a un determinado modelo económico que se va fortaleciendo hasta alcanzar nuevos ámbitos y especializándose en servicios que alcanza a varias regiones vecinas y formando así nodos.</p>
+
+<p>La ciudad de Torreón se localiza en el suroeste del estado de  Coahuila; una de las principales fortalezas que tiene la ciudad es su conectividad; en cuanto a carreteras  se ubica dentro del  corredor Matamoros- Mazatlán y Ciudad Juárez – Querétaro, tiene  conectividad ferroviaria que data  desde 1881 con la línea  del Ferrocarril Central Mexicano, que iniciaba en la Ciudad de México y terminaba en la Villa del Paso del Norte atravesando los estados de México, Hidalgo Querétaro, Guanajuato, Jalisco, Aguascalientes, Hidalgo, Zacatecas, Coahuila, Durango y Chihuahua.</p>
+
+<p>La ciudad nace a partir de la visión emprendedora de Sr. Andrés Guillermo Eppen Aschenborn,  motivado por el objetivo de fomentar el desarrollo agrícola de la región con el paso del ferrocarril de la central y el Internacional para formar un centro de población.</p>
+
+<p>La construcción de esta línea del ferrocarril inició de Sur a Norte enlazando importantes centros de población,  pasando por fértiles valles cuyo cultivo recibió gran impulso detonando el sector agrícola a su paso, en las inmediaciones de su trayecto, principalmente en la Laguna; donde se ubicaba la estación  Torreón que  entroncaba  con el Ferrocarril Internacional Mexicano. (1)</p>
+
+<p>El centro de población se plantea con el trazo ordenado de una retícula con medidas de ochenta y cuatro metros setenta y tres centímetros, por cada lado, y las calles con veintiún metros veinte centímetros de ancho; paralelas a la línea férrea de la central, conformada por 132 manzanas, en la que se destinó  la manzana  34 para albergar la plaza principal (Plaza de Armas) la manzana 32 para un mercado, la ubicación de una iglesia (Iglesia de Guadalupe), así nace la Villa del Torreón. (2)</p>
+
+<p><img class="img-responsive" src="reflexion-crecimiento-urbano-torreon/torreon-foto-historica-2.jpg" alt="Torreon foto histórica"></p>
+
+<p>La ciudad continúa con un crecimiento ordenado siguiendo el trazado original de retícula lo que denota una actividad económica estable en los sectores  agrícola ganadera, industrial y metalúrgica que desarrolla la actividad bancaria a gran escala,  en los años 40´s se construyen áreas habitacionales de densidad baja como son la colonia “Torreón Jardín” planificada y diseñada desde su concepción con servicios públicos de calidad, ordenamiento en sus vialidades y equipamientos. En esa época también se construye el Bosque Venustiano Carranza, espacio que viene a reforzar la continuidad de las plazas y parques públicos que se da desde los primeros trazos, también inicia en el centro la densificación vertical con la construcción de edificios de oficinas y departamentos. En los 50´s la construcción de vialidades principales como son el Blvd. Independencia y Diagonal Reforma rompe con la estructura morfológica de la ciudad y se dan los primeros cambios  en la misma.</p>
+
+<p>A partir de la década de los años 70 viene un cambio con la visión de  fortalecer la actividad económica  industrial en la región y se establece el Parque Industrial Lagunero con una superficie de aproximadamente 364 has.  en la ciudad de Gómez Palacio ubicada al noroeste de la ciudad de Torreón, con acceso a  conectividad carretera y ferroviaria, esto  genera una serie de cambios en los asentamientos, como respuesta a la necesidad de vivienda de densidades altas y los usos compatibles que los acompañan para proveer de servicios a los mismos, como respuesta a estos apoyos al sector económico, en la ciudad de Torreón se crean también zonas industriales:  al norte “La Ciudad Industrial Torreón”, al sureste se establecen empresas como Caleras de la Laguna y Cementos Mexicanos y al oriente “El Parque Industrial Oriente”, así como el fortalecimiento del sector educativo.</p>
+
+<p>Esta situación socioeconómica, junto con el la conveniencia de compra de tierras en las periferias, fomentó el establecimiento de fraccionamientos habitacionales fuera del límite que contenía en ese momento a la ciudad, el Periférico Raúl López Sánchez, y con ello el cambio de la dinámica urbana tradicional y es punto de partida para la expansión urbana discontinua. Hasta la década de los 90´s, época en la que toma un nuevo impulso el desarrollo industrial con la llegada de empresas transnacionales del sector automotriz y maquilador. Se establece una nueva área industrial catalogada como pesada que daría hospedaje a industrias metalmecánicas. Mientras la ciudad consolidaba los subcentros urbanos en su periferia, el centro histórico empezó con un proceso grave de despoblamiento y degradación.</p>
+
+<p><img class="img-responsive" src="reflexion-crecimiento-urbano-torreon/torreon-foto-aerea.jpg" alt="Torreon fotografia aerea"></p>
+
+<p>A partir del año 2000 con los  mayores accesos a créditos hipotecarios inicia la llegada de varias compañías inmobiliarias con una oferta de fraccionamientos habitacionales de interés bajo, medio y alto, el crecimiento expansivo de la ciudad, lo determinan: la carretera a San Pedro hacia el norte y al oriente, el corredor Torreón-Matamoros. Los centros  alejados del centro de población, crean problemas de accesibilidad, movilidad, decaimiento del espacio público por ser de disfrute privado en los fraccionamientos cerrados, aunado a la fragmentación y segregación social que se genera; lo que trae consigo una dispersión irregular de la traza urbana y nuevamente cambia; con este patrón de crecimiento hasta la fecha.</p>
+
+<p>Actualmente la ciudad crece de una forma dispersa, como lo hemos visto,  lo que genera problemas como, deterioro del espacio público, segregación social, baja calidad de vida, deficiencia en el equipamiento urbano,  alto costo de los servicios públicos e inseguridad. Por ello se impulsan políticas públicas que detengan esta dispersión que empieza a manifestarse, estamos en un momento importante en el cual la escala de la  ciudad tiene una dimensión planificable que nos permite redefinir y priorizar los proyectos fortaleciendo la relación  corresponsable entre gobierno y sociedad para transformar las condiciones de calidad de vida y fortalecer el tejido social.</p>
+
+<h3>Fotografías</h3>
+
+<ul>
+<li><a href="http://foros.elsiglodetorreon.com.mx/cultura/586788-alguien+sabe.html">http://foros.elsiglodetorreon.com.mx/cultura/586788-alguien+sabe.html</a></li>
+<li><a href="http://megaconstrucciones.net/?construccion=torreon">http://megaconstrucciones.net/?construccion=torreon</a></li>
+</ul>
+
+<h3>Referencias</h3>
+
+<ol>
+<li><a href="http://cdigital.dgb.uanl.mx/la/1080097343/1080097343_MA.PDF">Historia y Descripción del Ferrocarril Central Mexicano, Lic. Juan de la Torre, México, mayo 1888 - Archivo PDF 20 MB</a></li>
+<li><a href="http://www.torreonhistoria.galeon.com/aficiones1001256.html">Historia de Torreón</a></li>
+</ol>
+
+        </div>
+      </div>
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Freflexion-crecimiento-urbano-torreon.html.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
