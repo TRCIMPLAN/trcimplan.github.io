@@ -160,6 +160,12 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>25/05/2015</td>
+            <td>Proyecto</td>
+            <td><a href="../proyectos/salud-laguna.html">Salud Laguna</a></td>
+            <td>Salud Laguna es una agrupación interactiva de pro­fesionales, instituciones, or­ga­nizaciones, integrados en torno a las actividades económicas que dan servicio y soportan al sec­tor salud.</td>
+          </tr>
+          <tr>
             <td>20/05/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
@@ -236,6 +242,12 @@ class EconomiaGrandesEmpresas extends \Base\Publicacion {
             <td>Análisis</td>
             <td><a href="../blog/mercado-factores-eficientes.html">Mercado de Factores Eficientes</a></td>
             <td>Análisis del mercado, las huelgas, el salario promedio mensual, productividad y demandas laborales en la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>01/06/2014</td>
+            <td>Proyecto</td>
+            <td><a href="../proyectos/plata-laguna.html">Plata Laguna</a></td>
+            <td>Contribuir a que la plata de La Laguna sea un sector mundialmente competitivo; reconocida por su calidad e identificable por el consumidor.</td>
           </tr>
           <tr>
             <td>29/05/2014</td>

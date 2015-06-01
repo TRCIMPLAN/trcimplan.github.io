@@ -126,6 +126,12 @@ class SociedadTasaDeMortalidadMaterna extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>25/05/2015</td>
+            <td>Proyecto</td>
+            <td><a href="../proyectos/salud-laguna.html">Salud Laguna</a></td>
+            <td>Salud Laguna es una agrupación interactiva de pro­fesionales, instituciones, or­ga­nizaciones, integrados en torno a las actividades económicas que dan servicio y soportan al sec­tor salud.</td>
+          </tr>
+          <tr>
             <td>27/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/objetivos-milenio.html">La Zona Metropolitana de La Laguna y los Objetivos del Milenio</a></td>

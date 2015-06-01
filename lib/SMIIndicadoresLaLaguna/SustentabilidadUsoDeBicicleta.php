@@ -72,6 +72,18 @@ class SustentabilidadUsoDeBicicleta extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>27/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/reflexion-crecimiento-urbano-torreon.html">Reflexión del Crecimiento Urbano en Torreón</a></td>
+            <td>La ciudad de Torreón nace a partir de la visión de Sr. Andrés Guillermo Eppen con trazos ordenados, calles anchas, manzanas cuadradas y alineadas con la vía de ferrocarril.</td>
+          </tr>
+          <tr>
+            <td>25/05/2015</td>
+            <td>Proyecto</td>
+            <td><a href="../proyectos/calle-completa.html">Programa Calle Completa</a></td>
+            <td>Calle Completa es una calle que incluye al peatón y a todos los medios de transporte (ciclistas, motociclistas, autobuses, automovilistas), de todas las edades y con todo tipo de habilidades motoras.</td>
+          </tr>
+          <tr>
             <td>19/05/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>

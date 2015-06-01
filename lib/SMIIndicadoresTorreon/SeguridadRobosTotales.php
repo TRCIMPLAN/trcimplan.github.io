@@ -138,6 +138,12 @@ class SeguridadRobosTotales extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/04/2015</td>
+            <td>345</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -163,36 +169,36 @@ class SeguridadRobosTotales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-03-31</td>
-            <td>253</td>
+            <td>2015-04-30</td>
+            <td>345</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-03-31</td>
-            <td>177</td>
+            <td>2015-04-30</td>
+            <td>295</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-03-31</td>
-            <td>32</td>
+            <td>2015-04-30</td>
+            <td>29</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-03-31</td>
-            <td>25</td>
+            <td>2015-04-30</td>
+            <td>27</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-03-31</td>
-            <td>487</td>
+            <td>2015-04-30</td>
+            <td>696</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -367,7 +373,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 552 },{ fecha: '2014-02-28', dato: 485 },{ fecha: '2014-03-31', dato: 397 },{ fecha: '2014-04-30', dato: 360 },{ fecha: '2014-05-31', dato: 575 },{ fecha: '2014-06-30', dato: 392 },{ fecha: '2014-07-31', dato: 383 },{ fecha: '2014-08-31', dato: 431 },{ fecha: '2014-09-30', dato: 403 },{ fecha: '2014-10-31', dato: 433 },{ fecha: '2014-11-30', dato: 305 },{ fecha: '2014-12-31', dato: 263 },{ fecha: '2015-01-31', dato: 344 },{ fecha: '2015-02-28', dato: 305 },{ fecha: '2015-03-31', dato: 253 }],
+      data: [{ fecha: '2014-01-31', dato: 552 },{ fecha: '2014-02-28', dato: 485 },{ fecha: '2014-03-31', dato: 397 },{ fecha: '2014-04-30', dato: 360 },{ fecha: '2014-05-31', dato: 575 },{ fecha: '2014-06-30', dato: 392 },{ fecha: '2014-07-31', dato: 383 },{ fecha: '2014-08-31', dato: 431 },{ fecha: '2014-09-30', dato: 403 },{ fecha: '2014-10-31', dato: 433 },{ fecha: '2014-11-30', dato: 305 },{ fecha: '2014-12-31', dato: 263 },{ fecha: '2015-01-31', dato: 344 },{ fecha: '2015-02-28', dato: 305 },{ fecha: '2015-03-31', dato: 253 },{ fecha: '2015-04-30', dato: 345 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -383,7 +389,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 253 },{ region: 'Gómez Palacio', dato: 177 },{ region: 'Lerdo', dato: 32 },{ region: 'Matamoros', dato: 25 },{ region: 'La Laguna', dato: 487 }],
+      data: [{ region: 'Torreón', dato: 345 },{ region: 'Gómez Palacio', dato: 295 },{ region: 'Lerdo', dato: 29 },{ region: 'Matamoros', dato: 27 },{ region: 'La Laguna', dato: 696 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -255,6 +255,12 @@ class SociedadUsuariosDeInternet extends \Base\Publicacion {
             <td>La eficiencia de los gobiernos es el subíndice peor evaluado para la metrópoli ubicándonos en el lugar 63 de 77.</td>
           </tr>
           <tr>
+            <td>01/06/2014</td>
+            <td>Proyecto</td>
+            <td><a href="../proyectos/plata-laguna.html">Plata Laguna</a></td>
+            <td>Contribuir a que la plata de La Laguna sea un sector mundialmente competitivo; reconocida por su calidad e identificable por el consumidor.</td>
+          </tr>
+          <tr>
             <td>29/05/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/doing-business-torreon.html">Doing Business en Torreón</a></td>

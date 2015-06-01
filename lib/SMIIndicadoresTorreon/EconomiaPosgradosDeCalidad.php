@@ -185,6 +185,12 @@ class EconomiaPosgradosDeCalidad extends \Base\Publicacion {
             <td>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</td>
           </tr>
           <tr>
+            <td>01/06/2014</td>
+            <td>Proyecto</td>
+            <td><a href="../proyectos/plata-laguna.html">Plata Laguna</a></td>
+            <td>Contribuir a que la plata de La Laguna sea un sector mundialmente competitivo; reconocida por su calidad e identificable por el consumidor.</td>
+          </tr>
+          <tr>
             <td>28/04/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/la-laguna-metropoli-del-conocimiento.html">La Laguna: Metrópoli del Conocimiento</a></td>
@@ -206,19 +212,19 @@ class EconomiaPosgradosDeCalidad extends \Base\Publicacion {
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-alumnos-de-preescolar-por-docente.html">Alumnos de Preescolar por Docente en Torreón</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes.</td>
+            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-alumnos-de-primaria-por-docente.html">Alumnos de Primaria por Docente en Torreón</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado.</td>
+            <td>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
           </tr>
           <tr>
             <td>ND</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-alumnos-de-secundaria-por-docente.html">Alumnos de Secundaria por Docente en Torreón</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes.</td>
+            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
           </tr>
           <tr>
             <td>ND</td>
