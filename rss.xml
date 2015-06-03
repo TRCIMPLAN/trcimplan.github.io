@@ -5,7 +5,7 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 03 Jun 2015 13:37:57 -0500</pubDate>
+    <pubDate>Wed, 03 Jun 2015 13:59:36 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -16,7 +16,7 @@
       <guid isPermaLink="false">sig-mapas-torreon-crecimiento-decrecimiento-poblacion</guid>
       <pubDate>Wed, 03 Jun 2015 13:36:00 -0500</pubDate>
       <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/sig-mapas-torreon/crecimiento-decrecimiento-poblacion.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-decrecimiento-poblacion/imagen.jpg"><br>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-decrecimiento-poblacion.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-decrecimiento-poblacion/imagen.jpg"><br>
 
 Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de habitantes.</a>]]></description>
     </item>
@@ -508,7 +508,7 @@ Mapas del Sistema de Información Geográfica para Torreón.</a>]]></description
       <guid isPermaLink="false">sig-mapas-torreon-cobertura-transporte</guid>
       <pubDate>Thu, 14 May 2015 12:00:00 -0500</pubDate>
       <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/sig-mapas-torreon/cobertura-transporte.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/cobertura-transporte/imagen.jpg"><br>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/cobertura-transporte.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/cobertura-transporte/imagen.jpg"><br>
 
 Mapa con las rutas autorizadas para las líneas de transporte público en Torreón.</a>]]></description>
     </item>
@@ -518,7 +518,7 @@ Mapa con las rutas autorizadas para las líneas de transporte público en Torre�
       <guid isPermaLink="false">sig-mapas-torreon-vida-en-ciudad</guid>
       <pubDate>Thu, 14 May 2015 11:00:00 -0500</pubDate>
       <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/sig-mapas-torreon/vida-en-ciudad.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/vida-en-ciudad/imagen.jpg"><br>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/vida-en-ciudad.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/vida-en-ciudad/imagen.jpg"><br>
 
 Ubicación de los principales centros comerciales, centros de convenciones y espectáculos, museos, parques, plazas, teatros, así como lugares de turismo deportivo e histórico.</a>]]></description>
     </item>
