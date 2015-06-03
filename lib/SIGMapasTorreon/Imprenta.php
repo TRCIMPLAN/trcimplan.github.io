@@ -34,12 +34,12 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'SIGMapasTorreon';
         // Los siguientes parámetros dan datos para el índice/galería que será creado
-        $this->titulo                   = 'S.I.G. de Torreón';
-        $this->descripcion              = 'Mapas del Sistema de Información Geográfica para Torreón';
+        $this->titulo                   = 'Sistema de Información Geográfica de Torreón';
+        $this->descripcion              = 'Mapas con información georreferenciada para Torreón';
         $this->claves                   = 'IMPLAN, SIG, Información, Geográfica, Torreón';
         $this->encabezado_color         = '#008000';
         // Etiqueta de Navegación a poner activa
-        $this->nombre_menu              = 'Información Geográfica > Planes';
+        $this->nombre_menu              = 'Información Geográfica > S.I.G. de Torreón';
         // Clase que concentrará a las publicaciones para hacer su propia página
         $this->concentrador             = 'Tarjetas';
         // La ruta al archivo con el índice/galería que será creado
