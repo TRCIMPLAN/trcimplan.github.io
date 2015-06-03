@@ -17,7 +17,7 @@ La reflexión es por el hecho de que una vez más se han prendido los focos rojo
 
 ### La violencia en números
 
-* En 2012,  21.2 millones de niñas, niños y adolescentes estaba viviendo en pobreza y  4.7 millones en pobreza extrema.
+* En 2012, 21.2 millones de niñas, niños y adolescentes estaba viviendo en pobreza y  4.7 millones en pobreza extrema.
 * La desnutrición crónica en la niñez aún permanece alta: 1.5 millones la padecen.
 * 45% de las niñas y niños de 3 a 5 años están fuera de la escuela.
 * 3 millones de niñas y niños entre 5 y 17 años trabajan, y el 39% de ellos no asiste a la escuela.(1)
@@ -52,7 +52,7 @@ Fuente: Red por los Derecho de la Infancia en México, en su estudio realizado e
 * Según la PGR e instituciones de seguridad internacional, aseguran que en el 2013 se detectaron en el país más de 12,000 cuentas personales en internet, donde se exhiben imágenes de explotación sexual a menores de edad. Cuyas edades oscilan de los 4 a 16 años.
 * En el 2012 fueron descubiertas 7,000 cuentas; En el 2011; 3000 y en 2010, 580
 * 100 niños mexicanos son víctimas de redes de pederastia cada mes
-* La pornografía infantil mexicana genera cerca de 34 000 millones de dólares anuales. Depto. Seguridad Nal. E.U.A.
+* La pornografía infantil mexicana genera cerca de 34,000 millones de dólares anuales. Depto. Seguridad Nal. E.U.A.
 
 Fuente: Senado de la República. Sep 5 2013
 
