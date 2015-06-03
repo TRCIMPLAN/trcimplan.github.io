@@ -34,7 +34,7 @@ class CrecimientoDecrecimientoPoblacion extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre             = 'Crecimiento y Decrecimiento de Población';
         $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha              = '2015-05-20T14:00';
+        $this->fecha              = '2015-06-03T13:36';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo            = 'crecimiento-decrecimiento-poblacion';
         $this->imagen             = 'crecimiento-decrecimiento-poblacion/imagen.jpg';
@@ -52,7 +52,7 @@ class CrecimientoDecrecimientoPoblacion extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/74d38fa6-ff19-11e4-99aa-0e018d66dc29/embed_map';
+        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/5c08e056-0a19-11e5-9fc2-0e0c41326911/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -65,7 +65,7 @@ class CrecimientoDecrecimientoPoblacion extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->extra              = <<<FINAL
-<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/74d38fa6-ff19-11e4-99aa-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/5c08e056-0a19-11e5-9fc2-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
