@@ -34,21 +34,21 @@ class ExperienciasSobreDatosAbiertosEnMexico extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Experiencias sobre Datos Abiertos en México';
         $this->autor           = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha           = '2015-06-03T12:00';
+        $this->fecha           = '2015-06-03T14:25';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo         = 'experiencias-sobre-datos-abiertos-en-mexico';
         $this->imagen          = 'experiencias-sobre-datos-abiertos-en-mexico/imagen.jpg';
         $this->imagen_previa   = 'experiencias-sobre-datos-abiertos-en-mexico/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion     = 'Representantes del gobierno del estado de Puebla y del municipio de Xalapa, Veracruz compartieron sus experiencias en materia de Datos Abiertos.';
-        $this->claves          = 'IMPLAN, Torreon, Datos Abiertos, Puebla, Xalapa';
+        $this->claves          = 'IMPLAN, Datos Abiertos, Mexico, Puebla, Xalapa, Veracruz, Red Mexico Abierto, Estrategia Digital Nacional';
         $this->categorias      = array('Gobierno Digital', 'Innovación', 'Transparencia');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'revisar';
+        $this->estado          = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir  = true;
         // El contenido es estructurado en un esquema
