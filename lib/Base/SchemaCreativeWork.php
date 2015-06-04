@@ -160,7 +160,7 @@ class SchemaCreativeWork extends SchemaThing {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/CreativeWork\">";
+            $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/CreativeWork\">";
         } else {
             $a[] = $spaces.'<div itemscope itemtype="http://schema.org/CreativeWork">';
         }
@@ -171,10 +171,10 @@ class SchemaCreativeWork extends SchemaThing {
             $this->contentLocation->identation     = $this->identation + 1;
             $a[] = $this->contentLocation->html();
         }
+        $a[] = '</div></article>';
         if ($this->extra != '') {
-            $a[] = $this->extra;
+            $a[] = "<aside>{$this->extra}</aside>";
         }
-        $a[] = '</div>';
         // Entregar
         return implode("\n$spaces", $a);
     } // html

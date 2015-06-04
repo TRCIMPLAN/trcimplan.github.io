@@ -33,6 +33,9 @@ chdir(realpath(dirname(__FILE__))."/..");
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
+// Mensaje de inicio
+echo "$soy Inicia.\n";
+
 // Iniciar Redifusion
 $redifusion = new \Base\Redifusion();
 
@@ -74,7 +77,7 @@ try {
 }
 
 // Mensaje de término
-echo "$soy Programa terminado.\n";
+echo "$soy Terminó.\n";
 exit($EXITO);
 
 ?>

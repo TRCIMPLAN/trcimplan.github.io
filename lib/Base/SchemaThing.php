@@ -170,7 +170,7 @@ class SchemaThing {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Thing\">";
+            $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Thing\">";
         } else {
             $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Thing">';
         }
@@ -182,10 +182,10 @@ class SchemaThing {
         }
         $a[] = $this->image_html();
         $a[] = $this->url_html();
+        $a[] = '</div></article>';
         if ($this->extra != '') {
-            $a[] = $this->extra;
+            $a[] = "<aside>{$this->extra}</aside>";
         }
-        $a[] = '</div>';
         // Entregar
         return implode("\n$spaces", $a);
     } // html

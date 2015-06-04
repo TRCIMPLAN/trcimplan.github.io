@@ -229,33 +229,38 @@ class Imprenta extends \Configuracion\ImprentaConfig {
         }
         // Si hay datos en el arreglo Publicaciones
         if (count($this->publicaciones) > 0) {
-            $salida = array();
+            $c = 0;
             foreach ($this->publicaciones as $publicacion) {
                 // Al incorporar la publicación a la plantilla puede entregar falso cuando no se define el archivo de salida o no tener contenido
                 if ($this->plantilla->incorporar_publicacion($publicacion) == true) {
                     // Escribir el archivo HTML
-                    $salida[] = $this->crear_directorio($this->plantilla->directorio);
-                    $salida[] = $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html());
+                    $this->crear_directorio($this->plantilla->directorio);
+                    $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html());
+                    $c++;
                 }
             }
-            return 'en '.$this->plantilla->directorio.implode('', $salida);
-        }
-        // Si hay datos en el arreglo Plantillas
-        if (count($this->plantillas) > 0) {
-            $salida = array();
+            if ($c > 0) {
+                return sprintf('%d publicaciones', $c);
+            } else {
+                return 'sin publicaciones';
+            }
+        } elseif (count($this->plantillas) > 0) {
+            // Si hay datos en el arreglo Plantillas
+            $c = 0;
+            $d = array();
             foreach ($this->plantillas as $plantilla) {
                 // Escribir el archivo HTML
-                $salida[] = $this->crear_directorio($plantilla->directorio);
-                $salida[] = $this->crear_archivo($plantilla->archivo_ruta, $plantilla->html());
+                $this->crear_directorio($plantilla->directorio);
+                $d[] = $plantilla->directorio;
+                $this->crear_archivo($plantilla->archivo_ruta, $plantilla->html());
+                $c++;
             }
-            return 'en '.$this->plantilla->directorio.implode('', $salida);
-        }
-        // Si NO hubo Publicaciones NI Plantillas, se imprime la Plantilla
-        if ((count($this->publicaciones) == 0) && (count($this->plantillas) == 0) && ($this->plantilla->directorio != '') && ($this->plantilla->archivo_ruta != '')) {
-            $salida   = array();
-            $salida[] = $this->crear_directorio($this->plantilla->directorio);
-            $salida[] = $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html());
-            return 'en '.$this->plantilla->directorio.implode('', $salida);
+            return sprintf('%d plantillas en %s', $c, implode(', ', $d));
+        } elseif ((count($this->publicaciones) == 0) && (count($this->plantillas) == 0) && ($this->plantilla->directorio != '') && ($this->plantilla->archivo_ruta != '')) {
+            // Si NO hubo Publicaciones NI Plantillas, se imprime la Plantilla
+            $this->crear_directorio($this->plantilla->directorio);
+            $this->crear_archivo($this->plantilla->archivo_ruta, $this->plantilla->html());
+            return '1 archivo';
         }
         // Entregar mensaje no he hizo nada
         return 'no se hizo nada';

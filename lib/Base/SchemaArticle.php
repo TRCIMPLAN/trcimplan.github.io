@@ -88,7 +88,7 @@ class SchemaArticle extends SchemaCreativeWork {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Article\">";
+            $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Article\">";
         } else {
             $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Article">';
         }
@@ -100,10 +100,10 @@ class SchemaArticle extends SchemaCreativeWork {
         }
         $a[] = $this->image_html();
         $a[] = $this->article_body_html();
+        $a[] = '</div></article>';
         if ($this->extra != '') {
-            $a[] = $this->extra;
+            $a[] = "<aside>{$this->extra}</aside>";
         }
-        $a[] = '</div>';
         // Entregar
         return implode("\n$spaces", $a);
     } // html

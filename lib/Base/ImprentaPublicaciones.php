@@ -64,8 +64,6 @@ class ImprentaPublicaciones extends Imprenta {
      * @return string Mensajes para la terminal
      */
     public function imprimir() {
-        // En este arreglo acumularemos la salida para la terminal
-        $salida = array();
         // Para las publicaciones, preparar la Plantilla
         $this->plantilla                = new Plantilla();
         $this->plantilla->navegacion    = new Navegacion();
@@ -87,7 +85,7 @@ class ImprentaPublicaciones extends Imprenta {
                 throw new \Exception("Error: El concentrador es incorrecto; debe ser Indice, Galeria o Tarjetas.");
         }
         // Imprimir las publicaciones
-        $salida[] = count($publicaciones).' publicaciones '.parent::imprimir();
+        $mensaje_publicaciones = sprintf('En %s hubo %s', $this->publicaciones_directorio, parent::imprimir());
         // Dejar en blanco las propiedades publicaciones y plantilla, para volver a imprimir
         unset($this->publicaciones);
         unset($this->plantilla);
@@ -109,9 +107,9 @@ class ImprentaPublicaciones extends Imprenta {
         $this->plantilla->contenido                 = $concentrador->html();
         $this->plantilla->javascript[]              = $concentrador->javascript();
         // Imprimir index.html
-        $salida[] = $this->concentrador.' '.parent::imprimir();
+        $mensaje_index = $this->concentrador.' '.parent::imprimir();
         // Entregar mensajes
-        return implode(' & ', $salida);
+        return sprintf('%s & %s', $mensaje_publicaciones, $mensaje_index);
     } // imprimir
 
 } // Clase ImprentaPublicaciones

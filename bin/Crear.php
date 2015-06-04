@@ -33,6 +33,9 @@ chdir(realpath(dirname(__FILE__))."/..");
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
+// Mensaje de inicio
+echo "$soy Inicia.\n";
+
 // En este arreglo están las rutas a las clases Imprenta
 $clases = array(
     '\Blog\Imprenta',
@@ -48,11 +51,11 @@ $clases = array(
     '\SIGMapasTorreon\Imprenta',
     '\SIGPlanes\Imprenta',
     '\SMI\Imprenta',
-    '\SMI\ImprentaIndicadoresTorreon',
-    '\SMI\ImprentaIndicadoresGomezPalacio',
-    '\SMI\ImprentaIndicadoresLerdo',
-    '\SMI\ImprentaIndicadoresMatamoros',
-    '\SMI\ImprentaIndicadoresLaLaguna',
+    '\SMIIndicadoresTorreon\Imprenta',
+    '\SMIIndicadoresGomezPalacio\Imprenta',
+    '\SMIIndicadoresLerdo\Imprenta',
+    '\SMIIndicadoresMatamoros\Imprenta',
+    '\SMIIndicadoresLaLaguna\Imprenta',
     '\SMICategorias\Imprenta',
     '\SMIGeorreferenciados\Imprenta',
     '\Terminos\Imprenta');
@@ -73,7 +76,7 @@ $impresor            = new \Base\Imprenta();
 $impresor->plantilla = new \Inicial\PaginaInicial();
 // Imprimir
 try {
-    echo $impresor->imprimir()."\n";
+    echo 'Para la página inicial '.$impresor->imprimir()."\n";
 } catch (\Exception $e) {
     echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
@@ -85,7 +88,7 @@ $impresor            = new \Base\Imprenta();
 $impresor->plantilla = new \Inicial\PaginaBuscadorResultados();
 // Imprimir
 try {
-    echo $impresor->imprimir()."\n";
+    echo 'Para la página de resultados del buscador '.$impresor->imprimir()."\n";
 } catch (\Exception $e) {
     //~ echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
@@ -93,7 +96,7 @@ try {
 }
 
 // Mensaje de término
-echo "$soy Programa terminado.\n";
+echo "$soy Terminó.\n";
 exit($EXITO);
 
 ?>

@@ -33,18 +33,12 @@ chdir(realpath(dirname(__FILE__))."/..");
 // Cargar funciones, éste conteniene el autocargador de clases
 require_once('lib/Base/Funciones.php');
 
+// Mensaje de inicio
+echo "$soy Inicia.\n";
+
 // Iniciar el mapa
 $mapa = new \Base\MapaSitio();
 $mapa->agregar_url('index.html',                           date('Y-m-d'), 'daily', '1'); // la página inicial
-$mapa->agregar_url('blog/index.html',                      date('Y-m-d'), 'daily', '1'); // índice de Análisis Publicados
-$mapa->agregar_url('indicadores-categorias/index.html',    date('Y-m-d'), 'daily', '1'); // índice de Indicadores Categorías
-$mapa->agregar_url('indicadores-torreon/index.html',       date('Y-m-d'), 'daily', '1'); // índice de Indicadores
-$mapa->agregar_url('indicadores-gomez-palacio/index.html', date('Y-m-d'), 'daily', '1'); // índice de Indicadores
-$mapa->agregar_url('indicadores-lerdo/index.html',         date('Y-m-d'), 'daily', '1'); // índice de Indicadores
-$mapa->agregar_url('indicadores-matamoros/index.html',     date('Y-m-d'), 'daily', '1'); // índice de Indicadores
-$mapa->agregar_url('indicadores-la-laguna/index.html',     date('Y-m-d'), 'daily', '1'); // índice de Indicadores
-$mapa->agregar_url('eventos/index.html',                   date('Y-m-d'), 'daily', '1'); // índice de Eventos
-$mapa->agregar_url('sala-prensa/index.html',               date('Y-m-d'), 'daily', '1'); // índice de Sala de Prensa
 
 // Arreglo con los directorios de donde se tomarán las publicaciones
 $directorios = array(
@@ -86,7 +80,7 @@ try {
 }
 
 // Mensaje de término
-echo "$soy Programa terminado.\n";
+echo "$soy Terminó.\n";
 exit($EXITO);
 
 ?>
