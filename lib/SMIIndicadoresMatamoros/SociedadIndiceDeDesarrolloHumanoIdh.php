@@ -1,8 +1,22 @@
 <?php
 /**
- * SociedadIndiceDeDesarrolloHumanoIdh.php
+ * TrcIMPLAN - SMI Indicadores Matamoros Sociedad Índice de Desarrollo Humano (IDH) (Creado por Central:SmiLanzadera)
  *
- * IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 // Namespace
@@ -17,20 +31,39 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Índice de Desarrollo Humano (IDH) en Matamoros';
-        $this->nombre_menu  = 'Indicadores';
-        $this->directorio   = 'indicadores-matamoros';
-        $this->archivo      = 'sociedad-indice-de-desarrollo-humano-idh';
-        $this->descripcion  = 'El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).';
-        $this->claves       = 'Matamoros, Bienestar';
-        $this->categorias   = array('Bienestar');
-        $this->region_nivel = 131;
-        $this->contenido    = <<<FINAL
+        // Título, autor y fecha
+        $this->nombre           = 'Índice de Desarrollo Humano (IDH) en Matamoros';
+     // $this->autor            = '';
+        $this->fecha            = '2014-10-21T16:19';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        $this->archivo          = 'sociedad-indice-de-desarrollo-humano-idh';
+        $this->imagen           = '../smi/introduccion/imagen.jpg';
+        $this->imagen_previa    = '../smi/introduccion/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        $this->descripcion      = 'El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).';
+        $this->claves           = 'IMPLAN, Matamoros, Bienestar';
+        $this->categorias       = array('Bienestar');
+        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->directorio       = 'indicadores-matamoros';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        $this->nombre_menu      = 'Indicadores';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->name           = $this->nombre;
+        $schema->description    = $this->descripcion;
+        $schema->datePublished  = $this->fecha;
+        $schema->image          = $this->imagen;
+        $schema->image_show     = false;
+        $schema->author         = $this->autor;
+        $schema->articleBody    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
-    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -148,8 +181,10 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
         </tbody>
       </table>
     </div>
-    <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Índice de Desarrollo Humano (IDH)</h3>
+  </div>
+FINAL;
+        $schema->extra          = <<<FINAL
+      <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -259,15 +294,22 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-indice-de-desarrollo-humano-idh.html">Índice de Desarrollo Humano (IDH) en Matamoros</a></td>
+            <td>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Matamoros</a></td>
             <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
           </tr>
         </tbody>
       </table>
-    </div>
-  </div>
 FINAL;
-        $this->javascript   = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // JavaScript
+        $this->javascript       = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -302,6 +344,44 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
+FINAL;
+        // Para redifusión, se pone el contenido sin lengüetas
+        $this->redifusion       = <<<FINAL
+      <h3>Descripción</h3>
+<p>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en <a href="http://www.undp.org.mx/desarrollohumano/disco/index.html">PNUD</a>.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2000</td>
+            <td>0.7856</td>
+            <td>INAFED-PNUD</td>
+            <td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
+          </tr>
+          <tr>
+            <td>31/12/2005</td>
+            <td>0.8121</td>
+            <td>INAFED-PNUD</td>
+            <td>Descargar [base de datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0.8404</td>
+            <td>INAFED-PNUD</td>
+            <td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> De 0 a 1.</p>
 FINAL;
     } // constructor
 

@@ -26,13 +26,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Porcentaje de la población en situación de pobreza extrema.">
   <meta name="author" content="IMPLAN Torreón Staff">
-  <meta name="keywords" content="Matamoros, Bienestar, Objetivos del Milenio">
+  <meta name="keywords" content="IMPLAN, Matamoros, Bienestar, Objetivos del Milenio">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Pobreza Extrema en Matamoros - IMPLAN Torreón">
   <meta name="twitter:description" content="Porcentaje de la población en situación de pobreza extrema.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../smi/introduccion/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-pobreza-extrema.html">
   <meta name="og:title" content="Pobreza Extrema en Matamoros - IMPLAN Torreón">
   <meta name="og:description" content="Porcentaje de la población en situación de pobreza extrema.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-matamoros/../smi/introduccion/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-pobreza-extrema.html">
   <title>Pobreza Extrema en Matamoros - IMPLAN Torreón</title>
   <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
@@ -161,15 +163,21 @@
   <div id="page-wrapper">
     <div class="cuerpo">
 <article>
-  <header>
-    <div class="encabezado">
-      <span><h1><i class="fa fa-area-chart encabezado-icono"></i> Pobreza Extrema en Matamoros</h1></span>
-    </div>
-  </header>
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+      <div itemscope itemtype="http://schema.org/Article">
+              <div class="encabezado" style="background-color:#CA198A;">
+          <h1 itemprop="name">Pobreza Extrema en Matamoros</h1>
+          <div class="encabezado-descripcion" itemprop="description">Porcentaje de la población en situación de pobreza extrema.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">IMPLAN Torreón Staff</span>
+          - <meta itemprop="datePublished" content="2014-10-21T16:19">21/10/2014 16:19
+        </div>
+        </div>
+        <meta itemprop="image" alt="Pobreza Extrema en Matamoros" src="../smi/introduccion/imagen.jpg">
+              <div itemprop="articleBody">
+          <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
-    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -199,6 +207,10 @@
       <h3>Observaciones</h3>
 <p>Consulta la <a href="http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx">Base de Datos</a></p>
 
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Pobreza Extrema en Matamoros</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Pobreza Extrema</h3>
@@ -274,8 +286,10 @@
         </tbody>
       </table>
     </div>
-    <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Pobreza Extrema</h3>
+  </div>
+        </div>
+      </div></article>
+      <aside>      <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -367,6 +381,12 @@
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-pobreza-extrema.html">Pobreza Extrema en Matamoros</a></td>
+            <td>Porcentaje de la población en situación de pobreza extrema.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-pobreza-moderada.html">Pobreza Moderada en Matamoros</a></td>
             <td>Porcentaje de la población en situación de pobreza moderada.</td>
           </tr>
@@ -421,9 +441,7 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
             <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
           </tr>
         </tbody>
-      </table>
-    </div>
-  </div>
+      </table></aside>
 </article>
 <div class="contenido-social">
   <h5>Compartir en Redes Sociales</h5>
@@ -463,6 +481,22 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 <script>
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2010-12-31', dato: 3.9000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

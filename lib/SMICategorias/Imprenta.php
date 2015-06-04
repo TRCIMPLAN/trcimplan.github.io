@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - SMI Categorías Imprenta
+/**
+ * TrcIMPLAN - SMI Categorías Imprenta (Creado por Central:SmiLanzadera)
  *
- * Copyright (C) 2015 IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,14 +31,20 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
+        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'SMICategorias';
+        // Los siguientes parámetros dan datos para el índice/galería que será creado
         $this->titulo                   = 'Indicadores por Categoría';
-        $this->descripcion              = 'Categorías del Sistema Metropolitano de Indicadores del IMPLAN Torreón.';
-        $this->claves                   = 'IMPLAN, Torreon, Indicadores, Categorías';
+        $this->descripcion              = 'Sistema Metropolitano de Indicadores, Listado de Categorías';
+        $this->claves                   = 'IMPLAN, SMI, Indicadores, Metropolitanos';
+        $this->encabezado_color         = '#CA198A';
+        // Etiqueta de Navegación a poner activa
+        $this->nombre_menu              = 'Indicadores > Indicadores por Categoría';
+        // Clase que concentrará a las publicaciones para hacer su propia página
+        $this->concentrador             = 'Galeria';
+        // La ruta al archivo con el índice/galería que será creado
         $this->directorio               = 'indicadores-categorias';
         $this->archivo_ruta             = 'indicadores-categorias/index.html';
-        $this->nombre_menu              = 'Indicadores > Indicadores por Categoría';
-        $this->concentrador             = 'Galeria';
     } // constructor
 
 } // Clase Imprenta

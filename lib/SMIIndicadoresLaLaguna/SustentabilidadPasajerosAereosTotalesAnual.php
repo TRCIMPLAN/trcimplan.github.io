@@ -1,8 +1,22 @@
 <?php
 /**
- * SustentabilidadPasajerosAereosTotalesAnual.php
+ * TrcIMPLAN - SMI Indicadores La Laguna Sustentabilidad Pasajeros Aéreos Totales Anual (Creado por Central:SmiLanzadera)
  *
- * IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 // Namespace
@@ -17,20 +31,39 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Pasajeros Aéreos Totales Anual en La Laguna';
-        $this->nombre_menu  = 'Indicadores';
-        $this->directorio   = 'indicadores-la-laguna';
-        $this->archivo      = 'sustentabilidad-pasajeros-aereos-totales-anual';
-        $this->descripcion  = 'Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.';
-        $this->claves       = 'La Laguna, Movilidad';
-        $this->categorias   = array('Movilidad');
-        $this->region_nivel = 401;
-        $this->contenido    = <<<FINAL
+        // Título, autor y fecha
+        $this->nombre           = 'Pasajeros Aéreos Totales Anual en La Laguna';
+     // $this->autor            = '';
+        $this->fecha            = '2014-10-21T16:19';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        $this->archivo          = 'sustentabilidad-pasajeros-aereos-totales-anual';
+        $this->imagen           = '../smi/introduccion/imagen.jpg';
+        $this->imagen_previa    = '../smi/introduccion/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        $this->descripcion      = 'Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.';
+        $this->claves           = 'IMPLAN, La Laguna, Movilidad';
+        $this->categorias       = array('Movilidad');
+        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->directorio       = 'indicadores-la-laguna';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        $this->nombre_menu      = 'Indicadores';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->name           = $this->nombre;
+        $schema->description    = $this->descripcion;
+        $schema->datePublished  = $this->fecha;
+        $schema->image          = $this->imagen;
+        $schema->image_show     = false;
+        $schema->author         = $this->autor;
+        $schema->articleBody    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
-    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -124,8 +157,10 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
         </tbody>
       </table>
     </div>
-    <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Pasajeros Aéreos Totales Anual</h3>
+  </div>
+FINAL;
+        $schema->extra          = <<<FINAL
+      <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -229,6 +264,12 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales-anual.html">Pasajeros Aéreos Totales Anual en La Laguna</a></td>
+            <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en La Laguna</a></td>
             <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
           </tr>
@@ -270,10 +311,11 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
           </tr>
         </tbody>
       </table>
-    </div>
-  </div>
 FINAL;
-        $this->javascript   = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // JavaScript
+        $this->javascript       = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -308,6 +350,41 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
+FINAL;
+        // Para redifusión, se pone el contenido sin lengüetas
+        $this->redifusion       = <<<FINAL
+      <h3>Descripción</h3>
+<p>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2013</td>
+            <td>508,133</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>523,783</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Personas.</p>
+      <h3>Observaciones</h3>
+<p>Se considera a nivel metropolitano. Consulta la <a href="http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/">Base de Datos</a></p>
+
 FINAL;
     } // constructor
 

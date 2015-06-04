@@ -26,13 +26,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Porcentaje de viviendas sin acceso a alumbrado público en su manzana">
   <meta name="author" content="IMPLAN Torreón Staff">
-  <meta name="keywords" content="Lerdo, Servicios Públicos">
+  <meta name="keywords" content="IMPLAN, Lerdo, Servicios Públicos">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Alumbrado Público en Lerdo - IMPLAN Torreón">
   <meta name="twitter:description" content="Porcentaje de viviendas sin acceso a alumbrado público en su manzana">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../smi/introduccion/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-alumbrado-publico.html">
   <meta name="og:title" content="Alumbrado Público en Lerdo - IMPLAN Torreón">
   <meta name="og:description" content="Porcentaje de viviendas sin acceso a alumbrado público en su manzana">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-lerdo/../smi/introduccion/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-alumbrado-publico.html">
   <title>Alumbrado Público en Lerdo - IMPLAN Torreón</title>
   <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
@@ -161,15 +163,21 @@
   <div id="page-wrapper">
     <div class="cuerpo">
 <article>
-  <header>
-    <div class="encabezado">
-      <span><h1><i class="fa fa-area-chart encabezado-icono"></i> Alumbrado Público en Lerdo</h1></span>
-    </div>
-  </header>
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+      <div itemscope itemtype="http://schema.org/Article">
+              <div class="encabezado" style="background-color:#CA198A;">
+          <h1 itemprop="name">Alumbrado Público en Lerdo</h1>
+          <div class="encabezado-descripcion" itemprop="description">Porcentaje de viviendas sin acceso a alumbrado público en su manzana</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">IMPLAN Torreón Staff</span>
+          - <meta itemprop="datePublished" content="2014-10-21T16:19">21/10/2014 16:19
+        </div>
+        </div>
+        <meta itemprop="image" alt="Alumbrado Público en Lerdo" src="../smi/introduccion/imagen.jpg">
+              <div itemprop="articleBody">
+          <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
-    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -199,6 +207,10 @@
       <h3>Observaciones</h3>
 <p>Censo de Población y Vivienda 2010. Consulta las <a href="http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx">Bases de Datos</a></p>
 
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Alumbrado Público en Lerdo</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Alumbrado Público</h3>
@@ -253,8 +265,10 @@
         </tbody>
       </table>
     </div>
-    <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Alumbrado Público</h3>
+  </div>
+        </div>
+      </div></article>
+      <aside>      <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -265,10 +279,14 @@
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-alumbrado-publico.html">Alumbrado Público en Lerdo</a></td>
+            <td>Porcentaje de viviendas sin acceso a alumbrado público en su manzana</td>
+          </tr>
         </tbody>
-      </table>
-    </div>
-  </div>
+      </table></aside>
 </article>
 <div class="contenido-social">
   <h5>Compartir en Redes Sociales</h5>
@@ -308,6 +326,22 @@
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 <script>
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2010-12-31', dato: 2.0100 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

@@ -1,8 +1,22 @@
 <?php
 /**
- * SeguridadRobosTotales.php
+ * TrcIMPLAN - SMI Indicadores Torreón Seguridad Robos Totales (Creado por Central:SmiLanzadera)
  *
- * IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 // Namespace
@@ -17,20 +31,39 @@ class SeguridadRobosTotales extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Robos Totales en Torreón';
-        $this->nombre_menu  = 'Indicadores';
-        $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'seguridad-robos-totales';
-        $this->descripcion  = 'Cantidad total de robos en el mes.';
-        $this->claves       = 'Torreón, Seguridad, Delincuencia';
-        $this->categorias   = array('Seguridad', 'Delincuencia');
-        $this->region_nivel = 101;
-        $this->contenido    = <<<FINAL
+        // Título, autor y fecha
+        $this->nombre           = 'Robos Totales en Torreón';
+     // $this->autor            = '';
+        $this->fecha            = '2014-10-21T16:19';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        $this->archivo          = 'seguridad-robos-totales';
+        $this->imagen           = '../smi/introduccion/imagen.jpg';
+        $this->imagen_previa    = '../smi/introduccion/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        $this->descripcion      = 'Cantidad total de robos en el mes.';
+        $this->claves           = 'IMPLAN, Torreón, Seguridad, Delincuencia';
+        $this->categorias       = array('Seguridad', 'Delincuencia');
+        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->directorio       = 'indicadores-torreon';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        $this->nombre_menu      = 'Indicadores';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->name           = $this->nombre;
+        $schema->description    = $this->descripcion;
+        $schema->datePublished  = $this->fecha;
+        $schema->image          = $this->imagen;
+        $schema->image_show     = false;
+        $schema->author         = $this->autor;
+        $schema->articleBody    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
-    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -205,8 +238,10 @@ class SeguridadRobosTotales extends \Base\Publicacion {
         </tbody>
       </table>
     </div>
-    <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Robos Totales</h3>
+  </div>
+FINAL;
+        $schema->extra          = <<<FINAL
+      <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -328,6 +363,12 @@ class SeguridadRobosTotales extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-robos-totales.html">Robos Totales en Torreón</a></td>
+            <td>Cantidad total de robos en el mes.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html">Robos a Casa Habitación en Torreón</a></td>
             <td>Robos totales por mes a casa habitación.</td>
           </tr>
@@ -369,10 +410,11 @@ class SeguridadRobosTotales extends \Base\Publicacion {
           </tr>
         </tbody>
       </table>
-    </div>
-  </div>
 FINAL;
-        $this->javascript   = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // JavaScript
+        $this->javascript       = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -407,6 +449,122 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
+FINAL;
+        // Para redifusión, se pone el contenido sin lengüetas
+        $this->redifusion       = <<<FINAL
+      <h3>Descripción</h3>
+<p>Cantidad total de robos en el mes.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/01/2014</td>
+            <td>552</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>28/02/2014</td>
+            <td>485</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2014</td>
+            <td>397</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/04/2014</td>
+            <td>360</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/05/2014</td>
+            <td>575</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2014</td>
+            <td>392</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/07/2014</td>
+            <td>383</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/08/2014</td>
+            <td>431</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2014</td>
+            <td>403</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/10/2014</td>
+            <td>433</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/11/2014</td>
+            <td>305</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>263</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/01/2015</td>
+            <td>344</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>28/02/2015</td>
+            <td>305</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2015</td>
+            <td>253</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/04/2015</td>
+            <td>345</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Cantidad.</p>
 FINAL;
     } // constructor
 

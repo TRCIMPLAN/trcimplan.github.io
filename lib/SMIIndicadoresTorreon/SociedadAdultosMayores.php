@@ -1,8 +1,22 @@
 <?php
 /**
- * SociedadAdultosMayores.php
+ * TrcIMPLAN - SMI Indicadores Torreón Sociedad Adultos Mayores (Creado por Central:SmiLanzadera)
  *
- * IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 // Namespace
@@ -17,20 +31,39 @@ class SociedadAdultosMayores extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Adultos Mayores en Torreón';
-        $this->nombre_menu  = 'Indicadores';
-        $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'sociedad-adultos-mayores';
-        $this->descripcion  = 'Población estimada a mediados de año de personas de 65 años y más';
-        $this->claves       = 'Torreón, Grupos Vulnerables';
-        $this->categorias   = array('Grupos Vulnerables');
-        $this->region_nivel = 101;
-        $this->contenido    = <<<FINAL
+        // Título, autor y fecha
+        $this->nombre           = 'Adultos Mayores en Torreón';
+     // $this->autor            = '';
+        $this->fecha            = '2014-10-21T16:19';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        $this->archivo          = 'sociedad-adultos-mayores';
+        $this->imagen           = '../smi/introduccion/imagen.jpg';
+        $this->imagen_previa    = '../smi/introduccion/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        $this->descripcion      = 'Población estimada a mediados de año de personas de 65 años y más';
+        $this->claves           = 'IMPLAN, Torreón, Grupos Vulnerables';
+        $this->categorias       = array('Grupos Vulnerables');
+        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->directorio       = 'indicadores-torreon';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        $this->nombre_menu      = 'Indicadores';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->name           = $this->nombre;
+        $schema->description    = $this->descripcion;
+        $schema->datePublished  = $this->fecha;
+        $schema->image          = $this->imagen;
+        $schema->image_show     = false;
+        $schema->author         = $this->autor;
+        $schema->articleBody    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
-    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -190,8 +223,10 @@ class SociedadAdultosMayores extends \Base\Publicacion {
         </tbody>
       </table>
     </div>
-    <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Adultos Mayores</h3>
+  </div>
+FINAL;
+        $schema->extra          = <<<FINAL
+      <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -235,6 +270,12 @@ class SociedadAdultosMayores extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-adultos-mayores.html">Adultos Mayores en Torreón</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-discapacidad.html">Discapacidad en Torreón</a></td>
             <td>Porcentaje de la población total con alguna limitación (motriz, visión, auditivo, habla y/o cognitivas)</td>
           </tr>
@@ -272,10 +313,11 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
           </tr>
         </tbody>
       </table>
-    </div>
-  </div>
 FINAL;
-        $this->javascript   = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // JavaScript
+        $this->javascript       = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -310,6 +352,86 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
+FINAL;
+        // Para redifusión, se pone el contenido sin lengüetas
+        $this->redifusion       = <<<FINAL
+      <h3>Descripción</h3>
+<p>Población estimada a mediados de año de personas de 65 años y más</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>30/06/2011</td>
+            <td>40,023</td>
+            <td>CONAPO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2012</td>
+            <td>41,636</td>
+            <td>CONAPO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2013</td>
+            <td>43,340</td>
+            <td>CONAPO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2014</td>
+            <td>45,139</td>
+            <td>CONAPO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2015</td>
+            <td>47,033</td>
+            <td>CONAPO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2016</td>
+            <td>49,020</td>
+            <td>CONAPO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2017</td>
+            <td>51,100</td>
+            <td>CONAPO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2018</td>
+            <td>53,268</td>
+            <td>CONAPO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2019</td>
+            <td>55,519</td>
+            <td>CONAPO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2020</td>
+            <td>57,846</td>
+            <td>CONAPO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Cantidad.</p>
 FINAL;
     } // constructor
 

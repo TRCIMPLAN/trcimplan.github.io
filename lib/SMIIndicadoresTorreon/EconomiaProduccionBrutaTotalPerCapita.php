@@ -1,8 +1,22 @@
 <?php
 /**
- * EconomiaProduccionBrutaTotalPerCapita.php
+ * TrcIMPLAN - SMI Indicadores Torreón Economía Producción Bruta Total Per Cápita (Creado por Central:SmiLanzadera)
  *
- * IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  */
 
 // Namespace
@@ -17,20 +31,39 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre       = 'Producción Bruta Total Per Cápita en Torreón';
-        $this->nombre_menu  = 'Indicadores';
-        $this->directorio   = 'indicadores-torreon';
-        $this->archivo      = 'economia-produccion-bruta-total-per-capita';
-        $this->descripcion  = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total.';
-        $this->claves       = 'Torreón, Macroeconomía, Finanzas Públicas';
-        $this->categorias   = array('Macroeconomía', 'Finanzas Públicas');
-        $this->region_nivel = 101;
-        $this->contenido    = <<<FINAL
+        // Título, autor y fecha
+        $this->nombre           = 'Producción Bruta Total Per Cápita en Torreón';
+     // $this->autor            = '';
+        $this->fecha            = '2014-10-21T16:19';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        $this->archivo          = 'economia-produccion-bruta-total-per-capita';
+        $this->imagen           = '../smi/introduccion/imagen.jpg';
+        $this->imagen_previa    = '../smi/introduccion/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        $this->descripcion      = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total.';
+        $this->claves           = 'IMPLAN, Torreón, Macroeconomía, Finanzas Públicas';
+        $this->categorias       = array('Macroeconomía', 'Finanzas Públicas');
+        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->directorio       = 'indicadores-torreon';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        $this->nombre_menu      = 'Indicadores';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->name           = $this->nombre;
+        $schema->description    = $this->descripcion;
+        $schema->datePublished  = $this->fecha;
+        $schema->image          = $this->imagen;
+        $schema->image_show     = false;
+        $schema->author         = $this->autor;
+        $schema->articleBody    = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
-    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -155,8 +188,10 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
         </tbody>
       </table>
     </div>
-    <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Producción Bruta Total Per Cápita</h3>
+  </div>
+FINAL;
+        $schema->extra          = <<<FINAL
+      <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -260,6 +295,12 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Torreón</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-productividad-laboral.html">Productividad Laboral en Torreón</a></td>
             <td>PIB sin petróleo / PEA.</td>
           </tr>
@@ -271,10 +312,11 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
           </tr>
         </tbody>
       </table>
-    </div>
-  </div>
 FINAL;
-        $this->javascript   = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // JavaScript
+        $this->javascript       = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -309,6 +351,65 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
+FINAL;
+        // Para redifusión, se pone el contenido sin lengüetas
+        $this->redifusion       = <<<FINAL
+      <h3>Descripción</h3>
+<p>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/1998</td>
+            <td>$ 57,746.33</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td>La producción bruta total per cápita en dólares es de $5,835.14. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 9.89630</td>
+          </tr>
+          <tr>
+            <td>31/12/2003</td>
+            <td>$ 101,715.94</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td>La producción bruta total per cápita en dólares es de $9,051.63. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 11.23720</td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>$ 197,853.91</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td>La producción bruta total per cápita en dólares es de $14,303.55. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 13.83250</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Pesos.</p>
+      <h3>Observaciones</h3>
+<p>La producción bruta total per cápita a nivel nacional es de:</p>
+
+<ul>
+<li>2008 = $103,094.93 </li>
+<li>2003 = $60,324.54 </li>
+<li>1998 = $37,765.57 </li>
+</ul>
+
+<p>La producción bruta total per cápita en dólares a nivel nacional es de:</p>
+
+<ul>
+<li>2008 = $7,453.09 </li>
+<li>2003 = $5,368.29 </li>
+<li>1998 = $3,816.13 </li>
+</ul>
+
+<p>Calculados con el tipo de cambio Fix publicado por el Banxico al cierre del año correspondiente.</p>
+
+<p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI Censos económicos.</a></p>
+
 FINAL;
     } // constructor
 

@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN SMIv2 - Cultura
+ * TrcIMPLAN - SMI Categorías Cultura (Creado por Central:SmiLanzadera)
  *
- * Copyright (C) 2015 IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,16 +31,35 @@ class Cultura extends \Base\Publicacion {
      * Constructor
      */
     public function __construct() {
-        $this->nombre        = 'Cultura';
-        $this->nombre_menu   = 'Indicadores > Indicadores por Categoría';
-        $this->directorio    = 'indicadores-categorias';
-        $this->archivo       = 'cultura';
-        $this->descripcion   = 'Matriz de indicadores en la categoría Cultura';
-        $this->imagen_previa = '../imagenes/categorias/cultura.jpg';
-        $this->icono         = 'fa fa-music';
-        $this->claves        = 'IMPLAN, Indicadores, Cultura';
-        $this->categorias    = array('Indicadores');
-        $this->contenido     = <<<FINAL
+        // Título, autor y fecha
+        $this->nombre           = 'Cultura';
+     // $this->autor            = '';
+        $this->fecha            = '2015-01-01T08:00'; // Fecha fija
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        $this->archivo          = 'cultura';
+        $this->imagen           = '../imagenes/categorias/cultura.jpg';
+        $this->imagen_previa    = '../imagenes/categorias/cultura.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
+        $this->claves           = 'IMPLAN, Indicadores, Categoría, Cultura';
+        $this->categorias       = array();
+        // El directorio en la raíz donde se guardará el archivo HTML
+        $this->directorio       = 'indicadores-categorias';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
+        $this->nombre_menu      = 'Indicadores > Indicadores por Categoría';
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado           = 'publicar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir   = true;
+        // El contenido es estructurado en un esquema
+        $schema                 = new \Base\SchemaArticle();
+        $schema->name           = $this->nombre;
+        $schema->description    = $this->descripcion;
+        $schema->datePublished  = $this->fecha;
+        $schema->image          = $this->imagen;
+        $schema->image_show     = false;
+        $schema->author         = $this->autor;
+        $schema->articleBody    = <<<FINAL
 <table class="table table-hover table-bordered matriz">
 <thead>
   <tr>
@@ -66,9 +85,14 @@ class Cultura extends \Base\Publicacion {
 </tbody>
 </table>
 <p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
-
 FINAL;
-        $this->javascript    = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido        = $schema;
+        // Sin JavaScript
+        $this->javascript       = '';
+        // Para redifusión, se pone el contenido sin lengüetas
+        $this->redifusion       = <<<FINAL
+
 FINAL;
     } // constructor
 

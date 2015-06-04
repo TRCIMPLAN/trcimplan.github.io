@@ -25,13 +25,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="IMPLAN Torreón Staff">
-  <meta name="keywords" content="Gómez Palacio, Vivienda">
+  <meta name="keywords" content="IMPLAN, Gómez Palacio, Vivienda">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Viviendas Totales en Gómez Palacio - IMPLAN Torreón">
   <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/../smi/introduccion/imagen-previa.jpg">
   <meta name="twitter:url" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-totales.html">
   <meta name="og:title" content="Viviendas Totales en Gómez Palacio - IMPLAN Torreón">
   <meta name="og:description" content="">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/../smi/introduccion/imagen-previa.jpg">
   <meta name="og:url" content="http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-totales.html">
   <title>Viviendas Totales en Gómez Palacio - IMPLAN Torreón</title>
   <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
@@ -160,15 +162,20 @@
   <div id="page-wrapper">
     <div class="cuerpo">
 <article>
-  <header>
-    <div class="encabezado">
-      <span><h1><i class="fa fa-area-chart encabezado-icono"></i> Viviendas Totales en Gómez Palacio</h1></span>
-    </div>
-  </header>
-  <ul class="nav nav-tabs lenguetas" id="smi-indicador">
+      <div itemscope itemtype="http://schema.org/Article">
+              <div class="encabezado" style="background-color:#CA198A;">
+          <h1 itemprop="name">Viviendas Totales en Gómez Palacio</h1>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">IMPLAN Torreón Staff</span>
+          - <meta itemprop="datePublished" content="2014-10-21T16:19">21/10/2014 16:19
+        </div>
+        </div>
+        <meta itemprop="image" alt="Viviendas Totales en Gómez Palacio" src="../smi/introduccion/imagen.jpg">
+              <div itemprop="articleBody">
+          <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
-    <li><a href="#smi-indicador-relacionados" data-toggle="tab">Relacionados</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -195,6 +202,10 @@
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Viviendas Totales en Gómez Palacio</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Viviendas Totales</h3>
@@ -249,8 +260,10 @@
         </tbody>
       </table>
     </div>
-    <div class="tab-pane" id="smi-indicador-relacionados">
-      <h3>Páginas relacionadas con Viviendas Totales</h3>
+  </div>
+        </div>
+      </div></article>
+      <aside>      <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -306,6 +319,12 @@
           <tr>
             <td>ND</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html">Viviendas Totales en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Gómez Palacio</a></td>
             <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
           </tr>
@@ -346,9 +365,7 @@
             <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
           </tr>
         </tbody>
-      </table>
-    </div>
-  </div>
+      </table></aside>
 </article>
 <div class="contenido-social">
   <h5>Compartir en Redes Sociales</h5>
@@ -388,6 +405,22 @@
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 <script>
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2010-12-31', dato: 108682 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
