@@ -74,6 +74,15 @@ class Seguridad extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
+    <td class="indicador color3">Delitos Patrimoniales</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 30/04/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">167</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 30/04/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">17</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 30/04/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">10</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 30/04/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">16</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos-patrimoniales.html" data-toggle="tooltip" title="Cantidad, 30/04/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">210</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 30/04/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">11</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 30/04/2015, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">6</a></td>

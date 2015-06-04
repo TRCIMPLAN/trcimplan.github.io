@@ -222,12 +222,6 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
           <tr>
             <td>ND</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-inversion-extranjera-directa.html">Inversión Extranjera Directa en La Laguna</a></td>
-            <td>Promedio de inversión entre 2008 y 2012.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/gobierno-capacidad-financiera.html">Capacidad Financiera en La Laguna</a></td>
             <td>Ingresos propios entre gastos corrientes.</td>
           </tr>
@@ -248,6 +242,12 @@ class EconomiaInversionPerCapita extends \Base\Publicacion {
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en La Laguna</a></td>
             <td>Ingresos recaudados por el municipio por cobro de servicios</td>
+          </tr>
+          <tr>
+            <td>ND</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-inversion-extranjera-directa.html">Inversión Extranjera Directa en La Laguna</a></td>
+            <td>Promedio de inversión entre 2008 y 2012.</td>
           </tr>
           <tr>
             <td>ND</td>
