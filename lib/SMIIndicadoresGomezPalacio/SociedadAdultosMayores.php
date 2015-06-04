@@ -203,6 +203,12 @@ class SociedadAdultosMayores extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>02/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ninos-violencia.html">Los Niños y la Violencia</a></td>
+            <td>Datos y evidencias sobre los diferentes tipos de violencia contra niños, niñas y adolescentes en México. ¿Qué hacer?... todos los caminos apuntan a la prevención.</td>
+          </tr>
+          <tr>
             <td>13/06/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/torreon-vulnerabilidad-social.html">Torreón y la Vulnerabilidad Social</a></td>

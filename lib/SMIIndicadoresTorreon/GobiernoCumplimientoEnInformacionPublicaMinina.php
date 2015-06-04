@@ -134,6 +134,12 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>03/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/experiencias-sobre-datos-abiertos-en-mexico.html">Experiencias sobre Datos Abiertos en México</a></td>
+            <td>Representantes del gobierno del estado de Puebla y del municipio de Xalapa, Veracruz compartieron sus experiencias en materia de Datos Abiertos.</td>
+          </tr>
+          <tr>
             <td>26/02/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/que-son-datos-abiertos.html">¿Qué son los datos abiertos?</a></td>
