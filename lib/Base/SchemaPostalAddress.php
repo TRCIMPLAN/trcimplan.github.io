@@ -51,10 +51,12 @@ class SchemaPostalAddress extends SchemaContactPoint {
      * @return string Código HTML
      */
     protected function address_html() {
+        // Calle
         $a = array();
         if ($this->streetAddress != '') {
             $a[] = "  <span itemprop=\"streetAddress\">{$this->streetAddress}</span>";
         }
+        // Localidad, Region, C.P.
         $b = array();
         if (($this->addressLocality != '') && ($this->addressRegion != '')) {
             $b[] = "<span itemprop=\"addressLocality\">{$this->addressLocality}</span>, <span itemprop=\"addressRegion\">{$this->addressRegion}</span>.";
@@ -72,6 +74,7 @@ class SchemaPostalAddress extends SchemaContactPoint {
         if (count($b) > 0) {
             $a[] = '  '.implode(' ', $b);
         }
+        // Pais
         if ($this->addressCountry != '') {
             if (($this->addressCountry === 'MX') || ($this->addressCountry === 'México')) {
                 $a[] = "  <meta itemprop=\"addressCountry\" content=\"MX\">México.";
@@ -79,6 +82,7 @@ class SchemaPostalAddress extends SchemaContactPoint {
                 $a[] = "  <span itemprop=\"addressCountry\">{$this->addressCountry}</span>.";
             }
         }
+        // Juntar todo
         if (count($a) > 0) {
             // Definir los espacios antes de cada renglón
             $spaces = str_repeat('  ', $this->identation + 1);

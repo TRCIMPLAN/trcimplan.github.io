@@ -135,7 +135,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $sig->botones     = array(
             '<i class="fa fa-server"></i> Planes'                      => 'sig-planes/index.html',
             '<i class="fa fa-map-marker"></i> S.I.G. de Torreón'       => 'sig-mapas-torreon/index.html',
-            '<i class="fa fa-map-marker"></i> Zonificación Secundaria' => 'sig/zonificacion-secundaria.html');
+            '<i class="fa fa-map-marker"></i> Zonificación Secundaria' => 'sig-mapas-torreon/zonificacion-secundaria.html');
         // PEM
         $pem              = new \Inicial\Destacado();
         $pem->name        = 'Plan Estratégico Metropolitano';
