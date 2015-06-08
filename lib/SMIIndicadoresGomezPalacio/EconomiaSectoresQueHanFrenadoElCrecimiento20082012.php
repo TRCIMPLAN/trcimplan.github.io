@@ -32,34 +32,43 @@ class EconomiaSectoresQueHanFrenadoElCrecimiento20082012 extends \Base\Publicaci
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Sectores que Han Frenado el Crecimiento (2008-2012) en Gómez Palacio';
-     // $this->autor            = '';
-        $this->fecha            = '2014-10-21T16:19';
+        $this->nombre            = 'Sectores que Han Frenado el Crecimiento (2008-2012) en Gómez Palacio';
+     // $this->autor             = '';
+        $this->fecha             = '2014-10-21T16:19';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = 'economia-sectores-que-han-frenado-el-crecimiento-2008-2012';
-        $this->imagen           = '../smi/introduccion/imagen.jpg';
-        $this->imagen_previa    = '../smi/introduccion/imagen-previa.jpg';
+        $this->archivo           = 'economia-sectores-que-han-frenado-el-crecimiento-2008-2012';
+        $this->imagen            = '../smi/introduccion/imagen.jpg';
+        $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.';
-        $this->claves           = 'IMPLAN, Gómez Palacio, Mercados';
-        $this->categorias       = array('Mercados');
+        $this->descripcion       = 'Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.';
+        $this->claves            = 'IMPLAN, Gómez Palacio, Mercados';
+        $this->categorias        = array('Mercados');
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio       = 'indicadores-gomez-palacio';
+        $this->directorio        = 'indicadores-gomez-palacio';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu      = 'Indicadores';
+        $this->nombre_menu       = 'Indicadores';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
+        $this->estado            = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->para_compartir    = true;
+        // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
+        $region                  = new \Base\SchemaPostalAddress();
+        $region->addressCountry  = 'MX';
+        $region->addressRegion   = 'Durango';
+        $region->addressLocality = 'Gómez Palacio';
+        // Instancia de SchemaPlace agrupa la región y el mapa
+        $lugar                   = new \Base\SchemaPlace();
+        $lugar->address          = $region;
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaArticle();
-        $schema->name           = $this->nombre;
-        $schema->description    = $this->descripcion;
-        $schema->datePublished  = $this->fecha;
-        $schema->image          = $this->imagen;
-        $schema->image_show     = false;
-        $schema->author         = $this->autor;
-        $schema->articleBody    = <<<FINAL
+        $schema                  = new \Base\SchemaArticle();
+        $schema->name            = $this->nombre;
+        $schema->description     = $this->descripcion;
+        $schema->datePublished   = $this->fecha;
+        $schema->image           = $this->imagen;
+        $schema->image_show      = false;
+        $schema->author          = $this->autor;
+        $schema->contentLocation = $lugar;
+        $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -162,7 +171,7 @@ class EconomiaSectoresQueHanFrenadoElCrecimiento20082012 extends \Base\Publicaci
     </div>
   </div>
 FINAL;
-        $schema->extra          = <<<FINAL
+        $schema->extra           = <<<FINAL
       <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -298,9 +307,9 @@ FINAL;
       </table>
 FINAL;
         // El contenido es una instancia de SchemaArticle
-        $this->contenido        = $schema;
+        $this->contenido         = $schema;
         // JavaScript
-        $this->javascript       = <<<FINAL
+        $this->javascript        = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -337,7 +346,7 @@ $(document).ready(function(){
 });
 FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion       = <<<FINAL
+        $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
 <p>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</p>
 

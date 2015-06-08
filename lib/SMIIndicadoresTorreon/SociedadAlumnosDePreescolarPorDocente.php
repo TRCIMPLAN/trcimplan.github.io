@@ -32,34 +32,43 @@ class SociedadAlumnosDePreescolarPorDocente extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Alumnos de Preescolar por Docente en Torreón';
-     // $this->autor            = '';
-        $this->fecha            = '2015-05-21T14:08';
+        $this->nombre            = 'Alumnos de Preescolar por Docente en Torreón';
+     // $this->autor             = '';
+        $this->fecha             = '2015-05-21T14:08';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = 'sociedad-alumnos-de-preescolar-por-docente';
-        $this->imagen           = '../smi/introduccion/imagen.jpg';
-        $this->imagen_previa    = '../smi/introduccion/imagen-previa.jpg';
+        $this->archivo           = 'sociedad-alumnos-de-preescolar-por-docente';
+        $this->imagen            = '../smi/introduccion/imagen.jpg';
+        $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.';
-        $this->claves           = 'IMPLAN, Torreón, Educación';
-        $this->categorias       = array('Educación');
+        $this->descripcion       = 'Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.';
+        $this->claves            = 'IMPLAN, Torreón, Educación';
+        $this->categorias        = array('Educación');
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio       = 'indicadores-torreon';
+        $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu      = 'Indicadores';
+        $this->nombre_menu       = 'Indicadores';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
+        $this->estado            = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->para_compartir    = true;
+        // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
+        $region                  = new \Base\SchemaPostalAddress();
+        $region->addressCountry  = 'MX';
+        $region->addressRegion   = 'Coahuila de Zaragoza';
+        $region->addressLocality = 'Torreón';
+        // Instancia de SchemaPlace agrupa la región y el mapa
+        $lugar                   = new \Base\SchemaPlace();
+        $lugar->address          = $region;
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaArticle();
-        $schema->name           = $this->nombre;
-        $schema->description    = $this->descripcion;
-        $schema->datePublished  = $this->fecha;
-        $schema->image          = $this->imagen;
-        $schema->image_show     = false;
-        $schema->author         = $this->autor;
-        $schema->articleBody    = <<<FINAL
+        $schema                  = new \Base\SchemaArticle();
+        $schema->name            = $this->nombre;
+        $schema->description     = $this->descripcion;
+        $schema->datePublished   = $this->fecha;
+        $schema->image           = $this->imagen;
+        $schema->image_show      = false;
+        $schema->author          = $this->autor;
+        $schema->contentLocation = $lugar;
+        $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -174,7 +183,7 @@ class SociedadAlumnosDePreescolarPorDocente extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $schema->extra          = <<<FINAL
+        $schema->extra           = <<<FINAL
       <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -288,9 +297,9 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
       </table>
 FINAL;
         // El contenido es una instancia de SchemaArticle
-        $this->contenido        = $schema;
+        $this->contenido         = $schema;
         // JavaScript
-        $this->javascript       = <<<FINAL
+        $this->javascript        = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -327,7 +336,7 @@ $(document).ready(function(){
 });
 FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion       = <<<FINAL
+        $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
 <p>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.</p>
 

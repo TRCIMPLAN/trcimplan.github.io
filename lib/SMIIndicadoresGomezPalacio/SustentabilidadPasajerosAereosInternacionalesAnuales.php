@@ -32,34 +32,43 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Pasajeros Aéreos Internacionales Anuales en Gómez Palacio';
-     // $this->autor            = '';
-        $this->fecha            = '2014-10-21T16:19';
+        $this->nombre            = 'Pasajeros Aéreos Internacionales Anuales en Gómez Palacio';
+     // $this->autor             = '';
+        $this->fecha             = '2014-10-21T16:19';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = 'sustentabilidad-pasajeros-aereos-internacionales-anuales';
-        $this->imagen           = '../smi/introduccion/imagen.jpg';
-        $this->imagen_previa    = '../smi/introduccion/imagen-previa.jpg';
+        $this->archivo           = 'sustentabilidad-pasajeros-aereos-internacionales-anuales';
+        $this->imagen            = '../smi/introduccion/imagen.jpg';
+        $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
-        $this->claves           = 'IMPLAN, Gómez Palacio, Movilidad';
-        $this->categorias       = array('Movilidad');
+        $this->descripcion       = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
+        $this->claves            = 'IMPLAN, Gómez Palacio, Movilidad';
+        $this->categorias        = array('Movilidad');
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio       = 'indicadores-gomez-palacio';
+        $this->directorio        = 'indicadores-gomez-palacio';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu      = 'Indicadores';
+        $this->nombre_menu       = 'Indicadores';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
+        $this->estado            = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->para_compartir    = true;
+        // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
+        $region                  = new \Base\SchemaPostalAddress();
+        $region->addressCountry  = 'MX';
+        $region->addressRegion   = 'Durango';
+        $region->addressLocality = 'Gómez Palacio';
+        // Instancia de SchemaPlace agrupa la región y el mapa
+        $lugar                   = new \Base\SchemaPlace();
+        $lugar->address          = $region;
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaArticle();
-        $schema->name           = $this->nombre;
-        $schema->description    = $this->descripcion;
-        $schema->datePublished  = $this->fecha;
-        $schema->image          = $this->imagen;
-        $schema->image_show     = false;
-        $schema->author         = $this->autor;
-        $schema->articleBody    = <<<FINAL
+        $schema                  = new \Base\SchemaArticle();
+        $schema->name            = $this->nombre;
+        $schema->description     = $this->descripcion;
+        $schema->datePublished   = $this->fecha;
+        $schema->image           = $this->imagen;
+        $schema->image_show      = false;
+        $schema->author          = $this->autor;
+        $schema->contentLocation = $lugar;
+        $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -169,7 +178,7 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
     </div>
   </div>
 FINAL;
-        $schema->extra          = <<<FINAL
+        $schema->extra           = <<<FINAL
       <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -299,9 +308,9 @@ FINAL;
       </table>
 FINAL;
         // El contenido es una instancia de SchemaArticle
-        $this->contenido        = $schema;
+        $this->contenido         = $schema;
         // JavaScript
-        $this->javascript       = <<<FINAL
+        $this->javascript        = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -322,7 +331,7 @@ $(document).ready(function(){
 });
 FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion       = <<<FINAL
+        $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
 <p>Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.</p>
 
