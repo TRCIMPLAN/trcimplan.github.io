@@ -99,12 +99,12 @@ class SchemaArticle extends SchemaCreativeWork {
             $a[] = $this->description_html();
         }
         $a[] = $this->image_html();
+        $a[] = $this->article_body_html();
         if (is_object($this->contentLocation) && ($this->contentLocation instanceof SchemaPlace)) {
             $this->contentLocation->onTypeProperty = 'contentLocation';
             $this->contentLocation->identation     = $this->identation + 1;
             $a[] = $this->contentLocation->html();
         }
-        $a[] = $this->article_body_html();
         $a[] = '</div></article>';
         if ($this->extra != '') {
             $a[] = "<aside>{$this->extra}</aside>";

@@ -89,7 +89,11 @@ class SchemaPostalAddress extends SchemaContactPoint {
             // Acumular
             $c   = array();
             $c[] = '  <div class="direccion">';
-            $c[] = implode("<br>\n$spaces", $a);
+            if (count($a) > 2) {
+                $c[] = implode("<br>\n$spaces", $a);
+            } else {
+                $c[] = implode(' ', $a);
+            }
             $c[] = '</div>';
             // Entregar
             return implode("\n$spaces", $c);
