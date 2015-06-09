@@ -5,15 +5,392 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 09 Jun 2015 13:27:39 -0500</pubDate>
+    <pubDate>Tue, 09 Jun 2015 15:30:54 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="{self::}/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Delitos Patrimoniales en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos-patrimoniales.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-seguridad-delitos-patrimoniales</guid>
+      <title>Panorama de la Educación Superior en la Z.M.L. (Parte 1)</title>
+      <link>http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-1.html</link>
+      <guid isPermaLink="false">blog-panorama-educacion-superior-zml-parte-1</guid>
+      <pubDate>Tue, 09 Jun 2015 15:30:00 -0500</pubDate>
+      <author>Lic. Rodrigo González Morales</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-1/imagen.jpg"><br>
+
+<p>Según el Anuario Estadístico de la Asociación Nacional de Universidades e Instituciones de Educación Superior (ANUIES) correspondiente al ciclo escolar 2012 – 2013, La Z.M.L. registra 46 instituciones de educación superior, 28 en Torreón, 10 en Gómez Palacio, 6 en Lerdo y 2 en Matamoros.</p>
+
+<p>En el ciclo escolar 2012-2013, se registró una matrícula en nivel licenciatura de 38,867, 9,232 estudiantes de nuevo ingreso y 6,440 egresados. 26,626 estudian en Torreón, 9,246 en Gómez Palacio, 2,958 en Lerdo y 37 en Matamoros.</p>
+
+<div style="clear:left;"></div>
+
+<h3>Tabla 1</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Región</th>
+  <th align="right">Instituciones de Educación Superior</th>
+  <th align="right">Matrícula Licenciatura</th>
+  <th align="right">Nuevo Ingreso Licenciatura</th>
+  <th align="right">Egresados Licenciatura</th>
+  <th align="right">Matrícula Postgrado</th>
+  <th align="right">Nuevo Ingreso Postgrado</th>
+  <th align="right">Egresados Postgrado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Torreón</td>
+  <td align="right">28</td>
+  <td align="right">26,626</td>
+  <td align="right">5,991</td>
+  <td align="right">4,217</td>
+  <td align="right">2,118</td>
+  <td align="right">483</td>
+  <td align="right">375</td>
+</tr>
+<tr>
+  <td>Matamoros</td>
+  <td align="right">2</td>
+  <td align="right">37</td>
+  <td align="right">0</td>
+  <td align="right">14</td>
+  <td align="right">0</td>
+  <td align="right">0</td>
+  <td align="right">0</td>
+</tr>
+<tr>
+  <td>Gómez Palacio</td>
+  <td align="right">10</td>
+  <td align="right">9,246</td>
+  <td align="right">2,492</td>
+  <td align="right">1,722</td>
+  <td align="right">430</td>
+  <td align="right">153</td>
+  <td align="right">152</td>
+</tr>
+<tr>
+  <td>Lerdo</td>
+  <td align="right">6</td>
+  <td align="right">2,958</td>
+  <td align="right">749</td>
+  <td align="right">487</td>
+  <td align="right">318</td>
+  <td align="right">145</td>
+  <td align="right">88</td>
+</tr>
+<tr>
+  <td>Z.M.L.</td>
+  <td align="right">46</td>
+  <td align="right">38,867</td>
+  <td align="right">9,232</td>
+  <td align="right">6,440</td>
+  <td align="right">2,866</td>
+  <td align="right">781</td>
+  <td align="right">615</td>
+</tr>
+</tbody>
+</table>
+
+<p>A nivel nacional se registraron 283,287 estudiantes de posgrado y 3,309,221 de licenciatura, 8.5 estudiantes de posgrado por cada 100 estudiantes de pregrado, mientras en la Z.M.L. 7.7, lejos de estados como Distrito Federal (13), Puebla, Campeche, Morelos (11), Nuevo León, Guanajuato y Tamaulipas (10), por encima de la media de Coahuila (7.2) más no así de la de Durango (8.7).</p>
+
+<h3>Tabla 2. Top 10 Z.M.L.</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">Lugar</th>
+  <th>Carrera</th>
+  <th align="right">Matrícula</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1</td>
+  <td>Educación Básica</td>
+  <td align="right">3,782</td>
+  <td align="right">9.73%</td>
+</tr>
+<tr>
+  <td align="right">2</td>
+  <td>Sistemas</td>
+  <td align="right">2,244</td>
+  <td align="right">5.77%</td>
+</tr>
+<tr>
+  <td align="right">3</td>
+  <td>Derecho</td>
+  <td align="right">2,148</td>
+  <td align="right">5.53%</td>
+</tr>
+<tr>
+  <td align="right">4</td>
+  <td>Contabilidad</td>
+  <td align="right">2,043</td>
+  <td align="right">5.26%</td>
+</tr>
+<tr>
+  <td align="right">5</td>
+  <td>Ingeniería Industrial</td>
+  <td align="right">1,736</td>
+  <td align="right">4.47%</td>
+</tr>
+<tr>
+  <td align="right">6</td>
+  <td>Administración de Empresas</td>
+  <td align="right">1,720</td>
+  <td align="right">4.43%</td>
+</tr>
+<tr>
+  <td align="right">7</td>
+  <td>Psicología</td>
+  <td align="right">1,381</td>
+  <td align="right">3.55%</td>
+</tr>
+<tr>
+  <td align="right">8</td>
+  <td>Mecatrónica</td>
+  <td align="right">1,339</td>
+  <td align="right">3.45%</td>
+</tr>
+<tr>
+  <td align="right">9</td>
+  <td>Medicina</td>
+  <td align="right">1,286</td>
+  <td align="right">3.31%</td>
+</tr>
+<tr>
+  <td align="right">10</td>
+  <td>Veterinario</td>
+  <td align="right">1,108</td>
+  <td align="right">2.85%</td>
+</tr>
+<tr>
+  <td align="right">Total</td>
+  <td></td>
+  <td align="right">38,867</td>
+  <td align="right"></td>
+</tr>
+</tbody>
+</table>
+
+<h3>Tabla 3. Top 10 Nacional</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">Lugar</th>
+  <th>Carrera</th>
+  <th align="right">Matrícula</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1</td>
+  <td>Derecho</td>
+  <td align="right">276,254</td>
+  <td align="right">8.35%</td>
+</tr>
+<tr>
+  <td align="right">2</td>
+  <td>Administración de Empresas</td>
+  <td align="right">191,944</td>
+  <td align="right">5.80%</td>
+</tr>
+<tr>
+  <td align="right">3</td>
+  <td>Educación Básica</td>
+  <td align="right">190,113</td>
+  <td align="right">5.74%</td>
+</tr>
+<tr>
+  <td align="right">4</td>
+  <td>Contabilidad</td>
+  <td align="right">151,947</td>
+  <td align="right">4.59%</td>
+</tr>
+<tr>
+  <td align="right">5</td>
+  <td>Psicología</td>
+  <td align="right">123,809</td>
+  <td align="right">3.74%</td>
+</tr>
+<tr>
+  <td align="right">6</td>
+  <td>Ingeniería Industrial</td>
+  <td align="right">103,788</td>
+  <td align="right">3.14%</td>
+</tr>
+<tr>
+  <td align="right">7</td>
+  <td>Sistemas computacionales</td>
+  <td align="right">98,698</td>
+  <td align="right">2.98%</td>
+</tr>
+<tr>
+  <td align="right">8</td>
+  <td>Arquitectura</td>
+  <td align="right">89,248</td>
+  <td align="right">2.70%</td>
+</tr>
+<tr>
+  <td align="right">9</td>
+  <td>Enfermería</td>
+  <td align="right">81,329</td>
+  <td align="right">2.46%</td>
+</tr>
+<tr>
+  <td align="right">10</td>
+  <td>Medicina</td>
+  <td align="right">58,812</td>
+  <td align="right">1.78%</td>
+</tr>
+<tr>
+  <td align="right">Total</td>
+  <td></td>
+  <td align="right">3;309,221</td>
+  <td align="right"></td>
+</tr>
+</tbody>
+</table>
+
+<p>Estas diez carreras suman el 48 % de la matrícula en la Z.M.L. A pesar de ser las licenciaturas o ingenierías en sistemas computacionales, la segunda carrera con más población, las ingenierías en informática alcanzan sólo 548 alumnos. El panorama nacional es muy similar, las diez carreras con mayor matrícula, a diferencia de la Z.M.L. incluyen Enfermería y Arquitectura, mientras en nuestra región aparecen también Mecatrónica y Veterinaria, además de Derecho, Educación Básica, Contabilidad, Administración de Empresas, Psicología, Ingeniería industrial, Sistemas Computacionales y Medicina.</p>
+
+<h3>Tabla 4. Distribución por campos de estudio</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Campo de estudios</th>
+  <th align="right">Z.M.L.</th>
+  <th align="right">% Z.M.L.</th>
+  <th align="right">% Nacional</th>
+  <th align="right">León</th>
+  <th align="right">Querétaro</th>
+  <th align="right">Saltillo</th>
+  <th align="right">S.L.P.</th>
+  <th align="right">Chihuahua</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Educación</td>
+  <td align="right">4,267</td>
+  <td align="right">10.98%</td>
+  <td align="right">9.97%</td>
+  <td align="right">7.61%</td>
+  <td align="right">7.71%</td>
+  <td align="right">8.77%</td>
+  <td align="right">14.40%</td>
+  <td align="right">12.76%</td>
+</tr>
+<tr>
+  <td>Artes y Humanidades</td>
+  <td align="right">1,125</td>
+  <td align="right">2.89%</td>
+  <td align="right">4.62%</td>
+  <td align="right">6.47%</td>
+  <td align="right">6.23%</td>
+  <td align="right">4.13%</td>
+  <td align="right">4.27%</td>
+  <td align="right">4.42%</td>
+</tr>
+<tr>
+  <td>Ciencias Sociales, Administrativas y Jurídicas</td>
+  <td align="right">14,214</td>
+  <td align="right">36.57%</td>
+  <td align="right">42.14%</td>
+  <td align="right">49.52%</td>
+  <td align="right">40.73%</td>
+  <td align="right">36.19%</td>
+  <td align="right">40.90%</td>
+  <td align="right">35.65%</td>
+</tr>
+<tr>
+  <td>Ciencias Naturales, Exactas y de la Computación</td>
+  <td align="right">1,633</td>
+  <td align="right">4.20%</td>
+  <td align="right">5.92%</td>
+  <td align="right">1.32%</td>
+  <td align="right">4.00%</td>
+  <td align="right">4.01%</td>
+  <td align="right">3.98%</td>
+  <td align="right">6.14%</td>
+</tr>
+<tr>
+  <td>Ingeniería, Manufactura y Construcción</td>
+  <td align="right">11,994</td>
+  <td align="right">30.86%</td>
+  <td align="right">24.63%</td>
+  <td align="right">22.88%</td>
+  <td align="right">30.61%</td>
+  <td align="right">32.97%</td>
+  <td align="right">25.15%</td>
+  <td align="right">27.44%</td>
+</tr>
+<tr>
+  <td>Salud</td>
+  <td align="right">3,216</td>
+  <td align="right">8.27%</td>
+  <td align="right">9.28%</td>
+  <td align="right">9.25%</td>
+  <td align="right">8.72%</td>
+  <td align="right">7.39%</td>
+  <td align="right">10.21%</td>
+  <td align="right">9.25%</td>
+</tr>
+<tr>
+  <td>Agronomía y Veterinaria</td>
+  <td align="right">2,240</td>
+  <td align="right">5.76%</td>
+  <td align="right">2.10%</td>
+  <td align="right">1.69%</td>
+  <td align="right">1.27%</td>
+  <td align="right">6.31%</td>
+  <td align="right">0.00%</td>
+  <td align="right">1.99%</td>
+</tr>
+<tr>
+  <td>Servicios</td>
+  <td align="right">178</td>
+  <td align="right">0.46%</td>
+  <td align="right">1.33%</td>
+  <td align="right">1.27%</td>
+  <td align="right">0.75%</td>
+  <td align="right">0.23%</td>
+  <td align="right">1.09%</td>
+  <td align="right">2.33%</td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td align="right">38,867</td>
+  <td align="right"></td>
+  <td align="right"></td>
+  <td align="right"></td>
+  <td align="right"></td>
+  <td align="right"></td>
+  <td align="right"></td>
+  <td align="right"></td>
+</tr>
+</tbody>
+</table>
+
+<p>Analizando por campo amplio del conocimiento, nuestra región está en proporción por encima de la media nacional en Ingenierías y Agronomía, y por debajo en Ciencias Sociales, administrativas y jurídicas, Ciencias exactas, Artes y Humanidades y Servicios, encontrándose a la par de la media en Salud y educación.  En comparación con metrópolis de características industriales similares, la Z.M.L. aventaja en ingenierías, manufactura y construcción a León, Aguascalientes, Chihuahua y San Luis Potosí, estando en niveles muy similares a Querétaro y un poco por debajo de Saltillo.</p>
+
+<h3>Referencias</h3>
+
+<ul>
+<li><a href="http://www.anuies.mx/iinformacion-y-servicios/informacion-estadistica-de-educacion-superior/anuario-estadistico-de-educacion-superior">Base de datos en ANUIES</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>Delitos Patrimoniales en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-delitos-patrimoniales.html</link>
+      <guid isPermaLink="false">indicadores-torreon-seguridad-delitos-patrimoniales</guid>
       <pubDate>Thu, 04 Jun 2015 11:25:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -32,25 +409,25 @@
         <tbody>
           <tr>
             <td>31/01/2015</td>
-            <td>8</td>
+            <td>120</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>28/02/2015</td>
-            <td>9</td>
+            <td>111</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>31/03/2015</td>
-            <td>7</td>
+            <td>115</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>30/04/2015</td>
-            <td>16</td>
+            <td>167</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -419,9 +796,9 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
 ]]></description>
     </item>
     <item>
-      <title>Alumnos de Secundaria por Docente en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-de-secundaria-por-docente.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-de-secundaria-por-docente</guid>
+      <title>Alumnos de Secundaria por Docente en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-de-secundaria-por-docente.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-de-secundaria-por-docente</guid>
       <pubDate>Thu, 21 May 2015 15:54:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -440,7 +817,7 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
         <tbody>
           <tr>
             <td>01/07/2014</td>
-            <td>14.9000</td>
+            <td>12.7000</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -452,9 +829,9 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
 ]]></description>
     </item>
     <item>
-      <title>Alumnos de Primaria por Docente en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-de-primaria-por-docente.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-de-primaria-por-docente</guid>
+      <title>Alumnos de Primaria por Docente en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-de-primaria-por-docente.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-de-primaria-por-docente</guid>
       <pubDate>Thu, 21 May 2015 14:18:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -473,7 +850,7 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
         <tbody>
           <tr>
             <td>01/07/2014</td>
-            <td>26.9000</td>
+            <td>29.5000</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -485,9 +862,9 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
 ]]></description>
     </item>
     <item>
-      <title>Alumnos de Preescolar por Docente en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-de-preescolar-por-docente.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-de-preescolar-por-docente</guid>
+      <title>Alumnos de Preescolar por Docente en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-de-preescolar-por-docente.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-de-preescolar-por-docente</guid>
       <pubDate>Thu, 21 May 2015 14:08:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -506,7 +883,7 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
         <tbody>
           <tr>
             <td>01/07/2014</td>
-            <td>25.1000</td>
+            <td>24.5000</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -516,36 +893,6 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
       <h3>Observaciones</h3>
 <p>Consulta la <a href="http://planeacion.sep.gob.mx/principalescifras/">Base de Datos</a></p>
 ]]></description>
-    </item>
-    <item>
-      <title>Salario promedio en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-salario-promedio.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-economia-salario-promedio</guid>
-      <pubDate>Thu, 21 May 2015 12:56:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/03/2015</td>
-            <td>$ 4,043.13</td>
-            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Pesos.</p>]]></description>
     </item>
   </channel>
 </rss>
