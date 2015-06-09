@@ -181,40 +181,160 @@ FINAL;
             <td>La participación de la sociedad en proyectos urbanos crea una cultura de co-creación. Destaca Medellín, Colombia donde se aplica en la coordinación, participación y construcción de obra pública.</td>
           </tr>
           <tr>
-            <td>10/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/sistema-politico-estable-funcional.html">Sistema Político Estable y Funcional</a></td>
-            <td>El Sistema Político Estable y Funcional es el subíndice mejor calificado de la zona metropolitana, ya que IMCO nos sitúa en el lugar 11 del ranking.</td>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Gómez Palacio</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
           </tr>
           <tr>
-            <td>ND</td>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en La Laguna</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Lerdo</a></td>
             <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
           </tr>
           <tr>
-            <td>ND</td>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Matamoros</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Torreón</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en La Laguna</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Lerdo</a></td>
             <td></td>
           </tr>
           <tr>
-            <td>ND</td>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html">Competencia Electoral en Gómez Palacio</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral.html">Competencia Electoral en La Laguna</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/gobierno-competencia-electoral.html">Competencia Electoral en Lerdo</a></td>
             <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
           </tr>
           <tr>
-            <td>ND</td>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-competencia-electoral.html">Competencia Electoral en Matamoros</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-competencia-electoral.html">Competencia Electoral en Torreón</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Gómez Palacio</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en La Laguna</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Lerdo</a></td>
             <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
           </tr>
           <tr>
-            <td>ND</td>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Matamoros</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Torreón</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-participacion-electoral.html">Participación Electoral en Gómez Palacio</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-participacion-electoral.html">Participación Electoral en La Laguna</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/gobierno-participacion-electoral.html">Participación Electoral en Lerdo</a></td>
             <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-participacion-electoral.html">Participación Electoral en Matamoros</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-participacion-electoral.html">Participación Electoral en Torreón</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>10/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sistema-politico-estable-funcional.html">Sistema Político Estable y Funcional</a></td>
+            <td>El Sistema Político Estable y Funcional es el subíndice mejor calificado de la zona metropolitana, ya que IMCO nos sitúa en el lugar 11 del ranking.</td>
           </tr>
         </tbody>
       </table>

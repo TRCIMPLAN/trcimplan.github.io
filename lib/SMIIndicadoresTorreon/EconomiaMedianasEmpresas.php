@@ -222,16 +222,322 @@ FINAL;
             <td>El IMPLAN ve una región de grandes retos y de grandes oportunidades, capaz de rivalizar, si unimos voluntades, con avezados competidores en los mercados globalizados.</td>
           </tr>
           <tr>
+            <td>09/02/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-nuevas-empresas.html">Nuevas Empresas en Torreón</a></td>
+            <td>Número de nuevas empresas registradas en ventanilla universal en el periodo señalado.</td>
+          </tr>
+          <tr>
             <td>06/01/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></td>
             <td>El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.</td>
           </tr>
           <tr>
+            <td>05/12/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-empresas-exportadoras.html">Empresas Exportadoras en Gómez Palacio</a></td>
+            <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
+          </tr>
+          <tr>
+            <td>05/12/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-empresas-exportadoras.html">Empresas Exportadoras en La Laguna</a></td>
+            <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
+          </tr>
+          <tr>
+            <td>05/12/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-empresas-exportadoras.html">Empresas Exportadoras en Lerdo</a></td>
+            <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
+          </tr>
+          <tr>
+            <td>05/12/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-empresas-exportadoras.html">Empresas Exportadoras en Matamoros</a></td>
+            <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
+          </tr>
+          <tr>
+            <td>05/12/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-empresas-exportadoras.html">Empresas Exportadoras en Torreón</a></td>
+            <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
+          </tr>
+          <tr>
             <td>12/11/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/industrial-metalmecanica-la-laguna.html">La industria metalmecánica y La Laguna</a></td>
             <td>A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-apertura-de-negocios.html">Apertura de Negocios en Torreón</a></td>
+            <td>Número de días necesarios para el trámite de apertura de un negocio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Torreón</a></td>
+            <td>Días transcurridos para la ejecución de un contrato.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-grandes-empresas.html">Grandes Empresas en Gómez Palacio</a></td>
+            <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-grandes-empresas.html">Grandes Empresas en La Laguna</a></td>
+            <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-grandes-empresas.html">Grandes Empresas en Lerdo</a></td>
+            <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-grandes-empresas.html">Grandes Empresas en Matamoros</a></td>
+            <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-grandes-empresas.html">Grandes Empresas en Torreón</a></td>
+            <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-medianas-empresas.html">Medianas Empresas en Gómez Palacio</a></td>
+            <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-medianas-empresas.html">Medianas Empresas en La Laguna</a></td>
+            <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-medianas-empresas.html">Medianas Empresas en Lerdo</a></td>
+            <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-medianas-empresas.html">Medianas Empresas en Matamoros</a></td>
+            <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-medianas-empresas.html">Medianas Empresas en Torreón</a></td>
+            <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-microempresas.html">Microempresas en Gómez Palacio</a></td>
+            <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-microempresas.html">Microempresas en La Laguna</a></td>
+            <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-microempresas.html">Microempresas en Lerdo</a></td>
+            <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-microempresas.html">Microempresas en Matamoros</a></td>
+            <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-microempresas.html">Microempresas en Torreón</a></td>
+            <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-obtencion-de-credito-creacion-de-garantias.html">Obtención de crédito - Creación de garantías en Torreón</a></td>
+            <td>Días transcurridos en el proceso de obtención de un crédito.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-pequenas-empresas.html">Pequeñas Empresas en Gómez Palacio</a></td>
+            <td>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-pequenas-empresas.html">Pequeñas Empresas en La Laguna</a></td>
+            <td>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-pequenas-empresas.html">Pequeñas Empresas en Lerdo</a></td>
+            <td>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-pequenas-empresas.html">Pequeñas Empresas en Matamoros</a></td>
+            <td>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-pequenas-empresas.html">Pequeñas Empresas en Torreón</a></td>
+            <td>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-permiso-de-construccion.html">Permiso de Construcción en Torreón</a></td>
+            <td>Número de días necesarios para conseguir un permiso de construcción.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-registro-de-propiedades.html">Registro de Propiedades en Torreón</a></td>
+            <td>Días que toma el trámite para el registro de una propiedad.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-total-de-empresas-registradas-en-el-siem.html">Total de Empresas registradas en el SIEM en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-total-de-empresas-registradas-en-el-siem.html">Total de Empresas registradas en el SIEM en La Laguna</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-total-de-empresas-registradas-en-el-siem.html">Total de Empresas registradas en el SIEM en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-total-de-empresas-registradas-en-el-siem.html">Total de Empresas registradas en el SIEM en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html">Total de Empresas registradas en el SIEM en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Gómez Palacio</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en La Laguna</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Lerdo</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Matamoros</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Torreón</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Gómez Palacio</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en La Laguna</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Lerdo</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Matamoros</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Torreón</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Gómez Palacio</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en La Laguna</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Lerdo</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Matamoros</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Torreón</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
           </tr>
           <tr>
             <td>07/10/2014</td>
@@ -316,96 +622,6 @@ FINAL;
             <td>Análisis</td>
             <td><a href="../blog/hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></td>
             <td>¿En realidad generan más valor las actividades tecnológicas y de servicios?</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-apertura-de-negocios.html">Apertura de Negocios en Torreón</a></td>
-            <td>Número de días necesarios para el trámite de apertura de un negocio.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Torreón</a></td>
-            <td>Días transcurridos para la ejecución de un contrato.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-empresas-exportadoras.html">Empresas Exportadoras en Torreón</a></td>
-            <td>Empresas vigentes en uno o más programas de apoyo a exportadores de la Secretaría de Economía.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-grandes-empresas.html">Grandes Empresas en Torreón</a></td>
-            <td>Porcentaje del total de empresas que cuentan con más de 250 empleados.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-medianas-empresas.html">Medianas Empresas en Torreón</a></td>
-            <td>Porcentaje del total de empresas que emplean de 51 a 250 personas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-microempresas.html">Microempresas en Torreón</a></td>
-            <td>Porcentaje del total de empresas que emplean de 0 a 10 personas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-nuevas-empresas.html">Nuevas Empresas en Torreón</a></td>
-            <td>Número de nuevas empresas registradas en ventanilla universal en el periodo señalado.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-obtencion-de-credito-creacion-de-garantias.html">Obtención de crédito - Creación de garantías en Torreón</a></td>
-            <td>Días transcurridos en el proceso de obtención de un crédito.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-pequenas-empresas.html">Pequeñas Empresas en Torreón</a></td>
-            <td>Porcentaje del total de empresas que emplean entre 11 y 50 empleados.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-permiso-de-construccion.html">Permiso de Construcción en Torreón</a></td>
-            <td>Número de días necesarios para conseguir un permiso de construcción.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-registro-de-propiedades.html">Registro de Propiedades en Torreón</a></td>
-            <td>Días que toma el trámite para el registro de una propiedad.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html">Total de Empresas registradas en el SIEM en Torreón</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Torreón</a></td>
-            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Torreón</a></td>
-            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Torreón</a></td>
-            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
           </tr>
         </tbody>
       </table>

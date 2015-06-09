@@ -196,15 +196,63 @@ FINAL;
             <td>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.</td>
           </tr>
           <tr>
-            <td>ND</td>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en Gómez Palacio</a></td>
+            <td>Cumplimiento sobre total de obligaciones.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en La Laguna</a></td>
+            <td>Cumplimiento sobre total de obligaciones.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en Lerdo</a></td>
+            <td>Cumplimiento sobre total de obligaciones.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en Matamoros</a></td>
             <td>Cumplimiento sobre total de obligaciones.</td>
           </tr>
           <tr>
-            <td>ND</td>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en Torreón</a></td>
+            <td>Cumplimiento sobre total de obligaciones.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en Gómez Palacio</a></td>
+            <td>Cumplimiento sobre total de criterios</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en La Laguna</a></td>
+            <td>Cumplimiento sobre total de criterios</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en Lerdo</a></td>
+            <td>Cumplimiento sobre total de criterios</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en Matamoros</a></td>
+            <td>Cumplimiento sobre total de criterios</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en Torreón</a></td>
             <td>Cumplimiento sobre total de criterios</td>
           </tr>
         </tbody>

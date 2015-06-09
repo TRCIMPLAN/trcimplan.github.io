@@ -182,6 +182,108 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>26/03/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-catolica.html">Población Católica en Gómez Palacio</a></td>
+            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
+          </tr>
+          <tr>
+            <td>26/03/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-poblacion-catolica.html">Población Católica en La Laguna</a></td>
+            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
+          </tr>
+          <tr>
+            <td>26/03/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-poblacion-catolica.html">Población Católica en Lerdo</a></td>
+            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
+          </tr>
+          <tr>
+            <td>26/03/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-poblacion-catolica.html">Población Católica en Matamoros</a></td>
+            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
+          </tr>
+          <tr>
+            <td>26/03/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-poblacion-catolica.html">Población Católica en Torreón</a></td>
+            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
+          </tr>
+          <tr>
+            <td>14/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-usuarios-de-internet.html">Usuarios de Internet en Gómez Palacio</a></td>
+            <td>Porcentaje de la población que usa internet.</td>
+          </tr>
+          <tr>
+            <td>14/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-usuarios-de-internet.html">Usuarios de Internet en La Laguna</a></td>
+            <td>Porcentaje de la población que usa internet.</td>
+          </tr>
+          <tr>
+            <td>14/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-usuarios-de-internet.html">Usuarios de Internet en Lerdo</a></td>
+            <td>Porcentaje de la población que usa internet.</td>
+          </tr>
+          <tr>
+            <td>14/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-usuarios-de-internet.html">Usuarios de Internet en Matamoros</a></td>
+            <td>Porcentaje de la población que usa internet.</td>
+          </tr>
+          <tr>
+            <td>14/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-usuarios-de-internet.html">Usuarios de Internet en Torreón</a></td>
+            <td>Porcentaje de la población que usa internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
+            <td>Tasa de fecundidad.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html">Población Estimada en Gómez Palacio</a></td>
+            <td>Población estimada a mitad de año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-poblacion-estimada.html">Población Estimada en La Laguna</a></td>
+            <td>Población estimada a mitad de año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-poblacion-estimada.html">Población Estimada en Lerdo</a></td>
+            <td>Población estimada a mitad de año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-poblacion-estimada.html">Población Estimada en Matamoros</a></td>
+            <td>Población estimada a mitad de año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-poblacion-estimada.html">Población Estimada en Torreón</a></td>
+            <td>Población estimada a mitad de año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html">Promedio de Descendencia por Varón en Torreón</a></td>
+            <td>Calcula el promedio estimado de hijos por cada varón.</td>
+          </tr>
+          <tr>
             <td>13/06/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/torreon-vulnerabilidad-social.html">Torreón y la Vulnerabilidad Social</a></td>
@@ -192,24 +294,6 @@ FINAL;
             <td>Análisis</td>
             <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
             <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-poblacion-catolica.html">Población Católica en La Laguna</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-poblacion-estimada.html">Población Estimada en La Laguna</a></td>
-            <td>Población estimada a mitad de año.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-usuarios-de-internet.html">Usuarios de Internet en La Laguna</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
           </tr>
         </tbody>
       </table>

@@ -5,15 +5,15 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 04 Jun 2015 15:33:33 -0500</pubDate>
+    <pubDate>Tue, 09 Jun 2015 13:27:39 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="{self::}/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Delitos Patrimoniales en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-delitos-patrimoniales.html</link>
-      <guid isPermaLink="false">indicadores-torreon-seguridad-delitos-patrimoniales</guid>
+      <title>Delitos Patrimoniales en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos-patrimoniales.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-seguridad-delitos-patrimoniales</guid>
       <pubDate>Thu, 04 Jun 2015 11:25:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -32,25 +32,25 @@
         <tbody>
           <tr>
             <td>31/01/2015</td>
-            <td>120</td>
+            <td>8</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>28/02/2015</td>
-            <td>111</td>
+            <td>9</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>31/03/2015</td>
-            <td>115</td>
+            <td>7</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>30/04/2015</td>
-            <td>167</td>
+            <td>16</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -419,9 +419,9 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
 ]]></description>
     </item>
     <item>
-      <title>Alumnos de Secundaria por Docente en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-de-secundaria-por-docente.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-de-secundaria-por-docente</guid>
+      <title>Alumnos de Secundaria por Docente en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-de-secundaria-por-docente.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-de-secundaria-por-docente</guid>
       <pubDate>Thu, 21 May 2015 15:54:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -440,7 +440,7 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
         <tbody>
           <tr>
             <td>01/07/2014</td>
-            <td>12.7000</td>
+            <td>14.9000</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -452,9 +452,9 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
 ]]></description>
     </item>
     <item>
-      <title>Alumnos de Primaria por Docente en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-de-primaria-por-docente.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-de-primaria-por-docente</guid>
+      <title>Alumnos de Primaria por Docente en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-de-primaria-por-docente.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-de-primaria-por-docente</guid>
       <pubDate>Thu, 21 May 2015 14:18:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -473,7 +473,7 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
         <tbody>
           <tr>
             <td>01/07/2014</td>
-            <td>29.5000</td>
+            <td>26.9000</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -485,9 +485,9 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
 ]]></description>
     </item>
     <item>
-      <title>Alumnos de Preescolar por Docente en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-de-preescolar-por-docente.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-de-preescolar-por-docente</guid>
+      <title>Alumnos de Preescolar por Docente en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-de-preescolar-por-docente.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-de-preescolar-por-docente</guid>
       <pubDate>Thu, 21 May 2015 14:08:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -506,7 +506,7 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
         <tbody>
           <tr>
             <td>01/07/2014</td>
-            <td>24.5000</td>
+            <td>25.1000</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -518,9 +518,9 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
 ]]></description>
     </item>
     <item>
-      <title>Salario promedio en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-salario-promedio.html</link>
-      <guid isPermaLink="false">indicadores-torreon-economia-salario-promedio</guid>
+      <title>Salario promedio en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-salario-promedio.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-economia-salario-promedio</guid>
       <pubDate>Thu, 21 May 2015 12:56:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -539,7 +539,7 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
         <tbody>
           <tr>
             <td>31/03/2015</td>
-            <td>$ 6,434.28</td>
+            <td>$ 4,043.13</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>

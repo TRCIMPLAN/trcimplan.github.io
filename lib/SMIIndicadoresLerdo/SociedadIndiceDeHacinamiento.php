@@ -199,6 +199,60 @@ FINAL;
             <td>En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas.</td>
           </tr>
           <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Gómez Palacio</a></td>
+            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Lerdo</a></td>
+            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Matamoros</a></td>
+            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Torreón</a></td>
+            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Gómez Palacio</a></td>
+            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en La Laguna</a></td>
+            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Lerdo</a></td>
+            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Matamoros</a></td>
+            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Torreón</a></td>
+            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+          </tr>
+          <tr>
             <td>10/12/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/papel-organizaciones-civiles-aumento-competitividad.html">El papel de las Organizaciones Civiles en el aumento del bienestar y competitividad</a></td>
@@ -217,10 +271,514 @@ FINAL;
             <td>La calidad de vida en las ciudades es la posibilidad que tiene una persona, una familia o una comunidad, de alcanzar el bienestar y la satisfacción de todas sus necesidades.</td>
           </tr>
           <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Gómez Palacio</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en La Laguna</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Lerdo</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Matamoros</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Torreón</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
             <td>28/10/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/ciudades-reto-transformacion.html">Las ciudades y el reto de su transformación</a></td>
             <td>El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Gómez Palacio</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en La Laguna</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Lerdo</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Matamoros</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Torreón</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html">Pobreza Extrema en Gómez Palacio</a></td>
+            <td>Porcentaje de la población en situación de pobreza extrema.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-pobreza-extrema.html">Pobreza Extrema en La Laguna</a></td>
+            <td>Porcentaje de la población en situación de pobreza extrema.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-pobreza-extrema.html">Pobreza Extrema en Lerdo</a></td>
+            <td>Porcentaje de la población en situación de pobreza extrema.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-pobreza-extrema.html">Pobreza Extrema en Matamoros</a></td>
+            <td>Porcentaje de la población en situación de pobreza extrema.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-pobreza-extrema.html">Pobreza Extrema en Torreón</a></td>
+            <td>Porcentaje de la población en situación de pobreza extrema.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-pobreza-moderada.html">Pobreza Moderada en Gómez Palacio</a></td>
+            <td>Porcentaje de la población en situación de pobreza moderada.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-pobreza-moderada.html">Pobreza Moderada en La Laguna</a></td>
+            <td>Porcentaje de la población en situación de pobreza moderada.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-pobreza-moderada.html">Pobreza Moderada en Lerdo</a></td>
+            <td>Porcentaje de la población en situación de pobreza moderada.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-pobreza-moderada.html">Pobreza Moderada en Matamoros</a></td>
+            <td>Porcentaje de la población en situación de pobreza moderada.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-pobreza-moderada.html">Pobreza Moderada en Torreón</a></td>
+            <td>Porcentaje de la población en situación de pobreza moderada.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-pobreza.html">Pobreza en Gómez Palacio</a></td>
+            <td>Porcentaje de la población en situación de pobreza.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-pobreza.html">Pobreza en La Laguna</a></td>
+            <td>Porcentaje de la población en situación de pobreza.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-pobreza.html">Pobreza en Lerdo</a></td>
+            <td>Porcentaje de la población en situación de pobreza.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-pobreza.html">Pobreza en Matamoros</a></td>
+            <td>Porcentaje de la población en situación de pobreza.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-pobreza.html">Pobreza en Torreón</a></td>
+            <td>Porcentaje de la población en situación de pobreza.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html">Rezago Alimentario en Gómez Palacio</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-rezago-alimentario.html">Rezago Alimentario en Lerdo</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-rezago-alimentario.html">Rezago Alimentario en Matamoros</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-rezago-alimentario.html">Rezago Alimentario en Torreón</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Gómez Palacio</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en La Laguna</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Lerdo</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Matamoros</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Torreón</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-habitadas.html">Viviendas Habitadas en La Laguna</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Gómez Palacio</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en La Laguna</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Lerdo</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Matamoros</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Torreón</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html">Viviendas Totales en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-totales.html">Viviendas Totales en La Laguna</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-totales.html">Viviendas Totales en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-totales.html">Viviendas Totales en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-totales.html">Viviendas Totales en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en La Laguna</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Lerdo</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Matamoros</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Torreón</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-internet.html">Viviendas con Internet en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-internet.html">Viviendas con Internet en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-internet.html">Viviendas con Internet en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-internet.html">Viviendas con Internet en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-internet.html">Viviendas con Internet en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-indice-de-desarrollo-humano-idh.html">Índice de Desarrollo Humano (IDH) en Gómez Palacio</a></td>
+            <td>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano-idh.html">Índice de Desarrollo Humano (IDH) en La Laguna</a></td>
+            <td>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano-idh.html">Índice de Desarrollo Humano (IDH) en Lerdo</a></td>
+            <td>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-indice-de-desarrollo-humano-idh.html">Índice de Desarrollo Humano (IDH) en Matamoros</a></td>
+            <td>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-indice-de-desarrollo-humano-idh.html">Índice de Desarrollo Humano (IDH) en Torreón</a></td>
+            <td>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).</td>
           </tr>
           <tr>
             <td>15/10/2014</td>
@@ -245,120 +803,6 @@ FINAL;
             <td>Análisis</td>
             <td><a href="../blog/sociedad-incluyente-preparada-sana.html">Sociedad Incluyente, Preparada y Sana</a></td>
             <td>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Lerdo</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Lerdo</a></td>
-            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-pobreza-extrema.html">Pobreza Extrema en Lerdo</a></td>
-            <td>Porcentaje de la población en situación de pobreza extrema.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-pobreza-moderada.html">Pobreza Moderada en Lerdo</a></td>
-            <td>Porcentaje de la población en situación de pobreza moderada.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-pobreza.html">Pobreza en Lerdo</a></td>
-            <td>Porcentaje de la población en situación de pobreza.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Lerdo</a></td>
-            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-rezago-alimentario.html">Rezago Alimentario en Lerdo</a></td>
-            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Lerdo</a></td>
-            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Lerdo</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Lerdo</a></td>
-            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-totales.html">Viviendas Totales en Lerdo</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Lerdo</a></td>
-            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Lerdo</a></td>
-            <td>Porcentaje de viviendas habitadas con computadora.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Lerdo</a></td>
-            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Lerdo</a></td>
-            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-internet.html">Viviendas con Internet en Lerdo</a></td>
-            <td>Porcentaje de viviendas habitadas con internet.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Lerdo</a></td>
-            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano-idh.html">Índice de Desarrollo Humano (IDH) en Lerdo</a></td>
-            <td>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en [PNUD](http://www.undp.org.mx/desarrollohumano/disco/index.html).</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Lerdo</a></td>
-            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
           </tr>
         </tbody>
       </table>

@@ -238,6 +238,186 @@ FINAL;
             <td>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.</td>
           </tr>
           <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Gómez Palacio</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en La Laguna</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Lerdo</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Matamoros</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Torreón</a></td>
+            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en La Laguna</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html">Competencia Electoral en Gómez Palacio</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-competencia-electoral.html">Competencia Electoral en La Laguna</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/gobierno-competencia-electoral.html">Competencia Electoral en Lerdo</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-competencia-electoral.html">Competencia Electoral en Matamoros</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-competencia-electoral.html">Competencia Electoral en Torreón</a></td>
+            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Gómez Palacio</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en La Laguna</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Lerdo</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Matamoros</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Torreón</a></td>
+            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-participacion-electoral.html">Participación Electoral en Gómez Palacio</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-participacion-electoral.html">Participación Electoral en La Laguna</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/gobierno-participacion-electoral.html">Participación Electoral en Lerdo</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-participacion-electoral.html">Participación Electoral en Matamoros</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-participacion-electoral.html">Participación Electoral en Torreón</a></td>
+            <td>Porcentaje de personas que emitieron su voto.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en Gómez Palacio</a></td>
+            <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en La Laguna</a></td>
+            <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en Lerdo</a></td>
+            <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en Matamoros</a></td>
+            <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en Torreón</a></td>
+            <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
+          </tr>
+          <tr>
             <td>08/10/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/implan-somos-todos.html">El IMPLAN somos todos</a></td>
@@ -266,42 +446,6 @@ FINAL;
             <td>Proyecto</td>
             <td><a href="../proyectos/banco-municipal-proyectos-inversion.html">Banco Municipal de Proyectos de Inversión</a></td>
             <td>Es un instrumento dinámico de gestión pública, orientado a consolidar una cultura municipal de formulación (preparación), planeación, seguimiento y evaluación de programas y proyectos de inversión, por medio de sus componentes y funciones.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html">Competencia Electoral Diferencia de Votos en Gómez Palacio</a></td>
-            <td>Diferencia de votos entre primer y segundo lugar en la elección federal.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html">Competencia Electoral Votos Totales en Gómez Palacio</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html">Competencia Electoral en Gómez Palacio</a></td>
-            <td>Diferencia entre los dos candidatos con más votación entre el total de votos.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html">Organizaciones de la Sociedad Civil en Gómez Palacio</a></td>
-            <td>Organizaciones de la sociedad civil por cada cien mil habitantes.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-participacion-electoral.html">Participación Electoral en Gómez Palacio</a></td>
-            <td>Porcentaje de personas que emitieron su voto.</td>
-          </tr>
-          <tr>
-            <td>ND</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en Gómez Palacio</a></td>
-            <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
           </tr>
         </tbody>
       </table>
