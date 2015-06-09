@@ -55,7 +55,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         'Indicadores'                       => 'indicadores-categorias/index.html',
         'Información Geográfica'            => 'sig-mapas-torreon/index.html',
         'Plan Estratégico Metropolitano'    => 'plan-estrategico-metropolitano/introduccion.html',
-        'Banco de Proyectos'                => 'proyectos/introduccion.html');
+        'Banco de Proyectos'                => 'proyectos/banco-municipal-proyectos-inversion.html');
     public $mapa_institucional = array(
         'Visión / Misión'                   => 'institucional/vision-mision.html',
         'Mensaje del Director'              => 'institucional/mensaje-director.html',
