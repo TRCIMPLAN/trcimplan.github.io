@@ -5,7 +5,7 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 09 Jun 2015 15:30:54 -0500</pubDate>
+    <pubDate>Tue, 09 Jun 2015 16:00:19 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -14,7 +14,7 @@
       <title>Panorama de la Educación Superior en la Z.M.L. (Parte 1)</title>
       <link>http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-1.html</link>
       <guid isPermaLink="false">blog-panorama-educacion-superior-zml-parte-1</guid>
-      <pubDate>Tue, 09 Jun 2015 15:30:00 -0500</pubDate>
+      <pubDate>Tue, 09 Jun 2015 16:00:00 -0500</pubDate>
       <author>Lic. Rodrigo González Morales</author>
       <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-1/imagen.jpg"><br>
 
@@ -273,6 +273,7 @@
   <th align="right">Saltillo</th>
   <th align="right">S.L.P.</th>
   <th align="right">Chihuahua</th>
+  <th align="right">Aguascalientes</th>
 </tr>
 </thead>
 <tbody>
@@ -284,30 +285,33 @@
   <td align="right">7.61%</td>
   <td align="right">7.71%</td>
   <td align="right">8.77%</td>
-  <td align="right">14.40%</td>
+  <td align="right"><strong>14.40%</strong></td>
   <td align="right">12.76%</td>
+  <td align="right">12.74%</td>
 </tr>
 <tr>
   <td>Artes y Humanidades</td>
   <td align="right">1,125</td>
   <td align="right">2.89%</td>
   <td align="right">4.62%</td>
-  <td align="right">6.47%</td>
+  <td align="right"><strong>6.47%</strong></td>
   <td align="right">6.23%</td>
   <td align="right">4.13%</td>
   <td align="right">4.27%</td>
   <td align="right">4.42%</td>
+  <td align="right">5.83%</td>
 </tr>
 <tr>
   <td>Ciencias Sociales, Administrativas y Jurídicas</td>
   <td align="right">14,214</td>
   <td align="right">36.57%</td>
   <td align="right">42.14%</td>
-  <td align="right">49.52%</td>
+  <td align="right"><strong>49.52%</strong></td>
   <td align="right">40.73%</td>
   <td align="right">36.19%</td>
   <td align="right">40.90%</td>
   <td align="right">35.65%</td>
+  <td align="right">38.58%</td>
 </tr>
 <tr>
   <td>Ciencias Naturales, Exactas y de la Computación</td>
@@ -318,7 +322,8 @@
   <td align="right">4.00%</td>
   <td align="right">4.01%</td>
   <td align="right">3.98%</td>
-  <td align="right">6.14%</td>
+  <td align="right"><strong>6.14%</strong></td>
+  <td align="right">2.94%</td>
 </tr>
 <tr>
   <td>Ingeniería, Manufactura y Construcción</td>
@@ -327,9 +332,10 @@
   <td align="right">24.63%</td>
   <td align="right">22.88%</td>
   <td align="right">30.61%</td>
-  <td align="right">32.97%</td>
+  <td align="right"><strong>32.97%</strong></td>
   <td align="right">25.15%</td>
   <td align="right">27.44%</td>
+  <td align="right">27.07%</td>
 </tr>
 <tr>
   <td>Salud</td>
@@ -339,8 +345,9 @@
   <td align="right">9.25%</td>
   <td align="right">8.72%</td>
   <td align="right">7.39%</td>
-  <td align="right">10.21%</td>
+  <td align="right"><strong>10.21%</strong></td>
   <td align="right">9.25%</td>
+  <td align="right">11.75%</td>
 </tr>
 <tr>
   <td>Agronomía y Veterinaria</td>
@@ -349,9 +356,10 @@
   <td align="right">2.10%</td>
   <td align="right">1.69%</td>
   <td align="right">1.27%</td>
-  <td align="right">6.31%</td>
+  <td align="right"><strong>6.31%</strong></td>
   <td align="right">0.00%</td>
   <td align="right">1.99%</td>
+  <td align="right">0.00%</td>
 </tr>
 <tr>
   <td>Servicios</td>
@@ -362,11 +370,13 @@
   <td align="right">0.75%</td>
   <td align="right">0.23%</td>
   <td align="right">1.09%</td>
-  <td align="right">2.33%</td>
+  <td align="right"><strong>2.33%</strong></td>
+  <td align="right">1.09%</td>
 </tr>
 <tr>
   <td>Total</td>
   <td align="right">38,867</td>
+  <td align="right"></td>
   <td align="right"></td>
   <td align="right"></td>
   <td align="right"></td>

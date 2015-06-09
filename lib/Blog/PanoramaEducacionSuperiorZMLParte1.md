@@ -53,17 +53,17 @@ Estas diez carreras suman el 48 % de la matrícula en la Z.M.L. A pesar de ser l
 
 ### Tabla 4. Distribución por campos de estudio
 
-Campo de estudios                               |    Z.M.L. |  % Z.M.L. | % Nacional |      León | Querétaro |  Saltillo |    S.L.P. | Chihuahua
-------------------------------------------------|----------:|----------:|-----------:|----------:|----------:|----------:|----------:|----------:
-Educación                                       |     4,267 |    10.98% |      9.97% |     7.61% |     7.71% |     8.77% |    14.40% |    12.76%
-Artes y Humanidades                             |     1,125 |     2.89% |      4.62% |     6.47% |     6.23% |     4.13% |     4.27% |     4.42%
-Ciencias Sociales, Administrativas y Jurídicas  |    14,214 |    36.57% |     42.14% |    49.52% |    40.73% |    36.19% |    40.90% |    35.65%
-Ciencias Naturales, Exactas y de la Computación |     1,633 |     4.20% |      5.92% |     1.32% |     4.00% |     4.01% |     3.98% |     6.14%
-Ingeniería, Manufactura y Construcción          |    11,994 |    30.86% |     24.63% |    22.88% |    30.61% |    32.97% |    25.15% |    27.44%
-Salud                                           |     3,216 |     8.27% |      9.28% |     9.25% |     8.72% |     7.39% |    10.21% |     9.25%
-Agronomía y Veterinaria                         |     2,240 |     5.76% |      2.10% |     1.69% |     1.27% |     6.31% |     0.00% |     1.99%
-Servicios                                       |       178 |     0.46% |      1.33% |     1.27% |     0.75% |     0.23% |     1.09% |     2.33%
-Total                                           |    38,867 |           |            |           |           |           |           |
+Campo de estudios                               |    Z.M.L. |  % Z.M.L. | % Nacional |          León | Querétaro |    Saltillo |      S.L.P. |   Chihuahua | Aguascalientes
+------------------------------------------------|----------:|----------:|-----------:|--------------:|----------:|------------:|------------:|------------:|---------------:
+Educación                                       |     4,267 |    10.98% |      9.97% |       7.61%   |     7.71% |     8.77%   |  **14.40%** |    12.76%   |         12.74%
+Artes y Humanidades                             |     1,125 |     2.89% |      4.62% |     **6.47%** |     6.23% |     4.13%   |     4.27%   |     4.42%   |          5.83%
+Ciencias Sociales, Administrativas y Jurídicas  |    14,214 |    36.57% |     42.14% |    **49.52%** |    40.73% |    36.19%   |    40.90%   |    35.65%   |         38.58%
+Ciencias Naturales, Exactas y de la Computación |     1,633 |     4.20% |      5.92% |       1.32%   |     4.00% |     4.01%   |     3.98%   |   **6.14%** |          2.94%
+Ingeniería, Manufactura y Construcción          |    11,994 |    30.86% |     24.63% |      22.88%   |    30.61% |  **32.97%** |    25.15%   |    27.44%   |         27.07%
+Salud                                           |     3,216 |     8.27% |      9.28% |       9.25%   |     8.72% |     7.39%   |  **10.21%** |     9.25%   |         11.75%
+Agronomía y Veterinaria                         |     2,240 |     5.76% |      2.10% |       1.69%   |     1.27% |   **6.31%** |     0.00%   |     1.99%   |          0.00%
+Servicios                                       |       178 |     0.46% |      1.33% |       1.27%   |     0.75% |     0.23%   |     1.09%   |   **2.33%** |          1.09%
+Total                                           |    38,867 |           |            |               |           |             |             |             |
 
 Analizando por campo amplio del conocimiento, nuestra región está en proporción por encima de la media nacional en Ingenierías y Agronomía, y por debajo en Ciencias Sociales, administrativas y jurídicas, Ciencias exactas, Artes y Humanidades y Servicios, encontrándose a la par de la media en Salud y educación.  En comparación con metrópolis de características industriales similares, la Z.M.L. aventaja en ingenierías, manufactura y construcción a León, Aguascalientes, Chihuahua y San Luis Potosí, estando en niveles muy similares a Querétaro y un poco por debajo de Saltillo.
 

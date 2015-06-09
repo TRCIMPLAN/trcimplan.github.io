@@ -34,7 +34,7 @@ class PanoramaEducacionSuperiorZMLParte1 extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Panorama de la Educación Superior en la Z.M.L. (Parte 1)';
         $this->autor           = 'Lic. Rodrigo González Morales';
-        $this->fecha           = '2015-06-09T15:30';
+        $this->fecha           = '2015-06-09T16:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo         = 'panorama-educacion-superior-zml-parte-1';
         $this->imagen          = 'panorama-educacion-superior-zml-parte-1/imagen.jpg';
