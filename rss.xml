@@ -5,11 +5,239 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 10 Jun 2015 14:55:54 -0500</pubDate>
+    <pubDate>Tue, 16 Jun 2015 15:05:42 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="{self::}/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alumnos por docente, indicador clave para la mejora de la educación (primera parte)</title>
+      <link>http://www.trcimplan.gob.mx/blog/alumnos-por-docente-parte-1.html</link>
+      <guid isPermaLink="false">blog-alumnos-por-docente-parte-1</guid>
+      <pubDate>Tue, 16 Jun 2015 15:00:00 -0500</pubDate>
+      <author>Lic. Luis A. Gutiérrez Arizpe</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/alumnos-por-docente-parte-1/imagen.jpg"><br>
+
+<p>Este indicador nos muestra la cantidad de estudiantes que son atendidos por cada maestro, los datos se refieren a l@s niño@s que cursan la educación primaria (generalmente la población entre 6 y 12 años). Es un referente utilizado a nivel mundial para analizar la situación de la educación y el aprovechamiento de los estudiantes.</p>
+
+<p>La premisa es: a menor cantidad de alumnos que atiende un maestro, mayor calidad. Aunque inciden factores, que analizaremos más adelante, tales como el ámbito en el que se encuentra el plantel y el tipo de sostenimiento.</p>
+
+<p>Se muestran algunas estadísticas publicadas por el Banco Mundial para el ciclo 2005-2013 (lapso de 7 años para fines comparativos) en las cuales podemos observar la cantidad de alumnos que son atendidos por cada maestro en países que son referentes en el tema educativo, la cifra a nivel mundial, nuestro dato nacional, así como datos agrupados de acuerdo al nivel económico de los países, es decir, promedios de países agrupados en <em>países de ingreso alto y países de ingreso medio y bajo.</em></p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/alumnos-por-docente-parte-1/proporcion-alumnos-maestro-nivel-primario.jpg" alt="Proporción de alumnos por maestro en nivel primario"></p>
+
+<p>http://datos.bancomundial.org/indicador/SE.PRM.ENRL.TC.ZS/countries/1W-MX-FI-KR-XD?display=graph</p>
+
+<h3>Alumnos por docente en México y el mundo</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>País</th>
+  <th align="right">2005</th>
+  <th align="right">2012</th>
+  <th align="right">Variación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>México</td>
+  <td align="right">28.3</td>
+  <td align="right">28.0</td>
+  <td align="right">1.0%</td>
+</tr>
+<tr>
+  <td>Finlandia</td>
+  <td align="right">15.5</td>
+  <td align="right">13.6</td>
+  <td align="right">12.3%</td>
+</tr>
+<tr>
+  <td>Corea del Sur</td>
+  <td align="right">27.9</td>
+  <td align="right">17.9</td>
+  <td align="right">35.8%</td>
+</tr>
+<tr>
+  <td>Mundo</td>
+  <td align="right">25.2</td>
+  <td align="right">24.2</td>
+  <td align="right">4.0%</td>
+</tr>
+<tr>
+  <td>Países ingreso alto</td>
+  <td align="right">15.1</td>
+  <td align="right">14.5</td>
+  <td align="right">4.0%</td>
+</tr>
+<tr>
+  <td>Países ingresos medios y bajos</td>
+  <td align="right">27.8</td>
+  <td align="right">26.5</td>
+  <td align="right">4.7%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Acorde a estos datos, el indicador no ha tenido avance en el país. Ha reducido el número de alumnos por maestro un 1% en 7 años. Comparándolo con Corea del Sur, éste país en el mismo lapso de tiempo, mejoró su indicador en un 35.8% y Finlandia en 12.3%.</p>
+
+<p>Si bien son países con mayores recursos invertidos para la educación, debemos de observar el comportamiento de los países agrupados como “de ingresos medios y bajos” en donde se encuentra México. Estos países han reducido su número de alumnos por maestro en 4.7%, es decir, a pesar de que la cifra de nuestro país se encuentra contemplada para la ecuación de este grupo de países, este conglomerado <strong>disminuyó casi 5 veces lo que México.</strong></p>
+
+<p>Enfocando este indicador a nivel nacional, con datos de la Secretaria de Educación Publica, podemos observar el siguiente comportamiento que respalda la fluctuación de la estadística citada por el Banco Mundial:</p>
+
+<h3>Alumnos por docente en Coahuila y Durango</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Estado/Región/Pais</th>
+  <th align="right">2006</th>
+  <th align="right">2013</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>México (nacional)</td>
+  <td align="right">23</td>
+  <td align="right">22</td>
+</tr>
+<tr>
+  <td>Coahuila</td>
+  <td align="right">23</td>
+  <td align="right">23</td>
+</tr>
+<tr>
+  <td>Durango</td>
+  <td align="right">19</td>
+  <td align="right">19</td>
+</tr>
+</tbody>
+</table>
+
+<p>Fuente: http://planeacion.sep.gob.mx/</p>
+
+<p>No ha habido una disminución significativa observándolo en un lapso de 7 años.</p>
+
+<h3>Mejora tu Escuela, ranking de mejores escuelas de México</h3>
+
+<p>Mejora tu escuela es un proyecto elaborado por el Instituto Mexicano para la Competitividad en el cual, basándose en los resultados de la prueba ENLACE, genera un semáforo educativo. A continuación se muestran el ranking a nivel nacional de las escuelas que presentaron la prueba y el indicador de alumnos por maestro:</p>
+
+<h3>Top 10 Mejora tu Escuela en México 2013-2014</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">Posición</th>
+  <th>Mantenimiento</th>
+  <th>Ubicación</th>
+  <th>Nombre</th>
+  <th align="right">Alumnos por docente</th>
+  <th>Ámbito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right"><strong>1</strong></td>
+  <td><strong>Privado</strong></td>
+  <td><strong>DF</strong></td>
+  <td><strong>Niños de México</strong></td>
+  <td align="right"><strong>34.280</strong></td>
+  <td><strong>urbano</strong></td>
+</tr>
+<tr>
+  <td align="right">2</td>
+  <td>Público</td>
+  <td>Guerrero</td>
+  <td>Lázaro Cárdenas</td>
+  <td align="right">11.000</td>
+  <td>rural</td>
+</tr>
+<tr>
+  <td align="right"><strong>3</strong></td>
+  <td><strong>Privado</strong></td>
+  <td><strong>Tabasco</strong></td>
+  <td><strong>Atenea</strong></td>
+  <td align="right"><strong>27.500</strong></td>
+  <td><strong>urbano</strong></td>
+</tr>
+<tr>
+  <td align="right">4</td>
+  <td>Público</td>
+  <td>Chiapas</td>
+  <td>Primaria comunitaria José María Luis Mora</td>
+  <td align="right">19.000</td>
+  <td>rural</td>
+</tr>
+<tr>
+  <td align="right">5</td>
+  <td>Público</td>
+  <td>Yucatán</td>
+  <td>Benito JuárezGarcía</td>
+  <td align="right">24.500</td>
+  <td>rural</td>
+</tr>
+<tr>
+  <td align="right">6</td>
+  <td>Público</td>
+  <td>Durango</td>
+  <td>20 de noviembre</td>
+  <td align="right">10.000</td>
+  <td>rural</td>
+</tr>
+<tr>
+  <td align="right">7</td>
+  <td>Publico</td>
+  <td>Michoacán</td>
+  <td>Fco. J. Mujica</td>
+  <td align="right">11.000</td>
+  <td>rural</td>
+</tr>
+<tr>
+  <td align="right"><strong>8</strong></td>
+  <td><strong>Privado</strong></td>
+  <td><strong>Jalisco</strong></td>
+  <td><strong>Gustavo A. Bequer</strong></td>
+  <td align="right"><strong>8.300</strong></td>
+  <td><strong>urbano</strong></td>
+</tr>
+<tr>
+  <td align="right">9</td>
+  <td>Público</td>
+  <td>Hidalgo</td>
+  <td>I. Zaragoza</td>
+  <td align="right">20.500</td>
+  <td>rural</td>
+</tr>
+<tr>
+  <td align="right">10</td>
+  <td>Público</td>
+  <td>Veracruz</td>
+  <td>Mi Patria es Primero</td>
+  <td align="right">18.000</td>
+  <td>rural</td>
+</tr>
+<tr>
+  <td align="right"></td>
+  <td></td>
+  <td></td>
+  <td><strong>Promedio de alumnos por docentes</strong></td>
+  <td align="right"><strong>18.408</strong></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+
+<p>El 70% de las escuelas son de mantenimiento público, de lo cual podemos destacar el dato del indicador, es bajo. La cifra más alta la aporta la escuela de Guerrero y Michoacán, con 11 alumnos por maestro y en estas dos escuelas coincide en que es el total de alumnos matriculados en todos los grados y son atendidos por un único maestro, situación que generalmente se presenta en el ámbito rural.</p>
+
+<p>El restante 30% son representadas por escuelas privadas, del ámbito urbano y, a excepción de Tabasco, son ubicadas en ciudades densamente pobladas: Distrito Federal y Guadalajara.</p>
+
+<p>La escuela Niños de México, ubicada en D.F., es la que mejores resultados presentó en la prueba, y su indicador muestra 34 alumnos por maestro. La escuela Bequer de Guadalajara, fue el octavo lugar, con un número de alumnos por maestro bajo: <strong>8.3.</strong></p>
+
+<p>Cabe destacar que en los datos que hemos analizado en el ámbito privado, el sistema educativo puede variar, por ejemplo, las escuelas con sistemas de los denominados Montessori se basan en la premisa citada al principio del artículo, “menos alumnos por maestro, mejora la educación”</p>
+
+<p>El promedio que marca el indicador de las escuelas top 10 de México es de <strong>18.4 alumnos por maestro.</strong> Ligeramente superior al que se maneja en Corea del Sur, que es de 17.9 y por encima del promedio de los países con ingresos medios y bajos que es de 26.7 en 2012, lo cual puede indicar que efectivamente a menos alumnos por maestro mejor calidad educativa.</p>
+]]></description>
+    </item>
     <item>
       <title>#Camina La Roma por buenos diseños peatonales</title>
       <link>http://www.trcimplan.gob.mx/blog/camina-la-roma-por-buenos-disenos-peatonales.html</link>
@@ -875,39 +1103,6 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
           <tr>
             <td>01/07/2014</td>
             <td>12.7000</td>
-            <td>SEP</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Personas.</p>
-      <h3>Observaciones</h3>
-<p>Consulta la <a href="http://planeacion.sep.gob.mx/principalescifras/">Base de Datos</a></p>
-]]></description>
-    </item>
-    <item>
-      <title>Alumnos de Primaria por Docente en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-de-primaria-por-docente.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-de-primaria-por-docente</guid>
-      <pubDate>Thu, 21 May 2015 14:18:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>01/07/2014</td>
-            <td>29.5000</td>
             <td>SEP</td>
             <td></td>
           </tr>
