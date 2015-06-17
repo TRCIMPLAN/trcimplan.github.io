@@ -1,0 +1,39 @@
+<Composer title="ImpresiónPob0a2" visible="1">
+ <Composition gridVisible="0" printResolution="300" paperWidth="279.4" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="215.9" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+  <symbol alpha="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+  <SnapLine y1="9.899" x1="0" y2="9.899" x2="279.4"/>
+  <SnapLine y1="0" x1="9.899" y2="215.9" x2="9.899"/>
+  <SnapLine y1="0" x1="269.839" y2="215.9" x2="269.839"/>
+  <SnapLine y1="205.679" x1="0" y2="205.679" x2="279.4"/>
+  <SnapLine y1="39.9626" x1="0" y2="39.9626" x2="279.4"/>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="TEXTO" htmlState="0" halign="2">
+   <LabelFont description="Droid Sans,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="9.899" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="168.65" y="9.899" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="101.19" outlineWidth="0.3" excludeFromExports="0" uuid="{d62be74b-974c-4177-8be0-4b43e7022a72}" height="21.2645" itemRotation="0" frame="false" pagex="168.65">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="149.585" file="/home/guivaloz/Documentos/TrcIMPLAN/GitHub/trcimplan.github.io/imagenes/implan-transparente-gris.png" pictureHeight="20.007" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="9.899" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="9.899" y="9.899" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="149.585" outlineWidth="0.3" excludeFromExports="0" uuid="{7ca9f41a-c0cb-441a-b7f9-9d3ebc922802}" height="24.1976" itemRotation="0" frame="false" pagex="9.899">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+   </ComposerItem>
+  </ComposerPicture>
+ </Composition>
+</Composer>

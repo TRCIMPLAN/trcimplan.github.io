@@ -7,7 +7,7 @@ Se muestran algunas estadísticas publicadas por el Banco Mundial para el ciclo 
 
 <img class="img-responsive" src="alumnos-por-docente-parte-1/proporcion-alumnos-maestro-nivel-primario.jpg" alt="Proporción de alumnos por maestro en nivel primario">
 
-http://datos.bancomundial.org/indicador/SE.PRM.ENRL.TC.ZS/countries/1W-MX-FI-KR-XD?display=graph
+Vínculo: [Proporción alumnos-maestro, nivel primario. Banco Mundial 2013](http://datos.bancomundial.org/indicador/SE.PRM.ENRL.TC.ZS/countries/1W-MX-FI-KR-XD?display=graph)
 
 ### Alumnos por docente en México y el mundo
 

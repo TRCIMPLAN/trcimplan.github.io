@@ -26,10 +26,8 @@ Arq. Jair Miramontes Chávez              | Sistemas de Información Geográfica
 Arq. Teresita de Jesús Benítez Saludado  | Estudios Sectoriales
 Arq. Daniela Patricia Corral Hernández   | Analista SIG
 Arq. Cecilio Pedro Secunza Schott        | Regeneración Urbana
-Lic. Víctor Núñez de la Cruz             | Actualización de Planes
 **Arq. María Ilse Leticia Ávila García** | **Director de Proyectos Estratégicos**
 Arq. Ángeles Melisa Rodríguez Salas      | Analista de Costos
 Arq. María Susana Montano García         | Integración de Proyectos
-Arq. Luly Victoria Aranzábal Estrada     | Integración de Proyectos
 Lic. Hugo Elohím Ramírez Martínez        | Gestión y Difusión Social
 Lic. Israel Sinai Charur Méndez          | Difusión y Diseño Gráfico

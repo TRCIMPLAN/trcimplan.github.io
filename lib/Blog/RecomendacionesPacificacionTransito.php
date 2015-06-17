@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Alumnos por docente, indicador clave para la mejora de la educación (primera parte)
+ * TrcIMPLAN - Recomendaciones para la Pacificación del Tránsito
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -24,26 +24,26 @@
 namespace Blog;
 
 /**
- * Clase AlumnosPorDocenteParte1
+ * Clase RecomendacionesPacificacionTransito
  */
-class AlumnosPorDocenteParte1 extends \Base\Publicacion {
+class RecomendacionesPacificacionTransito extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Alumnos por docente, indicador clave para la mejora de la educación (primera parte)';
-        $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha            = '2015-06-16T15:00';
+        $this->nombre           = 'Recomendaciones para la Pacificación del Tránsito';
+        $this->autor            = 'Arq. Ángeles Melisa Rodríguez Salas';
+        $this->fecha            = '2015-06-17T16:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = 'alumnos-por-docente-parte-1';
-        $this->imagen           = 'alumnos-por-docente-parte-1/imagen.jpg';
-        $this->imagen_previa    = 'alumnos-por-docente-parte-1/imagen-previa.jpg';
+        $this->archivo          = 'recomendaciones-pacificacion-transito';
+        $this->imagen           = 'recomendaciones-pacificacion-transito/imagen.jpg';
+        $this->imagen_previa    = 'recomendaciones-pacificacion-transito/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'Estudio sobre si debe considerarse la cantidad de alumnos por profesor como un factor en la mejora educativa.';
+        $this->descripcion      = 'Técnicas para bajar la velocidad de los vehículos motorizados, logrando mejorar la seguridad de los peatones, incrementar las ventas y hacer de las calles céntricas espacios sociales y culturales.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Competitividad', 'Educación');
+        $this->categorias       = array('Movilidad', 'Vialidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio       = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -62,7 +62,7 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
         $schema->author         = $this->autor;
      // $schema->headline_style = $this->encabezado_color;
      // $schema->headline_icon  = $this->nombre_menu;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/AlumnosPorDocenteParte1.md');
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/RecomendacionesPacificacionTransito.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
         // Sin JavaScript
@@ -75,6 +75,6 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
         }
     } // constructor
 
-} // Clase AlumnosPorDocenteParte1
+} // Clase RecomendacionesPacificacionTransito
 
 ?>

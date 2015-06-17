@@ -42,7 +42,7 @@ class FranciscoIMaderoEjemploRescateEspacioPublico extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'El Corredor Peatonal Madero ha motivado el crecimiento comercial y favorecido la conservación sus edificios históricos, en lo que hoy es una calle sólo para transeúntes.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Blog');
+        $this->categorias       = array('Movilidad', 'Vialidad');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
