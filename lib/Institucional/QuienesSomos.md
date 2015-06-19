@@ -14,7 +14,7 @@ Lic. Felipe de Jesús Medina Delgado      | Coordinador Jurídico
 Lic. Mariana Segovia Mota                | Coordinador Administrativo
 Lic. Irma Judith Ramírez Machain         | Contadora
 Lic. Janeth Ramírez Facio                | Auxiliar Administrativo
-Ing. Víctor Manuel Gómez Raynoso         | Soporte Técnico
+Ing. Víctor Manuel Gómez Reynoso         | Soporte Técnico
 Sra. Olga Lidia Delgado Ramírez          | Servicios de Limpieza
 **Lic. Rodrigo González Morales**        | **Director de Investigación Estratégica**
 Ing. Guillermo Valdés Lozano             | Programación y Software
