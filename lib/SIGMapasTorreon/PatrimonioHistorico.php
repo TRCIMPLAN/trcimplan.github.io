@@ -34,13 +34,13 @@ class PatrimonioHistorico extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre             = 'Patrimonio Histórico';
         $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha              = '2015-06-22T14:40';
+        $this->fecha              = '2015-06-22T15:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo            = 'patrimonio-historico';
         $this->imagen             = 'patrimonio-historico/imagen.jpg';
         $this->imagen_previa      = 'patrimonio-historico/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Pendiente.';
+        $this->descripcion        = 'Ubicación de las edificaciones consideradas como patrimonios históricos por el I.N.B.A. y el I.N.A.H.';
         $this->claves             = 'IMPLAN, Torreon, Cultura, Patrimonio, Historia';
         $this->categorias         = array('Cultura');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML

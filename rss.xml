@@ -5,7 +5,7 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Mon, 22 Jun 2015 14:58:10 -0500</pubDate>
+    <pubDate>Mon, 22 Jun 2015 15:02:19 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -14,11 +14,11 @@
       <title>Patrimonio Histórico</title>
       <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/patrimonio-historico.html</link>
       <guid isPermaLink="false">sig-mapas-torreon-patrimonio-historico</guid>
-      <pubDate>Mon, 22 Jun 2015 14:40:00 -0500</pubDate>
+      <pubDate>Mon, 22 Jun 2015 15:00:00 -0500</pubDate>
       <author>Arq. Daniela Patricia Corral Hernández</author>
       <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/patrimonio-historico.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/patrimonio-historico/imagen.jpg"><br>
 
-Pendiente.</a>]]></description>
+Ubicación de las edificaciones consideradas como patrimonios históricos por el I.N.B.A. y el I.N.A.H.</a>]]></description>
     </item>
     <item>
       <title>Recomendaciones para la Pacificación del Tránsito</title>
@@ -758,9 +758,9 @@ Pendiente.</a>]]></description>
 ]]></description>
     </item>
     <item>
-      <title>Delitos Patrimoniales en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-delitos-patrimoniales.html</link>
-      <guid isPermaLink="false">indicadores-torreon-seguridad-delitos-patrimoniales</guid>
+      <title>Delitos Patrimoniales en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos-patrimoniales.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-seguridad-delitos-patrimoniales</guid>
       <pubDate>Thu, 04 Jun 2015 11:25:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -779,25 +779,25 @@ Pendiente.</a>]]></description>
         <tbody>
           <tr>
             <td>31/01/2015</td>
-            <td>120</td>
+            <td>8</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>28/02/2015</td>
-            <td>111</td>
+            <td>9</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>31/03/2015</td>
-            <td>115</td>
+            <td>7</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>30/04/2015</td>
-            <td>167</td>
+            <td>16</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
