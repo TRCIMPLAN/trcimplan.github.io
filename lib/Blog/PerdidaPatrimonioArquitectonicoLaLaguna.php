@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Alumnos por docente, indicador clave para la mejora de la educación (primera parte)
+ * TrcIMPLAN - Pérdida de patrimonio Arquitectónico en La Laguna
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,33 +17,32 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package
+ * @package TrcIMPLAN
  */
 
-// Namespace
 namespace Blog;
 
 /**
- * Clase AlumnosPorDocenteParte1
+ * Clase PerdidaPatrimonioArquitectonicoLaLaguna
  */
-class AlumnosPorDocenteParte1 extends \Base\Publicacion {
+class PerdidaPatrimonioArquitectonicoLaLaguna extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Alumnos por docente, indicador clave para la mejora de la educación (parte 1)';
-        $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha            = '2015-06-16T15:00';
+        $this->nombre           = 'Pérdida de patrimonio Arquitectónico en La Laguna';
+        $this->autor            = 'Arq. Daniela Patricia Corral Hernández';
+        $this->fecha            = '2015-06-23T13:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = 'alumnos-por-docente-parte-1';
-        $this->imagen           = 'alumnos-por-docente-parte-1/imagen.jpg';
-        $this->imagen_previa    = 'alumnos-por-docente-parte-1/imagen-previa.jpg';
+        $this->archivo          = 'perdida-patrimonio-arquitectonico-la-laguna';
+        $this->imagen           = 'perdida-patrimonio-arquitectonico-la-laguna/imagen.jpg';
+        $this->imagen_previa    = 'perdida-patrimonio-arquitectonico-la-laguna/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'Estudio sobre si debe considerarse la cantidad de alumnos por profesor como un factor en la mejora educativa.';
-        $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Competitividad', 'Educación');
+        $this->descripcion      = 'La conservación de las construcciones históricas es responsabilidad de todos. La pérdida y deterioro de estos inmuebles repercute en la identidad y el legado que dejaremos a las siguientes generaciones.';
+        $this->claves           = 'IMPLAN, Torreon, Patrimonio, Arquitectonico';
+        $this->categorias       = array('Cultura');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio       = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -62,7 +61,7 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
         $schema->author         = $this->autor;
      // $schema->headline_style = $this->encabezado_color;
      // $schema->headline_icon  = $this->nombre_menu;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/AlumnosPorDocenteParte1.md');
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/PerdidaPatrimonioArquitectonicoLaLaguna.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
         // Sin JavaScript
@@ -75,6 +74,6 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
         }
     } // constructor
 
-} // Clase AlumnosPorDocenteParte1
+} // Clase PerdidaPatrimonioArquitectonicoLaLaguna
 
 ?>
