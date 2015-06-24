@@ -132,7 +132,7 @@ class SociedadUniversidades extends \Base\Publicacion {
 <li>Universidad Autónoma de Durango Campus Torreón</li>
 <li>Instituto Ma Esther Zuno de Echeverría</li>
 <li>Instituto de Estudios Superiores y Educación Normal Gral. Lázaro Cárdenas</li>
-<li>Instituto Tecnológico de Lerdo</li>
+<li>Universidad Tecnológica de La Laguna Durango</li>
 <li>Universidad Pedagógica de Durango-UGP</li>
 </ul>
 
@@ -640,7 +640,7 @@ FINAL;
 <li>Universidad Autónoma de Durango Campus Torreón</li>
 <li>Instituto Ma Esther Zuno de Echeverría</li>
 <li>Instituto de Estudios Superiores y Educación Normal Gral. Lázaro Cárdenas</li>
-<li>Instituto Tecnológico de Lerdo</li>
+<li>Universidad Tecnológica de La Laguna Durango</li>
 <li>Universidad Pedagógica de Durango-UGP</li>
 </ul>
 

@@ -186,6 +186,12 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/05/2015</td>
+            <td>26</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -211,36 +217,36 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-04-30</td>
-            <td>63</td>
+            <td>2015-05-31</td>
+            <td>64</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-04-30</td>
-            <td>34</td>
+            <td>2015-05-31</td>
+            <td>26</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-04-30</td>
-            <td>9</td>
+            <td>2015-05-31</td>
+            <td>11</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-04-30</td>
-            <td>4</td>
+            <td>2015-05-31</td>
+            <td>3</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-04-30</td>
-            <td>110</td>
+            <td>2015-05-31</td>
+            <td>104</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -844,7 +850,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 26 },{ fecha: '2014-02-28', dato: 24 },{ fecha: '2014-03-31', dato: 28 },{ fecha: '2014-04-30', dato: 22 },{ fecha: '2014-05-31', dato: 25 },{ fecha: '2014-06-30', dato: 18 },{ fecha: '2014-07-31', dato: 30 },{ fecha: '2014-08-31', dato: 29 },{ fecha: '2014-09-30', dato: 28 },{ fecha: '2014-10-31', dato: 25 },{ fecha: '2014-11-30', dato: 26 },{ fecha: '2014-12-31', dato: 26 },{ fecha: '2015-01-31', dato: 31 },{ fecha: '2015-02-28', dato: 27 },{ fecha: '2015-03-31', dato: 22 },{ fecha: '2015-04-30', dato: 34 }],
+      data: [{ fecha: '2014-01-31', dato: 26 },{ fecha: '2014-02-28', dato: 24 },{ fecha: '2014-03-31', dato: 28 },{ fecha: '2014-04-30', dato: 22 },{ fecha: '2014-05-31', dato: 25 },{ fecha: '2014-06-30', dato: 18 },{ fecha: '2014-07-31', dato: 30 },{ fecha: '2014-08-31', dato: 29 },{ fecha: '2014-09-30', dato: 28 },{ fecha: '2014-10-31', dato: 25 },{ fecha: '2014-11-30', dato: 26 },{ fecha: '2014-12-31', dato: 26 },{ fecha: '2015-01-31', dato: 31 },{ fecha: '2015-02-28', dato: 27 },{ fecha: '2015-03-31', dato: 22 },{ fecha: '2015-04-30', dato: 34 },{ fecha: '2015-05-31', dato: 26 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -860,7 +866,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 63 },{ region: 'Gómez Palacio', dato: 34 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 4 },{ region: 'La Laguna', dato: 110 }],
+      data: [{ region: 'Torreón', dato: 64 },{ region: 'Gómez Palacio', dato: 26 },{ region: 'Lerdo', dato: 11 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 104 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -982,6 +988,12 @@ FINAL;
           <tr>
             <td>30/04/2015</td>
             <td>34</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/05/2015</td>
+            <td>26</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>

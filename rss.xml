@@ -5,7 +5,7 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 23 Jun 2015 13:41:06 -0500</pubDate>
+    <pubDate>Wed, 24 Jun 2015 12:45:15 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -813,9 +813,9 @@ Ubicación de las edificaciones consideradas como patrimonios históricos por el
 ]]></description>
     </item>
     <item>
-      <title>Delitos Patrimoniales en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos-patrimoniales.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-seguridad-delitos-patrimoniales</guid>
+      <title>Delitos Patrimoniales en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-delitos-patrimoniales.html</link>
+      <guid isPermaLink="false">indicadores-torreon-seguridad-delitos-patrimoniales</guid>
       <pubDate>Thu, 04 Jun 2015 11:25:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -834,25 +834,31 @@ Ubicación de las edificaciones consideradas como patrimonios históricos por el
         <tbody>
           <tr>
             <td>31/01/2015</td>
-            <td>8</td>
+            <td>120</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>28/02/2015</td>
-            <td>9</td>
+            <td>111</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>31/03/2015</td>
-            <td>7</td>
+            <td>115</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>30/04/2015</td>
-            <td>16</td>
+            <td>167</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/05/2015</td>
+            <td>134</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>

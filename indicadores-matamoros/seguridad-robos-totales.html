@@ -291,6 +291,12 @@
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/05/2015</td>
+            <td>24</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -316,36 +322,36 @@
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-04-30</td>
-            <td>345</td>
+            <td>2015-05-31</td>
+            <td>261</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-04-30</td>
-            <td>295</td>
+            <td>2015-05-31</td>
+            <td>227</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-04-30</td>
-            <td>29</td>
+            <td>2015-05-31</td>
+            <td>51</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-04-30</td>
-            <td>27</td>
+            <td>2015-05-31</td>
+            <td>24</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-04-30</td>
-            <td>696</td>
+            <td>2015-05-31</td>
+            <td>563</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -1001,7 +1007,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 27 },{ fecha: '2014-02-28', dato: 32 },{ fecha: '2014-03-31', dato: 31 },{ fecha: '2014-04-30', dato: 26 },{ fecha: '2014-05-31', dato: 32 },{ fecha: '2014-06-30', dato: 20 },{ fecha: '2014-07-31', dato: 35 },{ fecha: '2014-08-31', dato: 33 },{ fecha: '2014-09-30', dato: 26 },{ fecha: '2014-10-31', dato: 35 },{ fecha: '2014-11-30', dato: 31 },{ fecha: '2014-12-31', dato: 25 },{ fecha: '2015-01-31', dato: 22 },{ fecha: '2015-02-28', dato: 26 },{ fecha: '2015-03-31', dato: 25 },{ fecha: '2015-04-30', dato: 27 }],
+      data: [{ fecha: '2014-01-31', dato: 27 },{ fecha: '2014-02-28', dato: 32 },{ fecha: '2014-03-31', dato: 31 },{ fecha: '2014-04-30', dato: 26 },{ fecha: '2014-05-31', dato: 32 },{ fecha: '2014-06-30', dato: 20 },{ fecha: '2014-07-31', dato: 35 },{ fecha: '2014-08-31', dato: 33 },{ fecha: '2014-09-30', dato: 26 },{ fecha: '2014-10-31', dato: 35 },{ fecha: '2014-11-30', dato: 31 },{ fecha: '2014-12-31', dato: 25 },{ fecha: '2015-01-31', dato: 22 },{ fecha: '2015-02-28', dato: 26 },{ fecha: '2015-03-31', dato: 25 },{ fecha: '2015-04-30', dato: 27 },{ fecha: '2015-05-31', dato: 24 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -1017,7 +1023,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 345 },{ region: 'Gómez Palacio', dato: 295 },{ region: 'Lerdo', dato: 29 },{ region: 'Matamoros', dato: 27 },{ region: 'La Laguna', dato: 696 }],
+      data: [{ region: 'Torreón', dato: 261 },{ region: 'Gómez Palacio', dato: 227 },{ region: 'Lerdo', dato: 51 },{ region: 'Matamoros', dato: 24 },{ region: 'La Laguna', dato: 563 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
