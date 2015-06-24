@@ -162,7 +162,7 @@ class SeguridadTasaDeSecuestro extends \Base\Publicacion {
           <tr>
             <td>Durango</td>
             <td>2015-04-30</td>
-            <td>NO TIENE</td>
+            <td>NO DISPONIBLE</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>

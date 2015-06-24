@@ -200,6 +200,12 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>24/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/evolucion-del-mercado-hipotecario-en-torreon.html">Evolución del Mercado Hipotecario en Torreón</a></td>
+            <td>La vivienda es una buena parte de la inversión y puede ser el mayor componente de la riqueza. El buen funcionamiento del mercado inmobiliario es clave para la salud de la economía.</td>
+          </tr>
+          <tr>
             <td>25/05/2015</td>
             <td>Proyecto</td>
             <td><a href="../proyectos/salud-laguna.html">Salud Laguna</a></td>

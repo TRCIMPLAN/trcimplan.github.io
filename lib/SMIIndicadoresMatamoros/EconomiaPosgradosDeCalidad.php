@@ -168,6 +168,18 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>16/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/alumnos-por-docente-parte-1.html">Alumnos por docente, indicador clave para la mejora de la educación (parte 1)</a></td>
+            <td>Estudio sobre si debe considerarse la cantidad de alumnos por profesor como un factor en la mejora educativa.</td>
+          </tr>
+          <tr>
+            <td>09/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/panorama-educacion-superior-zml-parte-1.html">Panorama de la Educación Superior en la Z.M.L. (parte 1)</a></td>
+            <td>Al comparar la Zona Metropolitana de La Laguna (Z.M.L.) con datos nacionales se tienen más alumnos en carreras de Ingenerías y de Agronomía.</td>
+          </tr>
+          <tr>
             <td>03/06/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/experiencias-sobre-datos-abiertos-en-mexico.html">Experiencias sobre Datos Abiertos en México</a></td>
