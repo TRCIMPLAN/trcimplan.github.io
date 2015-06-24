@@ -5,13 +5,56 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 24 Jun 2015 12:45:15 -0500</pubDate>
+    <pubDate>Wed, 24 Jun 2015 14:15:07 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="{self::}/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pérdida de patrimonio Arquitectónico en La Laguna</title>
+      <title>Evolución del Mercado Hipotecario en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon.html</link>
+      <guid isPermaLink="false">blog-evolucion-del-mercado-hipotecario-en-torreon</guid>
+      <pubDate>Wed, 24 Jun 2015 14:10:00 -0500</pubDate>
+      <author>Lic. Alicia Valdez Ibarra</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon/imagen.jpg"><br>
+
+<p>Durante el último año, medido de abril de 2014 a abril de 2015, el crecimiento anual del mercado hipotecario en el municipio de Torreón fue de 6.49%, mientras la zona metropolitana de La Laguna creció en promedio 7.23%. Tasas muy superiores al promedio nacional de 3.00%.</p>
+
+<p>Tan solo en el primer cuatrimestre de 2015 los créditos hipotecarios en Torreón aumentaron a una tasa de 1.42%. La gran mayoría de los créditos otorgados fue para la adquisición de viviendas nuevas, aunque los créditos con mayor aumento fueron los otorgados para la adquisición de viviendas usadas, con un incremento de 3.98%.</p>
+
+<div style="clear:left;"></div>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon/01-creditos-hipotecarios-en-torreon.png" alt="Creditos Hipotecarios en Torreon"> Fuente: Elaboración propia con datos de la Comisión Nacional Bancaria y de Valores (CNBV).<br>Nota: La gráfica no incluye los créditos a exempleados de los grupos financieros.</p>
+
+<p>En otras ciudades de la República Mexicana el mercado hipotecario tuvo un crecimiento similar, a excepción de Monterrey, donde el portafolio total de créditos hipotecarios disminuyó. Hermosillo y Chihuahua aumentaron su mercado aunque a una tasa considerablemente menor.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon/02-crecimiento-anual-del-mercado-hipotecario.png" alt="Crecimiento Anual del Mercado Hipotecario"> Fuente: Elaboración propia con datos de la Comisión Nacional Bancaria y de Valores (CNBV).</p>
+
+<h3>Importancia del mercado inmobiliario</h3>
+
+<p>El buen funcionamiento del mercado inmobiliario es clave para la salud de la economía. La vivienda no es solamente una necesidad básica, sino una parte importante de la inversión y en muchos casos el mayor componente de la riqueza: los hogares concentran la mayoría de su capital en sus bienes inmuebles. El mercado inmobiliario participa también en la transmisión de la política monetaria, facilita la movilidad social y territorial, además de ayudar a las economías a adaptarse a los shocks (Min Zhu, 2014).</p>
+
+<p>Vigilar el crecimiento del crédito es de particular importancia para organismos internacionales como el Fondo Monetario Internacional (FMI), ya que es clave en la identificación de ciclos de auge y caída del mercado hipotecario, fenómeno que ligado al apalancamiento y la exposición de hogares provoca crisis en la economía real.</p>
+
+<p>El hecho de que en nuestra región el crédito crezca a una tasa más alta que la nacional es una señal de desarrollo económico, pues los mercados inmobiliarios crecen a medida que las economías se desarrollan. Sin embargo, debemos analizar también indicadores como los días de atraso y las probabilidades de impago para darnos una idea más clara de la situación.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon/03-dias-de-atraso-en-el-pago.png" alt="Dias de Atraso en el Pago"> Fuente: Elaboración propia con datos de la Comisión Nacional Bancaria y de Valores (CNBV).<br>Nota: Al mes de abril de 2015.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon/04-probabilidad-de-inclumpimiento.png" alt="Probabilidad de Incumplimiento"> Fuente: Elaboración propia con datos de la Comisión Nacional Bancaria y de Valores (CNBV).<br>Nota: Al mes de abril de 2015</p>
+
+<p>En estos indicadores, tanto Torreón como La Laguna se encuentran lejos de la media nacional, ya que mientras la probabilidad de incumplimiento del municipio de Torreón es de 8.9%, el promedio nacional es de 7.87%. Además, los laguneros se atrasan en promedio 27 días en los pagos de sus hipotecas mientras los mexicanos en promedio se atrasan 14.</p>
+
+<p>Los resultados negativos en la probabilidad de incumplimiento y el atraso en los pagos puede ser causa de la disminución de poder adquisitivo provocado por un mínimo crecimiento en los salarios de este año sumado a la inflación interanual de 3.48% en abril de 2015, sin mencionar la falta de planeación financiera. Sin embargo, el aumento en los créditos hipotecarios en el municipio de Torreón empata con el aumento en el dinamismo de su economía durante el 2014 y el <a href="http://www.trcimplan.gob.mx/blog/indicadores-economicos-primer-trimestre-2015-torreon.html">primer trimestre de 2015</a>, en el cual se crearon 2,419 empleos formales y se abrieron 544 nuevas empresas. Esto muestra que a pesar de variables afectadas por características de la economía nacional como el aumento en los precios y el poco crecimiento de los salarios, la economía del municipio y su zona metropolitana está evolucionando.</p>
+
+<h3>Fuentes</h3>
+
+<ul>
+<li>Zhu, M. (2014). Los mercados inmobiliarios, la estabilidad financiera y la economía. En <a href="http://www.imf.org/external/spanish/np/speeches/2014/060514s.htm">Fondo Monetario Internacional. Obtenido el 21 de junio de 2014</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>Pérdida de Patrimonio Arquitectónico en La Laguna</title>
       <link>http://www.trcimplan.gob.mx/blog/perdida-patrimonio-arquitectonico-la-laguna.html</link>
       <guid isPermaLink="false">blog-perdida-patrimonio-arquitectonico-la-laguna</guid>
       <pubDate>Tue, 23 Jun 2015 13:00:00 -0500</pubDate>
@@ -1076,55 +1119,6 @@ Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de
 <li><a href="http://cdigital.dgb.uanl.mx/la/1080097343/1080097343_MA.PDF">Historia y Descripción del Ferrocarril Central Mexicano, Lic. Juan de la Torre, México, mayo 1888 - Archivo PDF 20 MB</a></li>
 <li><a href="http://www.torreonhistoria.galeon.com/aficiones1001256.html">Historia de Torreón</a></li>
 </ol>
-]]></description>
-    </item>
-    <item>
-      <title>Zona Metropolitana de La Laguna</title>
-      <link>http://www.trcimplan.gob.mx/blog/zona-metropolitana-laguna.html</link>
-      <guid isPermaLink="false">blog-zona-metropolitana-laguna</guid>
-      <pubDate>Tue, 26 May 2015 13:20:00 -0500</pubDate>
-      <author>Arq. Teresita Benítez Saludado</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/zona-metropolitana-laguna/imagen.jpg"><br>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/zona-metropolitana-laguna/mapa-zona-metropolitana-laguna.jpg" alt="Mapa Zona Metropolitana de La Laguna"></p>
-
-<blockquote>
-  <p><strong>METROPOLI: “Ciudad principal, cabeza de la provincia o Estado”</strong></p>
-  
-  <p><strong>La METROPOLIZACIÓN es el proceso de crear METROPOLIS.</strong></p>
-  
-  <p><strong>La METROPOLIS es el resultado de la METROPOLIZACIÓN.</strong></p>
-</blockquote>
-
-<p>Entre 2000 y 2010 el número de zonas metropolitanas en México aumentó de 55 a 59 y su población creció 23.8%, al pasar de 51.5 a 63.8 millones. Para 2020 y 2030 se proyecta que la población que habita en zonas metropolitanas llegue a 72.4 y 78 millones, respectivamente. Actualmente en nuestro país existen 59 zonas metropolitanas que abarcan 367 municipios. La Zona Metropolitana de la Laguna, conformada por los Municipios de Torreón y Matamoros en el Edo. De Coahuila,  Gómez Palacio y ciudad Lerdo en el Edo. de Durango se enlista en esas 59 zonas metropolitanas que se contabilizan en México. En promedio cada zona metropolitana está integrada por 6.4 municipios, la zona metropolitana que más municipios abarca es la del Valle de México con 76 municipios.</p>
-
-<p>El país tiende a la concentración en ciudades y Municipios a través de conurbaciones y Zonas Metropolitanas, que por causas fortuitas o por la ocupación expansiva de los territorios se ha ido dando en las últimas décadas.</p>
-
-<p>¿Cómo lograr que estas aglomeraciones urbanas se beneficien de las fortalezas de su cercanía?</p>
-
-<p>El Programa Nacional de Desarrollo Urbano observa cuales son las principales debilidades que presentan las actuales ZONAS METROPOLITANAS en el país:</p>
-
-<ul>
-<li>La carencia de un marco legal adecuado para la gestión de las zonas conurbadas y metrópolis ha provocado acciones desarticuladas e incluso contradictorias en temas como: planeación urbana; dotación de equipamiento, homologación de normativa administrativa, hacendaria y de inversión; movilidad, y prevención y atención de riesgos.</li>
-<li>La escasa coordinación entre gobiernos municipales en combinación con el plazo tan corto de gestión con el que cuentan.</li>
-<li>La falta de capacitación y continuidad de sus cuadros administrativos, así como la carencia de herramientas técnicas de planeación, incentiva la politización de la toma de decisiones y promueve la existencia proyectos sin visión de largo plazo ni planificación del territorio y de las ciudades</li>
-<li>La desarticulación del desarrollo urbano y la dinámica económica, y social de la población que habita en las ciudades ha generado que esta última desarrolle hábitos de consumo, movilidad, vivienda y esparcimiento no sustentables.</li>
-<li>Los contaminantes atmosféricos provenientes de automóviles -principal medio de movilidad promovido en el actual modelo de desarrollo urbano- son una de las causas de enfermedades respiratorias crónicas.</li>
-</ul>
-
-<p>Para una buena planeación de la ciudad se debe considerar una variedad de definiciones diferentes y desde diversos enfoques, pensando de manera integral sobre cómo toda el área metropolitana puede volverse más compacta promoviendo el bienestar de los residentes que la habitan. Las ciudades son los motores del crecimiento. Es en éstas donde muchos realizan sus sueños de una vida mejor. Incluso cuando a veces esto no se logra, muchas personas abandonan las zonas rurales y acuden a las urbes por la promesa de un mejor futuro.</p>
-
-<p>Con el lema <strong>«Cambiar las ciudades para construir oportunidades»,</strong> ONU-Hábitat (año 2012) destaca la necesidad de planificar mejor nuestras metrópolis porque el crecimiento improvisado conduce a un desarrollo caótico y a una desequilibrada expansión urbana. Por el contrario, cuando están bien ideadas, las ciudades ofrecen oportunidades tanto a sus actuales como a sus futuros residentes.</p>
-
-<h3>Fuentes de Información</h3>
-
-<ul>
-<li>PROGRAMA Nacional de Desarrollo Urbano 2014-2018.</li>
-<li>DELIMITACION DE ZONAS METROPOLITANAS EN MEXICO 2010</li>
-<li>ONU-HABITAT. Documento “Estado de las ciudades 2012”.</li>
-</ul>
-
-<p>Hacer de las áreas conurbadas y las zonas metropolitanas unidades territoriales funcionales que estructuren el sistema urbano(*) Estrategia 1.6 del PNDU</p>
 ]]></description>
     </item>
   </channel>
