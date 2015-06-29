@@ -168,6 +168,18 @@ class SociedadMortalidad extends \Base\Publicacion {
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>7.0000</td>
+            <td>SINAIS (SSA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>6.2000</td>
+            <td>SINAIS (SSA)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada mil.</p>
@@ -196,57 +208,57 @@ class SociedadMortalidad extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td>6.1000</td>
+            <td>2014-12-31</td>
+            <td>7.2000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
-            <td>5.0000</td>
+            <td>2014-12-31</td>
+            <td>6.2000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td>4.7100</td>
+            <td>2014-12-31</td>
+            <td>2.9000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
-            <td>5.3000</td>
+            <td>2014-12-31</td>
+            <td>3.1000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td>5.6000</td>
+            <td>2014-12-31</td>
+            <td>6.1000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2012-12-31</td>
-            <td>5.3000</td>
+            <td>2014-12-31</td>
+            <td>5.4000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2012-12-31</td>
+            <td>2014-12-31</td>
             <td>5.2000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2012-12-31</td>
-            <td>5.1000</td>
+            <td>2014-12-31</td>
+            <td>5.2000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -598,7 +610,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2000-12-31', dato: 3.5000 },{ fecha: '2001-12-31', dato: 3.9000 },{ fecha: '2002-12-31', dato: 4.4000 },{ fecha: '2003-12-31', dato: 4.0000 },{ fecha: '2004-12-31', dato: 4.0000 },{ fecha: '2005-12-31', dato: 4.4000 },{ fecha: '2006-12-31', dato: 4.2000 },{ fecha: '2007-12-31', dato: 4.2000 },{ fecha: '2008-12-31', dato: 4.5000 },{ fecha: '2009-12-31', dato: 5.3000 },{ fecha: '2010-12-31', dato: 5.4000 },{ fecha: '2011-12-31', dato: 5.1000 },{ fecha: '2012-12-31', dato: 5.0000 }],
+      data: [{ fecha: '2000-12-31', dato: 3.5000 },{ fecha: '2001-12-31', dato: 3.9000 },{ fecha: '2002-12-31', dato: 4.4000 },{ fecha: '2003-12-31', dato: 4.0000 },{ fecha: '2004-12-31', dato: 4.0000 },{ fecha: '2005-12-31', dato: 4.4000 },{ fecha: '2006-12-31', dato: 4.2000 },{ fecha: '2007-12-31', dato: 4.2000 },{ fecha: '2008-12-31', dato: 4.5000 },{ fecha: '2009-12-31', dato: 5.3000 },{ fecha: '2010-12-31', dato: 5.4000 },{ fecha: '2011-12-31', dato: 5.1000 },{ fecha: '2012-12-31', dato: 5.0000 },{ fecha: '2013-12-31', dato: 7.0000 },{ fecha: '2014-12-31', dato: 6.2000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -614,7 +626,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 6.1000 },{ region: 'Gómez Palacio', dato: 5.0000 },{ region: 'Lerdo', dato: 4.7100 },{ region: 'Matamoros', dato: 5.3000 },{ region: 'La Laguna', dato: 5.6000 },{ region: 'Coahuila', dato: 5.3000 },{ region: 'Durango', dato: 5.2000 },{ region: 'Nacional', dato: 5.1000 }],
+      data: [{ region: 'Torreón', dato: 7.2000 },{ region: 'Gómez Palacio', dato: 6.2000 },{ region: 'Lerdo', dato: 2.9000 },{ region: 'Matamoros', dato: 3.1000 },{ region: 'La Laguna', dato: 6.1000 },{ region: 'Coahuila', dato: 5.4000 },{ region: 'Durango', dato: 5.2000 },{ region: 'Nacional', dato: 5.2000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -718,6 +730,18 @@ FINAL;
           <tr>
             <td>31/12/2012</td>
             <td>5.0000</td>
+            <td>SINAIS (SSA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>7.0000</td>
+            <td>SINAIS (SSA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>6.2000</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>

@@ -512,6 +512,12 @@ FINAL;
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html">Estimación de Menores Huérfanos por Agresiones en Torreón</a></td>
+            <td>Menores de edad que han perdido a padre o madre a causa de agresión (homicidio).</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-homicidios.html">Homicidios en Gómez Palacio</a></td>
             <td>Número de homicidios por mes</td>
           </tr>
@@ -538,12 +544,6 @@ FINAL;
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/seguridad-homicidios.html">Homicidios en Torreón</a></td>
             <td>Número de homicidios por mes</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html">Estimación de Menores Huérfanos por Agresiones en Torreón</a></td>
-            <td>Menores de edad que han perdido a padre o madre a causa de agresión (homicidio).</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
