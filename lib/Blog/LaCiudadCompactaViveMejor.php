@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - MODULO LaOtraViolenciaContraLosNinos
+ * TrcIMPLAN - MODULO LaCiudadCompactaViveMejor
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,26 +23,26 @@
 namespace Blog;
 
 /**
- * Clase LaOtraViolenciaContraLosNinos
+ * Clase LaCiudadCompactaViveMejor
  */
-class LaOtraViolenciaContraLosNinos extends \Base\Publicacion {
+class LaCiudadCompactaViveMejor extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'La Otra Violencia Contra los Niños';
-        $this->autor            = 'Lic. Alfredo Viesca Domínguez';
-        $this->fecha            = '2015-06-30T14:30';
+        $this->nombre           = 'La Ciudad Compacta (como la familia pequeña) Vive Mejor';
+        $this->autor            = 'Arq. Cecilio Pedro Secunza Schott';
+        $this->fecha            = '2015-07-01T15:15';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = 'la-otra-violencia-contra-los-ninos';
-        $this->imagen           = 'la-otra-violencia-contra-los-ninos/imagen.jpg';
-        $this->imagen_previa    = 'la-otra-violencia-contra-los-ninos/imagen-previa.jpg';
+        $this->archivo          = 'la-ciudad-compacta-vive-mejor';
+        $this->imagen           = 'la-ciudad-compacta-vive-mejor/imagen.jpg';
+        $this->imagen_previa    = 'la-ciudad-compacta-vive-mejor/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'El Comité de los Derechos del Niño de la ONU ha señalado que el Gobierno Mexicano debe entregar información sobre las víctimas infantiles.';
+        $this->descripcion      = 'La política pública a adoptar como estrategia debe ser la de crecimiento interno: densificar la ciudad implotando su crecimiento hacia adentro y hacia arriba.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Delincuencia', 'Grupos Vulnerables', 'Seguridad');
+        $this->categorias       = array('Infraestructura'); // 'Bienestar', 'Competitividad', 'Cultura', 'Delincuencia', 'Doing Business', 'Educación', 'Empleo', 'Empresas', 'Finanzas Públicas', 'Género', 'Gobierno', 'Gobierno Digital', 'Grupos Vulnerables', 'Infraestructura', 'Innovación', 'Macroeconomía', 'Mercados', 'Movilidad', 'Objetivos del Milenio', 'Participación Ciudadana', 'Población', 'Recursos Naturales', 'Salud', 'Seguridad', 'Servicios Públicos', 'Transparencia', 'Vialidad', 'Vivienda'
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio       = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,7 +61,7 @@ class LaOtraViolenciaContraLosNinos extends \Base\Publicacion {
         $schema->author         = $this->autor;
      // $schema->headline_style = $this->encabezado_color;
      // $schema->headline_icon  = $this->nombre_menu;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/LaOtraViolenciaContraLosNinos.md');
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/LaCiudadCompactaViveMejor.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
         // Sin JavaScript
@@ -74,6 +74,6 @@ class LaOtraViolenciaContraLosNinos extends \Base\Publicacion {
         }
     } // constructor
 
-} // Clase LaOtraViolenciaContraLosNinos
+} // Clase LaCiudadCompactaViveMejor
 
 ?>
