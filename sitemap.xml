@@ -601,6 +601,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/institucional/reglamentos.html</loc>
+    <lastmod>2015-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/terminos/privacidad.html</loc>
     <lastmod>2015-03-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -4222,11 +4227,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/institucional/quienes-somos.html</loc>
-    <lastmod>2014-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/institucional/reglamentos.html</loc>
     <lastmod>2014-05-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>

@@ -34,13 +34,13 @@ class Reglamentos extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'Reglamentos';
      // $this->autor            = '';
-        $this->fecha            = '2014-05-01T08:00';
+        $this->fecha            = '2015-03-18T12:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'reglamentos';
      // $this->imagen_previa    = '';
         $this->encabezado_color = '#804000';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = '';
+        $this->descripcion      = 'Ley que crea el Instituto Municipal de Planeación y Competitividad de Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Reglamento';
         $this->categorias       = array('Institucional');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -61,8 +61,8 @@ class Reglamentos extends \Base\Publicacion {
         $schema->headline_style = $this->encabezado_color;
         $schema->articleBody    = <<<FINAL
 
-<p style="text-align: center;"><a href="reglamentos/trcimplan-reglamento.pdf"><img src="reglamentos/icono-descargar.png" alt="Descargar"></a><br>
-Descargue el <a title="Reglamento del IMPLAN Torreón" href="reglamentos/trcimplan-reglamento.pdf">Reglamento del IMPLAN Torreón</a>.</p>
+<p style="text-align: center;"><a href="reglamentos/congreso-coahuila-decreto-047-15.pdf"><img src="reglamentos/icono-descargar.png" alt="Descargar"></a><br>
+Descargue el <a href="congreso-coahuila-decreto-047-15.pdf">Decreto número 47 con la ley que crea el Instituto Municipal de Planeación y Competitividad de Torreón.</a>.</p>
 
 FINAL;
         // El contenido es una instancia de SchemaArticle
