@@ -31,7 +31,7 @@ El Comité de los Derechos del Niño que es un órgano de **expertos independien
 
 Ante esta situación lo preocupante es que el Estado Mexicano ha sido señalado por el Comité de los Derechos del Niño de la ONU por carecer de información precisa sobre algunos temas; de acuerdo a este organismo el Estado Mexicano no sabe cuántas madres o padres de familia están desaparecidos o han sido asesinados por la violencia en el país, por lo que no hay datos sobre el número de niños afectados, en orfandad y que deben ser atendidos.
 
-De acuerdo con los datos publicados por periódicos de circulación nacional y revistas especializadas en análisis de este tipo de problemas, la justificación del Gobierno de México es que **la clasificación estadística de víctimas no cuenta con criterios para detallar cuántas “madresy /o padres” han sido afectados por la violencia.**
+De acuerdo con los datos publicados por periódicos de circulación nacional y revistas especializadas en análisis de este tipo de problemas, la justificación del Gobierno de México es que **la clasificación estadística de víctimas no cuenta con criterios para detallar cuántas “madres y/o padres” han sido afectados por la violencia.**
 
 Ante la petición de “información desglosada” sobre el número de niños, niñas y adolescentes, madres y padres asesinados o desaparecidos en los últimos años; México sólo respondió  que creó el **Registro Nacional de Datos de Personas Extraviadas o Desaparecidas (RNPED)** en el que existen datos por sexo, edad, nacionalidad, entidad federativa, fecha o lugar de desaparición.
 

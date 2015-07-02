@@ -34,7 +34,7 @@ class LaCiudadCompactaViveMejor extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'La Ciudad Compacta (como la familia pequeña) Vive Mejor';
         $this->autor            = 'Arq. Cecilio Pedro Secunza Schott';
-        $this->fecha            = '2015-07-01T15:15';
+        $this->fecha            = '2015-07-01T15:16';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo          = 'la-ciudad-compacta-vive-mejor';
         $this->imagen           = 'la-ciudad-compacta-vive-mejor/imagen.jpg';
