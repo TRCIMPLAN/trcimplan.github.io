@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            http://www.oesmith.co.uk/morris.js
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El espacio público es donde se tejen las relaciones sociales, por lo tanto su conformación debe contribuir a desarrollar las capacidades humanas.">
+  <meta name="author" content="Arq. Susana Montano">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hacia Ciudades que Construyen Humanos en Convivencia - IMPLAN Torreón">
+  <meta name="twitter:description" content="El espacio público es donde se tejen las relaciones sociales, por lo tanto su conformación debe contribuir a desarrollar las capacidades humanas.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/hacia-ciudades-que-construyen-humanos-en-convivencia/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/hacia-ciudades-que-construyen-humanos-en-convivencia.html">
+  <meta name="og:title" content="Hacia Ciudades que Construyen Humanos en Convivencia - IMPLAN Torreón">
+  <meta name="og:description" content="El espacio público es donde se tejen las relaciones sociales, por lo tanto su conformación debe contribuir a desarrollar las capacidades humanas.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/hacia-ciudades-que-construyen-humanos-en-convivencia/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/hacia-ciudades-que-construyen-humanos-en-convivencia.html">
+  <title>Hacia Ciudades que Construyen Humanos en Convivencia - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M1 Diagnóstico y Pronóstico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-2.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M2 Visión y Objetivos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-3.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M3 Estrategias y Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-4.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M4 Gestión de Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/fotogaleria.html"><span class="navegacion-icono"><i class="fa fa-camera"></i></span> Fotogalería</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/calle-completa.html"><span class="navegacion-icono"><i class="fa fa-road"></i></span> Calle Completa</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+            <li><a href="../proyectos/salud-laguna.html"><span class="navegacion-icono"><i class="fa fa-share-alt-square"></i></span> Salud Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+<article>
+      <div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Hacia Ciudades que Construyen Humanos en Convivencia</h1>
+          <div class="encabezado-descripcion" itemprop="description">El espacio público es donde se tejen las relaciones sociales, por lo tanto su conformación debe contribuir a desarrollar las capacidades humanas.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Arq. Susana Montano</span>
+          - <meta itemprop="datePublished" content="2015-07-07T16:00">07/07/2015 16:00
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Hacia Ciudades que Construyen Humanos en Convivencia" src="hacia-ciudades-que-construyen-humanos-en-convivencia/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <blockquote>
+  <p>“Si buscas resultados distintos, no hagas siempre lo mismo”</p>
+  
+  <p>Albert Einstein</p>
+</blockquote>
+
+<p>Debido a la cantidad y complejidad de los problemas que se presentan en las ciudades actualmente, es necesario cambiar la manera de enfrentarlos. Es bien conocido que no se pueden obtener resultados diferentes haciendo las cosas de la misma manera, por lo que desde un aspecto teórico, habrá que replantearnos el enfoque que tenemos de la vida y del orden de prioridades, empezando por la visión actual de la economía; darle valor a la vida humana antes que a las cosas materiales y superfluas, considerando el bienestar humano como fin último. Desde el aspecto práctico, habrá que realizar acciones concretas priorizando lo que nos lleve a esta visión, empezando con el espacio público, el cual se considera el principal escenario que por si sólo estimula la convivencia.</p>
+
+<p>Manfred Max-Neef (2009), economista y ambientalista chileno, ganador del Premio Nobel Alternativo de Economía, quien en su conferencia magistral “El mundo en rumbo de colisión”, establece un contexto de la economía actual y la crisis en la que nos encontramos y presenta un modelo de economía humano y no consumista mediante propuestas para poner en práctica el desarrollo a nuestra escala. Volver a voltear hacia adentro.(1)</p>
+
+<p>Durante esta conferencia, el economista hace referencia al hambre en el mundo, indica que con el dinero que se usó para salvar a los bancos de la situación financiera en 2009, se podrían salvar miles de vidas de las personas que mueren de hambre durante 600 años. La realidad es que desde la postura de la economía neoliberal, es más importante y urgente salvar los bancos. (Max-Neef, 2009) ¿Es esto para la humanidad prioritario?</p>
+
+<p><img class="img-responsive" src="hacia-ciudades-que-construyen-humanos-en-convivencia/01.jpg" alt="Espacios pobres vs ricos"></p>
+
+<blockquote>
+  <p>“Yet the gross national product does not allow for the health of our children, the quality of their education or the joy of their play. It does not include the beauty of our poetry or the strength of our marriages, the intelligence of our public debate or the integrity of our public officials. It measures neither our wit nor our courage, neither our wisdom nor our learning, neither our compassion nor our devotion to our country. It measures everything in short, except that which makes life worthwhile.”</p>
+  
+  <p>Robert F. Kennedy.</p>
+</blockquote>
+
+<p>Menciona que la problemática de la sociedad actual se desprende principalmente de la búsqueda inalcanzable de la “felicidad” que nos hemos impuesto como meta, al creer que tener más es mejor.</p>
+
+<p>Explica que el paradigma económico dominante, parte de la ideología neoliberal que pone como prioridad el crecimiento económico a cualquier costo, lo cual promueve los anti-valores de acumulación, competencia y codicia.</p>
+
+<p>El economista subraya que debemos cambiar de enfoque ya que nos encontramos tratando de resolver problemas actuales con teorías del siglo XIX. Por lo cual señala que un Nuevo Paradigma requiere alejarnos de los valores anteriormente mencionados como metas centrales del presunto bienestar social y remplazarlos por los de solidaridad, cooperación y compasión con la visión del desarrollo humano suponiendo que la calidad de vida, bienestar, salud, amor, abundancia sean los objetivos de una construcción del ser humano en comunidad por medio de la convivencia.</p>
+
+<p>Max-Neef desmitifica una serie de principios que nos han impuesto y presenta como alternativa posible un modelo económico sustentado en cinco principios básicos:</p>
+
+<ol>
+<li>La economía debe servir a las personas y no las personas a la economía; el desarrollo debe dirigirse a las personas y no a los objetos.</li>
+<li>El crecimiento no es lo mismo que el desarrollo y el desarrollo no necesariamente precisa de crecimiento.</li>
+<li>Ninguna economía es posible al margen de los servicios que prestan los ecosistemas.</li>
+<li>La economía es un sub-sistema de un sistema mayor (la Tierra) que es finito, por lo tanto el crecimiento permanente es imposible.</li>
+<li>Ningún interés económico, puede estar por sobre la reverencia por la vida.(2)</li>
+</ol>
+
+<p>Desde esta perspectiva se han ido realizado esfuerzos en todos los niveles, tanto organizaciones internacionales como locales. Los países desarrollados han dirigido muchas de sus políticas hacia el bienestar, calidad de vida y salud. Así poco a poco el paradigma ha cambiado y se han ido adoptando acciones concretas que de manera muy puntual, cambian el enfoque y actúan sobre la línea de la convivencia, teniendo gran éxito para la contribución de problemas actuales.</p>
+
+<p>La convivencia en su acepción más amplia, se trata de un concepto vinculado a la <strong>coexistencia pacífica y armoniosa de grupos humanos en un mismo espacio</strong>(3), con otras palabras, el compartir, vivir en compañía de otros, ser conscientes de que formamos parte de un sistema social y que tenemos que contribuir al desarrollo de cada sistema al que pertenecemos, en donde el desarrollo personal o individual incida y/o aporte al del sistema.</p>
+
+<p>Mucho se habla de que queremos ciudades hechas para la gente, por lo tanto debe ser de primordial interés el bienestar, salud y la felicidad de su población. La planeación e intervenciones de ciudad deberían estar orientadas hacia la creación de espacios que faciliten y promuevan la vida en comunidad. Además la priorización en la toma de decisiones deberá ser a partir de lo que contribuya más a la <strong>construcción del ser humano en convivencia, es decir, a desarrollar las capacidades, habilidades, talentos y valores del la sociedad de manera individual y en conjunto.</strong></p>
+
+<p>Como el escenario ideal para fomentar la convivencia en las ciudades, es el espacio público, es donde se tejen las relaciones sociales, por lo tanto la conformación de estos espacios en la ciudad deberían contribuir a desarrollar las capacidades humanas. Por lo tanto, si los valores centrales giran en torno a la colaboración, solidaridad y compasión lo mejor sería determinar como criterio fundamental para la creación de ciudades, el desarrollo del ser humano en sociedad.</p>
+
+<p><img class="img-responsive" src="hacia-ciudades-que-construyen-humanos-en-convivencia/02.jpg" alt="Espacio publico"></p>
+
+<p>El espacio público adecuado facilita el desarrollo del arte, cultura, deporte, tecnología, ciencia y la comunicación; se centra en el ser humano y no de manera individual, sino en compañía de otros. Reinventar <strong>el espacio público con el objetivo de facilitar la convivencia es el reto</strong> que muchos se están fijando, mediante la creación de una estructura con nodos que faciliten la actividad colectiva vinculados por medio de andadores atractivos que estimulen la comunicación y la movilidad, y que promuevan que la gente se junte, se conozca, se encuentre, comparta, viva experiencias en sociedad. Mediante infraestructura adecuada para una movilidad mas eficiente y sustentable, con mas paseos peatonales que en automóviles, que ayuden a ejercitar, conocer la ciudad, socializar y disfrutar el paseo, vivir la ciudad.</p>
+
+<p><img class="img-responsive" src="hacia-ciudades-que-construyen-humanos-en-convivencia/03.jpg" alt="Espacio publico"></p>
+
+<p>A continuación se presentan algunas recomendaciones para crear ciudades más humanas que contribuyan por el hecho de vivir en ellas a la construcción del ser humano en convivencia:</p>
+
+<ol>
+<li><strong>Acondicionar y ampliar las banquetas</strong> para darle más espacio al peatón no sólo para desplazarse de un lado a otro, sino para quedarse en el lugar a disfrutar de la vista y/o descansar.</li>
+<li><strong>Incorporar la escala peatonal</strong> (walk scale) mediante mobiliario urbano en banquetas o plazas y parques, con el fin de brindar confort al peatón.</li>
+<li><strong>Crear nodos de espacios públicos interconectados</strong> físicamente entre sí a través de redes peatonales, áreas verdes y ciclovías acondicionadas.</li>
+<li><strong>Acondicionamiento climático y acústico del espacio urbano,</strong> produciendo barreras acústicas (con materiales naturales y artificiales) que protejan al peatón del ruido del tráfico y le ofrezcan protección de las condiciones climáticas adversas (frío, calor, lluvia, etc).</li>
+<li><strong>Integración de la pedagogía al diseño y a la gestión del espacio urbano.</strong> Fomentando la cultura, educación y concientización sobre el uso correcto del espacio urbano: vialidades, vegetación, residuos, etc.</li>
+<li><strong>Incentivar la movilidad sustentable,</strong> estimulando el uso de transportes masivos y ofreciendo la infraestructura adecuada para el uso masivo de la bicicleta y recorridos a pie.</li>
+<li><strong>Iluminar el espacio público,</strong> para brindar la percepción de mayor seguridad y de calidez.</li>
+<li><strong>Equidad e inclusión social,</strong> el diseño del espacio público debe ser capaz de conciliar los diferentes ritmos de los usuarios, desplazamientos a diversas velocidades y con los requerimientos para los diferentes tipos de usuarios, tanto de los menos favorecidos o más vulnerables como son personas con alguna discapacidad, personas que necesitan detenerse a descansar, como de quien recorre el espacio observando vitrinas, ciclistas, o transporte motorizado.</li>
+<li><strong>Diseñar con materiales duraderos y de bajo costo,</strong> para que resistan en el tiempo el uso frecuente de las personas y que requiera poca inversión sin que ello vaya en detrimento de la calidad de los mismos o de su diseño.</li>
+<li><strong>Incrementar la biodiversidad (flora y fauna) utilizando especies de la región</strong> para que esto atraiga fauna que permitirá una mejora de la calidad ambiental de la ciudad. Además el uso de vegetación visual y olfativamente diferente ofrece un espacio cambiante sensorialmente.(4)</li>
+</ol>
+
+<p>Estas estrategias son una forma de humanizar el espacio público, sin embargo deberán estar acompañadas de muchas acciones que sumadas hacen la diferencia entre la ciudad amable, inclusiva y democrática y la ciudad agresiva, excluyente e indiferente.</p>
+
+<h3>Referencias</h3>
+
+<ol>
+<li>Manfred Max-Neef (2009), “El Mundo en Rumbo de Colisión”. Conferencia Magistral en Universidad Internacional de Andalucía.</li>
+<li><a href="http://viva.org.co/escuelas/?p=64">http://viva.org.co/escuelas/?p=64</a></li>
+<li><a href="http://definicion.de/convivencia/#ixzz3egfJ2XLm">http://definicion.de/convivencia/#ixzz3egfJ2XLm</a></li>
+<li><a href="http://istmo.mx/2012/04/la-reconquista-de-la-calle-hacia-ciudades-mas-humanas/">http://istmo.mx/2012/04/la-reconquista-de-la-calle-hacia-ciudades-mas-humanas/</a></li>
+</ol>
+
+        </div>
+      </div>
+</article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fhacia-ciudades-que-construyen-humanos-en-convivencia.html.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
