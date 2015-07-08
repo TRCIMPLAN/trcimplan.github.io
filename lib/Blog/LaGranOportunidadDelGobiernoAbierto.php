@@ -34,7 +34,7 @@ class LaGranOportunidadDelGobiernoAbierto extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre           = 'La Gran Oportunidad del Gobierno Abierto';
         $this->autor            = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha            = '2015-07-08T12:00';
+        $this->fecha            = '2015-07-08T17:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo          = 'la-gran-oportunidad-del-gobierno-abierto';
         $this->imagen           = 'la-gran-oportunidad-del-gobierno-abierto/imagen.jpg';
@@ -48,7 +48,7 @@ class LaGranOportunidadDelGobiernoAbierto extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu      = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'revisar';
+        $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = true;
         // El contenido es estructurado en un esquema
