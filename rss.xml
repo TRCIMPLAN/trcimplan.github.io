@@ -5,7 +5,11 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
+<<<<<<< HEAD
     <pubDate>Tue, 14 Jul 2015 17:40:55 -0500</pubDate>
+=======
+    <pubDate>Tue, 14 Jul 2015 17:34:00 -0500</pubDate>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -281,9 +285,15 @@
       <p><b>Unidad:</b> Porcentaje.</p>]]></description>
     </item>
     <item>
+<<<<<<< HEAD
       <title>Economía Intensiva en Energía en Matamoros</title>
       <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-economia-intensiva-en-energia.html</link>
       <guid isPermaLink="false">indicadores-matamoros-sustentabilidad-economia-intensiva-en-energia</guid>
+=======
+      <title>Economía Intensiva en Energía en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-economia-intensiva-en-energia.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-economia-intensiva-en-energia</guid>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
       <pubDate>Tue, 14 Jul 2015 12:55:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -303,31 +313,51 @@ Fuente: Petróleos Mexicanos (PEMEX) y estimaciones de IMCO con información del
         <tbody>
           <tr>
             <td>31/12/2008</td>
+<<<<<<< HEAD
             <td>1.8000</td>
+=======
+            <td>2.9000</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
+<<<<<<< HEAD
             <td>1.6000</td>
+=======
+            <td>2.8000</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
+<<<<<<< HEAD
             <td>1.5000</td>
+=======
+            <td>2.8000</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
+<<<<<<< HEAD
             <td>1.5000</td>
+=======
+            <td>2.8000</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
+<<<<<<< HEAD
             <td>1.3000</td>
+=======
+            <td>2.6000</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
@@ -336,9 +366,15 @@ Fuente: Petróleos Mexicanos (PEMEX) y estimaciones de IMCO con información del
       <p><b>Unidad:</b> Metros cúbicos de combustibes por cada millón de PIB.</p>]]></description>
     </item>
     <item>
+<<<<<<< HEAD
       <title>Desastres Naturales en Matamoros</title>
       <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-desastres-naturales.html</link>
       <guid isPermaLink="false">indicadores-matamoros-sustentabilidad-desastres-naturales</guid>
+=======
+      <title>Desastres Naturales en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-desastres-naturales.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-desastres-naturales</guid>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
       <pubDate>Tue, 14 Jul 2015 12:45:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -358,31 +394,51 @@ Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</p>
         <tbody>
           <tr>
             <td>31/12/2008</td>
+<<<<<<< HEAD
             <td>1</td>
+=======
+            <td>0</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
+<<<<<<< HEAD
             <td>1</td>
+=======
+            <td>0</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
+<<<<<<< HEAD
             <td>1</td>
+=======
+            <td>0</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
+<<<<<<< HEAD
             <td>2</td>
+=======
+            <td>3</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
+<<<<<<< HEAD
             <td>2</td>
+=======
+            <td>3</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
@@ -427,9 +483,15 @@ Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</p>
 ]]></description>
     </item>
     <item>
+<<<<<<< HEAD
       <title>Registro de Una Propiedad en Matamoros</title>
       <link>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-registro-de-una-propiedad.html</link>
       <guid isPermaLink="false">indicadores-matamoros-economia-registro-de-una-propiedad</guid>
+=======
+      <title>Registro de Una Propiedad en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-registro-de-una-propiedad.html</link>
+      <guid isPermaLink="false">indicadores-torreon-economia-registro-de-una-propiedad</guid>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
       <pubDate>Tue, 14 Jul 2015 12:35:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -481,9 +543,15 @@ Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</p>
       <p><b>Unidad:</b> Percentil promedio.</p>]]></description>
     </item>
     <item>
+<<<<<<< HEAD
       <title>Empresas Certificadas como Limpias en Matamoros</title>
       <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-empresas-certificadas-como-limpias.html</link>
       <guid isPermaLink="false">indicadores-matamoros-sustentabilidad-empresas-certificadas-como-limpias</guid>
+=======
+      <title>Empresas Certificadas como Limpias en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-empresas-certificadas-como-limpias.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-empresas-certificadas-como-limpias</guid>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
       <pubDate>Tue, 14 Jul 2015 12:28:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -504,31 +572,51 @@ Fuente: Procuraduría Federal de Protección al Ambiente (PROFEPA), 2009-2012.</
         <tbody>
           <tr>
             <td>31/12/2008</td>
+<<<<<<< HEAD
             <td>0.1000</td>
+=======
+            <td>0.6000</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
+<<<<<<< HEAD
             <td>3.1000</td>
+=======
+            <td>0.8000</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
+<<<<<<< HEAD
             <td>3.0000</td>
+=======
+            <td>1.2000</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
+<<<<<<< HEAD
             <td>3.2000</td>
+=======
+            <td>0.8000</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
+<<<<<<< HEAD
             <td>0.0000</td>
+=======
+            <td>1.2000</td>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
             <td>IMCO</td>
             <td></td>
           </tr>
@@ -536,5 +624,63 @@ Fuente: Procuraduría Federal de Protección al Ambiente (PROFEPA), 2009-2012.</
       </table>
       <p><b>Unidad:</b> Por cada mil.</p>]]></description>
     </item>
+<<<<<<< HEAD
+=======
+    <item>
+      <title>Aprovechamiento del Biogás en Rellenos Sanitarios en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios</guid>
+      <pubDate>Tue, 14 Jul 2015 12:16:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
+Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> 1)SI TIENE, 0)NO TIENE.</p>]]></description>
+    </item>
+>>>>>>> f156b298d3df69cb7dffc1217023d0a8cbdb0f23
   </channel>
 </rss>

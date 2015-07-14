@@ -493,6 +493,8 @@ a.galeria-icono:active  { color:#FF3300; }
 #categorias-gobierno:hover                { background-position:-128px 0; }
 #categorias-grupos-vulnerables            { display:block; width:128px; height:128px; background:url("../imagenes/categorias/grupos-vulnerables.jpg") no-repeat 0 0; }
 #categorias-grupos-vulnerables:hover      { background-position:-128px 0; }
+#categorias-indice-de-competitividad-urbana       { display:block; width:128px; height:128px; background:url("../imagenes/categorias/indice-de-competitividad-urbana.jpg") no-repeat 0 0; }
+#categorias-indice-de-competitividad-urbana:hover { background-position:-128px 0; }
 #categorias-infraestructura               { display:block; width:128px; height:128px; background:url("../imagenes/categorias/infraestructura.jpg") no-repeat 0 0; }
 #categorias-infraestructura:hover         { background-position:-128px 0; }
 #categorias-innovacion                    { display:block; width:128px; height:128px; background:url("../imagenes/categorias/innovacion.jpg") no-repeat 0 0; }
@@ -503,6 +505,8 @@ a.galeria-icono:active  { color:#FF3300; }
 #categorias-mercados:hover                { background-position:-128px 0; }
 #categorias-movilidad                     { display:block; width:128px; height:128px; background:url("../imagenes/categorias/movilidad.jpg") no-repeat 0 0; }
 #categorias-movilidad:hover               { background-position:-128px 0; }
+#categorias-objetivos-del-milenio                 { display:block; width:128px; height:128px; background:url("../imagenes/categorias/objetivos-del-milenio.jpg") no-repeat 0 0; }
+#categorias-objetivos-del-milenio:hover           { background-position:-128px 0; }
 #categorias-participacion-ciudadana       { display:block; width:128px; height:128px; background:url("../imagenes/categorias/participacion-ciudadana.jpg") no-repeat 0 0; }
 #categorias-participacion-ciudadana:hover { background-position:-128px 0; }
 #categorias-poblacion                     { display:block; width:128px; height:128px; background:url("../imagenes/categorias/poblacion.jpg") no-repeat 0 0; }
@@ -515,6 +519,8 @@ a.galeria-icono:active  { color:#FF3300; }
 #categorias-seguridad:hover               { background-position:-128px 0; }
 #categorias-servicios-publicos            { display:block; width:128px; height:128px; background:url("../imagenes/categorias/servicios-publicos.jpg") no-repeat 0 0; }
 #categorias-servicios-publicos:hover      { background-position:-128px 0; }
+#categorias-sindes                                { display:block; width:128px; height:128px; background:url("../imagenes/categorias/sindes.jpg") no-repeat 0 0; }
+#categorias-sindes:hover                          { background-position:-128px 0; }
 #categorias-transparencia                 { display:block; width:128px; height:128px; background:url("../imagenes/categorias/transparencia.jpg") no-repeat 0 0; }
 #categorias-transparencia:hover           { background-position:-128px 0; }
 #categorias-vialidad                      { display:block; width:128px; height:128px; background:url("../imagenes/categorias/vialidad.jpg") no-repeat 0 0; }
