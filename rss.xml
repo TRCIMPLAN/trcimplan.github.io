@@ -5,11 +5,44 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 08 Jul 2015 17:00:33 -0500</pubDate>
+    <pubDate>Tue, 14 Jul 2015 12:43:29 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="{self::}/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacia una Conurbación Sustentable de La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/blog/hacia-una-conurbacion-sustentable-de-la-laguna.html</link>
+      <guid isPermaLink="false">blog-hacia-una-conurbacion-sustentable-de-la-laguna</guid>
+      <pubDate>Tue, 14 Jul 2015 12:40:00 -0500</pubDate>
+      <author>Arq. Jair Miramontes Chávez</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/hacia-una-conurbacion-sustentable-de-la-laguna/imagen.jpg"><br>
+
+<p>La <strong>conurbación</strong> o <strong>zona conurbada</strong> es la <strong>continuidad física y demográfica que forman o tienden a formar dos a más centros de población,</strong> es el resultado del crecimiento de varias ciudades, las cuales se integran para formar un sistema que suele estar jerarquizado, aunque las distintas unidades que lo conforman pueden mantener su independencia funcional y dinámica.</p>
+
+<p>Las ciudades que conforman una conurbación tienen actividades diferenciadas, cada una con una dinámica particular, recursos económicos, capacidades para atraer inversiones, con sus propios grupos sociales, un modo de ser con una cultura propia que los identifica y les da identidad.</p>
+
+<div style="clear:left;"></div>
+
+<p>La zona conurbada de <strong>La Laguna presenta las problemáticas comunes que tienen la mayoría de las Zonas Metropolitanas importantes del país,</strong> como:</p>
+
+<ul>
+<li><strong>Crecimiento disperso de los asentamientos</strong> que incrementan los tiempos de desplazamiento de los habitantes, tanto en transporte público como en vehículos particulares a causa del tráfico y las distancias.</li>
+<li><strong>Abandono de los centros históricos o antiguos,</strong> que deterioran la imagen urbana.</li>
+<li><strong>La calidad de vida se hace deficiente,</strong> sobre todo de la población de menor ingreso.</li>
+<li><strong>Se encarecen y se hacen deficientes la prestación de servicios públicos.</strong></li>
+<li>Los municipios tienen la <strong>necesidad de promoverse para atraer inversión</strong> y por otro lado <strong>tienen grandes limitaciones financieras para prestar sus servicios.</strong></li>
+</ul>
+
+<p>Estos problemas comunes se presentan por las tendencias del crecimiento de las ciudades mexicanas <strong>donde se promovió solo el crecimiento urbano horizontal y la movilidad basada en el uso del automóvil que incentivó la segregación social.</strong></p>
+
+<p><strong>La Laguna tiene grandes áreas de oportunidades de revertir estas tendencias negativas,</strong> si se privilegia antes que nada la <strong>calidad de vida</strong> y el patrimonio de los ciudadanos. Es necesario implementar un desarrollo urbano orientado a la <strong>sustentabilidad ambiental,</strong> con un correcto manejo del agua, la implementación de movilidad sustentable, reciclar la ciudad y aprovechar la capacidad de producir energía renovable, principalmente solar, son acciones que se deben considerar para conducir a la Zona Metropolitana de La Laguna y su región a un dinamismo con dirección y planeación sustentable.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/hacia-una-conurbacion-sustentable-de-la-laguna/zona-conurbada-la-laguna.jpg" alt="Zona Conurbada de La Laguna"></p>
+
+<p>Fuente: Ley General de Asentamientos Humanos</p>
+]]></description>
+    </item>
     <item>
       <title>La Gran Oportunidad del Gobierno Abierto</title>
       <link>http://www.trcimplan.gob.mx/blog/la-gran-oportunidad-del-gobierno-abierto.html</link>
@@ -1101,60 +1134,6 @@ Ubicación de las edificaciones consideradas como patrimonios históricos por el
 <li><a href="http://www.anuies.mx/iinformacion-y-servicios/informacion-estadistica-de-educacion-superior/anuario-estadistico-de-educacion-superior">Base de datos en ANUIES</a></li>
 </ul>
 ]]></description>
-    </item>
-    <item>
-      <title>Delitos Patrimoniales en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-delitos-patrimoniales.html</link>
-      <guid isPermaLink="false">indicadores-torreon-seguridad-delitos-patrimoniales</guid>
-      <pubDate>Thu, 04 Jun 2015 11:25:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Son delitos que contemplan Abuso de confianza, Daño en propiedad ajena, Extorsión, Fraude, Despojo con violencia y Despojo sin violencia.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/01/2015</td>
-            <td>120</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28/02/2015</td>
-            <td>111</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/03/2015</td>
-            <td>115</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/04/2015</td>
-            <td>167</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/05/2015</td>
-            <td>134</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad.</p>]]></description>
     </item>
   </channel>
 </rss>
