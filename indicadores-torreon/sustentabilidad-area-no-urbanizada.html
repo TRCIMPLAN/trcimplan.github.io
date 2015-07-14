@@ -176,7 +176,6 @@
               <div itemprop="articleBody">
           <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -207,10 +206,6 @@
       <h3>Observaciones</h3>
 <p>Descarga de <a href="http://www3.inegi.org.mx/sistemas/productos/default.aspx?c=265&amp;upc=0&amp;s=est&amp;tg=3594&amp;f=2&amp;cl=0&amp;pf=prod&amp;ef=0&amp;ct=201100000&amp;pg=2">Base de Datos</a></p>
 
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Área No Urbanizada en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Área No Urbanizada</h3>
@@ -297,6 +292,12 @@
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>07/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/hacia-ciudades-que-construyen-humanos-en-convivencia.html">Hacia Ciudades que Construyen Humanos en Convivencia</a></td>
+            <td>El espacio público es donde se tejen las relaciones sociales, por lo tanto su conformación debe contribuir a desarrollar las capacidades humanas.</td>
+          </tr>
           <tr>
             <td>27/01/2015</td>
             <td>Análisis</td>
@@ -566,22 +567,6 @@
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 <script>
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2010-12-31', dato: 88.9000 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

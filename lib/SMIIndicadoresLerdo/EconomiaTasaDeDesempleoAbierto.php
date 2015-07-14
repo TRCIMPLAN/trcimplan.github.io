@@ -71,7 +71,8 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
         $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
+    <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -158,9 +159,13 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
 3er. Trimestre: 5.20 %</p>
 
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Tasa de Desempleo Abierto en Lerdo</h3>
-      <div id="graficaDatos" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Tasa de Desempleo Abierto en Lerdo con fuente INEGI</h3>
+      <div id="graficaDatosInegi" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica-2">
+      <h3>Gráfica de Tasa de Desempleo Abierto en Lerdo con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
+      <div id="graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Tasa de Desempleo Abierto</h3>
@@ -628,13 +633,29 @@ FINAL;
         $this->contenido         = $schema;
         // JavaScript
         $this->javascript        = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '1990-03-12', dato: 2.9900 },{ fecha: '2000-02-14', dato: 0.9400 },{ fecha: '2010-06-25', dato: 7.4100 },{ fecha: '2014-03-31', dato: 2.8000 },{ fecha: '2014-06-30', dato: 1.6700 },{ fecha: '2014-09-30', dato: 9.2300 },{ fecha: '2014-12-31', dato: 3.7000 },{ fecha: '2015-03-31', dato: 4.7600 }],
+  if (typeof vargraficaDatosInegi === 'undefined') {
+    vargraficaDatosInegi = Morris.Line({
+      element: 'graficaDatosInegi',
+      data: [{ fecha: '1990-03-12', dato: 2.9900 },{ fecha: '2000-02-14', dato: 0.9400 },{ fecha: '2010-06-25', dato: 7.4100 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA smi-indicador-grafica-2
+$('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
+    vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
+      element: 'graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
+      data: [{ fecha: '2014-03-31', dato: 2.8000 },{ fecha: '2014-06-30', dato: 1.6700 },{ fecha: '2014-09-30', dato: 9.2300 },{ fecha: '2014-12-31', dato: 3.7000 },{ fecha: '2015-03-31', dato: 4.7600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

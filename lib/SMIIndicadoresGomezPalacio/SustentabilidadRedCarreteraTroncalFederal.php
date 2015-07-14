@@ -71,7 +71,6 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
         $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -102,10 +101,6 @@ class SustentabilidadRedCarreteraTroncalFederal extends \Base\Publicacion {
       <h3>Observaciones</h3>
 <p>No aplica a nivel metropolitano.</p>
 
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Red Carretera Troncal Federal en Gómez Palacio</h3>
-      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Red Carretera Troncal Federal</h3>
@@ -167,6 +162,18 @@ FINAL;
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>07/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/hacia-ciudades-que-construyen-humanos-en-convivencia.html">Hacia Ciudades que Construyen Humanos en Convivencia</a></td>
+            <td>El espacio público es donde se tejen las relaciones sociales, por lo tanto su conformación debe contribuir a desarrollar las capacidades humanas.</td>
+          </tr>
+          <tr>
+            <td>01/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-ciudad-compacta-vive-mejor.html">La Ciudad Compacta (como la familia pequeña) Vive Mejor</a></td>
+            <td>La política pública a adoptar como estrategia debe ser la de crecimiento interno: densificar la ciudad implotando su crecimiento hacia adentro y hacia arriba.</td>
+          </tr>
           <tr>
             <td>27/05/2015</td>
             <td>Análisis</td>
@@ -390,22 +397,6 @@ FINAL;
         $this->contenido         = $schema;
         // JavaScript
         $this->javascript        = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2012-12-31', dato: 71 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

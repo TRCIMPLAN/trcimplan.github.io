@@ -71,7 +71,6 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
         $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -100,10 +99,6 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Cumplimiento en Información Pública Mínina en La Laguna</h3>
-      <div id="graficaDatos" class="grafica"></div>
-    </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Cumplimiento en Información Pública Mínina</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
@@ -121,8 +116,8 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-06-30</td>
-            <td>98.72 %</td>
+            <td>2015-03-31</td>
+            <td>89.33 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
@@ -142,8 +137,8 @@ class GobiernoCumplimientoEnInformacionPublicaMinina extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-06-30</td>
-            <td>64.10 %</td>
+            <td>2015-03-31</td>
+            <td>70.67 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
@@ -171,6 +166,12 @@ FINAL;
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>08/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-gran-oportunidad-del-gobierno-abierto.html">La Gran Oportunidad del Gobierno Abierto</a></td>
+            <td>Nos encontramos frente a la posibilidad del mayor grado de cooperación que haya existido entre la sociedad y el gobierno.</td>
+          </tr>
           <tr>
             <td>03/06/2015</td>
             <td>Análisis</td>
@@ -256,29 +257,13 @@ FINAL;
         $this->contenido         = $schema;
         // JavaScript
         $this->javascript        = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2013-12-31', dato: 80.0000 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 98.7200 },{ region: 'Gómez Palacio', dato: 86.0000 },{ region: 'Lerdo', dato: 100.0000 },{ region: 'Matamoros', dato: 64.1000 },{ region: 'La Laguna', dato: 80.0000 }],
+      data: [{ region: 'Torreón', dato: 89.3300 },{ region: 'Gómez Palacio', dato: 86.0000 },{ region: 'Lerdo', dato: 100.0000 },{ region: 'Matamoros', dato: 70.6700 },{ region: 'La Laguna', dato: 80.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

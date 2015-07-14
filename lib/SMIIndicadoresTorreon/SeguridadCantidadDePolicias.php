@@ -71,7 +71,6 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
         $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -102,10 +101,6 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
 <p>Determinado en base al reporte de Transparencia de la Nómina.</p>
 
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Cantidad de Policías en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
-    </div>
   </div>
 FINAL;
         $schema->extra           = <<<FINAL
@@ -120,6 +115,12 @@ FINAL;
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>30/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-otra-violencia-contra-los-ninos.html">La Otra Violencia Contra los Niños</a></td>
+            <td>El Comité de los Derechos del Niño de la ONU ha señalado que el Gobierno Mexicano debe entregar información sobre las víctimas infantiles.</td>
+          </tr>
           <tr>
             <td>04/06/2015</td>
             <td>Indicador</td>
@@ -691,22 +692,6 @@ FINAL;
         $this->contenido         = $schema;
         // JavaScript
         $this->javascript        = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2014-02-28', dato: 768 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-});
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')

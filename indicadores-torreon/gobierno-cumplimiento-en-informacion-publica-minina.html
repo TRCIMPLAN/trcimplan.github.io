@@ -207,6 +207,48 @@
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/09/2014</td>
+            <td>96.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/10/2014</td>
+            <td>72.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/11/2014</td>
+            <td>83.00 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>82.67 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/01/2015</td>
+            <td>82.67 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>28/02/2015</td>
+            <td>89.33 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2015</td>
+            <td>89.33 %</td>
+            <td>ICAI-IDAIP</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -232,8 +274,8 @@
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-06-30</td>
-            <td>98.72 %</td>
+            <td>2015-03-31</td>
+            <td>89.33 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
@@ -253,8 +295,8 @@
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-06-30</td>
-            <td>64.10 %</td>
+            <td>2015-03-31</td>
+            <td>70.67 %</td>
             <td>ICAI-IDAIP</td>
             <td></td>
           </tr>
@@ -300,6 +342,12 @@
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>08/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-gran-oportunidad-del-gobierno-abierto.html">La Gran Oportunidad del Gobierno Abierto</a></td>
+            <td>Nos encontramos frente a la posibilidad del mayor grado de cooperación que haya existido entre la sociedad y el gobierno.</td>
+          </tr>
           <tr>
             <td>03/06/2015</td>
             <td>Análisis</td>
@@ -425,7 +473,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-03-03', dato: 100.0000 },{ fecha: '2014-06-30', dato: 98.7200 }],
+      data: [{ fecha: '2014-03-03', dato: 100.0000 },{ fecha: '2014-06-30', dato: 98.7200 },{ fecha: '2014-09-30', dato: 96.0000 },{ fecha: '2014-10-31', dato: 72.0000 },{ fecha: '2014-11-30', dato: 83.0000 },{ fecha: '2014-12-31', dato: 82.6700 },{ fecha: '2015-01-31', dato: 82.6700 },{ fecha: '2015-02-28', dato: 89.3300 },{ fecha: '2015-03-31', dato: 89.3300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -441,7 +489,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 98.7200 },{ region: 'Gómez Palacio', dato: 86.0000 },{ region: 'Lerdo', dato: 100.0000 },{ region: 'Matamoros', dato: 64.1000 },{ region: 'La Laguna', dato: 80.0000 }],
+      data: [{ region: 'Torreón', dato: 89.3300 },{ region: 'Gómez Palacio', dato: 86.0000 },{ region: 'Lerdo', dato: 100.0000 },{ region: 'Matamoros', dato: 70.6700 },{ region: 'La Laguna', dato: 80.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

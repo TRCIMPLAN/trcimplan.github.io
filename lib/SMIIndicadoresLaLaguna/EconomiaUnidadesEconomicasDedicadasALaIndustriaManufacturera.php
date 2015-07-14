@@ -71,7 +71,7 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
         $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -121,9 +121,9 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
 <p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a></p>
 
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Unidades Económicas Dedicadas a la Industria Manufacturera en La Laguna</h3>
-      <div id="graficaDatos" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Unidades Económicas Dedicadas a la Industria Manufacturera en La Laguna con fuente INEGI</h3>
+      <div id="graficaDatosInegi" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Unidades Económicas Dedicadas a la Industria Manufacturera</h3>
@@ -1004,13 +1004,13 @@ FINAL;
         $this->contenido         = $schema;
         // JavaScript
         $this->javascript        = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '1998-12-31', dato: 11.7800 },{ fecha: '2003-12-31', dato: 9.7800 },{ fecha: '2008-12-31', dato: 9.7500 },{ fecha: '2013-10-31', dato: 8.6900 }],
+  if (typeof vargraficaDatosInegi === 'undefined') {
+    vargraficaDatosInegi = Morris.Line({
+      element: 'graficaDatosInegi',
+      data: [{ fecha: '1998-12-31', dato: 11.7800 },{ fecha: '2003-12-31', dato: 9.7800 },{ fecha: '2013-10-31', dato: 8.6900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -5,11 +5,69 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 14 Jul 2015 12:43:29 -0500</pubDate>
+    <pubDate>Tue, 14 Jul 2015 12:54:19 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="{self::}/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Desastres Naturales en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-desastres-naturales.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-desastres-naturales</guid>
+      <pubDate>Tue, 14 Jul 2015 12:45:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de apoyos solicitados al Fondo de Desastres Naturales (FONDEN) o al Programa para Atender contingencias Climáticas (PACC) por eventos naturales y que superaron las capacidades financieras de respuesta de las dependencias responsables estatales y municipales.
+Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>3</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>3</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Unidad: Cantidad de veces que se requirió el apoyo del FONDEN en los últimos tres años.</p>
+]]></description>
+    </item>
     <item>
       <title>Hacia una Conurbación Sustentable de La Laguna</title>
       <link>http://www.trcimplan.gob.mx/blog/hacia-una-conurbacion-sustentable-de-la-laguna.html</link>
@@ -44,1096 +102,562 @@
 ]]></description>
     </item>
     <item>
-      <title>La Gran Oportunidad del Gobierno Abierto</title>
-      <link>http://www.trcimplan.gob.mx/blog/la-gran-oportunidad-del-gobierno-abierto.html</link>
-      <guid isPermaLink="false">blog-la-gran-oportunidad-del-gobierno-abierto</guid>
-      <pubDate>Wed, 08 Jul 2015 17:00:00 -0500</pubDate>
-      <author>Ing. Guillermo Valdés Lozano</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/la-gran-oportunidad-del-gobierno-abierto/imagen.jpg"><br>
+      <title>Registro de Una Propiedad en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-registro-de-una-propiedad.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-economia-registro-de-una-propiedad</guid>
+      <pubDate>Tue, 14 Jul 2015 12:35:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para registrar una propiedad: número de trámites, tiempo (días) y costo (% valor de la propiedad). Este indicador se calcula a nivel estatal.</p>
 
-<blockquote>
-  <p><em>"El gobierno abierto es un nuevo modelo de gobernanza que busca transformar la relación entre gobierno y sociedad para fortalecer nuestra democracia. Se trata de crear un ecosistema que posiciona al gobierno como plataforma de innovación."</em></p>
-  
-  <p>Plan de Acción México 2013-2015.</p>
-</blockquote>
-
-<p>No cabe duda que “Gobierno Abierto” se ha vuelto un concepto muy mencionado en discursos, medios masivos y documentos académicos. Al punto de que ocurren diversas interpretaciones que pueden llegar a causar confusión.</p>
-
-<p>Aunque no podemos establecer una fecha en la identifiquemos cuando haya “aparecido” el primer Gobierno Abierto, encontraremos muchos indicios donde los gobernados siempre han exigido a sus gobernantes mayor eficiencia, más información y el uso sensato de los recursos públicos.</p>
-
-<p>Recordando un poco de historia, <strong>las largas distancias y la baja velocidad de comunicación eran factores que ralentizaban la ejecución del gobierno.</strong> Por ejemplo, a principios del siglo pasado, el mejor medio de transporte era el ferrocarril y las comunicaciones más veloces usaban el telégrafo. Razones por la cuales la implementación de una nueva ley se extendía algunos kilómetros a la redonda por cada día transcurrido, desde que aparecía su publicación en el Diario Oficial de la Federación (DOF). Hace tiempo se derogó este método y ahora las leyes son válidas tan pronto aparecen en el DOF. Sin lugar a dudas, <strong>el ejercicio del Estado está en función de la modernidad.</strong></p>
-
-<p>Cada vez estamos más cerca de ser una <strong>sociedad “totalmente conectada”</strong>, donde requerimos que el <strong>Internet</strong> sea más que un servicio de paga, <strong>necesitamos que se vuelva un derecho ciudadano; donde el Estado deberá procurar que todos los ciudadanos tengan acceso y respetando siempre la neutralidad de la red.</strong> En consecuencia, el Estado <strong>debe reconocer ahora la existencia y participación de ciudadanos con principios colectivos, que están informados, son proactivos y críticos;</strong> que tienen a su alcance los beneficios de la tecnología, el Internet y las redes sociales.</p>
-
-<p><a href="http://www.trcimplan.gob.mx/blog/la-gran-oportunidad-del-gobierno-abierto/open-government-schema.jpg"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/la-gran-oportunidad-del-gobierno-abierto/open-government-schema-baja-resolucion.jpg" alt="Open government schema"></a></p>
-
-<blockquote>
-  <p><em>"El concepto de Gobierno Abierto surge como respuesta a la crisis de confianza en el sistema democrático y en los gobiernos contemporáneos y busca renovar la confianza de los ciudadanos en sus autoridades fomentando los principios de transparencia, acceso a la información, participación ciudadana, rendición de cuentas y uso estratégico de tecnologías de la información para orientar las acciones de las instituciones públicas hacia el máximo beneficio social."</em></p>
-  
-  <p>Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales</p>
-</blockquote>
-
-<p><strong>Un error muy común es el confundir Gobierno Abierto con “Gobierno Electrónico”</strong> o e-government. La Organización de los Estados Americanos define el Gobierno Electrónico como el uso de las Tecnologías de Información y Comunicación (TICs), por parte de las instituciones de gobierno, para mejorar cualitativamente los servicios e información que se ofrecen a los ciudadanos; aumentar la eficiencia y eficacia de la gestión pública e incrementar sustantivamente la transparencia del sector público y la participación ciudadana.</p>
-
-<p>Los conceptos de <strong>Datos Abiertos y Transparencia están muy cercanos y relacionados al Gobierno Abierto.</strong> Pero en la definición no son lo mismo.</p>
-
-<p>La <strong>Transparencia</strong> está garantizada por la <strong><a href="http://www.dof.gob.mx/nota_detalle.php?codigo=5391143&amp;fecha=04/05/2015">Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental</a></strong> y por la <strong>Ley General de Transparencia y Acceso a la Información Pública,</strong> reglamentada en el artículo 6 de la Constitución Política de los Estados Unidos Mexicanos; <strong>es el derecho de toda persona a conocer la información pública sin justificar su utilización y a ser informado de los asuntos públicos.</strong></p>
-
-<p>El <strong><a href="http://inicio.ifai.org.mx/">Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales</a> (INAI)</strong> es el encargado de garantizar el derecho de acceso a la información pública en posesión de cualquier autoridad, entidad, órgano u organismo que forme parte de los poderes Ejecutivo, Legislativo y Judicial, así como de cualquier persona física, moral o sindicato que reciba y ejerza recursos públicos o realice actos de autoridad en el ámbito federal. El INAI también se encarga de la protección de los datos personales en posesión del sector público y privado.</p>
-
-<p>Los <strong><a href="http://www.trcimplan.gob.mx/blog/que-son-datos-abiertos.html">Datos Abiertos</a></strong> son los datos digitales de carácter público que son accesibles en línea y que también pueden ser usados, reutilizados y redistribuidos por cualquier interesado.</p>
-
-<p>Ampliando la definición anterior, <strong>los Datos Abiertos constituyen una poderosa herramienta que mejora la forma de trabajar, dentro y fuera del gobierno federal, estatal o municipal.</strong> Hacia el interior aumenta la eficiencia del trabajo entre las dependencias; hacia el exterior, <a href="http://www.trcimplan.gob.mx/blog/datos-abiertos-gobiernos-municipales.html">se vuelven componentes básicos para resolver problemáticas del ciudadano, empresas y organizaciones civiles.</a></p>
-
-<p>Para explicarlo en palabras sencillas, podemos reafirmar que la <strong>Transparencia es el derecho que tiene el ciudadano para solicitar datos al Gobierno y también la información que por ley debe de ser pública</strong>  como el marco normativo, estructura orgánica, remuneración de todos los servidores públicos, etc. Mientras que los <strong>Datos Abiertos constituyen la disponibilidad en Internet de datos que genera y concentra el Gobierno, que tienen el potencial de promover el desarrollo de nuevos instrumentos, conocimiento, productos y servicios;</strong> no sólo el ciudadano los utiliza, también las pequeñas y grandes empresas, académicos y periodistas.</p>
-
-<p>Nos encontramos frente a una <strong>gran oportunidad de modernización,</strong> no sólo en lo tecnológico, sino <strong>ante la posibilidad del mayor grado de cooperación que haya existido entre la sociedad y el gobierno.</strong> Es invitar a hacer escrutinio, análisis, crítica constructiva y la construcción de soluciones en sinergia.</p>
-
-<blockquote>
-  <p><em>"Podemos decir que el gobierno abierto es una nueva forma de comunicación entre gobierno y sociedad porque el gobierno abre y comparte la información, promueve una constante conversación con los ciudadanos para escuchar lo que ellos opinan y toma decisiones basadas en sus necesidades, haciendo uso de las nuevas tecnologías para lograrlo."</em></p>
-  
-  <p>Andrea Barenque Hernández.</p>
-</blockquote>
-
-<h3>Referencias</h3>
-
-<ul>
-<li><a href="http://inicio.ifai.org.mx/SitePages/Transparencia/GobiernoAbierto.aspx">INAI Gobierno Abierto </a></li>
-<li><a href="https://commons.wikimedia.org/wiki/File:Open_government_schema.jpg">Wikipedia Commons: Open government schema</a></li>
-<li><a href="http://datos.gob.mx/acerca/">Datos.gob.mx Acerca</a></li>
-</ul>
-]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0.5910</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0.5910</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0.5800</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0.5800</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Percentil promedio.</p>]]></description>
     </item>
     <item>
-      <title>Hacia Ciudades que Construyen Humanos en Convivencia</title>
-      <link>http://www.trcimplan.gob.mx/blog/hacia-ciudades-que-construyen-humanos-en-convivencia.html</link>
-      <guid isPermaLink="false">blog-hacia-ciudades-que-construyen-humanos-en-convivencia</guid>
-      <pubDate>Tue, 07 Jul 2015 16:00:00 -0500</pubDate>
-      <author>Arq. Susana Montano</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/hacia-ciudades-que-construyen-humanos-en-convivencia/imagen.jpg"><br>
+      <title>Empresas Certificadas como Limpias en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-empresas-certificadas-como-limpias.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-empresas-certificadas-como-limpias</guid>
+      <pubDate>Tue, 14 Jul 2015 12:28:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de empresas que cuentan con la certificación de “Empresa Limpia”emitido por la Procuraduría Federal de Protección al Ambiente (PROFEPA), que evidencia el cumplimiento de la normatividad y buenas prácticas ambientales.
+Unidades: Empresas certificadas como limpias por cada mil.
+Fuente: Procuraduría Federal de Protección al Ambiente (PROFEPA), 2009-2012.</p>
 
-<blockquote>
-  <p>“Si buscas resultados distintos, no hagas siempre lo mismo”</p>
-  
-  <p>Albert Einstein</p>
-</blockquote>
-
-<p>Debido a la cantidad y complejidad de los problemas que se presentan en las ciudades actualmente, es necesario cambiar la manera de enfrentarlos. Es bien conocido que no se pueden obtener resultados diferentes haciendo las cosas de la misma manera, por lo que desde un aspecto teórico, habrá que replantearnos el enfoque que tenemos de la vida y del orden de prioridades, empezando por la visión actual de la economía; darle valor a la vida humana antes que a las cosas materiales y superfluas, considerando el bienestar humano como fin último. Desde el aspecto práctico, habrá que realizar acciones concretas priorizando lo que nos lleve a esta visión, empezando con el espacio público, el cual se considera el principal escenario que por si sólo estimula la convivencia.</p>
-
-<p>Manfred Max-Neef (2009), economista y ambientalista chileno, ganador del Premio Nobel Alternativo de Economía, quien en su conferencia magistral “El mundo en rumbo de colisión”, establece un contexto de la economía actual y la crisis en la que nos encontramos y presenta un modelo de economía humano y no consumista mediante propuestas para poner en práctica el desarrollo a nuestra escala. Volver a voltear hacia adentro.(1)</p>
-
-<p>Durante esta conferencia, el economista hace referencia al hambre en el mundo, indica que con el dinero que se usó para salvar a los bancos de la situación financiera en 2009, se podrían salvar miles de vidas de las personas que mueren de hambre durante 600 años. La realidad es que desde la postura de la economía neoliberal, es más importante y urgente salvar los bancos. (Max-Neef, 2009) ¿Es esto para la humanidad prioritario?</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/hacia-ciudades-que-construyen-humanos-en-convivencia/01.jpg" alt="Espacios pobres vs ricos"></p>
-
-<blockquote>
-  <p>“Yet the gross national product does not allow for the health of our children, the quality of their education or the joy of their play. It does not include the beauty of our poetry or the strength of our marriages, the intelligence of our public debate or the integrity of our public officials. It measures neither our wit nor our courage, neither our wisdom nor our learning, neither our compassion nor our devotion to our country. It measures everything in short, except that which makes life worthwhile.”</p>
-  
-  <p>Robert F. Kennedy.</p>
-</blockquote>
-
-<p>Menciona que la problemática de la sociedad actual se desprende principalmente de la búsqueda inalcanzable de la “felicidad” que nos hemos impuesto como meta, al creer que tener más es mejor.</p>
-
-<p>Explica que el paradigma económico dominante, parte de la ideología neoliberal que pone como prioridad el crecimiento económico a cualquier costo, lo cual promueve los anti-valores de acumulación, competencia y codicia.</p>
-
-<p>El economista subraya que debemos cambiar de enfoque ya que nos encontramos tratando de resolver problemas actuales con teorías del siglo XIX. Por lo cual señala que un Nuevo Paradigma requiere alejarnos de los valores anteriormente mencionados como metas centrales del presunto bienestar social y remplazarlos por los de solidaridad, cooperación y compasión con la visión del desarrollo humano suponiendo que la calidad de vida, bienestar, salud, amor, abundancia sean los objetivos de una construcción del ser humano en comunidad por medio de la convivencia.</p>
-
-<p>Max-Neef desmitifica una serie de principios que nos han impuesto y presenta como alternativa posible un modelo económico sustentado en cinco principios básicos:</p>
-
-<ol>
-<li>La economía debe servir a las personas y no las personas a la economía; el desarrollo debe dirigirse a las personas y no a los objetos.</li>
-<li>El crecimiento no es lo mismo que el desarrollo y el desarrollo no necesariamente precisa de crecimiento.</li>
-<li>Ninguna economía es posible al margen de los servicios que prestan los ecosistemas.</li>
-<li>La economía es un sub-sistema de un sistema mayor (la Tierra) que es finito, por lo tanto el crecimiento permanente es imposible.</li>
-<li>Ningún interés económico, puede estar por sobre la reverencia por la vida.(2)</li>
-</ol>
-
-<p>Desde esta perspectiva se han ido realizado esfuerzos en todos los niveles, tanto organizaciones internacionales como locales. Los países desarrollados han dirigido muchas de sus políticas hacia el bienestar, calidad de vida y salud. Así poco a poco el paradigma ha cambiado y se han ido adoptando acciones concretas que de manera muy puntual, cambian el enfoque y actúan sobre la línea de la convivencia, teniendo gran éxito para la contribución de problemas actuales.</p>
-
-<p>La convivencia en su acepción más amplia, se trata de un concepto vinculado a la <strong>coexistencia pacífica y armoniosa de grupos humanos en un mismo espacio</strong>(3), con otras palabras, el compartir, vivir en compañía de otros, ser conscientes de que formamos parte de un sistema social y que tenemos que contribuir al desarrollo de cada sistema al que pertenecemos, en donde el desarrollo personal o individual incida y/o aporte al del sistema.</p>
-
-<p>Mucho se habla de que queremos ciudades hechas para la gente, por lo tanto debe ser de primordial interés el bienestar, salud y la felicidad de su población. La planeación e intervenciones de ciudad deberían estar orientadas hacia la creación de espacios que faciliten y promuevan la vida en comunidad. Además la priorización en la toma de decisiones deberá ser a partir de lo que contribuya más a la <strong>construcción del ser humano en convivencia, es decir, a desarrollar las capacidades, habilidades, talentos y valores del la sociedad de manera individual y en conjunto.</strong></p>
-
-<p>Como el escenario ideal para fomentar la convivencia en las ciudades, es el espacio público, es donde se tejen las relaciones sociales, por lo tanto la conformación de estos espacios en la ciudad deberían contribuir a desarrollar las capacidades humanas. Por lo tanto, si los valores centrales giran en torno a la colaboración, solidaridad y compasión lo mejor sería determinar como criterio fundamental para la creación de ciudades, el desarrollo del ser humano en sociedad.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/hacia-ciudades-que-construyen-humanos-en-convivencia/02.jpg" alt="Espacio publico"></p>
-
-<p>El espacio público adecuado facilita el desarrollo del arte, cultura, deporte, tecnología, ciencia y la comunicación; se centra en el ser humano y no de manera individual, sino en compañía de otros. Reinventar <strong>el espacio público con el objetivo de facilitar la convivencia es el reto</strong> que muchos se están fijando, mediante la creación de una estructura con nodos que faciliten la actividad colectiva vinculados por medio de andadores atractivos que estimulen la comunicación y la movilidad, y que promuevan que la gente se junte, se conozca, se encuentre, comparta, viva experiencias en sociedad. Mediante infraestructura adecuada para una movilidad mas eficiente y sustentable, con mas paseos peatonales que en automóviles, que ayuden a ejercitar, conocer la ciudad, socializar y disfrutar el paseo, vivir la ciudad.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/hacia-ciudades-que-construyen-humanos-en-convivencia/03.jpg" alt="Espacio publico"></p>
-
-<p>A continuación se presentan algunas recomendaciones para crear ciudades más humanas que contribuyan por el hecho de vivir en ellas a la construcción del ser humano en convivencia:</p>
-
-<ol>
-<li><strong>Acondicionar y ampliar las banquetas</strong> para darle más espacio al peatón no sólo para desplazarse de un lado a otro, sino para quedarse en el lugar a disfrutar de la vista y/o descansar.</li>
-<li><strong>Incorporar la escala peatonal</strong> (walk scale) mediante mobiliario urbano en banquetas o plazas y parques, con el fin de brindar confort al peatón.</li>
-<li><strong>Crear nodos de espacios públicos interconectados</strong> físicamente entre sí a través de redes peatonales, áreas verdes y ciclovías acondicionadas.</li>
-<li><strong>Acondicionamiento climático y acústico del espacio urbano,</strong> produciendo barreras acústicas (con materiales naturales y artificiales) que protejan al peatón del ruido del tráfico y le ofrezcan protección de las condiciones climáticas adversas (frío, calor, lluvia, etc).</li>
-<li><strong>Integración de la pedagogía al diseño y a la gestión del espacio urbano.</strong> Fomentando la cultura, educación y concientización sobre el uso correcto del espacio urbano: vialidades, vegetación, residuos, etc.</li>
-<li><strong>Incentivar la movilidad sustentable,</strong> estimulando el uso de transportes masivos y ofreciendo la infraestructura adecuada para el uso masivo de la bicicleta y recorridos a pie.</li>
-<li><strong>Iluminar el espacio público,</strong> para brindar la percepción de mayor seguridad y de calidez.</li>
-<li><strong>Equidad e inclusión social,</strong> el diseño del espacio público debe ser capaz de conciliar los diferentes ritmos de los usuarios, desplazamientos a diversas velocidades y con los requerimientos para los diferentes tipos de usuarios, tanto de los menos favorecidos o más vulnerables como son personas con alguna discapacidad, personas que necesitan detenerse a descansar, como de quien recorre el espacio observando vitrinas, ciclistas, o transporte motorizado.</li>
-<li><strong>Diseñar con materiales duraderos y de bajo costo,</strong> para que resistan en el tiempo el uso frecuente de las personas y que requiera poca inversión sin que ello vaya en detrimento de la calidad de los mismos o de su diseño.</li>
-<li><strong>Incrementar la biodiversidad (flora y fauna) utilizando especies de la región</strong> para que esto atraiga fauna que permitirá una mejora de la calidad ambiental de la ciudad. Además el uso de vegetación visual y olfativamente diferente ofrece un espacio cambiante sensorialmente.(4)</li>
-</ol>
-
-<p>Estas estrategias son una forma de humanizar el espacio público, sin embargo deberán estar acompañadas de muchas acciones que sumadas hacen la diferencia entre la ciudad amable, inclusiva y democrática y la ciudad agresiva, excluyente e indiferente.</p>
-
-<h3>Referencias</h3>
-
-<ol>
-<li>Manfred Max-Neef (2009), “El Mundo en Rumbo de Colisión”. Conferencia Magistral en Universidad Internacional de Andalucía.</li>
-<li><a href="http://viva.org.co/escuelas/?p=64">http://viva.org.co/escuelas/?p=64</a></li>
-<li><a href="http://definicion.de/convivencia/#ixzz3egfJ2XLm">http://definicion.de/convivencia/#ixzz3egfJ2XLm</a></li>
-<li><a href="http://istmo.mx/2012/04/la-reconquista-de-la-calle-hacia-ciudades-mas-humanas/">http://istmo.mx/2012/04/la-reconquista-de-la-calle-hacia-ciudades-mas-humanas/</a></li>
-</ol>
-]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>0.6000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0.8000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>1.2000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0.8000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>1.2000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Por cada mil.</p>]]></description>
     </item>
     <item>
-      <title>La Ciudad Compacta (como la familia pequeña) Vive Mejor</title>
-      <link>http://www.trcimplan.gob.mx/blog/la-ciudad-compacta-vive-mejor.html</link>
-      <guid isPermaLink="false">blog-la-ciudad-compacta-vive-mejor</guid>
-      <pubDate>Wed, 01 Jul 2015 15:16:00 -0500</pubDate>
-      <author>Arq. Cecilio Pedro Secunza Schott</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/la-ciudad-compacta-vive-mejor/imagen.jpg"><br>
+      <title>Aprovechamiento del Biogás en Rellenos Sanitarios en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios</guid>
+      <pubDate>Tue, 14 Jul 2015 12:16:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
+Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</p>
 
-<blockquote>
-  <p><strong>"Necesitamos ciudades más densas, compactas, integradoras, inclusivas,</strong> que permitan reducir las desigualdades y recuperar el espacio público como bien común de todos los ciudadanos"</p>
-  
-  <p>Joan Clos, ONU-Habitat</p>
-</blockquote>
-
-<p>En la actualidad las ciudades mexicanas (al igual que la mayoría a nivel mundial), viven un proceso de crecimiento horizontal desmedido. Se dice que son ciudades 3D: Distantes, Dispersas y Desconectadas(1). La Zona Metropolitana de la Laguna (que comprende los municipios de Torreón, Gómez Palacio, Lerdo y Matamoros) no es la excepción, ya que ha experimentado un crecimiento de su área urbana mucho más acelerado al de su población. Del año 2000 al 2010, la ciudad disminuyó su densidad media urbana de 87.8 Hab./Ha a 77.1 Hab./Ha, lo cual se traduce en mayores distancias de desplazamiento, mayor demanda de infraestructura y servicios urbanos, incremento en las tasas de motorización, contaminación e inequidad social. El “urbanismo del automóvil” ha diseñado ciudades que responden directamente a la forma y velocidad en que se mueven los coches, produciendo manchas urbanas a su escala y necesidad.</p>
-
-<p>La política pública a adoptar como estrategia debe ser la de crecimiento interno: densificar la ciudad implotando su crecimiento hacia adentro y hacia arriba. Para ello, es necesario que la planeación urbana defina como primera acción el detener el crecimiento horizontal y promover el desarrollo interno en vacíos intra-urbanos, así como la vivienda vertical.</p>
-
-<p>Las ciudades compactas “viven” mejor, según nos muestran diferentes aspectos. Los presupuestos municipales se distribuyen en menores superficies, requiriendo menor cobertura de infraestructura como pavimento, drenaje, electricidad, recolección de residuos sólidos etc. La necesidad de desplazamientos es menor, por lo que el transporte público es más eficiente y cuenta con mayor cobertura. A su vez, la calidad urbana también puede ser mejor, las zonas densas cuentan con más personas caminando, se fomenta el comercio así como la mezcla de usos y estratos sociales. La ciudad sustentable del siglo XXI no es aquella con muchas áreas verdes ni azoteas cubiertas con celdas solares; es sencillamente la ciudad compacta.</p>
-
-<p>Sin embargo, la densificación <em>per sé</em>, no es la solución a toda esta problemática. Se debe implementar una estrategia de densificación inteligente(2), donde se analicen a fondo las intensidades óptimas para cada zona de la ciudad, así como el equipamiento necesario a la hora de densificar. No todas las ciudades pueden pretender ser Manhattan.</p>
-
-<blockquote>
-  <p>“Es importante considerar el diseño urbano a nivel peatonal. Muchas veces se cree que para lograr alta  densidad basta con crear desarrollos con el modelo “torres en el parque”. Sin embargo, el diseño urbano  debe incluir el nivel de peatón, considerar la escala humana y reforzar la calidad del diseño de las calles y los espacios públicos.”</p>
-  
-  <p>Erik Vittrup, ONU-Habitat</p>
-</blockquote>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/la-ciudad-compacta-vive-mejor/01-zml-1976-1980-2010.jpg" alt="Zona Metropolitana de La Laguna 1976-1980 y 2010"></p>
-
-<p>Haciendo un ejercicio de simulación urbana: ¿Qué pasaría si la Zona Metropolitana de la Laguna tuviera la densidad media con la que cuenta la Zona Metropolitana del Valle de México? Es decir, si nuestro promedio de niveles de edificación fuera aproximadamente el doble, la vivienda se desarrollara en vertical y se llenaran los vacíos intra-urbanos. Con un cálculo básico, la ZML solo necesitaría de 11,486Has(3), casi la mitad con la que cuenta ahora. Es decir, la mancha urbana tendría la dimensión con la que contaba en los años 1976-1980, la cual era limitada aproximadamente por el aeropuerto al noreste de la ciudad, y por el Blvd. Rodríguez Triana al oriente, y por su parte, Gómez Palacio y Lerdo solo requerirían de menos de la mitad de su territorio urbano actual. Una ciudad de dimensiones considerables pero con un contorno todavía contenido.</p>
-
-<p>El “daño” está hecho, la ciudad se desbordó y promete seguir haciéndolo, pero aún estamos en tiempo. El reto está en revertir esta tendencia dispersora por medio de estrategias y acciones de contención y definición de los límites urbanos, fomento a la ocupación de los vacíos, verticalización de la vivienda y reciclaje-aprovechamiento del suelo consolidado(4). Todo esto, implica una negociación del espacio donde se deberá sacrificar algunos aspectos pero se ganarán muchos otros. Siempre con el fin de desarrollar una ciudad próspera, equitativa y sustentable.</p>
-
-<h3>Superposición de área urbana de la ZML con otras zonas metropolitanas de México</h3>
-
-<p><img class="img-responsive" style="float:left" src="http://www.trcimplan.gob.mx/blog/la-ciudad-compacta-vive-mejor/02-comparativa-valle-de-mexico.jpg" alt="ZM La Laguna en comparativa con ZM Valle de México"> <img class="img-responsive" style="float:left" src="http://www.trcimplan.gob.mx/blog/la-ciudad-compacta-vive-mejor/03-comparativa-guadalajara.jpg" alt="ZM La Laguna en comparativa con ZM Guadalajara"> <img class="img-responsive" style="float:left" src="http://www.trcimplan.gob.mx/blog/la-ciudad-compacta-vive-mejor/04-comparativa-monterrey.jpg" alt="ZM La Laguna en comparativa con ZM Monterrey"> <img class="img-responsive" style="float:left" src="http://www.trcimplan.gob.mx/blog/la-ciudad-compacta-vive-mejor/05-comparativa-tijuana.jpg" alt="ZM La Laguna en comparativa con ZM Tijuana"> <img class="img-responsive" style="float:left" src="http://www.trcimplan.gob.mx/blog/la-ciudad-compacta-vive-mejor/06-comparativa-leon.jpg" alt="ZM La Laguna en comparativa con ZM Leon"></p>
-
-<div style="clear:left;"></div>
-
-<h3>Referencias</h3>
-
-<ol>
-<li>Reforma Urbana: 7 propuestas para las ciudades de México. México, D.F., 2013</li>
-<li>Cámara de Senadores del H. Congreso de la Unión. (2014). México Compacto: Las condiciones para una densificación inteligente en México. México D.F.: Grupo Impresso.</li>
-<li>IMPLAN Torreón. (2015). <a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/index.html">Sistema de Información Geográfica 2015, de IMPLAN Torreón</a></li>
-<li>Transconsult. (2011). Plan Integral de Movilidad Urbana Sustentable. Torreón, Coah.</li>
-</ol>
-]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> 1)SI TIENE, 0)NO TIENE.</p>]]></description>
     </item>
     <item>
-      <title>La Otra Violencia Contra los Niños</title>
-      <link>http://www.trcimplan.gob.mx/blog/la-otra-violencia-contra-los-ninos.html</link>
-      <guid isPermaLink="false">blog-la-otra-violencia-contra-los-ninos</guid>
-      <pubDate>Tue, 30 Jun 2015 14:30:00 -0500</pubDate>
-      <author>Lic. Alfredo Viesca Domínguez</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/la-otra-violencia-contra-los-ninos/imagen.jpg"><br>
+      <title>Disposición Adecuada de Residuos Sólidos en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-disposicion-adecuada-de-residuos-solidos</guid>
+      <pubDate>Tue, 14 Jul 2015 12:06:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
+Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</p>
 
-<p>De acuerdo con el boletín de prensa n° 3335 de esta Cámara del 4 de abril de 2014  se presentó en esta instancia el documental <strong>“Mataron a mi papá: Las Víctimas Ocultas de la Guerra del Narcotráfico”,</strong> producido por la periodista española María Verza, que retrata la realidad que enfrentan los hijos de padres asesinados a manos del crimen organizado, en donde se plantea que el combate al narcotráfico en México ha producido 20 mil niños huérfanos; son las verdaderas víctimas.</p>
-
-<p>A través del testimonio de “Lupe” y “Brian”, nombres ficticios dados a menores que presenciaron la ejecución de sus padres, el material filmográfico hace hincapié en el efecto emocional y psicológico de la violencia de la “guerra contra el narco” en los cerca de 20 mil niños huérfanos en México que este fenómeno ha cobrado.</p>
-
-<p>Denuncia cómo la desensibilización que implica la violencia cotidiana y la falta de atención especializada a los menores que la presencian, puede envolverlos a futuro, entre otros aspectos negativos, en la delincuencia, hecho que ya se ha comprobado en numerosos casos.</p>
-
-<p>Asimismo, subraya la falta de interés por parte de las autoridades para rehabilitar a las víctimas colaterales de la “guerra contra el narco”, y la nula confianza de los afectados en aquéllas, por los altos índices de corrupción y colusión de funcionarios con el crimen organizado. De acuerdo a estimaciones del <a href="http://www.trcimplan.gob.mx/blog/torreon-vulnerabilidad-social.html">IMPLAN en Torreón se estimó en 4 mil los niños en esta situación entre 2008 y 2012.</a></p>
-
-<p>Otras organizaciones como La red por los Derechos de la Infancia AC, que es uno de los organismos de la sociedad civil que le ha dado un seguimiento puntual al fenómeno de reclutamiento de menores de edad por parte del crimen organizado en México, y que ha participado en la rehabilitación de algunos de estos chicos que han sido procesados penalmente por sus vínculos con la delincuencia organizada proporciona datos preocupantes.</p>
-
-<p>Esta organización considera que en base al seguimiento que ha realizado, entre 20 y 30 mil niños, niñas y adolescentes sufren lo que la red denomina <em>narcoexplotación</em>, es decir, menores que <strong>no sólo están siendo explotados, sino que son objeto directo de beneficio para grupos criminales.</strong></p>
-
-<p>El Comité de los Derechos del Niño que es un órgano de <strong>expertos independientes</strong> que supervisa la aplicación de la <strong>Convención sobre los Derechos del Niño</strong> por sus Estados Partes, así como la aplicación de los dos protocolos facultativos de la Convención, es decir, los relativos a la <strong>participación de niños en los conflictos armados</strong> y a la <strong>venta de niños, la prostitución infantil y la utilización de niños en la pornografía,</strong> ha hecho algunas recomendaciones al Estado Mexicano en materia de protección de los derechos de la infancia involucrada en la violencia armada.</p>
-
-<h3>El Comité exhorta al Estado parte a que:</h3>
-
-<blockquote>
-  <p>a) Recopile datos sobre el número de niños detenidos, heridos o muertos en la lucha que mantienen el ejército y las fuerzas policiales contra los grupos armados no estatales;</p>
-  
-  <p>b) Investigue todos los delitos cometidos contra niños y garantice que los tribunales civiles tengan competencia para juzgar los delitos contra menores cometidos por el ejército;</p>
-  
-  <p>c) Evite la impunidad garantizando el enjuiciamiento y castigo de los responsables;</p>
-  
-  <p>d) Adopte medidas adecuadas para proteger a los menores de las actuaciones policiales y militares en el contexto de las medidas adoptadas para garantizar la seguridad pública, así como de la violencia armada procedente de los grupos armados no estatales;</p>
-  
-  <p>e) Establezca los mecanismos oficiales y los marcos jurídicos pertinentes que garanticen los derechos humanos y la protección de los menores, en especial las niñas, ante la violencia derivada de las acciones militares y ejercidas por los grupos armados no estatales;</p>
-  
-  <p>f) Establezca reglamentos y protocolos específicos para las fuerzas militares y de seguridad sobre la forma de garantizar la integridad de los niños durante las investigaciones de las que sean objeto los grupos armados no estatales y las actividades para combatirlos.</p>
-  
-  <p>Comité de los Derechos del Niño de Naciones Unidas, Observaciones finales a México, Febrero 2011</p>
-</blockquote>
-
-<p>Ante esta situación lo preocupante es que el Estado Mexicano ha sido señalado por el Comité de los Derechos del Niño de la ONU por carecer de información precisa sobre algunos temas; de acuerdo a este organismo el Estado Mexicano no sabe cuántas madres o padres de familia están desaparecidos o han sido asesinados por la violencia en el país, por lo que no hay datos sobre el número de niños afectados, en orfandad y que deben ser atendidos.</p>
-
-<p>De acuerdo con los datos publicados por periódicos de circulación nacional y revistas especializadas en análisis de este tipo de problemas, la justificación del Gobierno de México es que <strong>la clasificación estadística de víctimas no cuenta con criterios para detallar cuántas “madres y/o padres” han sido afectados por la violencia.</strong></p>
-
-<p>Ante la petición de “información desglosada” sobre el número de niños, niñas y adolescentes, madres y padres asesinados o desaparecidos en los últimos años; México sólo respondió  que creó el <strong>Registro Nacional de Datos de Personas Extraviadas o Desaparecidas (RNPED)</strong> en el que existen datos por sexo, edad, nacionalidad, entidad federativa, fecha o lugar de desaparición.</p>
-
-<p>En estas circunstancias, el razonamiento podría ser  en un primer momento que todos como ciudadanos, tenemos algo de responsabilidad en el problema, sin embargo el Estado Mexicano como autoridad tiene un mayor compromiso, cuenta con las instituciones, la tecnología, el personal humano y los recursos económicos necesarios para recabar la información necesaria.</p>
-
-<p>De la  información detallada que se obtenga y que tiene que  ser pública, deberán  surgir los criterios para la elaboración de políticas públicas que disminuyan considerablemente la violencia hacia los niños, de ellos no se puede pensar solamente que son el futuro del país, sino de un presente constantemente amenazado.</p>
-]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>100.00 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>100.00 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>100.00 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>100.00 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>100.00 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>]]></description>
     </item>
     <item>
-      <title>Evolución del Mercado Hipotecario en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon.html</link>
-      <guid isPermaLink="false">blog-evolucion-del-mercado-hipotecario-en-torreon</guid>
-      <pubDate>Wed, 24 Jun 2015 14:10:00 -0500</pubDate>
-      <author>Lic. Alicia Valdez Ibarra</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon/imagen.jpg"><br>
+      <title>Apertura de un Negocio en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-apertura-de-un-negocio.html</link>
+      <guid isPermaLink="false">indicadores-torreon-economia-apertura-de-un-negocio</guid>
+      <pubDate>Tue, 14 Jul 2015 12:02:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice de "Gobiernos Eficaces y Eficientes" Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para abrir un negocio: número de trámites, tiempo (días) y costo (% ingresos per cápita). Este indicador se calcula a nivel estatal.</p>
 
-<p>Durante el último año, medido de abril de 2014 a abril de 2015, el crecimiento anual del mercado hipotecario en el municipio de Torreón fue de 6.49%, mientras la zona metropolitana de La Laguna creció en promedio 7.23%. Tasas muy superiores al promedio nacional de 3.00%.</p>
-
-<p>Tan solo en el primer cuatrimestre de 2015 los créditos hipotecarios en Torreón aumentaron a una tasa de 1.42%. La gran mayoría de los créditos otorgados fue para la adquisición de viviendas nuevas, aunque los créditos con mayor aumento fueron los otorgados para la adquisición de viviendas usadas, con un incremento de 3.98%.</p>
-
-<div style="clear:left;"></div>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon/01-creditos-hipotecarios-en-torreon.png" alt="Creditos Hipotecarios en Torreon"> Fuente: Elaboración propia con datos de la Comisión Nacional Bancaria y de Valores (CNBV).<br>Nota: La gráfica no incluye los créditos a exempleados de los grupos financieros.</p>
-
-<p>En otras ciudades de la República Mexicana el mercado hipotecario tuvo un crecimiento similar, a excepción de Monterrey, donde el portafolio total de créditos hipotecarios disminuyó. Hermosillo y Chihuahua aumentaron su mercado aunque a una tasa considerablemente menor.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon/02-crecimiento-anual-del-mercado-hipotecario.png" alt="Crecimiento Anual del Mercado Hipotecario"> Fuente: Elaboración propia con datos de la Comisión Nacional Bancaria y de Valores (CNBV).</p>
-
-<h3>Importancia del mercado inmobiliario</h3>
-
-<p>El buen funcionamiento del mercado inmobiliario es clave para la salud de la economía. La vivienda no es solamente una necesidad básica, sino una parte importante de la inversión y en muchos casos el mayor componente de la riqueza: los hogares concentran la mayoría de su capital en sus bienes inmuebles. El mercado inmobiliario participa también en la transmisión de la política monetaria, facilita la movilidad social y territorial, además de ayudar a las economías a adaptarse a los shocks (Min Zhu, 2014).</p>
-
-<p>Vigilar el crecimiento del crédito es de particular importancia para organismos internacionales como el Fondo Monetario Internacional (FMI), ya que es clave en la identificación de ciclos de auge y caída del mercado hipotecario, fenómeno que ligado al apalancamiento y la exposición de hogares provoca crisis en la economía real.</p>
-
-<p>El hecho de que en nuestra región el crédito crezca a una tasa más alta que la nacional es una señal de desarrollo económico, pues los mercados inmobiliarios crecen a medida que las economías se desarrollan. Sin embargo, debemos analizar también indicadores como los días de atraso y las probabilidades de impago para darnos una idea más clara de la situación.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon/03-dias-de-atraso-en-el-pago.png" alt="Dias de Atraso en el Pago"> Fuente: Elaboración propia con datos de la Comisión Nacional Bancaria y de Valores (CNBV).<br>Nota: Al mes de abril de 2015.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon/04-probabilidad-de-inclumpimiento.png" alt="Probabilidad de Incumplimiento"> Fuente: Elaboración propia con datos de la Comisión Nacional Bancaria y de Valores (CNBV).<br>Nota: Al mes de abril de 2015</p>
-
-<p>En estos indicadores, tanto Torreón como La Laguna se encuentran lejos de la media nacional, ya que mientras la probabilidad de incumplimiento del municipio de Torreón es de 8.9%, el promedio nacional es de 7.87%. Además, los laguneros se atrasan en promedio 27 días en los pagos de sus hipotecas mientras los mexicanos en promedio se atrasan 14.</p>
-
-<p>Los resultados negativos en la probabilidad de incumplimiento y el atraso en los pagos puede ser causa de la disminución de poder adquisitivo provocado por un mínimo crecimiento en los salarios de este año sumado a la inflación interanual de 3.48% en abril de 2015, sin mencionar la falta de planeación financiera. Sin embargo, el aumento en los créditos hipotecarios en el municipio de Torreón empata con el aumento en el dinamismo de su economía durante el 2014 y el <a href="http://www.trcimplan.gob.mx/blog/indicadores-economicos-primer-trimestre-2015-torreon.html">primer trimestre de 2015</a>, en el cual se crearon 2,419 empleos formales y se abrieron 544 nuevas empresas. Esto muestra que a pesar de variables afectadas por características de la economía nacional como el aumento en los precios y el poco crecimiento de los salarios, la economía del municipio y su zona metropolitana está evolucionando.</p>
-
-<h3>Fuentes</h3>
-
-<ul>
-<li>Zhu, M. (2014). Los mercados inmobiliarios, la estabilidad financiera y la economía. En <a href="http://www.imf.org/external/spanish/np/speeches/2014/060514s.htm">Fondo Monetario Internacional. Obtenido el 21 de junio de 2014</a></li>
-</ul>
-]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>0.3445</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0.2255</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0.2255</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0.3788</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0.3788</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Percentil promedio.</p>]]></description>
     </item>
     <item>
-      <title>Pérdida de Patrimonio Arquitectónico en La Laguna</title>
-      <link>http://www.trcimplan.gob.mx/blog/perdida-patrimonio-arquitectonico-la-laguna.html</link>
-      <guid isPermaLink="false">blog-perdida-patrimonio-arquitectonico-la-laguna</guid>
-      <pubDate>Tue, 23 Jun 2015 13:00:00 -0500</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/perdida-patrimonio-arquitectonico-la-laguna/imagen.jpg"><br>
+      <title>Índice de Gestión de Calidad del Aire en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-indice-de-gestion-de-calidad-del-aire</guid>
+      <pubDate>Tue, 14 Jul 2015 11:54:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide los esfuerzos que dedica la administración de la ciudad a la gestión de la calidad
+del aire.
+Unidades: Variable discreta que asigna valores de 0 a 3, según la medición de la calidad del
+aire (se da el valor de: 1 si mide calidad, 2 si la reporta, 3 si cuenta con PROAIRE, 0 en otro
+caso). No se penaliza a las ciudades que no tienen la obligación de medir su calidad del aire
+de acuerdo con la NOM-156-SEMARNAT-2012, por lo que a ésas se les asigna el valor 3.
+Fuente: IMCO, con información al 2013.</p>
 
-<p>Por <strong>patrimonio arquitectónico</strong> se puede entender un edificio, un conjunto de edificios o las ruinas de un edificio o de un conjunto de edificios que, con el paso del tiempo, han adquirido un valor mayor al originalmente asignado y que va mucho más allá del encargo original. Este valor, puede ser cultural o emocional, físico o intangible, histórico o técnico.</p>
-
-<p>Las obras de arquitectura que pueden considerarse de patrimonio arquitectónico serán entonces las que, debido a una multiplicidad de razones, no todas de índole técnica o artística, se consideran que, sin ellas, el entorno donde se ubican dejaría de ser lo que es.</p>
-
-<p>Todo pueblo está ligado a su historia, no puede ignorar su pasado y vivir su presente, porque simplemente no sabe ni donde está parado ni hacia donde se dirige. Eso pasa en muchos lugares de nuestro país.</p>
-
-<p><strong>En la Ciudad de Torreón</strong> se han demolido un total de 24 inmuebles con un valor histórico. Conforme al listado elaborado por el Instituto Nacional de Antropología e Historia (INAH) y el instituto Nacional de Bellas Artes (INBA), en el se plasman 81 inmuebles con Valor Histórico de la ciudad de torreón registrados por el INBA y 79 por el INAH.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/perdida-patrimonio-arquitectonico-la-laguna/edificio-arocena.jpg" alt="Edificio Arocena"> <em>El edificio Arocena está ubicado en el primer cuadro de la ciudad de Torreón, sobre Avenida Hidalgo y Calle Cepeda; su arquitectura integra características art decó y art nouveaou.</em></p>
-
-<p>Actualmente se trabaja con la propuesta de incorporar más edificaciones al catálogo, para esto se elabora una ficha que es mandará al INAH con sede en Saltillo, para que posteriormente se haga el trámite en la ciudad de México.</p>
-
-<p>Existen muchos muebles con valor histórico en Torreón aun no catalogados por el INAH e INBA. Un ejemplo es el museo de la Revolución, ubicado en la calle Lerdo de Tejada. Otro inmueble no catalogado es un edificio ubicado entre las calles Leona Vicario, Morelos y Matamoros.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/perdida-patrimonio-arquitectonico-la-laguna/museo-revolucion.jpg" alt="Museo de la Revolución"> <em>Museo de la Revolución Torreón, Coahuila.</em></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/perdida-patrimonio-arquitectonico-la-laguna/casa-mudejar.jpg" alt="Casa Mudéjar"> <em>Casa Mudéjar, ubicada en la calle Ildefonso Fuentes numero 65 sur, entre las avenidas Allende y Matamoros.</em></p>
-
-<p><strong>En Ciudad Lerdo</strong> cerca de mil 500 edificios considerados históricos sólo se conservan 310, aseguran que con la Revolución inició el deterioro de inmuebles y chalets de gran valor arquitectónico.</p>
-
-<p>De 1940 a 1950, el Patrimonio Histórico de Lerdo se estimaba en mil 500 inmuebles. Según José Jesús Vargas Garza, cronista de la ciudad, en ese tiempo inicia, por parte de las autoridades y de la ciudadanía, la demolición parcial o total a gran escala de edificios con valor arquitectónico.</p>
-
-<p>El cronista da varios ejemplos: el majestuoso edificio que ocupó el legendario Hospital Zarco, el cual fue demolido con grandes cantidades de dinamita. En plena Revolución, en 1913, algunos monumentos fueron derribados con balas de cañón como el prestigiado Hotel Madrid, cuya arquitectura era de dos plantas, en su lugar ahora está el Hotel San Fernando, en la esquina de la calle Hidalgo y avenida Madero.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/perdida-patrimonio-arquitectonico-la-laguna/hotel-madrid.jpg" alt="Hotel Madrid en Ciudad Lerdo"> <em>Hotel Madrid en Ciudad Lerdo, Durango.</em></p>
-
-<p>En la actualidad, el padrón del Instituto Nacional de Antropología e Historia (INAH), contempla aproximadamente 310 inmuebles con valor histórico. Y es que el abandono y la falta de mantenimiento, provocaron el deterioro de decenas de edificios y chalets.</p>
-
-<p><strong>La Ciudad de Gómez Palacio</strong> se encuentra sin Patrimonio Histórico inventariado, se desconoce si existe un catálogo de edificios con valor histórico o artístico por el INAH o INBA, lo único que sabe es que los alumnos de la Universidad La Salle Laguna realizaron un inventario en el año 2004 que llevaron al Ayuntamiento y éste se encargaría de entregar el estudio a la mencionada institución.</p>
-
-<p>Si no existe un catálogo del Patrimonio Histórico, entonces no se tiene ninguna herramienta para proteger y conservar inmuebles, y específicamente impedir que se derrumben más inmuebles.  Gómez Palacio está lejos de tener un Centro Histórico, porque ya desde hace unos diez años perdió esa posibilidad; si bien es cierto que hace 20 tenía una marcada línea de casas de época por el centro, hoy ya no la tiene.</p>
-
-<p>Actualmente la ciudad no tiene una identidad arquitectónicamente hablando, las casas de época de principios de siglo fueron desapareciendo y ahora no hay ningún espacio que defina a Gómez Palacio, carece de una identidad de patrimonio edificado, solamente se conservan elementos aislados susceptibles de ser rescatados.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/perdida-patrimonio-arquitectonico-la-laguna/casa-caballero.jpg" alt="Casa Caballero"> <em>La casa Caballero localizada en la colonia el Campestre de Gómez Palacio. La casa fue construida entre 1984 y 1985.</em></p>
-
-<p>La pérdida de patrimonio Arquitectónico en La Laguna es responsabilidad de todos, la conservación de los monumentos es un problema social que atañe a todos los organismos del Gobierno y del resto de la sociedad. Existe una normatividad que se comparte junto con el INBA, pero más allá de ello, la responsabilidad no es únicamente de las entidades federales, también tiene que ver con las autoridades locales y al mismo tiempo con la sociedad civil.</p>
-
-<blockquote>
-  <p>“El mundo se mueve a un ritmo tan acelerado que la mayoría de las personas irrumpió en el siglo XXI olvidando sus orígenes. Debiera ser al revés. Deberíamos valorizar nuestras raíces y nuestra cultura, y utilizarlas como cimientos para construir nuestro futuro”.</p>
-  
-  <p>Recomendaciones de estudiantes en el Foro Juvenil del Patrimonio Mundial, Pekín (China)</p>
-</blockquote>
-
-<p>FUENTE: Investigación de El Siglo de Torreón</p>
-]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>1</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>1</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>1</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>1</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>1</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> de 0 a 3.</p>]]></description>
     </item>
     <item>
-      <title>Patrimonio Histórico</title>
-      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/patrimonio-historico.html</link>
-      <guid isPermaLink="false">sig-mapas-torreon-patrimonio-historico</guid>
-      <pubDate>Mon, 22 Jun 2015 15:00:00 -0500</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/patrimonio-historico.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/patrimonio-historico/imagen.jpg"><br>
+      <title>Competencia de servicios notariales en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-competencia-de-servicios-notariales.html</link>
+      <guid isPermaLink="false">indicadores-torreon-seguridad-competencia-de-servicios-notariales</guid>
+      <pubDate>Tue, 14 Jul 2015 11:22:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA). Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.</p>
 
-Ubicación de las edificaciones consideradas como patrimonios históricos por el I.N.B.A. y el I.N.A.H.</a>]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>22.4632</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>22.1946</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>21.5186</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>19.7976</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>19.9267</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Por cada 100 mil PEA.</p>]]></description>
     </item>
     <item>
-      <title>Recomendaciones para la Pacificación del Tránsito</title>
-      <link>http://www.trcimplan.gob.mx/blog/recomendaciones-pacificacion-transito.html</link>
-      <guid isPermaLink="false">blog-recomendaciones-pacificacion-transito</guid>
-      <pubDate>Wed, 17 Jun 2015 16:00:00 -0500</pubDate>
-      <author>Arq. Ángeles Melisa Rodríguez Salas</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/recomendaciones-pacificacion-transito/imagen.jpg"><br>
+      <title>Consumo de Agua en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-consumo-de-agua.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-consumo-de-agua</guid>
+      <pubDate>Tue, 14 Jul 2015 10:33:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
+Unidades: Metros cúbicos por persona.
+Fuente: CONAGUA, 2008-2009.</p>
 
-<p>En las primeras décadas de la invención del automóvil, la sociedad estuvo renuente a aceptar los beneficios que éste proporcionaba ya que en sus inicios  el uso estaba limitado sólo para la clase alta que era quien podía costear esta nueva herramienta. Por otro lado era conocido como un aparato nocivo y peligroso para la salud pública, ya que en ese tiempo la gente no estaba preparada para este tipo de maquinaria. Con el paso del tiempo y debido al crecimiento de la ciudad, esta se adaptó cada vez más al uso del automóvil como un transporte rápido y eficaz para trasladarse a grandes distancias.</p>
-
-<p>Desde entonces la percepción del vehículo motorizado como un aparato inaccesible y peligroso, cambió a una herramienta de utilidad, de la cual la mayoría hacemos uso. Actualmente es más fácil acceder (económicamente) a éste (ya no es exclusivo de la clase alta). También, a través de su producción en serie y comercialización, se propició una derrama económica, generando miles de empleos e incentivando al comercio, lo que potencializó su uso.</p>
-
-<p>La ciudad, como resultado, comenzó a adaptarse generando carreteras amplias, desniveles, puentes y estacionamientos para la comodidad y facilidad de quienes cuentan con automóvil. Sin embargo, en las últimas décadas ha aumentado la inquietud sobre el calentamiento global, además de la consternación que genera el crecimiento del parque vehicular y su uso desmedido, lo que provoca un impacto ambiental, social, y económico; en consecuencia, se disminuye la calidad de vida de quienes habitan la ciudad.</p>
-
-<p>El uso masivo del automóvil se debe a diferentes factores. Partiendo de que el individuo se ve en la necesidad de contar con uno por el aumento desmedido de la mancha urbana y la necesidad de recorrer distancias más largas. Además; la falta de infraestructura vial adecuada, como las ciclovías, dificultan otras alternativas de movilidad, como usar la bicicleta.</p>
-
-<p>Por otra parte, no se ha considerado que el uso desmedido del automóvil genera rupturas del espacio urbano y con ello, de las relaciones sociales (Appleyard 1981). Según un estudio realizado en San Francisco California, se demostró que la convivencia social disminuye en medida que crece el tráfico en las calles, ya que este interrumpe las relaciones sociales que se producen al caminar por el lugar. Lo que hace que no se disfrute, ni se viva la calle; al tener una sensación de inseguridad debido a que la circulación de los vehículos genera un ambiente poco agradable en los transeúntes; lo que reduce la convivencia entre los mismos y deteriora su calidad de vida, igualmente propicia la falta de pertenencia al lugar.</p>
-
-<p>Al mismo tiempo, el tránsito excesivo formado por la gran cantidad de vehículos propicia que la sociedad quiera vivir alejada de todo esto; del ruido, de la contaminación, de la inseguridad, por lo que buscan refugiarse en lugares excentos de ésto: viviendo en la periferia o creando fraccionamientos cerrados.</p>
-
-<p>Lo anterior se ve reflejado en el centro de la ciudad, donde ocurren con frecuencia congestiones vehiculares en horas pico; ésto genera mayor contaminación ambiental. Además influye en la falta de apreciación y el desuso de los edificios con alto valor patrimonial.</p>
-
-<h3>Pacificación del tránsito</h3>
-
-<h4>¿Qué es?</h4>
-
-<p>Es un conjunto de estrategias mediante las cuales se busca reducir el volumen y la velocidad del tráfico en una sección o zona de la ciudad, utilizando herramientas como el diseño de infraestructura. Además, trata de impulsar el uso de la bicicleta como medio de transporte, e incitar a la sociedad a caminar o bien a utilizar el transporte colectivo. Para este fin, se pueden utilizar elementos que no sólo sean estéticos si no también que demarquen el espacio para restringir el espacio de los vehículos; provocando la reducción de la velocidad. Por ello es necesario crear una medida para disminuir los efectos nocivos del uso del automóvil a través de una focalización de la problemática de la zona a tratar, para realizarlo es necesario generar una mejor educación vial entre los peatones y conductores, concientizarlos mediante diferentes campañas y crear así una mejor Cultura Vial. Esta medida ha sido implementada en ciudades con problemas de tráfico, un claro ejemplo es la Ciudad de México.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/recomendaciones-pacificacion-transito/a-mayor-velocidad.jpg" alt="A mayor velocidad"></p>
-
-<h4>Beneficios</h4>
-
-<p>Debido a la traza de las ciudades y la falta de sistemas de transporte colectivo eficientes, la población se ha visto orillada a realizar la mayoría de sus viajes en auto por lo que se incrementa el riesgo de accidentes que involucran no sólo a los automotores, sino también a los que usan del espacio público. La opción de intervenir en la velocidad de los vehículos motorizados, mediante la pacificación del tránsito, puede disminuir el riesgo que estos representan para los transeúntes y hacerlos compatibles con la vida urbana. Además, el incentivar otras formas de movilidad genera variedad de ventajas para la sociedad creando un espacio propicio para la movilidad peatonal, ciclista y de transporte público, minimizando los problemas relacionados con el automóvil.</p>
-
-<p>Mediante la pacificación del tránsito podemos revivir los espacios públicos a través de la conectividad entre la sociedad y su entorno, modificándolo para su disfrute y proporcionando mayor seguridad a quien haga uso de la vialidad. Además de suscitar los diferentes tipos de movilidad sostenible, mejora la habitabilidad y promoviendo el uso eficiente del suelo, el cual es una oportunidad para los comerciantes de la zona de reactivar sus locales, volviéndolos atractivos, atrayendo visualmente a los transeúntes de la zona, combinando viviendas y oficinas en la planta alta de los edificios, lo cual concebiría la habitabilidad los siete días de la semana a todas horas, conjuntamente se obtendrá proximidad entre los destinos, es decir, lugares más cercanos y habitables en los diferentes sectores.</p>
-
-<p>Otra de las ventajas al disminuir la velocidad es que aumenta la capacidad del conductor para reaccionar ante el cruce inesperado de un peatón. Como su objetivo principal es la disminución considerable, buscando el cero, en el número de accidentes viales, y en caso de que ocurriera, el minimizar la gravedad del percance hacia los peatones o ciclistas.</p>
-
-<h4>¿Qué hacer?</h4>
-
-<p>Pacificar el tránsito puede lograrse a través de diferentes estrategias: mediante la reglamentación de los límites de velocidad en vialidades de un área específica; como las denominadas zonas 30. Mediante la aplicación de técnicas de diseño para reducir la velocidad de forma pasiva, también la reducción del volumen vehicular, la redistribución del espacio y tratamiento de cruces peligrosos forman parte del conjunto de estrategias.</p>
-
-<p>Existen diferentes formas de diseño vial mediante las cuales se puede modificar la conducta de quien la usa, reduciendo su velocidad al conducir por el lugar, desde la modificación del pavimento, el diseño de la vía, hasta la señalética.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/recomendaciones-pacificacion-transito/calle-de-baja-velocidad.jpg" alt="Calle de baja velocidad vehicular"></p>
-
-<p>Dentro de las principales estrategias se encuentran la implementación de zonas 30, que consiste en limitar la velocidad máxima a 30 km/hr por reglamentación vial. Las áreas que la apliquen tienen una singular señalética para comunicar a los conductores sobre la zona, aplicando el concepto de puerta de entrada (Manual III, ITDP) al cruzar por la vialidad con el límite de zona 30.</p>
-
-<p>Además se puede modificar el tipo de pavimento de la zona y dependiendo del que se use en las vialidades será capaz de reducir la velocidad de los vehículos, porque éste vibra e incomoda al conductor. Un aspecto a considerar es que no sólo afecta a los vehículos motorizados, sino que dificulta el cómodo transitar de los peatones, personas con discapacidad y ciclistas. Por ese motivo debe de limitarse y diseñarse de forma adecuada, contemplando a los diferentes usuarios de la vía. Dentro de los diferentes pavimentos a usar se encuentra el concreto estampado, el adoquín y el empedrado tradicional.</p>
-
-<p>Otra estrategia es el cambio de circulación de los carriles de un sentido a doble sentido, porque el encuentro visual entre los vehículos de sentidos opuestos les hace parecer que llevan más velocidad; así los lleva a reducir su velocidad. Como consecuencia favorable, se tiene mejor seguridad peatonal y revitalización de zonas comerciales a través del flujo vehicular lento.</p>
-
-<p>El modificar el ancho de los carriles para el uso combinado de formas de transporte disminuyendo el espacio para automóvil, es otra estrategia viable ya que los automovilistas disminuyen su velocidad puesto que el espacio entre un auto y otro es más corto; lo cual induce a que el conductor maneje con más atención y menos velocidad.</p>
-
-<p>Existen elementos de infraestructura de los cuales podemos hacer uso para ayudar al cruce de peatones y reducir la velocidad al mismo tiempo, tales como topes, cojines y lomos; los cuales obligan al automóvil a pasar por pequeñas elevaciones, obligándolo a reducir su velocidad sin frenar completamente.</p>
-
-<p>Podemos diseñar las vialidades de forma agradable para todos y de forma segura mediante diferentes tipos de infraestructura, adecuándola con diseños los cuales busquen la reducción de velocidad sin alterar el orden en los conductores. Un ejemplo claro es la circulación en zigzag en el cual se modifica la traza de la vialidad, ya sea por el acomodo del estacionamiento o uso de jardineras y vegetación que no bloqueen la vista al conductor.</p>
-
-<p>El uso de isletas, las cuales son áreas de seguridad para el peatón, que se encuentran en el centro de las vialidades de doble sentido, sirven para apoyar a los transeúntes a cruzar de forma segura, siendo un lugar de espera y de donde tienen mejor visibilidad de los automóviles que transitan, asímismo disminuyen la distancia del cruce peatonal. Este diseño también se puede implementar en las vueltas continuas a la derecha. De la misma forma están los camellones, ambos son útiles para que los peatones no tengan que correr para cruzar la calle. También se puede complementar con diferente flora de la región y crear una imagen urbana atrayente para la ciudad, en estos lugares también se pueden utilizar para colocar señalética.</p>
-
-<p>Para dar alternativas a cruces conflictivos (intersecciones) una alternativa es disminuir las distancias que existen dentro del cruce peatonal (ej. isletas y camellones), así como lograr aumentar la extensión de las banquetas en estos cruces, conocidos como orejas. Las orejas son una sección del espacio que ocupa el estacionamiento en vialidades en ambos lados. Tomando una sección de éstas para acortar la distancia del cruce se minimiza la distancia que el peatón debe de recorrer al cruzar la vialidad, además son útiles para la colocación de señalética. La reducción de espacio lleva a los conductores a disminuir la velocidad y, a su vez, mejorar la seguridad del peatón al caminar por la zona, ya que se extiende la visualización de los conductores sobre el peatón de mejor manera, al estar en el punto de cruce. Este diseño sólo puede utilizarse cuando existen carriles de estacionamiento a lado de las vialidades.</p>
-
-<p>Las glorietas son elementos circulares en donde se propicia un giro a la derecha y se prescinden las vueltas a la izquierda, las cuales se ubican en cruces donde no existe una semaforización. Las glorietas controlan el flujo vehicular, regulando la velocidad. Así mismo se puede implementar con elementos que proporcionen armonía en el lugar como vegetación o fuentes.</p>
-
-<p>Así pues, existen diferentes estrategias que podemos implementar en diferentes áreas de la ciudad para generar una mayor calidad de vida de las personas.</p>
-
-<h3>Fuentes</h3>
-
-<p>La importancia de reducción del uso del automóvil en México. Tendencias de motorización, del uso del automóvil y de sus impactos. Octubre 2012.</p>
-
-<p>Guía de Estrategias para la reducción del uso del auto en ciudades mexicanas. MÁS ALLÁ DEL AUTO. ITDP 2012.</p>
-
-<p>Tomo IV. Infraestructura. Manual de Ciclociudades. Manual Integral de movilidad ciclista para ciudades mexicanas</p>
-]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>134.1000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>132.6000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>130.7000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>128.8000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>127.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Metros cúbicos per cápita.</p>]]></description>
     </item>
     <item>
-      <title>Alumnos por docente, indicador clave para la mejora de la educación (parte 1)</title>
-      <link>http://www.trcimplan.gob.mx/blog/alumnos-por-docente-parte-1.html</link>
-      <guid isPermaLink="false">blog-alumnos-por-docente-parte-1</guid>
-      <pubDate>Tue, 16 Jun 2015 15:00:00 -0500</pubDate>
-      <author>Lic. Luis A. Gutiérrez Arizpe</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/alumnos-por-docente-parte-1/imagen.jpg"><br>
+      <title>Ingresos Propios en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-ingresos-propios.html</link>
+      <guid isPermaLink="false">indicadores-torreon-economia-ingresos-propios</guid>
+      <pubDate>Tue, 14 Jul 2015 10:29:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</p>
 
-<p>Este indicador nos muestra la cantidad de estudiantes que son atendidos por cada maestro, los datos se refieren a l@s niño@s que cursan la educación primaria (generalmente la población entre 6 y 12 años). Es un referente utilizado a nivel mundial para analizar la situación de la educación y el aprovechamiento de los estudiantes.</p>
-
-<p>La premisa es: a menor cantidad de alumnos que atiende un maestro, mayor calidad. Aunque inciden factores, que analizaremos más adelante, tales como el ámbito en el que se encuentra el plantel y el tipo de sostenimiento.</p>
-
-<p>Se muestran algunas estadísticas publicadas por el Banco Mundial para el ciclo 2005-2013 (lapso de 7 años para fines comparativos) en las cuales podemos observar la cantidad de alumnos que son atendidos por cada maestro en países que son referentes en el tema educativo, la cifra a nivel mundial, nuestro dato nacional, así como datos agrupados de acuerdo al nivel económico de los países, es decir, promedios de países agrupados en <em>países de ingreso alto y países de ingreso medio y bajo.</em></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/alumnos-por-docente-parte-1/proporcion-alumnos-maestro-nivel-primario.jpg" alt="Proporción de alumnos por maestro en nivel primario"></p>
-
-<p>Vínculo: <a href="http://datos.bancomundial.org/indicador/SE.PRM.ENRL.TC.ZS/countries/1W-MX-FI-KR-XD?display=graph">Proporción alumnos-maestro, nivel primario. Banco Mundial 2013</a></p>
-
-<h3>Alumnos por docente en México y el mundo</h3>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th>País</th>
-  <th align="right">2005</th>
-  <th align="right">2012</th>
-  <th align="right">Variación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>México</td>
-  <td align="right">28.3</td>
-  <td align="right">28.0</td>
-  <td align="right">1.0%</td>
-</tr>
-<tr>
-  <td>Finlandia</td>
-  <td align="right">15.5</td>
-  <td align="right">13.6</td>
-  <td align="right">12.3%</td>
-</tr>
-<tr>
-  <td>Corea del Sur</td>
-  <td align="right">27.9</td>
-  <td align="right">17.9</td>
-  <td align="right">35.8%</td>
-</tr>
-<tr>
-  <td>Mundo</td>
-  <td align="right">25.2</td>
-  <td align="right">24.2</td>
-  <td align="right">4.0%</td>
-</tr>
-<tr>
-  <td>Países ingreso alto</td>
-  <td align="right">15.1</td>
-  <td align="right">14.5</td>
-  <td align="right">4.0%</td>
-</tr>
-<tr>
-  <td>Países ingresos medios y bajos</td>
-  <td align="right">27.8</td>
-  <td align="right">26.5</td>
-  <td align="right">4.7%</td>
-</tr>
-</tbody>
-</table>
-
-<p>Acorde a estos datos, el indicador no ha tenido avance en el país. Ha reducido el número de alumnos por maestro un 1% en 7 años. Comparándolo con Corea del Sur, éste país en el mismo lapso de tiempo, mejoró su indicador en un 35.8% y Finlandia en 12.3%.</p>
-
-<p>Si bien son países con mayores recursos invertidos para la educación, debemos de observar el comportamiento de los países agrupados como “de ingresos medios y bajos” en donde se encuentra México. Estos países han reducido su número de alumnos por maestro en 4.7%, es decir, a pesar de que la cifra de nuestro país se encuentra contemplada para la ecuación de este grupo de países, este conglomerado <strong>disminuyó casi 5 veces lo que México.</strong></p>
-
-<p>Enfocando este indicador a nivel nacional, con datos de la Secretaria de Educación Publica, podemos observar el siguiente comportamiento que respalda la fluctuación de la estadística citada por el Banco Mundial:</p>
-
-<h3>Alumnos por docente en Coahuila y Durango</h3>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th>Estado/Región/Pais</th>
-  <th align="right">2006</th>
-  <th align="right">2013</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>México (nacional)</td>
-  <td align="right">23</td>
-  <td align="right">22</td>
-</tr>
-<tr>
-  <td>Coahuila</td>
-  <td align="right">23</td>
-  <td align="right">23</td>
-</tr>
-<tr>
-  <td>Durango</td>
-  <td align="right">19</td>
-  <td align="right">19</td>
-</tr>
-</tbody>
-</table>
-
-<p>Fuente: http://planeacion.sep.gob.mx/</p>
-
-<p>No ha habido una disminución significativa observándolo en un lapso de 7 años.</p>
-
-<h3>Mejora tu Escuela, ranking de mejores escuelas de México</h3>
-
-<p>Mejora tu escuela es un proyecto elaborado por el Instituto Mexicano para la Competitividad en el cual, basándose en los resultados de la prueba ENLACE, genera un semáforo educativo. A continuación se muestran el ranking a nivel nacional de las escuelas que presentaron la prueba y el indicador de alumnos por maestro:</p>
-
-<h3>Top 10 Mejora tu Escuela en México 2013-2014</h3>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th align="right">Posición</th>
-  <th>Mantenimiento</th>
-  <th>Ubicación</th>
-  <th>Nombre</th>
-  <th align="right">Alumnos por docente</th>
-  <th>Ámbito</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td align="right"><strong>1</strong></td>
-  <td><strong>Privado</strong></td>
-  <td><strong>DF</strong></td>
-  <td><strong>Niños de México</strong></td>
-  <td align="right"><strong>34.280</strong></td>
-  <td><strong>urbano</strong></td>
-</tr>
-<tr>
-  <td align="right">2</td>
-  <td>Público</td>
-  <td>Guerrero</td>
-  <td>Lázaro Cárdenas</td>
-  <td align="right">11.000</td>
-  <td>rural</td>
-</tr>
-<tr>
-  <td align="right"><strong>3</strong></td>
-  <td><strong>Privado</strong></td>
-  <td><strong>Tabasco</strong></td>
-  <td><strong>Atenea</strong></td>
-  <td align="right"><strong>27.500</strong></td>
-  <td><strong>urbano</strong></td>
-</tr>
-<tr>
-  <td align="right">4</td>
-  <td>Público</td>
-  <td>Chiapas</td>
-  <td>Primaria comunitaria José María Luis Mora</td>
-  <td align="right">19.000</td>
-  <td>rural</td>
-</tr>
-<tr>
-  <td align="right">5</td>
-  <td>Público</td>
-  <td>Yucatán</td>
-  <td>Benito JuárezGarcía</td>
-  <td align="right">24.500</td>
-  <td>rural</td>
-</tr>
-<tr>
-  <td align="right">6</td>
-  <td>Público</td>
-  <td>Durango</td>
-  <td>20 de noviembre</td>
-  <td align="right">10.000</td>
-  <td>rural</td>
-</tr>
-<tr>
-  <td align="right">7</td>
-  <td>Publico</td>
-  <td>Michoacán</td>
-  <td>Fco. J. Mujica</td>
-  <td align="right">11.000</td>
-  <td>rural</td>
-</tr>
-<tr>
-  <td align="right"><strong>8</strong></td>
-  <td><strong>Privado</strong></td>
-  <td><strong>Jalisco</strong></td>
-  <td><strong>Gustavo A. Bequer</strong></td>
-  <td align="right"><strong>8.300</strong></td>
-  <td><strong>urbano</strong></td>
-</tr>
-<tr>
-  <td align="right">9</td>
-  <td>Público</td>
-  <td>Hidalgo</td>
-  <td>I. Zaragoza</td>
-  <td align="right">20.500</td>
-  <td>rural</td>
-</tr>
-<tr>
-  <td align="right">10</td>
-  <td>Público</td>
-  <td>Veracruz</td>
-  <td>Mi Patria es Primero</td>
-  <td align="right">18.000</td>
-  <td>rural</td>
-</tr>
-<tr>
-  <td align="right"></td>
-  <td></td>
-  <td></td>
-  <td><strong>Promedio de alumnos por docentes</strong></td>
-  <td align="right"><strong>18.408</strong></td>
-  <td></td>
-</tr>
-</tbody>
-</table>
-
-<p>El 70% de las escuelas son de mantenimiento público, de lo cual podemos destacar el dato del indicador, es bajo. La cifra más alta la aporta la escuela de Guerrero y Michoacán, con 11 alumnos por maestro y en estas dos escuelas coincide en que es el total de alumnos matriculados en todos los grados y son atendidos por un único maestro, situación que generalmente se presenta en el ámbito rural.</p>
-
-<p>El restante 30% son representadas por escuelas privadas, del ámbito urbano y, a excepción de Tabasco, son ubicadas en ciudades densamente pobladas: Distrito Federal y Guadalajara.</p>
-
-<p>La escuela Niños de México, ubicada en D.F., es la que mejores resultados presentó en la prueba, y su indicador muestra 34 alumnos por maestro. La escuela Bequer de Guadalajara, fue el octavo lugar, con un número de alumnos por maestro bajo: <strong>8.3.</strong></p>
-
-<p>Cabe destacar que en los datos que hemos analizado en el ámbito privado, el sistema educativo puede variar, por ejemplo, las escuelas con sistemas de los denominados Montessori se basan en la premisa citada al principio del artículo, “menos alumnos por maestro, mejora la educación”</p>
-
-<p>El promedio que marca el indicador de las escuelas top 10 de México es de <strong>18.4 alumnos por maestro.</strong> Ligeramente superior al que se maneja en Corea del Sur, que es de 17.9 y por encima del promedio de los países con ingresos medios y bajos que es de 26.7 en 2012, lo cual puede indicar que efectivamente a menos alumnos por maestro mejor calidad educativa.</p>
-]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>35.86 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>38.67 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>32.55 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>31.23 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>29.82 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>]]></description>
     </item>
     <item>
-      <title>#Camina La Roma por buenos diseños peatonales</title>
-      <link>http://www.trcimplan.gob.mx/blog/camina-la-roma-por-buenos-disenos-peatonales.html</link>
-      <guid isPermaLink="false">blog-camina-la-roma-por-buenos-disenos-peatonales</guid>
-      <pubDate>Wed, 10 Jun 2015 14:55:00 -0500</pubDate>
-      <author>Alejandra Leal @alelealv y Luz Viramontes @yazvf</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/camina-la-roma-por-buenos-disenos-peatonales/imagen.jpg"><br>
+      <title>Índice de Información Presupuestal en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html</link>
+      <guid isPermaLink="false">indicadores-torreon-gobierno-indice-de-informacion-presupuestal</guid>
+      <pubDate>Tue, 14 Jul 2015 10:00:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</p>
 
-<p><strong>¿Cuántas veces has querido atravesar la calle y no sabes por dónde hacerlo?</strong> En nuestras ciudades continuamente encontramos intersecciones que son mares de asfalto donde hay confusión acerca del movimiento que deben hacer cada uno de los usuarios, y los que resultan más vulnerables son quienes caminan.</p>
-
-<p>En ITDP México nos dimos a la tarea de hacer un <strong>ejercicio de rediseño</strong> como parte de la estrategia <strong>#Camina</strong> para analizar <strong>cómo funcionaría esta intersección si estuviera diseñada pensando en la seguridad de las personas que andan a pie.</strong> Nuestra herramienta fue el urbanismo táctico, mediante el cual de forma temporal se interviene la calle para rediseñar la geometría del cruce.</p>
-
-<div style="clear:left;"></div>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/camina-la-roma-por-buenos-disenos-peatonales/01.jpg" alt="Camina"></p>
-
-<p>La intersección seleccionada se encuentra en el cruce de Coahuila, Jalapa y Yucatán, justo afuera de dos escuelas primarias, la Benito Juárez y Constitución de 1857. Ambas escuelas albergan en distintos turnos a <strong>más de 2,600 niños,</strong> de los cuales el <strong>38% llega caminando</strong> de acuerdo a una encuesta realizada por Safe Kids México a 469 alumnos. Además, esta intersección está ubicada en el corazón de la Roma, donde existe un gran flujo de peatones, ciclistas, automovilistas, transporte público y transporte de carga.</p>
-
-<p><strong>Un buen diseño de la calle induce un comportamiento adecuado y mejora la visibilidad de todos los usuarios.</strong> El diseño propuesto se realizó analizando las líneas de deseo peatonal, es decir, la línea más directa que lleva al transeúnte a su destino. Para respetar estas líneas es necesario aumentar el espacio destinado a las personas con el fin de reducir la distancia de cruce. <strong>De los 4,800 m2 del área total de la intersección, 83% está destinada para los automóviles y solo 17% para los peatones. Con la intervención se destinó 52% a los peatones, además de que se ordenó el tránsito vehicular.</strong></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/camina-la-roma-por-buenos-disenos-peatonales/02.jpg" alt="Camina antes y después"></p>
-
-<p><strong>El urbanismo táctico permite visualizar cómo luciría un diseño más equitativo y seguro.</strong> Además, ayuda a transmitir el mensaje de que estas intervenciones no colapsan el tráfico vehicular, al contrario, lo ordenan y permiten que haya certidumbre acerca del movimiento a realizar.</p>
-
-<p>Mostrar por unas horas que esta intersección puede ser distinta, que la situación puede mejorar para quienes transitan por ella, permite a las autoridades evaluar propuestas de diseño que priorizan al peatón y a la ciudadanía tener las herramientas para exigir mejores diseños, y por ende mejores ciudades.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/camina-la-roma-por-buenos-disenos-peatonales/03.jpg" alt="Caminante con carreola"></p>
-
-<p><strong>Antes de la intervención se realizaron entrevistas a los transeúntes,</strong> quienes comentaron lo inseguros que se sentían al atravesar la calle. Una niña acompañada de su mamá que diariamente atraviesa por la gasolinera mencionó: “¡parece que se les va a acabar la gasolina! porque los autos no me dejan pasar”. <strong>Durante la intervención, los entrevistados destacaron lo positivo que sería si se quedara permanentemente y lo seguro que podrían cruzar los niños de camino a casa o a la escuela.</strong></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/camina-la-roma-por-buenos-disenos-peatonales/04.jpg" alt="Caminante con capacidades especiales"></p>
-
-<p>La intervención #Camina cambió el uso de la intersección, dejó de ser un cruce vehicular rápido y peligroso para volverse uno tranquilo y fácil de cruzar. Además, se observó un cambió en la actitud al caminar de los peatones, quienes podían a su vez relajarse en un espacio diseñado para ellos.</p>
-
-<p><strong>Uno de los grandes problemas es que sea normal tener calles diseñadas para el auto y no para los peatones. Esto debe cambiar.</strong> Necesitamos diseños que protejan la vida de las personas, el urbanismo táctico representa una herramienta para empezar a proponer que esta situación puede ser distinta. La documentación y el proyecto se entregará a la Delegación, esperando que sea implementado de forma permanente.</p>
-
-<iframe src="https://vine.co/v/OYau6THiXKO/embed/postcard" width="480" height="480" frameborder="0"></iframe>
-
-<script src="https://platform.vine.co/static/scripts/embed.js"></script>
-
-<h3>Agradecimientos</h3>
-
-<ul>
-<li>ITDP agradece el apoyo de la Delegación Cuauhtémoc, AG Industrias, Huerto Roma Verde, Safe Kids México y los voluntarios que apoyaron para esta intervención. Para más fotos invitamos a visitar nuestro <a href="https://www.flickr.com/photos/itdpmx/sets/72157651536790575/">flickr</a>.</li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Panorama de la Educación Superior en la Z.M.L. (parte 1)</title>
-      <link>http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-1.html</link>
-      <guid isPermaLink="false">blog-panorama-educacion-superior-zml-parte-1</guid>
-      <pubDate>Tue, 09 Jun 2015 16:00:00 -0500</pubDate>
-      <author>Lic. Rodrigo González Morales</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-1/imagen.jpg"><br>
-
-<p>Según el Anuario Estadístico de la Asociación Nacional de Universidades e Instituciones de Educación Superior (ANUIES) correspondiente al ciclo escolar 2012 – 2013, La Z.M.L. registra 46 instituciones de educación superior, 28 en Torreón, 10 en Gómez Palacio, 6 en Lerdo y 2 en Matamoros.</p>
-
-<p>En el ciclo escolar 2012-2013, se registró una matrícula en nivel licenciatura de 38,867, 9,232 estudiantes de nuevo ingreso y 6,440 egresados. 26,626 estudian en Torreón, 9,246 en Gómez Palacio, 2,958 en Lerdo y 37 en Matamoros.</p>
-
-<div style="clear:left;"></div>
-
-<h3>Tabla 1</h3>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th>Región</th>
-  <th align="right">Instituciones de Educación Superior</th>
-  <th align="right">Matrícula Licenciatura</th>
-  <th align="right">Nuevo Ingreso Licenciatura</th>
-  <th align="right">Egresados Licenciatura</th>
-  <th align="right">Matrícula Postgrado</th>
-  <th align="right">Nuevo Ingreso Postgrado</th>
-  <th align="right">Egresados Postgrado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>Torreón</td>
-  <td align="right">28</td>
-  <td align="right">26,626</td>
-  <td align="right">5,991</td>
-  <td align="right">4,217</td>
-  <td align="right">2,118</td>
-  <td align="right">483</td>
-  <td align="right">375</td>
-</tr>
-<tr>
-  <td>Matamoros</td>
-  <td align="right">2</td>
-  <td align="right">37</td>
-  <td align="right">0</td>
-  <td align="right">14</td>
-  <td align="right">0</td>
-  <td align="right">0</td>
-  <td align="right">0</td>
-</tr>
-<tr>
-  <td>Gómez Palacio</td>
-  <td align="right">10</td>
-  <td align="right">9,246</td>
-  <td align="right">2,492</td>
-  <td align="right">1,722</td>
-  <td align="right">430</td>
-  <td align="right">153</td>
-  <td align="right">152</td>
-</tr>
-<tr>
-  <td>Lerdo</td>
-  <td align="right">6</td>
-  <td align="right">2,958</td>
-  <td align="right">749</td>
-  <td align="right">487</td>
-  <td align="right">318</td>
-  <td align="right">145</td>
-  <td align="right">88</td>
-</tr>
-<tr>
-  <td>Z.M.L.</td>
-  <td align="right">46</td>
-  <td align="right">38,867</td>
-  <td align="right">9,232</td>
-  <td align="right">6,440</td>
-  <td align="right">2,866</td>
-  <td align="right">781</td>
-  <td align="right">615</td>
-</tr>
-</tbody>
-</table>
-
-<p>A nivel nacional se registraron 283,287 estudiantes de posgrado y 3,309,221 de licenciatura, 8.5 estudiantes de posgrado por cada 100 estudiantes de pregrado, mientras en la Z.M.L. 7.7, lejos de estados como Distrito Federal (13), Puebla, Campeche, Morelos (11), Nuevo León, Guanajuato y Tamaulipas (10), por encima de la media de Coahuila (7.2) más no así de la de Durango (8.7).</p>
-
-<h3>Tabla 2. Top 10 Z.M.L.</h3>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th align="right">Lugar</th>
-  <th>Carrera</th>
-  <th align="right">Matrícula</th>
-  <th align="right">Porcentaje</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td align="right">1</td>
-  <td>Educación Básica</td>
-  <td align="right">3,782</td>
-  <td align="right">9.73%</td>
-</tr>
-<tr>
-  <td align="right">2</td>
-  <td>Sistemas</td>
-  <td align="right">2,244</td>
-  <td align="right">5.77%</td>
-</tr>
-<tr>
-  <td align="right">3</td>
-  <td>Derecho</td>
-  <td align="right">2,148</td>
-  <td align="right">5.53%</td>
-</tr>
-<tr>
-  <td align="right">4</td>
-  <td>Contabilidad</td>
-  <td align="right">2,043</td>
-  <td align="right">5.26%</td>
-</tr>
-<tr>
-  <td align="right">5</td>
-  <td>Ingeniería Industrial</td>
-  <td align="right">1,736</td>
-  <td align="right">4.47%</td>
-</tr>
-<tr>
-  <td align="right">6</td>
-  <td>Administración de Empresas</td>
-  <td align="right">1,720</td>
-  <td align="right">4.43%</td>
-</tr>
-<tr>
-  <td align="right">7</td>
-  <td>Psicología</td>
-  <td align="right">1,381</td>
-  <td align="right">3.55%</td>
-</tr>
-<tr>
-  <td align="right">8</td>
-  <td>Mecatrónica</td>
-  <td align="right">1,339</td>
-  <td align="right">3.45%</td>
-</tr>
-<tr>
-  <td align="right">9</td>
-  <td>Medicina</td>
-  <td align="right">1,286</td>
-  <td align="right">3.31%</td>
-</tr>
-<tr>
-  <td align="right">10</td>
-  <td>Veterinario</td>
-  <td align="right">1,108</td>
-  <td align="right">2.85%</td>
-</tr>
-<tr>
-  <td align="right">Total</td>
-  <td></td>
-  <td align="right">38,867</td>
-  <td align="right"></td>
-</tr>
-</tbody>
-</table>
-
-<h3>Tabla 3. Top 10 Nacional</h3>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th align="right">Lugar</th>
-  <th>Carrera</th>
-  <th align="right">Matrícula</th>
-  <th align="right">Porcentaje</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td align="right">1</td>
-  <td>Derecho</td>
-  <td align="right">276,254</td>
-  <td align="right">8.35%</td>
-</tr>
-<tr>
-  <td align="right">2</td>
-  <td>Administración de Empresas</td>
-  <td align="right">191,944</td>
-  <td align="right">5.80%</td>
-</tr>
-<tr>
-  <td align="right">3</td>
-  <td>Educación Básica</td>
-  <td align="right">190,113</td>
-  <td align="right">5.74%</td>
-</tr>
-<tr>
-  <td align="right">4</td>
-  <td>Contabilidad</td>
-  <td align="right">151,947</td>
-  <td align="right">4.59%</td>
-</tr>
-<tr>
-  <td align="right">5</td>
-  <td>Psicología</td>
-  <td align="right">123,809</td>
-  <td align="right">3.74%</td>
-</tr>
-<tr>
-  <td align="right">6</td>
-  <td>Ingeniería Industrial</td>
-  <td align="right">103,788</td>
-  <td align="right">3.14%</td>
-</tr>
-<tr>
-  <td align="right">7</td>
-  <td>Sistemas computacionales</td>
-  <td align="right">98,698</td>
-  <td align="right">2.98%</td>
-</tr>
-<tr>
-  <td align="right">8</td>
-  <td>Arquitectura</td>
-  <td align="right">89,248</td>
-  <td align="right">2.70%</td>
-</tr>
-<tr>
-  <td align="right">9</td>
-  <td>Enfermería</td>
-  <td align="right">81,329</td>
-  <td align="right">2.46%</td>
-</tr>
-<tr>
-  <td align="right">10</td>
-  <td>Medicina</td>
-  <td align="right">58,812</td>
-  <td align="right">1.78%</td>
-</tr>
-<tr>
-  <td align="right">Total</td>
-  <td></td>
-  <td align="right">3;309,221</td>
-  <td align="right"></td>
-</tr>
-</tbody>
-</table>
-
-<p>Estas diez carreras suman el 48 % de la matrícula en la Z.M.L. A pesar de ser las licenciaturas o ingenierías en sistemas computacionales, la segunda carrera con más población, las ingenierías en informática alcanzan sólo 548 alumnos. El panorama nacional es muy similar, las diez carreras con mayor matrícula, a diferencia de la Z.M.L. incluyen Enfermería y Arquitectura, mientras en nuestra región aparecen también Mecatrónica y Veterinaria, además de Derecho, Educación Básica, Contabilidad, Administración de Empresas, Psicología, Ingeniería industrial, Sistemas Computacionales y Medicina.</p>
-
-<h3>Tabla 4. Distribución por campos de estudio</h3>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th>Campo de estudios</th>
-  <th align="right">Z.M.L.</th>
-  <th align="right">% Z.M.L.</th>
-  <th align="right">% Nacional</th>
-  <th align="right">León</th>
-  <th align="right">Querétaro</th>
-  <th align="right">Saltillo</th>
-  <th align="right">S.L.P.</th>
-  <th align="right">Chihuahua</th>
-  <th align="right">Aguascalientes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>Educación</td>
-  <td align="right">4,267</td>
-  <td align="right">10.98%</td>
-  <td align="right">9.97%</td>
-  <td align="right">7.61%</td>
-  <td align="right">7.71%</td>
-  <td align="right">8.77%</td>
-  <td align="right"><strong>14.40%</strong></td>
-  <td align="right">12.76%</td>
-  <td align="right">12.74%</td>
-</tr>
-<tr>
-  <td>Artes y Humanidades</td>
-  <td align="right">1,125</td>
-  <td align="right">2.89%</td>
-  <td align="right">4.62%</td>
-  <td align="right"><strong>6.47%</strong></td>
-  <td align="right">6.23%</td>
-  <td align="right">4.13%</td>
-  <td align="right">4.27%</td>
-  <td align="right">4.42%</td>
-  <td align="right">5.83%</td>
-</tr>
-<tr>
-  <td>Ciencias Sociales, Administrativas y Jurídicas</td>
-  <td align="right">14,214</td>
-  <td align="right">36.57%</td>
-  <td align="right">42.14%</td>
-  <td align="right"><strong>49.52%</strong></td>
-  <td align="right">40.73%</td>
-  <td align="right">36.19%</td>
-  <td align="right">40.90%</td>
-  <td align="right">35.65%</td>
-  <td align="right">38.58%</td>
-</tr>
-<tr>
-  <td>Ciencias Naturales, Exactas y de la Computación</td>
-  <td align="right">1,633</td>
-  <td align="right">4.20%</td>
-  <td align="right">5.92%</td>
-  <td align="right">1.32%</td>
-  <td align="right">4.00%</td>
-  <td align="right">4.01%</td>
-  <td align="right">3.98%</td>
-  <td align="right"><strong>6.14%</strong></td>
-  <td align="right">2.94%</td>
-</tr>
-<tr>
-  <td>Ingeniería, Manufactura y Construcción</td>
-  <td align="right">11,994</td>
-  <td align="right">30.86%</td>
-  <td align="right">24.63%</td>
-  <td align="right">22.88%</td>
-  <td align="right">30.61%</td>
-  <td align="right"><strong>32.97%</strong></td>
-  <td align="right">25.15%</td>
-  <td align="right">27.44%</td>
-  <td align="right">27.07%</td>
-</tr>
-<tr>
-  <td>Salud</td>
-  <td align="right">3,216</td>
-  <td align="right">8.27%</td>
-  <td align="right">9.28%</td>
-  <td align="right">9.25%</td>
-  <td align="right">8.72%</td>
-  <td align="right">7.39%</td>
-  <td align="right"><strong>10.21%</strong></td>
-  <td align="right">9.25%</td>
-  <td align="right">11.75%</td>
-</tr>
-<tr>
-  <td>Agronomía y Veterinaria</td>
-  <td align="right">2,240</td>
-  <td align="right">5.76%</td>
-  <td align="right">2.10%</td>
-  <td align="right">1.69%</td>
-  <td align="right">1.27%</td>
-  <td align="right"><strong>6.31%</strong></td>
-  <td align="right">0.00%</td>
-  <td align="right">1.99%</td>
-  <td align="right">0.00%</td>
-</tr>
-<tr>
-  <td>Servicios</td>
-  <td align="right">178</td>
-  <td align="right">0.46%</td>
-  <td align="right">1.33%</td>
-  <td align="right">1.27%</td>
-  <td align="right">0.75%</td>
-  <td align="right">0.23%</td>
-  <td align="right">1.09%</td>
-  <td align="right"><strong>2.33%</strong></td>
-  <td align="right">1.09%</td>
-</tr>
-<tr>
-  <td>Total</td>
-  <td align="right">38,867</td>
-  <td align="right"></td>
-  <td align="right"></td>
-  <td align="right"></td>
-  <td align="right"></td>
-  <td align="right"></td>
-  <td align="right"></td>
-  <td align="right"></td>
-  <td align="right"></td>
-</tr>
-</tbody>
-</table>
-
-<p>Analizando por campo amplio del conocimiento, nuestra región está en proporción por encima de la media nacional en Ingenierías y Agronomía, y por debajo en Ciencias Sociales, administrativas y jurídicas, Ciencias exactas, Artes y Humanidades y Servicios, encontrándose a la par de la media en Salud y educación.  En comparación con metrópolis de características industriales similares, la Z.M.L. aventaja en ingenierías, manufactura y construcción a León, Aguascalientes, Chihuahua y San Luis Potosí, estando en niveles muy similares a Querétaro y un poco por debajo de Saltillo.</p>
-
-<h3>Referencias</h3>
-
-<ul>
-<li><a href="http://www.anuies.mx/iinformacion-y-servicios/informacion-estadistica-de-educacion-superior/anuario-estadistico-de-educacion-superior">Base de datos en ANUIES</a></li>
-</ul>
-]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>25.8065</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>25.8065</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>3.2258</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>17.6471</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>22.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>93.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> De 0 a 1.</p>]]></description>
     </item>
   </channel>
 </rss>

@@ -151,6 +151,12 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>30/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-otra-violencia-contra-los-ninos.html">La Otra Violencia Contra los Niños</a></td>
+            <td>El Comité de los Derechos del Niño de la ONU ha señalado que el Gobierno Mexicano debe entregar información sobre las víctimas infantiles.</td>
+          </tr>
+          <tr>
             <td>02/06/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/ninos-violencia.html">Los Niños y la Violencia</a></td>
