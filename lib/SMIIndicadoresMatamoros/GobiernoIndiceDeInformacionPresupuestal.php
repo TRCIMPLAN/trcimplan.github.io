@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Matamoros Gobierno índice de Información Presupuestal (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Matamoros Gobierno Índice de Información Presupuestal (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,17 +32,17 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'índice de Información Presupuestal en Matamoros';
+        $this->nombre            = 'Índice de Información Presupuestal en Matamoros';
      // $this->autor             = '';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2015-07-14T10:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo           = 'gobierno-indice-de-informacion-presupuestal';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Cumplimiento sobre total de criterios';
-        $this->claves            = 'IMPLAN, Matamoros, Transparencia';
-        $this->categorias        = array('Transparencia');
+        $this->descripcion       = 'Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.';
+        $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana';
+        $this->categorias        = array('Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -77,7 +77,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Cumplimiento sobre total de criterios</p>
+<p>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -91,23 +91,59 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>31/12/2008</td>
+            <td>0.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>3.2258</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>20.5882</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2013</td>
-            <td>20.00 %</td>
+            <td>20.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>100.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
+      <p><b>Unidad:</b> De 0 a 1.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de índice de Información Presupuestal en Matamoros</h3>
+      <h3>Gráfica de Índice de Información Presupuestal en Matamoros</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de índice de Información Presupuestal</h3>
+      <h3>Gráfica con los últimos datos de Índice de Información Presupuestal</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de índice de Información Presupuestal</h3>
+      <h3>Últimos datos de Índice de Información Presupuestal</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -121,36 +157,36 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
-            <td>22.00 %</td>
+            <td>2014-12-31</td>
+            <td>93.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2013-12-31</td>
-            <td>35.00 %</td>
+            <td>35.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2013-12-31</td>
-            <td>28.00 %</td>
+            <td>28.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
-            <td>20.00 %</td>
+            <td>2014-12-31</td>
+            <td>100.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2013-12-31</td>
-            <td>26.00 %</td>
+            <td>26.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
@@ -160,97 +196,7 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
   </div>
 FINAL;
         $schema->extra           = <<<FINAL
-      <h3>Publicaciones relacionadas</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Creado</th>
-            <th>Tipo</th>
-            <th>Nombre</th>
-            <th>Descripción</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>03/06/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/experiencias-sobre-datos-abiertos-en-mexico.html">Experiencias sobre Datos Abiertos en México</a></td>
-            <td>Representantes del gobierno del estado de Puebla y del municipio de Xalapa, Veracruz compartieron sus experiencias en materia de Datos Abiertos.</td>
-          </tr>
-          <tr>
-            <td>26/02/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/que-son-datos-abiertos.html">¿Qué son los datos abiertos?</a></td>
-            <td>Los datos abiertos son los datos digitales de carácter público que son accesibles en línea y que también pueden ser usados, reutilizados y redistribuidos por cualquier interesado.</td>
-          </tr>
-          <tr>
-            <td>04/11/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/datos-abiertos-gobiernos-municipales.html">Datos Abiertos en los Gobiernos Municipales</a></td>
-            <td>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en Gómez Palacio</a></td>
-            <td>Cumplimiento sobre total de obligaciones.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en La Laguna</a></td>
-            <td>Cumplimiento sobre total de obligaciones.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en Lerdo</a></td>
-            <td>Cumplimiento sobre total de obligaciones.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en Matamoros</a></td>
-            <td>Cumplimiento sobre total de obligaciones.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html">Cumplimiento en Información Pública Mínina en Torreón</a></td>
-            <td>Cumplimiento sobre total de obligaciones.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en Gómez Palacio</a></td>
-            <td>Cumplimiento sobre total de criterios</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en La Laguna</a></td>
-            <td>Cumplimiento sobre total de criterios</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en Lerdo</a></td>
-            <td>Cumplimiento sobre total de criterios</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en Matamoros</a></td>
-            <td>Cumplimiento sobre total de criterios</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html">índice de Información Presupuestal en Torreón</a></td>
-            <td>Cumplimiento sobre total de criterios</td>
-          </tr>
-        </tbody>
-      </table>
+
 FINAL;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
@@ -262,7 +208,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2013-12-31', dato: 20.0000 }],
+      data: [{ fecha: '2008-12-31', dato: 0.0000 },{ fecha: '2009-12-31', dato: 0.0000 },{ fecha: '2010-12-31', dato: 0.0000 },{ fecha: '2011-12-31', dato: 3.2258 },{ fecha: '2012-12-31', dato: 20.5882 },{ fecha: '2013-12-31', dato: 20.0000 },{ fecha: '2014-12-31', dato: 100.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -278,7 +224,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 22.0000 },{ region: 'Gómez Palacio', dato: 35.0000 },{ region: 'Lerdo', dato: 28.0000 },{ region: 'Matamoros', dato: 20.0000 },{ region: 'La Laguna', dato: 26.0000 }],
+      data: [{ region: 'Torreón', dato: 93.0000 },{ region: 'Gómez Palacio', dato: 35.0000 },{ region: 'Lerdo', dato: 28.0000 },{ region: 'Matamoros', dato: 100.0000 },{ region: 'La Laguna', dato: 26.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -294,7 +240,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Cumplimiento sobre total de criterios</p>
+<p>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -308,14 +254,50 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>31/12/2008</td>
+            <td>0.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>3.2258</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>20.5882</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2013</td>
-            <td>20.00 %</td>
+            <td>20.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>100.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
+      <p><b>Unidad:</b> De 0 a 1.</p>
 FINAL;
     } // constructor
 

@@ -93,7 +93,7 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
           <tr>
             <td>31/01/2014</td>
             <td>224</td>
-            <td>00) DESCONOCIDA</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
@@ -267,6 +267,12 @@ FINAL;
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>30/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-otra-violencia-contra-los-ninos.html">La Otra Violencia Contra los Niños</a></td>
+            <td>El Comité de los Derechos del Niño de la ONU ha señalado que el Gobierno Mexicano debe entregar información sobre las víctimas infantiles.</td>
+          </tr>
           <tr>
             <td>04/06/2015</td>
             <td>Indicador</td>
@@ -898,7 +904,7 @@ FINAL;
           <tr>
             <td>31/01/2014</td>
             <td>224</td>
-            <td>00) DESCONOCIDA</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
