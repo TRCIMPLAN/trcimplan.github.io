@@ -42,7 +42,7 @@ class HaciaDondeDebeDirigirseTorreon extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = '¿En realidad generan más valor las actividades tecnológicas y de servicios?';
         $this->claves           = 'IMPLAN, Torreon, Actividades, Tecnológicas, Servicios';
-        $this->categorias       = array('Macreconomía', 'Empleo', 'Empresas');
+        $this->categorias       = array('Empleo', 'Empresas');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
