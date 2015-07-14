@@ -76,11 +76,11 @@ class Salud extends \Base\Publicacion {
   <tr>
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Muertes por Infecciones Instestinales</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-muertes-por-infecciones-instestinales.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">3.7523</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-muertes-por-infecciones-instestinales.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">3.7886</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-muertes-por-infecciones-instestinales.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">2.0272</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-muertes-por-infecciones-instestinales.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">3.6283</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-muertes-por-infecciones-instestinales.html" data-toggle="tooltip" title="Por cada 100 mil, 31/12/2012, IMCO">3.5499</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

@@ -5,11 +5,83 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 14 Jul 2015 18:27:10 -0500</pubDate>
+    <pubDate>Tue, 14 Jul 2015 18:52:42 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="{self::}/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Litros de combustible gastados por unidad recolectora de residuos sólidos propiedad del municipio en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-litros-de-combustible-gastados-por-unidad-recolectora-de-residuos-solidos-propiedad-del-municipio.html</link>
+      <guid isPermaLink="false">indicadores-torreon-gobierno-litros-de-combustible-gastados-por-unidad-recolectora-de-residuos-solidos-propiedad-del-municipio</guid>
+      <pubDate>Tue, 14 Jul 2015 18:44:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Determina la relación de litros de combustible gastados por unidad recolectora de residuos sólidos del municipio.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>30/06/2014</td>
+            <td>$ 21,430.36</td>
+            <td>Ayuntamiento de Torreón</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Litros.</p>
+      <h3>Observaciones</h3>
+<p>Sistema de Indicadores de Desempeño (SINDES) con metodología de la Asociación de Administración de ciudades y condados (ICMA) http://www.icmaml.org/sindes/</p>
+]]></description>
+    </item>
+    <item>
+      <title>Gasto en nómina por empleado en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-gasto-en-nomina-por-empleado.html</link>
+      <guid isPermaLink="false">indicadores-torreon-economia-gasto-en-nomina-por-empleado</guid>
+      <pubDate>Tue, 14 Jul 2015 18:35:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Mide la eficiencia en el gasto en nómina ejercido por el Ayuntamiento por cada empleado. Gasto en Nómina Semestral entre el Total de Empleados Municipales.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>30/06/2014</td>
+            <td>$ 51,420.70</td>
+            <td>Ayuntamiento de Torreón</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>$ 63,791.74</td>
+            <td>Ayuntamiento de Torreón</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Pesos.</p>
+      <h3>Observaciones</h3>
+<p>Sistema de Indicadores de Desempeño (SINDES) con metodología de la Asociación de Administración de ciudades y condados (ICMA) http://www.icmaml.org/sindes/</p>
+]]></description>
+    </item>
     <item>
       <title>Capacitación a empleados de confianza en Torreón</title>
       <link>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-capacitacion-a-empleados-de-confianza.html</link>
@@ -122,154 +194,13 @@
 ]]></description>
     </item>
     <item>
-      <title>Promedio de horas para la realizacion del tramite de permiso de construcción de una adición (residencial o comercial) en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-permiso-de-construccion-de-una-adicion-residencial-o-comercial.html</link>
-      <guid isPermaLink="false">indicadores-torreon-economia-promedio-de-horas-para-la-realizacion-del-tramite-de-permiso-de-construccion-de-una-adicion-residencial-o-comercial</guid>
-      <pubDate>Tue, 14 Jul 2015 15:22:00 -0500</pubDate>
+      <title>Patentes en La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-patentes.html</link>
+      <guid isPermaLink="false">indicadores-la-laguna-economia-patentes</guid>
+      <pubDate>Tue, 14 Jul 2015 17:18:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
-<p>Determina el número de horas requeridas para realizar el trámite de permiso de construcción de una adición (residencial/comercial). Calculado por Número de Horas Empleadas para el Trámite de Permisos de Construcción de Una Adición, entre Número de Permisos de Construcción Una Adición Otorgados.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>30/06/2014</td>
-            <td>38</td>
-            <td>Ayuntamiento de Torreón</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Horas.</p>
-      <h3>Observaciones</h3>
-<p>Sistema de Indicadores de Desempeño (SINDES) con metodología de la Asociación de Administración de ciudades y condados (ICMA) http://www.icmaml.org/sindes/</p>
-]]></description>
-    </item>
-    <item>
-      <title>Promedio de horas para la realización del trámite de licencia para negocio en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-licencia-para-negocio.html</link>
-      <guid isPermaLink="false">indicadores-torreon-economia-promedio-de-horas-para-la-realizacion-del-tramite-de-licencia-para-negocio</guid>
-      <pubDate>Tue, 14 Jul 2015 15:15:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Determina el número de horas requeridas para la realización del trámite de licencia para negocios. Número de Horas Empleadas para el Trámite de Licencias para Negocios, entre Número de Licencias para Negocios Otorgadas.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>30/06/2014</td>
-            <td>100</td>
-            <td>Ayuntamiento de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2014</td>
-            <td>30</td>
-            <td>Ayuntamiento de Torreón</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Horas.</p>
-      <h3>Observaciones</h3>
-<p>Sistema de Indicadores de Desempeño (SINDES) con metodología de la Asociación de Administración de ciudades y condados (ICMA) http://www.icmaml.org/sindes/</p>
-]]></description>
-    </item>
-    <item>
-      <title>Policías operativos de seguridad pública por cada mil habitantes. en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-policias-operativos-de-seguridad-publica-por-cada-mil-habitantes.html</link>
-      <guid isPermaLink="false">indicadores-torreon-gobierno-policias-operativos-de-seguridad-publica-por-cada-mil-habitantes</guid>
-      <pubDate>Tue, 14 Jul 2015 15:10:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Determina el número de policías operativos por cada mil habitantes.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>30/06/2014</td>
-            <td>0.9100</td>
-            <td>Ayuntamiento de Torreón</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2014</td>
-            <td>0.9700</td>
-            <td>Ayuntamiento de Torreón</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Por cada mil habitantes.</p>
-      <h3>Observaciones</h3>
-<p>Sistema de Indicadores de Desempeño (SINDES) con metodología de la Asociación de Administración de ciudades y condados (ICMA) http://www.icmaml.org/sindes/</p>
-]]></description>
-    </item>
-    <item>
-      <title>Índice de herramientas electrónicas de gobiernos locales en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales.html</link>
-      <guid isPermaLink="false">indicadores-torreon-gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales</guid>
-      <pubDate>Tue, 14 Jul 2015 14:50:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>El Índice de herramientas electrónicas locales desarrollado por IMCO evaluó cuatro aspectos para determinar los avances de gobierno electrónico en los municipios de la muestra: información, interacción, transacción, experiencia de usuario.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>22/01/2015</td>
-            <td>35.8000</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Puntos.</p>]]></description>
-    </item>
-    <item>
-      <title>Crecimiento de la Mancha Urbana en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-de-la-mancha-urbana.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-economia-crecimiento-de-la-mancha-urbana</guid>
-      <pubDate>Tue, 14 Jul 2015 13:51:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Mide la razón de crecimiento de la mancha urbana entre 2005 y 2010 respecto del crecimiento de la población de la ciudad correspondiente durante el mismo periodo.</p>
+<p>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal. Unidades: Por cada 100 mil de PEA. Fuente: CONACYT, 2008-2012.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -284,46 +215,46 @@
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>1.2467</td>
+            <td>1.7786</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>1.2467</td>
+            <td>2.3179</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>1.2467</td>
+            <td>3.3797</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>1.2467</td>
+            <td>4.3154</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>1.2467</td>
+            <td>5.3714</td>
             <td>IMCO</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Número de veces.</p>]]></description>
+      <p><b>Unidad:</b> Por cada 100 mil de PEA.</p>]]></description>
     </item>
     <item>
-      <title>Empleados en el Sector Formal en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-empleados-en-el-sector-formal.html</link>
-      <guid isPermaLink="false">indicadores-torreon-economia-empleados-en-el-sector-formal</guid>
-      <pubDate>Tue, 14 Jul 2015 13:10:00 -0500</pubDate>
+      <title>Muertes por Infecciones Instestinales en La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-la-laguna/gobierno-muertes-por-infecciones-instestinales.html</link>
+      <guid isPermaLink="false">indicadores-la-laguna-gobierno-muertes-por-infecciones-instestinales</guid>
+      <pubDate>Tue, 14 Jul 2015 15:45:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Gobiernos Eficaces y Eficientes". Mide el número de empleados en el sector formal como porcentaje de la población ocupada total. El INEGI define como sector formal a todas aquellas actividades económicas que se desarrollan en empresas constituidas en sociedad, corporaciones, instituciones públicas o privadas, y negocios no constituidos en sociedad pero que reportan ingresos ante la autoridad hacendaria.</p>
+<p>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el número de muertes ocasionadas por infecciones intestinales por cada 100 mil habitantes. A falta de mediciones adecuadas de calidad del agua, este indicador capta los impactos de que una ciudad consuma agua relativamente sucia como resultado de un mal funcionamiento del organismo operador de agua local. El indicador asume una relación directa entre calidad del agua y enfermedades intestinales.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -338,102 +269,46 @@
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>68.91 %</td>
+            <td>3.5742</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>71.73 %</td>
+            <td>2.2967</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>57.94 %</td>
+            <td>2.8330</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>55.79 %</td>
+            <td>3.9145</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>48.86 %</td>
+            <td>3.5499</td>
             <td>IMCO</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Porcentaje.</p>]]></description>
+      <p><b>Unidad:</b> Por cada 100 mil.</p>]]></description>
     </item>
     <item>
-      <title>Economía Intensiva en Energía en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-economia-intensiva-en-energia.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-economia-intensiva-en-energia</guid>
-      <pubDate>Tue, 14 Jul 2015 12:55:00 -0500</pubDate>
+      <title>Posgrados de Calidad en La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-posgrados-de-calidad.html</link>
+      <guid isPermaLink="false">indicadores-la-laguna-economia-posgrados-de-calidad</guid>
+      <pubDate>Tue, 14 Jul 2015 15:42:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
-<p>Se incluye en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el volumen de combustibles que requiere una ciudad para generar un millón de pesos del PIB.
-Fuente: Petróleos Mexicanos (PEMEX) y estimaciones de IMCO con información del INEGI, 2008-2012.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2008</td>
-            <td>2.9000</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>2.8000</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>2.8000</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>2.8000</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>2.6000</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Metros cúbicos de combustibes por cada millón de PIB.</p>]]></description>
-    </item>
-    <item>
-      <title>Desastres Naturales en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-desastres-naturales.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sustentabilidad-desastres-naturales</guid>
-      <pubDate>Tue, 14 Jul 2015 12:45:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de apoyos solicitados al Fondo de Desastres Naturales (FONDEN) o al Programa para Atender contingencias Climáticas (PACC) por eventos naturales y que superaron las capacidades financieras de respuesta de las dependencias responsables estatales y municipales.
-Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</p>
+<p>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de posgrados registrados en el Programa Nacional de Posgrados de Calidad de CONACYT. Esta variable es estatal.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -466,55 +341,235 @@ Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</p>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>3</td>
+            <td>0</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>3</td>
+            <td>0</td>
             <td>IMCO</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-      <h3>Observaciones</h3>
-<p>Unidad: Cantidad de veces que se requirió el apoyo del FONDEN en los últimos tres años.</p>
-]]></description>
+      <p><b>Unidad:</b> Posgrados por cada 100 mil de PEA.</p>]]></description>
     </item>
     <item>
-      <title>Hacia una Conurbación Sustentable de La Laguna</title>
-      <link>http://www.trcimplan.gob.mx/blog/hacia-una-conurbacion-sustentable-de-la-laguna.html</link>
-      <guid isPermaLink="false">blog-hacia-una-conurbacion-sustentable-de-la-laguna</guid>
-      <pubDate>Tue, 14 Jul 2015 12:40:00 -0500</pubDate>
-      <author>Arq. Jair Miramontes Chávez</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/hacia-una-conurbacion-sustentable-de-la-laguna/imagen.jpg"><br>
+      <title>Centros de Investigación en La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-centros-de-investigacion.html</link>
+      <guid isPermaLink="false">indicadores-la-laguna-economia-centros-de-investigacion</guid>
+      <pubDate>Tue, 14 Jul 2015 15:41:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de centros de investigación del CONACYT, de la UNAM y del IPN que están establecidos en cada ciudad. Esta variable se construyó a partir de los directorios públicos de cada una de las instituciones.</p>
 
-<p>La <strong>conurbación</strong> o <strong>zona conurbada</strong> es la <strong>continuidad física y demográfica que forman o tienden a formar dos a más centros de población,</strong> es el resultado del crecimiento de varias ciudades, las cuales se integran para formar un sistema que suele estar jerarquizado, aunque las distintas unidades que lo conforman pueden mantener su independencia funcional y dinámica.</p>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Centros de investigación por cada 100 mil de PEA.</p>]]></description>
+    </item>
+    <item>
+      <title>Empresas Certificadas con ISO-9000 y 14000 en La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-empresas-certificadas-con-iso-9000-y-14000.html</link>
+      <guid isPermaLink="false">indicadores-la-laguna-economia-empresas-certificadas-con-iso-9000-y-14000</guid>
+      <pubDate>Tue, 14 Jul 2015 15:39:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de empresas que cuentan con el certificado ISO-9000 e ISO-14000 (certificados de calidad) que emite la Organización Internacional de Estandarización (ISO por sus siglas en inglés). Esta variable es estatal.</p>
 
-<p>Las ciudades que conforman una conurbación tienen actividades diferenciadas, cada una con una dinámica particular, recursos económicos, capacidades para atraer inversiones, con sus propios grupos sociales, un modo de ser con una cultura propia que los identifica y les da identidad.</p>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>11.6224</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>13.3688</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>16.1812</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>18.1313</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>21.4807</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Por cada mil.</p>]]></description>
+    </item>
+    <item>
+      <title>Grandes empresas según CNN Expansión en La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-grandes-empresas-segun-cnn-expansion.html</link>
+      <guid isPermaLink="false">indicadores-la-laguna-economia-grandes-empresas-segun-cnn-expansion</guid>
+      <pubDate>Tue, 14 Jul 2015 15:38:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Mide el número de empresas que se encuentran en el Top 500 de empresas de la revista CNN Expansión. La empresa se contabiliza si tiene su casa matriz en alguna ciudad de la muestra.</p>
 
-<div style="clear:left;"></div>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>0.1592</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0.1611</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0.1618</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0.1633</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0.1640</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Grandes empresas por cada mil.</p>]]></description>
+    </item>
+    <item>
+      <title>Empresas en La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-empresas.html</link>
+      <guid isPermaLink="false">indicadores-la-laguna-economia-empresas</guid>
+      <pubDate>Tue, 14 Jul 2015 15:35:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de registros patronales en cada ciudad con respecto a la población económica activa (PEA).</p>
 
-<p>La zona conurbada de <strong>La Laguna presenta las problemáticas comunes que tienen la mayoría de las Zonas Metropolitanas importantes del país,</strong> como:</p>
-
-<ul>
-<li><strong>Crecimiento disperso de los asentamientos</strong> que incrementan los tiempos de desplazamiento de los habitantes, tanto en transporte público como en vehículos particulares a causa del tráfico y las distancias.</li>
-<li><strong>Abandono de los centros históricos o antiguos,</strong> que deterioran la imagen urbana.</li>
-<li><strong>La calidad de vida se hace deficiente,</strong> sobre todo de la población de menor ingreso.</li>
-<li><strong>Se encarecen y se hacen deficientes la prestación de servicios públicos.</strong></li>
-<li>Los municipios tienen la <strong>necesidad de promoverse para atraer inversión</strong> y por otro lado <strong>tienen grandes limitaciones financieras para prestar sus servicios.</strong></li>
-</ul>
-
-<p>Estos problemas comunes se presentan por las tendencias del crecimiento de las ciudades mexicanas <strong>donde se promovió solo el crecimiento urbano horizontal y la movilidad basada en el uso del automóvil que incentivó la segregación social.</strong></p>
-
-<p><strong>La Laguna tiene grandes áreas de oportunidades de revertir estas tendencias negativas,</strong> si se privilegia antes que nada la <strong>calidad de vida</strong> y el patrimonio de los ciudadanos. Es necesario implementar un desarrollo urbano orientado a la <strong>sustentabilidad ambiental,</strong> con un correcto manejo del agua, la implementación de movilidad sustentable, reciclar la ciudad y aprovechar la capacidad de producir energía renovable, principalmente solar, son acciones que se deben considerar para conducir a la Zona Metropolitana de La Laguna y su región a un dinamismo con dirección y planeación sustentable.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/hacia-una-conurbacion-sustentable-de-la-laguna/zona-conurbada-la-laguna.jpg" alt="Zona Conurbada de La Laguna"></p>
-
-<p>Fuente: Ley General de Asentamientos Humanos</p>
-]]></description>
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>25.1818</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>26.2824</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>25.3898</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>22.4684</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>23.1127</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Empresas por cada mil de PEA.</p>]]></description>
     </item>
   </channel>
 </rss>

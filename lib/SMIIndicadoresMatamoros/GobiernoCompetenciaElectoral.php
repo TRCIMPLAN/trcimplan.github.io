@@ -71,6 +71,7 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
         $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -90,6 +91,66 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>31/12/2008</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0.70 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0.70 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0.70 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0.70 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>07/07/2013</td>
             <td>39.67 %</td>
             <td>INE-IEPCC</td>
@@ -98,6 +159,10 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Competencia Electoral en Matamoros con fuente IMCO</h3>
+      <div id="graficaDatosImco" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Competencia Electoral</h3>
@@ -123,16 +188,16 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-06-30</td>
-            <td>4.48 %</td>
-            <td>INE-IEPCC</td>
+            <td>2012-12-31</td>
+            <td>4.52 %</td>
+            <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-07-02</td>
+            <td>2012-12-31</td>
             <td>5.15 %</td>
-            <td>INE-IEPCC</td>
+            <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
@@ -990,13 +1055,29 @@ FINAL;
         $this->contenido         = $schema;
         // JavaScript
         $this->javascript        = <<<FINAL
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatosImco === 'undefined') {
+    vargraficaDatosImco = Morris.Line({
+      element: 'graficaDatosImco',
+      data: [{ fecha: '2008-12-31', dato: 42.9200 },{ fecha: '2009-12-31', dato: 42.9200 },{ fecha: '2010-12-31', dato: 42.9200 },{ fecha: '2011-12-31', dato: 0.7000 },{ fecha: '2012-12-31', dato: 0.7000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 1.7700 },{ region: 'Gómez Palacio', dato: 4.4800 },{ region: 'Lerdo', dato: 5.1500 },{ region: 'Matamoros', dato: 39.6700 },{ region: 'La Laguna', dato: 6.7000 }],
+      data: [{ region: 'Torreón', dato: 1.7700 },{ region: 'Gómez Palacio', dato: 4.5200 },{ region: 'Lerdo', dato: 5.1500 },{ region: 'Matamoros', dato: 39.6700 },{ region: 'La Laguna', dato: 6.7000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -1025,6 +1106,66 @@ FINAL;
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>42.92 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0.70 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0.70 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0.70 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0.70 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
           <tr>
             <td>07/07/2013</td>
             <td>39.67 %</td>

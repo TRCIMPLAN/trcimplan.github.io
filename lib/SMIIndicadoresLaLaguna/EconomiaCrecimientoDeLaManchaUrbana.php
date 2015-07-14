@@ -97,6 +97,18 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>31/12/2008</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2009</td>
             <td>1.2467</td>
             <td>IMCO</td>
@@ -109,7 +121,25 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>31/12/2010</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2011</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
             <td>1.2467</td>
             <td>IMCO</td>
             <td></td>
@@ -143,6 +173,27 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \Base\Publicacion {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>Torreón</td>
+            <td>2012-12-31</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2012-12-31</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2012-12-31</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
           <tr>
             <td>Matamoros</td>
             <td>2012-12-31</td>
@@ -720,7 +771,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Matamoros', dato: 1.2467 },{ region: 'La Laguna', dato: 1.2467 }],
+      data: [{ region: 'Torreón', dato: 1.2467 },{ region: 'Gómez Palacio', dato: 1.2467 },{ region: 'Lerdo', dato: 1.2467 },{ region: 'Matamoros', dato: 1.2467 },{ region: 'La Laguna', dato: 1.2467 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -756,6 +807,18 @@ FINAL;
             <td></td>
           </tr>
           <tr>
+            <td>31/12/2008</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2009</td>
             <td>1.2467</td>
             <td>IMCO</td>
@@ -768,7 +831,25 @@ FINAL;
             <td></td>
           </tr>
           <tr>
+            <td>31/12/2010</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2011</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>1.2467</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
             <td>1.2467</td>
             <td>IMCO</td>
             <td></td>

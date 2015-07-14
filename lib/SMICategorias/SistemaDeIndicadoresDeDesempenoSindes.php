@@ -75,6 +75,15 @@ class SistemaDeIndicadoresDeDesempenoSindes extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Gasto en nómina por empleado</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-gasto-en-nomina-por-empleado.html" data-toggle="tooltip" title="Pesos, 31/12/2014, Ayuntamiento de Torreón">$ 63,791.74</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Promedio de horas para la realización del trámite de licencia para negocio</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-licencia-para-negocio.html" data-toggle="tooltip" title="Horas, 31/12/2014, Ayuntamiento de Torreón">30</a></td>
     <td class="nd">ND</td>
@@ -122,6 +131,15 @@ class SistemaDeIndicadoresDeDesempenoSindes extends \Base\Publicacion {
     <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Litros de combustible gastados por habitante</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-habitante.html" data-toggle="tooltip" title="Litros por Persona, 31/12/2014, Ayuntamiento de Torreón">2.4</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Litros de combustible gastados por unidad recolectora de residuos sólidos propiedad del municipio</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-unidad-recolectora-de-residuos-solidos-propiedad-del-municipio.html" data-toggle="tooltip" title="Litros, 30/06/2014, Ayuntamiento de Torreón">$ 21,430.36</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

@@ -71,11 +71,19 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
       <li><a href="../indicadores-torreon/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-torreon/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
+      <li><a href="../indicadores-torreon/economia-centros-de-investigacion.html" target="_blank">Centros de Investigación</a></li>
+      <li><a href="../indicadores-torreon/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
+      <li><a href="../indicadores-torreon/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-torreon/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
       <li><a href="../indicadores-torreon/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-torreon/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-torreon/economia-empresas.html" target="_blank">Empresas</a></li>
+      <li><a href="../indicadores-torreon/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
       <li><a href="../indicadores-torreon/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
+      <li><a href="../indicadores-torreon/economia-gasto-en-nomina-por-empleado.html" target="_blank">Gasto en nómina por empleado</a></li>
       <li><a href="../indicadores-torreon/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
+      <li><a href="../indicadores-torreon/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes empresas según CNN Expansión</a></li>
       <li><a href="../indicadores-torreon/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
       <li><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-comercio.html" target="_blank">Índice de Especialización Local en Comercio</a></li>
       <li><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-industria-manufacturera.html" target="_blank">Índice de Especialización Local en Industria Manufacturera</a></li>
@@ -84,18 +92,19 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
       <li><a href="../indicadores-torreon/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
       <li><a href="../indicadores-torreon/economia-inflacion-anual.html" target="_blank">Inflación anual</a></li>
-      <li><a href="../indicadores-torreon/economia-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
       <li><a href="../indicadores-torreon/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
       <li><a href="../indicadores-torreon/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
       <li><a href="../indicadores-torreon/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-microempresas.html" target="_blank">Microempresas</a></li>
       <li><a href="../indicadores-torreon/economia-nuevas-empresas.html" target="_blank">Nuevas Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-obtencion-de-credito-creacion-de-garantias.html" target="_blank">Obtención de crédito - Creación de garantías</a></li>
+      <li><a href="../indicadores-torreon/economia-patentes.html" target="_blank">Patentes</a></li>
       <li><a href="../indicadores-torreon/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-permiso-de-construccion.html" target="_blank">Permiso de Construcción</a></li>
       <li><a href="../indicadores-torreon/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
       <li><a href="../indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
       <li><a href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+      <li><a href="../indicadores-torreon/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-torreon/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
       <li><a href="../indicadores-torreon/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
@@ -103,11 +112,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-permiso-de-construccion-de-una-adicion-residencial-o-comercial.html" target="_blank">Promedio de horas para la realizacion del tramite de permiso de construcción de una adición (residencial o comercial)</a></li>
       <li><a href="../indicadores-torreon/economia-registro-de-una-propiedad.html" target="_blank">Registro de una Propiedad</a></li>
       <li><a href="../indicadores-torreon/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
-      <li><a href="../indicadores-torreon/economia-salario-promedio.html" target="_blank">Salario promedio</a></li>
       <li><a href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
-      <li><a href="../indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-torreon/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
+      <li><a href="../indicadores-torreon/economia-tierra-ejidal.html" target="_blank">Tierra ejidal</a></li>
       <li><a href="../indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
       <li><a href="../indicadores-torreon/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-torreon/economia-trabajadores-asegurados-region.html" target="_blank">Trabajadores Asegurados (Región)</a></li>
@@ -126,15 +134,21 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-torreon/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
       <li><a href="../indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
+      <li><a href="../indicadores-torreon/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de período para ediles y delegados</a></li>
       <li><a href="../indicadores-torreon/gobierno-empleados-municipales.html" target="_blank">Empleados municipales</a></li>
       <li><a href="../indicadores-torreon/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
       <li><a href="../indicadores-torreon/gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales.html" target="_blank">Índice de herramientas electrónicas de gobiernos locales</a></li>
       <li><a href="../indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de Información Presupuestal</a></li>
       <li><a href="../indicadores-torreon/gobierno-ingresos-por-cobro-de-servicios.html" target="_blank">Ingresos por Cobro de Servicios</a></li>
+      <li><a href="../indicadores-torreon/gobierno-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
       <li><a href="../indicadores-torreon/gobierno-ingresos-totales.html" target="_blank">Ingresos Totales</a></li>
       <li><a href="../indicadores-torreon/gobierno-ingresos-totales-per-capita.html" target="_blank">Ingresos Totales Per Cápita</a></li>
       <li><a href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-habitante.html" target="_blank">Litros de combustible gastados por habitante</a></li>
+      <li><a href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-unidad-recolectora-de-residuos-solidos-propiedad-del-municipio.html" target="_blank">Litros de combustible gastados por unidad recolectora de residuos sólidos propiedad del municipio</a></li>
+      <li><a href="../indicadores-torreon/gobierno-muertes-por-infecciones-instestinales.html" target="_blank">Muertes por Infecciones Instestinales</a></li>
+      <li><a href="../indicadores-torreon/gobierno-participacion-ciudadana.html" target="_blank">Participación ciudadana</a></li>
       <li><a href="../indicadores-torreon/gobierno-participacion-electoral.html" target="_blank">Participación Electoral</a></li>
+      <li><a href="../indicadores-torreon/gobierno-periodistas-muertos-o-desaparecidos.html" target="_blank">Periodistas muertos o desaparecidos</a></li>
       <li><a href="../indicadores-torreon/gobierno-policias-operativos-de-seguridad-publica-por-cada-mil-habitantes.html" target="_blank">Policías operativos de seguridad pública por cada mil habitantes.</a></li>
       <li><a href="../indicadores-torreon/gobierno-promedio-de-horas-para-la-realizacion-de-tramite-de-carta-de-no-adeudo-predial.html" target="_blank">Promedio de horas para la realización de trámite de carta de no adeudo predial</a></li>
       <li><a href="../indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
@@ -151,6 +165,8 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/seguridad-delitos.html" target="_blank">Delitos</a></li>
       <li><a href="../indicadores-torreon/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
       <li><a href="../indicadores-torreon/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
+      <li><a href="../indicadores-torreon/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto reportado en robo de mercancías</a></li>
+      <li><a href="../indicadores-torreon/seguridad-percepcion-de-inseguridad.html" target="_blank">Percepción de inseguridad</a></li>
       <li><a href="../indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html" target="_blank">Personas Involucradas en Delitos del Fuero Común</a></li>
       <li><a href="../indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html" target="_blank">Personas Involucradas en Delitos del Fuero Federal</a></li>
       <li><a href="../indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
@@ -164,6 +180,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
       <li><a href="../indicadores-torreon/seguridad-tasa-de-extorsion.html" target="_blank">Tasa de Extorsión</a></li>
       <li><a href="../indicadores-torreon/seguridad-tasa-de-homicidio-doloso.html" target="_blank">Tasa de Homicidio Doloso</a></li>
+      <li><a href="../indicadores-torreon/seguridad-tasa-de-homicidios.html" target="_blank">Tasa de Homicidios</a></li>
       <li><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html" target="_blank">Tasa de Robo de Vehículo con Violencia</a></li>
       <li><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html" target="_blank">Tasa de Robo de VehÍculos</a></li>
       <li><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html" target="_blank">Tasa de Robo de Vehículo sin Violencia</a></li>
@@ -268,11 +285,18 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-centros-de-investigacion.html" target="_blank">Centros de Investigación</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-empresas.html" target="_blank">Empresas</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes empresas según CNN Expansión</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-comercio.html" target="_blank">Índice de Especialización Local en Comercio</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-industria-manufacturera.html" target="_blank">Índice de Especialización Local en Industria Manufacturera</a></li>
@@ -280,23 +304,23 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-la-mineria.html" target="_blank">Índice de Especialización Local en la Minería</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
-      <li><a href="../indicadores-gomez-palacio/economia-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-microempresas.html" target="_blank">Microempresas</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-patentes.html" target="_blank">Patentes</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
-      <li><a href="../indicadores-gomez-palacio/economia-salario-promedio.html" target="_blank">Salario promedio</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
-      <li><a href="../indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-tierra-ejidal.html" target="_blank">Tierra ejidal</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
@@ -312,12 +336,17 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
+      <li><a href="../indicadores-gomez-palacio/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de período para ediles y delegados</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de Información Presupuestal</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-ingresos-por-cobro-de-servicios.html" target="_blank">Ingresos por Cobro de Servicios</a></li>
+      <li><a href="../indicadores-gomez-palacio/gobierno-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-ingresos-totales.html" target="_blank">Ingresos Totales</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-ingresos-totales-per-capita.html" target="_blank">Ingresos Totales Per Cápita</a></li>
+      <li><a href="../indicadores-gomez-palacio/gobierno-muertes-por-infecciones-instestinales.html" target="_blank">Muertes por Infecciones Instestinales</a></li>
+      <li><a href="../indicadores-gomez-palacio/gobierno-participacion-ciudadana.html" target="_blank">Participación ciudadana</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-participacion-electoral.html" target="_blank">Participación Electoral</a></li>
+      <li><a href="../indicadores-gomez-palacio/gobierno-periodistas-muertos-o-desaparecidos.html" target="_blank">Periodistas muertos o desaparecidos</a></li>
       <li><a href="../indicadores-gomez-palacio/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
     </ul>
   </div>
@@ -330,6 +359,8 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/seguridad-delitos.html" target="_blank">Delitos</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto reportado en robo de mercancías</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-percepcion-de-inseguridad.html" target="_blank">Percepción de inseguridad</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html" target="_blank">Personas Involucradas en Delitos del Fuero Común</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html" target="_blank">Personas Involucradas en Delitos del Fuero Federal</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
@@ -343,6 +374,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-extorsion.html" target="_blank">Tasa de Extorsión</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-homicidio-doloso.html" target="_blank">Tasa de Homicidio Doloso</a></li>
+      <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-homicidios.html" target="_blank">Tasa de Homicidios</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html" target="_blank">Tasa de Robo de Vehículo con Violencia</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html" target="_blank">Tasa de Robo de VehÍculos</a></li>
       <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html" target="_blank">Tasa de Robo de Vehículo sin Violencia</a></li>
@@ -439,11 +471,18 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
       <li><a href="../indicadores-lerdo/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-lerdo/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
+      <li><a href="../indicadores-lerdo/economia-centros-de-investigacion.html" target="_blank">Centros de Investigación</a></li>
+      <li><a href="../indicadores-lerdo/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
+      <li><a href="../indicadores-lerdo/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-lerdo/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
       <li><a href="../indicadores-lerdo/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-lerdo/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-lerdo/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-lerdo/economia-empresas.html" target="_blank">Empresas</a></li>
+      <li><a href="../indicadores-lerdo/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
       <li><a href="../indicadores-lerdo/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
       <li><a href="../indicadores-lerdo/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
+      <li><a href="../indicadores-lerdo/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes empresas según CNN Expansión</a></li>
       <li><a href="../indicadores-lerdo/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
       <li><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-comercio.html" target="_blank">Índice de Especialización Local en Comercio</a></li>
       <li><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-industria-manufacturera.html" target="_blank">Índice de Especialización Local en Industria Manufacturera</a></li>
@@ -451,23 +490,23 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-la-mineria.html" target="_blank">Índice de Especialización Local en la Minería</a></li>
       <li><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
       <li><a href="../indicadores-lerdo/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
-      <li><a href="../indicadores-lerdo/economia-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
       <li><a href="../indicadores-lerdo/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
       <li><a href="../indicadores-lerdo/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
       <li><a href="../indicadores-lerdo/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-lerdo/economia-microempresas.html" target="_blank">Microempresas</a></li>
+      <li><a href="../indicadores-lerdo/economia-patentes.html" target="_blank">Patentes</a></li>
       <li><a href="../indicadores-lerdo/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-lerdo/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
       <li><a href="../indicadores-lerdo/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
       <li><a href="../indicadores-lerdo/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+      <li><a href="../indicadores-lerdo/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-lerdo/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
       <li><a href="../indicadores-lerdo/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
       <li><a href="../indicadores-lerdo/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
-      <li><a href="../indicadores-lerdo/economia-salario-promedio.html" target="_blank">Salario promedio</a></li>
       <li><a href="../indicadores-lerdo/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
-      <li><a href="../indicadores-lerdo/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-lerdo/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
+      <li><a href="../indicadores-lerdo/economia-tierra-ejidal.html" target="_blank">Tierra ejidal</a></li>
       <li><a href="../indicadores-lerdo/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
       <li><a href="../indicadores-lerdo/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
@@ -483,12 +522,17 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
       <li><a href="../indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
+      <li><a href="../indicadores-lerdo/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de período para ediles y delegados</a></li>
       <li><a href="../indicadores-lerdo/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
       <li><a href="../indicadores-lerdo/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de Información Presupuestal</a></li>
       <li><a href="../indicadores-lerdo/gobierno-ingresos-por-cobro-de-servicios.html" target="_blank">Ingresos por Cobro de Servicios</a></li>
+      <li><a href="../indicadores-lerdo/gobierno-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
       <li><a href="../indicadores-lerdo/gobierno-ingresos-totales.html" target="_blank">Ingresos Totales</a></li>
       <li><a href="../indicadores-lerdo/gobierno-ingresos-totales-per-capita.html" target="_blank">Ingresos Totales Per Cápita</a></li>
+      <li><a href="../indicadores-lerdo/gobierno-muertes-por-infecciones-instestinales.html" target="_blank">Muertes por Infecciones Instestinales</a></li>
+      <li><a href="../indicadores-lerdo/gobierno-participacion-ciudadana.html" target="_blank">Participación ciudadana</a></li>
       <li><a href="../indicadores-lerdo/gobierno-participacion-electoral.html" target="_blank">Participación Electoral</a></li>
+      <li><a href="../indicadores-lerdo/gobierno-periodistas-muertos-o-desaparecidos.html" target="_blank">Periodistas muertos o desaparecidos</a></li>
       <li><a href="../indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
     </ul>
   </div>
@@ -501,6 +545,8 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/seguridad-delitos.html" target="_blank">Delitos</a></li>
       <li><a href="../indicadores-lerdo/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
       <li><a href="../indicadores-lerdo/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto reportado en robo de mercancías</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-percepcion-de-inseguridad.html" target="_blank">Percepción de inseguridad</a></li>
       <li><a href="../indicadores-lerdo/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html" target="_blank">Personas Involucradas en Delitos del Fuero Común</a></li>
       <li><a href="../indicadores-lerdo/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html" target="_blank">Personas Involucradas en Delitos del Fuero Federal</a></li>
       <li><a href="../indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
@@ -514,6 +560,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
       <li><a href="../indicadores-lerdo/seguridad-tasa-de-extorsion.html" target="_blank">Tasa de Extorsión</a></li>
       <li><a href="../indicadores-lerdo/seguridad-tasa-de-homicidio-doloso.html" target="_blank">Tasa de Homicidio Doloso</a></li>
+      <li><a href="../indicadores-lerdo/seguridad-tasa-de-homicidios.html" target="_blank">Tasa de Homicidios</a></li>
       <li><a href="../indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html" target="_blank">Tasa de Robo de Vehículo con Violencia</a></li>
       <li><a href="../indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculos.html" target="_blank">Tasa de Robo de VehÍculos</a></li>
       <li><a href="../indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html" target="_blank">Tasa de Robo de Vehículo sin Violencia</a></li>
@@ -610,12 +657,18 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
       <li><a href="../indicadores-matamoros/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-matamoros/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
+      <li><a href="../indicadores-matamoros/economia-centros-de-investigacion.html" target="_blank">Centros de Investigación</a></li>
       <li><a href="../indicadores-matamoros/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
+      <li><a href="../indicadores-matamoros/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-matamoros/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
       <li><a href="../indicadores-matamoros/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-matamoros/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-matamoros/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-matamoros/economia-empresas.html" target="_blank">Empresas</a></li>
+      <li><a href="../indicadores-matamoros/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
       <li><a href="../indicadores-matamoros/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
       <li><a href="../indicadores-matamoros/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
+      <li><a href="../indicadores-matamoros/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes empresas según CNN Expansión</a></li>
       <li><a href="../indicadores-matamoros/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
       <li><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-comercio.html" target="_blank">Índice de Especialización Local en Comercio</a></li>
       <li><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-industria-manufacturera.html" target="_blank">Índice de Especialización Local en Industria Manufacturera</a></li>
@@ -623,24 +676,24 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-la-mineria.html" target="_blank">Índice de Especialización Local en la Minería</a></li>
       <li><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
       <li><a href="../indicadores-matamoros/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
-      <li><a href="../indicadores-matamoros/economia-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
       <li><a href="../indicadores-matamoros/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
       <li><a href="../indicadores-matamoros/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
       <li><a href="../indicadores-matamoros/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-matamoros/economia-microempresas.html" target="_blank">Microempresas</a></li>
+      <li><a href="../indicadores-matamoros/economia-patentes.html" target="_blank">Patentes</a></li>
       <li><a href="../indicadores-matamoros/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
       <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
       <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
       <li><a href="../indicadores-matamoros/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
+      <li><a href="../indicadores-matamoros/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-matamoros/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
       <li><a href="../indicadores-matamoros/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
       <li><a href="../indicadores-matamoros/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
-      <li><a href="../indicadores-matamoros/economia-salario-promedio.html" target="_blank">Salario promedio</a></li>
       <li><a href="../indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
-      <li><a href="../indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-matamoros/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
+      <li><a href="../indicadores-matamoros/economia-tierra-ejidal.html" target="_blank">Tierra ejidal</a></li>
       <li><a href="../indicadores-matamoros/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
       <li><a href="../indicadores-matamoros/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
@@ -656,12 +709,17 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
       <li><a href="../indicadores-matamoros/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
+      <li><a href="../indicadores-matamoros/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de período para ediles y delegados</a></li>
       <li><a href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
       <li><a href="../indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de Información Presupuestal</a></li>
       <li><a href="../indicadores-matamoros/gobierno-ingresos-por-cobro-de-servicios.html" target="_blank">Ingresos por Cobro de Servicios</a></li>
+      <li><a href="../indicadores-matamoros/gobierno-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
       <li><a href="../indicadores-matamoros/gobierno-ingresos-totales.html" target="_blank">Ingresos Totales</a></li>
       <li><a href="../indicadores-matamoros/gobierno-ingresos-totales-per-capita.html" target="_blank">Ingresos Totales Per Cápita</a></li>
+      <li><a href="../indicadores-matamoros/gobierno-muertes-por-infecciones-instestinales.html" target="_blank">Muertes por Infecciones Instestinales</a></li>
+      <li><a href="../indicadores-matamoros/gobierno-participacion-ciudadana.html" target="_blank">Participación ciudadana</a></li>
       <li><a href="../indicadores-matamoros/gobierno-participacion-electoral.html" target="_blank">Participación Electoral</a></li>
+      <li><a href="../indicadores-matamoros/gobierno-periodistas-muertos-o-desaparecidos.html" target="_blank">Periodistas muertos o desaparecidos</a></li>
       <li><a href="../indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
     </ul>
   </div>
@@ -674,6 +732,8 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/seguridad-delitos.html" target="_blank">Delitos</a></li>
       <li><a href="../indicadores-matamoros/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
       <li><a href="../indicadores-matamoros/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto reportado en robo de mercancías</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-percepcion-de-inseguridad.html" target="_blank">Percepción de inseguridad</a></li>
       <li><a href="../indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html" target="_blank">Personas Involucradas en Delitos del Fuero Común</a></li>
       <li><a href="../indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html" target="_blank">Personas Involucradas en Delitos del Fuero Federal</a></li>
       <li><a href="../indicadores-matamoros/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
@@ -687,6 +747,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
       <li><a href="../indicadores-matamoros/seguridad-tasa-de-extorsion.html" target="_blank">Tasa de Extorsión</a></li>
       <li><a href="../indicadores-matamoros/seguridad-tasa-de-homicidio-doloso.html" target="_blank">Tasa de Homicidio Doloso</a></li>
+      <li><a href="../indicadores-matamoros/seguridad-tasa-de-homicidios.html" target="_blank">Tasa de Homicidios</a></li>
       <li><a href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html" target="_blank">Tasa de Robo de Vehículo con Violencia</a></li>
       <li><a href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculos.html" target="_blank">Tasa de Robo de VehÍculos</a></li>
       <li><a href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html" target="_blank">Tasa de Robo de Vehículo sin Violencia</a></li>
@@ -783,12 +844,18 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
       <li><a href="../indicadores-la-laguna/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-la-laguna/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
+      <li><a href="../indicadores-la-laguna/economia-centros-de-investigacion.html" target="_blank">Centros de Investigación</a></li>
       <li><a href="../indicadores-la-laguna/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
+      <li><a href="../indicadores-la-laguna/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-la-laguna/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
       <li><a href="../indicadores-la-laguna/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-la-laguna/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-la-laguna/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-la-laguna/economia-empresas.html" target="_blank">Empresas</a></li>
+      <li><a href="../indicadores-la-laguna/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
       <li><a href="../indicadores-la-laguna/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
       <li><a href="../indicadores-la-laguna/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
+      <li><a href="../indicadores-la-laguna/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes empresas según CNN Expansión</a></li>
       <li><a href="../indicadores-la-laguna/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
       <li><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-comercio.html" target="_blank">Índice de Especialización Local en Comercio</a></li>
       <li><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-industria-manufacturera.html" target="_blank">Índice de Especialización Local en Industria Manufacturera</a></li>
@@ -796,23 +863,23 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-la-mineria.html" target="_blank">Índice de Especialización Local en la Minería</a></li>
       <li><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
       <li><a href="../indicadores-la-laguna/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
-      <li><a href="../indicadores-la-laguna/economia-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
       <li><a href="../indicadores-la-laguna/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
       <li><a href="../indicadores-la-laguna/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
       <li><a href="../indicadores-la-laguna/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-la-laguna/economia-microempresas.html" target="_blank">Microempresas</a></li>
+      <li><a href="../indicadores-la-laguna/economia-patentes.html" target="_blank">Patentes</a></li>
       <li><a href="../indicadores-la-laguna/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
       <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
       <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+      <li><a href="../indicadores-la-laguna/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
       <li><a href="../indicadores-la-laguna/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
       <li><a href="../indicadores-la-laguna/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
-      <li><a href="../indicadores-la-laguna/economia-salario-promedio.html" target="_blank">Salario promedio</a></li>
       <li><a href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
-      <li><a href="../indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
+      <li><a href="../indicadores-la-laguna/economia-tierra-ejidal.html" target="_blank">Tierra ejidal</a></li>
       <li><a href="../indicadores-la-laguna/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
       <li><a href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
@@ -828,12 +895,17 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html" target="_blank">Cumplimiento en Información Pública Mínina</a></li>
+      <li><a href="../indicadores-la-laguna/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" target="_blank">Duración de período para ediles y delegados</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html" target="_blank">Índice de Gobierno Electrónico Municipal</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html" target="_blank">Índice de Información Presupuestal</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-ingresos-por-cobro-de-servicios.html" target="_blank">Ingresos por Cobro de Servicios</a></li>
+      <li><a href="../indicadores-la-laguna/gobierno-ingresos-propios.html" target="_blank">Ingresos Propios</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-ingresos-totales.html" target="_blank">Ingresos Totales</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-ingresos-totales-per-capita.html" target="_blank">Ingresos Totales Per Cápita</a></li>
+      <li><a href="../indicadores-la-laguna/gobierno-muertes-por-infecciones-instestinales.html" target="_blank">Muertes por Infecciones Instestinales</a></li>
+      <li><a href="../indicadores-la-laguna/gobierno-participacion-ciudadana.html" target="_blank">Participación ciudadana</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-participacion-electoral.html" target="_blank">Participación Electoral</a></li>
+      <li><a href="../indicadores-la-laguna/gobierno-periodistas-muertos-o-desaparecidos.html" target="_blank">Periodistas muertos o desaparecidos</a></li>
       <li><a href="../indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html" target="_blank">Relación de Ingresos Propios y Totales</a></li>
     </ul>
   </div>
@@ -846,6 +918,8 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/seguridad-delitos.html" target="_blank">Delitos</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-delitos-patrimoniales.html" target="_blank">Delitos Patrimoniales</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-homicidios.html" target="_blank">Homicidios</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-monto-reportado-en-robo-de-mercancias.html" target="_blank">Monto reportado en robo de mercancías</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-percepcion-de-inseguridad.html" target="_blank">Percepción de inseguridad</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html" target="_blank">Porcentaje de Accidentes Viales Fatales</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" target="_blank">Robo a Negocios</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" target="_blank">Robo a Transeuntes</a></li>
@@ -855,6 +929,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/seguridad-secuestros.html" target="_blank">Secuestros</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-tasa-de-extorsion.html" target="_blank">Tasa de Extorsión</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-tasa-de-homicidio-doloso.html" target="_blank">Tasa de Homicidio Doloso</a></li>
+      <li><a href="../indicadores-la-laguna/seguridad-tasa-de-homicidios.html" target="_blank">Tasa de Homicidios</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html" target="_blank">Tasa de Robo de Vehículo con Violencia</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html" target="_blank">Tasa de Robo de VehÍculos</a></li>
       <li><a href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html" target="_blank">Tasa de Robo de Vehículo sin Violencia</a></li>

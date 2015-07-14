@@ -72,6 +72,7 @@ Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice d
         $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -92,6 +93,36 @@ Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice d
         </thead>
         <tbody>
           <tr>
+            <td>31/12/2008</td>
+            <td>0.2367</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0.2367</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0.2367</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0.2367</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0.8743</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/03/2014</td>
             <td>45.8400</td>
             <td>RFOSC</td>
@@ -100,6 +131,10 @@ Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice d
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Organizaciones de la Sociedad Civil en Gómez Palacio con fuente IMCO</h3>
+      <div id="graficaDatosImco" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Organizaciones de la Sociedad Civil</h3>
@@ -992,6 +1027,22 @@ FINAL;
         $this->contenido         = $schema;
         // JavaScript
         $this->javascript        = <<<FINAL
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatosImco === 'undefined') {
+    vargraficaDatosImco = Morris.Line({
+      element: 'graficaDatosImco',
+      data: [{ fecha: '2008-12-31', dato: 0.2367 },{ fecha: '2009-12-31', dato: 0.2367 },{ fecha: '2010-12-31', dato: 0.2367 },{ fecha: '2011-12-31', dato: 0.2367 },{ fecha: '2012-12-31', dato: 0.8743 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -1028,6 +1079,36 @@ Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice d
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>31/12/2008</td>
+            <td>0.2367</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>0.2367</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>0.2367</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>0.2367</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>0.8743</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
           <tr>
             <td>31/03/2014</td>
             <td>45.8400</td>

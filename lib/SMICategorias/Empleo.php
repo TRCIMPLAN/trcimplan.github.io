@@ -103,11 +103,11 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Crecimiento en los Empleados en el Sector Formal</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-5.66 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-9.77 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-14.27 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-4.27 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-7.46 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -198,15 +198,6 @@ class Empleo extends \Base\Publicacion {
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Salario promedio</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-salario-promedio.html" data-toggle="tooltip" title="Pesos, 31/03/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,434.28</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-salario-promedio.html" data-toggle="tooltip" title="Pesos, 31/03/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,319.43</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-salario-promedio.html" data-toggle="tooltip" title="Pesos, 31/03/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,518.95</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-salario-promedio.html" data-toggle="tooltip" title="Pesos, 31/03/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 4,043.13</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-salario-promedio.html" data-toggle="tooltip" title="Pesos, 31/03/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,817.26</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
