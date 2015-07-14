@@ -441,6 +441,24 @@ FINAL;
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html">Rezago Alimentario en Gómez Palacio</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-rezago-alimentario.html">Rezago Alimentario en Lerdo</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-rezago-alimentario.html">Rezago Alimentario en Matamoros</a></td>
+            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html">Pobreza Extrema en Gómez Palacio</a></td>
             <td>Porcentaje de la población en situación de pobreza extrema.</td>
           </tr>
@@ -527,24 +545,6 @@ FINAL;
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-pobreza.html">Pobreza en Torreón</a></td>
             <td>Porcentaje de la población en situación de pobreza.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html">Rezago Alimentario en Gómez Palacio</a></td>
-            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-rezago-alimentario.html">Rezago Alimentario en Lerdo</a></td>
-            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-rezago-alimentario.html">Rezago Alimentario en Matamoros</a></td>
-            <td>Personas que presenten un grado de inseguridad alimentaria moderado o severo.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>

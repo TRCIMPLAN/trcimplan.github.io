@@ -309,6 +309,15 @@ class Competitividad extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Patentes</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Población Ocupada sin Ingresos</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

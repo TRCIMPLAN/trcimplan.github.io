@@ -578,66 +578,6 @@ Fuente: CONAGUA, 2008-2009.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Gómez Palacio</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en La Laguna</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Lerdo</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Matamoros</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Torreón</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html">Accidentes Viales en Gómez Palacio</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/seguridad-accidentes-viales.html">Accidentes Viales en La Laguna</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/seguridad-accidentes-viales.html">Accidentes Viales en Lerdo</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-accidentes-viales.html">Accidentes Viales en Matamoros</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-accidentes-viales.html">Accidentes Viales en Torreón</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
 ajustada por el tamaño de su población.
@@ -680,66 +620,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html">Consumo de Agua Facturado en Torreón</a></td>
             <td>Consumo anual de agua por persona expresado en metros cúbicos.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Gómez Palacio</a></td>
-            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en La Laguna</a></td>
-            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Lerdo</a></td>
-            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Matamoros</a></td>
-            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Torreón</a></td>
-            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Gómez Palacio</a></td>
-            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en La Laguna</a></td>
-            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Lerdo</a></td>
-            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Matamoros</a></td>
-            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Torreón</a></td>
-            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -800,6 +680,191 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-motorizacion.html">Motorización en Torreón</a></td>
             <td>Vehículos automotores registrados en circulación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
+Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en La Laguna</a></td>
+            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
+Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Lerdo</a></td>
+            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
+Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Matamoros</a></td>
+            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
+Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Torreón</a></td>
+            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
+Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Gómez Palacio</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en La Laguna</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Lerdo</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Matamoros</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Torreón</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Gómez Palacio</a></td>
+            <td>Cantidad de accidentes viales fatales por año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en La Laguna</a></td>
+            <td>Cantidad de accidentes viales fatales por año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Lerdo</a></td>
+            <td>Cantidad de accidentes viales fatales por año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Matamoros</a></td>
+            <td>Cantidad de accidentes viales fatales por año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Torreón</a></td>
+            <td>Cantidad de accidentes viales fatales por año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html">Accidentes Viales en Gómez Palacio</a></td>
+            <td>Cantidad de accidentes viales por año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/seguridad-accidentes-viales.html">Accidentes Viales en La Laguna</a></td>
+            <td>Cantidad de accidentes viales por año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/seguridad-accidentes-viales.html">Accidentes Viales en Lerdo</a></td>
+            <td>Cantidad de accidentes viales por año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/seguridad-accidentes-viales.html">Accidentes Viales en Matamoros</a></td>
+            <td>Cantidad de accidentes viales por año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-accidentes-viales.html">Accidentes Viales en Torreón</a></td>
+            <td>Cantidad de accidentes viales por año.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Gómez Palacio</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en La Laguna</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Lerdo</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Matamoros</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Torreón</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Gómez Palacio</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en La Laguna</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Lerdo</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Matamoros</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Torreón</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -954,41 +1019,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Gómez Palacio</a></td>
             <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
           </tr>
@@ -1015,36 +1045,6 @@ Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Torreón</a></td>
             <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Gómez Palacio</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en La Laguna</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Lerdo</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Matamoros</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Torreón</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
           </tr>
           <tr>
             <td>15/10/2014</td>

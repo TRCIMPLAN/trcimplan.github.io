@@ -37,8 +37,8 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
         $this->fecha            = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo          = 'indice-de-competitividad-urbana';
-        $this->imagen           = '../imagenes/categorias/indice-competitividad-urbana.jpg';
-        $this->imagen_previa    = '../imagenes/categorias/indice-competitividad-urbana.jpg';
+        $this->imagen           = '../imagenes/categorias/indice-de-competitividad-urbana.jpg';
+        $this->imagen_previa    = '../imagenes/categorias/indice-de-competitividad-urbana.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Índice de Competitividad Urbana';
@@ -292,6 +292,15 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Patentes</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

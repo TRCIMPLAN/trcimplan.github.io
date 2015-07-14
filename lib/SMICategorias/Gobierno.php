@@ -156,6 +156,15 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Promedio de horas para la realización de trámite de carta de no adeudo predial</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-promedio-de-horas-para-la-realizacion-de-tramite-de-carta-de-no-adeudo-predial.html" data-toggle="tooltip" title="Horas, 30/06/2014, Ayuntamiento de Torreón">0.11</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Vehículos automotores por habitante</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-vehiculos-automotores-por-habitante.html" data-toggle="tooltip" title="Por habitante, 31/12/2014, Ayuntamiento de Torreón">0.19</a></td>
     <td class="nd">ND</td>
