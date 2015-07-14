@@ -278,6 +278,7 @@ a.indice-icono:active  { color:#FF3300; }
     background-color:transparent;
     border:none;
     text-align:center;
+    min-height:220px;
 }
 .galeria-icono {
     font-size:5em;
