@@ -5,7 +5,7 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 14 Jul 2015 17:01:13 -0500</pubDate>
+    <pubDate>Tue, 14 Jul 2015 17:08:51 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -397,9 +397,9 @@ Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</p>
 ]]></description>
     </item>
     <item>
-      <title>Registro de Una Propiedad en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-registro-de-una-propiedad.html</link>
-      <guid isPermaLink="false">indicadores-torreon-economia-registro-de-una-propiedad</guid>
+      <title>Registro de Una Propiedad en La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-registro-de-una-propiedad.html</link>
+      <guid isPermaLink="false">indicadores-la-laguna-economia-registro-de-una-propiedad</guid>
       <pubDate>Tue, 14 Jul 2015 12:35:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -418,31 +418,31 @@ Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</p>
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>0.7200</td>
+            <td>0.6500</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>0.5910</td>
+            <td>0.6932</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>0.5910</td>
+            <td>0.6932</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>0.5800</td>
+            <td>0.6877</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>0.5800</td>
+            <td>0.6877</td>
             <td>IMCO</td>
             <td></td>
           </tr>
