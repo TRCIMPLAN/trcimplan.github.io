@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Gómez Palacio Economía Tamaño del Mercado Hipotecario (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Lerdo Economía Cantidad de Créditos Hipotecarios (trimestral) (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -20,31 +20,31 @@
  */
 
 // Namespace
-namespace SMIIndicadoresGomezPalacio;
+namespace SMIIndicadoresLerdo;
 
 /**
- * Clase EconomiaTamanoDelMercadoHipotecario
+ * Clase EconomiaCantidadDeCreditosHipotecariosTrimestral
  */
-class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
+class EconomiaCantidadDeCreditosHipotecariosTrimestral extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Tamaño del Mercado Hipotecario en Gómez Palacio';
+        $this->nombre            = 'Cantidad de Créditos Hipotecarios (trimestral) en Lerdo';
      // $this->autor             = '';
         $this->fecha             = '2014-10-21T16:19';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo           = 'economia-tamano-del-mercado-hipotecario';
+        $this->archivo           = 'economia-cantidad-de-creditos-hipotecarios-trimestral';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion       = 'Créditos dispuestos marginalmente durante el año indicado.';
-        $this->claves            = 'IMPLAN, Gómez Palacio, Mercados';
+        $this->claves            = 'IMPLAN, Lerdo, Mercados';
         $this->categorias        = array('Mercados');
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio        = 'indicadores-gomez-palacio';
+        $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu       = 'Indicadores';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
@@ -55,7 +55,7 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
         $region                  = new \Base\SchemaPostalAddress();
         $region->addressCountry  = 'MX';
         $region->addressRegion   = 'Durango';
-        $region->addressLocality = 'Gómez Palacio';
+        $region->addressLocality = 'Lerdo';
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                   = new \Base\SchemaPlace();
         $lugar->address          = $region;
@@ -92,31 +92,31 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2010</td>
-            <td>188</td>
+            <td>76</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>669</td>
+            <td>179</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>1,030</td>
+            <td>340</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2013</td>
-            <td>948</td>
+            <td>379</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
             <td>31/03/2014</td>
-            <td>85</td>
+            <td>27</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td>Dato trimestral</td>
           </tr>
@@ -130,13 +130,13 @@ class EconomiaTamanoDelMercadoHipotecario extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Tamaño del Mercado Hipotecario en Gómez Palacio</h3>
+      <h3>Gráfica de Cantidad de Créditos Hipotecarios (trimestral) en Lerdo</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Tamaño del Mercado Hipotecario</h3>
+      <h3>Gráfica con los últimos datos de Cantidad de Créditos Hipotecarios (trimestral)</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Tamaño del Mercado Hipotecario</h3>
+      <h3>Últimos datos de Cantidad de Créditos Hipotecarios (trimestral)</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -699,7 +699,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2010-12-31', dato: 188 },{ fecha: '2011-12-31', dato: 669 },{ fecha: '2012-12-31', dato: 1030 },{ fecha: '2013-12-31', dato: 948 },{ fecha: '2014-03-31', dato: 85 }],
+      data: [{ fecha: '2010-12-31', dato: 76 },{ fecha: '2011-12-31', dato: 179 },{ fecha: '2012-12-31', dato: 340 },{ fecha: '2013-12-31', dato: 379 },{ fecha: '2014-03-31', dato: 27 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -746,31 +746,31 @@ FINAL;
         <tbody>
           <tr>
             <td>31/12/2010</td>
-            <td>188</td>
+            <td>76</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>669</td>
+            <td>179</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>1,030</td>
+            <td>340</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2013</td>
-            <td>948</td>
+            <td>379</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td></td>
           </tr>
           <tr>
             <td>31/03/2014</td>
-            <td>85</td>
+            <td>27</td>
             <td>Comisión Nacional Bancaria y de Valores (CNBV)</td>
             <td>Dato trimestral</td>
           </tr>
@@ -785,6 +785,6 @@ FINAL;
 FINAL;
     } // constructor
 
-} // Clase EconomiaTamanoDelMercadoHipotecario
+} // Clase EconomiaCantidadDeCreditosHipotecariosTrimestral
 
 ?>

@@ -41,8 +41,8 @@ class EconomiaRegistroDeUnaPropiedad extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion       = 'Incluido en el Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para registrar una propiedad: número de trámites, tiempo (días) y costo (% valor de la propiedad). Este indicador se calcula a nivel estatal.';
-        $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Doing Business';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Doing Business');
+        $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana';
+        $this->categorias        = array('Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -575,12 +575,6 @@ Fuente: CONAGUA, 2008-2009.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-apertura-de-negocios.html">Apertura de Negocios en Torreón</a></td>
-            <td>Número de días necesarios para el trámite de apertura de un negocio.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
 ajustada por el tamaño de su población.
@@ -651,18 +645,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-permiso-de-construccion.html">Permiso de Construcción en Torreón</a></td>
-            <td>Número de días necesarios para conseguir un permiso de construcción.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-registro-de-propiedades.html">Registro de Propiedades en Torreón</a></td>
-            <td>Días que toma el trámite para el registro de una propiedad.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
 Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
@@ -729,24 +711,6 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Torreón</a></td>
             <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
 En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
-          </tr>
-          <tr>
-            <td>24/09/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/apertura-empresas-2014.html">Apertura de Empresas 2014</a></td>
-            <td>La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año 2014 en el mes de julio.</td>
-          </tr>
-          <tr>
-            <td>12/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/gobiernos-eficaces-eficientes.html">Gobiernos eficaces y eficientes</a></td>
-            <td>La eficiencia de los gobiernos es el subíndice peor evaluado para la metrópoli ubicándonos en el lugar 63 de 77.</td>
-          </tr>
-          <tr>
-            <td>29/05/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/doing-business-torreon.html">Doing Business en Torreón</a></td>
-            <td>Este índice sirve para señalar en cual ciudad es más fácil hacer negaocios. En 2007, el municipio de Torreón ocupó el lugar 13 de 32 ciudades evaluadas.</td>
           </tr>
         </tbody>
       </table>

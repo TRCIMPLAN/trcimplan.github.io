@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Gobierno Vehículos automotores por habitante (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Gobierno Capacitación a empleados de confianza (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,24 +23,24 @@
 namespace SMIIndicadoresTorreon;
 
 /**
- * Clase GobiernoVehiculosAutomotoresPorHabitante
+ * Clase GobiernoCapacitacionAEmpleadosDeConfianza
  */
-class GobiernoVehiculosAutomotoresPorHabitante extends \Base\Publicacion {
+class GobiernoCapacitacionAEmpleadosDeConfianza extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Vehículos automotores por habitante en Torreón';
+        $this->nombre            = 'Capacitación a empleados de confianza en Torreón';
      // $this->autor             = '';
-        $this->fecha             = '2015-07-06T15:19';
+        $this->fecha             = '2015-07-14T17:48';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo           = 'gobierno-vehiculos-automotores-por-habitante';
+        $this->archivo           = 'gobierno-capacitacion-a-empleados-de-confianza';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Determina el número de vehículos automotores por habitante.';
+        $this->descripcion       = 'Expresa la relación de horas de capacitación promedio brindadas a los empleados municipales cuyo estatus es de confianza. Total de Horas de Capacitación a Empleados de Confianza entre el total de Empleados de Confianza.';
         $this->claves            = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Gobierno';
         $this->categorias        = array('Sistema de Indicadores de Desempeño (SINDES)', 'Gobierno');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -76,7 +76,7 @@ class GobiernoVehiculosAutomotoresPorHabitante extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Determina el número de vehículos automotores por habitante.</p>
+<p>Expresa la relación de horas de capacitación promedio brindadas a los empleados municipales cuyo estatus es de confianza. Total de Horas de Capacitación a Empleados de Confianza entre el total de Empleados de Confianza.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -91,25 +91,25 @@ class GobiernoVehiculosAutomotoresPorHabitante extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>30/06/2014</td>
-            <td>0.1900</td>
+            <td>11.6200</td>
             <td>Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
           <tr>
-            <td>31/12/2014</td>
-            <td>0.1900</td>
+            <td>30/12/2014</td>
+            <td>3.1500</td>
             <td>Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Por habitante.</p>
+      <p><b>Unidad:</b> Horas.</p>
       <h3>Observaciones</h3>
 <p>Sistema de Indicadores de Desempeño (SINDES) con metodología de la Asociación de Administración de ciudades y condados (ICMA) http://www.icmaml.org/sindes/</p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Vehículos automotores por habitante en Torreón</h3>
+      <h3>Gráfica de Capacitación a empleados de confianza en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
   </div>
@@ -127,7 +127,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-06-30', dato: 0.1900 },{ fecha: '2014-12-31', dato: 0.1900 }],
+      data: [{ fecha: '2014-06-30', dato: 11.6200 },{ fecha: '2014-12-30', dato: 3.1500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -145,7 +145,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Determina el número de vehículos automotores por habitante.</p>
+<p>Expresa la relación de horas de capacitación promedio brindadas a los empleados municipales cuyo estatus es de confianza. Total de Horas de Capacitación a Empleados de Confianza entre el total de Empleados de Confianza.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -160,25 +160,25 @@ FINAL;
         <tbody>
           <tr>
             <td>30/06/2014</td>
-            <td>0.1900</td>
+            <td>11.6200</td>
             <td>Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
           <tr>
-            <td>31/12/2014</td>
-            <td>0.1900</td>
+            <td>30/12/2014</td>
+            <td>3.1500</td>
             <td>Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Por habitante.</p>
+      <p><b>Unidad:</b> Horas.</p>
       <h3>Observaciones</h3>
 <p>Sistema de Indicadores de Desempeño (SINDES) con metodología de la Asociación de Administración de ciudades y condados (ICMA) http://www.icmaml.org/sindes/</p>
 
 FINAL;
     } // constructor
 
-} // Clase GobiernoVehiculosAutomotoresPorHabitante
+} // Clase GobiernoCapacitacionAEmpleadosDeConfianza
 
 ?>

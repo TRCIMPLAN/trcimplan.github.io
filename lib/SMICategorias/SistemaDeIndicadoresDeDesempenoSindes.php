@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Categorías SINDES (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Categorías Sistema de Indicadores de Desempeño (SINDES) (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,25 +23,25 @@
 namespace SMICategorias;
 
 /**
- * Clase Sindes
+ * Clase SistemaDeIndicadoresDeDesempenoSindes
  */
-class Sindes extends \Base\Publicacion {
+class SistemaDeIndicadoresDeDesempenoSindes extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'SINDES';
+        $this->nombre           = 'Sistema de Indicadores de Desempeño (SINDES)';
      // $this->autor            = '';
         $this->fecha            = '2015-01-01T08:00'; // Fecha fija
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = 'sindes';
-        $this->imagen           = '../imagenes/categorias/sindes.jpg';
-        $this->imagen_previa    = '../imagenes/categorias/sindes.jpg';
+        $this->archivo          = 'sistema-de-indicadores-de-desempeno-sindes';
+        $this->imagen           = '../imagenes/categorias/sistema-de-indicadores-de-desempeno-sindes.jpg';
+        $this->imagen_previa    = '../imagenes/categorias/sistema-de-indicadores-de-desempeno-sindes.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
-        $this->claves           = 'IMPLAN, Indicadores, Categoría, SINDES';
+        $this->claves           = 'IMPLAN, Indicadores, Categoría, Sistema de Indicadores de Desempeño (SINDES)';
         $this->categorias       = array();
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio       = 'indicadores-categorias';
@@ -86,6 +86,24 @@ class Sindes extends \Base\Publicacion {
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Promedio de horas para la realizacion del tramite de permiso de construcción de una adición (residencial o comercial)</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-permiso-de-construccion-de-una-adicion-residencial-o-comercial.html" data-toggle="tooltip" title="Horas, 30/06/2014, Ayuntamiento de Torreón">38</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Capacitación a empleados de base</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-base.html" data-toggle="tooltip" title="Horas, 31/12/2014, Ayuntamiento de Torreón">0.4</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Capacitación a empleados de confianza</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-confianza.html" data-toggle="tooltip" title="Horas, 30/12/2014, Ayuntamiento de Torreón">3.15</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -150,6 +168,6 @@ FINAL;
 FINAL;
     } // constructor
 
-} // Clase Sindes
+} // Clase SistemaDeIndicadoresDeDesempenoSindes
 
 ?>

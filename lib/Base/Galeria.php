@@ -58,7 +58,7 @@ class Galeria extends Pagina {
         'categorias-salud',
         'categorias-seguridad',
         'categorias-servicios-publicos',
-        'categorias-sindes',
+        'categorias-sistema-de-indicadores-de-desempeno-sindes',
         'categorias-transparencia',
         'categorias-vialidad',
         'categorias-vivienda'); // Está pendiente programar que este programa lea trcimplan.css para saber cuales son los IDs

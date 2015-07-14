@@ -6,6 +6,16 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-capacitacion-a-empleados-de-confianza.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-capacitacion-a-empleados-de-base.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-promedio-de-horas-para-la-realizacion-de-tramite-de-carta-de-no-adeudo-predial.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -237,11 +247,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-apertura-de-un-negocio.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-apertura-de-un-negocio.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1066,12 +1071,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig/crecimiento-historico-torreon.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-historico-torreon.html</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-historico-torreon.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig/crecimiento-historico-torreon.html</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1211,12 +1216,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/../sig-planes/index.html</loc>
+    <loc>http://www.trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
+    <loc>http://www.trcimplan.gob.mx/../sig-planes/index.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1351,7 +1356,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-categorias/sindes.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-categorias/sistema-de-indicadores-de-desempeno-sindes.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1721,6 +1726,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-cantidad-de-creditos-hipotecarios-trimestral.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-cartera-hipotecaria.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1832,11 +1842,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2246,6 +2251,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-cantidad-de-creditos-hipotecarios-trimestral.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-cartera-hipotecaria.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -2357,11 +2367,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2736,6 +2741,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-cantidad-de-creditos-hipotecarios-trimestral.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-cartera-hipotecaria.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -2847,11 +2857,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3261,6 +3266,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-cantidad-de-creditos-hipotecarios-trimestral.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-cartera-hipotecaria.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -3377,11 +3387,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3791,7 +3796,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-apertura-de-negocios.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-apertura-de-un-negocio.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-cantidad-de-creditos-hipotecarios-trimestral.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3916,22 +3926,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-registro-de-propiedades.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-tamano-del-mercado-hipotecario.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -4471,12 +4471,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig/alumbrado-publico.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html</loc>
     <lastmod>2014-09-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig/alumbrado-publico.html</loc>
     <lastmod>2014-09-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>

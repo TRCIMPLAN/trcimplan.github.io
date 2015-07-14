@@ -67,8 +67,9 @@ class PorRegiones extends \Base\Publicacion {
   <div class="col-md-2 indicadores-vinculos">
     <h3>Economía</h3>
     <ul>
-      <li><a href="../indicadores-torreon/economia-apertura-de-negocios.html" target="_blank">Apertura de Negocios</a></li>
       <li><a href="../indicadores-torreon/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
+      <li><a href="../indicadores-torreon/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
+      <li><a href="../indicadores-torreon/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-torreon/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
       <li><a href="../indicadores-torreon/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
@@ -100,12 +101,11 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
       <li><a href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-licencia-para-negocio.html" target="_blank">Promedio de horas para la realización del trámite de licencia para negocio</a></li>
       <li><a href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-permiso-de-construccion-de-una-adicion-residencial-o-comercial.html" target="_blank">Promedio de horas para la realizacion del tramite de permiso de construcción de una adición (residencial o comercial)</a></li>
-      <li><a href="../indicadores-torreon/economia-registro-de-propiedades.html" target="_blank">Registro de Propiedades</a></li>
+      <li><a href="../indicadores-torreon/economia-registro-de-una-propiedad.html" target="_blank">Registro de una Propiedad</a></li>
       <li><a href="../indicadores-torreon/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
       <li><a href="../indicadores-torreon/economia-salario-promedio.html" target="_blank">Salario promedio</a></li>
       <li><a href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
-      <li><a href="../indicadores-torreon/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-torreon/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
       <li><a href="../indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
@@ -120,6 +120,8 @@ class PorRegiones extends \Base\Publicacion {
     <h3>Gobierno</h3>
     <ul>
       <li><a href="../indicadores-torreon/gobierno-capacidad-financiera.html" target="_blank">Capacidad Financiera</a></li>
+      <li><a href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-base.html" target="_blank">Capacitación a empleados de base</a></li>
+      <li><a href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-confianza.html" target="_blank">Capacitación a empleados de confianza</a></li>
       <li><a href="../indicadores-torreon/gobierno-competencia-electoral.html" target="_blank">Competencia Electoral</a></li>
       <li><a href="../indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html" target="_blank">Competencia Electoral Diferencia de Votos</a></li>
       <li><a href="../indicadores-torreon/gobierno-competencia-electoral-votos-totales.html" target="_blank">Competencia Electoral Votos Totales</a></li>
@@ -264,6 +266,7 @@ class PorRegiones extends \Base\Publicacion {
     <h3>Economía</h3>
     <ul>
       <li><a href="../indicadores-gomez-palacio/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
@@ -292,7 +295,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/economia-salario-promedio.html" target="_blank">Salario promedio</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
-      <li><a href="../indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
@@ -435,6 +437,7 @@ class PorRegiones extends \Base\Publicacion {
     <h3>Economía</h3>
     <ul>
       <li><a href="../indicadores-lerdo/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
+      <li><a href="../indicadores-lerdo/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-lerdo/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
       <li><a href="../indicadores-lerdo/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-lerdo/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
@@ -463,7 +466,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/economia-salario-promedio.html" target="_blank">Salario promedio</a></li>
       <li><a href="../indicadores-lerdo/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-lerdo/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
-      <li><a href="../indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-lerdo/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
       <li><a href="../indicadores-lerdo/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
@@ -606,6 +608,7 @@ class PorRegiones extends \Base\Publicacion {
     <h3>Economía</h3>
     <ul>
       <li><a href="../indicadores-matamoros/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
+      <li><a href="../indicadores-matamoros/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-matamoros/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
       <li><a href="../indicadores-matamoros/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
       <li><a href="../indicadores-matamoros/economia-desempleo.html" target="_blank">Desempleo</a></li>
@@ -636,7 +639,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/economia-salario-promedio.html" target="_blank">Salario promedio</a></li>
       <li><a href="../indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
-      <li><a href="../indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-matamoros/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
       <li><a href="../indicadores-matamoros/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
@@ -779,6 +781,7 @@ class PorRegiones extends \Base\Publicacion {
     <h3>Economía</h3>
     <ul>
       <li><a href="../indicadores-la-laguna/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
+      <li><a href="../indicadores-la-laguna/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-la-laguna/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
       <li><a href="../indicadores-la-laguna/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
       <li><a href="../indicadores-la-laguna/economia-desempleo.html" target="_blank">Desempleo</a></li>
@@ -808,7 +811,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/economia-salario-promedio.html" target="_blank">Salario promedio</a></li>
       <li><a href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
       <li><a href="../indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" target="_blank">Sectores que Han Presentado Alto Crecimiento (2008-2012)</a></li>
-      <li><a href="../indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
       <li><a href="../indicadores-la-laguna/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>

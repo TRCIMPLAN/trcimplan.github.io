@@ -75,6 +75,15 @@ class Mercados extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Cantidad de Créditos Hipotecarios (trimestral)</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-cantidad-de-creditos-hipotecarios-trimestral.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">284</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-cantidad-de-creditos-hipotecarios-trimestral.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">85</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-cantidad-de-creditos-hipotecarios-trimestral.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">27</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-cantidad-de-creditos-hipotecarios-trimestral.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">5</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-cantidad-de-creditos-hipotecarios-trimestral.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">401</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Cartera Hipotecaria</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-cartera-hipotecaria.html" data-toggle="tooltip" title="Pesos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">$ 4,664,619,926.00</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-cartera-hipotecaria.html" data-toggle="tooltip" title="Pesos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">$ 614,765,352.00</a></td>
@@ -225,24 +234,6 @@ class Mercados extends \Base\Publicacion {
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">6.9560 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">2.4308 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html" data-toggle="tooltip" title="Porcentaje, 31/12/2008, Elaboración propia con datos obtenidos del INEGI">30.8621 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Tamaño del Mercado Hipotecario</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tamano-del-mercado-hipotecario.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">284</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">85</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">27</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">5</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html" data-toggle="tooltip" title="Cantidad de Créditos, 31/03/2014, Comisión Nacional Bancaria y de Valores (CNBV)">401</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Tamaño del Mercado Hipotecario</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>

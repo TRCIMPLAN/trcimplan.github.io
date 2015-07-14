@@ -519,8 +519,8 @@ a.galeria-icono:active  { color:#FF3300; }
 #categorias-seguridad:hover               { background-position:-128px 0; }
 #categorias-servicios-publicos            { display:block; width:128px; height:128px; background:url("../imagenes/categorias/servicios-publicos.jpg") no-repeat 0 0; }
 #categorias-servicios-publicos:hover      { background-position:-128px 0; }
-#categorias-sindes                                { display:block; width:128px; height:128px; background:url("../imagenes/categorias/sindes.jpg") no-repeat 0 0; }
-#categorias-sindes:hover                          { background-position:-128px 0; }
+#categorias-sistema-de-indicadores-de-desempeno-sindes       { display:block; width:128px; height:128px; background:url("../imagenes/categorias/sistema-de-indicadores-de-desempeno-sindes.jpg") no-repeat 0 0; }
+#categorias-sistema-de-indicadores-de-desempeno-sindes:hover { background-position:-128px 0; }
 #categorias-transparencia                 { display:block; width:128px; height:128px; background:url("../imagenes/categorias/transparencia.jpg") no-repeat 0 0; }
 #categorias-transparencia:hover           { background-position:-128px 0; }
 #categorias-vialidad                      { display:block; width:128px; height:128px; background:url("../imagenes/categorias/vialidad.jpg") no-repeat 0 0; }
