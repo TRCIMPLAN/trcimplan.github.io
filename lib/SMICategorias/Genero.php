@@ -130,11 +130,11 @@ class Genero extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Mujeres en la Fuerza Laboral</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-mujeres-en-la-fuerza-laboral.html" data-toggle="tooltip" title="Mujeres en la PEA como porcentaje del total de mujeres en edad laboral, 31/12/2012, IMCO">43.61 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mujeres-en-la-fuerza-laboral.html" data-toggle="tooltip" title="Mujeres en la PEA como porcentaje del total de mujeres en edad laboral, 31/12/2012, IMCO">42.52 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-mujeres-en-la-fuerza-laboral.html" data-toggle="tooltip" title="Mujeres en la PEA como porcentaje del total de mujeres en edad laboral, 31/12/2012, IMCO">39.57 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-mujeres-en-la-fuerza-laboral.html" data-toggle="tooltip" title="Mujeres en la PEA como porcentaje del total de mujeres en edad laboral, 31/12/2012, IMCO">36.66 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-mujeres-en-la-fuerza-laboral.html" data-toggle="tooltip" title="Mujeres en la PEA como porcentaje del total de mujeres en edad laboral, 31/12/2012, IMCO">42.29 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

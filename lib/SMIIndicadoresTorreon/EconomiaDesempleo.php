@@ -71,7 +71,6 @@ class EconomiaDesempleo extends \Base\Publicacion {
         $schema->articleBody     = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -103,9 +102,39 @@ class EconomiaDesempleo extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>31/12/2008</td>
+            <td>3.93 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>6.29 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>25/06/2010</td>
             <td>19,536</td>
             <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>6.81 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>5.94 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>4.78 %</td>
+            <td>IMCO</td>
             <td></td>
           </tr>
         </tbody>
@@ -122,10 +151,6 @@ class EconomiaDesempleo extends \Base\Publicacion {
 
 <p>Datos obtenidos de <a href="http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&amp;s=est">INEGI. Censos de población y vivienda</a></p>
 
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Desempleo en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Desempleo</h3>
@@ -144,37 +169,37 @@ class EconomiaDesempleo extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-06-25</td>
-            <td>19,536</td>
-            <td>INEGI</td>
+            <td>2012-12-31</td>
+            <td>4.78 %</td>
+            <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2010-06-25</td>
-            <td>9,705</td>
-            <td>INEGI</td>
+            <td>2012-12-31</td>
+            <td>10.23 %</td>
+            <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2010-06-25</td>
-            <td>3,795</td>
-            <td>INEGI</td>
+            <td>2012-12-31</td>
+            <td>3.06 %</td>
+            <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2010-06-25</td>
-            <td>2,380</td>
-            <td>INEGI</td>
+            <td>2012-12-31</td>
+            <td>6.19 %</td>
+            <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2010-06-25</td>
-            <td>35,416</td>
-            <td>INEGI</td>
+            <td>2012-12-31</td>
+            <td>6.02 %</td>
+            <td>IMCO</td>
             <td></td>
           </tr>
         </tbody>
@@ -579,29 +604,13 @@ FINAL;
         $this->contenido         = $schema;
         // JavaScript
         $this->javascript        = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '1990-03-12', dato: 4043 },{ fecha: '2000-02-14', dato: 2135 },{ fecha: '2010-06-25', dato: 19536 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 19536 },{ region: 'Gómez Palacio', dato: 9705 },{ region: 'Lerdo', dato: 3795 },{ region: 'Matamoros', dato: 2380 },{ region: 'La Laguna', dato: 35416 }],
+      data: [{ region: 'Torreón', dato: 4.7800 },{ region: 'Gómez Palacio', dato: 10.2300 },{ region: 'Lerdo', dato: 3.0600 },{ region: 'Matamoros', dato: 6.1900 },{ region: 'La Laguna', dato: 6.0200 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -643,9 +652,39 @@ FINAL;
             <td></td>
           </tr>
           <tr>
+            <td>31/12/2008</td>
+            <td>3.93 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>6.29 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>25/06/2010</td>
             <td>19,536</td>
             <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>6.81 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>5.94 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>4.78 %</td>
+            <td>IMCO</td>
             <td></td>
           </tr>
         </tbody>

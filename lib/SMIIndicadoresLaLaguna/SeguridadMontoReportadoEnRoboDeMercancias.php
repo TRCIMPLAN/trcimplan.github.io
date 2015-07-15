@@ -889,6 +889,12 @@ Fuente: CONAGUA, 2008-2009.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/seguridad-cantidad-de-policias.html">Cantidad de Policías en Torreón</a></td>
+            <td>Cantidad total de policías en el municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
 ajustada por el tamaño de su población.
@@ -925,12 +931,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
             <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
 ajustada por el tamaño de su población.
 Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-cantidad-de-policias.html">Cantidad de Policías en Torreón</a></td>
-            <td>Cantidad total de policías en el municipio.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>

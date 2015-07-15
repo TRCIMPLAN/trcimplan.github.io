@@ -71,16 +71,26 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
       <li><a href="../indicadores-torreon/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-torreon/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
+      <li><a href="../indicadores-torreon/economia-cartera-hipotecaria-vencida.html" target="_blank">Cartera Hipotecaria Vencida</a></li>
       <li><a href="../indicadores-torreon/economia-centros-de-investigacion.html" target="_blank">Centros de Investigación</a></li>
+      <li><a href="../indicadores-torreon/economia-ciudad-fronteriza-o-portuaria.html" target="_blank">Ciudad Fronteriza o Portuaria</a></li>
       <li><a href="../indicadores-torreon/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
+      <li><a href="../indicadores-torreon/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html" target="_blank">Crecimiento de la Población Ocupada sin Ingresos</a></li>
+      <li><a href="../indicadores-torreon/economia-crecimiento-del-pib-estatal.html" target="_blank">Crecimiento del PIB Estatal</a></li>
+      <li><a href="../indicadores-torreon/economia-crecimiento-del-salario-promedio.html" target="_blank">Crecimiento del Salario Promedio</a></li>
+      <li><a href="../indicadores-torreon/economia-crecimiento-en-jornadas-laborales-muy-largas.html" target="_blank">Crecimiento en jornadas laborales muy largas</a></li>
       <li><a href="../indicadores-torreon/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-torreon/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
+      <li><a href="../indicadores-torreon/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
       <li><a href="../indicadores-torreon/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
       <li><a href="../indicadores-torreon/economia-desempleo.html" target="_blank">Desempleo</a></li>
+      <li><a href="../indicadores-torreon/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
       <li><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-torreon/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
       <li><a href="../indicadores-torreon/economia-empresas.html" target="_blank">Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
       <li><a href="../indicadores-torreon/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
+      <li><a href="../indicadores-torreon/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" target="_blank">Flujo de Pasajeros del o Hacia el Extranjero</a></li>
       <li><a href="../indicadores-torreon/economia-gasto-en-nomina-por-empleado.html" target="_blank">Gasto en nómina por empleado</a></li>
       <li><a href="../indicadores-torreon/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes empresas según CNN Expansión</a></li>
@@ -93,26 +103,36 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
       <li><a href="../indicadores-torreon/economia-inflacion-anual.html" target="_blank">Inflación anual</a></li>
       <li><a href="../indicadores-torreon/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
+      <li><a href="../indicadores-torreon/economia-inversion-extranjera-directa-neta.html" target="_blank">Inversión Extranjera Directa (Neta)</a></li>
       <li><a href="../indicadores-torreon/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
+      <li><a href="../indicadores-torreon/economia-jornadas-laborales-muy-largas-mas-de-48-horas-semanales.html" target="_blank">Jornadas laborales muy largas (más de 48 horas semanales)</a></li>
       <li><a href="../indicadores-torreon/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-microempresas.html" target="_blank">Microempresas</a></li>
       <li><a href="../indicadores-torreon/economia-nuevas-empresas.html" target="_blank">Nuevas Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-obtencion-de-credito-creacion-de-garantias.html" target="_blank">Obtención de crédito - Creación de garantías</a></li>
+      <li><a href="../indicadores-torreon/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
+      <li><a href="../indicadores-torreon/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
       <li><a href="../indicadores-torreon/economia-patentes.html" target="_blank">Patentes</a></li>
       <li><a href="../indicadores-torreon/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-permiso-de-construccion.html" target="_blank">Permiso de Construcción</a></li>
       <li><a href="../indicadores-torreon/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
       <li><a href="../indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
       <li><a href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+      <li><a href="../indicadores-torreon/economia-poblacion-ocupada-sin-ingresos.html" target="_blank">Población Ocupada sin Ingresos</a></li>
       <li><a href="../indicadores-torreon/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-torreon/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
       <li><a href="../indicadores-torreon/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
+      <li><a href="../indicadores-torreon/economia-productividad-media-laboral.html" target="_blank">Productividad media laboral</a></li>
       <li><a href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-licencia-para-negocio.html" target="_blank">Promedio de horas para la realización del trámite de licencia para negocio</a></li>
       <li><a href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-permiso-de-construccion-de-una-adicion-residencial-o-comercial.html" target="_blank">Promedio de horas para la realizacion del tramite de permiso de construcción de una adición (residencial o comercial)</a></li>
       <li><a href="../indicadores-torreon/economia-registro-de-una-propiedad.html" target="_blank">Registro de una Propiedad</a></li>
       <li><a href="../indicadores-torreon/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
+      <li><a href="../indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" target="_blank">Salario Promedio Mensual para Trabajadores de Tiempo Completo</a></li>
       <li><a href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
+      <li><a href="../indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento.html" target="_blank">Sectores que Han Presentado Alto Crecimiento</a></li>
+      <li><a href="../indicadores-torreon/economia-sitios-unesco.html" target="_blank">Sitios UNESCO</a></li>
+      <li><a href="../indicadores-torreon/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-torreon/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
       <li><a href="../indicadores-torreon/economia-tierra-ejidal.html" target="_blank">Tierra ejidal</a></li>
@@ -190,23 +210,36 @@ class PorRegiones extends \Base\Publicacion {
   <div class="col-md-2 indicadores-vinculos">
     <h3>Sociedad</h3>
     <ul>
+      <li><a href="../indicadores-torreon/sociedad-acceso-a-instituciones-de-salud.html" target="_blank">Acceso a Instituciones de Salud</a></li>
+      <li><a href="../indicadores-torreon/sociedad-acceso-a-servicios-financieros.html" target="_blank">Acceso a Servicios Financieros</a></li>
       <li><a href="../indicadores-torreon/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
       <li><a href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
       <li><a href="../indicadores-torreon/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
+      <li><a href="../indicadores-torreon/sociedad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-de-preescolar-por-docente.html" target="_blank">Alumnos de Preescolar por Docente</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-de-primaria-por-docente.html" target="_blank">Alumnos de Primaria por Docente</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
       <li><a href="../indicadores-torreon/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
+      <li><a href="../indicadores-torreon/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
+      <li><a href="../indicadores-torreon/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
+      <li><a href="../indicadores-torreon/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
+      <li><a href="../indicadores-torreon/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
+      <li><a href="../indicadores-torreon/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
       <li><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" target="_blank">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
       <li><a href="../indicadores-torreon/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
+      <li><a href="../indicadores-torreon/sociedad-empresa-socialmente-responsable.html" target="_blank">Empresa Socialmente Responsable</a></li>
+      <li><a href="../indicadores-torreon/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
+      <li><a href="../indicadores-torreon/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-torreon/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html" target="_blank">Estimación de Menores Huérfanos por Agresiones</a></li>
       <li><a href="../indicadores-torreon/sociedad-fecundidad.html" target="_blank">Fecundidad</a></li>
+      <li><a href="../indicadores-torreon/sociedad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-torreon/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-torreon/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de hacinamiento</a></li>
+      <li><a href="../indicadores-torreon/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-torreon/sociedad-madres-adolescentes.html" target="_blank">Madres Adolescentes</a></li>
       <li><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-torreon/sociedad-medicos.html" target="_blank">Médicos</a></li>
@@ -214,8 +247,11 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
       <li><a href="../indicadores-torreon/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
       <li><a href="../indicadores-torreon/sociedad-mortalidad-por-vih-sida.html" target="_blank">Mortalidad por VIH-SIDA</a></li>
+      <li><a href="../indicadores-torreon/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
+      <li><a href="../indicadores-torreon/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
       <li><a href="../indicadores-torreon/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
       <li><a href="../indicadores-torreon/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+      <li><a href="../indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
       <li><a href="../indicadores-torreon/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
       <li><a href="../indicadores-torreon/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
       <li><a href="../indicadores-torreon/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
@@ -225,16 +261,28 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html" target="_blank">Promedio de Descendencia por Varón</a></li>
       <li><a href="../indicadores-torreon/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
       <li><a href="../indicadores-torreon/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
+      <li><a href="../indicadores-torreon/sociedad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
+      <li><a href="../indicadores-torreon/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
       <li><a href="../indicadores-torreon/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-torreon/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
+      <li><a href="../indicadores-torreon/sociedad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Másivo</a></li>
       <li><a href="../indicadores-torreon/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
       <li><a href="../indicadores-torreon/sociedad-universidades.html" target="_blank">Universidades</a></li>
+      <li><a href="../indicadores-torreon/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
+      <li><a href="../indicadores-torreon/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>
+      <li><a href="../indicadores-torreon/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html" target="_blank">Uso de Twitter como Proxy de Uso de Tecnologías de Información</a></li>
       <li><a href="../indicadores-torreon/sociedad-usuarios-de-internet.html" target="_blank">Usuarios de Internet</a></li>
+      <li><a href="../indicadores-torreon/sociedad-visitas-a-museos-inah.html" target="_blank">Visitas a Museos INAH</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html" target="_blank">Viviendas con Agua de la Red Pública</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
+      <li><a href="../indicadores-torreon/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-con-drenaje.html" target="_blank">Viviendas con Drenaje</a></li>
+      <li><a href="../indicadores-torreon/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html" target="_blank">Viviendas con Drenaje (sólo conexión a red pública)</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-con-energia-electrica.html" target="_blank">Viviendas con Energía Eléctrica</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
+      <li><a href="../indicadores-torreon/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
+      <li><a href="../indicadores-torreon/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
+      <li><a href="../indicadores-torreon/sociedad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -256,6 +304,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sustentabilidad-disponibilidad-de-banqueta.html" target="_blank">Disponibilidad de Banqueta</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" target="_blank">Disposición Adecuada de Residuos Sólidos</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
+      <li><a href="../indicadores-torreon/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
@@ -285,16 +334,26 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-cartera-hipotecaria-vencida.html" target="_blank">Cartera Hipotecaria Vencida</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-centros-de-investigacion.html" target="_blank">Centros de Investigación</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-ciudad-fronteriza-o-portuaria.html" target="_blank">Ciudad Fronteriza o Portuaria</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html" target="_blank">Crecimiento de la Población Ocupada sin Ingresos</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-crecimiento-del-pib-estatal.html" target="_blank">Crecimiento del PIB Estatal</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-crecimiento-del-salario-promedio.html" target="_blank">Crecimiento del Salario Promedio</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-crecimiento-en-jornadas-laborales-muy-largas.html" target="_blank">Crecimiento en jornadas laborales muy largas</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-desempleo.html" target="_blank">Desempleo</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-empresas.html" target="_blank">Empresas</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" target="_blank">Flujo de Pasajeros del o Hacia el Extranjero</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes empresas según CNN Expansión</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
@@ -305,19 +364,29 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-inversion-extranjera-directa-neta.html" target="_blank">Inversión Extranjera Directa (Neta)</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-jornadas-laborales-muy-largas-mas-de-48-horas-semanales.html" target="_blank">Jornadas laborales muy largas (más de 48 horas semanales)</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-microempresas.html" target="_blank">Microempresas</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-patentes.html" target="_blank">Patentes</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-poblacion-ocupada-sin-ingresos.html" target="_blank">Población Ocupada sin Ingresos</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-productividad-media-laboral.html" target="_blank">Productividad media laboral</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" target="_blank">Salario Promedio Mensual para Trabajadores de Tiempo Completo</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento.html" target="_blank">Sectores que Han Presentado Alto Crecimiento</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-sitios-unesco.html" target="_blank">Sitios UNESCO</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-tierra-ejidal.html" target="_blank">Tierra ejidal</a></li>
@@ -384,29 +453,45 @@ class PorRegiones extends \Base\Publicacion {
   <div class="col-md-2 indicadores-vinculos">
     <h3>Sociedad</h3>
     <ul>
+      <li><a href="../indicadores-gomez-palacio/sociedad-acceso-a-instituciones-de-salud.html" target="_blank">Acceso a Instituciones de Salud</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-acceso-a-servicios-financieros.html" target="_blank">Acceso a Servicios Financieros</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-de-preescolar-por-docente.html" target="_blank">Alumnos de Preescolar por Docente</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-de-primaria-por-docente.html" target="_blank">Alumnos de Primaria por Docente</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" target="_blank">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-empresa-socialmente-responsable.html" target="_blank">Empresa Socialmente Responsable</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de hacinamiento</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-medicos.html" target="_blank">Médicos</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-vih-sida.html" target="_blank">Mortalidad por VIH-SIDA</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
@@ -415,16 +500,28 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Másivo</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-universidades.html" target="_blank">Universidades</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html" target="_blank">Uso de Twitter como Proxy de Uso de Tecnologías de Información</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-usuarios-de-internet.html" target="_blank">Usuarios de Internet</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-visitas-a-museos-inah.html" target="_blank">Visitas a Museos INAH</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-agua-de-la-red-publica.html" target="_blank">Viviendas con Agua de la Red Pública</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-drenaje.html" target="_blank">Viviendas con Drenaje</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html" target="_blank">Viviendas con Drenaje (sólo conexión a red pública)</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html" target="_blank">Viviendas con Energía Eléctrica</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -445,6 +542,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-banqueta.html" target="_blank">Disponibilidad de Banqueta</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" target="_blank">Disposición Adecuada de Residuos Sólidos</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
+      <li><a href="../indicadores-gomez-palacio/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
@@ -471,16 +569,26 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
       <li><a href="../indicadores-lerdo/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-lerdo/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
+      <li><a href="../indicadores-lerdo/economia-cartera-hipotecaria-vencida.html" target="_blank">Cartera Hipotecaria Vencida</a></li>
       <li><a href="../indicadores-lerdo/economia-centros-de-investigacion.html" target="_blank">Centros de Investigación</a></li>
+      <li><a href="../indicadores-lerdo/economia-ciudad-fronteriza-o-portuaria.html" target="_blank">Ciudad Fronteriza o Portuaria</a></li>
       <li><a href="../indicadores-lerdo/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
+      <li><a href="../indicadores-lerdo/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html" target="_blank">Crecimiento de la Población Ocupada sin Ingresos</a></li>
+      <li><a href="../indicadores-lerdo/economia-crecimiento-del-pib-estatal.html" target="_blank">Crecimiento del PIB Estatal</a></li>
+      <li><a href="../indicadores-lerdo/economia-crecimiento-del-salario-promedio.html" target="_blank">Crecimiento del Salario Promedio</a></li>
+      <li><a href="../indicadores-lerdo/economia-crecimiento-en-jornadas-laborales-muy-largas.html" target="_blank">Crecimiento en jornadas laborales muy largas</a></li>
       <li><a href="../indicadores-lerdo/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-lerdo/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
+      <li><a href="../indicadores-lerdo/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
       <li><a href="../indicadores-lerdo/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
       <li><a href="../indicadores-lerdo/economia-desempleo.html" target="_blank">Desempleo</a></li>
+      <li><a href="../indicadores-lerdo/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
       <li><a href="../indicadores-lerdo/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-lerdo/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
       <li><a href="../indicadores-lerdo/economia-empresas.html" target="_blank">Empresas</a></li>
       <li><a href="../indicadores-lerdo/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
       <li><a href="../indicadores-lerdo/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
+      <li><a href="../indicadores-lerdo/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" target="_blank">Flujo de Pasajeros del o Hacia el Extranjero</a></li>
       <li><a href="../indicadores-lerdo/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
       <li><a href="../indicadores-lerdo/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes empresas según CNN Expansión</a></li>
       <li><a href="../indicadores-lerdo/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
@@ -491,19 +599,29 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
       <li><a href="../indicadores-lerdo/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
       <li><a href="../indicadores-lerdo/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
+      <li><a href="../indicadores-lerdo/economia-inversion-extranjera-directa-neta.html" target="_blank">Inversión Extranjera Directa (Neta)</a></li>
       <li><a href="../indicadores-lerdo/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
+      <li><a href="../indicadores-lerdo/economia-jornadas-laborales-muy-largas-mas-de-48-horas-semanales.html" target="_blank">Jornadas laborales muy largas (más de 48 horas semanales)</a></li>
       <li><a href="../indicadores-lerdo/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-lerdo/economia-microempresas.html" target="_blank">Microempresas</a></li>
+      <li><a href="../indicadores-lerdo/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
+      <li><a href="../indicadores-lerdo/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
       <li><a href="../indicadores-lerdo/economia-patentes.html" target="_blank">Patentes</a></li>
       <li><a href="../indicadores-lerdo/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-lerdo/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
       <li><a href="../indicadores-lerdo/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
       <li><a href="../indicadores-lerdo/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+      <li><a href="../indicadores-lerdo/economia-poblacion-ocupada-sin-ingresos.html" target="_blank">Población Ocupada sin Ingresos</a></li>
       <li><a href="../indicadores-lerdo/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-lerdo/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
       <li><a href="../indicadores-lerdo/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
+      <li><a href="../indicadores-lerdo/economia-productividad-media-laboral.html" target="_blank">Productividad media laboral</a></li>
       <li><a href="../indicadores-lerdo/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
+      <li><a href="../indicadores-lerdo/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" target="_blank">Salario Promedio Mensual para Trabajadores de Tiempo Completo</a></li>
       <li><a href="../indicadores-lerdo/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
+      <li><a href="../indicadores-lerdo/economia-sectores-que-han-presentado-alto-crecimiento.html" target="_blank">Sectores que Han Presentado Alto Crecimiento</a></li>
+      <li><a href="../indicadores-lerdo/economia-sitios-unesco.html" target="_blank">Sitios UNESCO</a></li>
+      <li><a href="../indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-lerdo/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
       <li><a href="../indicadores-lerdo/economia-tierra-ejidal.html" target="_blank">Tierra ejidal</a></li>
@@ -570,29 +688,45 @@ class PorRegiones extends \Base\Publicacion {
   <div class="col-md-2 indicadores-vinculos">
     <h3>Sociedad</h3>
     <ul>
+      <li><a href="../indicadores-lerdo/sociedad-acceso-a-instituciones-de-salud.html" target="_blank">Acceso a Instituciones de Salud</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-acceso-a-servicios-financieros.html" target="_blank">Acceso a Servicios Financieros</a></li>
       <li><a href="../indicadores-lerdo/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
       <li><a href="../indicadores-lerdo/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
       <li><a href="../indicadores-lerdo/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-de-preescolar-por-docente.html" target="_blank">Alumnos de Preescolar por Docente</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-de-primaria-por-docente.html" target="_blank">Alumnos de Primaria por Docente</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
       <li><a href="../indicadores-lerdo/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
       <li><a href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" target="_blank">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
       <li><a href="../indicadores-lerdo/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-empresa-socialmente-responsable.html" target="_blank">Empresa Socialmente Responsable</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-lerdo/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-lerdo/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de hacinamiento</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-lerdo/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-lerdo/sociedad-medicos.html" target="_blank">Médicos</a></li>
       <li><a href="../indicadores-lerdo/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
       <li><a href="../indicadores-lerdo/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
       <li><a href="../indicadores-lerdo/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
       <li><a href="../indicadores-lerdo/sociedad-mortalidad-por-vih-sida.html" target="_blank">Mortalidad por VIH-SIDA</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
       <li><a href="../indicadores-lerdo/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
       <li><a href="../indicadores-lerdo/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
       <li><a href="../indicadores-lerdo/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
       <li><a href="../indicadores-lerdo/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
       <li><a href="../indicadores-lerdo/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
@@ -601,16 +735,28 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
       <li><a href="../indicadores-lerdo/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
       <li><a href="../indicadores-lerdo/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
       <li><a href="../indicadores-lerdo/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-lerdo/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Másivo</a></li>
       <li><a href="../indicadores-lerdo/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
       <li><a href="../indicadores-lerdo/sociedad-universidades.html" target="_blank">Universidades</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html" target="_blank">Uso de Twitter como Proxy de Uso de Tecnologías de Información</a></li>
       <li><a href="../indicadores-lerdo/sociedad-usuarios-de-internet.html" target="_blank">Usuarios de Internet</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-visitas-a-museos-inah.html" target="_blank">Visitas a Museos INAH</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-con-agua-de-la-red-publica.html" target="_blank">Viviendas con Agua de la Red Pública</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-con-drenaje.html" target="_blank">Viviendas con Drenaje</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html" target="_blank">Viviendas con Drenaje (sólo conexión a red pública)</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html" target="_blank">Viviendas con Energía Eléctrica</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -631,6 +777,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sustentabilidad-disponibilidad-de-banqueta.html" target="_blank">Disponibilidad de Banqueta</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" target="_blank">Disposición Adecuada de Residuos Sólidos</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
+      <li><a href="../indicadores-lerdo/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
@@ -657,16 +804,26 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
       <li><a href="../indicadores-matamoros/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-matamoros/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
+      <li><a href="../indicadores-matamoros/economia-cartera-hipotecaria-vencida.html" target="_blank">Cartera Hipotecaria Vencida</a></li>
       <li><a href="../indicadores-matamoros/economia-centros-de-investigacion.html" target="_blank">Centros de Investigación</a></li>
+      <li><a href="../indicadores-matamoros/economia-ciudad-fronteriza-o-portuaria.html" target="_blank">Ciudad Fronteriza o Portuaria</a></li>
       <li><a href="../indicadores-matamoros/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
+      <li><a href="../indicadores-matamoros/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html" target="_blank">Crecimiento de la Población Ocupada sin Ingresos</a></li>
+      <li><a href="../indicadores-matamoros/economia-crecimiento-del-pib-estatal.html" target="_blank">Crecimiento del PIB Estatal</a></li>
+      <li><a href="../indicadores-matamoros/economia-crecimiento-del-salario-promedio.html" target="_blank">Crecimiento del Salario Promedio</a></li>
+      <li><a href="../indicadores-matamoros/economia-crecimiento-en-jornadas-laborales-muy-largas.html" target="_blank">Crecimiento en jornadas laborales muy largas</a></li>
       <li><a href="../indicadores-matamoros/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-matamoros/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
+      <li><a href="../indicadores-matamoros/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
       <li><a href="../indicadores-matamoros/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
       <li><a href="../indicadores-matamoros/economia-desempleo.html" target="_blank">Desempleo</a></li>
+      <li><a href="../indicadores-matamoros/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
       <li><a href="../indicadores-matamoros/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-matamoros/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
       <li><a href="../indicadores-matamoros/economia-empresas.html" target="_blank">Empresas</a></li>
       <li><a href="../indicadores-matamoros/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
       <li><a href="../indicadores-matamoros/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
+      <li><a href="../indicadores-matamoros/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" target="_blank">Flujo de Pasajeros del o Hacia el Extranjero</a></li>
       <li><a href="../indicadores-matamoros/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
       <li><a href="../indicadores-matamoros/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes empresas según CNN Expansión</a></li>
       <li><a href="../indicadores-matamoros/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
@@ -677,20 +834,30 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
       <li><a href="../indicadores-matamoros/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
       <li><a href="../indicadores-matamoros/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
+      <li><a href="../indicadores-matamoros/economia-inversion-extranjera-directa-neta.html" target="_blank">Inversión Extranjera Directa (Neta)</a></li>
       <li><a href="../indicadores-matamoros/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
+      <li><a href="../indicadores-matamoros/economia-jornadas-laborales-muy-largas-mas-de-48-horas-semanales.html" target="_blank">Jornadas laborales muy largas (más de 48 horas semanales)</a></li>
       <li><a href="../indicadores-matamoros/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-matamoros/economia-microempresas.html" target="_blank">Microempresas</a></li>
+      <li><a href="../indicadores-matamoros/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
+      <li><a href="../indicadores-matamoros/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
       <li><a href="../indicadores-matamoros/economia-patentes.html" target="_blank">Patentes</a></li>
       <li><a href="../indicadores-matamoros/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
       <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
       <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+      <li><a href="../indicadores-matamoros/economia-poblacion-ocupada-sin-ingresos.html" target="_blank">Población Ocupada sin Ingresos</a></li>
       <li><a href="../indicadores-matamoros/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-matamoros/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-matamoros/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
       <li><a href="../indicadores-matamoros/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
+      <li><a href="../indicadores-matamoros/economia-productividad-media-laboral.html" target="_blank">Productividad media laboral</a></li>
       <li><a href="../indicadores-matamoros/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
+      <li><a href="../indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" target="_blank">Salario Promedio Mensual para Trabajadores de Tiempo Completo</a></li>
       <li><a href="../indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
+      <li><a href="../indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento.html" target="_blank">Sectores que Han Presentado Alto Crecimiento</a></li>
+      <li><a href="../indicadores-matamoros/economia-sitios-unesco.html" target="_blank">Sitios UNESCO</a></li>
+      <li><a href="../indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-matamoros/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
       <li><a href="../indicadores-matamoros/economia-tierra-ejidal.html" target="_blank">Tierra ejidal</a></li>
@@ -757,29 +924,45 @@ class PorRegiones extends \Base\Publicacion {
   <div class="col-md-2 indicadores-vinculos">
     <h3>Sociedad</h3>
     <ul>
+      <li><a href="../indicadores-matamoros/sociedad-acceso-a-instituciones-de-salud.html" target="_blank">Acceso a Instituciones de Salud</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-acceso-a-servicios-financieros.html" target="_blank">Acceso a Servicios Financieros</a></li>
       <li><a href="../indicadores-matamoros/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
       <li><a href="../indicadores-matamoros/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
       <li><a href="../indicadores-matamoros/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-de-preescolar-por-docente.html" target="_blank">Alumnos de Preescolar por Docente</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-de-primaria-por-docente.html" target="_blank">Alumnos de Primaria por Docente</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
       <li><a href="../indicadores-matamoros/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
       <li><a href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" target="_blank">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
       <li><a href="../indicadores-matamoros/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-empresa-socialmente-responsable.html" target="_blank">Empresa Socialmente Responsable</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-matamoros/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-matamoros/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-matamoros/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de hacinamiento</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-matamoros/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-matamoros/sociedad-medicos.html" target="_blank">Médicos</a></li>
       <li><a href="../indicadores-matamoros/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
       <li><a href="../indicadores-matamoros/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
       <li><a href="../indicadores-matamoros/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
       <li><a href="../indicadores-matamoros/sociedad-mortalidad-por-vih-sida.html" target="_blank">Mortalidad por VIH-SIDA</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
       <li><a href="../indicadores-matamoros/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
       <li><a href="../indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
       <li><a href="../indicadores-matamoros/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
       <li><a href="../indicadores-matamoros/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
       <li><a href="../indicadores-matamoros/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
@@ -788,16 +971,28 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
       <li><a href="../indicadores-matamoros/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
       <li><a href="../indicadores-matamoros/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
       <li><a href="../indicadores-matamoros/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-matamoros/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Másivo</a></li>
       <li><a href="../indicadores-matamoros/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
       <li><a href="../indicadores-matamoros/sociedad-universidades.html" target="_blank">Universidades</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html" target="_blank">Uso de Twitter como Proxy de Uso de Tecnologías de Información</a></li>
       <li><a href="../indicadores-matamoros/sociedad-usuarios-de-internet.html" target="_blank">Usuarios de Internet</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-visitas-a-museos-inah.html" target="_blank">Visitas a Museos INAH</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-con-agua-de-la-red-publica.html" target="_blank">Viviendas con Agua de la Red Pública</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-con-drenaje.html" target="_blank">Viviendas con Drenaje</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html" target="_blank">Viviendas con Drenaje (sólo conexión a red pública)</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-con-energia-electrica.html" target="_blank">Viviendas con Energía Eléctrica</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -818,6 +1013,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sustentabilidad-disponibilidad-de-banqueta.html" target="_blank">Disponibilidad de Banqueta</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" target="_blank">Disposición Adecuada de Residuos Sólidos</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
+      <li><a href="../indicadores-matamoros/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
@@ -844,16 +1040,26 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
       <li><a href="../indicadores-la-laguna/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-la-laguna/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
+      <li><a href="../indicadores-la-laguna/economia-cartera-hipotecaria-vencida.html" target="_blank">Cartera Hipotecaria Vencida</a></li>
       <li><a href="../indicadores-la-laguna/economia-centros-de-investigacion.html" target="_blank">Centros de Investigación</a></li>
+      <li><a href="../indicadores-la-laguna/economia-ciudad-fronteriza-o-portuaria.html" target="_blank">Ciudad Fronteriza o Portuaria</a></li>
       <li><a href="../indicadores-la-laguna/economia-crecimiento-de-la-mancha-urbana.html" target="_blank">Crecimiento de la Mancha Urbana</a></li>
+      <li><a href="../indicadores-la-laguna/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html" target="_blank">Crecimiento de la Población Ocupada sin Ingresos</a></li>
+      <li><a href="../indicadores-la-laguna/economia-crecimiento-del-pib-estatal.html" target="_blank">Crecimiento del PIB Estatal</a></li>
+      <li><a href="../indicadores-la-laguna/economia-crecimiento-del-salario-promedio.html" target="_blank">Crecimiento del Salario Promedio</a></li>
+      <li><a href="../indicadores-la-laguna/economia-crecimiento-en-jornadas-laborales-muy-largas.html" target="_blank">Crecimiento en jornadas laborales muy largas</a></li>
       <li><a href="../indicadores-la-laguna/economia-crecimiento-en-los-empleados-en-el-sector-formal.html" target="_blank">Crecimiento en los Empleados en el Sector Formal</a></li>
+      <li><a href="../indicadores-la-laguna/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
+      <li><a href="../indicadores-la-laguna/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
       <li><a href="../indicadores-la-laguna/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
       <li><a href="../indicadores-la-laguna/economia-desempleo.html" target="_blank">Desempleo</a></li>
+      <li><a href="../indicadores-la-laguna/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
       <li><a href="../indicadores-la-laguna/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-la-laguna/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
       <li><a href="../indicadores-la-laguna/economia-empresas.html" target="_blank">Empresas</a></li>
       <li><a href="../indicadores-la-laguna/economia-empresas-certificadas-con-iso-9000-y-14000.html" target="_blank">Empresas Certificadas con ISO-9000 y 14000</a></li>
       <li><a href="../indicadores-la-laguna/economia-empresas-exportadoras.html" target="_blank">Empresas Exportadoras</a></li>
+      <li><a href="../indicadores-la-laguna/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html" target="_blank">Flujo de Pasajeros del o Hacia el Extranjero</a></li>
       <li><a href="../indicadores-la-laguna/economia-grandes-empresas.html" target="_blank">Grandes Empresas</a></li>
       <li><a href="../indicadores-la-laguna/economia-grandes-empresas-segun-cnn-expansion.html" target="_blank">Grandes empresas según CNN Expansión</a></li>
       <li><a href="../indicadores-la-laguna/economia-indice-de-competitividad-urbana.html" target="_blank">Índice de Competitividad Urbana</a></li>
@@ -864,19 +1070,29 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-servicios.html" target="_blank">Índice de Especialización Local en Servicios</a></li>
       <li><a href="../indicadores-la-laguna/economia-indice-de-gini.html" target="_blank">Índice de Gini</a></li>
       <li><a href="../indicadores-la-laguna/economia-inversion-extranjera-directa.html" target="_blank">Inversión Extranjera Directa</a></li>
+      <li><a href="../indicadores-la-laguna/economia-inversion-extranjera-directa-neta.html" target="_blank">Inversión Extranjera Directa (Neta)</a></li>
       <li><a href="../indicadores-la-laguna/economia-inversion-per-capita.html" target="_blank">Inversión Per cápita</a></li>
+      <li><a href="../indicadores-la-laguna/economia-jornadas-laborales-muy-largas-mas-de-48-horas-semanales.html" target="_blank">Jornadas laborales muy largas (más de 48 horas semanales)</a></li>
       <li><a href="../indicadores-la-laguna/economia-medianas-empresas.html" target="_blank">Medianas Empresas</a></li>
       <li><a href="../indicadores-la-laguna/economia-microempresas.html" target="_blank">Microempresas</a></li>
+      <li><a href="../indicadores-la-laguna/economia-ocupacion-hotelera.html" target="_blank">Ocupación Hotelera</a></li>
+      <li><a href="../indicadores-la-laguna/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html" target="_blank">Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas</a></li>
       <li><a href="../indicadores-la-laguna/economia-patentes.html" target="_blank">Patentes</a></li>
       <li><a href="../indicadores-la-laguna/economia-pequenas-empresas.html" target="_blank">Pequeñas Empresas</a></li>
       <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-el-comercio.html" target="_blank">Personal Ocupado en el Comercio</a></li>
       <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-la-industria-manufacturera.html" target="_blank">Personal Ocupado en la Industria Manufacturera</a></li>
       <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-los-servicios.html" target="_blank">Personal Ocupado en los Servicios</a></li>
+      <li><a href="../indicadores-la-laguna/economia-poblacion-ocupada-sin-ingresos.html" target="_blank">Población Ocupada sin Ingresos</a></li>
       <li><a href="../indicadores-la-laguna/economia-posgrados-de-calidad.html" target="_blank">Posgrados de Calidad</a></li>
       <li><a href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html" target="_blank">Producción Bruta Total Per Cápita</a></li>
       <li><a href="../indicadores-la-laguna/economia-productividad-laboral.html" target="_blank">Productividad Laboral</a></li>
+      <li><a href="../indicadores-la-laguna/economia-productividad-media-laboral.html" target="_blank">Productividad media laboral</a></li>
       <li><a href="../indicadores-la-laguna/economia-registro-de-una-propiedad.html" target="_blank">Registro de Una Propiedad</a></li>
+      <li><a href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" target="_blank">Salario Promedio Mensual para Trabajadores de Tiempo Completo</a></li>
       <li><a href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html" target="_blank">Sectores que Han Frenado el Crecimiento (2008-2012)</a></li>
+      <li><a href="../indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento.html" target="_blank">Sectores que Han Presentado Alto Crecimiento</a></li>
+      <li><a href="../indicadores-la-laguna/economia-sitios-unesco.html" target="_blank">Sitios UNESCO</a></li>
+      <li><a href="../indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html" target="_blank">Tamaño del Mercado Hipotecario</a></li>
       <li><a href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" target="_blank">Tasa de informalidad</a></li>
       <li><a href="../indicadores-la-laguna/economia-tierra-ejidal.html" target="_blank">Tierra ejidal</a></li>
@@ -939,41 +1155,69 @@ class PorRegiones extends \Base\Publicacion {
   <div class="col-md-2 indicadores-vinculos">
     <h3>Sociedad</h3>
     <ul>
+      <li><a href="../indicadores-la-laguna/sociedad-acceso-a-instituciones-de-salud.html" target="_blank">Acceso a Instituciones de Salud</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-acceso-a-servicios-financieros.html" target="_blank">Acceso a Servicios Financieros</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-de-preescolar-por-docente.html" target="_blank">Alumnos de Preescolar por Docente</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-de-primaria-por-docente.html" target="_blank">Alumnos de Primaria por Docente</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-empresa-socialmente-responsable.html" target="_blank">Empresa Socialmente Responsable</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de hacinamiento</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-medicos.html" target="_blank">Médicos</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html" target="_blank">Mortalidad por Diabetes</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-mortalidad-por-vih-sida.html" target="_blank">Mortalidad por VIH-SIDA</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-muertes-por-accidentes-relacionados-con-transporte.html" target="_blank">Muertes por Accidentes Relacionados con Transporte</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-mujeres-en-la-fuerza-laboral.html" target="_blank">Mujeres en la Fuerza Laboral</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html" target="_blank">Ocupación por Vivienda</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html" target="_blank">Organizaciones de la Sociedad Civil</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html" target="_blank">Personas por Debajo de la Línea de Bienestar</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-poblacion-catolica.html" target="_blank">Población Católica</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-poblacion-derechohabiente.html" target="_blank">Población Derechohabiente</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-poblacion-estimada.html" target="_blank">Población Estimada</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Másivo</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-universidades.html" target="_blank">Universidades</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-uso-de-servicios-financieros.html" target="_blank">Uso de Servicios Financieros</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html" target="_blank">Uso de Twitter como Proxy de Uso de Tecnologías de Información</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-usuarios-de-internet.html" target="_blank">Usuarios de Internet</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-visitas-a-museos-inah.html" target="_blank">Visitas a Museos INAH</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html" target="_blank">Viviendas con Agua de la Red Pública</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-computadora.html" target="_blank">Viviendas con Computadora</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-drenaje.html" target="_blank">Viviendas con Drenaje</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html" target="_blank">Viviendas con Drenaje (sólo conexión a red pública)</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html" target="_blank">Viviendas con Energía Eléctrica</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -994,6 +1238,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sustentabilidad-disponibilidad-de-banqueta.html" target="_blank">Disponibilidad de Banqueta</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html" target="_blank">Disposición Adecuada de Residuos Sólidos</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
+      <li><a href="../indicadores-la-laguna/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
