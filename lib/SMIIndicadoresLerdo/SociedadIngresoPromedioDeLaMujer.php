@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Lerdo Sustentabilidad Capacidad de Tratamiento de Agua en Operación (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Lerdo Sociedad Ingreso Promedio de la Mujer (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,28 +23,30 @@
 namespace SMIIndicadoresLerdo;
 
 /**
- * Clase SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion
+ * Clase SociedadIngresoPromedioDeLaMujer
  */
-class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \Base\Publicacion {
+class SociedadIngresoPromedioDeLaMujer extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Capacidad de Tratamiento de Agua en Operación en Lerdo';
+        $this->nombre            = 'Ingreso Promedio de la Mujer en Lerdo';
      // $this->autor             = '';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2015-07-14T19:36';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo           = 'sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion';
+        $this->archivo           = 'sociedad-ingreso-promedio-de-la-mujer';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.';
-        $this->claves            = 'IMPLAN, Lerdo, Recursos Naturales, Índice de Competitividad Urbana';
-        $this->categorias        = array('Recursos Naturales', 'Índice de Competitividad Urbana');
+        $this->descripcion       = 'Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana".
+Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de
+los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.
+Unidades: 1 es la igualdad entre salario de hombre y mujer.
+Fuente: INEGI (ENOE).';
+        $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Género, Empleo';
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Género', 'Empleo');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -79,9 +81,11 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
+<p>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana".
+Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de
+los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.
+Unidades: 1 es la igualdad entre salario de hombre y mujer.
+Fuente: INEGI (ENOE).</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -96,46 +100,46 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>0.0000</td>
+            <td>0.4000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>1.3000</td>
+            <td>0.3000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>1.3000</td>
+            <td>0.7000</td>
             <td>IMCO</td>
-            <td>VALOR IGUAL A CERO</td>
+            <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>1.3000</td>
+            <td>0.8000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>0.1000</td>
+            <td>0.6000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Litros por segundo por cada mil habitantes.</p>
+      <p><b>Unidad:</b> De 0 a 1.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Capacidad de Tratamiento de Agua en Operación en Lerdo</h3>
+      <h3>Gráfica de Ingreso Promedio de la Mujer en Lerdo</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Capacidad de Tratamiento de Agua en Operación</h3>
+      <h3>Gráfica con los últimos datos de Ingreso Promedio de la Mujer</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Capacidad de Tratamiento de Agua en Operación</h3>
+      <h3>Últimos datos de Ingreso Promedio de la Mujer</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -150,50 +154,36 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
           <tr>
             <td>Torreón</td>
             <td>2012-12-31</td>
-            <td>1.2000</td>
+            <td>0.8000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2012-12-31</td>
-            <td>0.5000</td>
+            <td>0.6000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2012-12-31</td>
-            <td>0.1000</td>
+            <td>0.6000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2012-12-31</td>
-            <td>0.0000</td>
+            <td>1.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2012-12-31</td>
-            <td>1.9000</td>
+            <td>0.8000</td>
             <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2010-12-31</td>
-            <td>1.3900</td>
-            <td>IMCO-CONAGUA</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2010-12-31</td>
-            <td>1.6000</td>
-            <td>IMCO-CONAGUA</td>
             <td></td>
           </tr>
         </tbody>
@@ -591,52 +581,196 @@ Fuente: CONAGUA, 2008-2009.</td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
           </tr>
           <tr>
-            <td>07/07/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/hacia-ciudades-que-construyen-humanos-en-convivencia.html">Hacia Ciudades que Construyen Humanos en Convivencia</a></td>
-            <td>El espacio público es donde se tejen las relaciones sociales, por lo tanto su conformación debe contribuir a desarrollar las capacidades humanas.</td>
-          </tr>
-          <tr>
-            <td>27/01/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/objetivos-milenio.html">La Zona Metropolitana de La Laguna y los Objetivos del Milenio</a></td>
-            <td>En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/mas-areas-verdes-proteger-salud-laguneros.html">Más áreas verdes para proteger la salud de los laguneros</a></td>
-            <td>Manejar el tema de protección a la salud como punto estratégico en materia de ordenamiento territorial y urbano representa una oportunidad para el desarrollo de la región.</td>
-          </tr>
-          <tr>
-            <td>10/11/2014</td>
+            <td>21/05/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-traslados-a-pie.html">Traslados a Pie en La Laguna</a></td>
-            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad.</td>
+            <td><a href="../indicadores-gomez-palacio/economia-salario-promedio.html">Salario promedio en Gómez Palacio</a></td>
+            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
           </tr>
           <tr>
-            <td>10/11/2014</td>
+            <td>21/05/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-uso-de-bicicleta.html">Uso de Bicicleta en La Laguna</a></td>
-            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad.</td>
+            <td><a href="../indicadores-la-laguna/economia-salario-promedio.html">Salario promedio en La Laguna</a></td>
+            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
           </tr>
           <tr>
-            <td>10/11/2014</td>
+            <td>21/05/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-uso-de-transporte-publico.html">Uso de Transporte Público en La Laguna</a></td>
-            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad. No se consideran los viajes en taxi.</td>
+            <td><a href="../indicadores-lerdo/economia-salario-promedio.html">Salario promedio en Lerdo</a></td>
+            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
           </tr>
           <tr>
-            <td>10/11/2014</td>
+            <td>21/05/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html">Uso de Automóvil Particular en La Laguna</a></td>
-            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad.</td>
+            <td><a href="../indicadores-matamoros/economia-salario-promedio.html">Salario promedio en Matamoros</a></td>
+            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
           </tr>
           <tr>
-            <td>28/10/2014</td>
+            <td>21/05/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-salario-promedio.html">Salario promedio en Torreón</a></td>
+            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
+          </tr>
+          <tr>
+            <td>20/05/2015</td>
             <td>Análisis</td>
-            <td><a href="../blog/ciudades-reto-transformacion.html">Las ciudades y el reto de su transformación</a></td>
-            <td>El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana.</td>
+            <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
+            <td>Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.</td>
+          </tr>
+          <tr>
+            <td>10/03/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/efectos-informalidad-politicas-prevenirla.html">Efectos de la informalidad y políticas para prevenirla</a></td>
+            <td>La informalidad tiene repercusiones directas sobre la competitividad y el crecimiento económico. Es cierto que ocupa a población desempleada en el sector formal y sus insumos e inversión apoyan a la economía, sin embargo es mayor el daño generado en el crecimiento a largo plazo.</td>
+          </tr>
+          <tr>
+            <td>22/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Gómez Palacio</a></td>
+            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
+          </tr>
+          <tr>
+            <td>22/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Lerdo</a></td>
+            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
+          </tr>
+          <tr>
+            <td>22/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Matamoros</a></td>
+            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
+          </tr>
+          <tr>
+            <td>22/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Torreón</a></td>
+            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Gómez Palacio</a></td>
+            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Lerdo</a></td>
+            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Matamoros</a></td>
+            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Torreón</a></td>
+            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+          </tr>
+          <tr>
+            <td>06/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></td>
+            <td>El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.</td>
+          </tr>
+          <tr>
+            <td>11/12/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html">Tasa de informalidad en Gómez Palacio</a></td>
+            <td>Tasa de empleos informales.</td>
+          </tr>
+          <tr>
+            <td>11/12/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-tasa-de-informalidad.html">Tasa de informalidad en La Laguna</a></td>
+            <td>Tasa de empleos informales.</td>
+          </tr>
+          <tr>
+            <td>11/12/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-tasa-de-informalidad.html">Tasa de informalidad en Lerdo</a></td>
+            <td>Tasa de empleos informales.</td>
+          </tr>
+          <tr>
+            <td>11/12/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-tasa-de-informalidad.html">Tasa de informalidad en Matamoros</a></td>
+            <td>Tasa de empleos informales.</td>
+          </tr>
+          <tr>
+            <td>11/12/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-tasa-de-informalidad.html">Tasa de informalidad en Torreón</a></td>
+            <td>Tasa de empleos informales.</td>
+          </tr>
+          <tr>
+            <td>12/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/industrial-metalmecanica-la-laguna.html">La industria metalmecánica y La Laguna</a></td>
+            <td>A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.</td>
+          </tr>
+          <tr>
+            <td>07/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Gómez Palacio</a></td>
+            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
+          </tr>
+          <tr>
+            <td>07/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-trabajadores-asegurados.html">Trabajadores Asegurados en La Laguna</a></td>
+            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
+          </tr>
+          <tr>
+            <td>07/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Lerdo</a></td>
+            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
+          </tr>
+          <tr>
+            <td>07/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Matamoros</a></td>
+            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
+          </tr>
+          <tr>
+            <td>07/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Torreón</a></td>
+            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Gómez Palacio</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en La Laguna</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Lerdo</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Matamoros</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Torreón</a></td>
+            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -681,8 +815,56 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html">Consumo de Agua Facturado en Torreón</a></td>
-            <td>Consumo anual de agua por persona expresado en metros cúbicos.</td>
+            <td><a href="../indicadores-gomez-palacio/economia-desempleo.html">Desempleo en Gómez Palacio</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-desempleo.html">Desempleo en La Laguna</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-desempleo.html">Desempleo en Lerdo</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-desempleo.html">Desempleo en Matamoros</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-desempleo.html">Desempleo en Torreón</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Gómez Palacio</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Lerdo</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Matamoros</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -717,62 +899,188 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html">Generación de Basura en Gómez Palacio</a></td>
-            <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
+            <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
+            <td>Tasa de fecundidad.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-generacion-de-basura.html">Generación de Basura en La Laguna</a></td>
-            <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Gómez Palacio</a></td>
+            <td>Porcentaje de hogares con jefatura femenina.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-generacion-de-basura.html">Generación de Basura en Lerdo</a></td>
-            <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
+            <td><a href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en La Laguna</a></td>
+            <td>Porcentaje de hogares con jefatura femenina.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-generacion-de-basura.html">Generación de Basura en Matamoros</a></td>
-            <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
+            <td><a href="../indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Lerdo</a></td>
+            <td>Porcentaje de hogares con jefatura femenina.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-generacion-de-basura.html">Generación de Basura en Torreón</a></td>
-            <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
+            <td><a href="../indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Matamoros</a></td>
+            <td>Porcentaje de hogares con jefatura femenina.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html">Motorización en Gómez Palacio</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
+            <td><a href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Torreón</a></td>
+            <td>Porcentaje de hogares con jefatura femenina.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-motorizacion.html">Motorización en La Laguna</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
+            <td><a href="../indicadores-torreon/sociedad-madres-adolescentes.html">Madres Adolescentes en Torreón</a></td>
+            <td>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-motorizacion.html">Motorización en Lerdo</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Gómez Palacio</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-motorizacion.html">Motorización en Matamoros</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
+            <td><a href="../indicadores-lerdo/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Lerdo</a></td>
+            <td></td>
           </tr>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-motorizacion.html">Motorización en Torreón</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
+            <td><a href="../indicadores-matamoros/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Gómez Palacio</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en La Laguna</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Lerdo</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Matamoros</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Torreón</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Gómez Palacio</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en La Laguna</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Lerdo</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Matamoros</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Torreón</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Gómez Palacio</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en La Laguna</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Lerdo</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Matamoros</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Torreón</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-productividad-laboral.html">Productividad Laboral en Gómez Palacio</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-productividad-laboral.html">Productividad Laboral en La Laguna</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-productividad-laboral.html">Productividad Laboral en Lerdo</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-productividad-laboral.html">Productividad Laboral en Matamoros</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-productividad-laboral.html">Productividad Laboral en Torreón</a></td>
+            <td>PIB sin petróleo / PEA.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -812,6 +1120,66 @@ Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Gómez Palacio</a></td>
+            <td>Número total de desempleados entre la Población económicamente activa.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en La Laguna</a></td>
+            <td>Número total de desempleados entre la Población económicamente activa.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Lerdo</a></td>
+            <td>Número total de desempleados entre la Población económicamente activa.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Matamoros</a></td>
+            <td>Número total de desempleados entre la Población económicamente activa.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Torreón</a></td>
+            <td>Número total de desempleados entre la Población económicamente activa.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Gómez Palacio</a></td>
+            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en La Laguna</a></td>
+            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Lerdo</a></td>
+            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Matamoros</a></td>
+            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Torreón</a></td>
+            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Gómez Palacio</a></td>
             <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
 En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
@@ -847,62 +1215,86 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Gómez Palacio</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+            <td><a href="../indicadores-torreon/economia-trabajadores-asegurados-region.html">Trabajadores Asegurados (Región) en Torreón</a></td>
+            <td>Evolución del empleo medida en trabajadores asegurados por el IMSS.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en La Laguna</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Lerdo</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Matamoros</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Torreón</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>15/10/2014</td>
             <td>Análisis</td>
-            <td><a href="../blog/importancia-suelo-ciudades.html">La importancia del suelo en las ciudades</a></td>
-            <td>En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.</td>
+            <td><a href="../blog/vision-vencedores.html">La visión de los vencedores</a></td>
+            <td>El regreso de La Laguna a los primeros lugares en el ranking de competitividad nacional demanda de una comunidad que retome los valores y el empuje de “Los Fundadores”, de los hombres y mujeres que lejos de considerarse victimas de las adversidades, de su entorno natural y político, construyeron una de las regiones más prósperas de México.</td>
           </tr>
           <tr>
-            <td>14/10/2014</td>
+            <td>07/10/2014</td>
             <td>Análisis</td>
-            <td><a href="../blog/poligonos-actuacion-desarrollo-urbano-integral.html">Polígonos de Actuación para un Desarrollo Urbano Integral</a></td>
-            <td>El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.</td>
+            <td><a href="../blog/economia-sector-salud-laguna.html">Economía del Sector Salud en La Laguna</a></td>
+            <td>El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.</td>
           </tr>
           <tr>
-            <td>18/09/2014</td>
+            <td>26/09/2014</td>
             <td>Análisis</td>
-            <td><a href="../blog/competitividad-planeacion-metropolitana.html">Competitividad y Planeación Metropolitana</a></td>
-            <td>El Instituto Mexicano para la Competitividad dio a conocer el Índice de Competitividad Urbana 2014; en él muestra que la Zona Metropolitana de la Laguna (ZML) continúa en un nivel de competitividad media baja.</td>
+            <td><a href="../blog/retrospectiva-estado-actual-empleo.html">Retrospectiva y estado actual del empleo en Torreón y la ZML</a></td>
+            <td>El empleo es uno de los principales indicadores, que muestra el desempeño económico de una ciudad, región o país. Desde hace 9 años Torreón y la Zona Metropolitana de la Laguna se habían separado a la alza de la media nacional.</td>
           </tr>
           <tr>
-            <td>01/08/2014</td>
+            <td>19/09/2014</td>
             <td>Análisis</td>
-            <td><a href="../blog/gas-shale-impacto.html">El Gas Shale y su impacto</a></td>
-            <td>La extracción del gas shale se contempla en el futuro cercano de México, pues además de contar con una de las reservas más grandes del mundo, ha contribuido positivamente en la economía de los países que lo utilizan.</td>
+            <td><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></td>
+            <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
           </tr>
           <tr>
-            <td>04/06/2014</td>
+            <td>06/08/2014</td>
             <td>Análisis</td>
-            <td><a href="../blog/zml-manejo-sustentable-del-medio-ambiente.html">La Zona Metropolitana de La Laguna y sus municipios en manejo sustentable del medio ambiente</a></td>
-            <td>De acuerdo al ICU 2012, en cuanto a medio ambiente La Laguna ocupa el lugar 35 de 77.</td>
+            <td><a href="../blog/movilidad-laboral-cotidiana-zml.html">Movilidad laboral cotidiana en la ZML</a></td>
+            <td>Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>04/08/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/contribucion-tic-competitividad-productividad.html">Contribución de las TICs en la competitividad y productividad</a></td>
+            <td>La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.</td>
+          </tr>
+          <tr>
+            <td>30/07/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/laguna-apostarle-industria-automotriz.html">La Laguna debe apostarle a la Industria Automotriz</a></td>
+            <td>En industria automotriz hay mayor inversión en la investigación y desarrollo que origina una derrama de capacidades tecnológicas con aplicación en otros sectores como el eléctrico, electrónico y aeroespacial.</td>
+          </tr>
+          <tr>
+            <td>01/07/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/productividad-zml.html">Productividad en la Zona Metropolitana de La Laguna</a></td>
+            <td>Análisis de la productividad laboral, industria manufacturera y eficiencia del trabajo en la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>24/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/economia-estable.html">Economía Estable</a></td>
+            <td>Análisis de las variables macroeconómicas como crédito, mercado hipotecario, cartera vencida, PIB y desempleo.</td>
+          </tr>
+          <tr>
+            <td>17/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/mercado-factores-eficientes.html">Mercado de Factores Eficientes</a></td>
+            <td>Análisis del mercado, las huelgas, el salario promedio mensual, productividad y demandas laborales en la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>28/05/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/indicadores-por-municipio-metodologia-imco.html">Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO</a></td>
+            <td>Índice de Competitividad Urbana de la Zona Metropolitana de la Laguna, Torreón, Gómez Palacio, Lerdo y Matamoros en 2012.</td>
+          </tr>
+          <tr>
+            <td>13/05/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/invertir-en-torreon.html">Invertir en Torreón</a></td>
+            <td>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.</td>
+          </tr>
+          <tr>
+            <td>16/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></td>
+            <td>¿En realidad generan más valor las actividades tecnológicas y de servicios?</td>
           </tr>
         </tbody>
       </table>
@@ -917,7 +1309,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2008-12-31', dato: 0.0000 },{ fecha: '2009-12-31', dato: 1.3000 },{ fecha: '2010-12-31', dato: 1.3000 },{ fecha: '2011-12-31', dato: 1.3000 },{ fecha: '2012-12-31', dato: 0.1000 }],
+      data: [{ fecha: '2008-12-31', dato: 0.4000 },{ fecha: '2009-12-31', dato: 0.3000 },{ fecha: '2010-12-31', dato: 0.7000 },{ fecha: '2011-12-31', dato: 0.8000 },{ fecha: '2012-12-31', dato: 0.6000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -933,7 +1325,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 1.2000 },{ region: 'Gómez Palacio', dato: 0.5000 },{ region: 'Lerdo', dato: 0.1000 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 1.9000 },{ region: 'Coahuila', dato: 1.3900 },{ region: 'Durango', dato: 1.6000 }],
+      data: [{ region: 'Torreón', dato: 0.8000 },{ region: 'Gómez Palacio', dato: 0.6000 },{ region: 'Lerdo', dato: 0.6000 },{ region: 'Matamoros', dato: 1.0000 },{ region: 'La Laguna', dato: 0.8000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -949,9 +1341,11 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
+<p>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana".
+Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de
+los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.
+Unidades: 1 es la igualdad entre salario de hombre y mujer.
+Fuente: INEGI (ENOE).</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -966,40 +1360,40 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>0.0000</td>
+            <td>0.4000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>1.3000</td>
+            <td>0.3000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>1.3000</td>
+            <td>0.7000</td>
             <td>IMCO</td>
-            <td>VALOR IGUAL A CERO</td>
+            <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>1.3000</td>
+            <td>0.8000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>0.1000</td>
+            <td>0.6000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Litros por segundo por cada mil habitantes.</p>
+      <p><b>Unidad:</b> De 0 a 1.</p>
 FINAL;
     } // constructor
 
-} // Clase SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion
+} // Clase SociedadIngresoPromedioDeLaMujer
 
 ?>

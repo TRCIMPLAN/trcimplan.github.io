@@ -239,6 +239,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-torreon/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-torreon/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de hacinamiento</a></li>
+      <li><a href="../indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
       <li><a href="../indicadores-torreon/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-torreon/sociedad-madres-adolescentes.html" target="_blank">Madres Adolescentes</a></li>
       <li><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
@@ -480,6 +481,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de hacinamiento</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-medicos.html" target="_blank">Médicos</a></li>
@@ -715,6 +717,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-lerdo/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de hacinamiento</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
       <li><a href="../indicadores-lerdo/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-lerdo/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-lerdo/sociedad-medicos.html" target="_blank">Médicos</a></li>
@@ -951,6 +954,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-matamoros/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-matamoros/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de hacinamiento</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
       <li><a href="../indicadores-matamoros/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-matamoros/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-matamoros/sociedad-medicos.html" target="_blank">Médicos</a></li>
@@ -1181,6 +1185,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de hacinamiento</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-medicos.html" target="_blank">Médicos</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
