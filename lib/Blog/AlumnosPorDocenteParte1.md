@@ -5,7 +5,7 @@ La premisa es: a menor cantidad de alumnos que atiende un maestro, mayor calidad
 
 Se muestran algunas estadísticas publicadas por el Banco Mundial para el ciclo 2005-2013 (lapso de 7 años para fines comparativos) en las cuales podemos observar la cantidad de alumnos que son atendidos por cada maestro en países que son referentes en el tema educativo, la cifra a nivel mundial, nuestro dato nacional, así como datos agrupados de acuerdo al nivel económico de los países, es decir, promedios de países agrupados en _países de ingreso alto y países de ingreso medio y bajo._
 
-<img class="img-responsive" src="alumnos-por-docente-parte-1/proporcion-alumnos-maestro-nivel-primario.jpg" alt="Proporción de alumnos por maestro en nivel primario">
+<div style="clear:left;"></div><img class="img-responsive" src="alumnos-por-docente-parte-1/proporcion-alumnos-maestro-nivel-primario.jpg" alt="Proporción de alumnos por maestro en nivel primario">
 
 Vínculo: [Proporción alumnos-maestro, nivel primario. Banco Mundial 2013](http://datos.bancomundial.org/indicador/SE.PRM.ENRL.TC.ZS/countries/1W-MX-FI-KR-XD?display=graph)
 
@@ -67,3 +67,5 @@ La escuela Niños de México, ubicada en D.F., es la que mejores resultados pres
 Cabe destacar que en los datos que hemos analizado en el ámbito privado, el sistema educativo puede variar, por ejemplo, las escuelas con sistemas de los denominados Montessori se basan en la premisa citada al principio del artículo, “menos alumnos por maestro, mejora la educación”
 
 El promedio que marca el indicador de las escuelas top 10 de México es de **18.4 alumnos por maestro.** Ligeramente superior al que se maneja en Corea del Sur, que es de 17.9 y por encima del promedio de los países con ingresos medios y bajos que es de 26.7 en 2012, lo cual puede indicar que efectivamente a menos alumnos por maestro mejor calidad educativa.
+
+**[Lea a la Segunda Parte de este análisis...](alumnos-por-docente-parte-2.html)**

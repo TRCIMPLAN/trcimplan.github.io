@@ -56,12 +56,14 @@ $directorios = array(
     'SIGPlanes',
     'SMI',
     'SMICategorias',
+    'Terminos');
+/*
     'SMIIndicadoresTorreon',
     'SMIIndicadoresGomezPalacio',
     'SMIIndicadoresLerdo',
     'SMIIndicadoresMatamoros',
     'SMIIndicadoresLaLaguna',
-    'Terminos');
+ */
 // Recolectar publicaciones
 $impresor = new \Base\Imprenta();
 try {

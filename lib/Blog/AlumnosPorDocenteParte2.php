@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Alumnos por docente, indicador clave para la mejora de la educación (primera parte)
+ * TrcIMPLAN - MODULO AlumnosPorDocenteParte2
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,29 +17,28 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package
+ * @package TrcIMPLAN
  */
 
-// Namespace
 namespace Blog;
 
 /**
- * Clase AlumnosPorDocenteParte1
+ * Clase AlumnosPorDocenteParte2
  */
-class AlumnosPorDocenteParte1 extends \Base\Publicacion {
+class AlumnosPorDocenteParte2 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Alumnos por docente, indicador clave para la mejora de la educación (parte 1)';
+        $this->nombre           = 'Alumnos por docente, indicador clave para la mejora de la educación (parte 2)';
         $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha            = '2015-06-16T15:00';
+        $this->fecha            = '2015-07-15T16:10';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = 'alumnos-por-docente-parte-1';
-        $this->imagen           = 'alumnos-por-docente-parte-1/imagen.jpg';
-        $this->imagen_previa    = 'alumnos-por-docente-parte-1/imagen-previa.jpg';
+        $this->archivo          = 'alumnos-por-docente-parte-2';
+        $this->imagen           = 'alumnos-por-docente-parte-2/imagen.jpg';
+        $this->imagen_previa    = 'alumnos-por-docente-parte-2/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Estudio sobre si debe considerarse la cantidad de alumnos por profesor como un factor en la mejora educativa.';
         $this->claves           = 'IMPLAN, Torreon, Alumnos, Docente, Educacion';
@@ -62,7 +61,7 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
         $schema->author         = $this->autor;
      // $schema->headline_style = $this->encabezado_color;
      // $schema->headline_icon  = $this->nombre_menu;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/AlumnosPorDocenteParte1.md');
+        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/AlumnosPorDocenteParte2.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
         // Sin JavaScript
@@ -75,6 +74,6 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
         }
     } // constructor
 
-} // Clase AlumnosPorDocenteParte1
+} // Clase AlumnosPorDocenteParte2
 
 ?>
