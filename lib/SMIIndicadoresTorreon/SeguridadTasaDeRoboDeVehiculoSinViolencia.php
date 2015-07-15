@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Seguridad Tasa de Robo de Vehículo sin Violencia (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Seguridad Tasa de Robo de Vehículo Sin Violencia (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class SeguridadTasaDeRoboDeVehiculoSinViolencia extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Tasa de Robo de Vehículo sin Violencia en Torreón';
+        $this->nombre            = 'Tasa de Robo de Vehículo Sin Violencia en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-04-29T14:06';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -103,9 +103,9 @@ class SeguridadTasaDeRoboDeVehiculoSinViolencia extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Tasa de Robo de Vehículo sin Violencia</h3>
+      <h3>Gráfica con los últimos datos de Tasa de Robo de Vehículo Sin Violencia</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Tasa de Robo de Vehículo sin Violencia</h3>
+      <h3>Últimos datos de Tasa de Robo de Vehículo Sin Violencia</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

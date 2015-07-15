@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores La Laguna Gobierno Participación ciudadana (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores La Laguna Gobierno Participación Ciudadana (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class GobiernoParticipacionCiudadana extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Participación ciudadana en La Laguna';
+        $this->nombre            = 'Participación Ciudadana en La Laguna';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T14:35';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -40,8 +40,7 @@ class GobiernoParticipacionCiudadana extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = '% lista nominal de elecciones federales.
-Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la población que participó en las últimas elecciones federales. Para los años 2008, 2009 y 2010 se consideraron los datos de las elecciones de 2009, mientras que para los años 2011 y 2012 se tomaron datos de las elecciones de 2012. Unidades: Porcentaje de la lista nominal. Fuente: Instituto Federal Electoral (IFE), 2009 y 2012.';
+        $this->descripcion       = 'Porcentaje de la lista nominal de elecciones federales. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la población que participó en las últimas elecciones federales.';
         $this->claves            = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Participación Ciudadana';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Participación Ciudadana');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -78,8 +77,7 @@ Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la po
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>% lista nominal de elecciones federales.
-Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la población que participó en las últimas elecciones federales. Para los años 2008, 2009 y 2010 se consideraron los datos de las elecciones de 2009, mientras que para los años 2011 y 2012 se tomaron datos de las elecciones de 2012. Unidades: Porcentaje de la lista nominal. Fuente: Instituto Federal Electoral (IFE), 2009 y 2012.</p>
+<p>Porcentaje de la lista nominal de elecciones federales. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la población que participó en las últimas elecciones federales.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -125,15 +123,18 @@ Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la po
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Para los años 2008, 2009 y 2010 se consideraron los datos de las elecciones de 2009, mientras que para los años 2011 y 2012 se tomaron datos de las elecciones de 2012. Unidades: Porcentaje de la lista nominal. Fuente: Instituto Federal Electoral (IFE), 2009 y 2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Participación ciudadana en La Laguna</h3>
+      <h3>Gráfica de Participación Ciudadana en La Laguna</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Participación ciudadana</h3>
+      <h3>Gráfica con los últimos datos de Participación Ciudadana</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Participación ciudadana</h3>
+      <h3>Últimos datos de Participación Ciudadana</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -921,8 +922,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>% lista nominal de elecciones federales.
-Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la población que participó en las últimas elecciones federales. Para los años 2008, 2009 y 2010 se consideraron los datos de las elecciones de 2009, mientras que para los años 2011 y 2012 se tomaron datos de las elecciones de 2012. Unidades: Porcentaje de la lista nominal. Fuente: Instituto Federal Electoral (IFE), 2009 y 2012.</p>
+<p>Porcentaje de la lista nominal de elecciones federales. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la población que participó en las últimas elecciones federales.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -968,6 +968,9 @@ Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la po
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Para los años 2008, 2009 y 2010 se consideraron los datos de las elecciones de 2009, mientras que para los años 2011 y 2012 se tomaron datos de las elecciones de 2012. Unidades: Porcentaje de la lista nominal. Fuente: Instituto Federal Electoral (IFE), 2009 y 2012.</p>
+
 FINAL;
     } // constructor
 

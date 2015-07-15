@@ -40,8 +40,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Organizaciones de la sociedad civil por cada cien mil habitantes.
-Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de organizaciones civiles en la ciudad. Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas. Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013.';
+        $this->descripcion       = 'Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de "Sistema Político Estable y Funcional". Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas.';
         $this->claves            = 'IMPLAN, Matamoros, Participación Ciudadana, Gobierno, Índice de Competitividad Urbana';
         $this->categorias        = array('Participación Ciudadana', 'Gobierno', 'Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -78,8 +77,7 @@ Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice d
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Organizaciones de la sociedad civil por cada cien mil habitantes.
-Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de organizaciones civiles en la ciudad. Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas. Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013.</p>
+<p>Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de "Sistema Político Estable y Funcional". Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -131,6 +129,9 @@ Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice d
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica-1">
       <h3>Gráfica de Organizaciones de la Sociedad Civil en Matamoros con fuente IMCO</h3>
@@ -1065,8 +1066,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Organizaciones de la sociedad civil por cada cien mil habitantes.
-Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de organizaciones civiles en la ciudad. Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas. Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013.</p>
+<p>Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice de "Sistema Político Estable y Funcional". Este indicador busca captar la capacidad de la sociedad para organizarse y ejercer presión social sobre las autoridades. Se incluyen iglesias y organizaciones religiosas.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1118,6 +1118,9 @@ Dentro del Índice de Competitividad Urbana del IMCO forma parte de subíndice d
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013.</p>
+
 FINAL;
     } // constructor
 

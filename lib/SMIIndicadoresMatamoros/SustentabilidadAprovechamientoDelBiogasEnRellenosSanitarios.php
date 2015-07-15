@@ -40,8 +40,7 @@ class SustentabilidadAprovechamientoDelBiogasEnRellenosSanitarios extends \Base\
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.';
+        $this->descripcion       = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.';
         $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Recursos Naturales';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Recursos Naturales');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -78,8 +77,7 @@ Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</p>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -125,6 +123,9 @@ Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> 1)SI TIENE, 0)NO TIENE.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Aprovechamiento del Biogás en Rellenos Sanitarios en Matamoros</h3>
@@ -933,8 +934,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</p>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -980,6 +980,9 @@ Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> 1)SI TIENE, 0)NO TIENE.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</p>
+
 FINAL;
     } // constructor
 

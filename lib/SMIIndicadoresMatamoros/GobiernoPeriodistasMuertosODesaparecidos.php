@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Matamoros Gobierno Periodistas muertos o desaparecidos (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Matamoros Gobierno Periodistas Muertos o Desaparecidos (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class GobiernoPeriodistasMuertosODesaparecidos extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Periodistas muertos o desaparecidos en Matamoros';
+        $this->nombre            = 'Periodistas Muertos o Desaparecidos en Matamoros';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T14:45';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -40,7 +40,7 @@ class GobiernoPeriodistasMuertosODesaparecidos extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad. Unidades: Periodistas asesinados o desaparecidos. Fuente: Artículo 19, 2004-2012.';
+        $this->descripcion       = 'Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad.';
         $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Gobierno, Delincuencia, Seguridad';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Gobierno', 'Delincuencia', 'Seguridad');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -77,7 +77,7 @@ class GobiernoPeriodistasMuertosODesaparecidos extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad. Unidades: Periodistas asesinados o desaparecidos. Fuente: Artículo 19, 2004-2012.</p>
+<p>Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -123,15 +123,18 @@ class GobiernoPeriodistasMuertosODesaparecidos extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Periodistas asesinados o desaparecidos. Fuente: Artículo 19, 2004-2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Periodistas muertos o desaparecidos en Matamoros</h3>
+      <h3>Gráfica de Periodistas Muertos o Desaparecidos en Matamoros</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Periodistas muertos o desaparecidos</h3>
+      <h3>Gráfica con los últimos datos de Periodistas Muertos o Desaparecidos</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Periodistas muertos o desaparecidos</h3>
+      <h3>Últimos datos de Periodistas Muertos o Desaparecidos</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -1537,7 +1540,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad. Unidades: Periodistas asesinados o desaparecidos. Fuente: Artículo 19, 2004-2012.</p>
+<p>Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1583,6 +1586,9 @@ FINAL;
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Periodistas asesinados o desaparecidos. Fuente: Artículo 19, 2004-2012.</p>
+
 FINAL;
     } // constructor
 

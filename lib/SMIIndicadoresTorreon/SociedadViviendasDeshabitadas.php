@@ -40,11 +40,9 @@ class SociedadViviendasDeshabitadas extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de viviendas deshabitadas como porcentaje del total de las viviendas.
-Este indicador busca captar los efectos de malas políticas de vivienda, como la lejanía de los centros de empleo y servicios, así como un deterioro en el tejido social que conduzcan a mayor inseguridad y al deterioro del patrimonio más importante de muchas familias.
-Fuente: INEGI (Censo de Población y Vivienda).';
-        $this->claves            = 'IMPLAN, Torreón, Índice de Competitividad Urbana';
-        $this->categorias        = array('Índice de Competitividad Urbana');
+        $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de viviendas deshabitadas como porcentaje del total de las viviendas. Este indicador busca captar los efectos de malas políticas de vivienda, como la lejanía de los centros de empleo y servicios, así como un deterioro en el tejido social que conduzcan a mayor inseguridad y al deterioro del patrimonio más importante de muchas familias.';
+        $this->claves            = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Vivienda';
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Vivienda');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -79,9 +77,7 @@ Fuente: INEGI (Censo de Población y Vivienda).';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de viviendas deshabitadas como porcentaje del total de las viviendas.
-Este indicador busca captar los efectos de malas políticas de vivienda, como la lejanía de los centros de empleo y servicios, así como un deterioro en el tejido social que conduzcan a mayor inseguridad y al deterioro del patrimonio más importante de muchas familias.
-Fuente: INEGI (Censo de Población y Vivienda).</p>
+<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de viviendas deshabitadas como porcentaje del total de las viviendas. Este indicador busca captar los efectos de malas políticas de vivienda, como la lejanía de los centros de empleo y servicios, así como un deterioro en el tejido social que conduzcan a mayor inseguridad y al deterioro del patrimonio más importante de muchas familias.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -127,6 +123,9 @@ Fuente: INEGI (Censo de Población y Vivienda).</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: INEGI (Censo de Población y Vivienda).</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Viviendas Deshabitadas en Torreón</h3>
@@ -577,6 +576,36 @@ Fuente: CONAGUA, 2008-2009.</td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
           </tr>
           <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Gómez Palacio</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en La Laguna</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Lerdo</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Matamoros</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento en Torreón</a></td>
+            <td>Resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Gómez Palacio</a></td>
@@ -649,6 +678,36 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Gómez Palacio</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en La Laguna</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Lerdo</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Matamoros</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-ocupacion-por-vivienda.html">Ocupación por Vivienda en Torreón</a></td>
+            <td>Promedio de ocupantes por vivienda. Difiere del índice de hacinamiento en que el segundo es resultado de dividir el número de personas que residen en viviendas particulares habitadas entre el número de cuartos de esas viviendas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
 Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
@@ -716,6 +775,324 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
 En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
           </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Gómez Palacio</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en La Laguna</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Lerdo</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Matamoros</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Torreón</a></td>
+            <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-habitadas.html">Viviendas Habitadas en La Laguna</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-habitadas.html">Viviendas Habitadas en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Gómez Palacio</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en La Laguna</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Lerdo</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Matamoros</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Torreón</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html">Viviendas Totales en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-totales.html">Viviendas Totales en La Laguna</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-totales.html">Viviendas Totales en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-totales.html">Viviendas Totales en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-totales.html">Viviendas Totales en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-drenaje.html">Viviendas con Drenaje en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de drenaje.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en La Laguna</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Lerdo</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Matamoros</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica en Torreón</a></td>
+            <td>Porcentaje de viviendas con acceso a energía eléctrica</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-internet.html">Viviendas con Internet en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-internet.html">Viviendas con Internet en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-internet.html">Viviendas con Internet en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-internet.html">Viviendas con Internet en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-internet.html">Viviendas con Internet en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas con internet.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
+          </tr>
+          <tr>
+            <td>15/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/importancia-suelo-ciudades.html">La importancia del suelo en las ciudades</a></td>
+            <td>En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.</td>
+          </tr>
+          <tr>
+            <td>14/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/poligonos-actuacion-desarrollo-urbano-integral.html">Polígonos de Actuación para un Desarrollo Urbano Integral</a></td>
+            <td>El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.</td>
+          </tr>
+          <tr>
+            <td>06/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sociedad-incluyente-preparada-sana.html">Sociedad Incluyente, Preparada y Sana</a></td>
+            <td>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</td>
+          </tr>
         </tbody>
       </table>
 FINAL;
@@ -761,9 +1138,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de viviendas deshabitadas como porcentaje del total de las viviendas.
-Este indicador busca captar los efectos de malas políticas de vivienda, como la lejanía de los centros de empleo y servicios, así como un deterioro en el tejido social que conduzcan a mayor inseguridad y al deterioro del patrimonio más importante de muchas familias.
-Fuente: INEGI (Censo de Población y Vivienda).</p>
+<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de viviendas deshabitadas como porcentaje del total de las viviendas. Este indicador busca captar los efectos de malas políticas de vivienda, como la lejanía de los centros de empleo y servicios, así como un deterioro en el tejido social que conduzcan a mayor inseguridad y al deterioro del patrimonio más importante de muchas familias.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -809,6 +1184,9 @@ Fuente: INEGI (Censo de Población y Vivienda).</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: INEGI (Censo de Población y Vivienda).</p>
+
 FINAL;
     } // constructor
 

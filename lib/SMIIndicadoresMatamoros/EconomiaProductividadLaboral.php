@@ -298,30 +298,6 @@ FINAL;
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-desempleo.html">Desempleo en La Laguna</a></td>
-            <td>Cantidad de personas desempleadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-desempleo.html">Desempleo en Lerdo</a></td>
-            <td>Cantidad de personas desempleadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-desempleo.html">Desempleo en Matamoros</a></td>
-            <td>Cantidad de personas desempleadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-desempleo.html">Desempleo en Torreón</a></td>
-            <td>Cantidad de personas desempleadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/economia-inversion-extranjera-directa.html">Inversión Extranjera Directa en Gómez Palacio</a></td>
             <td>Promedio de inversión entre 2008 y 2012.</td>
           </tr>
@@ -378,6 +354,90 @@ FINAL;
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-inversion-per-capita.html">Inversión Per cápita en Torreón</a></td>
             <td>Gasto en obras públicas y acciones sociales entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Gómez Palacio</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en La Laguna</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Lerdo</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Matamoros</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Torreón</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-productividad-laboral.html">Productividad Laboral en Gómez Palacio</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-productividad-laboral.html">Productividad Laboral en La Laguna</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-productividad-laboral.html">Productividad Laboral en Lerdo</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-productividad-laboral.html">Productividad Laboral en Matamoros</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-productividad-laboral.html">Productividad Laboral en Torreón</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-desempleo.html">Desempleo en La Laguna</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-desempleo.html">Desempleo en Lerdo</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-desempleo.html">Desempleo en Matamoros</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-desempleo.html">Desempleo en Torreón</a></td>
+            <td>Cantidad de personas desempleadas.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -468,66 +528,6 @@ FINAL;
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Torreón</a></td>
             <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Gómez Palacio</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en La Laguna</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Lerdo</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Matamoros</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Torreón</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-productividad-laboral.html">Productividad Laboral en Gómez Palacio</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-productividad-laboral.html">Productividad Laboral en La Laguna</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-productividad-laboral.html">Productividad Laboral en Lerdo</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-productividad-laboral.html">Productividad Laboral en Matamoros</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-productividad-laboral.html">Productividad Laboral en Torreón</a></td>
-            <td>PIB sin petróleo / PEA.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>

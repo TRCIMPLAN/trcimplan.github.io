@@ -40,9 +40,7 @@ class SociedadAerolineas extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Precursores"
-Qué mide: El número de aerolíneas que operan en el aeropuerto de la ciudad.
-Fuente: IMCO con información de la Secretaría de Comunicaciones y Transportes (SCT), 2013.';
+        $this->descripcion       = 'Incluido en el subíndice "Precursores". Qué mide: El número de aerolíneas que operan en el aeropuerto de la ciudad.';
         $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana';
         $this->categorias        = array('Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -79,9 +77,7 @@ Fuente: IMCO con información de la Secretaría de Comunicaciones y Transportes 
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores"
-Qué mide: El número de aerolíneas que operan en el aeropuerto de la ciudad.
-Fuente: IMCO con información de la Secretaría de Comunicaciones y Transportes (SCT), 2013.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de aerolíneas que operan en el aeropuerto de la ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -127,6 +123,9 @@ Fuente: IMCO con información de la Secretaría de Comunicaciones y Transportes 
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: IMCO con información de la Secretaría de Comunicaciones y Transportes (SCT), 2013.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Aerolíneas en Lerdo</h3>
@@ -761,9 +760,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores"
-Qué mide: El número de aerolíneas que operan en el aeropuerto de la ciudad.
-Fuente: IMCO con información de la Secretaría de Comunicaciones y Transportes (SCT), 2013.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de aerolíneas que operan en el aeropuerto de la ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -809,6 +806,9 @@ Fuente: IMCO con información de la Secretaría de Comunicaciones y Transportes 
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: IMCO con información de la Secretaría de Comunicaciones y Transportes (SCT), 2013.</p>
+
 FINAL;
     } // constructor
 

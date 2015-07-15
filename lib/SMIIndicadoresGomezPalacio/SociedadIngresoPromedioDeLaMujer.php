@@ -40,11 +40,7 @@ class SociedadIngresoPromedioDeLaMujer extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana".
-Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de
-los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.
-Unidades: 1 es la igualdad entre salario de hombre y mujer.
-Fuente: INEGI (ENOE).';
+        $this->descripcion       = 'Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.';
         $this->claves            = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Género, Empleo';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Género', 'Empleo');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -81,11 +77,7 @@ Fuente: INEGI (ENOE).';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana".
-Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de
-los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.
-Unidades: 1 es la igualdad entre salario de hombre y mujer.
-Fuente: INEGI (ENOE).</p>
+<p>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -131,6 +123,9 @@ Fuente: INEGI (ENOE).</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> De 0 a 1.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: 1 es la igualdad entre salario de hombre y mujer. Fuente: INEGI (ENOE).</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Ingreso Promedio de la Mujer en Gómez Palacio</h3>
@@ -1341,11 +1336,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana".
-Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de
-los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.
-Unidades: 1 es la igualdad entre salario de hombre y mujer.
-Fuente: INEGI (ENOE).</p>
+<p>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1391,6 +1382,9 @@ Fuente: INEGI (ENOE).</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> De 0 a 1.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: 1 es la igualdad entre salario de hombre y mujer. Fuente: INEGI (ENOE).</p>
+
 FINAL;
     } // constructor
 

@@ -40,7 +40,7 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Diferencia entre los dos candidatos con más votación entre el total de votos. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la diferencia de votos entre el primero y segundo lugar como proporción del total de votos de las últimas elecciones federales. Este indicador asume que una mayor competencia electoral supone contextos más propicios para una mayor rendición de cuentas. Unidades: Porcentaje de votos totales. Fuente: IFE, 2009 y 2012.';
+        $this->descripcion       = 'Diferencia entre los dos candidatos con más votación entre el total de votos. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la diferencia de votos entre el primero y segundo lugar como proporción del total de votos de las últimas elecciones federales. Este indicador asume que una mayor competencia electoral supone contextos más propicios para una mayor rendición de cuentas.';
         $this->claves            = 'IMPLAN, Gómez Palacio, Participación Ciudadana, Gobierno, Índice de Competitividad Urbana';
         $this->categorias        = array('Participación Ciudadana', 'Gobierno', 'Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -77,7 +77,7 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Diferencia entre los dos candidatos con más votación entre el total de votos. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la diferencia de votos entre el primero y segundo lugar como proporción del total de votos de las últimas elecciones federales. Este indicador asume que una mayor competencia electoral supone contextos más propicios para una mayor rendición de cuentas. Unidades: Porcentaje de votos totales. Fuente: IFE, 2009 y 2012.</p>
+<p>Diferencia entre los dos candidatos con más votación entre el total de votos. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la diferencia de votos entre el primero y segundo lugar como proporción del total de votos de las últimas elecciones federales. Este indicador asume que una mayor competencia electoral supone contextos más propicios para una mayor rendición de cuentas.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -159,6 +159,9 @@ class GobiernoCompetenciaElectoral extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Porcentaje de votos totales. Fuente: IFE, 2009 y 2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica-1">
       <h3>Gráfica de Competencia Electoral en Gómez Palacio con fuente IMCO</h3>
@@ -1093,7 +1096,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Diferencia entre los dos candidatos con más votación entre el total de votos. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la diferencia de votos entre el primero y segundo lugar como proporción del total de votos de las últimas elecciones federales. Este indicador asume que una mayor competencia electoral supone contextos más propicios para una mayor rendición de cuentas. Unidades: Porcentaje de votos totales. Fuente: IFE, 2009 y 2012.</p>
+<p>Diferencia entre los dos candidatos con más votación entre el total de votos. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide la diferencia de votos entre el primero y segundo lugar como proporción del total de votos de las últimas elecciones federales. Este indicador asume que una mayor competencia electoral supone contextos más propicios para una mayor rendición de cuentas.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1175,6 +1178,9 @@ FINAL;
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Porcentaje de votos totales. Fuente: IFE, 2009 y 2012.</p>
+
 FINAL;
     } // constructor
 

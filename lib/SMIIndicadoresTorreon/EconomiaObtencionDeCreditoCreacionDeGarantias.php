@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Economía Obtención de crédito - Creación de garantías (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Economía Obtención de Crédito - Creación de Garantías (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaObtencionDeCreditoCreacionDeGarantias extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Obtención de crédito - Creación de garantías en Torreón';
+        $this->nombre            = 'Obtención de Crédito - Creación de Garantías en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2014-10-21T16:19';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios

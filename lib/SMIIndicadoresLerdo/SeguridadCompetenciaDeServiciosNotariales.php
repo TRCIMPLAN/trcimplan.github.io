@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Lerdo Seguridad Competencia de servicios notariales (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Lerdo Seguridad Competencia de Servicios Notariales (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class SeguridadCompetenciaDeServiciosNotariales extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Competencia de servicios notariales en Lerdo';
+        $this->nombre            = 'Competencia de Servicios Notariales en Lerdo';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T11:22';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -40,7 +40,7 @@ class SeguridadCompetenciaDeServiciosNotariales extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA). Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.';
+        $this->descripcion       = 'Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA).';
         $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Gobierno';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Gobierno');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -77,7 +77,7 @@ class SeguridadCompetenciaDeServiciosNotariales extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA). Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.</p>
+<p>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA).</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -123,15 +123,18 @@ class SeguridadCompetenciaDeServiciosNotariales extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil PEA.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Competencia de servicios notariales en Lerdo</h3>
+      <h3>Gráfica de Competencia de Servicios Notariales en Lerdo</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Competencia de servicios notariales</h3>
+      <h3>Gráfica con los últimos datos de Competencia de Servicios Notariales</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Competencia de servicios notariales</h3>
+      <h3>Últimos datos de Competencia de Servicios Notariales</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -961,7 +964,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA). Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.</p>
+<p>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA).</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1007,6 +1010,9 @@ FINAL;
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil PEA.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.</p>
+
 FINAL;
     } // constructor
 

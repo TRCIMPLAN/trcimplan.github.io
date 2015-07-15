@@ -84,7 +84,7 @@ class Transparencia extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Índice de herramientas electrónicas de gobiernos locales</td>
+    <td class="indicador color2">Índice de Herramientas Electrónicas de Gobiernos Locales</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales.html" data-toggle="tooltip" title="Puntos, 22/01/2015, IMCO">35.8</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

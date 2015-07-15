@@ -40,8 +40,7 @@ class SociedadCrecimientoEnAccesoAServiciosDeSalud extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.
-Fuente: INEGI (ENOE).';
+        $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.';
         $this->claves            = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Salud, Bienestar';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Salud', 'Bienestar');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -78,8 +77,7 @@ Fuente: INEGI (ENOE).';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.
-Fuente: INEGI (ENOE).</p>
+<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -125,6 +123,9 @@ Fuente: INEGI (ENOE).</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: INEGI (ENOE).</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Crecimiento en Acceso a Servicios de Salud en Gómez Palacio</h3>
@@ -1305,8 +1306,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.
-Fuente: INEGI (ENOE).</p>
+<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1352,6 +1352,9 @@ Fuente: INEGI (ENOE).</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: INEGI (ENOE).</p>
+
 FINAL;
     } // constructor
 

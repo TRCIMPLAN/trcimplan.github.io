@@ -40,11 +40,7 @@ class SociedadUsoDeServiciosFinancieros extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Precursores".
-Qué mide: El número de tarjetas de débito o crédito por adulto como proxy del uso de los
-servicios financieros.
-Unidades: Tarjetas por adulto.
-Fuente: Comisión Nacional Bancaria y de Valores (CNBV), 2010-2012.';
+        $this->descripcion       = 'Incluido en el subíndice "Precursores". Qué mide: El número de tarjetas de débito o crédito por adulto como proxy del uso de los servicios financieros.';
         $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana';
         $this->categorias        = array('Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -81,11 +77,7 @@ Fuente: Comisión Nacional Bancaria y de Valores (CNBV), 2010-2012.';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores".
-Qué mide: El número de tarjetas de débito o crédito por adulto como proxy del uso de los
-servicios financieros.
-Unidades: Tarjetas por adulto.
-Fuente: Comisión Nacional Bancaria y de Valores (CNBV), 2010-2012.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de tarjetas de débito o crédito por adulto como proxy del uso de los servicios financieros.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -131,6 +123,9 @@ Fuente: Comisión Nacional Bancaria y de Valores (CNBV), 2010-2012.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Tarjetas por adulto. Fuente: Comisión Nacional Bancaria y de Valores (CNBV), 2010-2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Uso de Servicios Financieros en Lerdo</h3>
@@ -765,11 +760,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores".
-Qué mide: El número de tarjetas de débito o crédito por adulto como proxy del uso de los
-servicios financieros.
-Unidades: Tarjetas por adulto.
-Fuente: Comisión Nacional Bancaria y de Valores (CNBV), 2010-2012.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de tarjetas de débito o crédito por adulto como proxy del uso de los servicios financieros.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -815,6 +806,9 @@ Fuente: Comisión Nacional Bancaria y de Valores (CNBV), 2010-2012.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Tarjetas por adulto. Fuente: Comisión Nacional Bancaria y de Valores (CNBV), 2010-2012.</p>
+
 FINAL;
     } // constructor
 

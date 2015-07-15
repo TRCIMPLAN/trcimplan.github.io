@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Economía Productividad media laboral (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Economía Productividad Media Laboral (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaProductividadMediaLaboral extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Productividad media laboral en Torreón';
+        $this->nombre            = 'Productividad Media Laboral en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T14:36';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -128,13 +128,13 @@ class EconomiaProductividadMediaLaboral extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Productividad media laboral en Torreón</h3>
+      <h3>Gráfica de Productividad Media Laboral en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Productividad media laboral</h3>
+      <h3>Gráfica con los últimos datos de Productividad Media Laboral</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Productividad media laboral</h3>
+      <h3>Últimos datos de Productividad Media Laboral</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

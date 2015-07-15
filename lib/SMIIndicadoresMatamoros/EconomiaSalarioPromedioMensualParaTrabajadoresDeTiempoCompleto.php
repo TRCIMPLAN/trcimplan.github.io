@@ -130,7 +130,7 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \Ba
       </table>
       <p><b>Unidad:</b> Pesos.</p>
       <h3>Observaciones</h3>
-<p>Pesos de 2012</p>
+<p>Pesos de 2012.</p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica-1">
@@ -1211,7 +1211,7 @@ FINAL;
       </table>
       <p><b>Unidad:</b> Pesos.</p>
       <h3>Observaciones</h3>
-<p>Pesos de 2012</p>
+<p>Pesos de 2012.</p>
 
 FINAL;
     } // constructor

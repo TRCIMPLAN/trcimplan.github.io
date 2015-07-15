@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Gómez Palacio Sociedad Razón Entre Mujeres y Hombres en la Enseñanza Media Superior (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Gómez Palacio Sociedad Razón entre Mujeres y Hombres en la Enseñanza Media Superior (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class SociedadRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperior extends \Base\
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Gómez Palacio';
+        $this->nombre            = 'Razón entre Mujeres y Hombres en la Enseñanza Media Superior en Gómez Palacio';
      // $this->autor             = '';
         $this->fecha             = '2015-01-22T13:57';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -104,9 +104,9 @@ Consulta la <a href="http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5">B
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Razón Entre Mujeres y Hombres en la Enseñanza Media Superior</h3>
+      <h3>Gráfica con los últimos datos de Razón entre Mujeres y Hombres en la Enseñanza Media Superior</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Razón Entre Mujeres y Hombres en la Enseñanza Media Superior</h3>
+      <h3>Últimos datos de Razón entre Mujeres y Hombres en la Enseñanza Media Superior</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

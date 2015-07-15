@@ -40,8 +40,7 @@ class SociedadMujeresEnLaFuerzaLaboral extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.
-Fuente: INEGI (ENOE).';
+        $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.';
         $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Género';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Género');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -78,8 +77,7 @@ Fuente: INEGI (ENOE).';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.
-Fuente: INEGI (ENOE).</p>
+<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -125,6 +123,9 @@ Fuente: INEGI (ENOE).</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Mujeres en la PEA como porcentaje del total de mujeres en edad laboral.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: INEGI (ENOE).</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Mujeres en la Fuerza Laboral en Lerdo</h3>
@@ -963,8 +964,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.
-Fuente: INEGI (ENOE).</p>
+<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1010,6 +1010,9 @@ Fuente: INEGI (ENOE).</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Mujeres en la PEA como porcentaje del total de mujeres en edad laboral.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: INEGI (ENOE).</p>
+
 FINAL;
     } // constructor
 

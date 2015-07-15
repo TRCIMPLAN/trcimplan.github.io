@@ -40,11 +40,7 @@ class SociedadRedCarreteraAvanzada extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Precursores".
-Qué mide: El número de kilómetros de la red carretera troncal federal más la red de
-alimentadoras estatales como porcentaje del kilometraje total de su red carretera.
-Unidades: Porcentaje de la red carretera.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.';
+        $this->descripcion       = 'Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.';
         $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Infraestructura, Movilidad';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Infraestructura', 'Movilidad');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -81,11 +77,7 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores".
-Qué mide: El número de kilómetros de la red carretera troncal federal más la red de
-alimentadoras estatales como porcentaje del kilometraje total de su red carretera.
-Unidades: Porcentaje de la red carretera.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -131,6 +123,9 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Porcentaje de la red carretera. Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Red Carretera Avanzada en Matamoros</h3>
@@ -1371,11 +1366,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores".
-Qué mide: El número de kilómetros de la red carretera troncal federal más la red de
-alimentadoras estatales como porcentaje del kilometraje total de su red carretera.
-Unidades: Porcentaje de la red carretera.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1421,6 +1412,9 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Porcentaje de la red carretera. Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
+
 FINAL;
     } // constructor
 

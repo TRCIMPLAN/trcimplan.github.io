@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Gobierno Empleados municipales (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Gobierno Empleados Municipales (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class GobiernoEmpleadosMunicipales extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Empleados municipales en Torreón';
+        $this->nombre            = 'Empleados Municipales en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-06T15:01';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -109,7 +109,7 @@ class GobiernoEmpleadosMunicipales extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Empleados municipales en Torreón</h3>
+      <h3>Gráfica de Empleados Municipales en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
   </div>

@@ -41,8 +41,8 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion       = 'Robo de vehículos con violencia y sin violencia cometidos en el mes';
-        $this->claves            = 'IMPLAN, Gómez Palacio, Delincuencia, Seguridad';
-        $this->categorias        = array('Delincuencia', 'Seguridad');
+        $this->claves            = 'IMPLAN, Gómez Palacio, Seguridad, Delincuencia';
+        $this->categorias        = array('Seguridad', 'Delincuencia');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-gomez-palacio';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación

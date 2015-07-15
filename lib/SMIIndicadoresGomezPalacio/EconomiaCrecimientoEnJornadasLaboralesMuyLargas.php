@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Gómez Palacio Economía Crecimiento en jornadas laborales muy largas (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Gómez Palacio Economía Crecimiento en Jornadas Laborales Muy Largas (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaCrecimientoEnJornadasLaboralesMuyLargas extends \Base\Publicacion 
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Crecimiento en jornadas laborales muy largas en Gómez Palacio';
+        $this->nombre            = 'Crecimiento en Jornadas Laborales Muy Largas en Gómez Palacio';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T14:35';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -125,13 +125,13 @@ class EconomiaCrecimientoEnJornadasLaboralesMuyLargas extends \Base\Publicacion 
       <p><b>Unidad:</b> Tasa promedio anual.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Crecimiento en jornadas laborales muy largas en Gómez Palacio</h3>
+      <h3>Gráfica de Crecimiento en Jornadas Laborales Muy Largas en Gómez Palacio</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Crecimiento en jornadas laborales muy largas</h3>
+      <h3>Gráfica con los últimos datos de Crecimiento en Jornadas Laborales Muy Largas</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Crecimiento en jornadas laborales muy largas</h3>
+      <h3>Últimos datos de Crecimiento en Jornadas Laborales Muy Largas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

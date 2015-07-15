@@ -41,8 +41,8 @@ class SociedadUsuariosDeInternet extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion       = 'Porcentaje de la población que usa internet.';
-        $this->claves            = 'IMPLAN, Matamoros, Innovación, Competitividad, Población, Objetivos del Milenio';
-        $this->categorias        = array('Innovación', 'Competitividad', 'Población', 'Objetivos del Milenio');
+        $this->claves            = 'IMPLAN, Matamoros, Innovación, Competitividad, Objetivos del Milenio';
+        $this->categorias        = array('Innovación', 'Competitividad', 'Objetivos del Milenio');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -628,36 +628,6 @@ Fuente: CONAGUA, 2008-2009.</td>
             <td>Recopilación de las nuevas técnicas que se deben de usar para la elaboración de sitios web institucionales. Con el objetivo de mejorarlas tanto para los humanos como para los robots (motores de búsqueda).</td>
           </tr>
           <tr>
-            <td>26/03/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-catolica.html">Población Católica en Gómez Palacio</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
-            <td>26/03/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-poblacion-catolica.html">Población Católica en La Laguna</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
-            <td>26/03/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-poblacion-catolica.html">Población Católica en Lerdo</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
-            <td>26/03/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-poblacion-catolica.html">Población Católica en Matamoros</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
-            <td>26/03/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-poblacion-catolica.html">Población Católica en Torreón</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
             <td>22/01/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Gómez Palacio</a></td>
@@ -874,12 +844,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
-            <td>Tasa de fecundidad.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Gómez Palacio</a></td>
             <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
           </tr>
@@ -906,36 +870,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Torreón</a></td>
             <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html">Población Estimada en Gómez Palacio</a></td>
-            <td>Población estimada a mitad de año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-poblacion-estimada.html">Población Estimada en La Laguna</a></td>
-            <td>Población estimada a mitad de año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-poblacion-estimada.html">Población Estimada en Lerdo</a></td>
-            <td>Población estimada a mitad de año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-poblacion-estimada.html">Población Estimada en Matamoros</a></td>
-            <td>Población estimada a mitad de año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-poblacion-estimada.html">Población Estimada en Torreón</a></td>
-            <td>Población estimada a mitad de año.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -978,12 +912,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-posgrados-de-calidad.html">Posgrados de Calidad en Torreón</a></td>
             <td>Programas aceptados por CONACYT como posgrados de calidad</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html">Promedio de Descendencia por Varón en Torreón</a></td>
-            <td>Calcula el promedio estimado de hijos por cada varón.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -1166,12 +1094,6 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td>Análisis de las cuestiones internacionales como la inversión extranjera, el flujo de pasajeros y la ausencia de puertos o frontera con otro país.</td>
           </tr>
           <tr>
-            <td>13/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/torreon-vulnerabilidad-social.html">Torreón y la Vulnerabilidad Social</a></td>
-            <td>Análisis de los indicadores sobre la infancia, alimentación, educación, maternidad adolescente, adultos mayores, vulnerabilidad por la delincuencia y discapacidad.</td>
-          </tr>
-          <tr>
             <td>12/06/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/gobiernos-eficaces-eficientes.html">Gobiernos eficaces y eficientes</a></td>
@@ -1206,12 +1128,6 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td>Análisis</td>
             <td><a href="../blog/la-laguna-metropoli-del-conocimiento.html">La Laguna: Metrópoli del Conocimiento</a></td>
             <td>Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.</td>
-          </tr>
-          <tr>
-            <td>03/04/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
-            <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
           </tr>
           <tr>
             <td>25/02/2014</td>

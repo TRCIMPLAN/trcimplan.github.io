@@ -102,6 +102,15 @@ class Salud extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Camas de Hospital</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-camas-de-hospital.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, IMCO">0.7655</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-camas-de-hospital.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, IMCO">2.0983</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-camas-de-hospital.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, IMCO">2.5678</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-camas-de-hospital.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, IMCO">0.9071</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-camas-de-hospital.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, IMCO">1.3490</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Crecimiento en Acceso a Servicios de Salud</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-2.12 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">-4.55 %</a></td>

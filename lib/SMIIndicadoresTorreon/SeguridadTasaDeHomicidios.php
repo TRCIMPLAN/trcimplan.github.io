@@ -40,10 +40,9 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Número de homicidios por cada 100 mil habitantes. 
-Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes. Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.';
-        $this->claves            = 'IMPLAN, Torreón, Delincuencia, Seguridad, Índice de Competitividad Urbana';
-        $this->categorias        = array('Delincuencia', 'Seguridad', 'Índice de Competitividad Urbana');
+        $this->descripcion       = 'Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes.';
+        $this->claves            = 'IMPLAN, Torreón, Seguridad, Delincuencia, Índice de Competitividad Urbana';
+        $this->categorias        = array('Seguridad', 'Delincuencia', 'Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -78,8 +77,7 @@ Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el 
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Número de homicidios por cada 100 mil habitantes. 
-Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes. Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
+<p>Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -125,6 +123,9 @@ Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el 
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Tasa de Homicidios en Torreón</h3>
@@ -1335,8 +1336,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Número de homicidios por cada 100 mil habitantes. 
-Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes. Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
+<p>Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1382,6 +1382,9 @@ Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el 
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
+
 FINAL;
     } // constructor
 

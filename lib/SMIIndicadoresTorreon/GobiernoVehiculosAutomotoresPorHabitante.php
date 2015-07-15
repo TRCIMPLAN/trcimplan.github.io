@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Gobierno Vehículos automotores por habitante (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Gobierno Vehículos Automotores por Habitante (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class GobiernoVehiculosAutomotoresPorHabitante extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Vehículos automotores por habitante en Torreón';
+        $this->nombre            = 'Vehículos Automotores por Habitante en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-06T15:19';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -109,7 +109,7 @@ class GobiernoVehiculosAutomotoresPorHabitante extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Vehículos automotores por habitante en Torreón</h3>
+      <h3>Gráfica de Vehículos Automotores por Habitante en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
   </div>

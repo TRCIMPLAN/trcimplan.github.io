@@ -41,8 +41,8 @@ class SociedadUsuariosDeInternet extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion       = 'Porcentaje de la población que usa internet.';
-        $this->claves            = 'IMPLAN, Gómez Palacio, Innovación, Competitividad, Población, Objetivos del Milenio';
-        $this->categorias        = array('Innovación', 'Competitividad', 'Población', 'Objetivos del Milenio');
+        $this->claves            = 'IMPLAN, Gómez Palacio, Innovación, Competitividad, Objetivos del Milenio';
+        $this->categorias        = array('Innovación', 'Competitividad', 'Objetivos del Milenio');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-gomez-palacio';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -628,36 +628,6 @@ Fuente: CONAGUA, 2008-2009.</td>
             <td>Recopilación de las nuevas técnicas que se deben de usar para la elaboración de sitios web institucionales. Con el objetivo de mejorarlas tanto para los humanos como para los robots (motores de búsqueda).</td>
           </tr>
           <tr>
-            <td>26/03/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-catolica.html">Población Católica en Gómez Palacio</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
-            <td>26/03/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-poblacion-catolica.html">Población Católica en La Laguna</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
-            <td>26/03/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-poblacion-catolica.html">Población Católica en Lerdo</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
-            <td>26/03/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-poblacion-catolica.html">Población Católica en Matamoros</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
-            <td>26/03/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-poblacion-catolica.html">Población Católica en Torreón</a></td>
-            <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
             <td>22/01/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Gómez Palacio</a></td>
@@ -814,36 +784,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html">Consumo de Agua Facturado en Torreón</a></td>
-            <td>Consumo anual de agua por persona expresado en metros cúbicos.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Gómez Palacio</a></td>
-            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Lerdo</a></td>
-            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Matamoros</a></td>
-            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></td>
-            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Gómez Palacio</a></td>
             <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
           </tr>
@@ -874,8 +814,74 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
-            <td>Tasa de fecundidad.</td>
+            <td><a href="../indicadores-matamoros/economia-posgrados-de-calidad.html">Posgrados de Calidad en Matamoros</a></td>
+            <td>Programas aceptados por CONACYT como posgrados de calidad</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-posgrados-de-calidad.html">Posgrados de Calidad en Torreón</a></td>
+            <td>Programas aceptados por CONACYT como posgrados de calidad</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en Gómez Palacio</a></td>
+            <td>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en La Laguna</a></td>
+            <td>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en Lerdo</a></td>
+            <td>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en Matamoros</a></td>
+            <td>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en Torreón</a></td>
+            <td>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html">Consumo de Agua Facturado en Torreón</a></td>
+            <td>Consumo anual de agua por persona expresado en metros cúbicos.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Gómez Palacio</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Lerdo</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Matamoros</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></td>
+            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -910,36 +916,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html">Población Estimada en Gómez Palacio</a></td>
-            <td>Población estimada a mitad de año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-poblacion-estimada.html">Población Estimada en La Laguna</a></td>
-            <td>Población estimada a mitad de año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-poblacion-estimada.html">Población Estimada en Lerdo</a></td>
-            <td>Población estimada a mitad de año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-poblacion-estimada.html">Población Estimada en Matamoros</a></td>
-            <td>Población estimada a mitad de año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-poblacion-estimada.html">Población Estimada en Torreón</a></td>
-            <td>Población estimada a mitad de año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html">Pobreza Extrema en Gómez Palacio</a></td>
             <td>Porcentaje de la población en situación de pobreza extrema.</td>
           </tr>
@@ -966,24 +942,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-pobreza-extrema.html">Pobreza Extrema en Torreón</a></td>
             <td>Porcentaje de la población en situación de pobreza extrema.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-posgrados-de-calidad.html">Posgrados de Calidad en Matamoros</a></td>
-            <td>Programas aceptados por CONACYT como posgrados de calidad</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-posgrados-de-calidad.html">Posgrados de Calidad en Torreón</a></td>
-            <td>Programas aceptados por CONACYT como posgrados de calidad</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html">Promedio de Descendencia por Varón en Torreón</a></td>
-            <td>Calcula el promedio estimado de hijos por cada varón.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -1089,36 +1047,6 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
           </tr>
           <tr>
             <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en Gómez Palacio</a></td>
-            <td>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en La Laguna</a></td>
-            <td>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en Lerdo</a></td>
-            <td>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en Matamoros</a></td>
-            <td>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-indice-de-competitividad-urbana.html">Índice de Competitividad Urbana en Torreón</a></td>
-            <td>El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Instituto Mexicano para la Competitividad (IMCO)en 2007, 2010 y 2012, con información proveniente de fuentes diversas verificables de años anteriores a su publicación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/vision-vencedores.html">La visión de los vencedores</a></td>
             <td>El regreso de La Laguna a los primeros lugares en el ranking de competitividad nacional demanda de una comunidad que retome los valores y el empuje de “Los Fundadores”, de los hombres y mujeres que lejos de considerarse victimas de las adversidades, de su entorno natural y político, construyeron una de las regiones más prósperas de México.</td>
@@ -1166,12 +1094,6 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td>Análisis de las cuestiones internacionales como la inversión extranjera, el flujo de pasajeros y la ausencia de puertos o frontera con otro país.</td>
           </tr>
           <tr>
-            <td>13/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/torreon-vulnerabilidad-social.html">Torreón y la Vulnerabilidad Social</a></td>
-            <td>Análisis de los indicadores sobre la infancia, alimentación, educación, maternidad adolescente, adultos mayores, vulnerabilidad por la delincuencia y discapacidad.</td>
-          </tr>
-          <tr>
             <td>12/06/2014</td>
             <td>Análisis</td>
             <td><a href="../blog/gobiernos-eficaces-eficientes.html">Gobiernos eficaces y eficientes</a></td>
@@ -1206,12 +1128,6 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td>Análisis</td>
             <td><a href="../blog/la-laguna-metropoli-del-conocimiento.html">La Laguna: Metrópoli del Conocimiento</a></td>
             <td>Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.</td>
-          </tr>
-          <tr>
-            <td>03/04/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/equidad-economica-torreon.html">Equidad Económica en Torreón</a></td>
-            <td>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.</td>
           </tr>
           <tr>
             <td>25/02/2014</td>

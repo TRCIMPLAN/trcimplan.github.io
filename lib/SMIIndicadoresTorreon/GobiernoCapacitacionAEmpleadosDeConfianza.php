@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Gobierno Capacitación a empleados de confianza (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Gobierno Capacitación a Empleados de Confianza (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class GobiernoCapacitacionAEmpleadosDeConfianza extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Capacitación a empleados de confianza en Torreón';
+        $this->nombre            = 'Capacitación a Empleados de Confianza en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T17:48';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -109,7 +109,7 @@ class GobiernoCapacitacionAEmpleadosDeConfianza extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Capacitación a empleados de confianza en Torreón</h3>
+      <h3>Gráfica de Capacitación a Empleados de Confianza en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
   </div>

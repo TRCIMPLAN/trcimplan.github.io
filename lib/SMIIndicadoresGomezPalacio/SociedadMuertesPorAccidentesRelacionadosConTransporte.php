@@ -40,10 +40,7 @@ class SociedadMuertesPorAccidentesRelacionadosConTransporte extends \Base\Public
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Precursores"
-Qué mide: El número de muertes ocasionadas por accidentes relacionados con el transporte por cada 100 mil habitantes.
-Unidades: Muertes por cada 100 mil habitantes.
-Fuente: Sistema Nacional de Información en Salud (SINAIS), 2008-2012.';
+        $this->descripcion       = 'Incluido en el subíndice "Precursores". Qué mide: El número de muertes ocasionadas por accidentes relacionados con el transporte por cada 100 mil habitantes.';
         $this->claves            = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Movilidad';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Movilidad');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -80,10 +77,7 @@ Fuente: Sistema Nacional de Información en Salud (SINAIS), 2008-2012.';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores"
-Qué mide: El número de muertes ocasionadas por accidentes relacionados con el transporte por cada 100 mil habitantes.
-Unidades: Muertes por cada 100 mil habitantes.
-Fuente: Sistema Nacional de Información en Salud (SINAIS), 2008-2012.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de muertes ocasionadas por accidentes relacionados con el transporte por cada 100 mil habitantes.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -129,6 +123,9 @@ Fuente: Sistema Nacional de Información en Salud (SINAIS), 2008-2012.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Muertes por cada 100 mil habitantes. Fuente: Sistema Nacional de Información en Salud (SINAIS), 2008-2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Muertes por Accidentes Relacionados con Transporte en Gómez Palacio</h3>
@@ -1171,10 +1168,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores"
-Qué mide: El número de muertes ocasionadas por accidentes relacionados con el transporte por cada 100 mil habitantes.
-Unidades: Muertes por cada 100 mil habitantes.
-Fuente: Sistema Nacional de Información en Salud (SINAIS), 2008-2012.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de muertes ocasionadas por accidentes relacionados con el transporte por cada 100 mil habitantes.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1220,6 +1214,9 @@ Fuente: Sistema Nacional de Información en Salud (SINAIS), 2008-2012.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Muertes por cada 100 mil habitantes. Fuente: Sistema Nacional de Información en Salud (SINAIS), 2008-2012.</p>
+
 FINAL;
     } // constructor
 

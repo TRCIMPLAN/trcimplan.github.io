@@ -75,7 +75,7 @@ class Gobierno extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Promedio de horas para la realización del trámite de licencia para negocio</td>
+    <td class="indicador color1">Promedio de Horas para la Realización del Trámite de Licencia para Negocio</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-licencia-para-negocio.html" data-toggle="tooltip" title="Horas, 31/12/2014, Ayuntamiento de Torreón">30</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -84,7 +84,7 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Promedio de horas para la realizacion del tramite de permiso de construcción de una adición (residencial o comercial)</td>
+    <td class="indicador color1">Promedio de Horas para la Realizacion del Trámite de Permiso de Construcción de una Adición Residencial o Comercial</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-permiso-de-construccion-de-una-adicion-residencial-o-comercial.html" data-toggle="tooltip" title="Horas, 30/06/2014, Ayuntamiento de Torreón">38</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -92,8 +92,26 @@ class Gobierno extends \Base\Publicacion {
     <td class="nd">ND</td>
   </tr>
   <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Registro de una Propiedad</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-registro-de-una-propiedad.html" data-toggle="tooltip" title="Días, 31/10/2013, Doing Business">28</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Registro de una Propiedad (percentil promedio)</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-registro-de-una-propiedad-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.5800</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-registro-de-una-propiedad-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.7953</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-registro-de-una-propiedad-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.7953</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-registro-de-una-propiedad-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.5800</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-registro-de-una-propiedad-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.6877</a></td>
+  </tr>
+  <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Capacitación a empleados de base</td>
+    <td class="indicador color2">Capacitación a Empleados de Base</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-base.html" data-toggle="tooltip" title="Horas, 31/12/2014, Ayuntamiento de Torreón">0.4</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -102,7 +120,7 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Capacitación a empleados de confianza</td>
+    <td class="indicador color2">Capacitación a Empleados de Confianza</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-confianza.html" data-toggle="tooltip" title="Horas, 30/12/2014, Ayuntamiento de Torreón">3.15</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -120,7 +138,16 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Empleados municipales</td>
+    <td class="indicador color2">Duración de Período para Ediles y Delegados</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">4.0</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">3.0</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">3.0</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">4.0</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">3.5</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Empleados Municipales</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-empleados-municipales.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2014, Ayuntamiento de Torreón">6.22</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -138,7 +165,7 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Índice de herramientas electrónicas de gobiernos locales</td>
+    <td class="indicador color2">Índice de Herramientas Electrónicas de Gobiernos Locales</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales.html" data-toggle="tooltip" title="Puntos, 22/01/2015, IMCO">35.8</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -147,7 +174,7 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Litros de combustible gastados por habitante</td>
+    <td class="indicador color2">Litros de Combustible Gastados por Habitante</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-habitante.html" data-toggle="tooltip" title="Litros por Persona, 31/12/2014, Ayuntamiento de Torreón">2.4</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -156,7 +183,7 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Periodistas muertos o desaparecidos</td>
+    <td class="indicador color2">Periodistas Muertos o Desaparecidos</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">5</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">1</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
@@ -165,8 +192,8 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Policías operativos de seguridad pública por cada mil habitantes.</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-policias-operativos-de-seguridad-publica-por-cada-mil-habitantes.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2014, Ayuntamiento de Torreón">0.97</a></td>
+    <td class="indicador color2">Policías Operativos de Seguridad Pública</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-policias-operativos-de-seguridad-publica.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2014, Ayuntamiento de Torreón">0.97</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -174,8 +201,8 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Promedio de horas para la realización de trámite de carta de no adeudo predial</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-promedio-de-horas-para-la-realizacion-de-tramite-de-carta-de-no-adeudo-predial.html" data-toggle="tooltip" title="Horas, 30/06/2014, Ayuntamiento de Torreón">0.11</a></td>
+    <td class="indicador color2">Promedio de Horas para la Realización del Trámite de Carta de No Adeudo Predial</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-promedio-de-horas-para-la-realizacion-del-tramite-de-carta-de-no-adeudo-predial.html" data-toggle="tooltip" title="Horas, 30/06/2014, Ayuntamiento de Torreón">0.11</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -183,7 +210,7 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Vehículos automotores por habitante</td>
+    <td class="indicador color2">Vehículos Automotores por Habitante</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-vehiculos-automotores-por-habitante.html" data-toggle="tooltip" title="Por habitante, 31/12/2014, Ayuntamiento de Torreón">0.19</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -192,7 +219,7 @@ class Gobierno extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Competencia de servicios notariales</td>
+    <td class="indicador color3">Competencia de Servicios Notariales</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-competencia-de-servicios-notariales.html" data-toggle="tooltip" title="Por cada 100 mil PEA, 31/12/2012, IMCO">19.9267</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-competencia-de-servicios-notariales.html" data-toggle="tooltip" title="Por cada 100 mil PEA, 31/12/2012, IMCO">8.8655</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-competencia-de-servicios-notariales.html" data-toggle="tooltip" title="Por cada 100 mil PEA, 31/12/2012, IMCO">3.7265</a></td>

@@ -124,7 +124,7 @@ class EconomiaCarteraHipotecariaVencida extends \Base\Publicacion {
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Porcentaje de la cartera hipotecaria total</p>
+<p>Porcentaje de la cartera hipotecaria total.</p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
@@ -1293,7 +1293,7 @@ FINAL;
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Porcentaje de la cartera hipotecaria total</p>
+<p>Porcentaje de la cartera hipotecaria total.</p>
 
 FINAL;
     } // constructor

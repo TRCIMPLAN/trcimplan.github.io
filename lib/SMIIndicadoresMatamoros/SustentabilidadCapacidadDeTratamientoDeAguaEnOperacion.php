@@ -40,9 +40,7 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \Base\Publi
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.';
+        $this->descripcion       = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad, ajustada por el tamaño de su población.';
         $this->claves            = 'IMPLAN, Matamoros, Recursos Naturales, Índice de Competitividad Urbana';
         $this->categorias        = array('Recursos Naturales', 'Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -79,9 +77,7 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad, ajustada por el tamaño de su población.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -127,6 +123,9 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Litros por segundo por cada mil habitantes.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Capacidad de Tratamiento de Agua en Operación en Matamoros</h3>
@@ -687,36 +686,6 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Gómez Palacio</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-ejecucion-de-contratos.html">Ejecución de Contratos en La Laguna</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Lerdo</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Matamoros</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Torreón</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html">Generación de Basura en Gómez Palacio</a></td>
             <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
           </tr>
@@ -812,6 +781,66 @@ Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Gómez Palacio</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en La Laguna</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Lerdo</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Matamoros</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Torreón</a></td>
+            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Gómez Palacio</a></td>
+            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-ejecucion-de-contratos.html">Ejecución de Contratos en La Laguna</a></td>
+            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Lerdo</a></td>
+            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Matamoros</a></td>
+            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Torreón</a></td>
+            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Gómez Palacio</a></td>
             <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
 En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
@@ -843,36 +872,6 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Torreón</a></td>
             <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
 En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Gómez Palacio</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en La Laguna</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Lerdo</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Matamoros</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Torreón</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
           </tr>
           <tr>
             <td>15/10/2014</td>
@@ -949,9 +948,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad, ajustada por el tamaño de su población.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -997,6 +994,9 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Litros por segundo por cada mil habitantes.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
+
 FINAL;
     } // constructor
 

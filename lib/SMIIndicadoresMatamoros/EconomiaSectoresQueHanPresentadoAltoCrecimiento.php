@@ -40,7 +40,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \Base\Publicacion 
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice de "Economía Estable". Mide el PIB generado por los sectores que han tenido un crecimiento superior al promedio del crecimiento de todos los sectores a nivel nacional. Para 2012 estos sectores son: generación, transmisión y distribución de energía eléctrica; suministro de agua y de gas por ductos al consumidor final; comercio al por mayor; transportes, correos y almacenamiento; información en medios masivos y servicios financieros y de seguros';
+        $this->descripcion       = 'Incluido en el subíndice de "Economía Estable". Mide el PIB generado por los sectores que han tenido un crecimiento superior al promedio del crecimiento de todos los sectores a nivel nacional. Para 2012 estos sectores son: generación, transmisión y distribución de energía eléctrica; suministro de agua y de gas por ductos al consumidor final; comercio al por mayor; transportes, correos y almacenamiento; información en medios masivos y servicios financieros y de seguros.';
         $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Mercados';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Mercados');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -77,7 +77,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \Base\Publicacion 
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Economía Estable". Mide el PIB generado por los sectores que han tenido un crecimiento superior al promedio del crecimiento de todos los sectores a nivel nacional. Para 2012 estos sectores son: generación, transmisión y distribución de energía eléctrica; suministro de agua y de gas por ductos al consumidor final; comercio al por mayor; transportes, correos y almacenamiento; información en medios masivos y servicios financieros y de seguros</p>
+<p>Incluido en el subíndice de "Economía Estable". Mide el PIB generado por los sectores que han tenido un crecimiento superior al promedio del crecimiento de todos los sectores a nivel nacional. Para 2012 estos sectores son: generación, transmisión y distribución de energía eléctrica; suministro de agua y de gas por ductos al consumidor final; comercio al por mayor; transportes, correos y almacenamiento; información en medios masivos y servicios financieros y de seguros.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -130,7 +130,7 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \Base\Publicacion 
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Porcentaje del PIB de la ciudad</p>
+<p>Porcentaje del PIB de la ciudad.</p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica-1">
@@ -1259,7 +1259,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Economía Estable". Mide el PIB generado por los sectores que han tenido un crecimiento superior al promedio del crecimiento de todos los sectores a nivel nacional. Para 2012 estos sectores son: generación, transmisión y distribución de energía eléctrica; suministro de agua y de gas por ductos al consumidor final; comercio al por mayor; transportes, correos y almacenamiento; información en medios masivos y servicios financieros y de seguros</p>
+<p>Incluido en el subíndice de "Economía Estable". Mide el PIB generado por los sectores que han tenido un crecimiento superior al promedio del crecimiento de todos los sectores a nivel nacional. Para 2012 estos sectores son: generación, transmisión y distribución de energía eléctrica; suministro de agua y de gas por ductos al consumidor final; comercio al por mayor; transportes, correos y almacenamiento; información en medios masivos y servicios financieros y de seguros.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1312,7 +1312,7 @@ FINAL;
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Porcentaje del PIB de la ciudad</p>
+<p>Porcentaje del PIB de la ciudad.</p>
 
 FINAL;
     } // constructor

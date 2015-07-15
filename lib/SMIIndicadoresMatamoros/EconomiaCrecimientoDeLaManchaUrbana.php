@@ -41,8 +41,8 @@ class EconomiaCrecimientoDeLaManchaUrbana extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion       = 'Mide la razón de crecimiento de la mancha urbana entre 2005 y 2010 respecto del crecimiento de la población de la ciudad correspondiente durante el mismo periodo.';
-        $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana';
-        $this->categorias        = array('Índice de Competitividad Urbana');
+        $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Infraestructura';
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Infraestructura');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -603,6 +603,126 @@ Fuente: CONAGUA, 2008-2009.</td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
           </tr>
           <tr>
+            <td>07/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/hacia-ciudades-que-construyen-humanos-en-convivencia.html">Hacia Ciudades que Construyen Humanos en Convivencia</a></td>
+            <td>El espacio público es donde se tejen las relaciones sociales, por lo tanto su conformación debe contribuir a desarrollar las capacidades humanas.</td>
+          </tr>
+          <tr>
+            <td>01/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/la-ciudad-compacta-vive-mejor.html">La Ciudad Compacta (como la familia pequeña) Vive Mejor</a></td>
+            <td>La política pública a adoptar como estrategia debe ser la de crecimiento interno: densificar la ciudad implotando su crecimiento hacia adentro y hacia arriba.</td>
+          </tr>
+          <tr>
+            <td>27/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/reflexion-crecimiento-urbano-torreon.html">Reflexión del Crecimiento Urbano en Torreón</a></td>
+            <td>La ciudad de Torreón nace a partir de la visión de Sr. Andrés Guillermo Eppen con trazos ordenados, calles anchas, manzanas cuadradas y alineadas con la vía de ferrocarril.</td>
+          </tr>
+          <tr>
+            <td>28/04/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/movilidad-urbana-competitividad.html">Movilidad Urbana y Competitividad</a></td>
+            <td>La movilidad es eje fundamental del desarrollo; al no considerar el transporte como parte de la planeación urbana, se generan graves deficiencias, como dispersión, distanciamiento y desconexión urbana.</td>
+          </tr>
+          <tr>
+            <td>15/04/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ciudadano-agente-cambio.html">Ciudadano como agente de cambio</a></td>
+            <td>La participación de la sociedad en proyectos urbanos crea una cultura de co-creación. Destaca Medellín, Colombia donde se aplica en la coordinación, participación y construcción de obra pública.</td>
+          </tr>
+          <tr>
+            <td>20/03/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/espacio-publico-urbano.html">Espacio Público Urbano</a></td>
+            <td>Las calles son la forma más importante de espacio público. Requieren algunos cambios urbanos para que sean más seguras y amistosas para los niños y niñas; que lleguen a ser de alta calidad.</td>
+          </tr>
+          <tr>
+            <td>03/03/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/reciclaje-urbano.html">Reciclaje Urbano</a></td>
+            <td>Con en el reciclaje urbano, se han logrado grandes resultados al convertir zonas degradadas en nuevos barrios con gran potencial y desarrollo que se resulta un nuevo punto de interés para los habitantes y visitantes de la ciudad.</td>
+          </tr>
+          <tr>
+            <td>24/02/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ciudad-abierta-ciudad-fraccionada.html">Ciudad abierta y ciudad fraccionada</a></td>
+            <td>La fragmentación social y urbana provocada por desarrollos habitacionales “seguros” tiene efectos que agravan la percepción de la inseguridad en la ciudad.</td>
+          </tr>
+          <tr>
+            <td>11/02/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/direccionando-hacia-innovacion-urbana.html">Direccionando hacia la innovación urbana</a></td>
+            <td>Actualmente el concepto de ciudad inteligente o digital se maneja a nivel global. Muchas ciudades de este tipo se están desarrollando en diferentes lugares del mundo, cada una con su propio sistema, diseño, estructura y organización.</td>
+          </tr>
+          <tr>
+            <td>10/02/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/nueva-infraestructura-base-tecnologia-led-torreon.html">Nueva infraestructura a base de tecnología LED en Torreón</a></td>
+            <td>La luz blanca de calidad puede transformar el paisaje nocturno, realzando la arquitectura urbana y creando ambientes acogedores que inviten a las personas a pasar más tiempo en ellos.</td>
+          </tr>
+          <tr>
+            <td>28/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/prevencion-delito-espacio-publico.html">Prevención del delito mediante la construcción del espacio público</a></td>
+            <td>Ante el miedo y el temor, el lagunero ha tomado medidas en lo individual y lo colectivo en un intento por evitar ser víctimas de algún delito, se ha encerrado en lo privado despreciando el espacio público como si fuera ajeno.</td>
+          </tr>
+          <tr>
+            <td>13/01/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ciudad-espacio-publico.html">Ciudad y Espacio Público</a></td>
+            <td>Actualmente las teorías urbanas afirman que el buen diseño de calles puede promover calidad de vida para todos.</td>
+          </tr>
+          <tr>
+            <td>16/12/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/urbanismo-participativo.html">Urbanismo Participativo</a></td>
+            <td>Es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.</td>
+          </tr>
+          <tr>
+            <td>03/12/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/calle-completa-espacio-vital-todos.html">La Calle Completa: espacio vial para todos</a></td>
+            <td>Con la inclusión del automóvil en el espacio urbano se causó problemas como alta incidencia de accidentes, inaccesibilidad, contaminación, y el deterioro del espacio público más importante: la calle.</td>
+          </tr>
+          <tr>
+            <td>02/12/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ciudades-mas-humanas.html">Ciudades más Humanas</a></td>
+            <td>La calidad de vida en las ciudades es la posibilidad que tiene una persona, una familia o una comunidad, de alcanzar el bienestar y la satisfacción de todas sus necesidades.</td>
+          </tr>
+          <tr>
+            <td>25/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/movilidad-nuestra-ciudad.html">Movilidad y nuestra ciudad</a></td>
+            <td>De 1970 a la fecha la expansión de la mancha urbana en la ciudad de Torreón ha crecido siete veces mientras que la población únicamente tres.</td>
+          </tr>
+          <tr>
+            <td>19/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/bicimetro-innovacion-transporte-urbano.html">Bicimetro: La innovación del Transporte Urbano</a></td>
+            <td>Cada vez son más los ciudadanos que optan por dejar sus carros y se animan a desempolvar las bicicletas guardadas en los garajes y utilizarlas como medio de transporte ya sea habitual o por recreación.</td>
+          </tr>
+          <tr>
+            <td>05/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/dot-desarrollo-orientado-transporte.html">DOT: Desarrollo Orientado al Transporte</a></td>
+            <td>En las últimas décadas, han surgido nuevos modelos urbanos que retoman el componente humano como eje principal de la planeación, buscando el equilibrio entre una ciudad altamente competitiva pero con servicios e infraestructura orientada al confort y las necesidades del ser humano.</td>
+          </tr>
+          <tr>
+            <td>28/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/ciudades-reto-transformacion.html">Las ciudades y el reto de su transformación</a></td>
+            <td>El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana.</td>
+          </tr>
+          <tr>
+            <td>23/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/torreon-camino-redensificacion-2.html">Torreón, camino a la redensificación II</a></td>
+            <td>Continuación del tema de la redensificación de ciudades. Las cifras nos indican como el territorio ocupado en Torreón es siete veces contra tres del crecimiento poblacional de la década de 1970 a la fecha.</td>
+          </tr>
+          <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Gómez Palacio</a></td>
@@ -675,6 +795,78 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-total.html">Red Carretera Total en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-red-carretera-total.html">Red Carretera Total en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-red-carretera-total.html">Red Carretera Total en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-red-carretera-total.html">Red Carretera Total en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Gómez Palacio</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Lerdo</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Matamoros</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Torreón</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Gómez Palacio</a></td>
+            <td>Red carretera de alimentadoras estatales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Lerdo</a></td>
+            <td>Red carretera de alimentadoras estatales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Matamoros</a></td>
+            <td>Red carretera de alimentadoras estatales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Torreón</a></td>
+            <td>Red carretera de alimentadoras estatales.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
 Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
@@ -741,6 +933,42 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Torreón</a></td>
             <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
 En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
+          </tr>
+          <tr>
+            <td>15/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/importancia-suelo-ciudades.html">La importancia del suelo en las ciudades</a></td>
+            <td>En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.</td>
+          </tr>
+          <tr>
+            <td>14/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/poligonos-actuacion-desarrollo-urbano-integral.html">Polígonos de Actuación para un Desarrollo Urbano Integral</a></td>
+            <td>El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.</td>
+          </tr>
+          <tr>
+            <td>28/08/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/torreon-camino-redensificacion.html">Torreón, camino a la redensificación</a></td>
+            <td>Torreón no ha aprovechado su territorio e infraestructura contenida, de una manera óptima, debido a su baja densidad de ocupación en su área urbana.</td>
+          </tr>
+          <tr>
+            <td>06/08/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/movilidad-laboral-cotidiana-zml.html">Movilidad laboral cotidiana en la ZML</a></td>
+            <td>Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>26/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/infraestructura.html">Infraestructura (Sectores precursores de clase mundial)</a></td>
+            <td>Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.</td>
+          </tr>
+          <tr>
+            <td>13/05/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/invertir-en-torreon.html">Invertir en Torreón</a></td>
+            <td>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.</td>
           </tr>
         </tbody>
       </table>

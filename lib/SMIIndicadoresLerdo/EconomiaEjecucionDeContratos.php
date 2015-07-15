@@ -40,7 +40,7 @@ class EconomiaEjecucionDeContratos extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.';
+        $this->descripcion       = 'Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal.';
         $this->claves            = 'IMPLAN, Lerdo, Empresas, Doing Business, Índice de Competitividad Urbana';
         $this->categorias        = array('Empresas', 'Doing Business', 'Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -77,7 +77,7 @@ class EconomiaEjecucionDeContratos extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</p>
+<p>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -123,6 +123,9 @@ class EconomiaEjecucionDeContratos extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Días.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Doing Business en México, 2007, 2009, 2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Ejecución de Contratos en Lerdo</h3>
@@ -1181,7 +1184,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</p>
+<p>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1227,6 +1230,9 @@ FINAL;
         </tbody>
       </table>
       <p><b>Unidad:</b> Días.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Doing Business en México, 2007, 2009, 2012.</p>
+
 FINAL;
     } // constructor
 

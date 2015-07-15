@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Economía Gasto en nómina por empleado (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Economía Gasto en Nómina por Empleado (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaGastoEnNominaPorEmpleado extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Gasto en nómina por empleado en Torreón';
+        $this->nombre            = 'Gasto en Nómina por Empleado en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T18:35';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -109,7 +109,7 @@ class EconomiaGastoEnNominaPorEmpleado extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Gasto en nómina por empleado en Torreón</h3>
+      <h3>Gráfica de Gasto en Nómina por Empleado en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
   </div>

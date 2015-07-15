@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Gobierno Litros de combustible gastados por unidad recolectora de residuos sólidos propiedad del municipio (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Gobierno Litros de Combustible Gastados por Unidad Recolectora de Residuos Sólidos Propiedad del Municipio (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class GobiernoLitrosDeCombustibleGastadosPorUnidadRecolectoraDeResiduosSolidosPr
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Litros de combustible gastados por unidad recolectora de residuos sólidos propiedad del municipio en Torreón';
+        $this->nombre            = 'Litros de Combustible Gastados por Unidad Recolectora de Residuos Sólidos Propiedad del Municipio en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T18:44';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -41,8 +41,8 @@ class GobiernoLitrosDeCombustibleGastadosPorUnidadRecolectoraDeResiduosSolidosPr
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion       = 'Determina la relación de litros de combustible gastados por unidad recolectora de residuos sólidos del municipio.';
-        $this->claves            = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Finanzas Públicas, Recursos Naturales';
-        $this->categorias        = array('Sistema de Indicadores de Desempeño (SINDES)', 'Finanzas Públicas', 'Recursos Naturales');
+        $this->claves            = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Recursos Naturales, Finanzas Públicas';
+        $this->categorias        = array('Sistema de Indicadores de Desempeño (SINDES)', 'Recursos Naturales', 'Finanzas Públicas');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación

@@ -40,12 +40,9 @@ class SociedadLineasDeAutobus extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Precursores".
-Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.
-Unidades: Líneas de autobús.
-Fuente: IMCO con información de la SCT y centrales camioneras, 2013.';
-        $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana';
-        $this->categorias        = array('Índice de Competitividad Urbana');
+        $this->descripcion       = 'Incluido en el subíndice "Precursores". Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.';
+        $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Movilidad';
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Movilidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -80,10 +77,7 @@ Fuente: IMCO con información de la SCT y centrales camioneras, 2013.';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores".
-Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.
-Unidades: Líneas de autobús.
-Fuente: IMCO con información de la SCT y centrales camioneras, 2013.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -129,6 +123,9 @@ Fuente: IMCO con información de la SCT y centrales camioneras, 2013.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Líneas de autobús. Fuente: IMCO con información de la SCT y centrales camioneras, 2013.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Líneas de Autobús en Lerdo</h3>
@@ -579,6 +576,162 @@ Fuente: CONAGUA, 2008-2009.</td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
           </tr>
           <tr>
+            <td>17/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/recomendaciones-pacificacion-transito.html">Recomendaciones para la Pacificación del Tránsito</a></td>
+            <td>Técnicas para bajar la velocidad de los vehículos motorizados, logrando mejorar la seguridad de los peatones, incrementar las ventas y hacer de las calles céntricas espacios sociales y culturales.</td>
+          </tr>
+          <tr>
+            <td>10/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/camina-la-roma-por-buenos-disenos-peatonales.html">#Camina La Roma por buenos diseños peatonales</a></td>
+            <td>Ejercicio realizado por el Instituto de Políticas para el Transporte y el Desarrollo (ITDP por sus siglas en inglés) México para analizar cómo funcionaría una intersección vial si estuviera diseñada para las personas que andan a pie.</td>
+          </tr>
+          <tr>
+            <td>25/05/2015</td>
+            <td>Proyecto</td>
+            <td><a href="../proyectos/calle-completa.html">Programa Calle Completa</a></td>
+            <td>Calle Completa es una calle que incluye al peatón y a todos los medios de transporte (ciclistas, motociclistas, autobuses, automovilistas), de todas las edades y con todo tipo de habilidades motoras.</td>
+          </tr>
+          <tr>
+            <td>20/05/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-mensuales.html">Pasajeros Aéreos Internacionales Mensuales en Torreón</a></td>
+            <td>Flujo de pasajeros que llegan del, o, se dirigen fuera de territorio nacional.</td>
+          </tr>
+          <tr>
+            <td>20/05/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales-mensuales.html">Pasajeros Aéreos Totales Mensuales en Torreón</a></td>
+            <td>Flujo de pasajeros aéreos en el Aeropuerto Internacional Francisco Sarabia.</td>
+          </tr>
+          <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/principios-nuevo-urbanismo.html">Los Principios del Nuevo Urbanismo</a></td>
+            <td>Los principios del nuevo urbanismo: fundamento de una nueva forma de pensar, construir y gestionar ciudades.</td>
+          </tr>
+          <tr>
+            <td>05/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/bicicleta-alternativa-transporte.html">La Bicicleta como alternativa de transporte</a></td>
+            <td>No importa cuánto gastemos en construir vías rápidas, siempre serán insuficientes para alojar la creciente cantidad de vehículos que entran a la ciudad. Todos los ciudadanos debemos hacer conciencia e impulsar y fomentar el uso de la bicicleta.</td>
+          </tr>
+          <tr>
+            <td>21/04/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/francisco-i-madero-ejemplo-rescate-espacio-publico.html">Francisco I. Madero: Ejemplo de un rescate de Espacio Público</a></td>
+            <td>El Corredor Peatonal Madero ha motivado el crecimiento comercial y favorecido la conservación sus edificios históricos, en lo que hoy es una calle sólo para transeúntes.</td>
+          </tr>
+          <tr>
+            <td>03/12/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/calle-completa-espacio-vital-todos.html">La Calle Completa: espacio vial para todos</a></td>
+            <td>Con la inclusión del automóvil en el espacio urbano se causó problemas como alta incidencia de accidentes, inaccesibilidad, contaminación, y el deterioro del espacio público más importante: la calle.</td>
+          </tr>
+          <tr>
+            <td>25/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/movilidad-nuestra-ciudad.html">Movilidad y nuestra ciudad</a></td>
+            <td>De 1970 a la fecha la expansión de la mancha urbana en la ciudad de Torreón ha crecido siete veces mientras que la población únicamente tres.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en Gómez Palacio</a></td>
+            <td>Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en La Laguna</a></td>
+            <td>Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en Lerdo</a></td>
+            <td>Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en Matamoros</a></td>
+            <td>Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.</td>
+          </tr>
+          <tr>
+            <td>24/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en Torreón</a></td>
+            <td>Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.</td>
+          </tr>
+          <tr>
+            <td>19/11/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/bicimetro-innovacion-transporte-urbano.html">Bicimetro: La innovación del Transporte Urbano</a></td>
+            <td>Cada vez son más los ciudadanos que optan por dejar sus carros y se animan a desempolvar las bicicletas guardadas en los garajes y utilizarlas como medio de transporte ya sea habitual o por recreación.</td>
+          </tr>
+          <tr>
+            <td>10/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-traslados-a-pie.html">Traslados a Pie en La Laguna</a></td>
+            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad.</td>
+          </tr>
+          <tr>
+            <td>10/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-uso-de-bicicleta.html">Uso de Bicicleta en La Laguna</a></td>
+            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad.</td>
+          </tr>
+          <tr>
+            <td>10/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-uso-de-transporte-publico.html">Uso de Transporte Público en La Laguna</a></td>
+            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad. No se consideran los viajes en taxi.</td>
+          </tr>
+          <tr>
+            <td>10/11/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html">Uso de Automóvil Particular en La Laguna</a></td>
+            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad.</td>
+          </tr>
+          <tr>
+            <td>22/10/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/cultura-seguridad-vial.html">Cultura y seguridad vial</a></td>
+            <td>La cultura vial se refiere a la construcción de una convivencia armoniosa, responsable y de respeto entre todos los que hacemos uso de las vías de tránsito, sean estas aceras, rutas, caminos, ciclo vías, etc.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Gómez Palacio</a></td>
+            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en La Laguna</a></td>
+            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Lerdo</a></td>
+            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Matamoros</a></td>
+            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Torreón</a></td>
+            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
+          </tr>
+          <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Gómez Palacio</a></td>
@@ -621,6 +774,66 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Gómez Palacio</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en La Laguna</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Lerdo</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Matamoros</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-destinos-via-aerea.html">Destinos Vía Aérea en Torreón</a></td>
+            <td>Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Gómez Palacio</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en La Laguna</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Lerdo</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Matamoros</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-destinos-via-terrestre.html">Destinos Vía Terrestre en Torreón</a></td>
+            <td>Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Gómez Palacio</a></td>
             <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
           </tr>
@@ -647,6 +860,156 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Torreón</a></td>
             <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html">Motorización en Gómez Palacio</a></td>
+            <td>Vehículos automotores registrados en circulación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-motorizacion.html">Motorización en La Laguna</a></td>
+            <td>Vehículos automotores registrados en circulación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-motorizacion.html">Motorización en Lerdo</a></td>
+            <td>Vehículos automotores registrados en circulación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-motorizacion.html">Motorización en Matamoros</a></td>
+            <td>Vehículos automotores registrados en circulación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-motorizacion.html">Motorización en Torreón</a></td>
+            <td>Vehículos automotores registrados en circulación.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-pasajeros-aereos-internacionales-anuales.html">Pasajeros Aéreos Internacionales Anuales en Gómez Palacio</a></td>
+            <td>Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales-anuales.html">Pasajeros Aéreos Internacionales Anuales en La Laguna</a></td>
+            <td>Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-pasajeros-aereos-internacionales-anuales.html">Pasajeros Aéreos Internacionales Anuales en Lerdo</a></td>
+            <td>Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-pasajeros-aereos-internacionales-anuales.html">Pasajeros Aéreos Internacionales Anuales en Matamoros</a></td>
+            <td>Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-anuales.html">Pasajeros Aéreos Internacionales Anuales en Torreón</a></td>
+            <td>Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-pasajeros-aereos-totales-anual.html">Pasajeros Aéreos Totales Anual en Gómez Palacio</a></td>
+            <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales-anual.html">Pasajeros Aéreos Totales Anual en La Laguna</a></td>
+            <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-pasajeros-aereos-totales-anual.html">Pasajeros Aéreos Totales Anual en Lerdo</a></td>
+            <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-pasajeros-aereos-totales-anual.html">Pasajeros Aéreos Totales Anual en Matamoros</a></td>
+            <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales-anual.html">Pasajeros Aéreos Totales Anual en Torreón</a></td>
+            <td>Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en Gómez Palacio</a></td>
+            <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en La Laguna</a></td>
+            <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en Lerdo</a></td>
+            <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en Matamoros</a></td>
+            <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html">Población que Trabaja en OTRO Municipio en Torreón</a></td>
+            <td>Porcentaje de la población que trabaja en un municipio diferente al que reside dentro de la Zona Metropolitana de La Laguna.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html">Población que Trabaja en su PROPIO Municipio en Gómez Palacio</a></td>
+            <td>Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html">Población que Trabaja en su PROPIO Municipio en La Laguna</a></td>
+            <td>Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html">Población que Trabaja en su PROPIO Municipio en Lerdo</a></td>
+            <td>Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html">Población que Trabaja en su PROPIO Municipio en Matamoros</a></td>
+            <td>Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html">Población que Trabaja en su PROPIO Municipio en Torreón</a></td>
+            <td>Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -718,6 +1081,48 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
 En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
           </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Gómez Palacio</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en La Laguna</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Lerdo</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Matamoros</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html">Viviendas Ocupadas Temporalmente en Torreón</a></td>
+            <td>Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.</td>
+          </tr>
+          <tr>
+            <td>06/08/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/movilidad-laboral-cotidiana-zml.html">Movilidad laboral cotidiana en la ZML</a></td>
+            <td>Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>26/06/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/infraestructura.html">Infraestructura (Sectores precursores de clase mundial)</a></td>
+            <td>Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.</td>
+          </tr>
         </tbody>
       </table>
 FINAL;
@@ -763,10 +1168,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores".
-Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.
-Unidades: Líneas de autobús.
-Fuente: IMCO con información de la SCT y centrales camioneras, 2013.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -812,6 +1214,9 @@ Fuente: IMCO con información de la SCT y centrales camioneras, 2013.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Líneas de autobús. Fuente: IMCO con información de la SCT y centrales camioneras, 2013.</p>
+
 FINAL;
     } // constructor
 

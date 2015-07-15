@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Economía Promedio de horas para la realizacion del tramite de permiso de construcción de una adición (residencial o comercial) (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Economía Promedio de Horas para la Realizacion del Trámite de Permiso de Construcción de una Adición Residencial o Comercial (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaPromedioDeHorasParaLaRealizacionDelTramiteDePermisoDeConstruccionD
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Promedio de horas para la realizacion del tramite de permiso de construcción de una adición (residencial o comercial) en Torreón';
+        $this->nombre            = 'Promedio de Horas para la Realizacion del Trámite de Permiso de Construcción de una Adición Residencial o Comercial en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T15:22';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios

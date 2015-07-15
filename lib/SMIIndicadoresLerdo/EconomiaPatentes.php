@@ -40,7 +40,7 @@ class EconomiaPatentes extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal. Unidades: Por cada 100 mil de PEA. Fuente: CONACYT, 2008-2012.';
+        $this->descripcion       = 'Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal.';
         $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Innovación';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Innovación');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -77,7 +77,7 @@ class EconomiaPatentes extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal. Unidades: Por cada 100 mil de PEA. Fuente: CONACYT, 2008-2012.</p>
+<p>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -123,6 +123,9 @@ class EconomiaPatentes extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil de PEA.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Por cada 100 mil de PEA. Fuente: CONACYT, 2008-2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Patentes en Lerdo</h3>
@@ -853,7 +856,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal. Unidades: Por cada 100 mil de PEA. Fuente: CONACYT, 2008-2012.</p>
+<p>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -899,6 +902,9 @@ FINAL;
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil de PEA.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Por cada 100 mil de PEA. Fuente: CONACYT, 2008-2012.</p>
+
 FINAL;
     } // constructor
 

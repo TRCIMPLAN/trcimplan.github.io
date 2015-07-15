@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Lerdo Seguridad Monto reportado en robo de mercancías (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Lerdo Seguridad Monto Reportado en Robo de Mercancías (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class SeguridadMontoReportadoEnRoboDeMercancias extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Monto reportado en robo de mercancías en Lerdo';
+        $this->nombre            = 'Monto Reportado en Robo de Mercancías en Lerdo';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T14:22';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -40,8 +40,7 @@ class SeguridadMontoReportadoEnRoboDeMercancias extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Pesos 2012 por cada millón de pesos de PIB.
-Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el monto reportado en robo de transporte de mercancías. Unidades: Pesos (de 2012) por cada millón de pesos del PIB de la ciudad. Fuente: Asociación Mexicana de Instituciones de Seguros (AMIS), 2008-2012.';
+        $this->descripcion       = 'Pesos 2012 por cada millón de pesos de PIB. Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el monto reportado en robo de transporte de mercancías.';
         $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Seguridad';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Seguridad');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -78,8 +77,7 @@ Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el 
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Pesos 2012 por cada millón de pesos de PIB.
-Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el monto reportado en robo de transporte de mercancías. Unidades: Pesos (de 2012) por cada millón de pesos del PIB de la ciudad. Fuente: Asociación Mexicana de Instituciones de Seguros (AMIS), 2008-2012.</p>
+<p>Pesos 2012 por cada millón de pesos de PIB. Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el monto reportado en robo de transporte de mercancías.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -125,15 +123,18 @@ Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el 
         </tbody>
       </table>
       <p><b>Unidad:</b> Pesos.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Pesos (de 2012) por cada millón de pesos del PIB de la ciudad. Fuente: Asociación Mexicana de Instituciones de Seguros (AMIS), 2008-2012.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Monto reportado en robo de mercancías en Lerdo</h3>
+      <h3>Gráfica de Monto Reportado en Robo de Mercancías en Lerdo</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Monto reportado en robo de mercancías</h3>
+      <h3>Gráfica con los últimos datos de Monto Reportado en Robo de Mercancías</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Monto reportado en robo de mercancías</h3>
+      <h3>Últimos datos de Monto Reportado en Robo de Mercancías</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -1329,8 +1330,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Pesos 2012 por cada millón de pesos de PIB.
-Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el monto reportado en robo de transporte de mercancías. Unidades: Pesos (de 2012) por cada millón de pesos del PIB de la ciudad. Fuente: Asociación Mexicana de Instituciones de Seguros (AMIS), 2008-2012.</p>
+<p>Pesos 2012 por cada millón de pesos de PIB. Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el monto reportado en robo de transporte de mercancías.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1376,6 +1376,9 @@ Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el 
         </tbody>
       </table>
       <p><b>Unidad:</b> Pesos.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Pesos (de 2012) por cada millón de pesos del PIB de la ciudad. Fuente: Asociación Mexicana de Instituciones de Seguros (AMIS), 2008-2012.</p>
+
 FINAL;
     } // constructor
 

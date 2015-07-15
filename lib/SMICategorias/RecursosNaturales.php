@@ -75,12 +75,30 @@ class RecursosNaturales extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Litros de combustible gastados por unidad recolectora de residuos sólidos propiedad del municipio</td>
+    <td class="indicador color2">Litros de Combustible Gastados por Habitante</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-habitante.html" data-toggle="tooltip" title="Litros por Persona, 31/12/2014, Ayuntamiento de Torreón">2.4</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color2">Gobierno</td>
+    <td class="indicador color2">Litros de Combustible Gastados por Unidad Recolectora de Residuos Sólidos Propiedad del Municipio</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-unidad-recolectora-de-residuos-solidos-propiedad-del-municipio.html" data-toggle="tooltip" title="Litros, 30/06/2014, Ayuntamiento de Torreón">$ 21,430.36</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Consumo de Diesel en Transporte de Bienes</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" data-toggle="tooltip" title="Metros cúbicos de Diesel/10 mil habinates/Kilómetros de red carretera, 31/12/2012, IMCO">1.847</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" data-toggle="tooltip" title="Metros cúbicos de Diesel/10 mil habinates/Kilómetros de red carretera, 31/12/2012, IMCO">1.847</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" data-toggle="tooltip" title="Metros cúbicos de Diesel/10 mil habinates/Kilómetros de red carretera, 31/12/2012, IMCO">1.847</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" data-toggle="tooltip" title="Metros cúbicos de Diesel/10 mil habinates/Kilómetros de red carretera, 31/12/2012, IMCO">1.847</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" data-toggle="tooltip" title="Metros cúbicos de Diesel/10 mil habinates/Kilómetros de red carretera, 31/12/2012, IMCO">1.847</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
@@ -138,6 +156,15 @@ class RecursosNaturales extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Economía Intensiva en Energía</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-economia-intensiva-en-energia.html" data-toggle="tooltip" title="Metros cúbicos de combustibes por cada millón de PIB, 31/12/2012, IMCO">2.6</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-economia-intensiva-en-energia.html" data-toggle="tooltip" title="Metros cúbicos de combustibes por cada millón de PIB, 31/12/2012, IMCO">4.5</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-economia-intensiva-en-energia.html" data-toggle="tooltip" title="Metros cúbicos de combustibes por cada millón de PIB, 31/12/2012, IMCO">17.0</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-economia-intensiva-en-energia.html" data-toggle="tooltip" title="Metros cúbicos de combustibes por cada millón de PIB, 31/12/2012, IMCO">1.3</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-economia-intensiva-en-energia.html" data-toggle="tooltip" title="Metros cúbicos de combustibes por cada millón de PIB, 31/12/2012, IMCO">3.4</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Emergencias Ambientales</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-emergencias-ambientales.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">4</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-emergencias-ambientales.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
@@ -156,6 +183,15 @@ class RecursosNaturales extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Índice de Gestión de Calidad del Aire</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Motorización</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2013, INEGI">223</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2013, INEGI">333</a></td>
@@ -171,42 +207,6 @@ class RecursosNaturales extends \Base\Publicacion {
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">28.4 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">100.0 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">82.1 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Traslados a Pie</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-traslados-a-pie.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">19 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Uso de Automóvil Particular</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">49 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Uso de Bicicleta</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-bicicleta.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">2 %</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color5">Sustentabilidad</td>
-    <td class="indicador color5">Uso de Transporte Público</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-uso-de-transporte-publico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2011, Logit">30 %</a></td>
   </tr>
 </tbody>
 </table>

@@ -75,12 +75,12 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
 <tbody>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Apertura de un Negocio</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-apertura-de-un-negocio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.3788</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-apertura-de-un-negocio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.6770</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-apertura-de-un-negocio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.6770</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-apertura-de-un-negocio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.3788</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-apertura-de-un-negocio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.5279</a></td>
+    <td class="indicador color1">Apertura de un Negocio (percentil promedio)</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.3788</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.6770</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.6770</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.3788</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-apertura-de-un-negocio-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.5279</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -147,7 +147,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Crecimiento en jornadas laborales muy largas</td>
+    <td class="indicador color1">Crecimiento en Jornadas Laborales Muy Largas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-crecimiento-en-jornadas-laborales-muy-largas.html" data-toggle="tooltip" title="Tasa promedio anual, 31/12/2012, IMCO">1.86 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-crecimiento-en-jornadas-laborales-muy-largas.html" data-toggle="tooltip" title="Tasa promedio anual, 31/12/2012, IMCO">0.84 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-crecimiento-en-jornadas-laborales-muy-largas.html" data-toggle="tooltip" title="Tasa promedio anual, 31/12/2012, IMCO">-10.04 %</a></td>
@@ -255,7 +255,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Grandes empresas según CNN Expansión</td>
+    <td class="indicador color1">Grandes Empresas (según CNN Expansión)</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-grandes-empresas-segun-cnn-expansion.html" data-toggle="tooltip" title="Grandes empresas por cada mil, 31/12/2012, IMCO">0.1205</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-grandes-empresas-segun-cnn-expansion.html" data-toggle="tooltip" title="Grandes empresas por cada mil, 31/12/2012, IMCO">0.3472</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-grandes-empresas-segun-cnn-expansion.html" data-toggle="tooltip" title="Grandes empresas por cada mil, 31/12/2012, IMCO">0.0000</a></td>
@@ -273,12 +273,12 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Jornadas laborales muy largas (más de 48 horas semanales)</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-jornadas-laborales-muy-largas-mas-de-48-horas-semanales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">23.33 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-jornadas-laborales-muy-largas-mas-de-48-horas-semanales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">27.45 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-jornadas-laborales-muy-largas-mas-de-48-horas-semanales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">29.84 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-jornadas-laborales-muy-largas-mas-de-48-horas-semanales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">29.63 %</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-jornadas-laborales-muy-largas-mas-de-48-horas-semanales.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">25.54 %</a></td>
+    <td class="indicador color1">Jornadas Laborales Muy Largas</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-jornadas-laborales-muy-largas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">23.33 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-jornadas-laborales-muy-largas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">27.45 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-jornadas-laborales-muy-largas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">29.84 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-jornadas-laborales-muy-largas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">29.63 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-jornadas-laborales-muy-largas.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">25.54 %</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -309,7 +309,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Población Ocupada sin Ingresos</td>
+    <td class="indicador color1">Población Ocupada Sin Ingresos</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-poblacion-ocupada-sin-ingresos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">11.63 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-poblacion-ocupada-sin-ingresos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">7.52 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-poblacion-ocupada-sin-ingresos.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">0.22 %</a></td>
@@ -318,16 +318,16 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Posgrados de Calidad</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
+    <td class="indicador color1">Posgrados de Calidad (por cada 100mil de PEA)</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html" data-toggle="tooltip" title="Posgrados por cada 100 mil de PEA, 31/12/2012, IMCO">0</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Productividad media laboral</td>
+    <td class="indicador color1">Productividad Media Laboral</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-productividad-media-laboral.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2012, IMCO">$ 729.82</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-productividad-media-laboral.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2012, IMCO">$ 1,771.11</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-productividad-media-laboral.html" data-toggle="tooltip" title="Miles de pesos, 31/12/2012, IMCO">$ 4,094.59</a></td>
@@ -336,12 +336,12 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Registro de Una Propiedad</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-registro-de-una-propiedad.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.5800</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-registro-de-una-propiedad.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.7953</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-registro-de-una-propiedad.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.7953</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-registro-de-una-propiedad.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.5800</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-registro-de-una-propiedad.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.6877</a></td>
+    <td class="indicador color1">Registro de una Propiedad (percentil promedio)</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-registro-de-una-propiedad-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.5800</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-registro-de-una-propiedad-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.7953</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-registro-de-una-propiedad-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.7953</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-registro-de-una-propiedad-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.5800</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-registro-de-una-propiedad-percentil-promedio.html" data-toggle="tooltip" title="Percentil promedio, 31/12/2012, IMCO">0.6877</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
@@ -381,7 +381,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
-    <td class="indicador color1">Tierra ejidal</td>
+    <td class="indicador color1">Tierra Ejidal</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tierra-ejidal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">68.21 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tierra-ejidal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">58.92 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tierra-ejidal.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">70.21 %</a></td>
@@ -399,7 +399,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Duración de período para ediles y delegados</td>
+    <td class="indicador color2">Duración de Período para Ediles y Delegados</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">4.0</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">3.0</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-duracion-de-periodo-para-ediles-y-delegados.html" data-toggle="tooltip" title="Años, 31/12/2012, IMCO">3.0</a></td>
@@ -435,7 +435,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Participación ciudadana</td>
+    <td class="indicador color2">Participación Ciudadana</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-participacion-ciudadana.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">64.66 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-participacion-ciudadana.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">58.31 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-participacion-ciudadana.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">59.57 %</a></td>
@@ -444,7 +444,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Periodistas muertos o desaparecidos</td>
+    <td class="indicador color2">Periodistas Muertos o Desaparecidos</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">5</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">1</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-periodistas-muertos-o-desaparecidos.html" data-toggle="tooltip" title="Cantidad, 31/12/2012, IMCO">0</a></td>
@@ -453,7 +453,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Competencia de servicios notariales</td>
+    <td class="indicador color3">Competencia de Servicios Notariales</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-competencia-de-servicios-notariales.html" data-toggle="tooltip" title="Por cada 100 mil PEA, 31/12/2012, IMCO">19.9267</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-competencia-de-servicios-notariales.html" data-toggle="tooltip" title="Por cada 100 mil PEA, 31/12/2012, IMCO">8.8655</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-competencia-de-servicios-notariales.html" data-toggle="tooltip" title="Por cada 100 mil PEA, 31/12/2012, IMCO">3.7265</a></td>
@@ -462,7 +462,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Monto reportado en robo de mercancías</td>
+    <td class="indicador color3">Monto Reportado en Robo de Mercancías</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-monto-reportado-en-robo-de-mercancias.html" data-toggle="tooltip" title="Pesos, 31/12/2012, IMCO">$ 0.07</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-monto-reportado-en-robo-de-mercancias.html" data-toggle="tooltip" title="Pesos, 31/12/2012, IMCO">$ 0.16</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-monto-reportado-en-robo-de-mercancias.html" data-toggle="tooltip" title="Pesos, 31/12/2012, IMCO">$ 0.03</a></td>
@@ -471,7 +471,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Percepción de inseguridad</td>
+    <td class="indicador color3">Percepción de Inseguridad</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-percepcion-de-inseguridad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">71.71 %</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-percepcion-de-inseguridad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">65.97 %</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-percepcion-de-inseguridad.html" data-toggle="tooltip" title="Porcentaje, 31/12/2012, IMCO">65.97 %</a></td>
@@ -588,12 +588,12 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Espacios Culturales</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.36</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.15</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.22</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.11</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.26</a></td>
+    <td class="indicador color4">Espacios Culturales (según IMCO)</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-espacios-culturales-segun-imco.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.36</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-espacios-culturales-segun-imco.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.15</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-espacios-culturales-segun-imco.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.22</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-espacios-culturales-segun-imco.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.11</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-espacios-culturales-segun-imco.html" data-toggle="tooltip" title="Por cada mil habitantes, 31/12/2012, IMCO">0.26</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -705,7 +705,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
-    <td class="indicador color4">Sistema de Transporte Másivo</td>
+    <td class="indicador color4">Sistema de Transporte Masivo</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-sistema-de-transporte-masivo.html" data-toggle="tooltip" title="de 0 a 3, 31/12/2012, IMCO">1</a></td>

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Gobierno Índice de herramientas electrónicas de gobiernos locales (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Gobierno Índice de Herramientas Electrónicas de Gobiernos Locales (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class GobiernoIndiceDeHerramientasElectronicasDeGobiernosLocales extends \Base\P
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Índice de herramientas electrónicas de gobiernos locales en Torreón';
+        $this->nombre            = 'Índice de Herramientas Electrónicas de Gobiernos Locales en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T14:50';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -100,9 +100,9 @@ class GobiernoIndiceDeHerramientasElectronicasDeGobiernosLocales extends \Base\P
       <p><b>Unidad:</b> Puntos.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Índice de herramientas electrónicas de gobiernos locales</h3>
+      <h3>Gráfica con los últimos datos de Índice de Herramientas Electrónicas de Gobiernos Locales</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Índice de herramientas electrónicas de gobiernos locales</h3>
+      <h3>Últimos datos de Índice de Herramientas Electrónicas de Gobiernos Locales</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

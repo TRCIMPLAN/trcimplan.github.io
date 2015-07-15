@@ -40,7 +40,7 @@ class EconomiaDiversificacionEconomica extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Número de sectores económicos presentes en la ciudad';
+        $this->descripcion       = 'Número de sectores económicos presentes en la ciudad.';
         $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Mercados';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Mercados');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -77,7 +77,7 @@ class EconomiaDiversificacionEconomica extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Número de sectores económicos presentes en la ciudad</p>
+<p>Número de sectores económicos presentes en la ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1243,7 +1243,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Número de sectores económicos presentes en la ciudad</p>
+<p>Número de sectores económicos presentes en la ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">

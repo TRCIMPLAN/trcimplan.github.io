@@ -40,9 +40,7 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \Base\Publi
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.';
+        $this->descripcion       = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad, ajustada por el tamaño de su población.';
         $this->claves            = 'IMPLAN, Torreón, Recursos Naturales, Índice de Competitividad Urbana';
         $this->categorias        = array('Recursos Naturales', 'Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -79,9 +77,7 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad, ajustada por el tamaño de su población.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -127,6 +123,9 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Litros por segundo por cada mil habitantes.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Capacidad de Tratamiento de Agua en Operación en Torreón</h3>
@@ -949,9 +948,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
+<p>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad, ajustada por el tamaño de su población.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -997,6 +994,9 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Litros por segundo por cada mil habitantes.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</p>
+
 FINAL;
     } // constructor
 

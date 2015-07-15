@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Gobierno Litros de combustible gastados por habitante (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Gobierno Litros de Combustible Gastados por Habitante (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class GobiernoLitrosDeCombustibleGastadosPorHabitante extends \Base\Publicacion 
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Litros de combustible gastados por habitante en Torreón';
+        $this->nombre            = 'Litros de Combustible Gastados por Habitante en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-06T15:09';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -41,8 +41,8 @@ class GobiernoLitrosDeCombustibleGastadosPorHabitante extends \Base\Publicacion 
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion       = 'Determina la relación de litros de combustible gastados por el gobierno municipal respecto de su población total.';
-        $this->claves            = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Gobierno';
-        $this->categorias        = array('Sistema de Indicadores de Desempeño (SINDES)', 'Gobierno');
+        $this->claves            = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Recursos Naturales, Gobierno';
+        $this->categorias        = array('Sistema de Indicadores de Desempeño (SINDES)', 'Recursos Naturales', 'Gobierno');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -109,7 +109,7 @@ class GobiernoLitrosDeCombustibleGastadosPorHabitante extends \Base\Publicacion 
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Litros de combustible gastados por habitante en Torreón</h3>
+      <h3>Gráfica de Litros de Combustible Gastados por Habitante en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
   </div>

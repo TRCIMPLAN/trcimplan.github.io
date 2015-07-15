@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Gómez Palacio Economía Tierra ejidal (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Gómez Palacio Economía Tierra Ejidal (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaTierraEjidal extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Tierra ejidal en Gómez Palacio';
+        $this->nombre            = 'Tierra Ejidal en Gómez Palacio';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T14:24';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -40,7 +40,7 @@ class EconomiaTierraEjidal extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide a proporción de superficie de los municipios que conforman la ciudad que está bajo el régimen de propiedad social. Este indicador permite aproximar la certidumbre de los derechos de propiedad de la tierra en una ciudad. Unidades: Porcentaje de la superficie total de las unidades económicas. Fuente: INEGI, 2008.';
+        $this->descripcion       = 'Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide a proporción de superficie de los municipios que conforman la ciudad que está bajo el régimen de propiedad social. Este indicador permite aproximar la certidumbre de los derechos de propiedad de la tierra en una ciudad.';
         $this->claves            = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana';
         $this->categorias        = array('Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -77,7 +77,7 @@ class EconomiaTierraEjidal extends \Base\Publicacion {
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide a proporción de superficie de los municipios que conforman la ciudad que está bajo el régimen de propiedad social. Este indicador permite aproximar la certidumbre de los derechos de propiedad de la tierra en una ciudad. Unidades: Porcentaje de la superficie total de las unidades económicas. Fuente: INEGI, 2008.</p>
+<p>Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide a proporción de superficie de los municipios que conforman la ciudad que está bajo el régimen de propiedad social. Este indicador permite aproximar la certidumbre de los derechos de propiedad de la tierra en una ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -123,15 +123,18 @@ class EconomiaTierraEjidal extends \Base\Publicacion {
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Porcentaje de la superficie total de las unidades económicas. Fuente: INEGI, 2008.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Tierra ejidal en Gómez Palacio</h3>
+      <h3>Gráfica de Tierra Ejidal en Gómez Palacio</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Tierra ejidal</h3>
+      <h3>Gráfica con los últimos datos de Tierra Ejidal</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Tierra ejidal</h3>
+      <h3>Últimos datos de Tierra Ejidal</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -757,7 +760,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide a proporción de superficie de los municipios que conforman la ciudad que está bajo el régimen de propiedad social. Este indicador permite aproximar la certidumbre de los derechos de propiedad de la tierra en una ciudad. Unidades: Porcentaje de la superficie total de las unidades económicas. Fuente: INEGI, 2008.</p>
+<p>Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide a proporción de superficie de los municipios que conforman la ciudad que está bajo el régimen de propiedad social. Este indicador permite aproximar la certidumbre de los derechos de propiedad de la tierra en una ciudad.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -803,6 +806,9 @@ FINAL;
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Unidades: Porcentaje de la superficie total de las unidades económicas. Fuente: INEGI, 2008.</p>
+
 FINAL;
     } // constructor
 

@@ -40,9 +40,7 @@ class SociedadVisitasAMuseosInah extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de visitas a museos del Instituto Nacional de Antropología e Historia
-(INAH) durante un año.
-Fuente: INAH.';
+        $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de visitas a museos del Instituto Nacional de Antropología e Historia (INAH) durante un año.';
         $this->claves            = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Cultura';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Cultura');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -79,9 +77,7 @@ Fuente: INAH.';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de visitas a museos del Instituto Nacional de Antropología e Historia
-(INAH) durante un año.
-Fuente: INAH.</p>
+<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de visitas a museos del Instituto Nacional de Antropología e Historia (INAH) durante un año.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -127,6 +123,9 @@ Fuente: INAH.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada mil habitantes.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: INAH.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Visitas a Museos INAH en La Laguna</h3>
@@ -803,9 +802,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de visitas a museos del Instituto Nacional de Antropología e Historia
-(INAH) durante un año.
-Fuente: INAH.</p>
+<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de visitas a museos del Instituto Nacional de Antropología e Historia (INAH) durante un año.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -851,6 +848,9 @@ Fuente: INAH.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada mil habitantes.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: INAH.</p>
+
 FINAL;
     } // constructor
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Gómez Palacio Economía Tasa de informalidad (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Gómez Palacio Economía Tasa de Informalidad (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaTasaDeInformalidad extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Tasa de informalidad en Gómez Palacio';
+        $this->nombre            = 'Tasa de Informalidad en Gómez Palacio';
      // $this->autor             = '';
         $this->fecha             = '2014-12-11T13:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -179,13 +179,13 @@ class EconomiaTasaDeInformalidad extends \Base\Publicacion {
       <p><b>Unidad:</b> Porcentaje.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Tasa de informalidad en Gómez Palacio</h3>
+      <h3>Gráfica de Tasa de Informalidad en Gómez Palacio</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Tasa de informalidad</h3>
+      <h3>Gráfica con los últimos datos de Tasa de Informalidad</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Tasa de informalidad</h3>
+      <h3>Últimos datos de Tasa de Informalidad</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

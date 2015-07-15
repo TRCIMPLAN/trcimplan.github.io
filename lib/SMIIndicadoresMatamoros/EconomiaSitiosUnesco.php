@@ -41,8 +41,8 @@ class EconomiaSitiosUnesco extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion       = 'Incluido en el subíndice de "Aprovechamiento de las Relaciones Internacionales". Mide el número de sitios declarados como patrimonio de la humanidad por la UNESCO que se encuentran a no más de 50 km de la ciudad.';
-        $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana';
-        $this->categorias        = array('Índice de Competitividad Urbana');
+        $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Cultura';
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Cultura');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -573,6 +573,12 @@ Fuente: CONAGUA, 2008-2009.</td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
           </tr>
           <tr>
+            <td>23/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/perdida-patrimonio-arquitectonico-la-laguna.html">Pérdida de Patrimonio Arquitectónico en La Laguna</a></td>
+            <td>La conservación de las construcciones históricas es responsabilidad de todos. La pérdida y deterioro de estos inmuebles repercute en la identidad y el legado que dejaremos a las siguientes generaciones.</td>
+          </tr>
+          <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Gómez Palacio</a></td>
@@ -645,6 +651,36 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html">Espacios Culturales en Gómez Palacio</a></td>
+            <td>Espacios culturales físicamente delimitados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html">Espacios Culturales en La Laguna</a></td>
+            <td>Espacios culturales físicamente delimitados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-espacios-culturales.html">Espacios Culturales en Lerdo</a></td>
+            <td>Espacios culturales físicamente delimitados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-espacios-culturales.html">Espacios Culturales en Matamoros</a></td>
+            <td>Espacios culturales físicamente delimitados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-espacios-culturales.html">Espacios Culturales en Torreón</a></td>
+            <td>Espacios culturales físicamente delimitados.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
 Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
@@ -711,6 +747,12 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Torreón</a></td>
             <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
 En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
+          </tr>
+          <tr>
+            <td>18/09/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/competitividad-planeacion-metropolitana.html">Competitividad y Planeación Metropolitana</a></td>
+            <td>El Instituto Mexicano para la Competitividad dio a conocer el Índice de Competitividad Urbana 2014; en él muestra que la Zona Metropolitana de la Laguna (ZML) continúa en un nivel de competitividad media baja.</td>
           </tr>
         </tbody>
       </table>

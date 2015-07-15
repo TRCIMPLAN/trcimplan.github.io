@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Gómez Palacio Sociedad Índice de hacinamiento (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Gómez Palacio Sociedad Índice de Hacinamiento (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class SociedadIndiceDeHacinamiento extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Índice de hacinamiento en Gómez Palacio';
+        $this->nombre            = 'Índice de Hacinamiento en Gómez Palacio';
      // $this->autor             = '';
         $this->fecha             = '2014-11-24T15:42';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -103,9 +103,9 @@ class SociedadIndiceDeHacinamiento extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Índice de hacinamiento</h3>
+      <h3>Gráfica con los últimos datos de Índice de Hacinamiento</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Índice de hacinamiento</h3>
+      <h3>Últimos datos de Índice de Hacinamiento</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

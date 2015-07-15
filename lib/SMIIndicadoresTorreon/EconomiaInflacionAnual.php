@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Economía Inflación anual (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Economía Inflación Anual (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaInflacionAnual extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Inflación anual en Torreón';
+        $this->nombre            = 'Inflación Anual en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-02-09T12:19';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -179,13 +179,13 @@ class EconomiaInflacionAnual extends \Base\Publicacion {
       <p><b>Unidad:</b> Porcentaje.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Inflación anual en Torreón</h3>
+      <h3>Gráfica de Inflación Anual en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Inflación anual</h3>
+      <h3>Gráfica con los últimos datos de Inflación Anual</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Inflación anual</h3>
+      <h3>Últimos datos de Inflación Anual</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

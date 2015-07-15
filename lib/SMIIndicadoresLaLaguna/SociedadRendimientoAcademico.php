@@ -40,8 +40,7 @@ class SociedadRendimientoAcademico extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de alumnos de educación básica y media superior que obtuvieron niveles bueno y excelente en el examen de matemáticas de la prueba ENLACE. Se calificó con 0 a aquellas ciudades en donde menos de 80% de los alumnos presentaron la prueba.
-Fuente: Mejora tu Escuela con datos de la Secretaría de Educación Pública (SEP).';
+        $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de alumnos de educación básica y media superior que obtuvieron niveles bueno y excelente en el examen de matemáticas de la prueba ENLACE. Se calificó con 0 a aquellas ciudades en donde menos de 80% de los alumnos presentaron la prueba.';
         $this->claves            = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Educación';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Educación');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -78,8 +77,7 @@ Fuente: Mejora tu Escuela con datos de la Secretaría de Educación Pública (SE
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de alumnos de educación básica y media superior que obtuvieron niveles bueno y excelente en el examen de matemáticas de la prueba ENLACE. Se calificó con 0 a aquellas ciudades en donde menos de 80% de los alumnos presentaron la prueba.
-Fuente: Mejora tu Escuela con datos de la Secretaría de Educación Pública (SEP).</p>
+<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de alumnos de educación básica y media superior que obtuvieron niveles bueno y excelente en el examen de matemáticas de la prueba ENLACE. Se calificó con 0 a aquellas ciudades en donde menos de 80% de los alumnos presentaron la prueba.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -126,7 +124,7 @@ Fuente: Mejora tu Escuela con datos de la Secretaría de Educación Pública (SE
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Porcentaje de alumnos de educación básica y media superior en niveles Bueno y Excelente en Matemáticas de prueba ENLACE.</p>
+<p>Porcentaje de alumnos de educación básica y media superior en niveles Bueno y Excelente en Matemáticas de prueba ENLACE. Fuente: Mejora tu Escuela con datos de la Secretaría de Educación Pública (SEP).</p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
@@ -1106,8 +1104,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de alumnos de educación básica y media superior que obtuvieron niveles bueno y excelente en el examen de matemáticas de la prueba ENLACE. Se calificó con 0 a aquellas ciudades en donde menos de 80% de los alumnos presentaron la prueba.
-Fuente: Mejora tu Escuela con datos de la Secretaría de Educación Pública (SEP).</p>
+<p>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de alumnos de educación básica y media superior que obtuvieron niveles bueno y excelente en el examen de matemáticas de la prueba ENLACE. Se calificó con 0 a aquellas ciudades en donde menos de 80% de los alumnos presentaron la prueba.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -1154,7 +1151,7 @@ Fuente: Mejora tu Escuela con datos de la Secretaría de Educación Pública (SE
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Porcentaje de alumnos de educación básica y media superior en niveles Bueno y Excelente en Matemáticas de prueba ENLACE.</p>
+<p>Porcentaje de alumnos de educación básica y media superior en niveles Bueno y Excelente en Matemáticas de prueba ENLACE. Fuente: Mejora tu Escuela con datos de la Secretaría de Educación Pública (SEP).</p>
 
 FINAL;
     } // constructor

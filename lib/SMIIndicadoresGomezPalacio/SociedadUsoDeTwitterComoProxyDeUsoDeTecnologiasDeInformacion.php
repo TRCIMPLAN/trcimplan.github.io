@@ -40,10 +40,7 @@ class SociedadUsoDeTwitterComoProxyDeUsoDeTecnologiasDeInformacion extends \Base
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion       = 'Incluido en el subíndice "Precursores".
-Qué mide: El número de Twits por hora por cada mil habitantes, como proxy del uso de
-tecnologías de información.
-Fuente: IMCO, 2013.';
+        $this->descripcion       = 'Incluido en el subíndice "Precursores". Qué mide: El número de Twits por hora por cada mil habitantes, como proxy del uso de tecnologías de información.';
         $this->claves            = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Innovación';
         $this->categorias        = array('Índice de Competitividad Urbana', 'Innovación');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -80,10 +77,7 @@ Fuente: IMCO, 2013.';
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores".
-Qué mide: El número de Twits por hora por cada mil habitantes, como proxy del uso de
-tecnologías de información.
-Fuente: IMCO, 2013.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de Twits por hora por cada mil habitantes, como proxy del uso de tecnologías de información.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -129,6 +123,9 @@ Fuente: IMCO, 2013.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Twits por Hora por cada mil habitantes.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: IMCO, 2013.</p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
       <h3>Gráfica de Uso de Twitter como Proxy de Uso de Tecnologías de Información en Gómez Palacio</h3>
@@ -859,10 +856,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion        = <<<FINAL
       <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores".
-Qué mide: El número de Twits por hora por cada mil habitantes, como proxy del uso de
-tecnologías de información.
-Fuente: IMCO, 2013.</p>
+<p>Incluido en el subíndice "Precursores". Qué mide: El número de Twits por hora por cada mil habitantes, como proxy del uso de tecnologías de información.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -908,6 +902,9 @@ Fuente: IMCO, 2013.</p>
         </tbody>
       </table>
       <p><b>Unidad:</b> Twits por Hora por cada mil habitantes.</p>
+      <h3>Observaciones</h3>
+<p>Fuente: IMCO, 2013.</p>
+
 FINAL;
     } // constructor
 

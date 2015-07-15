@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Matamoros Economía Grandes empresas según CNN Expansión (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Matamoros Economía Grandes Empresas (según CNN Expansión) (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaGrandesEmpresasSegunCnnExpansion extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Grandes empresas según CNN Expansión en Matamoros';
+        $this->nombre            = 'Grandes Empresas (según CNN Expansión) en Matamoros';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T15:38';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -125,13 +125,13 @@ class EconomiaGrandesEmpresasSegunCnnExpansion extends \Base\Publicacion {
       <p><b>Unidad:</b> Grandes empresas por cada mil.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Grandes empresas según CNN Expansión en Matamoros</h3>
+      <h3>Gráfica de Grandes Empresas (según CNN Expansión) en Matamoros</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Grandes empresas según CNN Expansión</h3>
+      <h3>Gráfica con los últimos datos de Grandes Empresas (según CNN Expansión)</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Grandes empresas según CNN Expansión</h3>
+      <h3>Últimos datos de Grandes Empresas (según CNN Expansión)</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

@@ -41,8 +41,8 @@ class EconomiaCiudadFronterizaOPortuaria extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion       = 'Incluido en el subíndice de "Aprovechamiento de las Relaciones Internacionales". Mide si una ciudad tiene puerto, es fronteriza o ninguna de las dos. Esta condición ofrece una ventaja competitiva inicial para cualquier ciudad.';
-        $this->claves            = 'IMPLAN, Torreón, Índice de Competitividad Urbana';
-        $this->categorias        = array('Índice de Competitividad Urbana');
+        $this->claves            = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Mercados';
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Mercados');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -573,6 +573,30 @@ Fuente: CONAGUA, 2008-2009.</td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
           </tr>
           <tr>
+            <td>24/06/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/evolucion-del-mercado-hipotecario-en-torreon.html">Evolución del Mercado Hipotecario en Torreón</a></td>
+            <td>La vivienda es una buena parte de la inversión y puede ser el mayor componente de la riqueza. El buen funcionamiento del mercado inmobiliario es clave para la salud de la economía.</td>
+          </tr>
+          <tr>
+            <td>20/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
+            <td>Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.</td>
+          </tr>
+          <tr>
+            <td>19/05/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/sed-o-no-sed.html">¿Sed o no sed?</a></td>
+            <td>El IMPLAN ve una región de grandes retos y de grandes oportunidades, capaz de rivalizar, si unimos voluntades, con avezados competidores en los mercados globalizados.</td>
+          </tr>
+          <tr>
+            <td>03/02/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/tasa-inflacion-precios-torreon-2014.html">Tasa de inflación y precios en Torreón 2014</a></td>
+            <td>Un incremento en la inflación como el que sufrió Torreón en 2014 no es necesariamente una señal negativa pues puede ser causada por exceso de dinero en la economía.</td>
+          </tr>
+          <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Gómez Palacio</a></td>
@@ -615,6 +639,36 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-cartera-hipotecaria.html">Cartera Hipotecaria en Gómez Palacio</a></td>
+            <td>Monto total de créditos otorgados hasta la fecha indicada.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-cartera-hipotecaria.html">Cartera Hipotecaria en La Laguna</a></td>
+            <td>Monto total de créditos otorgados hasta la fecha indicada.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-cartera-hipotecaria.html">Cartera Hipotecaria en Lerdo</a></td>
+            <td>Monto total de créditos otorgados hasta la fecha indicada.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-cartera-hipotecaria.html">Cartera Hipotecaria en Matamoros</a></td>
+            <td>Monto total de créditos otorgados hasta la fecha indicada.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-cartera-hipotecaria.html">Cartera Hipotecaria en Torreón</a></td>
+            <td>Monto total de créditos otorgados hasta la fecha indicada.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Gómez Palacio</a></td>
             <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
           </tr>
@@ -641,6 +695,156 @@ Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Torreón</a></td>
             <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Gómez Palacio</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en La Laguna</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Lerdo</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Matamoros</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Torreón</a></td>
+            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Gómez Palacio</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en La Laguna</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Lerdo</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Matamoros</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Torreón</a></td>
+            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Gómez Palacio</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en La Laguna</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Lerdo</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Matamoros</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Torreón</a></td>
+            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Gómez Palacio</a></td>
+            <td>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html">Sectores que Han Frenado el Crecimiento (2008-2012) en La Laguna</a></td>
+            <td>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Lerdo</a></td>
+            <td>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Matamoros</a></td>
+            <td>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento-2008-2012.html">Sectores que Han Frenado el Crecimiento (2008-2012) en Torreón</a></td>
+            <td>Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Gómez Palacio</a></td>
+            <td>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en La Laguna</a></td>
+            <td>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Lerdo</a></td>
+            <td>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Matamoros</a></td>
+            <td>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento-2008-2012.html">Sectores que Han Presentado Alto Crecimiento (2008-2012) en Torreón</a></td>
+            <td>% de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -680,6 +884,36 @@ Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html">Tamaño del Mercado Hipotecario en Gómez Palacio</a></td>
+            <td>Créditos dispuestos marginalmente durante el año indicado.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html">Tamaño del Mercado Hipotecario en La Laguna</a></td>
+            <td>Créditos dispuestos marginalmente durante el año indicado.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html">Tamaño del Mercado Hipotecario en Lerdo</a></td>
+            <td>Créditos dispuestos marginalmente durante el año indicado.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html">Tamaño del Mercado Hipotecario en Matamoros</a></td>
+            <td>Créditos dispuestos marginalmente durante el año indicado.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-tamano-del-mercado-hipotecario.html">Tamaño del Mercado Hipotecario en Torreón</a></td>
+            <td>Créditos dispuestos marginalmente durante el año indicado.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Gómez Palacio</a></td>
             <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
 En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
@@ -711,6 +945,258 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Torreón</a></td>
             <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
 En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Gómez Palacio</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en La Laguna</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Lerdo</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Matamoros</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html">Unidades Económicas Dedicadas a la Industria Manufacturera en Torreón</a></td>
+            <td>Unidades económicas dedicadas a la manufactura entre el total de unidades económicas del municipio.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Gómez Palacio</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en La Laguna</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Lerdo</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Matamoros</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-los-servicios.html">Unidades Económicas Dedicadas a los Servicios en Torreón</a></td>
+            <td>Unidades económicas dedicadas a los servicios entre el total de las unidades económicas del municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Gómez Palacio</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en La Laguna</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Lerdo</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Matamoros</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-al-comercio.html">Unidades Económicas Dedicadas al Comercio en Torreón</a></td>
+            <td>Unidades económicas dedicadas al comercio entre el total de unidades económicas en el municipio/región.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-comercio.html">Índice de Especialización Local en Comercio en Gómez Palacio</a></td>
+            <td>Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-comercio.html">Índice de Especialización Local en Comercio en La Laguna</a></td>
+            <td>Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-comercio.html">Índice de Especialización Local en Comercio en Lerdo</a></td>
+            <td>Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-comercio.html">Índice de Especialización Local en Comercio en Matamoros</a></td>
+            <td>Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-comercio.html">Índice de Especialización Local en Comercio en Torreón</a></td>
+            <td>Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-industria-manufacturera.html">Índice de Especialización Local en Industria Manufacturera en Gómez Palacio</a></td>
+            <td>Producción bruta total de la industria manufacturera entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-industria-manufacturera.html">Índice de Especialización Local en Industria Manufacturera en La Laguna</a></td>
+            <td>Producción bruta total de la industria manufacturera entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-industria-manufacturera.html">Índice de Especialización Local en Industria Manufacturera en Lerdo</a></td>
+            <td>Producción bruta total de la industria manufacturera entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-industria-manufacturera.html">Índice de Especialización Local en Industria Manufacturera en Matamoros</a></td>
+            <td>Producción bruta total de la industria manufacturera entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-industria-manufacturera.html">Índice de Especialización Local en Industria Manufacturera en Torreón</a></td>
+            <td>Producción bruta total de la industria manufacturera entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-servicios.html">Índice de Especialización Local en Servicios en Gómez Palacio</a></td>
+            <td>Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-servicios.html">Índice de Especialización Local en Servicios en La Laguna</a></td>
+            <td>Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-servicios.html">Índice de Especialización Local en Servicios en Lerdo</a></td>
+            <td>Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-servicios.html">Índice de Especialización Local en Servicios en Matamoros</a></td>
+            <td>Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-servicios.html">Índice de Especialización Local en Servicios en Torreón</a></td>
+            <td>Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-la-construccion.html">Índice de Especialización Local en la Construcción en Gómez Palacio</a></td>
+            <td>Producción bruta total de la actividad económica de construcción entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-la-construccion.html">Índice de Especialización Local en la Construcción en La Laguna</a></td>
+            <td>Producción bruta total de la actividad económica de construcción entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-la-construccion.html">Índice de Especialización Local en la Construcción en Lerdo</a></td>
+            <td>Producción bruta total de la actividad económica de construcción entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-la-construccion.html">Índice de Especialización Local en la Construcción en Matamoros</a></td>
+            <td>Producción bruta total de la actividad económica de construcción entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-construccion.html">Índice de Especialización Local en la Construcción en Torreón</a></td>
+            <td>Producción bruta total de la actividad económica de construcción entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-la-mineria.html">Índice de Especialización Local en la Minería en Gómez Palacio</a></td>
+            <td>Producción bruta total de la actividad económica de minería entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-la-mineria.html">Índice de Especialización Local en la Minería en La Laguna</a></td>
+            <td>Producción bruta total de la actividad económica de minería entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-indice-de-especializacion-local-en-la-mineria.html">Índice de Especialización Local en la Minería en Lerdo</a></td>
+            <td>Producción bruta total de la actividad económica de minería entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-indice-de-especializacion-local-en-la-mineria.html">Índice de Especialización Local en la Minería en Matamoros</a></td>
+            <td>Producción bruta total de la actividad económica de minería entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-mineria.html">Índice de Especialización Local en la Minería en Torreón</a></td>
+            <td>Producción bruta total de la actividad económica de minería entre la producción bruta total.</td>
+          </tr>
+          <tr>
+            <td>01/07/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/productividad-zml.html">Productividad en la Zona Metropolitana de La Laguna</a></td>
+            <td>Análisis de la productividad laboral, industria manufacturera y eficiencia del trabajo en la Zona Metropolitana de la Laguna.</td>
+          </tr>
+          <tr>
+            <td>25/04/2014</td>
+            <td>Análisis</td>
+            <td><a href="../blog/estabilidad-de-precios-en-torreon.html">Estabilidad de Precios en Torreón</a></td>
+            <td>En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.</td>
           </tr>
         </tbody>
       </table>

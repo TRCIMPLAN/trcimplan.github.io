@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Economía Promedio de horas para la realización del trámite de licencia para negocio (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Economía Promedio de Horas para la Realización del Trámite de Licencia para Negocio (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaPromedioDeHorasParaLaRealizacionDelTramiteDeLicenciaParaNegocio ex
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Promedio de horas para la realización del trámite de licencia para negocio en Torreón';
+        $this->nombre            = 'Promedio de Horas para la Realización del Trámite de Licencia para Negocio en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T15:15';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -109,7 +109,7 @@ class EconomiaPromedioDeHorasParaLaRealizacionDelTramiteDeLicenciaParaNegocio ex
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Promedio de horas para la realización del trámite de licencia para negocio en Torreón</h3>
+      <h3>Gráfica de Promedio de Horas para la Realización del Trámite de Licencia para Negocio en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
   </div>

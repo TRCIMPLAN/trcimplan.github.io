@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Economía Población Ocupada sin Ingresos (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Economía Población Ocupada Sin Ingresos (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class EconomiaPoblacionOcupadaSinIngresos extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Población Ocupada sin Ingresos en Torreón';
+        $this->nombre            = 'Población Ocupada Sin Ingresos en Torreón';
      // $this->autor             = '';
         $this->fecha             = '2015-07-14T14:39';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -128,13 +128,13 @@ class EconomiaPoblacionOcupadaSinIngresos extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Población Ocupada sin Ingresos en Torreón</h3>
+      <h3>Gráfica de Población Ocupada Sin Ingresos en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Población Ocupada sin Ingresos</h3>
+      <h3>Gráfica con los últimos datos de Población Ocupada Sin Ingresos</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Población Ocupada sin Ingresos</h3>
+      <h3>Últimos datos de Población Ocupada Sin Ingresos</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
