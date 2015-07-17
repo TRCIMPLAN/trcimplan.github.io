@@ -493,7 +493,7 @@ FINAL;
      */
     public function javascript() {
         // JavaScript
-        $this->javascript = <<<FINAL
+        $this->javascript[] = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica

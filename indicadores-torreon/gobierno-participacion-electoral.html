@@ -162,7 +162,7 @@
   </nav>
   <div id="page-wrapper">
     <div class="cuerpo">
-      <div itemscope itemtype="http://schema.org/Article">
+      <article><div itemscope itemtype="http://schema.org/Article">
               <div class="encabezado" style="background-color:#CA198A;">
           <h1 itemprop="name">Participación Electoral en Torreón</h1>
           <div class="encabezado-descripcion" itemprop="description">Porcentaje de personas que emitieron su voto.</div>
@@ -487,6 +487,25 @@
 <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="../js/sb-admin-2.js"></script>
 <script>
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 53.7500 },{ region: 'Gómez Palacio', dato: 58.3100 },{ region: 'Lerdo', dato: 59.5700 },{ region: 'Matamoros', dato: 64.5800 },{ region: 'La Laguna', dato: 57.6800 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
+});
+// COMPARTIR EN REDES SOCIALES
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 <script>

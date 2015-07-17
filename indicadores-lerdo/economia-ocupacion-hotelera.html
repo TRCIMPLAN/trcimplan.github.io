@@ -162,7 +162,7 @@
   </nav>
   <div id="page-wrapper">
     <div class="cuerpo">
-      <div itemscope itemtype="http://schema.org/Article">
+      <article><div itemscope itemtype="http://schema.org/Article">
               <div class="encabezado" style="background-color:#CA198A;">
           <h1 itemprop="name">Ocupación Hotelera en Lerdo</h1>
           <div class="encabezado-descripcion" itemprop="description">Incluido en el subíndice de "Aprovechamiento de las Relaciones Internacionales". Mide el promedio anual de cuartos ocupados como porcentaje del total de cuartos disponibles. Este indicador sólo está disponible para los principales centros turísticos.</div>
@@ -1042,6 +1042,41 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
 <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="../js/sb-admin-2.js"></script>
 <script>
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2008-12-31', dato: 39.8900 },{ fecha: '2009-12-31', dato: 41.2500 },{ fecha: '2010-12-31', dato: 43.1500 },{ fecha: '2011-12-31', dato: 41.6400 },{ fecha: '2012-12-31', dato: 44.3200 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 47.0100 },{ region: 'Gómez Palacio', dato: 44.3200 },{ region: 'Lerdo', dato: 44.3200 },{ region: 'Matamoros', dato: 0.0000 },{ region: 'La Laguna', dato: 29.3600 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
+});
+// COMPARTIR EN REDES SOCIALES
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 <script>

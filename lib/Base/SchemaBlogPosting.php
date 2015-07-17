@@ -80,10 +80,14 @@ class SchemaBlogPosting extends SchemaArticle {
         }
         $a[] = $this->image_html();
         $a[] = $this->article_body_html();
-        if ($this->extra != '') {
-            $a[] = $this->extra;
+        if ($this->big_heading) {
+            $a[] = '</div></article>';
+        } else {
+            $a[] = '</div>';
         }
-        $a[] = '</div></article>';
+        if ($this->extra != '') {
+            $a[] = "<aside>{$this->extra}</aside>";
+        }
         // Entregar
         return implode("\n$spaces", $a);
     } // html

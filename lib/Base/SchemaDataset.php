@@ -130,10 +130,14 @@ class SchemaDataset extends SchemaCreativeWork {
         $a[] = $this->catalog_html();
         $a[] = $this->temporal_html();
         $a[] = $this->distribution_html();
-        if ($this->extra != '') {
-            $a[] = $this->extra;
+        if ($this->big_heading) {
+            $a[] = '</div></article>';
+        } else {
+            $a[] = '</div>';
         }
-        $a[] = '</div>';
+        if ($this->extra != '') {
+            $a[] = "<aside>{$this->extra}</aside>";
+        }
         // Entregar
         return implode("\n$spaces", $a);
     } // html

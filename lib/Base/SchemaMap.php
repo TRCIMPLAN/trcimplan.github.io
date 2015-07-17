@@ -113,11 +113,15 @@ class SchemaMap extends SchemaCreativeWork {
             $a[] = $this->description_html();
         }
         $a[] = $this->image_html();
-        if ($this->extra != '') {
-            $a[] = $this->extra;
-        }
         $a[] = $this->boton_html();
-        $a[] = '</div>';
+        if ($this->big_heading) {
+            $a[] = '</div></article>';
+        } else {
+            $a[] = '</div>';
+        }
+        if ($this->extra != '') {
+            $a[] = "<aside>{$this->extra}</aside>";
+        }
         // Entregar
         return implode("\n$spaces", $a);
     } // html

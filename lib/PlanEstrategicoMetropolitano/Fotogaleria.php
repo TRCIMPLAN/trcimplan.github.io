@@ -71,32 +71,33 @@ FINAL;
         // JavaScript
         $this->javascript[]     = '<script type="text/javascript" src="../js/jssor.slider.min.js"></script>';
         $this->javascript[]     = <<<FINAL
-  <!-- Photo Slider inicia -->
-    jQuery(document).ready(function ($) {
-        var options = {
-            \$AutoPlay: true,
-            \$ChanceToShow: 5,
-            \$DragOrientation: 1
-        };
-        var jssor_slider1 = new \$JssorSlider\$("slider1_container", options);
-        // responsive code begin
-        function ScaleSlider() {
-            var parentWidth = $('#slider1_container').parent().width();
-            if (parentWidth) {
-                jssor_slider1.\$ScaleWidth(parentWidth);
-            }
-            else
-                window.setTimeout(ScaleSlider, 30);
+// PHOTO SLIDER
+<script>
+jQuery(document).ready(function ($) {
+    var options = {
+        \$AutoPlay: true,
+        \$ChanceToShow: 5,
+        \$DragOrientation: 1
+    };
+    var jssor_slider1 = new \$JssorSlider\$("slider1_container", options);
+    // responsive code begin
+    function ScaleSlider() {
+        var parentWidth = $('#slider1_container').parent().width();
+        if (parentWidth) {
+            jssor_slider1.\$ScaleWidth(parentWidth);
         }
-        // Scale slider after document ready
-        ScaleSlider();
-        // Scale slider while window load/resize/orientationchange.
-        $(window).bind("load", ScaleSlider);
-        $(window).bind("resize", ScaleSlider);
-        $(window).bind("orientationchange", ScaleSlider);
-        // responsive code end
-    });
-  <!-- Photo Slider termina -->
+        else
+            window.setTimeout(ScaleSlider, 30);
+    }
+    // Scale slider after document ready
+    ScaleSlider();
+    // Scale slider while window load/resize/orientationchange.
+    $(window).bind("load", ScaleSlider);
+    $(window).bind("resize", ScaleSlider);
+    $(window).bind("orientationchange", ScaleSlider);
+    // responsive code end
+});
+</script>
 FINAL;
         // Para redifusión, sólo se pone la primer imagen como vínculo a la página en el sitio
         $this->redifusion       = sprintf('<a href="%s"><img src="%s"><br>%s</a>', "{$this->directorio}/{$this->archivo}.html", 'fotogaleria/fotos001.jpg', $this->descripcion);

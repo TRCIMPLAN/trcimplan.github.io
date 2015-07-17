@@ -162,7 +162,7 @@
   </nav>
   <div id="page-wrapper">
     <div class="cuerpo">
-      <div itemscope itemtype="http://schema.org/Article">
+      <article><div itemscope itemtype="http://schema.org/Article">
               <div class="encabezado" style="background-color:#CA198A;">
           <h1 itemprop="name">Salario Promedio Mensual para Trabajadores de Tiempo Completo en Torreón</h1>
           <div class="encabezado-descripcion" itemprop="description">Mide el salario promedio que obtienen los trabajadores que laboran 35 horas o más en cada ciudad ponderado por la participación de la población de cada municipio que integra dicha ciudad y descontando la presencia de actividades petroleras en los municipios. La lógica del indicador es que mientras más alto el salario promedio, mayor es la productividad laboral de la ciudad.</div>
@@ -1272,6 +1272,41 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
 <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="../js/sb-admin-2.js"></script>
 <script>
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatosImco === 'undefined') {
+    vargraficaDatosImco = Morris.Line({
+      element: 'graficaDatosImco',
+      data: [{ fecha: '2008-12-31', dato: 6214.90 },{ fecha: '2009-12-31', dato: 6346.57 },{ fecha: '2010-12-31', dato: 5672.21 },{ fecha: '2011-12-31', dato: 5475.57 },{ fecha: '2012-12-31', dato: 5688.95 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 6434.28 },{ region: 'Gómez Palacio', dato: 5319.43 },{ region: 'Lerdo', dato: 5518.95 },{ region: 'Matamoros', dato: 4043.13 },{ region: 'La Laguna', dato: 5817.26 },{ region: 'Coahuila', dato: 6438.43 },{ region: 'Nacional', dato: 6035.69 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
+});
+// COMPARTIR EN REDES SOCIALES
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 <script>

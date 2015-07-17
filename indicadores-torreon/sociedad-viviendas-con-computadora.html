@@ -162,7 +162,7 @@
   </nav>
   <div id="page-wrapper">
     <div class="cuerpo">
-      <div itemscope itemtype="http://schema.org/Article">
+      <article><div itemscope itemtype="http://schema.org/Article">
               <div class="encabezado" style="background-color:#CA198A;">
           <h1 itemprop="name">Viviendas con Computadora en Torreón</h1>
           <div class="encabezado-descripcion" itemprop="description">Porcentaje de viviendas habitadas con computadora.</div>
@@ -1267,6 +1267,41 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
 <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="../js/sb-admin-2.js"></script>
 <script>
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatosImco === 'undefined') {
+    vargraficaDatosImco = Morris.Line({
+      element: 'graficaDatosImco',
+      data: [{ fecha: '2008-12-31', dato: 32.1100 },{ fecha: '2009-12-31', dato: 35.1400 },{ fecha: '2010-12-31', dato: 38.4500 },{ fecha: '2011-12-31', dato: 40.9600 },{ fecha: '2012-12-31', dato: 43.6400 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 43.6400 },{ region: 'Gómez Palacio', dato: 30.8200 },{ region: 'Lerdo', dato: 28.5100 },{ region: 'Matamoros', dato: 21.8200 },{ region: 'La Laguna', dato: 36.8400 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-mapa
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-mapa"]').tab('show')
+});
+// COMPARTIR EN REDES SOCIALES
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 <script>

@@ -162,7 +162,7 @@
   </nav>
   <div id="page-wrapper">
     <div class="cuerpo">
-      <div itemscope itemtype="http://schema.org/Article">
+      <article><div itemscope itemtype="http://schema.org/Article">
               <div class="encabezado" style="background-color:#CA198A;">
           <h1 itemprop="name">Delitos en La Laguna</h1>
           <div class="encabezado-descripcion" itemprop="description">Total de delitos cometidos.</div>
@@ -1037,6 +1037,41 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
 <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="../js/sb-admin-2.js"></script>
 <script>
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2014-01-31', dato: 1433 },{ fecha: '2014-02-28', dato: 1279 },{ fecha: '2014-03-31', dato: 1274 },{ fecha: '2014-04-30', dato: 1201 },{ fecha: '2014-05-31', dato: 1536 },{ fecha: '2014-06-30', dato: 1201 },{ fecha: '2014-07-31', dato: 1255 },{ fecha: '2014-08-31', dato: 1341 },{ fecha: '2014-09-30', dato: 1314 },{ fecha: '2014-10-31', dato: 1414 },{ fecha: '2014-11-30', dato: 1179 },{ fecha: '2014-12-31', dato: 1073 },{ fecha: '2015-01-31', dato: 1299 },{ fecha: '2015-02-28', dato: 1319 },{ fecha: '2015-03-31', dato: 1175 },{ fecha: '2015-04-30', dato: 1561 },{ fecha: '2015-05-31', dato: 1431 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 592 },{ region: 'Gómez Palacio', dato: 609 },{ region: 'Lerdo', dato: 165 },{ region: 'Matamoros', dato: 65 },{ region: 'La Laguna', dato: 1431 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
+    });
+  }
+});
+// TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
+$(document).ready(function(){
+  $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
+});
+// COMPARTIR EN REDES SOCIALES
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 <script>

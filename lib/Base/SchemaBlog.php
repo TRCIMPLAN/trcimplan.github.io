@@ -79,10 +79,14 @@ class SchemaBlog extends SchemaCreativeWork {
             $a[] = $this->description_html();
         }
         $a[] = $this->image_html();
-        if ($this->extra != '') {
-            $a[] = $this->extra;
+        if ($this->big_heading) {
+            $a[] = '</div></article>';
+        } else {
+            $a[] = '</div>';
         }
-        $a[] = '</div></article>';
+        if ($this->extra != '') {
+            $a[] = "<aside>{$this->extra}</aside>";
+        }
         // Entregar
         return implode("\n$spaces", $a);
     } // html

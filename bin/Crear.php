@@ -59,6 +59,7 @@ $clases = array(
     '\SMICategorias\Imprenta',
     '\SMIGeorreferenciados\Imprenta',
     '\Terminos\Imprenta');
+
 // Imprimir
 try {
     foreach ($clases as $clase) {

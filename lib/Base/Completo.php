@@ -73,10 +73,8 @@ class Completo {
         $a = array();
         // Si el contenido de la publicación es una instancia
         if ($this->publicacion->es_contenido_esquema()) {
-            //$a[] = '<article>';
             // Es una instancia de esquema, debe tener el método html
             $a[] = $this->publicacion->html();
-            //$a[] = '</article>';
         } else {
             // Es texto
             $a[] = '<article>';
@@ -130,12 +128,17 @@ class Completo {
      * @return string Código Javascript
      */
     public function javascript() {
-        // Javascript Twitter
+        // Acumularemos la entrega en este arreglo
+        $a = array();
+        // Acumular Javascript de la publicación
+        $a[] = $this->publicacion->javascript();
+        // Acumular Twitter
         if ($this->publicacion->para_compartir && (strtolower($this->publicacion->estado) == 'publicar')) {
-            return '!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");';
-        } else {
-            return '';
+            $a[] = '// COMPARTIR EN REDES SOCIALES';
+            $a[] = '!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");';
         }
+        // Entregar
+        return implode("\n", $a);
     } // javascript
 
 } // Clase Completo

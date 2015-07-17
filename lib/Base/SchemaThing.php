@@ -190,7 +190,11 @@ class SchemaThing {
         }
         $a[] = $this->image_html();
         $a[] = $this->url_html();
-        $a[] = '</div></article>';
+        if ($this->big_heading) {
+            $a[] = '</div></article>';
+        } else {
+            $a[] = '</div>';
+        }
         if ($this->extra != '') {
             $a[] = "<aside>{$this->extra}</aside>";
         }

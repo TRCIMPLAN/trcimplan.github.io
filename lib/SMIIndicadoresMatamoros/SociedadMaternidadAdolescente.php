@@ -392,7 +392,7 @@ FINAL;
      */
     public function javascript() {
         // JavaScript
-        $this->javascript = <<<FINAL
+        $this->javascript[] = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica

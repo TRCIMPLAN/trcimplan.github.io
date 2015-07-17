@@ -651,7 +651,7 @@ FINAL;
      */
     public function javascript() {
         // JavaScript
-        $this->javascript = <<<FINAL
+        $this->javascript[] = <<<FINAL
 // TWITTER BOOTSTRAP TABS, ESTABLECER QUE LA LENGÜETA ACTIVA ES smi-indicador-datos
 $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')

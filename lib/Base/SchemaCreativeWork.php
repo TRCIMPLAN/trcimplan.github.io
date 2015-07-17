@@ -179,7 +179,11 @@ class SchemaCreativeWork extends SchemaThing {
             $this->contentLocation->identation     = $this->identation + 1;
             $a[] = $this->contentLocation->html();
         }
-        $a[] = '</div></article>';
+        if ($this->big_heading) {
+            $a[] = '</div></article>';
+        } else {
+            $a[] = '</div>';
+        }
         if ($this->extra != '') {
             $a[] = "<aside>{$this->extra}</aside>";
         }

@@ -100,10 +100,14 @@ class SchemaContactPoint extends SchemaThing {
         $a[] = $this->telephone_html();
         $a[] = $this->email_html();
         $a[] = $this->url_html();
-        if ($this->extra != '') {
-            $a[] = $this->extra;
+        if ($this->big_heading) {
+            $a[] = '</div></article>';
+        } else {
+            $a[] = '</div>';
         }
-        $a[] = '</div>';
+        if ($this->extra != '') {
+            $a[] = "<aside>{$this->extra}</aside>";
+        }
         // Entregar
         return implode("\n$spaces", $a);
     } // html
