@@ -64,8 +64,6 @@ class HaciaUnaConurbacionSustentableDeLaLaguna extends \Base\Publicacion {
         $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/HaciaUnaConurbacionSustentableDeLaLaguna.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
         // Para redifusión, si tiene la imagen, se pone la imagen y después el contenido
         if ($this->imagen != '') {
             $this->redifusion   = "<img src=\"{$this->imagen}\"><br>\n\n{$schema->articleBody}";

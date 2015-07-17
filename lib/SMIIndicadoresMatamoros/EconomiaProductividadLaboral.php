@@ -68,7 +68,18 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
         $schema->image_show      = false;
         $schema->author          = $this->autor;
         $schema->contentLocation = $lugar;
-        $schema->articleBody     = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido         = $schema;
+    } // constructor
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Cargar en el Schema el HTML de las lengüetas
+        $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -157,7 +168,8 @@ class EconomiaProductividadLaboral extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $schema->extra           = <<<FINAL
+        // Cargar en el Schema el HTML con los artículos relacionados
+        $this->contenido->extra = <<<FINAL
       <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -298,6 +310,30 @@ FINAL;
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-desempleo.html">Desempleo en La Laguna</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-desempleo.html">Desempleo en Lerdo</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-desempleo.html">Desempleo en Matamoros</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-desempleo.html">Desempleo en Torreón</a></td>
+            <td>Cantidad de personas desempleadas.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/economia-inversion-extranjera-directa.html">Inversión Extranjera Directa en Gómez Palacio</a></td>
             <td>Promedio de inversión entre 2008 y 2012.</td>
           </tr>
@@ -354,90 +390,6 @@ FINAL;
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-inversion-per-capita.html">Inversión Per cápita en Torreón</a></td>
             <td>Gasto en obras públicas y acciones sociales entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Gómez Palacio</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en La Laguna</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Lerdo</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Matamoros</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Torreón</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-productividad-laboral.html">Productividad Laboral en Gómez Palacio</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-productividad-laboral.html">Productividad Laboral en La Laguna</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-productividad-laboral.html">Productividad Laboral en Lerdo</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-productividad-laboral.html">Productividad Laboral en Matamoros</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-productividad-laboral.html">Productividad Laboral en Torreón</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-desempleo.html">Desempleo en La Laguna</a></td>
-            <td>Cantidad de personas desempleadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-desempleo.html">Desempleo en Lerdo</a></td>
-            <td>Cantidad de personas desempleadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-desempleo.html">Desempleo en Matamoros</a></td>
-            <td>Cantidad de personas desempleadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-desempleo.html">Desempleo en Torreón</a></td>
-            <td>Cantidad de personas desempleadas.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -528,6 +480,66 @@ FINAL;
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Torreón</a></td>
             <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Gómez Palacio</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en La Laguna</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Lerdo</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Matamoros</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Torreón</a></td>
+            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-productividad-laboral.html">Productividad Laboral en Gómez Palacio</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-productividad-laboral.html">Productividad Laboral en La Laguna</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-productividad-laboral.html">Productividad Laboral en Lerdo</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-productividad-laboral.html">Productividad Laboral en Matamoros</a></td>
+            <td>PIB sin petróleo / PEA.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-productividad-laboral.html">Productividad Laboral en Torreón</a></td>
+            <td>PIB sin petróleo / PEA.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -670,10 +682,18 @@ FINAL;
         </tbody>
       </table>
 FINAL;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido         = $schema;
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
         // JavaScript
-        $this->javascript        = <<<FINAL
+        $this->javascript = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -693,8 +713,18 @@ $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion        = <<<FINAL
+        $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
 <p>PIB sin petróleo / PEA.</p>
 
@@ -722,7 +752,9 @@ FINAL;
 <p>Indicador tomado del Índice de Competitividad Urbana 2012 del Instituto Mexicano para la Competitividad. Ir a <a href="http://porciudad.comparadondevives.org/contacto">base de datos</a></p>
 
 FINAL;
-    } // constructor
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase EconomiaProductividadLaboral
 

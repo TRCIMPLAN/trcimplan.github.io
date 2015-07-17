@@ -68,7 +68,18 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
         $schema->image_show      = false;
         $schema->author          = $this->autor;
         $schema->contentLocation = $lugar;
-        $schema->articleBody     = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido         = $schema;
+    } // constructor
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Cargar en el Schema el HTML de las lengüetas
+        $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -192,7 +203,8 @@ class SociedadIndiceDeDesarrolloHumanoIdh extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $schema->extra           = <<<FINAL
+        // Cargar en el Schema el HTML con los artículos relacionados
+        $this->contenido->extra = <<<FINAL
       <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -495,10 +507,18 @@ FINAL;
         </tbody>
       </table>
 FINAL;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido         = $schema;
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
         // JavaScript
-        $this->javascript        = <<<FINAL
+        $this->javascript = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -534,8 +554,18 @@ $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion        = <<<FINAL
+        $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
 <p>El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones Unidas para el Desarrollo, abarca tres temas fundamentales: salud, educación e ingreso. Su metodología original aplicada a países se compone de: esperanza de vida al nacer, tasa de matriculación escolar, tasa de alfabetización y PIB per cápita anual en dólares. Para calcular el IDH a nivel municipal (IDHM) en México, se han llevado a cabo algunos ajustes debido a las restricciones en la disponibilidad de información, a nivel municipal, de los indicadores establecidos en su definición original, por lo cual se compone de: sobrevivencia infantil, tasa de asistencia escolar, tasa de alfabetización e Ingreso promedio per cápita anual en dólares. La metodología completa se puede consultar en <a href="http://www.undp.org.mx/desarrollohumano/disco/index.html">PNUD</a>.</p>
 
@@ -572,7 +602,9 @@ FINAL;
       </table>
       <p><b>Unidad:</b> De 0 a 1.</p>
 FINAL;
-    } // constructor
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase SociedadIndiceDeDesarrolloHumanoIdh
 

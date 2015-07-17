@@ -68,7 +68,18 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         $schema->image_show      = false;
         $schema->author          = $this->autor;
         $schema->contentLocation = $lugar;
-        $schema->articleBody     = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido         = $schema;
+    } // constructor
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Cargar en el Schema el HTML de las lengüetas
+        $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
@@ -261,7 +272,8 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $schema->extra           = <<<FINAL
+        // Cargar en el Schema el HTML con los artículos relacionados
+        $this->contenido->extra = <<<FINAL
       <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -1091,10 +1103,18 @@ Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
         </tbody>
       </table>
 FINAL;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido         = $schema;
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
         // JavaScript
-        $this->javascript        = <<<FINAL
+        $this->javascript = <<<FINAL
 // LENGUETA smi-indicador-grafica
 $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -1130,8 +1150,18 @@ $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion        = <<<FINAL
+        $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
 <p>Vehículos automotores registrados en circulación.</p>
 
@@ -1237,7 +1267,9 @@ FINAL;
 <p>Índice de motorización. Consulta la <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/transporte/vehiculos.asp?s=est&amp;c=13158&amp;proy=vmrc_vehiculos">Base de Datos</a></p>
 
 FINAL;
-    } // constructor
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase SustentabilidadMotorizacion
 

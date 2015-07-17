@@ -140,15 +140,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         // La clave del arreglo asociativo es el tiempo_creado-archivo y sirve para ordenarlo
         $clave = sprintf('%s-%s', $publicacion->tiempo_creado(), $publicacion->archivo);
         // Tomar el contenido
-        if ($publicacion->redifusion != '') {
-            $contenido = $publicacion->redifusion;
-        } elseif (is_object($publicacion->contenido) && ($publicacion->contenido instanceof SchemaArticle)) {
-            $contenido = $publicacion->contenido->articleBody;
-        } elseif (is_object($publicacion->contenido)) {
-            throw new \Exception("Error en Redifusión: El contenido de la publicación {$publicacion->nombre} es una instancia que no se puede agregar.");
-        } else {
-            $contenido = $publicacion->contenido;
-        }
+        $contenido = $publicacion->redifusion_html();
         // Acumular
         $this->elementos[$clave] = array(
             'id'          => $id,

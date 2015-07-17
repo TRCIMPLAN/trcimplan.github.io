@@ -62,8 +62,6 @@ class ReflexionCrecimientoUrbanoTorreon extends \Base\Publicacion {
         $schema->articleBody   = $this->cargar_archivo_markdown_extra('lib/Blog/ReflexionCrecimientoUrbanoTorreon.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
-        // Sin JavaScript
-        $this->javascript      = '';
         // Para redifusión
         $this->redifusion      = $schema->articleBody;
     } // constructor

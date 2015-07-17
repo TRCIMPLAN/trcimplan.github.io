@@ -68,7 +68,18 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
         $schema->image_show      = false;
         $schema->author          = $this->autor;
         $schema->contentLocation = $lugar;
-        $schema->articleBody     = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido         = $schema;
+    } // constructor
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Cargar en el Schema el HTML de las lengüetas
+        $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -157,7 +168,8 @@ class EconomiaIndiceDeGini extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $schema->extra           = <<<FINAL
+        // Cargar en el Schema el HTML con los artículos relacionados
+        $this->contenido->extra = <<<FINAL
       <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -460,10 +472,18 @@ FINAL;
         </tbody>
       </table>
 FINAL;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido         = $schema;
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
         // JavaScript
-        $this->javascript        = <<<FINAL
+        $this->javascript = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -483,8 +503,18 @@ $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion        = <<<FINAL
+        $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
 <p>Indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad.</p>
 
@@ -512,7 +542,9 @@ FINAL;
 <p>El índice de Ginni a nivel nacional es de: 0.472. Datos obtenidos de <a href="http://www.coneval.gob.mx/Paginas/principal.aspx">CONEVAL</a></p>
 
 FINAL;
-    } // constructor
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase EconomiaIndiceDeGini
 

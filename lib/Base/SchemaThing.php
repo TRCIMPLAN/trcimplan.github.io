@@ -170,9 +170,17 @@ class SchemaThing {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Thing\">";
+            if ($this->big_heading) {
+                $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Thing\">";
+            } else {
+                $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Thing\">";
+            }
         } else {
-            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Thing">';
+            if ($this->big_heading) {
+                $a[] = $spaces.'<article><div itemscope itemtype="http://schema.org/Thing">';
+            } else {
+                $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Thing">';
+            }
         }
         if ($this->big_heading) {
             $a[] = $this->big_heading_html();
@@ -189,6 +197,15 @@ class SchemaThing {
         // Entregar
         return implode("\n$spaces", $a);
     } // html
+
+    /**
+     * Javascript
+     *
+     * @return String Texto vacío porque no hay Javascript
+     */
+    public function javascript() {
+        return '';
+    } // javascript
 
 } // Clase SchemaThing
 

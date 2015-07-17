@@ -72,11 +72,11 @@ class Completo {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Si el contenido de la publicación es una instancia
-        if (is_object($this->publicacion->contenido)) {
-            $a[] = '<article>';
+        if ($this->publicacion->es_contenido_esquema()) {
+            //$a[] = '<article>';
             // Es una instancia de esquema, debe tener el método html
-            $a[] = $this->publicacion->contenido->html();
-            $a[] = '</article>';
+            $a[] = $this->publicacion->html();
+            //$a[] = '</article>';
         } else {
             // Es texto
             $a[] = '<article>';
@@ -109,7 +109,7 @@ class Completo {
                 $a[] = "    <p class=\"autor-fecha\">$autor_fecha</p>";
             }
             $a[] = '  </header>';
-            $a[] = $this->publicacion->contenido;
+            $a[] = $this->publicacion->html();
             $a[] = '</article>';
         }
         // Agregar botones para compartir en redes sociales

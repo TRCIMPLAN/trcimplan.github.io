@@ -82,9 +82,17 @@ class SchemaProduct extends SchemaThing {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Product\">";
+            if ($this->big_heading) {
+                $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Product\">";
+            } else {
+                $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Product\">";
+            }
         } else {
-            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Product">';
+            if ($this->big_heading) {
+                $a[] = $spaces.'<article><div itemscope itemtype="http://schema.org/Product">';
+            } else {
+                $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Product">';
+            }
         }
         if ($this->big_heading) {
             $a[] = $this->big_heading_html();

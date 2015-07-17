@@ -60,9 +60,17 @@ class SchemaBlogPosting extends SchemaArticle {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/BlogPosting\">";
+            if ($this->big_heading) {
+                $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/BlogPosting\">";
+            } else {
+                $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/BlogPosting\">";
+            }
         } else {
-            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/BlogPosting">';
+            if ($this->big_heading) {
+                $a[] = $spaces.'<article><div itemscope itemtype="http://schema.org/BlogPosting">';
+            } else {
+                $a[] = $spaces.'<div itemscope itemtype="http://schema.org/BlogPosting">';
+            }
         }
         if ($this->big_heading) {
             $a[] = $this->big_heading_html();
@@ -75,7 +83,7 @@ class SchemaBlogPosting extends SchemaArticle {
         if ($this->extra != '') {
             $a[] = $this->extra;
         }
-        $a[] = '</div>';
+        $a[] = '</div></article>';
         // Entregar
         return implode("\n$spaces", $a);
     } // html

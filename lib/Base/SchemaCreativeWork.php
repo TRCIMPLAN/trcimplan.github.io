@@ -160,9 +160,17 @@ class SchemaCreativeWork extends SchemaThing {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/CreativeWork\">";
+            if ($this->big_heading) {
+                $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/CreativeWork\">";
+            } else {
+                $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/CreativeWork\">";
+            }
         } else {
-            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/CreativeWork">';
+            if ($this->big_heading) {
+                $a[] = $spaces.'<article><div itemscope itemtype="http://schema.org/CreativeWork">';
+            } else {
+                $a[] = $spaces.'<div itemscope itemtype="http://schema.org/CreativeWork">';
+            }
         }
         $a[] = $this->big_heading_html();
         $a[] = $this->image_html();

@@ -66,13 +66,6 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         if (($publicacion->archivo == '') || ($publicacion->directorio == '')) {
             return false;
         }
-        // Omitir cuando NO tiene contenido
-        if (is_string($publicacion->contenido) && ($publicacion->contenido == '')) {
-            return false;
-        }
-        if (is_array($publicacion->contenido) && (count($publicacion->contenido) == 0)) {
-            return false;
-        }
         // Validar Navegación
         if (!is_object($this->navegacion) || !($this->navegacion instanceof Navegacion)) {
             throw new \Exception("Error en Plantilla, incorporar_publicacion: La propiedad navegacion no es instancia de Navegacion.");
@@ -98,18 +91,6 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $this->imagen_previa_ruta = '';
         }
         $this->icono        = $publicacion->icono;
-        // Acumular el código Javascript que venga en la publicación
-        if (is_array($publicacion->javascript)) {
-            foreach ($publicacion->javascript as $js) {
-                if (is_string($js)) {
-                    if ($js != '') $this->javascript[] = $js;
-                } else {
-                    throw new \Exception("Error en Plantilla, incorporar_publicación: El javascript en {$this->titulo} es incorrecto.");
-                }
-            }
-        } else {
-            $this->javascript[] = $publicacion->javascript;
-        }
         // Entregar verdadero
         return true;
     } // incorporar_publicacion

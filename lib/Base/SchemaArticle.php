@@ -88,9 +88,17 @@ class SchemaArticle extends SchemaCreativeWork {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Article\">";
+            if ($this->big_heading) {
+                $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Article\">";
+            } else {
+                $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Article\">";
+            }
         } else {
-            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Article">';
+            if ($this->big_heading) {
+                $a[] = $spaces.'<article><div itemscope itemtype="http://schema.org/Article">';
+            } else {
+                $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Article">';
+            }
         }
         if ($this->big_heading) {
             $a[] = $this->big_heading_html();
@@ -105,7 +113,11 @@ class SchemaArticle extends SchemaCreativeWork {
             $this->contentLocation->identation     = $this->identation + 1;
             $a[] = $this->contentLocation->html();
         }
-        $a[] = '</div></article>';
+        if ($this->big_heading) {
+            $a[] = '</div></article>';
+        } else {
+            $a[] = '</div>';
+        }
         if ($this->extra != '') {
             $a[] = "<aside>{$this->extra}</aside>";
         }

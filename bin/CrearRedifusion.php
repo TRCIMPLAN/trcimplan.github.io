@@ -53,14 +53,13 @@ $directorios = array(
     'SIGMapasTorreon',
     'SIGPlanes',
     'SMI',
-    'SMICategorias');
-/*
+    'SMICategorias',
     'SMIIndicadoresTorreon',
     'SMIIndicadoresGomezPalacio',
     'SMIIndicadoresLerdo',
     'SMIIndicadoresMatamoros',
     'SMIIndicadoresLaLaguna');
- */
+
 // Recolectar publicaciones
 $impresor = new \Base\Imprenta();
 try {

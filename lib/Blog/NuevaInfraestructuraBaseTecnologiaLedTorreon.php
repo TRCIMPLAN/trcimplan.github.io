@@ -61,8 +61,6 @@ class NuevaInfraestructuraBaseTecnologiaLedTorreon extends \Base\Publicacion {
         $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/NuevaInfraestructuraBaseTecnologiaLedTorreon.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
         // Para redifusión, como se repite la imagen previa en el contenido, se omite
         $this->redifusion       = $schema->articleBody;
     } // constructor

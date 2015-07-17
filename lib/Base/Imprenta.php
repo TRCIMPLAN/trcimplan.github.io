@@ -168,18 +168,11 @@ class Imprenta extends \Configuracion\ImprentaConfig {
                     continue;
                 }
                 // Si la publicación NO tiene color para el encabezado, se copia el de la imprenta
-                if (($in_encabezado_color != '') && ($publicacion->encabezado_color == '')) {
-                    $publicacion->encabezado_color = $in_encabezado_color;
-                    // Puede que en el constructor el contenido se ha cargado con un esquema SchemaCreativeWork
-                    if ((is_object($publicacion->contenido)) && ($publicacion->contenido instanceof SchemaCreativeWork)) {
-                        $publicacion->contenido->headline_style = $in_encabezado_color;
-                    }
+                if ($in_encabezado_color != '') {
+                    $publicacion->definir_encabezado_color($in_encabezado_color);
                 }
-                if (($in_encabezado_icono != '') && ($publicacion->nombre_menu == '')) {
-                    // Puede que en el constructor el contenido se ha cargado con un esquema SchemaCreativeWork
-                    if ((is_object($publicacion->contenido)) && ($publicacion->contenido instanceof SchemaCreativeWork)) {
-                        $publicacion->contenido->headline_icon = $in_encabezado_icono;
-                    }
+                if ($in_encabezado_icono != '') {
+                    $publicacion->definir_encabezado_icono($in_encabezado_icono);
                 }
                 // La clave del arreglo asociativo es el tiempo_creado-clase, donde clase es Directorio/Archivo
                 $clave              = "{$publicacion->tiempo_creado()}-{$clase}";

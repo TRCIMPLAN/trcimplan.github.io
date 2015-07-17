@@ -113,8 +113,6 @@ class MovilidadLaboralCotidianaZML extends \Base\Publicacion {
 FINAL;
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
         // Para redifusión, como la imagen previa aparece en el contenido, no la incluimos
         $this->redifusion       = $schema->articleBody;
     } // constructor

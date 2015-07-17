@@ -61,8 +61,6 @@ class FranciscoIMaderoEjemploRescateEspacioPublico extends \Base\Publicacion {
         $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/FranciscoIMaderoEjemploRescateEspacioPublico.md');
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
         // Para redifusión, como se repite en el contenido la imagen previa, se omite
         $this->redifusion       = $schema->articleBody;
     } // constructor

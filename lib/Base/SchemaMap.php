@@ -94,9 +94,17 @@ class SchemaMap extends SchemaCreativeWork {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Map\">";
+            if ($this->big_heading) {
+                $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Map\">";
+            } else {
+                $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/Map\">";
+            }
         } else {
-            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Map">';
+            if ($this->big_heading) {
+                $a[] = $spaces.'<article><div itemscope itemtype="http://schema.org/Map">';
+            } else {
+                $a[] = $spaces.'<div itemscope itemtype="http://schema.org/Map">';
+            }
         }
         if ($this->big_heading) {
             $a[] = $this->big_heading_html();

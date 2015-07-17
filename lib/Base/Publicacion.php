@@ -45,11 +45,11 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $categorias       = array();   // Arreglo con las categorías de la publicación
     public $encabezado;                   // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
     public $encabezado_color;             // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
-    public $contenido        = array();   // Contenido código HTML de la publicación
-    public $javascript       = array();   // Opcional. Código Javascript. Debe estar aparte para ponerlo al final de la página.
+    protected $contenido     = array();   // Contenido código HTML de la publicación
+    protected $javascript    = array();   // Código Javascript. Debe estar aparte para ponerlo al final de la página.
     public $url;                          // Opcional. Cuando la propiedad archivo no se defina, entonces será sólo un vínculo a este URL de destino. Puede apuntar a un archivo descargable o a un URL absoluto.
     public $url_etiqueta;                 // Opcional. Cuando la propiedad archivo no se defina, entonces se usa esta etiqueta para el vínculo o botón.
-    public $redifusion       = '';        // Opcional. Código HTML con la publicación que va para redifusión (RSS feed).
+    protected $redifusion    = array();   // Código HTML con la publicación que va para redifusión (RSS feed).
     public $en_raiz          = false;     // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
     public $en_otro          = false;     // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
     public $archivo_url;                  // NO LO USE. Lo define el método validar en base a otra propiedades.
@@ -326,6 +326,124 @@ class Publicacion extends \Configuracion\PublicacionConfig {
         $html_tb = str_replace('<table>', '<table class="table table-hover table-bordered">', $html); // Tablas de Twitter Bootstrap
         return $html_tb;
     } // cargar_archivo_markdown_extra
+
+    /**
+     * Es Contenido Esquema
+     *
+     * Si el contenido es una instancia de esquema, entonces se encargará de poner el encabezado en la página. Es usado en Completo.
+     *
+     * @return boolena Verdadero si el contenido es una instancia de Schema
+     */
+    public function es_contenido_esquema() {
+        if (is_object($this->contenido) && ($this->contenido instanceof SchemaCreativeWork)) {
+            return true;
+        } else {
+            return false;
+        }
+    } // es_contenido_esquema
+
+    /**
+     * Definir Color del Encabezado
+     *
+     * @param String Color
+     */
+    public function definir_encabezado_color($in_color) {
+        $this->encabezado_color = $in_color;
+        if ($this->es_contenido_esquema()) {
+            $this->contenido->headline_style = $in_color;
+        }
+    } // definir_encabezado_color
+
+    /**
+     * Definir Icono del Encabezado
+     *
+     * @param String Icono
+     */
+    public function definir_encabezado_icono($in_icono) {
+        if ($this->es_contenido_esquema()) {
+            $this->contenido->headline_icon = $in_icono;
+        }
+    } // definir_encabezado_icono
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        if (is_object($this->contenido)) {
+            $html = $this->contenido->html();
+            if (is_array($this->javascript)) {
+                $this->javascript[] = $this->contenido->javascript();
+            } else {
+                $this->javascript = array($this->contenido->javascript());
+            }
+            return $html;
+        } elseif (is_array($this->contenido) && (count($this->contenido) > 1)) {
+            $a = array();
+            foreach ($this->contenido as $c) {
+                if (is_object($c)) {
+                    $html = $c->html();
+                    if (is_array($this->javascript)) {
+                        $this->javascript[] = $c->javascript();
+                    } else {
+                        $this->javascript = array($c->javascript());
+                    }
+                } elseif (is_string($c) && ($c != '')) {
+                    $a[] = $c;
+                }
+            }
+            return implode("\n", $a);
+        } elseif (is_string($this->contenido) && ($this->contenido != '')) {
+            return $this->contenido;
+        } else {
+            return '';
+        }
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
+        if (is_array($this->javascript) && (count($this->javascript) > 1)) {
+            $a = array();
+            foreach ($this->javascript as $c) {
+                if ($c != '') {
+                    $a[] = $c;
+                }
+            }
+            return implode("\n", $a);
+        } elseif (is_string($this->javascript) && ($this->javascript != '')) {
+            return $this->javascript;
+        } else {
+            return '';
+        }
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        if (is_array($this->redifusion) && (count($this->redifusion) > 1)) {
+            $a = array();
+            foreach ($this->redifusion as $c) {
+                if ($c != '') {
+                    $a[] = $c;
+                }
+            }
+            return implode("\n", $a);
+        } elseif (is_string($this->redifusion) && ($this->redifusion != '')) {
+            return $this->redifusion;
+        } elseif (is_string($this->contenido) && ($this->contenido != '')) {
+            return $this->contenido;
+        } else {
+            return '';
+        }
+    } // redifusion_html
 
 } // Clase Publicacion
 

@@ -68,7 +68,18 @@ class SociedadTasaDeMortalidadMaterna extends \Base\Publicacion {
         $schema->image_show      = false;
         $schema->author          = $this->autor;
         $schema->contentLocation = $lugar;
-        $schema->articleBody     = <<<FINAL
+        // El contenido es una instancia de SchemaArticle
+        $this->contenido         = $schema;
+    } // constructor
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Cargar en el Schema el HTML de las lengüetas
+        $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
@@ -157,7 +168,8 @@ class SociedadTasaDeMortalidadMaterna extends \Base\Publicacion {
     </div>
   </div>
 FINAL;
-        $schema->extra           = <<<FINAL
+        // Cargar en el Schema el HTML con los artículos relacionados
+        $this->contenido->extra = <<<FINAL
       <h3>Publicaciones relacionadas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -640,10 +652,18 @@ FINAL;
         </tbody>
       </table>
 FINAL;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido         = $schema;
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
         // JavaScript
-        $this->javascript        = <<<FINAL
+        $this->javascript = <<<FINAL
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
@@ -663,8 +683,18 @@ $(document).ready(function(){
   $('#smi-indicador a[href="#smi-indicador-datos"]').tab('show')
 });
 FINAL;
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
-        $this->redifusion        = <<<FINAL
+        $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
 <p>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</p>
 
@@ -692,7 +722,9 @@ FINAL;
 <p>Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014]</p>
 
 FINAL;
-    } // constructor
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase SociedadTasaDeMortalidadMaterna
 

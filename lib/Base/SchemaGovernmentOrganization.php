@@ -57,9 +57,17 @@ class SchemaGovernmentOrganization extends SchemaOrganization {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/GovernmentOrganization\">";
+            if ($this->big_heading) {
+                $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/GovernmentOrganization\">";
+            } else {
+                $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/GovernmentOrganization\">";
+            }
         } else {
-            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/GovernmentOrganization">';
+            if ($this->big_heading) {
+                $a[] = $spaces.'<article><div itemscope itemtype="http://schema.org/GovernmentOrganization">';
+            } else {
+                $a[] = $spaces.'<div itemscope itemtype="http://schema.org/GovernmentOrganization">';
+            }
         }
         if ($this->big_heading) {
             $a[] = $this->big_heading_html();

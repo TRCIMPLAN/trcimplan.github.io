@@ -38,7 +38,7 @@ echo "$soy Inicia.\n";
 
 // Iniciar el mapa
 $mapa = new \Base\MapaSitio();
-$mapa->agregar_url('index.html',                           date('Y-m-d'), 'daily', '1'); // la página inicial
+$mapa->agregar_url('index.html', date('Y-m-d'), 'daily', '1'); // la página inicial
 
 // Arreglo con los directorios de donde se tomarán las publicaciones
 $directorios = array(
@@ -56,14 +56,13 @@ $directorios = array(
     'SIGPlanes',
     'SMI',
     'SMICategorias',
-    'Terminos');
-/*
     'SMIIndicadoresTorreon',
     'SMIIndicadoresGomezPalacio',
     'SMIIndicadoresLerdo',
     'SMIIndicadoresMatamoros',
     'SMIIndicadoresLaLaguna',
- */
+    'Terminos');
+
 // Recolectar publicaciones
 $impresor = new \Base\Imprenta();
 try {

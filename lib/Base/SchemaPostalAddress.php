@@ -114,9 +114,17 @@ class SchemaPostalAddress extends SchemaContactPoint {
         $a = array();
         // Acumular
         if ($this->onTypeProperty != '') {
-            $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/PostalAddress\">";
+            if ($this->big_heading) {
+                $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/PostalAddress\">";
+            } else {
+                $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/PostalAddress\">";
+            }
         } else {
-            $a[] = $spaces.'<div itemscope itemtype="http://schema.org/PostalAddress">';
+            if ($this->big_heading) {
+                $a[] = $spaces.'<article><div itemscope itemtype="http://schema.org/PostalAddress">';
+            } else {
+                $a[] = $spaces.'<div itemscope itemtype="http://schema.org/PostalAddress">';
+            }
         }
         if ($this->big_heading) {
             $a[] = $this->big_heading_html();
