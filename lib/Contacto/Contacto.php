@@ -52,7 +52,7 @@ class Contacto extends \Base\Publicacion {
         $this->para_compartir   = false;
         // El contenido es estructurado en un esquema
         $trcimplan              = new \Base\SchemaGovernmentOrganization();
-        $trcimplan->big_heading = true;
+        $trcimplan->big_heading = false;
         $trcimplan->name        = 'Instituto Municipal de Planeación y Competitividad de Torreón';
         $trcimplan->description = 'Órgano técnico responsable de la planeación municipal del desarrollo del municipio de Torreón, Coahuila, México.';
         $trcimplan->image       = '../imagenes/trcimplan.jpg';
@@ -101,12 +101,20 @@ FINAL;
 
 FINAL;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido  = $trcimplan;
-        // Sin JavaScript
-        $this->javascript = '';
-        // Para redifusión
-        $this->redifusion = sprintf('<a href="%s">%s</a>', "{$this->directorio}/{$this->archivo}.html", $this->descripcion);
+        $this->contenido = $trcimplan;
     } // constructor
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Para redifusión sólo en vínculo a esta página
+        $this->redifusion = sprintf('<a href="%s">%s</a>', "{$this->directorio}/{$this->archivo}.html", $this->descripcion);
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase Contacto
 

@@ -87,9 +87,6 @@ class EconomiaGrandesEmpresasSegunCnnExpansion extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Descripción</h3>
-<p>Mide el número de empresas que se encuentran en el Top 500 de empresas de la revista CNN Expansión. La empresa se contabiliza si tiene su casa matriz en alguna ciudad de la muestra.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -882,9 +879,6 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Mide el número de empresas que se encuentran en el Top 500 de empresas de la revista CNN Expansión. La empresa se contabiliza si tiene su casa matriz en alguna ciudad de la muestra.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

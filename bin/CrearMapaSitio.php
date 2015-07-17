@@ -62,7 +62,6 @@ $directorios = array(
     'SMIIndicadoresMatamoros',
     'SMIIndicadoresLaLaguna',
     'Terminos');
-
 // Recolectar publicaciones
 $impresor = new \Base\Imprenta();
 try {

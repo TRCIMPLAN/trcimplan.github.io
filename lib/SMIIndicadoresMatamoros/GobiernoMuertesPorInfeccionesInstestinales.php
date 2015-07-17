@@ -87,9 +87,6 @@ class GobiernoMuertesPorInfeccionesInstestinales extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el número de muertes ocasionadas por infecciones intestinales por cada 100 mil habitantes. A falta de mediciones adecuadas de calidad del agua, este indicador capta los impactos de que una ciudad consuma agua relativamente sucia como resultado de un mal funcionamiento del organismo operador de agua local. El indicador asume una relación directa entre calidad del agua y enfermedades intestinales.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -1104,9 +1101,6 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el número de muertes ocasionadas por infecciones intestinales por cada 100 mil habitantes. A falta de mediciones adecuadas de calidad del agua, este indicador capta los impactos de que una ciudad consuma agua relativamente sucia como resultado de un mal funcionamiento del organismo operador de agua local. El indicador asume una relación directa entre calidad del agua y enfermedades intestinales.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

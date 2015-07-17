@@ -48,6 +48,7 @@ class SchemaMap extends SchemaCreativeWork {
     // public $headline_icon;       // Text. Font Awsome icon for encabezado.
     // public $producer;            // Organization or Person. The person or organization who produced the work.
     public $mapType;                // Text. Indicates the kind of Map, from the MapCategoryType Enumeration. Use 'ParkingMap', 'SeatingMap', 'TransitMap' or  'VenueMap'.
+    public $theMap;                 // Text. My code to put the map.
 
     /**
      * Botón HTML
@@ -113,12 +114,13 @@ class SchemaMap extends SchemaCreativeWork {
             $a[] = $this->description_html();
         }
         $a[] = $this->image_html();
-        $a[] = $this->boton_html();
+        $a[] = $this->theMap;
         if ($this->big_heading) {
             $a[] = '</div></article>';
         } else {
             $a[] = '</div>';
         }
+        $a[] = $this->boton_html();
         if ($this->extra != '') {
             $a[] = "<aside>{$this->extra}</aside>";
         }

@@ -87,9 +87,6 @@ class EconomiaJornadasLaboralesMuyLargas extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Descripción</h3>
-<p>Mide los trabajadores que laboran más de 48 horas por semana, como un proxy de la baja productividad del trabajo. Existe evidencia que sustenta que entre más horas se trabajen, por encima de un umbral, la productividad decrece o al menos no aumenta. Sin embargo, los efectos psicológicos y sociales de jornadas muy largas son negativos.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -1164,9 +1161,6 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Mide los trabajadores que laboran más de 48 horas por semana, como un proxy de la baja productividad del trabajo. Existe evidencia que sustenta que entre más horas se trabajen, por encima de un umbral, la productividad decrece o al menos no aumenta. Sin embargo, los efectos psicológicos y sociales de jornadas muy largas son negativos.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

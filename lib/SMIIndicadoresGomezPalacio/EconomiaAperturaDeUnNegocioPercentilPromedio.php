@@ -87,9 +87,6 @@ class EconomiaAperturaDeUnNegocioPercentilPromedio extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Gobiernos Eficaces y Eficientes". Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para abrir un negocio: número de trámites, tiempo (días) y costo (% ingresos per cápita). Este indicador se calcula a nivel estatal.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -1200,9 +1197,6 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Gobiernos Eficaces y Eficientes". Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para abrir un negocio: número de trámites, tiempo (días) y costo (% ingresos per cápita). Este indicador se calcula a nivel estatal.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

@@ -31,14 +31,18 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
+        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'Contacto';
+        // Los siguientes parámetros dan datos para el índice/galería que será creado
         $this->titulo                   = 'Contacto';
-        $this->descripcion              = 'Contacto con el IMPLAN Torreón.';
+        $this->descripcion              = 'Le invitamos a establecer contacto con el IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
+        $this->encabezado_color         = '#008000';
+        // Etiqueta de Navegación a poner activa
+        $this->nombre_menu              = 'Contacto';
+        // La ruta al archivo con el índice/galería que será creado
         $this->directorio               = 'contacto';
         $this->archivo_ruta             = 'contacto/index.html';
-        $this->nombre_menu              = 'Contacto';
-        $this->encabezado_color         = '#008000';
     } // constructor
 
 } // Clase Imprenta

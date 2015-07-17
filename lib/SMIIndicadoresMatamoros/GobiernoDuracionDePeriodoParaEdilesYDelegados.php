@@ -87,9 +87,6 @@ class GobiernoDuracionDePeriodoParaEdilesYDelegados extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Descripción</h3>
-<p>Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de años durante los cuales el gobierno municipal / delegacional ejerce el cargo. Se asume que entre más largos sean los periodos de gobierno, mayor será el aprendizaje de los funcionarios y el conocimiento acumulado, lo que podría derivar en políticas públicas más eficientes.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -993,9 +990,6 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de años durante los cuales el gobierno municipal / delegacional ejerce el cargo. Se asume que entre más largos sean los periodos de gobierno, mayor será el aprendizaje de los funcionarios y el conocimiento acumulado, lo que podría derivar en políticas públicas más eficientes.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

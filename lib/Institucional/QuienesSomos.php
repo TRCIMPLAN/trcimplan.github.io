@@ -37,10 +37,10 @@ class QuienesSomos extends \Base\Publicacion {
         $this->fecha            = '2014-05-01T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'quienes-somos';
-     // $this->imagen_previa    = '';
-        $this->encabezado_color = '#750080';
+     // $this->imagen           = '../imagenes/imagen.jpg';
+     // $this->imagen_previa    = '../imagenes/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Los integrantes del IMPLAN Torreón.';
+        $this->descripcion      = 'Quienes son integrantes del IMPLAN Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Staff, Quienes somos';
         $this->categorias       = array('Institucional');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -55,6 +55,7 @@ class QuienesSomos extends \Base\Publicacion {
         $schema                 = new \Base\SchemaArticle();
         $schema->description    = $this->descripcion;
         $schema->image          = $this->imagen_previa;
+        $schema->image_show     = false;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -62,8 +63,6 @@ class QuienesSomos extends \Base\Publicacion {
         $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Institucional/QuienesSomos.md');
         // El contenido es una instancia de SchemaArticle
         $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
     } // constructor
 
 } // Clase QuienesSomos

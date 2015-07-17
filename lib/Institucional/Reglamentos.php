@@ -37,8 +37,8 @@ class Reglamentos extends \Base\Publicacion {
         $this->fecha            = '2015-03-18T12:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'reglamentos';
-     // $this->imagen_previa    = '';
-        $this->encabezado_color = '#804000';
+     // $this->imagen           = '../imagenes/imagen.jpg';
+     // $this->imagen_previa    = '../imagenes/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Ley que crea el Instituto Municipal de Planeación y Competitividad de Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Reglamento';
@@ -55,6 +55,7 @@ class Reglamentos extends \Base\Publicacion {
         $schema                 = new \Base\SchemaArticle();
         $schema->description    = $this->descripcion;
         $schema->image          = $this->imagen_previa;
+        $schema->image_show     = false;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -67,8 +68,6 @@ Descargue el <a href="congreso-coahuila-decreto-047-15.pdf">Decreto número 47 c
 FINAL;
         // El contenido es una instancia de SchemaArticle
         $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
     } // constructor
 
 } // Clase Reglamentos

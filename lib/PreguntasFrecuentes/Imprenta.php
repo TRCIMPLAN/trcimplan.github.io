@@ -35,8 +35,8 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->publicaciones_directorio = 'PreguntasFrecuentes';
         // Los siguientes parámetros dan datos para el índice/galería que será creado
         $this->titulo                   = 'Preguntas Frecuentes';
-        $this->descripcion              = '';
-        $this->claves                   = 'IMPLAN, Torreon';
+        $this->descripcion              = 'Las preguntas y respuestas más frecuentes del IMPLAN Torreón.';
+        $this->claves                   = 'IMPLAN, Torreon, Contacto, Telefono, Direccion, Ubicacion, Oficinas';
         $this->encabezado_color         = '#795100';
         // Etiqueta de Navegación a poner activa
         $this->nombre_menu              = 'Preguntas Frecuentes';

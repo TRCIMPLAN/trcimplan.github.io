@@ -37,8 +37,8 @@ class VisionMision extends \Base\Publicacion {
         $this->fecha            = '2014-05-01T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'vision-mision';
-     // $this->imagen_previa    = '';
-        $this->encabezado_color = '#008000';
+     // $this->imagen           = '../imagenes/imagen.jpg';
+     // $this->imagen_previa    = '../imagenes/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La Visión y la Misión del IMPLAN Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Vision, Mision';
@@ -55,6 +55,7 @@ class VisionMision extends \Base\Publicacion {
         $schema                 = new \Base\SchemaArticle();
         $schema->description    = $this->descripcion;
         $schema->image          = $this->imagen_previa;
+        $schema->image_show     = false;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -75,8 +76,6 @@ class VisionMision extends \Base\Publicacion {
 FINAL;
         // El contenido es una instancia de SchemaArticle
         $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
     } // constructor
 
 } // Clase VisionMision

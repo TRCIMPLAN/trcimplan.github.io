@@ -60,8 +60,6 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
         $schema->image          = $this->imagen;
      // $schema->image_show     = true; // Por defecto la imagen se agrega al principio del contenido
         $schema->author         = $this->autor;
-     // $schema->headline_style = $this->encabezado_color;
-     // $schema->headline_icon  = $this->nombre_menu;
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido        = $schema;
     } // constructor

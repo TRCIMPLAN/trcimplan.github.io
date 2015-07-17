@@ -37,10 +37,10 @@ class EstructuraOrganica extends \Base\Publicacion {
         $this->fecha            = '2014-05-01T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'estructura-organica';
-     // $this->imagen_previa    = '';
-        $this->encabezado_color = '#080080';
+     // $this->imagen           = '../imagenes/imagen.jpg';
+     // $this->imagen_previa    = '../imagenes/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Está formada por el Consejo Directivo, los Comités Técnicos, el Director General Ejecutivo y el Cuerpo Técnico.';
+        $this->descripcion      = 'Organigrama del IMPLAN Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Estructura, Organica, Consejo, Comites, Tecnicos, Director, Cuerpo';
         $this->categorias       = array('Institucional');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -55,6 +55,7 @@ class EstructuraOrganica extends \Base\Publicacion {
         $schema                 = new \Base\SchemaArticle();
         $schema->description    = $this->descripcion;
         $schema->image          = $this->imagen_previa;
+        $schema->image_show     = false;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;
@@ -84,8 +85,6 @@ class EstructuraOrganica extends \Base\Publicacion {
 FINAL;
         // El contenido es una instancia de SchemaArticle
         $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
     } // constructor
 
 } // Clase EstructuraOrganica

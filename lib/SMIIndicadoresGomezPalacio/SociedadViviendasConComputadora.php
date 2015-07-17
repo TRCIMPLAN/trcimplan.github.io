@@ -87,9 +87,6 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Descripción</h3>
-<p>Porcentaje de viviendas habitadas con computadora.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -798,54 +795,6 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Gómez Palacio</a></td>
-            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en La Laguna</a></td>
-            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Lerdo</a></td>
-            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Matamoros</a></td>
-            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Torreón</a></td>
-            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Gómez Palacio</a></td>
-            <td>Porcentaje de viviendas habitadas con computadora.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en La Laguna</a></td>
-            <td>Porcentaje de viviendas habitadas con computadora.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Lerdo</a></td>
-            <td>Porcentaje de viviendas habitadas con computadora.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html">Viviendas Deshabitadas en Gómez Palacio</a></td>
             <td>Viviendas deshabitadas con respecto al total de viviendas totales.</td>
           </tr>
@@ -962,6 +911,54 @@ En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de De
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-viviendas-totales.html">Viviendas Totales en Torreón</a></td>
             <td></td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Matamoros</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html">Viviendas con Agua de la Red Pública en Torreón</a></td>
+            <td>Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Gómez Palacio</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en La Laguna</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-viviendas-con-computadora.html">Viviendas con Computadora en Lerdo</a></td>
+            <td>Porcentaje de viviendas habitadas con computadora.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -1175,9 +1172,6 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Porcentaje de viviendas habitadas con computadora.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

@@ -87,9 +87,6 @@ class EconomiaEmpresasCertificadasConIso9000Y14000 extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de empresas que cuentan con el certificado ISO-9000 e ISO-14000 (certificados de calidad) que emite la Organización Internacional de Estandarización (ISO por sus siglas en inglés). Esta variable es estatal.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -882,9 +879,6 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de empresas que cuentan con el certificado ISO-9000 e ISO-14000 (certificados de calidad) que emite la Organización Internacional de Estandarización (ISO por sus siglas en inglés). Esta variable es estatal.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

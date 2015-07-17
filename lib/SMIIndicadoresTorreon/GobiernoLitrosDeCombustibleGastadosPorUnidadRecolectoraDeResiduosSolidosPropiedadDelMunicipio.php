@@ -85,9 +85,6 @@ class GobiernoLitrosDeCombustibleGastadosPorUnidadRecolectoraDeResiduosSolidosPr
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Descripción</h3>
-<p>Determina la relación de litros de combustible gastados por unidad recolectora de residuos sólidos del municipio.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -147,9 +144,6 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Determina la relación de litros de combustible gastados por unidad recolectora de residuos sólidos del municipio.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

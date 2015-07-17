@@ -64,7 +64,7 @@ class ViviendasDeshabitadas extends \Base\Publicacion {
         $mapa->mapType            = 'VenueMap';
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
-        $mapa->extra              = <<<FINAL
+        $mapa->theMap             = <<<FINAL
 <iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/e149b360-dc9e-11e4-a1e7-0e853d047bba/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
@@ -84,15 +84,35 @@ FINAL;
         $paquete->contentLocation = $lugar;
         // El contenido es una instancia de SchemaCreativeWork
         $this->contenido          = $paquete;
+    } // constructor
+
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
         // JavaScript
         // Sin caja JS
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
         // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
         if ($this->imagen != '') {
             $this->redifusion = sprintf("<a href=\"%s\"><img src=\"%s\"><br>\n\n%s</a>", "{$this->archivo}.html", $this->imagen, $this->descripcion);
         } else {
             $this->redifusion = sprintf('<a href="%s">%s</a>', "{$this->archivo}.html", $this->descripcion);
         }
-    } // constructor
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase ViviendasDeshabitadas
 

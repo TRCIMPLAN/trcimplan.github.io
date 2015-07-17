@@ -64,7 +64,7 @@ class AvanceReconversionTecnologicaLedAlumbradoPublico extends \Base\Publicacion
         $mapa->mapType            = 'VenueMap';
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
-        $mapa->extra              = <<<FINAL
+        $mapa->theMap             = <<<FINAL
 <iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <p>
  <b>Nota:</b> La información mostrada está sujeta a cambios sin previo aviso por la concesionaria.<br>
@@ -88,15 +88,35 @@ FINAL;
         $paquete->contentLocation = $lugar;
         // El contenido es una instancia de SchemaCreativeWork
         $this->contenido          = $paquete;
+    } // constructor
+
+    /**
+     * Javascript
+     *
+     * @return string No hay código Javascript, entrega un texto vacío
+     */
+    public function javascript() {
         // JavaScript
         // Sin caja JS
+        // Ejecutar este método en el padre
+        return parent::javascript();
+    } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
         // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
         if ($this->imagen != '') {
             $this->redifusion = sprintf("<a href=\"%s\"><img src=\"%s\"><br>\n\n%s</a>", "{$this->archivo}.html", $this->imagen, $this->descripcion);
         } else {
             $this->redifusion = sprintf('<a href="%s">%s</a>', "{$this->archivo}.html", $this->descripcion);
         }
-    } // constructor
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase AvanceReconversionTecnologicaLedAlumbradoPublico
 

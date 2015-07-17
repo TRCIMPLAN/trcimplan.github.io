@@ -107,11 +107,15 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         } else {
             $titulo = "{$this->titulo} - {$this->sitio_titulo}";
         }
+        // Definir título y descripción con carecteres validos para usarse como valor en un tag
+        $caracteres_buscar      = array('"', '<', '>');
+        $caracteres_reemplazar  = array("'", '-', '-');
+        $titulo_para_valor      = str_replace($caracteres_buscar, $caracteres_reemplazar, $titulo);
+        $descripcion_para_valor = str_replace($caracteres_buscar, $caracteres_reemplazar, $this->descripcion);
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
         $a[] = '<head>';
-     // $a[] = "  <base href=\"{self::$sitio_url}/\">";
         $a[] = '  <meta charset="utf-8">';
         if ($this->mensaje_oculto != '') {
             $a[] = $this->mensaje_oculto;
@@ -119,7 +123,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $a[] = '  <meta http-equiv="X-UA-Compatible" content="IE=edge">';
         $a[] = '  <meta name="viewport" content="width=device-width, initial-scale=1.0">';
         if ($this->descripcion != '') {
-            $a[] = "  <meta name=\"description\" content=\"{$this->descripcion}\">";
+            $a[] = "  <meta name=\"description\" content=\"$descripcion_para_valor\">";
         }
         if ($this->autor != '') {
             $a[] = "  <meta name=\"author\" content=\"{$this->autor}\">";
@@ -129,14 +133,14 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         }
         if ($this->para_compartir) {
             $a[] = "  <meta name=\"twitter:card\" content=\"summary\">";
-            $a[] = "  <meta name=\"twitter:title\" content=\"$titulo\">";
-            $a[] = "  <meta name=\"twitter:description\" content=\"{$this->descripcion}\">";
+            $a[] = "  <meta name=\"twitter:title\" content=\"$titulo_para_valor\">";
+            $a[] = "  <meta name=\"twitter:description\" content=\"$descripcion_para_valor\">";
             if ($this->imagen_previa_ruta != '') {
                 $a[] = sprintf('  <meta name="twitter:image" content="%s/%s">', self::$sitio_url, $this->imagen_previa_ruta);
             }
             $a[] = sprintf('  <meta name="twitter:url" content="%s/%s">', self::$sitio_url, $this->archivo_ruta);
-            $a[] = "  <meta name=\"og:title\" content=\"$titulo\">";
-            $a[] = "  <meta name=\"og:description\" content=\"{$this->descripcion}\">";
+            $a[] = "  <meta name=\"og:title\" content=\"$titulo_para_valor\">";
+            $a[] = "  <meta name=\"og:description\" content=\"$descripcion_para_valor\">";
             if ($this->imagen_previa_ruta != '') {
                 $a[] = sprintf('  <meta name="og:image" content="%s/%s">', self::$sitio_url, $this->imagen_previa_ruta);
             }

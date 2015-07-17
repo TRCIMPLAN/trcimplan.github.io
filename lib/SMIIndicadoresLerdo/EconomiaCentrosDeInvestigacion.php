@@ -87,9 +87,6 @@ class EconomiaCentrosDeInvestigacion extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de centros de investigación del CONACYT, de la UNAM y del IPN que están establecidos en cada ciudad. Esta variable se construyó a partir de los directorios públicos de cada una de las instituciones.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -882,9 +879,6 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de centros de investigación del CONACYT, de la UNAM y del IPN que están establecidos en cada ciudad. Esta variable se construyó a partir de los directorios públicos de cada una de las instituciones.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

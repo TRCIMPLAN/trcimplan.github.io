@@ -87,9 +87,6 @@ class SociedadAccesoAInstitucionesDeSalud extends \Base\Publicacion {
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
-      <h3>Descripción</h3>
-<p>incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de la población económicamente activa (PEA) que cuenta con atención médica, ya sea por parte de instituciones públicas o privadas, derivado de su trabajo actual.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -1107,9 +1104,6 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
-      <h3>Descripción</h3>
-<p>incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de la población económicamente activa (PEA) que cuenta con atención médica, ya sea por parte de instituciones públicas o privadas, derivado de su trabajo actual.</p>
-
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
