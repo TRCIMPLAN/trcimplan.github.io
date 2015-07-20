@@ -172,624 +172,124 @@ FINAL;
         </thead>
         <tbody>
           <tr>
-            <td>16/06/2015</td>
+            <td>15/07/2015</td>
             <td>Análisis</td>
-            <td><a href="../blog/alumnos-por-docente-parte-1.html">Alumnos por docente, indicador clave para la mejora de la educación (parte 1)</a></td>
+            <td><a href="../blog/alumnos-por-docente-parte-2.html">Alumnos por docente, indicador clave para la mejora de la educación (parte 2)</a></td>
             <td>Estudio sobre si debe considerarse la cantidad de alumnos por profesor como un factor en la mejora educativa.</td>
           </tr>
           <tr>
-            <td>09/06/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/panorama-educacion-superior-zml-parte-1.html">Panorama de la Educación Superior en la Z.M.L. (parte 1)</a></td>
-            <td>Al comparar la Zona Metropolitana de La Laguna (Z.M.L.) con datos nacionales se tienen más alumnos en carreras de Ingenerías y de Agronomía.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-alumnos-de-secundaria-por-docente.html">Alumnos de Secundaria por Docente en Gómez Palacio</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-alumnos-de-secundaria-por-docente.html">Alumnos de Secundaria por Docente en La Laguna</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-alumnos-de-secundaria-por-docente.html">Alumnos de Secundaria por Docente en Lerdo</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-alumnos-de-secundaria-por-docente.html">Alumnos de Secundaria por Docente en Matamoros</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-alumnos-de-secundaria-por-docente.html">Alumnos de Secundaria por Docente en Torreón</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación secundaria y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-alumnos-de-primaria-por-docente.html">Alumnos de Primaria por Docente en Gómez Palacio</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-alumnos-de-primaria-por-docente.html">Alumnos de Primaria por Docente en La Laguna</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-alumnos-de-primaria-por-docente.html">Alumnos de Primaria por Docente en Lerdo</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-alumnos-de-primaria-por-docente.html">Alumnos de Primaria por Docente en Matamoros</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-alumnos-de-primaria-por-docente.html">Alumnos de Primaria por Docente en Torreón</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente de nivel de educación primaria, basado en el número bruto de estudiantes y de docentes durante el ciclo escolar dado. Incluye las escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-alumnos-de-preescolar-por-docente.html">Alumnos de Preescolar por Docente en Gómez Palacio</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-alumnos-de-preescolar-por-docente.html">Alumnos de Preescolar por Docente en La Laguna</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-alumnos-de-preescolar-por-docente.html">Alumnos de Preescolar por Docente en Lerdo</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-alumnos-de-preescolar-por-docente.html">Alumnos de Preescolar por Docente en Matamoros</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>21/05/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-alumnos-de-preescolar-por-docente.html">Alumnos de Preescolar por Docente en Torreón</a></td>
-            <td>Número de alumnos (estudiantes) promedio por docente a nivel de educación preescolar y en un año escolar dado, basado en el número bruto de estudiantes y de docentes. Incluye escuelas públicas y privadas, así como de localidades urbanas y rurales.</td>
-          </tr>
-          <tr>
-            <td>14/04/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/papel-educacion-desarrollo-economico.html">El papel de la educación en el desarrollo económico</a></td>
-            <td>Cómo la educación contribuye al crecimiento económico y la importancia de implementar políticas públicas para incrementar su calidad.</td>
-          </tr>
-          <tr>
-            <td>27/01/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/objetivos-milenio.html">La Zona Metropolitana de La Laguna y los Objetivos del Milenio</a></td>
-            <td>En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas.</td>
-          </tr>
-          <tr>
-            <td>22/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Gómez Palacio</a></td>
-            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
-          </tr>
-          <tr>
-            <td>22/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Lerdo</a></td>
-            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
-          </tr>
-          <tr>
-            <td>22/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Matamoros</a></td>
-            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
-          </tr>
-          <tr>
-            <td>22/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón Entre Mujeres y Hombres en la Enseñanza Media Superior en Torreón</a></td>
-            <td>Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-usuarios-de-internet.html">Usuarios de Internet en Gómez Palacio</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-usuarios-de-internet.html">Usuarios de Internet en La Laguna</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-usuarios-de-internet.html">Usuarios de Internet en Lerdo</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-usuarios-de-internet.html">Usuarios de Internet en Matamoros</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-usuarios-de-internet.html">Usuarios de Internet en Torreón</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Gómez Palacio</a></td>
-            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Lerdo</a></td>
-            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Matamoros</a></td>
-            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Torreón</a></td>
-            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Gómez Palacio</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en La Laguna</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Lerdo</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Matamoros</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Torreón</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
-          </tr>
-          <tr>
-            <td>10/12/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/papel-organizaciones-civiles-aumento-competitividad.html">El papel de las Organizaciones Civiles en el aumento del bienestar y competitividad</a></td>
-            <td>En toda ciudad, estado o país debe haber sinergia entre ciudadanos, asociaciones civiles y empresas para definir programas a largo plazo que mejoren la calidad y el bienestar de todos nosotros.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Gómez Palacio</a></td>
-            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en La Laguna</a></td>
-            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Lerdo</a></td>
-            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Matamoros</a></td>
-            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino en Torreón</a></td>
-            <td>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en Gómez Palacio</a></td>
-            <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en La Laguna</a></td>
-            <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en Lerdo</a></td>
-            <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en Matamoros</a></td>
-            <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático en Torreón</a></td>
-            <td>Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en Gómez Palacio</a></td>
-            <td>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en La Laguna</a></td>
-            <td>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en Lerdo</a></td>
-            <td>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en Matamoros</a></td>
-            <td>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español en Torreón</a></td>
-            <td>Alumnos buenos y excelentes en Prueba Enlace nivel básico.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html">Consumo de Agua Facturado en Torreón</a></td>
-            <td>Consumo anual de agua por persona expresado en metros cúbicos.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Gómez Palacio</a></td>
-            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Lerdo</a></td>
-            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Matamoros</a></td>
-            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género en Torreón</a></td>
-            <td>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html">Espacios Culturales en Gómez Palacio</a></td>
-            <td>Espacios culturales físicamente delimitados.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html">Espacios Culturales en La Laguna</a></td>
-            <td>Espacios culturales físicamente delimitados.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-espacios-culturales.html">Espacios Culturales en Lerdo</a></td>
-            <td>Espacios culturales físicamente delimitados.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-espacios-culturales.html">Espacios Culturales en Matamoros</a></td>
-            <td>Espacios culturales físicamente delimitados.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-espacios-culturales.html">Espacios Culturales en Torreón</a></td>
-            <td>Espacios culturales físicamente delimitados.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-fecundidad.html">Fecundidad en Torreón</a></td>
-            <td>Tasa de fecundidad.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Gómez Palacio</a></td>
-            <td>Porcentaje de hogares con jefatura femenina.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en La Laguna</a></td>
-            <td>Porcentaje de hogares con jefatura femenina.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Lerdo</a></td>
-            <td>Porcentaje de hogares con jefatura femenina.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Matamoros</a></td>
-            <td>Porcentaje de hogares con jefatura femenina.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina en Torreón</a></td>
-            <td>Porcentaje de hogares con jefatura femenina.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-madres-adolescentes.html">Madres Adolescentes en Torreón</a></td>
-            <td>Total de partos registrados (nacidos vivos) de mujeres entre 10 y 18 años de edad</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Gómez Palacio</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Lerdo</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Matamoros</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html">Maternidad Adolescente en Torreón</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Gómez Palacio</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html">Mortalidad Infantil en La Laguna</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Lerdo</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Matamoros</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Torreón</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html">Pobreza Extrema en Gómez Palacio</a></td>
-            <td>Porcentaje de la población en situación de pobreza extrema.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-pobreza-extrema.html">Pobreza Extrema en La Laguna</a></td>
-            <td>Porcentaje de la población en situación de pobreza extrema.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-pobreza-extrema.html">Pobreza Extrema en Lerdo</a></td>
-            <td>Porcentaje de la población en situación de pobreza extrema.</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-pobreza-extrema.html">Pobreza Extrema en Matamoros</a></td>
-            <td>Porcentaje de la población en situación de pobreza extrema.</td>
+            <td><a href="../indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en La Laguna</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-pobreza-extrema.html">Pobreza Extrema en Torreón</a></td>
-            <td>Porcentaje de la población en situación de pobreza extrema.</td>
+            <td><a href="../indicadores-lerdo/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Lerdo</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-posgrados-de-calidad.html">Posgrados de Calidad en Matamoros</a></td>
-            <td>Programas aceptados por CONACYT como posgrados de calidad</td>
+            <td><a href="../indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Matamoros</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-posgrados-de-calidad.html">Posgrados de Calidad en Torreón</a></td>
-            <td>Programas aceptados por CONACYT como posgrados de calidad</td>
+            <td><a href="../indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Torreón</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html">Rezago Educativo en Gómez Palacio</a></td>
-            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
-Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
-Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-mujeres-en-la-fuerza-laboral.html">Mujeres en la Fuerza Laboral en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-rezago-educativo.html">Rezago Educativo en Lerdo</a></td>
-            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
-Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
-Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
+            <td><a href="../indicadores-la-laguna/sociedad-mujeres-en-la-fuerza-laboral.html">Mujeres en la Fuerza Laboral en La Laguna</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-rezago-educativo.html">Rezago Educativo en Matamoros</a></td>
-            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
-Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
-Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
+            <td><a href="../indicadores-lerdo/sociedad-mujeres-en-la-fuerza-laboral.html">Mujeres en la Fuerza Laboral en Lerdo</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-rezago-educativo.html">Rezago Educativo en Torreón</a></td>
-            <td>Tiene 3 a 15 años, no cuenta con la educación básica obligatoria y no asiste a un centro de educación formal o,
-Tiene 16 años o más, nació antes de 1982 y no cuenta con el nivel de educación obligatoria vigente en el momento en que debía haberla cursado, o,
-Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educación obligatoria. CONEVAL</td>
+            <td><a href="../indicadores-matamoros/sociedad-mujeres-en-la-fuerza-laboral.html">Mujeres en la Fuerza Laboral en Matamoros</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Gómez Palacio</a></td>
-            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
+            <td><a href="../indicadores-torreon/sociedad-mujeres-en-la-fuerza-laboral.html">Mujeres en la Fuerza Laboral en Torreón</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de mujeres en la PEA como proporción del total de mujeres en edad de trabajar. De acuerdo con la ENOE, la edad para trabajar empieza a partir de los 14 años.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en La Laguna</a></td>
-            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
+            <td><a href="../indicadores-gomez-palacio/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html">Posgrados de Calidad (por cada 100mil de PEA) en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de posgrados registrados en el Programa Nacional de Posgrados de Calidad de CONACYT. Esta variable es estatal.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Lerdo</a></td>
-            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
+            <td><a href="../indicadores-la-laguna/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html">Posgrados de Calidad (por cada 100mil de PEA) en La Laguna</a></td>
+            <td>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de posgrados registrados en el Programa Nacional de Posgrados de Calidad de CONACYT. Esta variable es estatal.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Matamoros</a></td>
-            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
+            <td><a href="../indicadores-lerdo/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html">Posgrados de Calidad (por cada 100mil de PEA) en Lerdo</a></td>
+            <td>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de posgrados registrados en el Programa Nacional de Posgrados de Calidad de CONACYT. Esta variable es estatal.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Torreón</a></td>
-            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
+            <td><a href="../indicadores-matamoros/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html">Posgrados de Calidad (por cada 100mil de PEA) en Matamoros</a></td>
+            <td>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de posgrados registrados en el Programa Nacional de Posgrados de Calidad de CONACYT. Esta variable es estatal.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-universidades.html">Universidades en Gómez Palacio</a></td>
-            <td>Planteles de Instituciones de Educación Superior.</td>
+            <td><a href="../indicadores-torreon/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html">Posgrados de Calidad (por cada 100mil de PEA) en Torreón</a></td>
+            <td>Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de posgrados registrados en el Programa Nacional de Posgrados de Calidad de CONACYT. Esta variable es estatal.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-universidades.html">Universidades en La Laguna</a></td>
-            <td>Planteles de Instituciones de Educación Superior.</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-crecimiento-en-poblacion-altamente-calificada.html">Crecimiento en Población Altamente Calificada en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que cuenta con estudios de licenciatura o más.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-universidades.html">Universidades en Lerdo</a></td>
-            <td>Planteles de Instituciones de Educación Superior.</td>
+            <td><a href="../indicadores-la-laguna/sociedad-crecimiento-en-poblacion-altamente-calificada.html">Crecimiento en Población Altamente Calificada en La Laguna</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que cuenta con estudios de licenciatura o más.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-universidades.html">Universidades en Matamoros</a></td>
-            <td>Planteles de Instituciones de Educación Superior.</td>
+            <td><a href="../indicadores-lerdo/sociedad-crecimiento-en-poblacion-altamente-calificada.html">Crecimiento en Población Altamente Calificada en Lerdo</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que cuenta con estudios de licenciatura o más.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-universidades.html">Universidades en Torreón</a></td>
-            <td>Planteles de Instituciones de Educación Superior.</td>
-          </tr>
-          <tr>
-            <td>19/09/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></td>
-            <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
-          </tr>
-          <tr>
-            <td>06/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/sociedad-incluyente-preparada-sana.html">Sociedad Incluyente, Preparada y Sana</a></td>
-            <td>Este es uno de los subíndices que muestra mayores contrastes al interior de la zona metropolitana, ubicándose Torreón en la parte alta del ranking, la ZML en su conjunto en media alta, Gómez Palacio y Lerdo en media baja y Matamoros en la zona baja.</td>
+            <td><a href="../indicadores-matamoros/sociedad-crecimiento-en-poblacion-altamente-calificada.html">Crecimiento en Población Altamente Calificada en Matamoros</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que cuenta con estudios de licenciatura o más.</td>
           </tr>
         </tbody>
       </table>
@@ -837,6 +337,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+<p>Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.</p>
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

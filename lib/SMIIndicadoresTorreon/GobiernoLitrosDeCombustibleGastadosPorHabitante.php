@@ -124,7 +124,139 @@ class GobiernoLitrosDeCombustibleGastadosPorHabitante extends \Base\Publicacion 
 FINAL;
         // Cargar en el Schema el HTML con los artículos relacionados
         $this->contenido->extra = <<<FINAL
-
+      <h3>Publicaciones relacionadas</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Creado</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-unidad-recolectora-de-residuos-solidos-propiedad-del-municipio.html">Litros de Combustible Gastados por Unidad Recolectora de Residuos Sólidos Propiedad del Municipio en Torreón</a></td>
+            <td>Determina la relación de litros de combustible gastados por unidad recolectora de residuos sólidos del municipio.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-gasto-en-nomina-por-empleado.html">Gasto en Nómina por Empleado en Torreón</a></td>
+            <td>Mide la eficiencia en el gasto en nómina ejercido por el Ayuntamiento por cada empleado. Gasto en Nómina Semestral entre el Total de Empleados Municipales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-confianza.html">Capacitación a Empleados de Confianza en Torreón</a></td>
+            <td>Expresa la relación de horas de capacitación promedio brindadas a los empleados municipales cuyo estatus es de confianza. Total de Horas de Capacitación a Empleados de Confianza entre el total de Empleados de Confianza.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-capacitacion-a-empleados-de-base.html">Capacitación a Empleados de Base en Torreón</a></td>
+            <td>Expresa la relación de horas de capacitación promedio brindadas a los empleados municipales cuyo estatus es de base. Total de Horas de Capacitación a Empleados de Base, entre Total de Empleados de Base Semestral.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-promedio-de-horas-para-la-realizacion-del-tramite-de-carta-de-no-adeudo-predial.html">Promedio de Horas para la Realización del Trámite de Carta de No Adeudo Predial en Torreón</a></td>
+            <td>Determina el número de horas requeridas para la realización del trámite de carta de No adeudo de predial.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en La Laguna</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Lerdo</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Matamoros</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Torreón</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-permiso-de-construccion-de-una-adicion-residencial-o-comercial.html">Promedio de Horas para la Realizacion del Trámite de Permiso de Construcción de una Adición Residencial o Comercial en Torreón</a></td>
+            <td>Determina el número de horas requeridas para realizar el trámite de permiso de construcción de una adición (residencial/comercial). Calculado por Número de Horas Empleadas para el Trámite de Permisos de Construcción de Una Adición, entre Número de Permisos de Construcción Una Adición Otorgados.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-promedio-de-horas-para-la-realizacion-del-tramite-de-licencia-para-negocio.html">Promedio de Horas para la Realización del Trámite de Licencia para Negocio en Torreón</a></td>
+            <td>Determina el número de horas requeridas para la realización del trámite de licencia para negocios. Número de Horas Empleadas para el Trámite de Licencias para Negocios, entre Número de Licencias para Negocios Otorgadas.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-policias-operativos-de-seguridad-publica.html">Policías Operativos de Seguridad Pública en Torreón</a></td>
+            <td>Determina el número de policías operativos por cada mil habitantes.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales.html">Índice de Herramientas Electrónicas de Gobiernos Locales en Torreón</a></td>
+            <td>El Índice de herramientas electrónicas locales desarrollado por IMCO evaluó cuatro aspectos para determinar los avances de gobierno electrónico en los municipios de la muestra: información, interacción, transacción, experiencia de usuario.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-periodistas-muertos-o-desaparecidos.html">Periodistas Muertos o Desaparecidos en Gómez Palacio</a></td>
+            <td>Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-periodistas-muertos-o-desaparecidos.html">Periodistas Muertos o Desaparecidos en La Laguna</a></td>
+            <td>Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/gobierno-periodistas-muertos-o-desaparecidos.html">Periodistas Muertos o Desaparecidos en Lerdo</a></td>
+            <td>Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-periodistas-muertos-o-desaparecidos.html">Periodistas Muertos o Desaparecidos en Matamoros</a></td>
+            <td>Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-periodistas-muertos-o-desaparecidos.html">Periodistas Muertos o Desaparecidos en Torreón</a></td>
+            <td>Periodistas muertos o desaparecidos en los últimos 5 años. Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de periodistas muertos o desaparecidos en los últimos cinco años. Este indicador busca captar el grado de libertad de expresión que hay en una ciudad.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-duracion-de-periodo-para-ediles-y-delegados.html">Duración de Período para Ediles y Delegados en Gómez Palacio</a></td>
+            <td>Forma parte de subíndice de "Sistema Político Estable y Funcional". Mide el número de años durante los cuales el gobierno municipal / delegacional ejerce el cargo. Se asume que entre más largos sean los periodos de gobierno, mayor será el aprendizaje de los funcionarios y el conocimiento acumulado, lo que podría derivar en políticas públicas más eficientes.</td>
+          </tr>
+        </tbody>
+      </table>
 FINAL;
         // Ejecutar este método en el padre
         return parent::html();
@@ -171,6 +303,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+<p>Determina la relación de litros de combustible gastados por el gobierno municipal respecto de su población total.</p>
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

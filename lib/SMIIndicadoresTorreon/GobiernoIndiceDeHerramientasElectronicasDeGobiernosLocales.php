@@ -155,6 +155,42 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales.html">Índice de Herramientas Electrónicas de Gobiernos Locales en Torreón</a></td>
+            <td>El Índice de herramientas electrónicas locales desarrollado por IMCO evaluó cuatro aspectos para determinar los avances de gobierno electrónico en los municipios de la muestra: información, interacción, transacción, experiencia de usuario.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html">Índice de Información Presupuestal en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html">Índice de Información Presupuestal en La Laguna</a></td>
+            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/gobierno-indice-de-informacion-presupuestal.html">Índice de Información Presupuestal en Lerdo</a></td>
+            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html">Índice de Información Presupuestal en Matamoros</a></td>
+            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html">Índice de Información Presupuestal en Torreón</a></td>
+            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
+          </tr>
+          <tr>
             <td>08/07/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/la-gran-oportunidad-del-gobierno-abierto.html">La Gran Oportunidad del Gobierno Abierto</a></td>
@@ -238,30 +274,6 @@ FINAL;
             <td><a href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en La Laguna</a></td>
             <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
           </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en Lerdo</a></td>
-            <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en Matamoros</a></td>
-            <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/gobierno-indice-de-gobierno-electronico-municipal.html">Índice de Gobierno Electrónico Municipal en Torreón</a></td>
-            <td>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</td>
-          </tr>
-          <tr>
-            <td>01/05/2014</td>
-            <td>Proyecto</td>
-            <td><a href="../proyectos/banco-municipal-proyectos-inversion.html">Banco Municipal de Proyectos de Inversión</a></td>
-            <td>Es un instrumento dinámico de gestión pública, orientado a consolidar una cultura municipal de formulación (preparación), planeación, seguimiento y evaluación de programas y proyectos de inversión, por medio de sus componentes y funciones.</td>
-          </tr>
         </tbody>
       </table>
 FINAL;
@@ -308,6 +320,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+<p>El Índice de herramientas electrónicas locales desarrollado por IMCO evaluó cuatro aspectos para determinar los avances de gobierno electrónico en los municipios de la muestra: información, interacción, transacción, experiencia de usuario.</p>
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

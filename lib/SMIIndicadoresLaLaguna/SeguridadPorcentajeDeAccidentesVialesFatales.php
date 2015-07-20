@@ -295,144 +295,6 @@ FINAL;
             <td><a href="../indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Matamoros</a></td>
             <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
           </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Torreón</a></td>
-            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Gómez Palacio</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en La Laguna</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Lerdo</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Matamoros</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Torreón</a></td>
-            <td>Cantidad de accidentes viales fatales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html">Accidentes Viales en Gómez Palacio</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/seguridad-accidentes-viales.html">Accidentes Viales en La Laguna</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/seguridad-accidentes-viales.html">Accidentes Viales en Lerdo</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-accidentes-viales.html">Accidentes Viales en Matamoros</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-accidentes-viales.html">Accidentes Viales en Torreón</a></td>
-            <td>Cantidad de accidentes viales por año.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html">Motorización en Gómez Palacio</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-motorizacion.html">Motorización en La Laguna</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-motorizacion.html">Motorización en Lerdo</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-motorizacion.html">Motorización en Matamoros</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-motorizacion.html">Motorización en Torreón</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Gómez Palacio</a></td>
-            <td>Porcentaje de accidentes fatales entre accidentes viales totales</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en La Laguna</a></td>
-            <td>Porcentaje de accidentes fatales entre accidentes viales totales</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Lerdo</a></td>
-            <td>Porcentaje de accidentes fatales entre accidentes viales totales</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Matamoros</a></td>
-            <td>Porcentaje de accidentes fatales entre accidentes viales totales</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Torreón</a></td>
-            <td>Porcentaje de accidentes fatales entre accidentes viales totales</td>
-          </tr>
-          <tr>
-            <td>06/08/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/movilidad-laboral-cotidiana-zml.html">Movilidad laboral cotidiana en la ZML</a></td>
-            <td>Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.</td>
-          </tr>
-          <tr>
-            <td>26/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/infraestructura.html">Infraestructura (Sectores precursores de clase mundial)</a></td>
-            <td>Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.</td>
-          </tr>
         </tbody>
       </table>
 FINAL;
@@ -479,6 +341,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+<p>Porcentaje de accidentes fatales entre accidentes viales totales</p>
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

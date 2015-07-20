@@ -210,615 +210,122 @@ FINAL;
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-desastres-naturales.html">Desastres Naturales en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de apoyos solicitados al Fondo de Desastres Naturales (FONDEN) o al Programa para Atender contingencias Climáticas (PACC) por eventos naturales y que superaron las capacidades financieras de respuesta de las dependencias responsables estatales y municipales.
-Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-desastres-naturales.html">Desastres Naturales en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de apoyos solicitados al Fondo de Desastres Naturales (FONDEN) o al Programa para Atender contingencias Climáticas (PACC) por eventos naturales y que superaron las capacidades financieras de respuesta de las dependencias responsables estatales y municipales.
-Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</td>
+            <td><a href="../indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en La Laguna</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-desastres-naturales.html">Desastres Naturales en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de apoyos solicitados al Fondo de Desastres Naturales (FONDEN) o al Programa para Atender contingencias Climáticas (PACC) por eventos naturales y que superaron las capacidades financieras de respuesta de las dependencias responsables estatales y municipales.
-Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</td>
+            <td><a href="../indicadores-lerdo/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Lerdo</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-desastres-naturales.html">Desastres Naturales en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de apoyos solicitados al Fondo de Desastres Naturales (FONDEN) o al Programa para Atender contingencias Climáticas (PACC) por eventos naturales y que superaron las capacidades financieras de respuesta de las dependencias responsables estatales y municipales.
-Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</td>
+            <td><a href="../indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Matamoros</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-desastres-naturales.html">Desastres Naturales en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de apoyos solicitados al Fondo de Desastres Naturales (FONDEN) o al Programa para Atender contingencias Climáticas (PACC) por eventos naturales y que superaron las capacidades financieras de respuesta de las dependencias responsables estatales y municipales.
-Fuente: Centro Nacional de Prevención de Desastres (CENAPRED), 2006-2012.</td>
+            <td><a href="../indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Torreón</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-registro-de-una-propiedad.html">Registro de Una Propiedad en La Laguna</a></td>
-            <td>Incluido en el Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para registrar una propiedad: número de trámites, tiempo (días) y costo (% valor de la propiedad). Este indicador se calcula a nivel estatal.</td>
+            <td><a href="../indicadores-gomez-palacio/economia-patentes.html">Patentes en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-registro-de-una-propiedad.html">Registro de Una Propiedad en Matamoros</a></td>
-            <td>Incluido en el Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para registrar una propiedad: número de trámites, tiempo (días) y costo (% valor de la propiedad). Este indicador se calcula a nivel estatal.</td>
+            <td><a href="../indicadores-la-laguna/economia-patentes.html">Patentes en La Laguna</a></td>
+            <td>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-empresas-certificadas-como-limpias.html">Empresas Certificadas como Limpias en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de empresas que cuentan con la certificación de “Empresa Limpia”emitido por la Procuraduría Federal de Protección al Ambiente (PROFEPA), que evidencia el cumplimiento de la normatividad y buenas prácticas ambientales.
-Unidades: Empresas certificadas como limpias por cada mil.
-Fuente: Procuraduría Federal de Protección al Ambiente (PROFEPA), 2009-2012.</td>
+            <td><a href="../indicadores-lerdo/economia-patentes.html">Patentes en Lerdo</a></td>
+            <td>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-empresas-certificadas-como-limpias.html">Empresas Certificadas como Limpias en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de empresas que cuentan con la certificación de “Empresa Limpia”emitido por la Procuraduría Federal de Protección al Ambiente (PROFEPA), que evidencia el cumplimiento de la normatividad y buenas prácticas ambientales.
-Unidades: Empresas certificadas como limpias por cada mil.
-Fuente: Procuraduría Federal de Protección al Ambiente (PROFEPA), 2009-2012.</td>
+            <td><a href="../indicadores-matamoros/economia-patentes.html">Patentes en Matamoros</a></td>
+            <td>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-empresas-certificadas-como-limpias.html">Empresas Certificadas como Limpias en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de empresas que cuentan con la certificación de “Empresa Limpia”emitido por la Procuraduría Federal de Protección al Ambiente (PROFEPA), que evidencia el cumplimiento de la normatividad y buenas prácticas ambientales.
-Unidades: Empresas certificadas como limpias por cada mil.
-Fuente: Procuraduría Federal de Protección al Ambiente (PROFEPA), 2009-2012.</td>
+            <td><a href="../indicadores-torreon/economia-patentes.html">Patentes en Torreón</a></td>
+            <td>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-empresas-certificadas-como-limpias.html">Empresas Certificadas como Limpias en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de empresas que cuentan con la certificación de “Empresa Limpia”emitido por la Procuraduría Federal de Protección al Ambiente (PROFEPA), que evidencia el cumplimiento de la normatividad y buenas prácticas ambientales.
-Unidades: Empresas certificadas como limpias por cada mil.
-Fuente: Procuraduría Federal de Protección al Ambiente (PROFEPA), 2009-2012.</td>
+            <td><a href="../indicadores-gomez-palacio/economia-diversificacion-economica.html">Diversificación Económica en Gómez Palacio</a></td>
+            <td>Número de sectores económicos presentes en la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-empresas-certificadas-como-limpias.html">Empresas Certificadas como Limpias en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el número de empresas que cuentan con la certificación de “Empresa Limpia”emitido por la Procuraduría Federal de Protección al Ambiente (PROFEPA), que evidencia el cumplimiento de la normatividad y buenas prácticas ambientales.
-Unidades: Empresas certificadas como limpias por cada mil.
-Fuente: Procuraduría Federal de Protección al Ambiente (PROFEPA), 2009-2012.</td>
+            <td><a href="../indicadores-la-laguna/economia-diversificacion-economica.html">Diversificación Económica en La Laguna</a></td>
+            <td>Número de sectores económicos presentes en la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html">Aprovechamiento del Biogás en Rellenos Sanitarios en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</td>
+            <td><a href="../indicadores-lerdo/economia-diversificacion-economica.html">Diversificación Económica en Lerdo</a></td>
+            <td>Número de sectores económicos presentes en la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html">Aprovechamiento del Biogás en Rellenos Sanitarios en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</td>
+            <td><a href="../indicadores-matamoros/economia-diversificacion-economica.html">Diversificación Económica en Matamoros</a></td>
+            <td>Número de sectores económicos presentes en la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html">Aprovechamiento del Biogás en Rellenos Sanitarios en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</td>
+            <td><a href="../indicadores-torreon/economia-diversificacion-economica.html">Diversificación Económica en Torreón</a></td>
+            <td>Número de sectores económicos presentes en la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html">Aprovechamiento del Biogás en Rellenos Sanitarios en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html">Aprovechamiento del Biogás en Rellenos Sanitarios en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</td>
+            <td><a href="../indicadores-la-laguna/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en La Laguna</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html">Disposición Adecuada de Residuos Sólidos en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
-Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</td>
+            <td><a href="../indicadores-lerdo/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Lerdo</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html">Disposición Adecuada de Residuos Sólidos en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
-Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</td>
+            <td><a href="../indicadores-matamoros/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Matamoros</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html">Disposición Adecuada de Residuos Sólidos en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
-Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html">Disposición Adecuada de Residuos Sólidos en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
-Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html">Disposición Adecuada de Residuos Sólidos en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
-Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-apertura-de-un-negocio.html">Apertura de un Negocio en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficaces y Eficientes" Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para abrir un negocio: número de trámites, tiempo (días) y costo (% ingresos per cápita). Este indicador se calcula a nivel estatal.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-apertura-de-un-negocio.html">Apertura de un Negocio en La Laguna</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficaces y Eficientes" Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para abrir un negocio: número de trámites, tiempo (días) y costo (% ingresos per cápita). Este indicador se calcula a nivel estatal.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-apertura-de-un-negocio.html">Apertura de un Negocio en Lerdo</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficaces y Eficientes" Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para abrir un negocio: número de trámites, tiempo (días) y costo (% ingresos per cápita). Este indicador se calcula a nivel estatal.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-apertura-de-un-negocio.html">Apertura de un Negocio en Matamoros</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficaces y Eficientes" Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para abrir un negocio: número de trámites, tiempo (días) y costo (% ingresos per cápita). Este indicador se calcula a nivel estatal.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-apertura-de-un-negocio.html">Apertura de un Negocio en Torreón</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficaces y Eficientes" Mide el promedio de los percentiles en que se ubica la ciudad en cada uno de los factores que determinan la facilidad para abrir un negocio: número de trámites, tiempo (días) y costo (% ingresos per cápita). Este indicador se calcula a nivel estatal.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html">Índice de Gestión de Calidad del Aire en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide los esfuerzos que dedica la administración de la ciudad a la gestión de la calidad
-del aire.
-Unidades: Variable discreta que asigna valores de 0 a 3, según la medición de la calidad del
-aire (se da el valor de: 1 si mide calidad, 2 si la reporta, 3 si cuenta con PROAIRE, 0 en otro
-caso). No se penaliza a las ciudades que no tienen la obligación de medir su calidad del aire
-de acuerdo con la NOM-156-SEMARNAT-2012, por lo que a ésas se les asigna el valor 3.
-Fuente: IMCO, con información al 2013.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html">Índice de Gestión de Calidad del Aire en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide los esfuerzos que dedica la administración de la ciudad a la gestión de la calidad
-del aire.
-Unidades: Variable discreta que asigna valores de 0 a 3, según la medición de la calidad del
-aire (se da el valor de: 1 si mide calidad, 2 si la reporta, 3 si cuenta con PROAIRE, 0 en otro
-caso). No se penaliza a las ciudades que no tienen la obligación de medir su calidad del aire
-de acuerdo con la NOM-156-SEMARNAT-2012, por lo que a ésas se les asigna el valor 3.
-Fuente: IMCO, con información al 2013.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html">Índice de Gestión de Calidad del Aire en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide los esfuerzos que dedica la administración de la ciudad a la gestión de la calidad
-del aire.
-Unidades: Variable discreta que asigna valores de 0 a 3, según la medición de la calidad del
-aire (se da el valor de: 1 si mide calidad, 2 si la reporta, 3 si cuenta con PROAIRE, 0 en otro
-caso). No se penaliza a las ciudades que no tienen la obligación de medir su calidad del aire
-de acuerdo con la NOM-156-SEMARNAT-2012, por lo que a ésas se les asigna el valor 3.
-Fuente: IMCO, con información al 2013.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html">Índice de Gestión de Calidad del Aire en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide los esfuerzos que dedica la administración de la ciudad a la gestión de la calidad
-del aire.
-Unidades: Variable discreta que asigna valores de 0 a 3, según la medición de la calidad del
-aire (se da el valor de: 1 si mide calidad, 2 si la reporta, 3 si cuenta con PROAIRE, 0 en otro
-caso). No se penaliza a las ciudades que no tienen la obligación de medir su calidad del aire
-de acuerdo con la NOM-156-SEMARNAT-2012, por lo que a ésas se les asigna el valor 3.
-Fuente: IMCO, con información al 2013.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html">Índice de Gestión de Calidad del Aire en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide los esfuerzos que dedica la administración de la ciudad a la gestión de la calidad
-del aire.
-Unidades: Variable discreta que asigna valores de 0 a 3, según la medición de la calidad del
-aire (se da el valor de: 1 si mide calidad, 2 si la reporta, 3 si cuenta con PROAIRE, 0 en otro
-caso). No se penaliza a las ciudades que no tienen la obligación de medir su calidad del aire
-de acuerdo con la NOM-156-SEMARNAT-2012, por lo que a ésas se les asigna el valor 3.
-Fuente: IMCO, con información al 2013.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-competencia-de-servicios-notariales.html">Competencia de servicios notariales en Gómez Palacio</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA). Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/seguridad-competencia-de-servicios-notariales.html">Competencia de servicios notariales en La Laguna</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA). Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/seguridad-competencia-de-servicios-notariales.html">Competencia de servicios notariales en Lerdo</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA). Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-competencia-de-servicios-notariales.html">Competencia de servicios notariales en Matamoros</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA). Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-competencia-de-servicios-notariales.html">Competencia de servicios notariales en Torreón</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número de notarios en cada ciudad. Unidades: Notarios por cada 100 mil personas económicamente activas (PEA). Fuente: Secretaría de Gobernación (Directorio de Notarios), 2013.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-consumo-de-agua.html">Consumo de Agua en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
-Unidades: Metros cúbicos por persona.
-Fuente: CONAGUA, 2008-2009.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-consumo-de-agua.html">Consumo de Agua en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
-Unidades: Metros cúbicos por persona.
-Fuente: CONAGUA, 2008-2009.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-consumo-de-agua.html">Consumo de Agua en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
-Unidades: Metros cúbicos por persona.
-Fuente: CONAGUA, 2008-2009.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-consumo-de-agua.html">Consumo de Agua en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
-Unidades: Metros cúbicos por persona.
-Fuente: CONAGUA, 2008-2009.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua.html">Consumo de Agua en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
-Unidades: Metros cúbicos por persona.
-Fuente: CONAGUA, 2008-2009.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-ingresos-propios.html">Ingresos Propios en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-ingresos-propios.html">Ingresos Propios en La Laguna</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-ingresos-propios.html">Ingresos Propios en Lerdo</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-ingresos-propios.html">Ingresos Propios en Matamoros</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-ingresos-propios.html">Ingresos Propios en Torreón</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html">Índice de Información Presupuestal en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html">Índice de Información Presupuestal en La Laguna</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/gobierno-indice-de-informacion-presupuestal.html">Índice de Información Presupuestal en Lerdo</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html">Índice de Información Presupuestal en Matamoros</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html">Índice de Información Presupuestal en Torreón</a></td>
-            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la calidad de la información tanto de los presupuestos de egresos como de las leyes de ingresos de las ciudades.</td>
-          </tr>
-          <tr>
-            <td>03/06/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/experiencias-sobre-datos-abiertos-en-mexico.html">Experiencias sobre Datos Abiertos en México</a></td>
-            <td>Representantes del gobierno del estado de Puebla y del municipio de Xalapa, Veracruz compartieron sus experiencias en materia de Datos Abiertos.</td>
-          </tr>
-          <tr>
-            <td>08/04/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/innovacion-internet-competitividad.html">Innovación, Internet y Competitividad</a></td>
-            <td>Cada día se hace más necesario que el gobierno realice gran número de sus trámites por Internet. Los ciudadanos y la banca lo exigen en aras de aumentar la competitividad.</td>
-          </tr>
-          <tr>
-            <td>07/04/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/nuevas-tecnologias-estandares-web.html">Nuevas Tecnologías y Estándares para la Web</a></td>
-            <td>Recopilación de las nuevas técnicas que se deben de usar para la elaboración de sitios web institucionales. Con el objetivo de mejorarlas tanto para los humanos como para los robots (motores de búsqueda).</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-usuarios-de-internet.html">Usuarios de Internet en Gómez Palacio</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-usuarios-de-internet.html">Usuarios de Internet en La Laguna</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-usuarios-de-internet.html">Usuarios de Internet en Lerdo</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-usuarios-de-internet.html">Usuarios de Internet en Matamoros</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-usuarios-de-internet.html">Usuarios de Internet en Torreón</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Gómez Palacio</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-ejecucion-de-contratos.html">Ejecución de Contratos en La Laguna</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Lerdo</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Matamoros</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html">Ejecución de Contratos en Torreón</a></td>
-            <td>Incluido en el Subíndice de "Sistema de Derecho Confiable y Objetivo" Mide el número de días promedio requerido para la ejecución de contratos de negocios. Ésta es una variable a nivel estatal. Fuente: Doing Business en México, 2007, 2009, 2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-posgrados-de-calidad.html">Posgrados de Calidad en Matamoros</a></td>
-            <td>Programas aceptados por CONACYT como posgrados de calidad</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-posgrados-de-calidad.html">Posgrados de Calidad en Torreón</a></td>
-            <td>Programas aceptados por CONACYT como posgrados de calidad</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Gómez Palacio</a></td>
-            <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
-En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en La Laguna</a></td>
-            <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
-En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Lerdo</a></td>
-            <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
-En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Matamoros</a></td>
-            <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
-En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Torreón</a></td>
-            <td>Cantidad de robos de vehículos por cada 100 mil habitantes. 
-En el Índice de Competitividad Urbana pertenece al subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de robo de vehículos en cada ciudad. Sólo se cuenta con observaciones para 2011 y 2012. Unidades: Robo de autos por cada mil vehículos registrados. Fuente: Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP) e INEGI, 2008-2012.</td>
-          </tr>
-          <tr>
-            <td>23/09/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/nuevas-herramientas-nuevos-paradigmas.html">Nuevas herramientas para Nuevos Paradigmas</a></td>
-            <td>Hoy en día, con un teléfono inteligente o tablet se puede consultar la versión móvil de un SIG para recaudar información, emitir un diagnóstico y trabajar en planes programas y proyectos futuros.</td>
-          </tr>
-          <tr>
-            <td>04/08/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/contribucion-tic-competitividad-productividad.html">Contribución de las TICs en la competitividad y productividad</a></td>
-            <td>La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.</td>
-          </tr>
-          <tr>
-            <td>01/08/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/gas-shale-impacto.html">El Gas Shale y su impacto</a></td>
-            <td>La extracción del gas shale se contempla en el futuro cercano de México, pues además de contar con una de las reservas más grandes del mundo, ha contribuido positivamente en la economía de los países que lo utilizan.</td>
-          </tr>
-          <tr>
-            <td>03/07/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/sectores-innovacion-sofisticacion.html">Sectores de Innovación y Sofisticación</a></td>
-            <td>Análisis de los indicadores relativos a la innovación.</td>
-          </tr>
-          <tr>
-            <td>01/06/2014</td>
-            <td>Proyecto</td>
-            <td><a href="../proyectos/plata-laguna.html">Plata Laguna</a></td>
-            <td>Contribuir a que la plata de La Laguna sea un sector mundialmente competitivo; reconocida por su calidad e identificable por el consumidor.</td>
-          </tr>
-          <tr>
-            <td>28/04/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/la-laguna-metropoli-del-conocimiento.html">La Laguna: Metrópoli del Conocimiento</a></td>
-            <td>Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.</td>
+            <td><a href="../indicadores-torreon/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Torreón</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
           </tr>
         </tbody>
       </table>
@@ -882,6 +389,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+<p>Incluido en el subíndice "Innovación de los sectores económicos". Mide el número de patentes solicitadas por entidad de residencia del inventor. Esta variable es estatal.</p>
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

@@ -176,6 +176,12 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales.html">Índice de Herramientas Electrónicas de Gobiernos Locales en Torreón</a></td>
+            <td>El Índice de herramientas electrónicas locales desarrollado por IMCO evaluó cuatro aspectos para determinar los avances de gobierno electrónico en los municipios de la muestra: información, interacción, transacción, experiencia de usuario.</td>
+          </tr>
+          <tr>
             <td>08/07/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/la-gran-oportunidad-del-gobierno-abierto.html">La Gran Oportunidad del Gobierno Abierto</a></td>
@@ -299,6 +305,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+<p>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</p>
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

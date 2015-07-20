@@ -227,31 +227,43 @@ FINAL;
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-ingresos-propios.html">Ingresos Propios en Gómez Palacio</a></td>
+            <td><a href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-unidad-recolectora-de-residuos-solidos-propiedad-del-municipio.html">Litros de Combustible Gastados por Unidad Recolectora de Residuos Sólidos Propiedad del Municipio en Torreón</a></td>
+            <td>Determina la relación de litros de combustible gastados por unidad recolectora de residuos sólidos del municipio.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-gasto-en-nomina-por-empleado.html">Gasto en Nómina por Empleado en Torreón</a></td>
+            <td>Mide la eficiencia en el gasto en nómina ejercido por el Ayuntamiento por cada empleado. Gasto en Nómina Semestral entre el Total de Empleados Municipales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-propios.html">Ingresos Propios en Gómez Palacio</a></td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-ingresos-propios.html">Ingresos Propios en La Laguna</a></td>
+            <td><a href="../indicadores-la-laguna/gobierno-ingresos-propios.html">Ingresos Propios en La Laguna</a></td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-ingresos-propios.html">Ingresos Propios en Lerdo</a></td>
+            <td><a href="../indicadores-lerdo/gobierno-ingresos-propios.html">Ingresos Propios en Lerdo</a></td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-ingresos-propios.html">Ingresos Propios en Matamoros</a></td>
+            <td><a href="../indicadores-matamoros/gobierno-ingresos-propios.html">Ingresos Propios en Matamoros</a></td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-ingresos-propios.html">Ingresos Propios en Torreón</a></td>
+            <td><a href="../indicadores-torreon/gobierno-ingresos-propios.html">Ingresos Propios en Torreón</a></td>
             <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el total de ingresos propios (impuestos, derechos, productos, aprovechamientos y contribuciones de mejoras) de la ciudad como porcentaje de sus ingresos totales.</td>
           </tr>
           <tr>
@@ -332,144 +344,6 @@ FINAL;
             <td><a href="../indicadores-lerdo/gobierno-ingresos-totales.html">Ingresos Totales en Lerdo</a></td>
             <td>Ingresos totales por municipio.</td>
           </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/gobierno-ingresos-totales.html">Ingresos Totales en Matamoros</a></td>
-            <td>Ingresos totales por municipio.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/gobierno-ingresos-totales.html">Ingresos Totales en Torreón</a></td>
-            <td>Ingresos totales por municipio.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en Gómez Palacio</a></td>
-            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en La Laguna</a></td>
-            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en Lerdo</a></td>
-            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en Matamoros</a></td>
-            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en Torreón</a></td>
-            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-inversion-per-capita.html">Inversión Per cápita en Gómez Palacio</a></td>
-            <td>Gasto en obras públicas y acciones sociales entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-inversion-per-capita.html">Inversión Per cápita en La Laguna</a></td>
-            <td>Gasto en obras públicas y acciones sociales entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-inversion-per-capita.html">Inversión Per cápita en Lerdo</a></td>
-            <td>Gasto en obras públicas y acciones sociales entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-inversion-per-capita.html">Inversión Per cápita en Matamoros</a></td>
-            <td>Gasto en obras públicas y acciones sociales entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-inversion-per-capita.html">Inversión Per cápita en Torreón</a></td>
-            <td>Gasto en obras públicas y acciones sociales entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Gómez Palacio</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en La Laguna</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Lerdo</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Matamoros</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html">Producción Bruta Total Per Cápita en Torreón</a></td>
-            <td>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-relacion-de-ingresos-propios-y-totales.html">Relación de Ingresos Propios y Totales en Gómez Palacio</a></td>
-            <td>Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html">Relación de Ingresos Propios y Totales en La Laguna</a></td>
-            <td>Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html">Relación de Ingresos Propios y Totales en Lerdo</a></td>
-            <td>Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html">Relación de Ingresos Propios y Totales en Matamoros</a></td>
-            <td>Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html">Relación de Ingresos Propios y Totales en Torreón</a></td>
-            <td>Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.</td>
-          </tr>
-          <tr>
-            <td>19/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/independencia-finanzas-publicas.html">Independencia de las Finanzas Públicas</a></td>
-            <td>Análisis de la relación de ingresos propios y totales y la capacidad financiera de los municipios de la Zona Metropolitana de la Laguna.</td>
-          </tr>
         </tbody>
       </table>
 FINAL;
@@ -532,6 +406,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+<p>Ingresos totales del municipio entre el total de la población.</p>
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

@@ -84,6 +84,7 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
     <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
+    <li><a href="#smi-indicador-grafica-3" data-toggle="tab">Gráfica 3</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -112,9 +113,255 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>31/03/2005</td>
+            <td>4.96 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2005</td>
+            <td>3.78 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2005</td>
+            <td>2.66 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2005</td>
+            <td>3.15 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2006</td>
+            <td>4.80 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2006</td>
+            <td>4.73 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2006</td>
+            <td>6.19 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/12/2006</td>
+            <td>4.71 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2007</td>
+            <td>5.93 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2007</td>
+            <td>3.65 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2007</td>
+            <td>4.56 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2007</td>
+            <td>3.78 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2008</td>
+            <td>5.36 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2008</td>
+            <td>4.81 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2008</td>
+            <td>4.78 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>5.69 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>6.12 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2009</td>
+            <td>7.39 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2009</td>
+            <td>7.16 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2009</td>
+            <td>9.19 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>8.08 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>8.62 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2010</td>
+            <td>8.03 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>25/06/2010</td>
             <td>7.43 %</td>
             <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2010</td>
+            <td>6.97 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2010</td>
+            <td>7.89 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>7.21 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>7.23 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2011</td>
+            <td>6.39 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2011</td>
+            <td>6.13 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2011</td>
+            <td>7.25 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>5.98 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>5.91 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2012</td>
+            <td>6.19 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2012</td>
+            <td>6.55 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2012</td>
+            <td>5.70 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>6.02 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>6.54 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2013</td>
+            <td>6.41 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2013</td>
+            <td>6.54 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2013</td>
+            <td>6.24 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>5.49 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
@@ -174,6 +421,10 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
     <div class="tab-pane" id="smi-indicador-grafica-2">
       <h3>Gráfica de Tasa de Desempleo Abierto en La Laguna con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
       <div id="graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica-3">
+      <h3>Gráfica de Tasa de Desempleo Abierto en La Laguna con fuente IMCO</h3>
+      <div id="graficaDatosImco" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Tasa de Desempleo Abierto</h3>
@@ -258,382 +509,124 @@ FINAL;
         </thead>
         <tbody>
           <tr>
-            <td>21/05/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-salario-promedio.html">Salario promedio en Gómez Palacio</a></td>
-            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
-            <td>21/05/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-salario-promedio.html">Salario promedio en La Laguna</a></td>
-            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
+            <td><a href="../indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en La Laguna</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
-            <td>21/05/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-salario-promedio.html">Salario promedio en Lerdo</a></td>
-            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
+            <td><a href="../indicadores-lerdo/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Lerdo</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
-            <td>21/05/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-salario-promedio.html">Salario promedio en Matamoros</a></td>
-            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
+            <td><a href="../indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Matamoros</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
-            <td>21/05/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-salario-promedio.html">Salario promedio en Torreón</a></td>
-            <td>Salario promedio mensual para personal ocupado con jornadas laborales de 35 a 48 horas semanales.</td>
+            <td><a href="../indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Torreón</a></td>
+            <td>Incluido en el subíndice de "Sociedad Preparada, Incluyente y Sana". Qué mide: El ingreso promedio de las mujeres como proporción del ingreso promedio de los hombres. Entre más se acerca esta relación a 1, más parecidos son los salarios.</td>
           </tr>
           <tr>
-            <td>20/05/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></td>
-            <td>Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.</td>
-          </tr>
-          <tr>
-            <td>10/03/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/efectos-informalidad-politicas-prevenirla.html">Efectos de la informalidad y políticas para prevenirla</a></td>
-            <td>La informalidad tiene repercusiones directas sobre la competitividad y el crecimiento económico. Es cierto que ocupa a población desempleada en el sector formal y sus insumos e inversión apoyan a la economía, sin embargo es mayor el daño generado en el crecimiento a largo plazo.</td>
-          </tr>
-          <tr>
-            <td>06/01/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></td>
-            <td>El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.</td>
-          </tr>
-          <tr>
-            <td>11/12/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html">Tasa de informalidad en Gómez Palacio</a></td>
-            <td>Tasa de empleos informales.</td>
+            <td><a href="../indicadores-gomez-palacio/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice de "Economía Estable". Mide el cambio porcentual en el salario promedio entre el año 2008 y el 2012. Este indicador es un proxy de cuánto ha crecido el poder adquisitivo de los trabajadores.</td>
           </tr>
           <tr>
-            <td>11/12/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-tasa-de-informalidad.html">Tasa de informalidad en La Laguna</a></td>
-            <td>Tasa de empleos informales.</td>
+            <td><a href="../indicadores-la-laguna/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en La Laguna</a></td>
+            <td>Incluido en el subíndice de "Economía Estable". Mide el cambio porcentual en el salario promedio entre el año 2008 y el 2012. Este indicador es un proxy de cuánto ha crecido el poder adquisitivo de los trabajadores.</td>
           </tr>
           <tr>
-            <td>11/12/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-tasa-de-informalidad.html">Tasa de informalidad en Lerdo</a></td>
-            <td>Tasa de empleos informales.</td>
+            <td><a href="../indicadores-lerdo/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en Lerdo</a></td>
+            <td>Incluido en el subíndice de "Economía Estable". Mide el cambio porcentual en el salario promedio entre el año 2008 y el 2012. Este indicador es un proxy de cuánto ha crecido el poder adquisitivo de los trabajadores.</td>
           </tr>
           <tr>
-            <td>11/12/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-tasa-de-informalidad.html">Tasa de informalidad en Matamoros</a></td>
-            <td>Tasa de empleos informales.</td>
+            <td><a href="../indicadores-matamoros/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en Matamoros</a></td>
+            <td>Incluido en el subíndice de "Economía Estable". Mide el cambio porcentual en el salario promedio entre el año 2008 y el 2012. Este indicador es un proxy de cuánto ha crecido el poder adquisitivo de los trabajadores.</td>
           </tr>
           <tr>
-            <td>11/12/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-tasa-de-informalidad.html">Tasa de informalidad en Torreón</a></td>
-            <td>Tasa de empleos informales.</td>
+            <td><a href="../indicadores-torreon/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en Torreón</a></td>
+            <td>Incluido en el subíndice de "Economía Estable". Mide el cambio porcentual en el salario promedio entre el año 2008 y el 2012. Este indicador es un proxy de cuánto ha crecido el poder adquisitivo de los trabajadores.</td>
           </tr>
           <tr>
-            <td>12/11/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/industrial-metalmecanica-la-laguna.html">La industria metalmecánica y La Laguna</a></td>
-            <td>A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.</td>
-          </tr>
-          <tr>
-            <td>07/11/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Gómez Palacio</a></td>
-            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
+            <td><a href="../indicadores-gomez-palacio/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice de "Mercado Laboral". Mide el número de trabajadores involucrados en pugnas de carácter laboral, las cuales surgen entre los trabajadores y el patrón con motivo de omisiones, faltas o incumplimiento de alguna de las partes a las condiciones de trabajo que fueron pactadas por éstos, o de aquellas normas que están estipuladas en la ley.</td>
           </tr>
           <tr>
-            <td>07/11/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-trabajadores-asegurados.html">Trabajadores Asegurados en La Laguna</a></td>
-            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
+            <td><a href="../indicadores-la-laguna/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en La Laguna</a></td>
+            <td>Incluido en el subíndice de "Mercado Laboral". Mide el número de trabajadores involucrados en pugnas de carácter laboral, las cuales surgen entre los trabajadores y el patrón con motivo de omisiones, faltas o incumplimiento de alguna de las partes a las condiciones de trabajo que fueron pactadas por éstos, o de aquellas normas que están estipuladas en la ley.</td>
           </tr>
           <tr>
-            <td>07/11/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Lerdo</a></td>
-            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
+            <td><a href="../indicadores-lerdo/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en Lerdo</a></td>
+            <td>Incluido en el subíndice de "Mercado Laboral". Mide el número de trabajadores involucrados en pugnas de carácter laboral, las cuales surgen entre los trabajadores y el patrón con motivo de omisiones, faltas o incumplimiento de alguna de las partes a las condiciones de trabajo que fueron pactadas por éstos, o de aquellas normas que están estipuladas en la ley.</td>
           </tr>
           <tr>
-            <td>07/11/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Matamoros</a></td>
-            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
+            <td><a href="../indicadores-matamoros/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en Matamoros</a></td>
+            <td>Incluido en el subíndice de "Mercado Laboral". Mide el número de trabajadores involucrados en pugnas de carácter laboral, las cuales surgen entre los trabajadores y el patrón con motivo de omisiones, faltas o incumplimiento de alguna de las partes a las condiciones de trabajo que fueron pactadas por éstos, o de aquellas normas que están estipuladas en la ley.</td>
           </tr>
           <tr>
-            <td>07/11/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Torreón</a></td>
-            <td>Total de trabajadores asegurados en el Instituto Mexicano del Seguro Social a nivel municipal</td>
+            <td><a href="../indicadores-torreon/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en Torreón</a></td>
+            <td>Incluido en el subíndice de "Mercado Laboral". Mide el número de trabajadores involucrados en pugnas de carácter laboral, las cuales surgen entre los trabajadores y el patrón con motivo de omisiones, faltas o incumplimiento de alguna de las partes a las condiciones de trabajo que fueron pactadas por éstos, o de aquellas normas que están estipuladas en la ley.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-desempleo.html">Desempleo en Gómez Palacio</a></td>
-            <td>Cantidad de personas desempleadas.</td>
+            <td><a href="../indicadores-gomez-palacio/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html">Crecimiento de la Población Ocupada sin Ingresos en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice de "Mercado Laboral". Mide el crecimiento de la población ocupada sin ingresos entre 2008-2012.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-desempleo.html">Desempleo en La Laguna</a></td>
-            <td>Cantidad de personas desempleadas.</td>
+            <td><a href="../indicadores-la-laguna/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html">Crecimiento de la Población Ocupada sin Ingresos en La Laguna</a></td>
+            <td>Incluido en el subíndice de "Mercado Laboral". Mide el crecimiento de la población ocupada sin ingresos entre 2008-2012.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-desempleo.html">Desempleo en Lerdo</a></td>
-            <td>Cantidad de personas desempleadas.</td>
+            <td><a href="../indicadores-lerdo/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html">Crecimiento de la Población Ocupada sin Ingresos en Lerdo</a></td>
+            <td>Incluido en el subíndice de "Mercado Laboral". Mide el crecimiento de la población ocupada sin ingresos entre 2008-2012.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-desempleo.html">Desempleo en Matamoros</a></td>
-            <td>Cantidad de personas desempleadas.</td>
+            <td><a href="../indicadores-matamoros/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html">Crecimiento de la Población Ocupada sin Ingresos en Matamoros</a></td>
+            <td>Incluido en el subíndice de "Mercado Laboral". Mide el crecimiento de la población ocupada sin ingresos entre 2008-2012.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-desempleo.html">Desempleo en Torreón</a></td>
-            <td>Cantidad de personas desempleadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Gómez Palacio</a></td>
-            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en La Laguna</a></td>
-            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Lerdo</a></td>
-            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Matamoros</a></td>
-            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Torreón</a></td>
-            <td>Personal ocupado en comercio al por mayor y al por menor entre el personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Gómez Palacio</a></td>
-            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en La Laguna</a></td>
-            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Lerdo</a></td>
-            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Matamoros</a></td>
-            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Torreón</a></td>
-            <td>Personal ocupado en la Industria manufacturera entre el personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Gómez Palacio</a></td>
-            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en La Laguna</a></td>
-            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Lerdo</a></td>
-            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Matamoros</a></td>
-            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Torreón</a></td>
-            <td>Personal ocupado en las actividades de servicios entre personal ocupado total.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-productividad-laboral.html">Productividad Laboral en Gómez Palacio</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-productividad-laboral.html">Productividad Laboral en La Laguna</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-productividad-laboral.html">Productividad Laboral en Lerdo</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-productividad-laboral.html">Productividad Laboral en Matamoros</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-productividad-laboral.html">Productividad Laboral en Torreón</a></td>
-            <td>PIB sin petróleo / PEA.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Gómez Palacio</a></td>
-            <td>Número total de desempleados entre la Población económicamente activa.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en La Laguna</a></td>
-            <td>Número total de desempleados entre la Población económicamente activa.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Lerdo</a></td>
-            <td>Número total de desempleados entre la Población económicamente activa.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Matamoros</a></td>
-            <td>Número total de desempleados entre la Población económicamente activa.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Torreón</a></td>
-            <td>Número total de desempleados entre la Población económicamente activa.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-trabajadores-asegurados-region.html">Trabajadores Asegurados (Región) en Torreón</a></td>
-            <td>Evolución del empleo medida en trabajadores asegurados por el IMSS.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/vision-vencedores.html">La visión de los vencedores</a></td>
-            <td>El regreso de La Laguna a los primeros lugares en el ranking de competitividad nacional demanda de una comunidad que retome los valores y el empuje de “Los Fundadores”, de los hombres y mujeres que lejos de considerarse victimas de las adversidades, de su entorno natural y político, construyeron una de las regiones más prósperas de México.</td>
-          </tr>
-          <tr>
-            <td>07/10/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/economia-sector-salud-laguna.html">Economía del Sector Salud en La Laguna</a></td>
-            <td>El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.</td>
-          </tr>
-          <tr>
-            <td>26/09/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/retrospectiva-estado-actual-empleo.html">Retrospectiva y estado actual del empleo en Torreón y la ZML</a></td>
-            <td>El empleo es uno de los principales indicadores, que muestra el desempeño económico de una ciudad, región o país. Desde hace 9 años Torreón y la Zona Metropolitana de la Laguna se habían separado a la alza de la media nacional.</td>
-          </tr>
-          <tr>
-            <td>19/09/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></td>
-            <td>Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.</td>
-          </tr>
-          <tr>
-            <td>06/08/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/movilidad-laboral-cotidiana-zml.html">Movilidad laboral cotidiana en la ZML</a></td>
-            <td>Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.</td>
-          </tr>
-          <tr>
-            <td>04/08/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/contribucion-tic-competitividad-productividad.html">Contribución de las TICs en la competitividad y productividad</a></td>
-            <td>La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.</td>
-          </tr>
-          <tr>
-            <td>30/07/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/laguna-apostarle-industria-automotriz.html">La Laguna debe apostarle a la Industria Automotriz</a></td>
-            <td>En industria automotriz hay mayor inversión en la investigación y desarrollo que origina una derrama de capacidades tecnológicas con aplicación en otros sectores como el eléctrico, electrónico y aeroespacial.</td>
-          </tr>
-          <tr>
-            <td>01/07/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/productividad-zml.html">Productividad en la Zona Metropolitana de La Laguna</a></td>
-            <td>Análisis de la productividad laboral, industria manufacturera y eficiencia del trabajo en la Zona Metropolitana de la Laguna.</td>
-          </tr>
-          <tr>
-            <td>24/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/economia-estable.html">Economía Estable</a></td>
-            <td>Análisis de las variables macroeconómicas como crédito, mercado hipotecario, cartera vencida, PIB y desempleo.</td>
-          </tr>
-          <tr>
-            <td>17/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/mercado-factores-eficientes.html">Mercado de Factores Eficientes</a></td>
-            <td>Análisis del mercado, las huelgas, el salario promedio mensual, productividad y demandas laborales en la Zona Metropolitana de la Laguna.</td>
-          </tr>
-          <tr>
-            <td>28/05/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/indicadores-por-municipio-metodologia-imco.html">Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO</a></td>
-            <td>Índice de Competitividad Urbana de la Zona Metropolitana de la Laguna, Torreón, Gómez Palacio, Lerdo y Matamoros en 2012.</td>
-          </tr>
-          <tr>
-            <td>13/05/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/invertir-en-torreon.html">Invertir en Torreón</a></td>
-            <td>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.</td>
-          </tr>
-          <tr>
-            <td>16/04/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></td>
-            <td>¿En realidad generan más valor las actividades tecnológicas y de servicios?</td>
+            <td><a href="../indicadores-torreon/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html">Crecimiento de la Población Ocupada sin Ingresos en Torreón</a></td>
+            <td>Incluido en el subíndice de "Mercado Laboral". Mide el crecimiento de la población ocupada sin ingresos entre 2008-2012.</td>
           </tr>
         </tbody>
       </table>
@@ -672,7 +665,23 @@ $('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', functi
   if (typeof vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
     vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
       element: 'graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
-      data: [{ fecha: '2014-03-31', dato: 5.9300 },{ fecha: '2014-06-30', dato: 4.8400 },{ fecha: '2014-09-30', dato: 5.7400 },{ fecha: '2014-12-31', dato: 6.9900 },{ fecha: '2015-03-31', dato: 5.8500 }],
+      data: [{ fecha: '2005-03-31', dato: 4.9618 },{ fecha: '2005-06-30', dato: 3.7779 },{ fecha: '2005-09-30', dato: 2.6576 },{ fecha: '2005-12-31', dato: 3.1532 },{ fecha: '2006-03-31', dato: 4.8006 },{ fecha: '2006-06-30', dato: 4.7273 },{ fecha: '2006-09-30', dato: 6.1928 },{ fecha: '2006-12-30', dato: 4.7101 },{ fecha: '2007-03-31', dato: 5.9297 },{ fecha: '2007-06-30', dato: 3.6490 },{ fecha: '2007-09-30', dato: 4.5558 },{ fecha: '2007-12-31', dato: 3.7818 },{ fecha: '2008-03-31', dato: 5.3558 },{ fecha: '2008-06-30', dato: 4.8084 },{ fecha: '2008-09-30', dato: 4.7836 },{ fecha: '2008-12-31', dato: 6.1224 },{ fecha: '2009-03-31', dato: 7.3877 },{ fecha: '2009-06-30', dato: 7.1599 },{ fecha: '2009-09-30', dato: 9.1900 },{ fecha: '2009-12-31', dato: 8.6179 },{ fecha: '2010-03-31', dato: 8.0321 },{ fecha: '2010-06-30', dato: 6.9712 },{ fecha: '2010-09-30', dato: 7.8947 },{ fecha: '2010-12-31', dato: 7.2250 },{ fecha: '2011-03-31', dato: 6.3900 },{ fecha: '2011-06-30', dato: 6.1300 },{ fecha: '2011-09-30', dato: 7.2500 },{ fecha: '2011-12-31', dato: 5.9100 },{ fecha: '2012-03-31', dato: 6.1900 },{ fecha: '2012-06-30', dato: 6.5500 },{ fecha: '2012-09-30', dato: 5.7000 },{ fecha: '2012-12-31', dato: 6.5400 },{ fecha: '2013-03-31', dato: 6.4100 },{ fecha: '2013-06-30', dato: 6.5400 },{ fecha: '2013-09-30', dato: 6.2400 },{ fecha: '2013-12-31', dato: 5.4900 },{ fecha: '2014-03-31', dato: 5.9300 },{ fecha: '2014-06-30', dato: 4.8400 },{ fecha: '2014-09-30', dato: 5.7400 },{ fecha: '2014-12-31', dato: 6.9900 },{ fecha: '2015-03-31', dato: 5.8500 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA smi-indicador-grafica-3
+$('#smi-indicador a[href="#smi-indicador-grafica-3"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatosImco === 'undefined') {
+    vargraficaDatosImco = Morris.Line({
+      element: 'graficaDatosImco',
+      data: [{ fecha: '2008-12-31', dato: 5.6911 },{ fecha: '2009-12-31', dato: 8.0777 },{ fecha: '2010-12-31', dato: 7.2121 },{ fecha: '2011-12-31', dato: 5.9828 },{ fecha: '2012-12-31', dato: 6.0168 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -713,6 +722,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+<p>Número total de desempleados entre la Población económicamente activa.</p>
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
@@ -737,9 +749,255 @@ FINAL;
             <td></td>
           </tr>
           <tr>
+            <td>31/03/2005</td>
+            <td>4.96 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2005</td>
+            <td>3.78 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2005</td>
+            <td>2.66 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2005</td>
+            <td>3.15 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2006</td>
+            <td>4.80 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2006</td>
+            <td>4.73 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2006</td>
+            <td>6.19 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/12/2006</td>
+            <td>4.71 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2007</td>
+            <td>5.93 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2007</td>
+            <td>3.65 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2007</td>
+            <td>4.56 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2007</td>
+            <td>3.78 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2008</td>
+            <td>5.36 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2008</td>
+            <td>4.81 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2008</td>
+            <td>4.78 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>5.69 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>6.12 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2009</td>
+            <td>7.39 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2009</td>
+            <td>7.16 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2009</td>
+            <td>9.19 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>8.08 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>8.62 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2010</td>
+            <td>8.03 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>25/06/2010</td>
             <td>7.43 %</td>
             <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2010</td>
+            <td>6.97 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2010</td>
+            <td>7.89 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>7.21 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>7.23 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2011</td>
+            <td>6.39 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2011</td>
+            <td>6.13 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2011</td>
+            <td>7.25 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>5.98 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>5.91 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2012</td>
+            <td>6.19 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2012</td>
+            <td>6.55 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2012</td>
+            <td>5.70 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>6.02 %</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>6.54 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2013</td>
+            <td>6.41 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2013</td>
+            <td>6.54 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2013</td>
+            <td>6.24 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>5.49 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>

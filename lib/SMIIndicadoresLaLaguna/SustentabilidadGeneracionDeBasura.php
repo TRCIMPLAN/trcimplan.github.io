@@ -202,361 +202,122 @@ FINAL;
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-unidad-recolectora-de-residuos-solidos-propiedad-del-municipio.html">Litros de Combustible Gastados por Unidad Recolectora de Residuos Sólidos Propiedad del Municipio en Torreón</a></td>
+            <td>Determina la relación de litros de combustible gastados por unidad recolectora de residuos sólidos del municipio.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en La Laguna</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Lerdo</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Matamoros</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-consumo-de-diesel-en-transporte-de-bienes.html">Consumo de Diesel en Transporte de Bienes en Torreón</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El consumo de diesel en metros cúbicos por cada 10 mil habitantes por kilómetro de carretera. Este indicador intenta medir la eficiencia en la distribución de bienes dentro de la ciudad por medio del consumo de diesel. Mientras más poblada y más densa sea la ciudad, el costo unitario de distribución de bienes debe de ser menor debido a las economías de densidad. Un menor consumo de diesel, por kilómetro recorrido y habitante abastecido, es más eficiente que un consumo mayor ya que nos indica que para dicha ciudad, se necesita menos combustible para mover los bienes de un lugar a otro. Esto último provoca beneficios tanto económicos (el costo por unidad transportada es menor) como ambientales.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-emergencias-ambientales.html">Emergencias Ambientales en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide el número de emergencias ambientales reportadas (situaciones que pueden generar daños a la salud o a la propiedad que fueron ocasionadas por factores ambientales, humanos o una combinación de ambos).</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-emergencias-ambientales.html">Emergencias Ambientales en La Laguna</a></td>
+            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide el número de emergencias ambientales reportadas (situaciones que pueden generar daños a la salud o a la propiedad que fueron ocasionadas por factores ambientales, humanos o una combinación de ambos).</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-emergencias-ambientales.html">Emergencias Ambientales en Lerdo</a></td>
+            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide el número de emergencias ambientales reportadas (situaciones que pueden generar daños a la salud o a la propiedad que fueron ocasionadas por factores ambientales, humanos o una combinación de ambos).</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-emergencias-ambientales.html">Emergencias Ambientales en Matamoros</a></td>
+            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide el número de emergencias ambientales reportadas (situaciones que pueden generar daños a la salud o a la propiedad que fueron ocasionadas por factores ambientales, humanos o una combinación de ambos).</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-emergencias-ambientales.html">Emergencias Ambientales en Torreón</a></td>
+            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide el número de emergencias ambientales reportadas (situaciones que pueden generar daños a la salud o a la propiedad que fueron ocasionadas por factores ambientales, humanos o una combinación de ambos).</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-economia-intensiva-en-energia.html">Economía Intensiva en Energía en Gómez Palacio</a></td>
+            <td>Se incluye en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el volumen de combustibles que requiere una ciudad para generar un millón de pesos del PIB.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-economia-intensiva-en-energia.html">Economía Intensiva en Energía en La Laguna</a></td>
+            <td>Se incluye en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el volumen de combustibles que requiere una ciudad para generar un millón de pesos del PIB.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-economia-intensiva-en-energia.html">Economía Intensiva en Energía en Lerdo</a></td>
+            <td>Se incluye en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el volumen de combustibles que requiere una ciudad para generar un millón de pesos del PIB.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-economia-intensiva-en-energia.html">Economía Intensiva en Energía en Matamoros</a></td>
+            <td>Se incluye en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el volumen de combustibles que requiere una ciudad para generar un millón de pesos del PIB.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sustentabilidad-economia-intensiva-en-energia.html">Economía Intensiva en Energía en Torreón</a></td>
+            <td>Se incluye en el subíndice "Manejo Sustentable del Medio Ambiente". Mide el volumen de combustibles que requiere una ciudad para generar un millón de pesos del PIB.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html">Aprovechamiento del Biogás en Rellenos Sanitarios en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</td>
+            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html">Aprovechamiento del Biogás en Rellenos Sanitarios en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</td>
+            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html">Aprovechamiento del Biogás en Rellenos Sanitarios en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</td>
+            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html">Aprovechamiento del Biogás en Rellenos Sanitarios en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html">Aprovechamiento del Biogás en Rellenos Sanitarios en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.
-Fuente: Secretaría de Desarrollo Social (SEDESOL), 2012.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html">Disposición Adecuada de Residuos Sólidos en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
-Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html">Disposición Adecuada de Residuos Sólidos en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
-Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html">Disposición Adecuada de Residuos Sólidos en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
-Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html">Disposición Adecuada de Residuos Sólidos en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
-Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html">Disposición Adecuada de Residuos Sólidos en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente" Mide la proporción de residuos que se disponen en sitios controlados.
-Fuente: Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU), 2012.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-consumo-de-agua.html">Consumo de Agua en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
-Unidades: Metros cúbicos por persona.
-Fuente: CONAGUA, 2008-2009.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-consumo-de-agua.html">Consumo de Agua en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
-Unidades: Metros cúbicos por persona.
-Fuente: CONAGUA, 2008-2009.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-consumo-de-agua.html">Consumo de Agua en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
-Unidades: Metros cúbicos por persona.
-Fuente: CONAGUA, 2008-2009.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-consumo-de-agua.html">Consumo de Agua en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
-Unidades: Metros cúbicos por persona.
-Fuente: CONAGUA, 2008-2009.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua.html">Consumo de Agua en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la cantidad promedio de agua potable que consume cada persona al año.
-Unidades: Metros cúbicos por persona.
-Fuente: CONAGUA, 2008-2009.</td>
-          </tr>
-          <tr>
-            <td>07/07/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/hacia-ciudades-que-construyen-humanos-en-convivencia.html">Hacia Ciudades que Construyen Humanos en Convivencia</a></td>
-            <td>El espacio público es donde se tejen las relaciones sociales, por lo tanto su conformación debe contribuir a desarrollar las capacidades humanas.</td>
-          </tr>
-          <tr>
-            <td>27/01/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/objetivos-milenio.html">La Zona Metropolitana de La Laguna y los Objetivos del Milenio</a></td>
-            <td>En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/mas-areas-verdes-proteger-salud-laguneros.html">Más áreas verdes para proteger la salud de los laguneros</a></td>
-            <td>Manejar el tema de protección a la salud como punto estratégico en materia de ordenamiento territorial y urbano representa una oportunidad para el desarrollo de la región.</td>
-          </tr>
-          <tr>
-            <td>10/11/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-traslados-a-pie.html">Traslados a Pie en La Laguna</a></td>
-            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad.</td>
-          </tr>
-          <tr>
-            <td>10/11/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-uso-de-bicicleta.html">Uso de Bicicleta en La Laguna</a></td>
-            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad.</td>
-          </tr>
-          <tr>
-            <td>10/11/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-uso-de-transporte-publico.html">Uso de Transporte Público en La Laguna</a></td>
-            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad. No se consideran los viajes en taxi.</td>
-          </tr>
-          <tr>
-            <td>10/11/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html">Uso de Automóvil Particular en La Laguna</a></td>
-            <td>Distribución porcentual del total de viajes cotidianos realizados por modalidad.</td>
-          </tr>
-          <tr>
-            <td>28/10/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/ciudades-reto-transformacion.html">Las ciudades y el reto de su transformación</a></td>
-            <td>El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html">Capacidad de Tratamiento de Agua en Operación en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad,
-ajustada por el tamaño de su población.
-Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2010.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html">Consumo de Agua Facturado en Torreón</a></td>
-            <td>Consumo anual de agua por persona expresado en metros cúbicos.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html">Generación de Basura en Gómez Palacio</a></td>
-            <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-generacion-de-basura.html">Generación de Basura en La Laguna</a></td>
-            <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-generacion-de-basura.html">Generación de Basura en Lerdo</a></td>
-            <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-generacion-de-basura.html">Generación de Basura en Matamoros</a></td>
-            <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-generacion-de-basura.html">Generación de Basura en Torreón</a></td>
-            <td>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html">Motorización en Gómez Palacio</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-motorizacion.html">Motorización en La Laguna</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-motorizacion.html">Motorización en Lerdo</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-motorizacion.html">Motorización en Matamoros</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-motorizacion.html">Motorización en Torreón</a></td>
-            <td>Vehículos automotores registrados en circulación.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Gómez Palacio</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en La Laguna</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Lerdo</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Matamoros</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html">Sobreexplotación del Acuífero en Torreón</a></td>
-            <td>Incluido en el subíndice "Manejo Sustentable Del Medio Ambiente". Mide la proporción del área de la ciudad que se ubica sobre acuíferos sobreexplotados.
-Fuente: Comisión Nacional del Agua (CONAGUA), 2009.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Gómez Palacio</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en La Laguna</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Lerdo</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Matamoros</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html">Área No Urbanizada en Torreón</a></td>
-            <td>Área total de localidades no urbanizadas sobre la superficie municipal.</td>
-          </tr>
-          <tr>
-            <td>15/10/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/importancia-suelo-ciudades.html">La importancia del suelo en las ciudades</a></td>
-            <td>En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.</td>
-          </tr>
-          <tr>
-            <td>14/10/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/poligonos-actuacion-desarrollo-urbano-integral.html">Polígonos de Actuación para un Desarrollo Urbano Integral</a></td>
-            <td>El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.</td>
-          </tr>
-          <tr>
-            <td>18/09/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/competitividad-planeacion-metropolitana.html">Competitividad y Planeación Metropolitana</a></td>
-            <td>El Instituto Mexicano para la Competitividad dio a conocer el Índice de Competitividad Urbana 2014; en él muestra que la Zona Metropolitana de la Laguna (ZML) continúa en un nivel de competitividad media baja.</td>
-          </tr>
-          <tr>
-            <td>01/08/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/gas-shale-impacto.html">El Gas Shale y su impacto</a></td>
-            <td>La extracción del gas shale se contempla en el futuro cercano de México, pues además de contar con una de las reservas más grandes del mundo, ha contribuido positivamente en la economía de los países que lo utilizan.</td>
-          </tr>
-          <tr>
-            <td>04/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/zml-manejo-sustentable-del-medio-ambiente.html">La Zona Metropolitana de La Laguna y sus municipios en manejo sustentable del medio ambiente</a></td>
-            <td>De acuerdo al ICU 2012, en cuanto a medio ambiente La Laguna ocupa el lugar 35 de 77.</td>
+            <td>Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.</td>
           </tr>
         </tbody>
       </table>
@@ -604,6 +365,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+<p>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</p>
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

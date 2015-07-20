@@ -172,6 +172,66 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-red-carretera-avanzada.html">Red Carretera Avanzada en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/sociedad-red-carretera-avanzada.html">Red Carretera Avanzada en La Laguna</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/sociedad-red-carretera-avanzada.html">Red Carretera Avanzada en Lerdo</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/sociedad-red-carretera-avanzada.html">Red Carretera Avanzada en Matamoros</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/sociedad-red-carretera-avanzada.html">Red Carretera Avanzada en Torreón</a></td>
+            <td>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-crecimiento-de-la-mancha-urbana.html">Crecimiento de la Mancha Urbana en Gómez Palacio</a></td>
+            <td>Mide la razón de crecimiento de la mancha urbana entre 2005 y 2010 respecto del crecimiento de la población de la ciudad correspondiente durante el mismo periodo.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-crecimiento-de-la-mancha-urbana.html">Crecimiento de la Mancha Urbana en La Laguna</a></td>
+            <td>Mide la razón de crecimiento de la mancha urbana entre 2005 y 2010 respecto del crecimiento de la población de la ciudad correspondiente durante el mismo periodo.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-crecimiento-de-la-mancha-urbana.html">Crecimiento de la Mancha Urbana en Lerdo</a></td>
+            <td>Mide la razón de crecimiento de la mancha urbana entre 2005 y 2010 respecto del crecimiento de la población de la ciudad correspondiente durante el mismo periodo.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-crecimiento-de-la-mancha-urbana.html">Crecimiento de la Mancha Urbana en Matamoros</a></td>
+            <td>Mide la razón de crecimiento de la mancha urbana entre 2005 y 2010 respecto del crecimiento de la población de la ciudad correspondiente durante el mismo periodo.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-crecimiento-de-la-mancha-urbana.html">Crecimiento de la Mancha Urbana en Torreón</a></td>
+            <td>Mide la razón de crecimiento de la mancha urbana entre 2005 y 2010 respecto del crecimiento de la población de la ciudad correspondiente durante el mismo periodo.</td>
+          </tr>
+          <tr>
             <td>07/07/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/hacia-ciudades-que-construyen-humanos-en-convivencia.html">Hacia Ciudades que Construyen Humanos en Convivencia</a></td>
@@ -231,174 +291,6 @@ FINAL;
             <td><a href="../blog/nueva-infraestructura-base-tecnologia-led-torreon.html">Nueva infraestructura a base de tecnología LED en Torreón</a></td>
             <td>La luz blanca de calidad puede transformar el paisaje nocturno, realzando la arquitectura urbana y creando ambientes acogedores que inviten a las personas a pasar más tiempo en ellos.</td>
           </tr>
-          <tr>
-            <td>28/01/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/prevencion-delito-espacio-publico.html">Prevención del delito mediante la construcción del espacio público</a></td>
-            <td>Ante el miedo y el temor, el lagunero ha tomado medidas en lo individual y lo colectivo en un intento por evitar ser víctimas de algún delito, se ha encerrado en lo privado despreciando el espacio público como si fuera ajeno.</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/ciudad-espacio-publico.html">Ciudad y Espacio Público</a></td>
-            <td>Actualmente las teorías urbanas afirman que el buen diseño de calles puede promover calidad de vida para todos.</td>
-          </tr>
-          <tr>
-            <td>16/12/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/urbanismo-participativo.html">Urbanismo Participativo</a></td>
-            <td>Es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.</td>
-          </tr>
-          <tr>
-            <td>03/12/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/calle-completa-espacio-vital-todos.html">La Calle Completa: espacio vial para todos</a></td>
-            <td>Con la inclusión del automóvil en el espacio urbano se causó problemas como alta incidencia de accidentes, inaccesibilidad, contaminación, y el deterioro del espacio público más importante: la calle.</td>
-          </tr>
-          <tr>
-            <td>02/12/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/ciudades-mas-humanas.html">Ciudades más Humanas</a></td>
-            <td>La calidad de vida en las ciudades es la posibilidad que tiene una persona, una familia o una comunidad, de alcanzar el bienestar y la satisfacción de todas sus necesidades.</td>
-          </tr>
-          <tr>
-            <td>25/11/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/movilidad-nuestra-ciudad.html">Movilidad y nuestra ciudad</a></td>
-            <td>De 1970 a la fecha la expansión de la mancha urbana en la ciudad de Torreón ha crecido siete veces mientras que la población únicamente tres.</td>
-          </tr>
-          <tr>
-            <td>19/11/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/bicimetro-innovacion-transporte-urbano.html">Bicimetro: La innovación del Transporte Urbano</a></td>
-            <td>Cada vez son más los ciudadanos que optan por dejar sus carros y se animan a desempolvar las bicicletas guardadas en los garajes y utilizarlas como medio de transporte ya sea habitual o por recreación.</td>
-          </tr>
-          <tr>
-            <td>05/11/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/dot-desarrollo-orientado-transporte.html">DOT: Desarrollo Orientado al Transporte</a></td>
-            <td>En las últimas décadas, han surgido nuevos modelos urbanos que retoman el componente humano como eje principal de la planeación, buscando el equilibrio entre una ciudad altamente competitiva pero con servicios e infraestructura orientada al confort y las necesidades del ser humano.</td>
-          </tr>
-          <tr>
-            <td>28/10/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/ciudades-reto-transformacion.html">Las ciudades y el reto de su transformación</a></td>
-            <td>El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana.</td>
-          </tr>
-          <tr>
-            <td>23/10/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/torreon-camino-redensificacion-2.html">Torreón, camino a la redensificación II</a></td>
-            <td>Continuación del tema de la redensificación de ciudades. Las cifras nos indican como el territorio ocupado en Torreón es siete veces contra tres del crecimiento poblacional de la década de 1970 a la fecha.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-total.html">Red Carretera Total en Gómez Palacio</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-red-carretera-total.html">Red Carretera Total en Lerdo</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-red-carretera-total.html">Red Carretera Total en Matamoros</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-red-carretera-total.html">Red Carretera Total en Torreón</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Gómez Palacio</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Lerdo</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Matamoros</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Torreón</a></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Gómez Palacio</a></td>
-            <td>Red carretera de alimentadoras estatales.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Lerdo</a></td>
-            <td>Red carretera de alimentadoras estatales.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Matamoros</a></td>
-            <td>Red carretera de alimentadoras estatales.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Torreón</a></td>
-            <td>Red carretera de alimentadoras estatales.</td>
-          </tr>
-          <tr>
-            <td>15/10/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/importancia-suelo-ciudades.html">La importancia del suelo en las ciudades</a></td>
-            <td>En México el suelo en grandes proporciones ha pasado de ser rural a urbano; la disponibilidad y ordenamiento del mismo son básicos dentro del desarrollo actual.</td>
-          </tr>
-          <tr>
-            <td>14/10/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/poligonos-actuacion-desarrollo-urbano-integral.html">Polígonos de Actuación para un Desarrollo Urbano Integral</a></td>
-            <td>El nuevo modelo de desarrollo urbano mexicano que se impulsa en el país es el de fomentar la consolidación de las ciudades y lograr que sean más competitivas, equilibradas, densas, prósperas, justas, seguras y sustentables.</td>
-          </tr>
-          <tr>
-            <td>28/08/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/torreon-camino-redensificacion.html">Torreón, camino a la redensificación</a></td>
-            <td>Torreón no ha aprovechado su territorio e infraestructura contenida, de una manera óptima, debido a su baja densidad de ocupación en su área urbana.</td>
-          </tr>
-          <tr>
-            <td>06/08/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/movilidad-laboral-cotidiana-zml.html">Movilidad laboral cotidiana en la ZML</a></td>
-            <td>Población ocupada que tiene trabajo en su PROPIO municipio y que tiene trabajo en OTRO Municipio de la Zona Metropolitana de la Laguna.</td>
-          </tr>
-          <tr>
-            <td>26/06/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/infraestructura.html">Infraestructura (Sectores precursores de clase mundial)</a></td>
-            <td>Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.</td>
-          </tr>
-          <tr>
-            <td>13/05/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/invertir-en-torreon.html">Invertir en Torreón</a></td>
-            <td>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.</td>
-          </tr>
         </tbody>
       </table>
 FINAL;
@@ -445,6 +337,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

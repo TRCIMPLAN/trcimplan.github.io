@@ -277,322 +277,124 @@ FINAL;
         </thead>
         <tbody>
           <tr>
-            <td>25/05/2015</td>
-            <td>Proyecto</td>
-            <td><a href="../proyectos/salud-laguna.html">Salud Laguna</a></td>
-            <td>Salud Laguna es una agrupación interactiva de pro­fesionales, instituciones, or­ga­nizaciones, integrados en torno a las actividades económicas que dan servicio y soportan al sec­tor salud.</td>
-          </tr>
-          <tr>
-            <td>27/01/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/objetivos-milenio.html">La Zona Metropolitana de La Laguna y los Objetivos del Milenio</a></td>
-            <td>En septiembre del año 2000 fue celebrada la Cumbre del Milenio de las Naciones Unidas, durante la cual 147 jefes de estado firman y 189 países aprueban uno de los retos consensuados más ambicioso de las últimas décadas.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Análisis</td>
-            <td><a href="../blog/mas-areas-verdes-proteger-salud-laguneros.html">Más áreas verdes para proteger la salud de los laguneros</a></td>
-            <td>Manejar el tema de protección a la salud como punto estratégico en materia de ordenamiento territorial y urbano representa una oportunidad para el desarrollo de la región.</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Gómez Palacio</a></td>
-            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-muertes-por-infecciones-instestinales.html">Muertes por Infecciones Instestinales en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el número de muertes ocasionadas por infecciones intestinales por cada 100 mil habitantes. A falta de mediciones adecuadas de calidad del agua, este indicador capta los impactos de que una ciudad consuma agua relativamente sucia como resultado de un mal funcionamiento del organismo operador de agua local. El indicador asume una relación directa entre calidad del agua y enfermedades intestinales.</td>
           </tr>
           <tr>
-            <td>13/01/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Lerdo</a></td>
-            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+            <td><a href="../indicadores-la-laguna/gobierno-muertes-por-infecciones-instestinales.html">Muertes por Infecciones Instestinales en La Laguna</a></td>
+            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el número de muertes ocasionadas por infecciones intestinales por cada 100 mil habitantes. A falta de mediciones adecuadas de calidad del agua, este indicador capta los impactos de que una ciudad consuma agua relativamente sucia como resultado de un mal funcionamiento del organismo operador de agua local. El indicador asume una relación directa entre calidad del agua y enfermedades intestinales.</td>
           </tr>
           <tr>
-            <td>13/01/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Matamoros</a></td>
-            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+            <td><a href="../indicadores-lerdo/gobierno-muertes-por-infecciones-instestinales.html">Muertes por Infecciones Instestinales en Lerdo</a></td>
+            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el número de muertes ocasionadas por infecciones intestinales por cada 100 mil habitantes. A falta de mediciones adecuadas de calidad del agua, este indicador capta los impactos de que una ciudad consuma agua relativamente sucia como resultado de un mal funcionamiento del organismo operador de agua local. El indicador asume una relación directa entre calidad del agua y enfermedades intestinales.</td>
           </tr>
           <tr>
-            <td>13/01/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Torreón</a></td>
-            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
+            <td><a href="../indicadores-matamoros/gobierno-muertes-por-infecciones-instestinales.html">Muertes por Infecciones Instestinales en Matamoros</a></td>
+            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el número de muertes ocasionadas por infecciones intestinales por cada 100 mil habitantes. A falta de mediciones adecuadas de calidad del agua, este indicador capta los impactos de que una ciudad consuma agua relativamente sucia como resultado de un mal funcionamiento del organismo operador de agua local. El indicador asume una relación directa entre calidad del agua y enfermedades intestinales.</td>
           </tr>
           <tr>
-            <td>13/01/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Gómez Palacio</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+            <td><a href="../indicadores-torreon/gobierno-muertes-por-infecciones-instestinales.html">Muertes por Infecciones Instestinales en Torreón</a></td>
+            <td>Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide el número de muertes ocasionadas por infecciones intestinales por cada 100 mil habitantes. A falta de mediciones adecuadas de calidad del agua, este indicador capta los impactos de que una ciudad consuma agua relativamente sucia como resultado de un mal funcionamiento del organismo operador de agua local. El indicador asume una relación directa entre calidad del agua y enfermedades intestinales.</td>
           </tr>
           <tr>
-            <td>13/01/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en La Laguna</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html">Crecimiento en Acceso a Servicios de Salud en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.</td>
           </tr>
           <tr>
-            <td>13/01/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Lerdo</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+            <td><a href="../indicadores-la-laguna/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html">Crecimiento en Acceso a Servicios de Salud en La Laguna</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.</td>
           </tr>
           <tr>
-            <td>13/01/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Matamoros</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+            <td><a href="../indicadores-lerdo/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html">Crecimiento en Acceso a Servicios de Salud en Lerdo</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.</td>
           </tr>
           <tr>
-            <td>13/01/2015</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad-por-vih-sida.html">Mortalidad por VIH-SIDA en Torreón</a></td>
-            <td>Defunciones a causa de VIH/SIDA por cada 100,000 habitantes</td>
+            <td><a href="../indicadores-matamoros/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html">Crecimiento en Acceso a Servicios de Salud en Matamoros</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-camas-censables.html">Camas Censables en Gómez Palacio</a></td>
-            <td></td>
+            <td><a href="../indicadores-torreon/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html">Crecimiento en Acceso a Servicios de Salud en Torreón</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que tiene acceso a instituciones de salud.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-camas-censables.html">Camas Censables en La Laguna</a></td>
-            <td></td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-acceso-a-instituciones-de-salud.html">Acceso a Instituciones de Salud en Gómez Palacio</a></td>
+            <td>incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de la población económicamente activa (PEA) que cuenta con atención médica, ya sea por parte de instituciones públicas o privadas, derivado de su trabajo actual.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-camas-censables.html">Camas Censables en Lerdo</a></td>
-            <td></td>
+            <td><a href="../indicadores-la-laguna/sociedad-acceso-a-instituciones-de-salud.html">Acceso a Instituciones de Salud en La Laguna</a></td>
+            <td>incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de la población económicamente activa (PEA) que cuenta con atención médica, ya sea por parte de instituciones públicas o privadas, derivado de su trabajo actual.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-camas-censables.html">Camas Censables en Matamoros</a></td>
-            <td></td>
+            <td><a href="../indicadores-lerdo/sociedad-acceso-a-instituciones-de-salud.html">Acceso a Instituciones de Salud en Lerdo</a></td>
+            <td>incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de la población económicamente activa (PEA) que cuenta con atención médica, ya sea por parte de instituciones públicas o privadas, derivado de su trabajo actual.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-camas-censables.html">Camas Censables en Torreón</a></td>
-            <td></td>
+            <td><a href="../indicadores-matamoros/sociedad-acceso-a-instituciones-de-salud.html">Acceso a Instituciones de Salud en Matamoros</a></td>
+            <td>incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de la población económicamente activa (PEA) que cuenta con atención médica, ya sea por parte de instituciones públicas o privadas, derivado de su trabajo actual.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Gómez Palacio</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
+            <td><a href="../indicadores-torreon/sociedad-acceso-a-instituciones-de-salud.html">Acceso a Instituciones de Salud en Torreón</a></td>
+            <td>incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de la población económicamente activa (PEA) que cuenta con atención médica, ya sea por parte de instituciones públicas o privadas, derivado de su trabajo actual.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html">Mortalidad Infantil en La Laguna</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
+            <td><a href="../indicadores-gomez-palacio/sociedad-camas-de-hospital.html">Camas de Hospital en Gómez Palacio</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de camas censables relativo a la población. Este indicador es un proxy de la infraestructura médica con la que cuenta el sector público de salud.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Lerdo</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
+            <td><a href="../indicadores-la-laguna/sociedad-camas-de-hospital.html">Camas de Hospital en La Laguna</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de camas censables relativo a la población. Este indicador es un proxy de la infraestructura médica con la que cuenta el sector público de salud.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Matamoros</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
+            <td><a href="../indicadores-lerdo/sociedad-camas-de-hospital.html">Camas de Hospital en Lerdo</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de camas censables relativo a la población. Este indicador es un proxy de la infraestructura médica con la que cuenta el sector público de salud.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad-infantil.html">Mortalidad Infantil en Torreón</a></td>
-            <td>Tasa de mortalidad infantil. Defunciones de menores de un año por cada mil nacimientos</td>
+            <td><a href="../indicadores-matamoros/sociedad-camas-de-hospital.html">Camas de Hospital en Matamoros</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de camas censables relativo a la población. Este indicador es un proxy de la infraestructura médica con la que cuenta el sector público de salud.</td>
           </tr>
           <tr>
-            <td>21/10/2014</td>
+            <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad.html">Mortalidad en Gómez Palacio</a></td>
-            <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad.html">Mortalidad en La Laguna</a></td>
-            <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad.html">Mortalidad en Lerdo</a></td>
-            <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-mortalidad.html">Mortalidad en Matamoros</a></td>
-            <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad.html">Mortalidad en Torreón</a></td>
-            <td>Tasa de Mortalidad. Número de muertes por cada mil habitantes.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Gómez Palacio</a></td>
-            <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en La Laguna</a></td>
-            <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Lerdo</a></td>
-            <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Matamoros</a></td>
-            <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-mortalidad-por-diabetes.html">Mortalidad por Diabetes en Torreón</a></td>
-            <td>Tasa de mortalidad por diabetes mellitus. Defunciones por diabetes por cada diez mil defunciones.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-medicos.html">Médicos en Gómez Palacio</a></td>
-            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-medicos.html">Médicos en La Laguna</a></td>
-            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-medicos.html">Médicos en Lerdo</a></td>
-            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-medicos.html">Médicos en Matamoros</a></td>
-            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-medicos.html">Médicos en Torreón</a></td>
-            <td>Médicos en contacto con pacientes por cada diez mil personas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Gómez Palacio</a></td>
-            <td>Población derechohabiente a los servicios de salud.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en La Laguna</a></td>
-            <td>Población derechohabiente a los servicios de salud.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Lerdo</a></td>
-            <td>Población derechohabiente a los servicios de salud.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Matamoros</a></td>
-            <td>Población derechohabiente a los servicios de salud.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-poblacion-derechohabiente.html">Población Derechohabiente en Torreón</a></td>
-            <td>Población derechohabiente a los servicios de salud.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Gómez Palacio</a></td>
-            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en La Laguna</a></td>
-            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Lerdo</a></td>
-            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Matamoros</a></td>
-            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-tasa-de-mortalidad-materna.html">Tasa de Mortalidad Materna en Torreón</a></td>
-            <td>La tasa de mortalidad materna mide el riesgo de morir e incluye tanto la posibilidad de quedar embarazada como de morir durante el embarazo o el puerperio.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Gómez Palacio</a></td>
-            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en La Laguna</a></td>
-            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Lerdo</a></td>
-            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Matamoros</a></td>
-            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html">Viviendas que Disponen de Retrete en Torreón</a></td>
-            <td>Porcentaje de viviendas habitadas que disponen de retrete.</td>
-          </tr>
-          <tr>
-            <td>07/10/2014</td>
-            <td>Análisis</td>
-            <td><a href="../blog/economia-sector-salud-laguna.html">Economía del Sector Salud en La Laguna</a></td>
-            <td>El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.</td>
+            <td><a href="../indicadores-torreon/sociedad-camas-de-hospital.html">Camas de Hospital en Torreón</a></td>
+            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de camas censables relativo a la población. Este indicador es un proxy de la infraestructura médica con la que cuenta el sector público de salud.</td>
           </tr>
         </tbody>
       </table>
@@ -656,6 +458,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>

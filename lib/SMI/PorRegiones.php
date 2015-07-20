@@ -83,7 +83,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
       <li><a href="../indicadores-torreon/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
       <li><a href="../indicadores-torreon/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
-      <li><a href="../indicadores-torreon/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-torreon/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
       <li><a href="../indicadores-torreon/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-torreon/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
@@ -136,7 +135,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-torreon/economia-tasa-de-informalidad.html" target="_blank">Tasa de Informalidad</a></li>
       <li><a href="../indicadores-torreon/economia-tierra-ejidal.html" target="_blank">Tierra Ejidal</a></li>
-      <li><a href="../indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
+      <li><a href="../indicadores-torreon/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas Registradas en el SIEM</a></li>
       <li><a href="../indicadores-torreon/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-torreon/economia-trabajadores-asegurados-region.html" target="_blank">Trabajadores Asegurados (Región)</a></li>
       <li><a href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
@@ -282,7 +281,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
-      <li><a href="../indicadores-torreon/sociedad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
       <li><a href="../indicadores-torreon/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -346,7 +344,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
-      <li><a href="../indicadores-gomez-palacio/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
@@ -390,7 +387,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" target="_blank">Tasa de Informalidad</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-tierra-ejidal.html" target="_blank">Tierra Ejidal</a></li>
-      <li><a href="../indicadores-gomez-palacio/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
+      <li><a href="../indicadores-gomez-palacio/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas Registradas en el SIEM</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
       <li><a href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-al-comercio.html" target="_blank">Unidades Económicas Dedicadas al Comercio</a></li>
@@ -521,7 +518,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -581,7 +577,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
       <li><a href="../indicadores-lerdo/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
       <li><a href="../indicadores-lerdo/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
-      <li><a href="../indicadores-lerdo/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-lerdo/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
       <li><a href="../indicadores-lerdo/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-lerdo/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
@@ -625,7 +620,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-lerdo/economia-tasa-de-informalidad.html" target="_blank">Tasa de Informalidad</a></li>
       <li><a href="../indicadores-lerdo/economia-tierra-ejidal.html" target="_blank">Tierra Ejidal</a></li>
-      <li><a href="../indicadores-lerdo/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
+      <li><a href="../indicadores-lerdo/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas Registradas en el SIEM</a></li>
       <li><a href="../indicadores-lerdo/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
       <li><a href="../indicadores-lerdo/economia-unidades-economicas-dedicadas-al-comercio.html" target="_blank">Unidades Económicas Dedicadas al Comercio</a></li>
@@ -756,7 +751,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
       <li><a href="../indicadores-lerdo/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -816,7 +810,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
       <li><a href="../indicadores-matamoros/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
       <li><a href="../indicadores-matamoros/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
-      <li><a href="../indicadores-matamoros/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-matamoros/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
       <li><a href="../indicadores-matamoros/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-matamoros/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
@@ -861,7 +854,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-matamoros/economia-tasa-de-informalidad.html" target="_blank">Tasa de Informalidad</a></li>
       <li><a href="../indicadores-matamoros/economia-tierra-ejidal.html" target="_blank">Tierra Ejidal</a></li>
-      <li><a href="../indicadores-matamoros/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
+      <li><a href="../indicadores-matamoros/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas Registradas en el SIEM</a></li>
       <li><a href="../indicadores-matamoros/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
       <li><a href="../indicadores-matamoros/economia-unidades-economicas-dedicadas-al-comercio.html" target="_blank">Unidades Económicas Dedicadas al Comercio</a></li>
@@ -992,7 +985,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
       <li><a href="../indicadores-matamoros/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>
@@ -1052,7 +1044,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/economia-credito-a-las-empresas.html" target="_blank">Crédito a las Empresas</a></li>
       <li><a href="../indicadores-la-laguna/economia-demandantes-de-conflicto-laboral.html" target="_blank">Demandantes de Conflicto Laboral</a></li>
       <li><a href="../indicadores-la-laguna/economia-densidad-poblacional.html" target="_blank">Densidad Poblacional</a></li>
-      <li><a href="../indicadores-la-laguna/economia-desempleo.html" target="_blank">Desempleo</a></li>
       <li><a href="../indicadores-la-laguna/economia-diversificacion-economica.html" target="_blank">Diversificación Económica</a></li>
       <li><a href="../indicadores-la-laguna/economia-ejecucion-de-contratos.html" target="_blank">Ejecución de Contratos</a></li>
       <li><a href="../indicadores-la-laguna/economia-empleados-en-el-sector-formal.html" target="_blank">Empleados en el Sector Formal</a></li>
@@ -1096,7 +1087,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html" target="_blank">Tasa de Desempleo Abierto</a></li>
       <li><a href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" target="_blank">Tasa de Informalidad</a></li>
       <li><a href="../indicadores-la-laguna/economia-tierra-ejidal.html" target="_blank">Tierra Ejidal</a></li>
-      <li><a href="../indicadores-la-laguna/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas registradas en el SIEM</a></li>
+      <li><a href="../indicadores-la-laguna/economia-total-de-empresas-registradas-en-el-siem.html" target="_blank">Total de Empresas Registradas en el SIEM</a></li>
       <li><a href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" target="_blank">Trabajadores Asegurados</a></li>
       <li><a href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" target="_blank">Unidades Económicas Dedicadas a la Industria Manufacturera</a></li>
       <li><a href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-al-comercio.html" target="_blank">Unidades Económicas Dedicadas al Comercio</a></li>
@@ -1217,7 +1208,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-internet.html" target="_blank">Viviendas con Internet</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-lineas-telefonicas-moviles.html" target="_blank">Viviendas con Líneas Telefónicas Móviles</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-con-piso-de-tierra.html" target="_blank">Viviendas con Piso de Tierra</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-habitadas.html" target="_blank">Viviendas Habitadas</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html" target="_blank">Viviendas que Disponen de Retrete</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-viviendas-totales.html" target="_blank">Viviendas Totales</a></li>

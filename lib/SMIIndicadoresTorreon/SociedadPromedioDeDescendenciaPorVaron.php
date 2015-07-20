@@ -154,6 +154,36 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/economia-densidad-poblacional.html">Densidad Poblacional en Gómez Palacio</a></td>
+            <td>Mide el número de habitantes de la ciudad por kilómetro cuadrado en 2010. Una mayor densidad poblacional reduce los costos que enfrenta el gobierno local para proveer servicios públicos como agua potable, alumbrado público y seguridad, entre otros.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/economia-densidad-poblacional.html">Densidad Poblacional en La Laguna</a></td>
+            <td>Mide el número de habitantes de la ciudad por kilómetro cuadrado en 2010. Una mayor densidad poblacional reduce los costos que enfrenta el gobierno local para proveer servicios públicos como agua potable, alumbrado público y seguridad, entre otros.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/economia-densidad-poblacional.html">Densidad Poblacional en Lerdo</a></td>
+            <td>Mide el número de habitantes de la ciudad por kilómetro cuadrado en 2010. Una mayor densidad poblacional reduce los costos que enfrenta el gobierno local para proveer servicios públicos como agua potable, alumbrado público y seguridad, entre otros.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/economia-densidad-poblacional.html">Densidad Poblacional en Matamoros</a></td>
+            <td>Mide el número de habitantes de la ciudad por kilómetro cuadrado en 2010. Una mayor densidad poblacional reduce los costos que enfrenta el gobierno local para proveer servicios públicos como agua potable, alumbrado público y seguridad, entre otros.</td>
+          </tr>
+          <tr>
+            <td>14/07/2015</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/economia-densidad-poblacional.html">Densidad Poblacional en Torreón</a></td>
+            <td>Mide el número de habitantes de la ciudad por kilómetro cuadrado en 2010. Una mayor densidad poblacional reduce los costos que enfrenta el gobierno local para proveer servicios públicos como agua potable, alumbrado público y seguridad, entre otros.</td>
+          </tr>
+          <tr>
             <td>26/03/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-catolica.html">Población Católica en Gómez Palacio</a></td>
@@ -182,36 +212,6 @@ FINAL;
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sociedad-poblacion-catolica.html">Población Católica en Torreón</a></td>
             <td>Porcentaje de la población que dijo ser, pertenecer o profesar la religión católica.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-usuarios-de-internet.html">Usuarios de Internet en Gómez Palacio</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-usuarios-de-internet.html">Usuarios de Internet en La Laguna</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-usuarios-de-internet.html">Usuarios de Internet en Lerdo</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-usuarios-de-internet.html">Usuarios de Internet en Matamoros</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
-          </tr>
-          <tr>
-            <td>14/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-usuarios-de-internet.html">Usuarios de Internet en Torreón</a></td>
-            <td>Porcentaje de la población que usa internet.</td>
           </tr>
           <tr>
             <td>21/10/2014</td>
@@ -315,6 +315,9 @@ FINAL;
     public function redifusion_html() {
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
+      <h3>Descripción</h3>
+<p>Calcula el promedio estimado de hijos por cada varón.</p>
+
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
