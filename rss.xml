@@ -5,11 +5,74 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Mon, 20 Jul 2015 16:08:17 -0500</pubDate>
+    <pubDate>Tue, 21 Jul 2015 23:13:33 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="{self::}/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Planeación Urbana</title>
+      <link>http://www.trcimplan.gob.mx/blog/la-planeacion-urbana.html</link>
+      <guid isPermaLink="false">blog-la-planeacion-urbana</guid>
+      <pubDate>Tue, 21 Jul 2015 23:00:00 -0500</pubDate>
+      <author>Arq. Teresita Benítez Saludado</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/la-planeacion-urbana/imagen.jpg"><br>
+
+<blockquote>
+  <p>“Los planes no significan nada; la planeación significa todo”.</p>
+  
+  <p>Dwight D. Eisenhower</p>
+</blockquote>
+
+<h3>¿Qué es la Planeación Urbana?</h3>
+
+<p>Es un proceso continuo y permanente de análisis de la situación actual y de previsión de los escenarios futuros para el desarrollo de los asentamientos humanos de tipo urbano (Rocha 2011).</p>
+
+<h3>¿Que es un Plan de Desarrollo Urbano?</h3>
+
+<ul>
+<li><strong>Documento técnico:</strong> Documento jurídico.</li>
+<li><strong>Analiza componentes urbanos:</strong> Fija restricciones a la propiedad.</li>
+<li><strong>Plantea objetivos y políticas:</strong> Identifica compatibilidad de usos.</li>
+<li><strong>Define estrategia de largo plazo:</strong> Establece densidades y alturas.</li>
+<li><strong>Establece zonas:</strong> Delimita derechos de vía.</li>
+<li><p><strong>Programa acciones prioritarias:</strong> Protege áreas naturales</p></li>
+<li><p>Identifica y dimensiona los problemas de una ciudad.</p></li>
+<li>Prevé los requerimientos urbanos futuros.</li>
+<li>Propone una estrategia acordada para el crecimiento de la ciudad a largo plazo.</li>
+<li>Define prioridades de atención.</li>
+<li>Guía a autoridades y particulares para modificar la ciudad con orden, sustentabilidad y equidad.</li>
+</ul>
+
+<h3>¿Quiénes están obligados a cumplir los planes?</h3>
+
+<ul>
+<li>Todos los propietarios y usuarios de los inmuebles que se encuentren dentro de las áreas determinadas por el Plan de Desarrollo Urbano:</li>
+<li>Propietarios y usuarios privados.</li>
+<li>Propietarios y usuarios públicos: municipales, estatales, federales y paraestatales.</li>
+<li>Propietarios y usuarios sociales: ejidatarios y comuneros.</li>
+</ul>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/la-planeacion-urbana/zonificacion-secundaria.jpg" alt="Zonificacion Secundaria"></p>
+
+<p><strong>La planeación urbana tiene mucho que aportar al desarrollo nacional.</strong></p>
+
+<p>Las ciudades (especialmente las estratégicas) de México deben funcionar adecuadamente como lugares para vivir y como lugares para producir.</p>
+
+<p>Esta premisa (principal) es imprescindible hoy en las ciudades del país ya que estas son los motores potentes que impulsan el desarrollo nacional y regional.</p>
+
+<p>Actualmente la concentración de la población, el empleo y la producción en las ciudades es evidente. La proporción de población urbana del país es de alrededor del 77.8 %, mientras que la población rural sólo representa el 22.2 %(INEGI 2010) el empleo registra una concentración urbana de 78 %. En el caso del Estado de Coahuila la aportación al PIB nacional es del 3%, por Industrias Manufactureras, destaca la producción de maquinaria y equipo.</p>
+
+<p>Por ello la importancia de adoptar una perspectiva estratégica que genere conocimiento e insumos de planeación realmente útiles, como lo han hecho las ciudades de Aguascalientes, León Guanajuato, ó Chihuahua, por mencionar algunas, al establecer una Planeación que les lleve a funcionar como lugares para vivir y producir en armonía con el entorno natural y social.</p>
+
+<h3>Referencias</h3>
+
+<ul>
+<li>http://datos.bancomundial.org/indicador/SL.AGR.EMPL.ZS/countries</li>
+<li>http://cuentame.inegi.org.mx/poblacion/rur_urb.aspx?tema=P</li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>Alumnos por docente, indicador clave para la mejora de la educación (parte 2)</title>
       <link>http://www.trcimplan.gob.mx/blog/alumnos-por-docente-parte-2.html</link>
@@ -347,9 +410,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Ingreso Promedio de la Mujer en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-ingreso-promedio-de-la-mujer</guid>
+      <title>Ingreso Promedio de la Mujer en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-ingreso-promedio-de-la-mujer</guid>
       <pubDate>Tue, 14 Jul 2015 19:36:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -368,31 +431,31 @@
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>1.0000</td>
+            <td>0.7000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>0.9000</td>
+            <td>0.7000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>0.9000</td>
+            <td>1.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>0.9000</td>
+            <td>0.8000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>1.0000</td>
+            <td>0.8000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
@@ -587,9 +650,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Patentes en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-patentes.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-economia-patentes</guid>
+      <title>Patentes en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-patentes.html</link>
+      <guid isPermaLink="false">indicadores-torreon-economia-patentes</guid>
       <pubDate>Tue, 14 Jul 2015 17:18:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -608,31 +671,31 @@
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>2.6029</td>
+            <td>1.8583</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>3.3755</td>
+            <td>2.4089</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>4.8557</td>
+            <td>3.5229</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>6.2669</td>
+            <td>4.5257</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>7.7962</td>
+            <td>5.6569</td>
             <td>IMCO</td>
             <td></td>
           </tr>
@@ -644,9 +707,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Diversificación Económica en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-diversificacion-economica.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-economia-diversificacion-economica</guid>
+      <title>Diversificación Económica en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-diversificacion-economica.html</link>
+      <guid isPermaLink="false">indicadores-torreon-economia-diversificacion-economica</guid>
       <pubDate>Tue, 14 Jul 2015 16:54:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -698,9 +761,9 @@
       <p><b>Unidad:</b> Cantidad.</p>]]></description>
     </item>
     <item>
-      <title>Consumo de Diesel en Transporte de Bienes en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-consumo-de-diesel-en-transporte-de-bienes.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-consumo-de-diesel-en-transporte-de-bienes</guid>
+      <title>Consumo de Diesel en Transporte de Bienes en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-consumo-de-diesel-en-transporte-de-bienes.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-consumo-de-diesel-en-transporte-de-bienes</guid>
       <pubDate>Tue, 14 Jul 2015 16:14:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -755,9 +818,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Acceso a Servicios Financieros en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-acceso-a-servicios-financieros.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-acceso-a-servicios-financieros</guid>
+      <title>Acceso a Servicios Financieros en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-acceso-a-servicios-financieros.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-acceso-a-servicios-financieros</guid>
       <pubDate>Tue, 14 Jul 2015 16:12:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -776,31 +839,31 @@
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>1.6722</td>
+            <td>4.0853</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>1.6427</td>
+            <td>4.0047</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>1.6137</td>
+            <td>3.9256</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>3.0273</td>
+            <td>6.1411</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>3.9622</td>
+            <td>6.4959</td>
             <td>IMCO</td>
             <td></td>
           </tr>
@@ -809,63 +872,6 @@
       <p><b>Unidad:</b> Por cada 10 mil.</p>
       <h3>Observaciones</h3>
 <p>Unidades: Sucursales/corresponsales por cada 10 mil adultos. Fuente: (CNBV), 2010-2012.</p>
-]]></description>
-    </item>
-    <item>
-      <title>Uso de Servicios Financieros en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-uso-de-servicios-financieros.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-uso-de-servicios-financieros</guid>
-      <pubDate>Tue, 14 Jul 2015 16:11:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores". Qué mide: El número de tarjetas de débito o crédito por adulto como proxy del uso de los servicios financieros.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2008</td>
-            <td>0.4704</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>0.4621</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>0.4540</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>0.6064</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>0.6439</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-      <h3>Observaciones</h3>
-<p>Unidades: Tarjetas por adulto. Fuente: Comisión Nacional Bancaria y de Valores (CNBV), 2010-2012.</p>
 ]]></description>
     </item>
   </channel>
