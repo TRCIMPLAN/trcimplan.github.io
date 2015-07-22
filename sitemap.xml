@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-07-21</lastmod>
+    <lastmod>2015-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2661,12 +2661,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-historico-torreon.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig/crecimiento-historico-torreon.html</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig/crecimiento-historico-torreon.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/crecimiento-historico-torreon.html</loc>
     <lastmod>2015-02-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2806,12 +2806,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
+    <loc>http://www.trcimplan.gob.mx/../sig-planes/index.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/../sig-planes/index.html</loc>
+    <loc>http://www.trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -6041,12 +6041,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig/alumbrado-publico.html</loc>
     <lastmod>2014-09-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig/alumbrado-publico.html</loc>
+    <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html</loc>
     <lastmod>2014-09-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
