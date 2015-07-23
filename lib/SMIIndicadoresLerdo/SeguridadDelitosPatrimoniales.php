@@ -130,7 +130,7 @@ class SeguridadDelitosPatrimoniales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>30/06/2015</td>
-            <td>10</td>
+            <td>8</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -174,7 +174,7 @@ class SeguridadDelitosPatrimoniales extends \Base\Publicacion {
           <tr>
             <td>Lerdo</td>
             <td>2015-06-30</td>
-            <td>10</td>
+            <td>8</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -351,7 +351,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2015-01-31', dato: 1 },{ fecha: '2015-02-28', dato: 4 },{ fecha: '2015-03-31', dato: 6 },{ fecha: '2015-04-30', dato: 10 },{ fecha: '2015-05-31', dato: 8 },{ fecha: '2015-06-30', dato: 10 }],
+      data: [{ fecha: '2015-01-31', dato: 1 },{ fecha: '2015-02-28', dato: 4 },{ fecha: '2015-03-31', dato: 6 },{ fecha: '2015-04-30', dato: 10 },{ fecha: '2015-05-31', dato: 8 },{ fecha: '2015-06-30', dato: 8 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -367,7 +367,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 118 },{ region: 'Gómez Palacio', dato: 29 },{ region: 'Lerdo', dato: 10 },{ region: 'Matamoros', dato: 8 },{ region: 'La Laguna', dato: 165 }],
+      data: [{ region: 'Torreón', dato: 118 },{ region: 'Gómez Palacio', dato: 29 },{ region: 'Lerdo', dato: 8 },{ region: 'Matamoros', dato: 8 },{ region: 'La Laguna', dato: 165 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -438,7 +438,7 @@ FINAL;
           </tr>
           <tr>
             <td>30/06/2015</td>
-            <td>10</td>
+            <td>8</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
