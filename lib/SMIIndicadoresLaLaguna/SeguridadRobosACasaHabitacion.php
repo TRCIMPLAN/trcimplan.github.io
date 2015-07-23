@@ -82,7 +82,7 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -200,13 +200,19 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/06/2015</td>
+            <td>106</td>
+            <td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Robos a Casa Habitación en La Laguna</h3>
-      <div id="graficaDatos" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Robos a Casa Habitación en La Laguna con fuente Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</h3>
+      <div id="graficaDatosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Robos a Casa Habitación</h3>
@@ -225,22 +231,22 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-05-31</td>
-            <td>64</td>
+            <td>2015-06-30</td>
+            <td>52</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-05-31</td>
-            <td>26</td>
+            <td>2015-06-30</td>
+            <td>32</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-05-31</td>
-            <td>11</td>
+            <td>2015-06-30</td>
+            <td>16</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -253,9 +259,9 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-05-31</td>
-            <td>104</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td>2015-06-30</td>
+            <td>106</td>
+            <td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td>
             <td></td>
           </tr>
         </tbody>
@@ -411,12 +417,12 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
+  if (typeof vargraficaDatosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica === 'undefined') {
+    vargraficaDatosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica = Morris.Line({
+      element: 'graficaDatosSecretariadoEjecutivoDelSistemaNacionalDeSeguridadPublica',
       data: [{ fecha: '2014-01-31', dato: 115 },{ fecha: '2014-02-28', dato: 115 },{ fecha: '2014-03-31', dato: 123 },{ fecha: '2014-04-30', dato: 102 },{ fecha: '2014-05-31', dato: 155 },{ fecha: '2014-06-30', dato: 83 },{ fecha: '2014-07-31', dato: 101 },{ fecha: '2014-08-31', dato: 124 },{ fecha: '2014-09-30', dato: 128 },{ fecha: '2014-10-31', dato: 110 },{ fecha: '2014-11-30', dato: 92 },{ fecha: '2014-12-31', dato: 71 },{ fecha: '2015-01-31', dato: 110 },{ fecha: '2015-02-28', dato: 118 },{ fecha: '2015-03-31', dato: 79 },{ fecha: '2015-04-30', dato: 110 },{ fecha: '2015-05-31', dato: 104 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -433,7 +439,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 64 },{ region: 'Gómez Palacio', dato: 26 },{ region: 'Lerdo', dato: 11 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 104 }],
+      data: [{ region: 'Torreón', dato: 52 },{ region: 'Gómez Palacio', dato: 32 },{ region: 'Lerdo', dato: 16 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 106 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -572,6 +578,12 @@ FINAL;
             <td>31/05/2015</td>
             <td>104</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2015</td>
+            <td>106</td>
+            <td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td>
             <td></td>
           </tr>
         </tbody>

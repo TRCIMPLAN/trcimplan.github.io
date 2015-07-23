@@ -153,22 +153,22 @@ class SeguridadDelitosPatrimoniales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-05-31</td>
-            <td>134</td>
+            <td>2015-06-30</td>
+            <td>118</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-05-31</td>
-            <td>36</td>
+            <td>2015-06-30</td>
+            <td>29</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-05-31</td>
-            <td>8</td>
+            <td>2015-06-30</td>
+            <td>10</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -181,8 +181,8 @@ class SeguridadDelitosPatrimoniales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-05-31</td>
-            <td>186</td>
+            <td>2015-06-30</td>
+            <td>165</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -361,7 +361,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 134 },{ region: 'Gómez Palacio', dato: 36 },{ region: 'Lerdo', dato: 8 },{ region: 'Matamoros', dato: 8 },{ region: 'La Laguna', dato: 186 }],
+      data: [{ region: 'Torreón', dato: 118 },{ region: 'Gómez Palacio', dato: 29 },{ region: 'Lerdo', dato: 10 },{ region: 'Matamoros', dato: 8 },{ region: 'La Laguna', dato: 165 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

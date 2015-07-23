@@ -188,6 +188,12 @@ class SeguridadDelitos extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/06/2015</td>
+            <td>127</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -213,22 +219,22 @@ class SeguridadDelitos extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-05-31</td>
-            <td>592</td>
+            <td>2015-06-30</td>
+            <td>654</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-05-31</td>
-            <td>609</td>
+            <td>2015-06-30</td>
+            <td>567</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-05-31</td>
-            <td>165</td>
+            <td>2015-06-30</td>
+            <td>127</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -241,8 +247,8 @@ class SeguridadDelitos extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-05-31</td>
-            <td>1,431</td>
+            <td>2015-06-30</td>
+            <td>1,436</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -405,7 +411,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 66 },{ fecha: '2014-02-28', dato: 66 },{ fecha: '2014-03-31', dato: 71 },{ fecha: '2014-04-30', dato: 52 },{ fecha: '2014-05-31', dato: 62 },{ fecha: '2014-06-30', dato: 66 },{ fecha: '2014-07-31', dato: 76 },{ fecha: '2014-10-31', dato: 103 },{ fecha: '2014-11-30', dato: 93 },{ fecha: '2014-12-31', dato: 62 },{ fecha: '2015-01-31', dato: 64 },{ fecha: '2015-02-28', dato: 101 },{ fecha: '2015-03-31', dato: 78 },{ fecha: '2015-04-30', dato: 110 },{ fecha: '2015-05-31', dato: 165 }],
+      data: [{ fecha: '2014-01-31', dato: 66 },{ fecha: '2014-02-28', dato: 66 },{ fecha: '2014-03-31', dato: 71 },{ fecha: '2014-04-30', dato: 52 },{ fecha: '2014-05-31', dato: 62 },{ fecha: '2014-06-30', dato: 66 },{ fecha: '2014-07-31', dato: 76 },{ fecha: '2014-10-31', dato: 103 },{ fecha: '2014-11-30', dato: 93 },{ fecha: '2014-12-31', dato: 62 },{ fecha: '2015-01-31', dato: 64 },{ fecha: '2015-02-28', dato: 101 },{ fecha: '2015-03-31', dato: 78 },{ fecha: '2015-04-30', dato: 110 },{ fecha: '2015-05-31', dato: 165 },{ fecha: '2015-06-30', dato: 127 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -421,7 +427,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 592 },{ region: 'Gómez Palacio', dato: 609 },{ region: 'Lerdo', dato: 165 },{ region: 'Matamoros', dato: 65 },{ region: 'La Laguna', dato: 1431 }],
+      data: [{ region: 'Torreón', dato: 654 },{ region: 'Gómez Palacio', dato: 567 },{ region: 'Lerdo', dato: 127 },{ region: 'Matamoros', dato: 65 },{ region: 'La Laguna', dato: 1436 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -547,6 +553,12 @@ FINAL;
           <tr>
             <td>31/05/2015</td>
             <td>165</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2015</td>
+            <td>127</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>

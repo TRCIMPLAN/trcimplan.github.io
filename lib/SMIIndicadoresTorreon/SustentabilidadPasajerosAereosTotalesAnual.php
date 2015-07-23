@@ -99,6 +99,48 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>31/12/2006</td>
+            <td>410,100</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2007</td>
+            <td>522,300</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>481,265</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>394,377</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>338,003</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>375,669</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>415,244</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2013</td>
             <td>508,133</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
@@ -330,7 +372,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2013-12-31', dato: 508133 },{ fecha: '2014-12-31', dato: 523783 }],
+      data: [{ fecha: '2006-12-31', dato: 410100 },{ fecha: '2007-12-31', dato: 522300 },{ fecha: '2008-12-31', dato: 481265 },{ fecha: '2009-12-31', dato: 394377 },{ fecha: '2010-12-31', dato: 338003 },{ fecha: '2011-12-31', dato: 375669 },{ fecha: '2012-12-31', dato: 415244 },{ fecha: '2013-12-31', dato: 508133 },{ fecha: '2014-12-31', dato: 523783 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -385,6 +427,48 @@ FINAL;
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>31/12/2006</td>
+            <td>410,100</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2007</td>
+            <td>522,300</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>481,265</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2009</td>
+            <td>394,377</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>338,003</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2011</td>
+            <td>375,669</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>415,244</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
           <tr>
             <td>31/12/2013</td>
             <td>508,133</td>
