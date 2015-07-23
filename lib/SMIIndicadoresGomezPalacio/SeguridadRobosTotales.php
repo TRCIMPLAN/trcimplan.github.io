@@ -252,8 +252,8 @@ class SeguridadRobosTotales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-05-31</td>
-            <td>24</td>
+            <td>2015-06-30</td>
+            <td>13</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -439,7 +439,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 252 },{ region: 'Gómez Palacio', dato: 254 },{ region: 'Lerdo', dato: 36 },{ region: 'Matamoros', dato: 24 },{ region: 'La Laguna', dato: 555 }],
+      data: [{ region: 'Torreón', dato: 252 },{ region: 'Gómez Palacio', dato: 254 },{ region: 'Lerdo', dato: 36 },{ region: 'Matamoros', dato: 13 },{ region: 'La Laguna', dato: 555 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

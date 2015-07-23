@@ -252,8 +252,8 @@ class SeguridadRoboDeVehiculos extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-05-31</td>
-            <td>3</td>
+            <td>2015-06-30</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -439,7 +439,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 37 },{ region: 'Gómez Palacio', dato: 47 },{ region: 'Lerdo', dato: 11 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 96 }],
+      data: [{ region: 'Torreón', dato: 37 },{ region: 'Gómez Palacio', dato: 47 },{ region: 'Lerdo', dato: 11 },{ region: 'Matamoros', dato: 1 },{ region: 'La Laguna', dato: 96 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

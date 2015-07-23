@@ -200,6 +200,12 @@ class SeguridadHomicidios extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/06/2015</td>
+            <td>0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -246,7 +252,7 @@ class SeguridadHomicidios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-05-31</td>
+            <td>2015-06-30</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
@@ -417,7 +423,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 3 },{ fecha: '2014-02-28', dato: 2 },{ fecha: '2014-03-31', dato: 4 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 2 },{ fecha: '2014-06-30', dato: 1 },{ fecha: '2014-07-31', dato: 0 },{ fecha: '2014-08-31', dato: 3 },{ fecha: '2014-09-30', dato: 0 },{ fecha: '2014-10-31', dato: 1 },{ fecha: '2014-11-30', dato: 1 },{ fecha: '2014-12-31', dato: 2 },{ fecha: '2015-01-31', dato: 4 },{ fecha: '2015-02-28', dato: 1 },{ fecha: '2015-03-31', dato: 1 },{ fecha: '2015-04-30', dato: 2 },{ fecha: '2015-05-31', dato: 0 }],
+      data: [{ fecha: '2014-01-31', dato: 3 },{ fecha: '2014-02-28', dato: 2 },{ fecha: '2014-03-31', dato: 4 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 2 },{ fecha: '2014-06-30', dato: 1 },{ fecha: '2014-07-31', dato: 0 },{ fecha: '2014-08-31', dato: 3 },{ fecha: '2014-09-30', dato: 0 },{ fecha: '2014-10-31', dato: 1 },{ fecha: '2014-11-30', dato: 1 },{ fecha: '2014-12-31', dato: 2 },{ fecha: '2015-01-31', dato: 4 },{ fecha: '2015-02-28', dato: 1 },{ fecha: '2015-03-31', dato: 1 },{ fecha: '2015-04-30', dato: 2 },{ fecha: '2015-05-31', dato: 0 },{ fecha: '2015-06-30', dato: 0 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -570,6 +576,12 @@ FINAL;
           </tr>
           <tr>
             <td>31/05/2015</td>
+            <td>0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2015</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>

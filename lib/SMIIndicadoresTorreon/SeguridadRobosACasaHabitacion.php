@@ -252,8 +252,8 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-05-31</td>
-            <td>3</td>
+            <td>2015-06-30</td>
+            <td>6</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -439,7 +439,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 52 },{ region: 'Gómez Palacio', dato: 32 },{ region: 'Lerdo', dato: 16 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 106 }],
+      data: [{ region: 'Torreón', dato: 52 },{ region: 'Gómez Palacio', dato: 32 },{ region: 'Lerdo', dato: 16 },{ region: 'Matamoros', dato: 6 },{ region: 'La Laguna', dato: 106 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -5,7 +5,7 @@
     <link>{self::}</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 23 Jul 2015 12:57:52 -0500</pubDate>
+    <pubDate>Thu, 23 Jul 2015 13:22:16 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -410,9 +410,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Ingreso Promedio de la Mujer en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-ingreso-promedio-de-la-mujer</guid>
+      <title>Ingreso Promedio de la Mujer en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-ingreso-promedio-de-la-mujer</guid>
       <pubDate>Tue, 14 Jul 2015 19:36:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -431,31 +431,31 @@
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>1.0000</td>
+            <td>0.7000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>0.9000</td>
+            <td>0.7000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>0.9000</td>
+            <td>1.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>0.9000</td>
+            <td>0.8000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>1.0000</td>
+            <td>0.8000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
@@ -650,9 +650,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Patentes en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-patentes.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-economia-patentes</guid>
+      <title>Patentes en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-patentes.html</link>
+      <guid isPermaLink="false">indicadores-torreon-economia-patentes</guid>
       <pubDate>Tue, 14 Jul 2015 17:18:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -671,31 +671,31 @@
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>2.6029</td>
+            <td>1.8583</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>3.3755</td>
+            <td>2.4089</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>4.8557</td>
+            <td>3.5229</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>6.2669</td>
+            <td>4.5257</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>7.7962</td>
+            <td>5.6569</td>
             <td>IMCO</td>
             <td></td>
           </tr>
@@ -707,9 +707,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Diversificación Económica en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-diversificacion-economica.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-economia-diversificacion-economica</guid>
+      <title>Diversificación Económica en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/economia-diversificacion-economica.html</link>
+      <guid isPermaLink="false">indicadores-torreon-economia-diversificacion-economica</guid>
       <pubDate>Tue, 14 Jul 2015 16:54:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -761,9 +761,9 @@
       <p><b>Unidad:</b> Cantidad.</p>]]></description>
     </item>
     <item>
-      <title>Consumo de Diesel en Transporte de Bienes en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-consumo-de-diesel-en-transporte-de-bienes.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-consumo-de-diesel-en-transporte-de-bienes</guid>
+      <title>Consumo de Diesel en Transporte de Bienes en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-consumo-de-diesel-en-transporte-de-bienes.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-consumo-de-diesel-en-transporte-de-bienes</guid>
       <pubDate>Tue, 14 Jul 2015 16:14:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -818,9 +818,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Acceso a Servicios Financieros en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-acceso-a-servicios-financieros.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-acceso-a-servicios-financieros</guid>
+      <title>Acceso a Servicios Financieros en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-acceso-a-servicios-financieros.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-acceso-a-servicios-financieros</guid>
       <pubDate>Tue, 14 Jul 2015 16:12:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -839,31 +839,31 @@
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>1.6722</td>
+            <td>4.0853</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>1.6427</td>
+            <td>4.0047</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>1.6137</td>
+            <td>3.9256</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>3.0273</td>
+            <td>6.1411</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>3.9622</td>
+            <td>6.4959</td>
             <td>IMCO</td>
             <td></td>
           </tr>
