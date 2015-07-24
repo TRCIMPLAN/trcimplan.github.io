@@ -29,7 +29,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
 
     // public $xml_encoding;
     // public $sitio_titulo;
-    // static public $sitio_url;
+    // public $sitio_url;
     // public $sitio_descripcion;
     // public $lenguaje;
     // public $generator;
@@ -80,9 +80,9 @@ class Redifusion extends \Configuracion\RedifusionConfig {
             // En el patron destaca que debe omitir lo que tenga http:, https:, ftp:, javascript: y //
             $patron = "/<$tag([^>]*)$atributo=[\"']?(?!https?:|ftp:|javascript:|\/\/)\/([^\"'\s>]+)[\"']?/is";
             if ($dir == '') {
-                $reemplazo = sprintf('<%s${1}%s="%s/${2}"', $tag, $atributo, self::$sitio_url);
+                $reemplazo = sprintf('<%s${1}%s="%s/${2}"', $tag, $atributo, $this->sitio_url);
             } else {
-                $reemplazo = sprintf('<%s${1}%s="%s/%s/${2}"', $tag, $atributo, self::$sitio_url, $dir);
+                $reemplazo = sprintf('<%s${1}%s="%s/%s/${2}"', $tag, $atributo, $this->sitio_url, $dir);
             }
             $html = preg_replace($patron, $reemplazo, $html);
         }
@@ -91,9 +91,9 @@ class Redifusion extends \Configuracion\RedifusionConfig {
             // Lo único distinto respecto al anterior es una diagonal antes de la ruta
             $patron = "/<$tag([^>]*)$atributo=[\"']?(?!https?:|ftp:|javascript:|\/\/)([^\"'\s>]+)[\"']?/is";
             if ($dir == '') {
-                $reemplazo = sprintf('<%s${1}%s="%s/${2}"', $tag, $atributo, self::$sitio_url);
+                $reemplazo = sprintf('<%s${1}%s="%s/${2}"', $tag, $atributo, $this->sitio_url);
             } else {
-                $reemplazo = sprintf('<%s${1}%s="%s/%s/${2}"', $tag, $atributo, self::$sitio_url, $dir);
+                $reemplazo = sprintf('<%s${1}%s="%s/%s/${2}"', $tag, $atributo, $this->sitio_url, $dir);
             }
             $html = preg_replace($patron, $reemplazo, $html);
         }
@@ -134,7 +134,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         // Considerar vínculos desde la raíz
         $publicacion->en_raiz = true;
         // Formatear URL
-        $url = sprintf('%s/%s', self::$sitio_url, $publicacion->url());
+        $url = sprintf('%s/%s', $this->sitio_url, $publicacion->url());
         // Identificador único directorio + archivo
         $id = sprintf('%s-%s', $publicacion->directorio, $publicacion->archivo);
         // La clave del arreglo asociativo es el tiempo_creado-archivo y sirve para ordenarlo
@@ -175,7 +175,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         $a[] = '  <channel>';
         // Datos generales
         $a[] = "    <title>{$this->sitio_titulo}</title>";
-        $a[] = "    <link>{self::$sitio_url}</link>";
+        $a[] = "    <link>{$this->sitio_url}</link>";
         $a[] = "    <description>{$this->sitio_descripcion}</description>";
         $a[] = "    <language>{$this->lenguaje}</language>";
         $a[] = sprintf('    <pubDate>%s</pubDate>', date('r'));
@@ -184,7 +184,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         $a[] = "    <generator>{$this->generator}</generator>";
      // $a[] = '    <managingEditor>editor@example.com</managingEditor>';
         $a[] = "    <webMaster>{$this->webmaster_email}</webMaster>";
-        $a[] = "    <atom:link href=\"{self::$sitio_url}/{$this->archivo}\" rel=\"self\" type=\"application/rss+xml\" />";
+        $a[] = "    <atom:link href=\"{$this->sitio_url}/{$this->archivo}\" rel=\"self\" type=\"application/rss+xml\" />";
         // Bucle por los elementos
         $contador = 0;
         foreach ($this->elementos as $clave => $e) {

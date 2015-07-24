@@ -70,3 +70,5 @@ Analizando por campo amplio del conocimiento, nuestra región está en proporci�
 ### Referencias
 
 * [Base de datos en ANUIES](http://www.anuies.mx/iinformacion-y-servicios/informacion-estadistica-de-educacion-superior/anuario-estadistico-de-educacion-superior)
+
+**[Continúe con la segunda entrega](panorama-educacion-superior-zml-parte-2.html)**

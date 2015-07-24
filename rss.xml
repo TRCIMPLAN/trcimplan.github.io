@@ -2,14 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IMPLAN Torreón</title>
-    <link>{self::}</link>
+    <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 23 Jul 2015 13:22:16 -0500</pubDate>
+    <pubDate>Fri, 24 Jul 2015 11:15:08 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
-    <atom:link href="{self::}/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Panorama de la Educación Superior en la Z.M.L. (parte 2)</title>
+      <link>http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-2.html</link>
+      <guid isPermaLink="false">blog-panorama-educacion-superior-zml-parte-2</guid>
+      <pubDate>Fri, 24 Jul 2015 11:00:00 -0500</pubDate>
+      <author>Lic. Rodrigo González Morales</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-2/imagen.jpg"><br>
+
+<p>En una <a href="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-1.html">primer entrega</a> se analizaron los resultados disponibles a Junio del presente año que correspondían al Anuario Estadístico de la Asociación Nacional de  Universidades  e Instituciones de Educación Superior (ANUIES) correspondiente al ciclo escolar 2012 – 2013. A día de hoy se tiene el Anuario Estadístico de ANUIES 2013-2014, por lo cual continuaremos la revisión de la educación superior en la ZML de acuerdo a los datos más recientes.</p>
+
+<p>De 2013 a 2014 los estudiantes de nivel superior en nuestra ciudad pasaron de 38,867 en nivel licenciatura a 43,112, con un aumento de 10.9 % en la matrícula mientras a nivel nacional aumento en un 8.3 %. A su vez el nuevo ingreso aumentó en un 19 % respecto al ciclo 2012-2013, mientras en el ámbito nacional solamente se aumentó un 6 % el nuevo ingreso. En posgrado si bien la matrícula creció en un 8 %, superior al 4 % de la media nacional, es en el nuevo ingreso a posgrados donde se refleja una franca mejoría, pasando de 785 nuevos estudiantes a 1,056, lo cual significa un aumento de 35 % en los nuevos ingresos a posgrado. Durante el mismo periodo el nuevo ingreso a posgrado a nivel nacional creció solo 5.6 %, y ciudades similares a la ZML como Querétaro, Aguascalientes, Querétaro y Saltillo, tuvieron menos ingresos a posgrado que en el año anterior, destacando en este sentido sólo León con un incremento de 40 %.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-2/tabla-1-estudiantes-nivel-superior-2013-2014.png" alt="Tabla Estudiantes Nivel Superior 2013-2014"></p>
+
+<p>A Nivel nacional 2,459,449 de los alumnos de licenciatura la cursan en una institución pública, esto es el 69 %, proporción muy similar a la ZML donde el 68 % de los 43,112 alumnos de licenciatura cursan su educación superior en una institución de sostenimiento público. Misma proporción que en el estado de de Coahuila, sin embargo en el Estado de Durango es el 79 % de la matrícula en el sector público.</p>
+
+<div class="row"><div class="col-md-6"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-2/grafica-1-matricula-nacional-nivel-licenciatura.jpg" alt="Grafica Matricula Nacional a Nivel Licenciatura"></div><div class="col-md-6"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-2/grafica-2-matricula-zml-nivel-licenciatura.jpg" alt="Grafica Matricula Zona Metropolitana La Laguna a Nivel Licenciatura"></div></div>
+
+<p>Sin embargo si se revisa de acuerdo a los diversos campos de conocimiento, nos damos cuenta que tanto en lo nacional como en lo local hay diversos énfasis de la educación tanto pública como privada.</p>
+
+<div class="row"><div class="col-md-6"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-2/tabla-2-proporcion-matricula-nivel-licenciatura-nacional.png" alt="Tabla Proporcion Matricula Nivel Licenciatura Nacional"></div><div class="col-md-6"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-2/tabla-3-proporcion-matricula-nivel-licenciatura-zml.png" alt="Tabla Proporcion Matricula Nivel Licenciatura Zona Metropolitana La Laguna"></div></div>
+
+<p>En el ámbito nacional todos los campos de conocimiento concentran la mayor parte de su matrícula en el sector pública, sin embargo en nuestra Zona Metropolitana, no es así. Los estudios de agronomía y veterinaria se centran principalmente en el sector público con un 95 % y 100 % en los ámbitos nacionales y metropolitanos respectivamente. Sin embargo las Artes y Humanidades en nuestra región se concentran en un 83 % en instituciones privadas lo cual muestra poca accesibilidad a determinadas disciplinas, que inciden en el desarrollo cultural de la región.</p>
+
+<p>En cambio las ciencias naturales y exactas, que incluyen disciplinas informáticas y las ingenierías que son una importante condición del desarrollo industrial de nuestra región están concentradas en 91 % y 88% respectivamente en el sector público. Esto nos muestra la posibilidad de mayor incidencia en la oferta de disciplinas orientadas directamente a vocaciones definidas como parte de política pública, con menor dependencia a las dinámicas de mercado de la educación privada.</p>
+
+<p>Llama también la atención que en la Zona Metropolitana de La Laguna, disciplinas orientadas a servicios básicos a la sociedad ya sean públicos o privados, como es salud y educación tiene mayor participación de la educación privada que de acuerdo a la tendencia nacional, lo cual muestra un potencial de orientar los sectores educativos y de salud como clústeres de servicios privados.</p>
+
+<p>Por último, otro ángulo de análisis de la educación superior en nuestra región son los roles culturales asociados al género de acuerdo a los campos de conocimiento, que perfilan a hombres y mujeres a determinadas disciplinas.</p>
+
+<div class="row"><div class="col-md-6"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-2/grafica-3-matricula-sexo-campo-conocimiento-nacional.jpg" alt="Grafica Matricula Sexo Campo Conocimiento Nacional"></div><div class="col-md-6"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-2/grafica-4-matricula-sexo-campo-conocimiento-zml.jpg" alt="Grafica Matricula Sexo Campo Conocimiento Zona Metropolitana La Laguna"></div></div>
+
+<p>Si bien tanto en el ámbito nacional como local, las disciplinas de salud y educación cuentan con mayor participación femenina, esta tendencia se atenúa en nuestra región, donde el caso de educación hay una participación masculina del 32 % contra el 27 % en el ámbito nacional. Sin embargo en las Ciencias Sociales y Administrativas y en las Artes y Humanidades  en nuestra región existe una participación femenina mayor que en el ámbito nacional.</p>
+
+<p>Por su parte la tendencia de las disciplinas agrícolas y veterinarias a mayor participación masculina se acentúa en nuestra región, donde el 71 % de los estudiantes de estas carreras son hombres. Otro campo de conocimiento con mayor participación masculina son las ingenierías donde tanto en lo nacional como en lo local el 73 % de los estudiantes son hombres. En las ciencias naturales y exactas sin embargo a pesar de que también tienen mayor participación masculina la brecha se reduce en nuestra región respecto al ámbito nacional.</p>
+]]></description>
+    </item>
     <item>
       <title>La Planeación Urbana</title>
       <link>http://www.trcimplan.gob.mx/blog/la-planeacion-urbana.html</link>
@@ -815,63 +852,6 @@
       <p><b>Unidad:</b> Metros cúbicos de Diesel/10 mil habinates/Kilómetros de red carretera.</p>
       <h3>Observaciones</h3>
 <p>Unidades: Metros cúbicos de diesel por cada 10 mil habitantes por kilómetro de carretera. Fuente: PEMEX, INEGI, 2008-2012.</p>
-]]></description>
-    </item>
-    <item>
-      <title>Acceso a Servicios Financieros en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-acceso-a-servicios-financieros.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-acceso-a-servicios-financieros</guid>
-      <pubDate>Tue, 14 Jul 2015 16:12:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Incluido en el subíndice "Precursores". Qué mide: El número de sucursales y corresponsales de banca múltiple en la ciudad por cada 10 mil adultos como proxy del acceso a servicios financieros.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2008</td>
-            <td>4.0853</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2009</td>
-            <td>4.0047</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2010</td>
-            <td>3.9256</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2011</td>
-            <td>6.1411</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31/12/2012</td>
-            <td>6.4959</td>
-            <td>IMCO</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Por cada 10 mil.</p>
-      <h3>Observaciones</h3>
-<p>Unidades: Sucursales/corresponsales por cada 10 mil adultos. Fuente: (CNBV), 2010-2012.</p>
 ]]></description>
     </item>
   </channel>

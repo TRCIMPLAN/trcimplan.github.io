@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Panorama de la Educación Superior en la Z.M.L. (Parte 1)
+ * TrcIMPLAN - MODULO PanoramaEducacionSuperiorZMLParte2
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,30 +17,30 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLAN
  */
 
-// Namespace
 namespace Blog;
 
 /**
- * Clase PanoramaEducacionSuperiorZMLParte1
+ * Clase PanoramaEducacionSuperiorZMLParte2
  */
-class PanoramaEducacionSuperiorZMLParte1 extends \Base\Publicacion {
+class PanoramaEducacionSuperiorZMLParte2 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Panorama de la Educación Superior en la Z.M.L. (parte 1)';
+        $this->nombre          = 'Panorama de la Educación Superior en la Z.M.L. (parte 2)';
         $this->autor           = 'Lic. Rodrigo González Morales';
-        $this->fecha           = '2015-06-09T16:00';
+        $this->fecha           = '2015-07-24T11:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo         = 'panorama-educacion-superior-zml-parte-1';
-        $this->imagen          = 'panorama-educacion-superior-zml-parte-1/imagen.jpg';
-        $this->imagen_previa   = 'panorama-educacion-superior-zml-parte-1/imagen-previa.jpg';
+        $this->archivo         = 'panorama-educacion-superior-zml-parte-2';
+        $this->imagen          = 'panorama-educacion-superior-zml-parte-2/imagen.jpg';
+        $this->imagen_previa   = 'panorama-educacion-superior-zml-parte-2/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion     = 'Al comparar la Zona Metropolitana de La Laguna (Z.M.L.) con datos nacionales se tienen más alumnos en carreras de Ingenerías y de Agronomía.';
+        $this->descripcion     = 'Análisis de las cantidades de estudiantes a nivel licenciatura, comparando los datos nacionales contra los de la Zona Metropolitana de La Laguna.';
         $this->claves          = 'IMPLAN, Torreon, Educacion, Superior, La Laguna';
         $this->categorias      = array('Competitividad', 'Educación');
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -70,7 +70,7 @@ class PanoramaEducacionSuperiorZMLParte1 extends \Base\Publicacion {
      */
     public function html() {
         // Cargar en el Schema el archivo markdown y convertirlo a HTML
-        $this->contenido->articleBody = $this->cargar_archivo_markdown_extra('lib/Blog/PanoramaEducacionSuperiorZMLParte1.md');
+        $this->contenido->articleBody = $this->cargar_archivo_markdown_extra('lib/Blog/PanoramaEducacionSuperiorZMLParte2.md');
         // Ejecutar este método en el padre
         return parent::html();
     } // html
@@ -82,7 +82,7 @@ class PanoramaEducacionSuperiorZMLParte1 extends \Base\Publicacion {
      */
     public function redifusion_html() {
         // Cargar el archivo markdown y convertirlo a HTML
-        $markdown = $this->cargar_archivo_markdown_extra('lib/Blog/PanoramaEducacionSuperiorZMLParte1.md');
+        $markdown = $this->cargar_archivo_markdown_extra('lib/Blog/PanoramaEducacionSuperiorZMLParte2.md');
         // Si tiene la imagen, se pone la imagen y después el contenido
         if ($this->imagen != '') {
             $this->redifusion = "<img src=\"{$this->imagen}\"><br>\n\n{$markdown}";
@@ -93,6 +93,6 @@ class PanoramaEducacionSuperiorZMLParte1 extends \Base\Publicacion {
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase PanoramaEducacionSuperiorZMLParte1
+} // Clase PanoramaEducacionSuperiorZMLParte2
 
 ?>
