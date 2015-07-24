@@ -34,7 +34,7 @@ chdir(realpath(dirname(__FILE__))."/..");
 require_once('lib/Base/Funciones.php');
 
 // Mensaje de inicio
-echo "$soy Inicia.\n";
+echo "$soy Inicia\n";
 
 // En este arreglo están las rutas a las clases Imprenta
 $clases = array(
@@ -63,10 +63,9 @@ $clases = array(
 try {
     foreach ($clases as $clase) {
         $impresor = new $clase();
-        echo $impresor->imprimir()."\n";
+        echo '  '.$impresor->imprimir()."\n";
     }
 } catch (\Exception $e) {
-    //echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }
@@ -76,7 +75,7 @@ $impresor            = new \Base\Imprenta();
 $impresor->plantilla = new \Inicial\PaginaInicial();
 // Imprimir
 try {
-    echo 'Para la página inicial '.$impresor->imprimir()."\n";
+    echo '  Página inicial '.$impresor->imprimir()."\n";
 } catch (\Exception $e) {
     echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
@@ -88,15 +87,14 @@ $impresor            = new \Base\Imprenta();
 $impresor->plantilla = new \Inicial\PaginaBuscadorResultados();
 // Imprimir
 try {
-    echo 'Para la página de resultados del buscador '.$impresor->imprimir()."\n";
+    echo '  Para la página de resultados del buscador '.$impresor->imprimir()."\n";
 } catch (\Exception $e) {
-    //~ echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
     exit($E_FATAL);
 }
 
 // Mensaje de término
-echo "$soy Terminó.\n";
+echo "$soy Terminó\n";
 exit($EXITO);
 
 ?>

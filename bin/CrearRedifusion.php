@@ -34,7 +34,7 @@ chdir(realpath(dirname(__FILE__))."/..");
 require_once('lib/Base/Funciones.php');
 
 // Mensaje de inicio
-echo "$soy Inicia.\n";
+echo "$soy Inicia\n";
 
 // Iniciar Redifusion
 $redifusion = new \Base\Redifusion();
@@ -69,7 +69,7 @@ try {
         $publicacion->en_raiz = true;
         $redifusion->agregar_elemento($publicacion);
     }
-    echo $impresor->crear_archivo($redifusion->archivo, $redifusion->xml())."\n";
+    echo "  Creando {$redifusion->archivo}".$impresor->crear_archivo($redifusion->archivo, $redifusion->xml())."\n";
 } catch (\Exception $e) {
     //~ echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
@@ -77,7 +77,7 @@ try {
 }
 
 // Mensaje de término
-echo "$soy Terminó.\n";
+echo "$soy Terminó\n";
 exit($EXITO);
 
 ?>

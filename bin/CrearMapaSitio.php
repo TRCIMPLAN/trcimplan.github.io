@@ -34,7 +34,7 @@ chdir(realpath(dirname(__FILE__))."/..");
 require_once('lib/Base/Funciones.php');
 
 // Mensaje de inicio
-echo "$soy Inicia.\n";
+echo "$soy Inicia\n";
 
 // Iniciar el mapa
 $mapa = new \Base\MapaSitio();
@@ -69,10 +69,14 @@ try {
         $impresor->agregar_directorio_publicaciones($dir);
     }
     foreach ($impresor->publicaciones as $publicacion) {
-        $publicacion->en_raiz = true;
-        $mapa->agregar_url($publicacion->url(), $publicacion->fecha, 'monthly', '1');
+        if (strtolower($publicacion->estado) == 'publicar') {
+            $publicacion->en_raiz = true;
+            $mapa->agregar_url($publicacion->url(), $publicacion->fecha, 'monthly', '1');
+        } else {
+            echo "  Ignoro por estado \"{$publicacion->estado}\" en \"{$publicacion->nombre}\"\n";
+        }
     }
-    echo $impresor->crear_archivo($mapa->archivo, $mapa->xml())."\n";
+    echo "  Creando {$mapa->archivo}".$impresor->crear_archivo($mapa->archivo, $mapa->xml())."\n";
 } catch (\Exception $e) {
     //~ echo implode("\n", $impresor->mensajes)."\n";
     echo "$soy ".$e->getMessage()."\n";
@@ -80,7 +84,7 @@ try {
 }
 
 // Mensaje de término
-echo "$soy Terminó.\n";
+echo "$soy Terminó\n";
 exit($EXITO);
 
 ?>

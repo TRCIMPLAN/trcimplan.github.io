@@ -46,7 +46,7 @@ class ZonificacionSecundaria extends \Base\Publicacion {
         $this->claves         = 'IMPLAN, Torreón, Zonificación, Usos de Suelo';
         $this->categorias     = array('Gobierno');
         // El estado puede ser 'publicar' (lo usa), 'revisar' o 'ignorar' (lo omite)
-        $this->estado         = 'publicar';
+        $this->estado         = 'revisar';
         // URL de destino
         $this->url            = '../sig-mapas-torreon/zonificacion-secundaria.html';
      // $this->url_etiqueta   = '';

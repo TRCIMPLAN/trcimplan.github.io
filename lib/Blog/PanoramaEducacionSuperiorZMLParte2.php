@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - MODULO PanoramaEducacionSuperiorZMLParte2
+ * TrcIMPLAN - Panorama de la Educación Superior en la Z.M.L. (parte 2)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
