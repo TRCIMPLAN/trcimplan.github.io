@@ -68,7 +68,8 @@ class AvanceReconversionTecnologicaLedAlumbradoPublico extends \Base\Publicacion
 <iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <p>
  <b>Nota:</b> La información mostrada está sujeta a cambios sin previo aviso por la concesionaria.<br>
- <b>Fuente:</b> Dirección General de Servicios Públicos de Torreón.
+ <b>Fuente:</b> Dirección General de Servicios Públicos de Torreón.<br>
+ <b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
 </p>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa

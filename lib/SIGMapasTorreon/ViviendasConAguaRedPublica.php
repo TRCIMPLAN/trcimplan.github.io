@@ -40,7 +40,8 @@ class ViviendasConAguaRedPublica extends \Base\Publicacion {
         $this->imagen             = 'viviendas-con-agua-red-publica/imagen.jpg';
         $this->imagen_previa      = 'viviendas-con-agua-red-publica/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Accesibilidad de viviendas a agua potable.';
+        $this->descripcion        = 'Accesibilidad de viviendas a agua potable.
+<p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>';
         $this->claves             = 'IMPLAN, Torreon, Viviendas, Agua, Potable';
         $this->categorias         = array('Servicios Públicos', 'Vivienda');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML

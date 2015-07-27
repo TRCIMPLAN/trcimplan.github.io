@@ -40,7 +40,8 @@ class VidaEnCiudad extends \Base\Publicacion {
         $this->imagen             = 'vida-en-ciudad/imagen.jpg';
         $this->imagen_previa      = 'vida-en-ciudad/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Ubicación de los principales centros comerciales, centros de convenciones y espectáculos, museos, parques, plazas, teatros, así como lugares de turismo deportivo e histórico.';
+        $this->descripcion        = 'Ubicación de los principales centros comerciales, centros de convenciones y espectáculos, museos, parques, plazas, teatros, así como lugares de turismo deportivo e histórico.
+<p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>';
         $this->claves             = 'IMPLAN, Torreon, Comercios, Convenciones, Espectaculos, Museos, Parques, Plazas, Teatros, Turismo, Deportivo, Historico';
         $this->categorias         = array('Bienestar', 'Cultura');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
