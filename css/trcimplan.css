@@ -532,7 +532,8 @@ a.galeria-icono:active  { color:#FF3300; }
 #pie {
     background-color:#1b1e25;
     color:#DDD;
-    font-size:10px;
+    font-size:12px;
+    padding:1px;
 }
 #pie a         { color:#DDD; font-weight:bold; }
 #pie a:link,

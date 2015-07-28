@@ -35,11 +35,11 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->publicaciones_directorio = 'Terminos';
         // Los siguientes parámetros dan datos para el índice/galería que será creado
         $this->titulo                   = 'Términos';
-        $this->descripcion              = 'Términos de la Información y del Sitio Web.';
-        $this->claves                   = 'IMPLAN, Torreon, Términos de Uso';
-        $this->encabezado_color         = '#646464';
+        $this->descripcion              = 'Términos de Uso de la Información y del Sitio Web; además de el Aviso de Privacidad.';
+        $this->claves                   = 'IMPLAN, Torreon, Terminos, Uso, Aviso, Privacidad';
+        $this->encabezado_color         = '#C23700';
         // Etiqueta de Navegación a poner activa
-        $this->nombre_menu              = 'Preguntas Frecuentes > Términos';
+        $this->nombre_menu              = 'Términos de Uso';
         // La ruta al archivo con el índice/galería que será creado
         $this->directorio               = 'terminos';
         $this->archivo_ruta             = 'terminos/index.html';

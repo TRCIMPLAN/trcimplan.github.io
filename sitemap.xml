@@ -6,6 +6,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/terminos/terminos-informacion.html</loc>
+    <lastmod>2015-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/blog/es-mas-facil-cambiar-la-ciudad-que-cambiar-nosotros.html</loc>
     <lastmod>2015-07-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -2798,11 +2803,6 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/comercio-al-por-menor-alternativa-crecimiento-economico.html</loc>
     <lastmod>2015-01-06</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/terminos/terminos-informacion.html</loc>
-    <lastmod>2015-01-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
