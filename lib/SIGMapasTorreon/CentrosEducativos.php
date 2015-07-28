@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SIG Mapas Vida en la Ciudad
+ * TrcIMPLAN - SIG Mapas Centros Educativos
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,26 +23,26 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase VidaEnCiudad
+ * Clase CentrosEducativos
  */
-class VidaEnCiudad extends \Base\Publicacion {
+class CentrosEducativos extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Vida en la Ciudad';
+        $this->nombre             = 'Centros Educativos';
         $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha              = '2015-05-14T11:00';
+        $this->fecha              = '2015-07-28T11:54';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo            = 'vida-en-ciudad';
-        $this->imagen             = 'vida-en-ciudad/imagen.jpg';
-        $this->imagen_previa      = 'vida-en-ciudad/imagen-previa.jpg';
+        $this->archivo            = 'centros-educativos';
+        $this->imagen             = 'centros-educativos/imagen.jpg';
+        $this->imagen_previa      = 'centros-educativos/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Ubicación de los principales centros comerciales, centros de convenciones y espectáculos, museos, parques, plazas, teatros, así como lugares de turismo deportivo e histórico.';
-        $this->claves             = 'IMPLAN, Torreon, Comercios, Convenciones, Espectaculos, Museos, Parques, Plazas, Teatros, Turismo, Deportivo, Historico';
-        $this->categorias         = array('Bienestar', 'Cultura');
+        $this->descripcion        = 'Ubicación centros educativos en Torreón de nivel básico a superior. Fuente: INEGI 2010.';
+        $this->claves             = 'IMPLAN, Torreón, Educación, Preescolares, Primarias, Secundarias, Preparatorias, Media Superior, Superior';
+        $this->categorias         = array('Eduacación');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -52,7 +52,7 @@ class VidaEnCiudad extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/ae1f0dba-e9f9-11e4-a808-0e0c41326911/embed_map';
+        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/9f2497ee-3490-11e5-9f8c-0e853d047bba/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -65,7 +65,7 @@ class VidaEnCiudad extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/ae1f0dba-e9f9-11e4-a808-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.cartodb.com/u/sigimplan/viz/9f2497ee-3490-11e5-9f8c-0e853d047bba/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
@@ -115,6 +115,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase VidaEnCiudad
+} // Clase CentrosEducativos
 
 ?>

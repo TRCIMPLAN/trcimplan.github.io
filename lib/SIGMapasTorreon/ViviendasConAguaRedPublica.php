@@ -40,8 +40,7 @@ class ViviendasConAguaRedPublica extends \Base\Publicacion {
         $this->imagen             = 'viviendas-con-agua-red-publica/imagen.jpg';
         $this->imagen_previa      = 'viviendas-con-agua-red-publica/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Accesibilidad de viviendas a agua potable.
-<p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>';
+        $this->descripcion        = 'Accesibilidad de viviendas a agua potable.';
         $this->claves             = 'IMPLAN, Torreon, Viviendas, Agua, Potable';
         $this->categorias         = array('Servicios Públicos', 'Vivienda');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
@@ -67,6 +66,7 @@ class ViviendasConAguaRedPublica extends \Base\Publicacion {
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
 <iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/28b06c78-de19-11e4-8197-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
