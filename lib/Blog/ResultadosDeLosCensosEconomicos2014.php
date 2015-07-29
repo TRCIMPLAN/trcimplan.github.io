@@ -34,7 +34,7 @@ class ResultadosDeLosCensosEconomicos2014 extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Resultados de los Censos Económicos 2014';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha           = '2015-07-29T15:40';
+        $this->fecha           = '2015-07-29T15:50';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo         = 'resultados-de-los-censos-economicos-2014';
         $this->imagen          = 'resultados-de-los-censos-economicos-2014/imagen.jpg';

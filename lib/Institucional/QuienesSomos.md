@@ -10,7 +10,7 @@ Persona                                  | Puesto
 **Lic. Eduardo Holguín Zehfuss**         | **Director General Ejecutivo**
 Lic. Miriam Anahi Castillo Díaz          | Secretario Técnico
 Ing. Natalia Zavala López                | Asistente Presidencia
-Lic. Felipe de Jesús Medina Delgado      | Coordinador Jurídico
+Lic. Felipe de Jesús Medina Delgado      | Asistente de Direcciones
 Lic. Julia de la Parra de Juambelz       | Coordinador Jurídico
 Lic. Mariana Segovia Mota                | Coordinador Administrativo
 Lic. Irma Judith Ramírez Machain         | Contadora

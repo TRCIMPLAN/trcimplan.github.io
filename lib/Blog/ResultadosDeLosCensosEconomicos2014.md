@@ -1,7 +1,7 @@
 
 ### Valor Agregado
 
-Según los resultados de los **censos económicos 2014,** publicados el 27 de julio, **el valor agregado en el municipio de Torreón aumentó 5.62% real en cinco años.** Durante el periodo 2008-2013 el valor agregado censal bruto del municipio paso de $38,974,922 miles de pesos (mdp) a $49,826,440 mdp.
+Según los resultados de los **censos económicos 2014,** publicados el 27 de julio, **el valor agregado en el municipio de Torreón aumentó 5.62% real en cinco años.** Durante el periodo 2008-2013 el valor agregado censal bruto del municipio pasó de $38,974,922 miles de pesos (mdp) a $49,826,440 mdp.
 
 Entre los **sectores con mayor crecimiento en el municipio** se encuentran los **servicios financieros y de seguros, comercio al por menor y al por mayor y los servicios de salud y asistencia social.** La industria manufactura, los servicios educativos y los servicios de alojamiento temporal y preparación de alimentos y bebidas se encuentran entre los sectores que presentaron una tasa de crecimiento negativa. Los sectores más representativos se muestran en la siguiente tabla:
 
@@ -48,6 +48,8 @@ La estructura en la distribución de la producción bruta de La Laguna no presen
 ### Participación sectorial en la producción bruta total de La Laguna
 
 <img class="img-responsive" src="resultados-de-los-censos-economicos-2014/participacion-sectorial-en-la-produccion-bruta-total-de-la-laguna.jpg" alt="Participacion Sectorial en la Produccion Bruta Total de La Laguna">
+
+**Fuente:** INEGI. Censos Económicos 2014.
 
 ### Otras ciudades de la república
 
