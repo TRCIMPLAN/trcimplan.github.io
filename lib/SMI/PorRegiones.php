@@ -214,7 +214,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
       <li><a href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
       <li><a href="../indicadores-torreon/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
-      <li><a href="../indicadores-torreon/sociedad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-de-preescolar-por-docente.html" target="_blank">Alumnos de Preescolar por Docente</a></li>
@@ -222,7 +221,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
       <li><a href="../indicadores-torreon/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
       <li><a href="../indicadores-torreon/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
-      <li><a href="../indicadores-torreon/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
       <li><a href="../indicadores-torreon/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
       <li><a href="../indicadores-torreon/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
       <li><a href="../indicadores-torreon/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
@@ -234,12 +232,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
       <li><a href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html" target="_blank">Estimación de Menores Huérfanos por Agresiones</a></li>
       <li><a href="../indicadores-torreon/sociedad-fecundidad.html" target="_blank">Fecundidad</a></li>
-      <li><a href="../indicadores-torreon/sociedad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-torreon/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-torreon/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de Hacinamiento</a></li>
       <li><a href="../indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
-      <li><a href="../indicadores-torreon/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-torreon/sociedad-madres-adolescentes.html" target="_blank">Madres Adolescentes</a></li>
       <li><a href="../indicadores-torreon/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-torreon/sociedad-medicos.html" target="_blank">Médicos</a></li>
@@ -261,11 +257,9 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html" target="_blank">Promedio de Descendencia por Varón</a></li>
       <li><a href="../indicadores-torreon/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
       <li><a href="../indicadores-torreon/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
-      <li><a href="../indicadores-torreon/sociedad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
       <li><a href="../indicadores-torreon/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
       <li><a href="../indicadores-torreon/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-torreon/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
-      <li><a href="../indicadores-torreon/sociedad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
       <li><a href="../indicadores-torreon/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
       <li><a href="../indicadores-torreon/sociedad-universidades.html" target="_blank">Universidades</a></li>
       <li><a href="../indicadores-torreon/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
@@ -290,12 +284,14 @@ class PorRegiones extends \Base\Publicacion {
     <h3>Sustentabilidad</h3>
     <ul>
       <li><a href="../indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
+      <li><a href="../indicadores-torreon/sustentabilidad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-alumbrado-publico.html" target="_blank">Alumbrado Público</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html" target="_blank">Consumo de Agua Facturado</a></li>
+      <li><a href="../indicadores-torreon/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
@@ -304,8 +300,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
+      <li><a href="../indicadores-torreon/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
+      <li><a href="../indicadores-torreon/sustentabilidad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-motorizacion.html" target="_blank">Motorización</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-anuales.html" target="_blank">Pasajeros Aéreos Internacionales Anuales</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales-mensuales.html" target="_blank">Pasajeros Aéreos Internacionales Mensuales</a></li>
@@ -313,10 +311,12 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales-mensuales.html" target="_blank">Pasajeros Aéreos Totales Mensuales</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" target="_blank">Población que Trabaja en OTRO Municipio</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
+      <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-red-de-transporte-publico.html" target="_blank">Red de Transporte Público</a></li>
+      <li><a href="../indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
@@ -455,7 +455,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-de-preescolar-por-docente.html" target="_blank">Alumnos de Preescolar por Docente</a></li>
@@ -463,7 +462,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
@@ -473,12 +471,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de Hacinamiento</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-medicos.html" target="_blank">Médicos</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
@@ -498,11 +494,9 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-universidades.html" target="_blank">Universidades</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
@@ -527,11 +521,13 @@ class PorRegiones extends \Base\Publicacion {
     <h3>Sustentabilidad</h3>
     <ul>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
+      <li><a href="../indicadores-gomez-palacio/sustentabilidad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-alumbrado-publico.html" target="_blank">Alumbrado Público</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
+      <li><a href="../indicadores-gomez-palacio/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
@@ -540,16 +536,20 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
+      <li><a href="../indicadores-gomez-palacio/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
+      <li><a href="../indicadores-gomez-palacio/sustentabilidad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html" target="_blank">Motorización</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-pasajeros-aereos-internacionales-anuales.html" target="_blank">Pasajeros Aéreos Internacionales Anuales</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-pasajeros-aereos-totales-anual.html" target="_blank">Pasajeros Aéreos Totales Anual</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" target="_blank">Población que Trabaja en OTRO Municipio</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
+      <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
+      <li><a href="../indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
@@ -688,7 +688,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
       <li><a href="../indicadores-lerdo/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
       <li><a href="../indicadores-lerdo/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-de-preescolar-por-docente.html" target="_blank">Alumnos de Preescolar por Docente</a></li>
@@ -696,7 +695,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
       <li><a href="../indicadores-lerdo/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
       <li><a href="../indicadores-lerdo/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
       <li><a href="../indicadores-lerdo/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
       <li><a href="../indicadores-lerdo/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
       <li><a href="../indicadores-lerdo/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
@@ -706,12 +704,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-lerdo/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-lerdo/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-lerdo/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de Hacinamiento</a></li>
       <li><a href="../indicadores-lerdo/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-lerdo/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-lerdo/sociedad-medicos.html" target="_blank">Médicos</a></li>
       <li><a href="../indicadores-lerdo/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
@@ -731,11 +727,9 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
       <li><a href="../indicadores-lerdo/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
       <li><a href="../indicadores-lerdo/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
       <li><a href="../indicadores-lerdo/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
       <li><a href="../indicadores-lerdo/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-lerdo/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
       <li><a href="../indicadores-lerdo/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
       <li><a href="../indicadores-lerdo/sociedad-universidades.html" target="_blank">Universidades</a></li>
       <li><a href="../indicadores-lerdo/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
@@ -760,11 +754,13 @@ class PorRegiones extends \Base\Publicacion {
     <h3>Sustentabilidad</h3>
     <ul>
       <li><a href="../indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
+      <li><a href="../indicadores-lerdo/sustentabilidad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-alumbrado-publico.html" target="_blank">Alumbrado Público</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
+      <li><a href="../indicadores-lerdo/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
@@ -773,16 +769,20 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
+      <li><a href="../indicadores-lerdo/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
+      <li><a href="../indicadores-lerdo/sustentabilidad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-motorizacion.html" target="_blank">Motorización</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-pasajeros-aereos-internacionales-anuales.html" target="_blank">Pasajeros Aéreos Internacionales Anuales</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-pasajeros-aereos-totales-anual.html" target="_blank">Pasajeros Aéreos Totales Anual</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" target="_blank">Población que Trabaja en OTRO Municipio</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
+      <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
+      <li><a href="../indicadores-lerdo/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
@@ -922,7 +922,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
       <li><a href="../indicadores-matamoros/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
       <li><a href="../indicadores-matamoros/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-de-preescolar-por-docente.html" target="_blank">Alumnos de Preescolar por Docente</a></li>
@@ -930,7 +929,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
       <li><a href="../indicadores-matamoros/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
       <li><a href="../indicadores-matamoros/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
       <li><a href="../indicadores-matamoros/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
       <li><a href="../indicadores-matamoros/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
       <li><a href="../indicadores-matamoros/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
@@ -940,12 +938,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-matamoros/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-matamoros/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-matamoros/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-matamoros/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de Hacinamiento</a></li>
       <li><a href="../indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-matamoros/sociedad-maternidad-adolescente.html" target="_blank">Maternidad Adolescente</a></li>
       <li><a href="../indicadores-matamoros/sociedad-medicos.html" target="_blank">Médicos</a></li>
       <li><a href="../indicadores-matamoros/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
@@ -965,11 +961,9 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
       <li><a href="../indicadores-matamoros/sociedad-razon-de-mortalidad-materna.html" target="_blank">Razón de Mortalidad Materna</a></li>
       <li><a href="../indicadores-matamoros/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html" target="_blank">Razón entre Mujeres y Hombres en la Enseñanza Media Superior</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
       <li><a href="../indicadores-matamoros/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
       <li><a href="../indicadores-matamoros/sociedad-rezago-alimentario.html" target="_blank">Rezago Alimentario</a></li>
       <li><a href="../indicadores-matamoros/sociedad-rezago-educativo.html" target="_blank">Rezago Educativo</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
       <li><a href="../indicadores-matamoros/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
       <li><a href="../indicadores-matamoros/sociedad-universidades.html" target="_blank">Universidades</a></li>
       <li><a href="../indicadores-matamoros/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
@@ -994,11 +988,13 @@ class PorRegiones extends \Base\Publicacion {
     <h3>Sustentabilidad</h3>
     <ul>
       <li><a href="../indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
+      <li><a href="../indicadores-matamoros/sustentabilidad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-alumbrado-publico.html" target="_blank">Alumbrado Público</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
+      <li><a href="../indicadores-matamoros/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
@@ -1007,16 +1003,20 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
+      <li><a href="../indicadores-matamoros/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
+      <li><a href="../indicadores-matamoros/sustentabilidad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-motorizacion.html" target="_blank">Motorización</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-pasajeros-aereos-internacionales-anuales.html" target="_blank">Pasajeros Aéreos Internacionales Anuales</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-pasajeros-aereos-totales-anual.html" target="_blank">Pasajeros Aéreos Totales Anual</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" target="_blank">Población que Trabaja en OTRO Municipio</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
+      <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" target="_blank">Red Carretera de Alimentadoras Estatales</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-total.html" target="_blank">Red Carretera Total</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-troncal-federal.html" target="_blank">Red Carretera Troncal Federal</a></li>
+      <li><a href="../indicadores-matamoros/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-viviendas-deshabitadas.html" target="_blank">Viviendas Deshabitadas</a></li>
       <li><a href="../indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html" target="_blank">Viviendas Ocupadas Temporalmente</a></li>
@@ -1151,7 +1151,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores.html" target="_blank">Adultos Mayores</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html" target="_blank">Adultos Mayores Femenino</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores-masculino.html" target="_blank">Adultos Mayores Masculino</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-de-preescolar-por-docente.html" target="_blank">Alumnos de Preescolar por Docente</a></li>
@@ -1159,7 +1158,6 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-de-secundaria-por-docente.html" target="_blank">Alumnos de Secundaria por Docente</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-camas-censables.html" target="_blank">Camas Censables</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-camas-de-hospital.html" target="_blank">Camas de Hospital</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-crecimiento-en-acceso-a-servicios-de-salud.html" target="_blank">Crecimiento en Acceso a Servicios de Salud</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
@@ -1168,12 +1166,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html" target="_blank">Índice de Hacinamiento</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html" target="_blank">Ingreso Promedio de la Mujer</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-medicos.html" target="_blank">Médicos</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-mortalidad.html" target="_blank">Mortalidad</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html" target="_blank">Mortalidad Infantil</a></li>
@@ -1190,9 +1186,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sociedad-pobreza.html" target="_blank">Pobreza</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-pobreza-extrema.html" target="_blank">Pobreza Extrema</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-pobreza-moderada.html" target="_blank">Pobreza Moderada</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-rendimiento-academico.html" target="_blank">Rendimiento Académico</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html" target="_blank">Tasa de Mortalidad Materna</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-universidades.html" target="_blank">Universidades</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-universidades-de-calidad.html" target="_blank">Universidades de Calidad</a></li>
@@ -1217,11 +1211,13 @@ class PorRegiones extends \Base\Publicacion {
     <h3>Sustentabilidad</h3>
     <ul>
       <li><a href="../indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html" target="_blank">Acceso a Vialidades Pavimentadas</a></li>
+      <li><a href="../indicadores-la-laguna/sustentabilidad-aerolineas.html" target="_blank">Aerolíneas</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-alumbrado-publico.html" target="_blank">Alumbrado Público</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html" target="_blank">Aprovechamiento del Biogás en Rellenos Sanitarios</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html" target="_blank">Área No Urbanizada</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html" target="_blank">Capacidad de Tratamiento de Agua en Operación</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-consumo-de-agua.html" target="_blank">Consumo de Agua</a></li>
+      <li><a href="../indicadores-la-laguna/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html" target="_blank">Consumo de Diesel en Transporte de Bienes</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-desastres-naturales.html" target="_blank">Desastres Naturales</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html" target="_blank">Destinos Vía Aérea</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html" target="_blank">Destinos Vía Terrestre</a></li>
@@ -1230,13 +1226,17 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sustentabilidad-economia-intensiva-en-energia.html" target="_blank">Economía Intensiva en Energía</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-emergencias-ambientales.html" target="_blank">Emergencias Ambientales</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-empresas-certificadas-como-limpias.html" target="_blank">Empresas Certificadas como Limpias</a></li>
+      <li><a href="../indicadores-la-laguna/sustentabilidad-flujo-de-pasajeros-aereos.html" target="_blank">Flujo de Pasajeros Aéreos</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-generacion-de-basura.html" target="_blank">Generación de Basura</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html" target="_blank">Índice de Gestión de Calidad del Aire</a></li>
+      <li><a href="../indicadores-la-laguna/sustentabilidad-lineas-de-autobus.html" target="_blank">Líneas de Autobús</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-motorizacion.html" target="_blank">Motorización</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales-anuales.html" target="_blank">Pasajeros Aéreos Internacionales Anuales</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales-anual.html" target="_blank">Pasajeros Aéreos Totales Anual</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" target="_blank">Población que Trabaja en OTRO Municipio</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" target="_blank">Población que Trabaja en su PROPIO Municipio</a></li>
+      <li><a href="../indicadores-la-laguna/sustentabilidad-red-carretera-avanzada.html" target="_blank">Red Carretera Avanzada</a></li>
+      <li><a href="../indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html" target="_blank">Sistema de Transporte Masivo</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html" target="_blank">Sobreexplotación del Acuífero</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-traslados-a-pie.html" target="_blank">Traslados a Pie</a></li>
       <li><a href="../indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html" target="_blank">Uso de Automóvil Particular</a></li>
