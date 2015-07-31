@@ -42,7 +42,7 @@ class CentrosEducativos extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion        = 'Ubicación centros educativos en Torreón de nivel básico a superior. Fuente: INEGI 2010.';
         $this->claves             = 'IMPLAN, Torreón, Educación, Preescolares, Primarias, Secundarias, Preparatorias, Media Superior, Superior';
-        $this->categorias         = array('Eduacación');
+        $this->categorias         = array('Educación');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación

@@ -122,6 +122,12 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>7.19 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -150,36 +156,36 @@ class EconomiaUnidadesEconomicasDedicadasALaIndustriaManufacturera extends \Base
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-10-31</td>
-            <td>8.55 %</td>
+            <td>2014-12-31</td>
+            <td>7.19 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2013-10-31</td>
-            <td>8.84 %</td>
+            <td>2014-12-31</td>
+            <td>7.95 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2013-10-31</td>
-            <td>8.52 %</td>
+            <td>2014-12-31</td>
+            <td>7.58 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-10-31</td>
-            <td>9.58 %</td>
+            <td>2014-12-31</td>
+            <td>7.41 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-10-31</td>
-            <td>8.69 %</td>
+            <td>2014-12-31</td>
+            <td>7.43 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -349,7 +355,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '1998-12-31', dato: 10.9600 },{ fecha: '2003-12-31', dato: 9.3300 },{ fecha: '2008-12-31', dato: 9.2400 },{ fecha: '2013-10-31', dato: 8.5500 }],
+      data: [{ fecha: '1998-12-31', dato: 10.9600 },{ fecha: '2003-12-31', dato: 9.3300 },{ fecha: '2008-12-31', dato: 9.2400 },{ fecha: '2013-10-31', dato: 8.5500 },{ fecha: '2014-12-31', dato: 7.1935 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -365,7 +371,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 8.5500 },{ region: 'Gómez Palacio', dato: 8.8400 },{ region: 'Lerdo', dato: 8.5200 },{ region: 'Matamoros', dato: 9.5800 },{ region: 'La Laguna', dato: 8.6900 },{ region: 'Nacional', dato: 10.7100 }],
+      data: [{ region: 'Torreón', dato: 7.1935 },{ region: 'Gómez Palacio', dato: 7.9537 },{ region: 'Lerdo', dato: 7.5766 },{ region: 'Matamoros', dato: 7.4123 },{ region: 'La Laguna', dato: 7.4282 },{ region: 'Nacional', dato: 10.7100 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -425,6 +431,12 @@ FINAL;
           <tr>
             <td>31/10/2013</td>
             <td>8.55 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>7.19 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>

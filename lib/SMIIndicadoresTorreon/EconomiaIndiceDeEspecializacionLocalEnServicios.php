@@ -116,6 +116,12 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \Base\Publicacion 
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>9.13 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -152,43 +158,57 @@ class EconomiaIndiceDeEspecializacionLocalEnServicios extends \Base\Publicacion 
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2008-12-31</td>
-            <td>8.05 %</td>
+            <td>2013-12-31</td>
+            <td>9.13 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2008-12-31</td>
-            <td>4.91 %</td>
+            <td>2013-12-31</td>
+            <td>5.66 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2008-12-31</td>
-            <td>8.56 %</td>
+            <td>2013-12-31</td>
+            <td>9.36 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2008-12-31</td>
-            <td>6.98 %</td>
+            <td>2013-12-31</td>
+            <td>9.65 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2008-12-31</td>
-            <td>7.15 %</td>
+            <td>2013-12-31</td>
+            <td>8.38 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2013-12-31</td>
+            <td>6.05 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2013-12-31</td>
+            <td>9.47 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2008-12-31</td>
-            <td>16.55 %</td>
+            <td>2013-12-31</td>
+            <td>16.51 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -351,7 +371,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '1998-12-31', dato: 15.1100 },{ fecha: '2003-12-31', dato: 17.4900 },{ fecha: '2008-12-31', dato: 8.0500 }],
+      data: [{ fecha: '1998-12-31', dato: 15.1100 },{ fecha: '2003-12-31', dato: 17.4900 },{ fecha: '2008-12-31', dato: 8.0500 },{ fecha: '2013-12-31', dato: 9.1291 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -367,7 +387,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 8.0500 },{ region: 'Gómez Palacio', dato: 4.9100 },{ region: 'Lerdo', dato: 8.5600 },{ region: 'Matamoros', dato: 6.9800 },{ region: 'La Laguna', dato: 7.1500 },{ region: 'Nacional', dato: 16.5500 }],
+      data: [{ region: 'Torreón', dato: 9.1291 },{ region: 'Gómez Palacio', dato: 5.6635 },{ region: 'Lerdo', dato: 9.3554 },{ region: 'Matamoros', dato: 9.6493 },{ region: 'La Laguna', dato: 8.3759 },{ region: 'Coahuila', dato: 6.0458 },{ region: 'Durango', dato: 9.4728 },{ region: 'Nacional', dato: 16.5100 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -421,6 +441,12 @@ FINAL;
           <tr>
             <td>31/12/2008</td>
             <td>8.05 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>9.13 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>

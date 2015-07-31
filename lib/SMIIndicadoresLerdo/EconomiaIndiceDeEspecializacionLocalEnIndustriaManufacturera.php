@@ -116,6 +116,12 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \Base
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>52.63 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -152,43 +158,57 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \Base
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2008-12-31</td>
-            <td>76.06 %</td>
+            <td>2013-12-31</td>
+            <td>74.96 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2008-12-31</td>
-            <td>60.23 %</td>
+            <td>2013-12-31</td>
+            <td>68.50 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2008-12-31</td>
-            <td>53.94 %</td>
+            <td>2013-12-31</td>
+            <td>52.63 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2008-12-31</td>
-            <td>58.72 %</td>
+            <td>2013-12-31</td>
+            <td>68.28 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2008-12-31</td>
-            <td>71.10 %</td>
+            <td>2013-12-31</td>
+            <td>72.85 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2013-12-31</td>
+            <td>81.11 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2013-12-31</td>
+            <td>49.19 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2008-12-31</td>
-            <td>44.34 %</td>
+            <td>2013-12-31</td>
+            <td>48.24 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -351,7 +371,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '1998-12-31', dato: 59.2500 },{ fecha: '2003-12-31', dato: 75.8500 },{ fecha: '2008-12-31', dato: 53.9400 }],
+      data: [{ fecha: '1998-12-31', dato: 59.2500 },{ fecha: '2003-12-31', dato: 75.8500 },{ fecha: '2008-12-31', dato: 53.9400 },{ fecha: '2013-12-31', dato: 52.6319 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -367,7 +387,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 76.0600 },{ region: 'Gómez Palacio', dato: 60.2300 },{ region: 'Lerdo', dato: 53.9400 },{ region: 'Matamoros', dato: 58.7200 },{ region: 'La Laguna', dato: 71.1000 },{ region: 'Nacional', dato: 44.3400 }],
+      data: [{ region: 'Torreón', dato: 74.9639 },{ region: 'Gómez Palacio', dato: 68.4953 },{ region: 'Lerdo', dato: 52.6319 },{ region: 'Matamoros', dato: 68.2820 },{ region: 'La Laguna', dato: 72.8484 },{ region: 'Coahuila', dato: 81.1136 },{ region: 'Durango', dato: 49.1882 },{ region: 'Nacional', dato: 48.2381 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -421,6 +441,12 @@ FINAL;
           <tr>
             <td>31/12/2008</td>
             <td>53.94 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>52.63 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>

@@ -82,7 +82,7 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -116,6 +116,12 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>1.25 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -129,9 +135,9 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
 <p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a></p>
 
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Índice de Especialización Local en la Minería en La Laguna</h3>
-      <div id="graficaDatos" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Índice de Especialización Local en la Minería en La Laguna con fuente INEGI</h3>
+      <div id="graficaDatosInegi" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Índice de Especialización Local en la Minería</h3>
@@ -150,37 +156,58 @@ class EconomiaIndiceDeEspecializacionLocalEnLaMineria extends \Base\Publicacion 
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2008-12-31</td>
-            <td>1.40 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>1.46 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2008-12-31</td>
-            <td>0.20 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>0.53 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2008-12-31</td>
-            <td>2.80 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>2.33 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2008-12-31</td>
-            <td>0.40 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>1.83 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2008-12-31</td>
-            <td>1.03 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>1.25 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2013-12-31</td>
+            <td>2.97 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2013-12-31</td>
+            <td>10.63 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2013-12-31</td>
+            <td>8.78 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
         </tbody>
@@ -336,12 +363,12 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
+  if (typeof vargraficaDatosInegi === 'undefined') {
+    vargraficaDatosInegi = Morris.Line({
+      element: 'graficaDatosInegi',
       data: [{ fecha: '1998-12-31', dato: 1.9000 },{ fecha: '2003-12-31', dato: 0.3000 },{ fecha: '2008-12-31', dato: 1.0300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -358,7 +385,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 1.4000 },{ region: 'Gómez Palacio', dato: 0.2000 },{ region: 'Lerdo', dato: 2.8000 },{ region: 'Matamoros', dato: 0.4000 },{ region: 'La Laguna', dato: 1.0300 }],
+      data: [{ region: 'Torreón', dato: 1.4625 },{ region: 'Gómez Palacio', dato: 0.5269 },{ region: 'Lerdo', dato: 2.3267 },{ region: 'Matamoros', dato: 1.8292 },{ region: 'La Laguna', dato: 1.2450 },{ region: 'Coahuila', dato: 2.9662 },{ region: 'Durango', dato: 10.6270 },{ region: 'Nacional', dato: 8.7785 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -413,6 +440,12 @@ FINAL;
             <td>31/12/2008</td>
             <td>1.03 %</td>
             <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>1.25 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
         </tbody>

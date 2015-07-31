@@ -82,7 +82,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -116,6 +116,12 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>223.31 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -123,9 +129,9 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
 <p>Datos obtenidos de <a href="http://www3.inegi.org.mx/sistemas/saic/">INEGI. Censos económicos</a></p>
 
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Personal Ocupado en los Servicios en Gómez Palacio</h3>
-      <div id="graficaDatos" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Personal Ocupado en los Servicios en Gómez Palacio con fuente INEGI</h3>
+      <div id="graficaDatosInegi" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Personal Ocupado en los Servicios</h3>
@@ -144,44 +150,58 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2008-12-31</td>
-            <td>35.64 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>39.02 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2008-12-31</td>
-            <td>30.28 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>223.31 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2008-12-31</td>
-            <td>24.20 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>20.31 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2008-12-31</td>
-            <td>17.95 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>24.16 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2008-12-31</td>
-            <td>32.99 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>34.91 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2013-12-31</td>
+            <td>28.65 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2013-12-31</td>
+            <td>28.20 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2008-12-31</td>
-            <td>35.03 %</td>
-            <td>INEGI</td>
+            <td>2013-12-31</td>
+            <td>36.45 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
         </tbody>
@@ -337,12 +357,12 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
+  if (typeof vargraficaDatosInegi === 'undefined') {
+    vargraficaDatosInegi = Morris.Line({
+      element: 'graficaDatosInegi',
       data: [{ fecha: '1998-12-31', dato: 30.8700 },{ fecha: '2003-12-31', dato: 26.4600 },{ fecha: '2008-12-31', dato: 30.2786 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -359,7 +379,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 35.6387 },{ region: 'Gómez Palacio', dato: 30.2786 },{ region: 'Lerdo', dato: 24.2010 },{ region: 'Matamoros', dato: 17.9535 },{ region: 'La Laguna', dato: 32.9908 },{ region: 'Nacional', dato: 35.0300 }],
+      data: [{ region: 'Torreón', dato: 39.0245 },{ region: 'Gómez Palacio', dato: 223.3132 },{ region: 'Lerdo', dato: 20.3095 },{ region: 'Matamoros', dato: 24.1582 },{ region: 'La Laguna', dato: 34.9078 },{ region: 'Coahuila', dato: 28.6520 },{ region: 'Durango', dato: 28.1982 },{ region: 'Nacional', dato: 36.4504 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -414,6 +434,12 @@ FINAL;
             <td>31/12/2008</td>
             <td>30.28 %</td>
             <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>223.31 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
         </tbody>
