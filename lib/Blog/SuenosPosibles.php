@@ -42,7 +42,7 @@ class SuenosPosibles extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'La ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano.';
         $this->claves           = 'IMPLAN, Torreon, Plan Estrategico Metropolitano';
-        $this->categorias       = array('Plan Estratégico Metropolitano');
+        $this->categorias       = array('Gobierno');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

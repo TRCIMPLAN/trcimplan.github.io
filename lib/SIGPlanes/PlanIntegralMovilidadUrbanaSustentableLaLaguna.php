@@ -42,7 +42,7 @@ class PlanIntegralMovilidadUrbanaSustentableLaLaguna extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Conjunto de acciones para implementar las distintas formas de transporte sustentable: a pie, bicicleta y transporte público.';
         $this->claves           = 'IMPLAN, Torreón, Plan, Movilidad, Urbana, Sustentable, La Laguna';
-        $this->categorias       = array('SIG');
+        $this->categorias       = array('Gobierno', 'Movilidad');
         // El estado puede ser 'publicar' (lo usa), 'revisar' o 'ignorar' (lo omite)
         $this->estado           = 'publicar';
         // URL de destino

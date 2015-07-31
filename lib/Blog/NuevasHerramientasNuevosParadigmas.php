@@ -42,7 +42,7 @@ class NuevasHerramientasNuevosParadigmas extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Hoy en día, con un teléfono inteligente o tablet se puede consultar la versión móvil de un SIG para recaudar información, emitir un diagnóstico y trabajar en planes programas y proyectos futuros.';
         $this->claves           = 'IMPLAN, Torreon, Informacion, Geografica, Movil';
-        $this->categorias       = array('Innovación', 'SIG');
+        $this->categorias       = array('Innovación');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

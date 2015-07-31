@@ -42,7 +42,7 @@ class SegundaGeneracionSitioWeb extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'A partir de enero de 2015 se puso en línea el nuevo sitio web del IMPLAN Torreón. Se integraron todos los servicios y se adapta a teléfonos celulares y tablets.';
         $this->claves           = 'IMPLAN, Torreon, Segunda Generacion, Sitio Web';
-        $this->categorias       = array('SMI', 'SIG');
+        $this->categorias       = array('Innovación');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

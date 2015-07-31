@@ -42,7 +42,7 @@ class ImplanSomosTodos extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Al iniciar este año se puso en marcha las labores del IMPLAN Torreón, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada.';
         $this->claves           = 'IMPLAN, Torreon, Crecimiento, Ordenado';
-        $this->categorias       = array('Gobierno', 'Plan Estratégico Metropolitano');
+        $this->categorias       = array('Gobierno');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

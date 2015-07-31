@@ -42,7 +42,7 @@ class PlanDirectorDesarrolloUrbanoMunicipioTorreon extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Establecer una metrópoli articulada y coherente con equipamiento e infraestructura para la regeneración urbana.';
         $this->claves           = 'IMPLAN, Torreon, Plan, Director, Desarrollo, Urbano, Municipio';
-        $this->categorias       = array('SIG');
+        $this->categorias       = array('Gobierno', 'Infraestructura');
         // El estado puede ser 'publicar' (lo usa), 'revisar' o 'ignorar' (lo omite)
         $this->estado           = 'publicar';
         // URL de destino

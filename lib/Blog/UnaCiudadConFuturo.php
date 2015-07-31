@@ -42,7 +42,7 @@ class UnaCiudadConFuturo extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Es grande el legado histórico de la ciudad de Torreón, su importancia y la bonanza del pasado. Hoy, el lanzamiento del Plan Estratégico Metropolitano es la apuesta por el futuro de la ciudad con más productividad.';
         $this->claves           = 'IMPLAN, Torreon, Plan Estrategico Metropolitano';
-        $this->categorias       = array('Plan Estratégico Metropolitano');
+        $this->categorias       = array('Cultura');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';

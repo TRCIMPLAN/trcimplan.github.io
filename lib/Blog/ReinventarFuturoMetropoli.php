@@ -42,7 +42,7 @@ class ReinventarFuturoMetropoli extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Ensayo sobre las nuevas tecnologías en materia de vivienda, agricultura y transporte que mejorarán nuestro futuro.';
         $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Blog');
+        $this->categorias       = array('Bienestar', 'Infraestructura');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio       = 'blog';
         $this->nombre_menu      = 'Análisis Publicados';
