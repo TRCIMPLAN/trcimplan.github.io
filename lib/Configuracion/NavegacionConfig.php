@@ -53,6 +53,7 @@ class NavegacionConfig {
             'Proyectos Estratégicos > Banco de Proyectos' => 'proyectos/banco-municipal-proyectos-inversion.html',
             'Proyectos Estratégicos > Calle Completa'     => 'proyectos/calle-completa.html',
             'Proyectos Estratégicos > Plata Laguna'       => 'proyectos/plata-laguna.html',
+            'Proyectos Estratégicos > Plan Centro Laguna' => 'proyectos/plan-centro-laguna.html',
             'Proyectos Estratégicos > Salud Laguna'       => 'proyectos/salud-laguna.html'),
         'Institucional' => array(
             'Institucional > Visión / Misión'        => 'institucional/vision-mision.html',

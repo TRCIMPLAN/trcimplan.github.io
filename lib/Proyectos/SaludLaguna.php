@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLAN
  */
 
-// Namespace
 namespace Proyectos;
 
 /**
@@ -32,46 +32,66 @@ class SaludLaguna extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Salud Laguna';
-     // $this->autor            = '';
-        $this->fecha            = '2015-05-25T11:40';
+        $this->nombre          = 'Salud Laguna';
+     // $this->autor           = '';
+        $this->fecha           = '2015-05-25T11:40';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = 'salud-laguna';
-        $this->imagen           = 'salud-laguna/imagen.jpg';
-        $this->imagen_previa    = 'salud-laguna/imagen-previa.jpg';
+        $this->archivo         = 'salud-laguna';
+        $this->imagen          = 'salud-laguna/imagen.jpg';
+        $this->imagen_previa   = 'salud-laguna/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'Salud Laguna es una agrupación interactiva de pro­fesionales, instituciones, or­ga­nizaciones, integrados en torno a las actividades económicas que dan servicio y soportan al sec­tor salud.';
-        $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Empresas', 'Salud');
+        $this->descripcion     = 'Salud Laguna es una agrupación interactiva de pro­fesionales, instituciones, or­ga­nizaciones, integrados en torno a las actividades económicas que dan servicio y soportan al sec­tor salud.';
+        $this->claves          = 'IMPLAN, Torreon';
+        $this->categorias      = array('Empresas', 'Salud');
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio       = 'proyectos';
+        $this->directorio      = 'proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu      = 'Proyectos Estratégicos > Salud Laguna';
+        $this->nombre_menu     = 'Proyectos Estratégicos > Salud Laguna';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
+        $this->estado          = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->para_compartir  = true;
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaArticle();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-     // $schema->image_show     = true; // Por defecto la imagen se agrega al principio del contenido
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->headline_style = $this->encabezado_color;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Proyectos/SaludLaguna.md');
+        $schema                = new \Base\SchemaArticle();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = true;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaArticle
-        $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
-        // Para redifusión, si tiene una imagen, se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = sprintf("<img src=\"%s\"><br>\n\n%s", $this->imagen, $schema->articleBody);
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
     } // constructor
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Cargar en el Schema el archivo markdown y convertirlo a HTML
+        $this->contenido->articleBody = $this->cargar_archivo_markdown_extra('lib/Proyectos/SaludLaguna.md');
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Cargar el archivo markdown y convertirlo a HTML
+        $markdown = $this->cargar_archivo_markdown_extra('lib/Proyectos/SaludLaguna.md');
+        // Si tiene la imagen, se pone la imagen y después el contenido
+        if ($this->imagen != '') {
+            $this->redifusion = "<img src=\"{$this->imagen}\"><br>\n\n{$markdown}";
+        } else {
+            $this->redifusion = $markdown;
+        }
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase SaludLaguna
 
