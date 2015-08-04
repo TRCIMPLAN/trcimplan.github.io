@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            http://www.oesmith.co.uk/morris.js
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Las condiciones laborales del policía pueden ser un factor que obstaculice la buena marcha de la seguridad ciudadana.">
+  <meta name="author" content="Lic. Alfredo Viesca Domínguez">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Los Derechos del Policía - IMPLAN Torreón">
+  <meta name="twitter:description" content="Las condiciones laborales del policía pueden ser un factor que obstaculice la buena marcha de la seguridad ciudadana.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/los-derechos-del-policia/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/los-derechos-del-policia.html">
+  <meta name="og:title" content="Los Derechos del Policía - IMPLAN Torreón">
+  <meta name="og:description" content="Las condiciones laborales del policía pueden ser un factor que obstaculice la buena marcha de la seguridad ciudadana.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/los-derechos-del-policia/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/los-derechos-del-policia.html">
+  <title>Los Derechos del Policía - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-1.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M1 Diagnóstico y Pronóstico</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-2.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M2 Visión y Objetivos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-3.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M3 Estrategias y Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/mesa-4.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> M4 Gestión de Proyectos</a></li>
+            <li><a href="../plan-estrategico-metropolitano/fotogaleria.html"><span class="navegacion-icono"><i class="fa fa-camera"></i></span> Fotogalería</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/calle-completa.html"><span class="navegacion-icono"><i class="fa fa-road"></i></span> Calle Completa</a></li>
+            <li><a href="../proyectos/plata-laguna.html"><span class="navegacion-icono"><i class="fa fa-certificate"></i></span> Plata Laguna</a></li>
+            <li><a href="../proyectos/plan-centro-laguna.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Plan Centro Laguna</a></li>
+            <li><a href="../proyectos/salud-laguna.html"><span class="navegacion-icono"><i class="fa fa-share-alt-square"></i></span> Salud Laguna</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Comunicados<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../eventos/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Eventos</a></li>
+            <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-folder-o"></i></span> Sala de Prensa</a></li>
+          </ul>
+        </li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Los Derechos del Policía</h1>
+          <div class="encabezado-descripcion" itemprop="description">Las condiciones laborales del policía pueden ser un factor que obstaculice la buena marcha de la seguridad ciudadana.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Alfredo Viesca Domínguez</span>
+          - <meta itemprop="datePublished" content="2015-08-04T14:40">04/08/2015 14:40
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Los Derechos del Policía" src="los-derechos-del-policia/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>En el contexto de la seguridad ciudadana existe un tema que es fundamental; el que se refiere al respeto de los derechos humanos; es claro que en cualquier política pública implementada para el mejoramiento de la seguridad ciudadana los derechos humanos deben ser la  piedra angular.</p>
+
+<p>En este sentido los derechos humanos están referidos desde luego al derecho que tienen los ciudadanos de vivir con seguridad de sus bienes y sus personas, esta es la razón de ser del Estado moderno, es decir, surgió precisamente para dar seguridad, ese es su fundamento.</p>
+
+<h3>Los policías también son ciudadanos</h3>
+
+<p>Desde hace algunos años la seguridad es percibida por los ciudadanos como uno de los aspectos fundamentales para la vida del país,  por este motivo, combatir al crimen organizado se ha convertido en una de las prioridades de los diferentes órdenes de gobierno pero también en una demanda de la población.</p>
+
+<p>Los ciudadanos piden a las autoridades que  actúen con energía pero sin soslayo de sus libertades civiles y políticas, sin embargo en muy pocas ocasiones se discute sobre las condiciones en que laboran quienes tienen la responsabilidad de procurarnos seguridad, es decir, los que integran las instituciones policiales.</p>
+
+<p>Consideramos importante discutir sobre las condiciones laborales del policía ya que estas pueden ser un factor que obstaculice la buena marcha de la seguridad ciudadana. Un elemento importante dentro de este planteamiento es el hecho de que la información sobre las instituciones policiales es en realidad escasa.</p>
+
+<p>En 2010 la Fundación Friedrich Ebert en México, publicó un artículo de la Dra. en antropología social Edith Olivares Ferreto que aborda el tema sobre las condiciones sociolaborales de los cuerpos policiales y seguridad pública, en este se analiza entre otras cosas la influencia de las condiciones laborales de las y los policías para atender la seguridad pública.</p>
+
+<p>La doctora Olivares menciona que la Ley General del Sistema Nacional de Seguridad Pública establece en su <strong>Artículo 84</strong> lo siguiente.</p>
+
+<blockquote>
+  <p><strong>La remuneración de los integrantes de las Instituciones Policiales será acorde con la calidad y riesgo de las funciones en sus rangos y puestos respectivos, así como en las misiones que cumplan, las cuales no podrán ser disminuidas durante el ejercicio de su encargo y deberán garantizar un sistema de retiro digno.</strong></p>
+  
+  <p><strong>De igual forma, se establecerán sistemas de seguros para los familiares de los policías, que contemplen el fallecimiento y la incapacidad total o permanente acaecida en el cumplimiento de sus funciones.</strong></p>
+  
+  <p><strong>Para tales efectos, la Federación, las entidades federativas y los municipios deberán promover en el ámbito de sus competencias respectivas, las adecuaciones legales y presupuestarias respectivas, en los diferentes ámbitos de competencia.</strong></p>
+</blockquote>
+
+<p>Al mismo tiempo aclara que “es un hecho reconocido, aún por las propias autoridades, que tanto las condiciones laborales como las retribuciones salariales de las y los policías en México, están lejos de ser los necesarios y suficientes para garantizar una vida digna para el trabajador y su familia”</p>
+
+<p>Por otro lado se plantea que de acuerdo con los datos proporcionados en la comparecencia del Secretario de Seguridad Pública Federal Genaro García Luna en 2010, el salario promedio del personal de seguridad pública se estimaba en $6,229 pesos mensuales y en el caso de las policías estatales o municipales las prestaciones laborales son sustantivamente menores, y en muchos casos inexistentes.</p>
+
+<h3>Ingresos promedio de policías estatales y municipales, 2009</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Entidad</th>
+  <th align="right">Número de elementos(1)</th>
+  <th align="right">Ingresos promedio(2)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Aguascalientes</td>
+  <td align="right">2,895</td>
+  <td align="right">$5,823.70</td>
+</tr>
+<tr>
+  <td>Baja California</td>
+  <td align="right">7,897</td>
+  <td align="right">$11,112.20</td>
+</tr>
+<tr>
+  <td>Baja California Sur</td>
+  <td align="right">2,298</td>
+  <td align="right">$6,987.50</td>
+</tr>
+<tr>
+  <td>Campeche</td>
+  <td align="right">2,129</td>
+  <td align="right">$5,866.50</td>
+</tr>
+<tr>
+  <td>Coahuila</td>
+  <td align="right">5,294</td>
+  <td align="right">$5,481.50</td>
+</tr>
+<tr>
+  <td>Colima</td>
+  <td align="right">2,319</td>
+  <td align="right">$4,923.10</td>
+</tr>
+<tr>
+  <td>Chiapas</td>
+  <td align="right">12,380</td>
+  <td align="right">$5,287.50</td>
+</tr>
+<tr>
+  <td>Chihuahua</td>
+  <td align="right">6,770</td>
+  <td align="right">$5,676.50</td>
+</tr>
+<tr>
+  <td>Distrito Federal</td>
+  <td align="right">84,659</td>
+  <td align="right">$8,034.60</td>
+</tr>
+<tr>
+  <td>Durango</td>
+  <td align="right">3,681</td>
+  <td align="right">$6,000.00</td>
+</tr>
+<tr>
+  <td>Guanajuato</td>
+  <td align="right">10,625</td>
+  <td align="right">$5,164.00</td>
+</tr>
+<tr>
+  <td>Guerrero</td>
+  <td align="right">10,126</td>
+  <td align="right">$3,961.40</td>
+</tr>
+<tr>
+  <td>Hidalgo</td>
+  <td align="right">6,540</td>
+  <td align="right">$5,407.50</td>
+</tr>
+<tr>
+  <td>Jalisco</td>
+  <td align="right">19,896</td>
+  <td align="right">$7,100.70</td>
+</tr>
+<tr>
+  <td>México</td>
+  <td align="right">59,622</td>
+  <td align="right">$7,167.70</td>
+</tr>
+<tr>
+  <td>Michoacán</td>
+  <td align="right">9,510</td>
+  <td align="right">$4,598.80</td>
+</tr>
+<tr>
+  <td>Morelos</td>
+  <td align="right">5,625</td>
+  <td align="right">$5,932.50</td>
+</tr>
+<tr>
+  <td>Nayarit</td>
+  <td align="right">2,809</td>
+  <td align="right">$6,179.00</td>
+</tr>
+<tr>
+  <td>Nuevo León</td>
+  <td align="right">11,333</td>
+  <td align="right">$6,421.50</td>
+</tr>
+<tr>
+  <td>Oaxaca</td>
+  <td align="right">11,807</td>
+  <td align="right">$6,099.10</td>
+</tr>
+<tr>
+  <td>Puebla</td>
+  <td align="right">14,261</td>
+  <td align="right">$5,632.90</td>
+</tr>
+<tr>
+  <td>Querétaro</td>
+  <td align="right">3,516</td>
+  <td align="right">$7,324.00</td>
+</tr>
+<tr>
+  <td>Quinta Roo</td>
+  <td align="right">4,659</td>
+  <td align="right">$6,287.70</td>
+</tr>
+<tr>
+  <td>San Luís Potosí</td>
+  <td align="right">7,931</td>
+  <td align="right">$6,918.50</td>
+</tr>
+<tr>
+  <td>Sinaloa</td>
+  <td align="right">8,054</td>
+  <td align="right">$6,948.50</td>
+</tr>
+<tr>
+  <td>Sonora</td>
+  <td align="right">6,377</td>
+  <td align="right">$5,924.70</td>
+</tr>
+<tr>
+  <td>Tabasco</td>
+  <td align="right">9,880</td>
+  <td align="right">$5,108.50</td>
+</tr>
+<tr>
+  <td>Tamaulipas</td>
+  <td align="right">7,975</td>
+  <td align="right">$11,946.50</td>
+</tr>
+<tr>
+  <td>Tlaxcala</td>
+  <td align="right">3,606</td>
+  <td align="right">$6,545.90</td>
+</tr>
+<tr>
+  <td>Veracruz</td>
+  <td align="right">18,522</td>
+  <td align="right">$3,154.30</td>
+</tr>
+<tr>
+  <td>Yucatán</td>
+  <td align="right">6,927</td>
+  <td align="right">$3,975.50</td>
+</tr>
+<tr>
+  <td>Zacatecas</td>
+  <td align="right">2,975</td>
+  <td align="right">$6,327.40</td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td align="right">372,925</td>
+  <td align="right">$6,229.02</td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>Fuente: Condiciones sociolaborales de los cuerpos policiales y seguridad pública</li>
+</ul>
+
+<ol>
+<li>Se incluyen Policía Municipal, Policía Estatal y Procuradurías Generales de Justicia Estatales</li>
+<li>Se refiere al sueldo promedio para el personal de seguridad pública de base: cadete, suboficial, primer oficial, segundo oficial, tercer oficial, agente, vigilante, policía primero, policía segundo, policía tercero, patrullero.</li>
+</ol>
+
+<p>Otro dato relevante es el que se refiere a las jornadas de trabajo las cuales son especialmente extenuantes para los altos mandos y medios. Para sustentar este planteamiento ofrece el testimonio recuperado por la Dra. Elena Azaola especialista en el tema.</p>
+
+<blockquote>
+  <p>Nosotros estamos en servicio de las 5:30 de la mañana a las 11:00 de la noche. Por eso, las gentes que dirigen la Secretaría están cansadas, están agotadas. A un mando medio tampoco lo dejan ir de vacaciones o de incapacidad. Atentan contra la familia, no solo contra uno, y eso influye en el descontento de los mandos.</p>
+</blockquote>
+
+<p>En cuanto al equipamiento  y jornadas laborales explica como la falta de equipo o su mal estado parece ser otra concreción  de la violencia institucional de las corporaciones mexicanas. Azaola (2006) revela como las y los policías deben gestionar no solo su reclutamiento con algún jefe prestigioso, que los lleve a mejorar o ascender, sino que les abra la posibilidad de equiparse y ofrece un testimonio al respecto que para ella revela con claridad esta situación.</p>
+
+<blockquote>
+  <p>Nuestro chaleco no es parte del uniforme, nosotros lo tenemos que comprar, los uniformes son de muy mala calidad y un buen equipo no nos dan... Nosotros compramos nuestras lámparas, las pilas, todo lo que necesitamos para poder entrar en un callejón. Estamos conscientes de que tenemos que comprar algo, pero no tenemos los suficientes medios para comprar uniformes para que luego se los roben.</p>
+</blockquote>
+
+<p>Un dato que llama la atención en el artículo citado es que para 2008, el 71% del personal de seguridad pública tenía algún padecimiento que afectaba su salud, en su mayoría se trataba de obesidad, diabetes, hipertensión o dificultades visuales. En este punto para la Dra. Olivares el buen estado de salud es un derecho humano básico, pero además es indispensable para desarrollar algunas actividades comunes a la policía (persecuciones, mantenerse alerta, puntería, etc.).</p>
+
+<h3>Otro dato para la reflexión</h3>
+
+<p>De acuerdo al Reporte sobre Discriminación en México 2012 <em>la policía es percibida como una instancia que suele abusar de su autoridad y que por corrupción o concepciones sociales y culturales termina aprehendiendo a quienes son más vulnerables y no a los verdaderos delincuentes.</em></p>
+
+<p>En este sentido, es importante hacer notar como la sociedad no se preocupa por las condiciones de los policías, se les pide que respeten los derechos humanos de los ciudadanos cuando los suyos no son respetados ni por la institución para la cual trabajan.</p>
+
+<p>Por último hay un elemento importante y que se desprende de toda esta situación agravando aún más la falta de sensibilización de la sociedad sobre el trabajo policial, la confianza en la policía o la duda sobre a <strong>quién sirve la Policía.</strong> Si se mantiene la desconfianza hacia esta institución se debe también a que la función que la policía realiza es vista como respuesta a otros intereses y no como un servicio a los ciudadanos.</p>
+
+<p>Si esta idea prevalece, a los ojos de la ciudadanía  la policía no le sirve a ella sino al Estado, esto promueve una idea perversa, es decir, que no se les  considera  como sujetos de derechos, lo cual genera un círculo vicioso de desconfianza y ruptura entre el ciudadano y el ciudadano que cumple funciones policiales.</p>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Flos-derechos-del-policia.html.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+// COMPARTIR EN REDES SOCIALES
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
