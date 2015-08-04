@@ -234,121 +234,121 @@ FINAL;
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-lineas-de-autobus.html">Líneas de Autobús en Gómez Palacio</a></td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-lineas-de-autobus.html">Líneas de Autobús en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-lineas-de-autobus.html">Líneas de Autobús en La Laguna</a></td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-lineas-de-autobus.html">Líneas de Autobús en La Laguna</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-lineas-de-autobus.html">Líneas de Autobús en Lerdo</a></td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-lineas-de-autobus.html">Líneas de Autobús en Lerdo</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-lineas-de-autobus.html">Líneas de Autobús en Matamoros</a></td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-lineas-de-autobus.html">Líneas de Autobús en Matamoros</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-lineas-de-autobus.html">Líneas de Autobús en Torreón</a></td>
+            <td><a href="../indicadores-torreon/sustentabilidad-lineas-de-autobus.html">Líneas de Autobús en Torreón</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de líneas de autobuses foráneos que conectan a la ciudad.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-flujo-de-pasajeros-aereos.html">Flujo de Pasajeros Aéreos en Gómez Palacio</a></td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-flujo-de-pasajeros-aereos.html">Flujo de Pasajeros Aéreos en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de pasajeros en vuelos que salen o llegan a las ciudades con aeropuerto cada año ajustado por cada mil habitantes.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-flujo-de-pasajeros-aereos.html">Flujo de Pasajeros Aéreos en La Laguna</a></td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-flujo-de-pasajeros-aereos.html">Flujo de Pasajeros Aéreos en La Laguna</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de pasajeros en vuelos que salen o llegan a las ciudades con aeropuerto cada año ajustado por cada mil habitantes.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-flujo-de-pasajeros-aereos.html">Flujo de Pasajeros Aéreos en Lerdo</a></td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-flujo-de-pasajeros-aereos.html">Flujo de Pasajeros Aéreos en Lerdo</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de pasajeros en vuelos que salen o llegan a las ciudades con aeropuerto cada año ajustado por cada mil habitantes.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-flujo-de-pasajeros-aereos.html">Flujo de Pasajeros Aéreos en Matamoros</a></td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-flujo-de-pasajeros-aereos.html">Flujo de Pasajeros Aéreos en Matamoros</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de pasajeros en vuelos que salen o llegan a las ciudades con aeropuerto cada año ajustado por cada mil habitantes.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-flujo-de-pasajeros-aereos.html">Flujo de Pasajeros Aéreos en Torreón</a></td>
+            <td><a href="../indicadores-torreon/sustentabilidad-flujo-de-pasajeros-aereos.html">Flujo de Pasajeros Aéreos en Torreón</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de pasajeros en vuelos que salen o llegan a las ciudades con aeropuerto cada año ajustado por cada mil habitantes.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-red-carretera-avanzada.html">Red Carretera Avanzada en Gómez Palacio</a></td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-avanzada.html">Red Carretera Avanzada en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-red-carretera-avanzada.html">Red Carretera Avanzada en La Laguna</a></td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-red-carretera-avanzada.html">Red Carretera Avanzada en La Laguna</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-red-carretera-avanzada.html">Red Carretera Avanzada en Lerdo</a></td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-red-carretera-avanzada.html">Red Carretera Avanzada en Lerdo</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-red-carretera-avanzada.html">Red Carretera Avanzada en Matamoros</a></td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-red-carretera-avanzada.html">Red Carretera Avanzada en Matamoros</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-red-carretera-avanzada.html">Red Carretera Avanzada en Torreón</a></td>
+            <td><a href="../indicadores-torreon/sustentabilidad-red-carretera-avanzada.html">Red Carretera Avanzada en Torreón</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: El número de kilómetros de la red carretera troncal federal más la red de alimentadoras estatales como porcentaje del kilometraje total de su red carretera.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/sociedad-sistema-de-transporte-masivo.html">Sistema de Transporte Masivo en Gómez Palacio</a></td>
+            <td><a href="../indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html">Sistema de Transporte Masivo en Gómez Palacio</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: Si una ciudad cuenta con un sistema de transporte masivo en operación, en construcción, en estatus de proyecto o ninguna de las tres.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sociedad-sistema-de-transporte-masivo.html">Sistema de Transporte Masivo en La Laguna</a></td>
+            <td><a href="../indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html">Sistema de Transporte Masivo en La Laguna</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: Si una ciudad cuenta con un sistema de transporte masivo en operación, en construcción, en estatus de proyecto o ninguna de las tres.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-sistema-de-transporte-masivo.html">Sistema de Transporte Masivo en Lerdo</a></td>
+            <td><a href="../indicadores-lerdo/sustentabilidad-sistema-de-transporte-masivo.html">Sistema de Transporte Masivo en Lerdo</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: Si una ciudad cuenta con un sistema de transporte masivo en operación, en construcción, en estatus de proyecto o ninguna de las tres.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-sistema-de-transporte-masivo.html">Sistema de Transporte Masivo en Matamoros</a></td>
+            <td><a href="../indicadores-matamoros/sustentabilidad-sistema-de-transporte-masivo.html">Sistema de Transporte Masivo en Matamoros</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: Si una ciudad cuenta con un sistema de transporte masivo en operación, en construcción, en estatus de proyecto o ninguna de las tres.</td>
           </tr>
           <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-sistema-de-transporte-masivo.html">Sistema de Transporte Masivo en Torreón</a></td>
+            <td><a href="../indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html">Sistema de Transporte Masivo en Torreón</a></td>
             <td>Incluido en el subíndice "Precursores". Qué mide: Si una ciudad cuenta con un sistema de transporte masivo en operación, en construcción, en estatus de proyecto o ninguna de las tres.</td>
           </tr>
         </tbody>

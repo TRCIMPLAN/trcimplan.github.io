@@ -289,6 +289,12 @@ FINAL;
             <td>Mide el número de habitantes de la ciudad por kilómetro cuadrado en 2010. Una mayor densidad poblacional reduce los costos que enfrenta el gobierno local para proveer servicios públicos como agua potable, alumbrado público y seguridad, entre otros.</td>
           </tr>
           <tr>
+            <td>03/06/2015</td>
+            <td>GIS</td>
+            <td><a href="../sig-mapas-torreon/crecimiento-decrecimiento-poblacion.html">Crecimiento y Decrecimiento de Población</a></td>
+            <td>Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de habitantes.</td>
+          </tr>
+          <tr>
             <td>26/03/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-poblacion-catolica.html">Población Católica en Gómez Palacio</a></td>

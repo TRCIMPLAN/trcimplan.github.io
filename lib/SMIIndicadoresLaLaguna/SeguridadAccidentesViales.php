@@ -271,6 +271,12 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>30/07/2015</td>
+            <td>Proyecto</td>
+            <td><a href="../proyectos/plan-centro-laguna.html">Plan Centro Laguna</a></td>
+            <td>Proyecto de regeneración urbana que promueve la integración social, la reactivación económica, la valorización del patrimonio histórico y cultural y la habitabilidad de uno de los espacios públicos emblemáticos de la ciudad.</td>
+          </tr>
+          <tr>
             <td>17/06/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/recomendaciones-pacificacion-transito.html">Recomendaciones para la Pacificación del Tránsito</a></td>
@@ -295,10 +301,22 @@ FINAL;
             <td>Calle Completa es una calle que incluye al peatón y a todos los medios de transporte (ciclistas, motociclistas, autobuses, automovilistas), de todas las edades y con todo tipo de habilidades motoras.</td>
           </tr>
           <tr>
+            <td>14/05/2015</td>
+            <td>GIS</td>
+            <td><a href="../sig-mapas-torreon/cobertura-transporte.html">Cobertura de Transporte</a></td>
+            <td>Mapa con las rutas autorizadas para las líneas de transporte público en Torreón.</td>
+          </tr>
+          <tr>
             <td>21/04/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/francisco-i-madero-ejemplo-rescate-espacio-publico.html">Francisco I. Madero: Ejemplo de un rescate de Espacio Público</a></td>
             <td>El Corredor Peatonal Madero ha motivado el crecimiento comercial y favorecido la conservación sus edificios históricos, en lo que hoy es una calle sólo para transeúntes.</td>
+          </tr>
+          <tr>
+            <td>03/02/2015</td>
+            <td>GIS</td>
+            <td><a href="../sig-mapas-torreon/crecimiento-historico-torreon.html">Crecimiento Histórico de Torreón</a></td>
+            <td>Mapa de cómo ha crecido la ciudad de Torreón año tras año.</td>
           </tr>
           <tr>
             <td>24/11/2014</td>
@@ -370,24 +388,6 @@ FINAL;
             <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Gómez Palacio</a></td>
-            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en La Laguna</a></td>
-            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Lerdo</a></td>
-            <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Matamoros</a></td>
             <td>Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.</td>
           </tr>
         </tbody>

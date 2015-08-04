@@ -179,6 +179,12 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>29/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/resultados-de-los-censos-economicos-2014.html">Resultados de los Censos Económicos 2014</a></td>
+            <td>Torreón tuvo un crecimiento mayor al de municipios como Saltillo, Querétaro y San Luis Potosí.</td>
+          </tr>
+          <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Gómez Palacio</a></td>
@@ -290,12 +296,6 @@ FINAL;
             <td>14/07/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en Matamoros</a></td>
-            <td>Incluido en el subíndice de "Mercado Laboral". Mide el número de trabajadores involucrados en pugnas de carácter laboral, las cuales surgen entre los trabajadores y el patrón con motivo de omisiones, faltas o incumplimiento de alguna de las partes a las condiciones de trabajo que fueron pactadas por éstos, o de aquellas normas que están estipuladas en la ley.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en Torreón</a></td>
             <td>Incluido en el subíndice de "Mercado Laboral". Mide el número de trabajadores involucrados en pugnas de carácter laboral, las cuales surgen entre los trabajadores y el patrón con motivo de omisiones, faltas o incumplimiento de alguna de las partes a las condiciones de trabajo que fueron pactadas por éstos, o de aquellas normas que están estipuladas en la ley.</td>
           </tr>
         </tbody>

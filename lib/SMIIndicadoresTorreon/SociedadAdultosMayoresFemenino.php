@@ -328,6 +328,12 @@ FINAL;
             <td>Datos y evidencias sobre los diferentes tipos de violencia contra niños, niñas y adolescentes en México. ¿Qué hacer?... todos los caminos apuntan a la prevención.</td>
           </tr>
           <tr>
+            <td>13/04/2015</td>
+            <td>GIS</td>
+            <td><a href="../sig-mapas-torreon/maternidad-adolescente.html">Maternidad Adolescente</a></td>
+            <td>Incidencia de Maternidad Adolescente.</td>
+          </tr>
+          <tr>
             <td>22/01/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior.html">Razón entre Mujeres y Hombres en la Enseñanza Media Superior en Gómez Palacio</a></td>
@@ -367,12 +373,6 @@ FINAL;
             <td>13/01/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Matamoros</a></td>
-            <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
-          </tr>
-          <tr>
-            <td>13/01/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/sociedad-razon-de-mortalidad-materna.html">Razón de Mortalidad Materna en Torreón</a></td>
             <td>La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.</td>
           </tr>
         </tbody>

@@ -223,6 +223,12 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>29/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/resultados-de-los-censos-economicos-2014.html">Resultados de los Censos Económicos 2014</a></td>
+            <td>Torreón tuvo un crecimiento mayor al de municipios como Saltillo, Querétaro y San Luis Potosí.</td>
+          </tr>
+          <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Gómez Palacio</a></td>
@@ -334,12 +340,6 @@ FINAL;
             <td>14/07/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-matamoros/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en Matamoros</a></td>
-            <td>Incluido en el subíndice de "Economía Estable". Mide el cambio porcentual en el salario promedio entre el año 2008 y el 2012. Este indicador es un proxy de cuánto ha crecido el poder adquisitivo de los trabajadores.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en Torreón</a></td>
             <td>Incluido en el subíndice de "Economía Estable". Mide el cambio porcentual en el salario promedio entre el año 2008 y el 2012. Este indicador es un proxy de cuánto ha crecido el poder adquisitivo de los trabajadores.</td>
           </tr>
         </tbody>

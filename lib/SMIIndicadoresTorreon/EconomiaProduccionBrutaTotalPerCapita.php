@@ -241,6 +241,12 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>29/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/resultados-de-los-censos-economicos-2014.html">Resultados de los Censos Económicos 2014</a></td>
+            <td>Torreón tuvo un crecimiento mayor al de municipios como Saltillo, Querétaro y San Luis Potosí.</td>
+          </tr>
+          <tr>
             <td>14/07/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/gobierno-litros-de-combustible-gastados-por-unidad-recolectora-de-residuos-solidos-propiedad-del-municipio.html">Litros de Combustible Gastados por Unidad Recolectora de Residuos Sólidos Propiedad del Municipio en Torreón</a></td>
@@ -352,12 +358,6 @@ FINAL;
             <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Gómez Palacio</a></td>
-            <td>Ingresos totales del municipio entre el total de la población.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en La Laguna</a></td>
             <td>Ingresos totales del municipio entre el total de la población.</td>
           </tr>
         </tbody>

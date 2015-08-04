@@ -299,6 +299,36 @@ FINAL;
           <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
+            <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en Gómez Palacio</a></td>
+            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-la-laguna/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en La Laguna</a></td>
+            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-lerdo/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en Lerdo</a></td>
+            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-matamoros/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en Matamoros</a></td>
+            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
+            <td><a href="../indicadores-torreon/gobierno-ingresos-por-cobro-de-servicios.html">Ingresos por Cobro de Servicios en Torreón</a></td>
+            <td>Ingresos recaudados por el municipio por cobro de servicios</td>
+          </tr>
+          <tr>
+            <td>21/10/2014</td>
+            <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Gómez Palacio</a></td>
             <td>Ingresos totales del municipio entre el total de la población.</td>
           </tr>
@@ -313,36 +343,6 @@ FINAL;
             <td>Indicador</td>
             <td><a href="../indicadores-lerdo/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Lerdo</a></td>
             <td>Ingresos totales del municipio entre el total de la población.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Matamoros</a></td>
-            <td>Ingresos totales del municipio entre el total de la población.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-torreon/gobierno-ingresos-totales-per-capita.html">Ingresos Totales Per Cápita en Torreón</a></td>
-            <td>Ingresos totales del municipio entre el total de la población.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-gomez-palacio/gobierno-ingresos-totales.html">Ingresos Totales en Gómez Palacio</a></td>
-            <td>Ingresos totales por municipio.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-la-laguna/gobierno-ingresos-totales.html">Ingresos Totales en La Laguna</a></td>
-            <td>Ingresos totales por municipio.</td>
-          </tr>
-          <tr>
-            <td>21/10/2014</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/gobierno-ingresos-totales.html">Ingresos Totales en Lerdo</a></td>
-            <td>Ingresos totales por municipio.</td>
           </tr>
         </tbody>
       </table>

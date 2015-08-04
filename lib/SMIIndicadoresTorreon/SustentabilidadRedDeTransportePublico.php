@@ -122,6 +122,18 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>13/04/2015</td>
+            <td>GIS</td>
+            <td><a href="../sig-mapas-torreon/viviendas-con-agua-red-publica.html">Viviendas con Agua de la Red Pública</a></td>
+            <td>Accesibilidad de viviendas a agua potable.</td>
+          </tr>
+          <tr>
+            <td>13/04/2015</td>
+            <td>GIS</td>
+            <td><a href="../sig-mapas-torreon/viviendas-con-drenaje.html">Viviendas con Drenaje</a></td>
+            <td>Accesibilidad de Viviendas a Drenaje</td>
+          </tr>
+          <tr>
             <td>21/10/2014</td>
             <td>Indicador</td>
             <td><a href="../indicadores-gomez-palacio/sustentabilidad-alumbrado-publico.html">Alumbrado Público en Gómez Palacio</a></td>
@@ -156,6 +168,12 @@ FINAL;
             <td>Indicador</td>
             <td><a href="../indicadores-torreon/sustentabilidad-red-de-transporte-publico.html">Red de Transporte Público en Torreón</a></td>
             <td>Extensión de la red de transporte público en Kilómetros totales.</td>
+          </tr>
+          <tr>
+            <td>08/09/2014</td>
+            <td>GIS</td>
+            <td><a href="../sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html">Avance de Reconversión Tecnológica Led del Alumbrado Público</a></td>
+            <td>Mapa que muestra la parte de la ciudad que tiene alumbrado público con tecnología led.</td>
           </tr>
         </tbody>
       </table>

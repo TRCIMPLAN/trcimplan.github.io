@@ -172,6 +172,18 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>28/07/2015</td>
+            <td>GIS</td>
+            <td><a href="../sig-mapas-torreon/centros-educativos.html">Centros Educativos</a></td>
+            <td>Ubicación centros educativos en Torreón de nivel básico a superior. Fuente: INEGI 2010.</td>
+          </tr>
+          <tr>
+            <td>24/07/2015</td>
+            <td>Análisis</td>
+            <td><a href="../blog/panorama-educacion-superior-zml-parte-2.html">Panorama de la Educación Superior en la Z.M.L. (parte 2)</a></td>
+            <td>Análisis de las cantidades de estudiantes a nivel licenciatura, comparando los datos nacionales contra los de la Zona Metropolitana de La Laguna.</td>
+          </tr>
+          <tr>
             <td>15/07/2015</td>
             <td>Análisis</td>
             <td><a href="../blog/alumnos-por-docente-parte-2.html">Alumnos por docente, indicador clave para la mejora de la educación (parte 2)</a></td>
@@ -277,18 +289,6 @@ FINAL;
             <td>14/07/2015</td>
             <td>Indicador</td>
             <td><a href="../indicadores-la-laguna/sociedad-crecimiento-en-poblacion-altamente-calificada.html">Crecimiento en Población Altamente Calificada en La Laguna</a></td>
-            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que cuenta con estudios de licenciatura o más.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-lerdo/sociedad-crecimiento-en-poblacion-altamente-calificada.html">Crecimiento en Población Altamente Calificada en Lerdo</a></td>
-            <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que cuenta con estudios de licenciatura o más.</td>
-          </tr>
-          <tr>
-            <td>14/07/2015</td>
-            <td>Indicador</td>
-            <td><a href="../indicadores-matamoros/sociedad-crecimiento-en-poblacion-altamente-calificada.html">Crecimiento en Población Altamente Calificada en Matamoros</a></td>
             <td>Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que cuenta con estudios de licenciatura o más.</td>
           </tr>
         </tbody>
