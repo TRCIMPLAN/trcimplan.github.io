@@ -32,40 +32,34 @@ class CiudadanoAgenteCambio extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Ciudadano como agente de cambio';
-        $this->autor            = 'Arq. Victoria Aranzábal';
-        $this->fecha            = '2015-04-15T15:15';
+        $this->nombre          = 'Ciudadano como agente de cambio';
+        $this->autor           = 'Arq. Victoria Aranzábal';
+        $this->fecha           = '2015-04-15T15:15';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'ciudadano-agente-cambio';
-        $this->imagen           = 'ciudadano-agente-cambio/imagen.jpg';
-        $this->imagen_previa    = 'ciudadano-agente-cambio/imagen-previa.jpg';
+        $this->archivo         = 'ciudadano-agente-cambio';
+        $this->imagen          = 'ciudadano-agente-cambio/imagen.jpg';
+        $this->imagen_previa   = 'ciudadano-agente-cambio/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'La participación de la sociedad en proyectos urbanos crea una cultura de co-creación. Destaca Medellín, Colombia donde se aplica en la coordinación, participación y construcción de obra pública.';
-        $this->claves           = 'IMPLAN, Torreon, Ciudadano, Cocreacion, Medellin, Colombia, Proyectos, Urbanos, Espacio publico, Vivienda, Medio ambiente';
-        $this->categorias       = array('Infraestructura', 'Participación Ciudadana');
+        $this->descripcion     = 'La participación de la sociedad en proyectos urbanos crea una cultura de co-creación. Destaca Medellín, Colombia donde se aplica en la coordinación, participación y construcción de obra pública.';
+        $this->claves          = 'IMPLAN, Torreon, Ciudadano, Cocreacion, Medellin, Colombia, Proyectos, Urbanos, Espacio publico, Vivienda, Medio ambiente';
+        $this->categorias      = array('Infraestructura', 'Participación Ciudadana');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/CiudadanoAgenteCambio.md');
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Blog/CiudadanoAgenteCambio.md';
     } // constructor
 
 } // Clase CiudadanoAgenteCambio

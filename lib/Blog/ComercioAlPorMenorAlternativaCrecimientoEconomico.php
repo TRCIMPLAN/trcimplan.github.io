@@ -32,40 +32,34 @@ class ComercioAlPorMenorAlternativaCrecimientoEconomico extends \Base\Publicacio
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Comercio al por menor como alternativa de crecimiento económico';
-        $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2015-01-06T08:05';
+        $this->nombre          = 'Comercio al por menor como alternativa de crecimiento económico';
+        $this->autor           = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha           = '2015-01-06T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'comercio-al-por-menor-alternativa-crecimiento-economico';
-        $this->imagen           = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen.jpg';
-        $this->imagen_previa    = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen-previa.jpg';
+        $this->archivo         = 'comercio-al-por-menor-alternativa-crecimiento-economico';
+        $this->imagen          = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen.jpg';
+        $this->imagen_previa   = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.';
-        $this->claves           = 'IMPLAN, Torreon, Comercio, Ingreso, Ciudad';
-        $this->categorias       = array('Empresas', 'Empleo');
+        $this->descripcion     = 'El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.';
+        $this->claves          = 'IMPLAN, Torreon, Comercio, Ingreso, Ciudad';
+        $this->categorias      = array('Empresas', 'Empleo');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/ComercioAlPorMenorAlternativaCrecimientoEconomico.md');
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Blog/ComercioAlPorMenorAlternativaCrecimientoEconomico.md';
     } // constructor
 
 } // Clase ComercioAlPorMenorAlternativaCrecimientoEconomico

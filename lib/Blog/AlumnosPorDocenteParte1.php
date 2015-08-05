@@ -33,66 +33,36 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Alumnos por docente, indicador clave para la mejora de la educación (parte 1)';
-        $this->autor            = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha            = '2015-06-16T15:00';
+        $this->nombre          = 'Alumnos por docente, indicador clave para la mejora de la educación (parte 1)';
+        $this->autor           = 'Lic. Luis A. Gutiérrez Arizpe';
+        $this->fecha           = '2015-06-16T15:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = 'alumnos-por-docente-parte-1';
-        $this->imagen           = 'alumnos-por-docente-parte-1/imagen.jpg';
-        $this->imagen_previa    = 'alumnos-por-docente-parte-1/imagen-previa.jpg';
+        $this->archivo         = 'alumnos-por-docente-parte-1';
+        $this->imagen          = 'alumnos-por-docente-parte-1/imagen.jpg';
+        $this->imagen_previa   = 'alumnos-por-docente-parte-1/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'Estudio sobre si debe considerarse la cantidad de alumnos por profesor como un factor en la mejora educativa.';
-        $this->claves           = 'IMPLAN, Torreon, Alumnos, Docente, Educacion';
-        $this->categorias       = array('Competitividad', 'Educación');
+        $this->descripcion     = 'Estudio sobre si debe considerarse la cantidad de alumnos por profesor como un factor en la mejora educativa.';
+        $this->claves          = 'IMPLAN, Torreon, Alumnos, Docente, Educacion';
+        $this->categorias      = array('Competitividad', 'Educación');
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio       = 'blog';
+        $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->name           = $this->nombre;
-        $schema->description    = $this->descripcion;
-        $schema->datePublished  = $this->fecha;
-        $schema->image          = $this->imagen;
-     // $schema->image_show     = true; // Por defecto la imagen se agrega al principio del contenido
-        $schema->author         = $this->autor;
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Blog/AlumnosPorDocenteParte1.md';
     } // constructor
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Cargar en el Schema el contenido desde archivo markdown
-        $this->contenido->articleBody = $this->cargar_archivo_markdown_extra('lib/Blog/AlumnosPorDocenteParte1.md');
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Convertir markdown a HTML
-        $markdown = $this->cargar_archivo_markdown_extra('lib/Blog/AlumnosPorDocenteParte1.md');
-        // Para redifusión, si tiene la imagen, se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion = "<img src=\"{$this->imagen}\"><br>\n\n{$markdown}";
-        } else {
-            $this->redifusion = $markdown;
-        }
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
 
 } // Clase AlumnosPorDocenteParte1
 

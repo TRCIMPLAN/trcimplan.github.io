@@ -32,57 +32,57 @@ class AperturaEmpresas2014 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Apertura de Empresas 2014';
-        $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2014-09-24T08:05';
+        $this->nombre          = 'Apertura de Empresas 2014';
+        $this->autor           = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha           = '2014-09-24T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'apertura-empresas-2014';
-        $this->imagen           = 'apertura-empresas-2014/imagen.jpg';
-        $this->imagen_previa    = 'apertura-empresas-2014/imagen-previa.jpg';
+        $this->archivo         = 'apertura-empresas-2014';
+        $this->imagen          = 'apertura-empresas-2014/imagen.jpg';
+        $this->imagen_previa   = 'apertura-empresas-2014/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año 2014 en el mes de julio.';
-        $this->claves           = 'IMPLAN, Torreon, Apertura de empresas';
-        $this->categorias       = array('Empresas', 'Doing Business', 'Competitividad');
+        $this->descripcion     = 'La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año 2014 en el mes de julio.';
+        $this->claves          = 'IMPLAN, Torreon, Apertura de empresas';
+        $this->categorias      = array('Empresas', 'Doing Business', 'Competitividad');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = <<<FINAL
-
-<p>La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año en el mes de julio. Datos obtenidos de Dirección de Apertura de Empresas y Ventanilla Universal de la Dirección General de Desarrollo Económico, muestran que durante los primeros siete meses del año 2014 se han creado 997 nuevas empresas, de las cuales 329 fueron creadas en julio, cifra superior a las 128 registradas en julio de 2013.</p>
-
-<img class="img-responsive contenido-imagen" src="apertura-empresas-2014/01-apertura-empresas-2014.png" alt="Apertura de Empresas en Torreón en 2014">
-
-<p>Entre los giros más frecuentes se encuentran los restaurantes y el comercio al por menor y al por mayor, los cuales en conjunto representan más del 50% de las empresas constituidas en Julio, mientras las oficinas administrativas participan con el 10%.</p>
-
-<p>En cuanto al comportamiento general en la cantidad de aperturas, al comparar el número de negocios en los periodos de enero a julio de los últimos seis años se observa una tendencia positiva, a pesar de las disminuciones en 2011 y 2013.</p>
-
-<img class="img-responsive contenido-imagen" src="apertura-empresas-2014/02-apertura-empresas-2009-2014.png" alt="Apertura de Empresas en Torreón de 2009 a 2014">
-
-<p>Si bien el 2014 no fue el mejor año en la creación de nuevas empresas, sí lo ha sido en la generación de empleos. Una encuesta realizada por Ventanilla Universal a los contribuyentes durante el proceso de apertura revela que el número aproximado de empleos creados a partir de los nuevos negocios es de 6,193 en lo que va del año. La cantidad es mayor a la de los cinco años anteriores:</p>
-
-<img class="img-responsive contenido-imagen" src="apertura-empresas-2014/04-aproximacion-empleos-generados.png" alt="Aproximación de Empleos Generados en Torreón de 2009 a 2014">
-
-FINAL;
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
     } // constructor
+
+    /**
+     * HTML
+     *
+     * @return string Código HTML
+     */
+    public function html() {
+        // Cargar en el Schema el archivo markdown y convertirlo a HTML
+        $this->contenido->articleBody = $this->cargar_archivo('lib/Blog/AperturaEmpresas2014.html');
+        // Ejecutar este método en el padre
+        return parent::html();
+    } // html
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Cargar archivo HTML para redifusión
+        $this->redifusion = $this->cargar_archivo('lib/Blog/AperturaEmpresas2014.html');
+        // Ejecutar este método en el padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase AperturaEmpresas2014
 

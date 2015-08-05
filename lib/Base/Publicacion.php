@@ -56,6 +56,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $archivo_target;               // NO LO USE. Lo define el método validar en base a otra propiedades.
     public $boton_url;                    // NO LO USE. Lo define el método validar en base a otra propiedades.
     public $boton_target;                 // NO LO USE. Lo define el método validar en base a otra propiedades.
+    public $contenido_archivo_markdown;
+    public $poner_imagen_en_contenido = true;
 
     /**
      * Validar
@@ -371,7 +373,13 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string Código HTML
      */
     public function html() {
+        // Si el contenido es una instancia
         if (is_object($this->contenido)) {
+            // Si está definido la carga de un archivo markdown
+            if ($this->contenido_archivo_markdown != '') {
+                $this->contenido->articleBody = $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
+            }
+            // Generar HTML
             $html = $this->contenido->html();
             if (is_array($this->javascript)) {
                 $this->javascript[] = $this->contenido->javascript();
@@ -396,6 +404,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             return implode("\n", $a);
         } elseif (is_string($this->contenido) && ($this->contenido != '')) {
             return $this->contenido;
+        } elseif ($this->contenido_archivo_markdown != '') {
+            return $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
         } else {
             return '';
         }
@@ -438,6 +448,13 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             return implode("\n", $a);
         } elseif (is_string($this->redifusion) && ($this->redifusion != '')) {
             return $this->redifusion;
+        } elseif ($this->contenido_archivo_markdown != '') {
+            $markdown = $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
+            if ($this->poner_imagen_en_contenido && ($this->imagen != '')) {
+                return "<img src=\"{$this->imagen}\"><br>\n\n{$markdown}";
+            } else {
+                return $markdown;
+            }
         } elseif (is_string($this->contenido) && ($this->contenido != '')) {
             return $this->contenido;
         } else {

@@ -49,7 +49,7 @@ class PlantillaConfig {
         Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
           Twitter Bootstrap    http://getbootstrap.com
           StartBootStrap       http://startbootstrap.com
-          Morris.js            http://www.oesmith.co.uk/morris.js
+          Morris.js            https://morrisjs.github.io/morris.js/
           LeafLet              http://leafletjs.com
           CartoDB              http://cartodb.com
         Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
