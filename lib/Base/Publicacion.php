@@ -56,6 +56,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $archivo_target;               // NO LO USE. Lo define el método validar en base a otra propiedades.
     public $boton_url;                    // NO LO USE. Lo define el método validar en base a otra propiedades.
     public $boton_target;                 // NO LO USE. Lo define el método validar en base a otra propiedades.
+    public $contenido_archivo_html;
     public $contenido_archivo_markdown;
     public $poner_imagen_en_contenido = true;
 
@@ -378,6 +379,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             // Si está definido la carga de un archivo markdown
             if ($this->contenido_archivo_markdown != '') {
                 $this->contenido->articleBody = $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
+            } elseif ($this->contenido_archivo_html != '') {
+                $this->contenido->articleBody = $this->cargar_archivo($this->contenido_archivo_html);
             }
             // Generar HTML
             $html = $this->contenido->html();
@@ -406,6 +409,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             return $this->contenido;
         } elseif ($this->contenido_archivo_markdown != '') {
             return $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
+        } elseif ($this->contenido_archivo_html != '') {
+            return $this->cargar_archivo($this->contenido_archivo_html);
         } else {
             return '';
         }
@@ -448,6 +453,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             return implode("\n", $a);
         } elseif (is_string($this->redifusion) && ($this->redifusion != '')) {
             return $this->redifusion;
+        } elseif (is_string($this->contenido) && ($this->contenido != '')) {
+            return $this->contenido;
         } elseif ($this->contenido_archivo_markdown != '') {
             $markdown = $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
             if ($this->poner_imagen_en_contenido && ($this->imagen != '')) {
@@ -455,8 +462,12 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             } else {
                 return $markdown;
             }
-        } elseif (is_string($this->contenido) && ($this->contenido != '')) {
-            return $this->contenido;
+        } elseif ($this->contenido_archivo_html != '') {
+            if ($this->poner_imagen_en_contenido && ($this->imagen != '')) {
+                return "<img src=\"{$this->imagen}\"><br>\n\n{$this->contenido_archivo_html}";
+            } else {
+                return $this->contenido_archivo_html;
+            }
         } else {
             return '';
         }

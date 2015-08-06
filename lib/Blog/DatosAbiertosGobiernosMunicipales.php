@@ -32,155 +32,34 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Datos Abiertos en los Gobiernos Municipales';
-        $this->autor            = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha            = '2014-11-04T08:05';
+        $this->nombre          = 'Datos Abiertos en los Gobiernos Municipales';
+        $this->autor           = 'Ing. Guillermo Valdés Lozano';
+        $this->fecha           = '2014-11-04T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'datos-abiertos-gobiernos-municipales';
-        $this->imagen           = 'datos-abiertos-gobiernos-municipales/imagen.jpg';
-        $this->imagen_previa    = 'datos-abiertos-gobiernos-municipales/imagen-previa.jpg';
+        $this->archivo         = 'datos-abiertos-gobiernos-municipales';
+        $this->imagen          = 'datos-abiertos-gobiernos-municipales/imagen.jpg';
+        $this->imagen_previa   = 'datos-abiertos-gobiernos-municipales/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.';
-        $this->claves           = 'IMPLAN, Torreon, Datos Abiertos, Gobierno Abierto';
-        $this->categorias       = array('Transparencia', 'Gobierno Digital');
+        $this->descripcion     = 'Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.';
+        $this->claves          = 'IMPLAN, Torreon, Datos Abiertos, Gobierno Abierto';
+        $this->categorias      = array('Transparencia', 'Gobierno Digital');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = <<<FINAL
-
-<p>No cabe duda que estamos en la <b>época dorada de la información</b>. Nunca antes, la mayor parte de la humanidad había tenido en sus manos tantos documentos, audios, videos, etc. Sean lejanos o cercanos; con un tiempo de solicitud y llegada de pocos segundos (desde que escribimos y damos <i>ENTER</i> en un dispositivo conectado al <b>Internet</b>); además, comparado a otros tiempos, con un costo muy bajo. La <b>red de redes</b> es un cambio tan trascendental como la revolución industrial de principios del siglo pasado.</p>
-
-<h3>Siempre que se comparte el conocimiento, le brindas una útil herramienta a todos</h3>
-
-<p>En esta revolución del conocimiento común tenemos dos complementos: el <b>tecnológico</b> formado por todos las computadoras, fibras ópticas, redes celulares, teléfonos inteligentes y muchos más que construyen una gran infraestructura de telecomunicaciones. El otro complemento, es el conjunto de <b>principios éticos, morales y de transparencia</b> que motivan a las personas, empresas, instituciones y gobiernos a liberar su información a la red, al ciudadano.</p>
-
-<p>Cabe recordar y admirar que fue hace 25 años cuando <a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Sir Tim Berners-Lee</a> desarrolló los conceptos de las páginas web y puso en operación el primer servidor web en el <a href="http://home.web.cern.ch/" target="_blank">CERN</a>. Él mismo defendió que sus ideas fueran de uso libre, sin patentes; para que rápidamente fueran usadas por la comunidad científica y compartieran sus conocimientos, en un inicio, y luego para toda la humanidad fundando el <a href="http://www.w3.org/" target="_blank">W3C</a>.</p>
-
-<p>Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... <b>¿Cómo se podrían mejorar los servicios gubernamentales?</b> La respuesta es Datos Abiertos.</p>
-
-<h3>¿Qué son los Datos Abiertos?</h3>
-
-<p>Datos Abiertos es en esencia una <a href="http://opendatahandbook.org/es/what-is-open-data/" target="_blank">"Definición de Apertura"</a>:</p>
-
-<blockquote>Los datos abiertos son datos que pueden ser utilizados, reutilizados y redistribuidos libremente por cualquier persona y que se encuentran sujetos, cuando más, al requerimiento de atribución y de compartirse de la misma manera en que aparecen.</blockquote>
-
-<p>Las características más importantes que deben tener los datos abiertos son:</p>
-
-<ul>
-    <li><b>Disponibilidad y acceso:</b> la información debe estar disponible como un todo y a un costo razonable, de preferencia que se pueda descargar de internet. Además debe estar en un formato conveniente y modificable. Por ejemplo, como archivos CSV que podemos importar a cualquier hoja de cálculo.</li>
-    <li><b>Reutilización y redistribución:</b> los datos deben ser provistos bajo términos que permitan reutilizarlos y redistribuirlos, e incluso integrarlos con otros conjuntos de datos, simpre con fines legales. Por ejemplo, que podamos estudiar los datos sobre accidentes de tránsito y buscar los cruceros más riesgozos o las épocas del año con mayor cantidad de los mismos.</li>
-    <li><b>Participación universal:</b> todos deben de poder utilizar, reutilizar y redistribuir la información. No debe haber discriminación alguna en términos de esfuerzo, personas o grupos. Por ejemplo, que se permita el uso de la información de las rutas de transporte público para la promoción de turismo, sin costo alguno.</li>
-</ul>
-
-<h3>Los datos que el gobierno debería compartir</h3>
-
-<p>El <b>International Open Data Census</b> fue creado por la <a href="https://okfn.org" target="_blank">Open Knowledge Foundation</a> en 2012 y provee una medida clara de los datos abiertos; hace el siguiente <a href="http://censo.datamx.io/faq/" target="_blank">Listado de Conjunto de Datos</a>:</p>
-
-<table class="table table-hover table-bordered">
-    <tr>
-        <th>Conjunto de datos</th>
-        <th>Descripción</th>
-    </tr>
-    <tr>
-        <td>Transporte en tiempo real</td>
-        <td>Información en tiempo real* sobre sistemas principales de gobierno o concesionados (camiones, metro, trenes, tranvías, etc.).</td>
-    </tr>
-    <tr>
-        <td>Presupuesto Anual</td>
-        <td>Presupuesto municipal en un nivel alto. Por ejemplo gastos por sector, por dependencia, etc. Esta categoría es para presupuestos que son planes de gasto (no gastos reales en el pasado).</td>
-    </tr>
-    <tr>
-        <td>Gasto (detallado)</td>
-        <td>Registros de gastos reales (pasados) a nivel de transacciones. Por ejemplo, el gasto mes con mes de temas específicos a un nivel de granulación amplio.</td>
-    </tr>
-    <tr>
-        <td>Resultados Electorales</td>
-        <td>Resultados por localidad/sitio de contiendas electorales en el municipio.</td>
-    </tr>
-    <tr>
-        <td>Calidad del Aire</td>
-        <td>Datos sobre calidad del aire. Por ejemplo los niveles de contaminantes mayores a nivel granular; por lo menos mes a mes, preferible día a día y con división geográfica.</td>
-    </tr>
-    <tr>
-        <td>Horarios de Transporte</td>
-        <td>Horarios de todos los sistemas operados por gobierno o consecionados (camiones, metro, trenes, tranvías, etc.). Ubicaciones de las paradas como datos georreferenciados.</td>
-    </tr>
-    <tr>
-        <td>Servicios Públicos</td>
-        <td>Ubicación de varios servicios públicos como escuelas, parques, hospitales, guarderías, etc.</td>
-    </tr>
-    <tr>
-        <td>Estadísticas de Crimen</td>
-        <td>Datos sobre crimen a nivel municipal. Preferiblemente a un grado razonablemente desagregado; lo mejor sería con fecha exacta (fecha-hora) y ubicación; es aceptable por día y calle o código postal.</td>
-    </tr>
-    <tr>
-        <td>Contratos de Adquisición</td>
-        <td>Información por contrato sobre contratos municipales. Incluyendo monto, ganador (nombre y dirección), etc.</td>
-    </tr>
-    <tr>
-        <td>Accidentes de Tránsito</td>
-        <td>Estadísticas sobre accidentes de tránsito incluyendo hora y ubicación.</td>
-    </tr>
-    <tr>
-        <td>Permisos de Construcción</td>
-        <td>Datos de los permisos de construcción otorgados por el municipio.</td>
-    </tr>
-    <tr>
-        <td>Solicitudes de Servicios</td>
-        <td>Solicitudes que no son de emergencia a las autoridades municipales. Por ejemplo, baches, grafiti, luminarias, etc. Deben ser granulares, a nivel de solicitud.</td>
-    </tr>
-    <tr>
-        <td>Permisos para Empresas</td>
-        <td>Permisos para empresas. Licencias de funcionamiento.</td>
-    </tr>
-    <tr>
-        <td>Listado de Empresas</td>
-        <td>Información clave sobre las empresas en el área municipal. Tal como nombre, dirección, información de contacto y tipo de negocio.</td>
-    </tr>
-</table>
-
-<p>* Información en tiempo real quiere decir cosas como ubicación exacta de los servicios (dónde están los camiones o los trenes, etc.).</p>
-
-<h3>Conozca a quienes promueven los datos abiertos</h3>
-
-<ul>
-    <li>A nivel internacional <a href="https://okfn.org/" target="_blank">Open Knowledge</a> es una organización sin ánimo de lucro que promueve la apertura de datos con recursos tecnológicos.</li>
-    <li>El Gobierno Federal tiene el sitio <a href="http://datos.gob.mx/" target="_blank">datos.gob.mx</a> y está en proceso la iniciativa de ley “Datos Abiertos” que regulará a todos los niveles del gobierno para que vayan liberando sus datos.</li>
-    <li>El sitio <a href="http://datamx.io/" target="_blank">datamx.io</a> es elaborado por <a href="http://codeandomexico.org/" target="_blank">Codeando México</a> donde activistas informáticos mexicanos trabajan en diferentes proyectos sobre Datos Abiertos. Entre éstos está un sistema para la recopilación, validación y descarga de <a href="http://censo.datamx.io/" target="_blank">datos abiertos de los municipios de México</a>. Vea la siguiente imagen.</li>
-</ul>
-
-<h3>Imagen del Open Data Census de las Ciudades de México al 2 de noviembre de 2014</h3>
-
-<a href="http://censo.datamx.io/" target="_blank"><img class="img-responsive contenido-imagen" src="datos-abiertos-gobiernos-municipales/open-data-census-ciudades-mexico-2014-11-02.png" alt="Open Data Census de las Ciudades de México al 2 de noviembre de 2014"></a>
-
-<h3>El IMPLAN Torreón está trabajando en la apertura de datos</h3>
-
-<p>En mayo de 2014 se lanzó el <a href="http://trcimplan.gob.mx/indicadores-categorias/index.html" target="_blank">Sistema Metropolitano de Indicadores</a> donde se concentra información de interés de los municipios de Torreón, Gómez Palacio, Lerdo y Matamoros.</p>
-
-<p>Se está construyendo la <a href="http://trcimplan.gob.mx" target="_blank">segunda versión del sitio web del IMPLAN</a> donde se integra el Sistema Metropolitano de Indicadores y el Sistema de Información Geográfica. El objetivo es ofrecer una misma plataforma donde los datos, los mapas y los análisis se encuentren debidamente organizados.</p>
-
-<p>Hay contacto frecuente con los funcionarios de los municipios de la Zona Metropolitana de La Laguna. En las agendas de trabajo se tiene como prioridad la cooperación mutua para hacer llegar al ciudadano la información que necesita; y el ofrecimiento del staff del IMPLAN para su apoyo.</p>
-
-FINAL;
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Blog/DatosAbiertosGobiernosMunicipales.html';
     } // constructor
 
 } // Clase DatosAbiertosGobiernosMunicipales

@@ -32,37 +32,34 @@ class FranciscoIMaderoEjemploRescateEspacioPublico extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Francisco I. Madero: Ejemplo de un rescate de Espacio Público';
-        $this->autor            = 'Arq. Ángeles Melisa Rodríguez Salas';
-        $this->fecha            = '2015-04-21T15:25';
+        $this->nombre          = 'Francisco I. Madero: Ejemplo de un rescate de Espacio Público';
+        $this->autor           = 'Arq. Ángeles Melisa Rodríguez Salas';
+        $this->fecha           = '2015-04-21T15:25';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'francisco-i-madero-ejemplo-rescate-espacio-publico';
-        $this->imagen           = 'francisco-i-madero-ejemplo-rescate-espacio-publico/imagen.jpg';
-        $this->imagen_previa    = 'francisco-i-madero-ejemplo-rescate-espacio-publico/imagen-previa.jpg';
+        $this->archivo         = 'francisco-i-madero-ejemplo-rescate-espacio-publico';
+        $this->imagen          = 'francisco-i-madero-ejemplo-rescate-espacio-publico/imagen.jpg';
+        $this->imagen_previa   = 'francisco-i-madero-ejemplo-rescate-espacio-publico/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'El Corredor Peatonal Madero ha motivado el crecimiento comercial y favorecido la conservación sus edificios históricos, en lo que hoy es una calle sólo para transeúntes.';
-        $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Movilidad', 'Vialidad');
+        $this->descripcion     = 'El Corredor Peatonal Madero ha motivado el crecimiento comercial y favorecido la conservación sus edificios históricos, en lo que hoy es una calle sólo para transeúntes.';
+        $this->claves          = 'IMPLAN, Torreon';
+        $this->categorias      = array('Movilidad', 'Vialidad');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->image_show     = false; // No mostrar la imagen en el contenido
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/FranciscoIMaderoEjemploRescateEspacioPublico.md');
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como se repite en el contenido la imagen previa, se omite
-        $this->redifusion       = $schema->articleBody;
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Blog/FranciscoIMaderoEjemploRescateEspacioPublico.md';
     } // constructor
 
 } // Clase FranciscoIMaderoEjemploRescateEspacioPublico

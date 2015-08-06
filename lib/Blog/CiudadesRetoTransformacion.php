@@ -58,31 +58,9 @@ class CiudadesRetoTransformacion extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Blog/CiudadesRetoTransformacion.html';
     } // constructor
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Cargar en el Schema el archivo markdown y convertirlo a HTML
-        $this->contenido->articleBody = $this->cargar_archivo('lib/Blog/CiudadesRetoTransformacion.html');
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Cargar archivo HTML para redifusión
-        $this->redifusion = $this->cargar_archivo('lib/Blog/CiudadesRetoTransformacion.html');
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
 
 } // Clase CiudadesRetoTransformacion
 
