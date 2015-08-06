@@ -32,37 +32,36 @@ class NuevaInfraestructuraBaseTecnologiaLedTorreon extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Nueva infraestructura a base de tecnología LED en Torreón';
-        $this->autor            = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha            = '2015-02-10T08:05';
+        $this->nombre          = 'Nueva infraestructura a base de tecnología LED en Torreón';
+        $this->autor           = 'Arq. Daniela Patricia Corral Hernández';
+        $this->fecha           = '2015-02-10T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'nueva-infraestructura-base-tecnologia-led-torreon';
-        $this->imagen           = 'nueva-infraestructura-base-tecnologia-led-torreon/imagen.jpg';
-        $this->imagen_previa    = 'nueva-infraestructura-base-tecnologia-led-torreon/imagen-previa.jpg';
+        $this->archivo         = 'nueva-infraestructura-base-tecnologia-led-torreon';
+        $this->imagen          = 'nueva-infraestructura-base-tecnologia-led-torreon/imagen.jpg';
+        $this->imagen_previa   = 'nueva-infraestructura-base-tecnologia-led-torreon/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'La luz blanca de calidad puede transformar el paisaje nocturno, realzando la arquitectura urbana y creando ambientes acogedores que inviten a las personas a pasar más tiempo en ellos.';
-        $this->claves           = 'IMPLAN, Torreon, Alumbrado, Publico, LED, Reconversion';
-        $this->categorias       = array('Infraestructura');
+        $this->descripcion     = 'La luz blanca de calidad puede transformar el paisaje nocturno, realzando la arquitectura urbana y creando ambientes acogedores que inviten a las personas a pasar más tiempo en ellos.';
+        $this->claves          = 'IMPLAN, Torreon, Alumbrado, Publico, LED, Reconversion';
+        $this->categorias      = array('Infraestructura');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
+        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión
+        $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->image_show     = false; // No mostrar la imagen en el contenido
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/NuevaInfraestructuraBaseTecnologiaLedTorreon.md');
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como se repite la imagen previa en el contenido, se omite
-        $this->redifusion       = $schema->articleBody;
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Blog/NuevaInfraestructuraBaseTecnologiaLedTorreon.md';
     } // constructor
 
 } // Clase NuevaInfraestructuraBaseTecnologiaLedTorreon

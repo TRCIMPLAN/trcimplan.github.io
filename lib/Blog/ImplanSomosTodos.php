@@ -32,70 +32,34 @@ class ImplanSomosTodos extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'El IMPLAN somos todos';
-     // $this->autor            = '';
-        $this->fecha            = '2014-10-08T08:05';
+        $this->nombre          = 'El IMPLAN somos todos';
+     // $this->autor           = '';
+        $this->fecha           = '2014-10-08T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'implan-somos-todos';
-        $this->imagen           = 'implan-somos-todos/imagen.jpg';
-        $this->imagen_previa    = 'implan-somos-todos/imagen-previa.jpg';
+        $this->archivo         = 'implan-somos-todos';
+        $this->imagen          = 'implan-somos-todos/imagen.jpg';
+        $this->imagen_previa   = 'implan-somos-todos/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Al iniciar este año se puso en marcha las labores del IMPLAN Torreón, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada.';
-        $this->claves           = 'IMPLAN, Torreon, Crecimiento, Ordenado';
-        $this->categorias       = array('Gobierno');
+        $this->descripcion     = 'Al iniciar este año se puso en marcha las labores del IMPLAN Torreón, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada.';
+        $this->claves          = 'IMPLAN, Torreon, Crecimiento, Ordenado';
+        $this->categorias      = array('Gobierno');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = <<<FINAL
-
-<p><i>“La ciudad no es una suma de piedras, sino una suma de individuos.”</i><br>
-PhilippeStarck</p>
-
-<p>Al iniciar este año se puso en marcha las labores del Instituto Municipal de Planeación y Competitividad de la ciudad de Torreón, IMPLAN, con la firme intención de brindar a la ciudad y su zona metropolitana la posibilidad de crecer de manera ordenada, pero principalmente la posibilidad de trascender en el tiempo como ciudad y sociedad que mira hacia el futuro.</p>
-
-<p>El primer paso del Instituto se centró en sentar las bases de la planeación al desarrollar un Sistema Metropolitano de Información (SMI), que pudiera ofrecer una radiografía de la situación en la que vive la ciudad y sus Zona Metropolitana.</p>
-
-<p>De igual forma nos dimos a la tarea de ubicar geográficamente toda la información y sus incidencias, Sistema de Información Geográfica (SIG), para tener la capacidad real de ubicar los diagnósticos.</p>
-
-<p>Estos esfuerzos coordinados han dado como resultado la posibilidad de entrar en la etapa fundamental del desarrollo del IMPLAN como lo es, la planeación participativa, ya que con base a la información obtenida con el SMI y el SIG tenemos la posibilidad de convocar a la construcción de un Plan Estratégico Metropolitano, cuyo punto de partida será el taller de “Diagnostico-Pronostico” el cual se llevará acabo el jueves 09 de octubre en las Instalaciones de Tecnológico de Monterrey.</p>
-
-<p>Este taller de participación ciudadana se llevará a cabo con expertos de la materia, miembros del Consejo, representantes de ONG´s, Universidades, Funcionarios de dependencias públicas y ciudadanos teniendo como principal objetivo poner sobre las diferentes mesas de trabajo información para llevar a cabo un diagnóstico de la región.</p>
-
-<p>Los temas o mesas de trabajo se dividen en los siguientes temas:</p>
-
-<ul>
-<li>Movilidad</li>
-<li>Entorno Urbano</li>
-<li>Sustentabilidad</li>
-<li>Desarrollo Social</li>
-<li>Desarrollo Económico</li>
-<li>Buen Gobierno</li>
-</ul>
-
-<p>Esta nueva etapa que vive el IMPLAN no es individual ya que a corto plazo se tienen programados más talleres como: “Visión, Estrategia y Objetivos” en una segunda etapa y “Proyectos Estratégicos”, tercera etapa, con los que se busca establecer las líneas de acción y soluciones a los grandes retos que enfrenta Torreón y su Zona Metropolitana para voltear al futuro como una ciudad que busca situarse en las mejores de Coahuila y México.</p>
-
-<p>Inicia una nueva etapa, una etapa de apertura y participación, conoce este proceso de innovación con el que se dirige los destinos de la ciudad, en breve estará disponible en las redes sociales y la página web del IMPLAN, las bases para participar, síguenos, necesitamos de tu cooperación, porque el IMPLAN somos todos.</p>
-
-FINAL;
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Blog/ImplanSomosTodos.html';
     } // constructor
 
 } // Clase ImplanSomosTodos

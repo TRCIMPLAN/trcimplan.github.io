@@ -32,132 +32,34 @@ class IndustriaMetalmecanicaLaLaguna extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'La industria metalmecánica y La Laguna';
-        $this->autor            = 'Lic. Alicia Valdez Ibarra';
-        $this->fecha            = '2014-11-12T08:05';
+        $this->nombre          = 'La industria metalmecánica y La Laguna';
+        $this->autor           = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha           = '2014-11-12T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'industrial-metalmecanica-la-laguna';
-        $this->imagen           = 'industrial-metalmecanica-la-laguna/imagen.jpg';
-        $this->imagen_previa    = 'industrial-metalmecanica-la-laguna/imagen-previa.jpg';
+        $this->archivo         = 'industrial-metalmecanica-la-laguna';
+        $this->imagen          = 'industrial-metalmecanica-la-laguna/imagen.jpg';
+        $this->imagen_previa   = 'industrial-metalmecanica-la-laguna/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.';
-        $this->claves           = 'IMPLAN, Torreon, Industria, Metalmecánica, Empleo';
-        $this->categorias       = array('Empresas', 'Empleo');
+        $this->descripcion     = 'A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.';
+        $this->claves          = 'IMPLAN, Torreon, Industria, Metalmecánica, Empleo';
+        $this->categorias      = array('Empresas', 'Empleo');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = <<<FINAL
-
-<h3>Oportunidades en la industria metalmecánica</h3>
-
-<p>A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año. Esto se debe principalmente a la inversión que espera recibirse en las industrias automotriz y aeroespacial, de hecho, un estudio realizado por el Catálogo de Proveedores de la Industria en México (CAPIM) menciona que 38% de los requerimientos de la industria automotrizcorresponde a proveedores metalmecánicos.</p>
-
-<p>Según el análisis  del CAPAIM los procesos más demandados por la industria automotriz son maquinados CNC, laminado, troquelado, maquinado tradicional, extrusión, inyección y recubrimiento de metales. Por otro lado, ProMéxico identifica oportunidades de proveeduría en la industria de los electrodomésticos pues se estima que aproximadamente 63% de la proveeduría de procesos y componentes en la fabricación de refrigeradores en México es importada.</p>
-
-<p>Dentro del estudio de ProMéxico algunos de los componentes y actividades de proveeduría señaladas como necesarias en México son troquelado y estampado; inyección de plásticos; moldes, troqueles y herramentales; maquinado y laminado.</p>
-
-<h3>Actividades de la industria metalmecánica en La Laguna</h3>
-
-<p>Mientras a nivel nacional 14% del PIB manufacturero pertenece a la metalmecánica (Secretaría de Economía), en la zona metropolitana de La Laguna esta industria participa con 70% del valor agregado generado por la manufactura y 40% del valor agregado total (Censos económicos 2009). Además, la metalmecánica emplea a 15,980 personas y tiene una productividad de 5.4 millones de pesos anuales por trabajador (Censos económicos 2009).</p>
-
-<p>Sin embargo, 47% del valor agregado generado por la industria metalmecánica de La Laguna lo genera una sola actividad, misma que ocupa a 2,199 personas y produce más de 50,000 millones de pesos al año: la fundición y refinación de metales preciosos.</p>
-
-<p>Sin la participación de esta actividad, la industria metalmecánica de La Laguna aporta 37% del valor agregado por la manufactura y 21% del total de la zona metropolitana,manteniendo una productividad laboral de 429 miles de pesos anuales por trabajador.</p>
-
-<p>Después de la fundición y refinación de metales preciosos, la actividad con la mayor cantidad de personal ocupado es lafabricación de productos de herrería, empleando a un total de 2,068 personas en la zona metropolitana. La fabricación de tubos y postes de hierro y acero, la cual se desempeña en el municipio de Gómez Palacio, es la actividad con mayor producción bruta, aunque la mayor aportación de valor agregado es de lafabricación de motores de combustión interna, turbinas y transmisiones, actividad presente únicamente en el municipio de Torreón. En la tabla de a continuación se presentan las aportaciones de cada una de estas actividades:</p>
-
-<table class="table table-striped">
-    <tr>
-        <th>MUNICIPIO</th>
-        <th>ACTIVIDAD ECONÓMICA</th>
-        <th>PERSONAL OCUPADO TOTAL</th>
-        <th>PRODUCCIÓN BRUTA TOTAL (MILES DE PESOS)</th>
-        <th>VALOR AGREGADO CENSAL BRUTO (MILES DE PESOS)</th>
-    </tr>
-    <tr>
-        <th>GÓMEZ PALACIO</th>
-        <td>Fabricación de tubos y postes de hierro y acero</td>
-        <td style="text-align:right">352</td>
-        <td style="text-align:right"><b>$ 1,185,801.00</b></td>
-        <td style="text-align:right">$ 283,530.00</td>
-    </tr>
-    <tr>
-        <th>MATAMOROS, TORREÓN, GÓMEZ PALACIO, LERDO</th>
-        <td>Fabricación de productos de herrería</td>
-        <td style="text-align:right"><b>2,068</b></td>
-        <td style="text-align:right">$ 264,096.00</td>
-        <td style="text-align:right">$ 106,093.00</td>
-    </tr>
-    <tr>
-        <th>TORREÓN</th>
-        <td>Fabricación de motores de combustión interna, tubinas y transmisiones</td>
-        <td style="text-align:right">1,251</td>
-        <td style="text-align:right">$ 527,476.00</td>
-        <td style="text-align:right"><b>$ 7,587,382.00</b></td>
-    </tr>
-</table>
-
-<p><small>Fuente: INEGI, Censos económicos 2009.</small></p>
-
-<p>En cuanto a la productividad laboral, en seguida se listan las 5 actividades de la metalmecánica con la productividad laboral más alta, esta vez incluyendo a la fundición y refinación de metales preciosos.</p>
-
-<table class="table table-striped">
-    <tr>
-        <th>MUNICIPIO</th>
-        <th>ACTIVIDAD ECONÓMICA</th>
-        <th>PRODUCTIVIDAD</th>
-    </tr>
-    <tr>
-        <th>TORREÓN</th>
-        <td>Fundición y refinación de metales preciosos</td>
-        <td style="text-align:right">$ 24,941.81</td>
-    </tr>
-    <tr>
-        <th>GÓMEZ PALACIO</th>
-        <td>Fabricación de desbastes primarios y ferroaleaciones</td>
-        <td style="text-align:right">$ 3,702.09</td>
-    </tr>
-    <tr>
-        <th>GÓMEZ PALACIO</th>
-        <td>Fabricación de tubos y postes de hierro y acero</td>
-        <td style="text-align:right">$ 3,368.75</td>
-    </tr>
-    <tr>
-        <th>TORREÓN, LERDO</th>
-        <td>Fabricación de maquinaria y equipo para la industria metalmecánica</td>
-        <td style="text-align:right">$ 1,024.06</td>
-    </tr>
-    <tr>
-        <th>GÓMEZ PALACIO</th>
-        <td>Fabricación de calderas industriales</td>
-        <td style="text-align:right">$ 1,100.74</td>
-    </tr>
-</table>
-
-<p><small>Fuente: INEGI, Censos económicos 2009.</small></p>
-
-<p>A pesar de que la productividad y participación de la metalmecánica son muy altas, esto no implica que estemos preparados para competir como proveedores con otras ciudades de México.Un ejemplo de esto es que en La Laguna no contamos con proveedores certificados con estándares de calidad, ventas y clientes.De las 210 empresas que actualmente se encuentran en el Catálogo de Proveeduría de la IndustriaMaquiladora de la Secretaría de Economía de México, 48 están en Ciudad Juárez, 55 en el Bajío, 43 en Monterrey, 35 en Tlaxcala, 25 en Puebla y 4 en Saltillo. Cabe mencionar que cerca de la mitad de estos proveedores pertenecen a la industria metalmecánica, lo cual nos deja lejos de competir.</p>
-
-FINAL;
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Blog/IndustriaMetalmecanicaLaLaguna.html';
     } // constructor
 
 } // Clase IndustriaMetalmecanicaLaLaguna

@@ -58,8 +58,8 @@ class EstabilidadDePreciosEnTorreon extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/Blog/EstabilidadDePreciosEnTorreon.md';
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Blog/EstabilidadDePreciosEnTorreon.html';
     } // constructor
 
 } // Clase EstabilidadDePreciosEnTorreon

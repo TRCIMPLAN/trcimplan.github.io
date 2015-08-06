@@ -32,40 +32,34 @@ class UrbanismoParticipativo extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Urbanismo Participativo';
-        $this->autor            = 'Arq. Jair Miramontes Chávez';
-        $this->fecha            = '2014-12-16T08:05';
+        $this->nombre          = 'Urbanismo Participativo';
+        $this->autor           = 'Arq. Jair Miramontes Chávez';
+        $this->fecha           = '2014-12-16T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'urbanismo-participativo';
-        $this->imagen           = 'urbanismo-participativo/imagen.jpg';
-        $this->imagen_previa    = 'urbanismo-participativo/imagen-previa.jpg';
+        $this->archivo         = 'urbanismo-participativo';
+        $this->imagen          = 'urbanismo-participativo/imagen.jpg';
+        $this->imagen_previa   = 'urbanismo-participativo/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.';
-        $this->claves           = 'IMPLAN, Torreon, Infraestructura, Urbanismo, Gobernanza, Territorio';
-        $this->categorias       = array('Infraestructura');
+        $this->descripcion     = 'Es un concepto de corresponsabilidad que se forma entre el Estado y la sociedad dentro de un modelo de gobernanza, en donde los ciudadanos aportan ideas y evalúan los procesos de planeación del territorio y de los espacios públicos urbanos que lo conforman.';
+        $this->claves          = 'IMPLAN, Torreon, Infraestructura, Urbanismo, Gobernanza, Territorio';
+        $this->categorias      = array('Infraestructura');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/UrbanismoParticipativo.md');
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Blog/UrbanismoParticipativo.md';
     } // constructor
 
 } // Clase UrbanismoParticipativo

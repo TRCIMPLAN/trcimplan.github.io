@@ -254,7 +254,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $b = array();
             foreach ($this->javascript as $js) {
                 if (trim($js) != '') {
-                    if (substr(trim($js), 0, 8) == '<script ') {
+                    if (substr(trim($js), 0, 7) == '<script') {
                         $b[] = $js;
                     } else {
                         $b[] = "<script>\n$js\n</script>";

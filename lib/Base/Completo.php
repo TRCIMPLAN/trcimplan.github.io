@@ -131,11 +131,20 @@ class Completo {
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular Javascript de la publicación
-        $a[] = $this->publicacion->javascript();
-        // Acumular Twitter
+        $js = $this->publicacion->javascript();
+        if (substr(trim($js), 0, 7) == '<script') {
+            $a[] = $js;
+        } else {
+            $a[] = "<script>\n$js\n</script>";
+        }
+        // Acumular Javascript de Twitter
         if ($this->publicacion->para_compartir && (strtolower($this->publicacion->estado) == 'publicar')) {
-            $a[] = '// COMPARTIR EN REDES SOCIALES';
-            $a[] = '!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");';
+            $a[] = <<<FINAL
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+FINAL;
         }
         // Entregar
         return implode("\n", $a);

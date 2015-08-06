@@ -374,15 +374,20 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string Código HTML
      */
     public function html() {
-        // Si el contenido es una instancia
+        // Prioridad para html
+        // 1) Si contenido es una instancia
+        // 2) Cargar archivo externo de contenido_archivo_markdown
+        // 3) Cargar archivo externo de contenido_archivo_html
+        // 4) Si contenido es un arreglo con textos
+        // 5) Si contenido es texto
         if (is_object($this->contenido)) {
-            // Si está definido la carga de un archivo markdown
+            // Si está definido la carga de un archivo
             if ($this->contenido_archivo_markdown != '') {
                 $this->contenido->articleBody = $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
             } elseif ($this->contenido_archivo_html != '') {
                 $this->contenido->articleBody = $this->cargar_archivo($this->contenido_archivo_html);
             }
-            // Generar HTML
+            // Generar HTML y acumular Javascript
             $html = $this->contenido->html();
             if (is_array($this->javascript)) {
                 $this->javascript[] = $this->contenido->javascript();
@@ -390,6 +395,10 @@ class Publicacion extends \Configuracion\PublicacionConfig {
                 $this->javascript = array($this->contenido->javascript());
             }
             return $html;
+        } elseif ($this->contenido_archivo_markdown != '') {
+            return $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
+        } elseif ($this->contenido_archivo_html != '') {
+            return $this->cargar_archivo($this->contenido_archivo_html);
         } elseif (is_array($this->contenido) && (count($this->contenido) > 1)) {
             $a = array();
             foreach ($this->contenido as $c) {
@@ -407,10 +416,6 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             return implode("\n", $a);
         } elseif (is_string($this->contenido) && ($this->contenido != '')) {
             return $this->contenido;
-        } elseif ($this->contenido_archivo_markdown != '') {
-            return $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
-        } elseif ($this->contenido_archivo_html != '') {
-            return $this->cargar_archivo($this->contenido_archivo_html);
         } else {
             return '';
         }
@@ -443,6 +448,11 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string Código HTML
      */
     public function redifusion_html() {
+        // Prioridad para redifusión
+        // 1) Valor de redifusion
+        // 2) Cargar archivo de contenido_archivo_markdown
+        // 3) Cargar archivo de contenido_archivo_html
+        // 4) Valor de contenido
         if (is_array($this->redifusion) && (count($this->redifusion) > 1)) {
             $a = array();
             foreach ($this->redifusion as $c) {
@@ -453,8 +463,6 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             return implode("\n", $a);
         } elseif (is_string($this->redifusion) && ($this->redifusion != '')) {
             return $this->redifusion;
-        } elseif (is_string($this->contenido) && ($this->contenido != '')) {
-            return $this->contenido;
         } elseif ($this->contenido_archivo_markdown != '') {
             $markdown = $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
             if ($this->poner_imagen_en_contenido && ($this->imagen != '')) {
@@ -468,6 +476,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             } else {
                 return $this->contenido_archivo_html;
             }
+        } elseif (is_string($this->contenido) && ($this->contenido != '')) {
+            return $this->contenido;
         } else {
             return '';
         }

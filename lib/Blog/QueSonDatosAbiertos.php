@@ -32,40 +32,34 @@ class QueSonDatosAbiertos extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha con el formato AAAA-MM-DD
-        $this->nombre           = '¿Qué son los datos abiertos?';
-        $this->autor            = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha            = '2015-02-26T08:35';
+        $this->nombre          = '¿Qué son los datos abiertos?';
+        $this->autor           = 'Ing. Guillermo Valdés Lozano';
+        $this->fecha           = '2015-02-26T08:35';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'que-son-datos-abiertos';
-        $this->imagen           = 'que-son-datos-abiertos/imagen.jpg';
-        $this->imagen_previa    = 'que-son-datos-abiertos/imagen-previa.jpg';
+        $this->archivo         = 'que-son-datos-abiertos';
+        $this->imagen          = 'que-son-datos-abiertos/imagen.jpg';
+        $this->imagen_previa   = 'que-son-datos-abiertos/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Los datos abiertos son los datos digitales de carácter público que son accesibles en línea y que también pueden ser usados, reutilizados y redistribuidos por cualquier interesado.';
-        $this->claves           = 'IMPLAN, Torreon, Datos Abiertos';
-        $this->categorias       = array('Transparencia', 'Gobierno Digital');
+        $this->descripcion     = 'Los datos abiertos son los datos digitales de carácter público que son accesibles en línea y que también pueden ser usados, reutilizados y redistribuidos por cualquier interesado.';
+        $this->claves          = 'IMPLAN, Torreon, Datos Abiertos';
+        $this->categorias      = array('Transparencia', 'Gobierno Digital');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/Blog/QueSonDatosAbiertos.md');
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Blog/QueSonDatosAbiertos.md';
     } // constructor
 
 } // Clase QueSonDatosAbiertos

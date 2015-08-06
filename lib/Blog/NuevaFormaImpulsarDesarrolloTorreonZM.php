@@ -32,84 +32,34 @@ class NuevaFormaImpulsarDesarrolloTorreonZM extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Una nueva forma de impulsar el desarrollo de Torreón y su Zona Metropolitana';
-        $this->autor            = 'Arq. Susana Montano';
-        $this->fecha            = '2014-11-11T08:05';
+        $this->nombre          = 'Una nueva forma de impulsar el desarrollo de Torreón y su Zona Metropolitana';
+        $this->autor           = 'Arq. Susana Montano';
+        $this->fecha           = '2014-11-11T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'nueva-forma-impulsar-desarrollo-torreon-zm';
-        $this->imagen           = 'nueva-forma-impulsar-desarrollo-torreon-zm/imagen.jpg';
-        $this->imagen_previa    = 'nueva-forma-impulsar-desarrollo-torreon-zm/imagen-previa.jpg';
+        $this->archivo         = 'nueva-forma-impulsar-desarrollo-torreon-zm';
+        $this->imagen          = 'nueva-forma-impulsar-desarrollo-torreon-zm/imagen.jpg';
+        $this->imagen_previa   = 'nueva-forma-impulsar-desarrollo-torreon-zm/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'El IMPLAN Torreón promueve el impulso del desarrollo integral de la Laguna, mediante la integración de una Cartera de Proyectos Estratégicos.';
-        $this->claves           = 'IMPLAN, Torreon, Proyectos, Estrategicos';
-        $this->categorias       = array('Gobierno');
+        $this->descripcion     = 'El IMPLAN Torreón promueve el impulso del desarrollo integral de la Laguna, mediante la integración de una Cartera de Proyectos Estratégicos.';
+        $this->claves          = 'IMPLAN, Torreon, Proyectos, Estrategicos';
+        $this->categorias      = array('Gobierno');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = <<<FINAL
-
-<blockquote>
-    <p>"Cities have the capability of providing something for everybody, only because, and only when, they are created by everybody"</p>
-    <p class="pull-right">Jane Jacobs</p>
-</blockquote>
-
-<p>El presente artículo pretende caracterizar a los <b>Proyectos Estratégicos</b> bajo un enfoque sustentable y comunicar que <b>el Instituto Municipal de Planeación y Competitividad  de Torreón (IMPLAN) promueve el impulso del desarrollo integral de la Laguna</b>, mediante la integración de una <b>Cartera de Proyectos Estratégicos</b> derivada de un Plan Estratégico Metropolitano (PEM).</p>
-
-<p>Iniciemos definiendo <i>"estrategia"</i>, como un proceso bien analizado mediante el cual se prevé alcanzar un estado futuro desde el presente. Cabe resaltar que la estrategia no cambia nada por sí sola, por lo que comúnmente se pone en tela de juicio la efectividad de los planes estratégicos, principalmente porque con frecuencia quedan en un documento lleno de buenas intenciones que una vez terminado, se deja en el olvido. <b>Lo que hace que las estrategias de un plan se concreten son los proyectos clave o estratégicos que se derivan de estas.</b></p>
-
-<p>Así mismo, <b>un proyecto es un conjunto de ideas organizadas que pretenden alcanzar un objetivo</b>, para lo cual se realizan una serie de actividades en forma planificada. La diferencia entre los proyectos comunes y los estratégicos radica en las siguientes características:</p>
-
-<p>a) Los proyectos estratégicos no son proyectos aislados; sino que se rigen por objetivos encaminados hacia una misma dirección, es decir, <b>son el resultado de un proceso de planificación estratégica</b>, en la cual se revisaron los problemas más importantes de determinada cuestión, detectando las causas principales y sus consecuencias; así también <b>pasaron por un análisis detallado, un diagnóstico, objetivos, metas y estrategias</b> que atiendan la problemática de raíz.</p>
-
-<p>b) <b>Son impulsados por acciones o iniciativas de manera participativa e incluyente</b>, integrando la comunidad y todos los sectores sociales involucrados en decisiones para el bien común.</p>
-
-<blockquote>
-    <p>"El éxito de un proyecto depende fuertemente de la capacidad, disposición y motivación de las partes involucradas en su desarrollo" (UNAL, 2014)[i]</p>
-</blockquote>
-
-<blockquote>
-    <p>"Una participación inadecuada de las partes interesadas es una de las razones más comunes del fracaso de programas y proyectos. Por lo tanto, se deberían hacer todos los esfuerzos posibles para alentar un compromiso amplio y activo de las partes interesadas en los procesos de planificación, seguimiento y evaluación. Esto es especialmente importante en situaciones de crisis en las que se puede agudizar la sensación de inseguridad y vulnerabilidad de la gente, y existir tensiones y facciones" (PNUD, 2009)[ii]</p>
-</blockquote>
-
-<p>c) <b>Comparten un enfoque integral y sistémico</b>, la forma de abordar la problemática y las soluciones no pueden ser aisladas, sino parte de un todo y deberá tomar su interacción con otros elementos y proyectos.</p>
-
-<p>d) <b>Son pertinentes</b>, es decir, <b>los objetivos y productos a lograr se ajustan al problema y a sus causas identificadas en el diagnóstico y necesidades, así como del perfil de la población objetivo.</b> Las características sociales, culturales y económicas que presentan los potenciales beneficiarios pueden hacer más coherentes y oportunas las actividades necesarias para producir un bien o servicio.</p>
-
-<p>e) <b>Son viables y factibles.</b> Un proyecto viable, es un proyecto que además de que es factible, es decir, que es posible de realizar, tiene la disponibilidad de los recursos necesarios para llevar a cabo los objetivos y metas señaladas. Frecuentemente esto resulta de un análisis costo-beneficio que integra los diferentes enfoques disciplinarios (social, económico, ambiental, técnico, institucional, legal) y determina tanto la rentabilidad económica, como la sostenibilidad del proyecto.</p>
-
-<p>f) <b>Requieren un proceso constante de evaluación para su control, seguimiento y mejora continua.</b> Se utilizan <b>indicadores propios de cada proyecto</b>, que señalen el cambio generado entre el estado actual y el que se pretende en su planificación, es decir, se determina que tanto el proyecto ha logrado cumplir con sus objetivos o cual es su capacidad para hacerlo, de acuerdo a la fase en que se encuentre.</p>
-
-<p>Bajo estos criterios, el IMPLAN Torreón busca direccionar los esfuerzos mediante metodologías de planeación participativa y un enfoque sistémico, como es el caso de la elaboración de <b>Plan Estratégico Metropolitano</b>. En el cual, <b>después de haber identificado las necesidades prioritarias</b> de la región de manera integral y participativa, se invita a los actores principales que determinan al territorio, y que a su vez, se ven determinados por éste, a <b>proponer proyectos</b> con estas características que conformarán la <b>Cartera de Proyectos Estratégicos de la Zona Metropolitana de la Laguna 2015-2040</b>.</p>
-
-<blockquote>
-    <p>"… Sí creo en el desarrollo económico y sustentable como resultado del compromiso social incluyente"</p>
-    <p class="pull-right">― Anónimo ―</p>
-</blockquote>
-
-<p>[i] Universidad Nacional de Colombia. <a href="http://www.virtual.unal.edu.co/cursos/agronomia/2007841/lecciones/04_01.htm">Formulación y Gestión de Proyectos</a> [Fecha de consulta: 25 de noviembre 2014].</p>
-
-<p>[ii] Programa de las Naciones Unidas Para el Desarrollo, 2009. <a href="http://web.undp.org/evaluation/handbook/spanish/documents/manual_completo.pdf">Manual de Planificación, Seguimiento y Evaluación de los Resultados de Desarrollo. A.K. Office Supplies</a> (NY) [Fecha de consulta: 25 de noviembre 2014].</p>
-
-FINAL;
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Blog/NuevaFormaImpulsarDesarrolloTorreonZM.html';
     } // constructor
 
 } // Clase NuevaFormaImpulsarDesarrolloTorreonZM

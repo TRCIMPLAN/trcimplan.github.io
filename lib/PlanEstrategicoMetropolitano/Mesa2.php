@@ -89,9 +89,9 @@ FINAL;
         // JavaScript
         $this->javascript[]     = '<script type="text/javascript" src="../js/jssor.slider.min.js"></script>';
         $this->javascript[]     = <<<FINAL
-// PHOTO SLIDER
 <script>
-jQuery(document).ready(function ($) {
+  // Photo slider
+  jQuery(document).ready(function ($) {
     var options = {
         \$AutoPlay: true,
         \$ChanceToShow: 5,

@@ -32,50 +32,34 @@ class SuenosPosibles extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Sueños Posibles';
-        $this->autor            = 'Lic. Eduardo Holguín Zehfuss';
-        $this->fecha            = '2014-05-08T08:05';
+        $this->nombre          = 'Sueños Posibles';
+        $this->autor           = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha           = '2014-05-08T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'suenos-posibles';
-        $this->imagen           = 'suenos-posibles/imagen.jpg';
-        $this->imagen_previa    = 'suenos-posibles/imagen-previa.jpg';
+        $this->archivo         = 'suenos-posibles';
+        $this->imagen          = 'suenos-posibles/imagen.jpg';
+        $this->imagen_previa   = 'suenos-posibles/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'La ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano.';
-        $this->claves           = 'IMPLAN, Torreon, Plan Estrategico Metropolitano';
-        $this->categorias       = array('Gobierno');
+        $this->descripcion     = 'La ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano.';
+        $this->claves          = 'IMPLAN, Torreon, Plan Estrategico Metropolitano';
+        $this->categorias      = array('Gobierno');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = <<<FINAL
-
-<p>Estamos en el Siglo XXI y en el Siglo XXI vamos a poner a Torreón. El "vamos" nos incluye a todos.  Desde siempre he escuchado el sueño de metrópoli que tiene cada lagunero que conozco. Sueños urbanos tan diversos como diversos son los sectores, los estratos socio económicos, las profesiones y las aspiraciones personales de mis interlocutores.</p>
-
-<p>Hay quienes sueñan con una urbe convertida en una ciudad del conocimiento, otros con un hábitat sustentable, muchos con un centro histórico recuperado que preserve el acervo arquitectónico y que al mismo tiempo catapulte el futuro cultural de la región. Los industriales sueñan con un digno hospedaje fabril, los exportadores con una pertinente infraestructura logística, los prestadores de servicios turísticos con un centro de convenciones, los promotores de la bicicleta con ciclo pistas que permitan el uso eficiente de un medio de transporte amigable con el medio ambiente, los doctores con los suficientes hospitales para atender la problemática pública de salud, los jóvenes con un sistema universitario vinculado a la empresa.</p>
-
-<p>Sueños todos, pero sueños que no se contradicen entre sí. Sueños todos, pero también posibles si se hace lo que hasta ahora no se ha hecho: ordenarlos en un modelo aspiracional, organizarlos en planes, programas, proyectos que determinen las rutas críticas, las acciones, los recursos, los apoyos gubernamentales, los quehaceres de los liderazgos –políticos, empresariales, sociales, académicos– requeridos para que se materialicen (los sueños) en un periodo no mayor a los 20 años.</p>
-
-<p>Es en ese sentido que la ordenanza del alcalde Miguel Riquelme al IMPLAN Torreón es: integrar los sueños urbanos, las aspiraciones más sentidas de los torreonenses en un modelo de competitividad urbano. En un modelo de competitividad que sea políticamente posible porque en su construcción y ejecución participen los sectores políticos, sociales, universitarios y empresariales de la ciudad. Que sea viable porque sus metas y acciones sean planeadas, proyectadas y sustentadas financieramente, fiscalmente y jurídicamente en estadios de corto, mediano y largo plazo. No cuestionemos nuestras capacidades para materializar el sueño por un Torreón del Siglo XXI, mejor trabajemos en el cómo, cuándo y con qué.</p>
-
-FINAL;
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Blog/SuenosPosibles.html';
     } // constructor
 
 } // Clase SuenosPosibles

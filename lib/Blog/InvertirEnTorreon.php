@@ -32,54 +32,34 @@ class InvertirEnTorreon extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Invertir en Torreón';
-        $this->autor            = 'Lic. Heriberto Ramos Hernández';
-        $this->fecha            = '2014-05-13T08:05';
+        $this->nombre          = 'Invertir en Torreón';
+        $this->autor           = 'Lic. Heriberto Ramos Hernández';
+        $this->fecha           = '2014-05-13T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'invertir-en-torreon';
-        $this->imagen           = 'invertir-en-torreon/imagen.jpg';
-        $this->imagen_previa    = 'invertir-en-torreon/imagen-previa.jpg';
+        $this->archivo         = 'invertir-en-torreon';
+        $this->imagen          = 'invertir-en-torreon/imagen.jpg';
+        $this->imagen_previa   = 'invertir-en-torreon/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = '¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.';
-        $this->claves           = 'IMPLAN, Torreon';
-        $this->categorias       = array('Empresas', 'Empleo', 'Infraestructura', 'Competitividad');
+        $this->descripcion     = '¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón.';
+        $this->claves          = 'IMPLAN, Torreon';
+        $this->categorias      = array('Empresas', 'Empleo', 'Infraestructura', 'Competitividad');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = <<<FINAL
-
-<p>¿Qué buscan las grandes compañías para poder instalarse en nuestra ciudad? Aquí siete razones que las empresas considerarían para invertir en Torreón. O no...</p>
-
-<ol>
-  <li>Buscadores de Mercados. Son empresas que producen o son dueñas de algún activo o producto que tiene una demanda real o potencial en la región que eligen para invertir. Invierten y construyen instalaciones locales para estar cerca de sus consumidores base.</li>
-  <li>Buscadores de Certidumbre Política y Económica. Adquieren o establecen nuevas empresas en ciudades y regiones donde el desempeño de las autoridades gubernamentales es propositivo con la iniciativa privada. Donde no hay “bandazos” ideológicos, impositivos, o de seguridad. Donde existen políticas públicas claras y eficaces.</li>
-  <li>Buscadores de Infraestructura. Optan por las ciudades y regiones que cuenten con los mejores servicios públicos y la infraestructura necesaria para hacer negocios. Carreteras, aeropuertos, redes inalámbricas de acceso público a Internet, banda ancha. Drenaje, señalización, telefonía, áreas comerciales y recreativas. Universidades, oficinas, suministro confiable de energía, recintos fiscales, bodegas, reservas territoriales, y parques industriales, logísticos, y tecnológicos.</li>
-  <li>Buscadores de Materias Primas. Se ubican en las regiones donde se encuentran las materias primas necesarias para su proceso, producto, o negocio. Mineras, petroleras, agrícolas, forestales, y hasta hoteleras, (el paisaje y la playa son la materia prima de algunos hoteles)</li>
-  <li>Buscadores de Bajo Costo de Manufactura. Buscan países y regiones donde el costo relativo de mano de obra sea menor.</li>
-  <li>Buscadores de Conocimientos. Buscan regiones y ciudades donde exista el conocimiento, la tecnología, la educación, y la pericia del capital humano que les es indispensable. Las firmas de inversión en Nueva York, y ahora de Monterrey. Las firmas de tecnologías de información en California, India, y ahora en Guadalajara. La industria aeroespacial en Querétaro.</li>
-  <li>Seguidores del Cliente. Aquellas empresas proveedoras de componentes, productos y servicios para una empresa muy grande. Que la seguirán a donde vaya.</li>
-</ol>
-
-FINAL;
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Blog/InvertirEnTorreon.html';
     } // constructor
 
 } // Clase InvertirEnTorreon

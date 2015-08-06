@@ -32,52 +32,34 @@ class SectoresInnovacionSofisticacion extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Sectores de Innovación y Sofisticación';
-        $this->autor            = 'Lic. Rodrigo González Morales';
-        $this->fecha            = '2014-07-03T08:05';
+        $this->nombre          = 'Sectores de Innovación y Sofisticación';
+        $this->autor           = 'Lic. Rodrigo González Morales';
+        $this->fecha           = '2014-07-03T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'sectores-innovacion-sofisticacion';
-        $this->imagen           = 'sectores-innovacion-sofisticacion/imagen.jpg';
-        $this->imagen_previa    = 'sectores-innovacion-sofisticacion/imagen-previa.jpg';
+        $this->archivo         = 'sectores-innovacion-sofisticacion';
+        $this->imagen          = 'sectores-innovacion-sofisticacion/imagen.jpg';
+        $this->imagen_previa   = 'sectores-innovacion-sofisticacion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Análisis de los indicadores relativos a la innovación.';
-        $this->claves           = 'IMPLAN, Torreon, Indicadores, Innovacion';
-        $this->categorias       = array('Innovación', 'Empresas');
+        $this->descripcion     = 'Análisis de los indicadores relativos a la innovación.';
+        $this->claves          = 'IMPLAN, Torreon, Indicadores, Innovacion';
+        $this->categorias      = array('Innovación', 'Empresas');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = <<<FINAL
-
-<p>El subíndice de sectores de innovación y sofisticación tiene a la cabeza a la ciudad de Monterrey, en el se consideran las capacidades de investigación y las certificaciones de las empresas. La ZML se ubica en el lugar 29, mientras Gómez Palacio, Torreón y Lerdo se ubican por encima de la calificación global, Matamoros se encuentra un poco por debajo, pero aún encima de la media de ciudades.</p>
-
-<img class="img-responsive contenido-imagen" src="sectores-innovacion-sofisticacion/sofisticacion.png" alt="Sofisticación">
-
-<p>El primer indicador es el único que considera datos municipales, como lo es el número de empresas, relacionando con la población económicamente activa. En este aspecto la distribución se da por tamaño y población, ya que Torreón cuenta con 32 empresas por cada mil personas de PEA, cercano a Cd. Obregón, Sonora quien registra 40.5. En ese orden siguen Gómez Palacio, Lerdo y Matamoros con 23, 13 y 8 empresas por cada mil PEA respectivamente.</p>
-
-<img class="img-responsive contenido-imagen" src="sectores-innovacion-sofisticacion/indicadores.png" alt="Indicadores">
-
-<p>Los siguientes indicadores consideran datos estatales ya que todos ellos provienen del Consejo Nacional de Ciencia y Tecnología, aunque son referenciados a datos municipales, usando variables como el propio número de empresas o la PEA. En este sentido Torreón es quien presenta más baja proporción en empresas certificadas, número de investigadores en el Sistema Nacional de Investigadores (SNI) así como patentes registradas, a pesar de que Durango presenta menores registros que Coahuila en estos aspectos, pero la proporción a su población es superior para Gómez Palacio y Lerdo. Este subíndice evidencia la necesidad de contar con registros a nivel municipal en cuanto a innovación.</p>
-
-FINAL;
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Blog/SectoresInnovacionSofisticacion.html';
     } // constructor
 
 } // Clase SectoresInnovacionSofisticacion

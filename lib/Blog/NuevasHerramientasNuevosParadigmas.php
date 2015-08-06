@@ -32,72 +32,34 @@ class NuevasHerramientasNuevosParadigmas extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Nuevas herramientas para Nuevos Paradigmas';
-        $this->autor            = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha            = '2014-09-23T08:05';
+        $this->nombre          = 'Nuevas herramientas para Nuevos Paradigmas';
+        $this->autor           = 'Arq. Daniela Patricia Corral Hernández';
+        $this->fecha           = '2014-09-23T08:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
-        $this->archivo          = 'nuevas-herramientas-nuevos-paradigmas';
-        $this->imagen           = 'nuevas-herramientas-nuevos-paradigmas/imagen.jpg';
-        $this->imagen_previa    = 'nuevas-herramientas-nuevos-paradigmas/imagen-previa.jpg';
+        $this->archivo         = 'nuevas-herramientas-nuevos-paradigmas';
+        $this->imagen          = 'nuevas-herramientas-nuevos-paradigmas/imagen.jpg';
+        $this->imagen_previa   = 'nuevas-herramientas-nuevos-paradigmas/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
-        $this->descripcion      = 'Hoy en día, con un teléfono inteligente o tablet se puede consultar la versión móvil de un SIG para recaudar información, emitir un diagnóstico y trabajar en planes programas y proyectos futuros.';
-        $this->claves           = 'IMPLAN, Torreon, Informacion, Geografica, Movil';
-        $this->categorias       = array('Innovación');
+        $this->descripcion     = 'Hoy en día, con un teléfono inteligente o tablet se puede consultar la versión móvil de un SIG para recaudar información, emitir un diagnóstico y trabajar en planes programas y proyectos futuros.';
+        $this->claves          = 'IMPLAN, Torreon, Informacion, Geografica, Movil';
+        $this->categorias      = array('Innovación');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
-        $this->directorio       = 'blog';
-        $this->nombre_menu      = 'Análisis Publicados';
+        $this->directorio      = 'blog';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = <<<FINAL
-
-<p>En las últimas décadas las tecnologías de información y comunicación han revolucionado el desarrollo, implementación, almacenamiento y distribución de la información utilizando diferentes medios. Los Sistemas de información Geográfica (SIG) como bases de datos georeferenciadas que se reflejan en mapas digitales, han evolucionado rápidamente ligados al crecimiento de las tecnologías de la información, ofreciendo e integrando cada vez más aplicaciones técnicas para la gestión y procesamiento de los datos espaciales en el software.</p>
-
-<p>Los SIG ofrecen una gran variedad de utilidades y aplicaciones relacionadas con los trabajos específicos de ordenamiento urbano y planificación territorial, facilitan el procesamiento y la integración de la información, en particular ayudan a realizar análisis con diferentes hipótesis, o aspiraciones, y crear escenarios futuros.</p>
-
-<p>Teniendo la información, se generan los mapas, como principal representación gráfica en diversos formatos. Para la producción de mapas se necesita que la información cartográfica este actualizada, para la descripción, evaluación y diseño.</p>
-
-<p>Actualmente los medios electrónicos son cada vez más baratos, por lo cual es más sencillo ver proyectado un mapa en una pantalla a verlo en papel, un mapa aclara enormemente la situación territorial, homogeneiza el conocimiento, permite plantear alternativas con mucha mayor flexibilidad, para que todo esto sirva para la toma de decisiones. Actualmente se trabaja con las diferentes dependencias para recaudar la información necesaria y lograr un resultado eficiente y eficaz, para poder emitir un diagnóstico de la ciudad, así mismo trabajar en planes programas y proyectos futuros.</p>
-
-<a href="nuevas-herramientas-nuevos-paradigmas/02-sig-maternidad-adolescente.jpg"><img class="contenido-imagen" src="nuevas-herramientas-nuevos-paradigmas/02-sig-maternidad-adolescente-previa.jpg" alt="Maternidad Adolescente"></a>
-<a href="nuevas-herramientas-nuevos-paradigmas/03-sig-viviendas-internet.jpg"><img class="contenido-imagen" src="nuevas-herramientas-nuevos-paradigmas/03-sig-viviendas-internet-previa.jpg" alt="Viviendas con Internet"></a>
-<a href="nuevas-herramientas-nuevos-paradigmas/04-sig-viviendas-drenaje.jpg"><img class="contenido-imagen" src="nuevas-herramientas-nuevos-paradigmas/04-sig-viviendas-drenaje-previa.jpg" alt="Viviendas con Drenaje"></a>
-<a href="nuevas-herramientas-nuevos-paradigmas/05-sig-viviendas-agua.jpg"><img class="contenido-imagen" src="nuevas-herramientas-nuevos-paradigmas/05-sig-viviendas-agua-previa.jpg" alt="Viviendas con Agua"></a>
-
-<p>Debido al avance de la tecnología se busca implementar el SIG como herramienta de consulta en una plataforma móvil (SIG MOVIL), que se brinde en acceso libre a la población, lo único que se necesitará para poder acceder a esta plataforma seria:</p>
-
-<ul>
-    <li>Dispositivo móvil.</li>
-    <li>Acceso inalámbrico a Internet.</li>
-</ul>
-
-<p>Las comunicaciones inalámbricas y la computación móvil lucen como tecnologías claves en siglo 21. Con más de 4 billones de suscriptores de celulares (ITU 2009), han ganado la aceptación mundial con una velocidad que ha superado a muchas otras innovaciones técnicas. La proliferación de los teléfonos celulares y otros dispositivos móviles, junto con la necesidad fundamental de la sola conveniencia, ha dado lugar a la proliferación de los SIG móvil. Es decir SIG en dispositivos móviles.</p>
-
-<img class="img-responsive contenido-imagen" src="nuevas-herramientas-nuevos-paradigmas/06-ipad.jpg" alt="SIG móvil">
-
-<p>Es importante introducir los SIG móviles en el contexto de los SIG WEB. Los SIG móviles emergen a mediados de la década de los 90, para cubrir las necesidades del trabajo de campo como relevamientos y mantenimiento de redes de infraestructura. Estos sistemas inicialmente operaban principalmente en modo desconectado. Pero con el avance radical en las comunicaciones inalámbricas, especialmente las que operan en redes 3G, los SIG móviles están conectados crecientemente a la WEB, y los hace parte de los SIG WEB. Los SIG móviles pueden actualizar a los servidores con la última información desde el campo. Los servidores WEB pueden, a su vez, proveer apoyo a los SIG móviles con su rico contenido y análisis avanzado.</p>
-
-<img class="img-responsive contenido-imagen" src="nuevas-herramientas-nuevos-paradigmas/07-sig-web.jpg" alt="SIG web">
-
-<p>Con esto se pretende poder tener un mejor panorama de la ciudad, poder generar diagnósticos y planes a largo plazo y a su vez mantener a la población bien informada.</p>
-
-FINAL;
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Para redifusión, como es un artículo del blog se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\">\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Blog/NuevasHerramientasNuevosParadigmas.html';
     } // constructor
 
 } // Clase NuevasHerramientasNuevosParadigmas
