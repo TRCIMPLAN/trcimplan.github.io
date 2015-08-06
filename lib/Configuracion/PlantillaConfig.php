@@ -28,7 +28,7 @@ namespace Configuracion;
 class PlantillaConfig {
 
     public $sitio_titulo     = 'IMPLAN Torreón';
-    static public $sitio_url = 'http://www.trcimplan.gob.mx'; // Sin diagonal al final
+    public $sitio_url        = 'http://www.trcimplan.gob.mx'; // Sin diagonal al final
     public $rss              = 'rss.xml';
     public $favicon          = 'imagenes/favicon.png';
     public $propio_css       = 'css/trcimplan.css';

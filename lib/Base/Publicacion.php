@@ -27,38 +27,38 @@ namespace Base;
  */
 class Publicacion extends \Configuracion\PublicacionConfig {
 
-    // public $fecha;                     // La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
-    // public $autor;                     // El nombre o apodo a quien se le atribuye
-    // public $aparece_en_pagina_inicial; // Verdadero si va aparecer en la página de inicio
-    // public $para_compartir;            // Si es verdadero pondrá los botones para compartir en Twitter/Facebook
-    // public $imagen                     // Ruta relativa a un archivo de imagen
-    // public $imagen_previa;             // Ruta relativa a un archivo de imagen para la vista previa
-    // public $icono;                     // Nombre del icono Font Awsome
-    // public $region_nivel;              // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región
-    // public $estado                     // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
-    public $nombre;                       // Título completo
-    public $nombre_menu;                  // Un título corto. Debe coincidir con la etiqueta usada en Navegacion
-    public $directorio;                   // Directorio donde se guardará la publicación completa
-    public $archivo;                      // El nombre del archivo para la publicación
-    public $descripcion;                  // Descripción del sitio o la página
-    public $claves;                       // Claves que ayuden a los buscadores
-    public $categorias       = array();   // Arreglo con las categorías de la publicación
-    public $encabezado;                   // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
-    public $encabezado_color;             // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
-    protected $contenido     = array();   // Contenido código HTML de la publicación
-    protected $javascript    = array();   // Código Javascript. Debe estar aparte para ponerlo al final de la página.
-    public $url;                          // Opcional. Cuando la propiedad archivo no se defina, entonces será sólo un vínculo a este URL de destino. Puede apuntar a un archivo descargable o a un URL absoluto.
-    public $url_etiqueta;                 // Opcional. Cuando la propiedad archivo no se defina, entonces se usa esta etiqueta para el vínculo o botón.
-    protected $redifusion    = array();   // Código HTML con la publicación que va para redifusión (RSS feed).
-    public $en_raiz          = false;     // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
-    public $en_otro          = false;     // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
-    public $archivo_url;                  // NO LO USE. Lo define el método validar en base a otra propiedades.
-    public $archivo_target;               // NO LO USE. Lo define el método validar en base a otra propiedades.
-    public $boton_url;                    // NO LO USE. Lo define el método validar en base a otra propiedades.
-    public $boton_target;                 // NO LO USE. Lo define el método validar en base a otra propiedades.
-    public $contenido_archivo_html;
-    public $contenido_archivo_markdown;
-    public $poner_imagen_en_contenido = true;
+    // public $fecha;                         // La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
+    // public $autor;                         // El nombre o apodo a quien se le atribuye
+    // public $aparece_en_pagina_inicial;     // Verdadero si va aparecer en la página de inicio
+    // public $para_compartir;                // Si es verdadero pondrá los botones para compartir en Twitter/Facebook
+    // public $imagen                         // Ruta relativa a un archivo de imagen
+    // public $imagen_previa;                 // Ruta relativa a un archivo de imagen para la vista previa
+    // public $icono;                         // Nombre del icono Font Awsome
+    // public $region_nivel;                  // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región
+    // public $estado                         // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
+    public $nombre;                           // Título completo
+    public $nombre_menu;                      // Un título corto. Debe coincidir con la etiqueta usada en Navegacion
+    public $directorio;                       // Directorio donde se guardará la publicación completa
+    public $archivo;                          // El nombre del archivo para la publicación
+    public $descripcion;                      // Descripción del sitio o la página
+    public $claves;                           // Claves que ayuden a los buscadores
+    public $categorias       = array();       // Arreglo con las categorías de la publicación
+    public $encabezado;                       // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
+    public $encabezado_color;                 // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
+    protected $contenido     = array();       // Contenido código HTML de la publicación
+    protected $javascript    = array();       // Código Javascript. Debe estar aparte para ponerlo al final de la página.
+    public $url;                              // Opcional. Cuando la propiedad archivo no se defina, entonces será sólo un vínculo a este URL de destino. Puede apuntar a un archivo descargable o a un URL absoluto.
+    public $url_etiqueta;                     // Opcional. Cuando la propiedad archivo no se defina, entonces se usa esta etiqueta para el vínculo o botón.
+    protected $redifusion    = array();       // Código HTML con la publicación que va para redifusión (RSS feed).
+    public $en_raiz          = false;         // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
+    public $en_otro          = false;         // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
+    public $archivo_url;                      // NO LO USE. Lo define el método validar en base a otra propiedades.
+    public $archivo_target;                   // NO LO USE. Lo define el método validar en base a otra propiedades.
+    public $boton_url;                        // NO LO USE. Lo define el método validar en base a otra propiedades.
+    public $boton_target;                     // NO LO USE. Lo define el método validar en base a otra propiedades.
+    public $contenido_archivo_html;           // Ruta absoluta a un archivo externo HTML que se usará como contenido
+    public $contenido_archivo_markdown;       // Ruta absoluta a un archivo externo Markdown que se usará como contenido
+    public $poner_imagen_en_contenido = true; // Poner la imagen antes que el contenido
 
     /**
      * Validar
@@ -140,7 +140,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
         if (preg_match('/^(http|https|ftp|ftps):\/\//', $this->archivo_url) === 1) {
             return $this->archivo_url;
         } else {
-            return sprintf('%s/%s/%s.html', \Configuracion\PlantillaConfig::$sitio_url, $this->directorio, $this->archivo_url);
+            return sprintf('%s/%s/%s', $this->sitio_url, $this->directorio, $this->archivo_url);
         }
     } // url_absoluto
 

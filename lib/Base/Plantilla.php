@@ -28,7 +28,7 @@ namespace Base;
 class Plantilla extends \Configuracion\PlantillaConfig {
 
     // public $sitio_titulo;
-    // static public $sitio_url;
+    // public $sitio_url;
     // public $rss;
     // public $favicon;
     // public $propio_css;
@@ -136,15 +136,15 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = "  <meta name=\"twitter:title\" content=\"$titulo_para_valor\">";
             $a[] = "  <meta name=\"twitter:description\" content=\"$descripcion_para_valor\">";
             if ($this->imagen_previa_ruta != '') {
-                $a[] = sprintf('  <meta name="twitter:image" content="%s/%s">', self::$sitio_url, $this->imagen_previa_ruta);
+                $a[] = sprintf('  <meta name="twitter:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa_ruta);
             }
-            $a[] = sprintf('  <meta name="twitter:url" content="%s/%s">', self::$sitio_url, $this->archivo_ruta);
+            $a[] = sprintf('  <meta name="twitter:url" content="%s/%s">', $this->sitio_url, $this->archivo_ruta);
             $a[] = "  <meta name=\"og:title\" content=\"$titulo_para_valor\">";
             $a[] = "  <meta name=\"og:description\" content=\"$descripcion_para_valor\">";
             if ($this->imagen_previa_ruta != '') {
-                $a[] = sprintf('  <meta name="og:image" content="%s/%s">', self::$sitio_url, $this->imagen_previa_ruta);
+                $a[] = sprintf('  <meta name="og:image" content="%s/%s">', $this->sitio_url, $this->imagen_previa_ruta);
             }
-            $a[] = sprintf('  <meta name="og:url" content="%s/%s">', self::$sitio_url, $this->archivo_ruta);
+            $a[] = sprintf('  <meta name="og:url" content="%s/%s">', $this->sitio_url, $this->archivo_ruta);
         }
         if ($this->google_site_verification != '') {
             $a[] = $this->google_site_verification;

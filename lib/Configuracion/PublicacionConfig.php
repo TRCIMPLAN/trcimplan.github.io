@@ -27,6 +27,7 @@ namespace Configuracion;
  */
 class PublicacionConfig {
 
+    public $sitio_url                 = 'http://www.trcimplan.gob.mx';   // Sin diagonal al final
     public $fecha                     = '1980-01-01T08:00';              // La fecha en forma de YYYY-MM-DDTHH:MM, siendo así se ordena cronológicamente
     public $autor                     = 'IMPLAN Torreón Staff';          // El nombre o apodo a quien se le atribuye
     public $aparece_en_pagina_inicial = true;                            // Verdadero si va aparecer en la página de inicio
