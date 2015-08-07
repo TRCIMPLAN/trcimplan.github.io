@@ -27,6 +27,8 @@ La experiencia del foro del Laboratorio para la Ciudad de México, ha dado como 
 
 > Para que las calles dejen de ser un sitio de tránsito y se conviertan en un destino por sí mismas, es necesario que el diseño urbano atienda determinadas pautas en la construcción y rediseño de las vías públicas. La idea de que el concepto “espacio público” sólo se refiere a parques y jardines ha provocado que las calles de las grandes ciudades ya no sean lugares propicios para el diálogo y el intercambio de experiencias.
 
+<img class="img-responsive" src="la-utopia-de-una-ciudad-caminable/calle-en-holanda.jpg" alt="Calle en Holanda">
+
 Según este foro, cuyos textos están disponibles en Internet, la supremacía de los automóviles, la falta de seguridad para los peatones y el planeamiento urbano deficiente le han restado a las calles su carácter de “plaza pública”. Por ello, una reflexión sobre estas carencias es útil para identificar los componentes que son deseables y positivos para las arterias de una ciudad.
 
 Una organización que a través de la planificación y la educación, ayuda a crear espacios públicos a beneficio de las comunidades **“Project for Public Spaces (PPS)”** propone una **lista de 10 cualidades que una calle debe tener para funcionar de manera adecuada como espacio público de interacción:**

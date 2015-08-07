@@ -5,7 +5,7 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Fri, 07 Aug 2015 16:26:49 -0500</pubDate>
+    <pubDate>Fri, 07 Aug 2015 16:39:33 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -14,7 +14,7 @@
       <title>La Utopía de una Ciudad Caminable</title>
       <link>http://www.trcimplan.gob.mx/blog/la-utopia-de-una-ciudad-caminable.html</link>
       <guid isPermaLink="false">blog-la-utopia-de-una-ciudad-caminable</guid>
-      <pubDate>Fri, 07 Aug 2015 16:25:00 -0500</pubDate>
+      <pubDate>Fri, 07 Aug 2015 16:35:00 -0500</pubDate>
       <author>Adriana Vargas</author>
       <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/la-utopia-de-una-ciudad-caminable/imagen.jpg"><br>
 
@@ -49,6 +49,8 @@
 <blockquote>
   <p>Para que las calles dejen de ser un sitio de tránsito y se conviertan en un destino por sí mismas, es necesario que el diseño urbano atienda determinadas pautas en la construcción y rediseño de las vías públicas. La idea de que el concepto “espacio público” sólo se refiere a parques y jardines ha provocado que las calles de las grandes ciudades ya no sean lugares propicios para el diálogo y el intercambio de experiencias.</p>
 </blockquote>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/la-utopia-de-una-ciudad-caminable/calle-en-holanda.jpg" alt="Calle en Holanda"></p>
 
 <p>Según este foro, cuyos textos están disponibles en Internet, la supremacía de los automóviles, la falta de seguridad para los peatones y el planeamiento urbano deficiente le han restado a las calles su carácter de “plaza pública”. Por ello, una reflexión sobre estas carencias es útil para identificar los componentes que son deseables y positivos para las arterias de una ciudad.</p>
 
@@ -1133,9 +1135,9 @@ Ubicación centros educativos en Torreón de nivel básico a superior. Fuente: I
 ]]></description>
     </item>
     <item>
-      <title>Ingreso Promedio de la Mujer en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-ingreso-promedio-de-la-mujer</guid>
+      <title>Ingreso Promedio de la Mujer en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-ingreso-promedio-de-la-mujer</guid>
       <pubDate>Tue, 14 Jul 2015 19:36:00 -0500</pubDate>
       <author>IMPLAN Torreón Staff</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -1154,31 +1156,31 @@ Ubicación centros educativos en Torreón de nivel básico a superior. Fuente: I
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>1.0000</td>
+            <td>0.7000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>0.9000</td>
+            <td>0.7000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>0.9000</td>
+            <td>1.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>0.9000</td>
+            <td>0.8000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>1.0000</td>
+            <td>0.8000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
