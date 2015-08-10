@@ -33,17 +33,16 @@ class SustentabilidadViviendasDeshabitadas extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Viviendas Deshabitadas en La Laguna';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2014-10-21T16:19';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-viviendas-deshabitadas';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Viviendas deshabitadas con respecto al total de viviendas totales. Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de viviendas deshabitadas como porcentaje del total de las viviendas. Este indicador busca captar los efectos de malas políticas de vivienda, como la lejanía de los centros de empleo y servicios, así como un deterioro en el tejido social que conduzcan a mayor inseguridad y al deterioro del patrimonio más importante de muchas familias.
 Fuente: INEGI (Censo de Población y Vivienda).';
         $this->claves            = 'IMPLAN, La Laguna, Vivienda, Índice de Competitividad Urbana';
-        $this->categorias        = array('Vivienda', 'Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-la-laguna';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -71,6 +70,10 @@ Fuente: INEGI (Censo de Población y Vivienda).';
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Vivienda', 'Índice de Competitividad Urbana');
+        $this->fuentes           = array('IMCO', 'INEGI');
+        $this->regiones          = 'La Laguna';
     } // constructor
 
     /**

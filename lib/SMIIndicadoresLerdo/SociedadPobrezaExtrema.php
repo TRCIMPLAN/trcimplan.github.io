@@ -33,16 +33,15 @@ class SociedadPobrezaExtrema extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Pobreza Extrema en Lerdo';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2014-10-21T16:19';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-pobreza-extrema';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Porcentaje de la población en situación de pobreza extrema.';
         $this->claves            = 'IMPLAN, Lerdo, Bienestar, Objetivos del Milenio';
-        $this->categorias        = array('Bienestar', 'Objetivos del Milenio');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SociedadPobrezaExtrema extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Bienestar', 'Objetivos del Milenio');
+        $this->fuentes           = array('CONEVAL');
+        $this->regiones          = 'Lerdo';
     } // constructor
 
     /**

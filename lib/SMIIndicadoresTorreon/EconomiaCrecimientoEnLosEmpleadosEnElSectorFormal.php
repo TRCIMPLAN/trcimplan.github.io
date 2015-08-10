@@ -33,17 +33,16 @@ class EconomiaCrecimientoEnLosEmpleadosEnElSectorFormal extends \Base\Publicacio
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Crecimiento en los Empleados en el Sector Formal en Torreón';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T13:36';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-crecimiento-en-los-empleados-en-el-sector-formal';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice de "Gobiernos Eficientes y Eficaces". Mide la tasa de cambio del número de empleados en el sector formal entre 2008 y
 2012.';
         $this->claves            = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Empleo';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Empleo');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -71,6 +70,10 @@ class EconomiaCrecimientoEnLosEmpleadosEnElSectorFormal extends \Base\Publicacio
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Empleo');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Torreón';
     } // constructor
 
     /**

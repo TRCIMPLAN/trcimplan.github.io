@@ -33,16 +33,15 @@ class SociedadEscuelasDeCalidad extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Escuelas de Calidad en Torreón';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T14:50';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-escuelas-de-calidad';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el porcentaje de escuelas con calificación excelente dentro del municipio. Se calificó con 0 a aquellas ciudades en donde menos de 80% de los alumnos presentaron la prueba.';
         $this->claves            = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Educación';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Educación');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SociedadEscuelasDeCalidad extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Educación');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Torreón';
     } // constructor
 
     /**

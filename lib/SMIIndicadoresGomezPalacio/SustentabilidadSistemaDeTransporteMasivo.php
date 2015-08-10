@@ -33,16 +33,15 @@ class SustentabilidadSistemaDeTransporteMasivo extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Sistema de Transporte Masivo en Gómez Palacio';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T16:01';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-sistema-de-transporte-masivo';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice "Precursores". Qué mide: Si una ciudad cuenta con un sistema de transporte masivo en operación, en construcción, en estatus de proyecto o ninguna de las tres.';
         $this->claves            = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Movilidad';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Movilidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-gomez-palacio';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SustentabilidadSistemaDeTransporteMasivo extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Movilidad');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Gómez Palacio';
     } // constructor
 
     /**

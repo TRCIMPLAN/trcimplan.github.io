@@ -33,16 +33,15 @@ class SociedadRazonDeMortalidadMaterna extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Razón de Mortalidad Materna en Lerdo';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-01-13T16:19';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-razon-de-mortalidad-materna';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'La razón de mortalidad materna es la medida de mortalidad materna más usada. Mide el riesgo obstétrico una vez que la mujer queda embarazada.';
         $this->claves            = 'IMPLAN, Lerdo, Salud, Género, Bienestar, Objetivos del Milenio';
-        $this->categorias        = array('Salud', 'Género', 'Bienestar', 'Objetivos del Milenio');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SociedadRazonDeMortalidadMaterna extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Salud', 'Género', 'Bienestar', 'Objetivos del Milenio');
+        $this->fuentes           = array('SINAIS (SSA)');
+        $this->regiones          = 'Lerdo';
     } // constructor
 
     /**

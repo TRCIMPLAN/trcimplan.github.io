@@ -33,16 +33,15 @@ class SociedadRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperior extends \Base\
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Razón entre Mujeres y Hombres en la Enseñanza Media Superior en Lerdo';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-01-22T13:57';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-razon-entre-mujeres-y-hombres-en-la-ensenanza-media-superior';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Se calcula dividiendo la Población Femenina entre 15 y 17 años que asiste a la escuela entre la Población Masculina entre 15 y 17 años que asiste a la escuela. El índice de paridad entre los géneros (IPG) es la relación entre el valor correspondiente al sexo femenino y el correspondiente al sexo masculino para un indicador dado. Un IPG de 1 significa paridad entre los géneros.';
         $this->claves            = 'IMPLAN, Lerdo, Educación, Género, Objetivos del Milenio';
-        $this->categorias        = array('Educación', 'Género', 'Objetivos del Milenio');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SociedadRazonEntreMujeresYHombresEnLaEnsenanzaMediaSuperior extends \Base\
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Educación', 'Género', 'Objetivos del Milenio');
+        $this->fuentes           = array('INEGI. Censos de Población y Vivienda');
+        $this->regiones          = 'Lerdo';
     } // constructor
 
     /**

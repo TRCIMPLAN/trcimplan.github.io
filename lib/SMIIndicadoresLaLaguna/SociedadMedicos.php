@@ -33,16 +33,15 @@ class SociedadMedicos extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Médicos en La Laguna';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2014-10-21T16:19';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-medicos';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Médicos en contacto con pacientes por cada diez mil personas.';
         $this->claves            = 'IMPLAN, La Laguna, Salud, Índice de Competitividad Urbana';
-        $this->categorias        = array('Salud', 'Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-la-laguna';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SociedadMedicos extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Salud', 'Índice de Competitividad Urbana');
+        $this->fuentes           = array('SINAIS (SSA)');
+        $this->regiones          = 'La Laguna';
     } // constructor
 
     /**

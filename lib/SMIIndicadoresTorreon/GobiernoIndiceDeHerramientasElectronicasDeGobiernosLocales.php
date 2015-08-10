@@ -33,16 +33,15 @@ class GobiernoIndiceDeHerramientasElectronicasDeGobiernosLocales extends \Base\P
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Índice de Herramientas Electrónicas de Gobiernos Locales en Torreón';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T14:50';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'gobierno-indice-de-herramientas-electronicas-de-gobiernos-locales';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'El Índice de herramientas electrónicas locales desarrollado por IMCO evaluó cuatro aspectos para determinar los avances de gobierno electrónico en los municipios de la muestra: información, interacción, transacción, experiencia de usuario.';
         $this->claves            = 'IMPLAN, Torreón, Transparencia, Gobierno Digital';
-        $this->categorias        = array('Transparencia', 'Gobierno Digital');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class GobiernoIndiceDeHerramientasElectronicasDeGobiernosLocales extends \Base\P
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Transparencia', 'Gobierno Digital');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Torreón';
     } // constructor
 
     /**

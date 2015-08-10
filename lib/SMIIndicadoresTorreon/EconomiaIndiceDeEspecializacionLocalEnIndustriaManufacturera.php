@@ -33,16 +33,15 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \Base
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Índice de Especialización Local en Industria Manufacturera en Torreón';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2014-10-21T16:19';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-indice-de-especializacion-local-en-industria-manufacturera';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Producción bruta total de la industria manufacturera entre la producción bruta total.';
         $this->claves            = 'IMPLAN, Torreón, Mercados';
-        $this->categorias        = array('Mercados');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class EconomiaIndiceDeEspecializacionLocalEnIndustriaManufacturera extends \Base
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Mercados');
+        $this->fuentes           = array('Elaboración propia con datos obtenidos del INEGI');
+        $this->regiones          = 'Torreón';
     } // constructor
 
     /**

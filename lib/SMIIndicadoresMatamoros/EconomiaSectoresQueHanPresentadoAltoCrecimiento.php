@@ -33,16 +33,15 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \Base\Publicacion 
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Sectores que Han Presentado Alto Crecimiento en Matamoros';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T14:58';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-sectores-que-han-presentado-alto-crecimiento';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice de "Economía Estable". Mide el PIB generado por los sectores que han tenido un crecimiento superior al promedio del crecimiento de todos los sectores a nivel nacional. Para 2012 estos sectores son: generación, transmisión y distribución de energía eléctrica; suministro de agua y de gas por ductos al consumidor final; comercio al por mayor; transportes, correos y almacenamiento; información en medios masivos y servicios financieros y de seguros.';
         $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Mercados';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Mercados');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class EconomiaSectoresQueHanPresentadoAltoCrecimiento extends \Base\Publicacion 
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Mercados');
+        $this->fuentes           = array('IMCO', 'Elaboración propia con datos obtenidos del INEGI');
+        $this->regiones          = 'Matamoros';
     } // constructor
 
     /**

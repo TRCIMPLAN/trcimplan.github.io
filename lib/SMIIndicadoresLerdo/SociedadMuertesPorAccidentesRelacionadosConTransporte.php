@@ -33,16 +33,15 @@ class SociedadMuertesPorAccidentesRelacionadosConTransporte extends \Base\Public
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Muertes por Accidentes Relacionados con Transporte en Lerdo';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T16:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-muertes-por-accidentes-relacionados-con-transporte';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice "Precursores". Qué mide: El número de muertes ocasionadas por accidentes relacionados con el transporte por cada 100 mil habitantes.';
         $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Movilidad';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Movilidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SociedadMuertesPorAccidentesRelacionadosConTransporte extends \Base\Public
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Movilidad');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Lerdo';
     } // constructor
 
     /**

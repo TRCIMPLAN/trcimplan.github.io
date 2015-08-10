@@ -33,16 +33,15 @@ class SociedadCrecimientoEnPoblacionAltamenteCalificada extends \Base\Publicacio
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Crecimiento en Población Altamente Calificada en Torreón';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T15:15';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-crecimiento-en-poblacion-altamente-calificada';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide la tasa de cambio entre 2008 y 2012 de la PEA que cuenta con estudios de licenciatura o más.';
         $this->claves            = 'IMPLAN, Torreón, Índice de Competitividad Urbana, Educación';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Educación');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SociedadCrecimientoEnPoblacionAltamenteCalificada extends \Base\Publicacio
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Educación');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Torreón';
     } // constructor
 
     /**

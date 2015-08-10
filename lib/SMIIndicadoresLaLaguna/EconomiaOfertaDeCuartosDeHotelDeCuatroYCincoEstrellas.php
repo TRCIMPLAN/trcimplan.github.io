@@ -33,16 +33,15 @@ class EconomiaOfertaDeCuartosDeHotelDeCuatroYCincoEstrellas extends \Base\Public
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas en La Laguna';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T15:16';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice de "Aprovechamiento de las Relaciones Internacionales". Mide el total de cuartos de hotel en las categorías de 4 y 5 estrellas como porcentaje de la oferta total de cuartos. Este indicador sólo está disponible para los principales centros turísticos.';
         $this->claves            = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Competitividad';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Competitividad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-la-laguna';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class EconomiaOfertaDeCuartosDeHotelDeCuatroYCincoEstrellas extends \Base\Public
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Competitividad');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'La Laguna';
     } // constructor
 
     /**

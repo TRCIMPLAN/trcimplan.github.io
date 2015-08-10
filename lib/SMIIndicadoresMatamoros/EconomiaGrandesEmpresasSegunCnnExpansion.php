@@ -33,16 +33,15 @@ class EconomiaGrandesEmpresasSegunCnnExpansion extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Grandes Empresas (según CNN Expansión) en Matamoros';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T15:38';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-grandes-empresas-segun-cnn-expansion';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Mide el número de empresas que se encuentran en el Top 500 de empresas de la revista CNN Expansión. La empresa se contabiliza si tiene su casa matriz en alguna ciudad de la muestra.';
         $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Innovación';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Innovación');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class EconomiaGrandesEmpresasSegunCnnExpansion extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Innovación');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Matamoros';
     } // constructor
 
     /**

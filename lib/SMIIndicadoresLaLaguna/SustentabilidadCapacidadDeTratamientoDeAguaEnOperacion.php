@@ -33,16 +33,15 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \Base\Publi
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Capacidad de Tratamiento de Agua en Operación en La Laguna';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2014-10-21T16:19';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide la capacidad instalada de tratamiento de aguas que aprovecha cada ciudad, ajustada por el tamaño de su población.';
         $this->claves            = 'IMPLAN, La Laguna, Recursos Naturales, Índice de Competitividad Urbana';
-        $this->categorias        = array('Recursos Naturales', 'Índice de Competitividad Urbana');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-la-laguna';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \Base\Publi
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Recursos Naturales', 'Índice de Competitividad Urbana');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'La Laguna';
     } // constructor
 
     /**

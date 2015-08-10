@@ -33,16 +33,15 @@ class SeguridadPercepcionDeInseguridad extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Percepción de Inseguridad en Matamoros';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T14:29';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'seguridad-percepcion-de-inseguridad';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide: El porcentaje de personas que se sienten inseguras dentro de su municipio. Ésta es una variable a nivel estatal debido a que la encuesta no es representativa a nivel ciudad.';
         $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Seguridad';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Seguridad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SeguridadPercepcionDeInseguridad extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Seguridad');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Matamoros';
     } // constructor
 
     /**

@@ -33,16 +33,15 @@ class EconomiaFlujoDePasajerosDelOHaciaElExtranjero extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Flujo de Pasajeros del o Hacia el Extranjero en Matamoros';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T15:12';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-flujo-de-pasajeros-del-o-hacia-el-extranjero';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice de "Aprovechamiento de las Relaciones Internacionales". Mide el total de pasajeros en vuelos provenientes del extranjero que tienen como destino la ciudad correspondiente o que salen de ésta con destino al exterior como porcentaje del total de pasajeros aéreos al año.';
         $this->claves            = 'IMPLAN, Matamoros, Índice de Competitividad Urbana, Movilidad';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Movilidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class EconomiaFlujoDePasajerosDelOHaciaElExtranjero extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Movilidad');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Matamoros';
     } // constructor
 
     /**

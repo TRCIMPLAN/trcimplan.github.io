@@ -33,16 +33,15 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Pasajeros Aéreos Internacionales Anuales en La Laguna';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2014-10-21T16:19';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-pasajeros-aereos-internacionales-anuales';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.';
         $this->claves            = 'IMPLAN, La Laguna, Movilidad';
-        $this->categorias        = array('Movilidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-la-laguna';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Movilidad');
+        $this->fuentes           = array('Operadora Mexicana de Aeropuertos (OMA)');
+        $this->regiones          = 'La Laguna';
     } // constructor
 
     /**

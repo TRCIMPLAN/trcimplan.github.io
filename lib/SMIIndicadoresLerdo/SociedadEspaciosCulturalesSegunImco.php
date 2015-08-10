@@ -33,16 +33,15 @@ class SociedadEspaciosCulturalesSegunImco extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Espacios Culturales (según IMCO) en Lerdo';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T14:37';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-espacios-culturales-segun-imco';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana" Mide el número de espacios culturales relativo a la población. Se consideran espacios culturales museos, teatros, galerías, auditorios, bibliotecas, librerías y casas de artesanías.';
         $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Cultura';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Cultura');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SociedadEspaciosCulturalesSegunImco extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Cultura');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Lerdo';
     } // constructor
 
     /**

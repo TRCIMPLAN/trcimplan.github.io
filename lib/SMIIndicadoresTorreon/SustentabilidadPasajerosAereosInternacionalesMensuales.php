@@ -33,16 +33,15 @@ class SustentabilidadPasajerosAereosInternacionalesMensuales extends \Base\Publi
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Pasajeros Aéreos Internacionales Mensuales en Torreón';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-05-20T16:23';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-pasajeros-aereos-internacionales-mensuales';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Flujo de pasajeros que llegan del, o, se dirigen fuera de territorio nacional.';
         $this->claves            = 'IMPLAN, Torreón, Movilidad';
-        $this->categorias        = array('Movilidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SustentabilidadPasajerosAereosInternacionalesMensuales extends \Base\Publi
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Movilidad');
+        $this->fuentes           = array('Operadora Mexicana de Aeropuertos (OMA)');
+        $this->regiones          = 'Torreón';
     } // constructor
 
     /**

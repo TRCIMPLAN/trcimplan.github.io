@@ -33,16 +33,15 @@ class EconomiaGastoEnNominaPorEmpleado extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Gasto en Nómina por Empleado en Torreón';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T18:35';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-gasto-en-nomina-por-empleado';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Mide la eficiencia en el gasto en nómina ejercido por el Ayuntamiento por cada empleado. Gasto en Nómina Semestral entre el Total de Empleados Municipales.';
         $this->claves            = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Finanzas Públicas';
-        $this->categorias        = array('Sistema de Indicadores de Desempeño (SINDES)', 'Finanzas Públicas');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class EconomiaGastoEnNominaPorEmpleado extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Sistema de Indicadores de Desempeño (SINDES)', 'Finanzas Públicas');
+        $this->fuentes           = array('Ayuntamiento de Torreón');
+        $this->regiones          = 'Torreón';
     } // constructor
 
     /**

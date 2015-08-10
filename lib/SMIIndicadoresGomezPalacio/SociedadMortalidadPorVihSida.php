@@ -33,16 +33,15 @@ class SociedadMortalidadPorVihSida extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Mortalidad por VIH-SIDA en Gómez Palacio';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-01-13T10:41';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-mortalidad-por-vih-sida';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Defunciones a causa de VIH/SIDA por cada 100,000 habitantes';
         $this->claves            = 'IMPLAN, Gómez Palacio, Salud, Bienestar, Grupos Vulnerables, Objetivos del Milenio';
-        $this->categorias        = array('Salud', 'Bienestar', 'Grupos Vulnerables', 'Objetivos del Milenio');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-gomez-palacio';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SociedadMortalidadPorVihSida extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Salud', 'Bienestar', 'Grupos Vulnerables', 'Objetivos del Milenio');
+        $this->fuentes           = array('SINAIS (SSA)');
+        $this->regiones          = 'Gómez Palacio';
     } // constructor
 
     /**

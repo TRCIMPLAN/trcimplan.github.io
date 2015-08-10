@@ -33,16 +33,15 @@ class EconomiaCentrosDeInvestigacion extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Centros de Investigación en Gómez Palacio';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T15:41';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-centros-de-investigacion';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice de "Innovación en los Sectores Económicos". Mide el número de centros de investigación del CONACYT, de la UNAM y del IPN que están establecidos en cada ciudad. Esta variable se construyó a partir de los directorios públicos de cada una de las instituciones.';
         $this->claves            = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Innovación';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Innovación');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-gomez-palacio';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class EconomiaCentrosDeInvestigacion extends \Base\Publicacion {
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Innovación');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Gómez Palacio';
     } // constructor
 
     /**

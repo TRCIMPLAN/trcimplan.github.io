@@ -33,16 +33,15 @@ class EconomiaPromedioDeHorasParaLaRealizacionDelTramiteDeLicenciaParaNegocio ex
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Promedio de Horas para la Realización del Trámite de Licencia para Negocio en Torreón';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T15:15';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-promedio-de-horas-para-la-realizacion-del-tramite-de-licencia-para-negocio';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Determina el número de horas requeridas para la realización del trámite de licencia para negocios. Número de Horas Empleadas para el Trámite de Licencias para Negocios, entre Número de Licencias para Negocios Otorgadas.';
         $this->claves            = 'IMPLAN, Torreón, Sistema de Indicadores de Desempeño (SINDES), Gobierno, Empresas';
-        $this->categorias        = array('Sistema de Indicadores de Desempeño (SINDES)', 'Gobierno', 'Empresas');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class EconomiaPromedioDeHorasParaLaRealizacionDelTramiteDeLicenciaParaNegocio ex
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Sistema de Indicadores de Desempeño (SINDES)', 'Gobierno', 'Empresas');
+        $this->fuentes           = array('Ayuntamiento de Torreón');
+        $this->regiones          = 'Torreón';
     } // constructor
 
     /**

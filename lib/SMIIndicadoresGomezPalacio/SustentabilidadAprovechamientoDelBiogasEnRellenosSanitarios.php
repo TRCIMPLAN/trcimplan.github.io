@@ -33,16 +33,15 @@ class SustentabilidadAprovechamientoDelBiogasEnRellenosSanitarios extends \Base\
     public function __construct() {
         // Título, autor y fecha
         $this->nombre            = 'Aprovechamiento del Biogás en Rellenos Sanitarios en Gómez Palacio';
-     // $this->autor             = '';
+        $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2015-07-14T12:16';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice "Manejo Sustentable del Medio Ambiente". Mide si la ciudad cuenta con captación, conducción e impulsión del biogás que se genera en los rellenos sanitarios de la ciudad.';
         $this->claves            = 'IMPLAN, Gómez Palacio, Índice de Competitividad Urbana, Recursos Naturales';
-        $this->categorias        = array('Índice de Competitividad Urbana', 'Recursos Naturales');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-gomez-palacio';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,6 +69,10 @@ class SustentabilidadAprovechamientoDelBiogasEnRellenosSanitarios extends \Base\
         $schema->contentLocation = $lugar;
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
+        // Para el Organizador
+        $this->categorias        = array('Índice de Competitividad Urbana', 'Recursos Naturales');
+        $this->fuentes           = array('IMCO');
+        $this->regiones          = 'Gómez Palacio';
     } // constructor
 
     /**
