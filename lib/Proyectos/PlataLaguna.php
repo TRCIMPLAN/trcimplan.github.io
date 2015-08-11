@@ -33,7 +33,7 @@ class PlataLaguna extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre          = 'Plata Laguna';
-     // $this->autor           = '';
+        $this->autor           = 'Dirección de Proyectos Estratégicos';
         $this->fecha           = '2014-06-01T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo         = 'plata-laguna';
@@ -42,7 +42,6 @@ class PlataLaguna extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion     = 'Contribuir a que la plata de La Laguna sea un sector mundialmente competitivo; reconocida por su calidad e identificable por el consumidor.';
         $this->claves          = 'IMPLAN, Torreon, Plata, Laguna';
-        $this->categorias      = array('Empresas', 'Innovación');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class PlataLaguna extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaArticle
         $this->contenido       = $schema;
+        // Para el Organizador
+        $this->categorias      = array('Empresas', 'Innovación');
+        $this->fuentes         = array('IMPLAN');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
     /**

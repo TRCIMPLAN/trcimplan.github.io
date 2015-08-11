@@ -39,10 +39,9 @@ class BicicletaAlternativaTransporte extends \Base\Publicacion {
         $this->archivo         = 'bicicleta-alternativa-transporte';
         $this->imagen          = 'bicicleta-alternativa-transporte/imagen.jpg';
         $this->imagen_previa   = 'bicicleta-alternativa-transporte/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'No importa cuánto gastemos en construir vías rápidas, siempre serán insuficientes para alojar la creciente cantidad de vehículos que entran a la ciudad. Todos los ciudadanos debemos hacer conciencia e impulsar y fomentar el uso de la bicicleta.';
         $this->claves          = 'IMPLAN, Torreon, Transporte, Bicicleta';
-        $this->categorias      = array('Movilidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class BicicletaAlternativaTransporte extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/BicicletaAlternativaTransporte.md';
+        // Para el Organizador
+        $this->categorias      = array('Movilidad');
+        $this->fuentes         = array('Banco Interamericano del Desarrollo');
+        $this->regiones        = array('Nacional');
     } // constructor
 
 } // Clase BicicletaAlternativaTransporte

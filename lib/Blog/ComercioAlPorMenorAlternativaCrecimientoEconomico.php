@@ -39,10 +39,9 @@ class ComercioAlPorMenorAlternativaCrecimientoEconomico extends \Base\Publicacio
         $this->archivo         = 'comercio-al-por-menor-alternativa-crecimiento-economico';
         $this->imagen          = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen.jpg';
         $this->imagen_previa   = 'comercio-al-por-menor-alternativa-crecimiento-economico/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'El comercio se vuelve tan importante como la industria tradicional para una localidad en la medida en que éste aumente el ingreso local y reduzca la fuga de consumo y empleo hacia otras ciudades.';
         $this->claves          = 'IMPLAN, Torreon, Comercio, Ingreso, Ciudad';
-        $this->categorias      = array('Empresas', 'Empleo');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class ComercioAlPorMenorAlternativaCrecimientoEconomico extends \Base\Publicacio
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/ComercioAlPorMenorAlternativaCrecimientoEconomico.md';
+        // Para el Organizador
+        $this->categorias      = array('Empresas', 'Empleo');
+        $this->fuentes         = array('INEGI');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase ComercioAlPorMenorAlternativaCrecimientoEconomico

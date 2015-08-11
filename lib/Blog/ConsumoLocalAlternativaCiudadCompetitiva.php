@@ -39,10 +39,9 @@ class ConsumoLocalAlternativaCiudadCompetitiva extends \Base\Publicacion {
         $this->archivo         = 'consumo-local-alternativa-ciudad-competitiva';
         $this->imagen          = 'consumo-local-alternativa-ciudad-competitiva/imagen.jpg';
         $this->imagen_previa   = 'consumo-local-alternativa-ciudad-competitiva/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'El consumo local es una herramienta coherente para el desarrollo equitativo de la sociedad; en el cual, sabemos de donde vienen los materiales, sabemos quienes son las personas que lo fabrican y quienes lo venden.';
         $this->claves          = 'IMPLAN, Torreon';
-        $this->categorias      = array('Competitividad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class ConsumoLocalAlternativaCiudadCompetitiva extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/ConsumoLocalAlternativaCiudadCompetitiva.md';
+        // Para el Organizador
+        $this->categorias      = array('Competitividad');
+        $this->fuentes         = array();
+        $this->regiones        = array();
     } // constructor
 
 } // Clase ConsumoLocalAlternativaCiudadCompetitiva

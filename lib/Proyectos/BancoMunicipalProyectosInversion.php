@@ -33,16 +33,15 @@ class BancoMunicipalProyectosInversion extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre          = 'Banco Municipal de Proyectos de Inversión';
-     // $this->autor           = '';
+        $this->autor           = 'Dirección de Proyectos Estratégicos';
         $this->fecha           = '2014-05-01T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales)
         $this->archivo         = 'banco-municipal-proyectos-inversion';
         $this->imagen          = 'banco-municipal-proyectos-inversion/imagen.png';
         $this->imagen_previa   = 'banco-municipal-proyectos-inversion/imagen-previa.png';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Es un instrumento dinámico de gestión pública, orientado a consolidar una cultura municipal de formulación (preparación), planeación, seguimiento y evaluación de programas y proyectos de inversión, por medio de sus componentes y funciones.';
         $this->claves          = 'IMPLAN, Torreon, Banco, Municipal, Proyectos, Inversion';
-        $this->categorias      = array('Gobierno', 'Gobierno Digital');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class BancoMunicipalProyectosInversion extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaArticle
         $this->contenido       = $schema;
+        // Para el Organizador
+        $this->categorias      = array('Gobierno', 'Gobierno Digital');
+        $this->fuentes         = array('Ayuntamiento de Torreón');
+        $this->regiones        = array('Torreón');
     } // constructor
 
     /**

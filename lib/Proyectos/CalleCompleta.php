@@ -33,7 +33,7 @@ class CalleCompleta extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre          = 'Programa Calle Completa';
-     // $this->autor           = '';
+        $this->autor           = 'Dirección de Planeación Urbana Sustentable';
         $this->fecha           = '2015-05-25T12:20';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo         = 'calle-completa';
@@ -42,7 +42,6 @@ class CalleCompleta extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion     = 'Calle Completa es una calle que incluye al peatón y a todos los medios de transporte (ciclistas, motociclistas, autobuses, automovilistas), de todas las edades y con todo tipo de habilidades motoras.';
         $this->claves          = 'IMPLAN, Torreon, Calle, Completa';
-        $this->categorias      = array('Movilidad', 'Vialidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class CalleCompleta extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaArticle
         $this->contenido       = $schema;
+        // Para el Organizador
+        $this->categorias      = array('Movilidad', 'Vialidad');
+        $this->fuentes         = array('Logit', 'Instituto de Políticas para el Transporte y el Desarrollo (ITDP)');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
     /**

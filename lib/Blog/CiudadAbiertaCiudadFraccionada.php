@@ -39,10 +39,9 @@ class CiudadAbiertaCiudadFraccionada extends \Base\Publicacion {
         $this->archivo         = 'ciudad-abierta-ciudad-fraccionada';
         $this->imagen          = 'ciudad-abierta-ciudad-fraccionada/imagen.jpg';
         $this->imagen_previa   = 'ciudad-abierta-ciudad-fraccionada/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La fragmentación social y urbana provocada por desarrollos habitacionales “seguros” tiene efectos que agravan la percepción de la inseguridad en la ciudad.';
         $this->claves          = 'IMPLAN, Torreon, Ciudad, Fraccionamientos, Cerrados';
-        $this->categorias      = array('Infraestructura');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class CiudadAbiertaCiudadFraccionada extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CiudadAbiertaCiudadFraccionada.md';
+        // Para el Organizador
+        $this->categorias      = array('Infraestructura');
+        $this->fuentes         = array('IMPLAN');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase CiudadAbiertaCiudadFraccionada

@@ -39,10 +39,9 @@ class AperturaEmpresas2014 extends \Base\Publicacion {
         $this->archivo         = 'apertura-empresas-2014';
         $this->imagen          = 'apertura-empresas-2014/imagen.jpg';
         $this->imagen_previa   = 'apertura-empresas-2014/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año 2014 en el mes de julio.';
         $this->claves          = 'IMPLAN, Torreon, Apertura de empresas';
-        $this->categorias      = array('Empresas', 'Doing Business', 'Competitividad');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class AperturaEmpresas2014 extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/AperturaEmpresas2014.html';
+        // Para el Organizador
+        $this->categorias      = array('Empresas', 'Doing Business', 'Competitividad');
+        $this->fuentes         = array('Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón');
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase AperturaEmpresas2014

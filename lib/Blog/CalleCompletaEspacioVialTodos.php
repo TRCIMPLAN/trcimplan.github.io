@@ -39,10 +39,9 @@ class CalleCompletaEspacioVialTodos extends \Base\Publicacion {
         $this->archivo         = 'calle-completa-espacio-vital-todos';
         $this->imagen          = 'calle-completa-espacio-vital-todos/imagen.jpg';
         $this->imagen_previa   = 'calle-completa-espacio-vital-todos/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Con la inclusión del automóvil en el espacio urbano se causó problemas como alta incidencia de accidentes, inaccesibilidad, contaminación, y el deterioro del espacio público más importante: la calle.';
         $this->claves          = 'IMPLAN, Torreon, Calle completa';
-        $this->categorias      = array('Transporte', 'Movilidad', 'Infraestructura');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class CalleCompletaEspacioVialTodos extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CalleCompletaEspacioVialTodos.md';
+        // Para el Organizador
+        $this->categorias      = array('Transporte', 'Movilidad', 'Infraestructura');
+        $this->fuentes         = array('Logit', 'Instituto de Políticas para el Transporte y el Desarrollo (ITDP)');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase CalleCompletaEspacioVialTodos

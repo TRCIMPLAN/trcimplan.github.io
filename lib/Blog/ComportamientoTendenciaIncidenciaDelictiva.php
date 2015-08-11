@@ -39,10 +39,9 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\Publicacion {
         $this->archivo         = 'comportamiento-tendencia-incidencia-delictiva';
         $this->imagen          = 'comportamiento-tendencia-incidencia-delictiva/imagen.jpg';
         $this->imagen_previa   = 'comportamiento-tendencia-incidencia-delictiva/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Mostramos las tendencias de los delitos más recurrentes en la ciudad de Torreón; con datos del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.';
         $this->claves          = 'IMPLAN, Torreon, Delitos, Tendencias';
-        $this->categorias      = array('Seguridad');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/ComportamientoTendenciaIncidenciaDelictiva.html';
+        // Para el Organizador
+        $this->categorias      = array('Seguridad');
+        $this->fuentes         = array('Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública');
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase ComportamientoTendenciaIncidenciaDelictiva

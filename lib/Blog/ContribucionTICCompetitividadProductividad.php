@@ -39,10 +39,9 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
         $this->archivo         = 'contribucion-tic-competitividad-productividad';
         $this->imagen          = 'contribucion-tic-competitividad-productividad/imagen.jpg';
         $this->imagen_previa   = 'contribucion-tic-competitividad-productividad/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.';
         $this->claves          = 'IMPLAN, Torreon, TIC, Desarrollo, Empleo, Estudio, Carreras';
-        $this->categorias      = array('Competitividad', 'Innovación', 'Empleo');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/ContribucionTICCompetitividadProductividad.html';
+        // Para el Organizador
+        $this->categorias      = array('Competitividad', 'Innovación', 'Empleo');
+        $this->fuentes         = array('IMCO');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase ContribucionTICCompetitividadProductividad

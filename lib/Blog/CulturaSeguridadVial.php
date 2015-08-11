@@ -39,10 +39,9 @@ class CulturaSeguridadVial extends \Base\Publicacion {
         $this->archivo         = 'cultura-seguridad-vial';
         $this->imagen          = 'cultura-seguridad-vial/imagen.png';
         $this->imagen_previa   = 'cultura-seguridad-vial/imagen-previa.png';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La cultura vial se refiere a la construcción de una convivencia armoniosa, responsable y de respeto entre todos los que hacemos uso de las vías de tránsito, sean estas aceras, rutas, caminos, ciclo vías, etc.';
         $this->claves          = 'IMPLAN, Torreon, Cultura, Vial, Tránsito';
-        $this->categorias      = array('Transporte', 'Movilidad', 'Vialidad');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class CulturaSeguridadVial extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/CulturaSeguridadVial.html';
+        // Para el Organizador
+        $this->categorias      = array('Transporte', 'Movilidad', 'Vialidad');
+        $this->fuentes         = array('INEGI');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase CulturaSeguridadVial

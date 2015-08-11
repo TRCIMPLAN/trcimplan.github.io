@@ -39,10 +39,9 @@ class CiudadesRetoTransformacion extends \Base\Publicacion {
         $this->archivo         = 'ciudades-reto-transformacion';
         $this->imagen          = 'ciudades-reto-transformacion/imagen.jpg';
         $this->imagen_previa   = 'ciudades-reto-transformacion/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana.';
         $this->claves          = 'IMPLAN, Torreon, Ciudad, Urbana, Personas';
-        $this->categorias      = array('Infraestructura', 'Recursos Naturales', 'Bienestar');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class CiudadesRetoTransformacion extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/CiudadesRetoTransformacion.html';
+        // Para el Organizador
+        $this->categorias      = array('Infraestructura', 'Recursos Naturales', 'Bienestar');
+        $this->fuentes         = array();
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase CiudadesRetoTransformacion

@@ -39,10 +39,9 @@ class CaminaLaRomaPorBuenosDisenosPeatonales extends \Base\Publicacion {
         $this->archivo         = 'camina-la-roma-por-buenos-disenos-peatonales';
         $this->imagen          = 'camina-la-roma-por-buenos-disenos-peatonales/imagen.jpg';
         $this->imagen_previa   = 'camina-la-roma-por-buenos-disenos-peatonales/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Ejercicio realizado por el Instituto de Políticas para el Transporte y el Desarrollo (ITDP por sus siglas en inglés) México para analizar cómo funcionaría una intersección vial si estuviera diseñada para las personas que andan a pie.';
         $this->claves          = 'IMPLAN, Torreon';
-        $this->categorias      = array('Movilidad', 'Vialidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class CaminaLaRomaPorBuenosDisenosPeatonales extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CaminaLaRomaPorBuenosDisenosPeatonales.md';
+        // Para el Organizador
+        $this->categorias      = array('Movilidad', 'Vialidad');
+        $this->fuentes         = array('Instituto de Políticas para el Transporte y el Desarrollo (ITDP)');
+        $this->regiones        = array('Nacional');
     } // constructor
 
 } // Clase CaminaLaRomaPorBuenosDisenosPeatonales

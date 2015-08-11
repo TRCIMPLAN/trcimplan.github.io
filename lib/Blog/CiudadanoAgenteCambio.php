@@ -39,10 +39,9 @@ class CiudadanoAgenteCambio extends \Base\Publicacion {
         $this->archivo         = 'ciudadano-agente-cambio';
         $this->imagen          = 'ciudadano-agente-cambio/imagen.jpg';
         $this->imagen_previa   = 'ciudadano-agente-cambio/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La participación de la sociedad en proyectos urbanos crea una cultura de co-creación. Destaca Medellín, Colombia donde se aplica en la coordinación, participación y construcción de obra pública.';
         $this->claves          = 'IMPLAN, Torreon, Ciudadano, Cocreacion, Medellin, Colombia, Proyectos, Urbanos, Espacio publico, Vivienda, Medio ambiente';
-        $this->categorias      = array('Infraestructura', 'Participación Ciudadana');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class CiudadanoAgenteCambio extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/CiudadanoAgenteCambio.md';
+        // Para el Organizador
+        $this->categorias      = array('Infraestructura', 'Participación Ciudadana');
+        $this->fuentes         = array();
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase CiudadanoAgenteCambio

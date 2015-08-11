@@ -33,7 +33,7 @@ class PlanCentroLaguna extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre          = 'Plan Centro Laguna';
-     // $this->autor           = '';
+        $this->autor           = 'Dirección de Proyectos Estratégicos';
         $this->fecha           = '2015-07-30T15:30';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo         = 'plan-centro-laguna';
@@ -42,7 +42,6 @@ class PlanCentroLaguna extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion     = 'Proyecto de regeneración urbana que promueve la integración social, la reactivación económica, la valorización del patrimonio histórico y cultural y la habitabilidad de uno de los espacios públicos emblemáticos de la ciudad.';
         $this->claves          = 'IMPLAN, Torreon, Plan, Centro, La Laguna';
-        $this->categorias      = array('Infraestructura', 'Vialidad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class PlanCentroLaguna extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaArticle
         $this->contenido       = $schema;
+        // Para el Organizador
+        $this->categorias      = array('Infraestructura', 'Vialidad');
+        $this->fuentes         = array('IMPLAN', 'Instituto de Políticas para el Transporte y el Desarrollo (ITDP)');
+        $this->regiones        = array('Torreón');
     } // constructor
 
     /**

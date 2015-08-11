@@ -40,10 +40,9 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
         $this->archivo         = 'alumnos-por-docente-parte-1';
         $this->imagen          = 'alumnos-por-docente-parte-1/imagen.jpg';
         $this->imagen_previa   = 'alumnos-por-docente-parte-1/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Estudio sobre si debe considerarse la cantidad de alumnos por profesor como un factor en la mejora educativa.';
         $this->claves          = 'IMPLAN, Torreon, Alumnos, Docente, Educacion';
-        $this->categorias      = array('Competitividad', 'Educación');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -62,6 +61,10 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/AlumnosPorDocenteParte1.md';
+        // Para el Organizador
+        $this->categorias      = array('Competitividad', 'Educación');
+        $this->fuentes         = array('Banco Mundial', 'SEP', 'IMCO', 'INEGI');
+        $this->regiones        = array('Torreón', 'Coahuila', 'Nacional');
     } // constructor
 
 } // Clase AlumnosPorDocenteParte1

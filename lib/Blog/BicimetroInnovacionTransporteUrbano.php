@@ -39,10 +39,9 @@ class BicimetroInnovacionTransporteUrbano extends \Base\Publicacion {
         $this->archivo         = 'bicimetro-innovacion-transporte-urbano';
         $this->imagen          = 'bicimetro-innovacion-transporte-urbano/imagen.jpg';
         $this->imagen_previa   = 'bicimetro-innovacion-transporte-urbano/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Cada vez son más los ciudadanos que optan por dejar sus carros y se animan a desempolvar las bicicletas guardadas en los garajes y utilizarlas como medio de transporte ya sea habitual o por recreación.';
         $this->claves          = 'IMPLAN, Torreon, Bicicleta, Transporte';
-        $this->categorias      = array('Transporte', 'Movilidad', 'Infraestructura');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class BicimetroInnovacionTransporteUrbano extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/BicimetroInnovacionTransporteUrbano.md';
+        // Para el Organizador
+        $this->categorias      = array('Transporte', 'Movilidad', 'Infraestructura');
+        $this->fuentes         = array('Instituto Tecnológico de Massachussets (MIT)');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase BicimetroInnovacionTransporteUrbano

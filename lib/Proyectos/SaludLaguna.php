@@ -33,7 +33,7 @@ class SaludLaguna extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre          = 'Salud Laguna';
-     // $this->autor           = '';
+        $this->autor           = 'Dirección de Proyectos Estratégicos';
         $this->fecha           = '2015-05-25T11:40';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo         = 'salud-laguna';
@@ -42,7 +42,6 @@ class SaludLaguna extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion     = 'Salud Laguna es una agrupación interactiva de pro­fesionales, instituciones, or­ga­nizaciones, integrados en torno a las actividades económicas que dan servicio y soportan al sec­tor salud.';
         $this->claves          = 'IMPLAN, Torreon';
-        $this->categorias      = array('Empresas', 'Salud');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class SaludLaguna extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaArticle
         $this->contenido       = $schema;
+        // Para el Organizador
+        $this->categorias      = array('Empresas', 'Salud');
+        $this->fuentes         = array('IMPLAN');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
     /**
