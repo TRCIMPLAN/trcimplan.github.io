@@ -1,5 +1,5 @@
 
-<img class="img-responsive" src="plan-centro-laguna/imagen.jpg" alt="Plan Centro Laguna">
+<img class="img-responsive" src="plan-centro-laguna/plan-centro-laguna.jpg" alt="Plan Centro Laguna">
 
 Proyecto de regeneración urbana que promueve la integración social, la reactivación económica, la valorización del patrimonio histórico y cultural y la habitabilidad de uno de los espacios públicos emblemáticos de la ciudad.
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - DESCRIPCION
+ * TrcIMPLAN - Salud Laguna
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -45,11 +45,9 @@ class SaludLaguna extends \Base\Publicacion {
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Proyectos Estratégicos > Salud Laguna';
+        $this->nombre_menu     = 'Proyectos Estratégicos > Todos los Proyectos';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir  = true;
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaArticle();
         $schema->name          = $this->nombre;
@@ -60,41 +58,13 @@ class SaludLaguna extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaArticle
         $this->contenido       = $schema;
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Proyectos/SaludLaguna.md';
         // Para el Organizador
         $this->categorias      = array('Empresas', 'Salud');
         $this->fuentes         = array('IMPLAN');
         $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Cargar en el Schema el archivo markdown y convertirlo a HTML
-        $this->contenido->articleBody = $this->cargar_archivo_markdown_extra('lib/Proyectos/SaludLaguna.md');
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Cargar el archivo markdown y convertirlo a HTML
-        $markdown = $this->cargar_archivo_markdown_extra('lib/Proyectos/SaludLaguna.md');
-        // Si tiene la imagen, se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion = "<img src=\"{$this->imagen}\"><br>\n\n{$markdown}";
-        } else {
-            $this->redifusion = $markdown;
-        }
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
 
 } // Clase SaludLaguna
 

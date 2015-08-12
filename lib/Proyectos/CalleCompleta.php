@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - DESCRIPCION
+ * TrcIMPLAN - Programa Calle Completa
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class CalleCompleta extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Programa Calle Completa';
+        $this->nombre          = 'Calle Completa';
         $this->autor           = 'Dirección de Planeación Urbana Sustentable';
         $this->fecha           = '2015-05-25T12:20';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
@@ -40,16 +40,14 @@ class CalleCompleta extends \Base\Publicacion {
         $this->imagen          = 'calle-completa/imagen.jpg';
         $this->imagen_previa   = 'calle-completa/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion     = 'Calle Completa es una calle que incluye al peatón y a todos los medios de transporte (ciclistas, motociclistas, autobuses, automovilistas), de todas las edades y con todo tipo de habilidades motoras.';
+        $this->descripcion     = 'Es una calle que incluye al peatón y a todos los medios de transporte (ciclistas, motociclistas, autobuses, automovilistas), de todas las edades y con todo tipo de habilidades motoras.';
         $this->claves          = 'IMPLAN, Torreon, Calle, Completa';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Proyectos Estratégicos > Calle Completa';
+        $this->nombre_menu     = 'Proyectos Estratégicos > Todos los Proyectos';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir  = true;
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaArticle();
         $schema->name          = $this->nombre;
@@ -60,41 +58,13 @@ class CalleCompleta extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaArticle
         $this->contenido       = $schema;
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Proyectos/CalleCompleta.md';
         // Para el Organizador
         $this->categorias      = array('Movilidad', 'Vialidad');
         $this->fuentes         = array('Logit', 'Instituto de Políticas para el Transporte y el Desarrollo (ITDP)');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones        = array('Torreón');
     } // constructor
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Cargar en el Schema el archivo markdown y convertirlo a HTML
-        $this->contenido->articleBody = $this->cargar_archivo_markdown_extra('lib/Proyectos/CalleCompleta.md');
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
-
-    /**
-     * Redifusion HTML
-     *
-     * @return string Código HTML
-     */
-    public function redifusion_html() {
-        // Cargar el archivo markdown y convertirlo a HTML
-        $markdown = $this->cargar_archivo_markdown_extra('lib/Proyectos/CalleCompleta.md');
-        // Si tiene la imagen, se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion = "<img src=\"{$this->imagen}\"><br>\n\n{$markdown}";
-        } else {
-            $this->redifusion = $markdown;
-        }
-        // Ejecutar este método en el padre
-        return parent::redifusion_html();
-    } // redifusion_html
 
 } // Clase CalleCompleta
 
