@@ -10,13 +10,13 @@ La gráfica 1 muestra cómo se distribuye la población total del estado en base
 
 <div style="clear:left;"></div>
 
-### Gráfica 1. Resultados en Coahuila.
+### Gráfica 1. Resultados en Coahuila. En Miles de personas.
 
 <img class="img-responsive" src="analisis-de-resultados-coneval-2014-para-coahuila/01-resultados-coneval-en-coahuila.jpg" alt="Analisis Resultados CONEVAL 2014 para Coahuila">
 
 Las estimaciones para 2014 nos muestran que 3 de cada 10 coahuilenses se encuentra en situación de pobreza, la población vulnerable por carencias sociales representan a 1 de cada 4 habitantes, las personas vulnerables por ingresos se calcula en 1 por cada 10. La población que no tiene algún tipo de necesidad básica sin cubrir (que no es pobre, ni vulnerable) representa al 34.5% de la población de Coahuila. Comparando la población en pobreza moderada y pobreza extrema con el total de la población tenemos que el 26.4% de los coahuilenses vive en pobreza moderada y el 3.7% en pobreza extrema.  A continuación se muestran los resultados para todo el país:
 
-### Gráfica 1.1. Resultados a nivel nacional.
+### Gráfica 1.1. Resultados a nivel nacional. Millones de personas.
 
 <img class="img-responsive" src="analisis-de-resultados-coneval-2014-para-coahuila/02-resultados-coneval-a-nivel-nacional.jpg" alt="Analisis Resultados CONEVAL 2014 a nivel nacional">
 

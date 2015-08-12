@@ -34,7 +34,7 @@ class AnalisisDeResultadosConeval2014ParaCoahuila extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Análisis de Resultados CONEVAL 2014 para Coahuila';
         $this->autor           = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha           = '2015-08-12T11:00';
+        $this->fecha           = '2015-08-12T11:30';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'analisis-de-resultados-coneval-2014-para-coahuila';
         $this->imagen          = 'analisis-de-resultados-coneval-2014-para-coahuila/imagen.jpg';
