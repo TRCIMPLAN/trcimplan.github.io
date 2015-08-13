@@ -55,7 +55,7 @@ Gracias a esto se dota a las ciudades de una diversidad de actividades y servici
 
 ### Referencias
 
-* El turismo urbano y la Cultura, La experiencia europea
+* El Turismo Urbano y la Cultura, la experiencia europea.
 * Organización Mundial del Turismo, Madrid, España.
-* Una aproximación al turismo urbano. El valor de la ciudad empaquetada en el caso de Valencia. Pau Rausell Köster
-* http://www.eloriente.net/home/2013/12/27/10-de-los-festivales-mas-importantes-en-mexico-te-esperan-en-2014/
+* Una Aproximación al Turismo Urbano. El valor de la ciudad empaquetada en el caso de Valencia. Pau Rausell Köster.
+* [10 de los festivales más importantes en México](http://www.eloriente.net/home/2013/12/27/10-de-los-festivales-mas-importantes-en-mexico-te-esperan-en-2014/).
