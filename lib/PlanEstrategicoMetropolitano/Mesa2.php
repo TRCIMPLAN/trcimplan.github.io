@@ -37,8 +37,8 @@ class Mesa2 extends \Base\Publicacion {
         $this->fecha           = '2014-10-30T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'mesa-2';
-        $this->imagen          = 'introduccion/imagen.jpg';
-        $this->imagen_previa   = 'introduccion/imagen-previa.jpg';
+        $this->imagen          = 'mesa-2/imagen.jpg';
+        $this->imagen_previa   = 'mesa-2/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Segunda mesa del Plan Estratégico Metropolitano.';
         $this->claves          = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';

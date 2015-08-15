@@ -34,7 +34,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'Proyectos';
         // Los siguientes parámetros dan datos para el índice/galería que será creado
-        $this->titulo                   = 'Proyectos';
+        $this->titulo                   = 'Proyectos Estratégicos';
         $this->descripcion              = 'Información y seguimiento de los Proyectos Estratégicos del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Banco, Municipal, Proyectos, Estrategicos';
         $this->encabezado_color         = '#5A1E81';

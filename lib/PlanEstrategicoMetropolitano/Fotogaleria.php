@@ -37,8 +37,8 @@ class Fotogaleria extends \Base\Publicacion {
         $this->fecha           = '2015-04-10T18:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'fotogaleria';
-        $this->imagen          = 'introduccion/imagen.jpg';
-        $this->imagen_previa   = 'introduccion/imagen-previa.jpg';
+        $this->imagen          = 'fotogaleria/imagen.jpg';
+        $this->imagen_previa   = 'fotogaleria/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Presentación con las fotografías de las mesas del Plan Estratégico Metropolitano.';
         $this->claves          = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
