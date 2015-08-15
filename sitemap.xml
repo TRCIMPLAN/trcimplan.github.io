@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-08-13</lastmod>
+    <lastmod>2015-08-14</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/plan-estrategico-metropolitano/mesa-movilidad-no-motorizada.html</loc>
+    <lastmod>2015-08-14</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/turismo-urbano-como-motor-en-las-ciudades.html</loc>

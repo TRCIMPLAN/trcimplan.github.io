@@ -1,6 +1,6 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - Plan Estratégico Metropolitano Imprenta
+ * TrcIMPLAN - Plan Estratégico Metropolitano Imprenta
  *
  * Copyright (C) 2014 IMPLAN Torreón
  *
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLAN
  */
 
-// Namespace
 namespace PlanEstrategicoMetropolitano;
 
 /**
@@ -31,15 +31,20 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
+        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'PlanEstrategicoMetropolitano';
+        // Los siguientes parámetros dan datos para el índice/galería que será creado
         $this->titulo                   = 'Plan Estratégico Metropolitano';
         $this->descripcion              = 'El Plan Estratégico Metropolitano es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
         $this->claves                   = 'IMPLAN, Torreon, Plan, Estratégico, Metropolitano';
+        $this->encabezado_color         = '#DF9C0A';
+        // Etiqueta de Navegación a poner activa
+        $this->nombre_menu              = 'Plan Estratégico Metropolitano';
+        // Clase que concentrará a las publicaciones para hacer su propia página
+        $this->concentrador             = 'Tarjetas'; // Puede ser Indice (por defecto), Galeria o Tarjetas
+        // La ruta al archivo con el índice/galería/tarjetas que será creado
         $this->directorio               = 'plan-estrategico-metropolitano';
         $this->archivo_ruta             = 'plan-estrategico-metropolitano/index.html';
-        $this->nombre_menu              = 'Plan Estratégico Metropolitano';
-        $this->encabezado_color         = '#DF9C0A';
-        $this->encabezado_icono         = \Configuracion\NavegacionConfig::$iconos['Plan Estratégico Metropolitano'];
     } // constructor
 
 } // Clase Imprenta
