@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN - Plan Estratégico Metropolitano Mesa 3 Estrategias y Proyectos
+/**
+ * TrcIMPLAN - Mesa Salud Laguna
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2015 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,25 +23,25 @@
 namespace PlanEstrategicoMetropolitano;
 
 /**
- * Clase Mesa3
+ * Clase MesaSaludLaguna
  */
-class Mesa3 extends \Base\Publicacion {
+class MesaSaludLaguna extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'M3 Estrategias y Proyectos';
+        $this->nombre          = 'Mesa Salud Laguna';
         $this->autor           = 'Dirección de Proyectos Estratégicos';
-        $this->fecha           = '2014-11-27T08:00';
+        $this->fecha           = '2015-08-15T11:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'mesa-3';
-        $this->imagen          = 'introduccion/imagen.jpg';
-        $this->imagen_previa   = 'introduccion/imagen-previa.jpg';
+        $this->archivo         = 'mesa-salud-laguna';
+        $this->imagen          = 'mesa-salud-laguna/imagen.jpg';
+        $this->imagen_previa   = 'mesa-salud-laguna/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Tercera mesa del Plan Estratégico Metropolitano.';
-        $this->claves          = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
+        $this->descripcion     = 'Mesa lidereada por Salud Laguna donde participaron médicos y directivos de las empresas del sector salud de la ZML.';
+        $this->claves          = 'IMPLAN, Torreon, Salud, Medicos, Laguna';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'plan-estrategico-metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,10 +61,10 @@ class Mesa3 extends \Base\Publicacion {
         // El contenido es una instancia de SchemaArticle
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/PlanEstrategicoMetropolitano/Mesa3.html';
+        $this->contenido_archivo_html = 'lib/PlanEstrategicoMetropolitano/MesaSaludLaguna.html';
         // Para el Organizador
-        $this->categorias      = array('Bienestar', 'Competitividad', 'Gobierno', 'Infraestructura', 'Movilidad', 'Participación Ciudadana', 'Recursos Naturales', 'Seguridad');
-        $this->fuentes         = array();
+        $this->categorias      = array('Competitividad', 'Salud');
+        $this->fuentes         = array('IMPLAN', 'INEGI');
         $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
@@ -74,39 +74,33 @@ class Mesa3 extends \Base\Publicacion {
      * @return string No hay código Javascript, entrega un texto vacío
      */
     public function javascript() {
-        $this->javascript[]     = '<script type="text/javascript" src="../js/jssor.slider.min.js"></script>';
-        $this->javascript[]     = <<<FINAL
-<script>
-  // Photo slider
-  jQuery(document).ready(function ($) {
-    var options = {
-        \$AutoPlay: true,
-        \$ChanceToShow: 5,
-        \$DragOrientation: 1
-    };
-    var jssor_slider1 = new \$JssorSlider\$("slider1_container", options);
-    // responsive code begin
-    function ScaleSlider() {
-        var parentWidth = $('#slider1_container').parent().width();
-        if (parentWidth) {
-            jssor_slider1.\$ScaleWidth(parentWidth);
-        }
-        else
-            window.setTimeout(ScaleSlider, 30);
-    }
-    // Scale slider after document ready
-    ScaleSlider();
-    // Scale slider while window load/resize/orientationchange.
-    $(window).bind("load", ScaleSlider);
-    $(window).bind("resize", ScaleSlider);
-    $(window).bind("orientationchange", ScaleSlider);
-    // responsive code end
-  });
-</script>
-FINAL;
+        // Cargar archivo externo
+        $this->javascript = $this->cargar_archivo('lib/PlanEstrategicoMetropolitano/MesaSaludLaguna.js');
+        // Entregar resultado del padre
         return parent::javascript();
     } // javascript
 
-} // Clase Mesa3
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Contenido especial para redifusión
+        $this->redifusion = <<<FINAL
+<!-- Mostrar la primer imagen de la presentación como vínculo a la página -->
+<a href="{$this->archivo}.html"><img src="mesa-salud-laguna/pmsl-01.jpg"></a>
+<p>{$this->descripcion}</p>
+
+<!-- Se invita a descargar el archivo PDF -->
+<h3>Descargar</h3>
+<p><a href="mesa-salud-laguna/presentacion-mesa-salud-laguna.pdf">De clic aquí para descargar la presentación como archivo PDF de 2.4 MB.</a></p>
+
+FINAL;
+        // Entregar resultado del padre
+        return parent::redifusion_html();
+    } // redifusion_html
+
+} // Clase MesaSaludLaguna
 
 ?>

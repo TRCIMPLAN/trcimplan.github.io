@@ -376,13 +376,9 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string Código HTML
      */
     public function html() {
-        // Prioridad para html
-        // 1) Si contenido es una instancia
-        // 2) Cargar archivo externo de contenido_archivo_markdown
-        // 3) Cargar archivo externo de contenido_archivo_html
-        // 4) Si contenido es un arreglo con textos
-        // 5) Si contenido es texto
-        if (is_object($this->contenido)) {
+        // Hay cinco posibles formas de elaborar el HTML
+        // 1) Propiedad contenido es una instancia Schema
+        if (is_object($this->contenido) && ($this->contenido instanceof SchemaThing)) {
             // Si está definido la carga de un archivo
             if ($this->contenido_archivo_markdown != '') {
                 $this->contenido->articleBody = $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
@@ -397,15 +393,18 @@ class Publicacion extends \Configuracion\PublicacionConfig {
                 $this->javascript = array($this->contenido->javascript());
             }
             return $html;
+        // 2) Cargar archivo externo de contenido_archivo_markdown
         } elseif ($this->contenido_archivo_markdown != '') {
             return $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
+        // 3) Cargar archivo externo de contenido_archivo_html
         } elseif ($this->contenido_archivo_html != '') {
             return $this->cargar_archivo($this->contenido_archivo_html);
+        // 4) Propiedad contenido es un arreglo con textos o instancias
         } elseif (is_array($this->contenido) && (count($this->contenido) > 1)) {
             $a = array();
             foreach ($this->contenido as $c) {
                 if (is_object($c)) {
-                    $html = $c->html();
+                    $a[] = $c->html();
                     if (is_array($this->javascript)) {
                         $this->javascript[] = $c->javascript();
                     } else {
@@ -416,6 +415,7 @@ class Publicacion extends \Configuracion\PublicacionConfig {
                 }
             }
             return implode("\n", $a);
+        // 5) Propiedad contenido es texto
         } elseif (is_string($this->contenido) && ($this->contenido != '')) {
             return $this->contenido;
         } else {
@@ -450,21 +450,22 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string Código HTML
      */
     public function redifusion_html() {
-        // Prioridad para redifusión
-        // 1) Valor de redifusion
-        // 2) Cargar archivo de contenido_archivo_markdown
-        // 3) Cargar archivo de contenido_archivo_html
-        // 4) Valor de contenido
+        // Hay seis formas de elaborar el HTML para redifusión
+        // 1) Propiedad redifusion es un arreglo con textos o instancias
         if (is_array($this->redifusion) && (count($this->redifusion) > 1)) {
             $a = array();
             foreach ($this->redifusion as $c) {
-                if ($c != '') {
+                if (is_object($c)) {
+                    $a[] = $c->html();
+                } elseif (is_string($c) && ($c != '')) {
                     $a[] = $c;
                 }
             }
             return implode("\n", $a);
+        // 2) Propiedad redifusion es texto
         } elseif (is_string($this->redifusion) && ($this->redifusion != '')) {
             return $this->redifusion;
+        // 3) Cargar archivo de contenido_archivo_markdown
         } elseif ($this->contenido_archivo_markdown != '') {
             $markdown = $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
             if ($this->poner_imagen_en_contenido && ($this->imagen != '')) {
@@ -472,12 +473,26 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             } else {
                 return $markdown;
             }
+        // 4) Cargar archivo de contenido_archivo_html
         } elseif ($this->contenido_archivo_html != '') {
+            $html = $this->cargar_archivo($this->contenido_archivo_html);
             if ($this->poner_imagen_en_contenido && ($this->imagen != '')) {
-                return "<img src=\"{$this->imagen}\"><br>\n\n{$this->contenido_archivo_html}";
+                return "<img src=\"{$this->imagen}\"><br>\n\n{$html}";
             } else {
-                return $this->contenido_archivo_html;
+                return $html;
             }
+        // 5) Propiedad contenido es un arreglo con textos o instancias
+        } elseif (is_array($this->contenido) && (count($this->contenido) > 1)) {
+            $a = array();
+            foreach ($this->contenido as $c) {
+                if (is_object($c)) {
+                    $a[] = $c->html();
+                } elseif (is_string($c) && ($c != '')) {
+                    $a[] = $c;
+                }
+            }
+            return implode("\n", $a);
+        // 6) Propiedad contenido es texto
         } elseif (is_string($this->contenido) && ($this->contenido != '')) {
             return $this->contenido;
         } else {

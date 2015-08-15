@@ -34,7 +34,7 @@ class MesaMovilidadNoMotorizada extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Mesa de Movilidad No Motorizada';
         $this->autor           = 'Dirección de Proyectos Estratégicos';
-        $this->fecha           = '2015-08-14T23:20';
+        $this->fecha           = '2015-08-15T10:30';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'mesa-movilidad-no-motorizada';
         $this->imagen          = 'mesa-movilidad-no-motorizada/imagen.jpg';
@@ -45,7 +45,7 @@ class MesaMovilidadNoMotorizada extends \Base\Publicacion {
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'plan-estrategico-metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Plan Estratégico Metropolitano';
+        $this->nombre_menu     = 'Plan Estratégico Metropolitano > Todas las Mesas';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
         // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
@@ -79,6 +79,27 @@ class MesaMovilidadNoMotorizada extends \Base\Publicacion {
         // Entregar resultado del padre
         return parent::javascript();
     } // javascript
+
+    /**
+     * Redifusion HTML
+     *
+     * @return string Código HTML
+     */
+    public function redifusion_html() {
+        // Contenido especial para redifusión
+        $this->redifusion = <<<FINAL
+<!-- Mostrar la primer imagen de la presentación como vínculo a la página -->
+<a href="{$this->archivo}.html"><img src="mesa-movilidad-no-motorizada/ppmnm-01.jpg"></a>
+<p>{$this->descripcion}</p>
+
+<!-- Se invita a descargar el archivo PDF -->
+<h3>Descargar</h3>
+<p><a href="mesa-movilidad-no-motorizada/plan-movilidad-no-motorizada-torreon.pdf">De clic aquí para descargar la presentación como archivo PDF de 3.1 MB.</a></p>
+
+FINAL;
+        // Entregar resultado del padre
+        return parent::redifusion_html();
+    } // redifusion_html
 
 } // Clase MesaMovilidadNoMotorizada
 
