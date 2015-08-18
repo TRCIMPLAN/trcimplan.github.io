@@ -34,7 +34,7 @@ class MesaMovilidadNoMotorizada extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Mesa de Movilidad No Motorizada';
         $this->autor           = 'Dirección de Proyectos Estratégicos';
-        $this->fecha           = '2015-08-15T10:30';
+        $this->fecha           = '2015-08-18T16:15';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'mesa-movilidad-no-motorizada';
         $this->imagen          = 'mesa-movilidad-no-motorizada/imagen.jpg';
