@@ -1,7 +1,7 @@
 
 ### ¿Qué es la Ciencia de Datos?
 
-De inicio, debemos partir de que la **Ciencia** se define como un **conjunto ordenado de conocimientos estructurados sistemáticamente.** Y que este conocimiento se obtiene mediante el **método científico,** cuyos pasos básicos son la observación, hipótesis, experimentación y teoría. El término de **“Ciencia de Datos”** no es por sí sola una de las grandes ciencias (como matemáticas o biología). Dicho de una manera fría, con dicho nombre se pretende abarcar a un conjunto de herramientas (basadas en la ciencia) y habilidades (humanas e informáticas) con un nombre muy atractivo.
+De inicio, debemos partir de que la **Ciencia** se define como un **conjunto ordenado de conocimientos estructurados sistemáticamente.** Y que este conocimiento se obtiene mediante el **método científico,** cuyos pasos básicos son la observación, hipótesis, experimentación y teoría. El término de **“Ciencia de Datos”** no es por sí sola una de las grandes ciencias (como matemáticas o biología); dicho de una manera fría, se pretende abarcar a un conjunto de herramientas (basadas en la ciencia) y habilidades (humanas e informáticas) con un nombre muy atractivo.
 
 La **Ciencia de Datos** _(Data Science)_ es la **extracción de conocimiento a partir de grandes volúmenes de información estructurada o no estructurada.** Es el proceso que sigue a la “Minería de Datos” (que es la recolección y ordenación de los datos).
 
