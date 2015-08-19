@@ -7,12 +7,6 @@ Para integrar al **Clúster Salud en La Laguna,** se ha convocado a hospitales y
 
 Esta iniciativa se desprende del **Plan Estratégico Metropolitano** y tiene como estrategias: conformar un **Comité Técnico** así como un **Consejo Regulador** del Clúster Salud Laguna, que dé seguimiento al diseño de planes, programas y políticas de acción en este sector.
 
-Algunos indicadores importantes en el área de salud en la Zona Metropolitana de La Laguna, son los siguientes:
-
-* En **2014** se contabilizan **3.4 médicos en contacto con pacientes por cada 10 mil habitantes en La Laguna.**
-* En Torreón se tienen registrados **2.1 por cada 10 mil habitantes.**
-* La **media nacional es de 8.3 médicos por cada 10 mil habitantes** y en Cd. Victoria la media es de 24.5 médicos.
-
 Parte de los temas que se abordarán en el Taller de Planeación son:
 
 * Vocación de la región en Servicios Médicos

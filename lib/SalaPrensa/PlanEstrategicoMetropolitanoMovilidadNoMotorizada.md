@@ -25,8 +25,6 @@ De este análisis han surgido importantes líneas de acción para incentivar a u
 * Crear un sistema de Transporte Multi Modal
 * Calles completas
 
-Las estadísticas señalan que la **población actual** en la Zona Metropolitana de La Laguna es de **638 mil 914 habitantes** y que para el **2030** se elevaría a **798 mil 014 habitantes.** Existen **226 vehículos por cada mil habitantes,** lo que conllevaría a que en **2030** crezca a **501 vehículos por cada mil habitantes.** Es decir **uno de cada dos torreonenses utilizaría el automóvil.**
-
 Como respuesta a esta situación, el **Plan de Movilidad No Motorizada** tiene el objetivo de “Desarrollar un sistema de movilidad urbana que empodere e integre a los modos no motorizados de transporte en la movilidad cotidiana, contribuyendo en el desarrollo de una ciudad accesible, compacta y sustentable a través de acciones en infraestructura, normatividad, programas de fomento, educación y seguridad vial”.
 
 ### Fotografías del evento
