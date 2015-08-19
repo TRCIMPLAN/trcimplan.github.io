@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-08-18</lastmod>
+    <lastmod>2015-08-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -18,6 +18,16 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/plan-estrategico-metropolitano/mesa-salud-laguna.html</loc>
     <lastmod>2015-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2015-08-14-plan-estrategico-metropolitano-salud-laguna.html</loc>
+    <lastmod>2015-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2015-08-13-plan-estrategico-metropolitano-movilidad-no-motorizada.html</loc>
+    <lastmod>2015-08-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

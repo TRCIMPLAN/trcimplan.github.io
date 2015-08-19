@@ -169,12 +169,12 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $analisis                   = new \Blog\Imprenta();
         $resumenes                  = $analisis->elaborar_resumenes(); // Entrega una instancia de \Base\Resumenes
         $resumenes->en_raiz         = true;
-        $resumenes->cantidad_maxima = 4;
+        $resumenes->cantidad_maxima = 3;
         // Obtener el último de Sala de Prensa
         $sala_prensa                            = new \SalaPrensa\Imprenta();
         $resumenes_sala_prensa                  = $sala_prensa->elaborar_resumenes(); // Entrega una instancia de \Base\Resumenes
         $resumenes_sala_prensa->en_raiz         = true;
-        $resumenes_sala_prensa->cantidad_maxima = 1;
+        $resumenes_sala_prensa->cantidad_maxima = 2;
         // Acumular sección novedades
         $this->contenido[]  = '  <section id="novedades">';
         $this->contenido[]  = '    <div class="row">';
