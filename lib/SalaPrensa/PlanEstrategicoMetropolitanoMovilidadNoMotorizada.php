@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Plan Estratégico Metropolitano Movilidad No Motorizada
+ * TrcIMPLAN - Sala de Prensa CLASE
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

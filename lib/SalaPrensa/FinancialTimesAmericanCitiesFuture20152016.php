@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - DESCRIPCION
+ * TrcIMPLAN - Sala de Prensa FinancialTimesAmericanCitiesFuture20152016
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLAN
  */
 
-// Namespace
 namespace SalaPrensa;
 
 /**
@@ -32,44 +32,40 @@ class FinancialTimesAmericanCitiesFuture20152016 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre           = 'Torreón 4to lugar en Costo Beneficio de inversión en Ranking del Financial Times "American Cities of the Future 2015-2016"';
-     // $this->autor            = 'Autor';
-        $this->fecha            = '2015-05-14T10:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo          = '2015-05-13-financial-times-american-cities-future-2015-2016';
-        $this->imagen           = '2015-05-13-financial-times-american-cities-future-2015-2016/imagen.png';
-        $this->imagen_previa    = '2015-05-13-financial-times-american-cities-future-2015-2016/imagen-previa.png';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion      = 'Torreón es la cuarta ciudad de América y la primera de México en mejor costo-beneficio al invertir.';
-        $this->claves           = 'IMPLAN, Torreon, Costo, Beneficio, Ranking, Finalcial, Times, American, Cities, Future';
-        $this->categorias       = array('Sala de Prensa');
+        $this->nombre          = 'Torreón 4to lugar en Costo Beneficio de inversión en Ranking del Financial Times \'American Cities of the Future 2015-2016\'';
+     // $this->autor           = 'Autor';
+        $this->fecha           = '2015-05-14T10:00';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
+        $this->archivo         = '2015-05-13-financial-times-american-cities-future-2015-2016';
+        $this->imagen          = '2015-05-13-financial-times-american-cities-future-2015-2016/imagen.png';
+        $this->imagen_previa   = '2015-05-13-financial-times-american-cities-future-2015-2016/imagen-previa.png';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion     = 'Torreón es la cuarta ciudad de América y la primera de México en mejor costo-beneficio al invertir';
+        $this->claves          = 'IMPLAN, Torreon, Costo, Beneficio, Ranking, Finalcial, Times, American, Cities, Future';
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio       = 'sala-prensa';
+        $this->directorio      = 'sala-prensa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu      = 'Comunicados > Sala de Prensa';
+        $this->nombre_menu     = 'Sala de Prensa';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->estado          = 'publicar';
+        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
+        // $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
-        $schema                 = new \Base\SchemaBlogPosting();
-        $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen;
-     // $schema->image_show     = true; // Por defecto la imagen se agrega al principio del contenido
-        $schema->name           = $this->nombre;
-        $schema->author         = $this->autor;
-        $schema->datePublished  = $this->fecha;
-        $schema->articleBody    = $this->cargar_archivo_markdown_extra('lib/SalaPrensa/FinancialTimesAmericanCitiesFuture20152016.md');
+        $schema                = new \Base\SchemaBlogPosting();
+        $schema->name          = $this->nombre;
+        $schema->description   = $this->descripcion;
+        $schema->datePublished = $this->fecha;
+        $schema->image         = $this->imagen;
+        $schema->image_show    = $this->poner_imagen_en_contenido;
+        $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
-        $this->contenido        = $schema;
-        // Sin JavaScript
-        $this->javascript       = '';
-        // Para redifusión, si tiene la imagen, se pone la imagen y después el contenido
-        if ($this->imagen != '') {
-            $this->redifusion   = "<img src=\"{$this->imagen}\"><br>\n\n{$schema->articleBody}";
-        } else {
-            $this->redifusion   = $schema->articleBody;
-        }
+        $this->contenido       = $schema;
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/FinancialTimesAmericanCitiesFuture20152016.md';
+        // Para el Organizador
+        $this->categorias      = array('Competitividad');
+        $this->fuentes         = array();
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase FinancialTimesAmericanCitiesFuture20152016

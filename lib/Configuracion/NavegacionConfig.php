@@ -57,9 +57,7 @@ class NavegacionConfig {
             'Institucional > Información Financiera' => 'institucional/informacion-financiera.html',
             'Institucional > Transparencia'          => 'http://www.icai.org.mx/ipmn/dependencias/impyc'),
         'Consejo Directivo' => 'consejo-directivo/integrantes.html',
-        'Comunicados' => array(
-            'Comunicados > Eventos'        => 'eventos/index.html',
-            'Comunicados > Sala de Prensa' => 'sala-prensa/index.html'),
+        'Sala de Prensa'    => 'sala-prensa/index.html',
         'Preguntas Frecuentes' => 'preguntas-frecuentes/preguntas-frecuentes.html',
         'Términos de Uso' => array(
             'Términos de Uso > De la información'   => 'terminos/terminos-informacion.html',
@@ -90,13 +88,12 @@ class NavegacionConfig {
         'Institucional'                   => 'fa fa-building-o',
             'Transparencia'               => 'fa fa-external-link',
         'Consejo Directivo'               => 'fa fa-users',
-        'Comunicados'                     => 'fa fa-comments',
-            'Eventos'                     => 'fa fa-folder-o',
-            'Sala de Prensa'              => 'fa fa-folder-o',
+        'Sala de Prensa'                  => 'fa fa-comments',
+        'Preguntas Frecuentes'            => 'fa fa-question',
         'Términos de Uso'                 => 'fa fa-files-o',
         'Contacto'                        => 'fa fa-phone',
-            'Comentarios y Sugerencias'   => 'fa fa-external-link',
-            'Preguntas Frecuentes'        => 'fa fa-question');
+            'Medios de contacto'          => 'fa fa-phone',
+            'Comentarios y Sugerencias'   => 'fa fa-external-link');
     protected $buscador_html = <<<FINAL
           <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
             <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">

@@ -41,7 +41,6 @@ $clases = array(
     '\Blog\Imprenta',
     '\ConsejoDirectivo\Imprenta',
     '\Contacto\Imprenta',
-    '\Eventos\Imprenta',
     '\Institucional\Imprenta',
     '\PlanEstrategicoMetropolitano\Imprenta',
     '\PreguntasFrecuentes\Imprenta',
