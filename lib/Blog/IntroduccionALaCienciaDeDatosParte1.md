@@ -33,7 +33,9 @@ Como se ha de imaginar, especializarse en este trabajo requiere no sólo de cono
 
 ### Esto continuará... y no se detendrá
 
-Vivimos en la **era dorada de la información,** donde para nuestra fortuna, **aún hay muchos retos que resolver.** Y es **en este ramo** (mientras no construyan una computadora capaz de resolverlo todo) donde **encontraremos grandes cantidades de problemáticas a solucionar.** En una próxima entrega, se listarán algunas bases de datos que se pueden descargar y practicar con ellas.
+Vivimos en la **era dorada de la información,** donde para nuestra fortuna, **aún hay muchos retos que resolver.** Y es **en este ramo** (mientras no construyan una computadora capaz de resolverlo todo) donde **encontraremos grandes cantidades de problemáticas a solucionar.**
+
+En una próxima entrega, se listarán datos abiertos que se pueden descargar y practicar con éstos.
 
 ### Referencias
 

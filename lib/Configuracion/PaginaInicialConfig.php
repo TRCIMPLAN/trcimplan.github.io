@@ -54,8 +54,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         'Análisis Publicados'               => 'blog/index.html',
         'Indicadores'                       => 'indicadores-categorias/index.html',
         'Información Geográfica'            => 'sig-mapas-torreon/index.html',
-        'Plan Estratégico Metropolitano'    => 'plan-estrategico-metropolitano/introduccion.html',
-        'Banco de Proyectos'                => 'proyectos/banco-municipal-proyectos-inversion.html');
+        'Plan Estratégico Metropolitano'    => 'plan-estrategico-metropolitano/index.html',
+        'Proyectos Estratégicos'            => 'proyectos/index.html');
     public $mapa_institucional = array(
         'Visión / Misión'                   => 'institucional/vision-mision.html',
         'Mensaje del Director'              => 'institucional/mensaje-director.html',
@@ -141,12 +141,10 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $pem->name        = 'Plan Estratégico Metropolitano';
         $pem->description = 'Súmate al esfuerzo de planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad de La Laguna.';
         $pem->image       = 'servicio-pem';
-        $pem->url         = 'plan-estrategico-metropolitano/introduccion.html';
+        $pem->url         = 'plan-estrategico-metropolitano/index.html';
         $pem->botones     = array(
-            '<i class="fa fa-file-text-o"></i> Conoce el Plan'        => 'plan-estrategico-metropolitano/introduccion.html',
-            '<i class="fa fa-calendar"></i> Diagnóstico y Pronóstico' => 'plan-estrategico-metropolitano/mesa-1.html',
-            '<i class="fa fa-calendar"></i> Visión y Objetivos'       => 'plan-estrategico-metropolitano/mesa-2.html',
-            '<i class="fa fa-calendar"></i> Estrategias y Proyectos'  => 'plan-estrategico-metropolitano/mesa-3.html');
+            '<i class="fa fa-file-text-o"></i> Conoce el Plan' => 'plan-estrategico-metropolitano/introduccion.html',
+            '<i class="fa fa-calendar"></i> Todas las Mesas'   => 'plan-estrategico-metropolitano/index.html');
         // Acumular sección destacado
         $this->contenido[]  = '  <section id="destacado">';
         $this->contenido[]  = '    <div class="row">';
