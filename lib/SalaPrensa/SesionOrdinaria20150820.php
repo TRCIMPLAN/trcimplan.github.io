@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Sala de Prensa Mesa1DiagnosticoPronostico
+ * TrcIMPLAN - Sala Prensa Sesion Ordinaria 20150820
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,31 +23,33 @@
 namespace SalaPrensa;
 
 /**
- * Clase Mesa1DiagnosticoPronostico
+ * Clase SesionOrdinaria20150820
  */
-class Mesa1DiagnosticoPronostico extends \Base\Publicacion {
+class SesionOrdinaria20150820 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Plan Estratégico Metropolitano, Mesa 1: Diagnóstico - Pronóstico';
+        $this->nombre          = 'Quinta Sesión Ordinaria de Consejo';
      // $this->autor           = 'Autor';
-        $this->fecha           = '2014-10-16T08:00';
+        $this->fecha           = '2015-08-20T11:30';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2014-10-16-mesa-1-diagnostico-pronostico';
-        $this->imagen          = '2014-10-16-mesa-1-diagnostico-pronostico/imagen.jpg';
-        $this->imagen_previa   = '2014-10-16-mesa-1-diagnostico-pronostico/imagen-previa.jpg';
+        $this->archivo         = '2015-08-20-sesion-ordinaria';
+        $this->imagen          = '2015-08-20-sesion-ordinaria/imagen.jpg';
+        $this->imagen_previa   = '2015-08-20-sesion-ordinaria/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'El pasado 9 de octubre de 2014 comenzaron formalmente los trabajos para la construcción del Plan Estratégico Metropolitano, un esfuerzo coparticipativo para atender la necesidad urgente de elevar el nivel de competitividad para el desarrollo económico y social de la Zona Metropolitana de La Laguna.';
-        $this->claves          = 'IMPLAN, Torreon';
+        $this->descripcion     = 'Sesión del Consejo Directivo del IMPLAN Torreón, donde presentaron la propuesta para un nuevo ordenamiento de asentamientos humanos.';
+        $this->claves          = 'IMPLAN, Torreon, Sesion, Consejo Directivo, Reglamento, Asentamientos, Urbanos';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'sala-prensa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Sala de Prensa';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
+        $this->estado          = 'revisar';
+        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
+        $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;
@@ -59,13 +61,13 @@ class Mesa1DiagnosticoPronostico extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/SalaPrensa/Mesa1DiagnosticoPronostico.html';
+        $this->contenido_archivo_html = 'lib/SalaPrensa/SesionOrdinaria20150820.html';
         // Para el Organizador
-        $this->categorias      = array('Gobierno', 'Participación Ciudadana');
+        $this->categorias      = array('Gobierno');
         $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase Mesa1DiagnosticoPronostico
+} // Clase SesionOrdinaria20150820
 
 ?>

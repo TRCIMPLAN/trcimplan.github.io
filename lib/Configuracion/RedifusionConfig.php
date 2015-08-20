@@ -34,7 +34,7 @@ class RedifusionConfig {
     public $lenguaje          = 'es-MX';
     public $generator         = 'IMPLAN Torreón Sitio Web v2.0';
     public $webmaster_email   = 'webmaster@trcimplan.mx (Webmaster)';
-    public $elementos_max     = 12;
+    public $elementos_max     = 8;
     public $archivo           = 'rss.xml';
     public $usar_descripcion  = false; // Si es falso, usará el contenido
 
