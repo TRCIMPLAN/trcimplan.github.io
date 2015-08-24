@@ -35,14 +35,13 @@ class DoingBusinessTorreon extends \Base\Publicacion {
         $this->nombre          = 'Doing Business en Torreón';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2014-05-29T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'doing-business-torreon';
         $this->imagen          = 'doing-business-torreon/imagen.jpg';
         $this->imagen_previa   = 'doing-business-torreon/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Este índice sirve para señalar en cual ciudad es más fácil hacer negaocios. En 2007, el municipio de Torreón ocupó el lugar 13 de 32 ciudades evaluadas.';
         $this->claves          = 'IMPLAN, Torreon, Doing Business';
-        $this->categorias      = array('Competitividad', 'Empresas', 'Doing Business');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class DoingBusinessTorreon extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/DoingBusinessTorreon.html';
+        // Para el Organizador
+        $this->categorias      = array('Competitividad', 'Empresas', 'Doing Business');
+        $this->fuentes         = array('Doing Business');
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase DoingBusinessTorreon

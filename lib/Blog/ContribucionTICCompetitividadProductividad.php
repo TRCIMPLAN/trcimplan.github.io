@@ -60,9 +60,9 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/ContribucionTICCompetitividadProductividad.html';
         // Para el Organizador
-        $this->categorias      = array('Competitividad', 'Innovación', 'Empleo');
+        $this->categorias      = array('Competitividad', 'Innovación', 'Empleo', 'Educación');
         $this->fuentes         = array('IMCO');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones        = array('Nacional');
     } // constructor
 
 } // Clase ContribucionTICCompetitividadProductividad

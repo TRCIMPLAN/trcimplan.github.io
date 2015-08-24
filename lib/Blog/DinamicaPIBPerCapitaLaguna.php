@@ -35,14 +35,13 @@ class DinamicaPIBPerCapitaLaguna extends \Base\Publicacion {
         $this->nombre          = 'Dinámica del PIB per cápita de La Laguna (IRAEs Banamex 2011,2014)';
         $this->autor           = 'Lic. Eduardo Holguín Zehfuss';
         $this->fecha           = '2014-09-26T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'dinamica-pib-per-capita-laguna';
         $this->imagen          = 'dinamica-pib-per-capita-laguna/imagen.jpg';
         $this->imagen_previa   = 'dinamica-pib-per-capita-laguna/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Entre los indicadores Banamex de 2011 y 2014 el PIB per cápita de La Laguna creció 22.82%.';
         $this->claves          = 'IMPLAN, Torreon, PIB, Laguna';
-        $this->categorias      = array('Empresas', 'Macroeconomía');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -59,7 +58,11 @@ class DinamicaPIBPerCapitaLaguna extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/Blog/DatosAbiertosGobiernosMunicipales.html';
+        $this->contenido_archivo_html = 'lib/Blog/DinamicaPIBPerCapitaLaguna.html';
+        // Para el Organizador
+        $this->categorias      = array('Empresas', 'Macroeconomía');
+        $this->fuentes         = array();
+        $this->regiones        = array('La Laguna');
     } // constructor
 
 } // Clase DinamicaPIBPerCapitaLaguna

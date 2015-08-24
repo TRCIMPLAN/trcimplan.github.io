@@ -35,14 +35,13 @@ class EfectosInformalidadPoliticasPrevenirla extends \Base\Publicacion {
         $this->nombre          = 'Efectos de la informalidad y políticas para prevenirla';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2015-03-10T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'efectos-informalidad-politicas-prevenirla';
         $this->imagen          = 'efectos-informalidad-politicas-prevenirla/imagen.jpg';
         $this->imagen_previa   = 'efectos-informalidad-politicas-prevenirla/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La informalidad tiene repercusiones directas sobre la competitividad y el crecimiento económico. Es cierto que ocupa a población desempleada en el sector formal y sus insumos e inversión apoyan a la economía, sin embargo es mayor el daño generado en el crecimiento a largo plazo.';
         $this->claves          = 'IMPLAN, Torreon, Informalidad, Crecimiento Económico, Desempleo';
-        $this->categorias      = array('Empleo');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class EfectosInformalidadPoliticasPrevenirla extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/EfectosInformalidadPoliticasPrevenirla.md';
+        // Para el Organizador
+        $this->categorias      = array('Empleo');
+        $this->fuentes         = array('Organización para la Cooperación y Desarrollo Económicos (OCDE)');
+        $this->regiones        = array('Torreón', 'La Laguna', 'Nacional');
     } // constructor
 
 } // Clase EfectosInformalidadPoliticasPrevenirla

@@ -60,9 +60,9 @@ class CompetitividadPlaneacionMetropolitana extends \Base\Publicacion {
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/CompetitividadPlaneacionMetropolitana.html';
         // Para el Organizador
-        $this->categorias      = array('Competitividad', 'Recursos Naturales', 'Cultura', 'Bienestar');
+        $this->categorias      = array('Bienestar', 'Competitividad', 'Cultura', 'Gobierno', 'Recursos Naturales');
         $this->fuentes         = array('IMCO');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones        = array('La Laguna');
     } // constructor
 
 } // Clase CompetitividadPlaneacionMetropolitana

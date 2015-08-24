@@ -35,14 +35,13 @@ class GobiernosEficacesEficientes extends \Base\Publicacion {
         $this->nombre          = 'Gobiernos eficaces y eficientes';
         $this->autor           = 'Lic. Rodrigo González Morales';
         $this->fecha           = '2014-06-12T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'gobiernos-eficaces-eficientes';
         $this->imagen          = 'gobiernos-eficaces-eficientes/imagen.jpg';
         $this->imagen_previa   = 'gobiernos-eficaces-eficientes/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La eficiencia de los gobiernos es el subíndice peor evaluado para la metrópoli ubicándonos en el lugar 63 de 77.';
         $this->claves          = 'IMPLAN, Torreon, Gobierno, Eficiente, Doing Business';
-        $this->categorias      = array('Gobierno', 'Doing Business', 'Competitividad');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class GobiernosEficacesEficientes extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/GobiernosEficacesEficientes.html';
+        // Para el Organizador
+        $this->categorias      = array('Gobierno', 'Doing Business', 'Competitividad');
+        $this->fuentes         = array('IMCO');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase GobiernosEficacesEficientes

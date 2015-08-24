@@ -62,7 +62,7 @@ class ComercioAlPorMenorAlternativaCrecimientoEconomico extends \Base\Publicacio
         // Para el Organizador
         $this->categorias      = array('Empresas', 'Empleo');
         $this->fuentes         = array('INEGI');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones        = array('La Laguna');
     } // constructor
 
 } // Clase ComercioAlPorMenorAlternativaCrecimientoEconomico

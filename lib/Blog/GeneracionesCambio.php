@@ -42,7 +42,6 @@ class GeneracionesCambio extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion     = 'Los universitarios están involucrados con su sociedad, con las características de nuestra ciudad y sus necesidades, ya son parte de un entorno que si bien no es el mejor, están conscientes que se puede mejorar.';
         $this->claves          = 'IMPLAN, Torreon, Universidades, Generación, Cambio';
-        $this->categorias      = array('Bienestar');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -62,6 +61,10 @@ class GeneracionesCambio extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/GeneracionesCambio.md';
+        // Para el Organizador
+        $this->categorias      = array('Bienestar');
+        $this->fuentes         = array();
+        $this->regiones        = array();
     } // constructor
 
 } // Clase GeneracionesCambio

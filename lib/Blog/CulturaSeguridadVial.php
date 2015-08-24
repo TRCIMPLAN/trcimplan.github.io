@@ -60,9 +60,9 @@ class CulturaSeguridadVial extends \Base\Publicacion {
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/CulturaSeguridadVial.html';
         // Para el Organizador
-        $this->categorias      = array('Transporte', 'Movilidad', 'Vialidad');
+        $this->categorias      = array('Transporte', 'Movilidad', 'Seguridad', 'Vialidad');
         $this->fuentes         = array('INEGI');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones        = array('La Laguna');
     } // constructor
 
 } // Clase CulturaSeguridadVial

@@ -35,14 +35,13 @@ class HaciaDondeDebeDirigirseTorreon extends \Base\Publicacion {
         $this->nombre          = 'Hacia dónde debe dirigirse Torreón';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2014-04-16T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'hacia-donde-debe-dirigirse-torreon';
         $this->imagen          = 'hacia-donde-debe-dirigirse-torreon/imagen.jpg';
         $this->imagen_previa   = 'hacia-donde-debe-dirigirse-torreon/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = '¿En realidad generan más valor las actividades tecnológicas y de servicios?';
         $this->claves          = 'IMPLAN, Torreon, Actividades, Tecnológicas, Servicios';
-        $this->categorias      = array('Empleo', 'Empresas');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class HaciaDondeDebeDirigirseTorreon extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/HaciaDondeDebeDirigirseTorreon.html';
+        // Para el Organizador
+        $this->categorias      = array('Empleo', 'Empresas');
+        $this->fuentes         = array('INEGI', 'Organización para la Cooperación y Desarrollo Económicos (OCDE)');
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase HaciaDondeDebeDirigirseTorreon

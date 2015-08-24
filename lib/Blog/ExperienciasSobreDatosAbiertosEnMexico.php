@@ -35,14 +35,13 @@ class ExperienciasSobreDatosAbiertosEnMexico extends \Base\Publicacion {
         $this->nombre          = 'Experiencias sobre Datos Abiertos en México';
         $this->autor           = 'Ing. Guillermo Valdés Lozano';
         $this->fecha           = '2015-06-03T14:25';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'experiencias-sobre-datos-abiertos-en-mexico';
         $this->imagen          = 'experiencias-sobre-datos-abiertos-en-mexico/imagen.jpg';
         $this->imagen_previa   = 'experiencias-sobre-datos-abiertos-en-mexico/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Representantes del gobierno del estado de Puebla y del municipio de Xalapa, Veracruz compartieron sus experiencias en materia de Datos Abiertos.';
         $this->claves          = 'IMPLAN, Datos Abiertos, Mexico, Puebla, Xalapa, Veracruz, Red Mexico Abierto, Estrategia Digital Nacional';
-        $this->categorias      = array('Gobierno Digital', 'Innovación', 'Transparencia');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class ExperienciasSobreDatosAbiertosEnMexico extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/ExperienciasSobreDatosAbiertosEnMexico.md';
+        // Para el Organizador
+        $this->categorias      = array('Gobierno Digital', 'Innovación', 'Transparencia');
+        $this->fuentes         = array('Gobierno de la República');
+        $this->regiones        = array('Nacional');
     } // constructor
 
 } // Clase ExperienciasSobreDatosAbiertosEnMexico

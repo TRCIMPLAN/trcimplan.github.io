@@ -35,14 +35,13 @@ class EquidadEconomicaTorreon extends \Base\Publicacion {
         $this->nombre          = 'Equidad Económica en Torreón';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2014-04-03T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'equidad-economica-torreon';
         $this->imagen          = 'equidad-economica-torreon/imagen.jpg';
         $this->imagen_previa   = 'equidad-economica-torreon/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.';
         $this->claves          = 'IMPLAN, Torreon, Igualdad, Género, Gini, Distribución, Riqueza';
-        $this->categorias      = array('Macroeconomía', 'Grupos Vulnerables', 'Población');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class EquidadEconomicaTorreon extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/EquidadEconomicaTorreon.html';
+        // Para el Organizador
+        $this->categorias      = array('Macroeconomía', 'Grupos Vulnerables', 'Población');
+        $this->fuentes         = array('CONEVAL', 'INEGI');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase EquidadEconomicaTorreon

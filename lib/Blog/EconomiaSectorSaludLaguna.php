@@ -35,14 +35,13 @@ class EconomiaSectorSaludLaguna extends \Base\Publicacion {
         $this->nombre          = 'Economía del Sector Salud en La Laguna';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2014-10-07T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'economia-sector-salud-laguna';
         $this->imagen          = 'economia-sector-salud-laguna/imagen.jpg';
         $this->imagen_previa   = 'economia-sector-salud-laguna/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'El sector salud contribuye en la economía de La Laguna empleando a 8,584 locales en actividades que incluyen el cuidado y asistencia a enfermos en hospitales generales y servicios de orientación y trabajo social, entre otros.';
         $this->claves          = 'IMPLAN, Torreon, Salud';
-        $this->categorias      = array('Salud', 'Empleo', 'Empresas');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class EconomiaSectorSaludLaguna extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/EconomiaSectorSaludLaguna.html';
+        // Para el Organizador
+        $this->categorias      = array('Salud', 'Empleo', 'Empresas');
+        $this->fuentes         = array('INEGI', 'Organización para la Cooperación y Desarrollo Económicos (OCDE)');
+        $this->regiones        = array('Torreón', 'La Laguna', 'Nacional');
     } // constructor
 
 } // Clase EconomiaSectorSaludLaguna

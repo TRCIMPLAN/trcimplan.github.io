@@ -61,8 +61,8 @@ class CiudadAbiertaCiudadFraccionada extends \Base\Publicacion {
         $this->contenido_archivo_markdown = 'lib/Blog/CiudadAbiertaCiudadFraccionada.md';
         // Para el Organizador
         $this->categorias      = array('Infraestructura');
-        $this->fuentes         = array('IMPLAN');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->fuentes         = array();
+        $this->regiones        = array('Torreón', 'Gómez Palacio');
     } // constructor
 
 } // Clase CiudadAbiertaCiudadFraccionada

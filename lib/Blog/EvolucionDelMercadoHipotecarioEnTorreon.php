@@ -35,14 +35,13 @@ class EvolucionDelMercadoHipotecarioEnTorreon extends \Base\Publicacion {
         $this->nombre          = 'Evolución del Mercado Hipotecario en Torreón';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2015-06-24T14:10';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'evolucion-del-mercado-hipotecario-en-torreon';
         $this->imagen          = 'evolucion-del-mercado-hipotecario-en-torreon/imagen.jpg';
         $this->imagen_previa   = 'evolucion-del-mercado-hipotecario-en-torreon/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La vivienda es una buena parte de la inversión y puede ser el mayor componente de la riqueza. El buen funcionamiento del mercado inmobiliario es clave para la salud de la economía.';
         $this->claves          = 'IMPLAN, Torreon, Hipotecas, Economía, Inmuebles, Mercado, Cartera, Vencida';
-        $this->categorias      = array('Mercados');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class EvolucionDelMercadoHipotecarioEnTorreon extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/EvolucionDelMercadoHipotecarioEnTorreon.md';
+        // Para el Organizador
+        $this->categorias      = array('Mercados');
+        $this->fuentes         = array('Comisión Nacional Bancaria y de Valores (CNBV)');
+        $this->regiones        = array('Torreón', 'La Laguna', 'Nacional');
     } // constructor
 
 } // Clase EvolucionDelMercadoHipotecarioEnTorreon

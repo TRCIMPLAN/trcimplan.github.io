@@ -34,15 +34,14 @@ class GasShaleImpacto extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'El Gas Shale y su impacto';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
         $this->fecha           = '2014-08-01T08:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'gas-shale-impacto';
         $this->imagen          = 'gas-shale-impacto/imagen.jpg';
         $this->imagen_previa   = 'gas-shale-impacto/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La extracción del gas shale se contempla en el futuro cercano de México, pues además de contar con una de las reservas más grandes del mundo, ha contribuido positivamente en la economía de los países que lo utilizan.';
         $this->claves          = 'IMPLAN, Torreon, Gas Shale, Energía';
-        $this->categorias      = array('Innovación', 'Recursos Naturales', 'Empresas');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class GasShaleImpacto extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/GasShaleImpacto.html';
+        // Para el Organizador
+        $this->categorias      = array('Innovación', 'Recursos Naturales', 'Empresas');
+        $this->fuentes         = array();
+        $this->regiones        = array('Coahuila', 'Nacional');
     } // constructor
 
 } // Clase GasShaleImpacto

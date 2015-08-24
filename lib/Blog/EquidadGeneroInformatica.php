@@ -35,14 +35,13 @@ class EquidadGeneroInformatica extends \Base\Publicacion {
         $this->nombre          = 'Equidad de Género en Informática';
         $this->autor           = 'Ing. Guillermo Valdés Lozano';
         $this->fecha           = '2014-09-19T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'equidad-genero-informatica';
         $this->imagen          = 'equidad-genero-informatica/imagen.jpg';
         $this->imagen_previa   = 'equidad-genero-informatica/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Aunque vivimos el mejor momento de las Ciencias Computacionales, el género femenino tiene muy poca participación en el sector.';
         $this->claves          = 'IMPLAN, Torreon, Informática, Equidad, Género';
-        $this->categorias      = array('Género', 'Educación', 'Empleo');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -59,7 +58,11 @@ class EquidadGeneroInformatica extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/Blog/EquidadEconomicaTorreon.html';
+        $this->contenido_archivo_html = 'lib/Blog/EquidadGeneroInformatica.html';
+        // Para el Organizador
+        $this->categorias      = array('Género', 'Educación', 'Empleo');
+        $this->fuentes         = array('INEGI');
+        $this->regiones        = array();
     } // constructor
 
 } // Clase EquidadGeneroInformatica

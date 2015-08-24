@@ -35,14 +35,13 @@ class EconomiaEstable extends \Base\Publicacion {
         $this->nombre          = 'Economía Estable';
         $this->autor           = 'Lic. Rodrigo González Morales';
         $this->fecha           = '2014-06-24T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'economia-estable';
         $this->imagen          = 'economia-estable/imagen.jpg';
         $this->imagen_previa   = 'economia-estable/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Análisis de las variables macroeconómicas como crédito, mercado hipotecario, cartera vencida, PIB y desempleo.';
         $this->claves          = 'IMPLAN, Torreon, Macroeconomia, Credito, Mercado, Hipotecario, Cartera Vencida, PIB, Desempleo';
-        $this->categorias      = array('Macroeconomía', 'Empleo', 'Empresas');
         // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class EconomiaEstable extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/EconomiaEstable.html';
+        // Para el Organizador
+        $this->categorias      = array('Macroeconomía', 'Empleo', 'Empresas');
+        $this->fuentes         = array('Comisión Nacional Bancaria y de Valores (CNBV)', 'INEGI');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase EconomiaEstable

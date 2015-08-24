@@ -35,14 +35,13 @@ class EstabilidadDePreciosEnTorreon extends \Base\Publicacion {
         $this->nombre          = 'Estabilidad de Precios en Torreón';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2014-04-25T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'estabilidad-de-precios-en-torreon';
         $this->imagen          = 'estabilidad-de-precios-en-torreon/imagen.jpg';
         $this->imagen_previa   = 'estabilidad-de-precios-en-torreon/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'En términos generales la inflación de Torreón se encuentra estable, lo cual genera certidumbre tanto a planta productiva local como extranjera.';
         $this->claves          = 'IMPLAN, Torreon, Inflación, Productividad, Laboral';
-        $this->categorias      = array('Macroeconomía', 'Mercados');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class EstabilidadDePreciosEnTorreon extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/EstabilidadDePreciosEnTorreon.html';
+        // Para el Organizador
+        $this->categorias      = array('Competitividad', 'Macroeconomía', 'Mercados');
+        $this->fuentes         = array();
+        $this->regiones        = array('Torreón', 'Nacional');
     } // constructor
 
 } // Clase EstabilidadDePreciosEnTorreon

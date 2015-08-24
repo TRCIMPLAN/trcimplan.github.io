@@ -35,14 +35,13 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
         $this->nombre          = 'Datos Abiertos en los Gobiernos Municipales';
         $this->autor           = 'Ing. Guillermo Valdés Lozano';
         $this->fecha           = '2014-11-04T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'datos-abiertos-gobiernos-municipales';
         $this->imagen          = 'datos-abiertos-gobiernos-municipales/imagen.jpg';
         $this->imagen_previa   = 'datos-abiertos-gobiernos-municipales/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.';
         $this->claves          = 'IMPLAN, Torreon, Datos Abiertos, Gobierno Abierto';
-        $this->categorias      = array('Transparencia', 'Gobierno Digital');
         // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
         $this->directorio      = 'blog';
         $this->nombre_menu     = 'Análisis Publicados';
@@ -60,6 +59,10 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/DatosAbiertosGobiernosMunicipales.html';
+        // Para el Organizador
+        $this->categorias      = array('Transparencia', 'Gobierno Digital');
+        $this->fuentes         = array('Gobierno de la República');
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase DatosAbiertosGobiernosMunicipales

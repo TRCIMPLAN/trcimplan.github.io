@@ -35,14 +35,13 @@ class HaciaCiudadesQueConstruyenHumanosEnConvivencia extends \Base\Publicacion {
         $this->nombre          = 'Hacia Ciudades que Construyen Humanos en Convivencia';
         $this->autor           = 'Arq. Susana Montano';
         $this->fecha           = '2015-07-07T16:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'hacia-ciudades-que-construyen-humanos-en-convivencia';
         $this->imagen          = 'hacia-ciudades-que-construyen-humanos-en-convivencia/imagen.jpg';
         $this->imagen_previa   = 'hacia-ciudades-que-construyen-humanos-en-convivencia/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'El espacio público es donde se tejen las relaciones sociales, por lo tanto su conformación debe contribuir a desarrollar las capacidades humanas.';
         $this->claves          = 'IMPLAN, Torreon';
-        $this->categorias      = array('Infraestructura', 'Recursos Naturales');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class HaciaCiudadesQueConstruyenHumanosEnConvivencia extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/HaciaCiudadesQueConstruyenHumanosEnConvivencia.md';
+        // Para el Organizador
+        $this->categorias      = array('Bienestar', 'Infraestructura', 'Recursos Naturales');
+        $this->fuentes         = array();
+        $this->regiones        = array();
     } // constructor
 
 } // Clase HaciaCiudadesQueConstruyenHumanosEnConvivencia

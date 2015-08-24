@@ -62,7 +62,7 @@ class CiudadesRetoTransformacion extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias      = array('Infraestructura', 'Recursos Naturales', 'Bienestar');
         $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones        = array();
     } // constructor
 
 } // Clase CiudadesRetoTransformacion

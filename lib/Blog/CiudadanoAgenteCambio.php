@@ -62,7 +62,7 @@ class CiudadanoAgenteCambio extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias      = array('Infraestructura', 'Participación Ciudadana');
         $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones        = array('La Laguna');
     } // constructor
 
 } // Clase CiudadanoAgenteCambio

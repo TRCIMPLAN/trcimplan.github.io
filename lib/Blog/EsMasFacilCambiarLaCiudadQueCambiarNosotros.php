@@ -35,14 +35,13 @@ class EsMasFacilCambiarLaCiudadQueCambiarNosotros extends \Base\Publicacion {
         $this->nombre          = 'Es más fácil cambiar la ciudad que cambiar nosotros';
         $this->autor           = 'Arq. Ilse Ávila García';
         $this->fecha           = '2015-07-28T09:30';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'es-mas-facil-cambiar-la-ciudad-que-cambiar-nosotros';
         $this->imagen          = 'es-mas-facil-cambiar-la-ciudad-que-cambiar-nosotros/imagen.jpg';
         $this->imagen_previa   = 'es-mas-facil-cambiar-la-ciudad-que-cambiar-nosotros/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Debemos de tomar acciones que nos lleven a revalorizar nuestro centro histórico, donde está la historia del nacimiento de nuestra ciudad.';
         $this->claves          = 'IMPLAN, Torreon, Patrimonio, Historico, Edificios, Cultura';
-        $this->categorias      = array('Cultura', 'Infraestructura');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class EsMasFacilCambiarLaCiudadQueCambiarNosotros extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/EsMasFacilCambiarLaCiudadQueCambiarNosotros.md';
+        // Para el Organizador
+        $this->categorias      = array('Cultura', 'Infraestructura');
+        $this->fuentes         = array('Instituto Nacional de Antropología e Historia (INAH)', 'Instituto Nacional de Bellas Artes (INBA)');
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase EsMasFacilCambiarLaCiudadQueCambiarNosotros

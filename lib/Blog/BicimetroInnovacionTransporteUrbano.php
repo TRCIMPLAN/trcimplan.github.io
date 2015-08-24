@@ -62,7 +62,7 @@ class BicimetroInnovacionTransporteUrbano extends \Base\Publicacion {
         // Para el Organizador
         $this->categorias      = array('Transporte', 'Movilidad', 'Infraestructura');
         $this->fuentes         = array('Instituto Tecnológico de Massachussets (MIT)');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->regiones        = array();
     } // constructor
 
 } // Clase BicimetroInnovacionTransporteUrbano
