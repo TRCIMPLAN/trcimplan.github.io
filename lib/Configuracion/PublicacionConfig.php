@@ -37,6 +37,7 @@ class PublicacionConfig {
     public $icono                     = '';                              // Nombre del icono Font Awsome
     public $region_nivel              = 0;                               // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región
     public $estado                    = 'publicar';                      // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
+    public $include_extra_directorio  = 'include/extra';                 // Ruta donde habrá archivos HTML para cargar como el extra de SchemaThing
 
 } // Clase PublicacionConfig
 

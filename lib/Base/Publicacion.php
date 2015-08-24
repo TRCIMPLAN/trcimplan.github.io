@@ -385,6 +385,11 @@ class Publicacion extends \Configuracion\PublicacionConfig {
             } elseif ($this->contenido_archivo_html != '') {
                 $this->contenido->articleBody = $this->cargar_archivo($this->contenido_archivo_html);
             }
+            // Si existe un archivo HTML para cargar como el extra de SchemaThing
+            $extra_archivo_html = sprintf('%s/%s/%s.html', $this->include_extra_directorio, $this->directorio, $this->archivo);
+            if (file_exists($extra_archivo_html)) {
+                $this->contenido->extra = $this->cargar_archivo($extra_archivo_html);
+            }
             // Generar HTML y acumular Javascript
             $html = $this->contenido->html();
             if (is_array($this->javascript)) {

@@ -62,8 +62,8 @@ class IntroduccionALaCienciaDeDatosParte1 extends \Base\Publicacion {
         $this->contenido_archivo_markdown = 'lib/Blog/IntroduccionALaCienciaDeDatosParte1.md';
         // Para el Organizador
         $this->categorias      = array('Gobierno Digital', 'Innovación', 'Participación Ciudadana');
-        $this->fuentes         = array('IMPLAN');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->fuentes         = array();
+        $this->regiones        = array();
     } // constructor
 
 } // Clase IntroduccionALaCienciaDeDatosParte1

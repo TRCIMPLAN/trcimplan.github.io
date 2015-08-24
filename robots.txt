@@ -1,4 +1,5 @@
 User-Agent: *
 Disallow: /bin/
 Disallow: /buscador-resultados.html
+Disallow: /include/
 Disallow: /lib/
