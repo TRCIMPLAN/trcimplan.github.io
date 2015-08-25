@@ -42,8 +42,9 @@ class EquidadEconomicaTorreon extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social.';
         $this->claves          = 'IMPLAN, Torreon, Igualdad, Género, Gini, Distribución, Riqueza';
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

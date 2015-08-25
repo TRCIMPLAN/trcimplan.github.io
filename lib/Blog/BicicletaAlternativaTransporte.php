@@ -35,7 +35,7 @@ class BicicletaAlternativaTransporte extends \Base\Publicacion {
         $this->nombre          = 'La Bicicleta como alternativa de transporte';
         $this->autor           = 'Arq. Daniela Patricia Corral Hernández';
         $this->fecha           = '2015-05-05T10:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'bicicleta-alternativa-transporte';
         $this->imagen          = 'bicicleta-alternativa-transporte/imagen.jpg';
         $this->imagen_previa   = 'bicicleta-alternativa-transporte/imagen-previa.jpg';

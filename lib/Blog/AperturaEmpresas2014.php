@@ -35,15 +35,16 @@ class AperturaEmpresas2014 extends \Base\Publicacion {
         $this->nombre          = 'Apertura de Empresas 2014';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2014-09-24T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'apertura-empresas-2014';
         $this->imagen          = 'apertura-empresas-2014/imagen.jpg';
         $this->imagen_previa   = 'apertura-empresas-2014/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La apertura de nuevas empresas en el municipio de Torreón, Coahuila ha alcanzado su punto más alto del año 2014 en el mes de julio.';
         $this->claves          = 'IMPLAN, Torreon, Apertura de empresas';
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

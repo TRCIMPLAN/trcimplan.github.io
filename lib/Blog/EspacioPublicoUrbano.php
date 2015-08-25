@@ -42,8 +42,9 @@ class EspacioPublicoUrbano extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Las calles son la forma más importante de espacio público. Requieren algunos cambios urbanos para que sean más seguras y amistosas para los niños y niñas; que lleguen a ser de alta calidad.';
         $this->claves          = 'IMPLAN, Torreon';
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

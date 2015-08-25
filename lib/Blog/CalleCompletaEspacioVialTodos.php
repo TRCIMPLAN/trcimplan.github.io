@@ -35,15 +35,16 @@ class CalleCompletaEspacioVialTodos extends \Base\Publicacion {
         $this->nombre          = 'La Calle Completa: espacio vial para todos';
         $this->autor           = 'Arq. Cecilio Pedro Secunza Schott';
         $this->fecha           = '2014-12-03T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'calle-completa-espacio-vital-todos';
         $this->imagen          = 'calle-completa-espacio-vital-todos/imagen.jpg';
         $this->imagen_previa   = 'calle-completa-espacio-vital-todos/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Con la inclusión del automóvil en el espacio urbano se causó problemas como alta incidencia de accidentes, inaccesibilidad, contaminación, y el deterioro del espacio público más importante: la calle.';
         $this->claves          = 'IMPLAN, Torreon, Calle completa';
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

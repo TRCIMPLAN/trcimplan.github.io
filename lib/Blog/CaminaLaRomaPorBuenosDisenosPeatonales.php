@@ -35,7 +35,7 @@ class CaminaLaRomaPorBuenosDisenosPeatonales extends \Base\Publicacion {
         $this->nombre          = '#Camina La Roma por buenos diseños peatonales';
         $this->autor           = 'Alejandra Leal @alelealv y Luz Viramontes @yazvf';
         $this->fecha           = '2015-06-10T14:55';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'camina-la-roma-por-buenos-disenos-peatonales';
         $this->imagen          = 'camina-la-roma-por-buenos-disenos-peatonales/imagen.jpg';
         $this->imagen_previa   = 'camina-la-roma-por-buenos-disenos-peatonales/imagen-previa.jpg';

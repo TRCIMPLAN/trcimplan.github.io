@@ -35,15 +35,16 @@ class GeneracionesCambio extends \Base\Publicacion {
         $this->nombre          = 'Las generaciones del cambio';
      // $this->autor           = '';
         $this->fecha           = '2015-02-04T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'generaciones-cambio';
         $this->imagen          = 'generaciones-cambio/presentacion-universitarios.jpg';
         $this->imagen_previa   = 'generaciones-cambio/presentacion-universitarios-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Los universitarios están involucrados con su sociedad, con las características de nuestra ciudad y sus necesidades, ya son parte de un entorno que si bien no es el mejor, están conscientes que se puede mejorar.';
         $this->claves          = 'IMPLAN, Torreon, Universidades, Generación, Cambio';
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

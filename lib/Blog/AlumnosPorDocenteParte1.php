@@ -36,7 +36,7 @@ class AlumnosPorDocenteParte1 extends \Base\Publicacion {
         $this->nombre          = 'Alumnos por docente, indicador clave para la mejora de la educación (parte 1)';
         $this->autor           = 'Lic. Luis A. Gutiérrez Arizpe';
         $this->fecha           = '2015-06-16T15:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'alumnos-por-docente-parte-1';
         $this->imagen          = 'alumnos-por-docente-parte-1/imagen.jpg';
         $this->imagen_previa   = 'alumnos-por-docente-parte-1/imagen-previa.jpg';

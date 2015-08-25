@@ -35,15 +35,16 @@ class ComportamientoTendenciaIncidenciaDelictiva extends \Base\Publicacion {
         $this->nombre          = 'Comportamiento y tendencia de la incidencia delictiva. Una visión ampliada.';
         $this->autor           = 'Lic. Luis A. Gutiérrez Arizpe';
         $this->fecha           = '2014-09-25T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'comportamiento-tendencia-incidencia-delictiva';
         $this->imagen          = 'comportamiento-tendencia-incidencia-delictiva/imagen.jpg';
         $this->imagen_previa   = 'comportamiento-tendencia-incidencia-delictiva/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Mostramos las tendencias de los delitos más recurrentes en la ciudad de Torreón; con datos del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.';
         $this->claves          = 'IMPLAN, Torreon, Delitos, Tendencias';
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

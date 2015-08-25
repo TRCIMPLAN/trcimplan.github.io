@@ -42,8 +42,9 @@ class DatosAbiertosGobiernosMunicipales extends \Base\Publicacion {
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Con la parte tecnológica resuelta, ha sido común que cualquiera de nosotros se pregunte... ¿Cómo se podrían mejorar los servicios gubernamentales? La respuesta es Datos Abiertos.';
         $this->claves          = 'IMPLAN, Torreon, Datos Abiertos, Gobierno Abierto';
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

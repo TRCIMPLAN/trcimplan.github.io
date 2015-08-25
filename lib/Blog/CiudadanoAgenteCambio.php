@@ -35,15 +35,16 @@ class CiudadanoAgenteCambio extends \Base\Publicacion {
         $this->nombre          = 'Ciudadano como agente de cambio';
         $this->autor           = 'Arq. Victoria Aranzábal';
         $this->fecha           = '2015-04-15T15:15';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'ciudadano-agente-cambio';
         $this->imagen          = 'ciudadano-agente-cambio/imagen.jpg';
         $this->imagen_previa   = 'ciudadano-agente-cambio/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La participación de la sociedad en proyectos urbanos crea una cultura de co-creación. Destaca Medellín, Colombia donde se aplica en la coordinación, participación y construcción de obra pública.';
         $this->claves          = 'IMPLAN, Torreon, Ciudadano, Cocreacion, Medellin, Colombia, Proyectos, Urbanos, Espacio publico, Vivienda, Medio ambiente';
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

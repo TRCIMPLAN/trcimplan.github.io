@@ -35,15 +35,16 @@ class CulturaSeguridadVial extends \Base\Publicacion {
         $this->nombre          = 'Cultura y seguridad vial';
         $this->autor           = 'Lic. Alfredo Viesca Domínguez';
         $this->fecha           = '2014-10-22T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'cultura-seguridad-vial';
         $this->imagen          = 'cultura-seguridad-vial/imagen.png';
         $this->imagen_previa   = 'cultura-seguridad-vial/imagen-previa.png';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La cultura vial se refiere a la construcción de una convivencia armoniosa, responsable y de respeto entre todos los que hacemos uso de las vías de tránsito, sean estas aceras, rutas, caminos, ciclo vías, etc.';
         $this->claves          = 'IMPLAN, Torreon, Cultura, Vial, Tránsito';
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

@@ -35,15 +35,16 @@ class CiudadesRetoTransformacion extends \Base\Publicacion {
         $this->nombre          = 'Las ciudades y el reto de su transformación';
         $this->autor           = 'Arq. Victoria Aranzábal';
         $this->fecha           = '2014-10-28T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'ciudades-reto-transformacion';
         $this->imagen          = 'ciudades-reto-transformacion/imagen.jpg';
         $this->imagen_previa   = 'ciudades-reto-transformacion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'El futuro de la humanidad está intrínsecamente relacionado al futuro de las ciudades. A partir de la revolución industrial hubo una movilización de personas del campo a la ciudad, lo que trajo consigo una revolución urbana.';
         $this->claves          = 'IMPLAN, Torreon, Ciudad, Urbana, Personas';
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

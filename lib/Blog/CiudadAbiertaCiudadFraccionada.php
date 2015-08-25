@@ -35,15 +35,16 @@ class CiudadAbiertaCiudadFraccionada extends \Base\Publicacion {
         $this->nombre          = 'Ciudad abierta y ciudad fraccionada';
         $this->autor           = 'Arq. Cecilio Pedro Secunza Schott';
         $this->fecha           = '2015-02-24T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'ciudad-abierta-ciudad-fraccionada';
         $this->imagen          = 'ciudad-abierta-ciudad-fraccionada/imagen.jpg';
         $this->imagen_previa   = 'ciudad-abierta-ciudad-fraccionada/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La fragmentación social y urbana provocada por desarrollos habitacionales “seguros” tiene efectos que agravan la percepción de la inseguridad en la ciudad.';
         $this->claves          = 'IMPLAN, Torreon, Ciudad, Fraccionamientos, Cerrados';
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

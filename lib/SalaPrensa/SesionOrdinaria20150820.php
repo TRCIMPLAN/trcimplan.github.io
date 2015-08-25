@@ -32,7 +32,7 @@ class SesionOrdinaria20150820 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Quinta Sesión Ordinaria de Consejo';
+        $this->nombre          = 'Presenta IMPLAN un nuevo “Reglamento de Zonificación, Uso de Suelo y Construcción”';
      // $this->autor           = 'Autor';
         $this->fecha           = '2015-08-20T11:30';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes

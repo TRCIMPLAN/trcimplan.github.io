@@ -35,15 +35,16 @@ class ContribucionTICCompetitividadProductividad extends \Base\Publicacion {
         $this->nombre          = 'Contribución de las TICs en la competitividad y productividad';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2014-08-04T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'contribucion-tic-competitividad-productividad';
         $this->imagen          = 'contribucion-tic-competitividad-productividad/imagen.jpg';
         $this->imagen_previa   = 'contribucion-tic-competitividad-productividad/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La implementación de las TICs en las actividades económicas se ha vuelto indispensable para el óptimo desarrollo de una región.';
         $this->claves          = 'IMPLAN, Torreon, TIC, Desarrollo, Empleo, Estudio, Carreras';
-        // NO CAMBIE el nombre_menu y el directorio. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';

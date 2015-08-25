@@ -35,7 +35,7 @@ class ConsumoLocalAlternativaCiudadCompetitiva extends \Base\Publicacion {
         $this->nombre          = 'El consumo local: alternativa para una ciudad competitiva';
         $this->autor           = 'Lic. Luis A. Gutiérrez Arizpe';
         $this->fecha           = '2015-05-13T09:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'consumo-local-alternativa-ciudad-competitiva';
         $this->imagen          = 'consumo-local-alternativa-ciudad-competitiva/imagen.jpg';
         $this->imagen_previa   = 'consumo-local-alternativa-ciudad-competitiva/imagen-previa.jpg';
