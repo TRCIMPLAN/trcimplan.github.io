@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Estrategias específicas para las áreas verdes de la región que tienen en cuenta el uso moderado del agua.">
+  <meta name="author" content="Arq. Daniela Patricia Corral Hernández">
+  <meta name="keywords" content="IMPLAN, Torreon, La Laguna, Areas Verdes, Agua, Riego">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Por un Adecuado Manejo del Agua en Áreas Verdes - IMPLAN Torreón">
+  <meta name="twitter:description" content="Estrategias específicas para las áreas verdes de la región que tienen en cuenta el uso moderado del agua.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes.html">
+  <meta name="og:title" content="Por un Adecuado Manejo del Agua en Áreas Verdes - IMPLAN Torreón">
+  <meta name="og:description" content="Estrategias específicas para las áreas verdes de la región que tienen en cuenta el uso moderado del agua.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes.html">
+  <title>Por un Adecuado Manejo del Agua en Áreas Verdes - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Por un Adecuado Manejo del Agua en Áreas Verdes</h1>
+          <div class="encabezado-descripcion" itemprop="description">Estrategias específicas para las áreas verdes de la región que tienen en cuenta el uso moderado del agua.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Arq. Daniela Patricia Corral Hernández</span>
+          - <meta itemprop="datePublished" content="2015-08-25T16:15">25/08/2015 16:15
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Por un Adecuado Manejo del Agua en Áreas Verdes" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <h3>Introducción</h3>
+
+<blockquote>
+  <p>La gestión de espacios verdes en las zonas metropolitanas es la solución a problemas de tipo ambiental, perceptual, estético y social.</p>
+  
+  <p>Por Arq. Daniela Corral</p>
+</blockquote>
+
+<p>La <strong>Zona Metropolitana de la Laguna es una región catalogada como semidesértica,</strong> a pesar de esto, debe su crecimiento económico, poblacional y urbano a la explotación de sus mantos acuíferos. Actualmente, se ve reflejado en <strong>escasez de agua,</strong> la cual no satisface el total de la demanda. La <strong>gestión de jardines urbanos</strong> se vuelve una necesidad de tipo ambiental y social, sin embargo, estos son consumidores de grandes cantidades de agua.</p>
+
+<p>Se tienen estudios que demuestran que las <strong>personas</strong> tienden a ser <strong>más saludables, más felices y a tener una vida más duradera en áreas con acceso a la naturaleza,</strong> incluyendo espacios urbanos con áreas verdes. Los espacios al aire libre son los menos costosos de crear y los que generan la más alta rentabilidad -tomando en cuenta aspectos como la mejora de vida en comunidad, salud y riqueza, además de la generación de actividades económicas en las áreas circundantes.</p>
+
+<p>A pesar de ello, no brindamos a los espacios libres el mismo valor y soporte económico que brindamos a los edificios e interiores. No se cuenta con un análisis de vialidad económica para el diseño de espacios exteriores, cuando podría y debería realizarse.</p>
+
+<p>Ante el argumento anteriormente descrito, se vuelve necesario <strong>implementar estrategias específicas para el desarrollo de áreas verdes urbanas</strong> en la región, teniendo como objetivo la <strong>utilización moderada de recursos hídricos.</strong></p>
+
+<p>La Zona Metropolitana de la Laguna (ZML), conurbación que ante la <strong>creciente mancha urbana,</strong> la <strong>sobreexplotación de mantos acuíferos</strong> y el método actual de diseño de áreas verdes basado en el <strong>jardín tradicional</strong> (con vegetación exótica, grandes extensiones de césped y no toma en cuenta el contexto del lugar), <strong>presenta gasto excesivo de agua por irrigación.</strong></p>
+
+<p>El principal uso del agua en la Zona Metropolitana de la Laguna es <strong>agrícola,</strong> se aprovecha el <strong>91%</strong> del agua que extrae la Comisión Nacional del Agua (CONAGUA). De los 2,496 millones de m³ que se aprovecha, el <strong>45% proviene de fuentes subterráneas y el 55% restante de las superficiales.</strong> En orden de importancia los otros usos son el público – <strong>urbano que demanda el 5%, pecuario 2% e industrial 1%,</strong> cuya fuente es exclusivamente <strong>subterránea.</strong></p>
+
+<p>A nivel municipio el uso de agua dominante es el agropecuario en 10 municipios, público en Gómez Palacio, Lerdo y San Pedro Las Colonias e industrial en Torreón y Matamoros (Salas-Quintanal, 2011).</p>
+
+<p>El agua se abastece en la Comarca Lagunera mediante diferentes instituciones (dependiendo del municipio que compete), en <strong>Torreón</strong> el suministro es regulado por el Sistema Municipal de Aguas y Saneamiento (SIMAS), en <strong>Gómez Palacio,</strong> el organismo que se encarga de suministrar el agua es el Sistema Descentralizado de Agua Potable y Alcantarillado (SIDEAPA), y por último, el Sistema de Agua Potable y Alcantarillado (SAPAL), que es el encargado de suministrar agua en ciudad <strong>Lerdo</strong> (R. Ayuntamiento de Gómez Palacio 2013-2016, 2013).</p>
+
+<p>La ciudad de <strong>Torreón</strong> tiene un suministro de agua proveniente de <strong>pozos profundos (60 en total).</strong> La oferta de agua para la ciudad es de <strong>2,200 litros por segundo</strong> aproximadamente, superándose los <strong>70 millones de metros cúbicos al año.</strong> Con esto se debería lograr satisfacer la demanda de los usuarios tanto domésticos, comerciales e industriales, así como los usuarios del espacio público. (Comisión Nacional del Agua, 1997)</p>
+
+<p>SIMAS tiene <strong>más de 130 000 tomas de agua,</strong> de éstas, el <strong>90.6 por ciento es para uso doméstico, 9.0 para uso comercial, 0.3 para uso industrial y 0.2 para uso público-urbano.</strong></p>
+
+<p><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/grafica-1-tomas-agua-torreon-coahuila.jpg"><br>Tomas de Agua de la Ciudad de Torreón Coahuila</p>
+
+<p>Actualmente, existe un <strong>grave deterioro de parques y jardines en la ciudad de Torreón,</strong> por lo que en las últimas administraciones del municipio se gestionó la construcción de espacios urbanos de alto impacto para el esparcimiento social, así mismo, se rehabilitaron diversas plazas públicas ya existentes, de gran importancia para la ciudad. Esta gestión se organizó mediante el programa “Al rescate de Torreón”, que se encuentra en el Plan Municipal de Desarrollo en el apartado Hábitat y Servicios Públicos. (Republicano Ayuntamiento de Torreón, 2009).</p>
+
+<p>En cuanto al sistema de riego y mantenimiento de áreas verdes en la ciudad de Torreón, el mayor consumo de agua por este medio se enfoca a áreas verdes de gran importancia en la ciudad, dichas zonas se dividen en:</p>
+
+<ol>
+<li><strong>Bosque Venustiano Carranza.</strong> Ubicado en las Avenidas Juárez y Cuauhtémoc, es el principal pulmón de la ciudad, y cuenta con servicio de mantenimiento que abarca las funciones de limpieza, poda y deshierbe, mantenimiento en alumbrado, en pintura y mantenimiento en sistema de riego, el cual se basa en el sistema por aspersión desde el año 1991.</li>
+<li><strong>Alameda Zaragoza.</strong> Esta plaza se ubica entre las Calles Juárez y Allende, y al igual que el bosque Venustiano Carranza, el sistema de riego para sus áreas verdes es por aspersión, sin embargo, aquí se cuenta con mayor inversión en mantenimiento y limpieza del lugar, al contar con monumentos y fuentes.</li>
+</ol>
+
+<p><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/alameda-zaragoza-bosque-venustiano-carranza.jpg"><br>Alameda Zaragoza y Bosque Venustiano Carranza</p>
+
+<ol>
+<li>Otros espacios públicos (camellones y corredores urbanos). Bajo la organización del programa de mejoramiento de imagen urbana, el Gobierno del Estado de Coahuila gestionó la construcción de <strong>61 plazoletas y 14 vialidades.</strong> En cuanto a las áreas verdes ubicadas en las vialidades de la ciudad, el mayor consumo de recursos hídricos se encuentra en el Periférico Raúl López Sánchez, Boulevard Libertad, Fundadores, Rodríguez Triana, Ramón Méndez, Constitución, Independencia y Diagonal Reforma; realizándose el riego bajo el sistema por aspersión. Además, se llevan a cabo en promedio mensual 100 servicios a plazas y vialidades de riego con camiones cisternas con agua tratada. Actualmente, se invierten aproximadamente 1.7 millones de pesos únicamente en la adquisición de maquinaria para dar mantenimiento a áreas verdes (Municipio de Torreón, 2013).</li>
+</ol>
+
+<p>La ciudad de <strong>Gómez Palacio</strong> cuenta con 200 mil habitantes, y el suministro de agua para satisfacer las necesidades de la población se realiza mediante la extracción de <strong>pozos profundos (34 en total).</strong> Se pueden definir claramente tres tipos de consumo doméstico promedio: popular (185 litros), medio (230 litros) y alto (400 litros) (Comisión Nacional del Agua, 1997).</p>
+
+<p>Respecto al gasto de agua para uso público se tiene que en la ciudad de Gómez Palacio se pueden ubicar <strong>dos principales sectores</strong> para el destino de riego de áreas verdes, éstas son: <strong>Parques, plazas y jardines; vialidades, calles y áreas verdes en banquetas.</strong> En lo que respecta al <strong>riego de parques plazas, parques, jardines y áreas verdes</strong> ubicadas en vialidades principales, el riego y mantenimiento corre a cargo del municipio de Gómez Palacio y se utiliza el sistema de <strong>aspersión</strong> principalmente, en las plazas de las colonias populares se lleva a cabo por medio de la toma directa de agua. Por otro lado, el riego para áreas verdes localizadas en las <strong>vialidades principales</strong> se realiza mediante el método de <strong>camiones cisterna</strong> en su mayoría, solamente el boulevard Miguel Alemán cuenta con sistema de riego por aspersión. Finalmente el riego de áreas verdes ubicadas en áreas verdes de banquetas es por parte de usuarios particulares. (R. Ayuntamiento de Gomez Palacio 2013-2016, 2013).</p>
+
+<p>El caso de ciudad <strong>Lerdo es similar al de Gómez Palacio,</strong> al contarse únicamente con sistema de riego por aspersión en plazas y parques, a nivel de vialidad, muy pocas áreas verdes cuentan con este sistema de riego, utilizándose el sistema de pipas, el cual lo provee el municipio.</p>
+
+<p>Estadísticamente, <strong>la cantidad de la extracción de agua del subsuelo que se destina para uso Público Urbano (PU), se estima en casi 10 millones de m3/año, representando un 14.8% de la extracción total.</strong> (SEMARNAT, 2013).</p>
+
+<p><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/grafica-2-extraccion-total-agua-acuifero-oriente-aguanaval.jpg"><br>Extracción total de Agua del Acuifero Oriente Aguanaval</p>
+
+<p>Para logar el <strong>objetivo del ahorro de agua en áreas verdes es muy importante la vegetación,</strong> ya que son el elemento que consume agua en un conjunto paisajístico. Se recomienda el uso de aquellas especies mejor adaptadas a las condiciones climáticas del sitio, con un <strong>índice amplio de tolerancia a la sequía,</strong> cuya variedad de especies es extensa, ya que abarca los especímenes nativos e inducidos.</p>
+
+<p><strong>El uso de especies nativas es muy recomendable,</strong> ya que, en esencia, son las mejor adaptadas y resistentes, y por lo tanto, <strong>su mantenimiento es mínimo,</strong> sin embargo, el mercado y producción de éstas es muy limitada, además, las condiciones del suelo urbano son muy diferentes a las naturales (Xeriscape TM, 1990).</p>
+
+<p>Si no queremos que vuelva a pasar la muerte de árboles como paso con la <strong>Helada del 4 de Febrero del 2011</strong> se debe se elegir bien la vegetación y seleccionar el lugar adecuado para su plantación, fomentar el crecimiento de las raíces profundas, de la preparación del suelo y el uso de prácticas de riego adecuadas, <strong>algunos de los árboles que no se helaron fueron; palo verde, fresnos, lilas, truenos, mezquites, cedros, jacarandas, huizaches, pirules, pinos, álamos, olivos, moras, algarrobos, ébanos y pingüicas.</strong></p>
+
+<p>La gestión de espacios verdes en las zonas metropolitanas es la solución a problemas de tipo ambiental, perceptual, estético y social. <strong>Se deben desarrollar estrategias específicas para el desarrollo de espacios verdes urbanos en un clima semidesértico,</strong> con el objetivo primordial de implementar un sistema, en el ámbito de arquitectura de paisaje, que permitiese disminuir el consumo de agua destinada para irrigación de jardines urbanos de carácter público.</p>
+
+<p>Bajo en contexto de escasez de agua, <strong>se elaboró una propuesta de intervención paisajista en una sección de camellón, ubicado en el Blvd. Ejército Mexicano, de la Zona Metropolitana de la Laguna.</strong> Se plantea que este caso de estudio pueda ser tomado como un modelo de introducción hacia el uso sustentable de los recursos hídricos de la región; y que las estrategias manejadas en la propuesta, puedan establecer los cimientos para un futuro reordenamiento de las áreas verdes públicas de la ciudad. Este trabajo tiene como premisa el poder concebir el desarrollo factible de infraestructura verde, sin que esto conlleve el uso irracional de recursos hídricos. Para poder ver la <strong>Propuesta del Proyecto</strong> se encuentra en la <strong>Tesis de Diseño de paisaje de bajo consumo de agua de la UABC.</strong></p>
+
+<h3>Bibliografía</h3>
+
+<ul>
+<li>Tesis de Diseño de paisaje de bajo consumo de agua. Por M. Arq. Soraya Alba Delgado</li>
+<li>Xeriscape TM, 1990</li>
+<li>SEMARNAT, 2013</li>
+<li>SIMAS</li>
+<li>SIDEAPA</li>
+<li>Salas-Quintanal, 2011</li>
+<li>Comisión Nacional del Agua, 1997</li>
+</ul>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
