@@ -35,16 +35,16 @@ class Infraestructura extends \Base\Publicacion {
         $this->nombre          = 'Infraestructura (Sectores precursores de clase mundial)';
         $this->autor           = 'Lic. Rodrigo González Morales';
         $this->fecha           = '2014-06-26T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'infraestructura';
         $this->imagen          = 'infraestructura/imagen.jpg';
         $this->imagen_previa   = 'infraestructura/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Análisis de los indicadores sobre infraestructura en tecnologías de la información, carreteras avanzadas y tasa de accidentes viales.';
         $this->claves          = 'IMPLAN, Torreon, Indicadores, Infraestructura, Información, TICs, Carreteras, Accidentes, Viales';
-        $this->categorias      = array('Infraestructura', 'Vialidad', 'Movilidad');
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
@@ -60,6 +60,10 @@ class Infraestructura extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/Infraestructura.html';
+        // Para el Organizador
+        $this->categorias      = array('Infraestructura', 'Vialidad', 'Movilidad');
+        $this->fuentes         = array('IMCO', 'INEGI', 'SCT');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase Infraestructura

@@ -62,7 +62,7 @@ class EquidadGeneroInformatica extends \Base\Publicacion {
         $this->contenido_archivo_html = 'lib/Blog/EquidadGeneroInformatica.html';
         // Para el Organizador
         $this->categorias      = array('Género', 'Educación', 'Empleo');
-        $this->fuentes         = array('INEGI');
+        $this->fuentes         = array('INEGI', 'Asociación Mexicana de Internet (AMIPCI)');
         $this->regiones        = array();
     } // constructor
 

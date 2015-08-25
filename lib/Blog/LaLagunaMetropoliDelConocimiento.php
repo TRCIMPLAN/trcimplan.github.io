@@ -35,16 +35,16 @@ class LaLagunaMetropoliDelConocimiento extends \Base\Publicacion {
         $this->nombre          = 'La Laguna: Metrópoli del Conocimiento';
         $this->autor           = 'Lic. Eduardo Holguín Zehfuss';
         $this->fecha           = '2014-04-28T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'la-laguna-metropoli-del-conocimiento';
         $this->imagen          = 'la-laguna-metropoli-del-conocimiento/imagen.jpg';
         $this->imagen_previa   = 'la-laguna-metropoli-del-conocimiento/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Las mega tendencias del Tercer Milenio nos indican la necesidad de integrar a La Laguna a la economía del conocimiento.';
         $this->claves          = 'IMPLAN, Torreon, Conocimiento, Tecnologias, Informacion, Comunicacion, TICs';
-        $this->categorias      = array('Innovación', 'Empresas');
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
@@ -60,6 +60,10 @@ class LaLagunaMetropoliDelConocimiento extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/LaLagunaMetropoliDelConocimiento.html';
+        // Para el Organizador
+        $this->categorias      = array('Innovación', 'Empresas');
+        $this->fuentes         = array();
+        $this->regiones        = array('La Laguna');
     } // constructor
 
 } // Clase LaLagunaMetropoliDelConocimiento

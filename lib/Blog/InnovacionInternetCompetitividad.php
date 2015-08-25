@@ -35,16 +35,16 @@ class InnovacionInternetCompetitividad extends \Base\Publicacion {
         $this->nombre          = 'Innovación, Internet y Competitividad';
         $this->autor           = 'Lic. Luis A. Gutiérrez Arizpe';
         $this->fecha           = '2015-04-08T14:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'innovacion-internet-competitividad';
         $this->imagen          = 'innovacion-internet-competitividad/imagen.jpg';
         $this->imagen_previa   = 'innovacion-internet-competitividad/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Cada día se hace más necesario que el gobierno realice gran número de sus trámites por Internet. Los ciudadanos y la banca lo exigen en aras de aumentar la competitividad.';
         $this->claves          = 'IMPLAN, Torreon, Internet, Trámites, Gobierno';
-        $this->categorias      = array('Innovación', 'Gobierno Digital');
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
@@ -60,6 +60,10 @@ class InnovacionInternetCompetitividad extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/InnovacionInternetCompetitividad.md';
+        // Para el Organizador
+        $this->categorias      = array('Innovación', 'Gobierno Digital');
+        $this->fuentes         = array('INEGI', 'Asociación Mexicana de Internet (AMIPCI)');
+        $this->regiones        = array('Nacional');
     } // constructor
 
 } // Clase InnovacionInternetCompetitividad

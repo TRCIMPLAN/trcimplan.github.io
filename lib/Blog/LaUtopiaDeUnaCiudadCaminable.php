@@ -39,7 +39,7 @@ class LaUtopiaDeUnaCiudadCaminable extends \Base\Publicacion {
         $this->archivo         = 'la-utopia-de-una-ciudad-caminable';
         $this->imagen          = 'la-utopia-de-una-ciudad-caminable/imagen.jpg';
         $this->imagen_previa   = 'la-utopia-de-una-ciudad-caminable/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Un lugar agradable y atractivo es un lugar lleno de gente; es por ello que un lugar ideal es caminable, compacto, accesible y diverso.';
         $this->claves          = 'IMPLAN, Torreon, Caminar, Ciudad, Calle, Banqueta, Peaton';
         // El directorio en la raíz donde se guardará el archivo HTML
@@ -62,8 +62,8 @@ class LaUtopiaDeUnaCiudadCaminable extends \Base\Publicacion {
         $this->contenido_archivo_markdown = 'lib/Blog/LaUtopiaDeUnaCiudadCaminable.md';
         // Para el Organizador
         $this->categorias      = array('Bienestar', 'Movilidad', 'Infraestructura');
-        $this->fuentes         = 'Plan Estratégico Metropolitano';
-        $this->regiones        = 'Torreón';
+        $this->fuentes         = array();
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase LaUtopiaDeUnaCiudadCaminable

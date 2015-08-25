@@ -35,14 +35,13 @@ class LaCiudadCompactaViveMejor extends \Base\Publicacion {
         $this->nombre          = 'La Ciudad Compacta (como la familia pequeña) Vive Mejor';
         $this->autor           = 'Arq. Cecilio Pedro Secunza Schott';
         $this->fecha           = '2015-07-01T15:16';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'la-ciudad-compacta-vive-mejor';
         $this->imagen          = 'la-ciudad-compacta-vive-mejor/imagen.jpg';
         $this->imagen_previa   = 'la-ciudad-compacta-vive-mejor/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La política pública a adoptar como estrategia debe ser la de crecimiento interno: densificar la ciudad implotando su crecimiento hacia adentro y hacia arriba.';
         $this->claves          = 'IMPLAN, Torreon';
-        $this->categorias      = array('Infraestructura');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class LaCiudadCompactaViveMejor extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/LaCiudadCompactaViveMejor.md';
+        // Para el Organizador
+        $this->categorias      = array('Infraestructura', 'Vivienda');
+        $this->fuentes         = array('IMPLAN');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase LaCiudadCompactaViveMejor

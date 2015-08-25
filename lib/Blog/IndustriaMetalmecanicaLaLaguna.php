@@ -35,16 +35,16 @@ class IndustriaMetalmecanicaLaLaguna extends \Base\Publicacion {
         $this->nombre          = 'La industria metalmecánica y La Laguna';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2014-11-12T08:05';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios.
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'industrial-metalmecanica-la-laguna';
         $this->imagen          = 'industrial-metalmecanica-la-laguna/imagen.jpg';
         $this->imagen_previa   = 'industrial-metalmecanica-la-laguna/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'A diferencia del año 2013 cuando la industria metalmecánica creció 4% a nivel nacional, la directora de Fabetch México pronosticó en Julio un crecimiento de 8% para el presente año.';
         $this->claves          = 'IMPLAN, Torreon, Industria, Metalmecánica, Empleo';
-        $this->categorias      = array('Empresas', 'Empleo');
-        // NO CAMBIE el directorio y el nombre_menu. Están definidos para Análisis Publicados.
+        // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
@@ -60,6 +60,10 @@ class IndustriaMetalmecanicaLaLaguna extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_html = 'lib/Blog/IndustriaMetalmecanicaLaLaguna.html';
+        // Para el Organizador
+        $this->categorias      = array('Empresas', 'Empleo');
+        $this->fuentes         = array('Secretaría de Economía', 'INEGI');
+        $this->regiones        = array('Torreón', 'Gómez Palacio');
     } // constructor
 
 } // Clase IndustriaMetalmecanicaLaLaguna

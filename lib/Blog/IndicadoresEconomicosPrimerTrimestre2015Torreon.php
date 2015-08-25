@@ -35,14 +35,13 @@ class IndicadoresEconomicosPrimerTrimestre2015Torreon extends \Base\Publicacion 
         $this->nombre          = 'Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón';
         $this->autor           = 'Lic. Alicia Valdez Ibarra';
         $this->fecha           = '2015-05-20T12:50';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'indicadores-economicos-primer-trimestre-2015-torreon';
         $this->imagen          = 'indicadores-economicos-primer-trimestre-2015-torreon/imagen.jpg';
         $this->imagen_previa   = 'indicadores-economicos-primer-trimestre-2015-torreon/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Análisis de los indicadores de inflación, apertura de empresas, trabajadores asegurados y salario promedio para el municipio de Torreón.';
         $this->claves          = 'IMPLAN, Torreon, Inflacion, Apertura, Empresas, Trabajadores, Asegurados, Salario, Promedio';
-        $this->categorias      = array('Empleo', 'Empresas', 'Mercados');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class IndicadoresEconomicosPrimerTrimestre2015Torreon extends \Base\Publicacion 
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/IndicadoresEconomicosPrimerTrimestre2015Torreon.md';
+        // Para el Organizador
+        $this->categorias      = array('Empleo', 'Empresas', 'Mercados');
+        $this->fuentes         = array('INEGI', 'IMSS Subdelegación Torreón', 'Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón');
+        $this->regiones        = array('Torreón', 'Nacional');
     } // constructor
 
 } // Clase IndicadoresEconomicosPrimerTrimestre2015Torreon

@@ -35,14 +35,13 @@ class LosDerechosDelPolicia extends \Base\Publicacion {
         $this->nombre          = 'Los Derechos del Policía';
         $this->autor           = 'Lic. Alfredo Viesca Domínguez';
         $this->fecha           = '2015-08-04T14:40';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'los-derechos-del-policia';
         $this->imagen          = 'los-derechos-del-policia/imagen.jpg';
         $this->imagen_previa   = 'los-derechos-del-policia/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Las condiciones laborales del policía pueden ser un factor que obstaculice la buena marcha de la seguridad ciudadana.';
         $this->claves          = 'IMPLAN, Torreon';
-        $this->categorias      = array('Delincuencia', 'Seguridad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class LosDerechosDelPolicia extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/LosDerechosDelPolicia.md';
+        // Para el Organizador
+        $this->categorias      = array('Delincuencia', 'Seguridad');
+        $this->fuentes         = array();
+        $this->regiones        = array('Coahuila', 'Durango', 'Nacional');
     } // constructor
 
 } // Clase LosDerechosDelPolicia

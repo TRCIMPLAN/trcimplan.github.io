@@ -35,14 +35,13 @@ class LaGranOportunidadDelGobiernoAbierto extends \Base\Publicacion {
         $this->nombre          = 'La Gran Oportunidad del Gobierno Abierto';
         $this->autor           = 'Ing. Guillermo Valdés Lozano';
         $this->fecha           = '2015-07-08T17:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'la-gran-oportunidad-del-gobierno-abierto';
         $this->imagen          = 'la-gran-oportunidad-del-gobierno-abierto/imagen.jpg';
         $this->imagen_previa   = 'la-gran-oportunidad-del-gobierno-abierto/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Nos encontramos frente a la posibilidad del mayor grado de cooperación que haya existido entre la sociedad y el gobierno.';
         $this->claves          = 'IMPLAN, Torreon';
-        $this->categorias      = array('Gobierno Digital', 'Transparencia');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class LaGranOportunidadDelGobiernoAbierto extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/LaGranOportunidadDelGobiernoAbierto.md';
+        // Para el Organizador
+        $this->categorias      = array('Gobierno Digital', 'Transparencia');
+        $this->fuentes         = array('Gobierno de la República');
+        $this->regiones        = array();
     } // constructor
 
 } // Clase LaGranOportunidadDelGobiernoAbierto

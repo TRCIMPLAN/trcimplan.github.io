@@ -35,14 +35,13 @@ class LaOtraViolenciaContraLosNinos extends \Base\Publicacion {
         $this->nombre          = 'La Otra Violencia Contra los Niños';
         $this->autor           = 'Lic. Alfredo Viesca Domínguez';
         $this->fecha           = '2015-06-30T14:30';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'la-otra-violencia-contra-los-ninos';
         $this->imagen          = 'la-otra-violencia-contra-los-ninos/imagen.jpg';
         $this->imagen_previa   = 'la-otra-violencia-contra-los-ninos/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'El Comité de los Derechos del Niño de la ONU ha señalado que el Gobierno Mexicano debe entregar información sobre las víctimas infantiles.';
         $this->claves          = 'IMPLAN, Torreon';
-        $this->categorias      = array('Delincuencia', 'Grupos Vulnerables', 'Seguridad');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class LaOtraViolenciaContraLosNinos extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/LaOtraViolenciaContraLosNinos.md';
+        // Para el Organizador
+        $this->categorias      = array('Delincuencia', 'Grupos Vulnerables', 'Seguridad');
+        $this->fuentes         = array('Gobierno de la República');
+        $this->regiones        = array();
     } // constructor
 
 } // Clase LaOtraViolenciaContraLosNinos

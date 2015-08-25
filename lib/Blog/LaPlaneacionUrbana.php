@@ -35,14 +35,13 @@ class LaPlaneacionUrbana extends \Base\Publicacion {
         $this->nombre          = 'La Planeación Urbana';
         $this->autor           = 'Arq. Teresita Benítez Saludado';
         $this->fecha           = '2015-07-21T23:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'la-planeacion-urbana';
         $this->imagen          = 'la-planeacion-urbana/imagen.jpg';
         $this->imagen_previa   = 'la-planeacion-urbana/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
+        // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Definición de lo que es la Planeación Urbana y los fines de un Plan de Desarrollo Urbano.';
         $this->claves          = 'IMPLAN, Torreon, Planeacion, Urbana';
-        $this->categorias      = array('Infraestructura');
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,6 +60,10 @@ class LaPlaneacionUrbana extends \Base\Publicacion {
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/LaPlaneacionUrbana.md';
+        // Para el Organizador
+        $this->categorias      = array('Infraestructura');
+        $this->fuentes         = array('INEGI');
+        $this->regiones        = array();
     } // constructor
 
 } // Clase LaPlaneacionUrbana
