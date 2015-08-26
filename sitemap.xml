@@ -116,11 +116,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-ingreso-promedio-de-la-mujer.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -132,6 +127,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -216,11 +216,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -232,6 +227,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-consumo-de-diesel-en-transporte-de-bienes.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -266,11 +266,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-uso-de-servicios-financieros.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-uso-de-servicios-financieros.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -286,12 +281,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-lineas-de-autobus.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-uso-de-servicios-financieros.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-lineas-de-autobus.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-lineas-de-autobus.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -311,12 +306,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-flujo-de-pasajeros-aereos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-lineas-de-autobus.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-flujo-de-pasajeros-aereos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-flujo-de-pasajeros-aereos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -336,12 +331,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-aerolineas.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-flujo-de-pasajeros-aereos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-aerolineas.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-aerolineas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -361,12 +356,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-red-carretera-avanzada.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-aerolineas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-red-carretera-avanzada.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-red-carretera-avanzada.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -386,12 +381,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-red-carretera-avanzada.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -411,12 +406,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-muertes-por-accidentes-relacionados-con-transporte.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-muertes-por-accidentes-relacionados-con-transporte.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-muertes-por-accidentes-relacionados-con-transporte.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -436,12 +431,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-muertes-por-accidentes-relacionados-con-transporte.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -461,12 +456,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-con-lineas-telefonicas-moviles.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-uso-de-twitter-como-proxy-de-uso-de-tecnologias-de-informacion.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-lineas-telefonicas-moviles.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-con-lineas-telefonicas-moviles.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -486,6 +481,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-lineas-telefonicas-moviles.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/gobierno-muertes-por-infecciones-instestinales.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -497,11 +497,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/gobierno-muertes-por-infecciones-instestinales.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-en-la-fuerza-laboral.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -532,6 +527,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mujeres-en-la-fuerza-laboral.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-en-la-fuerza-laboral.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -601,11 +601,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-centros-de-investigacion.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -632,6 +627,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -726,11 +726,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-piso-de-tierra.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-ciudad-fronteriza-o-portuaria.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -761,12 +756,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-piso-de-tierra.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -782,6 +777,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1196,11 +1196,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-rendimiento-academico.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-credito-a-las-empresas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1231,6 +1226,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-rendimiento-academico.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/gobierno-periodistas-muertos-o-desaparecidos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1242,11 +1242,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/gobierno-periodistas-muertos-o-desaparecidos.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-universidades-de-calidad.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1281,6 +1276,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-universidades-de-calidad.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-demandantes-de-conflicto-laboral.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1292,11 +1292,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-demandantes-de-conflicto-laboral.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-visitas-a-museos-inah.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1327,6 +1322,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-visitas-a-museos-inah.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-visitas-a-museos-inah.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1411,11 +1411,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-espacios-culturales-segun-imco.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-espacios-culturales-segun-imco.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1427,6 +1422,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-espacios-culturales-segun-imco.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-espacios-culturales-segun-imco.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1636,11 +1636,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-emergencias-ambientales.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-emergencias-ambientales.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1652,6 +1647,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-emergencias-ambientales.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-emergencias-ambientales.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1786,11 +1786,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-economia-intensiva-en-energia.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-economia-intensiva-en-energia.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1806,12 +1801,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-desastres-naturales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-economia-intensiva-en-energia.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-desastres-naturales.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-desastres-naturales.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1827,6 +1822,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-desastres-naturales.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-desastres-naturales.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1866,11 +1866,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-empresas-certificadas-como-limpias.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-empresas-certificadas-como-limpias.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1886,12 +1881,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-empresas-certificadas-como-limpias.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1911,12 +1906,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1932,6 +1927,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-disposicion-adecuada-de-residuos-solidos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1966,11 +1966,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1982,6 +1977,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-indice-de-gestion-de-calidad-del-aire.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2016,11 +2016,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-consumo-de-agua.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-consumo-de-agua.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -2032,6 +2027,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-consumo-de-agua.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-consumo-de-agua.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2651,11 +2651,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-catolica.html</loc>
-    <lastmod>2015-03-26</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-poblacion-catolica.html</loc>
     <lastmod>2015-03-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -2667,6 +2662,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-poblacion-catolica.html</loc>
+    <lastmod>2015-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-catolica.html</loc>
     <lastmod>2015-03-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2801,11 +2801,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-usuarios-de-internet.html</loc>
-    <lastmod>2015-01-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-usuarios-de-internet.html</loc>
     <lastmod>2015-01-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -2817,6 +2812,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-usuarios-de-internet.html</loc>
+    <lastmod>2015-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-usuarios-de-internet.html</loc>
     <lastmod>2015-01-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2851,11 +2851,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mortalidad-por-vih-sida.html</loc>
-    <lastmod>2015-01-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sociedad-mortalidad-por-vih-sida.html</loc>
     <lastmod>2015-01-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -2867,6 +2862,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-mortalidad-por-vih-sida.html</loc>
+    <lastmod>2015-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mortalidad-por-vih-sida.html</loc>
     <lastmod>2015-01-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3151,11 +3151,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-disponibilidad-de-banqueta.html</loc>
-    <lastmod>2014-11-24</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-disponibilidad-de-banqueta.html</loc>
     <lastmod>2014-11-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -3171,12 +3166,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-indice-de-hacinamiento.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-disponibilidad-de-banqueta.html</loc>
     <lastmod>2014-11-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-indice-de-hacinamiento.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-indice-de-hacinamiento.html</loc>
     <lastmod>2014-11-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3192,6 +3187,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-indice-de-hacinamiento.html</loc>
+    <lastmod>2014-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-indice-de-hacinamiento.html</loc>
     <lastmod>2014-11-24</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -4112,196 +4112,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-espacios-culturales.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-indice-de-desarrollo-humano-idh.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-medicos.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mortalidad.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mortalidad-infantil.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-derechohabiente.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-estimada.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza-extrema.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza-moderada.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-universidades.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-computadora.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-drenaje.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-internet.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-habitadas.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-totales.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-alumbrado-publico.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-generacion-de-basura.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-motorizacion.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales-anuales.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales-anual.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -5932,6 +5742,196 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-indice-de-desarrollo-humano-idh.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-medicos.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mortalidad.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mortalidad-infantil.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-derechohabiente.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-poblacion-estimada.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza-extrema.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-pobreza-moderada.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-tasa-de-mortalidad-materna.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-universidades.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-computadora.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-drenaje.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-internet.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-habitadas.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-totales.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-alumbrado-publico.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-generacion-de-basura.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-motorizacion.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales-anuales.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales-anual.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
