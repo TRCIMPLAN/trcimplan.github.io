@@ -7,6 +7,8 @@
 
 La **Zona Metropolitana de la Laguna es una región catalogada como semidesértica,** a pesar de esto, debe su crecimiento económico, poblacional y urbano a la explotación de sus mantos acuíferos. Actualmente, se ve reflejado en **escasez de agua,** la cual no satisface el total de la demanda. La **gestión de jardines urbanos** se vuelve una necesidad de tipo ambiental y social, sin embargo, estos son consumidores de grandes cantidades de agua.
 
+<div style="clear:left;"></div><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/area-verde.jpg">
+
 Se tienen estudios que demuestran que las **personas** tienden a ser **más saludables, más felices y a tener una vida más duradera en áreas con acceso a la naturaleza,** incluyendo espacios urbanos con áreas verdes. Los espacios al aire libre son los menos costosos de crear y los que generan la más alta rentabilidad -tomando en cuenta aspectos como la mejora de vida en comunidad, salud y riqueza, además de la generación de actividades económicas en las áreas circundantes.
 
 A pesar de ello, no brindamos a los espacios libres el mismo valor y soporte económico que brindamos a los edificios e interiores. No se cuenta con un análisis de vialidad económica para el diseño de espacios exteriores, cuando podría y debería realizarse.
@@ -31,12 +33,15 @@ Actualmente, existe un **grave deterioro de parques y jardines en la ciudad de T
 
 En cuanto al sistema de riego y mantenimiento de áreas verdes en la ciudad de Torreón, el mayor consumo de agua por este medio se enfoca a áreas verdes de gran importancia en la ciudad, dichas zonas se dividen en:
 
+<div class="row">
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/alameda-zaragoza-bosque-venustiano-carranza.jpg"> 1) Bosque, 2) Alameda</div>
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/alameda-zaragoza.jpg"> Alameda Zaragoza</div>
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/bosque-venustiano-carranza.jpg"> Bosque Venustiano Carranza</div>
+</div>
+
 1. **Bosque Venustiano Carranza.** Ubicado en las Avenidas Juárez y Cuauhtémoc, es el principal pulmón de la ciudad, y cuenta con servicio de mantenimiento que abarca las funciones de limpieza, poda y deshierbe, mantenimiento en alumbrado, en pintura y mantenimiento en sistema de riego, el cual se basa en el sistema por aspersión desde el año 1991.
 2. **Alameda Zaragoza.** Esta plaza se ubica entre las Calles Juárez y Allende, y al igual que el bosque Venustiano Carranza, el sistema de riego para sus áreas verdes es por aspersión, sin embargo, aquí se cuenta con mayor inversión en mantenimiento y limpieza del lugar, al contar con monumentos y fuentes.
-
-<img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/alameda-zaragoza-bosque-venustiano-carranza.jpg"><br>Alameda Zaragoza y Bosque Venustiano Carranza
-
-3. Otros espacios públicos (camellones y corredores urbanos). Bajo la organización del programa de mejoramiento de imagen urbana, el Gobierno del Estado de Coahuila gestionó la construcción de **61 plazoletas y 14 vialidades.** En cuanto a las áreas verdes ubicadas en las vialidades de la ciudad, el mayor consumo de recursos hídricos se encuentra en el Periférico Raúl López Sánchez, Boulevard Libertad, Fundadores, Rodríguez Triana, Ramón Méndez, Constitución, Independencia y Diagonal Reforma; realizándose el riego bajo el sistema por aspersión. Además, se llevan a cabo en promedio mensual 100 servicios a plazas y vialidades de riego con camiones cisternas con agua tratada. Actualmente, se invierten aproximadamente 1.7 millones de pesos únicamente en la adquisición de maquinaria para dar mantenimiento a áreas verdes (Municipio de Torreón, 2013).
+3. **Otros espacios públicos (camellones y corredores urbanos).** Bajo la organización del programa de mejoramiento de imagen urbana, el Gobierno del Estado de Coahuila gestionó la construcción de **61 plazoletas y 14 vialidades.** En cuanto a las áreas verdes ubicadas en las vialidades de la ciudad, el mayor consumo de recursos hídricos se encuentra en el Periférico Raúl López Sánchez, Boulevard Libertad, Fundadores, Rodríguez Triana, Ramón Méndez, Constitución, Independencia y Diagonal Reforma; realizándose el riego bajo el sistema por aspersión. Además, se llevan a cabo en promedio mensual 100 servicios a plazas y vialidades de riego con camiones cisternas con agua tratada. Actualmente, se invierten aproximadamente 1.7 millones de pesos únicamente en la adquisición de maquinaria para dar mantenimiento a áreas verdes (Municipio de Torreón, 2013).
 
 La ciudad de **Gómez Palacio** cuenta con 200 mil habitantes, y el suministro de agua para satisfacer las necesidades de la población se realiza mediante la extracción de **pozos profundos (34 en total).** Se pueden definir claramente tres tipos de consumo doméstico promedio: popular (185 litros), medio (230 litros) y alto (400 litros) (Comisión Nacional del Agua, 1997).
 
@@ -54,13 +59,33 @@ Para logar el **objetivo del ahorro de agua en áreas verdes es muy importante l
 
 Si no queremos que vuelva a pasar la muerte de árboles como paso con la **Helada del 4 de Febrero del 2011** se debe se elegir bien la vegetación y seleccionar el lugar adecuado para su plantación, fomentar el crecimiento de las raíces profundas, de la preparación del suelo y el uso de prácticas de riego adecuadas, **algunos de los árboles que no se helaron fueron; palo verde, fresnos, lilas, truenos, mezquites, cedros, jacarandas, huizaches, pirules, pinos, álamos, olivos, moras, algarrobos, ébanos y pingüicas.**
 
+### Vegetación regional con bajo consumo de agua
+
+<div class="row">
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-mezquite.jpg"> Mezquite</div>
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-huizache.jpg"> Huizache</div>
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-agave.jpg"> Agave</div>
+</div>
+<div class="row">
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-palma-desertica.jpg"> Palma Desértica</div>
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-cactacea.jpg"> Cactácea</div>
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-ocotillo.jpg"> Ocotillo</div>
+</div>
+<div class="row">
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-candelilla.jpg"> Candelilla</div>
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-nopal.jpg"> Nopal</div>
+  <div class="col-md-4"><img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-gobernadora.jpg"> Gobernadora</div>
+</div>
+
 La gestión de espacios verdes en las zonas metropolitanas es la solución a problemas de tipo ambiental, perceptual, estético y social. **Se deben desarrollar estrategias específicas para el desarrollo de espacios verdes urbanos en un clima semidesértico,** con el objetivo primordial de implementar un sistema, en el ámbito de arquitectura de paisaje, que permitiese disminuir el consumo de agua destinada para irrigación de jardines urbanos de carácter público.
+
+<img class="img-responsive" src="por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-en-museo-del-desierto.jpg"> Vegetación en Museo del Desierto
 
 Bajo en contexto de escasez de agua, **se elaboró una propuesta de intervención paisajista en una sección de camellón, ubicado en el Blvd. Ejército Mexicano, de la Zona Metropolitana de la Laguna.** Se plantea que este caso de estudio pueda ser tomado como un modelo de introducción hacia el uso sustentable de los recursos hídricos de la región; y que las estrategias manejadas en la propuesta, puedan establecer los cimientos para un futuro reordenamiento de las áreas verdes públicas de la ciudad. Este trabajo tiene como premisa el poder concebir el desarrollo factible de infraestructura verde, sin que esto conlleve el uso irracional de recursos hídricos. Para poder ver la **Propuesta del Proyecto** se encuentra en la **Tesis de Diseño de paisaje de bajo consumo de agua de la UABC.**
 
 ### Bibliografía
 
-* Tesis de Diseño de paisaje de bajo consumo de agua. Por M. Arq. Soraya Alba Delgado
+* Tesis de Diseño de paisaje de bajo consumo de agua. Por M. Arq. Soraya Alba Delgado. (Próxima publicación).
 * Xeriscape TM, 1990
 * SEMARNAT, 2013
 * SIMAS

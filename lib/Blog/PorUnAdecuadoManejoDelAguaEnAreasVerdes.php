@@ -34,7 +34,7 @@ class PorUnAdecuadoManejoDelAguaEnAreasVerdes extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Por un Adecuado Manejo del Agua en Áreas Verdes';
         $this->autor           = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha           = '2015-08-25T16:15';
+        $this->fecha           = '2015-08-25T21:10';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'por-un-adecuado-manejo-del-agua-en-areas-verdes';
         $this->imagen          = 'por-un-adecuado-manejo-del-agua-en-areas-verdes/imagen.jpg';
@@ -47,7 +47,9 @@ class PorUnAdecuadoManejoDelAguaEnAreasVerdes extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'revisar';
+        $this->estado          = 'publicar';
+        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
+        $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;
