@@ -86,6 +86,7 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \Ba
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
+    <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -137,6 +138,12 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \Ba
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/06/2015</td>
+            <td>$ 4,425.56</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Pesos.</p>
@@ -147,6 +154,10 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \Ba
     <div class="tab-pane" id="smi-indicador-grafica-1">
       <h3>Gráfica de Salario Promedio Mensual para Trabajadores de Tiempo Completo en Matamoros con fuente IMCO</h3>
       <div id="graficaDatosImco" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica-2">
+      <h3>Gráfica de Salario Promedio Mensual para Trabajadores de Tiempo Completo en Matamoros con fuente Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</h3>
+      <div id="graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Salario Promedio Mensual para Trabajadores de Tiempo Completo</h3>
@@ -165,50 +176,57 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \Ba
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-03-31</td>
-            <td>$ 6,434.28</td>
+            <td>2015-06-30</td>
+            <td>$ 6,545.67</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-03-31</td>
-            <td>$ 5,319.43</td>
+            <td>2015-06-30</td>
+            <td>$ 5,252.37</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-03-31</td>
-            <td>$ 5,518.95</td>
+            <td>2015-06-30</td>
+            <td>$ 5,873.18</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-03-31</td>
-            <td>$ 4,043.13</td>
+            <td>2015-06-30</td>
+            <td>$ 4,425.56</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-03-31</td>
-            <td>$ 5,817.26</td>
+            <td>2015-06-30</td>
+            <td>$ 5,548.04</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2015-03-31</td>
-            <td>$ 6,438.43</td>
+            <td>2015-06-30</td>
+            <td>$ 6,778.45</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2015-06-30</td>
+            <td>$ 5,351.19</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2015-03-31</td>
-            <td>$ 6,035.69</td>
+            <td>2015-06-30</td>
+            <td>$ 6,052.68</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
@@ -245,13 +263,29 @@ $('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', functi
     });
   }
 });
+// LENGUETA smi-indicador-grafica-2
+$('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
+    vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
+      element: 'graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
+      data: [{ fecha: '2015-03-31', dato: 4043.13 },{ fecha: '2015-06-30', dato: 4425.56 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 6434.28 },{ region: 'Gómez Palacio', dato: 5319.43 },{ region: 'Lerdo', dato: 5518.95 },{ region: 'Matamoros', dato: 4043.13 },{ region: 'La Laguna', dato: 5817.26 },{ region: 'Coahuila', dato: 6438.43 },{ region: 'Nacional', dato: 6035.69 }],
+      data: [{ region: 'Torreón', dato: 6545.67 },{ region: 'Gómez Palacio', dato: 5252.37 },{ region: 'Lerdo', dato: 5873.18 },{ region: 'Matamoros', dato: 4425.56 },{ region: 'La Laguna', dato: 5548.04 },{ region: 'Coahuila', dato: 6778.45 },{ region: 'Durango', dato: 5351.19 },{ region: 'Nacional', dato: 6052.68 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -323,6 +357,12 @@ FINAL;
           <tr>
             <td>31/03/2015</td>
             <td>$ 4,043.13</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2015</td>
+            <td>$ 4,425.56</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
