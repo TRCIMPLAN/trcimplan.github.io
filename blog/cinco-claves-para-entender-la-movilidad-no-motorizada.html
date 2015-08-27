@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Los resultados del taller para ubicar los esfuerzos y principios que tienen que realizarse para poder implementar un sistema de movilidad no motorizada.">
+  <meta name="author" content="Arq. Cecilio Pedro Secunza Schott">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cinco Claves para entender la Movilidad No Motorizada - IMPLAN Torreón">
+  <meta name="twitter:description" content="Los resultados del taller para ubicar los esfuerzos y principios que tienen que realizarse para poder implementar un sistema de movilidad no motorizada.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/cinco-claves-para-entender-la-movilidad-no-motorizada/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/cinco-claves-para-entender-la-movilidad-no-motorizada.html">
+  <meta name="og:title" content="Cinco Claves para entender la Movilidad No Motorizada - IMPLAN Torreón">
+  <meta name="og:description" content="Los resultados del taller para ubicar los esfuerzos y principios que tienen que realizarse para poder implementar un sistema de movilidad no motorizada.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/cinco-claves-para-entender-la-movilidad-no-motorizada/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/cinco-claves-para-entender-la-movilidad-no-motorizada.html">
+  <title>Cinco Claves para entender la Movilidad No Motorizada - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Cinco Claves para entender la Movilidad No Motorizada</h1>
+          <div class="encabezado-descripcion" itemprop="description">Los resultados del taller para ubicar los esfuerzos y principios que tienen que realizarse para poder implementar un sistema de movilidad no motorizada.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Arq. Cecilio Pedro Secunza Schott</span>
+          - <meta itemprop="datePublished" content="2015-08-27T12:10">27/08/2015 12:10
+        </div>
+        </div>
+        <meta itemprop="image" alt="Cinco Claves para entender la Movilidad No Motorizada" src="cinco-claves-para-entender-la-movilidad-no-motorizada/imagen.jpg">
+              <div itemprop="articleBody">
+        <p>El pasado viernes 14 de agosto de 2015, se llevó a cabo el primer taller de planeación participativa para la elaboración del <strong>Plan Director de Movilidad no Motorizada,</strong> el cual pretende ser el instrumento de planeación urbana que ordene las estrategias y acciones para implementar un sistema de movilidad de modos peatonales y ciclistas.</p>
+
+<p>En el evento, participaron distintos grupos de la sociedad civil organizada como colectivos ciclistas, peatonales, funcionarios de la administración municipal, y demás interesados en los temas de la movilidad urbana.</p>
+
+<p>Pero más allá del concepto obvio que indica el término; <strong>¿Qué es la movilidad no motorizada?</strong> Ésta se define como el conjunto de desplazamientos o modos de transporte donde la principal fuerza motriz utilizada es la generada por nuestro propio cuerpo, es decir todas las formas de movilidad donde no se requiere un motor. Generalmente se suele dividir el concepto en dos grupos principales: peatones y ciclistas. Donde el primer grupo incluye conceptos como “peatones sobre ruedas” que pueden ser personas en patines, patinetas, personas en silla de ruedas etc. Por otra parte, los ciclistas incluyen principalmente personas en bicicleta, pero también son considerados grupos en triciclo, monociclo y otros vehículos donde el pedal es el mecanismo de tracción. El aspecto importante es que todos son personas moviéndose, más allá del vehículo que utilicen.</p>
+
+<p><img class="img-responsive" src="cinco-claves-para-entender-la-movilidad-no-motorizada/01-plan-estrategico-metropolitano-mesa-movilidad-no-motorizada.jpg" alt="Plan Estrategico Metropolitano - Mesa Plan de Movilidad No Motorizada"></p>
+
+<p>En el taller de participación, asesorado por el <strong>Arq. Rafael Pérez Fernández,</strong> se definieron visiones, objetivos y metas a través de metodologías basadas en el marco lógico. Los asistentes participaron en mesas de trabajo articuladas en base a cuatro ejes temáticos: redes de infraestructura, educación y seguridad vial, normatividad técnica y legal, y programas de fomento. Con temas transversales como movilidad peatonal, movilidad ciclista, intermodalidad y visión cero.</p>
+
+<p>Para poder comprender de forma sintetizada los resultados del taller, <strong>se presentan 5 claves básicas para ubicar los esfuerzos y principios que tienen que realizarse para poder implementar un sistema de movilidad no motorizada:</strong></p>
+
+<p><img class="img-responsive" src="cinco-claves-para-entender-la-movilidad-no-motorizada/02-avenida-congestionada.jpg" alt="Avenida congestionada"></p>
+
+<h3>1) El automóvil NO es la única opción</h3>
+
+<p>La Laguna, como muchas otras ciudades del norte de México, ha desarrollado a lo largo de su historia un crecimiento urbano basado casi exclusivamente en torno a la forma en que los coches se desplazan: planeación a través del <strong>“urbanismo del automóvil”.</strong> Esto ha relegado a los otros modos de transporte (transporte público, ciclista y peatonal) a ser percibidos como desplazamientos para sectores con bajo estatus social. Contrario a lo que ocurre actualmente en países desarrollados, donde se puede observar que desde un obrero hasta un ejecutivo, viajan en transporte público o bicicleta. <strong>Es aquí donde ubicamos un primer aspecto fundamental: el problema es cultural.</strong></p>
+
+<p><img class="img-responsive" src="cinco-claves-para-entender-la-movilidad-no-motorizada/03-ciclista-en-ciclovia.jpg" alt="Ciclista en ciclovia"></p>
+
+<h3>2) Primero infraestructura</h3>
+
+<p>La <strong>distribución modal actualmente en la ZML</strong> para <strong>peatones y ciclistas</strong> es de <strong>19% y 2%</strong> respectivamente (Logit, 2011) del total de viajes que se hacen diariamente.</p>
+
+<p>¿Por qué son tan bajos estos estos índices de movilidad? Hay distintos factores que influyen en ello: comodidad, clima, velocidad, estatus social etc. Pero <strong>la deficiencia de infraestructura es un aspecto fundamental.</strong> No es posible convencer a la población de utilizar modos alternativos de transporte, si la integridad física de las personas es puesta de por medio. Para ello, es necesario la redistribución del espacio vial de manera democrática para lograr la seguridad de las personas que se desplazan en modos no motorizados. Como su nombre lo indica, la infraestructura es la base que da sustento a las actividades que ocurren en una estructura social; por lo tanto, más allá de la educación, cultura y normatividad, las redes de infraestructura son el primero paso a dar en la implementación de un sistema de movilidad no motorizada. Estas deben estar interconectadas, con recorridos lógicos y directos, así como cumplir con los lineamientos y estándares mínimos de calidad y seguridad. Solo así se podrá situar a la “movilidad alternativa” como modo de transporte cotidiano y competir con los medios motorizados.</p>
+
+<p><img class="img-responsive" src="cinco-claves-para-entender-la-movilidad-no-motorizada/04-peatones-que-no-usan-puente-peatonal.jpg" alt="Peatones que no usan el puente peatonal"></p>
+
+<h3>3) El clima es importante pero NO determinante</h3>
+
+<p>Uno de los argumentos recurrentes que se mencionan para cuestionar la efectividad de la movilidad no motorizada, es el clima extremoso con el que cuenta la región de la Laguna. Si bien es cierto que <strong>las temperaturas máximas medias entre Mayo y Julio sobrepasan los 32°</strong> y no es nada sencillo desplazarse de forma no motorizada en este clima; también es cierto que el resto de los meses contamos con un clima bastante aceptable para movernos de forma no motorizada. A su vez, <strong>la ciudad tiene oportunidades</strong> como su <strong>bajo índice de precipitación,</strong> así como su <strong>topografía plana,</strong> condiciones óptimas para desarrollar modos alternativos de movilidad.</p>
+
+<p><strong>¿Qué ciudades tienen condiciones parecidas a la nuestra?</strong></p>
+
+<p>Un ejemplo es <strong>Sevilla, España:</strong> Categorizada en el número 10 como ciudad ciclista por el ranking Copenhagenize, 2015 y considerada la mejor ciudad española para andar en bicicleta. Todo esto con temperaturas máximas medias de 36° entre Julio y Agosto.</p>
+
+<p><img class="img-responsive" src="cinco-claves-para-entender-la-movilidad-no-motorizada/05-camion-con-bicicletas-montadas.jpg" alt="Camion con bicicletas montadas"></p>
+
+<h3>4) Cambiar entre distintos modos de transporte</h3>
+
+<p>No se trata de ser “purista” de la movilidad y desplazarse únicamente en un solo modo de transporte. La <strong>intermodalidad,</strong> es decir <strong>la articulación entre las diferentes formas de movilidad</strong> es clave al momento de desarrollar un sistema de movilidad integral y sustentable. Es claro que no es posible caminar o andar en bicicleta a todos los destinos de la ciudad (en especial en una tan poco densa como la nuestra), es aquí donde el intercambio modal es un factor clave.</p>
+
+<p><img class="img-responsive" src="cinco-claves-para-entender-la-movilidad-no-motorizada/06-avenida.jpg" alt="Avenida con ciclistas"></p>
+
+<h3>5) Visión Cero</h3>
+
+<p><strong>Torreón se presentó como el primer municipio a nivel nacional en adoptar la visión cero de manera oficial.</strong> Pero, ¿Qué es la Visión Cero? En pocas palabras, <strong>es lograr que haya cero víctimas por violencia vial;</strong> desde la primicia que todos los accidentes no son “accidentales”, y pueden ser prevenidos a través de buen diseño vial, educación, y normatividad. Los peatones y ciclistas, al ser los usuarios más vulnerables de la pirámide de la movilidad conforman el grupo más beneficiado al implementar políticas de Visión Cero. Al aumentar la seguridad para estos grupos, su número se elevará de manera automática y viceversa.</p>
+
+<p>El <strong>Plan Director de Movilidad no motorizada,</strong> propone acciones estratégicas a través de proyectos en corto, mediano y largo plazo. Todo ello, con el último fin de <strong>elevar la calidad de vida y contar con una ciudad más humana, incluyente y segura.</strong> Estamos en un tiempo idóneo para comenzar con acciones como éstas, no esperemos a “tocar fondo” como ciudades donde la movilidad cotidiana se ha vuelto insostenible y ya es imposible volver atrás. De la mano de una planeación urbana integral, ordenada y eficaz, podremos lograr movernos en nuestra metrópoli eficientando nuestros recursos actuales, sin comprometer los de las generaciones futuras.</p>
+
+<h3>Fuente consultada</h3>
+
+<ul>
+<li>Resumen del Plan Integral de Movilidad Urbana Sustentable. Logit 2011.</li>
+</ul>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
