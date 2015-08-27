@@ -41,7 +41,7 @@ class CincoClavesParaEntenderLaMovilidadNoMotorizada extends \Base\Publicacion {
         $this->imagen_previa   = 'cinco-claves-para-entender-la-movilidad-no-motorizada/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Los resultados del taller para ubicar los esfuerzos y principios que tienen que realizarse para poder implementar un sistema de movilidad no motorizada.';
-        $this->claves          = 'IMPLAN, Torreon';
+        $this->claves          = 'IMPLAN, Torreon, Movilidad, No Motorizada, Ciclistas, Peatones, Vehiculos, Transporte, Calles';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
