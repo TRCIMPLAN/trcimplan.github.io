@@ -71,7 +71,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Salud');
-        $this->fuentes           = array('SINAIS (SSA)');
+        $this->fuentes           = array('Secretaria de Salud del Estado de Coahuila', 'SINAIS (SSA)');
         $this->regiones          = 'Torreón';
     } // constructor
 
@@ -85,7 +85,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -191,6 +191,12 @@ class SociedadCamasCensables extends \Base\Publicacion {
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/08/2015</td>
+            <td>106</td>
+            <td>Secretaria de Salud del Estado de Coahuila</td>
+            <td>Este dato se encuentra actualizado a 2015 debido a la apertura del nuevo Hospital General en la ciudad (Julio, 2015).</td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -198,9 +204,9 @@ class SociedadCamasCensables extends \Base\Publicacion {
 <p>SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio.</p>
 
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Camas Censables en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Camas Censables en Torreón con fuente SINAIS (SSA)</h3>
+      <div id="graficaDatosSinaisSsa" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Camas Censables</h3>
@@ -219,10 +225,10 @@ class SociedadCamasCensables extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>51</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
+            <td>2015-08-30</td>
+            <td>106</td>
+            <td>Secretaria de Salud del Estado de Coahuila</td>
+            <td>Este dato se encuentra actualizado a 2015 debido a la apertura del nuevo Hospital General en la ciudad (Julio, 2015).</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -255,7 +261,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
           <tr>
             <td>Coahuila</td>
             <td>2014-12-31</td>
-            <td>697</td>
+            <td>631</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -290,12 +296,12 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
+  if (typeof vargraficaDatosSinaisSsa === 'undefined') {
+    vargraficaDatosSinaisSsa = Morris.Line({
+      element: 'graficaDatosSinaisSsa',
       data: [{ fecha: '2001-12-31', dato: 42 },{ fecha: '2002-12-31', dato: 42 },{ fecha: '2003-12-31', dato: 72 },{ fecha: '2004-12-31', dato: 42 },{ fecha: '2005-12-31', dato: 42 },{ fecha: '2006-12-31', dato: 51 },{ fecha: '2007-12-31', dato: 48 },{ fecha: '2008-12-31', dato: 51 },{ fecha: '2009-12-31', dato: 51 },{ fecha: '2010-12-31', dato: 51 },{ fecha: '2011-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 51 },{ fecha: '2013-12-31', dato: 51 },{ fecha: '2014-12-31', dato: 51 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -312,7 +318,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 51 },{ region: 'Gómez Palacio', dato: 72 },{ region: 'Lerdo', dato: 52 },{ region: 'Matamoros', dato: 19 },{ region: 'La Laguna', dato: 194 },{ region: 'Coahuila', dato: 697 },{ region: 'Durango', dato: 862 },{ region: 'Nacional', dato: 38787 }],
+      data: [{ region: 'Torreón', dato: 106 },{ region: 'Gómez Palacio', dato: 72 },{ region: 'Lerdo', dato: 52 },{ region: 'Matamoros', dato: 19 },{ region: 'La Laguna', dato: 194 },{ region: 'Coahuila', dato: 631 },{ region: 'Durango', dato: 862 },{ region: 'Nacional', dato: 38787 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -440,6 +446,12 @@ FINAL;
             <td>51</td>
             <td>SINAIS (SSA)</td>
             <td></td>
+          </tr>
+          <tr>
+            <td>30/08/2015</td>
+            <td>106</td>
+            <td>Secretaria de Salud del Estado de Coahuila</td>
+            <td>Este dato se encuentra actualizado a 2015 debido a la apertura del nuevo Hospital General en la ciudad (Julio, 2015).</td>
           </tr>
         </tbody>
       </table>

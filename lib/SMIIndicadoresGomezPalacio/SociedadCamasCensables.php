@@ -207,10 +207,10 @@ class SociedadCamasCensables extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>51</td>
-            <td>SINAIS (SSA)</td>
-            <td></td>
+            <td>2015-08-30</td>
+            <td>106</td>
+            <td>Secretaria de Salud del Estado de Coahuila</td>
+            <td>Este dato se encuentra actualizado a 2015 debido a la apertura del nuevo Hospital General en la ciudad (Julio, 2015).</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -243,7 +243,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
           <tr>
             <td>Coahuila</td>
             <td>2014-12-31</td>
-            <td>697</td>
+            <td>631</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -300,7 +300,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 51 },{ region: 'Gómez Palacio', dato: 72 },{ region: 'Lerdo', dato: 52 },{ region: 'Matamoros', dato: 19 },{ region: 'La Laguna', dato: 194 },{ region: 'Coahuila', dato: 697 },{ region: 'Durango', dato: 862 },{ region: 'Nacional', dato: 38787 }],
+      data: [{ region: 'Torreón', dato: 106 },{ region: 'Gómez Palacio', dato: 72 },{ region: 'Lerdo', dato: 52 },{ region: 'Matamoros', dato: 19 },{ region: 'La Laguna', dato: 194 },{ region: 'Coahuila', dato: 631 },{ region: 'Durango', dato: 862 },{ region: 'Nacional', dato: 38787 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
