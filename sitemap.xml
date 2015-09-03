@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-09-01</lastmod>
+    <lastmod>2015-09-03</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/la-cultura-un-importante-indicador-en-la-calidad-de-vida.html</loc>
+    <lastmod>2015-09-03</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/torreon-una-nueva-realidad-economica.html</loc>

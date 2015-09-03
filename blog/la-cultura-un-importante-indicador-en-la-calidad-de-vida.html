@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La Laguna tiene un promedio muy bajo de espacios culturales por cada mil habitantes. A favor, hay un renovado impulso a la cultura gracias a iniciativas independientes, colectivos y programas de gobierno.">
+  <meta name="author" content="Adriana Vargas">
+  <meta name="keywords" content="IMPLAN, Torreon, Espacio, Cultural, Cultura">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La Cultura: un importante indicador en la calidad de vida - IMPLAN Torreón">
+  <meta name="twitter:description" content="La Laguna tiene un promedio muy bajo de espacios culturales por cada mil habitantes. A favor, hay un renovado impulso a la cultura gracias a iniciativas independientes, colectivos y programas de gobierno.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/la-cultura-un-importante-indicador-en-la-calidad-de-vida/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/la-cultura-un-importante-indicador-en-la-calidad-de-vida.html">
+  <meta name="og:title" content="La Cultura: un importante indicador en la calidad de vida - IMPLAN Torreón">
+  <meta name="og:description" content="La Laguna tiene un promedio muy bajo de espacios culturales por cada mil habitantes. A favor, hay un renovado impulso a la cultura gracias a iniciativas independientes, colectivos y programas de gobierno.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/la-cultura-un-importante-indicador-en-la-calidad-de-vida/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/la-cultura-un-importante-indicador-en-la-calidad-de-vida.html">
+  <title>La Cultura: un importante indicador en la calidad de vida - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">La Cultura: un importante indicador en la calidad de vida</h1>
+          <div class="encabezado-descripcion" itemprop="description">La Laguna tiene un promedio muy bajo de espacios culturales por cada mil habitantes. A favor, hay un renovado impulso a la cultura gracias a iniciativas independientes, colectivos y programas de gobierno.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Adriana Vargas</span>
+          - <meta itemprop="datePublished" content="2015-09-03T15:22">03/09/2015 15:22
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="La Cultura: un importante indicador en la calidad de vida" src="la-cultura-un-importante-indicador-en-la-calidad-de-vida/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>Las principales instituciones a nivel nacional e internacional que miden la calidad de vida o el grado en que las ciudades del mundo son más habitables, <strong>consideran a la cultura como parte fundamental de sus indicadores de bienestar.</strong>  Estamos hablando de la cultura ligada al urbanismo: la cantidad de espacios culturales con los que se cuenta, edificios históricos, pero también festivales y todas las actividades que promueven las artes en las calles o espacios públicos de la ciudad.</p>
+
+<p>Recientemente la empresa <strong>Gabinete de Comunicación Estratégica</strong> publicó la <strong>Encuesta sobre Ciudades Habitables</strong> que mide la percepción sobre la calidad de vida de los habitantes de 52 municipios de México.  En la encuesta <strong>Torreón se ubicó en el lugar 19, subiendo 11 puntos respecto al año anterior.</strong> Sin embargo, <strong>Gómez Palacio se situó en el lugar 31.</strong> Uno de los aspectos considerados fueron los museos y espacios históricos donde nuestra ciudad fue calificada con 2.7 de cuatro puntos posibles según la percepción de los entrevistados.</p>
+
+<p>La <strong>Zona Metropolitana de La Laguna,</strong> de acuerdo con el <a href="http://www.trcimplan.gob.mx/indicadores-categorias/index.html">Sistema Metropolitano de Indicadores</a> del IMPLAN, <strong>cuenta con 47 espacios culturales,</strong> (en los que se incluyen museos, teatros, galerías, auditorios, bibliotecas, librerías y casas de artesanías).</p>
+
+<p>La <strong>Dirección de Centro Histórico</strong> que regula y resguarda el patrimonio arquitectónico del municipio, establece que <strong>79 edificios</strong> se encuentran catalogados por el INBA y 81 por el INAH, de los cuales fueron demolidos 23, en las últimas 2 décadas.</p>
+
+<p>La distribución de los espacios culturales en la ZML por cada mil habitantes, se encuentra establecida de la siguiente manera: Torreón cuenta con 0.36, Gómez Palacio con 0.15, Lerdo con 0.22 y Matamoros con 0.11. En promedio <strong>La Laguna tiene 0.26 lugares por cada mil habitantes.</strong> El indicador es aún <strong>muy bajo comparado con el de otras ciudades</strong> como Campeche, Guanajuato, Colima, Oaxaca o Querétaro.</p>
+
+<p><a href="http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-espacios-culturales-segun-imco.html"><img class="img-responsive" src="la-cultura-un-importante-indicador-en-la-calidad-de-vida/trcimplan-smi-espacios-culturales.png" alt="Espacios Culturales en la ZML segun IMCO"></a></p>
+
+<p>De acuerdo al <strong>Índice de Competitividad Urbana 2014</strong> del <strong>Instituto Mexicano para la Competitividad,</strong> Guanajuato cuenta con <strong>4.24</strong> espacios culturales por cada mil habitantes, siendo la ciudad mejor evaluada. Otras ciudades con buenos indicadores son en el tema son: Oaxaca con un índice de <strong>1.85,</strong> Villa de Álvarez (Colima) con <strong>1.75</strong> y Querétaro con <strong>2.25</strong> espacios.</p>
+
+<p>Otro indicador disponible es el <strong>acceso a fondos de apoyo para la cultura en el ámbito estatal y federal,</strong> en el cual según estadísticas del IMPLAN, obtenidas de la base de datos del <strong>Sistema de Información Cultural de Conaculta,</strong> en años recientes en fondos nacionales de apoyo a la cultura Torreón ha conseguido 12 apoyos, en fondos estatales 31 apoyos, en Programas de Educación Artística 14 apoyos y 25 por parte del Programa de Apoyo a las Culturas Municipales y Comunitarias (PACMYC).</p>
+
+<p>Comparado con Chihuahua, Aguascalientes, Hermosillo y Saltillo, <strong>Torreón está en desventaja</strong> como la demuestra la siguiente gráfica. Uno de los municipios que más ha obtenido fondos nacionales y estatales de apoyo a la cultura es Hermosillo (con <strong>81</strong> y <strong>196</strong> respectivamente) y la capital Saltillo muestra <strong>34</strong> apoyos de fondos nacionales y 64 estatales.</p>
+
+<p><img class="img-responsive" src="la-cultura-un-importante-indicador-en-la-calidad-de-vida/grafica-fondos-de-apoyo-para-la-cultura.png" alt="Fondos de apoyo para la cultura"> FUENTE: CONACULTUA</p>
+
+<p>Aunque los indicadores tanto en infraestructura y apoyos estatales y federales a la cultura, aún son bajos en Torreón y la ZML comparado con municipios similares de México, también es cierto que <strong>la región se ha desarrollado en este rubro en los últimos años.</strong> Antes eran contadísimos los casos de instituciones o artistas que accedían a una beca nacional, y cada año se van sumando más a la estadística.</p>
+
+<p>En la mayoría de los casos, quienes han obtenido apoyos nacionales como las becas del FONCA, el Sistema Nacional de Creadores o el programa “México en Escena”, han sido <strong>agrupaciones artísticas independientes o creadores</strong> que por méritos propios de crecimiento profesional, se están acercando a la calidad y talento de los mejores artistas del país.</p>
+
+<p>Es de destacar que ninguno de los municipios que integran la Zona Metropolitana de La Laguna, se encuentra tan abajo en los indicadores de espacios culturales por cada mil habitantes, como es el caso de Reynosa – Río Bravo; que en el último estudio del IMCO se ubicó como la ciudad con menos oferta cultural en el país (con 0.08 espacios por cada mil habitantes). No obstante debe ser política a futuro en nuestros municipios crecer en el indicador.</p>
+
+<p>En nuestra región, <strong>los municipios que más requieren aumentar</strong> su oferta y promover el crecimiento de sus artistas para que accedan a apoyos federales, son <strong>Gómez Palacio y Matamoros,</strong> para impactar de forma favorable en la competitividad y calidad de vida de la metrópoli. A su vez <strong>destaca el caso de Lerdo,</strong> que a pesar de tener una cuarta parte de la población de Torreón en infraestructura cultural y edificios históricos <strong>está muy cerca de Torreón en sus indicadores.</strong></p>
+
+<p>En general, <strong>en La Laguna se respira en los últimos años un impulso a la cultura,</strong> gracias sobre todo a iniciativas independientes y colectivos artísticos, sumado a los festivales organizados en plazas, teatros y demás espacios públicos por parte del gobierno que también han ido en aumento. Todo esto nos abonará en mejores indicadores de calidad de vida para nuestra región, algo en lo que todos salimos ganando.</p>
+
+<p><strong>Para conocer mejor cómo se encuentran distribuidos los espacios</strong> como museos, teatros y plazas públicas, se recomienda visitar el mapa <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/ae1f0dba-e9f9-11e4-a808-0e0c41326911/embed_map">Vida en la ciudad</a> elaborado por el IMPLAN, y una muestra de dónde se ubican nuestros edificios históricos y artísticos, se puede apreciar en el mapa <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/3004fe8c-c29c-11e4-ac24-0e4fddd5de28/embed_map">Patrimonio Histórico</a></p>
+
+<h3>Fuentes consultadas</h3>
+
+<ul>
+<li><a href="http://www.trcimplan.gob.mx/">IMPLAN Torreón</a></li>
+<li><a href="http://imco.org.mx/indices/documentos/2014_ICU_Libro_La_gobernanza_de_las_ciudades_y_el_territorio_en_Mexico.pdf">IMCO Libro La Gobernanza de las Ciudades y el Territorio en México</a></li>
+</ul>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fla-cultura-un-importante-indicador-en-la-calidad-de-vida.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

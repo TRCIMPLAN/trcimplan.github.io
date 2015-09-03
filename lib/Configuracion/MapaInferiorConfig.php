@@ -44,9 +44,9 @@ class MapaInferiorConfig {
         $a[] = '      <div class="row">';
         $a[] = '        <div class="col-md-8">';
         if ($this->en_raiz) {
-            $a[] = "            <a href=\"index.html\"><img class=\"img-responsive mapa-inferior-logo\" src=\"{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
+            $a[] = sprintf('            <a href="index.html"><img class="img-responsive mapa-inferior-logo" src="%s" alt="%s"></a>', $this->logotipo, $this->sitio_titulo);
         } else {
-            $a[] = "            <a href=\"../index.html\"><img class=\"img-responsive mapa-inferior-logo\" src=\"../{$this->logotipo}\" alt=\"{$this->sitio_titulo}\"></a>";
+            $a[] = sprintf('            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../%s" alt="%s"></a>', $this->logotipo, $this->sitio_titulo);
         }
         $a[] = '        </div>'; // col-md-8
         $a[] = '        <div class="col-md-4">';

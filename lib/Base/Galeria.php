@@ -87,7 +87,7 @@ class Galeria extends Pagina {
             // Si tiene imagen previa
             if ($p->imagen_previa != '') {
                 // Obtener de la ruta ../imagenes/categorias/prueba-uno.png el ID donde [1] => categorias y [2] => prueba-uno
-                preg_match('@([^/]+)/([^/]+)\.\w+$@', $p->imagen_previa, $coincidencias); //
+                preg_match('@([^/]+)/([^/]+)\.\w+$@', $p->imagen_previa, $coincidencias);
                 $id = sprintf('%s-%s', $coincidencias[1], $coincidencias[2]);
                 // Si existe ese ID en categorias_ids
                 if (in_array($id, $this->categorias_ids)) {

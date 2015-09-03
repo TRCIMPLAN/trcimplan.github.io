@@ -254,7 +254,7 @@ class Navegacion extends \Configuracion\NavegacionConfig {
         // Acumular
         $a[] = '  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">';
         $a[] = $this->navegacion_encabezado();
-    //~ $a[] = $this->menu_superior();
+    //  $a[] = $this->menu_superior();
         $a[] = $this->menu_izquierdo();
         $a[] = '  </nav>';
         // Entregar
