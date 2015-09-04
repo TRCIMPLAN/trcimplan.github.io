@@ -185,6 +185,12 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>164</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada mil habitantes.</p>
@@ -213,57 +219,57 @@ class SustentabilidadMotorizacion extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
-            <td>223</td>
+            <td>2014-12-31</td>
+            <td>217</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
-            <td>333</td>
+            <td>2014-12-31</td>
+            <td>364</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2013-12-31</td>
-            <td>251</td>
+            <td>2014-12-31</td>
+            <td>289</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
-            <td>163</td>
+            <td>2014-12-31</td>
+            <td>164</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-12-31</td>
-            <td>251</td>
+            <td>2014-12-31</td>
+            <td>260</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2013-12-31</td>
-            <td>251</td>
+            <td>2014-12-31</td>
+            <td>253</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2013-12-31</td>
-            <td>291</td>
+            <td>2014-12-31</td>
+            <td>309</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2013-12-31</td>
-            <td>310</td>
+            <td>2014-12-31</td>
+            <td>237</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -290,7 +296,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2000-12-31', dato: 47 },{ fecha: '2001-12-31', dato: 105 },{ fecha: '2002-12-31', dato: 144 },{ fecha: '2003-12-31', dato: 132 },{ fecha: '2004-12-31', dato: 142 },{ fecha: '2005-12-31', dato: 142 },{ fecha: '2006-12-31', dato: 158 },{ fecha: '2007-12-31', dato: 159 },{ fecha: '2008-12-31', dato: 177 },{ fecha: '2009-12-31', dato: 168 },{ fecha: '2010-12-31', dato: 171 },{ fecha: '2011-12-31', dato: 152 },{ fecha: '2012-12-31', dato: 162 },{ fecha: '2013-12-31', dato: 163 }],
+      data: [{ fecha: '2000-12-31', dato: 47 },{ fecha: '2001-12-31', dato: 105 },{ fecha: '2002-12-31', dato: 144 },{ fecha: '2003-12-31', dato: 132 },{ fecha: '2004-12-31', dato: 142 },{ fecha: '2005-12-31', dato: 142 },{ fecha: '2006-12-31', dato: 158 },{ fecha: '2007-12-31', dato: 159 },{ fecha: '2008-12-31', dato: 177 },{ fecha: '2009-12-31', dato: 168 },{ fecha: '2010-12-31', dato: 171 },{ fecha: '2011-12-31', dato: 152 },{ fecha: '2012-12-31', dato: 162 },{ fecha: '2013-12-31', dato: 163 },{ fecha: '2014-12-31', dato: 164 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -306,7 +312,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 223 },{ region: 'Gómez Palacio', dato: 333 },{ region: 'Lerdo', dato: 251 },{ region: 'Matamoros', dato: 163 },{ region: 'La Laguna', dato: 251 },{ region: 'Coahuila', dato: 251 },{ region: 'Durango', dato: 291 },{ region: 'Nacional', dato: 310 }],
+      data: [{ region: 'Torreón', dato: 217 },{ region: 'Gómez Palacio', dato: 364 },{ region: 'Lerdo', dato: 289 },{ region: 'Matamoros', dato: 164 },{ region: 'La Laguna', dato: 260 },{ region: 'Coahuila', dato: 253 },{ region: 'Durango', dato: 309 },{ region: 'Nacional', dato: 237 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -426,6 +432,12 @@ FINAL;
           <tr>
             <td>31/12/2013</td>
             <td>163</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>164</td>
             <td>INEGI</td>
             <td></td>
           </tr>
