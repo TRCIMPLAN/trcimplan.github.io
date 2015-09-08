@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="En la medida en que los espacios habitacionales no sean lo suficientemente amplios, se genera una alta probabilidad de que la violencia aparezca.">
+  <meta name="author" content="Lic. Alfredo Viesca Domínguez">
+  <meta name="keywords" content="IMPLAN, Torreon, Vivienda, Social, Violencia, Intrafamiliar, Espacio, Habitacional">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Vivienda Social y Violencia Intrafamiliar - IMPLAN Torreón">
+  <meta name="twitter:description" content="En la medida en que los espacios habitacionales no sean lo suficientemente amplios, se genera una alta probabilidad de que la violencia aparezca.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/vivienda-social-y-violencia-intrafamiliar/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/vivienda-social-y-violencia-intrafamiliar.html">
+  <meta name="og:title" content="Vivienda Social y Violencia Intrafamiliar - IMPLAN Torreón">
+  <meta name="og:description" content="En la medida en que los espacios habitacionales no sean lo suficientemente amplios, se genera una alta probabilidad de que la violencia aparezca.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/vivienda-social-y-violencia-intrafamiliar/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/vivienda-social-y-violencia-intrafamiliar.html">
+  <title>Vivienda Social y Violencia Intrafamiliar - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Vivienda Social y Violencia Intrafamiliar</h1>
+          <div class="encabezado-descripcion" itemprop="description">En la medida en que los espacios habitacionales no sean lo suficientemente amplios, se genera una alta probabilidad de que la violencia aparezca.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Alfredo Viesca Domínguez</span>
+          - <meta itemprop="datePublished" content="2015-09-08T11:50">08/09/2015 11:50
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Vivienda Social y Violencia Intrafamiliar" src="vivienda-social-y-violencia-intrafamiliar/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p><strong>La violencia intrafamiliar se ha convertido desde hace años en un problema a nivel mundial y México no es la excepción,</strong> de hecho se le considera un problema de salud pública. Buscar erradicar este tipo de violencia ha llevado a investigadores e instituciones de todo el mundo a establecer primero, una definición y después encontrar los factores que la originan.</p>
+
+<p>La mayoría de las definiciones o nociones sobre violencia intrafamiliar coinciden en lo siguiente:</p>
+
+<blockquote>
+  <p>Como violencia intrafamiliar se denomina el tipo de violencia que ocurre entre miembros de una familia, y que puede tener lugar en el entorno doméstico o fuera de él.</p>
+</blockquote>
+
+<p>En este sentido, la violencia intrafamiliar se registra cuando se producen <strong>situaciones de abuso o maltrato entre personas emparentadas, bien por consanguinidad, bien por afinidad.</strong></p>
+
+<p>Como tal, podemos decir que se ha producido un <strong>episodio de violencia doméstica cuando se han ocasionado daños a la integridad emocional, psicológica o física de una persona.</strong></p>
+
+<p>Los tipos de violencia más comunes que tienen lugar en una familia son los de padres a hijos y los de maridos a mujeres, aunque también pueden ocurrir de forma inversa, o involucrar a otros parientes, como tíos, primos o abuelos.</p>
+
+<p><strong>Las causas que motivan la violencia intrafamiliar son variadas,</strong> aunque por lo general se produce como forma de imponer el poder, la autoridad o el control a un miembro de la familia.</p>
+
+<p>En las situaciones de violencia siempre existen dos roles: <strong>el del agresor y el del agredido.</strong> El agresor es la persona que impone su autoridad, fuerza física o poder para maltratar a otro miembro de la familia. Suele reconocerse en la personalidad del agresor un pasado de violencia intrafamiliar que este repite cuando forma su propia familia.</p>
+
+<p>En este sentido, <strong>existen tres tipos básicos de violencia intrafamiliar:</strong></p>
+
+<ul>
+<li><strong>La psicológica,</strong> que es aquella que comprende episodios de maltrato verbal, humillaciones, intimidación, amenazas y desprecio. Sus consecuencias son daños psicológicos y emocionales, como la depresión, la ansiedad o el aislamiento social.</li>
+<li><strong>La violencia física,</strong> que es aquella que involucra el uso de la fuerza, y puede derivar en golpes, heridas, hematomas, quemaduras o fracturas. Dependiendo de la gravedad, las lesiones causadas por la violencia física pueden requerir atención médica.</li>
+<li><strong>La violencia sexual,</strong> que es el tipo de violencia que puede derivar en situaciones de abuso sexual, lo cual supone que una persona sea forzada a mantener cualquier tipo de contacto o relación sexual. Es un tipo de agresión gravísima, que compromete la estabilidad emocional de quien la sufre.</li>
+</ul>
+
+<p>Diferentes estudios de organizaciones nacionales e internacionales coinciden en determinar que este tipo de conductas está directamente relacionado en múltiples ocasiones con <strong>el uso y abuso del alcohol y las drogas;</strong> y un elemento más lo constituye <strong>el pasado violento de los agresores</strong> quienes reproducen esas prácticas violentas a las que fueron sometidos durante su infancia.</p>
+
+<p>Junto a estas explicaciones <strong>se encuentran otras que tal vez no han sido lo suficientemente analizadas</strong> pero no por eso dejan de tener una gran importancia, nos referimos específicamente a <strong>las características del espacio en el que cientos de familias tienen que vivir.</strong></p>
+
+<p><img class="img-responsive" src="vivienda-social-y-violencia-intrafamiliar/casas-interes-social-2.jpg" alt="Casas de Interes Social"></p>
+
+<p>La estrechez de los espacios y la falta de privacidad de alguna manera genera tensiones e irritabilidad, inclusive una especie de sensación de claustrofobia, en este sentido <strong>el tamaño de la vivienda si cuenta,</strong> es decir, en la medida en que los espacios no sean lo suficientemente amplios, en esa medida se genera una alta probabilidad de que la violencia aparezca.</p>
+
+<p>Esta violencia puede ser desde luego física, pero en primera instancia se manifiesta de manera verbal (gritos, amenazas, etc) si a esta circunstancia de estreches de la vivienda se suman <strong>el tipo de material con que se construyeron</strong> y la deficiencia de las instalaciones eléctricas por el uso de materiales de mala calidad, entre otras cosas, lo que resulta es un mal funcionamiento generalizado de la vivienda, en este sentido las condiciones están dadas para que se manifieste algún tipo de violencia.</p>
+
+<p>De acuerdo con el <strong>Dr. Guillermo Boils Morales</strong> Investigador titular de la UNAM. <strong>La mitad del parque habitacional del país,</strong> conformado por 35 millones de casas, <strong>requiere de acciones de recuperación o reemplazo,</strong> y sólo <strong>18 millones de estos conjuntos habitacionales están habitados.</strong> Una vivienda de calidad no corresponde con su objetivo: permitir el desarrollo y bienestar de las personas, lo cual incide en la calidad de vida, “el concepto de intimidad es incuestionable”.</p>
+
+<p>El investigador menciona <strong>también que deben considerarse no sólo los metros cuadrados, sino los metros cúbicos,</strong> pues este tipo de vivienda en zonas cálidas disminuye aún más la calidad de vida, además de los espacios reducidos, no existen formas naturales de ventilación: las familias, ya de por si con recursos limitados, se ven en la necesidad de hacer mayores gastos en energía eléctrica para renovar el aire en este tipo de habitaciones.</p>
+
+<p><strong>Los materiales con los que se construyen masivamente las viviendas</strong> de los conjuntos habitacionales <strong>también son un factor que incide en la calidad de vida,</strong> además de que los materiales son de poca resistencia, el concepto de intimidad es cuestionable, pues los reducidos espacios y los materiales empleados no favorecen la privacidad ni el aislamiento del sonido, elementos necesarios para la calidad de vida y privilegios que debería ofrecer un hogar.</p>
+
+<p><img class="img-responsive" src="vivienda-social-y-violencia-intrafamiliar/casas-interes-social-1.jpg" alt="Casa de Interes Social"></p>
+
+<p>Para la <strong>Dra. Gabriela Ponce,</strong> Investigadora del Centro de Estudios Sociales y de Opinión Pública, (CESOP) <strong>al menos el 70 por ciento de la población que abandona su vivienda lo hace motivada por la mala calidad y la mala ubicación,</strong> quienes abandonan su hogar por estos motivos suelen reubicarse en las ciudades en donde estén más cerca de sus centros de trabajo y de educación.</p>
+
+<p>Por último La Dra. Ponce considera que la <strong>violencia intrafamiliar, el mayor rezago en la familia y la reproducción de la pobreza</strong> son las consecuencias directas de habitar en una <strong>vivienda redonda (espacios en los que no existe división entre cocina, comedor, sala y recámaras).</strong></p>
+
+<p>Como se puede observar <strong>existen muchos otros elementos que no han sido tomados en cuenta lo suficiente para el análisis de los factores que determinan la violencia intrafamiliar,</strong> valdría la pena investigar el peso que estos tienen en el origen y desarrollo de este grave problema en la zona metropolitana de la laguna.</p>
+
+<h3>Referencias</h3>
+
+<ul>
+<li><a href="http://www.significados.com/violencia-intrafamiliar/">Significados.com Violencia Intrafamiliar</a></li>
+</ul>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fvivienda-social-y-violencia-intrafamiliar.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
