@@ -177,6 +177,13 @@ class SociedadDiscapacidad extends \Base\Publicacion {
             <td>INEGI. Censos de Población y Vivienda</td>
             <td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td>
           </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2010-12-31</td>
+            <td>5.10 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -200,7 +207,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 4.5000 },{ region: 'Gómez Palacio', dato: 4.0000 },{ region: 'Lerdo', dato: 4.0000 },{ region: 'Matamoros', dato: 4.4000 },{ region: 'La Laguna', dato: 4.3000 },{ region: 'Coahuila', dato: 4.4000 },{ region: 'Durango', dato: 5.2000 }],
+      data: [{ region: 'Torreón', dato: 4.5000 },{ region: 'Gómez Palacio', dato: 4.0000 },{ region: 'Lerdo', dato: 4.0000 },{ region: 'Matamoros', dato: 4.4000 },{ region: 'La Laguna', dato: 4.3000 },{ region: 'Coahuila', dato: 4.4000 },{ region: 'Durango', dato: 5.2000 },{ region: 'Nacional', dato: 5.1000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
