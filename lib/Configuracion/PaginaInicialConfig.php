@@ -71,7 +71,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         'Sala de Prensa'                    => 'sala-prensa/index.html',
         'Quejas y Sugerencias'              => 'http://trcimplan.mx/comentariossugerencias');
     public $mapa_legal         = array(
-        'Transparencia'                     => 'http://www.icai.org.mx/ipmn/dependencias/impyc',
+        'Transparencia'                     => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178',
         'Términos de Uso de la Información' => 'terminos/terminos-informacion.html',
         'Términos de Uso del Sitio Web'     => 'terminos/terminos-sitio.html',
         'Aviso de Privacidad'               => 'terminos/privacidad.html');

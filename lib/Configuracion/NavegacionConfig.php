@@ -55,7 +55,7 @@ class NavegacionConfig {
             'Institucional > Estructura Orgánica'    => 'institucional/estructura-organica.html',
             'Institucional > Reglamentos'            => 'institucional/reglamentos.html',
             'Institucional > Información Financiera' => 'institucional/informacion-financiera.html',
-            'Institucional > Transparencia'          => 'http://www.icai.org.mx/ipmn/dependencias/impyc'),
+            'Institucional > Transparencia'          => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178'),
         'Consejo Directivo' => 'consejo-directivo/integrantes.html',
         'Sala de Prensa'    => 'sala-prensa/index.html',
         'Preguntas Frecuentes' => 'preguntas-frecuentes/preguntas-frecuentes.html',
