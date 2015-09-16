@@ -35,14 +35,14 @@ class LaImportanciaDeLaImagenUrbana extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'La Importancia de la Imagen Urbana';
         $this->autor           = 'Arq. Teresita Benítez Saludado';
-        $this->fecha           = '2015-09-15T20:40';
+        $this->fecha           = '2015-09-15T20:50';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'la-importancia-de-la-imagen-urbana';
         $this->imagen          = 'la-importancia-de-la-imagen-urbana/imagen.jpg';
         $this->imagen_previa   = 'la-importancia-de-la-imagen-urbana/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Al darle a la ciudad una buena calidad visual, los usuarios son capaces de desarrollar conductas y comportamientos dignos y creativos. Sin embargo en Torreón el distrito del Centro Histórico sufre un deterioro en su imagen urbana.';
-        $this->claves          = 'IMPLAN, Torreon, Imagen, Urbana';
+        $this->claves          = 'IMPLAN, Torreon, Imagen, Urbana, Visual, Centro Historico';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -62,9 +62,9 @@ class LaImportanciaDeLaImagenUrbana extends \Base\Publicacion {
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/LaImportanciaDeLaImagenUrbana.md';
         // Para el Organizador
-        $this->categorias      = array();
+        $this->categorias      = array('Bienestar', 'Infraestructura');
         $this->fuentes         = array();
-        $this->regiones        = array();
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase LaImportanciaDeLaImagenUrbana
