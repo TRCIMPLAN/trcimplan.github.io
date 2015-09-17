@@ -60,7 +60,11 @@ class Indice extends Pagina {
             if ($p->descripcion != '') {
                 $a[] = "          <p>{$p->descripcion}</p>";
             }
-            $a[] = "          <p class=\"pull-left autor-fecha\">Por {$p->autor}, {$p->fecha_con_formato_humano()}</p>";
+            if (is_array($p->autor)) {
+                $a[] = sprintf('          <p class="pull-left autor-fecha">Por %s, %s</p>', implode(', ', $p->autor), $p->fecha_con_formato_humano());
+            } else {
+                $a[] = sprintf('          <p class="pull-left autor-fecha">Por %s, %s</p>', $p->autor, $p->fecha_con_formato_humano());
+            }
             $a[] = "          <p class=\"pull-right leer-mas\"><a href=\"{$p->boton_url}\">Leer más</a></p>";
             $a[] = '        </div>';
             $a[] = '      </div>';

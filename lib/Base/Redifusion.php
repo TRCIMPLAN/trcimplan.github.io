@@ -141,6 +141,12 @@ class Redifusion extends \Configuracion\RedifusionConfig {
         $clave = sprintf('%s-%s', $publicacion->tiempo_creado(), $publicacion->archivo);
         // Tomar el contenido
         $contenido = $publicacion->redifusion_html();
+        // Si autor es un arreglo
+        if (is_array($publicacion->autor)) {
+            $autor = implode(', ', $publicacion->autor);
+        } else {
+            $autor = $publicacion->autor;
+        }
         // Acumular
         $this->elementos[$clave] = array(
             'id'          => $id,
@@ -148,7 +154,7 @@ class Redifusion extends \Configuracion\RedifusionConfig {
             'titulo'      => $publicacion->nombre,
             'descripcion' => $publicacion->descripcion,
             'contenido'   => $this->vinculos_absolutos($contenido, $publicacion->directorio),
-            'autor'       => $publicacion->autor,
+            'autor'       => $autor,
             'url'         => $url);
         // Entregar verdadero
         return true;

@@ -54,8 +54,12 @@ class Completo {
         // Cargar los valores por defecto de Publicacion
         $publicacion_config = new \Configuracion\PublicacionConfig();
         // Si el autor es diferente al de por defecto...
-        if ($this->publicacion->autor != $publicacion_config->autor) {
-            $autor = $this->publicacion->autor;
+        if ($this->publicacion->autor !== $publicacion_config->autor) {
+            if (is_array($this->publicacion->autor)) {
+                $autor = implode(', ', $this->publicacion->autor);
+            } else {
+                $autor = $this->publicacion->autor;
+            }
         }
         // Si la fecha es posterior a la de por defecto...
         if (strcmp($this->publicacion->fecha, $publicacion_config->fecha) > 0) {

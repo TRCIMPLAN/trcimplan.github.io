@@ -80,7 +80,11 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         $this->navegacion->opcion_activa = $publicacion->nombre_menu;
         // Definir las demás propiedades
         $this->titulo       = $publicacion->nombre;
-        $this->autor        = $publicacion->autor;
+        if (is_array($publicacion->autor)) {
+            $this->autor = implode(', ', $publicacion->autor);
+        } else {
+            $this->autor = $publicacion->autor;
+        }
         $this->descripcion  = $publicacion->descripcion;
         $this->claves       = $publicacion->claves;
         $this->directorio   = $publicacion->directorio;

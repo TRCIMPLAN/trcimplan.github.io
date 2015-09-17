@@ -94,7 +94,11 @@ class Resumenes {
             $a[] = '              <div class="media-body">';
             $a[] = sprintf('                <h3 class="media-heading breve-heading"><a href="%s">%s</a></h3>', $p->url(), $p->nombre);
             $a[] = sprintf('                <p class="descripcion">%s</p>', $p->descripcion);
-            $a[] = sprintf('                <p class="pull-left autor">%s</p>', $p->autor);
+            if (is_array($p->autor)) {
+                $a[] = sprintf('                <p class="pull-left autor">%s</p>', implode(', ', $p->autor));
+            } else {
+                $a[] = sprintf('                <p class="pull-left autor">%s</p>', $p->autor);
+            }
           //$a[] = sprintf('                <p class="pull-right leer-mas"><a href="%s">Leer más</a></p>', $p->url());
             $a[] = '              </div>';
             $a[] = '            </div>';
