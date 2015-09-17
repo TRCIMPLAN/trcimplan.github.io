@@ -34,7 +34,7 @@ class PotencialEconomicoDelSectorSaludEnLaLaguna extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Potencial Económico del Sector Salud en La Laguna';
         $this->autor           = array('Lic. Rodrigo González Morales', 'Lic. Alicia Valdez Ibarra', 'Lic. Luis A. Gutiérrez Arizpe');
-        $this->fecha           = '2015-09-17T11:30';
+        $this->fecha           = '2015-09-17T15:30';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'potencial-economico-del-sector-salud-en-la-laguna';
         $this->imagen          = 'potencial-economico-del-sector-salud-en-la-laguna/imagen.jpg';
@@ -47,7 +47,7 @@ class PotencialEconomicoDelSectorSaludEnLaLaguna extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'revisar';
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;
