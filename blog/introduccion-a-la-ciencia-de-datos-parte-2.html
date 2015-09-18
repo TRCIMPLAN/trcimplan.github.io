@@ -172,9 +172,9 @@
 <p>En esta guía mostraremos cómo obtener, incorporar y analizar datos abiertos.</p>
 
 <ul>
-<li>Recomiendo que tenga instalada un motor de base de datos relacional como MySQL o PostgreSQL.</li>
-<li>Recomiendo la <em>suite de oficina</em> LibreOffice la cual es <strong>software libre</strong>. Alternativamente podría usar Microsoft Office, aunque <strong>no lo recomiendo</strong> por ser <a href="https://es.wikipedia.org/wiki/Software_propietario">software privativo</a>.</li>
-<li>Sistema Operativo con navegador de internet y descompresor de archivos ZIP. Tanto GNU/Linux, Windows o MacOS tienen estas herramientas. En esta guía verá imágenes de GNU/Linux y KDE como entorno gráfico.</li>
+<li>Recomiendo que tenga instalado un <strong>motor de base de datos relacional</strong> como <a href="https://mariadb.org/">MariaDB</a>, <a href="http://www.postgresql.org/">PostgreSQL</a> u otro que opere con comandos <strong>SQL</strong>. He documentado para <strong>PostgreSQL.</strong></li>
+<li>Recomiendo la <em>suite de oficina</em> <strong>LibreOffice</strong> la cual es <strong>software libre</strong>. Podría usar Microsoft Office, aunque <strong>no lo recomiendo</strong> por ser <a href="https://es.wikipedia.org/wiki/Software_propietario">software privativo</a>. Verá que trabajo con <strong>LibreOffice</strong></li>
+<li>Sistema Operativo con <strong>navegador de internet</strong> y <strong>descompresor de archivos ZIP.</strong> Tanto GNU/Linux, Windows o MacOS tienen estas herramientas. En esta guía verá imágenes de <strong>GNU/Linux</strong> y <strong>KDE</strong> como entorno gráfico.</li>
 </ul>
 
 <h3>Obtenga datos abiertos en datos.gob.mx</h3>
@@ -199,9 +199,89 @@
 
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/05-datos.gob.mx-descargar-catalogo-centros-de-trabajo.png" alt=""></p>
 
+<p>Los <strong>archivos ZIP ayudan a disminuir los tiempos de descarga.</strong> Esta reducción de tamaño es muy notable en archivos que contienen texto. De clic con el botón derecho y elija la opción para extraer o descomprimir; esta opción puede variar según su sistema operativo y la versión que use. Por lo general todos los S.O. modernos la tienen.</p>
+
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/06-desempacar-archivo-zip.png" alt=""></p>
 
+<p>Un <strong>archivo CSV es texto separado por comas.</strong> Es uno de los tipos recomendados para publicar datos abiertos por su portabilidad y flexibilidad. <strong>Pero, debe revisar su tamaño antes de tratar de abrirlo,</strong> algunos CSV pueden pesar varios megabytes y sobrepasar las capacidades de una hoja de cálculo, como Microsoft Excel o LibreOffice. Observe que en este caso, se tiene un archivo CSV de <strong>¡30 millones de bytes (MB) y 273,318 renglones o filas!</strong></p>
+
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/08-analizar-archivo-csv.png" alt=""></p>
+
+<h3>Alimente su base de datos</h3>
+
+<p>Cuando la cantidad o complejidad de los datos rebasen las capacidades de una hoja de cálculo, deberá utilizar una base de datos relacional como <a href="https://mariadb.org/">MariaDB</a> o <a href="http://www.postgresql.org/">PostgreSQL</a>. Estos "motores" son capaces de lidar con miles o millones de registros con un gran desempeño y absoluta confiabilidad. Cree un archivo con nombre <strong>sep_centros_trabajos.sql</strong> y escriba este comando SQL para <strong>crear una tabla con las mismas columnas que el archivo CSV.</strong></p>
+
+<pre><code>--
+-- sep_centros_trabajos.sql
+--
+CREATE TABLE sep_centros_trabajos (
+    id_inm           character(6),
+    clave_ct         character(11),
+    ent              character(2),
+    mun              character(3),
+    loc              character(4),
+    ent_admon        character(2),
+    nombrect         character varying,
+    c_estatus_ct     character(1),
+    nivel            character(1),
+    modalidad        character(1),
+    turno            character(1),
+    control          character(1),
+    ct_multigrado    character(1),
+    ent_carga        character(2),
+    mun_carga        character(3),
+    loc_carga        character(4),
+    extra            character varying
+);
+</code></pre>
+
+<p>Tome nota que los tipos de datos de cada columna son congruentes con las líneas del archivo CSV. Por ejemplo, la columna <strong>clave_ct</strong> siempre tiene 11 caracteres, por eso se define como <strong>character(11)</strong>. En alguna línea hay un dato demás que remedié agregando una columna <strong>extra</strong> como <em>polizón</em>.</p>
+
+<p>El siguiente paso es <strong>crear una nueva base de datos</strong> con nombre <strong>sep_censo_escuelas</strong>, que con PostgreSQL se hace desde la terminal con el comando <strong>createdb</strong>. Por costumbre, le asigno que el <em>dueño</em> de esta base de datos sea otro usuario (previamente creado) llamado <strong>trcimplan</strong>. Este usuario no tiene privilegios mayores, lo que me asegura que si otro sistema lo toma u otro usuario se hace pasar por éste, <strong>no nos haga</strong> <em>travesuras</em> en el servidor.</p>
+
+<pre><code>$ createdb -O trcimplan sep_censo_escuelas
+</code></pre>
+
+<p>Sigue <strong>cargar el archivo sep_centros_trabajos.sql y ordenar su ejecución.</strong> Así la tabla estará lista, aunque vacía por el momento:</p>
+
+<pre><code>$ psql -U trcimplan -f sep_centros_trabajos.sql sep_censo_escuelas
+</code></pre>
+
+<p>Continuamos con la <em>carga masiva</em> de las <strong>273,318 líneas</strong> que están en el archivo <strong>CATALOGO_CT.csv</strong>. Antes de mostrar las órdenas a escribir, revisaremos estos detalles que no hay que subestimar.</p>
+
+<ul>
+<li><strong>No cualquier usuario PostgreSQL puede ejecutar el comando COPY</strong>: Porque requiere un <strong>superusuario</strong>. Como recordará, he recomendado que el <em>dueño</em> tenga pocos privilegios, entre los que está <strong>NO</strong> ejecutar <strong>COPY</strong>. Así que uso mi usuario habital que sí tiene dicho <em>poder</em>.</li>
+<li><strong>La ubicación del archivo</strong>: El comando COPY de PostgreSQL es bastante quejoso cuando se le da una ruta elaborada. Así que haga una copia a una ruta corta, en mi ejemplo, a <strong>/tmp</strong>.</li>
+<li><strong>La codificación de caracteres del archivo CSV</strong>: Se desearía que los datos abiertos usen <strong>UTF-8</strong> el cual es el estándard moderno. Pero este archivo ofrecido por la <strong>S.E.P.</strong> está en el anticuado <strong>ISO 8859-1</strong>. Afortunadamente, <a href="http://www.postgresql.org/docs/current/static/multibyte.html">PostgreSQL puede cambiar la codificación al cargar archivos</a> con la orden <strong>encoding.</strong></li>
+<li><strong>Identificar el caracter que separa los datos de cada columna</strong>: Observe que se usan comas para separar los datos, inclusive los textos están entre comillas; respetando la forma en que un archivo CSV debe ser escrito.</li>
+<li><strong>Si la primer línea contiene los encabezados de las columnas</strong>: Entonces no debe agregarse como un registro a la base de datos, sólo la primer línea.</li>
+</ul>
+
+<p>Con estos detalles identificados y convertidos a específicas instrucciones, realizamos la <strong>carga del archivo CSV a la base de datos.</strong> Identifique Usted mismo la función de cada pieza:</p>
+
+<pre><code>$ psql sep_censo_escuelas
+sep_censo_escuelas=# \encoding LATIN1
+sep_censo_escuelas=# COPY sep_centros_trabajos FROM '/tmp/CATALOGO_CT.csv' DELIMITER ',' CSV HEADER;
+sep_censo_escuelas=# \q
+</code></pre>
+
+<h3>Con LibreOffice Base podrá comunicarse con PostgreSQL</h3>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/11-libreoffice-base-paso-1.png" alt=""></p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/12-libreoffice-base-paso-2.png" alt=""></p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/13-libreoffice-base-paso-3.png" alt=""></p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/14-libreoffice-base-prueba-de-conexion.png" alt=""></p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/15-libreoffice-base-paso-4.png" alt=""></p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/16-libreoffice-base-guardar.png" alt=""></p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/17-libreoffice-base-tablas.png" alt=""></p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/18-libreoffice-base-tabla-sep_censo_escuelas.png" alt=""></p>
 
 <h3>Referencias</h3>
 
