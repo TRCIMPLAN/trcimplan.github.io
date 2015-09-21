@@ -156,25 +156,22 @@
           <div class="encabezado-descripcion" itemprop="description">Ejemplo práctico de cómo bajar datos abiertos sobre escuelas y realizar un análisis de los mismos.</div>
                 <div class="encabezado-autor-fecha">
           Por <span itemprop="author">Ing. Guillermo Valdés Lozano</span>
-          - <meta itemprop="datePublished" content="2015-09-17T09:00">17/09/2015 09:00
+          - <meta itemprop="datePublished" content="2015-09-21T08:00">21/09/2015 08:00
         </div>
         </div>
         <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Introducción a la Ciencia de Datos (parte 2)" src="introduccion-a-la-ciencia-de-datos-parte-2/imagen.png"></span>
               <div itemprop="articleBody">
-        <p><strong>La información puede ser inmensamente poderosa para comprender y dirigir los complejos problemas sociales.</strong> Para lograr este objetivo, no sólo se necesitan los datos correctos, también la gente correcta que sea capaz de obtener los números esenciales; aquellos que apunten a los detalles técnicos críticos y den soporte a las decisiones más importantes.</p>
+        <p>Esta publicación documenta <strong>un ejercicio completo desde la descarga hasta el análisis de la información</strong> usando software libre, de alta capacidad y confiabilidad. Esperamos que sirva de base para manipular muchos <strong>datos abiertos</strong> más complejos y más grandes que los que usamos de ejemplo. Y con la noble intensión de compartir conocimiento e ir involucrando a más entusiastas en el análisis de los datos que publica <a href="http://www.mxabierto.org/">Red México Abierto</a>.</p>
 
-<p>Quien aspire a ser un <strong>Científico de Datos</strong> deberá dominar no sólo una, sino un gran número de herramientas; que usará como un hipotético <a href="https://es.wikipedia.org/wiki/MacGyver">MacGyver</a> quien con lo que tenga "a la mano", sea capaz de "atrapar" a la solución del problema que enfrente.</p>
-
-<p>Dando continuidad a esta serie de publicaciones, <strong>se mostrará un ejercicio práctico de cómo obtener un conjunto grande de datos abiertos y realizar un análisis con los datos que contiene.</strong> El reto es conocer las escuelas de educación básica de nuestro estado.</p>
+<p>El reto es averiguar <strong>las cantidades de escuelas de educación preescolar, primaria y secundaria en nuestra ciudad.</strong></p>
 
 <h3>Requerimientos</h3>
 
-<p>En esta guía mostraremos cómo obtener, incorporar y analizar datos abiertos.</p>
-
 <ul>
-<li>Recomiendo que tenga instalado un <strong>motor de base de datos relacional</strong> como <a href="https://mariadb.org/">MariaDB</a>, <a href="http://www.postgresql.org/">PostgreSQL</a> u otro que opere con comandos <strong>SQL</strong>. He documentado para <strong>PostgreSQL.</strong></li>
-<li>Recomiendo la <em>suite de oficina</em> <strong>LibreOffice</strong> la cual es <strong>software libre</strong>. Podría usar Microsoft Office, aunque <strong>no lo recomiendo</strong> por ser <a href="https://es.wikipedia.org/wiki/Software_propietario">software privativo</a>. Verá que trabajo con <strong>LibreOffice</strong></li>
+<li>Previamente debe tener instalado, configurado y funcionando un <strong>motor de base de datos relacional</strong> como <a href="https://mariadb.org/">MariaDB</a>, <a href="http://www.postgresql.org/">PostgreSQL</a> u otro que opere con comandos <strong>SQL</strong>. Esta guía hace uso de <strong>PostgreSQL</strong> del cual se tienen excelentes resultados con grandes cantidades de información.</li>
+<li>Recomiendo la <em>suite de oficina</em> <a href="https://es.libreoffice.org/">LibreOffice</a> la cual es <strong>software libre</strong>. Podría usar Microsoft Office, aunque <strong>no lo recomiendo</strong> por ser <a href="https://es.wikipedia.org/wiki/Software_propietario">software privativo</a>.</li>
 <li>Sistema Operativo con <strong>navegador de internet</strong> y <strong>descompresor de archivos ZIP.</strong> Tanto GNU/Linux, Windows o MacOS tienen estas herramientas. En esta guía verá imágenes de <strong>GNU/Linux</strong> y <strong>KDE</strong> como entorno gráfico.</li>
+<li>Buena conectividad a <strong>Internet</strong>.</li>
 </ul>
 
 <h3>Obtenga datos abiertos en datos.gob.mx</h3>
@@ -237,7 +234,7 @@ CREATE TABLE sep_centros_trabajos (
 
 <p>Tome nota que los tipos de datos de cada columna son congruentes con las líneas del archivo CSV. Por ejemplo, la columna <strong>clave_ct</strong> siempre tiene 11 caracteres, por eso se define como <strong>character(11)</strong>. En alguna línea hay un dato demás que remedié agregando una columna <strong>extra</strong> como <em>polizón</em>.</p>
 
-<p>El siguiente paso es <strong>crear una nueva base de datos</strong> con nombre <strong>sep_censo_escuelas</strong>, que con PostgreSQL se hace desde la terminal con el comando <strong>createdb</strong>. Por costumbre, le asigno que el <em>dueño</em> de esta base de datos sea otro usuario (previamente creado) llamado <strong>trcimplan</strong>. Este usuario no tiene privilegios mayores, lo que me asegura que si otro sistema lo toma u otro usuario se hace pasar por éste, <strong>no nos haga</strong> <em>travesuras</em> en el servidor.</p>
+<p>El siguiente paso es <strong>crear una nueva base de datos</strong> con nombre <strong>sep_censo_escuelas</strong>, que con PostgreSQL se hace desde la terminal con el comando <strong>createdb</strong>. Por costumbre, le asigno que el <em>dueño</em> de esta base de datos sea otro usuario (previamente creado) llamado <strong>trcimplan</strong>. Este usuario no tiene privilegios mayores, lo que me asegura que si otro sistema lo toma u otro usuario se hace pasar por éste, <strong>no nos haga</strong> <em>travesuras</em> con las demás bases de datos.</p>
 
 <pre><code>$ createdb -O trcimplan sep_censo_escuelas
 </code></pre>
@@ -254,7 +251,7 @@ CREATE TABLE sep_centros_trabajos (
 <li><strong>La ubicación del archivo</strong>: El comando COPY de PostgreSQL es bastante quejoso cuando se le da una ruta elaborada. Así que haga una copia a una ruta corta, en mi ejemplo, a <strong>/tmp</strong>.</li>
 <li><strong>La codificación de caracteres del archivo CSV</strong>: Se desearía que los datos abiertos usen <strong>UTF-8</strong> el cual es el estándard moderno. Pero este archivo ofrecido por la <strong>S.E.P.</strong> está en el anticuado <strong>ISO 8859-1</strong>. Afortunadamente, <a href="http://www.postgresql.org/docs/current/static/multibyte.html">PostgreSQL puede cambiar la codificación al cargar archivos</a> con la orden <strong>encoding.</strong></li>
 <li><strong>Identificar el caracter que separa los datos de cada columna</strong>: Observe que se usan comas para separar los datos, inclusive los textos están entre comillas; respetando la forma en que un archivo CSV debe ser escrito.</li>
-<li><strong>Si la primer línea contiene los encabezados de las columnas</strong>: Entonces no debe agregarse como un registro a la base de datos, sólo la primer línea.</li>
+<li><strong>Si la primer línea contiene los encabezados de las columnas</strong>: Entonces <strong>no</strong> debe agregarse como un registro a la base de datos.</li>
 </ul>
 
 <p>Con estos detalles identificados y convertidos a específicas instrucciones, realizamos la <strong>carga del archivo CSV a la base de datos.</strong> Identifique Usted mismo la función de cada pieza:</p>
@@ -267,27 +264,115 @@ sep_censo_escuelas=# \q
 
 <h3>Con LibreOffice Base podrá comunicarse con PostgreSQL</h3>
 
+<p>Ejecute <strong>LibreOffice Base</strong>, al aparecer la ventana del asistente, elija la opción <strong>Conectar con una base de datos existente</strong> y en el campo seleccione <strong>PostgreSQL</strong>. Luego de clic en <strong>Siguiente</strong>:</p>
+
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/11-libreoffice-base-paso-1.png" alt=""></p>
+
+<p>En el segundo paso <strong>LibreOffice Base</strong> le pregunta el <strong>URL del origen de datos</strong>; en este campo se establece la dirección IP del servidor con PostgreSQL y varios parámetros como el nombre de la base de datos. En este ejercicio, nuestro propio equipo tiene PostgreSQL en ejecución, así que con el texto <strong>host=127.0.0.1</strong> le indicamos que nuestro propio equipo (127.0.0.1) la tiene. Seguido del nombre de la base de datos con <strong>dbname=sep_censo_escuelas</strong>. Escriba eso y de clic en siguiente:</p>
 
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/12-libreoffice-base-paso-2.png" alt=""></p>
 
+<p>De forma predeterminada, salvo que haya cambiado la configuración, PostgreSQL permite conexiones desde <strong>localhost</strong> con un usuario válido, sin revisar la contraseña. Como sugerí que <strong>trcimplan</strong> sea el dueño de <strong>sep_censo_escuelas</strong> entonces lo usamos como nombre de usuario. Habilite la casilla <strong>contraseña obligatoria</strong> y de clic en el botón <strong>Probar conexión</strong>. Pruebe con cualquier contraseña mientras no esté vacía:</p>
+
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/13-libreoffice-base-paso-3.png" alt=""></p>
+
+<p>La siguiente ventana muestra que ha sido exitosa la comunicación entre LibreOffice y PostgreSQL. En caso de que falle, revise los pasos anteriores o la configuración de su servidor PostgreSQL. De estar todo bien, siga con clic en <strong>Aceptar</strong> para cerrar esta pequeña ventana y luego a <strong>Siguiente</strong> en el asistente:</p>
 
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/14-libreoffice-base-prueba-de-conexion.png" alt=""></p>
 
+<p>Deje la opción <strong>Sí, registrar la base de datos</strong> es para tener acceso a esta base de datos desde las otras aplicaciones de LibreOffice. Y <strong>Abrir la base de datos para su edición</strong> para hacer pruebas y nuestra primera consulta. De clic en <strong>Finalizar</strong>:</p>
+
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/15-libreoffice-base-paso-4.png" alt=""></p>
+
+<p>LibreOffice Base solicitará que se guarde un <strong>archivo ODB</strong> donde recordará estas configuraciones y más detalles. Este archivo <strong>NO</strong> contiene copia de los datos, ni de las hojas de cálculo que vayamos a hacer. Al abrirlo, podemos crear y modificar las consultas. Determine un nombre y un lugar en sus documentos donde guardarlo. En este ejemplo, con el nombre <strong>SEP Censo Escuelas.odb</strong>:</p>
 
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/16-libreoffice-base-guardar.png" alt=""></p>
 
+<p>Tendremos a la vista el apartado de <strong>Tablas</strong>. A modo de prueba, podemos visualizar los datos al elegir la carpeta <strong>public</strong> y dar doble clic en <strong>sep_centros_trabajos</strong>:</p>
+
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/17-libreoffice-base-tablas.png" alt=""></p>
 
+<p>Esta segunda ventana nos muestra los primeros registros de todos los contenidos en la tabla <strong>sep_centros_trabajos</strong>. Tenga en mente que la tabla contiene <strong>TODOS los centros de trabajo del país</strong>; por lo que necesitamos buscar la forma de filtrarla para tener sólo los registros de nuestra ciudad.</p>
+
 <p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/18-libreoffice-base-tabla-sep_censo_escuelas.png" alt=""></p>
+
+<p>Identifique que hay columnas para la entidad con <strong>ent</strong>, el municipio con <strong>mun</strong> y la localidad con <strong>loc</strong>. Use el <a href="http://www.inegi.org.mx/geo/contenidos/geoestadistica/CatalogoClaves.aspx">Catálogo Único de Claves</a> del <strong>INEGI</strong> para averiguar los números que identifican a su estado, municipio y localidad. Para nuestro ejercicio, Coahuila de Zaragoza es <strong>05</strong>, Municipio de Torreón es <strong>035</strong> y la localidad de Torreón es <strong>0001</strong>.</p>
+
+<h3>Filtrar los datos</h3>
+
+<p>De clic en el icono <strong>Consultas</strong> del lado derecho y luego en <strong>Crear consulta en modo diseño</strong> para usar un asistente gráfico. Si domina el uso de comandos SQL puede optar por <strong>Crear una consulta en modo SQL</strong>:</p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/21-libreoffice-base-crear-consulta.png" alt=""></p>
+
+<p>El asistente le solicita que agregue por lo menos una tabla. En otro caso, cuando quiere hacer una consulta con dos o más tablas, este asistente permite agregarlas, respetando las relaciones entre ellas. <strong>Agregue</strong> la tabla <strong>sep_centros_trabajos</strong> del esquema <strong>public</strong>.</p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/22-libreoffice-base-definir-columnas.png" alt=""></p>
+
+<p>Arrastre las columnas <strong>ent</strong>, <strong>mun</strong>, <strong>loc</strong>, <strong>clave_ct</strong> y <strong>nombrect</strong> desde la tabla hasta las columnas de la parte inferior; también funciona dando doble clic al nombre de la columna en la tabla. En el renglón <strong>Criterio</strong> se escribe el valor por el que se quiere filtrar una o varias columnas. Esciba <strong>'05'</strong> (Coahuila de Zaragoza) en <em>ent</em>, <strong>'035'</strong> (Municipio Torreón) en <em>mun</em> y <strong>'0001'</strong> (Localidad Torreón) en <em>loc</em>. Defina el orden como <strong>ascendente</strong> en <em>clave_ct</em> y en <em>nombrect</em>. Presione el botón que <strong>ejecuta la consulta</strong> y revise que los registros entregados sean los que los filtros dejen pasar. Guarde la consulta como <strong>SEP Centros Trabajos Torreón</strong>:</p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/23-libreoffice-base-guardar-consulta.png" alt=""></p>
+
+<p>Corra LibreOffice Calc y en una nueva hoja de cálculo presione F4 (o en el menú <strong>Ver</strong> elija <strong>Orígenes de datos</strong>) para que aparezca las conexiones que Base ha establecido. Despliegue <strong>SEP Censo Escuelas</strong>, luego <strong>Consultas</strong> y de clic en <strong>SEP Centros Trabajos Torreón</strong>. Una vista previa de los datos aparece del lado derecho. Arrastre <strong>SEP Centros Trabajos Torreón</strong> y deje caer en la celda <strong>A1</strong> para que todos los datos de la consulta se pasen a la hoja de cálculo.</p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/24-libreoffice-calc-importar-a-hoja-de-calculo.png" alt=""></p>
+
+<p>Un buen tip es que estas celdas se quedan relacionadas con la consulta externa. Así cuando haya habido cambios en la Base de Datos, puede actualizar con el menú <strong>Datos</strong> y la opción <strong>Actualizar área</strong>.</p>
+
+<h3>Filtrar por tipo de centro de trabajo</h3>
+
+<p>Regrese a LibreOffice Base y al apartado de <strong>Consultas</strong>. Para aprovechar la consulta que se tiene como base para nuevas, de clic con del botón derecho en <strong>SEP Centros Trabajos Torreón</strong> y elija en el menú contextual <strong>Editar</strong>:</p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/31-libreoffice-base-editar.png" alt=""></p>
+
+<p>Según el <a href="http://cumplimientopef.sep.gob.mx/glosario_de_terminos/">Glosario de Términos Utilizados</a>, la Clave del Centro de Trabajo <strong>clave_ct</strong> está formada por:</p>
+
+<ul>
+<li>Dos números para la entidad federativa, desde 01 para Aguascalientes hasta 32 para Zacatecas.</li>
+<li>Una letra clasificadora de acuerdo con la naturaleza del financimiento: <strong>D</strong> Federal, <strong>E</strong> Estatal y <strong>K</strong> Conafe</li>
+<li>Dos letras para clasificar los diferentes tipos, nieveles y servicios:
+
+<ul>
+<li><strong>CC</strong> Escuela de Educación Preescolar Indígena</li>
+<li><strong>JN</strong> Escuela de Educación Preescolar</li>
+<li><strong>PB</strong> Escuela de Educación Primaria Indígena</li>
+<li><strong>PR</strong> Escuela de Educación Primaria</li>
+<li><strong>ES</strong> Escuela de Educación Secundaria General</li>
+<li><strong>ST</strong> Escuela de Educación Secundaria Técnica</li>
+<li><strong>TV</strong> Telesecundaria</li>
+</ul></li>
+<li>Un número progresivo de hasta cuatro caracteres.</li>
+<li>Un caracter verificador.</li>
+</ul>
+
+<p>Entonces, para filtrar sólo las claves para <strong>Preescolar</strong> escriba en el campo <strong>Criterio</strong> el filtro <strong>LIKE '???JN*'</strong>. Éste indica que los primeros tres caracteres pueden ser cualquiera, que el cuarto y quinto sean <strong>JN</strong>, seguido por lo que sea. Guarde esta consulta con otro nombre, vaya a <strong>Archivo</strong> y elija <strong>Guardar como</strong>, nómbrelo <strong>SEP Centros Trabajos Torreón Preescolar</strong>:</p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/32-libreoffice-base-filtrar-por-clave.png" alt=""></p>
+
+<p>Repita estas acciones para crear consultas que filtren por <strong>PR</strong> Primaria, <strong>ES</strong> Secundaria General y <strong>ST</strong> Secundaria Técnica.</p>
+
+<p>Vaya a LibreOffice Calc e importe los datos de estas cuatro consultas a un libro, donde cada consulta vaya en una hoja; nombre las hojas <strong>Preescolar</strong>, <strong>Primarias</strong>, <strong>Secundarias</strong> y <strong>Secundarias Técnicas</strong> respectivamente:</p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/33-libreoffice-calc-cargar-cada-consulta.png" alt=""></p>
+
+<p>En otra hoja, llamada <strong>Reporte</strong>, vamos a contabilizar y graficar las escuelas por su tipo. La función <strong>CONTAR.SI</strong> de LibreOffice Calc sirve para contar las celdas que cumplen una condición; en nuestro ejemplo, la usamos para contar las celdas en la columna <strong>A</strong> que tienen el texto <strong>05</strong>:</p>
+
+<p><img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/34-libreoffice-calc-reporte.png" alt=""></p>
+
+<h3>Reflexiones</h3>
+
+<p><strong>La información puede ser inmensamente poderosa para comprender y dirigir los complejos problemas sociales.</strong> Para lograr este objetivo, no sólo se necesitan los datos correctos, también la gente correcta que sea capaz de obtener los números esenciales; aquellos que apunten a los detalles técnicos críticos y den soporte a las decisiones más importantes.</p>
+
+<p>Quien aspire a ser un <strong>Científico de Datos</strong> deberá dominar no sólo una, sino un gran número de herramientas; que usará como un hipotético <a href="https://es.wikipedia.org/wiki/MacGyver">MacGyver</a> quien con lo que tenga "a la mano", sea capaz de "atrapar" a la solución del problema que enfrente.</p>
+
+<p>En próximas entregas seguiermos ejercitando y explorando nuevas formas de alcanzar estos objetivos.</p>
 
 <h3>Referencias</h3>
 
 <ul>
 <li><a href="http://datos.gob.mx/">Datos.gob.mx</a></li>
 <li><a href="http://www.snie.sep.gob.mx/">Sistema Nacional de información Estadística Educativa</a></li>
+<li><a href="http://www.inegi.org.mx/geo/contenidos/geoestadistica/CatalogoClaves.aspx">Catálogo Único de Claves de Áreas Geoestadísticas Estatales, Municipales y Localidades</a></li>
+<li><a href="http://cumplimientopef.sep.gob.mx/glosario_de_terminos/">Portal de Cumplimiento del Art. 10 del PEF 2012 - Glosario de Términos Utilizados - Clave de Centro de Trabajo</a></li>
 </ul>
 
         </div>

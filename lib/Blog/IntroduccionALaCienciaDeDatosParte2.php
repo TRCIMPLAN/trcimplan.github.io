@@ -34,7 +34,7 @@ class IntroduccionALaCienciaDeDatosParte2 extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Introducción a la Ciencia de Datos (parte 2)';
         $this->autor           = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha           = '2015-09-17T09:00';
+        $this->fecha           = '2015-09-21T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'introduccion-a-la-ciencia-de-datos-parte-2';
         $this->imagen          = 'introduccion-a-la-ciencia-de-datos-parte-2/imagen.png';
