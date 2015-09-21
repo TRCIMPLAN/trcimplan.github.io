@@ -1,5 +1,5 @@
 
-Esta publicación documenta **un ejercicio completo desde la descarga hasta el análisis de la información** usando software libre, de alta capacidad y confiabilidad. Esperamos que sirva de base para manipular muchos **datos abiertos** más complejos y más grandes que los que usamos de ejemplo. Y con la noble intensión de compartir conocimiento e ir involucrando a más entusiastas en el análisis de los datos que publica [Red México Abierto](http://www.mxabierto.org/).
+Esta publicación documenta **un ejercicio completo desde la descarga hasta el análisis de la información** usando software libre, de alta capacidad y confiabilidad. Esperamos que sirva de base para trabajar con muchos **datos abiertos** más complejos y más grandes que los que usamos en este ejemplo. Y con la noble intensión de compartir conocimiento para que haya más entusiastas en el análisis de los datos que publica [Red México Abierto](http://www.mxabierto.org/).
 
 El reto es averiguar **las cantidades de escuelas de educación preescolar, primaria y secundaria en nuestra ciudad.**
 
