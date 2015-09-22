@@ -42,7 +42,7 @@ Un **archivo CSV es texto separado por comas.** Es uno de los tipos recomendados
 
 ### Alimente su base de datos
 
-Cuando la cantidad o complejidad de los datos rebasen las capacidades de una hoja de cálculo, deberá utilizar una base de datos relacional como [MariaDB](https://mariadb.org/) o [PostgreSQL](http://www.postgresql.org/). Estos "motores" son capaces de lidar con miles o millones de registros con un gran desempeño y absoluta confiabilidad. Cree un archivo con nombre **sep_centros_trabajos.sql** y escriba este comando SQL para **crear una tabla con las mismas columnas que el archivo CSV.**
+Cuando la cantidad o complejidad de los datos rebasen las capacidades de una hoja de cálculo, deberá utilizar una base de datos relacional como [MariaDB](https://mariadb.org/) o [PostgreSQL](http://www.postgresql.org/). Estos "motores" son capaces de lidiar con miles o millones de registros con un gran desempeño y absoluta confiabilidad. Cree un archivo con nombre **sep_centros_trabajos.sql** y escriba este comando SQL para **crear una tabla con las mismas columnas que el archivo CSV.**
 
     --
     -- sep_centros_trabajos.sql

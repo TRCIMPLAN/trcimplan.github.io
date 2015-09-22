@@ -34,7 +34,7 @@ class IntroduccionALaCienciaDeDatosParte2 extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Introducción a la Ciencia de Datos (parte 2)';
         $this->autor           = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha           = '2015-09-21T08:05';
+        $this->fecha           = '2015-09-22T10:25';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'introduccion-a-la-ciencia-de-datos-parte-2';
         $this->imagen          = 'introduccion-a-la-ciencia-de-datos-parte-2/imagen.png';
@@ -47,7 +47,7 @@ class IntroduccionALaCienciaDeDatosParte2 extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'revisar';
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;

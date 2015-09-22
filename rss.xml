@@ -5,11 +5,234 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Mon, 21 Sep 2015 12:34:14 -0500</pubDate>
+    <pubDate>Tue, 22 Sep 2015 10:28:21 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción a la Ciencia de Datos (parte 2)</title>
+      <link>http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2.html</link>
+      <guid isPermaLink="false">blog-introduccion-a-la-ciencia-de-datos-parte-2</guid>
+      <pubDate>Tue, 22 Sep 2015 10:25:00 -0500</pubDate>
+      <author>Ing. Guillermo Valdés Lozano</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/imagen.png"><br>
+
+<p>Esta publicación documenta <strong>un ejercicio completo desde la descarga hasta el análisis de la información</strong> usando software libre, de alta capacidad y confiabilidad. Esperamos que sirva de base para trabajar con muchos <strong>datos abiertos</strong> más complejos y más grandes que los que usamos en este ejemplo. Y con la noble intensión de compartir conocimiento para que haya más entusiastas en el análisis de los datos que publica <a href="http://www.mxabierto.org/">Red México Abierto</a>.</p>
+
+<p>El reto es averiguar <strong>las cantidades de escuelas de educación preescolar, primaria y secundaria en nuestra ciudad.</strong></p>
+
+<h3>Requerimientos</h3>
+
+<ul>
+<li>Previamente debe tener instalado, configurado y funcionando un <strong>motor de base de datos relacional</strong> como <a href="https://mariadb.org/">MariaDB</a>, <a href="http://www.postgresql.org/">PostgreSQL</a> u otro que opere con comandos <strong>SQL</strong>. Esta guía hace uso de <strong>PostgreSQL</strong> del cual se tienen excelentes resultados con grandes cantidades de información.</li>
+<li>Recomiendo la <em>suite de oficina</em> <a href="https://es.libreoffice.org/">LibreOffice</a> la cual es <strong>software libre</strong>. Podría usar Microsoft Office, aunque <strong>no lo recomiendo</strong> por ser <a href="https://es.wikipedia.org/wiki/Software_propietario">software privativo</a>.</li>
+<li>Sistema Operativo con <strong>navegador de internet</strong> y <strong>descompresor de archivos ZIP.</strong> Tanto GNU/Linux, Windows o MacOS tienen estas herramientas. En esta guía verá imágenes de <strong>GNU/Linux</strong> y <strong>KDE</strong> como entorno gráfico.</li>
+<li>Buena conectividad a <strong>Internet</strong>.</li>
+</ul>
+
+<h3>Obtenga datos abiertos en datos.gob.mx</h3>
+
+<p>La plataforma <a href="http://datos.gob.mx">datos.gob.mx</a> es el sitio oficial de <strong>Datos Abiertos</strong> del <strong>Gobierno de la República.</strong> Allí se encuentra el <strong>Catálogo de Datos Abiertos</strong> que de manera gradual está incorporando todos los Datos Abiertos del Gobierno de la República. En su navegador de internet, vaya a <a href="http://datos.gob.mx">datos.gob.mx</a> y de clic en <strong>Explora los Datos</strong>.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/01-datos.gob.mx.png" alt=""></p>
+
+<p>La forma más fácil de encontrar alguna información es escribir algunas palabras que la describan en el campo de búsqueda. Escriba "escuelas" y presione <strong>ENTER</strong>.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/02-datos.gob.mx-buscar-escuelas.png" alt=""></p>
+
+<p>Al momento de escribir esta guía, el primer resultado es el <strong>Censo de Escuelas, Maestros y Alumnos de Educación Básica y Especial</strong>. De clic sobre este texto.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/03-datos.gob.mx-resultado-busqueda.png" alt=""></p>
+
+<p>Así tendrá a la vista varios conjuntos de <strong>datos abiertos</strong> que la <strong>Secretaría de Educación Pública</strong> proporciona con la información de los centros escolares de educación básica, media superior y superior.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/04-datos.gob.mx-censo-de-escuelas.png" alt=""></p>
+
+<p>Busque en este listado el <strong>Catálogo Centros de Trabajo</strong> el cual contiene la información de los planteles educativos. De clic sobre este título y <strong>descargará un archivo ZIP</strong> llamado <strong>CATALOGO_CT.zip</strong>.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/05-datos.gob.mx-descargar-catalogo-centros-de-trabajo.png" alt=""></p>
+
+<p>Los <strong>archivos ZIP ayudan a disminuir los tiempos de descarga.</strong> Esta reducción de tamaño es muy notable en archivos que contienen texto. De clic con el botón derecho y elija la opción para extraer o descomprimir; esta opción puede variar según su sistema operativo y la versión que use. Por lo general todos los S.O. modernos la tienen.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/06-desempacar-archivo-zip.png" alt=""></p>
+
+<p>Un <strong>archivo CSV es texto separado por comas.</strong> Es uno de los tipos recomendados para publicar datos abiertos por su portabilidad y flexibilidad. <strong>Pero, debe revisar su tamaño antes de tratar de abrirlo,</strong> algunos CSV pueden pesar varios megabytes y sobrepasar las capacidades de una hoja de cálculo, como Microsoft Excel o LibreOffice. Observe que en este caso, se tiene un archivo CSV de <strong>¡30 millones de bytes (MB) y 273,318 renglones o filas!</strong></p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/08-analizar-archivo-csv.png" alt=""></p>
+
+<h3>Alimente su base de datos</h3>
+
+<p>Cuando la cantidad o complejidad de los datos rebasen las capacidades de una hoja de cálculo, deberá utilizar una base de datos relacional como <a href="https://mariadb.org/">MariaDB</a> o <a href="http://www.postgresql.org/">PostgreSQL</a>. Estos "motores" son capaces de lidiar con miles o millones de registros con un gran desempeño y absoluta confiabilidad. Cree un archivo con nombre <strong>sep_centros_trabajos.sql</strong> y escriba este comando SQL para <strong>crear una tabla con las mismas columnas que el archivo CSV.</strong></p>
+
+<pre><code>--
+-- sep_centros_trabajos.sql
+--
+CREATE TABLE sep_centros_trabajos (
+    id_inm           character(6),
+    clave_ct         character(11),
+    ent              character(2),
+    mun              character(3),
+    loc              character(4),
+    ent_admon        character(2),
+    nombrect         character varying,
+    c_estatus_ct     character(1),
+    nivel            character(1),
+    modalidad        character(1),
+    turno            character(1),
+    control          character(1),
+    ct_multigrado    character(1),
+    ent_carga        character(2),
+    mun_carga        character(3),
+    loc_carga        character(4),
+    extra            character varying
+);
+</code></pre>
+
+<p>Tome nota que los tipos de datos de cada columna son congruentes con las líneas del archivo CSV. Por ejemplo, la columna <strong>clave_ct</strong> siempre tiene 11 caracteres, por eso se define como <strong>character(11)</strong>. En alguna línea hay un dato demás que remedié agregando una columna <strong>extra</strong> como <em>polizón</em>.</p>
+
+<p>El siguiente paso es <strong>crear una nueva base de datos</strong> con nombre <strong>sep_censo_escuelas</strong>, que con PostgreSQL se hace desde la terminal con el comando <strong>createdb</strong>. Por costumbre, le asigno que el <em>dueño</em> de esta base de datos sea otro usuario (previamente creado) llamado <strong>trcimplan</strong>. Este usuario no tiene privilegios mayores, lo que me asegura que si otro sistema lo toma u otro usuario se hace pasar por éste, <strong>no nos haga</strong> <em>travesuras</em> con las demás bases de datos.</p>
+
+<pre><code>$ createdb -O trcimplan sep_censo_escuelas
+</code></pre>
+
+<p>Sigue <strong>cargar el archivo sep_centros_trabajos.sql y ordenar su ejecución.</strong> Así la tabla estará lista, aunque vacía por el momento:</p>
+
+<pre><code>$ psql -U trcimplan -f sep_centros_trabajos.sql sep_censo_escuelas
+</code></pre>
+
+<p>Continuamos con la <em>carga masiva</em> de las <strong>273,318 líneas</strong> que están en el archivo <strong>CATALOGO_CT.csv</strong>. Antes de mostrar las órdenas a escribir, revisaremos estos detalles que no hay que subestimar.</p>
+
+<ul>
+<li><strong>No cualquier usuario PostgreSQL puede ejecutar el comando COPY</strong>: Porque requiere un <strong>superusuario</strong>. Como recordará, he recomendado que el <em>dueño</em> tenga pocos privilegios, entre los que está <strong>NO</strong> ejecutar <strong>COPY</strong>. Así que uso mi usuario habital que sí tiene dicho <em>poder</em>.</li>
+<li><strong>La ubicación del archivo</strong>: El comando COPY de PostgreSQL es bastante quejoso cuando se le da una ruta elaborada. Así que haga una copia a una ruta corta, en mi ejemplo, a <strong>/tmp</strong>.</li>
+<li><strong>La codificación de caracteres del archivo CSV</strong>: Se desearía que los datos abiertos usen <strong>UTF-8</strong> el cual es el estándard moderno. Pero este archivo ofrecido por la <strong>S.E.P.</strong> está en el anticuado <strong>ISO 8859-1</strong>. Afortunadamente, <a href="http://www.postgresql.org/docs/current/static/multibyte.html">PostgreSQL puede cambiar la codificación al cargar archivos</a> con la orden <strong>encoding.</strong></li>
+<li><strong>Identificar el caracter que separa los datos de cada columna</strong>: Observe que se usan comas para separar los datos, inclusive los textos están entre comillas; respetando la forma en que un archivo CSV debe ser escrito.</li>
+<li><strong>Si la primer línea contiene los encabezados de las columnas</strong>: Entonces <strong>no</strong> debe agregarse como un registro a la base de datos.</li>
+</ul>
+
+<p>Con estos detalles identificados y convertidos a específicas instrucciones, realizamos la <strong>carga del archivo CSV a la base de datos.</strong> Identifique Usted mismo la función de cada pieza:</p>
+
+<pre><code>$ psql sep_censo_escuelas
+sep_censo_escuelas=# \encoding LATIN1
+sep_censo_escuelas=# COPY sep_centros_trabajos FROM '/tmp/CATALOGO_CT.csv' DELIMITER ',' CSV HEADER;
+sep_censo_escuelas=# \q
+</code></pre>
+
+<h3>Con LibreOffice Base podrá comunicarse con PostgreSQL</h3>
+
+<p>Ejecute <strong>LibreOffice Base</strong>, al aparecer la ventana del asistente, elija la opción <strong>Conectar con una base de datos existente</strong> y en el campo seleccione <strong>PostgreSQL</strong>. Luego de clic en <strong>Siguiente</strong>:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/11-libreoffice-base-paso-1.png" alt=""></p>
+
+<p>En el segundo paso <strong>LibreOffice Base</strong> le pregunta el <strong>URL del origen de datos</strong>; en este campo se establece la dirección IP del servidor con PostgreSQL y varios parámetros como el nombre de la base de datos. En este ejercicio, nuestro propio equipo tiene PostgreSQL en ejecución, así que con el texto <strong>host=127.0.0.1</strong> le indicamos que nuestro propio equipo (127.0.0.1) la tiene. Seguido del nombre de la base de datos con <strong>dbname=sep_censo_escuelas</strong>. Escriba eso y de clic en siguiente:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/12-libreoffice-base-paso-2.png" alt=""></p>
+
+<p>De forma predeterminada, salvo que haya cambiado la configuración, PostgreSQL permite conexiones desde <strong>localhost</strong> con un usuario válido, sin revisar la contraseña. Como sugerí que <strong>trcimplan</strong> sea el dueño de <strong>sep_censo_escuelas</strong> entonces lo usamos como nombre de usuario. Habilite la casilla <strong>contraseña obligatoria</strong> y de clic en el botón <strong>Probar conexión</strong>. Pruebe con cualquier contraseña mientras no esté vacía:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/13-libreoffice-base-paso-3.png" alt=""></p>
+
+<p>La siguiente ventana muestra que ha sido exitosa la comunicación entre LibreOffice y PostgreSQL. En caso de que falle, revise los pasos anteriores o la configuración de su servidor PostgreSQL. De estar todo bien, siga con clic en <strong>Aceptar</strong> para cerrar esta pequeña ventana y luego a <strong>Siguiente</strong> en el asistente:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/14-libreoffice-base-prueba-de-conexion.png" alt=""></p>
+
+<p>Deje la opción <strong>Sí, registrar la base de datos</strong> es para tener acceso a esta base de datos desde las otras aplicaciones de LibreOffice. Y <strong>Abrir la base de datos para su edición</strong> para hacer pruebas y nuestra primera consulta. De clic en <strong>Finalizar</strong>:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/15-libreoffice-base-paso-4.png" alt=""></p>
+
+<p>LibreOffice Base solicitará que se guarde un <strong>archivo ODB</strong> donde recordará estas configuraciones y más detalles. Este archivo <strong>NO</strong> contiene copia de los datos, ni de las hojas de cálculo que vayamos a hacer. Al abrirlo, podemos crear y modificar las consultas. Determine un nombre y un lugar en sus documentos donde guardarlo. En este ejemplo, con el nombre <strong>SEP Censo Escuelas.odb</strong>:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/16-libreoffice-base-guardar.png" alt=""></p>
+
+<p>Tendremos a la vista el apartado de <strong>Tablas</strong>. A modo de prueba, podemos visualizar los datos al elegir la carpeta <strong>public</strong> y dar doble clic en <strong>sep_centros_trabajos</strong>:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/17-libreoffice-base-tablas.png" alt=""></p>
+
+<p>Esta segunda ventana nos muestra los primeros registros de todos los contenidos en la tabla <strong>sep_centros_trabajos</strong>. Tenga en mente que la tabla contiene <strong>TODOS los centros de trabajo del país</strong>; por lo que necesitamos buscar la forma de filtrarla para tener sólo los registros de nuestra ciudad.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/18-libreoffice-base-tabla-sep_censo_escuelas.png" alt=""></p>
+
+<p>Identifique que hay columnas para la entidad con <strong>ent</strong>, el municipio con <strong>mun</strong> y la localidad con <strong>loc</strong>. Use el <a href="http://www.inegi.org.mx/geo/contenidos/geoestadistica/CatalogoClaves.aspx">Catálogo Único de Claves</a> del <strong>INEGI</strong> para averiguar los números que identifican a su estado, municipio y localidad. Para nuestro ejercicio, Coahuila de Zaragoza es <strong>05</strong>, Municipio de Torreón es <strong>035</strong> y la localidad de Torreón es <strong>0001</strong>.</p>
+
+<h3>Filtrar los datos</h3>
+
+<p>De clic en el icono <strong>Consultas</strong> del lado derecho y luego en <strong>Crear consulta en modo diseño</strong> para usar un asistente gráfico. Si domina el uso de comandos SQL puede optar por <strong>Crear una consulta en modo SQL</strong>:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/21-libreoffice-base-crear-consulta.png" alt=""></p>
+
+<p>El asistente le solicita que agregue por lo menos una tabla. En otro caso, cuando quiere hacer una consulta con dos o más tablas, este asistente permite agregarlas, respetando las relaciones entre ellas. <strong>Agregue</strong> la tabla <strong>sep_centros_trabajos</strong> del esquema <strong>public</strong>.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/22-libreoffice-base-definir-columnas.png" alt=""></p>
+
+<p>Arrastre las columnas <strong>ent</strong>, <strong>mun</strong>, <strong>loc</strong>, <strong>clave_ct</strong> y <strong>nombrect</strong> desde la tabla hasta las columnas de la parte inferior; también funciona dando doble clic al nombre de la columna en la tabla. En el renglón <strong>Criterio</strong> se escribe el valor por el que se quiere filtrar una o varias columnas. Esciba <strong>'05'</strong> (Coahuila de Zaragoza) en <em>ent</em>, <strong>'035'</strong> (Municipio Torreón) en <em>mun</em> y <strong>'0001'</strong> (Localidad Torreón) en <em>loc</em>. Defina el orden como <strong>ascendente</strong> en <em>clave_ct</em> y en <em>nombrect</em>. Presione el botón que <strong>ejecuta la consulta</strong> y revise que los registros entregados sean los que los filtros dejen pasar. Guarde la consulta como <strong>SEP Centros Trabajos Torreón</strong>:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/23-libreoffice-base-guardar-consulta.png" alt=""></p>
+
+<p>Corra LibreOffice Calc y en una nueva hoja de cálculo presione F4 (o en el menú <strong>Ver</strong> elija <strong>Orígenes de datos</strong>) para que aparezca las conexiones que Base ha establecido. Despliegue <strong>SEP Censo Escuelas</strong>, luego <strong>Consultas</strong> y de clic en <strong>SEP Centros Trabajos Torreón</strong>. Una vista previa de los datos aparece del lado derecho. Arrastre <strong>SEP Centros Trabajos Torreón</strong> y deje caer en la celda <strong>A1</strong> para que todos los datos de la consulta se pasen a la hoja de cálculo.</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/24-libreoffice-calc-importar-a-hoja-de-calculo.png" alt=""></p>
+
+<p>Un buen tip es que estas celdas se quedan relacionadas con la consulta externa. Así cuando haya habido cambios en la Base de Datos, puede actualizar con el menú <strong>Datos</strong> y la opción <strong>Actualizar área</strong>.</p>
+
+<h3>Filtrar por tipo de centro de trabajo</h3>
+
+<p>Regrese a LibreOffice Base y al apartado de <strong>Consultas</strong>. Para aprovechar la consulta que se tiene como base para nuevas, de clic con del botón derecho en <strong>SEP Centros Trabajos Torreón</strong> y elija en el menú contextual <strong>Editar</strong>:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/31-libreoffice-base-editar.png" alt=""></p>
+
+<p>Según el <a href="http://cumplimientopef.sep.gob.mx/glosario_de_terminos/">Glosario de Términos Utilizados</a>, la Clave del Centro de Trabajo <strong>clave_ct</strong> está formada por:</p>
+
+<ul>
+<li>Dos números para la entidad federativa, desde 01 para Aguascalientes hasta 32 para Zacatecas.</li>
+<li>Una letra clasificadora de acuerdo con la naturaleza del financimiento: <strong>D</strong> Federal, <strong>E</strong> Estatal y <strong>K</strong> Conafe</li>
+<li>Dos letras para clasificar los diferentes tipos, nieveles y servicios:
+
+<ul>
+<li><strong>CC</strong> Escuela de Educación Preescolar Indígena</li>
+<li><strong>JN</strong> Escuela de Educación Preescolar</li>
+<li><strong>PB</strong> Escuela de Educación Primaria Indígena</li>
+<li><strong>PR</strong> Escuela de Educación Primaria</li>
+<li><strong>ES</strong> Escuela de Educación Secundaria General</li>
+<li><strong>ST</strong> Escuela de Educación Secundaria Técnica</li>
+<li><strong>TV</strong> Telesecundaria</li>
+</ul></li>
+<li>Un número progresivo de hasta cuatro caracteres.</li>
+<li>Un caracter verificador.</li>
+</ul>
+
+<p>Entonces, para filtrar sólo las claves para <strong>Preescolar</strong> escriba en el campo <strong>Criterio</strong> el filtro <strong>LIKE '???JN*'</strong>. Éste indica que los primeros tres caracteres pueden ser cualquiera, que el cuarto y quinto sean <strong>JN</strong>, seguido por lo que sea. Guarde esta consulta con otro nombre, vaya a <strong>Archivo</strong> y elija <strong>Guardar como</strong>, nómbrelo <strong>SEP Centros Trabajos Torreón Preescolar</strong>:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/32-libreoffice-base-filtrar-por-clave.png" alt=""></p>
+
+<p>Repita estas acciones para crear consultas que filtren por <strong>PR</strong> Primaria, <strong>ES</strong> Secundaria General y <strong>ST</strong> Secundaria Técnica.</p>
+
+<p>Vaya a LibreOffice Calc e importe los datos de estas cuatro consultas a un libro, donde cada consulta vaya en una hoja; nombre las hojas <strong>Preescolar</strong>, <strong>Primarias</strong>, <strong>Secundarias</strong> y <strong>Secundarias Técnicas</strong> respectivamente:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/33-libreoffice-calc-cargar-cada-consulta.png" alt=""></p>
+
+<p>En otra hoja, llamada <strong>Reporte</strong>, vamos a contabilizar y graficar las escuelas por su tipo. La función <strong>CONTAR.SI</strong> de LibreOffice Calc sirve para contar las celdas que cumplen una condición; en nuestro ejemplo, la usamos para contar las celdas en la columna <strong>A</strong> que tienen el texto <strong>05</strong>:</p>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/34-libreoffice-calc-reporte.png" alt=""></p>
+
+<h3>Reflexiones</h3>
+
+<p><strong>La información puede ser inmensamente poderosa para comprender y dirigir los complejos problemas sociales.</strong> Para lograr este objetivo, no sólo se necesitan los datos correctos, también la gente correcta que sea capaz de obtener los números esenciales; aquellos que apunten a los detalles técnicos críticos y den soporte a las decisiones más importantes.</p>
+
+<p>Quien aspire a ser un <strong>Científico de Datos</strong> deberá dominar no sólo una, sino un gran número de herramientas; que usará como un hipotético <a href="https://es.wikipedia.org/wiki/MacGyver">MacGyver</a> quien con lo que tenga "a la mano", sea capaz de "atrapar" a la solución del problema que enfrente.</p>
+
+<p>En próximas entregas seguiermos ejercitando y explorando nuevas formas de alcanzar estos objetivos.</p>
+
+<h3>Referencias</h3>
+
+<ul>
+<li><a href="http://datos.gob.mx/">Datos.gob.mx</a></li>
+<li><a href="http://www.snie.sep.gob.mx/">Sistema Nacional de información Estadística Educativa</a></li>
+<li><a href="http://www.inegi.org.mx/geo/contenidos/geoestadistica/CatalogoClaves.aspx">Catálogo Único de Claves de Áreas Geoestadísticas Estatales, Municipales y Localidades</a></li>
+<li><a href="http://cumplimientopef.sep.gob.mx/glosario_de_terminos/">Portal de Cumplimiento del Art. 10 del PEF 2012 - Glosario de Términos Utilizados - Clave de Centro de Trabajo</a></li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>Potencial Económico del Sector Salud en La Laguna</title>
       <link>http://www.trcimplan.gob.mx/blog/potencial-economico-del-sector-salud-en-la-laguna.html</link>
@@ -490,117 +713,6 @@
 
 <ul>
 <li>Resumen del Plan Integral de Movilidad Urbana Sustentable. Logit 2011.</li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Por un Adecuado Manejo del Agua en Áreas Verdes</title>
-      <link>http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes.html</link>
-      <guid isPermaLink="false">blog-por-un-adecuado-manejo-del-agua-en-areas-verdes</guid>
-      <pubDate>Tue, 25 Aug 2015 21:10:00 -0500</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<h3>Introducción</h3>
-
-<blockquote>
-  <p>La gestión de espacios verdes en las zonas metropolitanas es la solución a problemas de tipo ambiental, perceptual, estético y social.</p>
-  
-  <p>Por Arq. Daniela Corral</p>
-</blockquote>
-
-<p>La <strong>Zona Metropolitana de la Laguna es una región catalogada como semidesértica,</strong> a pesar de esto, debe su crecimiento económico, poblacional y urbano a la explotación de sus mantos acuíferos. Actualmente, se ve reflejado en <strong>escasez de agua,</strong> la cual no satisface el total de la demanda. La <strong>gestión de jardines urbanos</strong> se vuelve una necesidad de tipo ambiental y social, sin embargo, estos son consumidores de grandes cantidades de agua.</p>
-
-<div style="clear:left;"></div>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/area-verde.jpg"></p>
-
-<p>Se tienen estudios que demuestran que las <strong>personas</strong> tienden a ser <strong>más saludables, más felices y a tener una vida más duradera en áreas con acceso a la naturaleza,</strong> incluyendo espacios urbanos con áreas verdes. Los espacios al aire libre son los menos costosos de crear y los que generan la más alta rentabilidad -tomando en cuenta aspectos como la mejora de vida en comunidad, salud y riqueza, además de la generación de actividades económicas en las áreas circundantes.</p>
-
-<p>A pesar de ello, no brindamos a los espacios libres el mismo valor y soporte económico que brindamos a los edificios e interiores. No se cuenta con un análisis de vialidad económica para el diseño de espacios exteriores, cuando podría y debería realizarse.</p>
-
-<p>Ante el argumento anteriormente descrito, se vuelve necesario <strong>implementar estrategias específicas para el desarrollo de áreas verdes urbanas</strong> en la región, teniendo como objetivo la <strong>utilización moderada de recursos hídricos.</strong></p>
-
-<p>La Zona Metropolitana de la Laguna (ZML), conurbación que ante la <strong>creciente mancha urbana,</strong> la <strong>sobreexplotación de mantos acuíferos</strong> y el método actual de diseño de áreas verdes basado en el <strong>jardín tradicional</strong> (con vegetación exótica, grandes extensiones de césped y no toma en cuenta el contexto del lugar), <strong>presenta gasto excesivo de agua por irrigación.</strong></p>
-
-<p>El principal uso del agua en la Zona Metropolitana de la Laguna es <strong>agrícola,</strong> se aprovecha el <strong>91%</strong> del agua que extrae la Comisión Nacional del Agua (CONAGUA). De los 2,496 millones de m³ que se aprovecha, el <strong>45% proviene de fuentes subterráneas y el 55% restante de las superficiales.</strong> En orden de importancia los otros usos son el público – <strong>urbano que demanda el 5%, pecuario 2% e industrial 1%,</strong> cuya fuente es exclusivamente <strong>subterránea.</strong></p>
-
-<p>A nivel municipio el uso de agua dominante es el agropecuario en 10 municipios, público en Gómez Palacio, Lerdo y San Pedro Las Colonias e industrial en Torreón y Matamoros (Salas-Quintanal, 2011).</p>
-
-<p>El agua se abastece en la Comarca Lagunera mediante diferentes instituciones (dependiendo del municipio que compete), en <strong>Torreón</strong> el suministro es regulado por el Sistema Municipal de Aguas y Saneamiento (SIMAS), en <strong>Gómez Palacio,</strong> el organismo que se encarga de suministrar el agua es el Sistema Descentralizado de Agua Potable y Alcantarillado (SIDEAPA), y por último, el Sistema de Agua Potable y Alcantarillado (SAPAL), que es el encargado de suministrar agua en ciudad <strong>Lerdo</strong> (R. Ayuntamiento de Gómez Palacio 2013-2016, 2013).</p>
-
-<p>La ciudad de <strong>Torreón</strong> tiene un suministro de agua proveniente de <strong>pozos profundos (60 en total).</strong> La oferta de agua para la ciudad es de <strong>2,200 litros por segundo</strong> aproximadamente, superándose los <strong>70 millones de metros cúbicos al año.</strong> Con esto se debería lograr satisfacer la demanda de los usuarios tanto domésticos, comerciales e industriales, así como los usuarios del espacio público. (Comisión Nacional del Agua, 1997)</p>
-
-<p>SIMAS tiene <strong>más de 130 000 tomas de agua,</strong> de éstas, el <strong>90.6 por ciento es para uso doméstico, 9.0 para uso comercial, 0.3 para uso industrial y 0.2 para uso público-urbano.</strong></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/grafica-1-tomas-agua-torreon-coahuila.jpg"><br>Tomas de Agua de la Ciudad de Torreón Coahuila</p>
-
-<p>Actualmente, existe un <strong>grave deterioro de parques y jardines en la ciudad de Torreón,</strong> por lo que en las últimas administraciones del municipio se gestionó la construcción de espacios urbanos de alto impacto para el esparcimiento social, así mismo, se rehabilitaron diversas plazas públicas ya existentes, de gran importancia para la ciudad. Esta gestión se organizó mediante el programa “Al rescate de Torreón”, que se encuentra en el Plan Municipal de Desarrollo en el apartado Hábitat y Servicios Públicos. (Republicano Ayuntamiento de Torreón, 2009).</p>
-
-<p>En cuanto al sistema de riego y mantenimiento de áreas verdes en la ciudad de Torreón, el mayor consumo de agua por este medio se enfoca a áreas verdes de gran importancia en la ciudad, dichas zonas se dividen en:</p>
-
-<div class="row">
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/alameda-zaragoza-bosque-venustiano-carranza.jpg"> 1) Bosque, 2) Alameda</div>
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/alameda-zaragoza.jpg"> Alameda Zaragoza</div>
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/bosque-venustiano-carranza.jpg"> Bosque Venustiano Carranza</div>
-</div>
-
-<ol>
-<li><strong>Bosque Venustiano Carranza.</strong> Ubicado en las Avenidas Juárez y Cuauhtémoc, es el principal pulmón de la ciudad, y cuenta con servicio de mantenimiento que abarca las funciones de limpieza, poda y deshierbe, mantenimiento en alumbrado, en pintura y mantenimiento en sistema de riego, el cual se basa en el sistema por aspersión desde el año 1991.</li>
-<li><strong>Alameda Zaragoza.</strong> Esta plaza se ubica entre las Calles Juárez y Allende, y al igual que el bosque Venustiano Carranza, el sistema de riego para sus áreas verdes es por aspersión, sin embargo, aquí se cuenta con mayor inversión en mantenimiento y limpieza del lugar, al contar con monumentos y fuentes.</li>
-<li><strong>Otros espacios públicos (camellones y corredores urbanos).</strong> Bajo la organización del programa de mejoramiento de imagen urbana, el Gobierno del Estado de Coahuila gestionó la construcción de <strong>61 plazoletas y 14 vialidades.</strong> En cuanto a las áreas verdes ubicadas en las vialidades de la ciudad, el mayor consumo de recursos hídricos se encuentra en el Periférico Raúl López Sánchez, Boulevard Libertad, Fundadores, Rodríguez Triana, Ramón Méndez, Constitución, Independencia y Diagonal Reforma; realizándose el riego bajo el sistema por aspersión. Además, se llevan a cabo en promedio mensual 100 servicios a plazas y vialidades de riego con camiones cisternas con agua tratada. Actualmente, se invierten aproximadamente 1.7 millones de pesos únicamente en la adquisición de maquinaria para dar mantenimiento a áreas verdes (Municipio de Torreón, 2013).</li>
-</ol>
-
-<p>La ciudad de <strong>Gómez Palacio</strong> cuenta con 200 mil habitantes, y el suministro de agua para satisfacer las necesidades de la población se realiza mediante la extracción de <strong>pozos profundos (34 en total).</strong> Se pueden definir claramente tres tipos de consumo doméstico promedio: popular (185 litros), medio (230 litros) y alto (400 litros) (Comisión Nacional del Agua, 1997).</p>
-
-<p>Respecto al gasto de agua para uso público se tiene que en la ciudad de Gómez Palacio se pueden ubicar <strong>dos principales sectores</strong> para el destino de riego de áreas verdes, éstas son: <strong>Parques, plazas y jardines; vialidades, calles y áreas verdes en banquetas.</strong> En lo que respecta al <strong>riego de parques plazas, parques, jardines y áreas verdes</strong> ubicadas en vialidades principales, el riego y mantenimiento corre a cargo del municipio de Gómez Palacio y se utiliza el sistema de <strong>aspersión</strong> principalmente, en las plazas de las colonias populares se lleva a cabo por medio de la toma directa de agua. Por otro lado, el riego para áreas verdes localizadas en las <strong>vialidades principales</strong> se realiza mediante el método de <strong>camiones cisterna</strong> en su mayoría, solamente el boulevard Miguel Alemán cuenta con sistema de riego por aspersión. Finalmente el riego de áreas verdes ubicadas en áreas verdes de banquetas es por parte de usuarios particulares. (R. Ayuntamiento de Gomez Palacio 2013-2016, 2013).</p>
-
-<p>El caso de ciudad <strong>Lerdo es similar al de Gómez Palacio,</strong> al contarse únicamente con sistema de riego por aspersión en plazas y parques, a nivel de vialidad, muy pocas áreas verdes cuentan con este sistema de riego, utilizándose el sistema de pipas, el cual lo provee el municipio.</p>
-
-<p>Estadísticamente, <strong>la cantidad de la extracción de agua del subsuelo que se destina para uso Público Urbano (PU), se estima en casi 10 millones de m3/año, representando un 14.8% de la extracción total.</strong> (SEMARNAT, 2013).</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/grafica-2-extraccion-total-agua-acuifero-oriente-aguanaval.jpg"><br>Extracción total de Agua del Acuifero Oriente Aguanaval</p>
-
-<p>Para logar el <strong>objetivo del ahorro de agua en áreas verdes es muy importante la vegetación,</strong> ya que son el elemento que consume agua en un conjunto paisajístico. Se recomienda el uso de aquellas especies mejor adaptadas a las condiciones climáticas del sitio, con un <strong>índice amplio de tolerancia a la sequía,</strong> cuya variedad de especies es extensa, ya que abarca los especímenes nativos e inducidos.</p>
-
-<p><strong>El uso de especies nativas es muy recomendable,</strong> ya que, en esencia, son las mejor adaptadas y resistentes, y por lo tanto, <strong>su mantenimiento es mínimo,</strong> sin embargo, el mercado y producción de éstas es muy limitada, además, las condiciones del suelo urbano son muy diferentes a las naturales (Xeriscape TM, 1990).</p>
-
-<p>Si no queremos que vuelva a pasar la muerte de árboles como paso con la <strong>Helada del 4 de Febrero del 2011</strong> se debe se elegir bien la vegetación y seleccionar el lugar adecuado para su plantación, fomentar el crecimiento de las raíces profundas, de la preparación del suelo y el uso de prácticas de riego adecuadas, <strong>algunos de los árboles que no se helaron fueron; palo verde, fresnos, lilas, truenos, mezquites, cedros, jacarandas, huizaches, pirules, pinos, álamos, olivos, moras, algarrobos, ébanos y pingüicas.</strong></p>
-
-<h3>Vegetación regional con bajo consumo de agua</h3>
-
-<div class="row">
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-mezquite.jpg"> Mezquite</div>
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-huizache.jpg"> Huizache</div>
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-agave.jpg"> Agave</div>
-</div>
-
-<div class="row">
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-palma-desertica.jpg"> Palma Desértica</div>
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-cactacea.jpg"> Cactácea</div>
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-ocotillo.jpg"> Ocotillo</div>
-</div>
-
-<div class="row">
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-candelilla.jpg"> Candelilla</div>
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-nopal.jpg"> Nopal</div>
-  <div class="col-md-4"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-gobernadora.jpg"> Gobernadora</div>
-</div>
-
-<p>La gestión de espacios verdes en las zonas metropolitanas es la solución a problemas de tipo ambiental, perceptual, estético y social. <strong>Se deben desarrollar estrategias específicas para el desarrollo de espacios verdes urbanos en un clima semidesértico,</strong> con el objetivo primordial de implementar un sistema, en el ámbito de arquitectura de paisaje, que permitiese disminuir el consumo de agua destinada para irrigación de jardines urbanos de carácter público.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-adecuado-manejo-del-agua-en-areas-verdes/vegetacion-en-museo-del-desierto.jpg"> Vegetación en Museo del Desierto</p>
-
-<p>Bajo en contexto de escasez de agua, <strong>se elaboró una propuesta de intervención paisajista en una sección de camellón, ubicado en el Blvd. Ejército Mexicano, de la Zona Metropolitana de la Laguna.</strong> Se plantea que este caso de estudio pueda ser tomado como un modelo de introducción hacia el uso sustentable de los recursos hídricos de la región; y que las estrategias manejadas en la propuesta, puedan establecer los cimientos para un futuro reordenamiento de las áreas verdes públicas de la ciudad. Este trabajo tiene como premisa el poder concebir el desarrollo factible de infraestructura verde, sin que esto conlleve el uso irracional de recursos hídricos. Para poder ver la <strong>Propuesta del Proyecto</strong> se encuentra en la <strong>Tesis de Diseño de paisaje de bajo consumo de agua de la UABC.</strong></p>
-
-<h3>Bibliografía</h3>
-
-<ul>
-<li>Tesis de Diseño de paisaje de bajo consumo de agua. Por M. Arq. Soraya Alba Delgado. (Próxima publicación).</li>
-<li>Xeriscape TM, 1990</li>
-<li>SEMARNAT, 2013</li>
-<li>SIMAS</li>
-<li>SIDEAPA</li>
-<li>Salas-Quintanal, 2011</li>
-<li>Comisión Nacional del Agua, 1997</li>
 </ul>
 ]]></description>
     </item>
