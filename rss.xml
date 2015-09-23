@@ -5,7 +5,7 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 22 Sep 2015 10:28:21 -0500</pubDate>
+    <pubDate>Wed, 23 Sep 2015 14:36:10 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
@@ -165,7 +165,7 @@ sep_censo_escuelas=# \q
 
 <p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/22-libreoffice-base-definir-columnas.png" alt=""></p>
 
-<p>Arrastre las columnas <strong>ent</strong>, <strong>mun</strong>, <strong>loc</strong>, <strong>clave_ct</strong> y <strong>nombrect</strong> desde la tabla hasta las columnas de la parte inferior; también funciona dando doble clic al nombre de la columna en la tabla. En el renglón <strong>Criterio</strong> se escribe el valor por el que se quiere filtrar una o varias columnas. Esciba <strong>'05'</strong> (Coahuila de Zaragoza) en <em>ent</em>, <strong>'035'</strong> (Municipio Torreón) en <em>mun</em> y <strong>'0001'</strong> (Localidad Torreón) en <em>loc</em>. Defina el orden como <strong>ascendente</strong> en <em>clave_ct</em> y en <em>nombrect</em>. Presione el botón que <strong>ejecuta la consulta</strong> y revise que los registros entregados sean los que los filtros dejen pasar. Guarde la consulta como <strong>SEP Centros Trabajos Torreón</strong>:</p>
+<p>Arrastre las columnas <strong>ent</strong>, <strong>mun</strong>, <strong>loc</strong>, <strong>clave_ct</strong> y <strong>nombrect</strong> desde la tabla hasta las columnas de la parte inferior; también funciona dando doble clic al nombre de la columna en la tabla. En el renglón <strong>Criterio</strong> se escribe el valor por el que se quiere filtrar una o varias columnas. Escriba <strong>'05'</strong> (Coahuila de Zaragoza) en <em>ent</em>, <strong>'035'</strong> (Municipio Torreón) en <em>mun</em> y <strong>'0001'</strong> (Localidad Torreón) en <em>loc</em>. Defina el orden como <strong>ascendente</strong> en <em>clave_ct</em> y en <em>nombrect</em>. Presione el botón que <strong>ejecuta la consulta</strong> y revise que los registros entregados sean los que los filtros dejen pasar. Guarde la consulta como <strong>SEP Centros Trabajos Torreón</strong>:</p>
 
 <p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/introduccion-a-la-ciencia-de-datos-parte-2/23-libreoffice-base-guardar-consulta.png" alt=""></p>
 
