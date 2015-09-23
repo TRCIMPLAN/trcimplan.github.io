@@ -138,7 +138,7 @@ El asistente le solicita que agregue por lo menos una tabla. En otro caso, cuand
 
 <img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/22-libreoffice-base-definir-columnas.png" alt="">
 
-Arrastre las columnas **ent**, **mun**, **loc**, **clave_ct** y **nombrect** desde la tabla hasta las columnas de la parte inferior; también funciona dando doble clic al nombre de la columna en la tabla. En el renglón **Criterio** se escribe el valor por el que se quiere filtrar una o varias columnas. Esciba **'05'** (Coahuila de Zaragoza) en _ent_, **'035'** (Municipio Torreón) en _mun_ y **'0001'** (Localidad Torreón) en _loc_. Defina el orden como **ascendente** en _clave_ct_ y en _nombrect_. Presione el botón que **ejecuta la consulta** y revise que los registros entregados sean los que los filtros dejen pasar. Guarde la consulta como **SEP Centros Trabajos Torreón**:
+Arrastre las columnas **ent**, **mun**, **loc**, **clave_ct** y **nombrect** desde la tabla hasta las columnas de la parte inferior; también funciona dando doble clic al nombre de la columna en la tabla. En el renglón **Criterio** se escribe el valor por el que se quiere filtrar una o varias columnas. Escriba **'05'** (Coahuila de Zaragoza) en _ent_, **'035'** (Municipio Torreón) en _mun_ y **'0001'** (Localidad Torreón) en _loc_. Defina el orden como **ascendente** en _clave_ct_ y en _nombrect_. Presione el botón que **ejecuta la consulta** y revise que los registros entregados sean los que los filtros dejen pasar. Guarde la consulta como **SEP Centros Trabajos Torreón**:
 
 <img class="img-responsive" src="introduccion-a-la-ciencia-de-datos-parte-2/23-libreoffice-base-guardar-consulta.png" alt="">
 
