@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La ciudad es el espacio donde sus habitantes se representan, reúnen, conviven fortalecen las estructuras sociales e inclusive se manifiestan. Por ello es necesario cuidar la cantidad y calidad de los servicios que ahí se prestan.">
+  <meta name="author" content="Arq. Ilse Ávila García">
+  <meta name="keywords" content="IMPLAN, Torreon, Ciudad, Convivencia, Calidad de Vida">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Conviviendo en Nuestras Ciudades - IMPLAN Torreón">
+  <meta name="twitter:description" content="La ciudad es el espacio donde sus habitantes se representan, reúnen, conviven fortalecen las estructuras sociales e inclusive se manifiestan. Por ello es necesario cuidar la cantidad y calidad de los servicios que ahí se prestan.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/conviviendo-en-nuestras-ciudades/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/conviviendo-en-nuestras-ciudades.html">
+  <meta name="og:title" content="Conviviendo en Nuestras Ciudades - IMPLAN Torreón">
+  <meta name="og:description" content="La ciudad es el espacio donde sus habitantes se representan, reúnen, conviven fortalecen las estructuras sociales e inclusive se manifiestan. Por ello es necesario cuidar la cantidad y calidad de los servicios que ahí se prestan.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/conviviendo-en-nuestras-ciudades/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/conviviendo-en-nuestras-ciudades.html">
+  <title>Conviviendo en Nuestras Ciudades - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Conviviendo en Nuestras Ciudades</h1>
+          <div class="encabezado-descripcion" itemprop="description">La ciudad es el espacio donde sus habitantes se representan, reúnen, conviven fortalecen las estructuras sociales e inclusive se manifiestan. Por ello es necesario cuidar la cantidad y calidad de los servicios que ahí se prestan.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Arq. Ilse Ávila García</span>
+          - <meta itemprop="datePublished" content="2015-09-27T18:00">27/09/2015 18:00
+        </div>
+        </div>
+        <meta itemprop="image" alt="Conviviendo en Nuestras Ciudades" src="conviviendo-en-nuestras-ciudades/imagen.jpg">
+              <div itemprop="articleBody">
+        <p>El espacio público es el lugar al que tiene acceso el ciudadano; el área destinada al uso social. Jordi Borja señala “El espacio Público es la ciudad”. Y efectivamente la ciudad es el espacio donde sus habitantes se representan, reúnen, conviven; fortalecen las estructuras sociales e inclusive se manifiestan. Las plazas o las áreas verdes han sido sinónimo de estas actividades, pero la realidad es que los ciudadanos utilizan todo el espacio que está fuera del ámbito privado o doméstico para ejercer este derecho; llámense plazas, áreas verdes, parques, espacios deportivos, camellones e inclusive vialidades.</p>
+
+<h3>Parking Day @ Mercado Juárez</h3>
+
+<p><img class="img-responsive" src="conviviendo-en-nuestras-ciudades/01-parking-day-mercado juarez.jpg" alt="Parking Day Mercado Juarez"></p>
+
+<p>Por eso es necesario cuidar la cantidad y calidad de los servicios que se prestan en estos espacios que sirven de permeabilidad a los habitantes de las ciudades, se deben equilibrar tanto en las áreas residenciales como en los barrios y periferias, generar sinergias que nos puedan dar elementos para “hacer Ciudad” en nuestra ciudad.</p>
+
+<h3>Peregrinación del 12 de diciembre en Av. Juárez Torreón, Coah.</h3>
+
+<p><img class="img-responsive" src="conviviendo-en-nuestras-ciudades/02-peregrinacion.jpg" alt="Peregrinacion del 12 de diciembre en Av. Juarez Torreon Coahuila"></p>
+
+<p>Actualmente la ciudadanía pone en el plano central el rescate de estos espacios, deteriorados, abandonados, reducidos y privatizados. Que al final son un reflejo de la organización económica, social, estructura política e intereses grupales que dominan; se debe defender el espacio , promover la proliferación de espacios públicos abiertos y cerrados que sean de uso colectivo, con equipamiento cultural, deportivo, recreativo, a los que debemos sumar espacios vacantes como áreas de transición, trabajar en políticas públicas que permitan aumentar la superficie en banquetas para caminar, que igualen el espacio destinado a la circulación motorizada.</p>
+
+<h3>Unión. S.A. Compañía Jabonera de Torreón</h3>
+
+<div class="row">
+ <div class="col-md-6"><img class="img-responsive" src="conviviendo-en-nuestras-ciudades/03-jabonera.jpg" alt="La Union S.A. Compañia Jabonera de Torreon"></div>
+ <div class="col-md-6"><img class="img-responsive" src="conviviendo-en-nuestras-ciudades/04-jabonera.jpg" alt="Complejo Cultural y Deportivo La Jabonera de Torreon"></div>
+</div>
+
+<h3>Estrategias y Programas</h3>
+
+<p>En ciudades como el D.F. se están desarrollando acciones de recuperación de espacios públicos, como: parques de bolsillo, áreas de convivencia, lugares de atención a la comunidad y sitios históricos.</p>
+
+<p>El <strong>Banco Interamericano de Desarrollo (BID)</strong> está promoviendo estrategias desde su programa de <strong>Ciudades Medias Sostenibles y Competitivas,</strong> aplicada en ciudades medias de Colombia en las que se promueven acciones que permitan incorporar a la ciudadanía en la planeación y rescate de los espacios públicos para generar sentido de pertenencia.</p>
+
+<p>La <strong>Secretaría de Desarrollo Urbano Territorial y Urbano (SEDATU)</strong> a través del <strong>Programa Rescate de Espacios Públicos,</strong> promueve la realización de obras de mejoramiento físico y la ejecución de acciones sociales en sitios de encuentro, convivencia, recreación e interacción comunitaria que presentan condiciones de deterioro, abandono o inseguridad ubicados en las zonas urbanas de todo el país.</p>
+
+<p>La <strong>SEDATU,</strong> a través del <strong>Programa Rescate de Espacios Públicos</strong> se alinea con el <strong>Plan Nacional de Desarrollo</strong> en la consecución de la <strong>Meta Nacional 2.</strong>:</p>
+
+<blockquote>
+  <p>Un “México Incluyente”; objetivo 2.2. “Transitar hacia una sociedad equitativa e incluyente.” y</p>
+  
+  <p>La estrategia 2.2.1. “Generar esquemas de desarrollo comunitario a través de procesos de participación social.”</p>
+  
+  <p>Objetivo 3 “Consolidar ciudades compactas, productivas, competitivas, incluyentes y sustentables, que faciliten la movilidad y elevenla calidad de vida de sus habitantes.”</p>
+</blockquote>
+
+<h3>El Artículo 8. Acciones de acuerdo a las dos modalidades del Programa Rescate de Espacios Públicos para:</h3>
+
+<p><strong>I. Mejoramiento Físico de los Espacios Públicos</strong></p>
+
+<ul>
+<li>Construir, ampliar, habilitar o rehabilitar espacios públicos de uso comunitario para el desarrollo de actividades recreativas, culturales, turísticas, deportivas y viajes urbanos con sentido de equidad e inclusión social.</li>
+<li>Construir, ampliar y mejorar el alumbrado público, infraestructura peatonal y ciclista, guarniciones y otras obras necesarias alrededor del espacio, que brinden accesibilidad universal y seguridad a la población en general.</li>
+<li>Construir, ampliar, dotar y/o rehabilitar el mobiliario urbano para el correcto funcionamiento de los espacios públicos.</li>
+<li>Implementar acciones de mejora, conservación y adecuación de los espacios públicos para su debido aprovechamiento y que contribuyan a su sustentabilidad y la seguridad ciudadana.</li>
+<li>Mejoramiento de vías y accesos, así como el establecimiento de rutas, senderos y paraderos seguros para los peatones, ciclistas y señalización, que incentiven la intermodalidad con corredores y estaciones de transporte público.</li>
+</ul>
+
+<p><strong>II. Participación Social y Seguridad Comunitaria.</strong></p>
+
+<ul>
+<li>Impulsar la organización y participación de los ciudadanos en los procesos de planeación, ejecución y operación de los espacios públicos con la finalidad de promover desde el inicio su apropiación y pertenencia comunitaria.</li>
+<li>Promover el desarrollo de actividades recreativas, artístico-culturales, turísticas, deportivas y viajes urbanos para fomentar el desarrollo personal y social, la convivencia, la interacción y el aprovechamiento del tiempo libre, como medidas dirigidas a prevenir conductas antisociales y de riesgo, así como de generación del sentido de identidad y pertenencia ciudadana con el entorno urbano.</li>
+<li>Integrar a prestadores de servicio social y promotores comunitarios en la instrumentación de estrategias y proyectos en el espacio público.</li>
+<li>Impulsar la conformación de redes sociales, comités vecinales y de contraloría social como formas de organización y participación comunitaria, que coadyuven a la promoción y el cuidado del espacio público y la seguridad vecinal, y que funjan como gestores de las necesidades del espacio, su funcionamiento y sostenibilidad.</li>
+<li>Promover la inclusión social y la equidad de género, dando preferencia a grupos vulnerables y personas con discapacidad favoreciendo el conocimiento y ejercicio de sus derechos.</li>
+<li>Sensibilizar y prevenir la violencia familiar y social para fomentar la sana convivencia.</li>
+<li>Incentivar la elaboración de planes y estudios que contribuyan al diagnóstico y evaluación de la situación de inseguridad y violencia; que planteen estrategias y acciones de solución, el posible impacto de las acciones desarrolladas en los espacios públicos, así como generar indicadores que permitan conocer el desempeño del Programa en las ciudades y zonas metropolitanas participantes.</li>
+<li>Impulsar la conservación de recursos naturales y cuidado del medio ambiente para promover una cultura de respeto a la ecología.</li>
+</ul>
+
+<p>El <strong>Programa Rescate de Espacios Públicos</strong> que permite acceder a apoyos federales complementarse con aportaciones locales y la participación de la sociedad civil permite impulsar los proyectos urbanos integrales de beneficio comunitario para que se disponga de espacios incluyentes y seguros, que permitan la integración social como elementos clave para prevenir conductas de riesgo; mediante actividades artístico-culturales, recreativas y deportivas.</p>
+
+<h3>Referencias</h3>
+
+<ul>
+<li>Bibliografia: AlvaroEchaider (37) es rematador y corredor inmobiliario. Coordina la Oficina de Gestión Territorial del Plan Montevideo (IMM) y preside la Comisión Financiera de la Rambla Sur. Artículo publicado en la REVISTA PROPIEDADES en diciembre del año 2000.</li>
+<li><a href="http://www.cafedelasciudades.com.ar/urbanidad_108.htm">Café de las Ciudades - Urbanidad</a></li>
+<li><a href="http://www.sedatu.gob.mx/sraweb/datastore/programas/2015/rescate_espacios_publicos/RO_PREP_2015_DOF.pdf">Martes 30 de diciembre de 2014 DIARIO OFICIAL Décima Sección</a></li>
+</ul>
+
+<h3>Fotografías</h3>
+
+<ul>
+<li><a href="https://www.google.com.mx/search?q=Av.+colon&amp;rlz=1C1GGGE_esMX629MX629&amp;espv=2&amp;biw=1920&amp;bih=1055&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0CAcQ_AUoAmoVChMIgvLsifaIyAIVwi-ICh3lMQEi#tbm=isch&amp;q=parking+day+en+torreon&amp;i">Google - Av. Colón</a></li>
+<li><a href="https://www.elsiglodetorreon.com.mx/noticia/974113.la-antigua-jabonera-dara-paso-a-pabellon-deportivo.html">El Siglo de Torreón - La Antigua Jabonera dará paso a pabellón deportivo</a></li>
+<li><a href="https://www.elsiglodetorreon.com.mx/noticia/980611.limpian-jabonera-haran-preparatoria.html">El Siglo de Torreón - Limpian Jabonera harán Preparatoria</a></li>
+<li><a href="https://www.elsiglodetorreon.com.mx/noticia/fotos.php?nota=1135170">El Siglo de Torreón - En su primer día, mil niños acuden a La Jabonera</a></li>
+</ul>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
