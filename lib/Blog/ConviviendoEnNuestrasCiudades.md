@@ -3,7 +3,7 @@ El espacio público es el lugar al que tiene acceso el ciudadano; el área desti
 
 ### Parking Day @ Mercado Juárez
 
-<img class="img-responsive" src="conviviendo-en-nuestras-ciudades/01-parking-day-mercado juarez.jpg" alt="Parking Day Mercado Juarez">
+<img class="img-responsive" src="conviviendo-en-nuestras-ciudades/01-parking-day-mercado-juarez.jpg" alt="Parking Day Mercado Juarez">
 
 Por eso es necesario cuidar la cantidad y calidad de los servicios que se prestan en estos espacios que sirven de permeabilidad a los habitantes de las ciudades, se deben equilibrar tanto en las áreas residenciales como en los barrios y periferias, generar sinergias que nos puedan dar elementos para “hacer Ciudad” en nuestra ciudad.
 
