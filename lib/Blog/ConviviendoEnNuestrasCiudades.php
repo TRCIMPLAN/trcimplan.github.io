@@ -35,7 +35,7 @@ class ConviviendoEnNuestrasCiudades extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Conviviendo en Nuestras Ciudades';
         $this->autor           = 'Arq. Ilse Ávila García';
-        $this->fecha           = '2015-09-27T18:00';
+        $this->fecha           = '2015-09-27T19:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'conviviendo-en-nuestras-ciudades';
         $this->imagen          = 'conviviendo-en-nuestras-ciudades/imagen.jpg';
@@ -48,7 +48,7 @@ class ConviviendoEnNuestrasCiudades extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'revisar';
+        $this->estado          = 'publicar';
         // Indicar que NO se vaya a poner la imagen en la página y en la redifusión
         $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
