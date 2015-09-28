@@ -381,11 +381,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-aerolineas.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-aerolineas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -402,6 +397,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-aerolineas.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-aerolineas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -506,11 +506,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-lineas-telefonicas-moviles.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sociedad-viviendas-con-lineas-telefonicas-moviles.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -527,6 +522,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-viviendas-con-lineas-telefonicas-moviles.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-lineas-telefonicas-moviles.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -761,11 +761,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-piso-de-tierra.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-ciudad-fronteriza-o-portuaria.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -806,7 +801,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-piso-de-tierra.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -827,6 +822,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1931,11 +1931,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1952,6 +1947,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3792,51 +3792,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-computadora.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-drenaje.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-energia-electrica.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-internet.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-habitadas.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-totales.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-alumbrado-publico.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -5887,6 +5842,51 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-computadora.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-drenaje.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-energia-electrica.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-con-internet.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-habitadas.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-viviendas-totales.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-alumbrado-publico.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
