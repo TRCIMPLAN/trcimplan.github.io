@@ -95,19 +95,27 @@ class SchemaCreativeWork extends SchemaThing {
     protected function author_date_published_html() {
         // Acumularemos la entrega en este arreglo
         $a = array();
+        // Si author es un arreglo o si es un texto
+        if (is_array($this->author) && (count($this->author) > 0)) {
+            $author = implode(', ', $this->author);
+        } elseif (is_string($this->author) && ($this->author != '')) {
+            $author = $this->author;
+        } else {
+            $author = '';
+        }
         // Acumular
-        if (($this->author != '') && ($this->datePublished != '')) {
+        if (($author != '') && ($this->datePublished != '')) {
             $a[] = '<div class="encabezado-autor-fecha">';
-            $a[] = "  Por <span itemprop=\"author\">{$this->author}</span>";
+            $a[] = sprintf('  Por <span itemprop="author">%s</span>', $author);
             $a[] = sprintf('  - <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
             $a[] = '</div>';
         } elseif ($this->datePublished != '') {
             $a[] = '<div class="encabezado-autor-fecha">';
             $a[] = sprintf('  <meta itemprop="datePublished" content="%s">%s', $this->datePublished, $this->fecha_con_formato_humano($this->datePublished));
             $a[] = '</div>';
-        } elseif ($this->author != '') {
+        } elseif ($author != '') {
             $a[] = '<div class="encabezado-autor-fecha">';
-            $a[] = "  Por <span itemprop=\"author\">{$this->author}</span>";
+            $a[] = sprintf('  Por <span itemprop="author">%s</span>', $author);
             $a[] = '</div>';
         }
         // Entregar
