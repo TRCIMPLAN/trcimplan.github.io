@@ -31,7 +31,7 @@ class DatosAbiertos extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Datos Abiertos del SMI';
+        $this->nombre          = 'Datos Abiertos del Sistema Metropolitano de Indicadores';
         $this->autor           = 'Dirección de Investigación Estratégica';
         $this->fecha           = '1980-01-01T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
@@ -39,7 +39,7 @@ class DatosAbiertos extends \Base\Publicacion {
         $this->imagen          = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa   = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Pendiente.';
+        $this->descripcion     = 'Descargar los datos abiertos del Sistema Metropolitano de Indicadores.';
         $this->claves          = 'IMPLAN, Torreon, Datos Abiertos, Indicadores';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'smi';
@@ -62,8 +62,8 @@ class DatosAbiertos extends \Base\Publicacion {
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/SMI/DatosAbiertos.md';
         // Para el Organizador
-        $this->categorias      = array();
-        $this->fuentes         = array();
+        $this->categorias      = array('Gobierno Digital', 'Transparencia');
+        $this->fuentes         = array('IMPLAN');
         $this->regiones        = array();
     } // constructor
 
