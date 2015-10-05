@@ -19,7 +19,7 @@ Ampliando la definición anterior, los datos abiertos constituyen una poderosa h
 
 ### ¿Cual es el fin de publicarlos?
 
-La intensión es que los **datos** del Sistema Metropolitano de Indicadores no sólo sirvan para estar publicados en este sitio web, sino **que también sean libremente descargados y estudiados** por cualquier persona interesada en realizar un **análisis específico, respaldarlos o reutilizarlos para otro fin,** sea personal o lucrativo.
+La intensión es que los **datos** del Sistema Metropolitano de Indicadores no sólo sirvan para estar publicados en este sitio web, sino **que también sean libremente descargados y estudiados** por cualquier persona interesada en realizar un **análisis específico, respaldarlos o reutilizarlos para otro fin.**
 
 ### ¿Hay restricciones en cuanto a su uso?
 
