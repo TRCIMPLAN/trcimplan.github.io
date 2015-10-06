@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La participación económica de la industria automotriz en la Comarca Lagunera ha crecido aceleradamente, tan sólo en Torreón el personal ocupado en las distintas ramas de este sector representa más de 20% del empleo total del municipio.">
+  <meta name="author" content="Lic. Alicia Valdez Ibarra, Adriana Vargas">
+  <meta name="keywords" content="IMPLAN, Torreon, Industria Automotriz, La Laguna">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="El fuerte crecimiento del sector automotriz en La Laguna - IMPLAN Torreón">
+  <meta name="twitter:description" content="La participación económica de la industria automotriz en la Comarca Lagunera ha crecido aceleradamente, tan sólo en Torreón el personal ocupado en las distintas ramas de este sector representa más de 20% del empleo total del municipio.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna.html">
+  <meta name="og:title" content="El fuerte crecimiento del sector automotriz en La Laguna - IMPLAN Torreón">
+  <meta name="og:description" content="La participación económica de la industria automotriz en la Comarca Lagunera ha crecido aceleradamente, tan sólo en Torreón el personal ocupado en las distintas ramas de este sector representa más de 20% del empleo total del municipio.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna.html">
+  <title>El fuerte crecimiento del sector automotriz en La Laguna - IMPLAN Torreón</title>
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/leaflet.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">El fuerte crecimiento del sector automotriz en La Laguna</h1>
+          <div class="encabezado-descripcion" itemprop="description">La participación económica de la industria automotriz en la Comarca Lagunera ha crecido aceleradamente, tan sólo en Torreón el personal ocupado en las distintas ramas de este sector representa más de 20% del empleo total del municipio.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Alicia Valdez Ibarra, Adriana Vargas</span>
+          - <meta itemprop="datePublished" content="2015-10-06T12:15">06/10/2015 12:15
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="El fuerte crecimiento del sector automotriz en La Laguna" src="el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>El sector de <strong>la industria automotriz en la Comarca Lagunera</strong> tiene un fuerte potencial económico y laboral con perspectivas de amplio crecimiento a futuro, debido a su posición geográfica y a otros factores como la saturación del mercado que se está presentando en la región sureste de Coahuila, su capacidad de exportación y su personal capacitado.</p>
+
+<p>Tan sólo en el municipio de Torreón <strong>39,151 personas se emplean en las ramas económicas de este sector.</strong> La cifra representa <strong>83.83% del personal ocupado total en la industria manufacturera</strong> y <strong>21.08% del personal ocupado total</strong> en el municipio.</p>
+
+<p>Asimismo <strong>35.12% del valor agregado</strong> generado por la industria manufacturera en el municipio de Torreón, es aportado por las ramas del sector automotriz, lo equivalente a <strong>20.60% del valor agregado total</strong> del municipio.</p>
+
+<p>El clúster automotriz en la Comarca Lagunera está integrado por <strong>19 empresas</strong> que generan <strong>15 mil empleos directos y 45 mil indirectos,</strong> de acuerdo con su presidente José Luis Hotema. La mayoría de estas empresas son Tier 2 (segundo nivel de proveeduría), aunque hay algunas empresas Tier 1, sus expectativas de crecimiento son sobre todo en el segundo nivel.</p>
+
+<p>Sin embargo, el potencial del sector se extiende en toda la Zona Metropolitana de La Laguna (ZML). <strong>En Torreón 570 establecimientos económicos</strong> se ubican en esta rama, es decir, <strong>31.88% de las unidades económicas de la industria manufacturera o 2.52% del total del municipio.</strong></p>
+
+<p>Asimismo <strong>786 establecimientos en La Laguna</strong> pertenecen a las ramas económicas que integran al sector automotriz, la cifra equivale a <strong>2.11% del total</strong> de las unidades de la ZML y <strong>25.15% de la industria manufacturera.</strong></p>
+
+<p>Otra manera de conocer el crecimiento del sector, es analizando el <strong>subsector de fabricación de equipo de transporte,</strong> el cual aporta el <strong>6.47% del personal ocupado total del municipio de Torreón</strong> y <strong>25.74% del personal ocupado total de la industria manufacturera.</strong> De la <strong>ZML</strong> participa con el <strong>4.78% del empleo total</strong> y <strong>16.63% de la industria manufacturera.</strong> A nivel nacional la cifras de participación del subsector son de <strong>3.61%</strong> y <strong>15.33%,</strong> respectivamente.</p>
+
+<p>Las empresas del clúster automotriz en La Laguna pertenecen también a los subsectores de industrias metálicas básicas, fabricación de productos metálicos y fabricación de maquinaria y equipo. Además, algunas pertenecen al sector de comercio al por mayor y al de servicios, de manera específica a los subsectores de: Comercio al por mayor de materias primas agropecuarias y forestales, para la industria y materiales de desecho; Comercio al por mayor de maquinaria, equipo y mobiliario para actividades agropecuarias, industriales, de servicios y comerciales, y de otra maquinaria y equipo de uso general; así como Servicios de almacenamiento y Servicios de apoyo a los negocios.</p>
+
+<h3>Expectativas</h3>
+
+<p>En la actualidad <strong>el sector automotriz es considerado un sector estratégico a nivel nacional</strong> y gracias a las políticas industriales del país, la posibilidad de financiamiento para el clúster automotriz en La Laguna es amplia.</p>
+
+<p>De acuerdo con María de Jesús León Olivares y Ulises Mejía Domínguez, representantes del clúster, las funciones principales del mismo son la competitividad e innovación, así como la generación de riqueza y una necesidad importante es la generación de patentes.</p>
+
+<p>En el país existen once <strong>centros de investigación y desarrollo</strong> en el sector automotriz, en estados como Aguascalientes, Baja California, Chihuahua, Jalisco, Nuevo León, Puebla, Querétaro, San Luis Potosí y Tlaxcala; y en Coahuila no existe ninguno, por lo tanto de aquí se deriva una gran área de oportunidad.</p>
+
+<p>En las mesas de trabajo para la formación de este clúster, impulsadas por el <strong>IMPLAN,</strong> se encontró que existe el personal capacitado para el crecimiento del sector y también la capacidad de adaptar los planes de estudio en las carreras profesionales para las necesidades del ramo.</p>
+
+<p>Actualmente la Universidad Autónoma de Coahuila ya cuenta con una <strong>carrera orientada a la industria automotriz</strong> en Saltillo y existen planes para abrir una extensión en Torreón. No obstante, otras universidades están en disposición de adaptar sus planes de estudio en favor del sector, compartieron los representantes del clúster.</p>
+
+<p>Las expectativas de crecimiento del clúster, se orientan principalmente al desarrollo de capital humano, a la innovación, al desarrollo de proveeduría y a obtener fuentes de financiamiento. Todo esto en el marco de un fuerte empuje del sector a nivel nacional e internacional.</p>
+
+<p>Este año se considera que <strong>el monto de las divisas por parte de la industria automotriz ha alcanzado los 50 mil millones de dólares,</strong> superando a los ingresos por petróleo, turismo y remesas, informó Ulises Mejía, secretario del clúster.</p>
+
+<p>Otras ventajas competitivas, es que según datos de INEGI <strong>las remuneraciones promedio del sector automotriz son 2.3 veces mayores a las del resto de la industria.</strong> Además <strong>México ocupa el cuarto lugar en el mundo en exportación de vehículos automotrices.</strong></p>
+
+<p>Según la Asociación Mexicana de la Industria Automotriz <strong>se estima que para 2020 se exportarán 4 millones de vehículos,</strong> lo cual representará un problema grande de logística, desarrollo de capital e infraestructura, indicó el secretario del clúster en La Laguna.</p>
+
+<p><img class="img-responsive" src="el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna/expansion-del-sector-automotriz.jpg" alt="Expansion del Sector Automotriz"></p>
+
+<h3>Participación económica</h3>
+
+<ul>
+<li><strong>786 establecimientos en La Laguna</strong> pertenecen a las ramas económicas que integran al sector automotriz.</li>
+<li>La cifra equivale a <strong>2.11% del total de las unidades de la ZML</strong> y <strong>25.15% de la industria manufacturera.</strong></li>
+<li>El sector <strong>aporta el 33.11% del valor agregado de la manufactura</strong> y *18.85% del valor agregado total de la ZML.**</li>
+<li>El total de las distintas ramas de actividad económica a las que pertenecen al sector automotriz de La Laguna, <strong>representan el 64.22% del empleo de la industria manufacturera</strong> y el <strong>18.45 del total.</strong></li>
+</ul>
+
+<p>Fuente: INEGI. Censos Económicos 2014</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Personal ocupado total de la industria manufacturera en La Laguna</th>
+  <th align="right">Personal Ocupado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Fabricación de maquinaria y equipo agropecuario, para la construcción y para la industria extractiva</td>
+  <td align="right">3.58%</td>
+</tr>
+<tr>
+  <td>Fabricación de partes para vehículos automotores</td>
+  <td align="right">15.52%</td>
+</tr>
+<tr>
+  <td>Comercio al por mayor de materias primas para la industria</td>
+  <td align="right">5.82%</td>
+</tr>
+<tr>
+  <td>Otras ramas del sector automotriz</td>
+  <td align="right">39.29%</td>
+</tr>
+<tr>
+  <td>Otras ramas de la manufactura</td>
+  <td align="right">35.78%</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Este análisis fue publicado en Milenio Laguna</h3>
+
+<ul>
+<li><a href="http://www.milenio.com/negocios/IMPLAN_Torreon-Sector_automotriz_laguna-Desarrollo_economico_Torreon_0_604139710.html">Fuerte crecimiento del sector automotriz en La Laguna</a></li>
+</ul>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fel-fuerte-crecimiento-del-sector-automotriz-en-la-laguna.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/leaflet.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
