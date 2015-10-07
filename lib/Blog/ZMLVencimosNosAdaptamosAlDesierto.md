@@ -1,4 +1,3 @@
-ZML: Vencimos Nos adaptamos al desierto
 
 > Competitividad: “Capacidad de una región para atraer y retener inversiones y talentos”
 >
@@ -6,7 +5,7 @@ ZML: Vencimos Nos adaptamos al desierto
 
 ### Una región competitiva, ¿sin agua?
 
-Comenzaría aclarando dos puntos que surgen sobre esta definición de **competitividad.** Primero; el concepto de competitividad no tiene un significado único, y segundo; agregaría la palabra generar al sugerido.
+Comenzaría aclarando dos puntos que surgen sobre esta definición de **competitividad.** Primero; el concepto de competitividad no tiene un significado único, y segundo; agregaría la palabra "generar" al sugerido.
 
 En el **IMPLAN** adoptamos el concepto para que sirva como referencia que guie a las ciudades que conforman nuestra región y que sea un elemento que impulse al gobierno y a la sociedad para trabajar conjuntamente por un bien común: **convertirnos en un lugar que asegure para su población los elementos que nos permitan desarrollarnos plenamente.**
 
@@ -24,7 +23,7 @@ De acuerdo al documento del [Plan Municipal de Desarrollo de Torreón]( http://w
 
 ### Una solución de todos
 
-De acuerdo a los trabajos realizados durante los talleres del [Plan Estratégico Metropolitano](http://www.trcimplan.gob.mx/plan-estrategico-metropolitano/introduccion.html) del IMPLAN, la región fue caracterizada por ciudadanos y especialistas de la región en el tema de los recursos hídricos con: **"Una falta de manejo integral del agua que ha acentuado la escases de ésta para uso doméstico e industrial, ello redunda en mayor incidencia de enfermedades y muertes y en una baja importante de la productividad. El abatimiento de pozos de aguas y mantos acuíferos afecta las actividades productivas y pone en serio riesgo el desarrollo social y económico, hay una mayor emigración de personas y empresas."**
+De acuerdo a los trabajos realizados durante los talleres del [Plan Estratégico Metropolitano](http://www.trcimplan.gob.mx/plan-estrategico-metropolitano/introduccion.html) del IMPLAN, la región fue caracterizada por ciudadanos y especialistas como: **"Una región con falta de manejo integral del agua que ha acentuado la escases de ésta para uso doméstico e industrial, ello redunda en mayor incidencia de enfermedades y muertes y en una baja importante de la productividad. El abatimiento de pozos de aguas y mantos acuíferos afecta las actividades productivas y pone en serio riesgo el desarrollo social y económico, hay una mayor emigración de personas y empresas."**
 
 Es indispensable que la ciudadanía, la academia, la industria y gobiernos aborden conjuntamente el asunto, desde la definición de la problemática hasta el proceso que se seguirá para darle solución. **La invitación sigue abierta para participar en las mesas de trabajo** del [Plan Estratégico Metropolitano](http://trcimplan.mx/interaccion-web/index.php/686726/lang-es-MX).
 

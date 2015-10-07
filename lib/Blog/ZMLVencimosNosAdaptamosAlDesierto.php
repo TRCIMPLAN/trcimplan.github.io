@@ -32,9 +32,9 @@ class ZMLVencimosNosAdaptamosAlDesierto extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'ZML: <del>Vencimos</del> Nos adaptamos al desierto';
+        $this->nombre          = 'ZML: <del>Vencimos</del> / Nos adaptamos al desierto';
         $this->autor           = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha           = '2015-10-07T12:30';
+        $this->fecha           = '2015-10-07T13:50';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'zml-vencimos-nos-adaptamos-al-desierto';
         $this->imagen          = 'zml-vencimos-nos-adaptamos-al-desierto/imagen.jpg';
