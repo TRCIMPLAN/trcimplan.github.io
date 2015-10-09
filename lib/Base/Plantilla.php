@@ -151,7 +151,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             $a[] = sprintf('  <meta name="og:url" content="%s/%s">', $this->sitio_url, $this->archivo_ruta);
         }
         if ($this->google_site_verification != '') {
-            $a[] = $this->google_site_verification;
+            $a[] = "  {$this->google_site_verification}";
         }
         $a[] = "  <title>$titulo</title>";
         if (isset($this->cabecera_bootstrap_css)) {
@@ -171,7 +171,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 $a[] = '  <link href="css/bootstrap.min.css" rel="stylesheet">';
             }
             $a[] = '  <link href="css/morris.css" rel="stylesheet">';
-            $a[] = '  <link href="css/leaflet.css" rel="stylesheet">';
+        //  $a[] = '  <link href="css/leaflet.css" rel="stylesheet">';
             $a[] = '  <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">';
             $a[] = '  <link href="css/sb-admin-2.css" rel="stylesheet">';
             if (!isset($this->cabecera_font_awesome_css)) {
@@ -191,7 +191,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 $a[] = '  <link href="../css/bootstrap.min.css" rel="stylesheet">';
             }
             $a[] = '  <link href="../css/morris.css" rel="stylesheet">';
-            $a[] = '  <link href="../css/leaflet.css" rel="stylesheet">';
+        //  $a[] = '  <link href="../css/leaflet.css" rel="stylesheet">';
             $a[] = '  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">';
             $a[] = '  <link href="../css/sb-admin-2.css" rel="stylesheet">';
             if (!isset($this->cabecera_font_awesome_css)) {
@@ -201,14 +201,14 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 $a[] = "  <link href=\"../{$this->propio_css}\" rel=\"stylesheet\">";
             }
         }
-        // Google fonts inicia
-        $a[] = '  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">';
-        // Google fonts termina
-        $a[] = '  <!-- SOPORTE PARA IE -->';
-        $a[] = '  <!--[if lt IE 9]>';
-        $a[] = '  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>';
-        $a[] = '  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>';
-        $a[] = '  <![endif]-->';
+        if (isset($this->cabecera_google_fonts_css)) {
+            $a[] = "  {$this->cabecera_google_fonts_css}";
+        }
+    //  $a[] = '  <!-- SOPORTE PARA IE -->';
+    //  $a[] = '  <!--[if lt IE 9]>';
+    //  $a[] = '  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>';
+    //  $a[] = '  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>';
+    //  $a[] = '  <![endif]-->';
         $a[] = '</head>';
         // Entregar
         return implode("\n", $a);
@@ -238,7 +238,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             }
             $a[] = '<script src="js/raphael-min.js"></script>';
             $a[] = '<script src="js/morris.min.js"></script>';
-            $a[] = '<script src="js/leaflet.js"></script>';
+        //  $a[] = '<script src="js/leaflet.js"></script>';
             $a[] = '<script src="js/plugins/metisMenu/metisMenu.min.js"></script>';
             $a[] = '<script src="js/sb-admin-2.js"></script>';
         } else {
@@ -250,7 +250,7 @@ class Plantilla extends \Configuracion\PlantillaConfig {
             }
             $a[] = '<script src="../js/raphael-min.js"></script>';
             $a[] = '<script src="../js/morris.min.js"></script>';
-            $a[] = '<script src="../js/leaflet.js"></script>';
+        //  $a[] = '<script src="../js/leaflet.js"></script>';
             $a[] = '<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>';
             $a[] = '<script src="../js/sb-admin-2.js"></script>';
         }
