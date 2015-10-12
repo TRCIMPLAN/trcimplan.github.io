@@ -7,6 +7,8 @@
 <li>La codificación de los caracteres es UTF-8.</li>
 <li>La primera línea tiene los nombres de las columnas.</li>
 <li>En mayúsculas y sin acentos. Excepto la eñe (Ñ) y la diéresis (Ü).</li>
+<li>Cantidad de filas: <b>5,992</b>.</li>
+<li>Elaboración: <b>12 octubre 2015 15:09</b>.</li>
 </ul>
 </div>
 </div>
