@@ -34,7 +34,7 @@ class Ciudades247ComoEstrategiaParaRevitalizarElEspacioUrbano extends \Base\Publ
         // Título, autor y fecha
         $this->nombre          = 'Ciudades 24/7 como estrategia para revitalizar el espacio urbano';
         $this->autor           = 'Arq. Ángeles Melisa Rodríguez Salas';
-        $this->fecha           = '2015-10-14T09:00';
+        $this->fecha           = '2015-10-15T08:15';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano';
         $this->imagen          = 'ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano/imagen.jpg';
@@ -47,7 +47,7 @@ class Ciudades247ComoEstrategiaParaRevitalizarElEspacioUrbano extends \Base\Publ
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'revisar';
+        $this->estado          = 'publicar';
         // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
         $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
