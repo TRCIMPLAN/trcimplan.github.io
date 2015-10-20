@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - La movilidad urbana y laboral en La Laguna
+ * TrcIMPLAN - Por un crecimiento ordenado en Torreón
  *
  * Copyright (C) 2015 Guillermo Valdes Lozano
  *
@@ -23,25 +23,25 @@
 namespace Blog;
 
 /**
- * Clase LaMovilidadUrbanaYLaboralEnLaLaguna
+ * Clase PorUnCrecimientoOrdenadoEnTorreon
  */
-class LaMovilidadUrbanaYLaboralEnLaLaguna extends \Base\Publicacion {
+class PorUnCrecimientoOrdenadoEnTorreon extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'La movilidad urbana y laboral en La Laguna';
-        $this->autor           = array('Lic. Luis A. Gutiérrez Arizpe', 'Arq. Cecilio Pedro Secunza Schott');
-        $this->fecha           = '2015-10-14T13:50';
+        $this->nombre          = 'Por un crecimiento ordenado en Torreón';
+        $this->autor           = 'Arq. Jair Miramontes Chávez';
+        $this->fecha           = '2015-10-20T14:20';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'la-movilidad-urbana-y-laboral-en-la-laguna';
-        $this->imagen          = 'la-movilidad-urbana-y-laboral-en-la-laguna/imagen.jpg';
-        $this->imagen_previa   = 'la-movilidad-urbana-y-laboral-en-la-laguna/imagen-previa.jpg';
+        $this->archivo         = 'por-un-crecimiento-ordenado-en-torreon';
+        $this->imagen          = 'por-un-crecimiento-ordenado-en-torreon/imagen.jpg';
+        $this->imagen_previa   = 'por-un-crecimiento-ordenado-en-torreon/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'La expansión de la mancha urbana en la región ha ocasionado que se privilegie el uso de automóvil particular, provocando efectos negativos sobre la salud, ocupación creciente del espacio y costos extremos.';
-        $this->claves          = 'IMPLAN, Torreon, Transporte, Movilidad, Laboral, Municipios, La Laguna';
+        $this->descripcion     = 'El Plan de Desarrollo Urbano propone la figura de los Polígonos de Actuación, para que la ciudad transite hacia un modelo de desarrollo urbano sustentable, integral e inteligente.';
+        $this->claves          = 'IMPLAN, Torreon, Plan, Desarrollo, Urbano';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -59,13 +59,13 @@ class LaMovilidadUrbanaYLaboralEnLaLaguna extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/Blog/LaMovilidadUrbanaYLaboralEnLaLaguna.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/PorUnCrecimientoOrdenadoEnTorreon.md';
         // Para el Organizador
-        $this->categorias      = array('Movilidad', 'Vialidad');
-        $this->fuentes         = array('Logit');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->categorias      = array('Infraestructura');
+        $this->fuentes         = array('IMPLAN');
+        $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase LaMovilidadUrbanaYLaboralEnLaLaguna
+} // Clase PorUnCrecimientoOrdenadoEnTorreon
 
 ?>

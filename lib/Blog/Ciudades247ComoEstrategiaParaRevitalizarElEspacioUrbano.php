@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Central - Ciudades 24/7 como estrategia para revitalizar el espacio urbano
+ * TrcIMPLAN - Ciudades 24/7 como estrategia para revitalizar el espacio urbano
  *
  * Copyright (C) 2015 Guillermo Valdes Lozano
  *
