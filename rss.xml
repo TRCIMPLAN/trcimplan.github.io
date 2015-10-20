@@ -5,11 +5,21 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 15 Oct 2015 08:29:46 -0500</pubDate>
+    <pubDate>Tue, 20 Oct 2015 09:37:41 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infraestructura Vial</title>
+      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/infraestructura-vial.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-infraestructura-vial</guid>
+      <pubDate>Tue, 20 Oct 2015 09:10:00 -0500</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/infraestructura-vial.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/infraestructura-vial/imagen.jpg"><br>
+
+Mapa de jerarquía de vialidades que permite los intercambios entre las diversas funciones que se desarrollan en la ciudad de Torreón.</a>]]></description>
+    </item>
     <item>
       <title>Ciudades 24/7 como estrategia para revitalizar el espacio urbano</title>
       <link>http://www.trcimplan.gob.mx/blog/ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano.html</link>
@@ -471,31 +481,6 @@
 <p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2015-09-25-avances-del-proyecto-calle-completa/sesion-de-consejo-2.jpg" alt="Sesion de Consejo"></p>
 
 <p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2015-09-25-avances-del-proyecto-calle-completa/sesion-de-consejo-3.jpg" alt="Sesion de Consejo"></p>
-]]></description>
-    </item>
-    <item>
-      <title>Interesa como referente nacional esquema de Planeación y el proyecto Calle Completa de Torreón</title>
-      <link>http://www.trcimplan.gob.mx/sala-prensa/2015-09-24-interesa-como-referente-nacional.html</link>
-      <guid isPermaLink="false">sala-prensa-2015-09-24-interesa-como-referente-nacional</guid>
-      <pubDate>Thu, 24 Sep 2015 11:30:00 -0500</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[<p>Organismos como la <strong>Organización de las Naciones Unidas (ONU), Hábitat</strong> y de asistencia nacional en la planeación, están interesados en el proyecto <strong>“Calle Completa”</strong> de Torreón como referente en todo el país dada la mejora social y económica del municipio y la región que representa.</p>
-
-<p>El director del <strong>Instituto Municipal de Planeación y Competitividad (IMPLAN),</strong> Eduardo Holguín Zehfuss, planteó a los ediles de la <strong>Comisión del IMPLAN</strong> y Metropolitana, la posibilidad de facilitar la información y métodos sobre los que han trabajado para dar mayor sustentabilidad a los objetivos, planes y reglamentos.</p>
-
-<p>En este sentido, destacó la inclusión de la factibilidad y grandes oportunidades para la inversión en nuestra ciudad, además de la conformación de reglamentos como de Zonificación que puede ampliar las perspectivas de crecimiento económico para la Zona Metropolitana Laguna (ZML).</p>
-
-<p>En esta sesión, participaron <strong>Oscar Murra y Lorena Iriarte</strong> representantes del proyecto <strong>+Q1 Calle “Calle Completa en la Zona Norte”,</strong> surgido de participación ciudadana en el objetivo de hacer de las vialidades, líneas de comunicación donde no sólo piensen en la oportunidad de flujo para los automotores, sino en una verdadera armonía donde confluyan sin riesgo y con efectiva convivencia ciclistas y peatones con total respeto y derecho en el uso de las calles y banquetas.</p>
-
-<p>Buscan que además, tomen en cuenta a las personas con discapacidad que utilicen silla de ruedas, con problemas de visión y auditivos, entre otros, que igual se desenvuelvan sin problema y con las mismas ventajas de un ambiente sociable.</p>
-
-<p>Los miembros del ayuntamiento conocieron a detalle que “Calle Completa” contempla desde ahora ese marco con una proyección de comodidad para quienes utilicen la calle y las banquetas, con áreas verdes y sombra para el adecuado descanso mientras esperan el transporte público.</p>
-
-<p>Además, visualiza la creación de áreas de esparcimiento con espectáculo siendo un punto probable de aprovechamiento una de las laterales del crucero del puente Ibero, en carretera a La Unión y Autopista San Pedro.</p>
-
-<p>Prevé desde ahora los corredores comerciales donde los futuros propietarios sean convencidos de los beneficios que permite contar con calles amplias porque influirán en el atractivo y consecuentemente en más actividad y negocio.</p>
-
-<p>Torreón, Ciudad que Vence</p>
 ]]></description>
     </item>
   </channel>
