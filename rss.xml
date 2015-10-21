@@ -5,11 +5,41 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 20 Oct 2015 14:41:38 -0500</pubDate>
+    <pubDate>Wed, 21 Oct 2015 13:09:25 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grado Promedio de Escolaridad en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-grado-promedio-de-escolaridad.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-grado-promedio-de-escolaridad</guid>
+      <pubDate>Wed, 21 Oct 2015 12:51:00 -0500</pubDate>
+      <author>Dirección de Investigación Estratégica</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Un grado se considera un año de acuerdo al sistema educativo nacional.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>31/12/2010</td>
+            <td>10.2300</td>
+            <td>INEGI</td>
+            <td>Consulta la [Fuente](http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5)</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Grados aprobados.</p>]]></description>
+    </item>
     <item>
       <title>Por un crecimiento ordenado en Torreón</title>
       <link>http://www.trcimplan.gob.mx/blog/por-un-crecimiento-ordenado-en-torreon.html</link>
@@ -426,96 +456,6 @@ Mapa de jerarquía de vialidades que permite los intercambios entre las diversas
 
 <ul>
 <li><a href="http://www.milenio.com/negocios/IMPLAN_Torreon-Corredor_Economico_del_Norte-Zona_Metropolitana_de_La_Laguna_0_599940094.html">El Corredor Económico del Norte y su fortaleza nacional</a></li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Conviviendo en Nuestras Ciudades</title>
-      <link>http://www.trcimplan.gob.mx/blog/conviviendo-en-nuestras-ciudades.html</link>
-      <guid isPermaLink="false">blog-conviviendo-en-nuestras-ciudades</guid>
-      <pubDate>Sun, 27 Sep 2015 19:05:00 -0500</pubDate>
-      <author>Arq. Ilse Ávila García</author>
-      <description><![CDATA[<p>El espacio público es el lugar al que tiene acceso el ciudadano; el área destinada al uso social. Jordi Borja señala “El espacio Público es la ciudad”. Y efectivamente la ciudad es el espacio donde sus habitantes se representan, reúnen, conviven; fortalecen las estructuras sociales e inclusive se manifiestan. Las plazas o las áreas verdes han sido sinónimo de estas actividades, pero la realidad es que los ciudadanos utilizan todo el espacio que está fuera del ámbito privado o doméstico para ejercer este derecho; llámense plazas, áreas verdes, parques, espacios deportivos, camellones e inclusive vialidades.</p>
-
-<h3>Parking Day @ Mercado Juárez</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/conviviendo-en-nuestras-ciudades/01-parking-day-mercado-juarez.jpg" alt="Parking Day Mercado Juarez"></p>
-
-<p>Por eso es necesario cuidar la cantidad y calidad de los servicios que se prestan en estos espacios que sirven de permeabilidad a los habitantes de las ciudades, se deben equilibrar tanto en las áreas residenciales como en los barrios y periferias, generar sinergias que nos puedan dar elementos para “hacer Ciudad” en nuestra ciudad.</p>
-
-<h3>Peregrinación del 12 de diciembre en Av. Juárez Torreón, Coah.</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/conviviendo-en-nuestras-ciudades/02-peregrinacion.jpg" alt="Peregrinacion del 12 de diciembre en Av. Juarez Torreon Coahuila"></p>
-
-<p>Actualmente la ciudadanía pone en el plano central el rescate de estos espacios, deteriorados, abandonados, reducidos y privatizados. Que al final son un reflejo de la organización económica, social, estructura política e intereses grupales que dominan; se debe defender el espacio , promover la proliferación de espacios públicos abiertos y cerrados que sean de uso colectivo, con equipamiento cultural, deportivo, recreativo, a los que debemos sumar espacios vacantes como áreas de transición, trabajar en políticas públicas que permitan aumentar la superficie en banquetas para caminar, que igualen el espacio destinado a la circulación motorizada.</p>
-
-<h3>Unión. S.A. Compañía Jabonera de Torreón</h3>
-
-<div class="row">
- <div class="col-md-6"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/conviviendo-en-nuestras-ciudades/03-jabonera.jpg" alt="La Union S.A. Compañia Jabonera de Torreon"></div>
- <div class="col-md-6"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/conviviendo-en-nuestras-ciudades/04-jabonera.jpg" alt="Complejo Cultural y Deportivo La Jabonera de Torreon"></div>
-</div>
-
-<h3>Estrategias y Programas</h3>
-
-<p>En ciudades como el D.F. se están desarrollando acciones de recuperación de espacios públicos, como: parques de bolsillo, áreas de convivencia, lugares de atención a la comunidad y sitios históricos.</p>
-
-<p>El <strong>Banco Interamericano de Desarrollo (BID)</strong> está promoviendo estrategias desde su programa de <strong>Ciudades Medias Sostenibles y Competitivas,</strong> aplicada en ciudades medias de Colombia en las que se promueven acciones que permitan incorporar a la ciudadanía en la planeación y rescate de los espacios públicos para generar sentido de pertenencia.</p>
-
-<p>La <strong>Secretaría de Desarrollo Urbano Territorial y Urbano (SEDATU)</strong> a través del <strong>Programa Rescate de Espacios Públicos,</strong> promueve la realización de obras de mejoramiento físico y la ejecución de acciones sociales en sitios de encuentro, convivencia, recreación e interacción comunitaria que presentan condiciones de deterioro, abandono o inseguridad ubicados en las zonas urbanas de todo el país.</p>
-
-<p>La <strong>SEDATU,</strong> a través del <strong>Programa Rescate de Espacios Públicos</strong> se alinea con el <strong>Plan Nacional de Desarrollo</strong> en la consecución de la <strong>Meta Nacional 2.</strong>:</p>
-
-<blockquote>
-  <p>Un “México Incluyente”; objetivo 2.2. “Transitar hacia una sociedad equitativa e incluyente.” y</p>
-  
-  <p>La estrategia 2.2.1. “Generar esquemas de desarrollo comunitario a través de procesos de participación social.”</p>
-  
-  <p>Objetivo 3 “Consolidar ciudades compactas, productivas, competitivas, incluyentes y sustentables, que faciliten la movilidad y elevenla calidad de vida de sus habitantes.”</p>
-</blockquote>
-
-<h3>El Artículo 8. Acciones de acuerdo a las dos modalidades del Programa Rescate de Espacios Públicos para:</h3>
-
-<p><strong>I. Mejoramiento Físico de los Espacios Públicos</strong></p>
-
-<ul>
-<li>Construir, ampliar, habilitar o rehabilitar espacios públicos de uso comunitario para el desarrollo de actividades recreativas, culturales, turísticas, deportivas y viajes urbanos con sentido de equidad e inclusión social.</li>
-<li>Construir, ampliar y mejorar el alumbrado público, infraestructura peatonal y ciclista, guarniciones y otras obras necesarias alrededor del espacio, que brinden accesibilidad universal y seguridad a la población en general.</li>
-<li>Construir, ampliar, dotar y/o rehabilitar el mobiliario urbano para el correcto funcionamiento de los espacios públicos.</li>
-<li>Implementar acciones de mejora, conservación y adecuación de los espacios públicos para su debido aprovechamiento y que contribuyan a su sustentabilidad y la seguridad ciudadana.</li>
-<li>Mejoramiento de vías y accesos, así como el establecimiento de rutas, senderos y paraderos seguros para los peatones, ciclistas y señalización, que incentiven la intermodalidad con corredores y estaciones de transporte público.</li>
-</ul>
-
-<p><strong>II. Participación Social y Seguridad Comunitaria.</strong></p>
-
-<ul>
-<li>Impulsar la organización y participación de los ciudadanos en los procesos de planeación, ejecución y operación de los espacios públicos con la finalidad de promover desde el inicio su apropiación y pertenencia comunitaria.</li>
-<li>Promover el desarrollo de actividades recreativas, artístico-culturales, turísticas, deportivas y viajes urbanos para fomentar el desarrollo personal y social, la convivencia, la interacción y el aprovechamiento del tiempo libre, como medidas dirigidas a prevenir conductas antisociales y de riesgo, así como de generación del sentido de identidad y pertenencia ciudadana con el entorno urbano.</li>
-<li>Integrar a prestadores de servicio social y promotores comunitarios en la instrumentación de estrategias y proyectos en el espacio público.</li>
-<li>Impulsar la conformación de redes sociales, comités vecinales y de contraloría social como formas de organización y participación comunitaria, que coadyuven a la promoción y el cuidado del espacio público y la seguridad vecinal, y que funjan como gestores de las necesidades del espacio, su funcionamiento y sostenibilidad.</li>
-<li>Promover la inclusión social y la equidad de género, dando preferencia a grupos vulnerables y personas con discapacidad favoreciendo el conocimiento y ejercicio de sus derechos.</li>
-<li>Sensibilizar y prevenir la violencia familiar y social para fomentar la sana convivencia.</li>
-<li>Incentivar la elaboración de planes y estudios que contribuyan al diagnóstico y evaluación de la situación de inseguridad y violencia; que planteen estrategias y acciones de solución, el posible impacto de las acciones desarrolladas en los espacios públicos, así como generar indicadores que permitan conocer el desempeño del Programa en las ciudades y zonas metropolitanas participantes.</li>
-<li>Impulsar la conservación de recursos naturales y cuidado del medio ambiente para promover una cultura de respeto a la ecología.</li>
-</ul>
-
-<p>El <strong>Programa Rescate de Espacios Públicos</strong> que permite acceder a apoyos federales complementarse con aportaciones locales y la participación de la sociedad civil permite impulsar los proyectos urbanos integrales de beneficio comunitario para que se disponga de espacios incluyentes y seguros, que permitan la integración social como elementos clave para prevenir conductas de riesgo; mediante actividades artístico-culturales, recreativas y deportivas.</p>
-
-<h3>Referencias</h3>
-
-<ul>
-<li>Bibliografia: AlvaroEchaider (37) es rematador y corredor inmobiliario. Coordina la Oficina de Gestión Territorial del Plan Montevideo (IMM) y preside la Comisión Financiera de la Rambla Sur. Artículo publicado en la REVISTA PROPIEDADES en diciembre del año 2000.</li>
-<li><a href="http://www.cafedelasciudades.com.ar/urbanidad_108.htm">Café de las Ciudades - Urbanidad</a></li>
-<li><a href="http://www.sedatu.gob.mx/sraweb/datastore/programas/2015/rescate_espacios_publicos/RO_PREP_2015_DOF.pdf">Martes 30 de diciembre de 2014 DIARIO OFICIAL Décima Sección</a></li>
-</ul>
-
-<h3>Fotografías</h3>
-
-<ul>
-<li><a href="https://www.google.com.mx/search?q=Av.+colon&amp;rlz=1C1GGGE_esMX629MX629&amp;espv=2&amp;biw=1920&amp;bih=1055&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0CAcQ_AUoAmoVChMIgvLsifaIyAIVwi-ICh3lMQEi#tbm=isch&amp;q=parking+day+en+torreon&amp;i">Google - Av. Colón</a></li>
-<li><a href="https://www.elsiglodetorreon.com.mx/noticia/974113.la-antigua-jabonera-dara-paso-a-pabellon-deportivo.html">El Siglo de Torreón - La Antigua Jabonera dará paso a pabellón deportivo</a></li>
-<li><a href="https://www.elsiglodetorreon.com.mx/noticia/980611.limpian-jabonera-haran-preparatoria.html">El Siglo de Torreón - Limpian Jabonera harán Preparatoria</a></li>
-<li><a href="https://www.elsiglodetorreon.com.mx/noticia/fotos.php?nota=1135170">El Siglo de Torreón - En su primer día, mil niños acuden a La Jabonera</a></li>
 </ul>
 ]]></description>
     </item>
