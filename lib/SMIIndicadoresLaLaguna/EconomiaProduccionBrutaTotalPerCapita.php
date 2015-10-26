@@ -40,7 +40,7 @@ class EconomiaProduccionBrutaTotalPerCapita extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total.';
+        $this->descripcion       = 'Producción bruta total (de los sectores industria, comercio y servicios) entre población total. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).';
         $this->claves            = 'IMPLAN, La Laguna, Macroeconomía, Finanzas Públicas';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-la-laguna';
@@ -290,7 +290,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
-<p>Producción bruta total (de los sectores industria, comercio y servicios) entre población total.</p>
+<p>Producción bruta total (de los sectores industria, comercio y servicios) entre población total. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">

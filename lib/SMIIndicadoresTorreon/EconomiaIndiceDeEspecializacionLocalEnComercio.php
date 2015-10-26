@@ -40,7 +40,7 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.';
+        $this->descripcion       = 'Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).';
         $this->claves            = 'IMPLAN, Torreón, Mercados';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
@@ -103,7 +103,7 @@ class EconomiaIndiceDeEspecializacionLocalEnComercio extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/1998</td>
-            <td>0.36 %</td>
+            <td>9.36 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -238,7 +238,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '1998-12-31', dato: 0.3592 },{ fecha: '2003-12-31', dato: 14.8700 },{ fecha: '2008-12-31', dato: 7.4500 },{ fecha: '2013-12-31', dato: 9.0330 }],
+      data: [{ fecha: '1998-12-31', dato: 9.3592 },{ fecha: '2003-12-31', dato: 14.8700 },{ fecha: '2008-12-31', dato: 7.4500 },{ fecha: '2013-12-31', dato: 9.0330 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -280,7 +280,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
-<p>Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.</p>
+<p>Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas. Indicador incluido en el índice de competitividad 2012 del Centro de Investigación y Docencia Económicas (CIDE).</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -295,7 +295,7 @@ FINAL;
         <tbody>
           <tr>
             <td>31/12/1998</td>
-            <td>0.36 %</td>
+            <td>9.36 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
