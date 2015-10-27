@@ -33,7 +33,7 @@ class LaUtopiaDeUnaCiudadCaminable extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre          = 'La Utopía de una Ciudad Caminable';
-        $this->autor           = 'Adriana Vargas';
+        $this->autor           = 'Lic. Adriana Vargas Flores';
         $this->fecha           = '2015-08-07T16:35';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'la-utopia-de-una-ciudad-caminable';

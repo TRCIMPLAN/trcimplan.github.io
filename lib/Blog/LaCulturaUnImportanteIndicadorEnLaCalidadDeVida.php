@@ -33,7 +33,7 @@ class LaCulturaUnImportanteIndicadorEnLaCalidadDeVida extends \Base\Publicacion 
     public function __construct() {
         // Título, autor y fecha
         $this->nombre          = 'La Cultura: un importante indicador en la calidad de vida';
-        $this->autor           = 'Adriana Vargas';
+        $this->autor           = 'Lic. Adriana Vargas Flores';
         $this->fecha           = '2015-09-03T15:22';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'la-cultura-un-importante-indicador-en-la-calidad-de-vida';

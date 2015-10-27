@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La contaminación ambiental en la Comarca tiene efectos nocivos en la población más vulnerable, menores de 5 años y mayores de 65, que pueden derivar en enfermedades respiratorias.">
+  <meta name="author" content="Lic. Adriana Vargas Flores">
+  <meta name="keywords" content="IMPLAN, Torreon, Contaminacion, Aire, Medio Ambiente">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Calidad del aire en Torreón y sus efectos en la salud - IMPLAN Torreón">
+  <meta name="twitter:description" content="La contaminación ambiental en la Comarca tiene efectos nocivos en la población más vulnerable, menores de 5 años y mayores de 65, que pueden derivar en enfermedades respiratorias.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/calidad-del-aire-en-torreon-y-sus-efectos-en-la-salud/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/calidad-del-aire-en-torreon-y-sus-efectos-en-la-salud.html">
+  <meta name="og:title" content="Calidad del aire en Torreón y sus efectos en la salud - IMPLAN Torreón">
+  <meta name="og:description" content="La contaminación ambiental en la Comarca tiene efectos nocivos en la población más vulnerable, menores de 5 años y mayores de 65, que pueden derivar en enfermedades respiratorias.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/calidad-del-aire-en-torreon-y-sus-efectos-en-la-salud/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/calidad-del-aire-en-torreon-y-sus-efectos-en-la-salud.html">
+  <title>Calidad del aire en Torreón y sus efectos en la salud - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Calidad del aire en Torreón y sus efectos en la salud</h1>
+          <div class="encabezado-descripcion" itemprop="description">La contaminación ambiental en la Comarca tiene efectos nocivos en la población más vulnerable, menores de 5 años y mayores de 65, que pueden derivar en enfermedades respiratorias.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Adriana Vargas Flores</span>
+          - <meta itemprop="datePublished" content="2015-10-27T10:00">27/10/2015 10:00
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Calidad del aire en Torreón y sus efectos en la salud" src="calidad-del-aire-en-torreon-y-sus-efectos-en-la-salud/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>La <strong>contaminación del aire</strong> continúa siendo uno de los <strong>problemas de salud pública más importantes</strong> que afecta a la población a nivel nacional.</p>
+
+<p>Debido a que la <strong>Comarca Lagunera</strong> es una zona <strong>altamente industrializada y cada vez con mayor concentración vehicular,</strong> mejorar la calidad del aire se vuelve indispensable para la salud de toda la población.</p>
+
+<p><strong>Desde el 2010 Torreón forma parte del programa para mejorar la calidad del aire "Pro Aire Laguna".</strong></p>
+
+<p>A la fecha, el municipio cuenta con <strong>9 equipos manuales y una estación automática</strong> para medir la calidad del aire en Partículas Suspendidas Totales (PST) y Partículas Menores a 10 micras (PM10), en lo que va del año los resultados son significativos.</p>
+
+<blockquote>
+  <p>Los efectos de las partículas sobre cambios en la función pulmonar están ampliamente documentados en personas asmáticas y no asmáticas.</p>
+</blockquote>
+
+<p>En <strong>2015,</strong> de acuerdo con las mediciones semanales, los meses donde la ciudad registró una contaminación por encima de la norma, fueron <strong>febrero, marzo, abril y agosto.</strong></p>
+
+<p>A nivel trimestral, el periodo de mayor contaminación fue <strong>entre enero y abril,</strong> debido a que en la temporada de frío la inversión térmica provoca mayor concentración de partículas contaminantes.</p>
+
+<p>Las estadísticas mensuales de la <strong>Dirección General de Medio Ambiente,</strong> revelan que en algunos puntos de la ciudad donde se realizan mediciones con equipos manuales, es mayor la contaminación que en otros.</p>
+
+<p>Por ejemplo: en el monitoreo realizado en la Escuela Secundaria General No. 3 se presentó <strong>42% de días fuera de la norma en PST.</strong> Y en la Escuela Secundaria Técnica No. 83, fueron <strong>43% de días fuera de la norma en PM10.</strong></p>
+
+<h3>Efectos sobre la salud</h3>
+
+<p>El espectro de efectos en la salud por la contaminación del aire es amplio, de acuerdo con la <strong>Norma Oficial Mexicana de Salud 025,</strong> pero afectan en particular a los <strong>sistemas respiratorio y cardiovascular.</strong></p>
+
+<p>Toda la población puede ser afectada, aunque la susceptibilidad puede variar con el estado de salud o la edad, siendo <strong>los niños menores de 5 años, los adultos mayores de 65 y las personas con padecimientos previos, los grupos de mayor riesgo.</strong></p>
+
+<p>Los eventos más documentados son: la mortalidad y la hospitalización de pacientes con <strong>enfermedad pulmonar obstructiva crónica (EPOC), exacerbación de los síntomas y aumento de la necesidad de terapia en asmáticos,</strong> así como mortalidad y hospitalización de pacientes con <strong>enfermedades cardiovasculares y diabetes mellitus.</strong></p>
+
+<p><img class="img-responsive" src="calidad-del-aire-en-torreon-y-sus-efectos-en-la-salud/monitoreo-trimestral-de-la-calidad-del-aire.jpg" alt=""></p>
+
+<p>También se presentó el <strong>aumento del riesgo de infarto al miocardio, inflamación de las vías respiratorias, inflamación sistémica, disfunción endotelial y vascular, desarrollo de aterosclerosis, aumento en la incidencia de infecciones y cáncer de pulmón,</strong> entre otros.</p>
+
+<p>Los niveles actuales de PM10 y PM2.5 en varias ciudades del país, se han asociado con <strong>reducciones agudas en el volumen espiratorio forzado del primer segundo (FEV1) y en la capacidad vital forzada (FVC),</strong> según lo informa la Norma Oficial Mexicana.</p>
+
+<p>Sin embargo, <strong>hay evidencia de que la función pulmonar mejora cuando la exposición se reduce.</strong></p>
+
+<p>Con una disminución neta de 10 μg/m3 (microgramos por metros cúbicos) de PM10 por un período de 10 años, se reduce la incidencia de algunos padecimientos respiratorios en 9%.</p>
+
+<p><strong>Susana Estens de la Garza,</strong> directora de Medio Ambiente, comentó que las partículas menores a 0.1 micras (PM0.1) tienen una mayor capacidad de traspasar la membrana que está entre el alveolo y el capilar.</p>
+
+<p>Una vez que pasa el capilar entra al torrente sanguíneo y los contaminantes se dispersan por todo el cuerpo, <strong>"por eso lo que respiramos incide directamente en nuestra salud".</strong></p>
+
+<h3>La verificación vehicular</h3>
+
+<p>Para la directora, <strong>la contaminación ambiental debe ser una responsabilidad compartida.</strong> No sólo se trata de que el gobierno imponga leyes, se tiene que socializar y difundir para que no se sienta como una imposición.</p>
+
+<p>Necesariamente la reducción de la contaminación va de la mano con el <strong>Programa de Verificación Vehicular,</strong> bajo el entendido de que <strong>"si tu carro contamina, tienes que pagar",</strong> expresó la Química.</p>
+
+<p>Aún cuando los automóviles se encuentren afinados y en las mejores condiciones físico/mecánicas, contaminan.</p>
+
+<blockquote>
+  <p>"Porque en contaminación del aire, lo que más incide y más posibilidades tiene de mejorar, es la combustión de hidrocarburos".</p>
+  
+  <p>"Esto tiene que ir de la mano con la implementación de un sistema de transporte de calidad, con el Metrobús y con el fomento a la movilidad sustentable", indicó.</p>
+</blockquote>
+
+<p>Susana Estens compartió que <strong>Torreón contará el próximo año con un Programa de Verificación nuevo a nivel nacional.</strong></p>
+
+<blockquote>
+  <p>"La norma marca que la verificación tiene que ser con un dinamómetro, son unos rodillos sobre los cuáles se coloca el vehículo y se somete a una prueba de esfuerzo, esta prueba es más confiable y los municipios están obligados a aplicarla".</p>
+</blockquote>
+
+<p>Actualmente el Municipio verifica <strong>10,000 vehículos al año</strong> y con este programa se pretenden verificar <strong>20,000 vehículos al mes.</strong></p>
+
+<p>La directora puntualizó la importancia de que la ciudadanía entienda la ecuación: <strong>Verificación = mejor calidad del aire = mejor salud.</strong></p>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
