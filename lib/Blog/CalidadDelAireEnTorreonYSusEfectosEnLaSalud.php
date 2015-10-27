@@ -34,7 +34,7 @@ class CalidadDelAireEnTorreonYSusEfectosEnLaSalud extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Calidad del aire en Torreón y sus efectos en la salud';
         $this->autor           = 'Lic. Adriana Vargas Flores';
-        $this->fecha           = '2015-10-27T10:00';
+        $this->fecha           = '2015-10-27T11:30';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'calidad-del-aire-en-torreon-y-sus-efectos-en-la-salud';
         $this->imagen          = 'calidad-del-aire-en-torreon-y-sus-efectos-en-la-salud/imagen.jpg';
@@ -47,7 +47,7 @@ class CalidadDelAireEnTorreonYSusEfectosEnLaSalud extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'revisar';
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;
