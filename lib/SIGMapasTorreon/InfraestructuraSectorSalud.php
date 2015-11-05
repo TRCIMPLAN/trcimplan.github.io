@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SIG Mapas Instituciones y Servicios de Salud
+ * TrcIMPLAN - SIG Mapas Infraestructura del Sector Salud
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,24 +23,24 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase InstitucionesServiciosSalud
+ * Clase InfraestructuraSectorSalud
  */
-class InstitucionesServiciosSalud extends \Base\Publicacion {
+class InfraestructuraSectorSalud extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Instituciones y Servicios de Salud';
+        $this->nombre             = 'Infraestructura del Sector Salud';
         $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
         $this->fecha              = '2015-11-04T16:53';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo            = 'instituciones-servicios-salud';
-        $this->imagen             = 'instituciones-servicios-salud/imagen.jpg';
-        $this->imagen_previa      = 'instituciones-servicios-salud/imagen-previa.jpg';
+        $this->archivo            = 'infraestructura-sector-salud';
+        $this->imagen             = 'infraestructura-sector-salud/imagen.jpg';
+        $this->imagen_previa      = 'infraestructura-sector-salud/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Instituciones y Servicios de Salud a las que la ciudadanía tiene derecho, accede o acude para prevenir o atender su salud.';
+        $this->descripcion        = 'Instituciones, Hospitales y Clínicas, públicas y privadas que proporcionan servicios de salud.';
         $this->claves             = 'IMPLAN, Torreon, Salud, Instituciones, Hospitales, Clinicas';
         $this->categorias         = array('Salud');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
@@ -114,6 +114,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase InstitucionesServiciosSalud
+} // Clase InfraestructuraSectorSalud
 
 ?>
