@@ -1,14 +1,16 @@
+
+### Descargar los datos del SMI
+
 <div class="media">
 <div class="media-left"><a class="pull-left" href="trcimplan-smi.zip"><img class="media-object" src="datos-abiertos/faenza-zip-128.png" alt="Descargar los datos del SMI"></a></div>
 <div class="media-body">
-<h4 class="media-heading"><a href="trcimplan-smi.zip">Descargar los datos del SMI</a></h4>
 <ul>
-<li>Contiene un archivo de texto separado por comas CSV.</li>
-<li>La codificación de los caracteres es UTF-8.</li>
+<li>Contiene un archivo de <a href="https://es.wikipedia.org/wiki/CSV" target="_blank">texto separado por comas CSV</a>.</li>
+<li>La codificación de los caracteres es <a href="https://es.wikipedia.org/wiki/UTF-8" target="_blank">UTF-8</a>.</li>
 <li>La primera línea tiene los nombres de las columnas.</li>
 <li>En mayúsculas y sin acentos. Excepto la eñe (Ñ) y la diéresis (Ü).</li>
 <li>Cantidad de filas: <b>6,000</b>.</li>
-<li>Elaboración: <b>26 octubre 2015 09:15</b>.</li>
+<li>Elaboración: <b> 8 noviembre 2015 23:12</b>.</li>
 </ul>
 </div>
 </div>
@@ -26,3 +28,15 @@ La intensión es que los **datos** del Sistema Metropolitano de Indicadores no s
 ### ¿Hay restricciones en cuanto a su uso?
 
 Estos datos se ofrecen bajo los [Términos de Uso de la Información](http://www.trcimplan.gob.mx/terminos/terminos-informacion.html) publicados en este mismo sitio web.
+
+### ¿Porqué como archivo CSV y no como archivo XLSX de Microsoft Excel?
+
+Hay dos razones para usar **formatos abiertos.** Primero para cumplir con [la regulación en materia de datos abiertos](http://www.dof.gob.mx/nota_detalle.php?codigo=5382838&fecha=20/02/2015). Segundo porque **es importante estandarizar** la manera en que los datos serán utilizados y consumidos por el público en general y el propio gobierno. Al exportar los datos en formatos abiertos, **se facilita el consumo e interpretación de la información por terceros, así como por máquinas.**
+
+El **formato de archivo CSV es simple y universal,** estructura los datos en filas y columnas separadas por un caracter definido, en este caso la coma. Puede ser importado tanto por [LibreOffice](https://www.libreoffice.org/) Calc, por [Microsoft Office](https://www.office.com/) y prácticamente por cualquier base de datos. Cabe destacar, que también **al usar un formato abierto, no se está obligando a que se adquiera un software comercial costoso, o un número de versión específica,** para poder trabajar con éste.
+
+### Video demostrativo de uso con Microsoft Office
+
+<iframe width="1024" height="768" src="https://www.youtube.com/embed/ql0Kvx2Paa8" frameborder="0" allowfullscreen></iframe>
+
+[Vea este mismo video en YouTube](https://www.youtube.com/watch?v=ql0Kvx2Paa8).

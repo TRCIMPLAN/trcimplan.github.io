@@ -5,11 +5,60 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 05 Nov 2015 13:59:29 -0600</pubDate>
+    <pubDate>Sun, 08 Nov 2015 23:14:09 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Datos Abiertos del Sistema Metropolitano de Indicadores</title>
+      <link>http://www.trcimplan.gob.mx/smi/datos-abiertos.html</link>
+      <guid isPermaLink="false">smi-datos-abiertos</guid>
+      <pubDate>Sun, 08 Nov 2015 23:00:00 -0600</pubDate>
+      <author>Dirección de Investigación Estratégica</author>
+      <description><![CDATA[<h3>Descargar los datos del SMI</h3>
+
+<div class="media">
+<div class="media-left"><a class="pull-left" href="http://www.trcimplan.gob.mx/smi/trcimplan-smi.zip"><img class="media-object" src="http://www.trcimplan.gob.mx/smi/datos-abiertos/faenza-zip-128.png" alt="Descargar los datos del SMI"></a></div>
+<div class="media-body">
+<ul>
+<li>Contiene un archivo de <a href="https://es.wikipedia.org/wiki/CSV" target="_blank">texto separado por comas CSV</a>.</li>
+<li>La codificación de los caracteres es <a href="https://es.wikipedia.org/wiki/UTF-8" target="_blank">UTF-8</a>.</li>
+<li>La primera línea tiene los nombres de las columnas.</li>
+<li>En mayúsculas y sin acentos. Excepto la eñe (Ñ) y la diéresis (Ü).</li>
+<li>Cantidad de filas: <b>6,000</b>.</li>
+<li>Elaboración: <b> 8 noviembre 2015 23:12</b>.</li>
+</ul>
+</div>
+</div>
+
+<h3>¿Qué son los datos abiertos?</h3>
+
+<p>Los datos abiertos son los datos digitales de carácter público que son accesibles en línea, es decir, por Internet, y que también <strong>pueden ser usados, reutilizados y redistribuidos por cualquier interesado.</strong></p>
+
+<p>Ampliando la definición anterior, los datos abiertos constituyen una poderosa herramienta que mejora la forma de trabajar, dentro y fuera del gobierno federal, estatal o municipal. Hacia el interior aumenta la eficiencia del trabajo entre las dependencias; hacia el exterior, se vuelven componentes básicos para resolver problemáticas del ciudadano, empresas y organizaciones civiles.</p>
+
+<h3>¿Cual es el fin de publicarlos?</h3>
+
+<p>La intensión es que los <strong>datos</strong> del Sistema Metropolitano de Indicadores no sólo sirvan para estar publicados en este sitio web, sino <strong>que también sean libremente descargados y estudiados</strong> por cualquier persona interesada en realizar un <strong>análisis específico, respaldarlos o reutilizarlos para otro fin.</strong></p>
+
+<h3>¿Hay restricciones en cuanto a su uso?</h3>
+
+<p>Estos datos se ofrecen bajo los <a href="http://www.trcimplan.gob.mx/terminos/terminos-informacion.html">Términos de Uso de la Información</a> publicados en este mismo sitio web.</p>
+
+<h3>¿Porqué como archivo CSV y no como archivo XLSX de Microsoft Excel?</h3>
+
+<p>Hay dos razones para usar <strong>formatos abiertos.</strong> Primero para cumplir con <a href="http://www.dof.gob.mx/nota_detalle.php?codigo=5382838&amp;fecha=20/02/2015">la regulación en materia de datos abiertos</a>. Segundo porque <strong>es importante estandarizar</strong> la manera en que los datos serán utilizados y consumidos por el público en general y el propio gobierno. Al exportar los datos en formatos abiertos, <strong>se facilita el consumo e interpretación de la información por terceros, así como por máquinas.</strong></p>
+
+<p>El <strong>formato de archivo CSV es simple y universal,</strong> estructura los datos en filas y columnas separadas por un caracter definido, en este caso la coma. Puede ser importado tanto por <a href="https://www.libreoffice.org/">LibreOffice</a> Calc, por <a href="https://www.office.com/">Microsoft Office</a> y prácticamente por cualquier base de datos. Cabe destacar, que también <strong>al usar un formato abierto, no se está obligando a que se adquiera un software comercial costoso, o un número de versión específica,</strong> para poder trabajar con éste.</p>
+
+<h3>Video demostrativo de uso con Microsoft Office</h3>
+
+<iframe width="1024" height="768" src="https://www.youtube.com/embed/ql0Kvx2Paa8" frameborder="0" allowfullscreen></iframe>
+
+<p><a href="https://www.youtube.com/watch?v=ql0Kvx2Paa8">Vea este mismo video en YouTube</a>.</p>
+]]></description>
+    </item>
     <item>
       <title>Infraestructura del Sector Salud</title>
       <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/infraestructura-sector-salud.html</link>
@@ -295,59 +344,6 @@ Instituciones, Hospitales y Clínicas, públicas y privadas que proporcionan ser
       <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/infraestructura-vial.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/infraestructura-vial/imagen.jpg"><br>
 
 Mapa de jerarquía de vialidades que permite los intercambios entre las diversas funciones que se desarrollan en la ciudad de Torreón.</a>]]></description>
-    </item>
-    <item>
-      <title>Ciudades 24/7 como estrategia para revitalizar el espacio urbano</title>
-      <link>http://www.trcimplan.gob.mx/blog/ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano.html</link>
-      <guid isPermaLink="false">blog-ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano</guid>
-      <pubDate>Thu, 15 Oct 2015 08:15:00 -0500</pubDate>
-      <author>Arq. Ángeles Melisa Rodríguez Salas</author>
-      <description><![CDATA[<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano/01.jpg" alt=""></p>
-
-<p>Nuestro estilo de vida, se ha desarrollado a través de los trabajos y estudios los cuales nos marcan un régimen de horario estricto, por lo que son más las actividades diurnas que desarrollamos; por lo cual, la noche es representada como una barrera del tiempo que cada vez más se está fragmentando con los esfuerzos de participaciones económicas, culturales, sociales, etc.</p>
-
-<p>La ciudad nocturna(24/7) tiene como fin común proponer una estrategia que pueda revitalizar los espacios que se encuentran en abandono, (falta de actividad en la zona) y pretende difundir y extender las actividades que se realizan en la zona durante los <em>«espacios vacíos»</em> como lo es el mediodía, así como la jornada laboral y la noche; a través de una planificación urbana que permita la continuación de las actividades realizadas durante el día, además de la creación de actividades nocturnas específicas.</p>
-
-<blockquote>
-  <p>“La ciudad 24/7 reposa sobre la economía nocturna, especialmente sobre el sector de la diversión. Dado que entra en competencia con otras ciudades, y con otras actividades en el marco de la propia ciudad, este sector es espacialmente selectivo: tiene diferentes grados de especialización y volumen de oferta según la jerarquía urbana, y se distribuye de forma limitada y concentrada en algunos barrios de la ciudad”</p>
-  
-  <p>González y Morales, 2013.</p>
-</blockquote>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano/02.jpg" alt=""></p>
-
-<p>Dentro de los beneficios de promover una ciudad 24/7 a través de una economía nocturna, se encuentra la generación de <strong>mayores ingresos económicos,</strong> ya que se fomenta la apertura de nuevos negocios en horarios nocturnos o de los mismos pero con mayor rango de horario al normal, que ofrecen una variedad de eventos a los cuales se puede acudir en el transcurso de la noche.</p>
-
-<p>A su vez, se convierte en una <strong>fuente de empleo adicional</strong> para cubrir la demanda de los lugares y negocios en los nuevos horarios nocturnos, regenerando el espacio urbano, a través de un flujo continuo de las personas. Lo anterior deriva además, en los gastos a los servicios y productos que se ofrecen en el área.</p>
-
-<p>Crea una gama de <strong>diferentes actividades a realizar en el zona,</strong> lo que invita a los visitantes y lugareños a permanecer en la zona por más tiempo, lo que ofrece una oportunidad de revitalización de las zonas urbanas que por la noche caen en abandono por la falta de actividades a realizarse.</p>
-
-<p>Existen ciudades, como Buenos Aires en donde se promueven acciones para que las personas puedan realizar actividades nocturnas que generan un atractivo para que salgan a pasear y disfrutar de los diferentes servicios o eventos que se presentan en vez de regresar a sus casas, ya sea ofreciendo una serie de alianzas entre los bares y restaurantes o un atractivo evento cultural.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano/03.jpg" alt=""></p>
-
-<p>La generación o la ampliación de los horarios de los negocios estarán atendiendo a una comunidad con características específicas, con intereses similares e interrelacionados, formando subconjuntos que constituyen un mismo espacio físico funcional con necesidades específicas. Potencialmente ofrecen una diversidad de actividades recreacionales que generan una demanda propia, fuera de las actividades de la mañana, que solo se pueden apreciar en la noche u obtener ventaja de esta.</p>
-
-<p>Este nuevo movimiento de personas crea una <strong>nueva percepción de la seguridad</strong> en la ciudad, puesto que una ciudad en la noche, sin ninguna tipo de actividad o personas por el lugar hace que se perciba insegura, peligrosa. Realizar diferentes actividades en la zona de noche estimularía a un mejor flujo de personas en el sector, generando vida y movimiento en las calles.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano/04.jpg" alt=""></p>
-
-<p>Para tener un balance dentro de las atracciones y actividades a realizar en una ciudad, es recomendable generar y <strong>fomentar destinos turísticos</strong> que ofrezcan un sinfín de opciones en cuanto esparcimiento para las diferentes edades, nivel socioeconómico, familias, culturas, etc. Por lo que, el ofrecer lugares donde los visitantes puedan disfrutar tanto de día como de noche, es una forma de ser un atractivo turístico distintivo en una ciudad. En México DF, se ofrece un recorrido nocturno en el Bosque de Chapultepec, para visitar sitios emblemáticos atractivamente iluminados, en bicicleta o a bordo de un tren.</p>
-
-<p>Con esto se promueve que la sociedad adquiera un <strong>mayor sentido de pertenencia</strong> a un lugar, que se identifique mejor con el espacio que habita. Vivir los espacios durante el día o la noche, genera una seguridad en las calles, por lo que deben existir diferentes elementos que acompañen a la actividad para ofrecer una mejor oferta, como una buena iluminación en las vialidades y diferentes tipos de movilidad urbana. Pero no solo eso, si no generar una metamorfosis en la cultura existente de la sociedad.</p>
-
-<p>El desarrollo de estos lugares debe de ser adecuado a las necesidades de las diferentes zonas de una ciudad, para que los habitantes disfruten de una manera respetuosa los espacios brindados, por lo que se deberá trabajar con todas las personas involucradas al respecto y llegar a un acuerdo sobre la solución de los problemas que puedan surgir con los nuevos establecimientos y eventos.</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano/05.jpg" alt=""></p>
-
-<h3>Referencias</h3>
-
-<ul>
-<li>Ciudades Efímeras: Transformando el Turismo urbano a través de la producción de eventos. (González y Morales, 2013)</li>
-<li><a href="http://www.condistintosacentos.com/distritos-y-redes-en-la-economia-nocturna-en-la-ciudad-de-mexico/">Distritos y redes en la conomía nocturna en la Ciudad de México</a></li>
-<li><a href="http://blogs.iadb.org/ciudadessostenibles/2014/09/05/economia-nocturna/">Economía nocturna</a></li>
-</ul>
-]]></description>
     </item>
   </channel>
 </rss>
