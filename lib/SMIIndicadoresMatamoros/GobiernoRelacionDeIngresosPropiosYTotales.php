@@ -143,6 +143,18 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>11.24 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>9.75 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -182,36 +194,57 @@ class GobiernoRelacionDeIngresosPropiosYTotales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
-            <td>43.99 %</td>
+            <td>2014-12-31</td>
+            <td>38.37 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
-            <td>42.09 %</td>
+            <td>2014-12-31</td>
+            <td>24.32 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2013-12-31</td>
-            <td>37.77 %</td>
+            <td>2014-12-31</td>
+            <td>33.33 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
-            <td>13.10 %</td>
+            <td>2014-12-31</td>
+            <td>9.75 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-12-31</td>
-            <td>40.93 %</td>
+            <td>2014-12-31</td>
+            <td>32.44 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2014-12-31</td>
+            <td>30.74 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2014-12-31</td>
+            <td>20.89 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2014-12-31</td>
+            <td>21.21 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -238,7 +271,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2007-12-31', dato: 12.2200 },{ fecha: '2008-12-31', dato: 9.3000 },{ fecha: '2009-12-31', dato: 12.2700 },{ fecha: '2010-12-31', dato: 7.8200 },{ fecha: '2011-12-31', dato: 8.7200 },{ fecha: '2012-12-31', dato: 17.4700 },{ fecha: '2013-12-31', dato: 13.1000 }],
+      data: [{ fecha: '2007-12-31', dato: 12.2200 },{ fecha: '2008-12-31', dato: 9.3000 },{ fecha: '2009-12-31', dato: 12.2700 },{ fecha: '2010-12-31', dato: 7.8200 },{ fecha: '2011-12-31', dato: 8.7200 },{ fecha: '2012-12-31', dato: 17.4700 },{ fecha: '2013-12-31', dato: 11.2429 },{ fecha: '2014-12-31', dato: 9.7467 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -254,7 +287,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 43.9900 },{ region: 'Gómez Palacio', dato: 42.0900 },{ region: 'Lerdo', dato: 37.7700 },{ region: 'Matamoros', dato: 13.1000 },{ region: 'La Laguna', dato: 40.9300 }],
+      data: [{ region: 'Torreón', dato: 38.3748 },{ region: 'Gómez Palacio', dato: 24.3200 },{ region: 'Lerdo', dato: 33.3260 },{ region: 'Matamoros', dato: 9.7467 },{ region: 'La Laguna', dato: 32.4379 },{ region: 'Coahuila', dato: 30.7383 },{ region: 'Durango', dato: 20.8938 },{ region: 'Nacional', dato: 21.2090 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -332,6 +365,18 @@ FINAL;
           <tr>
             <td>31/12/2013</td>
             <td>13.10 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>11.24 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>9.75 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>

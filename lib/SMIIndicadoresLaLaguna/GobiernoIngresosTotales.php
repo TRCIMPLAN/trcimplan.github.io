@@ -71,7 +71,7 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Finanzas Públicas');
-        $this->fuentes           = array('INEGI');
+        $this->fuentes           = array('Elaboración propia con datos obtenidos del INEGI');
         $this->regiones          = 'La Laguna';
     } // constructor
 
@@ -104,43 +104,55 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
           <tr>
             <td>31/12/2007</td>
             <td>$ 2,389,268,767.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2008</td>
             <td>$ 3,054,640,385.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
             <td>$ 3,147,856,470.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
             <td>$ 3,037,346,224.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
             <td>$ 3,391,664,429.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
             <td>$ 3,504,184,566.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2013</td>
             <td>$ 3,661,978,820.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>$ 3,661,978,621.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>$ 3,764,727,813.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
         </tbody>
@@ -182,37 +194,58 @@ class GobiernoIngresosTotales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
-            <td>$ 1,927,501,368.00</td>
-            <td>INEGI</td>
+            <td>2014-12-31</td>
+            <td>$ 2,077,991,769.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
-            <td>$ 1,065,239,676.00</td>
-            <td>INEGI</td>
+            <td>2014-12-31</td>
+            <td>$ 929,690,716.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2013-12-31</td>
-            <td>$ 475,221,421.00</td>
-            <td>INEGI</td>
+            <td>2014-12-31</td>
+            <td>$ 525,402,020.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
-            <td>$ 194,016,355.00</td>
-            <td>INEGI</td>
+            <td>2014-12-31</td>
+            <td>$ 231,643,308.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-12-31</td>
-            <td>$ 3,661,978,820.00</td>
-            <td>INEGI</td>
+            <td>2014-12-31</td>
+            <td>$ 3,764,727,813.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2014-12-31</td>
+            <td>$ 6,649,116,096.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2014-12-31</td>
+            <td>$ 5,277,880,579.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2014-12-31</td>
+            <td>$ 284,519,582,697.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
         </tbody>
@@ -238,7 +271,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2007-12-31', dato: 2389268767.00 },{ fecha: '2008-12-31', dato: 3054640385.00 },{ fecha: '2009-12-31', dato: 3147856470.00 },{ fecha: '2010-12-31', dato: 3037346224.00 },{ fecha: '2011-12-31', dato: 3391664429.00 },{ fecha: '2012-12-31', dato: 3504184566.00 },{ fecha: '2013-12-31', dato: 3661978820.00 }],
+      data: [{ fecha: '2007-12-31', dato: 2389268767.00 },{ fecha: '2008-12-31', dato: 3054640385.00 },{ fecha: '2009-12-31', dato: 3147856470.00 },{ fecha: '2010-12-31', dato: 3037346224.00 },{ fecha: '2011-12-31', dato: 3391664429.00 },{ fecha: '2012-12-31', dato: 3504184566.00 },{ fecha: '2013-12-31', dato: 3661978621.00 },{ fecha: '2014-12-31', dato: 3764727813.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -254,7 +287,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 1927501368.00 },{ region: 'Gómez Palacio', dato: 1065239676.00 },{ region: 'Lerdo', dato: 475221421.00 },{ region: 'Matamoros', dato: 194016355.00 },{ region: 'La Laguna', dato: 3661978820.00 }],
+      data: [{ region: 'Torreón', dato: 2077991769.00 },{ region: 'Gómez Palacio', dato: 929690716.00 },{ region: 'Lerdo', dato: 525402020.00 },{ region: 'Matamoros', dato: 231643308.00 },{ region: 'La Laguna', dato: 3764727813.00 },{ region: 'Coahuila', dato: 6649116096.00 },{ region: 'Durango', dato: 5277880579.00 },{ region: 'Nacional', dato: 284519582697.00 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -296,43 +329,55 @@ FINAL;
           <tr>
             <td>31/12/2007</td>
             <td>$ 2,389,268,767.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2008</td>
             <td>$ 3,054,640,385.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
             <td>$ 3,147,856,470.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
             <td>$ 3,037,346,224.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
             <td>$ 3,391,664,429.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
             <td>$ 3,504,184,566.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2013</td>
             <td>$ 3,661,978,820.00</td>
-            <td>INEGI</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>$ 3,661,978,621.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>$ 3,764,727,813.00</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
         </tbody>

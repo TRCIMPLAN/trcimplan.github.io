@@ -143,6 +143,18 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td>El incremento en la capacidad financiera del municipio de Lerdo se debe a un considerable aumento en sus ingresos propios.</td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>87.64 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>86.80 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -183,36 +195,57 @@ class GobiernoCapacidadFinanciera extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
-            <td>74.22 %</td>
+            <td>2014-12-31</td>
+            <td>65.24 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
-            <td>64.43 %</td>
+            <td>2014-12-31</td>
+            <td>40.41 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2013-12-31</td>
-            <td>87.64 %</td>
+            <td>2014-12-31</td>
+            <td>86.80 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
-            <td>El incremento en la capacidad financiera del municipio de Lerdo se debe a un considerable aumento en sus ingresos propios.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2013-12-31</td>
-            <td>21.82 %</td>
+            <td>2014-12-31</td>
+            <td>18.63 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2013-12-31</td>
-            <td>69.07 %</td>
+            <td>2014-12-31</td>
+            <td>58.02 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2014-12-31</td>
+            <td>52.78 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2014-12-31</td>
+            <td>39.75 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2014-12-31</td>
+            <td>39.16 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -239,7 +272,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2007-12-31', dato: 25.5200 },{ fecha: '2008-12-31', dato: 27.7100 },{ fecha: '2009-12-31', dato: 46.3000 },{ fecha: '2010-12-31', dato: 24.1400 },{ fecha: '2011-12-31', dato: 26.0300 },{ fecha: '2012-12-31', dato: 23.7600 },{ fecha: '2013-12-31', dato: 87.6400 }],
+      data: [{ fecha: '2007-12-31', dato: 25.5200 },{ fecha: '2008-12-31', dato: 27.7100 },{ fecha: '2009-12-31', dato: 46.3000 },{ fecha: '2010-12-31', dato: 24.1400 },{ fecha: '2011-12-31', dato: 26.0300 },{ fecha: '2012-12-31', dato: 23.7600 },{ fecha: '2013-12-31', dato: 87.6404 },{ fecha: '2014-12-31', dato: 86.7984 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -255,7 +288,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 74.2200 },{ region: 'Gómez Palacio', dato: 64.4300 },{ region: 'Lerdo', dato: 87.6400 },{ region: 'Matamoros', dato: 21.8200 },{ region: 'La Laguna', dato: 69.0700 }],
+      data: [{ region: 'Torreón', dato: 65.2382 },{ region: 'Gómez Palacio', dato: 40.4069 },{ region: 'Lerdo', dato: 86.7984 },{ region: 'Matamoros', dato: 18.6306 },{ region: 'La Laguna', dato: 58.0197 },{ region: 'Coahuila', dato: 52.7785 },{ region: 'Durango', dato: 39.7498 },{ region: 'Nacional', dato: 39.1581 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -335,6 +368,18 @@ FINAL;
             <td>87.64 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td>El incremento en la capacidad financiera del municipio de Lerdo se debe a un considerable aumento en sus ingresos propios.</td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>87.64 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>86.80 %</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
           </tr>
         </tbody>
       </table>

@@ -137,6 +137,18 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>$ 2,854.07</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>$ 2,899.81</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Pesos.</p>
@@ -176,36 +188,57 @@ class GobiernoIngresosTotalesPerCapita extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-12-31</td>
-            <td>$ 2,821.23</td>
+            <td>2014-12-31</td>
+            <td>$ 3,038.38</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
-            <td>$ 3,328.92</td>
+            <td>2014-12-31</td>
+            <td>$ 2,652.37</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td>$ 2,460.58</td>
+            <td>2014-12-31</td>
+            <td>$ 3,470.10</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
-            <td>$ 1,594.68</td>
+            <td>2014-12-31</td>
+            <td>$ 2,060.27</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td>$ 2,772.32</td>
+            <td>2014-12-31</td>
+            <td>$ 2,899.81</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2014-12-31</td>
+            <td>$ 2,272.74</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2014-12-31</td>
+            <td>$ 3,021.45</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2014-12-31</td>
+            <td>$ 2,376.68</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -232,7 +265,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2007-12-31', dato: 2069.57 },{ fecha: '2008-12-31', dato: 2595.45 },{ fecha: '2009-12-31', dato: 2623.62 },{ fecha: '2010-12-31', dato: 2498.19 },{ fecha: '2011-12-31', dato: 2735.96 },{ fecha: '2012-12-31', dato: 2772.32 }],
+      data: [{ fecha: '2007-12-31', dato: 2069.57 },{ fecha: '2008-12-31', dato: 2595.45 },{ fecha: '2009-12-31', dato: 2623.62 },{ fecha: '2010-12-31', dato: 2498.19 },{ fecha: '2011-12-31', dato: 2735.96 },{ fecha: '2012-12-31', dato: 2772.32 },{ fecha: '2013-12-31', dato: 2854.07 },{ fecha: '2014-12-31', dato: 2899.81 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -248,7 +281,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 2821.23 },{ region: 'Gómez Palacio', dato: 3328.92 },{ region: 'Lerdo', dato: 2460.58 },{ region: 'Matamoros', dato: 1594.68 },{ region: 'La Laguna', dato: 2772.32 }],
+      data: [{ region: 'Torreón', dato: 3038.38 },{ region: 'Gómez Palacio', dato: 2652.37 },{ region: 'Lerdo', dato: 3470.10 },{ region: 'Matamoros', dato: 2060.27 },{ region: 'La Laguna', dato: 2899.81 },{ region: 'Coahuila', dato: 2272.74 },{ region: 'Durango', dato: 3021.45 },{ region: 'Nacional', dato: 2376.68 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -320,6 +353,18 @@ FINAL;
           <tr>
             <td>31/12/2012</td>
             <td>$ 2,772.32</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>$ 2,854.07</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>$ 2,899.81</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
