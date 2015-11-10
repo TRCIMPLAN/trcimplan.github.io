@@ -1,4 +1,6 @@
 
+<span class="contenido-imagen-previa"><a href="convocatoria-2015/cartel-convocatoria-2015.jpg"><img class="img-responsive" src="convocatoria-2015/cartel-convocatoria-2015-chico.jpg" alt="Carte Convocatoria 2015"></a></span>
+
 ### CONVOCATORIA
 
 El Consejo Directivo del IMPLAN Torreón, con fundamento en lo dispuesto por el artículo 15 de la Ley que crea el Instituto Municipal de Planeación y Competitividad de Torreón, convoca a los ciudadanos interesados en formar parte del Consejo Directivo como Consejeros de Representación Sectorial, quienes deberán reunir los siguientes:
