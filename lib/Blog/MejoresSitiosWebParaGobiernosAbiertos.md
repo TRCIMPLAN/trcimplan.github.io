@@ -20,7 +20,7 @@ Las mejoras en la experiencia del visitante **pueden ayudar a mejorar la percepc
 
 ### De la publicación al uso práctico por parte de los ciudadanos
 
-Invitados de muchos países del mundo asistieron a la **Cumbre de la Alianza para el Gobierno Abierto** (AGA) donde expusieron sus ideas, experiencias y compartieron valioso conocimiento a cerca de sus éxitos y dificultades en torno al tema. Destaco que varios países latinoamericanos, entre los cuales sobresalen **Uruguay, Ecuador, Honduras y Guatemala nos han superado en materia de gobierno abierto,** porque han conseguido en pocos años crear consensos, cambiar sus normativas, trabajar al unísono y entregar resultados ejemplares.
+Invitados de muchos países del mundo asistieron a la **Cumbre de la Alianza para el Gobierno Abierto** (AGA) donde expusieron sus ideas, experiencias y compartieron valioso conocimiento a cerca de sus éxitos y dificultades en torno al tema. Para mi sorpresa, varios países latinoamericanos entre los cuales sobresalen **Uruguay, Ecuador, Honduras y Guatemala nos han superado en materia de gobierno abierto,** porque han conseguido en pocos años crear consensos, cambiar sus normativas, trabajar al unísono y mostrar resultados ejemplares.
 
 Publicar la información, los datos en formatos abiertos y explicar con claridad los trámites, no solo fortalece una cultura de transparencia, sino que **habilita el desarrollo de nuevos servicios y facilita la interoperabilidad.**
 
