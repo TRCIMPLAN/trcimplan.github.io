@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Una Laguna Competitiva En Joyeria De Plata
+ * TrcIMPLAN - Mejores Sitios Web Para Gobiernos Abiertos
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,31 +23,31 @@
 namespace Blog;
 
 /**
- * Clase UnaLagunaCompetitivaEnJoyeriaDePlata
+ * Clase MejoresSitiosWebParaGobiernosAbiertos
  */
-class UnaLagunaCompetitivaEnJoyeriaDePlata extends \Base\Publicacion {
+class MejoresSitiosWebParaGobiernosAbiertos extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Una Laguna competitiva en joyería de plata';
-        $this->autor           = 'Lic. Adriana Vargas Flores';
-        $this->fecha           = '2015-11-03T15:00';
+        $this->nombre          = 'Mejores Sitios Web Para Gobiernos Abiertos';
+        $this->autor           = 'Ing. Guillermo Valdés Lozano';
+        $this->fecha           = '2015-11-10T12:40';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'una-laguna-competitiva-en-joyeria-de-plata';
-        $this->imagen          = 'una-laguna-competitiva-en-joyeria-de-plata/imagen.jpg';
-        $this->imagen_previa   = 'una-laguna-competitiva-en-joyeria-de-plata/imagen-previa.jpg';
+        $this->archivo         = 'mejores-sitios-web-para-gobiernos-abiertos';
+        $this->imagen          = 'mejores-sitios-web-para-gobiernos-abiertos/imagen.jpg';
+        $this->imagen_previa   = 'mejores-sitios-web-para-gobiernos-abiertos/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'La producción de joyería bajo la marca "Plata Laguna" avanza para convertirse en un sector de calidad y competitivo a nivel nacional, con un conjunto de pequeñas empresas exportadoras.';
+        $this->descripcion     = 'Los ciudadanos demandan que se use la tecnología para que los datos del gobierno lleguen con claridad, rapidez y efectividad.';
         $this->claves          = 'IMPLAN, Torreon';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
+        $this->estado          = 'revisar';
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;
@@ -59,13 +59,13 @@ class UnaLagunaCompetitivaEnJoyeriaDePlata extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/Blog/UnaLagunaCompetitivaEnJoyeriaDePlata.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/MejoresSitiosWebParaGobiernosAbiertos.md';
         // Para el Organizador
-        $this->categorias      = array('Empresas', 'Innovación', 'Mercados');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'La Laguna');
+        $this->categorias      = array('Gobierno', 'Gobierno Digital', 'Innovación');
+        $this->fuentes         = array('Gobierno de la República');
+        $this->regiones        = array();
     } // constructor
 
-} // Clase UnaLagunaCompetitivaEnJoyeriaDePlata
+} // Clase MejoresSitiosWebParaGobiernosAbiertos
 
 ?>

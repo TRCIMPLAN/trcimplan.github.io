@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Una Laguna Competitiva En Joyeria De Plata
+ * TrcIMPLAN - Convocatoria 2015
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -20,34 +20,36 @@
  * @package TrcIMPLAN
  */
 
-namespace Blog;
+namespace ConsejoDirectivo;
 
 /**
- * Clase UnaLagunaCompetitivaEnJoyeriaDePlata
+ * Clase Convocatoria2015
  */
-class UnaLagunaCompetitivaEnJoyeriaDePlata extends \Base\Publicacion {
+class Convocatoria2015 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Una Laguna competitiva en joyería de plata';
-        $this->autor           = 'Lic. Adriana Vargas Flores';
-        $this->fecha           = '2015-11-03T15:00';
+        $this->nombre          = 'Convocatoria';
+     // $this->autor           = 'Autor';
+        $this->fecha           = '2015-11-10T12:15';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'una-laguna-competitiva-en-joyeria-de-plata';
-        $this->imagen          = 'una-laguna-competitiva-en-joyeria-de-plata/imagen.jpg';
-        $this->imagen_previa   = 'una-laguna-competitiva-en-joyeria-de-plata/imagen-previa.jpg';
+        $this->archivo         = 'convocatoria-2015';
+     // $this->imagen          = 'convocatoria-2015/imagen.jpg';
+     // $this->imagen_previa   = 'convocatoria-2015/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'La producción de joyería bajo la marca "Plata Laguna" avanza para convertirse en un sector de calidad y competitivo a nivel nacional, con un conjunto de pequeñas empresas exportadoras.';
-        $this->claves          = 'IMPLAN, Torreon';
+        $this->descripcion     = 'Convocatoria para formar parte del Consejo Directivo.';
+        $this->claves          = 'IMPLAN, Torreon, Convocatoria, 2015, Consejo Directivo';
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'blog';
+        $this->directorio      = 'consejo-directivo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Análisis Publicados';
+        $this->nombre_menu     = 'Consejo Directivo';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
+        $this->estado          = 'revisar';
+        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
+        $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;
@@ -59,13 +61,13 @@ class UnaLagunaCompetitivaEnJoyeriaDePlata extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/Blog/UnaLagunaCompetitivaEnJoyeriaDePlata.md';
+        $this->contenido_archivo_markdown = 'lib/ConsejoDirectivo/Convocatoria2015.md';
         // Para el Organizador
-        $this->categorias      = array('Empresas', 'Innovación', 'Mercados');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'La Laguna');
+     // $this->categorias      = array();
+     // $this->fuentes         = array();
+     // $this->regiones        = array();
     } // constructor
 
-} // Clase UnaLagunaCompetitivaEnJoyeriaDePlata
+} // Clase Convocatoria2015
 
 ?>

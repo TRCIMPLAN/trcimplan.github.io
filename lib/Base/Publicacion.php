@@ -59,8 +59,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $contenido_archivo_html;           // Ruta absoluta a un archivo externo HTML que se usará como contenido
     public $contenido_archivo_markdown;       // Ruta absoluta a un archivo externo Markdown que se usará como contenido
     public $poner_imagen_en_contenido = true; // Poner la imagen antes que el contenido
-    public $fuentes;                          // Pendiente que se definan las fuentes. Lo usa el Organizador.
-    public $regiones;                         // Pendiente que se definan las regiones. Lo usa el Organizador.
+    public $fuentes          = array();       // Arreglo con las fuentes. Lo usa el Organizador.
+    public $regiones         = array();       // Arreglo con las regiones. Lo usa el Organizador.
 
     /**
      * Validar
