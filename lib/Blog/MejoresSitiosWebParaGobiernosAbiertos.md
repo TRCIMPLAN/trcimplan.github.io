@@ -24,7 +24,7 @@ Invitados de muchos países del mundo asistieron a la **Cumbre de la Alianza par
 
 Publicar la información, los datos en formatos abiertos y explicar con claridad los trámites, no solo fortalece una cultura de transparencia, sino que **habilita el desarrollo de nuevos servicios y facilita la interoperabilidad.**
 
-Uno de los acuerdos firmados en el evento fue la **Carta Internacional de Datos Abiertos** ([Open Data Charter](http://opendatacharter.net)) promovida por la [World Wide Web Fundation](http://webfoundation.org/). La Carta busca incrementar la accesibilidad, interoperabilidad, usabilidad e impacto de los Datos Abiertos a nivel global, utilizándolos como un vehículo para el desarrollo Sostenible.
+Uno de los acuerdos firmados en el evento fue la **Carta Internacional de Datos Abiertos** ([Open Data Charter](http://opendatacharter.net)) promovida por la [World Wide Web Fundation](http://webfoundation.org/). La Carta busca incrementar la accesibilidad, interoperabilidad, usabilidad e impacto de los Datos Abiertos a nivel global, utilizándolos como un vehículo para el desarrollo sostenible.
 
 > "La Carta Internacional de Datos Abiertos tiene el potencial de acelerar el progreso al poner datos accionables en manos de las personas."
 >
@@ -39,7 +39,7 @@ Uno de los acuerdos firmados en el evento fue la **Carta Internacional de Datos 
 
 En el mismo ámbito y para ejemplificar las mejores prácticas de trabajar con Datos Abiertos, por parte del IMPLAN Torreón, hemos puesto disponible para su [descarga los datos del Sistema Metropolitano de Indicadores](http://www.trcimplan.gob.mx/smi/datos-abiertos.html) (SMI).
 
-La intensión es que los datos no sólo sirvan para estar publicados en este sitio web, sino que también sean libremente descargados y estudiados por cualquier persona interesada en realizar un análisis específico, respaldarlos o reutilizarlos para otro fin.
+La intención es que los datos no sólo sirvan para estar publicados en este sitio web, sino que también sean libremente descargados y estudiados por cualquier persona interesada en realizar un análisis específico, respaldarlos o reutilizarlos para otro fin.
 
 Los datos se descargan como un archivo comprimido ZIP; al desempacar queda un archivo de texto separado por comas CSV. Éste es un formato abierto que puede importarse a bases de datos, aplicaciones e inclusive a una hoja de cálculo como Microsoft Excel. Así le brindamos toda la información del SMI para que haga sus análisis, comparativas, gráficas, etc.
 
