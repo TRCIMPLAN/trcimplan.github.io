@@ -48,6 +48,8 @@ class Convocatoria2015 extends \Base\Publicacion {
         $this->nombre_menu     = 'Consejo Directivo';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'revisar';
+        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
+        $this->para_compartir  = false;
         // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
         $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema

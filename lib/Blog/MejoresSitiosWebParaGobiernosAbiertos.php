@@ -34,7 +34,7 @@ class MejoresSitiosWebParaGobiernosAbiertos extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Mejores Sitios Web Para Gobiernos Abiertos';
         $this->autor           = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha           = '2015-11-10T12:40';
+        $this->fecha           = '2015-11-12T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'mejores-sitios-web-para-gobiernos-abiertos';
         $this->imagen          = 'mejores-sitios-web-para-gobiernos-abiertos/imagen.jpg';
