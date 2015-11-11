@@ -35,29 +35,29 @@ Los interesados deberán presentar **original y copia** de los siguientes **docu
     * Instituciones de educación superior.
 3. La Secretaría Técnica del Consejo Directivo del IMPLAN, formará un expediente por cada ciudadano interesado y **el día 30 de noviembre de 2015, los expedientes serán enviados a cada uno de los organismos avales** del sector correspondiente, previstos en el padrón que se presenta a continuación:
     1. **Asociaciones y colegios de profesionistas y empresarios de la construcción**
-        a. Cámara Mexicana de la Industria de la Construcción
-        b. Colegio de Ingenieros Civiles de La Laguna
-        c. Colegio de Arquitectos de la Comarca Lagunera
-        d. Colegio de Ingenieros Mecánicos, Electricistas y Eléctricos
-        e. Cámara Nacional de la Industria de Desarrollo y Promoción de la Vivienda
+        - Cámara Mexicana de la Industria de la Construcción
+        - Colegio de Ingenieros Civiles de La Laguna
+        - Colegio de Arquitectos de la Comarca Lagunera
+        - Colegio de Ingenieros Mecánicos, Electricistas y Eléctricos
+        - Cámara Nacional de la Industria de Desarrollo y Promoción de la Vivienda
     2. **Iniciativa privada**
-        a. Consejo Lagunero de la Iniciativa Privada
-        b. Grupo Empresarial de La Laguna
-        c. Cámara Nacional de la Industria de la Transformación
-        d. Cámara Nacional de Comercio Servicios y Turismo de Torreón
-        e. Fomento Económico Laguna de Coahuila
+        - Consejo Lagunero de la Iniciativa Privada
+        - Grupo Empresarial de La Laguna
+        - Cámara Nacional de la Industria de la Transformación
+        - Cámara Nacional de Comercio Servicios y Turismo de Torreón
+        - Fomento Económico Laguna de Coahuila
     3. **Organizaciones no gubernamentales**
-        a. Consejo de ONG’s de La Laguna
-        b. Red de OSC’s Unidos Laguna
-        c. Ver Contigo
-        d. Cáritas Diocesana de Torreón
-        e. Fundación Eduardo Tricio
+        - Consejo de ONG’s de La Laguna
+        - Red de OSC’s Unidos Laguna
+        - Ver Contigo
+        - Cáritas Diocesana de Torreón
+        - Fundación Eduardo Tricio
     4. **Instituciones de educación superior**
-        a. Comunidad de Instituciones de Educación Superior de La Laguna
-        b. Universidad Autónoma del Noreste
-        c. Universidad Iberoamericana Torreón
-        d. Universidad La Salle Laguna
-        e. Instituto Tecnológico de La Laguna
+        - Comunidad de Instituciones de Educación Superior de La Laguna
+        - Universidad Autónoma del Noreste
+        - Universidad Iberoamericana Torreón
+        - Universidad La Salle Laguna
+        - Instituto Tecnológico de La Laguna
 4. **Cada organismo aval emitirá una carta que avale a un único aspirante,** validada por su órgano máximo de decisión, exponiendo los motivos y valoraciones.
 5. **A más tardar el día 11 de diciembre de 2015,** la Secretaría Técnica del Consejo Directivo **recibirá las cartas de aval expedidas por los organismos correspondientes,** procediendo a presentar ante el Consejo Directivo del IMPLAN, los nombres de los ciudadanos avalados.
 6. **El ciudadano que sume mayor número de avales de entre los organismos avales será electo miembro del Consejo Directivo.** En caso de empate el Consejo Directivo elegirá al consejero de acuerdo a las bases de la presente convocatoria. Los demás ciudadanos serán enlistados hasta dos, en orden de prelación de acuerdo a su número de avales, como suplentes en caso de ausencia definitiva del consejero.
