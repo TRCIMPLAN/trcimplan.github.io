@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2015-11-11</lastmod>
+    <lastmod>2015-11-12</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2015-11-12-laguna-robot-challange-2015-presentacion.html</loc>
+    <lastmod>2015-11-12</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/2015-11-10-plataforma-trcimplangobmx-premio-iclei.html</loc>

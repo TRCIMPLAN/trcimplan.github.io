@@ -5,11 +5,50 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 11 Nov 2015 14:59:13 -0600</pubDate>
+    <pubDate>Thu, 12 Nov 2015 15:47:59 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IMPLAN busca hacer de La Laguna “Capital de la Robótica”</title>
+      <link>http://www.trcimplan.gob.mx/sala-prensa/2015-11-12-laguna-robot-challange-2015-presentacion.html</link>
+      <guid isPermaLink="false">sala-prensa-2015-11-12-laguna-robot-challange-2015-presentacion</guid>
+      <pubDate>Thu, 12 Nov 2015 15:30:00 -0600</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/sala-prensa/2015-11-12-laguna-robot-challange-2015-presentacion/imagen.jpg"><br>
+
+<p>El Instituto Municipal de Planeación y Competitividad de Torreón se encuentra impulsando el proyecto: <strong>"Innovación, Robótica y Educación",</strong>  promovido por estudiantes de la división de preparatoria del <strong>Tecnológico de Monterrey, Campus Laguna.</strong></p>
+
+<p>Este jueves en las instalaciones del ITESM se realizó la presentación del proyecto, que tiene el fin de difundir la ciencia y la tecnología en toda la Comarca Lagunera, y <strong>hacer de La Laguna “capital de la robótica”.</strong></p>
+
+<p>Ante empresarios y la comunidad educativa, se dio a conocer el evento <strong>“Laguna Robot Challenge”,</strong> en el cual <strong>niños entre 9 y 14 años, tienen la oportunidad de aprender a diseñar, programar y poner en marcha robots LEGO Mindstorms NXT.</strong></p>
+
+<p>Los <strong>equipos de trabajo</strong> construyen sus robots utilizando el Set de LEGO Mindstorms NXT creado especialmente para facilitar el diseño y la programación de robots.</p>
+
+<p>En el <strong>2014 participaron 14 equipos,</strong> todos de escuelas privadas y en <strong>este año</strong> se espera recibir la participación de <strong>por lo menos diez escuelas públicas.</strong></p>
+
+<p>Los estudiantes del ITESM solicitaron el <strong>apoyo a la Iniciativa Privada para recaudar fondos</strong> con la finalidad de <strong>financiar los equipos de trabajo</strong> de estos participantes.</p>
+
+<p>Con el “Laguna Robot Challenge”, que <strong>iniciará el 12 de diciembre de 2015,</strong> los niños y jóvenes desarrollan las siguientes habilidades:</p>
+
+<ul>
+<li>Creatividad e innovación,</li>
+<li>Enfoque y solución de Problemas,</li>
+<li>Trabajo en Equipo,</li>
+<li>Cooperación y Liderazgo,</li>
+<li>Autoconfianza y Superación,</li>
+<li>Adquisición de Nuevos Conocimientos,</li>
+<li>Comunicación y Empatía.</li>
+</ul>
+
+<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2015-11-12-laguna-robot-challange-2015-presentacion/foto1.jpg" alt="Foto 1">
+<img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2015-11-12-laguna-robot-challange-2015-presentacion/foto2.jpg" alt="Foto 2">
+<img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2015-11-12-laguna-robot-challange-2015-presentacion/foto3.jpg" alt="Foto 3">
+<img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2015-11-12-laguna-robot-challange-2015-presentacion/foto4.jpg" alt="Foto 4">
+<img class="img-responsive" src="http://www.trcimplan.gob.mx/sala-prensa/2015-11-12-laguna-robot-challange-2015-presentacion/foto5.jpg" alt="Foto 5"></p>
+]]></description>
+    </item>
     <item>
       <title>Plataforma trcimplan.gob.mx Premio ICLEI</title>
       <link>http://www.trcimplan.gob.mx/sala-prensa/2015-11-10-plataforma-trcimplangobmx-premio-iclei.html</link>
@@ -304,9 +343,9 @@ Instituciones, Hospitales y Clínicas, públicas y privadas que proporcionan ser
 ]]></description>
     </item>
     <item>
-      <title>Grado Promedio de Escolaridad en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-grado-promedio-de-escolaridad.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-grado-promedio-de-escolaridad</guid>
+      <title>Grado Promedio de Escolaridad en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-grado-promedio-de-escolaridad.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-grado-promedio-de-escolaridad</guid>
       <pubDate>Wed, 21 Oct 2015 12:51:00 -0500</pubDate>
       <author>Dirección de Investigación Estratégica</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -325,82 +364,13 @@ Instituciones, Hospitales y Clínicas, públicas y privadas que proporcionan ser
         <tbody>
           <tr>
             <td>31/12/2010</td>
-            <td>8.1300</td>
+            <td>10.2300</td>
             <td>INEGI</td>
-            <td></td>
+            <td>Consulta la [Fuente](http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5)</td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Grados aprobados.</p>]]></description>
-    </item>
-    <item>
-      <title>Por un crecimiento ordenado en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/blog/por-un-crecimiento-ordenado-en-torreon.html</link>
-      <guid isPermaLink="false">blog-por-un-crecimiento-ordenado-en-torreon</guid>
-      <pubDate>Tue, 20 Oct 2015 14:20:00 -0500</pubDate>
-      <author>Arq. Jair Miramontes Chávez</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/por-un-crecimiento-ordenado-en-torreon/imagen.jpg"><br>
-
-<p>El crecimiento y desarrollo de Torreón no significa ampliar la extensión de la mancha urbana provocando mayor inversión de servicios públicos y transporte hacia la periferia.</p>
-
-<p>El <strong>Plan de Desarrollo Urbano</strong> que entró en vigor en febrero de 2014, propone un crecimiento mediante "Polígonos de Actuación", que son áreas del municipio que por sus características de suelo y geográficas, permiten sacar el mejor provecho del entorno urbano.</p>
-
-<p>El actual Plan de Desarrollo Urbano tiene como objetivo general el hacer de <strong>Torreón</strong> una ciudad vibrante, que sea sustentable, energéticamente eficiente, con una elevada calidad de vida, equitativa e incluyente y crear en los que la habitan una fuerte identidad urbana, patrimonial y comunitaria.</p>
-
-<p>Para cumplir estos objetivos, el plan señala como estrategia de suelo establecer la figura de <strong>Polígonos de Actuación,</strong> como patrón de ordenamiento sustentable a corto, mediano y largo plazo, según sean las necesidades de la ciudad respecto al tema del suelo.</p>
-
-<h3>¿Qué son los polígonos de actuación?</h3>
-
-<p>Los <strong>polígonos de actuación</strong> son límites geográficos-espaciales del territorio que delimitan a partir condicionantes o características similares del lugar, donde se pretende llevar a cabo acciones específicas de intervención urbana.</p>
-
-<p>Por ejemplo: zonas de gran influencia en la vida productiva de los habitantes y donde se aprovechen al máximo las ventajas del entorno urbano, ecológico y social, entre otros.</p>
-
-<p>Generando así un desarrollo, coherente, ordenado y compatible con la sustentabilidad ambiental y social.</p>
-
-<h3>Los polígonos de actuación se pueden aplicar en áreas como:</h3>
-
-<ul>
-<li>Zonas que tienen terrenos sin construir, ubicados dentro del tejido urbano, que cuentan con accesibilidad y servicios donde pueden llevarse a cabo proyectos de impacto urbano, apoyándose en programas de fomento social, económico y para la vivienda.</li>
-<li>En zonas habitacionales con potencial de mejoramiento, de población de bajos ingresos, con altos índices de deterioro y carencia de servicios urbanos, donde se requiere un fuerte impulso para equilibrar sus condiciones y mejorar su integración con el resto de la ciudad.</li>
-<li>En áreas factibles de regeneración urbana, que cuentan con infraestructura vial y de transporte, y servicios urbanos adecuados, localizadas en zonas de gran accesibilidad, generalmente ocupadas por inmuebles abandonados o con viviendas con baja densidad, las cuales podrían captar población adicional y lograr un uso más densificado del suelo y ofrecer mejores condiciones de rentabilidad.</li>
-<li>Zonas industriales deterioradas o abandonadas donde los procesos deben reconvertirse para ser más competitivos, retomar la vocación y aprovechar la infraestructura del lugar.</li>
-<li>En las áreas de conservación patrimonial que tienen valores arquitectónicos, históricos y culturales, así como en las que sin estar formalmente clasificadas como tales forman parte de la memoria de un lugar y tienen características de unidad formal que requieren atención especial para mantener y potenciar sus valores.</li>
-<li>En zonas aptas para rescatar, donde sus condiciones naturales han sido alteradas por la presencia de usos inconvenientes o por el manejo indebido de recursos naturales y que requieren de acciones para restablecer en lo posible su vocación original.</li>
-<li>En áreas naturales que no hayan sido alteradas gravemente y que requieren medidas para el control del uso del suelo y para desarrollar en ellas actividades que sean compatibles con la función de preservar el ámbito natural.</li>
-</ul>
-
-<h3>Su clasificación</h3>
-
-<p>Los Polígonos se agrupan en grandes temas estratégicos que son: <strong>consolidación, crecimiento, mejoramiento, conservación y regeneración</strong> que a su vez engloban subtemas específicos.</p>
-
-<p>Uno de los polígonos con mayor potencial en nuestra ciudad es el de <strong>Consolidación,</strong> pues cuenta con una extensión de 3,964.37 hectáreas.</p>
-
-<p>Es un área de la ciudad que tiene una vocación en los ámbitos de Comercio y Servicios, Comercio e Industria, Desarrollo Social, Educación y Desarrollo Tecnológico y Vivienda, su uso de suelo está determinado y sólo necesita detonarse más.</p>
-
-<p>Comprende áreas como la Zona Industrial, Mieleras, Las Américas, áreas donde se ubican grandes centros comerciales y algunos fraccionamientos recientes.</p>
-
-<p>El polígono con posibilidad de <strong>Crecimiento</strong> en Torreón es de 2,245.64 hectáreas, en esa zona se pueden ampliar actividades como: Agricultura Tecnificada, Corredor Comercial, Industria y Vivienda.</p>
-
-<p>Abarca áreas como Sata Fé, Plan de San Luis, el norte de Torreón (La Partida y el Oriente de Senderos).</p>
-
-<p>Existe también el polígono de <strong>Mejoramiento,</strong> una zona con la posibilidad de contar con una mejorar infraestructura para potenciar actividades como las del Clúster Salud, Clúster Cultura y Comercio, Comercio en general y Vivienda.</p>
-
-<p>Esta área corresponde principalmente al centro de la ciudad y tiene una extensión de 1,078.39 hectáreas.</p>
-
-<p>Finalmente el polígono de <strong>Preservación</strong> significa una extensión territorial de 7,970.53 con las áreas naturales que en el municipio se deben de proteger.</p>
-
-<p>Los Polígonos de Actuación se pueden implementar a través de políticas públicas e iniciativas privadas que le permitan a Torreón transitar hacia un modelo de desarrollo urbano sustentable, integral e inteligente, procurando viviendas dignas y mejorando la calidad de sus habitantes.</p>
-
-<h3>Infografía</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/por-un-crecimiento-ordenado-en-torreon/torreon-en-poligonos.jpg" alt="Torreon en poligonos"></p>
-
-<h3>Este análisis fue publicado en Milenio Laguna</h3>
-
-<ul>
-<li><a href="http://www.milenio.com/region/IMPLAN_Torreon-Poligonos_de_Actuacion-Crecimiento_Torreon-Especial_IMPLAN_0_612538881.html">Por un crecimiento ordenado en Torreón</a></li>
-</ul>
-]]></description>
     </item>
   </channel>
 </rss>
