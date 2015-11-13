@@ -5,11 +5,85 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Fri, 13 Nov 2015 12:44:43 -0600</pubDate>
+    <pubDate>Fri, 13 Nov 2015 14:39:16 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mejores sitios web y datos abiertos para Gobiernos Abiertos</title>
+      <link>http://www.trcimplan.gob.mx/blog/mejores-sitios-web-para-gobiernos-abiertos.html</link>
+      <guid isPermaLink="false">blog-mejores-sitios-web-para-gobiernos-abiertos</guid>
+      <pubDate>Fri, 13 Nov 2015 14:30:00 -0600</pubDate>
+      <author>Ing. Guillermo Valdés Lozano</author>
+      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/mejores-sitios-web-para-gobiernos-abiertos/imagen.jpg"><br>
+
+<p>Los gobiernos nacionales y los locales <strong>siempre han tenido que innovar</strong> para resolver los grandes retos de nuestra historia moderna. En la actualidad se vive una <strong>dramática modernización que exige nuevas capacidades e ideas para resolver</strong> los problemas comunes a todos.</p>
+
+<p>Mientras que la población va en incremento y las metrópolis son cada vez más grandes, los presupuestos permanecen igual, en el mejor de los casos. Por lo que hay la necesidad urgente de que <strong>el servicio público debe evolucionar para mejorar, siempre.</strong></p>
+
+<p>Necesitamos que se exploren nuevas formas del trabajo con la información, que el gobierno genera, almacena y difunde; en novedosos campos que van desde <strong>el empoderamiento del ciudadano</strong> hasta la aplicación de la <strong>tecnología digital.</strong></p>
+
+<h3>Los sitios web del Reino Unido, del fracaso al éxito</h3>
+
+<p>Anteriormente, cada departamento del gobierno británico mantenía su propio portal de internet, cada uno con su propia estructura, contenidos y diseño. Esto, de primera instancia, incrementaba el gasto destinado a este fin, pero aún más grave, se creaba un ambiente discordante y problemático para resolver las necesidades de los ciudadanos.</p>
+
+<p>En lo ideal, la tecnología está lista para mejorar la interactividad entre ciudadanos y prestadores de servicios. Ahora, el sitio web <a href="https://www.gov.uk/">GOV.UK</a> ha cambiado su imagen para volverse <strong>un portal de información y servicios del gobierno, simple, claro y rápido.</strong></p>
+
+<p>Las mejoras en la experiencia del visitante <strong>pueden ayudar a mejorar la percepción de confianza y transparencia.</strong> Nuestro país ya ha comenzado a construir un sitio central muy similar al británico:</p>
+
+<div class="row">
+<div class="col-md-6"><a href="https://www.gov.uk/" target="_blank"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/mejores-sitios-web-para-gobiernos-abiertos/gov.uk.png" alt="Welcome to GOV.UK"></a></div>
+<div class="col-md-6"><a href="http://www.gob.mx/" target="_blank"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/mejores-sitios-web-para-gobiernos-abiertos/www.gob.mx.jpg" alt="Gobierno Federal gob.mx"></a></div>
+</div>
+
+<h3>De la publicación al uso práctico por parte de los ciudadanos</h3>
+
+<p>Invitados de muchos países del mundo asistieron a la <strong>Cumbre de la Alianza para el Gobierno Abierto</strong> (AGA) donde expusieron sus ideas, experiencias y compartieron valioso conocimiento a cerca de sus éxitos y dificultades en torno al tema. Para mi sorpresa, varios países latinoamericanos entre los cuales sobresalen <strong>Uruguay, Ecuador, Honduras y Guatemala nos han superado en materia de gobierno abierto,</strong> porque han conseguido en pocos años crear consensos, cambiar sus normativas, trabajar al unísono y mostrar resultados ejemplares.</p>
+
+<p>Publicar la información, los datos en formatos abiertos y explicar con claridad los trámites, no sólo fortalece una cultura de transparencia, sino que <strong>habilita el desarrollo de nuevos servicios y facilita la comunicación entre las personas y sistemas que los generan y necesitan.</strong></p>
+
+<p>Uno de los acuerdos firmados en el evento fue la <strong>Carta Internacional de Datos Abiertos</strong> (<a href="http://opendatacharter.net">Open Data Charter</a>) promovida por la <a href="http://webfoundation.org/">World Wide Web Fundation</a>. La Carta busca incrementar la accesibilidad, interoperabilidad, usabilidad e impacto de los Datos Abiertos a nivel global, utilizándolos como un vehículo para el desarrollo sostenible.</p>
+
+<blockquote>
+  <p>"La Carta Internacional de Datos Abiertos tiene el potencial de acelerar el progreso al poner datos accionables en manos de las personas."</p>
+  
+  <p>Sir Tim Berners-Lee, Inventor de la World Wide Web.</p>
+</blockquote>
+
+<div class="row">
+<div class="col-md-6"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/mejores-sitios-web-para-gobiernos-abiertos/carta-internacional-de-datos-abiertos-adopta.jpg" alt="Carta Internacional de Datos Abiertos adopta"></div>
+<div class="col-md-6"><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/mejores-sitios-web-para-gobiernos-abiertos/carta-internacional-de-datos-abiertos-puntos.jpg" alt="Carta Internacional de Datos Abiertos puntos"></div>
+</div>
+
+<h3>Datos Abiertos del Sistema Metropolitano de Indicadores</h3>
+
+<p>En el mismo ámbito y para ejemplificar las mejores prácticas de trabajar con Datos Abiertos, por parte del IMPLAN Torreón, hemos puesto disponible para su <a href="http://www.trcimplan.gob.mx/smi/datos-abiertos.html">descarga los datos del Sistema Metropolitano de Indicadores</a> (SMI).</p>
+
+<p>La intención es que los datos no sólo sirvan para estar publicados en este sitio web, sino que también sean libremente descargados y estudiados por cualquier persona interesada en realizar un análisis específico, respaldarlos o reutilizarlos para otro fin.</p>
+
+<p>Los datos se descargan como un archivo comprimido ZIP; al desempacar queda un archivo de texto separado por comas CSV. Éste es un formato abierto que puede importarse a bases de datos, aplicaciones e inclusive a una hoja de cálculo como Microsoft Excel. Así le brindamos toda la información del SMI para que haga sus análisis, comparativas, gráficas, etc.</p>
+
+<h3>Video con un ejemplo de uso de los Datos Abiertos del SMI</h3>
+
+<p>Para muestra basta un botón: le invitamos a ver este video de poco más de cuatro minutos donde se muestra la descarga, la elaboración de una tabla dinámica, el filtrado y graficado del indicador Motorización.</p>
+
+<div class="videowrapper well"><iframe width="560" height="315" src="//www.youtube.com/embed/ql0Kvx2Paa8?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
+<p><a href="https://www.youtube.com/watch?v=ql0Kvx2Paa8">Vea este mismo video en YouTube</a>.</p>
+
+<h3>Referencias</h3>
+
+<ul>
+<li><a href="http://www.nesta.org.uk/blog/what-will-local-councils-future-look">Nesta - What will the local councils of the future look like?</a></li>
+<li><a href="https://www.gov.uk/">Welcome to GOV.UK</a></li>
+<li><a href="http://www.gob.mx/">Gobierno Federal - gob.mx</a></li>
+<li><a href="http://www.opengovpartnership.org/sites/default/files/GobiernoAbierto_Avances2013_setiembre_Uruguay%20%281%29.pdf">Gobierno Abierto en Uruguay</a></li>
+<li><a href="http://opendatacharter.net/">Open Data Charter</a></li>
+<li><a href="http://datos.gob.mx/impacto/avances/open-data-charter.html">México lanza un llamado para adoptar la Carta Internacional de Datos Abiertos</a></li>
+</ul>
+]]></description>
+    </item>
     <item>
       <title>IMPLAN busca hacer de La Laguna “Capital de la Robótica”</title>
       <link>http://www.trcimplan.gob.mx/sala-prensa/2015-11-12-laguna-robot-challange-2015-presentacion.html</link>
@@ -341,36 +415,6 @@ Instituciones, Hospitales y Clínicas, públicas y privadas que proporcionan ser
 
 <p>La directora puntualizó la importancia de que la ciudadanía entienda la ecuación: <strong>Verificación = mejor calidad del aire = mejor salud.</strong></p>
 ]]></description>
-    </item>
-    <item>
-      <title>Grado Promedio de Escolaridad en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-grado-promedio-de-escolaridad.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-grado-promedio-de-escolaridad</guid>
-      <pubDate>Wed, 21 Oct 2015 12:51:00 -0500</pubDate>
-      <author>Dirección de Investigación Estratégica</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Un grado se considera un año de acuerdo al sistema educativo nacional.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>31/12/2010</td>
-            <td>10.2300</td>
-            <td>INEGI</td>
-            <td>Consulta la [Fuente](http://www3.inegi.org.mx/sistemas/iter/default.aspx?ev=5)</td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Grados aprobados.</p>]]></description>
     </item>
   </channel>
 </rss>

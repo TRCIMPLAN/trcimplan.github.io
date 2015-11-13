@@ -32,22 +32,22 @@ class MejoresSitiosWebParaGobiernosAbiertos extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Mejores Sitios Web Para Gobiernos Abiertos';
+        $this->nombre          = 'Mejores sitios web y datos abiertos para Gobiernos Abiertos';
         $this->autor           = 'Ing. Guillermo Valdés Lozano';
-        $this->fecha           = '2015-11-12T08:00';
+        $this->fecha           = '2015-11-13T14:40';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'mejores-sitios-web-para-gobiernos-abiertos';
         $this->imagen          = 'mejores-sitios-web-para-gobiernos-abiertos/imagen.jpg';
         $this->imagen_previa   = 'mejores-sitios-web-para-gobiernos-abiertos/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'Los ciudadanos demandan que se use la tecnología para que los datos del gobierno lleguen con claridad, rapidez y efectividad.';
-        $this->claves          = 'IMPLAN, Torreon';
+        $this->claves          = 'IMPLAN, Torreon, Gobierno Abierto, Datos Abiertos, Formatos Abiertos, Carta Internacional';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'revisar';
+        $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;

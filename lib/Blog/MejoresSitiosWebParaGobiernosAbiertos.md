@@ -22,7 +22,7 @@ Las mejoras en la experiencia del visitante **pueden ayudar a mejorar la percepc
 
 Invitados de muchos países del mundo asistieron a la **Cumbre de la Alianza para el Gobierno Abierto** (AGA) donde expusieron sus ideas, experiencias y compartieron valioso conocimiento a cerca de sus éxitos y dificultades en torno al tema. Para mi sorpresa, varios países latinoamericanos entre los cuales sobresalen **Uruguay, Ecuador, Honduras y Guatemala nos han superado en materia de gobierno abierto,** porque han conseguido en pocos años crear consensos, cambiar sus normativas, trabajar al unísono y mostrar resultados ejemplares.
 
-Publicar la información, los datos en formatos abiertos y explicar con claridad los trámites, no solo fortalece una cultura de transparencia, sino que **habilita el desarrollo de nuevos servicios y facilita la interoperabilidad.**
+Publicar la información, los datos en formatos abiertos y explicar con claridad los trámites, no sólo fortalece una cultura de transparencia, sino que **habilita el desarrollo de nuevos servicios y facilita la comunicación entre las personas y sistemas que los generan y necesitan.**
 
 Uno de los acuerdos firmados en el evento fue la **Carta Internacional de Datos Abiertos** ([Open Data Charter](http://opendatacharter.net)) promovida por la [World Wide Web Fundation](http://webfoundation.org/). La Carta busca incrementar la accesibilidad, interoperabilidad, usabilidad e impacto de los Datos Abiertos a nivel global, utilizándolos como un vehículo para el desarrollo sostenible.
 
