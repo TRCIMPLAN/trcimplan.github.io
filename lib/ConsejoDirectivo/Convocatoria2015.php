@@ -32,9 +32,9 @@ class Convocatoria2015 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Convocatoria';
+        $this->nombre          = 'Convocatoria 2015';
      // $this->autor           = 'Autor';
-        $this->fecha           = '2015-11-10T12:15';
+        $this->fecha           = '2015-11-17T13:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'convocatoria-2015';
      // $this->imagen          = 'convocatoria-2015/imagen.jpg';
