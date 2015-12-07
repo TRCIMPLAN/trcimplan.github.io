@@ -1,19 +1,27 @@
 
-### Descargar los datos del SMI
+<h3><a href="trcimplan-smi.zip">Descargar los datos del SMI</a></h3>
 
 <div class="media">
 <div class="media-left"><a class="pull-left" href="trcimplan-smi.zip"><img class="media-object" src="datos-abiertos/faenza-zip-128.png" alt="Descargar los datos del SMI"></a></div>
 <div class="media-body">
 <ul>
-<li>Contiene un archivo de <a href="https://es.wikipedia.org/wiki/CSV" target="_blank">texto separado por comas CSV</a>.</li>
+<li>Archivo ZIP que al descomprimir entrega un <a href="https://es.wikipedia.org/wiki/CSV" target="_blank">texto separado por comas CSV</a>.</li>
 <li>La codificación de los caracteres es <a href="https://es.wikipedia.org/wiki/UTF-8" target="_blank">UTF-8</a>.</li>
 <li>La primera línea tiene los nombres de las columnas.</li>
 <li>En mayúsculas y sin acentos. Excepto la eñe (Ñ) y la diéresis (Ü).</li>
-<li>Cantidad de filas: <b>6,208</b>.</li>
-<li>Elaboración: <b> 7 diciembre 2015 13:51</b>.</li>
+<li>Cantidad de filas: <b>6,208 filas</b>.</li>
+<li>Elaboración: <b> 7 diciembre 2015 15:49</b>.</li>
 </ul>
 </div>
 </div>
+
+### Los mismos Datos Abiertos separados por municipios y regiones
+
+* [Torreón](trcimplan-smi-torreon.zip): 1,326 filas.
+* [Gómez Palacio](trcimplan-smi-gomez-palacio.zip): 1,043 filas.
+* [Lerdo](trcimplan-smi-lerdo.zip): 1,039 filas.
+* [Matamoros](trcimplan-smi-matamoros.zip): 1,057 filas.
+* [La Laguna](trcimplan-smi-la-laguna.zip): 1,045 filas.
 
 ### ¿Qué son los datos abiertos?
 
