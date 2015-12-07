@@ -165,15 +165,15 @@ class SeguridadTasaDeRoboDeVehiculoConViolencia extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2015-09-30</td>
-            <td>6.6200</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td>2015-10-31</td>
+            <td>7.3000</td>
+            <td>00) DESCONOCIDA</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2015-09-30</td>
-            <td>11.8400</td>
+            <td>2015-10-31</td>
+            <td>12.7500</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -200,7 +200,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 6.6200 },{ region: 'Durango', dato: 11.8400 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 7.3000 },{ region: 'Durango', dato: 12.7500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
