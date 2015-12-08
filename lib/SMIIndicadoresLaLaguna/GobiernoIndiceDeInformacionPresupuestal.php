@@ -143,6 +143,12 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
             <td>IMCO</td>
             <td></td>
           </tr>
+          <tr>
+            <td>08/12/2015</td>
+            <td>65.7500</td>
+            <td>IMCO</td>
+            <td>Promedio de las calificaciones de los cuatro municipios metropolitanos.</td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -201,6 +207,20 @@ class GobiernoIndiceDeInformacionPresupuestal extends \Base\Publicacion {
             <td>IMCO</td>
             <td></td>
           </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2015-12-01</td>
+            <td>100.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2015-12-01</td>
+            <td>72.0000</td>
+            <td>IMCO</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -224,7 +244,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2008-12-31', dato: 15.3226 },{ fecha: '2009-12-31', dato: 15.3226 },{ fecha: '2010-12-31', dato: 5.0000 },{ fecha: '2011-12-31', dato: 14.5161 },{ fecha: '2012-12-31', dato: 22.7941 },{ fecha: '2013-12-31', dato: 26.0000 },{ fecha: '2014-12-31', dato: 60.2500 }],
+      data: [{ fecha: '2008-12-31', dato: 15.3226 },{ fecha: '2009-12-31', dato: 15.3226 },{ fecha: '2010-12-31', dato: 5.0000 },{ fecha: '2011-12-31', dato: 14.5161 },{ fecha: '2012-12-31', dato: 22.7941 },{ fecha: '2013-12-31', dato: 26.0000 },{ fecha: '2014-12-31', dato: 60.2500 },{ fecha: '2015-12-08', dato: 65.7500 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -240,7 +260,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 93.0000 },{ region: 'Gómez Palacio', dato: 29.0000 },{ region: 'Lerdo', dato: 19.0000 },{ region: 'Matamoros', dato: 100.0000 },{ region: 'La Laguna', dato: 60.2500 }],
+      data: [{ region: 'Torreón', dato: 93.0000 },{ region: 'Gómez Palacio', dato: 29.0000 },{ region: 'Lerdo', dato: 19.0000 },{ region: 'Matamoros', dato: 100.0000 },{ region: 'La Laguna', dato: 60.2500 },{ region: 'Coahuila', dato: 100.0000 },{ region: 'Durango', dato: 72.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -320,6 +340,12 @@ FINAL;
             <td>60.2500</td>
             <td>IMCO</td>
             <td></td>
+          </tr>
+          <tr>
+            <td>08/12/2015</td>
+            <td>65.7500</td>
+            <td>IMCO</td>
+            <td>Promedio de las calificaciones de los cuatro municipios metropolitanos.</td>
           </tr>
         </tbody>
       </table>
