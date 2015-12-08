@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Sala de Prensa CLASE
+ * TrcIMPLAN Sitio Web - IMPLAN Torreón impulsa la creación del Plan de Movilidad no Motorizada
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

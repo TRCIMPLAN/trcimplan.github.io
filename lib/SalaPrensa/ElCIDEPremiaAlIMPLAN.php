@@ -1,6 +1,6 @@
 <?php
 /**
- * SitioWeb - MODULO ElCIDEPremiaAlIMPLAN
+ * TrcIMPLAN Sitio Web - El CIDE premia al IMPLAN por el uso efectivo de las Tecnologías de la Información y de la Comunicación
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package SitioWeb
+ * @package TrcIMPLAN
  */
 
 namespace SalaPrensa;

@@ -1,6 +1,6 @@
 <?php
 /**
- * SitioWeb - MODULO DicenSiALaCulturaDelEmprendimiento
+ * TrcIMPLAN Sitio Web - Dicen sí a la cultura del emprendimiento
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package SitioWeb
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace SalaPrensa;

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Interesa Como Referente Nacional
+ * TrcIMPLAN Sitio Web - Interesa Como Referente Nacional
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

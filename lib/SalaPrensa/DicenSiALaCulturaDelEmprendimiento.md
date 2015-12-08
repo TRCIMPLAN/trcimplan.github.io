@@ -47,6 +47,8 @@ Una de las empresarias cuyo proyecto se concretó con el apoyo de este programa 
 >
 > Rafael Rebollar, Peñoles.
 
+### Infografía
+
 <img class="img-responsive" src="2015-11-23-dicen-si-a-la-cultura-del-emprendimiento/emprendedores-torreon-proempleo-penoles-nuevas-empresas.jpg" alt="Emprendedores Torreon PorEmpleo Peñoles Nuevas Empresas">
 
 ### En Peñoles ProEmpleo han surgido
@@ -66,4 +68,6 @@ Hay un total de:
 
 Fuente: Programa Peñoles Proempleo.
 
-### Frases
+### Esto fue publicado en Milenio Laguna
+
+* [Dicen sí a la cultura del emprendimiento](http://www.milenio.com/negocios/IMPLAN_Torreon-Emprendedores_Torreon-Proempleo_Penoles-Nuevas_empresas_0_633536730.html)

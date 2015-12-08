@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Sala Prensa Comision Planeacion Competitividad 20150819
+ * TrcIMPLAN Sitio Web - Sala Prensa Comision Planeacion Competitividad 20150819
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

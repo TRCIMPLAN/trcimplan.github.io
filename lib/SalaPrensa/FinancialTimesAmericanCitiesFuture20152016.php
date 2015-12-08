@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Sala de Prensa FinancialTimesAmericanCitiesFuture20152016
+ * TrcIMPLAN Sitio Web - Torreón 4to lugar en Costo Beneficio de inversión en Ranking del Financial Times 'American Cities of the Future 2015-2016'
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

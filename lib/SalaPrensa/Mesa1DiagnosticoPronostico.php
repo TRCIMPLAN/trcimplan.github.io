@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Sala de Prensa Mesa1DiagnosticoPronostico
+ * TrcIMPLAN Sitio Web - Plan Estratégico Metropolitano, Mesa 1: Diagnóstico - Pronóstico
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

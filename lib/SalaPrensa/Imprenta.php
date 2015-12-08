@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Sala de Prensa Imprenta
+ * TrcIMPLAN Sitio Web - Sala de Prensa Imprenta
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

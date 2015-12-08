@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Laguna Robot Challange 2015 Presentacion
+ * TrcIMPLAN Sitio Web - IMPLAN busca hacer de La Laguna “Capital de la Robótica”
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

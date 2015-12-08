@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Sala de Prensa PlanEstrategicoMetropolitano20140911
+ * TrcIMPLAN Sitio Web - Convocatoria del Plan Estratégico Metropolitano
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

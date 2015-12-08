@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Torreón recibe tres reconocimientos a nivel nacional
+ * TrcIMPLAN Sitio Web - La Laguna: Capital Humano y Calidad de Vida
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,35 +17,35 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
-namespace SalaPrensa;
+namespace Blog;
 
 /**
- * Clase TorreonRecibeTresReconocimientosANivelNacional
+ * Clase LaLagunaCapitalHumanoYCalidadDeVida
  */
-class TorreonRecibeTresReconocimientosANivelNacional extends \Base\Publicacion {
+class LaLagunaCapitalHumanoYCalidadDeVida extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Torreón recibe tres reconocimientos a nivel nacional';
-     // $this->autor           = 'Autor';
-        $this->fecha           = '2015-10-29T10:40';
+        $this->nombre          = 'La Laguna: Capital Humano y Calidad de Vida';
+        $this->autor           = 'Dirección de Desarrollo Estratégico';
+        $this->fecha           = '2015-11-16T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2015-10-29-torreon-recibe-tres-reconocimientos-a-nivel-nacional';
-        $this->imagen          = '2015-10-29-torreon-recibe-tres-reconocimientos-a-nivel-nacional/imagen.jpg';
-        $this->imagen_previa   = '2015-10-29-torreon-recibe-tres-reconocimientos-a-nivel-nacional/imagen-previa.jpg';
+        $this->archivo         = 'la-laguna-capital-humano-y-calidad-de-vida';
+        $this->imagen          = 'la-laguna-capital-humano-y-calidad-de-vida/imagen.jpg';
+        $this->imagen_previa   = 'la-laguna-capital-humano-y-calidad-de-vida/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Torreón fue premiado por la plataforma www.trcimplan.gob.mx, realizada por el equipo técnico del IMPLAN, la cual ha logrado un importante vínculo informativo ciudadanía-municipio.';
-        $this->claves          = 'IMPLAN, Torreon, Reconocimiento, Plataforma';
+        $this->descripcion     = 'La Zona Metropolitana mantiene primeros lugares a nivel nacional en diferentes rubros, que la ubican como una de las mejores regiones para habitar. Torreón destaca como ejemplo.';
+        $this->claves          = 'IMPLAN, Torreon, Capital Humano, Calidad de Vida';
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'sala-prensa';
+        $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Sala de Prensa';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
         // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
@@ -61,13 +61,13 @@ class TorreonRecibeTresReconocimientosANivelNacional extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/TorreonRecibeTresReconocimientosANivelNacional.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/LaLagunaCapitalHumanoYCalidadDeVida.md';
         // Para el Organizador
-        $this->categorias      = array('Innovación', 'Gobierno');
-        $this->fuentes         = array();
+        $this->categorias      = array('Educación', 'Empleo', 'Género', 'Población', 'Salud');
+        $this->fuentes         = array('INEGI', 'CONAPO', 'IMCO', 'SEP', 'CONEVAL');
         $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase TorreonRecibeTresReconocimientosANivelNacional
+} // Clase LaLagunaCapitalHumanoYCalidadDeVida
 
 ?>

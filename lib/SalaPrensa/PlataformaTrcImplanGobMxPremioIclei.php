@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Plataforma trcimplan.gob.mx Premio ICLEI
+ * TrcIMPLAN Sitio Web - Plataforma trcimplan.gob.mx Premio ICLEI
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Torreón recibe tres reconocimientos a nivel nacional
+ * TrcIMPLAN Sitio Web - Conoce a los Consejeros del IMPLAN 2014-2015
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,31 +17,31 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace SalaPrensa;
 
 /**
- * Clase TorreonRecibeTresReconocimientosANivelNacional
+ * Clase ConoceALosConsejerosDelIMPLAN20142015
  */
-class TorreonRecibeTresReconocimientosANivelNacional extends \Base\Publicacion {
+class ConoceALosConsejerosDelIMPLAN20142015 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Torreón recibe tres reconocimientos a nivel nacional';
-     // $this->autor           = 'Autor';
-        $this->fecha           = '2015-10-29T10:40';
+        $this->nombre          = 'Conoce a los Consejeros del IMPLAN 2014-2015';
+        $this->autor           = 'Lic. Eduardo Holguín Zehfuss';
+        $this->fecha           = '2015-12-07T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2015-10-29-torreon-recibe-tres-reconocimientos-a-nivel-nacional';
-        $this->imagen          = '2015-10-29-torreon-recibe-tres-reconocimientos-a-nivel-nacional/imagen.jpg';
-        $this->imagen_previa   = '2015-10-29-torreon-recibe-tres-reconocimientos-a-nivel-nacional/imagen-previa.jpg';
+        $this->archivo         = '2015-12-07-conoce-a-los-consejeros-del-implan-2014-2015';
+        $this->imagen          = '2015-12-07-conoce-a-los-consejeros-del-implan-2014-2015/imagen.jpg';
+        $this->imagen_previa   = '2015-12-07-conoce-a-los-consejeros-del-implan-2014-2015/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Torreón fue premiado por la plataforma www.trcimplan.gob.mx, realizada por el equipo técnico del IMPLAN, la cual ha logrado un importante vínculo informativo ciudadanía-municipio.';
-        $this->claves          = 'IMPLAN, Torreon, Reconocimiento, Plataforma';
+        $this->descripcion     = 'El 75% del Consejo Directivo del Instituto Municipal de Planeación es ciudadano. Se presenta un perfil de los miembros de la sociedad que participan de forma activa en el Organismo.';
+        $this->claves          = 'IMPLAN, Torreon, Consejeros, Sociedad, Ciudadano';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'sala-prensa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,13 +61,13 @@ class TorreonRecibeTresReconocimientosANivelNacional extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/TorreonRecibeTresReconocimientosANivelNacional.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/ConoceALosConsejerosDelIMPLAN20142015.md';
         // Para el Organizador
-        $this->categorias      = array('Innovación', 'Gobierno');
+        $this->categorias      = array('Gobierno');
         $this->fuentes         = array();
         $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase TorreonRecibeTresReconocimientosANivelNacional
+} // Clase ConoceALosConsejerosDelIMPLAN20142015
 
 ?>

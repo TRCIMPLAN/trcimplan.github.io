@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Sala Prensa Sesion Ordinaria 20150820
+ * TrcIMPLAN Sitio Web - Presenta IMPLAN un nuevo “Reglamento de Zonificación, Uso de Suelo y Construcción”
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

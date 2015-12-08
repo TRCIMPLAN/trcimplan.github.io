@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Sala de Prensa CLASE
+ * TrcIMPLAN Sitio Web - IMPLAN organiza taller para fortalecer el Clúster Salud en La Laguna
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *

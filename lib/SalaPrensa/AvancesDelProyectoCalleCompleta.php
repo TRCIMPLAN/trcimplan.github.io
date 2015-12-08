@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Avances Del Proyecto Calle Completa
+ * TrcIMPLAN Sitio Web - Avances Del Proyecto Calle Completa
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
