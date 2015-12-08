@@ -33,7 +33,7 @@ class LaLagunaCapitalHumanoYCalidadDeVida extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre          = 'La Laguna: Capital Humano y Calidad de Vida';
-        $this->autor           = 'Dirección de Desarrollo Estratégico';
+        $this->autor           = 'Dirección de Investigación Estratégica';
         $this->fecha           = '2015-11-16T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'la-laguna-capital-humano-y-calidad-de-vida';
