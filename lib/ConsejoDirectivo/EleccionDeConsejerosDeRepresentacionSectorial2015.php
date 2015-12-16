@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Convocatoria 2015
+ * TrcIMPLAN - Elección de Consejeros de Representación Sectorial 2015
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,24 +23,24 @@
 namespace ConsejoDirectivo;
 
 /**
- * Clase Convocatoria2015
+ * Clase EleccionDeConsejerosDeRepresentacionSectorial2015
  */
-class Convocatoria2015 extends \Base\Publicacion {
+class EleccionDeConsejerosDeRepresentacionSectorial2015 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Convocatoria 2015';
+        $this->nombre          = 'Elección de Consejeros de Representación Sectorial 2015';
      // $this->autor           = 'Autor';
-        $this->fecha           = '2015-11-17T13:00';
+        $this->fecha           = '2015-12-16T12:20';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'convocatoria-2015';
-        $this->imagen          = 'convocatoria-2015/imagen.jpg';
-        $this->imagen_previa   = 'convocatoria-2015/imagen-previa.jpg';
+        $this->archivo         = 'eleccion-de-consejeros-de-representacion-sectorial-2015';
+        $this->imagen          = 'eleccion-de-consejeros-de-representacion-sectorial-2015/imagen.jpg';
+        $this->imagen_previa   = 'eleccion-de-consejeros-de-representacion-sectorial-2015/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Convocatoria para formar parte del Consejo Directivo.';
+        $this->descripcion     = 'Resultado del proceso de elección de los ciudadanos que van a formar parte del Consejo Directivo como Consejeros de Representación Sectorial en el IMPLAN Torreón.';
         $this->claves          = 'IMPLAN, Torreon, Convocatoria, 2015, Consejo Directivo';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'consejo-directivo';
@@ -63,13 +63,13 @@ class Convocatoria2015 extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/ConsejoDirectivo/Convocatoria2015.md';
+        $this->contenido_archivo_markdown = 'lib/ConsejoDirectivo/EleccionDeConsejerosDeRepresentacionSectorial2015.md';
         // Para el Organizador
      // $this->categorias      = array();
      // $this->fuentes         = array();
      // $this->regiones        = array();
     } // constructor
 
-} // Clase Convocatoria2015
+} // Clase EleccionDeConsejerosDeRepresentacionSectorial2015
 
 ?>
