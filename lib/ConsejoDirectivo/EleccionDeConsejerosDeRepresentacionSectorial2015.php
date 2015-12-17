@@ -34,7 +34,7 @@ class EleccionDeConsejerosDeRepresentacionSectorial2015 extends \Base\Publicacio
         // Título, autor y fecha
         $this->nombre          = 'Elección de Consejeros de Representación Sectorial 2015';
      // $this->autor           = 'Autor';
-        $this->fecha           = '2015-12-16T12:20';
+        $this->fecha           = '2015-12-17T14:10';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'eleccion-de-consejeros-de-representacion-sectorial-2015';
         $this->imagen          = 'eleccion-de-consejeros-de-representacion-sectorial-2015/imagen.jpg';
