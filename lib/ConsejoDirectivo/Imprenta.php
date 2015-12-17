@@ -38,7 +38,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->directorio               = 'consejo-directivo';
         $this->archivo_ruta             = 'consejo-directivo/index.html';
         $this->nombre_menu              = 'Consejo Directivo';
-        $this->encabezado_color         = '#008000';
+        $this->encabezado_color         = '#DE077E';
     } // constructor
 
 } // Clase Imprenta
