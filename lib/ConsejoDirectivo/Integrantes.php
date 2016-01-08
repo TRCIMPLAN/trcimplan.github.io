@@ -34,7 +34,7 @@ class Integrantes extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Integrantes del Consejo Directivo';
      // $this->autor           = 'Autor';
-        $this->fecha           = '2014-05-01T07:10';
+        $this->fecha           = '2016-01-08T14:40';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'integrantes';
      // $this->imagen          = 'integrantes/imagen.jpg';
@@ -49,7 +49,7 @@ class Integrantes extends \Base\Publicacion {
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir  = false;
+        $this->para_compartir  = true;
         // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
         $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
@@ -62,8 +62,8 @@ class Integrantes extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/ConsejoDirectivo/Integrantes.html';
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/ConsejoDirectivo/Integrantes.md';
         // Para el Organizador
      // $this->categorias      = array();
      // $this->fuentes         = array();

@@ -5,11 +5,121 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 05 Jan 2016 15:30:24 -0600</pubDate>
+    <pubDate>Fri, 08 Jan 2016 14:43:59 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrantes del Consejo Directivo</title>
+      <link>http://www.trcimplan.gob.mx/consejo-directivo/integrantes.html</link>
+      <guid isPermaLink="false">consejo-directivo-integrantes</guid>
+      <pubDate>Fri, 08 Jan 2016 14:40:00 -0600</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[<p><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/consejo-directivo/integrantes/mesa.jpg" alt="Consejo Directivo"></p>
+
+<h3>El Consejo Directivo está conformado de la siguiente manera</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Consejero</th>
+  <th>Cargo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>C. Miguel Ángel Riquelme Solís</td>
+  <td>Presidente Municipal de Torreón</td>
+</tr>
+<tr>
+  <td>C. Eduardo Holguín Zehfuss</td>
+  <td>Director General Ejecutivo del IMPLAN</td>
+</tr>
+<tr>
+  <td>C. Miguel Felipe Mery Ayup</td>
+  <td>Presidente de la Comisión de Hacienda, Patrimonio y Cuenta Pública del Ayuntamiento</td>
+</tr>
+<tr>
+  <td>C. Mario Valdéz Garza</td>
+  <td>Presidente de la Comisión de Urbanismo y Obras Públicas del Ayuntamiento</td>
+</tr>
+<tr>
+  <td>C. Olivia Martínez Leyva</td>
+  <td>Presidente de la Comisión de Planeación y Competitividad del Ayuntamiento</td>
+</tr>
+<tr>
+  <td>C. Sergio Lara Galván</td>
+  <td>Presidente de la Comisión de Desarrollo Económico del Ayuntamiento</td>
+</tr>
+<tr>
+  <td>C. Gabriel Calvillo Ceniceros</td>
+  <td>Director General de Ordenamiento Territorial y Urbanismo del Ayuntamiento</td>
+</tr>
+<tr>
+  <td>C. Hugo Homero Pérez Agüero</td>
+  <td>Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción</td>
+</tr>
+<tr>
+  <td>C. Gildardo Magallanes Rayas</td>
+  <td>Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción</td>
+</tr>
+<tr>
+  <td>C. Alberto Francisco Allegre del Cueto</td>
+  <td>Iniciativa Privada</td>
+</tr>
+<tr>
+  <td>C. Eduardo Castañeda Martínez</td>
+  <td>Iniciativa Privada</td>
+</tr>
+<tr>
+  <td>C. Cecilia del Carmen Cardiel Escamilla</td>
+  <td>Organizaciones No Gubernamentales</td>
+</tr>
+<tr>
+  <td>C. Ignacio Chong López</td>
+  <td>Organizaciones No Gubernamentales</td>
+</tr>
+<tr>
+  <td>C. Carlos Gerardo Landeros Araujo</td>
+  <td>Instituciones de Educación Superior</td>
+</tr>
+<tr>
+  <td>C. Miguel Ángel Cisneros Guerrero</td>
+  <td>Instituciones de Educación Superior</td>
+</tr>
+<tr>
+  <td>C. Javier Ramos Salas</td>
+  <td>Presidente del Consejo Municipal de Desarrollo Urbano</td>
+</tr>
+<tr>
+  <td>C. Victor Hugo Torres Romo</td>
+  <td>Colegio de Arquitectos</td>
+</tr>
+<tr>
+  <td>C. Eugenio Treviño Rodríguez</td>
+  <td>Cámara Nacional de la Industria de la Transformación</td>
+</tr>
+<tr>
+  <td>C. Martín López Méndez</td>
+  <td>Instituto Tecnológico y de Estudios Superiores de Monterrey</td>
+</tr>
+<tr>
+  <td>C. Rafael Rebollar González</td>
+  <td>Peñoles</td>
+</tr>
+<tr>
+  <td>C. Carlos Rangel Orona</td>
+  <td>Cámara Nacional de Comercio, Servicios y Turismo Torreón</td>
+</tr>
+<tr>
+  <td>C. Francisco Valdés Pérez Gazga</td>
+  <td>PRODENAZAS</td>
+</tr>
+</tbody>
+</table>
+]]></description>
+    </item>
     <item>
       <title>Balance 2015: repunte de la competitividad en La Laguna</title>
       <link>http://www.trcimplan.gob.mx/blog/balance-2015-repunte-de-la-competitividad-en-la-laguna.html</link>
@@ -284,81 +394,6 @@ Instituciones dedicadas a proteger la integridad de los ciudadanos y sus bienes.
 
 <ul>
 <li><a href="http://www.milenio.com/region/IMPLAN_Torreon-Eduardo_Holguin-Consejo_Directivo_IMPLAN-Perfil_de_miembros_0_641935871.html">Conoce a los Consejeros del IMPLAN 2014-2015</a></li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Diagnóstico del problema de drenaje pluvial en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/blog/diagnostico-del-problema-de-drenaje-pluvial-en-torreon.html</link>
-      <guid isPermaLink="false">blog-diagnostico-del-problema-de-drenaje-pluvial-en-torreon</guid>
-      <pubDate>Mon, 30 Nov 2015 09:00:00 -0600</pubDate>
-      <author>Lic. Adriana Vargas Flores</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/diagnostico-del-problema-de-drenaje-pluvial-en-torreon/imagen.jpg"><br>
-
-<p>Una de las necesidades para el futuro en materia urbana de Torreón, es contar con un proyecto de aguas pluviales que atienda el problema de los encharcamientos en distintos puntos de la ciudad.</p>
-
-<p>Por esta razón, el comité técnico en esta materia del IMPLAN ha presentado el <strong>"Diagnóstico para la implementación del Plan Estratégico de Drenaje Pluvial en Torreón".</strong></p>
-
-<p>El objetivo de este diagnóstico es identificar la problemática del drenaje pluvial y evaluar las posibles propuestas de solución.</p>
-
-<p>De acuerdo con el consejero <strong>Javier Ramos,</strong> que participó en este estudio...</p>
-
-<blockquote>
-  <p>"Hay una percepción en la ciudadanía lagunera de que resolver el problema pluvial nos va a costar cientos de millones de pesos, después de haber estudiado nosotros el problema pluvial en Torreón, nos dimos cuenta de que las primeras soluciones, que desde luego son soluciones parciales que no resuelven al cien por ciento el problema pluvial, sí son soluciones de bajo costo y de corto plazo".</p>
-</blockquote>
-
-<p>El empresario del ramo inmobiliario explicó que hay una serie de cárcamos de re bombeo de aguas pluviales...</p>
-
-<blockquote>
-  <p>"Nosotros tenemos detectados diez cárcamos rebombeo y 17 redes pluviales a donde descargan esos cárcamos. Estos están en mal estado porque nadie les da mantenimiento".</p>
-  
-  <p>"Si encontramos a alguien que se haga responsable de este mantenimiento, estimamos que con una inversión muy pequeña, probablemente unos 4 millones de pesos, podemos echar a andar de manera parcial esos cárcamos que están en varios de los puntos más conflictivos donde hay mayores encharcamientos", abundó el consejero.</p>
-</blockquote>
-
-<p>La topografía plana de la ciudad es la causa básica de los encharcamientos que ocurren, cuando las lluvias son excesivas o de alta intensidad, aunado a la limitada existencia de drenes naturales o construidos para el escurrimiento pluvial, explicó.</p>
-
-<p>De acuerdo con el diagnóstico elaborado por el IMPLAN, los siete principales puntos viales de encharcamiento en Torreón son:</p>
-
-<ul>
-<li>El cruce del libramiento Raúl López Sánchez y antigua carretera a San Pedro.</li>
-<li>Diagonal las Fuentes entre Calle del Ángel y Calle del Patriarca, en la colonia La Fuente.</li>
-<li>El cruce del bulevar Nueva Laguna y calle decimosexta, en la colonia Braulio Fernández Aguirre.</li>
-<li>El buelvar Independencia entre calle Cepeda y calle Javier Mina.</li>
-<li>El bulevar Rodríguez Triana entre calzada de las Misiones y bulevar Torreón–Matamoros.</li>
-<li>El bulevar Constitución desde Prolongación Colón hasta calzada Salvador Creel.</li>
-<li>La avenida Villa del Torreón entre avenida Universidad y calle de los Peltres, en la colonia Rincón de la Merced.</li>
-</ul>
-
-<p>Ante esta problemática, Javier Ramos expresa que en Torreón no existe un sistema integral de aguas pluviales.</p>
-
-<blockquote>
-  <p>“Lo que hay está en mal estado y la primera propuesta que tenemos es arreglar lo que existe. Si esto resuelve el problema de encharcamiento en el Campesino esquina con periférico, qué bueno, porque es el punto más conflictivo que hay en la ciudad".</p>
-  
-  <p>"Si en Rodríguez Triana hacemos que funcione el cárcamo que bombee hacia el colector de aguas pluviales que descarga en La Vega del Caracol, perfecto. Ese es el primer paso que queremos dar".</p>
-</blockquote>
-
-<p>Es una solución parcial. La propuesta no es que nos quedemos ahí, la propuesta es que se haga un plan integral con soluciones a corto, mediano y largo plazo. Eso tiene muchas aristas y estamos hablando de inversiones que van mucho más allá”, manifestó el consejero.</p>
-
-<p>El <strong>Objetivo del Plan Estratégico de Drenaje Pluvial</strong>, un proyecto que emana del <strong>Plan Estratégico Metropolitano</strong> para Torreón, es:</p>
-
-<blockquote>
-  <p>“Administrar de manera integral y eficiente los escurrimientos pluviales que se generan en la ciudad de Torreón, buscando el mayor aprovechamiento del agua para fines de riego de áreas verdes o forestadas y para la posible recarga del acuífero, al mismo tiempo de prevenir y mitigar los efectos nocivos de las lluvias extraordinarias que periódicamente afectan la ciudad”.</p>
-</blockquote>
-
-<p>Para ello se requiere: un <strong>inventario de redes pluviales existentes,</strong> en funcionamiento o desactivadas, indicando equipamiento, capacidad, tipo y longitud de redes, puntos de captación y puntos de descarga, así como el <strong>presupuesto para su puesta en marcha y operación eficiente.</strong></p>
-
-<p>Además se proyecta la <strong>construcción y rehabilitación de canales de desagüe pluvial e incorporación de canales a cargo de CONAGUA al sistema de desagüe pluvial,</strong> logrando con ello la solución integral de los siete puntos citadinos más afectados por los encharcamientos.</p>
-
-<p>De acuerdo con este estudio, es el <strong>Sistema Municipal de Aguas y Saneamiento de Torreón (SIMAS),</strong> la dependencia responsable de la planeación, ejecución, operación, mantenimiento y control del sistema integral de aguas pluviales.</p>
-
-<h3>Infografía</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/diagnostico-del-problema-de-drenaje-pluvial-en-torreon/drenaje-pluvial-prioritario.jpg" alt="Drenaje Pluvial Prioritario"></p>
-
-<h3>Esto fue publicado en Milenio Laguna</h3>
-
-<ul>
-<li><a href="http://www.milenio.com/negocios/drenaje_pluvial_en_Torreon-IMPLAN_Torreon-Diagnostico_del_drenaje_pluvial_Torreon_0_637736298.html">Diagnóstico del problema de drenaje pluvial en Torreón</a></li>
 </ul>
 ]]></description>
     </item>
