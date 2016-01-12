@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contextualización de la prueba PLANEA, cuestiones metodológicas y la forma de organizar la información, así como los resultados generales de primaria con la intención de ir adentrándonos en los números.">
+  <meta name="author" content="Lic. Luis A. Gutiérrez Arizpe">
+  <meta name="keywords" content="IMPLAN, Torreon, PLANEA, Competencias, Lenguaje, Matematicas, Estudiantes">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca (parte 1) - IMPLAN Torreón">
+  <meta name="twitter:description" content="Contextualización de la prueba PLANEA, cuestiones metodológicas y la forma de organizar la información, así como los resultados generales de primaria con la intención de ir adentrándonos en los números.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">
+  <meta name="og:title" content="Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca (parte 1) - IMPLAN Torreón">
+  <meta name="og:description" content="Contextualización de la prueba PLANEA, cuestiones metodológicas y la forma de organizar la información, así como los resultados generales de primaria con la intención de ir adentrándonos en los números.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">
+  <title>Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca (parte 1) - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca (parte 1)</h1>
+          <div class="encabezado-descripcion" itemprop="description">Contextualización de la prueba PLANEA, cuestiones metodológicas y la forma de organizar la información, así como los resultados generales de primaria con la intención de ir adentrándonos en los números.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Luis A. Gutiérrez Arizpe</span>
+          - <meta itemprop="datePublished" content="2016-01-12T10:30">12/01/2016 10:30
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca (parte 1)" src="competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>Este análisis estará conformado por tres entregas. En la primera se abordará la contextualización de la prueba PLANEA, cuestiones metodológicas y la forma de organizar la información, así como los resultados generales de primaria con la intención de ir adentrándonos en los números. En la segunda, se profundizará en las estadísticas de primaria y finalmente la tercera parte con un análisis de los datos de secundaria, que en conjunto con las entregas previas podríamos  tener conclusiones sobre la educación básica en la <strong>Zona Metropolitana de la Laguna.</strong></p>
+
+<p>El Instituto Nacional para la Evaluación de la Educación, INEE en conjunto con la Secretaria de Educación Pública y las autoridades educativas de las entidades del país lanzan el  Plan Nacional para la Evaluación de los Aprendizajes, PLANEA. Para este fin se diseña un nuevo instrumento conocido como la prueba <em>“PLANEA Básica”</em> para evaluar el estado que guarda la educación en México partiendo de los ejercicios que se llevan a cabo año tras año. Se aplicó a los alumnos de sexto de primaria y de tercero de secundaria por medio de una muestra representativa seleccionada aleatoriamente. La prueba fue aplicada durante el mes de Junio tanto para primaria como secundaria.</p>
+
+<p>A la luz de los resultados arrojados por la primera prueba PLANEA, que a primera instancia nos proyecta a los ejercicios anteriores de la SEP como la prueba <em>ENLACE,</em> podemos observar tres puntos:</p>
+
+<p>El <em>primero,</em> a pesar de la similitud entre PLANEA y ENLACE, el INEE precisa que no son series consecutivas, es decir, PLANEA comienza como la base de las evaluaciones post 2015 por lo que las estadísticas de ENLACE no debieran considerarse como serie histórica.</p>
+
+<p><em>Segundo,</em> al trabajar las bases de datos encontramos elementos que proporcionan información extra sobre la confiabilidad de los resultados y criterios de representatividad de cada escuela. En comparación con los ejercicios de años anteriores considero que se ha avanzado hacia un instrumento de evaluación más fiable.</p>
+
+<p><em>Tercero,</em> los resultados son evaluados como habilidades con las que cuentan las y los estudiantes al finalizar los estudios básicos a diferencia de ENLACE que organizaba los resultados en cuatro niveles: insuficiente, elemental, bueno y excelente. En PLANEA se ha intentado abordar los rangos de resultados cualitativamente, aunque podríamos encontrar elementos que permitan compararse con los ejercicios anteriores, el INEE recomienda no utilizarlo de esa forma.</p>
+
+<p>La <strong>tabla 1.1</strong> muestra los rangos en los que se agrupan los datos y su significado:</p>
+
+<h3>Tabla 1.1</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Campo de formación</th>
+  <th>Nivel I</th>
+  <th>Nivel II</th>
+  <th>Nivel III</th>
+  <th>Nivel IV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Lenguaje y comunicación</td>
+  <td>Seleccionan información sencilla que se encuentra explícitamente en textos descriptivos.</td>
+  <td>Comprenden la información contenida en textos expositivos y literarios.</td>
+  <td>Realizan inferencias, como interpretar el sentido de una metáfora en una fábula.</td>
+  <td>Comprenden textos argumentativos como artículos de opinión.</td>
+</tr>
+<tr>
+  <td>Matemáticas</td>
+  <td>Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+  <td>Resuelven problemas aritméticos con números naturales.</td>
+  <td>Resuelven problemas aritméticos con números naturales o decimales. Resuelven problemas de aplicación de perímetros.</td>
+  <td>Resuelven problemas aditivos con números naturales, decimales y fraccionarios. Resuelven problemas de aplicación de áreas. Resuelven problemas que implican calcular promedios y medianas, y comparar razones.</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Resultados estatales de PLANEA Básica Lenguaje y comunicación.</h3>
+
+<p>A nivel nacional los resultados de la prueba arrojan los siguientes datos: el 49.5% de la población estudiantil se encuentra ubicada en el nivel I, es decir, un estudiante de cada dos que recién se gradúan de primaria.  33.2% en el nivel II, tres de cada diez se encuentra en el segundo nivel. El 14.6% en el nivel III, tres de cada veinte graduados. Tres de cada cien mexicanos en edad de terminar la primaria cuentan con habilidades avanzadas en lectura y comunicación: 2.6% en todo el país se agrupan en el nivel IV.</p>
+
+<p>En las entidades federativas de las que se tienen resultados (Chiapas, Guerrero, Michoacán y Oaxaca aún no cuentan con datos) el Distrito Federal se ubica con los mejores resultados en la materia, seguido de Colima y Nuevo León. Los estados de Tabasco (28°), Guanajuato (27°) y Durango (26°) ocupan los lugares con menor puntaje. Coahuila se ubica en el séptimo sitio con números prácticamente idénticos a los de Querétaro.</p>
+
+<p>En el gráfico 1.1 podemos dimensionar los datos de la ZML con el nacional y los estatales encontrando que la proporción de estudiantes que se encuentran en el nivel I es similar a la media nacional: 48.4%.</p>
+
+<p>La proporción <em>de estudiantes del Distrito Federal con un nivel avanzado (IV) se equiparan con los de la ZML,</em> 6.3 de la capital comparado con el 5.8% de nuestra región. El 36% los ubicamos en el nivel I y otro 36% en el nivel II mostrando una distribución equitativa en DF, mientras que en la ZML no se refleja así: 48% en el nivel I y 29% en el nivel II. Existe un 39% de diferencia entre la distribución del alumnado para ambos niveles.</p>
+
+<h3>Gráfico 1.1</h3>
+
+<p><img class="img-responsive" src="competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/grafico-1-1.jpg"></p>
+
+<h3>Resultados estatales de PLANEA Básica matemáticas.</h3>
+
+<p>En el país encontramos que el 60.5% de los estudiantes que presentaron la prueba se encuentran en el nivel I y el 18.9% en el nivel II, es decir, de cada cinco alumnos tres se ubican en el primer nivel y uno en el segundo. El 13.8% en el nivel III y 6.8% en el nivel IV lo que representa una quinta parte.</p>
+
+<p>El Distrito Federal, seguido de Colima, nuevamente se posicionan como las entidades mejor posicionadas en cuanto a los resultados de matemáticas. Aguascalientes les sigue en el tercer escalón. Las entidades federativas con las cifras más bajas en la materia son Tabasco (28°), Morelos (27°) y Sonora (26°). Coahuila mejora a comparación de sus datos en lenguaje y comunicación (7°), ocupa el 6° en matemáticas. Mientras que Durango nos muestra un rendimiento más elevado en esta materia (18°) que en las habilidades de lectura (26°) con cifras similares a los datos nacionales.</p>
+
+<p>La ZML agrupa a sus estudiantes de primaria de la sigueinte forma: 58.8% en el nivel I, 17% en el nivel II, 13.6% en el III y 10.6% en el IV.</p>
+
+<p>Aunque la distribución de los alumnos de nuestra región en comparación con la media del pais es similar en los niveles I, II y III, en el nivel IV se refleja la diferencia con los numeros nacionales: en el pais el porcentaje en el nivel IV es de 6.8 y en la ZML es de 10.6.</p>
+
+<h3>Gráfica 1.2</h3>
+
+<p><img class="img-responsive" src="competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/grafico-1-2.jpg"></p>
+
+<p>El gráfico 1.3 nos muestra los resultados por niveles de ambas materias a nivel nacional:</p>
+
+<h3>Gráfico 1.3</h3>
+
+<p><img class="img-responsive" src="competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/grafico-1-3.jpg"></p>
+
+<p>Al agrupar los resultados de forma piramidal observamos el comportamiento que se podría considerar típico, de acuerdo al criterio que diferencia ambas materias y la forma de evaluar en la práctica: lo subjetivo como característica del idioma y la objetividad que proporciona la enseñanza de las ciencias exactas.</p>
+
+<p>Es importante señalar la forma de la pirámide de matemáticas con una base ensanchada y los escalones superiores con un diferencia sutil y gradual, que podríamos interpretar como un marcado interés de los niños y niñas hacia el estudio del lenguaje y comunicación en detrimento de las matemáticas o bien, como el efecto a través del tiempo de la aplicación de metodologías pedagógicas basada en el acierto-error aplicada desde los primeros años de estudio que desincentiva su aprendizaje, remarcándose cada grado escolar hasta verse reflejado en las estadísticas de la matrícula de <a href="panorama-educacion-superior-zml-parte-1.html">educación superior</a>.</p>
+
+<h3>Infografía</h3>
+
+<p><img class="img-responsive" src="competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/infografia-estudiantes-de-la-comarca-lagunera.jpg"></p>
+
+<h3>Una versión de divulgación de este análisis apareció en Milenio Laguna</h3>
+
+<ul>
+<li><a href="http://www.milenio.com/negocios/Estudiantes_de_Coahuila-estudiantes_de_la_Comarca_Lagunera-IMPLAN_Torreon_0_662933763.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a></li>
+</ul>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fcompetencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
