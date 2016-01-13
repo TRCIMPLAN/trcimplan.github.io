@@ -144,6 +144,12 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \Ba
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/09/2016</td>
+            <td>$ 5,627.16</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Pesos.</p>
@@ -269,7 +275,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', functi
   if (typeof vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
     vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
       element: 'graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
-      data: [{ fecha: '2015-03-31', dato: 5319.43 },{ fecha: '2015-06-30', dato: 5252.37 }],
+      data: [{ fecha: '2015-03-31', dato: 5319.43 },{ fecha: '2015-06-30', dato: 5252.37 },{ fecha: '2016-09-30', dato: 5627.16 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -363,6 +369,12 @@ FINAL;
           <tr>
             <td>30/06/2015</td>
             <td>$ 5,252.37</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2016</td>
+            <td>$ 5,627.16</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
