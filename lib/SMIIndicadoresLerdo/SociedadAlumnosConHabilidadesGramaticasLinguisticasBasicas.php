@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Lerdo Sociedad Alumnos con Habilidades Gramáticas-Lingüisticas Básicas (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Lerdo Sociedad Alumnos con Habilidades Gramáticas-Lingüísticas Básicas (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class SociedadAlumnosConHabilidadesGramaticasLinguisticasBasicas extends \Base\P
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Alumnos con Habilidades Gramáticas-Lingüisticas Básicas en Lerdo';
+        $this->nombre            = 'Alumnos con Habilidades Gramáticas-Lingüísticas Básicas en Lerdo';
         $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2016-01-20T13:42';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
@@ -114,9 +114,9 @@ class SociedadAlumnosConHabilidadesGramaticasLinguisticasBasicas extends \Base\P
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Alumnos con Habilidades Gramáticas-Lingüisticas Básicas</h3>
+      <h3>Gráfica con los últimos datos de Alumnos con Habilidades Gramáticas-Lingüísticas Básicas</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Alumnos con Habilidades Gramáticas-Lingüisticas Básicas</h3>
+      <h3>Últimos datos de Alumnos con Habilidades Gramáticas-Lingüísticas Básicas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

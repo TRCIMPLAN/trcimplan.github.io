@@ -217,10 +217,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Avanzadas</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Básicas</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Iniciales</a></li>
-      <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html" target="_blank">Alumnos con Habilidades Científico-Matemáticas Prácticas</a></li>
+      <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Prácticas</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Avanzadas</a></li>
-      <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüisticas Básicas</a></li>
-      <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales</a></li>
+      <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Básicas</a></li>
+      <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Prácticas</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-torreon/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
@@ -467,10 +467,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Avanzadas</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Básicas</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Iniciales</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html" target="_blank">Alumnos con Habilidades Científico-Matemáticas Prácticas</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Prácticas</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Avanzadas</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüisticas Básicas</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Básicas</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Prácticas</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
@@ -709,10 +709,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Avanzadas</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Básicas</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Iniciales</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html" target="_blank">Alumnos con Habilidades Científico-Matemáticas Prácticas</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Prácticas</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Avanzadas</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüisticas Básicas</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Básicas</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Prácticas</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
@@ -952,10 +952,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Avanzadas</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Básicas</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Iniciales</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html" target="_blank">Alumnos con Habilidades Científico-Matemáticas Prácticas</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Prácticas</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Avanzadas</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüisticas Básicas</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Básicas</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Prácticas</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>
@@ -1190,10 +1190,10 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Avanzadas</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Básicas</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Iniciales</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html" target="_blank">Alumnos con Habilidades Científico-Matemáticas Prácticas</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas.html" target="_blank">Alumnos con Habilidades Científicas-Matemáticas Prácticas</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Avanzadas</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüisticas Básicas</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Básicas</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" target="_blank">Alumnos con Habilidades Gramáticas-Lingüísticas Prácticas</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html" target="_blank">Alumnos con Perfil Científico-Matemático</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html" target="_blank">Alumnos con Perfil Gramático-Español</a></li>

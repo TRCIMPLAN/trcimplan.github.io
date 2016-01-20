@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores La Laguna Sociedad Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores La Laguna Sociedad Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -32,7 +32,7 @@ class SociedadAlumnosConHabilidadesGramaticasLinguisticasIniciales extends \Base
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales en La Laguna';
+        $this->nombre            = 'Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales en La Laguna';
         $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2016-01-20T13:38';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
@@ -114,9 +114,9 @@ class SociedadAlumnosConHabilidadesGramaticasLinguisticasIniciales extends \Base
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales</h3>
+      <h3>Gráfica con los últimos datos de Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales</h3>
+      <h3>Últimos datos de Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Matamoros Sociedad Alumnos con Habilidades Científico-Matemáticas Prácticas (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Sociedad Alumnos con Habilidades Científicas-Matemáticas Prácticas (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -20,30 +20,30 @@
  */
 
 // Namespace
-namespace SMIIndicadoresMatamoros;
+namespace SMIIndicadoresTorreon;
 
 /**
- * Clase SociedadAlumnosConHabilidadesCientificoMatematicasPracticas
+ * Clase SociedadAlumnosConHabilidadesCientificasMatematicasPracticas
  */
-class SociedadAlumnosConHabilidadesCientificoMatematicasPracticas extends \Base\Publicacion {
+class SociedadAlumnosConHabilidadesCientificasMatematicasPracticas extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Alumnos con Habilidades Científico-Matemáticas Prácticas en Matamoros';
+        $this->nombre            = 'Alumnos con Habilidades Científicas-Matemáticas Prácticas en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2016-01-20T13:24';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas';
+        $this->archivo           = 'sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Porcentaje de Alumnos de 6to de primaria ubicados en Nivel III según resultados de la prueba PLANEA de la SEP.';
-        $this->claves            = 'IMPLAN, Matamoros, Educación';
+        $this->claves            = 'IMPLAN, Torreón, Educación';
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio        = 'indicadores-matamoros';
+        $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu       = 'Indicadores';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
@@ -54,7 +54,7 @@ class SociedadAlumnosConHabilidadesCientificoMatematicasPracticas extends \Base\
         $region                  = new \Base\SchemaPostalAddress();
         $region->addressCountry  = 'MX';
         $region->addressRegion   = 'Coahuila de Zaragoza';
-        $region->addressLocality = 'Matamoros';
+        $region->addressLocality = 'Torreón';
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                   = new \Base\SchemaPlace();
         $lugar->address          = $region;
@@ -72,7 +72,7 @@ class SociedadAlumnosConHabilidadesCientificoMatematicasPracticas extends \Base\
         // Para el Organizador
         $this->categorias        = array('Educación');
         $this->fuentes           = array('SEP');
-        $this->regiones          = 'Matamoros';
+        $this->regiones          = 'Torreón';
     } // constructor
 
     /**
@@ -102,7 +102,7 @@ class SociedadAlumnosConHabilidadesCientificoMatematicasPracticas extends \Base\
         <tbody>
           <tr>
             <td>01/12/2015</td>
-            <td>10.90 %</td>
+            <td>15.00 %</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -114,9 +114,9 @@ class SociedadAlumnosConHabilidadesCientificoMatematicasPracticas extends \Base\
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Alumnos con Habilidades Científico-Matemáticas Prácticas</h3>
+      <h3>Gráfica con los últimos datos de Alumnos con Habilidades Científicas-Matemáticas Prácticas</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Alumnos con Habilidades Científico-Matemáticas Prácticas</h3>
+      <h3>Últimos datos de Alumnos con Habilidades Científicas-Matemáticas Prácticas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -248,7 +248,7 @@ FINAL;
         <tbody>
           <tr>
             <td>01/12/2015</td>
-            <td>10.90 %</td>
+            <td>15.00 %</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -263,6 +263,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase SociedadAlumnosConHabilidadesCientificoMatematicasPracticas
+} // Clase SociedadAlumnosConHabilidadesCientificasMatematicasPracticas
 
 ?>

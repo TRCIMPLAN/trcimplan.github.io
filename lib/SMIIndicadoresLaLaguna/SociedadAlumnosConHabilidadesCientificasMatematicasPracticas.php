@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores La Laguna Sociedad Alumnos con Habilidades Científico-Matemáticas Prácticas (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores La Laguna Sociedad Alumnos con Habilidades Científicas-Matemáticas Prácticas (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,20 +23,20 @@
 namespace SMIIndicadoresLaLaguna;
 
 /**
- * Clase SociedadAlumnosConHabilidadesCientificoMatematicasPracticas
+ * Clase SociedadAlumnosConHabilidadesCientificasMatematicasPracticas
  */
-class SociedadAlumnosConHabilidadesCientificoMatematicasPracticas extends \Base\Publicacion {
+class SociedadAlumnosConHabilidadesCientificasMatematicasPracticas extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Alumnos con Habilidades Científico-Matemáticas Prácticas en La Laguna';
+        $this->nombre            = 'Alumnos con Habilidades Científicas-Matemáticas Prácticas en La Laguna';
         $this->autor             = 'Dirección de Investigación Estratégica';
         $this->fecha             = '2016-01-20T13:24';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas';
+        $this->archivo           = 'sociedad-alumnos-con-habilidades-cientificas-matematicas-practicas';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -114,9 +114,9 @@ class SociedadAlumnosConHabilidadesCientificoMatematicasPracticas extends \Base\
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Alumnos con Habilidades Científico-Matemáticas Prácticas</h3>
+      <h3>Gráfica con los últimos datos de Alumnos con Habilidades Científicas-Matemáticas Prácticas</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Alumnos con Habilidades Científico-Matemáticas Prácticas</h3>
+      <h3>Últimos datos de Alumnos con Habilidades Científicas-Matemáticas Prácticas</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -263,6 +263,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase SociedadAlumnosConHabilidadesCientificoMatematicasPracticas
+} // Clase SociedadAlumnosConHabilidadesCientificasMatematicasPracticas
 
 ?>
