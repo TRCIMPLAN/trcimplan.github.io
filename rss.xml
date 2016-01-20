@@ -5,15 +5,246 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 20 Jan 2016 13:01:12 -0600</pubDate>
+    <pubDate>Wed, 20 Jan 2016 13:56:05 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Alumnos con Habilidades Científicas-Matemáticas Iniciales en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales</guid>
+      <title>Alumnos con Habilidades Gramáticas-Lingüísticas Avanzadas en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas</guid>
+      <pubDate>Wed, 20 Jan 2016 13:50:00 -0600</pubDate>
+      <author>Dirección de Investigación Estratégica</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Porcentaje de Alumnos de 6to de primaria ubicados en Nivel IV según resultados de la prueba PLANEA de la SEP.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/12/2015</td>
+            <td>1.80 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Nivel IV: Comprenden textos argumentativos como artículos de opinión. Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Alumnos con Habilidades Gramáticas-Lingüísticas Prácticas en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas</guid>
+      <pubDate>Wed, 20 Jan 2016 13:46:00 -0600</pubDate>
+      <author>Dirección de Investigación Estratégica</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Porcentaje de Alumnos de 6to de primaria ubicados en Nivel III según resultados de la prueba PLANEA de la SEP.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/12/2015</td>
+            <td>10.50 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Nivel III: Realizan inferencias, como interpretar el sentido de una metáfora en una fábula. Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Alumnos con Habilidades Gramáticas-Lingüisticas Básicas en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas</guid>
+      <pubDate>Wed, 20 Jan 2016 13:42:00 -0600</pubDate>
+      <author>Dirección de Investigación Estratégica</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Porcentaje de Alumnos de 6to de primaria ubicados en Nivel II según resultados de la prueba PLANEA de la SEP.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/12/2015</td>
+            <td>27.10 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Nivel II: Comprenden la información contenida en textos expositivos y literarios. Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales</guid>
+      <pubDate>Wed, 20 Jan 2016 13:38:00 -0600</pubDate>
+      <author>Dirección de Investigación Estratégica</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Porcentaje de Alumnos de 6to de primaria ubicados en Nivel I según resultados de la prueba PLANEA de la SEP.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/12/2015</td>
+            <td>60.60 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Nivel I: Seleccionan información sencilla que se encuentra explícitamente en textos descriptivos. Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Alumnos con Habilidades Científicas-Matemáticas Avanzadas en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas</guid>
+      <pubDate>Wed, 20 Jan 2016 13:29:00 -0600</pubDate>
+      <author>Dirección de Investigación Estratégica</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Porcentaje de Alumnos de 6to de primaria ubicados en Nivel IV según resultados de la prueba PLANEA de la SEP.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/12/2015</td>
+            <td>6.10 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Nivel IV: Resuelven problemas aditivos con números naturales, decimales y fraccionarios. Resuelven problemas de aplicación de áreas. Resuelven problemas que implican calcular promedios y medianas, y comparar razones. Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Alumnos con Habilidades Científico-Matemáticas Prácticas en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas</guid>
+      <pubDate>Wed, 20 Jan 2016 13:24:00 -0600</pubDate>
+      <author>Dirección de Investigación Estratégica</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Porcentaje de Alumnos de 6to de primaria ubicados en Nivel III según resultados de la prueba PLANEA de la SEP.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/12/2015</td>
+            <td>10.90 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Resuelven problemas aritméticos con números naturales o decimales. Resuelven problemas de aplicación de perímetros. Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Alumnos con Habilidades Científicas-Matemáticas Básicas en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas</guid>
+      <pubDate>Wed, 20 Jan 2016 13:16:00 -0600</pubDate>
+      <author>Dirección de Investigación Estratégica</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Porcentaje de Alumnos de 6to de primaria ubicados en Nivel II según resultados de la prueba PLANEA de la SEP.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/12/2015</td>
+            <td>17.10 %</td>
+            <td>SEP</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Nivel II: Resuelven problemas aritméticos con números naturales. Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Alumnos con Habilidades Científicas-Matemáticas Iniciales en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales</guid>
       <pubDate>Wed, 20 Jan 2016 12:49:00 -0600</pubDate>
       <author>Dirección de Investigación Estratégica</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -32,482 +263,16 @@
         <tbody>
           <tr>
             <td>01/12/2015</td>
-            <td>54.50 %</td>
+            <td>65.90 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
 <p>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.
-Los resultados son evaluados como habilidades con las que cuentan las y los estudiantes al finalizar los estudios básicos.
-Más información <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">click</a></p>
-]]></description>
-    </item>
-    <item>
-      <title>Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca (parte 1)</title>
-      <link>http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html</link>
-      <guid isPermaLink="false">blog-competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1</guid>
-      <pubDate>Tue, 12 Jan 2016 10:30:00 -0600</pubDate>
-      <author>Lic. Luis A. Gutiérrez Arizpe</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/imagen.jpg"><br>
-
-<p>Este análisis estará conformado por tres entregas. En la primera se abordará la contextualización de la prueba PLANEA, cuestiones metodológicas y la forma de organizar la información, así como los resultados generales de primaria con la intención de ir adentrándonos en los números. En la segunda, se profundizará en las estadísticas de primaria y finalmente la tercera parte con un análisis de los datos de secundaria, que en conjunto con las entregas previas podríamos  tener conclusiones sobre la educación básica en la <strong>Zona Metropolitana de la Laguna.</strong></p>
-
-<p>El Instituto Nacional para la Evaluación de la Educación, INEE en conjunto con la Secretaria de Educación Pública y las autoridades educativas de las entidades del país lanzan el  Plan Nacional para la Evaluación de los Aprendizajes, PLANEA. Para este fin se diseña un nuevo instrumento conocido como la prueba <em>“PLANEA Básica”</em> para evaluar el estado que guarda la educación en México partiendo de los ejercicios que se llevan a cabo año tras año. Se aplicó a los alumnos de sexto de primaria y de tercero de secundaria por medio de una muestra representativa seleccionada aleatoriamente. La prueba fue aplicada durante el mes de Junio tanto para primaria como secundaria.</p>
-
-<p>A la luz de los resultados arrojados por la primera prueba PLANEA, que a primera instancia nos proyecta a los ejercicios anteriores de la SEP como la prueba <em>ENLACE,</em> podemos observar tres puntos:</p>
-
-<p>El <em>primero,</em> a pesar de la similitud entre PLANEA y ENLACE, el INEE precisa que no son series consecutivas, es decir, PLANEA comienza como la base de las evaluaciones post 2015 por lo que las estadísticas de ENLACE no debieran considerarse como serie histórica.</p>
-
-<p><em>Segundo,</em> al trabajar las bases de datos encontramos elementos que proporcionan información extra sobre la confiabilidad de los resultados y criterios de representatividad de cada escuela. En comparación con los ejercicios de años anteriores considero que se ha avanzado hacia un instrumento de evaluación más fiable.</p>
-
-<p><em>Tercero,</em> los resultados son evaluados como habilidades con las que cuentan las y los estudiantes al finalizar los estudios básicos a diferencia de ENLACE que organizaba los resultados en cuatro niveles: insuficiente, elemental, bueno y excelente. En PLANEA se ha intentado abordar los rangos de resultados cualitativamente, aunque podríamos encontrar elementos que permitan compararse con los ejercicios anteriores, el INEE recomienda no utilizarlo de esa forma.</p>
-
-<p>La <strong>tabla 1.1</strong> muestra los rangos en los que se agrupan los datos y su significado:</p>
-
-<h3>Tabla 1.1</h3>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th>Campo de formación</th>
-  <th>Nivel I</th>
-  <th>Nivel II</th>
-  <th>Nivel III</th>
-  <th>Nivel IV</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>Lenguaje y comunicación</td>
-  <td>Seleccionan información sencilla que se encuentra explícitamente en textos descriptivos.</td>
-  <td>Comprenden la información contenida en textos expositivos y literarios.</td>
-  <td>Realizan inferencias, como interpretar el sentido de una metáfora en una fábula.</td>
-  <td>Comprenden textos argumentativos como artículos de opinión.</td>
-</tr>
-<tr>
-  <td>Matemáticas</td>
-  <td>Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
-  <td>Resuelven problemas aritméticos con números naturales.</td>
-  <td>Resuelven problemas aritméticos con números naturales o decimales. Resuelven problemas de aplicación de perímetros.</td>
-  <td>Resuelven problemas aditivos con números naturales, decimales y fraccionarios. Resuelven problemas de aplicación de áreas. Resuelven problemas que implican calcular promedios y medianas, y comparar razones.</td>
-</tr>
-</tbody>
-</table>
-
-<h3>Resultados estatales de PLANEA Básica Lenguaje y comunicación.</h3>
-
-<p>A nivel nacional los resultados de la prueba arrojan los siguientes datos: el 49.5% de la población estudiantil se encuentra ubicada en el nivel I, es decir, un estudiante de cada dos que recién se gradúan de primaria.  33.2% en el nivel II, tres de cada diez se encuentra en el segundo nivel. El 14.6% en el nivel III, tres de cada veinte graduados. Tres de cada cien mexicanos en edad de terminar la primaria cuentan con habilidades avanzadas en lectura y comunicación: 2.6% en todo el país se agrupan en el nivel IV.</p>
-
-<p>En las entidades federativas de las que se tienen resultados (Chiapas, Guerrero, Michoacán y Oaxaca aún no cuentan con datos) el Distrito Federal se ubica con los mejores resultados en la materia, seguido de Colima y Nuevo León. Los estados de Tabasco (28°), Guanajuato (27°) y Durango (26°) ocupan los lugares con menor puntaje. Coahuila se ubica en el séptimo sitio con números prácticamente idénticos a los de Querétaro.</p>
-
-<p>En el gráfico 1.1 podemos dimensionar los datos de la ZML con el nacional y los estatales encontrando que la proporción de estudiantes que se encuentran en el nivel I es similar a la media nacional: 48.4%.</p>
-
-<p>La proporción <em>de estudiantes del Distrito Federal con un nivel avanzado (IV) se equiparan con los de la ZML,</em> 6.3 de la capital comparado con el 5.8% de nuestra región. El 36% los ubicamos en el nivel I y otro 36% en el nivel II mostrando una distribución equitativa en DF, mientras que en la ZML no se refleja así: 48% en el nivel I y 29% en el nivel II. Existe un 39% de diferencia entre la distribución del alumnado para ambos niveles.</p>
-
-<h3>Gráfico 1.1</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/grafico-1-1.jpg"></p>
-
-<h3>Resultados estatales de PLANEA Básica matemáticas.</h3>
-
-<p>En el país encontramos que el 60.5% de los estudiantes que presentaron la prueba se encuentran en el nivel I y el 18.9% en el nivel II, es decir, de cada cinco alumnos tres se ubican en el primer nivel y uno en el segundo. El 13.8% en el nivel III y 6.8% en el nivel IV lo que representa una quinta parte.</p>
-
-<p>El Distrito Federal, seguido de Colima, nuevamente se posicionan como las entidades mejor posicionadas en cuanto a los resultados de matemáticas. Aguascalientes les sigue en el tercer escalón. Las entidades federativas con las cifras más bajas en la materia son Tabasco (28°), Morelos (27°) y Sonora (26°). Coahuila mejora a comparación de sus datos en lenguaje y comunicación (7°), ocupa el 6° en matemáticas. Mientras que Durango nos muestra un rendimiento más elevado en esta materia (18°) que en las habilidades de lectura (26°) con cifras similares a los datos nacionales.</p>
-
-<p>La ZML agrupa a sus estudiantes de primaria de la sigueinte forma: 58.8% en el nivel I, 17% en el nivel II, 13.6% en el III y 10.6% en el IV.</p>
-
-<p>Aunque la distribución de los alumnos de nuestra región en comparación con la media del pais es similar en los niveles I, II y III, en el nivel IV se refleja la diferencia con los numeros nacionales: en el pais el porcentaje en el nivel IV es de 6.8 y en la ZML es de 10.6.</p>
-
-<h3>Gráfica 1.2</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/grafico-1-2.jpg"></p>
-
-<p>El gráfico 1.3 nos muestra los resultados por niveles de ambas materias a nivel nacional:</p>
-
-<h3>Gráfico 1.3</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/grafico-1-3.jpg"></p>
-
-<p>Al agrupar los resultados de forma piramidal observamos el comportamiento que se podría considerar típico, de acuerdo al criterio que diferencia ambas materias y la forma de evaluar en la práctica: lo subjetivo como característica del idioma y la objetividad que proporciona la enseñanza de las ciencias exactas.</p>
-
-<p>Es importante señalar la forma de la pirámide de matemáticas con una base ensanchada y los escalones superiores con un diferencia sutil y gradual, que podríamos interpretar como un marcado interés de los niños y niñas hacia el estudio del lenguaje y comunicación en detrimento de las matemáticas o bien, como el efecto a través del tiempo de la aplicación de metodologías pedagógicas basada en el acierto-error aplicada desde los primeros años de estudio que desincentiva su aprendizaje, remarcándose cada grado escolar hasta verse reflejado en las estadísticas de la matrícula de <a href="http://www.trcimplan.gob.mx/blog/panorama-educacion-superior-zml-parte-1.html">educación superior</a>.</p>
-
-<h3>Infografía</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1/infografia-estudiantes-de-la-comarca-lagunera.jpg"></p>
-
-<h3>Una versión de divulgación de este análisis apareció en Milenio Laguna</h3>
-
-<ul>
-<li><a href="http://www.milenio.com/negocios/Estudiantes_de_Coahuila-estudiantes_de_la_Comarca_Lagunera-IMPLAN_Torreon_0_662933763.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a></li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Integrantes del Consejo Directivo</title>
-      <link>http://www.trcimplan.gob.mx/consejo-directivo/integrantes.html</link>
-      <guid isPermaLink="false">consejo-directivo-integrantes</guid>
-      <pubDate>Fri, 08 Jan 2016 14:40:00 -0600</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[<p><img class="img-responsive contenido-imagen" src="http://www.trcimplan.gob.mx/consejo-directivo/integrantes/mesa.jpg" alt="Consejo Directivo"></p>
-
-<h3>El Consejo Directivo está conformado de la siguiente manera</h3>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th>Consejero</th>
-  <th>Cargo</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>C. Miguel Ángel Riquelme Solís</td>
-  <td>Presidente Municipal de Torreón</td>
-</tr>
-<tr>
-  <td>C. Eduardo Holguín Zehfuss</td>
-  <td>Director General Ejecutivo del IMPLAN</td>
-</tr>
-<tr>
-  <td>C. Miguel Felipe Mery Ayup</td>
-  <td>Presidente de la Comisión de Hacienda, Patrimonio y Cuenta Pública del Ayuntamiento</td>
-</tr>
-<tr>
-  <td>C. Mario Valdéz Garza</td>
-  <td>Presidente de la Comisión de Urbanismo y Obras Públicas del Ayuntamiento</td>
-</tr>
-<tr>
-  <td>C. Olivia Martínez Leyva</td>
-  <td>Presidente de la Comisión de Planeación y Competitividad del Ayuntamiento</td>
-</tr>
-<tr>
-  <td>C. Sergio Lara Galván</td>
-  <td>Presidente de la Comisión de Desarrollo Económico del Ayuntamiento</td>
-</tr>
-<tr>
-  <td>C. Gabriel Calvillo Ceniceros</td>
-  <td>Director General de Ordenamiento Territorial y Urbanismo del Ayuntamiento</td>
-</tr>
-<tr>
-  <td>C. Javier Ramos Salas</td>
-  <td>Presidente del Consejo Municipal de Desarrollo Urbano</td>
-</tr>
-<tr>
-  <td><strong>Consejeros de representación Sectorial</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>C. Hugo Homero Pérez Agüero</td>
-  <td>Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción</td>
-</tr>
-<tr>
-  <td>C. Gildardo Magallanes Rayas</td>
-  <td>Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción</td>
-</tr>
-<tr>
-  <td>C. Alberto Francisco Allegre del Cueto</td>
-  <td>Iniciativa Privada</td>
-</tr>
-<tr>
-  <td>C. Eduardo Castañeda Martínez</td>
-  <td>Iniciativa Privada</td>
-</tr>
-<tr>
-  <td>C. Cecilia del Carmen Cardiel Escamilla</td>
-  <td>Organizaciones No Gubernamentales</td>
-</tr>
-<tr>
-  <td>C. Ignacio Chong López</td>
-  <td>Organizaciones No Gubernamentales</td>
-</tr>
-<tr>
-  <td>C. Carlos Gerardo Landeros Araujo</td>
-  <td>Instituciones de Educación Superior</td>
-</tr>
-<tr>
-  <td>C. Miguel Ángel Cisneros Guerrero</td>
-  <td>Instituciones de Educación Superior</td>
-</tr>
-<tr>
-  <td><strong>Consejeros Propuestos por el Alacalde</strong></td>
-  <td></td>
-</tr>
-<tr>
-  <td>C. Victor Hugo Torres Romo</td>
-  <td>Colegio de Arquitectos</td>
-</tr>
-<tr>
-  <td>C. Eugenio Treviño Rodríguez</td>
-  <td>Cámara Nacional de la Industria de la Transformación</td>
-</tr>
-<tr>
-  <td>C. Martín López Méndez</td>
-  <td>Instituto Tecnológico y de Estudios Superiores de Monterrey</td>
-</tr>
-<tr>
-  <td>C. Rafael Rebollar González</td>
-  <td>Peñoles</td>
-</tr>
-<tr>
-  <td>C. Carlos Rangel Orona</td>
-  <td>Cámara Nacional de Comercio, Servicios y Turismo Torreón</td>
-</tr>
-<tr>
-  <td>C. Francisco Valdés Pérez Gazga</td>
-  <td>PRODENAZAS</td>
-</tr>
-</tbody>
-</table>
-]]></description>
-    </item>
-    <item>
-      <title>Balance 2015: repunte de la competitividad en La Laguna</title>
-      <link>http://www.trcimplan.gob.mx/blog/balance-2015-repunte-de-la-competitividad-en-la-laguna.html</link>
-      <guid isPermaLink="false">blog-balance-2015-repunte-de-la-competitividad-en-la-laguna</guid>
-      <pubDate>Mon, 04 Jan 2016 11:00:00 -0600</pubDate>
-      <author>Lic. Rodrigo González Morales</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/balance-2015-repunte-de-la-competitividad-en-la-laguna/imagen.jpg"><br>
-
-<p>En <strong>2007,</strong> año de la primer medición del <strong>Instituto Mexicano para la Competitividad (IMCO)</strong> sobre competitividad de las ciudades mexicanas, <strong>la Zona Metropolitana de La Laguna (ZML) ocupaba el puesto 12</strong> de más de 70 metrópolis. Se consideraron factores económicos, de infraestructura, institucionales, sociales y ambientales.</p>
-
-<p>Estas altas calificaciones como ciudad, en la competencia global por ofrecer un entorno propicio para el desarrollo económico, eran compartidas por el <strong>Centro de Investigación y Docencia Económica (CIDE)</strong> pionero en la investigación académica sobre el tema en nuestro país, <strong>quien aquel año ubicó a Torreón y su metrópoli en el lugar 17.</strong></p>
-
-<p>A partir de ese momento algunas de las condiciones que influyen en la capacidad de una ciudad para atraer y retener inversiones y talentos, fueron jalando a nuestra región a una espiral de pérdida de confianza del capital económico y humano que genera el desarrollo de la región.</p>
-
-<p>La crisis de seguridad, el desordenado crecimiento urbano que mermó los servicios públicos, la falta de una planeación a largo plazo y con visión metropolitana, la desvinculación de los actores económicos, políticos y sociales, llevaron a que <strong>de acuerdo al IMCO en 2014 nuestra ciudad se situara en el lugar 48 del ranking nacional.</strong></p>
-
-<p>Indicadores considerados en esa medición con datos de 2012, mostraron en el recién concluido 2015 una realidad distinta para la ZML: <strong>La tasa de homicidio disminuyó de 78 homicidios por cada 100 mil habitantes en 2012 a solo 26,</strong> con información hasta Noviembre de 2015.</p>
-
-<p>En cuanto a <strong>robo de vehículos,</strong> de los 4,193 registrados en 2012 por IMCO <strong>se redujeron a 1,102 robos de vehículos en la ZML y en Torreón solo 500,</strong> en contraste con 2,609 registrados en 2012.</p>
-
-<p><strong>La percepción de inseguridad en los municipios,</strong> medida por la encuesta Nacional de INEGI <strong>ha bajado de 68.8 en 2012 a 59.7 en 2015.</strong> Los <strong>pasajeros aéreos</strong> que registró Torreón en 2012 fueron 415 mil, mientras <strong>a Noviembre de 2015 ya se registraban 504 mil.</strong></p>
-
-<p>El <strong>acceso a instituciones de salud ha subido de 42 a 52 %</strong> de acuerdo a la Encuesta Nacional de Ocupación y Empleo.</p>
-
-<p>Según los resultados de los censos económicos 2014, publicados el 27 de julio, el <strong>valor agregado en el municipio de Torreón aumentó 5.62% real en cinco años.</strong></p>
-
-<p>Estas tendencias se suman al <strong>crecimiento del mercado hipotecario en más de 6% anual, la calificación del Financial Times que ubica a Torreón como la ciudad con mejor costo beneficio al invertir en México, la constante baja en el índice de informalidad y el aumento del salario promedio de los últimos dos años.</strong></p>
-
-<p>Además, la encuesta intercensal del INEGI muestra <strong>avances en educación y acceso a bienes en las viviendas.</strong></p>
-
-<p>Todos los anteriores son indicadores que forman parte de los 90 componentes de la competitividad urbana de acuerdo al IMCO, en todos ellos el 2015 nos entrega <strong>muestras de avance y de recuperación de nuestra ciudad en el entorno global.</strong></p>
-
-<p><strong>Enrique Cabrero,</strong> ex Director del CIDE y actual Director de CONACYT, señaló hace una década que <strong>la competitividad entre ciudades sólo puede impulsarse por medio de la cooperación al interior de ellas.</strong></p>
-
-<p>Para ello <strong>las experiencias internacionales privilegian la planeación estratégica para el fomento a la competitividad,</strong> como muestran Barcelona, Bogotá o Aguascalientes.</p>
-
-<p><strong>La construcción de las ciudades es una acción público privada, participan gobiernos,</strong> pero también de forma muy importante, <strong>empresas, asociaciones y los múltiples agentes que en ella intervienen.</strong></p>
-
-<p>Por ello <strong>la generación de las condiciones para la prosperidad social y el desarrollo económico requieren la cooperación de los sectores.</strong> La competitividad de las ciudades crece con la conformación de clústers y alianzas en base a objetivos comunes.</p>
-
-<p>Las ciudades que formulan estrategias para ser más competitivas <strong>construyen instituciones y redes mediadoras de la cooperación,</strong> y lo logran <strong>cuando cuentan con una sólida vinculación entre universidad y empresa.</strong></p>
-
-<p>Por ello si en 2015 Torreón y La Laguna dieron pasos importantes hacia posicionarse nuevamente en el mapa de las ciudades competitivas, <strong>en 2016 corresponderá afianzar estas tendencias con la cooperación metropolitana de empresas, ciudadanos e instituciones.</strong></p>
-
-<h3>Infografía</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/balance-2015-repunte-de-la-competitividad-en-la-laguna/repunte-de-la-competitividad-en-la-laguna.jpg" alt="Repunte de la competitividad en La Laguna"></p>
-
-<h3>Esto fue publicado en Milenio Laguna</h3>
-
-<ul>
-<li><a href="http://www.milenio.com/negocios/IMPLAN_Torreon-repunte_de_la_competitividad_en_La_Laguna_0_658734187.html">Balance 2015: repunte de la competitividad en La Laguna</a></li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Jóvenes: los más afectados por el desempleo en La Laguna</title>
-      <link>http://www.trcimplan.gob.mx/blog/jovenes-los-mas-afectados-por-el-desempleo-en-la-laguna.html</link>
-      <guid isPermaLink="false">blog-jovenes-los-mas-afectados-por-el-desempleo-en-la-laguna</guid>
-      <pubDate>Mon, 28 Dec 2015 08:00:00 -0600</pubDate>
-      <author>Lic. Alicia Valdez Ibarra</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/jovenes-los-mas-afectados-por-el-desempleo-en-la-laguna/imagen.jpg"><br>
-
-<p>Según los resultados más recientes de la <strong>Encuesta Nacional de Ocupación y Empleo (ENOE)</strong> realizada por <strong>INEGI</strong> cada trimestre, <strong>los jóvenes de 15 a 24 años de edad tienen una tasa de desempleo de 11.27%,</strong> colocándose como el grupo de edad con el mayor porcentaje en la zona metropolitana de La Laguna.</p>
-
-<p>Le sigue el grupo de 25 a 44 años, pues de acuerdo a los datos de la encuesta, <strong>la tasa de desempleo disminuye a medida que la edad aumenta.</strong> Esta tendencia se presenta a nivel nacional.</p>
-
-<p>Municipios como Saltillo, Aguascalientes, Querétaro y León, por mencionar algunos, registran altas tasas de desempleo en jóvenes, usualmente alrededor de 10%, mientras el desempleo en adultos y adultos mayores oscila entre 2 y 3%.</p>
-
-<p>De manera similar, <strong>el salario promedio mensual para jornadas completas es menor en los jóvenes.</strong> Tanto en México como en La Laguna este indicador alcanza su punto máximo en el tercer grupo de edad, el cual abarca de 45 a 64 años.</p>
-
-<p>Así, mientras el salario promedio para un lagunero de 50 años con un empleo de jornada completa –de 35 a 48 horas- es de más de 6 mil pesos, <strong>un joven de 20 en un empleo de tiempo completo en La Laguna gana aproximadamente 4 mil pesos mensuales.</strong></p>
-
-<p>No en todos los casos los salarios más altos se encuentran en el mismo rango de edades, los adultos mayores son los mejor remunerados en Monterrey y San Luis Potosí, mientras los adultos jóvenes –de 25 a 44- tienen los mejores salarios de Querétaro y León.</p>
-
-<p>No obstante, <strong>los jóvenes de entre 15 y 24 tienen los salarios más bajos en la mayoría de los casos.</strong></p>
-
-<p>Los retos que enfrentan los jóvenes al conseguir trabajo no son exclusivos de La Laguna o incluso de México, estudios de la <strong>Organización Internacional del Trabajo (OIT)</strong> afirman que <strong>las tasas de desempleo en jóvenes son alrededor de tres veces más altas a las de los adultos, esto tanto en América Latina como en países desarrollados.</strong></p>
-
-<h3>¿Cómo reaccionar ante la problemática?</h3>
-
-<p>Observaciones empíricas realizadas por la OIT revelan <strong>un mejor desarrollo profesional en los jóvenes con un primer empleo de mayor calidad,</strong> de ahí la importancia de incluir la generación de empleos de calidad para jóvenes en el diseño de políticas públicas y las iniciativas de ley.</p>
-
-<p>Políticas para estimular el <strong>emprendimiento de negocios formales en jóvenes,</strong> así como iniciativas dirigidas a <strong>mejorar la educación y capacitación</strong> de los jóvenes que buscan su primer empleo, han probado tener mejores resultados a aquellas que buscan incentivar a los empleadores por medio de subsidios a la contratación como exoneraciones tributarias o a las aportaciones de seguridad social.</p>
-
-<p>Además de las políticas implementadas a nivel federal y estatal, otras acciones pueden tomarse a nivel municipal y regional, por ejemplo:</p>
-
-<ul>
-<li><strong>Alianzas que fomenten el diálogo entre universidades y empresas con el objetivo de identificar y unificar las competencias clave demandadas por los empleadores y las competencias ofrecidas por los egresados.</strong></li>
-<li><strong>Fomentar el emprendimiento en los jóvenes</strong> a través de la inclusión de clases y talleres de emprendimiento en los planes de estudio de las universidades.</li>
-<li><strong>Simplificar los procesos de apertura de negocios.</strong></li>
-<li><strong>Generación y difusión de información</strong> clave y veraz que permita definir la causa del problema y su solución.</li>
-</ul>
-
-<p>La identificación de los principales obstáculos de los emprendedores de la región, el promedio de vida de las Pymes, <strong>la edad promedio de los emprendedores y las competencias demandadas por empleadores son datos necesarios,</strong> mas no disponibles en La Laguna.</p>
-
-<p>Las medidas mencionadas son solo algunas de muchas otras que podrían implementarse en la zona metropolitana de La Laguna, pueden parecer básicas, pero son un comienzo para poner el problema en la agenda pública y hacer de La Laguna una región de oportunidades para jóvenes talentos.</p>
-
-<h3>Infografía</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/jovenes-los-mas-afectados-por-el-desempleo-en-la-laguna/desempleo-jovenes-en-la-laguna.jpg" alt=""></p>
-
-<h3>Esto fue publicado en Milenio Laguna</h3>
-
-<ul>
-<li><a href="http://www.milenio.com/negocios/desempleo_jovenes_en_La_Laguna-desempleo_jovenes_en_Torreon_0_654534591.html">Jóvenes: los más afectados por el desempleo en La Laguna</a></li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Por la conservación del patrimonio arquitectónico en La Laguna</title>
-      <link>http://www.trcimplan.gob.mx/blog/por-la-conservacion-del-patrimonio-arquitectonico-en-la-laguna.html</link>
-      <guid isPermaLink="false">blog-por-la-conservacion-del-patrimonio-arquitectonico-en-la-laguna</guid>
-      <pubDate>Mon, 21 Dec 2015 08:00:00 -0600</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/por-la-conservacion-del-patrimonio-arquitectonico-en-la-laguna/imagen.jpg"><br>
-
-<p>Por <strong>patrimonio arquitectónico</strong> se puede entender <strong>un edificio, un conjunto de edificios o las ruinas de un edificio o conjunto de ellos que con el paso del tiempo, han adquirido un valor mayor al originalmente asignado.</strong></p>
-
-<p>Este valor, puede ser cultural o emocional, físico o intangible, histórico o técnico. Las obras de arquitectura que pueden considerarse patrimonio arquitectónico serán entonces las que debido a una multiplicidad de razones, no todas de índole técnica o artística, se considera que sin ellas, el entorno donde se ubican dejaría de ser lo que es.</p>
-
-<p>En la actualidad <strong>Torreón</strong> a pesar de ser una ciudad relativamente joven, de <strong>108 años</strong>, tiene un <strong>Catálogo de Inmuebles Patrimoniales del INAH de Coahuila</strong> que data de 1984.</p>
-
-<p>Aunque se están haciendo gestiones por parte de la <strong>Junta de Conservación del Centro Histórico del Municipio</strong> para incorporar más edificios al catálogo.</p>
-
-<p>En la ciudad han desaparecido 24 inmuebles con un valor patrimonial. De acuerdo con el Instituto Nacional de Antropología e Historia (INAH) y el instituto Nacional de Bellas Artes (INBA), existen 81 inmuebles con valor artístico en la ciudad de Torreón registrados por el INBA y 79 con valor histórico registrados por el INAH.</p>
-
-<p>Aunado a esto, si alguna construcción que se localice dentro de alguna de las <strong>241 manzanas</strong> que conforman el polígono decretado como <strong>Centro Histórico de la ciudad de Torreón,</strong> está sujeto a restricciones en cuanto a su mantenimiento uso o conservación.</p>
-
-<h3>Abandono de centros históricos</h3>
-
-<p>Una construcción responde a las necesidades de sus propietarios, así como usos requeridos, deseos, valores culturales y estéticos de una época e inseparable del entorno al que pertenece de acuerdo a los acontecimientos históricos, económicos y políticos que se viven durante su construcción.</p>
-
-<p>Con el paso del tiempo, las ciudades cambian, determinadas áreas se vacían y se van desarrollando nuevos centros urbanos, qué generan ciudades más dispersas.</p>
-
-<p><strong>El abandono de los Centros Históricos es un factor común que afecta significativamente a los bienes inmuebles ubicados en este sector,</strong> causando una devaluación en el suelo, deficiencia en su infraestructura, afectándolos económicamente, dejando de ser rentables, los inquilinos que los habitan las abandonan, siguiendo el “desarrollo de las nuevos sectores” que ofrecen una oferta más atractiva.</p>
-
-<p>Este comportamiento conlleva a que los propietarios de inmuebles patrimonio oferten a renta, venta o busquen una nueva alternativa de inversión para sus patrimonios que dejaron de ser una buena fuente de ingresos y las promueven al margen de su valor histórico y cultural, con lo que llega el deterioro, vandalismo y destrucción.</p>
-
-<p><strong>Se registran muchos casos de edificios que han sido demolidos por causas de valor inmobiliario por representar mejor oportunidad como terreno por su ubicación, en el que se puede construir un nuevo proyecto desde cero.</strong></p>
-
-<p>Un nuevo proyecto para un edificio histórico, debe realizarse considerando el valor que representa como inmueble, teniendo especial cuidado en el nuevo uso al que se va a destinar, así como, la adecuación en cuanto a los espacios y cuidado de su estilo y materiales.</p>
-
-<p><strong>La pérdida de patrimonio Arquitectónico en La Laguna es responsabilidad de todos, la conservación de los monumentos es un problema social que atañe a todos los organismos del Gobierno y del resto de la sociedad.</strong></p>
-
-<p>Existe una normatividad que se comparte junto con el <strong>INBA,</strong> pero más allá de ello, la responsabilidad no es únicamente de las entidades federales, también tiene que ver con las autoridades locales y al mismo tiempo con la sociedad civil.</p>
-
-<p>El Municipio de Torreón cuenta con un <strong>Reglamento de Protección y Conservación del Conjunto Histórico y Patrimonio Construido,</strong> aprobado en la cuadragésima séptima sesión ordinaria de cabildo celebrada el 24 de octubre de 2004.</p>
-
-<p>Tiene las bases para la creación de políticas públicas para la conservación y protección del Centro Histórico.</p>
-
-<p>Si se desea conocer el mapa del patrimonio arquitectónico de la Ciudad de Torreón, con sus edificios de valor artístico e histórico, <a href="http://www.trcimplan.gob.mx/blog/../sig-mapas-torreon/patrimonio-historico.html">visite Patrimonio Histórico de Torreón del Sistema de Información Geográfica</a>.</p>
-
-<h3>Esto fue publicado en Milenio Laguna</h3>
-
-<ul>
-<li><a href="http://www.milenio.com/negocios/Patrimonio_arquitectonico_de_Torreon-IMPLAN_Torreon_0_650335018.html">Por la conservación del patrimonio arquitectónico en La Laguna</a></li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Elección de Consejeros de Representación Sectorial 2015</title>
-      <link>http://www.trcimplan.gob.mx/consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015.html</link>
-      <guid isPermaLink="false">consejo-directivo-eleccion-de-consejeros-de-representacion-sectorial-2015</guid>
-      <pubDate>Thu, 17 Dec 2015 14:10:00 -0600</pubDate>
-      <author>IMPLAN Torreón Staff</author>
-      <description><![CDATA[<p>El <strong>Instituto Municipal de Planeación y Competitividad de Torreón</strong> informa que durante el proceso de elección de <strong>Consejeros de Representación Sectorial</strong> se contó con la <strong>participación de 21 ciudadanos interesados,</strong> quienes se registraron en un único sector de representación, presentando su exposición de motivos y los documentos que fueron solicitados en la <a href="http://www.trcimplan.gob.mx/consejo-directivo/convocatoria-2015.html">convocatoria</a>:</p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015/01.png" alt="Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015/02.png" alt="Iniciativa Privada"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015/03.png" alt="Organizaciones no gubernamentales"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015/04.png" alt="Instituciones de Eduación Superior"></p>
-
-<p>En la <strong>Secretaría Técnica del Consejo Directivo del IMPLAN</strong> se integraron los expedientes de los ciudadanos registrados y se enviaron a cada uno de los organismos avales del sector. Los organismos avales emitieron una carta avalando a un único aspirante, exponiendo los motivos y valoraciones.</p>
-
-<p>El pasado <strong>15 de diciembre de 2015,</strong> durante la celebración de la <strong>9ª Sesión Ordinaria del Consejo Directivo,</strong> el Secretario Técnico, el C. Eduardo Holguín, presentó <strong>los nombres de los ciudadanos avalados:</strong></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015/11.png" alt="Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015/12.png" alt="Iniciativa Privada"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015/13.png" alt="Organizaciones no gubernamentales"></p>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015/14.png" alt="Instituciones de Eduación Superior"></p>
-
-<p><strong>En el caso del sector de Asociaciones y Colegios de Profesionistas y Empresarios de la Construcción,</strong> durante la sesión se sometió a votación del Consejo, resultando nuevamente un empate. De conformidad con lo dispuesto por la <strong>fracción VI del artículo 26</strong> de la <a href="http://www.trcimplan.gob.mx/consejo-directivo/../institucional/reglamentos.html">Ley que crea el Instituto Municipal de Planeación y Competitividad de Torreón</a>, <strong>el Presidente del Consejo tendrá en todo momento voto de calidad en la toma de decisiones;</strong> por lo que el <strong>C. Miguel Ángel Riquelme Solís</strong> en su carácter de Presidente del Consejo determinó que será <strong>Hugo Homero Pérez Agüero</strong> el Consejero representante de dicho sector.</p>
-]]></description>
-    </item>
-    <item>
-      <title>Evolución del mercado hipotecario en Torreón (diciembre 2015)</title>
-      <link>http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon-2015-12.html</link>
-      <guid isPermaLink="false">blog-evolucion-del-mercado-hipotecario-en-torreon-2015-12</guid>
-      <pubDate>Mon, 14 Dec 2015 08:00:00 -0600</pubDate>
-      <author>Lic. Alicia Valdez Ibarra</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon-2015-12/imagen.jpg"><br>
-
-<p>Durante el último año, <strong>de octubre de 2014 a octubre de 2015, el crecimiento anual del mercado hipotecario</strong> (que se refiere al número de créditos otorgados) en el municipio de <strong>Torreón fue de 5.86%,</strong> mientras que en la <strong>Zona Metropolitana de La Laguna creció en promedio 6.10%.</strong></p>
-
-<p><strong>El crecimiento en ambos casos es superior al registrado a nivel nacional</strong> que fue de <strong>3.01%.</strong></p>
-
-<p>En los primeros diez meses de 2015 los créditos hipotecarios en Torreón aumentaron 4.39%.</p>
-
-<p><strong>La mayoría de los créditos otorgados fueron para la adquisición de viviendas nuevas</strong> –buena noticia para el mercado inmobiliario-, mientras <strong>los créditos con mayor aumento relativo fueron los dedicados para la construcción,</strong> con un incremento de 11.30%.</p>
-
-<p>En otras ciudades de la República Mexicana el mercado hipotecario tuvo un crecimiento similar, a excepción de Monterrey, donde el portafolio total de créditos hipotecarios aumentó apenas 0.55%. Otros municipios como Chihuahua aumentaron su mercado aunque en menor medida.</p>
-
-<h3>Importancia del mercado inmobiliario</h3>
-
-<p><strong>El buen funcionamiento del mercado inmobiliario es clave para la salud de la economía.</strong></p>
-
-<p>La vivienda no es sólo una necesidad básica, sino una parte importante de la inversión y en muchos casos el mayor componente de la riqueza: los hogares concentran la mayoría de su capital en sus bienes inmuebles.</p>
-
-<p>Además, los mercados hipotecarios participan en la transmisión de la política monetaria y ayudan a las economías a adaptarse a los shocks.</p>
-
-<p>Vigilar el crecimiento del crédito es de suma importancia para organismos internacionales como el Fondo Monetario Internacional (FMI), pues es clave en la identificación de ciclos de auge y caída del mercado hipotecario, fenómeno que ligado al apalancamiento y a la exposición de hogares provoca crisis en la economía real.</p>
-
-<p><strong>El hecho de que en nuestra región el crédito crezca a una tasa superior a la nacional es una señal de desarrollo económico, pues los mercados inmobiliarios crecen a medida que las economías se desarrollan.</strong></p>
-
-<p>Sin embargo, debemos analizar también indicadores como los días de atraso y las probabilidades de impago para darnos una idea más clara de la situación.</p>
-
-<p>En estos indicadores, <strong>La Laguna se encuentra en mejor posición al promedio nacional,</strong> ya que mientras la probabilidad de incumplimiento en nuestra zona metropolitana es de 9.63%, el promedio nacional es de 11.35%.</p>
-
-<p>Además, <strong>los laguneros se atrasan 9 días menos en los pagos de sus hipotecas en comparación con el promedio del resto de los mexicanos.</strong> Torreón, en lo particular, tiene un promedio de días de atraso mayor al nacional.</p>
-
-<p>Los resultados negativos en la probabilidad de incumplimiento y el atraso en los pagos puede ser causa de la disminución de poder adquisitivo provocado por un mínimo crecimiento en los salarios sumado a una tasa de desempleo que en el municipio de Torreón se ha mantenido constante en 6.2% durante los primeros tres semestres del año, sin mencionar la falta de planeación financiera.</p>
-
-<p>No obstante, el aumento en los créditos hipotecarios en el municipio de Torreón empata con el aumento en el registro de nuevos negocios, los cuales hasta el mes de octubre suman 2,055 nuevos establecimientos, indicador de dinamismo en la economía.</p>
-
-<h3>Bibliografía</h3>
-
-<p>Zhu, M. (2014). [Los mercados inmobiliarios, la estabilidad financiera y la economía](http://www.imf. org/external/spanish/np/speeches/2014/060514s.htm). En Fondo Monetario Internacional. Obtenido el 21 de junio de 2014.</p>
-
-<h3>Infografía</h3>
-
-<p><img class="img-responsive" src="http://www.trcimplan.gob.mx/blog/evolucion-del-mercado-hipotecario-en-torreon-2015-12/evolucion-del-mercado-hipotecario-en-torreon.jpg" alt=""></p>
-
-<h3>Esto fue publicado en Milenio Laguna</h3>
-
-<ul>
-<li><a href="http://www.milenio.com/negocios/IMPLAN_Torreon-Evolucion_del_mercado_hipotecario_en_Torreon_0_646135466.html">Evolución del mercado hipotecario en Torreón</a></li>
-</ul>
+Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
 ]]></description>
     </item>
   </channel>

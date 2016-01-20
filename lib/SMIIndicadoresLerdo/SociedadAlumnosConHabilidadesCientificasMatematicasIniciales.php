@@ -104,15 +104,14 @@ class SociedadAlumnosConHabilidadesCientificasMatematicasIniciales extends \Base
             <td>01/12/2015</td>
             <td>63.90 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
 <p>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.
-Los resultados son evaluados como habilidades con las que cuentan las y los estudiantes al finalizar los estudios básicos.
-Más información <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">click</a></p>
+Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
@@ -135,56 +134,56 @@ Más información <a href="http://www.trcimplan.gob.mx/blog/competencias-en-leng
             <td>2015-12-01</td>
             <td>54.50 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2015-12-01</td>
             <td>61.80 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2015-12-01</td>
             <td>63.90 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2015-12-01</td>
             <td>65.90 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2015-12-01</td>
             <td>58.80 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
             <td>2015-12-01</td>
             <td>56.30 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Durango</td>
             <td>2015-12-01</td>
             <td>60.10 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
             <td>2015-12-01</td>
             <td>60.50 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -252,15 +251,14 @@ FINAL;
             <td>01/12/2015</td>
             <td>63.90 %</td>
             <td>SEP</td>
-            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
 <p>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.
-Los resultados son evaluados como habilidades con las que cuentan las y los estudiantes al finalizar los estudios básicos.
-Más información <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">click</a></p>
+Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
 
 FINAL;
         // Ejecutar este método en el padre

@@ -93,12 +93,75 @@ class Educacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Científicas-Matemáticas Avanzadas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">13.2 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">8.6 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">7.6 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">6.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-cientificas-matematicas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">10.6 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Científicas-Matemáticas Básicas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">17.4 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">16.7 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">16.4 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">17.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-cientificas-matematicas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">17.0 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Alumnos con Habilidades Científicas-Matemáticas Iniciales</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">54.5 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">61.8 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">63.9 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">65.9 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">58.8 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Científico-Matemáticas Prácticas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">15.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">12.8 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">12.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">10.9 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-cientifico-matematicas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">13.6 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Gramáticas-Lingüísticas Avanzadas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">7.4 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">5.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">3.7 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">1.8 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">5.8 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Gramáticas-Lingüisticas Básicas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">31.2 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">27.8 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">27.7 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">27.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">29.4 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Gramáticas-Lingüisticas Iniciales</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">42.1 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">52.0 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">56.4 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">60.6 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">48.4 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Gramáticas-Lingüísticas Prácticas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">19.3 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">15.2 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">12.2 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">10.5 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">16.4 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
