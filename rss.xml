@@ -5,11 +5,46 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 13 Jan 2016 14:15:25 -0600</pubDate>
+    <pubDate>Wed, 20 Jan 2016 13:01:12 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alumnos con Habilidades Científicas-Matemáticas Iniciales en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales</guid>
+      <pubDate>Wed, 20 Jan 2016 12:49:00 -0600</pubDate>
+      <author>Dirección de Investigación Estratégica</author>
+      <description><![CDATA[      <h3>Descripción</h3>
+<p>Porcentaje de Alumnos de 6to de primaria ubicados en Nivel I según resultados de la prueba PLANEA de la SEP.</p>
+
+      <h3>Información recopilada</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/12/2015</td>
+            <td>54.50 %</td>
+            <td>SEP</td>
+            <td>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><b>Unidad:</b> Porcentaje.</p>
+      <h3>Observaciones</h3>
+<p>Nivel I: Escriben y comparan números naturales. Sin embargo, no resuelven problemas aritméticos con números naturales.
+Los resultados son evaluados como habilidades con las que cuentan las y los estudiantes al finalizar los estudios básicos.
+Más información <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">click</a></p>
+]]></description>
+    </item>
     <item>
       <title>Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca (parte 1)</title>
       <link>http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html</link>
@@ -474,16 +509,6 @@
 <li><a href="http://www.milenio.com/negocios/IMPLAN_Torreon-Evolucion_del_mercado_hipotecario_en_Torreon_0_646135466.html">Evolución del mercado hipotecario en Torreón</a></li>
 </ul>
 ]]></description>
-    </item>
-    <item>
-      <title>Seguridad Pública</title>
-      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/seguridad-publica.html</link>
-      <guid isPermaLink="false">sig-mapas-torreon-seguridad-publica</guid>
-      <pubDate>Mon, 07 Dec 2015 16:17:00 -0600</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/seguridad-publica.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/seguridad-publica/imagen.jpg"><br>
-
-Instituciones dedicadas a proteger la integridad de los ciudadanos y sus bienes.</a>]]></description>
     </item>
   </channel>
 </rss>

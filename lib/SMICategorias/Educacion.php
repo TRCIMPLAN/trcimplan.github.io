@@ -93,6 +93,15 @@ class Educacion extends \Base\Publicacion {
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Alumnos con Habilidades Científicas-Matemáticas Iniciales</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">54.5 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">61.8 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">63.9 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">65.9 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-habilidades-cientificas-matematicas-iniciales.html" data-toggle="tooltip" title="Porcentaje, 01/12/2015, SEP">58.8 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Alumnos con Perfil Científico-Matemático</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-perfil-cientifico-matematico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2013, SEP">46 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html" data-toggle="tooltip" title="Porcentaje, 31/12/2013, SEP">35 %</a></td>
