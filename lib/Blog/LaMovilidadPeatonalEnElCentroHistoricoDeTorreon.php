@@ -1,8 +1,8 @@
 <?php
-/*
- * SMIbeta - Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO
+/**
+ * Sitio Web - La movilidad peatonal en el Centro Histórico de Torreón
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,31 +17,31 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
- * Clase IndicadoresPorMunicipioMetodologiaIMCO
+ * Clase LaMovilidadPeatonalEnElCentroHistoricoDeTorreon
  */
-class IndicadoresPorMunicipioMetodologiaIMCO extends \Base\Publicacion {
+class LaMovilidadPeatonalEnElCentroHistoricoDeTorreon extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO';
-        $this->autor           = array('Lic. Rodrigo González Morales', 'Lic. Luis A. Gutiérrez Arizpe');
-        $this->fecha           = '2014-05-28T08:05';
+        $this->nombre          = 'La movilidad peatonal en el Centro Histórico de Torreón';
+        $this->autor           = 'Arq. Susana Montano';
+        $this->fecha           = '2016-01-21T14:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'indicadores-por-municipio-metodologia-imco';
-        $this->imagen          = 'indicadores-por-municipio-metodologia-imco/imagen.jpg';
-        $this->imagen_previa   = 'indicadores-por-municipio-metodologia-imco/imagen-previa.jpg';
+        $this->archivo         = 'la-movilidad-peatonal-en-el-centro-historico-de-torreon';
+        $this->imagen          = 'la-movilidad-peatonal-en-el-centro-historico-de-torreon/imagen.jpg';
+        $this->imagen_previa   = 'la-movilidad-peatonal-en-el-centro-historico-de-torreon/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Índice de Competitividad Urbana de la Zona Metropolitana de la Laguna, Torreón, Gómez Palacio, Lerdo y Matamoros en 2012.';
-        $this->claves          = 'IMPLAN, Torreon, Competitividad, La Laguna, Gómez Palacio, Lerdo, Matamoros';
+        $this->descripcion     = 'El IMPLAN realizó un conteo peatonal en la Plaza de Armas y Mercado Juárez. El número total de caminantes de 3 días fue de 11 mil 180, razón suficiente para darle importancia al peatón.';
+        $this->claves          = 'IMPLAN, Torreon, Movilidad, Peatonal, Conteo, Centro';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -58,14 +58,14 @@ class IndicadoresPorMunicipioMetodologiaIMCO extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/Blog/IndicadoresPorMunicipioMetodologiaIMCO.html';
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Blog/LaMovilidadPeatonalEnElCentroHistoricoDeTorreon.md';
         // Para el Organizador
-        $this->categorias      = array('Competitividad', 'Empleo');
-        $this->fuentes         = array('IMCO');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->categorias      = array('Movilidad');
+        $this->fuentes         = array('IMPLAN');
+        $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase IndicadoresPorMunicipioMetodologiaIMCO
+} // Clase LaMovilidadPeatonalEnElCentroHistoricoDeTorreon
 
 ?>
