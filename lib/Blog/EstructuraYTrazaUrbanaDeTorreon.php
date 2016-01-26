@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Presenta IMPLAN un nuevo “Reglamento de Zonificación, Uso de Suelo y Construcción”
+ * Sitio Web - EstructuraYTrazaUrbanaDeTorreon
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,39 +17,37 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
-namespace SalaPrensa;
+namespace Blog;
 
 /**
- * Clase SesionOrdinaria20150820
+ * Clase EstructuraYTrazaUrbanaDeTorreon
  */
-class SesionOrdinaria20150820 extends \Base\Publicacion {
+class EstructuraYTrazaUrbanaDeTorreon extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Presenta IMPLAN un nuevo “Reglamento de Zonificación, Uso de Suelo y Construcción”';
-     // $this->autor           = 'Autor';
-        $this->fecha           = '2015-08-20T11:30';
+        $this->nombre          = 'Estructura y Traza Urbana de Torreón';
+        $this->autor           = 'Arq. Cecilio Pedro Secunza Schott';
+        $this->fecha           = '2016-01-26T12:50';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2015-08-20-sesion-ordinaria';
-        $this->imagen          = '2015-08-20-sesion-ordinaria/imagen.jpg';
-        $this->imagen_previa   = '2015-08-20-sesion-ordinaria/imagen-previa.jpg';
+        $this->archivo         = 'estructura-y-traza-urbana-de-torreon';
+        $this->imagen          = 'estructura-y-traza-urbana-de-torreon/imagen.jpg';
+        $this->imagen_previa   = 'estructura-y-traza-urbana-de-torreon/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Sesión del Consejo Directivo del IMPLAN Torreón, donde presentaron la propuesta para un nuevo ordenamiento de asentamientos humanos.';
-        $this->claves          = 'IMPLAN, Torreon, Sesion, Consejo Directivo, Reglamento, Asentamientos, Urbanos';
+        $this->descripcion     = 'La pérdida de orden en la morfología de Torreón, consecuencia de una falta de planeación urbana, trajo problemas como desconexión vial, cruceros conflictivos, alta necesidad de movilidad motorizada y condiciones viales propicias para la privatización y clausura de los fraccionamientos.';
+        $this->claves          = 'IMPLAN, Torreon, Planeacion, Urbana, Movilidad, Calles, Cuadradas, Rectangulares';
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'sala-prensa';
+        $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Sala de Prensa';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
-        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
-        $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;
@@ -60,14 +58,14 @@ class SesionOrdinaria20150820 extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/SalaPrensa/SesionOrdinaria20150820.html';
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/Blog/EstructuraYTrazaUrbanaDeTorreon.md';
         // Para el Organizador
-        $this->categorias      = array();
+        $this->categorias      = array('Infraestructura', 'Movilidad', 'Vialidad');
         $this->fuentes         = array();
         $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase SesionOrdinaria20150820
+} // Clase EstructuraYTrazaUrbanaDeTorreon
 
 ?>

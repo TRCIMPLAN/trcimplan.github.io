@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Presenta IMPLAN un nuevo “Reglamento de Zonificación, Uso de Suelo y Construcción”
+ * Sitio Web - SesionOrdinaria20160122
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,39 +17,37 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace SalaPrensa;
 
 /**
- * Clase SesionOrdinaria20150820
+ * Clase SesionOrdinaria20160122
  */
-class SesionOrdinaria20150820 extends \Base\Publicacion {
+class SesionOrdinaria20160122 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Presenta IMPLAN un nuevo “Reglamento de Zonificación, Uso de Suelo y Construcción”';
+        $this->nombre          = 'Realiza IMPLAN Sesión Ordinaria del Consejo Directivo del Instituto';
      // $this->autor           = 'Autor';
-        $this->fecha           = '2015-08-20T11:30';
+        $this->fecha           = '2016-01-22T13:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2015-08-20-sesion-ordinaria';
-        $this->imagen          = '2015-08-20-sesion-ordinaria/imagen.jpg';
-        $this->imagen_previa   = '2015-08-20-sesion-ordinaria/imagen-previa.jpg';
+        $this->archivo         = '2016-01-22-sesion-ordinaria';
+        $this->imagen          = '2016-01-22-sesion-ordinaria/imagen.jpg';
+        $this->imagen_previa   = '2016-01-22-sesion-ordinaria/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Sesión del Consejo Directivo del IMPLAN Torreón, donde presentaron la propuesta para un nuevo ordenamiento de asentamientos humanos.';
-        $this->claves          = 'IMPLAN, Torreon, Sesion, Consejo Directivo, Reglamento, Asentamientos, Urbanos';
+        $this->descripcion     = 'El Instituto Municipal de Planeación y Competitividad de Torreón llevó a cabo la Primera Sesión Ordinaria de su Consejo Directivo en 2016.';
+        $this->claves          = 'IMPLAN, Torreon, Sesion, Consejo Directivo';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'sala-prensa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Sala de Prensa';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
-        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
-        $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;
@@ -60,14 +58,14 @@ class SesionOrdinaria20150820 extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
-        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_html = 'lib/SalaPrensa/SesionOrdinaria20150820.html';
+        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20160122.md';
         // Para el Organizador
         $this->categorias      = array();
         $this->fuentes         = array();
         $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase SesionOrdinaria20150820
+} // Clase SesionOrdinaria20160122
 
 ?>

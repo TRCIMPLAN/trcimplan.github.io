@@ -22,7 +22,7 @@ C. Cecilia del Carmen Cardiel Escamilla    | Organizaciones No Gubernamentales
 C. Ignacio Chong López                     | Organizaciones No Gubernamentales
 C. Carlos Gerardo Landeros Araujo          | Instituciones de Educación Superior
 C. Miguel Ángel Cisneros Guerrero          | Instituciones de Educación Superior
-**Consejeros Propuestos por el Alacalde**  |
+**Consejeros Propuestos por el Alcalde**   |
 C. Victor Hugo Torres Romo                 | Colegio de Arquitectos
 C. Eugenio Treviño Rodríguez               | Cámara Nacional de la Industria de la Transformación
 C. Martín López Méndez                     | Instituto Tecnológico y de Estudios Superiores de Monterrey
