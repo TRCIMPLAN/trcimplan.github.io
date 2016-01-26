@@ -238,6 +238,12 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -259,36 +265,36 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-11-30</td>
-            <td>28</td>
+            <td>2015-12-31</td>
+            <td>21</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-11-30</td>
-            <td>27</td>
+            <td>2015-12-31</td>
+            <td>26</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-11-30</td>
-            <td>7</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2015-11-30</td>
+            <td>2015-12-31</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
+            <td>Matamoros</td>
+            <td>2015-12-31</td>
+            <td>2</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>La Laguna</td>
-            <td>2015-11-30</td>
-            <td>62</td>
+            <td>2015-12-31</td>
+            <td>49</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -315,7 +321,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 28 },{ region: 'Gómez Palacio', dato: 27 },{ region: 'Lerdo', dato: 7 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 62 }],
+      data: [{ region: 'Torreón', dato: 21 },{ region: 'Gómez Palacio', dato: 26 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 2 },{ region: 'La Laguna', dato: 49 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -489,6 +495,12 @@ FINAL;
           <tr>
             <td>30/11/2015</td>
             <td>7</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
