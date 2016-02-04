@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2016-01-26</lastmod>
+    <lastmod>2016-02-04</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/comercio-electronico-oportunidad-de-crecimiento.html</loc>
+    <lastmod>2016-02-04</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/estructura-y-traza-urbana-de-torreon.html</loc>
@@ -3326,12 +3331,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/../sig-planes/index.html</loc>
+    <loc>http://www.trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
+    <loc>http://www.trcimplan.gob.mx/../sig-planes/index.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>

@@ -39,6 +39,6 @@ Le agradecemos que nos ayude a difundir los contenidos del sitio, ya sea por red
 
 ### ¿Cómo puedo recibir noticias e información?
 
-Envíe un mensaje vía correo electrónico a [info@trcimplan.mx](mailto:info@trcimplan.mx) solicitando el registro al boletín informativo.
+Envíe un mensaje vía correo electrónico a [info@trcimplan.gob.mx](mailto:info@trcimplan.gob.mx) solicitando el registro al boletín informativo.
 
 También, puede enterarse de los nuevos contenidos en este sitio web por medio de un [lector de noticias RSS Feed](http://es.wikipedia.org/wiki/Agregador).
