@@ -5,11 +5,21 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 09 Feb 2016 16:13:58 -0600</pubDate>
+    <pubDate>Thu, 11 Feb 2016 14:45:16 -0600</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Polígonos de Pobreza</title>
+      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/poligonos-pobreza.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-poligonos-pobreza</guid>
+      <pubDate>Thu, 11 Feb 2016 14:00:00 -0600</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/poligonos-pobreza.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/poligonos-pobreza/imagen.jpg"><br>
+
+Localización y demarcación de los territorios que presentan una mayor situación de pobreza y de rezago, conocidos como polígonos de pobreza.</a>]]></description>
+    </item>
     <item>
       <title>El reto de la protección a los adultos mayores en La Laguna</title>
       <link>http://www.trcimplan.gob.mx/blog/el-reto-de-la-proteccion-a-los-adultos-mayores-en-la-laguna.html</link>
@@ -351,9 +361,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Alumnos con Habilidades Gramáticas-Lingüísticas Avanzadas en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas</guid>
+      <title>Alumnos con Habilidades Gramáticas-Lingüísticas Avanzadas en La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas.html</link>
+      <guid isPermaLink="false">indicadores-la-laguna-sociedad-alumnos-con-habilidades-gramaticas-linguisticas-avanzadas</guid>
       <pubDate>Wed, 20 Jan 2016 13:50:00 -0600</pubDate>
       <author>Dirección de Investigación Estratégica</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -372,7 +382,7 @@
         <tbody>
           <tr>
             <td>01/12/2015</td>
-            <td>7.40 %</td>
+            <td>5.80 %</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -384,9 +394,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Alumnos con Habilidades Gramáticas-Lingüísticas Prácticas en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas</guid>
+      <title>Alumnos con Habilidades Gramáticas-Lingüísticas Prácticas en La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas.html</link>
+      <guid isPermaLink="false">indicadores-la-laguna-sociedad-alumnos-con-habilidades-gramaticas-linguisticas-practicas</guid>
       <pubDate>Wed, 20 Jan 2016 13:46:00 -0600</pubDate>
       <author>Dirección de Investigación Estratégica</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -405,7 +415,7 @@
         <tbody>
           <tr>
             <td>01/12/2015</td>
-            <td>19.30 %</td>
+            <td>16.40 %</td>
             <td>SEP</td>
             <td></td>
           </tr>
@@ -414,39 +424,6 @@
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
 <p>Nivel III: Realizan inferencias, como interpretar el sentido de una metáfora en una fábula. Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
-]]></description>
-    </item>
-    <item>
-      <title>Alumnos con Habilidades Gramáticas-Lingüísticas Básicas en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-alumnos-con-habilidades-gramaticas-linguisticas-basicas</guid>
-      <pubDate>Wed, 20 Jan 2016 13:42:00 -0600</pubDate>
-      <author>Dirección de Investigación Estratégica</author>
-      <description><![CDATA[      <h3>Descripción</h3>
-<p>Porcentaje de Alumnos de 6to de primaria ubicados en Nivel II según resultados de la prueba PLANEA de la SEP.</p>
-
-      <h3>Información recopilada</h3>
-      <table class="table table-hover table-bordered matriz">
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Dato</th>
-            <th>Fuente</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>01/12/2015</td>
-            <td>31.20 %</td>
-            <td>SEP</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-      <p><b>Unidad:</b> Porcentaje.</p>
-      <h3>Observaciones</h3>
-<p>Nivel II: Comprenden la información contenida en textos expositivos y literarios. Lea el análisis <a href="http://www.trcimplan.gob.mx/blog/competencias-en-lenguaje-y-matematicas-en-los-estudiantes-de-la-comarca-parte-1.html">Competencias en Lenguaje y Matemáticas en los Estudiantes de la Comarca</a>. Consulta la <a href="http://planea.sep.gob.mx/ba/base_de_datos_2015/">Base de Datos</a>.</p>
 ]]></description>
     </item>
   </channel>
