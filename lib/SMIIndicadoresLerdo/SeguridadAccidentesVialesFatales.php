@@ -85,6 +85,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -106,9 +107,25 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>5</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>6</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Accidentes Viales Fatales en Lerdo</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Accidentes Viales Fatales</h3>
@@ -127,38 +144,38 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td>23</td>
+            <td>2014-12-31</td>
+            <td>17</td>
             <td>INEGI</td>
-            <td>Número de accidentes registrados durante el año 2012.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
+            <td>2014-12-31</td>
             <td>29</td>
             <td>INEGI</td>
-            <td>Número de accidentes registrados durante el año 2012.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td>11</td>
+            <td>2014-12-31</td>
+            <td>6</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
-            <td>3</td>
+            <td>2014-12-31</td>
+            <td>NO DISPONIBLE</td>
             <td>INEGI</td>
-            <td>Número de accidentes registrados durante el año 2012.</td>
+            <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td>66</td>
+            <td>2014-12-31</td>
+            <td>55</td>
             <td>INEGI</td>
-            <td></td>
+            <td>Matamoros no ha reportado cifra, por lo que se considera el dato más reciente (es 3, de 2013) para calcularlo a nivel ZML.</td>
           </tr>
         </tbody>
       </table>
@@ -177,13 +194,29 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2012-12-31', dato: 11 },{ fecha: '2013-12-31', dato: 5 },{ fecha: '2014-12-31', dato: 6 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 23 },{ region: 'Gómez Palacio', dato: 29 },{ region: 'Lerdo', dato: 11 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 66 }],
+      data: [{ region: 'Torreón', dato: 17 },{ region: 'Gómez Palacio', dato: 29 },{ region: 'Lerdo', dato: 6 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 55 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -225,6 +258,18 @@ FINAL;
           <tr>
             <td>31/12/2012</td>
             <td>11</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>5</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>6</td>
             <td>INEGI</td>
             <td></td>
           </tr>
