@@ -246,7 +246,7 @@ class SeguridadAccidentesViales extends \Base\Publicacion {
           <tr>
             <td>Lerdo</td>
             <td>2014-12-31</td>
-            <td>242</td>
+            <td>362</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -303,7 +303,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 4421 },{ region: 'Gómez Palacio', dato: 1682 },{ region: 'Lerdo', dato: 242 },{ region: 'Matamoros', dato: 164 },{ region: 'La Laguna', dato: 6509 }],
+      data: [{ region: 'Torreón', dato: 4421 },{ region: 'Gómez Palacio', dato: 1682 },{ region: 'Lerdo', dato: 362 },{ region: 'Matamoros', dato: 164 },{ region: 'La Laguna', dato: 6509 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

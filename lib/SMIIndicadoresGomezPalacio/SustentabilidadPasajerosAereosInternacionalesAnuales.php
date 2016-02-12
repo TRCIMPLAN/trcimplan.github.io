@@ -144,8 +144,8 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>54,154</td>
+            <td>2015-12-31</td>
+            <td>54,307</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -172,17 +172,17 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-12-31</td>
-            <td>54,154</td>
+            <td>2015-12-31</td>
+            <td>54,307</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2014-12-31</td>
-            <td>14,694,935</td>
+            <td>2015-12-31</td>
+            <td>14,551,000</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td>Operaciones realizadas por los aeropuertos administrados por Operadora Mexicana de Aeropuertos (OMA): Acapulco, Ciudad Juárez. Culiacán, Chihuahua, Durango, Mazatlán, Monterrey, Reynosa, San Luis Potosí, Tampico, Zacatecas y Zihuatanejo.</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -207,7 +207,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 54154 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 54154 },{ region: 'Nacional', dato: 14694935 }],
+      data: [{ region: 'Torreón', dato: 54307 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 54307 },{ region: 'Nacional', dato: 14551000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

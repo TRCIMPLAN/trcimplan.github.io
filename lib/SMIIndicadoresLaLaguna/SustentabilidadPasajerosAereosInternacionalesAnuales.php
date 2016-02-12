@@ -161,6 +161,12 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>54,307</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Personas.</p>
@@ -203,8 +209,8 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>54,154</td>
+            <td>2015-12-31</td>
+            <td>54,307</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -231,17 +237,17 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-12-31</td>
-            <td>54,154</td>
+            <td>2015-12-31</td>
+            <td>54,307</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2014-12-31</td>
-            <td>14,694,935</td>
+            <td>2015-12-31</td>
+            <td>14,551,000</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td>Operaciones realizadas por los aeropuertos administrados por Operadora Mexicana de Aeropuertos (OMA): Acapulco, Ciudad Juárez. Culiacán, Chihuahua, Durango, Mazatlán, Monterrey, Reynosa, San Luis Potosí, Tampico, Zacatecas y Zihuatanejo.</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -266,7 +272,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 },{ fecha: '2014-12-31', dato: 54154 }],
+      data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 },{ fecha: '2014-12-31', dato: 54154 },{ fecha: '2015-12-31', dato: 54307 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -282,7 +288,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 54154 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 54154 },{ region: 'Nacional', dato: 14694935 }],
+      data: [{ region: 'Torreón', dato: 54307 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 54307 },{ region: 'Nacional', dato: 14551000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -378,6 +384,12 @@ FINAL;
           <tr>
             <td>31/12/2014</td>
             <td>54,154</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>54,307</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>

@@ -106,11 +106,18 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
             <td>IMPLAN</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>NO DISPONIBLE</td>
+            <td>IMPLAN</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Censo de Población y Vivienda 2010. Consulta las <a href="http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx">Bases de Datos</a></p>
+<p>Censo de Población y Vivienda 2010. Consulta las <a href="http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx">Bases de Datos</a>
+Encuesta Intercensal 2015. Consulta la <a href="http://www.inegi.org.mx/est/contenidos/proyectos/encuestas/hogares/especiales/ei2015/default.aspx">Base de Datos</a></p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
@@ -130,36 +137,36 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td>93.00 %</td>
+            <td>2014-12-31</td>
+            <td>94.00 %</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td>88.00 %</td>
+            <td>2014-12-31</td>
+            <td>91.00 %</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td>72.00 %</td>
+            <td>2014-12-31</td>
+            <td>74.00 %</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2010-12-31</td>
-            <td>73.00 %</td>
+            <td>2014-12-31</td>
+            <td>74.00 %</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2010-12-31</td>
-            <td>88.00 %</td>
+            <td>2014-12-31</td>
+            <td>NO DISPONIBLE</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
@@ -186,7 +193,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 93.0000 },{ region: 'Gómez Palacio', dato: 88.0000 },{ region: 'Lerdo', dato: 72.0000 },{ region: 'Matamoros', dato: 73.0000 },{ region: 'La Laguna', dato: 88.0000 }],
+      data: [{ region: 'Torreón', dato: 94.0000 },{ region: 'Gómez Palacio', dato: 91.0000 },{ region: 'Lerdo', dato: 74.0000 },{ region: 'Matamoros', dato: 74.0000 },{ region: 'La Laguna', dato: 0 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -231,11 +238,18 @@ FINAL;
             <td>IMPLAN</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>NO DISPONIBLE</td>
+            <td>IMPLAN</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Censo de Población y Vivienda 2010. Consulta las <a href="http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx">Bases de Datos</a></p>
+<p>Censo de Población y Vivienda 2010. Consulta las <a href="http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx">Bases de Datos</a>
+Encuesta Intercensal 2015. Consulta la <a href="http://www.inegi.org.mx/est/contenidos/proyectos/encuestas/hogares/especiales/ei2015/default.aspx">Base de Datos</a></p>
 
 FINAL;
         // Ejecutar este método en el padre

@@ -41,7 +41,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Cantidad de accidentes viales fatales por año.';
-        $this->claves            = 'IMPLAN, Torreón, Vialidad';
+        $this->claves            = 'IMPLAN, Torreón, Vialidad, Movilidad, Seguridad';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,7 +70,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
         // Para el Organizador
-        $this->categorias        = array('Vialidad');
+        $this->categorias        = array('Vialidad', 'Movilidad', 'Seguridad');
         $this->fuentes           = array('INEGI');
         $this->regiones          = 'Torreón';
     } // constructor

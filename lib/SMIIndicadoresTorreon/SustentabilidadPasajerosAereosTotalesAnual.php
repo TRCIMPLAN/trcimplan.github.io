@@ -155,6 +155,12 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>556,449</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Personas.</p>
@@ -183,29 +189,8 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>523,783</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
-            <td>NO TIENE</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2013-12-31</td>
-            <td>NO TIENE</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2013-12-31</td>
-            <td>NO TIENE</td>
+            <td>2015-12-31</td>
+            <td>556,449</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -239,7 +224,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2006-12-31', dato: 410100 },{ fecha: '2007-12-31', dato: 522300 },{ fecha: '2008-12-31', dato: 481265 },{ fecha: '2009-12-31', dato: 394377 },{ fecha: '2010-12-31', dato: 338003 },{ fecha: '2011-12-31', dato: 375669 },{ fecha: '2012-12-31', dato: 415244 },{ fecha: '2013-12-31', dato: 508133 },{ fecha: '2014-12-31', dato: 523783 }],
+      data: [{ fecha: '2006-12-31', dato: 410100 },{ fecha: '2007-12-31', dato: 522300 },{ fecha: '2008-12-31', dato: 481265 },{ fecha: '2009-12-31', dato: 394377 },{ fecha: '2010-12-31', dato: 338003 },{ fecha: '2011-12-31', dato: 375669 },{ fecha: '2012-12-31', dato: 415244 },{ fecha: '2013-12-31', dato: 508133 },{ fecha: '2014-12-31', dato: 523783 },{ fecha: '2015-12-31', dato: 556449 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -255,7 +240,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 523783 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 523783 }],
+      data: [{ region: 'Torreón', dato: 556449 },{ region: 'La Laguna', dato: 523783 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -345,6 +330,12 @@ FINAL;
           <tr>
             <td>31/12/2014</td>
             <td>523,783</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>556,449</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>

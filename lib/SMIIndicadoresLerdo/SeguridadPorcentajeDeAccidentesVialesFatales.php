@@ -41,7 +41,7 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Porcentaje de accidentes fatales entre accidentes viales totales';
-        $this->claves            = 'IMPLAN, Lerdo, Vialidad';
+        $this->claves            = 'IMPLAN, Lerdo, Vialidad, Movilidad, Seguridad, Salud';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,7 +70,7 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \Base\Publicacion {
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
         // Para el Organizador
-        $this->categorias        = array('Vialidad');
+        $this->categorias        = array('Vialidad', 'Movilidad', 'Seguridad', 'Salud');
         $this->fuentes           = array('INEGI');
         $this->regiones          = 'Lerdo';
     } // constructor
@@ -85,6 +85,7 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -102,13 +103,29 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2012</td>
-            <td>3.04 %</td>
+            <td>3.03 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>2.06 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>1.65 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Porcentaje de Accidentes Viales Fatales en Lerdo</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Porcentaje de Accidentes Viales Fatales</h3>
@@ -127,36 +144,36 @@ class SeguridadPorcentajeDeAccidentesVialesFatales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td>1.17 %</td>
+            <td>2014-12-31</td>
+            <td>0.38 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
-            <td>1.94 %</td>
+            <td>2014-12-31</td>
+            <td>1.72 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td>3.04 %</td>
+            <td>2014-12-31</td>
+            <td>1.65 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
-            <td>1.04 %</td>
+            <td>2014-12-31</td>
+            <td>1.82 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2012-12-31</td>
-            <td>1.61 %</td>
+            <td>2014-12-31</td>
+            <td>0.82 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -177,13 +194,29 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2012-12-31', dato: 3.0300 },{ fecha: '2013-12-31', dato: 2.0600 },{ fecha: '2014-12-31', dato: 1.6500 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 1.1700 },{ region: 'Gómez Palacio', dato: 1.9400 },{ region: 'Lerdo', dato: 3.0400 },{ region: 'Matamoros', dato: 1.0400 },{ region: 'La Laguna', dato: 1.6100 }],
+      data: [{ region: 'Torreón', dato: 0.3800 },{ region: 'Gómez Palacio', dato: 1.7200 },{ region: 'Lerdo', dato: 1.6500 },{ region: 'Matamoros', dato: 1.8200 },{ region: 'La Laguna', dato: 0.8200 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -224,7 +257,19 @@ FINAL;
         <tbody>
           <tr>
             <td>31/12/2012</td>
-            <td>3.04 %</td>
+            <td>3.03 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>2.06 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>1.65 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>

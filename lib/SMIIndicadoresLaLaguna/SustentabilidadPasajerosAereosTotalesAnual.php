@@ -141,29 +141,8 @@ class SustentabilidadPasajerosAereosTotalesAnual extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-12-31</td>
-            <td>523,783</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Gómez Palacio</td>
-            <td>2013-12-31</td>
-            <td>NO TIENE</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Lerdo</td>
-            <td>2013-12-31</td>
-            <td>NO TIENE</td>
-            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Matamoros</td>
-            <td>2013-12-31</td>
-            <td>NO TIENE</td>
+            <td>2015-12-31</td>
+            <td>556,449</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -213,7 +192,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 523783 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 523783 }],
+      data: [{ region: 'Torreón', dato: 556449 },{ region: 'La Laguna', dato: 523783 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
