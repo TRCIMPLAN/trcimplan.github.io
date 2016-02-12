@@ -8,7 +8,7 @@ Como instrumento de gobernanza, se encarga de crear acuerdos, vínculos, consens
 Persona                                  | Puesto
 -----------------------------------------|-------------------------------
 **Lic. Eduardo Holguín Zehfuss**         | **Director General Ejecutivo**
-Lic. Miriam Anahi Castillo Díaz          | Secretario Técnico
+Lic. Alejandra Villarreal Meza           | Secretario Técnico
 Ing. Natalia Zavala López                | Asistente Presidencia
 Lic. Felipe de Jesús Medina Delgado      | Asistente de Direcciones
 Lic. Julia de la Parra de Juambelz       | Coordinador Jurídico
