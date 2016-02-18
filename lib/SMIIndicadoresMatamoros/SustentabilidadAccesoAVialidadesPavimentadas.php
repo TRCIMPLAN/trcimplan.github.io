@@ -41,7 +41,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.';
-        $this->claves            = 'IMPLAN, Matamoros, Movilidad, Vialidad';
+        $this->claves            = 'IMPLAN, Matamoros, Movilidad, Vialidad, Infraestructura';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,7 +70,7 @@ class SustentabilidadAccesoAVialidadesPavimentadas extends \Base\Publicacion {
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
         // Para el Organizador
-        $this->categorias        = array('Movilidad', 'Vialidad');
+        $this->categorias        = array('Movilidad', 'Vialidad', 'Infraestructura');
         $this->fuentes           = array('IMPLAN');
         $this->regiones          = 'Matamoros';
     } // constructor

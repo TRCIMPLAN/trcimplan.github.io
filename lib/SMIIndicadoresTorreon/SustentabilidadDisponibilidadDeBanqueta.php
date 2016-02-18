@@ -41,7 +41,7 @@ class SustentabilidadDisponibilidadDeBanqueta extends \Base\Publicacion {
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Porcentaje de manzanas que cuentan con banquetas en todas o en alguna de sus vialidades.';
-        $this->claves            = 'IMPLAN, Torreón, Movilidad, Vialidad';
+        $this->claves            = 'IMPLAN, Torreón, Movilidad, Vialidad, Infraestructura';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,7 +70,7 @@ class SustentabilidadDisponibilidadDeBanqueta extends \Base\Publicacion {
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
         // Para el Organizador
-        $this->categorias        = array('Movilidad', 'Vialidad');
+        $this->categorias        = array('Movilidad', 'Vialidad', 'Infraestructura');
         $this->fuentes           = array('INEGI');
         $this->regiones          = 'Torreón';
     } // constructor
