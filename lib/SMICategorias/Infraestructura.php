@@ -39,6 +39,7 @@ class Infraestructura extends \Base\Publicacion {
         $this->archivo          = 'infraestructura';
         $this->imagen           = '../imagenes/categorias/infraestructura.jpg';
         $this->imagen_previa    = '../imagenes/categorias/infraestructura.jpg';
+        $this->imagen_id        = 'categorias-infraestructura';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Infraestructura';

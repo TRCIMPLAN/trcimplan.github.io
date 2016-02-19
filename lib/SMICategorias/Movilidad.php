@@ -39,6 +39,7 @@ class Movilidad extends \Base\Publicacion {
         $this->archivo          = 'movilidad';
         $this->imagen           = '../imagenes/categorias/movilidad.jpg';
         $this->imagen_previa    = '../imagenes/categorias/movilidad.jpg';
+        $this->imagen_id        = 'categorias-movilidad';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Movilidad';

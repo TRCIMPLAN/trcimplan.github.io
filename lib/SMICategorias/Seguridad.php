@@ -39,6 +39,7 @@ class Seguridad extends \Base\Publicacion {
         $this->archivo          = 'seguridad';
         $this->imagen           = '../imagenes/categorias/seguridad.jpg';
         $this->imagen_previa    = '../imagenes/categorias/seguridad.jpg';
+        $this->imagen_id        = 'categorias-seguridad';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Seguridad';

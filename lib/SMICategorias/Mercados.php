@@ -39,6 +39,7 @@ class Mercados extends \Base\Publicacion {
         $this->archivo          = 'mercados';
         $this->imagen           = '../imagenes/categorias/mercados.jpg';
         $this->imagen_previa    = '../imagenes/categorias/mercados.jpg';
+        $this->imagen_id        = 'categorias-mercados';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Mercados';

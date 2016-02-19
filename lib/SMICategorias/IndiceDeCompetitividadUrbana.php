@@ -39,6 +39,7 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
         $this->archivo          = 'indice-de-competitividad-urbana';
         $this->imagen           = '../imagenes/categorias/indice-de-competitividad-urbana.jpg';
         $this->imagen_previa    = '../imagenes/categorias/indice-de-competitividad-urbana.jpg';
+        $this->imagen_id        = 'categorias-indice-de-competitividad-urbana';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Índice de Competitividad Urbana';

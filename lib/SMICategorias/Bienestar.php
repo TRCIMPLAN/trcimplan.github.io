@@ -39,6 +39,7 @@ class Bienestar extends \Base\Publicacion {
         $this->archivo          = 'bienestar';
         $this->imagen           = '../imagenes/categorias/bienestar.jpg';
         $this->imagen_previa    = '../imagenes/categorias/bienestar.jpg';
+        $this->imagen_id        = 'categorias-bienestar';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Bienestar';

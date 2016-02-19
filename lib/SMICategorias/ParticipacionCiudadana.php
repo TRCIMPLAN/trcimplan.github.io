@@ -39,6 +39,7 @@ class ParticipacionCiudadana extends \Base\Publicacion {
         $this->archivo          = 'participacion-ciudadana';
         $this->imagen           = '../imagenes/categorias/participacion-ciudadana.jpg';
         $this->imagen_previa    = '../imagenes/categorias/participacion-ciudadana.jpg';
+        $this->imagen_id        = 'categorias-participacion-ciudadana';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Participación Ciudadana';

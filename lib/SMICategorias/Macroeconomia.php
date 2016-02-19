@@ -39,6 +39,7 @@ class Macroeconomia extends \Base\Publicacion {
         $this->archivo          = 'macroeconomia';
         $this->imagen           = '../imagenes/categorias/macroeconomia.jpg';
         $this->imagen_previa    = '../imagenes/categorias/macroeconomia.jpg';
+        $this->imagen_id        = 'categorias-macroeconomia';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Macroeconomía';

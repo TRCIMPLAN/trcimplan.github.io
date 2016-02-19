@@ -39,6 +39,7 @@ class Transparencia extends \Base\Publicacion {
         $this->archivo          = 'transparencia';
         $this->imagen           = '../imagenes/categorias/transparencia.jpg';
         $this->imagen_previa    = '../imagenes/categorias/transparencia.jpg';
+        $this->imagen_id        = 'categorias-transparencia';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Transparencia';

@@ -39,6 +39,7 @@ class ObjetivosDelMilenio extends \Base\Publicacion {
         $this->archivo          = 'objetivos-del-milenio';
         $this->imagen           = '../imagenes/categorias/objetivos-del-milenio.jpg';
         $this->imagen_previa    = '../imagenes/categorias/objetivos-del-milenio.jpg';
+        $this->imagen_id        = 'categorias-objetivos-del-milenio';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Objetivos del Milenio';

@@ -39,6 +39,7 @@ class Empresas extends \Base\Publicacion {
         $this->archivo          = 'empresas';
         $this->imagen           = '../imagenes/categorias/empresas.jpg';
         $this->imagen_previa    = '../imagenes/categorias/empresas.jpg';
+        $this->imagen_id        = 'categorias-empresas';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Empresas';

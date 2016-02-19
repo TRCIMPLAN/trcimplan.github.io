@@ -39,6 +39,7 @@ class Salud extends \Base\Publicacion {
         $this->archivo          = 'salud';
         $this->imagen           = '../imagenes/categorias/salud.jpg';
         $this->imagen_previa    = '../imagenes/categorias/salud.jpg';
+        $this->imagen_id        = 'categorias-salud';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Salud';

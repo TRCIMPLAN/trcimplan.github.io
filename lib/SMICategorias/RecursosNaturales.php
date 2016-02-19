@@ -39,6 +39,7 @@ class RecursosNaturales extends \Base\Publicacion {
         $this->archivo          = 'recursos-naturales';
         $this->imagen           = '../imagenes/categorias/recursos-naturales.jpg';
         $this->imagen_previa    = '../imagenes/categorias/recursos-naturales.jpg';
+        $this->imagen_id        = 'categorias-recursos-naturales';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Recursos Naturales';

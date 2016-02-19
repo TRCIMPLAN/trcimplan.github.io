@@ -39,6 +39,7 @@ class ServiciosPublicos extends \Base\Publicacion {
         $this->archivo          = 'servicios-publicos';
         $this->imagen           = '../imagenes/categorias/servicios-publicos.jpg';
         $this->imagen_previa    = '../imagenes/categorias/servicios-publicos.jpg';
+        $this->imagen_id        = 'categorias-servicios-publicos';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Servicios Públicos';

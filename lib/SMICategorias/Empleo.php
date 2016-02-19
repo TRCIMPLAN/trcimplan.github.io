@@ -39,6 +39,7 @@ class Empleo extends \Base\Publicacion {
         $this->archivo          = 'empleo';
         $this->imagen           = '../imagenes/categorias/empleo.jpg';
         $this->imagen_previa    = '../imagenes/categorias/empleo.jpg';
+        $this->imagen_id        = 'categorias-empleo';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Empleo';

@@ -39,6 +39,7 @@ class SistemaDeIndicadoresDeDesempenoSindes extends \Base\Publicacion {
         $this->archivo          = 'sistema-de-indicadores-de-desempeno-sindes';
         $this->imagen           = '../imagenes/categorias/sistema-de-indicadores-de-desempeno-sindes.jpg';
         $this->imagen_previa    = '../imagenes/categorias/sistema-de-indicadores-de-desempeno-sindes.jpg';
+        $this->imagen_id        = 'categorias-sistema-de-indicadores-de-desempeno-sindes';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Sistema de Indicadores de Desempeño (SINDES)';

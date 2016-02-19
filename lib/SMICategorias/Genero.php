@@ -39,6 +39,7 @@ class Genero extends \Base\Publicacion {
         $this->archivo          = 'genero';
         $this->imagen           = '../imagenes/categorias/genero.jpg';
         $this->imagen_previa    = '../imagenes/categorias/genero.jpg';
+        $this->imagen_id        = 'categorias-genero';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Género';

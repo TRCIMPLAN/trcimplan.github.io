@@ -39,6 +39,7 @@ class FinanzasPublicas extends \Base\Publicacion {
         $this->archivo          = 'finanzas-publicas';
         $this->imagen           = '../imagenes/categorias/finanzas-publicas.jpg';
         $this->imagen_previa    = '../imagenes/categorias/finanzas-publicas.jpg';
+        $this->imagen_id        = 'categorias-finanzas-publicas';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Finanzas Públicas';

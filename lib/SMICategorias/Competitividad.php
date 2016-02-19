@@ -39,6 +39,7 @@ class Competitividad extends \Base\Publicacion {
         $this->archivo          = 'competitividad';
         $this->imagen           = '../imagenes/categorias/competitividad.jpg';
         $this->imagen_previa    = '../imagenes/categorias/competitividad.jpg';
+        $this->imagen_id        = 'categorias-competitividad';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Competitividad';

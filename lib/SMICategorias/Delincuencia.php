@@ -39,6 +39,7 @@ class Delincuencia extends \Base\Publicacion {
         $this->archivo          = 'delincuencia';
         $this->imagen           = '../imagenes/categorias/delincuencia.jpg';
         $this->imagen_previa    = '../imagenes/categorias/delincuencia.jpg';
+        $this->imagen_id        = 'categorias-delincuencia';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Delincuencia';

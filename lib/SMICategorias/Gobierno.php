@@ -39,6 +39,7 @@ class Gobierno extends \Base\Publicacion {
         $this->archivo          = 'gobierno';
         $this->imagen           = '../imagenes/categorias/gobierno.jpg';
         $this->imagen_previa    = '../imagenes/categorias/gobierno.jpg';
+        $this->imagen_id        = 'categorias-gobierno';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
         $this->descripcion      = 'Sistema Metropolitano de Indicadores - Categoría ';
         $this->claves           = 'IMPLAN, Indicadores, Categoría, Gobierno';
