@@ -85,6 +85,7 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -106,12 +107,22 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>281,912</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Personas.</p>
       <h3>Observaciones</h3>
 <p>Fuente: INEGI</p>
 
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Población Derechohabiente en Gómez Palacio</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Población Derechohabiente</h3>
@@ -130,36 +141,36 @@ class SociedadPoblacionDerechohabiente extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td>453,423</td>
+            <td>2015-12-31</td>
+            <td>532,237</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td>241,537</td>
+            <td>2015-12-31</td>
+            <td>281,912</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td>98,265</td>
+            <td>2015-12-31</td>
+            <td>128,895</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2010-12-31</td>
-            <td>77,538</td>
+            <td>2015-12-31</td>
+            <td>87,362</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2010-12-31</td>
-            <td>870,763</td>
+            <td>2015-12-31</td>
+            <td>1,030,406</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -180,13 +191,29 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2010-12-31', dato: 241537 },{ fecha: '2015-12-31', dato: 281912 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 453423 },{ region: 'Gómez Palacio', dato: 241537 },{ region: 'Lerdo', dato: 98265 },{ region: 'Matamoros', dato: 77538 },{ region: 'La Laguna', dato: 870763 }],
+      data: [{ region: 'Torreón', dato: 532237 },{ region: 'Gómez Palacio', dato: 281912 },{ region: 'Lerdo', dato: 128895 },{ region: 'Matamoros', dato: 87362 },{ region: 'La Laguna', dato: 1030406 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -228,6 +255,12 @@ FINAL;
           <tr>
             <td>31/12/2010</td>
             <td>241,537</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>281,912</td>
             <td>INEGI</td>
             <td></td>
           </tr>

@@ -141,7 +141,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>.</p>
+<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>. Los datos de 2015 son de la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
 
 <p>Enlace al <a href="http://201.159.104.45:8080/apps/implan2.html">Sistema de Información Geográfica</a>.</p>
 
@@ -167,30 +167,30 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td>43.64 %</td>
-            <td>IMCO</td>
+            <td>2015-12-31</td>
+            <td>39.81 %</td>
+            <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
-            <td>30.82 %</td>
-            <td>IMCO</td>
+            <td>2015-12-31</td>
+            <td>30.54 %</td>
+            <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td>28.51 %</td>
-            <td>IMCO</td>
+            <td>2015-12-31</td>
+            <td>28.48 %</td>
+            <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
-            <td>21.82 %</td>
-            <td>IMCO</td>
+            <td>2015-12-31</td>
+            <td>20.85 %</td>
+            <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
@@ -239,7 +239,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 43.6400 },{ region: 'Gómez Palacio', dato: 30.8200 },{ region: 'Lerdo', dato: 28.5100 },{ region: 'Matamoros', dato: 21.8200 },{ region: 'La Laguna', dato: 36.8400 }],
+      data: [{ region: 'Torreón', dato: 39.8100 },{ region: 'Gómez Palacio', dato: 30.5400 },{ region: 'Lerdo', dato: 28.4800 },{ region: 'Matamoros', dato: 20.8500 },{ region: 'La Laguna', dato: 36.8400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -318,7 +318,7 @@ FINAL;
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>.</p>
+<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>. Los datos de 2015 son de la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
 
 <p>Enlace al <a href="http://201.159.104.45:8080/apps/implan2.html">Sistema de Información Geográfica</a>.</p>
 

@@ -71,7 +71,7 @@ class SociedadFecundidad extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Género', 'Población');
-        $this->fuentes           = array('INEGI. Censos de Población y Vivienda');
+        $this->fuentes           = array('INEGI', 'INEGI. Censos de Población y Vivienda');
         $this->regiones          = 'Torreón';
     } // constructor
 
@@ -85,7 +85,8 @@ class SociedadFecundidad extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
+    <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
     <div class="tab-pane" id="smi-indicador-datos">
@@ -130,13 +131,68 @@ class SociedadFecundidad extends \Base\Publicacion {
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>2.5000</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>El dato de 2015 corresponde a la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
+
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Fecundidad en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Fecundidad en Torreón con fuente INEGI. Censos de Población y Vivienda</h3>
+      <div id="graficaDatosInegiCensosDePoblacionYVivienda" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-otras_regiones">
+      <h3>Gráfica con los últimos datos de Fecundidad</h3>
+      <div id="graficaOtrasRegiones" class="grafica"></div>
+      <h3>Últimos datos de Fecundidad</h3>
+      <table class="table table-hover table-bordered matriz">
+        <thead>
+          <tr>
+            <th>Región</th>
+            <th>Fecha</th>
+            <th>Dato</th>
+            <th>Fuente</th>
+            <th>Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Torreón</td>
+            <td>2015-12-31</td>
+            <td>2.5000</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gómez Palacio</td>
+            <td>2015-12-31</td>
+            <td>2.3400</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lerdo</td>
+            <td>2015-12-31</td>
+            <td>2.2300</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Matamoros</td>
+            <td>2015-12-31</td>
+            <td>2.6000</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 FINAL;
@@ -152,12 +208,12 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
+  if (typeof vargraficaDatosInegiCensosDePoblacionYVivienda === 'undefined') {
+    vargraficaDatosInegiCensosDePoblacionYVivienda = Morris.Line({
+      element: 'graficaDatosInegiCensosDePoblacionYVivienda',
       data: [{ fecha: '2008-12-31', dato: 2.2000 },{ fecha: '2009-12-31', dato: 2.1700 },{ fecha: '2010-12-31', dato: 2.1400 },{ fecha: '2011-12-31', dato: 2.1400 },{ fecha: '2012-12-31', dato: 2.1300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -165,6 +221,20 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
       lineColors: ['#FF5B02'],
       xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA smi-indicador-otras_regiones
+$('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaOtrasRegiones === 'undefined') {
+    vargraficaOtrasRegiones = Morris.Bar({
+      element: 'graficaOtrasRegiones',
+      data: [{ region: 'Torreón', dato: 2.5000 },{ region: 'Gómez Palacio', dato: 2.3400 },{ region: 'Lerdo', dato: 2.2300 },{ region: 'Matamoros', dato: 2.6000 }],
+      xkey: 'region',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      barColors: ['#FF5B02']
     });
   }
 });
@@ -229,9 +299,18 @@ FINAL;
             <td>INEGI. Censos de Población y Vivienda</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>2.5000</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>El dato de 2015 corresponde a la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
+
 FINAL;
         // Ejecutar este método en el padre
         return parent::redifusion_html();

@@ -40,7 +40,7 @@ class GobiernoIndiceDeGobiernoElectronicoMunicipal extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.';
+        $this->descripcion       = 'Índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.';
         $this->claves            = 'IMPLAN, Gómez Palacio, Gobierno Digital';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-gomez-palacio';
@@ -104,11 +104,14 @@ class GobiernoIndiceDeGobiernoElectronicoMunicipal extends \Base\Publicacion {
             <td>31/12/2011</td>
             <td>0.4763</td>
             <td>CIDE</td>
-            <td>Consulta la base de datos del Índice de [Gobierno Electrónico Municipal](http://biiacs-dspace.cide.edu/handle/10089/16427)</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> De 0 a 1.</p>
+      <h3>Observaciones</h3>
+<p>Consulta la base de datos del Índice de <a href="http://biiacs-dspace.cide.edu/handle/10089/16427">Gobierno Electrónico Municipal</a></p>
+
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Índice de Gobierno Electrónico Municipal</h3>
@@ -130,35 +133,35 @@ class GobiernoIndiceDeGobiernoElectronicoMunicipal extends \Base\Publicacion {
             <td>2011-12-31</td>
             <td>0.6916</td>
             <td>CIDE</td>
-            <td>Consulta la base de datos del Índice de [Gobierno Electrónico Municipal](http://biiacs-dspace.cide.edu/handle/10089/16427)</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2011-12-31</td>
             <td>0.4763</td>
             <td>CIDE</td>
-            <td>Consulta la base de datos del Índice de [Gobierno Electrónico Municipal](http://biiacs-dspace.cide.edu/handle/10089/16427)</td>
+            <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2011-12-31</td>
             <td>0.4714</td>
             <td>CIDE</td>
-            <td>Consulta la base de datos del Índice de [Gobierno Electrónico Municipal](http://biiacs-dspace.cide.edu/handle/10089/16427)</td>
+            <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2011-12-31</td>
             <td>0.5366</td>
             <td>CIDE</td>
-            <td>Consulta la base de datos del Índice de [Gobierno Electrónico Municipal](http://biiacs-dspace.cide.edu/handle/10089/16427)</td>
+            <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2011-12-31</td>
             <td>0.5440</td>
             <td>CIDE</td>
-            <td>Consulta la base de datos del Índice de [Gobierno Electrónico Municipal](http://biiacs-dspace.cide.edu/handle/10089/16427)</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -209,7 +212,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
-<p>índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</p>
+<p>Índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -226,11 +229,14 @@ FINAL;
             <td>31/12/2011</td>
             <td>0.4763</td>
             <td>CIDE</td>
-            <td>Consulta la base de datos del Índice de [Gobierno Electrónico Municipal](http://biiacs-dspace.cide.edu/handle/10089/16427)</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> De 0 a 1.</p>
+      <h3>Observaciones</h3>
+<p>Consulta la base de datos del Índice de <a href="http://biiacs-dspace.cide.edu/handle/10089/16427">Gobierno Electrónico Municipal</a></p>
+
 FINAL;
         // Ejecutar este método en el padre
         return parent::redifusion_html();

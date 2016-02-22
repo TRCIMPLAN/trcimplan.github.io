@@ -71,7 +71,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Índice de Competitividad Urbana', 'Vivienda');
-        $this->fuentes           = array('IMCO', 'INEGI');
+        $this->fuentes           = array('INEGI', 'IMCO');
         $this->regiones          = 'Matamoros';
     } // constructor
 
@@ -86,6 +86,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
+    <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -137,11 +138,17 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
             <td>IMCO</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>20.85 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>.</p>
+<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>. Los datos de 2015 son de la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
 
 <p>Enlace al <a href="http://201.159.104.45:8080/apps/implan2.html">Sistema de Información Geográfica</a>.</p>
 
@@ -149,6 +156,10 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
     <div class="tab-pane" id="smi-indicador-grafica-1">
       <h3>Gráfica de Viviendas con Computadora en Matamoros con fuente IMCO</h3>
       <div id="graficaDatosImco" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica-2">
+      <h3>Gráfica de Viviendas con Computadora en Matamoros con fuente INEGI</h3>
+      <div id="graficaDatosInegi" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Viviendas con Computadora</h3>
@@ -167,30 +178,30 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td>43.64 %</td>
-            <td>IMCO</td>
+            <td>2015-12-31</td>
+            <td>39.81 %</td>
+            <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2012-12-31</td>
-            <td>30.82 %</td>
-            <td>IMCO</td>
+            <td>2015-12-31</td>
+            <td>30.54 %</td>
+            <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2012-12-31</td>
-            <td>28.51 %</td>
-            <td>IMCO</td>
+            <td>2015-12-31</td>
+            <td>28.48 %</td>
+            <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2012-12-31</td>
-            <td>21.82 %</td>
-            <td>IMCO</td>
+            <td>2015-12-31</td>
+            <td>20.85 %</td>
+            <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
@@ -233,13 +244,29 @@ $('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', functi
     });
   }
 });
+// LENGUETA smi-indicador-grafica-2
+$('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatosInegi === 'undefined') {
+    vargraficaDatosInegi = Morris.Line({
+      element: 'graficaDatosInegi',
+      data: [{ fecha: '2010-12-31', dato: 18.7300 },{ fecha: '2015-12-31', dato: 20.8500 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 43.6400 },{ region: 'Gómez Palacio', dato: 30.8200 },{ region: 'Lerdo', dato: 28.5100 },{ region: 'Matamoros', dato: 21.8200 },{ region: 'La Laguna', dato: 36.8400 }],
+      data: [{ region: 'Torreón', dato: 39.8100 },{ region: 'Gómez Palacio', dato: 30.5400 },{ region: 'Lerdo', dato: 28.4800 },{ region: 'Matamoros', dato: 20.8500 },{ region: 'La Laguna', dato: 36.8400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -314,11 +341,17 @@ FINAL;
             <td>IMCO</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>20.85 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>.</p>
+<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>. Los datos de 2015 son de la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
 
 <p>Enlace al <a href="http://201.159.104.45:8080/apps/implan2.html">Sistema de Información Geográfica</a>.</p>
 

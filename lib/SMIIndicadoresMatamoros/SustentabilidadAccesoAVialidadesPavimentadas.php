@@ -171,7 +171,7 @@ Encuesta Intercensal 2015. Consulta la <a href="http://www.inegi.org.mx/est/cont
           <tr>
             <td>La Laguna</td>
             <td>2014-12-31</td>
-            <td>NO DISPONIBLE</td>
+            <td>89.00 %</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
@@ -214,7 +214,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 94.0000 },{ region: 'Gómez Palacio', dato: 91.0000 },{ region: 'Lerdo', dato: 74.0000 },{ region: 'Matamoros', dato: 74.0000 },{ region: 'La Laguna', dato: 0 }],
+      data: [{ region: 'Torreón', dato: 94.0000 },{ region: 'Gómez Palacio', dato: 91.0000 },{ region: 'Lerdo', dato: 74.0000 },{ region: 'Matamoros', dato: 74.0000 },{ region: 'La Laguna', dato: 89.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

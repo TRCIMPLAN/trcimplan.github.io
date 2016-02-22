@@ -85,6 +85,7 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -106,9 +107,22 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>350,542</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Los datos de 2010 corresponden al Censo 2010 de INEGI. Los datos de 2015 corresponden a la Encuesta Intercensal de INEGI y son estimaciones.</p>
+
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Viviendas Habitadas en La Laguna</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Viviendas Habitadas</h3>
@@ -127,36 +141,36 @@ class SociedadViviendasHabitadas extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td>172,719</td>
+            <td>2015-12-31</td>
+            <td>191,890</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td>83,973</td>
+            <td>2015-12-31</td>
+            <td>91,600</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td>35,009</td>
+            <td>2015-12-31</td>
+            <td>39,837</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2010-12-31</td>
-            <td>26,131</td>
+            <td>2015-12-31</td>
+            <td>27,215</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2010-12-31</td>
-            <td>317,832</td>
+            <td>2015-12-31</td>
+            <td>350,542</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -177,13 +191,29 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2010-12-31', dato: 317832 },{ fecha: '2015-12-31', dato: 350542 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 172719 },{ region: 'Gómez Palacio', dato: 83973 },{ region: 'Lerdo', dato: 35009 },{ region: 'Matamoros', dato: 26131 },{ region: 'La Laguna', dato: 317832 }],
+      data: [{ region: 'Torreón', dato: 191890 },{ region: 'Gómez Palacio', dato: 91600 },{ region: 'Lerdo', dato: 39837 },{ region: 'Matamoros', dato: 27215 },{ region: 'La Laguna', dato: 350542 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -228,9 +258,18 @@ FINAL;
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>350,542</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+      <h3>Observaciones</h3>
+<p>Los datos de 2010 corresponden al Censo 2010 de INEGI. Los datos de 2015 corresponden a la Encuesta Intercensal de INEGI y son estimaciones.</p>
+
 FINAL;
         // Ejecutar este método en el padre
         return parent::redifusion_html();

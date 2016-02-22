@@ -171,7 +171,7 @@ Datos 2014: Consulta la <a href="http://www.inegi.org.mx/est/contenidos/proyecto
           <tr>
             <td>La Laguna</td>
             <td>2014-12-31</td>
-            <td>NO DISPONIBLE</td>
+            <td>81.00 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -235,7 +235,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 86.0000 },{ region: 'Gómez Palacio', dato: 83.0000 },{ region: 'Lerdo', dato: 66.0000 },{ region: 'Matamoros', dato: 60.0000 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 73.0000 },{ region: 'Durango', dato: 69.0000 },{ region: 'Nacional', dato: 71.0000 }],
+      data: [{ region: 'Torreón', dato: 86.0000 },{ region: 'Gómez Palacio', dato: 83.0000 },{ region: 'Lerdo', dato: 66.0000 },{ region: 'Matamoros', dato: 60.0000 },{ region: 'La Laguna', dato: 81.0000 },{ region: 'Coahuila', dato: 73.0000 },{ region: 'Durango', dato: 69.0000 },{ region: 'Nacional', dato: 71.0000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

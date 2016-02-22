@@ -488,6 +488,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-fecundidad.html" target="_blank">Fecundidad</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-grado-promedio-de-escolaridad.html" target="_blank">Grado Promedio de Escolaridad</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
@@ -729,6 +730,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-lerdo/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-lerdo/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-fecundidad.html" target="_blank">Fecundidad</a></li>
       <li><a href="../indicadores-lerdo/sociedad-grado-promedio-de-escolaridad.html" target="_blank">Grado Promedio de Escolaridad</a></li>
       <li><a href="../indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>
@@ -971,6 +973,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-matamoros/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-matamoros/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-fecundidad.html" target="_blank">Fecundidad</a></li>
       <li><a href="../indicadores-matamoros/sociedad-grado-promedio-de-escolaridad.html" target="_blank">Grado Promedio de Escolaridad</a></li>
       <li><a href="../indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html" target="_blank">Hogares con Jefatura Femenina</a></li>
       <li><a href="../indicadores-matamoros/sociedad-indice-de-desarrollo-humano-idh.html" target="_blank">Índice de Desarrollo Humano (IDH)</a></li>

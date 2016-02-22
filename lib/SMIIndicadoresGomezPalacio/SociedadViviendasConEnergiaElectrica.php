@@ -85,6 +85,7 @@ class SociedadViviendasConEnergiaElectrica extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -106,14 +107,24 @@ class SociedadViviendasConEnergiaElectrica extends \Base\Publicacion {
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>99.72 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>.</p>
+<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>. Los datos de 2015 corresponden a la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
 
 <p>Enlace al <a href="http://201.159.104.45:8080/apps/implan2.html">Sistema de Información Geográfica</a>.</p>
 
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Viviendas con Energía Eléctrica en Gómez Palacio</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Viviendas con Energía Eléctrica</h3>
@@ -132,29 +143,29 @@ class SociedadViviendasConEnergiaElectrica extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td>99.61 %</td>
+            <td>2015-12-31</td>
+            <td>99.83 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td>99.44 %</td>
+            <td>2015-12-31</td>
+            <td>99.72 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td>99.01 %</td>
+            <td>2015-12-31</td>
+            <td>99.49 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2010-12-31</td>
-            <td>99.15 %</td>
+            <td>2015-12-31</td>
+            <td>99.50 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -182,13 +193,29 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2010-12-31', dato: 99.4400 },{ fecha: '2015-12-31', dato: 99.7200 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 99.6100 },{ region: 'Gómez Palacio', dato: 99.4400 },{ region: 'Lerdo', dato: 99.0100 },{ region: 'Matamoros', dato: 99.1500 },{ region: 'La Laguna', dato: 99.4600 }],
+      data: [{ region: 'Torreón', dato: 99.8300 },{ region: 'Gómez Palacio', dato: 99.7200 },{ region: 'Lerdo', dato: 99.4900 },{ region: 'Matamoros', dato: 99.5000 },{ region: 'La Laguna', dato: 99.4600 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -233,11 +260,17 @@ FINAL;
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>99.72 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>.</p>
+<p>Consulta la <a href="http://www.inegi.org.mx/biinegi/">Base de Datos</a>. Los datos de 2015 corresponden a la Encuesta Intercensal 2015 de INEGI y son estimaciones.</p>
 
 <p>Enlace al <a href="http://201.159.104.45:8080/apps/implan2.html">Sistema de Información Geográfica</a>.</p>
 

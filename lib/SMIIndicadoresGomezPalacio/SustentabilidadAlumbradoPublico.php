@@ -85,6 +85,7 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -106,12 +107,22 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
             <td>INEGI</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>5.58 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
 <p>Censo de Población y Vivienda 2010. Consulta las <a href="http://www.inegi.org.mx/est/contenidos/proyectos/ccpv/cpv2010/tabulados_urbano.aspx">Bases de Datos</a></p>
 
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Alumbrado Público en Gómez Palacio</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Alumbrado Público</h3>
@@ -130,36 +141,36 @@ class SustentabilidadAlumbradoPublico extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td>2.16 %</td>
+            <td>2014-12-31</td>
+            <td>3.53 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td>1.30 %</td>
+            <td>2014-12-31</td>
+            <td>5.58 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td>2.01 %</td>
+            <td>2014-12-31</td>
+            <td>9.09 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2010-12-31</td>
-            <td>16.80 %</td>
+            <td>2014-12-31</td>
+            <td>15.42 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2010-12-31</td>
-            <td>2.69 %</td>
+            <td>2014-12-31</td>
+            <td>5.61 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -180,13 +191,29 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2010-12-31', dato: 1.3000 },{ fecha: '2014-12-31', dato: 5.5800 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 2.1600 },{ region: 'Gómez Palacio', dato: 1.3000 },{ region: 'Lerdo', dato: 2.0100 },{ region: 'Matamoros', dato: 16.8000 },{ region: 'La Laguna', dato: 2.6900 }],
+      data: [{ region: 'Torreón', dato: 3.5300 },{ region: 'Gómez Palacio', dato: 5.5800 },{ region: 'Lerdo', dato: 9.0900 },{ region: 'Matamoros', dato: 15.4200 },{ region: 'La Laguna', dato: 5.6100 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -228,6 +255,12 @@ FINAL;
           <tr>
             <td>31/12/2010</td>
             <td>1.30 %</td>
+            <td>INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>5.58 %</td>
             <td>INEGI</td>
             <td></td>
           </tr>
