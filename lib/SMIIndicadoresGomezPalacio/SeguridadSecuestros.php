@@ -276,7 +276,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
           <tr>
             <td>La Laguna</td>
             <td>2016-01-31</td>
-            <td>ND</td>
+            <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>

@@ -232,6 +232,12 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/01/2016</td>
+            <td>0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -282,7 +288,7 @@ class SeguridadSecuestros extends \Base\Publicacion {
           <tr>
             <td>La Laguna</td>
             <td>2016-01-31</td>
-            <td>ND</td>
+            <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -477,6 +483,12 @@ FINAL;
           <tr>
             <td>31/01/2016</td>
             <td>ND</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/01/2016</td>
+            <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
