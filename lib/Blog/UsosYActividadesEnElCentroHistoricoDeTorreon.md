@@ -34,4 +34,3 @@ Por ello **es necesario análisis más profundo en cuanto a flujos de actividade
 ### Una versión de divulgación de este análisis apareció en Milenio Laguna
 
 * [Usos y actividades en el Centro Histórico de Torreón](http://www.milenio.com/negocios/Implan_Torreon-Centro_Historico_de_Torreon-Mercado_Juarez_de_Torreon-Plaza_de_Armas_0_683931654.html)
-
