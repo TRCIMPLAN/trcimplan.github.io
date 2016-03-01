@@ -194,7 +194,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $sala_prensa                            = new \SalaPrensa\Imprenta();
         $resumenes_sala_prensa                  = $sala_prensa->elaborar_resumenes(); // Entrega una instancia de \Base\Resumenes
         $resumenes_sala_prensa->en_raiz         = true;
-        $resumenes_sala_prensa->cantidad_maxima = 2;
+        $resumenes_sala_prensa->cantidad_maxima = 1;
         // Acumular sección novedades
         $this->contenido[]  = '  <section id="novedades">';
         $this->contenido[]  = '    <div class="row">';
@@ -202,10 +202,10 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Análisis publicados
         $this->contenido[]  = '        <div class="analisis-publicados">';
         $this->contenido[]  = $resumenes->html();
-        $this->contenido[]  = $resumenes_sala_prensa->html();
         $this->contenido[]  = '          <div class="text-center">';
         $this->contenido[]  = "            <a href=\"blog/index.html\" class=\"btn btn-default\" role=\"button\">Todos los Análisis Publicados</a>";
         $this->contenido[]  = '          </div>';
+        $this->contenido[]  = $resumenes_sala_prensa->html();
         $this->contenido[]  = '        </div>';
         // Análisis publicados termina
         $this->contenido[]  = '      </div>';
