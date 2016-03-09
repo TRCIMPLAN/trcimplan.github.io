@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Es necesaria una concertación entre los cuatro municipios de la ZML (Torreón, Matamoros, Gómez Palacio y Lerdo) por medio de una agenda de temas metropolitananos, en los ejes de: Buen Gobierno, Desarrollo Económico, Desarrollo Social, Entorno Urbano, Movilidad, Medio Ambiente y Sustentabilidad.">
+  <meta name="author" content="Arq. Ilse Ávila García">
+  <meta name="keywords" content="IMPLAN, Torreon, Comarca Lagunera, Retos, Movilidad, Infraestructura, Recursos, Vivienda, Gobierno">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Principales retos de la Zona Metropolitana de La Laguna - IMPLAN Torreón">
+  <meta name="twitter:description" content="Es necesaria una concertación entre los cuatro municipios de la ZML (Torreón, Matamoros, Gómez Palacio y Lerdo) por medio de una agenda de temas metropolitananos, en los ejes de: Buen Gobierno, Desarrollo Económico, Desarrollo Social, Entorno Urbano, Movilidad, Medio Ambiente y Sustentabilidad.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/principales-retos-de-la-zona-metropolitana-de-la-laguna/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/principales-retos-de-la-zona-metropolitana-de-la-laguna.html">
+  <meta name="og:title" content="Principales retos de la Zona Metropolitana de La Laguna - IMPLAN Torreón">
+  <meta name="og:description" content="Es necesaria una concertación entre los cuatro municipios de la ZML (Torreón, Matamoros, Gómez Palacio y Lerdo) por medio de una agenda de temas metropolitananos, en los ejes de: Buen Gobierno, Desarrollo Económico, Desarrollo Social, Entorno Urbano, Movilidad, Medio Ambiente y Sustentabilidad.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/principales-retos-de-la-zona-metropolitana-de-la-laguna/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/principales-retos-de-la-zona-metropolitana-de-la-laguna.html">
+  <title>Principales retos de la Zona Metropolitana de La Laguna - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Principales retos de la Zona Metropolitana de La Laguna</h1>
+          <div class="encabezado-descripcion" itemprop="description">Es necesaria una concertación entre los cuatro municipios de la ZML (Torreón, Matamoros, Gómez Palacio y Lerdo) por medio de una agenda de temas metropolitananos, en los ejes de: Buen Gobierno, Desarrollo Económico, Desarrollo Social, Entorno Urbano, Movilidad, Medio Ambiente y Sustentabilidad.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Arq. Ilse Ávila García</span>
+          - <meta itemprop="datePublished" content="2016-03-09T11:30">09/03/2016 11:30
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Principales retos de la Zona Metropolitana de La Laguna" src="principales-retos-de-la-zona-metropolitana-de-la-laguna/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>Las <strong>zonas metropolitanas</strong> son regiones donde las actividades cotidianas de trabajo, recreación vivienda y las actividades económicas sobrepasan sus límites territoriales, así como los límites político–administrativo de los municipios que la conforman.</p>
+
+<p><strong>En México existen 59 zonas metropolitanas</strong> con un total de 63;836,779 habitantes de acuerdo a la CONAPO. La <strong>Zona Metropolitana de La Laguna</strong> se ubica en el <strong>noveno lugar en población</strong> por debajo de Ciudad Juárez el Paso Texas y sobre Querétaro.</p>
+
+<p>Las zonas metropolitanas pueden ser de <strong>tres tipos de acuerdo a su localización:</strong> Sus municipios se encuentran dentro de un mismo estado, son interestatales porque sus municipios colindan con dos o más estados y sus municipios colindan con fronteras internacionales.</p>
+
+<p>La <strong>Zona Metropolitana de la Laguna se encuentra entre las diez zonas en el rango de 1 millón a 4;999,999 habitantes,</strong> de acuerdo con la CONAPO. <strong>Es de tipo interestatal,</strong> ya que incluye dos municipios del estado de Coahuila y dos municipios del estado de Durango.</p>
+
+<p>Cuenta con una <strong>superficie territorial total de 502,799.38 hectáreas</strong> de las cuales <strong>473,142.14 son de superficie rural y 29,657.24 de superficie urbanizada,</strong> lo que corresponde a que el <strong>94.10 % del territorio es rural y el 5.90% es urbano.</strong></p>
+
+<p><strong>La población censada de acuerdo a INEGI en 2010 es de 1;215,817 habitantes en la ZML,</strong> (al 2015 según datos de CONAPO es de 1;313,161 habitantes) distribuidos de la siguiente manera: <strong>998,090 habitantes que representa el 82.19% vive en el área urbana y 217,727 habitantes que representan el 17.90% viven el área rural.</strong></p>
+
+<h3>Problemáticas comunes</h3>
+
+<p>El nacimiento de zonas metropolitanas en las zonas urbanas trajo consigo diversos problemas como la <strong>contaminación del medio ambiente, escasez de agua, la inseguridad, deficiencia en servicios públicos, insuficiencia en el transporte urbano adecuado y congestionamiento vehicular.</strong></p>
+
+<p><strong>Jordi Borja y Castells</strong> mencionan que <strong>las ciudades sufren de 3 problemáticas primordiales como son: disolución, fragmentación y privatización.</strong></p>
+
+<p>Disolución por una urbanización desigual, fragmentación por la producción de un territorio urbano disperso y cortado por vías de comunicación; y privatización por la <strong>apropiación en manos de los grandes promotores inmobiliarios, que se benefician de la plusvalía que genera la ciudad.</strong> En contraparte las administraciones públicas se ven rebasadas por la constante demanda ciudadana de acceder a una vida de calidad, para el disfrute de los espacios públicos, el libre tránsito con una movilidad incluyente.</p>
+
+<p>En lo referente a las problemáticas que estos autores comentan, <strong>la Zona Metropolitana de Laguna no es ajena a estos, tiene problemas de disolución, fragmentación y privatización.</strong></p>
+
+<p>Disolución por una urbanización desequilibrada que <strong>autoriza fraccionamientos y desarrollos en la periferia de la mancha urbana,</strong> con problemas en el aumento desproporcional entre la superficie urbanizada y el crecimiento poblacional, que abandona los centros urbanos buscando una mejor oferta de vivienda.</p>
+
+<p>Lo anterior nos lleva a tener una fragmentación por la misma dispersión <strong>con vías de comunicación que sirven como bordes que separan la continuidad de la ciudad</strong> y la privatización debido a los terrenos que se quedan sin fraccionar y solo especulan el mejor momento de salir al mercado inmobiliario cuando estos incrementan su valor.</p>
+
+<p>A la vez <strong>se construyen asentamientos cerrados con bardas,</strong> que contienen en lo privado el espacio púbico o las áreas verdes, solo para el disfrute se sus vecinos. Lo que lleva a una disminución considerable del espacio que realmente es público en la ciudad.</p>
+
+<p>Consecuencia que <strong>trae consigo más contaminación del aire y de los recursos no renovables</strong> que tenemos en la región.</p>
+
+<h3>Retos hacia el futuro</h3>
+
+<p>El <strong>Programa Regional de Desarrollo del Norte 2014-2018 de la SEDATU</strong> menciona que dentro de las <strong>Zonas metropolitanas de la Región Norte del país las más importantes son Monterrey, Tijuana, Ciudad Juárez y La Laguna.</strong></p>
+
+<p><strong>Se espera un fuerte crecimiento de esas ciudades hacia el 2030,</strong> lo que conlleva retos en infraestructura urbana de comunicaciones, transporte público, ordenamiento territorial, vivienda y agua, entre otros.</p>
+
+<p>La unión de los tres factores mencionados, aunado a la demanda de infraestructura para el año 2030 como menciona SEDATU, <strong>tiene un alto costo para las administraciones públicas</strong> que deben de proveer los bienes, seguridad y servicios que demanda la sociedad a un alto costo.</p>
+
+<p>Lo que nos lleva a <strong>asumir el reto de concertar una coordinación en temas metropolitanos,</strong> un tema de máximo interés en el debate urbano nacional y que en la ZML se agudiza por su localización interestatal.</p>
+
+<p><strong>Se requiere de una concertación entre los cuatro municipios de los dos estados</strong> (Torreón, Matamoros, Gómez Palacio y Lerdo) <strong>por medio de una agenda de temas metropolitananos,</strong> en los ejes de: Buen Gobierno, Desarrollo Económico, Desarrollo Social, Entorno Urbano, Movilidad, Medio Ambiente y Sustentabilidad que permitan acercarse a una visión común como Zona Metropolitana de La Laguna.</p>
+
+<p>Si bien el municipio de Torreón ha trabajado en hacer una planeación municipal desde una visión metropolitana, <strong>es necesario concretar entre los gobiernos de los estados y los municipios de Coahuila y Durango, acuerdos de homologación de marcos legales</strong> que faciliten la aplicación de normas específicas para programas y proyectos de obras comunes para el ordenamiento y beneficio de la ciudadanía.</p>
+
+<h3>La Zona Metropolitana de La laguna se ubica en el 9º Lugar en población</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Lugar</th>
+  <th>Zona Metropolitana</th>
+  <th align="right">Habitantes año 2010</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>8º.</td>
+  <td>Cd. Juárez el Paso Tx.</td>
+  <td align="right">1,332,131</td>
+</tr>
+<tr>
+  <td>9º.</td>
+  <td>La Laguna</td>
+  <td align="right">1,215,817</td>
+</tr>
+<tr>
+  <td>10º.</td>
+  <td>Querétaro</td>
+  <td align="right">1,097,025</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Mapa de la Zona Metropolitana de La Laguna</h3>
+
+<p><img class="img-responsive" src="principales-retos-de-la-zona-metropolitana-de-la-laguna/zml.jpg" alt="La Zona Metropolitana de La Laguna"></p>
+
+<h3>Una versión de divulgación de este análisis apareció en Milenio Laguna</h3>
+
+<ul>
+<li><a href="http://www.milenio.com/negocios/IMPLAN_Torreon-Zona_Metropolitana_de_La_Laguna_0_696530398.html">Principales retos de la Zona Metropolitana de La Laguna</a></li>
+</ul>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fprincipales-retos-de-la-zona-metropolitana-de-la-laguna.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
