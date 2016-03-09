@@ -130,10 +130,10 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td>8.6000</td>
-            <td>INEGI</td>
-            <td></td>
+            <td>2015-12-31</td>
+            <td>7.7000</td>
+            <td>Dirección General de Servicios Públicos Municipales</td>
+            <td>Consulta la Base de Datos : http://datostrc.gob.mx/datasets/ver/32931</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -207,7 +207,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 8.6000 },{ region: 'Gómez Palacio', dato: 8.7000 },{ region: 'Lerdo', dato: 7.8000 },{ region: 'Matamoros', dato: 2.8000 },{ region: 'La Laguna', dato: 8.0300 },{ region: 'Coahuila', dato: 8.8000 },{ region: 'Durango', dato: 6.1000 },{ region: 'Nacional', dato: 7.6000 }],
+      data: [{ region: 'Torreón', dato: 7.7000 },{ region: 'Gómez Palacio', dato: 8.7000 },{ region: 'Lerdo', dato: 7.8000 },{ region: 'Matamoros', dato: 2.8000 },{ region: 'La Laguna', dato: 8.0300 },{ region: 'Coahuila', dato: 8.8000 },{ region: 'Durango', dato: 6.1000 },{ region: 'Nacional', dato: 7.6000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Sustentabilidad Generación de Basura (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Matamoros Sustentabilidad Superficie (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -20,30 +20,30 @@
  */
 
 // Namespace
-namespace SMIIndicadoresTorreon;
+namespace SMIIndicadoresMatamoros;
 
 /**
- * Clase SustentabilidadGeneracionDeBasura
+ * Clase SustentabilidadSuperficie
  */
-class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
+class SustentabilidadSuperficie extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Generación de Basura en Torreón';
+        $this->nombre            = 'Superficie en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2016-03-09T10:53';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'sustentabilidad-generacion-de-basura';
+        $this->archivo           = 'sustentabilidad-superficie';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.';
-        $this->claves            = 'IMPLAN, Torreón, Recursos Naturales';
+        $this->descripcion       = 'Superficie territorial medida en hectáreas.';
+        $this->claves            = 'IMPLAN, Matamoros, Recursos Naturales';
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio        = 'indicadores-torreon';
+        $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu       = 'Indicadores';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
@@ -54,7 +54,7 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         $region                  = new \Base\SchemaPostalAddress();
         $region->addressCountry  = 'MX';
         $region->addressRegion   = 'Coahuila de Zaragoza';
-        $region->addressLocality = 'Torreón';
+        $region->addressLocality = 'Matamoros';
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                   = new \Base\SchemaPlace();
         $lugar->address          = $region;
@@ -71,8 +71,8 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Recursos Naturales');
-        $this->fuentes           = array('Dirección General de Servicios Públicos Municipales', 'INEGI');
-        $this->regiones          = 'Torreón';
+        $this->fuentes           = array('INEGI');
+        $this->regiones          = 'Matamoros';
     } // constructor
 
     /**
@@ -102,27 +102,18 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2010</td>
-            <td>8.6000</td>
+            <td>82,163.7300</td>
             <td>INEGI</td>
             <td></td>
           </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>7.7000</td>
-            <td>Dirección General de Servicios Públicos Municipales</td>
-            <td>Consulta la Base de Datos : http://datostrc.gob.mx/datasets/ver/32931</td>
-          </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Kilogramos diarios por cada diez personas.</p>
-      <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www3.inegi.org.mx/sistemas/sisept/default.aspx?t=mamb1065&amp;s=est&amp;c=33986">Base de Datos</a></p>
-
+      <p><b>Unidad:</b> Hectáreas.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Generación de Basura</h3>
+      <h3>Gráfica con los últimos datos de Superficie</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Generación de Basura</h3>
+      <h3>Últimos datos de Superficie</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -136,59 +127,38 @@ class SustentabilidadGeneracionDeBasura extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-12-31</td>
-            <td>7.7000</td>
-            <td>Dirección General de Servicios Públicos Municipales</td>
-            <td>Consulta la Base de Datos : http://datostrc.gob.mx/datasets/ver/32931</td>
+            <td>2010-12-31</td>
+            <td>124,199.7500</td>
+            <td>INEGI</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2010-12-31</td>
-            <td>8.7000</td>
+            <td>84,546.5800</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2010-12-31</td>
-            <td>7.8000</td>
+            <td>211,889.3200</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2010-12-31</td>
-            <td>2.8000</td>
+            <td>82,163.7300</td>
             <td>INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2010-12-31</td>
-            <td>8.0300</td>
+            <td>502,799.3800</td>
             <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Coahuila</td>
-            <td>2010-12-31</td>
-            <td>8.8000</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2010-12-31</td>
-            <td>6.1000</td>
-            <td>INEGI</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Nacional</td>
-            <td>2010-12-31</td>
-            <td>7.6000</td>
-            <td>INEGI</td>
-            <td></td>
+            <td>El indicador hace referencia a los cuatro municipios que conforman la Zona Metropolitana de la Laguna: Torreón, Matamoros, Gómez Palacio y Lerdo.</td>
           </tr>
         </tbody>
       </table>
@@ -213,7 +183,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 7.7000 },{ region: 'Gómez Palacio', dato: 8.7000 },{ region: 'Lerdo', dato: 7.8000 },{ region: 'Matamoros', dato: 2.8000 },{ region: 'La Laguna', dato: 8.0300 },{ region: 'Coahuila', dato: 8.8000 },{ region: 'Durango', dato: 6.1000 },{ region: 'Nacional', dato: 7.6000 }],
+      data: [{ region: 'Torreón', dato: 124199.7500 },{ region: 'Gómez Palacio', dato: 84546.5800 },{ region: 'Lerdo', dato: 211889.3200 },{ region: 'Matamoros', dato: 82163.7300 },{ region: 'La Laguna', dato: 502799.3800 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -239,7 +209,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
-<p>Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.</p>
+<p>Superficie territorial medida en hectáreas.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -254,27 +224,18 @@ FINAL;
         <tbody>
           <tr>
             <td>31/12/2010</td>
-            <td>8.6000</td>
+            <td>82,163.7300</td>
             <td>INEGI</td>
             <td></td>
           </tr>
-          <tr>
-            <td>31/12/2015</td>
-            <td>7.7000</td>
-            <td>Dirección General de Servicios Públicos Municipales</td>
-            <td>Consulta la Base de Datos : http://datostrc.gob.mx/datasets/ver/32931</td>
-          </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Kilogramos diarios por cada diez personas.</p>
-      <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www3.inegi.org.mx/sistemas/sisept/default.aspx?t=mamb1065&amp;s=est&amp;c=33986">Base de Datos</a></p>
-
+      <p><b>Unidad:</b> Hectáreas.</p>
 FINAL;
         // Ejecutar este método en el padre
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase SustentabilidadGeneracionDeBasura
+} // Clase SustentabilidadSuperficie
 
 ?>

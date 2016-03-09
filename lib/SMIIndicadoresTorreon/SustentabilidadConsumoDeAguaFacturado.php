@@ -128,7 +128,7 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
             <td>31/12/2015</td>
             <td>41.2000</td>
             <td>SIMAS</td>
-            <td>Consulta la [Base de Datos](http://datostrc.gob.mx/datasets/ver/33190)</td>
+            <td>Consumo anual. Consulta la Base de Datos en http://datostrc.gob.mx/datasets/ver/33190.</td>
           </tr>
         </tbody>
       </table>
@@ -230,7 +230,7 @@ FINAL;
             <td>31/12/2015</td>
             <td>41.2000</td>
             <td>SIMAS</td>
-            <td>Consulta la [Base de Datos](http://datostrc.gob.mx/datasets/ver/33190)</td>
+            <td>Consumo anual. Consulta la Base de Datos en http://datostrc.gob.mx/datasets/ver/33190.</td>
           </tr>
         </tbody>
       </table>
