@@ -149,7 +149,7 @@ class ObjetivosDelMilenio extends \Base\Publicacion {
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Consumo de Agua Facturado</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html" data-toggle="tooltip" title="Metros cúbicos per cápita, 31/12/2013, SIMAS">41.99</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html" data-toggle="tooltip" title="Metros cúbicos per cápita, 31/12/2015, SIMAS">41.2</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

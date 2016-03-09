@@ -124,6 +124,12 @@ class SustentabilidadConsumoDeAguaFacturado extends \Base\Publicacion {
             <td>SIMAS</td>
             <td>Consumo anual</td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>41.2000</td>
+            <td>SIMAS</td>
+            <td>Consulta la [Base de Datos](http://datostrc.gob.mx/datasets/ver/33190)</td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Metros cúbicos per cápita.</p>
@@ -155,7 +161,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2010-12-31', dato: 47.7700 },{ fecha: '2011-12-31', dato: 46.7500 },{ fecha: '2012-12-31', dato: 44.5700 },{ fecha: '2013-12-31', dato: 41.9900 }],
+      data: [{ fecha: '2010-12-31', dato: 47.7700 },{ fecha: '2011-12-31', dato: 46.7500 },{ fecha: '2012-12-31', dato: 44.5700 },{ fecha: '2013-12-31', dato: 41.9900 },{ fecha: '2015-12-31', dato: 41.2000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -219,6 +225,12 @@ FINAL;
             <td>41.9900</td>
             <td>SIMAS</td>
             <td>Consumo anual</td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>41.2000</td>
+            <td>SIMAS</td>
+            <td>Consulta la [Base de Datos](http://datostrc.gob.mx/datasets/ver/33190)</td>
           </tr>
         </tbody>
       </table>
