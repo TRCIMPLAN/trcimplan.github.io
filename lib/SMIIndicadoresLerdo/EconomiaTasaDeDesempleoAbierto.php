@@ -415,6 +415,12 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2016</td>
+            <td>0.00 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -557,7 +563,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', functi
   if (typeof vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
     vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
       element: 'graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
-      data: [{ fecha: '2005-03-31', dato: 4.6154 },{ fecha: '2005-06-30', dato: 1.4706 },{ fecha: '2005-09-30', dato: 3.6496 },{ fecha: '2005-12-31', dato: 3.0303 },{ fecha: '2006-03-31', dato: 3.4247 },{ fecha: '2006-06-30', dato: 6.4748 },{ fecha: '2006-09-30', dato: 5.5172 },{ fecha: '2006-12-30', dato: 7.9710 },{ fecha: '2007-03-31', dato: 7.6923 },{ fecha: '2007-06-30', dato: 1.4815 },{ fecha: '2007-09-30', dato: 3.7594 },{ fecha: '2007-12-31', dato: 4.0000 },{ fecha: '2008-03-31', dato: 5.3691 },{ fecha: '2008-06-30', dato: 2.8369 },{ fecha: '2008-09-30', dato: 1.5385 },{ fecha: '2008-12-31', dato: 3.7037 },{ fecha: '2009-03-31', dato: 7.3171 },{ fecha: '2009-06-30', dato: 6.5574 },{ fecha: '2009-09-30', dato: 9.0909 },{ fecha: '2009-12-31', dato: 10.0000 },{ fecha: '2010-03-31', dato: 5.8824 },{ fecha: '2010-06-30', dato: 3.9063 },{ fecha: '2010-09-30', dato: 5.5118 },{ fecha: '2010-12-31', dato: 7.8125 },{ fecha: '2011-03-31', dato: 4.2000 },{ fecha: '2011-06-30', dato: 4.3500 },{ fecha: '2011-09-30', dato: 8.3900 },{ fecha: '2011-12-31', dato: 9.2300 },{ fecha: '2012-03-31', dato: 6.9800 },{ fecha: '2012-06-30', dato: 4.7900 },{ fecha: '2012-09-30', dato: 3.7600 },{ fecha: '2012-12-31', dato: 8.0400 },{ fecha: '2013-03-31', dato: 7.7800 },{ fecha: '2013-06-30', dato: 5.2200 },{ fecha: '2013-09-30', dato: 4.1100 },{ fecha: '2013-12-31', dato: 2.8000 },{ fecha: '2014-03-31', dato: 2.8000 },{ fecha: '2014-06-30', dato: 1.6700 },{ fecha: '2014-09-30', dato: 9.2300 },{ fecha: '2014-12-31', dato: 3.7000 },{ fecha: '2015-03-31', dato: 4.7600 },{ fecha: '2015-06-30', dato: 8.3333 },{ fecha: '2015-09-30', dato: 0.0000 }],
+      data: [{ fecha: '2005-03-31', dato: 4.6154 },{ fecha: '2005-06-30', dato: 1.4706 },{ fecha: '2005-09-30', dato: 3.6496 },{ fecha: '2005-12-31', dato: 3.0303 },{ fecha: '2006-03-31', dato: 3.4247 },{ fecha: '2006-06-30', dato: 6.4748 },{ fecha: '2006-09-30', dato: 5.5172 },{ fecha: '2006-12-30', dato: 7.9710 },{ fecha: '2007-03-31', dato: 7.6923 },{ fecha: '2007-06-30', dato: 1.4815 },{ fecha: '2007-09-30', dato: 3.7594 },{ fecha: '2007-12-31', dato: 4.0000 },{ fecha: '2008-03-31', dato: 5.3691 },{ fecha: '2008-06-30', dato: 2.8369 },{ fecha: '2008-09-30', dato: 1.5385 },{ fecha: '2008-12-31', dato: 3.7037 },{ fecha: '2009-03-31', dato: 7.3171 },{ fecha: '2009-06-30', dato: 6.5574 },{ fecha: '2009-09-30', dato: 9.0909 },{ fecha: '2009-12-31', dato: 10.0000 },{ fecha: '2010-03-31', dato: 5.8824 },{ fecha: '2010-06-30', dato: 3.9063 },{ fecha: '2010-09-30', dato: 5.5118 },{ fecha: '2010-12-31', dato: 7.8125 },{ fecha: '2011-03-31', dato: 4.2000 },{ fecha: '2011-06-30', dato: 4.3500 },{ fecha: '2011-09-30', dato: 8.3900 },{ fecha: '2011-12-31', dato: 9.2300 },{ fecha: '2012-03-31', dato: 6.9800 },{ fecha: '2012-06-30', dato: 4.7900 },{ fecha: '2012-09-30', dato: 3.7600 },{ fecha: '2012-12-31', dato: 8.0400 },{ fecha: '2013-03-31', dato: 7.7800 },{ fecha: '2013-06-30', dato: 5.2200 },{ fecha: '2013-09-30', dato: 4.1100 },{ fecha: '2013-12-31', dato: 2.8000 },{ fecha: '2014-03-31', dato: 2.8000 },{ fecha: '2014-06-30', dato: 1.6700 },{ fecha: '2014-09-30', dato: 9.2300 },{ fecha: '2014-12-31', dato: 3.7000 },{ fecha: '2015-03-31', dato: 4.7600 },{ fecha: '2015-06-30', dato: 8.3333 },{ fecha: '2015-09-30', dato: 0.0000 },{ fecha: '2016-12-31', dato: 0.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -936,6 +942,12 @@ FINAL;
           </tr>
           <tr>
             <td>30/09/2015</td>
+            <td>0.00 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2016</td>
             <td>0.00 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>

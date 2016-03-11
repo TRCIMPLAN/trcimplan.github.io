@@ -197,6 +197,12 @@ class EconomiaTasaDeInformalidad extends \Base\Publicacion {
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2016</td>
+            <td>65.52 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -299,7 +305,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2011-12-31', dato: 57.6200 },{ fecha: '2012-03-31', dato: 56.6600 },{ fecha: '2012-06-30', dato: 60.4300 },{ fecha: '2012-09-30', dato: 60.9300 },{ fecha: '2012-12-31', dato: 61.1700 },{ fecha: '2013-03-31', dato: 60.3900 },{ fecha: '2013-06-30', dato: 57.8000 },{ fecha: '2013-09-30', dato: 57.1400 },{ fecha: '2013-12-31', dato: 58.6500 },{ fecha: '2014-03-31', dato: 66.6600 },{ fecha: '2014-06-30', dato: 52.5400 },{ fecha: '2014-09-30', dato: 61.0200 },{ fecha: '2014-12-31', dato: 57.6900 },{ fecha: '2015-03-31', dato: 58.3300 },{ fecha: '2015-06-30', dato: 61.8182 },{ fecha: '2015-09-30', dato: 62.5000 }],
+      data: [{ fecha: '2011-12-31', dato: 57.6200 },{ fecha: '2012-03-31', dato: 56.6600 },{ fecha: '2012-06-30', dato: 60.4300 },{ fecha: '2012-09-30', dato: 60.9300 },{ fecha: '2012-12-31', dato: 61.1700 },{ fecha: '2013-03-31', dato: 60.3900 },{ fecha: '2013-06-30', dato: 57.8000 },{ fecha: '2013-09-30', dato: 57.1400 },{ fecha: '2013-12-31', dato: 58.6500 },{ fecha: '2014-03-31', dato: 66.6600 },{ fecha: '2014-06-30', dato: 52.5400 },{ fecha: '2014-09-30', dato: 61.0200 },{ fecha: '2014-12-31', dato: 57.6900 },{ fecha: '2015-03-31', dato: 58.3300 },{ fecha: '2015-06-30', dato: 61.8182 },{ fecha: '2015-09-30', dato: 62.5000 },{ fecha: '2016-12-31', dato: 65.5172 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -447,6 +453,12 @@ FINAL;
           <tr>
             <td>30/09/2015</td>
             <td>62.50 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2016</td>
+            <td>65.52 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>

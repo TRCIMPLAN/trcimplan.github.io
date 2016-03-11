@@ -251,6 +251,12 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/12/2016</td>
+            <td>7,860</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Personas.</p>
@@ -335,7 +341,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2013-11-30', dato: 7638 },{ fecha: '2013-12-31', dato: 6798 },{ fecha: '2014-01-31', dato: 7000 },{ fecha: '2014-02-28', dato: 7024 },{ fecha: '2014-03-31', dato: 7060 },{ fecha: '2014-04-30', dato: 7118 },{ fecha: '2014-05-31', dato: 7176 },{ fecha: '2014-06-30', dato: 7363 },{ fecha: '2014-07-31', dato: 7542 },{ fecha: '2014-08-31', dato: 7875 },{ fecha: '2014-09-30', dato: 7763 },{ fecha: '2014-10-31', dato: 7698 },{ fecha: '2014-11-30', dato: 7630 },{ fecha: '2014-12-31', dato: 7474 },{ fecha: '2015-01-31', dato: 7477 },{ fecha: '2015-02-28', dato: 7547 },{ fecha: '2015-03-31', dato: 7559 },{ fecha: '2015-04-30', dato: 7652 },{ fecha: '2015-05-31', dato: 7779 },{ fecha: '2015-06-30', dato: 8032 },{ fecha: '2015-07-31', dato: 8042 },{ fecha: '2015-08-31', dato: 8060 },{ fecha: '2015-09-30', dato: 7993 },{ fecha: '2015-10-31', dato: 8084 },{ fecha: '2015-11-30', dato: 8084 }],
+      data: [{ fecha: '2013-11-30', dato: 7638 },{ fecha: '2013-12-31', dato: 6798 },{ fecha: '2014-01-31', dato: 7000 },{ fecha: '2014-02-28', dato: 7024 },{ fecha: '2014-03-31', dato: 7060 },{ fecha: '2014-04-30', dato: 7118 },{ fecha: '2014-05-31', dato: 7176 },{ fecha: '2014-06-30', dato: 7363 },{ fecha: '2014-07-31', dato: 7542 },{ fecha: '2014-08-31', dato: 7875 },{ fecha: '2014-09-30', dato: 7763 },{ fecha: '2014-10-31', dato: 7698 },{ fecha: '2014-11-30', dato: 7630 },{ fecha: '2014-12-31', dato: 7474 },{ fecha: '2015-01-31', dato: 7477 },{ fecha: '2015-02-28', dato: 7547 },{ fecha: '2015-03-31', dato: 7559 },{ fecha: '2015-04-30', dato: 7652 },{ fecha: '2015-05-31', dato: 7779 },{ fecha: '2015-06-30', dato: 8032 },{ fecha: '2015-07-31', dato: 8042 },{ fecha: '2015-08-31', dato: 8060 },{ fecha: '2015-09-30', dato: 7993 },{ fecha: '2015-10-31', dato: 8084 },{ fecha: '2015-11-30', dato: 8084 },{ fecha: '2016-12-31', dato: 7860 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -537,6 +543,12 @@ FINAL;
           <tr>
             <td>30/11/2015</td>
             <td>8,084</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2016</td>
+            <td>7,860</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
