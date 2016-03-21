@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción, será vanguardista y congruente con la realidad urbana del municipio. Incorpora nuevos conceptos urbanísticos y será compatible con el Plan Director de Desarrollo Urbano.">
+  <meta name="author" content="Ing. Luis Campos Hinojosa">
+  <meta name="keywords" content="IMPLAN, Torreon, ">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Normatividad Urbana: el reto de las ciudades mexicanas - IMPLAN Torreón">
+  <meta name="twitter:description" content="El Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción, será vanguardista y congruente con la realidad urbana del municipio. Incorpora nuevos conceptos urbanísticos y será compatible con el Plan Director de Desarrollo Urbano.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/normatividad-urbana-el-reto-de-las-ciudades-mexicanas/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/normatividad-urbana-el-reto-de-las-ciudades-mexicanas.html">
+  <meta name="og:title" content="Normatividad Urbana: el reto de las ciudades mexicanas - IMPLAN Torreón">
+  <meta name="og:description" content="El Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción, será vanguardista y congruente con la realidad urbana del municipio. Incorpora nuevos conceptos urbanísticos y será compatible con el Plan Director de Desarrollo Urbano.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/normatividad-urbana-el-reto-de-las-ciudades-mexicanas/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/normatividad-urbana-el-reto-de-las-ciudades-mexicanas.html">
+  <title>Normatividad Urbana: el reto de las ciudades mexicanas - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Normatividad Urbana: el reto de las ciudades mexicanas</h1>
+          <div class="encabezado-descripcion" itemprop="description">El Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción, será vanguardista y congruente con la realidad urbana del municipio. Incorpora nuevos conceptos urbanísticos y será compatible con el Plan Director de Desarrollo Urbano.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Ing. Luis Campos Hinojosa</span>
+          - <meta itemprop="datePublished" content="2016-03-17T10:45">17/03/2016 10:45
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Normatividad Urbana: el reto de las ciudades mexicanas" src="normatividad-urbana-el-reto-de-las-ciudades-mexicanas/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p><strong>Una ciudad bien planeada promueve la inclusión social, la resilencia y la prosperidad.</strong> Ofrece a sus residentes la oportunidad de llevar vidas seguras, saludables y productivas, es decir, una mejor calidad de vida.</p>
+
+<p><strong>Cuando una ciudad se expande, se vuelve cada vez más compleja de administrar,</strong> el costo per cápita de los gobiernos locales por operar las redes de infraestructura y servicios públicos, se incrementará en la medida que la densidad habitacional disminuya. <strong>Para la población, vivir y transportarse desde las periferias urbanas, podría llegar a representar un gasto acumulado del 40% del ingreso familiar.</strong></p>
+
+<p>Resulta evidente, que las ciudades que necesitamos no pueden seguir creciendo con el modelo urbano actual. <strong>El cambio hacia un nuevo modelo de desarrollo urbano requiere,</strong> entre otros factores, <strong>de la transformación profunda del marco legal, institucional y de planeación a largo plazo.</strong></p>
+
+<p><strong>ONU-Habitat</strong> reconoce que los sistemas jurídicos, representan el mayor obstáculo que impide a los gobiernos dar solución a los desafíos actuales de las ciudades.</p>
+
+<p>En respuesta al gran reto que representan los marcos normativos del sector urbano para las ciudades mexicanas. <strong>La aprobación del Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcciones para el Municipio de Torreón, significa un primer esfuerzo por contar con un instrumento jurídico que responda a las problemáticas, tendencias y nuevos desafíos de la ciudad.</strong></p>
+
+<p>El reglamento fue discutido y elaborado por la misma ciudadanía. La socialización del marco jurídico se realizó mediante una plataforma en línea, la cual permitía modificaciones directas al documento por cualquier persona. Además, se realizaron visitas y reuniones con las camaras empresariales, colegios de profesionistas, organismos del sector urbano y funcionarios públicos. <strong>Como resultado de la socialización se recibieron más de 590 propuestas, comentarios y observaciones, mismos que fueron evaluados y analizados.</strong></p>
+
+<p>El reglamento incorpora nuevos conceptos urbanísticos, refuerza los existentes y es congruente con los lineamientos establecidos por el <strong>Plan Director de Desarrollo Urbano.</strong> A continuación se engloban los temas prioritarios:</p>
+
+<h3>Fortalecer los instrumentos y procedimientos de planeación a corto, mediano y largo plazo</h3>
+
+<p><strong>El reglamento es congruente con el Plan Director de Desarrollo Urbano y establece mecanismos para fortalecerlo.</strong> Las modificaciones que excedan el 30% en los lineamientos, densidades y coeficientes serán revisadas por el <strong>IMPLAN</strong> y se tomarán en cuenta al momento de la actualización integral del plan. Los cambios de uso de suelo deberán ser presentados a través de un polígono de actuación.</p>
+
+<p>Los <strong>polígonos de actuación</strong> se proponen como un instrumento que permite la planeación integral de sectores específicos de la ciudad, de manera que se puedan incorporar acciones a corto, mediano y largo plazo. La ejecución de las acciones urbanas establecidas en los polígonos de actuación se podrán llevar a cabo mediante la participación privada, social o por cooperación. Cada polígono deberá estar justificado mediante los procedimientos que se mencionan en el reglamento.</p>
+
+<h3>Fomentar y proteger los espacios públicos</h3>
+
+<p>El reglamento <strong>incluye un capítulo destinado específicamente a la planeación, gestión y defensa de los espacios públicos.</strong> Promueve la equidad en su uso y disfrute. Asegura la accesibilidad y libre circulación. Se establecen mecanismos para ocupar los espacios públicos de manera temporal. Privilegia la preservación del espacio público para el tránsito de peatones y biciletas con normas técnicas para el deseño de ciclovías. Incluye normas técnicas para la instalación del mobiliario urbano.</p>
+
+<h3>Priorizar la movilidad no motorizada y la accesibilidad universal</h3>
+
+<p>La <strong>movilidad urbana sustentable</strong> es de gran trascendencia, <strong>representa la intención de promover ciudades a escala humana, orientadas al peatón y al ciclista.</strong> El reglamento integra el concepto de <strong>calles completas</strong> como alternativa de movilidad.</p>
+
+<p>La <strong>accesibilidad universal</strong> cuenta con un capítulo específico de normas técnicas para garantizar los derechos de las personas con discapacidad.</p>
+
+<h3>Reducir el impacto urbano generado por riesgos naturales y físicos</h3>
+
+<p>El capítulo de riesgos del reglamento tiene como finalidad <strong>reducir siniestros y riesgos</strong> en la realización de cualquier tipo de fraccionamientos, urbanizaciones y construcciones que pudieran afectar la integridad de las personas.</p>
+
+<p>Además, <strong>se propone que toda nueva construcción o fraccionamiento deberá contribuir a las obras para el manejo integral de aguas pluviales de la ciudad,</strong> con la finalidad de mitigar los efectos causados por las precipitaciones.</p>
+
+<h3>Promover la participación ciudadana en la toma de decisiones para el desarrollo urbano</h3>
+
+<p>La <strong>participación ciudadana en la toma de decisiones para el desarrollo urbano,</strong> se ordena a tavés de los diferentes órganos de consulta y apoyo técnico.</p>
+
+<p>La <strong>denuncia</strong> de cualquier acción urbana que contravenga lo dispuesto en las leyes, planes, programas y reglamentos podrá denunciarse por parte de cualquier persona.</p>
+
+<p>La <strong>figura del IMPLAN</strong> se incorpora con la finalidad de proponer al ayuntamiento los planes y programas a seguir a corto, mediano y largo plazo en materia de planeación urbana, mediante la consulta a las diferentes dependencias y entidades, así como a las organizaciones de la sociedad civil y personas físicas o morales a través de esquemas participativos.</p>
+
+<p>El <strong>reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcciones para el municipio de Torreón</strong> cuenta con avances significativos en la planeación y regulación del ordenamiento territorial y del desarrollo urbano. Integra diferentes propuestas que se plantean para la Reforma Urbana a nivel nacional y que representarán un impacto en la calidad de vida.</p>
+
+<h3>Dispersión Urbana</h3>
+
+<p><img class="img-responsive" src="normatividad-urbana-el-reto-de-las-ciudades-mexicanas/dipersion-urbana.jpg" alt="Dispersion Urbana"></p>
+
+<h3>Una versión de divulgación de este análisis apareció en Milenio Laguna</h3>
+
+<ul>
+<li><a href="http://www.milenio.com/negocios/Implan_Torreon-Desarrollo_Urbano_de_Torreon-Reglamento_de_Desarrollo_Urbano_0_700729974.html">Normatividad Urbana: el reto de las ciudades mexicanas</a></li>
+</ul>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fnormatividad-urbana-el-reto-de-las-ciudades-mexicanas.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
