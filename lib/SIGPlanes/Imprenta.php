@@ -41,7 +41,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         // Etiqueta de Navegación a poner activa
         $this->nombre_menu              = 'Información Geográfica > Planes';
         // Clase que concentrará a las publicaciones para hacer su propia página
-        $this->concentrador             = 'Tarjetas';
+        $this->concentrador             = 'Indice';
         // La ruta al archivo con el índice/galería que será creado
         $this->directorio               = 'sig-planes';
         $this->archivo_ruta             = 'sig-planes/index.html';
