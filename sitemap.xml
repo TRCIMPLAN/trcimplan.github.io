@@ -706,17 +706,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-patentes.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-patentes.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-patentes.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-patentes.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -731,17 +731,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-diversificacion-economica.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-diversificacion-economica.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-diversificacion-economica.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-diversificacion-economica.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1041,11 +1041,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-muertes-por-infecciones-instestinales.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-muertes-por-infecciones-instestinales.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1062,6 +1057,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-mujeres-en-la-fuerza-laboral.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-muertes-por-infecciones-instestinales.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1106,17 +1106,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-posgrados-de-calidad-por-cada-100mil-de-pea.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1141,11 +1141,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-centros-de-investigacion.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-centros-de-investigacion.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1166,6 +1161,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-centros-de-investigacion.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-personas-por-debajo-de-la-linea-de-bienestar.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1181,17 +1181,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-empresas-certificadas-con-iso-9000-y-14000.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-empresas-certificadas-con-iso-9000-y-14000.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-empresas-certificadas-con-iso-9000-y-14000.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-empresas-certificadas-con-iso-9000-y-14000.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1206,17 +1206,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-grandes-empresas-segun-cnn-expansion.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-grandes-empresas-segun-cnn-expansion.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-grandes-empresas-segun-cnn-expansion.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-grandes-empresas-segun-cnn-expansion.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1231,17 +1231,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-empresas.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-empresas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-empresas.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-empresas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1266,11 +1266,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-ciudad-fronteriza-o-portuaria.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-ciudad-fronteriza-o-portuaria.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1287,6 +1282,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-viviendas-con-piso-de-tierra.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-ciudad-fronteriza-o-portuaria.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1336,17 +1336,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-sitios-unesco.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-sitios-unesco.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-sitios-unesco.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-sitios-unesco.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1361,17 +1361,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-ocupacion-hotelera.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-ocupacion-hotelera.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-ocupacion-hotelera.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-ocupacion-hotelera.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1386,17 +1386,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1466,17 +1466,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-flujo-de-pasajeros-del-o-hacia-el-extranjero.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1521,17 +1521,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-inversion-extranjera-directa-neta.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-inversion-extranjera-directa-neta.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-inversion-extranjera-directa-neta.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-inversion-extranjera-directa-neta.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1571,17 +1571,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-del-salario-promedio.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-crecimiento-del-salario-promedio.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-crecimiento-del-salario-promedio.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-del-salario-promedio.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1596,17 +1596,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-del-pib-estatal.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-crecimiento-del-pib-estatal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-crecimiento-del-pib-estatal.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-del-pib-estatal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1621,17 +1621,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1646,17 +1646,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-cartera-hipotecaria-vencida.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-cartera-hipotecaria-vencida.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-cartera-hipotecaria-vencida.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-cartera-hipotecaria-vencida.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1671,17 +1671,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-tamano-del-mercado-hipotecario.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1736,11 +1736,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-credito-a-las-empresas.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-credito-a-las-empresas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1757,6 +1752,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-rendimiento-academico.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-credito-a-las-empresas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1786,11 +1786,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-periodistas-muertos-o-desaparecidos.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-periodistas-muertos-o-desaparecidos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1807,6 +1802,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-universidades-de-calidad.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-periodistas-muertos-o-desaparecidos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1836,11 +1836,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-demandantes-de-conflicto-laboral.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-demandantes-de-conflicto-laboral.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1857,6 +1852,11 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sociedad-visitas-a-museos-inah.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-demandantes-de-conflicto-laboral.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1901,17 +1901,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1926,17 +1926,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-poblacion-ocupada-sin-ingresos.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-poblacion-ocupada-sin-ingresos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-poblacion-ocupada-sin-ingresos.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-poblacion-ocupada-sin-ingresos.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1976,17 +1976,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-productividad-media-laboral.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-productividad-media-laboral.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-productividad-media-laboral.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-productividad-media-laboral.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2011,16 +2011,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-en-jornadas-laborales-muy-largas.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-participacion-ciudadana.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-crecimiento-en-jornadas-laborales-muy-largas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -2037,6 +2027,16 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/gobierno-participacion-ciudadana.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-en-jornadas-laborales-muy-largas.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-participacion-ciudadana.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2061,16 +2061,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-jornadas-laborales-muy-largas.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-duracion-de-periodo-para-ediles-y-delegados.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-jornadas-laborales-muy-largas.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -2087,6 +2077,16 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/gobierno-duracion-de-periodo-para-ediles-y-delegados.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-jornadas-laborales-muy-largas.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-duracion-de-periodo-para-ediles-y-delegados.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2111,16 +2111,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-percepcion-de-inseguridad.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -2141,6 +2131,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-percepcion-de-inseguridad.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-densidad-poblacional.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -2151,17 +2151,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-densidad-poblacional.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-densidad-poblacional.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-densidad-poblacional.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-densidad-poblacional.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2201,17 +2201,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tierra-ejidal.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-tierra-ejidal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-tierra-ejidal.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tierra-ejidal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2226,17 +2226,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-monto-reportado-en-robo-de-mercancias.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-monto-reportado-en-robo-de-mercancias.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-monto-reportado-en-robo-de-mercancias.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-monto-reportado-en-robo-de-mercancias.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2251,17 +2251,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-de-la-mancha-urbana.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-crecimiento-de-la-mancha-urbana.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-crecimiento-de-la-mancha-urbana.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-de-la-mancha-urbana.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2276,17 +2276,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-en-los-empleados-en-el-sector-formal.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-crecimiento-en-los-empleados-en-el-sector-formal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-crecimiento-en-los-empleados-en-el-sector-formal.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-crecimiento-en-los-empleados-en-el-sector-formal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2301,17 +2301,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-empleados-en-el-sector-formal.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-empleados-en-el-sector-formal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-empleados-en-el-sector-formal.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-empleados-en-el-sector-formal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2381,17 +2381,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-registro-de-una-propiedad-percentil-promedio.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-registro-de-una-propiedad-percentil-promedio.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-registro-de-una-propiedad-percentil-promedio.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-registro-de-una-propiedad-percentil-promedio.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2531,17 +2531,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-competencia-de-servicios-notariales.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-competencia-de-servicios-notariales.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-competencia-de-servicios-notariales.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-competencia-de-servicios-notariales.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2581,17 +2581,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-ingresos-propios.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-ingresos-propios.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/gobierno-ingresos-propios.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-ingresos-propios.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2606,17 +2606,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2701,17 +2701,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos-patrimoniales.html</loc>
-    <lastmod>2015-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-delitos-patrimoniales.html</loc>
     <lastmod>2015-06-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/seguridad-delitos-patrimoniales.html</loc>
+    <lastmod>2015-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos-patrimoniales.html</loc>
     <lastmod>2015-06-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2901,12 +2901,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-comun.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-presuntos-delitos-del-fuero-comun.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-presuntos-delitos-del-fuero-comun.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-comun.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2921,12 +2921,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-federal.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-presuntos-delitos-del-fuero-federal.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-presuntos-delitos-del-fuero-federal.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-federal.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2941,12 +2941,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -2961,12 +2961,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html</loc>
     <lastmod>2015-04-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3611,17 +3611,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tasa-de-informalidad.html</loc>
-    <lastmod>2014-12-11</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-tasa-de-informalidad.html</loc>
     <lastmod>2014-12-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-tasa-de-informalidad.html</loc>
+    <lastmod>2014-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tasa-de-informalidad.html</loc>
     <lastmod>2014-12-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3646,17 +3646,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-empresas-exportadoras.html</loc>
-    <lastmod>2014-12-05</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-empresas-exportadoras.html</loc>
     <lastmod>2014-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-empresas-exportadoras.html</loc>
+    <lastmod>2014-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-empresas-exportadoras.html</loc>
     <lastmod>2014-12-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3791,17 +3791,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-trabajadores-asegurados.html</loc>
-    <lastmod>2014-11-07</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-trabajadores-asegurados.html</loc>
     <lastmod>2014-11-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-trabajadores-asegurados.html</loc>
+    <lastmod>2014-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-trabajadores-asegurados.html</loc>
     <lastmod>2014-11-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -4886,236 +4886,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-ejecucion-de-contratos.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-grandes-empresas.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-competitividad-urbana.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-comercio.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-industria-manufacturera.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-la-construccion.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-la-mineria.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-servicios.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-gini.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-inversion-extranjera-directa.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-inversion-per-capita.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-medianas-empresas.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-microempresas.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-pequenas-empresas.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-posgrados-de-calidad.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-produccion-bruta-total-per-capita.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-productividad-laboral.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tasa-de-desempleo-abierto.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-total-de-empresas-registradas-en-el-siem.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-unidades-economicas-dedicadas-a-los-servicios.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-unidades-economicas-dedicadas-al-comercio.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-capacidad-financiera.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-competencia-electoral.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-cumplimiento-en-informacion-publica-minina.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-ingresos-por-cobro-de-servicios.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-ingresos-totales.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-ingresos-totales-per-capita.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-participacion-electoral.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-accidentes-viales.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-accidentes-viales-fatales.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-homicidios.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-porcentaje-de-accidentes-viales-fatales.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-a-negocios.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-a-transeuntes.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-de-vehiculos.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robos-a-casa-habitacion.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-apertura-de-un-negocio.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -6182,6 +5952,236 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-ejecucion-de-contratos.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-grandes-empresas.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-competitividad-urbana.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-comercio.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-industria-manufacturera.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-la-construccion.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-la-mineria.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-especializacion-local-en-servicios.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-indice-de-gini.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-inversion-extranjera-directa.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-inversion-per-capita.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-medianas-empresas.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-microempresas.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-pequenas-empresas.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-posgrados-de-calidad.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-produccion-bruta-total-per-capita.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-productividad-laboral.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tasa-de-desempleo-abierto.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-total-de-empresas-registradas-en-el-siem.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-unidades-economicas-dedicadas-a-los-servicios.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-unidades-economicas-dedicadas-al-comercio.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-capacidad-financiera.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-competencia-electoral.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-cumplimiento-en-informacion-publica-minina.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-ingresos-por-cobro-de-servicios.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-ingresos-totales.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-ingresos-totales-per-capita.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-participacion-electoral.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-accidentes-viales.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-accidentes-viales-fatales.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-delitos.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-homicidios.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-porcentaje-de-accidentes-viales-fatales.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-a-negocios.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-a-transeuntes.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robo-de-vehiculos.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/seguridad-robos-a-casa-habitacion.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
