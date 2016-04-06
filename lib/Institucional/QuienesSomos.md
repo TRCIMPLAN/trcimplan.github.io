@@ -29,7 +29,6 @@ Arq. Daniela Patricia Corral Hernández   | Analista SIG
 Arq. Cecilio Pedro Secunza Schott        | Regeneración Urbana
 **Arq. María Ilce Leticia Ávila García** | **Director de Proyectos Estratégicos**
 Arq. Ángeles Melisa Rodríguez Salas      | Analista de Costos
-Arq. María Susana Montano García         | Integración de Proyectos
 Lic. Adriana Vargas Flores               | Integración de Proyectos
 Lic. Hugo Elohím Ramírez Martínez        | Gestión y Difusión Social
 Lic. Israel Sinai Charur Méndez          | Difusión y Diseño Gráfico
