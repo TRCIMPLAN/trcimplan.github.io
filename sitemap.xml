@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2016-04-14</lastmod>
+    <lastmod>2016-04-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/blog/la-necesidad-de-una-planeacion-urbana-sustentable.html</loc>
     <lastmod>2016-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sala-prensa/2016-04-13-diagnostico-politica-industrial.html</loc>
+    <lastmod>2016-04-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -3431,12 +3436,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/../sig-planes/index.html</loc>
+    <loc>http://www.trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/plan-director-de-desarrollo-urbano-de-municipio-de-torreon.pdf</loc>
+    <loc>http://www.trcimplan.gob.mx/../sig-planes/index.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
