@@ -32,3 +32,6 @@ oferta y demanda de profesionistas y talento puedan articular acciones coordinad
 para mejorar el nivel de preparación de los jóvenes. Lo cual contribuirá a elevar
 la calidad del capital humano y, por ende, la productividad y competitividad de la
 región.
+
+<a class="btn btn-default" href="cidac-profesionistas-torreon-01-introduccion.html" role="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Introducción</a>
+<a class="btn btn-default pull-right" href="cidac-profesionistas-torreon-03-metodologia.html" role="button">Metodología <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>

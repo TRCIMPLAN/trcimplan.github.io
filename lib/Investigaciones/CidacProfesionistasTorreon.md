@@ -1,8 +1,17 @@
 
+### Nota del administrador del sitio web
+
+Recomendación: _Use los botones que aparecen en la parte inferior de cada página para navegar a través del contenido._
+
 ### Contenido
 
-1. [Introducción]()
-2. [Un vistazo a Torreón]()
+1. [Introducción](cidac-profesionistas-torreon-01-introduccion.html)
+2. [Un vistazo a Torreón](cidac-profesionistas-torreon-02-un-vistazo-a-torreon.html)
+3. [Metodología](cidac-profesionistas-torreon-03-metodologia.html)
+4. [Sectores Evaluados](cidac-profesionistas-torreon-04-sectores-involucrados.html)
+5. [Resultados](cidac-profesionistas-torreon-05-resultados.html)
+6. [Recomendaciones](cidac-profesionistas-torreon-06-recomendaciones.html)
+7. [Conclusión](cidac-profesionistas-torreon-07-conclusion.html)
 
 México 2016
 
@@ -56,3 +65,5 @@ El CIDAC cuenta con un patronato responsable de la supervisión de la administra
 del Centro y de la aprobación de las áreas generales de estudio. Sin embargo,
 las conclusiones de los diversos estudios, así como sus publicaciones, son
 responsabilidad exclusiva de los profesionales de la institución.
+
+<a class="btn btn-default pull-right" href="cidac-profesionistas-torreon-01-introduccion.html" role="button">Introducción <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>

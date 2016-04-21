@@ -168,12 +168,13 @@ class PaginaInicialConfig extends \Base\Plantilla {
     protected function aviso() {
         $this->contenido[] = '    <div class="panel" style="margin:4px;border:2px solid #FF3300;">';
         $this->contenido[] = '        <div class="panel-heading" style="background-color:#FFFFFF">';
-        $this->contenido[] = '            <h2>Elección de Consejeros de Representación Sectorial 2015</h2>';
-        $this->contenido[] = '            <div>Resultado del proceso de elección de los ciudadanos que van a formar parte del Consejo Directivo como Consejeros de Representación Sectorial en el IMPLAN Torreón.</div>';
+        $this->contenido[] = '            <h2><a href="investigaciones/cidac-profesionistas-torreon.html">Profesionistas Torreón</a></h2>';
+        $this->contenido[] = '            <a class="pull-left" href="investigaciones/cidac-profesionistas-torreon.html"><img class="media-object" src="investigaciones/cidac-profesionistas-torreon/imagen-previa.png"></a>';
+        $this->contenido[] = '            <p>Nos adentramos al ámbito local para analizar y contestar la pregunta: ¿existe o no una brecha de talento y competencias en Torreón?.</p> <p>Colaboraron el <b>Centro de Investigación para el Desarrollo, A.C. (CIDAC)</b> y  el <b>Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN)</b> para conocer las dinámicas económicas y de capital humano de la ciudad.</p>';
         $this->contenido[] = '        </div>';
-        $this->contenido[] = '        <a href="consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015.html">';
+        $this->contenido[] = '        <a href="investigaciones/cidac-profesionistas-torreon.html">';
         $this->contenido[] = '            <div class="panel-footer" style="background-color:#CACACA">';
-        $this->contenido[] = '                <span class="pull-left">Ir a la página</span>';
+        $this->contenido[] = '                <span class="pull-left">Leer la investigación</span>';
         $this->contenido[] = '                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>';
         $this->contenido[] = '                <div class="clearfix"></div>';
         $this->contenido[] = '            </div>';

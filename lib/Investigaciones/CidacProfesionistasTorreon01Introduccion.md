@@ -66,3 +66,6 @@ de capital humano de la ciudad. Así, utilizando la metodología desarrollada pa
 Encuesta de Competencias Profesionales 2014 y adaptándola a las condiciones y
 características locales, pudimos conocer la naturaleza de la brecha de competencias
 y los retos en términos de capital humano de la localidad.
+
+<a class="btn btn-default" href="cidac-profesionistas-torreon.html" role="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Portada</a>
+<a class="btn btn-default pull-right" href="cidac-profesionistas-torreon-02-un-vistazo-a-torreon.html" role="button">Un Vistazo a Torreón <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>

@@ -90,3 +90,6 @@ darse a conocer entre la comunidad educativa. Esto se puede lograr, por
 ejemplo, a través de “días abiertos” o “días de” en donde los jóvenes visiten la
 empresa o los reclutadores y directores visiten la IES para establecer dichos
 vínculos.
+
+<a class="btn btn-default" href="cidac-profesionistas-torreon-05-resultados.html" role="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Resultados</a>
+<a class="btn btn-default pull-right" href="cidac-profesionistas-torreon-07-conclusion.html" role="button">Conclusión <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>

@@ -16,9 +16,12 @@ distinta entre lo que necesita RRHH y las áreas funcionales.
 
 De acuerdo a esta metodología, los sectores clave para la ciudad de Torreón son:
 
-    − la industria manufacturera,
-    − el comercio al por menor,
-    − el comercio al por mayor,
-    − y los servicios de apoyo a los negocios y manejo de desechos y servicios
+* la industria manufacturera,
+* el comercio al por menor,
+* el comercio al por mayor,
+* y los servicios de apoyo a los negocios y manejo de desechos y servicios
 
 de remediación.
+
+<a class="btn btn-default" href="cidac-profesionistas-torreon-03-metodologia.html" role="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Metodología</a>
+<a class="btn btn-default pull-right" href="cidac-profesionistas-torreon-05-resultados.html" role="button">Resultados <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>

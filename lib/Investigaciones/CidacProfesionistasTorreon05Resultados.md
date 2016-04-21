@@ -24,22 +24,26 @@ están abiertos en la localidad. La modalidad de estos esquemas de vinculación 
 frecuente son las prácticas profesionales de los estudiantes en las empresas, seguido
 de las estadías o residencias de estudiantes de las IES técnicas, principalmente.
 
-### Gráfica 1.
+### Gráfica 1 - Empresas que tienen esquemas de vinculación con IES
 
-Empresas que tienen esquemas de vinculación con IES
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-01.png" alt="">
 
-Si 17%
-No 83%
+Empresas que tienen esquemas de vinculación con IES | Resultado
+----------------------------------------------------|----------:
+Si                                                  |       17%
+No                                                  |       83%
 
-### Gráfica 2.
+### Gráfica 2 - Esquemas de Vinculación
 
-Esquemas de Vinculación
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-02.png" alt="">
 
-Prácticas profesionales de los estudiantes (becarios) 33%
-Estadías/residencias profesionales de los estudiantes 25%
-Bolsa de trabajo 25%
-Estadías/residencias profesionales de los académicos 8%
-Contratación de becarios 8%
+Esquemas de Vinculación                               | Resultado
+------------------------------------------------------|----------:
+Prácticas profesionales de los estudiantes (becarios) |       33%
+Estadías/residencias profesionales de los estudiantes |       25%
+Bolsa de trabajo                                      |       25%
+Estadías/residencias profesionales de los académicos  |        8%
+Contratación de becarios                              |        8%
 
 Si bien la mayoría de las IES tienen esquemas de vinculación con empresas, estos
 se limitan a esquemas de contratación de interns o “becarios” y a la publicación
@@ -63,16 +67,18 @@ proceso de selección. Asimismo, las empresas siguen revisando los curriculum vi
 (CV) de los jóvenes, por lo cual, es esencial que las IES enseñen a sus estudiantes
 cómo armar un CV, así como los elementos básicos de una entrevista laboral.
 
-### Gráfica 3.
+### Gráfica 3 - Esquemas de Vinculación
 
-Prácticas de selección
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-03.png" alt="">
 
-Entrevista 28
-Examen de conocimiento 17
-Revisión de currícula 22
-Examen psicométrico 17
-Recomendación 5
-Otro 11
+Prácticas de selección | Resultado
+-----------------------|----------:
+Entrevista             |        28
+Examen de conocimiento |        17
+Revisión de currícula  |        22
+Examen psicométrico    |        17
+Recomendación          |         5
+Otro                   |        11
 
 Por otro lado, las prácticas de reclutamiento y contacto con los jóvenes profesionistas
 son dominadas por las bolsas de trabajo de las universidades o IES. Además, si
@@ -85,18 +91,20 @@ empresa y los jóvenes. Las recomendaciones directas a la empresa, o de los fami
 De hecho, el 40% de los jóvenes reclutados por las empresas entrevistadas llegaron
 por medio de estos contactos.
 
-### Gráfica 4.
+### Gráfica 4 - Formas de reclutamiento
 
-Formas de reclutamiento
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-04.png" alt="">
 
-Bolsa de trabajo universitaria 20%
-Conocidos de trabajadores en la empresa 20%
-Ferias de empleo 13%
-Redes sociales 13%
-Recomendaciones 13%
-Bolsa de trabajo del gobierno municipal, estatal, federal 7%
-Familiares de trabajadores en la empresa 7%
-Bolsa de trabajo en línea 7%
+Formas de reclutamiento                                   |
+----------------------------------------------------------|----:
+Bolsa de trabajo universitaria                            | 20%
+Conocidos de trabajadores en la empresa                   | 20%
+Ferias de empleo                                          | 13%
+Redes sociales                                            | 13%
+Recomendaciones                                           | 13%
+Bolsa de trabajo del gobierno municipal, estatal, federal |  7%
+Familiares de trabajadores en la empresa                  |  7%
+Bolsa de trabajo en línea                                 |  7%
 
 La evidencia demuestra cómo las prácticas de reclutamiento y selección de empleo
 no han variado mucho en los últimos años. No obstante, en cuanto al tema de
@@ -112,18 +120,20 @@ los jóvenes son: “no saberse vender”, “falta de competencias suaves” y 
 competencias duras”; las tres categorías equivalen al 44% de las razones por las
 cuales no se contratan a los jóvenes.
 
-### Gráfica 5.
+### Gráfica 5 - Razones de rechazo
 
-Razones de rechazo
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-05.png" alt="">
 
-Falta de experiencia laboral 24%
-No se sabe vender 18%
-Falta de competencias suaves (sociales) 14%
-Baja escolaridad 12%
-Falta de competencias duras (técnicas) 12%
-Aspiraciones salariales altas 10%
-Mala imagen 9%
-Irresponsabilidad 1%
+Razones de rechazo                      |
+----------------------------------------|----:
+Falta de experiencia laboral            | 24%
+No se sabe vender                       | 18%
+Falta de competencias suaves (sociales) | 14%
+Baja escolaridad                        | 12%
+Falta de competencias duras (técnicas)  | 12%
+Aspiraciones salariales altas           | 10%
+Mala imagen                             |  9%
+Irresponsabilidad                       |  1%
 
 ### Competencias
 
@@ -149,70 +159,54 @@ tenido una vacante sin llenar durante el último año a pesar de que tuvieron po
 candidatos para el puesto. Este porcentaje es alto si se compara con el tamaño de
 la brecha a nivel nacional que, de acuerdo a la ENCOP 2014, es de 26%.
 
-### Gráfica 6.
+### Gráfica 6 - Tamaño de la brecha
+
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-06.png" alt="">
 
 Tamaño de la brecha
 
 Si 42%
 No 58%
 
-### Gráfica 7.
+### Gráfica 7 - Competencias Generales
 
-Competencias Generales
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-07.png" alt="">
 
-### Gráfica 8.
+### Gráfica 8 - Cultura General
 
-Cultura General
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-08.png" alt="">
 
-### Gráfica 9.
+### Gráfica 9 - Herramientas de la Comunicación
 
-Herramientas de la Comunicación
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-09.png" alt="">
 
-Comunicación escrita en español
-Comunicación oral en español
-Comunicación escrita en inglés
-Comunicación oral en inglés
-Comunicación en otro idioma
-Capacidad de síntesis de información
+### Gráfica 10 - Comunicación con otros
 
-### Gráfica 10.
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-10.png" alt="">
 
-Comunicación con otros
+### Gráfica 11 - Trabajo en equipo
 
-### Gráfica 11.
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-11.png" alt="">
 
-Trabajo en equipo
+### Gráfica 12 - Innovación/emprendimiento
 
-### Gráfica 12.
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-12.png" alt="">
 
-Innovación/emprendimiento
+### Gráfica 13 - Liderazgo
 
-Detección de oportunidades de mejora en procesos y/o producto
-Detección de nuevas oportunidades de negocio
-Implementación de nuevos proyectos
-Generación de nuevas ideas
-Importación o adaptación de prácticas de otros sectores
-Desarrollo de alianzas estratégicas
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-13.png" alt="">
 
-### Gráfica 13.
+### Gráfica 14 - Imagen personal
 
-Liderazgo
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-14.png" alt="">
 
-### Gráfica 14.
+### Gráfica 15 - Eficiencia personal
 
-Imagen personal
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-15.png" alt="">
 
-Puntualidad
-Saber tratar a un cliente
-Carisma
-Aspecto físico
-Vestimenta y arreglo personal congruentes con empresa
-Modales congruentes con la empresa
+### Gráfica 16 - Inteligencia emocional
 
-### Gráfica 15.
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-16.png" alt="">
 
-Eficiencia personal
-
-### Gráfica 16.
-
-Inteligencia emocional
+<a class="btn btn-default" href="cidac-profesionistas-torreon-04-sectores-evaluados.html" role="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Sectores Evaluados</a>
+<a class="btn btn-default pull-right" href="cidac-profesionistas-torreon-06-recomendaciones.html" role="button">Recomendaciones <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>

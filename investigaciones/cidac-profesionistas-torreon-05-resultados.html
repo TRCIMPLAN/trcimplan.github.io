@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Utilizando la metodología desarrollada para la Encuesta de Competencias Profesionales 2014 y adaptándola a las condiciones y características locales, pudimos conocer la naturaleza de la brecha de competencias y los retos en términos de capital humano de la localidad.">
+  <meta name="author" content="CIDAC">
+  <meta name="keywords" content="IMPLAN, Torreon">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Profesionistas Torreón - Resultados - IMPLAN Torreón">
+  <meta name="twitter:description" content="Utilizando la metodología desarrollada para la Encuesta de Competencias Profesionales 2014 y adaptándola a las condiciones y características locales, pudimos conocer la naturaleza de la brecha de competencias y los retos en términos de capital humano de la localidad.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon/imagen-previa.png">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon-05-resultados.html">
+  <meta name="og:title" content="Profesionistas Torreón - Resultados - IMPLAN Torreón">
+  <meta name="og:description" content="Utilizando la metodología desarrollada para la Encuesta de Competencias Profesionales 2014 y adaptándola a las condiciones y características locales, pudimos conocer la naturaleza de la brecha de competencias y los retos en términos de capital humano de la localidad.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon/imagen-previa.png">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/investigaciones/cidac-profesionistas-torreon-05-resultados.html">
+  <title>Profesionistas Torreón - Resultados - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+              <div class="encabezado" style="background-color:#646464;">
+          <h1 itemprop="name">Profesionistas Torreón - Resultados</h1>
+          <div class="encabezado-descripcion" itemprop="description">Utilizando la metodología desarrollada para la Encuesta de Competencias Profesionales 2014 y adaptándola a las condiciones y características locales, pudimos conocer la naturaleza de la brecha de competencias y los retos en términos de capital humano de la localidad.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">CIDAC</span>
+          - <meta itemprop="datePublished" content="2016-04-21T14:50">21/04/2016 14:50
+        </div>
+        </div>
+        <meta itemprop="image" alt="Profesionistas Torreón - Resultados" src="cidac-profesionistas-torreon/imagen.png">
+              <div itemprop="articleBody">
+        <h3>Vinculación entre empresas e IES</h3>
+
+<p>La vinculación entre las empresas y las IES es una práctica que otorga múltiples
+beneficios a los actores más relevantes de esta ecuación, tales como: jóvenes, IES
+y empresas. No obstante, esta práctica no se da ni con la calidad ni la frecuencia
+deseable.</p>
+
+<p>La cooperación entre las empresas y las IES reduce la información asimétrica
+entre ambas instituciones. Una manera de mejorar la calidad del capital humano
+tiene lugar cuando, por un lado, las empresas comparten información sobre las
+características y el tipo de competencias que necesitan de los jóvenes egresados. Y,
+por otro lado, las IES desarrollan, validan, complementan y comunican el desarrollo
+de sus planes de estudio con los directores de Recursos Humanos y directores de
+áreas funcionales de las empresas para atender las preocupaciones del mercado
+laboral. De esta manera se pueden atender carencias en los conocimientos y
+habilidades de los jóvenes desde las aulas de la universidad y se pueden anticipar
+las necesidades del sector laboral.</p>
+
+<p>En este sentido, en Torreón el 83% de las IES entrevistadas tienen alguna forma de
+colaboración con las empresas. Este resultado es alentador ya que significa que
+los canales de comunicación y cooperación entre el sector productivo y educativo
+están abiertos en la localidad. La modalidad de estos esquemas de vinculación más
+frecuente son las prácticas profesionales de los estudiantes en las empresas, seguido
+de las estadías o residencias de estudiantes de las IES técnicas, principalmente.</p>
+
+<h3>Gráfica 1 - Empresas que tienen esquemas de vinculación con IES</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-01.png" alt=""></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Empresas que tienen esquemas de vinculación con IES</th>
+  <th align="right">Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Si</td>
+  <td align="right">17%</td>
+</tr>
+<tr>
+  <td>No</td>
+  <td align="right">83%</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Gráfica 2 - Esquemas de Vinculación</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-02.png" alt=""></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Esquemas de Vinculación</th>
+  <th align="right">Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Prácticas profesionales de los estudiantes (becarios)</td>
+  <td align="right">33%</td>
+</tr>
+<tr>
+  <td>Estadías/residencias profesionales de los estudiantes</td>
+  <td align="right">25%</td>
+</tr>
+<tr>
+  <td>Bolsa de trabajo</td>
+  <td align="right">25%</td>
+</tr>
+<tr>
+  <td>Estadías/residencias profesionales de los académicos</td>
+  <td align="right">8%</td>
+</tr>
+<tr>
+  <td>Contratación de becarios</td>
+  <td align="right">8%</td>
+</tr>
+</tbody>
+</table>
+
+<p>Si bien la mayoría de las IES tienen esquemas de vinculación con empresas, estos
+se limitan a esquemas de contratación de interns o “becarios” y a la publicación
+de vacantes en las bolsas de trabajo universitarias. Cuando le preguntamos a las
+empresas si contaban con convenios formales para modificar y diseñar planes de
+estudios de forma sistemática con las IES, desafortunadamente, todas las empresas
+contestaron que no. Es evidente que existe un área de oportunidad significativa para
+llevar las modalidades de vinculación actuales (qué son las más simples) a tipos de
+vinculación más sofisticadas como el llegar a establecer canales de colaboración
+y diálogo entre ambos actores para actualizar o desarrollar los planes de estudio.
+Especialmente si tomamos en cuenta que, tanto las empresas como las IES,
+consideran que estas sinergias son útiles para atender las demandas y necesidades
+de capital humano local.</p>
+
+<h3>Prácticas de reclutamiento</h3>
+
+<p>Las prácticas de selección y el contexto del empleo entre los jóvenes muestran
+resultados variados. Por un lado, las respuestas de las empresas confirman que la
+entrevista de trabajo continúa siendo una de las principales herramientas para el
+proceso de selección. Asimismo, las empresas siguen revisando los curriculum vitae
+(CV) de los jóvenes, por lo cual, es esencial que las IES enseñen a sus estudiantes
+cómo armar un CV, así como los elementos básicos de una entrevista laboral.</p>
+
+<h3>Gráfica 3 - Esquemas de Vinculación</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-03.png" alt=""></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Prácticas de selección</th>
+  <th align="right">Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Entrevista</td>
+  <td align="right">28</td>
+</tr>
+<tr>
+  <td>Examen de conocimiento</td>
+  <td align="right">17</td>
+</tr>
+<tr>
+  <td>Revisión de currícula</td>
+  <td align="right">22</td>
+</tr>
+<tr>
+  <td>Examen psicométrico</td>
+  <td align="right">17</td>
+</tr>
+<tr>
+  <td>Recomendación</td>
+  <td align="right">5</td>
+</tr>
+<tr>
+  <td>Otro</td>
+  <td align="right">11</td>
+</tr>
+</tbody>
+</table>
+
+<p>Por otro lado, las prácticas de reclutamiento y contacto con los jóvenes profesionistas
+son dominadas por las bolsas de trabajo de las universidades o IES. Además, si
+consideramos la importancia de otras bolsas de trabajo como las gubernamentales
+o en línea, es evidente que las bolsas de trabajo de toda índole siguen siendo los
+más utilizados por las empresas en Torreón.</p>
+
+<p>Las relaciones interpersonales o “los conocidos” son un medio de contacto entre la
+empresa y los jóvenes. Las recomendaciones directas a la empresa, o de los familiares y conocidos de los jóvenes que trabajan en la empresa son muy importantes.
+De hecho, el 40% de los jóvenes reclutados por las empresas entrevistadas llegaron
+por medio de estos contactos.</p>
+
+<h3>Gráfica 4 - Formas de reclutamiento</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-04.png" alt=""></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Formas de reclutamiento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Bolsa de trabajo universitaria                            | 20%</td>
+</tr>
+<tr>
+  <td>Conocidos de trabajadores en la empresa                   | 20%</td>
+</tr>
+<tr>
+  <td>Ferias de empleo                                          | 13%</td>
+</tr>
+<tr>
+  <td>Redes sociales                                            | 13%</td>
+</tr>
+<tr>
+  <td>Recomendaciones                                           | 13%</td>
+</tr>
+<tr>
+  <td>Bolsa de trabajo del gobierno municipal, estatal, federal |  7%</td>
+</tr>
+<tr>
+  <td>Familiares de trabajadores en la empresa                  |  7%</td>
+</tr>
+<tr>
+  <td>Bolsa de trabajo en línea                                 |  7%</td>
+</tr>
+</tbody>
+</table>
+
+<p>La evidencia demuestra cómo las prácticas de reclutamiento y selección de empleo
+no han variado mucho en los últimos años. No obstante, en cuanto al tema de
+competencias y preparación, hemos encontrado evidencia de que a pesar de que
+los entrevistados reconocieron que la “falta de experiencia laboral” es el principal
+obstáculo para contratar jóvenes, la falta de competencias suaves y duras también
+evita que una gran proporción de jóvenes no sean contratados.</p>
+
+<p>A lo largo del estudio encontramos evidencia de la importancia de las competencias,
+tanto duras como suaves, en el proceso y decisión de contratación de un joven
+profesional. Las razones más comunes por las cuales las empresas no contratan a
+los jóvenes son: “no saberse vender”, “falta de competencias suaves” y la “falta de
+competencias duras”; las tres categorías equivalen al 44% de las razones por las
+cuales no se contratan a los jóvenes.</p>
+
+<h3>Gráfica 5 - Razones de rechazo</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-05.png" alt=""></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Razones de rechazo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Falta de experiencia laboral            | 24%</td>
+</tr>
+<tr>
+  <td>No se sabe vender                       | 18%</td>
+</tr>
+<tr>
+  <td>Falta de competencias suaves (sociales) | 14%</td>
+</tr>
+<tr>
+  <td>Baja escolaridad                        | 12%</td>
+</tr>
+<tr>
+  <td>Falta de competencias duras (técnicas)  | 12%</td>
+</tr>
+<tr>
+  <td>Aspiraciones salariales altas           | 10%</td>
+</tr>
+<tr>
+  <td>Mala imagen                             |  9%</td>
+</tr>
+<tr>
+  <td>Irresponsabilidad                       |  1%</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Competencias</h3>
+
+<p>A continuación se presentan las gráficas y datos sobre el tamaño de la brecha de
+competencias, un desglose de las competencias más importantes y más escasas, así
+como la importancia y escasez relativa para cada grupo de competencias suaves.(2)</p>
+
+<p>2) La importancia y escasez relativa de las competencias duras no se pudo obtener ya que el número
+de respuestas representativas para dichas competencias fue insuficiente.</p>
+
+<h3>Tamaño de la brecha</h3>
+
+<p>La brecha de competencias se mide tomando en cuenta la proporción de vacantes
+que tienen las empresas y que no han podido llenar a pesar de haber tenido
+candidatos que se postularon para el puesto. Es decir, queremos aproximar cuántas
+vacantes permanecieron vacías dado que los jóvenes que llegaron a preguntar
+por esta o que inclusive completaron alguna parte del proceso de reclutamiento
+no fueron contratados porque no estaban lo suficientemente preparados o no
+cumplían con los requisitos necesarios.</p>
+
+<p>En Torreón, alrededor de 6 de cada 10 empresas entrevistadas afirmaron haber
+tenido una vacante sin llenar durante el último año a pesar de que tuvieron posibles
+candidatos para el puesto. Este porcentaje es alto si se compara con el tamaño de
+la brecha a nivel nacional que, de acuerdo a la ENCOP 2014, es de 26%.</p>
+
+<h3>Gráfica 6 - Tamaño de la brecha</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-06.png" alt=""></p>
+
+<p>Tamaño de la brecha</p>
+
+<p>Si 42%
+No 58%</p>
+
+<h3>Gráfica 7 - Competencias Generales</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-07.png" alt=""></p>
+
+<h3>Gráfica 8 - Cultura General</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-08.png" alt=""></p>
+
+<h3>Gráfica 9 - Herramientas de la Comunicación</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-09.png" alt=""></p>
+
+<h3>Gráfica 10 - Comunicación con otros</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-10.png" alt=""></p>
+
+<h3>Gráfica 11 - Trabajo en equipo</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-11.png" alt=""></p>
+
+<h3>Gráfica 12 - Innovación/emprendimiento</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-12.png" alt=""></p>
+
+<h3>Gráfica 13 - Liderazgo</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-13.png" alt=""></p>
+
+<h3>Gráfica 14 - Imagen personal</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-14.png" alt=""></p>
+
+<h3>Gráfica 15 - Eficiencia personal</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-15.png" alt=""></p>
+
+<h3>Gráfica 16 - Inteligencia emocional</h3>
+
+<p><img class="img-responsive" src="cidac-profesionistas-torreon/grafica-16.png" alt=""></p>
+
+<p><a class="btn btn-default" href="cidac-profesionistas-torreon-04-sectores-evaluados.html" role="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Sectores Evaluados</a>
+<a class="btn btn-default pull-right" href="cidac-profesionistas-torreon-06-recomendaciones.html" role="button">Recomendaciones <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a></p>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

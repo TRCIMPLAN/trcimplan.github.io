@@ -44,3 +44,5 @@ algún tipo de convenio o práctica de colaboración con las IES. Sin embargo, e
 reto para ambos actores de la ciudad tiene que ver con estrechar estos lazos de
 forma más sistemática, institucionalizada y con mayor ambición para contar con un
 capital humano joven capaz de lograr el potencial productivo de Torreón.
+
+<a class="btn btn-default" href="cidac-profesionistas-torreon-06-recomendaciones.html" role="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Recomendaciones</a>

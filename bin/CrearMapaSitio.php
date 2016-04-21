@@ -46,6 +46,7 @@ $directorios = array(
     'ConsejoDirectivo',
     'Contacto',
     'Institucional',
+    'Investigaciones',
     'PlanEstrategicoMetropolitano',
     'PreguntasFrecuentes',
     'Proyectos',
