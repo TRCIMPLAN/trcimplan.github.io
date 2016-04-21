@@ -173,7 +173,7 @@ la brecha a nivel nacional que, de acuerdo a la ENCOP 2014, es de 26%.
 
 ### Gráfica 9 - Herramientas de la Comunicación
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-09.png" alt="">
+_Pendiente. En revisión._
 
 ### Gráfica 10 - Comunicación con otros
 
