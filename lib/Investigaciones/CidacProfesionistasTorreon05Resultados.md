@@ -95,7 +95,7 @@ por medio de estos contactos.
 
 <img class="img-responsive" src="cidac-profesionistas-torreon/grafica-04.png" alt="">
 
-Formas de reclutamiento                                   |
+Formas de reclutamiento                                   | Resultado
 ----------------------------------------------------------|----:
 Bolsa de trabajo universitaria                            | 20%
 Conocidos de trabajadores en la empresa                   | 20%
@@ -124,7 +124,7 @@ cuales no se contratan a los jóvenes.
 
 <img class="img-responsive" src="cidac-profesionistas-torreon/grafica-05.png" alt="">
 
-Razones de rechazo                      |
+Razones de rechazo                      | Resultado
 ----------------------------------------|----:
 Falta de experiencia laboral            | 24%
 No se sabe vender                       | 18%
@@ -162,11 +162,6 @@ la brecha a nivel nacional que, de acuerdo a la ENCOP 2014, es de 26%.
 ### Gráfica 6 - Tamaño de la brecha
 
 <img class="img-responsive" src="cidac-profesionistas-torreon/grafica-06.png" alt="">
-
-Tamaño de la brecha
-
-Si 42%
-No 58%
 
 ### Gráfica 7 - Competencias Generales
 
