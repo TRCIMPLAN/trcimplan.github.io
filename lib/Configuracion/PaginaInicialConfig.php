@@ -183,6 +183,23 @@ class PaginaInicialConfig extends \Base\Plantilla {
     } // aviso
 
     /**
+     * Promociones
+     */
+    protected function promociones() {
+        $this->contenido[] = '    <div class="panel" style="margin:4px;border:2px solid #FF3300;">';
+        $this->contenido[] = '        <div class="panel-heading" style="background-color:#FFFFFF">';
+        $this->contenido[] = '            <h2><a href="http://www.ecal.mx/">Expo Congreso Automotriz Laguna</a></h2>';
+        $this->contenido[] = '            <a class="pull-left" href="http://www.ecal.mx/"><img class="media-object" src="imagenes/ecal.png"></a>';
+        $this->contenido[] = '            <p>El encuentro de negocios más importante de la industria automotriz se llevará a cabo en nuestra región, el 26, 27 y 28 de abril en las instalaciones de le Expo Feria Torreón. La Expo Congreso Automotriz Laguna, promueve la competitividad y la productividad con el fin de elevar a nivel nacional, a nuestras ciudades de Coahuila Durango como fuertes desarrolladoras en el ramo.</p>';
+        $this->contenido[] = '        </div>';
+        $this->contenido[] = '    </div>';
+    } // promociones
+
+/* En este evento los participantes encontrarán a los proveedores que buscan para dar a conocer su empresa, ofrecer productos o servicios directamente con personal de compras de las empresas participantes, y ser parte de la feria del empleo para encontrar el personal calificado.
+
+Con ello se busca incentivar el conocimiento y desarrollo de nuevos ingenieros, se contará con demostraciones de desarrollos tecnológicos por parte de instituciones académicas de la región y se tendrán conferencistas de nivel nacional e internacional. */
+
+    /**
      * Novedades
      */
     protected function novedades() {
@@ -290,6 +307,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->destacado();
         $this->aviso();
         $this->novedades();
+        $this->promociones();
         $this->mapa();
         $this->redes();
         // Entregar resultado del método en el padre
