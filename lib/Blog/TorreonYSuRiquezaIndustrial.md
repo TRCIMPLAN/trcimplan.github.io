@@ -68,7 +68,7 @@ Agricultura, Información en medios masivos, Transporte, Generación y distribuc
 
 ### Mapa de los Parques Industriales en Torreón
 
-<img class="img-responsive" src="torreon-y-su-riqueza-industrial/mapa-parques-industriales.jpg" alt="Mapa de los Parques Industriales en Torreon">
+<img class="img-responsive" src="torreon-y-su-riqueza-industrial/zonas-industriales-de-torreon.jpg" alt="Zonas Industriales de Torreon">
 
 ### Una versión de divulgación de este análisis apareció en Milenio Laguna
 

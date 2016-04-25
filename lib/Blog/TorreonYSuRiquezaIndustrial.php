@@ -34,14 +34,14 @@ class TorreonYSuRiquezaIndustrial extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Torreón y su riqueza industrial';
         $this->autor           = 'Lic. Adriana Vargas Flores';
-        $this->fecha           = '2016-04-22T15:35';
+        $this->fecha           = '2016-04-25T09:20';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'torreon-y-su-riqueza-industrial';
         $this->imagen          = 'torreon-y-su-riqueza-industrial/imagen.jpg';
         $this->imagen_previa   = 'torreon-y-su-riqueza-industrial/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'La Dirección de Desarrollo Económico y el IMPLAN han lanzado la Guía de Parques Industriales, que contiene información sobre la infraestructura que posee Torreón para recibir inversiones de clase mundial. Incluye además los principales indicadores económicos, demográficos y sociales de la región lagunera.';
-        $this->claves          = 'IMPLAN, Torreon, ';
+        $this->claves          = 'IMPLAN, Torreon, Zonas, Industriales, Parques, Guia, Desarrollo Economico';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
