@@ -185,6 +185,12 @@ class SeguridadDelitosPatrimoniales extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/03/2016</td>
+            <td>22</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -210,36 +216,36 @@ class SeguridadDelitosPatrimoniales extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-02-29</td>
-            <td>175</td>
+            <td>2016-03-31</td>
+            <td>152</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-02-29</td>
-            <td>215</td>
+            <td>2016-03-31</td>
+            <td>103</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-02-29</td>
-            <td>25</td>
+            <td>2016-03-31</td>
+            <td>22</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-02-29</td>
-            <td>3</td>
+            <td>2016-03-31</td>
+            <td>2</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-02-29</td>
-            <td>418</td>
+            <td>2016-03-31</td>
+            <td>279</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -266,7 +272,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2015-01-31', dato: 1 },{ fecha: '2015-02-28', dato: 4 },{ fecha: '2015-03-31', dato: 6 },{ fecha: '2015-04-30', dato: 10 },{ fecha: '2015-05-31', dato: 8 },{ fecha: '2015-06-30', dato: 8 },{ fecha: '2015-07-31', dato: 9 },{ fecha: '2015-08-31', dato: 12 },{ fecha: '2015-09-30', dato: 12 },{ fecha: '2015-10-31', dato: 19 },{ fecha: '2015-11-30', dato: 17 },{ fecha: '2015-12-31', dato: 28 },{ fecha: '2016-01-31', dato: 20 },{ fecha: '2016-02-29', dato: 25 }],
+      data: [{ fecha: '2015-01-31', dato: 1 },{ fecha: '2015-02-28', dato: 4 },{ fecha: '2015-03-31', dato: 6 },{ fecha: '2015-04-30', dato: 10 },{ fecha: '2015-05-31', dato: 8 },{ fecha: '2015-06-30', dato: 8 },{ fecha: '2015-07-31', dato: 9 },{ fecha: '2015-08-31', dato: 12 },{ fecha: '2015-09-30', dato: 12 },{ fecha: '2015-10-31', dato: 19 },{ fecha: '2015-11-30', dato: 17 },{ fecha: '2015-12-31', dato: 28 },{ fecha: '2016-01-31', dato: 20 },{ fecha: '2016-02-29', dato: 25 },{ fecha: '2016-03-31', dato: 22 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -282,7 +288,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 175 },{ region: 'Gómez Palacio', dato: 215 },{ region: 'Lerdo', dato: 25 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 418 }],
+      data: [{ region: 'Torreón', dato: 152 },{ region: 'Gómez Palacio', dato: 103 },{ region: 'Lerdo', dato: 22 },{ region: 'Matamoros', dato: 2 },{ region: 'La Laguna', dato: 279 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -402,6 +408,12 @@ FINAL;
           <tr>
             <td>29/02/2016</td>
             <td>25</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/03/2016</td>
+            <td>22</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>

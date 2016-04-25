@@ -252,8 +252,20 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
-            <td>31/12/2016</td>
+            <td>31/12/2015</td>
             <td>175,813</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/01/2016</td>
+            <td>177,367</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>29/02/2016</td>
+            <td>179,103</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
@@ -285,36 +297,36 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-11-30</td>
-            <td>178,305</td>
+            <td>2016-02-29</td>
+            <td>179,103</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-11-30</td>
-            <td>75,613</td>
+            <td>2016-02-29</td>
+            <td>75,898</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-11-30</td>
-            <td>14,237</td>
+            <td>2016-02-29</td>
+            <td>14,113</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-11-30</td>
-            <td>8,084</td>
+            <td>2016-02-29</td>
+            <td>8,025</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-11-30</td>
-            <td>276,239</td>
+            <td>2016-02-29</td>
+            <td>277,139</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
@@ -341,7 +353,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2013-11-30', dato: 162744 },{ fecha: '2013-12-31', dato: 161591 },{ fecha: '2014-01-31', dato: 161679 },{ fecha: '2014-02-28', dato: 162541 },{ fecha: '2014-03-31', dato: 163726 },{ fecha: '2014-04-30', dato: 164698 },{ fecha: '2014-05-31', dato: 165762 },{ fecha: '2014-06-30', dato: 166473 },{ fecha: '2014-07-31', dato: 167134 },{ fecha: '2014-08-31', dato: 169162 },{ fecha: '2014-09-30', dato: 170628 },{ fecha: '2014-10-31', dato: 171233 },{ fecha: '2014-11-30', dato: 171804 },{ fecha: '2014-12-31', dato: 169066 },{ fecha: '2015-01-31', dato: 169434 },{ fecha: '2015-02-28', dato: 171485 },{ fecha: '2015-03-31', dato: 172263 },{ fecha: '2015-04-30', dato: 172563 },{ fecha: '2015-05-31', dato: 173179 },{ fecha: '2015-06-30', dato: 174252 },{ fecha: '2015-07-31', dato: 174614 },{ fecha: '2015-08-31', dato: 176500 },{ fecha: '2015-09-30', dato: 175798 },{ fecha: '2015-10-31', dato: 177681 },{ fecha: '2015-11-30', dato: 178305 },{ fecha: '2016-12-31', dato: 175813 }],
+      data: [{ fecha: '2013-11-30', dato: 162744 },{ fecha: '2013-12-31', dato: 161591 },{ fecha: '2014-01-31', dato: 161679 },{ fecha: '2014-02-28', dato: 162541 },{ fecha: '2014-03-31', dato: 163726 },{ fecha: '2014-04-30', dato: 164698 },{ fecha: '2014-05-31', dato: 165762 },{ fecha: '2014-06-30', dato: 166473 },{ fecha: '2014-07-31', dato: 167134 },{ fecha: '2014-08-31', dato: 169162 },{ fecha: '2014-09-30', dato: 170628 },{ fecha: '2014-10-31', dato: 171233 },{ fecha: '2014-11-30', dato: 171804 },{ fecha: '2014-12-31', dato: 169066 },{ fecha: '2015-01-31', dato: 169434 },{ fecha: '2015-02-28', dato: 171485 },{ fecha: '2015-03-31', dato: 172263 },{ fecha: '2015-04-30', dato: 172563 },{ fecha: '2015-05-31', dato: 173179 },{ fecha: '2015-06-30', dato: 174252 },{ fecha: '2015-07-31', dato: 174614 },{ fecha: '2015-08-31', dato: 176500 },{ fecha: '2015-09-30', dato: 175798 },{ fecha: '2015-10-31', dato: 177681 },{ fecha: '2015-11-30', dato: 178305 },{ fecha: '2015-12-31', dato: 175813 },{ fecha: '2016-01-31', dato: 177367 },{ fecha: '2016-02-29', dato: 179103 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -357,7 +369,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 178305 },{ region: 'Gómez Palacio', dato: 75613 },{ region: 'Lerdo', dato: 14237 },{ region: 'Matamoros', dato: 8084 },{ region: 'La Laguna', dato: 276239 }],
+      data: [{ region: 'Torreón', dato: 179103 },{ region: 'Gómez Palacio', dato: 75898 },{ region: 'Lerdo', dato: 14113 },{ region: 'Matamoros', dato: 8025 },{ region: 'La Laguna', dato: 277139 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -547,8 +559,20 @@ FINAL;
             <td></td>
           </tr>
           <tr>
-            <td>31/12/2016</td>
+            <td>31/12/2015</td>
             <td>175,813</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/01/2016</td>
+            <td>177,367</td>
+            <td>Instituto Mexicano del Seguro Social (IMSS)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>29/02/2016</td>
+            <td>179,103</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
