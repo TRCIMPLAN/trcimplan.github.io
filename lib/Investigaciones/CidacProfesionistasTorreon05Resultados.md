@@ -26,7 +26,7 @@ de las estadías o residencias de estudiantes de las IES técnicas, principalmen
 
 ### Gráfica 1 - Empresas que tienen esquemas de vinculación con IES
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-01.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-01.png" alt="Empresas que tienen esquemas de vinculación con IES">
 
 Empresas que tienen esquemas de vinculación con IES | Resultado
 ----------------------------------------------------|----------:
@@ -35,7 +35,7 @@ No                                                  |       83%
 
 ### Gráfica 2 - Esquemas de Vinculación
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-02.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-02.png" alt="Esquemas de vinculacion">
 
 Esquemas de Vinculación                               | Resultado
 ------------------------------------------------------|----------:
@@ -69,7 +69,7 @@ cómo armar un CV, así como los elementos básicos de una entrevista laboral.
 
 ### Gráfica 3 - Esquemas de Vinculación
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-03.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-03.png" alt="Esquemas de vinculacion">
 
 Prácticas de selección | Resultado
 -----------------------|----------:
@@ -93,7 +93,7 @@ por medio de estos contactos.
 
 ### Gráfica 4 - Formas de reclutamiento
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-04.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-04.png" alt="Formas de reclutamiento">
 
 Formas de reclutamiento                                   | Resultado
 ----------------------------------------------------------|----:
@@ -122,7 +122,7 @@ cuales no se contratan a los jóvenes.
 
 ### Gráfica 5 - Razones de rechazo
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-05.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-05.png" alt="Razones de rechazo">
 
 Razones de rechazo                      | Resultado
 ----------------------------------------|----:
@@ -159,49 +159,49 @@ tenido una vacante sin llenar durante el último año a pesar de que tuvieron po
 candidatos para el puesto. Este porcentaje es alto si se compara con el tamaño de
 la brecha a nivel nacional que, de acuerdo a la ENCOP 2014, es de 26%.
 
-### Gráfica 6 - Tamaño de la brecha
+### Gráfica 6 - ¿Ha tenido vacantes que no ha podido llenar a pesar de tener candidatos para el puesto? (Tamaño de la brecha)
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-06.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-06.png" alt="Tamaño de la brecha">
 
 ### Gráfica 7 - Competencias Generales
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-07.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-07.png" alt="Competencias generales">
 
 ### Gráfica 8 - Cultura General
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-08.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-08.png" alt="Cultura general">
 
 ### Gráfica 9 - Herramientas de la Comunicación
 
-_Pendiente. En revisión._
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-09.png" alt="Herramientas de la comunicacion">
 
 ### Gráfica 10 - Comunicación con otros
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-10.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-10.png" alt="Comunicacion con otros">
 
 ### Gráfica 11 - Trabajo en equipo
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-11.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-11.png" alt="Trabajo en equipo">
 
 ### Gráfica 12 - Innovación/emprendimiento
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-12.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-12.png" alt="Innovacion emprendimiento">
 
 ### Gráfica 13 - Liderazgo
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-13.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-13.png" alt="Liderazgo">
 
 ### Gráfica 14 - Imagen personal
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-14.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-14.png" alt="Imagen personal">
 
 ### Gráfica 15 - Eficiencia personal
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-15.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-15.png" alt="Eficiencia personal">
 
 ### Gráfica 16 - Inteligencia emocional
 
-<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-16.png" alt="">
+<img class="img-responsive" src="cidac-profesionistas-torreon/grafica-16.png" alt="Inteligencia emocional">
 
 <a class="btn btn-default" href="cidac-profesionistas-torreon-04-sectores-evaluados.html" role="button"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Sectores Evaluados</a>
 <a class="btn btn-default pull-right" href="cidac-profesionistas-torreon-06-recomendaciones.html" role="button">Recomendaciones <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>

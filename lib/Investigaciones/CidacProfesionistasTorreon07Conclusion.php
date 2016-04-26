@@ -34,7 +34,7 @@ class CidacProfesionistasTorreon07Conclusion extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Profesionistas Torreón - Conclusión';
         $this->autor           = 'CIDAC';
-        $this->fecha           = '2016-04-21T15:10';
+        $this->fecha           = '2016-04-25T15:10';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'cidac-profesionistas-torreon-07-conclusion';
         $this->imagen          = 'cidac-profesionistas-torreon/imagen.png';

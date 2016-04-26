@@ -34,7 +34,7 @@ class CidacProfesionistasTorreon04SectoresEvaluados extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Profesionistas Torreón - Sectores Evaluados';
         $this->autor           = 'CIDAC';
-        $this->fecha           = '2016-04-21T14:40';
+        $this->fecha           = '2016-04-25T14:40';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'cidac-profesionistas-torreon-04-sectores-evaluados';
         $this->imagen          = 'cidac-profesionistas-torreon/imagen.png';
