@@ -13,6 +13,8 @@ Entre los participantes asistieron personas de Coahuila y Durango, así como de 
 
 Los casi 70 expositores ofrecieron productos y servicios del sector automotriz como partes metálicas y no metálicas, inyección de plástico y estampados metálicos. Entre los compradores, se pudo detectar que buscaban refacciones, pailería, fibra de vidrio, maquinado y servicios de automatización, arneses, productos MRO, espejos, stamping parts, plastic parts, rubber parts, screws, washers, die casting (fundición a presión), etc.
 
+<img class="img-responsive" src="expo-automotriz-detona-a-la-industria-y-a-la-economia-en-la-laguna/feria-del-empleo-empresas-por-sector.png" alt="Feria del empleo empresas por sector">
+
 ### Enseñanzas
 
 José Luis Hotema calificó como exitosa la primera Expo Automotriz en La Laguna, "nos quedamos con las impresiones de la gente que vino en los stands, que confirmaron su presencia para el próximo año, se sintieron bien recibidos".
@@ -22,4 +24,8 @@ Consideró que el impacto de este encuentro no solo es a nivel regional, sino ta
 Dijo que en general se abrieron buenas perspectivas de negocio. "Los 18 compradores que tuvimos, estuvieron todo el día haciendo negociaciones. Los foráneos pudieron ver la dimensión de proveeduría que tenemos en La Laguna. Para el próximo año, ya estamos buscando un lugar más amplio, porque el espacio nos quedó chico. Faltó espacio para exhibir equipo, el evento tiene que ser en un área que nos pueda soportar maquinaria para exhibición".
 
 Finalmente, destacó que para fortalecer el Clúster Automotriz en la Comarca, proyecto que es asesorado por el IMPLAN, es necesario hacer más alianzas. "Nos falta un Centro de Manufactura de Alta Tecnología. Esto brindaría seguridad a las empresas para hacer sus lanzamientos, desarrollo de prototipos y esto detonaría a todo Coahuila. No tenemos centros de alta tecnología aplicada. Es un proyecto que lo arrancamos en mayo, ya platicamos con los diferentes actores y con IMPLAN para que nos apoye con el proyecto ejecutivo", puntualizó.
+
+### Una versión de divulgación de este análisis apareció en Milenio Laguna
+
+* [Expo Automotriz detona a la industria y a la economía en La Laguna](http://www.milenio.com/negocios/Implan_Torreon-Expo_Congreso_Automotriz_Laguna_2016-Jose_Luis_Hotema_0_730127196.html)
 

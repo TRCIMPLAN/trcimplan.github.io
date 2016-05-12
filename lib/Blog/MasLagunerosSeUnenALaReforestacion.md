@@ -65,4 +65,7 @@ Entre 9 y 12 m2 / habitante          | Buena
 Entre 4 y 8.9 m2 / habitante         | Regular
 Menor a 4 m2 / habitante             | Mala
 
+### Una versión de divulgación de este análisis apareció en Milenio Laguna
+
+* [Más laguneros se unen a la reforestación](http://www.milenio.com/region/Reforestacion_Torreon-IMPLAN_Torreon-Medio_Ambiente_Torreon-Vegetacion_Torreon_0_734326634.html)
 

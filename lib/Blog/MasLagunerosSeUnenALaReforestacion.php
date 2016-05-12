@@ -34,7 +34,7 @@ class MasLagunerosSeUnenALaReforestacion extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre          = 'Más laguneros se unen a la reforestación';
         $this->autor           = 'Lic. Adriana Vargas Flores';
-        $this->fecha           = '2015-05-11T09:00';
+        $this->fecha           = '2016-05-12T09:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'mas-laguneros-se-unen-a-la-reforestacion';
         $this->imagen          = 'mas-laguneros-se-unen-a-la-reforestacion/imagen.jpg';
@@ -61,49 +61,9 @@ class MasLagunerosSeUnenALaReforestacion extends \Base\Publicacion {
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/MasLagunerosSeUnenALaReforestacion.md';
         // Para el Organizador
-        $this->categorias      = array();
-        /* 'Bienestar', 'Competitividad', 'Cultura', 'Delincuencia', 'Doing Business', 'Educación', 'Empleo', 'Empresas',
-         * 'Finanzas Públicas', 'Género', 'Gobierno', 'Gobierno Digital', 'Grupos Vulnerables', 'Infraestructura', 'Innovación',
-         * 'Macroeconomía', 'Mercados', 'Movilidad', 'Objetivos del Milenio', 'Participación Ciudadana', 'Población',
-         * 'Recursos Naturales', 'Salud', 'Seguridad', 'Servicios Públicos', 'Transparencia', 'Vialidad', 'Vivienda' */
-        $this->fuentes         = array();
-        /*  'Ayuntamiento de Torreón',
-            'Banco Mundial',
-            'CIDE',
-            'CIESLAG-FOMEC',
-            'Comisión Nacional Bancaria y de Valores (CNBV)',
-            'CONACULTA-IMPLAN',
-            'CONACYT',
-            'CONAPO',
-            'CONEVAL',
-            'Doing Business',
-            'Elaboración propia con datos obtenidos del INEGI',
-            'Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía',
-            'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos',
-            'ICAI-IDAIP',
-            'IMCO',
-            'IMCO-CONAGUA',
-            'IMPLAN',
-            'IMSS Subdelegación Torreón',
-            'INAFED-PNUD',
-            'INEGI',
-            'INE-IEPCC',
-            'Logit',
-            'Operadora Mexicana de Aeropuertos (OMA)',
-            'Plan Estratégico Metropolitano',
-            'Programa de Naciones Unidas para el Desarrollo (PNUD)',
-            'RFOSC',
-            'SCT',
-            'Secretaría de Economía',
-            'Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública',
-            'SEP',
-            'SIMAS',
-            'SINAIS (SSA)',
-            'Sistema de Información Empresarial Mexicano (SIEM)',
-            'SNSP',
-            'Ventanilla Universal, Dirección de Desarrollo Económico del Municipio de Torreón' */
-        $this->regiones        = array();
-        /* 'Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna', 'Coahuila', 'Durango', 'Nacional' */
+        $this->categorias      = array('Recursos Naturales');
+        $this->fuentes         = array('INEGI');
+        $this->regiones        = array('Torreón', 'Matamoros', 'Coahuila');
     } // constructor
 
 } // Clase MasLagunerosSeUnenALaReforestacion
