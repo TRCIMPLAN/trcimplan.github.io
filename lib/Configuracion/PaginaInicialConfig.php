@@ -307,7 +307,7 @@ Con ello se busca incentivar el conocimiento y desarrollo de nuevos ingenieros, 
         $this->destacado();
         $this->aviso();
         $this->novedades();
-        $this->promociones();
+    //~ $this->promociones();
         $this->mapa();
         $this->redes();
         // Entregar resultado del método en el padre

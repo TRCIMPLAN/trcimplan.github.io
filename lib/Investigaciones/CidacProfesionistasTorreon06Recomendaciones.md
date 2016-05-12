@@ -46,15 +46,13 @@ para compartir ideas, necesidades e inquietudes de ambos actores.
 incluya una bolsa de trabajo regional, así como talleres de capacitación y
 asesoría a los alumnos de las distintas universidades de la región.
 
-* Desarrollo, implementación y de cursos en línea, tanto de habilidades
-suaves como duras, para fortalecer lo que se imparte dentro del salón de
-clases.
+* Desarrollo e implementación de cursos en línea, tanto de habilidades suaves
+como duras, para fortalecer lo que se imparte dentro del salón de clases.
 
-* Tomando en cuenta que el emprendimiento es una de las vías para encontrar
-o generar empleo especialmente en las generaciones más jóvenes, sería
-deseable que la IES puedan dotar de competencias y el conocimiento
-requerido para que los jóvenes, que así lo deseen, puedan optar por esta
-alternativa laboral.
+* Tomando en cuenta que el emprendimiento es una de las vías para encontrar o
+generar empleo especialmente en las generaciones más jóvenes, sería deseable
+que la IES puedan dotar de las competencias y el conocimiento requerido para
+que los jóvenes, que así lo deseen, puedan optar por esta alternativa laboral.
 
 ### Empresas:
 

@@ -9,19 +9,15 @@ en comparación con la capacidad de las IES de ajustar y desarrollar planes de
 estudio. Dicho de otra manera, la velocidad de la demanda de competencias
 cada vez más modernas y sofisticadas rebasa la capacidad para desarrollarlas y
 fortalecerlas. De acuerdo a nuestro estudio, este fenómeno también tiene lugar o
-puede ser analizado a nivel local. De hecho, el principal hallazgo en Torreón fue
-que, en efecto, existe una brecha de competencias profesionales, con un valor del
-58%.
+puede ser analizado a nivel local. De hecho, el principal hallazgo en Torreón fue que,
+en efecto, existe una brecha de competencias profesionales, con un valor del 42%.
 
-Entre los resultados más destacables para la ciudad de Torreón encontramos que
-las empresas afirman que existe una escasez de competencias básicas (como
-“comunicación oral y escrita en español”) y de competencias sofisticadas como
-(“manejo de bases de datos” y “conocimientos básicos de ingeniería”). Ambos
-resultados son preocupantes ya que, por un lado, la carencia de competencias
-básicas demuestra una falla del sistema educativo en general. Por otro lado, la falta
-de competencias sofisticadas ejemplifica cómo la ciudad de Torreón no cuenta
-con el capital humano joven para impulsar los procesos productivos de vanguardia
-que aporten al desarrollo local.
+Entre los resultados más destacables para la ciudad de Torreón encontramos que las
+empresas afirman que existe una escasez de competencias básicas (como “comunicación
+oral y escrita en español”). Este resultado es preocupante ya que, por un lado, la
+carencia de competencias básicas demuestra una falla del sistema educativo en general.
+Además, ejemplifica cómo la ciudad de Torreón no cuenta con el capital humano joven
+para impulsar los procesos productivos de vanguardia que aporten al desarrollo local.
 
 Asimismo, encontramos que la importancia o el peso que le dan las empresas a
 las competencias suaves en comparación con las competencias duras son mayor.
