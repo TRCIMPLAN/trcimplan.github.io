@@ -338,11 +338,11 @@ class IndiceDeCompetitividadUrbana extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Salario Promedio Mensual para Trabajadores de Tiempo Completo</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/12/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,563.63</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/12/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,479.11</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/12/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 3,315.33</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/12/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 4,936.80</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/12/2015, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,991.45</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 6,347.41</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,148.37</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,085.09</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,059.74</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html" data-toggle="tooltip" title="Pesos, 31/03/2016, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">$ 5,778.02</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
