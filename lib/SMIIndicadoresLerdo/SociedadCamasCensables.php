@@ -221,7 +221,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-12-31</td>
-            <td>72</td>
+            <td>346</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -306,7 +306,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 893 },{ region: 'Gómez Palacio', dato: 72 },{ region: 'Lerdo', dato: 38 },{ region: 'Matamoros', dato: 40 },{ region: 'La Laguna', dato: 1262 },{ region: 'Coahuila', dato: 2686 },{ region: 'Durango', dato: 1700 },{ region: 'Nacional', dato: 88903 }],
+      data: [{ region: 'Torreón', dato: 893 },{ region: 'Gómez Palacio', dato: 346 },{ region: 'Lerdo', dato: 38 },{ region: 'Matamoros', dato: 40 },{ region: 'La Laguna', dato: 1262 },{ region: 'Coahuila', dato: 2686 },{ region: 'Durango', dato: 1700 },{ region: 'Nacional', dato: 88903 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -187,7 +187,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2014</td>
-            <td>51</td>
+            <td>838</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -233,7 +233,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-12-31</td>
-            <td>72</td>
+            <td>346</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -302,7 +302,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', functi
   if (typeof vargraficaDatosSinaisSsa === 'undefined') {
     vargraficaDatosSinaisSsa = Morris.Line({
       element: 'graficaDatosSinaisSsa',
-      data: [{ fecha: '2001-12-31', dato: 42 },{ fecha: '2002-12-31', dato: 42 },{ fecha: '2003-12-31', dato: 72 },{ fecha: '2004-12-31', dato: 42 },{ fecha: '2005-12-31', dato: 42 },{ fecha: '2006-12-31', dato: 51 },{ fecha: '2007-12-31', dato: 48 },{ fecha: '2008-12-31', dato: 51 },{ fecha: '2009-12-31', dato: 51 },{ fecha: '2010-12-31', dato: 51 },{ fecha: '2011-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 51 },{ fecha: '2013-12-31', dato: 875 },{ fecha: '2014-12-31', dato: 51 }],
+      data: [{ fecha: '2001-12-31', dato: 42 },{ fecha: '2002-12-31', dato: 42 },{ fecha: '2003-12-31', dato: 72 },{ fecha: '2004-12-31', dato: 42 },{ fecha: '2005-12-31', dato: 42 },{ fecha: '2006-12-31', dato: 51 },{ fecha: '2007-12-31', dato: 48 },{ fecha: '2008-12-31', dato: 51 },{ fecha: '2009-12-31', dato: 51 },{ fecha: '2010-12-31', dato: 51 },{ fecha: '2011-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 51 },{ fecha: '2013-12-31', dato: 875 },{ fecha: '2014-12-31', dato: 838 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -318,7 +318,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 893 },{ region: 'Gómez Palacio', dato: 72 },{ region: 'Lerdo', dato: 38 },{ region: 'Matamoros', dato: 40 },{ region: 'La Laguna', dato: 1262 },{ region: 'Coahuila', dato: 2686 },{ region: 'Durango', dato: 1700 },{ region: 'Nacional', dato: 88903 }],
+      data: [{ region: 'Torreón', dato: 893 },{ region: 'Gómez Palacio', dato: 346 },{ region: 'Lerdo', dato: 38 },{ region: 'Matamoros', dato: 40 },{ region: 'La Laguna', dato: 1262 },{ region: 'Coahuila', dato: 2686 },{ region: 'Durango', dato: 1700 },{ region: 'Nacional', dato: 88903 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -443,7 +443,7 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2014</td>
-            <td>51</td>
+            <td>838</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
