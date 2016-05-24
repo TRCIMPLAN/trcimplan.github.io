@@ -263,6 +263,12 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/04/2016</td>
+            <td>32</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -288,8 +294,8 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-03-31</td>
-            <td>56</td>
+            <td>2016-04-30</td>
+            <td>32</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -344,7 +350,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 123 },{ fecha: '2014-02-28', dato: 147 },{ fecha: '2014-03-31', dato: 87 },{ fecha: '2014-04-30', dato: 95 },{ fecha: '2014-05-31', dato: 138 },{ fecha: '2014-06-30', dato: 98 },{ fecha: '2014-07-31', dato: 89 },{ fecha: '2014-08-31', dato: 86 },{ fecha: '2014-09-30', dato: 92 },{ fecha: '2014-10-31', dato: 105 },{ fecha: '2014-11-30', dato: 78 },{ fecha: '2014-12-31', dato: 72 },{ fecha: '2015-01-31', dato: 96 },{ fecha: '2015-02-28', dato: 83 },{ fecha: '2015-03-31', dato: 79 },{ fecha: '2015-04-30', dato: 106 },{ fecha: '2015-05-31', dato: 60 },{ fecha: '2015-06-30', dato: 57 },{ fecha: '2015-07-31', dato: 68 },{ fecha: '2015-08-31', dato: 43 },{ fecha: '2015-09-30', dato: 57 },{ fecha: '2015-10-31', dato: 51 },{ fecha: '2015-11-30', dato: 28 },{ fecha: '2015-12-31', dato: 21 },{ fecha: '2016-01-31', dato: 30 },{ fecha: '2016-02-29', dato: 34 },{ fecha: '2016-03-31', dato: 56 }],
+      data: [{ fecha: '2014-01-31', dato: 123 },{ fecha: '2014-02-28', dato: 147 },{ fecha: '2014-03-31', dato: 87 },{ fecha: '2014-04-30', dato: 95 },{ fecha: '2014-05-31', dato: 138 },{ fecha: '2014-06-30', dato: 98 },{ fecha: '2014-07-31', dato: 89 },{ fecha: '2014-08-31', dato: 86 },{ fecha: '2014-09-30', dato: 92 },{ fecha: '2014-10-31', dato: 105 },{ fecha: '2014-11-30', dato: 78 },{ fecha: '2014-12-31', dato: 72 },{ fecha: '2015-01-31', dato: 96 },{ fecha: '2015-02-28', dato: 83 },{ fecha: '2015-03-31', dato: 79 },{ fecha: '2015-04-30', dato: 106 },{ fecha: '2015-05-31', dato: 60 },{ fecha: '2015-06-30', dato: 57 },{ fecha: '2015-07-31', dato: 68 },{ fecha: '2015-08-31', dato: 43 },{ fecha: '2015-09-30', dato: 57 },{ fecha: '2015-10-31', dato: 51 },{ fecha: '2015-11-30', dato: 28 },{ fecha: '2015-12-31', dato: 21 },{ fecha: '2016-01-31', dato: 30 },{ fecha: '2016-02-29', dato: 34 },{ fecha: '2016-03-31', dato: 56 },{ fecha: '2016-04-30', dato: 32 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -360,7 +366,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 56 },{ region: 'Gómez Palacio', dato: 22 },{ region: 'Lerdo', dato: 14 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 95 }],
+      data: [{ region: 'Torreón', dato: 32 },{ region: 'Gómez Palacio', dato: 22 },{ region: 'Lerdo', dato: 14 },{ region: 'Matamoros', dato: 3 },{ region: 'La Laguna', dato: 95 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -558,6 +564,12 @@ FINAL;
           <tr>
             <td>31/03/2016</td>
             <td>56</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/04/2016</td>
+            <td>32</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>

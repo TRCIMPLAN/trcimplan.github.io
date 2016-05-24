@@ -71,7 +71,7 @@ class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Índice de Competitividad Urbana', 'Empresas');
-        $this->fuentes           = array('IMCO');
+        $this->fuentes           = array('Centro Mexicano para la Filantropía (Cemefi)', 'IMCO');
         $this->regiones          = 'Lerdo';
     } // constructor
 
@@ -85,7 +85,7 @@ class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -131,6 +131,12 @@ class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
             <td>IMCO</td>
             <td></td>
           </tr>
+          <tr>
+            <td>24/05/2016</td>
+            <td>0.0000</td>
+            <td>Centro Mexicano para la Filantropía (Cemefi)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 10 mil.</p>
@@ -138,9 +144,9 @@ class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
 <p>Fuente: Centro Mexicano para la Filantropía (CEMEFI).</p>
 
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Empresa Socialmente Responsable en Lerdo</h3>
-      <div id="graficaDatos" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Empresa Socialmente Responsable en Lerdo con fuente IMCO</h3>
+      <div id="graficaDatosImco" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Empresa Socialmente Responsable</h3>
@@ -209,12 +215,12 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
+  if (typeof vargraficaDatosImco === 'undefined') {
+    vargraficaDatosImco = Morris.Line({
+      element: 'graficaDatosImco',
       data: [{ fecha: '2008-12-31', dato: 0.0300 },{ fecha: '2009-12-31', dato: 0.0000 },{ fecha: '2010-12-31', dato: 0.0000 },{ fecha: '2011-12-31', dato: 0.0000 },{ fecha: '2012-12-31', dato: 0.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -298,6 +304,12 @@ FINAL;
             <td>31/12/2012</td>
             <td>0.0000</td>
             <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>24/05/2016</td>
+            <td>0.0000</td>
+            <td>Centro Mexicano para la Filantropía (Cemefi)</td>
             <td></td>
           </tr>
         </tbody>
