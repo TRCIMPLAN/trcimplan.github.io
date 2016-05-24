@@ -238,6 +238,12 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/04/2016</td>
+            <td>1</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -266,28 +272,28 @@ class SeguridadSecuestros extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-03-31</td>
-            <td>NO TIENE</td>
+            <td>2016-04-30</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-03-31</td>
+            <td>2016-04-30</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-03-31</td>
+            <td>2016-04-30</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-03-31</td>
+            <td>2016-04-30</td>
             <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
@@ -315,7 +321,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 1 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 1 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 1 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -489,6 +495,12 @@ FINAL;
           <tr>
             <td>31/03/2016</td>
             <td>NO TIENE</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/04/2016</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>

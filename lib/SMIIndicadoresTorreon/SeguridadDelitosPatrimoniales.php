@@ -229,29 +229,29 @@ class SeguridadDelitosPatrimoniales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-03-31</td>
-            <td>103</td>
+            <td>2016-04-30</td>
+            <td>122</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-03-31</td>
-            <td>22</td>
+            <td>2016-04-30</td>
+            <td>38</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-03-31</td>
-            <td>2</td>
+            <td>2016-04-30</td>
+            <td>9</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-03-31</td>
-            <td>279</td>
+            <td>2016-04-30</td>
+            <td>348</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -294,7 +294,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 179 },{ region: 'Gómez Palacio', dato: 103 },{ region: 'Lerdo', dato: 22 },{ region: 'Matamoros', dato: 2 },{ region: 'La Laguna', dato: 279 }],
+      data: [{ region: 'Torreón', dato: 179 },{ region: 'Gómez Palacio', dato: 122 },{ region: 'Lerdo', dato: 38 },{ region: 'Matamoros', dato: 9 },{ region: 'La Laguna', dato: 348 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

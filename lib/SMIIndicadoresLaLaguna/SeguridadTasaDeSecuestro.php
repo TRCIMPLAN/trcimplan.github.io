@@ -165,15 +165,15 @@ class SeguridadTasaDeSecuestro extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2016-03-31</td>
-            <td>0.17 %</td>
+            <td>2016-04-30</td>
+            <td>0.27 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2016-03-31</td>
-            <td>0.06 %</td>
+            <td>2016-04-30</td>
+            <td>0.11 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -200,7 +200,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 0.1700 },{ region: 'Durango', dato: 0.0600 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 0.2700 },{ region: 'Durango', dato: 0.1100 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
