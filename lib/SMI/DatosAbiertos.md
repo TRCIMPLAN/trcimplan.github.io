@@ -10,7 +10,7 @@
 <li>La primera línea tiene los nombres de las columnas.</li>
 <li>En mayúsculas y sin acentos. Excepto la eñe (Ñ) y la diéresis (Ü).</li>
 <li>Cantidad de filas: <b>6,790 filas</b>.</li>
-<li>Elaboración: <b>16 mayo 2016 14:40</b>.</li>
+<li>Elaboración: <b>24 mayo 2016 11:53</b>.</li>
 </ul>
 </div>
 </div>

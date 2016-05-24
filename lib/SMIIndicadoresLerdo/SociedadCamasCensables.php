@@ -181,7 +181,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2014</td>
-            <td>52</td>
+            <td>38</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -189,7 +189,7 @@ class SociedadCamasCensables extends \Base\Publicacion {
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
       <h3>Observaciones</h3>
-<p>SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio.</p>
+<p>Hasta los datos de 2012 la Dirección General de Información de Salud (DGIS) considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio. Para 2013 y 2014 se agregan las cifras de las unidades pertenecientes al IMSS, SEDENA, SSA, ISSSTE y Universitarios.</p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
@@ -214,9 +214,9 @@ class SociedadCamasCensables extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2015-08-30</td>
-            <td>106</td>
+            <td>893</td>
             <td>Secretaria de Salud del Estado de Coahuila</td>
-            <td>Este dato se encuentra actualizado a 2015 debido a la apertura del nuevo Hospital General en la ciudad (Julio, 2015).</td>
+            <td>A la cifra 2014 se agregan las 55 camas censables nuevas disponibles con el nuevo Hospital General de la ciudad (Julio 2015)</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -228,42 +228,42 @@ class SociedadCamasCensables extends \Base\Publicacion {
           <tr>
             <td>Lerdo</td>
             <td>2014-12-31</td>
-            <td>52</td>
+            <td>38</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-12-31</td>
-            <td>19</td>
+            <td>40</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2014-12-31</td>
-            <td>194</td>
+            <td>1,262</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
             <td>2014-12-31</td>
-            <td>631</td>
+            <td>2,686</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
             <td>2014-12-31</td>
-            <td>862</td>
+            <td>1,700</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
             <td>2014-12-31</td>
-            <td>38,787</td>
+            <td>88,903</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -290,7 +290,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2001-12-31', dato: 34 },{ fecha: '2002-12-31', dato: 34 },{ fecha: '2003-12-31', dato: 34 },{ fecha: '2004-12-31', dato: 34 },{ fecha: '2005-12-31', dato: 34 },{ fecha: '2006-12-31', dato: 34 },{ fecha: '2007-12-31', dato: 34 },{ fecha: '2008-12-31', dato: 34 },{ fecha: '2009-12-31', dato: 34 },{ fecha: '2010-12-31', dato: 38 },{ fecha: '2011-12-31', dato: 38 },{ fecha: '2012-12-31', dato: 38 },{ fecha: '2013-12-31', dato: 38 },{ fecha: '2014-12-31', dato: 52 }],
+      data: [{ fecha: '2001-12-31', dato: 34 },{ fecha: '2002-12-31', dato: 34 },{ fecha: '2003-12-31', dato: 34 },{ fecha: '2004-12-31', dato: 34 },{ fecha: '2005-12-31', dato: 34 },{ fecha: '2006-12-31', dato: 34 },{ fecha: '2007-12-31', dato: 34 },{ fecha: '2008-12-31', dato: 34 },{ fecha: '2009-12-31', dato: 34 },{ fecha: '2010-12-31', dato: 38 },{ fecha: '2011-12-31', dato: 38 },{ fecha: '2012-12-31', dato: 38 },{ fecha: '2013-12-31', dato: 38 },{ fecha: '2014-12-31', dato: 38 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -306,7 +306,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 106 },{ region: 'Gómez Palacio', dato: 72 },{ region: 'Lerdo', dato: 52 },{ region: 'Matamoros', dato: 19 },{ region: 'La Laguna', dato: 194 },{ region: 'Coahuila', dato: 631 },{ region: 'Durango', dato: 862 },{ region: 'Nacional', dato: 38787 }],
+      data: [{ region: 'Torreón', dato: 893 },{ region: 'Gómez Palacio', dato: 72 },{ region: 'Lerdo', dato: 38 },{ region: 'Matamoros', dato: 40 },{ region: 'La Laguna', dato: 1262 },{ region: 'Coahuila', dato: 2686 },{ region: 'Durango', dato: 1700 },{ region: 'Nacional', dato: 88903 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -425,7 +425,7 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2014</td>
-            <td>52</td>
+            <td>38</td>
             <td>SINAIS (SSA)</td>
             <td></td>
           </tr>
@@ -433,7 +433,7 @@ FINAL;
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
       <h3>Observaciones</h3>
-<p>SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio.</p>
+<p>Hasta los datos de 2012 la Dirección General de Información de Salud (DGIS) considera únicamente al Hospital General de Torreón y el Hospital Integral de Matamoros, Hospital General de Lerdo y el Hospital General de Gómez Palacio. Para 2013 y 2014 se agregan las cifras de las unidades pertenecientes al IMSS, SEDENA, SSA, ISSSTE y Universitarios.</p>
 
 FINAL;
         // Ejecutar este método en el padre
