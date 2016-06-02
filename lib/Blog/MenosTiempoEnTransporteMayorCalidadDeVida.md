@@ -80,3 +80,7 @@ La relación entre eficiencia del transporte público efectivo y competitividad 
 ### Notas
 
 1. No se contabilizó a las personas que declararon trabajar y estudiar, debido a las prioridades de traslado, unicamente el motivo principal.
+
+### Este análisis fue publicado en Milenio Laguna
+
+* [Menos tiempo en transporte, más calidad de vida](http://www.milenio.com/region/IMPLAN_Torreon-Metrobus_Torreon-Tiempos_de_traslado-Calidad_de_vida_0_742725804.html)
