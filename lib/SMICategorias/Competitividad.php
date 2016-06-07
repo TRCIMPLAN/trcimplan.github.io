@@ -554,11 +554,11 @@ class Competitividad extends \Base\Publicacion {
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Empresa Socialmente Responsable</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-empresa-socialmente-responsable.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, IMCO">0.0000</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-empresa-socialmente-responsable.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, IMCO">10.4167</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-empresa-socialmente-responsable.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, IMCO">0.0000</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-empresa-socialmente-responsable.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, IMCO">0.0000</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-empresa-socialmente-responsable.html" data-toggle="tooltip" title="Por cada 10 mil, 31/12/2012, IMCO">2.4596</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-empresa-socialmente-responsable.html" data-toggle="tooltip" title="Por cada 10 mil, 24/05/2016, Centro Mexicano para la Filantropía (Cemefi)">0.0309</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-empresa-socialmente-responsable.html" data-toggle="tooltip" title="Por cada 10 mil, 24/05/2016, Centro Mexicano para la Filantropía (Cemefi)">0.0214</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-empresa-socialmente-responsable.html" data-toggle="tooltip" title="Por cada 10 mil, 24/05/2016, Centro Mexicano para la Filantropía (Cemefi)">0.0000</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-empresa-socialmente-responsable.html" data-toggle="tooltip" title="Por cada 10 mil, 24/05/2016, Centro Mexicano para la Filantropía (Cemefi)">0.0000</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-empresa-socialmente-responsable.html" data-toggle="tooltip" title="Por cada 10 mil, 24/05/2016, Centro Mexicano para la Filantropía (Cemefi)">0.0241</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

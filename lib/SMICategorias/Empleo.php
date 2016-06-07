@@ -221,11 +221,11 @@ class Empleo extends \Base\Publicacion {
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 29/02/2016, Instituto Mexicano del Seguro Social (IMSS)">179,103</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 29/02/2016, Instituto Mexicano del Seguro Social (IMSS)">75,898</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 29/02/2016, Instituto Mexicano del Seguro Social (IMSS)">14,113</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 29/02/2016, Instituto Mexicano del Seguro Social (IMSS)">8,025</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 29/02/2016, Instituto Mexicano del Seguro Social (IMSS)">277,139</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 31/03/2016, Instituto Mexicano del Seguro Social (IMSS)">277,295</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/04/2016, Instituto Mexicano del Seguro Social (IMSS)">75,604</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/04/2016, Instituto Mexicano del Seguro Social (IMSS)">14,414</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/04/2016, Instituto Mexicano del Seguro Social (IMSS)">180,602</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 30/04/2016, Instituto Mexicano del Seguro Social (IMSS)">279,007</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
