@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - Menos tiempo en transporte, mayor calidad de vida
+ * Sitio Web -
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -23,25 +23,25 @@
 namespace Blog;
 
 /**
- * Clase MenosTiempoEnTransporteMayorCalidadDeVida
+ * Clase EnBuscaDeUnaMovilidadSustentable
  */
-class MenosTiempoEnTransporteMayorCalidadDeVida extends \Base\Publicacion {
+class EnBuscaDeUnaMovilidadSustentable extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Menos tiempo en transporte, mayor calidad de vida';
-        $this->autor           = 'Lic. Luis A. Gutiérrez Arizpe';
-        $this->fecha           = '2016-06-07T14:50';
+        $this->nombre          = 'En busca de una Movilidad Sustentable';
+        $this->autor           = 'Arq. Ángeles Melisa Rodríguez Salas';
+        $this->fecha           = '2016-06-07T16:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'menos-tiempo-en-transporte-mayor-calidad-de-vida';
-        $this->imagen          = 'menos-tiempo-en-transporte-mayor-calidad-de-vida/imagen.jpg';
-        $this->imagen_previa   = 'menos-tiempo-en-transporte-mayor-calidad-de-vida/imagen-previa.jpg';
+        $this->archivo         = 'en-busca-de-una-movilidad-sustentable';
+        $this->imagen          = 'en-busca-de-una-movilidad-sustentable/imagen.jpg';
+        $this->imagen_previa   = 'en-busca-de-una-movilidad-sustentable/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'La relación entre transporte público efectivo y competitividad es directa, pero para que la competitividad se traduzca en calidad de vida se debe reducir el tiempo de traslado de estudiantes y trabajadores. Con la llegada del Metrobus se podría lograr que el 70% de la población trabajadora invierta menos de media hora en cada traslado.';
-        $this->claves          = 'IMPLAN, Torreon, Transporte Público, Competitividad';
+        $this->descripcion     = 'Debido al acelerado crecimiento de la mancha urbana en la Comarca, el Desarrollo Orientado al Transporte (DOT) puede ayudar a crear una ciudad compacta y de alta densidad, donde las personas puedan elegir un modo de transporte diferente al automóvil y puedan contar con infraestructura peatonal y ciclista de calidad.';
+        $this->claves          = 'IMPLAN, Torreon, Ciudad compacta, Transporte, Peatonal, Ciclista';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -59,13 +59,13 @@ class MenosTiempoEnTransporteMayorCalidadDeVida extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/Blog/MenosTiempoEnTransporteMayorCalidadDeVida.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/EnBuscaDeUnaMovilidadSustentable.md';
         // Para el Organizador
-        $this->categorias      = array('Movilidad', 'Vialidad', 'Competitividad');
+        $this->categorias      = array('Movilidad', 'Vialidad');
         $this->fuentes         = array('INEGI');
         $this->regiones        = array('Torreón', 'Matamoros', 'La Laguna');
     } // constructor
 
-} // Clase MenosTiempoEnTransporteMayorCalidadDeVida
+} // Clase EnBuscaDeUnaMovilidadSustentable
 
 ?>

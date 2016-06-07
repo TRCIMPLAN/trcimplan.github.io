@@ -73,6 +73,10 @@ Segmentando los tiempos de traslado en transporte público en Torreón por tipos
 
 <img class="img-responsive" src="menos-tiempo-en-transporte-mayor-calidad-de-vida/grafico-05-comparativa-de-tiempos-de-traslados-en-transporte-publico.png" alt="Comparativa de tiempo de traslados en Transporte Público">
 
+#### Gráfico 6: Comparativo de tiempos de traslados de trabajadores
+
+<img class="img-responsive" src="menos-tiempo-en-transporte-mayor-calidad-de-vida/grafico-06-comparativo-tiempos-traslados-trabajadores.png" alt="Comparativo de tiempos de traslados de trabajadores">
+
 ### ¿Que podemos esperar con la llegada del metrobús a la ZML?
 
 La relación entre eficiencia del transporte público efectivo y competitividad es directa, incluso es un indicador del Índice de Competitividad Urbana del Instituto Mexicano para la Competitividad (IMCO). Pero para que la competitividad se traduzca también en calidad de vida debemos trazarnos objetivos medibles como lo es la reducción del tiempo de traslado, enfocando los esfuerzos hacia la **población trabajadora** representada en los rangos que invierten entre 16 minutos y una hora en traslados , se podría lograr que el 70 % de la población trabajadora invierta menos de media hora en cada traslado.
