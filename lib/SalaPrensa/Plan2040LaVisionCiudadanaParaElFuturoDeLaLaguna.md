@@ -71,6 +71,6 @@ Para el 2030 se estima que la población en Torreón será de aproximadamente 79
 * Análisis de Políticas Públicas
 * Programa de Ordenamiento Ecológico del Municipio de Torreón
 
-### Este análisis fue publicado en Milenio Laguna
+### Este artículo fue publicado en Milenio Laguna
 
 [Plan 2040: La visión ciudadana para el futuro de la Laguna](http://www.milenio.com/region/IMPLAN_Torreon-Nuestra_metropoli_desde_el_IMPLAN-La_Laguna_en_el_Futuro_0_752324824.html)

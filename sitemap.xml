@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2016-06-14</lastmod>
+    <lastmod>2016-06-15</lastmod>
     <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/blog/reciclaje-urbano-ejemplo-de-recuperacion-de-la-herencia-historica.html</loc>
+    <lastmod>2016-06-15</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/sala-prensa/plan-2040-la-vision-ciudadana-para-el-futuro-de-la-laguna.html</loc>
