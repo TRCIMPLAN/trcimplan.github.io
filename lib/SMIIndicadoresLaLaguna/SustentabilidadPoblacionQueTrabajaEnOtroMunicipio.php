@@ -71,7 +71,7 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Movilidad');
-        $this->fuentes           = array('CONAPO');
+        $this->fuentes           = array('CONAPO-INEGI');
         $this->regiones          = 'La Laguna';
     } // constructor
 
@@ -85,6 +85,7 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -103,15 +104,25 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
           <tr>
             <td>31/12/2010</td>
             <td>10.20 %</td>
-            <td>CONAPO</td>
+            <td>CONAPO-INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>14.60 %</td>
+            <td>CONAPO-INEGI</td>
             <td></td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.conapo.gob.mx/en/CONAPO/Catalogo_Sistema_Urbano_Nacional_2012">Base de Datos</a></p>
+<p>Para los datos de 2010 consulta la <a href="http://www.conapo.gob.mx/en/CONAPO/Catalogo_Sistema_Urbano_Nacional_2012">Base de Datos</a>. Para la fuente 2015 consulta la <a href="http://www3.inegi.org.mx/sistemas/microdatos/formato.aspx?c=34537">Base de Datos</a></p>
 
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Población que Trabaja en OTRO Municipio en La Laguna</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Población que Trabaja en OTRO Municipio</h3>
@@ -130,37 +141,37 @@ class SustentabilidadPoblacionQueTrabajaEnOtroMunicipio extends \Base\Publicacio
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2010-12-31</td>
-            <td>4.20 %</td>
-            <td>CONAPO</td>
+            <td>2015-12-31</td>
+            <td>4.90 %</td>
+            <td>CONAPO-INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2010-12-31</td>
-            <td>12.00 %</td>
-            <td>CONAPO</td>
+            <td>2015-12-31</td>
+            <td>12.20 %</td>
+            <td>CONAPO-INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2010-12-31</td>
-            <td>28.00 %</td>
-            <td>CONAPO</td>
+            <td>2015-12-31</td>
+            <td>29.40 %</td>
+            <td>CONAPO-INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2010-12-31</td>
-            <td>20.00 %</td>
-            <td>CONAPO</td>
+            <td>2015-12-31</td>
+            <td>30.30 %</td>
+            <td>CONAPO-INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2010-12-31</td>
-            <td>10.20 %</td>
-            <td>CONAPO</td>
+            <td>2015-12-31</td>
+            <td>14.60 %</td>
+            <td>CONAPO-INEGI</td>
             <td></td>
           </tr>
         </tbody>
@@ -180,13 +191,29 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2010-12-31', dato: 10.2000 },{ fecha: '2015-12-31', dato: 14.6000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 4.2000 },{ region: 'Gómez Palacio', dato: 12.0000 },{ region: 'Lerdo', dato: 28.0000 },{ region: 'Matamoros', dato: 20.0000 },{ region: 'La Laguna', dato: 10.2000 }],
+      data: [{ region: 'Torreón', dato: 4.9000 },{ region: 'Gómez Palacio', dato: 12.2000 },{ region: 'Lerdo', dato: 29.4000 },{ region: 'Matamoros', dato: 30.3000 },{ region: 'La Laguna', dato: 14.6000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -228,14 +255,20 @@ FINAL;
           <tr>
             <td>31/12/2010</td>
             <td>10.20 %</td>
-            <td>CONAPO</td>
+            <td>CONAPO-INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>14.60 %</td>
+            <td>CONAPO-INEGI</td>
             <td></td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
       <h3>Observaciones</h3>
-<p>Consulta la <a href="http://www.conapo.gob.mx/en/CONAPO/Catalogo_Sistema_Urbano_Nacional_2012">Base de Datos</a></p>
+<p>Para los datos de 2010 consulta la <a href="http://www.conapo.gob.mx/en/CONAPO/Catalogo_Sistema_Urbano_Nacional_2012">Base de Datos</a>. Para la fuente 2015 consulta la <a href="http://www3.inegi.org.mx/sistemas/microdatos/formato.aspx?c=34537">Base de Datos</a></p>
 
 FINAL;
         // Ejecutar este método en el padre
