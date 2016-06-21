@@ -34,7 +34,7 @@ class AreasVerdesEnCiudadTorreon extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre             = 'Áreas verdes en la ciudad de Torreón';
         $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha              = '2016-06-20T08:00';
+        $this->fecha              = '2016-05-20T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo            = 'areas-verdes-en-ciudad-torreon';
         $this->imagen             = 'areas-verdes-en-ciudad-torreon/imagen.jpg';

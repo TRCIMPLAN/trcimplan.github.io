@@ -5,21 +5,11 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Mon, 20 Jun 2016 10:38:53 -0500</pubDate>
+    <pubDate>Tue, 21 Jun 2016 13:36:52 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Áreas verdes en la ciudad de Torreón</title>
-      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/areas-verdes-en-ciudad-torreon.html</link>
-      <guid isPermaLink="false">sig-mapas-torreon-areas-verdes-en-ciudad-torreon</guid>
-      <pubDate>Mon, 20 Jun 2016 08:00:00 -0500</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/areas-verdes-en-ciudad-torreon.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/areas-verdes-en-ciudad-torreon/imagen.jpg"><br>
-
-Mapa de localización de áreas verdes en la ciudad de Torreón.</a>]]></description>
-    </item>
     <item>
       <title>Reciclaje Urbano: ejemplo de recuperación de la herencia histórica</title>
       <link>http://www.trcimplan.gob.mx/blog/reciclaje-urbano-ejemplo-de-recuperacion-de-la-herencia-historica.html</link>
@@ -194,9 +184,9 @@ Mapa de localización de áreas verdes en la ciudad de Torreón.</a>]]></descrip
 ]]></description>
     </item>
     <item>
-      <title>Índice de Marginación en Torreón</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-indice-de-marginacion.html</link>
-      <guid isPermaLink="false">indicadores-torreon-sociedad-indice-de-marginacion</guid>
+      <title>Índice de Marginación en Matamoros</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-indice-de-marginacion.html</link>
+      <guid isPermaLink="false">indicadores-matamoros-sociedad-indice-de-marginacion</guid>
       <pubDate>Fri, 10 Jun 2016 13:47:00 -0500</pubDate>
       <author>Dirección de Investigación Estratégica</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -224,31 +214,31 @@ Porcentaje de población ocupada con ingresos de hasta 2 salarios mínimos</p>
         <tbody>
           <tr>
             <td>31/12/1990</td>
-            <td>-1.9980</td>
+            <td>-0.8840</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1995</td>
-            <td>-1.7440</td>
+            <td>-0.6790</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2000</td>
-            <td>-1.9830</td>
+            <td>-1.1470</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2005</td>
-            <td>-1.8930</td>
+            <td>-1.0760</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2015</td>
-            <td>-1.7220</td>
+            <td>-1.0980</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -400,6 +390,16 @@ Porcentaje de población ocupada con ingresos de hasta 2 salarios mínimos</p>
 <li><a href="http://www.milenio.com/region/IMPLAN_Torreon-Metrobus_Torreon-Tiempos_de_traslado-Calidad_de_vida_0_742725804.html">Menos tiempo en transporte, más calidad de vida</a></li>
 </ul>
 ]]></description>
+    </item>
+    <item>
+      <title>Áreas verdes en la ciudad de Torreón</title>
+      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/areas-verdes-en-ciudad-torreon.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-areas-verdes-en-ciudad-torreon</guid>
+      <pubDate>Fri, 20 May 2016 08:00:00 -0500</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/areas-verdes-en-ciudad-torreon.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/areas-verdes-en-ciudad-torreon/imagen.jpg"><br>
+
+Mapa de localización de áreas verdes en la ciudad de Torreón.</a>]]></description>
     </item>
     <item>
       <title>La necesidad de contar con mejores Ciclociudades</title>
