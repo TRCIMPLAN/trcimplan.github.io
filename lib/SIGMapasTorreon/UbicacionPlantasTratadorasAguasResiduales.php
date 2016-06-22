@@ -40,7 +40,7 @@ class UbicacionPlantasTratadorasAguasResiduales extends \Base\Publicacion {
         $this->imagen             = 'ubicacion-plantas-tratadoras-aguas-residuales/imagen.jpg';
         $this->imagen_previa      = 'ubicacion-plantas-tratadoras-aguas-residuales/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Ubicación de Plantas Tratadoras de Aguas Residuales en La Laguna, las cuales retiran los contaminantes para hacer de ella un agua sin riesgos a la salud y/o medio ambiente al disponerla en un cuerpo receptor natural (mar, ríos o lagos) o por su reuso en otras actividades de nuestra vida cotidiana con excepción del consumo humano (no para ingerir o aseo personal).';
+        $this->descripcion        = 'Retiran los contaminantes del agua para que no haya riesgos a la salud y al medio ambiente al disponerla en un cuerpo receptor natural (mar, ríos o lagos) o para su reuso en otras actividades.';
         $this->claves             = 'Agua, Aguas Residuales, Plantas, Reciclaje';
         $this->categorias         = array('Infraestructura');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
