@@ -5,11 +5,21 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Tue, 21 Jun 2016 13:36:52 -0500</pubDate>
+    <pubDate>Wed, 22 Jun 2016 10:09:23 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubicación de Plantas Tratadoras de Aguas Residuales</title>
+      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/ubicacion-plantas-tratadoras-aguas-residuales.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-ubicacion-plantas-tratadoras-aguas-residuales</guid>
+      <pubDate>Wed, 22 Jun 2016 08:00:00 -0500</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/ubicacion-plantas-tratadoras-aguas-residuales.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/ubicacion-plantas-tratadoras-aguas-residuales/imagen.jpg"><br>
+
+Ubicación de Plantas Tratadoras de Aguas Residuales en La Laguna, las cuales retiran los contaminantes para hacer de ella un agua sin riesgos a la salud y/o medio ambiente al disponerla en un cuerpo receptor natural (mar, ríos o lagos) o por su reuso en otras actividades de nuestra vida cotidiana con excepción del consumo humano (no para ingerir o aseo personal).</a>]]></description>
+    </item>
     <item>
       <title>Reciclaje Urbano: ejemplo de recuperación de la herencia histórica</title>
       <link>http://www.trcimplan.gob.mx/blog/reciclaje-urbano-ejemplo-de-recuperacion-de-la-herencia-historica.html</link>
@@ -184,9 +194,9 @@
 ]]></description>
     </item>
     <item>
-      <title>Índice de Marginación en Matamoros</title>
-      <link>http://www.trcimplan.gob.mx/indicadores-matamoros/sociedad-indice-de-marginacion.html</link>
-      <guid isPermaLink="false">indicadores-matamoros-sociedad-indice-de-marginacion</guid>
+      <title>Índice de Marginación en Torreón</title>
+      <link>http://www.trcimplan.gob.mx/indicadores-torreon/sociedad-indice-de-marginacion.html</link>
+      <guid isPermaLink="false">indicadores-torreon-sociedad-indice-de-marginacion</guid>
       <pubDate>Fri, 10 Jun 2016 13:47:00 -0500</pubDate>
       <author>Dirección de Investigación Estratégica</author>
       <description><![CDATA[      <h3>Descripción</h3>
@@ -214,31 +224,31 @@ Porcentaje de población ocupada con ingresos de hasta 2 salarios mínimos</p>
         <tbody>
           <tr>
             <td>31/12/1990</td>
-            <td>-0.8840</td>
+            <td>-1.9980</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1995</td>
-            <td>-0.6790</td>
+            <td>-1.7440</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2000</td>
-            <td>-1.1470</td>
+            <td>-1.9830</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2005</td>
-            <td>-1.0760</td>
+            <td>-1.8930</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2015</td>
-            <td>-1.0980</td>
+            <td>-1.7220</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -462,226 +472,6 @@ Mapa de localización de áreas verdes en la ciudad de Torreón.</a>]]></descrip
 
 <ul>
 <li><a href="http://www.milenio.com/region/IMPLAN_Torreon-Uso_de_Bicicleta-Nuestra_Metropoli_desde_el_IMPLAN-ciclistas_Torreon_0_738526225.html?utm_source=Twitter&amp;utm_medium=Referral&amp;utm_term=Region&amp;utm_campaign=MilenioLaguna">La necesidad de contar con mejores Ciclociudades</a></li>
-</ul>
-]]></description>
-    </item>
-    <item>
-      <title>Más laguneros se unen a la reforestación</title>
-      <link>http://www.trcimplan.gob.mx/blog/mas-laguneros-se-unen-a-la-reforestacion.html</link>
-      <guid isPermaLink="false">blog-mas-laguneros-se-unen-a-la-reforestacion</guid>
-      <pubDate>Thu, 12 May 2016 09:00:00 -0500</pubDate>
-      <author>Lic. Adriana Vargas Flores</author>
-      <description><![CDATA[<img src="http://www.trcimplan.gob.mx/blog/mas-laguneros-se-unen-a-la-reforestacion/imagen.jpg"><br>
-
-<p>Entre árboles y plantas de ornato, el año pasado se lograron distribuir en Torreón más de 284 mil árboles y plantas con un porcentaje de supervivencia superior al 80%, dio a conocer la directora de Medio Ambiente en el Municipio Susana Estens. El programa de reforestación se ha llevado a cabo en más de cien plazas de la ciudad, donde se cuenta con un sistema de riego por goteo y que además involucra a los vecinos para el cuidado de los árboles.</p>
-
-<p>El índice de supervivencia de las plantas y árboles en la ciudad es alto considerando que ésta es una región desértica que ha vivido problemas como la helada de 2011 que terminó con una buena cubierta vegetal y recientemente la epidemia de amarillamiento letal en las palmas.</p>
-
-<p>De acuerdo con el último boletín de la CONAFOR (Comisión Nacional Forestal), el índice de supervivencia de los árboles plantados en el país es de 57%, lo cual indica que en Torreón se está avanzando en esta tarea.</p>
-
-<p>El proyecto de reforestación, en conjunto con la Secretaría de Medio Ambiente de Coahuila (SEMA), se ha realizado en más de cien plazas y áreas públicas de colonias de interés social, comentó la química Susana Estens. La meta es que el programa llegue a 500 plazas.</p>
-
-<p>"Empezamos a plantar árboles en estos espacios públicos, con un sistema de riego muy económico y sencillo. Son mangueras que se extienden en un circuito de 30 ó 40 árboles y se riegan por goteo. El único compromiso con los vecinos es que abran la llave".</p>
-
-<p>"La meta era llegar a plantar 250 mil árboles cada año y en el 2015 se cubrió. Desde octubre de 2015 a marzo de 2016 llevamos 18 mil plantas de ornato y árboles que hemos entregado en Torreón. Hemos revisado la eficiencia de los árboles que plantamos, y tenemos una supervivencia promedio del 86%, que es muy alta".</p>
-
-<p>La campaña de reforestación promueve la entrega de una mezcla de árboles y plantas de ornato adecuadas al clima de la Comarca. "En el caso de las plantas, son muy bien aceptadas, la gente las cuida y recibe muy bien. Los árboles a veces no los plantan en el sitio correcto o escogen especies que no son adecuadas, y es importante saber si el árbol es el adecuado para un camellón, banqueta o espacio público", comentó Susana Esténs.</p>
-
-<p>Con el apoyo de Medio Ambiente de Coahuila, el Vivero de Peñoles y el Municipio se ha hecho entrega de un mayor número de plantas de ornato y no tantos árboles, buscando que haya mayor certeza del sitio donde se plantarán los árboles.</p>
-
-<p>En cuanto a las plantas de ornato, se han repartido especies como suculentas y crasuláceas principalmente en escuelas, acompañadas por una explicación de cómo debe ser cuidada la planta y cómo puede ser aprovechada por los maestros en sus clases.</p>
-
-<p>Por cada planta se entrega una ficha con la información de qué tipo de tierra y de iluminación se requiere, porque además, algunas de estas plantas tienen la facultad de ser captadoras de contaminantes.</p>
-
-<h3>Aumento de áreas verdes</h3>
-
-<p>Contrario a lo que pudiera parecer, la cantidad de áreas verdes en Torreón ha aumentado en los últimos años. En el 2010, de acuerdo con INEGI el municipio registraba 4.91 metros cuadrados de áreas verdes por habitante, índice que se encontraba por debajo de la norma internacional.</p>
-
-<p>La Organización Mundial de la Salud recomienda una superficie entre 9 y 12 metros cuadrados por habitante. De acuerdo a esta recomendación, en 2013 se estableció una nueva categorización de la superficie de área verde urbana en Coahuila, en la que Torreón registró 9.35 metros cuadrados de áreas verdes por habitante.</p>
-
-<p>"La falta de áreas verdes en la ciudad es un mito urbano, se hizo una evaluación por parte de SEMA sin medir las áreas privadas, y se comprobó que tenemos un número aceptable de áreas verdes por habitante. Lo que ocurre es que están concentradas en el primer cuadro y la parte más antigua, la Plaza de Armas, la Alameda, el Bosque y el Bosque de Peñoles, que aunque no es de acceso para todo público, es un pulmón muy importante". Comentó que esta nueva medición no incluye áreas privadas como Las Villas, únicamente áreas verdes urbanas.</p>
-
-<p>"El tema de la reforestación, es que tenemos que entender que somos un desierto y que como tal tenemos que estarnos viendo. Con proyectos de paisajismo como en Tucson, Arizona donde utilizan palos verdes, mezquites y ocotillos entre otras plantas, se embellece el entorno y se reconoce el desierto en el que vivimos", explicó la funcionaria.</p>
-
-<p>"No debemos pensar tanto en árboles como los de la variedad mazahua, que requieren mucha agua. Tenemos que ir aprendiendo, estamos en una crisis con las palmas, y se ha tenido que aplicar una estrategia triple que lleva, antibiótico, fertilizante y productos orgánicos para fortalecerlas. Sin embargo, en opinión de los expertos, una vez infectadas ya no hay marcha atrás, estamos analizando cómo vamos a hacer un programa de sustitución. Yo me inclinaría por otro tipo de árboles nativos: huizaches, mezquites, palos verdes. Es lo que debemos privilegiar", puntualizó.</p>
-
-<h3>Actualización de la superficie de área verde urbana por habitante en Coahuila. 2013</h3>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th>Municipio</th>
-  <th align="right">Superficie de área verde urbana INEGI 2010 (m2)</th>
-  <th align="right">Superficie de área verde urbana Estado-Municipio 2013 (m2)</th>
-  <th align="right">Indicador INEGI 2010 (m2/hab)</th>
-  <th align="right">Indicador Estado-Municipio 2013 (m2/hab)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>Acuña</td>
-  <td align="right">486,429.27</td>
-  <td align="right">693,807.62</td>
-  <td align="right">3.56</td>
-  <td align="right">5.07</td>
-</tr>
-<tr>
-  <td>Arteaga</td>
-  <td align="right">73,935.13</td>
-  <td align="right">150,035.00</td>
-  <td align="right">3.28</td>
-  <td align="right">6.66</td>
-</tr>
-<tr>
-  <td>Castaños</td>
-  <td align="right">296,387.98</td>
-  <td align="right">391,966.20</td>
-  <td align="right">3.69</td>
-  <td align="right">15.14</td>
-</tr>
-<tr>
-  <td>Cuatro Ciénegas</td>
-  <td align="right">21,510.98</td>
-  <td align="right">47,238.34</td>
-  <td align="right">1.65</td>
-  <td align="right">3.70</td>
-</tr>
-<tr>
-  <td>General Cepeda</td>
-  <td align="right">28,151.67</td>
-  <td align="right">60,302.24</td>
-  <td align="right">2.41</td>
-  <td align="right">4.04</td>
-</tr>
-<tr>
-  <td>Juárez</td>
-  <td align="right">27,190.43</td>
-  <td align="right">27,190.43</td>
-  <td align="right">17.00</td>
-  <td align="right">17.00</td>
-</tr>
-<tr>
-  <td>La Madrid</td>
-  <td align="right">24,692.32</td>
-  <td align="right">749,95.50</td>
-  <td align="right">13.46</td>
-  <td align="right">40.87</td>
-</tr>
-<tr>
-  <td>Matamoros</td>
-  <td align="right">282,579.64</td>
-  <td align="right">452,186.48</td>
-  <td align="right">2.64</td>
-  <td align="right">4.22</td>
-</tr>
-<tr>
-  <td>Monclova</td>
-  <td align="right">996,013.53</td>
-  <td align="right">1,677,562.34</td>
-  <td align="right">4.61</td>
-  <td align="right">7.76</td>
-</tr>
-<tr>
-  <td>Morelos</td>
-  <td align="right">44,362.09</td>
-  <td align="right">110,067.78</td>
-  <td align="right">5.41</td>
-  <td align="right">13.41</td>
-</tr>
-<tr>
-  <td>Múzquiz</td>
-  <td align="right">401,733.02</td>
-  <td align="right">589,600.84</td>
-  <td align="right">6.01</td>
-  <td align="right">8.82</td>
-</tr>
-<tr>
-  <td>Nava</td>
-  <td align="right">160,195.78</td>
-  <td align="right">282,110.25</td>
-  <td align="right">5.74</td>
-  <td align="right">10.10</td>
-</tr>
-<tr>
-  <td>Piedras Negras</td>
-  <td align="right">889,698.48</td>
-  <td align="right">993,736.80</td>
-  <td align="right">5.82</td>
-  <td align="right">6.50</td>
-</tr>
-<tr>
-  <td>Ramos Arizpe</td>
-  <td align="right">360,031.88</td>
-  <td align="right">401,501.14</td>
-  <td align="right">4.77</td>
-  <td align="right">5.32</td>
-</tr>
-<tr>
-  <td>Saltillo</td>
-  <td align="right">3,984,210.80</td>
-  <td align="right">6,995,620.29</td>
-  <td align="right">5.49</td>
-  <td align="right">9.65</td>
-</tr>
-<tr>
-  <td>San Buenaventura</td>
-  <td align="right">105,189.55</td>
-  <td align="right">172,150.67</td>
-  <td align="right">4.75</td>
-  <td align="right">7.77</td>
-</tr>
-<tr>
-  <td>Torreón</td>
-  <td align="right">3,138,863.31</td>
-  <td align="right">5,977,827.46</td>
-  <td align="right">4.91</td>
-  <td align="right">9.35</td>
-</tr>
-<tr>
-  <td>Zaragoza</td>
-  <td align="right">28,710.89</td>
-  <td align="right">76,516.04</td>
-  <td align="right">2.26</td>
-  <td align="right">6.02</td>
-</tr>
-</tbody>
-</table>
-
-<p>Fuente: Secretaría de Medio Ambiente de Coahuila.</p>
-
-<p>La Organización Mundial de la Salud recomienda una superficie entre 9 y 12 m2 / de áreas verdes por habitante. De acuerdo con la recomendación, se establecieron los siguientes rangos para categorizar la superficie de área verde urbana, quedando de la siguiente forma:</p>
-
-<table class="table table-hover table-bordered">
-<thead>
-<tr>
-  <th>Superficie de área verde / Habitante</th>
-  <th>Categoría</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>Mayor a 12 m2 / habitante</td>
-  <td>Muy Buena</td>
-</tr>
-<tr>
-  <td>Entre 9 y 12 m2 / habitante</td>
-  <td>Buena</td>
-</tr>
-<tr>
-  <td>Entre 4 y 8.9 m2 / habitante</td>
-  <td>Regular</td>
-</tr>
-<tr>
-  <td>Menor a 4 m2 / habitante</td>
-  <td>Mala</td>
-</tr>
-</tbody>
-</table>
-
-<h3>Una versión de divulgación de este análisis apareció en Milenio Laguna</h3>
-
-<ul>
-<li><a href="http://www.milenio.com/region/Reforestacion_Torreon-IMPLAN_Torreon-Medio_Ambiente_Torreon-Vegetacion_Torreon_0_734326634.html">Más laguneros se unen a la reforestación</a></li>
 </ul>
 ]]></description>
     </item>
