@@ -40,7 +40,7 @@ class PlantasTratadorasAguasResiduales extends \Base\Publicacion {
         $this->imagen             = 'plantas-tratadoras-aguas-residuales/imagen.jpg';
         $this->imagen_previa      = 'plantas-tratadoras-aguas-residuales/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Retiran los contaminantes del agua para que no haya riesgos a la salud y al medio ambiente; al disponerla en un cuerpo receptor natural (mar, ríos o lagos) o para su reuso en otras actividades.';
+        $this->descripcion        = 'Retiran los contaminantes del agua para que no haya riesgos a la salud y al medio ambiente.';
         $this->claves             = 'Agua, Aguas Residuales, Plantas, Reciclaje';
         $this->categorias         = array('Infraestructura');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
