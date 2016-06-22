@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SIG Mapas Ubicación de Plantas Tratadoras de Aguas Residuales
+ * TrcIMPLAN - SIG Mapas Plantas Tratadoras de Aguas Residuales
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,24 +23,24 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase UbicacionPlantasTratadorasAguasResiduales
+ * Clase PlantasTratadorasAguasResiduales
  */
-class UbicacionPlantasTratadorasAguasResiduales extends \Base\Publicacion {
+class PlantasTratadorasAguasResiduales extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Ubicación de Plantas Tratadoras de Aguas Residuales';
+        $this->nombre             = 'Plantas Tratadoras de Aguas Residuales';
         $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
         $this->fecha              = '2016-06-22T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo            = 'ubicacion-plantas-tratadoras-aguas-residuales';
-        $this->imagen             = 'ubicacion-plantas-tratadoras-aguas-residuales/imagen.jpg';
-        $this->imagen_previa      = 'ubicacion-plantas-tratadoras-aguas-residuales/imagen-previa.jpg';
+        $this->archivo            = 'plantas-tratadoras-aguas-residuales';
+        $this->imagen             = 'plantas-tratadoras-aguas-residuales/imagen.jpg';
+        $this->imagen_previa      = 'plantas-tratadoras-aguas-residuales/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Retiran los contaminantes del agua para que no haya riesgos a la salud y al medio ambiente al disponerla en un cuerpo receptor natural (mar, ríos o lagos) o para su reuso en otras actividades.';
+        $this->descripcion        = 'Retiran los contaminantes del agua para que no haya riesgos a la salud y al medio ambiente; al disponerla en un cuerpo receptor natural (mar, ríos o lagos) o para su reuso en otras actividades.';
         $this->claves             = 'Agua, Aguas Residuales, Plantas, Reciclaje';
         $this->categorias         = array('Infraestructura');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
@@ -114,6 +114,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase UbicacionPlantasTratadorasAguasResiduales
+} // Clase PlantasTratadorasAguasResiduales
 
 ?>
