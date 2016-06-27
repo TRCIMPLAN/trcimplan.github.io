@@ -9,19 +9,19 @@
 <li>La codificación de los caracteres es <a href="https://es.wikipedia.org/wiki/UTF-8" target="_blank">UTF-8</a>.</li>
 <li>La primera línea tiene los nombres de las columnas.</li>
 <li>En mayúsculas y sin acentos. Excepto la eñe (Ñ) y la diéresis (Ü).</li>
-<li>Cantidad de filas: <b>6,898 filas</b>.</li>
-<li>Elaboración: <b>24 junio 2016 13:55</b>.</li>
+<li>Cantidad de filas: <b>6,953 filas</b>.</li>
+<li>Elaboración: <b>27 junio 2016 15:56</b>.</li>
 </ul>
 </div>
 </div>
 
 ### Los mismos Datos Abiertos separados por municipios y regiones
 
-* [Torreón](trcimplan-smi-torreon.zip): 1,466 filas.
-* [Gómez Palacio](trcimplan-smi-gomez-palacio.zip): 1,154 filas.
-* [Lerdo](trcimplan-smi-lerdo.zip): 1,150 filas.
-* [Matamoros](trcimplan-smi-matamoros.zip): 1,169 filas.
-* [La Laguna](trcimplan-smi-la-laguna.zip): 1,146 filas.
+* [Torreón](trcimplan-smi-torreon.zip): 1,476 filas.
+* [Gómez Palacio](trcimplan-smi-gomez-palacio.zip): 1,163 filas.
+* [Lerdo](trcimplan-smi-lerdo.zip): 1,159 filas.
+* [Matamoros](trcimplan-smi-matamoros.zip): 1,177 filas.
+* [La Laguna](trcimplan-smi-la-laguna.zip): 1,155 filas.
 
 ### ¿Qué son los datos abiertos?
 
