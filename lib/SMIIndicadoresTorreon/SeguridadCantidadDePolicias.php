@@ -71,7 +71,7 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Seguridad');
-        $this->fuentes           = array('Ayuntamiento de Torreón');
+        $this->fuentes           = array('00) Portal de transparencia Ayuntamiento de Torreón', 'Ayuntamiento de Torreón');
         $this->regiones          = 'Torreón';
     } // constructor
 
@@ -103,6 +103,12 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
             <td>28/02/2014</td>
             <td>768</td>
             <td>Ayuntamiento de Torreón</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/01/2016</td>
+            <td>700</td>
+            <td>00) Portal de transparencia Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
         </tbody>
@@ -161,6 +167,12 @@ FINAL;
             <td>28/02/2014</td>
             <td>768</td>
             <td>Ayuntamiento de Torreón</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/01/2016</td>
+            <td>700</td>
+            <td>00) Portal de transparencia Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
         </tbody>

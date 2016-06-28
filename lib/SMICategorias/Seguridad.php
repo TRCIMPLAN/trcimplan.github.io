@@ -113,7 +113,7 @@ class Seguridad extends \Base\Publicacion {
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Cantidad de Policías</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-cantidad-de-policias.html" data-toggle="tooltip" title="Cantidad, 28/02/2014, Ayuntamiento de Torreón">768</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-cantidad-de-policias.html" data-toggle="tooltip" title="Cantidad, 31/01/2016, 00) Portal de transparencia Ayuntamiento de Torreón">700</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
