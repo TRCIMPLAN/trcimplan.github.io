@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La disminución en tiempo de traslados en 15 minutos y el uso de un sistema que no produce emisiones contaminantes, es parte de los beneficios de la implementación del Metrobús en La Laguna. El proyecto contempla también beneficios económicos y una movilidad más equitativa.">
+  <meta name="author" content="Lic. Adriana Vargas Flores">
+  <meta name="keywords" content="IMPLAN, Torreon, Metrobus, Laguna, Bioxido de Carbono, CO2, Contaminacion">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Con Metrobús Laguna, 21 mil toneladas menos de CO-sub-2-/sub- - IMPLAN Torreón">
+  <meta name="twitter:description" content="La disminución en tiempo de traslados en 15 minutos y el uso de un sistema que no produce emisiones contaminantes, es parte de los beneficios de la implementación del Metrobús en La Laguna. El proyecto contempla también beneficios económicos y una movilidad más equitativa.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/con-metrobus-laguna-21-mil-toneladas-menos-de-co2/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/con-metrobus-laguna-21-mil-toneladas-menos-de-co2.html">
+  <meta name="og:title" content="Con Metrobús Laguna, 21 mil toneladas menos de CO-sub-2-/sub- - IMPLAN Torreón">
+  <meta name="og:description" content="La disminución en tiempo de traslados en 15 minutos y el uso de un sistema que no produce emisiones contaminantes, es parte de los beneficios de la implementación del Metrobús en La Laguna. El proyecto contempla también beneficios económicos y una movilidad más equitativa.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/con-metrobus-laguna-21-mil-toneladas-menos-de-co2/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/con-metrobus-laguna-21-mil-toneladas-menos-de-co2.html">
+  <title>Con Metrobús Laguna, 21 mil toneladas menos de CO<sub>2</sub> - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="http://trcimplan.mx/plan" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Participación Ciudadana</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://trcimplan.mx/comentariossugerencias" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Con Metrobús Laguna, 21 mil toneladas menos de CO<sub>2</sub></h1>
+          <div class="encabezado-descripcion" itemprop="description">La disminución en tiempo de traslados en 15 minutos y el uso de un sistema que no produce emisiones contaminantes, es parte de los beneficios de la implementación del Metrobús en La Laguna. El proyecto contempla también beneficios económicos y una movilidad más equitativa.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Adriana Vargas Flores</span>
+          - <meta itemprop="datePublished" content="2016-07-01T19:30">01/07/2016 19:30
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Con Metrobús Laguna, 21 mil toneladas menos de CO<sub>2</sub>" src="con-metrobus-laguna-21-mil-toneladas-menos-de-co2/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>Con la implementación del sistema Metrobús Laguna se cambiará la huella energética que dejan los autobuses actuales, utilizando en lugar de diesel y gasolina el gas natural comprimido, lo que reducirá considerablemente las emisiones de CO2.</p>
+
+<p>Ésta es una de las ventajas más importantes del proyecto, así como la disminución de tiempos de recorridos, la movilidad más equitativa y el empuje comercial de las zonas donde impacte el Metrobús.</p>
+
+<p>Lo anterior lo dio a conocer Fernando Tehuintle, asesor técnico del proyecto, quien se reunió recientemente con consejeros del Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN), con empresarios y distintos grupos de la sociedad civil, para difundir las características de esta obra.</p>
+
+<p>El crecimiento urbano de la Zona Metropolitana de la Laguna (ZML) se ha registrado de forma extensiva hacia las zonas periféricas. Entre 2000 y 2010 la población ha crecido pasando de 1,007,291 habitantes a 1,215,817.</p>
+
+<p>Todo esto implica una mayor dispersión de la población y consecuentemente de sus principales actividades comerciales, industriales y de servicios, generando mayores desplazamientos y la creciente necesidad de más infraestructura y servicios entre los que se encuentra el transporte público.</p>
+
+<p>De acuerdo con Fernando Tehuintle, el transporte público en las ciudades de la ZML ha presentado los siguientes problemas: malas prácticas de los conductores, mala regulación operativa de las rutas, descalificación por parte de los usuarios, débil regulación en las inspecciones a las unidades para dar cumplimiento a la reducción de contaminantes; entre otros.</p>
+
+<p>En entrevista, el asesor señaló que algunas de las ventajas competitivas de la obra, es primero en términos ambientales que se va a optimizar el servicio: “Esto quiere decir que de los kilómetros que hoy está recorriendo todo el sistema de transporte público, se reducirá por nada más ordenarlo y estructurarlo, en este sistema de rutas troncales, administradoras y modificadas. El simple hecho de ordenarlas, implicará menor cantidad de kilómetros y consecuentemente, serán menos emisiones de gases contaminantes”.</p>
+
+<p>“Al cambiar la huella energética de camiones a gas natural comprimido, prácticamente hay cero emisiones de CO2, esto representa un gran beneficio en términos de calidad de aire para la zona de Torreón Matamoros”, añadió.</p>
+
+<p>En cuanto a la detonación económica que provocará el Metrobús, comentó el especialista en transporte multi modal, que el hecho de que se promueva que la gente se movilice más, tiene una incidencia en la economía. “Es decir, cualquier persona que sale de su casa, va al trabajo, a la escuela, a efectuar una tarea cualquiera, realiza una actividad comercial básica de economía. El hecho de que se permita tener multi destinos a través de este sistema integrado, fomenta más actividad comercial, derivada de un sistema ordenado de transporte público”.</p>
+
+<p>Respecto al costo de las tarifas del BRT (Bus Rapid Transit) agregó que se está haciendo una evaluación tarifaria del proyecto, “pero en términos generales, sí será menor.  El ejemplo es que si hoy se están tomando dos camiones a un destino, muy probablemente el costo sea menor que el de esos dos camiones”.</p>
+
+<p>Señaló que a través del uso de la tarjeta, en una familia donde viaje papá, mamá e hijo, se va a poder prever o planear el presupuesto a través del pago y recarga de la misma. “Para que la gente ya con el ahorro tarifario que tiene, obtenga un beneficio colateral: que van a poder planear sus egresos en el transporte público”.</p>
+
+<p>Fernando Tehuintle comentó que la proyección es que la obra debe quedar concluida en agosto o septiembre del 2017.</p>
+
+<h3>Beneficios</h3>
+
+<p>Dentro de los beneficios que traerá la implementación de Metrobús, se encuentra la disminución de 15 minutos en los tiempos de recorridos. En la actualidad los laguneros tardan en llegar a sus destinos en promedio 45 minutos utilizando el transporte público, 24 minutos trasladándose en vehículo particular, 20 minutos en taxi y 44 minutos en autobuses de transporte de personal; de acuerdo con el Plan Integral de Movilidad Urbana Sustentable (PIMUS 2013).</p>
+
+<p>Otros beneficios son: el contar con traslados de mayor confort y seguridad, aumentar la seguridad vial y la reducción de accidentes, la disminución de 21 mil toneladas anuales de CO2, la recuperación de la plusvalía inmobiliaria en el polígono de actuación, así como el ahorro en la economía familiar.</p>
+
+<h3>¿Qué es un BRT?</h3>
+
+<ul>
+<li>Bus Rapid Transit (autobús de tránsito rápido) por sus siglas en inglés, es un sistema de transporte público masivo que combina la velocidad y eficiencia de un metro, con el costo y simplicidad de un sistema de autobuses.</li>
+<li>Apareció por primera vez en Curitiba, Brasil en 1974 implementado por el arquitecto Jaime Lerner, alcalde de dicha ciudad y fundador del primer Instituto de Investigación y Planificación Urbana de Curitiba, institución antecedente a los IMPLANes en México.</li>
+<li>El BRT de Curutiba sirvió de inspiración y ha sido replicado en múltiples ciudades como Bogotá, Quito, Buenos Aires, Montreal, Chicago, Ciudad de México, León, Monterrey entre muchas otras.</li>
+<li>El modelo de transporte, para que pueda ser considerado BRT, debe presentar condiciones como carriles alineados al centro de la ruta troncal, estaciones a nivel del piso del autobús, y sistemas de cobro previo al abordaje, así como carriles confinados o prioritarios para los autobuses.</li>
+</ul>
+
+<h3>Datos generales</h3>
+
+<ul>
+<li>Longitud: 24.8 km Coahuila (16 km de carriles confinados y 8.8 de carriles preferentes)</li>
+<li>Características: 2 terminales, 1 patios de encierro, Talleres, Estaciones de servicio a gas natural comprimido, 22 estaciones intermedias, 63 parabuses, Sistema de control semafórico.</li>
+<li>Material Rodante: 108 Autobuses tipo Padrón de 100 pasajeros en rutas troncal e integradas</li>
+<li>Ahorro de Tiempo: 15 minutos.</li>
+<li>Disminución de CO2: 21 mil ton/anuales.</li>
+<li>Velocidad de Sistema: 25 km/hr</li>
+</ul>
+
+<h3>Fuentes</h3>
+
+<ul>
+<li>Dirección General de Obras Públicas.</li>
+<li>IMPLAN Torreón.</li>
+</ul>
+
+<h3>Una versión de divulgación de este análisis apareció en Milenio Laguna</h3>
+
+<p><a href="http://www.milenio.com/region/IMPLAN_Torreon-Metrobus_Laguna-Fernando_Tehuintle-Bus_Rapid_Transit_0_759524132.html">Con Metrobús Laguna, 21 mil toneladas menos de CO2</a></p>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fcon-metrobus-laguna-21-mil-toneladas-menos-de-co2.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
