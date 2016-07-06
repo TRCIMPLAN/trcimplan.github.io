@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SIG Mapas Áreas verdes en la ciudad de Torreón
+ * TrcIMPLAN - SIG Mapas Rellenos Sanitarios
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,26 +23,26 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase AreasVerdesEnCiudadTorreon
+ * Clase RellenosSanitarios
  */
-class AreasVerdesEnCiudadTorreon extends \Base\Publicacion {
+class RellenosSanitarios extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Áreas verdes en la ciudad de Torreón';
+        $this->nombre             = 'Rellenos Sanitarios';
         $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha              = '2016-05-20T08:00';
+        $this->fecha              = '2016-07-06T09:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo            = 'areas-verdes-en-ciudad-torreon';
-        $this->imagen             = 'areas-verdes-en-ciudad-torreon/imagen.jpg';
-        $this->imagen_previa      = 'areas-verdes-en-ciudad-torreon/imagen-previa.jpg';
+        $this->archivo            = 'rellenos-sanitarios';
+        $this->imagen             = 'rellenos-sanitarios/imagen.jpg';
+        $this->imagen_previa      = 'rellenos-sanitarios/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Mapa de localización de áreas verdes en la ciudad de Torreón.';
-        $this->claves             = 'Areas verdes, Parques, Deportivos,';
-        $this->categorias         = array('Recursos Naturales');
+        $this->descripcion        = 'Lugares donde se deposita finalmente la basura con múltiples medidas para reducir los problemas generados por otros métodos como son los tiraderos.';
+        $this->claves             = 'Rellenos, Sanitarios, Basura, Residuos, Solidos';
+        $this->categorias         = array('Infraestructura');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -52,7 +52,7 @@ class AreasVerdesEnCiudadTorreon extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/1b85d4ce-3260-11e6-b50c-0ef24382571b/embed_map';
+        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/8e278c6a-37f2-11e6-9b9d-0e3ff518bd15/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -65,7 +65,7 @@ class AreasVerdesEnCiudadTorreon extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.cartodb.com/u/sigimplan/viz/1b85d4ce-3260-11e6-b50c-0ef24382571b/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.cartodb.com/u/sigimplan/viz/8e278c6a-37f2-11e6-9b9d-0e3ff518bd15/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
@@ -114,6 +114,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase AreasVerdesEnCiudadTorreon
+} // Clase RellenosSanitarios
 
 ?>
