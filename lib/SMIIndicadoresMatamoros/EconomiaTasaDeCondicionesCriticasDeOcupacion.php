@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Matamoros Sociedad Población Estimada (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Matamoros Economía Tasa de Condiciones Críticas de Ocupación (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,25 +23,25 @@
 namespace SMIIndicadoresMatamoros;
 
 /**
- * Clase SociedadPoblacionEstimada
+ * Clase EconomiaTasaDeCondicionesCriticasDeOcupacion
  */
-class SociedadPoblacionEstimada extends \Base\Publicacion {
+class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Población Estimada en Matamoros';
+        $this->nombre            = 'Tasa de Condiciones Críticas de Ocupación en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2016-07-04T13:01';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'sociedad-poblacion-estimada';
+        $this->archivo           = 'economia-tasa-de-condiciones-criticas-de-ocupacion';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Población estimada a mitad de año.';
-        $this->claves            = 'IMPLAN, Matamoros, Población';
+        $this->descripcion       = 'Porcentaje de la población ocupada en alguna de las siguientes situaciones: 1) trabaja menos de 35 horas a la semana por razones de mercado, 2) trabaja más de 35 horas con ingresos inferiores al salario mínimo o 3) labora más de 48 horas con una percepción de hasta dos salarios mínimos.';
+        $this->claves            = 'IMPLAN, Matamoros, Empleo';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-matamoros';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -70,8 +70,8 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
         // Para el Organizador
-        $this->categorias        = array('Población');
-        $this->fuentes           = array('CONAPO');
+        $this->categorias        = array('Empleo');
+        $this->fuentes           = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos');
         $this->regiones          = 'Matamoros';
     } // constructor
 
@@ -85,7 +85,6 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -102,80 +101,19 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td>30/06/2011</td>
-            <td>109,264</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2012</td>
-            <td>110,244</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2013</td>
-            <td>111,305</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2014</td>
-            <td>112,434</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2015</td>
-            <td>113,612</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2016</td>
-            <td>114,829</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2017</td>
-            <td>116,078</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2018</td>
-            <td>117,349</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2019</td>
-            <td>118,631</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2020</td>
-            <td>119,919</td>
-            <td>CONAPO</td>
+            <td>31/03/2016</td>
+            <td>18.45 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-      <h3>Observaciones</h3>
-<p>Estimaciones de CONAPO en base a INEGI. Consulta la <a href="http://www.conapo.gob.mx/es/CONAPO/Proyecciones_Datos">Base de Datos</a></p>
-
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Población Estimada en Matamoros</h3>
-      <div id="graficaDatos" class="grafica"></div>
+      <p><b>Unidad:</b> Porcentaje.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Población Estimada</h3>
+      <h3>Gráfica con los últimos datos de Tasa de Condiciones Críticas de Ocupación</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Población Estimada</h3>
+      <h3>Últimos datos de Tasa de Condiciones Críticas de Ocupación</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -189,58 +127,51 @@ class SociedadPoblacionEstimada extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-06-30</td>
-            <td>700,656</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>8.77 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-06-30</td>
-            <td>357,664</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>11.40 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-06-30</td>
-            <td>154,621</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>8.89 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-06-30</td>
-            <td>114,829</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>18.45 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-06-30</td>
-            <td>1,327,769</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>10.50 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2016-06-30</td>
-            <td>2,995,374</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2016-06-30</td>
-            <td>1,782,205</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>9.51 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2016-06-30</td>
-            <td>122,273,473</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>13.95 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
         </tbody>
@@ -260,29 +191,13 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2011-06-30', dato: 109264 },{ fecha: '2012-06-30', dato: 110244 },{ fecha: '2013-06-30', dato: 111305 },{ fecha: '2014-06-30', dato: 112434 },{ fecha: '2015-06-30', dato: 113612 },{ fecha: '2016-06-30', dato: 114829 },{ fecha: '2017-06-30', dato: 116078 },{ fecha: '2018-06-30', dato: 117349 },{ fecha: '2019-06-30', dato: 118631 },{ fecha: '2020-06-30', dato: 119919 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 700656 },{ region: 'Gómez Palacio', dato: 357664 },{ region: 'Lerdo', dato: 154621 },{ region: 'Matamoros', dato: 114829 },{ region: 'La Laguna', dato: 1327769 },{ region: 'Coahuila', dato: 2995374 },{ region: 'Durango', dato: 1782205 },{ region: 'Nacional', dato: 122273473 }],
+      data: [{ region: 'Torreón', dato: 8.7700 },{ region: 'Gómez Palacio', dato: 11.4000 },{ region: 'Lerdo', dato: 8.8900 },{ region: 'Matamoros', dato: 18.4500 },{ region: 'La Laguna', dato: 10.5000 },{ region: 'Coahuila', dato: 9.5100 },{ region: 'Nacional', dato: 13.9500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -308,7 +223,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
-<p>Población estimada a mitad de año.</p>
+<p>Porcentaje de la población ocupada en alguna de las siguientes situaciones: 1) trabaja menos de 35 horas a la semana por razones de mercado, 2) trabaja más de 35 horas con ingresos inferiores al salario mínimo o 3) labora más de 48 horas con una percepción de hasta dos salarios mínimos.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -322,76 +237,19 @@ FINAL;
         </thead>
         <tbody>
           <tr>
-            <td>30/06/2011</td>
-            <td>109,264</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2012</td>
-            <td>110,244</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2013</td>
-            <td>111,305</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2014</td>
-            <td>112,434</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2015</td>
-            <td>113,612</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2016</td>
-            <td>114,829</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2017</td>
-            <td>116,078</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2018</td>
-            <td>117,349</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2019</td>
-            <td>118,631</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2020</td>
-            <td>119,919</td>
-            <td>CONAPO</td>
+            <td>31/03/2016</td>
+            <td>18.45 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-      <h3>Observaciones</h3>
-<p>Estimaciones de CONAPO en base a INEGI. Consulta la <a href="http://www.conapo.gob.mx/es/CONAPO/Proyecciones_Datos">Base de Datos</a></p>
-
+      <p><b>Unidad:</b> Porcentaje.</p>
 FINAL;
         // Ejecutar este método en el padre
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase SociedadPoblacionEstimada
+} // Clase EconomiaTasaDeCondicionesCriticasDeOcupacion
 
 ?>

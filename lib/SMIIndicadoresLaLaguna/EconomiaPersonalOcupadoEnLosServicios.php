@@ -161,7 +161,7 @@ class EconomiaPersonalOcupadoEnLosServicios extends \Base\Publicacion {
           <tr>
             <td>Gómez Palacio</td>
             <td>2013-12-31</td>
-            <td>223.31 %</td>
+            <td>28.51 %</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -246,7 +246,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 39.0245 },{ region: 'Gómez Palacio', dato: 223.3132 },{ region: 'Lerdo', dato: 20.3095 },{ region: 'Matamoros', dato: 24.1582 },{ region: 'La Laguna', dato: 34.9078 },{ region: 'Coahuila', dato: 28.6520 },{ region: 'Durango', dato: 28.1982 },{ region: 'Nacional', dato: 36.4504 }],
+      data: [{ region: 'Torreón', dato: 39.0245 },{ region: 'Gómez Palacio', dato: 28.5100 },{ region: 'Lerdo', dato: 20.3095 },{ region: 'Matamoros', dato: 24.1582 },{ region: 'La Laguna', dato: 34.9078 },{ region: 'Coahuila', dato: 28.6520 },{ region: 'Durango', dato: 28.1982 },{ region: 'Nacional', dato: 36.4504 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

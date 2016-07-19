@@ -309,8 +309,8 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-03-31</td>
-            <td>277,295</td>
+            <td>2016-04-30</td>
+            <td>180,602</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
@@ -331,7 +331,7 @@ class EconomiaTrabajadoresAsegurados extends \Base\Publicacion {
           <tr>
             <td>Matamoros</td>
             <td>2016-04-30</td>
-            <td>180,602</td>
+            <td>8,387</td>
             <td>Instituto Mexicano del Seguro Social (IMSS)</td>
             <td></td>
           </tr>
@@ -381,7 +381,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 277295 },{ region: 'Gómez Palacio', dato: 75604 },{ region: 'Lerdo', dato: 14414 },{ region: 'Matamoros', dato: 180602 },{ region: 'La Laguna', dato: 279007 }],
+      data: [{ region: 'Torreón', dato: 180602 },{ region: 'Gómez Palacio', dato: 75604 },{ region: 'Lerdo', dato: 14414 },{ region: 'Matamoros', dato: 8387 },{ region: 'La Laguna', dato: 279007 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

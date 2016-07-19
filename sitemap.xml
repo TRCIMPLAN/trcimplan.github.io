@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/index.html</loc>
-    <lastmod>2016-07-06</lastmod>
+    <lastmod>2016-07-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -13,6 +13,31 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig-mapas-torreon/rellenos-sanitarios.html</loc>
     <lastmod>2016-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html</loc>
+    <lastmod>2016-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html</loc>
+    <lastmod>2016-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-tasa-de-condiciones-criticas-de-ocupacion.html</loc>
+    <lastmod>2016-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-matamoros/economia-tasa-de-condiciones-criticas-de-ocupacion.html</loc>
+    <lastmod>2016-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html</loc>
+    <lastmod>2016-07-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -96,6 +121,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-usuarios-de-modos-no-motorizados.html</loc>
+    <lastmod>2016-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-usuarios-de-modos-no-motorizados.html</loc>
     <lastmod>2016-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -107,11 +137,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-usuarios-de-modos-no-motorizados.html</loc>
-    <lastmod>2016-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-usuarios-de-modos-no-motorizados.html</loc>
     <lastmod>2016-05-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -146,6 +171,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-usuarios-de-bicicleta.html</loc>
+    <lastmod>2016-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-usuarios-de-bicicleta.html</loc>
     <lastmod>2016-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -161,12 +191,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-usuarios-de-bicicleta.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-usuarios-de-transporte-colectivo-privado.html</loc>
     <lastmod>2016-05-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-usuarios-de-transporte-colectivo-privado.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-colectivo-privado.html</loc>
     <lastmod>2016-05-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -186,12 +216,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-colectivo-privado.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-usuarios-de-automoviles.html</loc>
     <lastmod>2016-05-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-usuarios-de-automoviles.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-usuarios-de-automoviles.html</loc>
     <lastmod>2016-05-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -211,12 +241,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-usuarios-de-automoviles.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-usuarios-de-transporte-publico.html</loc>
     <lastmod>2016-05-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-usuarios-de-transporte-publico.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-publico.html</loc>
     <lastmod>2016-05-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -232,11 +262,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-usuarios-de-transporte-publico.html</loc>
-    <lastmod>2016-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-usuarios-de-transporte-publico.html</loc>
     <lastmod>2016-05-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -301,6 +326,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-superficie.html</loc>
+    <lastmod>2016-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-superficie.html</loc>
     <lastmod>2016-03-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -312,11 +342,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-superficie.html</loc>
-    <lastmod>2016-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-superficie.html</loc>
     <lastmod>2016-03-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1161,6 +1186,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-red-carretera-avanzada.html</loc>
+    <lastmod>2015-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/sustentabilidad-red-carretera-avanzada.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1176,12 +1206,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-red-carretera-avanzada.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-gomez-palacio/sustentabilidad-sistema-de-transporte-masivo.html</loc>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -1197,11 +1227,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-sistema-de-transporte-masivo.html</loc>
-    <lastmod>2015-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-sistema-de-transporte-masivo.html</loc>
     <lastmod>2015-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -5076,6 +5101,31 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
+    <lastmod>2014-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-lerdo/economia-cantidad-de-creditos-hipotecarios-trimestral.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -6702,31 +6752,6 @@
   </url>
   <url>
     <loc>http://www.trcimplan.gob.mx/indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html</loc>
-    <lastmod>2014-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html</loc>
     <lastmod>2014-10-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>

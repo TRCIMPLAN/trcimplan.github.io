@@ -186,57 +186,57 @@ class SociedadAdultosMayores extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-06-30</td>
-            <td>47,033</td>
+            <td>2016-06-30</td>
+            <td>49,020</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2015-06-30</td>
-            <td>21,075</td>
+            <td>2016-06-30</td>
+            <td>21,943</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2015-06-30</td>
-            <td>9,807</td>
+            <td>2016-06-30</td>
+            <td>10,152</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2015-06-30</td>
-            <td>7,718</td>
+            <td>2016-06-30</td>
+            <td>7,999</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2015-06-30</td>
-            <td>85,633</td>
+            <td>2016-06-30</td>
+            <td>89,114</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2015-06-30</td>
-            <td>195,028</td>
+            <td>2016-06-30</td>
+            <td>202,680</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2015-06-30</td>
-            <td>123,424</td>
+            <td>2016-06-30</td>
+            <td>126,999</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2015-06-30</td>
-            <td>8,107,885</td>
+            <td>2016-06-30</td>
+            <td>8,378,769</td>
             <td>CONAPO</td>
             <td></td>
           </tr>
@@ -279,7 +279,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 47033 },{ region: 'Gómez Palacio', dato: 21075 },{ region: 'Lerdo', dato: 9807 },{ region: 'Matamoros', dato: 7718 },{ region: 'La Laguna', dato: 85633 },{ region: 'Coahuila', dato: 195028 },{ region: 'Durango', dato: 123424 },{ region: 'Nacional', dato: 8107885 }],
+      data: [{ region: 'Torreón', dato: 49020 },{ region: 'Gómez Palacio', dato: 21943 },{ region: 'Lerdo', dato: 10152 },{ region: 'Matamoros', dato: 7999 },{ region: 'La Laguna', dato: 89114 },{ region: 'Coahuila', dato: 202680 },{ region: 'Durango', dato: 126999 },{ region: 'Nacional', dato: 8378769 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

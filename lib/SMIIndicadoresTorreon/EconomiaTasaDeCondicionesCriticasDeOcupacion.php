@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores La Laguna Sociedad Adultos Mayores Femenino (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Economía Tasa de Condiciones Críticas de Ocupación (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -20,30 +20,30 @@
  */
 
 // Namespace
-namespace SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresTorreon;
 
 /**
- * Clase SociedadAdultosMayoresFemenino
+ * Clase EconomiaTasaDeCondicionesCriticasDeOcupacion
  */
-class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
+class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Adultos Mayores Femenino en La Laguna';
+        $this->nombre            = 'Tasa de Condiciones Críticas de Ocupación en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2016-07-04T13:01';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'sociedad-adultos-mayores-femenino';
+        $this->archivo           = 'economia-tasa-de-condiciones-criticas-de-ocupacion';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Población estimada a mediados de año de personas de 65 años y más de sexo femenino.';
-        $this->claves            = 'IMPLAN, La Laguna, Grupos Vulnerables, Género';
+        $this->descripcion       = 'Porcentaje de la población ocupada en alguna de las siguientes situaciones: 1) trabaja menos de 35 horas a la semana por razones de mercado, 2) trabaja más de 35 horas con ingresos inferiores al salario mínimo o 3) labora más de 48 horas con una percepción de hasta dos salarios mínimos.';
+        $this->claves            = 'IMPLAN, Torreón, Empleo';
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio        = 'indicadores-la-laguna';
+        $this->directorio        = 'indicadores-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu       = 'Indicadores';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
@@ -53,8 +53,8 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                  = new \Base\SchemaPostalAddress();
         $region->addressCountry  = 'MX';
-        $region->addressRegion   = '';
-        $region->addressLocality = '';
+        $region->addressRegion   = 'Coahuila de Zaragoza';
+        $region->addressLocality = 'Torreón';
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                   = new \Base\SchemaPlace();
         $lugar->address          = $region;
@@ -70,9 +70,9 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
         // El contenido es una instancia de SchemaArticle
         $this->contenido         = $schema;
         // Para el Organizador
-        $this->categorias        = array('Grupos Vulnerables', 'Género');
-        $this->fuentes           = array('CONAPO');
-        $this->regiones          = 'La Laguna';
+        $this->categorias        = array('Empleo');
+        $this->fuentes           = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos');
+        $this->regiones          = 'Torreón';
     } // constructor
 
     /**
@@ -85,7 +85,6 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -102,77 +101,19 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
-            <td>30/06/2011</td>
-            <td>39,935</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2012</td>
-            <td>41,463</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2013</td>
-            <td>43,078</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2014</td>
-            <td>44,790</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2015</td>
-            <td>46,600</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2016</td>
-            <td>48,510</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2017</td>
-            <td>50,521</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2018</td>
-            <td>52,631</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2019</td>
-            <td>54,836</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2020</td>
-            <td>57,130</td>
-            <td>CONAPO</td>
+            <td>31/03/2016</td>
+            <td>8.77 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Cantidad.</p>
-    </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Adultos Mayores Femenino en La Laguna</h3>
-      <div id="graficaDatos" class="grafica"></div>
+      <p><b>Unidad:</b> Porcentaje.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Adultos Mayores Femenino</h3>
+      <h3>Gráfica con los últimos datos de Tasa de Condiciones Críticas de Ocupación</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Adultos Mayores Femenino</h3>
+      <h3>Últimos datos de Tasa de Condiciones Críticas de Ocupación</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -186,58 +127,51 @@ class SociedadAdultosMayoresFemenino extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-06-30</td>
-            <td>27,426</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>8.77 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-06-30</td>
-            <td>11,784</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>11.40 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-06-30</td>
-            <td>5,325</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>8.89 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-06-30</td>
-            <td>3,975</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>18.45 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-06-30</td>
-            <td>48,510</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>10.50 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2016-06-30</td>
-            <td>108,300</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Durango</td>
-            <td>2016-06-30</td>
-            <td>66,688</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>9.51 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2016-06-30</td>
-            <td>4,477,892</td>
-            <td>CONAPO</td>
+            <td>2016-03-31</td>
+            <td>13.95 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
         </tbody>
@@ -257,29 +191,13 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2011-06-30', dato: 39935 },{ fecha: '2012-06-30', dato: 41463 },{ fecha: '2013-06-30', dato: 43078 },{ fecha: '2014-06-30', dato: 44790 },{ fecha: '2015-06-30', dato: 46600 },{ fecha: '2016-06-30', dato: 48510 },{ fecha: '2017-06-30', dato: 50521 },{ fecha: '2018-06-30', dato: 52631 },{ fecha: '2019-06-30', dato: 54836 },{ fecha: '2020-06-30', dato: 57130 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 27426 },{ region: 'Gómez Palacio', dato: 11784 },{ region: 'Lerdo', dato: 5325 },{ region: 'Matamoros', dato: 3975 },{ region: 'La Laguna', dato: 48510 },{ region: 'Coahuila', dato: 108300 },{ region: 'Durango', dato: 66688 },{ region: 'Nacional', dato: 4477892 }],
+      data: [{ region: 'Torreón', dato: 8.7700 },{ region: 'Gómez Palacio', dato: 11.4000 },{ region: 'Lerdo', dato: 8.8900 },{ region: 'Matamoros', dato: 18.4500 },{ region: 'La Laguna', dato: 10.5000 },{ region: 'Coahuila', dato: 9.5100 },{ region: 'Nacional', dato: 13.9500 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -305,7 +223,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
-<p>Población estimada a mediados de año de personas de 65 años y más de sexo femenino.</p>
+<p>Porcentaje de la población ocupada en alguna de las siguientes situaciones: 1) trabaja menos de 35 horas a la semana por razones de mercado, 2) trabaja más de 35 horas con ingresos inferiores al salario mínimo o 3) labora más de 48 horas con una percepción de hasta dos salarios mínimos.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -319,73 +237,19 @@ FINAL;
         </thead>
         <tbody>
           <tr>
-            <td>30/06/2011</td>
-            <td>39,935</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2012</td>
-            <td>41,463</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2013</td>
-            <td>43,078</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2014</td>
-            <td>44,790</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2015</td>
-            <td>46,600</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2016</td>
-            <td>48,510</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2017</td>
-            <td>50,521</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2018</td>
-            <td>52,631</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2019</td>
-            <td>54,836</td>
-            <td>CONAPO</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30/06/2020</td>
-            <td>57,130</td>
-            <td>CONAPO</td>
+            <td>31/03/2016</td>
+            <td>8.77 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
         </tbody>
       </table>
-      <p><b>Unidad:</b> Cantidad.</p>
+      <p><b>Unidad:</b> Porcentaje.</p>
 FINAL;
         // Ejecutar este método en el padre
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase SociedadAdultosMayoresFemenino
+} // Clase EconomiaTasaDeCondicionesCriticasDeOcupacion
 
 ?>
