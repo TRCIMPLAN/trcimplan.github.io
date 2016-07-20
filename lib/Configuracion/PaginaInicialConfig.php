@@ -69,7 +69,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         'Preguntas Frecuentes'              => 'preguntas-frecuentes/preguntas-frecuentes.html',
         'Eventos'                           => 'eventos/index.html',
         'Sala de Prensa'                    => 'sala-prensa/index.html',
-        'Quejas y Sugerencias'              => 'http://trcimplan.mx/comentariossugerencias');
+        'Comentarios y Sugerencias'         => 'http://goo.gl/forms/1rdX4X128PpMOif73');
     public $mapa_legal         = array(
         'Transparencia'                     => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178',
         'Términos de Uso de la Información' => 'terminos/terminos-informacion.html',

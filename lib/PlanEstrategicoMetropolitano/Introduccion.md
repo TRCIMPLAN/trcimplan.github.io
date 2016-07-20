@@ -19,6 +19,4 @@ Se apoyarán con las propuestas proporcionadas por los **ciudadanos** y con el e
 
 ### ¿De qué forma puedo participar?
 
-La convocatoria está abierta para que Ciudadanos e Instituciones tengan un formulario en Internet dónde puedan entregar sus proyectos y aportaciones. Sólo se necesita tener una dirección de correo electrónico válida e ingresar a <a href="http://trcimplan.mx/plan" target="_blank">http://trcimplan.mx/plan</a> para hacer llegar su propuesta.
-
-Le informamos que, como forma de control, la encuesta sólo puede ser llenada una vez por cada dirección de correo electrónico.
+Se tuvo un formulario en internet cuyo período de operación ya ha terminado. Comuníquese al correo electrónico [info@trcimplan.gob.mx](mailto:info@trcimplan.gob.mx) para solicitar más información.

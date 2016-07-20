@@ -44,8 +44,7 @@ class NavegacionConfig {
             'Información Geográfica > Zonificación Secundaria' => 'sig-mapas-torreon/zonificacion-secundaria.html'),
         'Plan Estratégico Metropolitano' => array(
             'Plan Estratégico Metropolitano > Conoce el Plan'          => 'plan-estrategico-metropolitano/introduccion.html',
-            'Plan Estratégico Metropolitano > Todas las Mesas'         => 'plan-estrategico-metropolitano/index.html',
-            'Plan Estratégico Metropolitano > Participación Ciudadana' => 'http://trcimplan.mx/plan'),
+            'Plan Estratégico Metropolitano > Todas las Mesas'         => 'plan-estrategico-metropolitano/index.html'),
         'Proyectos Estratégicos' => array(
             'Proyectos Estratégicos > Banco de Proyectos'  => 'proyectos/banco-municipal-proyectos-inversion.html',
             'Proyectos Estratégicos > Todos los Proyectos' => 'proyectos/index.html'),
@@ -66,7 +65,7 @@ class NavegacionConfig {
             'Términos de Uso > Aviso de Privacidad' => 'terminos/privacidad.html'),
         'Contacto' => array(
             'Contacto > Medios de contacto'        => 'contacto/contacto.html',
-            'Contacto > Comentarios y Sugerencias' => 'http://trcimplan.mx/comentariossugerencias'));
+            'Contacto > Comentarios y Sugerencias' => 'http://goo.gl/forms/1rdX4X128PpMOif73'));
     static public $iconos = array(
         'Análisis Publicados'             => 'fa fa-lightbulb-o',
         'Indicadores'                     => 'fa fa-area-chart',
@@ -82,7 +81,6 @@ class NavegacionConfig {
         'Plan Estratégico Metropolitano'  => 'fa fa-sun-o',
             'Conoce el Plan'              => 'fa fa-file-text-o',
             'Todas las Mesas'             => 'fa fa-calendar',
-            'Participación Ciudadana'     => 'fa fa-external-link',
         'Proyectos Estratégicos'          => 'fa fa-check-square',
             'Banco de Proyectos'          => 'fa fa-check-square',
             'Todos los Proyectos'         => 'fa fa-check-square',
