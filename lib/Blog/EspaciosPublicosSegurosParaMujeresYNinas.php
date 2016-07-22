@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - Plan 2040: La visión ciudadana para el futuro de la Laguna
+ * Sitio Web - Espacios públicos seguros para mujeres y niñas
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -20,32 +20,32 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace SalaPrensa;
+namespace Blog;
 
 /**
- * Clase Plan2040LaVisionCiudadanaParaElFuturoDeLaLaguna
+ * Clase EspaciosPublicosSegurosParaMujeresYNinas
  */
-class Plan2040LaVisionCiudadanaParaElFuturoDeLaLaguna extends \Base\Publicacion {
+class EspaciosPublicosSegurosParaMujeresYNinas extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Plan 2040: La visión ciudadana para el futuro de la Laguna';
-        $this->autor           = 'Lic. Adriana Vargas Flores';
-        $this->fecha           = '2016-06-14T13:50';
+        $this->nombre          = 'Espacios públicos seguros para mujeres y niñas';
+        $this->autor           = 'Arq. Ilse Ávila García';
+        $this->fecha           = '2016-07-22T13:20';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2016-06-14-plan-2040-la-vision-ciudadana-para-el-futuro-de-la-laguna';
-        $this->imagen          = '2016-06-14-plan-2040-la-vision-ciudadana-para-el-futuro-de-la-laguna/imagen.jpg';
-        $this->imagen_previa   = '2016-06-14-plan-2040-la-vision-ciudadana-para-el-futuro-de-la-laguna/imagen-previa.jpg';
+        $this->archivo         = 'espacios-publicos-seguros-para-mujeres-y-ninas';
+        $this->imagen          = 'espacios-publicos-seguros-para-mujeres-y-ninas/imagen.jpg';
+        $this->imagen_previa   = 'espacios-publicos-seguros-para-mujeres-y-ninas/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Con una esencia fundamentalmente ciudadana, el Plan Estratégico Torreón con Visión Metropolitana reúne el diagnóstico, proyecciones y visión a futuro para nuestra ciudad y la Laguna en los próximos 25 años.';
-        $this->claves          = 'IMPLAN, Torreon, Plan Torreon, Vision Metropolitana, Diagnostico, Proyecciones, Futuro';
+        $this->descripcion     = 'Torreón cuenta con más de 560 plazas públicas de libre tránsito, lugares donde se debe instalar un programa monitoreo social e implementar campañas que promuevan la denuncia y el respeto de los derechos de las mujeres y las niñas.';
+        $this->claves          = 'IMPLAN, Torreon, ';
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'sala-prensa';
+        $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Sala de Prensa';
+        $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
         // El contenido es estructurado en un esquema
@@ -59,13 +59,13 @@ class Plan2040LaVisionCiudadanaParaElFuturoDeLaLaguna extends \Base\Publicacion 
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/Plan2040LaVisionCiudadanaParaElFuturoDeLaLaguna.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/EspaciosPublicosSegurosParaMujeresYNinas.md';
         // Para el Organizador
-        $this->categorias      = array();
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->categorias      = array('Género', 'Población', 'Seguridad');
+        $this->fuentes         = array('IMPLAN');
+        $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase Plan2040LaVisionCiudadanaParaElFuturoDeLaLaguna
+} // Clase EspaciosPublicosSegurosParaMujeresYNinas
 
 ?>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Torreón cuenta con más de 560 plazas públicas de libre tránsito, lugares donde se debe instalar un programa monitoreo social e implementar campañas que promuevan la denuncia y el respeto de los derechos de las mujeres y las niñas.">
+  <meta name="author" content="Arq. Ilse Ávila García">
+  <meta name="keywords" content="IMPLAN, Torreon, ">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Espacios públicos seguros para mujeres y niñas - IMPLAN Torreón">
+  <meta name="twitter:description" content="Torreón cuenta con más de 560 plazas públicas de libre tránsito, lugares donde se debe instalar un programa monitoreo social e implementar campañas que promuevan la denuncia y el respeto de los derechos de las mujeres y las niñas.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/espacios-publicos-seguros-para-mujeres-y-ninas/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/espacios-publicos-seguros-para-mujeres-y-ninas.html">
+  <meta name="og:title" content="Espacios públicos seguros para mujeres y niñas - IMPLAN Torreón">
+  <meta name="og:description" content="Torreón cuenta con más de 560 plazas públicas de libre tránsito, lugares donde se debe instalar un programa monitoreo social e implementar campañas que promuevan la denuncia y el respeto de los derechos de las mujeres y las niñas.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/espacios-publicos-seguros-para-mujeres-y-ninas/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/espacios-publicos-seguros-para-mujeres-y-ninas.html">
+  <title>Espacios públicos seguros para mujeres y niñas - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Espacios públicos seguros para mujeres y niñas</h1>
+          <div class="encabezado-descripcion" itemprop="description">Torreón cuenta con más de 560 plazas públicas de libre tránsito, lugares donde se debe instalar un programa monitoreo social e implementar campañas que promuevan la denuncia y el respeto de los derechos de las mujeres y las niñas.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Arq. Ilse Ávila García</span>
+          - <meta itemprop="datePublished" content="2016-07-22T13:20">22/07/2016 13:20
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Espacios públicos seguros para mujeres y niñas" src="espacios-publicos-seguros-para-mujeres-y-ninas/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p><strong>Los espacios públicos son el primer contacto que tenemos con la ciudad,</strong> es la imagen que queda grabada en la mente de las personas, la que va creando vínculos en los habitantes sobre la condición social, histórica, económica, cultural y política de un lugar. Estas imágenes van cargadas de sensaciones y percepciones que se trasmiten como referencias de unos a otros, es lo que conocemos como <strong>"la Imagen de la Ciudad".</strong></p>
+
+<p><strong>Actualmente en Torreón existen más de 568 plazas públicas de libre tránsito,</strong> estos espacios públicos forman una de las principales infraestructuras con las que contamos en la ciudad, las  que permiten una interacción entre las personas que los frecuentan.</p>
+
+<p>Debido a la implementación del programa <strong>"Ciudades y Espacios Públicos seguros para las Mujeres y Niñas"</strong> en Torreón por parte de <strong>ONU Mujeres,</strong> es pertinente analizar <strong>cómo se encuentran diseñados los espacios públicos para una sana convivencia donde las mujeres y niñas tengan acceso a lugares libres de violencia.</strong></p>
+
+<p><strong>El espacio público es el lugar común, que tenemos los ciudadanos para relacionarnos,</strong> donde se configura y se expresa la cultura de una comunidad; estos lugares son la calle, las plazas, los parques, espacios deportivos, así como los mercados, teatros, edificios gubernamentales, cines, lugares de esparcimiento y ocio.</p>
+
+<p><strong>Pero en la ciudad existen también los espacios privados</strong> de uso público, restringido, estos espacios se localizan en áreas de nivel socioeconómico más alto; resguardados dentro de  fraccionamientos cerrados, dejando solo para el libre tránsito una exclusiva red vial que conecta los accesos a estos espacios privados, convirtiendo esta red en un lugar inseguro por carecer de un diseño adecuado que permita la integración del ciudadano al espacio y a las diferentes formas de movilidad.</p>
+
+<p>El programa ONU Mujeres <strong>recomienda en el diseño y planeación de espacios públicos que fortalecen la equidad de género,</strong> aspectos como: <strong>Visibilidad adecuada</strong> alrededor del área, que algunas <strong>áreas de juego estén cercanas a las casas</strong> adyacentes para permitir el monitoreo social, un <strong>trazado espacial claro</strong> de todo el parque y las zonas de juego.</p>
+
+<p>Asimismo se recomienda que las ciudades <strong>cuenten con áreas de juego multifuncionales,</strong> es decir, áreas especiales <strong>para actividades preferidas por las niñas</strong> tales como voleibol, por ejemplo. Estas acciones deben evaluarse según sea el caso para incluirse en la planificación y diseño en los espacios públicos de las ciudades, aunado a políticas públicas integrales eficaces con programas de seguridad con campañas que promuevan la denuncia, el respeto de los derechos de las mujeres y las niñas, que ayuden  a fortalecer los vínculos sociales y culturales  entre las personas.</p>
+
+<h3>Prevenir la violencia en la ciudad</h3>
+
+<p><strong>El espacio público es uno de los lugares donde se presenta varias formas de violencia,</strong> esta percepción varía de acuerdo al grupo social, edad y género; en las mujeres una forma de violencia <strong>se presenta a través del acoso y el hostigamiento que va desde una agresión verbal en forma de piropo hasta sus más denigrantes expresiones,</strong> teniendo graves repercusiones para mujeres y niñas, afectando su manera de vivir el espacio, <strong>lo que genera profundas desigualdades en el uso y disfrute de los bienes y equipamientos que la ciudad brinda.</strong></p>
+
+<p>La percepción que se genera es de un profundo miedo e inseguridad al recorrer las calles para desarrollar actividades cotidianas como ir a la escuela, o al trabajo, propiciando la falta de apropiación de estas. <strong>Es importante destacar que la violencia hacia las mujeres y las niñas  es un problema social profundo que debe trabajarse de forma integral; el espacio público es solo un escenario más de esta manifestación.</strong></p>
+
+<p>La <strong>población urbana</strong> en <strong>Torreón a 2015</strong> es de <strong>679,288 habitantes,</strong> de los cuales 329,932 son <strong>hombres</strong> que representa el <strong>48.5%</strong> y 349,356 son <strong>mujeres</strong> que representan el <strong>51.42%, un poco más de la mitad  del total de la población.</strong> Por tal razón deben analizarse las necesidades intereses y propuestas específicas con perspectiva de género para integrarlas al diseño del espacio público.</p>
+
+<p><strong>Las calles, parques y plazas son la  principal infraestructura social que establece la diferencia entre ciudades y barrios de calidad,</strong> de ahí la importancia que sean iluminados, arbolados, caminables, seguros, accesibles, limpios, ordenados y conectados, complementados con programas de administración, conservación y mantenimiento.</p>
+
+<p><img class="img-responsive" src="espacios-publicos-seguros-para-mujeres-y-ninas/tabla-comparativa-por-segmento-de-poblacion-femenina-en-torreon.png" alt="Tabla comparativa por segmento de población femenina en Torreón"></p>
+
+<h3>El programa "Ciudades y Espacios Públicos seguros para las Mujeres y las Niñas" de ONU Mujeres consta de varias etapas como son:</h3>
+
+<ol>
+<li><strong>Elaboración de un diagnóstico</strong> que permita conocer de forma cuantitativa el problema en la ciudad, en calles, plazas y transporte público.</li>
+<li><strong>Referenciar geográficamente las zonas que serán intervenidas por este programa.</strong></li>
+<li>Diseñar las <strong>acciones y programas en estos espacios públicos de acuerdo a casos de éxito</strong> en otras ciudades de américa latina.</li>
+<li>Iniciar <strong>campañas de NO + Violencia a Mujeres y Niñas</strong> que permita disminuir la violencia y aumentar la cultura de la denuncia.</li>
+<li><strong>Evaluacion y seguimiento del programa,</strong> basado en el monitoreo de buenas prácticas que garantice la pertinencia y calidad del mismo.</li>
+</ol>
+
+<h3>Este análisis fue publicado en Milenio Laguna</h3>
+
+<p><a href="http://www.milenio.com/region/Nuestra_Metropoli_desde_el_IMPLAN-Derechos_de_las_mujeres-Espacios_Publicos_Torreon_0_776322419.html">Espacios públicos seguros para mujeres y niñas</a></p>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fespacios-publicos-seguros-para-mujeres-y-ninas.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

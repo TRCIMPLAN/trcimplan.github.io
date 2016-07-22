@@ -2,7 +2,7 @@
 /*
  * TrcIMPLAN Sitio Web - Mapa Inferior Configuración
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2014-2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,7 +19,6 @@
  *
  */
 
-// Namespace
 namespace Configuracion;
 
 /**
