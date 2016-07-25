@@ -40,7 +40,7 @@ class CalidadDelAireEnTorreonYSusEfectosEnLaSalud extends \Base\Publicacion {
         $this->imagen          = 'calidad-del-aire-en-torreon-y-sus-efectos-en-la-salud/imagen.jpg';
         $this->imagen_previa   = 'calidad-del-aire-en-torreon-y-sus-efectos-en-la-salud/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'La contaminación ambiental en la Comarca tiene efectos nocivos en la población más vulnerable, menores de 5 años y mayores de 65, que pueden derivar en enfermedades respiratorias.';
+        $this->descripcion     = 'La contaminación ambiental en la Comarca tiene efectos nocivos en la población más vulnerable, menores de 5 años y mayores de 65, que puede derivar en enfermedades respiratorias..';
         $this->claves          = 'IMPLAN, Torreon, Contaminacion, Aire, Medio Ambiente';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';

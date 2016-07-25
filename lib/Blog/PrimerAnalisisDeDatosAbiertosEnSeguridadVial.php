@@ -40,7 +40,7 @@ class PrimerAnalisisDeDatosAbiertosEnSeguridadVial extends \Base\Publicacion {
         $this->imagen          = 'primer-analisis-de-datos-abiertos-en-seguridad-vial/imagen.jpg';
         $this->imagen_previa   = 'primer-analisis-de-datos-abiertos-en-seguridad-vial/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'El año pasado la Dirección de Tránsito y Vialidad de Torreón modernizó la forma de llevar su registro de eventos sobre seguridad vial, al cambiar del formato físico al digital.';
+        $this->descripcion     = 'En 2015 la Dirección de Tránsito y Vialidad de Torreón modernizó la forma de llevar su registro de eventos sobre seguridad vial al cambiar del formato físico al digital.';
         $this->claves          = 'IMPLAN, Torreon, Transito, Accidentes, Eventos, Viales, Datos Abiertos, Gobierno Abierto';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';

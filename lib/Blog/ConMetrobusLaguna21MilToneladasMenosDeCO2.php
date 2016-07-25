@@ -32,7 +32,7 @@ class ConMetrobusLaguna21MilToneladasMenosDeCO2 extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Con Metrobús Laguna, 21 mil toneladas menos de CO<sub>2</sub>';
+        $this->nombre          = 'Con Metrobús Laguna, 21 mil toneladas menos de CO2';
         $this->autor           = 'Lic. Adriana Vargas Flores';
         $this->fecha           = '2016-07-01T19:30';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes

@@ -40,7 +40,7 @@ class UnaLagunaCompetitivaEnJoyeriaDePlata extends \Base\Publicacion {
         $this->imagen          = 'una-laguna-competitiva-en-joyeria-de-plata/imagen.jpg';
         $this->imagen_previa   = 'una-laguna-competitiva-en-joyeria-de-plata/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'La producción de joyería bajo la marca "Plata Laguna" avanza para convertirse en un sector de calidad y competitivo a nivel nacional, con un conjunto de pequeñas empresas exportadoras.';
+        $this->descripcion     = 'La producción de joyería bajo la marca "Plata Laguna" avanza para convertirse en un sector de calidad y competitivo a nivel nacional, con un conjunto de pequeñas empresas exportaoras.';
         $this->claves          = 'IMPLAN, Torreon';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
