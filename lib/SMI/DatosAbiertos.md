@@ -9,8 +9,8 @@
 <li>La codificación de los caracteres es <a href="https://es.wikipedia.org/wiki/UTF-8" target="_blank">UTF-8</a>.</li>
 <li>La primera línea tiene los nombres de las columnas.</li>
 <li>En mayúsculas y sin acentos. Excepto la eñe (Ñ) y la diéresis (Ü).</li>
-<li>Cantidad de filas: <b>7,009 filas</b>.</li>
-<li>Elaboración: <b>25 julio 2016 11:41</b>.</li>
+<li>Cantidad de filas: <b>7,018 filas</b>.</li>
+<li>Elaboración: <b>25 julio 2016 15:55</b>.</li>
 </ul>
 </div>
 </div>
@@ -21,7 +21,7 @@
 * [Gómez Palacio](trcimplan-smi-gomez-palacio.zip): 1,173 filas.
 * [Lerdo](trcimplan-smi-lerdo.zip): 1,169 filas.
 * [Matamoros](trcimplan-smi-matamoros.zip): 1,186 filas.
-* [La Laguna](trcimplan-smi-la-laguna.zip): 1,157 filas.
+* [La Laguna](trcimplan-smi-la-laguna.zip): 1,166 filas.
 
 ### ¿Qué son los datos abiertos?
 
