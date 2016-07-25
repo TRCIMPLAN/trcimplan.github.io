@@ -142,14 +142,14 @@ class SustentabilidadDestinosViaTerrestre extends \Base\Publicacion {
           <tr>
             <td>Lerdo</td>
             <td>2014-03-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-03-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>IMPLAN</td>
             <td></td>
           </tr>

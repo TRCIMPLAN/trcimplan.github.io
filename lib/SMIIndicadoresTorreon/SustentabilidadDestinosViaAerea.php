@@ -149,21 +149,21 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
           <tr>
             <td>Gómez Palacio</td>
             <td>2014-03-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2014-03-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2014-03-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>

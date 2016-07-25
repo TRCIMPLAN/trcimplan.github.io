@@ -102,7 +102,7 @@ class SociedadUsuariosDeInternet extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2013</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>INEGI</td>
             <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
           </tr>
@@ -131,35 +131,35 @@ class SociedadUsuariosDeInternet extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2013-12-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>INEGI</td>
             <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2013-12-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>INEGI</td>
             <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2013-12-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>INEGI</td>
             <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2013-12-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>INEGI</td>
             <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2013-12-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>INEGI</td>
             <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
           </tr>
@@ -248,7 +248,7 @@ FINAL;
         <tbody>
           <tr>
             <td>31/12/2013</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>INEGI</td>
             <td>El dato disponible es estatal, aunque la metodología de MODUTIH considera la cifra representativa para los municipios.</td>
           </tr>

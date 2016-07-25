@@ -102,7 +102,7 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
         <tbody>
           <tr>
             <td>31/12/2013</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -152,21 +152,21 @@ class SustentabilidadPasajerosAereosInternacionalesAnuales extends \Base\Publica
           <tr>
             <td>Gómez Palacio</td>
             <td>2013-12-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2013-12-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2013-12-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
@@ -248,7 +248,7 @@ FINAL;
         <tbody>
           <tr>
             <td>31/12/2013</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>

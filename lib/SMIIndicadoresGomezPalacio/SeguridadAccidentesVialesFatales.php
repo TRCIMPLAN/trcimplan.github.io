@@ -166,7 +166,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
           <tr>
             <td>Matamoros</td>
             <td>2014-12-31</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>INEGI</td>
             <td></td>
           </tr>

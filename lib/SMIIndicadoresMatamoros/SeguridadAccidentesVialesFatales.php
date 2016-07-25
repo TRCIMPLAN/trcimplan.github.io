@@ -114,7 +114,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2014</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -161,7 +161,7 @@ class SeguridadAccidentesVialesFatales extends \Base\Publicacion {
           <tr>
             <td>Matamoros</td>
             <td>2014-12-31</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>INEGI</td>
             <td></td>
           </tr>
@@ -248,7 +248,7 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2014</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>INEGI</td>
             <td></td>
           </tr>

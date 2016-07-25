@@ -145,7 +145,7 @@ class SeguridadPresuntosDelitosDelFueroFederal extends \Base\Publicacion {
           <tr>
             <td>Lerdo</td>
             <td>2012-12-31</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>INEGI</td>
             <td>Fuente: [INEGI](http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=gob&c=5)</td>
           </tr>

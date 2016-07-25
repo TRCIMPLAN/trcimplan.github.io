@@ -102,7 +102,7 @@ class SeguridadTasaDeRoboDeVehiculoConViolencia extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/03/2015</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
@@ -131,49 +131,49 @@ class SeguridadTasaDeRoboDeVehiculoConViolencia extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2015-03-31</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
             <td>2015-03-31</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
           <tr>
             <td>Lerdo</td>
             <td>2015-03-31</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
           <tr>
             <td>Matamoros</td>
             <td>2015-03-31</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
           <tr>
             <td>La Laguna</td>
             <td>2015-03-31</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2016-05-31</td>
-            <td>2.64 %</td>
+            <td>2016-06-30</td>
+            <td>3.00 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2016-05-31</td>
-            <td>4.54 %</td>
+            <td>2016-06-30</td>
+            <td>5.22 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -200,7 +200,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 2.6400 },{ region: 'Durango', dato: 4.5400 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 3.0000 },{ region: 'Durango', dato: 5.2200 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -241,7 +241,7 @@ FINAL;
         <tbody>
           <tr>
             <td>31/03/2015</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td>El dato proporcionado es estatal. De clic en la pestaña Otras Regiones.</td>
           </tr>

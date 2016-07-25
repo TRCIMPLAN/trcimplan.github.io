@@ -108,25 +108,25 @@ class SeguridadSecuestros extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/07/2014</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>31/08/2014</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>30/09/2014</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>31/10/2014</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -138,13 +138,13 @@ class SeguridadSecuestros extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2014</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>31/01/2015</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -168,13 +168,13 @@ class SeguridadSecuestros extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/05/2015</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>30/06/2015</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -244,6 +244,12 @@ class SeguridadSecuestros extends \Base\Publicacion {
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/06/2016</td>
+            <td>0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -265,28 +271,28 @@ class SeguridadSecuestros extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-05-31</td>
-            <td>0</td>
+            <td>2016-06-30</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-05-31</td>
-            <td>0</td>
+            <td>2016-06-30</td>
+            <td>1</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-05-31</td>
+            <td>2016-06-30</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-04-30</td>
+            <td>2016-06-30</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
@@ -321,7 +327,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 }],
+      data: [{ region: 'Torreón', dato: 1 },{ region: 'Gómez Palacio', dato: 1 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -368,25 +374,25 @@ FINAL;
           </tr>
           <tr>
             <td>31/07/2014</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>31/08/2014</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>30/09/2014</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>31/10/2014</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -398,13 +404,13 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2014</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>31/01/2015</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -428,13 +434,13 @@ FINAL;
           </tr>
           <tr>
             <td>31/05/2015</td>
-            <td>NO TIENE</td>
+            <td>No tiene</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>30/06/2015</td>
-            <td>NO DISPONIBLE</td>
+            <td>No disponible</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -500,6 +506,12 @@ FINAL;
           </tr>
           <tr>
             <td>31/05/2016</td>
+            <td>0</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2016</td>
             <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
