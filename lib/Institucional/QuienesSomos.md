@@ -11,8 +11,7 @@ Persona                                  | Puesto
 Lic. Alejandra Villarreal Meza           | Secretario Técnico
 Ing. Natalia Zavala López                | Asistente Presidencia
 Lic. Felipe de Jesús Medina Delgado      | Asistente de Direcciones
-Lic. Julia de la Parra de Juambelz       | Coordinador Jurídico
-Lic. Mariana Segovia Mota                | Coordinador Administrativo
+Lic. Jesús Antonio García Aguirre        | Coordinador Administrativo
 C.P. Santa Julia Camarillo Aguirre       | Contadora
 Lic. Janeth Ramírez Facio                | Auxiliar Administrativo
 Ing. Víctor Manuel Gómez Reynoso         | Soporte Técnico
