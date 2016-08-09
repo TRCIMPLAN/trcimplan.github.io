@@ -34,7 +34,7 @@ class SistemasUrbanosRuralesUnNuevoEnfoqueParaElDesarrolloRegional extends \Base
         // Título, autor y fecha
         $this->nombre          = 'Sistemas Urbanos Rurales: un nuevo enfoque para el desarrollo regional';
         $this->autor           = array('Lic. Luis A. Gutiérrez Arizpe', 'Lic. Rodrigo González Morales');
-        $this->fecha           = '2016-08-08T15:30';
+        $this->fecha           = '2016-08-09T11:35';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'sistemas-urbanos-rurales-un-nuevo-enfoque-para-el-desarrollo-regional';
         $this->imagen          = 'sistemas-urbanos-rurales-un-nuevo-enfoque-para-el-desarrollo-regional/imagen.jpg';
