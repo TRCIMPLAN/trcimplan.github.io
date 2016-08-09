@@ -107,7 +107,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Acumular
         $this->contenido[] = '  <section id="organizacion">';
     //~ $this->contenido[] = '    <a href="consejo-directivo/convocatoria-2015.html"><img class="banner" src="consejo-directivo/convocatoria-2015/banner.jpg" alt="Banner"></a>';
-        $this->contenido[] = '    <img class="banner" src="imagenes/banner-implan.jpg" alt="Banner">';
+        $this->contenido[] = '    <a href="https://goo.gl/forms/DBepwMWfIcCzxlyB2" target="_blank"><img class="banner" src="imagenes/banner-aire-para-todos.jpg" alt="Aire Para Todos"></a>';
+    //~ $this->contenido[] = '    <img class="banner" src="imagenes/banner-implan.jpg" alt="Banner">';
         $this->contenido[] = $organizacion->html();
         $this->contenido[] = '  </section>';
     } // organizacion
