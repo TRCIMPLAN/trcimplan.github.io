@@ -71,7 +71,7 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Seguridad', 'Delincuencia', 'Índice de Competitividad Urbana');
-        $this->fuentes           = array('IMCO');
+        $this->fuentes           = array('Elaboración propia con datos obtenidos del INEGI', 'IMCO');
         $this->regiones          = 'Torreón';
     } // constructor
 
@@ -85,7 +85,8 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
-    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
+    <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
+    <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -102,9 +103,117 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
         </thead>
         <tbody>
           <tr>
+            <td>31/12/1990</td>
+            <td>10.6481</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1991</td>
+            <td>16.0150</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1992</td>
+            <td>16.5762</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1993</td>
+            <td>11.1338</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1994</td>
+            <td>13.9794</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>01/12/1995</td>
+            <td>9.8410</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1996</td>
+            <td>6.6275</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1997</td>
+            <td>11.1971</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1998</td>
+            <td>6.8831</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1999</td>
+            <td>8.1424</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2000</td>
+            <td>6.9876</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2002</td>
+            <td>6.5940</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2003</td>
+            <td>5.4116</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2004</td>
+            <td>5.8624</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2005</td>
+            <td>6.4072</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2006</td>
+            <td>5.7607</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2007</td>
+            <td>4.9733</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2008</td>
             <td>15.9094</td>
             <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>14.2737</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
@@ -114,9 +223,21 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>31/12/2009</td>
+            <td>23.8054</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2010</td>
             <td>46.6435</td>
             <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>45.3388</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
@@ -126,9 +247,39 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
             <td></td>
           </tr>
           <tr>
+            <td>31/12/2011</td>
+            <td>77.0329</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2012</td>
             <td>109.7160</td>
             <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>119.3551</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>51.1755</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>27.9412</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>10.3049</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
         </tbody>
@@ -138,9 +289,13 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
 <p>Fuente: Instituto Nacional de Estadística y Geografía (INEGI), 2008-2012.</p>
 
     </div>
-    <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Tasa de Homicidios en Torreón</h3>
-      <div id="graficaDatos" class="grafica"></div>
+    <div class="tab-pane" id="smi-indicador-grafica-1">
+      <h3>Gráfica de Tasa de Homicidios en Torreón con fuente Elaboración propia con datos obtenidos del INEGI</h3>
+      <div id="graficaDatosElaboracionPropiaConDatosObtenidosDelInegi" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica-2">
+      <h3>Gráfica de Tasa de Homicidios en Torreón con fuente IMCO</h3>
+      <div id="graficaDatosImco" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Tasa de Homicidios</h3>
@@ -159,9 +314,9 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2012-12-31</td>
-            <td>109.7160</td>
-            <td>IMCO</td>
+            <td>2015-12-31</td>
+            <td>10.3049</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
@@ -192,6 +347,13 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
             <td>IMCO</td>
             <td></td>
           </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2001-12-31</td>
+            <td>9.8573</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -209,12 +371,28 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
-// LENGUETA smi-indicador-grafica
-$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+// LENGUETA smi-indicador-grafica-1
+$('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', function(e){
   // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
+  if (typeof vargraficaDatosElaboracionPropiaConDatosObtenidosDelInegi === 'undefined') {
+    vargraficaDatosElaboracionPropiaConDatosObtenidosDelInegi = Morris.Line({
+      element: 'graficaDatosElaboracionPropiaConDatosObtenidosDelInegi',
+      data: [{ fecha: '1990-12-31', dato: 10.6481 },{ fecha: '1991-12-31', dato: 16.0150 },{ fecha: '1992-12-31', dato: 16.5762 },{ fecha: '1993-12-31', dato: 11.1338 },{ fecha: '1994-12-31', dato: 13.9794 },{ fecha: '1995-12-01', dato: 9.8410 },{ fecha: '1996-12-31', dato: 6.6275 },{ fecha: '1997-12-31', dato: 11.1971 },{ fecha: '1998-12-31', dato: 6.8831 },{ fecha: '1999-12-31', dato: 8.1424 },{ fecha: '2000-12-31', dato: 6.9876 },{ fecha: '2002-12-31', dato: 6.5940 },{ fecha: '2003-12-31', dato: 5.4116 },{ fecha: '2004-12-31', dato: 5.8624 },{ fecha: '2005-12-31', dato: 6.4072 },{ fecha: '2006-12-31', dato: 5.7607 },{ fecha: '2007-12-31', dato: 4.9733 },{ fecha: '2008-12-31', dato: 14.2737 },{ fecha: '2009-12-31', dato: 23.8054 },{ fecha: '2010-12-31', dato: 45.3388 },{ fecha: '2011-12-31', dato: 77.0329 },{ fecha: '2012-12-31', dato: 119.3551 },{ fecha: '2013-12-31', dato: 51.1755 },{ fecha: '2014-12-31', dato: 27.9412 },{ fecha: '2015-12-31', dato: 10.3049 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
+// LENGUETA smi-indicador-grafica-2
+$('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatosImco === 'undefined') {
+    vargraficaDatosImco = Morris.Line({
+      element: 'graficaDatosImco',
       data: [{ fecha: '2008-12-31', dato: 15.9094 },{ fecha: '2009-12-31', dato: 23.8267 },{ fecha: '2010-12-31', dato: 46.6435 },{ fecha: '2011-12-31', dato: 75.1916 },{ fecha: '2012-12-31', dato: 109.7160 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -231,7 +409,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 109.7160 },{ region: 'Gómez Palacio', dato: 43.7146 },{ region: 'Lerdo', dato: 41.8962 },{ region: 'Matamoros', dato: 36.2831 },{ region: 'La Laguna', dato: 77.5463 }],
+      data: [{ region: 'Torreón', dato: 10.3049 },{ region: 'Gómez Palacio', dato: 43.7146 },{ region: 'Lerdo', dato: 41.8962 },{ region: 'Matamoros', dato: 36.2831 },{ region: 'La Laguna', dato: 77.5463 },{ region: 'Coahuila', dato: 9.8573 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -271,9 +449,117 @@ FINAL;
         </thead>
         <tbody>
           <tr>
+            <td>31/12/1990</td>
+            <td>10.6481</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1991</td>
+            <td>16.0150</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1992</td>
+            <td>16.5762</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1993</td>
+            <td>11.1338</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1994</td>
+            <td>13.9794</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>01/12/1995</td>
+            <td>9.8410</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1996</td>
+            <td>6.6275</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1997</td>
+            <td>11.1971</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1998</td>
+            <td>6.8831</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/1999</td>
+            <td>8.1424</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2000</td>
+            <td>6.9876</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2002</td>
+            <td>6.5940</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2003</td>
+            <td>5.4116</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2004</td>
+            <td>5.8624</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2005</td>
+            <td>6.4072</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2006</td>
+            <td>5.7607</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2007</td>
+            <td>4.9733</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2008</td>
             <td>15.9094</td>
             <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2008</td>
+            <td>14.2737</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
@@ -283,9 +569,21 @@ FINAL;
             <td></td>
           </tr>
           <tr>
+            <td>31/12/2009</td>
+            <td>23.8054</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2010</td>
             <td>46.6435</td>
             <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2010</td>
+            <td>45.3388</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
@@ -295,9 +593,39 @@ FINAL;
             <td></td>
           </tr>
           <tr>
+            <td>31/12/2011</td>
+            <td>77.0329</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>31/12/2012</td>
             <td>109.7160</td>
             <td>IMCO</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2012</td>
+            <td>119.3551</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2013</td>
+            <td>51.1755</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2014</td>
+            <td>27.9412</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>10.3049</td>
+            <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
         </tbody>
