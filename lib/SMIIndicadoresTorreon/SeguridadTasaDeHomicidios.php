@@ -40,7 +40,8 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes.';
+        $this->descripcion       = 'Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes.
+Las tasas de elaboración propia consideran las defunciones por homicidio ocurridas en el municipio de acuerdo a los registros administrativos de INEGI.';
         $this->claves            = 'IMPLAN, Torreón, Seguridad, Delincuencia, Índice de Competitividad Urbana';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
@@ -104,25 +105,25 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/1990</td>
-            <td>10.6481</td>
+            <td>9.7788</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1991</td>
-            <td>16.0150</td>
+            <td>17.0827</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1992</td>
-            <td>16.5762</td>
+            <td>17.2057</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1993</td>
-            <td>11.1338</td>
+            <td>11.5461</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -134,7 +135,7 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>01/12/1995</td>
-            <td>9.8410</td>
+            <td>9.6442</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -146,19 +147,19 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/1997</td>
-            <td>11.1971</td>
+            <td>11.7762</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1998</td>
-            <td>6.8831</td>
+            <td>8.0302</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1999</td>
-            <td>8.1424</td>
+            <td>7.9530</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -170,37 +171,37 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2002</td>
-            <td>6.5940</td>
+            <td>7.5098</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2003</td>
-            <td>5.4116</td>
+            <td>5.7724</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2004</td>
-            <td>5.8624</td>
+            <td>6.0401</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2005</td>
-            <td>6.4072</td>
+            <td>6.9267</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2006</td>
-            <td>5.7607</td>
+            <td>5.5912</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2007</td>
-            <td>4.9733</td>
+            <td>4.3102</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -212,7 +213,7 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2008</td>
-            <td>14.2737</td>
+            <td>14.7603</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -224,7 +225,7 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>23.8054</td>
+            <td>22.6945</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -236,7 +237,7 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>45.3388</td>
+            <td>45.0261</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -248,7 +249,7 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>77.0329</td>
+            <td>75.3348</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -260,25 +261,25 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>119.3551</td>
+            <td>120.7270</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2013</td>
-            <td>51.1755</td>
+            <td>52.6807</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2014</td>
-            <td>27.9412</td>
+            <td>29.4274</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2015</td>
-            <td>10.3049</td>
+            <td>19.7265</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -315,7 +316,7 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
           <tr>
             <td>Torreón</td>
             <td>2015-12-31</td>
-            <td>10.3049</td>
+            <td>19.7265</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -350,7 +351,7 @@ class SeguridadTasaDeHomicidios extends \Base\Publicacion {
           <tr>
             <td>Coahuila</td>
             <td>2001-12-31</td>
-            <td>9.8573</td>
+            <td>10.2293</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -377,7 +378,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', functi
   if (typeof vargraficaDatosElaboracionPropiaConDatosObtenidosDelInegi === 'undefined') {
     vargraficaDatosElaboracionPropiaConDatosObtenidosDelInegi = Morris.Line({
       element: 'graficaDatosElaboracionPropiaConDatosObtenidosDelInegi',
-      data: [{ fecha: '1990-12-31', dato: 10.6481 },{ fecha: '1991-12-31', dato: 16.0150 },{ fecha: '1992-12-31', dato: 16.5762 },{ fecha: '1993-12-31', dato: 11.1338 },{ fecha: '1994-12-31', dato: 13.9794 },{ fecha: '1995-12-01', dato: 9.8410 },{ fecha: '1996-12-31', dato: 6.6275 },{ fecha: '1997-12-31', dato: 11.1971 },{ fecha: '1998-12-31', dato: 6.8831 },{ fecha: '1999-12-31', dato: 8.1424 },{ fecha: '2000-12-31', dato: 6.9876 },{ fecha: '2002-12-31', dato: 6.5940 },{ fecha: '2003-12-31', dato: 5.4116 },{ fecha: '2004-12-31', dato: 5.8624 },{ fecha: '2005-12-31', dato: 6.4072 },{ fecha: '2006-12-31', dato: 5.7607 },{ fecha: '2007-12-31', dato: 4.9733 },{ fecha: '2008-12-31', dato: 14.2737 },{ fecha: '2009-12-31', dato: 23.8054 },{ fecha: '2010-12-31', dato: 45.3388 },{ fecha: '2011-12-31', dato: 77.0329 },{ fecha: '2012-12-31', dato: 119.3551 },{ fecha: '2013-12-31', dato: 51.1755 },{ fecha: '2014-12-31', dato: 27.9412 },{ fecha: '2015-12-31', dato: 10.3049 }],
+      data: [{ fecha: '1990-12-31', dato: 9.7788 },{ fecha: '1991-12-31', dato: 17.0827 },{ fecha: '1992-12-31', dato: 17.2057 },{ fecha: '1993-12-31', dato: 11.5461 },{ fecha: '1994-12-31', dato: 13.9794 },{ fecha: '1995-12-01', dato: 9.6442 },{ fecha: '1996-12-31', dato: 6.6275 },{ fecha: '1997-12-31', dato: 11.7762 },{ fecha: '1998-12-31', dato: 8.0302 },{ fecha: '1999-12-31', dato: 7.9530 },{ fecha: '2000-12-31', dato: 6.9876 },{ fecha: '2002-12-31', dato: 7.5098 },{ fecha: '2003-12-31', dato: 5.7724 },{ fecha: '2004-12-31', dato: 6.0401 },{ fecha: '2005-12-31', dato: 6.9267 },{ fecha: '2006-12-31', dato: 5.5912 },{ fecha: '2007-12-31', dato: 4.3102 },{ fecha: '2008-12-31', dato: 14.7603 },{ fecha: '2009-12-31', dato: 22.6945 },{ fecha: '2010-12-31', dato: 45.0261 },{ fecha: '2011-12-31', dato: 75.3348 },{ fecha: '2012-12-31', dato: 120.7270 },{ fecha: '2013-12-31', dato: 52.6807 },{ fecha: '2014-12-31', dato: 29.4274 },{ fecha: '2015-12-31', dato: 19.7265 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -409,7 +410,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 10.3049 },{ region: 'Gómez Palacio', dato: 43.7146 },{ region: 'Lerdo', dato: 41.8962 },{ region: 'Matamoros', dato: 36.2831 },{ region: 'La Laguna', dato: 77.5463 },{ region: 'Coahuila', dato: 9.8573 }],
+      data: [{ region: 'Torreón', dato: 19.7265 },{ region: 'Gómez Palacio', dato: 43.7146 },{ region: 'Lerdo', dato: 41.8962 },{ region: 'Matamoros', dato: 36.2831 },{ region: 'La Laguna', dato: 77.5463 },{ region: 'Coahuila', dato: 10.2293 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -435,7 +436,8 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
-<p>Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes.</p>
+<p>Forma parte de subíndice de "Sistema de Derecho Confiable y Objetivo". Mide el número relativo de homicidios en cada ciudad. A través del Sistema Estatal y Municipal de Bases de Datos (SIMBAD) fue posible identificar el número de homicidios a nivel municipal. Unidades: Homicidios por cada 100 mil habitantes.
+Las tasas de elaboración propia consideran las defunciones por homicidio ocurridas en el municipio de acuerdo a los registros administrativos de INEGI.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -450,25 +452,25 @@ FINAL;
         <tbody>
           <tr>
             <td>31/12/1990</td>
-            <td>10.6481</td>
+            <td>9.7788</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1991</td>
-            <td>16.0150</td>
+            <td>17.0827</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1992</td>
-            <td>16.5762</td>
+            <td>17.2057</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1993</td>
-            <td>11.1338</td>
+            <td>11.5461</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -480,7 +482,7 @@ FINAL;
           </tr>
           <tr>
             <td>01/12/1995</td>
-            <td>9.8410</td>
+            <td>9.6442</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -492,19 +494,19 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/1997</td>
-            <td>11.1971</td>
+            <td>11.7762</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1998</td>
-            <td>6.8831</td>
+            <td>8.0302</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/1999</td>
-            <td>8.1424</td>
+            <td>7.9530</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -516,37 +518,37 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2002</td>
-            <td>6.5940</td>
+            <td>7.5098</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2003</td>
-            <td>5.4116</td>
+            <td>5.7724</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2004</td>
-            <td>5.8624</td>
+            <td>6.0401</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2005</td>
-            <td>6.4072</td>
+            <td>6.9267</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2006</td>
-            <td>5.7607</td>
+            <td>5.5912</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2007</td>
-            <td>4.9733</td>
+            <td>4.3102</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -558,7 +560,7 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2008</td>
-            <td>14.2737</td>
+            <td>14.7603</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -570,7 +572,7 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>23.8054</td>
+            <td>22.6945</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -582,7 +584,7 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>45.3388</td>
+            <td>45.0261</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -594,7 +596,7 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>77.0329</td>
+            <td>75.3348</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
@@ -606,25 +608,25 @@ FINAL;
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>119.3551</td>
+            <td>120.7270</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2013</td>
-            <td>51.1755</td>
+            <td>52.6807</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2014</td>
-            <td>27.9412</td>
+            <td>29.4274</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2015</td>
-            <td>10.3049</td>
+            <td>19.7265</td>
             <td>Elaboración propia con datos obtenidos del INEGI</td>
             <td></td>
           </tr>
