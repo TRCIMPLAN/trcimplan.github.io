@@ -1,6 +1,4 @@
 
-# PROPUESTA de Modelo Operativo Universal
-
 ## 1. Planeación estratégia
 
 La planeación estratégica es un instrumento imprescindible­, de aplicación impostergable, para:
@@ -85,22 +83,15 @@ Georreferenciación en plataforma web amigable de:
 
 ### Plan Estratégico Municipal Visión 20/40
 
-Elaboración, retroalimentación, gestión y evaluación.
-
-Características
-
-Plan elaborado con las técnicas de planeación estrátegicas y que su­ pone la participación de todos los sectores de la **sociedad civil, de las
-universidades y del gobierno.­**
-
-Plan de largo plazo, ciudadano, que no se circunscri­be al periodo de la administración en turno.
+* Elaboración, retroalimentación, gestión y evaluación.
+* Características
+    * Plan elaborado con las técnicas de planeación estrátegicas y que su­ pone la participación de todos los sectores de la **sociedad civil, de las
+    universidades y del gobierno.­**
+    * Plan de largo plazo, ciudadano, que no se circunscri­be al periodo de la administración en turno.
 
 ### Pacto de la Calidad de Vida y la Competitividad del Municipio
 
-Recomendamos que una vez elabo­rado y aprobado el
-
-"Plan Estratégico Municipal, Visión 2040"
-
-sociedad, gobierno y universidades firmen y pongan en marcha el pacto en referencia, que agrupe esfuerzos a favor del buen futuro del muni­cipio.
+Recomendamos que una vez elabo­rado y aprobado el **"Plan Estratégico Municipal, Visión 2040"** sociedad, gobierno y universidades firmen y pongan en marcha el pacto en referencia, que agrupe esfuerzos a favor del buen futuro del muni­cipio.
 
 ### Plan Director de Desarrollo Urbano y actualizaciones
 
@@ -108,41 +99,37 @@ sociedad, gobierno y universidades firmen y pongan en marcha el pacto en referen
 * Determinar líneas de acción, estratégias y políticas públicas del desarrollo urbano.­
 * Eje rector de las políticas públicas urbanas y de la obra pública.
 
-Planes sectoriales y poligonales
+### Planes sectoriales y poligonales
 
 * Concertación y acuerdos directores por sectores y por polígonos de la ciudad.
 
 ### Atlas de Riesgo
 
-Herramienta que integra información de la ciudad sobre fenómenos perturbadores a los que está expuesta una comunidad y su en­ torno.
-
-Permite diseñar políticas públicas para el ordenamiento territorial, gestionar el uso correc­to del suelo para identificar zonas de peligro y dar seguridad a las inversiones públicas y privadas.
+* Herramienta que integra información de la ciudad sobre fenómenos perturbadores a los que está expuesta una comunidad y su en­ torno.
+* Permite diseñar políticas públicas para el ordenamiento territorial, gestionar el uso correc­to del suelo para identificar zonas de peligro y dar seguridad a las inversiones públicas y privadas.
 
 ### Plan Municipal de Ordenamiento Ecológico
 
-Elaboración o actualización del Plan Municipal de Ordenamiento­ Ecológico­.
+* Elaboración o actualización del Plan Municipal de Ordenamiento­ Ecológico­.
 
 ### Plan integral de movilidad
 
-Instrumento sectorial de la planea­ción de la movilidad urbana donde se diseñen las políticas públicas y lineamientos en temas de transporte público, vialidad, movilidad no mo­torizada y accesibilidad.
+* Instrumento sectorial de la planea­ción de la movilidad urbana donde se diseñen las políticas públicas y lineamientos en temas de transporte público, vialidad, movilidad no mo­torizada y accesibilidad.
 
 ### Política Industrial del Municipio (2da. generación)
 
-Visión compartida de la industria del municipio que facilite­ el diseño de políticas y la toma de decisiones a favor de un desarrollo económico competitivo, sustentable, dinámico, generador de efectos multiplicado­ res y de riqueza social.
+* Visión compartida de la industria del municipio que facilite­ el diseño de políticas y la toma de decisiones a favor de un desarrollo económico competitivo, sustentable, dinámico, generador de efectos multiplicado­ res y de riqueza social.
 
 ### Reglamentos de Zonificación, Uso de Suelo y Construcción
 
-Promoción y gestión de los planes de Zonificación, Uso de Suelo y Construcción de la ciudad. Reglamento municipal de obra pública.
-
-Líneamientos, especificaciones, procedimientos y ordenanzas de la obra pública municipal.
-
-Evaluación socioeconómica de Proyectos de Infraestructura y de obra pública
-
-* Obras de infraestructura vial
-* Hospitales
-* Escuelas
-* Centros de esparcimiento social
-* Etc.
+* Promoción y gestión de los planes de Zonificación, Uso de Suelo y Construcción de la ciudad. Reglamento municipal de obra pública.
+* Líneamientos, especificaciones, procedimientos y ordenanzas de la obra pública municipal.
+* Evaluación socioeconómica de Proyectos de Infraestructura y de obra pública
+    * Obras de infraestructura vial
+    * Hospitales
+    * Escuelas
+    * Centros de esparcimiento social
+    * Etc.
 
 ### Interrelación de proyectos IMPLAN con programas de financiamiento federal
 
@@ -167,10 +154,9 @@ Evaluación socioeconómica de Proyectos de Infraestructura y de obra pública
 
 ## 4. Consejo Ciudadano IMPLAN
 
-Integrado por: líderes empresaria­les locales y foráneos, representan­tes de instituciones de educación su­perior, investigadores, ecolo­gistas, representan­tes de productores lo­cales, lideres de ONGs, miembros distinguidos de la sociedad civil, fun­cionarios federales, estatales y mu­
+* Integrado por: líderes empresaria­les locales y foráneos, representan­tes de instituciones de educación su­perior, investigadores, ecolo­gistas, representan­tes de productores lo­cales, lideres de ONGs, miembros distinguidos de la sociedad civil, fun­cionarios federales, estatales y mu­
 nicipales.
-
-La función del consejo será: ase­sorar, validar y evaluar los planes, programas,­ proyectos, iniciativas y políticas públicas del IMPLAN a favor de la competitividad del municipio.
+* La función del consejo será: ase­sorar, validar y evaluar los planes, programas,­ proyectos, iniciativas y políticas públicas del IMPLAN a favor de la competitividad del municipio.
 
 > "La planeación a largo plazo no es pensar en decisiones futuras, sino en el futuro de las decisiones presentes."
 >

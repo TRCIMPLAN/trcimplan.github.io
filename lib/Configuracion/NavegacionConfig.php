@@ -52,6 +52,7 @@ class NavegacionConfig {
             'Institucional > Mensaje del Director'   => 'institucional/mensaje-director.html',
             'Institucional > Quienes Somos'          => 'institucional/quienes-somos.html',
             'Institucional > Estructura Orgánica'    => 'institucional/estructura-organica.html',
+            'Institucional > Modelo Operativo Univ.' => 'institucional/modelo-operativo-universal.html',
             'Institucional > Reglamentos'            => 'institucional/reglamentos.html',
             'Institucional > Información Financiera' => 'institucional/informacion-financiera.html',
             'Institucional > Transparencia'          => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178'),

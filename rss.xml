@@ -5,11 +5,232 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Thu, 18 Aug 2016 11:31:38 -0500</pubDate>
+    <pubDate>Fri, 19 Aug 2016 11:58:21 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Propuesta de Modelo Operativo Universal</title>
+      <link>http://www.trcimplan.gob.mx/institucional/modelo-operativo-universal.html</link>
+      <guid isPermaLink="false">institucional-modelo-operativo-universal</guid>
+      <pubDate>Fri, 19 Aug 2016 08:00:00 -0500</pubDate>
+      <author>IMPLAN Torreón Staff</author>
+      <description><![CDATA[<h2>1. Planeación estratégia</h2>
+
+<p>La planeación estratégica es un instrumento imprescindible­, de aplicación impostergable, para:</p>
+
+<ul>
+<li>Optimizar y direccionar hacia objeti­vos comunes los esfuerzos públicos y pri­vados.</li>
+<li>Dar respuesta a los desequilibrios urba­nos que observan las ciudades, ase­gurando su sustentabilidad en el cor­to, mediano y largo plazo.</li>
+<li>Dar pertinencia al ejercicio presupues­tal -inversión y gasto público-.</li>
+<li>Levantar los indicadores de competiti­ vidad económica.</li>
+</ul>
+
+<h2>2. ¿Qué es el IMPLAN?</h2>
+
+<p>Esta propuesta de IMPLAN se sustenta en la experiencia obtenida por los Institu­tos Municipales de Planea­ción -IMPLANES-,­­ actualmente­ en operación en más de 70 ciuda­des de la república mexicana.</p>
+
+<ul>
+<li>Es el órgano técnico, descentralizado de la Adminis­tración Pública Municipal que coordina, opera y gestio­na el Sistema Municipal de Planea­ción(1).</li>
+<li>En tal virtud es responsable de la planeación estratégica en materia de:</li>
+<li>Materias para un IMPLAN primera generación:
+
+<ul>
+<li>Ordenamiento territorial.</li>
+<li>Movilidad y transporte</li>
+<li>Medio ambiente</li>
+<li>Imagen urbana</li>
+<li>Atlas de riesgo</li>
+<li>Vivienda</li>
+</ul></li>
+<li>Materias para un IMPLAN segunda generación:
+
+<ul>
+<li>Desarrollo económico</li>
+<li>Educación</li>
+<li>Cultura</li>
+<li>Salud</li>
+<li>Seguridad</li>
+<li>Gobierno</li>
+</ul></li>
+</ul>
+
+<h3>Sistema Municipal de Planeación</h3>
+
+<p>(1) <strong>Sistema Municipal de Planea­ción.</strong> Constituye un conjunto articulado de relaciones formales y funcionales que estable­ce el IMPLAN con las organizaciones de los diversos sectores sociales, con las autoridades de las entidades federativas, estatales y municipales y con las instituciones nacionales y multinacionales competentes, a fin de emprender, coordinar y concertar acciones de planeación.</p>
+
+<p>Integra mecanismos permanentes de participación a través de los cuales los representantes de la sociedad y la población en general realizan propuestas, plantean demandas, formalizan acuerdos y toman parte activa en el proceso de planeación.</p>
+
+<p>Orienta las acciones de planeación de las dependencias y entidades de la administración pública municipal y coordina sus esfuerzos para lograr la consecución de las metas municipales en conconrdancia con la Constitución Política de los Estados Unidos Mexicanos, de la Constitución del Estado, de las leyes y reglamentos municipales.</p>
+
+<h3>Continúa ¿qué es el IMPLAN?</h3>
+
+<ul>
+<li>Es un instrumento de medición y de gestión de la competitividad del municipio y como tal, es res­ponsable­ de diseñar y poner en marcha modelos­ de información que sustenten la planea­ción a corto, mediano y largo plazo.</li>
+<li>Es un instrumento de gobernanza donde coin­ciden sociedad y gobier­no; como tal, es respon­sable de promover la planeación participativa (gobierno abierto), coordinando la consulta con los ciudadanos y con las instituciones públicas y privadas.</li>
+<li>Es el órgano de enlace de los sistemas de planea­ción federal, estatal, municipal y metropolitano.</li>
+<li>Es promotor y gestor de la planeación estratégica­ municipal.</li>
+</ul>
+
+<h2>3. Responsabilidades Modelo de Información</h2>
+
+<p>Modelo Municipal de Información Estratégica</p>
+
+<ul>
+<li>Diseño y puesta en marcha de un Modelo Municipal de Información Estratégica, que actúe­ como una brújula que guíe las acciones de planeación y los esfuerzos públicos y privados a favor de la competiti­vidad del municipio.</li>
+<li>Se divide en
+
+<ul>
+<li>Sistema Municipal de Indicadores urbanos, económicos, socia­les, culturales y medio ambientales.</li>
+<li>Sistema de Información Geográfica</li>
+</ul></li>
+</ul>
+
+<h3>Sistema Municipal de Indicadores (SMI)</h3>
+
+<p>Plataforma web amigable que integra los siguientes datos abiertos:</p>
+
+<ul>
+<li>Ordenamiento Territorial</li>
+<li>Movilidad</li>
+<li>Seguridad</li>
+<li>Equidad</li>
+<li>Salud</li>
+<li>Educación</li>
+<li>Desarrollo Humano</li>
+<li>Empleo</li>
+<li>Productividad Laboral</li>
+<li>Rendimientos Sectoriales</li>
+<li>Vivienda</li>
+<li>Cultura</li>
+</ul>
+
+<h3>Sistema de Información Geográfica (SIG)</h3>
+
+<p>Georreferenciación en plataforma web amigable de:</p>
+
+<ul>
+<li>Ordenamiento territorial</li>
+<li>Infraestructura de: comunicaciones de vialidad, educación, salud, hospedaje industrial, esparcimiento, áreas verdes, cultura, etc.</li>
+<li>Avance de programas de obra pública­</li>
+<li>Avance de programas sociales</li>
+<li>Vivienda</li>
+<li>Problemáticas sociales: marginación, inseguridad, embarazos adolescentes, etc.</li>
+</ul>
+
+<h3>Plan Estratégico Municipal Visión 20/40</h3>
+
+<ul>
+<li>Elaboración, retroalimentación, gestión y evaluación.</li>
+<li>Características
+
+<ul>
+<li>Plan elaborado con las técnicas de planeación estrátegicas y que su­ pone la participación de todos los sectores de la <strong>sociedad civil, de las
+universidades y del gobierno.­</strong></li>
+<li>Plan de largo plazo, ciudadano, que no se circunscri­be al periodo de la administración en turno.</li>
+</ul></li>
+</ul>
+
+<h3>Pacto de la Calidad de Vida y la Competitividad del Municipio</h3>
+
+<p>Recomendamos que una vez elabo­rado y aprobado el <strong>"Plan Estratégico Municipal, Visión 2040"</strong> sociedad, gobierno y universidades firmen y pongan en marcha el pacto en referencia, que agrupe esfuerzos a favor del buen futuro del muni­cipio.</p>
+
+<h3>Plan Director de Desarrollo Urbano y actualizaciones</h3>
+
+<ul>
+<li>Analizar y proyectar las tendencias urba­nas del municipio.</li>
+<li>Determinar líneas de acción, estratégias y políticas públicas del desarrollo urbano.­</li>
+<li>Eje rector de las políticas públicas urbanas y de la obra pública.</li>
+</ul>
+
+<h3>Planes sectoriales y poligonales</h3>
+
+<ul>
+<li>Concertación y acuerdos directores por sectores y por polígonos de la ciudad.</li>
+</ul>
+
+<h3>Atlas de Riesgo</h3>
+
+<ul>
+<li>Herramienta que integra información de la ciudad sobre fenómenos perturbadores a los que está expuesta una comunidad y su en­ torno.</li>
+<li>Permite diseñar políticas públicas para el ordenamiento territorial, gestionar el uso correc­to del suelo para identificar zonas de peligro y dar seguridad a las inversiones públicas y privadas.</li>
+</ul>
+
+<h3>Plan Municipal de Ordenamiento Ecológico</h3>
+
+<ul>
+<li>Elaboración o actualización del Plan Municipal de Ordenamiento­ Ecológico­.</li>
+</ul>
+
+<h3>Plan integral de movilidad</h3>
+
+<ul>
+<li>Instrumento sectorial de la planea­ción de la movilidad urbana donde se diseñen las políticas públicas y lineamientos en temas de transporte público, vialidad, movilidad no mo­torizada y accesibilidad.</li>
+</ul>
+
+<h3>Política Industrial del Municipio (2da. generación)</h3>
+
+<ul>
+<li>Visión compartida de la industria del municipio que facilite­ el diseño de políticas y la toma de decisiones a favor de un desarrollo económico competitivo, sustentable, dinámico, generador de efectos multiplicado­ res y de riqueza social.</li>
+</ul>
+
+<h3>Reglamentos de Zonificación, Uso de Suelo y Construcción</h3>
+
+<ul>
+<li>Promoción y gestión de los planes de Zonificación, Uso de Suelo y Construcción de la ciudad. Reglamento municipal de obra pública.</li>
+<li>Líneamientos, especificaciones, procedimientos y ordenanzas de la obra pública municipal.</li>
+<li>Evaluación socioeconómica de Proyectos de Infraestructura y de obra pública
+
+<ul>
+<li>Obras de infraestructura vial</li>
+<li>Hospitales</li>
+<li>Escuelas</li>
+<li>Centros de esparcimiento social</li>
+<li>Etc.</li>
+</ul></li>
+</ul>
+
+<h3>Interrelación de proyectos IMPLAN con programas de financiamiento federal</h3>
+
+<ul>
+<li>Programa de prevención de riesgos. SEDATU.</li>
+<li>Programa rescate de espacios públicos. SEDATU.</li>
+<li>Programa de consolidación de reservas urbanas. SEDATU.­</li>
+<li>Programa para el Desarrollo Regional Turístico Sustenta­ble. SETUR.</li>
+<li>Programa de Agua Potable, Alcantarillado y Saneamiento de Zonas Urbanas. CONAGUA.</li>
+<li>Programas del Instituto Nacional del Emprendedor. SE.</li>
+<li>Programas del Fondo Nacional de Apoyo para</li>
+<li>Empresas­ de Solidaridad. SE.</li>
+<li>Programas de FORTALECE, del Ramo 23, del Ramo 33.</li>
+<li>Entre otros.</li>
+</ul>
+
+<h3>Dictaminación de uso de suelo y de acciones urbanas</h3>
+
+<ul>
+<li>Proyectos puntuales de: imagen urbana,­ regeneración, áreas verdes, espacios públicos, cultura, economía (clústers), salud, esparcimiento, etc.</li>
+<li>Asesorias</li>
+<li>Estudios y análisis sectoriales</li>
+<li>Programas de difusión y promoción</li>
+<li>Certificación ISO</li>
+</ul>
+
+<h2>4. Consejo Ciudadano IMPLAN</h2>
+
+<ul>
+<li>Integrado por: líderes empresaria­les locales y foráneos, representan­tes de instituciones de educación su­perior, investigadores, ecolo­gistas, representan­tes de productores lo­cales, lideres de ONGs, miembros distinguidos de la sociedad civil, fun­cionarios federales, estatales y mu­
+nicipales.</li>
+<li>La función del consejo será: ase­sorar, validar y evaluar los planes, programas,­ proyectos, iniciativas y políticas públicas del IMPLAN a favor de la competitividad del municipio.</li>
+</ul>
+
+<blockquote>
+  <p>"La planeación a largo plazo no es pensar en decisiones futuras, sino en el futuro de las decisiones presentes."</p>
+  
+  <p>PETER DRUCKER</p>
+</blockquote>
+]]></description>
+    </item>
     <item>
       <title>Aire Para Todos</title>
       <link>http://www.trcimplan.gob.mx/plan-estrategico-metropolitano/aire-para-todos.html</link>
@@ -599,16 +820,6 @@
 
 <p><a href="http://www.milenio.com/region/IMPLAN_Torreon-Alameda_Zaragoza_de_Torreon-Alameda_de_Torreon-Ibero_Torreon_0_767923318.html">La Alameda y la consulta ciudadana</a></p>
 ]]></description>
-    </item>
-    <item>
-      <title>Rellenos Sanitarios</title>
-      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/rellenos-sanitarios.html</link>
-      <guid isPermaLink="false">sig-mapas-torreon-rellenos-sanitarios</guid>
-      <pubDate>Wed, 06 Jul 2016 09:00:00 -0500</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/rellenos-sanitarios.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/rellenos-sanitarios/imagen.jpg"><br>
-
-Lugares donde se deposita finalmente la basura con múltiples medidas para reducir los problemas generados por otros métodos como son los tiraderos.</a>]]></description>
     </item>
   </channel>
 </rss>

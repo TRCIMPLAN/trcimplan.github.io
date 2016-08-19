@@ -63,7 +63,7 @@ class Reglamentos extends \Base\Publicacion {
         $schema->articleBody    = <<<FINAL
 
 <p style="text-align: center;"><a href="reglamentos/congreso-coahuila-decreto-047-15.pdf"><img src="reglamentos/icono-descargar.png" alt="Descargar"></a><br>
-Descargue el <a href="congreso-coahuila-decreto-047-15.pdf">Decreto número 47 con la ley que crea el Instituto Municipal de Planeación y Competitividad de Torreón.</a>.</p>
+Descargue el <a href="congreso-coahuila-decreto-047-15.pdf">Decreto número 47 con la ley que crea el Instituto Municipal de Planeación y Competitividad de Torreón.</a></p>
 
 FINAL;
         // El contenido es una instancia de SchemaArticle
