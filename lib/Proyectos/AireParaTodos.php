@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Plan Estrategico Drenaje Pluvial Torreon
+ * TrcIMPLAN - Aire Para Todos
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -23,25 +23,25 @@
 namespace Proyectos;
 
 /**
- * Clase PlanEstrategicoDrenajePluvialTorreon
+ * Clase AireParaTodos
  */
-class PlanEstrategicoDrenajePluvialTorreon extends \Base\Publicacion {
+class AireParaTodos extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Plan Estratégico de Drenaje Pluvial de Torreón';
+        $this->nombre          = 'Aire Para Todos';
         $this->autor           = 'Dirección de Proyectos Estratégicos';
-        $this->fecha           = '2016-08-04T14:30';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo         = 'plan-estrategico-drenaje-pluvial-torreon';
-        $this->imagen          = 'plan-estrategico-drenaje-pluvial-torreon/imagen.jpg';
-        $this->imagen_previa   = 'plan-estrategico-drenaje-pluvial-torreon/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion     = 'Diagnóstico y Lineamientos para la elaboración del Plan Estratégico de Drenaje Pluvial de Torreón.';
-        $this->claves          = 'IMPLAN, Torreon, Drenaje, Pluvial';
+        $this->fecha           = '2016-08-18T11:05';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
+        $this->archivo         = 'aire-para-todos';
+        $this->imagen          = 'aire-para-todos/imagen.jpg';
+        $this->imagen_previa   = 'aire-para-todos/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion     = 'Taller sobre el Bosque Venustiano Carranza. Presentaciones sobre la Historia, Entorno Sociourbano y Medio Ambiente del BVC.';
+        $this->claves          = 'IMPLAN, Torreon, Areas Verdes, Sustentabilidad, Bosque';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -60,25 +60,13 @@ class PlanEstrategicoDrenajePluvialTorreon extends \Base\Publicacion {
         $schema->author        = $this->autor;
         // El contenido es una instancia de SchemaArticle
         $this->contenido       = $schema;
+        // Se define una ruta a una archivo HTML para que cuando se ejecute el método HTML se cargue
+        $this->contenido_archivo_html = 'lib/Proyectos/AireParaTodos.html';
         // Para el Organizador
-        $this->categorias      = array('Infraestructura');
+        $this->categorias      = array('Bienestar', 'Participación Ciudadana', 'Recursos Naturales');
         $this->fuentes         = array();
         $this->regiones        = array('Torreón');
     } // constructor
-
-    /**
-     * HTML
-     *
-     * @return string Código HTML
-     */
-    public function html() {
-        // Cargar en el Schema el archivo HTML seguido del archivo Markdown
-        $this->contenido->articleBody =
-            $this->cargar_archivo('lib/Proyectos/PlanEstrategicoDrenajePluvialTorreon.html').
-            $this->cargar_archivo_markdown_extra('lib/Proyectos/PlanEstrategicoDrenajePluvialTorreon.md');
-        // Ejecutar este método en el padre
-        return parent::html();
-    } // html
 
     /**
      * Javascript
@@ -87,7 +75,7 @@ class PlanEstrategicoDrenajePluvialTorreon extends \Base\Publicacion {
      */
     public function javascript() {
         // Cargar archivo externo
-        $this->javascript = $this->cargar_archivo('lib/Proyectos/PlanEstrategicoDrenajePluvialTorreon.js');
+        $this->javascript = $this->cargar_archivo('lib/Proyectos/AireParaTodos.js');
         // Entregar resultado del padre
         return parent::javascript();
     } // javascript
@@ -101,7 +89,7 @@ class PlanEstrategicoDrenajePluvialTorreon extends \Base\Publicacion {
         // Contenido especial para redifusión
         $this->redifusion = <<<FINAL
 <!-- Mostrar la primer imagen de la presentación como vínculo a la página -->
-<a href="{$this->archivo}.html"><img src="plan-estrategico-drenaje-pluvial-torreon/trcimplan-plan-estrategico-drenaje-pluvial-torreon-00.jpg"></a>
+<a href="{$this->archivo}.html"><img src="aire-para-todos/aire-para-todos-00.jpg"></a>
 <p>{$this->descripcion}</p>
 
 FINAL;
@@ -109,6 +97,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase PlanEstrategicoDrenajePluvialTorreon
+} // Clase AireParaTodos
 
 ?>

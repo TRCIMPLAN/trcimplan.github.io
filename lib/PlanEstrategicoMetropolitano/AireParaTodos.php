@@ -37,17 +37,17 @@ class AireParaTodos extends \Base\Publicacion {
         $this->fecha           = '2016-08-18T11:05';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'aire-para-todos';
-        $this->imagen          = 'aire-para-todos/imagen.jpg';
-        $this->imagen_previa   = 'aire-para-todos/imagen-previa.jpg';
+        $this->imagen          = '../proyectos/aire-para-todos/imagen.jpg';
+        $this->imagen_previa   = '../proyectos/aire-para-todos/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Taller sobre el Bosque Venustiano Carranza.';
+        $this->descripcion     = 'Taller sobre el Bosque Venustiano Carranza. Presentaciones sobre la Historia, Entorno Sociourbano y Medio Ambiente del BVC.';
         $this->claves          = 'IMPLAN, Torreon, Areas Verdes, Sustentabilidad, Bosque';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'plan-estrategico-metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Plan Estratégico Metropolitano > Todas las Mesas';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
+        $this->estado          = 'revisar';
         // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
         $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
@@ -89,7 +89,7 @@ class AireParaTodos extends \Base\Publicacion {
         // Contenido especial para redifusión
         $this->redifusion = <<<FINAL
 <!-- Mostrar la primer imagen de la presentación como vínculo a la página -->
-<a href="{$this->archivo}.html"><img src="aire-para-todos/trcimplan-aire-para-todos-00.jpg"></a>
+<a href="{$this->archivo}.html"><img src="../proyectos/aire-para-todos/trcimplan-aire-para-todos-00.jpg"></a>
 <p>{$this->descripcion}</p>
 
 FINAL;

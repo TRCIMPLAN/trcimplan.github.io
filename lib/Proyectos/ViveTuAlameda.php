@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Plan Estrategico Drenaje Pluvial Torreon
+ * TrcIMPLAN - Vive Tu Alameda
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -23,25 +23,25 @@
 namespace Proyectos;
 
 /**
- * Clase PlanEstrategicoDrenajePluvialTorreon
+ * Clase ViveTuAlameda
  */
-class PlanEstrategicoDrenajePluvialTorreon extends \Base\Publicacion {
+class ViveTuAlameda extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Plan Estratégico de Drenaje Pluvial de Torreón';
+        $this->nombre          = 'Vive Tu Alameda';
         $this->autor           = 'Dirección de Proyectos Estratégicos';
-        $this->fecha           = '2016-08-04T14:30';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo         = 'plan-estrategico-drenaje-pluvial-torreon';
-        $this->imagen          = 'plan-estrategico-drenaje-pluvial-torreon/imagen.jpg';
-        $this->imagen_previa   = 'plan-estrategico-drenaje-pluvial-torreon/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion     = 'Diagnóstico y Lineamientos para la elaboración del Plan Estratégico de Drenaje Pluvial de Torreón.';
-        $this->claves          = 'IMPLAN, Torreon, Drenaje, Pluvial';
+        $this->fecha           = '2016-08-11T13:00';
+        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
+        $this->archivo         = 'vive-tu-alameda';
+        $this->imagen          = 'vive-tu-alameda/imagen.jpg';
+        $this->imagen_previa   = 'vive-tu-alameda/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion     = 'Taller sobre la Alameda Zaragoza de Torreón.';
+        $this->claves          = 'IMPLAN, Torreon, Areas Verdes, Sustentabilidad, Alameda';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,7 +61,7 @@ class PlanEstrategicoDrenajePluvialTorreon extends \Base\Publicacion {
         // El contenido es una instancia de SchemaArticle
         $this->contenido       = $schema;
         // Para el Organizador
-        $this->categorias      = array('Infraestructura');
+        $this->categorias      = array('Bienestar', 'Participación Ciudadana', 'Recursos Naturales');
         $this->fuentes         = array();
         $this->regiones        = array('Torreón');
     } // constructor
@@ -74,8 +74,8 @@ class PlanEstrategicoDrenajePluvialTorreon extends \Base\Publicacion {
     public function html() {
         // Cargar en el Schema el archivo HTML seguido del archivo Markdown
         $this->contenido->articleBody =
-            $this->cargar_archivo('lib/Proyectos/PlanEstrategicoDrenajePluvialTorreon.html').
-            $this->cargar_archivo_markdown_extra('lib/Proyectos/PlanEstrategicoDrenajePluvialTorreon.md');
+            $this->cargar_archivo('lib/Proyectos/ViveTuAlameda.html').
+            $this->cargar_archivo_markdown_extra('lib/Proyectos/ViveTuAlameda.md');
         // Ejecutar este método en el padre
         return parent::html();
     } // html
@@ -87,7 +87,7 @@ class PlanEstrategicoDrenajePluvialTorreon extends \Base\Publicacion {
      */
     public function javascript() {
         // Cargar archivo externo
-        $this->javascript = $this->cargar_archivo('lib/Proyectos/PlanEstrategicoDrenajePluvialTorreon.js');
+        $this->javascript = $this->cargar_archivo('lib/Proyectos/ViveTuAlameda.js');
         // Entregar resultado del padre
         return parent::javascript();
     } // javascript
@@ -101,7 +101,7 @@ class PlanEstrategicoDrenajePluvialTorreon extends \Base\Publicacion {
         // Contenido especial para redifusión
         $this->redifusion = <<<FINAL
 <!-- Mostrar la primer imagen de la presentación como vínculo a la página -->
-<a href="{$this->archivo}.html"><img src="plan-estrategico-drenaje-pluvial-torreon/trcimplan-plan-estrategico-drenaje-pluvial-torreon-00.jpg"></a>
+<a href="{$this->archivo}.html"><img src="vive-tu-alameda/vive-tu-alameda-00.jpg"></a>
 <p>{$this->descripcion}</p>
 
 FINAL;
@@ -109,6 +109,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase PlanEstrategicoDrenajePluvialTorreon
+} // Clase ViveTuAlameda
 
 ?>
