@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El Bosque constituye el principal pulmón de la ciudad. En 1941, ya representaba el 5% de la mancha urbana. Dada su importancia como espacio público y ecológico el IMPLAN prepara una consulta ciudadana que refleje el sentir de la población sobre sus principales problemáticas.">
+  <meta name="author" content="Lic. Adriana Vargas Flores">
+  <meta name="keywords" content="IMPLAN, Torreon, Bosque, Areas verdes, Sustentabilidad, Medio Ambiente">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="El Bosque Venustiano Carranza: diagnóstico y problemáticas - IMPLAN Torreón">
+  <meta name="twitter:description" content="El Bosque constituye el principal pulmón de la ciudad. En 1941, ya representaba el 5% de la mancha urbana. Dada su importancia como espacio público y ecológico el IMPLAN prepara una consulta ciudadana que refleje el sentir de la población sobre sus principales problemáticas.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/el-bosque-venustiano-carranza-diagnostico-y-problematicas/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/el-bosque-venustiano-carranza-diagnostico-y-problematicas.html">
+  <meta name="og:title" content="El Bosque Venustiano Carranza: diagnóstico y problemáticas - IMPLAN Torreón">
+  <meta name="og:description" content="El Bosque constituye el principal pulmón de la ciudad. En 1941, ya representaba el 5% de la mancha urbana. Dada su importancia como espacio público y ecológico el IMPLAN prepara una consulta ciudadana que refleje el sentir de la población sobre sus principales problemáticas.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/el-bosque-venustiano-carranza-diagnostico-y-problematicas/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/el-bosque-venustiano-carranza-diagnostico-y-problematicas.html">
+  <title>El Bosque Venustiano Carranza: diagnóstico y problemáticas - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">El Bosque Venustiano Carranza: diagnóstico y problemáticas</h1>
+          <div class="encabezado-descripcion" itemprop="description">El Bosque constituye el principal pulmón de la ciudad. En 1941, ya representaba el 5% de la mancha urbana. Dada su importancia como espacio público y ecológico el IMPLAN prepara una consulta ciudadana que refleje el sentir de la población sobre sus principales problemáticas.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Adriana Vargas Flores</span>
+          - <meta itemprop="datePublished" content="2016-08-24T14:20">24/08/2016 14:20
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="El Bosque Venustiano Carranza: diagnóstico y problemáticas" src="el-bosque-venustiano-carranza-diagnostico-y-problematicas/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>El <strong>Bosque Venustiano Carranza (BVC)</strong> fue concebido en sus orígenes como el principal espacio público de la ciudad. De acuerdo con el historiador <strong>Carlos Castañón,</strong> para su creación se contrataron <strong>200 trabajadores</strong> que <strong>plantaron 18 mil árboles</strong> en terrenos de <strong>21 hectáreas</strong> en el año <strong>1941,</strong> por lo tanto el bosque siempre representó el principal pulmón de <strong>Torreón.</strong></p>
+
+<p>Hoy en un día es un parque no sólo natural, sino urbano, con diversas problemáticas expuestas por los ciudadanos y que son recogidas y analizadas por el <strong>Instituto Municipal de Planeación,</strong> en una serie de consultas con la sociedad civil. Este trabajo comenzó <strong>el pasado 10 de agosto, con un taller</strong> para la elaboración de un diagnóstico con grupos ecologistas, funcionarios municipales, deportistas, entre otros; quienes realizaron una caminata exploratoria en el lugar.</p>
+
+<p>Se recorrieron los puntos principales del bosque como áreas deportivas, áreas de juegos, monumentos, puestos comerciales, jardines, planta tratadora, etcétera. Todas las opiniones serán tomadas en cuenta en una próxima <strong>consulta ciudadana</strong> con 200 miembros de la sociedad civil.</p>
+
+<p>Al retomar la historia del Bosque, está claro que su construcción significó un gran aporte urbano. <strong>Carlos Castañón</strong> recuerda que, de acuerdo con <strong>Javier Ramos Salas,</strong> la superﬁcie de la mancha urbana citadina <strong>en el año de 1941 era aproximadamente de 440 hectáreas, y si el Bosque tenía 21.6, entonces representaba 5% de la mancha urbana.</strong></p>
+
+<p>Es preciso recordar que  <strong>en 1939,</strong> el ingeniero y agricultor <strong>José González Calderón, retomó la iniciativa para hacer un gran parque público.</strong> La primera propuesta data de 1932, cuando los terrenos donde actualmente está el Bosque, permanecían abandonados.</p>
+
+<p>Carlos Castañón apunta que González Calderón era gerente de la Cámara Agrícola y presidente del Comité de Forestación de la ciudad, cuando promovió activamente la propuesta ante el Ayuntamiento de Torreón.</p>
+
+<p>Fue en 1940, cuando el Ayuntamiento de Torreón y el gobierno del Estado de Coahuila,  por entonces representado por el gobernador Pedro Rodríguez gestiona la cesión de terrenos ante el gobierno federal, añadió el historiador.</p>
+
+<h3>Situación actual</h3>
+
+<p>El <strong>primer diagnóstico</strong> sobre este espacio fue elaborado por la <strong>Dirección General de Medio Ambiente de Torreón</strong> a cargo de la químico <strong>Susana Esténs.</strong> En el documento, se establecen las condiciones y características actuales de su vegetación y mobiliario urbano.</p>
+
+<p>El BVC tiene un <strong>área total de 193,511.72 m2,</strong> de los cuales <strong>131,832.07 m2 (68%) son áreas verdes.</strong> Cuenta con <strong>más de 3,700 árboles de 61 especies diferentes,</strong> tales como: fresno, casuarina, palma washingtonia, palma saval mexicana, pingüico, trueno, palma datilera, moral, laurel de la india y bugambilia. Los árboles frutales son: granada, guayabo, mora, limón, mandarina, naranjo y plátano.</p>
+
+<p>Así pues, el Bosque se compone principalmente de área verde, pero también cuenta con mobiliario urbano, senderos y áreas construidas con distintas finalidades, una de ellas es el <strong>Museo Regional de La Laguna,</strong> el museo más antiguo de Torreón.</p>
+
+<p>En el diagnóstico de Medio Ambiente, se detectó que de los 3,700 árboles existentes <strong>hay alrededor de 167 árboles muertos o secos y 367 tocones (pedazos de troncos unidos a la raíz).</strong> Por lo tanto una de las sugerencias más escuchadas por los ciudadanos en la caminata realizada en el bosque, es plantar más árboles y recuperar áreas verdes.</p>
+
+<p>En cuanto al mobiliario urbano, el bosque cuenta con <strong>488 bancas (60% en deterioro), tiene 58 puestos comerciales pero 35% están en desuso,</strong> lo que le resta espacio para vegetación o para otro tipo de actividades.</p>
+
+<p>Para la iluminación existen <strong>194 arbotantes</strong> y se contabilizan alrededor de <strong>128 botes de basura.</strong> De los <strong>18 bebederos</strong> que se registran en el lugar <strong>sólo funciona alrededor de 40%.</strong> Se cuenta con dos <strong>servicios de baños</strong> construidos, uno de ellos cerca del área donde se reúnen los clubes de corredores.</p>
+
+<p>El espacio demanda múltiples tareas, este año se invirtió en la rehabilitación de <strong>pistas para corredores;</strong> sin embargo ciudadanos señalan la <strong>falta de techumbres en áreas de juegos y deportivas,</strong> mejores instalaciones de baños públicos, mejor seguridad y que quede fuera el vandalismo.</p>
+
+<h3>Breve Historia</h3>
+
+<ul>
+<li>1901, la compañía Ferrocarril Coahuila Pacíﬁco, compra los terrenos donde actualmente es el Bosque Venustiano Carranza (BVC), al agricultor Feliciano Cobián.</li>
+<li>1932, los terrenos estaban abandonados y se usaban como banco de tierra para la construcción. Había enormes hoyos y maleza. Un ciudano sugiere la idea de hacer un bosque para la ciudad. Ahí había hecho un pequeño vivero.</li>
+<li>1939, el Ing. y agricultor José González Calderón, retomó la iniciativa para hacer un gran parque público. Era gerente de la Cámara Agrícola y presidente del Comité de Forestación de la ciudad, cuando promovió activamente la propuesta ante el Ayuntamiento de Torreón.</li>
+<li>González Calderón elabora el proyecto del nuevo bosque en las 21 hectáreas del predio, que por entonces pertenecía a los Ferrocarriles Nacionales.</li>
+<li>1940, el Ayuntamiento de Torreón y el gobierno del Estado de Coahuila, por entonces representado por el gobernador Pedro Rodríguez Triana, gestionan la cesión de los terrenos ante el gobierno federal.</li>
+<li>1941, al cargo de 200 trabajadores, el Ing. Calderón organiza la plantación de 18 mil árboles. Sicomoros, eucaliptos, palo blanco, naranjos, jacarandas, cedros, tullas, palmas y aguacates.</li>
+</ul>
+
+<h3>El BVC cuenta con más de 3,700 árboles de 61 especies diferentes</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Especies predominantes</th>
+  <th align="right">Cantidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Fresno</td>
+  <td align="right">616</td>
+</tr>
+<tr>
+  <td>Casuarina</td>
+  <td align="right">525</td>
+</tr>
+<tr>
+  <td>Palma washingtonia</td>
+  <td align="right">365</td>
+</tr>
+<tr>
+  <td>Palma saval mexicana</td>
+  <td align="right">267</td>
+</tr>
+<tr>
+  <td>Pingüico</td>
+  <td align="right">215</td>
+</tr>
+<tr>
+  <td>Trueno</td>
+  <td align="right">194</td>
+</tr>
+<tr>
+  <td>Palma datilera</td>
+  <td align="right">141</td>
+</tr>
+<tr>
+  <td>Mora</td>
+  <td align="right">133</td>
+</tr>
+<tr>
+  <td>Laurel de la India</td>
+  <td align="right">117</td>
+</tr>
+<tr>
+  <td>Bugambilia</td>
+  <td align="right">112</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Fuentes</h3>
+
+<ul>
+<li>Información de Carlos Castañón Cuadros.</li>
+</ul>
+
+<h3>Presentaciones</h3>
+
+<ul>
+<li>En la sección de Proyectos podrá ver las prentaciones del <a href="../proyectos/aire-para-todos.html">Taller "Aire Para Todos".</a></li>
+</ul>
+
+<h3>Este análisis fue publicado en Milenio Laguna</h3>
+
+<p><a href="http://www.milenio.com/region/Milenio_Noticias-Nuestra_Metropoli_desde_el_IMPLAN-IMPLAN_Torreon-Bosque_Torreon_0_793120735.html">Bosque Venustiano Carranza: diagnóstico y problemáticas - parte 1</a></p>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fel-bosque-venustiano-carranza-diagnostico-y-problematicas.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

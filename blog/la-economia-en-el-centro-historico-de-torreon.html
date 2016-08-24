@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Este sector de la ciudad comprende 241 manzanas y concentra más del 15% de la actividad económica de Torreón, con fuerte presencia de negocios semifijos. Las políticas de crecimiento del centro, se deben dirigir a incentivar el comercio formal, un mayor uso habitacional y a la protección, restauración y conservación de edificios y plazas.">
+  <meta name="author" content="Arq. Teresita Benítez Saludado">
+  <meta name="keywords" content="IMPLAN, Torreon, Centro Historico, Economia, Negocios">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La economía en el Centro Histórico de Torreón - IMPLAN Torreón">
+  <meta name="twitter:description" content="Este sector de la ciudad comprende 241 manzanas y concentra más del 15% de la actividad económica de Torreón, con fuerte presencia de negocios semifijos. Las políticas de crecimiento del centro, se deben dirigir a incentivar el comercio formal, un mayor uso habitacional y a la protección, restauración y conservación de edificios y plazas.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/la-economia-en-el-centro-historico-de-torreon/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/la-economia-en-el-centro-historico-de-torreon.html">
+  <meta name="og:title" content="La economía en el Centro Histórico de Torreón - IMPLAN Torreón">
+  <meta name="og:description" content="Este sector de la ciudad comprende 241 manzanas y concentra más del 15% de la actividad económica de Torreón, con fuerte presencia de negocios semifijos. Las políticas de crecimiento del centro, se deben dirigir a incentivar el comercio formal, un mayor uso habitacional y a la protección, restauración y conservación de edificios y plazas.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/la-economia-en-el-centro-historico-de-torreon/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/la-economia-en-el-centro-historico-de-torreon.html">
+  <title>La economía en el Centro Histórico de Torreón - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">La economía en el Centro Histórico de Torreón</h1>
+          <div class="encabezado-descripcion" itemprop="description">Este sector de la ciudad comprende 241 manzanas y concentra más del 15% de la actividad económica de Torreón, con fuerte presencia de negocios semifijos. Las políticas de crecimiento del centro, se deben dirigir a incentivar el comercio formal, un mayor uso habitacional y a la protección, restauración y conservación de edificios y plazas.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Arq. Teresita Benítez Saludado</span>
+          - <meta itemprop="datePublished" content="2016-08-24T14:30">24/08/2016 14:30
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="La economía en el Centro Histórico de Torreón" src="la-economia-en-el-centro-historico-de-torreon/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p><strong>El Centro Histórico de la Ciudad de Torreón es el corazón vivo de nuestra región.</strong> La localización de la actividad económica es fundamental para la economía urbana y en el caso del Centro Histórico <strong>39.17% de su superficie está destinada al comercio y servicios</strong> con una diversidad de giros y actividades.</p>
+
+<p>Primero es importante delimitar cuál es el área que comprende el Centro Histórico.  En <strong>noviembre de 1996,</strong> por decreto se declaró como "Centro Histórico de la Ciudad de Torreón" a las <strong>241 manzanas contenidas en el perímetro que inicia en la esquina formada por la Avenida Abasolo y Calle Donato Guerra, hacia el poniente hasta la Calzada Colón.</strong></p>
+
+<p>Sigue la Calzada hacia el norte hasta el Boulevard Constitución. Del Boulevard Constitución hacia el poniente hasta la Calle Múzquiz. De la Calle Múzquiz hacia el sur hasta la Prolongación Boulevard Independencia. De la Calle Prolongación Boulevard Independencia hacia el poniente hasta la Calle 5 de mayo. De la Calle 5 de Mayo hacia el sur hasta la calle Torreón Viejo. De la Calle Torreón Viejo hacia el sur-poniente hasta el Boulevard Revolución; y del Boulevard Revolución hacia el oriente hasta la calle Donato Guerra.</p>
+
+<p>De esta forma se cierra el límite del perímetro <strong>Centro Histórico, el cual concentra el patrimonio arquitectónico de la ciudad y coincide también con el área comercial por excelencia de Torreón y de la zona conurbada de la Laguna.</strong></p>
+
+<p>Un <strong>19.27 % de la superficie de este sector está dedicada a uso habitacional,</strong> un porcentaje que se busca aumentar como parte de las estrategias para densificar a la ciudad. El <strong>10.23 % del suelo se concentra en equipamiento y 24.86% en vialidades.</strong> Sólo <strong>2.08% se ocupa en área verde y hay un 2.76% destinado a la industria;</strong> de acuerdo con datos la Cámara Nacional de Comercio.</p>
+
+<p><img class="img-responsive" src="la-economia-en-el-centro-historico-de-torreon/centro-historico-de-torreon.jpg" alt="Centro Historico de Torreon"></p>
+
+<h3>Distribución de negocios</h3>
+
+<p><strong>El número de unidades económicas (negocios) que existen actualmente en Torreón es de 27,582 y son 4,392 las que se concentran en el Centro Histórico.</strong> Es decir, <strong>15.92%.</strong> La actividad económica de este sector de la ciudad podría ser mayor y es parte también de la necesidad existente de darle vida a la zona más histórica de Torreón.</p>
+
+<p>Además es importante identificar el porcentaje de establecimientos que con carácter de semifijos que se concentran en este distrito.</p>
+
+<p>Del total de <strong>unidades económicas del centro 3,838 (87.38%) son establecimientos fijos y 554 (12.62%) son establecimientos semifijos,</strong> lo que quiere decir que no son negocios formales y tampoco pagan impuestos. Esto lleva a analizar la importancia de contar con mejores estrategias para incentivar el impulso económico de la zona.</p>
+
+<p>Por otra parte, <strong>en el Centro Histórico de Torreón en 3,662 (83.37%) de las unidades económicas se ocupan de 0 a 5 personas para su funcionamiento; mientras en 378 (10.32%) unidades económicas se ocupan de 6 a 10 personas.</strong></p>
+
+<p>Ante este panorama es necesario tener en claro los patrones de localización que siguen las actividades económicas, es decir, qué factores determinan que se dé una localización en determinado espacio y no en otro, y así propiciar la diversificación de servicios y actividades urbanas, que tengan compatibilidad con el uso habitacional del sector.</p>
+
+<p>La <strong>teoría de los lugares centrales</strong> ayuda a explicar dos aspectos interrelacionados del desarrollo urbano: 1) la <strong>ubicación de los asentamientos humanos</strong> como centros óptimos de distribución para los servicios y ciertas mercancías y, 2) la <strong>forma en la cual estos servicios y mercancías se distribuyen</strong> dentro del sistema espacial de los lugares urbanos.</p>
+
+<p>En la ciudad encontramos la presencia de centros comerciales y financieros, que  “distribuidos" estratégicamente prestan similares servicios. Sin embargo, hay que considerar que no necesariamente tiene que existir un solo centro de negocios en la ciudad.  Lo que sí es necesario es <strong>devolverle la importancia y valor que le otorga la trascendencia de su patrimonio urbano-arquitectónico al Centro Histórico.</strong> Esto se puede lograr <strong>realizando acciones de protección, rehabilitación, restauración y conservación de edificios, plazas, parques y espacios públicos</strong> que conforman este perímetro.</p>
+
+<h3>Superficie del centro ocupada por Uso- Actividad</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>USO</th>
+  <th align="right">Superficie/Hectáreas</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Comercio y Servicios</td>
+  <td align="right">109.06</td>
+  <td align="right">39.17 %</td>
+</tr>
+<tr>
+  <td>Habitación</td>
+  <td align="right">53.66</td>
+  <td align="right">19.27 %</td>
+</tr>
+<tr>
+  <td>Equipamiento</td>
+  <td align="right">28.48</td>
+  <td align="right">10.23 %</td>
+</tr>
+<tr>
+  <td>Industria</td>
+  <td align="right">7.69</td>
+  <td align="right">2.76 %</td>
+</tr>
+<tr>
+  <td>Área verde</td>
+  <td align="right">5.79</td>
+  <td align="right">2.08 %</td>
+</tr>
+<tr>
+  <td>Baldíos</td>
+  <td align="right">4.55</td>
+  <td align="right">1.63 %</td>
+</tr>
+<tr>
+  <td>Vialidades</td>
+  <td align="right">69.23</td>
+  <td align="right">24.86 %</td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td align="right">278.46</td>
+  <td align="right">100.00 %</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Unidades económicas en el Centro Histórico</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Localidad</th>
+  <th align="right">Número de Unidades Económicas</th>
+  <th align="right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Torreón</td>
+  <td align="right">27,582</td>
+  <td align="right">100.00 %</td>
+</tr>
+<tr>
+  <td>Centro Histórico</td>
+  <td align="right">4,392</td>
+  <td align="right">15.92 %</td>
+</tr>
+<tr>
+  <td>Resto de la ciudad</td>
+  <td align="right">23,190</td>
+  <td align="right">84.08 %</td>
+</tr>
+</tbody>
+</table>
+
+<p>Elaboración propia en base a información INEGI, Directorio Estadístico Nacional de Unidades Económicas.</p>
+
+<h3>Este análisis fue publicado en Milenio Laguna</h3>
+
+<p><a href="http://www.milenio.com/region/Milenio_Noticias-Nuestra_Metropoli_desde_el_IMPLAN-IMPLAN_Torreon-Centro_Torreon_0_797320320.html">La economía en el Centro Histórico de Torreón</a></p>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fla-economia-en-el-centro-historico-de-torreon.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
