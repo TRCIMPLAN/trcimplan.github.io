@@ -61,9 +61,9 @@ class ElBosqueVenustianoCarranzaDiagnosticoYProblematicas extends \Base\Publicac
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/ElBosqueVenustianoCarranzaDiagnosticoYProblematicas.md';
         // Para el Organizador
-        $this->categorias      = array();
-        $this->fuentes         = array();
-        $this->regiones        = array();
+        $this->categorias      = array('Recursos Naturales');
+        $this->fuentes         = array('Dirección General de Medio Ambiente del Municipio de Torreón');
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase ElBosqueVenustianoCarranzaDiagnosticoYProblematicas

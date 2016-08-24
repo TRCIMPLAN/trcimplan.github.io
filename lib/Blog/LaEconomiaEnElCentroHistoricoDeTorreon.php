@@ -61,9 +61,9 @@ class LaEconomiaEnElCentroHistoricoDeTorreon extends \Base\Publicacion {
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/LaEconomiaEnElCentroHistoricoDeTorreon.md';
         // Para el Organizador
-        $this->categorias      = array();
-        $this->fuentes         = array();
-        $this->regiones        = array();
+        $this->categorias      = array('Empleo', 'Empresas', 'Mercados');
+        $this->fuentes         = array('INEGI');
+        $this->regiones        = array('Torreón');
     } // constructor
 
 } // Clase LaEconomiaEnElCentroHistoricoDeTorreon

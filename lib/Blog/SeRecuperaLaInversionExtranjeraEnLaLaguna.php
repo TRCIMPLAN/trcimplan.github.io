@@ -61,9 +61,9 @@ class SeRecuperaLaInversionExtranjeraEnLaLaguna extends \Base\Publicacion {
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
         $this->contenido_archivo_markdown = 'lib/Blog/SeRecuperaLaInversionExtranjeraEnLaLaguna.md';
         // Para el Organizador
-        $this->categorias      = array();
+        $this->categorias      = array('Doing Business', 'Empresas', 'Macroeconomía', 'Mercados');
         $this->fuentes         = array();
-        $this->regiones        = array();
+        $this->regiones        = array('Torreón', 'La Laguna');
     } // constructor
 
 } // Clase SeRecuperaLaInversionExtranjeraEnLaLaguna
