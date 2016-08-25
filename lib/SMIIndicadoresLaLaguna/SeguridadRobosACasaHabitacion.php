@@ -306,29 +306,29 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-06-30</td>
-            <td>48</td>
+            <td>2016-07-31</td>
+            <td>38</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-06-30</td>
-            <td>32</td>
+            <td>2016-07-31</td>
+            <td>35</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-06-30</td>
+            <td>2016-07-31</td>
             <td>9</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-06-30</td>
-            <td>2</td>
+            <td>2016-07-31</td>
+            <td>4</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -336,6 +336,13 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
             <td>La Laguna</td>
             <td>2016-06-30</td>
             <td>91</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2016-07-31</td>
+            <td>86</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -378,7 +385,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 48 },{ region: 'Gómez Palacio', dato: 32 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 2 },{ region: 'La Laguna', dato: 91 }],
+      data: [{ region: 'Torreón', dato: 38 },{ region: 'Gómez Palacio', dato: 35 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 4 },{ region: 'La Laguna', dato: 91 },{ region: 'Coahuila', dato: 86 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

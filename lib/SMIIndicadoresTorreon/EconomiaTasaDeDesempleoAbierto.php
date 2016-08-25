@@ -427,6 +427,12 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/06/2016</td>
+            <td>5.78 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Porcentaje.</p>
@@ -476,57 +482,57 @@ class EconomiaTasaDeDesempleoAbierto extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-03-31</td>
-            <td>5.48 %</td>
+            <td>2016-06-30</td>
+            <td>5.78 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-03-31</td>
-            <td>4.71 %</td>
+            <td>2016-06-30</td>
+            <td>5.36 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-03-31</td>
-            <td>6.25 %</td>
+            <td>2016-06-30</td>
+            <td>11.54 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-03-31</td>
-            <td>1.90 %</td>
+            <td>2016-06-30</td>
+            <td>4.09 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-03-31</td>
-            <td>4.95 %</td>
+            <td>2016-06-30</td>
+            <td>5.64 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2016-03-31</td>
-            <td>4.50 %</td>
+            <td>2016-06-30</td>
+            <td>4.84 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2016-03-31</td>
-            <td>4.46 %</td>
+            <td>2016-06-30</td>
+            <td>5.00 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
           <tr>
             <td>Nacional</td>
-            <td>2016-03-31</td>
-            <td>4.04 %</td>
+            <td>2016-06-30</td>
+            <td>3.93 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
@@ -569,7 +575,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', functi
   if (typeof vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos === 'undefined') {
     vargraficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos = Morris.Line({
       element: 'graficaDatosEncuestaNacionalDeOcupacionYEmpleoEnoeMicrodatos',
-      data: [{ fecha: '2005-03-31', dato: 5.0445 },{ fecha: '2005-06-30', dato: 4.1096 },{ fecha: '2005-09-30', dato: 2.5037 },{ fecha: '2005-12-31', dato: 2.6700 },{ fecha: '2006-03-31', dato: 5.2239 },{ fecha: '2006-06-30', dato: 4.9787 },{ fecha: '2006-09-30', dato: 7.0667 },{ fecha: '2006-12-31', dato: 5.1200 },{ fecha: '2007-03-31', dato: 6.4917 },{ fecha: '2007-06-30', dato: 3.8748 },{ fecha: '2007-09-30', dato: 5.2555 },{ fecha: '2007-12-31', dato: 6.4900 },{ fecha: '2008-03-31', dato: 5.8993 },{ fecha: '2008-06-30', dato: 5.7949 },{ fecha: '2008-09-30', dato: 5.5556 },{ fecha: '2008-12-31', dato: 4.0500 },{ fecha: '2009-03-31', dato: 7.4100 },{ fecha: '2009-06-30', dato: 6.1200 },{ fecha: '2009-09-30', dato: 9.4700 },{ fecha: '2009-12-31', dato: 6.4600 },{ fecha: '2010-03-31', dato: 7.5800 },{ fecha: '2010-06-30', dato: 8.6200 },{ fecha: '2010-09-30', dato: 8.5600 },{ fecha: '2010-12-31', dato: 6.6800 },{ fecha: '2011-03-31', dato: 4.3600 },{ fecha: '2011-06-30', dato: 5.8500 },{ fecha: '2011-09-30', dato: 6.8000 },{ fecha: '2011-12-31', dato: 5.6400 },{ fecha: '2012-03-31', dato: 4.5300 },{ fecha: '2012-06-30', dato: 5.5000 },{ fecha: '2012-09-30', dato: 5.5600 },{ fecha: '2012-12-31', dato: 4.7600 },{ fecha: '2013-03-31', dato: 4.7000 },{ fecha: '2013-06-30', dato: 5.6500 },{ fecha: '2013-09-30', dato: 5.2700 },{ fecha: '2013-12-31', dato: 4.0600 },{ fecha: '2014-03-31', dato: 5.4400 },{ fecha: '2014-06-30', dato: 5.1100 },{ fecha: '2014-09-30', dato: 4.5700 },{ fecha: '2014-12-31', dato: 7.0900 },{ fecha: '2015-03-31', dato: 6.2700 },{ fecha: '2015-06-30', dato: 6.2834 },{ fecha: '2015-09-30', dato: 6.2500 },{ fecha: '2015-12-31', dato: 4.9333 },{ fecha: '2016-03-31', dato: 5.4775 }],
+      data: [{ fecha: '2005-03-31', dato: 5.0445 },{ fecha: '2005-06-30', dato: 4.1096 },{ fecha: '2005-09-30', dato: 2.5037 },{ fecha: '2005-12-31', dato: 2.6700 },{ fecha: '2006-03-31', dato: 5.2239 },{ fecha: '2006-06-30', dato: 4.9787 },{ fecha: '2006-09-30', dato: 7.0667 },{ fecha: '2006-12-31', dato: 5.1200 },{ fecha: '2007-03-31', dato: 6.4917 },{ fecha: '2007-06-30', dato: 3.8748 },{ fecha: '2007-09-30', dato: 5.2555 },{ fecha: '2007-12-31', dato: 6.4900 },{ fecha: '2008-03-31', dato: 5.8993 },{ fecha: '2008-06-30', dato: 5.7949 },{ fecha: '2008-09-30', dato: 5.5556 },{ fecha: '2008-12-31', dato: 4.0500 },{ fecha: '2009-03-31', dato: 7.4100 },{ fecha: '2009-06-30', dato: 6.1200 },{ fecha: '2009-09-30', dato: 9.4700 },{ fecha: '2009-12-31', dato: 6.4600 },{ fecha: '2010-03-31', dato: 7.5800 },{ fecha: '2010-06-30', dato: 8.6200 },{ fecha: '2010-09-30', dato: 8.5600 },{ fecha: '2010-12-31', dato: 6.6800 },{ fecha: '2011-03-31', dato: 4.3600 },{ fecha: '2011-06-30', dato: 5.8500 },{ fecha: '2011-09-30', dato: 6.8000 },{ fecha: '2011-12-31', dato: 5.6400 },{ fecha: '2012-03-31', dato: 4.5300 },{ fecha: '2012-06-30', dato: 5.5000 },{ fecha: '2012-09-30', dato: 5.5600 },{ fecha: '2012-12-31', dato: 4.7600 },{ fecha: '2013-03-31', dato: 4.7000 },{ fecha: '2013-06-30', dato: 5.6500 },{ fecha: '2013-09-30', dato: 5.2700 },{ fecha: '2013-12-31', dato: 4.0600 },{ fecha: '2014-03-31', dato: 5.4400 },{ fecha: '2014-06-30', dato: 5.1100 },{ fecha: '2014-09-30', dato: 4.5700 },{ fecha: '2014-12-31', dato: 7.0900 },{ fecha: '2015-03-31', dato: 6.2700 },{ fecha: '2015-06-30', dato: 6.2834 },{ fecha: '2015-09-30', dato: 6.2500 },{ fecha: '2015-12-31', dato: 4.9333 },{ fecha: '2016-03-31', dato: 5.4775 },{ fecha: '2016-06-30', dato: 5.7800 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -601,7 +607,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 5.4775 },{ region: 'Gómez Palacio', dato: 4.7131 },{ region: 'Lerdo', dato: 6.2500 },{ region: 'Matamoros', dato: 1.9048 },{ region: 'La Laguna', dato: 4.9520 },{ region: 'Coahuila', dato: 4.5037 },{ region: 'Durango', dato: 4.4589 },{ region: 'Nacional', dato: 4.0440 }],
+      data: [{ region: 'Torreón', dato: 5.7800 },{ region: 'Gómez Palacio', dato: 5.3600 },{ region: 'Lerdo', dato: 11.5400 },{ region: 'Matamoros', dato: 4.0900 },{ region: 'La Laguna', dato: 5.6400 },{ region: 'Coahuila', dato: 4.8400 },{ region: 'Durango', dato: 5.0000 },{ region: 'Nacional', dato: 3.9300 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -961,6 +967,12 @@ FINAL;
           <tr>
             <td>31/03/2016</td>
             <td>5.48 %</td>
+            <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/06/2016</td>
+            <td>5.78 %</td>
             <td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td>
             <td></td>
           </tr>
