@@ -15,3 +15,11 @@ Torreón, Ciudad que Vence.
 
 * [Presentaciones del Taller - Aire para Todos](../proyectos/aire-para-todos.html)
 * [El Bosque Venustiano Carranza: diagnóstico y problemáticas](../blog/el-bosque-venustiano-carranza-diagnostico-y-problematicas.html)
+
+### Fotografías
+
+<img class="img-responsive" src="2016-08-18-realizan-mesas-de-trabajo-sobre-el-bosque-venustiano-carranza/foto-1.jpg" alt="Taller BVC">
+
+<img class="img-responsive" src="2016-08-18-realizan-mesas-de-trabajo-sobre-el-bosque-venustiano-carranza/foto-2.jpg" alt="Taller BVC">
+
+<img class="img-responsive" src="2016-08-18-realizan-mesas-de-trabajo-sobre-el-bosque-venustiano-carranza/foto-3.jpg" alt="Taller BVC">
