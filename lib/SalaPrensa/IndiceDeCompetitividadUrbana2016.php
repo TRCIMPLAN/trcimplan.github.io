@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - Realizan mesas de trabajo sobre el Bosque Venustiano Carranza
+ * Sitio Web - Índice de Competitividad Urbana 2016
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -23,25 +23,25 @@
 namespace SalaPrensa;
 
 /**
- * Clase RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza
+ * Clase IndiceDeCompetitividadUrbana2016
  */
-class RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza extends \Base\Publicacion {
+class IndiceDeCompetitividadUrbana2016 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Realizan mesas de trabajo sobre el Bosque Venustiano Carranza';
+        $this->nombre          = 'Índice de Competitividad Urbana 2016';
     //~ $this->autor           = '';
-        $this->fecha           = '2016-08-18T14:00';
+        $this->fecha           = '2016-09-07T14:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2016-08-18-realizan-mesas-de-trabajo-sobre-el-bosque-venustiano-carranza';
-        $this->imagen          = '2016-08-18-realizan-mesas-de-trabajo-sobre-el-bosque-venustiano-carranza/imagen.jpg';
-        $this->imagen_previa   = '2016-08-18-realizan-mesas-de-trabajo-sobre-el-bosque-venustiano-carranza/imagen-previa.jpg';
+        $this->archivo         = '2016-09-07-indice-de-competitividad-urbana';
+        $this->imagen          = '2016-09-07-indice-de-competitividad-urbana/imagen.jpg';
+        $this->imagen_previa   = '2016-09-07-indice-de-competitividad-urbana/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Consulta Ciudadana sobre el Bosque Venustiano Carranza (BVC) a través de la cual se desarrollaron mesas de trabajo con la sociedad civil.';
-        $this->claves          = 'IMPLAN, Torreon, Bosque, Venustiano Carranza, Areas Verdes, Sustentabilidad, Recursos Naturales';
+        $this->descripcion     = 'La Zona Metropolitana de La Laguna pasó del lugar 48 en el ICU 2014 al lugar 24 en competitividad.';
+        $this->claves          = 'IMPLAN, Torreon, ';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'sala-prensa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,13 +61,13 @@ class RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza extends \Base\Public
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/IndiceDeCompetitividadUrbana2016.md';
         // Para el Organizador
-        $this->categorias      = array('Recursos Naturales');
+        $this->categorias      = array();
         $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'La Laguna');
+        $this->regiones        = array();
     } // constructor
 
-} // Clase RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza
+} // Clase IndiceDeCompetitividadUrbana2016
 
 ?>

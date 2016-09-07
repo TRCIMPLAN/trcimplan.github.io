@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - Realizan mesas de trabajo sobre el Bosque Venustiano Carranza
+ * Sitio Web - Presentan evaluación del impacto social y urbano de Ciudad DIF
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -23,25 +23,25 @@
 namespace SalaPrensa;
 
 /**
- * Clase RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza
+ * Clase SesionOrdinaria20160831
  */
-class RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza extends \Base\Publicacion {
+class SesionOrdinaria20160831 extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Realizan mesas de trabajo sobre el Bosque Venustiano Carranza';
+        $this->nombre          = 'Presentan evaluación del impacto social y urbano de Ciudad DIF';
     //~ $this->autor           = '';
-        $this->fecha           = '2016-08-18T14:00';
+        $this->fecha           = '2016-08-31T10:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2016-08-18-realizan-mesas-de-trabajo-sobre-el-bosque-venustiano-carranza';
-        $this->imagen          = '2016-08-18-realizan-mesas-de-trabajo-sobre-el-bosque-venustiano-carranza/imagen.jpg';
-        $this->imagen_previa   = '2016-08-18-realizan-mesas-de-trabajo-sobre-el-bosque-venustiano-carranza/imagen-previa.jpg';
+        $this->archivo         = '2016-08-31-sesion-ordinaria';
+        $this->imagen          = '2016-08-31-sesion-ordinaria/imagen.jpg';
+        $this->imagen_previa   = '2016-08-31-sesion-ordinaria/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Consulta Ciudadana sobre el Bosque Venustiano Carranza (BVC) a través de la cual se desarrollaron mesas de trabajo con la sociedad civil.';
-        $this->claves          = 'IMPLAN, Torreon, Bosque, Venustiano Carranza, Areas Verdes, Sustentabilidad, Recursos Naturales';
+        $this->descripcion     = 'Octava Sesión Ordinaria del Consejo Directivo del IMPLAN Torreón.';
+        $this->claves          = 'IMPLAN, Torreon, Sesion, Consejo Directivo';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'sala-prensa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,13 +61,13 @@ class RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza extends \Base\Public
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20160831.md';
         // Para el Organizador
-        $this->categorias      = array('Recursos Naturales');
+        $this->categorias      = array();
         $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'La Laguna');
+        $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase RealizanMesasDeTrabajoSobreElBosqueVenustianoCarranza
+} // Clase SesionOrdinaria20160831
 
 ?>
