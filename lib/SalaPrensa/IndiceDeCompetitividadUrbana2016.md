@@ -17,7 +17,3 @@ Si bien **de acuerdo a la metodología del ICU 2016, la ZML pasó del lugar 39 a
 * **Tiempos de traslado,** medido como la proporción de personas que hacen viajes menores a 30 minutos para ir a la escuela o el trabajo. Fuente: INEGI, Encuesta Intercensal, 2015.
 
 <img class="img-responsive" src="2016-09-07-indice-de-competitividad-urbana/ranking-general-2016.jpg" alt="Ranking General 2016">
-
-Rodrigo González Morales.
-
-Director de Investigación Estratégica.
