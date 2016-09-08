@@ -61,3 +61,7 @@ En los 25 años de vida del Parque Solar se habrá evitado generar CO2 equivalen
 ### Fuente
 
 * [www.solarcoahuila.com](http://www.solarcoahuila.com)
+
+### Este análisis fue publicado en Milenio Laguna
+
+* [Matriz energética lagunera: necesaria visión de futuro](http://www.milenio.com/region/Milenio_Noticias-Nuestra_Metropoli_desde_el_IMPLAN-IMPLAN_Torreon-Matriz_Energetica_0_801519889.html)
