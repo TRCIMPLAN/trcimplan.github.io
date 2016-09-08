@@ -34,7 +34,7 @@ class BosqueVenustianoCarranzaDiagnosticoYProblematicasParte2 extends \Base\Publ
         // Título, autor y fecha
         $this->nombre          = 'Bosque Venustiano Carranza: Diagnóstico y Problemáticas (parte 2)';
         $this->autor           = array('Arq. Ilse Ávila García', 'Ing. Luis Campos Hinojosa', 'Lic. Luis A. Gutiérrez Arizpe', 'Lic. Rodrigo González Morales');
-        $this->fecha           = '2016-09-08T11:35';
+        $this->fecha           = '2016-09-08T16:45';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo         = 'bosque-venustiano-carranza-diagnostico-y-problematicas-parte-2';
         $this->imagen          = 'bosque-venustiano-carranza-diagnostico-y-problematicas-parte-2/imagen.jpg';
@@ -47,7 +47,7 @@ class BosqueVenustianoCarranzaDiagnosticoYProblematicasParte2 extends \Base\Publ
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'revisar';
+        $this->estado          = 'publicar';
         // Sin imagen en el contenido
         $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
