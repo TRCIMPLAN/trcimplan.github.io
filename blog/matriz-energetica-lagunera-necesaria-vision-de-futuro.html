@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Es necesario reconocer el gran potencial de La Laguna en materia de energías limpias o energías renovables, dado que contamos con importantes ventajas competitivas y comparativas en la rama de energía solar, energía de la biomasa y energía eólica.">
+  <meta name="author" content="Lic. Eduardo Holguín Zehfuss, Lic. Adriana Vargas Flores">
+  <meta name="keywords" content="IMPLAN, Torreon, ">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Matriz energética lagunera: necesaria visión de futuro - IMPLAN Torreón">
+  <meta name="twitter:description" content="Es necesario reconocer el gran potencial de La Laguna en materia de energías limpias o energías renovables, dado que contamos con importantes ventajas competitivas y comparativas en la rama de energía solar, energía de la biomasa y energía eólica.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/matriz-energetica-lagunera-necesaria-vision-de-futuro/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/matriz-energetica-lagunera-necesaria-vision-de-futuro.html">
+  <meta name="og:title" content="Matriz energética lagunera: necesaria visión de futuro - IMPLAN Torreón">
+  <meta name="og:description" content="Es necesario reconocer el gran potencial de La Laguna en materia de energías limpias o energías renovables, dado que contamos con importantes ventajas competitivas y comparativas en la rama de energía solar, energía de la biomasa y energía eólica.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/matriz-energetica-lagunera-necesaria-vision-de-futuro/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/matriz-energetica-lagunera-necesaria-vision-de-futuro.html">
+  <title>Matriz energética lagunera: necesaria visión de futuro - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Matriz energética lagunera: necesaria visión de futuro</h1>
+          <div class="encabezado-descripcion" itemprop="description">Es necesario reconocer el gran potencial de La Laguna en materia de energías limpias o energías renovables, dado que contamos con importantes ventajas competitivas y comparativas en la rama de energía solar, energía de la biomasa y energía eólica.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Eduardo Holguín Zehfuss, Lic. Adriana Vargas Flores</span>
+          - <meta itemprop="datePublished" content="2016-09-08T10:25">08/09/2016 10:25
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Matriz energética lagunera: necesaria visión de futuro" src="matriz-energetica-lagunera-necesaria-vision-de-futuro/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>Existe un <strong>amplio interés</strong> de los laguneros y de su gobierno por reconocer el <strong>futuro de nuestra economía en relación a los cambios habidos en la legislación energética.</strong></p>
+
+<p>No podemos omitir el hecho de que <strong>la matriz energética global repercutirá significativamente en la estructura y dinámica de la planta productiva local.</strong></p>
+
+<p>Debemos suponer el impacto de la posible producción de <strong>Gas Shale</strong> en el mediano plazo, en términos de costo ambiental, cadenas de valor, competencias laborales, cadena de suministro, infraestructura y recursos naturales.</p>
+
+<p><strong>Es necesario visualizar un futuro con Gas Shale y sin Gas Shale,</strong> lo que implica planear en el corto, mediano y largo plazo, y definir: estrategias claras, acciones a emprender, regulaciones medio ambientales, urbanas, económicas, sociales, etc.</p>
+
+<p>También <strong>es importante reconocer el gran potencial en materia de energías limpias o energías renovables,</strong> dado que contamos con importantes ventajas competitivas y comparativas en la rama de energía solar, energía de la biomasa y energía eólica. Sin omitir el interés de la grande, mediana y pequeña empresa lagunera por participar en las cadenas de valor y cadenas de suministro relacionadas con la energía limpia.</p>
+
+<p>Señalemos la enorme responsabilidad que tiene esta generación en cuanto a las decisiones que tomemos en materia de producción, distribución, comercialización, tanto de energía no renovable como de la renovable.</p>
+
+<p>El futuro del medio ambiente y las perspectivas de desarrollo y bienestar de nuestra comunidad dependerán de las decisiones que en este momento tomemos, las universidades, el sector privado y el público.</p>
+
+<p>Ahora más que nunca <strong>la universidad debe convertirse en puntal y vector principalísimo del futuro energético de La Laguna.</strong></p>
+
+<p>Debemos duplicar o triplicar el esfuerzo universidad-sociedad-gobierno a favor de la productividad energética y de las competencias laborales de los egresados.</p>
+
+<p>Por todo esto, <strong>desde el IMPLAN felicitamos a Grupo Milenio por la iniciativa de llevar a cabo el segundo Symposium “Realidad Energética 2016”,</strong> mismo que permitirá relacionarnos con destacadas y destacados profesionistas expertos en esta materia, poniendo en la mesa de debate temas de enorme relevancia para el futuro productivo de México, Coahuila y La Laguna.</p>
+
+<h3>Algunas Realidades en materia de energía renovable</h3>
+
+<p><strong>La Laguna y Coahuila se suman a la meta de México: para 2024</strong> de acuerdo con la Secretaría de Energía, <strong>35% de la electricidad producida en nuestro país deberá de provenir de fuentes limpias.</strong></p>
+
+<p>Actualmente en <strong>Coahuila</strong> se desarrolla uno de los proyectos más ambiciosos para la generación de energía renovable en México.</p>
+
+<p>Se trata de la construcción de un <strong>parque solar en el municipio lagunero de Matamoros,</strong>  situado en un terreno de <strong>50 Hectáreas,</strong> donde se instalarán <strong>87.000 módulos de silicio policristalino,</strong> en estructuras fijas.</p>
+
+<p>Contará con una subestación situada en el terreno que elevará la tensión a <strong>115 Kv para la conexión a CFE,</strong> a través de una <strong>línea de alta tensión de 2.2 Km.</strong></p>
+
+<p>La energía generada se suministrará, bajo la modalidad de <strong>Autoabastecimiento, al Gobierno de Coahuila y a los principales municipios del área de La Laguna,</strong> para su utilización en escuelas, dependencias estatales y en alumbrado público municipal. <strong>El costo de la energía será inferior al precio establecido por CFE.</strong></p>
+
+<p>Por otro lado <strong>Peñoles</strong> anunció un proyecto de energía eólica para 2016, en conjunto con una empresa de Portugal, que <strong>generará alrededor de 200 mega watts de electricidad.</strong></p>
+
+<p>En La Laguna ha crecido el número de empresas dedicadas al ramo de energías renovables y sigue presente el interés de firmas extranjeras en venir a invertir en Coahuila y en la Comarca.</p>
+
+<p>Es el caso de una industria de Holanda, dedicada al tratamiento de agua y al aprovechamiento de residuos, que ya abrió filial en Colombia y que desea venir a invertir a la Laguna; de acuerdo con empresarios cercanos a la salud y medio ambiente.</p>
+
+<p><strong>En México</strong> se tienen datos de que únicamente <strong>0.5% de las viviendas particulares habitadas cuenta con paneles solares.</strong> Si aplicamos la tasa en Torreón, de acuerdo con la Encuesta Inter censal del INEGI en 2015, existen 191,890 viviendas habitadas, lo que significa que <strong>sólo alrededor de 959 hogares estarían utilizando esta tecnología.</strong> Esto pone en evidencia una gran área de oportunidad para el mercado lagunero.</p>
+
+<h3>Parque solar en Coahuila</h3>
+
+<p><img class="img-responsive" src="matriz-energetica-lagunera-necesaria-vision-de-futuro/parque-solar-coahuila.jpg" alt="Parque Solar Coahuila en Matamoros"></p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Datos Principales</th>
+  <th align="right">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Potencial nominal instalada en el parque solar</td>
+  <td align="right">19,95 Mw</td>
+</tr>
+<tr>
+  <td>Potencial pico (suma de potencia de paneles) instalada</td>
+  <td align="right">21,46 Mw</td>
+</tr>
+<tr>
+  <td>Energía anual generada en el primer año (kw por año)</td>
+  <td align="right">35,634,000 kwh/año</td>
+</tr>
+<tr>
+  <td>Energía generada en la vida del Parque Solar (kwh en 25 años)</td>
+  <td align="right">805,328,400 kwh</td>
+</tr>
+</tbody>
+</table>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Beneficios Medioambientales</th>
+  <th align="right">Datos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Reducción anual en emisiones de CO2 (Tn por año)</td>
+  <td align="right">25.140 Ton (CO2) / año</td>
+</tr>
+<tr>
+  <td>Reducción en 25 años en emisiones de CO2 (Tn)</td>
+  <td align="right">568.159 Ton (CO2)</td>
+</tr>
+<tr>
+  <td>El CO2 evitado anualmente equivale a las emisiones de</td>
+  <td align="right">5,237 automóviles</td>
+</tr>
+<tr>
+  <td>El CO2 que se evitará emitir en los 25 años de vida del Parque Solar equivale a lo que mite un automóvil que hubiera recorrido</td>
+  <td align="right">97 millones de Km</td>
+</tr>
+<tr>
+  <td>En los 25 años de vida del Parque Solar se habrá evitado generar CO2 equivalente a lo que hubieran absorbido</td>
+  <td align="right">14,568,184 árboles urbanos</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Fuente</h3>
+
+<ul>
+<li><a href="http://www.solarcoahuila.com">www.solarcoahuila.com</a></li>
+</ul>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fmatriz-energetica-lagunera-necesaria-vision-de-futuro.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
