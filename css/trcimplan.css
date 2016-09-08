@@ -398,6 +398,11 @@ a.galeria-icono:active  { color:#FF3300; }
     background-position:-200px 0;
 }
 
+/* Página Inicial avisos */
+.aviso-panel       { margin:4px; border:2px solid #FF3300; }
+.aviso-heading     { background-color:#FFFFFF; }
+.aviso-footer      { background-color:#CACACA; }
+
 /* Página Inicial novedades */
 #novedades {
     background-color:#FFF;

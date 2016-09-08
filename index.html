@@ -187,20 +187,6 @@
       </div>
     </div>
   </section>
-    <div class="panel" style="margin:4px;border:2px solid #FF3300;">
-        <div class="panel-heading" style="background-color:#FFFFFF">
-            <h2><a href="investigaciones/cidac-profesionistas-torreon.html">Profesionistas Torreón</a></h2>
-            <a class="pull-left" href="investigaciones/cidac-profesionistas-torreon.html"><img class="media-object" src="investigaciones/cidac-profesionistas-torreon/imagen-previa.png"></a>
-            <p>Nos adentramos al ámbito local para analizar y contestar la pregunta: ¿existe o no una brecha de talento y competencias en Torreón?.</p> <p>Colaboraron el <b>Centro de Investigación para el Desarrollo, A.C. (CIDAC)</b> y  el <b>Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN)</b> para conocer las dinámicas económicas y de capital humano de la ciudad.</p>
-        </div>
-        <a href="investigaciones/cidac-profesionistas-torreon.html">
-            <div class="panel-footer" style="background-color:#CACACA">
-                <span class="pull-left">Leer la investigación</span>
-                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                <div class="clearfix"></div>
-            </div>
-        </a>
-    </div>
   <section id="novedades">
     <div class="row">
       <div class="col-md-8">
@@ -247,6 +233,35 @@
       <div class="col-md-4">
         <div class="red-social-twitter">
           <a class="twitter-timeline" height="720px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="aviso">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="panel aviso-panel">
+          <div class="panel-heading aviso-heading">
+            <h2><a href="investigaciones/cidac-profesionistas-torreon.html">Profesionistas Torreón</a></h2>
+            <a class="pull-left" href="investigaciones/cidac-profesionistas-torreon.html"><img class="media-object" src="investigaciones/cidac-profesionistas-torreon/imagen-previa.png"></a>
+            <p>Nos adentramos al ámbito local para analizar y contestar la pregunta: ¿existe o no una brecha de talento y competencias en Torreón?.</p> <p>Colaboraron el <b>Centro de Investigación para el Desarrollo, A.C. (CIDAC)</b> y  el <b>Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN)</b> para conocer las dinámicas económicas y de capital humano de la ciudad.</p>
+          </div>
+          <a href="investigaciones/cidac-profesionistas-torreon.html">
+            <div class="panel-footer aviso-footer">
+              <span class="pull-left">Leer la investigación</span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="conciencia-urbana" style="position:relative; top:0; left:0; width:512px; height:512px;">
+          <div u="slides" style="cursor:move; position:absolute; left:0; top:0; width:512px; height:512px; overflow:hidden;">
+            <div><img u="image" src="imagenes/conciencia-urbana-01.jpg"></div>
+            <div><img u="image" src="imagenes/conciencia-urbana-02.jpg"></div>
+          </div>
+          <a style="display:none" href="http://www.jssor.com">Image Slider</a>
         </div>
       </div>
     </div>
@@ -334,7 +349,33 @@
 <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="js/sb-admin-2.js"></script>
 <script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script type="text/javascript" src="js/jssor.slider.min.js"></script>
+<script>
+  // Photo Slider Conciencia Urbana
+  jQuery(document).ready(function ($) {
+    var options = {
+        $AutoPlay: true,
+        $ChanceToShow: 5,
+        $DragOrientation: 1,
+        $AutoPlayInterval: 12000
+    };
+    var jssor_slider1 = new $JssorSlider$("conciencia-urbana", options);
+    function ScaleSlider() {
+        var parentWidth = $('#conciencia-urbana').parent().width();
+        if (parentWidth) {
+            jssor_slider1.$ScaleWidth(parentWidth);
+        }
+        else
+            window.setTimeout(ScaleSlider, 30);
+    }
+    ScaleSlider();
+    $(window).bind("load", ScaleSlider);
+    $(window).bind("resize", ScaleSlider);
+    $(window).bind("orientationchange", ScaleSlider);
+  });
 </script>
 <script>
   // Google Analytics

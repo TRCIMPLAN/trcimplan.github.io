@@ -166,20 +166,66 @@ class PaginaInicialConfig extends \Base\Plantilla {
      * Aviso
      */
     protected function aviso() {
-        $this->contenido[] = '    <div class="panel" style="margin:4px;border:2px solid #FF3300;">';
-        $this->contenido[] = '        <div class="panel-heading" style="background-color:#FFFFFF">';
+        $this->contenido[] = '  <section id="aviso">';
+        $this->contenido[] = '    <div class="row">';
+        $this->contenido[] = '      <div class="col-md-8">';
+        //
+        $this->contenido[] = '        <div class="panel aviso-panel">';
+        $this->contenido[] = '          <div class="panel-heading aviso-heading">';
         $this->contenido[] = '            <h2><a href="investigaciones/cidac-profesionistas-torreon.html">Profesionistas Torreón</a></h2>';
         $this->contenido[] = '            <a class="pull-left" href="investigaciones/cidac-profesionistas-torreon.html"><img class="media-object" src="investigaciones/cidac-profesionistas-torreon/imagen-previa.png"></a>';
         $this->contenido[] = '            <p>Nos adentramos al ámbito local para analizar y contestar la pregunta: ¿existe o no una brecha de talento y competencias en Torreón?.</p> <p>Colaboraron el <b>Centro de Investigación para el Desarrollo, A.C. (CIDAC)</b> y  el <b>Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN)</b> para conocer las dinámicas económicas y de capital humano de la ciudad.</p>';
-        $this->contenido[] = '        </div>';
-        $this->contenido[] = '        <a href="investigaciones/cidac-profesionistas-torreon.html">';
-        $this->contenido[] = '            <div class="panel-footer" style="background-color:#CACACA">';
-        $this->contenido[] = '                <span class="pull-left">Leer la investigación</span>';
-        $this->contenido[] = '                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>';
-        $this->contenido[] = '                <div class="clearfix"></div>';
+        $this->contenido[] = '          </div>';
+        $this->contenido[] = '          <a href="investigaciones/cidac-profesionistas-torreon.html">';
+        $this->contenido[] = '            <div class="panel-footer aviso-footer">';
+        $this->contenido[] = '              <span class="pull-left">Leer la investigación</span>';
+        $this->contenido[] = '              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>';
+        $this->contenido[] = '              <div class="clearfix"></div>';
         $this->contenido[] = '            </div>';
-        $this->contenido[] = '        </a>';
+        $this->contenido[] = '          </a>';
+        $this->contenido[] = '        </div>';
+        //
+        $this->contenido[] = '      </div>';
+        $this->contenido[] = '      <div class="col-md-4">';
+        //
+    //  $this->contenido[] = '        <img class="conciencia-urbana" src="imagenes/conciencia-urbana-01.jpg" alt="Conciencia Ciudadana 01">';
+        $this->contenido[] = '        <div id="conciencia-urbana" style="position:relative; top:0; left:0; width:512px; height:512px;">';
+        $this->contenido[] = '          <div u="slides" style="cursor:move; position:absolute; left:0; top:0; width:512px; height:512px; overflow:hidden;">';
+        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-01.jpg"></div>';
+        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-02.jpg"></div>';
+        $this->contenido[] = '          </div>';
+        $this->contenido[] = '          <a style="display:none" href="http://www.jssor.com">Image Slider</a>';
+        $this->contenido[] = '        </div>';
+        //
+        $this->contenido[] = '      </div>';
         $this->contenido[] = '    </div>';
+        $this->contenido[] = '  </section>';
+        //
+        $this->javascript[] = '<script type="text/javascript" src="js/jssor.slider.min.js"></script>';
+        $this->javascript[] = <<<FINAL
+  // Photo Slider Conciencia Urbana
+  jQuery(document).ready(function ($) {
+    var options = {
+        \$AutoPlay: true,
+        \$ChanceToShow: 5,
+        \$DragOrientation: 1,
+        \$AutoPlayInterval: 12000
+    };
+    var jssor_slider1 = new \$JssorSlider$("conciencia-urbana", options);
+    function ScaleSlider() {
+        var parentWidth = $('#conciencia-urbana').parent().width();
+        if (parentWidth) {
+            jssor_slider1.\$ScaleWidth(parentWidth);
+        }
+        else
+            window.setTimeout(ScaleSlider, 30);
+    }
+    ScaleSlider();
+    $(window).bind("load", ScaleSlider);
+    $(window).bind("resize", ScaleSlider);
+    $(window).bind("orientationchange", ScaleSlider);
+  });
+FINAL;
     } // aviso
 
     /**
@@ -232,7 +278,10 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[]  = '        <div class="red-social-twitter">';
         $this->contenido[]  = '          <a class="twitter-timeline" height="720px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>';
         $this->contenido[]  = '        </div>';
-        $this->javascript[] = '!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?\'http\':\'https\';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");';
+        $this->javascript[] = <<<FINAL
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+FINAL;
         // Twitter Timeline Termina
         $this->contenido[]  = '      </div>';
         $this->contenido[]  = '    </div>';
@@ -306,8 +355,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->organizacion();
         $this->destacado();
     //~ $this->promociones();
-        $this->aviso();
         $this->novedades();
+        $this->aviso();
         $this->mapa();
         $this->redes();
         // Entregar resultado del método en el padre
