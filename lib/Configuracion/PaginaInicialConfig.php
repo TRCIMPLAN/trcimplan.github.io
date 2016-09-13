@@ -169,7 +169,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[] = '  <section id="aviso">';
         $this->contenido[] = '    <div class="row">';
         $this->contenido[] = '      <div class="col-md-8">';
-        //
+        // Inicia Aviso CIDAC Profesionistas Torreon
         $this->contenido[] = '        <div class="panel aviso-panel">';
         $this->contenido[] = '          <div class="panel-heading aviso-heading">';
         $this->contenido[] = '            <h2><a href="investigaciones/cidac-profesionistas-torreon.html">Profesionistas Torreón</a></h2>';
@@ -184,23 +184,24 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[] = '            </div>';
         $this->contenido[] = '          </a>';
         $this->contenido[] = '        </div>';
-        //
+        // Termina Aviso CIDAC Profesionistas Torreon
         $this->contenido[] = '      </div>';
         $this->contenido[] = '      <div class="col-md-4">';
-        //
-    //  $this->contenido[] = '        <img class="conciencia-urbana" src="imagenes/conciencia-urbana-01.jpg" alt="Conciencia Ciudadana 01">';
+        // Inicia Infografías Conciencia Urbana
         $this->contenido[] = '        <div id="conciencia-urbana" style="position:relative; top:0; left:0; width:512px; height:512px;">';
         $this->contenido[] = '          <div u="slides" style="cursor:move; position:absolute; left:0; top:0; width:512px; height:512px; overflow:hidden;">';
         $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-01.jpg"></div>';
         $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-02.jpg"></div>';
+        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-03.jpg"></div>';
+        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-04.jpg"></div>';
         $this->contenido[] = '          </div>';
         $this->contenido[] = '          <a style="display:none" href="http://www.jssor.com">Image Slider</a>';
         $this->contenido[] = '        </div>';
-        //
+        // Termina Infografías Conciencia Urbana
         $this->contenido[] = '      </div>';
         $this->contenido[] = '    </div>';
         $this->contenido[] = '  </section>';
-        //
+        // Javascript
         $this->javascript[] = '<script type="text/javascript" src="js/jssor.slider.min.js"></script>';
         $this->javascript[] = <<<FINAL
   // Photo Slider Conciencia Urbana
@@ -209,16 +210,16 @@ class PaginaInicialConfig extends \Base\Plantilla {
         \$AutoPlay: true,
         \$ChanceToShow: 5,
         \$DragOrientation: 1,
-        \$AutoPlayInterval: 12000
+        \$AutoPlayInterval: 8000
     };
     var jssor_slider1 = new \$JssorSlider$("conciencia-urbana", options);
     function ScaleSlider() {
         var parentWidth = $('#conciencia-urbana').parent().width();
         if (parentWidth) {
             jssor_slider1.\$ScaleWidth(parentWidth);
-        }
-        else
+        } else {
             window.setTimeout(ScaleSlider, 30);
+        }
     }
     ScaleSlider();
     $(window).bind("load", ScaleSlider);
