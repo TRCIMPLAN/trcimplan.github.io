@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El Índice de Competitividad Urbana (ICU) 2016 presentado por el Instituto Mexicano para la Competitividad (IMCO), muestra que La Zona Metropolitana de la laguna recupero 24 puestos en competitividad.">
+  <meta name="author" content="Lic. Rodrigo González Morales, Lic. Luis A. Gutiérrez Arizpe">
+  <meta name="keywords" content="IMPLAN, Torreon, IMCO, ICU, Competitividad, Urbana, La Laguna">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La Laguna recupera competitividad - IMPLAN Torreón">
+  <meta name="twitter:description" content="El Índice de Competitividad Urbana (ICU) 2016 presentado por el Instituto Mexicano para la Competitividad (IMCO), muestra que La Zona Metropolitana de la laguna recupero 24 puestos en competitividad.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/la-laguna-recupera-competitividad/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/la-laguna-recupera-competitividad.html">
+  <meta name="og:title" content="La Laguna recupera competitividad - IMPLAN Torreón">
+  <meta name="og:description" content="El Índice de Competitividad Urbana (ICU) 2016 presentado por el Instituto Mexicano para la Competitividad (IMCO), muestra que La Zona Metropolitana de la laguna recupero 24 puestos en competitividad.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/la-laguna-recupera-competitividad/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/la-laguna-recupera-competitividad.html">
+  <title>La Laguna recupera competitividad - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.M.I.</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al S.I.G.</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> S.I.G. de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">La Laguna recupera competitividad</h1>
+          <div class="encabezado-descripcion" itemprop="description">El Índice de Competitividad Urbana (ICU) 2016 presentado por el Instituto Mexicano para la Competitividad (IMCO), muestra que La Zona Metropolitana de la laguna recupero 24 puestos en competitividad.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Rodrigo González Morales, Lic. Luis A. Gutiérrez Arizpe</span>
+          - <meta itemprop="datePublished" content="2016-09-13T16:25">13/09/2016 16:25
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="La Laguna recupera competitividad" src="la-laguna-recupera-competitividad/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p><em>El Índice de Competitividad Urbana (ICU) presentado la semana anterior por el Instituto Mexicano para la Competitividad (IMCO), muestra que La Zona Metropolitana de la laguna recupero 24 puestos en competitividad, estando entre las 6 de 74 ciudades que más mejoraron en 2 años . Los 120 indicadores que componen el Índice nos muestran avances significativos como ciudad a la vez que nos ayudan a detectar los retos para que la Laguna regrese pronto a estar entre as ciudades más competitivas del País.</em></p>
+
+<p>El <strong>Índice de competitividad Urbana (ICU) 2016</strong> compara a 74 zonas metropolitanas que abarcan 367 en México a través de diez subíndices y 120 indicadores. La información comparable corresponde al año 2014. La <strong>Zona Metropolitana de La Laguna</strong> compuesta por Torreón, Gómez Palacio, Lerdo y Matamoros <strong>pasó del lugar 48 en el ICU 2014 al lugar 24</strong> en competitividad de las 74 metrópolis consideradas, pasando así de ser considerada como de competitividad <strong>media baja</strong> a <strong>media alta.</strong></p>
+
+<p>La Zona Metropolitana de la Laguna, pertenece a las 13 ciudades en la categoría de <strong>más de un millón de habitantes,</strong> dentro de estas ciudades <strong>La Laguna ocupa el primer lugar en tres indicadores:</strong></p>
+
+<ul>
+<li><strong>Ejecución de contratos,</strong> medido por el número promedio de días requerido para la ejecución de contratos de negocios, cuya fuente es Doing Business.</li>
+<li><strong>Contribución laboral asociada al trabajo,</strong> qué mide la contribución del factor trabajo al crecimiento económico de los municipios, estimada por el propio IMCO con cifras de los Censos Económicos de INEGI, 2008 y 2013.</li>
+<li><strong>Tiempos de traslado,</strong> medido como la proporción de personas que hacen viajes menores a 30 minutos para ir a la escuela o el trabajo, indicador proveniente de la Encuesta Intercensal, 2015.</li>
+</ul>
+
+<p><strong>De los 120 indicadores, La Laguna muestra avance en 53, mientras 28 permancen igual y 39 tienen algún grado de retroceso.</strong> En este sentido el balance es claramente positivo. Lo indicadores están distribuidos en 10 subíndices. Los datos de cada indicador tienen una valoración que va desde el 1.0 como ponderación más alta al 0.1 como la más baja, es decir no todos los indicadores inciden igual en la competitividad.</p>
+
+<p>En <strong>Derecho</strong> la ZML tuvo avance en 6 de 8 indicadores. De los indicadores que representaron un avance destacan dos de alto valor: Monto reportado en robo de mercancías y Ejecución de contratos, en donde se escalaron 21 y 1 posiciones. Cabe destacar que hubo una reducción significativa en Tasa de homicidios en poco mayor a 3 veces comparado a 2012.</p>
+
+<p>En <strong>Medio Ambiente</strong> se miden 15 indicadores de los cuales se escaló en 5, de éstos; 2 son de alto valor. Disponibilidad de acuíferos e Intensidad energética en la economía con avances de 6 y 2 lugares. La ZML se ubica en el 6to lugar en este subíndice contabilizando todos los indicadores. El Consumo de agua mejoró en general en todas las ZM. En La Laguna se avanzó un lugar.</p>
+
+<p>En <strong>Sociedad</strong> se tuvo avance en más de la mitad de los indicadores, destacando dos de valor alto: Mujeres que estudian con 10 espacios avanzados, Viviendas con piso de tierra con 15. Mortalidad por diabetes y enfermedades hipertensivas mejora 4 lugares, aunque Mortalidad infantil cae 18 y la Tasa de suicidios mejora en 4 espacios.</p>
+
+<p>En <strong>Política</strong> se avanzó en 2 de 8 y manteniéndose estático en 5 . El que tuvo mejoría es Organizaciones de la sociedad civil con un lugar más alto. Y Participación ciudadana con 7.</p>
+
+<p>En <strong>Gobierno</strong> se tuvo un avance en 7 de 17 indicadores. Dos de los indicadores con alto peso que mostraron un avance notorio son Índice de información presupuestal (38) y Registro de una propiedad (4).</p>
+
+<p>En <strong>Mercado de factores</strong> se avanzó en 4 de 11 indicadores, destacando Salario mensual para trabajadores de tiempo completo con 28, Contribución laboral con 30 espacios. De los de alta ponderación, se mejoró en Población ocupada sin ingresos en 12 escalones.</p>
+
+<p>En <strong>Economía</strong> se aumenta posiciones en 4 de 9 indicadores, destacando Sectores que han presentado alto crecimiento (5). Deuda municipal mostró mejoras avanzando 6 lugares. Este último es de alto valor. El Desempleo se encuentra mejor posicionado con mejora en 9 lugares.</p>
+
+<p>En <strong>Precursores</strong> se avanza en 4 de 14, siendo Hogares con líneas telefónicas móviles con 9 y Aerolíneas con 6, ambos tienen una ponderación media.</p>
+
+<p>En <strong>Relaciones Internacionales</strong> se avanzó en un indicador de alto valor dentro del subíndice: Oferta hotelera con 5 lugares.</p>
+
+<p>En <strong>Innovación</strong> se obtuvieron mejores lugares a comparación de 2012, mostrando avances en el ranking en 4 de 9 indicadores, destacando Empresas con 3 lugares y PIB en sectores de innovación con 2. Este último de alto valor. También hubo avance en Posgrados de calidad con 3 lugares.</p>
+
+<h3>Ciudades con más avance relativo a 2016 respecto al ICU publicado en 2014:</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th align="right">No.</th>
+  <th>Ciudad</th>
+  <th align="center">Posición 2016</th>
+  <th align="center">Posición 2014</th>
+  <th align="center">Diferencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="right">1</td>
+  <td>Celaya</td>
+  <td align="center">26</td>
+  <td align="center">60</td>
+  <td align="center">+34</td>
+</tr>
+<tr>
+  <td align="right">2</td>
+  <td>Nuevo Laredo</td>
+  <td align="center">41</td>
+  <td align="center">74</td>
+  <td align="center">+33</td>
+</tr>
+<tr>
+  <td align="right">3</td>
+  <td>San Francisco del Rincón</td>
+  <td align="center">44</td>
+  <td align="center">72</td>
+  <td align="center">+28</td>
+</tr>
+<tr>
+  <td align="right">4</td>
+  <td>Durango</td>
+  <td align="center">9</td>
+  <td align="center">36</td>
+  <td align="center">+27</td>
+</tr>
+<tr>
+  <td align="right">5</td>
+  <td>Juárez</td>
+  <td align="center">17</td>
+  <td align="center">43</td>
+  <td align="center">+26</td>
+</tr>
+<tr>
+  <td align="right">6</td>
+  <td>La Laguna</td>
+  <td align="center">24</td>
+  <td align="center">48</td>
+  <td align="center">+24</td>
+</tr>
+<tr>
+  <td align="right">7</td>
+  <td>Irapuato</td>
+  <td align="center">33</td>
+  <td align="center">57</td>
+  <td align="center">+24</td>
+</tr>
+<tr>
+  <td align="right">8</td>
+  <td>Tehuacán</td>
+  <td align="center">45</td>
+  <td align="center">68</td>
+  <td align="center">+23</td>
+</tr>
+<tr>
+  <td align="right">9</td>
+  <td>León</td>
+  <td align="center">20</td>
+  <td align="center">40</td>
+  <td align="center">+20</td>
+</tr>
+<tr>
+  <td align="right">10</td>
+  <td>Rioverde-Ciudad Fernández</td>
+  <td align="center">57</td>
+  <td align="center">75</td>
+  <td align="center">+18</td>
+</tr>
+</tbody>
+</table>
+
+<h3>La Zona Metropolitana de La Laguna por Subíndice de Competitividad</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Índice de Competitividad Urbana</th>
+  <th align="center">2016</th>
+  <th align="center">2014</th>
+  <th align="center">Variación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>GENERAL</td>
+  <td align="center">24</td>
+  <td align="center">48</td>
+  <td align="center">24</td>
+</tr>
+<tr>
+  <td>Derecho</td>
+  <td align="center">55</td>
+  <td align="center">73</td>
+  <td align="center">18</td>
+</tr>
+<tr>
+  <td>Medio Ambiente</td>
+  <td align="center">6</td>
+  <td align="center">57</td>
+  <td align="center">51</td>
+</tr>
+<tr>
+  <td>Sociedad</td>
+  <td align="center">34</td>
+  <td align="center">59</td>
+  <td align="center">25</td>
+</tr>
+<tr>
+  <td>Sistema Político</td>
+  <td align="center">30</td>
+  <td align="center">50</td>
+  <td align="center">20</td>
+</tr>
+<tr>
+  <td>Gobiernos</td>
+  <td align="center">27</td>
+  <td align="center">49</td>
+  <td align="center">22</td>
+</tr>
+<tr>
+  <td>Mercado de factores</td>
+  <td align="center">8</td>
+  <td align="center">3</td>
+  <td align="center">-5</td>
+</tr>
+<tr>
+  <td>Economía estable</td>
+  <td align="center">17</td>
+  <td align="center">42</td>
+  <td align="center">25</td>
+</tr>
+<tr>
+  <td>Precursores</td>
+  <td align="center">56</td>
+  <td align="center">38</td>
+  <td align="center">-18</td>
+</tr>
+<tr>
+  <td>Relaciones Internacionales</td>
+  <td align="center">31</td>
+  <td align="center">26</td>
+  <td align="center">-5</td>
+</tr>
+<tr>
+  <td>Innovación</td>
+  <td align="center">50</td>
+  <td align="center">27</td>
+  <td align="center">-23</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Competitividad 2016 ZML</h3>
+
+<p><img class="img-responsive" src="la-laguna-recupera-competitividad/comparativa-competitividad-2014-2016-zml.png" alt="Comparativa Competitividad 2014 2016 de la Zona Metropolitana de La Laguna"></p>
+
+<h3>ICU 2016 Resultados Generales</h3>
+
+<p><img class="img-responsive" src="la-laguna-recupera-competitividad/icu-2016-resultados-generales.jpg" alt="IMCO ICU 2016 Resultados Generales"></p>
+
+<h3>ICU 2016 Top 10</h3>
+
+<p><img class="img-responsive" src="la-laguna-recupera-competitividad/icu-2016-top-10.jpg" alt="IMCO ICU 2016 Top 10"></p>
+
+<h3>Más información en...</h3>
+
+<ul>
+<li><a href="http://imco.org.mx/indices/#!/reeleccion-municipal-y-rendicion-de-cuentas">IMCO - Índice de Competitividad Urbana 2016</a></li>
+</ul>
+
+<h3>Este análisis fue publicado en Milenio Laguna</h3>
+
+<ul>
+<li><a href="http://www.milenio.com/region/Milenio_Noticias-Nuestra_Metropoli_desde_el_IMPLAN-IMPLAN_Torreon-Competitividad_0_809919040.html">La Laguna recupera competitividad</a></li>
+</ul>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fla-laguna-recupera-competitividad.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
