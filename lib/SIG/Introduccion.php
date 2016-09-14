@@ -46,7 +46,7 @@ class Introduccion extends \Base\Publicacion {
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML.
         $this->directorio       = 'sig';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu      = 'Información Geográfica > Introducción al S.I.G.';
+        $this->nombre_menu      = 'Información Geográfica > Introducción al SIG';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook

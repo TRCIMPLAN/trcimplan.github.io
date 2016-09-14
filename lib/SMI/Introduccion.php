@@ -46,7 +46,7 @@ class Introduccion extends \Base\Publicacion {
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio       = 'smi';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu      = 'Indicadores > Introducción al S.M.I.';
+        $this->nombre_menu      = 'Indicadores > Introducción al SMI';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook

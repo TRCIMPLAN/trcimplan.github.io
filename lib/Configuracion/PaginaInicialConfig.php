@@ -66,7 +66,6 @@ class PaginaInicialConfig extends \Base\Plantilla {
     public $mapa_interaccion   = array(
         'Contacto'                          => 'contacto/contacto.html',
         'Preguntas Frecuentes'              => 'preguntas-frecuentes/preguntas-frecuentes.html',
-        'Eventos'                           => 'eventos/index.html',
         'Sala de Prensa'                    => 'sala-prensa/index.html',
         'Comentarios y Sugerencias'         => 'http://goo.gl/forms/1rdX4X128PpMOif73');
     public $mapa_legal         = array(
