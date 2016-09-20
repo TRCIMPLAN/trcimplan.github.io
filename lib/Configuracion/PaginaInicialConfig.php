@@ -193,6 +193,8 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-02.jpg"></div>';
         $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-03.jpg"></div>';
         $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-04.jpg"></div>';
+        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-05.jpg"></div>';
+        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-06.jpg"></div>';
         $this->contenido[] = '          </div>';
         $this->contenido[] = '          <a style="display:none" href="http://www.jssor.com">Image Slider</a>';
         $this->contenido[] = '        </div>';
