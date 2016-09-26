@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class SeguridadTasaDeRoboDeVehiculoSinViolencia extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Tasa de Robo de Vehículo Sin Violencia en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-04-29T14:06';
+        $this->fecha             = '2015-04-29T14:06:44';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'seguridad-tasa-de-robo-de-vehiculo-sin-violencia';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

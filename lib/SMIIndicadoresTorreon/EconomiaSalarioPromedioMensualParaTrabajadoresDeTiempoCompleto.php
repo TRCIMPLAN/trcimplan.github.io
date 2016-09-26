@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \Ba
         // Título, autor y fecha
         $this->nombre            = 'Salario Promedio Mensual para Trabajadores de Tiempo Completo en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T14:29';
+        $this->fecha             = '2015-07-14T14:29:58';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
@@ -71,7 +71,7 @@ class EconomiaSalarioPromedioMensualParaTrabajadoresDeTiempoCompleto extends \Ba
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Índice de Competitividad Urbana', 'Empleo');
-        $this->fuentes           = array('Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos', 'IMCO');
+        $this->fuentes           = array('IMCO', 'Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos');
         $this->regiones          = 'Torreón';
     } // constructor
 

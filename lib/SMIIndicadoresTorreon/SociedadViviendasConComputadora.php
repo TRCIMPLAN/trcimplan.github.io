@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Viviendas con Computadora en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2014-10-21T16:19:49';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-viviendas-con-computadora';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
@@ -71,7 +71,7 @@ class SociedadViviendasConComputadora extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Índice de Competitividad Urbana', 'Vivienda');
-        $this->fuentes           = array('INEGI', 'IMCO');
+        $this->fuentes           = array('IMCO', 'INEGI');
         $this->regiones          = 'Torreón';
     } // constructor
 

@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class SociedadViviendasConDrenajeSoloConexionARedPublica extends \Base\Publicaci
         // Título, autor y fecha
         $this->nombre            = 'Viviendas con Drenaje (sólo conexión a red pública) en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T15:23';
+        $this->fecha             = '2015-07-14T15:23:56';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-viviendas-con-drenaje-solo-conexion-a-red-publica';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

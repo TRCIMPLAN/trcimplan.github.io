@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLerdo;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaTasaDeInformalidad extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Tasa de Informalidad en Lerdo';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-12-11T13:00';
+        $this->fecha             = '2014-12-11T13:00:58';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-tasa-de-informalidad';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

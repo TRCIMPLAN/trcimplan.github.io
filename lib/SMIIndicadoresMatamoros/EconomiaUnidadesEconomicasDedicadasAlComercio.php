@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaUnidadesEconomicasDedicadasAlComercio extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Unidades Económicas Dedicadas al Comercio en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2014-10-21T16:19:49';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-unidades-economicas-dedicadas-al-comercio';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

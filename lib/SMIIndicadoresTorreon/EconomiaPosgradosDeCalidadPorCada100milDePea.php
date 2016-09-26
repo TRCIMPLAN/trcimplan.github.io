@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaPosgradosDeCalidadPorCada100milDePea extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Posgrados de Calidad (por cada 100mil de PEA) en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T15:42';
+        $this->fecha             = '2015-07-14T15:42:27';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-posgrados-de-calidad-por-cada-100mil-de-pea';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

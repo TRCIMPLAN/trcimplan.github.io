@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaOfertaDeCuartosDeHotelDeCuatroYCincoEstrellas extends \Base\Public
         // Título, autor y fecha
         $this->nombre            = 'Oferta de Cuartos de Hotel de Cuatro y Cinco Estrellas en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T15:16';
+        $this->fecha             = '2015-07-14T15:16:02';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-oferta-de-cuartos-de-hotel-de-cuatro-y-cinco-estrellas';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

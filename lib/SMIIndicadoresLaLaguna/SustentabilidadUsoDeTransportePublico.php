@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLaLaguna;
 
 /**
@@ -34,7 +34,7 @@ class SustentabilidadUsoDeTransportePublico extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Uso de Transporte Público en La Laguna';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-11-10T10:21';
+        $this->fecha             = '2014-11-10T10:21:34';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-uso-de-transporte-publico';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

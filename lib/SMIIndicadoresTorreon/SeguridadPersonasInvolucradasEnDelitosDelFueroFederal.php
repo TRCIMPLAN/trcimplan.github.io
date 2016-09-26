@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class SeguridadPersonasInvolucradasEnDelitosDelFueroFederal extends \Base\Public
         // Título, autor y fecha
         $this->nombre            = 'Personas Involucradas en Delitos del Fuero Federal en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-04-29T15:10';
+        $this->fecha             = '2015-04-29T15:10:39';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'seguridad-personas-involucradas-en-delitos-del-fuero-federal';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

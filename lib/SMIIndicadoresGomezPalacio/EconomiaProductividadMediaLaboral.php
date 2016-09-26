@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresGomezPalacio;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaProductividadMediaLaboral extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Productividad Media Laboral en Gómez Palacio';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T14:36';
+        $this->fecha             = '2015-07-14T14:36:51';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-productividad-media-laboral';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

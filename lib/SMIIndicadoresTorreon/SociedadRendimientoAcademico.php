@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class SociedadRendimientoAcademico extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Rendimiento Académico en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T14:48';
+        $this->fecha             = '2015-07-14T14:48:28';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-rendimiento-academico';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

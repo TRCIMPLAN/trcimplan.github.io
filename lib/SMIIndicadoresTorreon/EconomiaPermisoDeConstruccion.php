@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaPermisoDeConstruccion extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Permiso de Construcción en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2014-10-21T16:19:49';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-permiso-de-construccion';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
@@ -120,6 +120,12 @@ Los Indicadores complementarios en permiso de construcción fueron los siguiente
 Procedimientos (número) = 13 ; 
 Costo (% de ingreso per cápita) = 40,6</td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>94</td>
+            <td>Doing Business</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Días.</p>
@@ -148,7 +154,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 }],
+      data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 },{ fecha: '2015-12-31', dato: 94 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -208,6 +214,12 @@ FINAL;
 Los Indicadores complementarios en permiso de construcción fueron los siguientes para Torreón: 
 Procedimientos (número) = 13 ; 
 Costo (% de ingreso per cápita) = 40,6</td>
+          </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>94</td>
+            <td>Doing Business</td>
+            <td></td>
           </tr>
         </tbody>
       </table>

@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaPoblacionOcupadaSinIngresos extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Población Ocupada Sin Ingresos en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T14:39';
+        $this->fecha             = '2015-07-14T14:39:39';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-poblacion-ocupada-sin-ingresos';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

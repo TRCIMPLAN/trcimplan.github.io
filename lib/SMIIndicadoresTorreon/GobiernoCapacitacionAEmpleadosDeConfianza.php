@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class GobiernoCapacitacionAEmpleadosDeConfianza extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Capacitación a Empleados de Confianza en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T17:48';
+        $this->fecha             = '2015-07-14T17:48:01';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'gobierno-capacitacion-a-empleados-de-confianza';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

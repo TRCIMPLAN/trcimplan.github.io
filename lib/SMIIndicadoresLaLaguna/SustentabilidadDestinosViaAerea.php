@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLaLaguna;
 
 /**
@@ -34,7 +34,7 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Destinos Vía Aérea en La Laguna';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2014-10-21T16:19:49';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-destinos-via-aerea';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
@@ -130,10 +130,10 @@ class SustentabilidadDestinosViaAerea extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2015-06-30</td>
-            <td>7</td>
+            <td>2016-08-25</td>
+            <td>11</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
-            <td></td>
+            <td>Se incluyen: Chihuahua, Chih.- CDMX- Guadalajara, Jal.- Hermosillo, Son.- Monterrey, N.L.- Tijuana, B.C.- Bajío- Ciudad Juárez, Chih.- Manzanillo, Col.- Mazatlán, Sin.- Dallas, Tx.</td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -186,7 +186,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 7 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 7 }],
+      data: [{ region: 'Torreón', dato: 11 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 7 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

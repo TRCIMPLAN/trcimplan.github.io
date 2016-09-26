@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLerdo;
 
 /**
@@ -34,7 +34,7 @@ class SustentabilidadCapacidadDeTratamientoDeAguaEnOperacion extends \Base\Publi
         // Título, autor y fecha
         $this->nombre            = 'Capacidad de Tratamiento de Agua en Operación en Lerdo';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2014-10-21T16:19:49';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-capacidad-de-tratamiento-de-agua-en-operacion';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

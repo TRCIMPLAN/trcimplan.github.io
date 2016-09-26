@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLerdo;
 
 /**
@@ -34,7 +34,7 @@ class SeguridadTasaDeExtorsion extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Tasa de Extorsión en Lerdo';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-04-29T14:02';
+        $this->fecha             = '2015-04-29T14:02:12';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'seguridad-tasa-de-extorsion';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

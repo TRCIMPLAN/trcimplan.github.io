@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaTasaDeCondicionesCriticasDeOcupacion extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Tasa de Condiciones Críticas de Ocupación en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2016-07-04T13:01';
+        $this->fecha             = '2016-07-04T13:01:06';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-tasa-de-condiciones-criticas-de-ocupacion';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

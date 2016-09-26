@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLaLaguna;
 
 /**
@@ -34,7 +34,7 @@ class SociedadViviendasConPisoDeTierra extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Viviendas con Piso de Tierra en La Laguna';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T15:25';
+        $this->fecha             = '2015-07-14T15:25:45';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-viviendas-con-piso-de-tierra';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

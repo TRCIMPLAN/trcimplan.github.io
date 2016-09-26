@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLaLaguna;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaEjecucionDeContratos extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Ejecución de Contratos en La Laguna';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2014-10-21T16:19:49';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-ejecucion-de-contratos';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
@@ -159,14 +159,10 @@ class EconomiaEjecucionDeContratos extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2013-10-31</td>
-            <td>270</td>
+            <td>2015-12-31</td>
+            <td>200</td>
             <td>Doing Business</td>
-            <td>Dato obtenido del estudio elaborado por Doing Business de octubre de 2011 a octubre de 2013 y publicado en su reporte Doing Business en México 2014. 
-
-Los Indicadores complementarios en ejecución de contratos fueron los siguientes para Torreón: 
-Procedimientos (número) = 37 ; 
-Costo (% de cantidad demandada) = 27,9</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
@@ -235,7 +231,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 270 },{ region: 'Gómez Palacio', dato: 243 },{ region: 'Lerdo', dato: 243 },{ region: 'Matamoros', dato: 270 },{ region: 'La Laguna', dato: 256.5000 }],
+      data: [{ region: 'Torreón', dato: 200 },{ region: 'Gómez Palacio', dato: 243 },{ region: 'Lerdo', dato: 243 },{ region: 'Matamoros', dato: 270 },{ region: 'La Laguna', dato: 256.5000 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

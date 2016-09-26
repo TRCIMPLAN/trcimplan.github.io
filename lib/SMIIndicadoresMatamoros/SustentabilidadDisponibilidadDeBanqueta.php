@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class SustentabilidadDisponibilidadDeBanqueta extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Disponibilidad de Banqueta en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-11-24T15:58';
+        $this->fecha             = '2014-11-24T15:58:10';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-disponibilidad-de-banqueta';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class SustentabilidadPasajerosAereosInternacionalesMensuales extends \Base\Publi
         // Título, autor y fecha
         $this->nombre            = 'Pasajeros Aéreos Internacionales Mensuales en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-05-20T16:23';
+        $this->fecha             = '2015-05-20T16:23:28';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-pasajeros-aereos-internacionales-mensuales';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

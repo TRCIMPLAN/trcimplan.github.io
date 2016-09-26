@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaInflacionAnual extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Inflación Anual en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-02-09T12:19';
+        $this->fecha             = '2015-02-09T12:19:43';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-inflacion-anual';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

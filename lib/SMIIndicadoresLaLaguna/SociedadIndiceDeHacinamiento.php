@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLaLaguna;
 
 /**
@@ -34,7 +34,7 @@ class SociedadIndiceDeHacinamiento extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Índice de Hacinamiento en La Laguna';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-11-24T15:42';
+        $this->fecha             = '2014-11-24T15:42:09';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-indice-de-hacinamiento';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

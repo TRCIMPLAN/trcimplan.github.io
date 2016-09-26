@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class SociedadMujeresEnLaFuerzaLaboral extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Mujeres en la Fuerza Laboral en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T15:45';
+        $this->fecha             = '2015-07-14T15:45:57';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-mujeres-en-la-fuerza-laboral';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

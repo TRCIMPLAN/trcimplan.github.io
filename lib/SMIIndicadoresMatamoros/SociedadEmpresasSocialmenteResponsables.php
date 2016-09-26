@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Matamoros Sociedad Empresa Socialmente Responsable (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Matamoros Sociedad Empresas Socialmente Responsables (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,26 +17,26 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
- * Clase SociedadEmpresaSocialmenteResponsable
+ * Clase SociedadEmpresasSocialmenteResponsables
  */
-class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
+class SociedadEmpresasSocialmenteResponsables extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Empresa Socialmente Responsable en Matamoros';
+        $this->nombre            = 'Empresas Socialmente Responsables en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T14:42';
+        $this->fecha             = '2015-07-14T14:42:02';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'sociedad-empresa-socialmente-responsable';
+        $this->archivo           = 'sociedad-empresas-socialmente-responsables';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -71,7 +71,7 @@ class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Índice de Competitividad Urbana', 'Empresas');
-        $this->fuentes           = array('Centro Mexicano para la Filantropía (Cemefi)', 'IMCO');
+        $this->fuentes           = array('IMCO', 'Centro Mexicano para la Filantropía (Cemefi)');
         $this->regiones          = 'Matamoros';
     } // constructor
 
@@ -145,13 +145,13 @@ class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica-1">
-      <h3>Gráfica de Empresa Socialmente Responsable en Matamoros con fuente IMCO</h3>
+      <h3>Gráfica de Empresas Socialmente Responsables en Matamoros con fuente IMCO</h3>
       <div id="graficaDatosImco" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Empresa Socialmente Responsable</h3>
+      <h3>Gráfica con los últimos datos de Empresas Socialmente Responsables</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Empresa Socialmente Responsable</h3>
+      <h3>Últimos datos de Empresas Socialmente Responsables</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -323,6 +323,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase SociedadEmpresaSocialmenteResponsable
+} // Clase SociedadEmpresasSocialmenteResponsables
 
 ?>

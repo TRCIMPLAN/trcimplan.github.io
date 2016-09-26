@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresGomezPalacio;
 
 /**
@@ -34,7 +34,7 @@ class SustentabilidadSuperficie extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Superficie en Gómez Palacio';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2016-03-09T10:53';
+        $this->fecha             = '2016-03-09T10:53:55';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-superficie';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

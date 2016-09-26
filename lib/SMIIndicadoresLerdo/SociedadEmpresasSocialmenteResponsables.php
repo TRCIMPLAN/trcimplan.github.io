@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores La Laguna Sociedad Empresa Socialmente Responsable (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Lerdo Sociedad Empresas Socialmente Responsables (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,33 +17,33 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
-namespace SMIIndicadoresLaLaguna;
+namespace SMIIndicadoresLerdo;
 
 /**
- * Clase SociedadEmpresaSocialmenteResponsable
+ * Clase SociedadEmpresasSocialmenteResponsables
  */
-class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
+class SociedadEmpresasSocialmenteResponsables extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Empresa Socialmente Responsable en La Laguna';
+        $this->nombre            = 'Empresas Socialmente Responsables en Lerdo';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T14:42';
+        $this->fecha             = '2015-07-14T14:42:02';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'sociedad-empresa-socialmente-responsable';
+        $this->archivo           = 'sociedad-empresas-socialmente-responsables';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion       = 'Incluido en el subíndice "Sociedad Preparada, Incluyente y Sana". Mide el número de empresas certificadas como Empresa Socialmente Responsable. Únicamente se consideró la ubicación geográfica de la matriz de la empresa.';
-        $this->claves            = 'IMPLAN, La Laguna, Índice de Competitividad Urbana, Empresas';
+        $this->claves            = 'IMPLAN, Lerdo, Índice de Competitividad Urbana, Empresas';
         // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio        = 'indicadores-la-laguna';
+        $this->directorio        = 'indicadores-lerdo';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu       = 'Indicadores';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
@@ -53,8 +53,8 @@ class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                  = new \Base\SchemaPostalAddress();
         $region->addressCountry  = 'MX';
-        $region->addressRegion   = '';
-        $region->addressLocality = '';
+        $region->addressRegion   = 'Durango';
+        $region->addressLocality = 'Lerdo';
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                   = new \Base\SchemaPlace();
         $lugar->address          = $region;
@@ -71,8 +71,8 @@ class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Índice de Competitividad Urbana', 'Empresas');
-        $this->fuentes           = array('Centro Mexicano para la Filantropía (Cemefi)', 'IMCO');
-        $this->regiones          = 'La Laguna';
+        $this->fuentes           = array('IMCO', 'Centro Mexicano para la Filantropía (Cemefi)');
+        $this->regiones          = 'Lerdo';
     } // constructor
 
     /**
@@ -103,37 +103,37 @@ class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>0.8000</td>
+            <td>0.0300</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>0.8053</td>
+            <td>0.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>0.8091</td>
+            <td>0.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>0.8167</td>
+            <td>0.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>2.4596</td>
+            <td>0.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>24/05/2016</td>
-            <td>0.0241</td>
+            <td>0.0000</td>
             <td>Centro Mexicano para la Filantropía (Cemefi)</td>
             <td></td>
           </tr>
@@ -145,13 +145,13 @@ class SociedadEmpresaSocialmenteResponsable extends \Base\Publicacion {
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica-1">
-      <h3>Gráfica de Empresa Socialmente Responsable en La Laguna con fuente IMCO</h3>
+      <h3>Gráfica de Empresas Socialmente Responsables en Lerdo con fuente IMCO</h3>
       <div id="graficaDatosImco" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
-      <h3>Gráfica con los últimos datos de Empresa Socialmente Responsable</h3>
+      <h3>Gráfica con los últimos datos de Empresas Socialmente Responsables</h3>
       <div id="graficaOtrasRegiones" class="grafica"></div>
-      <h3>Últimos datos de Empresa Socialmente Responsable</h3>
+      <h3>Últimos datos de Empresas Socialmente Responsables</h3>
       <table class="table table-hover table-bordered matriz">
         <thead>
           <tr>
@@ -221,7 +221,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', functi
   if (typeof vargraficaDatosImco === 'undefined') {
     vargraficaDatosImco = Morris.Line({
       element: 'graficaDatosImco',
-      data: [{ fecha: '2008-12-31', dato: 0.8000 },{ fecha: '2009-12-31', dato: 0.8053 },{ fecha: '2010-12-31', dato: 0.8091 },{ fecha: '2011-12-31', dato: 0.8167 },{ fecha: '2012-12-31', dato: 2.4596 }],
+      data: [{ fecha: '2008-12-31', dato: 0.0300 },{ fecha: '2009-12-31', dato: 0.0000 },{ fecha: '2010-12-31', dato: 0.0000 },{ fecha: '2011-12-31', dato: 0.0000 },{ fecha: '2012-12-31', dato: 0.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -278,37 +278,37 @@ FINAL;
         <tbody>
           <tr>
             <td>31/12/2008</td>
-            <td>0.8000</td>
+            <td>0.0300</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2009</td>
-            <td>0.8053</td>
+            <td>0.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2010</td>
-            <td>0.8091</td>
+            <td>0.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2011</td>
-            <td>0.8167</td>
+            <td>0.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>31/12/2012</td>
-            <td>2.4596</td>
+            <td>0.0000</td>
             <td>IMCO</td>
             <td></td>
           </tr>
           <tr>
             <td>24/05/2016</td>
-            <td>0.0241</td>
+            <td>0.0000</td>
             <td>Centro Mexicano para la Filantropía (Cemefi)</td>
             <td></td>
           </tr>
@@ -323,6 +323,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase SociedadEmpresaSocialmenteResponsable
+} // Clase SociedadEmpresasSocialmenteResponsables
 
 ?>

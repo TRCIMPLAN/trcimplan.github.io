@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Cantidad de Policías en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2014-10-21T16:19:49';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'seguridad-cantidad-de-policias';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
@@ -71,7 +71,7 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Seguridad');
-        $this->fuentes           = array('00) Portal de transparencia Ayuntamiento de Torreón', 'Ayuntamiento de Torreón');
+        $this->fuentes           = array('Ayuntamiento de Torreón', 'Ayuntamiento de Torreón, Portal de Transparencia');
         $this->regiones          = 'Torreón';
     } // constructor
 
@@ -108,7 +108,7 @@ class SeguridadCantidadDePolicias extends \Base\Publicacion {
           <tr>
             <td>31/01/2016</td>
             <td>700</td>
-            <td>00) Portal de transparencia Ayuntamiento de Torreón</td>
+            <td>Ayuntamiento de Torreón, Portal de Transparencia</td>
             <td></td>
           </tr>
         </tbody>
@@ -172,7 +172,7 @@ FINAL;
           <tr>
             <td>31/01/2016</td>
             <td>700</td>
-            <td>00) Portal de transparencia Ayuntamiento de Torreón</td>
+            <td>Ayuntamiento de Torreón, Portal de Transparencia</td>
             <td></td>
           </tr>
         </tbody>

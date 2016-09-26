@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class SustentabilidadAprovechamientoDelBiogasEnRellenosSanitarios extends \Base\
         // Título, autor y fecha
         $this->nombre            = 'Aprovechamiento del Biogás en Rellenos Sanitarios en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T12:16';
+        $this->fecha             = '2015-07-14T12:16:43';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-aprovechamiento-del-biogas-en-rellenos-sanitarios';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

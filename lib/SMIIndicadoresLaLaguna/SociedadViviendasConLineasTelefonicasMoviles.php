@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLaLaguna;
 
 /**
@@ -34,7 +34,7 @@ class SociedadViviendasConLineasTelefonicasMoviles extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Viviendas con Líneas Telefónicas Móviles en La Laguna';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T15:52';
+        $this->fecha             = '2015-07-14T15:52:15';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-viviendas-con-lineas-telefonicas-moviles';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

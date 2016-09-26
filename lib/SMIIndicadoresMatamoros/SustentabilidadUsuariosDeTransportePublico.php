@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class SustentabilidadUsuariosDeTransportePublico extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Usuarios de Transporte Público en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2016-05-11T14:32';
+        $this->fecha             = '2016-05-11T14:32:33';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-usuarios-de-transporte-publico';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

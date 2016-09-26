@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class SociedadMuertesPorAccidentesRelacionadosConTransporte extends \Base\Public
         // Título, autor y fecha
         $this->nombre            = 'Muertes por Accidentes Relacionados con Transporte en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T16:00';
+        $this->fecha             = '2015-07-14T16:00:22';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-muertes-por-accidentes-relacionados-con-transporte';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMI;
 
 /**
@@ -67,7 +67,7 @@ class PorRegiones extends \Base\Publicacion {
   <div class="col-md-2 indicadores-vinculos">
     <h3>Economía</h3>
     <ul>
-      <li><a href="../indicadores-torreon/economia-apertura-de-un-negocio.html" target="_blank">Apertura de un Negocio</a></li>
+      <li><a href="../indicadores-torreon/economia-apertura-de-una-empresa.html" target="_blank">Apertura de una empresa</a></li>
       <li><a href="../indicadores-torreon/economia-apertura-de-un-negocio-percentil-promedio.html" target="_blank">Apertura de un Negocio (percentil promedio)</a></li>
       <li><a href="../indicadores-torreon/economia-cantidad-de-creditos-hipotecarios-trimestral.html" target="_blank">Cantidad de Créditos Hipotecarios (trimestral)</a></li>
       <li><a href="../indicadores-torreon/economia-cartera-hipotecaria.html" target="_blank">Cartera Hipotecaria</a></li>
@@ -235,7 +235,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-torreon/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
       <li><a href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" target="_blank">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
       <li><a href="../indicadores-torreon/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
-      <li><a href="../indicadores-torreon/sociedad-empresa-socialmente-responsable.html" target="_blank">Empresa Socialmente Responsable</a></li>
+      <li><a href="../indicadores-torreon/sociedad-empresas-socialmente-responsables.html" target="_blank">Empresas Socialmente Responsables</a></li>
       <li><a href="../indicadores-torreon/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-torreon/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-torreon/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
@@ -494,7 +494,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-gomez-palacio/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" target="_blank">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
-      <li><a href="../indicadores-gomez-palacio/sociedad-empresa-socialmente-responsable.html" target="_blank">Empresa Socialmente Responsable</a></li>
+      <li><a href="../indicadores-gomez-palacio/sociedad-empresas-socialmente-responsables.html" target="_blank">Empresas Socialmente Responsables</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
@@ -745,7 +745,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-lerdo/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
       <li><a href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" target="_blank">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
       <li><a href="../indicadores-lerdo/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
-      <li><a href="../indicadores-lerdo/sociedad-empresa-socialmente-responsable.html" target="_blank">Empresa Socialmente Responsable</a></li>
+      <li><a href="../indicadores-lerdo/sociedad-empresas-socialmente-responsables.html" target="_blank">Empresas Socialmente Responsables</a></li>
       <li><a href="../indicadores-lerdo/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-lerdo/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-lerdo/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
@@ -997,7 +997,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-matamoros/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
       <li><a href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" target="_blank">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
       <li><a href="../indicadores-matamoros/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
-      <li><a href="../indicadores-matamoros/sociedad-empresa-socialmente-responsable.html" target="_blank">Empresa Socialmente Responsable</a></li>
+      <li><a href="../indicadores-matamoros/sociedad-empresas-socialmente-responsables.html" target="_blank">Empresas Socialmente Responsables</a></li>
       <li><a href="../indicadores-matamoros/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-matamoros/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-matamoros/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>
@@ -1243,7 +1243,7 @@ class PorRegiones extends \Base\Publicacion {
       <li><a href="../indicadores-la-laguna/sociedad-crecimiento-en-poblacion-altamente-calificada.html" target="_blank">Crecimiento en Población Altamente Calificada</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-desigualdad-en-las-ciudades.html" target="_blank">Desigualdad en las Ciudades</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-discapacidad.html" target="_blank">Discapacidad</a></li>
-      <li><a href="../indicadores-la-laguna/sociedad-empresa-socialmente-responsable.html" target="_blank">Empresa Socialmente Responsable</a></li>
+      <li><a href="../indicadores-la-laguna/sociedad-empresas-socialmente-responsables.html" target="_blank">Empresas Socialmente Responsables</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-escuelas-de-calidad.html" target="_blank">Escuelas de Calidad</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html" target="_blank">Espacios Culturales</a></li>
       <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales-segun-imco.html" target="_blank">Espacios Culturales (según IMCO)</a></li>

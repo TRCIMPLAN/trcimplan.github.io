@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class SustentabilidadPeatones extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Peatones en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2016-05-11T15:20';
+        $this->fecha             = '2016-05-11T15:20:50';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sustentabilidad-peatones';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

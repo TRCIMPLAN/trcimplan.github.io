@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaGastoEnNominaPorEmpleado extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Gasto en Nómina por Empleado en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T18:35';
+        $this->fecha             = '2015-07-14T18:35:21';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-gasto-en-nomina-por-empleado';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

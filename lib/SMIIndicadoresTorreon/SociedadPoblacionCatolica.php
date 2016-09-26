@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class SociedadPoblacionCatolica extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Población Católica en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-03-26T12:40';
+        $this->fecha             = '2015-03-26T12:40:45';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-poblacion-catolica';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

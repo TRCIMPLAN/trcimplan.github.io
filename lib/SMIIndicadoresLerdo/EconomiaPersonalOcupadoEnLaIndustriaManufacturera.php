@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLerdo;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \Base\Publicacio
         // Título, autor y fecha
         $this->nombre            = 'Personal Ocupado en la Industria Manufacturera en Lerdo';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2014-10-21T16:19:49';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-personal-ocupado-en-la-industria-manufacturera';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
@@ -71,7 +71,7 @@ class EconomiaPersonalOcupadoEnLaIndustriaManufacturera extends \Base\Publicacio
         $this->contenido         = $schema;
         // Para el Organizador
         $this->categorias        = array('Empleo', 'Mercados');
-        $this->fuentes           = array('Elaboración propia con datos obtenidos del INEGI', 'INEGI');
+        $this->fuentes           = array('INEGI', 'Elaboración propia con datos obtenidos del INEGI');
         $this->regiones          = 'Lerdo';
     } // constructor
 

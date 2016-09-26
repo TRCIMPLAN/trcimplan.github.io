@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SMI Indicadores Torreón Economía Apertura de un Negocio (Creado por Central:SmiLanzadera)
+ * TrcIMPLAN - SMI Indicadores Torreón Economía Apertura de una empresa (Creado por Central:SmiLanzadera)
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,30 +17,30 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
- * Clase EconomiaAperturaDeUnNegocio
+ * Clase EconomiaAperturaDeUnaEmpresa
  */
-class EconomiaAperturaDeUnNegocio extends \Base\Publicacion {
+class EconomiaAperturaDeUnaEmpresa extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre            = 'Apertura de un Negocio en Torreón';
+        $this->nombre            = 'Apertura de una empresa en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2014-10-21T16:19';
+        $this->fecha             = '2014-10-21T16:19:49';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo           = 'economia-apertura-de-un-negocio';
+        $this->archivo           = 'economia-apertura-de-una-empresa';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
         $this->imagen_previa     = '../smi/introduccion/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion       = 'Número de días necesarios para el trámite de apertura de un negocio.';
+        $this->descripcion       = 'Número de días necesarios para el trámite de apertura de una empresa.';
         $this->claves            = 'IMPLAN, Torreón, Empresas, Doing Business';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio        = 'indicadores-torreon';
@@ -132,12 +132,18 @@ Procedimientos (número) = 7 ;
 Costo (% de ingreso per cápita) = 21,2 ;
 Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>11.5000</td>
+            <td>Doing Business</td>
+            <td>Obtenido del reporte Doing Business en México 2016.</td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Días.</p>
     </div>
     <div class="tab-pane" id="smi-indicador-grafica">
-      <h3>Gráfica de Apertura de un Negocio en Torreón</h3>
+      <h3>Gráfica de Apertura de una empresa en Torreón</h3>
       <div id="graficaDatos" class="grafica"></div>
     </div>
   </div>
@@ -160,7 +166,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2007-12-31', dato: 28.0000 },{ fecha: '2012-12-31', dato: 11.0000 },{ fecha: '2013-10-31', dato: 9.5000 }],
+      data: [{ fecha: '2007-12-31', dato: 28.0000 },{ fecha: '2012-12-31', dato: 11.0000 },{ fecha: '2013-10-31', dato: 9.5000 },{ fecha: '2015-12-31', dato: 11.5000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -188,7 +194,7 @@ FINAL;
         // Para redifusión, se pone el contenido sin lengüetas
         $this->redifusion = <<<FINAL
       <h3>Descripción</h3>
-<p>Número de días necesarios para el trámite de apertura de un negocio.</p>
+<p>Número de días necesarios para el trámite de apertura de una empresa.</p>
 
       <h3>Información recopilada</h3>
       <table class="table table-hover table-bordered matriz">
@@ -233,6 +239,12 @@ Procedimientos (número) = 7 ;
 Costo (% de ingreso per cápita) = 21,2 ;
 Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td>
           </tr>
+          <tr>
+            <td>31/12/2015</td>
+            <td>11.5000</td>
+            <td>Doing Business</td>
+            <td>Obtenido del reporte Doing Business en México 2016.</td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Días.</p>
@@ -241,6 +253,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase EconomiaAperturaDeUnNegocio
+} // Clase EconomiaAperturaDeUnaEmpresa
 
 ?>

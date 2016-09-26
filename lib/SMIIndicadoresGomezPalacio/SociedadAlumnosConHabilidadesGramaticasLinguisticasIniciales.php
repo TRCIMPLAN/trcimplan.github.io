@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresGomezPalacio;
 
 /**
@@ -34,7 +34,7 @@ class SociedadAlumnosConHabilidadesGramaticasLinguisticasIniciales extends \Base
         // Título, autor y fecha
         $this->nombre            = 'Alumnos con Habilidades Gramáticas-Lingüísticas Iniciales en Gómez Palacio';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2016-01-20T13:38';
+        $this->fecha             = '2016-01-20T13:38:01';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-alumnos-con-habilidades-gramaticas-linguisticas-iniciales';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

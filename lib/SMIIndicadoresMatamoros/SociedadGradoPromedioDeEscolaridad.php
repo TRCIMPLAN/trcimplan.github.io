@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class SociedadGradoPromedioDeEscolaridad extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Grado Promedio de Escolaridad en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-10-21T12:51';
+        $this->fecha             = '2015-10-21T12:51:27';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'sociedad-grado-promedio-de-escolaridad';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresMatamoros;
 
 /**
@@ -34,7 +34,7 @@ class SeguridadDelitosPatrimoniales extends \Base\Publicacion {
         // Título, autor y fecha
         $this->nombre            = 'Delitos Patrimoniales en Matamoros';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-06-04T11:25';
+        $this->fecha             = '2015-06-04T11:25:18';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'seguridad-delitos-patrimoniales';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresTorreon;
 
 /**
@@ -34,7 +34,7 @@ class GobiernoPromedioDeHorasParaLaRealizacionDelTramiteDeCartaDeNoAdeudoPredial
         // Título, autor y fecha
         $this->nombre            = 'Promedio de Horas para la Realización del Trámite de Carta de No Adeudo Predial en Torreón';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T17:33';
+        $this->fecha             = '2015-07-14T17:33:20';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'gobierno-promedio-de-horas-para-la-realizacion-del-tramite-de-carta-de-no-adeudo-predial';
         $this->imagen            = '../smi/introduccion/imagen.jpg';

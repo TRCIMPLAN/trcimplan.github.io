@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SMIIndicadoresLerdo;
 
 /**
@@ -34,7 +34,7 @@ class EconomiaCrecimientoEnJornadasLaboralesMuyLargas extends \Base\Publicacion 
         // Título, autor y fecha
         $this->nombre            = 'Crecimiento en Jornadas Laborales Muy Largas en Lerdo';
         $this->autor             = 'Dirección de Investigación Estratégica';
-        $this->fecha             = '2015-07-14T14:35';
+        $this->fecha             = '2015-07-14T14:35:13';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
         $this->archivo           = 'economia-crecimiento-en-jornadas-laborales-muy-largas';
         $this->imagen            = '../smi/introduccion/imagen.jpg';
