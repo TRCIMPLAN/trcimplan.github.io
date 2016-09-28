@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="En el reporte Doing Business en México 2016 Coahuila califica en el lugar 17 de los 32 estados de la República. El estado, evaluado a través del municipio de Torreón, destacó en el indicador Cumplimiento de contratos ocupando el séptimo lugar del país.">
+  <meta name="author" content="Lic. Alicia Valdez Ibarra">
+  <meta name="keywords" content="IMPLAN, Torreon, ">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Coahuila y Torreón avanzan en el ranking Doing Business - IMPLAN Torreón">
+  <meta name="twitter:description" content="En el reporte Doing Business en México 2016 Coahuila califica en el lugar 17 de los 32 estados de la República. El estado, evaluado a través del municipio de Torreón, destacó en el indicador Cumplimiento de contratos ocupando el séptimo lugar del país.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/coahuila-y-torreon-avanzan-en-el-ranking-doing-business/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/coahuila-y-torreon-avanzan-en-el-ranking-doing-business.html">
+  <meta name="og:title" content="Coahuila y Torreón avanzan en el ranking Doing Business - IMPLAN Torreón">
+  <meta name="og:description" content="En el reporte Doing Business en México 2016 Coahuila califica en el lugar 17 de los 32 estados de la República. El estado, evaluado a través del municipio de Torreón, destacó en el indicador Cumplimiento de contratos ocupando el séptimo lugar del país.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/coahuila-y-torreon-avanzan-en-el-ranking-doing-business/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/coahuila-y-torreon-avanzan-en-el-ranking-doing-business.html">
+  <title>Coahuila y Torreón avanzan en el ranking Doing Business - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-server"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-files-o"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Coahuila y Torreón avanzan en el ranking Doing Business</h1>
+          <div class="encabezado-descripcion" itemprop="description">En el reporte Doing Business en México 2016 Coahuila califica en el lugar 17 de los 32 estados de la República. El estado, evaluado a través del municipio de Torreón, destacó en el indicador Cumplimiento de contratos ocupando el séptimo lugar del país.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Alicia Valdez Ibarra</span>
+          - <meta itemprop="datePublished" content="2016-09-28T15:50">28/09/2016 15:50
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Coahuila y Torreón avanzan en el ranking Doing Business" src="coahuila-y-torreon-avanzan-en-el-ranking-doing-business/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>La semana pasada <strong>Doing Business,</strong> proyecto del <strong>Banco Mundial</strong> dedicado a <strong>medir el impacto de las regulaciones gubernamentales en la actividad empresarial,</strong> publicó el <strong>sexto reporte subnacional</strong> para nuestro país: <strong>Doing Business en México 2016,</strong> indicándonos en qué lugar es más fácil hacer negocios.</p>
+
+<p>El reporte evalúa el ambiente de negocios desde la perspectiva de la pequeña y mediana empresa en 32 estados de la república mexicana a través de cuatro indicadores: <strong>apertura de una empresa, obtención de permisos de construcción, registro de la propiedad y cumplimiento de contratos.</strong> Cada indicador cuenta con los componentes de número de trámites, tiempo, costo y, por primera vez, calidad de los servicios otorgados.</p>
+
+<p>Con el fin de analizar las regulaciones comerciales en los tres niveles de gobierno, <strong>Doing Business elige un municipio por cada estado</strong> y estudia tanto las buenas prácticas en los trámites locales como en la implementación de los trámites federales y estatales en la localidad. <strong>Torreón representa a Coahuila en el Ranking,</strong> lo que nos permite compararlo a nivel nacional e internacional en su capacidad para hacer negocios. Estos fueron los resultados:</p>
+
+<h3>Apertura de una empresa</h3>
+
+<p><strong>En Torreón, un empresario necesita realizar ocho trámites</strong> –siete estatales y/o federales y uno municipal- para crear formalmente una empresa. Los trámites tardan <strong>11.5 días</strong> y el costo total equivale en promedio a <strong>21% de su ingreso per cápita.</strong> El promedio a nivel nacional es de 8 trámites con duración de 14.6 días, sin embargo el costo promedio es de casi la mitad que en Torreón, pues representa 11% del ingreso per cápita. El lugar que ocupa Coahuila con este indicador en el ranking nacional es el 23.</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Estados</th>
+  <th align="right">Clasificación Doing Business en México 2016</th>
+  <th align="right">Distancia a la frontera (puntuación 2016)</th>
+  <th align="right">Distancia a la frontera (puntuación 2014)</th>
+  <th align="right">Trámites (número)</th>
+  <th align="right">Tiempo (días)</th>
+  <th align="right">Costo (% del ingreso per cápita)</th>
+  <th align="right">Requisito de capital mínimo pagado (% de ingreso per cápita)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Promedio Latinoamérica</td>
+  <td align="right"></td>
+  <td align="right">76.13</td>
+  <td align="right">75.19</td>
+  <td align="right">9.2</td>
+  <td align="right">34.0</td>
+  <td align="right">31.4</td>
+  <td align="right">1.71</td>
+</tr>
+<tr>
+  <td>Promedio OCDE altos ingresos</td>
+  <td align="right"></td>
+  <td align="right">91.63</td>
+  <td align="right">90.16</td>
+  <td align="right">4.7</td>
+  <td align="right">8.3</td>
+  <td align="right">3.2</td>
+  <td align="right">9.6</td>
+</tr>
+<tr>
+  <td>Promedio México</td>
+  <td align="right"></td>
+  <td align="right">84.80</td>
+  <td align="right">85.59</td>
+  <td align="right">8.0</td>
+  <td align="right">14.6</td>
+  <td align="right">11.4</td>
+  <td align="right">0</td>
+</tr>
+<tr>
+  <td>Coahuila (Torreón)</td>
+  <td align="right">23</td>
+  <td align="right">84.28</td>
+  <td align="right">84.54</td>
+  <td align="right">8.0</td>
+  <td align="right">11.5</td>
+  <td align="right">21.3</td>
+  <td align="right">0</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Obtención de permisos de construcción</h3>
+
+<p>En este indicador, que se compone de 6 trámites municipales y 2 estatales, <strong>Torreón ocupa el lugar 18 de 32.</strong> La obtención de permisos de construcción incluye todos los trámites, el tiempo y los costos requeridos para construir una bodega, desde la obtención de licencias hasta la conexión a los servicios públicos. <strong>En Torreón se requieren 14 trámites, 94 días y 1.8% del valor de la bodega como costo</strong> para obtener todos los permisos necesarios. A nivel nacional, se realizan 12 trámites con una duración de 64.5 días y se incurre en un costo promedio de 2.9% del valor de la bodega.</p>
+
+<p>En el cálculo de la calificación de este apartado, se incluyó el <strong>nuevo índice de control de calidad de la construcción,</strong> que mide la confiabilidad, transparencia y cobertura de los procesos. Torreón obtuvo 12 puntos dentro de una escala de 0 a 15, colocándose arriba del promedio nacional, Latinoamérica y de los países de la OCDE con altos ingresos.</p>
+
+<p>Permisos de construcción ( todo es municipal)</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Ciudad (Estado)</th>
+  <th align="right">Clasificación Doing Business en México 2016</th>
+  <th align="right">Distancia a la frontera (puntuación 2016)</th>
+  <th align="right">Distancia a la frontera (puntuación 2014)</th>
+  <th align="right">Trámites (número)</th>
+  <th align="right">Tiempo (días)</th>
+  <th align="right">Costo (% del valor de la bodega)</th>
+  <th align="right">Índice de control de calidad de la construcción (0-15)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Promedio Latinoamérica</td>
+  <td align="right"></td>
+  <td align="right">65.57</td>
+  <td align="right">*</td>
+  <td align="right">14.3</td>
+  <td align="right">184.6</td>
+  <td align="right">2.7</td>
+  <td align="right">8.8</td>
+</tr>
+<tr>
+  <td>Promedio OCDE altos ingresos</td>
+  <td align="right"></td>
+  <td align="right">75.49</td>
+  <td align="right">*</td>
+  <td align="right">12.4</td>
+  <td align="right">152.1</td>
+  <td align="right">1.7</td>
+  <td align="right">11.4</td>
+</tr>
+<tr>
+  <td>Promedio México</td>
+  <td align="right"></td>
+  <td align="right">80.41</td>
+  <td align="right">80.00</td>
+  <td align="right">12.4</td>
+  <td align="right">64.5</td>
+  <td align="right">2.9</td>
+  <td align="right">11.5</td>
+</tr>
+<tr>
+  <td>Torreón (Coahuila)</td>
+  <td align="right">18</td>
+  <td align="right">78.87</td>
+  <td align="right">79.57</td>
+  <td align="right">14.0</td>
+  <td align="right">94.0</td>
+  <td align="right">1.8</td>
+  <td align="right">12.0</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Registro de la propiedad</h3>
+
+<p>Analiza los trámites, tiempo y costo para transferir una propiedad de una empresa a otra con el objeto de determinar la eficiencia de los sistemas de administración de tierras. Para el registro de una propiedad <strong>en Torreón, se necesitan 6 trámites</strong> –uno de los cuales es municipal-, <strong>24 días y un costo promedio de 4.5% del valor de la propiedad.</strong> Torreón ocupa el lugar 21 de 32 en este indicador.</p>
+
+<p>En el índice de calidad de la administración de tierras, <strong>Torreón obtuvo 13 puntos de 30 posibles,</strong> casi a la par del puntaje nacional de 13.6 y debajo del puntaje promedio de los países de altos ingresos de la OCDE de 22.7.</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Estado</th>
+  <th align="right">Clasificación Doing Business en México 2016</th>
+  <th align="right">Distancia a la frontera (puntuación 2016)</th>
+  <th align="right">Distancia a la frontera (puntuación 2014)</th>
+  <th align="right">Trámites (número)</th>
+  <th align="right">Tiempo (días)</th>
+  <th align="right">Costo (% del valor de la propiedad)</th>
+  <th align="right">Índice de calidad de la administración de tierras (0-30)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Promedio Latinoamérica</td>
+  <td align="right"></td>
+  <td align="right">60.51</td>
+  <td align="right">*</td>
+  <td align="right">7.0</td>
+  <td align="right">45.4</td>
+  <td align="right">4.3</td>
+  <td align="right">12.5</td>
+</tr>
+<tr>
+  <td>Promedio OCDE altos ingresos</td>
+  <td align="right"></td>
+  <td align="right">76.73</td>
+  <td align="right">*</td>
+  <td align="right">4.7</td>
+  <td align="right">21.8</td>
+  <td align="right">4.2</td>
+  <td align="right">22.7</td>
+</tr>
+<tr>
+  <td>Promedio México</td>
+  <td align="right"></td>
+  <td align="right">66.01</td>
+  <td align="right">65.21</td>
+  <td align="right">6.5</td>
+  <td align="right">26.0</td>
+  <td align="right">3.5</td>
+  <td align="right">13.6</td>
+</tr>
+<tr>
+  <td>Coahuila (Torreón)</td>
+  <td align="right">21</td>
+  <td align="right">65.10</td>
+  <td align="right">62.23</td>
+  <td align="right">6.0</td>
+  <td align="right">24.0</td>
+  <td align="right">4.5</td>
+  <td align="right">13.0</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Cumplimiento de contratos</h3>
+
+<p>Este indicador, que mide la eficiencia del sistema de tribunales especializados en temas mercantiles, es el único sin ningún trámite municipal. En todo el estado, resolver una controversia mercantil entre dos empresas toma en promedio 200 días contra 275 en México y tanto a nivel estatal como nacional cuesta alrededor de 26% del valor de la demanda. Coahuila tiene el séptimo lugar nacional en este indicador.</p>
+
+<p>El índice de calidad de los procesos judiciales, contribuye con 33% de la calificación y mide la estructura de los tribunales y los procedimientos judiciales, la administración de causas, la automatización de los tribunales y la resolución alternativa de disputas. <strong>Coahuila obtuvo 11.5 de 18 puntos posibles,</strong> superando el puntaje promedio nacional de 9.8, el promedio de Latinoamérica y el promedio de los países de altos ingresos de la OCDE.</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Estado</th>
+  <th align="right">Clasificación Doing Business en México 2016</th>
+  <th align="right">Distancia a la frontera (puntuación 2016)</th>
+  <th align="right">Distancia a la frontera (puntuación 2014)</th>
+  <th align="right">Tiempo (días)</th>
+  <th align="right">Costo (% del valor de la demanda)</th>
+  <th align="right">Índice de calidad de los procesos judiciales (0-18)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Promedio Latinoamérica</td>
+  <td align="right"></td>
+  <td align="right">52.62</td>
+  <td align="right">*</td>
+  <td align="right">768</td>
+  <td align="right">29.80%</td>
+  <td align="right">7.68</td>
+</tr>
+<tr>
+  <td>Promedio OCDE altos ingresos</td>
+  <td align="right"></td>
+  <td align="right">77.27</td>
+  <td align="right">*</td>
+  <td align="right">538</td>
+  <td align="right">21.10%</td>
+  <td align="right">10.90</td>
+</tr>
+<tr>
+  <td>Promedio México</td>
+  <td align="right"></td>
+  <td align="right">70.80</td>
+  <td align="right">67.43</td>
+  <td align="right">275</td>
+  <td align="right">26.20%</td>
+  <td align="right">9.80</td>
+</tr>
+<tr>
+  <td>Coahuila (Torreón)</td>
+  <td align="right">7</td>
+  <td align="right">75.83</td>
+  <td align="right">67.88</td>
+  <td align="right">200</td>
+  <td align="right">26.60%</td>
+  <td align="right">11.50</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Clasificación Agregada</h3>
+
+<p>En la calificación agregada, el Estado de Coahuila, evaluado con el municipio de <strong>Torreón, obtuvo el lugar 17 de las 32 entidades federativas,</strong> un avance de 4 puestos con respecto al 2014, cuando se ubicó en el lugar 21.</p>
+
+<p>Para darle un mayor significado a esta calificación, Doing Business califica a los estados en una escala del 0 al 100 donde 100 es determinado por la mejor práctica internacional, es decir, por la ciudad con mejores prácticas y regulaciones del mundo y 0 representa la ciudad con el peor desempeño en esta materia, a esta “curva” Doing Business le llama “distancia de la frontera”. <strong>Coahuila obtuvo una distancia de 76.02,</strong> contra un 73.56 obtenido en 2014, por lo que fue el cuarto estado de la república en avanzar más hacia las mejores prácticas, solo superado por Estado de México, Puebla y Jalisco. El primer lugar del ranking nacional lo obtuvo Aguascalientes, con una distancia de la frontera de 81.90.</p>
+
+<h3>Duración de trámites en Coahuila</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Indicador</th>
+  <th align="right">2007</th>
+  <th align="right">2012</th>
+  <th align="right">2014</th>
+  <th align="right">2016</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Apertura de una empresa</td>
+  <td align="right">28.0</td>
+  <td align="right">11.0</td>
+  <td align="right">9.5</td>
+  <td align="right">11.5</td>
+</tr>
+<tr>
+  <td>Cumplimiento de contratos</td>
+  <td align="right">386.0</td>
+  <td align="right">270.0</td>
+  <td align="right">270.5</td>
+  <td align="right">200.0</td>
+</tr>
+<tr>
+  <td>Permiso de contrucción</td>
+  <td align="right">NA</td>
+  <td align="right">72.0</td>
+  <td align="right">107.0</td>
+  <td align="right">94.0</td>
+</tr>
+<tr>
+  <td>Registro de una propiedad</td>
+  <td align="right">51.0</td>
+  <td align="right">33.0</td>
+  <td align="right">28.0</td>
+  <td align="right">24.0</td>
+</tr>
+</tbody>
+</table>
+
+<h3>En qué mejoramos y mejoras regulatorias para seguir avanzando</h3>
+
+<p><strong>De 2007 a la fecha, el estado de Coahuila ha registrado mejoras regulatorias en apertura de empresas, cumplimiento de contratos y registro de la propiedad.</strong> Durante el último periodo de evaluación (2014-2015) las mejoras regulatorias registradas fueron en Registro de la propiedad y Cumplimiento de contratos, indicadores en los que avanzamos en la distancia hacia la frontera en 3 y 8 puntos respectivamente. Los días de trámite en ambos indicadores bajaron también, ahora tarda 4 días menos el registro de una propiedad y 70 días menos el resolver un problema mercantil.</p>
+
+<p>Para aumentar la competitividad de hacer negocios, los expertos recomiendan “no inventar el hilo negro” y estudiar los casos de éxito de ciudades compatibles. <strong>Una encuesta realizada por Doing Business a funcionarios municipales demuestra que el aprendizaje entre pares es una de las herramientas más eficaces,</strong> es decir, para el Estado de Coahuila es más fácil aprender de las mejoras implementadas en el Estado de Puebla, que de las reformas implementadas en Singapur. Para conocer las mejores prácticas probadas en el país, las mejores herramientas identificadas fueron los reportes de Doing Business y las reuniones semestrales organizadas por la Comisión Federal de Mejora Regulatoria (COFEMER).</p>
+
+<p>En el caso de México, <strong>las ciudades con mejores calificaciones cuentan con plataformas en línea para realizar los trámites gubernamentales,</strong> lo que reduce el tiempo y el costo para la administración pública y en consecuencia para el usuario.</p>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fcoahuila-y-torreon-avanzan-en-el-ranking-doing-business.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

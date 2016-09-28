@@ -23,9 +23,9 @@
 namespace Blog;
 
 /**
- * Clase ARCHIVO
+ * Clase CoahuilaYTorreonAvanzanEnElRankingDoingBusiness
  */
-class ARCHIVO extends \Base\Publicacion {
+class CoahuilaYTorreonAvanzanEnElRankingDoingBusiness extends \Base\Publicacion {
 
     /**
      * Constructor
@@ -33,12 +33,12 @@ class ARCHIVO extends \Base\Publicacion {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre          = 'Coahuila y Torreón avanzan en el ranking Doing Business';
-        $this->autor           = '';
-        $this->fecha           = '2016-MM-DDTHH:MM';
+        $this->autor           = 'Lic. Alicia Valdez Ibarra';
+        $this->fecha           = '2016-09-28T15:50';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'DIRECTORIO';
-        $this->imagen          = 'DIRECTORIO/imagen.jpg';
-        $this->imagen_previa   = 'DIRECTORIO/imagen-previa.jpg';
+        $this->archivo         = 'coahuila-y-torreon-avanzan-en-el-ranking-doing-business';
+        $this->imagen          = 'coahuila-y-torreon-avanzan-en-el-ranking-doing-business/imagen.jpg';
+        $this->imagen_previa   = 'coahuila-y-torreon-avanzan-en-el-ranking-doing-business/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion     = 'En el reporte Doing Business en México 2016 Coahuila califica en el lugar 17 de los 32 estados de la República. El estado, evaluado a través del municipio de Torreón, destacó en el indicador Cumplimiento de contratos ocupando el séptimo lugar del país.';
         $this->claves          = 'IMPLAN, Torreon, ';
@@ -48,8 +48,6 @@ class ARCHIVO extends \Base\Publicacion {
         $this->nombre_menu     = 'Análisis Publicados';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado          = 'publicar';
-        // Sin imagen en el contenido
-        $this->poner_imagen_en_contenido = false;
         // El contenido es estructurado en un esquema
         $schema                = new \Base\SchemaBlogPosting();
         $schema->name          = $this->nombre;
@@ -61,13 +59,13 @@ class ARCHIVO extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/Blog/ARCHIVO.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/CoahuilaYTorreonAvanzanEnElRankingDoingBusiness.md';
         // Para el Organizador
-        $this->categorias      = array();
+        $this->categorias      = array('Doing Business', 'Torreón');
         $this->fuentes         = array();
-        $this->regiones        = array();
+        $this->regiones        = array('Torreón', 'Coahuila');
     } // constructor
 
-} // Clase ARCHIVO
+} // Clase CoahuilaYTorreonAvanzanEnElRankingDoingBusiness
 
 ?>
