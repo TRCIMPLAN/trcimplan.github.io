@@ -19,7 +19,6 @@
  *
  */
 
-// Namespace
 namespace SMI;
 
 /**

@@ -143,8 +143,9 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $pem->image       = 'servicio-pem';
         $pem->url         = 'plan-estrategico-metropolitano/index.html';
         $pem->botones     = array(
-            '<i class="fa fa-file-text-o"></i> Conoce el Plan' => 'plan-estrategico-metropolitano/introduccion.html',
-            '<i class="fa fa-calendar"></i> Todas las Mesas'   => 'plan-estrategico-metropolitano/index.html');
+            '<i class="fa fa-file-text-o"></i> Conoce el Plan'         => 'plan-estrategico-metropolitano/introduccion.html',
+            '<i class="fa fa-calendar"></i> Todas las Mesas'           => 'plan-estrategico-metropolitano/index.html',
+            '<i class="fa fa-download"></i> Documentos para descargar' => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html');
         // Acumular sección destacado
         $this->contenido[]  = '  <section id="destacado">';
         $this->contenido[]  = '    <div class="row">';

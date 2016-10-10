@@ -38,7 +38,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->claves                   = 'IMPLAN, Torreon, Plan Estrategico Torreon 2040';
         $this->encabezado_color         = '#008000';
         // Etiqueta de Navegación a poner activa
-        $this->nombre_menu              = 'Plan Estratégico Torreón';
+        $this->nombre_menu              = 'Plan Estratégico Metropolitano > Documentos';
         // Clase que concentrará a las publicaciones para hacer su propia página
         $this->concentrador             = 'Tarjetas';
         // La ruta al archivo con el índice/galería que será creado
