@@ -166,6 +166,19 @@ class PaginaInicialConfig extends \Base\Plantilla {
      * Aviso
      */
     protected function aviso() {
+        $this->contenido[] = '  <section id="aviso" style="background-color:#752856">';
+        //~ $this->contenido[] = '    <div class="panel aviso-panel">';
+        //~ $this->contenido[] = '      <div class="panel-heading aviso-heading">';
+        $this->contenido[] = '        <img class="img-responsive" src="imagenes/banner-ohvf-2016.jpg" alt="Perspectivas Economicas 2017 - 25 octubre 2016">';
+        //~ $this->contenido[] = '      </div>';
+        //~ $this->contenido[] = '    </div>';
+        $this->contenido[] = '  </section>';
+    } // aviso
+
+    /**
+     * Investigaciones
+     */
+    protected function investigaciones() {
         $this->contenido[] = '  <section id="aviso">';
         $this->contenido[] = '    <div class="row">';
         $this->contenido[] = '      <div class="col-md-8">';
@@ -229,24 +242,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
     $(window).bind("orientationchange", ScaleSlider);
   });
 FINAL;
-    } // aviso
-
-    /**
-     * Promociones
-     */
-    protected function promociones() {
-        $this->contenido[] = '    <div class="panel" style="margin:4px;border:2px solid #FF3300;">';
-        $this->contenido[] = '        <div class="panel-heading" style="background-color:#FFFFFF">';
-        $this->contenido[] = '            <h2><a href="http://bit.ly/29FAT1u" target="_blank">Nueva Gobernanza: Construyendo normas con los habitantes de la ciudad</a></h2>';
-        $this->contenido[] = '            <a href="http://bit.ly/29FAT1u" target="_blank"><img class="img-responsive" src="imagenes/seminario-online-nueva-gobernanza-2016.jpg" alt="Nueva Gobernanza: Construyendo normas con los habitantes de la ciudad"></a>';
-        $this->contenido[] = '            <h2><a href="http://bit.ly/29FAT1u" target="_blank">Regístrate al seminario en línea</a></h2>';
-        $this->contenido[] = '            <p>La gobernanza abierta es un modelo de hacer política más transparente y participativa. La <b>Alianza para el Gobierno Abierto</b> es un espacio de diálogo e intercambio de ideas que permite, en colaboración con la sociedad civil, promover que los gobiernos asuman compromisos con el potencial de transformar la calidad de vida de las personas.</p>';
-        $this->contenido[] = '            <p>En esta segunda edición del <b>#SeminariOnline de OpeningCities,</b> las ciudades de <b>Torreón y Aguascalientes</b> compartirán su experiencia de inclusión de la ciudadanía en un proceso completo de construcción de normatividad. Analizaremos juntos cuáles mecanismos han sido desarrollados, cuáles han sido los retos y cómo esta práctica ha impactado en la relación de la administración con la ciudadanía.</p>';
-        $this->contenido[] = '            <p>Organizan <a href="http://www.embarqmexico.org" target="_blank">CTS EMBARQ México</a> quienes forman parte de <a href="http://www.wri.org" target="_blank">World Resources Institute</a>. Sus objetivos son catalizar la implementación de proyectos y políticas públicas en materia de movilidad, transporte público, desarrollo urbano, cambio climático y calidad del aire.</p>';
-        $this->contenido[] = '            <p>Después del registro, recibirás la confirmación por correo con la información para el acceso al seminario, en inglés.</p>';
-        $this->contenido[] = '        </div>';
-        $this->contenido[] = '    </div>';
-    } // promociones
+    } // investigaciones
 
     /**
      * Novedades
@@ -357,9 +353,9 @@ FINAL;
         // Elaborar secciones
         $this->organizacion();
         $this->destacado();
-    //~ $this->promociones();
-        $this->novedades();
         $this->aviso();
+        $this->novedades();
+        $this->investigaciones();
         $this->mapa();
         $this->redes();
         // Entregar resultado del método en el padre
