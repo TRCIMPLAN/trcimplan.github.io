@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La ZML ocupa el lugar 54 en el ranking nacional por el número de espacios culturales con los que cuenta. Su infraestructura aún es escasa comparada con la de otras ciudades importantes del país.">
+  <meta name="author" content="Lic. Adriana Vargas Flores">
+  <meta name="keywords" content="IMPLAN, Torreon, Cultura, Museos, Bibliotecas">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="El papel de la cultura en la competitividad - IMPLAN Torreón">
+  <meta name="twitter:description" content="La ZML ocupa el lugar 54 en el ranking nacional por el número de espacios culturales con los que cuenta. Su infraestructura aún es escasa comparada con la de otras ciudades importantes del país.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/el-papel-de-la-cultura-en-la-competitividad/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/el-papel-de-la-cultura-en-la-competitividad.html">
+  <meta name="og:title" content="El papel de la cultura en la competitividad - IMPLAN Torreón">
+  <meta name="og:description" content="La ZML ocupa el lugar 54 en el ranking nacional por el número de espacios culturales con los que cuenta. Su infraestructura aún es escasa comparada con la de otras ciudades importantes del país.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/el-papel-de-la-cultura-en-la-competitividad/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/el-papel-de-la-cultura-en-la-competitividad.html">
+  <title>El papel de la cultura en la competitividad - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Documentos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="../institucional/informacion-financiera.html"><span class="navegacion-icono"><i class="fa fa-check"></i></span> Información Financiera</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">El papel de la cultura en la competitividad</h1>
+          <div class="encabezado-descripcion" itemprop="description">La ZML ocupa el lugar 54 en el ranking nacional por el número de espacios culturales con los que cuenta. Su infraestructura aún es escasa comparada con la de otras ciudades importantes del país.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Lic. Adriana Vargas Flores</span>
+          - <meta itemprop="datePublished" content="2016-10-20T10:20">20/10/2016 10:20
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="El papel de la cultura en la competitividad" src="el-papel-de-la-cultura-en-la-competitividad/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>Al igual que el deporte, la educación y la salud, la cultura eleva la calidad de vida en una región. <strong>La competitividad también se mide por la cantidad de espacios culturales y visitas a museos con los que cuenta una ciudad.</strong> Estos dos ámbitos fueron medidos en el <strong>Índice de Competitividad Urbana 2016</strong> del <strong>IMCO,</strong> mejorando un poco su posición respecto a la medición anterior.</p>
+
+<p>En el indicador de <strong>visitas a museos del INAH</strong> por cada mil habitantes, La <strong>Zona Metropolitana de La Laguna se ubicó en el lugar 20 del ranking,</strong> recuperando seis lugares respecto a la anterior evaluación.</p>
+
+<p>Y en cuanto al indicador de <strong>espacios culturales</strong> por cada mil habitantes, la ZML se ubica en el <strong>lugar 54 del ranking,</strong> recuperando solo dos lugares. <strong>Esto indica que la infraestructura cultural en nuestra región aún es escasa,</strong> comparada con la de ciudades como Guanajuato, Querétaro, Zacatecas o San Luis Potosí.</p>
+
+<p>Dentro del <strong>Plan Estratégico de Torreón "TRC 2040"</strong> en el eje de Desarrollo Social, se identificó como una de las problemáticas la deficiencia que existe en cuanto a infraestructura y servicios culturales, artísticos y deportivos  en la Zona Metropolitana de la Laguna, además de ser poco inclusivos los espacios existentes.</p>
+
+<p>De acuerdo con el <strong>Sistema de Información Cultural de la Secretaría de Cultura</strong> a nivel federal,  se cuentan con <strong>13 espacios culturales</strong> físicamente delimitados <strong>por cada 100 mil habitantes</strong> en la <strong>Zona Metropolitana de la Laguna,</strong> así como 20 bibliotecas públicas. Torreón tiene <strong>16</strong> espacios culturales por cada 100 mil habitantes, mientras que Gómez Palacio cuenta con <strong>10,</strong> Lerdo con <strong>13</strong> y Matamoros con <strong>8.</strong></p>
+
+<p>Los espacios culturales se dividen en: <strong>museos, teatros, centros culturales, galerías, auditorios, bibliotecas, librerías, casas de artesanías, universidades y centros de educación.</strong></p>
+
+<p>Para el 2014, en la ciudad de Torreón existen espacios para la expresión cultural, tales como: <strong>4  Teatros,</strong> entre ellos el Teatro Isauro Martínez y el Teatro Nazas, <strong>2 Auditorios,</strong> el Auditorio Municipal y el Coliseo Centenario recientemente reinaugurado; <strong>10 Museos,</strong>  como el Museo Arocena, el Museo de la Revolución, el Museo del Ferrocarril, el Museo Histórico de la Ciudad: Casa del Cerro, por nombrar algunos; <strong>4 centros culturales,</strong> el Centro Cultural José R. Mijares y el Centro Cultural Pablo C. Moreno son algunos; <strong>7 Galerías</strong> muy diversas, entre ellas la Galería Cacto, la Galería de Arte Contemporáneo, y la Galería del Deporte Lagunero; <strong>10 centros de educación,</strong> uno de ellos, el Centro de Iniciación Artística Pilar Rioja; así como <strong>20 bibliotecas,</strong> entre ellas, la Biblioteca Pública Municipal José García de Letona que se encuentra al Interior de la Alameda Zaragoza.</p>
+
+<h3>Infraestructura aun insuficiente</h3>
+
+<p>Comparada con otras ciudades, <strong>a La Laguna aún le falta crecimiento en infraestructura cultural.</strong> Por ejemplo en la Ciudad de Querétaro  existen 16 teatros y 12 museos y 29 librerías.  En San Luis Potosí hay 8 teatros y 14 museos. En Guanajuato existen 17 museos; por mencionar algunos municipios del país.</p>
+
+<p>En el caso de los museos, la oferta ha crecido en la Comarca, con acciones como las que emprende el <strong>Museo Arocena</strong> de invitar a la totalidad de escuelas primarias públicas a visitar sus instalaciones cada año. El recinto que este 2016 celebra su décimo aniversario ha recibido desde su apertura la visita de alrededor de 700,000 personas y <strong>se ha convertido en el museo más grande en metros cuadrados en el norte del país.</strong></p>
+
+<p><strong>Los municipios que más requieren aumentar</strong> su oferta y promover el crecimiento de su infraestructura cultural, para impactar de forma favorable en la competitividad y calidad de vida de la metrópoli, <strong>son Gómez Palacio</strong> y <strong>Matamoros.</strong></p>
+
+<p>A su vez destaca el caso de <strong>Lerdo,</strong> que a pesar de tener una cuarta parte de la población de Torreón en infraestructura cultural y edificios históricos <strong>está muy cerca de Torreón</strong> en sus indicadores.</p>
+
+<p>En general, <strong>en La Laguna se respira en los últimos años un impulso a la cultura,</strong> gracias sobre todo a iniciativas independientes y colectivos artísticos, sumado a los festivales organizados en plazas, teatros y demás espacios públicos por parte del gobierno que también han ido en aumento. Todo esto nos abonará en mejores indicadores de calidad de vida para nuestra región, algo en lo que todos salimos ganando.</p>
+
+<h3>Espacios culturales</h3>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Municipio</th>
+  <th align="right">2008</th>
+  <th align="right">2009</th>
+  <th align="right">2010</th>
+  <th align="right">2011</th>
+  <th align="right">2012</th>
+  <th align="right">2013</th>
+  <th align="right">2014</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Matamoros</td>
+  <td align="right">12</td>
+  <td align="right">12</td>
+  <td align="right">12</td>
+  <td align="right">12</td>
+  <td align="right">12</td>
+  <td align="right">12</td>
+  <td align="right">12</td>
+</tr>
+<tr>
+  <td>Torreón</td>
+  <td align="right">239</td>
+  <td align="right">239</td>
+  <td align="right">239</td>
+  <td align="right">239</td>
+  <td align="right">239</td>
+  <td align="right">239</td>
+  <td align="right">264</td>
+</tr>
+<tr>
+  <td>Gómez Palacio</td>
+  <td align="right">52</td>
+  <td align="right">52</td>
+  <td align="right">52</td>
+  <td align="right">52</td>
+  <td align="right">52</td>
+  <td align="right">52</td>
+  <td align="right">73</td>
+</tr>
+<tr>
+  <td>Lerdo</td>
+  <td align="right">32</td>
+  <td align="right">32</td>
+  <td align="right">32</td>
+  <td align="right">32</td>
+  <td align="right">32</td>
+  <td align="right">32</td>
+  <td align="right">53</td>
+</tr>
+</tbody>
+</table>
+
+<p>Con información de Arq. Ángeles Melisa Rodríguez Salas.</p>
+
+<h3>Este análisis fue publicado en Milenio Laguna</h3>
+
+<ul>
+<li><a href="http://www.milenio.com/region/Milenio_Noticias-Nuestra_Metropoli_desde_el_IMPLAN-IMPLAN_Torreon-Cultura_Laguna_0_830916954.html">El Papel de la Cultura en la Competitividad</a></li>
+</ul>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fel-papel-de-la-cultura-en-la-competitividad.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

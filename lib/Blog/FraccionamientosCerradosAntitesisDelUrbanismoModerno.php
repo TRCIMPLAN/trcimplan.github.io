@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - Grupos vulnerables: el objetivo del proyecto Ciudad DIF
+ * Sitio Web - Fraccionamientos cerrados: antítesis del urbanismo moderno
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -23,25 +23,25 @@
 namespace Blog;
 
 /**
- * Clase GruposVulnerablesElObjetivoDelProyectoCiudadDIF
+ * Clase FraccionamientosCerradosAntitesisDelUrbanismoModerno
  */
-class GruposVulnerablesElObjetivoDelProyectoCiudadDIF extends \Base\Publicacion {
+class FraccionamientosCerradosAntitesisDelUrbanismoModerno extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Grupos vulnerables: el objetivo del proyecto Ciudad DIF';
-        $this->autor           = 'Lic. Adriana Vargas Flores';
-        $this->fecha           = '2016-10-06T12:30';
+        $this->nombre          = 'Fraccionamientos cerrados: antítesis del urbanismo moderno';
+        $this->autor           = array('Arq. Teresita Benítez Saludado', 'Ing. Luis Campos Hinojosa');
+        $this->fecha           = '2016-10-20T09:40';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'grupos-vulnerables-el-objetivo-del-proyecto-ciudad-dif';
-        $this->imagen          = 'grupos-vulnerables-el-objetivo-del-proyecto-ciudad-dif/imagen.jpg';
-        $this->imagen_previa   = 'grupos-vulnerables-el-objetivo-del-proyecto-ciudad-dif/imagen-previa.jpg';
+        $this->archivo         = 'fraccionamientos-cerrados-antitesis-del-urbanismo-moderno';
+        $this->imagen          = 'fraccionamientos-cerrados-antitesis-del-urbanismo-moderno/imagen.jpg';
+        $this->imagen_previa   = 'fraccionamientos-cerrados-antitesis-del-urbanismo-moderno/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'El actual crecimiento de la ciudad demanda un aumento en la infraestructura que permita la integración social de todos los grupos vulnerables cuya población ha ido creciendo en los últimos años.';
-        $this->claves          = 'IMPLAN, Torreon, Grupos Vulnerables, Ciudad DIF, Adutos Mayores, Migrantes';
+        $this->descripcion     = 'Los fraccionamientos cerrados incentivan la segmentación, la fragmentación y el resentimiento social. De los conglomerados habitacionales desarrollados entre 2005 y 2013, casi 70% son de acceso cerrado o controlado.';
+        $this->claves          = 'IMPLAN, Torreon, Fraccionamientos Cerrados, Urbanismo';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -59,13 +59,13 @@ class GruposVulnerablesElObjetivoDelProyectoCiudadDIF extends \Base\Publicacion 
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/Blog/GruposVulnerablesElObjetivoDelProyectoCiudadDIF.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/FraccionamientosCerradosAntitesisDelUrbanismoModerno.md';
         // Para el Organizador
-        $this->categorias      = array('Bienestar', 'Grupos Vulnerables', 'Salud');
-        $this->fuentes         = array('IMPLAN');
+        $this->categorias      = array('Vivienda');
+        $this->fuentes         = array('INEGI');
         $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase GruposVulnerablesElObjetivoDelProyectoCiudadDIF
+} // Clase FraccionamientosCerradosAntitesisDelUrbanismoModerno
 
 ?>

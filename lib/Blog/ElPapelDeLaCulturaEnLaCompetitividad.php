@@ -1,6 +1,6 @@
 <?php
 /**
- * Sitio Web - Grupos vulnerables: el objetivo del proyecto Ciudad DIF
+ * Sitio Web - El papel de la cultura en la competitividad
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -23,25 +23,25 @@
 namespace Blog;
 
 /**
- * Clase GruposVulnerablesElObjetivoDelProyectoCiudadDIF
+ * Clase ElPapelDeLaCulturaEnLaCompetitividad
  */
-class GruposVulnerablesElObjetivoDelProyectoCiudadDIF extends \Base\Publicacion {
+class ElPapelDeLaCulturaEnLaCompetitividad extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Grupos vulnerables: el objetivo del proyecto Ciudad DIF';
+        $this->nombre          = 'El papel de la cultura en la competitividad';
         $this->autor           = 'Lic. Adriana Vargas Flores';
-        $this->fecha           = '2016-10-06T12:30';
+        $this->fecha           = '2016-10-20T10:20';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'grupos-vulnerables-el-objetivo-del-proyecto-ciudad-dif';
-        $this->imagen          = 'grupos-vulnerables-el-objetivo-del-proyecto-ciudad-dif/imagen.jpg';
-        $this->imagen_previa   = 'grupos-vulnerables-el-objetivo-del-proyecto-ciudad-dif/imagen-previa.jpg';
+        $this->archivo         = 'el-papel-de-la-cultura-en-la-competitividad';
+        $this->imagen          = 'el-papel-de-la-cultura-en-la-competitividad/imagen.jpg';
+        $this->imagen_previa   = 'el-papel-de-la-cultura-en-la-competitividad/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'El actual crecimiento de la ciudad demanda un aumento en la infraestructura que permita la integración social de todos los grupos vulnerables cuya población ha ido creciendo en los últimos años.';
-        $this->claves          = 'IMPLAN, Torreon, Grupos Vulnerables, Ciudad DIF, Adutos Mayores, Migrantes';
+        $this->descripcion     = 'La ZML ocupa el lugar 54 en el ranking nacional por el número de espacios culturales con los que cuenta. Su infraestructura aún es escasa comparada con la de otras ciudades importantes del país.';
+        $this->claves          = 'IMPLAN, Torreon, Cultura, Museos, Bibliotecas';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'blog';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -59,13 +59,13 @@ class GruposVulnerablesElObjetivoDelProyectoCiudadDIF extends \Base\Publicacion 
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/Blog/GruposVulnerablesElObjetivoDelProyectoCiudadDIF.md';
+        $this->contenido_archivo_markdown = 'lib/Blog/ElPapelDeLaCulturaEnLaCompetitividad.md';
         // Para el Organizador
-        $this->categorias      = array('Bienestar', 'Grupos Vulnerables', 'Salud');
-        $this->fuentes         = array('IMPLAN');
-        $this->regiones        = array('Torreón');
+        $this->categorias      = array('Competitividad', 'Cultura');
+        $this->fuentes         = array('Instituto Nacional de Bellas Artes (INBA)');
+        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
-} // Clase GruposVulnerablesElObjetivoDelProyectoCiudadDIF
+} // Clase ElPapelDeLaCulturaEnLaCompetitividad
 
 ?>
