@@ -292,6 +292,12 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
             <td>Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
+          <tr>
+            <td>30/09/2016</td>
+            <td>9</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
@@ -313,36 +319,36 @@ class SeguridadRoboANegocios extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2016-08-30</td>
-            <td>51</td>
+            <td>2016-09-30</td>
+            <td>79</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2016-08-31</td>
-            <td>22</td>
+            <td>2016-09-30</td>
+            <td>30</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-08-31</td>
-            <td>5</td>
-            <td>Ayuntamiento de Torreón</td>
+            <td>2016-09-30</td>
+            <td>9</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2016-08-31</td>
-            <td>6</td>
+            <td>2016-09-30</td>
+            <td>0</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-08-31</td>
-            <td>84</td>
+            <td>2016-09-30</td>
+            <td>118</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -369,7 +375,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 51 },{ region: 'Gómez Palacio', dato: 22 },{ region: 'Lerdo', dato: 5 },{ region: 'Matamoros', dato: 6 },{ region: 'La Laguna', dato: 84 }],
+      data: [{ region: 'Torreón', dato: 79 },{ region: 'Gómez Palacio', dato: 30 },{ region: 'Lerdo', dato: 9 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 118 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -598,6 +604,12 @@ FINAL;
             <td>31/08/2016</td>
             <td>5</td>
             <td>Ayuntamiento de Torreón</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2016</td>
+            <td>9</td>
+            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
         </tbody>

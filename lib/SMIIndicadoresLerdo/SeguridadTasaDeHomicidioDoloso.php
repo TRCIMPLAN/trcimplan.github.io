@@ -165,16 +165,16 @@ class SeguridadTasaDeHomicidioDoloso extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Coahuila</td>
-            <td>2016-08-31</td>
-            <td>5.44 %</td>
+            <td>2016-09-30</td>
+            <td>5.98 %</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
           <tr>
             <td>Durango</td>
-            <td>2016-08-31</td>
-            <td>8.58 %</td>
-            <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
+            <td>2016-09-30</td>
+            <td>9.71 %</td>
+            <td>Ayuntamiento de Torreón</td>
             <td></td>
           </tr>
         </tbody>
@@ -200,7 +200,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 5.4400 },{ region: 'Durango', dato: 8.5800 }],
+      data: [{ region: 'Torreón', dato: 0 },{ region: 'Gómez Palacio', dato: 0 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 0 },{ region: 'La Laguna', dato: 0 },{ region: 'Coahuila', dato: 5.9800 },{ region: 'Durango', dato: 9.7100 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
