@@ -48,7 +48,7 @@ class InformacionFinanciera extends \Base\Publicacion {
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu      = 'Institucional > Información Financiera';
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado           = 'publicar';
+        $this->estado           = 'ignorar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir   = false;
         // El contenido es estructurado en un esquema

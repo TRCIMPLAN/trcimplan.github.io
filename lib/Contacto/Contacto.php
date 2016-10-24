@@ -104,7 +104,7 @@ FINAL;
     <li>Ilse Ávila, Director de Proyectos: <a href="mailto:iavila@trcimplan.gob.mx">iavila@trcimplan.gob.mx</a></li>
     <li>Luis Campos, Director de Planeación Urbana: <a href="mailto:lcampos@trcimplan.gob.mx">lcampos@trcimplan.gob.mx</a></li>
     <li>Rodrigo González, Director de Investigación Estratégica: <a href="mailto:rgonzalez@trcimplan.gob.mx">rgonzalez@trcimplan.gob.mx</a></li>
-    <li>Jesús Antonio García Aguirre: <a href="mailto:jgarcia@trcimplan.gob.mx">jgarcia@trcimplan.gob.mx</a></li>
+    <li>Jesús Antonio García Aguirre, Coordinador Administrativo: <a href="mailto:jgarcia@trcimplan.gob.mx">jgarcia@trcimplan.gob.mx</a></li>
     <li>Guillermo Valdés, Administrador del Sitio Web: <a href="mailto:webmaster@trcimplan.gob.mx">webmaster@trcimplan.gob.mx</a></li>
 </ul>
 

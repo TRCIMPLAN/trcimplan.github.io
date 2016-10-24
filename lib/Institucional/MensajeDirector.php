@@ -38,7 +38,7 @@ class MensajeDirector extends \Base\Publicacion {
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'mensaje-director';
         $this->imagen           = 'mensaje-director/eduardo-olguin.jpg';
-        $this->imagen_previa    = 'mensaje-director/eduardo-olguin.jpg';
+        $this->imagen_previa    = 'mensaje-director/eduardo-olguin-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno.
         $this->descripcion      = 'Mensaje del Director General Ejecutivo del IMPLAN Torreón.';
         $this->claves           = 'IMPLAN, Torreon, Director';
@@ -54,7 +54,7 @@ class MensajeDirector extends \Base\Publicacion {
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaArticle();
         $schema->description    = $this->descripcion;
-        $schema->image          = $this->imagen_previa;
+        $schema->image          = $this->imagen;
         $schema->image_show     = true; // Foto del Director General
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;

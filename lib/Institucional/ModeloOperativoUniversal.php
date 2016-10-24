@@ -36,8 +36,8 @@ class ModeloOperativoUniversal extends \Base\Publicacion {
         $this->fecha            = '2016-08-19T08:00';
         // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales). Use minúsculas, números y/o guiones medios.
         $this->archivo          = 'modelo-operativo-universal';
-        $this->imagen           = 'modelo-operativo-universal/imagen.jpg';
-        $this->imagen_previa    = 'modelo-operativo-universal/imagen-previa.jpg';
+     // $this->imagen           = 'modelo-operativo-universal/imagen.jpg';
+     // $this->imagen_previa    = 'modelo-operativo-universal/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion      = 'Esta propuesta de IMPLAN se sustenta en la experiencia obtenida por los Institu­tos Municipales de Planea­ción -IMPLANES-,­­ actualmente­ en operación en más de 70 ciuda­des de la república mexicana.';
         $this->claves           = 'IMPLAN, Torreon, Modelo Operativo Universal';

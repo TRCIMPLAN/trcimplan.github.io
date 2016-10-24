@@ -61,7 +61,6 @@ class PaginaInicialConfig extends \Base\Plantilla {
         'Quienes Somos'                     => 'institucional/quienes-somos.html',
         'Estructura Orgánica'               => 'institucional/estructura-organica.html',
         'Reglamentos'                       => 'institucional/reglamentos.html',
-        'Información Financiera'            => 'institucional/informacion-financiera.html',
         'Consejo Directivo'                 => 'consejo-directivo/integrantes.html'); //
     public $mapa_interaccion   = array(
         'Contacto'                          => 'contacto/contacto.html',
