@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - IMPLAN Torreón presenta resultados de Doing Business y del índice de Competitividad Urbana del IMCO
+ * TrcIMPLAN Sitio Web - IMPLAN Torreón participa en el Congreso Internacional Ciudades y Transporte
  *
- * Copyright (C) 2016 Guillermo Valdés Lozano
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,25 +23,25 @@
 namespace SalaPrensa;
 
 /**
- * Clase SesionOrdinaria20160930
+ * Clase CongresoInternacionalCiudadesTransporte2016
  */
-class SesionOrdinaria20160930 extends \Base\Publicacion {
+class CongresoInternacionalCiudadesTransporte2016 extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'IMPLAN Torreón presenta resultados de Doing Business y del índice de Competitividad Urbana del IMCO';
+        $this->nombre          = 'IMPLAN Torreón participa en el Congreso Internacional Ciudades y Transporte';
     //~ $this->autor           = '';
-        $this->fecha           = '2016-09-30T10:00';
+        $this->fecha           = '2016-10-12T12:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = '2016-09-30-sesion-ordinaria';
-        $this->imagen          = '2016-09-30-sesion-ordinaria/imagen.jpg';
-        $this->imagen_previa   = '2016-09-30-sesion-ordinaria/imagen-previa.jpg';
+        $this->archivo         = '2016-10-12-congreso-internacional-ciudades-transporte';
+        $this->imagen          = '2016-10-12-congreso-internacional-ciudades-transporte/imagen.jpg';
+        $this->imagen_previa   = '2016-10-12-congreso-internacional-ciudades-transporte/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Novena Sesión Ordinaria del Consejo Directivo del IMPLAN Torreón.';
-        $this->claves          = 'IMPLAN, Torreon, Sesion, Consejo Directivo';
+        $this->descripcion     = 'El director de planeación Luis Campos participó como ponente en el panel "Gobiernos Abiertos: experiencias y lecciones aprendidas en ciudades mexicanas".';
+        $this->claves          = 'IMPLAN, Torreon, Gobierno, Abierto';
         // El directorio en la raíz donde se guardará el archivo HTML
         $this->directorio      = 'sala-prensa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -61,13 +61,13 @@ class SesionOrdinaria20160930 extends \Base\Publicacion {
         // El contenido es una instancia de SchemaBlogPosting
         $this->contenido       = $schema;
         // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
-        $this->contenido_archivo_markdown = 'lib/SalaPrensa/SesionOrdinaria20160930.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/CongresoInternacionalCiudadesTransporte2016.md';
         // Para el Organizador
         $this->categorias      = array();
         $this->fuentes         = array();
         $this->regiones        = array('Torreón');
     } // constructor
 
-} // Clase SesionOrdinaria20160930
+} // Clase CongresoInternacionalCiudadesTransporte2016
 
 ?>
