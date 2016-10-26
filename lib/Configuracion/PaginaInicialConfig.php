@@ -352,7 +352,7 @@ FINAL;
         // Elaborar secciones
         $this->organizacion();
         $this->destacado();
-        $this->aviso();
+    //  $this->aviso();
         $this->novedades();
         $this->investigaciones();
         $this->mapa();
