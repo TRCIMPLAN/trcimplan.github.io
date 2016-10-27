@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - SIG Mapas Patrimonio Histórico
+ * TrcIMPLAN - SIG Mapas Ámbito Regional de la Zona Metropolitana de La Laguna
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -23,26 +23,26 @@
 namespace SIGMapasTorreon;
 
 /**
- * Clase PatrimonioHistorico
+ * Clase AmbitoRegionalZonaMetropolitanaLaguna
  */
-class PatrimonioHistorico extends \Base\Publicacion {
+class AmbitoRegionalZonaMetropolitanaLaguna extends \Base\Publicacion {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre             = 'Patrimonio Histórico';
-        $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
-        $this->fecha              = '2015-06-22T15:00';
+        $this->nombre             = 'Ámbito Regional de la Zona Metropolitana de La Laguna';
+        $this->autor              = 'Arq. Jair Miramontes Chávez';
+        $this->fecha              = '2016-10-27T11:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo            = 'patrimonio-historico';
-        $this->imagen             = 'patrimonio-historico/imagen.jpg';
-        $this->imagen_previa      = 'patrimonio-historico/imagen-previa.jpg';
+        $this->archivo            = 'ambito-regional-zona-metropolitana-laguna';
+        $this->imagen             = 'ambito-regional-zona-metropolitana-laguna/imagen.jpg';
+        $this->imagen_previa      = 'ambito-regional-zona-metropolitana-laguna/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion        = 'Ubicación de las edificaciones consideradas como patrimonios históricos por el I.N.B.A. y el I.N.A.H.';
-        $this->claves             = 'IMPLAN, Torreon, Cultura, Patrimonio, Historia';
-        $this->categorias         = array('Cultura');
+        $this->descripcion        = 'Zona Metropolitana de La Laguna con vinculación regional inmediata y su conexión con el Corredor Interoceánico Mazatlán – Matamoros.';
+        $this->claves             = 'Carreteras, Corredor, Mazatlan, Torreon, Gomez Palacio, Lerdo, Matamoros, Saltillo, Monterrey, Matamoros';
+        $this->categorias         = array('Infraestructura', 'Vialidad');
         // El nombre del directorio en la raíz del sitio donde se escribirá el archivo HTML
         $this->directorio         = 'sig-mapas-torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
@@ -52,7 +52,7 @@ class PatrimonioHistorico extends \Base\Publicacion {
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/3004fe8c-c29c-11e4-ac24-0e4fddd5de28/embed_map';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/viz/8ac33b30-68f7-11e4-871f-0e018d66dc29/embed_map';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -65,8 +65,7 @@ class PatrimonioHistorico extends \Base\Publicacion {
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/3004fe8c-c29c-11e4-ac24-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-<p><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b></p>
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/viz/8ac33b30-68f7-11e4-871f-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><br><b>VERSIÓN DE DIVULGACIÓN E INFORMACIÓN, NO PRODUCE EFECTOS JURÍDICOS.</b>
 FINAL;
         // Instancia de SchemaPlace agrupa la región y el mapa
         $lugar                    = new \Base\SchemaPlace();
@@ -115,6 +114,6 @@ FINAL;
         return parent::redifusion_html();
     } // redifusion_html
 
-} // Clase PatrimonioHistorico
+} // Clase AmbitoRegionalZonaMetropolitanaLaguna
 
 ?>

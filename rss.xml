@@ -5,11 +5,21 @@
     <link>http://www.trcimplan.gob.mx</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Mon, 24 Oct 2016 15:48:45 -0500</pubDate>
+    <pubDate>Thu, 27 Oct 2016 14:20:45 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>IMPLAN Torreón Sitio Web v2.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ámbito Regional de la Zona Metropolitana de La Laguna</title>
+      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/ambito-regional-zona-metropolitana-laguna.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-ambito-regional-zona-metropolitana-laguna</guid>
+      <pubDate>Thu, 27 Oct 2016 11:00:00 -0500</pubDate>
+      <author>Arq. Jair Miramontes Chávez</author>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/ambito-regional-zona-metropolitana-laguna.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/ambito-regional-zona-metropolitana-laguna/imagen.jpg"><br>
+
+Zona Metropolitana de La Laguna con vinculación regional inmediata y su conexión con el Corredor Interoceánico Mazatlán – Matamoros.</a>]]></description>
+    </item>
     <item>
       <title>El papel de la cultura en la competitividad</title>
       <link>http://www.trcimplan.gob.mx/blog/el-papel-de-la-cultura-en-la-competitividad.html</link>
@@ -683,16 +693,6 @@
 <li><a href="http://www.milenio.com/region/Milenio_Noticias-Nuestra_Metropoli_desde_el_IMPLAN-IMPLAN_Torreon-peatonalizacion_0_814118647.html">Beneficios de la peatonalización en el Centro de Torreón</a></li>
 </ul>
 ]]></description>
-    </item>
-    <item>
-      <title>Parques Industriales</title>
-      <link>http://www.trcimplan.gob.mx/sig-mapas-torreon/parques-industriales.html</link>
-      <guid isPermaLink="false">sig-mapas-torreon-parques-industriales</guid>
-      <pubDate>Wed, 14 Sep 2016 09:57:00 -0500</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig-mapas-torreon/parques-industriales.html"><img src="http://www.trcimplan.gob.mx/sig-mapas-torreon/parques-industriales/imagen.jpg"><br>
-
-Ubicación de parques industriales en la ciudad de Torreón.</a>]]></description>
     </item>
   </channel>
 </rss>
