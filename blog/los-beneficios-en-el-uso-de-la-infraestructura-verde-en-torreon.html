@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===========================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Este sistema fue elaborado por personal del IMPLAN Torreón.
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
+          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+        Al usarlo está aceptando los términos de uso de la información y del sitio web:
+          http://trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://trcimplan.gob.mx/terminos/terminos-sitio.html
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          Twitter Bootstrap    http://getbootstrap.com
+          StartBootStrap       http://startbootstrap.com
+          Morris.js            https://morrisjs.github.io/morris.js/
+          LeafLet              http://leafletjs.com
+          CartoDB              http://cartodb.com
+        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
+          GitHub               https://github.com/TRCIMPLAN
+
+     =========================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Implementar la Infraestructura Verde en la planeación de la ciudad podría tener beneficios ambientales, económicos, sociales y de salud. Entre otros puntos fomenta la creación de espacios públicos arborizados que atraen a las personas a realizar actividades recreativas.">
+  <meta name="author" content="Arq. Cecilio Pedro Secunza Schott">
+  <meta name="keywords" content="IMPLAN, Torreon, Sustentabilidad, Infraestructura">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Los beneficios en el uso de la Infraestructura Verde en Torreón - IMPLAN Torreón">
+  <meta name="twitter:description" content="Implementar la Infraestructura Verde en la planeación de la ciudad podría tener beneficios ambientales, económicos, sociales y de salud. Entre otros puntos fomenta la creación de espacios públicos arborizados que atraen a las personas a realizar actividades recreativas.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/blog/los-beneficios-en-el-uso-de-la-infraestructura-verde-en-torreon/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/blog/los-beneficios-en-el-uso-de-la-infraestructura-verde-en-torreon.html">
+  <meta name="og:title" content="Los beneficios en el uso de la Infraestructura Verde en Torreón - IMPLAN Torreón">
+  <meta name="og:description" content="Implementar la Infraestructura Verde en la planeación de la ciudad podría tener beneficios ambientales, económicos, sociales y de salud. Entre otros puntos fomenta la creación de espacios públicos arborizados que atraen a las personas a realizar actividades recreativas.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/blog/los-beneficios-en-el-uso-de-la-infraestructura-verde-en-torreon/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/blog/los-beneficios-en-el-uso-de-la-infraestructura-verde-en-torreon.html">
+  <title>Los beneficios en el uso de la Infraestructura Verde en Torreón - IMPLAN Torreón</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
+  <link href="../css/morris.css" rel="stylesheet">
+  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.css" rel="stylesheet">
+  <link href="../css/trcimplan.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Documentos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado" style="background-color:#800000;">
+          <h1 itemprop="name">Los beneficios en el uso de la Infraestructura Verde en Torreón</h1>
+          <div class="encabezado-descripcion" itemprop="description">Implementar la Infraestructura Verde en la planeación de la ciudad podría tener beneficios ambientales, económicos, sociales y de salud. Entre otros puntos fomenta la creación de espacios públicos arborizados que atraen a las personas a realizar actividades recreativas.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Arq. Cecilio Pedro Secunza Schott</span>
+          - <meta itemprop="datePublished" content="2016-11-04T13:22">04/11/2016 13:22
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Los beneficios en el uso de la Infraestructura Verde en Torreón" src="los-beneficios-en-el-uso-de-la-infraestructura-verde-en-torreon/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>Contar con <strong>camellones sobre bulevares y vialidades principales que funcionen como cuencas de infiltración o áreas de estacionamiento con jardines de lluvia,</strong> es parte del concepto <strong>"Infraestructura Verde",</strong> que podría comenzar a aplicarse en <strong>Torreón</strong> con múltiples beneficios.</p>
+
+<p>Del 26 al 28 de octubre la <strong>Dirección General de Medio Ambiente</strong> encabezada por <strong>Susana Estens,</strong> llevaron a cabo un taller teórico-práctico de <strong>Infraestructura Verde</strong> impartido por el doctor <strong>Joaquín Murrieta,</strong> miembro de <strong>Watershed Managment Group de Tucson, Arizona.</strong> En este espacio se profundizó en la gran oportunidad que existe en la ciudad para aprovechar el agua de lluvia, dejándola de ver como un problema para convertirla en un recurso.</p>
+
+<p>La infraestructura verde consiste en una red de elementos que pretenden resolver problemáticas urbanas, climatológicas y ambientales mediante la "construcción con naturaleza". <strong>Sus principales estrategias incluyen el manejo puntual de aguas pluviales, la adaptación climática de la ciudad, reducción de la vulnerabilidad a catástrofes naturales, el fomento a la biodiversidad, así como la arborización nativa y adaptada a la región.</strong></p>
+
+<p>Existen diferentes <strong>componentes principales de la Infraestructura Verde:</strong></p>
+
+<p><strong>El manejo de agua pluvial,</strong> que consiste en la cosecha de agua de lluvia mediante cuencas de infiltración en camellones, jardineras de banquetas y estacionamientos con pavimentos permeables.</p>
+
+<p><strong>El paisajismo o "Xerostaje"</strong> (diseño de paisaje y arborización con un catálogo de especies de árboles y arbustos nativos de la región o adaptados a ella)</p>
+
+<p><strong>Elementos urbanos como calles completas</strong> - verdes con pavimentos permeables y estacionamientos verdes.</p>
+
+<h3>Impactos en la ciudad</h3>
+
+<p>Implementar Infraestructura Verde en la planeación de la ciudad de Torreón podría tener beneficios cuantificables en diferentes ámbitos:</p>
+
+<ul>
+<li><strong>Ambientales:</strong> Mejora la calidad del agua infiltrada al subsuelo, se resuelven puntualmente los encharcamientos, contribuye a la recarga del acuífero, promueve la resiliencia climática y la biodiversidad urbana, así como la reducción del efecto "Isla de Calor".</li>
+<li><strong>Económicos:</strong> Zonas sin encharcamientos y buen diseño paisajístico han demostrado aumentar las plusvalías en áreas tanto residenciales como comerciales. A su vez, el costo de infraestructura verde vs infraestructura gris, puede ser considerablemente menor.</li>
+<li><strong>Sociales:</strong> Fomenta la creación de espacios públicos arborizados, con sombra, que atraen a las personas a realizar actividades recreativas.</li>
+<li><strong>Salud:</strong> Se fomenta la actividad física, disminuyendo problemas de salud como obesidad, diabetes, enfermedades cardiovasculares etc. También contribuye a mejorar la calidad del aire mediante el "secuestro del carbono".</li>
+</ul>
+
+<h3>¿Cómo se puede aplicar en Torreón?</h3>
+
+<p><strong>La Infraestructura Verde es un acercamiento de Urbanismo Táctico</strong> (que significa resolver los problemas de la ciudad de manera puntual) donde a través acciones ligeras, de bajo perfil económico y pocos recursos, se pretende resolver problemáticas urbanas. En la ciudad, <strong>se podrían aplicar acciones en distintos puntos estratégicos:</strong></p>
+
+<ul>
+<li><strong>En camellones sobre bulevares y vialidades principales</strong> que funcionen como cuencas de infiltración y jardines de lluvia, haciendo cortes en guarniciones (cordones) para permitir la entrada de agua pluvial desde el arroyo vehicular: los encharcamientos se liberan mientras que el agua se utiliza para abastecer la vegetación e infiltrar hacia el subsuelo.</li>
+<li><strong>En áreas de estacionamiento</strong> en centros comerciales con jardines de lluvia y cuencas de infiltración para que no tengan escurrimientos hacia la calle, provocando encharcamientos críticos.</li>
+<li><strong>Y con el uso de reglamentos adecuados.</strong> <strong>El Reglamento de Desarrollo Urbano, Zonificación, Uso de Suelo y Construcción</strong> contempla por primera vez el <strong>Coeficiente de Absorción del Suelo (CAS)</strong> donde se obliga a que la edificación libere un porcentaje del predio (dependiendo de la densidad del Uso de Suelo) para que esta permita la absorción del agua. Puede ser resuelto con tierra, pasto, grava, adoquín o cualquier otro pavimento permeable.</li>
+</ul>
+
+<p>Por otra parte, el reglamento obliga a nuevos fraccionamientos a presentar un proyecto integral de manejo de aguas pluviales.</p>
+
+<p>Asimismo, dentro de la planeación urbana se puede desarrollar un <strong>Plan Maestro de Infraestructura Verde</strong> vinculado a un <strong>Sistema Metropolitano de Parques.</strong></p>
+
+<h3>Intervención urbana</h3>
+
+<p>El Taller culminó con una intervención en un camellón del bulevar <strong>Libertad</strong> en la colonia <strong>Rincón de las Noas,</strong> donde el grupo conformado por estudiantes, constructores, funcionarios, y otros voluntarios, <strong>construyeron una cuenca de infiltración de agua de lluvia</strong> en un punto crítico de la vialidad donde constantemente se presentan encharcamientos.</p>
+
+<p>La intervención consistió en hacer los movimientos de tierra para formar la cuenca, acomodar piedras en la "trampa de sedimentos", plantar árboles nativos y adaptados como "mezquites", "cenizos" y "lágrimas de San Pedro"; para finalmente esparcir el "acolchado" (mezcla de materia orgánica que evita la evaporación y la erosión).</p>
+
+<p>Se espera que este prototipo de cuenca ayude a mitigar los encharcamientos en la zona.</p>
+
+<h3>Indicadores medio ambientales en Torreón</h3>
+
+<ul>
+<li>Precipitación Anual Torreón <strong>228 mm/anuales.</strong></li>
+<li>Sobreexplotación del Acuífero <strong>100%</strong> (IMCO, 2012).</li>
+<li><strong>5,977,827 m2</strong> de Superficie de Área Verde Urbana (SEMA, 2013).</li>
+<li><strong>9.35m2</strong> de Áreas Verdes por Habitante (SEMA,2013).</li>
+<li>Coeficiente de Absorción del Suelo: <strong>Entre el 10% y el 65%</strong> (dependiendo de la densidad de Uso de Suelo) debe reservarse como área de absorción de agua pluvial.</li>
+</ul>
+
+<h3>Este análisis fue publicado en Milenio Laguna</h3>
+
+<ul>
+<li><a href="http://www.milenio.com/tendencias/Milenio_Noticias-Nuestra_Metropoli_desde_el_IMPLAN-IMPLAN-Infraetructura_Verde_0_839316106.html">Los beneficios en el uso de la Infraestructura Verde en Torreón</a></li>
+</ul>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Flos-beneficios-en-el-uso-de-la-infraestructura-verde-en-torreon.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right mapa-inferior-redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="pie">
+  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
