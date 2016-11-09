@@ -418,6 +418,24 @@ class SustentabilidadPasajerosAereosTotalesMensuales extends \Base\Publicacion {
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
+          <tr>
+            <td>31/07/2016</td>
+            <td>61,928</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/08/2016</td>
+            <td>59,501</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2016</td>
+            <td>53,258</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Personas.</p>
@@ -449,7 +467,7 @@ $('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2012-01-31', dato: 31198 },{ fecha: '2012-02-29', dato: 29353 },{ fecha: '2012-03-31', dato: 34010 },{ fecha: '2012-04-30', dato: 30685 },{ fecha: '2012-05-31', dato: 35988 },{ fecha: '2012-07-31', dato: 38722 },{ fecha: '2012-08-31', dato: 39255 },{ fecha: '2012-09-30', dato: 34182 },{ fecha: '2012-10-31', dato: 37614 },{ fecha: '2012-11-30', dato: 35856 },{ fecha: '2012-12-31', dato: 34398 },{ fecha: '2013-01-31', dato: 33338 },{ fecha: '2013-02-28', dato: 30032 },{ fecha: '2013-03-31', dato: 33574 },{ fecha: '2013-04-30', dato: 34288 },{ fecha: '2013-05-31', dato: 35548 },{ fecha: '2013-06-30', dato: 36960 },{ fecha: '2013-07-31', dato: 46259 },{ fecha: '2013-08-31', dato: 42396 },{ fecha: '2013-09-30', dato: 40305 },{ fecha: '2013-10-31', dato: 44357 },{ fecha: '2013-11-30', dato: 44446 },{ fecha: '2013-12-31', dato: 45895 },{ fecha: '2014-01-31', dato: 40735 },{ fecha: '2014-02-28', dato: 38383 },{ fecha: '2014-03-31', dato: 43883 },{ fecha: '2014-04-30', dato: 42197 },{ fecha: '2014-05-31', dato: 46761 },{ fecha: '2014-06-30', dato: 44214 },{ fecha: '2014-07-31', dato: 50483 },{ fecha: '2014-08-31', dato: 46847 },{ fecha: '2014-09-30', dato: 41393 },{ fecha: '2014-10-31', dato: 43946 },{ fecha: '2014-11-30', dato: 42264 },{ fecha: '2014-12-31', dato: 42677 },{ fecha: '2015-01-31', dato: 36810 },{ fecha: '2015-02-28', dato: 35740 },{ fecha: '2015-03-31', dato: 45201 },{ fecha: '2015-04-30', dato: 43676 },{ fecha: '2015-05-31', dato: 45529 },{ fecha: '2015-06-30', dato: 45626 },{ fecha: '2015-07-31', dato: 51813 },{ fecha: '2015-08-31', dato: 50115 },{ fecha: '2015-09-30', dato: 46698 },{ fecha: '2015-10-31', dato: 52057 },{ fecha: '2015-11-30', dato: 50786 },{ fecha: '2015-12-31', dato: 52398 },{ fecha: '2016-01-31', dato: 42204 },{ fecha: '2016-02-29', dato: 42939 },{ fecha: '2016-03-30', dato: 51846 },{ fecha: '2016-04-30', dato: 52300 },{ fecha: '2016-05-30', dato: 55215 },{ fecha: '2016-06-30', dato: 53902 }],
+      data: [{ fecha: '2012-01-31', dato: 31198 },{ fecha: '2012-02-29', dato: 29353 },{ fecha: '2012-03-31', dato: 34010 },{ fecha: '2012-04-30', dato: 30685 },{ fecha: '2012-05-31', dato: 35988 },{ fecha: '2012-07-31', dato: 38722 },{ fecha: '2012-08-31', dato: 39255 },{ fecha: '2012-09-30', dato: 34182 },{ fecha: '2012-10-31', dato: 37614 },{ fecha: '2012-11-30', dato: 35856 },{ fecha: '2012-12-31', dato: 34398 },{ fecha: '2013-01-31', dato: 33338 },{ fecha: '2013-02-28', dato: 30032 },{ fecha: '2013-03-31', dato: 33574 },{ fecha: '2013-04-30', dato: 34288 },{ fecha: '2013-05-31', dato: 35548 },{ fecha: '2013-06-30', dato: 36960 },{ fecha: '2013-07-31', dato: 46259 },{ fecha: '2013-08-31', dato: 42396 },{ fecha: '2013-09-30', dato: 40305 },{ fecha: '2013-10-31', dato: 44357 },{ fecha: '2013-11-30', dato: 44446 },{ fecha: '2013-12-31', dato: 45895 },{ fecha: '2014-01-31', dato: 40735 },{ fecha: '2014-02-28', dato: 38383 },{ fecha: '2014-03-31', dato: 43883 },{ fecha: '2014-04-30', dato: 42197 },{ fecha: '2014-05-31', dato: 46761 },{ fecha: '2014-06-30', dato: 44214 },{ fecha: '2014-07-31', dato: 50483 },{ fecha: '2014-08-31', dato: 46847 },{ fecha: '2014-09-30', dato: 41393 },{ fecha: '2014-10-31', dato: 43946 },{ fecha: '2014-11-30', dato: 42264 },{ fecha: '2014-12-31', dato: 42677 },{ fecha: '2015-01-31', dato: 36810 },{ fecha: '2015-02-28', dato: 35740 },{ fecha: '2015-03-31', dato: 45201 },{ fecha: '2015-04-30', dato: 43676 },{ fecha: '2015-05-31', dato: 45529 },{ fecha: '2015-06-30', dato: 45626 },{ fecha: '2015-07-31', dato: 51813 },{ fecha: '2015-08-31', dato: 50115 },{ fecha: '2015-09-30', dato: 46698 },{ fecha: '2015-10-31', dato: 52057 },{ fecha: '2015-11-30', dato: 50786 },{ fecha: '2015-12-31', dato: 52398 },{ fecha: '2016-01-31', dato: 42204 },{ fecha: '2016-02-29', dato: 42939 },{ fecha: '2016-03-30', dato: 51846 },{ fecha: '2016-04-30', dato: 52300 },{ fecha: '2016-05-30', dato: 55215 },{ fecha: '2016-06-30', dato: 53902 },{ fecha: '2016-07-31', dato: 61928 },{ fecha: '2016-08-31', dato: 59501 },{ fecha: '2016-09-30', dato: 53258 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -805,6 +823,24 @@ FINAL;
           <tr>
             <td>30/06/2016</td>
             <td>53,902</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/07/2016</td>
+            <td>61,928</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>31/08/2016</td>
+            <td>59,501</td>
+            <td>Operadora Mexicana de Aeropuertos (OMA)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>30/09/2016</td>
+            <td>53,258</td>
             <td>Operadora Mexicana de Aeropuertos (OMA)</td>
             <td></td>
           </tr>
