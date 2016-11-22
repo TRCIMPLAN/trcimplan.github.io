@@ -345,7 +345,7 @@ class SeguridadRobosTotales extends \Base\Publicacion {
           <tr>
             <td>Lerdo</td>
             <td>2016-10-31</td>
-            <td>ND</td>
+            <td>41</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -358,8 +358,8 @@ class SeguridadRobosTotales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-09-30</td>
-            <td>600</td>
+            <td>2016-10-31</td>
+            <td>540</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -402,7 +402,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 290 },{ region: 'Gómez Palacio', dato: 179 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 30 },{ region: 'La Laguna', dato: 600 }],
+      data: [{ region: 'Torreón', dato: 290 },{ region: 'Gómez Palacio', dato: 179 },{ region: 'Lerdo', dato: 41 },{ region: 'Matamoros', dato: 30 },{ region: 'La Laguna', dato: 540 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],

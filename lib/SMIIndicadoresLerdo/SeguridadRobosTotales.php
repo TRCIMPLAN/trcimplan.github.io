@@ -85,6 +85,7 @@ class SeguridadRobosTotales extends \Base\Publicacion {
         $this->contenido->articleBody = <<<FINAL
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
+    <li><a href="#smi-indicador-grafica" data-toggle="tab">Gráfica</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -300,13 +301,17 @@ class SeguridadRobosTotales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>31/10/2016</td>
-            <td>ND</td>
+            <td>41</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Cantidad.</p>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica">
+      <h3>Gráfica de Robos Totales en Lerdo</h3>
+      <div id="graficaDatos" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Robos Totales</h3>
@@ -340,7 +345,7 @@ class SeguridadRobosTotales extends \Base\Publicacion {
           <tr>
             <td>Lerdo</td>
             <td>2016-10-31</td>
-            <td>ND</td>
+            <td>41</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -353,8 +358,8 @@ class SeguridadRobosTotales extends \Base\Publicacion {
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2016-09-30</td>
-            <td>600</td>
+            <td>2016-10-31</td>
+            <td>540</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -375,13 +380,29 @@ FINAL;
     public function javascript() {
         // JavaScript
         $this->javascript[] = <<<FINAL
+// LENGUETA smi-indicador-grafica
+$('#smi-indicador a[href="#smi-indicador-grafica"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2014-01-31', dato: 53 },{ fecha: '2014-02-28', dato: 48 },{ fecha: '2014-03-31', dato: 52 },{ fecha: '2014-04-30', dato: 39 },{ fecha: '2014-05-31', dato: 39 },{ fecha: '2014-06-30', dato: 43 },{ fecha: '2014-07-31', dato: 50 },{ fecha: '2014-08-31', dato: 37 },{ fecha: '2014-09-30', dato: 52 },{ fecha: '2014-10-31', dato: 55 },{ fecha: '2014-11-30', dato: 54 },{ fecha: '2014-12-31', dato: 25 },{ fecha: '2015-01-31', dato: 34 },{ fecha: '2015-02-28', dato: 40 },{ fecha: '2015-03-31', dato: 32 },{ fecha: '2015-04-30', dato: 29 },{ fecha: '2015-05-31', dato: 51 },{ fecha: '2015-06-30', dato: 36 },{ fecha: '2015-07-31', dato: 47 },{ fecha: '2015-08-31', dato: 35 },{ fecha: '2015-09-30', dato: 59 },{ fecha: '2015-10-31', dato: 43 },{ fecha: '2015-11-30', dato: 56 },{ fecha: '2015-12-31', dato: 38 },{ fecha: '2016-01-31', dato: 31 },{ fecha: '2016-02-29', dato: 86 },{ fecha: '2016-03-31', dato: 61 },{ fecha: '2016-04-30', dato: 49 },{ fecha: '2016-05-31', dato: 53 },{ fecha: '2016-06-30', dato: 48 },{ fecha: '2016-07-31', dato: 3 },{ fecha: '2016-08-31', dato: 55 },{ fecha: '2016-09-30', dato: 46 },{ fecha: '2016-10-31', dato: 41 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 290 },{ region: 'Gómez Palacio', dato: 179 },{ region: 'Lerdo', dato: 0 },{ region: 'Matamoros', dato: 30 },{ region: 'La Laguna', dato: 600 }],
+      data: [{ region: 'Torreón', dato: 290 },{ region: 'Gómez Palacio', dato: 179 },{ region: 'Lerdo', dato: 41 },{ region: 'Matamoros', dato: 30 },{ region: 'La Laguna', dato: 540 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -620,7 +641,7 @@ FINAL;
           </tr>
           <tr>
             <td>31/10/2016</td>
-            <td>ND</td>
+            <td>41</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
