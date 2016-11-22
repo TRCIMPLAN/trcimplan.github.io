@@ -332,8 +332,8 @@ class SeguridadRobosACasaHabitacion extends \Base\Publicacion {
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2016-09-30</td>
-            <td>15</td>
+            <td>2016-10-31</td>
+            <td>49</td>
             <td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
             <td></td>
           </tr>
@@ -397,7 +397,7 @@ $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', f
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 67 },{ region: 'Gómez Palacio', dato: 33 },{ region: 'Lerdo', dato: 15 },{ region: 'Matamoros', dato: 9 },{ region: 'La Laguna', dato: 124 },{ region: 'Coahuila', dato: 86 }],
+      data: [{ region: 'Torreón', dato: 67 },{ region: 'Gómez Palacio', dato: 33 },{ region: 'Lerdo', dato: 49 },{ region: 'Matamoros', dato: 9 },{ region: 'La Laguna', dato: 124 },{ region: 'Coahuila', dato: 86 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
