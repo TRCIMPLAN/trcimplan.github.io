@@ -33,7 +33,7 @@ class AvanceReconversionTecnologicaLedAlumbradoPublico extends \Base\Publicacion
     public function __construct() {
         // Título, autor y fecha
         $this->nombre             = 'Avance de Reconversión Tecnológica Led del Alumbrado Público';
-        $this->autor              = 'Arq. Jair Miramontes Chávez';
+        $this->autor              = 'Arq. Daniela Patricia Corral Hernández';
         $this->fecha              = '2014-09-08T08:00';
         // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
         $this->archivo            = 'avance-reconversion-tecnologica-led-alumbrado-publico';
