@@ -52,7 +52,7 @@ class AvanceReconversionTecnologicaLedAlumbradoPublico extends \Base\Publicacion
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
         $this->para_compartir     = true;
         // Para el botón de ver a pantalla completa
-        $this->url                = 'https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map';
+        $this->url                = 'https://implantorreon.carto.com/u/sigimplan/builder/e1447ce2-35fa-11e4-a9bb-0e230854a1cb/embed';
         $this->url_etiqueta       = 'Ver a pantalla completa';
         // Instancia de SchemaPostalAddress que tiene la localidad, municipio y país
         $region                   = new \Base\SchemaPostalAddress();
@@ -65,7 +65,7 @@ class AvanceReconversionTecnologicaLedAlumbradoPublico extends \Base\Publicacion
         $mapa->url                = $this->url;
         $mapa->url_label          = $this->url_etiqueta;
         $mapa->theMap             = <<<FINAL
-<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/5a6594ac-e772-11e4-a750-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.carto.com/u/sigimplan/builder/e1447ce2-35fa-11e4-a9bb-0e230854a1cb/embed' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 <p>
  <b>Nota:</b> La información mostrada está sujeta a cambios sin previo aviso por la concesionaria.<br>
  <b>Fuente:</b> Dirección General de Servicios Públicos de Torreón.<br>
