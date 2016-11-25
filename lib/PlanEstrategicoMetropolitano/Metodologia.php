@@ -43,7 +43,7 @@ class Metodologia extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Participaron ciudadanos y expertos tanto del sector público, como del privado, representantes de organizaciones civiles, universidades, ambientalistas, empresarios, ONG´s, funcionarios y políticos.';
         $this->claves                     = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano, Metodologia';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Descripción del proceso';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PlanEstrategicoMetropolitano/Metodologia.md';
         // Banderas

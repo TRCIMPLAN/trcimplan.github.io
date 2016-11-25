@@ -39,7 +39,7 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->claves                   = 'Plan, Estratégico, Torreón, 2040, Metropolitano';
     //  $this->encabezado_color         = '#DF9C0A';
         // Opción de Navegación a poner activa
-        $this->nombre_menu              = 'Plan Estratégico Torreón';
+        $this->nombre_menu              = 'Plan Estratégico Torreón 2040 > Índice Alfabético';
         // Ruta a la clase para hacer la página con el índice
         $this->indices_paginas          = '\\Base\\PaginasListadoAlfabetico'; // \\Base\\PaginasDetallados
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas

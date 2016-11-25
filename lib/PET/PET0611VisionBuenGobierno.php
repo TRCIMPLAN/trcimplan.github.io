@@ -41,7 +41,7 @@ class PET0611VisionBuenGobierno extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Visión de Buen Gobierno 2040.';
         $this->claves                     = 'Plan, Estrategico, Torreón, 2040, Metropolitano, Vision, Buen, Gobierno';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PET/PET0611VisionBuenGobierno.md';
         // Banderas

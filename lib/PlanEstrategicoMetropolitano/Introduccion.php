@@ -43,8 +43,7 @@ class Introduccion extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Marca directrices y líneas de acción derivadas de una visión (a 25 años) compartida y construida por y para los ciudadanos.';
         $this->claves                     = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano, Que es';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Metropolitano > Conoce el Plan';
-    //  $this->nombre_menu                = 'Plan Estratégico Torreón > Descripción del proceso';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PlanEstrategicoMetropolitano/Introduccion.md';
         // Banderas

@@ -43,7 +43,7 @@ class DescripcionDelProceso extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Cuatro talleres participativos cada uno con seis mesas de trabajo en cada eje.';
         $this->claves                     = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano, Descripcion';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Descripción del proceso';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Descripción del proceso';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PlanEstrategicoMetropolitano/DescripcionDelProceso.md';
         // Banderas

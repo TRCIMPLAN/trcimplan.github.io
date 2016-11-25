@@ -43,7 +43,7 @@ class MesaSaludLaguna extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Lidereado por Salud Laguna donde participaron médicos y directivos de las empresas del sector salud de la ZML.';
         $this->claves                     = 'IMPLAN, Torreon, Salud, Medicos, Laguna';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Descripción del proceso';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/PlanEstrategicoMetropolitano/MesaSaludLaguna.html';
         // Banderas

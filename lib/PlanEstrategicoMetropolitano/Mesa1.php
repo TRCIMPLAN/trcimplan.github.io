@@ -43,7 +43,7 @@ class Mesa1 extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Primer taller del Plan Estratégico Metropolitano.';
         $this->claves                     = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Descripción del proceso';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PlanEstrategicoMetropolitano/Mesa1.md';
         // Banderas

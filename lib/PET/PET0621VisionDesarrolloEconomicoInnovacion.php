@@ -41,7 +41,7 @@ class PET0621VisionDesarrolloEconomicoInnovacion extends \Base\PublicacionSchema
         $this->descripcion                = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Visión de Desarrollo Económico e Innovación 2040.';
         $this->claves                     = 'Plan, Estrategico, Torreón, 2040, Metropolitano, Vision, Desarrollo, Economico, Innovacion';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PET/PET0621VisionDesarrolloEconomicoInnovacion.md';
         // Banderas

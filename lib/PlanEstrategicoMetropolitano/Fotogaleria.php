@@ -43,7 +43,7 @@ class Fotogaleria extends \Base\Publicacion {
         $this->descripcion                = 'Presentación con las fotografías de las mesas del Plan Estratégico Metropolitano.';
         $this->claves                     = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Descripción del proceso';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Banderas
         $this->poner_imagen_en_contenido  = false;
         $this->para_compartir             = false;

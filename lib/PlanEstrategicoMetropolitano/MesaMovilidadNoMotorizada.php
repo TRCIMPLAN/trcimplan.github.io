@@ -43,7 +43,7 @@ class MesaMovilidadNoMotorizada extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Desarrollo de un sistema de movilidad urbana que empodere e integre a los modos NO motorizados de transporte en la movilidad cotidiana.';
         $this->claves                     = 'IMPLAN, Torreon, Movilidad, No Motorizada';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Descripción del proceso';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/PlanEstrategicoMetropolitano/MesaMovilidadNoMotorizada.html';
         // Banderas
