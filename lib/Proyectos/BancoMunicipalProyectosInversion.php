@@ -2,7 +2,7 @@
 /*
  * TrcIMPLAN - Banco Municipal de Proyectos de Inversión
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Proyectos;
@@ -25,47 +25,36 @@ namespace Proyectos;
 /**
  * Clase BancoMunicipalProyectosInversion
  */
-class BancoMunicipalProyectosInversion extends \Base\Publicacion {
+class BancoMunicipalProyectosInversion extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Banco Municipal de Proyectos de Inversión';
-        $this->autor           = 'Dirección de Proyectos Estratégicos';
-        $this->fecha           = '2014-05-01T08:00';
-        // El nombre del archivo a crear (obligatorio), la ruta a la imagen previa y el encabezado (opcionales)
-        $this->archivo         = 'banco-municipal-proyectos-inversion';
-        $this->imagen          = 'banco-municipal-proyectos-inversion/imagen.png';
-        $this->imagen_previa   = 'banco-municipal-proyectos-inversion/imagen-previa.png';
+        $this->nombre                     = 'Banco Municipal de Proyectos de Inversión';
+        $this->autor                      = 'Dirección de Proyectos Estratégicos';
+        $this->fecha                      = '2014-05-01T08:00';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'banco-municipal-proyectos-inversion';
+        $this->imagen                     = 'banco-municipal-proyectos-inversion/imagen.png';
+        $this->imagen_previa              = 'banco-municipal-proyectos-inversion/imagen-previa.png';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Instrumento dinámico de gestión pública, para consolidar una cultura de formulación, planeación, seguimiento y evaluación de proyectos de inversión.';
-        $this->claves          = 'IMPLAN, Torreon, Banco, Municipal, Proyectos, Inversion';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'proyectos';
+        $this->descripcion                = 'Instrumento dinámico de gestión pública, para consolidar una cultura de formulación, planeación, seguimiento y evaluación de proyectos de inversión.';
+        $this->claves                     = 'IMPLAN, Torreon, Banco, Municipal, Proyectos, Inversion';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Proyectos Estratégicos > Banco de Proyectos';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // Poner final los botones de compartir en Twitter y Facebook. Por defecto es verdadero.
-        $this->para_compartir = false;
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaArticle();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = false;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/BancoMunicipalProyectosInversion.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = false;
+        $this->para_compartir             = false;
         // Para el Organizador
-        $this->categorias      = array('Gobierno', 'Gobierno Digital');
-        $this->fuentes         = array('Ayuntamiento de Torreón');
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array('Gobierno', 'Gobierno Digital');
+        $this->fuentes                    = array('Ayuntamiento de Torreón');
+        $this->regiones                   = array('Torreón');
+        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
+        $this->estado                     = 'ignorar';
     } // constructor
 
 } // Clase BancoMunicipalProyectosInversion

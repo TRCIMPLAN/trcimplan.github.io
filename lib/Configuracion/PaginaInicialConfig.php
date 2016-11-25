@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Página Inicial Config
+ * TrcIMPLAN Sitio Web - Pagina Inicial Config
  *
- * Copyright (C) 2014-2016 Guillermo Valdés Lozano
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,6 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Configuracion;
@@ -36,6 +37,13 @@ class PaginaInicialConfig extends \Base\Plantilla {
     // public $autor;
     // public $mensaje_oculto;
     // public $pie;
+    // protected $google_analytics;
+    // protected $google_site_verification;
+    // protected $cabecera_bootstrap_css;
+    // protected $cabecera_font_awesome_css;
+    // protected $cabecera_google_fonts_css;
+    // protected $scripts_jquery_css;
+    // protected $scripts_bootstrap_js;
     // public $titulo;
     // public $descripcion;
     // public $claves;
@@ -48,35 +56,14 @@ class PaginaInicialConfig extends \Base\Plantilla {
     // public $mapa_inferior;
     // public $javascript;
     // public $contenido_en_renglon;
-    // public $google_site_verification;
-    public $mapa_servicios     = array(
-        'Análisis Publicados'               => 'blog/index.html',
-        'Indicadores'                       => 'indicadores-categorias/index.html',
-        'Información Geográfica'            => 'sig-mapas-torreon/index.html',
-        'Plan Estratégico Metropolitano'    => 'plan-estrategico-metropolitano/index.html',
-        'Proyectos Estratégicos'            => 'proyectos/index.html');
-    public $mapa_institucional = array(
-        'Visión / Misión'                   => 'institucional/vision-mision.html',
-        'Mensaje del Director'              => 'institucional/mensaje-director.html',
-        'Quienes Somos'                     => 'institucional/quienes-somos.html',
-        'Estructura Orgánica'               => 'institucional/estructura-organica.html',
-        'Reglamentos'                       => 'institucional/reglamentos.html',
-        'Consejo Directivo'                 => 'consejo-directivo/integrantes.html'); //
-    public $mapa_interaccion   = array(
-        'Contacto'                          => 'contacto/contacto.html',
-        'Preguntas Frecuentes'              => 'preguntas-frecuentes/preguntas-frecuentes.html',
-        'Sala de Prensa'                    => 'sala-prensa/index.html',
-        'Comentarios y Sugerencias'         => 'http://goo.gl/forms/1rdX4X128PpMOif73');
-    public $mapa_legal         = array(
-        'Transparencia'                     => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178',
-        'Términos de Uso de la Información' => 'terminos/terminos-informacion.html',
-        'Términos de Uso del Sitio Web'     => 'terminos/terminos-sitio.html',
-        'Aviso de Privacidad'               => 'terminos/privacidad.html');
+    public $imprentas;                        // Arreglo con rutas a las clases de ImprentaPublicaciones, es usado en ultimas_publicaciones
+    const   ULTIMAS_PUBLICACIONES_LIMITE = 4; // Cantidad límite de últimas publicaciones
 
     /**
      * Constructor
      */
     public function __construct() {
+        parent::__construct();
         // Propiedades para la página inicial
         $this->en_raiz                  = true;
         $this->titulo                   = 'IMPLAN Torreón';
@@ -87,10 +74,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->archivo_ruta             = "index.html";
         $this->imagen_previa_ruta       = 'imagenes/imagen-previa.jpg';
         $this->contenido_en_renglon     = false;
-        $this->google_site_verification = '  <meta name="google-site-verification" content="Hz-cnyG17CBaAXopvSHn7J81Za2cmg4dvnRh1VJE7ks">';
-        // Navegación
-        $this->navegacion          = new \Base\Navegacion();
-        $this->navegacion->en_raiz = true;
+        $this->google_site_verification = '<meta name="google-site-verification" content="Hz-cnyG17CBaAXopvSHn7J81Za2cmg4dvnRh1VJE7ks">';
     } // constructor
 
     /**
@@ -98,25 +82,27 @@ class PaginaInicialConfig extends \Base\Plantilla {
      */
     protected function organizacion() {
         // Encabezado
-        $organizacion              = new \Inicial\Organizacion();
-        $organizacion->name        = 'Instituto Municipal de Planeación y Competitividad de Torreón';
-        $organizacion->description = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.';
-        $organizacion->image       = 'imagenes/implan-logo.png';
+        $organizacion                 = new \PaginaInicial\Organizacion();
+        $organizacion->name           = 'Instituto Municipal de Planeación y Competitividad de Torreón';
+        $organizacion->description    = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.';
+        $organizacion->image          = 'imagenes/implan-logo.png';
+        $organizacion->is_article     = false;
+        $organizacion->big_heading    = true;
+        $organizacion->headline_style = 'organizacion';
         // Acumular
         $this->contenido[] = '  <section id="organizacion">';
     //~ $this->contenido[] = '    <a href="consejo-directivo/convocatoria-2015.html"><img class="banner" src="consejo-directivo/convocatoria-2015/banner.jpg" alt="Banner"></a>';
-    //~ $this->contenido[] = '    <a href="https://goo.gl/forms/DBepwMWfIcCzxlyB2" target="_blank"><img class="banner" src="imagenes/banner-aire-para-todos.jpg" alt="Aire Para Todos"></a>';
         $this->contenido[] = '    <img class="banner" src="imagenes/banner-implan.jpg" alt="Banner">';
         $this->contenido[] = $organizacion->html();
         $this->contenido[] = '  </section>';
     } // organizacion
 
     /**
-     * Destacado
+     * Servicios
      */
-    protected function destacado() {
+    protected function servicios() {
         // SMI
-        $smi              = new \Inicial\Destacado();
+        $smi              = new \PaginaInicial\Destacado();
         $smi->name        = 'Sistema Metropolitano de Indicadores';
         $smi->description = 'Mantenemos al día indicadores en 5 grandes temas: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad para los municipios de la Laguna.';
         $smi->image       = 'servicio-smi';
@@ -125,8 +111,9 @@ class PaginaInicialConfig extends \Base\Plantilla {
             '<i class="fa fa-th-list"></i> Por Categoría'        => 'indicadores-categorias/index.html',
             '<i class="fa fa-table"></i> Por Región'             => 'smi/por-region.html',
             '<i class="fa fa-map-marker"></i> Georreferenciados' => 'smi-georreferenciados/index.html');
+    //      '<i class="fa fa-puzzle-piece"></i> IBCTorreón'      => 'https://guivaloz.carto.com/viz/f0e6db7c-ac40-11e6-9146-0e3a376473ab/embed_map');
         // SIG
-        $sig              = new \Inicial\Destacado();
+        $sig              = new \PaginaInicial\Destacado();
         $sig->name        = 'Sistema de Información Geográfica';
         $sig->description = 'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.';
         $sig->image       = 'servicio-sig';
@@ -136,15 +123,15 @@ class PaginaInicialConfig extends \Base\Plantilla {
             '<i class="fa fa-map-marker"></i> S.I.G. de Torreón'       => 'sig-mapas-torreon/index.html',
             '<i class="fa fa-map-marker"></i> Zonificación Secundaria' => 'sig-mapas-torreon/zonificacion-secundaria.html');
         // PEM
-        $pem              = new \Inicial\Destacado();
+        $pem              = new \PaginaInicial\Destacado();
         $pem->name        = 'Plan Estratégico Metropolitano';
         $pem->description = 'Súmate al esfuerzo de planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad de La Laguna.';
         $pem->image       = 'servicio-pem';
         $pem->url         = 'plan-estrategico-metropolitano/index.html';
         $pem->botones     = array(
-            '<i class="fa fa-file-text-o"></i> Conoce el Plan'         => 'plan-estrategico-metropolitano/introduccion.html',
-            '<i class="fa fa-calendar"></i> Todas las Mesas'           => 'plan-estrategico-metropolitano/index.html',
-            '<i class="fa fa-download"></i> Documentos para descargar' => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html');
+            '<i class="fa fa-calendar"></i> Todas las Mesas'     => 'plan-estrategico-metropolitano/index.html',
+            '<i class="fa fa-file-text-o"></i> Lee el Plan'      => 'pet/indice.html',
+            '<i class="fa fa-download"></i> Descargar documento' => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html');
         // Acumular sección destacado
         $this->contenido[]  = '  <section id="destacado">';
         $this->contenido[]  = '    <div class="row">';
@@ -159,142 +146,178 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[]  = '      </div>';
         $this->contenido[]  = '    </div>';
         $this->contenido[]  = '  </section>';
-    } // destacado
+    } // servicios
 
     /**
-     * Aviso
+     * IBC
+     */
+    protected function ibc() {
+        // Código HTML
+        $this->contenido[]  = '  <section id="ibc">';
+        $this->contenido[]  = '    <div id="IBCTorreonMapa" class="mapa"></div>';
+        $this->contenido[]  = '  </section>';
+        // Código Javascript
+        $js   = array();
+        $js[] = '  // Cargar mapa IBC Torreón cuando esté lista la página';
+        $js[] = '  $(window).load(function() {';
+        $js[] = sprintf('    cartodb.createVis(\'IBCTorreonMapa\', \'%s\', {', IBCTorreonConfig::LIMITES);
+        $js[] = '        shareable: false,';
+        $js[] = '        title: true,';
+        $js[] = '        description: true,';
+        $js[] = '        search: false,';
+        $js[] = '        scrollwheel: false,';
+        $js[] = '        infowindow: true,';
+        $js[] = '        fullscreen: true';
+        $js[] = '      })';
+        $js[] = '      .done(function(vis, layers) {';
+        $js[] = '        // Capa colonias';
+        $js[] = '        var colonias_capa = layers[1];';
+        $js[] = '        colonias_capa.setInteraction(true);';
+        $js[] = '        // Ajustes en el mapa';
+        $js[] = '        var map = vis.getNativeMap();';
+        $js[] = '        map.setZoom(14);';
+        $js[] = '      })';
+        $js[] = '  });';
+        $this->javascript[] = implode("\n", $js);
+    } // ibc
+
+    /**
+     * Aviso elección de consejeros 2015
      */
     protected function aviso() {
-        $this->contenido[] = '  <section id="aviso" style="background-color:#752856">';
-        //~ $this->contenido[] = '    <div class="panel aviso-panel">';
-        //~ $this->contenido[] = '      <div class="panel-heading aviso-heading">';
-        $this->contenido[] = '        <img class="img-responsive" src="imagenes/banner-ohvf-2016.jpg" alt="Perspectivas Economicas 2017 - 25 octubre 2016">';
-        //~ $this->contenido[] = '      </div>';
-        //~ $this->contenido[] = '    </div>';
-        $this->contenido[] = '  </section>';
+        $this->contenido[]  = '  <section id="aviso">';
+        $this->contenido[]  = '    <div class="panel" style="margin:4px;border:2px solid #FF3300;">';
+        $this->contenido[]  = '        <div class="panel-heading" style="background-color:#FFFFFF">';
+        $this->contenido[]  = '            <h2>Elección de Consejeros de Representación Sectorial 2015</h2>';
+        $this->contenido[]  = '            <div>Resultado del proceso de elección de los ciudadanos que van a formar parte del Consejo Directivo como Consejeros de Representación Sectorial en el IMPLAN Torreón.</div>';
+        $this->contenido[]  = '        </div>';
+        $this->contenido[]  = '        <a href="consejo-directivo/eleccion-de-consejeros-de-representacion-sectorial-2015.html">';
+        $this->contenido[]  = '            <div class="panel-footer" style="background-color:#CACACA">';
+        $this->contenido[]  = '                <span class="pull-left">Ir a la página</span>';
+        $this->contenido[]  = '                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>';
+        $this->contenido[]  = '                <div class="clearfix"></div>';
+        $this->contenido[]  = '            </div>';
+        $this->contenido[]  = '        </a>';
+        $this->contenido[]  = '    </div>';
+        $this->contenido[]  = '  </section>';
     } // aviso
 
     /**
-     * Investigaciones
+     * Últimas publicaciones
      */
-    protected function investigaciones() {
-        $this->contenido[] = '  <section id="aviso">';
-        $this->contenido[] = '    <div class="row">';
-        $this->contenido[] = '      <div class="col-md-8">';
-        // Inicia Aviso CIDAC Profesionistas Torreon
-        $this->contenido[] = '        <div class="panel aviso-panel">';
-        $this->contenido[] = '          <div class="panel-heading aviso-heading">';
-        $this->contenido[] = '            <h2><a href="investigaciones/cidac-profesionistas-torreon.html">Profesionistas Torreón</a></h2>';
-        $this->contenido[] = '            <a class="pull-left" href="investigaciones/cidac-profesionistas-torreon.html"><img class="media-object" src="investigaciones/cidac-profesionistas-torreon/imagen-previa.png"></a>';
-        $this->contenido[] = '            <p>Nos adentramos al ámbito local para analizar y contestar la pregunta: ¿existe o no una brecha de talento y competencias en Torreón?.</p> <p>Colaboraron el <b>Centro de Investigación para el Desarrollo, A.C. (CIDAC)</b> y  el <b>Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN)</b> para conocer las dinámicas económicas y de capital humano de la ciudad.</p>';
-        $this->contenido[] = '          </div>';
-        $this->contenido[] = '          <a href="investigaciones/cidac-profesionistas-torreon.html">';
-        $this->contenido[] = '            <div class="panel-footer aviso-footer">';
-        $this->contenido[] = '              <span class="pull-left">Leer la investigación</span>';
-        $this->contenido[] = '              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>';
-        $this->contenido[] = '              <div class="clearfix"></div>';
-        $this->contenido[] = '            </div>';
-        $this->contenido[] = '          </a>';
-        $this->contenido[] = '        </div>';
-        // Termina Aviso CIDAC Profesionistas Torreon
-        $this->contenido[] = '      </div>';
-        $this->contenido[] = '      <div class="col-md-4">';
-        // Inicia Infografías Conciencia Urbana
-        $this->contenido[] = '        <div id="conciencia-urbana" style="position:relative; top:0; left:0; width:512px; height:512px;">';
-        $this->contenido[] = '          <div u="slides" style="cursor:move; position:absolute; left:0; top:0; width:512px; height:512px; overflow:hidden;">';
-        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-01.jpg"></div>';
-        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-02.jpg"></div>';
-        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-03.jpg"></div>';
-        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-04.jpg"></div>';
-        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-05.jpg"></div>';
-        $this->contenido[] = '            <div><img u="image" src="imagenes/conciencia-urbana-06.jpg"></div>';
-        $this->contenido[] = '          </div>';
-        $this->contenido[] = '          <a style="display:none" href="http://www.jssor.com">Image Slider</a>';
-        $this->contenido[] = '        </div>';
-        // Termina Infografías Conciencia Urbana
-        $this->contenido[] = '      </div>';
-        $this->contenido[] = '    </div>';
-        $this->contenido[] = '  </section>';
-        // Javascript
-        $this->javascript[] = '<script type="text/javascript" src="js/jssor.slider.min.js"></script>';
-        $this->javascript[] = <<<FINAL
-  // Photo Slider Conciencia Urbana
-  jQuery(document).ready(function ($) {
-    var options = {
-        \$AutoPlay: true,
-        \$ChanceToShow: 5,
-        \$DragOrientation: 1,
-        \$AutoPlayInterval: 8000
-    };
-    var jssor_slider1 = new \$JssorSlider$("conciencia-urbana", options);
-    function ScaleSlider() {
-        var parentWidth = $('#conciencia-urbana').parent().width();
-        if (parentWidth) {
-            jssor_slider1.\$ScaleWidth(parentWidth);
-        } else {
-            window.setTimeout(ScaleSlider, 30);
+    protected function ultimas_publicaciones() {
+        // Iniciar concentrador
+        $concentrador          = new \Base\VinculosDetallados();
+        $concentrador->en_raiz = true;
+        // Iniciar recolector
+        $recolector = new \Base\Recolector();
+        $recolector->agregar_publicaciones_de_imprentas($this->imprentas);
+        // Ordenar publicaciones por tiempo, de la más nueva a la más antigua
+        $recolector->ordenar_por_tiempo_desc();
+        // Bucle por las publicaciones
+        foreach ($recolector->obtener_publicaciones(self::ULTIMAS_PUBLICACIONES_LIMITE) as $publicacion) {
+            // Iniciar vínculo
+            $vinculo          = new \Base\Vinculo();
+            $vinculo->en_raiz = true;
+            $vinculo->en_otro = false;
+            $vinculo->definir_con_publicacion($publicacion);
+            // Agregar
+            $concentrador->agregar($vinculo);
         }
-    }
-    ScaleSlider();
-    $(window).bind("load", ScaleSlider);
-    $(window).bind("resize", ScaleSlider);
-    $(window).bind("orientationchange", ScaleSlider);
-  });
-FINAL;
-    } // investigaciones
-
-    /**
-     * Novedades
-     */
-    protected function novedades() {
-        // Obtener los tres últimos análisis
-        $analisis                   = new \Blog\Imprenta();
-        $resumenes                  = $analisis->elaborar_resumenes(); // Entrega una instancia de \Base\Resumenes
-        $resumenes->en_raiz         = true;
-        $resumenes->cantidad_maxima = 3;
-        // Obtener el último de Sala de Prensa
-        $sala_prensa                            = new \SalaPrensa\Imprenta();
-        $resumenes_sala_prensa                  = $sala_prensa->elaborar_resumenes(); // Entrega una instancia de \Base\Resumenes
-        $resumenes_sala_prensa->en_raiz         = true;
-        $resumenes_sala_prensa->cantidad_maxima = 1;
-        // Acumular sección novedades
-        $this->contenido[]  = '  <section id="novedades">';
+        // Acumular Últimas Publicaciones y Twitter Timeline
+        $this->contenido[]  = '  <section id="ultimas-publicaciones">';
         $this->contenido[]  = '    <div class="row">';
         $this->contenido[]  = '      <div class="col-md-8">';
-        // Análisis publicados
-        $this->contenido[]  = '        <div class="analisis-publicados">';
-        $this->contenido[]  = $resumenes->html();
+        $this->contenido[]  = '        <div class="ultimas">';
+        $this->contenido[]  = '          <h2>Últimas publicaciones</h2>';
+        $this->contenido[]  = $concentrador->html();
         $this->contenido[]  = '          <div class="text-center">';
         $this->contenido[]  = "            <a href=\"blog/index.html\" class=\"btn btn-default\" role=\"button\">Todos los Análisis Publicados</a>";
         $this->contenido[]  = '          </div>';
-        $this->contenido[]  = $resumenes_sala_prensa->html();
         $this->contenido[]  = '        </div>';
-        // Análisis publicados termina
         $this->contenido[]  = '      </div>';
         $this->contenido[]  = '      <div class="col-md-4">';
-        // Twitter Timeline Inicia
         $this->contenido[]  = '        <div class="red-social-twitter">';
         $this->contenido[]  = '          <a class="twitter-timeline" height="720px" href="https://twitter.com/trcimplan" data-chrome="nofooter transparent" data-theme="dark" data-widget-id="455819492145127424">Tweets por @trcimplan</a>';
         $this->contenido[]  = '        </div>';
-        $this->javascript[] = <<<FINAL
-  // Twitter
-  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-FINAL;
-        // Twitter Timeline Termina
         $this->contenido[]  = '      </div>';
         $this->contenido[]  = '    </div>';
         $this->contenido[]  = '  </section>';
-    } // novedades
+        // Acumular javascipt del Twitter Timeline
+        $this->javascript[] = '!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?\'http\':\'https\';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");';
+    } // ultimas_publicaciones
+
+    /**
+     * Categorías
+     */
+    protected function categorias() {
+        // Cargar configuración de las categorías
+        $categorias_config = new CategoriasConfig();
+        // Iniciar concentrador
+        $concentrador = new \Base\VinculosCompactos();
+        // Inicializar el recolector
+        $recolector = new \Base\RecolectorCategorias();
+        $recolector->agregar_publicaciones_de_imprentas($this->imprentas);
+        // Bucle por todas las categorias
+        foreach ($recolector->obtener_categorias() as $nombre) {
+            // Obtener instancia de Categoria
+            $categoria = $categorias_config->obtener($nombre);
+            // Si está definido en \Configuracion\CategoriasConfig
+            if ($categoria instanceof \Base\Categoria) {
+                // Sí está definido
+                $categoria->en_raiz = true;
+                $categoria->en_otro = false;
+                $vinculo            = new \Base\Vinculo($categoria->nombre, $categoria->url(), $categoria->icono, '', $categoria->descripcion);
+                $vinculo->en_raiz   = true;
+                $vinculo->en_otro   = false;
+                $concentrador->agregar($vinculo);
+            } elseif ($categorias_config->mostrar_no_definidos) {
+                // No está definido
+                $vinculo          = new \Base\Vinculo($nombre, sprintf('%s.html', \Base\Funciones::caracteres_para_web($nombre)), 'unknown', \Base\ImprentaCategorias::CATEGORIAS_DIR);
+                $vinculo->en_raiz = true;
+                $vinculo->en_otro = false;
+                $concentrador->agregar($vinculo);
+            }
+        }
+        // Poner
+        $this->contenido[] = '  <section id="categorias">';
+        $this->contenido[] = '    <h2>Categorías</h2>';
+        $this->contenido[] = sprintf('    <p>Explore por medio de las categorías que clasifican las %s publicaciones en este sitio web.</p>', number_format($recolector->obtener_cantidad_de_publicaciones(), 0, ".", ","));
+        $this->contenido[] = $concentrador->html();
+        $this->contenido[] = '  </section>';
+    } // categorias
 
     /**
      * Mapa
      */
     protected function mapa() {
         // Mapa
-        $servicios         = new \Inicial\Mapa('SERVICIOS',     $this->mapa_servicios);
-        $institucional     = new \Inicial\Mapa('INSTITUCIONAL', $this->mapa_institucional);
-        $interaccion       = new \Inicial\Mapa('INTERACCION',   $this->mapa_interaccion);
-        $legal             = new \Inicial\Mapa('LEGAL',         $this->mapa_legal);
+        $servicios     = new \PaginaInicial\Mapa('SERVICIOS', array(
+            'Análisis Publicados'               => 'blog/index.html',
+            'Indicadores'                       => 'indicadores-categorias/index.html',
+    //      'Indicadores Básicos por Colonias'  => 'ibc-torreon/index.html',
+            'Información Geográfica'            => 'sig-mapas-torreon/index.html',
+            'Investigaciones'                   => 'investigaciones/index.html',
+            'Plan Estratégico Metropolitano'    => 'plan-estrategico-metropolitano/index.html'));
+    //      'Plan Estratégico Torreón'          => 'pet/indice.html'));
+        $institucional = new \PaginaInicial\Mapa('INSTITUCIONAL', array(
+            'Consejo Directivo'                 => 'consejo-directivo/integrantes.html',
+            'Estructura Orgánica'               => 'institucional/estructura-organica.html',
+            'Mensaje del Director'              => 'institucional/mensaje-director.html',
+            'Modelo Operativo Universal'        => 'institucional/modelo-operativo-universal.html',
+            'Quienes Somos'                     => 'autores/index.html',
+            'Reglamentos'                       => 'institucional/reglamentos.html',
+            'Visión / Misión'                   => 'institucional/vision-mision.html'));
+        $interaccion   = new \PaginaInicial\Mapa('INTERACCION', array(
+            'Contacto'                          => 'contacto/contacto.html',
+            'Preguntas Frecuentes'              => 'preguntas-frecuentes/preguntas-frecuentes.html',
+            'Quejas y Sugerencias'              => 'http://goo.gl/forms/1rdX4X128PpMOif73',
+            'Sala de Prensa'                    => 'sala-prensa/index.html'));
+        $legal         = new \PaginaInicial\Mapa('LEGAL', array(
+            'Aviso de Privacidad'               => 'terminos/privacidad.html',
+            'Términos de Uso de la Información' => 'terminos/terminos-informacion.html',
+            'Términos de Uso del Sitio Web'     => 'terminos/terminos-sitio.html',
+            'Transparencia'                     => 'http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178'));
         // Mapa grande
         $this->contenido[] = '  <section id="mapa">';
         $this->contenido[] = '    <div class="row">';
@@ -328,7 +351,7 @@ FINAL;
         $this->contenido[] = '  <section id="redes">';
         $this->contenido[] = '    <div class="row">';
         $this->contenido[] = '      <div class="col-md-8">';
-        $this->contenido[] = '        <a href="index.html"><img class="img-responsive logotipo" src="imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>';
+        $this->contenido[] = '        <img class="img-responsive logotipo" src="imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón">';
         $this->contenido[] = '      </div>';
         $this->contenido[] = '      <div class="col-md-4">';
         $this->contenido[] = '        <div class="pull-right redes-sociales">';
@@ -351,10 +374,11 @@ FINAL;
     public function html() {
         // Elaborar secciones
         $this->organizacion();
-        $this->destacado();
+        $this->servicios();
+    //  $this->ibc();
     //  $this->aviso();
-        $this->novedades();
-        $this->investigaciones();
+        $this->ultimas_publicaciones();
+    //  $this->categorias();
         $this->mapa();
         $this->redes();
         // Entregar resultado del método en el padre

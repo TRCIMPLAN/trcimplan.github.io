@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Diagnóstico Estratégico: Desarrollo Económico e Innovación.">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="Plan, Estrategico, Torreón, 2040, Metropolitano, Desarrollo, Economia, Innovacion">
+  <title>Diagnóstico Estratégico: Desarrollo Económico e Innovación - IMPLAN Torreón</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar documento</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+              <div class="encabezado">
+          <h1 itemprop="name">Diagnóstico Estratégico: Desarrollo Económico e Innovación</h1>
+          <div class="encabezado-descripcion" itemprop="description">Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Diagnóstico Estratégico: Desarrollo Económico e Innovación.</div>
+                <div class="encabezado-autor-fecha">
+          <meta itemprop="datePublished" content="2016-10-10T02:21">10/10/2016 02:21
+        </div>
+        </div>
+        <meta itemprop="image" alt="Diagnóstico Estratégico: Desarrollo Económico e Innovación" src="../imagenes/imagen.jpg">
+              <div itemprop="articleBody">
+        <p>Como uno de los resultados de la planeación participativa metropolitana, al enfocarse en el eje <strong>Desarrollo Económico e Innovación</strong> se detectaron como problemas principales los siguientes:</p>
+
+<ol>
+<li>Infraestructura insuficiente para el desarrollo industrial y turístico</li>
+<li>Falta de cultura de emprendimiento sostenible y de incentivos para esta actividad</li>
+<li>Falta de un marco normativo y de un estado de derecho eficientes con una mayor voluntad y decisión gubernamental</li>
+<li>Falta de definición de la vocación regional, con mayor consenso social y gubernamental</li>
+<li>Deficiente desarrollo de capacidades educativas de alto valor y, falta de vinculación entre academia, empresa y sector gubernamental</li>
+</ol>
+
+<p>En las consultas, fueron identificados como causales de ésta problemática los siguientes factores: la falta de mutuo interés y corresponsabilidad entre sectores por una planeación y desarrollo conjunto y armónico; la realización de inversiones en infraestructura sin considerar un valor de oportunidad social; inversionistas privados que no consideran a otros inversionistas ni a diversos sectores para la toma de decisiones;  falta de actualización de la vocación económica como región; finalmente, el aislamiento de la academia y las autoridades ante las necesidades de los emprendedores.</p>
+
+<p>A continuación, se describen las características de cada uno de estos problemas, sus causas o agravantes y se presentan datos que ayudan a contemplar un horizonte de posibilidades.</p>
+
+<h2>Infraestructura insuficiente para el desarrollo industrial y turístico</h2>
+
+<h3>Conectividad</h3>
+
+<p>Torreón cuenta con una excelente ubicación respecto a fronteras, puertos marítimos y ciudades estratégicas mexicanas y americanas. Es importante mencionar que la reciente apertura de la conexión carretera hacia el puerto de Mazatlán significa un gran paso en la eficiencia logística de la región.</p>
+
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/viz/8ac33b30-68f7-11e4-871f-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<h3>Infraestructura</h3>
+
+<p>En la elaboración del diagnóstico se identificó como un obstáculo al desarrollo económico, la falta de infraestructura en la Zona Metropolitana de La Laguna, específicamente en cuanto a la insuficiente capacidad industrial. Los datos disponibles por FOMEC (Fomento Económico Laguna de Coahuila, A.C.) muestran una oferta de áreas industriales en los siguientes parques: Ciudad Industrial Torreón, Parque Industrial Oriente, Zona Industrial Mieleras, Ferropuerto Laguna, Parque de Innovación Tecnológica, Parque Pymes, Parque Industrial Lajat, Parque Industrial las Américas, Parque Industrial La Amistad, Jumbo Plaza, Parque Industrial Matamoros, Parque Industrial San Pedro y actualmente se trabaja en el nuevo desarrollo Parque Industrial Centenario.</p>
+
+<p>Tabla 1. Superficie de zonas industriales en la Zona Metropolitana de La Laguna (2015)</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Nombre</th>
+  <th align="right">Superficie</th>
+  <th align="right">Disponible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Parque Industrial La Amistad</td>
+  <td align="right">19.09</td>
+  <td align="right">8.20</td>
+</tr>
+<tr>
+  <td>Parque Industrial Las Américas</td>
+  <td align="right">44.45</td>
+  <td align="right">6.83</td>
+</tr>
+<tr>
+  <td>Parque Innovación Tecnológica</td>
+  <td align="right">53.23</td>
+  <td align="right">41.83</td>
+</tr>
+<tr>
+  <td>Parque Industrial Lajat</td>
+  <td align="right">17.15</td>
+  <td align="right">2.81</td>
+</tr>
+<tr>
+  <td>Parque Industrial Oriente</td>
+  <td align="right">31.71</td>
+  <td align="right">15.86</td>
+</tr>
+<tr>
+  <td>Ciudad Industrial Torreón</td>
+  <td align="right">7.50</td>
+  <td align="right">1.38</td>
+</tr>
+<tr>
+  <td>Ferropuerto Laguna</td>
+  <td align="right">350.00</td>
+  <td align="right">250.00</td>
+</tr>
+<tr>
+  <td>Parque Industrial PYMES</td>
+  <td align="right">56.00</td>
+  <td align="right">16.00</td>
+</tr>
+<tr>
+  <td>Jumbo Plaza</td>
+  <td align="right">16.50</td>
+  <td align="right">5.20</td>
+</tr>
+<tr>
+  <td>Parque Industrial Matamoros</td>
+  <td align="right">28.32</td>
+  <td align="right">10.00</td>
+</tr>
+<tr>
+  <td>Parque Industrial San Pedro</td>
+  <td align="right">22.50</td>
+  <td align="right">5.90</td>
+</tr>
+<tr>
+  <td>Parque Industrial Centenario</td>
+  <td align="right">300.00</td>
+  <td align="right">280.00</td>
+</tr>
+<tr>
+  <td>Total</td>
+  <td align="right">946.45</td>
+  <td align="right">644.01</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Fuente:</strong> FOMEC, datos 2014-2015.</p>
+
+<ul>
+<li>La superficie total por los parques industriales en el municipio es de 1,861 hectáreas, incluyendo la zona de Mieleras, que no se presenta en la tabla anterior, ya que está prácticamente ocupada en su totalidad.</li>
+<li>De acuerdo a los datos que registra FOMEC, existía la disponibilidad de 644 hectáreas (datos 2014 y 2015).</li>
+</ul>
+
+<p>Tomando como referencia la revista México Industrial Maps, con el fin de hacer una comparación con otros municipios y zonas metropolitanas, se encuentra que la Zona Metropolitana de La Laguna tiene una baja superficie disponible en parques industriales y área industrial total en comparación con otras zonas metropolitanas de la república.</p>
+
+<p>Tabla 2. Comparativo nacional de parques industriales</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Zona Metropolitana</th>
+  <th align="right">Parques</th>
+  <th align="right">Hectáreas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Aguascalientes</td>
+  <td align="right">14</td>
+  <td align="right">609</td>
+</tr>
+<tr>
+  <td>Laguna (Torreón)</td>
+  <td align="right">12</td>
+  <td align="right">644</td>
+</tr>
+<tr>
+  <td>León (León, Silao)</td>
+  <td align="right">10</td>
+  <td align="right">2,113</td>
+</tr>
+<tr>
+  <td>Querétaro (Querétaro, Corregidora, San Juan del Río, el Marqués y Colón)</td>
+  <td align="right">21</td>
+  <td align="right">2,538</td>
+</tr>
+<tr>
+  <td>Reynosa</td>
+  <td align="right">15</td>
+  <td align="right">1,114</td>
+</tr>
+<tr>
+  <td>Saltillo (Saltillo y Ramos Arizpe)</td>
+  <td align="right">18</td>
+  <td align="right">2,622</td>
+</tr>
+<tr>
+  <td>San Luis Potosí</td>
+  <td align="right">12</td>
+  <td align="right">3,650</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Fuente:</strong> Mexico Industrial Maps, 2015.</p>
+
+<p>En atención a lo anterior, se puede concluir que aunque existen varias zonas industriales en la Zona Metropolitana de la Laguna con oferta para la instalación de plantas, no hay suficiente disponibilidad de superficie para satisfacer la posible demanda.</p>
+
+<iframe width="100%" height="520" frameborder="0" src="https://implantorreon.carto.com/u/sigimplan/viz/4544029c-2427-11e5-ac48-0e9d821ea90d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<h2>Cultura de emprendimiento sostenible e incentivos para ésta actividad</h2>
+
+<p>En las diferentes etapas de desarrollo dentro de la Zona Metropolitana de la Laguna, han existido diversos parques de innovación e incubadoras de empresas asociadas a instituciones académicas. En la zona fueron autorizadas por la Secretaría de Economía, cinco incubadoras de negocios: Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM Laguna), Universidad Tecnológica de Torreón (UTT), Mujeres Emprendedoras, Universidad Juárez del Estado de Durango (UJED) y el Instituto Tecnológico Superior de Lerdo (ITSL).</p>
+
+<p>La percepción de los actores sociales del sector económico es que ésta labor no ha rendido los frutos necesarios, pues se requiere de un aumento en el apoyo gubernamental para el despegue de nuevos proyectos y la participación de la inversión privada con un mayor riesgo financiero, de tal forma que la base tecnológica local sea mayor en las nuevas empresas.</p>
+
+<h2>Definición de la vocación regional</h2>
+
+<p>En cuanto a ésta problemática, a continuación se describen datos sobre la situación de la zona respecto a la especialización de la economía, productividad, competitividad, especialización e informalidad que juntos dan una orientación sobre lo que a vocación regional se refiere.</p>
+
+<h3>Especialización de la economía</h3>
+
+<p>La economía de la Zona Metropolitana de La Laguna se caracteriza por su especialización en la industria manufacturera. Tan sólo en los últimos 15 años la participación de la manufactura en la producción bruta ha aumentado de 64.93% a 72.85%. Ésta particularidad de La Laguna contrasta con la tendencia nacional, pues en el mismo periodo, la participación de la industria manufacturera en la producción de México se ha mantenido alrededor de 48% (Censos económicos, 2014).</p>
+
+<p>Por otro lado, el comercio y los servicios juegan un papel clave en la generación de empleos, toda vez que juntos contribuyen con más del doble de los empleos manufactureros.</p>
+
+<h3>Productividad</h3>
+
+<p>La productividad laboral de la Zona Metropolitana de La Laguna es de $606.14 miles de pesos anuales por trabajador, superior a la productividad nacional de $535.45 miles de pesos anuales por trabajador.</p>
+
+<p>Dentro de la manufactura, destacan en productividad laboral los subsectores de industrias metálicas básicas, fabricación de accesorios, aparatos eléctricos y equipo de generación de energía eléctrica.</p>
+
+<h3>Empleo</h3>
+
+<p>De acuerdo al crecimiento poblacional, Torreón requería crear 4,054 nuevos empleos durante 2014 y 7,692 en la Zona Metropolitana de La Laguna. A su vez, para reducir la tasa de desempleo a 3% es necesaria la generación de 6,097 empleos adicionales en Torreón y 10,532 en la Zona Metropolitana de la Laguna, para superar el déficit creado de 2005 a la fecha.</p>
+
+<p>A diciembre de 2014 Torreón registró 169,066 trabajadores asegurados, esto es 7,475 más que en diciembre de 2013, superando la meta de 4,054. A nivel metropolitano también se superó la meta, al registrarse 11,788 nuevos trabajadores asegurados (IMSS, 2014). Al primer semestre de 2015, los asegurados ascendían a 174,252 y 271,743 en Torreón y la Zona Metropolitana respectivamente (IMSS, 2015).</p>
+
+<p>A pesar del aumento en asegurados, en 2014 Torreón y la Zona Metropolitana registraron una tasa de desempleo promedio de 5.55% y 5.88% respectivamente, tasas superiores al desempleo nacional de 4.83%. Sin embargo, la tasa de informalidad bajó cerca de 5 puntos porcentuales. Es decir que los empleos registrados no eran necesariamente nuevos, sino que pasaron de la informalidad a la formalidad. La tasa de informalidad promedio durante 2014 en la Zona Metropolitana de La Laguna fue de 43.35%, considerablemente menor a la nacional de 57.92%.</p>
+
+<h3>Competitividad</h3>
+
+<p>La Zona Metropolitana de La Laguna ocupaba el lugar 48 de 78 ciudades evaluadas en el Índice de Competitividad 2014 del Instituto Mexicano de Competitividad (IMCO), lo cual significó una disminución de 4 puntos con respecto al 2012, cuando ocupaba el lugar 44. La calificación obtenida en cada uno de los subíndices evaluados se desprende conforme a la siguiente tabla:</p>
+
+<p>Tabla 3. Comparativo del índice de competitividad, según el IMCO, 2012 - 2014</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Subíndices</th>
+  <th align="right">2012</th>
+  <th align="right">2014</th>
+  <th align="right">Cambio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Índice General</td>
+  <td align="right">44</td>
+  <td align="right">48</td>
+  <td align="right">-4</td>
+</tr>
+<tr>
+  <td>Mercado Laboral</td>
+  <td align="right">20</td>
+  <td align="right">3</td>
+  <td align="right">17</td>
+</tr>
+<tr>
+  <td>Aprovechamiento de las Relaciones Internacionales</td>
+  <td align="right">54</td>
+  <td align="right">26</td>
+  <td align="right">28</td>
+</tr>
+<tr>
+  <td>Innovación</td>
+  <td align="right">29</td>
+  <td align="right">27</td>
+  <td align="right">2</td>
+</tr>
+<tr>
+  <td>Precursores</td>
+  <td align="right">32</td>
+  <td align="right">38</td>
+  <td align="right">-6</td>
+</tr>
+<tr>
+  <td>Economía</td>
+  <td align="right">31</td>
+  <td align="right">42</td>
+  <td align="right">-11</td>
+</tr>
+<tr>
+  <td>Gobierno</td>
+  <td align="right">64</td>
+  <td align="right">49</td>
+  <td align="right">15</td>
+</tr>
+<tr>
+  <td>Sistema Político</td>
+  <td align="right">11</td>
+  <td align="right">50</td>
+  <td align="right">-39</td>
+</tr>
+<tr>
+  <td>Medio Ambiente</td>
+  <td align="right">35</td>
+  <td align="right">57</td>
+  <td align="right">-22</td>
+</tr>
+<tr>
+  <td>Sociedad</td>
+  <td align="right">37</td>
+  <td align="right">59</td>
+  <td align="right">-22</td>
+</tr>
+<tr>
+  <td>Derecho</td>
+  <td align="right">73</td>
+  <td align="right">73</td>
+  <td align="right">0</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Fuente:</strong> Instituto Mexicano de Competitividad, 2012 - 2014</p>
+
+<h3>Especialización Industria comercio y servicios</h3>
+
+<p>La participación en el empleo, la producción y el valor agregado de los sectores económicos en la Zona Metropolitana de La Laguna es el siguiente:</p>
+
+<p>Tabla 4. Empleo, producción bruta y valor agregado de los sectores económicos en la Laguna</p>
+
+<p>Zona Metropolitana de La Laguna</p>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Sector</th>
+  <th align="right">Personal Ocupado Total</th>
+  <th align="right">Personal Ocupado Relativo</th>
+  <th align="right">Producción Bruta (miles de pesos) Total</th>
+  <th align="right">Producción Bruta (miles de pesos) Relativo</th>
+  <th align="right">Valor Agregado (miles de pesos) Total</th>
+  <th align="right">Valor Agregado (miles de pesos) Relativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Primario</td>
+  <td align="right">3,547</td>
+  <td align="right">1.30%</td>
+  <td align="right">$1,965,777</td>
+  <td align="right">1.12%</td>
+  <td align="right">$733,023</td>
+  <td align="right">1.24%</td>
+</tr>
+<tr>
+  <td>Secundario</td>
+  <td align="right">92,663</td>
+  <td align="right">34.01%</td>
+  <td align="right">$137,542,567</td>
+  <td align="right">78.14%</td>
+  <td align="right">$38,996,359</td>
+  <td align="right">65.96%</td>
+</tr>
+<tr>
+  <td>Terciario</td>
+  <td align="right">176,239</td>
+  <td align="right">64.69%</td>
+  <td align="right">$36,511,601</td>
+  <td align="right">20.74%</td>
+  <td align="right">$19,392,473</td>
+  <td align="right">32.80%</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Fuente:</strong> Elaboración propia, 2015</p>
+
+<p>El porcentaje de participación de la industria manufacturera en la producción bruta de La Laguna ha aumentado en los últimos 10 años de 64.93% a 71.11%, mientras a nivel nacional disminuyó 4 puntos porcentuales aproximadamente: de 48.52% a 44.34%.</p>
+
+<h3>Informalidad</h3>
+
+<p>El 51% de la población ocupada de la Zona Metropolitana de La Laguna labora en el sector informal (IMCO, 2014).</p>
+
+<p>A nivel nacional el porcentaje de población ocupada en el sector informal es de 54% (IMCO, 2014).</p>
+
+<h2>Desarrollo de capacidades educativas de alto valor y vinculación entre academia, empresa y sector gubernamental</h2>
+
+<p>Para un mayor desarrollo de las capacidades educativos de alto valor y la vinculación academia – empresa – gobierno, es necesario emprender acciones orientadas a mejorar el nivel educativo de la zona, se requiere la actualización de carreras profesionales que respondan a las necesidades de desarrollo y demandas de la zona, inversión en centros de investigación y una evaluación adecuada de procesos y niveles educativos.</p>
+
+<p><a href="indice.html">Índice</a> | Siguiente: <a href="diagnostico-estrategico-desarrollo-social.html">Desarrollo Social</a></p>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script>
+
+</script>
+</body>
+</html>

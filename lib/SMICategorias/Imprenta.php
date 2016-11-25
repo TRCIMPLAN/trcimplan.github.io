@@ -1,8 +1,8 @@
 <?php
-/**
- * TrcIMPLAN - SMI Categorías Imprenta (Creado por Central:SmiLanzadera)
+/*
+ * TrcIMPLAN Sitio Web - SMICategorias Imprenta
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,20 +31,21 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
-        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
+        // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
         $this->publicaciones_directorio = 'SMICategorias';
-        // Los siguientes parámetros dan datos para el índice/galería que será creado
+        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Indicadores por Categoría';
         $this->descripcion              = 'Sistema Metropolitano de Indicadores, Listado de Categorías';
-        $this->claves                   = 'IMPLAN, SMI, Indicadores, Metropolitanos';
+        $this->claves                   = 'IMPLAN, Torreon, SMI, Indicadores, Metropolitanos';
         $this->encabezado_color         = '#CA198A';
-        // Etiqueta de Navegación a poner activa
+        // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Indicadores > Indicadores por Categoría';
-        // Clase que concentrará a las publicaciones para hacer su propia página
-        $this->concentrador             = 'Galeria';
-        // La ruta al archivo con el índice/galería que será creado
+        // Ruta a la clase para hacer la página con el índice
+        $this->indices_paginas          = '\\Base\\PaginasGalerias'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'indicadores-categorias';
-        $this->archivo_ruta             = 'indicadores-categorias/index.html';
+        // Ejecutar constructor en el padre
+        parent::__construct();
     } // constructor
 
 } // Clase Imprenta

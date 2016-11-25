@@ -2,7 +2,7 @@
 /*
  * TrcIMPLAN Sitio Web - Blog Imprenta
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,28 +17,41 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Blog;
 
 /**
  * Clase Imprenta
  */
-class Imprenta extends \Base\ImprentaPublicaciones {
+class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
 
     /**
      * Constructor
      */
     public function __construct() {
+        // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
         $this->publicaciones_directorio = 'Blog';
+        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Análisis Publicados';
         $this->descripcion              = 'Publicaciones sobre investigación y otros temas.';
-        $this->claves                   = 'IMPLAN, Torreon, Blog';
-        $this->directorio               = 'blog';
-        $this->archivo_ruta             = 'blog/index.html';
-        $this->nombre_menu              = 'Análisis Publicados';
+        $this->claves                   = 'IMPLAN, Torreon, Analisis, Publicaciones, Estudios, Investigacion';
         $this->encabezado_color         = '#800000';
+        // Opción de Navegación a poner activa
+        $this->nombre_menu              = 'Análisis Publicados';
+        // Ruta a la clase para hacer la página con el índice
+        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        // Directorio en la raíz que será creado para alojar el concentrador y las páginas
+        $this->directorio               = 'blog';
+        // Pasar a la página índice estos parámetros
+        $this->ultimas_encabezado       = 'Últimos análisis publicados';
+        $this->ultimas_vinculos         = '\\Base\\VinculosDetallados';
+        $this->ultimas_cantidad         = 8;
+        $this->categorias_encabezado    = 'Todos los análisis clasificados por categorías';
+        $this->categorias_vinculos      = '\\Base\\VinculosCompactos';
+        // Ejecutar constructor en el padre
+        parent::__construct();
     } // constructor
 
 } // Clase Imprenta

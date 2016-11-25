@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Funciones
+/**
+ * Plataforma de Conocimiento - Funciones
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,30 +17,127 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package PlataformaDeConocimiento
  */
 
-// TODOS LOS CARACTERES SERAN UTF-8
-mb_internal_encoding('utf-8');
+namespace Base;
 
-// AUTOCARGADOR DE CLASES
-spl_autoload_register(
+/**
+ * Clase Funciones
+ */
+class Funciones {
+
     /**
-     * Auto-cargador de Clases
+     * Caracteres al azar
      *
-     * @param string Creación de la instancia
+     * @param  integer Cantidad de caracteres, por defecto 8
+     * @return string  Caracteres al azar
      */
-    function ($className) {
-        $className = ltrim($className, '\\');
-        $fileName  = '';
-        $namespace = '';
-        if ($lastNsPos = strrpos($className, '\\')) {
-            $namespace = substr($className, 0, $lastNsPos);
-            $className = substr($className, $lastNsPos + 1);
-            $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace).DIRECTORY_SEPARATOR;
+    public static function caracteres_azar($in_cantidad=8) {
+        $primera = ord('a');
+        $ultima  = ord('z');
+        $c = array();
+        for ($i=0; $i<$in_cantidad; $i++) {
+            $c[] = chr(rand($primera, $ultima));
         }
-        $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className).'.php';
-        require 'lib/'.$fileName;
-    } // auto-cargador de clases
-);
+        return implode('', $c);
+    } // caracteres_azar
+
+    /**
+     * Caracteres para web
+     *
+     * @param  string  Nombre a convertir, puede tener a-zA-Z0-9áÁéÉíÍóÓúÚüÜñÑ() .,_-
+     * @param  boolean Por defecto es falso, si es verdadero se omiten 'y', 'a', 'el', etc.
+     * @return string  Texto convertido a caracteres para web
+     */
+    public static function caracteres_para_web($in_nombre, $in_omitir_bandera=false) {
+        // Omitir estas palabras
+        $palabras_omitir = array('y', 'a', 'el', 'la', 'los', 'las', 'de', 'del');
+        // Cambiar caracteres
+        $buscados        = array('ñ', 'Ñ', 'ü', 'Ü', 'á', 'Á', 'é', 'É', 'í', 'Í', 'ó', 'Ó', 'ú', 'Ú');
+        $cambios         = array('n', 'n', 'u', 'u', 'a', 'a', 'e', 'e', 'i', 'i', 'o', 'o', 'u', 'u');
+        $sin_acentos     = str_replace($buscados, $cambios, $in_nombre);
+        $especiales      = array(' ', '(', ')', '.', ',', '_');
+        $minusculas      = strtolower(str_replace($especiales, '-', $sin_acentos));
+        // Revisar cada palabra
+        $palabras = array();
+        foreach (explode('-', $minusculas) as $p) {
+            if ($p !== '') {
+                if ($in_omitir_bandera && in_array($p, $palabras_omitir)) {
+                    continue;
+                } else {
+                    $palabras[] = $p;
+                }
+            }
+        }
+        // Entregar
+        return implode('-', $palabras); // Pone guiones medios entre las palabras
+    } // caracteres_para_web
+
+    /**
+     * Caracteres para clase
+     *
+     * @param  string  Nombre a convertir, puede tener a-zA-Z0-9áÁéÉíÍóÓúÚüÜñÑ() .,_-
+     * @param  boolean Por defecto es falso, si es verdadero se omiten 'y', 'a', 'el', etc.
+     * @return string  Texto convertido a caracteres para web
+     */
+    public static function caracteres_para_clase($in_texto, $in_omitir_bandera=false) {
+        // Omitir estas palabras
+        $palabras_omitir = array('y', 'a', 'el', 'la', 'los', 'las', 'de', 'del');
+        // Cambiar caracteres
+        $buscados        = array('ñ', 'Ñ', 'ü', 'Ü', 'á', 'Á', 'é', 'É', 'í', 'Í', 'ó', 'Ó', 'ú', 'Ú');
+        $cambios         = array('n', 'n', 'u', 'u', 'a', 'a', 'e', 'e', 'i', 'i', 'o', 'o', 'u', 'u');
+        $sin_acentos     = str_replace($buscados, $cambios, $in_texto);
+        $especiales      = array('(', ')', '.', ',', '_', '-');
+        $minusculas      = strtolower(str_replace($especiales, ' ', $sin_acentos));
+        // Poner en mayusculas la primer letra de cada palabra
+        $palabras_camel_case = array();
+        foreach (explode(' ', $minusculas) as $p) {
+            if ($p !== '') {
+                if ($in_omitir_bandera && in_array($p, $palabras_omitir)) {
+                    continue;
+                } else {
+                    $palabras_camel_case[] = ucfirst($p);
+                }
+            }
+        }
+        // Entregar
+        return implode('', $palabras_camel_case);
+    } // caracteres_para_clase
+
+    /**
+     * Cargar archivo markdown
+     *
+     * @param  string Ruta al archivo markdown desde la raiz del sitio, ejemplo 'lib/Directorio/Archivo.md'
+     * @return string Código HTML
+     */
+    public static function cargar_archivo_markdown($ruta) {
+        $contenido = file_get_contents("$ruta");
+        if ($contenido === false) {
+            throw new \Exception("Error en Funciones::cargar_archivo_markdown: No se puede leer $ruta");
+        }
+        $html = \Michelf\Markdown::defaultTransform($contenido);
+        return $html;
+    } // cargar_archivo_markdown
+
+    /**
+     * Cargar archivo markdown extra
+     *
+     * Éste tiene la construcción de tablas.
+     *
+     * @param  string Ruta al archivo markdown desde la raiz del sitio, ejemplo 'lib/Directorio/Archivo.md'
+     * @return string Código HTML
+     */
+    public static function cargar_archivo_markdown_extra($ruta) {
+        $contenido = file_get_contents("$ruta");
+        if ($contenido === false) {
+            throw new \Exception("Error en Funciones::cargar_archivo_markdown_extra: No se puede leer $ruta");
+        }
+        $html    = \Michelf\MarkdownExtra::defaultTransform($contenido);
+        $html_tb = str_replace('<table>', '<table class="table table-hover table-bordered">', $html); // Tablas de Twitter Bootstrap
+        return $html_tb;
+    } // cargar_archivo_markdown_extra
+
+} // Clase Funciones
 
 ?>

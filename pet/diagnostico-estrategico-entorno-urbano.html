@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Diagnóstico Estratégico: Entorno Urbano.">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="Plan, Estrategico, Torreón, 2040, Metropolitano, Entorno, Urbano">
+  <title>Diagnóstico Estratégico: Entorno Urbano - IMPLAN Torreón</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar documento</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+              <div class="encabezado">
+          <h1 itemprop="name">Diagnóstico Estratégico: Entorno Urbano</h1>
+          <div class="encabezado-descripcion" itemprop="description">Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Diagnóstico Estratégico: Entorno Urbano.</div>
+                <div class="encabezado-autor-fecha">
+          <meta itemprop="datePublished" content="2016-10-10T02:41">10/10/2016 02:41
+        </div>
+        </div>
+        <meta itemprop="image" alt="Diagnóstico Estratégico: Entorno Urbano" src="../imagenes/imagen.jpg">
+              <div itemprop="articleBody">
+        <p>La planeación participativa para la Elaboración de Diagnóstico y Pronóstico Metropolitano, en cuanto al eje <strong>Entorno Urbano</strong> dio como resultado la detección de los siguientes problemas principales:</p>
+
+<ol>
+<li>Infraestructura deficiente en ciertas zonas de la mancha urbana y zona metropolitana.</li>
+<li>Falta de planes y reglamentos que rijan el entorno urbano, sobre todo en su aplicación cotidiana y control sobre la irregularidad</li>
+<li>Baja densidad urbana, que se ha ido generando por la dispersión del crecimiento y la fragmentación de la zona urbanizada</li>
+<li>Falta de espacios públicos, que se agudiza en las zonas marginales, donde los pocos existentes están vandalizados.</li>
+<li>Abandono de barrios tradicionales, lo cual significa una pérdida de seguridad, empleo, capacidad comercial y lo más importante que es la identidad.</li>
+</ol>
+
+<p>A continuación, se detallan los elementos que componen cada problema y datos que complementan cada situación.</p>
+
+<h2>Infraestructura deficiente en ciertas zonas de la mancha urbana y Zona Metropolitana de la Laguna</h2>
+
+<h3>Equipamiento e infraestructura</h3>
+
+<ul>
+<li>2.69 % de las viviendas en la Zona Metropolitana de la Laguna no tienen acceso a alumbrado público en su manzana.</li>
+<li>1.96% de las viviendas habitadas en la Zona Metropolitana de la Laguna no tienen acceso al agua de la red pública.</li>
+<li>3.74% de las viviendas habitadas en la Zona Metropolitana de la Laguna no cuentan con infraestructura para red de drenaje.</li>
+<li>Sólo el 0.54% de las viviendas de la Zona Metropolitana de la Laguna no tiene acceso a energía eléctrica.</li>
+<li>Sólo el 23% de las viviendas habitadas en la Zona Metropolitana de la Laguna cuenta con internet.</li>
+</ul>
+
+<h2>Planes y reglamentos que rijan el entorno urbano sobre todo en su aplicación cotidiana y control sobre la irregularidad</h2>
+
+<p>En los talleres de consulta fueron mencionados de forma recurrente los siguientes problemas: la corrupción en la gestión pública, la poca conciencia y participación ciudadana en estos asuntos, la falta de continuidad entre planeaciones y la dispersión en el poder legal para vigilar y hacer cumplir lo planeado.</p>
+
+<p>A la par de la consolidación de la planeación, con visión a mediano y largo plazo, es necesario desarrollar mecanismos legales y figuras de autoridad que hagan cumplir la planeación y su normatividad. Así también, se requiere mejorar en la coordinación entre autoridades para su implementación.</p>
+
+<p>La situación de la legislación en el contexto de la gestión urbana se plantea con los siguientes datos que se presentan a continuación.</p>
+
+<h3>Legislación y gestión urbana</h3>
+
+<p>Al 2013 existen 21 reglamentos no integrados de forma metropolitana y la mayoría de ellos no están actualizados. En 2014 se realizaron 7 propuestas de reglamentos ya actualizados y sintetizados, como propuesta se encuentran los siguientes:</p>
+
+<ul>
+<li>Reglamento de la Reserva Ecológica Municipal “Sierra y Cañón de Jimulco”.</li>
+<li>Reglamento de Desarrollo Sustentable y Protección al Ambiente de Torreón.</li>
+<li>Reglamento de Movilidad Urbana de Torreón.</li>
+<li>Reglamento de Transporte Público en Torreón.</li>
+<li>Decreto de creación del sistema municipal de aguas y saneamiento de torreón Coahuila.</li>
+<li>Reglamento para el Establecimiento de Gasolineras y Estaciones de Venta, Almacenamiento de Gasolinas, Diésel y Plantas de Almacenamiento para Distribución y Venta de Gas Licuado de Petróleo del Municipio de Torreón.</li>
+<li>Reglamento de Ordenamiento Territorial y Entorno Urbano de Torreón</li>
+</ul>
+
+<p>La Ley General de Asentamientos humanos es la que rige el ordenamiento urbano. Esta ley se encuentra instrumentada por diversos planes y reglamentos de acuerdo al municipio correspondiente. En el caso de Torreón, la falta de vinculación y coordinación entre dependencias trae como resultados vacíos, incongruencias y/o contradicciones en los reglamentos, lo cual lleva a no poder aplicar las sanciones que se indican.</p>
+
+<p>La falta de criterios técnicos para la elaboración de planes, políticas y reglamentos y la falta de especificidad en reglamentos, generan que estos instrumentos se puedan manejar con discrecionalidad y sean vulnerables a la corrupción.</p>
+
+<p>Los Planes Directores de Desarrollo Urbano de la Zona Metropolitana de la Laguna no se encuentran vinculados en ningún aspecto. Todos manejan diferentes tipologías de usos de suelo y por ejemplo los de Gómez Palacio, Lerdo y Matamoros no están actualizados.</p>
+
+<p>Junto con los planes directores y a una escala más específica, los Planes Parciales ordenan el suelo urbano de ciertos polígonos estratégicos, los cuales carecen de instrumentos como políticas urbanas y reglamentos integrados a aspectos económicos, sociales, ambientales, de movilidad y transporte, entre otros, que puedan llevar a cabo su ejecución y en caso de no ser cumplido aplicar sanciones, pues estos planes carecen de un enfoque integral y una visión a largo plazo.</p>
+
+<h2>Baja densidad urbana, que se ha ido generando por la dispersión del crecimiento y la fragmentación de la zona urbanizada.</h2>
+
+<p>Existe una alta especulación de terrenos, el alto costo del suelo y un crecimiento urbano desarticulado producto de una tendencia cultural de desarticulación poblacional. Ello ha dado por resultado una densidad urbana no adecuada a las necesidades y búsquedas regionales.</p>
+
+<ul>
+<li>El crecimiento de la población de la Zona Metropolitana de la Laguna del año 1990 al 2014 ha incrementado en 437,552 habitantes. Esto representa el 49.92 % de incremento en 24 años. El crecimiento muestra una tendencia claramente exponencial.</li>
+<li>De 2000 a 2010 la densidad media urbana en la Zona Metropolitana de La Laguna ha disminuido de 87.8 habitantes/ha a 77.1 habitantes/ha, lo cual implica que la población se dispersa más en el territorio, provocando mayores desplazamientos, bajas densidades, grandes conjuntos habitacionales desarticulados del tejido urbano, demandando más infraestructura y equipamientos.</li>
+<li>Según proyecciones de CONAPO, la población de la Zona Metropolitana de la Laguna crecerá 6.55% para 2020, con respecto al 2014. Sin embargo, entre 1970 a 2013 la población se triplicó mientras la mancha urbana creció 7 veces su propio valor.</li>
+</ul>
+
+<h3>Desarrollo inmobiliario y vivienda</h3>
+
+<ul>
+<li>El promedio de ocupantes por vivienda en la Zona Metropolitana de la Laguna es de 3.95 personas (INEGI Censos de Ocupación y Vivienda, 2010).</li>
+<li>En total hay 408,227 viviendas en La Zona Metropolitana de la Laguna, de las cuales 172,719 se encuentran en el municipio de Torreón, es decir el 42% de éstas.</li>
+<li>En la Zona Metropolitana de la Laguna 22.14 de cada 100 viviendas están deshabitadas; mientras el promedio nacional de este indicador es de 20.54. Otras ciudades como Saltillo, Chihuahua y Monterrey tienen indicadores de 18.30, 20.54 y 18.58, respectivamente. Por otro lado, Ciudad Juárez y Reynosa destacan negativamente con 25.41 y 26.49 viviendas deshabitadas por cada 100. (IMCO, 2014).</li>
+</ul>
+
+<h3>Ilustración 6 Vivienda deshabitada en Torreón</h3>
+
+<iframe width='100%' height='520' frameborder='0' src='https://implantorreon.cartodb.com/u/sigimplan/viz/e149b360-dc9e-11e4-a1e7-0e853d047bba/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<p><strong>Fuente:</strong> Elaboración propia, 2015</p>
+
+<h2>Falta de espacios públicos, que se agudiza en las zonas marginales, donde los pocos existentes están vandalizados.</h2>
+
+<p>En general, existe un déficit de espacios públicos, y los espacios que existen reciben poco mantenimiento y tienen falta de vigilancia, lo cual genera lugares propensos a la delincuencia y el pandillerismo. Entre las causas asociadas se encuentran las siguientes:</p>
+
+<ul>
+<li>Planeación que no los contempla como vitales para el desarrollo del entorno urbano</li>
+<li>Falta de reglamentación en este tema y falta de aplicación estricta y vigilancia de la normatividad que sí existe</li>
+<li>Privatización del espacio público, sobre todo en nuevos desarrollos habitacionales.</li>
+</ul>
+
+<h2>Abandono de barrios tradicionales, lo cual significa una pérdida de seguridad, empleo, capacidad comercial y lo más importante identidad</h2>
+
+<p>En los barrios de la Zona Metropolitana de la Laguna se vive con sensación de inseguridad que aunada a la crisis económica y las dificultades de movilidad urbana y la falta de servicios públicos han dado por resultado el paulatino abandonamiento de éstos.</p>
+
+<p>La zona central de la ciudad de Torreón tiene un alto índice de decrecimiento o abandono. Esto ha implicado la pérdida de valor inmobiliario, el decaimiento de la actividad comercial, la destrucción del patrimonio histórico y la pauperización del entorno urbano.</p>
+
+<p>Se necesita mejorar las condiciones de vida en los barrios a través de políticas de mejoramiento, de uso mixto regulado y de desarrollo sustentable de estos espacios. Una mejor regulación de recursos y servicios públicos y un trabajo fuerte en la promoción de la identidad regional que éstos generan.</p>
+
+<p><a href="indice.html">Índice</a> | Siguiente: <a href="diagnostico-estrategico-movilidad-transporte.html">Movilidad y Transporte</a></p>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script>
+
+</script>
+</body>
+</html>

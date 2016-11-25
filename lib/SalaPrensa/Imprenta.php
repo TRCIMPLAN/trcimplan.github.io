@@ -1,8 +1,8 @@
 <?php
-/**
- * TrcIMPLAN Sitio Web - Sala de Prensa Imprenta
+/*
+ * TrcIMPLAN Sitio Web - SalaPrensa Imprenta
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace SalaPrensa;
@@ -31,20 +31,21 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
-        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
+        // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
         $this->publicaciones_directorio = 'SalaPrensa';
-        // Los siguientes parámetros dan datos para el índice/galería que será creado
+        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Sala de Prensa';
         $this->descripcion              = 'Comunicados de Prensa del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Comunicados, Prensa, Sala';
         $this->encabezado_color         = '#008000';
-        // Etiqueta de Navegación a poner activa
-        $this->nombre_menu              = 'Comunicados > Sala de Prensa';
-        // Clase que concentrará a las publicaciones para hacer su propia página
-        $this->concentrador             = 'Indice'; // Puede ser Indice (por defecto), Galeria o Tarjetas
-        // La ruta al archivo con el índice/galería/tarjetas que será creado
+        // Opción de Navegación a poner activa
+        $this->nombre_menu              = 'Sala de Prensa';
+        // Ruta a la clase para hacer la página con el índice
+        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'sala-prensa';
-        $this->archivo_ruta             = 'sala-prensa/index.html';
+        // Ejecutar constructor en el padre
+        parent::__construct();
     } // constructor
 
 } // Clase Imprenta

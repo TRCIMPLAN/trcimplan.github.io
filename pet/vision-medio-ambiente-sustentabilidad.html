@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Visión de Medio Ambiente y Sustentabilidad 2040.">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="Plan, Estrategico, Torreón, 2040, Metropolitano, Vision, Medio, Ambiente, Sustentabilidad">
+  <title>Visión de Medio Ambiente y Sustentabilidad 2040 - IMPLAN Torreón</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar documento</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+              <div class="encabezado">
+          <h1 itemprop="name">Visión de Medio Ambiente y Sustentabilidad 2040</h1>
+          <div class="encabezado-descripcion" itemprop="description">Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Visión de Medio Ambiente y Sustentabilidad 2040.</div>
+                <div class="encabezado-autor-fecha">
+          <meta itemprop="datePublished" content="2016-10-10T06:55">10/10/2016 06:55
+        </div>
+        </div>
+        <meta itemprop="image" alt="Visión de Medio Ambiente y Sustentabilidad 2040" src="../imagenes/imagen.jpg">
+              <div itemprop="articleBody">
+        <blockquote>
+  <p>Es ejemplo en <strong>sustentabilidad</strong> ya que tiene un <em>Manejo Integral del Agua</em> con un modelo de producción acorde al ecosistema de la zona, una integración de los sistemas municipales de agua y un organismo mixto ciudadano corresponsable del manejo. También existe un <em>Manejo Integral de Residuos</em> que incluye una cultura del reciclaje, la instalación de plantas tratadoras de residuos en toda la Zona y empresas declaradas verdes.</p>
+  
+  <p>Se atiende oportunamente los <em>Efectos del Cambio Climático</em> a través de diversas estrategias derivadas de un programa metropolitano de cambio climático con estrategias de mitigación y adaptación claras. Entre los resultados la Zona Metropolitana de La Laguna cuenta con una <em>Buena Calidad del Aire</em> producto de la ejecución del programa pro-aire de la Comarca Lagunera y la regulación de emisiones contaminantes a través de medios como la verificación de emisiones de industria y transporte.</p>
+  
+  <p>Además, existe un <em>Ordenamiento Ecológico</em> hecho operativo a través de un plan e instrumentos metropolitanos que están integrados en la planeación urbana.</p>
+</blockquote>
+
+<h3>Tema: Manejo Integral de Residuos Sólidos</h3>
+
+<p>Objetivos Generales / Metas</p>
+
+<ul>
+<li>Establecer, promover y culturizar la gestión integral de los residuos
+
+<ul>
+<li>Mayor aprovechamiento de los materiales valorizables de manera ambientalmente adecuada</li>
+</ul></li>
+<li>Minimizar la generación y maximizar la valoración de residuos bajo criterios de eficiencia ambiental
+
+<ul>
+<li>Aumento en el reciclaje de los residuos orgánicos e inorgánicos, disminuyendo el espacio en Rellenos Sanitarios</li>
+<li>Aumento en el consumo sustentable</li>
+</ul></li>
+<li>Alentar la innovación de procesos, métodos y tecnologías para un manejo económicamente factible e integral de los residuos
+
+<ul>
+<li>Sitios especializados de disposición de acuerdo al tipo de residuos</li>
+</ul></li>
+<li>Lograr la separación de origen de los residuos
+
+<ul>
+<li>Separación de los residuos sólidos domiciliarios, comerciales e industriales</li>
+</ul></li>
+<li>Aplicar el principio de responsabilidad compartida de los distintos sectores involucrados para reciclar productos</li>
+<li>Responsabilizar a los generadores en sus obligaciones
+
+<ul>
+<li>Reglamentos adecuados para obligar a generadores</li>
+</ul></li>
+<li>Prevenir riesgos a la salud y al ambiente por el manejo, disposición y eliminación inadecuados de residuos sólidos urbanos
+
+<ul>
+<li>Aplicación de reglamentos adecuados</li>
+</ul></li>
+</ul>
+
+<h3>Tema: Cambio Climático</h3>
+
+<p>Objetivo General / Metas</p>
+
+<ul>
+<li>Planear, implementar, difundir y socializar acciones de mitigación, prevención y adaptación al Cambio Climático
+
+<ul>
+<li>Uso eficiente de la energía y uso sustentable de los recursos naturales</li>
+<li>Uso de energía solar y otras energías alternativas propiciada por incentivo adecuados</li>
+<li>Desarrollo de proyectos que aprovechen la vocación energética de la región y que sean congruentes con el programa de acción ante el cambio climático y los instrumentos de planeación del sector de energía</li>
+<li>Acciones de mitigación, prevención y adaptación al Cambio Climático planeadas adecuadamente</li>
+<li>Mayor regulación, medición y reducción en el consumo energético en sector industrial, comercial, servicios y residencial</li>
+<li>Mejor equilibrio en la cantidad de árboles y áreas verdes con las emisiones para que éstos la procesen</li>
+</ul></li>
+</ul>
+
+<h3>Tema: Calidad del aire</h3>
+
+<p>Objetivo General / Metas</p>
+
+<ul>
+<li>Mejorar la calidad del aire para proteger la salud de la población
+
+<ul>
+<li>Calidad del aire controlada y monitoreada para mejorar en nivel de prevención</li>
+<li>Reducción en el uso del coche e incrementar el uso de transporte público</li>
+<li>Aumento en el uso de la bicicleta</li>
+<li>Regulación y reducción de las emisiones contaminantes en la generación de energía eléctrica, la industria y el transporte</li>
+<li>PROAIRE (Programa para Mejorar la Calidad del Aire de la Región Lagunera), actualizado, implementado, difundido y socializado</li>
+</ul></li>
+</ul>
+
+<h3>Tema: Balance hídrico del acuífero</h3>
+
+<p>Objetivo General / Metas</p>
+
+<ul>
+<li>Extraer y distribuir el agua de acuerdo a la disponibilidad de los recursos hídricos renovables
+
+<ul>
+<li>Reducción de los volúmenes de extracción hasta los concesionados</li>
+</ul></li>
+<li>Monitorear, registrar, evaluar y medir efectivamente la extracción, recarga, distribución y calidad del agua de manera confiable y transparente
+
+<ul>
+<li>Medición de los consumos, extracción, recarga y calidad de agua en todos los pozos</li>
+<li>Monitoreo, registro y evaluación de los consumos, extracción, recarga y calidad del agua de cada pozo</li>
+<li>Monitoreo, registro y evaluación de la infraestructura de distribución de aguas</li>
+<li>Medir la extracción y la descarga con un sistema eficiente de monitoreo de calidad de descargas al sistema municipal de drenaje</li>
+</ul></li>
+<li>Asegurar la calidad del agua para todos
+
+<ul>
+<li>Difusión pública de información del agua</li>
+<li>Reducción de pérdidas de agua en las redes de distribución a través de su modernización y la eficientización de la infraestructura</li>
+<li>Incremento en la eficiencia en el uso de agua para riego agrícola</li>
+<li>Uso de agua tratada para usos industriales y riego agrícola</li>
+<li>Análisis continuo de la calidad del agua</li>
+<li>Indicadores de efectos en la salud establecidos</li>
+<li>Distribución de garrafones de agua potable en todos sectores vulnerables</li>
+</ul></li>
+<li>Reuso, tratamiento y aprovechamiento de aguas residuales y pluviales
+
+<ul>
+<li>Aguas residuales urbanas tratadas al 100%</li>
+<li>Distribución del 100 % del agua tratada para usos industriales y de riego agrícola y urbano</li>
+<li>Uso de nuevas tecnologías para la purificación del agua</li>
+<li>Aprovechamiento máximo del agua pluvial para diferentes actividades y su desalojamiento</li>
+</ul></li>
+<li>Hacer un manejo adecuado de los humedales para que presten servicios ambientales
+
+<ul>
+<li>Conservación de humedales Cañón de Fernández, Tramo Nazas-Rodeo Cuenca Media, Cañones de Realito y la Cabeza</li>
+</ul></li>
+<li>Acotar y ajustar la planeación y el desarrollo regional acorde a la disponibilidad de recursos hídricos renovables (lluvia, recarga de agua, tratamiento de aguas residuales para re-uso)
+
+<ul>
+<li>Ajustar el 100% de la planeación y el desarrollo regional a la disponibilidad del agua renovable</li>
+<li>En 5 años acotar el 100% de las actividades económicas a la disponibilidad de agua renovable en la región</li>
+<li>Capacidad de soporte hídrico (límite ecológico) de las diferentes actividades económicas regionales por unidad hidrológica (Región hidrológica, cuenca o sub-cuenca) determinada</li>
+</ul></li>
+</ul>
+
+<h3>Tema: Ordenamiento Ecológico</h3>
+
+<p>Objetivos Generales / Metas</p>
+
+<ul>
+<li>Regular el uso del suelo promoviendo un desarrollo equitativo e integrado del territorio de la Zona Metropolitana de la Laguna
+
+<ul>
+<li>La comarca lagunera rige su desarrollo por un solo plan de ordenamiento ecológico regional</li>
+<li>Capacidad, determinada, de soporte o límite ecológico de las diferentes actividades económicas regionales para la planeación territorial</li>
+<li>Mayor y mejor coordinación interinstitucional y regulación metropolitana</li>
+</ul></li>
+<li>Lograr un crecimiento y desarrollo eficiente de la región, acorde a la capacidad de soporte del territorio
+
+<ul>
+<li>Leyes y reglamentos orientados al biourbanismo</li>
+</ul></li>
+<li>Establecer, difundir y socializar el ordenamiento ecológico de la región lagunera como instrumento de planeación del desarrollo
+
+<ul>
+<li>Personal de los municipios con conocimiento y aplicación en todos los departamentos</li>
+</ul></li>
+<li>Conservar y restauración de la biodiversidad y territorio
+
+<ul>
+<li>Zonas protegidas, áreas restauradas y un desarrollo sustentable regional</li>
+</ul></li>
+</ul>
+
+<p><a href="indice.html">Índice</a> | Siguiente: <a href="cartera-proyectos.html">Cartera de Proyectos Estratégicos</a></p>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script>
+
+</script>
+</body>
+</html>

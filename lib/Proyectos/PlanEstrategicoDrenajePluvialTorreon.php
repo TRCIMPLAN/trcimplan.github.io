@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Plan Estrategico Drenaje Pluvial Torreon
+ * TrcIMPLAN Sitio Web - Plan Estrategico Drenaje Pluvial Torreon
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Proyectos;
@@ -25,45 +25,32 @@ namespace Proyectos;
 /**
  * Clase PlanEstrategicoDrenajePluvialTorreon
  */
-class PlanEstrategicoDrenajePluvialTorreon extends \Base\Publicacion {
+class PlanEstrategicoDrenajePluvialTorreon extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Plan Estratégico de Drenaje Pluvial de Torreón';
-        $this->autor           = 'Dirección de Proyectos Estratégicos';
-        $this->fecha           = '2016-08-04T14:30';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo         = 'plan-estrategico-drenaje-pluvial-torreon';
-        $this->imagen          = 'plan-estrategico-drenaje-pluvial-torreon/imagen.jpg';
-        $this->imagen_previa   = 'plan-estrategico-drenaje-pluvial-torreon/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion     = 'Diagnóstico y Lineamientos para la elaboración del Plan Estratégico de Drenaje Pluvial de Torreón.';
-        $this->claves          = 'IMPLAN, Torreon, Drenaje, Pluvial';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'proyectos';
+        $this->nombre                     = 'Plan Estratégico de Drenaje Pluvial de Torreón';
+        $this->autor                      = 'Dirección de Proyectos Estratégicos';
+        $this->fecha                      = '2016-08-04T14:30';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'plan-estrategico-drenaje-pluvial-torreon';
+        $this->imagen                     = 'plan-estrategico-drenaje-pluvial-torreon/imagen.jpg';
+        $this->imagen_previa              = 'plan-estrategico-drenaje-pluvial-torreon/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion                = 'Diagnóstico y Lineamientos para la elaboración del Plan Estratégico de Drenaje Pluvial de Torreón.';
+        $this->claves                     = 'IMPLAN, Torreon, Drenaje, Pluvial';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Proyectos Estratégicos > Todos los Proyectos';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
-        $this->poner_imagen_en_contenido = false;
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaArticle();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = $this->poner_imagen_en_contenido;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido       = $schema;
+        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        // Banderas
+        $this->poner_imagen_en_contenido  = false;
+        $this->para_compartir             = false;
         // Para el Organizador
-        $this->categorias      = array('Infraestructura');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón');
+        $this->categorias                 = array('Infraestructura');
+        $this->fuentes                    = array();
+        $this->regiones                   = array('Torreón');
     } // constructor
 
     /**

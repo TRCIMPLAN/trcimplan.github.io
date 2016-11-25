@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Redifusión Configuración
+/**
+ * TrcIMPLAN Sitio Web - Redifusion Config
  *
- * Copyright (C) 2014-2016 IMPLAN Torreón
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,6 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Configuracion;
@@ -31,11 +32,11 @@ class RedifusionConfig {
     public $sitio_url         = 'http://www.trcimplan.gob.mx'; // Sin diagonal al final
     public $sitio_descripcion = 'Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.';
     public $lenguaje          = 'es-MX';
-    public $generator         = 'IMPLAN Torreón Sitio Web v2.0';
+    public $generator         = 'Plataforma de Conocimiento v1.0';
     public $webmaster_email   = 'webmaster@trcimplan.mx (Webmaster)';
     public $elementos_max     = 8;
     public $archivo           = 'rss.xml';
-    public $usar_descripcion  = false; // Si es falso, usará el contenido
+    public $usar_descripcion  = FALSE; // Si es falso, usará el contenido
 
 } // Clase RedifusionConfig
 

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Marco Jurídico.">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="Plan, Estrategico, Torreón, 2040, Metropolitano, Marco, Juridico">
+  <title>Marco Jurídico - IMPLAN Torreón</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar documento</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+              <div class="encabezado">
+          <h1 itemprop="name">Marco Jurídico</h1>
+          <div class="encabezado-descripcion" itemprop="description">Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Marco Jurídico.</div>
+                <div class="encabezado-autor-fecha">
+          <meta itemprop="datePublished" content="2016-10-10T01:05">10/10/2016 01:05
+        </div>
+        </div>
+        <meta itemprop="image" alt="Marco Jurídico" src="../imagenes/imagen.jpg">
+              <div itemprop="articleBody">
+        <p>La <strong>Constitución Política de los Estados Unidos Mexicanos</strong> en su artículo 115 fracción V, faculta a los municipios para formular, aprobar y administrar la zonificación y planes de desarrollo municipal y participar en la formulación de planes de desarrollo regional.</p>
+
+<p>Tanto la Constitución Federal en su artículo 115 fracción VI, como la <strong>Constitución Política del Estado de Coahuila de Zaragoza</strong> en su artículo 158-U fracción III numeral 2, establecen que cuando dos o más centros urbanos situados en territorios municipales de dos o más entidades federativas formen o tiendan a formar una continuidad demográfica, la Federación, las entidades federativas y los Municipios respectivos, en el ámbito de sus competencias, planearán y regularán de manera conjunta y coordinada el desarrollo de dichos centros con apego a la ley federal de la materia.</p>
+
+<p>La Constitución Estatal antes mencionada, establece en su artículo 158-N que la competencia municipal se ejercerá por el Ayuntamiento <strong>observando en todo momento las disposiciones federales y estatales;</strong> asimismo, el citado numeral establece que los gobiernos municipales mantendrán con las partes integrantes de la federación una relación de respeto y colaboración mutua para el <strong>desarrollo político, económico, social y cultural del país.</strong></p>
+
+<p>Ahora bien, la Constitución del Estado en su artículo 158-U fracción I, concede a los Ayuntamientos la facultad de formular, aprobar, controlar y evaluar el Plan de Desarrollo Municipal, así como <strong>actualizar la información</strong> demográfica, económica y social que coadyuve a la mejor toma de decisiones de gobierno y colaborar con las autoridades federales y estatales en la formación de censos y estadísticas de toda índole.</p>
+
+<p>Por su parte, el <strong>Código Municipal para el Estado de Coahuila de Zaragoza,</strong> establece en su artículo 141 que la planeación del desarrollo municipal es una actividad de racionalidad político-administrativa encaminada a que los Ayuntamientos intervengan eficientemente en el <strong>desarrollo integral</strong> y consiste en diseñar e implementar políticas públicas municipales <strong>de mediano y largo plazo</strong> a fin de prever y <strong>adaptar armónicamente las actividades sociales y económicas con las necesidades básicas de los municipios,</strong> de acuerdo con su vocación regional, su potencial y sus recursos disponibles.</p>
+
+<p>Es importante mencionar que la Constitución Política del Estado de Coahuila en su artículo 158-U fracción II, otorga a los Ayuntamientos la facultad de crear dependencias y entidades de la administración pública municipal para el debido cumplimiento de sus atribuciones, por lo que en observancia de dicha disposición, el 17 de abril de 2015, fue publicada en el Periódico Oficial del Estado de Coahuila de Zaragoza, mediante decreto número 47, <strong>la Ley que crea el Instituto Municipal de Planeación y Competitividad de Torreón (IMPLAN),</strong> constituido como organismo descentralizado de la administración pública municipal de Torreón.</p>
+
+<p>El artículo 3, fracción I de la Ley crea el Instituto Municipal de Planeación y Competitividad de Torreón, establece que el IMPLAN es el órgano técnico consultivo y auxiliar del Ayuntamiento para el cumplimiento de las funciones que le confiere la <strong>Constitución Política de los Estados Unidos Mexicanos,</strong> la <strong>Constitución Política del Estado</strong> y el <strong>Código Municipal para el Estado de Coahuila</strong> en materia de planeación urbana, normatividad urbanística y constructiva, programación de la inversión pública, emitiendo instrumentos de planeación, opiniones y recomendaciones para su aprobación.</p>
+
+<p>De conformidad con lo dispuesto por el artículo 9 de la Ley que crea el IMPLAN, dentro de las atribuciones del Instituto se encuentran las siguientes: diseñar instrumentos y lineamientos que permitan a las autoridades aplicar las normas y reglamentos en materia de planeación; elaborar los planes y programas de corto, mediano y largo plazo; coordinar e instrumentar, en lo relativo a la planeación municipal, la consulta a las diferentes dependencias, entidades, organizaciones de la sociedad civil , personas físicas y morales; elaborar líneas de acción que tiendan a lograr el desarrollo equilibrado del municipio, entre otras.</p>
+
+<p>En atención a lo anterior, el Plan Estratégico Metropolitano es el instrumento de planeación que emite el Instituto Municipal de Planeación y Competitividad de Torreón en cumplimiento de las atribuciones que le han sido conferidas, el cual reúne las características de planeación previstas en el artículo 8 de la Ley que crea el IMPLAN, pues es un instrumento de planeación <strong>integral</strong> que incluye el desarrollo urbano, medio ambiente, necesidades sociales, derecho y economía; es <strong>continuo</strong> porque tiene por objeto trascender a través de los periodos gubernamentales; es <strong>dinámico</strong> en virtud de que estará en constante evaluación y retroalimentación; es <strong>suficiente</strong> pues atiende las necesidades y promueve oportunidades de desarrollo económico y social; es de <strong>largo plazo</strong> en atención a que define proyectos estratégicos de futuro social, cultural, ambiental y urbano guiados por la visión de ciudad y su vocación; finalmente, es <strong>participativo</strong> en virtud de que fue creado a través de la consulta ciudadana.</p>
+
+<p>El <strong>Plan Estratégico Metropolitano</strong> es el instrumento que servirá de base para la planeación coordinada entre los municipios que conforman la Zona Metropolitana de la Laguna, el cual se ha realizado en observancia de las disposiciones legales aplicables en la materia tanto a nivel Federal, Estatal y Municipal, entre las cuales destacan las siguientes:</p>
+
+<h2>Federal</h2>
+
+<ul>
+<li>Constitución Política de los Estados Unidos Mexicanos</li>
+<li>Ley de Planeación</li>
+<li>Ley General de Asentamientos Humanos</li>
+<li>Ley General del Equilibrio Ecológico y Protección al Ambiente y su Reglamento</li>
+</ul>
+
+<h2>Estatal</h2>
+
+<ul>
+<li>Constitución Política del Estado Coahuila de Zaragoza</li>
+<li>Código Municipal para el Estado de Coahuila de Zaragoza</li>
+<li>Ley de Asentamientos Humanos y Desarrollo Urbano del Estado de Coahuila de Zaragoza</li>
+<li>Ley de Planeación para el Desarrollo del Estado de Coahuila de Zaragoza</li>
+</ul>
+
+<h2>Municipal</h2>
+
+<ul>
+<li>Reglamento Orgánico de la Administración Pública Municipal de Torreón, Coahuila.</li>
+<li>Ley que crea el Instituto Municipal de Planeación y Competitividad de Torreón</li>
+<li>Reglamento de Desarrollo Sustentable y Protección al Ambiente del Municipio de Torreón, Coahuila.</li>
+<li>Reglamento de Desarrollo Urbano, Zonificación, Usos de Suelo y Construcciones del Municipio de Torreón, Coahuila.</li>
+<li>Manual de organización del IMPLAN</li>
+</ul>
+
+<h2>Antecedentes de planeación institucional</h2>
+
+<ul>
+<li>Planeación nacional democrática: Plan Nacional de Desarrollo 2012 - 2018.</li>
+<li>Plan Estatal de Desarrollo de Coahuila.</li>
+<li>Plan Municipal de Desarrollo de Torreón.</li>
+<li>Programa de Ordenamiento Territorial o de Desarrollo Urbano de Torreón.</li>
+<li>Planes de Desarrollo Económico, de Movilidad, Ambientales o de Desarrollo Social</li>
+</ul>
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+  <th>Fecha</th>
+  <th>Nombre del Plan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1961-1969</td>
+  <td>Plan de Rehabilitación</td>
+</tr>
+<tr>
+  <td>1977</td>
+  <td>Plan de Ordenación de la Zona Conurbada de la Laguna</td>
+</tr>
+<tr>
+  <td>1989</td>
+  <td>Plan Nueva Laguna</td>
+</tr>
+<tr>
+  <td>1996</td>
+  <td>Alianza para la Reactivación Económica y el empleo en la Laguna</td>
+</tr>
+<tr>
+  <td>2003</td>
+  <td>Programa Gran Visión 2020</td>
+</tr>
+<tr>
+  <td>2005</td>
+  <td>Comisión Interestatal para el Desarrollo Regional</td>
+</tr>
+<tr>
+  <td>2007</td>
+  <td>Carta de Intención de los Municipios de la Zona Metropolitana de La Laguna</td>
+</tr>
+<tr>
+  <td>2012</td>
+  <td>Plan Rector de la Zona Metropolitana de La Laguna</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Fuente:</strong> Elaboración propia, 2015. Adaptado de Historia y prospectiva de la planeación regional en la Comarca Lagunera, A. Hernández Corichi, COECyT, Coahuila 2006</p>
+
+<p><a href="indice.html">Índice</a> | Siguiente: <a href="diagnostico-estrategico.html">Diagnóstico Estratégico</a></p>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script>
+
+</script>
+</body>
+</html>

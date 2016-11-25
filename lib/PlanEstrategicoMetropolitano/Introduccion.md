@@ -3,20 +3,11 @@
 
 ### ¿Qué es el Plan Estratégico Metropolitano?
 
-El **Plan Estratégico Metropolitano (PEM)** es un esfuerzo de planeación participativa que encabeza el Consejo Directivo del IMPLAN Torreón, para **atender la necesidad urgente de elevar el nivel de competitividad** para el desarrollo económico y social de la **Zona Metropolitana de La Laguna**.
+Es un **esfuerzo de planeación participativa, corresponsabilidad y gobernanza que pretende promover y construir un compromiso colectivo para atender los retos y desafíos en los principales temas que condicionan el desarrollo de la Zona Metropolitana de La Laguna.**
 
-### ¿En qué me beneficia?
-
-El PEM es un amplio ejercicio de corresponsabilidad y gobernanza que concentrará las visiones y opiniones de seis grandes temas: **Buen Gobierno, Desarrollo Económico y Competitividad, Desarrollo Social, Movilidad y Transporte, Sustentabilidad y Entorno Urbano.**
-
-Tu participación será vital para **identificar y concretar las líneas de acción más efectivas** que seguirán **gobernantes y gobernados**, de la gran cantidad de necesidades y proyectos que requiere La Laguna para ser mejor.
+> Marca directrices y líneas de acción derivadas de una visión (a 25 años) compartida y construida por y para los ciudadanos.
 
 ### ¿Quiénes lo elaboran?
 
-El PEM es realizado por **sobresalientes y diversos actores locales**, motivados por su compromiso de mejorar la zona metropolitana. Entre ellos están representantes de instituciones gubernamentales y no gubernamentales, grupos de profesionales expertos y personajes sociales estratégicos.
+El equipo técnico del **IMPLAN Torreón,** coordinará este proceso de planeación y de gestión de proyectos que concretarán el **Plan** mediante las propuestas proporcionadas por el **Grupo Promotor,** que está conformado por representantes de instituciones gubernamentales y no gubernamentales, grupos de profesionales expertos y actores sociales estratégicos.
 
-Se apoyarán con las propuestas proporcionadas por los **ciudadanos** y con el equipo técnico del IMPLAN Torreón, quienes coordinarán, ordenarán y publicarán este proceso.
-
-### ¿De qué forma puedo participar?
-
-Se tuvo un formulario en internet cuyo período de operación ya ha terminado. Comuníquese al correo electrónico [info@trcimplan.gob.mx](mailto:info@trcimplan.gob.mx) para solicitar más información.

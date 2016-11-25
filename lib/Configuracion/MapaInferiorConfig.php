@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Mapa Inferior Configuración
+/**
+ * TrcIMPLAN Sitio Web - Mapa Inferior Config
  *
- * Copyright (C) 2014-2016 Guillermo Valdés Lozano
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,6 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Configuracion;
@@ -28,7 +29,7 @@ class MapaInferiorConfig {
 
     public $sitio_titulo = 'IMPLAN Torreón';
     public $logotipo     = 'imagenes/implan-transparente-gris.png';
-    public $en_raiz      = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
+    public $en_raiz      = FALSE; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
 
     /**
      * HTML
@@ -49,7 +50,7 @@ class MapaInferiorConfig {
         }
         $a[] = '        </div>'; // col-md-8
         $a[] = '        <div class="col-md-4">';
-        $a[] = '          <div class="pull-right mapa-inferior-redes-sociales">';
+        $a[] = '          <div class="pull-right redes-sociales">';
         $a[] = '            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>';
         $a[] = '            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>';
         $a[] = '            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>';
@@ -59,7 +60,7 @@ class MapaInferiorConfig {
         } else {
             $a[] = '            <a class="fa fa-rss-square" href="../rss.xml"></a>';
         }
-        $a[] = '          </div>'; // mapa-inferior-redes-sociales
+        $a[] = '          </div>'; // redes-sociales
         $a[] = '        </div>'; // col-md-4
         $a[] = '      </div>'; // row
         $a[] = '    </div>'; // mapa-inferior

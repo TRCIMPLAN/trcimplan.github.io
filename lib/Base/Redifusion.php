@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Redifusión
+/**
+ * Plataforma de Conocimiento - Redifusión
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package PlataformaDeConocimiento
  */
 
-// Namespace
 namespace Base;
 
 /**
@@ -38,21 +38,6 @@ class Redifusion extends \Configuracion\RedifusionConfig {
     // public $archivo;
     // public $usar_descripcion;
     protected $elementos = array();
-
-    /**
-     * Caracteres para web
-     *
-     * @param string  Texto a convertir
-     * @return string Convertido
-     */
-    protected function caracteres_para_web($in_texto) {
-        $buscados       = array('ñ', 'Ñ', 'ü', 'Ü', 'á', 'Á', 'é', 'É', 'í', 'Í', 'ó', 'Ó', 'ú', 'Ú');
-        $cambios        = array('n', 'n', 'u', 'u', 'a', 'a', 'e', 'e', 'i', 'i', 'o', 'o', 'u', 'u');
-        $sin_acentos    = str_replace($buscados, $cambios, $in_texto);
-        $especiales     = array(' ', '#', '&', '%', '$', '@', '(', ')', '.', ',');
-        $sin_especiales = str_replace($especiales, '-', $sin_acentos);
-        return strtolower($sin_especiales);
-    } // caracteres_para_web
 
     /**
      * Vínculos absolutos

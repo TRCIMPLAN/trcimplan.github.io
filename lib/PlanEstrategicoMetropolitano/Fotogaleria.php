@@ -1,8 +1,8 @@
 <?php
 /*
- * TrcIMPLAN - Plan Estratégico Metropolitano Fotogalería
+ * TrcIMPLAN Sitio Web - Plan Estratégico Metropolitano Fotogalería
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace PlanEstrategicoMetropolitano;
@@ -32,30 +32,25 @@ class Fotogaleria extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Fotogalería';
-        $this->autor           = 'Dirección de Proyectos Estratégicos';
-        $this->fecha           = '2015-04-10T18:00';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes
-        $this->archivo         = 'fotogaleria';
-        $this->imagen          = 'fotogaleria/imagen.jpg';
-        $this->imagen_previa   = 'fotogaleria/imagen-previa.jpg';
+        $this->nombre                     = 'Fotogalería';
+        $this->autor                      = 'Dirección de Proyectos Estratégicos';
+        $this->fecha                      = '2015-04-10T18:00';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'fotogaleria';
+        $this->imagen                     = 'fotogaleria/imagen.jpg';
+        $this->imagen_previa              = 'fotogaleria/imagen-previa.jpg';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion     = 'Presentación con las fotografías de las mesas del Plan Estratégico Metropolitano.';
-        $this->claves          = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'plan-estrategico-metropolitano';
+        $this->descripcion                = 'Presentación con las fotografías de las mesas del Plan Estratégico Metropolitano.';
+        $this->claves                     = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, Plan, Estrategico, Metropolitano';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Plan Estratégico Metropolitano > Todas las Mesas';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir  = true;
-        // Indicar que NO se vaya a poner la imagen en la página y en la redifusión. Por defecto es verdadero.
-        $this->poner_imagen_en_contenido = false;
+        $this->nombre_menu                = 'Plan Estratégico Torreón > Descripción del proceso';
+        // Banderas
+        $this->poner_imagen_en_contenido  = false;
+        $this->para_compartir             = false;
         // Para el Organizador
-        $this->categorias      = array('Bienestar', 'Competitividad', 'Gobierno', 'Infraestructura', 'Movilidad', 'Participación Ciudadana', 'Recursos Naturales', 'Seguridad');
-        $this->fuentes         = array();
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->categorias                 = array();
+        $this->fuentes                    = array();
+        $this->regiones                   = array();
     } // constructor
 
     /**

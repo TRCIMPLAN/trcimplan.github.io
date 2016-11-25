@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="Categoria, Seguridad">
+  <title>Seguridad - IMPLAN Torreón</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar documento</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <div class="encabezado">
+        <span><h1>Seguridad</h1></span>
+      </div>
+<div class="panel-group" id="categorias-individual" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingblog">
+      <h4 class="panel-title">
+        <a                   role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseblog" aria-expanded="true"  aria-controls="collapseblog">
+          Análisis Publicados
+        </a>
+      </h4>
+    </div>
+    <div id="collapseblog" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingblog">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../blog/comportamiento-tendencia-incidencia-delictiva.html">Comportamiento y tendencia de la incidencia delictiva. Una visión ampliada.</a></li>
+        <li><a href="../blog/cultura-seguridad-vial.html">Cultura y seguridad vial</a></li>
+        <li><a href="../blog/espacios-publicos-seguros-para-mujeres-y-ninas.html">Espacios públicos seguros para mujeres y niñas</a></li>
+        <li><a href="../blog/necesidad-diagnostico-sobre-delincuencia-juvenil.html">La Necesidad de un Diagnóstico sobre la Delincuencia Juvenil en el Municipio de Torreón</a></li>
+        <li><a href="../blog/la-otra-violencia-contra-los-ninos.html">La Otra Violencia Contra los Niños</a></li>
+        <li><a href="../blog/prevencion-delincuencia-juvenil.html">La prevención de la Delincuencia Juvenil, elemento central de la prevención integral del delito y la violencia</a></li>
+        <li><a href="../blog/prevencion-delito-seguridad.html">La Prevención del Delito como elemento fundamental para la Seguridad</a></li>
+        <li><a href="../blog/zml-sistema-derecho-confiable-objetivo.html">La Zona Metropolitana de La Laguna y sus municipios en Sistema de Derecho Confiable y Objetivo</a></li>
+        <li><a href="../blog/los-derechos-del-policia.html">Los Derechos del Policía</a></li>
+        <li><a href="../blog/ninos-violencia.html">Los Niños y la Violencia</a></li>
+        <li><a href="../blog/planeacion-urbana-con-perspectiva-de-genero.html">Planeación Urbana con Perspectiva de Género</a></li>
+        <li><a href="../blog/seguridad-humana.html">Seguridad Humana</a></li>
+        <li><a href="../blog/vivienda-social-y-violencia-intrafamiliar.html">Vivienda Social y Violencia Intrafamiliar</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-gomez-palacio">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-gomez-palacio" aria-expanded="false" aria-controls="collapseindicadores-gomez-palacio">
+          Indicadores de Gómez Palacio
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-gomez-palacio" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-gomez-palacio">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html">Accidentes Viales en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-delitos.html">Delitos en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-delitos-patrimoniales.html">Delitos Patrimoniales en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-homicidios.html">Homicidios en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-monto-reportado-en-robo-de-mercancias.html">Monto Reportado en Robo de Mercancías en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-percepcion-de-inseguridad.html">Percepción de Inseguridad en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/gobierno-periodistas-muertos-o-desaparecidos.html">Periodistas Muertos o Desaparecidos en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html">Personas Involucradas en Delitos del Fuero Común en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html">Personas Involucradas en Delitos del Fuero Federal en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-presuntos-delitos-del-fuero-comun.html">Presuntos Delitos del Fuero Común en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-presuntos-delitos-del-fuero-federal.html">Presuntos Delitos del Fuero Federal en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html">Robo a Negocios en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html">Robo a Transeuntes en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html">Robos a Casa Habitación en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-robos-totales.html">Robos Totales en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-secuestros.html">Secuestros en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-extorsion.html">Tasa de Extorsión en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-homicidio-doloso.html">Tasa de Homicidio Doloso en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-homicidios.html">Tasa de Homicidios en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html">Tasa de Robo de Vehículo con Violencia en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html">Tasa de Robo de Vehículo Sin Violencia en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/seguridad-tasa-de-secuestro.html">Tasa de Secuestro en Gómez Palacio</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-la-laguna">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-la-laguna" aria-expanded="false" aria-controls="collapseindicadores-la-laguna">
+          Indicadores de La Laguna
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-la-laguna" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-la-laguna">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-la-laguna/seguridad-accidentes-viales.html">Accidentes Viales en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-delitos.html">Delitos en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-delitos-patrimoniales.html">Delitos Patrimoniales en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-homicidios.html">Homicidios en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-monto-reportado-en-robo-de-mercancias.html">Monto Reportado en Robo de Mercancías en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-percepcion-de-inseguridad.html">Percepción de Inseguridad en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/gobierno-periodistas-muertos-o-desaparecidos.html">Periodistas Muertos o Desaparecidos en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-robo-a-negocios.html">Robo a Negocios en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html">Robo a Transeuntes en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html">Robo de Vehículos en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html">Robos a Casa Habitación en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-robos-totales.html">Robos Totales en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-secuestros.html">Secuestros en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-tasa-de-extorsion.html">Tasa de Extorsión en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-tasa-de-homicidio-doloso.html">Tasa de Homicidio Doloso en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-tasa-de-homicidios.html">Tasa de Homicidios en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html">Tasa de Robo de Vehículo con Violencia en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html">Tasa de Robo de Vehículo Sin Violencia en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/seguridad-tasa-de-secuestro.html">Tasa de Secuestro en La Laguna</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-matamoros">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-matamoros" aria-expanded="false" aria-controls="collapseindicadores-matamoros">
+          Indicadores de Matamoros
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-matamoros" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-matamoros">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-matamoros/seguridad-accidentes-viales.html">Accidentes Viales en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-delitos.html">Delitos en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-delitos-patrimoniales.html">Delitos Patrimoniales en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-homicidios.html">Homicidios en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-monto-reportado-en-robo-de-mercancias.html">Monto Reportado en Robo de Mercancías en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-percepcion-de-inseguridad.html">Percepción de Inseguridad en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/gobierno-periodistas-muertos-o-desaparecidos.html">Periodistas Muertos o Desaparecidos en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html">Personas Involucradas en Delitos del Fuero Común en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html">Personas Involucradas en Delitos del Fuero Federal en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-comun.html">Presuntos Delitos del Fuero Común en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-presuntos-delitos-del-fuero-federal.html">Presuntos Delitos del Fuero Federal en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-robo-a-negocios.html">Robo a Negocios en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html">Robo a Transeuntes en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html">Robos a Casa Habitación en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-robos-totales.html">Robos Totales en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-secuestros.html">Secuestros en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-tasa-de-extorsion.html">Tasa de Extorsión en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-tasa-de-homicidio-doloso.html">Tasa de Homicidio Doloso en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-tasa-de-homicidios.html">Tasa de Homicidios en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html">Tasa de Robo de Vehículo con Violencia en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html">Tasa de Robo de Vehículo Sin Violencia en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/seguridad-tasa-de-secuestro.html">Tasa de Secuestro en Matamoros</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-torreon">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-torreon" aria-expanded="false" aria-controls="collapseindicadores-torreon">
+          Indicadores de Torreón
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-torreon" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-torreon">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-torreon/seguridad-accidentes-viales.html">Accidentes Viales en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-accidentes-viales-fatales.html">Accidentes Viales Fatales en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-cantidad-de-policias.html">Cantidad de Policías en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-delitos.html">Delitos en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-delitos-patrimoniales.html">Delitos Patrimoniales en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-homicidios.html">Homicidios en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-monto-reportado-en-robo-de-mercancias.html">Monto Reportado en Robo de Mercancías en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-percepcion-de-inseguridad.html">Percepción de Inseguridad en Torreón</a></li>
+        <li><a href="../indicadores-torreon/gobierno-periodistas-muertos-o-desaparecidos.html">Periodistas Muertos o Desaparecidos en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-comun.html">Personas Involucradas en Delitos del Fuero Común en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-personas-involucradas-en-delitos-del-fuero-federal.html">Personas Involucradas en Delitos del Fuero Federal en Torreón</a></li>
+        <li><a href="../indicadores-torreon/gobierno-policias-operativos-de-seguridad-publica.html">Policías Operativos de Seguridad Pública en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html">Porcentaje de Accidentes Viales Fatales en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-presuntos-delitos-del-fuero-comun.html">Presuntos Delitos del Fuero Común en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-presuntos-delitos-del-fuero-federal.html">Presuntos Delitos del Fuero Federal en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-robo-a-negocios.html">Robo a Negocios en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-robo-a-transeuntes.html">Robo a Transeuntes en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-robo-de-vehiculos.html">Robo de Vehículos en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html">Robos a Casa Habitación en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-robos-totales.html">Robos Totales en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-secuestros.html">Secuestros en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-tasa-de-extorsion.html">Tasa de Extorsión en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-tasa-de-homicidio-doloso.html">Tasa de Homicidio Doloso en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-tasa-de-homicidios.html">Tasa de Homicidios en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculo-con-violencia.html">Tasa de Robo de Vehículo con Violencia en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculo-sin-violencia.html">Tasa de Robo de Vehículo Sin Violencia en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html">Tasa de Robo de VehÍculos en Torreón</a></li>
+        <li><a href="../indicadores-torreon/seguridad-tasa-de-secuestro.html">Tasa de Secuestro en Torreón</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingsig-mapas-torreon">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesig-mapas-torreon" aria-expanded="false" aria-controls="collapsesig-mapas-torreon">
+          Sistema de Información Geográfica de Torreón
+        </a>
+      </h4>
+    </div>
+    <div id="collapsesig-mapas-torreon" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingsig-mapas-torreon">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../sig-mapas-torreon/seguridad-publica.html">Seguridad Pública</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+</body>
+</html>

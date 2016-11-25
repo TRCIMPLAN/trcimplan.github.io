@@ -2,48 +2,54 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-<!-- ===========================================================================================
+<!-- ===================================================================================================
 
         Instituto Municipal de Planeación y Competitividad de Torreón.
 
-        Este sistema fue elaborado por personal del IMPLAN Torreón.
-        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015.
-          Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
-        Al usarlo está aceptando los términos de uso de la información y del sitio web:
-          http://trcimplan.gob.mx/terminos/terminos-informacion.html
-          http://trcimplan.gob.mx/terminos/terminos-sitio.html
-        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
-          Twitter Bootstrap    http://getbootstrap.com
-          StartBootStrap       http://startbootstrap.com
-          Morris.js            https://morrisjs.github.io/morris.js/
-          LeafLet              http://leafletjs.com
-          CartoDB              http://cartodb.com
-        Descargue, aprenda y colabore con el software del IMPLAN Torreón por medio de GitHub:
-          GitHub               https://github.com/TRCIMPLAN
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
 
-     =========================================================================================== -->
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Mapas con información georreferenciada para Torreón">
-  <meta name="author" content="TrcIMPLAN">
-  <meta name="keywords" content="IMPLAN, SIG, Información, Geográfica, Torreón">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Sistema de Información Geográfica de Torreón - IMPLAN Torreón">
-  <meta name="twitter:description" content="Mapas con información georreferenciada para Torreón">
-  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/sig-mapas-torreon/index.html">
-  <meta name="og:title" content="Sistema de Información Geográfica de Torreón - IMPLAN Torreón">
-  <meta name="og:description" content="Mapas con información georreferenciada para Torreón">
-  <meta name="og:url" content="http://www.trcimplan.gob.mx/sig-mapas-torreon/index.html">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="IMPLAN, Torreon, Información, Geográfica, Torreón">
   <title>Sistema de Información Geográfica de Torreón - IMPLAN Torreón</title>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
-  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón">
-  <link href="../css/morris.css" rel="stylesheet">
-  <link href="../css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
-  <link href="../css/sb-admin-2.css" rel="stylesheet">
-  <link href="../css/trcimplan.css" rel="stylesheet">
-  <link href="http://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
 </head>
 <body>
 <div id="wrapper">
@@ -87,7 +93,7 @@
           <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
-            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Planes</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
             <li class="active"><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
             <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
           </ul>
@@ -97,22 +103,16 @@
           <ul class="nav nav-second-level">
             <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
             <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
-            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Documentos</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar documento</a></li>
           </ul>
         </li>
-        <li>
-          <a href="#"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos Estratégicos<span class="fa arrow"></span></a>
-          <ul class="nav nav-second-level">
-            <li><a href="../proyectos/banco-municipal-proyectos-inversion.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Banco de Proyectos</a></li>
-            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Todos los Proyectos</a></li>
-          </ul>
-        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
         <li>
           <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
             <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
-            <li><a href="../institucional/quienes-somos.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
             <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
             <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
             <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
@@ -120,7 +120,7 @@
           </ul>
         </li>
         <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
-        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-comments"></i></span> Sala de Prensa</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
         <li>
           <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
@@ -143,271 +143,192 @@
   </nav>
   <div id="page-wrapper">
     <div class="cuerpo">
-      <div class="encabezado" style="background-color:#008000;">
+      <div class="encabezado">
         <span><h1>Sistema de Información Geográfica de Torreón</h1></span>
+        <div class="encabezado-descripcion">Mapas con información georreferenciada para Torreón</div>
       </div>
-      <div class="row" id="tarjetas">
+<h2>Últimos mapas del SIG Torreón</h2>
+      <div class="row">
         <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="ambito-regional-zona-metropolitana-laguna.html"><img src="ambito-regional-zona-metropolitana-laguna/imagen.jpg" alt="Ámbito Regional de la Zona Metropolitana de La Laguna"></a>
+          <div class="thumbnail tarjetas-thumbnail">
+            <a href="ambito-regional-zona-metropolitana-laguna.html"><img class="img-thumbnail tarjetas-imagen" src="ambito-regional-zona-metropolitana-laguna/imagen.jpg" alt="Ámbito Regional de la Zona Metropolitana de La Laguna"></a>
             <div class="caption">
-              <h3 class="caption-titulo"><a href="ambito-regional-zona-metropolitana-laguna.html">Ámbito Regional de la Zona Metropolitana de La Laguna</a></h3>
-              <p class="caption-descripcion">Zona Metropolitana de La Laguna con vinculación regional inmediata y su conexión con el Corredor Interoceánico Mazatlán – Matamoros.</p>
-              <a href="https://implantorreon.carto.com/u/sigimplan/viz/8ac33b30-68f7-11e4-871f-0e018d66dc29/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
+              <h4 class="tarjetas-nombre"><a href="ambito-regional-zona-metropolitana-laguna.html">Ámbito Regional de la Zona Metropolitana de La Laguna</a></h4>
+              <p class="tarjetas-descripcion">Zona Metropolitana de La Laguna con vinculación regional inmediata y su conexión con el Corredor Interoceánico Mazatlán – Matamoros.</p>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="parques-industriales.html"><img src="parques-industriales/imagen.jpg" alt="Parques Industriales"></a>
+          <div class="thumbnail tarjetas-thumbnail">
+            <a href="parques-industriales.html"><img class="img-thumbnail tarjetas-imagen" src="parques-industriales/imagen.jpg" alt="Parques Industriales"></a>
             <div class="caption">
-              <h3 class="caption-titulo"><a href="parques-industriales.html">Parques Industriales</a></h3>
-              <p class="caption-descripcion">Ubicación de parques industriales en la ciudad de Torreón.</p>
-              <a href="https://implantorreon.carto.com/u/sigimplan/viz/4544029c-2427-11e5-ac48-0e9d821ea90d/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
+              <h4 class="tarjetas-nombre"><a href="parques-industriales.html">Parques Industriales</a></h4>
+              <p class="tarjetas-descripcion">Ubicación de parques industriales en la ciudad de Torreón.</p>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="rellenos-sanitarios.html"><img src="rellenos-sanitarios/imagen.jpg" alt="Rellenos Sanitarios"></a>
+          <div class="thumbnail tarjetas-thumbnail">
+            <a href="rellenos-sanitarios.html"><img class="img-thumbnail tarjetas-imagen" src="rellenos-sanitarios/imagen.jpg" alt="Rellenos Sanitarios"></a>
             <div class="caption">
-              <h3 class="caption-titulo"><a href="rellenos-sanitarios.html">Rellenos Sanitarios</a></h3>
-              <p class="caption-descripcion">Lugares donde se deposita finalmente la basura con múltiples medidas para reducir los problemas generados por otros métodos como son los tiraderos.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/8e278c6a-37f2-11e6-9b9d-0e3ff518bd15/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
+              <h4 class="tarjetas-nombre"><a href="rellenos-sanitarios.html">Rellenos Sanitarios</a></h4>
+              <p class="tarjetas-descripcion">Lugares donde se deposita finalmente la basura con múltiples medidas para reducir los problemas generados por otros métodos como son los tiraderos.</p>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="plantas-tratadoras-aguas-residuales.html"><img src="plantas-tratadoras-aguas-residuales/imagen.jpg" alt="Plantas Tratadoras de Aguas Residuales"></a>
+          <div class="thumbnail tarjetas-thumbnail">
+            <a href="plantas-tratadoras-aguas-residuales.html"><img class="img-thumbnail tarjetas-imagen" src="plantas-tratadoras-aguas-residuales/imagen.jpg" alt="Plantas Tratadoras de Aguas Residuales"></a>
             <div class="caption">
-              <h3 class="caption-titulo"><a href="plantas-tratadoras-aguas-residuales.html">Plantas Tratadoras de Aguas Residuales</a></h3>
-              <p class="caption-descripcion">Retiran los contaminantes del agua para que no haya riesgos a la salud y al medio ambiente.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/0bfbfdce-349c-11e6-a6eb-0ea31932ec1d/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="areas-verdes.html"><img src="areas-verdes/imagen.jpg" alt="Áreas Verdes"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="areas-verdes.html">Áreas Verdes</a></h3>
-              <p class="caption-descripcion">Mapa de localización de áreas verdes en la ciudad de Torreón.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/1b85d4ce-3260-11e6-b50c-0ef24382571b/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="poligonos-pobreza.html"><img src="poligonos-pobreza/imagen.jpg" alt="Polígonos de Pobreza"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="poligonos-pobreza.html">Polígonos de Pobreza</a></h3>
-              <p class="caption-descripcion">Localización y demarcación de los territorios que presentan una mayor situación de pobreza y de rezago, conocidos como polígonos de pobreza.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/d4ef8bb0-9ea6-11e5-8b0e-0e5db1731f59/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="seguridad-publica.html"><img src="seguridad-publica/imagen.jpg" alt="Seguridad Pública"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="seguridad-publica.html">Seguridad Pública</a></h3>
-              <p class="caption-descripcion">Instituciones dedicadas a proteger la integridad de los ciudadanos y sus bienes.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/c8d95b00-92f6-11e5-857a-0e5db1731f59/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="infraestructura-sector-salud.html"><img src="infraestructura-sector-salud/imagen.jpg" alt="Infraestructura del Sector Salud"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="infraestructura-sector-salud.html">Infraestructura del Sector Salud</a></h3>
-              <p class="caption-descripcion">Instituciones, Hospitales y Clínicas, públicas y privadas que proporcionan servicios de salud.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/52e058da-7380-11e5-bbfc-0e31c9be1b51/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="infraestructura-vial.html"><img src="infraestructura-vial/imagen.jpg" alt="Infraestructura Vial"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="infraestructura-vial.html">Infraestructura Vial</a></h3>
-              <p class="caption-descripcion">Mapa de jerarquía de vialidades que permite los intercambios entre las diversas funciones que se desarrollan en la ciudad de Torreón.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/3e3e7590-7982-11e4-8c5e-0e4fddd5de28/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="centros-educativos.html"><img src="centros-educativos/imagen.jpg" alt="Centros Educativos"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="centros-educativos.html">Centros Educativos</a></h3>
-              <p class="caption-descripcion">Ubicación centros educativos en Torreón de nivel básico a superior. Fuente: INEGI 2010.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/9f2497ee-3490-11e5-9f8c-0e853d047bba/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="patrimonio-historico.html"><img src="patrimonio-historico/imagen.jpg" alt="Patrimonio Histórico"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="patrimonio-historico.html">Patrimonio Histórico</a></h3>
-              <p class="caption-descripcion">Ubicación de las edificaciones consideradas como patrimonios históricos por el I.N.B.A. y el I.N.A.H.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/3004fe8c-c29c-11e4-ac24-0e4fddd5de28/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="crecimiento-decrecimiento-poblacion.html"><img src="crecimiento-decrecimiento-poblacion/imagen.jpg" alt="Crecimiento y Decrecimiento de Población"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="crecimiento-decrecimiento-poblacion.html">Crecimiento y Decrecimiento de Población</a></h3>
-              <p class="caption-descripcion">Identifique los AGEBs donde hay incremento, decremento o igualdad en cantidad de habitantes.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/5c08e056-0a19-11e5-9fc2-0e0c41326911/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="cobertura-transporte.html"><img src="cobertura-transporte/imagen.jpg" alt="Cobertura de Transporte"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="cobertura-transporte.html">Cobertura de Transporte</a></h3>
-              <p class="caption-descripcion">Mapa con las rutas autorizadas para las líneas de transporte público en Torreón.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/663b2526-ee93-11e4-8e61-0e018d66dc29/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="vida-en-ciudad.html"><img src="vida-en-ciudad/imagen.jpg" alt="Vida en la Ciudad"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="vida-en-ciudad.html">Vida en la Ciudad</a></h3>
-              <p class="caption-descripcion">Ubicación de los principales centros comerciales, centros de convenciones y espectáculos, museos, parques, plazas, teatros, así como lugares de turismo deportivo e histórico.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/ae1f0dba-e9f9-11e4-a808-0e0c41326911/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="maternidad-adolescente.html"><img src="maternidad-adolescente/imagen.jpg" alt="Maternidad Adolescente"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="maternidad-adolescente.html">Maternidad Adolescente</a></h3>
-              <p class="caption-descripcion">Incidencia de Maternidad Adolescente.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/476c744c-de26-11e4-b88e-0e9d821ea90d/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="viviendas-con-agua-red-publica.html"><img src="viviendas-con-agua-red-publica/imagen.jpg" alt="Viviendas con Agua de la Red Pública"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="viviendas-con-agua-red-publica.html">Viviendas con Agua de la Red Pública</a></h3>
-              <p class="caption-descripcion">Accesibilidad de viviendas a agua potable.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/28b06c78-de19-11e4-8197-0e0c41326911/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="viviendas-con-computadora.html"><img src="viviendas-con-computadora/imagen.jpg" alt="Viviendas con Computadora"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="viviendas-con-computadora.html">Viviendas con Computadora</a></h3>
-              <p class="caption-descripcion">Accesibilidad de las viviendas a contar con computadora.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/0b2a1d1e-de25-11e4-91b0-0e4fddd5de28/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="viviendas-con-drenaje.html"><img src="viviendas-con-drenaje/imagen.jpg" alt="Viviendas con Drenaje"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="viviendas-con-drenaje.html">Viviendas con Drenaje</a></h3>
-              <p class="caption-descripcion">Accesibilidad de Viviendas a Drenaje</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/fb82a410-de21-11e4-b994-0e9d821ea90d/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="viviendas-con-energia-electrica.html"><img src="viviendas-con-energia-electrica/imagen.jpg" alt="Viviendas con Energía Eléctrica"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica</a></h3>
-              <p class="caption-descripcion">Accesibilidad de Viviendas a Energía Eléctrica</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/b096d846-de20-11e4-868a-0e4fddd5de28/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="viviendas-con-internet.html"><img src="viviendas-con-internet/imagen.jpg" alt="Viviendas con Internet"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="viviendas-con-internet.html">Viviendas con Internet</a></h3>
-              <p class="caption-descripcion">Accesibilidad de Viviendas a Internet.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/0ccbc85e-de1e-11e4-b994-0e9d821ea90d/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="viviendas-deshabitadas.html"><img src="viviendas-deshabitadas/imagen.jpg" alt="Viviendas Deshabitadas"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="viviendas-deshabitadas.html">Viviendas Deshabitadas</a></h3>
-              <p class="caption-descripcion">Mapa que muestra la incidencia de las viviendas deshabitadas en Torreón, Coahuila.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/e149b360-dc9e-11e4-a1e7-0e853d047bba/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="viviendas-que-disponen-retrete.html"><img src="viviendas-que-disponen-retrete/imagen.jpg" alt="Viviendas que Disponen de Retrete"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="viviendas-que-disponen-retrete.html">Viviendas que Disponen de Retrete</a></h3>
-              <p class="caption-descripcion">Accesibilidad de viviendas a sanitario</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/c39b756e-de1b-11e4-9b88-0e0c41326911/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="crecimiento-historico-torreon.html"><img src="crecimiento-historico-torreon/imagen.jpg" alt="Crecimiento Histórico de Torreón"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="crecimiento-historico-torreon.html">Crecimiento Histórico de Torreón</a></h3>
-              <p class="caption-descripcion">Mapa de cómo ha crecido la ciudad de Torreón año tras año.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/180ab8da-643c-11e4-971a-0e018d66dc29/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="zonificacion-secundaria.html"><img src="zonificacion-secundaria/imagen.jpg" alt="Zonificación Secundaria"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="zonificacion-secundaria.html">Zonificación Secundaria</a></h3>
-              <p class="caption-descripcion">Mapa referente para consultar los usos de suelo del área urbana de Torreón. De clic en un área para mostrar detalles y el enlace al reglamento.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/7c091e9c-7041-11e4-b580-0e4fddd5de28/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="zonificacion-primaria.html"><img src="zonificacion-primaria/imagen.jpg" alt="Zonificación Primaria"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="zonificacion-primaria.html">Zonificación Primaria</a></h3>
-              <p class="caption-descripcion">Mapa para identificar el área urbana, el crecimiento urbano, la zona agrícola y las zonas de restauración y protección de Torreón, Coahuila.</p>
-              <a href="https://implantorreon.cartodb.com/u/sigimplan/viz/4dea92fe-70da-11e4-9a09-0e018d66dc29/embed_map" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail tarjeta">
-            <a href="avance-reconversion-tecnologica-led-alumbrado-publico.html"><img src="avance-reconversion-tecnologica-led-alumbrado-publico/imagen.jpg" alt="Avance de Reconversión Tecnológica Led del Alumbrado Público"></a>
-            <div class="caption">
-              <h3 class="caption-titulo"><a href="avance-reconversion-tecnologica-led-alumbrado-publico.html">Avance de Reconversión Tecnológica Led del Alumbrado Público</a></h3>
-              <p class="caption-descripcion">Mapa que muestra la parte de la ciudad que tiene alumbrado público con tecnología led.</p>
-              <a href="https://implantorreon.carto.com/u/sigimplan/builder/e1447ce2-35fa-11e4-a9bb-0e230854a1cb/embed" class="btn btn-default caption-boton" role="button" target="_blank">Ver a pantalla completa</a>
+              <h4 class="tarjetas-nombre"><a href="plantas-tratadoras-aguas-residuales.html">Plantas Tratadoras de Aguas Residuales</a></h4>
+              <p class="tarjetas-descripcion">Retiran los contaminantes del agua para que no haya riesgos a la salud y al medio ambiente.</p>
             </div>
           </div>
         </div>
       </div>
+<h2>Todos los mapas clasificados por categorías</h2>
+    <div class="row">
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-bienestar.html"><img class="media-object" src="../imagenes/64/bienestar.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-bienestar.html">Bienestar</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-cultura.html"><img class="media-object" src="../imagenes/64/cultura.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-cultura.html">Cultura</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-educacion.html"><img class="media-object" src="../imagenes/64/educacion.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-educacion.html">Educación</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-gobierno.html"><img class="media-object" src="../imagenes/64/gobierno.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-gobierno.html">Gobierno</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-genero.html"><img class="media-object" src="../imagenes/64/genero.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-genero.html">Género</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-infraestructura.html"><img class="media-object" src="../imagenes/64/infraestructura.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-infraestructura.html">Infraestructura</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-movilidad.html"><img class="media-object" src="../imagenes/64/movilidad.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-movilidad.html">Movilidad</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-poblacion.html"><img class="media-object" src="../imagenes/64/poblacion.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-poblacion.html">Población</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-recursos-naturales.html"><img class="media-object" src="../imagenes/64/recursos-naturales.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-recursos-naturales.html">Recursos Naturales</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-salud.html"><img class="media-object" src="../imagenes/64/salud.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-salud.html">Salud</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-seguridad.html"><img class="media-object" src="../imagenes/64/seguridad.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-seguridad.html">Seguridad</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-servicios-publicos.html"><img class="media-object" src="../imagenes/64/servicios-publicos.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-servicios-publicos.html">Servicios Públicos</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-vialidad.html"><img class="media-object" src="../imagenes/64/vialidad.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-vialidad.html">Vialidad</a></h4>
+        </div>
+      </div>
+      </div>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+      <div class="media compactos">
+        <div class="media-left">
+        <a href="categoria-vivienda.html"><img class="media-object" src="../imagenes/64/vivienda.png"></a>
+        </div>
+        <div class="media-body compactos-cuerpo">
+          <h4 class="media-heading"><a href="categoria-vivienda.html">Vivienda</a></h4>
+        </div>
+      </div>
+      </div>
+    </div>
     </div>
     <div class="mapa-inferior">
       <div class="row">
@@ -415,7 +336,7 @@
             <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
         </div>
         <div class="col-md-4">
-          <div class="pull-right mapa-inferior-redes-sociales">
+          <div class="pull-right redes-sociales">
             <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
             <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
             <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
@@ -427,23 +348,13 @@
     </div>
   </div>
 </div>
-<div id="pie">
-  <p>Lea los términos de <a href="http://trcimplan.gob.mx/terminos/terminos-informacion.html">uso de la información</a> y del <a href="http://trcimplan.gob.mx/terminos/terminos-sitio.html">sitio web</a>. Instituto Municipal de Planeación y Competitividad de Torreón. 2015.</p>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="../js/raphael-min.js"></script>
 <script src="../js/morris.min.js"></script>
 <script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
 <script src="../js/sb-admin-2.js"></script>
-<script>
-  // Google Analytics
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-58290501-1', 'auto');
-  ga('send', 'pageview');
-</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
 </body>
 </html>

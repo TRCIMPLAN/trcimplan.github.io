@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Imprenta Publicaciones
+/**
+ * Plataforma de Conocimiento - Imprenta Publicaciones
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package PlataformaDeConocimiento
  */
 
-// Namespace
 namespace Base;
 
 /**
@@ -27,89 +27,135 @@ namespace Base;
  */
 class ImprentaPublicaciones extends Imprenta {
 
-    // public $base_dir;                    // Directorio 'lib', donde están los objetos con las publicaciones, relativo desde htdocs
-    // public $plantilla;                   // Instancia de Plantilla
-    // public $publicaciones;               // Arreglo con instancias de Publicacion
-    // public $plantillas;                  // Arreglo con instancias de Plantillas
-    protected $publicaciones_directorio;    // Nombre del directorio dentro de lib que contiene los archivos con las publicaciones
-    protected $titulo;                      // Título a usar en la página con el índice
-    protected $descripcion;                 // Descripción a usar en la página con el índice
-    protected $claves;                      // Claves a usar en la página con el índice
-    protected $directorio;                  // Nombre del directorio en la raíz del sitio
-    protected $archivo_ruta;                // Ruta desde la raíz al archivo HTML para el índice, por ejemplo 'eventos/index.html'
-    protected $nombre_menu;                 // Etiqueta del menú que pondrá como opción activa
-    protected $concentrador     = 'Indice'; // Clase que concentrará este conjunto de publicaciones. Puede ser 'Indice' o 'Galeria'.
-    protected $encabezado;                  // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
-    public    $encabezado_color = '';       // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
-    public    $encabezado_icono = '';       // Opcional. Icono de Font Awsome.
+    public $directorio;               // Texto, nombre del directorio en raíz donde se guardará los archivos
+    public $publicaciones_directorio; // Texto, nombre del directorio dentro de lib que contiene los archivos con las publicaciones
+    public $encabezado;               // Código HTML para usarse como encabezado
+    public $encabezado_color;         // Texto, color de fondo del encabezado #nnnnnn
+    public $encabezado_icono;         // Texto, icono Font Awesome
+    public $claves;                   // Texto, palabras separadas por comas para meta tag
+    public $nombre_menu;              // Texto, opción del menú activa
+    public $titulo;                   // Texto, título de la página
+    public $descripcion;              // Texto, descripción para meta tag
+    protected $archivo_ruta;          // Texto opcional, ruta al archivo index
+    protected $indices_paginas;       // Ruta a la clase. Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+    protected $recolector;            // Instancia de Recolector
+    public    $contador = 0;          // Entero, cantidad de publicaciones producidas
 
     /**
-     * Elaborar resúmenes para la página de inicial
-     *
-     * @return mixed Instancia de Resumenes
+     * Constructor
      */
-    public function elaborar_resumenes() {
-        // Cargar publicaciones
-        $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio);
-        // Iniciar instancia de Resumenes con las publicaciones
-        $resumenes         = new Resumenes($publicaciones);
-        $resumenes->titulo = $this->titulo;
-        // Entregarla
-        return $resumenes;
-    } // elaborar_resumenes
+    public function __construct() {
+        $this->recolector = new Recolector();
+    } // constructor
+
+    /**
+     * Validar
+     */
+    protected function validar() {
+        // Validar publicaciones_directorio
+        if (!is_string($this->publicaciones_directorio) || ($this->publicaciones_directorio == '')) {
+            throw new \Exception("Falló la validación en ImprentaPublicaciones: No se ha definido el directorio de publicaciones.");
+        }
+        $lib_dir = sprintf('%s/%s', Recolector::LIB_DIR, $this->publicaciones_directorio);
+        if (!is_dir($lib_dir)) {
+            throw new \Exception("Falló la validación en ImprentaPublicaciones: No existe el directorio $lib_dir");
+        }
+        // Validar título
+        if (!is_string($this->titulo) || ($this->titulo == '')) {
+            $this->titulo = $this->publicaciones_directorio;
+        }
+        // Validar descripción
+        if (!is_string($this->descripcion) || ($this->descripcion == '')) {
+            $this->descripcion = "Índice de páginas para {$this->titulo}";
+        }
+        // Validar claves
+        if (!is_string($this->claves) || ($this->claves == '')) {
+            throw new \Exception("Falló la validación en ImprentaPublicaciones: No hay claves.");
+        }
+        // Validar directorio
+        if (!is_string($this->directorio) || ($this->directorio == '')) {
+            $this->directorio = Funciones::caracteres_para_web($this->publicaciones_directorio);
+        }
+        // Validar archivo_ruta
+        if (!is_string($this->archivo_ruta) || ($this->archivo_ruta == '')) {
+            $this->archivo_ruta = "{$this->directorio}/index.html";
+        }
+        // Validar nombre_menu
+        if (!is_string($this->nombre_menu) || ($this->nombre_menu == '')) {
+            $this->nombre_menu = $this->titulo;
+        }
+    } // validar
+
+    /**
+     * Imprimir publicaciones
+     */
+    protected function imprimir_publicaciones() {
+        // Validar que haya publicaciones
+        if ($this->recolector->obtener_cantidad_de_publicaciones() == 0) {
+            throw new \Exception("Error en ImprentaPublicaciones: No hay publicaciones para crear.");
+        }
+        // Iniciar la Plantilla
+        $plantilla                = new Plantilla();
+        $plantilla->navegacion    = new Navegacion();
+        $plantilla->mapa_inferior = new MapaInferior();
+        // Imprimir
+        $c = 0;
+        foreach ($this->recolector->obtener_publicaciones() as $publicacion) {
+            // Al incorporar la publicación a la plantilla puede entregar falso cuando no se define el archivo de salida o no tener contenido
+            if ($plantilla->incorporar_publicacion($publicacion) == true) {
+                // Escribir el archivo HTML
+                $this->crear_archivo($plantilla->archivo_ruta, $plantilla->html());
+                $c++;
+            }
+        }
+        // Sumar al contador
+        $this->contador += $c;
+    } // imprimir_publicaciones
+
+    /**
+     * Imprimir índice
+     *
+     * Crea el archivo index.html
+     */
+    protected function imprimir_indice() {
+        // Iniciar la plantilla
+        $plantilla                            = new Plantilla();
+        $plantilla->navegacion                = new Navegacion();
+        $plantilla->mapa_inferior             = new MapaInferior();
+        $plantilla->directorio                = $this->directorio;
+        $plantilla->navegacion->opcion_activa = $this->nombre_menu;
+        $plantilla->titulo                    = $this->titulo;
+        $plantilla->descripcion               = $this->descripcion;
+        $plantilla->claves                    = $this->claves;
+        $plantilla->archivo_ruta              = $this->archivo_ruta;
+        // Iniciar la página
+        $pagina                   = new $this->indices_paginas($this->recolector);
+        $pagina->titulo           = $this->titulo;
+        $pagina->descripcion      = $this->descripcion;
+        $pagina->encabezado       = $this->encabezado;
+        $pagina->encabezado_color = $this->encabezado_color;
+        $pagina->encabezado_icono = $this->encabezado_icono;
+        $pagina->en_raiz          = false;
+        $pagina->en_otro          = false;
+        // Pasar a la plantilla el HTML y Javascript de la página
+        $plantilla->contenido    = $pagina->html();
+        $plantilla->javascript[] = $pagina->javascript();
+        // Crear archivo
+        $this->crear_archivo($plantilla->archivo_ruta, $plantilla->html());
+    } // imprimir_indice
 
     /**
      * Imprimir
-     *
-     * @return string Mensajes para la terminal
      */
     public function imprimir() {
-        // Para las publicaciones, preparar la Plantilla
-        $this->plantilla                = new Plantilla();
-        $this->plantilla->navegacion    = new Navegacion();
-        $this->plantilla->mapa_inferior = new MapaInferior();
-        // Cargar las publicaciones
-        $publicaciones = $this->agregar_directorio_publicaciones($this->publicaciones_directorio, $this->encabezado_color, $this->encabezado_icono);
-        // Validar y cargar las publicaciones en el concentrador, que se usará más adelante para crear el index.html
-        switch ($this->concentrador) {
-            case 'Indice':
-                $concentrador = new Indice($publicaciones);
-                break;
-            case 'Galeria':
-                $concentrador = new Galeria($publicaciones);
-                break;
-            case 'Tarjetas':
-                $concentrador = new Tarjetas($publicaciones);
-                break;
-            default:
-                throw new \Exception("Error: El concentrador es incorrecto; debe ser Indice, Galeria o Tarjetas.");
-        }
-        // Imprimir las publicaciones
-        $mensaje_publicaciones = sprintf('En %s hubo %s', $this->publicaciones_directorio, parent::imprimir());
-        // Dejar en blanco las propiedades publicaciones y plantilla, para volver a imprimir
-        unset($this->publicaciones);
-        unset($this->plantilla);
-        // Ahora para index.html, nueva instancia de Plantilla
-        $this->plantilla                = new Plantilla();
-        $this->plantilla->navegacion    = new Navegacion();
-        $this->plantilla->mapa_inferior = new MapaInferior();
-        // Cargar el concentrador con las publicaciones
-        $concentrador->titulo           = $this->titulo;
-        $concentrador->encabezado       = $this->encabezado;
-        $concentrador->encabezado_color = $this->encabezado_color;
-        // Cargar la plantilla
-        $this->plantilla->titulo                    = $this->titulo;
-        $this->plantilla->descripcion               = $this->descripcion;
-        $this->plantilla->claves                    = $this->claves;
-        $this->plantilla->directorio                = $this->directorio;
-        $this->plantilla->archivo_ruta              = $this->archivo_ruta;
-        $this->plantilla->navegacion->opcion_activa = $this->nombre_menu;
-        $this->plantilla->contenido                 = $concentrador->html();
-        $this->plantilla->javascript[]              = $concentrador->javascript();
-        // Imprimir index.html
-        $mensaje_index = $this->concentrador.' '.parent::imprimir();
-        // Entregar mensajes
-        return sprintf('%s & %s', $mensaje_publicaciones, $mensaje_index);
+        echo "ImprentaPublicaciones: ";
+        $this->validar();
+        $this->recolector->definir_modo_crear_archivos();
+        $this->recolector->agregar_publicaciones_en($this->publicaciones_directorio, $this);
+        $this->crear_directorio($this->directorio);
+        $this->imprimir_publicaciones();
+        $this->imprimir_indice();
+        echo sprintf(" %d en %s\n", $this->contador, $this->directorio);
     } // imprimir
 
 } // Clase ImprentaPublicaciones

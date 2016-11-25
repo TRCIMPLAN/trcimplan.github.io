@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="Categoria, Empleo">
+  <title>Empleo - IMPLAN Torreón</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar documento</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <div class="encabezado">
+        <span><h1>Empleo</h1></span>
+      </div>
+<div class="panel-group" id="categorias-individual" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingblog">
+      <h4 class="panel-title">
+        <a                   role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseblog" aria-expanded="true"  aria-controls="collapseblog">
+          Análisis Publicados
+        </a>
+      </h4>
+    </div>
+    <div id="collapseblog" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingblog">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../blog/ciudades-24-7-como-estrategia-para-revitalizar-el-espacio-urbano.html">Ciudades 24/7 como estrategia para revitalizar el espacio urbano</a></li>
+        <li><a href="../blog/comercio-al-por-menor-alternativa-crecimiento-economico.html">Comercio al por menor como alternativa de crecimiento económico</a></li>
+        <li><a href="../blog/comercio-y-servicios-fuerte-impulso-a-la-economia-en-torreon.html">Comercio y Servicios: fuerte impulso a la economía en Torreón</a></li>
+        <li><a href="../blog/contribucion-tic-competitividad-productividad.html">Contribución de las TICs en la competitividad y productividad</a></li>
+        <li><a href="../blog/economia-sector-salud-laguna.html">Economía del Sector Salud en La Laguna</a></li>
+        <li><a href="../blog/economia-estable.html">Economía Estable</a></li>
+        <li><a href="../blog/efectos-informalidad-politicas-prevenirla.html">Efectos de la informalidad y políticas para prevenirla</a></li>
+        <li><a href="../blog/el-corredor-economico-del-norte-y-su-fortaleza-nacional.html">El Corredor Económico del Norte y su fortaleza nacional</a></li>
+        <li><a href="../blog/el-fuerte-crecimiento-del-sector-automotriz-en-la-laguna.html">El fuerte crecimiento del sector automotriz en La Laguna</a></li>
+        <li><a href="../blog/equidad-genero-informatica.html">Equidad de Género en Informática</a></li>
+        <li><a href="../blog/evolucion-de-la-economia-de-torreon-durante-2015.html">Evolución de la economía de Torreón durante 2015</a></li>
+        <li><a href="../blog/expo-automotriz-detona-a-la-industria-y-a-la-economia-en-la-laguna.html">Expo Automotriz detona a la industria y a la economía en La Laguna</a></li>
+        <li><a href="../blog/hacia-donde-debe-dirigirse-torreon.html">Hacia dónde debe dirigirse Torreón</a></li>
+        <li><a href="../blog/indicadores-economicos-primer-trimestre-2015-torreon.html">Indicadores Económicos del primer trimestre de 2015 para el Municipio de Torreón</a></li>
+        <li><a href="../blog/indicadores-por-municipio-metodologia-imco.html">Indicadores por municipio construidos por el IMPLAN con la base de datos y metodología del IMCO</a></li>
+        <li><a href="../blog/jovenes-los-mas-afectados-por-el-desempleo-en-la-laguna.html">Jóvenes: los más afectados por el desempleo en La Laguna</a></li>
+        <li><a href="../blog/la-economia-en-el-centro-historico-de-torreon.html">La economía en el Centro Histórico de Torreón</a></li>
+        <li><a href="../blog/la-fuerza-de-las-micro-pequenas-y-medianas-empresas-en-la-laguna.html">La fuerza de las micro, pequeñas y medianas empresas en La Laguna</a></li>
+        <li><a href="../blog/industrial-metalmecanica-la-laguna.html">La industria metalmecánica y La Laguna</a></li>
+        <li><a href="../blog/laguna-apostarle-industria-automotriz.html">La Laguna debe apostarle a la Industria Automotriz</a></li>
+        <li><a href="../blog/la-laguna-capital-humano-y-calidad-de-vida.html">La Laguna: Capital Humano y Calidad de Vida</a></li>
+        <li><a href="../blog/vision-vencedores.html">La visión de los vencedores</a></li>
+        <li><a href="../blog/mercado-factores-eficientes.html">Mercado de Factores Eficientes</a></li>
+        <li><a href="../blog/movilidad-laboral-cotidiana-zml.html">Movilidad laboral cotidiana en la ZML</a></li>
+        <li><a href="../blog/productividad-zml.html">Productividad en la Zona Metropolitana de La Laguna</a></li>
+        <li><a href="../blog/resultados-de-los-censos-economicos-2014.html">Resultados de los Censos Económicos 2014</a></li>
+        <li><a href="../blog/retrospectiva-estado-actual-empleo.html">Retrospectiva y estado actual del empleo en Torreón y la ZML</a></li>
+        <li><a href="../blog/torreon-y-su-riqueza-industrial.html">Torreón y su riqueza industrial</a></li>
+        <li><a href="../blog/torreon-tasa-de-ocupacion-critica-menor-a-la-media-nacional.html">Torreón: tasa de ocupación crítica menor a la media nacional</a></li>
+        <li><a href="../blog/torreon-una-nueva-realidad-economica.html">Torreón: Una Nueva Realidad Económica</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-gomez-palacio">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-gomez-palacio" aria-expanded="false" aria-controls="collapseindicadores-gomez-palacio">
+          Indicadores de Gómez Palacio
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-gomez-palacio" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-gomez-palacio">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-gomez-palacio/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html">Crecimiento de la Población Ocupada sin Ingresos en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-crecimiento-en-jornadas-laborales-muy-largas.html">Crecimiento en Jornadas Laborales Muy Largas en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-crecimiento-en-los-empleados-en-el-sector-formal.html">Crecimiento en los Empleados en el Sector Formal en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-empleados-en-el-sector-formal.html">Empleados en el Sector Formal en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-jornadas-laborales-muy-largas.html">Jornadas Laborales Muy Largas en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-poblacion-ocupada-sin-ingresos.html">Población Ocupada Sin Ingresos en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-productividad-laboral.html">Productividad Laboral en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-productividad-media-laboral.html">Productividad Media Laboral en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html">Salario Promedio Mensual para Trabajadores de Tiempo Completo en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-tasa-de-condiciones-criticas-de-ocupacion.html">Tasa de Condiciones Críticas de Ocupación en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html">Tasa de Informalidad en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Gómez Palacio</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-la-laguna">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-la-laguna" aria-expanded="false" aria-controls="collapseindicadores-la-laguna">
+          Indicadores de La Laguna
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-la-laguna" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-la-laguna">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-la-laguna/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html">Crecimiento de la Población Ocupada sin Ingresos en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-crecimiento-en-jornadas-laborales-muy-largas.html">Crecimiento en Jornadas Laborales Muy Largas en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-crecimiento-en-los-empleados-en-el-sector-formal.html">Crecimiento en los Empleados en el Sector Formal en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-empleados-en-el-sector-formal.html">Empleados en el Sector Formal en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-jornadas-laborales-muy-largas.html">Jornadas Laborales Muy Largas en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-poblacion-ocupada-sin-ingresos.html">Población Ocupada Sin Ingresos en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-productividad-laboral.html">Productividad Laboral en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-productividad-media-laboral.html">Productividad Media Laboral en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html">Salario Promedio Mensual para Trabajadores de Tiempo Completo en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-tasa-de-condiciones-criticas-de-ocupacion.html">Tasa de Condiciones Críticas de Ocupación en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-tasa-de-informalidad.html">Tasa de Informalidad en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-trabajadores-asegurados.html">Trabajadores Asegurados en La Laguna</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-matamoros">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-matamoros" aria-expanded="false" aria-controls="collapseindicadores-matamoros">
+          Indicadores de Matamoros
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-matamoros" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-matamoros">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-matamoros/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html">Crecimiento de la Población Ocupada sin Ingresos en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-crecimiento-en-jornadas-laborales-muy-largas.html">Crecimiento en Jornadas Laborales Muy Largas en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-crecimiento-en-los-empleados-en-el-sector-formal.html">Crecimiento en los Empleados en el Sector Formal en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-empleados-en-el-sector-formal.html">Empleados en el Sector Formal en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-jornadas-laborales-muy-largas.html">Jornadas Laborales Muy Largas en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-poblacion-ocupada-sin-ingresos.html">Población Ocupada Sin Ingresos en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-productividad-laboral.html">Productividad Laboral en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-productividad-media-laboral.html">Productividad Media Laboral en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html">Salario Promedio Mensual para Trabajadores de Tiempo Completo en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-tasa-de-condiciones-criticas-de-ocupacion.html">Tasa de Condiciones Críticas de Ocupación en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-tasa-de-informalidad.html">Tasa de Informalidad en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Matamoros</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-torreon">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-torreon" aria-expanded="false" aria-controls="collapseindicadores-torreon">
+          Indicadores de Torreón
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-torreon" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-torreon">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-torreon/economia-crecimiento-de-la-poblacion-ocupada-sin-ingresos.html">Crecimiento de la Población Ocupada sin Ingresos en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-crecimiento-del-salario-promedio.html">Crecimiento del Salario Promedio en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-crecimiento-en-jornadas-laborales-muy-largas.html">Crecimiento en Jornadas Laborales Muy Largas en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-crecimiento-en-los-empleados-en-el-sector-formal.html">Crecimiento en los Empleados en el Sector Formal en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-demandantes-de-conflicto-laboral.html">Demandantes de Conflicto Laboral en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-empleados-en-el-sector-formal.html">Empleados en el Sector Formal en Torreón</a></li>
+        <li><a href="../indicadores-torreon/sociedad-ingreso-promedio-de-la-mujer.html">Ingreso Promedio de la Mujer en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-jornadas-laborales-muy-largas.html">Jornadas Laborales Muy Largas en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-personal-ocupado-en-el-comercio.html">Personal Ocupado en el Comercio en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html">Personal Ocupado en la Industria Manufacturera en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html">Personal Ocupado en los Servicios en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-poblacion-ocupada-sin-ingresos.html">Población Ocupada Sin Ingresos en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-productividad-laboral.html">Productividad Laboral en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-productividad-media-laboral.html">Productividad Media Laboral en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-salario-promedio-mensual-para-trabajadores-de-tiempo-completo.html">Salario Promedio Mensual para Trabajadores de Tiempo Completo en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-tasa-de-condiciones-criticas-de-ocupacion.html">Tasa de Condiciones Críticas de Ocupación en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-tasa-de-desempleo-abierto.html">Tasa de Desempleo Abierto en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-tasa-de-informalidad.html">Tasa de Informalidad en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-trabajadores-asegurados.html">Trabajadores Asegurados en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-trabajadores-asegurados-region.html">Trabajadores Asegurados (Región) en Torreón</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+</body>
+</html>

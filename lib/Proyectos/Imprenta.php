@@ -1,8 +1,8 @@
 <?php
 /*
- * TrcIMPLAN - Proyectos Imprenta
+ * TrcIMPLAN Sitio Web - Proyectos Imprenta
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Proyectos;
@@ -31,20 +31,21 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
-        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
+        // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
         $this->publicaciones_directorio = 'Proyectos';
-        // Los siguientes parámetros dan datos para el índice/galería que será creado
+        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Proyectos Estratégicos';
         $this->descripcion              = 'Información y seguimiento de los Proyectos Estratégicos del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Banco, Municipal, Proyectos, Estrategicos';
-        $this->encabezado_color         = '#5A1E81';
-        // Etiqueta de Navegación a poner activa
-        $this->nombre_menu              = 'Proyectos Estratégicos';
-        // Clase que concentrará a las publicaciones para hacer su propia página
-        $this->concentrador             = 'Tarjetas'; // Puede ser Indice (por defecto), Galeria o Tarjetas
-        // La ruta al archivo con el índice/galería/tarjetas que será creado
+    //  $this->encabezado_color         = '#DF9C0A';
+        // Opción de Navegación a poner activa
+        $this->nombre_menu              = 'Plan Estratégico Torreón > Proyectos';
+        // Ruta a la clase para hacer la página con el índice
+        $this->indices_paginas          = '\\Base\\PaginasTarjetas'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'proyectos';
-        $this->archivo_ruta             = 'proyectos/index.html';
+        // Ejecutar constructor en el padre
+        parent::__construct();
     } // constructor
 
 } // Clase Imprenta

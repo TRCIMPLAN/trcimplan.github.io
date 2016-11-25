@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN - Salud Laguna
+ * TrcIMPLAN Sitio Web - Salud Laguna
  *
  * Copyright (C) 2015 Guillermo Valdés Lozano
  *
@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package TrcIMPLAN
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace Proyectos;
@@ -25,45 +25,34 @@ namespace Proyectos;
 /**
  * Clase SaludLaguna
  */
-class SaludLaguna extends \Base\Publicacion {
+class SaludLaguna extends \Base\PublicacionSchemaArticle {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre          = 'Salud Laguna';
-        $this->autor           = 'Dirección de Proyectos Estratégicos';
-        $this->fecha           = '2015-05-25T11:40';
-        // El nombre del archivo a crear (obligatorio) y rutas relativas a las imágenes. Use minúsculas, números y/o guiones medios
-        $this->archivo         = 'salud-laguna';
-        $this->imagen          = 'salud-laguna/imagen.jpg';
-        $this->imagen_previa   = 'salud-laguna/imagen-previa.jpg';
-        // La descripción y claves dan información a los buscadores y redes sociales. Las categorías son de uso interno
-        $this->descripcion     = 'Salud Laguna es una agrupación interactiva de pro­fesionales, instituciones, or­ga­nizaciones, integrados en torno a las actividades económicas que dan servicio y soportan al sec­tor salud.';
-        $this->claves          = 'IMPLAN, Torreon';
-        // El directorio en la raíz donde se guardará el archivo HTML
-        $this->directorio      = 'proyectos';
+        $this->nombre                     = 'Salud Laguna';
+        $this->autor                      = 'Dirección de Proyectos Estratégicos';
+        $this->fecha                      = '2015-05-25T11:40';
+        // El nombre del archivo a crear
+        $this->archivo                    = 'salud-laguna';
+        $this->imagen                     = 'salud-laguna/imagen.jpg';
+        $this->imagen_previa              = 'salud-laguna/imagen-previa.jpg';
+        // La descripción y claves dan información a los buscadores y redes sociales
+        $this->descripcion                = 'Salud Laguna es una agrupación interactiva de pro­fesionales, instituciones, or­ga­nizaciones, integrados en torno a las actividades económicas que dan servicio y soportan al sec­tor salud.';
+        $this->claves                     = 'IMPLAN, Torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu     = 'Proyectos Estratégicos > Todos los Proyectos';
-        // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
-        $this->estado          = 'publicar';
-        // El contenido es estructurado en un esquema
-        $schema                = new \Base\SchemaArticle();
-        $schema->name          = $this->nombre;
-        $schema->description   = $this->descripcion;
-        $schema->datePublished = $this->fecha;
-        $schema->image         = $this->imagen;
-        $schema->image_show    = true;
-        $schema->author        = $this->autor;
-        // El contenido es una instancia de SchemaArticle
-        $this->contenido       = $schema;
-        // Se define una ruta a una archivo markdown para que cuando se ejecute el método HTML se cargue
+        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/SaludLaguna.md';
+        // Banderas
+        $this->poner_imagen_en_contenido  = false;
+        $this->para_compartir             = false;
         // Para el Organizador
-        $this->categorias      = array('Empresas', 'Salud');
-        $this->fuentes         = array('IMPLAN');
-        $this->regiones        = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
+        $this->categorias                 = array('Empresas', 'Salud');
+        $this->fuentes                    = array('IMPLAN');
+        $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros', 'La Laguna');
     } // constructor
 
 } // Clase SaludLaguna

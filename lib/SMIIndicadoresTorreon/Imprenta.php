@@ -1,8 +1,8 @@
 <?php
-/**
- * TrcIMPLAN - SMI Indicadores Torreón Imprenta (Creado por Central:SmiLanzadera)
+/*
+ * TrcIMPLAN Sitio Web - SMIIndicadoresTorreon Imprenta
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,20 +31,21 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
-        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
+        // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
         $this->publicaciones_directorio = 'SMIIndicadoresTorreon';
-        // Los siguientes parámetros dan datos para el índice/galería que será creado
+        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Indicadores de Torreón';
         $this->descripcion              = 'Sistema Metropolitano de Indicadores, Región Torreón';
         $this->claves                   = 'IMPLAN, SMI, Indicadores, Metropolitanos, Torreón';
         $this->encabezado_color         = '#CA198A';
-        // Etiqueta de Navegación a poner activa
+        // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Indicadores > Indicadores por Región';
-        // Clase que concentrará a las publicaciones para hacer su propia página
-        $this->concentrador             = 'Indice';
-        // La ruta al archivo con el índice/galería que será creado
+        // Ruta a la clase para hacer la página con el índice
+        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'indicadores-torreon';
-        $this->archivo_ruta             = 'indicadores-torreon/index.html';
+        // Ejecutar constructor en el padre
+        parent::__construct();
     } // constructor
 
 } // Clase Imprenta

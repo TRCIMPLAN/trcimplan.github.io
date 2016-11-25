@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Lengüetas
+/**
+ * Plataforma de Conocimiento - Lengüetas
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,56 +17,70 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package PlataformaDeConocimiento
  */
 
-// Namespace
 namespace Base;
 
 /**
  * Clase Lenguetas
+ *
+ * Sirve para organizar contenido en Toggleable Tabs http://getbootstrap.com/javascript/#tabs
+ *
+ * Ejemplo:
+ *   $lenguetas = new \Base\Lenguetas('QGISInstalacionDesdeFuentes');
+ *   $lenguetas->agregar('qgis1', 'Preámbulo', \Base\Funciones::cargar_archivo_markdown('lib/Apuntes/QGISInstalacionDesdeFuentes01.md'));
+ *   $lenguetas->agregar('qgis2', 'Aplicabilidad y definiciones', \Base\Funciones::cargar_archivo_markdown('lib/Apuntes/QGISInstalacionDesdeFuentes02.md'));
+ *   $lenguetas->agregar('qgis3', 'Copia literal', \Base\Funciones::cargar_archivo_markdown('lib/Apuntes/QGISInstalacionDesdeFuentes03.md'));
+ *   $lenguetas->definir_activa();
+ *   $this->contenido  = $lenguetas->html();
+ *   $this->javascript = $lenguetas->javascript();
  */
 class Lenguetas {
 
-    public $identificador;             // Texto identificador de este grupo de lengüetas
-    public $activa;                    // Texto, clave de la lengüeta activa
-    protected $lenguetas    = array(); // Arreglo con los contenidos
+    public $identificador;             // Texto identificador de este grupo de Lengüetas
+    public $activa;                    // Texto, clave de la Lengüeta activa
+    protected $lenguetas    = array(); // Arreglo con instancias de Lengueta
     protected $clave_ultima;           // Última clave agregada, le sirve a agregar_javascript
 
     /**
      * Constructor
+     *
+     * @param string Opcional, texto identificador único de estas Lengüetas, si no se da se elabora con caracteres aleatorios
      */
-    public function __construct() {
-        // Tomar del url 'accion' es la lengüeta activa
-        if ($_GET['accion'] != '') {
-            $this->activa = $_GET['accion'];
+    public function __construct($identificador) {
+        if ($identificador != '') {
+            // Definir identificador con parámetro
+            $this->identificador = $identificador;
+        } else {
+            // Definir identificador con caracteres aleatorios
+            $primera = ord('a');
+            $ultima  = ord('z');
+            $c       = array();
+            for ($i=0; $i<8; $i++) {
+                $c[] = chr(rand($primera, $ultima));
+            }
+            $this->identificador = "lenguetas-".implode('', $c);
         }
-        // Definir caracteres al azar
-        $primera = ord('a');
-        $ultima  = ord('z');
-        $c = array();
-        for ($i=0; $i<$in_cantidad; $i++) {
-            $c[] = chr(rand($primera, $ultima));
-        }
-        // Definir identificador
-        $this->identificador = "lenguetas-".implode('', $c);
     } // constructor
 
     /**
      * Agregar una pestaña
      *
-     * @param string Clave. Si contiene el texto 'Mapa' se agregará javascript para tal.
-     * @param string Etiqueta
+     * @param string Texto único que identifica al acordeón
+     * @param string Etiqueta del acordeón
      * @param mixed  Contenido. Puede ser texto o una instancia con html(), javascript() e identificador
+     * @param string Opcional. Código javascript
      */
-    public function agregar($in_clave, $in_etiqueta, $in_contenido) {
+    public function agregar($clave, $etiqueta, $contenido='', $javascript='') {
         // Si hubo una lengueta antes, ya no es la activa
         if (($this->activa != '') && is_object($this->lenguetas[$this->activa])) {
             $this->lenguetas[$this->activa]->es_activa = false;
         }
         // Ahora es esta
-        $this->activa = $in_clave;
+        $this->activa = $clave;
         // Acumular
-        $this->lenguetas[$this->activa] = new Lengueta($in_clave, $in_etiqueta, $in_contenido);
+        $this->lenguetas[$this->activa] = new Lengueta($clave, $etiqueta, $contenido, $javascript);
         // Se pasa el identificador
         $this->lenguetas[$this->activa]->padre_identificador = $this->identificador;
     } // agregar
@@ -74,29 +88,28 @@ class Lenguetas {
     /**
      * Agregar Javascript
      *
-     * @param string Javascript
+     * @param string Código javascript para la última lengüeta
      */
-    public function agregar_javascript($in_js) {
-        // A la lengüeta activa se le pasa el javascript
-        if (is_string($in_js) && ($in_js != '')) {
-            $this->lenguetas[$this->activa]->js = $in_js;
+    public function agregar_javascript($javascript) {
+        if (($this->activa != '') && is_string($javascript) && ($javascript != '')) {
+            $this->lenguetas[$this->activa]->javascript = $javascript;
         }
     } // agregar_javascript
 
     /**
      * Definir activa
      *
-     * @param string Clave de la lengüeta activa. Si es nulo, se establece como la última lengüeta agregada.
+     * @param string Clave de la lengüeta activa. Si es nulo, se establece como la primer lengüeta agregada.
      */
-    public function definir_activa($in_clave=false) {
+    public function definir_activa($clave=false) {
         // Si no se dio clave
-        if ($in_clave === false) {
-            // Se toma la última que se haya agregado
+        if ($clave === false) {
+            // Se toma la primer clave
             $claves       = array_keys($this->lenguetas);
-            $this->activa = end($claves);
-        } elseif (is_string($in_clave) && array_key_exists($in_clave, $this->lenguetas)) {
+            $this->activa = current($claves);
+        } elseif (is_string($clave) && array_key_exists($clave, $this->lenguetas)) {
             // Se cambia sólo si ha sido agregada
-            $this->activa = $in_clave;
+            $this->activa = $clave;
         }
         // Poner todas las lengüetas como inactivas
         foreach ($this->lenguetas as $lengueta) {
@@ -114,14 +127,14 @@ class Lenguetas {
     public function html() {
         // En este arreglo juntaremos el HTML
         $a = array();
-        // Pestañas
-        $a[] = "  <ul class=\"nav nav-tabs lenguetas\" id=\"{$this->identificador}\">";
+        // Acumular las pestañas
+        $a[] = sprintf('  <ul class="nav nav-tabs lenguetas" id="%s">', $this->identificador);
         foreach ($this->lenguetas as $lengueta) {
             $a[] = $lengueta->pestana_html();
         }
         $a[] = '  </ul>';
-        // Interiores
-        $a[] = '  <div class="tab-content">';
+        // Acumular los interiores
+        $a[] = '  <div class="tab-content lengueta-contenido">';
         foreach ($this->lenguetas as $lengueta) {
             $a[] = $lengueta->interior_html();
         }
@@ -136,34 +149,17 @@ class Lenguetas {
      * @return string Javascript
      */
     public function javascript() {
-        // De inicio sin activador
-        $necesita_activador = false;
         // En este arreglo juntaremos el javascript
         $a = array();
-        // Javascript de Twitter Bootstrap Tabs
-        $a[] = <<<FINAL
-// TWITTER BOOTSTRAP TABS
-$(document).ready(function(){
-  $('#{$this->identificador} a:first').tab('show')
-});
-FINAL;
         // Bucle por las lenguetas
         foreach ($this->lenguetas as $lengueta) {
-            // Agregar javascript
-            $js = $lengueta->javascript();
-            if ($js !== false) {
-                $a[] = $js;
-            }
-            // Si hay identificadores
-            if ($lengueta->necesita_activador) {
-                $necesita_activador = true;
+            $javascript = $lengueta->javascript();
+            if ($javascript !== false) {
+                $a[] = $javascript;
             }
         }
-        // Si una o más lenguetas necesitan el javascript activador
-        if ($necesita_activador) {
-            $a[] = <<<FINAL
-FINAL;
-        }
+        // Con jquery se declara que es la primer lengüeta la que se muestra
+        $a[] = sprintf('$(document).ready(function(){ $(\'#%s a:first\').tab(\'show\') });', $this->identificador);
         // Entregar
         if (count($a) > 0) {
             return implode("\n", $a);

@@ -1,9 +1,9 @@
 #!/usr/bin/env php
 <?php
-/*
- * SMIbeta - Crear
+/**
+ * Plataforma de Conocimiento - Crear
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,6 +18,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package PlataformaDeConocimiento
  */
 
 // Soy
@@ -30,72 +31,39 @@ $E_FATAL=99;
 // Cambiarse al directorio por debajo de donde se encuentra este programa
 chdir(realpath(dirname(__FILE__))."/..");
 
-// Cargar funciones, éste conteniene el autocargador de clases
-require_once('lib/Base/Funciones.php');
+// Todos los caracteres son UTF-8
+mb_internal_encoding('utf-8');
+
+// Autocargador de clases
+spl_autoload_register(
+    function ($className) {
+        $className = ltrim($className, '\\');
+        $fileName  = '';
+        $namespace = '';
+        if ($lastNsPos = strrpos($className, '\\')) {
+            $namespace = substr($className, 0, $lastNsPos);
+            $className = substr($className, $lastNsPos + 1);
+            $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace).DIRECTORY_SEPARATOR;
+        }
+        $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className).'.php';
+        require 'lib/'.$fileName;
+    }
+);
 
 // Mensaje de inicio
 echo "$soy Inicia\n";
 
-// En este arreglo están las rutas a las clases Imprenta
-$clases = array(
-    '\Blog\Imprenta',
-    '\ConsejoDirectivo\Imprenta',
-    '\Contacto\Imprenta',
-    '\Institucional\Imprenta',
-    '\Investigaciones\Imprenta',
-    '\PET\Imprenta',
-    '\PlanEstrategicoMetropolitano\Imprenta',
-    '\PreguntasFrecuentes\Imprenta',
-    '\Proyectos\Imprenta',
-    '\SalaPrensa\Imprenta',
-    '\SIG\Imprenta',
-    '\SIGMapasTorreon\Imprenta',
-    '\SIGPlanes\Imprenta',
-    '\SMI\Imprenta',
-    '\SMIIndicadoresTorreon\Imprenta',
-    '\SMIIndicadoresGomezPalacio\Imprenta',
-    '\SMIIndicadoresLerdo\Imprenta',
-    '\SMIIndicadoresMatamoros\Imprenta',
-    '\SMIIndicadoresLaLaguna\Imprenta',
-    '\SMICategorias\Imprenta',
-    '\SMIGeorreferenciados\Imprenta',
-    '\Terminos\Imprenta');
 // Imprimir
+$creador = new \Base\Creador();
 try {
-    foreach ($clases as $clase) {
-        $impresor = new $clase();
-        echo '  '.$impresor->imprimir()."\n";
-    }
+    $creador->imprimir();
 } catch (\Exception $e) {
-    echo "$soy ".$e->getMessage()."\n";
-    exit($E_FATAL);
-}
-
-// Cargar la página inicial
-$impresor            = new \Base\Imprenta();
-$impresor->plantilla = new \Inicial\PaginaInicial();
-// Imprimir
-try {
-    echo '  Página inicial '.$impresor->imprimir()."\n";
-} catch (\Exception $e) {
-    echo implode("\n", $impresor->mensajes)."\n";
-    echo "$soy ".$e->getMessage()."\n";
-    exit($E_FATAL);
-}
-
-// Cargar la página Buscador Resultados
-$impresor            = new \Base\Imprenta();
-$impresor->plantilla = new \Inicial\PaginaBuscadorResultados();
-// Imprimir
-try {
-    echo '  Para la página de resultados del buscador '.$impresor->imprimir()."\n";
-} catch (\Exception $e) {
-    echo "$soy ".$e->getMessage()."\n";
+    echo $e->getMessage()."\n";
     exit($E_FATAL);
 }
 
 // Mensaje de término
-echo "$soy Terminó\n";
+echo "$soy Terminó con éxito\n";
 exit($EXITO);
 
 ?>

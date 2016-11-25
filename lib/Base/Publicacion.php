@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Publicación
+/**
+ * Plataforma de Conocimiento - Publicación
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package PlataformaDeConocimiento
  */
 
-// Namespace
 namespace Base;
 
 /**
@@ -27,29 +27,29 @@ namespace Base;
  */
 class Publicacion extends \Configuracion\PublicacionConfig {
 
-    // public $fecha;                         // La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
-    // public $autor;                         // El nombre o apodo a quien se le atribuye
-    // public $aparece_en_pagina_inicial;     // Verdadero si va aparecer en la página de inicio
-    // public $para_compartir;                // Si es verdadero pondrá los botones para compartir en Twitter/Facebook
-    // public $imagen                         // Ruta relativa a un archivo de imagen
-    // public $imagen_previa;                 // Ruta relativa a un archivo de imagen para la vista previa
-    // public $icono;                         // Nombre del icono Font Awsome
-    // public $region_nivel;                  // Nivel de la región. Le sirve a Relacionados para preferir los que sean de la misma región
-    // public $estado                         // El estado ordena a Imprenta e Índice si debe 'publicar', 'revisar' o 'ignorar'
+    // public $sitio_url;
+    // public $fecha;
+    // public $autor;
+    // public $aparece_en_pagina_inicial;
+    // public $para_compartir;
+    // public $imagen;
+    // public $imagen_previa;
+    // public $imagen_id;
+    // public $icono;
+    // public $region_nivel;
+    // public $estado;
+    // public $poner_imagen_en_contenido;
+    // public $include_extra_directorio;
     public $nombre;                           // Título completo
     public $nombre_menu;                      // Un título corto. Debe coincidir con la etiqueta usada en Navegacion
     public $directorio;                       // Directorio donde se guardará la publicación completa
     public $archivo;                          // El nombre del archivo para la publicación
     public $descripcion;                      // Descripción del sitio o la página
     public $claves;                           // Claves que ayuden a los buscadores
-    public $categorias       = array();       // Arreglo con las categorías de la publicación
     public $encabezado;                       // Opcional. Código HTML, por ejemplo con un tag img, para mostrar en la parte superior.
     public $encabezado_color;                 // Opcional. Color de fondo del encabezado en Hex, por ejemplo: #008000
-    protected $contenido     = array();       // Contenido código HTML de la publicación
-    protected $javascript    = array();       // Código Javascript. Debe estar aparte para ponerlo al final de la página.
     public $url;                              // Opcional. Cuando la propiedad archivo no se defina, entonces será sólo un vínculo a este URL de destino. Puede apuntar a un archivo descargable o a un URL absoluto.
     public $url_etiqueta;                     // Opcional. Cuando la propiedad archivo no se defina, entonces se usa esta etiqueta para el vínculo o botón.
-    protected $redifusion    = array();       // Código HTML con la publicación que va para redifusión (RSS feed).
     public $en_raiz          = false;         // Verdadero si el archivo va a la raiz del sitio web. Debe ser verdadero cuando se hacen las páginas de inicio.
     public $en_otro          = false;         // Verdadero si el archivo va a OTRO lugar como al directorio autores, categorias, etc.
     public $archivo_url;                      // NO LO USE. Lo define el método validar en base a otra propiedades.
@@ -58,22 +58,31 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     public $boton_target;                     // NO LO USE. Lo define el método validar en base a otra propiedades.
     public $contenido_archivo_html;           // Ruta absoluta a un archivo externo HTML que se usará como contenido
     public $contenido_archivo_markdown;       // Ruta absoluta a un archivo externo Markdown que se usará como contenido
-    public $poner_imagen_en_contenido = true; // Poner la imagen antes que el contenido
+    public $categorias       = array();       // Arreglo con las categorías de la publicación
     public $fuentes          = array();       // Arreglo con las fuentes. Lo usa el Organizador.
     public $regiones         = array();       // Arreglo con las regiones. Lo usa el Organizador.
+    public $imprenta_titulo;                  // Título de la imprenta. Es usado por VinculosAcordeonesListados.
+    protected $contenido     = array();       // Contenido código HTML de la publicación
+    protected $javascript    = array();       // Código Javascript. Debe estar aparte para ponerlo al final de la página.
+    protected $redifusion    = array();       // Código HTML con la publicación que va para redifusión (RSS feed).
+    protected $validado      = false;         // Booleano, verdadero si ya se ha validado.
 
     /**
      * Validar
      *
-     * Causa una excepción si hay propiedades incorrectas. También define los vínculos. Es usado por Indice y Tarjetas.
+     * Causa una excepción si hay propiedades incorrectas, también define los vínculos
      */
     public function validar() {
+        // Si ya fue validado, no se hace nada
+        if ($this->validado) {
+            return;
+        }
         // Validar nombre
         if (!is_string($this->nombre) || ($this->nombre == '')) {
-            throw new \Exception("Error en Publicacion, validar: Una publicación NO tiene nombre.");
+            throw new \Exception("Error en Publicacion, validar: La propiedad nombre no está definida.");
         }
         // Si está definido archivo
-        if ($this->archivo != '') {
+        if (is_string($this->archivo) && ($this->archivo != '')) {
             $archivo_html = $this->archivo.'.html';
             // Si está definio OTRO URL
             if ($this->url != '') {
@@ -85,15 +94,15 @@ class Publicacion extends \Configuracion\PublicacionConfig {
                 $this->archivo_url = $archivo_html;
                 $this->boton_url   = $archivo_html;
             }
-        } elseif ($this->url != '') {
+        } elseif (is_string($this->url) && ($this->url != '')) {
             // No hay archivo. El vínculo es un URL absoluto o relativo, a una página o archivo o a un sitio web externo
             $this->archivo_url = $this->url;
             $this->boton_url   = $this->url;
         } else {
-            throw new \Exception("Error en Publicacion, validar: {$this->nombre} NO tiene las propiedades archivo y url. Debe usar por lo menos una.");
+            throw new \Exception("Error en Publicacion, validar: Las propiedades archivo y/o url no están definidas. Debe estarlo por lo menos una.");
         }
         // Si no hay etiqueta, se usa el nombre
-        if ($this->url_etiqueta == '') {
+        if (is_string($this->url_etiqueta) && ($this->url_etiqueta == '')) {
             $this->url_etiqueta = $this->nombre;
         }
         // Si el url apunta afuera del sitio o a un archivo PDF, RAR, TAR.GZ, TGZ o ZIP
@@ -108,6 +117,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
         } else {
             $this->boton_target = '';
         }
+        // Levantar la bandera
+        $this->validado = true;
     } // validar
 
     /**
@@ -152,7 +163,10 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string URL para enlazar, segun las banderas en_raiz y en_otro
      */
     public function imagen_url() {
-        if ($this->imagen === '') {
+        // Validar
+        $this->validar();
+        // Entregar URL de la imagen
+        if ($this->imagen == '') {
             return '';
         } elseif ((strpos($this->imagen, 'http://') === 0) || (strpos($this->imagen, 'https://') === 0) || (strpos($this->imagen, '/') === 0)) {
             return $this->imagen;
@@ -175,7 +189,10 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string URL para enlazar, segun las banderas en_raiz y en_otro
      */
     public function imagen_previa_url() {
-        if ($this->imagen_previa === '') {
+        // Validar
+        $this->validar();
+        // Entregar URL de la imagen previa
+        if ($this->imagen_previa == '') {
             return '';
         } elseif ((strpos($this->imagen_previa, 'http://') === 0) || (strpos($this->imagen_previa, 'https://') === 0) || (strpos($this->imagen_previa, '/') === 0)) {
             return $this->imagen_previa;
@@ -198,6 +215,9 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return integer Timestamp
      */
     public function tiempo_creado() {
+        // Validar
+        $this->validar();
+        // Entregar número que indica la antigüedad
         $fecha = new \DateTime($this->fecha, new \DateTimeZone('America/Monterrey'));
         return sprintf('%012d', time() - $fecha->getTimestamp());
     } // tiempo_creado
@@ -208,6 +228,9 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string Fecha en el formato DD/MM/YYYY
      */
     public function fecha_con_formato_humano() {
+        // Validar
+        $this->validar();
+        // Entregar fecha
         $t = strtotime($this->fecha);
         if ($t === false) {
             // Fecha mal escrita, no se entrega nada
@@ -234,6 +257,9 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string Fecha en ISO 8601
      */
     public function fecha_en_iso8601() {
+        // Validar
+        $this->validar();
+        // Entregar fecha
         $t = strtotime($this->fecha);
         if ($t === false) {
             // Fecha mal escrita, se usará 1980-01-01
@@ -261,6 +287,9 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string RFC 2822
      */
     public function fecha_en_rfc2822() {
+        // Validar
+        $this->validar();
+        // Entregar fecha
         $t = strtotime($this->fecha);
         if ($t === false) {
             // Fecha mal escrita, se usará 1980-01-01
@@ -299,37 +328,25 @@ class Publicacion extends \Configuracion\PublicacionConfig {
     /**
      * Cargar archivo markdown
      *
-     * Con este método se pueden cargar archivos markdown para que se organize el contenido.
-     * Útil con el uso de Lenguetas.
+     * Se mantiene este método por compatibilidad, muchas publicaciones lo están mandando llamar.
      *
      * @param  string Ruta al archivo markdown desde la raiz del sitio, ejemplo 'lib/Directorio/Archivo.md'
      * @return string Código HTML
      */
     protected function cargar_archivo_markdown($ruta) {
-        $contenido = file_get_contents("$ruta");
-        if ($contenido === false) {
-            throw new \Exception("Error en Publicacion, cargar_archivo_markdown: No se puede leer $ruta");
-        }
-        $html = \Michelf\Markdown::defaultTransform($contenido);
-        return $html;
+        return Funciones::cargar_archivo_markdown($ruta);
     } // cargar_archivo_markdown
 
     /**
      * Cargar archivo markdown extra
      *
-     * Éste tiene la construcción de tablas.
+     * Se mantiene este método por compatibilidad, muchas publicaciones lo están mandando llamar.
      *
      * @param  string Ruta al archivo markdown desde la raiz del sitio, ejemplo 'lib/Directorio/Archivo.md'
      * @return string Código HTML
      */
     protected function cargar_archivo_markdown_extra($ruta) {
-        $contenido = file_get_contents("$ruta");
-        if ($contenido === false) {
-            throw new \Exception("Error en Publicacion, cargar_archivo_markdown_extra: No se puede leer $ruta");
-        }
-        $html    = \Michelf\MarkdownExtra::defaultTransform($contenido);
-        $html_tb = str_replace('<table>', '<table class="table table-hover table-bordered">', $html); // Tablas de Twitter Bootstrap
-        return $html_tb;
+        return Funciones::cargar_archivo_markdown_extra($ruta);
     } // cargar_archivo_markdown_extra
 
     /**
@@ -340,8 +357,15 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return boolena Verdadero si el contenido es una instancia de Schema
      */
     public function es_contenido_esquema() {
-        if (is_object($this->contenido) && ($this->contenido instanceof SchemaCreativeWork)) {
-            return true;
+        // Validar
+        $this->validar();
+        // Entregar verdadero si es derivado de SchemaCreativeWork
+        if (is_object($this->contenido)) {
+            if ($this->contenido instanceof SchemaCreativeWork) {
+                return true;
+            } else {
+                return false;
+            }
         } else {
             return false;
         }
@@ -352,23 +376,81 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      *
      * @param String Color
      */
-    public function definir_encabezado_color($in_color) {
-        $this->encabezado_color = $in_color;
-        if ($this->es_contenido_esquema()) {
-            $this->contenido->headline_style = $in_color;
+    public function definir_encabezado_color($color) {
+        if ($this->encabezado_color == '') {
+            $this->encabezado_color = $color;
+            if (is_object($this->contenido) && ($this->contenido instanceof SchemaCreativeWork)) {
+                $this->contenido->headline_style = $color;
+            }
         }
     } // definir_encabezado_color
 
     /**
-     * Definir Icono del Encabezado
+     * Definir ícono del encabezado
      *
      * @param String Icono
      */
-    public function definir_encabezado_icono($in_icono) {
-        if ($this->es_contenido_esquema()) {
-            $this->contenido->headline_icon = $in_icono;
+    public function definir_encabezado_icono($icono) {
+        if ($this->icono == '') {
+            $this->icono = $icono;
+            if (is_object($this->contenido) && ($this->contenido instanceof SchemaCreativeWork)) {
+                $this->contenido->headline_icon = $icono;
+            }
         }
     } // definir_encabezado_icono
+
+    /**
+     * Definir encabezado
+     *
+     * @param String Código HTML para el encabezado
+     */
+    public function definir_encabezado($encabezado) {
+        if ($this->encabezado == '') {
+            $this->encabezado = $encabezado;
+        }
+    } // definir_encabezado
+
+    /**
+     * Definir claves
+     *
+     * @param String Claves
+     */
+    public function definir_claves($claves) {
+        if ($this->claves == '') {
+            $this->claves = $claves;
+        }
+    } // definir_claves
+
+    /**
+     * Definir directorio
+     *
+     * @param String Directorio
+     */
+    public function definir_directorio($dir) {
+        if ($this->directorio == '') {
+            $this->directorio = $dir;
+        }
+    } // definir_directorio
+
+    /**
+     * Definir nombre menu
+     *
+     * @param String Nombre del menú activo
+     */
+    public function definir_nombre_menu($nombre_menu) {
+        if ($this->nombre_menu == '') {
+            $this->nombre_menu = $nombre_menu;
+        }
+    } // definir_nombre_menu
+
+    /**
+     * Definir título de la imprenta
+     *
+     * @param string Título de la imprenta
+     */
+    public function definir_imprenta_titulo($titulo) {
+        $this->imprenta_titulo = $titulo;
+    } // definir_imprenta_titulo
 
     /**
      * HTML
@@ -376,14 +458,19 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string Código HTML
      */
     public function html() {
+        // Validar
+        $this->validar();
         // Hay cinco posibles formas de elaborar el HTML
-        // 1) Propiedad contenido es una instancia Schema
+        // 1) Propiedad contenido es una instancia de SchemaThing o desendiente de ésta
         if (is_object($this->contenido) && ($this->contenido instanceof SchemaThing)) {
-            // Si está definido la carga de un archivo
-            if ($this->contenido_archivo_markdown != '') {
-                $this->contenido->articleBody = $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
-            } elseif ($this->contenido_archivo_html != '') {
-                $this->contenido->articleBody = $this->cargar_archivo($this->contenido_archivo_html);
+            // SchemaArticle tiene articleBody
+            if (is_object($this->contenido) && ($this->contenido instanceof SchemaArticle)) {
+                // Si está definido la carga de un archivo
+                if ($this->contenido_archivo_markdown != '') {
+                    $this->contenido->articleBody = $this->cargar_archivo_markdown_extra($this->contenido_archivo_markdown);
+                } elseif ($this->contenido_archivo_html != '') {
+                    $this->contenido->articleBody = $this->cargar_archivo($this->contenido_archivo_html);
+                }
             }
             // Si existe un archivo HTML para cargar como el extra de SchemaThing
             $extra_archivo_html = sprintf('%s/%s/%s.html', $this->include_extra_directorio, $this->directorio, $this->archivo);
@@ -434,6 +521,9 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string No hay código Javascript, entrega un texto vacío
      */
     public function javascript() {
+        // Validar
+        $this->validar();
+        // Entregar
         if (is_array($this->javascript) && (count($this->javascript) > 1)) {
             $a = array();
             foreach ($this->javascript as $c) {
@@ -455,6 +545,8 @@ class Publicacion extends \Configuracion\PublicacionConfig {
      * @return string Código HTML
      */
     public function redifusion_html() {
+        // Validar
+        $this->validar();
         // Hay seis formas de elaborar el HTML para redifusión
         // 1) Propiedad redifusion es un arreglo con textos o instancias
         if (is_array($this->redifusion) && (count($this->redifusion) > 1)) {

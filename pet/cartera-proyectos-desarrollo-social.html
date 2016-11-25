@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Cartera de Proyectos: Desarrollo Social.">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="Plan, Estrategico, Torreón, 2040, Metropolitano, ">
+  <title>Cartera de Proyectos: Desarrollo Social - IMPLAN Torreón</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar documento</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+              <div class="encabezado">
+          <h1 itemprop="name">Cartera de Proyectos: Desarrollo Social</h1>
+          <div class="encabezado-descripcion" itemprop="description">Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Cartera de Proyectos: Desarrollo Social.</div>
+                <div class="encabezado-autor-fecha">
+          <meta itemprop="datePublished" content="2016-10-10T07:31">10/10/2016 07:31
+        </div>
+        </div>
+        <meta itemprop="image" alt="Cartera de Proyectos: Desarrollo Social" src="../imagenes/imagen.jpg">
+              <div itemprop="articleBody">
+        <p><em>Nota: Cada proyecto tiene un número como clave, los programas están como puntos y los temas como encabezados.</em></p>
+
+<h2>Salud</h2>
+
+<ul>
+<li>Educación y capacitación para la salud
+
+<ol start="82">
+<li>Campaña de prevención de adicciones y violencia en educación media superior</li>
+<li>Prevención de la ceguera por retinopatía en el prematuro</li>
+<li>Regulación, control y ubicación de la prostitución en la ciudad</li>
+</ol></li>
+<li>Difusión y socialización de prevención de enfermedades
+
+<ol start="85">
+<li>Adolescentes promoviendo una sexualidad libre, informada y protegida (SLIP) en la Laguna</li>
+<li>Campaña de prevención de la obesidad infantil dirigida a los padres de familia</li>
+<li>Diagnóstico sobre la obesidad y sobrepeso en la población de la zona metropolitana de la laguna.</li>
+</ol></li>
+<li>Fomento a la cultura de prevención y salud pública
+
+<ol start="88">
+<li>Fortalecimiento de la Mercadotecnia Social de Salud</li>
+<li>Apoyo a ONGs dedicadas al fomento de la cultura de prevención y la salud pública</li>
+</ol></li>
+<li>Plan Estratégico de Salud Laguna
+
+<ol start="90">
+<li>Creación de asociación Clúster Salud Laguna</li>
+<li>Gestión de recursos financieros</li>
+<li>Agenda de coordinación metropolitana de salud</li>
+<li>Coordinación y vinculación de esfuerzos entre sector privado y sectór público en sus tres niveles de gobierno</li>
+</ol></li>
+<li>Sistema de medición, seguimiento y control de enfermedades con mayor índice de recurrencia en la Laguna
+
+<ol start="94">
+<li>Anuario metropolitano de morbilidad y mortalidad</li>
+</ol></li>
+<li>Control sanitario integral
+
+<ol start="95">
+<li>Base de datos con acceso a la información del sector salud</li>
+</ol></li>
+<li>Mejoramiento de la Infraestructura para la salud
+
+<ol start="96">
+<li>Modernización de la infraestructura e instalaciones  de las instituciones de salud</li>
+<li>Gestión de recursos financieros para la modernización de infraestructura de salud</li>
+</ol></li>
+<li>Capacitación y profesionalización del personal en la rama de servicios de salud pública y privada
+
+<ol start="98">
+<li>Aplicación de mecanismos de control de calidad de la atención médica (normatividad de la SSA en calidad)</li>
+<li>Acreditación y certificación hospitalaria y en los servicios de salud a nivel nacional e internacional</li>
+</ol></li>
+<li>Ampliación de cobertura en servicios de salud de calidad
+
+<ol start="100">
+<li>Infraestructura con capacidad física instalada en materia de consulta externa y hospitalización.</li>
+<li>Consultorios médicos de  prevención en polígonos de riesgo</li>
+</ol></li>
+</ul>
+
+<h2>Seguridad Pública</h2>
+
+<ul>
+<li>Diálogo abierto entre autoridades y ciudadanos para la seguridad (delitos de alto impacto)
+
+<ol start="102">
+<li>Monitoreo del desempeño de ministerios públicos y jueces en el nuevo sistema penal acusatorio</li>
+<li>Centro de integración 100% ciudadano que reciba denuncias, asesore de manera integral y gestione ante las autoridades correspondientes</li>
+</ol></li>
+<li>Programa de equipamiento para el nuevo modelo de impartición de justicia
+
+<ol start="104">
+<li>Ciudad judicial*</li>
+</ol></li>
+<li>Acreditación de agentes policiacos
+
+<ol start="105">
+<li>Desarrollo del estándar de competencia para certificación de los policías a través del instituto "conocer"</li>
+</ol></li>
+<li>Programa Integral de Investigación y gestión para la prevención del delito
+
+<ol start="106">
+<li>Rehabilitación de agresores y agresoras para la prevención de la violencia, teniendo en cuenta la perspectiva de género</li>
+<li>Creación de un Departamento de estudio de la conducta criminal que coadyuve en la generación de políticas públicas para la prevención de la violencia y la delincuencia.</li>
+</ol></li>
+<li>Ciudadanos jóvenes y adultos participativos y activos en el combate a los problemas de inseguridad
+
+<ol start="108">
+<li>Talleres de capacitación a los docentes de todos los niveles de la educación sobre cultura de la legalidad y la responsabilidad social</li>
+<li>Centro de responsabilidad social y vinculación metropolitana</li>
+</ol></li>
+</ul>
+
+<h2>Desarrollo Educativo con conciencia social</h2>
+
+<ul>
+<li>Sistema de evaluación de la calidad de la educación
+
+<ol start="110">
+<li>Talleres de formación inicial a docentes para promover el modelo del Desarrollo Humano (formación pedagógica)</li>
+<li>Evaluación externa en todos los niveles educativos para identificar áreas de oportunidad y elevar los estándares de calidad</li>
+<li>Aplicación, seguimiento y control de los estándares de calidad de la UNESCO</li>
+</ol></li>
+<li>Educación integral para abatir el rezago educativo y prevenir la deserción escolar
+
+<ol start="113">
+<li>Estudio de las causas principales de la deserción escolar en la ZML con un perfil del estudiante desertor</li>
+<li>Vínculos de cooperación de los programas de gobierno encargados del tema con OSC</li>
+<li>Facilitar, fomentar y difundir la educación de los jóvenes y adultos a través de medios virtuales de calidad</li>
+</ol></li>
+<li>Cooperación entre Universidades-Empresas-Gobierno
+
+<ol start="116">
+<li>Focalizar las carreras de las universidades hacia el futuro económico de la región</li>
+<li>Fomento a la investigación y vinculación en torno al tema del desarrollo social</li>
+<li>Gestion de la vinculación de las IES con el sector productivo</li>
+<li>Coordinación de los programas de servicio social de instituciones de educación superior articulados al desarrollo social</li>
+<li>Seguimiento y control de los índices de desarrollo social en el entorno próximo de las IES</li>
+</ol></li>
+</ul>
+
+<h2>Infraestructura y servicios culturales, artísticos y deportivos</h2>
+
+<ul>
+<li>Infraestructura cultural
+
+<ol start="121">
+<li>Escuela de Música</li>
+<li>Albergue y Cultural Zaragoza (2a etapa)*</li>
+<li>Complejo Cultural La Jabonera*</li>
+<li>Construcción de instalaciones para la escuela municipal de música Silvestre Revueltas en Gómez Palacio.</li>
+</ol></li>
+<li>Infraestructura deportiva
+
+<ol start="125">
+<li>Deportiva Zaragoza*</li>
+<li>Poli-deportivo la Paz*</li>
+<li>Identificar y aumentar la capacidad deportiva y cultural instalada de empresas e Instituciones públicas y privadas</li>
+<li>Diagnóstico y planeación de la infraestructura deportiva y cultural</li>
+</ol></li>
+<li>Programa de Accesibilidad e Inclusión en espacios culturales y deportivos
+
+<ol start="129">
+<li>Cultura en espacios de intervención a través de Teatrailers</li>
+<li>Proyecto piloto: Ver y sentir en el Museo Arocena</li>
+</ol></li>
+<li>Desarrollo del talento local
+
+<ol start="131">
+<li>Contratación de Promotores Culturales con apoyo de la administración municipal</li>
+<li>Creación e intervención de espacios culturales que realcen la cultura local identificando sus raices</li>
+</ol></li>
+</ul>
+
+<h2>Atención a grupos vulnerables</h2>
+
+<ul>
+<li>Atención a población vulnerable
+
+<ol start="133">
+<li>Estudio socioeconómico por sector vulnerable</li>
+<li>Gestión de recursos financieros para la creación de centros de atención y capacitación</li>
+<li>Acreditación y certificacion de empresas (Registro Empresa Socialmente responsable)</li>
+<li>Centros de atención para las personas de la tercera edad</li>
+<li>Centro de Recursos Braille</li>
+<li>Centro de atención interdisciplinario Alfonso Quiroz Cuarón</li>
+<li>Ciudad DIF (Conjunto de equipamiento para la atención a grupos vulnerables y migrantes)*</li>
+<li>Centro de capacitación para la inclusión laboral de personas sensoperceptivas</li>
+</ol></li>
+<li>Intervención para la disminución de la pobreza en la zona Metropolitana de la laguna
+
+<ol start="141">
+<li>Apoyar y estimular a jóvenes emprendedores y creadores decididos a actuar en la población de zonas de riesgo</li>
+<li>Mejoramiento de imagen urbana en zonas de riesgo para evitar la victimización y mejorar la percepción de seguridad</li>
+<li>Crear capacidad física instalada en consulta externa y hospitalización para población en pobreza extrema</li>
+</ol></li>
+<li>Apoyo, seguimiento y evaluación de organismos dedicados a la atención de grupos vulnerables
+
+<ol start="144">
+<li>Fomento e incentivos para la creación de organismos</li>
+<li>Biblioteca para la capacitación de ONG´s</li>
+<li>Creación y vigilancia de políticas públicas de igualdad, inclusión y perspectiva de género</li>
+<li>Implementación de líneas de trasporte para mujeres en horarios de trabajo</li>
+<li>Implementar guarderías a cargo del municipio y cercanas a los centros de trabajo con políticas de igualdad</li>
+</ol></li>
+</ul>
+
+<p><a href="indice.html">Índice</a> | Siguiente: <a href="cartera-proyectos-entorno-urbano.html">Entorno Urbano</a></p>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script>
+
+</script>
+</body>
+</html>

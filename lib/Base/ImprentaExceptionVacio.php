@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Imprenta Exception Vacio
+/**
+ * Plataforma de Conocimiento - Imprenta Exception Vacio
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,16 +17,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package PlataformaDeConocimiento
  */
 
-// Namespace
 namespace Base;
 
 /**
  * Clase ImprentaExceptionVacio
  */
-class ImprentaExceptionVacio extends \Exception {
-
-} // Clase ImprentaExceptionVacio
+class ImprentaExceptionVacio extends \Exception {}
 
 ?>

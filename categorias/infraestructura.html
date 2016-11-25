@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="Categoria, Infraestructura">
+  <title>Infraestructura - IMPLAN Torreón</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar documento</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <div class="encabezado">
+        <span><h1>Infraestructura</h1></span>
+      </div>
+<div class="panel-group" id="categorias-individual" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingblog">
+      <h4 class="panel-title">
+        <a                   role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseblog" aria-expanded="true"  aria-controls="collapseblog">
+          Análisis Publicados
+        </a>
+      </h4>
+    </div>
+    <div id="collapseblog" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingblog">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../blog/beneficios-de-la-peatonalizacion-en-el-centro-de-torreon.html">Beneficios de la peatonalización en el Centro de Torreón</a></li>
+        <li><a href="../blog/bicimetro-innovacion-transporte-urbano.html">Bicimetro: La innovación del Transporte Urbano</a></li>
+        <li><a href="../blog/cinco-claves-para-entender-la-movilidad-no-motorizada.html">Cinco Claves para entender la Movilidad No Motorizada</a></li>
+        <li><a href="../blog/ciudad-abierta-ciudad-fraccionada.html">Ciudad abierta y ciudad fraccionada</a></li>
+        <li><a href="../blog/ciudad-espacio-publico.html">Ciudad y Espacio Público</a></li>
+        <li><a href="../blog/ciudadano-agente-cambio.html">Ciudadano como agente de cambio</a></li>
+        <li><a href="../blog/ciudades-mas-humanas.html">Ciudades más Humanas</a></li>
+        <li><a href="../blog/conviviendo-en-nuestras-ciudades.html">Conviviendo en Nuestras Ciudades</a></li>
+        <li><a href="../blog/diagnostico-del-problema-de-drenaje-pluvial-en-torreon.html">Diagnóstico del problema de drenaje pluvial en Torreón</a></li>
+        <li><a href="../blog/direccionando-hacia-innovacion-urbana.html">Direccionando hacia la innovación urbana</a></li>
+        <li><a href="../blog/dot-desarrollo-orientado-transporte.html">DOT: Desarrollo Orientado al Transporte</a></li>
+        <li><a href="../blog/es-mas-facil-cambiar-la-ciudad-que-cambiar-nosotros.html">Es más fácil cambiar la ciudad que cambiar nosotros</a></li>
+        <li><a href="../blog/espacio-publico-urbano.html">Espacio Público Urbano</a></li>
+        <li><a href="../blog/estructura-y-traza-urbana-de-torreon.html">Estructura y Traza Urbana de Torreón</a></li>
+        <li><a href="../blog/hacia-ciudades-que-construyen-humanos-en-convivencia.html">Hacia Ciudades que Construyen Humanos en Convivencia</a></li>
+        <li><a href="../blog/infraestructura.html">Infraestructura (Sectores precursores de clase mundial)</a></li>
+        <li><a href="../blog/invertir-en-torreon.html">Invertir en Torreón</a></li>
+        <li><a href="../blog/calle-completa-espacio-vital-todos.html">La Calle Completa: espacio vial para todos</a></li>
+        <li><a href="../blog/la-ciudad-compacta-vive-mejor.html">La Ciudad Compacta (como la familia pequeña) Vive Mejor</a></li>
+        <li><a href="../blog/la-importancia-de-la-imagen-urbana.html">La Importancia de la Imagen Urbana</a></li>
+        <li><a href="../blog/importancia-suelo-ciudades.html">La importancia del suelo en las ciudades</a></li>
+        <li><a href="../blog/la-necesidad-de-una-planeacion-urbana-sustentable.html">La necesidad de una planeación urbana sustentable</a></li>
+        <li><a href="../blog/la-planeacion-urbana.html">La Planeación Urbana</a></li>
+        <li><a href="../blog/la-utopia-de-una-ciudad-caminable.html">La Utopía de una Ciudad Caminable</a></li>
+        <li><a href="../blog/ciudades-reto-transformacion.html">Las ciudades y el reto de su transformación</a></li>
+        <li><a href="../blog/los-beneficios-en-el-uso-de-la-infraestructura-verde-en-torreon.html">Los beneficios en el uso de la Infraestructura Verde en Torreón</a></li>
+        <li><a href="../blog/matriz-energetica-lagunera-necesaria-vision-de-futuro.html">Matriz energética lagunera: necesaria visión de futuro</a></li>
+        <li><a href="../blog/movilidad-laboral-cotidiana-zml.html">Movilidad laboral cotidiana en la ZML</a></li>
+        <li><a href="../blog/movilidad-urbana-competitividad.html">Movilidad Urbana y Competitividad</a></li>
+        <li><a href="../blog/movilidad-nuestra-ciudad.html">Movilidad y nuestra ciudad</a></li>
+        <li><a href="../blog/normatividad-urbana-el-reto-de-las-ciudades-mexicanas.html">Normatividad Urbana: el reto de las ciudades mexicanas</a></li>
+        <li><a href="../blog/nueva-infraestructura-base-tecnologia-led-torreon.html">Nueva infraestructura a base de tecnología LED en Torreón</a></li>
+        <li><a href="../blog/poligonos-actuacion-desarrollo-urbano-integral.html">Polígonos de Actuación para un Desarrollo Urbano Integral</a></li>
+        <li><a href="../blog/por-la-conservacion-del-patrimonio-arquitectonico-en-la-laguna.html">Por la conservación del patrimonio arquitectónico en La Laguna</a></li>
+        <li><a href="../blog/por-un-adecuado-manejo-del-agua-en-areas-verdes.html">Por un Adecuado Manejo del Agua en Áreas Verdes</a></li>
+        <li><a href="../blog/por-un-crecimiento-ordenado-en-torreon.html">Por un crecimiento ordenado en Torreón</a></li>
+        <li><a href="../blog/prevencion-delito-espacio-publico.html">Prevención del delito mediante la construcción del espacio público</a></li>
+        <li><a href="../blog/principales-retos-de-la-zona-metropolitana-de-la-laguna.html">Principales retos de la Zona Metropolitana de La Laguna</a></li>
+        <li><a href="../blog/reciclaje-urbano.html">Reciclaje Urbano</a></li>
+        <li><a href="../blog/reflexion-crecimiento-urbano-torreon.html">Reflexión del Crecimiento Urbano en Torreón</a></li>
+        <li><a href="../blog/regeneracion-urbana-para-una-calidad-de-vida.html">Regeneración Urbana para una Mejor Calidad de Vida</a></li>
+        <li><a href="../blog/reinventar-futuro-metropoli.html">Reinventar el futuro de la metrópoli</a></li>
+        <li><a href="../blog/sistemas-urbanos-rurales-un-nuevo-enfoque-para-el-desarrollo-regional.html">Sistemas Urbanos Rurales: un nuevo enfoque para el desarrollo regional</a></li>
+        <li><a href="../blog/torreon-camino-redensificacion.html">Torreón, camino a la redensificación</a></li>
+        <li><a href="../blog/torreon-camino-redensificacion-2.html">Torreón, camino a la redensificación II</a></li>
+        <li><a href="../blog/torreon-y-su-riqueza-industrial.html">Torreón y su riqueza industrial</a></li>
+        <li><a href="../blog/turismo-urbano-como-motor-en-las-ciudades.html">Turismo urbano como motor en las ciudades</a></li>
+        <li><a href="../blog/urbanismo-participativo.html">Urbanismo Participativo</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-gomez-palacio">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-gomez-palacio" aria-expanded="false" aria-controls="collapseindicadores-gomez-palacio">
+          Indicadores de Gómez Palacio
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-gomez-palacio" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-gomez-palacio">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/economia-crecimiento-de-la-mancha-urbana.html">Crecimiento de la Mancha Urbana en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-avanzada.html">Red Carretera Avanzada en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-total.html">Red Carretera Total en Gómez Palacio</a></li>
+        <li><a href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Gómez Palacio</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-la-laguna">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-la-laguna" aria-expanded="false" aria-controls="collapseindicadores-la-laguna">
+          Indicadores de La Laguna
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-la-laguna" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-la-laguna">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/economia-crecimiento-de-la-mancha-urbana.html">Crecimiento de la Mancha Urbana en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en La Laguna</a></li>
+        <li><a href="../indicadores-la-laguna/sustentabilidad-red-carretera-avanzada.html">Red Carretera Avanzada en La Laguna</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-matamoros">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-matamoros" aria-expanded="false" aria-controls="collapseindicadores-matamoros">
+          Indicadores de Matamoros
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-matamoros" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-matamoros">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/economia-crecimiento-de-la-mancha-urbana.html">Crecimiento de la Mancha Urbana en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-avanzada.html">Red Carretera Avanzada en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-total.html">Red Carretera Total en Matamoros</a></li>
+        <li><a href="../indicadores-matamoros/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Matamoros</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingindicadores-torreon">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseindicadores-torreon" aria-expanded="false" aria-controls="collapseindicadores-torreon">
+          Indicadores de Torreón
+        </a>
+      </h4>
+    </div>
+    <div id="collapseindicadores-torreon" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingindicadores-torreon">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html">Acceso a Vialidades Pavimentadas en Torreón</a></li>
+        <li><a href="../indicadores-torreon/economia-crecimiento-de-la-mancha-urbana.html">Crecimiento de la Mancha Urbana en Torreón</a></li>
+        <li><a href="../indicadores-torreon/sustentabilidad-disponibilidad-de-banqueta.html">Disponibilidad de Banqueta en Torreón</a></li>
+        <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-avanzada.html">Red Carretera Avanzada en Torreón</a></li>
+        <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-de-alimentadoras-estatales.html">Red Carretera de Alimentadoras Estatales en Torreón</a></li>
+        <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-total.html">Red Carretera Total en Torreón</a></li>
+        <li><a href="../indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html">Red Carretera Troncal Federal en Torreón</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingproyectos">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseproyectos" aria-expanded="false" aria-controls="collapseproyectos">
+          Proyectos Estratégicos
+        </a>
+      </h4>
+    </div>
+    <div id="collapseproyectos" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingproyectos">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../proyectos/plan-centro-laguna.html">Plan Centro Laguna</a></li>
+        <li><a href="../proyectos/plan-estrategico-drenaje-pluvial-torreon.html">Plan Estratégico de Drenaje Pluvial de Torreón</a></li>
+        <li><a href="../proyectos/zona-30.html">Zona 30</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingsig-mapas-torreon">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesig-mapas-torreon" aria-expanded="false" aria-controls="collapsesig-mapas-torreon">
+          Sistema de Información Geográfica de Torreón
+        </a>
+      </h4>
+    </div>
+    <div id="collapsesig-mapas-torreon" class="panel-collapse collapse"    role="tabpanel" aria-labelledby="headingsig-mapas-torreon">
+      <div class="panel-body">
+              <ul>
+        <li><a href="../sig-mapas-torreon/ambito-regional-zona-metropolitana-laguna.html">Ámbito Regional de la Zona Metropolitana de La Laguna</a></li>
+        <li><a href="../sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html">Avance de Reconversión Tecnológica Led del Alumbrado Público</a></li>
+        <li><a href="../sig-mapas-torreon/infraestructura-vial.html">Infraestructura Vial</a></li>
+        <li><a href="../sig-mapas-torreon/parques-industriales.html">Parques Industriales</a></li>
+        <li><a href="../sig-mapas-torreon/plantas-tratadoras-aguas-residuales.html">Plantas Tratadoras de Aguas Residuales</a></li>
+        <li><a href="../sig-mapas-torreon/rellenos-sanitarios.html">Rellenos Sanitarios</a></li>
+        <li><a href="../sig-mapas-torreon/viviendas-con-energia-electrica.html">Viviendas con Energía Eléctrica</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+</body>
+</html>

@@ -1,8 +1,8 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - Schema Blog Posting
+ * Plataforma de Conocimiento - Schema Blog Posting
  *
- * Copyright (C) 2015 Guillermo Valdés Lozano
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package PlataformaDeConocimiento
  */
 
-// Namespace
 namespace Base;
 
 /**
@@ -31,12 +31,14 @@ namespace Base;
 class SchemaBlogPosting extends SchemaArticle {
 
     // public $onTypeProperty;      // Text. Use when this item is part of another one.
-    // public $identation  = 3;     // Integer. Level of identation (beautiful code).
-    // public $big_heading = false; // Boolean. Use true to use a big heading for the web page.
+    // public $identation;          // Integer. Level of identation (beautiful code).
+    // public $id_property;         // Text. id property for article/div tag. Use to aply a unique CSS style.
+    // public $class_property;      // Text. class property for div tag. Use to aply a general CSS style.
+    // public $big_heading;         // Boolean. Use true to use a big heading for the web page.
     // public $extra;               // Text. Additional HTML to put inside.
     // public $description;         // Text. A short description of the item.
     // public $image;               // URL or ImageObject. An image of the item.
-    // public $image_show  = false; // Boolean. Use true to put an img tag. Use false to put a meta tag.
+    // public $image_show;          // Boolean. Use true to put an img tag. Use false to put a meta tag.
     // public $name;                // Text. The name of the item.
     // public $url;                 // URL of the item.
     // public $url_label;           // Label for the URL of the item.
@@ -54,24 +56,10 @@ class SchemaBlogPosting extends SchemaArticle {
      * @return string Código HTML
      */
     public function html() {
-        // Definir los espacios antes de cada renglón
-        $spaces = str_repeat('  ', $this->identation);
         // Acumularemos la entrega en este arreglo
         $a = array();
         // Acumular
-        if ($this->onTypeProperty != '') {
-            if ($this->big_heading) {
-                $a[] = "  <article><div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/BlogPosting\">";
-            } else {
-                $a[] = "  <div itemprop=\"{$this->onTypeProperty}\" itemscope itemtype=\"http://schema.org/BlogPosting\">";
-            }
-        } else {
-            if ($this->big_heading) {
-                $a[] = $spaces.'<article><div itemscope itemtype="http://schema.org/BlogPosting">';
-            } else {
-                $a[] = $spaces.'<div itemscope itemtype="http://schema.org/BlogPosting">';
-            }
-        }
+        $a[] = $this->itemscope_start('itemscope itemtype="http://schema.org/BlogPosting"');
         if ($this->big_heading) {
             $a[] = $this->big_heading_html();
         } else {
@@ -80,15 +68,12 @@ class SchemaBlogPosting extends SchemaArticle {
         }
         $a[] = $this->image_html();
         $a[] = $this->article_body_html();
-        if ($this->big_heading) {
-            $a[] = '</div></article>';
-        } else {
-            $a[] = '</div>';
-        }
+        $a[] = $this->itemscope_end();
         if ($this->extra != '') {
             $a[] = "<aside>{$this->extra}</aside>";
         }
         // Entregar
+        $spaces = str_repeat('  ', $this->identation);
         return implode("\n$spaces", $a);
     } // html
 

@@ -1,8 +1,8 @@
 <?php
-/*
- * TrcIMPLAN Sitio Web - Navegación
+/**
+ * Plataforma de Conocimiento - Navegación
  *
- * Copyright (C) 2014 Guillermo Valdés Lozano
+ * Copyright (C) 2016 Guillermo Valdés Lozano
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package PlataformaDeConocimiento
  */
 
-// Namespace
 namespace Base;
 
 /**
@@ -30,7 +30,8 @@ class Navegacion extends \Configuracion\NavegacionConfig {
     // protected $sitio_titulo;
     // protected $logotipo;
     // protected $opciones;
-    // static protected $iconos;
+    // static public $iconos;
+    // protected $buscador_html;
     public $opcion_activa;   // Etiqueta de opciones en la que está
     public $en_raiz = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
 

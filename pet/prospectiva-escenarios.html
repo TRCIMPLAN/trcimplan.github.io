@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Prospectiva y Escenarios.">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="Plan, Estrategico, Torreón, 2040, Metropolitano, Prospectiva, Escenarios">
+  <title>Prospectiva y Escenarios - IMPLAN Torreón</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-sun-o"></i></span> Plan Estratégico Metropolitano<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../plan-estrategico-metropolitano/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Conoce el Plan</a></li>
+            <li><a href="../plan-estrategico-metropolitano/index.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Todas las Mesas</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar documento</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/Article">
+              <div class="encabezado">
+          <h1 itemprop="name">Prospectiva y Escenarios</h1>
+          <div class="encabezado-descripcion" itemprop="description">Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Prospectiva y Escenarios.</div>
+                <div class="encabezado-autor-fecha">
+          <meta itemprop="datePublished" content="2016-10-10T04:01">10/10/2016 04:01
+        </div>
+        </div>
+        <meta itemprop="image" alt="Prospectiva y Escenarios" src="../imagenes/imagen.jpg">
+              <div itemprop="articleBody">
+        <h2>Prospectiva</h2>
+
+<p>La prospectiva se refiere al análisis de los probables escenarios futuros, a partir de la evolución de los procesos metropolitanos, en este caso el del desarrollo de la Zona Metropolitana de La Laguna a partir de criterios lógicos y basados los datos históricos recientes que permitan definir tendencias.</p>
+
+<p>Se emprendieron para este fin dos acciones concretas: 1) El desarrollo de proyecciones sobre los elementos principales de este plan y 2) La definición, de forma participativa, de un escenario tendencial a 10 años</p>
+
+<p>Este último tiene la intención de describir las circunstancias o ambientes que ocurrirán en la ciudad de no hacer nada diferente de lo que se ha venido haciendo hasta el momento. Es decir, lo que posiblemente ocurrirá con la Zona Metropolitana de La Laguna de acuerdo con los indicadores y proyecciones estudiados.</p>
+
+<h2>Proyecciones</h2>
+
+<p>Para el 2030 se estima que la población en Torreón será de aproximadamente 798,014, con una tasa de crecimiento anual de 1.25%, ello representaría un 24% más de habitantes respecto al 2015.</p>
+
+<p>En este mismo periodo de tiempo los vehículos motorizados se duplicarían, pasando en Torreón de 217 vehículos por cada mil habitantes, a 501 vehículos por cada mil.</p>
+
+<p>Entre el 2003 y el 2013 el salario promedio mensual en jornada completa pasó de $4,543.25 a $5,596.20 (23.2%), con ese ritmo de crecimiento se estima que para el 2038 éste alcance los $9,430.26 pesos.</p>
+
+<p>En cuanto a la tasa de desempleo se estima que para el 2040 ésta alcanzará un 10.41% de no emprenderse acciones para remediarlo o mitigarlo.</p>
+
+<p>Para el 2039 se estima que el personal ocupado en manufactura represente el 19.33% del total de personas ocupadas, en comercio el 35.83% y en el de servicios, que es el más representativo de la Zona, el 64.70%.</p>
+
+<p>Por otro lado, en la Zona Metropolitana de La Laguna se estima que, en el 2039, 50,884 personas de la población ocupada en el sector servicios estén colaborando concretamente para el sector turístico (servicios de alojamiento temporal y de preparación de alimentos y bebidas. Esto representará una  producción bruta de $3, 657,301.20 pesos con un valor agregado de $1, 487,914.20 pesos. El número de unidades económicas en este sector ascenderá a 21,903.</p>
+
+<p>Además, en el sector salud se estima, para el 2039, un total de 15,522 colaboradores con una producción bruta de $12, 269,664.10 pesos y un valor agregado de $6, 592,035.09 pesos. Las unidades económicas cambiarán de 1,038 en 1999 a 2,889 para este sector.</p>
+
+<h2>Escenario tendencial a 10 años</h2>
+
+<p>De continuar los problemas detectados y las condiciones existentes en la Zona Metropolitana de la Laguna, en un plazo de 10 años ésta se caracterizará por:</p>
+
+<h3>Gobernanza y Participación Ciudadana</h3>
+
+<ul>
+<li>Una <strong>gobernanza y participación ciudadana</strong> a la que le falta un marco jurídico metropolitano con altos costos sociales debido a la ausencia de coordinación intermunicipal y que además no cuenta con un servicio civil de carrera que hace complejo la implementación de las políticas públicas que se generan.</li>
+<li>Por otro lado, la deficiente transparencia y rendición de cuentas y la falta de mecanismos eficientes de participación ciudadana propician discrecionalidad el uso de los recursos y un ambiente apto para la corrupción abriendo cada vez más la brecha de desigualdad social.</li>
+<li>Además, al no existir planeación municipal a largo plazo hay crecimiento desordenado, pérdida de competitividad, bajo desarrollo social y metropolitano, desaprovechamiento de recursos e ineficiencia administrativa y política.</li>
+</ul>
+
+<h3>Desarrollo Económico</h3>
+
+<ul>
+<li>Un <strong>desarrollo económico</strong> inhibido debido a una falta de definición de la vocación regional que por ende atrae poca inversión y cuyos índices de productividad y competitividad son bajos. Y también por una falta de una cultura de emprendedurismo sostenible y de incentivos para esta actividad que genera una gran dependencia económica de las grandes empresas al no haber empresas nuevas e innovadoras.</li>
+<li>Además, la falta de un marco normativo y de un estado de derecho eficiente con voluntad y decisión gubernamental han generado condiciones para la ingobernabilidad y el aumento de la corrupción a todos los niveles.</li>
+<li>También existe una infraestructura para el desarrollo deficiente, en lo industrial y turístico que ocasiona vaciamiento y envejecimiento de la Zona Metropolitana por emigración y hay poco desarrollo de capacidades educativas de alto valor y falta de vinculación academia-empresa-sectores-autoridad lo que provoca una gran desarticulación e incongruencia entre los perfiles profesionales y los requerimientos laborales.</li>
+</ul>
+
+<h3>Desarrollo Social</h3>
+
+<ul>
+<li>Un bajo nivel de <strong>desarrollo social</strong> ocasionado por municipios no saludables en los que los índices de morbilidad y mortalidad van en aumento deteriorando la calidad de vida de los habitantes y afectando la competitividad de la zona y por falta de seguridad que genera gran desconfianza de la población hacia las autoridades.</li>
+<li>También la ausencia de vocación educativa en la Zona Metropolitana ocasiona rezago escolar y calidad académica deficiente en todos los niveles educativos y el rezago en la infraestructura cultural que ocasiona debilitamiento del tejido social ante la falta de cohesión y espacios de construcción de la identidad ciudadana y metropolitana y para el desarrollo cultural.</li>
+<li>Hay poca atención a los grupos vulnerables que ha ampliado la brecha social de los más necesitados.</li>
+</ul>
+
+<h3>Entorno Urbano</h3>
+
+<ul>
+<li>Un <strong>entorno urbano</strong> en el que existe una infraestructura deficiente lo que resulta en una metrópoli dispersa con un crecimiento desordenado, contaminada, sin agua suficiente, con alta tendencia al caos vial y con la movilidad urbana comprometida.</li>
+<li>Además, hay una baja densidad urbana que provoca una mancha urbana muy extendida con muchos asentamientos irregulares y lotes baldíos, también zonas deshabitadas. Debido a la inseguridad, al deterioro de la infraestructura, a la falta de identidad y las dificultades en la movilidad hay muchos barrios abandonados.</li>
+<li>La falta de espacios públicos genera poca cohesión social e inhibe la posibilidad de una mejor convivencia entre sus habitantes. También hay falta de planes y reglamentos actualizados y en general hay una baja observancia a lo existente. Esta ausencia se traduce en desorden en el uso del suelo, baja calidad del aire, identidad difusa y poco cuidado de la imagen urbana en general. Los servicios no están a la altura de las necesidades de los ciudadanos</li>
+</ul>
+
+<h3>Movilidad Urbana</h3>
+
+<ul>
+<li>Una <strong>movilidad urbana</strong> que no considera infraestructura de movilidad incluyente y equitativa que resulta en un incremento desproporcionado de vehículos, poco respeto al peatón, mayor marginación y sectorización de grupos vulnerables. Además, la falta de cultura vial genera condiciones para un mayor índice de accidentes viales, infracciones, falta de cuidado de la infraestructura existente, poco respeto al peatón y al derecho de tránsito de todos los ciudadanos.</li>
+<li>Por otro lado, existe falta de coordinación intermunicipal en materia de movilidad lo que ocasiona pérdida de oportunidades de inversión, retraso en el desarrollo económico y deterioro social. También existe un crecimiento desordenado de la ciudad que contribuye a un aumento en las rutas de transporte, con La consecuente pérdida de rentabilidad, y un mayor caos vial por el aumento en el número de vehículos.</li>
+<li>No se cuenta con transporte multimodal que produce congestión y saturación de las vías principales, al no estar integradas las líneas de transporte siguen creciendo de forma independiente aumentando la ineficiencia, los costos y una mayor contaminación.</li>
+</ul>
+
+<h3>Medio Ambiente</h3>
+
+<ul>
+<li>La degradación del <strong>medio ambiente</strong> por la falta del manejo integral del agua, acentuando la escasez de ésta para uso doméstico e industrial, ello redunda en mayor incidencia de enfermedades y muertes y en una baja importante de la productividad; y una falta de ordenamiento ecológico, que pone en riesgo la aptitud de la zona para hacer viable y sustentable la vida en ella.</li>
+<li>El cambio climático se ha convertido en un problema ya que la presencia de temperaturas extremas y un mayor riesgo de inundaciones y la inconsistencia del clima dificulta además la planeación de ciclos de recarga para la agricultura.</li>
+<li>También, existe una mala calidad del aire que tiene un efecto adverso en la salud de los habitantes de la zona, especialmente un marcado incremento en alergias y enfermedades respiratorias; La falta de manejo integral de residuos contribuye a una mayor contaminación del suelo, aire y de los mantos acuíferos, lo que afecta significativamente la salud de los habitantes y genera una mala imagen de la zona deteriorando el entorno y haciéndolo poco habitable.</li>
+</ul>
+
+<p><a href="indice.html">Índice</a> | Siguiente: <a href="modelo-desarrollo.html">Modelo de Desarrollo</a></p>
+
+        </div>
+      </div></article>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script>
+
+</script>
+</body>
+</html>

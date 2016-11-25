@@ -1,8 +1,8 @@
 <?php
 /*
- * TrcIMPLAN Sitio Web - Términos Imprenta
+ * TrcIMPLAN Sitio Web - Terminos Imprenta
  *
- * Copyright (C) 2015 IMPLAN Torreón
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace Terminos;
 
 /**
@@ -31,18 +31,21 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
-        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
+        // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
         $this->publicaciones_directorio = 'Terminos';
-        // Los siguientes parámetros dan datos para el índice/galería que será creado
+        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Términos';
         $this->descripcion              = 'Términos de Uso de la Información y del Sitio Web; además de el Aviso de Privacidad.';
         $this->claves                   = 'IMPLAN, Torreon, Terminos, Uso, Aviso, Privacidad';
         $this->encabezado_color         = '#C23700';
-        // Etiqueta de Navegación a poner activa
+        // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Términos de Uso';
-        // La ruta al archivo con el índice/galería que será creado
+        // Ruta a la clase para hacer la página con el índice
+        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'terminos';
-        $this->archivo_ruta             = 'terminos/index.html';
+        // Ejecutar constructor en el padre
+        parent::__construct();
     } // constructor
 
 } // Clase Imprenta

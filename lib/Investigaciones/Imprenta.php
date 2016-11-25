@@ -33,18 +33,19 @@ class Imprenta extends \Base\ImprentaPublicaciones {
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'Investigaciones';
-        // Los siguientes parámetros dan datos para el índice/galería que será creado
+        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Investigaciones';
         $this->descripcion              = 'Conocimientos para su aplicación para la solución a problemas o interrogantes de carácter científico, social o urbano.';
         $this->claves                   = 'IMPLAN, Torreon';
         $this->encabezado_color         = '#646464';
         // Etiqueta de Navegación a poner activa
         $this->nombre_menu              = 'Investigaciones';
-        // Clase que concentrará a las publicaciones para hacer su propia página
-        $this->concentrador             = 'Indice'; // Puede ser Indice (por defecto), Galeria o Tarjetas
-        // La ruta al archivo con el índice/galería/tarjetas que será creado
+        // Ruta a la clase para hacer la página con el índice
+        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'investigaciones';
-        $this->archivo_ruta             = 'investigaciones/index.html';
+        // Ejecutar constructor en el padre
+        parent::__construct();
     } // constructor
 
 } // Clase Imprenta

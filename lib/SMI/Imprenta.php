@@ -2,7 +2,7 @@
 /*
  * TrcIMPLAN Sitio Web - SMI Imprenta
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,6 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
 namespace SMI;
@@ -30,20 +31,21 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
-        // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
+        // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
         $this->publicaciones_directorio = 'SMI';
-        // Los siguientes parámetros dan datos para el índice/galería que será creado
+        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Indicadores';
         $this->descripcion              = 'El Sistema Metropolitano de Indicadores contiene información de Torreón, Gómez Palacio, Lerdo, Matamoros y La Laguna.';
         $this->claves                   = 'IMPLAN, Torreon, Indicadores, Gomez Palacio, Lerdo, Matamoros, La Laguna';
         $this->encabezado_color         = '#CA198A';
-        // Etiqueta de Navegación a poner activa
+        // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Indicadores';
-        // Clase que concentrará a las publicaciones para hacer su propia página
-        $this->concentrador             = 'Tarjetas';
-        // La ruta al archivo con el índice/galería que será creado
+        // Ruta a la clase para hacer la página con el índice
+        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'smi';
-        $this->archivo_ruta             = 'smi/index.html';
+        // Ejecutar constructor en el padre
+        parent::__construct();
     } // constructor
 
 } // Clase Imprenta

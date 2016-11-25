@@ -2,7 +2,7 @@
 /*
  * TrcIMPLAN Sitio Web - SIG Imprenta
  *
- * Copyright (C) 2014 IMPLAN Torreón
+ * Copyright (C) 2016 IMPLAN Torreón
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * @package TrcIMPLANSitioWeb
  */
 
-// Namespace
 namespace SIG;
 
 /**
@@ -31,15 +31,21 @@ class Imprenta extends \Base\ImprentaPublicaciones {
      * Constructor
      */
     public function __construct() {
+        // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
         $this->publicaciones_directorio = 'SIG';
+        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
         $this->titulo                   = 'Información Geográfica';
         $this->descripcion              = 'Información Geográfica del IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Sistema, Informacion, Geografica, SIG, GIS';
-        $this->directorio               = 'sig';
-        $this->archivo_ruta             = 'sig/index.html';
-        $this->nombre_menu              = 'Información Geográfica';
         $this->encabezado_color         = '#008000';
-        $this->encabezado_icono         = \Configuracion\NavegacionConfig::$iconos['Información Geográfica'];
+        // Opción de Navegación a poner activa
+        $this->nombre_menu              = 'Información Geográfica';
+        // Ruta a la clase para hacer la página con el índice
+        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        // Directorio en la raíz que será creado para alojar el concentrador y las páginas
+        $this->directorio               = 'sig';
+        // Ejecutar constructor en el padre
+        parent::__construct();
     } // constructor
 
 } // Clase Imprenta
