@@ -81,7 +81,7 @@ También contribuyen de manera importante la falta de monitoreo y regulación de
 
 Puede precisarse un poco de la situación con la información siguiente que se encuentra disponible por ahora.
 
-### Contaminación atmosférica: emisiones de contaminantes por fuentes fijas y fuentes de área.
+### Contaminación atmosférica: emisiones de contaminantes por fuentes fijas y fuentes de área
 
 Las fuentes fijas instaladas en la región de la Comarca Lagunera (industrias de jurisdicción federal y estatal), contribuyen con el 81% del total de SO2 que se emitió a la atmósfera en 2005, con el 66% de las partículas PM10, 69% de las PM2.5 y el 38% de los NOX.  Las 27,378 toneladas de SO2 que se estima fueron emitidas, se deben al uso de combustibles con alto contenido de azufre, principalmente el combustóleo en la generación de energía eléctrica, con una contribución del 97%.
 
