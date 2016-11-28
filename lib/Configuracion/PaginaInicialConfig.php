@@ -92,7 +92,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Acumular
         $this->contenido[] = '  <section id="organizacion">';
     //~ $this->contenido[] = '    <a href="consejo-directivo/convocatoria-2015.html"><img class="banner" src="consejo-directivo/convocatoria-2015/banner.jpg" alt="Banner"></a>';
-        $this->contenido[] = '    <img class="banner" src="imagenes/banner-implan.jpg" alt="Banner">';
+        $this->contenido[] = '    <img class="banner" src="imagenes/banner-implan-2016-11.jpg" alt="TrcIMPLAN Plan Estrategico Torreon 2016-11">';
         $this->contenido[] = $organizacion->html();
         $this->contenido[] = '  </section>';
     } // organizacion

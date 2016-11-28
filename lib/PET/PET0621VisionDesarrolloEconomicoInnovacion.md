@@ -18,7 +18,7 @@ Objetivo General / Metas
 
 * Impulsar la cultura del emprendedurismo sostenible y la innovación en la Zona Metropolitana de La Laguna como una forma de potenciar el desarrollo económico de esta región
     * Consejo metropolitano de triple hélice (universidad – industria – gobierno) para el fomento al emprendedurismo
-    * 15 centros de gestión que apoye el crecimiento y nuevas empresas con especial énfasis en microempresas y que promueva la cultura del emprendedurimo en la zona
+    * 15 centros de gestión que apoye el crecimiento y nuevas empresas con especial énfasis en microempresas y que promueva la cultura del emprendedurismo en la zona
     * Ley estatal de apoyo al emprendedor e Instituto del emprendedor con apoyo e incentivos para nuevas empresas
     * Planes de estudio de las universidades de la región que incluyan los temas de emprendedurismo, incubación, investigación, desarrollo y vinculación
 
@@ -27,12 +27,12 @@ Objetivo General / Metas
 Objetivo General / Metas
 
 * Impulsar la creación de clústers por sector, vinculados a universidades y centros de investigación y desarrollo tecnológico, con el fin de detonar el desarrollo económico de la zona Metropolitana de La Laguna
-    * Liderazo (top five) en Metalmecánica
-    * Liderazo (top five) en TICs
-    * Liderazo (top five) en Autopartes
-    * Liderazo (top five) en Aeroespacial
-    * Liderazo (top five) en Energías renovables
-    * Liderazo (top five) en Sector salud
+    * Liderazgo (top five) en Metalmecánica
+    * Liderazgo (top five) en TICs
+    * Liderazgo (top five) en Autopartes
+    * Liderazgo (top five) en Aeroespacial
+    * Liderazgo (top five) en Energías renovables
+    * Liderazgo (top five) en Sector salud
 
 ### Tema: Infraestructura para el desarrollo económico
 

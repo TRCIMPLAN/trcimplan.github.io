@@ -105,7 +105,7 @@ La Dirección de Centro Histórico que actualmente regula y resguarda el patrimo
 
 Fuente: Elaboración propia, 2015
 
-## Escaza Atención a los grupos vulnerables
+## Escasa Atención a los grupos vulnerables
 
 Los cambios en la pirámide poblacional en la zona y las condiciones económicas y de inseguridad han generado un panorama que requiere una mayor atención a los grupos vulnerables de la población. A continuación, se presentan datos en torno a los principales grupos vulnerables en la Zona Metropolitana.
 
