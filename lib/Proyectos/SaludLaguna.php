@@ -43,7 +43,7 @@ class SaludLaguna extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Salud Laguna es una agrupación interactiva de pro­fesionales, instituciones, or­ga­nizaciones, integrados en torno a las actividades económicas que dan servicio y soportan al sec­tor salud.';
         $this->claves                     = 'IMPLAN, Torreon';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/SaludLaguna.md';
         // Banderas

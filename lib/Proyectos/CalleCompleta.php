@@ -43,7 +43,7 @@ class CalleCompleta extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Es una calle que incluye al peatón y a todos los medios de transporte (ciclistas, motociclistas, autobuses, automovilistas), de todas las edades y con todo tipo de habilidades motoras.';
         $this->claves                     = 'IMPLAN, Torreon, Calle, Completa';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/CalleCompleta.md';
         // Banderas

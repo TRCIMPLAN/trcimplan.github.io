@@ -43,7 +43,7 @@ class PlataLaguna extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Contribuir a que la plata de La Laguna sea un sector mundialmente competitivo; reconocida por su calidad e identificable por el consumidor.';
         $this->claves                     = 'IMPLAN, Torreon, Plata, Laguna';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/PlataLaguna.md';
         // Banderas

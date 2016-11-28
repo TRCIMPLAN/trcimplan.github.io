@@ -58,4 +58,4 @@ Objetivos Generales / Metas
     * Instituto Metropolitano de Planeación trabajando al 100% como órgano de referencia en la toma de decisiones
     * IMPLAN ciudadanizado
 
-[Índice](indice.html) | Siguiente: [Desarrollo Económoico e Innovación](vision-desarrollo-economico-innovacion.html)
+[Índice](indice.html) | Siguiente: [Desarrollo Económico e Innovación](vision-desarrollo-economico-innovacion.html)

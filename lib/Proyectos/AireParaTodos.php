@@ -43,7 +43,7 @@ class AireParaTodos extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Taller sobre el Bosque Venustiano Carranza. Presentaciones sobre la Historia, Entorno Sociourbano y Medio Ambiente del BVC.';
         $this->claves                     = 'IMPLAN, Torreon, Areas Verdes, Sustentabilidad, Bosque';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo HTML con el contenido
         $this->contenido_archivo_html     = 'lib/Proyectos/AireParaTodos.html';
         // Banderas

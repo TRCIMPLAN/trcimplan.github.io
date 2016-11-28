@@ -43,7 +43,7 @@ class PlanEstrategicoDrenajePluvialTorreon extends \Base\PublicacionSchemaArticl
         $this->descripcion                = 'Diagnóstico y Lineamientos para la elaboración del Plan Estratégico de Drenaje Pluvial de Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Drenaje, Pluvial';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Banderas
         $this->poner_imagen_en_contenido  = false;
         $this->para_compartir             = false;

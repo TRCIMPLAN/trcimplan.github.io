@@ -43,7 +43,7 @@ class BancoMunicipalProyectosInversion extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Instrumento dinámico de gestión pública, para consolidar una cultura de formulación, planeación, seguimiento y evaluación de proyectos de inversión.';
         $this->claves                     = 'IMPLAN, Torreon, Banco, Municipal, Proyectos, Inversion';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/BancoMunicipalProyectosInversion.md';
         // Banderas

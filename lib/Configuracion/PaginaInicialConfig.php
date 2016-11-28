@@ -142,9 +142,10 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $pet->botones     = array(
             '<i class="fa fa-list-ul"></i> Índice General'           => 'pet/indice.html',
             '<i class="fa fa fa-font"></i> Índice Alfabético'        => 'pet/index.html',
+            '<i class="fa fa-download"></i> Descargar'               => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html',
+            '<i class="fa fa-external-link"></i> Comentar'           => 'https://docs.google.com/document/d/1V4nwGxAd8umhGQDuWCOAJD7pVu-ghVGqcIrJ1xNU5wM/edit?usp=sharing',
             '<i class="fa fa-calendar"></i> Descripción del Proceso' => 'plan-estrategico-metropolitano/descripcion-del-proceso.html',
-            '<i class="fa fa-check-square"></i> Proyectos'           => 'proyectos/index.html',
-            '<i class="fa fa-download"></i> Descargar documento'     => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html');
+            '<i class="fa fa-check-square"></i> Proyectos'           => 'proyectos/index.html');
         // Acumular sección destacado
         $this->contenido[]  = '  <section id="destacado">';
         $this->contenido[]  = '    <div class="row">';

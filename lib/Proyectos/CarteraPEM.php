@@ -43,7 +43,7 @@ class CarteraPEM extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Descripción.';
         $this->claves                     = 'IMPLAN, Torreon, Banco, Proyectos';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/CarteraPEM.md';
         // Banderas

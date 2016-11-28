@@ -43,7 +43,7 @@ class PlanCentroLaguna extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Regeneración urbana que promueve la integración social, la reactivación económica, la valorización del patrimonio histórico y cultural y la habitabilidad del espacio público.';
         $this->claves                     = 'IMPLAN, Torreon, Plan, Centro, La Laguna';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/PlanCentroLaguna.md';
         // Banderas

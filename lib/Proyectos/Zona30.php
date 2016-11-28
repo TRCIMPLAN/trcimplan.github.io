@@ -43,7 +43,7 @@ class Zona30 extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Proyecto de regeneración del espacio público mediante una estrategia de pacificación de tránsito y los principios de visión cero, accesibilidad universal.';
         $this->claves                     = 'IMPLAN, Torreon, Zona, 30, Centro, Espacio, Publico, Regeneracion, Vision Cero, Accesabilidad';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/Proyectos/Zona30.md';
         // Banderas

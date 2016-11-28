@@ -56,4 +56,4 @@ _Nota: Cada proyecto tiene un número como clave, los programas están como punt
     31. Fusión de los institutos municipales de planeación
     32. Implementación de mecanismos de participación ciudadana en el IMPLAN
 
-[Índice](indice.html) | Siguiente: [Desarrollo Económoico e Innovación](cartera-proyectos-desarrollo-economico-innovacion.html)
+[Índice](indice.html) | Siguiente: [Desarrollo Económico e Innovación](cartera-proyectos-desarrollo-economico-innovacion.html)

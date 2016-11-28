@@ -43,7 +43,7 @@ class ViveTuAlameda extends \Base\PublicacionSchemaArticle {
         $this->descripcion                = 'Taller sobre la Alameda Zaragoza de Torreón.';
         $this->claves                     = 'IMPLAN, Torreon, Areas Verdes, Sustentabilidad, Alameda';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón > Proyectos';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Proyectos';
         // Banderas
         $this->poner_imagen_en_contenido  = false;
         $this->para_compartir             = false;

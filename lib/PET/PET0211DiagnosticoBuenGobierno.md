@@ -92,4 +92,4 @@ De acuerdo al estudio Doing Business 2014, el cual mide la mejora regulatoria en
 
 El Índice de Gobierno Digital del CIDE mide la conectividad de los gobiernos municipales tomando en cuenta líneas telefónicas, computadoras, funcionalidad de su sitio web, información contenida en el sitio y su conexión a internet. La última medición de este índice coloca a Torreón en el lugar 15 a nivel nacional de 2,456 municipios evaluados.
 
-[Índice](indice.html) | Siguiente: [Desarrollo Económoico e Innovación](diagnostico-estrategico-desarrollo-economico-innovacion.html)
+[Índice](indice.html) | Siguiente: [Desarrollo Económico e Innovación](diagnostico-estrategico-desarrollo-economico-innovacion.html)
