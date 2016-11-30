@@ -86,6 +86,7 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
   <ul class="nav nav-tabs lenguetas" id="smi-indicador">
     <li><a href="#smi-indicador-datos" data-toggle="tab">Datos</a></li>
     <li><a href="#smi-indicador-grafica-1" data-toggle="tab">Gráfica 1</a></li>
+    <li><a href="#smi-indicador-grafica-2" data-toggle="tab">Gráfica 2</a></li>
     <li><a href="#smi-indicador-otras_regiones" data-toggle="tab">Otras regiones</a></li>
   </ul>
   <div class="tab-content lengueta-contenido">
@@ -137,16 +138,27 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
             <td>RFOSC</td>
             <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
           </tr>
+          <tr>
+            <td>25/11/2016</td>
+            <td>57.5500</td>
+            <td>RFOSC</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil.</p>
       <h3>Observaciones</h3>
-<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013.</p>
+<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
+Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
 
     </div>
     <div class="tab-pane" id="smi-indicador-grafica-1">
       <h3>Gráfica de Organizaciones de la Sociedad Civil en Gómez Palacio con fuente IMCO</h3>
       <div id="graficaDatosImco" class="grafica"></div>
+    </div>
+    <div class="tab-pane" id="smi-indicador-grafica-2">
+      <h3>Gráfica de Organizaciones de la Sociedad Civil en Gómez Palacio con fuente RFOSC</h3>
+      <div id="graficaDatosRfosc" class="grafica"></div>
     </div>
     <div class="tab-pane" id="smi-indicador-otras_regiones">
       <h3>Gráfica con los últimos datos de Organizaciones de la Sociedad Civil</h3>
@@ -165,38 +177,59 @@ class SociedadOrganizacionesDeLaSociedadCivil extends \Base\Publicacion {
         <tbody>
           <tr>
             <td>Torreón</td>
-            <td>2014-03-31</td>
-            <td>47.9800</td>
+            <td>2016-11-25</td>
+            <td>55.0500</td>
             <td>RFOSC</td>
-            <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
+            <td></td>
           </tr>
           <tr>
             <td>Gómez Palacio</td>
-            <td>2014-03-31</td>
-            <td>45.8400</td>
+            <td>2016-11-25</td>
+            <td>57.5500</td>
             <td>RFOSC</td>
-            <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
+            <td></td>
           </tr>
           <tr>
             <td>Lerdo</td>
-            <td>2014-03-31</td>
-            <td>22.7000</td>
+            <td>2016-11-25</td>
+            <td>31.3000</td>
             <td>RFOSC</td>
-            <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
+            <td></td>
           </tr>
           <tr>
             <td>Matamoros</td>
-            <td>2014-03-31</td>
-            <td>10.7800</td>
+            <td>2016-11-25</td>
+            <td>11.0100</td>
             <td>RFOSC</td>
-            <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
+            <td></td>
           </tr>
           <tr>
             <td>La Laguna</td>
-            <td>2014-03-31</td>
-            <td>41.2200</td>
+            <td>2016-11-25</td>
+            <td>49.1400</td>
             <td>RFOSC</td>
-            <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Coahuila</td>
+            <td>2016-11-25</td>
+            <td>26.4300</td>
+            <td>RFOSC</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Durango</td>
+            <td>2016-11-25</td>
+            <td>143.3800</td>
+            <td>RFOSC</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nacional</td>
+            <td>2016-11-25</td>
+            <td>28.8400</td>
+            <td>RFOSC</td>
+            <td>http://www.corresponsabilidad.gob.mx/ http://166.78.45.36/portal/</td>
           </tr>
         </tbody>
       </table>
@@ -231,13 +264,29 @@ $('#smi-indicador a[href="#smi-indicador-grafica-1"]').on('shown.bs.tab', functi
     });
   }
 });
+// LENGUETA smi-indicador-grafica-2
+$('#smi-indicador a[href="#smi-indicador-grafica-2"]').on('shown.bs.tab', function(e){
+  // Gráfica
+  if (typeof vargraficaDatosRfosc === 'undefined') {
+    vargraficaDatosRfosc = Morris.Line({
+      element: 'graficaDatosRfosc',
+      data: [{ fecha: '2014-03-31', dato: 45.8400 },{ fecha: '2016-11-25', dato: 57.5500 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+});
 // LENGUETA smi-indicador-otras_regiones
 $('#smi-indicador a[href="#smi-indicador-otras_regiones"]').on('shown.bs.tab', function(e){
   // Gráfica
   if (typeof vargraficaOtrasRegiones === 'undefined') {
     vargraficaOtrasRegiones = Morris.Bar({
       element: 'graficaOtrasRegiones',
-      data: [{ region: 'Torreón', dato: 47.9800 },{ region: 'Gómez Palacio', dato: 45.8400 },{ region: 'Lerdo', dato: 22.7000 },{ region: 'Matamoros', dato: 10.7800 },{ region: 'La Laguna', dato: 41.2200 }],
+      data: [{ region: 'Torreón', dato: 55.0500 },{ region: 'Gómez Palacio', dato: 57.5500 },{ region: 'Lerdo', dato: 31.3000 },{ region: 'Matamoros', dato: 11.0100 },{ region: 'La Laguna', dato: 49.1400 },{ region: 'Coahuila', dato: 26.4300 },{ region: 'Durango', dato: 143.3800 },{ region: 'Nacional', dato: 28.8400 }],
       xkey: 'region',
       ykeys: ['dato'],
       labels: ['Dato'],
@@ -312,11 +361,18 @@ FINAL;
             <td>RFOSC</td>
             <td>Consulta de [Base de Datos](http://www.corresponsabilidad.gob.mx/?p=f8e8b1feff822753a39b21de69259fd6&)</td>
           </tr>
+          <tr>
+            <td>25/11/2016</td>
+            <td>57.5500</td>
+            <td>RFOSC</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
       <p><b>Unidad:</b> Por cada 100 mil.</p>
       <h3>Observaciones</h3>
-<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013.</p>
+<p>Unidades: Organizaciones por cada 100 mil habitantes. Fuente: Secretaría de Gobernación (SEGOB), 2013. 
+Registro Federal de Organizaciones de la Sociedad Civil. Consulta <a href="http://www.corresponsabilidad.gob.mx/">Base de Datos</a></p>
 
 FINAL;
         // Ejecutar este método en el padre
