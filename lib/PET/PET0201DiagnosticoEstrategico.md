@@ -8,7 +8,7 @@ A continuación se presenta el diagnóstico base dividido en **seis grandes eje
 Situación por eje:
 
 * [Buen Gobierno](diagnostico-estrategico-buen-gobierno.html)
-* [Desarrollo Económoico e Innovación](diagnostico-estrategico-desarrollo-economico-innovacion.html)
+* [Desarrollo Económico e Innovación](diagnostico-estrategico-desarrollo-economico-innovacion.html)
 * [Desarrollo Social](diagnostico-estrategico-desarrollo-social.html)
 * [Entorno Urbano](diagnostico-estrategico-entorno-urbano.html)
 * [Movilidad y Transporte](diagnostico-estrategico-movilidad-transporte.html)

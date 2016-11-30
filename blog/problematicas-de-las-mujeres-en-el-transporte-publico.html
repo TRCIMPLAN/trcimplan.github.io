@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad de Torreón.
+
+        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                    http://php.net
+          Twitter Bootstrap      http://getbootstrap.com
+          StartBootStrap         http://startbootstrap.com
+          Morris.js              https://morrisjs.github.io/morris.js/
+
+        El hospedaje es cortesía de GitHub. Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón         https://github.com/TRCIMPLAN
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Las usuarias del transporte público en Torreón realizan más de un viaje al trabajo o a la escuela resultado de los roles atribuidos al hogar y la familia. Esto las lleva a enfrentar diversas problemáticas, que son analizadas en un diagnóstico del Programa ONU Mujeres.">
+  <meta name="author" content="Arq. Ilse Ávila García">
+  <meta name="keywords" content="IMPLAN, Torreon, Mujeres, Transporte, Traslados, Camiones, Dispersion">
+  <title>Problemáticas de las mujeres en el transporte público - IMPLAN Torreón</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="../imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="../imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="../imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="IMPLAN Torreón">
+  <link rel="stylesheet" type="text/css" href="../css/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/plugins/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/sb-admin-2.css">
+  <link rel="stylesheet" type="text/css" href="../css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="../css/trcimplan.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img class="navbar-brand-img" src="../imagenes/implan-barra-logo-chico-gris.png" alt="IMPLAN Torreón"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="active"><a href="../blog/index.html"><span class="navegacion-icono"><i class="fa fa-lightbulb-o"></i></span> Análisis Publicados</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-area-chart"></i></span> Indicadores<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../smi/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SMI</a></li>
+            <li><a href="../indicadores-categorias/index.html"><span class="navegacion-icono"><i class="fa fa-th-list"></i></span> Indicadores por Categoría</a></li>
+            <li><a href="../smi/por-region.html"><span class="navegacion-icono"><i class="fa fa-table"></i></span> Indicadores por Región</a></li>
+            <li><a href="../smi-georreferenciados/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Georreferenciados</a></li>
+            <li><a href="../smi/datos-abiertos.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Datos Abiertos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="../sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="../sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+            <li><a href="../sig-mapas-torreon/zonificacion-secundaria.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Zonificación Secundaria</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-book"></i></span> Plan Estratégico Torreón 2040<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../pet/indice.html"><span class="navegacion-icono"><i class="fa fa-list-ul"></i></span> Índice General</a></li>
+            <li><a href="../pet/index.html"><span class="navegacion-icono"><i class="fa fa-font"></i></span> Índice Alfabético</a></li>
+            <li><a href="../plan-estrategico-torreon-enfoque-metropolitano-2040/index.html"><span class="navegacion-icono"><i class="fa fa-download"></i></span> Descargar</a></li>
+            <li><a href="https://docs.google.com/document/d/1V4nwGxAd8umhGQDuWCOAJD7pVu-ghVGqcIrJ1xNU5wM/edit?usp=sharing" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentar</a></li>
+            <li><a href="../plan-estrategico-metropolitano/descripcion-del-proceso.html"><span class="navegacion-icono"><i class="fa fa-calendar"></i></span> Descripción del proceso</a></li>
+            <li><a href="../proyectos/index.html"><span class="navegacion-icono"><i class="fa fa-check-square"></i></span> Proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="../investigaciones/index.html"><span class="navegacion-icono"><i class="fa fa-briefcase"></i></span> Investigaciones</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-building-o"></i></span> Institucional<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../institucional/vision-mision.html"><span class="navegacion-icono"><i class="fa fa-trophy"></i></span> Visión / Misión</a></li>
+            <li><a href="../institucional/mensaje-director.html"><span class="navegacion-icono"><i class="fa fa-comment"></i></span> Mensaje del Director</a></li>
+            <li><a href="../autores/index.html"><span class="navegacion-icono"><i class="fa fa-user"></i></span> Quienes Somos</a></li>
+            <li><a href="../institucional/estructura-organica.html"><span class="navegacion-icono"><i class="fa fa-sitemap"></i></span> Estructura Orgánica</a></li>
+            <li><a href="../institucional/modelo-operativo-universal.html"><span class="navegacion-icono"><i class="fa fa-slideshare"></i></span> Modelo Operativo Univ.</a></li>
+            <li><a href="../institucional/reglamentos.html"><span class="navegacion-icono"><i class="fa fa-gavel"></i></span> Reglamentos</a></li>
+            <li><a href="http://www.icai.org.mx:8282/ipo/dependencia.php?dep=178" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Transparencia</a></li>
+          </ul>
+        </li>
+        <li><a href="../consejo-directivo/integrantes.html"><span class="navegacion-icono"><i class="fa fa-users"></i></span> Consejo Directivo</a></li>
+        <li><a href="../sala-prensa/index.html"><span class="navegacion-icono"><i class="fa fa-newspaper-o"></i></span> Sala de Prensa</a></li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="../terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="../terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="../contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Medios de contacto</a></li>
+            <li><a href="../preguntas-frecuentes/preguntas-frecuentes.html"><span class="navegacion-icono"><i class="fa fa-question"></i></span> Preguntas Frecuentes</a></li>
+            <li><a href="http://goo.gl/forms/1rdX4X128PpMOif73" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> Comentarios y Sugerencias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="cuerpo">
+      <article><div itemscope itemtype="http://schema.org/BlogPosting">
+              <div class="encabezado">
+          <h1 itemprop="name">Problemáticas de las mujeres en el transporte público</h1>
+          <div class="encabezado-descripcion" itemprop="description">Las usuarias del transporte público en Torreón realizan más de un viaje al trabajo o a la escuela resultado de los roles atribuidos al hogar y la familia. Esto las lleva a enfrentar diversas problemáticas, que son analizadas en un diagnóstico del Programa ONU Mujeres.</div>
+                <div class="encabezado-autor-fecha">
+          Por <span itemprop="author">Arq. Ilse Ávila García</span>
+          - <meta itemprop="datePublished" content="2016-11-30T10:00">30/11/2016 10:00
+        </div>
+        </div>
+        <span class="contenido-imagen-previa"><img class="img-responsive" itemprop="image" alt="Problemáticas de las mujeres en el transporte público" src="problematicas-de-las-mujeres-en-el-transporte-publico/imagen.jpg"></span>
+              <div itemprop="articleBody">
+        <p>Actualmente el <strong>Programa ONU Mujeres</strong> elabora en conjunto con el <strong>Ayuntamiento de Torreón</strong> un <strong>diagnóstico para analizar la problemática de la violencia sexual contra las mujeres y las niñas en el trasporte y espacios públicos</strong> dentro del municipio.</p>
+
+<p>El diagnóstico es solo uno de los elementos que integrarán el diseño de un programa que permita <strong>prevenir el acoso y violencia sexual a corto, mediano y largo plazo.</strong> A propósito de este estudio, conviene analizar las características del uso del transporte público por las mujeres en Torreón.</p>
+
+<p>Es bien sabido que <strong>las usuarias del transporte público realizan más de un viaje</strong> resultado de los roles socialmente atribuidos como son las responsabilidades relacionadas con el hogar y la familia. Varios de los recorridos los realizan antes de llegar a la escuela o centro de trabajo, así como al salir de los mismos.</p>
+
+<p>El municipio de <strong>Torreón tiene 692,386 habitantes</strong> según datos de <strong>INEGI</strong> en 2015. El segmento de <strong>personas que tienen necesidad de trasladarse</strong> por motivo de estudio o trabajo está en el rango de 12-65 años. <strong>Son 351,365 personas y representan el 51.72 % de la población total del municipio.</strong> Estos pueden elegir dos modos de traslado; por medios motorizados o no motorizados.</p>
+
+<p>De los 351,365 habitantes con necesidad de desplazarse por cualquiera de los dos motivos antes mencionados, INEGI indica que el <strong>34.7 % utiliza el transporte público,</strong> lo que corresponde a <strong>121,924 usuarios.</strong></p>
+
+<p>En la ciudad de Torreón actualmente <strong>se calcula que 59,661 mujeres utilizan este medio de transporte</strong> para llegar a cualquiera de los destinos antes mencionados. <strong>47 % de las usuarias que tiene como destino la escuela y el 38% que tiene como destino su centro de trabajo, pasan entre 16 y 30 minutos en una unidad de transporte.</strong></p>
+
+<p>Esto lleva a las mujeres a enfrentar situaciones que asumen como inherentes al momento de utilizar un autobús y que ponen en riesgo su integridad, como son: <strong>asumir cualquier tipo de violencia ligada al género que van desde el piropo, propuestas desagradables, acoso verbal y físico, violencia psicológica, hasta agresiones físicas.</strong> La gran cantidad de usuarios en el transporte público facilita estas condiciones de violencia favoreciendo el anonimato del agresor, lo que promueve estas conductas; así como la poca sensibilización de los conductores de las unidades en temas de género.</p>
+
+<p>Una vez terminado el diagnóstico del programa ONU Mujeres entrará en una fase posterior de implementación y seguimiento. Lo que permitirá acceder a un sistema de transporte público que considere aspectos de género como son: <strong>regular la capacidad de pasajeros en las unidades, otorgar asientos preferenciales para personas vulnerables, programas de conductores y conductoras profesionalizados, que exista un sistema de transporte regulado, seguro, libre y sin miedo al acoso sexual, con sanciones adecuadas al daño.</strong></p>
+
+<h3>Ciudades dispersas</h3>
+
+<p>Es importante considerar que <strong>las ciudades dispersas y con baja densidad poblacional hacen de la movilidad motorizada una necesidad. La disposición en el territorio de la población, no siempre va acorde con la localización de los centros de trabajo o estudio,</strong> dos de las principales motivos por los que se desplazan las personas dentro de la ciudad, sin descartar otros como son la recreación, así como el acceso al suministro de bienes y servicios.</p>
+
+<p>Esta dispersión requiere de una inversión fuerte en infraestructura vial y de servicios, aunado a la operación y mantenimiento necesarios para su óptimo funcionamiento, que impactan fuertemente los presupuestos anuales de los municipios.</p>
+
+<p>En un análisis realizado por el <strong>IMPLAN</strong> se identifica que <strong>los tiempos de traslado en transporte público, pueden oscilar entre los 15 a 120 min.</strong> Los segmentos con mayor tiempo en el traslado son los viajes con una duración ente 16 a 60 minutos en ambos destinos: trabajo o escuela.</p>
+
+<p>La implementación del <strong>Sistema de Transporte Metrobús</strong> en Torreón, significará <strong>la disminución de más de 15 minutos en tiempos de recorrido y la reducción considerable de las emisiones de CO2.</strong></p>
+
+<h3>Este análisis fue publicado en Milenio Laguna</h3>
+
+<p><a href="http://www.milenio.com/region/Milenio_Noticias-Nuestra_Metropoli_desde_el_IMPLAN-ONU_Mujeres-Transporte_Publico_0_851914846.html">Problemáticas de las mujeres en el transporte público</a></p>
+
+<h3>Infografía</h3>
+
+<p><img class="img-responsive" src="problematicas-de-las-mujeres-en-el-transporte-publico/transporte-y-usuarios-torreon.jpg" alt="Transporte y usuarios en Torreon"></p>
+
+        </div>
+      </div></article>
+<div class="contenido-social">
+  <h5>Compartir en Redes Sociales</h5>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="trcimplan" data-lang="es">Twittear</a>
+  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.trcimplan.gob.mx%2Fblog%2Fproblematicas-de-las-mujeres-en-el-transporte-publico.html&amp;width=300&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:21px;" allowTransparency="true"></iframe>
+</div>
+    </div>
+    <div class="mapa-inferior">
+      <div class="row">
+        <div class="col-md-8">
+            <a href="../index.html"><img class="img-responsive mapa-inferior-logo" src="../imagenes/implan-transparente-gris.png" alt="IMPLAN Torreón"></a>
+        </div>
+        <div class="col-md-4">
+          <div class="pull-right redes-sociales">
+            <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>
+            <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>
+            <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>
+            <a class="fa fa-rss-square" href="../rss.xml"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.min.js"></script>
+<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>
+<script src="../js/sb-admin-2.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<script>
+
+</script>
+<script>
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</body>
+</html>
