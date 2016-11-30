@@ -32,23 +32,23 @@ class CLASE extends \Base\Publicacion {
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre      = 'Título';
-     // $this->autor       = ''; // Puede ser un arreglo de textos
-        $this->fecha       = '2016-00-00T00:00';
+        $this->nombre                    = 'Título';
+        $this->autor                     = ''; // Puede ser un arreglo de textos
+        $this->fecha                     = '2016-00-00T00:00';
         // El nombre del archivo a crear
-        $this->archivo     = 'titulo';
+        $this->archivo                   = 'titulo';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion = 'Descripción.';
-        $this->claves      = 'Clave1, Clave2, Clave3';
-        // Para el Organizador
-        $this->categorias  = array();
-        $this->fuentes     = array();
-        $this->regiones    = array();
-        // Banderas que pueden tener un valor por defecto en \Configuracion\PublicacionConfig
-     // $this->poner_imagen_en_contenido = TRUE; // Poner la imagen en la parte superior izquierda
-     // $this->para_compartir            = TRUE; // Poner los botones para compartir en redes sociales
+        $this->descripcion               = 'Descripción.';
+        $this->claves                    = 'Clave1, Clave2, Clave3';
+        // Banderas
+        $this->poner_imagen_en_contenido = TRUE; // Poner la imagen en la parte superior izquierda
+        $this->para_compartir            = TRUE; // Poner los botones para compartir en redes sociales
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-     // $this->estado                    = 'publicar';
+        $this->estado                    = 'publicar';
+        // Para el Organizador
+        $this->categorias                = array();
+        $this->fuentes                   = array();
+        $this->regiones                  = array();
     } // constructor
 
     /**

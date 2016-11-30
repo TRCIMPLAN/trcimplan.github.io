@@ -20,7 +20,7 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace DIRECTORIO;
+namespace PET;
 
 /**
  * Clase CLASE
@@ -33,24 +33,20 @@ class CLASE extends \Base\PublicacionSchemaBlogPosting {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                     = 'Título';
-        $this->autor                      = ''; // Puede ser un arreglo de textos
+        $this->autor                      = '';
         $this->fecha                      = '2016-00-00T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'titulo';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Descripción.';
-        $this->claves                     = 'Clave1, Clave2, Clave3';
+        $this->claves                     = 'IMPLAN, Torreon, ';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu                = '';
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/DIRECTORIO/CLASE.md';
-        // Ruta al archivo HTML con el contenido
-     // $this->contenido_archivo_html     = 'lib/DIRECTORIO/CLASE.html';
+        $this->contenido_archivo_markdown = 'lib/PET/CLASE.md';
         // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
+        $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
-        // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-        $this->estado                     = 'publicar';
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

@@ -33,7 +33,7 @@ class CLASE extends \Base\PublicacionSchemaArticle {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                     = 'Título';
-     // $this->autor                      = ''; // Puede ser un arreglo de textos
+        $this->autor                      = ''; // Puede ser un arreglo de textos
         $this->fecha                      = '2016-00-00T00:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'titulo';
@@ -45,12 +45,12 @@ class CLASE extends \Base\PublicacionSchemaArticle {
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/DIRECTORIO/CLASE.md';
         // Ruta al archivo HTML con el contenido
-     // $this->contenido_archivo_html     = 'lib/DIRECTORIO/CLASE.md';
-        // Banderas que pueden tener un valor por defecto en \Configuracion\PublicacionConfig
-     // $this->poner_imagen_en_contenido  = TRUE;
-     // $this->para_compartir             = TRUE;
+     // $this->contenido_archivo_html     = 'lib/DIRECTORIO/CLASE.html';
+        // Banderas
+        $this->poner_imagen_en_contenido  = TRUE;
+        $this->para_compartir             = TRUE;
         // El estado puede ser 'publicar', 'revisar' o 'ignorar'
-     // $this->estado                     = 'publicar';
+        $this->estado                     = 'publicar';
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

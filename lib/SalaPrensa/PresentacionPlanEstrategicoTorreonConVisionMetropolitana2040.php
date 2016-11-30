@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - CLASE
+ * TrcIMPLAN Sitio Web - Presentacion Plan Estrategico Torreon con vision metropolitana 2040
  *
  * Copyright (C) 2016 IMPLAN Torreón
  *
@@ -20,32 +20,32 @@
  * @package TrcIMPLANSitioWeb
  */
 
-namespace Blog;
+namespace SalaPrensa;
 
 /**
- * Clase CLASE
+ * Clase PresentacionPlanEstrategicoTorreonConVisionMetropolitana2040
  */
-class CLASE extends \Base\PublicacionSchemaBlogPosting {
+class PresentacionPlanEstrategicoTorreonConVisionMetropolitana2040 extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                     = 'Título';
-        $this->autor                      = '';
-        $this->fecha                      = '2016-00-00T00:00';
+        $this->nombre                     = 'Presentación del Plan Estratégico Torreón con visión metropolitana 2040';
+    //  $this->autor                      = '';
+        $this->fecha                      = '2016-11-29T13:40';
         // El nombre del archivo a crear
-        $this->archivo                    = 'titulo';
+        $this->archivo                    = '2016-11-29-presentacion-trc2040';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Descripción.';
+        $this->descripcion                = 'El IMPLAN Torreón, llevó a cabo este martes la presentación del Plan Estratégico para Torreón Enfoque Metropolitano (TRC2040), en las instalaciones del ITESM Campus Laguna, con la asistencia de más de 200 personas, entre los que se encontraron ciudadanos representantes de distintos sectores de la sociedad, así como funcionarios públicos.';
         $this->claves                     = 'IMPLAN, Torreon, ';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación.
-        $this->nombre_menu                = 'Análisis Publicados';
+        $this->nombre_menu                = 'Sala de Prensa';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/Blog/CLASE.md';
+        $this->contenido_archivo_markdown = 'lib/SalaPrensa/PresentacionPlanEstrategicoTorreonConVisionMetropolitana2040.md';
         // Banderas
-        $this->poner_imagen_en_contenido  = TRUE;
+        $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = TRUE;
         // Para el Organizador
         $this->categorias                 = array();
@@ -53,6 +53,6 @@ class CLASE extends \Base\PublicacionSchemaBlogPosting {
         $this->regiones                   = array('Torreón', 'Gómez Palacio', 'Lerdo', 'Matamoros');
     } // constructor
 
-} // Clase CLASE
+} // Clase PresentacionPlanEstrategicoTorreonConVisionMetropolitana2040
 
 ?>

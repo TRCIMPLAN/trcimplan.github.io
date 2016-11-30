@@ -72,6 +72,7 @@ class CreadorConfig {
         $this->imprentas_autores        = array(
             '\\Blog\\Imprenta',
             '\\Proyectos\\Imprenta',
+            '\\SalaPrensa\\Imprenta',
             '\\SIGMapasTorreon\\Imprenta',
             '\\SMIIndicadoresGomezPalacio\\Imprenta',
             '\\SMIIndicadoresLaLaguna\\Imprenta',
