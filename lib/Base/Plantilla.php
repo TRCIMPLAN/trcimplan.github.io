@@ -233,11 +233,11 @@ class Plantilla extends \Configuracion\PlantillaConfig {
                 $a[] = "  $externo_css";
             }
         }
-    //  $a[] = '  <!-- SOPORTE PARA IE -->';
-    //  $a[] = '  <!--[if lt IE 9]>';
-    //  $a[] = '  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>';
-    //  $a[] = '  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>';
-    //  $a[] = '  <![endif]-->';
+        $a[] = '  <!-- SOPORTE PARA IE -->';
+        $a[] = '  <!--[if lt IE 9]>';
+        $a[] = '  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>';
+        $a[] = '  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>';
+        $a[] = '  <![endif]-->';
         $a[] = '</head>';
         // Entregar
         return implode("\n", $a);
@@ -260,28 +260,28 @@ class Plantilla extends \Configuracion\PlantillaConfig {
         }
         if ($this->en_raiz) {
             if ($this->scripts_jquery_js == '') {
-                $a[] = '<script src="js/jquery.min.js"></script>';
+                $a[] = '<script type="text/javascript" src="js/jquery.min.js"></script>';
             }
             if ($this->scripts_bootstrap_js == '') {
-                $a[] = '<script src="js/bootstrap.min.js"></script>';
+                $a[] = '<script type="text/javascript" src="js/bootstrap.min.js"></script>';
             }
-            $a[] = '<script src="js/raphael-min.js"></script>';
-            $a[] = '<script src="js/morris.min.js"></script>';
-        //  $a[] = '<script src="js/leaflet.js"></script>';
-            $a[] = '<script src="js/plugins/metisMenu/metisMenu.min.js"></script>';
-            $a[] = '<script src="js/sb-admin-2.js"></script>';
+            $a[] = '<script type="text/javascript" src="js/raphael-min.js"></script>';
+            $a[] = '<script type="text/javascript" src="js/morris.min.js"></script>';
+        //  $a[] = '<script type="text/javascript" src="js/leaflet.js"></script>';
+            $a[] = '<script type="text/javascript" src="js/plugins/metisMenu/metisMenu.min.js"></script>';
+            $a[] = '<script type="text/javascript" src="js/sb-admin-2.js"></script>';
         } else {
             if ($this->scripts_jquery_js == '') {
-                $a[] = '<script src="../js/jquery.min.js"></script>';
+                $a[] = '<script type="text/javascript" src="../js/jquery.min.js"></script>';
             }
             if ($this->scripts_bootstrap_js == '') {
-                $a[] = '<script src="../js/bootstrap.min.js"></script>';
+                $a[] = '<script type="text/javascript" src="../js/bootstrap.min.js"></script>';
             }
-            $a[] = '<script src="../js/raphael-min.js"></script>';
-            $a[] = '<script src="../js/morris.min.js"></script>';
-        //  $a[] = '<script src="../js/leaflet.js"></script>';
-            $a[] = '<script src="../js/plugins/metisMenu/metisMenu.min.js"></script>';
-            $a[] = '<script src="../js/sb-admin-2.js"></script>';
+            $a[] = '<script type="text/javascript" src="../js/raphael-min.js"></script>';
+            $a[] = '<script type="text/javascript" src="../js/morris.min.js"></script>';
+        //  $a[] = '<script type="text/javascript" src="../js/leaflet.js"></script>';
+            $a[] = '<script type="text/javascript" src="../js/plugins/metisMenu/metisMenu.min.js"></script>';
+            $a[] = '<script type="text/javascript" src="../js/sb-admin-2.js"></script>';
         }
         if (is_array($this->scripts_externos_js)) {
             foreach ($this->scripts_externos_js as $externo_js) {

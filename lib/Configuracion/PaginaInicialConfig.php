@@ -164,22 +164,22 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $js[] = '  // Cargar mapa IBC Torreón cuando esté lista la página';
         $js[] = '  $(window).load(function() {';
         $js[] = sprintf('    cartodb.createVis(\'IBCTorreonMapa\', \'%s\', {', IBCTorreonConfig::LIMITES);
-        $js[] = '        shareable: false,';
-        $js[] = '        title: true,';
-        $js[] = '        description: true,';
-        $js[] = '        search: false,';
-        $js[] = '        scrollwheel: false,';
-        $js[] = '        infowindow: true,';
-        $js[] = '        fullscreen: true';
-        $js[] = '      })';
-        $js[] = '      .done(function(vis, layers) {';
-        $js[] = '        // Capa colonias';
-        $js[] = '        var colonias_capa = layers[1];';
-        $js[] = '        colonias_capa.setInteraction(true);';
-        $js[] = '        // Ajustes en el mapa';
-        $js[] = '        var map = vis.getNativeMap();';
-        $js[] = '        map.setZoom(14);';
-        $js[] = '      })';
+        $js[] = '      shareable: false,';
+        $js[] = '      title: true,';
+        $js[] = '      description: true,';
+        $js[] = '      search: false,';
+        $js[] = '      scrollwheel: false,';
+        $js[] = '      infowindow: true,';
+        $js[] = '      fullscreen: true';
+        $js[] = '    })';
+        $js[] = '    .done(function(vis, layers) {';
+        $js[] = '      // Capa colonias';
+        $js[] = '      var colonias_capa = layers[1];';
+        $js[] = '      colonias_capa.setInteraction(true);';
+    //  $js[] = '      // Ajustes en el mapa';
+    //  $js[] = '      var map = vis.getNativeMap();';
+    //  $js[] = '      map.setZoom(14);';
+        $js[] = '    })';
         $js[] = '  });';
         $this->javascript[] = implode("\n", $js);
     } // ibc
@@ -247,7 +247,10 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[]  = '    </div>';
         $this->contenido[]  = '  </section>';
         // Acumular javascipt del Twitter Timeline
-        $this->javascript[] = '!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?\'http\':\'https\';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");';
+        $this->javascript[] = <<<FINAL
+  // Twitter timeline
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?\'http\':\'https\';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+FINAL;
     } // ultimas_publicaciones
 
     /**
