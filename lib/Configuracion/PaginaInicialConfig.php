@@ -122,17 +122,6 @@ class PaginaInicialConfig extends \Base\Plantilla {
             '<i class="fa fa-server"></i> Planes'                      => 'sig-planes/index.html',
             '<i class="fa fa-map-marker"></i> S.I.G. de Torreón'       => 'sig-mapas-torreon/index.html',
             '<i class="fa fa-map-marker"></i> Zonificación Secundaria' => 'sig-mapas-torreon/zonificacion-secundaria.html');
-        // PEM
-    //  $pem              = new \PaginaInicial\Destacado();
-    //  $pem->name        = 'Plan Estratégico Metropolitano';
-    //  $pem->description = 'Súmate al esfuerzo de planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad de La Laguna.';
-    //  $pem->image       = 'servicio-pem';
-    //  $pem->url         = 'plan-estrategico-metropolitano/index.html';
-    //  $pem->botones     = array(
-    //      '<i class="fa fa-calendar"></i> Todas las Mesas'     => 'plan-estrategico-metropolitano/index.html',
-    //      '<i class="fa fa-file-text-o"></i> Lee el Plan'      => 'pet/indice.html',
-    //      '<i class="fa fa-download"></i> Descargar documento' => 'plan-estrategico-torreon-enfoque-metropolitano-2040/index.html');
-    //  $pem              = new \PaginaInicial\Destacado();
         // PET
         $pet              = new \PaginaInicial\Destacado();
         $pet->name        = 'Plan Estratégico Torreón 2040';

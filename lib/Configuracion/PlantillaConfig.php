@@ -33,7 +33,7 @@ class PlantillaConfig {
     public $favicon         = 'imagenes/favicon.png';
     public $propio_css      = 'css/trcimplan.css';
     public $en_raiz         = FALSE; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
-    public $para_compartir  = FALSE; // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
+    public $para_compartir  = TRUE;  // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
     public $autor           = 'TrcIMPLAN Staff'; // Autor por defecto
     public $mensaje_oculto;
     public $pie;
@@ -86,22 +86,32 @@ class PlantillaConfig {
             '<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>',
             '<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>');
         // Google Analytics
-    //~ $this->google_analytics;
+        $this->google_analytics = <<<FINAL
+<script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58290501-1', 'auto');
+  ga('send', 'pageview');
+</script>
+FINAL;
         // Algo divertido
         $this->mensaje_oculto = <<<FINAL
 <!-- ===================================================================================================
 
         Instituto Municipal de Planeación y Competitividad de Torreón.
 
-        Y sí... ¡Esta es la 3er. generación de la Plataforma del Conocimiento!
+        3er. generación de la Plataforma del Conocimiento
         Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
 
         Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
           http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
           http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
-
-        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
-        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
 
         Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
           PHP                    http://php.net
