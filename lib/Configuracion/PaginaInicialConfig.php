@@ -127,7 +127,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $pet->name        = 'Plan Estratégico Torreón 2040';
         $pet->description = 'Súmate al esfuerzo de planeación participativa para atender la necesidad urgente de elevar el nivel de competitividad de La Laguna.';
         $pet->image       = 'servicio-pet';
-        $pet->url         = 'pet/indice.html';
+        $pet->url         = 'pet/introduccion.html';
         $pet->botones     = array(
             '<i class="fa fa-list-ul"></i> Índice General'           => 'pet/indice.html',
             '<i class="fa fa fa-font"></i> Índice Alfabético'        => 'pet/index.html',
@@ -304,7 +304,7 @@ FINAL;
     //      'Indicadores Básicos por Colonias'  => 'ibc-torreon/index.html',
             'Información Geográfica'            => 'sig-mapas-torreon/index.html',
             'Investigaciones'                   => 'investigaciones/index.html',
-            'Plan Estratégico Torreón 2040'     => 'pet/indice.html'));
+            'Plan Estratégico Torreón 2040'     => 'pet/introduccion.html'));
         $institucional = new \PaginaInicial\Mapa('INSTITUCIONAL', array(
             'Consejo Directivo'                 => 'consejo-directivo/integrantes.html',
             'Estructura Orgánica'               => 'institucional/estructura-organica.html',

@@ -33,8 +33,8 @@ class PET0101Introduccion extends \Base\PublicacionSchemaArticle {
     public function __construct() {
         // Título, autor y fecha
         $this->nombre                     = 'Introducción';
-     // $this->autor                      = '';
-        $this->fecha                      = '2016-10-10T01:01';
+    //  $this->autor                      = '';
+        $this->fecha                      = '2016-12-05T12:00';
         // El nombre del archivo a crear
         $this->archivo                    = 'introduccion';
         // La descripción y claves dan información a los buscadores y redes sociales
@@ -42,11 +42,11 @@ class PET0101Introduccion extends \Base\PublicacionSchemaArticle {
         $this->claves                     = 'Plan, Estrategico, Torreón, 2040, Metropolitano, Introduccion';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
-        // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/PET/PET0101Introduccion.md';
+        // Ruta al archivo HTML con el contenido
+        $this->contenido_archivo_html     = 'lib/PET/PET0101Introduccion.html';
         // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
+        $this->poner_imagen_en_contenido  = FALSE;
+        $this->para_compartir             = FALSE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

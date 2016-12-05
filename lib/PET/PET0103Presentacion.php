@@ -1,6 +1,6 @@
 <?php
 /**
- * TrcIMPLAN Sitio Web - PET0000Indice
+ * TrcIMPLAN Sitio Web - PET0103Presentacion
  *
  * Copyright (C) 2016 IMPLAN Torreón
  *
@@ -23,27 +23,27 @@
 namespace PET;
 
 /**
- * Clase PET0000Indice
+ * Clase PET0103Presentacion
  */
-class PET0000Indice extends \Base\PublicacionSchemaArticle {
+class PET0103Presentacion extends \Base\PublicacionSchemaBlogPosting {
 
     /**
      * Constructor
      */
     public function __construct() {
         // Título, autor y fecha
-        $this->nombre                     = 'Índice General';
+        $this->nombre                     = 'Presentación';
     //  $this->autor                      = '';
-        $this->fecha                      = '2016-10-10T00:00';
+        $this->fecha                      = '2016-00-00T00:00';
         // El nombre del archivo a crear
-        $this->archivo                    = 'indice';
+        $this->archivo                    = 'presentacion';
         // La descripción y claves dan información a los buscadores y redes sociales
-        $this->descripcion                = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Índice General.';
-        $this->claves                     = 'Plan, Estrategico, Torreón, 2040, Metropolitano, Indice';
-        // Opción del menú Navegación a poner como activa cuando vea esta publicación
-        $this->nombre_menu                = 'Plan Estratégico Torreón 2040 > Índice General';
+        $this->descripcion                = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Presentación.';
+        $this->claves                     = 'IMPLAN, Torreon, Torreón, 2040, Presentacion, Antecedentes, Objetivos, Alcances';
+        // Opción del menú Navegación a poner como activa cuando vea esta publicación.
+        $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
-        $this->contenido_archivo_markdown = 'lib/PET/PET0000Indice.md';
+        $this->contenido_archivo_markdown = 'lib/PET/PET0103Presentacion.md';
         // Banderas
         $this->poner_imagen_en_contenido  = FALSE;
         $this->para_compartir             = FALSE;
@@ -53,6 +53,6 @@ class PET0000Indice extends \Base\PublicacionSchemaArticle {
         $this->regiones                   = array();
     } // constructor
 
-} // Clase PET0000Indice
+} // Clase PET0103Presentacion
 
 ?>
