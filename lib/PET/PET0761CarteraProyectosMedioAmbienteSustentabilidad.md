@@ -190,4 +190,4 @@ _Nota: Cada proyecto tiene un número como clave, los programas están como punt
 * Integral de calidad de vida y desarrollo sustentable
     364. Jóvenes guardias ambientales
 
-[Índice](indice.html) | Siguiente: [Instituciones Participantes](anexos-instituciones-participantes.html)
+[Índice](indice.html) | Siguiente: [Anexos: Agradecimientos](anexos-agradecimientos.html)

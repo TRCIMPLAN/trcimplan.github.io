@@ -44,6 +44,7 @@
 
 ## Anexos
 
+* [Agradecimientos](anexos-agradecimientos.html)
 * [Instituciones Participantes](anexos-instituciones-participantes.html)
 * [Representantes por Instituciones](anexos-representantes-instituciones.html)
 * [Índice Alfabético](index.html)

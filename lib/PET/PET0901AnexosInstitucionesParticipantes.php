@@ -39,14 +39,14 @@ class PET0901AnexosInstitucionesParticipantes extends \Base\PublicacionSchemaArt
         $this->archivo                    = 'anexos-instituciones-participantes';
         // La descripción y claves dan información a los buscadores y redes sociales
         $this->descripcion                = 'Plan Estratégico para Torreón con enfoque Metropolitano 2040 - Anexos: Instituciones Participantes.';
-        $this->claves                     = 'Plan, Estrategico, Torreón, 2040, Metropolitano, ';
+        $this->claves                     = 'Plan, Estrategico, Torreón, 2040, Metropolitano, Instituciones';
         // Opción del menú Navegación a poner como activa cuando vea esta publicación
         $this->nombre_menu                = 'Plan Estratégico Torreón 2040';
         // Ruta al archivo markdown con el contenido
         $this->contenido_archivo_markdown = 'lib/PET/PET0901AnexosInstitucionesParticipantes.md';
         // Banderas
-        $this->poner_imagen_en_contenido  = false;
-        $this->para_compartir             = false;
+        $this->poner_imagen_en_contenido  = FALSE;
+        $this->para_compartir             = FALSE;
         // Para el Organizador
         $this->categorias                 = array();
         $this->fuentes                    = array();

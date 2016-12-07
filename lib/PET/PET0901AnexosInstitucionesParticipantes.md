@@ -419,4 +419,4 @@
 * Ximena Marisol Lozano Castillo
 * Yonatan Armando Vela López
 
-[Índice](indice.html) | Siguiente: [Representantes por Instituciones](anexos-representantes-instituciones.html)
+[Índice](indice.html) | Siguiente: [Anexos: Representantes por Instituciones](anexos-representantes-instituciones.html)
